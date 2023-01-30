@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 73%
+source-wordcount: '1232'
+ht-degree: 72%
 
 ---
 
@@ -63,23 +63,20 @@ API 経由で送信されたデータ（経由など）の場合 [Data Insertion
 
 2022年10月現在のクライアントヒントを次の表に示します。
 
-| ヒント* | 説明 | 高／低エントロピー | 例 |
+| ヒント | 説明 | 高／低エントロピー | 例 |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | ブラウザーと重要なバージョン | 低 | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | TRUE |
-| Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | &quot;Android&quot; |
-| Sec-CH-UA-Arch | サイトのアーキテクチャ | 高 | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | アーキテクチャのビット数 | 高 | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | ブラウザーの完全なバージョン | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | デバイスモデル | 高 | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | &quot;10&quot; |
+| Sec-CH-UA | ブラウザーと重要なバージョン | 低 | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | `true` |
+| Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | `"Android"` |
+| Sec-CH-UA-Arch | サイトのアーキテクチャ | 高 | `"arm"` |
+| Sec-CH-UA-Bitness | アーキテクチャのビット数 | 高 | `"64"` |
+| Sec-CH-UA-Full-Version | ブラウザーの完全なバージョン | 高 | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | デバイスモデル | 高 | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
 
-
-* 低エントロピーのヒントは、ヘッダーを介して収集されます。 高エントロピーヒントは、JavaScript を使用して収集され、クエリー文字列パラメーターで渡されます。
-
-* 高エントロピーのヒントは、JavaScript 呼び出しを通じて収集され、クエリパラメーターを通じて渡されます
-
+* 低エントロピーのヒントは、リクエストヘッダーを通じて収集されます。
+* 高エントロピーのヒントは、JavaScript を使用して収集され、クエリー文字列パラメーター値を介して渡されます。 クエリー文字列パラメーターは、 `h.` をイメージリクエストのプレフィックスとして使用します。
 
 +++
 

@@ -1,12 +1,12 @@
 ---
 title: データ収集クエリパラメーター
-description: イメージリクエストで使用されるすべてのクエリ文字列パラメーターをリストします。
+description: イメージリクエストで使用されるすべてのクエリ文字列パラメーターのリストです。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '718'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 255 バイトを超える URL は分割されます。最初の 255 バイトが `g` パラメーターに、残りのすべてのバイトが `-g` パラメーターに表示されます。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` クエリ文字列の略記法。 |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` クエリ文字列の略記法。 |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | を表す複数の変数のプレフィックス [クライアントヒント](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 階層ディメンション。 |
 | `hp` | なし | 廃止。以前のバージョンの Adobe Analytics では、現在の URL がブラウザーのホームページであるかどうかが判別されました。 |
 | `j` | なし | ブラウザーにインストールされている JavaScript バージョン。 |
@@ -74,9 +75,9 @@ ht-degree: 100%
 | `t` | なし | ヒットの生成日時。`dd/mm/yyyy hh:mm:ss w o` 形式を使用します。<br> - `dd/mm/yyyy hh:mm:ss` JavaScript の日時。`0` は 1 月、`11` は 12 月です。<br> - `w` は曜日です。`0` は日曜日、`6` は土曜日です。<br> - `o` は負の GMT オフセット（分単位）。例えば、`420` は GMT-7 です。 |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | ヒットで設定されたカスタムタイムスタンプ。通常、オフライントラッキングで使用されます。 |
 | `v` | なし | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションで使用されます。 |
-| `v0` | [`campaign`](../vars/page-vars/campaign.md) | [トラッキングコードデ](/help/components/dimensions/tracking-code.md)ィメンション。 |
+| `v0` | [`campaign`](../vars/page-vars/campaign.md) | [トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンション。 |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md)、またはカスタムコンバージョンディメンション。 |
-| `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪問者 ID 変数。 |
+| `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪問者 ID の変数。 |
 | `vidn` | なし | 新規訪問者に対して AppMeasurement によって設定されます。訪問者の Cookie に格納された ID 値が含まれます。 |
 | `vmk` | `vmk` | 廃止。訪問者移行キー。サードパーティ Cookie からファーストパーティ Cookie に実装を移行するのに役立ちました。 |
 | `vvp` | `variableProvider` | Data Connectors で使用されます。 |
