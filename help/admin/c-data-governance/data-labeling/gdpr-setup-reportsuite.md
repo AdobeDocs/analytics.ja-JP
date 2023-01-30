@@ -3,10 +3,10 @@ description: レポートスイートのデータにラベルを設定すると�
 title: レポートスイートのデータのラベル設定
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 ## レポートスイートのプライバシーラベルの割り当てまたは編集 {#assign-edit}
 
-**例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics でAdobe Experience Cloud Platform の Data Usage Labeling &amp; Enforcement(DULE) フレームワークを使用する必要があります。
+**例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。
 
 1. Adobe Analyticsで、に移動します。 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データの設定と収集]** > **[!UICONTROL データガバナンス]**.
 
@@ -48,10 +48,6 @@ ht-degree: 50%
    この画面には、現在適用されているラベルが表示され、追加のラベルを適用できます。 コンポーネントによっては、すべてのラベルを適用または変更できない場合があります。
 
    ![適用されたラベル](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、様々なソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。
 
 1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
