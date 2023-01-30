@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1248'
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ API 経由で送信されたデータ（経由など）の場合 [Data Insertion
 
 2022年10月現在のクライアントヒントを次の表に示します。
 
-| ヒント | 説明 | 高／低エントロピー | 例 |
+| ヒント* | 説明 | 高／低エントロピー | 例 |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | ブラウザーと重要なバージョン | 低 | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | TRUE |
@@ -75,7 +75,11 @@ API 経由で送信されたデータ（経由など）の場合 [Data Insertion
 | Sec-CH-UA-Model | デバイスモデル | 高 | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | &quot;10&quot; |
 
-高エントロピーヒントは、JavaScript 呼び出しを通じて収集され、クエリパラメーターを介して渡されます
+
+* 低エントロピーのヒントは、ヘッダーを介して収集されます。 高エントロピーヒントは、JavaScript を使用して収集され、クエリー文字列パラメーターで渡されます。
+
+* 高エントロピーのヒントは、JavaScript 呼び出しを通じて収集され、クエリパラメーターを通じて渡されます
+
 
 +++
 
