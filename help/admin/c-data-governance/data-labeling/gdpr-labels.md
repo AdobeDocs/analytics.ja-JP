@@ -3,9 +3,9 @@ description: Adobe Analytics 変数のデータプライバシーラベルの例
 title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ ht-degree: 98%
 
 Adobe Analytics のデータプライバシー実装では、識別データ、機密データ、データガバナンス用に以下のラベルを利用できます。
 
-## DULE ラベル {#dule-labels}
-
->[!NOTE]
->
->Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、アドビのすべてのソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この初期リリースでは、Analytics は、データプライバシーに関連する DULE ラベルのみを公開しています。他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
-
-## ID データラベル (DULE) {#identity-data-labels}
+## ID データラベル {#identity-data-labels}
 
 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。
 
@@ -39,7 +33,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 機密データラベル (DULE) {#sensitive-data-labels}
+## 機密データラベル {#sensitive-data-labels}
 
 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。
 
@@ -133,9 +127,9 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 >
 > 名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
-## 変数のタイプとそれぞれが対応しているデータプライバシー/DULE ラベル {#variable-types}
+## 変数のタイプとそれぞれが対応しているデータプライバシーラベル {#variable-types}
 
-データプライバシー／DULE のラベル設定は、Analytics 変数の 4 つの主要クラスに影響します。すべての変数ですべてのラベルを利用できるわけではありません。以下の表には、各変数で利用できるラベルと利用できないラベルがまとめられています。
+データプライバシーのラベル設定は、Analytics 変数の 4 つの主要クラスに影響します。 すべての変数ですべてのラベルを利用できるわけではありません。以下の表には、各変数で利用できるラベルと利用できないラベルがまとめられています。
 
 | 変数の種類 | 利用できるラベル | 利用できないラベル |
 |--- |--- |--- |
