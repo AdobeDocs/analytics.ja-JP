@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '639'
 ht-degree: 96%
 
 ---
@@ -174,7 +174,6 @@ ht-degree: 96%
       + [ラベル設定に関するベストプラクティス](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [ラベル設定の例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [名前空間](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
