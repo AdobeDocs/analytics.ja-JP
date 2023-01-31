@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
 workflow-type: tm+mt
-source-wordcount: '3549'
-ht-degree: 99%
+source-wordcount: '3578'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年1月** |  |
+| テーブルのフィルターと並べ替え | の内容（手順の追加や使用可能なオプションの説明を含む）を更新しました。 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 記事。 この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | 専用のページ [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | ユーザー環境設定 | ユーザーの環境設定の多くが、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). |
 | プロジェクト用に自動保存 | 内の自動保存機能を含めるようコンテンツを更新しました [プロジェクトの保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
