@@ -4,10 +4,10 @@ keywords: eVar
 title: コンバージョン変数（eVar）
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+workflow-type: tm+mt
+source-wordcount: '1672'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,10 @@ ht-degree: 100%
 
 カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。eVar は訪問ベースにすることができ、cookie と同じように機能します。eVar 変数に渡された値は、事前設定した期間、ユーザーを追跡します。
 
-以下は、このトピックの概要に関するビデオです。
+
+## コンバージョン変数 (eVar) の概要
+
+ビデオの概要を次に示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -33,9 +36,9 @@ eVar は、次のような原因と結果を測定するために最適です。
 >
 >イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja)を実装することをお勧めします。
 
-## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[コンバージョン変数の編集](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)時に使用されるフィールドの説明。
+[コンバージョン変数の編集](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)時に使用されるフィールドの説明。
 
 | 要素 | 説明 |
 | --- | --- |
@@ -68,3 +71,18 @@ eVar では大文字と小文字が区別されません。レポートで使用
 ### カウンター
 
 eVar は、文字列値を保持するためによく使用されますが、カウンターとして動作するように設定されることもあります。eVar は、ユーザーがイベントの前に実行したアクション数をカウントする場合に、カウンターとして使用できます。例えば、購入前の内部検索数を取り込むために eVar を使用できます。訪問者が検索をおこなうたびに、eVar には「+1」した値が含まれます。訪問者が購入前に 4 回検索をおこなった場合、それぞれの合計数に関するインスタンス（1.00、2.00、3.00 および 4.00）を確認できます。ただし、4.00 のインスタンスのみが、購入イベント（注文指標および売上高指標）のクレジットを受け取ります。eVar カウンターの値には、正の数値のみを使用できます。
+
+## コンバージョン変数の追加または編集
+
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. レポートスイートを選択します。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;の順にクリックします。
+1. [!UICONTROL コンバージョン変数]ページで、変更するコンバージョン変数の横にある&#x200B;**[!UICONTROL 展開]**&#x200B;アイコン [[+]] をクリックします。
+
+   または
+
+   「**[!UICONTROL 新規追加]**」をクリックして、未使用の eVar をレポートスイートに追加します。
+1. 変更するコンバージョン変数フィールドを選択します。
+
+   [コンバージョン変数 - 説明](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)を参照してください。一部のフィールドでは、直接入力できます。ドロップダウンリストからサポートされている値を選択するフィールドもあります。
+1. 「**[!UICONTROL 保存]**」をクリックします。
