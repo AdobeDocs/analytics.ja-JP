@@ -3,14 +3,14 @@ title: Adobe Analytics 権限 - 概要テーブル
 description: Adobe Admin Consoleで使用可能なAdobe Analytics権限を要約した表。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 96%
+source-wordcount: '1280'
+ht-degree: 95%
 
 ---
 
-# Adobe Analytics 権限 - 概要テーブル
+# Admin Console内の Analytics 権限
 
 次の概要テーブルを使用して、Adobe Admin Console内のAdobe Analytics権限を論理グループ別に識別します。
 

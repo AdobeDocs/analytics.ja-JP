@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Analytics 管理ガイド](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + Adobe管理コンソール {#admin-console}
-   + [Admin Console での Adobe Analytics](admin-console/home.md)
+   + [概要](admin-console/home.md)
    + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)
    + [Adobe Analytics の管理者の役割](admin-console/admin-roles-in-analytics.md)
-   + 権限 {#permissions}
+   + Analytics ツール権限の概要 {#permissions}
       + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [ブランド提携](admin/company/co-branding-admin.md)
       + [レポートスイートを非表示](admin/company/c-hide-report-suites.md)
       + [セキュリティマネージャー](admin/company/security-manager.md)
-   + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
    + [ビデオ管理](admin/video-management.md)
    + サーバーコールの使用状況 {#server-call-usage}
       + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)
