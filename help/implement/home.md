@@ -2,7 +2,7 @@
 title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティ、アプリケーションに実装します。
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 40%
@@ -65,7 +65,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 >[!TIP]
 >
->現在の状況に基づいて実装を選択する際のアドバイスとベストプラクティスについては、Adobeにお問い合わせください。 >
+>現在の状況に基づいて実装を選択する際のアドバイスとベストプラクティスについては、Adobeにお問い合わせください。
 
 ## モバイルアプリの実装方法
 
