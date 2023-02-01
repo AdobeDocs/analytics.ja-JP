@@ -5,16 +5,16 @@ title: 共有可能なリンクの作成
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 68%
 
 ---
 
 # 共有可能なリンクの作成
 
-Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。リンクを受け取ったユーザーは、プロジェクトにアクセスする前に Adobe Analytics にログインする必要があります。
+Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。ほとんどのタイプのリンクでは、リンクを受け取ったユーザーは、プロジェクトにアクセスする前にAdobe Analyticsにログインする必要があります。
 
 ## プロジェクトリンクの取得 {#project-link}
 
@@ -33,10 +33,18 @@ Analysis Workspace には、プロジェクトまたはプロジェクトの特�
 
 ![](assets/get-viz-link.png)
 
+## 公開リンクを取得
+
+{{release-limited-testing-section}}
+
+Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有できます。 これには、組織外のユーザーや、組織内でAdobe Analyticsのプロビジョニングを行っていないユーザーが含まれます。
+
+詳しくは、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
+
 ## 目次でのリンクの使用 {#TOC}
 
 様々なリンクオプションを活用するためのヒントの 1 つは、Workspace プロジェクトの上部に常に目次を含めることです。目次では、他の関連プロジェクト、特定のパネルおよび特定のビジュアライゼーションにリンクできます。これにより、プロジェクトの受信者によるナビゲーションが容易になります。
 
-リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法に関する[ビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ja)をご覧ください。
+[ビデオを見る](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ja) リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法について説明します。
 
 ![](assets/toc.png)

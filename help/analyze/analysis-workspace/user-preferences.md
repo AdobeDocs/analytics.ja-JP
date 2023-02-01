@@ -4,10 +4,10 @@ description: ユーザーの一般的な環境設定とプロジェクト環境�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 5706e7196ab7e0e044bf5114655c9d9e04468c60
 workflow-type: tm+mt
-source-wordcount: '2507'
-ht-degree: 48%
+source-wordcount: '3365'
+ht-degree: 36%
 
 ---
 
@@ -182,6 +182,26 @@ Analysis Workspaceで作成するすべての新しいプロジェクトのビ�
 |  | 凡例を表示 | 散布図のビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 |  | 項目数の上限を設定 | 散布図の X 軸の項目数を減らします。 これは、大きなデータセットがある場合に役立ちます。 |
 |  | Y 軸をゼロに固定 | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
+
+## 会社の環境設定
+
+>[!AVAILABILITY]
+>
+>この節で説明する公開アクセスリンク機能は、リリースの制限付きテスト段階に含まれています。 このメモは、機能が一般に利用可能になると削除されます。 Analytics のリリースプロセスについて詳しくは、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).
+
+組織内のすべてのユーザーおよびプロジェクトに適用する会社の環境設定を更新できます。 これらの環境設定へのアクセス方法について詳しくは、 [環境設定を更新](#update-preferences).
+
+| セクション | 環境設定 | オプション |
+| --- | --- | --- |
+| **「レポート」タブ** |  |  |
+|  | 「レポート」タブを非表示 | 組織内のすべてのユーザーの「レポート」タブを非表示にします。 |
+| **公開アクセスリンク** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | すべての公開アクセスリンクを無効にする | <p>組織内のユーザーがAnalysis Workspaceアカウントを持たないユーザーとAnalysis Workspaceプロジェクトを共有できないようにします。 ユーザーは、組織内の他のAnalysis Workspaceユーザーとのみプロジェクトを共有できます。</p> <p>パブリックリンクが無効な場合：</p> <ul><li><p>ユーザーが公開アクセスリンクを作成できない</p><p>「公開リンクを共有」オプションは、共有メニューから削除されました。 つまり、ユーザーは、組織内にAnalysis Workspaceアカウントを持たないユーザーと、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>既存の公開リンクはすべて無効になります</p></li><p>公開リンクが無効になってから再度有効になった場合、以前に無効にされたすべてのリンクは自動的には再アクティブ化されません。 この場合、ユーザーは、プロジェクトの共有ダイアログボックスで、各プロジェクトに対して手動で再アクティブ化する必要があります。</p> |
+|  | パスワードが必要です | <p>組織内のユーザーが公開リンクを作成する際にパスワード保護を要求するよう強制します。</p> <p>このオプションを有効にすると、ユーザーがAnalysis Workspaceプロジェクトへのパブリックリンクを作成したときに、共有ダイアログで「パスワードが必要」オプションが有効になり、ユーザーは無効にできません。 ( ユーザーが組織外のユーザーとプロジェクトを共有する方法について詳しくは、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p><p>このオプションを有効にする際は、次の点を考慮してください。</p> <ul><li><p>このオプションを有効にすると、パスワード保護が有効になっていない、現在アクティブなパブリックリンクがすべて無効になります。</p></li> <li><p>このオプションを有効にし、後で無効にした場合、以前に非アクティブ化されたすべてのリンクは自動的には再アクティブ化されません。 この場合、ユーザーは、プロジェクトの共有ダイアログボックスで手動で再アクティブ化する必要があります。</p></li></ul> |
+|  | シングルサインオン認証が必要 | <p>すべてのパブリックリンクに対してシングルサインオン (SSO) 認証が必要です。 このオプションを有効にした場合、Federated ID を持ち、Experience Cloudにログインできる受信者のみが、共有された公開リンクにアクセスできます。</p> <p>このオプションを有効にすると、ユーザーがAnalysis Workspaceプロジェクトへのリンクを作成したときに、共有ダイアログで「シングルサインオン (SSO) 認証が必要」オプションが有効になり、ユーザーは無効にできません。 ( ユーザーが組織外のユーザーとプロジェクトを共有する方法について詳しくは、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>このオプションを有効にする際は、次の点を考慮してください。</p><ul><li><p>このオプションを有効にすると、SSO が有効になっていない、現在アクティブなパブリックリンクがすべて非アクティブになります。</p></li> <li><p>このオプションを有効にし、後で無効にした場合、以前に非アクティブ化されたすべてのリンクは自動的には再アクティブ化されません。 この場合、ユーザーは、プロジェクトの共有ダイアログボックスで手動で再アクティブ化する必要があります。</p></li> <li><p>このオプションは、組織で SSO が実装されている場合にのみ使用できます。 システム管理者が組織で SSO を有効にする方法について詳しくは、 [ID とシングルサインオンの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html){target=_blank}.</p><p>組織で SSO が設定されている場合は、コンソールに自動アカウント作成の種類が実装されているかどうかを確認します。 通常、システム管理者がこの設定を行います。詳しくは、 [自動アカウント作成を有効にする](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>HIPAA への準拠が必要な業界にいる場合、このオプションは自動的に有効化され、無効化できません。</p></li></ul> |
+|  | 「シングルサインオン認証が必要」オプションをユーザーに表示 | <p>「シングルサインオン認証が必要」オプションが無効になっている場合は、組織内のユーザーが共有するプロジェクトにシングルサインオン認証を必要とするかどうかを選択できるように、このオプションを選択できます。 この場合、ユーザーがAnalysis Workspaceプロジェクトへのリンクを作成すると、共有ダイアログで「シングルサインオン (SSO) 認証が必要」オプションが有効になります。 選択した場合は、無効にできます。<!--or is this disabled by default?--> ( ユーザーが組織外のユーザーとプロジェクトを共有する方法について詳しくは、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p><p>「シングルサインオン認証が必要」オプションが有効な場合、ユーザーに対して表示するこのオプションが選択され、選択を解除することはできません。</p><p>このオプションを選択する際は、次の点に注意してください。</p><ul><li><p>このオプションは、組織で SSO が実装されている場合にのみ使用できます。 システム管理者が組織で SSO を有効にする方法について詳しくは、 [ID とシングルサインオンの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html){target=_blank}.</p><p>組織で SSO が設定されている場合は、コンソールに自動アカウント作成の種類が実装されているかどうかを確認します。 通常、システム管理者がこの設定を行います。詳しくは、 [自動アカウント作成を有効にする](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>このオプションを選択し、Experience Cloudが単一のサインオン認証を必要とする場合、Federated ID を持ち、ユーザーにログインできる受信者のみが、共有された公開リンクにアクセスできます。</p></li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## デフォルトの環境設定を復元
 

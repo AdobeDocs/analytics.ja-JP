@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 72%
+source-wordcount: '1245'
+ht-degree: 71%
 
 ---
 
@@ -77,6 +77,8 @@ API 経由で送信されたデータ（経由など）の場合 [Data Insertion
 
 * 低エントロピーのヒントは、リクエストヘッダーを通じて収集されます。
 * 高エントロピーのヒントは、JavaScript を使用して収集され、クエリー文字列パラメーター値を介して渡されます。 クエリー文字列パラメーターは、 `h.` をイメージリクエストのプレフィックスとして使用します。
+
+高エントロピーヒントは、JavaScript 呼び出しを通じて収集され、クエリパラメーターを介して渡されます
 
 +++
 

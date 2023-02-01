@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1464'
 ht-degree: 58%
 
 ---
@@ -41,7 +41,7 @@ AN-282634;AN-289684;AN-299597;AN-299630;AN-300128;AN-301633;AN-301683;AN-301745;
 | **Report Builder での予定タスクの一時停止** | 2023 年 1 月 7 日 | オン **2023 年 1 月 31 日**、Adobeは、パフォーマンスと配信の最適化作業の一環として、Report Builderでスケジュールされたタスクに対する変更をロールアウトします。 これらの変更には、スケジュールされた配信の「x 回後に終了」機能の削除が含まれます。<p>1 時間ごとの Report Builder タスクのスケジュールを継続し、最大 99 回発生した後にタスクを終了させることができます。ロールバックは 1 時間ごとのタスクにのみ適用されることに注意してください。「x 回後に終了する」は、その他のすべての配信間隔（日別、週別、月別、年別）では使用できません。このオプションは、2023年1月31日（PT）に廃止されることに注意してください。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **IP からジオロケーションへのマッピングの改善** | 2023 年 1 月 5 日 | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初は 2022 年 10 月に予定されていたので、Adobe Analyticsでは、この新しいデータセットを **2023 年 1 月 12 日**. 新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、Analytics データフィードなど ) は、新しく改善されたマッピングを自動的に利用します。 データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データは、新しいマッピングを自動的に利用します。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2023 年 1 月 5 日 | この更新は、もともと 2022 年 10 月 5 日に予定されていたもので、今後は **2023 年 1 月 12 日**. Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobeは、これらをマッピングする内部ルックアップテーブルを維持しています `<domain>:<ISP>` の値をAdobe Analyticsのレポートツール (Analysis Workspace、Reports &amp; Analytics、Reporting API、Data Warehouse、LiveStream など ) でレポート目的で通信事業者名に変換します。 ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタは、現在、通信事業者フィールドをマッピングしていないので、通信事業者レポートは、現在、Experience Platform、CJA などで使用できません。 したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
-| **トラフィックスパイク通知のガイドラインを更新しました** | 2022年11月18日（PT） | 以前のガイドラインは、ヒット数に厳密に基づいていました。[新しいガイドライン](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=ja)は、レポートスイートのサイズと増加率の組み合わせに基づいています。 |
+| **トラフィックスパイク通知のガイドラインを更新しました** | 2022年11月18日（PT） | 以前のガイドラインは、ヒット数に厳密に基づいていました。[新しいガイドライン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)は、レポートスイートのサイズと増加率の組み合わせに基づいています。 |
 
 {style=&quot;table-layout:auto&quot;}
 

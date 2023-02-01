@@ -3,18 +3,20 @@ description: 「恒常的なトラフィック」セクションでは、予想�
 title: 恒常的なトラフィック増加の指定
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 
 # 恒常的なトラフィック増加の指定
 
-「恒常的なトラフィック」セクションでは、予想されるトラフィックレベルを変更できるので、アドビで新しいトラフィックレベルを処理するリソースを再割り当てすることができます。
+予想されるトラフィックレベルを変更して、Adobeが新しいトラフィックレベルを処理するためのリソースを再割り当てできるようにすることができます。 ( または、 [トラフィックスパイクのスケジュール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) リソースを一時的に再割り当てする場合 )。
 
-恒常的なトラフィック増加を指定する前に、[トラフィック増加に対して必要なリードタイム](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)に関する情報をお読みください。
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## 恒常的なトラフィック増加の指定
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックして、レポートスイートマネージャーを開きます。
 1. レポートスイートを選択します。
