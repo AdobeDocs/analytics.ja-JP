@@ -2,11 +2,10 @@
 title: JavaScript 版 AppMeasurement を使用したAdobe Analyticsの実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
-exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 91%
+source-wordcount: '198'
+ht-degree: 41%
 
 ---
 
@@ -14,34 +13,79 @@ ht-degree: 91%
 
 JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
-## JavaScript を使用したアドビへのデータ送信のワークフロー全体
+実装タスクの概要です。
 
-1. `AppMeasurement.js` ファイルを読み込みます。このファイルには、アドビへのデータの送信に必要なライブラリが含まれています。
+![AppMeasurement を使用したAdobe分析の実装の概要](../assets/appmeasurement-annotated.png)
 
-   ```html
-   <script src="AppMeasurement.js"></script>
-   ```
+<table>
+<tr>
+<td></td><td> <b>タスク</b></td><td><b>詳細情報</b></td>
+</tr>
 
-2. `AppMeasurement.js` で設定変数を定義します。Analytics オブジェクトがインスタンス化されるとき、これらの変数はデータ収集の設定が正しいことを確認します。定義できる変数の完全なリストについては、[設定変数](../vars/config-vars/configuration-variables.md)を参照してください。
+<tr>
+<td>1</td><td>次の条件を満たしていることを確認します。 <b>レポートスイートの定義</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+</tr>
 
-   ```js
-   // Instantiate the Analytics tracking object with report suite ID
-   var s_account = "examplersid";
-   var s=s_gi(s_account);
-   // Make sure data is sent to the correct location
-   s.trackingServer = "example.data.adobedc.net";
-   ```
+<tr>
+<td>2</td><td><b>AppMeasurement に必要な JavaScript コードのダウンロード</b> を使用します。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
+</tr>
 
-3. サイトのページコード内でページレベルの変数を定義します。これらの変数は、アドビに送信される特定のディメンションと指標を決定します。定義できる変数の完全なリストについては、[ページ変数](../vars/page-vars/page-variables.md)を参照してください。
+<tr>
+<td>3</td><td><b>追加 <code>AppMeasurement.js</code> を web サイトのテンプレートファイルに追加します。</b>. コードには、データをAdobeに送信するために必要なライブラリが含まれています。
 
-   ```js
-   s.pageName = "Example page";
-   s.eVar1 = "Example eVar";
-   s.events = "event1";
-   ```
+```html
+<head>
+  <script src="AppMeasurement.js"></script>
+  …
+</head>
+```
 
-4. すべてのページレベル変数が定義されたら、`t()` メソッドを使用してデータをアドビに送信します。詳しくは、[t](../vars/functions/t-method.md) を参照してください。
+</td><td></td>
+</tr>
 
-   ```js
-   s.t();
-   ```
+<tr>
+<td>4</td><td><b><code>AppMeasurement.js</code></b> で設定変数を定義します。Analytics オブジェクトがインスタンス化される際に、これらの変数は、データ収集の設定が正しいことを確認します。
+
+```JavaScript
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "examplersid";
+var s=s_gi(s_account);
+ 
+// Make sure data is sent to the correct tracking server
+s.trackingServer = "example.data.adobedc.net";
+```
+
+</td><td><a href="../vars/config-vars/configuration-variables.md">設定変数</a></td>
+</tr>
+
+<tr>
+<td>5</td><td><b>サイトのページコード内でページレベルの変数を定義する</b>. これらの変数は、アドビに送信される特定のディメンションと指標を決定します。
+
+```js
+s.pageName = "Example page";
+s.eVar1 = "Example eVar";
+s.events = "event1";
+```
+
+</td><td><a href="../vars/page-vars/page-variables.md">ページ変数</a></td>
+</tr>
+
+<tr>
+<td>6</td><td><b>を使用してAdobeにデータを送信 <code>t()</code> メソッド</b>（すべてのページ変数が定義されている場合）
+
+```js
+s.t();
+```
+
+</td><td><a href="../vars/functions/t-method.md">t() メソッド</a></td>
+</tr>
+
+<tr>
+<td>7</td><td><b>実装を拡張および検証する</b> 実稼動環境にプッシュする前に</b></td><td></td>
+</tr>
+
+</table>
+
+## その他のリソース
+
+- [変数、関数、メソッド、プラグインの概要](../vars/overview.md)
