@@ -3,10 +3,10 @@ description: 成功イベントを設定する方法について手順を説明�
 title: 成功イベントの設定
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ ht-degree: 100%
 1. 「**[!UICONTROL 極性]**」列で、この指標の上昇傾向が良いのか悪いのかを指定します。
 1. 「**[!UICONTROL 表示]**」列で、メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
 
-   この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。[さらに詳しく...](/help/admin/admin/metric-visibility.md)
+   この設定は、その指標またはイベントのデータ収集には影響しません。次のように、ユーザーインターフェイスでの表示のみに影響します。
+
+
+   | 設定 | 表示 | 非表示 |
+   |---------|----------|---------|
+   | [!UICONTROL **すべての場所で表示**] | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> | 該当なし |
+   | [!UICONTROL **ビルダー**] | <ul><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **すべての場所で非表示**] | 該当なし | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> |
+
 1. 説明を入力します。
 1. イベントを常に記録するかどうかを選択します。
 1. パーティシペーション指標を有効または無効にします。
