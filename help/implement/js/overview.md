@@ -2,7 +2,7 @@
 title: JavaScript 版 AppMeasurement を使用したAdobe Analyticsの実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
-source-git-commit: 93e16a538d6dc05c9cbf0703664aa5320f45b731
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 41%
@@ -20,7 +20,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 <table>
 
 <tr>
-<th style="width:5%"></th><th><b>タスク</b></th><th><b>詳細情報</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>タスク</b></th><th style="width:20%"><b>詳細情報</b></th>
 </tr>
 
 <tr>
