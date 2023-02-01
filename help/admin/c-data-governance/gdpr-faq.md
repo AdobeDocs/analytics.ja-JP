@@ -3,7 +3,7 @@ description: Adobe Analytics のデータガバナンスに関する FAQ
 title: データガバナンスに関するよくある質問（FAQ）
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ PII やデータに関連する問題が発生した場合は、アカウント�
 PII やデータに関連する問題が発生した場合は、アカウントマネージャー（CSM）に連絡し、エンジニアリングアーキテクトコンサルティングチームと協力して問題解決に必要な労力のレベルを確認したうえで、問題を解決するよう依頼してください。
 
 +++
-
 
 その他のデータプライバシーに関するリソース：
 

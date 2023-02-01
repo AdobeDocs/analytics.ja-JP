@@ -4,7 +4,7 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
 
 ### 会社レポートの管理 {#manage-company-reports}
 
-管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。 固定された項目は、その後に ![レポートアイコン](assets/report-icon.png) レポートアイコン このビューでは、1 つ以上のレポートの削除、名前の変更、タグ付け、承認を行うことができます。
+管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。 固定された項目は、その後に ![レポートアイコン](assets/report-icon.png) レポートアイコン。 このビューでは、1 つ以上のレポートの削除、名前の変更、タグ付け、承認を行うことができます。
 
 会社レポートを表示および管理するには
 

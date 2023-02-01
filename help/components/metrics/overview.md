@@ -3,10 +3,10 @@ title: 指標の概要
 description: 時間の経過に伴うディメンション項目またはデータの表示量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ ht-degree: 100%
 
 ## 指標の説明の追加
 
-次に、Adobe Analytics で指標（およびディメンション）の説明を追加する方法を説明するビデオを示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics 管理者は、指標やその他のコンポーネントの説明を、レポートスイート内またはAnalysis Workspace内で直接追加できます。 指標に説明を追加する方法について詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

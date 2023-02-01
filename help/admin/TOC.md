@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 1defe0b630d9d600402dc23562d7a6af0bfa81de
+source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '614'
 ht-degree: 95%
 
 ---
@@ -133,11 +133,9 @@ ht-degree: 95%
             + [マーチャンダイジング eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + [マーケティングチャネル](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + トラフィック管理 {#traffic-management}
-            + [トラフィックの管理](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [トラフィックスパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [過去のサーバーコールの推定とトラフィックスパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-            + [恒常的なトラフィック増加の指定](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-            + [トラフィック増加に対して必要なリードタイム](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+            + [概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [個々のレポートスイートの設定](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + リアルタイムレポート {#real-time-reports}
@@ -171,6 +169,7 @@ ht-degree: 95%
       + [ラベル設定に関するベストプラクティス](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [ラベル設定の例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [名前空間](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)

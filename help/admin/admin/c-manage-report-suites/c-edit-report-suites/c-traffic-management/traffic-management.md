@@ -3,14 +3,14 @@ description: トラフィック管理ページでは、予想されるトラフ�
 title: トラフィックの管理
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '91'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
-# トラフィックの管理
+# トラフィック管理の概要
 
 トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。
 
