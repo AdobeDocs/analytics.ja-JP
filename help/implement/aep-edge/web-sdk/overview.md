@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Platform Web SDK を使用した Adobe Analytics の実装
 description: Adobe Experience Platform データ収集の Web SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 24%
+source-wordcount: '799'
+ht-degree: 31%
 
 ---
 
@@ -20,8 +20,64 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 ![Web SDK ワークフローを使用したAdobe Analyticsの実装](../../assets/websdk-annotated.png)
 
-|<div style="width:20px"></div>|タスク |詳細情報 | |-| —|—| | 1 |以下をお持ちであることを確認してください： **レポートスイートの定義**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **スキーマとデータセットの設定**. Adobe Experience Platformを利用するアプリケーション間で使用するデータ収集を標準化するために、Adobeはオープンで公式に文書化された標準である Experience Data Model(XDM) を作成しました。 | [スキーマ UI の概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) および [データセット UI の概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja) | | 3 | **データレイヤーの作成** を使用して、web サイト上のデータのトラッキングを管理します。 | [データレイヤーの作成](../../prepare/data-layer.md) | | 4 | **事前にビルドされたスタンドアロンバージョンのインストール**. ライブラリ (`alloy.js`) をページ上で直接 CDN に送信するか、独自のインフラストラクチャ上でダウンロードおよびホストします。 または、NPM パッケージを使用することもできます。 | [事前にビルドされたスタンドアロンバージョンのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-2%3A-installing-the-prebuilt-standalone-version) および [NPM パッケージの使用](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-3%3A-using-the-npm-package)| | 5 | **データストリームの設定**. datastream は、Adobe Experience Platform Web SDK を実装する際のサーバー側の設定を表します。 | [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 6 | **Adobe Analyticsサービスの追加** をデータストリームに追加します。 このサービスは、データをAdobe Analyticsに送信するかどうかと方法を制御します。 | [Adobe Analyticsサービスをデータストリームに追加する](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 7 | **Web SDK の設定**. 手順 4 でインストールしたライブラリが、データストリーム ID（旧称：エッジ設定 ID）を使用して正しく設定されていることを確認します (`edgeConfigId`)、組織 id (`orgId`) やその他の使用可能なオプションが含まれます。 | [Web SDK の設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) | | 8 | **コマンドを実行** および/または **イベントの追跡**. Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントの追跡を開始できます。 | [コマンドを実行](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=en) および [イベントの追跡](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=en) | | 9 | **実装を拡張および検証する** 実稼動環境にプッシュする前に | |
+<table style="width:100%">
 
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>タスク</b></th><th style="width:35%"><b>詳細情報</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>次の条件を満たしていることを確認します。 <b>レポートスイートの定義</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>スキーマとデータセットの設定</b>. Adobe Experience Platformを利用するアプリケーション間で使用するデータ収集を標準化するために、Adobeはオープンで公式に文書化された標準である Experience Data Model(XDM) を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a> および <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>データレイヤーの作成</b> を使用して、web サイト上のデータのトラッキングを管理します。</td>
+<td><a href="../../prepare/data-layer.md">データレイヤーの作成</a></td>
+</tr>
+
+<tr>
+<td> 4</td>
+<td><b>事前にビルドされたスタンドアロンバージョンのインストール</b>. ライブラリ (<code>alloy.js</code>) をページ上で直接 CDN に送信するか、独自のインフラストラクチャ上でダウンロードおよびホストします。 または、NPM パッケージを使用することもできます。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-2%3A-installing-the-prebuilt-standalone-version">事前にビルドされたスタンドアロンバージョンのインストール</a> および <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en#option-3%3A-using-the-npm-package">NPM パッケージの使用</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>データストリームの設定</b>. datastream は、Adobe Experience Platform Web SDK を実装する際のサーバー側の設定を表します。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">データストリームの設定<a></td> 
+</tr>
+
+<td>6</td>
+<td><b>Adobe Analyticsサービスの追加</b> をデータストリームに追加します。 このサービスは、データをAdobe Analyticsに送信するかどうかと方法を制御します。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Adobe Analyticsサービスをデータストリームに追加する</a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td><b>Web SDK の設定</b>. 手順 4 でインストールしたライブラリが、データストリーム ID（旧称：エッジ設定 ID）を使用して正しく設定されていることを確認します (<code>edgeConfigId</code>)、組織 id (<code>orgId</code>) やその他の使用可能なオプションが含まれます。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja">Web SDK の設定</a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><b>コマンドを実行</b> および/または <b>イベントの追跡</b>. Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントの追跡を開始できます。
+</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=en">コマンドを実行</a> および <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=en">イベントの追跡</a></td>
+</tr>
+
+<tr>
+<td>9</td><td><b>実装を拡張および検証する</b> 実稼動環境にプッシュする前に</td><td></td> 
+</tr>
+</table>
 
 
 ## Web SDK 拡張機能
@@ -30,8 +86,61 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 ![Web SDK 拡張機能を使用したAdobe Analyticsの実装ワークフロー](../../assets/websdk-extension-annotated.png)
 
-|<div style="width:20px"></div> |タスク |詳細情報 | |-| —|—| | 1 |以下をお持ちであることを確認してください： **レポートスイートの定義**. | [Report Suite Manager](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **スキーマとデータセットの設定**. Adobe Experience Platformを利用するアプリケーション間で使用するデータ収集を標準化するために、Adobeはオープンで公式に文書化された標準である Experience Data Model(XDM) を作成しました。 | [スキーマ UI の概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) および [データセット UI の概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja) | | 3 | **データレイヤーの作成** を使用して、web サイト上のデータのトラッキングを管理します。 | [データレイヤーの作成](../../prepare/data-layer.md) | | 4 | **データストリームの設定**. datastream は、Adobe Experience Platform Web SDK を実装する際のサーバー側の設定を表します。 | [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 5 | **Adobe Analyticsサービスの追加** をデータストリームに追加します。 このサービスは、データをAdobe Analyticsに送信するかどうかと方法を制御します。 | [Adobe Analyticsサービスをデータストリームに追加する](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 6 | **タグプロパティの作成**. プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。| [Web 用のタグプロパティの作成または設定](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#for-web) | | 7 | **Web SDK 拡張機能のインストールと設定** をタグプロパティに追加します。 手順 4 で設定したデータストリームにデータを送信するように Web SDK 拡張機能を設定します。 | [Adobe Experience Platform Web SDK 拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=en) | | 8 | **反復、検証、および公開** を実稼動環境に移行します。 タグプロパティを Web サイトに追加します。 その後、データ要素やルールなどを使用して、実装をカスタマイズします。 | [パブリッシュの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja) |
+<table style="width:100%">
 
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>タスク</b></th><th style="width:35%"><b>詳細情報</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>次の条件を満たしていることを確認します。 <b>レポートスイートの定義</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>スキーマとデータセットの設定</b>. Adobe Experience Platformを利用するアプリケーション間で使用するデータ収集を標準化するために、Adobeはオープンで公式に文書化された標準である Experience Data Model(XDM) を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a> および <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>データレイヤーの作成</b> を使用して、web サイト上のデータのトラッキングを管理します。</td>
+<td><a href="../../prepare/data-layer.md">データレイヤーの作成</a></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><b>データストリームの設定</b>. datastream は、Adobe Experience Platform Web SDK を実装する際のサーバー側の設定を表します。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">データストリームの設定<a></td> 
+</tr>
+
+<tr>
+<td>5</td> 
+<td><b>Adobe Analyticsサービスの追加</b> をデータストリームに追加します。 このサービスは、データをAdobe Analyticsに送信するかどうかと方法を制御します。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Adobe Analyticsサービスをデータストリームに追加する</a></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td><b>タグプロパティの作成</b>.プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en#for-web">Web 用のタグプロパティの作成または設定</a></td>
+</tr>
+
+<tr>
+<td>7</td> 
+<td><b>Web SDK 拡張機能のインストールと設定</b> をタグプロパティに追加します。 手順 4 で設定したデータストリームにデータを送信するように Web SDK 拡張機能を設定します。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=en">Adobe Experience Platform Web SDK 拡張機能の概要</a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><b>反復、検証、および公開</b> を実稼動環境に移行します。 タグプロパティを Web サイトに追加します。 その後、データ要素やルールなどを使用して、実装をカスタマイズします。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja">公開の概要</a></td>
+</tr>
+
+</table>
 
 
 ## その他のリソース
