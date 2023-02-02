@@ -5,10 +5,10 @@ title: 共有可能なリンクの作成
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Analysis Workspace には、プロジェクトまたはプロジェクトの特�
 リンクを作成し、それらを使用して受信者をプロジェクトの特定の部分に導く方法に関する[ビデオを視聴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja)します。
 
 ![](assets/get-viz-link.png)
-
-## 公開リンクを取得
-
-{{release-limited-testing-section}}
-
-Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有できます。 これには、組織外のユーザーや、組織内でAdobe Analyticsのプロビジョニングを行っていないユーザーが含まれます。
-
-詳しくは、 [誰とでも公開リンクを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## 目次でのリンクの使用 {#TOC}
 

@@ -5,31 +5,14 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 35%
+source-wordcount: '1132'
+ht-degree: 49%
 
 ---
 
 # プロジェクトを共有
-
-次のタイプのユーザーとAnalysis Workspaceプロジェクトを共有できます。
-
-* Adobe Analyticsにアクセスできる組織内のユーザーとグループ
-
-* Adobe Analyticsへのアクセス権を持たない組織内のユーザーとグループ
-
-* 組織外の担当者
-
-任意 [キュレーション](curate.md) 共有前の申請は、受信者がプロジェクトを開くと反映されます。
-
-以下は、プロジェクト共有の概要に関するビデオです。
-
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
-
-
-## 組織内のAdobe Analyticsユーザーおよびグループと共有する {#Add}
 
 プロジェクトを組織内の既存のAdobe Analyticsユーザーまたはグループと共有できます。 この節で説明するようにプロジェクトを共有する場合、共有相手となるユーザーは、既にAdobe Analyticsアカウントを持っている必要があります。
 
@@ -39,7 +22,7 @@ ht-degree: 35%
 
 * [プロジェクトへのリンクの共有](#share-a-link-to-a-project)
 
-### 特定のプロジェクトの役割の共有
+## 特定のプロジェクトの役割の共有
 
 特定のプロジェクトの役割を組織内のユーザーやグループと共有する場合は、以下の点を考慮してください。
 
@@ -76,7 +59,7 @@ ht-degree: 35%
 
 1. 「**[!UICONTROL 共有]**」をクリックします。「**[!UICONTROL キュレーションと共有]**」をクリックして、プロジェクトのキュレーションを自動的に適用することもできます。プロジェクトが既に共有されている場合は、**[!UICONTROL 更新]**／**[!UICONTROL キュレーションと更新]**&#x200B;というボタンが表示されます。[プロジェクトのキュレーションの詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja)を表示します。
 
-### プロジェクトへのリンクの共有
+## プロジェクトへのリンクの共有
 
 この節で説明するようにリンクを共有する場合は、次の点に注意してください。
 
@@ -95,59 +78,6 @@ ht-degree: 35%
 1. クリック **[!UICONTROL リンクをコピー]** の横 **[!UICONTROL URL フィールドを共有]**.
 
 1. リンクを組織内のユーザーと共有します。 例えば、電子メールや内部 Web サイトなどに貼り付けることができます。
-
-## 誰とでも公開リンクを共有（ログインは不要） {#share-public-link}
-
-{{release-limited-testing-section}}
-
-Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有できます。 これには、以下が含まれます。
-
-* 組織外の担当者
-
-* Adobe Analyticsでプロビジョニングされていない組織内の担当者
-
->[!NOTE]
->
->このオプションは、Analytics 管理者が無効にできます。詳しくは、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). この節で説明するように公開リンクを共有できない場合、Analytics 管理者はこの機能を無効にしています。
-
-Analysis Workspaceプロジェクトへの公開リンクを共有するには：
-
-1. 共有するAnalysis Workspaceプロジェクトを開きます。
-
-1. クリック **[!UICONTROL 共有]** > **[!UICONTROL 公開リンクを共有]**.
-
-   未保存の変更がある場合は、プロジェクトを保存するよう求められます。
-
-   <!-- Add screen shot of new modal -->
-
-1. を有効にします。 **[!UICONTROL リンクがアクティブ]** オプションを選択します（まだ有効になっていない場合）。
-
-1. 次のセキュリティオプションを有効にするかどうかを選択します（これらのオプションは Analytics 管理者が制御できます）。
-
-   * **[!UICONTROL シングルサインオン（SSO）認証を要求]:**
-
-      共有プロジェクトへのアクセス権を取得する前に、SSO 経由で認証するためにリンクを持つユーザーを要求します。 組織内のユーザーのみがプロジェクトにアクセスできるようにする場合は、このオプションを選択します。
-
-      Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). 管理者がこのオプションを設定した方法に応じて、次のシナリオが発生する場合があります。
-
-      * このオプションが表示されない場合は、組織で SSO が有効になっていないか、Analytics 管理者がこの機能を有効にしていません。
-
-      * このオプションが有効で淡色表示の場合は、Analytics 管理者がすべてのパブリックリンクにアクセスするために SSO 認証が必要です。
-   * **[!UICONTROL パスワードが必要]:** Analysis Workspaceプロジェクトにアクセスする前に、リンクを持つユーザーにパスワードの指定を求めます。 これにより、プロジェクトのセキュリティレベルがさらに向上します。
-
-      このオプションを選択する場合は、パスワードを指定します。 他のユーザーとパスワードを共有する場合は、忘れずにこのパスワードをプロジェクトリンクと共有してください。 <!--go through this workflow and see how it works.-->
-
-      このオプションが有効で淡色表示の場合は、Analytics 管理者がすべてのパブリックリンクをパスワードで保護する必要があります。 Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md).
-
-
-1. 次の **[!UICONTROL 他のユーザーと共有（ログインは不要）]** フィールドで、 **リンクをコピー** アイコンをクリックして、リンクをシステムクリップボードにコピーします。
-
-1. プロジェクトへのアクセス権を付与したい人とリンクを共有します。 例えば、リンクを E メールに貼り付けることができます。
-
-   リンクを共有した任意のユーザーがAnalysis Workspaceプロジェクトを表示できます。 パスワードを必要とする場合は、リンクにアクセスしたい人とパスワードを共有する必要があります。
-
-1. 選択 **[!UICONTROL 閉じる]** をクリックして、共有ダイアログボックスを閉じます。 変更内容は自動的に保存されます。 <!-- True? -->
-
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 

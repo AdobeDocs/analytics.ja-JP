@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1078'
+ht-degree: 98%
 
 ---
 
@@ -61,11 +61,6 @@ ht-degree: 96%
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + データ要素 {#data-dictionary}
-         + [データディクショナリの概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [データディクショナリでのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [データディクショナリ内のコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [データ辞書の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
