@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '699'
 ht-degree: 97%
 
 ---
@@ -259,6 +259,7 @@ ht-degree: 97%
    + [下位分類](classifications/c-sub-classifications.md)
    + [分類 FAQ](classifications/faq.md)
 + [カレンダーイベント](t-calendar-event.md)
++ [予定レポートキュー](scheduled-reports-admin.md)
 + リアルタイムレポート {#real-time-reporting}
    + [リアルタイムレポートの概要](c-real-time-reporting/realtime.md)
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)

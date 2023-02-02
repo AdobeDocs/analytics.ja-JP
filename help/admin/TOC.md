@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 95%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 95%
    + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
-   + [プライバシーレポート](admin/privacy-reporting.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
-   + [予定レポートキュー](admin/scheduled-reports-admin.md)
    + レポートスイートマネージャー {#manage-report-suites}
       + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
       + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 95%
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + リアルタイムレポート {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
