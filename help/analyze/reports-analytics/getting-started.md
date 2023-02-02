@@ -4,10 +4,10 @@ title: Reports & Analytics の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例には次のようなものがあります。
 
@@ -44,7 +44,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 
 ## Experience Cloud を使用したログイン
 
-Experience Cloud を介してログインする手順を説明します。
+Adobe Experience Cloudからログインするには：
 
 1. インターネットに接続されているコンピューターで、ブラウザーを起動します。
 1. [!DNL https://login.experiencecloud.adobe.com/] にアクセスします。
@@ -62,7 +62,7 @@ Experience Cloud を介してログインする手順を説明します。
 
 ## レポートの実行
 
-レポートを生成する手順を説明します。
+ レポートを生成するには
 
 1. [!UICONTROL Reports &amp; Analytics] にログインします。
 
@@ -93,7 +93,9 @@ Experience Cloud を介してログインする手順を説明します。
 
 ## インターフェイス言語の変更
 
-インターフェイスの言語を変更する手順を説明します。選択した言語で Reports &amp; Analytics のインターフェイスを表示できます。
+インターフェイスの言語を変更できます。 選択した言語で Reports &amp; Analytics のインターフェイスを表示できます。
+
+インターフェイス言語を変更するには：
 
 1. Analytics にログインし、「**[!UICONTROL レポート]**」タブを選択します。
 1. ページフッターで、**[!UICONTROL 言語]**&#x200B;メニューのアクティブな言語をクリックし、目的の言語を選択します。

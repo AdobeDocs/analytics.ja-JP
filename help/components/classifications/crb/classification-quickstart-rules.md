@@ -3,10 +3,10 @@ description: 分類ルールを設定すると、分類されていない語句�
 title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
-| 次の語句で終わる | Sale | タイプ | 販売 |
-| 次を含む | 2013 | 年 | 2013 年 |
+| 次の語句で終わる | Sale | タイプ | Sale |
+| 次を含む | 2013 | 年 | 2013 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-分類ルールを追加または編集する方法について手順を説明します。
-
 分類に条件を対応させることによってルールを追加し、そのアクションを指定します。
 
 >[!NOTE]
 >
 >この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](/help/components/classifications/c-sub-classifications.md)を使ってルールセットを簡素化する方法の検討が必要です。
+
+分類ルールを追加または編集するには：
 
 1. [分類ルールセットを作成します](/help/components/classifications/crb/classification-rule-set.md)。
 1. ルールセットページで、「**[!UICONTROL ルールを追加]**」をクリックします。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >レポートスイートは、次の条件を満たした場合&#x200B;*のみ*、このページに表示されます。
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
-   >
-   >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
+      >
+      >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-分類ルールまたはルールセットをテストする方法について手順を説明します。テストを実行すると、セット内のすべてのルールがチェックされます。
+分類ルールまたはルールセットをテストできます。 テストを実行すると、セット内のすべてのルールがチェックされます。
+
+分類ルールセットをテストするには：
 
 1. [分類ルールセットを作成します](/help/components/classifications/crb/classification-rule-set.md)。
 1. [!UICONTROL 分類ルールビルダー]で、ルールセット名をクリックします。
@@ -383,7 +385,7 @@ t_classifications_test_rule.xml
 1. 「**[!UICONTROL テストを実行]**」をクリックします。
 
    「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。
-1. （オプション）ルールをアクティブにする場合、また既存の分類を上書きする場合は、「**[!UICONTROL アクティブ化]**」をクリックします。
+1. （任意）ルールをアクティブにする場合、また既存の分類を上書きする場合は、「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ルールを使用して既存の分類を上書きする方法の詳細を参照してください。
 
@@ -395,14 +397,14 @@ t_validate_rules.xml
 
  -->
 
-分類ルールを検証およびアクティブ化する方法について手順を説明します。
+分類ルールを検証およびアクティブ化するには、次の手順に従います。
 
 1. [分類ルールセットを作成](/help/components/classifications/crb/classification-rule-set.md)してから、セットに[分類ルールを追加](/help/components/classifications/crb/classification-quickstart-rules.md)します。
 1. ルールエディターで「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/overwrite_keys.png)
 
-1. （オプション）分類を上書きするには、「****&#x200B;次の分類を上書き：&lt;*選択*>」を有効にします。
+1. （任意）分類を上書きするには、「****&#x200B;次の分類を上書き：&lt;*選択*>」を有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 

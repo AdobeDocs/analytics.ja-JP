@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Ocean Blue Jean
 
 ## レポート固有のフィルターの作成 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-各種レポート用のフィルターを作成する手順を説明します。
+レポート用のフィルターを作成できます。
 
 <!-- 
 
@@ -153,7 +153,7 @@ t_reports_filter_specific.xml
 
 これらのフィルターにアクセスすると、そのリストに指定された項目のレポート指標が表示されます。
 
-**レポート固有フィルターを作成するには**
+レポート固有フィルターを作成するには:
 
 1. [!UICONTROL 購入レポート]などのレポートを生成します（**[!UICONTROL サイト指標]**／**[!UICONTROL 購入]**／**[!UICONTROL 購入コンバージョンファネル]**）。
 1.  レポートのヘッダーで、**[!UICONTROL フィルター]**&#x200B;リンクをクリックします。
@@ -162,8 +162,6 @@ t_reports_filter_specific.xml
 1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## クロス集計フィルターの追加 {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-クロス集計フィルターを追加する手順を説明します。
 
 <!-- 
 
@@ -175,7 +173,7 @@ t_reports_correlation_filter.xml
 
 使用可能な任意のクロス集計を使って、クロス集計レポートに表示するデータをフィルターできます。ここの例では、検索エンジンのクロス集計フィルターを追加します。
 
-**クロス集計フィルターを追加するには**
+クロス集計フィルターを追加するには:
 
 1. クロス集計をサポートするレポートを実行します([内訳レポートの実行](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)を参考。)
 1. レポートのヘッダーで、**[!UICONTROL クロス集計フィルター]**&#x200B;リンクをクリックします。

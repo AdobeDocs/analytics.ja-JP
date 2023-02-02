@@ -3,16 +3,16 @@ description: 分類ファイル内の分類データをエスケープする方�
 title: 分類データのエスケープ
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 92%
 
 ---
 
 # 分類データのエスケープ
 
-分類ファイル内の分類データをエスケープする方法について手順を説明します。
+分類ファイル内の分類データをエスケープするには：
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 

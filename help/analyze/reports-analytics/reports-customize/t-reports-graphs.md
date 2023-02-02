@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-対象者にとって最も有用になるようにグラフをカスタマイズする手順を説明します。
+対象のオーディエンスに最も役立つようにグラフをカスタマイズできます。
 
 使用できるグラフの種類は、実行するレポートの種類によって異なります。例えば、トレンドレポートではトレンドライングラフが使用されますが、トレンドラインに加えて縦棒グラフを使用することで日単位、週単位、月単位のトレンドを明確に示すことができます。また、閲覧されたページの割合を円グラフを使用して表示することもできます。
 
-**レポートグラフを変更するには**
+レポートグラフを変更するには:
 
 1. レポートを実行します。
 1.  「**[!UICONTROL グラフの設定]**」をクリックします。

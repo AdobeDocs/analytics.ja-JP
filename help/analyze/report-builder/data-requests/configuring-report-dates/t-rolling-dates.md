@@ -5,16 +5,16 @@ uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 feature: Report Builder
 role: User, Admin
 exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '84'
+ht-degree: 90%
 
 ---
 
 # 相対日付
 
-リクエストの相対日付をカスタマイズできます。
+リクエストの相対日付をカスタマイズするには：
 
 1. [!UICONTROL リクエストウィザード：ステップ 1] で、「**[!UICONTROL 相対日付]**」をクリックします。
 1. 「**[!UICONTROL 周期]**」リンクをクリックして周期のタイプを選択してから、日付リンクを使用して相対日付を設定します。

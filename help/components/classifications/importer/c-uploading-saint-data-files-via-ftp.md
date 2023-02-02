@@ -3,10 +3,10 @@ description: FTP を使用してデータファイルをアップロードする
 title: FTP インポート
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '733'
+ht-degree: 92%
 
 ---
 
@@ -16,9 +16,9 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 ## FTP インポート {#concept_2F965BE873254546A61FB755F25299FD}
 
-FTP を使用してデータファイルをアップロードする方法について手順を説明します。
+FTP を使用してデータファイルをアップロードするには：
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
 
 次の推奨限度に注意してください。
 
@@ -41,9 +41,11 @@ FTP を使用してデータをアップロードする前に、FTP アカウン
 
 ## FTP を使用した分類のインポート {#task_132C36830B69418B8C929E39838EF01D}
 
-FTP アカウントを使用して分類を Adobe Analytics にインポートする方法について手順を説明します。
+FTP アカウントを使用して、分類をAdobe Analyticsにインポートできます。
 
-FTP アカウントの作成について詳しくは、[FTP アカウントの作成](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)を参照してください。
+FTP アカウントの作成について詳しくは、 [FTP アカウントの作成](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+
+FTP を使用して分類をインポートするには：
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。

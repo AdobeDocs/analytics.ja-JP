@@ -4,10 +4,10 @@ title: コンポーネントの概要
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 356df9e96e3b15ccb74e641e04d6a6fc26e6db62
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 

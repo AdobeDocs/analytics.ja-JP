@@ -3,10 +3,10 @@ description: 未分類のキーは、「なし」というラベルの付いた�
 title: 未分類のキー
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-分類が設定されておらず、レポートで「*`none`*」と表示されるキーの名前の変更手順を説明します。
+分類が設定されておらず、「 」と表示されるキーの名前を変更するには *`none`* レポート内：
 
 1. インポーターを使用して、ローカルファイルに分類をエクスポートします。
 1. ファイルに行を追加し、キー列に `~none~` と入力します。

@@ -4,10 +4,10 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ![](assets/create-new-project.png)
 
-また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や用途に応じて、様々なテンプレートを使用できます。使用可能な様々なテンプレートオプションについて詳しくは [こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) を参照してください。
+また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や使用事例に応じて、様々なテンプレートを使用できます。 使用可能な様々なテンプレートオプションについて詳しくは [こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) を参照してください。
 
 ## 分析の構築 {#analysis}
 
@@ -51,7 +51,7 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ### ビジュアライゼーション
 
-次に、棒グラフや折れ線グラフなどの **ビジュアライゼーション** をデータに追加して、データに命を吹き込みます。左端のパネルで、中央の **[!UICONTROL ビジュアライゼーション]** アイコンを選択し、使用可能な [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) の完全なリストを表示します。
+**ビジュアライゼーション**&#x200B;棒グラフや折れ線グラフなど、を使用して、データを目に見えるようにします。 左端のパネルで、中央の **[!UICONTROL ビジュアライゼーション]** アイコンを選択し、使用可能な [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) の完全なリストを表示します。
 
 ![](assets/build-visualizations.png)
 

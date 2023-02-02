@@ -3,16 +3,16 @@ description: 有料検索検知を設定する方法について手順を説明�
 title: 有料検索検知の設定
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 93%
 
 ---
 
 # 有料検索検知の設定
 
-有料検索検知を設定する方法について手順を説明します。
+有料検索検知を設定するには：
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックして、[!UICONTROL Report Suite Manager]を開きます。
 1. レポートスイートを選択します。
