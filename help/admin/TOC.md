@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 95%
@@ -134,6 +134,7 @@ ht-degree: 95%
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [メディア管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + リアルタイムレポート {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 95%
       + [設定マネージャー](admin/company/preferences-manager.md)
       + [保留中のアクション](admin/company/pending-actions-admin.md)
       + [機能アクセスレベル](admin/company/feature-access-levels.md)
-   + [ビデオ管理](admin/video-management.md)
    + サーバーコールの使用状況 {#server-call-usage}
       + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)
       + [現在のサーバーコールの使用状況の表示](admin/c-server-call-usage/server-call-usage-dashboard.md)
