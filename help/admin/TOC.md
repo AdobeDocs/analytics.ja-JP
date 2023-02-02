@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 95%
    + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
-   + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシーレポート](admin/privacy-reporting.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
    + [予定レポートキュー](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 95%
             + [概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [個々のレポートスイートの設定](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + リアルタイムレポート {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 95%
             + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + カンパニー設定 {#company-settings}
       + [カンパニー設定の概要](admin/company/c-company-settings.md)
-      + [機能アクセスレベル](admin/company/feature-access-levels.md)
+      + [セキュリティマネージャー](admin/company/security-manager.md)
       + [Web サービス](admin/company/web-services-admin.md)
       + [Report Builder レポート](admin/company/report-builder-reports-admin.md)
       + [シングルサインオン](admin/company/single-signon-admin.md)
-      + [保留中のアクション](admin/company/pending-actions-admin.md)
       + [ブランド提携](admin/company/co-branding-admin.md)
       + [レポートスイートを非表示](admin/company/c-hide-report-suites.md)
-      + [セキュリティマネージャー](admin/company/security-manager.md)
+      + [設定マネージャー](admin/company/preferences-manager.md)
+      + [保留中のアクション](admin/company/pending-actions-admin.md)
+      + [機能アクセスレベル](admin/company/feature-access-levels.md)
    + [ビデオ管理](admin/video-management.md)
    + サーバーコールの使用状況 {#server-call-usage}
       + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)
