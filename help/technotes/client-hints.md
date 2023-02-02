@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 71%
+source-wordcount: '1247'
+ht-degree: 70%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 71%
 
 クライアントヒントは、ユーザーのデバイスに関する個々の情報です。 それらは、Google Chrome や Microsoft Edge などの Chromium ブラウザーによって提供されます。これらのブラウザーでは、クライアントヒントは User-Agent をデバイス情報のソースとして徐々に置き換えます。 Adobe Analytics は、User-Agent に加えてクライアントヒントを使用してデバイス情報を決定するように、デバイス検索プロセスをアップデートします。
 
+## 低エントロピーと高エントロピーのクライアントヒント
+
 Google では、User-Agent Client Hints が 2 つのカテゴリ（低エントロピーと高エントロピーのヒント）に分類されています。
 
 * **低エントロピーのヒント**&#x200B;には、デバイスに関するより一般的な情報が含まれています。 Chromium ブラウザーによってこれらのヒントが自動的に提供されます。
 
 * **高エントロピー**&#x200B;ヒントには、より詳細な情報が含まれています。 リクエストがあった場合にのみ、これらのヒントを利用できます。AppMeasurement と Web SDK はどちらも、高エントロピーのヒントをリクエストするように設定できます。デフォルトでは、どちらのライブラリも高エントロピーのヒントをリクエスト&#x200B;**しません**。
 
->[!NOTE]
->
->クライアントヒントは、2023 年 2 月 17 日以降、Analytics デバイス参照プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、2 月中旬まではデバイス参照で使用されません。 以下に示すように、10 月以降、オペレーティングシステムのバージョンは凍結されましたが、徐々にロールアウトが行われ、多くのユーザーエージェントが既に固定された OS バージョンを提供しています ( 詳細は [ここ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)) の場合、これは Chrome 訪問者の 3%未満に影響すると推定されます。
+2022 年 10 月より、Chromium ブラウザーの新しいバージョンで、User-Agent 文字列で表されるオペレーティングシステムのバージョンを「凍結」し始めました。 オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+
+クライアントヒントは、2023 年 2 月 17 日以降、Analytics デバイス参照プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、2 月中旬まではデバイス参照で使用されません。 以下に示すように、10 月以降、オペレーティングシステムのバージョンは凍結されましたが、徐々にロールアウトが行われ、多くのユーザーエージェントが既に固定された OS バージョンを提供しています ( 詳細は [ここ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)) の場合、これは Chrome 訪問者の 3%未満に影響すると推定されます。
 
 >[!NOTE]
 >
->2022 年 10 月より、Chromium ブラウザーの新しいバージョンで、User-Agent 文字列で表されるオペレーティングシステムのバージョンを「凍結」し始めました。 オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+> 2023 年 1 月以降、Macおよび Windows オペレーティングシステムの一部のバージョンが User Agent で誤って表示されますが、高エントロピーのクライアントヒントで正しく表示されます。 詳しくは、 [オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja) を参照してください。
 
->[!NOTE]
->
-> 2023 年 1 月以降、Macおよび Windows オペレーティングシステムの一部のバージョンは、User Agent で誤って表示されますが、高エントロピーなクライアントヒントで正しく表示されます。 詳しくは、 [オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja) を参照してください。
-
->[!NOTE]
->
->AAM では、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+AAMでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 ## よくある質問
 
