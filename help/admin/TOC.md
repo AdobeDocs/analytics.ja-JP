@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 95%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 95%
    + [コードマネージャー](admin/code-manager-admin.md)
    + [通貨コード](admin/currency.md)
    + [データソース](admin/data-sources.md)
-   + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 95%
                + [サーバー側転送のデータとコードのリファレンス](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [サーバー側転送の実装の確認方法](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [サーバー側転送の FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + トラフィック変数 {#traffic-variables}
+         + トラフィック {#traffic-variables}
             + [トラフィック変数（prop）の概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [トラフィック変数レポートの有効化](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [トラフィック分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [カスタムレポートの説明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + コンバージョン変数 {#conversion-variables}
+         + コンバージョン {#conversion-variables}
             + [コンバージョン変数（eVar）](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [検索方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [コンバージョンの分類](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 95%
             + [概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [デフォルトの指標](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [メディア管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + リアルタイムレポート {#real-time-reports}
+         + リアルタイム {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
