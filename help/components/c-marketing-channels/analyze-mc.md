@@ -3,10 +3,10 @@ title: マーケティングチャネルの分析
 description: Workspace でのマーケティングチャネルディメンションの使用方法について説明します。
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>
+>Analytics 管理者は、組織のマーケティングチャネルを管理できます。詳しくは、 [マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 ターゲットの精度を上げ、マーケティング収益を増加できるよう、最も効果的なマーケティングチャネルとそのユーザーを知りたい場合があります。Adobe Analytics では、Workspace のマーケティングチャネルディメンションとマーケティング指標は、様々なチャネルが注文件数や売上高などに与える影響を追跡し、有益なチャネルに関するインサイトを提供するツールです。マーケティングチャネルに使用できるディメンションと指標は次のとおりです。
 

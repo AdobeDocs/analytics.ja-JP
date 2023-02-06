@@ -3,7 +3,7 @@ title: ラストタッチチャネル
 description: 訪問者のエンゲージメント期限内で最も新しいマーケティングチャネル。
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[マーケティングチャネルマネージャー](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)で定義したチャネル名を直接参照します。
+このディメンションは、[マーケティングチャネルマネージャー](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で定義したチャネル名を直接参照します。
 
 アドビのデータ収集サーバーに送信されるすべてのヒットは、レポートスイートのマーケティングチャネルの処理ルールを通じて実行されます。各ルールを数値順に繰り返し処理し、一致が見つかると、そのマーケティングチャネルがヒットに結び付けます。ラストタッチチャネルは、訪問者が訪問者関与期間（デフォルトでは 30 日）を超えてサイトを訪問しない限り維持されます。
 

@@ -3,14 +3,20 @@ description: マーケティングチャネルレポートを実行し、制限�
 title: マーケティングチャネルの権限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # マーケティングチャネルの権限
+
+>[!NOTE]
+>
+>Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>
+>Analytics 管理者は、組織のマーケティングチャネルを管理できます。詳しくは、 [マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 [Admin Console](https://adminconsole.adobe.com/) でマーケティングチャネルの様々な側面を操作するために必要な権限は、次のとおりです。
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '684'
 ht-degree: 97%
 
 ---
@@ -265,12 +265,8 @@ ht-degree: 97%
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネル使用の手引き](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネル — はじめに](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ とマーケティングチャネル](c-marketing-channels/mchannel-best-practices.md)
-   + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
-   + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
-   + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
-   + [訪問者のエンゲージメント期間](c-marketing-channels/visitor-engagement.md)
    + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
    + [マーケティングチャネルに関する FAQ と例](c-marketing-channels/c-faq.md)

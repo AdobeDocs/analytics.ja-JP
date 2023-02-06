@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このリストは、[マーケティングチャネルの処理ルール](../c-marketing-channels/c-rules.md)のソーシャルネットワークのデフォルトリストとは異なります。
+>このリストは、[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)のソーシャルネットワークのデフォルトリストとは異なります。
 
 * `12seconds.tv`
 * `4travel.jp`

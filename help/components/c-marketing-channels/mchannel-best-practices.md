@@ -3,10 +3,10 @@ title: Adobe Analytics マーケティングチャネルの実装のベストプ
 description: マーケティングチャネルでの Attribution IQ と Customer Journey Analytics の使用に関するベストプラクティスの更新
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデル（Attribution IQ）で使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの[分類を作成](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
+組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの[分類を作成](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
 
 ![](assets/direct-session-refresh.png)
 
@@ -46,7 +46,7 @@ Workspace のマーケティングチャネルディメンションで使用さ�
 
 ## ベストプラクティス #4：訪問者エンゲージメント期間の最小化
 
-訪問者エンゲージメント期間を最小である「1 日」に設定すると、値が持続する可能性を最小限に抑えることができます。カスタムアトリビューションモデル（AIQ）では柔軟なルックバックウィンドウを許可するので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
+訪問者エンゲージメント期間を最小で「1 日」に設定すると、値が持続する可能性を最小限に抑えることができます。 カスタムアトリビューションモデル（AIQ）では柔軟なルックバックウィンドウを許可するので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
 
 ![](assets/expiration.png)
 
