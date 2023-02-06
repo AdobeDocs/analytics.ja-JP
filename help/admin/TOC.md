@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 95%
+source-wordcount: '620'
+ht-degree: 94%
 
 ---
 
@@ -67,14 +67,14 @@ ht-degree: 95%
          + 一般 {#report-suite-general}
             + [一般的なアカウント設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [内部 URL フィルター](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + [カレンダーのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 有料検索検知 {#paid-search-detection}
                + [有料検索検知の概要](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [有料検索検知の設定](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [メニューのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + [カレンダーのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 処理ルール {#c-processing-rules}
                + [処理ルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 処理ルールの設定 {#c-processing-rules-configuration}
+               + 処理ルール {#c-processing-rules-configuration}
                   + [処理ルールの仕組み](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [処理ルールの作成](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
                   + [アクティブな処理ルールの表示](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -109,12 +109,12 @@ ht-degree: 95%
                + [サーバー側転送の実装の確認方法](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [サーバー側転送の FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + トラフィック {#traffic-variables}
-            + [トラフィック変数（prop）の概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [トラフィック変数](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [トラフィック変数レポートの有効化](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [トラフィック分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [カスタムレポートの説明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + コンバージョン {#conversion-variables}
-            + [コンバージョン変数（eVar）](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [コンバージョン変数](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [検索方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [コンバージョンの分類](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + ユニーク訪問者変数 {#unique-visitor-variable}
@@ -131,7 +131,7 @@ ht-degree: 95%
             + [マーケティングチャネルの管理](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [マーケティングチャネルの処理ルール](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [マーケティングチャネルでの分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [訪問者のエンゲージメント期間](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [マーケティングチャネルの有効期限](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + トラフィック管理 {#traffic-management}
             + [概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
@@ -139,6 +139,9 @@ ht-degree: 95%
          + [デフォルトの指標](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [メディア管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + リアルタイム {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)

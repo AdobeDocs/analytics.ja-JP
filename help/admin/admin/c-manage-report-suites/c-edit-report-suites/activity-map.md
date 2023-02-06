@@ -1,16 +1,16 @@
 ---
-description: Analytics で Activity Map レポートを有効にするための管理者の手順です。
-title: Activity Map レポート
-feature: Activity Map
-exl-id: e1d3f894-b769-4294-b550-f46869b812be
+description: Adobe Analyticsで Activity Map データを表示できます
+title: Adobe AnalyticsでのActivity Mapデータの表示
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 86%
 
 ---
 
-# Activity Map レポート
+
+# Adobe AnalyticsでのActivity Mapデータの表示
 
 Analytics で Activity Map レポートを有効にするための管理者の手順です。
 
@@ -30,4 +30,4 @@ Activity Map（旧称 ClickMap）から提供されるユーザーアクティ�
 
 レポートにデータが入力されるようにするには、[Activity Map のドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja)を参照して、導入手順をご確認ください。
 
-<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
