@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 87%
@@ -36,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
@@ -69,8 +69,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvFinalPercentViewed`:訪問者が現在のページに移動した時点で表示された、前のページの割合。 この値は、初期閲覧率以上になり、最も閲覧されたページの最高閲覧率以下になります。
 * `window._ppvHighestPixelsSeen`：前のページで、訪問者が下にスクロールしたときに表示された合計ピクセル数の最高値（高さが基準）。
 * `window._ppvFoldsAvailable`：前のページで下にスクロールできる「ページの折り目」の合計数です。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は `1` です。
-* 
-   * `window._ppvFoldsSeen`：前のページで、訪問者が下にスクロールしたときに表示された「ページの折り目」の最高値（高さが基準）。この変数には、「ページの先頭」の折り目が含まれます。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は `1` です。
+* `window._ppvFoldsSeen`：前のページで、訪問者が下にスクロールしたときに表示された「ページの折り目」の最高値（高さが基準）。この変数には、「ページの先頭」の折り目が含まれます。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は `1` です。
 
 これらの変数の 1 つ以上を eVar に割り当てて、レポート内のディメンションデータを表示します。
 
