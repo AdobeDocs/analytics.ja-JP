@@ -3,10 +3,10 @@ description: ヒットデータ、アクセス要求、削除要求のデータ�
 title: ラベル設定の例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -365,6 +365,6 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 * `user=Mary` と `DEL-PERSON` ラベルを含んだ行のセルが影響を受けます。
 * ID 拡張により、`AAID=77`、`AAID=88` または `AAID=99`（`user=Mary` を含んだ行の AAID 値）および `DEL-DEVICE` ラベルを含んだ行のセルが影響を受けます。これには、`user=Mary` を満たす行の、`DEL-DEVICE` ラベルが付いたセルが含まれます。これにより、`DEL-DEVICE` ラベル（AAID、MyEvar2 および MyEvar3）を持つ 4 行目と 5 行目（および 1〜3 行目）のセルが難読化されます。
 * ExpandIDs 設定は、`user=Mary` の場合、ID-DEVICE ラベルを持つ MyEvar3（`X`、`Y` および `Z`）に存在する値を含めるための呼び出しまでは拡大適用されません。ExpandIDs は、`user=Mary` の行に訪問者 ID（この例では AAID だけでなく ECID も）を含むように拡張するだけです。したがって、`X` および `Z` の MyEvar3 値を含んだ最後の 2 行は影響を受けません。
-* 4 行目と 5 行目の `MyEvar2` は、1 行目と 2 行目と同じ訪問者 ID 値（`77` および `88`）を含んでいるので更新されます。その結果、ID 拡張には、デバイスレベルの削除用にこれらが含まれます。
+* `MyEvar2` 4 番目および 5 番目の行のは、同じ訪問者 ID 値 (`77` および `88`) を最初の行と 2 番目の行のものとして扱います。 その結果、ID 拡張には、デバイスレベルの削除用にこれらが含まれます。
 * 2 行目と 5 行目の `MyEvar2` の値は、削除の前後で一致します。ただし、削除後は、その行が削除リクエストの一環として更新されなかったので、最後の行にある値 `N` と一致しなくなります。
 * `MyEvar3` の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの `ID-DEVICES` とも一致しないからです。これで、最初の 5 行で `AAID` が一致します。

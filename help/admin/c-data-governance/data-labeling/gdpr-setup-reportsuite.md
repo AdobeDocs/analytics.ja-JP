@@ -3,18 +3,14 @@ description: レポートスイートのデータにラベルを設定すると�
 title: レポートスイートのデータのラベル設定
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 48%
+source-wordcount: '531'
+ht-degree: 44%
 
 ---
 
 # レポートスイートのデータのラベル設定
-
->[!NOTE]
->
->この更新された UI は現在、制限付きテストになっています。
 
 レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。最初に、 [ラベルとその定義](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ ht-degree: 48%
 
 ## レポートスイートのプライバシーラベルの割り当てまたは編集 {#assign-edit}
 
-**例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。
+**例**:データ管理者は、データプライバシー要求を処理するために、データ主体から電子メールアドレスと Cookie ID を収集する予定です。 この Cookie ID は Adobe Analytics のレポートスイートに保管されます。
 
 1. Adobe Analyticsで、に移動します。 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データの設定と収集]** > **[!UICONTROL データガバナンス]**.
 
