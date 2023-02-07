@@ -1,8 +1,8 @@
 ---
-source-git-commit: 98d6b952855d5206c12ee07cfdb53e541fe29847
+source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 15%
+source-wordcount: '593'
+ht-degree: 7%
 
 ---
 # スニペット
@@ -12,6 +12,41 @@ ht-degree: 15%
 >[!IMPORTANT]
 >
 >詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://express.adobe.com/page/6WnF8JK6IRDhf/)を参照してください。
+
+## データ辞書のフィルター条件 {#dd-filter-criteria}
+
+1. （オプション） **フィルター** アイコン ![データ辞書フィルターアイコン](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png)次に、次のいずれかのフィルターオプションを選択して、コンポーネントのリストをフィルターします。
+
+   | オプション | 関数 |
+   |---------|----------|
+   | [!UICONTROL **ディメンション**] | Dimension ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 |
+   | [!UICONTROL **指標**] | 指標のコンポーネントのみを表示します。 ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 |
+   | [!UICONTROL **セグメント**] | セグメントのコンポーネントのみを表示します。 ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 <!--this is Filters in CJA--> |
+   | [!UICONTROL **日付範囲**] | 日付範囲のコンポーネントのみを表示します。 ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 |
+   | [!UICONTROL **説明がありません**] | 「説明」フィールドに、まだ説明を持たないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
+   | [!UICONTROL **重複**] | 選択したレポートスイート内の別のコンポーネントと同じラベルまたは説明を持つコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
+   | [!UICONTROL **最近データがありません**] | 過去 90 日間にデータを収集していないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
+   | [!UICONTROL **作成者Adobe**] | Adobeが作成したコンポーネントのみを表示 管理者または組織内の別のユーザーが作成したコンポーネントは表示されません。 |
+   | [!UICONTROL **承認済み**] | 管理者によって「承認済み」とマークされたコンポーネントのみを表示します。 |
+   | 未承認（管理者のみ使用可能） | <!--this is in the requirements doc, but I don't see this in the UI--> |
+
+   {style=&quot;table-layout:auto&quot;}
+
+## データディクショナリコンポーネント情報 {#dd-component-information}
+
+| オプション | 関数 |
+|---------|----------|
+| [!UICONTROL **承認済み**] | コンポーネントが管理者によってレビューおよび承認されたことを示します。 管理者向けに、 [!UICONTROL **承認が必要です**] オプションが表示されます。 このオプションを選択すると、それが「承認済み」とマークされます。 |
+| [!UICONTROL **説明**] | コンポーネントの意図された機能を表します。 ( この情報は、Analytics 管理者によって追加されます。詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
+| [!UICONTROL **頻繁に使用**] | 5 つの主要なコンポーネントタイプの間で表示するコンポーネントで最もよく使用される 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 |
+| [!UICONTROL **類似**] | 5 つの主要なコンポーネントタイプにわたって表示するコンポーネントと類似したラベルを持つ最大 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 表示にアクセスできるコンポーネントのみが表示されます。 |
+| [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。 |
+| [!UICONTROL **コンポーネントの種類**] | コンポーネントのタイプが、Dimension、指標、セグメント、日付範囲のどれであるかを示します。 |
+| [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
+| [!UICONTROL **プレビュー**] | Analysis Workspaceでのコンポーネントの外観のプレビューを表示します。 |
+| [!UICONTROL **最終変更日**] | コンポーネントが最後に変更された日を表示します。 このセクションは、セグメント、計算指標および日付範囲を表示する場合に表示されます。 <!--for CJA, it is displayed for all components--> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## リリースフェーズの限定テスト {#release-limited-testing}
 
