@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 6049266511851decfb2d652001e6f11373a91a1d
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 94%
 
 ---
@@ -37,7 +37,6 @@ ht-degree: 94%
    + [管理ツールの概要](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
    + [コードマネージャー](admin/code-manager-admin.md)
-   + [通貨コード](admin/currency.md)
    + [データソース](admin/data-sources.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
