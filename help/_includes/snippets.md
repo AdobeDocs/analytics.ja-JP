@@ -1,7 +1,7 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '604'
 ht-degree: 7%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **承認済み**] | コンポーネントが管理者によってレビューおよび承認されたことを示します。 管理者向けに、 [!UICONTROL **承認が必要です**] オプションが表示されます。 このオプションを選択すると、それが「承認済み」とマークされます。 |
 | [!UICONTROL **説明**] | コンポーネントの意図された機能を表します。 ( この情報は、Analytics 管理者によって追加されます。詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **頻繁に使用**] | 5 つの主要なコンポーネントタイプの間で表示するコンポーネントで最もよく使用される 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 |
-| [!UICONTROL **類似**] | 5 つの主要なコンポーネントタイプにわたって表示するコンポーネントと類似したラベルを持つ最大 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 表示にアクセスできるコンポーネントのみが表示されます。 |
-| [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。 |
+| [!UICONTROL **頻繁に使用**] | 5 つの主要なコンポーネントタイプの間で表示するコンポーネントで最もよく使用される 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **類似**] | 5 つの主要なコンポーネントタイプにわたって表示するコンポーネントと類似したラベルを持つ最大 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。 管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
 | [!UICONTROL **コンポーネントの種類**] | コンポーネントのタイプが、Dimension、指標、セグメント、日付範囲のどれであるかを示します。 |
 | [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
 | [!UICONTROL **プレビュー**] | Analysis Workspaceでのコンポーネントの外観のプレビューを表示します。 |

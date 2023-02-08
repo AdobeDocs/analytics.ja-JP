@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Analytics 管理者は、特定のレポートスイートのデータディク�
 
    ![データ辞書の管理ビュー](assets/data-dictionary-admin.png)
 
-1. ドロップダウンメニューで正しいレポートスイートが選択されていることを確認します。
+1. ドロップダウンメニューで正しいレポートスイートが選択されていることを確認します。 デフォルトでは、既に存在するレポートスイートが表示されます。
 
 1. （オプション）検索フィールドに、編集するコンポーネントの名前を入力します。
 
