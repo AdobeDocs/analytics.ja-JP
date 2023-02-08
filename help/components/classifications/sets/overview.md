@@ -4,8 +4,8 @@ description: 分類セットを使用して分類データを管理します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
