@@ -3,10 +3,10 @@ description: Adobe Analytics の継続的な機能リリース戦略を説明
 title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '390'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics リリースは、機能のデプロイメントに向けて、�
 
 * **GA (General Availability)**：この機能は、権利を付与されている Experience Cloud の組織の 100% が利用でき、機能のリリースが完了しました。
 
-各機能リリースにより、RTP から GA までのタイムラインが変わる場合があります。目標は、リリース開始（RTP）から 2 か月以内に機能が GA になるように、リリースを短く保つことです。
+機能のリリースごとに、ロールアウトの開始から GA までのタイムラインが変わる場合があります。 目標は、ロールアウトの開始から 2 ヶ月以内に機能が GA になるよう、リリースを短く保つことです。
 
 ## 機能フラグ
 
