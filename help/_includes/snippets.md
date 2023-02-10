@@ -1,7 +1,7 @@
 ---
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
+source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '650'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
    | [!UICONTROL **セグメント**] | セグメントのコンポーネントのみを表示します。 ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 <!--this is Filters in CJA--> |
    | [!UICONTROL **日付範囲**] | 日付範囲のコンポーネントのみを表示します。 ( このオプションは、 [!UICONTROL **クイックフィルター**] 」タブに表示されます )。 |
    | [!UICONTROL **説明がありません**] | 「説明」フィールドに、まだ説明を持たないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
-   | [!UICONTROL **重複**] | 選択したレポートスイート内の別のコンポーネントと同じラベルまたは説明を持つコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
+   | [!UICONTROL **重複**] | 選択したレポートスイート内の別のコンポーネントと同じラベルまたは説明を持つコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 重複として表示するには、ラベルまたは説明が完全に一致する必要があります。 |
    | [!UICONTROL **最近データがありません**] | 過去 90 日間にデータを収集していないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **作成者Adobe**] | Adobeが作成したコンポーネントのみを表示 管理者または組織内の別のユーザーが作成したコンポーネントは表示されません。 |
    | [!UICONTROL **承認済み**] | 管理者によって「承認済み」とマークされたコンポーネントのみを表示します。 |
@@ -38,8 +38,8 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **承認済み**] | コンポーネントが管理者によってレビューおよび承認されたことを示します。 管理者向けに、 [!UICONTROL **承認が必要です**] オプションが表示されます。 このオプションを選択すると、それが「承認済み」とマークされます。 |
 | [!UICONTROL **説明**] | コンポーネントの意図された機能を表します。 ( この情報は、Analytics 管理者によって追加されます。詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **頻繁に使用**] | 5 つの主要なコンポーネントタイプの間で表示するコンポーネントで最もよく使用される 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
-| [!UICONTROL **類似**] | 5 つの主要なコンポーネントタイプにわたって表示するコンポーネントと類似したラベルを持つ最大 5 つのコンポーネントを表示します。指標、計算指標、Dimension、セグメント、日付範囲。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **次によく使用される**] | <p>表示しているコンポーネントで最もよく使用されるコンポーネントを表示します。</p><p>5 つの主要なコンポーネントタイプに対して、最大 5 つのコンポーネントが表示されます。指標、計算指標、Dimension、セグメント、日付範囲。</p><p>このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **次に類似している**] | <p>表示しているコンポーネントと同様のラベルを持つコンポーネントを表示します。</p><p>5 つの主要なコンポーネントタイプに対して、最大 5 つのコンポーネントが表示されます。指標、計算指標、Dimension、セグメント、日付範囲。</p><p>表示にアクセスできるコンポーネントのみが表示されます。</p><p>レポートスイート内の重複するコンポーネントは、ここに表示されます。 Analytics 管理者は、 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。 管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
 | [!UICONTROL **コンポーネントの種類**] | コンポーネントのタイプが、Dimension、指標、セグメント、日付範囲のどれであるかを示します。 |
 | [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
