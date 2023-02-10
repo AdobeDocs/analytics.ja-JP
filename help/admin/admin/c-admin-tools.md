@@ -3,7 +3,7 @@ description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 42dba33eb77ac875fea801e8f62fa74ed564671f
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 13%
@@ -28,7 +28,7 @@ Analytics 管理ツール領域は、Adobe Analyticsインスタンスを管理�
 
    このツールを使用して、ユーザーをプロビジョニングし、アクセス権限を変更します。
 
-   Adobe IMSに移行されるすべての組織に対して、これらのタスクはAdobeAdmin Console で実行されます。 詳しくは、 [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). 組織がまだAdobe IMSに移行されていない場合は、 [Adobe Admin Consoleへの Analytics ユーザーの移行](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+   Adobe IMSに移行されるすべての組織に対して、これらのタスクはAdobeAdmin Console で実行されます。 詳しくは、 [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). 組織がまだAdobe IMSに移行されていない場合は、 [Adobe Admin Consoleへの Analytics ユーザーの移行](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 ## 管理ツールへのアクセス
 

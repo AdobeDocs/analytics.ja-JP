@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 94%
@@ -25,14 +25,6 @@ ht-degree: 94%
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
       + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
-   + ユーザーと製品の管理（レガシー） {#user-product-management}
-      + [ユーザーと製品の管理 （レガシー）](admin-console/user-management2/user-management.md)
-      + Adobe Admin Console へのユーザーの移行 {#migrate-users}
-         + [Admin Console への Analytics ユーザーの移行](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [従来のログインの無効化](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [移行の影響を受ける API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 管理ツール {#admin-tools}
    + [管理ツールの概要](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -42,26 +34,6 @@ ht-degree: 94%
    + [ログ](admin/logs.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
    + レポートスイートマネージャー {#manage-report-suites}
-      + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
-      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新しいレポートスイート {#c-new-report-suite}
-         + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [レポートスイートグループの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + レポートスイートテンプレート {#report-suite-templates}
-         + [レポートスイートテンプレートの概要](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [集積ポータル](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [コマース](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [コンテンツとメディア](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [デフォルトテンプレート](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融サービス](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [ジョブポータル](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [リードジェネレーション](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [サポートメディア](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + レポートスイートの設定の編集 {#edit-report-suite}
          + 一般 {#report-suite-general}
             + [一般的なアカウント設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -146,6 +118,26 @@ ht-degree: 94%
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
+      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新しいレポートスイート {#c-new-report-suite}
+         + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [レポートスイートグループの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + レポートスイートテンプレート {#report-suite-templates}
+         + [レポートスイートテンプレートの概要](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [集積ポータル](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [コマース](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [コンテンツとメディア](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [デフォルトテンプレート](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融サービス](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [ジョブポータル](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [リードジェネレーション](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [サポートメディア](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + カンパニー設定 {#company-settings}
       + [カンパニー設定の概要](admin/company/c-company-settings.md)
       + [セキュリティマネージャー](admin/company/security-manager.md)
@@ -163,6 +155,14 @@ ht-degree: 94%
       + [レポートスイートの使用状況の表示](admin/c-server-call-usage/report-suite-usage.md)
       + [サーバーコールの使用状況アラート](admin/c-server-call-usage/scu-alerts.md)
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
+   + ユーザーと製品の管理（レガシー） {#user-product-management}
+      + [ユーザーと製品の管理 （レガシー）](admin/user-management2/user-management.md)
+      + Adobe Admin Console へのユーザーの移行 {#migrate-users}
+         + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
+         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [従来のログインの無効化](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [移行の影響を受ける API](admin/user-management2/user-migration/developer.md)
 + データガバナンス {#data-governance}
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
@@ -176,3 +176,4 @@ ht-degree: 94%
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
+
