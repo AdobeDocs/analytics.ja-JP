@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9e99a463ab8c8afbd786520d9529b68717bc690
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 44%
+source-wordcount: '1053'
+ht-degree: 43%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **分類セットアーキテクチャへの自動移行** | 2023 年 2 月 9 日 | 今後数ヶ月の間に、Adobeはすべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。 最後に移行するお客様は、2023 年 5 月に発生すると推定されます。 顧客のアクションは不要で、ダウンタイムも期待されません。 この新しいアーキテクチャには、次のような多くの利点があります。<ul><li>処理時間が大幅に短縮されました (72 時間→ 24 時間 )</li><li>を使用する機能 [分類セット](/help/components/classifications/sets/overview.md) UI</li><li>将来的に ( [分類データ用のAdobe Analyticsソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>組織のワークフローに影響を与える可能性のある、次の変更に注意してください。<ul><li>ブラウザーインポートを使用する場合、「[!UICONTROL 競合時に上書き]「 」は常に有効になっています。</li><li>ブラウザーインポートを使用する場合、インポート直後にエクスポートするオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、Adobeでは可能な限り新しい文字列識別子を使用することをお勧めします。 数値識別子は、 `?expansion=hidden` クエリー文字列パラメーター。</li></ul>Adobeの移行スケジュールをより具体的に設定したい場合や、この移行に関する質問や懸念事項がある場合は、カスタマーケアにお問い合わせください。 [詳細情報](/help/components/classifications/sets/overview.md) |
+| **分類セットアーキテクチャへの自動移行** | 2023 年 2 月 9 日 | 今後数ヶ月の間に、Adobeはすべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。 最後に移行するお客様は、2023 年 5 月に発生すると推定されます。 顧客のアクションは不要で、ダウンタイムも期待されません。 この新しいアーキテクチャには、次のような多くの利点があります。<ul><li>処理時間が大幅に短縮されました (72 時間→ 24 時間 )</li><li>を使用する機能 [分類セット](/help/components/classifications/sets/overview.md) UI</li><li>将来的に ( [分類データ用のAdobe Analyticsソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>組織のワークフローに影響を与える可能性のある、次の変更に注意してください。<ul><li>ブラウザーまたは FTP インポートを使用する場合は、「[!UICONTROL 競合時に上書き]「 」は常に有効になっています。</li><li>ブラウザーまたは FTP インポートを使用する場合、インポート直後にエクスポートするオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、Adobeでは可能な限り新しい文字列識別子を使用することをお勧めします。 数値識別子は、 `?expansion=hidden` クエリー文字列パラメーター。</li></ul>Adobeの移行スケジュールをより具体的に設定したい場合や、この移行に関する質問や懸念事項がある場合は、カスタマーケアにお問い合わせください。 [詳細情報](/help/components/classifications/sets/overview.md) |
 | **Google クライアントヒントによるデバイス検索の更新** | 2023 年 1 月 26 日 | デバイス参照でのクライアントヒントの使用は、次の日に開始されます。 **2023 年 2 月 17 日**. <p> <p>2022 年 10 月以降、Web SDK ライブラリまたは AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。 しかし、2023 年 2 月まで、クライアントヒントはデバイス参照に組み込まれません。 その時点で、Adobeは、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
