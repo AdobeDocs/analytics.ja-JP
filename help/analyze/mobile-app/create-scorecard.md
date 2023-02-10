@@ -4,10 +4,10 @@ title: モバイルスコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
+source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 98%
+source-wordcount: '1792'
+ht-degree: 97%
 
 ---
 
@@ -102,9 +102,9 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 これにより、新しい日付範囲コンポーネントを作成して保存できる日付範囲ビルダーに移動します。
 
-### 比較日付範囲を表示 {#showo-comparison-dates}
+### 比較日付範囲を表示/非表示 {#show-comparison-dates}
 
-比較日付範囲を含めるには、 **比較日を含める** 設定。
+比較日付範囲を表示または非表示にするには、 **比較日を含める** 設定。
 
 ![比較日付を含める](assets/include-comparison-dates.png)
 
