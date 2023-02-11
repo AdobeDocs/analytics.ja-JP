@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3639'
-ht-degree: 96%
+source-wordcount: '3679'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 96%
 | 実装 | 次の方法に関する内容を更新しました。 [Adobe Analytics for web およびモバイルの実装](../implement/home.md). |
 | Workspace のカレンダーと日付範囲 | 相対的な日付範囲、数式の計算の更新、カレンダー UI の変更について説明する内容を更新しました。 詳しくは、 [相対パネルの日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | モバイルスコアカード | 比較日付範囲を表示および非表示にする方法について説明する新しいドキュメントの節。 詳しくは、 [比較日付範囲を表示](/help/analyze/mobile-app/create-scorecard.md) （CJA 内） |
+| 1.4 API | この [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全な書き換えを受け取り、Adobe Developerに公開されました。 |
+| 実装タイプ間のトラッキング | 使用例を更新しました [異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md) を使用して、Experience CloudID サービスを受け入れます。 |
 | **2023年1月** |  |
 | テーブルのフィルターと並べ替え | の内容（手順の追加や使用可能なオプションの説明を含む）を更新しました。 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 記事。 この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | 専用のページ [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
