@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 5015fd9b4ab98e31f30b4156d11ace554668a4b7
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -129,7 +129,6 @@ ht-degree: 100%
    + [データレイヤーの作成](prepare/data-layer.md)
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
    + [複数のスイートタグ付けの実装](prepare/multi-suite-tagging.md)
-   + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
 + Analytics Edge を使用した Experience Platform の実装 {#aep-edge}
