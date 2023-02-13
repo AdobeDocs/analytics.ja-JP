@@ -5,7 +5,7 @@ title: 処理ルールで使用可能なディメンション
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数 </p> </td> 
-   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md">コンテキストデータ変数</a> </p> </td> 
+   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>メモ：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md">コンテキストデータ変数</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>レポートスイート ID (読み取り専用) </p> </td> 
+   <td colname="col1"> <p>レポートスイート ID(読み取り専用) </p> </td> 
    <td colname="col2"> <p>処理ルールを実行するレポートスイート。AppMeasurement で指定した元のレポートスイートではない場合があります。 </p> </td> 
   </tr> 
   <tr> 
@@ -96,8 +96,8 @@ ht-degree: 100%
    <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>メモ：リンクトラッキングコールは、処理ルールに到達する前に <code>pageURL</code> 変数を削除します。処理ルールを使用してページ URL の値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。ページ URL を変更する前に、そのページ URL が既に設定されていることを確認することをお勧めします。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>クエリー文字列パラメーター </p> </td> 
-   <td colname="col2"> <p>現在の URL で指定したクエリー文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリー文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリー文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
+   <td colname="col1"> <p>クエリ文字列パラメーター </p> </td> 
+   <td colname="col2"> <p>現在の URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリ文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリ文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページパス </p> </td> 
@@ -112,16 +112,16 @@ ht-degree: 100%
    <td colname="col2"> <p>ページのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ページクエリー文字列 </p> </td> 
-   <td colname="col2"> <p>URL の完全なクエリー文字列。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col1"> <p>ページクエリ文字列 </p> </td> 
+   <td colname="col2"> <p>URL の完全なクエリ文字列。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リファラー*（読み取り専用） </p> </td> 
    <td colname="col2"> <p>HTTP リファラー。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>参照クエリー文字列パラメーター（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL で指定したクエリー文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリー文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリー文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
+   <td colname="col1"> <p>参照クエリ文字列パラメーター（読み取り専用） </p> </td> 
+   <td colname="col2"> <p>参照 URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリ文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリ文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ドメイン（読み取り専用） </p> </td> 
@@ -129,11 +129,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ルートドメイン（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>参照クエリー文字列（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col1"> <p>参照クエリ文字列（読み取り専用） </p> </td> 
+   <td colname="col2"> <p>参照 URL に含まれるクエリ文字列パラメーター。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP アドレス（読み取り専用） </p> </td> 
