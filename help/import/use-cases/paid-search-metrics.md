@@ -3,9 +3,9 @@ title: 有料検索指標のインポート
 description: データソースを使用して有料検索指標（Google AdWords、MSN、Yahoo など）を追跡するように Adobe Analytics を設定する手順。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 次の手順では、AdWords との統合を設定して、キーワードデータとともに、インプレッション数、クリック数、クリック単価などの指標をインポートする方法を示します。
 
-次の手順では、クリック課金データの 1 回限りのインポートを設定する方法を説明します。ただし、[!UICONTROL データソース]では、ここで説明するファイル形式を使用してデータを継続的にインポートすることができます。使用する有料検索プラットフォームによっては、定期的なエクスポート（日次、月次など）をスケジュールしたり、エクスポートを Adobe Analytics に必要なファイル形式に変換するための自動プロセスを設定したり、これらのファイルを Adobe Analytics にアップロードして有料検索統合レポートを作成したりできる場合があります。
+次の手順では、クリック課金データの 1 回限りのインポートを設定する方法を説明します。ただし、[!UICONTROL データソース]では、ここで説明するファイル形式を使用してデータを継続的にインポートできます。使用する有料検索プラットフォームによっては、定期的なエクスポート（日次、月次など）をスケジュールしたり、エクスポートを Adobe Analytics に必要なファイル形式に変換するための自動プロセスを設定したり、これらのファイルを Adobe Analytics にアップロードして有料検索統合レポートを作成したりできる場合があります。
 
 ## 前提条件
 
@@ -57,14 +57,15 @@ ht-degree: 97%
    ![データソース](assets/data-sources.png)
 
 1. **[!UICONTROL タイプの選択]**&#x200B;で、「**[!UICONTROL 汎用ペイパークリックサービス]**」を選択します。
-1. 「**[!UICONTROL アクティブにする]**」をクリックします。[!UICONTROL データソース有効化ウィザード]が次のように表示されます。
+1. 「**[!UICONTROL アクティブにする]**」をクリックします。
+[!UICONTROL データソース有効化ウィザード]が次のように表示されます。
 
    ![有効化ウィザード](assets/ds-activation-wizard.png)
 
 1. 「**[!UICONTROL 次へ]**」をクリックして、データソースに名前を付けます。この名前は、データソースマネージャーに表示されます。
 1. サービス使用許諾契約に同意し、「**[!UICONTROL 次へ]**」をクリックします。
 1. 「[!UICONTROL インプレッション数]」、「[!UICONTROL クリック数]」および「[!UICONTROL 合計コスト]」の 3 つの標準指標を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-1. 次に、この新しいデータソースを、で作成したカスタムイベントに「マッピング」します。 [成功イベントの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. 次に、この新しいデータソースを[成功イベントの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)で作成したカスタムイベントに「マッピング」します。
 
    ![マッピング](assets/data-source-mapping.png)
 
@@ -100,7 +101,7 @@ ht-degree: 97%
 a. すべての列からデータをコピーして貼り付けます。
 b. 「**[!UICONTROL データ／テキストから列へ]**」をクリックします。
 c. ウィザードの手順 1 で、「**[!UICONTROL 区切り]**」が選択されていることを確認し、「**[!UICONTROL 次へ]**」をクリックします。
-d. ウィザードの手順 2 で、URL の作成方法（?または &amp;）に応じて区切り文字を指定し、「**[!UICONTROL 次へ]**」をクリックします。
+d. ウィザードの手順 2 で、URL の作成方法（? または &amp;）に応じて区切り文字を指定し、「**[!UICONTROL 次へ]**」をクリックします。
 e. ウィザードの手順 3 で、データをプレビューし、列の 1 つが「trackingcodename=trackingcode」であることを確認します。変数を追加する場合は、（&amp; を区切り文字として使用して）これらの手順を繰り返します。
 f. トラッキングコード、インプレッション数、クリック数およびコストを除くすべての列を削除します。「日付」という新しい列を追加し、日付 :: トラッキングコード :: インプレッション数 :: クリック数 :: コストの順序で列を整理します。
 1. 上記の「データソースの設定」節でダウンロードしたテンプレートに、このデータを追加します。
@@ -116,7 +117,7 @@ f. トラッキングコード、インプレッション数、クリック数�
 
 計算指標の追加は、クリック課金の決定を行う際に役立ちます。
 
-例えば、次の[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)を追加できます。
+例えば、次の[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja#calculated-metrics)を追加できます。
 
 | 名前 | 数式 | 指標タイプ | 説明 |
 | --- | --- | --- | --- |
