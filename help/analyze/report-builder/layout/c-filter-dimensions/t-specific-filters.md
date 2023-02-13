@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
    ![手順の結果](/help/admin/admin/assets/filter.png)
 
-1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの隣にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
+1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの横にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 
    ![手順の結果](assets/choose_page_specific01.png)
 
@@ -36,6 +36,6 @@ ht-degree: 91%
    * **リストから選択：**&#x200B;データの追加先のリストからデータを選択します。
 1. 「**[!UICONTROL リストから選択]**」を有効にする場合は、使用可能な項目をリストから選択するか、「**[!UICONTROL 追加]**」をクリックします。
 
-   クリック時 **[!UICONTROL 追加]**、 [!UICONTROL リストから選択] フォームには、現在のリクエスト日付範囲で使用可能なディメンション項目のリストが表示されます（最初の 10,000 項目に制限）。 これらの項目を検索することもできます。または、「**[!UICONTROL その他...]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
+   「**[!UICONTROL 追加]**」をクリックすると、「[!UICONTROL リストから選択]」フォームに現在のリクエストの日付範囲で使用可能なディメンション項目の値のリストが表示されます。このリストが表示する項目は、最初の 10,000 項目に制限されます。これらの項目を検索することもできます。または、「**[!UICONTROL その他]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
 1. 「[!UICONTROL リストから選択]」で、「**[!UICONTROL OK]**」をクリックします。
 1. 「[!UICONTROL ページを選択]」フォームでフィルターを保存して、「**[!UICONTROL OK]**」をクリックします。
