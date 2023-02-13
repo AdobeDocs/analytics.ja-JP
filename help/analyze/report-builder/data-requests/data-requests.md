@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 1. **[!UICONTROL レポートスイート：]**&#x200B;ログイン中のユーザーが権限を持つレポートスイートのリストです。 [レポートスイートの選択](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を参照してください。
 
-1. **範囲選択アイコン**：レポートスイート ID が記入されたセルを選択します。詳しくは、[レポートスイートの選択](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を参照してください。
+1. **範囲選択アイコン**：レポートスイート ID が記入されたセルを選択します。 [レポートスイートの選択](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を参照してください。
 
 1. **セグメント**：データのカスタムサブセット、または作成した規則でフィルターされたデータです。セグメントはヒット、訪問および訪問者に基づいています。セグメントについて詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
 
    例えば、[!UICONTROL ページレポート]を実行し、初回訪問件数セグメントを適用できます。
 
-1. **レポートタイプ**：データリクエストで取得するベースのレポートを指定します。リクエストごとに 1 つのレポートを指定します。なお、ベースのレポートに対して複数のディメンションと指標を設定できます。レポートタイプの指標およびディメンションは、「[!UICONTROL リクエストウィザード：ステップ 2]」インターフェイスに表示されます。詳しくは、[レポートタイプの選択](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)を参照してください。
+1. **レポートタイプ**：データリクエストで取得するベースのレポートを指定します。リクエストごとに 1 つのレポートを指定します。なお、ベースのレポートに対して複数のディメンションと指標を設定できます。レポートタイプの指標およびディメンションは、「[!UICONTROL リクエストウィザード：ステップ 2]」インターフェイスに表示されます。 [レポートタイプの選択](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)を参照してください。
 
 1. **日付範囲**：リクエストの対象期間を指定します。リクエストの期間には、事前設定、固定、相対など複数のタイプが用意されています。なお、指定できる期間の個数は 366 が最大です。また、セルで指定する日付範囲を選択したり、テンプレートとして日付範囲を保存して再利用したりできます。[レポートの日付の設定](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)を参照してください。
 
