@@ -4,7 +4,7 @@ title: Report Builder レポート
 feature: Company Settings
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
