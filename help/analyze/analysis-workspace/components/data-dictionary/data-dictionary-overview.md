@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Analysis Workspaceのデータディクショナリは、ユーザーと管理者の両方が、Analytics 環境のコンポーネントを追跡し、より深く理解するのに役立ちます。
 
-システム管理者は、データディクショナリ内の各コンポーネントに関するこの情報をキュレーションし、ユーザーが使用できるようにする必要があります。
+Analytics 管理者は、データディクショナリ内の各コンポーネントに関する情報をキュレーションして、ユーザーが利用できるようにする必要があります。
 
 ## ユーザーのメリット
 
@@ -33,6 +33,8 @@ Analysis Workspaceのデータディクショナリは、ユーザーと管理�
 * 表示しているコンポーネントに類似したコンポーネント
 
 * コンポーネントがシステム管理者によって承認されているかどうか
+
+データディクショナリへのアクセス方法とデータディクショナリに含まれる情報の詳細については、 [データディクショナリでのコンポーネント情報の表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## 管理者向けのメリット
 
@@ -67,7 +69,13 @@ Analytics 管理者がデータディクショナリを使用する方法の一�
 
 * メニューから、次の操作を実行します。 [!UICONTROL **ヘルプ**] > [!UICONTROL **データ辞書**].
 
-   <!--add screenshot-->
+データディクショナリで使用できる様々なオプションについて詳しくは、 [データディクショナリでのコンポーネント情報の表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## データディクショナリの更新とキュレーション
+
+Analytics 管理者は、組織の健全なデータディクショナリの維持を担当します。詳しくは、 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+このプロセスの一環として、Analytics 管理者は、データディクショナリ内の各コンポーネントに関する情報を編集できます。詳しくは、 [データディクショナリ内のコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## データ辞書を移動、最小化、または閉じる
 
