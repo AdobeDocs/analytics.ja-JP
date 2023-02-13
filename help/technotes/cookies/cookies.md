@@ -4,9 +4,9 @@ description: トラッキング防止対策が、Adobe Analytics によって設
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1981'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 ## ブラウザーでの cookie の使用制限
 
 >[!NOTE]
->[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) では、利用可能な場合は、ハッシュ化されたログイン ID など、個人 ID を使用して cookie をまたいで関連付けできます。
+>[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、利用可能な場合は、ハッシュ化されたログイン ID など、個人 ID を使用して cookie をまたいで関連付けできます。
 
 ### サードパーティ cookie の制限
 
-サードパーティのコンテキストで使用される cookie は、広く非推奨（廃止予定）となっています。Firefox と Safari は、それぞれ 2019 年と 2020 年から、デフォルトでサードパーティ cookie のブロックを開始しました。Chrome は、2023 年中にサードパーティ cookie のサポートを停止する計画を発表しました。その場合、サードパーティ cookie を事実上使用できなくなります。
+サードパーティのコンテキストで使用される cookie は、広く非推奨（廃止予定）となっています。Firefox と Safari は、それぞれ 2019 年と 2020 年から、デフォルトでサードパーティ cookie のブロックを開始しました。Chrome は、2023 年中にサードパーティ cookie のサポートを停止する計画を発表しました。停止された場合は、サードパーティ cookie を事実上使用できなくなります。
 
 さらに、現在、Chrome では、「SameSite」属性が「なし」に設定され、セキュアとしてラベル付けされている場合（つまり HTTPS 経由でのみ使用できる）にのみ、cookie がサードパーティコンテキストで機能することを許可しています。詳しくは、「[SameSite cookie 属性とは何ですか？また、Analytics にどのような影響を与えますか？](#samesite-effect)」の節を参照してください。
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 ### ファーストパーティ cookie の制限 {#limitations-first-party-cookies}
 
-ファーストパーティ cookie は、すべての主要なブラウザーで許可されています。ただし、Apple では、インテリジェントトラッキングプログラム（ITP）を通じて、アドビによって設定されたファーストパーティ cookie の有効期間を制限しています。これは、Safari に加えて、iOS および iPadOS のすべてのブラウザーに影響します。
+ファーストパーティ cookie は、すべての主要なブラウザーで許可されています。ただし、Apple では、インテリジェントトラッキングプログラム（ITP）を通じて、アドビによって設定されたファーストパーティ cookie の有効期間を制限しています。これは、Safari に加えて、iOS と iPadOS のすべてのブラウザーでも同様です。
 
 Adobe のファーストパーティ cookie の有効期限は 7 日間になります。また、Apple によってトラッカーからのクリックスルーだとみなされた場合は、有効期限が 24 時間になります。有効期限が 7 日間の場合、ユーザーがサイトを訪問して 7 日以内に戻った場合、cookie の有効期限はさらに 7 日間延長されます。ただし、サイトを訪問して 8 日後に戻ったユーザーは、2 回目の訪問では新しいユーザーとして扱われます。
 
@@ -42,8 +42,8 @@ Adobe のファーストパーティ cookie の有効期限は 7 日間になり
 #### ITP ポリシーの大幅な変更のタイムライン {#ITP-timeline}
 
 * 2019 年 2 月（[ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)）：クライアントサイド cookie の有効期限が 7 日間に制限
-* 2019 年 4 月（[ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)）：参照ドメインが（a）クロスサイトトラッキングに関与し、（b）最終 URL にクエリー文字列やフラグメント識別子が含まれていた場合、クライアントサイド cookie は広告のクリックに対して 24 時間に制限
-* 2020 年 11 月（[CNAME クローキングとバウンストラッキングの防御](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)）：ITP　の制限が CNAME 実装に拡張
+* 2019 年 4 月（[ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)）：参照ドメインが（a）クロスサイトトラッキングに関与し、（b）最終 URL にクエリ文字列やフラグメント識別子が含まれていた場合、クライアントサイド cookie は広告のクリックに対して 24 時間に制限
+* 2020 年 11 月（[CNAME クローキングとバウンストラッキングの防御](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)）：ITP　の制限対象が CNAME 実装に拡張。
 
 ITP ポリシーは頻繁に進化しています。最新のポリシーについては、Apple の『[Webkit でのトラッキング防止 ](https://webkit.org/tracking-prevention)』を参照してください。
 
@@ -51,17 +51,17 @@ ITP ポリシーは頻繁に進化しています。最新のポリシーにつ�
 
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
-* Adobe Experience Cloud 訪問者 IDID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
+* Adobe Experience Cloud の訪問者 ID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
 * CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)
-* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
+* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 
 #### Safari の Analytics への ITP の影響
 
-ITP の制限の影響は、ユーザーの行動によって大きく異なる場合があります。ITP の影響を受けたブラウザー（Safari など）を使用し、7 日間の不在の後に再訪問した訪問者のみが影響を受けます。ITP ブラウザーを使用していない場合や、7 日以内に再訪した場合は、影響を受けません。Analytics で独自のデータを確認して、この制限の影響の程度を把握することが重要です。サイトへの影響の測定方法に関するヒントは、「[Safari の変更が自社のビジネスに影響を与えるかどうかを確認する方法](#measure-itp-effect)」を参照してください。
+ITP の制限の影響は、ユーザーの行動によって大きく異なる場合があります。ITP 対応ブラウザー（Safari など）を使用し、7 日間アクセスしなかった後に再訪問した訪問者のみが影響を受けます。ITP ブラウザーを使用していない場合や、7 日以内に再訪した場合は、影響を受けません。Analytics で独自のデータを確認して、この制限の影響の程度を把握することが重要です。サイトへの影響の測定方法に関するヒントは、「[Safari の変更が自社のビジネスに影響を与えるかどうかを確認する方法](#measure-itp-effect)」を参照してください。
 
 これらの制限がデータに影響を与えている場合、次が当てはまります。
 
-1. 訪問者の cookie の有効期限が切れているので、新しい訪問者としてカウントされる訪問者が増加します。訪問者指標（訪問者あたりの売上高など）に基づく指標も影響を受けます。
+1. 訪問者の cookie の有効期限が切れていることが原因で、新しい訪問者としてカウントされる訪問者が増加します。訪問者指標（訪問者あたりの売上高など）に基づく指標も影響を受けます。
 2. アトリビューションの変更 -アトリビューションは、コンバージョンイベントと、同じ訪問者の先行するアクティビティとを結び付けることに依存します。Cookie の有効期限が切れると、以降のイベントは新しい訪問者に関連付けられます。新しい訪問者のアクティビティを以前の訪問者のアクティビティに結び付けることはできません。
 
 >[!NOTE]
@@ -72,17 +72,17 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 ### サードパーティ Cookie
 
-サードパーティ cookie は、ユーザーが訪問する Web サイトによって作成されるものではありません。
+サードパーティ cookie は、ユーザーが訪問する web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子と（HTTPS による）安全なコンテンツを提供します。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子として、HTTPS による安全なコンテンツ提供を可能にします。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
-Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告の使用例（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、訪問者が所有する別のドメインにアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
+Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告のユースケース（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、所有する別のドメインに訪問者がアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
 ### ファーストパーティ ｃookie
 
 ファーストパーティ cookie はドメイン固有で、顧客の Web サイトによって作成され、ユーザーが Web サイトを訪問するとクライアントブラウザーに保存されます。[Safari では一部のタイプのファーストパーティ cookie の有効期限が制限されます](#limitations-first-party-cookies)が、通常、すべてのブラウザーはファーストパーティ cookie を受け入れます。
 
-Analytics 実装では、ファーストパーティ cookie を使用して、サイトを訪問中のユーザーが特定され、その結果、ユーザーアクティビティの分析がすべてサポートされます。オンサイトアクティビティを理解するのにサードパーティ cookie は必要ありません。
+Analytics 実装では、ファーストパーティ cookie を使用して、サイトを訪問中のユーザーが特定され、その結果、ユーザーアクティビティの分析がすべてサポートされます。オンサイトアクティビティを把握するためにサードパーティ cookie を使用する必要はありません。
 
 詳しくは、[ファーストパーティ cookie について](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ja)を参照してください。
 
@@ -110,7 +110,7 @@ Analytics の従来の識別子（「s_vi」および「s_fid」 cookie）を使
 >
 >ただし、複数のドメインを所有し、すべてのドメインで同じ CNAME をデータ収集に使用する場合、他のドメインではサードパーティ cookie として扱われます。従来の Analytics 識別子を使用している場合は、サイト全体でこれらの cookie を共有できるように、設定を `SameSite=None` に更新する必要がある場合があります。詳しくは、次の節の「[複数のドメインに 1 つの CNAME を使用する場合の SameSite 値の変更](#samesite-one-cname)」を参照してください。
 
-`SameSite` が `None` に設定されており、ブラウザーによる cookie の処理が誤っていると Google によって認識された場合、`SameSite` は未設定のままになります。
+`SameSite` が `None` に設定されており、Google で、cookie の処理が誤っていると認識されたブラウザーでは、`SameSite` は未設定のままになります。
 
 次の表に、Analytics cookie の SameSite 属性の概要を示します。
 
@@ -130,15 +130,15 @@ JavaScript 設定で、アドビのサービスへのすべての呼び出しに
 >
 >次の情報は、訪問者 ID サービスを使用しない Experience Cloud にのみ関係します。
 
-Web サイトと同じドメインに設定された CNAME 実装がある場合、Cookie はファーストパーティコンテキストで作成されているので、変更をおこなう必要はありません。
+Web サイトと同じドメインに設定された CNAME 実装がある場合、Cookie はファーストパーティコンテキストで作成されているので、変更を行う必要はありません。
 
-ただし、複数のドメインを所有し、すべてのドメインで同じ CNAME をデータ収集に使用する場合、他のドメインではサードパーティ cookie として扱われます。Chrome 80 以降では、他のドメインでは表示されなくなります。Analytics では、すべてのブラウザーにおいて動作を統一するために、この cookie の `SameSite` 値を `Lax` に明示的に設定しています。この cookie を明確なサードパーティコンテキストで使用する場合は、cookie に `SameSite=None` 値を設定し、常に HTTPS を使用する必要があります。セキュアな CNAME の SameSite 値を変更していない場合は、アドビのカスタマーケアにお問い合わせください。
+ただし、複数のドメインを所有し、すべてのドメインで同じ CNAME をデータ収集に使用する場合、他のドメインではサードパーティ cookie として扱われます。Chrome 80 以降では、他のドメインでは表示されなくなります。Analytics では、すべてのブラウザーにおいて動作を統一するために、この cookie の `SameSite` 値を `Lax` に明示的に設定しています。この cookie を明確なサードパーティコンテキストで使用する場合は、cookie に `SameSite=None` 値を設定し、常に HTTPS を使用する必要があります。これをまだ行っていない場合は、アドビのカスタマーケアにお問い合わせいただき、セキュアな CNAME の SameSite 値の変更を依頼してください。
 
 ## Safari の変更が自社のビジネスに影響を与えるかどうかを確認する方法  {#measure-itp-effect}
 
 アドビでは、データ収集を変更する前に、自社内の影響を測定することをお勧めします。Analysis Workspace を使用して、ITP トラッキング防止が個々のビジネスに与える影響を測定できます。
 
-* ITP が管理されるブラウザーからのトラフィックの割合を測定します。
+* ITP が管理するブラウザーからのトラフィックの割合を測定します。
 
    1. セグメントを作成して、ITP プラットフォームを使用している訪問者の数を確認します。
 
