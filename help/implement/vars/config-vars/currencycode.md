@@ -4,9 +4,9 @@ description: e コマースサイトの場合、ページで扱う通貨を設�
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
@@ -49,12 +49,12 @@ ht-degree: 98%
 Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
 
 1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
-1. Adobe Analytics管理ツールで、レポートスイートの処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。
+1. Adobe Analytics 管理ツールで、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
 1. `trackState` または `trackAction` の呼び出しで、通貨コードを `products` 変数に渡します。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## AppMeasurement の s.currencyCode と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.currencyCode
 
 `s.currencyCode` 変数は、ページ上の通貨を表す 3 文字の大文字コードを含む文字列です。値では大文字と小文字が区別されます。
 
