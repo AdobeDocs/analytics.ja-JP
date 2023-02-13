@@ -4,44 +4,44 @@ description: イベント変数を設定します。この変数は、サイト�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# イベント
+# events
 
-ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します。
+ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集を行います。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します。
 
 イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
-## Web SDK を使用するイベント
+## Web SDK を使用したイベント
 
-カスタムイベントは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 次の XDM フィールドの下：
+カスタムイベントは、次の XDM フィールドで [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
 
-* カスタムイベント 1 ～ 100 が `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* カスタムイベント 101～200 は、 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* このパターンは、100 個のイベントごとに、 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` は、増分する量を指定するために使用されます。 `eventx.id` は次の場合に使用されます。 [シリアル化](event-serialization.md).
-* 注文は次にマッピングされます： `commerce.purchases.value`.
-* 単位は、すべての `productListItems[].quantity` フィールド。
-* 売上高は、すべての `productListItems[].priceTotal` フィールド。
-* 製品表示は `commerce.productListViews.value`.
-* 買い物かごは `commerce.productListOpens.value`.
-* 買い物かごへの追加は `commerce.productListAdds.value`.
-* 買い物かごからの削除は、 `commerce.productListRemovals.value`.
-* 買い物かご表示は、 `commerce.productListViews.value`.
-* チェックアウトは `commerce.checkouts.value`.
+* カスタムイベント 1 ～ 100 は、`_experience.analytics.event1to100.event1` ～ `_experience.analytics.event1to100.event100` にマッピングされます。
+* カスタムイベント 101 ～ 200 は、`_experience.analytics.event101to200.event100` ～ `_experience.analytics.event101to200.event200` にマッピングされます。
+* このパターンは、`_experience.analytics.event901to1000.event901` ～ `_experience.analytics.event901to1000.event1000` まで、100 イベントごとに繰り返されます。`eventx.value` は、増分量を指定するために使用されます。`eventx.id` は、[シリアル化](event-serialization.md)に使用されます。
+* 注文件数は、`commerce.purchases.value` にマッピングされます。
+* 単位は、すべての `productListItems[].quantity` フィールドの合計にマッピングされます。
+* 売上高は、すべての `productListItems[].priceTotal` フィールドの合計にマッピングされます。
+* 製品表示は、`commerce.productListViews.value` にマッピングされます。
+* 買い物かごは、`commerce.productListOpens.value` にマッピングされます。
+* 買い物かごへの追加は、`commerce.productListAdds.value` にマッピングされます。
+* 買い物かごからの削除は、`commerce.productListRemovals.value` にマッピングされます。
+* 買い物かご表示は、`commerce.productListViews.value` にマッピングされます。
+* チェックアウトは、`commerce.checkouts.value` にマッピングされます。
 
 >[!NOTE]
 >
->イベントが `productListItems` ( 例： `productListItems._experience.analytics.event1.value`) で始まっていて、そのイベントがこのフィールドにまだ存在しない場合、そのイベントはこのフィールドに自動的に追加されます。
+>イベントが `productListItems` に設定され（例えば、`productListItems._experience.analytics.event1.value`）、そのイベントがまだこのフィールドにない場合、そのイベントは、このフィールドに自動的に追加されます。
 
-## Adobe Analytics拡張機能を使用するイベント
+## Adobe Analytics 拡張機能を使用したイベント
 
 イベントは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -53,14 +53,14 @@ ht-degree: 81%
 * ドロップダウンで、含めるイベントを選択できます。
 * シリアル化用のオプションのテキストフィールドです。[イベントのシリアル化](event-serialization.md)を参照してください。
 * イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンで `event1` を選択し、このフィールドに `10` を含めると、レポートでは `event1` が 10 ずつ増えます。
-* 別のイベントを追加するボタン。1 つのルールに任意の数のイベントを追加できます。
+* 別のイベントを追加するボタン。単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events
 
 `s.events` 変数は、ヒットに含めるイベントのコンマ区切りリストを含む文字列です。この変数にはバイト制限がないので、切り捨てられません。有効な設定値は以下のとおりです。
 
 * `event1`～`event1000`：カスタムイベントを設定します。組織の[ソリューションデザインドキュメント](../../../prepare/solution-design.md)に各イベントの使用方法を記録します。使用可能なイベントの数は、組織の Analytics 契約によって異なります。レガシー契約以外の組織のほとんどは、1,000 件のカスタムイベントを利用できます。利用可能なカスタムイベントの数が不明な場合は、貴社のアカウントマネージャーにお問い合わせください。
-* `purchase`:「[注文件数](/help/components/metrics/orders.md)」指標を 1 増分し、`products` 変数に設定された値を使用して「[単位](/help/components/metrics/units.md)」と「[売上高](/help/components/metrics/revenue.md)」を計算します。詳しくは、[購入イベント](event-purchase.md)を参照してください。
+* `purchase`：「[注文件数](/help/components/metrics/orders.md)」指標を 1 増分し、`products` 変数に設定された値を使用して「[単位](/help/components/metrics/units.md)」と「[売上高](/help/components/metrics/revenue.md)」を計算します。詳しくは、[購入イベント](event-purchase.md)を参照してください。
 * `prodView`：「[製品表示回数](/help/components/metrics/product-views.md)」指標を増分します。
 * `scOpen`：「[買い物かご](/help/components/metrics/carts.md)」指標を増分します。
 * `scAdd`：「[買い物かごへの追加件数](/help/components/metrics/cart-additions.md)」指標を増分します。
@@ -70,7 +70,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
-> この変数では大文字と小文字が区別されます。正確なデータ収集を確実におこなうために、イベント値の誤った大文字化を避けます。
+> この変数では大文字と小文字が区別されます。正確なデータ収集を確実に行うために、イベント値の誤った大文字化を避けます。
 
 ```js
 // Set the events variable to a single value
@@ -98,7 +98,7 @@ s.events = "event1=2,event2";
 
 ### 通貨イベントの使用
 
-カスタムイベントを変更して、整数の代わりに通貨を使用することができます。通貨イベントは、レポートスイートの通貨と `currencyCode` 変数が一致しない場合、レポートスイートの通貨に自動的に変換されます。配送費、割引、返金の計算に役立ちます。イベントをその製品のみに属性設定する場合は、`products` 変数に通貨イベントを設定できます。
+カスタムイベントを変更して、整数の代わりに通貨を使用できます。通貨イベントは、レポートスイートの通貨と `currencyCode` 変数が一致しない場合、レポートスイートの通貨に自動的に変換されます。配送費、割引、返金の計算に役立ちます。イベントをその製品のみに属性設定する場合は、`products` 変数に通貨イベントを設定できます。
 
 通貨イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)」で目的のイベントを「通貨」に設定してください。
 
