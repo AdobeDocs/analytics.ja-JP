@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 65%
 
 プロジェクト内にクイックセグメントを作成して、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)全体の複雑さを回避できます。クイックセグメント
 
-* 適用方法 [プロジェクトのみのセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
+* [プロジェクトのみのセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja#what-are-project-only-segments)として適用します。
 * 最大 3 つのルールを設定できます。
 * ネストされたコンテナや順次ルールに対応しません。
 
 クイックセグメントの機能と本格的なコンポーネントリストのセグメントの機能の比較については、[こちら](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)を参照してください。
 
-次に、クイックセグメントの概要ビデオを示します。
+次に、クイックセグメントの概要に関するビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
@@ -43,7 +43,7 @@ ht-degree: 65%
 | --- | --- |
 | 名前 | セグメントのデフォルト名は、セグメント内のルール名の組み合わせです。セグメントの名前は変更できます。 |
 | 含む／除く | セグメント定義にコンポーネントを含めるか除外することはできますが、両方に対応していません。 |
-| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。A [!UICONTROL 訪問] コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定でき、 [!UICONTROL ヒット] コンテナを使用すると、訪問者情報を個々のページビューに基づいて分類できます。 デフォルトのコンテナは [!UICONTROL ヒット] です。 |
+| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ja#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL 訪問]コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、[!UICONTROL ヒット]コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。デフォルトのコンテナは [!UICONTROL ヒット] です。 |
 | コンポーネント（ディメンション／指標／日付範囲） | コンポーネント（ディメンション／指標／日付範囲）とその値を追加して、最大 3 つのルールを定義できます。適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL クイックセグメント]ビルダーが適切なコンポーネントを自動的に見つけます。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>データセットを左側のパネルからドラッグ＆ドロップします。</li></ul> |
 | 演算子 | 標準演算子と [!UICONTROL 個別カウント] 演算子を検索するには、ドロップダウンメニューを使用します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ja) |
 | プラス（+）記号 | 別のルールの追加 |
@@ -71,7 +71,7 @@ ht-degree: 65%
 ## クイックセグメントの保存
 
 >[!IMPORTANT]
->セグメントを保存または適用すると、クイックセグメントビルダーでは編集できなくなり、通常のセグメントビルダーでのみ編集できます。Adobe Analyticsの製品管理者とクイックセグメントの作成者のみが、既存のクイックセグメントに対する変更を保存できます。
+>セグメントを保存または適用すると、クイックセグメントビルダーでは編集できなくなり、通常のセグメントビルダーでのみ編集できます。Adobe Analytics 製品管理者およびクイックセグメントの作成者のみが、既存のクイックセグメントに対する変更を保存できます。
 
 1. クイックセグメントを適用したら、該当するセグメントにカーソルを移動し、情報 「i」アイコンを選択します。
 
@@ -81,23 +81,23 @@ ht-degree: 65%
 1. （オプション）セグメントの名前を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-セグメントのサイドバーが縞の青から薄い青に変わるのに注意してください。 これで、左側のパネルコンポーネントリストにも表示されます。
+セグメントのサイドバーが青いストライプから明るい青に変わります。また、左側のパネルコンポーネントリストにも表示されるようになりました。
 
 ## プロジェクトのみのセグメントとは
 
-プロジェクトのみのセグメントとは、作成元の現在のプロジェクトにのみ適用されるセグメントです。 他のプロジェクトでは使用できず、他のユーザーと共有することもできません。 これは、左側のパネルでセグメントを作成して保存する必要なく、データをすばやく調査するためのものです。 プロジェクトのみのセグメントは、クイックセグメントまたは [アドホックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+プロジェクトのみのセグメントは、作成した現在のプロジェクトにのみ適用されるセグメントです。他のプロジェクトでは使用できず、他のユーザーと共有することもできません。これらは、左側のパネルでセグメントを作成して保存することなく、データをすばやく探索することを目的としています。プロジェクトのみのセグメントは、パネルドロップゾーンでクイックセグメントか[アドホックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=ja)を使用して作成できます。
 
-プロジェクトのみのセグメントが [!UICONTROL セグメントビルダー]に設定すると、プロジェクトのみの通知が表示されます。 「このセグメントを使用可能にする」をオフにした場合。 をクリックし、 **[!UICONTROL 適用]**&#x200B;の場合、セグメントはプロジェクトのみのセグメントのままです。 注意：セグメントビルダーからクイックセグメントを適用した場合、そのセグメントは [!UICONTROL クイックセグメントビルダー].
+プロジェクトのみのセグメントが[!UICONTROL セグメントビルダー]で開かれると、プロジェクトのみの通知が表示されます。「このセグメントを使用可能にする」をチェックせずに「**[!UICONTROL 適用]**」をクリックすると、セグメントは、プロジェクトのみのセグメントのままになります。メモ：セグメントビルダーからクイックセグメントを適用すると、[!UICONTROL クイックセグメントビルダー]で開くことができなくなります。
 
 ![プロジェクトのみ未チェック](assets/project-only-unchecked.png)
 
-「このセグメントを使用可能にする」をオンにした場合 をクリックし、 **[!UICONTROL 保存]**&#x200B;の場合、セグメントが左側のレールのコンポーネントリストで使用可能になり、他のプロジェクトで使用できるようになります。 セグメントマネージャから他のユーザーと共有することもできます。
+「このセグメントを使用可能にする」をチェックして「**[!UICONTROL 保存]**」をクリックすると、セグメントは、左側のパネルのコンポーネントリストで使用できるようになり、他のプロジェクトで使用できます。セグメントマネージャーから他のユーザーと共有することもできます。
 
 ![プロジェクトのみチェック済み](assets/project-only-checked.png)
 
 ## 既知の問題
 
-1. 2 つのエントリと **[!UICONTROL 保存]** これは Test1 です。
-1. クリック **[!UICONTROL 名前を付けて保存]** このクイックセグメントを Test2 として保存します。
-1. Test2 クイックセグメントを編集し、再度 Test2 として保存します。
-Test1 クイックセグメントは、Test2 によって変更されます。
+1. 2 つのエントリでクイックセグメントを作成して、Test1 として&#x200B;**[!UICONTROL 保存]**&#x200B;します。
+1. **[!UICONTROL 名前を付けて保存]**&#x200B;をクリックして、このクイックセグメントを Test2 として保存します。
+1. Test2 クイックセグメントを編集して、もう一度 Test2 として保存します。
+Test1 クイックセグメントが Test2 で変更されます。
