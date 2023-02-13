@@ -1,18 +1,18 @@
 ---
-description: サーバー側転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
-title: サーバー側転送のデータとコードのリファレンス
+description: サーバーサイド転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
+title: サーバーサイド転送のデータとコードのリファレンス
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
 ---
 
-# サーバー側転送のデータとコードのリファレンス
+# サーバーサイド転送のデータとコードのリファレンス
 
-サーバー側転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
+サーバーサイド転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 |--- |--- |
 | `d_rs` | （レガシー／トラッキングサーバーベースのサーバーサイド転送で設定） <br>Analytics にヒットと共に渡されるレポートスイートに設定します。 |
 | `d_dst_filter` | （レポートスイートベースのサーバーサイド転送で設定）<br>Analytics にヒットと共に渡されるレポートスイート ID に設定します。 |
-| `d_dst` | クライアントに送り返される宛先に関する内容を Analytics へのリクエストが想定している場合は、<br> `d_dst=1` を設定します。 |
+| `d_dst` | クライアントに送り返される宛先に関する内容を Analytics へのリクエストが想定している場合は、`d_dst=1` <br> を設定します。 |
 | `d_mid` | Analytics に渡される Experience Cloud ID。 |
 
 ## HTTP ヘッダー {#section_0549705E76004F9585224AEF872066C0}
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## 顧客定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html) も参照してください。
+プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
 
 | シグナル | 説明 |
 | --- |--- |
@@ -67,7 +67,7 @@ ht-degree: 100%
 | `c_linkExitURL` | 離脱リンクの URL。 |
 | `c_list#` | カスタムリスト変数。 |
 | `c_longitude` | 経度（数値）。 |
-| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。次に、オプションを示します。その他、Primetime |
+| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。次に、オプションを示します。  その他、Primetime |
 | `c_pageName` | ページ名（設定されている場合）。 |
 | `c_pageURL` | ブラウザーのアドレスバーに表示されるページのアドレス。 |
 | `c_products` | 製品文字列（`s.products` で設定）。 |
