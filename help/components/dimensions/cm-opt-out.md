@@ -3,30 +3,30 @@ title: 同意管理のオプトアウト
 description: 訪問者がオプトアウトしたプライバシー設定を確認します。
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # 同意管理のオプトアウト
 
-「同意管理のオプトアウト」ディメンションは、訪問者が明示的にオプトアウトしたプライバシー設定を表示します。 このディメンションを使用して、プライバシー設定に基づいてデータをフィルタリングしたり、最も一般的なプライバシーオプトアウト理由を確認したりできます。
+「同意管理のオプトアウト」ディメンションには、訪問者が明示的にオプトアウトしたプライバシー設定が表示されます。このディメンションを使用して、プライバシー設定に基づいてデータをフィルタリングしたり、最も一般的なプライバシーオプトアウトの理由を確認したりできます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、次のデータを収集します [コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md):
+このディメンションは、次の[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)からデータを収集します。
 
-* `contextData.['cm.ssf']` 設定されている場合 `1`. If `cm.ssf` 次と等しい `0` またはが空白の場合、この変数は何もしません。
-* `contextData.['opt.dmp']` 設定されている場合 `N`. If `opt.dmp` 次と等しい `Y`、 [同意管理のオプトイン](cm-opt-in.md) ディメンションが代わりに入力されます。
-* `contextData.['opt.sell']` 設定されている場合 `N`. If `opt.sell` 次と等しい `Y`、 [同意管理のオプトイン](cm-opt-in.md) ディメンションが代わりに入力されます。
+* `1` に設定されている場合は `contextData.['cm.ssf']`。`cm.ssf` が `0` に等しいか、または空の場合、この変数はなにもしません。
+* `N` に設定されている場合は `contextData.['opt.dmp']`。`opt.dmp` が `Y` に等しい場合、代わりに[同意管理のオプトイン](cm-opt-in.md)ディメンションが設定されます。
+* `N` に設定されている場合は `contextData.['opt.sell']`。`opt.sell` が `Y` に等しい場合、代わりに[同意管理のオプトイン](cm-opt-in.md)ディメンションが設定されます。
 
-組織は、これらのコンテキストデータ変数を実装するロジックを決定します。 設定されたヒットの後は保持されないので、各ページで各コンテキストデータ変数を設定する必要があります。
+これらのコンテキストデータ変数を実装するためのロジックは、お客様の組織が決定します。これらの変数は、設定されたヒットを超えて存続しないので、各ページでコンテキストデータ変数を設定する必要があります。
 
 ## ディメンション項目
 
-Dimension項目には次の 3 つの値が含まれます。
+ディメンション項目には、次の 3 つの値が含まれます。
 
-* **`SSF`**:訪問者がオプトアウトしました [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). このディメンション項目は、コンテキストデータ変数が存在する場合に存在します `cm.ssf` 次と等しい `1`. 詳しくは、 [データプライバシーの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) (『Audience Managerユーザガイド』) を参照してください。 ヒットはAdobe Audience Managerに転送されません。
-* **`DMP`**:訪問者は、データ管理プラットフォームへの共有をオプトアウトしました。 このディメンション項目は、コンテキストデータ変数が存在する場合に存在します `opt.dmp` 次と等しい `N`. 類似 `SSF`の場合、ヒットはAdobe Audience Managerに転送されません。
-* **`SELL`**:訪問者は、データをサードパーティへの共有または販売をオプトアウトしました。 このディメンションは、コンテキストデータ変数が存在する場合に使用されます `opt.sell` 次と等しい `N`.
+* **`SSF`**：訪問者が[サーバーサイド転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)をオプトアウトした。このディメンション項目は、コンテキストデータ変数 `cm.ssf` が `1` に等しい場合に存在します。詳しくは、Audience Manager ユーザーガイドの[データプライバシーの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ja)を参照してください。ヒットは、Adobe Audience Manager に転送されません。
+* **`DMP`**：訪問者がデータ管理プラットフォームへの共有をオプトアウトした。このディメンション項目は、コンテキストデータ変数 `opt.dmp` が `N` に等しい場合に存在します。`SSF` と同様に、ヒットは、Adobe Audience Manager に転送されません。
+* **`SELL`**：訪問者がサードパーティへのデータの共有や販売をオプトアウトした。このディメンションは、コンテキストデータ変数 `opt.sell` が `N` に等しい場合に存在します。
