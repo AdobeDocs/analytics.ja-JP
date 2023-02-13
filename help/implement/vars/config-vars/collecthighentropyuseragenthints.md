@@ -5,13 +5,13 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics は高エントロピーのクライアントヒントを使用して、デバイスとブラウザーの識別を向上させます。このオプションは、AppMeasurement.js のバージョン2.23.0以降で使用できます。 クライアントヒントについて詳しくは、[この概要と FAQ](/help/technotes/client-hints.md) のほか [Google のブログ](https://web.dev/user-agent-client-hints/)を参照してください。
+Adobe Analytics は高エントロピーのクライアントヒントを使用して、デバイスとブラウザーの識別を向上させます。このオプションは、AppMeasurement.js のバージョン 2.23.0 以降で使用できます。クライアントヒントについて詳しくは、[この概要と FAQ](/help/technotes/client-hints.md) のほか [Google のブログ](https://web.dev/user-agent-client-hints/)を参照してください。
 
 ## Web SDK を使用した高エントロピーヒントの収集
 

@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 81%
 
 ## Adobe Analytics での管理者の追加
 
-Adobe Analyticsで管理者を追加する方法については、次のビデオデモをご覧ください。
+Adobe Analytics での管理者の追加方法を説明する次のビデオデモをご覧ください。
 
 [Adobe Analytics での管理者の追加](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

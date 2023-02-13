@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace、Analytics ダッシュボード、R
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
          + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [フォルダーを削除](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [プロジェクトを追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [プロジェクトの追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [新しいプロジェクトの保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)

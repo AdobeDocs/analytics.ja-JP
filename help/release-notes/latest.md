@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 43%
+ht-degree: 51%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2023年2月）
+# 現在の Adobe Analytics リリースノート (2023年2月)
 
 **最終更新日**：2023年2月9日（PT）
 
@@ -36,7 +36,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
 | **分類セットアーキテクチャへの自動移行** | 2023 年 2 月 9 日 | 今後数ヶ月の間に、Adobeはすべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。 最後に移行するお客様は、2023 年 5 月に発生すると推定されます。 顧客のアクションは不要で、ダウンタイムも期待されません。 この新しいアーキテクチャには、次のような多くの利点があります。<ul><li>処理時間が大幅に短縮されました (72 時間→ 24 時間 )</li><li>を使用する機能 [分類セット](/help/components/classifications/sets/overview.md) UI</li><li>将来的に ( [分類データ用のAdobe Analyticsソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>組織のワークフローに影響を与える可能性のある、次の変更に注意してください。<ul><li>ブラウザーまたは FTP インポートを使用する場合は、「[!UICONTROL 競合時に上書き]「 」は常に有効になっています。</li><li>ブラウザーまたは FTP インポートを使用する場合、インポート直後にエクスポートするオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、Adobeでは可能な限り新しい文字列識別子を使用することをお勧めします。 数値識別子は、 `?expansion=hidden` クエリー文字列パラメーター。</li></ul>Adobeの移行スケジュールをより具体的に設定したい場合や、この移行に関する質問や懸念事項がある場合は、カスタマーケアにお問い合わせください。 [詳細情報](/help/components/classifications/sets/overview.md) |
-| **Google クライアントヒントによるデバイス検索の更新** | 2023 年 1 月 26 日 | デバイス参照でのクライアントヒントの使用は、次の日に開始されます。 **2023 年 2 月 17 日**. <p> <p>2022 年 10 月以降、Web SDK ライブラリまたは AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。 しかし、2023 年 2 月まで、クライアントヒントはデバイス参照に組み込まれません。 その時点で、Adobeは、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
+| **Google クライアントヒントによるデバイス検索の更新** | 2023年1月25日 | デバイス検索でのクライアントヒントの使用は、**2023年2月16日**&#x200B;に開始されます。 <p> <p>2022年10月から、Web SDK または AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できます。ただし、クライアントヒントは、2023年2月まではデバイス検索に組み込まれません。それ以降、アドビは、Google Chrome および Microsoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えてクライアントヒントも使用するようになります。これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -45,9 +45,9 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
 | **一部の Reports &amp; Analytics およびReport Builderスケジュール機能のサポート終了** | 2023 年 2 月 10 日 | 2023 年 1 月 31 日 (PT) に、次のスケジュール機能が提供終了となりました。<ul><li>Report Builderの時間別タスクの「次の時間後に終了」オプション</li><li>Reports and Analyticsで新しいレポートをスケジュールし、データ抽出をダウンロードする機能</li></ul><p>**注意**:当初は、これらの機能は 2022 年 4 月に廃止されましたが、変更は元に戻されました。 また、これらの機能が一時的に復元され、2023 年 1 月 31 日に再び終了することを示す通知も送信しました。 |
-| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日（PT） | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しいパブリッシュリストを作成するか既存のパブリッシュリストにアクセスして、Analysis Workspace プロジェクトの送信やスケジュールを行うことはできなくなります。 |
-| **Data Workbench のサポート終了** | 2022年9月14日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
+| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日 | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しいパブリッシュリストを作成するか既存のパブリッシュリストにアクセスして、Analysis Workspace プロジェクトの送信やスケジュールを行うことはできなくなります。 |
+| **Data Workbench のサポート終了** | 2022年9月14日 | **2023年12月31日**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日 | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 
 {style=&quot;table-layout:auto&quot;}
 

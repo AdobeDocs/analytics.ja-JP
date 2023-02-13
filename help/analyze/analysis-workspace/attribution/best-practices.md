@@ -12,14 +12,14 @@ ht-degree: 58%
 
 # アトリビューションのベストプラクティス
 
-組織に適したアトリビューションモデルの選択は、多くの考慮事項に基づいて行います。 この記事では、方法といくつかの一般的なベストプラクティスについて説明します。
+組織に適したアトリビューションモデルの選択は、多くの考慮事項に基づいて行います。この記事では、方法といくつかの一般的なベストプラクティスについて説明します。
 
 ## 手順 1：探索的分析
 
 >[!NOTE]
 >この分析は、アトリビューションモデルを選択する前に行う必要があります。
 
-このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。 コンバージョン指標に基づいて、 [データフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) （生データ用）や Analysis Workspace などのツールを使用すると、
+このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。コンバージョン指標に基づいて、 [データフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) （生データ用）や Analysis Workspace などのツールを使用すると、
 
 * コンバージョンに至る前に様々なマーケティングチャネルに接触した顧客の数
 * これらの行動の比率/分布

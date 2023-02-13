@@ -7,7 +7,7 @@ user-guide-description: Experience Cloud Admin Console でのユーザーと製�
 source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -72,13 +72,13 @@ ht-degree: 94%
                + [ボットの除外メソッド](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [プライバシー設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [タイムスタンプオプション](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + サーバー側転送 {#server-side-forwarding}
-               + [サーバー側転送の概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-               + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
-               + [サーバー側転送の要件](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
-               + [サーバー側転送のデータとコードのリファレンス](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
-               + [サーバー側転送の実装の確認方法](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
-               + [サーバー側転送の FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
+            + サーバーサイド転送 {#server-side-forwarding}
+               + [サーバーサイド転送の概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR／ePrivacy コンプライアンスおよびサーバーサイド転送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [サーバーサイド転送の要件](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [サーバーサイド転送のデータとコードのリファレンス](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [サーバーサイド転送の実装の確認方法](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [サーバーサイド転送の FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + トラフィック {#traffic-variables}
             + [トラフィック変数](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [トラフィック変数レポートの有効化](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -156,7 +156,7 @@ ht-degree: 94%
       + [サーバーコールの使用状況アラート](admin/c-server-call-usage/scu-alerts.md)
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
    + ユーザーと製品の管理（レガシー） {#user-product-management}
-      + [ユーザーと製品の管理 （レガシー）](admin/user-management2/user-management.md)
+      + [ユーザーと製品の管理(レガシー)](admin/user-management2/user-management.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
@@ -169,7 +169,7 @@ ht-degree: 94%
    + データのラベル付け {#data-labels}
       + [Analytics コンポーネントのデータプライバシーラベル](c-data-governance/data-labeling/gdpr-labels.md)
       + [レポートスイートのデータのラベル設定](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [レポートスイートのプライバシーラベルを表示/管理](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [レポートスイートのプライバシーラベルの表示／管理](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [ラベル設定に関するベストプラクティス](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [ラベル設定の例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [名前空間](c-data-governance/data-labeling/gdpr-namespaces.md)

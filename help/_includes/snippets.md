@@ -2,7 +2,7 @@
 source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 # スニペット
@@ -48,15 +48,15 @@ ht-degree: 7%
 
 {style=&quot;table-layout:auto&quot;}
 
-## リリースフェーズの限定テスト {#release-limited-testing}
+## リリース段階の限定的なテスト {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->この記事で説明する機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない場合があります。 このメモは、機能が一般に利用可能になると削除されます。 Analytics のリリースプロセスについて詳しくは、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).
+>この記事で説明する機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない場合があります。 このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
-## リリースフェーズの制限付きテストの節 {#release-limited-testing-section}
+## リリース段階の限定的なテストセクション {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->この節で説明する機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない場合があります。 このメモは、機能が一般に利用可能になると削除されます。 Analytics のリリースプロセスについて詳しくは、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).
+>この節で説明する機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない場合があります。 このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
