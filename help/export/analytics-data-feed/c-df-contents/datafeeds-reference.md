@@ -6,9 +6,9 @@ title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->ほとんどの列には、`post_` というプレフィックスが付く類似の列が含まれています。post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
+>ほとんどの列には、`post_` というプレフィックスが付く類似の列が含まれています。post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
@@ -64,14 +64,14 @@ ht-degree: 96%
 | **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されたタイムスタンプ（UNIX 時間）。 | int |
 | **`cust_visid`** | カスタム訪問者 ID が設定されている場合は、それがこの列に格納されます。 | varchar(255) |
 | **`daily_visitor`** | ヒットが新しい日別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
-| **`dataprivacyconsentoptin`** | で使用される変数 [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`\|`) をクリックします。 有効な値は次のとおりです。 `DMP` および `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | で使用される変数 [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`\|`) をクリックします。 有効な値は次のとおりです。 `SSF`, `DMP`、および `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md)ディメンションで使用される変数。ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`DMP` および `SELL` などがあります。 | varchar(100) |
+| **`dataprivacyconsentoptout`** | [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md)ディメンションで使用される変数。ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`SSF`、`DMP`、`SELL` などがあります。 | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | **`domain`** | 「[ドメイン](/help/components/dimensions/domain.md)」ディメンションで使用される変数。訪問者のインターネットアクセスポイントに基づいています。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
 | **`duplicate_purchase`** | このヒットの購入イベントが重複しているので無視されることを示すフラグ。 | tinyint unsigned |
 | **`duplicated_from`** | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットがどのレポートスイートからコピーされたかを示します。 | varchar(40) |
-| **`ef_id`** | Adobe Advertising 統合で使用される `ef_id` | varchar(255) |
+| **`ef_id`** | Adobe Advertising 統合で使用される `ef_id`。 | varchar(255) |
 | **`evar1 - evar250`** | カスタム変数 1 ～ 250。「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
 | **`event_list`** | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。`event.tsv` ルックアップを使用します。 | テキスト |
 | **`exclude_hit`** | ヒットがレポートから除外されていることを示すフラグ。除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
@@ -95,7 +95,7 @@ ht-degree: 96%
 | **`hourly_visitor`** | ヒットが新しい時間別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
 | **`ip2`** | 未使用。IP アドレスに基づく VISTA ルールを含んだレポートスイートのバックエンド参照変数。 | char(20) |
-| **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。 `ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
+| **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | **`java_enabled`** | Java が有効かどうかを示すフラグ。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | **`javascript`** | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。参照テーブルを使用します。 | tinyint unsigned |
@@ -125,13 +125,13 @@ ht-degree: 96%
 | **`mobilecampaignterm`** | この獲得で追跡する有料キーワードまたはその他の用語。モバイルアプリケーションの獲得によって設定されます。 | varchar(255) |
 | **`mobiledayofweek`** | アプリが起動された曜日を表す数値。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | アプリの初回実行時からの経過日数。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | 廃止 — コンテキストデータ変数 a.DaysSinceLastUpgrade から収集します。 前回のセッションからの経過日数。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 廃止 - コンテキストデータ変数 a.DaysSinceLastUpgrade から収集されます。前回のセッションからの経過日数。 | varchar(255) |
 | **`mobiledayssincelastuse`** | アプリの前回実行時からの経過日数。 | varchar(255) |
 | **`mobiledeeplinkid`** | コンテキストデータ変数 `a.deeplink.id` から収集します。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
 | **`mobiledevice`** | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
 | **`mobilehourofday`** | アプリが起動された時刻を、24 時間形式で示します。 | varchar(255) |
 | **`mobileinstalldate`** | モバイルインストール日。モバイルアプリをユーザーが最初に起動した日を示します。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | 廃止 — コンテキストデータ変数 a.LaunchesSinceUpgrade から収集します。 前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 廃止 - コンテキストデータ変数 a.LaunchesSinceUpgrade から収集されます。前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
 | **`mobilelaunchnumber`** | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
 | **`mobileltv`** | 廃止。trackLifetimeValue メソッドによって設定されます。 | varchar(255) |
 | **`mobilemessagebuttonname`** | コンテキストデータ変数 `a.message.button.id` から収集します。メッセージを閉じたボタンを識別するために、アプリ内メッセージで使用します。 | varchar(100) |
@@ -139,13 +139,13 @@ ht-degree: 96%
 | **`mobilemessageonline`** | アプリ内メッセージオンライン | varchar(255) |
 | **`mobilemessagepushoptin`** | コンテキストデータ変数 `a.push.optin` から収集します。ユーザーがプッシュメッセージをオプトインする場合は「true」に設定します。それ以外の場合、値は「false」です。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | コンテキストデータ変数 `a.push.payloadid` から収集します。ペイロード識別子としてプッシュメッセージで使用します。 | varchar(255) |
-| **`mobileosenvironment`** | 廃止 — コンテキストデータ変数から収集 `a.OSEnvironment`. Android や iOS などの OS 環境を示します。 | varchar(255) |
+| **`mobileosenvironment`** | 廃止 - コンテキストデータ変数 `a.OSEnvironment` から収集されます。Android や iOS などの OS 環境を示します。 | varchar(255) |
 | **`mobileosversion`** | Mobile Services のオペレーティングシステムのバージョン。 | varchar(255) |
 | **`mobileplaceaccuracy`** | コンテキストデータ変数 `a.loc.acc` から収集します。収集時の GPS の精度をメートル単位で示します。 | varchar(255) |
 | **`mobileplacecategory`** | コンテキストデータ変数 `a.loc.category` から収集します。特定の場所のカテゴリを示します。 | varchar(255) |
 | **`mobileplaceid`** | コンテキストデータ変数 `a.loc.id` から収集します。特定の対象地点の識別子。 | varchar(255) |
-| **`mobilepushoptin`** | Mobile Services プッシュのオプトイン | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services プッシュペイロード ID | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services Push オプトイン | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push ペイロード ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services の起動コンテンツ | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services の起動メディア | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services の起動ソース | varchar(255) |
@@ -166,14 +166,14 @@ ht-degree: 96%
 | **`page_type`** | 「[エラーページ](/help/components/dimensions/pages-not-found.md)」ディメンションの入力に使用。404 エラーページにのみ使用されます。この変数の値は、空か「`ErrorPage`」である必要があります。 | char(20) |
 | **`page_url`** | ヒットの URL。`post_page_url` は、リンクトラッキングのイメージリクエストでは削除され、データタイプ「 varchar（255）」を使用します。 | テキスト |
 | **`pagename`** | 「[ページ](/help/components/dimensions/page.md)」ディメンションの入力に使用されます。[`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
-| **`pagename_no_url`** | 類似 `pagename`を返しますが、 `page_url`. 次の項目のみ `post` 列が使用可能です。 | varchar(100) |
+| **`pagename_no_url`** | `pagename` に似ていますが、`page_url` にフォールバックされません。`post` 列のみが使用できます。 | varchar(100) |
 | **`paid_search`** | ヒットが有料検索の検出に一致した場合に設定されるフラグ。 | tinyint unsigned |
 | **`partner_plugins`** | 未使用。削除されたフィーチャの一部。 | varchar(255) |
 | **`persistent_cookie`** | 「[永続的な cookie のサポート](/help/components/dimensions/persistent-cookie-support.md)」ディメンションで使用されます。各ヒットの後で破棄されない Cookie を訪問者がサポートしているかどうかを示します。 | char(1) |
 | **`plugins`** | 廃止。ブラウザー内で使用可能なプラグインに対応する数値 ID のリスト。`plugins.tsv` ルックアップを使用します。 | varchar(180) |
 | **`pointofinterest`** | Mobile Services 目標地点の名前 | varchar(255) |
 | **`pointofinterestdistance`** | 目標地点中心までの Mobile Services の距離 | varchar(255) |
-| **`post_`** 列 | レポートで最終的に使用された値が格納されます。各 post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |
+| **`post_`** 列 | レポートで最終的に使用された値が格納されます。各 post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |
 | **`prev_page`** | 未使用。前のページの Adobe 独自の識別子。 | int unsigned |
 | **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) 変数を通じて渡される製品リスト。製品はコンマで区切られますが、個々の製品プロパティはセミコロンで区切られます。 | テキスト |
 | **`product_merchandising`** | 未使用。代わりに、`product_list` を使用してください。 | テキスト |
@@ -208,12 +208,12 @@ ht-degree: 96%
 | **`sourceid`** | ソース ID | int unsigned |
 | **`state`** | 状態変数。 | varchar(50) |
 | **`stats_server`** | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
-| **`survey`** | 廃止。Adobe Survey変数。 次の項目のみ `post` 列が使用可能です。 | テキスト |
-| **`survey_instances`** | 廃止。Adobe Surveyインスタンス変数。 | テキスト |
+| **`survey`** | 廃止。Adobe Survey 変数。`post` 列のみが使用できます。 | テキスト |
+| **`survey_instances`** | 廃止。Adobe Survey インスタンス変数。 | テキスト |
 | **`t_time_info`** | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
 | **`tnt_action`** | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
-| **`tnt_instances`** | Adobe Target 統合で使用されます。ターゲットインスタンス変数。 | テキスト |
+| **`tnt_instances`** | Adobe Target 統合で使用されます。Target インスタンス変数。 | テキスト |
 | **`tnt_post_vista`** | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | **`transactionid`** | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |
 | **`truncated_hit`** | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
@@ -279,7 +279,7 @@ ht-degree: 96%
 | **`visid_low`** | `visid_high` と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_new`** | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`:カスタム訪問者 ID または不明/該当なし<br>`1`:IP とユーザーエージェントのフォールバック <br>`2`:HTTP モバイル購読者ヘッダー <br>`3`:従来の cookie 値 (`s_vi`) <br>`4`:フォールバック cookie の値 (`s_fid`) <br>`5`:ID サービス | tinyint unsigned |
+| **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`：カスタム訪問者 ID または不明／該当なし<br>`1`：IP およびユーザーエージェントのフォールバック<br>`2`：HTTP モバイル加入者ヘッダー<br>`3`：従来の cookie 値（`s_vi`）<br>`4`：フォールバック cookie の値（`s_fid`）<br>`5`：ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
 | **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
 | **`visit_page_num`** | 「[ヒットの深度](/help/components/dimensions/hit-depth.md)」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
