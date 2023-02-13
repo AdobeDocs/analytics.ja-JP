@@ -4,9 +4,9 @@ description: コンテキストデータ変数を使用すると、処理ルー�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 80%
 
 コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。コード内の Analytics 変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれの Analytics 変数に渡します。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
 
-コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストすることができます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
+コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストできます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
 
 ## Web SDK を使用したコンテキストデータ変数
 
-XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
+XDM フィールドが [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されていない場合は、コンテキストデータ変数として自動的に含まれます。その後、[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。
 
-データストリーム内の正しい XDM フィールドにデータをマッピングするのがベストプラクティスですが、この方法は似たような結果を実現します。
+ベストプラクティスは、データストリームの正しい XDM フィールドにデータをマッピングすることですが、この方法は、同様の結果を実現します。
 
-## Adobe Analytics拡張機能を使用したコンテキストデータ変数
+## Adobe Analytics 拡張機能を使用したコンテキストデータ変数
 
-Adobe Experience Platformのデータ収集には、コンテキストデータ変数を設定するための専用の場所がありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Experience Platform データ収集には、コンテキストデータ変数を設定するための専用の場所がありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.contextData
 
