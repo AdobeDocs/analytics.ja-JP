@@ -4,7 +4,7 @@ description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ## [!UICONTROL websiteBot] プラグインを使用してボットを識別します。
 
-[!UICONTROL websiteBot] プラグインを使用すると、デスクトップ訪問者がボットかどうかを動的に識別できます。このデータを使用すると、あらゆる種類のレポートの精度を高め、合法なサイトトラフィックの測定を改善することができます。
+[!UICONTROL websiteBot] プラグインを使用すると、デスクトップ訪問者がボットかどうかを動的に識別できます。このデータを使用すると、あらゆる種類のレポートの精度を高め、合法なサイトトラフィックの測定を改善できます。
 
 このプラグインでは、次の 2 つのチェックを実行します。
 
@@ -50,7 +50,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
+このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 
@@ -93,4 +93,4 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順 7：手順 2、3、4 を定期的に繰り返す
 
-リマインダーを毎月 1 回以上（定期的にスケジュールされた分析の前などに）設定し、新しいボットの識別とフィルタリングをおこないます。
+リマインダーを毎月 1 回以上（定期的にスケジュールされた分析の前などに）設定し、新しいボットの識別とフィルタリングを行います。
