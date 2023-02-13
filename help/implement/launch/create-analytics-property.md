@@ -4,9 +4,9 @@ description: タグを使用してスペースを作成し、データの収集�
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
@@ -31,13 +31,13 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 1. Experience Cloud 組織 ID を含むすべての設定は、既に入力されているはずです。「**[!UICONTROL 保存]**」をクリックします。
 1. 拡張機能カタログに戻り、Adobe Analytics を探して「**[!UICONTROL インストール]**」をクリックします。
 
-詳しくは、 [Adobe Analytics拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja) を参照してください。
+詳しくは、[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)の完全なドキュメントを参照してください。
 
 ## Adobe Analytics 用のデータ要素の作成
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 1. データ要素に次の設定を指定します。
@@ -45,22 +45,22 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
    * 名前：ページ名
    * 拡張機能：Core
    * データ要素の種類：JavaScript 変数
-   * JavaScript 変数名： `window.document.title`
+   * JavaScript 変数名：`window.document.title`
 
       >[!NOTE]
       >
-      >この値は、使い始めるのに役立つ例です。 データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+      >この値は、開始を支援するための例として提供されます。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
-   * ストレージ期間：なし
+   * 保存期間：なし
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## Adobe Analytics のルールの作成
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
-1. 次をクリック： **[!UICONTROL ルール]** 「 」タブで、「 **[!UICONTROL ルールを追加]**. 名前を付ける `Global Rule`.
+1. 「**[!UICONTROL ルール]**」タブをクリックしてから、**[!UICONTROL ルールを追加]**&#x200B;をクリックします。`Global Rule` という名前を付けます。
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。
    * 拡張機能：Core
    * イベントタイプ：読み込まれたライブラリ（ページ上部）
@@ -70,7 +70,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
    * 拡張機能：Adobe Analytics
    * アクションタイプ：変数を設定
    * ページ名：コンテナアイコンをクリックし、`Page Name`データ要素を選択します
-   * キャンペーン：値が `cid` のクエリーパラメーター
+   * キャンペーン：値が `cid` のクエリパラメーター
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. アクションの横のプラス記号をクリックして別のアクションを追加し、次の設定を入力します。
    * 拡張機能：Adobe Analytics
