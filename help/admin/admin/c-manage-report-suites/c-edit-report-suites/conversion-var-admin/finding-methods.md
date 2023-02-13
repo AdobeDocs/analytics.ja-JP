@@ -5,7 +5,7 @@ feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
      <li id="li_A3AE5438919E44B68DF99BEEA60C44EE"> <span class="uicontrol">ページ表示：</span>サイトのいずれかのページが開き次第。 </li> 
      <li id="li_D5E20FEF313E4C5B99E7097CA175761A"> <span class="uicontrol">分：</span>無操作状態が 1 分間続いた後。 </li> 
      <li id="li_7315AA3EDDBB47A2BEA3C173881378A1"> <span class="uicontrol">購入：</span>購入時。 </li> 
-     <li id="li_C0CF07581654472C9C9EC944E6F18164"> <span class="uicontrol">製品表示：</span>訪問者が商品の Web ページを閲覧したとき。 </li> 
+     <li id="li_C0CF07581654472C9C9EC944E6F18164"> <span class="uicontrol">製品表示：</span>訪問者が商品の web ページを閲覧したとき。 </li> 
      <li id="li_A1B04065150B407491D2EC78EC0DBDF5"> <span class="uicontrol">買い物かご：</span>訪問者が新しい買い物かごを開いたとき。 </li> 
      <li id="li_2AA50C6B9CB14500B67909CDF2AA700C"> <span class="uicontrol">買い物かごのチェックアウト：</span>訪問者が買い物かごをチェックアウトしたとき。 </li> 
      <li id="li_F58CE6FB8DCE4BE4927FFCB35A6D8E31"> <span class="uicontrol">買い物かごへの追加：</span> 訪問者が買い物かごに商品を追加したとき。 </li> 
@@ -56,4 +56,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->すべての検索方法はその訪問が終了すると有効期限が切れます。「有効期限」を別のイベント（チェックアウトなど）に設定した場合、検索方法は訪問中にチェックアウトが発生した時点で有効期限が切れます。訪問中にチェックアウトが発生しなかった場合、検索方法はその訪問が終了すると有効期限が切れます。
+>すべての検索方法は、その訪問が終了すると有効期限が切れます。「有効期限」を別のイベント（チェックアウトなど）に設定した場合、検索方法は訪問中にチェックアウトが発生した時点で有効期限が切れます。訪問中にチェックアウトが発生しなかった場合、検索方法はその訪問が終了すると有効期限が切れます。
