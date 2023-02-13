@@ -1,22 +1,22 @@
 ---
 title: SFTP サービスのアップグレード - FAQ
-description: 計画されている SFTP サービスのアップグレードに関するよくある質問です。
+description: 予定されている SFTP サービスのアップグレードに関するよくある質問（FAQ）です。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # SFTP サービスのアップグレード - FAQ
 
-2022 年 9 月 20 日に、Adobe Analyticsは Secure File Transfer Protocol をアップグレードします [SFTP] ファイル転送のセキュリティを強化するためのサービス。 この変更により、一部の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用してAdobe Analyticsに送信された、またはから取得されたデータにのみ影響します。 FTP プロトコルは影響を受けません。サービスの中断を避けるために、SFTP クライアント（コード、ツール、サービス）が、以下に説明する変更に従っていることを確認してください。
+2022年9月20日に、Adobe Analytics は、ファイル転送のセキュリティを向上させるために、セキュアファイル転送プロトコル [SFTP] サービスをアップグレードします。この変更により、一部の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、SFTP クライアント（コード、ツール、サービス）が、以下に説明する変更に従っていることを確認してください。
 
 ## 組織で現在使用されているアルゴリズム、接続タイプおよびプロトコルを確認するには、どうすればよいですか？
 
-お使いの FTP/SFTP ソフトウェアは、Adobe Analytics とのデータ交換用に設定した接続で使用されている特定の設定を示しています。このソフトウェアには、接続に使用できる様々なオプションに関するドキュメントも含まれています。 この更新後にサポートされるオプションは、業界で広くサポートされ、受け入れられています。
+お使いの FTP/SFTP ソフトウェアは、Adobe Analytics とのデータ交換用に設定した接続で使用されている特定の設定を示しています。このソフトウェアには、接続に使用できる様々なオプションに関するドキュメントも含まれています。この更新後にサポートされるオプションは、業界で広くサポートされ、受け入れられています。
 
 削除される接続オプションは、通常は古いものと見なされ、現在のソフトウェアでは使用されません。過去 3 年以内に FTP／SFTP ソフトウェアをアップグレードした場合、標準に準拠した接続が既に存在する可能性があります。
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 * [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)
 
-* [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja)
 
 * [データフィード](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=ja)
 
