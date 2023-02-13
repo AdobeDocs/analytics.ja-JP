@@ -4,7 +4,7 @@ title: 保留中のアクション
 feature: Company Settings
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
