@@ -1,13 +1,13 @@
 ---
 description: Audience Analytics を実装するときによくある質問への回答です。
 solution: Experience Cloud
-title: よくあるAudience Analytics
+title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：この統合は、Analytics でディメンションまたはセグメントのどちらとして表示されますか。</b> </p> </td> 
-   <td colname="col2"> <p>ディメンション（オーディエンス ID およびオーディエンス名）として表示されます。です。 </p> </td> 
+   <td colname="col2"> <p>ディメンション（オーディエンス ID およびオーディエンス名）として表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：これらのディメンションは Analytics のどこで使用できますか。</b> </p> </td> 
@@ -110,12 +110,12 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：この統合の追加のサーバーコールは Analytics に請求されますか。</b> </p> </td> 
-   <td colname="col2"> <p>いいえ。AAM オーディエンスは、サーバー側で Analytics ヒットに含められます。これは、Analytics（プライマリまたはセカンダリ）への追加のサーバーコールとなりません。 </p> </td> 
+   <td colname="col2"> <p>いいえ。AAM オーディエンスは、サーバーサイドで Analytics ヒットに含められます。これは、Analytics（プライマリまたはセカンダリ）への追加のサーバーコールとなりません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## サーバー側転送（SSF）のよくある質問（FAQ） {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## サーバーサイド転送（SSF）のよくある質問（FAQ） {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -130,7 +130,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-このトピックに関するその他の FAQ については、[サーバー側転送 FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)を参照してください。
+このトピックに関するその他の FAQ については、[サーバーサイド転送 FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)を参照してください。
 
 ## 一般事項についてのよくある質問（FAQ） {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
