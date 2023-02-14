@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -141,9 +141,9 @@ ht-degree: 100%
 * `pakila.jp`
 * `photobucket.com`
 * `pinterest.com`
+* `pinterest.co.uk`
 * `plaxo.com`
 * `plurk.com`
-* `plus.url.google.com`
 * `po.st`
 * `reddit.com`
 * `renren.com`
@@ -158,7 +158,6 @@ ht-degree: 100%
 * `t.163.com`
 * `t.co`
 * `t.hexun.com`
-* `t.ifeng.com`
 * `t.people.com.cn`
 * `t.qq.com`
 * `t.sina.com.cn`
@@ -187,7 +186,6 @@ ht-degree: 100%
 * `wordpress.com`
 * `xanga.com`
 * `xing.com`
-* `answers.yahoo.com`
 * `yammer.com`
 * `yaplog.jp`
 * `yelp.com`
