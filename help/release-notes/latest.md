@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1053'
+ht-degree: 51%
 
 ---
 
 # 現在の Adobe Analytics リリースノート (2023年2月)
 
-**最終更新日**：2023年2月13日（PT）
+**最終更新日**：2023年2月9日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -44,7 +44,6 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **日本の特集電話追跡サービスのサポート終了** | 2023 年 2 月 14 日 | 日本のお客様のみ：2023 年 5 月末に、日本語機能電話トラッキングサービス (mod_ktrack) の提供が終了します。 ご不便をおかけして申し訳ありませんが、Apache サーバーにインストールされているモジュールをアンインストールまたは無効にしてください。 詳しくは、27 ページと 28 ページ ( [このドキュメント](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 参照用。 |
 | **一部の Reports &amp; Analytics およびReport Builderスケジュール機能のサポート終了** | 2023 年 2 月 10 日 | 2023 年 1 月 31 日 (PT) に、次のスケジュール機能が提供終了となりました。<ul><li>Report Builderの時間別タスクの「次の時間後に終了」オプション</li><li>Reports and Analyticsで新しいレポートをスケジュールし、データ抽出をダウンロードする機能</li></ul><p>**注意**:当初は、これらの機能は 2022 年 4 月に廃止されましたが、変更は元に戻されました。 また、これらの機能が一時的に復元され、2023 年 1 月 31 日に再び終了することを示す通知も送信しました。 |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日 | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しいパブリッシュリストを作成するか既存のパブリッシュリストにアクセスして、Analysis Workspace プロジェクトの送信やスケジュールを行うことはできなくなります。 |
 | **Data Workbench のサポート終了** | 2022年9月14日 | **2023年12月31日**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |
