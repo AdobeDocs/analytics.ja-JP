@@ -3,7 +3,7 @@ description: データガバナンスのプライバシーラベリングダイ�
 title: データガバナンスのプライバシーラベリングの表示／管理
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 75%
@@ -17,15 +17,15 @@ ht-degree: 75%
 ## プライバシーラベルの表示 {#view-privacy}
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL データ設定と収集]**／**[!UICONTROL データガバナンス]**&#x200B;に移動します。
+2. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL データ設定と収集]**／**[!UICONTROL データガバナンス]**&#x200B;に移動します。
 
    >[!NOTE]
    >
    >このメニュー項目が表示されない場合は、この機能への権限を持つ [Admin Console で製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)に追加する必要があります。
 
-1. 右上で、プライバシーラベルを表示または管理したいレポートスイートを選択します。
+3. 右上で、プライバシーラベルを表示または管理したいレポートスイートを選択します。
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | 設定 | 説明 |
 | --- | --- |

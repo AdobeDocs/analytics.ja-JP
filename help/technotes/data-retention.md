@@ -3,7 +3,7 @@ title: データ保持ポリシー
 description: データ保持ポリシーは、アドビがデータを保存する期間を規定しています。
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -54,3 +54,4 @@ Adobe Analytics で収集されたデータは、一定の期間保持されま�
 **アドビがデータを削除するのはいつですか？**
 
 データ削除のスケジュールについては、担当のアカウントマネージャーにお問い合わせください。通常、データの削除は月次処理でおこなわれます。
+
