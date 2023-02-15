@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 97%
 
 ---
@@ -71,8 +71,8 @@ ht-degree: 97%
                + [一般的なボット署名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [ボットの除外メソッド](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [プライバシー設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [タイムスタンプオプション](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + サーバーサイド転送 {#server-side-forwarding}
+            + [タイムスタンプ設定](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + サーバー側転送 {#server-side-forwarding}
                + [サーバーサイド転送の概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR／ePrivacy コンプライアンスおよびサーバーサイド転送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [サーバーサイド転送の要件](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -99,9 +99,9 @@ ht-degree: 97%
             + [リスト変数](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [マーチャンダイジング eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + マーケティングチャネル {#marketing-channels}
-            + [マーケティングチャネルの管理](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [マーケティングチャネルマネージャー](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [マーケティングチャネルの処理ルール](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [マーケティングチャネルでの分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [マーケティングチャネルの分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [マーケティングチャネルの有効期限](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + トラフィック管理 {#traffic-management}
             + [概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
