@@ -3,9 +3,9 @@ description: デバイスやブラウザーでの不必要な Cookie の保存�
 title: ユーザーの同意と Cookie に関する CNIL ガイドライン
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
+source-git-commit: 0d3cdf77089ee5e80daa511c29217c911e2eb955
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 75%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 75%
 * 限定的な範囲。Cookie の範囲を 1 つのサイトまたはアプリケーションに限定する必要があります。[ブラウザーの Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#third-party-cookie-limitations)
 * 匿名化.IP アドレスの最終オクテットを匿名化します。[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 * 訪問者 ID をレポートに表示しない。  訪問者 ID は、デフォルトでは、Adobe Workspaces と Adobe Reports and Analytics に表示されません。  訪問者 ID は、データフィードと Data Warehouse で使用できます。  データフィードおよび Data Warehouse へのアクセスは、 [Admin Console で設定されるアクセス権限](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja)で制限できます[データフィード列リファレンス](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ja#columns%2C-descriptions%2C-and-data-types)
-* 位置情報パラメーター。位置情報の精度は郵便番号レベルにすぎません。[郵便番号](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ja)オプションおよび [一般的なアカウント設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ja#admin-tools)
+* 位置情報パラメーター。位置情報の精度は郵便番号レベルにすぎません。[郵便番号](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=ja)オプションおよび [一般的なアカウント設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ja)
 * オプトインオプションの設定。  オプトインサービスを使用すると、訪問者プロトコルを設定して、サイトを訪問したユーザーのデバイスまたはブラウザーに Cookie を設定できるかどうかを決定できます。 [オプトインサービス](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)
 * データ共有の防止。  Adobe Audience Manager とのデータ共有を防止するには、[プライバシーレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)の `opt.dmp` コンテキスト変数を使用して、ヒットの共有を妨げます。
 * アクセス機能と削除機能。アクセスリクエストと削除リクエストに Privacy Service を利用します。[Analytics および Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=ja)
