@@ -1,8 +1,8 @@
 ---
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 16%
+source-wordcount: '751'
+ht-degree: 15%
 
 ---
 # スニペット
@@ -38,7 +38,8 @@ ht-degree: 16%
 
 | オプション | 関数 |
 |---------|----------|
-| [!UICONTROL **承認済み**] | コンポーネントが管理者によってレビューおよび承認されたことを示します。 管理者向けに、 [!UICONTROL **承認が必要です**] オプションが表示されます。 このオプションを選択すると、それが「承認済み」とマークされます。 |
+| [!UICONTROL **承認済み**] | <p>コンポーネントが管理者によってレビューおよび承認されたことを示します。</p><p>管理者には、 [!UICONTROL **承認取消**]. このオプションを選択すると、コンポーネントがユーザーに対して「未承認」とマークされます。</p> |
+| [!UICONTROL **未承認**] | <p>コンポーネントが管理者によってレビューおよび承認されていないことを示します。</p><p>管理者には、 [!UICONTROL **承認**]. このオプションを選択すると、コンポーネントが「承認済み」としてユーザーにマークされます。</p> |
 | [!UICONTROL **説明**] | コンポーネントの意図された機能を表します。 ( この情報は、Analytics 管理者によって追加されます。詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **次によく使用される**] | <p>表示しているコンポーネントで最もよく使用されるコンポーネントを表示します。</p><p>5 つの主要なコンポーネントタイプに対して、最大 5 つのコンポーネントが表示されます。指標、計算指標、Dimension、セグメント、日付範囲。</p><p>このリストは、過去 90 日間のデータに基づいています。 表示にアクセスできるコンポーネントのみが表示されます。 <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **次に類似している**] | <p>表示しているコンポーネントと同様のラベルを持つコンポーネントを表示します。</p><p>5 つの主要なコンポーネントタイプに対して、最大 5 つのコンポーネントが表示されます。指標、計算指標、Dimension、セグメント、日付範囲。</p><p>表示にアクセスできるコンポーネントのみが表示されます。</p><p>レポートスイート内の重複するコンポーネントは、ここに表示されます。 Analytics 管理者は、 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
