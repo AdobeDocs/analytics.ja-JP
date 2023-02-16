@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 97%
+source-wordcount: '588'
+ht-degree: 94%
 
 ---
 
@@ -114,6 +114,10 @@ ht-degree: 97%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Document Cloud管理 {#doc-cloud-mgt}
+            + [Adobe AnalyticsとのDocument Cloudの設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Document Cloudレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics 設定](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + リアルタイム {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
