@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
+source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,4 @@ ht-degree: 0%
 
    {{dd-component-information}}
 
+1. （オプション）データディクショナリからAnalysis Workspaceにコンポーネントをドラッグします。
