@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9c716438e4802d7dcdeab3302295e651cb5df30e
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 42%
+source-wordcount: '1098'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **データプライバシーラベルのユーザーインターフェイスを更新しました** | 更新されたインターフェイスは、レポートスイートコンポーネントのデータプライバシーラベルの作成、管理および編集のプロセスを合理化します。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | 該当なし | 2023 年 2 月 9 日 |
 | **モバイルスコアカードで比較日付範囲を非表示にする** | モバイルスコアカードでは、 **[!UICONTROL 比較日を含める]** の設定を使用して比較日を表示または非表示にすることができます。 | 該当なし | 2023 年 2 月 9 日 |
 | **Workspace でのカレンダーの更新** | <ul><li>パネルの日付を固定：日付範囲コンポーネントは、パネルカレンダーに対して相対的に設定できます。 [詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>カレンダーのスタイル設定の更新：UI 全体のカレンダースタイルがアップグレードされ、より一貫性が高く使いやすいワークフローが提供されました。</li><li>カレンダー式の更新：相対日付を使用する場合、すべてのカレンダー式はパネルの日付範囲の開始を反映します。 [詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 該当なし | 2023 年 2 月 9 日 |
+| **パネルの日付範囲の更新** | Workspace で、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づいておこなわれます。 </li><li>左側のパネルに表示されるすべてのコンポーネントは、パネルの日付範囲に基づいて使用できます。</li><li>セグメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連するパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間の日付が基になります）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023 年 2 月 9 日 |
 | **Adobe Analytics Source Connector ストリーミング用の行/列フィルタリング** | Adobe Experience Platformの Analytics Source コネクタで、 [リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja). 行レベルのフィルタリングを使用すると、プロファイルに関連するイベントの数を減らすことができます。 列レベルのフィルタリングを使用すると、イベント自体の充実性を低減でき、プロファイルの使用を最適化できます。 このフィルターは、リアルタイム顧客プロファイルに送信されたデータと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja). **フィルタリングは、Customer Journey Analyticsなどのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**. [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 該当なし | 2023 年 2 月 23 日 |
 
 {style=&quot;table-layout:auto&quot;}
