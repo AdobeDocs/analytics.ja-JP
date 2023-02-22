@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 97%
    + [訪問数](metrics/visits.md)
 + セグメント化 {#segmentation}
    + [Analytics のセグメント化](segmentation/seg-home.md)
-   + [セグメントおよびコンテナについて](segmentation/seg-overview.md)
+   + [セグメントについて](segmentation/seg-overview.md)
+   + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
    + セグメントのワークフロー {#segmentation-workflow}
       + [セグメントワークフローの概要](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 97%
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
-   + [よくある質問](segmentation/seg-transition.md)
+   + [レガシーセグメントの管理に関する FAQ ](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
    + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
