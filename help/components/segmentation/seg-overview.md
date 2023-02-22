@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 87%
+source-wordcount: '1173'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 ## Adobe提供のセグメント
 
-画面の左側のコンポーネントレールには、自分と自分の会社が作成したセグメントと、標準で提供されているAdobeセグメントが表示されます。 クリック時 **[!UICONTROL すべて表示]**&#x200B;に含まれていない場合、通常、これらのセグメントはリストの下部に表示され、右側のAdobeロゴで識別されます。
+画面の左側のコンポーネントレールには、自分と自分の会社が作成したセグメントと、標準で提供されているAdobeセグメントが表示されます。 クリック時 **[!UICONTROL すべて表示]**&#x200B;に含まれていない場合、通常、これらのセグメントはリストの下部に表示され、右側のAdobeロゴで識別されます。 以下は、Adobe提供のセグメントの一部です。
 
 ![Adobeセグメント](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 順次セグメントでは、[!UICONTROL THEN] 演算子を使用したユーザーアクションに基づいてデータセットをフィルターします。
 
-## ハウツービデオ {#segment-video}
+## ハウツーセグメント化のビデオ {#segment-video}
 
 [Adobe Analytics のセグメントコンテナ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ja)のビデオでは、セグメントコンテナの概要と使用方法について簡単に説明しています。
 
