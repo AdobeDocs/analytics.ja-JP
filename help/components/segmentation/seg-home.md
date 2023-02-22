@@ -4,10 +4,10 @@ keywords: セグメント化;セグメント
 title: Analytics のセグメント化
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -21,6 +21,6 @@ Analytics のセグメント機能には、セグメントを作成して事前�
 
 データサイエンティストやマーケティングアナリストは、セグメントをニーズ固有の分析に合わせて利用、拡張および調整し、保存することができます。他のユーザーは、これらの保存されたセグメントを拡張および調整し、新しいセグメントとしてライブラリに保存できます。実際の運用では、これは体系化された閲覧者インサイトを[統合セグメントワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として設計および管理する一連のサイクルとなります。
 
-**はじめに**
+## はじめに
 
-[セグメントワークフローの設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)または[セグメントの作成](/help/components/segmentation/segmentation-workflow/seg-build.md)を開始するか、「[セグメントについて](/help/components/segmentation/seg-overview.md)」で概要を確認してください。
+詳しくは、 [セグメントについて](/help/components/segmentation/seg-overview.md) を参照してください。 その後、に移動します。 [セグメントワークフローの設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md) または [セグメントの作成](/help/components/segmentation/segmentation-workflow/seg-build.md).
