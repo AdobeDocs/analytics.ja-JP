@@ -3,10 +3,10 @@ title: ページでの滞在時間
 description: 訪問者がページに滞在した時間。
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ページでの滞在時間に対して複数のディメンションが存在します。
 
-* **ページでの滞在時間 — グループ**：時間がグループ化されます。ディメンション項目の範囲は `"Less than 15 seconds"` ～ `"More than 30 minutes"` です。ページビュー間の時間は通常 30 分を超えません。 ただし、タイムスタンプ付きのヒットまたはデータソースを使用する場合、ページビュー間の時間は 30 分を超える可能性があります。
+* **ページでの滞在時間 — グループ**：時間がグループ化されます。ディメンション項目の範囲は `"Less than 15 seconds"` ～ `"More than 30 minutes"` です。ヒット間の時間は通常 30 分を超えません。ただし、タイムスタンプ付きのヒットまたはデータソースを使用する場合、ヒット間の時間は 30 分を超える可能性があります。
 * **ページでの滞在時間 — 詳細**：各秒数は、一意のディメンション項目です。
 
 滞在時間の一般情報について詳しくは、[滞在時間の概要](../metrics/time-spent.md)を参照してください。
