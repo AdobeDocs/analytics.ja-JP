@@ -2,7 +2,7 @@
 title: Adobe Analytics でのデータの処理順序
 description: Adobe Analytics でデータを処理するコンポーネントとサービスの順序について説明します。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -45,6 +45,6 @@ Adobe Analytics にデータを送信すると、必要に応じて次の機能�
 Adobe Analytics のデータは、ほとんどが永続的です。ただし、一部の機能では、選択的なデータの調整や削除が可能です。
 
 * [**Data repair API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：特定の列を編集するか、目的のデータ行を削除します。
-* [**データガバナンス**](/help/technotes/c-data-governance/an-gdpr-workflow.md)：データを永続的に削除するプライバシーリクエストに対応します。
+* [**データガバナンス**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)：データを永続的に削除するプライバシーリクエストに対応します。
 * [**分類**](/help/components/classifications/c-classifications.md)：ルールまたはアップロードされたデータに基づいてディメンションを作成し、異なる方法でデータを整理できるようにします。基になるレポートスイートのデータは変更されないので、自由に分類データを編集または上書きできます。
 * [**仮想レポートスイート**](/help/components/vrs/vrs-about.md)：訪問のタイムアウトを変更したり、[クロスデバイス分析](/help/components/cda/overview.md)を許可したりできる別のレポートスイートビューを作成します。

@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '629'
 ht-degree: 94%
 
 ---
@@ -153,6 +153,18 @@ ht-degree: 94%
       + [設定マネージャー](admin/company/preferences-manager.md)
       + [保留中のアクション](admin/company/pending-actions-admin.md)
       + [機能アクセスレベル](admin/company/feature-access-levels.md)
+   + データガバナンスプライバシーのラベル付け {#data-governance}
+      + [Adobe Analytics データプライバシーワークフロー](admin/c-data-governance/an-gdpr-workflow.md)
+      + [よくある質問](admin/c-data-governance/gdpr-faq.md)
+      + データのラベル付け {#data-labels}
+         + [Analytics コンポーネントのデータプライバシーラベル](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [レポートスイートのデータのラベル設定](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [レポートスイートのプライバシーラベルの表示／管理](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [ラベル設定に関するベストプラクティス](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [ラベル設定の例](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [名前空間](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [ID 拡張](admin/c-data-governance/gdpr-id-expansion.md)
+      + [CNIL 同意除外](admin/c-data-governance/cnil-consent-exemption.md)
    + サーバーコールの使用状況 {#server-call-usage}
       + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)
       + [現在のサーバーコールの使用状況の表示](admin/c-server-call-usage/server-call-usage-dashboard.md)

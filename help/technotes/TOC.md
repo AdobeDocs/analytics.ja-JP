@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 99%
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -43,18 +43,6 @@ ht-degree: 99%
    + [ブラウザーの cookie 制限の影響を軽減するオプション](cookies/cookieless.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
-+ データガバナンス {#data-governance}
-   + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
-   + [よくある質問](c-data-governance/gdpr-faq.md)
-   + データのラベル付け {#data-labels}
-      + [Analytics コンポーネントのデータプライバシーラベル](c-data-governance/data-labeling/gdpr-labels.md)
-      + [レポートスイートのデータのラベル設定](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [レポートスイートのプライバシーラベルの表示／管理](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [ラベル設定に関するベストプラクティス](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [ラベル設定の例](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [名前空間](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
-   + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
 + [Adobe Analytics が使用する IP とドメイン](ip-addresses.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
