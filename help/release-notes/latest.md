@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
+source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 53%
 
 ---
 
 # 現在の Adobe Analytics リリースノート (2023年2月)
 
-**最終更新日**：2023年2月23日（PT）
+**最終更新日**：2023年2月27日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -36,7 +36,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Google クライアントヒントによるデバイス検索の更新** | 2023年2月17日（PT） | **2023 年 2 月 16 日に予定されていたクライアントヒントの使用は、ヒントを使用したデバイス検索の品質をより確実にするために延期されました。 近日中に新しい公開日をお知らせします。** [詳細情報](/help/technotes/client-hints.md) |
+| **Google クライアントヒントによるデバイス検索の更新** | 2023年2月27日（PT） | 2023 年 2 月 16 日に予定されていたクライアントヒントの使用は、ヒントを使用したデバイス検索の品質をより確実にするために延期されました。 2023 年 2 月 27 日に、クライアントヒントのサポートに関するリリースの第 1 段階を進めます。 問題が解決した場合は、2023 年 3 月 2 日（木）のリリースの第 2 段階と最終段階に進みます。 [詳細情報](/help/technotes/client-hints.md) |
 | **Analytics Source Connector の可用性** | 2023年2月15日（PT） | 2023 年 2 月 28 日に、カナダにある新しいAdobe Experience Platformデータセンターで Analytics ソースコネクタを利用できるようになります。 |
 | **分類セットアーキテクチャへの自動移行** | 2023年2月8日（PT） | 今後数ヶ月の間に、Adobeはすべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。 最後に移行するお客様は、2023 年 5 月に発生すると推定されます。 顧客のアクションは不要で、ダウンタイムも期待されません。 この新しいアーキテクチャには、次のような多くの利点があります。<ul><li>処理時間が大幅に短縮されました (72 時間→ 24 時間 )</li><li>を使用する機能 [分類セット](/help/components/classifications/sets/overview.md) UI</li><li>将来的に ( [分類データ用のAdobe Analyticsソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>組織のワークフローに影響を与える可能性のある、次の変更に注意してください。<ul><li>ブラウザーまたは FTP インポートを使用する場合は、「[!UICONTROL 競合時に上書き]「 」は常に有効になっています。</li><li>ブラウザーまたは FTP インポートを使用する場合、インポート直後にエクスポートするオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、Adobeでは可能な限り新しい文字列識別子を使用することをお勧めします。 数値識別子は、 `?expansion=hidden` クエリー文字列パラメーター。</li></ul>Adobeの移行スケジュールをより具体的に設定したい場合や、この移行に関する質問や懸念事項がある場合は、カスタマーケアにお問い合わせください。 [詳細情報](/help/components/classifications/sets/overview.md) |
 
