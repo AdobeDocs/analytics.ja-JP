@@ -4,9 +4,9 @@ description: イメージリクエストで使用されるすべてのクエリ�
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 255 バイトを超える URL は分割されます。最初の 255 バイトが `g` パラメーターに、残りのすべてのバイトが `-g` パラメーターに表示されます。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` クエリ文字列の略記法。 |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` クエリ文字列の略記法。 |
-| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | を表す複数の変数のプレフィックス [クライアントヒント](/help/technotes/client-hints.md). |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | [クライアント ヒント](/help/technotes/client-hints.md)を表す様々な変数の接頭辞。 |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 階層ディメンション。 |
 | `hp` | なし | 廃止。以前のバージョンの Adobe Analytics では、現在の URL がブラウザーのホームページであるかどうかが判別されました。 |
 | `j` | なし | ブラウザーにインストールされている JavaScript バージョン。 |
