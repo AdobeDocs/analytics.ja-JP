@@ -1,16 +1,16 @@
 ---
-description: Adobe Analyticsで Activity Map データを表示できます
-title: Adobe AnalyticsでのActivity Mapデータの表示
+description: Adobe Analytics で Activity Map データを表示できます
+title: Adobe Analytics での Activity Map データの表示
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Adobe AnalyticsでのActivity Mapデータの表示
+# Adobe Analytics での Activity Map データの表示
 
 Analytics で Activity Map レポートを有効にするための管理者の手順です。
 
