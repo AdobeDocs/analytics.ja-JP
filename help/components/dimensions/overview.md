@@ -4,9 +4,9 @@ description: 文字列値を含む変数。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 63%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-各ディメンションは、サイトの異なる部分またはファセットを表します。これらのディメンションのうち 1 つ以上を 1 つ以上の指標と組み合わせて、目的のレポートを作成できます。
+各ディメンションは、サイトの異なる部分またはファセットを表します。これらのディメンションのうち 1 つ以上を 1 つ以上の指標と組み合わせて、必要なレポートを作成できます。
 
 ## ディメンションの説明の追加
 
-Analytics 管理者は、ディメンションやその他のコンポーネントの説明を、レポートスイート内またはAnalysis Workspace内で直接追加できます。 ディメンションに説明を追加する方法について詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics 管理者は、レポートスイート内または直接 Analysis Workspace 内で、ディメンションやその他のコンポーネントの説明を追加できます。ディメンションに説明を追加する方法について詳しくは、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
