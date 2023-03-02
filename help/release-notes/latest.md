@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
+source-git-commit: 6c6682202e8780ddb9bf96a4bdd61ff0558c9f09
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1125'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **データ プライバシー ラベルの更新されたユーザーインターフェイス** | 更新されたインターフェイスにより、レポートスイートコンポーネントのデータプライバシーラベルを作成、管理、編集するプロセスが合理化されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=ja) | 該当なし | 2023年2月8日（PT） |
 | **モバイルスコアカードでの比較日付範囲の非表示** | モバイルスコアカードでは、「**[!UICONTROL 比較日付を含める]**」設定を切り替えて、比較日付を表示／非表示にすることができます。 | 該当なし | 2023年2月8日（PT） |
 | **ワークスペースでのカレンダーの更新** | <ul><li>パネルの日付の固定：パネルカレンダーを基準とする相対的な日付範囲コンポーネントにすることができます。[詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>カレンダースタイルの更新：UI 全体を通してカレンダースタイルがアップグレードされて、より一貫性のある使いやすいワークフローが提供されるようになりました。</li><li>カレンダー式の更新：相対的な日付を使用する場合は、すべてのカレンダー式にパネルの日付範囲の開始日が反映されます。[詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 該当なし | 2023年2月8日（PT） |
-| **パネルの日付範囲の更新** | Workspace で、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づいておこなわれます。 </li><li>左側のパネルに表示されるすべてのコンポーネントは、パネルの日付範囲に基づいて使用できます。</li><li>セグメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連するパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間の日付が基になります）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023年2月8日（PT） |
+| **パネルの日付範囲の更新** | Workspace で、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づいておこなわれます。 </li><li>表示されるすべてのディメンション項目は、パネルの日付範囲に基づいて使用できます。</li><li>セグメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連するパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間の日付が基になります）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023年2月8日（PT） |
 | **Adobe Analytics ソースコネクタストリーミングの行／列フィルタリング** | Adobe Experience Platform の Analytics ソースコネクタを使用すると、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)におけるプロファイルへの入力に使用される Analytics データをフィルタリングできるようになりました。行レベルのフィルタリングは、プロファイルに関連付けられたイベントの数を減らすのに役立ちます。列レベルのフィルタリングは、イベント自体の豊富さを軽減するのに役立つので、プロファイル使用権限の行使を最適化できます。このフィルタリングは、リアルタイム顧客プロファイルと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)に送信されるデータにのみ適用されます。**フィルタリングは、Customer Journey Analytics などのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja#filtering-for-profile) | 該当なし | 2023 年 3 月 30 日に再スケジュールされました |
 
 {style=&quot;table-layout:auto&quot;}
