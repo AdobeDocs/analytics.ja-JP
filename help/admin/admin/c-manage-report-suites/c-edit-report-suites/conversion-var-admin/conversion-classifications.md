@@ -4,9 +4,9 @@ title: コンバージョンの分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 ## コンバージョン分類の追加
 
-管理でコンバージョン分類を追加するには：
+管理者でコンバージョン分類を追加するには：
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. レポートスイートを選択します。
