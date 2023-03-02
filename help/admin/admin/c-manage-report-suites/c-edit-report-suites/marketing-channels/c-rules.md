@@ -4,9 +4,9 @@ description: マーケティングチャネルの処理ルールは、訪問者�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2187'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> マーケティングチャネルに関する一般情報については、 [マーケティングチャネル — はじめに](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> マーケティングチャネルに関する一般情報については、[マーケティングチャネルの基本を学ぶ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。
 >
-> Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+> Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL マーケティングチャネル]** > **[!UICONTROL マーケティングチャネルの処理ルール]**.
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの処理ルール]**。
 
 マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを決定するために、訪問者がサイトでおこなうすべてのヒットを処理します。ルールは指定された順序処理され、ルールの 1 つが満たされると残りのルールの処理を中止します。
 
@@ -92,14 +92,14 @@ ht-degree: 98%
 | リファラーが内部 URL フィルターに一致しない | 管理ツールにあるレポートスイートで定義されたとおり、参照 URL が内部 URL フィルターに一致しません。この設定を        「ページの URL」および「存在する」と共に使用して包括的ルールを設定できるので、訪問のランディングページがレポートの「チャネルが識別されませんでした」セクションになることはありません。 |
 | 内部 URL フィルターに一致するヒットを無視する | （リファラーに対して）外部参照サイトからのヒットのみをトラッキングします。内部トラフィックを含める場合以外、通常はこの設定を有効にしておきます。 |
 | 訪問の最初のページ | アドビのレポートで検出された訪問の最初のページ。 |
-| ページ | アドビの Web ビーコンを使ってタグ付けされた、サイト上の Web ページのページ名。この値は s.pageName と同等です。例として、`Home Page` および `About Us` があります。 |
+| ページ | アドビの web ビーコンを使ってタグ付けされた、サイト上の web ページのページ名。この値は s.pageName と同等です。例として、`Home Page` および `About Us` があります。 |
 | ページドメイン | `products.example.co.uk` など、訪問者が到着したページのドメイン。 |
 | ページドメインとパス | ドメインとパス（例：`products.example.co.uk/mens/pants/overview.html`）。 |
 | ページルートドメイン（TLD+1） | example.co.uk など、訪問者が到着したページのルートドメイン。 |
-| ページ URL | サイトの Web ページの URL。 |
+| ページ URL | サイトの web ページの URL。 |
 | 参照ドメイン | サイトにアクセスする前に訪問者が来たドメイン。例えば、`abcsite.com` から来たリファラーや `xyzsite.com` から来たリファラーなどです。 |
 | クエリー文字列パラメーター | サイトのページ URL が `https://example.com/?page=12345&cat=1` のような形式あれば、「page」と「cat」は共にクエリ文字列パラメーターになります。（`https://en.wikipedia.org/wiki/Query_string` を参照。）1 つのルールセットにつき 1 つだけクエリー文字列パラメーターを指定できます。クエリー文字列パラメーターをさらに追加するには、「`ANY`」演算子を使用して、ルールに新しいクエリー文字列パラメーターを追加します。クエリ文字列のパラメーターは、大文字と小文字が区別されずに評価されます。例えば、「cat」と「CAT」は同じように評価されます。 |
-| リファラー | サイトにアクセスする前に訪問者が閲覧していた Web ページの場所（フル URL）。リファラーは、定義ドメインの外側に存在します。 |
+| リファラー | サイトにアクセスする前に訪問者が閲覧していた web ページの場所（フル URL）。リファラーは、定義ドメインの外側に存在します。 |
 | 参照ドメインとパス | 参照ドメインと URL パスを短縮したもの。例：`www.example.com/products/id/12345` または `ad.example.com/foo` |
 | 参照パラメーター | リファラー URL のクエリー文字列パラメーター。例えば、訪問者が `example.com/?page=12345&cat=1` から来訪した場合、page と cat が参照パラメーターとなります。 |
 | 参照ドメインのルート | リファラーのルートドメイン。リファラーは、定義ドメインの外側に存在します。 |
