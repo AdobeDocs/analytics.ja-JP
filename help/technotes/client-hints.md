@@ -4,8 +4,8 @@ description: クライアントヒントが User-Agent をデバイス情報の�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 58937630e6173013b622deec0433ef67b483c483
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,9 +27,9 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 >[!NOTE]
 >
-> 2023 年 1 月以降、Macおよび Windows オペレーティングシステムの一部のバージョンが User Agent で誤って表示されますが、高エントロピーのクライアントヒントで正しく表示されます。 詳しくは、[オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照してください。
+> 2023年1月の時点で、Mac および Windows オペレーティング システムの一部のバージョンがユーザーエージェントで正しく表示されず、高エントロピーのクライアントヒントでは正しく表示されます。詳しくは、[オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照してください。
 
-AAMでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+AAM では、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。[AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 ## よくある質問
 
@@ -71,8 +71,8 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 | Sec-CH-UA-Model | デバイスモデル | 高 | `"Pixel 3"` |
 | Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
 
-* 低エントロピーのヒントは、リクエストヘッダーを通じて収集されます。
-* 高エントロピーのヒントは、JavaScript を使用して収集され、クエリー文字列パラメーター値を介して渡されます。 クエリー文字列パラメーターは、 `h.` をイメージリクエストのプレフィックスとして使用します。
+* 低エントロピーのヒントは、リクエストヘッダーで収集されます。
+* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリ文字列パラメーターは、`h.` をイメージリクエストのプレフィックスとして使用します。
 
 高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターで渡されます
 

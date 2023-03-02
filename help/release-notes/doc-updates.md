@@ -7,8 +7,8 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3679'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年2月** |  |
-| 実装 | 次の方法に関する内容を更新しました。 [Adobe Analytics for web およびモバイルの実装](../implement/home.md). |
-| Workspace のカレンダーと日付範囲 | 相対的な日付範囲、数式の計算の更新、カレンダー UI の変更について説明する内容を更新しました。 詳しくは、 [相対パネルの日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| モバイルスコアカード | 比較日付範囲を表示および非表示にする方法について説明する新しいドキュメントの節。 詳しくは、 [比較日付範囲を表示](/help/analyze/mobile-app/create-scorecard.md) （CJA 内） |
-| 1.4 API | この [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全な書き換えを受け取り、Adobe Developerに公開されました。 |
-| 実装タイプ間のトラッキング | 使用例を更新しました [異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md) を使用して、Experience CloudID サービスを受け入れます。 |
+| 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
+| Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
+| モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。CJA の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
+| 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
+| 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md)の使用例を更新しました。 |
 | **2023年1月** |  |
-| テーブルのフィルターと並べ替え | の内容（手順の追加や使用可能なオプションの説明を含む）を更新しました。 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 記事。 この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
+| テーブルのフィルタリングと並べ替え | [テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)に関する記事の内容を更新しました（手順の追加や使用可能なオプションの説明など）。この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)用の専用ページ。 |
 | ユーザー環境設定 | 多くの追加のユーザー環境設定は、現在は、[環境設定](/help/analyze/analysis-workspace/user-preferences.md)で使用できます。 |
 | プロジェクトの自動保存 | コンテンツが更新され、[プロジェクトの保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)に自動保存機能を含めるようにしました。 |
@@ -135,7 +135,7 @@ ht-degree: 96%
 | 2020年11月2日 | [FTP の分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)に関するドキュメントを更新しました。 |
 | **2020年10月** |  |
 | 2020年10月23日 | ワークスペースの線のビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja)：この設定は、 [!UICONTROL 折れ線グラフ] のビジュアライゼーションのトレンドライン設定に追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
-| 2020年10月23日 |  ワークスペース[パフォーマンスヘルプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ja)ページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
+| 2020年10月23日 | ワークスペース[パフォーマンスヘルプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ja)ページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
 | 2020年10月23日 | Adobe Analytics ダッシュボードのドキュメントに機能強化を追加しました。ワークスペースのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
 | **2020年9月** |  |
 | 2020年9月17日 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items)：セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
@@ -197,9 +197,9 @@ ht-degree: 96%
 | 2019年11月21日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) の新しいドキュメントセット。 |
 | 2019年11月21日 | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を更新し、LiveStream での可用性を示しました。 |
 | 2019年10月25日 | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
-| 2019年10月10日 | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
-| 2019年10月10日 | ワークスペースでは、「未指定 (なし)」を簡単に削除できる機能がレポートフィルターのオプションとして追加されました。 |
-| 2019年10月10日 | ワークスペースでは、紫色の精度コンポーネント（分、時間、日、週、月、四半期、年）は非推奨（廃止予定）となりました。紫色の時間コンポーネントを以前使用したことがある場合、**何も行う必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
+| 2019年10月10日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
+| 2019年10月10日（PT） | ワークスペースでは、「未指定 (なし)」を簡単に削除できる機能がレポートフィルターのオプションとして追加されました。 |
+| 2019年10月10日（PT） | ワークスペースでは、紫色の精度コンポーネント（分、時間、日、週、月、四半期、年）は非推奨（廃止予定）となりました。紫色の時間コンポーネントを以前使用したことがある場合、**何も行う必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 | 2019年10月1日 | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |
 | 2019年9月28日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019年9月19日 | [論理グループコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=ja#logic-group-containers)について説明するようにセグメント化に関するドキュメントを改訂しました。 |

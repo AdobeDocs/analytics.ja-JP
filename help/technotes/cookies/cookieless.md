@@ -5,8 +5,8 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 
 サーバーサイドの収集は、ブラウザーのメカニズムに依存して cookie を設定するのではなく、独自の識別子を提供する柔軟性を提供します。
 
-[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、[使用するAdobe Analyticsツール](/help/analyze/get-started/which-analytics-tool.md).&quot;
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、[使用する Adobe Analytics ツール](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
 ## ファーストパーティデバイス ID（FPID）と Web SDK
 

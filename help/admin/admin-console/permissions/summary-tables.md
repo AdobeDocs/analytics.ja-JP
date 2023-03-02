@@ -5,12 +5,12 @@ exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Admin Console内の Analytics 権限
+# Admin Console での Analytics 権限
 
 次の概要テーブルを使用して、Adobe Admin Console 内の Adobe Analytics 権限を論理グループで識別します。
 

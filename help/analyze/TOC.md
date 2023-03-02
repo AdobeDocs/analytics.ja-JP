@@ -6,8 +6,8 @@ breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Analytics ツールガイド](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
-+ Adobe Analyticsの基本を学ぶ {#admin-overview}
++ Adobe Analytics の基本を学ぶ {#admin-overview}
    + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
    + [必要システム構成](get-started/sys-reqs.md)
@@ -41,7 +41,7 @@ ht-degree: 97%
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
-      + [コンポーネントの説明を追加](analysis-workspace/components/add-component-descriptions.md)
+      + [コンポーネントの説明の追加](analysis-workspace/components/add-component-descriptions.md)
       + 注釈 {#annotations}
          + [注釈の概要](analysis-workspace/components/annotations/overview.md)
          + [注釈を作成](analysis-workspace/components/annotations/create-annotations.md)
@@ -62,10 +62,10 @@ ht-degree: 97%
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + データ要素 {#data-dictionary}
-         + [データディクショナリの概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [データディクショナリでのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [データディクショナリ内のコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [データ辞書の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [データ要素の概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [データ要素でのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [データ要素でのコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [データ要素の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -75,7 +75,7 @@ ht-degree: 97%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [テーブルのフィルターと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [テーブルのフィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
@@ -178,8 +178,8 @@ ht-degree: 97%
       + [データリクエスト - リクエストウィザード：ステップ 1](report-builder/data-requests/data-requests.md)
       + [データリクエストの作成](report-builder/data-requests/t-create-a-data-request.md)
       + レポートスイート {#report-suites}
-         + [レポートスイートを選択します。](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [レポートスイートを選択します。Excel の既存のリクエストから](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [レポートスイートを選択します](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [レポートスイートを選択しますExcel の既存のリクエストから](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](report-builder/data-requests/segmentation.md)
       + レポートタイプ {#report-types}

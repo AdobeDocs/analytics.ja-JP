@@ -1,24 +1,24 @@
 ---
-description: 管理者は、レポートスイートまたはデータディクショナリを使用して、コンポーネントの説明を追加できます。
-title: コンポーネントの説明を追加
+description: 管理者は、レポートスイートまたはデータ要素を使用して、コンポーネントの説明を追加できます。
+title: コンポーネントの説明の追加
 feature: Components
 role: Admin
 source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# コンポーネントの説明を追加
+# コンポーネントの説明の追加
 
 説明は、Analysis Workspaceでプロジェクトを作成する際、またはレポートを表示する際に、様々なコンポーネントを最適に使用する方法を理解するのに役立ちます。
 
-Analytics 管理者は、コンポーネント (Dimension、指標、セグメントおよび日付範囲 ) の説明を追加できます<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Analytics 管理者は、<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->コンポーネント（ディメンション、指標、セグメントおよび日付範囲）の説明を追加できます。
 
 ## レポートスイート内のコンポーネントへの説明の追加
 
-次のビデオでは、レポートスイートにディメンションと指標の説明を追加する方法を説明します。
+次のビデオでは、レポートスイートにディメンションと指標の説明を追加する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 

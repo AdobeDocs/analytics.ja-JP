@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ FTP を使用してデータファイルをアップロードするには：
 
 FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。>
 
-Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](/help/export/ftp-and-sftp/ftp-overview.md)」を参照してください。
+Adobe FTP サーバーについて詳しくは、「[FTP と sFTP](/help/export/ftp-and-sftp/ftp-overview.md)」を参照してください。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
@@ -69,9 +69,9 @@ Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](/help/export/
 
 ## FTP を使用した分類のインポート
 
-FTP アカウントを使用して、分類をAdobe Analyticsにインポートできます。
+FTP アカウントを使用して、分類を Adobe Analytics に読み込むことができます。
 
-FTP を使用して分類をインポートするには：
+FTP を使用して分類を読み込むには：
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。

@@ -4,8 +4,8 @@ description: collectHighEntropyUserAgentHints 変数を使用して、Chromium �
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +31,9 @@ Adobe Analytics は高エントロピーのクライアントヒントを使用�
 
 ## AppMeasurement の collectHighEntropyUserAgentHints
 
-この `s.collectHighEntropyUserAgentHints` 変数は、AppMeasurement が Chromium ブラウザー (Google Chrome やMicrosoft Edge など ) から高エントロピーのヒントをリクエストするかどうかを決定します。 Adobe Analytics はこれらのヒントを使用して、デバイスとブラウザーの識別を向上させます。
+`s.collectHighEntropyUserAgentHints` 変数は、AppMeasurement が Chromium ブラウザー（Google Chrome や Microsoft Edge など）から高エントロピーのヒントをリクエストするかどうかを決定します。Adobe Analytics はこれらのヒントを使用して、デバイスとブラウザーの識別を向上させます。
 
-次に設定した場合： `true`を指定した場合、高エントロピーのヒントはすべてブラウザーからリクエストされます。
+`true` に設定すると、すべての高エントロピーのヒントがブラウザーからリクエストされます。
 
 ```js
 s.collectHighEntropyUserAgentHints = true;
