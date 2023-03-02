@@ -4,9 +4,9 @@ title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
+*   [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -363,7 +363,7 @@ t_classifications_test_rule.xml
 
  -->
 
-分類ルールまたはルールセットをテストできます。 テストを実行すると、セット内のすべてのルールがチェックされます。
+分類ルールまたはルールセットをテストできます。テストを実行すると、セット内のすべてのルールがチェックされます。
 
 分類ルールセットをテストするには：
 
@@ -397,14 +397,14 @@ t_validate_rules.xml
 
  -->
 
-分類ルールを検証およびアクティブ化するには、次の手順に従います。
+分類ルールを検証してアクティブ化するには：
 
 1. [分類ルールセットを作成](/help/components/classifications/crb/classification-rule-set.md)してから、セットに[分類ルールを追加](/help/components/classifications/crb/classification-quickstart-rules.md)します。
 1. ルールエディターで「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/overwrite_keys.png)
 
-1. （任意）分類を上書きするには、「****&#x200B;次の分類を上書き：&lt;*選択*>」を有効にします。
+1. （任意）分類を上書きするには、「**[!UICONTROL 次の分類を上書き]**：&lt;*選択*>」を有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
