@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspaceでは、フリーフォームテーブルはインタラク�
    * プロジェクトの[表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ja)を調整すると、1 つの画面に表示する行を増やすことができます。
    * 各ディメンション行は、ページネーションの前に最大 400 行を表示できます。「行」の横の数字をクリックすると、ページに行が表示されます。ヘッダーのページ矢印を使用して、別のページに移動します。
    * 行は、追加のコンポーネントで分類できます。複数の行を一度に分類するには、複数の行を選択し、次のコンポーネントを選択した行の上にドラッグします。[分類](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=ja)について説明します。
-   * 行を[フィルタリング](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)して、表示する項目数を減らすここができます。[行設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ja)で追加の設定を使用できます。
+   * 行を[フィルタリング](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=ja)して、表示する項目数を減らすここができます。[行設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ja)で追加の設定を使用できます。
 
 * **列**
    * 列内にコンポーネントを積み重ねて、セグメント化された指標やクロスタブ分析などを作成できます。
