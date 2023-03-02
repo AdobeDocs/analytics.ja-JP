@@ -5,9 +5,9 @@ title: Workspace へのフォルダーの追加
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Analytics 管理者のみが、会社フォルダーにプロジェクトを追加したり、新しいプロジェクトを作成して会社フォルダーに保存したりできます
+>会社フォルダーにプロジェクトを追加したり、新しいプロジェクトを作成して会社フォルダーに保存したりできるのは Analytics 管理者のみです。
 
 ## テーブル表示から {#table-view}
 
@@ -31,11 +31,11 @@ ht-degree: 66%
 
    フォルダーを選択ダイアログが表示されます。
 
-1. ドロップダウンメニューで、選択したプロジェクトを移動するフォルダを選択します。
+1. ドロップダウンメニューで、選択したプロジェクトを移動するフォルダーを選択します。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. 選択 **移動**.
+1. 「**移動**」を選択します。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ ht-degree: 66%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. を選択します。 **...** 右上の省略記号アイコン
+1. 右上のエリプシスアイコン「**...**」を選択します。 
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -68,6 +68,6 @@ ht-degree: 66%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. 選択 **追加** をクリックして、プロジェクトをフォルダーに追加します。
+1. 「**追加**」を選択して、プロジェクトをフォルダーに追加します。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
