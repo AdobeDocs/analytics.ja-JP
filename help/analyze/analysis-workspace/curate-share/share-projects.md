@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# プロジェクトを共有
+# プロジェクトの共有
 
-プロジェクトを組織内の既存のAdobe Analyticsユーザーまたはグループと共有できます。 この節で説明するようにプロジェクトを共有する場合、共有相手となるユーザーは、既にAdobe Analyticsアカウントを持っている必要があります。
+プロジェクトを組織内の既存の Adobe Analytics ユーザーまたはグループと共有できます。この節で説明するようにプロジェクトを共有する場合、共有相手となるユーザーは、既に Adobe Analytics アカウントを持っている必要があります。
 
 特定の役割をユーザーやグループと共有したり、リンクを共有したりできます。
 
@@ -26,58 +26,58 @@ ht-degree: 49%
 
 特定のプロジェクトの役割を組織内のユーザーやグループと共有する場合は、以下の点を考慮してください。
 
-* プロジェクトの役割 (**[!UICONTROL 編集可能]**, **[!UICONTROL 複製可能]**、および **[!UICONTROL 表示可能]**) は、ユーザーと特定のプロジェクト ID に結び付けられます。 プロジェクトの役割は、[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) で管理されるユーザー権限とは独立しています。
+* プロジェクトの役割（**[!UICONTROL 編集可能]**、**[!UICONTROL 複製可能]**&#x200B;および&#x200B;**[!UICONTROL 表示可能]**）は、ユーザーと特定のプロジェクト ID に結び付けられます。プロジェクトの役割は、[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) で管理されるユーザー権限とは独立しています。
 
-* Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) の製品プロファイルによって定義されます。管理者は、「すべて」を含む任意のグループと共有できます。 管理者以外のユーザーは、「すべて」を除き、自分が属する任意のグループと共有できます。
+* Adobe Analytics では、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) の製品プロファイルによって定義されます。管理者は、「すべて」を含む任意のグループと共有できます。管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
-* 複数の役割に配置されたユーザーは、常に最高のエクスペリエンスを得ることができます。 ユーザーが個人として、またはグループの一部として追加された場合に発生する可能性があります。 例えば、ユーザーに **[!UICONTROL 編集可能]** 個人としての役割と **[!UICONTROL 表示可能]** グループのメンバーとしての役割を持つユーザーは、 **[!UICONTROL 編集可能]** プロジェクト体験。
+* 複数の役割に配置されたユーザーは、常に最高のエクスペリエンスを得ることができます。これは、ユーザーが個人として、またはグループの一部として追加された場合に発生する可能性があります。例えば、個人として&#x200B;**[!UICONTROL 編集]**&#x200B;の役割、グループのメンバーとして&#x200B;**[!UICONTROL 表示]**&#x200B;の役割を付与されたユーザーは、**[!UICONTROL 編集]**&#x200B;プロジェクトエクスペリエンスを受け取ります。
 
-* 管理者が **[!UICONTROL 複製可能]** または **[!UICONTROL 表示可能]** 役割は、プロジェクトを開くと、限られたエクスペリエンスを受け取ります。 管理者は、必要に応じて、**[!UICONTROL コンポーネント]／[!UICONTROL プロジェクト]**&#x200B;を使用して、いつでも自分の役割を&#x200B;**[!UICONTROL 編集]**&#x200B;に増やすことができます 。
+* **[!UICONTROL 複製]**&#x200B;または&#x200B;**[!UICONTROL 表示]**&#x200B;の役割を付与された管理者は、プロジェクトを開いたときに、それらの限定的なエクスペリエンスを受け取ります。管理者は、必要に応じて、**[!UICONTROL コンポーネント]／[!UICONTROL プロジェクト]**&#x200B;を使用して、いつでも自分の役割を&#x200B;**[!UICONTROL 編集]**&#x200B;に増やすことができます 。
 
 特定のプロジェクトの役割を組織内のユーザーまたはグループと共有するには：
 
-1. 共有するプロジェクトに移動し、「 **[!UICONTROL 共有]** > **[!UICONTROL プロジェクトを共有]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
-未保存の変更がある場合は、最初にプロジェクトを保存するよう求められます。
+1. 共有するプロジェクトに移動し、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトを共有]**&#x200B;をクリックします。<!-- recommned changing "Share project" to "Share project internally" or something like that -->
+未保存の変更がある場合は、最初にプロジェクトを保存するように求められます。
 
    ![](assets/share-proj-modal.png)
 
-   複数のプロジェクトを同時に共有する方法について詳しくは、 [プロジェクトマネージャーでプロジェクトを共有する](#share-projects-in-the-project-manager).
+   複数のプロジェクトを同時に共有する方法について詳しくは、 [プロジェクトマネージャーでプロジェクトを共有する](#share-projects-in-the-project-manager)を参照してください。
 
 1. 提供された役割フィールドの 1 つに、受信者または受信者のグループを追加します。
 
-   **編集可能：** 受信者は **[!UICONTROL 保存]** プロジェクトに対する変更と共同所有者としての機能 この役割は、他の同僚とプロジェクトを共同管理する場合に役立ちます。これには、共有プロジェクトの受信者リストの編集、削除、変更が含まれます。<br>注：Analysis Workspace は現在、ライブコラボレーションをサポートしていないので、一度に 1 人のユーザーだけがプロジェクトを編集することをお勧めします。プロジェクトを同時に保存すると、最後のバージョンが保持されます。
+   **編集：**&#x200B;受信者は、変更をプロジェクトに&#x200B;**[!UICONTROL 保存]**&#x200B;し、共同所有者になることができます。この役割は、他の同僚とプロジェクトを共同管理する場合に役立ちます。これには、共有プロジェクトの受信者リストの編集、削除、変更が含まれます。<br>注：Analysis Workspace は現在、ライブコラボレーションをサポートしていないので、一度に 1 人のユーザーだけがプロジェクトを編集することをお勧めします。プロジェクトを同時に保存すると、最後のバージョンが保持されます。
 
-   **複製可能：** 受信者は **[!UICONTROL 名前を付けて保存]** 左側のパネルにアクセスできます。 この役割では、プロジェクトの操作は制限されません。この役割は、組織のデータとAnalysis Workspaceの使用方法を理解しているが、プロジェクトを変更してほしくないユーザーとプロジェクトを共有する場合に役立ちます。
+   **複製：**&#x200B;受信者は、**[!UICONTROL 名前を付けて保存]**&#x200B;し、左側のパネルにアクセスできます。この役割では、プロジェクトの操作は制限されません。この役割は、組織のデータと Analysis Workspace の使用方法を理解しているが、プロジェクトを変更してほしくないユーザーとプロジェクトを共有する場合に役立ちます。
 
-   **表示可能：** 受信者が **[!UICONTROL 保存]** または **[!UICONTROL 名前を付けて保存]** およびは、左側のパネルにアクセスできません。 プロジェクトの操作も制限されます。この役割は、組織のデータ構造、Analysis Workspace、Adobe Analyticsの一般的な知識の低いユーザーにプロジェクトを共有する場合に役立ちます。 ただし、引き続き、安全な環境でデータやインサイトを利用したいと考える場合です。「[プロジェクト体験を表示できる](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)」についての詳細をご覧ください。
+   **表示可能：**&#x200B;受信者は、**[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL 名前を付けて保存]**&#x200B;できず、左側のパネルにアクセスできません。プロジェクトの操作も制限されます。この役割は一般的に、組織のデータ構造、Analysis Workspace または Adobe Analytics に関するの知識をあまりもたないユーザーにプロジェクトを共有する場合に役立ちます。ただし、これらのユーザーに引き続き、安全な環境でデータやインサイトを利用してもらいたい場合です。[プロジェクトを表示可能エクスペリエンス](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)についての詳細をご覧ください。
 
 1. プロジェクトを共有する際に、次のオプションを有効にするかどうかを選択します。
 
-   * **埋め込みプロジェクトコンポーネントを共有する：** セグメント、計算指標および日付範囲をすべての受信者と共有します。 共有すると、これらのコンポーネントは受信者の Workspace のコンポーネントドロップダウンに表示されます。この設定は持続しません。共有時の 1 回限りの操作です。
+   * **埋め込みプロジェクトコンポーネント：**&#x200B;セグメント、計算指標、日付範囲をすべての受信者と共有します。共有すると、これらのコンポーネントは受信者の Workspace のコンポーネントドロップダウンに表示されます。この設定は持続しません。共有時の 1 回限りのアクションです。
 
-   * **受信者のランディングページとして設定：** このページを受信者のランディングページとして設定します。 この設定は持続しません。共有時の 1 回限りの操作です。
+   * **受信者のランディングページとして設定：**&#x200B;このページを受信者のランディングページとして設定します。この設定は持続しません。共有時の 1 回限りのアクションです。
 
-1. 「**[!UICONTROL 共有]**」をクリックします。「**[!UICONTROL キュレーションと共有]**」をクリックして、プロジェクトのキュレーションを自動的に適用することもできます。プロジェクトが既に共有されている場合は、**[!UICONTROL 更新]**／**[!UICONTROL キュレーションと更新]**&#x200B;というボタンが表示されます。[プロジェクトのキュレーションの詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja)を表示します。
+1. 「**[!UICONTROL 共有]**」をクリックします。
+「**[!UICONTROL キュレーションと共有]**」をクリックして、プロジェクトのキュレーションを自動的に適用することもできます。プロジェクトが既に共有されている場合は、**[!UICONTROL 更新]**／**[!UICONTROL キュレーションと更新]**&#x200B;というボタンが表示されます。[プロジェクトのキュレーションの詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja)を表示します。
 
 ## プロジェクトへのリンクの共有
 
 この節で説明するようにリンクを共有する場合は、次の点に注意してください。
 
-* リンクを使用する受信者は、プロジェクトにアクセスする前にAdobe Analyticsにログインする必要があります。
+* リンクを使用する受信者は、プロジェクトにアクセスする前に Adobe Analytics にログインする必要があります。
 
-* 受信者に役割が割り当てられておらず、 [リンク](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja) をプロジェクト (**[!UICONTROL 共有] > [!UICONTROL プロジェクトリンクを取得]**) の場合、デフォルトで役割が付与されます。 管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
+* 受信者に役割が割り当てられていないがプロジェクトへの[リンク](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja)を受け取った場合（**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**）、そのユーザーはデフォルトで役割に配置されます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 
-1. **[!UICONTROL 共有]** /**[!UICONTROL プロジェクトを共有]**をクリックします。
-<!-- recommned changing "Share project" to "Share project internally" or something like that -->
-未保存の変更がある場合は、最初にプロジェクトを保存するよう求められます。
+1. **[!UICONTROL 共有]**／**[!UICONTROL プロジェクトを共有]**&#x200B;をクリックします。<!-- recommned changing "Share project" to "Share project internally" or something like that -->
+未保存の変更がある場合は、最初にプロジェクトを保存するように求められます。
 
    ![](assets/share-proj-modal.png)
 
-1. クリック **[!UICONTROL リンクをコピー]** の横 **[!UICONTROL URL フィールドを共有]**.
+1. **[!UICONTROL URL フィールドを共有]**&#x200B;の横にある「**[!UICONTROL リンクをコピー]**」をクリックします。
 
-1. リンクを組織内のユーザーと共有します。 例えば、電子メールや内部 Web サイトなどに貼り付けることができます。
+1. リンクを組織内のユーザーと共有します。例えば、メールや内部 web サイトなどにペーストすることができます。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 
