@@ -5,9 +5,9 @@ title: マーケティングチャネルの管理
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> マーケティングチャネルに関する一般情報については、 [マーケティングチャネル — はじめに](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> マーケティングチャネルに関する一般情報については、[マーケティングチャネルの基本を学ぶ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。
 >
-> Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+> Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL マーケティングチャネル]** > **[!UICONTROL マーケティングチャネルマネージャー]**.
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルマネージャー]**
 
 マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効化します。レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 チャネル作成時のガイドラインは次のとおりです。
 
 * すべての訪問者が適切なチャネルに分類されるように、すべてのチャネルの一覧を作成し、事前に計画を立ててください。
-* カテゴリのチャネルを含める [内部](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) ヒット数。
+* [内部](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)ヒット数のカテゴリのチャネルを含めます。
 * 包括的な「その他のキャンペーン」チャネルを含め、有料チャネルの後、および有機チャネルの前に配置します。
 
 
@@ -72,16 +72,16 @@ ht-degree: 91%
 
 | フィールド | 定義 |
 |--- |--- |
-| 有効 |  このマーケティングチャネルの有効と無効を切り替えます。 |
+| 有効 | このマーケティングチャネルの有効と無効を切り替えます。 |
 | チャネル名 | マーケティングチャネルの分かりやすい名前をつけます。 |
 | ラストタッチチャネルの上書き | ラストタッチチャネルを上書きするかどうかをチャネルごとに指定できます。このチェックボックスを選択すると、すべてのチャネル（「直接」と「内部」を含む）が既存のラストタッチチャネルを上書きします。設定を変更すると、誤ったチャネル（「直接」や「内部」）にコンバージョンが関連付けられるリスクがあるので、注意が必要です。たとえば、「自然検索」チャネルを通してユーザーが以前に獲得されている場合、「直接アクセス」での訪問が発生しても、「自然検索」のチャネルがコンバージョンのクレジットを引き続き受け取るようにしたい場合は、「直接アクセス」チャネルの「ラストタッチチャネルの上書き」オプションを外しておきます（デフォルト設定のまま変更しない）。 |
-| チャネルの分類 |  この値によって、チャネルを分類できます。[マーケティングチャネルの分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)を作成する場合、チャネル分類（サブチャネル）を追加することができます。 |
+| チャネルの分類 | この値によって、チャネルを分類できます。[マーケティングチャネルの分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)を作成する場合、チャネル分類（サブチャネル）を追加することができます。 |
 | タイプ | サイトへのユーザーの訪問手段を指定します。「オンライン」または「オフライン」を選択できます。検索エンジンまたは電子メールキャンペーンから来訪した訪問者に対しては「オンライン」チャネルを使用します。「オフライン」チャネルは、新聞のクーポンや雑誌の広告でサイトの情報を見つけた訪問者に使用します。オフラインチャネルには通常、データソースからインポートされたデータが含まれます。[データソース](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=ja)を参照してください。[オフラインデータの追加](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。 |
 | Color | Reports &amp; Analytics のみ：このマーケティングチャネルに関連付けられている色。この色は、マーケティングチャネルレポートで、このチャネルを表します。 |
 
 ### ベストプラクティスの上書き
 
-「ダイレクト」チャネルと「内部」チャネルのラストタッチの上書きオプションは、他の永続的なラストタッチチャネル（または相互）からクレジットを受け取れないように、オフにすることをお勧めします。
+ダイレクトチャネルと内部チャネルのラストタッチの上書きオプションをオフにすることをお勧めします。これにより、他の永続的なラストタッチチャネル（または相互）からクレジットを取得できなくなります。
 
 ![](assets/int-channel2.png)
 
