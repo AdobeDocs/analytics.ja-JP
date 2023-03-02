@@ -6,18 +6,18 @@ feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Report Builder のアンインストール
 
-Adobe Report Builderをアンインストールする。
+Adobe Report Builder をアンインストールするには：
 
 1. Microsoft Excel が閉じられていることを確認します。
-1. **[!UICONTROL スタート]**／**[!UICONTROL コントロール パネル]**&#x200B;をクリックします。
+1. **[!UICONTROL スタート]**／**[!UICONTROL コントロールパネル]**&#x200B;をクリックします。
 1. Windows 7 または Vista の場合は、「プログラムのアンインストール」をクリックします。Windows XP の場合は、「**[!UICONTROL プログラムの追加と削除]**」をクリックします。
 1. インストールされているプログラムのリストが表示されます。Adobe Report Builder を右クリックして「**[!UICONTROL アンインストール]**」を選択します。
 1. アンインストールウィザードのウィンドウがポップアップで表示されます。「**[!UICONTROL アンインストール]**」をクリックします。
