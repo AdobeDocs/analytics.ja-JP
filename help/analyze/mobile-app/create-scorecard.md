@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,31 +86,31 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 新しいスコアカードはそれぞれ、今日と昨日のデータにフォーカスした 6 つの日付範囲の組み合わせで始まります。x をクリックして不要な日付範囲を削除したり、鉛筆をクリックして各日付範囲の組み合わせを編集したりできます。
 
-![新しいスコアカード 2](assets/new_score_card2.png)
+![新しいスコアカード2](assets/new_score_card2.png)
 
 プライマリ日付を作成または変更するには、ドロップダウンを使用して使用可能な日付範囲から選択するか、日付コンポーネントを右側のレールからドロップゾーンにドラッグ＆ドロップします。
 
-![新しいスコアカード 3](assets/new_score_card3.png)
+![新しいスコアカード3](assets/new_score_card3.png)
 
 比較日を作成するには、ドロップダウンメニューで、一般的な時間比較の便利な事前設定から選択します。また、日付コンポーネントを右側のレールからドラッグ＆ドロップすることもできます。
 
-![新しいスコアカード 4](assets/new_score_card4.png)
+![新しいスコアカード4](assets/new_score_card4.png)
 
 必要な日付範囲がまだ作成されていない場合は、カレンダーアイコンをクリックして新しい日付範囲を作成できます。
 
-![新しいスコアカード 5](assets/new_score_card5.png)
+![新しいスコアカード5](assets/new_score_card5.png)
 
 これにより、新しい日付範囲コンポーネントを作成して保存できる日付範囲ビルダーに移動します。
 
-### 比較日付範囲を表示/非表示 {#show-comparison-dates}
+### 比較日付範囲の表示／非表示の切り替え {#show-comparison-dates}
 
-比較日付範囲を表示または非表示にするには、 **比較日を含める** 設定。
+比較日付範囲を表示／非表示に切り替えるには「**比較日付を含める**」設定を切り替えます。
 
 ![比較日付を含める](assets/include-comparison-dates.png)
 
-設定は次のとおりです。 *オン* デフォルトでは。 比較日を表示しない場合は、「 」オプションの選択を解除します。
+この設定は、デフォルトで&#x200B;*オン*&#x200B;になっています。比較日付を表示しない場合は、オプションの選択を解除します。
 
-![比較日の設定が選択解除されました](assets/no-comparison-dates.png)
+![比較日付の設定がオフになっている様子](assets/no-comparison-dates.png)
 
 ## ビジュアライゼーションの適用 {#viz}
 
