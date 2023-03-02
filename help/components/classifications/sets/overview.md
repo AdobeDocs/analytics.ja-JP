@@ -3,9 +3,9 @@ title: 分類セットの概要
 description: 分類セットを使用して分類データを管理します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 45%
 >
 >分類セットは、新しい分類アーキテクチャに移行されたレポートスイートを持つすべてのお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
 
-分類セットでリリースされたバックエンドアーキテクチャには、いくつかの主な改善点が含まれています。
+分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な改善点が含まれています。
 
-* 処理時間が大幅に短縮されました (72 時間→ 24 時間 )
+* 処理時間が大幅に短縮されました（72 時間 → 24 時間）
 * 分類セット UI を使用する機能
-* 将来的に ( [分類データ用のAdobe Analyticsソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* [分類データ用の Adobe Analytics ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=ja)を介して、今後 Adobe Experience Platform で分類データを使用するオプション
 
-分類セットでリリースされたバックエンドアーキテクチャには、次の主な変更点も含まれています。
+分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な変更点も含まれています。
 
-* ブラウザーまたは FTP インポートを使用する場合は、「[!UICONTROL 競合時に上書き]「 」は常に有効になっています。
-* ブラウザーまたは FTP インポートを使用する場合、インポート直後にエクスポートするオプションはサポートされなくなりました。 エクスポートは、別途開始する必要があります。
-* Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、Adobeでは可能な限り新しい文字列識別子を使用することをお勧めします。 数値識別子は、 `?expansion=hidden` クエリー文字列パラメーター。
+* ブラウザーまたは FTP 読み込みを使用する場合、「[!UICONTROL 競合時に上書き]」は常に有効になっています。
+* ブラウザーまたは FTP 読み込みを使用する場合、読み込み直後に書き出すオプションはサポートされなくなりました。書き出しは、別途開始する必要があります。
+* Analytics 2.0 API `GetDimensions` エンドポイントで、数値識別子ではなく、分類の文字列識別子を返すようになりました。 数値識別子は引き続き使用できますが、アドビでは可能な限り新しい文字列識別子を使用することをお勧めします。数値識別子は、`?expansion=hidden` クエリ文字列パラメーターを使用して取得できます。
 
 
 分類セットは、次の 2 つの主な領域で構成されます。
