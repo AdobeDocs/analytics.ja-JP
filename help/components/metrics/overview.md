@@ -4,9 +4,9 @@ description: 時間の経過に伴うディメンション項目またはデー�
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 82%
 
 ## 指標の説明の追加
 
-Analytics 管理者は、指標やその他のコンポーネントの説明を、レポートスイート内またはAnalysis Workspace内で直接追加できます。 指標に説明を追加する方法について詳しくは、 [コンポーネントの説明を追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics 管理者は、レポートスイート内または直接 Analysis Workspace 内で、指標やその他のコンポーネントの説明を追加できます。 指標に説明を追加する方法について詳しくは、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
