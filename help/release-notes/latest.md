@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6c6682202e8780ddb9bf96a4bdd61ff0558c9f09
+source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 83%
+source-wordcount: '1112'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **データ プライバシー ラベルの更新されたユーザーインターフェイス** | 更新されたインターフェイスにより、レポートスイートコンポーネントのデータプライバシーラベルを作成、管理、編集するプロセスが合理化されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=ja) | 該当なし | 2023年2月8日（PT） |
 | **モバイルスコアカードでの比較日付範囲の非表示** | モバイルスコアカードでは、「**[!UICONTROL 比較日付を含める]**」設定を切り替えて、比較日付を表示／非表示にすることができます。 | 該当なし | 2023年2月8日（PT） |
 | **ワークスペースでのカレンダーの更新** | <ul><li>パネルの日付の固定：パネルカレンダーを基準とする相対的な日付範囲コンポーネントにすることができます。[詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>カレンダースタイルの更新：UI 全体を通してカレンダースタイルがアップグレードされて、より一貫性のある使いやすいワークフローが提供されるようになりました。</li><li>カレンダー式の更新：相対的な日付を使用する場合は、すべてのカレンダー式にパネルの日付範囲の開始日が反映されます。[詳細情報](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 該当なし | 2023年2月8日（PT） |
-| **パネルの日付範囲の更新** | Workspace で、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づいておこなわれます。 </li><li>表示されるすべてのディメンション項目は、パネルの日付範囲に基づいて使用できます。</li><li>セグメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連するパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間の日付が基になります）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023年2月8日（PT） |
+| **パネルの日付範囲の更新** | ワークスペースに、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づきます。 </li><li>表示されるすべてのディメンション項目は、パネルの日付範囲に基づいて使用できます。</li><li>グメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連付けられたパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間に基づきます）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023年2月8日（PT） |
 | **Adobe Analytics ソースコネクタストリーミングの行／列フィルタリング** | Adobe Experience Platform の Analytics ソースコネクタを使用すると、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)におけるプロファイルへの入力に使用される Analytics データをフィルタリングできるようになりました。行レベルのフィルタリングは、プロファイルに関連付けられたイベントの数を減らすのに役立ちます。列レベルのフィルタリングは、イベント自体の豊富さを軽減するのに役立つので、プロファイル使用権限の行使を最適化できます。このフィルタリングは、リアルタイム顧客プロファイルと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)に送信されるデータにのみ適用されます。**フィルタリングは、Customer Journey Analytics などのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja#filtering-for-profile) | 該当なし | 2023 年 3 月 30 日に再スケジュールされました |
 
 {style=&quot;table-layout:auto&quot;}
@@ -36,8 +36,8 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Google クライアントヒントによるデバイス検索の更新** | 2023年2月27日（PT） | 2023 年 2 月 16 日に予定されていたクライアントヒントの使用は、ヒントを使用したデバイス検索の品質をより確実にするために延期されました。 2023 年 2 月 27 日に、クライアントヒントのサポートに関するリリースの第 1 段階を進めます。 問題が解決した場合は、2023 年 3 月 2 日（木）のリリースの第 2 段階と最終段階に進みます。 [詳細情報](/help/technotes/client-hints.md) |
-| **Analytics Source Connector の可用性** | 2023年2月15日（PT） | 2023 年 2 月 28 日に、カナダにある新しいAdobe Experience Platformデータセンターで Analytics ソースコネクタを利用できるようになります。 |
+| **Google クライアントヒントによるデバイス検索の更新** | 2023年2月27日（PT） | 2023 年 2 月 16 日に予定されていたクライアントヒントの使用は、ヒントを使用したデバイス検索の品質をより確実にするために延期されました。 2023 年 2 月 27 日にクライアントヒントのサポートに関するリリースの第 1 段階を完了し、2023 年 3 月 2 日（木）に第 2 段階と最終段階を完了しました。 [詳細情報](/help/technotes/client-hints.md) |
+| **Analytics Source Connector の可用性** | 2023年2月15日（PT） | 2023 年 2 月 28 日に、カナダにある新しいAdobe Experience Platformデータセンターで Analytics ソースコネクタの利用が可能になりました。 |
 | **分類セットアーキテクチャへの自動移行** | 2023年2月8日（PT） | アドビは今後数か月で、すべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。移行する最後のお客様は、2023年5月に発生すると推定されています。お客様のアクションは必要なく、ダウンタイムも予想されません。この新しいアーキテクチャには、次のように多くの利点があります。<ul><li>処理時間が大幅に短縮されました（72 時間 → 24 時間）</li><li>[分類セット](/help/components/classifications/sets/overview.md) UI を使用する機能</li><li>[分類データ用の Adobe Analytics ソース コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=ja)を介して、今後 Adobe Experience Platform で分類データを使用するオプション</li></ul>組織のワークフローに影響を与える可能性がある次の変更に注意してください。<ul><li>ブラウザーまたは FTP 読み込みを使用する場合、「[!UICONTROL 競合時に上書き]」は常に有効になっています。</li><li>ブラウザーまたは FTP 読み込みを使用する場合、読み込み直後に書き出すオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。数値識別子は引き続き使用できますが、アドビでは可能な限り新しい文字列識別子を使用することをお勧めします。数値識別子は、`?expansion=hidden` クエリ文字列パラメーターを使用して取得できます。</li></ul>組織のより具体的な移行スケジュールが必要な場合、またはこの移行に関して質問や懸念がある場合は、アドビカスタマーケアにお問い合わせください。[詳細情報](/help/components/classifications/sets/overview.md) |
 
 {style=&quot;table-layout:auto&quot;}
