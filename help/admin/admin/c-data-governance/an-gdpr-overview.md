@@ -3,10 +3,10 @@ description: このドキュメントでは、GDPR におけるデータ主体�
 title: Adobe Analytics と GDPR
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
    >[!NOTE]
    >
-   >データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。
+   >データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間を設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
 * 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
 

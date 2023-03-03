@@ -4,10 +4,10 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics は次のデータを収集します。
 | ヨーロッパ | アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。その他の IP 不明化設定ついて詳しくは、「管理者ユーザーガイド」内の[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)を参照してください。 |
 | グローバル | 顧客は、cookie の全期間変数を JavaScript 測定コードで「none」、「session」または他の測定値（秒単位）に設定できます。 |
 | ヨーロッパ | アドビは、「設計によるプライバシー」という新しい設定を開発しており、現在 Adobe ClientCare for Adobe Analytics（旧称 SiteCatalyst）リリースバージョン 14.9 および 15.4 で有効にできます。この新しい設定を有効にすると、IP アドレスがアドビに収集された直後に最後のオクテット（最後の位置）が値 0 に置き換えられます。この不明化は、IP アドレスの地域ルックアップ（オプション）や ISP ルックアップなど、IP アドレスに対する一切の処理が行われる前に行われます。 |
-| ドイツ | Adobe Analytics のデータ処理契約（DPA）をアドビとの間でまだ締結していない場合は、アドビのアカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と連携して DPA を締結します。 |
+| ドイツ | AdobeでAdobe Analyticsのデータ処理契約をまだお持ちでない場合は、Adobe法務部門と協力して DPA を導入するAdobeアカウントチームに連絡する必要があります。 |
 
 ## EMEA データセンターの場所 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 

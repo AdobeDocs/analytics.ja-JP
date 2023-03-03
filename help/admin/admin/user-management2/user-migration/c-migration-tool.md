@@ -3,10 +3,10 @@ description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin C
 title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
-workflow-type: ht
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Adobe Admin Console で Analytics 製品管理者であることを確認する。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">移行が始まるとログインエクスペリエンスが変わることをユーザーベースに伝える。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">現在のユーザーおよび権限を監査し、クリーンアップアクティビティを実行する。 </li> 
-    </ul> <p>移行を早めるには、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>でカスタマーサクセスマネージャーに連絡し、開始日を早めるように依頼を送信します。 </p> </td> 
+    </ul> <p>移行を早めるには、次のアカウントチームにAdobeしてください： <a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html"> Adobeカスタマーケア</a> をクリックし、開始日の前のリクエストを送信します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Analytics 管理者ですが、Adobe Admin Console へのアクセス権がありません。Adobe Admin Console へのアクセス権を付与できるのは誰ですか。 </p> </td> 
