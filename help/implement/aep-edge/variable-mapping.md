@@ -2,18 +2,18 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+workflow-type: tm+mt
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
 # Adobe Experience Edge での Analytics 変数のマッピング
 
-次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analytics にデータを送信するための追加設定は必要ありません。
+次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analytics にデータを送信するための追加設定は必要ありません。これらのフィールドは、 **[!UICONTROL Adobe Analytics ExperienceEvent テンプレート]** フィールドグループを使用します。
 
-| XDM フィールドパス | Analytics のディメンションと説明 |
+| XDM フィールドのパス | Analytics のディメンションと説明 |
 | --- | --- |
 | `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
 | `application.isInstall` | モバイル指標である[初回起動数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)を増やすタイミングを判断するのに役立ちます。 |
