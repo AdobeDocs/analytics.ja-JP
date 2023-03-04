@@ -2,10 +2,10 @@
 title: 分類セットジョブマネージャー
 description: 分類セットから生成された現在の分類ジョブと完了した分類ジョブを表示します。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は、レポートスイートを新しい分類アーキテクチャに移行したお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
+>この機能は、分類セットアーキテクチャのすべてのお客様が利用できます。 詳しくは、AdobeカスタマーケアまたはAdobeアカウントチームにお問い合わせください。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL ジョブ]**
 

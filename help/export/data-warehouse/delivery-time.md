@@ -3,10 +3,10 @@ title: Data Warehouse リクエスト配信時間のトラブルシューティ�
 description: 配信時間を長くさせる可能性のある Data Warehouse リクエストに関する潜在的な問題を特定します。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ Data Warehouse リクエストが一貫して長時間かかる場合は、以�
 
 * **Analysis Workspace**：無制限のディメンション項目は使用できませんが、Data Warehouse が提供するその他の使用例のほとんどが含まれます。
 * **データフィード**：レポートスイート内のすべての生データを毎日取得し、FTP サイトに送信します。その後、このデータを独自のデータベースにインポートし、クエリを実行して、目的のデータを取得できます。
-* **カスタムエンジニアリングサービスソリューション**：Adobe エンジニアリングサービスは組織のカスタムソリューションを提供できます（有料）。詳しくは、組織のアカウントマネージャーにお問い合わせください。
+* **カスタムエンジニアリングサービスソリューション**：Adobe エンジニアリングサービスは組織のカスタムソリューションを提供できます（有料）。詳しくは、Adobeアカウントチームにお問い合わせください。

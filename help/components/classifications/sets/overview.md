@@ -2,10 +2,10 @@
 title: 分類セットの概要
 description: 分類セットを使用して分類データを管理します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->分類セットは、新しい分類アーキテクチャに移行されたレポートスイートを持つすべてのお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
+>この機能は、分類セットアーキテクチャのすべてのお客様が利用できます。 詳しくは、AdobeカスタマーケアまたはAdobeアカウントチームにお問い合わせください。
 
 分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な改善点が含まれています。
 

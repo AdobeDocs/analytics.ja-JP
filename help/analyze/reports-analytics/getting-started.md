@@ -4,10 +4,10 @@ title: Reports & Analytics の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 97%
+source-wordcount: '783'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 
 ## Reports &amp; Analytics へのログイン
 
-インターフェイスにアクセスする前に、アカウントマネージャーまたはアドビカスタマーケアと協力して会社のアカウントを設定してください。
+インターフェイスにアクセスする前に、AdobeのアカウントチームまたはAdobeのカスタマーケアと協力して会社のアカウントを設定してください。
 
 ## Experience Cloud を使用したログイン
 

@@ -3,18 +3,16 @@ title: getQueryParam
 description: URL のクエリー文字列パラメーターの値を抽出します。
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 92%
+source-wordcount: '507'
+ht-degree: 93%
 
 ---
 
 # アドビプラグイン：getQueryParam
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `getQueryParam` プラグインを使用すると、URL に含まれるクエリー文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリー文字列パラメーターを抽出する場合にも役立ちます。
 
@@ -40,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
@@ -59,8 +57,8 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 `getQueryParam` 関数は次の引数を使用します。
 
 * **`qsp`**（必須）：URL 内で検索するクエリー文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
-* **`de`**（オプション）：複数のクエリー文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
-* **`url`**（オプション）：クエリー文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
+* **`de`**（任意）：複数のクエリー文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
+* **`url`**（任意）：クエリー文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
 
 この関数を呼び出すと、上記の引数と URL に応じた値が返されます。
 
@@ -115,7 +113,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 * クエリーパラメーターがクエリー文字列に存在しない場合、「」の代わりに undefined が返される問題を更新しました。
 
-### 4.0（2021 年 3 月 19 日（PT））
+### 4.0（2021年3月19日）
 
 * コンテキストデータとしてバージョン番号を追加しました。
 * pt プラグインへの依存関係を削除しました。

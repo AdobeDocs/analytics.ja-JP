@@ -3,10 +3,10 @@ title: Adobe Analytics の行動レポート
 description: Adobe Analytics で行動レポートを作成する方法について説明します。
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,4 +87,4 @@ Adobe Analytics と Google Analytics でこのレポートを使用するには�
 
 ## 発行者レポート
 
-Google では Google Ad Manager との接続を要件としていますが、アドビでは、Adobe Advertising Cloud と呼ばれる、インサイトを提供する専用製品を提供しています。Adobe Advertising Cloud の導入をご検討の方は、担当のアカウントマネージャーにお問い合わせください。
+Google では Google Ad Manager との接続を要件としていますが、アドビでは、Adobe Advertising Cloud と呼ばれる、インサイトを提供する専用製品を提供しています。お客様の組織がこの製品の使用に関心をお持ちの場合は、Adobeアカウントチームにお問い合わせください。

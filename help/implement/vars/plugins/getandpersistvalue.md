@@ -3,18 +3,16 @@ title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 89%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # アドビプラグイン：getAndPersistValue
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、 [!UICONTROL ストレージ期間] Adobe Experience Platformデータ収集内のAdobe Analytics拡張機能の機能。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、 [!UICONTROL ストレージ期間] Analytics 拡張機能の機能で十分です。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、組み込みの eVar の永続性はこのプラグインを使用する必要はありません。
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
@@ -47,7 +45,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 ## AppMeasurement を使用したプラグインのインストール
 
-Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングを行う際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,8 +59,8 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 `getAndPersist` 関数は次の引数を使用します。
 
 * **`vtp`**（必須）：ページ間で保持する値です。
-* **`cn`**（オプション）：値を保存する Cookie の名前です。この引数が設定されていない場合、Cookie の名前は `"s_gapv"` です。
-* **`ex`**（オプション）：Cookie の有効期限が切れるまでの日数です。この引数が `0` であるまたは設定されていない場合、Cookie は訪問の終了時（無操作状態が 30 分間続く）に期限切れになります。
+* **`cn`**（任意）：値を保存する Cookie の名前です。この引数が設定されていない場合、Cookie の名前は `"s_gapv"` です。
+* **`ex`**（任意）：Cookie の有効期限が切れるまでの日数です。この引数が `0` であるまたは設定されていない場合、Cookie は訪問の終了時（無操作状態が 30 分間続く）に期限切れになります。
 
 `vtp` 引数内の変数が設定されている場合、プラグインは Cookie を設定し、その Cookie の値を返します。`vtp` 引数内の変数が設定されていない場合、プラグインは Cookie の値のみを返します。
 
