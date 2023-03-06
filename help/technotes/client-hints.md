@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 
 現時点ではできません。高エントロピーのヒントをすべて収集するか、まったく収集しないかを選択できます。
 
+ブラウザのメジャーバージョンは低エントロピーのヒントとして取り込まれるので、fullVersionList は現在収集されていません。
+
 +++
 
 +++**様々なクライアントヒント値にはどのようなものがありますか？**
@@ -64,15 +66,14 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 | Sec-CH-UA | ブラウザーと重要なバージョン | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | `true` |
 | Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | `"Android"` |
-| Sec-CH-UA-Arch | サイトのアーキテクチャ | 高 | `"arm"` |
-| Sec-CH-UA-Bitness | アーキテクチャのビット数 | 高 | `"64"` |
-| Sec-CH-UA-Full-Version | ブラウザーの完全なバージョン | 高 | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | デバイスモデル | 高 | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
+| アークテクチャ | サイトのアーキテクチャ | 高 | `"arm"` |
+| 硬さ | アーキテクチャのビット度 | 高 | `"64"` |
+| fullVersionList | ブランドとそのバージョンのリスト | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | デバイスモデル | 高 | `"Pixel 3"` |
+| platformVersion | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
 
 * 低エントロピーのヒントは、リクエストヘッダーで収集されます。
-* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリ文字列パラメーターは、`h.` をイメージリクエストのプレフィックスとして使用します。
+* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリ文字列パラメーターは、`h.` をイメージリクエストのプレフィックスとして使用します。ブラウザのメジャーバージョンは低エントロピーヒントとして取り込まれるので、fullVersionList は現在収集されていません。
 
 高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターで渡されます
 
