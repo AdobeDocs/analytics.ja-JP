@@ -1,8 +1,8 @@
 ---
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 84%
+source-wordcount: '862'
+ht-degree: 79%
 
 ---
 # スニペット
@@ -32,7 +32,7 @@ ht-degree: 84%
    | [!UICONTROL **最近のデータがありません**] | 過去 90 日間にデータを収集していないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **作成者：アドビ**] <!-- I don't see this option--> | アドビが作成したコンポーネントのみを表示します。組織内の管理者または別のユーザーが作成したコンポーネントは表示しません。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## データ要素のコンポーネント情報 {#dd-component-information}
 
@@ -41,15 +41,15 @@ ht-degree: 84%
 | [!UICONTROL **承認済み**] | <p>コンポーネントが管理者によってレビューおよび承認されたことを示します。</p><p>管理者には、 [!UICONTROL **承認取消**]. このオプションを選択すると、コンポーネントがユーザーに対して「未承認」とマークされます。</p> |
 | [!UICONTROL **未承認**] | <p>コンポーネントが管理者によってレビューおよび承認されていないことを示します。</p><p>管理者には、 [!UICONTROL **承認**]. このオプションを選択すると、コンポーネントが「承認済み」としてユーザーにマークされます。</p> |
 | [!UICONTROL **説明**] | コンポーネントの意図された機能について説明します（この情報は、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)で説明しているように、Analytics 管理者が追加します）。 |
-| [!UICONTROL **次でよく使用される**] | <p>表示しているコンポーネントで最も一般的に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。表示するためのアクセス権を持つコンポーネントのみを表示します。<!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
-| [!UICONTROL **次に類似している**] | <p>表示しているコンポーネントと同様のラベルを持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>レポート スイート内の重複するコンポーネントはすべてここに表示されます。[データ要素の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを識別して削除する必要があります。<!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **次でよく使用される**] | <p>表示しているコンポーネントで最も一般的に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>管理者は次のオプションを表示します。 [!UICONTROL **常に含める**] および [!UICONTROL **常に除外する**]. これらのオプションを使用すると、管理者は、この節でユーザーに表示されるコンポーネントをキュレーションできます。</p> |
+| [!UICONTROL **次に類似している**] | <p>表示しているコンポーネントと同様のラベルを持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>レポート スイート内の重複するコンポーネントはすべてここに表示されます。[データ要素の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを識別して削除する必要があります。</p><p>管理者は次のオプションを表示します。 [!UICONTROL **常に含める**] および [!UICONTROL **常に除外する**]. これらのオプションを使用すると、管理者は、この節でユーザーに表示されるコンポーネントをキュレーションできます。</p> |
 | [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
 | [!UICONTROL **コンポーネントの種類**] | ディメンション、指標、セグメント、または日付範囲のいずれかであるコンポーネントのタイプをリストします。 |
 | [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
 | [!UICONTROL **プレビュー**] | Analysis Workspace でのコンポーネントの外観のプレビューを表示します。 |
 | [!UICONTROL **最終変更日**] | コンポーネントの最終変更日を表示します。 このセクションは、セグメント、計算指標および日付範囲を表示する際に表示されます。<!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## リリース段階の限定的なテスト {#release-limited-testing}
 
