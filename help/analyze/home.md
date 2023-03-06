@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics ダッシュボード、Activi
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 このガイドは、以下の Adobe Analytics レポートおよび分析ツールに関する製品ドキュメントとセルフヘルプを提供します。
 
 * **[!UICONTROL Analysis Workspace]：** Adobe Analytics で最初に取り上げられる機能です。Workspace は、コンポーネントをドラッグできるキャンバスを提供し、レポートのニーズを満たします。
-* **[!UICONTROL Adobe Analytics ダッシュボード]：**&#x200B;このモバイルアプリを使用すると、主要指標を含む直感的なスコアカードにモバイルからアクセスでき、さらに詳細な分類やトレンドレポートを実行できます。
+* **[!UICONTROL Adobe Analyticsダッシュボード]:** このモバイルアプリを使用すると、モバイルから主要指標、より詳細な分類およびトレンドレポートを使用して直感的なスコアカードを作成できます。
 * **[!UICONTROL Activity Map]：**&#x200B;どの要素が最もクリックされたを示すオーバーレイをサイトに表示するブラウザープラグインです。
 * **[!UICONTROL Report Builder]：** Analytics データを取得してブックに直接配置できる、Excel アドインです。
 * **[!UICONTROL レポート API]：**&#x200B;アドビのサーバーに直接レポートクエリをおこない、応答を取得して独自のお客様レポートツールで使用します。
-* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。
+* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。**注意：** Reports &amp; Analytics は次の日付になります [提供終了](https://express.adobe.com/page/6WnF8JK6IRDhf/) 2023 年 12 月 31 日。
 
 以下は、Adobe Analytics の概説ビデオです。
 

@@ -4,10 +4,10 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 70%
 
 ---
 
@@ -21,23 +21,27 @@ Analysis Workspace は分析をすばやく構築してインサイトを共有�
 
 ## Adobe Analytics へのログイン {#login}
 
-Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。これまでに特定のプロジェクトを選択したことがない場合は、ワークスペースプロジェクトリストのホームページに移動します。
+Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。以前に特定のプロジェクトを選択したことがない場合は、プロジェクトページに移動します。
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## トレーニングチュートリアルの使用 {#training-tutorial}
 
-ログインしたらまず、Analysis Workspace トレーニングチュートリアルに移動します。このチュートリアルでは、ワークスペースで最初の分析を構築するための一般的な用語と手順を説明します。チュートリアルを開始するには、「**[!UICONTROL 新規プロジェクトを作成]**」をクリックし、新しいプロジェクトモーダル内で「**トレーニングチュートリアル**」を選択します。
+ログイン後、最初の停止は、 Analysis Workspaceトレーニングチュートリアルテンプレートです。 Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。 チュートリアルを開始するには、
+
+1. 次をクリック： **[!UICONTROL 学習]** 」タブをクリックします。
+1. クリック **[!UICONTROL チュートリアルを開く]**.
 
 ![](assets/training-tutorial.png)
 
 ## 新規プロジェクトを作成 {#new-project}
 
-チュートリアルが完了したら、最初のプロジェクトの構築を開始する準備が整います。**新しいプロジェクトモーダル**&#x200B;には、分析を開始するための様々なオプションが用意されています。ブラウザーと Adobe Analytics ダッシュボードモバイルアプリのどちらで分析を共有するかに応じて、空のプロジェクトまたは[空のモバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)のどちらで開始するかを選択できます。
+チュートリアルを完了したら、最初のプロジェクトの構築を開始する準備が整いました。 の [!UICONTROL プロジェクト] 」タブで、次の場所から開始するように選択できます。
 
-![](assets/create-new-project.png)
+* [!UICONTROL 空のプロジェクト] ブラウザーから分析を共有する場合、または
+* [[!UICONTROL 空のモバイルスコアカード]](/help/analyze/mobile-app/curator.md)を使用する場合は、Customer Journey Analyticsダッシュボードモバイルアプリから分析を共有する予定です。
 
-また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や使用事例に応じて、様々なテンプレートを使用できます。 使用可能な様々なテンプレートオプションについて詳しくは [こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) を参照してください。
+また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や使用事例に応じて、様々なテンプレートを使用できます。 これで、 [!UICONTROL レポート] 」タブをクリックします。
 
 ## 分析の構築 {#analysis}
 
