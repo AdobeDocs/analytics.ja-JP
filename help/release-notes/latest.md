@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: 6c52659f3b2c9e3731d78d0b1e0bef3ed2fc88b7
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 91%
+source-wordcount: '1170'
+ht-degree: 86%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2023年2月）
 
-**最終更新日**：2023年2月27日（PT）
+**最終更新日**：2023年3月7日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -26,7 +26,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **パネルの日付範囲の更新** | ワークスペースに、次の機能強化が追加されました。<ul><li>2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づきます。 </li><li>表示されるすべてのディメンション項目は、パネルの日付範囲に基づいて使用できます。</li><li>グメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連付けられたパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間に基づきます）。</li><li>データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。</li></ul> | 該当なし | 2023年2月8日（PT） |
 | **Adobe Analytics ソースコネクタストリーミングの行／列フィルタリング** | Adobe Experience Platform の Analytics ソースコネクタを使用すると、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)におけるプロファイルへの入力に使用される Analytics データをフィルタリングできるようになりました。行レベルのフィルタリングは、プロファイルに関連付けられたイベントの数を減らすのに役立ちます。列レベルのフィルタリングは、イベント自体の豊富さを軽減するのに役立つので、プロファイル使用権限の行使を最適化できます。このフィルタリングは、リアルタイム顧客プロファイルと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)に送信されるデータにのみ適用されます。**フィルタリングは、Customer Journey Analytics などのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja#filtering-for-profile) | 該当なし | 2023 年 3 月 30 日に再スケジュールされました |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Adobe Analytics の修正点
 
@@ -40,18 +40,18 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **Analytics Source Connector の可用性** | 2023年2月15日（PT） | 2023 年 2 月 28 日に、カナダにある新しいAdobe Experience Platformデータセンターで Analytics ソースコネクタの利用が可能になりました。 |
 | **分類セットアーキテクチャへの自動移行** | 2023年2月8日（PT） | アドビは今後数か月で、すべての組織をまたいですべての分類を最新の分類アーキテクチャに移行する予定です。移行する最後のお客様は、2023年5月に発生すると推定されています。お客様のアクションは必要なく、ダウンタイムも予想されません。この新しいアーキテクチャには、次のように多くの利点があります。<ul><li>処理時間が大幅に短縮されました（72 時間 → 24 時間）</li><li>[分類セット](/help/components/classifications/sets/overview.md) UI を使用する機能</li><li>[分類データ用の Adobe Analytics ソース コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=ja)を介して、今後 Adobe Experience Platform で分類データを使用するオプション</li></ul>組織のワークフローに影響を与える可能性がある次の変更に注意してください。<ul><li>ブラウザーまたは FTP 読み込みを使用する場合、「[!UICONTROL 競合時に上書き]」は常に有効になっています。</li><li>ブラウザーまたは FTP 読み込みを使用する場合、読み込み直後に書き出すオプションはサポートされなくなりました。</li><li>Analytics 2.0 API `GetDimensions` エンドポイントは、数値識別子ではなく、分類の文字列識別子を返すようになりました。数値識別子は引き続き使用できますが、アドビでは可能な限り新しい文字列識別子を使用することをお勧めします。数値識別子は、`?expansion=hidden` クエリ文字列パラメーターを使用して取得できます。</li></ul>組織のより具体的な移行スケジュールが必要な場合、またはこの移行に関して質問や懸念がある場合は、アドビカスタマーケアにお問い合わせください。[詳細情報](/help/components/classifications/sets/overview.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 提供終了（EOL）に関する注意事項
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2023 年 3 月 8 日 | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023 年 12 月 31 日に、以下を含む（ただし、これらに限定されない）、関連する Reports &amp; Analytics の多くの機能を終了します。予定レポート、データ抽出、DL レポート 2023 年 12 月 31 日以降、予定レポートは送信されなくなります。 In **2023 年 4 月**&#x200B;に設定されている場合、2023 年 12 月 31 日以降に期限が切れる予定のレポートは自動的に更新され、2023 年 12 月 31 日が反映されるように戻されます。 また、2023 年 12 月 31 日以降、今後のレポートのスケジュールを設定することはできなくなります。 |
 | **一部の Reports &amp; Analytics および Report Builder スケジュール機能の EOL** | 2023年2月9日（PT） | 2023年1月31日（PT）に、次のスケジュール機能が提供終了となりました。<ul><li>Report Builder の 1 時間ごとのタスクの「x 回後に終了」オプション</li><li>Reports and Analytics で新しいレポートをスケジュールし、データ抽出をダウンロードする機能</li></ul><p>**メモ**：これらの機能は当初 2022年4月に終了しましたが、変更をロールバックしました。また、これらの機能が一時的に復元され、2023年1月31日（PT）に再度終了するという通知も送信しました。 |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日 | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しいパブリッシュリストを作成するか既存のパブリッシュリストにアクセスして、Analysis Workspace プロジェクトの送信やスケジュールを行うことはできなくなります。 |
 | **Data Workbench のサポート終了** | 2022年9月14日 | **2023年12月31日**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご質問がある場合は、Adobeアカウントチームにお問い合わせください。 |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日 | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## AppMeasurement
 
