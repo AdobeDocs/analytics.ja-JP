@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6c52659f3b2c9e3731d78d0b1e0bef3ed2fc88b7
+source-git-commit: 22374dbf0cea5842bd59c8c22aec6518a0600aa8
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1168'
 ht-degree: 86%
 
 ---
@@ -46,7 +46,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2023 年 3 月 8 日 | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023 年 12 月 31 日に、以下を含む（ただし、これらに限定されない）、関連する Reports &amp; Analytics の多くの機能を終了します。予定レポート、データ抽出、DL レポート 2023 年 12 月 31 日以降、予定レポートは送信されなくなります。 In **2023 年 4 月**&#x200B;に設定されている場合、2023 年 12 月 31 日以降に期限が切れる予定のレポートは自動的に更新され、2023 年 12 月 31 日が反映されるように戻されます。 また、2023 年 12 月 31 日以降、今後のレポートのスケジュールを設定することはできなくなります。 |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2023 年 3 月 8 日 | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023 年 12 月 31 日に、次の機能を含む、（ただし、これらに限定されない）関連する Reports &amp; Analytics の機能の多くを終了します。予定レポート、データ抽出、DL レポート 2023 年 12 月 31 日以降、予定レポートは送信されなくなります。 In **2023 年 4 月**&#x200B;に設定されている場合、2023 年 12 月 31 日以降に期限が切れる予定のレポートは自動的に更新され、2023 年 12 月 31 日に期限切れに戻されます。 また、2023 年 12 月 31 日以降、今後のレポートのスケジュールを設定することはできなくなります。 |
 | **一部の Reports &amp; Analytics および Report Builder スケジュール機能の EOL** | 2023年2月9日（PT） | 2023年1月31日（PT）に、次のスケジュール機能が提供終了となりました。<ul><li>Report Builder の 1 時間ごとのタスクの「x 回後に終了」オプション</li><li>Reports and Analytics で新しいレポートをスケジュールし、データ抽出をダウンロードする機能</li></ul><p>**メモ**：これらの機能は当初 2022年4月に終了しましたが、変更をロールバックしました。また、これらの機能が一時的に復元され、2023年1月31日（PT）に再度終了するという通知も送信しました。 |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日 | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しいパブリッシュリストを作成するか既存のパブリッシュリストにアクセスして、Analysis Workspace プロジェクトの送信やスケジュールを行うことはできなくなります。 |
 | **Data Workbench のサポート終了** | 2022年9月14日 | **2023年12月31日**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご質問がある場合は、Adobeアカウントチームにお問い合わせください。 |
