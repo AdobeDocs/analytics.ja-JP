@@ -3,10 +3,10 @@ description: 管理者は、レポートスイートを使用して、コンポ�
 title: コンポーネントの説明の追加
 feature: Components
 role: Admin
-source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 56%
+source-wordcount: '167'
+ht-degree: 31%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 
 説明は、Analysis Workspaceでプロジェクトを作成する際、またはレポートを表示する際に、様々なコンポーネントを最適に使用する方法を理解するのに役立ちます。
 
-Analytics 管理者は、<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->コンポーネント（ディメンション、指標、セグメントおよび日付範囲）の説明を追加できます。
+Analytics 管理者は、コンポーネント (Dimension、指標、セグメントおよび日付範囲 ) の説明をレポートスイート内で追加するか、Analysis Workspace内で直接データディクショナリを使用して追加できます。
 
 ## レポートスイート内のコンポーネントへの説明の追加
 
@@ -22,14 +22,12 @@ Analytics 管理者は、<!-- either within the Report Suite or using the Data D
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
-<!--
-## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+## （データディクショナリを使用して）Analysis Workspaceのコンポーネントに説明を追加します。 {#add-descriptions}
 
 {{release-limited-testing-section}}
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
+Analysis Workspace のデータ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。これには、Analytics 管理者がAnalysis Workspace内でコンポーネントの説明を直接追加する機能が含まれます。
 
-For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+データディクショナリにコンポーネントの説明を追加する方法について詳しくは、 [データディクショナリ内のコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
-For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
--->
+データディクショナリの一般情報については、 [データディクショナリの概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
