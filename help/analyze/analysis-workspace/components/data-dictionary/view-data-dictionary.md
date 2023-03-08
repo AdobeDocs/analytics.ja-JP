@@ -3,12 +3,10 @@ description: Analysis Workspace のデータ要素を使用すると、Analysis 
 title: データ要素の表示
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 94%
 
 ---
 

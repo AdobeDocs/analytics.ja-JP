@@ -3,10 +3,8 @@ description: Analysis Workspace のデータ要素を使用すると、Analysis 
 title: データ要素でのエントリの編集
 feature: Components
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: ht
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 

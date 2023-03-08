@@ -3,10 +3,8 @@ description: 管理者は、データ要素の正常性を監視する責任が�
 title: データ要素の正常性の監視
 feature: Components
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
-workflow-type: ht
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 
