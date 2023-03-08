@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -136,23 +136,17 @@ Analysis Workspaceプロジェクトへの公開リンクを共有するには�
 
 1. を有効にします。 **[!UICONTROL リンクがアクティブ]** オプションを選択します（まだ有効になっていない場合）。
 
-1. 次のセキュリティオプションを有効にするかどうかを選択します（これらのオプションは Analytics 管理者が制御できます）。
+1. 次のセキュリティオプションを有効にするかどうかを選択します（このオプションは Analytics 管理者が制御できます）。
 
-   * **[!UICONTROL シングルサインオン（SSO）認証を要求]:**
+   * **[!UICONTROL Experience Cloud認証が必要]:**
 
-      共有プロジェクトへのアクセス権を取得する前に、SSO 経由で認証するためにリンクを持つユーザーを要求します。 組織内のユーザーのみがプロジェクトにアクセスできるようにする場合は、このオプションを選択します。
+      このオプションを有効にすると、Federated ID を持ち、Adobe Experience Cloudにログインできる受信者のみが共有公開リンクにアクセスできます。共有プロジェクトへのアクセス権を取得するには、リンクを持つユーザーがAdobe Experience Cloudログインで認証を受ける必要があります。
 
       Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). 管理者がこのオプションを設定した方法に応じて、次のシナリオが発生する場合があります。
 
-      * このオプションが表示されない場合は、組織で SSO が有効になっていないか、Analytics 管理者がこの機能を有効にしていません。
+      * このオプションが表示されない場合、Analytics 管理者はこの機能を有効にしていませんでした。
 
-      * このオプションが有効で淡色表示の場合は、Analytics 管理者がすべてのパブリックリンクにアクセスするために SSO 認証が必要です。
-   * **[!UICONTROL パスワードが必要]:** Analysis Workspaceプロジェクトにアクセスする前に、リンクを持つユーザーにパスワードの指定を求めます。 これにより、プロジェクトのセキュリティレベルがさらに向上します。
-
-      このオプションを選択する場合は、パスワードを指定します。 他のユーザーとパスワードを共有する場合は、忘れずにこのパスワードをプロジェクトリンクと共有してください。 <!--go through this workflow and see how it works.-->
-
-      このオプションが有効で淡色表示の場合は、Analytics 管理者がすべてのパブリックリンクをパスワードで保護する必要があります。 Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * このオプションが有効で淡色表示の場合は、すべてのパブリックリンクにアクセスするために、Analytics 管理者にExperience Cloud認証が必要です。
 
 1. 次の **[!UICONTROL 他のユーザーと共有（ログインは不要）]** フィールドで、 **リンクをコピー** アイコンをクリックして、リンクをシステムクリップボードにコピーします。
 
