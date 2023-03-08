@@ -1,24 +1,43 @@
 ---
-description: 管理者と非管理者のセグメントを使用した比較グラフ。
+description: セグメント機能は、管理者レベルユーザーと非管理者ユーザーの間で大きく異なっています。
 title: セグメントに対する役割別の権限
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 1b2296b328f7adcabb733845caf3606d5f927ae4
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '133'
+ht-degree: 100%
 
 ---
 
 # セグメントに対する役割別の権限
 
-セグメント機能は、主に管理者レベルのユーザーと非管理者ユーザーで異なります。
+セグメント機能は、管理者レベルユーザーと非管理者ユーザーの間で大きく異なっています。
 
-|  | 管理者ユーザー | 管理者以外 |
-| --- | --- | --- |
-| セグメントの適用 | 所有セグメントまたは共有セグメント。 ただし、は、任意のユーザーから自分自身に任意のセグメントを共有して、使用できます | 所有セグメントまたは共有セグメントのみ |
-| セグメントマネージャでのセグメントの表示 | 組織全体のすべてのセグメント | 所有セグメントまたは共有セグメントのみ |
-| セグメントの管理 | 任意のユーザーから任意のセグメントを表示、編集、削除または承認できます | 自分が所有するセグメントの編集または削除のみ可能です。 セグメントを承認できません。 |
-| セグメントの共有 | 会社全体、ユーザーグループまたは個人と共有可能 | 個人とのみ共有できます |
-
-{style=&quot;table-layout:auto&quot;}
+<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"></th> 
+   <th colname="col2" class="entry"> セグメントの共有 </th> 
+   <th colname="col3" class="entry"> セグメントの表示／管理 </th> 
+   <th colname="col4" class="entry"> セグメントの承認 </th> 
+   <th colname="col5" class="entry"> セグメントの適用 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
+   <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace、Reports &amp; Analytics </span>：ユーザー自身および他のユーザーのセグメントの表示／編集／削除などが可能です。 <p> <span class="keyword"> Report Builder </span>：表示／編集／削除などが可能です。自身のセグメントおよび共有されているセグメント。 </p> </td> 
+   <td colname="col4"> セグメントを正当なセグメントとして承認できます。 </td> 
+   <td colname="col5"> 組織全体ですべてのセグメントを適用できます。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <b>非管理者レベルユーザー</b> </td> 
+   <td colname="col2"> 個人ユーザーとのみ共有できます。 </td> 
+   <td colname="col3"> ユーザー自身のセグメントに限り、表示／編集／削除などが可能です。 </td> 
+   <td colname="col4"> 承認済みのセグメントのみを使用できます。承認としてマークすることはできません。 </td> 
+   <td colname="col5"> 自分独自のセグメントと他のユーザーと共有しているセグメントを適用できます。 </td> 
+  </tr> 
+ </tbody> 
+</table>

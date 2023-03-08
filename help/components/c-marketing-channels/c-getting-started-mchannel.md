@@ -3,9 +3,9 @@ title: マーケティングチャネル使用の手引き
 description: マーケティングチャネルのワークフロー、自動セットアップ、および複数のレポートスイートにテンプレートレポートスイート設定を適用する方法について説明します。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '829'
 ht-degree: 99%
 
 ---
@@ -87,6 +87,7 @@ ht-degree: 99%
 >
 >ルールセットを適用する前に、テンプレートからチャネルを適用してください。この手順を実行する際、チャネルは全レポートスイート間で同一である必要があります。
 
+1. 選択したレポートスイートでマーケティングチャネルレポートが有効になっていることを確認します。この手順はアカウントマネージャーがおこないます。
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. **[!UICONTROL Report Suite Manager]** ページで、テンプレートレポートスイートと、1 つ以上の対象レポートスイートを選択します。
 1. **[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルマネージャー]**&#x200B;をクリックします。

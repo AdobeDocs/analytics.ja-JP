@@ -4,10 +4,10 @@ title: 一般的なアカウント設定
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '809'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 | トランザクション ID ストレージ | [トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) データソースを使用できるようにします。 |
 | Data Warehouse を有効化 | Analytics／ツール／Data Warehouse から Data Warehouse UI を有効にします。 |
 | 郵便番号オプション | 地域 IP 検索を使用する代わりに、郵便番号を指定できます。 |
-| マルチバイト文字のサポート | マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。データを受けると、web ページの文字セットから UTF-8 文字セットにデータが変換されるので、マーケティングレポートで任意の言語を使用できるようになります。既存のレポートスイートのマルチバイト文字のサポートを変更する場合は、Adobeアカウントチームまたはカスタマーケアにお問い合わせください。 |
+| マルチバイト文字のサポート | マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。データを受けると、web ページの文字セットから UTF-8 文字セットにデータが変換されるので、マーケティングレポートで任意の言語を使用できるようになります。既存のレポートスイートのマルチバイト文字サポートを変更する場合は、担当のアカウントマネージャーまたはカスタマーケアにお問い合わせください。 |
 | アクティブ化した日 | このレポートスイートがアクティブ化されているかどうかを指定します。 |
 | 基準通貨 | このレポートスイートの基本[通貨](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ja)を指定できます。 |
 | 組織 ID | プロビジョニングした Experience Cloud 会社に関連付けられた ID。この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |

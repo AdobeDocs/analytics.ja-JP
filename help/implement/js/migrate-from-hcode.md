@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement への移行
 description: H コードから実装を移行するために必要な事項を決定します。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 91%
@@ -60,7 +60,7 @@ s.doPlugins = s_doPlugins;
 
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
-made when instructed to do so by your Adobe Account Team.*/
+made when instructed to do so by your account manager.*/
 s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/

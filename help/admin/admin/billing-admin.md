@@ -3,10 +3,10 @@ description: 課金ページでは、各レポートスイートのトラフィ�
 title: 課金
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 96%
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->「課金」タブへのアクセスが無効な場合、Adobeアカウントチームにお問い合わせください。
+>「課金」タブへのアクセスが無効な場合、アカウントマネージャーにご連絡ください。
 
 課金ページのトラフィック概要データでは、レポートに表示されるページビュー数のデータと請求書に表示される課金対象サーバーコールとの関係を示します。[!UICONTROL 課金]ページを使用すると、次のことを実行できます。
 

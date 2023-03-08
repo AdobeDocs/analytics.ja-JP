@@ -3,16 +3,18 @@ title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getResponsiveLayout
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getResponsiveLayout` プラグインを使用すると、訪問者が現在閲覧しているレスポンシブデザインベースの Web サイトのバージョンを追跡できます。サイトでレスポンシブデザインを使用し、訪問者が閲覧したサイトのバージョンを追跡する場合は、このプラグインを使用することをお勧めします。サイトでレスポンシブデザインを使用しない場合は、このプラグインは不要です。
 

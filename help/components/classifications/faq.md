@@ -3,10 +3,10 @@ title: 分類 FAQ
 description: 分類の使用に関するよくある質問（FAQ）です。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
    *[ディメンション]が `0` に等しい場合は、 [ディメンション]の値をカスタム値 `Zero` で上書きします。*
 
-* **VISTA ルールをリクエスト**：エンジニアリングサービスコンサルタントがサーバーサイドのルールを設定します（有料）。VISTA ルールをリクエストするには、Adobeのアカウントチームにお問い合わせください。
+* **VISTA ルールをリクエスト**：エンジニアリングサービスコンサルタントがサーバーサイドのルールを設定します（有料）。VISTA ルールをリクエストするには、担当のアカウントマネージャーにお問い合わせください。
 
 ## 分類インポーターを使用して、まだ存在しないディメンション項目を分類できますか。
 

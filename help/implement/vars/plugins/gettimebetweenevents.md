@@ -3,16 +3,18 @@ title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getTimeBetweenEvents
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getTimeBetweenEvents` プラグインを使用すると、買い物かごやカスタムイベントを含む、2 つの Analytics イベントの間の時間を追跡できます。これは、チェックアウトプロセスの完了に要する時間や、時間を測定する他のプロセスを追跡する場合に役立ちます。このプラグインは、時間を測定する必要があるコンバージョンプロセスがない場合には、必要ありません。
 

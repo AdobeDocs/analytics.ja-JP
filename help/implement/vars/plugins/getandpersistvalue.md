@@ -3,16 +3,18 @@ title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
 # アドビプラグイン：getAndPersistValue
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、 [!UICONTROL ストレージ期間] Adobe Experience Platformデータ収集内のAdobe Analytics拡張機能の機能。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、 [!UICONTROL ストレージ期間] Analytics 拡張機能の機能で十分です。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、組み込みの eVar の永続性はこのプラグインを使用する必要はありません。
 

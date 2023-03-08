@@ -3,16 +3,18 @@ title: addProductEvar
 description: マーチャンダイジング eVar を products 変数に追加します。
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：addProductEvar
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `addProductEvar` プラグインを使用すると、既に存在する製品変数の内容が変更、移動、削除されるかどうかを気にすることなく、製品構文を使用する Adobe Analytics マーチャンダイジング eVar を products 変数に簡単に追加できます。製品構文マーチャンダイジング eVar を簡単に [`products`](../page-vars/products.md) 変数に追加するには、このプラグインを使用することをお勧めします。製品構文でマーチャンダイジング eVar を使用しない場合は、`addProductEvar` プラグインを使用する必要はありません。
 

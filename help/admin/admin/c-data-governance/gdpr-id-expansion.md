@@ -3,10 +3,10 @@ description: 送信する ID は、Analytics でデータ主体に関連付け�
 title: ID 拡張
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 97%
+source-wordcount: '1348'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 | Cookie ID の拡張 | Analytics をご利用の多くのお客様は、以前までは（従来の）[Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=ja) を使用していましたが、現在は [Experience Cloud  ID サービス（ECID）](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用しています。移行後に、こうしたお客様の web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie のみが使用可能だったときに最初に訪問し、その後訪問した場合、一部のデータには両方の Cookie が含まれています。ただし、古いデータには Analytics Cookie のみが含まれており、最新データに ECID のみが含まれている場合も稀にあります。<p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検索されます。現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用してリクエストを送信する場合はいつでも、リクエストに両方の ID を含めるか、`expandIds` オプションを指定する必要があります。`expandIds` を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。これらの新しく識別された Cookie ID を含めるようにリクエストが自動的に拡張されます。 |
 | カスタム ID から Cookie ID への拡張 | e コマース Web サイトでは、訪問者がログインせずにサイトを閲覧して商品を買い物かごに追加し、チェックアウトプロセスに入ることも珍しくありません。データプライバシーリクエストのユーザーを識別するために使用される ID が、ユーザーがログインしているときにのみカスタム変数に保存される場合、このログイン前のアクティビティは ID に関連付けられません。Analytics Cookie ID を使用すると、Cookie ID がログインをまたいでも保持されるので、ログイン前の閲覧行動をログイン後の購入操作に関連付けることができます。<p>実装でログイン ID（CRM ID、ユーザー名、ロイヤルティ番号、電子メールアドレスなど、またはこれらの値のハッシュ）がカスタム変数（prop や eVar）またはカスタム訪問者 ID に保存され、この ID をデータプライバシーアクセス要求に使用しているとします。データ主体は、すべてのブラウジングに関する情報がアクセスリクエストの一部として返されないことを意外に思うかもしれません。特に、表示されたが購入には至っていないアイテムを宣伝した場合はなおさらです。そのため Analytics によるデータプライバシーの処理では、ID 拡張に対応しており、任意のカスタム ID と同じヒット内のすべての Cookie ID を検出してから、要求を拡張してそれらの ID も含めます。<p>Cookie の名前空間以外の任意の名前空間と共に `expandIDs` を指定すると、指定した ID のいずれかを含んでいるヒットから検出された任意の Cookie ID（ECID または Analytics Cookie）を含めるようにリクエストが拡張されます。上記のように、Cookie ID の拡張は、新しく検出された任意の Cookie ID に対して実行されます。<p>アクセスリクエストに `expandIDs` オプションが使用され、指定した ID に ID-PERSON のラベルが付いている場合、2 つのファイルセットが返されます。最初のファイルセット（ユーザーセット）には、指定した ID が検出されたヒットのデータのみ含まれています。2 番目のファイルセット（デバイスセット）には、指定した ID は存在していなかったが拡張 ID が検出されたヒットのデータのみ含まれています。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ID 拡張を使用するタイミング
 
@@ -59,4 +59,4 @@ Analytics では、「expandIDs」フラグに加え、データプライバシ�
 
 また、データプライバシー削除要求の結果、ヒットが削除（更新または匿名化）された訪問者の状態情報はリセットされるということを認識しておく必要があります。そのような訪問者が再び Web サイトを訪問した場合は、新規訪問者として扱われます。eVar の割り当ては最初からすべてやり直され、訪問回数、リファラー、最初に訪問したページなどの情報も最初から収集し直されます。この結果は、データフィールドを消去する状況では望ましくなく、Privacy Service API がこの用途に適していない理由の 1 つが強調されています。
 
-PII の削除やデータの問題の解決に向けた取り組みレベルを詳しく確認および提供するには、Adobeのアカウントチームに連絡し、エンジニアリングアーキテクトコンサルティングチームと連携してください。
+アカウントマネージャー（CSM）に連絡し、エンジニアリングアーキテクトコンサルティングチームと協力して、さらに検討し、PII の削除やデータに関する問題の解決にどの程度の労力が必要かをお知らせください。

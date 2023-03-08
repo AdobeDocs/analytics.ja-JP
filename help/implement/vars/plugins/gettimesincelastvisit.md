@@ -3,16 +3,18 @@ title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getTimeSinceLastVisit
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getTimeSinceLastVisit` プラグインを使用すると、訪問者が最後の訪問後にサイトに戻ってきた時間を追跡できます。
 

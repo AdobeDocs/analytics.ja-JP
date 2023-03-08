@@ -3,16 +3,18 @@ title: Numbers Suite
 description: 他の JavaScript 変数で使用する数値を生成および操作します。
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：Numbers Suite
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 Numbers Suite は一連の JavaScript 関数です。これには、次のプラグインが含まれます。
 

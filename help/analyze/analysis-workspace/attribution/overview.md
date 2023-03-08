@@ -4,10 +4,10 @@ description: 成功イベントのクレジットを複数のディメンショ�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 1. サイトの訪問者が、いずれかの商品ページへの有料検索リンクをクリックします。商品を買い物かごに追加しますが、購入はしません。
 2. 次の日に、訪問者は友達の 1 人からのソーシャルメディアの投稿を見てリンクをクリックし、購入を完了します。
 
-一部のレポートでは、注文を有料検索に関連付けることが望まれるかもしれません。他のレポートでは、注文を「ソーシャル」に関連付けることが望まれるかもしれません。アトリビューションを使用すると、このレポートの側面を制御できます。Adobe Analytics Ultimate、Prime、Select、Foundation ですべての組織で利用できます。Adobeとの契約の種類が不明な場合は、Adobeアカウントチームにお問い合わせください。
+一部のレポートでは、注文を有料検索に関連付けることが望まれるかもしれません。他のレポートでは、注文を「ソーシャル」に関連付けることが望まれるかもしれません。アトリビューションを使用すると、このレポートの側面を制御できます。Adobe Analytics Ultimate、Prime、Select、Foundation ですべての組織で利用できます。アドビとの契約のタイプが不明な場合は、組織のアカウントマネージャーにお問い合わせください。
 
 ## Attribution IQ の価値
 

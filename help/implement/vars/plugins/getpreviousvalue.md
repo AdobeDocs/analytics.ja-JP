@@ -3,16 +3,18 @@ title: getPreviousValue
 description: 変数に渡された最後の値を取得します。
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '558'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getPreviousValue
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getPreviousValue` プラグインを使用すると、変数を以前のヒットに設定された値に設定できます。このプラグインは、現在のヒットに必要な値がすべて含まれている場合は不要です。
 

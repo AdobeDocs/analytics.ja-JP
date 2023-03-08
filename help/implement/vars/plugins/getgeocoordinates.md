@@ -3,16 +3,18 @@ title: getGeoCoordinates
 description: 訪問者の geoLocation を追跡します。
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getGeoCoordinates
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getGeoCoordinates` プラグインを使用すると、訪問者のデバイスの緯度と経度を取り込むことができます。Analytics 変数で地域データを取り込む場合は、このプラグインを使用することをお勧めします。
 

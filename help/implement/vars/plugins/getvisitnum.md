@@ -3,16 +3,18 @@ title: getVisitNum
 description: 訪問者の現在の訪問回数を追跡します。
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
 
 # アドビプラグイン：getVisitNum
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getVisitNum` プラグインは、目的の日数内にサイトに来訪したすべての訪問者の訪問回数を返します。Analysis Workspace には、同様の機能を提供する「訪問回数」ディメンションが用意されています。訪問回数の増分方法をより詳細に制御する場合は、このプラグインを使用することをお勧めします。Analysis Workspace 組み込みの「訪問回数」ディメンションがレポートのニーズに十分な場合、このプラグインは不要です。
 
