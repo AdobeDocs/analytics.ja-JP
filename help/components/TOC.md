@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -201,6 +201,7 @@ ht-degree: 96%
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
       + [計算指標：役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
+      + [デフォルトの計算指標](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
    + [仮想レポートスイート - コンポーネントのキュレーション](vrs/vrs-components.md)
