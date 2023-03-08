@@ -4,7 +4,7 @@ title: モバイルスコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Analysis Workspaceのモバイルスコアカードプロジェクトでのデ�
 1. モバイルスコアカードプロジェクトを開始します。
 1. ストーリーを作成するタイルを選択します。
    ![データストーリーを作成](assets/data-story1.png)
-   ![データストーリーアイコンの作成](assets/create-data-story.png){width="25%"}
+   ![データストーリーアイコンの作成](assets/create-data-story.png){width=".50%"}
 1. スライドを追加してデータストーリーを構築します。 最初のスライドはデフォルトで生成されます。
 新しいスライドを追加するには、スライドの上にマウスポインターを置くかクリックして、次の利用可能なオプションから選択します。
    * 「+」記号をタップして、新しいスライドを作成します。

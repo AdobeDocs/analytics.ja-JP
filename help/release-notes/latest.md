@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 55%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analysis Workspaceのデータ辞書** | データディクショナリは、ユーザーと管理者の両方が、Analytics 環境のコンポーネント（ディメンション、指標）を追跡、管理し、より深く理解するのに役立ちます。 [詳細情報](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 16 日 | 2023 年 3 月 23 日 |
-| **モバイルダッシュボードのデータストーリー** | データストーリーを使用すると、カスタマイズ可能な複数の詳細ビューをモバイルスコアカードプロジェクトのタイルに追加できます。 データストーリーを使用して、カスタマージャーニーにおける主な推進要因、関連指標、様々な手順を詳しく調べます。 これらのビューを簡単にスワイプして、主要指標の背後にある全体像を把握できます。 詳細情報（フォロー） | 該当なし | 2023 年 3 月 9 日 |
+| **モバイルダッシュボードのデータストーリー** | データストーリーを使用すると、カスタマイズ可能な複数の詳細ビューをモバイルスコアカードプロジェクトのタイルに追加できます。 データストーリーを使用して、カスタマージャーニーにおける主な推進要因、関連指標、様々な手順を詳しく調べます。 これらのビューを簡単にスワイプして、主要指標の背後にある全体像を把握できます。 [詳細情報](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 該当なし | 2023 年 3 月 9 日 |
 | **スケジュールされたプロジェクトの有効期限** | スケジュールの頻度に関係なく、スケジュールされたプロジェクトの最大有効期限日は最大 1 年に設定できます。 | 該当なし | 2023 年 3 月 9 日 |
 | **プロジェクトのリンク共有（ログインは不要）**  — プライベートベータアクセスのみ | <p>Adobe Analyticsへのアクセス権を持たないユーザーと、Analysis Workspaceプロジェクトへの読み取り専用リンクを共有できるようになりました。 プロジェクトのリンクは、組織外の人や、組織内でAdobe Analytics用にプロビジョニングされていない人と共有できます。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>プライベートベータ版に参加するには、Adobeアカウントチームにお問い合わせください。</p> | 2023 年 3 月 16 日（プライベートベータ版） | 2023 年 4 月 |
 
