@@ -3,10 +3,10 @@ title: People
 description: 一意の個人（通常複数のデバイスを持つ人）の数。
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
+source-git-commit: db7d8b4e8426a97af4c7e566c41b115dbb5b6174
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 >[!IMPORTANT]
 >
->Device Co-op に関連する人物指標は、2023 年に廃止されます。 以下に説明する CDA 関連の人物指標は、この廃止の影響を受けません。
+>Device Co-op に関連する人物指標は、2023 年 3 月 8 日に廃止されます。 以下に説明する CDA 関連の人物指標は、この廃止の影響を受けません。
 
 「人」指標は、 [クロスデバイス分析](../cda/overview.md) 仮想レポートスイート これは、レポートで識別される個人と、個人に属していると識別されないデバイスの数の合計を表します。
 
