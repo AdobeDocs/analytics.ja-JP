@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 99%
+source-wordcount: '3773'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 99%
 | --- | --- |
 | **2023 年 3 月** |  |
 | デフォルトの計算指標 | 次を説明する内容を追加しました： [Adobeが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| データ要素 | <p>データディクショナリの新しいドキュメント ( [概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編集中](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、および [監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) データディクショナリ。</p><p>の情報 [コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md) は、データディクショナリ機能を考慮して更新されました。</p> |
+| プロジェクトのリンク共有（ログインは不要） | <p>既存のドキュメントを更新して、Analysis Workspaceへのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明しました。</p> <p>ユーザードキュメントの更新内容 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md) および [共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理者向けオプションが [環境設定](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **2023年2月** |  |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
