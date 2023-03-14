@@ -3,10 +3,10 @@ description: インポーターを使用すると、分類データを Analytics
 title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ ht-degree: 100%
 
 ### 分類列の見出し
 
-例えば、Reports and Analytics では、[!UICONTROL キャンペーン]変数は「[!UICONTROL キャンペーン]」および「[!UICONTROL クリエイティブエレメント]」の 2 つに自動的に分類されます。データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
+例：Reports &amp; Analytics の実装では、 [!UICONTROL Campaign] 変数： [!UICONTROL キャンペーン] および [!UICONTROL クリエイティブエレメント]. データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
 
 >[!NOTE]
 >
->[!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。
+>[!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。「キー」は予約済みの分類（ヘッダー）値です。 「キー」という名前の新しい分類はサポートされていません。
 
 また、データファイルでは、以下に示す見出しの規則をサポートし、下位分類やその他の特殊なデータ列を識別します。
 
