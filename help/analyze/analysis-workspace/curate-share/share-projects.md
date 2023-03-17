@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 70%
+source-wordcount: '1587'
+ht-degree: 65%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 70%
 
 * Adobe Analyticsへのアクセス権を持たない組織内のユーザーとグループ
 
-   受信者には表示専用アクセス権があります
+   受信者には読み取り専用アクセス権があります
 
 * 組織外の担当者
 
-   受信者には表示専用アクセス権があります
+   受信者には読み取り専用アクセス権があります
 
 任意 [キュレーション](curate.md) 共有前の申請は、受信者がプロジェクトを開くと反映されます。
 
@@ -35,9 +35,9 @@ ht-degree: 70%
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 
-## 組織内のAdobe Analyticsユーザーおよびグループと共有する {#Add}
+## 組織内のAnalysis Workspaceユーザーおよびグループと共有する {#Add}
 
-プロジェクトを組織内の既存の Adobe Analytics ユーザーまたはグループと共有できます。この節で説明するようにプロジェクトを共有する場合、共有相手となるユーザーは、既に Adobe Analytics アカウントを持っている必要があります。
+プロジェクトを組織内の既存のAnalysis Workspaceユーザーまたはグループと共有できます。 この節で説明するようにプロジェクトを共有する場合は、共有相手のユーザーが既にAdobe Analyticsにアクセスできている必要があります。
 
 特定の役割をユーザーやグループと共有したり、リンクを共有したりできます。
 
@@ -59,7 +59,8 @@ ht-degree: 70%
 
 特定のプロジェクトの役割を組織内のユーザーまたはグループと共有するには：
 
-1. 共有するプロジェクトに移動し、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトを共有]**&#x200B;をクリックします。<!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. 共有するプロジェクトに移動し、「 **[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]**.
+
 未保存の変更がある場合は、最初にプロジェクトを保存するように求められます。
 
    ![](assets/share-proj-modal.png)
@@ -96,20 +97,21 @@ ht-degree: 70%
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 
-1. **[!UICONTROL 共有]**／**[!UICONTROL プロジェクトを共有]**&#x200B;をクリックします。<!-- recommned changing "Share project" to "Share project internally" or something like that -->
+1. クリック **[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]**.
+
 未保存の変更がある場合は、最初にプロジェクトを保存するように求められます。
 
    ![](assets/share-proj-modal.png)
 
-1. **[!UICONTROL URL フィールドを共有]**&#x200B;の横にある「**[!UICONTROL リンクをコピー]**」をクリックします。
+1. クリック **[!UICONTROL コピー]** の横 **[!UICONTROL リンクで共有]** フィールドに入力します。
 
-1. リンクを組織内のユーザーと共有します。例えば、メールや内部 web サイトなどにペーストすることができます。
+1. リンクを組織内のユーザーと共有します。例えば、E メールや、内部 Web サイトなどに貼り付けることができます。
 
-## 誰とでも公開リンクを共有（ログインは不要） {#share-public-link}
+## プロジェクトを他のユーザーと共有する（ログインは不要） {#share-public-link}
 
 {{release-limited-testing-section}}
 
-以下を許可： [表示のみのアクセス](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspaceへのアクセス権を持たないユーザーに対するAdobe Analyticsプロジェクトへの投稿 これには、以下が含まれます。
+以下を許可： [読み取り専用アクセス](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspaceへのアクセス権を持たないユーザーに対するAdobe Analyticsプロジェクトへの投稿 これには、以下が含まれます。
 
 * 組織外の担当者
 
@@ -117,44 +119,44 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->公開リンクを共有する際は、次の点を考慮してください。
+>Analysis WorkspaceプロジェクトをAdobe Analyticsへのアクセス権のないユーザーと共有する際は、次の点を考慮してください。
 >
->* 公開アクセスリンクを共有する機能は、Analytics 管理者が無効にすることができます。詳しくは、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). この節で説明するように公開リンクを共有できない場合、Analytics 管理者はこの機能を無効にしています。
+>* この方法でプロジェクトを共有する機能は、Analytics 管理者が無効にすることができます。詳しくは、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). この節で説明するようにプロジェクトを共有できない場合、Analytics 管理者はこの機能を無効にしています。
 >
->* 14 個を超える拡張ビジュアライゼーションを持つプロジェクトは、公開アクセスリンクを使用して共有できません。
+>* 14 個を超えるビジュアライゼーションが展開されたプロジェクトは、Adobe Analyticsへのアクセス権を持たないユーザーとは共有できません。
 
 
-Analysis Workspaceプロジェクトへの公開リンクを共有するには：
+Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有するには：
 
 1. 共有するAnalysis Workspaceプロジェクトを開きます。
 
-1. クリック **[!UICONTROL 共有]** > **[!UICONTROL 公開リンクを共有]**.
+1. クリック **[!UICONTROL 共有]** > **[!UICONTROL 他のユーザーと共有]**.
 
    未保存の変更がある場合は、プロジェクトを保存するよう求められます。
 
    <!-- Add screen shot of new modal -->
 
-1. を有効にします。 **[!UICONTROL リンクがアクティブ]** オプションを選択します（まだ有効になっていない場合）。
+1. を有効にします。 **[!UICONTROL リンクはアクティブです]** オプションを選択します（まだ有効になっていない場合）。
 
 1. 次のセキュリティオプションを有効にするかどうかを選択します（このオプションは Analytics 管理者が制御できます）。
 
-   * **[!UICONTROL Experience Cloud認証が必要]:**
+   * **[!UICONTROL Experience Cloud 認証を要求]:**
 
-      このオプションを有効にした場合、共有しているプロジェクトが作成されたAdobe Experience Cloud組織にログインできるユーザーのみが、このリンクを使用できます。
+      このオプションを有効にすると、共有しているプロジェクトを作成したAdobe Experience Cloud組織にログインできるユーザーのみが、プロジェクトにアクセスできます。
 
       Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). 管理者がこのオプションを設定した方法に応じて、次のシナリオが発生する場合があります。
 
       * このオプションが表示されない場合、Analytics 管理者はこの機能を有効にしていませんでした。
 
-      * このオプションが有効で淡色表示の場合は、すべてのパブリックリンクにアクセスするために、Analytics 管理者にExperience Cloud認証が必要です。
+      * このオプションが有効で淡色表示の場合は、Analysis Workspaceプロジェクトにアクセスするすべてのユーザーに対してExperience Cloud認証が Analytics 管理者に必要です。
 
-1. 次の **[!UICONTROL 他のユーザーと共有（ログインは不要）]** フィールドで、 **リンクをコピー** アイコンをクリックして、リンクをシステムクリップボードにコピーします。
+1. 次の **[!UICONTROL 他のユーザーと共有（ログインは不要）]** フィールドで、 **リンクをコピー** アイコン ![リンクをコピーアイコン](assets/copy-link-icon.png) をクリックして、リンクをシステムクリップボードにコピーします。
 
 1. プロジェクトへのアクセス権を付与したい人とリンクを共有します。 例えば、リンクを E メールに貼り付けることができます。
 
-   リンクを共有した任意のユーザーがAnalysis Workspaceプロジェクトを表示できます。 パスワードを必要とする場合は、リンクにアクセスしたい人とパスワードを共有する必要があります。
+   リンクを共有した任意のユーザーがAnalysis Workspaceプロジェクトを表示できます。
 
-1. 選択 **[!UICONTROL 閉じる]** をクリックして、共有ダイアログボックスを閉じます。 変更内容は自動的に保存されます。 <!-- True? -->
+1. 選択 **[!UICONTROL 閉じる]** をクリックして、共有ダイアログボックスを閉じます。 変更内容は自動的に保存されます。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 

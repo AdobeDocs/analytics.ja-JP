@@ -5,10 +5,10 @@ title: 共有可能なリンクの作成
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 81%
+source-wordcount: '347'
+ht-degree: 73%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 81%
 
 Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。リンクタイプによっては、プロジェクトにアクセスする前に受信者がAdobe Analyticsにログインする必要がある場合と、ログインしない場合があります。
 
-## プロジェクトリンクの取得 {#project-link}
+## 他の Workspace ユーザーと共有するプロジェクトリンクを取得 {#project-link}
 
-完全なプロジェクトへのリンクを共有するには、 **[!UICONTROL 共有／プロジェクトリンクの取得]**&#x200B;に移動します。リンクの受信者に[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)が割り当てられていない場合、管理者には「**[!UICONTROL 編集可能]**」が表示され、管理者以外のユーザーには「**[!UICONTROL 複製可能]**」のエクスペリエンスが表示されます。
+完全なプロジェクトへのリンクを共有するには、に移動します。 [!UICONTROL **共有**] > [!UICONTROL **Workspace ユーザーと共有**] > [!UICONTROL **リンクで共有**]. リンクの受信者に[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)が割り当てられていない場合、管理者には「**[!UICONTROL 編集可能]**」が表示され、管理者以外のユーザーには「**[!UICONTROL 複製可能]**」のエクスペリエンスが表示されます。
 
 ![](assets/get-project-link.png)
 
-## 公開リンクを取得
+## 他のユーザーと共有する読み取り専用リンクを取得する
 
 {{release-limited-testing-section}}
 
-Adobe Analyticsへのアクセス権を持たないユーザーと、Analysis Workspaceプロジェクトへの表示専用リンクを共有できます。
+Adobe Analyticsへのアクセス権を持たないユーザーと、Analysis Workspaceプロジェクトへの読み取り専用リンクを共有できます。
 
-詳しくは、この記事の「誰とでも公開リンクを共有する（ログインは不要）」を参照してください。 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+詳しくは、この記事の「誰とでもプロジェクトを共有する（ログインは不要）」を参照してください。 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## パネルまたはビジュアライゼーションリンクの取得 {#panel-link}
 

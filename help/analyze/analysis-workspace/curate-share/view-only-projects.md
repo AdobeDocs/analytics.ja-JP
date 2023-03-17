@@ -5,16 +5,16 @@ title: 表示専用プロジェクト
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 表示専用プロジェクト
 
-[プロジェクト共有ワークフロー](/help/analyze/analysis-workspace/curate-share/share-projects.md)を使用して、受信者に「表示のみ」としてプロジェクトを共有できます。「Can View」役割に配置された受信者は、より限定的なプロジェクト体験を受け取るようになります。組織のデータ構造、Analysis Workspace、または Adobe Analytics の一般的な知識が低いユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用したい場合には、この方法が望ましい場合があります。
+[プロジェクト共有ワークフロー](/help/analyze/analysis-workspace/curate-share/share-projects.md)を使用して、受信者に「表示のみ」としてプロジェクトを共有できます。「Can View」役割に配置された受信者は、より限定的なプロジェクト体験を受け取るようになります。組織のデータ構造、Analysis Workspace、Adobe Analyticsの一般的な知識の低いユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用したい場合には、この方法が望ましい場合があります。
 
 ![](assets/view-only-project.png)
 
