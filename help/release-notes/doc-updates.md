@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
 source-wordcount: '3801'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2023 年 3 月** |  |
+| **2023年3月** |  |
 | モバイルスコアカードでのデータストーリーの作成 | A [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) は、中央のテーマや指標に基づいて構築された、サポートされるデータポイント、ビジネスコンテキスト、関連指標の集まりです。 |
-| デフォルトの計算指標 | 次を説明する内容を追加しました： [Adobeが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
 | データ要素 | <p>データディクショナリの新しいドキュメント ( [概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編集中](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、および [監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) データディクショナリ。</p><p>の情報 [コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md) は、データディクショナリ機能を考慮して更新されました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>既存のドキュメントを更新して、Analysis Workspaceへのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明しました。</p> <p>ユーザードキュメントの更新内容 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md) および [共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理者向けオプションが [環境設定](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **2023年2月** |  |
