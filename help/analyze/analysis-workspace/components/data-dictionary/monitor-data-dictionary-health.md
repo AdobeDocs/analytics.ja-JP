@@ -3,7 +3,7 @@ description: 管理者は、データ要素の正常性を監視する責任が�
 title: データ要素の正常性の監視
 feature: Components
 role: Admin
-source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
@@ -11,8 +11,6 @@ ht-degree: 100%
 ---
 
 # データ要素の正常性の監視
-
-{{release-limited-testing}}
 
 Analytics 管理者は、正常なデータ要素を保持する責任があります。
 
