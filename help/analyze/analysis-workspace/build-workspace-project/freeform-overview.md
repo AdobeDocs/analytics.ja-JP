@@ -5,10 +5,10 @@ title: プロジェクトの概要
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 84%
+source-wordcount: '1555'
+ht-degree: 83%
 
 ---
 
@@ -38,8 +38,6 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | [環境設定を編集](/help/analyze/analysis-workspace/user-preferences.md) | 作成するすべての新規プロジェクトまたはパネルに関する、Analysis Workspaceおよびその関連コンポーネントの設定を管理します。 |
 | [フォルダーを作成](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 新しいフォルダまたはサブフォルダをプロジェクトとフォルダのリストに追加します。 |
 | [プロジェクトの作成](/help/analyze/analysis-workspace/home.md) | 新しいプロジェクトを最初から、またはから開始する [テンプレート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#analysis-workspace). |
-| プロジェクトの管理 <!--I don't see this option--> | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しを行えます。 |
-| ランディングページとして設定 <!--I don't see this option--> | このページを Workspace ランディングページにします。 |
 | 詳細を表示 | 空のプロジェクトまたはモバイルスコアカードを作成するためのオプションを表示します。 [トレーニングチュートリアルの表示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ja)または [リリースノートの表示](/help/release-notes/latest.md). |
 | フォルダとプロジェクトを表示 | プロジェクトのフォルダ構造を表示するかどうかを選択します。 詳しくは、[Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)を参照してください。 |
 | テーブルをカスタマイズ（アイコン） | プロジェクトページの各プロジェクトに表示される情報をカスタマイズできます。 |
@@ -58,8 +56,6 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | 最長の日付範囲 | プロジェクトの最も長い日付範囲。 |
 | クエリ数 | プロジェクトに含まれるクエリの合計数。 |
 | 場所 | プロジェクトが存在するフォルダー。 |
-| お気に入りのプロジェクト <!--I don't see this option--> | プロジェクトをお気に入りに登録するには、プロジェクトを開き、名前の横の星をクリックします。このリストは、次回 Workspace を開いたときに表示されます。 |
-| 頻繁に表示するプロジェクト <!--I don't see this option--> | 頻繁に開くすべてのプロジェクトをリストし、アクセスしやすくします。 |
 
 ## メニューバー {#menu-bar}
 
