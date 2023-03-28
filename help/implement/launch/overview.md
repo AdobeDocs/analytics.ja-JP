@@ -2,10 +2,10 @@
 title: Analytics 拡張機能を使用した Adobe Analytics の実装
 description: タグと Analytics 拡張機能を使用した Adobe Analytics の実装方法について説明します
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 100%
 
 ---
 
