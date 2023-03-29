@@ -3,10 +3,10 @@ title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: dc60b9e6d298aa20b5f6ac7fc776b56118b764f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,7 +85,7 @@ if(s.pageName) getPercentPageViewed();
 if(_ppvPreviousPage)
 {
   s.prop1 = _ppvPreviousPage;
-  s.prop2 = "initialPercent=" + _ppvInitialPercent + " | highestPercent=" + _ppvHighestPercentViewed + " | finalPercent=" + _ppvFinalPercentViewed + " | foldsAvailable=" + _ppvFoldsAvailable + " | foldsSeen=" + _ppvFoldsSeen;
+  s.prop2 = "initialPercent=" + _ppvInitialPercentViewed + " | highestPercent=" + _ppvHighestPercentViewed + " | finalPercent=" + _ppvFinalPercentViewed + " | foldsAvailable=" + _ppvFoldsAvailable + " | foldsSeen=" + _ppvFoldsSeen;
 }
 
 // Given prop5 operates as a page type variable:
@@ -96,7 +96,7 @@ if(s.prop5) getPercentPageViewed(s.prop5);
 if(_ppvPreviousPage)
 {
   s.prop1 = _ppvPreviousPage;
-  s.prop2 = "initialPercent=" + _ppvInitialPercent + " | highestPercent=" + _ppvHighestPercentViewed;
+  s.prop2 = "initialPercent=" + _ppvInitialPercentViewed + " | highestPercent=" + _ppvHighestPercentViewed;
 }
 ```
 
