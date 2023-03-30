@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -124,6 +124,10 @@ ht-degree: 65%
 >* この方法でプロジェクトを共有する機能は、Analytics 管理者が無効にすることができます。詳しくは、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). この節で説明するようにプロジェクトを共有できない場合、Analytics 管理者はこの機能を無効にしています。
 >
 >* 14 個を超えるビジュアライゼーションが展開されたプロジェクトは、Adobe Analyticsへのアクセス権を持たないユーザーとは共有できません。
+>
+>* 共有したユーザーは、 [キュレーション](curate.md).
+> 
+>* 共有するユーザーがプロジェクトの日付範囲を変更できます。 プロジェクトに設定した日付範囲がデフォルトで表示されます。
 
 
 Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有するには：
@@ -155,6 +159,8 @@ Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Works
 1. プロジェクトへのアクセス権を付与したい人とリンクを共有します。 例えば、リンクを E メールに貼り付けることができます。
 
    リンクを共有した任意のユーザーがAnalysis Workspaceプロジェクトを表示できます。
+
+1. （オプション） **新しいリンクを生成** アイコン ![リンクを生成アイコン](assets/regenerate-link.png) ：以前にプロジェクトへのリンクを受け取ったユーザーからのアクセスを削除します。 新しいリンクが生成され、プロジェクトにアクセスするユーザーと共有できます。
 
 1. 選択 **[!UICONTROL 閉じる]** をクリックして、共有ダイアログボックスを閉じます。 変更内容は自動的に保存されます。
 
