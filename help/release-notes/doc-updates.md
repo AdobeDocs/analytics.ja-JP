@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
+source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
 workflow-type: tm+mt
-source-wordcount: '3801'
-ht-degree: 97%
+source-wordcount: '3853'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年3月** |  |
+| トラフィック変数 (prop) の概要 | 記事の内容を明確にし、改善するための節と手順を追加しました。 「トラフィック変数レポートを有効にする」という記事からコンテンツを結合し、その記事を削除しました。 詳しくは、 [トラフィック変数 (prop) の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
+| 内部 URL フィルター | 記事の内容を明確にし、改善するための節と手順を追加しました。 詳しくは、 [内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | モバイルスコアカードでのデータストーリーの作成 | A [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) は、中央のテーマや指標に基づいて構築された、サポートされるデータポイント、ビジネスコンテキスト、関連指標の集まりです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
 | データ要素 | <p>データディクショナリの新しいドキュメント ( [概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編集中](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、および [監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) データディクショナリ。</p><p>の情報 [コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md) は、データディクショナリ機能を考慮して更新されました。</p> |
