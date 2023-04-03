@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 62%
+source-wordcount: '1682'
+ht-degree: 57%
 
 ---
 
@@ -93,17 +93,15 @@ ht-degree: 62%
 
 * リンクを使用する受信者は、プロジェクトにアクセスする前に Adobe Analytics にログインする必要があります。
 
-* 受信者に役割が割り当てられていないがプロジェクトへの[リンク](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja)を受け取った場合（**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**）、そのユーザーはデフォルトで役割に配置されます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
+* 受信者に役割が割り当てられておらず、 [リンク](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja) プロジェクトには、デフォルトで役割が付与されます。 管理者が受け取る **[!UICONTROL 編集可能]** 管理者以外が受け取る **[!UICONTROL 複製可能]**.
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 
-1. クリック **[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]**.
+1. プロジェクトを保存します。未保存の変更がある場合は、リンクを共有する前にプロジェクトを保存するよう求められます。
 
-未保存の変更がある場合は、最初にプロジェクトを保存するように求められます。
+1. 選択 **[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択し、「 **[!UICONTROL コピー]** の横 **[!UICONTROL リンクで共有]** フィールドに入力します。
 
    ![](assets/share-proj-modal.png)
-
-1. クリック **[!UICONTROL コピー]** の横 **[!UICONTROL リンクで共有]** フィールドに入力します。
 
 1. リンクを組織内のユーザーと共有します。例えば、E メールや、内部 Web サイトなどに貼り付けることができます。
 
@@ -193,4 +191,4 @@ Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Works
 | 2 人の編集者が同時にプロジェクトを保存するとどうなりますか？ | 変更は結合されず、最後に保存したプロジェクトのバージョンが保持されます。Analysis Workspace は現在、ライブコラボレーションをサポートしていません。 |
 | 管理者として、どのプロジェクトエクスペリエンスが表示されますか。 | 管理者に&#x200B;**[!UICONTROL 複製]**&#x200B;または&#x200B;**[!UICONTROL 表示]**&#x200B;の役割が割り当てられている場合、プロジェクトを開くと、それらによって制限されたエクスペリエンスが提供されます。管理者は、必要に応じて、**[!UICONTROL コンポーネント]／[!UICONTROL プロジェクト]**&#x200B;を使用して、いつでも自分の役割を&#x200B;**[!UICONTROL 編集]**&#x200B;に増やすことができます 。 |
 | 受信者が 1 つの役割に個人として配置され、別の役割にグループのメンバとして配置された場合はどうなりますか？ | 受信者が複数の役割に配置されている場合、常により高いエクスペリエンスを受け取ります。例えば、個人として&#x200B;**[!UICONTROL 編集]**&#x200B;の役割、グループのメンバーとして&#x200B;**[!UICONTROL 表示]**&#x200B;の役割が与えられたユーザーは、**[!UICONTROL 編集]**&#x200B;エクスペリエンスを受け取ります。 |
-| プロジェクトのリンクを開いた場合、ユーザーはどのようなエクスペリエンスを得られますか。 | 受信者は、共有モーダルに配置した役割を受け取ります。受信者に役割が割り当てられていない場合（**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**）、そのユーザーはデフォルトで役割に配置されます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。 |
+| プロジェクトのリンクを開いた場合、ユーザーはどのようなエクスペリエンスを得られますか。 | 受信者は、共有モーダルに配置した役割を受け取ります。受信者に役割が割り当てられていないが、プロジェクトへのリンク (**[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択し、「 **[!UICONTROL コピー]** の横 **[!UICONTROL リンクで共有]** フィールド ) の場合、デフォルトで役割に配置されます。 管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。 |
