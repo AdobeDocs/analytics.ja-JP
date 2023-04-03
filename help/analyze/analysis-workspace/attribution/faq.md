@@ -4,10 +4,10 @@ description: アトリビューションに関する FAQ に対する回答で�
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 はい、ほとんどのデータソースがサポートされています。アトリビューションは Analytics の訪問者の識別子と関連付けられないので、サマリーレベルのデータソースでは使用できません。
 
-トランザクション ID データソースは他のヒットと同様に扱われます。従来のレポートで通常使用する特殊な処理は使用しません。
+トランザクション ID データソースは他のヒットと同様に扱われます。従来のレポートで通常使用する特殊な処理は使用しません。 つまり、レポートの時間処理を使用する場合、トランザクション ID のヒットでは、トランザクション ID のヒットのタイムスタンプの近くで発生するヒットから伝播されるeVar値が含まれます。 値は、元のトランザクションの時間の近くに発生したヒットからは伝播されません。
 
 ## アトリビューションは Advertising Analytics との統合に対応していますか。
 
