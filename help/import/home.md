@@ -2,7 +2,7 @@
 title: Analytics インポートガイド
 description: このガイドでは、データソース、Data Insertion API、Data Connectors を使用して、データを Analytics に送信する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -15,12 +15,12 @@ ht-degree: 100%
 
 このガイドでは、Analytics にデータを取得する方法を説明します。以下のようなものがあります。
 
-* **[データソース](c-data-sources/datasrc-home.md)**：指定された Adobe FTP サイトにファイルをアップロードします。アドビは、ファイルを取得し、データをレポートスイートに含めます。
+* **[データソース](data-sources/overview.md)**：指定された Adobe FTP サイトにファイルをアップロードします。アドビは、ファイルを取得し、データをレポートスイートに含めます。
 * **[一括データ挿入 API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** では、AppMeasurement などのクライアントサイドライブラリを使用する代わりに、多数のファイルからなるサーバーコールデータをアップロードできます。
 * **[データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)**：API を使用して、アドビのデータコレクションに直接データを送信します。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：Adobe Analytics レポートスイートのエンリッチメントに使用できる現在の統合を検索します。
 
-Adobe Analytics のビデオの概要は次のとおりです。
+以下は、Adobe Analytics の概説ビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -30,7 +30,7 @@ Adobe Analytics のビデオの概要は次のとおりです。
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

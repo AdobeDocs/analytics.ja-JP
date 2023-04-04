@@ -3,8 +3,8 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
    * ルールビルダー：変数に収集中の書式設定された予測可能な値（例えば、区切り値など）がある場合に使用します。このアプローチでは、ルールを一度設定したら、後はほとんど自動化できます。
    * ブラウザーインポーター：予測可能な値がない場合か、1 回限りの更新が必要な有限の値リストがある場合に使用します。このアプローチでは、新しい値の分類を継続的に監視する必要があります。
 
-**[データソース](/help/import/c-data-sources/datasrc-home.md)** は以下の場合に使用します。
+**[データソース](/help/import/data-sources/overview.md)** は以下の場合に使用します。
 
 * Adobe Analytics に恒久的に書き込むオフラインデータがある場合。
 * オプション：

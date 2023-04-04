@@ -3,7 +3,7 @@ title: 接続タイプ
 description: 訪問者がインターネットに接続する方法。
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 1. `ct` クエリ文字列が `"modem"` に等しい場合は、ディメンション項目を `"Modem"` に設定します。AppMeasurement は、サポートされていない Internet Explorer ブラウザーでのみこのデータを収集するため、このディメンション項目は一般的ではありません。
 1. ヒットの IP アドレスを確認し、アドビ内部のルックアップテーブルを参照します。IP アドレスが携帯電話会社からのものである場合は、ディメンション項目を `"Mobile Carrier"` に設定します。
 1. `ct` クエリ文字列が `"lan"` に等しい場合は、ディメンション項目を `"LAN/Wifi"` に設定します。
-1. ヒットが[データソース ](/help/import/c-data-sources/datasrc-home.md)から発生した場合、または特別なタイプのヒットと見なされる場合は、ディメンション項目を `"Not specified"` に設定します。
+1. ヒットが[データソース ](/help/import/data-sources/overview.md)から発生した場合、または特別なタイプのヒットと見なされる場合は、ディメンション項目を `"Not specified"` に設定します。
 1. 上記の規則がいずれも満たされない場合、デフォルト値は `"LAN/Wifi"` です。
 
 ## ディメンション項目

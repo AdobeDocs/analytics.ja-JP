@@ -2,7 +2,7 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
 * **データコネクタ：**&#x200B;サードパーティによる Adobe Analytics へのデータのアップロードを自動化するための包括的な開発ソリューション。サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。多くのデータコネクタは、データソースで使用されるものと同じワークフローを使用します。インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) を参照してください。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
-* **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/c-data-sources/datasrc-home.md)」を参照してください。
+* **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。『エクスポートユーザガイド』の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。
 * **Data Workbench：**&#x200B;旧称 Insight。複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。
 * **ディメンション：**&#x200B;テキストなどの変数値を含むコンポーネントタイプ。ページ名、トラッキングコード、参照ドメインなどがあります。通常、指標と組み合わせて表示されます。

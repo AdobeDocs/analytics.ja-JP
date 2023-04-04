@@ -3,10 +3,10 @@ title: ページビュー数
 description: ディメンション項目がAdobe Analyticsで設定または持続された回数。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 39%
+source-wordcount: '168'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 
 ## この指標の計算方法
 
-この指標は、レポートスイート内のすべてのページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）をカウントします。ディメンションの場合、ディメンション項目が定義または持続するヒットが含まれます。 リンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）は含まれません。
+この指標は、レポートスイート内のすべてのページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）をカウントします。ディメンションの場合、ディメンション項目が定義または持続するヒットが含まれます。 リンクトラッキングコール ([`tl()`](/help/implement/vars/functions/tl-method.md)) または概要のデータ [データソース](/help/import/data-sources/overview.md).
 
 ## 類似の指標と比較
 

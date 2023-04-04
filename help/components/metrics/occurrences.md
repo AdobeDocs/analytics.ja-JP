@@ -3,10 +3,10 @@ title: 発生件数
 description: 変数が設定または持続されたヒットの数。
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 74%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 100%
 ## 類似の指標と比較
 
 * **発生件数と[インスタンス](instances.md)**：発生件数は、ディメンション項目が設定または持続されたヒットをカウントします。ディメンション項目が持続するヒットは、インスタンスに含まれません。
-* **発生件数と[ページビュー](page-views.md)**：発生件数には、ページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）およびリンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）を含む、すべてのヒットタイプが含まれます。ページビュー指標には、ページビュートラッキングコールのみが含まれ、リンクトラッキングコールは除外されます。
+* **発生件数と [ページビュー数](page-views.md)**:発生件数には、ページビュートラッキングコール ([`t()`](/help/implement/vars/functions/t-method.md))、リンクトラッキングコール ([`tl()`](/help/implement/vars/functions/tl-method.md))、および概要からのデータ [データソース](/help/import/data-sources/overview.md). ページビュー数指標には、リンクトラッキングコールおよび概要データソースを除く、ページビュートラッキングコールのみが含まれます。
