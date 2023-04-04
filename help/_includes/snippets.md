@@ -1,5 +1,5 @@
 ---
-source-git-commit: 57772f5a2e74ec20fd7c234b996678f7e75607ea
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 64%
@@ -11,7 +11,7 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://express.adobe.com/page/6WnF8JK6IRDhf/)を参照してください。
+>詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_en)を参照してください。
 
 ## データ要素のフィルター条件 {#dd-filter-criteria}
 
