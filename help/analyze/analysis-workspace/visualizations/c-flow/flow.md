@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 90%
 [ディメンション間のフロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を表示できます。例えば、ページと部門を 1 つの図に組み合わせることができます。この場合、フローはホームページからメンズページに移動し、次に靴部門に移動することがあります。
 
 各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
+
+## フロービジュアライゼーションの設定
+
+フロービジュアライゼーションの設定方法について詳しくは、 [フロービジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
