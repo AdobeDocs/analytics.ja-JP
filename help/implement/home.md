@@ -2,10 +2,10 @@
 title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティ、アプリケーションに実装します。
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
+workflow-type: tm+mt
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,11 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
    ![従来の JavaScript](./assets/appmeasurement-implementation.png)
 この実装方法は、カスタムコードを使用した実装で役に立ちますが、以下を使用する場合に引き続きお勧めします。
 
-   * [クリックレベルの activity map データ](../analyze/activity-map/activity-map.md)。
+   * [activity map データ](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >最新の Web SDK を使用して、Activity Mapがサポートされます。 詳しくは、 [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) を参照してください。
 
    * [ストリーミングメディア測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)
 

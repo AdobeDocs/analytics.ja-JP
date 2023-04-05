@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3867'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 95%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年3月** |  |
+| Activity Mapの Web SDK サポート | 更新済み [Adobe Analyticsの実装](/help/implement/home.md) および [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | トラフィック変数 (prop) の概要 | 記事の内容を明確にし、改善するための節と手順を追加しました。 「トラフィック変数レポートを有効にする」という記事からコンテンツを結合し、その記事を削除しました。 詳しくは、 [トラフィック変数 (prop) の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と手順を追加しました。 詳しくは、 [内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | モバイルスコアカードでのデータストーリーの作成 | A [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) は、中央のテーマや指標に基づいて構築された、サポートされるデータポイント、ビジネスコンテキスト、関連指標の集まりです。 |

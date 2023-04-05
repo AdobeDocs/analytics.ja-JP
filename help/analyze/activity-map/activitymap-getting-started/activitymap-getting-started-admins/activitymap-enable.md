@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 66%
 
 ---
 
@@ -16,15 +16,30 @@ ht-degree: 100%
 
 Activity Map のリンクコレクションおよびユーザーダウンロードを有効にするために Analytics 管理者がおこなう必要がある手順について説明します。
 
-## 手順 1.AppMeasurement（JavaScript）コードを v1.6 以上に更新  {#section_5D1586289DF2489289B1B6C1C80C300D}
+## 手順 1.実装コードを更新する {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Activity Map モジュールは、AppMeasurement.js ファイルの一部です（ファイルの先頭にあります）。AppMeasurement ライブラリは、インスタンス化の際に Activity Map を読み込みます。
+このActivity Mapモジュールは、AppMeasurement.js および Web SDK( バージョン2.15.0以降 ) の一部です。
+AppMeasurement ライブラリまたは Web SDK は、インスタンス化の際にActivity Mapモジュールを読み込みます。
 
-Activity Map のデータは、このバージョン以上の AppMeasurement に更新しない限り収集できません。
+>[!NOTE]
+>
+>Activity Mapデータは、 **AppMeasurement** **バージョン 1.6** またはそれ以上 **Web SDK** **バージョン2.15.0** またはそれ以降
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL Code Manager]** に移動して、最新の AppMeasurement コード（AppMeasurement_Javascript-1.6.zip）をダウンロードし、[実装します](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ja)。
 
-   Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)を含めました。
+1. AppMeasurement と Web SDK のどちらを使用しているかに応じて、最新の JavaScript ライブラリをダウンロードします。
+
+   - **AppMeasurement** コード (AppMeasurement_Javascript-1.6.zip) を  **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL コードマネージャー]** および [実装する](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ja).
+
+      Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)を含めました。
+
+   - **Web SDK** コード (alloy.js) を使用します。 詳しくは、 [SDK — オプション 2 をインストールします。事前にビルドされたスタンドアロンバージョンのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja#option-2%3A-installing-the-prebuilt-standalone-version) を参照してください。 必ずバージョン 2.15 以降を使用してください。
+
+      詳しくは、 [リンクを追跡](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja) リンクトラッキングの実装方法と、 `region` クリックされたHTML要素の
+
+      >[!NOTE]
+      >
+      >現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングがリンクイベントを送信しています。 これは、AppMeasurement の動作方法とは異なり、追加の課金対象ヒットがAdobeに送信される可能性があります。
+
 
 1. 実装の検証:
 
