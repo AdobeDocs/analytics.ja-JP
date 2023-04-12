@@ -5,16 +5,20 @@ title: 訪問者の移行
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # 訪問者の移行
 
-訪問者の移行は、訪問者 ID Cookie をドメイン間で移行するプロセスです。
+>[!NOTE]
+>
+>既にExperience Cloud訪問者 ID サービスを実装している場合、猶予期間は適用されず、有効にする必要はありません。
+
+訪問者の移行は、訪問者 ID cookie(s_vi) をドメイン間で移行するプロセスです。
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
