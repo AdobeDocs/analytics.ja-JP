@@ -3,40 +3,56 @@ title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '718'
+ht-degree: 78%
 
 ---
 
 # アドビプラグイン：p_fo（Page First Only）
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `p_fo` プラグインは、特定の JavaScript オブジェクトが存在するかどうかを確認するユーティリティです。オブジェクトが存在しない場合は、オブジェクトを作成して `true` を返します。JavaScript オブジェクトが既にページ上に存在する場合は、`false` を返します。このプラグインは、ページ上でコードを 1 回だけ実行する場合に便利です。その他のプラグインの一部は、このコードを使用して動作します。ページ上でのコードの実行回数を気にしない場合や、依存プラグインを使用しない場合は、このプラグインは不要です。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobeには、Web SDK で最もよく使用されるプラグインを使用できる拡張機能が用意されています。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize p_fo
-1. Save and publish the changes to the rule.-->
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
+1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
+1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
+1. 次の設定で、目的のデータ要素名を設定します。
+   * 拡張：共通の Web SDK プラグイン
+   * データ要素: `p_fo`
+1. 変更を保存し、データ要素に公開します。
+
+## Web SDK の手動実装プラグインのインストール
+
+このプラグインは、Web SDK の手動実装内での使用は、まだサポートされていません。
+
+## Adobe Analytics拡張機能を使用したプラグインのインストール
+
+Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
+1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize p_fo
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
+Common Analytics Plugins プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。

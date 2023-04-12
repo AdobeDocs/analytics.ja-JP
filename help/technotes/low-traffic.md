@@ -3,7 +3,7 @@ description: レポートに多くのユニーク値がある場合、Adobeは�
 title: Adobe Analytics の低トラフィック値
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 46%
@@ -30,7 +30,7 @@ ht-degree: 46%
 
 ## 一意の値のしきい値の変更
 
-一意の値のしきい値は、デフォルトで 50 万件および 100 万件です。このしきい値は、変数単位で変更できます。この変更をリクエストするには、Adobeカスタマーケアまたは組織のアカウントマネージャーにお問い合わせください。 変更をリクエストする場合は、次の情報が必要です。
+一意の値のしきい値は、デフォルトで 50 万件および 100 万件です。このしきい値は、変数単位で変更できます。この変更をリクエストするには、AdobeカスタマーケアまたはAdobeアカウントチームにお問い合わせください。 変更をリクエストする場合は、次の情報が必要です。
 
 * レポートスイート ID
 * しきい値を上げたい変数

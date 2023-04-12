@@ -3,40 +3,42 @@ title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 86%
 
 ---
 
 # Adobe プラグイン：addProductEvent
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `addProductEvent` プラグインは、数値イベントまたは通貨イベントを [`products`](../page-vars/products.md) 変数に追加します。製品文字列の形式を気にせずに数値イベントや通貨イベントを `products` 変数に追加する場合は、このプラグインを使用することをお勧めします。このプラグインは、`products` 変数で数値イベントや通貨イベントを使用しない場合は不要です。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+このプラグインは、Web SDK 内での使用はまだサポートされていません。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize addProductEvent
-1. Save and publish the changes to the rule.-->
+## Adobe Analytics拡張機能を使用したプラグインのインストール
+
+Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
+1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize addProductEvent
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
+Common Analytics Plugins プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。

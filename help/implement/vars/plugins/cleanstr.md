@@ -3,40 +3,42 @@ title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 83%
+source-wordcount: '436'
+ht-degree: 68%
 
 ---
 
 # アドビプラグイン：cleanStr
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
-`cleanStr` プラグインは、HTML タグ文字、余分なホワイトスペース、タブ、改行／キャリッジリターンなど、不要な文字をすべて文字列から削除または置換します。また、左右の一重引用符（`‘` および `’`）を直線の一重引用符（`'`）に置き換えます。Adobeは、変数の値から不要な文字を削除し、Adobe Experience Platformデータ収集の「テキストをクリーン」機能が実装のニーズを満たさない場合に、このプラグインを使用することをお勧めします。 このプラグインは、収集したデータに不要な文字が含まれていない場合や、Adobe Experience Platform Data Collection の「テキストをクリーン」機能で十分な場合は不要です。
+`cleanStr` プラグインは、HTML タグ文字、余分なホワイトスペース、タブ、改行／キャリッジリターンなど、不要な文字をすべて文字列から削除または置換します。また、左右の一重引用符を直線の一重引用符 (`'`) をクリックします。 Adobeは、変数の値から不要な文字を削除し、Adobe Experience Platformデータ収集の「テキストをクリーン」機能が実装のニーズを満たさない場合に、このプラグインを使用することをお勧めします。 このプラグインは、収集したデータに不要な文字が含まれていない場合や、Adobe Experience Platform Data Collection の「テキストをクリーン」機能で十分な場合は不要です。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+このプラグインは、Web SDK 内での使用はまだサポートされていません。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize cleanStr
-1. Save and publish the changes to the rule.-->
+## Adobe Analytics拡張機能を使用したプラグインのインストール
+
+Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
+1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize cleanStr
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
+Common Analytics Plugins プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。

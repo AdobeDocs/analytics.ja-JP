@@ -3,40 +3,42 @@ title: inList
 description: 値が別の文字区切り値に含まれているかどうかを確認します。
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 87%
 
 ---
 
 # アドビプラグイン：inList
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `inList` プラグインを使用すると、区切り文字列または JavaScript 配列オブジェクト内に値が既に存在するかどうかを確認できます。その他のプラグインの中には、`inList`プラグインの動作が依存するものもあります。このプラグインは、部分文字列と一致しない JavaScript `indexOf()` メソッドよりも明確な利点を提供します。例えば、このプラグインを使用して `"event2"` のチェックをおこなった場合、`"event25"` を含む文字列とは一致しません。区切り文字付きの文字列や配列の値を確認する必要がない場合や、独自の `indexOf()` ロジックを使用する場合は、このプラグインは不要です。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+このプラグインは、Web SDK 内での使用はまだサポートされていません。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize inList
-1. Save and publish the changes to the rule.-->
+## Adobe Analytics拡張機能を使用したプラグインのインストール
+
+Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
+1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize inList
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
+Common Analytics Plugins プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。

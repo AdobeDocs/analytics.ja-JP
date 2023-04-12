@@ -6,9 +6,9 @@ uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 100%
 {{ra-eol}}
 
 Adobe Analytics 用にデータを収集する方法を説明します。
-
-アドビでトラッキングする各ページには、アドビ認定の JavaScript コード（タグ）を埋め込みます。このコードを入手するには、担当のアカウントマネージャーにお問い合わせください。
 
 大まかなデータ収集プロセスフローは次のようになります。
 

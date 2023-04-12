@@ -2,9 +2,9 @@
 title: 分類セットの設定
 description: 分類セットを作成または編集します。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 分類セットの設定
 
 分類セットの設定、データのアップロード、データのダウンロードを行います。
-
->[!NOTE]
->
->この機能は、レポートスイートを新しい分類アーキテクチャに移行したお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／目的の分類セット名をクリックします。
 

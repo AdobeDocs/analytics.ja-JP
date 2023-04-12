@@ -3,18 +3,16 @@ title: rfl
 description: 区切り文字で区切られた文字列から特定の値を削除します。
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 93%
 
 ---
 
 # アドビプラグイン：rfl（Remove From List）
 
->[!IMPORTANT]
->
-> このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 `rfl` プラグインを使用すると、区切られた文字列（例：[`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) など）から値を「安全に」削除することができます。このプラグインは、区切り文字を気にせずに、区切り文字列から特定の値を削除する場合に便利です。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
@@ -23,25 +21,29 @@ ht-degree: 100%
 * 削除する値が存在する場合は、削除する値を除くすべての値を変数に保持します。
 * 削除する値が存在しない場合は、元の文字列をそのまま保持します。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+このプラグインは、Web SDK 内での使用はまだサポートされていません。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize RFP (Remove From List)
-1. Save and publish the changes to the rule.-->
+## Adobe Analytics拡張機能を使用したプラグインのインストール
+
+Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
+1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize RFP（Remove From List）
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
-プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
+Common Analytics Plugins プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。

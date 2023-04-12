@@ -2,9 +2,9 @@
 title: 分類セットを作成
 description: 分類セットを作成する際に使用できるフィールドと説明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 分類セットを作成
 
 分類セットマネージャーを使用して、分類セットを作成できます。
-
->[!NOTE]
->
->この機能は、レポートスイートを新しい分類アーキテクチャに移行したお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／**[!UICONTROL 追加]**
 

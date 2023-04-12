@@ -3,10 +3,10 @@ description: このドキュメントでは、CCPA におけるデータ主体�
 title: Adobe Analytics と CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 * ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)についてお尋ねください。
 * CCPA の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
-   データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。
+   データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間を設定するには、担当のAdobeアカウントチームにお問い合わせください。
 
 * 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
 * ヒットレベルで同意ステータスを追跡するには、[同意管理変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)の実装を検討してください。

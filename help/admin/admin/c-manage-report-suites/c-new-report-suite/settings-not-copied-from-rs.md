@@ -3,10 +3,10 @@ description: 既存のレポートスイートから設定をコピーした場�
 title: ソースレポートスイートからコピーされない設定
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA ルール </p> </td> 
-   <td colname="col2"> <p>カスタマーサクセスマネージャーに問い合わせて、エンジニアリングサービスと連絡を取ってください。 </p> </td> 
+   <td colname="col2"> <p>エンジニアリングサービスに連絡するには、Adobeのアカウントチームにお問い合わせください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

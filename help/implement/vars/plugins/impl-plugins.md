@@ -3,10 +3,10 @@ title: プラグインの概要
 description: サイトにコードを貼り付けて、新しい機能を導入します。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 プラグインは、Analytics の実装に役立つ高度な機能を実行するコードのスニペットです。これらのプラグインは、JavaScript ファイルの機能を拡張して、基本的な実装では利用できなかった機能を提供します。アドビは他にも多数のプラグインを高度なソリューションの一部として提供しています。
 
->[!IMPORTANT]
->
-> プラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含む、プラグインのサポートをおこないません。プラグインに関するヘルプが必要な場合は、組織のアカウントマネージャーにお問い合わせください。担当コンサルタントとのミーティングを手配してもらってください。
+{{plug-in}}
 
 アドビでは、特定のプラグインをインストールする方法をいくつか提供しています。
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1.  カスタムコードエディターを使用したプラグインコードの貼り付け。
-1. `AppMeasurement.js` ファイルへのプラグインコードの貼り付け。
+* Adobe Analytics拡張機能を使用した「Common Analytics Plugins」拡張機能の使用
+*  カスタムコードエディターを使用したプラグインコードの貼り付け。
+* `AppMeasurement.js` ファイルへのプラグインコードの貼り付け。
 
 各組織には異なる実装ニーズがあるので、実装に組み込む方法を決定できます。サイトにコードを含める際は、次の条件を満たしていることを確認してください。
 
