@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6d9b568a0ce9d0e8b25d04e934052d2f8012da8c
+source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | ----------- | ---------- | ------- | ---- |
 | **Analytics ソースコネクタストリーミングの行／列フィルタリング** | Adobe Experience Platform の Analytics ソースコネクタを使用すると、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)におけるプロファイルへの入力に使用される Analytics データをフィルタリングできるようになりました。行レベルのフィルタリングは、プロファイルに関連付けられたイベントの数を減らすのに役立ちます。列レベルのフィルタリングは、イベント自体の豊富さを軽減するのに役立つので、プロファイル使用権限の行使を最適化できます。このフィルタリングは、リアルタイム顧客プロファイルと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)に送信されるデータにのみ適用されます。**フィルタリングは、Customer Journey Analytics などのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja#filtering-for-profile) | 該当なし | 2023年3月29日（PT） |
 | **Web SDK を使用したActivity Mapの部分的なサポート** | Web SDK バージョン2.15.0以降、リンクトラッキングが有効な場合に、Activity Mapデータの生成を開始しました。 これにより、Web SDK および Analytics で設定された Web SDK とActivity Mapでリンクトラッキングが有効になっている場合に、Web SDK ユーザーがActivity Mapレポートを取得できます。<p>現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングがリンクイベントを送信しています。 これは、AppMeasurement の動作方法とは異なり、追加の課金対象ヒットがAdobeに送信される可能性があります。 詳細情報 [ここ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja) および [ここ](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 該当なし | 2023年3月31日（PT） |
-| **Experience Edge の IP 難読化** | Experience Edge は、Adobe Experience Platformに直接送信されるデータの IP 難読化をサポートします。 これにより、CJA や他の Platform ソリューションで使用するために Platform に直接データを送信するお客様にメリットがあります。 IP の不明化は、データストリームレベルで設定されます。 最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**注意**:難読化は、Adobe Analyticsに送信されるデータには適用されません。 Analytics は引き続き完全な IP を取得します。 IP 処理は、引き続き Analytics で個別におこなわれます。 今後、Analytics データは Edge で不明化される予定です。 | 該当なし | AEP リリース（2023 年 4 月 27 日） |
+| **Experience Edge の IP 難読化** | Experience Edge は、Adobe Experience Platformに直接送信されるデータの IP 難読化をサポートします。 これにより、CJA や他の Platform ソリューションで使用するために Platform に直接データを送信するお客様にメリットがあります。 IP の不明化は、データストリームレベルで設定します。 最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**注意**:難読化は、Adobe Analyticsに送信されるデータには適用されません。 Analytics は引き続き完全な IP を取得します。 IP 処理は、引き続き Analytics で個別におこなわれます。 今後、Analytics データは Edge で不明化される予定です。 | 該当なし | AEP リリース（2023 年 4 月 27 日） |
 | **Analysis Workspace でのデータ要素** | データ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネント（ディメンション、指標）を追跡、管理、そしてよりよく理解するのに役立ちます。[詳細情報](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023年3月15日（PT） | 2023年3月29日（PT） |
 | **プロジェクトのリンク共有（ログインは不要）** - プライベートベータ版へのアクセスのみ | <p>Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 プロジェクトのリンクは、組織外のユーザーや、組織内で Adobe Analytics 用にプロビジョニングされていないユーザーと共有できます。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>プライベートベータ版に参加するには、アドビアカウントチームにお問い合わせください。</p> | 2023 年 4 月 27 日 | 2023年6月 |
 
