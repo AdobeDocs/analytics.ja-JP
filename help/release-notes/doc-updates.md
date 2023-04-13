@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '3867'
-ht-degree: 95%
+source-wordcount: '3896'
+ht-degree: 98%
 
 ---
 
@@ -25,14 +25,16 @@ ht-degree: 95%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023年4月** |  |
+| Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | **2023年3月** |  |
 | Activity Mapの Web SDK サポート | 更新済み [Adobe Analyticsの実装](/help/implement/home.md) および [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
-| トラフィック変数 (prop) の概要 | 記事の内容を明確にし、改善するための節と手順を追加しました。 「トラフィック変数レポートを有効にする」という記事からコンテンツを結合し、その記事を削除しました。 詳しくは、 [トラフィック変数 (prop) の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
-| 内部 URL フィルター | 記事の内容を明確にし、改善するための節と手順を追加しました。 詳しくは、 [内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
-| モバイルスコアカードでのデータストーリーの作成 | A [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) は、中央のテーマや指標に基づいて構築された、サポートされるデータポイント、ビジネスコンテキスト、関連指標の集まりです。 |
+| トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
+| 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
+| モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
-| データ要素 | <p>データディクショナリの新しいドキュメント ( [概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編集中](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、および [監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) データディクショナリ。</p><p>の情報 [コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md) は、データディクショナリ機能を考慮して更新されました。</p> |
-| プロジェクトのリンク共有（ログインは不要） | <p>既存のドキュメントを更新して、Analysis Workspaceへのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明しました。</p> <p>ユーザードキュメントの更新内容 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md) および [共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理者向けオプションが [環境設定](/help/analyze/analysis-workspace/user-preferences.md).</p> |
+| データ要素 | <p>データ要素の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ要素に関する新しいドキュメントを追加しました。</p><p>[コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を、データ要素機能を説明するために更新しました。</p> |
+| プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
 | **2023年2月** |  |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |

@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 77%
+source-wordcount: '1568'
+ht-degree: 75%
 
 ---
 
@@ -25,6 +25,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **Experience Edge の IP 難読化** | Experience Edge は、Adobe Experience Platformに直接送信されるデータの IP 難読化をサポートします。 これにより、CJA や他の Platform ソリューションで使用するために Platform に直接データを送信するお客様にメリットがあります。 IP の不明化は、データストリームレベルで設定します。 最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**注意**:難読化は、Adobe Analyticsに送信されるデータには適用されません。 Analytics は引き続き完全な IP を取得します。 IP 処理は、引き続き Analytics で個別におこなわれます。 今後、Analytics データは Edge で不明化される予定です。 | 該当なし | AEP リリース（2023 年 4 月 27 日） |
 | **Analysis Workspace でのデータ要素** | データ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネント（ディメンション、指標）を追跡、管理、そしてよりよく理解するのに役立ちます。[詳細情報](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023年3月15日（PT） | 2023年3月29日（PT） |
 | **プロジェクトのリンク共有（ログインは不要）** - プライベートベータ版へのアクセスのみ | <p>Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 プロジェクトのリンクは、組織外のユーザーや、組織内で Adobe Analytics 用にプロビジョニングされていないユーザーと共有できます。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>プライベートベータ版に参加するには、アドビアカウントチームにお問い合わせください。</p> | 2023 年 4 月 27 日 | 2023年6月 |
+| Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 該当なし | 2023 年 4 月 11 日 |
 
 {style="table-layout:auto"}
 
