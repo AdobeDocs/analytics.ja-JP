@@ -4,10 +4,10 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -70,9 +70,9 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 セグメント以外のコンポーネントをドロップゾーンに直接ドラッグしてアドホックセグメントを作成し、セグメントビルダーへの移行に要する時間と手間を節約することもできます。 この方法で作成されたセグメントは、自動的にヒットレベルのセグメントとして定義されます。 これらの定義は、セグメントの隣の情報アイコン (I)、鉛筆の形をした編集アイコンの順にクリックし、セグメントビルダーで編集することで変更できます。
 
-アドホックセグメントはプロジェクトのローカルなセグメントで、公開しない限り左側のパネルには表示されません。
+アドホックセグメントはクイックセグメントの一種で、プロジェクトのローカルセグメントです。 公開しない限り、左側のパネルに表示されません。
 
-![](/help/admin/admin/assets/filter.png)
+詳しくは、 [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### ドロップダウンフィルター {#dropdown-filter}
 

@@ -4,10 +4,10 @@ title: セグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,9 @@ Workspace では、どのくらい複雑なセグメントが必要か、この�
 | セグメントタイプ | 作成場所 | 適用対象となる場所 | 使用するタイミング |
 | --- | --- | --- | --- |
 | コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
-| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja#what-are-project-only-segments)ですが、セグメントリストに保存して追加できます。 | 1 つ以上のルールを柔軟に追加／編集 |
-| アドホックセグメント： |  |  |  |
-| - アドホック Workspace プロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ＆ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja#what-are-project-only-segments)ですが、セグメントリストに保存して追加できます。 | 単一ルールセグメントの場合 |
-| - 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
-| - VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | VRS 定義内でのセグメントの適用 |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | アドホックの単一ルールセグメント（ドラッグ&amp;ドロップを使用）または複数のルールの追加/編集（セグメントアイコンをクリック）に使用できます |
+| 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
+| VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | VRS 定義内でのセグメントの適用 |
 
 ## ビデオ
 
@@ -44,7 +42,6 @@ Analysis Workspace でのセグメントの使用：
 Analysis Workspace では、様々なタイプのセグメントを作成できます。
 
 * [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [アドホックセグメント](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * セグメントビルダーで作成し、セグメントライブラリに追加される、通常のコンポーネントリストセグメント（以下を参照）
 
 ### コンポーネントリストセグメントの作成 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}

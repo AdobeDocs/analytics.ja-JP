@@ -4,10 +4,10 @@ title: Analysis Workspace の既知の制限
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 ## コンポーネント／セグメント
 
 * 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL ユニーク訪問者]など）。
-* [パネルのドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)で作成されたアドホックセグメントは、公開されない限り、Workspace の左パネルまたはセグメントコンポーネントマネージャーに表示されません。これは、セグメントを編集し、「**[!UICONTROL このセグメントを公開する]**」を選択することで実行できます。
+* で作成されたアドホックセグメント [パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) はクイックフィルターの一種です。 これらは、公開されない限り、Workspace またはセグメントコンポーネントマネージャの左側のレールに表示されません。 詳しくは、 [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## コンポーネント／計算指標
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,6 @@ ht-degree: 0%
       + セグメント {#segments}
          + [セグメントの作成](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [クイックセグメント](analysis-workspace/components/segments/quick-segments.md)
-         + [アドホックセグメント](analysis-workspace/components/segments/ad-hoc-segments.md)
       + カレンダーと日付範囲 {#calendar-date-ranges}
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

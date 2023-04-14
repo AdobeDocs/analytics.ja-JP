@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3929'
 ht-degree: 98%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2023年4月** |  |
 | Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。 アドホックセグメントを作成する手順と、 [クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | **2023年3月** |  |
 | Activity Mapの Web SDK サポート | 更新済み [Adobe Analyticsの実装](/help/implement/home.md) および [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
