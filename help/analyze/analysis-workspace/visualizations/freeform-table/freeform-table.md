@@ -4,9 +4,9 @@ description: フリーフォームテーブルは、Workspace のデータ分析
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 Analysis Workspaceでは、フリーフォームテーブルはインタラクティブなデータ分析の基盤となっています。[コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja)の組み合わせを行と列にドラッグ＆ドロップして、分析用のカスタムテーブルを作成できます。各コンポーネントが削除されると、テーブルは直ちに更新されるので、分析や掘り下げを迅速におこなうことができます。
 
-例として、空のフリーフォームテーブルから始めます。
+## 単純なフリーフォームテーブルの作成
+
+まず、空のフリーフォームテーブルを使用します。
 
 ![空のフリーフォームテーブル](assets/freeform-table-1.png)
 
-次の場合、 **[!UICONTROL **&#x200B;訪問回数&#x200B;**]** 指標 **[!UICONTROL **&#x200B;ここに指標（または他のコンポーネント）をドロップ&#x200B;**]**&#x200B;を指定した場合、フリーフォームテーブルは、選択した期間の 1 日あたりの訪問数を自動的に入力します。
+次の場合、 **[!UICONTROL **&#x200B;訪問回数&#x200B;**]** 指標 **[!UICONTROL **&#x200B;ここに指標（または他のコンポーネント）をドロップ&#x200B;**]**&#x200B;を指定した場合、フリーフォームテーブルは、選択したカレンダー期間の 1 日あたりの訪問数を自動的に入力します。
 
 ![訪問回数フリーフォームテーブル](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Analysis Workspaceでは、フリーフォームテーブルはインタラク�
 
 ![ページフリーフォームテーブル別訪問回数](assets/freeform-table-3.png)
 
-その後、例えば **[!UICONTROL ** category:5 **]** ページをドロップして **[!UICONTROL **&#x200B;マーケティングチャネル&#x200B;**]** ディメンション **[!UICONTROL ** category:5 **]** 行
+次に、例えば、 **[!UICONTROL ** category:5 **]** ページをドロップして **[!UICONTROL **&#x200B;マーケティングチャネル&#x200B;**]** ディメンション **[!UICONTROL ** category:5 **]** 行
 
 ![ページフリーフォームテーブルによる訪問の分類](assets/freeform-table-4.png)
 
