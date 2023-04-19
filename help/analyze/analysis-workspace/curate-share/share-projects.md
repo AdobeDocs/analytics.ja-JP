@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -139,6 +139,10 @@ Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Works
    <!-- Add screen shot of new modal -->
 
 1. を有効にします。 **[!UICONTROL リンクはアクティブです]** オプションを選択します（まだ有効になっていない場合）。
+
+   このオプションを選択すると、誰とでも共有できるプロジェクトへのリンクが作成されます。 このオプションを無効にすると、いつでもプロジェクトへのアクセスを無効にできます。
+
+   プロジェクトの所有者もこのリンクの所有者です。 リンクの所有権は、プロジェクトの所有権が移行された場合にのみ、別のユーザーに移行できます。詳しくは、 [ユーザーアセットの転送またはアカウント有効期限の設定](/help/admin/admin/user-management2/users-assets.md) 」を参照してください。
 
 1. 次のセキュリティオプションを有効にするかどうかを選択します（このオプションは Analytics 管理者が制御できます）。
 
