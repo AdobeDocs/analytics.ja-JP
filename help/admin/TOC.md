@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
+source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 97%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 97%
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
    + ユーザーと製品の管理（レガシー） {#user-product-management}
       + [ユーザーと製品の管理(レガシー)](admin/user-management2/user-management.md)
+      + [ユーザーアセットの転送またはアカウント有効期限の設定](admin/user-management2/users-assets.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
