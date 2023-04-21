@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2023年4月）
 
-**最終更新日**：2023年4月12日（PT）
+**最終更新日**：2023年4月21日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -20,6 +20,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **非実稼動用サンドボックスのバックフィル** | 非実稼働用サンドボックスで Analytics ソースコネクタのデータフローを作成する場合、非実稼働用サンドボックスでのバックフィルは 3 か月に制限されます。 実稼働用サンドボックスの場合、13 か月間の状態が保たれます。 | 該当なし | 2023年4月26日（PT） |
 | **Analytics ソースコネクタストリーミングの行／列フィルタリング** | Adobe Experience Platform の Analytics ソースコネクタを使用すると、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)におけるプロファイルへの入力に使用される Analytics データをフィルタリングできるようになりました。行レベルのフィルタリングは、プロファイルに関連付けられたイベントの数を減らすのに役立ちます。列レベルのフィルタリングは、イベント自体の豊富さを軽減するのに役立つので、プロファイル使用権限の行使を最適化できます。このフィルタリングは、リアルタイム顧客プロファイルと [ID サービス](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja)に送信されるデータにのみ適用されます。**フィルタリングは、Customer Journey Analytics などのアプリケーションで使用するためにデータレイクに送信されるデータには影響しません**。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ja#filtering-for-profile) | 該当なし | 2023年3月29日（PT） |
 | **Web SDK を使用した Activity Map の部分的なサポート** | Web SDK バージョン 2.15.0 以降、リンクトラッキングが有効な場合に、Activity Map データの生成を開始しました。これにより、Web SDK でリンクトラッキングが有効となっており、Analytics で Activity Map が設定されている Web SDK ユーザーは、Activity Map レポートを取得できます。<p>現在、Web SDK でリンクトラッキングを有効にすると、顧客がページ間を移動した際にリンクイベントが送信されます。AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja)と[こちら](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を参照してください | 該当なし | 2023年3月31日（PT） |
 | **Experience Edge の IP 不明化** | Experience Edge は、Adobe Experience Platform に直接送信されるデータの IP の不明化をサポートします。これは、CJA やその他のプラットフォームソリューションで使用するためにデータを Platform に直接送信する顧客にメリットがあります。IP の不明化は、データストリームレベルで設定します。最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**メモ**：不明化は、Adobe Analytics に送信されるデータには適用されません。Analytics は、引き続き完全な IP を取得します。IP 処理は、引き続き Analytics で個別に行われます。今後、Analytics データは Edge で不明化できるようにする予定です。 | 該当なし | AEP リリース（2023年4月26日（PT）） |
