@@ -29,7 +29,7 @@ ht-degree: 98%
 | Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。 アドホックセグメントを作成する手順と、 [クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | **2023年3月** |  |
-| Activity Mapの Web SDK サポート | 更新済み [Adobe Analyticsの実装](/help/implement/home.md) および [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
+| Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
@@ -177,12 +177,12 @@ ht-degree: 98%
 | **2020年3月** |  |
 | 2020年3月12日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020年3月12日 | CDA のステッチ待機時間のアップデート。 |
-| 2020年3月12日 | ワークスペースでの複数のレポートスイートのサポート.複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja) |
+| 2020年3月12日 | ワークスペースでの複数のレポートスイートのサポート. 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja) |
 | 2020年3月12日 | ワークスペースのテンプレートトレーニングチュートリアル。この新しい標準テンプレートでは、ワークスペースで最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして利用可能であり、リストに他のプロジェクトがない新規ユーザーのために現在用意されているサンプルプロジェクトの代わりになるものです。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 | **2020年2月** |  |
 | 2020年2月27日 | [Adobe Analytics Labs](/help/analyze/labs.md) に関するドキュメントを追加しました。 |
 | 2020年2月25日 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 変数を追加しました。 |
-| 2020年2月20日 | クロスデバイス間分析を使用する組織向けの新しいワークスペーステンプレート.このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、 [クロスデバイス分析の設定](/help/components/cda/setup.md) を参照してください。 |
+| 2020年2月20日 | クロスデバイス間分析を使用する組織向けの新しいワークスペーステンプレート. このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、 [クロスデバイス分析の設定](/help/components/cda/setup.md) を参照してください。 |
 | 2020年2月20日 | ワークスペースの新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja) |
 | 2020年2月20日 | ワークスペースの機能強化： <ul><li>パネルまたはビジュアライゼーションを ワークスペースにドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | 2020年2月20日 | ワークスペースデバッガーがヘルプメニューに追加され、ワークスペースリクエストのデバッグがよりシームレスに有効化できるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -234,5 +234,5 @@ ht-degree: 98%
 | 2019年2月7日 | [一般アカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
 | 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
-| 2019年1月17日 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
-| 2019年1月17日 | [Attribution IQ における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md).Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
+| 2019年1月17日 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
+| 2019年1月17日 | [Attribution IQ における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md). Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
