@@ -4,7 +4,7 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 リリース日：**2022年9月23日（PT）**
 
-* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。タグを使用してクライアントヒントを設定するか、「collectHighEntropyUserAgentHints」フラグを使用することができます。高エントロピーヒントの収集は、デフォルトではオフになっています。User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
+* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。タグを使用してクライアントヒントを設定するか、「collectHighEntropyUserAgentHints」フラグを使用できます。高エントロピーヒントの収集は、デフォルトではオフになっています。User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
 
 ## バージョン 2.22.4
 
