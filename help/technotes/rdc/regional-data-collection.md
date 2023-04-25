@@ -3,16 +3,16 @@ title: 地域データ収集
 description: 地域データ収集に関する情報
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
+source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 38%
+source-wordcount: '472'
+ht-degree: 36%
 
 ---
 
 # 地域データ収集
 
-Adobe Experience Cloudでは地域データ収集 (RDC) を使用するので、訪問者とAdobeの間のやり取りは、できるだけ訪問者に近い場所でおこなわれます。 データ収集センター (DCC) で局所的にデータが収集されると、セキュア接続を介してデータ処理センター (DPC) に転送されます。 処理の後、データはAdobe Experience Cloudの製品で使用できます。
+Adobe Experience Cloudでは地域データ収集 (RDC) を使用するので、訪問者とAdobeの間のやり取りは、できるだけ訪問者に近い場所でおこなわれます。 データ収集センター (DCC) で局所的にデータが収集されると、セキュア接続を介してデータ処理センター (DPC) に転送されます。 処理の後、データはAdobe Experience Cloudの製品で使用できます。 RDC の種類を変更する場合は、カスタマーケアにお問い合わせください。Adobe
 
 地域のデータ収集プロセスでは、次の手順を実行します。
 
@@ -33,13 +33,13 @@ RDC には現在、次の場所が含まれています（変更される場合�
 | --- | --- |
 | デフォルト | オレゴン州、バージニア州、アイルランド、パリ、ムンバイ、シンガポール、東京、シドニー, 中国* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 * 中国 RDC には、中国 アドオンパッケージが必要です。詳しくは、 [中国のパフォーマンス最適化](#china-performance-optimization) 下
 
 >[!NOTE]
 >
->Analytics のイメージリクエストが `adobedc`、`2o7.net`、`omtrdc.net` のいずれかのエンドポイントに送信される場合、サードパーティによるデータ収集が行われていることになります。リクエストの URL 内にいずれかのエンドポイントが表示されている場合はこれを判断できます。
+>Analytics のイメージリクエストが `adobedc.net`、`2o7.net`、`omtrdc.net` のいずれかのエンドポイントに送信される場合、サードパーティによるデータ収集が行われていることになります。リクエストの URL 内にいずれかのエンドポイントが表示されている場合はこれを判断できます。
 
 ## ファーストパーティデータ収集
 
@@ -52,7 +52,7 @@ RDC には現在、次の場所が含まれています（変更される場合�
 | アジア太平洋地域のみ | ムンバイ、シンガポール、東京、シドニー |
 | 中国のみ* | 北京 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *中国のみおよびグローバル + 中国の RDC タイプには、中国のアドオンパッケージが必要です。Global + China は、中国内からのデータをAdobeの中国 RDC にルーティングし、中国外からのデータを中国外の最も近い RDC にルーティングします。 詳しくは、 [中国のパフォーマンス最適化](#china-performance-optimization) 下
 
