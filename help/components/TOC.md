@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
    + [ディメンションの互換性](dimensions/compatibility.md)
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
    + [午前／午後](dimensions/am-pm.md)
+   + [ボット名](dimensions/bot-name.md)
    + [ブラウザーの高さ](dimensions/browser-height.md)
    + [ブラウザータイプ](dimensions/browser-type.md)
    + [ブラウザーの幅](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 95%
    + [平均訪問別ページビュー数](metrics/average-page-views-per-visit.md)
    + [セッションの平均長さ](metrics/average-session-length.md)
    + [サイトでの平均時間](metrics/average-time-on-site.md)
+   + [ボットの発生件数](metrics/bot-occurrences.md)
+   + [ボットページビュー数](metrics/bot-page-views.md)
    + [バウンス率](metrics/bounce-rate.md)
    + [バウンス](metrics/bounces.md)
    + [買い物かごへの追加](metrics/cart-additions.md)
