@@ -5,10 +5,10 @@ title: ビジュアライゼーションの概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -37,11 +37,11 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | [行](/help/analyze/analysis-workspace/visualizations/line.md) | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
 | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション項目と最大 3 つの指標の関係を表示します。 |
-| [概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 選択したセルを 1 つの大きな数値として表示します。 |
+| [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 選択したセルを 1 つの大きな数値として表示します。 |
 | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 選択したセル間の変化を 1 つの大きい数値/パーセントで表示します。 |
 | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | ユーザー定義のテキストをワークスペースに追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
 | [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md) | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
-| [ベン](/help/analyze/analysis-workspace/visualizations/venn.md) | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
+| [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md) | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
 
 ## ビジュアライゼーション設定のカスタマイズ
 
@@ -68,7 +68,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | 設定 | 説明 |
 | --- | --- |
 | ビジュアライゼーションのタイプ | データを表現するために使用するビジュアルのタイプを変更します。 |
-| 精度 | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）を変更できます。この変更は、データソーステーブルにも適用されます。 |
+| 精度 | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）をを選択します。 この変更は、データソーステーブルにも適用されます。 |
 | 割合（％） | 値を割合で表示します。 |
 | 100% の積み重ね | 積み上げ面、積み上げ棒、または積み上げ横棒のビジュアライゼーションのこの設定は、グラフを「100 % の積み上げ」のビジュアライゼーションに変更します。例：![100 % の積み上げ](assets/stacked_100_percent.png) |
 | 凡例を表示 | 数の概要／変更の概要ビジュアライゼーションの詳細な凡例テキストを非表示にします。 |

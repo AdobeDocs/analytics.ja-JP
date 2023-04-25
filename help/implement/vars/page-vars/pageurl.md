@@ -3,10 +3,10 @@ title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 81%
+source-wordcount: '313'
+ht-degree: 80%
 
 ---
 
@@ -26,11 +26,11 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 Adobe Experience Platformデータ収集の Analytics 拡張機能により、ページ URL が自動的に入力されます。 ただし、Analytics 拡張機能の設定時（グローバル変数）またはルールで、ページ URL の上書きを設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「**[!UICONTROL ルール]**」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「**[!UICONTROL アクション]**」で、既存の「**[!UICONTROL Adobe Analytics - 変数を設定]**」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「**[!UICONTROL 拡張機能]**」ドロップダウンを「Adobe Analytics」に設定し、「**[!UICONTROL アクションタイプ]**」を「**[!UICONTROL 変数を設定]**」に設定します。
+5. を **[!UICONTROL 拡張]** Adobe Analyticsのドロップダウンリスト **[!UICONTROL アクションタイプ]** から **[!UICONTROL 変数を設定]**.
 6. **[!UICONTROL ページ URL]** セクションを見つけます。
 
 ページ URL は任意の文字列値に設定できます。

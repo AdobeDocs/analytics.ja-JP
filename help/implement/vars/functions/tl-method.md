@@ -3,10 +3,10 @@ title: tl
 description: リンクトラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 79%
+source-wordcount: '703'
+ht-degree: 80%
 
 ---
 
@@ -42,11 +42,11 @@ alloy("sendEvent", {
 
 Adobe Analytics拡張機能には、リンクトラッキングコールを設定するための専用の場所があります。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics 拡張機能では、オプションの引数を設定できません。
@@ -106,7 +106,7 @@ s.tl(true,"e","Example exit link");
 s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 変数の上書き（オプション）
+### 変数のオーバーライド（任意）
 
 1 回の呼び出しに対する変数の値を変更できます。詳しくは、[変数のオーバーライド](../../js/overrides.md)を参照してください。
 
@@ -117,7 +117,7 @@ y.linkTrackVars = "eVar1";
 s.tl(true,"o","Example custom link",y);
 ```
 
-## 例と使用例
+## サンプルと使用例
 
 HTML リンク内で基本的なリンクトラッキングコールを直接送信します。
 

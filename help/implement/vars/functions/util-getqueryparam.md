@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 81%
+source-wordcount: '270'
+ht-degree: 80%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 81%
 
 データ要素に値を設定することで、クエリー文字列パラメーターデータを取得できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. 「[!UICONTROL 拡張機能]」ドロップダウンを「**[!UICONTROL コア]**」に設定し、「[!UICONTROL データ要素タイプ]」を「**[!UICONTROL クエリー文字列パラメーター]**」に設定します。
+4. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL コア]**、および [!UICONTROL データ要素タイプ] から **[!UICONTROL クエリー文字列パラメーター]**.
 5. テキストフィールドにクエリー文字列パラメーターを入力します。
 
 クエリー文字列パラメーター値は、データ要素に格納されます。その後、ルール内のデータ要素を参照して、目的の変数を割り当てることができます。

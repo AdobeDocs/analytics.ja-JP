@@ -1,9 +1,10 @@
 ---
 title: データソースの概要
 description: 開発レポートスイートにサンプルデータをアップロードします。
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -18,16 +19,16 @@ ht-degree: 1%
 
 1. を使用してAdobe Analyticsにログインします。 [https://experience.adobe.com](https://experience.adobe.com).
 1. に移動します。 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
-1. 右上のドロップダウンを使用して開発レポートスイートを選択します。
+1. 右上のドロップダウンリストを使用して開発レポートスイートを選択します。
 1. 次をクリック： **[!UICONTROL 作成]** 」ボタンをクリックします。
 1. の下 [!UICONTROL カテゴリを選択]を選択します。[!UICONTROL 汎用]「と、 [!UICONTROL タイプを選択]を選択します。[!UICONTROL 汎用データソース（概要データのみ）]&quot;.
 1. 「**[!UICONTROL アクティブにする]**」をクリックします。
 ポップアップウィンドウが開き、 [!UICONTROL データソース有効化ウィザード].
    1. 手順 1:データソースに名前を付け、免責事項チェックボックスをクリックします。
    1. 手順 2:この手順は、以前のバージョンのAdobe Analyticsでより多くの役割を果たしました。 チェックボックスをクリックし、その横のテキストフィールドに任意の値を入力します。
-   1. 手順 3:データソーステンプレートファイルに含める指標を選択します。 ドロップダウンから「Event 1」を選択します。
+   1. 手順 3:データソーステンプレートファイルに含める指標を選択します。 ドロップダウンリストから「イベント 1」を選択します。
    1. 手順 4:この手順は、以前のバージョンのAdobe Analyticsでより多くの役割を果たしました。 チェックボックスをクリックし、その横のテキストフィールドに任意の値を入力します。
-   1. 手順 5:データソーステンプレートファイルに含めるディメンションを選択します。 ドロップダウンから「eVar1」を選択します。
+   1. 手順 5:データソーステンプレートファイルに含めるディメンションを選択します。 ドロップダウンリストから「eVar1」を選択します。
    1. 手順 6:概要を確認し、テンプレートファイルに含まれているディメンションと指標を表示します。
    1. 手順 7:次をクリック： **[!UICONTROL ダウンロード]** ボタンをクリックして、データソーステンプレートファイルをダウンロードします。 また、FTP サイトへのログイン資格情報も、近日中に使用されるので、メモします。
 1. これでデータソースが作成されました。次の手順では、処理するデータを指定します。 目的のテキストエディターで、ダウンロードしたファイルを開きます。
@@ -35,8 +36,8 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. 複数行のデータを入力し、各エントリをタブで区切ります。 値の区切りには、スペースやコンマを使用しないでください。
@@ -46,10 +47,10 @@ ht-degree: 1%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. ファイルを保存します。必要に応じて、別のファイル名を指定することもできます。 ファイルを保存したら、テキストエディターを閉じることができます。

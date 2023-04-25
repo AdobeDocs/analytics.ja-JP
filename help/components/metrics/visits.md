@@ -3,10 +3,10 @@ title: 訪問数
 description: 1 回のランディングでの一連のページビュー。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 訪問の定義は、30 分以外の時間に変更できます。
 
-* [仮想レポートスイート](../vrs/vrs-about.md)の場合、「[!UICONTROL 訪問のタイムアウト]」ドロップダウンを使用して訪問のタイムアウトを変更できます。訪問のタイムアウトは任意の妥当な値に変更できます。
+* の場合 [仮想レポートスイート](../vrs/vrs-about.md)に値を指定しない場合、 [!UICONTROL 訪問タイムアウト] 」ドロップダウンリストから選択できます。 訪問のタイムアウトは任意の妥当な値に変更できます。
 * 標準のレポートスイートについては、カスタマーケアに連絡して、特定のレポートスイートの訪問期間を短縮するようリクエストします。標準レポートスイートの訪問の長さは 30 分を超えないので、短縮することしかできません。
 
 ## 日付の境界をまたぐ訪問

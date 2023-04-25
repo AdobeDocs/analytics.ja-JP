@@ -4,10 +4,10 @@ title: Adobe Analytics ダッシュボードエグゼクティブガイド
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
    * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**[!UICONTROL 比較]**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**[!UICONTROL 完了]**」をタップします。「**[!UICONTROL 日付範囲]**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
 
-1. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。アプリの[フィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)は、Analytics Workspace と同様に機能します。
+1. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。 アプリの[フィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)は、Analytics Workspace と同様に機能します。
 
    ![セグメントフィルター](/help/admin/admin/assets/filter.png)
 

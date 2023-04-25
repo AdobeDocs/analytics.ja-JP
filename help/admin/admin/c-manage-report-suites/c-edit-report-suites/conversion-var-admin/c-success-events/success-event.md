@@ -4,9 +4,9 @@ keywords: イベント
 title: 成功イベントの概要
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 2. 上部の 9 グリッドボタンをクリックし、「[!UICONTROL Analytics]」をクリックします。
 3. [!UICONTROL 管理者]／[!UICONTROL レポートスイート] に移動します。
 4. 目的のレポートスイートを選択し、 [!UICONTROL 設定を編集]／[!UICONTROL コンバージョン]／[!UICONTROL 成功イベント] に移動します。
-5. 目的のイベントを見つけ、「[!UICONTROL 個別イベントの記録]」ドロップダウンを「[!UICONTROL 訪問ごとに 1 回記録する]」または「[!UICONTROL イベント ID を使用する]」に変更します。
 
 Web サイトのタイプに応じて、様々な種類の成功イベントがあります。次にいくつか例を示します。
 

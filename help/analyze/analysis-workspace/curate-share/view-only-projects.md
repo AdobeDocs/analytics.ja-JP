@@ -5,10 +5,10 @@ title: 表示専用プロジェクト
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 

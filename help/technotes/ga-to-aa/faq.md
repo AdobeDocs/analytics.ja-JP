@@ -3,10 +3,10 @@ title: Adobe Analytics への移行に関するよくある質問（FAQ）
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ Adobeへの履歴データの移植をご検討の方は、Adobeアカウント�
 
 履歴データの移動には、[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) を使用することをお勧めします。これにより、任意のオムニチャネルデータソースを取り込むことができます。
 
-**多くのレポートでセグメント化ドロップダウンを使用しています。[!UICONTROL Analysis Workspace] でドロップダウンを再度作成する方法を教えてください。**
+**多くのレポートでセグメント化ドロップダウンリストを使用しています。 [!UICONTROL Analysis Workspace] でドロップダウンを再度作成する方法を教えてください。**
 
-[!UICONTROL Analysis Workspace] では、堅牢かつ柔軟なドロップダウンフィルターによるセグメント化ドロップダウンを使用できます。ワークスペースプロジェクト内の場合：
+ドロップダウンフィルターは、 [!UICONTROL Analysis Workspace] を使用すると、セグメント化ドロップダウンリストが表示されます。 ワークスペースプロジェクト内の場合：
 
-1. Ctrl キー（Windows）または Command キー（Mac）を押しながら、ドロップダウンに含めるコンポーネントをクリックします。ドロップダウンフィルターには、セグメントだけでなくコンポーネントも含めることができます。
+1. Ctrl キー (Windows) または Command キー (Mac) を押しながら、ドロップダウンフィルターに含めるコンポーネントをクリックします。 セグメントに限定されるわけではありません。ドロップダウンフィルターには、任意のコンポーネントを含めることができます。
 2. コンポーネントのグループを、「ここにセグメントをドロップ」というラベルの付いたワークスペース領域にドラッグします。移動させる前に、Shift キーを押し続けます。
 
-該当する [!UICONTROL Workspace] プロジェクトへのアクセス権を持つユーザーは、このドロップダウンを使用して、セグメントや他のコンポーネントをプロジェクトに適用できるようになりました。詳しくは、『Adobe Analytics ツールガイド』の「[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)」を参照してください。
+これにアクセスするユーザー [!UICONTROL Workspace] これで、プロジェクトは、このドロップダウンフィルターを使用して、セグメントや他のコンポーネントをプロジェクトに適用できるようになりました。 詳しくは、『Adobe Analytics ツールガイド』の「[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)」を参照してください。
 
 **ディメンション項目をクリックしてドリルダウンを表示しています。Analysis Workspace でこのワークフローを再現する方法を教えてください。**
 

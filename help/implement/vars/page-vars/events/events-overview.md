@@ -3,10 +3,10 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 97%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL イベント]セクションを見つけます。
 
 次の機能が利用できます。
 
-* ドロップダウンで、含めるイベントを選択できます。
+* 含めるイベントを選択できるドロップダウンリスト
 * シリアル化用のオプションのテキストフィールドです。[イベントのシリアル化](event-serialization.md)を参照してください。
-* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンで `event1` を選択し、このフィールドに `10` を含めると、レポートでは `event1` が 10 ずつ増えます。
+* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例： `event1` を選択し、 `10` このフィールドでは `event1` レポートで 10 倍に増やしました。
 * 別のイベントを追加するボタン。単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events

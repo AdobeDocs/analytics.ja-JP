@@ -3,10 +3,10 @@ title: 購入イベント
 description: 購入イベントを使用して、「注文件数」、「数量」および「売上高」指標のデータを収集します。
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 73%
+source-wordcount: '455'
+ht-degree: 75%
 
 ---
 
@@ -28,18 +28,18 @@ ht-degree: 73%
 
 購入イベントは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の XDM フィールドの下：
 
-* 注文は次にマッピングされます： `commerce.purchases.value`.
-* 単位は、すべての `productListItems[].quantity` フィールド。
-* 売上高は、すべての `productListItems[].priceTotal` フィールド。
+* 注文件数は、`commerce.purchases.value` にマッピングされます。
+* 単位は、すべての `productListItems[].quantity` フィールドの合計にマッピングされます。
+* 売上高は、すべての `productListItems[].priceTotal` フィールドの合計にマッピングされます。
 
 ## Adobe Analytics拡張機能を使用した購入イベントの設定
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
-6. [!UICONTROL イベント]セクションを探し、「イベント」ドロップダウンを「[!UICONTROL 購入]」に設定します。
+5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+6. を [!UICONTROL イベント] セクションを選択し、 [!UICONTROL イベント] ドロップダウンリスト [!UICONTROL 購入].
 
 その他の依存変数 ( `products` および `purchaseID` Adobe Experience Platformデータ収集内の Analytics 拡張機能に専用フィールドがない。 これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
 

@@ -4,10 +4,10 @@ title: コンボグラフビジュアライゼーション
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 97%
 
 次の点に注意してください。
 
-* 1 回に複数の比較を追加できます [!UICONTROL コンボグラフ].
+* 複数の比較を 1 つの[!UICONTROL 複合グラフ]に追加できます。
 * 1 つ以上の比較を追加する場合は、[!UICONTROL 時間比較]など、同じタイプの比較にする必要があります。
 * 最大 5 つの比較を追加できます。
 * 1 つの指標に最大 3 つのフィルター（セグメント）を適用できます。
-* 計算指標はコンボグラフではサポートされません。
+* 計算指標は複合グラフではサポートされません。
 
 ## コンボグラフの作成
 
@@ -47,7 +47,7 @@ ht-degree: 97%
    | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。以下のサポートされている関数のリストを参照してください。<p>![](assets/combo-functions.png) |
    | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 | **[!UICONTROL 平均値]** | 指標の算術平均（平均）を返します。 |
 | **[!UICONTROL 列の最小値]** | 指標列の一連のディメンション要素の中の最小値を返します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 売上高指標の累積平均の例を以下に示します。
 
@@ -90,7 +90,7 @@ ht-degree: 97%
 | 設定 | 定義 |
 | --- | --- |
 | **[!UICONTROL ビジュアライゼーションのタイプ]** | 別のビジュアライゼーションタイプに切り替えることができます。 |
-| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）を変更できます。 |
+| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）をを選択します。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 割合 (％)]** | 値を割合で表示します。 |
 | **[!UICONTROL 凡例を表示]** | コンボグラフビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
@@ -103,4 +103,4 @@ ht-degree: 97%
 | **[!UICONTROL Y 軸を表示]** | Y 軸を表示するか、非表示にします。 |
 | **[!UICONTROL Y 軸をゼロに固定]** | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

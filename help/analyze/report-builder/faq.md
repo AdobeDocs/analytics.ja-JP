@@ -4,10 +4,10 @@ description: Report Builder に関するよくある質問です。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Excel の [`TODAY()` 関数](https://support.microsoft.com/ja-jp/office/today-fu
 
 予定レポートは、日付構文を共有していない可能性が高いサーバーでも処理されます。 例えば、`7/1/YYYY`は、国や地域に応じて、7 月 1 日または 1 月 7 日を参照します。 この日に `DATEVALUE()` 関数を使用すると、それを実行するコンピューターによってシリアル値が異なります。
 
-これらの Excel 関数を使用する代わりに、アドビでは Report Builder リクエスト内で日付範囲を使用することを強くお勧めします。 リクエストウィザードの最初のページで、ドロップダウンから「**[!UICONTROL プリセットの日付]**」を選択し、「一般的に使用される日付」で「**[!UICONTROL 今日]**」または別の目的の日付範囲を選択します。 この設定は、サーバーがリクエストを処理する刻間ではなく、実行時のレポートスイートの時刻を使用します。
+これらの Excel 関数を使用する代わりに、アドビでは Report Builder リクエスト内で日付範囲を使用することを強くお勧めします。 リクエストウィザードの最初のページで、「 」を選択します。 **[!UICONTROL 事前設定日]** ドロップダウンで、「一般的に使用される日付」の下で、を選択します。 **[!UICONTROL 今日]** または他の目的の日付範囲。 この設定は、サーバーがリクエストを処理する刻間ではなく、実行時のレポートスイートの時刻を使用します。
 
 ## ワークブックはどのくらい大きく、複雑にすることができますか？
 

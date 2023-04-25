@@ -4,10 +4,10 @@ title: Analysis Workspace のアクセシビリティ
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 99%
 
 ---
 
@@ -54,34 +54,34 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 #### ナビゲーション
 
 | ショートカット | アクション |
-|---|---|
-| Alt + Shift + 1/2/3 | 別のパネルにジャンプする：[!UICONTROL パネル]、[!UICONTROL ビジュアライゼーション]、[!UICONTROL コンポーネント] |
-| Alt + 左向き矢印または右向き矢印 | パネル間の移動 |
-| Alt + M | すべてのパネルを折りたたむ／展開 |
-| Alt + Ctrl + M | アクティブパネルを折りたたみ／展開 |
-| Ctrl + / | 左パネルを検索 |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | 別のパネルにジャンプする：[!UICONTROL パネル]、[!UICONTROL ビジュアライゼーション]、[!UICONTROL コンポーネント] |
+| `[Alt + Left / Right]` | パネル間の移動 |
+| `[Alt + M]` | すべてのパネルを折りたたむ／展開 |
+| `[Alt + Ctrl + M]` | アクティブパネルを折りたたみ／展開 |
+| `[Ctrl + /]` | 左パネルを検索 |
 
 #### 分析作成
 
 | ショートカット | アクション |
-|---|---|
-| Alt + 1 | 新しいフリーフォームテーブル |
-| Ctrl + Shift + C | 新規計算指標 |
-| Ctrl + Shift + D | 新しい日付範囲 |
-| Ctrl + Shift + E | 新しいセグメント |
-| Ctrl + Z | 元に戻す |
-| shift キーを押したまま（パネルセグメントドロップゾーン内） | [ドロップダウンフィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)の作成 |
+| --- | --- |
+| `[Alt + 1]` | 新しいフリーフォームテーブル |
+| `[Ctrl + Shift + C]` | 新規計算指標 |
+| `[Ctrl + Shift + D]` | 新しい日付範囲 |
+| `[Ctrl + Shift + E]` | 新しいセグメント |
+| `[Ctrl + Z]` | 元に戻す |
+| `[Component drag + Shift]` | ドロップダウンフィルターの作成 |
 
 #### 民主化
 
 | ショートカット | アクション |
-|---|---|
-| Ctrl + S | 保存 |
-| Ctrl + Shift + G | キュレート |
-| Ctrl + G | 共有 |
-| Alt + Shift + S | スケジュール |
-| Alt + L | プロジェクトへのリンクを取得 |
-| Ctrl + Shift + B | PDF をダウンロード |
+| --- | --- |
+| `[Ctrl + S]` | 保存 |
+| `[Ctrl + Shift + G]` | キュレート |
+| `[Ctrl + G]` | 共有 |
+| `[Alt + Shift + S]` | スケジュール |
+| `[Alt + L]` | プロジェクトへのリンクを取得 |
+| `[Ctrl + Shift + B]` | PDF をダウンロード |
 
 ## スクリーンリーダーとスクリーン拡大鏡のサポート
 

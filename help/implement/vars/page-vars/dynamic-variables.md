@@ -3,10 +3,10 @@ title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 77%
+source-wordcount: '442'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 データストリームマッピングを使用して、1 つの XDM フィールドから複数の Analytics 変数にデータを送信します。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL データストリーム]** をクリックします。
 1. 目的のデータストリームをクリックします。
 1. クリック **[!UICONTROL マッピングを編集]** 右側に
@@ -38,11 +38,11 @@ ht-degree: 77%
 
 動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。ディメンションこう項目は、通常、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定されます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. 目的のディメンション項目を見つけます。
 
 テキストフィールドに動的変数のプレフィックスを配置し、参照するクエリー文字列パラメーターまたは HTTP ヘッダーを指定します。デフォルトでは、動的変数のプレフィックスは `D=` です。

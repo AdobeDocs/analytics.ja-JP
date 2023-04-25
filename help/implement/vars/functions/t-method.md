@@ -3,10 +3,10 @@ title: t
 description: ページビュートラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 52%
+source-wordcount: '463'
+ht-degree: 57%
 
 ---
 
@@ -40,11 +40,11 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 アクションを使用して、XDM イベントデータのAdobeへの送信を設定します。 Datastream は、このデータを受け取り、設定されたマッピングを適用し、そのデータがその Datastream に追加されたサービスである場合はAdobe Analyticsに転送します。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**.
+1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**.
 
 ## Web SDK を手動で実装するイベントの送信
 
@@ -62,11 +62,11 @@ alloy("sendEvent", {
 
 Adobe Experience Platformデータ収集のAdobe Analytics拡張機能には、ページビュートラッキングコールを設定する専用の場所があります。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
 1. 「`s.t()`」ラジオボタンをクリックします。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.t() メソッド

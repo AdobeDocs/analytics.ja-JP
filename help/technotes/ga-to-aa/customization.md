@@ -3,10 +3,10 @@ title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 
 1. 指標リストの近くにある「**+**」アイコンをクリックし、[!UICONTROL 計算指標ビルダー]を開きます。
 2. 計算指標に名前を付け、形式を指定します。
-3. 指標コンポーネントを定義領域にドラッグし、各コンポーネント間のドロップダウンを使用して演算子を指定します。
+3. 指標コンポーネントを定義領域にドラッグし、各コンポーネント間のドロップダウンリストを使用して演算子を指定します。
 4. 計算指標に適切な数式を追加したら、「保存」をクリックしてワークスペースに戻ります。
 5. 新しく定義した計算指標をワークスペースにドラッグします。
 

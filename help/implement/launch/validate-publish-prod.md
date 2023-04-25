@@ -3,10 +3,10 @@ title: 開発実装の検証と実稼動環境への公開
 description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 79%
+source-wordcount: '635'
+ht-degree: 72%
 
 ---
 
@@ -31,14 +31,14 @@ Experience Cloudデバッガーは、ページに存在するすべてのExperie
 
 データが表示されていることを検証したら、実装を本番用サイトにプッシュできます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 公開]**」タブをクリックし、開発列でライブラリを探します。
-1. ライブラリのドロップダウンをクリックし、「**[!UICONTROL 承認用に送信]**」を選択します。モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
-1. ライブラリのドロップダウン（「送信済み」列に表示）を再度クリックし、「**[!UICONTROL ステージング用にビルド]**」を選択します。
+1. ライブラリのドロップダウンリストをクリックし、「 」を選択します。 **[!UICONTROL 承認用に送信]**. モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
+1. ライブラリのドロップダウンリスト（「送信済み」列に表示）を再度クリックし、「 」を選択します。 **[!UICONTROL ステージング用にビルド]**.
 1. しばらくすると、ライブラリの黄色のライトが緑色に変わり、ビルドが正常に完了したことを示します。
-1. ライブラリのドロップダウンを再度クリックし、「**[!UICONTROL 公開の承認]**」を選択します。
-1. ライブラリのドロップダウン（「[!UICONTROL 承認済み]」列に表示）を再度クリックし、「**[!UICONTROL 実稼動用にビルドおよび公開]**」を選択します。
+1. ライブラリのドロップダウンリストを再度クリックし、「 」を選択します。 **[!UICONTROL 公開の承認]**.
+1. ライブラリのドロップダウンリストを再度クリックします ( [!UICONTROL 承認済み] 列 ) を選択し、 **[!UICONTROL ビルドして実稼動環境にパブリッシュ]**.
 1. 「環境」タブに移動し、「**[!UICONTROL 実稼動環境]**」をクリックします。
 1. 実稼動用インストールコードをコピーし、Web サイトの所有者に提供します。 サイトの実稼動環境にこのコードを実装するように要求します。
 

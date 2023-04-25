@@ -4,10 +4,10 @@ title: Analytics for Target（A4T）パネル
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Analytics for Target（A4T）パネルを使用すると、Analysis Workspace �
 | 設定 | 説明 |
 |---|---|
 | ターゲットアクティビティ | Target アクティビティのリストから選択するか、左のパネルからアクティビティをドラッグ&amp;ドロップします。注：リストには、少なくとも 1 回のヒットを持つ過去 6 か月のアクティビティが入力されます。リストに表示されていないアクティビティは、6 か月を超えている可能性があります。この機能は、最大 18 か月のルックバック期間を持つ左側のパネルから追加できます。 |
-| コントロールエクスペリエンス | コントロールのエクスペリエンスを選択します。必要に応じて、ドロップダウンで変更できます。 |
+| コントロールエクスペリエンス | コントロールのエクスペリエンスを選択します。必要に応じて、ドロップダウンリストで変更できます。 |
 | 指標の標準化 | ユニーク訪問者、訪問回数、アクティビティインプレッション数から選択します。ほとんどの分析の使用例では、ユニーク訪問者を使用することをお勧めします。この指標（カウント手法とも呼ばれます）は、上昇率計算の分母になります。また、信頼性計算が適用される前のデータの集計方法に影響します。 |
 | 成功指標 | ドロップダウンから最大 3 つの標準（計算されていない）成功イベントを選択するか、左側のパネルから指標をドラッグ&amp;ドロップします。各指標は、レンダリングされたパネルに専用のテーブルとビジュアライゼーションを持ちます。 |
 | カレンダーの日付範囲 | これは、Adobe Target のアクティビティ日付範囲に基づいて自動入力されます。必要に応じて変更できます。 |
@@ -63,8 +63,8 @@ Analysis Workspace のパネルと同様に、Adobe Target アクティビティ
 | A4T でサポートされるアクティビティのタイプは何ですか？ | サポートされるアクティビティの種類について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html?lang=ja)ご覧ください。 |
 | 計算指標は上昇率と信頼性の計算でサポートされていますか。 | いいえ。上昇率と信頼性で計算指標がサポートされない理由について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=ja)ご覧ください。ただし、計算指標は、これらの指標の外部で A4T レポートで使用できます。 |
 | なぜ、Target と Analytics ではユニーク訪問者数が異なるのでしょうか。 | 製品間のユニーク訪問者の相違についての[詳細](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ja)。 |
-| 分析内の特定の Target アクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4T ディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。[詳細情報](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 信頼性指標は、極端な注文を考慮しますか。それとも、複数のオファーに対してボンフェローニ補正を適用しますか。 | いいえ。Analytics が信頼性を計算する方法について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。 |
+| 分析内の特定の Target アクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4T ディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。[詳細情報](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=ja) |
+| 信頼性指標は、極端な注文を考慮しますか。それとも、複数のオファーに対してボンフェローニ補正を適用しますか。 | いいえ。Analytics が信頼性を計算する方法について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=ja)ご覧ください。 |
 | 上昇率指標と信頼性指標を他のディメンションや分類と共に使用できますか。 | 上昇率と信頼性は、「ターゲットエクスペリエンス」ディメンションに対して「ロックされた指標」です。これは、全体で計算するには、コントロールとバリアントが必要だからです。したがって、分類したり、他のディメンションで使用したりすることはできません。 |
 | 上昇率と信頼性はいつ再計算されますか。 | 上昇率と信頼性は、パネルの実行（または再実行）、パネルの日付範囲の変更、パネルまたはテーブルへのセグメントの適用のたびに再計算されます。フリーフォームテーブルにセグメントフィルターを適用する場合、すべての列にセグメントフィルターを適用する必要があります。そうしないと、上昇率と信頼性が正しく更新されません。 現時点では、列レベルのセグメントはサポートされていません。 |
 

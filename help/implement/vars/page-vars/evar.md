@@ -3,10 +3,10 @@ title: eVar（変数）
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ eVar は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL eVars] セクションを見つけます。
 
 eVar を値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。

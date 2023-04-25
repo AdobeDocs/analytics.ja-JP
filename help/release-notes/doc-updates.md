@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3930'
+ht-degree: 97%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 98%
 | 2019年9月12日 | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
-| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 | 2019年8月8日 | ワークスペースでは、ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
+| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 | 2019年8月8日 | Workspace では、Adobeにより、静的ドロップダウンフィルターに配置できる項目の制限が 50 から 200 に増えました。 この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
 | 2019年8月2日 | [Analytics 用語集](/help/technotes/terms.md)を大幅に更新しました。 |
 | 2019年7月22日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
 | 2019年7月18日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
