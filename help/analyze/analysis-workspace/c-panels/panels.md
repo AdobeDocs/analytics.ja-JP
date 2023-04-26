@@ -4,10 +4,10 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 57%
+source-wordcount: '1202'
+ht-degree: 68%
 
 ---
 
@@ -100,21 +100,21 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 プロジェクトにドロップダウンフィルターを追加する方法について詳しくは、[ビデオをご覧ください](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ja)。
 
-### 動的ドロップダウンフィルター
+<!--### Dynamic drop-down filters
 
-動的ドロップダウンフィルターを使用すると、パネルのレポート範囲内のデータと、他のドロップダウンフィルターの値に基づいて、使用可能な値を決定できます。 例えば、 [国](/help/components/dimensions/countries.md) ディメンションと [市区町村](/help/components/dimensions/cities.md) ディメンション。 次から国を選択すると、 [!UICONTROL 国] ドロップダウンリスト [!UICONTROL 市区町村] ドロップダウンリストは、その国内の市区町村のみが表示されるように動的に調整されます。
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
-この同じ概念は、すべてのディメンションに適用されます。パネルの日付範囲および選択したフィルター内に表示されるディメンション項目のみが表示されます。 静的ドロップダウンフィルターで選択したDimension項目は、動的ドロップダウンフィルターで使用できる値に影響します。 しかし、逆は真ではありません。動的ドロップダウンフィルターで選択したDimension項目は、静的ドロップダウンフィルターで使用できる値には影響しません。
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-将来収集される特定のディメンション項目が予想される場合は、ディメンション項目の手動選択を使用できます。 また、動的ドロップダウンフィルターをクリアして、値が含まれないようにすることもできます。そのため、他の動的ドロップダウンフィルターにより多くの値を含めることができます。 選択 **[!UICONTROL すべてクリア]** をクリックして、そのパネルのすべてのドロップダウンフィルターから選択をクリアします。
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
 
-動的ドロップダウンフィルターを作成するには：
+To create a dynamic drop-down filter:
 
-* 単一のディメンションをパネルドロップゾーンにドラッグ&amp;ドロップします **保持しながら`[Shift]`**.
-* 動的ドロップダウンフィルターは、指標、セグメントまたは日付範囲では使用できません。
-* ドロップダウンフィルターを右クリックし、「 」を選択します。 **[!UICONTROL フィルターを削除]** をクリックして削除します。
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-動的ドロップダウンフィルターを右クリックすると、静的ドロップダウンフィルターと同じオプションが表示されます。
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## 右クリックメニュー {#right-click}
 

@@ -1,7 +1,10 @@
 ---
 title: ボットページビュー数
 description: ボットルールに一致したページビュー数。
-source-git-commit: 61a0292bf2f8ff22b414c2e91da476c1da69d163
+exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
+hide: true
+hidefromtoc: true
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 4%
