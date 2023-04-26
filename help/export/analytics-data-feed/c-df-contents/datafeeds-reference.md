@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 93%
+source-wordcount: '3670'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 | **`browser_width`** | ブラウザーウィンドウの幅（ピクセル単位）。 | smallint unsigned |
 | **`c_color`** | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
 | **`campaign`** | 「[トラッキングコード](/help/components/dimensions/tracking-code.md)」ディメンションで使用される変数。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。`carrier`ルックアップテーブルを参照します。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。のキー値 `carrier.tsv` [動的参照](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | テキスト |
 | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
 | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンションで使用される変数。 | varchar(100) |
@@ -110,7 +110,7 @@ ht-degree: 93%
 | **`latlon45`** | ロケーション（半径 1 m 以内） | varchar(255) |
 | **`mc_audiences`** | 訪問者が属している Audience Manager セグメント ID のリスト。`post_mc_audiences` 列の区切り文字が `--**--` に変更されます。 | テキスト |
 | **`mcvisid`** | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
-| **`mobile_id`** | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
+| **`mobile_id`** | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。のキー値 `mobile_attributes.tsv` [動的参照](dynamic-lookups.md). | int |
 | **`mobileaction`** | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
 | **`mobileappid`** | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
@@ -159,7 +159,7 @@ ht-degree: 93%
 | **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字をに置き換えます。 `--**--`. 次の項目がない `post` 列。 | テキスト |
 | **`namespace`** | 未使用。削除されたフィーチャの一部。 | varchar(50) |
 | **`new_visit`** | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
-| **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。`os` ルックアップを使用します。 | int unsigned |
+| **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。のキー値 `operating_system.tsv` 標準参照および `operating_system_type.tsv` [動的参照](dynamic-lookups.md). | int unsigned |
 | **`p_plugins`** | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 `navigator.plugins()` を使用します。 | テキスト |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |

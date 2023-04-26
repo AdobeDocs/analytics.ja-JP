@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3953'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 97%
 | **2023年4月** |  |
 | Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。 アドホックセグメントを作成する手順と、 [クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| 動的検索 | 関する追加情報 [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) が追加されます。 以前は、情報はモバイル属性に対してのみ存在していました。これは、動的な検索の 1 つです。 |
 | **2023年3月** |  |
 | Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |

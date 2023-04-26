@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [モバイル属性の参照](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [動的検索](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [マーチャンダイジング eVar 参照](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
