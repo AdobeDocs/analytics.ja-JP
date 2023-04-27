@@ -4,10 +4,10 @@ title: テーブルのフィルタリングと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ Analysis Workspace のフリーフォームテーブルは、インタラクテ�
 ## テーブルのフィルタリング
 
 Analysis Workspace のフィルターは、最も重要な情報を表示するのに役立ちます。
+
+>[!NOTE]
+>
+> この節で説明するように、動的ディメンション項目のみをフィルタリングできます。 静的ディメンション項目はフィルタリングできません。 詳しくは、 [フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 フリーフォームテーブルでデータをフィルタリングするには：
 

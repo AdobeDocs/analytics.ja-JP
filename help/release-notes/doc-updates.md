@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
-source-wordcount: '3953'
-ht-degree: 97%
+source-wordcount: '3972'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年4月** |  |
+| ユーザーアセットを転送し、アカウント有効期限を設定 | 次の方法に関する情報を追加しました。 [ユーザーアセットを転送し、アカウント有効期限を設定](/help/admin/admin/user-management2/users-assets.md). |
 | Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。 アドホックセグメントを作成する手順と、 [クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | 動的検索 | 関する追加情報 [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) が追加されます。 以前は、情報はモバイル属性に対してのみ存在していました。これは、動的な検索の 1 つです。 |
