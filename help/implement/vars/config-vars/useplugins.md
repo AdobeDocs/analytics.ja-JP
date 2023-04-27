@@ -3,10 +3,10 @@ title: usePlugins
 description: doPlugins() 関数を有効または無効にします。
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 43%
+source-wordcount: '179'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,9 @@ Web SDK には、データがAdobeに送信される前の追加ロジックの�
 
 ## Adobe Analytics拡張機能を使用したプラグインの使用
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobeには、「Common Analytics Plugins」というラベルの付いた拡張機能が用意されており、これを使用するとほとんどの [プラグイン](../plugins/impl-plugins.md). 拡張機能をインストールし、ルール内で目的のプラグインを呼び出します。
+
+目的のプラグインがAdobe拡張機能に含まれていない場合は、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
 
 ## AppMeasurement の s.usePlugins と Analytics 拡張機能のカスタムコードエディター
 

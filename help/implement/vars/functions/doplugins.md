@@ -3,16 +3,16 @@ title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 57%
+source-wordcount: '318'
+ht-degree: 62%
 
 ---
 
 # doPlugins
 
-`doPlugins` 変数は、実装に値を設定する「最後の呼び出し」として機能します。[`usePlugins`](../config-vars/useplugins.md) が有効になっている場合は、次のようなイメージリクエストがコンパイルされてアドビに送信される直前に自動的に実行されます。
+`doPlugins` 変数は、実装に値を設定する「最後の呼び出し」として機能します。通話をするのに最適な場所です [プラグインのメソッド](../plugins/impl-plugins.md) およびは、イメージリクエストが送信される前に必要な変数を設定します。 [`usePlugins`](../config-vars/useplugins.md) が有効になっている場合は、次のようなイメージリクエストがコンパイルされてアドビに送信される直前に自動的に実行されます。
 
 * すべてのページビュー（[`t()`](t-method.md)）コール
 * 自動ダウンロードリンクと出口リンクを含む、すべてのリンクトラッキング（[`tl()`](tl-method.md)）コール
@@ -23,7 +23,7 @@ ht-degree: 57%
 
 の代わりに `doPlugins`を使用する場合、Web SDK は `onBeforeEventSend` 同様の機能を備えています。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
 1. の下 [!UICONTROL データ収集]、 **[!UICONTROL イベント送信コールバックコードの前に編集]** 」ボタンをクリックします。
@@ -44,7 +44,7 @@ alloy("configure", {
 
 ## Adobe Analytics拡張機能を使用したプラグイン
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.doPlugins
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
+workflow-type: tm+mt
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
@@ -330,7 +330,6 @@ ht-degree: 100%
    + [現在のデータ](reports-analytics/current-data.md)
    + [ダッシュボードおよびレポートレット](reports-analytics/dashboard.md)
    + [ダッシュボードマネージャー](reports-analytics/dashboard-manage.md)
-   + [データ抽出](reports-analytics/data-extract.md)
    + [ファネルレポート](reports-analytics/funnels.md)
    + [指標](reports-analytics/metrics.md)
    + [ターゲット](reports-analytics/targets.md)
