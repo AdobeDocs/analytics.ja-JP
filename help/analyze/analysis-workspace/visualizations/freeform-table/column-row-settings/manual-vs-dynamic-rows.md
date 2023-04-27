@@ -4,10 +4,10 @@ description: テーブルの動的および静的ディメンション項目の�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 例えば、ブラウザータイプディメンションをテーブルにドラッグすると、上位のブラウザータイプディメンション項目（Microsoft、Apple、Google など） が動的にテーブル行に戻ります。列にドロップすると、上位 5 つのブラウザータイプディメンション項目が動的に返されます。
 
-動的ディメンション項目には行フィルターオプションがありますが、ロックと X アイコンは&#x200B;**ありません**。
+動的ディメンション項目には行フィルターオプションがありますが、ロックと X アイコンは&#x200B;**ありません**。テーブルにフィルターを適用する方法について詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 

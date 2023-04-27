@@ -5,7 +5,7 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 55%
@@ -121,7 +121,7 @@ ht-degree: 55%
 >
 >* この方法でプロジェクトを共有する機能は、Analytics 管理者が無効にすることができます。詳しくは、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). この節で説明するようにプロジェクトを共有できない場合、Analytics 管理者はこの機能を無効にしています。
 >
->* 14 個を超えるビジュアライゼーションが展開されたプロジェクトは、Adobe Analyticsへのアクセス権を持たないユーザーとは共有できません。
+>* 50 を超えるビジュアライゼーションが展開されたプロジェクトは、Adobe Analyticsへのアクセス権を持たないユーザーとは共有できません。
 >
 >* 共有したユーザーは、 [キュレーション](curate.md).
 > 
