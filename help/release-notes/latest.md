@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **Experience Edge の IP 不明化** | Experience Edge は、Adobe Experience Platform に直接送信されるデータの IP の不明化をサポートします。これは、CJA やその他のプラットフォームソリューションで使用するためにデータを Platform に直接送信する顧客にメリットがあります。IP の不明化は、データストリームレベルで設定します。最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**メモ**：不明化は、Adobe Analytics に送信されるデータには適用されません。Analytics は、引き続き完全な IP を取得します。IP 処理は、引き続き Analytics で個別に行われます。今後、Analytics データは Edge で不明化できるようにする予定です。 | 該当なし | AEP リリース（2023年4月26日（PT）） |
 | **Analysis Workspace でのデータ要素** | データ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネント（ディメンション、指標）を追跡、管理、そしてよりよく理解するのに役立ちます。[詳細情報](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023年3月15日（PT） | 2023年3月29日（PT） |
 | **プロジェクトのリンク共有（ログインは不要）** | <p>Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 これには、組織外のユーザーや、組織内でAdobe Analytics用にプロビジョニングされていないユーザーとの共有が含まれます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023 年 4 月 26 日（プライベートベータアクセスのみ） | 2023年6月 |
-| Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 該当なし | 2023年4月10日（PT） |
+| Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 該当なし | 2023年4月10日（PT） |
 
 {style="table-layout:auto"}
 

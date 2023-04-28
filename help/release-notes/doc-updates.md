@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
 source-wordcount: '3972'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 96%
 | --- | --- |
 | **2023年4月** |  |
 | ユーザーアセットを転送し、アカウント有効期限を設定 | 次の方法に関する情報を追加しました。 [ユーザーアセットを転送し、アカウント有効期限を設定](/help/admin/admin/user-management2/users-assets.md). |
-| Adobe Analytics 2.0 API 向けの 2 つの新しいエンドポイントガイド | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 指標 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。 アドホックセグメントを作成する手順と、 [クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
 | 動的検索 | 関する追加情報 [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) が追加されます。 以前は、情報はモバイル属性に対してのみ存在していました。これは、動的な検索の 1 つです。 |
 | **2023年3月** |  |
 | Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
