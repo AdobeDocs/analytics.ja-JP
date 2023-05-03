@@ -4,60 +4,47 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
+source-git-commit: 6a53f8e9377116c4f4a09eb32229733a44bdac9e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 70%
+source-wordcount: '612'
+ht-degree: 38%
 
 ---
 
 # Analysis Workspace の概要
 
-Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加を行い、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。
+Analysis Workspaceでは、分析をすばやく構築し、インサイトを共有できます。 ドラッグ&amp;ドロップブラウザーインターフェイスを使用すると、分析の作成、ビジュアライゼーションの追加、データを有効にする、データセットのキュレーション、組織内の全員とのプロジェクトの共有およびスケジュールをおこなえます。
 
-数分しか時間が取れない場合は、この短い概要を視聴し、何ができるかをご確認ください。
+次のビデオでは、可能なことの概要を簡単に説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
+## Analysis Workspaceの主な領域
+
+次の画像と表は、Analysis Workspaceの主な領域の一部を説明しています。
+
+![Analysis Workspace の概要](assets/analysis-workspace-overvew.png)
+
+| 画像内の場所 | 名前と関数 |
+|---------|----------|
+| A | **左端のレール：** Analysis Workspaceにパネル、ビジュアライゼーションおよびコンポーネントを追加するためのタブが含まれます。 また、データディクショナリを開くためのデータディクショナリアイコンも含まれます。 |
+| B | **左レール：** 左端のパネルで選択したタブに応じて、この領域には個々のパネル、ビジュアライゼーションまたはコンポーネントが含まれます。 |
+| C | **パネル：** パネルをAnalysis Workspaceに追加すると、ここに表示されます。 ビジュアライゼーションとコンポーネントは、追加したパネルにドラッグできます。 |
+| D | **レポートスイートのドロップダウンメニュー：** Analysis Workspaceの各パネルでは、レポートスイートのドロップダウンメニューを使用して、データソースとして使用するレポートスイートを選択できます。 |
+
 ## Adobe Analytics へのログイン {#login}
 
-Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。以前に特定のプロジェクトを選択したことがない場合は、プロジェクトページに移動します。
+Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。特定のプロジェクトが選択されていない場合は、デフォルトで「プロジェクト」ページが表示されます。
 
-![](assets/create-new-project.png)
+## プロジェクトの作成 {#new-project}
 
-## トレーニングチュートリアルの使用 {#training-tutorial}
+Analysis Workspaceの分析は、 [プロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
-ログイン後、最初の停止は、 Analysis Workspaceトレーニングチュートリアルテンプレートです。 Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。 チュートリアルを開始するには、
+Analysis Workspaceでプロジェクトを作成する方法について詳しくは、 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-1. 次をクリック： **[!UICONTROL 学習]** 」タブをクリックします。
-1. クリック **[!UICONTROL チュートリアルを開く]**.
+## Analysis Workspaceプロジェクトの構成要素 {#analysis}
 
-![](assets/training-tutorial.png)
-
-## 新規プロジェクトを作成 {#new-project}
-
-チュートリアルを完了したら、最初のプロジェクトの構築を開始する準備が整いました。 の [!UICONTROL プロジェクト] 」タブで、次の場所から開始するように選択できます。
-
-* [!UICONTROL 空のプロジェクト] ブラウザーから分析を共有する場合、または
-* [[!UICONTROL 空のモバイルスコアカード]](/help/analyze/mobile-app/curator.md)を使用する場合は、Customer Journey Analyticsダッシュボードモバイルアプリから分析を共有する予定です。
-
-また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や使用事例に応じて、様々なテンプレートを使用できます。 これで、 [!UICONTROL レポート] 」タブをクリックします。
-
-## 分析の構築 {#analysis}
-
-ワークスペースプロジェクトでは、左パネルから **パネル、テーブル、ビジュアライゼーションおよびコンポーネント** にアクセスします。これらはプロジェクトの構成要素です。
-
-### コンポーネント
-
-**コンポーネント**&#x200B;は、ディメンション、指標、セグメントまたは日付範囲です。これらすべてを&#x200B;**[!UICONTROL フリーフォームテーブル]**&#x200B;に組み合わせることで、ビジネスに関する質問への回答を開始できます。分析を開始する前に、各[コンポーネントのタイプ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)について理解しておく必要があります。コンポーネントの用語を習得したら、**[!UICONTROL フリーフォームテーブル]**&#x200B;でドラッグ&amp;ドロップを開始し、[分析を構築](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=ja)します。
-
-![](assets/build-components.png)
-
-### ビジュアライゼーション
-
-**ビジュアライゼーション**&#x200B;棒グラフや折れ線グラフなど、を使用して、データを目に見えるようにします。 左端のパネルで、中央の **[!UICONTROL ビジュアライゼーション]** アイコンを選択し、使用可能な [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) の完全なリストを表示します。
-
-![](assets/build-visualizations.png)
+Analysis Workspaceでプロジェクトを作成するために使用する構築ブロックは、パネル、テーブル、ビジュアライゼーションおよびコンポーネントです。
 
 ### パネル
 
@@ -65,13 +52,59 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ![](assets/build-panels.png)
 
-### Analysis Workspace でのプロジェクト管理
+### ビジュアライゼーション
+
+**ビジュアライゼーション**&#x200B;棒グラフや折れ線グラフなど、を使用して、データを目に見えるようにします。 左端のパネルで、中央の **[!UICONTROL ビジュアライゼーション]** アイコンを選択し、使用可能な [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) の完全なリストを表示します。
+
+![](assets/build-visualizations.png)
+
+### コンポーネント
+
+[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) Analysis Workspaceの場合は、次の要素で構成されます。
+
+* ディメンション
+
+* 指標
+
+* セグメント
+
+* 日付範囲
+
+詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照して、これらの各コンポーネントタイプの詳細を確認してください。
+
+これらの各コンポーネントタイプをビジュアライゼーション（フリーフォームテーブルなど）に追加して、ビジネスの質問への回答を開始できます。
+
+コンポーネントの用語を理解したら、（フリーフォームテーブルを含む）ビジュアライゼーションへのコンポーネントのドラッグを開始できます。 [分析の構築](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=ja).
+
+![](assets/build-components.png)
+
+<!--
+
+## The Data Dictionary
+
+
+
+## Save and share Analysis Workspace projects
+
+-->
+
+## Analysis Workspace でのプロジェクト管理
 
 以下は、プロジェクト管理の概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
+## トレーニングチュートリアルの使用 {#training-tutorial}
+
+Analysis Workspaceに慣れるには、 Analysis Workspaceトレーニングチュートリアルテンプレートを使用します。 このテンプレートでは、Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。 チュートリアルを開始するには：
+
+1. Adobe Analyticsの「ワークスペース」タブで、「 **[!UICONTROL 学習]** 左側に
+1. 選択 **[!UICONTROL チュートリアルを開く]**.
+
+![](assets/training-tutorial.png)
+
 ## その他のリソース {#resources}
 
 * アドビでは、数百もの[Analytics ビデオトレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ja)を提供しています。
 * 新機能の最新情報については、 [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja#analytics) を参照してください。
+
