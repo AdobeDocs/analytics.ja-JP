@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cd727113683be47793829871c64f057dc764f3ef
+source-git-commit: 556a8fefa2a5515437ab4b95fc08dde32756ef68
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 90%
+source-wordcount: '1688'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **Web SDK を使用した Activity Map の部分的なサポート** | Web SDK バージョン 2.15.0 以降、リンクトラッキングが有効な場合に、Activity Map データの生成を開始しました。これにより、Web SDK でリンクトラッキングが有効となっており、Analytics で Activity Map が設定されている Web SDK ユーザーは、Activity Map レポートを取得できます。<p>現在、Web SDK でリンクトラッキングを有効にすると、顧客がページ間を移動した際にリンクイベントが送信されます。AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja)と[こちら](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を参照してください | 該当なし | 2023年3月31日（PT） |
 | **Experience Edge の IP 不明化** | Experience Edge は、Adobe Experience Platform に直接送信されるデータの IP の不明化をサポートします。これは、CJA やその他のプラットフォームソリューションで使用するためにデータを Platform に直接送信する顧客にメリットがあります。IP の不明化は、データストリームレベルで設定します。最後のオクテットまたは IP アドレス全体の削除をサポートします。<p>**メモ**：不明化は、Adobe Analytics に送信されるデータには適用されません。Analytics は、引き続き完全な IP を取得します。IP 処理は、引き続き Analytics で個別に行われます。今後、Analytics データは Edge で不明化できるようにする予定です。 | 該当なし | AEP リリース（2023年4月26日（PT）） |
 | **Analysis Workspace でのデータ要素** | データ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネント（ディメンション、指標）を追跡、管理、そしてよりよく理解するのに役立ちます。[詳細情報](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023年3月15日（PT） | 2023年3月29日（PT） |
-| **プロジェクトのリンク共有（ログインは不要）** | <p>Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 これには、組織外のユーザーや、組織内でAdobe Analytics用にプロビジョニングされていないユーザーとの共有が含まれます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023 年 4 月 26 日（プライベートベータアクセスのみ） | 2023年6月 |
+| **プロジェクトのリンク共有（ログインは不要）** | <p>Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 これには、組織外のユーザーや、組織内でAdobe Analytics用にプロビジョニングされていないユーザーとの共有が含まれます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023 年 5 月 4 日 | 2023年6月 |
 | **Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド** | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 該当なし | 2023年4月10日（PT） |
 
 {style="table-layout:auto"}
