@@ -4,22 +4,22 @@ description: 複数のレポートスイートを含む Workspace でプロジ�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 90%
 
 ---
 
 # 複数のレポートスイート
 
-複数のレポートスイートのデータを使用して、Analysis Workspace でプロジェクトを作成できるようになりました。レポートスイートがパネルレベルで選択され、同じ Workspace プロジェクト内の各パネルに対して異なるレポートスイートを選択できるようになりました。
+複数のレポートスイートのデータを使用して、Analysis Workspaceでプロジェクトを作成できます。 レポートスイートはパネルレベルで選択されるので、同じ Workspace プロジェクト内の各パネルに対して異なるレポートスイートを選択できます。
 
 この機能は、次のような場合に便利です。
 
 * 2 つの異なる地域のデータや、2 つの異なるレポートスイート内のデータを比較する。テーブルとビジュアライゼーションを作成し、データを並べて比較できます。
 
-* 指標とビジュアライゼーションのダッシュボードを作成して、他の組織に報告する。様々なレポートスイートから同じプロジェクト内にデータを取り込めるようになりました。
+* 指標とビジュアライゼーションのダッシュボードを作成して、他の組織に報告する。様々なレポートスイートから同じプロジェクト内にデータを取り込むことができます。
 
 以下は、このトピックに関するビデオです。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. 非アクティブなパネルをアクティブなパネルに切り替えるには、（`shift` をドラッグしながら）キーボードショートカットを使用します。
 
-1. （オプション）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
+1. （任意）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
    * セグメントの作成場所：[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)。
    * 計算指標が作成される場所：[計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)。

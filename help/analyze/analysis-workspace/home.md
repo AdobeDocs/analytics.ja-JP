@@ -1,13 +1,13 @@
 ---
-title: Analysis Workspace の概要と使い方を教えてください。
+title: Analysis Workspace の概要
 description: Analysis Workspace は Adobe Analytics の主要な分析ツールです。パネル、テーブル、ビジュアライゼーション、その他のコンポーネントを使用して、データを有効に活用したり、データセットをキュレーションしたり、プロジェクトを他のユーザーとの間で共有およびスケジュールしたりできます。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 33%
+source-wordcount: '839'
+ht-degree: 36%
 
 ---
 
@@ -64,11 +64,11 @@ Analysis Workspaceのコンポーネントは、次の要素で構成されま�
 
 * 日付範囲
 
-詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照して、これらの各コンポーネントタイプの詳細を確認してください。
+これらの各コンポーネントタイプについて詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 これらの各コンポーネントタイプをビジュアライゼーション（フリーフォームテーブルなど）に追加して、ビジネスの質問への回答を開始できます。
 
-コンポーネントの用語を理解したら、コンポーネントをビジュアライゼーション（フリーフォームテーブルを含む）にドラッグし、 [分析の構築](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=ja).
+コンポーネントの用語を理解したら、コンポーネントをビジュアライゼーション（フリーフォームテーブルを含む）にドラッグし、 [分析の構築](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Analysis Workspaceの分析は、 [プロジェクト](/help/analyze/analysis-wo
 
 Analysis Workspaceでプロジェクトを作成できます。詳しくは、 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+プロジェクトは、フォルダとサブフォルダに整理できます。詳しくは、 [Analysis Workspaceのフォルダー](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### プロジェクトの保存と共有
 
 Analysis Workspaceで分析を作成する場合、作業内容は次のようになります。 [自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 プロジェクトの構築が完了し、アクションにつながるインサイトを収集すると、そのプロジェクトを他のユーザーが利用できる状態になります。 プロジェクトを組織内のユーザーやグループと共有したり、組織外のユーザーと共有したりできます。 プロジェクトの共有について詳しくは、 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Analysis Workspace でのプロジェクト管理
+<!--
 
-次のビデオでは、Analysis Workspaceのプロジェクト管理の概要を説明します。
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Virtual Analyst を使用して異常値をより深く理解する
+
+Virtual Analyst は、予測アルゴリズムと機械学習を使用して、ビジネスに影響を与える異常値に関するインサイトを提供する、Adobe Analyticsの一連の機能です。 これにより、最も一般的で高コストなデータサイエンスのワークフローを自動化し、何がデータの中で異常な行動を引き起こしているかを特定できます。
+
+Virtual Analyst は、次の機能で構成されます。
+
+* [異常値検出：](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
+* [貢献度分析：](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)データの異常値に最も貢献している要因を特定するのに役立ちます。
+* [インテリジェントアラート：](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)データの異常を事前に特定して通知することで、より迅速なインサイトを提供します。
 
 ## その他のリソース {#resources}
 

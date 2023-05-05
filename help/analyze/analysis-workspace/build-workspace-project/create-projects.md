@@ -3,7 +3,7 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # プロジェクトの作成
 
-[プロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspaceでは、組織内外の関係者と共有できる、ビジネスクリティカルなデータを表示できます。
+[プロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspaceでは、組織内外の関係者と共有できる、ビジネスクリティカルな分析を表示できます。
 
 Analysis Workspaceの使用を開始する方法に関する一般的な情報については、 [Analysis Workspaceの概要](/help/analyze/analysis-workspace/home.md).
 
