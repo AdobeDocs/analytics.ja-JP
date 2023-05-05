@@ -3,10 +3,10 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 98cffce26edc02b74747e05c35ff6625081e0cc6
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 6%
+source-wordcount: '651'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
 ## プロジェクトにパネルを追加する {#panels}
 
-[パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) は、Analysis Workspaceの任意のプロジェクトの基盤です。 プロジェクトのコンテンツ（ビジュアライゼーションおよびコンポーネント）を整理するために使用されます。 コンポーネントやビジュアライゼーションをプロジェクトに追加する前に、パネルを追加する必要があります。
+[パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) は、Analysis Workspaceの任意のプロジェクトの基盤です。 パネルを使用して、プロジェクトのコンテンツ（ビジュアライゼーションおよびコンポーネント）を整理します。
 
 Analysis Workspace で提供される多くのパネルは、少数のユーザー入力に基づいてフルセットの分析を生成します。
 
@@ -71,6 +71,12 @@ Analysis Workspace で提供される多くのパネルは、少数のユーザ�
 
 [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) （フリーフォームテーブル、棒グラフ、折れ線グラフなど）を使用して、データを有効にします。
 
+>[!TIP]
+>
+>フリーフォームテーブルは、最も一般的なタイプのビジュアライゼーションで、インタラクティブなデータ分析の基盤となります。 Analysis Workspaceでフリーフォームテーブルを使用する方法について詳しくは、 [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+ビジュアライゼーションを追加するには：
+
 1. を選択します。 **[!UICONTROL ビジュアライゼーション]** アイコンをクリックします。
 
    ![](assets/build-visualizations.png)
@@ -83,13 +89,21 @@ Analysis Workspace で提供される多くのパネルは、少数のユーザ�
 
 [コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 任意のプロジェクトの実際のデータを構成します。 コンポーネントをビジュアライゼーションまたはパネルに追加できます。
 
+>[!TIP]
+>
+>各コンポーネントについて詳しくは、左側のパネルでコンポーネントの名前の横にある情報アイコンを選択するか、 [Analytics コンポーネントガイド](/help/components/home.md).
+
+コンポーネントを追加するには：
+
 1. を選択します。 **[!UICONTROL コンポーネント]** アイコンをクリックします。
 
    ![](assets/build-components.png)
 
 1. 追加するコンポーネントを検索します。 左側のパネルに表示されたら、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
->[!TIP]
->
->   各コンポーネントについて詳しくは、左側のパネルでコンポーネントの名前の横にある情報アイコンを選択するか、 [Analytics コンポーネントガイド](/help/components/home.md).
+### プロジェクトを保存して共有する
+
+Analysis Workspaceで分析を作成する場合、作業内容は次のようになります。 [自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+
+プロジェクトの構築が完了し、アクションにつながるインサイトを収集すると、そのプロジェクトを他のユーザーが利用できる状態になります。 プロジェクトを組織内のユーザーやグループと共有したり、組織外のユーザーと共有したりできます。 プロジェクトの共有について詳しくは、 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
