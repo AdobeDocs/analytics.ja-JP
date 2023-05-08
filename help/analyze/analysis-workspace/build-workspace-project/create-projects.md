@@ -3,9 +3,9 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Analysis Workspace で提供される多くのパネルは、少数のユーザ�
 
 1. 追加するコンポーネントを検索します。 左側のパネルに表示されたら、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
-### プロジェクトを保存して共有する
+1. （オプション） [プロジェクトを保存して共有する](#save-and-share-the-project).
+
+## プロジェクトを保存して共有する
 
 Analysis Workspaceで分析を作成する場合、作業内容は次のようになります。 [自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 

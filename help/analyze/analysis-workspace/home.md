@@ -4,10 +4,10 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 36%
+source-wordcount: '732'
+ht-degree: 31%
 
 ---
 
@@ -97,28 +97,6 @@ Analysis Workspaceでプロジェクトを作成できます。詳しくは、 [
 Analysis Workspaceで分析を作成する場合、作業内容は次のようになります。 [自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 プロジェクトの構築が完了し、アクションにつながるインサイトを収集すると、そのプロジェクトを他のユーザーが利用できる状態になります。 プロジェクトを組織内のユーザーやグループと共有したり、組織外のユーザーと共有したりできます。 プロジェクトの共有について詳しくは、 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## Virtual Analyst を使用して異常値をより深く理解する
-
-Virtual Analyst は、予測アルゴリズムと機械学習を使用して、ビジネスに影響を与える異常値に関するインサイトを提供する、Adobe Analyticsの一連の機能です。 これにより、最も一般的で高コストなデータサイエンスのワークフローを自動化し、何がデータの中で異常な行動を引き起こしているかを特定できます。
-
-Virtual Analyst は、次の機能で構成されます。
-
-* [異常値検出：](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
-* [貢献度分析：](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)データの異常値に最も貢献している要因を特定するのに役立ちます。
-* [インテリジェントアラート：](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)データの異常を事前に特定して通知することで、より迅速なインサイトを提供します。
 
 ## その他のリソース {#resources}
 
