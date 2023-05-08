@@ -3,9 +3,9 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
    +++空のプロジェクトを作成
 
-   1. を選択します。 [!UICONTROL **プロジェクト**] 「 」タブで、「 [!UICONTROL **プロジェクトを作成**].
+   1. の [!UICONTROL **Workspace**] タブで、 [!UICONTROL **プロジェクト**] 」タブで、 [!UICONTROL **プロジェクトを作成**].
 
    1. 空のプロジェクトと空のモバイルスコアカードのどちらを作成するかを選択します
 
@@ -38,7 +38,7 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
    +++テンプレートからプロジェクトを作成する
 
-   1. を選択します。 [!UICONTROL **レポート**] タブをクリックします。
+   1. の [!UICONTROL **Workspace**] タブで、 [!UICONTROL **レポート**] 」タブをクリックします。
 
    1. 使用するテンプレートを検索または移動して、表示されたら選択します。
 
