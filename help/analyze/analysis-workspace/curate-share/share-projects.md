@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -126,6 +126,8 @@ ht-degree: 55%
 >* 共有したユーザーは、 [キュレーション](curate.md).
 > 
 >* 共有するユーザーがプロジェクトの日付範囲を変更できます。 プロジェクトに設定した日付範囲がデフォルトで表示されます。
+>
+>* 多くのユーザーが同時に特定のリンクにアクセスしようとすると、プロジェクトにアクセスできなくなる場合があります。 デフォルトでは、190 人を超えるユーザーが 5 分ごとに 1 つのリンクにアクセスできます。 組織がこの制限に達した場合は、5 分待ってから、もう一度リンクにアクセスしてみてください。
 
 
 Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有するには：
