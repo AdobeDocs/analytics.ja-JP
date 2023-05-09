@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # スニペット
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
 | [!UICONTROL **プレビュー**] | Analysis Workspace でのコンポーネントの外観のプレビューを表示します。 |
 | [!UICONTROL **最終変更日**] | コンポーネントの最終変更日を表示します。 このセクションは、セグメント、計算指標および日付範囲を表示する際に表示されます。 |
+
+{style="table-layout:auto"}
+
+## コンポーネントの並べ替えオプション {#components-sort-options}
+
+| オプション | 関数 |
+|---------|----------|
+| [!UICONTROL **推奨**] | コンポーネントを、リストの最上部で推奨されるコンポーネントと並べ替えます。 自分や組織内の他のユーザーが最も頻繁に使用し、最近使用したコンポーネントがリストの上位に表示されます。 |
+| [!UICONTROL **アルファベット順**] | コンポーネントをアルファベット順に並べ替えます。 |
+| [!UICONTROL **分類**] | コンポーネントのタイプ（ディメンション、指標、セグメント、日付範囲）に従ってコンポーネントを並べ替えます。 |
 
 {style="table-layout:auto"}
 
