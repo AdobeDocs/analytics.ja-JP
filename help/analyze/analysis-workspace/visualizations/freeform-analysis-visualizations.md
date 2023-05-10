@@ -5,10 +5,10 @@ title: ビジュアライゼーションの概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 99%
+source-wordcount: '1280'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 ワークスペースは、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図など、データを視覚的に表現する様々なビジュアライゼーションを提供します。Adobe Analytics を使用すると、ほとんどのビジュアライゼーションタイプがなじみのあるものになります。しかし、Analysis Workspace にはビジュアライゼーション設定があり、インタラクティブ機能を備えた新しいまたは独自のビジュアライゼーションタイプを数多く揃えています。
 
-ビジュアライゼーションには、Workspace の左上のアイコン、[空白のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja)、またはワークフローの右クリックメニューからアクセスできます。
-
-![](assets/viz-rail.png)
+## ビジュアライゼーションのタイプ
 
 Analysis Workspace では、次のビジュアライゼーションタイプを利用できます。
 
@@ -34,6 +32,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | フリーフォームテーブルは、単なるデータテーブルではなく、インタラクティブなビジュアライゼーションです。これは、ワークスペースのデータ分析の基礎になります。 |
 | [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md) | ヒストグラムは、指標の量に基づいて、訪問者、訪問、またはヒットをバケットにまとめます。 |
 | [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
+| [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 1 つの期間内で指標がトレンドを示しているか、2 つの期間をまたいで指標のパフォーマンスを比較できます。 |
 | [行](/help/analyze/analysis-workspace/visualizations/line.md) | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
 | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション項目と最大 3 つの指標の関係を表示します。 |
@@ -42,6 +41,26 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | ユーザー定義のテキストをワークスペースに追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
 | [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md) | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
 | [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md) | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
+
+## パネルへのビジュアライゼーションの追加
+
+1. ビジュアライゼーションを追加するAnalysis Workspaceプロジェクトを開きます。
+
+1. 次のいずれかの方法を使用して、ビジュアライゼーションを追加します。
+
+   * 左側のレールで、 **ビジュアライゼーション** アイコン <!-- add icon -->次に、ビジュアライゼーションを追加するパネルにドラッグします。
+
+      ![](assets/viz-rail.png)
+
+   * ビジュアライゼーションを追加するパネルで、 **プラス** アイコンをクリックして、追加するビジュアライゼーションを表すアイコンを選択します。 各ビジュアライゼーションのアイコンの上にマウスポインターを置くと、その名前が表示されます。
+
+      ![ビジュアライゼーションを追加するためのボタン](assets/visualization-add-to-panel.png)
+
+   * を追加します。 [空欄パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja)次に、追加するビジュアライゼーションを選択します。
+
+      ![空のパネル](assets/blank_panel.png)
+
+   * Analysis Workspaceプロジェクトの既存のパネルを右クリックし、「 [!UICONTROL **ビジュアライゼーションを複製**] または [!UICONTROL **ビジュアライゼーションをコピー**].
 
 ## ビジュアライゼーション設定のカスタマイズ
 
