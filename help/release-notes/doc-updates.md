@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 94%
 
 ---
 
@@ -28,6 +28,9 @@ ht-degree: 97%
 | **2023 年 5 月** |  |
 | Analysis Workspace の概要 | 更新済み [Analysis Workspaceの概要](/help/analyze/analysis-workspace/home.md) を参照して、より一般的な概要情報と関連するコンテンツへのリンクを含めます。 |
 | プロジェクトの作成 | 次の方法について詳しく説明する新しい記事を作成しました。 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace |
+| 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| フリーフォームテーブルからの動的ディメンションを含む行の削除 | x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除する方法に関する情報を追加しました。 詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| パネル内にビジュアライゼーションを追加するボタン | Analysis Workspaceの各パネルの下部にある新しいボタンに関する情報を追加しました。このボタンを使用すると、ビジュアライゼーションをすばやく追加できます。 詳しくは、「パネルへのビジュアライゼーションの追加」の節を参照してください。 [ビジュアライゼーションの概要](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023年4月** |  |
 | ユーザーアセットを転送し、アカウント有効期限を設定 | 次の方法に関する情報を追加しました。 [ユーザーアセットを転送し、アカウント有効期限を設定](/help/admin/admin/user-management2/users-assets.md). |
 | Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
