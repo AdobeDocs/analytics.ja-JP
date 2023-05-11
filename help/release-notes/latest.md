@@ -3,7 +3,7 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b5b6925b7425104335b592e98a556c2449fea5d9
+source-git-commit: 890742781a59532828003f8ba660043b9f1c73a1
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 52%
@@ -23,8 +23,8 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **非実稼動用サンドボックスのバックフィル** | 非実稼働用サンドボックスで Analytics ソースコネクタのデータフローを作成する場合、非実稼働用サンドボックスでのバックフィルは 3 か月に制限されます。 実稼働用サンドボックスの場合、13 か月間の状態が保たれます。 | 該当なし | 2023年4月26日（PT） |
 | **プロジェクトのリンク共有（ログインは不要）** | Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。 これには、組織外のユーザーや、組織内でAdobe Analytics用にプロビジョニングされていないユーザーとの共有が含まれます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)<p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023 年 5 月 4 日 | 2023年6月 |
 | **Analytics ダッシュボードアプリ（モバイルアプリ）のホーム画面を更新しました** | 新しく更新されたホーム画面では、1 つの統合スコアカードリストにすべてのスコアカードを表示できます。  1 回のログインで複数の組織にアクセスできる場合、組織のすべてのスコアカードを 1 つのリストで使用できます。 | 該当なし | 2023 年 5 月 11 日 |
-| **Analysis Workspaceでのコンポーネントの並べ替え** | 左側のパネルまたはAnalysis Workspaceのデータディクショナリでコンポーネントを表示する際に、新しい「並べ替え」オプションを使用できるようになりました。 コンポーネントは、「推奨」（最も一般的に使用されるコンポーネント）、「アルファベット順」（アルファベット順）または「分類」（タイプ）で並べ替えることができます。<p>以前は、コンポーネントの検索またはフィルタリングのみおこなえました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 該当なし | 2023 年 5 月 11 日 |
-| **フリーフォームテーブルからの動的ディメンションを含む行の削除** | Analysis Workspaceのフリーフォームテーブルで、x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除できるようになりました。 その際、「等しくない」フィルタールールが自動的に適用されます。<p>以前は、動的ディメンションを含む行を削除する唯一の方法は、フィルターダイアログでルールを手動で作成することでした。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 該当なし | 2023 年 5 月 11 日 |
+| **Analysis Workspaceでのコンポーネントの並べ替え** | 左側のパネルまたはAnalysis Workspaceのデータディクショナリでコンポーネントを表示する際に、新しい「並べ替え」オプションを使用できるようになりました。 コンポーネントは、「推奨」（最も一般的に使用されるコンポーネント）、「アルファベット順」（アルファベット順）または「分類」（タイプ）で並べ替えることができます。<p>以前は、コンポーネントの検索またはフィルタリングのみおこなえました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 該当なし | 2023 年 5 月 18 日 |
+| **フリーフォームテーブルからの動的ディメンションを含む行の削除** | Analysis Workspaceのフリーフォームテーブルで、x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除できるようになりました。 その際、「等しくない」フィルタールールが自動的に適用されます。<p>以前は、動的ディメンションを含む行を削除する唯一の方法は、フィルターダイアログでルールを手動で作成することでした。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 該当なし | 2023 年 5 月 18 日 |
 | **パネル内にビジュアライゼーションを追加する新しいボタン** | Analysis Workspaceの各パネルの下部に新しいボタンが表示され、ビジュアライゼーションをすばやく追加できるようになりました。 <p>以前は、パネルにビジュアライゼーションを追加する唯一の方法は、左側のパネルからビジュアライゼーションをドラッグしたり、既存のビジュアライゼーションを複製またはコピーしたり、空のパネルを作成したりすることでした。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 該当なし | 2023 年 5 月 18 日 |
 | **ディープリンク（モバイルアプリ）** | ユーザーがスコアカードへのリンクを送信して、そのリンクをアプリのスコアカードプロジェクトに直接導くことを許可します。 これにより、プロジェクトを共有し、技術的でないオーディエンスからのエンゲージメントを促進する作業がさらに簡単になります。 | 未定 | 未定 |
 
