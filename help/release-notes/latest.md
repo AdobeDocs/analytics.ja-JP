@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09536aa3cba8570e8f1158b1397c21677bcf8332
+source-git-commit: b5b6925b7425104335b592e98a556c2449fea5d9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 53%
+source-wordcount: '1388'
+ht-degree: 52%
 
 ---
 
@@ -38,7 +38,7 @@ AN-312098;AN-318309;AN-316675;AN-318173;AN-310359;AN-317613;AN-318836;AN-315744;
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **AdobeIO OAuth サーバー間資格情報への移行** | 2023 年 5 月 12 日 | AdobeIO JWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順で AdobeIO OAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 2024 年 5 月 1 日以降、AdobeIO では新しい JWT 資格情報の作成は許可されません。 JWT を使用するお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要があります。 タイムラインについては、以下の EOL の通知を参照してください。<ul><li>[サービスアカウント (JWT) 資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **AdobeIO OAuth サーバー間資格情報への移行** | 2023 年 5 月 12 日 | AdobeIO JWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順で AdobeIO OAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 詳細とタイムラインについては、以下の表に記載されている提供終了の通知を参照してください。 |
 | **注意：ロンドンデータセンターでAdobe AnalyticsデータフィードおよびData Warehouseエグレスで使用される新しい IP** | 2023年4月27日（PT） | ロンドンのデータセンターのお客様で、データフィードリクエストやData Warehouseレポートを FTP/SFTP サービスに配信する場合、アクセスを許可するために、次の IP アドレス範囲をファイアウォール設定に追加する必要があります。 <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **デバイス検索プロセスでは、すべてのデバイス検索にサードパーティを使用するようになりました** | 2023年3月3日（PT） | 2023年3月2日（PT）に、クライアントヒントのサポートロールアウトの一環として、すべてのデバイス検索にサードパーティを使用するようにデバイス検索プロセスを更新しました。以前は、モバイルデバイスの検索にのみサードパーティを使用していました。そのロールアウトの一環として、一部のデスクトップオペレーティングシステムは、「Mobile」というテキストで誤ってラベル付けされていました（例えば、「OS X 10.15.7」ではなく「Mobile OS X 10.15.7」）。<p>アドビの 4月のリリース時に、これらの名前を修正する予定です。Analytics と CJA のレポートは、イベントデータの一部として記録された ID に基づいてオペレーティングシステム名を検索するので、遡及的に更新されます。ID に対応する検索値を更新すると、履歴データを含むすべてのレポートが修正されます。の場合 [!UICONTROL データフィード] のお客様は、レポート時に同様のルックアッププロセスを使用している場合、変更が遡及されます。 ただし、オペレーティングシステムの値をイベントデータに保存した場合、レポートはそれ以降にのみ更新されます。詳しくは、[オペレーティングシステム](/help/components/dimensions/operating-systems.md)を参照してください。 |
 
@@ -48,7 +48,7 @@ AN-312098;AN-318309;AN-316675;AN-318173;AN-310359;AN-317613;AN-318836;AN-315744;
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **AdobeIO OAuth サーバー間資格情報への移行** | 2023 年 5 月 12 日 | ![](assets/jwt.png) |
+| **AdobeIO OAuth サーバー間資格情報への移行** | 2023 年 5 月 12 日 | AdobeIO JWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順で AdobeIO OAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 2024 年 5 月 1 日以降、AdobeIO では新しい JWT 資格情報の作成は許可されません。 JWT を使用するお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要があります。 <ul><li>[サービスアカウント (JWT) 資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul>![](assets/jwt.png) |
 | **日本のガラケー計測 (mod_ktrack) サービスのサポート終了** | 2023年3月21日（PT） | 日本のお客様へ：**2023年5月末日**&#x200B;をもちまして、日本製フィーチャーフォントラッキングサービス（mod_ktrack）のサービスを終了させていただくこととなりました。ご利用中のお客様にはお手数をおかけして誠に申し訳ございませんが、Apache サーバーに組み込んでいただいているモジュールをアンインストールしていただきますようお願い申し上げます。アンインストール方法につきましては添付資料の 27ページ、28ページをご参照ください。[添付資料](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf)。本件に関してご不明な点がございましたら、所定のサポート窓口、または担当のカスタマーサクセスマネージャーへお問い合わせお願いいたします。 |
 | **[!DNL Reports & Analytics]** のサポート終了 | 2023年3月7日（PT） | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023年12月31日（PT）に、関連する Reports &amp; Analytics 機能の多くを終了します。これには、予定レポート、データ抽出、DL レポートが含まれますが、これらに限定されるものではありません。2023年12月31日（PT）以降、予定レポートは送信されなくなります。 **2023年4月**&#x200B;に、2023年12月31日（PT）以降に有効期限が切れる予定だったレポートはすべて自動的に更新され、2023年12月31日（PT）に有効期限が切れるように戻されます。 また、2023年12月31日（PT）以降は今後のレポートをスケジュールできなくなります。 |
 | **[!UICONTROL 人物]指標の提供終了（EOL）** | 2023年3月9日（PT） | [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html?lang=ja) の廃止に伴い、Device Co-op 関連の人物指標は関係がなくなりました。2023 年 5 月 8 日に、 [!UICONTROL People] 指標を削除します。その時点で、そのデータを[!UICONTROL ユニーク訪問者]指標にリダイレクトして、プロジェクト、セグメントおよび計算指標が壊れないようにします。<p>**メモ**：クロスデバイス分析に関連付けられている[[!UICONTROL 人物]指標](/help/components/metrics/people.md)は、この発表の影響を受けません。 |
