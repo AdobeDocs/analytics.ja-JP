@@ -3,9 +3,9 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
 次の節では、プロジェクトを作成し、任意のAnalysis Workspaceプロジェクトの主要な構築ブロックの追加を開始する方法について説明します。パネル、ビジュアライゼーションおよびコンポーネント。
 
-## 空のプロジェクトまたはテンプレートからプロジェクトを作成する
+## 空のプロジェクトまたはレポートからプロジェクトを作成する
 
 1. Adobe Analyticsで、 [!UICONTROL **Workspace**].
 
-1. 空のプロジェクトを作成するか、テンプレートからプロジェクトを作成するかを選択します。
+1. 空のプロジェクトを作成するか、レポートからプロジェクトを作成するかを選択します。
 
    +++空のプロジェクトを作成
 
@@ -36,15 +36,15 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
 +++
 
-   +++テンプレートからプロジェクトを作成する
+   +++レポートからのプロジェクトの作成
 
    1. の [!UICONTROL **Workspace**] タブで、 [!UICONTROL **レポート**] 」タブをクリックします。
 
-   1. 使用するテンプレートを検索または移動して、表示されたら選択します。
+   1. 使用するレポートを検索またはナビゲートして、表示されたら選択します。
 
-      デフォルトでは、一連の標準テンプレートを使用できます。 さらに、組織でカスタムテンプレートを作成している場合は、その中から選択できます。
+      デフォルトでは、一連の標準レポートが使用可能です。 また、お客様が選択できるカスタムレポートが組織で作成されている場合もあります。
 
-      詳しくは、 [Reports &amp; Analytics の概要](/help/analyze/reports-analytics/getting-started.md).
+      詳しくは、 [Adobe Analyticsランディングページ](/help/analyze/landing.md).
 +++
 
 1. 次に、パネル、ビジュアライゼーションおよびコンポーネントをプロジェクトに追加する必要があります。 まず、Analysis Workspaceで、 [プロジェクトにパネルを追加する](#add-panels-to-the-project). その後、任意のパネルにビジュアライゼーションを追加できます。 最後に、任意のパネルまたはビジュアライゼーションにコンポーネントを追加できます。
