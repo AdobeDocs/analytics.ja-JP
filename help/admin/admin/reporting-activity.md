@@ -4,18 +4,16 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 95%
 
 ---
 
 # レポートアクティビティマネージャー
 
->[!NOTE]
->
->この機能は、現在ベータ版でテスト中です。
+{{release-limited-testing}}
 
 [!UICONTROL レポートアクティビティマネージャー]では、組織内の各レポートスイートのレポート処理能力を確認できます。これにより、管理者はレポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。
 
@@ -48,7 +46,7 @@ ht-degree: 100%
 | **[!UICONTROL 使用能力]** | レポートスイートのレポート処理能力の使用率を、％単位でリアルタイムに表示します。 |
 | **[!UICONTROL ステータス]** | 表示される可能性のあるステータスインジケーターは次の 4 つです。 <ul><li>**赤 - [!UICONTROL 最大処理能力]**：レポートスイートがレポート処理能力の上限に達しています（100%）。 </li><li>**黄色 - [!UICONTROL ほぼ最大処理能力]**：レポートスイートが処理能力の上限に達するおそれがあります（90%～99%）。</li><li>**緑 - [!UICONTROL 良好]**：十分なレポート処理能力があります（0%～89%）。</li><li>**グレー - [!UICONTROL ステータス保留中／無効]**：レポートの処理能力を確認できません。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### レポートアクティビティのその他のアクション
 
@@ -64,13 +62,13 @@ ht-degree: 100%
 
 ![レポートスイート](/help/admin/admin/assets/indiv-report-ste.png)
 
-### 折れ線グラフ
+### 折れ線グラフ {#line}
 
 折れ線グラフには、選択したレポートスイートの過去 2 時間のレポートアクティビティが表示されます。
 
 * x 軸は、過去 2 時間のレポート処理能力データを示します。
-* y 軸は、クエリの平均待ち時間を秒単位で示します。
-* 折れ線グラフの上にマウスポインターを置くと、その時点の時刻と平均待ち時間が表示されます。
+* Y 軸には、選択したレポートスイートの使用率のレポートが分単位で表示されます。
+* 折れ線グラフの上にマウスポインターを置くと、その分の使用率 (%) が最も高い割合 (%) となる時点のポイントを表示できます。
 
    ![詳細](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ ht-degree: 100%
 
 ![フィルター](/help/admin/admin/assets/filter.png)
 
-### 概要数値
+### 概要数値 {#summary}
 
 ![フィルター](/help/admin/admin/assets/summary_numbers.png)
 
@@ -94,9 +92,9 @@ ht-degree: 100%
 | [!UICONTROL 平均待ち時間] | 実行中のすべてのクエリの平均待ち時間。 |
 | [!UICONTROL 使用能力] | このレポートスイートの現在の使用能力。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### テーブル
+### レポートスイートの詳細に関する表 {#details}
 
 以下の詳細テーブルはレポートスイートの詳細を示しています。
 
@@ -114,9 +112,9 @@ ht-degree: 100%
 | [!UICONTROL セグメント] | このリクエストに適用されるセグメントの数。これにより、リクエストがより複雑になります。 |
 | [!UICONTROL ステータス] | 次のステータスインジケーターがあります。 <ul><li>**実行中**：リクエストは現在処理中です。</li><li>**保留中**：リクエストは処理待ちの状態です。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## レポートリクエストのキャンセル
+## レポートリクエストのキャンセル {#cancel}
 
 リクエストをキャンセルするには：
 
@@ -133,10 +131,10 @@ ht-degree: 100%
 
 ![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
-## よくある質問
+## よくある質問 {#faq}
 
 | 質問 | 回答 |
 | --- | --- |
 | 追加のレポート処理能力を購入することはできますか？ | この機能は今後利用可能になる予定です。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
