@@ -4,9 +4,9 @@ title: データ要素の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: daa5a5ccfb6642c97e0f391eba6226d365caa06c
+source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '532'
 ht-degree: 77%
 
 ---
@@ -17,7 +17,7 @@ Analysis Workspace のデータ要素は、ユーザーと管理者の両方が 
 
 Analytics 管理者は、データディクショナリ内の各コンポーネントに関する情報をキュレーションして、ユーザーが利用できるようにする必要があります。
 
-![VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## ユーザーにとってのメリット
 
