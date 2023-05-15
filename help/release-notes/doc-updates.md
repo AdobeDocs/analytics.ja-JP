@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
+source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
 workflow-type: tm+mt
-source-wordcount: '4121'
-ht-degree: 94%
+source-wordcount: '4163'
+ht-degree: 96%
 
 ---
 
@@ -25,17 +25,19 @@ ht-degree: 94%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2023 年 5 月** |  |
-| Analysis Workspace の概要 | 更新済み [Analysis Workspaceの概要](/help/analyze/analysis-workspace/home.md) を参照して、より一般的な概要情報と関連するコンテンツへのリンクを含めます。 |
-| プロジェクトの作成 | 次の方法について詳しく説明する新しい記事を作成しました。 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) Analysis Workspace |
+| **2023年5月** |  |
+| IP からジオロケーションへのマッピングの改善 | 次のトピックを作成しました： [よくある質問](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| レポートアクティビティマネージャー | このベータ版ドキュメント ( 特に [個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)を更新しました。 |
+| プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |
 | 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | フリーフォームテーブルからの動的ディメンションを含む行の削除 | x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除する方法に関する情報を追加しました。 詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | パネル内にビジュアライゼーションを追加するボタン | Analysis Workspaceの各パネルの下部にある新しいボタンに関する情報を追加しました。このボタンを使用すると、ビジュアライゼーションをすばやく追加できます。 詳しくは、「パネルへのビジュアライゼーションの追加」の節を参照してください。 [ビジュアライゼーションの概要](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023年4月** |  |
-| ユーザーアセットを転送し、アカウント有効期限を設定 | 次の方法に関する情報を追加しました。 [ユーザーアセットを転送し、アカウント有効期限を設定](/help/admin/admin/user-management2/users-assets.md). |
+| ユーザーアセットの転送と、アカウントの有効期限の設定 | [ユーザーアセットの転送と、アカウントの有効期限の設定](/help/admin/admin/user-management2/users-assets.md)を行う方法に関する情報を追加しました。 |
 | Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
-| 動的検索 | 関する追加情報 [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) が追加されます。 以前は、情報はモバイル属性に対してのみ存在していました。これは、動的な検索の 1 つです。 |
+| 動的検索 | [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)に関する追加情報を追加しました。以前は、情報は、複数の動的検索の 1 つであるモバイル属性に対してのみ存在していました。 |
 | **2023年3月** |  |
 | Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
@@ -226,7 +228,7 @@ ht-degree: 94%
 | 2019年9月12日 | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
-| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 | 2019年8月8日 | Workspace では、Adobeにより、静的ドロップダウンフィルターに配置できる項目の制限が 50 から 200 に増えました。 この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
+| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 | 2019年8月8日 | Workspace では、静的ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
 | 2019年8月2日 | [Analytics 用語集](/help/technotes/terms.md)を大幅に更新しました。 |
 | 2019年7月22日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
 | 2019年7月18日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
