@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: d53b13e6f67c8a769f5e56ba1c2582450a16c920
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 100%
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
 + [Adobe Analytics が使用する IP とドメイン](ip-addresses.md)
++ [IP からジオロケーションへのマッピングの改善](ip-geo-mapping.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
 + [Mobile Services の処理ルールの Adobe Analytics への移行](migrate-mobile.md)
