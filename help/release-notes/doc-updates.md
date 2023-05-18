@@ -28,7 +28,7 @@ ht-degree: 96%
 | **2023年5月** |  |
 | IP からジオロケーションへのマッピングの改善 | 次のトピックを作成しました： [よくある質問](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | レポートアクティビティマネージャー | このベータ版ドキュメント ( 特に [個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
-| Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)を更新しました。 |
+| Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
 | プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |
 | 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | フリーフォームテーブルからの動的ディメンションを含む行の削除 | x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除する方法に関する情報を追加しました。 詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
