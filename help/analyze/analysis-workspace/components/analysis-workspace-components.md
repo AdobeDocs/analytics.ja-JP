@@ -4,7 +4,7 @@ title: コンポーネントの概要
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 71%
@@ -102,6 +102,8 @@ Analysis Workspaceの左側のパネルでコンポーネントリストを検�
 1. ドロップダウンリストに表示される場合に、コンポーネントを選択します。
 
 ### コンポーネントリストのフィルタリング
+
+{{release-limited-testing-section}}
 
 1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](assets/components-icon.png) をクリックします。
 
