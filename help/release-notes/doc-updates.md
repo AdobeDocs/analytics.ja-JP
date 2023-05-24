@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4191'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年5月** |  |
+| スペクトルアイコン | ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、該当する場合は [Adobeスペクトル設計システム](https://spectrum.adobe.com/page/icons/). |
 | IP からジオロケーションへのマッピングの改善 | 次のトピックを作成しました： [よくある質問](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | レポートアクティビティマネージャー | このベータ版ドキュメント ( 特に [個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
