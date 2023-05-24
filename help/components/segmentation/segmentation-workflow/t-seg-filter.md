@@ -3,10 +3,10 @@ description: タグ、所有者およびその他のフィルター（すべて�
 title: セグメントのフィルタリング
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 フィルタリングを使用すると、セグメントレール内でのセグメントの検索が容易になります。
 
-1. セグメントマネージャで、**[!UICONTROL フィルター]** アイコン ![](assets/filter_icon.png) をクリックします。
+1. セグメントマネージャで、**[!UICONTROL フィルター]** アイコン ![ をクリックします。](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. 次のフィルターを使用できます。
+2. 次のフィルターを使用できます。
 
    | フィルター名 | 説明 |
    |---|---|

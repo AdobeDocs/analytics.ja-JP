@@ -4,10 +4,10 @@ title: テーブルのフィルタリングと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -67,19 +67,19 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
 1. 「[!UICONTROL **適用**]」を選択して、データをフィルタリングします。
 
-   フィルターがテーブルに適用されると、**フィルター**&#x200B;アイコン（![テーブルがフィルタリングされた後の青いフィルターアイコン](assets/table-filter-blue-icon.png)）が青に変わります。
+   フィルターがテーブルに適用されると、**フィルター**&#x200B;アイコン（![テーブルがフィルタリングされた後の青いフィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)）が青に変わります。
 
 ## テーブルの並べ替え
 
 Analysis Workspace の指標の列で、フリーフォームテーブルのデータを並べ替えることができます。
 
-現在データの並べ替えに使用されている列のヘッダーに、下向き矢印アイコン（![テーブルの並べ替えに使用された列を示す下向き矢印アイコン](assets/table-sort-arrow-icon.png)）が表示されます。
+現在データの並べ替えに使用されている列のヘッダーに、下向き矢印アイコン（![テーブルの並べ替えに使用された列を示す下向き矢印アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg)）が表示されます。
 
 フリーフォームテーブルのデータを特定の列で並べ替えるには：
 
 1. データを並べ替える列のタイトルの上にポインタを合わせます。
 
-1. 下向き矢印アイコンが表示されたら選択します。
+2. 下向き矢印アイコンが表示されたら選択します。
 
    ![テーブルの並べ替えに使用された列を示す下向き矢印アイコン](assets/table-sort.png)
 

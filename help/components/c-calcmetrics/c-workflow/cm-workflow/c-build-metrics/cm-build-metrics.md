@@ -3,10 +3,10 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 計算指標マネージャ]**&#x200B;の上部にある「[追加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」をクリックします。または、
 
-* **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;を選択し、任意のレポートを開きます。次に、指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示し、「**[!UICONTROL 追加]**」をクリックします。
+* に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL レポート]**&#x200B;をクリックし、任意のレポートを開いて指標アイコンをクリックします。  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 指標レールを表示するには、 **[!UICONTROL 追加]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">概要</span> </td> 
-   <td colname="col3"> <p>「<span class="uicontrol">概要</span>」の数式は、指標の定義を変更すると更新されます。この数式は、左側の指標レールで、指標の上にカーソルを移動して <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> アイコンをクリックした場合にも表示されます。 </p> </td> 
+   <td colname="col3"> <p>「<span class="uicontrol">概要</span>」の数式は、指標の定義を変更すると更新されます。この数式は、左側の指標レールで、指標の上にカーソルを移動して <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> アイコンをクリックした場合にも表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">定義</span> </td> 
@@ -79,7 +79,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">演算子</span> </td> 
-   <td colname="col3"> <p>除算（<img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />）はデフォルトの演算子です。他にも、+、- および x があります。 </p> </td> 
+   <td colname="col3"> <p>除算（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />）はデフォルトの演算子です。他にも、+、- および x があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">プレビュー</span> </td> 

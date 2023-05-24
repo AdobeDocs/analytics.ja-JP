@@ -3,10 +3,10 @@ description: 指標を検索するための 2 つの主な方法（並べ替え�
 title: 指標の検索
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 並べ替え {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-レポートを開き、レポートの左側の指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示させると、指標セレクターの「**[!UICONTROL 並べ替え順]**」ドロップダウンリストに次の 4 つの並べ替えオプションが表示されます。
+レポートを開き、指標アイコンをクリックしたとき。  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) をクリックして、指標レールを表示させます。 **[!UICONTROL 並べ替え基準]** 指標セレクターのドロップダウンリストには、次の 4 つの並べ替えオプションが表示されます。
 
 ![](assets/cm_sort.png)
 

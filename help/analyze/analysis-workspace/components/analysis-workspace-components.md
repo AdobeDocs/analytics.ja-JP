@@ -4,10 +4,10 @@ title: コンポーネントの概要
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 71%
+source-wordcount: '1190'
+ht-degree: 66%
 
 ---
 
@@ -93,27 +93,27 @@ Analysis Workspaceの左側のパネルでコンポーネントリストを検�
 
 ### コンポーネントリストを検索
 
-1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](assets/components-icon.png) をクリックします。
+1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) をクリックします。
 
-1. 検索フィールドに、プロジェクトで使用するコンポーネントの名前を入力します。
+2. 検索フィールドに、プロジェクトで使用するコンポーネントの名前を入力します。
 
-   コンポーネントの種類は、色とアイコンの両方で識別できます。 **Dimension** ![Dimensionアイコン](assets/dimension-icon.png) オレンジ色です **セグメント** ![セグメントアイコン](assets/segment-icon.png) 青い **日付範囲** ![日付範囲アイコン](assets/date-range-icon.png) 紫色で **指標** ![指標アイコン](assets/default-metric-icon.png) は緑です。 Adobeアイコン ![Adobeアイコン](assets/default-calc-metric-icon.png) は、計算指標テンプレートまたはセグメントテンプレート、および計算ツールアイコンを示します ![計算ツールアイコン](assets/calculated-metric-icon-created.png) は、組織の Analytics 管理者が作成した計算指標を示していました。
+   コンポーネントの種類は、色とアイコンの両方で識別できます。 **Dimension** ![Dimensionアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) オレンジ色です **セグメント** ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 青い **日付範囲** ![日付範囲アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 紫色で **指標** ![指標アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) は緑です。 Adobeアイコンは、計算指標テンプレートまたはセグメントテンプレート、および計算ツールアイコンを示します ![計算ツールアイコン](assets/calculated-metric-icon-created.png) は、組織の Analytics 管理者が作成した計算指標を示していました。
 
-1. ドロップダウンリストに表示される場合に、コンポーネントを選択します。
+3. ドロップダウンリストに表示される場合に、コンポーネントを選択します。
 
 ### コンポーネントリストのフィルタリング
 
 {{release-limited-testing-section}}
 
-1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](assets/components-icon.png) をクリックします。
+1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) をクリックします。
 
-1. を選択します。 **フィルター** アイコン ![データ辞書フィルターアイコン](assets/components-filter-icon.png).
+2. を選択します。 **フィルター** アイコン ![データ辞書フィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
    または
 
    検索フィールドにシャープ記号 (#) を入力します。
 
-1. 次のいずれかのフィルターオプションを選択して、コンポーネントのリストをフィルターします。
+3. 次のいずれかのフィルターオプションを選択して、コンポーネントのリストをフィルターします。
 
    | オプション | 関数 |
    |---------|----------|
@@ -126,14 +126,14 @@ Analysis Workspaceの左側のパネルでコンポーネントリストを検�
    | [!UICONTROL **すべてを表示**] | すべてのコンポーネントの表示。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **未承認**] | 管理者が承認済みとしてまだマークしていないコンポーネントのみを表示します。レビューと承認が必要なコンポーネントを管理者が識別する際に役立ちます。このオプションは、管理者のみが使用できます。 |
 
-1. （オプション）リストをさらに絞り込むには、 [コンポーネントリストの並べ替え](#sort-the-component-list).
+4. （オプション）リストをさらに絞り込むには、 [コンポーネントリストの並べ替え](#sort-the-component-list).
 
 ### コンポーネントリストの並べ替え
 
 1. （オプション）コンポーネントリストに任意のフィルターを適用します。詳しくは、 [コンポーネントリストのフィルタリング](#filter-the-component-list).
 
-1. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](assets/components-icon.png) をクリックします。
+2. を選択します。 **コンポーネント** アイコン ![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) をクリックします。
 
-1. を選択します。 **並べ替え** アイコン ![コンポーネントを並べ替えアイコン](assets/component-sort-icon.png)次に、次のいずれかのフィルターオプションを選択して、コンポーネントのリストを並べ替えます。
+3. を選択します。 **並べ替え** アイコン ![コンポーネントを並べ替えアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)次に、次のいずれかのフィルターオプションを選択して、コンポーネントのリストを並べ替えます。
 
    {{components-sort-options}}

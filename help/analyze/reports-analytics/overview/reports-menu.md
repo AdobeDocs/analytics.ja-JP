@@ -5,8 +5,8 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Reports &amp; Analytics のレポートメニューの概要を示します。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 レポートメニューでは、次の機能を提供します。
 
@@ -61,19 +61,19 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud ソリューションメニュー <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud ソリューションメニュー <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> このアイコンをクリックすると、Experience Cloud メニューが展開し、他の Marketing Cloud ソリューションにアクセスできます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1">レポートメニューを切り替え <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">レポートメニューを切り替え <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> このボタンをクリックしてレポートメニューを展開したり折りたたんだりすることで、ブラウザーウィンドウの幅をすべて使用してレポートを表示できます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">セグメント <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">セグメント <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >セグメントビルダー</a>および<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">指標 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">指標 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> 指標と計算指標を追加または管理できる指標パネルを表示します。 </td> 
   </tr> 
   <tr> 

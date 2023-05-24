@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 | **[!UICONTROL プロジェクトを作成]**&#x200B;モーダルが復活しました | ワークスペースで「**[!UICONTROL プロジェクトを作成]**」をクリックすると、[!UICONTROL 空のプロジェクト]と[!UICONTROL 空のモバイルスコアカード]のどちらかを、再び選択できるようになりました。会社が作成した任意のテンプレートから選択することもできます。 | ![新規作成](assets/create-new.png) |
 | Customer Journey Analytics でも使用可能 | このランディングページは、変更された形式で、CJA でも使用できます。 |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## トップメニュー構造 {#top-menu}
 
@@ -195,12 +195,12 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
 
 ### 会社レポートの管理 {#manage-company-reports}
 
-管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。ピン留めされた項目は、レポートアイコン（![レポートアイコン](assets/report-icon.png)）で識別される会社レポートのリストに続いてピン留めされたままです。この表示では、1 つまたは複数のレポートを削除、名前変更、タグ付けまたは承認できます。
+管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。ピン留めされた項目は、レポートアイコン（![レポートアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)）で識別される会社レポートのリストに続いてピン留めされたままです。この表示では、1 つまたは複数のレポートを削除、名前変更、タグ付けまたは承認できます。
 
 会社レポートを表示および管理するには
 
 1. フィルターパネルでは、**その他のフィルター**&#x200B;を選択してから、**会社レポート**を選択します。
-会社レポートのリストが表示されます。すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
+会社レポートのリストが表示されます。ピン留めされていない限り、すべての通常のプロジェクトは表示されません。
 
    ![会社レポートフィルターを表示](assets/company-reports-filter.png)
 

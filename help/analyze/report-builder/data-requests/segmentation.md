@@ -4,10 +4,10 @@ title: セグメントの管理 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
    ![](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。
+   コンテナについて詳しくは、[セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
@@ -86,18 +86,18 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 セグメントコントロールを追加すると、リクエストウィザードに移動することなく、ワークブック内からセグメントを切り替えることができるようになります。
 
-1. セグメントのドロップダウンの横にあるコントロールアイコン（![](assets/control_icon.png)）をクリックします。
+1. コントロールアイコンをクリックします。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) をクリックします。
 
    ![](assets/seg_control.png)
 
-1. セグメントコントロールに表示したいセグメントのチェックボックスをオンにするか、または「**[!UICONTROL すべて選択]**」チェックボックスをオンにします。
-1. 「**[!UICONTROL リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ]**」オプションも指定します。
+2. セグメントコントロールに表示したいセグメントのチェックボックスをオンにするか、または「**[!UICONTROL すべて選択]**」チェックボックスをオンにします。
+3. 「**[!UICONTROL リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ]**」オプションも指定します。
 
    * このオプションを有効にすると、このコントロールを使用するすべてのリクエストが自動で更新されます。
    * このオプションを有効にしないと、リクエストの設定は更新されますが、リクエストのデータは更新されません。
 
-1. セグメントコントロールの左上のセルの場所を指定します。
-1. 「**[!UICONTROL OK]**」をクリックすると、指定した場所にセグメントコントロールが表示されます。
+4. セグメントコントロールの左上のセルの場所を指定します。
+5. 「**[!UICONTROL OK]**」をクリックすると、指定した場所にセグメントコントロールが表示されます。
 
    ![](assets/seg_control2.png)
 

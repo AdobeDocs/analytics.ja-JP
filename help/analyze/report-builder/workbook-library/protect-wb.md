@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -18,13 +18,9 @@ ht-degree: 100%
 
 アナリストは、ワークブックをロックすることによって、組織内の他のユーザーがワークブックリクエストを変更できないように保護できます。ただし、他のユーザーはワークブックのデータを更新することは可能です。
 
-ワークブックが編集されないように保護するには、Report Builder ツールバーの「**[!UICONTROL ロック済み]**」（![](assets/locked_icon.png)
+ワークブックが編集されないように保護するには、Report Builder ツールバーの「**[!UICONTROL ロック済み]**」（![](assets/locked_icon.png)）をクリックします。
 
-）をクリックします。
-
-ワークブックの保護を解除するには、「**[!UICONTROL ロック解除]**」（![](assets/unlocked_icon.png)
-
-）をクリックします。
+ワークブックの保護を解除するには、「**[!UICONTROL ロック解除]**」（![](assets/unlocked_icon.png)）をクリックします。
 
 次のいずれかの権限を持っている場合に、ロックされたワークブックのロックを解除できます。
 

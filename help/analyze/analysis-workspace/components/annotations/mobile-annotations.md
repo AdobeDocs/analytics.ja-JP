@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ![](assets/view-annotations.png)
 
-注釈アイコンが表示されている場合、ビルダーキャンバスで注釈を完全に表示したり操作したりすることはできません。プレビューモードを使用して、アプリに表示される注釈を表示し、操作します。![](assets/preview-icon.png)
+注釈アイコンが表示されている場合、ビルダーキャンバスで注釈を完全に表示したり操作したりすることはできません。プレビューモードを使用すると、アプリに表示される注釈の表示と操作を行うことができます ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **プレビュー**.
 
-注釈の色は、ワークスペースで注釈を作成する際に選択します。グレーの注釈は、複数の注釈が存在することを示しています。![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+注釈の色は、ワークスペースで注釈を作成する際に選択します。グレーの注釈は、複数の注釈が存在することを示しています。 
 
 ## グラフの注釈を表示
 

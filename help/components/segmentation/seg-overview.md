@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 86%
+source-wordcount: '1189'
+ht-degree: 85%
 
 ---
 
@@ -86,9 +86,9 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 セグメントビルダーには、次のようにアクセスします。
 
-* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
+* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
 
-* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![「追加」ボタン](assets/add_button.png)
+* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![「追加」ボタン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
     または
 

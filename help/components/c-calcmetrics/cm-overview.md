@@ -4,7 +4,7 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。
 
-計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケティング担当者、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
+計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
 * Adobe [!DNL Analytics] Foundation：計算指標
 * [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標        + 高度な計算指標
@@ -103,7 +103,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 指標セレクターレール </td> 
-   <td colname="col2"> <p><span class="uicontrol">Reports &amp; Analytics</span> の<span class="uicontrol">指標を表示</span>ポップアップを置き換えます。 </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >並べ替え</a>順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p><span class="uicontrol">Reports &amp; Analytics</span> の<span class="uicontrol">指標を表示</span>ポップアップを置き換えます。 </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >並べ替え</a>順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算指標の API</a> </td> 
