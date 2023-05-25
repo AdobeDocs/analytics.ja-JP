@@ -4,10 +4,10 @@ title: セグメントの管理 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
 ## セグメントの検索および適用 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Reports &amp; Analytics、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
+Reports &amp; Analytics、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 リクエストに 1 つ以上のセグメントを適用できます。これには順次セグメントも含まれます。
 
@@ -60,7 +60,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
    ![](assets/seg_list.png)
 
-1. 適用するセグメントのチェックボックスをオンにします。
+2. 適用するセグメントのチェックボックスをオンにします。
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 ## セグメントの一覧の更新 {#section_22E4A86789444B4A998532396B476EFB}
 
-新規セグメントを追加したり、既存のセグメントを編集したりするたびに、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
+新しいセグメントを追加したり、既存のセグメントを編集したりした場合は、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) をクリックして、キャッシュされたセグメントリストを更新します。
 
 ## 複数のリクエストにわたるセグメントの管理 {#section_C3D63FCBE1A94369A319243313B03C93}
 

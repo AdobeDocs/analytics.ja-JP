@@ -3,10 +3,10 @@ description: 権限に応じて、セグメントを組織全体、グループ�
 title: セグメントの共有
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 91%
 
 ---
 
@@ -27,14 +27,10 @@ ht-degree: 100%
 
 1. セグメントマネージャで、共有するセグメントの横にあるチェックボックスを選択します。セグメント管理ツールバーが表示されます。
 
-   ![](assets/segment_mgmt_toolbar.png)
-
-1. 「**[!UICONTROL 共有]**」をクリックします。
-
-   ![](assets/sharing_segments.png)
+2. クリック **[!UICONTROL 共有]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    管理者は、「**[!UICONTROL すべて]**」を選択できます。また、組織内の&#x200B;**[!UICONTROL グループ]**&#x200B;または&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択することもできます。管理者以外は、個々のユーザーのみを表示できます。**[!UICONTROL 検索]**&#x200B;フィールドを使用して、グループまたはユーザーを検索します。1. 「**[!UICONTROL 共有]**」をクリックします。
 
-   セグメントの横に共有アイコン  が表示されます。![](assets/share_icon.png)
+   セグメントの横に共有アイコン  が表示されます。![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-1. **[!UICONTROL フィルター]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 自分と共有]**&#x200B;に移動して、自分と共有しているセグメントをフィルタリングできます。
+3. **[!UICONTROL フィルター]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 自分と共有]**&#x200B;に移動して、自分と共有しているセグメントをフィルタリングできます。

@@ -3,10 +3,10 @@ description: セグメントマネージャでは、セグメントを様々な�
 title: セグメントの管理 (セグメントマネージャ)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Analytics セグメントマネージャには、自分が所有しているすべてのセグメントと、自分が共有しているセグメントが表示されます。管理者レベルのユーザーは、組織内のすべてのセグメントを表示できます。この概要では、セグメントマネージャのユーザーインターフェイスと機能について説明します。セグメントビルダーには、次のようにアクセスします
 
 * 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;に移動します。
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。
 
 ## ハウツービデオ {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

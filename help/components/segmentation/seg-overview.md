@@ -3,9 +3,9 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1197'
 ht-degree: 85%
 
 ---
@@ -102,7 +102,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 * 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
 
-* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
+* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
 
 * インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
 

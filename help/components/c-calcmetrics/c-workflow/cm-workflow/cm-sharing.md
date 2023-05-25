@@ -3,9 +3,9 @@ description: 権限に応じて、指標を組織全体、グループまたは�
 title: 計算指標の共有
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '324'
 ht-degree: 24%
 
 ---
@@ -23,11 +23,13 @@ ht-degree: 24%
 
 1. 計算指標マネージャで、共有する指標の左側にあるチェックボックスを選択します。
 
-1. 「**[!UICONTROL 共有]**」を選択します。
+1. 次をクリック： **[!UICONTROL 共有]** アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    計算指標の共有ダイアログボックスが表示されます。
 
    ![](assets/cm_share.png)
+
+1. 「**[!UICONTROL 共有]**」をクリックします。
 
 1. 共有先を選択：
 
@@ -45,6 +47,9 @@ ht-degree: 24%
 
 1. 「**[!UICONTROL 共有]**」を選択します。
 
-   指標の横に共有アイコン  が表示されます。![](assets/share_icon.png)
+   指標の横に共有アイコンが表示されます。  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+
+1. **[!UICONTROL フィルター]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 自分と共有]**&#x200B;に移動して、自分と共有している指標をフィルタリングできます。
 
 1. （オプション）計算指標マネージャーで計算指標のリストをフィルターして、自分と共有している指標のみを表示するには、 **フィルター** アイコン、展開 **[!UICONTROL その他のフィルター]**&#x200B;を選択し、「 **[!UICONTROL 自分と共有済み]**.
+
