@@ -3,29 +3,26 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 97%
+source-wordcount: '962'
+ht-degree: 90%
 
 ---
 
 # 指標の作成
 
-計算指標ビルダーは、ディメンション、指標、セグメントおよび関数をドラッグ＆ドロップし、コンテナ階層ロジック、ルール、演算子に基づいてカスタム指標を作成するためのキャンバスです。この統合開発ツールでは、シンプルな計算指標または複雑で高度な計算指標を作成および保存できます。
+Adobe Analyticsのキャンバスにディメンション、指標、セグメントおよび関数をドラッグ&amp;ドロップすると、コンテナ階層のロジック、ルールおよび演算子に基づいてカスタム指標を作成できます。 この統合開発ツールでは、シンプルまたは複雑な計算指標を作成および保存できます。
 
-計算指標ビルダーにアクセスする方法はいくつかあります。
+計算指標の作成は、次のいずれかの方法で開始できます。
 
-* Analysis Workspace で、プロジェクトを開いて、**[!UICONTROL + 新規作成]**／**[!UICONTROL 指標を作成]**&#x200B;をクリックします。
-* [!DNL Analytics] で、**[!UICONTROL コンポーネント]**／**[!UICONTROL 計算指標]**&#x200B;を選択します。
-
-* **[!UICONTROL 計算指標マネージャ]**&#x200B;の上部にある「[追加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」をクリックします。または、
-
-* に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL レポート]**&#x200B;をクリックし、任意のレポートを開いて指標アイコンをクリックします。  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 指標レールを表示するには、 **[!UICONTROL 追加]**.
+* Analysis Workspaceで、プロジェクトを開き、「 」を選択します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL 指標を作成]**.
+* Analysis Workspaceで、プロジェクトを開き、 **プラス** 横のアイコン [!UICONTROL **指標**] セクションをクリックします。
+* In [!DNL Analytics]に移動します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL 計算指標]**&#x200B;を選択し、「 **[!UICONTROL +追加]** をクリックします。
 
 ![](assets/cm_builder_ui.png)
 
-## UI コンポーネント {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## 使用可能なフィールドと領域 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 

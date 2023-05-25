@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -186,14 +186,14 @@ ht-degree: 95%
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [「訪問あたりのページビュー数」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [「注文支援」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [「パーティシペーション」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [シンプルな「訪問あたりのページビュー数」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [注文支援指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [パーティシペーション指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [計算指標のタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
