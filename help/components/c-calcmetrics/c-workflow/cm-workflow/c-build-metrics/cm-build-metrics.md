@@ -3,10 +3,10 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 991b2a8597ca59aab9869437d7f4097a8f638b90
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 87%
+source-wordcount: '1010'
+ht-degree: 47%
 
 ---
 
@@ -14,128 +14,41 @@ ht-degree: 87%
 
 Adobe Analyticsのキャンバスにディメンション、指標、セグメントおよび関数をドラッグ&amp;ドロップすると、コンテナ階層のロジック、ルールおよび演算子に基づいてカスタム指標を作成できます。 この統合開発ツールでは、シンプルまたは複雑な計算指標を作成および保存できます。
 
+## 計算指標の作成を開始する
+
 計算指標の作成は、次のいずれかの方法で開始できます。
 
 * Analysis Workspaceで、プロジェクトを開き、「 」を選択します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL 指標を作成]**.
 * Analysis Workspaceで、プロジェクトを開き、 **プラス** 横のアイコン [!UICONTROL **指標**] セクションをクリックします。
 * In [!DNL Analytics]に移動します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL 計算指標]**&#x200B;を選択し、「 **[!UICONTROL +追加]** をクリックします。
 
+## 計算指標ビルダーの領域
+
+次の画像と付属の表は、計算指標マネージャの主な機能の一部を説明しています。
+
 ![](assets/cm_builder_ui.png)
 
-## 使用可能なフィールドと領域 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+| 画像内の場所 | 名前と関数 |
+|---|---|
+| 1 | **タイトル：** 指標の名前は必須です。 名前を付けていない指標は保存できません。 |
+| 2 | **説明：** ユーザーにわかりやすい説明を入力して、その用途を示し、類似のものと区別するために使用されているものを示します。 <p>この説明はレポート内にも表示されます。説明には数式を記述しないことをお勧めします。その代わりに、この指標を使うべき状況と使ってはいけない状況について記述してください（数式は、指標の作成時に「概要」という見出しの下に生成されます。そのため、この説明に数式を追加する必要はありません）。 </p> |
+| 3 | **形式：** 小数、時間、割合、通貨から選択できます。 |
+| 4 | **小数点以下の桁数：** レポートに表示する小数点以下の桁数を示します。 指定可能な小数点以下の桁数の最大値は 10 です。 |
+| 5 | **上昇傾向を次の形式で表示：** この指標の極性設定は、Analytics が指標の上昇傾向を良い（緑）と見なすか悪い（赤）と見なすかを示します。 そのため、レポートのグラフは、上昇傾向の場合に緑または赤で表示されます。 |
+| 6 | **タグ：** タグ付けは、指標を整理するのに適しています。 すべてのユーザーがタグを付けることができます。指標には 1 つ以上のタグを適用できます。ただし、自分が所有しているまたは自分が共有していたセグメントに対するタグのみを表示できます。どのような種類のタグを作成する必要がありますか。次に、便利なタグのいくつかを示します。<ul><li>**チーム名**（ソーシャルマーケティング、モバイルマーケティングなど）。</li><li>**プロジェクト** （分析タグ）を使用できます。</li><li>**カテゴリ**&#x200B;女性用のものなど。地域。</li><li>**ワークフロー**（承認待ちなど）（特定のビジネスユニット向けの）キュレーション</li></ul> |
+| 7 | **概要:** <p>「概要」の数式は、指標の定義を変更すると更新されます。この数式は、左側の指標レールで、指標の上にマウスポインターを置いて <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> アイコン </p> |
+| 8 | **定義：** ここで、指標/計算指標、セグメントまたは関数をドラッグして、計算指標を作成します。 <ul><li>計算指標をドラッグすると、指標の定義が自動的に展開されます。 </li> <li>コンテナを使用して定義をネストできます。ただし、セグメントコンテナとは異なり、これらのコンテナは数式のように機能し、演算の順序を指定します。 </li> </ul> |
+| 9 | **演算子：** 除算 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) はデフォルトの演算子です。他にも、+、 — および x の演算子があります。 |
+| 10 | **プレビュー：** 考えられるエラーに関する簡単な情報を提供します。 プレビューには過去 90 日の情報が表示されます。これは、指標に適したコンポーネントを選択したかどうかを最初に判断するための手段です。予期しない結果が生じた場合は、指標の定義を見直す必要があります。 |
+| 11 | **製品の互換性:** <p>「製品の互換性」は、指標が「<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ja"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> |
+| 12 | **追加：** すべてのタイプの計算指標について、コンテナおよび静的な数値を定義に追加できます。 高度な計算指標の場合、セグメントおよび関数も追加できます。 <ul><li>コンテナは数式のように機能し、演算の順序を指定します。そのため、コンテナ内の項目は、次の演算の前に処理されます。</li><li>コンテナにセグメントをドラッグすると、そのコンテナ内のすべての項目がセグメント化されます。（高度な計算指標のみ）</li><li>コンテナでは複数のセグメントを積み重ねることができます。</li></ul> |
+| 13 | **歯車アイコン（指標タイプ、アトリビューション）:** 指標の横にある歯車アイコンをクリックすると、 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > 指標タイプとアトリビューションモデル </a>. |
+| 14 | **新規：** 新しいセグメントなどの新しいコンポーネントを作成できます ( 新しいセグメントを作成する場合は、 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > セグメントビルダー </a>.) |
+| 15 | **コンポーネントを検索：** この検索バーでは、ディメンション、指標、セグメント（高度な計算指標のみ）および関数（高度な計算指標のみ）を検索できます。 |
+| 16 | **Dimensionのリスト：** （セグメントビルダーで）シンプルなセグメントを作成するために、計算指標ビルダーから離れる代わりに、「Page = Homepage」と入力した場合は、Page にドラッグして、計算指標ビルダーから直接「Homepage」を選択できます。<p>これにより、セグメントを利用する計算指標の作成が容易になります。</p> |
+| 17 | **指標のリスト：** 指標は次の 3 つのカテゴリに分類されます。 <ul> <li>標準指標 (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>計算指標 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) — リストの最下部に表示されます。 </li> </ul> <p>指標の上にマウスポインターを置くと、右側に情報アイコンが表示されます。 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />に移動します。このアイコンをクリックすると、次の情報が表示されます。 </p><ul> <li>指標の計算を行うための数式。 </li><li>指標の傾向のプレビュー </li><li>編集（鉛筆）アイコン <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> 右上に表示されます。計算指標ビルダーが表示され、この計算指標を編集できます。 </li></ul> |
+| 18 | **セグメントのリスト：** （高度な計算指標のみ）管理者は、このリストにログイン会社で作成されたすべてのセグメントを表示します。 管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ja"  >さらに詳しく... </a> |
+| 19 | **関数のリスト：** （高度な計算指標のみ）関数は次の 2 つのリストに分かれています。 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > 基本 </a> （最も頻繁に使用されます）および <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > 詳細 </a>. |
+| 20 | **レポートスイートの選択：** 別のレポートスイートに切り替えることができます。 |
 
-<table id="table_60A82936321047D1A335331BF83B0972"> 
- <thead> 
-  <tr> 
-   <th colname="col2" class="entry"> フィールド </th> 
-   <th colname="col3" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">タイトル</span> </td> 
-   <td colname="col3"> <p>指標には必ず名前を付ける必要があります。名前を付けていない指標は保存できません。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">説明</span> </td> 
-   <td colname="col3"> <p>指標の用途を示し、類似した指標と区別するための、ユーザーにわかりやすい説明を入力します。 </p> <p>この説明はレポート内にも表示されます。説明には数式を記述しないことをお勧めします。その代わりに、この指標を使うべき状況と使ってはいけない状況について記述してください（数式は、指標の作成時に「概要」という見出しの下に生成されます。そのため、この説明に数式を追加する必要はありません）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">形式</span> </td> 
-   <td colname="col3"> <p>小数、時間、割合、通貨から選択できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">小数点以下の桁数</span> </td> 
-   <td colname="col3"> <p>レポートに表示する小数点以下の桁数を示します。指定可能な小数点以下の桁数の最大値は 10 です。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">上昇傾向を次の形式で表示</span> </td> 
-   <td colname="col3"> <p>この指標の両極性の設定は、Analytics が指標の上昇傾向を良い（緑）または悪い（赤）のどちらと見なすべきかを示します。そのため、レポートのグラフは、上昇傾向の場合に緑または赤で表示されます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> タグ </span> </td> 
-   <td colname="col3"> <p>タグ付けは、指標を管理するための便利な方法です。すべてのユーザーがタグを付けることができます。指標には 1 つ以上のタグを適用できます。ただし、自分が所有しているまたは自分が共有していたセグメントに対するタグのみを表示できます。どのような種類のタグを作成する必要がありますか。次に、便利なタグのいくつかを示します。 
-     <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
-      <li id="li_A8815F2D8D284874AD701A7B103D82A3">ソーシャルマーケティング、モバイルマーケティングなど、<b>チーム名</b>に基づくタグ。 </li> 
-      <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>プロジェクト</b>タグ（分析タグ）：入口ページ分析など。 </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>カテゴリ</b>タグ：メンズ、地域。 </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>ワークフロー</b>タグ：承認済み、（特定のビジネスユニット向けの）キュレーション。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">概要</span> </td> 
-   <td colname="col3"> <p>「<span class="uicontrol">概要</span>」の数式は、指標の定義を変更すると更新されます。この数式は、左側の指標レールで、指標の上にカーソルを移動して <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> アイコンをクリックした場合にも表示されます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">定義</span> </td> 
-   <td colname="col3"> <p>ここで、指標／計算指標、セグメントまたは関数をドラッグして、計算指標を作成します。 </p> <p> 
-     <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
-      <li id="li_01776C32C7C5440AA1F847096CBED92B">計算指標をドラッグすると、指標の定義が自動的に展開されます。 </li> 
-      <li id="li_A483D352522E4572AB43042473053359">コンテナを使用して定義をネストできます。ただし、セグメントコンテナとは異なり、これらのコンテナは数式のように機能し、演算の順序を指定します。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">演算子</span> </td> 
-   <td colname="col3"> <p>除算（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />）はデフォルトの演算子です。他にも、+、- および x があります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">プレビュー</span> </td> 
-   <td colname="col3"> <p>可能性のあるエラーについて簡単に確認できます。プレビューには過去 90 日の情報が表示されます。これは、指標に適したコンポーネントを選択したかどうかを最初に判断するための手段です。予期しない結果が生じた場合は、指標の定義を見直す必要があります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">製品の互換性</span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ja"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">追加</span> </td> 
-   <td colname="col3"> <p>どのようなタイプの計算指標の場合でも、コンテナおよび静的な数値を定義に追加できます。高度な計算指標の場合、セグメントおよび関数も追加できます。 </p> <p> 
-     <ul id="ul_607C1B303F334062BC620317667DE490"> 
-      <li id="li_53462789B8AF4F1AA9B45565D37CF22B">コンテナは数式のように機能し、演算の順序を指定します。そのため、コンテナ内の項目は、次の演算の前に処理されます。 </li> 
-      <li id="li_401A9E0D8B3B468990289DBF66A06F63">コンテナにセグメントをドラッグすると、そのコンテナ内のすべての項目がセグメント化されます。（高度な計算指標のみ） </li> 
-      <li id="li_F191B200D7A944F9ADC0573A9A82A6DA">コンテナでは複数のセグメントを積み重ねることができます。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> 歯車アイコン（<span class="uicontrol">指標タイプ</span>、<span class="uicontrol">アトリビューション</span>） </td> 
-   <td colname="col3"> <p>指標の横にある歯車アイコンをクリックすると、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >指標タイプとアトリビューションモデル</a>を指定できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol">+ 新規</span> </td> 
-   <td colname="col3"> <p>新しいセグメントなど新しいコンポーネントを作成できます（新しいセグメントを作成する場合は、<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >セグメントビルダー</a>が表示されます）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>コンポーネントを検索 </p> </td> 
-   <td colname="col3"> <p>この検索バーを使用して、ディメンション、指標、セグメント（高度な計算指標のみ）および関数（高度な計算指標のみ）を検索できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>ディメンションリスト </p> </td> 
-   <td colname="col3"> <p>（セグメントビルダーで）シンプルなセグメント（例：「Page = Homepage」）を作成するときに、計算指標ビルダーから離れずに、直接ディメンション（例：Page）をドラッグしてアイテム（例：Homepage）を選択できます。 </p> <p>これにより、セグメントを利用する計算指標の作成が容易になります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>指標リスト </p> </td> 
-   <td colname="col3"> <p>指標は次の 3 つのカテゴリに分かれています。 </p> 
-    <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">標準指標（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />） </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算指標（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />） </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />） - リストの一番下。 </li> 
-    </ul> <p>指標の上にカーソルを移動すると、右側に情報アイコンが表示されます<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。このアイコンをクリックすると、次の情報が表示されます。 </p> 
-    <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
-     <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">指標の計算を行うための数式。 </li> 
-     <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">指標の傾向のプレビュー </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">編集（鉛筆）アイコン <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> 右上に表示されます。計算指標ビルダーが表示され、この計算指標を編集できます。 </li> 
-    </ul> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ja"  >さらに詳しく... </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>関数リスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本的な関数</a>（最も頻繁に使用される関数）と<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >高度な関数</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>レポートスイートの選択 </p> </td> 
-   <td colname="col3"> <p>別のレポートスイートに切り替えることができます。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}

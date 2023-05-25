@@ -3,16 +3,22 @@ description: セグメントマネージャでは、アプリケーションの�
 title: セグメントの承認
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
 # セグメントの承認
 
-セグメントマネージャでは、アプリケーションの各種レベル向け、特定の部門またはグループ向け、およびレポーティングポリシーに合致したセグメントを承認するワークフローを設定できます。
+セグメントマネージャ内で、様々なレベルのアプリケーション、特定の部門またはグループに対するセグメントの承認、およびレポートポリシーに合致したセグメントの承認を含むワークフローを設定できます。
+
+>[!NOTE]
+>
+>管理者は、データディクショナリからセグメント（および他のコンポーネント）を承認することもできます。詳しくは、 [データディクショナリ内のコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>データディクショナリで承認されたセグメントは、セグメントマネージャに反映されます。 同様に、セグメントマネージャーで承認された指標は、データディクショナリに反映されます。
 
 次に、セグメントに承認フラグを設定する方法を示します。
 

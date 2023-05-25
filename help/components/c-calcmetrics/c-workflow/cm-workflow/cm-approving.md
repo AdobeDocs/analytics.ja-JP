@@ -3,16 +3,22 @@ description: 計算指標マネージャ内では、様々なレベルのアプ�
 title: 計算指標の承認
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # 計算指標の承認
 
-計算指標マネージャでは、様々なレベルのアプリケーションや、特定の部門またはグループに対する指標の承認を含むワークフローを設定できます。
+管理者は、計算指標マネージャで、様々なレベルのアプリケーションや特定の部門またはグループに対して指標を承認するワークフローを設定できます。
+
+>[!NOTE]
+>
+>管理者は、データディクショナリから計算指標（および他のコンポーネント）を承認することもできます。詳しくは、 [データディクショナリ内のコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>データディクショナリで承認された計算指標は、計算指標マネージャーに反映されます。 同様に、計算指標マネージャーで承認された指標は、データディクショナリに反映されます。
 
 計算指標を承認済みとしてマークするには：
 

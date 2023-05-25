@@ -4,10 +4,10 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 * [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
-次に、計算指標と高度な計算指標の機能の比較を示します。
+以下に、計算指標と高度な計算指標の機能の比較を示します。
 
-| ビルダーのオプション | 計算指標 | 高度な計算（派生）指標 |
+| ビルダーのオプション | 計算指標  | 高度な計算（派生）指標 |
 |---|---|---|
 | [形式のタイプ（小数、時間、割合、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | ○ | ○ |
 | [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
@@ -44,11 +44,11 @@ ht-degree: 100%
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標のセグメント。例えば、これが最初のセッションである人の数を使用して、「新規訪問者」の指標を作成できます。以下は、このトピックに関するビデオです。
+* （高度な計算指標のみ）指標でセグメント化する。 例えば、これが最初のセッションである人の数を使用して、「新規訪問者」の指標を作成できます。以下は、このトピックに関するビデオです。
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* （高度な計算指標のみ）統計関数を組み込んで、データからより適切な情報を得る。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
+* （高度な計算指標のみ）統計関数を組み込み、データをより深く記述できるようにします。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
 ## 制限事項 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## ツール {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-ここでは、[!UICONTROL 計算指標]ツールの概要を簡単に示します。
+以下に、 [!UICONTROL 計算指標] ツール：
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
