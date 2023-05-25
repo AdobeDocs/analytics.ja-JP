@@ -5,9 +5,9 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 3a9dc661ce9243174bef45e689366baa58cf45b3
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1816'
 ht-degree: 53%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 53%
 
 * 組織外の担当者
 
-* Adobe Analyticsでプロビジョニングされていない組織内の担当者
+* Adobe Analyticsへのアクセス権を持たない組織内の担当者
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 53%
 >
 >* 50 を超えるビジュアライゼーションが展開されたプロジェクトは、Adobe Analyticsへのアクセス権を持たないユーザーとは共有できません。
 >
->* 共有したユーザーは、 [キュレーション](curate.md).
+>* プロジェクトを共有するユーザーは、 [キュレーション](curate.md).
 > 
 >* 共有するユーザーがプロジェクトの日付範囲を変更できます。 プロジェクトに設定した日付範囲がデフォルトで表示されます。
 >
