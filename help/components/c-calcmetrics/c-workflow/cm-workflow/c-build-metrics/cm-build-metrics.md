@@ -3,10 +3,10 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analyticsのキャンバスにディメンション、指標、セグメ�
 
 ## 計算指標ビルダーの領域
 
-次の画像と付属の表は、計算指標マネージャの主な機能の一部を説明しています。
+次の画像と付属の表は、計算指標ビルダーの主な機能と主な機能を説明しています。
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ Adobe Analyticsのキャンバスにディメンション、指標、セグメ�
 | 8 | **定義：** ここで、指標/計算指標、セグメントまたは関数をドラッグして、計算指標を作成します。 <ul><li>計算指標をドラッグすると、指標の定義が自動的に展開されます。 </li> <li>コンテナを使用して定義をネストできます。ただし、セグメントコンテナとは異なり、これらのコンテナは数式のように機能し、演算の順序を指定します。 </li> </ul> |
 | 9 | **演算子：** 除算 ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) はデフォルトの演算子です。他にも、+、 — および x の演算子があります。 |
 | 10 | **プレビュー：** 考えられるエラーに関する簡単な情報を提供します。 プレビューには過去 90 日の情報が表示されます。これは、指標に適したコンポーネントを選択したかどうかを最初に判断するための手段です。予期しない結果が生じた場合は、指標の定義を見直す必要があります。 |
-| 11 | **製品の互換性:** <p>「製品の互換性」は、指標が「<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ja"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> |
+| 11 | **製品の互換性：** 製品の互換性は、指標が <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ja"  > 現在のデータ </a>、「完全処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれかを選択できます。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> |
 | 12 | **追加：** すべてのタイプの計算指標について、コンテナおよび静的な数値を定義に追加できます。 高度な計算指標の場合、セグメントおよび関数も追加できます。 <ul><li>コンテナは数式のように機能し、演算の順序を指定します。そのため、コンテナ内の項目は、次の演算の前に処理されます。</li><li>コンテナにセグメントをドラッグすると、そのコンテナ内のすべての項目がセグメント化されます。（高度な計算指標のみ）</li><li>コンテナでは複数のセグメントを積み重ねることができます。</li></ul> |
 | 13 | **歯車アイコン（指標タイプ、アトリビューション）:** 指標の横にある歯車アイコンをクリックすると、 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > 指標タイプとアトリビューションモデル </a>. |
 | 14 | **新規：** 新しいセグメントなどの新しいコンポーネントを作成できます ( 新しいセグメントを作成する場合は、 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > セグメントビルダー </a>.) |

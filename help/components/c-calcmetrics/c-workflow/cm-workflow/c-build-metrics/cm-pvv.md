@@ -3,18 +3,16 @@ description: シンプルな「訪問あたりのページビュー数」指標�
 title: シンプルな「訪問あたりのページビュー数」指標の作成
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '234'
 ht-degree: 54%
 
 ---
 
-# シンプルな「訪問あたりのページビュー数」指標の作成
+# 「訪問あたりのページビュー数」指標の作成
 
 次の情報では、シンプルな「訪問あたりのページビュー数」指標の作成方法を説明します。
-
-UI コンポーネントについて詳しくは、 [指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 シンプルな「訪問あたりのページビュー数」指標を作成するには：
 
