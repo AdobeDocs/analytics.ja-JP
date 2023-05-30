@@ -2,10 +2,10 @@
 title: collectHighEntropyUserAgentHints
 description: collectHighEntropyUserAgentHints 変数を使用して、Chromium ブラウザー（Google Chrome や Microsoft Edge など）から高エントロピーヒントをアドビがリクエストするかどうかを決定します。
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,8 @@ Adobe Analytics は高エントロピーのクライアントヒントを使用�
 **[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]**&#x200B;は、Adobe Analytics 拡張機能を設定する際に表示される一般アコーディオンの下にあるチェックボックスです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/@adobepm/data-collection) にログインします。
-
 1. 目的の[!UICONTROL タグプロパティ]をクリックします。
-
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」をクリックします。
-
 1. [!UICONTROL 一般]アコーディオンをを展開して、「[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]」チェックボックスを表示します。デフォルトでは選択解除されています。
 
 ## AppMeasurement の collectHighEntropyUserAgentHints

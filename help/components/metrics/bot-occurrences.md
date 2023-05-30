@@ -2,9 +2,7 @@
 title: ボットの発生件数
 description: ボットルールに一致したヒットの数。
 exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
-hide: true
-hidefromtoc: true
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 4%

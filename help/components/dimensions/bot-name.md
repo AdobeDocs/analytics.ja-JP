@@ -2,9 +2,7 @@
 title: ボット名
 description: ボットルールに一致したボットの名前。
 exl-id: 668c1dce-c603-477a-9df7-dacb649bbf63
-hide: true
-hidefromtoc: true
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 3%
