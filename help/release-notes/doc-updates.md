@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4191'
-ht-degree: 96%
+source-wordcount: '4226'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 96%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023年6月** |  |
+| 計算指標の更新 | 計算指標に関する様々な記事が更新されました。例えば、スクリーンショットの更新や手順などが更新されました。 これらの変更は、ドキュメントを現在のAdobe Analytics機能とインライン化するためにおこなわれました。 |
 | **2023年5月** |  |
 | スペクトルアイコン | ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、該当する場合は [Adobeスペクトル設計システム](https://spectrum.adobe.com/page/icons/). |
 | IP からジオロケーションへのマッピングの改善 | 次のトピックを作成しました： [よくある質問](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
