@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 85%
+source-wordcount: '1196'
+ht-degree: 69%
 
 ---
 
@@ -14,71 +14,231 @@ ht-degree: 85%
 
 セグメントを使用すると、特性や web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。セグメントは、特定のニーズに合わせて構築し、他のAdobeメンバーと検証、編集、共有したり、他のチーム製品や Analytics 機能で使用したりできるオーディエンスインサイトとして設計されています。
 
-セグメントは、[!UICONTROL 訪問者]、[!UICONTROL 訪問]および[!UICONTROL ヒット]の各レベル階層に基づき、ネストされたコンテナモデルを使用して構成されます。ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
+セグメントは、 [!UICONTROL 訪問者], [!UICONTROL 訪問]、および [!UICONTROL ヒット] 階層の階層をネストされたコンテナモデルを使用して作成します。 ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
 セグメントビルダーでセグメントを作成して保存することも、Analysis Workspace でフォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
 
-セグメントは、訪問者の特性（国、性別、コーヒーショップ）、訪問者が使用しているデバイスとサービス（ブラウザー、検索エンジン、モバイルデバイス）、訪問者のナビゲーション元（検索エンジン、直前の終了ページ、自然検索）およびその他多数の情報を識別します。
+セグメント 特定する
 
-![](assets/seg.png)
+- 訪問者（国、性別、コーヒーショップ）
+- 使用するデバイスやサービス（ブラウザー、検索エンジン、モバイルデバイス）
+- 訪問者が移動した場所（検索エンジン、前の出口ページ、自然検索）
+- さらに多くを。
+
+<!--![](assets/seg.png)-->
 
 次の値に基づくセグメントを作成できます。
 
-* 属性に基づく訪問者 - ブラウザーのタイプ、デバイス、訪問回数、国、性別。
-* インタラクションに基づく訪問者 - キャンペーン、キーワード検索、検索エンジン。
-* 出口および入口に基づく訪問者 - Facebook、定義済みのランディングページ、参照ドメインからの訪問者。
-* カスタム変数に基づく訪問者 - フォームフィールド、定義済みのカテゴリ、顧客 ID。
+- 属性に基づく訪問者 - ブラウザーのタイプ、デバイス、訪問回数、国、性別。
+- インタラクションに基づく訪問者 - キャンペーン、キーワード検索、検索エンジン。
+- 出口および入口に基づく訪問者 - Facebook、定義済みのランディングページ、参照ドメインからの訪問者。
+- カスタム変数に基づく訪問者 - フォームフィールド、定義済みのカテゴリ、顧客 ID。
 
 セグメントビルダーで閲覧者セグメントを作成するときに、コンテナ間で [!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して条件を定義できます。
 
-![](assets/standard_segment_containers.png)
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪問者</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問回数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+</table>
+
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪問者</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">または</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問回数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+</table>
+
+<!--![](assets/standard_segment_containers.png)-->
 
 このようなセグメントは、[!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して結合された特性に基づいてデータセットをフィルタリングします。
 
-* [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/seg-workflow.md)できます。
-* セグメントが、レポートスイート全体で共通になりました。
-* [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)は、セグメント作成を簡素化します。
-* [セグメントマネージャ](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
-* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。
-* [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
-* この [!UICONTROL ページビュー] コンテナが [!UICONTROL ヒット] コンテナを使用して、このコンテナが、ページビューだけでなく、すべてのタイプのデータをセグメント化することを示します。 例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。
+- [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/seg-workflow.md)できます。
+- セグメントが、レポートスイート全体で共通になりました。
+- [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)は、セグメント作成を簡素化します。
+- [セグメントマネージャ](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
+- フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。
+- [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
+- この [!UICONTROL ページビュー] コンテナが [!UICONTROL ヒット] コンテナを使用して、このコンテナが、ページビューだけでなく、すべてのタイプのデータをセグメント化することを示します。 例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。
 
 ## Analysis Workspaceでのセグメント化
 
 Analysis Workspaceには、次の追加機能が含まれています。
 
-* [セグメントを比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ja)できます。
-* 比較の[ディメンションとしてセグメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)を使用できます。
-* [フォールアウト分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=ja)でセグメントを使用できます。
+- [セグメントを比較](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)できます。
+- 比較の[ディメンションとしてセグメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)を使用できます。
+- [フォールアウト分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)でセグメントを使用できます。
 
 ## Adobe提供のセグメント
 
-画面の左側のコンポーネントレールには、自分と自分の会社が作成したセグメントと、標準で提供されているAdobeセグメントが表示されます。 クリック時 **[!UICONTROL すべて表示]**&#x200B;に含まれていない場合、通常、これらのセグメントはリストの下部に表示され、右側のAdobeロゴで識別されます。 以下は、Adobe提供のセグメントの一部です。
-
-![Adobeセグメント](assets/adobe-segs.png)
+画面の左側のコンポーネントレールには、ユーザーとその会社およびAdobeが作成した、初期設定で用意されているセグメントが表示されます。 クリック時 **[!UICONTROL すべて表示]**&#x200B;に含まれていない場合、通常、これらのセグメントはリストの下部に表示され、右側のAdobeロゴで識別されます。
 
 ## 順次セグメント {#sequential}
 
 順次セグメントでは、サイト間でのナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションのセグメントを提供できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
 
-![](assets/sequential_seg.png)
+<!--![](assets/sequential_seg.png)-->
 
 | 訪問 1 | 訪問 2 | 訪問 3 |
 |---|---|---|
-| 1 回目の訪問では、訪問者はメインランディングページ（A）にアクセスし、キャンペーンページ（B）にアクセスせず、製品ページ（C）を閲覧しています。 | 2 回目の訪問では、訪問者は再度メインランディングページ（A）にアクセスし、キャンペーンページ（B）にアクセスせず、再度製品ページ（C）にアクセスし、さらに、新しいページ（D）にアクセスしています。 | 3 回目の訪問では、訪問者は 1 回目および 2 回目の訪問時と同じページに入って同じページをたどり、ページ F にアクセスせずに、目標とする製品ページ（G）に直接移動しています。 |
+| 最初の訪問では、訪問者はメインランディングページ A にアクセスし、キャンペーンページ B にアクセスせず、製品ページ C を閲覧しました。 | 2 回目の訪問では、訪問者は再びメインランディングページ A にアクセスし、キャンペーンページ B にアクセスせず、再び製品ページ C にアクセスし、さらに新しいページ D にアクセスしました。 | 3 回目の訪問で、訪問者は最初の訪問と 2 回目の訪問と同じページに入って同じページをたどり、ページ F にアクセスせずに、ターゲットとなる製品ページ G に直接移動しました。 |
 
 次のヒット値に基づく順次セグメントを定義できます。
 
-* ページヒット順序に基づく訪問者 - 単一の訪問のページビュー、個別訪問間のページビュー、ページビューを行わない訪問。
-* ページビュー間またはページビュー後の時間に基づく訪問者 - 期間終了後、ヒット間、イベント後。
+- ページヒットのシーケンスに基づく訪問者：単一の訪問内のページビュー、個別訪問間のページビュー、ページビューを除外した訪問。
+- ページビュー間およびページビュー後の時間に基づく訪問者：制限時間後、ヒット間、イベント後。
 
-![](assets/sequential_segmentation_containers_view.png)
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪問者</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問回数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+</table>
+
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪問者</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 訪問回数</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>または</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+</tr>
+</tr>
+</table>
+
+<!--![](assets/sequential_segmentation_containers_view.png)-->
 
 順次セグメントでは、[!UICONTROL THEN] 演算子を使用したユーザーアクションに基づいてデータセットをフィルターします。
 
 ## ハウツーセグメント化のビデオ {#segment-video}
 
-[Adobe Analytics のセグメントコンテナ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ja)のビデオでは、セグメントコンテナの概要と使用方法について簡単に説明しています。
+このビデオでは、セグメントコンテナの概要と使用方法を簡単に説明します。 [Adobe Analyticsのセグメントコンテナ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=ja)
+
 
 ## セグメントツールにアクセスする {#access}
 
@@ -86,13 +246,13 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 セグメントビルダーには、次のようにアクセスします。
 
-* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
+- 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
 
-* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![「追加」ボタン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
+- セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![「追加」ボタン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
     または
 
-* セグメントマネージャ内で既存のセグメントタイトルをクリックし、そのセグメントをセグメントビルダーで編集します。
+- セグメントマネージャ内で既存のセグメントタイトルをクリックし、そのセグメントをセグメントビルダーで編集します。
 
 +++
 
@@ -100,11 +260,11 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 セグメントマネージャには、次のようにアクセスします。
 
-* 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
+- 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
 
-* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
+- 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
 
-* インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
+- インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
 
 +++
 
@@ -112,7 +272,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 +++ **セグメントの使用、作成および管理に必要な権限と許可**
 
-デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
+デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
 管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/segmentation/seg-reference/seg-rights.md)
 
