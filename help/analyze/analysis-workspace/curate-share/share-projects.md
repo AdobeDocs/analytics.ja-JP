@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -130,6 +130,10 @@ ht-degree: 53%
 >* 多くのユーザーが同時に特定のリンクにアクセスしようとすると、プロジェクトにアクセスできなくなる場合があります。 デフォルトでは、190 人を超えるユーザーが 5 分ごとに 1 つのリンクにアクセスできます。 組織がこの制限に達した場合は、5 分待ってから、もう一度リンクにアクセスしてみてください。
 
 
+次のビデオデモおよび付属のドキュメントでは、誰とでもリンクを共有する際に使用できるオプションについて説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Workspaceプロジェクトを共有するには：
 
 1. 共有するAnalysis Workspaceプロジェクトを開きます。
@@ -150,7 +154,7 @@ Adobe Analyticsへのアクセス権を持たないユーザーとAnalysis Works
 
    * **[!UICONTROL Experience Cloud 認証を要求]:**
 
-      このオプションを有効にすると、共有しているプロジェクトを作成したAdobe Experience Cloud組織にログインできるユーザーのみが、プロジェクトにアクセスできます。
+      このオプションを有効にした場合、プロジェクトにアクセスできるユーザーは、共有するプロジェクトが作成されたAdobe Experience Cloud組織にログインできるユーザーだけです。 ただし、と共有するユーザーは、Adobe Analyticsにアクセスできる必要はありません。
 
       Analytics 管理者は、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). 管理者がこのオプションを設定した方法に応じて、次のシナリオが発生する場合があります。
 
