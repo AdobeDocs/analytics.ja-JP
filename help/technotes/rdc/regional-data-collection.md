@@ -3,16 +3,16 @@ title: 地域データ収集
 description: 地域データ収集に関する情報
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 36%
+source-wordcount: '482'
+ht-degree: 35%
 
 ---
 
 # 地域データ収集
 
-Adobe Experience Cloudでは地域データ収集 (RDC) を使用するので、訪問者とAdobeの間のやり取りは、できるだけ訪問者に近い場所でおこなわれます。 データ収集センター (DCC) で局所的にデータが収集されると、セキュア接続を介してデータ処理センター (DPC) に転送されます。 処理の後、データはAdobe Experience Cloudの製品で使用できます。 RDC の種類を変更する場合は、カスタマーケアにお問い合わせください。Adobe
+Adobe Experience Cloudでは地域データ収集 (RDC) を使用するので、訪問者とAdobeの間のやり取りは、できるだけ訪問者に近い場所でおこなわれます。 データ収集センター (DCC（Edge サイトとも呼ばれます）で局所的にデータが収集されると、セキュア接続を経由してデータ処理センター (DPC（コアサイトとも呼ばれます）に転送されます。 処理の後、データはAdobe Experience Cloudの製品で使用できます。 RDC の種類を変更する場合は、カスタマーケアにお問い合わせください。Adobe
 
 地域のデータ収集プロセスでは、次の手順を実行します。
 
