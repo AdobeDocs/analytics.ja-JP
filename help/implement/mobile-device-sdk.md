@@ -3,9 +3,9 @@ title: モバイルデバイス用 Analytics の実装
 description: 使用するモバイル AppMeasurement ライブラリを決定します。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '57'
 ht-degree: 100%
 
 ---
@@ -23,9 +23,5 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->バージョン 4 モバイル SDK のサポートは2020年9月30日に終了しました。詳しくは、[バージョン 4 モバイル SDK サポート終了 FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)（英語）を参照してください。
-
-* [SDK リポジトリー](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
-* [iOS ドキュメント](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)。
-* [Android ドキュメント](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja)。
+>バージョン 4 モバイル SDK のサポートは2020年9月30日に終了しました。
 
