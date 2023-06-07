@@ -1,19 +1,21 @@
 ---
 description: Analysis Workspace には、指標の使用方法が 2 つあります。
-title: Analysis Workspaceの指標
+title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 22%
+source-wordcount: '416'
+ht-degree: 24%
 
 ---
 
 # 指標
 
 指標を使用すると、Analysis Workspaceでデータポイントを定量化できます。 最も一般的に、ビジュアライゼーションの列として使用され、ディメンションに結び付けられます。
+
+## 指標のタイプ
 
 Adobeは、Analysis Workspaceで使用する複数のタイプの指標を提供します。
 
@@ -29,11 +31,21 @@ Adobeは、Analysis Workspaceで使用する複数のタイプの指標を提供
 
    ![計算指標テンプレート](assets/calculated-metric-template.png)
 
-指標は、Analysis Workspace内で柔軟に使用できます。 空のフリーフォームテーブルに指標をドラッグして、その指標がプロジェクトの日付期間にトレンド表示されていることを確認します。 また、ディメンションが存在する場合に指標をドラッグして、各ディメンション項目と比較した指標を確認できます。 既存の指標ヘッダーの上にある指標をドラッグすると、その指標が置き換えられます。ヘッダーの横にある指標をドラッグすると、両方の指標が並べて表示されます。
+## Analysis Workspaceでの指標の使用
+
+指標は、Analysis Workspace内の様々な方法で使用できます。 次のことができます。
+
+* 空のフリーフォームテーブルに指標をドラッグして、その指標がプロジェクトの日付期間にトレンド表示されていることを確認します。
+
+* ディメンションが存在する場合に指標をドラッグして、各ディメンション項目と比較した指標を表示します。
+
+* 既存の指標ヘッダーの上に指標をドラッグして置き換えます。
+
+* ヘッダーの横に指標をドラッグして、両方の指標を並べて表示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## 計算指標
+## 計算指標 
 
 計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。 計算指標を作成する方法はいくつかあります。
 

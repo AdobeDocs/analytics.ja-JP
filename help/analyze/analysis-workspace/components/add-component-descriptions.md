@@ -3,7 +3,8 @@ description: 管理者は、レポートスイートを使用して、コンポ�
 title: コンポーネントの説明の追加
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 31%
@@ -23,8 +24,6 @@ Analytics 管理者は、コンポーネント (Dimension、指標、セグメ�
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## （データディクショナリを使用して）Analysis Workspaceのコンポーネントに説明を追加します。 {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 Analysis Workspace のデータ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。これには、Analytics 管理者がAnalysis Workspace内でコンポーネントの説明を直接追加する機能が含まれます。
 
