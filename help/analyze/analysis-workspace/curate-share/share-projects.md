@@ -5,7 +5,7 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 52%
@@ -106,8 +106,6 @@ ht-degree: 52%
 1. リンクを組織内のユーザーと共有します。例えば、E メールや、内部 Web サイトなどに貼り付けることができます。
 
 ## プロジェクトを他のユーザーと共有する（ログインは不要） {#share-public-link}
-
-{{release-limited-testing-section}}
 
 以下を許可： [読み取り専用アクセス](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspaceへのアクセス権を持たないユーザーに対するAdobe Analyticsプロジェクトへの投稿 これには、以下が含まれます。
 

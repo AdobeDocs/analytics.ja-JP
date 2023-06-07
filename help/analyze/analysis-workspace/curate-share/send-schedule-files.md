@@ -4,10 +4,10 @@ title: 共有メニュー
 feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
+source-git-commit: cfa48f07b37c06320e861ef6a6f1e6ce9984294f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 59%
+source-wordcount: '202'
+ht-degree: 66%
 
 ---
 
@@ -21,8 +21,7 @@ Workspace の **共有メニュー** 内で、組織の受信者に対して PDF
 
 | メニューオプション | 説明 |
 |---|---|
-| プロジェクトを共有<!--remove this when Share with anyone goes to GA--> | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。特定のユーザーと共有するか、共有可能なリンクを作成してプロジェクトにすばやくアクセスできるようにします。 ユーザーはログインする必要があります。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
-| Workspace ユーザーと共有（制限付きテストで利用可能） | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。特定のユーザーと共有するか、共有可能なリンクを作成してプロジェクトにすばやくアクセスできるようにします。 ユーザーはログインする必要があります。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Workspace ユーザーと共有 | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。特定のユーザーと共有するか、共有可能なリンクを作成してプロジェクトにすばやくアクセスできるようにします。 ユーザーはログインする必要があります。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | 誰とでも共有（制限付きテストで利用可能） | Adobe Analyticsへのアクセス権を持たないユーザーに、Analysis Workspaceプロジェクトへの読み取り専用アクセス権を付与します。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | ファイルを書き出し | プロジェクトを CSV または PDF 形式で、指定した受信者にすぐに送信します。[詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | ファイルの書き出しをスケジュール | プロジェクトを CSV または PDF 形式でスケジュールに従って指定した受信者に送信します。[詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
