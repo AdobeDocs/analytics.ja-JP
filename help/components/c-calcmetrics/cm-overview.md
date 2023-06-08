@@ -4,9 +4,9 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '591'
 ht-degree: 88%
 
 ---
@@ -39,14 +39,10 @@ ht-degree: 88%
 次のことが可能です。
 
 * [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成します。
-* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらはセグメントに基づいているため、時系列で表示できます。以下は、実装なしの指標に関するビデオです。
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらはセグメントに基づいているため、時系列で表示できます。
 
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標でセグメント化する。 例えば、これが最初のセッションである人の数を使用して、「新規訪問者」の指標を作成できます。以下は、このトピックに関するビデオです。
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+* （高度な計算指標のみ）指標でセグメント化する。 例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 
 * （高度な計算指標のみ）統計関数を組み込み、データをより深く記述できるようにします。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
