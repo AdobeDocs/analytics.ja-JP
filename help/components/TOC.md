@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
-   + [レガシーセグメントの管理に関する FAQ ](segmentation/seg-transition.md)
+   + [レガシーセグメントの管理に関する FAQ](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
    + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
@@ -236,10 +236,16 @@ ht-degree: 90%
    + [分類の概要](classifications/c-classifications.md)
    + 分類セット {#sets}
       + [分類セットの概要](classifications/sets/overview.md)
-      + [分類セットマネージャ](classifications/sets/set-manager.md)
+      + 分類セットの管理 {#manage}
+         + [分類セットマネージャー](classifications/sets/manage/set-manager.md)
+         + [分類セットの作成](classifications/sets/manage/create.md)
+         + [分類セット設定](classifications/sets/manage/settings.md)
+         + [分類セットスキーマ](classifications/sets/manage/schema.md)
+         + [分類セットルール](classifications/sets/manage/rules.md)
       + [分類セットジョブマネージャー](classifications/sets/job-manager.md)
-      + [分類セットを作成](classifications/sets/create.md)
-      + [分類セット設定](classifications/sets/settings.md)
+      + 分類セットの統合 {#consolidations}
+         + [分類セット統合マネージャー](classifications/sets/consolidations/manage.md)
+         + [分類セットの統合プロセス](classifications/sets/consolidations/process.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
       + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
       + [分類ルールセット](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [FTP エクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
+
    + [下位分類](classifications/c-sub-classifications.md)
    + [分類 FAQ](classifications/faq.md)
 + [カレンダーイベント](t-calendar-event.md)

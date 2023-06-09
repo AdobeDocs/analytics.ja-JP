@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1d98d711c17d3c7ca487b8f5bd4e918a9a399ea7
+source-git-commit: 49c4acb38a96b5fd6a8cd25258628adc9a68074c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1426'
 ht-degree: 53%
 
 ---
@@ -20,11 +20,9 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **プロジェクトのリンク共有（ログインは不要）** | Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。これには、組織外のユーザーや、組織内で Adobe Analytics 用にプロビジョニングされていないユーザーとの共有が含まれます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja#share-public-link)<p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ja#company-preferences)</p> | 2023年5月3日（PT） | 2023年6月7日（PT） |
-| **分類セット — 統合** | 様々なレポートスイートの分類を組み合わせて、統合されたデータセットにします。 統合されたデータセットは、分類セットで、または CJA でルックアップデータセットとして使用できます。 詳細情報（近日公開） |  | 2023年6月7日（PT） |
-| **分類セット — ルールビルダー** | 現在の分類セットアーキテクチャで分類ルールビルダーを使用します。 詳細情報（近日公開） |  | 2023年6月7日（PT） |
-| **分類セット — 自動インポート** | クラウドストレージの宛先から分類セットデータを自動的に読み込めるようになりました。 詳細情報（近日公開） |  | 2023年6月7日（PT） |
-| **新しい AppMeasurement 変数** | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 ほとんどの実装では、この変数を定義する必要はありません。 詳細情報（近日公開） |  | 2023年6月7日（PT） |
+| **プロジェクトのリンク共有（ログインは不要）** | Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。これには、組織外のユーザーや、組織内で Adobe Analytics 用にプロビジョニングされていないユーザーとの共有が含まれます。[詳細情報](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。[詳細情報](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023年5月3日（PT） | 2023年6月7日（PT） |
+| **分類セットの新機能** | [分類セット](/help/components/classifications/sets/overview.md) は、いくつかの新機能で更新されました。<ul><li>**統合**:分類セットを 1 つの統合された分類セットに組み合わせます。 統合された分類セットは、他の分類セットと同様に、または CJA でのルックアップデータセットとして使用できます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**:分類セットのルールに基づいて値を自動的に分類します。 [詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動インポート**:クラウドストレージの宛先から分類データを自動的にインポートします。 [詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023年6月7日（PT） |
+| **新しいAppMeasurement変数** | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 ほとんどの実装では、この変数を定義する必要はありません。 [詳細情報](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023年6月7日（PT） |
 | **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先 (FTP、SFTP、S3、Azure Blob) は、非推奨になりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) |  | 2023年6月12日（PT） |
 | **Workspace のボットレポート** | ボットレポートがAnalysis Workspaceで使用できるようになりました。 この機能には、次の追加が含まれます。<ul><li>新しいディメンション： [ボット名](/help/components/dimensions/bot-name.md)</li><li>2 つの新しい指標： [ボットページビュー数](/help/components/metrics/bot-page-views.md) および [ボットの発生件数](/help/components/metrics/bot-occurrences.md).</li><li>新しい計算指標テンプレート： [ボットページ表示率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新しい Workspace レポート：ボットレポート</li></ul>新しいディメンションと指標には、2023 年 3 月以降にバックフィルされたデータが含まれます。 |  | 7,2023年6月 |
 
