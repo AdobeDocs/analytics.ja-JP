@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '4226'
-ht-degree: 95%
+source-wordcount: '4485'
+ht-degree: 91%
 
 ---
 
@@ -25,23 +25,29 @@ ht-degree: 95%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2023年6月** |  |
+| **2023年6月** | |
+| 新しい AppMeasurement 変数 | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 [詳細情報](../implement/vars/config-vars/doubleencodelinkparameters.md) |
+| 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md) は、いくつかの新機能で更新されました。<ul><li>**統合**:分類セットを 1 つの統合された分類セットに組み合わせます。 統合された分類セットは、他の分類セットと同様に、または CJA でのルックアップデータセットとして使用できます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**:分類セットのルールに基づいて値を自動的に分類します。 [詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動インポート**:クラウドストレージの宛先から分類データを自動的にインポートします。 [詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算指標の更新 | 計算指標に関する様々な記事が更新されました。例えば、スクリーンショットの更新や手順などが更新されました。 これらの変更は、ドキュメントを現在のAdobe Analytics機能とインライン化するためにおこなわれました。 |
-| **2023年5月** |  |
+| データフィード書き出しの安全な宛先 | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先 (FTP、SFTP、S3、Azure Blob) は、非推奨になりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) |
+| Workspace のボットレポート | ボットレポートがAnalysis Workspaceで使用できるようになりました。 この機能には、次の追加が含まれます。<ul><li>新しいディメンション： [ボット名](/help/components/dimensions/bot-name.md)</li><li>2 つの新しい指標： [ボットページビュー数](/help/components/metrics/bot-page-views.md) および [ボットの発生件数](/help/components/metrics/bot-occurrences.md).</li><li>新しい計算指標テンプレート： [ボットページ表示率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新しい Workspace レポート：ボットレポート</li></ul>新しいディメンションと指標には、2023 年 3 月以降にバックフィルされたデータが含まれます。 |
+| **2023年5月** | |
+| ディープリンク（モバイルアプリ）ドキュメント | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。[詳細情報](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
+| Analytics ダッシュボードアプリ（モバイルアプリ）用の更新されたホーム画面のドキュメント | 新しく更新されたホーム画面では、すべてのスコアカードを 1 つの統合されたスコアカードリストで表示できます。[詳細情報](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | スペクトルアイコン | ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、該当する場合は [Adobeスペクトル設計システム](https://spectrum.adobe.com/page/icons/). |
 | IP からジオロケーションへのマッピングの改善 | 次のトピックを作成しました： [よくある質問](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | レポートアクティビティマネージャー | このベータ版ドキュメント ( 特に [個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
 | プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |
-| 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。 詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | フリーフォームテーブルからの動的ディメンションを含む行の削除 | x アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除する方法に関する情報を追加しました。 詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | パネル内にビジュアライゼーションを追加するボタン | Analysis Workspaceの各パネルの下部にある新しいボタンに関する情報を追加しました。このボタンを使用すると、ビジュアライゼーションをすばやく追加できます。 詳しくは、「パネルへのビジュアライゼーションの追加」の節を参照してください。 [ビジュアライゼーションの概要](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| **2023年4月** |  |
+| **2023年4月** | |
 | ユーザーアセットの転送と、アカウントの有効期限の設定 | [ユーザーアセットの転送と、アカウントの有効期限の設定](/help/admin/admin/user-management2/users-assets.md)を行う方法に関する情報を追加しました。 |
 | Adobe Analytics 2.0 API に関する 2 つの新しいエンドポイントガイド | <ul><li>[Analytics Dimension API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics Metrics API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
 | 動的検索 | [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)に関する追加情報を追加しました。以前は、情報は、複数の動的検索の 1 つであるモバイル属性に対してのみ存在していました。 |
-| **2023年3月** |  |
+| **2023年3月** | |
 | Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
@@ -49,13 +55,13 @@ ht-degree: 95%
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
 | データ要素 | <p>データ要素の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ要素に関する新しいドキュメントを追加しました。</p><p>[コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を、データ要素機能を説明するために更新しました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
-| **2023年2月** |  |
+| **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
 | モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。CJA の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
 | 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md)の使用例を更新しました。 |
-| **2023年1月** |  |
+| **2023年1月** | |
 | テーブルのフィルタリングと並べ替え | [テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)に関する記事の内容を更新しました（手順の追加や使用可能なオプションの説明など）。この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)用の専用ページ。 |
 | ユーザー環境設定 | 多くの追加のユーザー環境設定は、現在は、[環境設定](/help/analyze/analysis-workspace/user-preferences.md)で使用できます。 |
@@ -66,7 +72,7 @@ ht-degree: 95%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2022年11月** |  |
+| **2022年11月** | |
 | 同意管理変数 | [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md)と[同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md)の専用ページ。 |
 | 複数通貨の更新 | [複数通貨のサポート](/help/implement/vars/config-vars/currencycode.md)に関するページが更新されました。 |
 | **2022年10月** |  |
@@ -76,13 +82,13 @@ ht-degree: 95%
 | 分類セット | 新しいユーザー[分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja)エクスペリエンスは、分類とルールを管理できる単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。 |
 | モバイルアプリ：カスタム詳細ビュー | [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja)に関する新しいトピック |
 | VISTA | [VISTA ルール](/help/technotes/vista.md)の基本を説明する新しいページ。 |
-| **2022年9月** |  |
+| **2022年9月** | |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
 | 更新されたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
 | 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
-| **2022年8月** |  |
+| **2022年8月** | |
 | Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
 | 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#products-using-the-web-sdk) |
 | **2022年6月** |  |
@@ -90,13 +96,13 @@ ht-degree: 95%
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/edge-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [Analysis Workspace で作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
-| **2022年5月** |  |
+| **2022年5月** | |
 | Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/variable-mapping.md)を参照してください。 |
-| **2022年4月** |  |
+| **2022年4月** | |
 | Adobe Analytics ランディングページの更新 | [Analysis Workspace と Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 次／前の項目]パネルに関する新しいトピック | [次／前のディメンション項目パネル](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
-| **2022年3月** |  |
+| **2022年3月** | |
 | サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | 暗号セキュリティレベルが「高」に設定されているお客様向けに[サポートされている HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md)。 |
 | Analysis Workspace での注釈に関する新しいドキュメント | [Analysis Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。 |
 | Adobe Analytics ランディングページの更新 | Analysis Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
@@ -131,15 +137,15 @@ ht-degree: 95%
 | 2021年6月3日 | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=ja#BucketOwnerFullControl)を更新しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
 | 2021年5月13日 | [Data Warehouse API リクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)を更新しました。「Hours」をサポートするようになりました。 |
-| **2021年3月** |  |
+| **2021年3月** | |
 | 2021年3月、4月 | Adobe Analytics ダッシュボード[エグゼクティブガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=ja)および[キュレーターガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)の更新 |
 | 2021年3月25日 | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページに関する新しいドキュメント。これにより、ユーザーの [!UICONTROL Analysis Workspace] 設定と関連コンポーネントを管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**メモ：**&#x200B;次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>ワークスペースプロジェクト：ヘルプ／ヒントを有効にする</li><li>ワークスペースプロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
 | 2021年3月25日 | [!UICONTROL ヒストグラムスマートバケット予測]は、データ分散に使用するバケットの正しい幅と数を自動的に識別することで、カーディナリティ指標の高いヒストグラムの処理に役立ちます。低カーディナリティ指標の場合、ビジュアライゼーションは以前と同じように動作します。 |
 | 2021年3月25日 | [データ修復 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) の更新（URL、クエリ文字列、記号などでのフィルタリング） |
 | 2021年3月25日 | 新しい[使用ログ API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) ドキュメント |
-| **2021年2月** |  |
+| **2021年2月** | |
 | 2021年2月4日 | コンポーネントの選択：[!UICONTROL クイックインサイト]にあるドロップダウン／ドロップゾーンコンポーネントは、[!UICONTROL ワークスペース]のすべてのドロップゾーンに追加されました。この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
-| **2021年1月** |  |
+| **2021年1月** | |
 | 2021年1月14日 | Analytics ダッシュボードのドキュメントに言語選択オプションを追加しました。 |
 | 2021年1月14日 | 公開画像 URL を参照して、画像を ワークスペースプロジェクトに追加する方法に関するドキュメントを追加しました。 |
 | 2021年1月14日 | ワークスペースのビジュアライゼーションのソースマネージャーと設定マネージャーの結合：ビジュアライゼーションの [!UICONTROL データソース] マネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに結合し、一箇所でソースと設定を簡単に管理できます。 |
@@ -148,30 +154,30 @@ ht-degree: 95%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2020年12月** |  |
+| **2020年12月** | |
 | 2020年12月7日 | 「adobedc.net」エンドポイントを含めるか代用するすべての関連ページを修正しました。 |
 | 2020年12月8日 | ワークスペースの[新しいプロジェクトを作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja)ページを更新しました。 |
-| **2020年11月** |  |
+| **2020年11月** | |
 | 2020年11月24日 | ワークスペースの[パネルの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)ページを更新しました。 |
 | 2020年11月24日 | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
 | 2020年11月24日 | Analysis Workspace の [ビジュアライゼーションの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) ページを更新しました。 |
 | 2020年11月12日 | [継承された Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=ja)の新しいページ。 |
 | 2020年11月2日 | [FTP の分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)に関するドキュメントを更新しました。 |
-| **2020年10月** |  |
+| **2020年10月** | |
 | 2020年10月23日 | ワークスペースの線のビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja)：この設定は、 [!UICONTROL 折れ線グラフ] のビジュアライゼーションのトレンドライン設定に追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
 | 2020年10月23日 | ワークスペース[パフォーマンスヘルプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ja)ページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
 | 2020年10月23日 | Adobe Analytics ダッシュボードのドキュメントに機能強化を追加しました。ワークスペースのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
-| **2020年9月** |  |
+| **2020年9月** | |
 | 2020年9月17日 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items)：セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
 | 2020年9月17日 | [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja): <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 2020年9月17日 | ワークスペースの新しい日付範囲：5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 | 2020年9月17日 | [ワークスペースのメディア同時ビューアパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ja)に関する新しいドキュメント |
-| **2020年8月** |  |
+| **2020年8月** | |
 | 2020年8月31日 | クロスデバイス分析の[フィールドベースのステッチドキュメント](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=ja)に機能強化を追加しました。 |
-| **2020年7月** |  |
+| **2020年7月** | |
 | 2020年7月21日 | [クロスデバイス分析](/help/components/cda/overview.md)の主なアップデートとリビジョン。[フィー ルドベースのステッチ](/help/components/cda/field-based-stitching.md)を追加しました。 |
 | 2020年7月16日 | ワークスペースの新しい日付範囲プリセット。[!UICONTROL 今週／月／四半期／年（今日を除く）]の 4 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲から選択できます。 |
-| **2020年6月** |  |
+| **2020年6月** | |
 | 2020年6月25日 | ワークスペースの[クイックインサイトパネル](/help/analyze/analysis-workspace/c-panels/quickinsight.md)に関する新しいドキュメント。これは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問に素早く簡単に答える方法を学ぶためのガイダンスを提供します。 |
 | 2020年6月25日 | ワークスペースの [Analytics for Target パネル](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)に関する新しいドキュメント。上昇率と信頼性を使用して、Adobe Target のアクティビティとエクスペリエンスを分析できます。 |
 | 2020年6月18日 | [Attribution IQ：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja)に関する新しいドキュメント |
@@ -205,7 +211,7 @@ ht-degree: 95%
 | 2020年2月7日 | [クロスデバイス分析のセットアップ](/help/components/cda/setup.md)と [FAQ](/help/components/cda/faq.md) のアップデート。 |
 | 2020年2月4日 | [実装ユーザーガイド](/help/implement/home.md)を完全に書き直しました。 |
 | 2020年1月22日 | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)の情報を含めました。 |
-| **2020年1月** |  |
+| **2020年1月** | |
 | 2020年1月24日 | ワークスペースの[行設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ja#cja-workspace)ページを更新しました。 |
 | 2020年1月16日 | [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)に関する新しいドキュメント。Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新が行われ、どのテーブルを作成したいかがわかると、時間を節約できます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、ワークスペースで適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 | 2020年1月14日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
