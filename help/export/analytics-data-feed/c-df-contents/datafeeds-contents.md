@@ -5,16 +5,30 @@ subtopic: data feeds
 title: データフィードの内容 - 概要
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# データフィードの内容 - 概要
+# データフィードの内容 — 概要
 
-このセクションでは、データフィード配信に含まれるファイルについて説明します。
+次の節では、データフィード配信で見つかったファイルにアクセスし理解する方法について説明します。
+
+## データフィードコンテンツへのアクセス
+
+データフィードのコンテンツにアクセスするには：
+
+1. データフィードの宛先サイトにログインします。
+
+   これは、Amazon S3 やGoogle Cloud Platform バケットなど、データフィードを作成する際に設定する宛先サイトです。
+
+1. 圧縮データフィードファイルをローカルマシンにダウンロードします。
+
+1. `.tar.gz` ファイル拡張子をサポートするプログラムを使用して、圧縮ファイルを解凍します。
+
+1. スプレッドシートまたはデータベースアプリケーションで `hit_data.tsv` ファイルを開き、その日の生データを確認します。 —>
 
 ## マニフェストファイル {#feed-manifest}
 

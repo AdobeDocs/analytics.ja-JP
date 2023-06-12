@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 49c4acb38a96b5fd6a8cd25258628adc9a68074c
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1441'
 ht-degree: 53%
 
 ---
@@ -23,7 +23,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **プロジェクトのリンク共有（ログインは不要）** | Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できるようになりました。これには、組織外のユーザーや、組織内で Adobe Analytics 用にプロビジョニングされていないユーザーとの共有が含まれます。[詳細情報](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>この機能はデフォルトで有効になっており、システム管理者が無効にできます。[詳細情報](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023年5月3日（PT） | 2023年6月7日（PT） |
 | **分類セットの新機能** | [分類セット](/help/components/classifications/sets/overview.md) は、いくつかの新機能で更新されました。<ul><li>**統合**:分類セットを 1 つの統合された分類セットに組み合わせます。 統合された分類セットは、他の分類セットと同様に、または CJA でのルックアップデータセットとして使用できます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**:分類セットのルールに基づいて値を自動的に分類します。 [詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動インポート**:クラウドストレージの宛先から分類データを自動的にインポートします。 [詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023年6月7日（PT） |
 | **新しいAppMeasurement変数** | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 ほとんどの実装では、この変数を定義する必要はありません。 [詳細情報](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023年6月7日（PT） |
-| **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先 (FTP、SFTP、S3、Azure Blob) は、非推奨になりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) |  | 2023年6月12日（PT） |
+| **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先 (FTP、SFTP、S3、Azure Blob) は、非推奨になりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) | 2023年6月12日（PT） | 2023年7月15日（PT） |
 | **Workspace のボットレポート** | ボットレポートがAnalysis Workspaceで使用できるようになりました。 この機能には、次の追加が含まれます。<ul><li>新しいディメンション： [ボット名](/help/components/dimensions/bot-name.md)</li><li>2 つの新しい指標： [ボットページビュー数](/help/components/metrics/bot-page-views.md) および [ボットの発生件数](/help/components/metrics/bot-occurrences.md).</li><li>新しい計算指標テンプレート： [ボットページ表示率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新しい Workspace レポート：ボットレポート</li></ul>新しいディメンションと指標には、2023 年 3 月以降にバックフィルされたデータが含まれます。 |  | 7,2023年6月 |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
 | **購入 ID とイベント ID の 37 ヶ月の有効期限（イベントのシリアル化）** | 25,2023年5月 | のリリースを対象とした、Analytics のヒット処理エンジンの今後のリリース **2023 年 6 月下旬または 2023 年 7 月上旬**&#x200B;は、購入 ID とイベント ID（イベントのシリアル化）の 37 ヶ月間の有効期限の適用を開始します。 現在、購入 ID とイベント ID は、Adobe Analyticsで期限切れになることはありません。 購入 ID またはイベント ID が表示/使用されると、今後のヒットでは、いつおこなわれても、その購入またはイベントが重複としてマークされます。 新しい処理エンジンのリリースでは、次のようになります。<ul><li>購入 ID およびイベント ID は、常に 37 ヶ月後に期限切れになります。</li><li>購入 ID またはイベント ID が見つかってから 37 ヶ月が経過した場合、その購入またはイベントは重複しているとは見なされなくなりました。</li><li> 37 ヶ月以上前の購入 ID やイベント ID を「再利用」する場合、重複と見なされなくなりました。</li></ul> |
-| **AdobeIO OAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | AdobeIO JWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順で AdobeIO OAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 詳細とタイムラインについては、以下の表に記載されている提供終了の通知を参照してください。 |
+| **Adobe I/OOAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | Adobe I/OJWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順でAdobe I/OOAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 詳細とタイムラインについては、以下の表に記載されている提供終了の通知を参照してください。 |
 | **ロンドンデータセンターでAdobe AnalyticsデータフィードおよびData Warehouseエグレスで使用される新しい IP** | 2023年4月27日（PT） | これは、ロンドンのデータセンターのお客様が、データフィードリクエストやData Warehouseレポートを FTP/SFTP サービスに配信している場合に関係します。 アクセスを許可するには、次の IP アドレス範囲をファイアウォール設定に追加する必要があります。 <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 
 {style="table-layout:auto"}
@@ -59,7 +59,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **AdobeIO OAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | AdobeIO JWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順で AdobeIO OAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 2024 年 5 月 1 日以降、AdobeIO では新しい JWT 資格情報の作成は許可されません。 JWT を使用するお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要があります。 <ul><li>[サービスアカウント (JWT) 資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
+| **Adobe I/OOAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | Adobe I/OJWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順でAdobe I/OOAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. Adobe I/Oでは、2024 年 5 月 1 日以降、新しい JWT 資格情報の作成は許可されません。 JWT を使用するお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要があります。 <ul><li>[サービスアカウント (JWT) 資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **[!DNL Reports & Analytics]** のサポート終了 | 2023年3月7日（PT） | **2023年12月31日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023年12月31日（PT）に、関連する Reports &amp; Analytics 機能の多くを終了します。これには、予定レポート、データ抽出、DL レポートが含まれますが、これらに限定されるものではありません。2023年12月31日（PT）以降、予定レポートは送信されなくなります。 **2023年4月**&#x200B;に、2023年12月31日（PT）以降に有効期限が切れる予定だったレポートはすべて自動的に更新され、2023年12月31日（PT）に有効期限が切れるように戻されます。 また、2023年12月31日（PT）以降は今後のレポートをスケジュールできなくなります。 |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日 | Reports &amp; Analytics の提供終了（EOL）の一環として、[!UICONTROL パブリッシュリスト]は **2023年12月** に提供終了になる予定です。新しいパブリッシュリストを作成するか既存の[!UICONTROL パブリッシュリスト]にアクセスして、[!UICONTROL Analysis Workspace] プロジェクトを送信したりスケジュールしたりすることはできなくなります。 |
 | **Data Workbench のサポート終了** | 2022年9月14日 | **2023年12月31日**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |

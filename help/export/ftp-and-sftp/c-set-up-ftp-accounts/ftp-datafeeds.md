@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: データフィード
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 データフィードは、アドビが受信したクリックストリームデータを書き出したもので、標準およびカスタムの両方の[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)を提供します。
 
 Adobe Data Warehouse、[!UICONTROL 標準データフィード]を購入済みの場合は、独自の Analytics データフィードを設定できます。標準データフィードは、任意の FTP アカウントに送信できます（アドビが設定するアカウントでも、外部 FTP でも使用できます）。Adobe Engineering Services は、ほとんどどのような方法でも送信できるカスタム[!UICONTROL データフィード]を提供します。
+
+>[!NOTE]
+>
+>次の情報は、FTP および SFTP の宛先タイプに関連しています。 FTP と SFTP は従来の宛先タイプです。 データフィードを設定する場合は、より安全なクラウドの宛先タイプを使用する必要があります。
+
 
 [!UICONTROL データフィード] FTP アカウントでは、デフォルトで 10GB を保持できます。他のすべての標準 FTP アカウントの場合は、デフォルトで 50 MB です。お客様が適切な使用目的で FTP アカウントを使用している場合でも、トラフィックの量が増えるとすぐにこれらのアカウントの容量がいっぱいになることがあります。FTP アカウントがいっぱいになると、ファイルをアカウントにプッシュできなくなります。したがって、FTP アカウントに配信されるファイル（[!UICONTROL データフィード]、Data Warehouse リクエストなど）も配信されなくなります。そのため、受信およびダウンロードが完了したファイルを削除し、アドビの FTP アカウントを管理することが重要です。
 

@@ -4,14 +4,18 @@ keywords: クリックストリーム、データフィード、データフィ�
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 98%
+source-wordcount: '622'
+ht-degree: 83%
 
 ---
 
 # Analytics データフィードの概要
+
+>[!AVAILABILITY]
+>
+>このページで説明する宛先のタイプの一部は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
 データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。データは、各時間の終了時に時間単位のバッチで、または毎日の終わりに日単位のバッチで配信されます。
 
@@ -19,11 +23,12 @@ ht-degree: 98%
 
 データフィードを使用する前に、次の要件をすべて満たしていることを確認してください。
 
-* FTP サイトと資格情報を入手しておくと便利です。データフィードは、サーバーの宛先にのみ送信できます。通常、組織が FTP 資格情報を提供します。アドビは、お客様のリクエストに応じて FTP の場所をわずかな容量で提供できます。データフィードの FTP 送信先をリクエストする場合は、カスタマーケアへのお問い合わせ。
-* アドビのデータ収集サーバーにデータを送信する実装。実装ユーザーガイドの [実装の検証と公開](/help/implement/launch/validate-publish-prod.md) を参照してください。
+* アドビのデータ収集サーバーにデータを送信する実装。詳しくは、 [実装の検証と公開](/help/implement/launch/validate-publish-prod.md) 」を参照してください。
 * アカウントが Analytics 製品管理者であるか、アカウントがデータフィードへのアクセス権を持つ製品プロファイルに属している。
+* Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS で設定されたバケット。
+* ( レガシー：レガシー FTP および SFTP の宛先タイプの場合のみ必要 )FTP サイトと資格情報（組織から提供される FTP 資格情報）が手元にある。
 
-## 使用を開始する手順
+## 推奨されるデータフィードリソース
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
@@ -58,17 +63,15 @@ ht-degree: 98%
 
 データフィードを取得する基本的なワークフローを理解したら、組織内のチームと協力して、生データをデータベースに保存または取り込むことができます。
 
+* [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md):データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
-* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について
-* [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト
+* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト.
+* データフィードインターフェイス操作のビデオ：
 
-## その他のリソース
+  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-データフィードインターフェイス操作のビデオ：
+* データフィード ID を見つける方法に関するビデオ：
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
-
-データフィード ID を見つける方法に関するビデオ：
-
->[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
