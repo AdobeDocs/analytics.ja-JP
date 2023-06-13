@@ -26,7 +26,7 @@ ht-degree: 91%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年6月** | |
-| 新しい AppMeasurement 変数 | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 [詳細情報](../implement/vars/config-vars/doubleencodelinkparameters.md) |
+| 新しいAppMeasurement変数 | 変数 `doubleEncodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするエッジケースに対応しています。 [詳細情報](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md) は、いくつかの新機能で更新されました。<ul><li>**統合**:分類セットを 1 つの統合された分類セットに組み合わせます。 統合された分類セットは、他の分類セットと同様に、または CJA でのルックアップデータセットとして使用できます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**:分類セットのルールに基づいて値を自動的に分類します。 [詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動インポート**:クラウドストレージの宛先から分類データを自動的にインポートします。 [詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算指標の更新 | 計算指標に関する様々な記事が更新されました。例えば、スクリーンショットの更新や手順などが更新されました。 これらの変更は、ドキュメントを現在のAdobe Analytics機能とインライン化するためにおこなわれました。 |
 | データフィード書き出しの安全な宛先 | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先 (FTP、SFTP、S3、Azure Blob) は、非推奨になりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) |
