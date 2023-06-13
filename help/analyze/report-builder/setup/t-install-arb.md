@@ -5,9 +5,9 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '137'
+source-git-commit: 18b68c3f802a72aae0860d9afebbc38f075271cd
+workflow-type: tm+mt
+source-wordcount: '139'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Report Builder をインストールするには：
 
-1. **[!UICONTROL Adobe Experience Cloud]**／**[!UICONTROL Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Report Builder]** をクリックします。
+1. **[](http://experience.adobe.com?lang=ja/)Adobe Experience Cloud**／**[!UICONTROL Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Report Builder]** をクリックします。
 1. 「**[!UICONTROL 今すぐダウンロード]**」をクリックし、（インストールされている MS Excel バージョンに応じて）32 ビットバージョンまたは 64 ビットバージョンをダウンロードします。
 1. ダウンロードしたインストーラーを開いて実行します。
 1. ウィザードに従いインストールを完了します。
