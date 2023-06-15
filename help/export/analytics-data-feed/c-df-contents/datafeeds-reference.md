@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 92%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 92%
 | **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | **`java_enabled`** | Java が有効かどうかを示すフラグ。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| **`javascript`** | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。参照テーブルを使用します。 | tinyint unsigned |
+| **`javascript`** | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。`javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 言語の数値 ID。`languages.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
 | **`last_hit_time_gmt`** | 以前のヒットのタイムスタンプ (UNIX®時間 )。 「[最終訪問からの日数](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
 | **`last_purchase_num`** | 「[顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンションで使用される変数。訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |

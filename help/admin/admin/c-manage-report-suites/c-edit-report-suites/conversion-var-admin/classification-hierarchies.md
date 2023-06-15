@@ -4,16 +4,18 @@ subtopic: Classifications
 title: 分類階層
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
 # 分類階層
 
 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
+
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL 分類階層]**
 
 ## 分類階層 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

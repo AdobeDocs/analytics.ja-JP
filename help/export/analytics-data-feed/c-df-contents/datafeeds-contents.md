@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データフィードの内容 - 概要
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv]（このデータフィード用にカスタマイズされています）
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv]（このデータフィード用にカスタマイズされています）
+* **`column_headers.tsv`**:列ヘッダーを含む単一の行 `hit_data.tsv`.
+* **`browser.tsv`**:ブラウザー ID( `browser` フィード列 ) をブラウザーのわかりやすい名前に変更する必要があります。
+* **`browser_type.tsv`**:ブラウザー ID( `browser` フィード列 ) をブラウザーのタイプに追加する必要があります。
+* **`color_depth.tsv`**:色深度 ID( `color` フィード列 ) を色深度に変更します。
+* **`connection_type.tsv`**:接続タイプ ID ( `connection_type` フィード列 ) を接続タイプに追加します。
+* **`country.tsv`**:国 ID( `country` フィード列 ) を国名に追加する必要があります。
+* **`javascript_version.tsv`**:JavaScript バージョン ID ( `javascript` フィード列 ) を JavaScript バージョンに追加する必要があります。
+* **`languages.tsv`**:言語 ID ( `language` フィード列 ) を言語に追加します。
+* **`operating_systems.tsv`**:オペレーティングシステム ID( `os` フィード列 ) をオペレーティングシステム名に追加します。
+* **`plugins.tsv`**:プラグイン ID( `plugin` フィード列 ) を各プラグイン名に追加する必要があります。
+* **`resolution.tsv`**:解像度 ID ( `resolution` フィード列 ) を画面の解像度に合わせて表示します。
+* **`referrer_type.tsv`**:リファラータイプ ID( `ref_type` フィード列 ) をリファラータイプに追加します。
+* **`search_engines.tsv`**:検索エンジン ID( `search_engine` フィード列 ) を検索エンジン名に追加します。
+* **`event.tsv`**:各イベント ID( `event_list` フィード列 ) をそれぞれのイベント名に追加する必要があります。
 
 ## ヒットデータファイル
 
-ヒットデータは [!DNL hit_data.tsv] ファイルで提供されます。このファイルに含まれるデータの分量は、配信形式（時間別または日別、および単一ファイルまたは複数ファイル）によって異なります。このファイルにはヒットデータのみが含まれます。列ヘッダーは、参照ファイルと一緒に別途配信されます。このファイル内の各行には 1 個のサーバーコールが含まれます。
+ヒットデータは `hit_data.tsv` ファイルで提供されます。このファイルに含まれるデータの分量は、配信形式（時間別または日別、および単一ファイルまたは複数ファイル）によって異なります。このファイルにはヒットデータのみが含まれます。列ヘッダーは、参照ファイルと一緒に別途配信されます。このファイル内の各行には 1 個のサーバーコールが含まれます。
 
 アドビから配信されるファイルは、設定したデータフィードの種類によって異なります。すべてのファイルは ISO-8859-1 を使用してエンコードされます。
 

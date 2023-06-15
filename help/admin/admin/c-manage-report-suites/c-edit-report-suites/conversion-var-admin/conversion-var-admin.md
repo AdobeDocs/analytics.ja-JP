@@ -4,10 +4,10 @@ keywords: eVar
 title: コンバージョン変数（eVar）
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
-workflow-type: ht
-source-wordcount: '1672'
-ht-degree: 100%
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+workflow-type: tm+mt
+source-wordcount: '1681'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 
 カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された web ページの Adobe コードに配置されます。主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。eVar は訪問ベースにすることができ、cookie と同じように機能します。eVar 変数に渡された値は、事前設定した期間、ユーザーを追跡します。
 
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL コンバージョン変数]**
 
 ## コンバージョン変数（eVar）の概要
 

@@ -3,10 +3,10 @@ title: インスタンス
 description: 変数が設定された（持続的でない）ヒット数。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -17,3 +17,7 @@ ht-degree: 100%
 ## この指標の計算方法
 
 レポートスイート内のすべてのヒットのうち、イメージリクエストにディメンション項目を明示的に設定するヒットのみを含めます。[eVars](../dimensions/evar.md)などのディメンションは、設定されたヒットの後も保持される場合があります。[ページビュー](page-views.md)や[発生件数](occurrences.md)などの指標は、初期値と持続値の両方をカウントします。この指標では、持続値はカウントされません。
+
+例えば、訪問者がサイトに来訪し、内部検索を使用したとします。 「eVar1」の内部検索を追跡します。 内部検索を 1 回使用した後、残り 5 ページにアクセスしてから、サイトを離れます。
+
+Workspace でレポートを表示すると、1 つのeVar1 インスタンスと 6 つのインスタンスが表示されます。 1 つのインスタンスが検索結果ページでトリガーされるのに対して、発生件数は初期値と持続値をカウントしました。

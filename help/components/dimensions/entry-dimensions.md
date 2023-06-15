@@ -4,10 +4,10 @@ description: 入口ディメンションとその使用をリストします。
 keywords: 入口ページ、入口サイトセクション、入口サーバー、入口カスタムインサイト
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *このヘルプページでは、入口がディメンションとして機能するしくみについて説明します。入口が指標として機能する方法について詳しくは、[入口](../metrics/entries.md)指標を参照してください。*
 
-入口ディメンションは訪問ベースです。これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
+入口ディメンションは、 [訪問ベース](../metrics/visits.md). これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
 
 ## 入口ディメンションへのデータ入力
 

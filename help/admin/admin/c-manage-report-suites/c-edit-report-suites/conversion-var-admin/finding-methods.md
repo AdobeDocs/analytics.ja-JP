@@ -4,10 +4,10 @@ title: 検索方法
 feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 検索方法]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL 検索方法]**
 
 ## 検索方法の説明 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

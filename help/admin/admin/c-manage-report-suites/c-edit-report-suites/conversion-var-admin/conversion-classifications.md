@@ -3,16 +3,18 @@ description: 分類は値をグループにまとめてグループレベルで�
 title: コンバージョンの分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 98%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
 # コンバージョンの分類
 
 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての[!UICONTROL 有料検索]キャンペーンを&#x200B;*ポップミュージック用語*&#x200B;などのカテゴリに分類し、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関するそのカテゴリの成功を報告できます。1 つの変数に追加できる分類は 255 個までです。
+
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL コンバージョンの分類]**
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
 
