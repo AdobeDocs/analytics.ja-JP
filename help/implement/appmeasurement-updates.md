@@ -4,7 +4,7 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 * `tagContainerMarker` 変数が追加されました。これにより、区切りのダッシュ文字と共にバージョン文字列に追加される最大 4 文字を指定して導入できます。これは、Dynamic Tag Management で使用されます。
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   この 4 文字は、英数字とピリオドなど、URL ファイルパスで許可される文字に制限されます。
+  この 4 文字は、英数字とピリオドなど、URL ファイルパスで許可される文字に制限されます。
 
 * H コードの 2 重タグのあるページで、強制のリンクトラッキングが有効の場合（Webkit ブラウザーのデフォルト）、自動リンクトラッキング（ダウンロードおよび出口）中に発生していたループを修正しました。また、同様のループを防ぐために、自動リンクトラッキングに一般的な保護を追加しました。この保護は、*同じ*&#x200B;オブジェクトに対する 10 秒に 1 回の繰り返しクリックの自動リンクトラッキングに限定されます。この保護は、自動リンクトラッキングにのみ適用されるので、手動リンクトラッキング（s.tl）呼び出しは制限されません。別のオブジェクトへのクリックも、この保護の影響は受けず、トラッキングされます。
 * 遅延が必要な場合のクリックされたオブジェクトの処理を修正しました。
 * s.t がリンク onclick 関数から呼び出されて、訪問者 API が必要な値をまだ持っていない場合、ページビューカウントが倍になる問題を修正しました。
 * HTTP POST をサポートします。
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[ を解決するメソッド）の代わりに POST メソッドを使用する ](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
+  >[!IMPORTANT]
+  >
+  >[!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[ を解決するメソッド）の代わりに POST メソッドを使用する ](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
@@ -482,11 +482,11 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 * 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   現在はハッシュ／フラグメントが無視されるので、ファイル名の拡張子が一致する場合にのみリンクが追跡されます。
+  現在はハッシュ／フラグメントが無視されるので、ファイル名の拡張子が一致する場合にのみリンクが追跡されます。
 
 ## バージョン 1.0.1
 
