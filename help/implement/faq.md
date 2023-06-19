@@ -4,7 +4,7 @@ description: 実装に関するよくある質問と、詳細情報へのリン�
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* レポートスイートを無効な値に変更すること（アドビのサーバーに不要な読み込みが発生する）
 >* `s_code.js` ファイルを完全に削除すること（各ページのファイルへの参照をすべて削除する場合を除く ）
 >* `trackingServer` 変数をアドビ以外を参照するように変更すること。AppMeasurement は引き続きイメージリクエストを送信し、404 エラーを返します。
-
 
 ## コードアナライザを通じて AppMeasurement を実行したところ、潜在的なセキュリティリスクとして `Math.random()` の使用にフラグが付きました。 `Math.random()` は機密データで使用されますか？
 
