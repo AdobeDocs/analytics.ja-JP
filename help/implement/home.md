@@ -3,10 +3,10 @@ title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティ、アプリケーションに実装します。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 **Web サイト**&#x200B;では、次の実装方法を使用できます。
 
-* **Web SDK 拡張機能**：新規顧客向けに Adobe Analytics を実装するための標準化されたお勧めの方法です。**AEP Web SDK 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**&#x200B;にインストールし、各ページでローダータグを使用して、組織にとって使いやすい形式で Adobe Experience Platform **Edge Network** にデータを送信します。Edge Network は、受信したデータを正しい形式で Adobe Analytics に転送します。
+* **Web SDK 拡張機能**：新規顧客向けに Adobe Analytics を実装するための標準化されたお勧めの方法です。のインストール **Adobe Experience Platform Web SDK 拡張機能** (Adobe Experience Platform Data Collection) **タグ**&#x200B;を使用し、各ページでローダタグを使用して、データをAdobe Experience Platformに送信する **Edge Network** 組織に便利な形式で。 Edge Network は、受信したデータを正しい形式で Adobe Analytics に転送します。
   ![Web SDK 拡張機能](./assets/websdk-extension-implementation.png)
 詳しくは、[Adobe Experience Platform Web SDK 拡張機能を使用した Adobe Analytics の実装](./aep-edge/overview.md)を参照してください。
 

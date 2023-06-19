@@ -3,10 +3,10 @@ description: Mobile Services の処理ルールを Adobe Analytics に移行す�
 title: Mobile Services の処理ルールの Adobe Analytics への移行
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,4 +77,4 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 
 * 獲得リンクについては、お客様のニーズを満たすためにアドビパートナーにご案内する場合があります。
 * プッシュメッセージングおよびアプリ内メッセージングは、Adobe Campaign Standard と Adobe Campaign Classic で利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 アドビアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
-* ロケーション機能については、すべての AEP のお客様に無料で提供される新しい [Adobe Experience Platform ロケーションサービス](https://www.adobe.com/jp/experience-platform/location-service.html)を採用することをお勧めします。
+* ロケーション機能については、新しい [Adobe Experience Platform Location Service](https://www.adobe.com/jp/experience-platform/location-service.html)：すべてのAdobe Experience Platformのお客様は無料です。

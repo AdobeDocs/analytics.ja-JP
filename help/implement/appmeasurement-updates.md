@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -324,7 +324,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2015 年 9 月 17 日**
 
 * Visitor API 1.5.2 を同梱しました。
-* [!DNL Audience Manager] モジュールが更新され、AAM DIL 6.2 を使用できるようになりました。VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しで AAM に渡します。（AN-104978）
+* 更新済み [!DNL Audience Manager] モジュールを使用してAdobe Audience ManagerDIL6.2 を使用する — VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しでAdobe Audience Managerに渡します。 （AN-104978）
 
 ## バージョン 1.5
 

@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0（2022年12月6日）
 
-* プラグインを完全に書き換えて、ソリューションに依存しないようにします。例えば、これは、現在は、AEP Web SDK と互換性があります
+* プラグインを完全に書き換えて、ソリューションに依存しないようにします。例えば、Adobe Experience Platform Web SDK と互換性があるようになりました
 * （AppMeasurement s オブジェクトではなく）ウィンドウオブジェクトに `_pltPreviousPage` および `_pltLoadTime` 変数を作成します
 * s_pltp cookie が不要になりました。すべてが s_plt cookie にのみ保存されるようになりました
 * トラブルシューティングに役立つように、getVersion 関数を含めました

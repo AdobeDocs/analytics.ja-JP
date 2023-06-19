@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,13 +41,13 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-## AAM 固有のよくある質問（FAQ）   {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager固有の FAQ {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：Audience Manager で Analytics の宛先を作成するにはどうすればよいですか。</b> </p> </td> 
-   <td colname="col2"> <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja"  >AAM での Analytics の宛先の設定</a>を参照してください。 </td> 
+   <td colname="col2"> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja"  > Adobe Audience Managerでの Analytics の宛先の設定 </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics の宛先を作成して保存した後、選択したレポートスイートにデータが表示されるまでにどれくらい時間がかかりますか。</b> </p> </td> 
@@ -58,7 +58,7 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> <p>「<span class="uicontrol">Segment Mappings</span>」で「<span class="uicontrol">Automatically map all current and future segments</span>」オプションを選択すると、Analytics の宛先はセグメントの「Destination Mappings」セクションに表示されなくなります。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>これを防ぐには、自動オプションの代わりに「<span class="uicontrol">Manually map segments</span>」を選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q：Analytics では、AAM からすべての情報が提供されますか。</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q:Analytics で、Adobe Audience Managerからすべての情報が提供されますか。</b> </p> </td> 
    <td colname="col2"> <p>いいえ。Audience Manager オーディエンスの有効化中または有効化後、およびセグメント認定中／認定後にサイトを訪問するユーザーに関連するデータのみ提供されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：この統合は、Analytics でディメンションまたはセグメントのどちらとして表示されますか。</b> </p> </td> 
-   <td colname="col2"> <p>ディメンション（オーディエンス ID およびオーディエンス名）として表示されます。 </p> </td> 
+   <td colname="col2"> <p>ディメンション（オーディエンス ID およびオーディエンス名）として表示されます. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：これらのディメンションは Analytics のどこで使用できますか。</b> </p> </td> 
@@ -90,27 +90,27 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics でデータが受信されないのはなぜですか。</b> </p> </td> 
-   <td colname="col2"> <p>データソースと宛先の間に競合する AAM プライバシー制御がある可能性があります。 </p> </td> 
+   <td colname="col2"> <p>データソースと宛先の間に競合するAdobe Audience Managerのプライバシー制御がある可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：すべてのセグメントを送信するように選択しましたが、一部のセグメントが Analytics で欠落しているのはなぜですか。</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">宛先とセグメントのデータソースの AAM データエクスポート制御が競合して、特定のセグメントが送信されていない可能性があります。 </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">宛先とセグメントのデータソースのAdobe Audience Managerデータ書き出しコントロールが競合して、特定のセグメントが送信されない可能性があります。 </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">セグメントでサードパーティのデータ特性を使用している場合、それらのセグメントは個人データを含む宛先（一連のレポートスイート）と共有できません。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。（メモ：また、Data Warehouse では「Audience ID = -1」および「::max_audiences_exceeded::」としても表示されます）</b> </p> </td> 
-   <td colname="col2"> <p>デフォルトでは、AAM の Audience Analytics 統合は、訪問者が認定されたすべてのセグメントをヒットごとに Analytics に送信します。単一のヒットで訪問者が 150 を超える AAM セグメントに属している場合、<b>150 個の最近認定されたセグメント</b>が Analytics に送信され、残りのリストは切り捨てられます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
+   <td colname="col2"> <p>デフォルトでは、Adobe Audience ManagerのAudience Analytics統合は、訪問者が認定するすべてのセグメントをヒットごとに Analytics に送信します。 1 回のヒットで訪問者が 150 を超えるAdobe Audience Managerセグメントに属している場合、 <b>最近 150 個の認定済みセグメント</b> 残りのリストは切り捨てられる間、が Analytics に送信されます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選択肢 1</b>：統合を初期状態で使用し、特定の訪問者が最近認定された 150 個のセグメントを送信します。 </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>選択肢 2</b>：AAM で、その統合でビジネスに最も重要な 150 個のセグメントを選択します。AAM はそれらの 150 セグメントに対してのみ訪問者をチェックします。この手法の欠点は、すべての訪問者に対してこの 150 セグメントしか受け取れないことです。一方、1 の手法の場合、統合にはヒットごとの特性があるので、セグメントを無制限に送信できます。 </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>オプション 2</b>:Adobe Audience Managerで、統合でビジネスにとって最も重要な 150 個のセグメントを選択します。 次に、Adobe Audience Managerは、これら 150 個のセグメントに対してのみ訪問者をチェックします。 この手法の欠点は、すべての訪問者に対してこの 150 セグメントしか受け取れないことです。一方、1 の手法の場合、統合にはヒットごとの特性があるので、セグメントを無制限に送信できます。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：この統合の追加のサーバーコールは Analytics に請求されますか。</b> </p> </td> 
-   <td colname="col2"> <p>いいえ。AAM オーディエンスは、サーバーサイドで Analytics ヒットに含められます。これは、Analytics（プライマリまたはセカンダリ）への追加のサーバーコールとなりません。 </p> </td> 
+   <td colname="col2"> <p>いいえ。Adobe Audience Manager Audiences は、Analytics のヒットサーバーサイドに組み込まれます。 これは、Analytics（プライマリまたはセカンダリ）への追加のサーバーコールとなりません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：従来の SSF が実装されている場合は、Analytics 管理に移動してレポートスイートの SSF を有効にする必要がありますか。</b> </p> </td> 
-   <td colname="col2"> <p>はい。AAM の宛先の設定では、SSF が有効にされているレポートスイートのみが表示されます。 </p> </td> 
+   <td colname="col2"> <p>はい。Adobe Audience Managerの宛先設定では、SSF が有効になっているレポートスイートのみが表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics 管理で特定のレポートスイートを SSF に対して有効にできないのはなぜですか。</b> </p> </td> 
@@ -141,12 +141,12 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> <p>詳しくは、<a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  >訪問者数の相違</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q：AAM の「オーディエンス」と Analytics の「セグメント」の違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>詳しくは、<a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Analytics と Audience Manager のセグメントについて </a>を参照してください。 </p> <p>AAM オーディエンスは、Analytics で使用するために送信されて、「ディメンション」コンポーネントとして共有されます。これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
+   <td colname="col1"> <p><b>Q:Adobe Audience Managerの「オーディエンス」と Analytics の「セグメント」の違いは何ですか。</b> </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Analytics とAudience Managerのセグメントについて </a>. </p> <p>Adobe Audience Managerオーディエンスは、Analytics で使用する「ディメンション」コンポーネントとして送信および共有されます。 これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q：顧客属性と AAM から統合された顧客データの違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>顧客属性は時間ベースではなく、過去や未来の時点に適用されます。AAM の統合データは時間ベースであり、未来の時点にのみ適用されます。また、顧客属性は Experience Cloud の訪問者 ID の参照テーブルであり、AAM 統合は訪問者の各ヒットにステッチされるデータです。 </p> </td> 
+   <td colname="col1"> <p><b>Q:顧客属性とAdobe Audience Managerから統合された顧客データの違いは何ですか。</b> </p> </td> 
+   <td colname="col2"> <p>顧客属性は時間ベースではなく、過去や未来の時点に適用されます。Adobe Audience Managerの統合データは、時間ベースで将来のみ利用できます。 また、Experience Cloud属性は顧客 ID のルックアップテーブルですが、Adobe Audience Manager統合は、訪問者の各ヒットに関連付けられたデータです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：この問題に対する従来の手法（古いベータ版、コンサルティングプラグインの cookie の宛先など）は使用できますか。</b> </p> </td> 

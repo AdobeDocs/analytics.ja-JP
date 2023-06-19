@@ -3,10 +3,10 @@ description: Adobe Analytics と Adobe Audience Manager には同様の定義の
 title: 訪問者数の相違
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > AAM：Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > Adobe Audience Manager:Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであったデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > Adobe Audience Manager:Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであり、プロパティにアクセスしたデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  </tbody> 
 </table>
 
-Audience Analytics レポート内で使用される AAM の「Real-time Segment Population」と Analytics の「Experience Cloud ID での訪問者」は、最も似ています。ただし短期間の場合は、いくつかの要因により、若干の相違があります。関係する要因は次のとおりです。
+Adobe Audience Manager Real-time Segment Population と Analytics Visitors withExperience CloudID が、Audience Analyticsレポート内で使用されるのは最も似ています。 ただし短期間の場合は、いくつかの要因により、若干の相違があります。関係する要因は次のとおりです。
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 要因 </th> 
-   <th colname="col2" class="entry"> AAM：Real-time Segment Population </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager:Real-time Segment Population </th> 
    <th colname="col3" class="entry"> Analytics：Experience Cloud ID での訪問者 </th> 
   </tr>
  </thead>

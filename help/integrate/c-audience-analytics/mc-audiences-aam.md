@@ -1,21 +1,21 @@
 ---
-description: Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
+description: Adobe Audience Manager(Adobe Audience Manager) は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。 広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
 solution: Experience Cloud
 title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Audience Analytics の概要
 
-Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
+Adobe Audience Manager(Adobe Audience Manager) は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。 広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
 
-Audience Analytics を統合したら、デモグラフィック情報（性別、所得水準など）、サイコグラフィック情報（興味や趣味）、CRM データ、広告インプレッションデータといった AAM オーディエンスのデータを、任意の Analytics ワークフローに組み込むことができます。
+Audience Analyticsを統合したら、人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどのAdobe Audience Managerのオーディエンスデータを任意の Analytics ワークフローに組み込むことができます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
@@ -24,8 +24,8 @@ Audience Analytics を統合したら、デモグラフィック情報（性別�
 Audience Analytics 統合には次の主要なメリットがあります。
 
 * 市場で初めて製品化されたデータ管理プラットフォーム（DMP）と分析エンジンの統合製品です。
-* セグメントは AAM から Analytics にリアルタイムで共有され、オーディエンスの検出、セグメント化および最適化が通知されます。
-* デフォルトですべての AAM セグメントが共有されるので、Analytics の顧客プロファイルが充実します。
+* セグメントは、Adobe Audience Managerから Analytics にリアルタイムで共有され、オーディエンスの検出、セグメント化および最適化の情報を提供します。
+* すべてのAdobe Audience Managerセグメントは、デフォルトで共有され、Analytics で顧客プロファイルを完全に充実させます。
 * ソリューション管理者は、ユーザーインターフェイスから統合を有効にすることができ、コードの変更は最小限で済みます。
 * Audience Manager のデータエクスポートコントロールに準拠するセグメントのみが共有されます。
 
@@ -34,12 +34,12 @@ Audience Analytics 統合には次の主要なメリットがあります。
 ![](assets/mc-aud-dataflow.png)
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
-1.  [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
-1. Audience Analytics 統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップが AAM で検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
+1.   [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)に設定されている場合、Analytics が受け取った各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
+1. Audience Analytics統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
 
-AAM セグメントは同じヒットごとに挿入されるので、AAM で使用可能な訪問者に関するどのデータも欠落することなく、ヒットに対して最新の状態が保たれます。AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
+Adobe Audience Managerのセグメントは同じヒット単位で挿入されるので、Adobe Audience Managerで使用可能な訪問者に関するデータがどれであれ、訪問者がミスされず、そのヒットに関して最新の状態に保つことができます。 AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
 
-また、AAM セグメント ID はわかりやすい名前に自動的に分類されるので、Analytics レポートで英数字の ID を参照する必要はありません。
+また、Adobe Audience Managerセグメント ID はわかりやすい名前に自動的に分類されるので、Analytics レポートで英数字の ID を参照する必要はありません。
 
 ## 前提条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
@@ -48,7 +48,7 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
 * ID サービス v1.5 以降を使用している。
-* AAM および Adobe Analytics レポートスイートが、同じ Experience Cloud 組織にマッピングされている。
+* Adobe Audience ManagerとAdobe Analyticsのレポートスイートが、同じExperience Cloud組織にマッピングされている。
 * [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。

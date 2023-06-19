@@ -3,10 +3,10 @@ description: EU Cookie コンプライアンス規則によって促されたサ
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバーサイド転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 
-これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。2018 年 11 月 1 日以降、データ管理者であるお客様（Adobe Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、AAM に転送しないようにするオプションがあります。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。
+これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。2018 年 11 月 1 日以降、データ管理者 (Adobe Analyticsのお客様 ) は、同意前のデータをAdobe Analyticsに制限し、Adobe Audience Managerに転送されないようにするオプションがあります。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。変数は、設定されている場合、同意を受け取るまで、これらのヒットがAdobe Audience Managerに送信されないようにします。
 
-この新しいコンテキスト変数「`cm.ssf=1`」がヒットに存在する場合、このヒットにはフラグが設定され、AAM へのサーバー側転送はおこなわれません。反対に、この文字列がヒットにない場合、ヒットは AAM に転送されます。
+この新しいコンテキスト変数の場合、 `cm.ssf=1`がヒットに存在する場合、このヒットにはフラグが設定され、Adobe Audience Managerへのサーバー側転送はおこなわれません。 逆に、この文字列がヒットに表示されない場合、ヒットはAdobe Audience Managerに転送されます。
 
-サーバー側転送は双方向です。つまり、ヒットに適用されてそのヒットが AAM に転送されると、Audience Analytics は、AAM からそのヒットに関するセグメント情報を受け取り、Analytics に送り返します。結果として、Analytics から AAM にサーバー側転送されていないヒットは、AAM からのセグメント ID のリストで強化されません。したがって、AAM からセグメント ID 情報を取得しないトラフィック／ヒットのサブセットになります。
+サーバー側転送は双方向です。つまり、ヒットに適用され、そのヒットがAdobe Audience Managerに転送されると、Audience AnalyticsはAdobe Audience Managerからそのヒットのセグメント情報を受け取り、Analytics に返します。 その結果、Analytics からAdobe Audience Managerにサーバー側で転送されないヒットは、Adobe Audience Managerのセグメント ID のリストで強化されません。 したがって、Adobe Audience Managerからセグメント ID 情報を取得しないトラフィック/ヒットのサブセットが存在します。
 
 ## 実装の詳細 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -31,9 +31,9 @@ ht-degree: 100%
 | Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
 | AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。            <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
-## レポート（オプション） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## レポート（任意） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Adobe Analytics を使用して、どのくらいのトラフィックが同意され、結果として AAM にサーバー側転送されているかと、どのくらいのトラフィックが同意されず、結果としてサーバー側転送されていないかを比較してレポートできます。
+Adobe Analyticsを使用して、どのくらいのトラフィックが同意され、結果としてサーバー側転送がおこなわれたかと、どのくらいのトラフィックが同意されず、Adobe Audience Managerに転送されていないかを比較してレポートできます。
 
 このタイプのレポートを設定するには、処理ルールを使用して、新しいコンテキスト変数をカスタムトラフィック変数（prop）にマッピングします。次に手順を示します。
 

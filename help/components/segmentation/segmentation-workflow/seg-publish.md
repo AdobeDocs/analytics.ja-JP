@@ -3,10 +3,10 @@ description: セグメントをオーディエンスライブラリ、Target お
 title: Experience Cloud へのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1324'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,43 +87,43 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 ## [!DNL Audience Manager] UUID の取得
 
-ブラウザーに現在関連付けられている AAM UUID を取得するには、次の 2 つの方法があります。
+現在ブラウザーに関連付けられているAdobe Audience Manager UUID を取得する方法は 2 つあります。
 
 * Adobe Experience Cloud デバッガー
 * ブラウザーのネイティブ開発者ツール（Chrome Developer Tools など）
 
-次のスクリーンショットは、ブラウザーで AAM UUID を取得し、Audience Manager 訪問者プロファイルビューアで AAM UUID を使用して特性とセグメントのメンバーシップを検証する方法を示しています。
+次のスクリーンショットは、ブラウザーでAdobe Audience Manager UUID を取得し、Audience Manager訪問者プロファイルビューアで UUID を使用して特性とセグメントのメンバーシップを検証する方法を示しています。
 
 ### 方法 1：Adobe Experience Cloud デバッガーの使用
 
 1. Chrome Web Store で [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) をダウンロードしてインストールします。
 1. ページの読み込み時にデバッガーを起動します。
-1. 「Audience Manager」セクションまでスクロールし、現在のブラウザーページで設定されている AAM UUID を見つけます（以下の例の `50814298273775797762943354787774730612` を参照）。
+1. 「Audience Manager」セクションまでスクロールし、現在のブラウザーページで設定されているAdobe Audience Manager UUID を見つけます (`50814298273775797762943354787774730612` （以下の例）
 
 ![デバッガー](assets/debugger.jpg)
 
 ### 方法 2：Chrome Developer Tools（または他のブラウザー開発者ツール）を使用する
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
-1. ページを読み込み、アプリケーション／Cookie を確認します。AAM UUID は、サードパーティ Demdex cookie（下の例では [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) に設定する必要があります）。demdex フィールドは、ブラウザー上の AAM UUID 設定です（以下の例は `50814298273775797762943354787774730612`）。
+1. ページを読み込み、アプリケーション／Cookie を確認します。Adobe Audience Manager UUID は、サードパーティ Demdex Cookie([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) （以下の例）。 demdex フィールドは、ブラウザー上のAdobe Audience Manager UUID 設定 (`50814298273775797762943354787774730612` （以下の例）。
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL 訪問者プロファイルビューア]が読み込まれると、ブラウザーの AAM UUID がデフォルトで使用されます。他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
+ブラウザーのAdobe Audience Manager UUID は、 [!UICONTROL 訪問者プロファイルビューア] が読み込まれます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
 ![Audience Manager プロファイルビューア](assets/aam-vpv.png)
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
-AAM では、Analytics が Experience Cloud とセグメントを共有するので、特定のセグメントの ECID を持つ訪問者のリストがストリーミング方式で評価されます。
+Adobe Audience Managerでは、Analytics がExperience Cloudとセグメントを共有するので、特定のセグメントの ECID を持つ訪問者のリストがストリーミング方式で評価されます。
 
 1. [!DNL Audience Manager] で、 [!UICONTROL オーディエンスデータ／特性／Analytics 特性] に移動します。Experience Cloud 組織にマップされている各 Analytics レポートスイートのフォルダーが表示されます。これらのフォルダー（特性、セグメントおよびデータソースの場合）は、プロファイルおよび Audiences／People コアサービスが開始またはプロビジョニングされると作成されます。
 1. [!DNL Audience Manager] と共有する、過去にセグメントを作成したレポートスイートのフォルダーを選択します。作成したセグメント／オーディエンスが表示されます。セグメントを共有すると、[!DNL Audience Manager] で次の 2 つがおこなわれます。
    * データが入っていない特性が作成されます。セグメントが[!DNL Analytics] で公開されてから約 8 時間後に、ECID のリストがオンボードされ、[!DNL Audience Manager] および他の Experience Cloud ソリューションと共有されるようになります。
 
-      ![Audience Manager の特性](assets/aam-traits.png)
+     ![Audience Manager の特性](assets/aam-traits.png)
 
    * 1 つの特性セグメントが作成されます。セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
    * 特性の有効期限が 16 日に設定されました（以前は 2 日でした）。

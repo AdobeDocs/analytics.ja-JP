@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 >
 > 2023年1月の時点で、Mac および Windows オペレーティング システムの一部のバージョンがユーザーエージェントで正しく表示されず、高エントロピーのクライアントヒントでは正しく表示されます。詳しくは、[オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照してください。
 
-AAM では、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。[AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 次を使用する場合： [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
 
 ## よくある質問
 
@@ -143,7 +143,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++
 
-+++**クライアントヒントは、Adobe ソースコネクタを介して AEP および CJA に送信されるデータで利用できますか？**
++++**クライアントヒントは、Adobeソースコネクタを介してAdobe Experience PlatformおよびCustomer Journey Analyticsに送信されるデータで使用できますか？**
 
 アドビは、2023年上半期に Adobe ソースコネクタを介したデータにクライアントヒントを含める予定です。
 
@@ -155,8 +155,8 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++
 
-+++**AAM サーバーサイド転送はクライアントヒントをサポートしますか？**
++++**Adobe Audience Managerサーバー側転送はクライアントヒントをサポートしますか？**
 
-はい。クライアントヒントは、AAM に転送されるデータに含まれます。なお、AAM では、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。[AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+はい。Adobe Audience Managerに転送されるデータに、クライアントヒントが含まれます。 Adobe Audience Managerでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 次を使用する場合： [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
 
 +++

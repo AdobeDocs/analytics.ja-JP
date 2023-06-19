@@ -3,10 +3,10 @@ description: Analytics と Audience Manager ではセグメントが使用され
 title: Analytics と Audience Manager のセグメントについて
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,13 +35,13 @@ Analytics セグメントは、レポートのデータのフィルタリング�
 
 * Analytics セグメントは、Audience Manager セグメントとは異なる一連のデータに作用します。データ収集中に、Analytics は Audience Manager ではおこなわれない様々な後処理をデータに適用します。後処理には、eVar の持続性、処理ルール、参照（位置情報、モバイルデバイス）、VISTA などがあります。Audience Manager は、前処理されたデータをサーバー側転送（または DIL）から受け取ります。
 
-   一般的に、データの相違は、期限切れになることがない Analytics のディメンションと Audience Manager の同じディメンションに基づいてセグメントを比較したときに発生します。例えば、期限切れになることがない listVars またはマーチャンダイジング eVar です。
+  一般的に、データの相違は、期限切れになることがない Analytics のディメンションと Audience Manager の同じディメンションに基づいてセグメントを比較したときに発生します。例えば、期限切れになることがない listVars またはマーチャンダイジング eVar です。
 
-   例えば、eVar = blue で、期限切れになることがないと Analytics で設定されている場合、条件「eVar = blue」を持つ Analytics のセグメントには常にこの訪問者が含まれます。それに対して、Audience Manager では、設定された期間の後に、同様に定義されたセグメントからその訪問者が除外される場合があります。
+  例えば、eVar = blue で、期限切れになることがないと Analytics で設定されている場合、条件「eVar = blue」を持つ Analytics のセグメントには常にこの訪問者が含まれます。それに対して、Audience Manager では、設定された期間の後に、同様に定義されたセグメントからその訪問者が除外される場合があります。
 
-* Analytics セグメントには AAM セグメントより多くの機能があります。Audience Manager セグメントは、常に訪問者レベルで評価されます。Analytics セグメントは、訪問者、訪問またはヒットのレベル（またはこれらのレベルの組み合わせ）で定義できます。また、Analytics では、Audience Manager ではサポートされない連続セグメントなどの拡張セグメント機能がサポートされます。
+* Analytics セグメントには、Adobe Audience Managerセグメントよりも多くの機能があります。 Audience Manager セグメントは、常に訪問者レベルで評価されます。Analytics セグメントは、訪問者、訪問またはヒットのレベル（またはこれらのレベルの組み合わせ）で定義できます。また、Analytics では、Audience Manager ではサポートされない連続セグメントなどの拡張セグメント機能がサポートされます。
 * 前述のように、Audience Manager の訪問者は、現時点でセグメントの条件を満たしているかどうかに応じてセグメントに含められたり、除外されたりします。
 
-   逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。AAM では、その訪問者は日付範囲に関係なく「購入者」セグメントに含められます。Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
+  逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。Adobe Audience Managerでは、日付範囲に関係なく、その訪問者が「購入者」セグメントに含まれます。 Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
 
 詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。

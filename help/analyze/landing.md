@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '3952'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 | **[!UICONTROL Reports &amp; Analytics]** レポートへの新しいリンク | <ul><li>**[!UICONTROL レポート]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL ボット]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL ボットページ]**<li>**[!UICONTROL レポート]**／**[!UICONTROL エンゲージメント]**／**[!UICONTROL リアルタイム]**</li></ul> | ![新規リンク](assets/report-links.png) |
 | 標準の新規レポート | <ul><li>**[!UICONTROL レポート]**／**[!UICONTROL 一番人気]**／**[!UICONTROL 次のページ]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL 一番人気]**／**[!UICONTROL 前のページ]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL エンゲージメント]**／**[!UICONTROL ページ分析]**／**[!UICONTROL ページの概要]**</li></ul>これらのレポートは[!UICONTROL ワークスペース]形式で、設定とビルドが必要となります。出力は、上位指標のパネル、トレンドデータ、[!UICONTROL フロー]ビジュアライゼーションなどで構成されます。これらのレポートを変更したり、ディメンション、ディメンション項目などを変更できます。これらのレポートは、ワークスペースパネル配下のパネルとしても使用できます。 | ![次のページ](assets/next-page.png) |
 | **[!UICONTROL プロジェクトを作成]**&#x200B;モーダルが復活しました | ワークスペースで「**[!UICONTROL プロジェクトを作成]**」をクリックすると、[!UICONTROL 空のプロジェクト]と[!UICONTROL 空のモバイルスコアカード]のどちらかを、再び選択できるようになりました。会社が作成した任意のテンプレートから選択することもできます。 | ![新規作成](assets/create-new.png) |
-| Customer Journey Analytics でも使用可能 | このランディングページは、変更された形式で、CJA でも使用できます。 |  |
+| Customer Journey Analytics でも使用可能 | このランディングページは、変更された形式で、Customer Journey Analytics でも使用できます。 |  |
 
 {style="table-layout:auto"}
 
