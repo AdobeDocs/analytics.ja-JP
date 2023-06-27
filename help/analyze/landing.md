@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
 ![その他のフィルター](assets/delete-fr-create-project-modal.png)
 
 
-## 「学習」タブへの移動 {#navigate-learning}
+## 「学習」タブを使用する {#navigate-learning}
 
-学習ページには、実践ビデオツアーとチュートリアルのほか、ドキュメントへのリンクが含まれています。
+学習ページには、実践型のビデオツアー、チュートリアル、ドキュメントへのリンクが含まれています。
 
-* [!UICONTROL ワークスペースの基本]ツアーでは、ワークスペースに直接アクセスし、ワークスペースのレイアウトと、最も一般的なアクションをどこで見つけて実行できるかについて説明します。このツアーは、パネルヘッダーからツールチップポップオーバーを使用して、ワークスペースでいつでも直接再起動できます。
-* ビデオ／ツアーをクリックすると、「**[!UICONTROL 閲覧済み]**」タグが追加されます。このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。コンテンツをまだ完了していない場合は、タグをクリックするとタグが消えます。
-* ビデオモーダルの「**[!UICONTROL 詳細情報]**」ボタンをクリックすると、先ほど視聴したビデオに関連する詳細なヘルプコンテンツが記載された Adobe Experience League ドキュメントページが表示されます。「**[!UICONTROL その他のビデオを視聴する]**」をクリックすると、Analysis Workspace YouTube の完全なプレイリスト全体が表示されます。
+Adobe Analyticsの学習ページを使用して、Adobe Analyticsの初心者、中級者または高度な機能および使用例を学習します。
+
+### 学習ページにアクセス
+
+1. Adobe Analyticsで、 [!UICONTROL **Workspace**] > [!UICONTROL **学習**].
+
+### 学習ページの機能
+
+* **コンテンツをフィルタ：** 左側のレールのフィルターアイコンを使用すると、学習コンテンツをエクスペリエンスレベル（初級、中級、高度）やコンテンツタイプ（ドキュメント、ビデオ、Tours &amp;チュートリアル）でフィルタリングできます。
+* **進行状況の追跡：** コンテンツを選択すると、 **[!UICONTROL 表示済み]** タグが表示されます。 このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。次の項目を選択できます。 **[!UICONTROL 表示済み]** タグを使用して、コンテンツの一部から削除します。
+* **追加のコンテンツを表示：** 任意のビデオを表示している間に、 **[!UICONTROL 詳細情報]** ボタンをクリックして、Experience Leagueの関連ドキュメントコンテンツを表示します。 または、学習ページから、次のいずれかのオプションを選択して追加のコンテンツを表示します。
+   * **[!UICONTROL YouTubeにアクセス]:** Analysis Workspace YouTubeのプレイリスト全体を表示します。
+   * [!UICONTROL **訪問のExperience League**]:Experience Leagueに関するAdobe Analyticsのドキュメントの完全なスイートを表示します。
+* **新規ユーザー向けの基本事項：** この [!UICONTROL Workspace の基本] ツアーは、新規ユーザーにお勧めです。 このツアーでは、Workspace に直接アクセスし、最も一般的なアクションを順を追って説明します。 このツアーは、Workspace で、パネルヘッダーのツールチップポップアップからいつでも再起動できます。
 
 ## ランディングページの設定 {#set-landing}
 

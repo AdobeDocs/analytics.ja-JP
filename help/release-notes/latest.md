@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **パネル内にビジュアライゼーションを追加する新しいボタン** | Analysis Workspace の各パネルの下部に新しいボタンが表示され、ビジュアライゼーションをすばやく追加できるようになりました。 <p>以前は、パネルにビジュアライゼーションを追加する唯一の方法は、左側のパネルからビジュアライゼーションをドラッグしたり、既存のビジュアライゼーションを複製またはコピーしたり、空のパネルを作成したりすることでした。[詳細情報](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 該当なし | 2023年5月17日（PT） |
 | **ディープリンク（モバイルアプリ）** | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。これにより、プロジェクトの共有がさらに簡単になり、技術に詳しくないオーディエンスからのエンゲージメントを高めることができます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#share-scorecards-using-a-shareable-link) | 該当なし | 2023年5月17日（PT） |
 | **動的ドロップダウンフィルター** | パネルのレポート範囲内のデータと他のドロップダウンフィルターの値に基づいて使用可能な値を決定する、新しいタイプのドロップダウンフィルターを導入しています。[!UICONTROL Shift] キーを押しながらディメンションをパネルのドロップゾーンにドラッグすることで、動的ドロップダウンフィルターを使用できます。[!UICONTROL Shift] キーを押しながらディメンション項目のグループをパネルドロップゾーンにドラッグすると、静的ドロップダウンフィルターは変更されません。[詳細情報](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 2023年6月14日（PT） |
-| **Analytics ラーニングページの更新** | Adobe Analytics ランディングページの「ラーニング」タブには、次の機能強化が含まれています。<ul><li>ナビゲーションが改善され、単一ページによりその他のラーニングコンテンツが表示されるデザインの改善</li><li>エクスペリエンスレベル（初級、中級、上級）に応じてラーニングコンテンツをパーソナライズする機能</li></ul>[詳細情報](/help/analyze/landing.md) |  | 2023年6月30日 |
+| **Analytics ラーニングページの更新** | Adobe Analytics ランディングページの「ラーニング」タブには、次の機能強化が含まれています。<ul><li>ナビゲーションが改善され、単一ページによりその他のラーニングコンテンツが表示されるデザインの改善</li><li>エクスペリエンスレベル（初級、中級、上級）に応じてラーニングコンテンツをパーソナライズする機能</li></ul>[詳細情報](/help/analyze/landing.md) | 2023年6月27日（PT） | 2023年6月30日 |
 | **Analysis Workspace でのコンポーネントの並べ替え** | 新しい「並べ替え」オプションは、Analysis Workspace の左側のパネルまたはデータ要素でコンポーネントを表示する際に使用できるようになりました。コンポーネントは、推奨（最も一般的に使用されるコンポーネント）、アルファベット順、またはカテゴリ順（タイプ）で並べ替えることができます。<p>以前は、コンポーネントを検索またはフィルタリングすることしかできませんでした。[詳細情報](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 該当なし | 未定 |
 
 {style="table-layout:auto"}
