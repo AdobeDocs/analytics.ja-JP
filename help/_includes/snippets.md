@@ -1,8 +1,8 @@
 ---
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # スニペット
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_en)を参照してください。
+>詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。
 
 ## データ要素のフィルター条件 {#dd-filter-criteria}
 
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | オプション | 関数 |
 |---------|----------|
-| [!UICONTROL **推奨**] | コンポーネントを、リストの最上部で推奨されるコンポーネントと並べ替えます。 自分や組織内の他のユーザーが最も頻繁に使用し、最近使用したコンポーネントがリストの上位に表示されます。 |
+| [!UICONTROL **推奨**] | コンポーネントを並べ替え、推奨されるコンポーネントをリストの上部に表示します。自分や組織内の他のユーザーが最も頻繁に使用し、最近使用したコンポーネントがリストの上位に表示されます。 |
 | [!UICONTROL **アルファベット順**] | コンポーネントをアルファベット順に並べ替えます。 |
-| [!UICONTROL **分類**] | コンポーネントのタイプ（ディメンション、指標、セグメント、日付範囲）に従ってコンポーネントを並べ替えます。 |
+| [!UICONTROL **分類**] | コンポーネントタイプ（ディメンション、指標、セグメント、日付範囲）に従ってコンポーネントを並べ替えます。 |
 
 {style="table-layout:auto"}
 
