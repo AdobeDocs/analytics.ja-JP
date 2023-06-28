@@ -4,7 +4,7 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 以下に、計算指標と高度な計算指標の機能の比較を示します。
 
-| ビルダーのオプション | 計算指標  | 高度な計算（派生）指標 |
+| ビルダーのオプション | 計算指標 | 高度な計算（派生）指標 |
 |---|---|---|
 | [形式のタイプ（小数、時間、割合、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | ○ | ○ |
 | [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
@@ -41,10 +41,14 @@ ht-degree: 88%
 * [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成します。
 * 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらはセグメントに基づいているため、時系列で表示できます。
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
 * （高度な計算指標のみ）指標でセグメント化する。 例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 
 * （高度な計算指標のみ）統計関数を組み込み、データをより深く記述できるようにします。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## 制限事項 {#section_CB878B02451541D68A68B508D4DBD19A}
 
