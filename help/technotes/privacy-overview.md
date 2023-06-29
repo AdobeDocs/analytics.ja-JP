@@ -4,9 +4,9 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics は次のデータを収集します。
 | 消費者が購入したアイテム | ○ |
 | 買い物かごに残っているアイテム | ○ |
 | ソーシャルネットワーク情報（写真、ユーザー ID、年齢、性別、場所など） | **×** |
-| ユーザーがサービス以外から指定した個人情報 | ○ |
 | 広告キャンペーンの成功率 | ○ |
 | 製品情報（カラー、価格、スタイル、写真など） | ○ |
 
@@ -71,6 +70,6 @@ Adobe Analytics は次のデータを収集します。
 
 現在、次の EMEA データセンターでAdobe Analyticsデータをホストしています。
 
-| アドビ名 | Address | 施設タイプ（オペレーター） | サポートされているソリューションコンポーネント | 認定 |
+| アドビ名 | Address | 施設タイプ（オペレーター） | サポートされているソリューションコンポーネント | 認定制度 |
 |--- |--- |--- |--- |--- |
 | LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | コロケーション施設 (Gyron) | マルチチャネル分析、デジタル分析 | SSAE 16 |
