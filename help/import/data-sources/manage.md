@@ -1,7 +1,9 @@
 ---
 title: データソースの管理
 description: データソース管理インターフェイスに移動します。
-source-git-commit: e32a7c85e2f0629c04bcd7ed0fa80ec1593bb6e8
+exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 2%
@@ -24,7 +26,7 @@ ht-degree: 2%
 
 ![管理](assets/manage.png)
 
-最上位のデータソースは常に [!UICONTROL Web ビーコン]. このデータソースは、AppMeasurement を使用した一般的なデータ収集で使用するデータソースです。 編集や非アクティブ化はできません。
+最上位のデータソースは常に [!UICONTROL Web ビーコン]. このデータソースは、AppMeasurementを通じた一般的なデータ収集に使用するものです。 編集や非アクティブ化はできません。
 
 各データソースには次のオプションがあります。
 

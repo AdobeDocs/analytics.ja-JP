@@ -1,7 +1,9 @@
 ---
 title: データソースファイルの形式
 description: データソースで使用するファイルを正しく生成する。
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 7%

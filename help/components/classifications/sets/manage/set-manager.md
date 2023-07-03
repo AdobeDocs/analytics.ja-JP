@@ -2,7 +2,8 @@
 title: 分類セットマネージャー
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 5%

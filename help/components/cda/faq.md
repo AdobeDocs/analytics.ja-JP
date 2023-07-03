@@ -2,7 +2,8 @@
 title: クロスデバイス分析に関する FAQ
 description: クロスデバイス分析に関するよくある質問（FAQ）
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '1927'
 ht-degree: 100%

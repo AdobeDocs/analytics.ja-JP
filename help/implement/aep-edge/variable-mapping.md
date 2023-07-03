@@ -2,7 +2,8 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 825552f176e9082fcf2a5b6103d2a5c30dd3a583
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 95%
@@ -118,8 +119,8 @@ ht-degree: 95%
 | `productListItems[].quantity` | 「[単位](../../components/metrics/units.md)」指標を判断するのに役立ちます。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |
 | `productListItems[].SKU` | 「[製品](../../components/dimensions/product.md)」ディメンション。[product](../vars/page-vars/products.md) ページ変数も参照してください。`productListItems[].SKU` と `productListItems[].name` の両方にデータが含まれている場合、`productListItems[].SKU` の値が使用されます。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
-| `web.webInteraction.name` | [カスタムリンク](../../components/dimensions/custom-link.md)、[ダウンロードリンク](../../components/dimensions/download-link.md)、または[出口リンク](../../components/dimensions/exit-link.md)ディメンション（`web.webInteraction.type` の値によって異なります）。 |
-| `web.webInteraction.type` | クリックされたリンクのタイプを判断します。有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。 |
+| `web.webInteraction.name` | [カスタムリンク](../../components/dimensions/custom-link.md)、[ダウンロードリンク](../../components/dimensions/download-link.md)、または[離脱リンク](../../components/dimensions/exit-link.md)ディメンション（`web.webInteraction.type` の値によって異なります）。 |
+| `web.webInteraction.type` | クリックされたリンクのタイプを判断します。有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。 |
 | `web.webPageDetails.URL` | 「[ページ URL](../../components/dimensions/page-url.md)」ディメンション。 |
 | `web.webPageDetails.isErrorPage` | 「ページが見つかりませんでした」[ディメンション](../../components/dimensions/pages-not-found.md)および[指標](../../components/metrics/pages-not-found.md)を判断するのに役立つフラグ。 |
 | `web.webPageDetails.name` | 「[ページ](../../components/dimensions/page.md)」ディメンション。 |

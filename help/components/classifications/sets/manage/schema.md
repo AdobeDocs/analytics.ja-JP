@@ -1,7 +1,9 @@
 ---
 title: 分類セットスキーマ
 description: 個々の分類セットのスキーマを表示および編集します。
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 46%

@@ -1,7 +1,9 @@
 ---
 title: フル処理のデータソースの提供終了
 description: フル処理のデータソースに関する提供終了のお知らせについて詳しく説明します。
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 11%
@@ -10,7 +12,7 @@ ht-degree: 11%
 
 # フル処理のデータソースの提供終了
 
-フル処理データソースを使用することで、組織はヒットレベルのデータをAdobe Analyticsに送信できました。 このデータは、AppMeasurement などの従来のデータ収集方法で収集されたデータと同じ方法で処理されました。 2020 年、Adobeは [一括データ挿入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)：フル処理のデータソースと同じ機能を実行しますが、追加機能も実行します。 このページでは、一括データ挿入 API で提供される追加機能の詳細とファイル形式の違いの概要を説明します。
+フル処理データソースを使用することで、組織はヒットレベルのデータをAdobe Analyticsに送信できました。 このデータは、従来のデータ収集手段 (AppMeasurementなど ) で収集されたデータと同じ方法で処理されました。 2020 年、Adobeは [一括データ挿入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)：フル処理のデータソースと同じ機能を実行しますが、追加機能も実行します。 このページでは、一括データ挿入 API で提供される追加機能の詳細とファイル形式の違いの概要を説明します。
 
 2021 年 3 月 25 日に、Adobeにより、新しいフル処理データソース接続が作成されなくなりました。 2022 年 1 月 31 日に、すべてのフル処理データサービスが無効化されました。
 

@@ -6,10 +6,11 @@ git-repo: https://github.com/AdobeDocs/analytics.ja-JP
 type: Documentation
 index: true
 feature-set: Analytics
-source-git-commit: 7df2f1d5f5f7135557924cac53d2a145f22b600a
+role: User, Admin
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
 

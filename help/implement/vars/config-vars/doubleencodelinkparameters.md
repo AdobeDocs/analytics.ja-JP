@@ -1,10 +1,12 @@
 ---
 title: doubleEncodeLinkParameters
 description: AppMeasurementの二重エンコーディングリンクトラッキング変数を有効または無効にします。
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
+feature: Variables
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 

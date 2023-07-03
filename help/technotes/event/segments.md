@@ -2,7 +2,8 @@
 title: 分析内の特定の日付を除外する
 description: レポートに含めない場合の、日付や日付範囲を除外するためのヒントです。
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
+feature: Event, Segmentation
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%

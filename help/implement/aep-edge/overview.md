@@ -1,8 +1,10 @@
 ---
 title: Adobe Experience Platform Edge を使用した Adobe Analytics の実装
 description: Adobe Analytics における Experience Platform の XDM データの使用の概要
-source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
-workflow-type: ht
+exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 

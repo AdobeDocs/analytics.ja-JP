@@ -2,7 +2,8 @@
 title: データソースの概要
 description: 開発レポートスイートにサンプルデータをアップロードします。
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 1%

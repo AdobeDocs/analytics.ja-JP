@@ -1,8 +1,10 @@
 ---
 title: Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の実装
 description: Adobe Experience Platform データ収集の Mobile SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
-source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -11,6 +13,7 @@ ht-degree: 100%
 # Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の実装
 
 Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Experience Cloud のソリューションとサービスを強化するのに役立ちます。Android™、iOS および様々なクロスプラットフォーム開発フレームワークで使用できます。設定は、Adobe Experience Platform データ収集を通じて処理されます。
+
 >[!IMPORTANT]
 >
 >Adobe Analytics 拡張機能は、Adobe Experience Platform データ収集でも使用できます。この拡張機能をインストールする場合、XDM や Edge ネットワークを利用することはできません。
@@ -137,6 +140,3 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 - [タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja#)
 
 - [Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/)
-
-
-

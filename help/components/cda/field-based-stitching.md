@@ -2,7 +2,8 @@
 title: フィールドベースのステッチ
 description: フィールドベースのステッチを使用してデータをステッチする場合の前提条件と制限事項を理解します。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%

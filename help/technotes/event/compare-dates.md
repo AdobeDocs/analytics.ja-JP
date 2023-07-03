@@ -2,10 +2,11 @@
 title: イベントの影響を受けた日付と前の範囲との比較
 description: 実装の問題や停止など、イベントが以前のトレンドと比較した場合の影響について説明します。
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 0%
 1. フリーフォームテーブルのビジュアライゼーションを追加し、テーブルビルダーを有効にします。 このアクションでは、変更の割合の指標を目的の順序に配置できます。
 2. 保留 `Ctrl` (Windows) または `Cmd` (Mac) をクリックし、3%の変更指標をテーブルの行に 1 つずつドラッグします。
 
-   ![表ビルダー](assets/table_builder.png)
+   ![テーブルビルダー](assets/table_builder.png)
 
 3. 「すべての訪問」セグメントをテーブルの列および他の任意の目的のセグメントに追加します。
 

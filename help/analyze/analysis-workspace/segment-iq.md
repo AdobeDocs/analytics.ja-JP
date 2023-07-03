@@ -4,8 +4,9 @@ description: Adobe Analytics の Segment IQ とは何か、および Adobe Analy
 keywords: Analysis Workspace;Segment IQ
 role: User, Admin
 exl-id: 8b8f63ae-2697-474d-9c51-5d90d31f55ef
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
-workflow-type: ht
+feature: Visualizations
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 

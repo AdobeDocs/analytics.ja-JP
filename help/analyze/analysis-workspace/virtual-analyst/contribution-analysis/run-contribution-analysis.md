@@ -3,7 +3,8 @@ description: Workspace プロジェクトで貢献度分析レポートを実行
 title: 貢献度分析の実行
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -20,17 +21,17 @@ ht-degree: 100%
 
 * 毎日の精度のフリーフォームテーブルで、任意の行を右クリックして、「**[!UICONTROL 貢献度分析を実行]**」を選択します。異常値が表示されていない行でも実行できます。
 
-   >[!NOTE]
-   >
-   >貢献度分析は、現在、毎日の精度でのみサポートされています。
+  >[!NOTE]
+  >
+  >貢献度分析は、現在、毎日の精度でのみサポートされています。
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * 折れ線グラフでは、折れ線グラフの異常値データポイントの上にマウスポインターを置きます。表示される&#x200B;**[!UICONTROL 分析]**&#x200B;リンクをクリックします。
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
-1. （オプション）折れ線グラフまたはテーブルで「**[!UICONTROL 貢献度分析を実行]**」をクリックしたら、[ディメンションを除外](#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
+1. （任意）折れ線グラフまたはテーブルで「**[!UICONTROL 貢献度分析を実行]**」をクリックしたら、[ディメンションを除外](#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
 
 1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
 1. 次に、Analysis Workspace によってこのプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
@@ -41,7 +42,7 @@ ht-degree: 100%
 
    * [生成されたセグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)（トップアイテムクラスター）テーブルは、貢献度スコア、異常値の発生数、異常な指標に貢献する全体的な割合に基づいて、トップアイテムの関連性を識別します。これは、その後、オーディエンスセグメントとしてキャプチャされます（貢献度セグメント 1、貢献度セグメント 2 など）。「i」（情報）ボタンをクリックすると、構成する上位の項目を含む、各自動セグメントの定義が表示されます。
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. 貢献度分析は、Analysis Workspace の一部なので、テーブルの右クリックメニューから数多くの機能を活用して、分析を一層意味のあるものにすることができます。例えば、次のような機能があります。
 

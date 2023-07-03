@@ -2,7 +2,8 @@
 title: データの急増／急減のトラブルシューティング
 description: トレンドレポートで劇的な増加や減少が見られる理由を説明します。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Event, Data Configuration and Collection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%

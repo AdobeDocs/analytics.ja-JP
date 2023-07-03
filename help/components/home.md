@@ -2,7 +2,8 @@
 title: Analytics コンポーネントガイド
 description: Adobe Analytics が提供する様々なコンポーネントについて説明します。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+feature: Components
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -26,7 +27,7 @@ Analytics コンポーネントは、データの分析を微調整したり、�
 * **リアルタイムレポート：**&#x200B;利用可能なレポートおよびトレンドを即座に取得します。
 * **マーケティングチャネル：**&#x200B;訪問者がどのようにサイトに到達したかを把握し、どのチャネルが最も成功しているかを判断します。
 
-Adobe Analytics のビデオの概要は次のとおりです。
+以下は、Adobe Analytics の概説ビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -41,7 +42,7 @@ Adobe Analytics のビデオの概要は次のとおりです。
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)
