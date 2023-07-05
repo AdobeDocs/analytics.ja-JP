@@ -2,7 +2,8 @@
 title: Adobe Analytics のデータを除外
 description: データ収集前と収集後のデータを除外する方法について、様々な方法を説明します。
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Configuration and Collection
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 96%

@@ -2,7 +2,8 @@
 title: Adobe Analytics の VISTA ルール
 description: VISTA ルールとその機能の詳細について説明します。
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Analytics Basics
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%

@@ -1,7 +1,9 @@
 ---
 title: 分類セットの統合マネージャー
 description: 1 つ以上の分類セットを 1 つの分類セットに統合する。
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 032e93f6-9c11-4522-a02e-376eb4fd98bf
+feature: Classifications
+source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 5%
