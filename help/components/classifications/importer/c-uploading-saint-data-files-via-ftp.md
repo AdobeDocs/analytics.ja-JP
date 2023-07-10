@@ -3,14 +3,22 @@ description: FTP を使用してデータファイルをアップロードする
 title: FTP インポート
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '721'
+ht-degree: 80%
 
 ---
 
 # FTP インポート
+
+>[!IMPORTANT]
+>
+>このページで説明しているように、インポートに FTP を使用することはお勧めしません。
+>
+>FTP は暗号化されていないファイル共有方式なので、お勧めしません。つまり、誰でもファイルの内容と、アカウントで使用されるユーザー名およびパスワードを傍受できます。
+>
+>代わりに、クラウドアカウントを設定します。詳しくは、 [クラウドの読み込み場所の設定](/help/components/classifications/importer/configure-import-accounts.md).
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
@@ -20,7 +28,7 @@ FTP を使用してデータファイルをアップロードするには：
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**.
 
-次の推奨制限が重要です。 多すぎます
+次の推奨制限が重要です。
 
 >[!IMPORTANT]
 >

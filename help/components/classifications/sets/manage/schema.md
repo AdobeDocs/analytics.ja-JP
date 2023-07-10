@@ -3,10 +3,10 @@ title: 分類セットスキーマ
 description: 個々の分類セットのスキーマを表示および編集します。
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 46%
+source-wordcount: '525'
+ht-degree: 42%
 
 ---
 
@@ -46,7 +46,14 @@ ht-degree: 46%
 
 * **[!UICONTROL ジョブ履歴]**:次の場所に移動するためのショートカットリンク： [ジョブマネージャー](../job-manager.md)：この分類セットのジョブのみを表示しています。
 * **[!UICONTROL 自動化]**:外部のストレージの場所からデータを自動的に取り込みます。
-   * **[!UICONTROL 場所アカウント]**:組織が設定した既存のロケーションアカウントを示すドロップダウンリスト。 ロケーションアカウントを作成するためのボタンが使用できます。
-   * **[!UICONTROL 場所]**:組織が設定した既存の場所を示すドロップダウンリスト。 ロケーションを作成するためのボタンが使用できます。
+   * **[!UICONTROL 場所アカウント]**:組織が設定した既存のロケーションアカウントを示すドロップダウンリスト。 組織がまだ場所のアカウントを設定していない場合は、「 」を選択して設定できます [!UICONTROL **新しいアカウントを作成**].
+
+     ロケーションアカウントの設定について詳しくは、 [クラウドの読み込み場所の設定](/help/components/classifications/importer/configure-import-accounts.md).
+
+   * **[!UICONTROL 場所]**:組織が設定した既存の場所を示すドロップダウンリスト。 組織でロケーションを設定していない場合は、「 」を選択して設定できます。 [!UICONTROL **新しい場所を作成**].
+
+     ロケーションの設定について詳しくは、 [クラウドの読み込み場所の設定](/help/components/classifications/importer/configure-import-accounts.md).
+
    * **[!UICONTROL 区切り]**:アップロードされたファイルの列区切り文字。 次のオプションがあります [!UICONTROL コンマ], [!UICONTROL セミコロン], [!UICONTROL コロン], [!UICONTROL 縦棒グラフ], [!UICONTROL スペース], [!UICONTROL フォワードスラッシュ], [!UICONTROL バックスラッシュ], [!UICONTROL ダッシュ]または [!UICONTROL アンダースコア].
+
    * **[!UICONTROL エンコード]**:ファイルのエンコーディングを決定するドロップダウンリストです。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
