@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [ブラウザーおよび FTP インポート](classifications/importer/import-file.md)
       + [ブラウザーインポート](classifications/importer/browser-import.md)
       + [ブラウザーエクスポート](classifications/importer/browser-export.md)
-      + [クラウドインポート](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP インポート](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP エクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
-
    + [下位分類](classifications/c-sub-classifications.md)
    + [分類 FAQ](classifications/faq.md)
++ 場所 {#locations}
+   + [ロケーションマネージャー](/help/components/locations/locations-manager.md)
+   + [クラウドインポートアカウント](/help/components/locations/configure-import-accounts.md)
+   + [クラウドの読み込み場所](/help/components/locations/configure-import-locations.md)
 + [カレンダーイベント](t-calendar-event.md)
 + [予定レポートキュー](scheduled-reports-admin.md)
 + リアルタイムレポート {#real-time-reporting}
