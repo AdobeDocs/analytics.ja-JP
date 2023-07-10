@@ -3,7 +3,7 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -39,7 +39,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **ディープリンク（モバイルアプリ）** | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。これにより、プロジェクトの共有がさらに簡単になり、技術に詳しくないオーディエンスからのエンゲージメントを高めることができます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#share-scorecards-using-a-shareable-link) | 該当なし | 2023年5月17日（PT） |
 | **動的ドロップダウンフィルター** | パネルのレポート範囲内のデータと他のドロップダウンフィルターの値に基づいて使用可能な値を決定する、新しいタイプのドロップダウンフィルターを導入しています。[!UICONTROL Shift] キーを押しながらディメンションをパネルのドロップゾーンにドラッグすることで、動的ドロップダウンフィルターを使用できます。[!UICONTROL Shift] キーを押しながらディメンション項目のグループをパネルドロップゾーンにドラッグすると、静的ドロップダウンフィルターは変更されません。[詳細情報](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 2023年6月14日（PT） |
 | **Analytics ラーニングページの更新** | Adobe Analytics ランディングページの「ラーニング」タブには、次の機能強化が含まれています。<ul><li>ナビゲーションが改善され、単一ページによりその他のラーニングコンテンツが表示されるデザインの改善</li><li>エクスペリエンスレベル（初級、中級、上級）に応じてラーニングコンテンツをパーソナライズする機能</li></ul>[詳細情報](/help/analyze/landing.md) | 2023年6月27日（PT） | 2023年6月30日 |
-| **Analysis Workspace でのコンポーネントの並べ替え** | 新しい「並べ替え」オプションは、Analysis Workspace の左側のパネルまたはデータ要素でコンポーネントを表示する際に使用できるようになりました。コンポーネントは、推奨（最も一般的に使用されるコンポーネント）、アルファベット順、またはカテゴリ順（タイプ）で並べ替えることができます。<p>以前は、コンポーネントを検索またはフィルタリングすることしかできませんでした。[詳細情報](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 該当なし | 未定 |
+| **Analysis Workspace でのコンポーネントの並べ替え** | 新しい「並べ替え」オプションは、Analysis Workspace の左側のパネルまたはデータ要素でコンポーネントを表示する際に使用できるようになりました。コンポーネントは、推奨（最も一般的に使用されるコンポーネント）、アルファベット順、またはカテゴリ順（タイプ）で並べ替えることができます。<p>以前は、コンポーネントを検索またはフィルタリングすることしかできませんでした。[詳細情報](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 該当なし | 2023年7月 |
 
 {style="table-layout:auto"}
 
