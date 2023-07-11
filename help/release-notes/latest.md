@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 38e1b8da66fbca36c5f22c6050dcba87e8967ecb
+source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '885'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **分類データを取り込むためのクラウドアカウントのストレージの場所の設定** | 分類セットの自動化に使用するクラウドアカウントのストレージの場所を管理できるようになりました。<p> | 該当なし | 2023年7月10日（PT） |
+| **分類データを取り込むためのクラウドアカウントのストレージの場所の設定** | 分類セットの自動化に使用するクラウドアカウントのストレージの場所を管理できるようになりました。[詳細情報](/help/components/locations/configure-import-accounts.md)<p> | 該当なし | 2023年7月10日（PT） |
 | **データ修復フィルターの強化** | データ修復に 3 つのフィルター機能が追加されました。<ul><li>1 つの変数でフィルターし、2 つ目の変数を変更します。 例えば、 `eVar2` 「@」を含み、次に「削除」を含む `eVar3`.</li><li>数値または数値以外の値のフィルター</li><li>AND を使用して複数のフィルターを適用できます。 例： `eVar2="a"` および `eVar3="b"`</li></ul>[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023年6月21日（PT） | 2023年7月12日（PT） |
 | **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先（FTP、SFTP、S3、Azure Blob）は、推奨されなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) | 2023年6月12日（PT） | 2023年7月15日（PT） |
 
