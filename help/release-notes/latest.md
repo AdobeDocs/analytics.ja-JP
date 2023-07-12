@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816;AN-318111;AN-318584;AN-318828;AN-320440;AN-320568;AN-320616;AN-321013;
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
 | **購入 ID とイベント ID の 37 か月の有効期限（イベントのシリアル化）** | 10,2023年7月 | のリリースをターゲットとした、Analytics のヒット処理エンジンの今後のリリース **2023 年 7 月 14 日**&#x200B;は、購入 ID とイベント ID（イベントのシリアル化）の 37 ヶ月間の有効期限の適用を開始します。 現在、Adobe Analytics では購入 ID とイベント ID に有効期限がありません。購入 ID またはイベント ID が確認／使用されると、その後のヒットは、いつであっても、その購入またはイベントが重複としてマークされます。新しい処理エンジンのリリースでは、次のようになります。<ul><li>購入 ID とイベント ID は常に 37 か月後に有効期限が切れます。</li><li>購入 ID またはイベント ID が確認されてから 37 か月が経過している場合、重複した購入またはイベントとは見なされなくなります。</li><li> 37 か月以上前の購入 ID またはイベント ID を「再利用」している場合、重複と見なされなくなります。</li></ul> |
-| **Adobe I/O OAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | Adobe I/O JWT 資格情報を使用している Adobe Analytics API および Livestream のお客様は、**2025年1月1日（PT）**&#x200B;までに Adobe I/O OAuth サーバー間資格情報に移行する必要があります。詳細とタイムラインについては、以下の表に記載されている提供終了の通知を参照してください。 |
+| **Adobe I/OOAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | Adobe I/OJWT 資格情報を使用しているAdobe Analytics API および Livestream のお客様は、次の手順でAdobe I/OOAuth サーバー間資格情報に移行する必要があります。 **2025 年 1 月 2 日**. 詳細とタイムラインについては、以下の表に記載されている提供終了の通知を参照してください。 |
 
 {style="table-layout:auto"}
 
