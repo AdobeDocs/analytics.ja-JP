@@ -4,10 +4,10 @@ description: レポートを改善するためにアドビに送信するデー�
 keywords: appmeasurement、変数、vars、設定、ページ、実装
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ed018e9b9b220630193b0b39d40a1f34afeb3d35
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 92%
+source-wordcount: '383'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,7 @@ Analytics には、Analytics データを収集するための変数が多数用
 
 ## 変数と実装メソッド
 
-Adobe Analytics は様々な方法で実装できます。各ページには、Web SDK を使用した変数の実装方法、Adobe Analytics拡張機能の使用方法、JavaScript 版 AppMeasurement の使用方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。各ページには、Web SDK を使用した変数の実装方法、Adobe Analytics拡張機能の使用方法、JavaScript 版AppMeasurementの使用方法に関する節があります。
 
 Adobe Analytics での変数の設定に関するビデオを以下に示します。
 
@@ -31,9 +31,9 @@ Adobe Analytics での変数の設定に関するビデオを以下に示しま�
 
 Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
-1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。Adobe Experience Platform のタグを使用する場合、このタスクは、データ要素を使用し、データ要素を変数に割り当てることで簡単に実行できます。[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)を参照してください。
-3. トラッキング関数を呼び出します。ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
+1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、 `adobeDataLayer.page.title` をページタイトルに追加します。 詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
+2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformでタグを使用する場合、このタスクはその間にデータ要素を使用して実行されます。 データ要素には、データレイヤーの値が設定されます。 例：データ要素 `Page Title` データレイヤー変数から値を取得します `adobeDataLayer.page.title`. <br/>その後、データ要素を使用して Analytics 変数を設定できます。 例： `eVar4` データ要素から値を取得します `Page Title`. <br/>詳細については、を参照してください。 [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja).
+3. 最後に、トラッキング関数を呼び出します。 ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字
 
