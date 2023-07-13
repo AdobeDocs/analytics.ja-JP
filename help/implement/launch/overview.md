@@ -2,10 +2,11 @@
 title: Analytics 拡張機能を使用した Adobe Analytics の実装
 description: タグと Analytics 拡張機能を使用した Adobe Analytics の実装方法について説明します
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 
 
-![Analytics 拡張機能ワークフローを使用した Adobe Analytics](../assets/analytics-extension-annotated.png)
+![Analytics 拡張機能ワークフローを使用したAdobe Analyticsの実装方法。この節で説明します。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

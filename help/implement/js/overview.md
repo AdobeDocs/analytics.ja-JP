@@ -1,21 +1,22 @@
 ---
-title: JavaScript 版 AppMeasurement を使用したAdobe Analyticsの実装
+title: JavaScript 版AppMeasurementを使用したAdobe Analyticsの実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 41%
+source-wordcount: '206'
+ht-degree: 49%
 
 ---
 
-# JavaScript 版 AppMeasurement を使用したAdobe Analyticsの実装
+# JavaScript 版AppMeasurementを使用したAdobe Analyticsの実装
 
 JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
-実装タスクの概要です。
+実装タスクの大まかな概要：
 
-![AppMeasurement を使用したAdobe分析の実装の概要](../assets/appmeasurement-annotated.png)
+![この節で説明するように、JavaScript 用AdobeAppMeasurementを使用して JavaScript 分析を実装する方法。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -28,7 +29,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurement に必要な JavaScript コードのダウンロード</b> を使用します。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
+<td>2</td><td><b>AppMeasurementに必要な JavaScript コードのダウンロード</b> を使用します。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
 </tr>
 
 <tr>
@@ -82,7 +83,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>実装を拡張および検証する</b> 実稼動環境にプッシュする前に</b></td><td></td>
+<td>7</td><td>実装を実稼動環境にプッシュする前に、<b>実装を拡張して検証します</b>。</b></td><td></td>
 </tr>
 
 </table>

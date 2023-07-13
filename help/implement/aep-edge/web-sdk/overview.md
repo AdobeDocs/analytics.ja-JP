@@ -3,10 +3,10 @@ title: Adobe Experience Platform Web SDK を使用した Adobe Analytics の実�
 description: Adobe Experience Platform データ収集の Web SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 実装タスクの大まかな概要：
 
-![Web SDK ワークフローを使用した Adobe Analytics の実装](../../assets/websdk-annotated.png)
+![Web SDK ワークフローを使用したAdobe Analyticsの実装方法。この節で説明します。](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 実装タスクの大まかな概要：
 
-![Web SDK 拡張機能ワークフローを使用した Adobe Analytics の実装](../../assets/websdk-extension-annotated.png)
+![Web SDK 拡張機能ワークフローを使用したAdobe Analyticsの実装方法（この節で説明）。](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 
