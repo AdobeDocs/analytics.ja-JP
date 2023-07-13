@@ -3,9 +3,9 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 71%
 
 ---
@@ -37,30 +37,30 @@ ht-degree: 71%
 
 Adobe Experience Platformデータ収集にこの変数を設定するための専用フィールドはありません。ただし、役に立つ複数のサードパーティの拡張機能が存在します。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
 4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.products
+## AppMeasurement内の s.products と Analytics 拡張機能のカスタムコードエディター
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。文字列内の各フィールドをセミコロン（`;`）で区切ります。
 
 * **カテゴリ** （オプション）:商品カテゴリ。 このフィールドの最大長は 100 バイトです。
 * **製品名**（必須）：製品の名前。このフィールドの最大長は 100 バイトです。
-* **量**（オプション）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
-* **価格**（オプション）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
-* **イベント**（オプション）：製品に関連付けられたイベント。複数のイベントをパイプ（`|`）で区切ります。詳しくは、 [イベント](events/events-overview.md) を参照してください。
-* **eVar**（オプション）：製品に結び付けられたマーチャンダイジング eVar。複数のマーチャンダイジング eVar はパイプ（`|`）で区切ります。詳しくは、 [マーチャンダイジング eVar](evar-merchandising.md) を参照してください。
+* **量**（任意）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
+* **価格**（任意）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
+* **イベント**（任意）：製品に関連付けられたイベント。複数のイベントをパイプ（`|`）で区切ります。詳しくは、 [イベント](events/events-overview.md) を参照してください。
+* **eVar**（任意）：製品に結び付けられたマーチャンダイジング eVar。複数のマーチャンダイジング eVar はパイプ（`|`）で区切ります。詳しくは、 [マーチャンダイジング eVar](evar-merchandising.md) を参照してください。
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products` 文字列全体の最大長は 64K です。各製品は文字列内でコンマ（`,`）で区切ります。
+この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。全体の最大長 `products` 文字列は 64k バイトです。 各製品は文字列内でコンマ（`,`）で区切ります。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
