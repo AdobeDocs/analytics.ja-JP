@@ -3,9 +3,10 @@ description: Analysis Workspaceでのプロジェクト作成の基本につい�
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
@@ -32,6 +33,7 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
       * **空のプロジェクト** ブラウザーから分析を共有する予定の場合
       * [**空のモバイルスコアカード**](/help/analyze/mobile-app/curator.md) Adobe Analyticsダッシュボードモバイルアプリから分析を共有する予定がある場合。
+
    1. 「[!UICONTROL **作成**]」を選択します。
 
 +++
@@ -44,7 +46,10 @@ Analysis Workspaceの使用を開始する方法に関する一般的な情報�
 
       デフォルトでは、一連の標準レポートが使用可能です。 また、お客様が選択できるカスタムレポートが組織で作成されている場合もあります。
 
-      詳しくは、 [Adobe Analyticsランディングページ](/help/analyze/landing.md).
+   1. 選択 [!UICONTROL **プロジェクト**] > [!UICONTROL **保存**] をクリックして、レポートを新しいプロジェクトとして保存します。
+
+      レポートの詳細については、 [Adobe Analyticsランディングページ](/help/analyze/landing.md).
+
 +++
 
 1. 次に、パネル、ビジュアライゼーションおよびコンポーネントをプロジェクトに追加する必要があります。 まず、Analysis Workspaceで、 [プロジェクトにパネルを追加する](#add-panels-to-the-project). その後、任意のパネルにビジュアライゼーションを追加できます。 最後に、任意のパネルまたはビジュアライゼーションにコンポーネントを追加できます。
@@ -108,4 +113,3 @@ Analysis Workspace で提供される多くのパネルは、少数のユーザ�
 Analysis Workspaceで分析を作成する場合、作業内容は次のようになります。 [自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 プロジェクトの構築が完了し、アクションにつながるインサイトを収集すると、そのプロジェクトを他のユーザーが利用できる状態になります。 プロジェクトを組織内のユーザーやグループと共有したり、組織外のユーザーと共有したりできます。 プロジェクトの共有について詳しくは、 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
