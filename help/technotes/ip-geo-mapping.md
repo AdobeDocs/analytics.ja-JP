@@ -3,9 +3,9 @@ title: IP とジオロケーションのマッピングに関する FAQ の改�
 description: IP とジオロケーションのマッピングに関する、新しく改善されたデータセット (NetAcuity Pulse) に関する質問への回答。
 feature: Data Configuration and Collection
 exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 IP ルックアップ、デジタル要素のベンダーは、IP とジオロケーションのマッピング用に新しく改善されたデータセット (NetAcuity Pulse) にアップグレードしました。 当初は 2022 年 10 月に予定されていたので、Adobe Analyticsは 2023 年 1 月 11 日にこの新しいデータセットを採用しました。 新しいデータベースの方が以前のバージョンよりも正確です。 新しいデータベースを採用した際に、一部の IP-to-Geo マッピングが変更/改善されました。
 
-すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、Analytics データフィードなど ) で、新しく改善されたマッピングが自動的に利用されます。 データフィードのデータの形式は変更されませんでした。 Analytics ソースコネクタを通じて提供される Customer Journey Analytics データは、新しいマッピングを自動的に利用します。
+すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、Analytics データフィードなど ) で、新しく改善されたマッピングが自動的に利用されます。 データフィードのデータの形式は変更されませんでした。 Analytics ソースコネクタを通じて提供されるCustomer Journey Analyticsデータは、新しいマッピングを自動的に利用します。
 
 +++**私の地理データは、1 月のいつかで変化しているのに気がつきました。  なぜですか？**
 パートナーAdobeは、IP とジオロケーションのマッピングにを使用し、Digital Element は、より正確な新しい IP ターゲティングデータベース NetAcuity Pulse を導入しました。 Adobeは、冬の祝日期間に変更がおこなわれないように、この新しいデータベースの採用を 2023 年 1 月に延期しました。

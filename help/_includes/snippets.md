@@ -1,6 +1,6 @@
 ---
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: ht
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
    | [!UICONTROL **お気に入り**] | お気に入りのリストにあるコンポーネントのみを表示します。お気に入りのリストにコンポーネントを追加する方法については、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。 |
    | [!UICONTROL **ディメンション**] | ディメンションであるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
    | [!UICONTROL **指標**] | 指標であるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
-   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。<!--this is Filters in Customer Jourey Analytics--> |
+   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。<!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **日付範囲**] | 日付範囲であるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
    | [!UICONTROL **すべてを表示**] | すべてのコンポーネントの表示。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **未承認**] | 管理者が承認済みとしてまだマークしていないコンポーネントのみを表示します。レビューと承認が必要なコンポーネントを管理者が識別する際に役立ちます。このオプションは、管理者のみが使用できます。 |
