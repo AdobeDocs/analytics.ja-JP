@@ -4,10 +4,10 @@ description: レポートを改善するためにアドビに送信するデー�
 keywords: appmeasurement、変数、vars、設定、ページ、実装
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: ed018e9b9b220630193b0b39d40a1f34afeb3d35
+source-git-commit: 1516a1353c1b0a3b7365c3e3f10ce74ae1255696
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 73%
+source-wordcount: '398'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analytics での変数の設定に関するビデオを以下に示しま�
 Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
 1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、 `adobeDataLayer.page.title` をページタイトルに追加します。 詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformでタグを使用する場合、このタスクはその間にデータ要素を使用して実行されます。 データ要素には、データレイヤーの値が設定されます。 例：データ要素 `Page Title` データレイヤー変数から値を取得します `adobeDataLayer.page.title`. <br/>その後、データ要素を使用して Analytics 変数を設定できます。 例： `eVar4` データ要素から値を取得します `Page Title`. <br/>詳細については、を参照してください。 [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja).
+2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformでタグを使用する場合、このタスクはその間にデータ要素を使用して実行されます。 データ要素には、データレイヤーの値が設定されます。 例：データ要素 `Page Title` データレイヤー変数から値を取得します `adobeDataLayer.page.title`. <br/>その後、データ要素を使用して Analytics 変数を設定できます。 例： `eVar4` データ要素から値を取得します `Page Title`. <br/>詳細については、を参照してください。 [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja), [データレイヤーオブジェクトをデータ要素にマッピングする](../launch/layer-to-elements.md)、および [タグデータ要素を Analytics 変数にマッピングする](../launch/elements-to-variable.md)
 3. 最後に、トラッキング関数を呼び出します。 ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字
