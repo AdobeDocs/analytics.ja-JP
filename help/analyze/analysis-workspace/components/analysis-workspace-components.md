@@ -4,7 +4,7 @@ title: コンポーネントの概要
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Analysis Workspace の左側のパネルにあるコンポーネントリスト�
 4. （オプション）リストをさらに絞り込むには、[コンポーネントリストの並べ替え](#sort-the-component-list)で説明しているように、コンポーネントリストを並べ替えます。
 
 ### コンポーネントリストを並べ替え
-
-{{release-limited-testing-section}}
 
 1. （オプション）[コンポーネントリストのフィルタリング](#filter-the-component-list)で説明しているように、コンポーネントリストにフィルターを適用します。
 

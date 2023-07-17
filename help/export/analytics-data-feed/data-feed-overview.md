@@ -4,18 +4,14 @@ keywords: クリックストリーム、データフィード、データフィ�
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 83%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
 # Analytics データフィードの概要
-
->[!AVAILABILITY]
->
->このページで説明する宛先のタイプの一部は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
 データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。データは、各時間の終了時に時間単位のバッチで、または毎日の終わりに日単位のバッチで配信されます。
 

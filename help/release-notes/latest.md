@@ -3,7 +3,7 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 73%
@@ -22,7 +22,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | ----------- | ---------- | ------- | ---- |
 | **分類データを取り込むためのクラウドアカウントのストレージの場所の設定** | 分類セットの自動化に使用するクラウドアカウントのストレージの場所を管理できるようになりました。 [詳細情報](/help/components/locations/configure-import-accounts.md)<p> | 該当なし | 2023年7月10日（PT） |
 | **データ修復フィルターの強化** | データ修復に 3 つのフィルター機能が追加されました。<ul><li>1 つの変数でフィルターし、2 つ目の変数を変更します。 例えば、 `eVar2` 「@」を含み、次に「削除」を含む `eVar3`.</li><li>数値または数値以外の値のフィルター</li><li>AND を使用して複数のフィルターを適用できます。 例： `eVar2="a"` および `eVar3="b"`</li></ul>[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023年6月21日（PT） | 2023年7月12日（PT） |
-| **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先（FTP、SFTP、S3、Azure Blob）は、推奨されなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) | 2023年6月12日（PT） | 2023年7月15日（PT） |
+| **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先（FTP、SFTP、S3、Azure Blob）は、推奨されなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) | 2023年6月12日（PT） | 2023年7月13日（PT） |
 | **新しい AppMeasurement 変数** | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。ほとんどの実装では、この変数を定義する必要はありません。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |  | 2023年7月17日（PT） |
 
 {style="table-layout:auto"}
