@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: AppMeasurementの二重エンコーディングリンクトラッキング変数を有効または無効にします。
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameters
 
-この `decodeLinkParameters` 変数は、リンクトラッキング変数を 1 回エンコードするかどうかを決定するブール値です ( `true`) または 2 回 ( 設定されている場合 `false`) をクリックします。 影響はのみ `linkName` ( [`tl()`](../functions/tl-method.md) メソッド ) および [`linkURL`](linkurl.md). 使用するには、AppMeasurement2.23.1以降が必要です。 この変数のデフォルト値は `false`.
+この `decodeLinkParameters` 変数は、リンクトラッキング変数を 1 回エンコードするかどうかを決定するブール値です ( `true`) または 2 回 ( 設定されている場合 `false`) をクリックします。 影響はのみ `linkName` ( [`tl()`](../functions/tl-method.md) メソッド ) および [`linkURL`](linkurl.md). 使用するには、AppMeasurement2.24.0以降が必要です。 この変数のデフォルト値は `false`.
 
 以前のバージョンのAppMeasurementでは、リンクトラッキング変数は常に 2 回 URL エンコードされていました。 通常は 1 バイト文字に依存する実装では問題になりませんが、レポートで 2 バイト文字の値が誤ってエンコードされていました。 この変数を `true` はリンクトラッキング値を 1 回エンコードします。これは通常、必要な動作です。
 
