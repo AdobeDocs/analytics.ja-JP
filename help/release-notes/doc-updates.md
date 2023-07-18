@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '4490'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 | **2023 年 7 月** | |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023年6月** | |
-| 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md) は、いくつかの新機能で更新されました。<ul><li>**統合**:分類セットを 1 つの統合された分類セットに組み合わせます。 統合された分類セットは、他の分類セットと同様に、または Classification のルックアップデータセットとしてCustomer Journey Analyticsできます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**:分類セットのルールに基づいて値を自動的に分類します。 [詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動インポート**:クラウドストレージの宛先から分類データを自動的にインポートします。 [詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
+| 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md)を更新し、次のいくつかの新機能を追加しました。<ul><li>**統合**：分類セットを単一の統合された分類セットに結合します。統合された分類セットは、他の分類セットと同様に、または Classification のルックアップデータセットとしてCustomer Journey Analyticsできます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**：分類セット内のルールに基づいて値を自動的に分類します。[詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動読み込み**：クラウドストレージの宛先から分類データを自動的に読み込みます。[詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算指標のアップデート | スクリーンショットやプロシージャの手順の更新など、計算指標に関する様々な記事が更新されました。これらの変更は、ドキュメントを現在の Adobe Analytics 機能とインラインにするために行われました。 |
 | データフィード書き出しの安全な宛先 | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先（FTP、SFTP、S3、Azure Blob）は、推奨されなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) |
 | Workspace のボットレポート | ボットレポートが Analysis Workspace で使用できるようになりました。この機能には、次のようないくつかの追加機能が付属しています。<ul><li>新しいディメンション：[ボット名](/help/components/dimensions/bot-name.md)</li><li>2 つの新しい指標：[ボットページビュー数](/help/components/metrics/bot-page-views.md)および[ボットの発生件数](/help/components/metrics/bot-occurrences.md).</li><li>新しい計算指標テンプレート：[ボットページビュー数の割合](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新しい Workspace レポート：ボットレポート</li></ul>新しいディメンションと指標には、2023年3月以降にバックフィルされたデータが含まれます。 |
@@ -40,7 +40,7 @@ ht-degree: 97%
 | レポートアクティビティマネージャー | このベータ版ドキュメント、特に[個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja#view-reporting-activity-for-individual-report-suites)に関する節を更新しました。 |
 | Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
 | プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |
-| 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。 詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 左側のパネルでのコンポーネントの並べ替え | 左側のパネルでのコンポーネントのリストの並べ替えに関する情報を追加しました。詳しくは、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)の「コンポーネントリストの検索、フィルタリング、並べ替え」の節を参照してください。 |
 | フリーフォームテーブルからの動的ディメンションを含む行の削除 | 「x」アイコンを使用して、動的ディメンションを含む特定の行をすばやく削除する方法に関する情報を追加しました。[テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)の「テーブルから特定の行をすばやく除外する」の節を参照してください。 |
 | パネル内にビジュアライゼーションを追加するボタン | Analysis Workspace の各パネルの下部にある、ビジュアライゼーションをすばやく追加できる新しいボタンに関する情報を追加しました。[ビジュアライゼーションの概要](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)の「パネルへのビジュアライゼーションの追加」セクションを参照してください。 |
 | **2023年4月** | |
