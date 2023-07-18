@@ -3,20 +3,28 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
 # JavaScript 版 AppMeasurement リリースノート
 
-JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートです。
+JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+最新バージョンのAppMeasurementは、 [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## バージョン 2.24.0
+
+リリース日：**2023 年 7 月 18 日**
+
+* 2 バイトエンコードされた文字を含むリンク URL をデコードするオプションの設定（decodeLinkParameters のデフォルトは false）が追加されました。
+* 高エントロピーの誤った User-Agent クライアントヒント API を持つブラウザーに対するエラー処理を追加しました。
+* Content-TypePOSTヘッダーを `x-www-form-urlencoded` デフォルトでは。
 
 ## バージョン 2.23.0
 
@@ -82,14 +90,14 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 リリース日：**2019 年 8 月 23 日**
 
-* Baidu クエリー文字列の並べ替えのサポートが追加されました。（AN-182483）
+* Baidu クエリ文字列の並べ替えのサポートが追加されました。（AN-182483）
 * オプトインの待機中にキューに登録されたヒットの訪問者の値が更新されない問題を修正しました。（AN-184391）
 
 ## バージョン 2.16.0
 
 リリース日：**2019 年 8 月 15 日**
 
-* [!UICONTROL AppMeasurement] による出口リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。ヒットが `sendBeacon` を使用して、ページがアンロードされた場合、リクエストは完了します。ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクにとって非常に役立ちます。（AN-175142）
+* [!UICONTROL AppMeasurement] による離脱リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。ヒットが `sendBeacon` を使用して、ページがアンロードされた場合、リクエストは完了します。ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクにとって非常に役立ちます。（AN-175142）
 * ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。（AN-175142）
 * Audience Manager モジュールを DIL 9.3 に更新しました。（AN-182704）
 * スクロールリーチのトラッキングをオン／オフするための `s.ActivityMap.trackScrollReach` の設定が追加されました。（AN-182754）
@@ -310,7 +318,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2016 年 1 月 22 日**
 
 * トラッキングコールに POST が使用されている場合の [!DNL Audience Manager] モジュールの処理を修正しました。（AN-115381）
-* ページ URL の残り（「-g」）をトラッキングリクエストクエリー文字列の最後に移動しました。（AN-114647）
+* ページ URL の残り（「-g」）をトラッキングリクエストクエリ文字列の最後に移動しました。（AN-114647）
 
 ## バージョン 1.5.2
 
