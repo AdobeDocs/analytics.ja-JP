@@ -4,7 +4,7 @@ description: Adobe Analytics が提供する様々なコンポーネントにつ
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
