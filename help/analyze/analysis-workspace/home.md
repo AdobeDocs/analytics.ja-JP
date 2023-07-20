@@ -4,10 +4,10 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 31%
+source-wordcount: '760'
+ht-degree: 32%
 
 ---
 
@@ -77,6 +77,10 @@ Analysis Workspaceのコンポーネントは、次の要素で構成されま�
 Analysis Workspace のデータ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。
 
 データディクショナリの詳細については、 [データディクショナリの概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+### データソース
+
+ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。以下に、 [データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Analysis Workspaceの使用を開始
 

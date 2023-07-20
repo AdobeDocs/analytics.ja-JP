@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 リリース日：**2023 年 7 月 18 日**
 
-* オプションの設定 (`decodeLinkParameters` デフォルトの false) を使用して、2 バイトエンコードされた文字を含むリンク URL をデコードします。
+* オプションの設定 (`decodeLinkParameters`  — デフォルト= false) 全角文字をエンコードしたリンク URL をデコードします。
 * 高エントロピーの誤った User-Agent クライアントヒント API を持つブラウザーに対するエラー処理を追加しました。
 * Content-TypePOSTヘッダーを `x-www-form-urlencoded` デフォルトでは。
 
