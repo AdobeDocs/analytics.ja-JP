@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,8 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2023 年 7 月** | |
+| **2023年7月** | |
+| FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023年6月** | |
 | 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md)を更新し、次のいくつかの新機能を追加しました。<ul><li>**統合**：分類セットを単一の統合された分類セットに結合します。統合された分類セットは、他の分類セットと同様に、または Classification のルックアップデータセットとしてCustomer Journey Analyticsできます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**：分類セット内のルールに基づいて値を自動的に分類します。[詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動読み込み**：クラウドストレージの宛先から分類データを自動的に読み込みます。[詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
@@ -34,7 +35,7 @@ ht-degree: 99%
 | Workspace のボットレポート | ボットレポートが Analysis Workspace で使用できるようになりました。この機能には、次のようないくつかの追加機能が付属しています。<ul><li>新しいディメンション：[ボット名](/help/components/dimensions/bot-name.md)</li><li>2 つの新しい指標：[ボットページビュー数](/help/components/metrics/bot-page-views.md)および[ボットの発生件数](/help/components/metrics/bot-occurrences.md).</li><li>新しい計算指標テンプレート：[ボットページビュー数の割合](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新しい Workspace レポート：ボットレポート</li></ul>新しいディメンションと指標には、2023年3月以降にバックフィルされたデータが含まれます。 |
 | **2023年5月** | |
 | ディープリンク（モバイルアプリ）ドキュメント | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。[詳細情報](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
-| Analytics ダッシュボードアプリ（モバイルアプリ）の更新されたホーム画面に関するドキュメント | 新しく更新されたホーム画面では、すべてのスコアカードを 1 つの統合されたスコアカードリストで表示できます。[詳細情報](/help/analyze/mobile-app/executive.md#use-dashboards) |
+| Analytics ダッシュボードアプリ（モバイルアプリ）の更新されたホーム画面に関するドキュメント | 更新された新しいホーム画面では、すべてのスコアカードが、統合された 1 つのスコアカードリストに表示されます。[詳細情報](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum アイコン | 必要に応じて、ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、アドビの [Spectrum Design System](https://spectrum.adobe.com/page/icons/) の同等のアイコンへの参照に置き換えました。 |
 | IP からジオロケーションへのマッピングの改善 | [よくある質問（FAQ）](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=ja)に関するトピックを作成しました。 |
 | レポートアクティビティマネージャー | このベータ版ドキュメント、特に[個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja#view-reporting-activity-for-individual-report-suites)に関する節を更新しました。 |
@@ -59,7 +60,7 @@ ht-degree: 99%
 | **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
-| モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。詳しくは、 [比較日付範囲を表示](/help/analyze/mobile-app/create-scorecard.md) Customer Journey Analytics |
+| モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。Customer Journey Analytics の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
 | 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md)の使用例を更新しました。 |
 | **2023年1月** | |

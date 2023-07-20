@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: FTP の制限とデータ保持期間
 feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0cbabeff05ea3ecc685160e3333c17aeff83dc4a
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # FTP の制限とデータ保持期間
 
-アドビのすべての FTP アカウントでは、最大で 10 GB のデータを保存できます。これらの FTP アカウントでは、ファイルは 90 日間保持されます。
+アドビのすべての FTP アカウントでは、最大で 100 GB のデータを保存できます。これらの FTP アカウントでは、ファイルは 90 日間保持されます。
 
 ## 同時接続の制限
 
