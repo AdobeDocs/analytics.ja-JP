@@ -1,20 +1,20 @@
 ---
-title: 単一ページ訪問数（ディメンション）
+title: 直帰数（ディメンション）
 description: 訪問が 1 つのページで構成されていることを示すフラグ。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 単一ページ訪問数
+# 直帰数
 
-*このヘルプページでは、「単一ページ訪問」がディメンションとして機能する方法を説明します。詳しくは、[単一ページ訪問](../metrics/single-page-visits.md)指標を参照してください。*
+*このヘルプページでは、「直帰数」がディメンションとして機能する方法を説明します。詳しくは、[直帰数](../metrics/single-page-visits.md)指標を参照してください。*
 
-「単一ページ訪問」ディメンションは、一意の[ページ](page.md)ディメンション項目 1 つで構成される訪問回数をレポートします。これは、[単一ページ訪問](../metrics/single-page-visits.md)指標のディメンション形式です。
+「直帰数」ディメンションは、一意の[ページ](page.md)ディメンション項目 1 つで構成される訪問回数をレポートします。これは、[直帰数](../metrics/single-page-visits.md)指標のディメンション形式です。
 
 このディメンションは、最も一般的に、[セグメント化](../segmentation/seg-home.md)のコンポーネントとして使用されます。通常、これは、レポートでディメンションとして使用されません。
 
