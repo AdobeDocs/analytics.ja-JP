@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
+source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 99%
+source-wordcount: '4529'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年7月** | |
+| グローバル会社 ID | 文書化 [グローバル企業 id の検索方法](../admin/admin/company/web-services-admin.md) ログインしている Analytics の会社の名前。 この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023年6月** | |

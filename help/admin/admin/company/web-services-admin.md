@@ -3,10 +3,10 @@ description: Web Services API を使用すると、Analytics インターフェ�
 title: Web サービス
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL 会社の設定]**／**[!UICONTROL web サービス]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL 会社の設定]**／**[!UICONTROL web サービス]** または **API アクセス**
 
-## Web サービスの管理
+
+## Analytics 2.0 API
+
+Analytics 2.0 API にアクセスするには、Analytics 会社のグローバル会社 ID が必要です。 現在ログイン中のグローバル会社 ID を見つけることができます **太字** （この節を参照）。
+
+## 従来の Web サービスの管理（廃止）
 
 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) では、権限を更新して、web サービス API へのアクセスを必要とするユーザーを含めることができます。
 
