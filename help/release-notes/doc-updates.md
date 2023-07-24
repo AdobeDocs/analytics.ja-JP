@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
+source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
 workflow-type: tm+mt
-source-wordcount: '4529'
+source-wordcount: '4576'
 ht-degree: 98%
 
 ---
@@ -26,9 +26,11 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年7月** | |
-| グローバル会社 ID | 文書化 [グローバル企業 id の検索方法](../admin/admin/company/web-services-admin.md) ログインしている Analytics の会社の名前。 この ID は、Analytics 2.0 API で必要です。 |
+| グローバル企業 ID | 文書化 [グローバル企業 ID を見つける方法](../admin/admin/company/web-services-admin.md) ログインしている Analytics の会社の名前。 この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
+| 分類データを取り込むためのクラウドアカウントストレージの場所の設定 | 分類セットの自動処理に使用するクラウドアカウントストレージの場所を管理できるようになりました。[詳細情報](/help/components/locations/configure-import-accounts.md) |
+| データ修復フィルターの機能強化 | データ修復に 3 つのフィルター機能が追加されました。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **2023年6月** | |
 | 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md)を更新し、次のいくつかの新機能を追加しました。<ul><li>**統合**：分類セットを単一の統合された分類セットに結合します。統合された分類セットは、他の分類セットと同様に、または Classification のルックアップデータセットとしてCustomer Journey Analyticsできます。 [詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**：分類セット内のルールに基づいて値を自動的に分類します。[詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動読み込み**：クラウドストレージの宛先から分類データを自動的に読み込みます。[詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算指標のアップデート | スクリーンショットやプロシージャの手順の更新など、計算指標に関する様々な記事が更新されました。これらの変更は、ドキュメントを現在の Adobe Analytics 機能とインラインにするために行われました。 |
