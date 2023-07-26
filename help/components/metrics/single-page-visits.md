@@ -1,20 +1,20 @@
 ---
-title: 単一ページ訪問（指標）
+title: 直帰数（指標）
 description: 訪問で、「ページ」ディメンション項目が変更されなかった回数。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 単一ページ訪問数
+# 直帰数
 
-*このヘルプページでは、「単一ページ訪問」が指標としてどのように機能するかを説明します。詳しくは、[単一ページ訪問数](../dimensions/single-page-visits.md)ディメンションを参照してください。*
+*このヘルプページでは、「直帰数」が指標としてどのように機能するかを説明します。詳しくは、[直帰数](../dimensions/single-page-visits.md)ディメンションを参照してください。*
 
-「[!UICONTROL 単一ページ訪問]」指標は、「[ページ](../dimensions/page.md)」ディメンション項目に訪問全体で一意の値が 1 つのみ含まれている訪問回数を示します。この指標は、短い訪問を表示したいが、[[!UICONTROL バウンス]](bounces.md)ほど厳しいルールを持たないディメンションのコンテキストで役立ちます。
+「[!UICONTROL 直帰数]」指標は、「[ページ](../dimensions/page.md)」ディメンション項目に訪問全体で一意の値が 1 つのみ含まれている訪問回数を示します。この指標は、短い訪問を表示したいが、[[!UICONTROL バウンス]](bounces.md)ほど厳しいルールを持たないディメンションのコンテキストで役立ちます。
 
 ## この指標の計算方法
 
