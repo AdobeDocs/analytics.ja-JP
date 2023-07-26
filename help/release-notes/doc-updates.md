@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4615'
+source-wordcount: '4623'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年7月** | |
-| Adobe Experience Platform Edge Network Server API | をいつ、どのように実装するかに関する包括的なドキュメントを追加しました。 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 例えば、デスクトップアプリケーション用にAdobe Analyticsを実装する場合、IoT デバイスはトップボックスを設定します。 |
+| Adobe Experience Platform Edge Network Server API | を使用してAdobe Analyticsでデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 例えば、デスクトップアプリケーションでAdobe Analyticsを使用してデータ収集を実装し、IoT デバイスでトップボックスを設定する場合などです。 |
 | グローバル企業 ID | 文書化 [グローバル企業 ID を見つける方法](../admin/admin/company/web-services-admin.md) ログインしている Analytics の会社の名前。 この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
