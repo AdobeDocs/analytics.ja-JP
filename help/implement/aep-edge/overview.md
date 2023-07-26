@@ -3,10 +3,10 @@ title: Adobe Experience Platform Edge を使用した Adobe Analytics の実装
 description: Adobe Analytics における Experience Platform の XDM データの使用の概要
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 88%
 
 ---
 
@@ -18,4 +18,4 @@ Adobe Experience Platform Edge を使用すると、複数の製品用のデー�
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Web SDK 拡張機能を使用して Edge にデータを送信します。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Mobile SDK 拡張機能を使用して Edge にデータを送信します。
-* **[Edge Network Server API](edge-api/overview.md)**：API を使用して Edge に直接データを送信します。
+* **[Adobe Experience Platform Edge Network Server API](server-api/overview.md)**:API を使用して Edge に直接データを送信します。
