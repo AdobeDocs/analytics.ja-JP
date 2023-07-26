@@ -3,10 +3,10 @@ description: データガバナンスのプライバシーラベリングダイ�
 title: データガバナンスのプライバシーラベリングの表示／管理
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 75%
+source-wordcount: '877'
+ht-degree: 89%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 75%
 
    >[!NOTE]
    >
-   >このメニュー項目が表示されない場合は、この機能への権限を持つ [Admin Console で製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)に追加する必要があります。
+   >このメニュー項目が表示されない場合は、 [Admin Console の製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja) を使用して、この機能に対する権限を持つか、Admin Console内のレポートスイートへのアクセス権を付与されています。
 
 3. 右上で、プライバシーラベルを表示または管理したいレポートスイートを選択します。
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | 設定 | 説明 |
 | --- | --- |
@@ -33,15 +33,15 @@ ht-degree: 75%
 | **[!UICONTROL ID]** | 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
 | **[!UICONTROL 機密性]** | 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
 | **[!UICONTROL GDPR アクセス]** | データガバナンスラベルを使用すると、規制や企業のポリシーに準拠するためにプライバシー関連の注意事項や契約条件を反映したデータを分類できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 削除]** | 削除ラベルは、ヒットをデータ主体に関連付ける（つまり、データ主体の識別を許可する）ことを許可する値が含まれるフィールドのみに必要です。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL GDPR 削除]** | 削除ラベルは、ヒットとデータ主体との関連付けを許可する（つまり、データ主体の識別を許可する）値を含んだフィールドに対してのみ必要です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
 | **[!UICONTROL 名前空間]** | 変数を ID-DEVICE または ID-PERSON としてラベル設定する場合、名前空間を提供するよう指示されます。以前定義した名前空間を使用することも、新しい名前空間を定義することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL カテゴリ]** | コンポーネントのタイプ（標準コンポーネント、コンバージョン変数など）を指します |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## レポートスイートへのプライバシーラベルのコピー  {#copy-to-rs}
 
-複数のレポートスイートに同じデータプライバシー設定を適用する場合は、次の手順に従います。
+複数のレポートスイートに同じデータプライバシー設定を割り当てる場合は、次の手順に従います。
 
 1. コピーする変数を選択します。コピーできるのは、一度に 1 つの変数のラベルのみであることに注意してください。
 1. データガバナンスダイアログの下部にある「**[!UICONTROL レポートスイートにコピー]**」をクリックします。
@@ -54,26 +54,26 @@ ht-degree: 75%
 
    >[!IMPORTANT]
    >
-   >選択したすべてのレポートスイートは、Experience Cloud組織にマッピングする必要があります。
+   >選択したレポートスイートは、すべて Experience Cloud 組織にマッピングする必要があります。
 
    1 つの変数または変数のセットのラベルを別のレポートスイートにコピーする場合、コピーは、コピー先レポートスイートの対応する位置の変数に対して行われます。標準コンポーネント、リスト変数および成功イベントの場合、ラベルは、コピー先レポートスイートの&#x200B;**同じ名前**&#x200B;を持つ変数にコピーされます。
 
-   ただし、コンバージョン変数 (eVar) およびトラフィックDimension(prop) の場合、コピーは **同数** をクリックします。 例えば、eVar12 は、すべてのコピー先レポートスイートの eVar12 にコピーされます。コピーの対象を判断するうえで、これらの変数の名前は無視されます。対応する変数がコピー先レポートスイートで有効でない場合、その変数のコピーは失敗します。
+   ただし、コンバージョン変数（eVar）およびトラフィックディメンション（prop）の場合、コピーは、コピー先レポートスイート内にある&#x200B;**同じ数**&#x200B;を持つ変数に対して行われます。例えば、eVar12 は、すべてのコピー先レポートスイートの eVar12 にコピーされます。コピーの対象を判断するうえで、これらの変数の名前は無視されます。対応する変数がコピー先レポートスイートで有効でない場合、その変数のコピーは失敗します。
 
    変数用に定義された分類用にラベルをコピーする場合、ラベルは、コピーする分類と同じ名前を持つ、コピー先レポートスイートの対応する変数（eVar7 から eVar7）の分類にコピーされます。そうでない場合、その分類のラベルのコピーは失敗します。
 
 1. 設定が一致する 1 つまたは複数のレポートスイートの横にあるチェックボックスをオンにします。
 1. 「**[!UICONTROL 適用]**」をクリックします。
 
-   ラベルが適用された後に、ステータスメッセージが表示されます。 ステータスメッセージには、コピー先の変数または分類とコピーが失敗したレポートスイートの名前が含まれます。
+   ラベルが適用されると、ステータスメッセージが表示されます。ステータスメッセージには、コピー先の変数または分類とコピーが失敗したレポートスイートの名前が含まれます。
 
    >[!IMPORTANT]
    >
-   >常にコピー先レポートスイートをチェックして、ラベルが正しくコピーされていることを確認する必要があります。 これは、ID または DEL ラベルを持つ変数で特に重要です。
+   >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
 ## .csv ファイルへの書き出し {#export-csv}
 
-選択したレポートスイートのすべての変数に関する現在のラベル定義をすべて含む CSV ファイルをダウンロードできます。 法務チームがラベル設定の選択を確認し、このオプションを使用してレビューを容易に行うことをお勧めします。 データガバナンス UI にログインしてレビューを実行しなくても、法務チームと .CSV ファイルを共有できます。
+選択したレポートスイートのすべての変数に関する現在のすべてのラベル定義を含む CSV ファイルをダウンロードします。アドビでは、法務チームがラベリングの選択を確認することをお勧めしていますが、このオプションを使用すると、確認が容易になります。データガバナンス UI にログインしてレビューを実行しなくても、法務チームと .CSV ファイルを共有できます。
 
 1. 右上で **[!UICONTROL CSV を書き出し]**&#x200B;をクリックすると、次のダイアログが表示されます。
 

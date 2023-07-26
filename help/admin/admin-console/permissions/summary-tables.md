@@ -3,10 +3,10 @@ title: Adobe Analytics 権限 - 概要テーブル
 description: Adobe Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | レポート スイート（書き込み） |  |  |  | x | 未使用。 |
 | SiteCatalyst |  |  |  | x | 未使用。代わりに、「Analysis Workspace アクセス」を使用します。 |
 | Social |  |  |  | x | 未使用。 |
-| テキストレポートレット |  |  |  | x | 未使用。 |
+| テキストレポートレット |  |  |   | x | 未使用。 |
 | トラフィック管理 |  |  |  | x | 未使用。 |
 | 使用状況サマリレポートレット |  |  |  | x | 未使用。 |
 | ビデオ設定 |  |  |  | x | 未使用。 |
@@ -88,6 +88,7 @@ ht-degree: 0%
 | サポート | x |  |  |  | 管理者／すべての管理者／会社設定／サポート情報へのアクセス権を付与します。 |
 | トラフィック管理 | x |  |  |  | 管理者／すべての管理者／トラフィック管理へのアクセス権を付与します。 |
 | Web サービス | x |  |  |  | 管理者／すべての管理者／会社設定／Web サービスへのアクセス権を付与します。 |
+| 他のユーザーとプロジェクトリンクを共有 | x |  |  |  | Workspace プロジェクトの下にある全員と共有する/共有/他のユーザーと共有に対するユーザーへのアクセス権を付与します。 |
 | Activity Map |  | x |  |  | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
 | Ad Hoc Analysis ライセンスユーザー |  | x |  |  | Ad Hoc Analysis のサポートは終了しました。[詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace アクセス |  | x |  |  | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
