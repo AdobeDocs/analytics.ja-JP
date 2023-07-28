@@ -6,9 +6,9 @@ title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >
 >ほとんどの列には、`post_` というプレフィックスが付く類似の列が含まれています。post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
-このテーブルの以前の更新は、このページの [GitHub で履歴をコミットする](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
 
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
@@ -40,15 +40,15 @@ ht-degree: 92%
 | **`browser_width`** | ブラウザーウィンドウの幅（ピクセル単位）。 | smallint unsigned |
 | **`c_color`** | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
 | **`campaign`** | 「[トラッキングコード](/help/components/dimensions/tracking-code.md)」ディメンションで使用される変数。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。のキー値 `carrier.tsv` [動的参照](dynamic-lookups.md). | varchar(100) |
+| **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。`carrier.tsv` [動的検索](dynamic-lookups.md)のキー値。 | varchar(100) |
 | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | テキスト |
 | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
 | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンションで使用される変数。 | varchar(100) |
-| **`click_action`** | 廃止。レガシーClickMapツールでクリックされた、リンクされたのアドレス。 | varchar(100) |
-| **`click_action_type`** | 廃止。レガシーClickMapツールのリンクタイプ。<br>0：HREF URL<br>1：カスタム ID<br>2：JavaScript onClick イベント<br>3：フォーム要素 | tinyint unsigned |
-| **`click_context`** | 廃止。リンククリックが発生したページの名前。従来のClickMapツールの一部。 | varchar(255) |
+| **`click_action`** | 廃止。レガシー ClickMap ツール内でクリックされたリンクのアドレス。 | varchar(100) |
+| **`click_action_type`** | 廃止。レガシー ClickMap ツールのリンクタイプ。<br>0：HREF URL<br>1：カスタム ID<br>2：JavaScript onClick イベント<br>3：フォーム要素 | tinyint unsigned |
+| **`click_context`** | 廃止。リンククリックが発生したページの名前。レガシー ClickMap ツールの一部。 | varchar(255) |
 | **`click_context_type`** | 廃止。`click_context` の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
-| **`click_sourceid`** | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。従来のClickMapツールの一部。 | int unsigned |
+| **`click_sourceid`** | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | **`click_tag`** | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
 | **`clickmaplink`** | Activity Map リンク | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map 地域別リンク | varchar(255) |
@@ -63,7 +63,7 @@ ht-degree: 92%
 | **`curr_factor`** | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD では小数点以下 2 桁を使用するので、この列の値は 2 になります。 | tinyint |
 | **`curr_rate`** | トランザクションが発生した時点の為替レート。アドビでは XE 社との提携により、当日の為替レートを決定しています。 | decimal(24,12) |
 | **`currency`** | 取引で使用された通貨のコード。 | char(8) |
-| **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されるタイムスタンプ (UNIX®時間 )。 | int |
+| **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されたタイムスタンプ（UNIX® 時間に基づく）。 | int |
 | **`cust_visid`** | カスタム訪問者 ID が設定されている場合は、それがこの列に格納されます。 | varchar(255) |
 | **`daily_visitor`** | ヒットが新しい日別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md)ディメンションで使用される変数。ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`DMP` および `SELL` などがあります。 | varchar(100) |
@@ -82,17 +82,17 @@ ht-degree: 92%
 | **`first_hit_ref_domain`** | 「[オリジナルの参照ドメイン](/help/components/dimensions/original-referring-domain.md)」ディメンションで使用される変数。`first_hit_referrer` に基づきます。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
 | **`first_hit_ref_type`** | 訪問者の本当に最初のリファラーのリファラータイプを表す数値 ID。`referrer_type.tsv` ルックアップを使用します。 | tinyint unsigned |
 | **`first_hit_referrer`** | 訪問者の本当に最初の参照 URL。 | varchar(255) |
-| **`first_hit_time_gmt`** | 訪問者の最初のヒットのタイムスタンプ (UNIX®時間 )。 | int |
+| **`first_hit_time_gmt`** | 訪問者の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | **`geo_city`** | ヒットが発生した市区町村の名前（IP アドレスに基づく）。「[市区町村](/help/components/dimensions/cities.md)」ディメンションで使用されます。 | char(32) |
 | **`geo_country`** | ヒットが発生した国の略称（IP アドレスに基づく）。[国](/help/components/dimensions/countries.md)ディメンションで使用します。 | char(4) |
 | **`geo_dma`** | ヒットが発生したデモグラフィック地域の数値 ID（IP アドレスに基づく）。「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
 | **`geo_region`** | ヒットが発生した州または地域の名前（IP アドレスに基づく）。「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
-| **`geo_zip`** | ヒットの発生元となった郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック「 `zip`」を参照してください。 | varchar(16) |
+| **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック「 `zip`」を参照してください。 | varchar(16) |
 | **`hier1 - hier5`** | 階層変数で使用され、値の区切りリストが含まれます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| **`hit_source`** | ヒットの発生元を示します。 ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
-| **`hit_time_gmt`** | ヒットを受け取ったAdobeデータ収集サーバーのタイムスタンプ (UNIX®時間に基づく )。 | int |
-| **`hitid_high`** | と共に使用 `hitid_low` ：ヒットを識別します。 | bigint unsigned |
-| **`hitid_low`** | と共に使用 `hitid_high` ：ヒットを識別します。 | bigint unsigned |
+| **`hit_source`** | ヒットソースを示します。ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
+| **`hit_time_gmt`** | ヒットを受信したアドビデータ収集サーバーのタイムスタンプ（UNIX® 時間に基づく）。 | int |
+| **`hitid_high`** | `hitid_low` と共に使用し、ヒットを識別します。 | bigint unsigned |
+| **`hitid_low`** | `hitid_high` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | **`homepage`** | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
 | **`hourly_visitor`** | ヒットが新しい時間別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
@@ -102,15 +102,15 @@ ht-degree: 92%
 | **`java_enabled`** | Java が有効かどうかを示すフラグ。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | **`javascript`** | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。`javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 言語の数値 ID。`languages.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
-| **`last_hit_time_gmt`** | 以前のヒットのタイムスタンプ (UNIX®時間 )。 「[最終訪問からの日数](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
+| **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[最終訪問からの日数](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
 | **`last_purchase_num`** | 「[顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンションで使用される変数。訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
-| **`last_purchase_time_gmt`** | 「[前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。前回の購入のタイムスタンプ (UNIX®時間 )。 初回の購入やこれまでに購入を行っていない訪問者の場合、この値は `0` になります。 | int |
+| **`last_purchase_time_gmt`** | 「[前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。前回行った購入のタイムスタンプ（UNIX® 時間）。初回の購入やこれまでに購入を行っていない訪問者の場合、この値は `0` になります。 | int |
 | **`latlon1`** | ロケーション（半径 10 km 以内） | varchar(255) |
 | **`latlon23`** | ロケーション（半径 100 m 以内） | varchar(255) |
 | **`latlon45`** | ロケーション（半径 1 m 以内） | varchar(255) |
 | **`mc_audiences`** | 訪問者が属している Audience Manager セグメント ID のリスト。`post_mc_audiences` 列の区切り文字が `--**--` に変更されます。 | テキスト |
 | **`mcvisid`** | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
-| **`mobile_id`** | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。のキー値 `mobile_attributes.tsv` [動的参照](dynamic-lookups.md). | int |
+| **`mobile_id`** | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。`mobile_attributes.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int |
 | **`mobileaction`** | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
 | **`mobileappid`** | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
@@ -131,8 +131,8 @@ ht-degree: 92%
 | **`mobiledayssincelastuse`** | アプリの前回実行時からの経過日数。 | varchar(255) |
 | **`mobiledeeplinkid`** | コンテキストデータ変数 `a.deeplink.id` から収集します。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
 | **`mobiledevice`** | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
-| **`mobilehourofday`** | アプリが起動された日の時間を定義します。 24 時間形式で示します。 | varchar(255) |
-| **`mobileinstalldate`** | モバイルインストール日。ユーザーがモバイルアプリを初めて開いた日付を示します。 | varchar(255) |
+| **`mobilehourofday`** | アプリが起動された時刻を定義します。24 時間形式で示します。 | varchar(255) |
+| **`mobileinstalldate`** | モバイルインストール日。モバイルアプリをユーザーが最初に開いた日を示します。 | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | 廃止 - コンテキストデータ変数 a.LaunchesSinceUpgrade から収集されます。前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
 | **`mobilelaunchnumber`** | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
 | **`mobileltv`** | 廃止。trackLifetimeValue メソッドによって設定されます。 | varchar(255) |
@@ -147,7 +147,7 @@ ht-degree: 92%
 | **`mobileplacecategory`** | コンテキストデータ変数 `a.loc.category` から収集します。特定の場所のカテゴリを示します。 | varchar(255) |
 | **`mobileplaceid`** | コンテキストデータ変数 `a.loc.id` から収集します。特定の対象地点の識別子。 | varchar(255) |
 | **`mobilepushoptin`** | Mobile Services Push オプトイン | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services プッシュペイロード ID | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services Push ペイロード ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services の起動コンテンツ | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services の起動メディア | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services の起動ソース | varchar(255) |
@@ -156,10 +156,10 @@ ht-degree: 92%
 | **`mobileresolution`** | モバイルデバイスの解像度。`[Width] x [Height]` 画素数. | varchar(255) |
 | **`monthly_visitor`** | 当月固有の訪問者であることを示すフラグ。 | tinyint unsigned |
 | **`mvvar1`**～`mvvar3` | 変数値をリストします。実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
-| **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字をに置き換えます。 `--**--`. 次の項目がない `post` 列。 | テキスト |
+| **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字を `--**--` に置き換えます。`post` 列がありません。 | テキスト |
 | **`namespace`** | 未使用。削除されたフィーチャの一部。 | varchar(50) |
 | **`new_visit`** | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
-| **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。のキー値 `operating_system.tsv` 標準参照および `operating_system_type.tsv` [動的参照](dynamic-lookups.md). | int unsigned |
+| **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。`operating_system.tsv` 標準検索と `operating_system_type.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int unsigned |
 | **`p_plugins`** | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 `navigator.plugins()` を使用します。 | テキスト |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
@@ -277,10 +277,10 @@ ht-degree: 92%
 | **`videoshow`** | ビデオ番組 | varchar(255) |
 | **`videoshowtype`** | ビデオ番組のタイプ | varchar(255) |
 | **`videostreamtype`** | ビデオストリームのタイプ | varchar(255) |
-| **`visid_high`** | と共に使用 `visid_low` 訪問者を一意に識別する。 | bigint unsigned |
-| **`visid_low`** | と共に使用 `visid_high` 訪問者を一意に識別する。 | bigint unsigned |
+| **`visid_high`** | `visid_low` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
+| **`visid_low`** | `visid_high` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_new`** | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
-| **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時点のタイムスタンプ (UNIX®時間 ) を示します。 | int |
+| **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX® 時間）を示します。 | int |
 | **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`：カスタム訪問者 ID または不明／該当なし<br>`1`：IP およびユーザーエージェントのフォールバック<br>`2`：HTTP モバイル加入者ヘッダー<br>`3`：従来の cookie 値（`s_vi`）<br>`4`：フォールバック cookie の値（`s_fid`）<br>`5`：ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
 | **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
@@ -291,7 +291,7 @@ ht-degree: 92%
 | **`visit_search_engine`** | 訪問の最初の検索エンジンを表す数値 ID。`search_engines.tsv` ルックアップを使用します。 | smallint unsigned |
 | **`visit_start_page_url`** | 訪問の最初の URL。 | varchar(255) |
 | **`visit_start_pagename`** | 訪問の最初のヒットにおけるページ名の値。 | varchar(100) |
-| **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ (UNIX®時間 )。 | int |
+| **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | **`weekly_visitor`** | ヒットが新しい週別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`yearly_visitor`** | ヒットが新しい年別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。関連トピック 「`geo_zip`」を参照してください。 | varchar(50) |
