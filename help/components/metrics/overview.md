@@ -4,9 +4,9 @@ description: 時間の経過に伴うディメンション項目またはデー�
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-特定の指標のヘルプページが見つからない場合は、 [カスタムイベント](custom-events.md) または [計算指標](../c-calcmetrics/cm-overview.md).
+特定の指標のヘルプページが見つからない場合は、[カスタムイベント](custom-events.md)または[計算指標](../c-calcmetrics/cm-overview.md)のいずれかである可能性があります。
 
 * 指標がカスタムイベントの場合は、組織内の Analytics 管理者に問い合わせる、またはレポートスイートの[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)を参照してください。
 * 指標が計算指標の場合は、情報アイコンをクリックして数式を決定します。
@@ -31,6 +31,6 @@ ht-degree: 78%
 
 Analytics 管理者は、レポートスイート内または直接 Analysis Workspace 内で、指標やその他のコンポーネントの説明を追加できます。 指標に説明を追加する方法について詳しくは、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
 
-## Analysis Workspaceでの指標の使用
+## Analysis Workspace での指標の使用
 
-Analysis Workspaceでの指標の使用方法について詳しくは、「Analysis Workspaceでの指標の使用」( [指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Analysis Workspace での指標の使用方法については、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の「Analysis Workspace での指標の使用」を参照してください。
