@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 88%
       + [計算指標のタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [計算指標マネージャ](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [計算指標マネージャー](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指標リファレンス {#calcmetrics-reference}
       + [リファレンス：基本的な関数](c-calcmetrics/cm-reference/cm-functions.md)
       + [リファレンス：高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
@@ -238,13 +238,13 @@ ht-degree: 88%
       + [分類セットの概要](classifications/sets/overview.md)
       + 分類セットの管理 {#manage}
          + [分類セットマネージャー](classifications/sets/manage/set-manager.md)
-         + [分類セットの作成](classifications/sets/manage/create.md)
+         + [分類セットを作成](classifications/sets/manage/create.md)
          + [分類セット設定](classifications/sets/manage/settings.md)
          + [分類セットスキーマ](classifications/sets/manage/schema.md)
          + [分類セットルール](classifications/sets/manage/rules.md)
       + [分類セットジョブマネージャー](classifications/sets/job-manager.md)
       + 分類セットの統合 {#consolidations}
-         + [分類セット統合マネージャー](classifications/sets/consolidations/manage.md)
+         + [分類セットの統合マネージャー](classifications/sets/consolidations/manage.md)
          + [分類セットの統合プロセス](classifications/sets/consolidations/process.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
       + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
@@ -269,8 +269,8 @@ ht-degree: 88%
    + [下位分類](classifications/c-sub-classifications.md)
    + [分類 FAQ](classifications/faq.md)
 + 場所 {#locations}
-   + [ロケーションマネージャー](/help/components/locations/locations-manager.md)
-   + [クラウドインポートアカウント](/help/components/locations/configure-import-accounts.md)
+   + [場所マネージャー](/help/components/locations/locations-manager.md)
+   + [クラウドの読み込みアカウント](/help/components/locations/configure-import-accounts.md)
    + [クラウドの読み込み場所](/help/components/locations/configure-import-locations.md)
 + [カレンダーイベント](t-calendar-event.md)
 + [予定レポートキュー](scheduled-reports-admin.md)
@@ -279,7 +279,7 @@ ht-degree: 88%
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネル — はじめに](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネルの基本を学ぶ](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution IQ とマーケティングチャネル](c-marketing-channels/mchannel-best-practices.md)
    + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
