@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 | **[!UICONTROL Reports &amp; Analytics]** レポートへの新しいリンク | <ul><li>**[!UICONTROL レポート]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL ボット]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL オーディエンス]**／**[!UICONTROL ボットページ]**<li>**[!UICONTROL レポート]**／**[!UICONTROL エンゲージメント]**／**[!UICONTROL リアルタイム]**</li></ul> | ![新規リンク](assets/report-links.png) |
 | 標準の新規レポート | <ul><li>**[!UICONTROL レポート]**／**[!UICONTROL 一番人気]**／**[!UICONTROL 次のページ]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL 一番人気]**／**[!UICONTROL 前のページ]**</li><li>**[!UICONTROL レポート]**／**[!UICONTROL エンゲージメント]**／**[!UICONTROL ページ分析]**／**[!UICONTROL ページの概要]**</li></ul>これらのレポートは[!UICONTROL ワークスペース]形式で、設定とビルドが必要となります。出力は、上位指標のパネル、トレンドデータ、[!UICONTROL フロー]ビジュアライゼーションなどで構成されます。これらのレポートを変更したり、ディメンション、ディメンション項目などを変更できます。これらのレポートは、ワークスペースパネル配下のパネルとしても使用できます。 | ![次のページ](assets/next-page.png) |
 | **[!UICONTROL プロジェクトを作成]**&#x200B;モーダルが復活しました | ワークスペースで「**[!UICONTROL プロジェクトを作成]**」をクリックすると、[!UICONTROL 空のプロジェクト]と[!UICONTROL 空のモバイルスコアカード]のどちらかを、再び選択できるようになりました。会社が作成した任意のテンプレートから選択することもできます。 | ![新規作成](assets/create-new.png) |
-| Customer Journey Analytics でも使用可能 | この変更済みフォームのランディングページは、Customer Journey Analyticsでも利用できます。 |  |
+| Customer Journey Analytics でも使用可能 | このランディングページは、変更された形式で、Customer Journey Analytics でも使用できます。 |  |
 
 {style="table-layout:auto"}
 
@@ -101,23 +101,23 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 ## 「[!UICONTROL レポート]」タブに移動する {#navigate-reports}
 
-この [!UICONTROL レポート] tab 次の一連のレポートが統合されます。
+「[!UICONTROL レポート]」タブには、次のレポートセットが統合されています。
 
 * 以前は[!UICONTROL ワークスペース]／[!UICONTROL プロジェクト]／[!UICONTROL 新規]の下にあった、事前定義済みの[!UICONTROL ワークスペース]テンプレート。アドビは、このコンテキストでは「テンプレート」という単語を使用しなくなりました。
 * 以前の Adobe Analytics の[!UICONTROL レポート]のトップメニューにある、事前定義済みのレポートのほとんど。これらのレポートは、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) に表示されます。
 
 >[!NOTE]
 >
->レポートを使用する際は、次の点を考慮してください。
+>レポートを使用する場合は、次の点を考慮してください。
 >* 「レポート」で、新しいレポートをお気に入りに登録した場合にのみ、「お気に入り」フォルダーが表示されます。既存の Reports &amp; Analytics のお気に入りは転送されません。
->* Reports &amp; Analytics で以前にグループ化された、最もよく使用されるレポートのみ使用できます。 ほとんど使用されないレポートや、関連性の低いレポートは一部使用できなくなりました。 詳しくは、 [ランディングページに関する FAQ](#landing-page-faq) 詳しくは、以下を参照してください。
+>* 以前は Reports &amp; Analytics にグループ化されていた最も一般的に使用されるレポートのみが使用可能です。ほとんど使用されないレポートや、関連性のなくなった一部のレポートは使用できなくなりました。 詳しくは、以下の[ランディングページに関する FAQ](#landing-page-faq) を参照してください。
 
 ![「レポート」タブ](assets/reports-tab2.png)
 
 
 ### レポートの表示 {#menus}
 
-1. 「[!UICONTROL **レポート**]」タブに移動します
+1. 「[!UICONTROL **レポート**]」タブに移動します。
 1. 検索フィールドを使用して、特定のレポートを検索します。
 
    または
@@ -136,24 +136,24 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 ### レポートの表示と保存 {#use-reports}
 
-変更を加えた後でレポートから移動すると、変更を保存するか破棄するかを尋ねるメッセージが表示されます。 レポートに対する変更を保存すると、レポートが新しいプロジェクトとして保存されます。
+変更した後にレポートから移動すると、変更を保存するか破棄するように求められます。レポートに対する変更を保存すると、レポートが新しいプロジェクトとして保存されます。
 
-1. 「[!UICONTROL **レポート**]」タブに移動します
-1. 表示するレポートを選択します。例えば、次の場所に [!UICONTROL **最頻使用**]&#x200B;を選択し、 [!UICONTROL **ページ**] レポート。
+1. 「[!UICONTROL **レポート**]」タブに移動します。
+1. 表示するレポートを選択します。例えば、「[!UICONTROL **一番人気**]」で、[!UICONTROL **ページ**]&#x200B;レポートを選択します。
 
    ![ページレポート](assets/pages-report.png)
 
 1. Analysis Workspace に表示されるページレポートには、2 つの[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)（[棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)と[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)）および[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)が表示されます。使用される指標は発生件数です。
 1. 次のいずれかの操作を行います。
 
-   * レポートを表示します。
-   * 上部のセグメントドロップゾーンに、1 つ以上のセグメントをドラッグします。 例えば、セグメントを [!UICONTROL **モバイル顧客**] 結果を表示します。
-   * 右上のカレンダーに移動して、日付範囲を変更します。
-   * ディメンション分類を追加し、他の指標をドラッグして、通常はニーズに合わせてレポートをカスタマイズします。
+   * レポートを表示する。
+   * 上部のセグメントドロップゾーンに、1 つ以上のセグメントをドラッグする。例えば、[!UICONTROL **モバイル顧客**]&#x200B;セグメントをドラッグし、結果を表示します。
+   * 右上のカレンダーに移動して、日付範囲を変更する。
+   * ディメンション分類を追加し、他の指標をドラッグして、通常はニーズに合わせてレポートをカスタマイズする。
 
-1. （オプション）「 [!UICONTROL **プロジェクト**] > [!UICONTROL **保存**].
+1. （オプション）[!UICONTROL **プロジェクト**]／[!UICONTROL **保存**]&#x200B;を選択して、レポートをプロジェクトとして保存します。
 
-   これにより、レポートが新しいプロジェクトとして保存されます。既存のレポートは変更されません。 レポートをプロジェクトとして保存する方法の詳細については、 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   これにより、レポートが新しいプロジェクトとして保存されます。既存のレポートは変更されません。レポートをプロジェクトとして保存する方法について詳しくは、[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)の「空のプロジェクトまたはレポートからのプロジェクトの作成」を参照してください。
 
 ### カスタム会社レポートの作成 {#company-report}
 
@@ -161,16 +161,16 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 新しい会社レポートを作成するには：
 
-1. 目的の状態に合わせてAnalysis Workspaceでプロジェクトを作成します。
-1. 選択 [!UICONTROL **プロジェクト**] > **[!UICONTROL 会社レポートとして保存…]**.
+1. Analysis Workspace でプロジェクトを目的の状態にビルドします。
+1. [!UICONTROL **プロジェクト**]／**[!UICONTROL 会社レポートとして保存…]** を選択します。
 
    ![会社レポート](assets/company-report.png)
 
-1. レポート名の更新、説明の追加、タグの追加を行い、 [!UICONTROL **会社レポートとして保存**].
+1. レポート名の更新、説明の追加、タグの追加を行い、「[!UICONTROL **会社レポートとして保存**]」を選択します。
 
-   レポートは、プロジェクトの作成モーダルの会社レポートリストに追加され、ログイン会社のユーザーが使用できます。
+   このレポートは、プロジェクトを作成モーダルの会社レポートリストに追加され、ログインしている会社のユーザーが使用できます。
 
-   ユーザーが会社レポートに基づいてプロジェクトを作成する方法の詳細については、「空のプロジェクトまたはレポートからプロジェクトを作成する」を参照してください。 [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   ユーザーが会社レポートに基づいてプロジェクトを作成する方法について詳しくは、[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)の「空のプロジェクトまたはレポートからのプロジェクトの作成」を参照してください。
 
 その他の学習オプション：
 
@@ -179,14 +179,14 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 * [完全な Analysis Workspace のドキュメント](/help/analyze/analysis-workspace/home.md)へのリンクはこちらです。
 * 完全な [Analysis Workspace の YouTube プレイリスト](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)はこちらです。
 
-### 会社レポートの管理 {#manage-company-reports}
+### 会社レポートを管理 {#manage-company-reports}
 
 管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。ピン留めされた項目は、レポートアイコン（![レポートアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)）で識別される会社レポートのリストに続いてピン留めされたままです。この表示では、1 つまたは複数のレポートを削除、名前変更、タグ付けまたは承認できます。
 
 会社レポートを表示および管理するには
 
 1. フィルターパネルでは、**その他のフィルター**&#x200B;を選択してから、**会社レポート**を選択します。
-会社レポートのリストが表示されます。ピン留めされていない限り、すべての通常のプロジェクトは表示されません。
+会社レポートのリストが表示されます。すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
 
    ![会社レポートフィルターを表示](assets/company-reports-filter.png)
 
@@ -236,24 +236,24 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 | Advertising Analytics：有料検索 | 獲得 > Advertising Analytics：有料検索 |
 
 
-## 「学習」タブを使用する {#navigate-learning}
+## 「学習」タブを使用 {#navigate-learning}
 
-学習ページには、実践型のビデオツアー、チュートリアル、ドキュメントへのリンクが含まれています。
+学習ページには、実践的なビデオツアー、チュートリアル、ドキュメントへのリンクが含まれています。
 
-Adobe Analyticsの学習ページを使用して、Adobe Analyticsの初心者、中級者または高度な機能および使用例を学習します。
+Adobe Analytics の学習ページを使用して、Adobe Analytics の初級、中級、または上級の機能とユースケースを学びます。
 
-### 学習ページにアクセス
+### 学習ページへのアクセス
 
-1. Adobe Analyticsで、 [!UICONTROL **Workspace**] > [!UICONTROL **学習**].
+1. Adobe Analytics で、[!UICONTROL **ワークスペース**]／[!UICONTROL **学習**]&#x200B;を選択します。
 
 ### 学習ページの機能
 
-* **コンテンツをフィルタ：** 左側のレールのフィルターアイコンを使用すると、学習コンテンツをエクスペリエンスレベル（初級、中級、高度）やコンテンツタイプ（ドキュメント、ビデオ、Tours &amp;チュートリアル）でフィルタリングできます。
-* **進行状況の追跡：** コンテンツを選択すると、 **[!UICONTROL 表示済み]** タグが表示されます。 このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。次の項目を選択できます。 **[!UICONTROL 表示済み]** タグを使用して、コンテンツの一部から削除します。
-* **追加のコンテンツを表示：** 任意のビデオを表示している間に、 **[!UICONTROL 詳細情報]** ボタンをクリックして、Experience Leagueの関連ドキュメントコンテンツを表示します。 または、学習ページから、次のいずれかのオプションを選択して追加のコンテンツを表示します。
-   * **[!UICONTROL YouTubeにアクセス]:** Analysis Workspace YouTubeのプレイリスト全体を表示します。
-   * [!UICONTROL **訪問のExperience League**]:Experience Leagueに関するAdobe Analyticsのドキュメントの完全なスイートを表示します。
-* **新規ユーザー向けの基本事項：** この [!UICONTROL Workspace の基本] ツアーは、新規ユーザーにお勧めです。 このツアーでは、Workspace に直接アクセスし、最も一般的なアクションを順を追って説明します。 このツアーは、Workspace で、パネルヘッダーのツールチップポップアップからいつでも再起動できます。
+* **コンテンツをフィルタリング：**&#x200B;左側のパネルの「フィルター」アイコンを使用すると、学習コンテンツをエクスペリエンスレベル（初級、中級、上級）およびコンテンツタイプ（ドキュメント、ビデオ、ツアーとチュートリアル）ごとにフィルタリングできます。
+* **進行状況を追跡：**&#x200B;コンテンツを選択すると、「**[!UICONTROL 表示済み]**」タグが表示されます。このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。「**[!UICONTROL 表示済み]**」タグを選択して、コンテンツの一部から削除できます。
+* **追加コンテンツを表示：**&#x200B;ビデオの表示中に「**[!UICONTROL 詳細情報]**」ボタンを選択すると、Experience League の関連ドキュメントコンテンツが表示されます。または、学習ページから次のオプションのいずれかを選択して追加コンテンツを表示します。
+   * **[!UICONTROL YouTube を訪問]：** Analysis Workspace の完全な YouTube プレイリストを表示します。
+   * [!UICONTROL **Experience League を訪問**]：Experience League で Adobe Analytics ドキュメントの完全なスイートを表示します。
+* **新規ユーザー向けの基礎：**&#x200B;新規ユーザーには、[!UICONTROL Workspace の基本]ツアーをお勧めします。このツアーでは、Workspace に直接移動し、最も一般的なアクションを順を追って説明します。このツアーは、パネルヘッダーのツールチップポップオーバーを使用して、Workspace で任意の時間に再度開始することもできます。
 
 ## ランディングページの設定 {#set-landing}
 
