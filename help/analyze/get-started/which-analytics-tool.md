@@ -4,9 +4,9 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** は以下の場合に使用します。
 
-* 人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどのAdobe Audience Managerのオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
+* デモグラフィック情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの Adobe Audience Manager のオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
 * この統合によって新しい情報が Analytics にヒットごとに送信されるので、アップロードされた CRM データを時間ベースにする場合。
 
 ## Adobe Analytics からのデータのエクスポート {#export}
