@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年7月** | |
-| Adobe Experience Platform Edge Network Server API | を使用してAdobe Analyticsでデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md). 例えば、デスクトップアプリケーションでAdobe Analyticsを使用してデータ収集を実装し、IoT デバイスでトップボックスを設定する場合などです。 |
-| グローバル企業 ID | 文書化 [グローバル企業 ID を見つける方法](../admin/admin/company/web-services-admin.md) ログインしている Analytics の会社の名前。 この ID は、Analytics 2.0 API で必要です。 |
+| Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
+| グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/admin/company/web-services-admin.md)を文書化しました。この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
 | 分類データを取り込むためのクラウドアカウントストレージの場所の設定 | 分類セットの自動処理に使用するクラウドアカウントストレージの場所を管理できるようになりました。[詳細情報](/help/components/locations/configure-import-accounts.md) |
-| データ修復フィルターの機能強化 | データ修復に 3 つのフィルター機能が追加されました。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
+| データ修復フィルターの機能強化 | データ修復に次の 3 つのフィルタリング機能強化を追加しました。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **2023年6月** | |
 | 分類セットの新機能 | [分類セット](/help/components/classifications/sets/overview.md)を更新し、次のいくつかの新機能を追加しました。<ul><li>**統合**：分類セットを単一の統合された分類セットに結合します。統合された分類セットは、他の分類セットと同様に使用することも、Customer Journey Analytics のルックアップデータセットとして使用することもできます。[詳細情報](../components/classifications/sets/consolidations/manage.md)</li><li>**ルール**：分類セット内のルールに基づいて値を自動的に分類します。[詳細情報](../components/classifications/sets/manage/rules.md)</li><li>**自動読み込み**：クラウドストレージの宛先から分類データを自動的に読み込みます。[詳細情報](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算指標のアップデート | スクリーンショットやプロシージャの手順の更新など、計算指標に関する様々な記事が更新されました。これらの変更は、ドキュメントを現在の Adobe Analytics 機能とインラインにするために行われました。 |

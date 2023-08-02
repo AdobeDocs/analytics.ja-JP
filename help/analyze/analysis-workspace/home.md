@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Analysis Workspace のデータ要素は、ユーザーと管理者の両方が 
 
 ### データソース
 
-ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。以下に、以下の方法に関する詳細情報を示します。 [データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。データソースを管理する方法について詳しくは、[こちら](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を参照してください。
 
 ## Analysis Workspace の使用を開始
 
