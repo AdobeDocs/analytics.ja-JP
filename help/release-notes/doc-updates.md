@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 100%
+source-wordcount: '4689'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023年8月** | |
+| データフィード用の SFTP の設定には、Adobeカスタマーケアが必要ないことを明記しました。 | 明確化された場所： [SFTP を使用した外部 FTP アカウントへのAdobeデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) のお客様は、データフィード用に SFTP を設定するためにAdobeカスタマーケアに問い合わせる必要はありません。 <p>また、SFTP は推奨されなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるという注記を追加しました。</p> |
 | **2023年7月** | |
 | Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
 | グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/admin/company/web-services-admin.md)を文書化しました。この ID は、Analytics 2.0 API で必要です。 |
