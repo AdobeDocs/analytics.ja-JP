@@ -3,10 +3,10 @@ title: モバイルデバイス用 Analytics の実装
 description: 使用するモバイル AppMeasurement ライブラリを決定します。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 51%
 
 >[!CAUTION]
 >
->バージョン 4 モバイル SDK のサポートは2020年9月30日に終了しました。
+>バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、[バージョン 4 モバイル SDK サポート終了に関する FAQ](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)（英語）を参照してください。
 

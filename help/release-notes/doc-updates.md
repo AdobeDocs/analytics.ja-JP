@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e17705adb6319a31f125cdff2810cbf79d85510c
+source-git-commit: bf111fc5529692283bf6b341655e80498107633b
 workflow-type: tm+mt
-source-wordcount: '4895'
+source-wordcount: '4907'
 ht-degree: 94%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 94%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年8月** | |
+| 実装方法の比較 | 様々な実装方法を比較したドキュメントを更新しました。 [詳細情報](../implement/prepare/comparison.md) |
 | データフィード用の SFTP の設定には、Adobeカスタマーケアが必要ないことを明記しました。 | 明確化された場所： [SFTP を使用した外部 FTP アカウントへのAdobeデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) のお客様は、データフィード用に SFTP を設定するためにAdobeカスタマーケアに問い合わせる必要はありません。 <p>また、SFTP は推奨されなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるという注記を追加しました。</p> |
 | ストリーミングメディアのドキュメントの改善 | ストリーミングメディアに関して、次のドキュメントが改善されました。 <ul><li>更新された [一般概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) 明確性を向上させ、Customer Journey Analyticsに関する情報を含める。</li><li>更新された [実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) を使用して、Edge の実装と Analytics のみの実装を明確に区別できます。 様々な実装方法を説明する図も含まれています。</li><li>次に特有の前提条件を追加しました： [Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en) および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en). また、 [一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en).</li><li>更新された [タグを使用したメディア SDK、拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 新しい列を含む記事 *サポートされるソリューション* および *実装方法*.</li><li>以下の項目に関する記事の内容と構成を合理化します。 [実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en) ドキュメントの領域。 これには、Edge 実装および Analytics のみの実装別の実装の分類が含まれていました。</li><li>の下で不要な余分なレベルの階層を削除しました。 [トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en) を追加し、変更した URL に対するリダイレクトをこの節に追加しました。</li><ul> |
 | **2023年7月** | |
