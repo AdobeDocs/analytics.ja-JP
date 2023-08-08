@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4891'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 0%
 | ディープリンク（モバイルアプリ）ドキュメント | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。[詳細情報](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics ダッシュボードアプリ（モバイルアプリ）の更新されたホーム画面に関するドキュメント | 更新された新しいホーム画面では、すべてのスコアカードが、統合された 1 つのスコアカードリストに表示されます。[詳細情報](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum アイコン | 必要に応じて、ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、アドビの [Spectrum Design System](https://spectrum.adobe.com/page/icons/) の同等のアイコンへの参照に置き換えました。 |
-| IP からジオロケーションへのマッピングの改善 | [よくある質問（FAQ）](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=ja)に関するトピックを作成しました。 |
 | レポートアクティビティマネージャー | このベータ版ドキュメント、特に[個々のレポートスイートのレポートアクティビティの表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja#view-reporting-activity-for-individual-report-suites)に関する節を更新しました。 |
 | Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
 | プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |
