@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 78%
+source-wordcount: '895'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 これらのリリースノートでは、8 月 9 日から 2023 年 9 月 13 日のリリース期間を扱っています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
-## 新機能または機能強化 2023 年 8 月 9 日～9 月 12 日 {#features}
+## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
