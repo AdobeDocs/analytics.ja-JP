@@ -1,35 +1,37 @@
 ---
-title: 最新の Analytics リリースノート
+title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 78%
 
 ---
 
-# 現在の Adobe Analytics リリースノート(2023年7月)
+# 現在の Adobe Analytics リリースノート (2023年8月)
 
-**最終更新日**：2023年7月10日（PT）
+**最終更新日**：2023年8月9日（PT）
 
-Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
+これらのリリースノートでは、8 月 9 日から 2023 年 9 月 13 日のリリース期間を扱っています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
-## 新機能または機能強化 {#features}
+## 新機能または機能強化 2023 年 8 月 9 日～9 月 12 日 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **分類データを取り込むためのクラウドアカウントストレージの場所の設定** | 分類セットの自動処理に使用するクラウドアカウントストレージの場所を管理できるようになりました。[詳細情報](/help/components/locations/configure-import-accounts.md)<p> | 該当なし | 2023年7月10日（PT） |
-| **データ修復フィルターの機能強化** | データ修復に次の 3 つのフィルタリング機能強化を追加しました。<ul><li>1 つの変数でフィルタリングし、2 つ目の変数を変更する。例えば、`eVar2` に「@」が含まれている場合は、`eVar3` を削除します。</li><li>数値または数値以外の値をフィルタリングする</li><li>AND を使用して複数のフィルターを適用する。例えば、`eVar2="a"` AND `eVar3="b"` のように適用します。</li></ul>[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023年6月21日（PT） | 2023年7月12日（PT） |
-| **データフィード書き出しの安全な宛先** | データフィードを次のクラウドストレージの宛先に送信できるようになりました。<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>以前に使用可能だった宛先（FTP、SFTP、S3、Azure Blob）は、推奨されなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja) | 2023年6月12日（PT） | 2023年7月13日（PT） |
-| **新しい AppMeasurement 変数** | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。ほとんどの実装では、この変数を定義する必要はありません。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |  | 2023年7月17日（PT） |
+| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しをおこなうためのAdobe Analytics API 2.0 メソッドが用意されています。 | 該当なし | 2023年8月31日（PT） |
+| **レポートアクティビティマネージャー** | レポートアクティビティマネージャーは、管理者に各レポートスイートのレポート消費状況を詳細に表示し、管理者がピークレポート時に容量の問題を簡単に診断し、修正できるようにします。 [詳細情報](/help/admin/admin/reporting-activity.md) | 該当なし | 2023 年 9 月 7 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics の修正点
 
-AN-307816、AN-318111、AN-318584、AN-318828、AN-320440、AN-320568、AN-320616、AN-321013、AN-321513、AN-321520、AN-321757、AN-321820、AN-321917、AN-322034、AN-322135、AN-322140、AN-322142、AN-322251、AN-322353、AN-322378、AN-322383、AN-322427、AN-322458、AN-322543、AN-322630、AN-322637、AN-322638、AN-322647、AN-322728、AN-322732、AN-322777、AN-322817、AN-322957、AN-322958、AN-323035、AN-323074、AN-323150、AN-323196、AN-323197、AN-323205、AN-323206、AN-323217、AN-323224、AN-323225、AN-323244、AN-323257、AN-323277、AN-323280、AN-323293、AN-323309、AN-323318、AN-323468、AN-323476、AN-323514、AN-323572、AN-323592、AN-323782、AN-323835
+* カスタムイベントが読み込まれない問題を修正しました。 （AN-324163）
+* ビジュアライゼーションの凡例のラベルを編集できない問題を修正しました。 （AN-323246）
+
+AN-315605、AN-316306、AN-317494、AN-317844、AN-320424、AN-320680、AN-320869、AN-321624、AN-321693、AN-322009、AN-322244、AN-AN-322466AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN AN AN AN AN AN    AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN      
+
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 

@@ -3,10 +3,10 @@ title: データフィードの作成
 description: データフィードを作成する方法を説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 21%
+source-wordcount: '3174'
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->データフィードを作成する前に、データフィードに関する基本的な知識を持ち、必要な前提条件をすべて満たすことが重要です。 詳しくは、 [データフィードの概要](data-feed-overview.md).
+>データフィードを作成する前に、データフィードに関する基本的な知識を持ち、必要な前提条件をすべて満たしていることを確認することが重要です。 詳しくは、 [データフィードの概要](data-feed-overview.md).
 
 ## データフィードの作成と設定
 
@@ -45,6 +45,15 @@ ht-degree: 21%
    | [!UICONTROL **連続フィード**] | このチェックボックスを選択すると、終了日が削除され、フィードが無期限に実行されます。 フィードが履歴データの処理を完了すると、フィードはデータが特定の時間または日に収集を完了するのを待ちます。現在の時間または日が終わると、指定した遅延の後に処理が開始されます。 |
 
 1. Adobe Analytics の [!UICONTROL **宛先**] セクション内の [!UICONTROL **タイプ**] ドロップダウンメニューで、データを送信する宛先を選択します。
+
+   >[!NOTE]
+   >
+   >レポートの宛先を設定する際は、次の点を考慮してください。
+   >
+   >* レポートの送信先には、クラウドアカウントを使用することをお勧めします。 [レガシー FTP および SFTP アカウント](#legacy-destinations) は使用可能ですが、お勧めしません。
+   >
+   >* クラウドアカウントはAdobe Analyticsユーザーアカウントに関連付けられています。 他のユーザーは、設定したクラウドアカウントを使用または表示できません。
+   >
 
    ![データフィードの宛先ドロップダウンメニュー](assets/datafeed-destinations-dropdown.png)
 
