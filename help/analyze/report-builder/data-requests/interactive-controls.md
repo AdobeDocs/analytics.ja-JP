@@ -4,10 +4,10 @@ title: インタラクティブコントロール
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 >* Mac で Excel を実行している場合は、コントロールで値を変更すると、「マクロ &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; が見つかりません」というメッセージが表示されます。
 >
 
-
 >[!WARNING]
 >
 >コントロールの名前は変更しないでください（名前を確認するには、コントロールにフォーカスを設定すると、Excel グリッドのすぐ上の左上隅にコントロール名が表示されます）。
@@ -37,11 +36,11 @@ ht-degree: 100%
 1. リクエストウィザードの手順 1 で、例えば&#x200B;**[!UICONTROL ページ]**&#x200B;レポートを選択します。
 1. 「**[!UICONTROL 一般的に使用される日付]**」ドロップダウンの横にある「**[!UICONTROL コントロール設定]**」アイコンをクリックします。
 
-   ![](assets/date_range_control.png)
+   ![リクエストウィザード：コントロール設定アイコンをハイライトしたステップ 1 のスクリーンショット。 ](assets/date_range_control.png)
 
 1. コントロール設定ダイアログボックスで、インタラクティブコントロールに表示するすべての日付範囲アイテムを選択します。さらに、コントロールの左上セルの場所を指定します。
 
-   ![](assets/control_settings.png)
+   ![選択した日付範囲項目と左上のセルの場所を示すスクリーンショット。](assets/control_settings.png)
 
 1. 「リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ」オプションも指定します。
 
@@ -50,18 +49,19 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL OK]**」をクリックします。指定したセルの場所にコントロールが表示されます。
 
-   ![](assets/date_range_control_interactive.png)
-
 1. これで、日付範囲を変更できるようになります。変更した日付範囲に応じて、リクエストが更新されます。
+
+   ![選択した日付範囲を示すスクリーンショット。](assets/date_range_control_interactive.png)
+
 1. リクエストをコピーし、右クリックして、「リクエストを貼り付け」の 2 つのオプションのうちどちらかを使用できます。
 
    * **[!UICONTROL リクエストを貼り付け]**／**[!UICONTROL 絶対入力セルを使用]**。コピーされたリクエストは、元のリクエストと同じインタラクティブ日付範囲コントロールを参照します。
 
    * **[!UICONTROL リクエストを貼り付け]**／**[!UICONTROL 相対入力セルを使用]**。コピーされたリクエストは、独自のコントロールを参照します。
 
-      >[!NOTE]
-      >
-      >Microsoft Excel の通常の切り取り／コピー／貼り付け機能も使用できます。Report Builder は貼り付けによって追加されたコントロールを自動的に認識します。
+     >[!NOTE]
+     >
+     >Microsoft Excel の通常の切り取り／コピー／貼り付け機能も使用できます。Report Builder は貼り付けによって追加されたコントロールを自動的に認識します。
 
 ## インタラクティブなセグメントコントロールの実装 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ ht-degree: 100%
 
 1. リクエストウィザードの手順 1 で、「**[!UICONTROL セグメント]**」ドロップダウンリストの横にある「セグメントコントロール設定」アイコンをクリックします。
 
-   ![](assets/segment_interactive_1.png)
+   ![「セグメントコントロールの設定」アイコンのスクリーンショット。](assets/segment_interactive_1.png)
 
 1. セグメントコントロール設定ダイアログボックスで、ドロップダウンに含めるセグメントを選択します。さらに、コントロールの左上セルの場所を指定します。
 
-   ![](assets/segment_drop_down_properties.png)
+   ![選択したセグメントとセルの場所を含むセグメントコントロール設定を示すスクリーンショット。](assets/segment_drop_down_properties.png)
 
 1. 新しいインタラクティブコントロールがワークブック上に表示されます。
 
-   ![](assets/segment_interactive_3.png)
+   ![選択した新しいインタラクティブコントロールを示すスクリーンショット。](assets/segment_interactive_3.png)

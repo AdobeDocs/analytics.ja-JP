@@ -4,10 +4,10 @@ title: Power BI Desktop への発行済みアセットの取り込み
 feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 91%
 
 ---
 
@@ -25,11 +25,11 @@ Report Builder から発行されたアセットを Power BI Desktop に取り�
 2017 年 4 月の Power BI Desktop のアップデートで、Power BI サービスのデータセットに接続する機能が Microsoft によってリリースされました。この機能を使用すると、クラウドに発行済みの既存のデータセットから新しいレポートを作成できます。この機能を活用すれば、チームでの共同作業を円滑にし、重複作業を減らすことができます。
 
 1. Power BI Desktop で、**[!UICONTROL ファイル]**／**[!UICONTROL オプションと設定]**／**[!UICONTROL オプション]**／**[!UICONTROL プレビュー機能]**&#x200B;に移動します。
-1. 「**[!UICONTROL Power BI サービスライブ接続]**」をオンにして、「**[!UICONTROL OK]**」をクリックします。![](assets/bi-preview-features.png)
+1. 「**[!UICONTROL Power BI サービスライブ接続]**」をオンにして、「**[!UICONTROL OK]**」をクリックします。![「Power BIサービスライブ接続」をクリックし、「OK」をクリックします。 ](assets/bi-preview-features.png)
 
 1. Power BI Desktop を再起動します。
 1. Power BI Desktop を再起動したら、**[!UICONTROL ホーム]**／**[!UICONTROL データを取得]**／**[!UICONTROL さらに表示...]** に移動します。
 1. 「**[!UICONTROL Power BI サービス]**」を検索して選択します。
 1. **[!UICONTROL Microsoft Power BI サービス]**／**[!UICONTROL マイワークスペース]**&#x200B;で、以前に Report Builder から発行したデータセットを選択します。
 
-詳しくは、[Microsoft のブログ投稿](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)を参照してください。
+詳しくは、 [Microsoftのブログ投稿](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/).

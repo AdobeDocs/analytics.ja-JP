@@ -1,20 +1,20 @@
 ---
-description: Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
-title: 日付の書式
+description: セル範囲に標準書式と制限書式を適用する方法を説明します。
+title: Report Builderで日付を書式設定する方法
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 80%
 
 ---
 
-# 日付の書式
+# 日付のフォーマット
 
-Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
+Excel の書式/セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builderを使用してセル範囲に対して制限付き書式を適用できます。 それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 
 行ラベルグリッドに[ディメンションを追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)した後、「**[!UICONTROL 書式]**」をクリックします。
 

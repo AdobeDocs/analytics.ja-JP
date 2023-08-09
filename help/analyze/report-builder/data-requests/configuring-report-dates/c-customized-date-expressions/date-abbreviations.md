@@ -5,16 +5,16 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # 日付の略語
 
-日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日付の範囲は、2 つの略語（または条件）で開始日と終了日を指定することによって表現します。
+日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日の範囲は、2 つの時間の略語または用語に開始日と終了日を指定することで表されます。
 
 正しい構文を使用する方法については、[構文に関する注意点](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D) を参照してください。
 

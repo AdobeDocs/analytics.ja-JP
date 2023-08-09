@@ -4,10 +4,10 @@ title: データリクエスト - リクエストウィザード：ステップ 
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: ht
-source-wordcount: '364'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 リクエストウィザード：ステップ 1 のフォームでは、レポートスイート、レポートタイプ、セグメントおよび設定日を選択します。
 
-![](assets/rw1_overview.png)
+![リクエストウィザード：ステップ 1 のフォームを示すスクリーンショット。](assets/rw1_overview.png)
 
 1. **[!UICONTROL レポートスイート：]**&#x200B;ログイン中のユーザーが権限を持つレポートスイートのリストです。 [レポートスイートの選択](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を参照してください。
 

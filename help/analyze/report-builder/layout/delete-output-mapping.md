@@ -1,14 +1,14 @@
 ---
-description: ワークブック編集中に新しいリクエストの領域を確保したい場合、既存リクエストの削除が必要になることがあります。
-title: 出力マッピングの削除
+description: リクエストを削除して、新しいリクエストの領域を確保するためのワークブックの編集方法を説明します。
+title: 出力マッピングの削除方法
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 83%
 
 ---
 

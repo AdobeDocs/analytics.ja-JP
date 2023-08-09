@@ -4,10 +4,10 @@ title: 計算指標
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,13 +25,13 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 ## 計算指標のフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
-計算指標に&#x200B;**フィルターを設定**&#x200B;するには、フィルターアイコン ![](/help/admin/admin/assets/filter.png) を
+**フィルター** 計算指標を選択するには、フィルターアイコンをクリックします。  ![「アプリケーション」、「ユーザー」、「プロジェクト」の各フィールドを示すフィルターオプションのスクリーンショット。](/help/admin/admin/assets/filter.png)
 
-クリックします。アドバンスフィルターダイアログに、標準指標と計算指標の両方が入力されます。
+アドバンスフィルターダイアログに、標準指標と計算指標の両方が入力されます。
 
 次のフィルターを利用できます。
 
-![](assets/advanced_filters.png)
+![次の表に示す「詳細フィルター」オプションを示したスクリーンショット。](assets/advanced_filters.png)
 
 | フィルター名 | 説明 |
 |---|---|
@@ -47,4 +47,4 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 フィルターを選択した後、**[!UICONTROL 適用]**&#x200B;をクリックすると、リクエストに計算指標が適用されます。選択した指標がレポートのレイアウトに追加されます。
 
-![](assets/filtering_for_metric.png)
+![リクエストウィザード：ステップ 2 — サイト合計が、アドバンスフィルターウィンドウを示し、適用されたレポート指標を示したスクリーンショット。](assets/filtering_for_metric.png)

@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 71%
 
 ---
 
 # ディメンションおよび指標のユーザーアクセス権限
 
-現在、Adobe Report Builder には、Analytics 管理ツールの権限設定に似た権限設定があります。
+Adobe Report Builderには、Analytics 管理ツールの権限設定と似た権限設定があります。
 
 管理者ではないユーザーが、アクセス権を持たないディメンションおよび指標を参照したリクエストのあるワークブックを以前に作成している場合があります。このような場合、権限の設定が適用されるようになりました。
 
-例えば、アクセス権を持たないディメンションまたは指標を含むリクエストを更新すると、制限付き権限エラーが発生します。
+例えば、アクセス権のないディメンションや指標を含むリクエストを更新すると、制限付き権限エラーが表示されます。 エラーメッセージには、管理者権限が原因で、リクエストがユーザーアカウントで使用できないことが示されます。
 
-![](assets/arb_restrc_perm.png)
+![制限付き権限エラーメッセージを示すスクリーンショット。](assets/arb_restrc_perm.png)
 
 保持している&#x200B;**各** Report Builder ワークブックに対して次の手順をおこないます。
 

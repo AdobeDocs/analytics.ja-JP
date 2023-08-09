@@ -1,14 +1,14 @@
 ---
-description: レポートに名前を付けたり、行ヘッダーと列ヘッダーの表示方法を設定したりすることができます。ピボットレイアウトとカスタムレイアウトで、「フォーマットオプション」のリンクから指定できます。
-title: 表示ヘッダーのフォーマット
+description: レポートに名前を付け、行ヘッダーと列ヘッダーの表示方法を設定する方法について説明します。
+title: 表示ヘッダーのフォーマット方法
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 

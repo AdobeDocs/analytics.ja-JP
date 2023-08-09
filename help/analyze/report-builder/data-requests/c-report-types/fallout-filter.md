@@ -4,10 +4,10 @@ title: リクエストウィザードを使用したフォールアウトレポ�
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 1. 適切なレポートスイートを選択します。
 1. 左側のツリービューで、**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL ページのフォールアウト]**&#x200B;を選択します。
 
-   ![](assets/page_fallout.png)
+   ![Report Builder・ディレクトリの Windows ツリー・ビューを示すスクリーンショット。 ページのフォールアウトが選択されています。](assets/page_fallout.png)
 
 1. 適切な[日付範囲](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)を設定します。
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. ウィザードの手順 2 の「**[!UICONTROL 行ラベル]**」で、「**[!UICONTROL チェックポイントの定義]**」リンクをクリックします（フォールアウトレポートでは、パターンが事前に適用されているパスレポートとは異なり、常にパスエレメントを定義する必要があります）。
 
-   ![](assets/define_checkpoints.png)
+   ![「チェックポイントの定義」リンクを示すスクリーンショット。](assets/define_checkpoints.png)
 
 1. 「**[!UICONTROL フィルター]**」オプションを選択します。
 

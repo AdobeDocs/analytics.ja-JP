@@ -5,10 +5,10 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '110'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '119'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. 期間を分単位または時間単位で選択します。
 
-   ![手順の結果](assets/real_time_select_date.png)
+   ![「過去 60 分間」が選択された「時間範囲を選択」オプションを示すスクリーンショット。](assets/real_time_select_date.png)
 
    リアルタイムレポートは、過去 20 時間分のみ利用できます。精度については、1 分から 30 分までを選択できます。
 1. 「**[!UICONTROL 次へ]**」をクリックし、引き続き[リクエストレイアウトを設定](/help/analyze/report-builder/layout/layout.md)します。

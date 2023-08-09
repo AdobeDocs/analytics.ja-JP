@@ -4,10 +4,10 @@ title: セグメントの管理 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ Report Builder で Adobe Analytics のセグメントを追加、編集、適用
 
 Report Builder のリクエストウィザードのステップ 1 に、セグメントを作成および管理できるセグメント化パネルが追加されました。
 
-![](assets/seg_dialog.png)
+![セグメントを追加、編集またはクリアするためのセグメントオプションと、コントロール、フィルター、更新アイコンをハイライト表示したスクリーンショット。](assets/seg_dialog.png)
 
 ## セグメントの追加または編集 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 1. セグメントに含めるレポート出力項目を選択します。
 1. 右クリックして&#x200B;**[!UICONTROL 次の中にコンテキスト内セグメントを作成]**&#x200B;を選択し、適切なコンテナ（ヒット数コンテナ、訪問コンテナ、訪問者コンテナ）を指定します。
 
-   ![](assets/seg_in_context.png)
+   ![選択した使用可能なコンテナオプションでコンテキスト内セグメントを作成を示すスクリーンショット。](assets/seg_in_context.png)
 
    コンテナについて詳しくは、[セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
 
@@ -58,9 +58,9 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 1. 「**[!UICONTROL セグメント]**」ドロップダウンリストに移動し、「**[!UICONTROL セグメントを選択]**」ボックス右側の小さい下矢印をクリックして、すべてのセグメントを表示します。
 
-   ![](assets/seg_list.png)
+1. 適用するセグメントのチェックボックスをオンにします。
 
-2. 適用するセグメントのチェックボックスをオンにします。
+   ![選択したセグメントを示すスクリーンショット。](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,18 +88,20 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 1. コントロールアイコンをクリックします。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) をクリックします。
 
-   ![](assets/seg_control.png)
+1. セグメントコントロールに表示したいセグメントのチェックボックスをオンにするか、または「**[!UICONTROL すべて選択]**」チェックボックスをオンにします。
 
-2. セグメントコントロールに表示したいセグメントのチェックボックスをオンにするか、または「**[!UICONTROL すべて選択]**」チェックボックスをオンにします。
-3. 「**[!UICONTROL リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ]**」オプションも指定します。
+   ![すべてのセットメントが選択された状態でのコントロール設定ダイアログのスクリーンショット。](assets/seg_control.png)
+
+1. 「**[!UICONTROL リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ]**」オプションも指定します。
 
    * このオプションを有効にすると、このコントロールを使用するすべてのリクエストが自動で更新されます。
    * このオプションを有効にしないと、リクエストの設定は更新されますが、リクエストのデータは更新されません。
 
-4. セグメントコントロールの左上のセルの場所を指定します。
-5. 「**[!UICONTROL OK]**」をクリックすると、指定した場所にセグメントコントロールが表示されます。
+1. セグメントコントロールの左上のセルの場所を指定します。
 
-   ![](assets/seg_control2.png)
+1. 「**[!UICONTROL OK]**」をクリックすると、指定した場所にセグメントコントロールが表示されます。
+
+   ![「セグメントフィールドを選択」ドロップダウンフィールドを示すスクリーンショット。](assets/seg_control2.png)
 
 ## セグメントの一覧の更新 {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ Report Builder 5.4 を使用すると、複数のリクエストでセグメン�
 1. ワークブックで複数のリクエストを選択します。
 1. 右クリックして、**[!UICONTROL リクエストを編集]**／**[!UICONTROL セグメント別]**&#x200B;を選択します。
 
-   ![](assets/edit_by_segment.png)
+   ![「リクエストを編集」と「セグメント別」が選択されていることを示すスクリーンショット。](assets/edit_by_segment.png)
 
 1. グループを編集ダイアログで、次の 4 つのオプションのうちいずれかを選択します。
 

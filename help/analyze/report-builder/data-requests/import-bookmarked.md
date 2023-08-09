@@ -4,10 +4,10 @@ title: ブックマークされたレポートおよびダッシュボードレ�
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 リクエストウィザードの手順 1 では、次のようにダッシュボードおよびそのレポートレットが表示されます。
 
-![](assets/import_dashboard_reportlet.png)
+![リクエストウィザードを示すスクリーンショット 2 のステップ 1 では、ダッシュボードの取得とブックマークの取得をハイライトしています。](assets/import_dashboard_reportlet.png)
 
 「**[!UICONTROL ダッシュボードを取得]**」または「**[!UICONTROL ブックマークを取得]**」をクリックすると、既存のダッシュボードまたはブックマークの設定情報が取得され、リクエストウィザードの設定に反映されます。
 

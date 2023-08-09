@@ -4,10 +4,10 @@ title: 依存リクエストの追加によるパスレポートのフィルタ�
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -29,12 +29,10 @@ Report Builder ではこれらはスタンドアロンレポートとしては�
 * パス／入口パス／入口ページ
 * パス／離脱パス／出口ページ
 
-1. 既存のリクエストから複数行を選択し、右クリックして、**[!UICONTROL 依存リクエストを追加]**／**[!UICONTROL パス]**&#x200B;を選択します
+1. 既存のリクエストから複数行を選択し、右クリックして、**[!UICONTROL 依存リクエストを追加]**／**[!UICONTROL パス]**&#x200B;を選択します表示する行を 3 つ以上選択する必要があります。 **[!UICONTROL ページフォールアウト]** メニュー項目。
 
-   （**[!UICONTROL ページのフォールアウト]**&#x200B;メニュー項目を表示するには、3 行以上を選択する必要があります。）。
+   ![「依存リクエストを追加」オプションが選択された 3 つの行が表示されたスクリーンショット。](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. 「**[!UICONTROL 前のページ]**」など、事前定義済みのフィルターを選択します。
+2. 「**[!UICONTROL 前のページ]**」など、事前定義済みのフィルターを選択します。
 
    「前のページ」指標が既に選択された状態でリクエストウィザードが表示されます。1. 引き続きリクエストウィザードでリクエストを絞り込んで、リクエストを生成します。
