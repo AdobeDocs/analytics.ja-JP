@@ -3,10 +3,10 @@ title: ページイベント
 description: トリガーされたリンクトラッキングアクションの数。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 60%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 ## この指標の計算方法
 
-この指標は、レポートスイート内のすべてのリンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）をカウントします。すべてのリンクタイプが含まれます（カスタムリンク、ダウンロードリンク、離脱リンク）。ページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）は含まれません。
+この指標ではすべてをカウントします [リンクトラッキングコール (`tl()`)](/help/implement/vars/functions/tl-method.md) 」と表示されます。 すべてのリンクタイプが含まれます（カスタムリンク、ダウンロードリンク、離脱リンク）。次を含みません。 [ページビュートラッキングコール (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## 類似の指標と比較
 
-* **ページイベントと[ページビュー](page-views.md)**：ページイベントは、リンクトラッキングコールの数（`tl()`）をカウントし、ページビュートラッキングコール（`t()`）を除外します。ページビューは逆で、ページビュートラッキングコール数をカウントし、リンクを除外します。
+* **ページイベントと [ページビュー数](page-views.md)**：ページイベントは、リンクトラッキングコール数 (`tl()`) とページビュートラッキングコール (`t()`) をクリックします。 ページビューは逆で、ページビュートラッキングコール数をカウントし、リンクを除外します。
