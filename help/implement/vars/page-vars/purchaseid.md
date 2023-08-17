@@ -3,10 +3,10 @@ title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 アドビがヒットを重複購入と認識した場合、すべてのコンバージョンデータ（eVar やイベントなど）はレポートに表示されません。データフィードでは、`duplicate_purchase` 列は `1` に設定されます。
 
-購入 ID はすべての訪問者に適用され、期限は切れません。ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
+購入 ID はすべての訪問者に適用され、37 ヶ月後に期限切れになります。 ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
 ## Web SDK を使用した購入 ID
 
@@ -24,9 +24,9 @@ ht-degree: 82%
 
 ## Adobe Analytics拡張機能を使用した購入 ID
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.purchaseID
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.purchaseID
 
 `s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 
