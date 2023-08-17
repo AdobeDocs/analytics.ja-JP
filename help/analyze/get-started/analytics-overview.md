@@ -4,9 +4,9 @@ title: Adobe Analyticsの概要
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
 
    ![「ワークスペース」タブ](assets/components-tab.png)
 
-2. 次の製品機能のいずれかを選択して設定します。（権限に応じて、すべての機能が表示されない場合があります。）
+2. 次の製品の機能のいずれかを選択して設定します。
 
 
    | 製品の機能 | 関数 | 詳細情報 |
