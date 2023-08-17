@@ -3,10 +3,10 @@ title: eVar（ディメンション）
 description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -14,15 +14,19 @@ ht-degree: 97%
 
 *このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。[!UICONTROL レポートスイート設定]の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
+eVar は、好きなだけ使用できるカスタム変数です。 次の場合、 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)の場合、組織に固有のほとんどのディメンションは、 [!UICONTROL eVar]に追加され、Adobe Analyticsで使用できるデフォルトのディメンション（「ページ名」、「参照ドメイン」、「チャネル」など）が含まれます。 詳しくは、 [Dimensionの概要](overview.md) を参照してください。
+
+デフォルトでは、eVar は設定されたヒットを超えても保持されます。[レポートスイート設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)の「[!UICONTROL コンバージョン変数]」で、その有効期限と配分をカスタマイズできます。コンバージョン変数 UI のeVar定義の例については、以下を参照してください。
+
+![Evar の例](assets/evars-sample.png)
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-レポートで使用される（大文字と小文字の）区別は、バックエンドシステムが最初に登録する値に基づきます。この値は、レポートスイートに関連付けられているデータの種類や数量に応じて、ある期間（月など）で確認された初めてのインスタンスになるか、変化する可能性があります。
+レポートで使用される（大文字と小文字の）区別は、バックエンドシステムが最初に登録する値に基づきます。この値は、レポートスイートに関連付けられているデータの種類や数量に応じて、特定の期間（月など）で確認された初めてのインスタンスになるか、その期間によって変化する可能性があります。
 
 ## eVar にデータを入力する
 
-各 eVar は、イメージリクエストの [`v1` - `v250` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを収集します。例えば、`v1` クエリー文字列パラメーターで eVar1 のデータを収集し、`v222` クエリー文字列パラメーターで eVar222 のデータを収集します。
+各 eVar は、イメージリクエストの [`v1` - `v250` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを収集します。例えば、`v1` クエリ文字列パラメーターで eVar1 のデータを収集し、`v222` クエリ文字列パラメーターで eVar222 のデータを収集します。
 
 JavaScript 変数をデータ収集用のイメージリクエストにコンパイルする AppMeasurement では、変数 `eVar1` — `eVar250` を使用します。導入のガイドラインについては、『導入ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。
 
@@ -51,12 +55,12 @@ Adobe Analytics にデータを送信すると、データ収集サーバーで�
 
 | `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
 | --- | --- | --- | --- | --- |
-| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Home page` | | | |
 | `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
-| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
-| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
-| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
-| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
 * この `visitor_id` 列は、ヒットを同じ訪問者に結び付けます。実際の生データでは、`visid_high` と `visid_low` の連結値で訪問者 ID を判断します。
 * この `pagename` 列には、ページディメンションが入力されます。
