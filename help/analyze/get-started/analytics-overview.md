@@ -4,10 +4,10 @@ title: Adobe Analyticsの概要
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
-ht-degree: 41%
+source-wordcount: '5077'
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Analyticsを使用すると、組織はデータを収集し、あらゆ�
 
 Adobe Analyticsのメリットについて詳しくは、 [Adobe Analytics製品ページ](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Web 分析
++++Web 分析
 
 Adobe Analyticsは、Web サイトトラフィックを分析するための次の複雑なセグメント化および予測ツールを提供します。
 
@@ -31,7 +31,9 @@ Adobe Analyticsは、Web サイトトラフィックを分析するための次�
 
 * [高度なセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)
 
-### マーケティング分析
++++
+
++++マーケティング分析
 
 Adobe Analyticsは、顧客がブランドとどこでやり取りするか、顧客が好むチャネルやどのエクスペリエンスが共感を呼ぶかを把握するのに役立ちます。
 
@@ -43,14 +45,18 @@ Adobe Analyticsの次の主な機能は、これらのマーケティング機�
 
 * [Analysis Workspaceでの Ad Hoc Analysis](/help/analyze/analysis-workspace/home.md)
 
-### アトリビューション
++++
+
++++アトリビューション
 
 アトリビューションを使用すると、組織は、カスタマージャーニー全体を通じて様々なインタラクションがコンバージョンに与える影響を確認できます。 Adobe Analyticsのアトリビューションは、線形モデルやファーストタッチモデルなど、より従来のアトリビューションオプションを提供するだけでなく、機械学習と高度な統計モデルを使用して、各タッチの正確な影響を把握します。
 
 詳しくは、 [アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### 予測分析
+
++++予測分析
 
 予測分析では、機械学習と高度な統計モデリングを使用して、顧客データの分析、パターンの検索、将来の行動（チャーンやコンバージョンの可能性など）の予測をおこないます。 これにより、データアナリストは、無駄になる可能性のある膨大なデータセットを活用できます。
 
@@ -61,6 +67,8 @@ Adobe Analyticsの次の主な機能は、次の予測機能を提供します�
 * [貢献度分析](#contribution-analysis)
 
 * [インテリジェントアラート](#intelligent-alerts)
+
++++
 
 ## Adobe Analytics使用の前提条件
 
@@ -78,9 +86,13 @@ Adobe Analyticsを使用する前に、次が必要です。
 
 ## Analytics インターフェイスについて
 
-Adobe Analyticsインターフェイスは、次の主な領域で構成されています。
+Adobe Analyticsインターフェイスは、Analysis Workspaceでのプロジェクトの管理、コンポーネント、ツールおよび管理者機能の管理のためのタブなど、次の主要な領域で構成されています。
 
-### 「ワークスペース」タブ
+![「ワークスペース」タブ](assets/landing-all2.png)
+
+以下の節で、Analysis Workspaceの各領域について説明します。
+
++++「Workspace」タブ
 
 The [!UICONTROL Workspace] タブには、 [!UICONTROL プロジェクト] 領域はデフォルトで表示されます。この領域には、会社フォルダ、自分で作成した個人用フォルダ、プロジェクト、モバイルスコアカードが表示されます。
 
@@ -90,13 +102,17 @@ The [!UICONTROL Workspace] タブには、 [!UICONTROL プロジェクト] 領�
 
 で使用できる機能の詳細については、 [!UICONTROL Workspace] タブ、詳しくは、 [Adobe Analytics Landing page](/help/analyze/landing.md).
 
-### 「レポート」タブ
++++
+
++++「レポート」タブ
 
 2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。
 
 代わりに、 [!UICONTROL **レポート**] の左側のパネルの [!UICONTROL **Workspace**] タブをクリックします。 詳しくは、 *「レポート」タブに移動します。* in [Adobe Analytics Landing page](/help/analyze/landing.md).
 
-### 「コンポーネント」タブ
++++
+
++++「コンポーネント」タブ
 
 The [!UICONTROL コンポーネント] タブには、データの分析を微調整したり、活用したりするのに役立つ機能が含まれています。
 
@@ -128,7 +144,9 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
 
    {style="table-layout:auto"}
 
-### 「概要」タブ
++++
+
++++「ツール」タブ
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
 
    {style="table-layout:auto"}
 
-### 「管理者」タブ
++++
+
++++「管理者」タブ
 
 「管理」タブには、Adobe Analyticsを管理するための機能と設定オプションが含まれています。
 
@@ -194,7 +214,9 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace では、分析をすばやく作成してインサイトを収集し、他のユーザーと共有できます。ドラッグ＆ドロップのブラウザーインターフェイスを使用して、分析の作成、データを活用するためのビジュアライゼーションの追加、データセットのキュレーション、選択した任意のユーザーとのプロジェクトの共有とスケジュールを行うことができます。
 
@@ -210,6 +232,8 @@ Analysis Workspaceの詳細については、 [Analysis Workspaceの概要](/hel
 | B | **左パネル：**&#x200B;左端のパネルで選択したタブに応じて、この領域には個々のパネル、ビジュアライゼーションまたはコンポーネントが含まれます。 |
 | C | **キャンバス：**&#x200B;これは、左パネルからコンテンツをドラッグしてプロジェクトを作成する主な領域です。パネル、ビジュアライゼーションおよびコンポーネントをキャンバスに追加すると、プロジェクトは動的に更新されます。 |
 | D | **レポートスイートのドロップダウンメニュー：** Analysis Workspace の各パネルでは、レポートスイートのドロップダウンメニューを使用して、データソースとして使用するレポートスイートを選択できます。 |
+
++++
 
 ## 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 
