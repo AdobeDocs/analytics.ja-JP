@@ -4,33 +4,33 @@ description: 現在の Adobe Analytics リリースノートを表示します�
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# 現在の Adobe Analytics リリースノート (2023年8月)
+# 現在の Adobe Analytics リリースノート（2023年8月）
 
 **最終更新日**：2023年8月9日（PT）
 
-これらのリリースノートでは、8 月 9 日から 2023 年 9 月 13 日のリリース期間を扱っています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
+このリリースノートは、2023年8月9日～9月13日（PT）のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しをおこなうためのAdobe Analytics API 2.0 メソッドが用意されています。 | 該当なし | 2023年8月31日（PT） |
-| **レポートアクティビティマネージャー** | レポートアクティビティマネージャーは、管理者に各レポートスイートのレポート消費状況を詳細に表示し、管理者がピークレポート時に容量の問題を簡単に診断し、修正できるようにします。 [詳細情報](/help/admin/admin/reporting-activity.md) | 該当なし | 2023 年 9 月 7 日 |
+| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。 | 該当なし | 2023年8月31日（PT） |
+| **レポートアクティビティマネージャー** | レポートアクティビティマネージャーでは、管理者は各レポートスイートのレポートの使用状況を詳細に把握できるので、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。[詳細情報](/help/admin/admin/reporting-activity.md) | 該当なし | 2023年9月6日（PT） |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics の修正点
 
-* カスタムイベントが読み込まれない問題を修正しました。 （AN-324163）
-* ビジュアライゼーションの凡例のラベルを編集できない問題を修正しました。 （AN-323246）
+* カスタムイベントが読み込まれない問題を修正しました。（AN-324163）
+* ビジュアライゼーションの凡例のラベルを編集できない問題を修正しました。（AN-323246）
 
-AN-315605、AN-316306、AN-317494、AN-317844、AN-320424、AN-320680、AN-320869、AN-321624、AN-321693、AN-322009、AN-322244、AN-AN-322466AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN AN AN AN AN AN    AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN      
+AN-315605、AN-316306、AN-317494、AN-317844、AN-320424、AN-320597、AN-320680、AN-320869、AN-321624、AN-321693、AN-322009、AN-322244、AN-322380、AN-322432、AN-322466、AN-322556、AN-322669、AN-322735、AN-323151、AN-323220、AN-323380、AN-323492、AN-323595、AN-323755、AN-323854、AN-323916、AN-324044、AN-324200、AN-324213、AN-324238、AN-324347、AN-323598、AN-323625、AN-323631、AN-323638、AN-323641、AN-323755、AN-323767、AN-323777、AN-323825、AN-323846、AN-323972、AN-324113、AN-324170、AN-324197、AN-324273、AN-324275、AN-324345、AN-324384、AN-324433、AN-324511、AN-324513、AN-324521、AN-324524、AN-324531、AN-324532、AN-324534、AN-324537、AN-324569、AN-324618、AN-324635、AN-324688、AN-324704、AN-324712、AN-324721、AN-324745、AN-324792、AN-324793、AN-324794、AN-324795、AN-324824、AN-324905、AN-324918、AN-324932、AN-324934、AN-324947、AN-325003、AN-325073、AN-325143、AN-325148、AN-325153、AN-325177、AN-325187、AN-325252、AN-325305、AN-325363、AN-325401、AN-325439、AN-325431、AN-325491、AN-325495、AN-325508、AN-325594、AN-325601、AN-325660、AN-325779、AN-325857、AN-325883、AN-325885、AN-325886
 
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
