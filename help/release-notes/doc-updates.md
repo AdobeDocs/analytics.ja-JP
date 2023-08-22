@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4940'
-ht-degree: 99%
+source-wordcount: '4954'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年8月** | |
+| Experience Edge データの処理 | Adobe Analyticsの内容を追加しました [は、Experience Edge からのデータを処理します](../implement/aep-edge/overview.md). |
 | メディア再生滞在時間パネル | 次の更新済みコンテンツ：  [メディア再生時間滞在パネル](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 可読性を向上させる。 |
 | スケジュール済みプロジェクトの管理に関する内容を移動しました。 | Analytics コンポーネントガイドに、 [スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md). このコンテンツは、以前は [プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 記事を参照してください。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。[詳細情報](../implement/prepare/comparison.md) |
