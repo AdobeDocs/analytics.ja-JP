@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
 workflow-type: tm+mt
-source-wordcount: '4924'
+source-wordcount: '4940'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年8月** | |
+| メディア再生滞在時間パネル | 次の更新済みコンテンツ：  [メディア再生時間滞在パネル](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 可読性を向上させる。 |
 | スケジュール済みプロジェクトの管理に関する内容を移動しました。 | Analytics コンポーネントガイドに、 [スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md). このコンテンツは、以前は [プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 記事を参照してください。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。[詳細情報](../implement/prepare/comparison.md) |
 | データフィード用の SFTP を設定する際、アドビカスタマーケアが必要ないことを明記しました | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨しなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
