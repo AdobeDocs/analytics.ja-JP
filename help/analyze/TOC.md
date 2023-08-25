@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
+source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + Adobe Analytics の基本を学ぶ {#admin-overview}
    + [Analytics の概要](get-started/analytics-overview.md)
+   + [はじめに（ロール別）](get-started/get-started-by-role.md)
+   + [Analytics インターフェイスについて](get-started/analytics-interface.md)
+   + [ユースケース](get-started/use-cases.md)
    + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
    + [必要システム構成](get-started/sys-reqs.md)
