@@ -4,18 +4,24 @@ title: 管理者、アナリスト、エンドユーザーおよび開発者向�
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1901'
 ht-degree: 34%
 
 ---
 
 # 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 
-一般的な組織には、管理者、アナリスト、エンドユーザーの 3 種類のAdobe Analyticsユーザーがあります。
+一般的な組織には、Adobe Analyticsユーザーに次の 4 つのタイプがあります。
 
-管理者はAdobe Analyticsを実装および設定します。アナリストはAnalysis Workspaceを使用してプロジェクトを設定し分析を作成し、エンドユーザーは独自の分析を作成するか、アナリストと協力して顧客に関する実用的なインサイトを得ます。
+* **管理者：** Adobe Analyticsの実装と設定
+
+* **アナリスト：** Analysis Workspaceを使用したプロジェクトの設定と分析の作成
+
+* **エンドユーザー：** 独自の分析を作成するか、アナリストと協力して顧客に関する実用的なインサイトを得る
+
+* **開発者：** Adobe Analytics 2.0 API を使用して、Adobeのサーバーを直接呼び出し、調査するレポートの作成、インサイトの取得、データに関する重要な質問への回答など、ユーザーインターフェイスで実行できるほとんどの操作を実行します。
 
 以下の情報では、各ユーザーがAdobe Analyticsを使い始める方法の概要を説明します。
 
@@ -68,13 +74,13 @@ Analytics 管理者は、組織内のユーザーがAdobe Analyticsを使用で�
 | 権限の定義 | Analytics 管理者は、Adobe Analytics、レポートスイートツールおよび Analytics ツール用のAdmin Consoleで製品プロファイルを割り当てる必要があります。 | [Admin Console での Analytics 権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=ja) |
 | レポートスイートの設定と会社の設定の定義 | レポートスイートは、Adobe Analyticsがレポートの生成に使用するデータのサイロです。<p>管理者が [仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) を追加して、さらにセグメントデータを取得します。</p> | <ul><li>[レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[カンパニー設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | データのインポート | Adobe Analyticsのデータソースを使用すると、追加のオンラインまたはオフラインデータをレポート用にインポートできます。 | [データソースの概要](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| 分類でデータを分類する | 分類を使用すると、変数をより有効に利用するためにデータを分類でき、1 つの変数により多くのコンテンツを含めることができます。 | |
+| 分類でデータを分類する | 分類を使用すると、変数をより有効に利用するためにデータを分類でき、1 つの変数により多くのコンテンツを含めることができます。 | [分類の概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja) |
 | コンポーネントの管理 | 各コンポーネントタイプのデータディクショナリと管理領域を使用して、Analytics の実装で使用可能なコンポーネント、および組織で承認されるコンポーネントを定義します。<p>これは、組織内でコンポーネントが効果的に使用されるようにする継続的なアクティビティです。 </p> | <ul><li>[データ要素の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=ja)</li><li>[計算指標マネージャー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[セグメントの管理](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja)</li><li>[Analysis Workspace でカスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja)</li></ul> |
 | 異常値の検出 | 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。 | [異常値検出の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja) |
 | 貢献度分析 | 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。 | [貢献度分析のトークン - 概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja) |
 | Analytics のセグメント化 | Analytics 機能、Adobe Experience Cloud、Adobe Targetおよびその他の統合Adobe製品を使用して、強力で重要な閲覧者セグメントを作成、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja) |
-| オーディエンスをAudience Managerに公開 | | |
-| 統合 | Adobe Analyticsの他のアプリケーションから情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja">Media Analytics</a></li> | |
+| オーディエンスをAudience Managerに公開 | Adobe Audience Managerは、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを構築するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) |
+| 統合 | Adobe Analyticsの他のアプリケーションから情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja">Media Analytics</a></li> | [Analytics の統合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=ja) |
 
 {style="table-layout:auto"}
 

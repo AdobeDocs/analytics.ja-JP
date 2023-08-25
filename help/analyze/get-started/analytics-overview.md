@@ -4,9 +4,9 @@ title: Adobe Analyticsの概要
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 47%
 
 ---
@@ -22,8 +22,8 @@ Adobe Analyticsの基本を学ぶには、次のリソースを使用します�
 
 | ドキュメントリソース | 関数 |
 |---------|----------|
-| [はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md) | 管理者、アナリスト、エンドユーザー、開発者のどちらであるかに関わらず、認識する必要がある主な機能とタスクを説明する詳細情報を提供します。 |
-| [Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md) | Analytics インターフェイスの主な領域を分類します。 |
+| [はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md) | 管理者、アナリスト、エンドユーザー、開発者のどちらであるかに関わらず、認識する必要がある主な機能とタスクについて詳しく説明します。 |
+| [Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md) | Analytics インターフェイスの主な領域の概要を説明します。 |
 | [使用例](/help/analyze/get-started/use-cases.md) | Adobe Analyticsが、顧客に対する貢献を促進するために組織が重要なインサイトを得るのに役立つ主な方法のいくつかを説明します。 |
 | [使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md) | 各 Adobe Analytics ツールの推奨される使用例を紹介しています。 |
 | [Analytics 製品の比較と必要システム構成](/help/analyze/get-started/analytics-product-comparison.md) | 使用可能な様々なAdobe Analytics製品を比較します。 |

@@ -4,10 +4,10 @@ title: Analytics インターフェイスについて
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 47%
+source-wordcount: '2816'
+ht-degree: 46%
 
 ---
 
@@ -82,8 +82,8 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
    | Data Warehouse | Data Warehouse は、データをフィルタリングして、保存用およびカスタムレポート用の Analytics データのコピーを参照できます。 <p>リクエストマネージャーを使用して、リクエストの表示、複製、優先順位の再設定をおこなうことができます。</p> | [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map | Activity Mapは、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページのオーディエンスのエンゲージメントを監視するためのリアルタイム分析のダッシュボードを提供するように設計されています。 様々なビューを設定して、顧客アクティビティの加速度を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応できます。 | [Activity Map の概要](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja) |
    | Recommendations Classic | Recommendationsは、以前のユーザーアクティビティ、環境設定、その他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービス、コンテンツを自動的に表示するAdobe Targetの機能です。 | [推奨事項](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
-   | Search&amp;Promote |  |  |
-   | Mobile Services |  |  |
+   | Search&amp;Promote | この機能はサポートされなくなりました。 |  |
+   | Mobile Services | この機能はサポートされなくなりました。 |  |
    | Analytics ダッシュボード（モバイルアプリ） | Adobe Analyticsダッシュボードアプリは、Adobe Analyticsからの洞察をいつでもどこでも提供します。 アプリを通じて、Adobe Analytics Desktop UI を使用して作成した直感的なスコアカードを表示できます。 | iOS App StoreまたはGoogle PlayストアのAdobe Analyticsダッシュボードアプリ |
    | Report Builder | Adobe Report Builder は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder とは](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja) |
 
@@ -106,7 +106,7 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
    | ユーザー管理ホーム（レガシー） | ユーザーと製品の管理は Adobe Admin Console に移動しました。Adobe Admin Consoleを使用して、Adobe Analyticsユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | グループ（レガシー） | グループ管理がAdobe Admin Consoleに移動しました。 Adobe Admin Consoleを使用して、Adobe Analyticsのグループ管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | レポートスイートへのアクセス | レポートスイートツールへのアクセス権を付与する方法は、Adobe Admin Consoleに移動しました。 Adobe Admin Consoleを使用して、Adobe Analyticsユーザーにレポートスイートへのアクセス権を付与します。 | [レポートスイートツールの製品プロファイル権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
-   | 管理ツールホーム |  |  |
+   | 管理ツールホーム | Analytics 管理ツール領域は、Adobe Analyticsインスタンスを管理するための主な領域です。この領域では、ほとんどの管理タスクを実行できます。 | [管理ツールの概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=en) |
    | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
    | Analytics ユーザーおよびアセット | ユーザーとアセットの管理がAdobe Admin Consoleに移動しました。 Adobe Admin Consoleを使用して、Adobe Analyticsユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
@@ -119,7 +119,7 @@ The [!UICONTROL コンポーネント] タブには、データの分析を微�
    | Advertising Analytics | すべてのGoogleおよび Bing 有料検索データを並べて表示するようにAdobe Analyticsを設定します。 | [Advertising Analyticsの設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
    | データフィード | データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 | [Analytics データフィードの概要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) |
    | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。 | [IP アドレスで除外](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 発行ウィジェット |  |  |
+   | 発行ウィジェット | Web ページに Reports &amp; Analytics のビジュアライゼーションを埋め込むことができます。 <p>2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。</p><p>この機能の代わりに、次の操作を実行できます。 [誰かの中でプロジェクトを共有する](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja#share-public-link) ログインが不要な場合に、</p> <p>管理者は、 [会社の環境設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ja#company-preferences)</p> |  |
    | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポート消費に関する詳細な可視性を提供し、ピーク時のレポート作成時に容量の問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
    | データガバナンスプライバシーのラベル付け | レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。 | [レポートスイートのデータのラベル設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
    | カンパニー設定ホーム | カンパニー設定ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。 | [カンパニー設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en) |
