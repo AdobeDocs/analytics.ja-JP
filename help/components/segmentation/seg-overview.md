@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 69%
 - [セグメントマネージャ](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
 - フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。
 - [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
-- この [!UICONTROL ページビュー] コンテナが [!UICONTROL ヒット] コンテナを使用して、このコンテナが、ページビューだけでなく、すべてのタイプのデータをセグメント化することを示します。 例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。
+- The [!UICONTROL ページビュー] コンテナが [!UICONTROL ヒット] コンテナを使用して、このコンテナが、ページビューだけでなく、すべてのタイプのデータをセグメント化することを示します。 例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。
 
 ## Analysis Workspaceでのセグメント化
 
@@ -124,7 +124,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 - 比較の[ディメンションとしてセグメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)を使用できます。
 - [フォールアウト分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)でセグメントを使用できます。
 
-## Adobe提供のセグメント
+## Adobeが提供するセグメント
 
 画面の左側のコンポーネントレールには、ユーザーとその会社およびAdobeが作成した、初期設定で用意されているセグメントが表示されます。 クリック時 **[!UICONTROL すべて表示]**&#x200B;に含まれていない場合、通常、これらのセグメントはリストの下部に表示され、右側のAdobeロゴで識別されます。
 
@@ -140,8 +140,8 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 次のヒット値に基づく順次セグメントを定義できます。
 
-- ページヒットのシーケンスに基づく訪問者：単一の訪問内のページビュー、個別訪問間のページビュー、ページビューを除外した訪問。
-- ページビュー間およびページビュー後の時間に基づく訪問者：制限時間後、ヒット間、イベント後。
+- ページヒット順序に基づく訪問者 — 単一の訪問内のページビュー、個別訪問間のページビュー、ページビューを含まない訪問。
+- ページビュー間またはページビュー後の時間に基づく訪問者：制限時間後、ヒット間、イベント後。
 
 <table style="table-layout:fixed; border: none;">
 
@@ -239,7 +239,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 このビデオでは、セグメントコンテナの概要と使用方法を簡単に説明します。
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## セグメントツールにアクセスする {#access}
@@ -252,7 +252,7 @@ Analysis Workspaceには、次の追加機能が含まれています。
 
 - セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![「追加」ボタン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-    または
+   または
 
 - セグメントマネージャ内で既存のセグメントタイトルをクリックし、そのセグメントをセグメントビルダーで編集します。
 
