@@ -3,10 +3,10 @@ description: 以下の表に、Analysis Workspace、Reports & Analytics、Report
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 97%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 100%
 | **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○（プロジェクトと VRS） | × | × | × | × | × | ○（VRS のみ） |
 | **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | ○ | ○ | × | ○ | × | × |
 | **配信予定** | ○ | ○ | ○ | ○ | × | ○ | × |
-| **配信先** | 電子メール | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 電子メール、 FTP.SFTP、Azure Blob、Amazon S3 など、追加の宛先サポートについては、カスタマーケアにお問い合わせください。 | - | FTP、SFTP、Azure Blob、Amazon S3 | - |
+| **配信先** | 電子メール | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 電子メール、 FTP.SFTP、Azure Blob、Amazon S3 など、追加の宛先サポートについては、カスタマーケアにお問い合わせください。 | - | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
 | **VRS レポートの時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | ○ | × | × | × | × | × | ○ |
