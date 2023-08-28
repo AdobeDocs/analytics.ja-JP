@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '4954'
+source-wordcount: '4991'
 ht-degree: 98%
 
 ---
@@ -26,9 +26,10 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年8月** | |
+| データフィードの明確化 | 更新済み [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md) 履歴データのデータフィードを処理する際に、データを収集している過去の任意の日付に開始日を設定できることを明確にするため。 |
 | Experience Edge データの処理 | Adobe Analyticsの内容を追加しました [は、Experience Edge からのデータを処理します](../implement/aep-edge/overview.md). |
-| メディア再生滞在時間パネル | 次の更新済みコンテンツ：  [メディア再生時間滞在パネル](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 可読性を向上させる。 |
-| スケジュール済みプロジェクトの管理に関する内容を移動しました。 | Analytics コンポーネントガイドに、 [スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md). このコンテンツは、以前は [プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 記事を参照してください。 |
+| メディア再生滞在時間パネル | 読みやすさを向上させるために、[メディア再生滞在時間パネル](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)のコンテンツを更新しました。 |
+| スケジュールされたプロジェクトの管理に関するコンテンツの移動 | Analytics コンポーネントガイドに[スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md)という新しい記事を作成しました。このコンテンツは、以前は Analytics ツールガイドの[プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)という記事に記載されていました。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。[詳細情報](../implement/prepare/comparison.md) |
 | データフィード用の SFTP を設定する際、アドビカスタマーケアが必要ないことを明記しました | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨しなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
 | ストリーミングメディアのドキュメントの改善 | ストリーミングメディアに関して、次のドキュメントを改善しました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)を更新しました。また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ja)および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ja)に固有の前提条件を追加しました。また、[一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ja)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ja)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)領域の記事の内容と構成を合理化しました。これに、Edge の実装および Analytics のみの実装別の実装の分類を含めました。</li><li>[トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ja)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
