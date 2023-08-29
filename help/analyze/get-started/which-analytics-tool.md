@@ -4,9 +4,9 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 >[!IMPORTANT]
 >
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja)** は以下の場合に使用します。
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja)** は以下の場合に使用します。
 
 * 予測、統計的モデリング（傾向スコアリング、クラスタリング、相関関係など）。
 * 待ち時間分析（イベント前後の時間）。
@@ -44,10 +44,10 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 >[!IMPORTANT]
 >
->Data Workbenchの詳細 [提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+>詳しくは、Data Workbench の[提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。
 
 
-## Adobe Analytics へのデータのインポート {#import}
+## Adobe Analytics へのデータの読み込み {#import}
 
 **[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
 
