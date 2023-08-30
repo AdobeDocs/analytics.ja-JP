@@ -1,17 +1,18 @@
 ---
-description: Adobe Analyticsに関する一般的な概要情報（Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザーおよび開発者向けの入門情報を含む）です。
-title: Adobe Analyticsの概要
+description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する一般的な概要情報です。
+short-description: アナリスト、エンドユーザー、管理者向けの主な機能、一般的な使用例、最初の手順について説明します。
+title: Adobe Analytics の概要
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 47%
+source-wordcount: '461'
+ht-degree: 77%
 
 ---
 
-# Adobe Analyticsの概要
+# Adobe Analytics の概要
 
-Adobe Analyticsを使用すると、組織はデータを収集し、あらゆるデジタル顧客インタラクションから実用的なインサイトを得ることができます。 詳細な分析、汎用性の高いレポート作成、予測インテリジェンスにより、組織は顧客に対するより優れたエクスペリエンスを構築するために必要な洞察力に富んだ基盤を提供します。
+Adobe Analytics を使用すると、組織はデータを収集し、デジタル顧客インタラクションから実用的なインサイトを取得できます。詳細な分析、汎用性の高いレポート、予測インテリジェンスにより、組織は顧客により優れたエクスペリエンスを作成するために必要なインサイトに満ちた基盤を取得できます。
 
 ## Adobe Analytics の基本を学ぶ
 
@@ -29,17 +30,17 @@ Adobe Analyticsの基本を学ぶには、次のリソースを使用します�
 
 ## ビデオの概要
 
-Adobe Analyticsの基本を学ぶには、こちらをご覧ください *Adobe Analyticsの概要 — スキルビルダーウェビナー* ビデオ。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。このビデオでは、データを作成、デプロイ、収集および解釈するための基礎を提供し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供します。
+Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトと推奨事項を提供できるようにします。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 使用するツールに関する質問については、[使用する Adobe Analytics ツールの検討](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ja)を参照してください。
 
-## Customer Journey Analytics
+## Customer Journey Analytics でさらに前進
 
 Customer Journey Analytics は、Adobe Experience Platform からのデータと共に Analysis Workspace の機能を使用できるアドビの次世代 Analytics ソリューションです。数年分のデータを分類、フィルタリング、クエリ、視覚化でき、あらゆる種類のデータスキーマやデータの種類を保持できる Platform の機能と組み合わせることができます。
 
-Adobe Analyticsと比較した場合のCustomer Journey Analyticsの利点の一部を次に示します。
+Adobe Analytics と比較した場合の Customer Journey Analytics の利点の一部を以下に示します。
 
 * **変数とイベントは無制限**：eVar、prop、イベントの概念は存在しなくなりました。データは主にディメンションと指標に焦点を当てています。データセットには、無制限の数の一意のディメンションと指標を含めることができます。
 
@@ -49,5 +50,5 @@ Adobe Analyticsと比較した場合のCustomer Journey Analyticsの利点の一
 
 * **クロスレポートスイートデータ**：複数のデータセットからの既存の実装を Platform で組み合わせることができます。
 
-詳しくは、 [Customer Journey Analyticsの概要](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja).
+詳しくは、[Customer Journey Analytics の概要](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja)を参照してください。
 
