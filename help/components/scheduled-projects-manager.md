@@ -2,10 +2,10 @@
 description: 組織全体の予定レポートを表示および管理します。
 title: スケジュール済みプロジェクトマネージャー
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 86%
 
 ---
 
@@ -13,9 +13,19 @@ ht-degree: 100%
 
 スケジュールされた Analysis Workspace プロジェクトは、**Analytics／コンポーネント／スケジュールされたプロジェクト**&#x200B;で管理できます。
 
-スケジュールされたプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除できます。検索バーまたは左側のパネルのフィルターオプションを使用して、スケジュールを検索します。[!UICONTROL タグ]、[!UICONTROL 所有者]、[!UICONTROL お気に入り]などでフィルタリングできます。
+スケジュール済みプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除できます。
 
-![](assets/scheduled-project-manager2.png)
+* ファイルタイプの変更 (.csv またはPDF)
+* プロジェクトの説明を更新
+* 受信者を追加または削除
+* 頻度を変更
+
+スケジュール済みプロジェクトを変更するには
+
+1. 選択 **Analytics /コンポーネント/スケジュール済みプロジェクト**.
+1. 検索バーまたは左側のパネルのフィルターオプションを使用して、スケジュールを検索します。[!UICONTROL タグ]、[!UICONTROL 所有者]、[!UICONTROL お気に入り]などでフィルタリングできます。
+
+![「使用可能な列」節で説明したタイトル、所有者、タグ、配信先の列、およびその他の列を示す列を含む、スケジュール済みプロジェクトのリストを示すスクリーンショット。](assets/scheduled-project-manager2.png)
 
 ## 使用可能な列
 

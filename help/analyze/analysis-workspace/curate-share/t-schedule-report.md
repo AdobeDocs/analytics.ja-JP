@@ -1,20 +1,20 @@
 ---
-description: 電子メールを使用して Analysis Workspace を送信したり Analysis Workspace の配信をスケジュールしたりします。
+description: E メールを使用してAnalysis Workspaceプロジェクトを送信するか、E メールの配信をスケジュールします。
 keywords: Analysis Workspace
 title: プロジェクトのスケジュール
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # プロジェクトのスケジュール
 
-Workspace の&#x200B;**共有**&#x200B;メニューから、選択した受信者に電子メールで Analysis Workspace プロジェクトを送信できます。ファイルは CSV 形式または PDF 形式で送信できます。
+ワークスペースから **共有メニュー**&#x200B;を使用すると、選択した受信者に電子メールを使用してAnalysis Workspaceプロジェクトを送信できます。 ファイルは CSV 形式または PDF 形式で送信できます。スケジュール済みプロジェクトを共有した後、スケジュール済みプロジェクトマネージャを使用して、スケジュール設定を編集し、頻度、受信者リスト、またはファイルタイプを変更できます。
 
 ## ファイルを今すぐ送信
 
@@ -47,6 +47,14 @@ Workspace の&#x200B;**共有**&#x200B;メニューから、選択した受信�
 
 ## スケジュール済みプロジェクトの管理
 
-スケジュールされた Analysis Workspace プロジェクトは、 **Analytics／コンポーネント／スケジュールされたプロジェクト** で管理できます。
+スケジュール済みプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除できます。
+
+* ファイルタイプの変更 (.csv またはPDF)
+* プロジェクトの説明を更新
+* 受信者を追加または削除
+* 頻度を変更
+
+
+スケジュールされた Analysis Workspace プロジェクトは、**Analytics／コンポーネント／スケジュールされたプロジェクト**&#x200B;で管理できます。
 
 詳しくは、 [スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md)
