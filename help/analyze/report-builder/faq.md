@@ -1,13 +1,13 @@
 ---
-title: Report Builder の FAQ
-description: Report Builder に関するよくある質問です。
+description: Report Builderに関するよくある質問の詳細。
+title: Report Builderの FAQ
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 93%
+source-wordcount: '421'
+ht-degree: 91%
 
 ---
 

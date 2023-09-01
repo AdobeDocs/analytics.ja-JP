@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ディメンションに対して、フィルターを設定できます。フィルターによって、表示されるディメンションのデータが絞り込まれます。フィルターは、ピボットレイアウトまたはカスタムレイアウトで適用できます。ピボットレイアウトからディメンションフィルターを設定する際は、さらにセルから表示エントリ数を指定できます。
 
-選択されたフィルターフォームに、Report Builder リクエストで選択されたエレメントおよび指標に基づいて値が入力されます。
+選択したフィルターフォームに、選択リクエストで選択した要素および指標に基づいてReport Builderが入力されます。
 
 ## フィルターの定義 - 値と特殊文字 {#section_15840216A4044C40974945FAA435AD93}
 

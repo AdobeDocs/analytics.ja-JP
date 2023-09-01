@@ -4,10 +4,10 @@ title: セグメントの管理 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
 >[!NOTE]
 >
->Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
+>Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builderセッションはアクティブなままになります。 ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
 1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)」を参照してください。
@@ -47,7 +47,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
-1. Report Builder に戻り、更新アイコンをクリックして、セグメントの一覧を更新します。
+1. Report Builderに戻り、更新アイコンをクリックして、セグメントのリストを更新します。
 1. これで、このセグメントを適用する準備が整いました。
 
 ## セグメントの検索および適用 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 |---|---|
 | タグ | タグでセグメントをフィルターできます。タグフィルターでは、AND 演算子が使用されます。2 つのタグのチェックボックスをオンにすると、右側のペインに、**両方の**&#x200B;タグが付けられているセグメントが表示されます。 |
 | 所有者 | セグメントを所有者でフィルタリングできます。所有者フィルターでは、OR 演算子が使用されます。2 人の所有者のチェックボックスをオンにすると、右側のペインに、**いずれかの**&#x200B;所有者が所有するセグメントが表示されます。 |
-| その他のフィルター／「*レポートスイート名*」のみ | [!DNL marketing reports & analytics] のセグメントビルダーで「*レポートスイート名*」のみのフィルターを適用し、[!DNL report builder] のアドバンスフィルターを表示すると、アドバンスフィルターには選択されたレポートスイートのセグメントのみが表示されます。 |
+| その他のフィルター／「*レポートスイート名*」のみ | [!DNL marketing reports & analytics] のセグメントビルダーで「*レポートスイート名*」のみのフィルターを適用し、[!DNL Report Builder] のアドバンスフィルターを表示すると、アドバンスフィルターには選択されたレポートスイートのセグメントのみが表示されます。 |
 | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
 | その他のフィルター／自分と共有 | 自分と共有されているすべてのセグメントが表示されます。 |
 | その他のフィルター／お気に入り |  お気に入り. |

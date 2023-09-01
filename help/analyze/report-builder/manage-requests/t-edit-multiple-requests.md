@@ -1,14 +1,14 @@
 ---
-description: 同時に複数のリクエストを編集し、レポートスイート、精度や日付範囲を変更することができます。
-title: 複数のリクエストの編集
+description: 複数のリクエストを同時に変更する方法を説明します。
+title: 複数のリクエストの編集方法
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 95%
    * **セグメント別**：セグメント名に基づいてリクエストをグループ化します。
 
       * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。セグメントを追加するには、「**[!UICONTROL グループの編集]**」をクリックして、[!UICONTROL グループの編集]パネルからセグメントを選択します。
+
    * **指標別：**「[複数のリクエストにわたる指標の編集](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)」を参照してください。
 
    * **日付範囲と精度：**&#x200B;日付範囲および時間精度別にリクエストの表示をグループ化します。
    * **グループ：**&#x200B;グループ化されたリクエストのセット別にリクエストの表示をグループ化します。
-
 
 1. [!UICONTROL 複数のリクエストを編集]フォームで、「**[!UICONTROL OK]**」をクリックします。
 

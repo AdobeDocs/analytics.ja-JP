@@ -1,14 +1,14 @@
 ---
-description: 時刻やファイル形式を指定してレポートをスケジュール送信できます。
-title: データリクエストのスケジュール設定
+description: レポートのスケジュール方法を説明します。
+title: データリクエストのスケジュール方法
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ ht-degree: 100%
 > * スケジューラーが依存する&#x200B;**ダウンストリームサービスの問題**&#x200B;は、ワークブックの配信にも影響を与える可能性があります。例えば、API を使用して独立してワークブックを実行し、API リクエストキューがいっぱいになってしまうと、そのリソースを争っている間にスケジュールされたワークブックの配信が遅れる可能性があります。
 > * **レポートスイートの遅延**（データ収集の遅延）によっても、スケジュールされた一部のワークブックが遅延する可能性があります。
 
-
 ## ワークブックのスケジュール設定
 
 1. ワークブックを作成して保存します。
 1. Report Builder ツールバーで、「**[!UICONTROL スケジュール]**」をクリックします。
 
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
-1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規作成]**」をクリックします。
-1. 基本のスケジュールウィザードに、次のように表示されます。
+1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規作成]**」をクリックします。基本のスケジュールウィザードには、予定レポートの定義に使用するオプションが表示されます。
 
-   ![](assets/simple-schedule-wizard.png)
+   ![基本的なスケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
 
 1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 
@@ -80,4 +78,4 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 終了]**」をクリックします。
 
-   [スケジュールされたタスクマネージャー](/help/analyze/report-builder/r-arb-scheduled-reports.md)に予定ワークブックが表示されます。
+   [スケジュールされたタスクマネージャー](/help/analyze/report-builder/r-arb-scheduled-reports.md)予定ワークブックが Report Builder に表示されます。

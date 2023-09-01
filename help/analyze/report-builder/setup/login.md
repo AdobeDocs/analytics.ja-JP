@@ -5,10 +5,10 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 48%
+source-wordcount: '251'
+ht-degree: 33%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 48%
 
 Report Builderにログインするには、Experience Cloudログインアカウントを使用します。
 
-## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Adobe Experience Cloudにログイン {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise ID について詳しくは、[ここ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis)をクリックしてください。
+Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。
 
-![](assets/adobe_id_login.png)
+**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise IDについて詳しくは、 [会社または学校アカウントにサインイン](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis).
+
+![Adobe IDを使用したログインと使用しないログインのオプションを示す、Adobe Experience Cloudのログインウィンドウを示すスクリーンショット](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
@@ -32,13 +34,13 @@ Experience Cloud ログインを使用すると、Enterprise ID（電子メー�
 
 ## Report Builder へのログイン
 
-Report Builder
+Report Builderにログインするには
 
 1. Excel で、「**[!UICONTROL アドイン]**」をクリックします。
-1. 「**[!UICONTROL ログイン]**」をクリックします。ログインを必要とする操作には、他にも次のものがあります。
+1. 「**[!UICONTROL ログイン]**」をクリックします。次の方法を使用して署名することもできます。
 
    * 「**[!UICONTROL 作成]**」をクリックします。
-   * [リクエストマネージャーでリクエストを選択します](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)を選択し、「 **[!UICONTROL 追加]** または **[!UICONTROL 管理]**.
+   * リクエストマネージャーでリクエストを選択し、「 **[!UICONTROL 追加]** または **[!UICONTROL 管理]**. 詳しくは、 [リクエストマネージャーでリクエストを選択します。](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
    * Excel 内のリクエストをダブルクリックします。
 
 1. 「[!UICONTROL ログイン]」ページのフィールドにデータを入力し、「**[!UICONTROL OK]**」をクリックします。

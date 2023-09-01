@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>一般的に使用される日付 </p> </td> 
-   <td colname="col2"> <p>最も頻繁に使用される日付範囲を表示します。この設定は新しいリクエストを作成した際にデフォルトで有効になります。ワークブック内に少なくとも 1 つのリクエストがある場合、既存のリクエストの日付がデフォルト設定として使用されます。 </p> </td> 
+   <td colname="col2"> <p>最も頻繁に使用される日付範囲を表示します。この設定は新しいリクエストを作成した際にデフォルトで有効になります。ワークブックに少なくとも 1 つのリクエストがある場合、Report Builderは既存のリクエストの日付をデフォルト設定として使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 保存済み日付テンプレート </p> </td> 

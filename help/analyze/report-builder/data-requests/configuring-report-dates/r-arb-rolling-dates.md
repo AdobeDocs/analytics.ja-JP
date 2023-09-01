@@ -1,20 +1,20 @@
 ---
-description: Report Builder における相対日付のフィールドの定義です。
+description: 「Report Builder」の相対日付のフィールドの定義です。
 title: リクエストウィザードの定義 - 相対日付
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
 role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 84%
+ht-degree: 73%
 
 ---
 
 # リクエストウィザードの定義 - 相対日付
 
-Report Builderの相対日付のフィールドの定義。
+「Report Builder」の相対日付のフィールドの定義です。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

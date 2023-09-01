@@ -1,20 +1,20 @@
 ---
-description: 分類は、分析レポートデータの行項目を別の観点でまとめるために使用します。分類は様々な目的で使用できますが、最も一般的な使用目的はキャンペーンのトラッキングコード（内部および外部）や製品 ID の分類です。
-title: 分類
+description: 分類の使用方法について説明します。
+title: データの分類について
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 76%
 
 ---
 
 # 分類
 
-分類は、分析レポートデータの行項目を別の観点でまとめるために使用します。分類は様々な目的で使用できますが、最も一般的な使用目的はキャンペーンのトラッキングコード（内部および外部）や製品 ID の分類です。
+分類は、分析レポートデータの行項目を別の観点でまとめるために使用します。分類は様々な目的で使用できますが、最も一般的な使用目的は、内部 ID、外部 ID、製品 ID の両方でキャンペーントラッキングコードを分類するためです。
 
 例えば、[!UICONTROL キャンペーン]レポートに表示される行項目を[!UICONTROL 担当者]や[!UICONTROL メディア]などの項目で分類し、合計値や内訳の表示が可能です。
 

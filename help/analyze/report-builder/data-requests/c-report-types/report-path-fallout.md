@@ -1,19 +1,19 @@
 ---
-description: Report Builder でのパスレポートおよびフォールアウトレポートの取得方法、および Reports & Analytics との違いについて説明します。
+description: Report Builderがパスレポートとフォールアウトレポートをどのようにサポートするか、および Reports & Analytics との違いについて説明します。
 title: Report Builder のパスレポートおよびパスフォールアウトレポート
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Report Builder のパスレポートおよびパスフォールアウトレポート
 
-Report Builder でのパスレポートおよびフォールアウトレポートの取得方法、および Reports &amp; Analytics との違いについて説明します。
+Report Builderがパスレポートとフォールアウトレポートをどのようにサポートするか、および Reports &amp; Analytics との違いについて説明します。
 
 | Reports &amp; Analytics のパスレポート名（パス／ディメンション／） | Report Builder でのサポート |
 |--- |--- |

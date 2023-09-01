@@ -1,30 +1,30 @@
 ---
-description: Report Builder の「リクエストの管理」におけるフィールドの説明です。
-title: リクエストの管理 - 定義
+description: Report Builderの「リクエストを管理」のフィールドの説明について説明します。
+title: Report Builderでのリクエストの管理方法
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # リクエストの管理 - 定義
 
-Report Builder の「リクエストの管理」におけるフィールドの説明です。
+リクエストステータスの詳細を表示し、フィールドの説明を使用して、Report Builderでリクエストを管理します。
 
 ## 概要 {#section_75C288C945FA4781A4EDF806711A5660}
 
-[!UICONTROL リクエストマネージャー]は、実行中のワークブックのすべてのシートで作成された、すべてのリクエストの状況について詳細を表示します。また、リクエストが設定されたセルを右クリックして、リクエストの追加、編集、更新および削除（[!UICONTROL リクエストウィザード]および[!UICONTROL リクエストマネージャー]に関連付けられた一般的な機能）を実行することもできます。
+The [!UICONTROL リクエストマネージャー] は、作成したすべてのリクエストの状態を、すべてのシートに対して表示するか、作業中のワークブックの 1 シートに対して表示するかを詳細に示します。 また、リクエストの追加、編集、更新、削除をおこなうこともできます。 これらの関数は通常、 [!UICONTROL リクエストウィザード] および [!UICONTROL リクエストマネージャー] をクリックします。
 
-[!UICONTROL リクエストマネージャー]は、Report Builder ツールバーの「**[!UICONTROL 管理]**」（![](assets/edit_request.gif)）をクリックすると表示されます。
+The [!UICONTROL リクエストマネージャー] クリックすると表示されます **[!UICONTROL 管理]**  ![](assets/edit_request.gif) をクリックします。
 
 >[!NOTE]
 >
->Adobe Report Builder では、同一ワークシート内でのみリクエストの依存関係を実行します。ワークシート間では実行しません。依存関係を単一のワークシート内に制限することによって、確実にタイムリーに実行します。
+>Adobe Report Builder では、同一ワークシート内でのみリクエストの依存関係を実行します。ワークシート間では実行しません。依存関係を単一のワークシート内に制限することで、確実に実行タイムリーになります。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
