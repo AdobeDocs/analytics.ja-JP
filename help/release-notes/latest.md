@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 現在の Adobe Analytics リリースノート（2023年8月）
 
-**最終更新日**：2023年8月24日（PT）
+**最終更新日**：2023年8月29日（PT）
 
 このリリースノートは、2023年8月9日～9月13日（PT）のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。 | 該当なし | 2023年8月30日（PT） |
+| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。 | 該当なし | 2023年9月13日（PT） |
 | **レポートアクティビティマネージャー** | レポートアクティビティマネージャーでは、管理者は各レポートスイートのレポートの使用状況を詳細に把握できるので、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。[詳細情報](/help/admin/admin/reporting-activity.md) | 該当なし | 2023年9月12日（PT） |
 
 {style="table-layout:auto"}
