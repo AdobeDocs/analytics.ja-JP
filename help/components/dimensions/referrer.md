@@ -4,7 +4,7 @@ description: 訪問者がクリックスルーしてサイトにアクセスす�
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 >
 >このディメンションを使用するには、レポートスイートの[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を設定する必要があります。内部 URL フィルターを設定しないと、内部 URL が含まれるか、外部 URL が表示されない可能性があります。
 
-同じレポートに、Analysis Workspace と Data Warehouse で異なる結果が表示されます。Analysis Workspace は、内部 URL フィルターに一致する値を除き、個々のページの転送者を報告します。Data Warehouse は、訪問の最初の転送者のみを報告し、内部 URL フィルターを無視します。
+同じレポートに、Analysis Workspace と Data Warehouse で異なる結果が表示されます。Analysis Workspace は、内部 URL フィルターに一致する値を除き、個々のページのリファラーを報告します。Data Warehouse は、訪問の最初のリファラーのみを報告し、内部 URL フィルターを無視します。
 
 ## このディメンションへのデータ入力
 
 このディメンションには、Analytics インターフェイスでの設定とイメージリクエストでのデータが必要です。
 
-* 実装内で、このディメンションはイメージリクエストの[`r`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `document.referrer` 変数を使用してこのデータを収集します。[`referrer`](/help/implement/vars/page-vars/referrer.md) 変数の上書きを使用して、手動で設定できます。 AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
+* 実装内で、このディメンションはイメージリクエストの[`r`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `document.referrer` 変数を使用してこのデータを収集します。[`referrer`](/help/implement/vars/page-vars/referrer.md) 変数の上書きを使用して、手動で設定できます。 AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、イメージリクエストに `r` クエリ文字列パラメーターを必ず含めてください。
 * Analytics のインターフェイス内で、レポートスイートの[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) を設定する必要があります。内部 URL フィルターを設定しないと、内部 URL が含まれるか、外部 URL が表示されない可能性があります。
 
 ## ディメンション項目
