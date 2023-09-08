@@ -1,12 +1,12 @@
 ---
 description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する一般的な概要情報です。
-short-description: アナリスト、エンドユーザー、管理者向けの主な機能、一般的な使用例、最初の手順について説明します。
+short-description: アナリスト、エンドユーザーや管理者向けの主な機能、一般的な使用例、最初の手順について説明します。
 title: Adobe Analytics の概要
 feature: Analytics Basics
 source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
