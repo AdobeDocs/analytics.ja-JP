@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
 workflow-type: tm+mt
-source-wordcount: '4991'
-ht-degree: 98%
+source-wordcount: '5089'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 98%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023 年 9 月** | |
+| 入門コンテンツの機能強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な使用開始時のタスクとリソースの概要を説明する情報を追加しました。 次の新しい記事が追加されました。 <ul><li>[はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[使用例](/help/analyze/get-started/use-cases.md)</li></ul> |
+| Media Analytics レポートドキュメントの改善 | ストリーミングメディアガイドの「レポート」節のコンテンツの一部を再編成しました。これには、独自の節で API ドキュメントを統合し、一部の記事の順序を調整するなどが含まれます。 <p>Media Workspace テンプレート記事の名前をに変更しました。 [Workspace のメディアレポート](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ja) 製品内の名前に合わせて調整できます。 </p> |
 | **2023年8月** | |
 | データフィードの明確化 | 更新済み [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md) 履歴データのデータフィードを処理する際に、データを収集している過去の任意の日付に開始日を設定できることを明確にするため。 |
 | Experience Edge データの処理 | Adobe Analyticsの内容を追加しました [は、Experience Edge からのデータを処理します](../implement/aep-edge/overview.md). |
