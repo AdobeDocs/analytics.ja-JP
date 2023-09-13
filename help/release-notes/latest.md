@@ -1,16 +1,16 @@
 ---
 title: 現在の Adobe Analytics リリースノート
-description: 現在の Adobe Analytics リリースノートを表示します。
+description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
+source-git-commit: 1bd654eef37ac242cf4076e133e482f6a5990cc9
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 68%
 
 ---
 
-# 現在の Adobe Analytics リリースノート (2023年9月)
+# 現在の Adobe Analytics リリースノート（2023年9月）
 
 **最終更新日**：2023年9月13日（PT）
 
