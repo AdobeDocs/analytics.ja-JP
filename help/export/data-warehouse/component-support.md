@@ -3,32 +3,32 @@ title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Data Warehouse でのコンポーネントのサポート
 
-Data Warehouse 固有の処理アーキテクチャを使用すると、通常、Adobe Analytics の他の機能では使用できない一部のコンポーネントを使用できます。独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
+Data Warehouseアーキテクチャでの独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントを使用できます。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
 
 ## Data Warehouse 固有のコンポーネント
 
-一部のディメンションと指標は Data Warehouse で使用できますが、Adobe Analytics の他の機能を使用することはできません。
+Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用できるディメンションや指標は、一部使用できません。
 
 ### 排他的にサポートされるディメンション
 
-* Experience Cloud ID：Experience Cloud ID サービス（ECID）を使用する実装の場合、64 ビットの連結された 2 つの数値から成る 128 ビットの数値で、19 桁にパディングされます。
-* ページ URL:ヒットが発生したページの URL。
-* 購入 ID：購入の一意な識別子（s_purchaseID 変数を使用して設定）。
-* 訪問者 ID：訪問者の一意の ID を提供します。この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+* **Experience CloudID**:Experience CloudID サービス (ECID) を使用する実装の場合、64 ビットの連結された 2 つの数値から成る 128 ビットの数値で、19 桁にパディングされます。
+* **ページ URL**：ヒットが発生したページの URL。
+* **購入 ID**：購入の一意の識別子（purchaseID 変数を使用して設定）。
+* **訪問者 ID**：訪問者の一意の識別子を提供します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ### 排他的にサポートされる指標
 
-* 訪問回数：Data Warehouse では、この指標は非永続的な cookie 訪問を除外します。
-* 訪問回数 - すべての訪問者数：Data Warehouse では、この指標は Adobe Analytics 内の他のツールにおける訪問回数指標と近い値になります。
+* **訪問回数**：この指標は、Data Warehouseに関しては、永続的でない cookie の訪問を除外します。
+* **訪問回数 — すべての訪問者数**:Data Warehouseに関するこの指標は、Adobe Analytics内の他のツールでの訪問回数指標と近い値になります。
 
 ## Data Warehouse でサポートされないコンポーネント
 

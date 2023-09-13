@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,17 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse の概要](data-warehouse/data-warehouse.md)
    + [Data Warehouse ユーザーグループの追加](data-warehouse/t-dw-group.md)
-   + [Data Warehouse リクエストの作成](data-warehouse/t-dw-create-request.md)
+   + Data Warehouse リクエストの作成 {#dw-create-request}
+      + [Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [レポートを作成](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [レポートの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [レポートオプション](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [スケジュールオプション](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [通知メール](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [リクエスト配信時間](data-warehouse/delivery-time.md)
    + [Tableau 形式のデータファイル](data-warehouse/t-tableau.md)
    + [指標で並べ替え](data-warehouse/sorting-by-metric.md)
-   + [定期的なリクエストのスケジュール設定](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse リクエストの管理](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse でサポートされるコンポーネント](data-warehouse/component-support.md)
    + [Data Warehouse に関するよくある質問](data-warehouse/faq.md)

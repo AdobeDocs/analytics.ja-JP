@@ -5,18 +5,16 @@ title: Data Warehouse のベストプラクティス
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 98%
+source-wordcount: '291'
+ht-degree: 89%
 
 ---
 
 # Data Warehouse のベストプラクティス
 
-Data Warehouse は、カスタムレポートを実行するための柔軟なインターフェイスを備えています。次に示すガイドラインに従うと、データの取得に要する時間を短縮できます。
-
-
+Data Warehouse は、カスタムレポートを実行するための柔軟なインターフェイスを備えています。データの取得に要する時間を短縮するには、次のガイドラインに従います。
 
 | ガイドライン | 説明 |
 |--- |--- |

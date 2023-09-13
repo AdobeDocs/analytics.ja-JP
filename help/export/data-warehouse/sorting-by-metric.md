@@ -3,10 +3,10 @@ description: 指標値を降順で並べ替えた、Data Warehouse のランク�
 title: 指標で並べ替え
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
