@@ -5,7 +5,7 @@ title: Data Warehouse のベストプラクティス
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 89%
@@ -24,3 +24,4 @@ Data Warehouse は、カスタムレポートを実行するための柔軟な�
 | 完了した日付範囲に対してレポートを実行する | Data Warehouse レポートは、リクエストされた日付範囲が完了したときに生成されます。例えば、現在の週のレポートを水曜日にリクエストした場合、レポートは次の週の日曜日にならないと生成されません。 |
 | Data Warehouse でパスレポートを生成する | Data Warehouse ではパス指標（入口、出口、バウンスなど）を使用できません。 |
 | 仮想レポートスイート | 仮想レポートスイートの Data Warehouse レポートは、仮想レポートスイートで設定された別のタイムゾーンをサポートします。 |
+
