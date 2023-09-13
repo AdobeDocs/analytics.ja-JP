@@ -2,10 +2,10 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ Data Warehouseレポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **アカウントタイプ**] | クラウドアカウントのタイプを選択します。 アカウントのタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を持つことをお勧めします。 <p>アカウントタイプを選択すると、そのアカウントタイプに固有のフィールドが表示されます。 各アカウントタイプの設定手順については、選択したに対応する以下のセクションを展開してください。 </p> |
+      | [!UICONTROL **アカウントタイプ**] | クラウドアカウントのタイプを選択します。 アカウントのタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を持つことをお勧めします。 <p>アカウントタイプを選択すると、そのアカウントタイプに固有のフィールドが表示されます。 </p> |
       | [!UICONTROL **アカウント名**] | アカウントの名前を指定します。 この名前は、ロケーションを作成する際に表示されます。 <!-- true? --> |
       | [!UICONTROL **アカウントの説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 |
 
       設定手順については、 [!UICONTROL **アカウントタイプ**] を選択します。
 
-      レポートの宛先を設定する際は、次のいずれかのアカウントタイプを使用します。 設定手順については、アカウントタイプを展開します。 （その他の従来の宛先） <!-- add link --> はまた使用できますが、お勧めしません )。
+      レポートの宛先を設定する際は、次のいずれかのアカウントタイプを使用します。 設定手順については、アカウントタイプを展開します。 ( 追加の [従来の宛先](#legacy-destinations) はまた使用できますが、お勧めしません )。
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Data Warehouseレポートの送信先を設定するには：
 
    1. Adobe Analytics の [!UICONTROL **場所のプロパティ**] 「 」セクションで、ロケーションアカウントのアカウントタイプに固有の情報を指定します。
 
-      設定手順については、前に選択したアカウントタイプに対応する以下のセクションを展開してください。
+      設定手順については、 [!UICONTROL **アカウントタイプ**] を選択します。
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Data Warehouseレポートの送信先を設定するには：
       これで、設定したアカウントと場所にデータをインポートできます。
 
 1. 引き続き、 [!UICONTROL **レポートのオプション**] タブをクリックします。 詳しくは、 [レポートリクエストのレポートオプションのData Warehouseを設定する](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## 従来の宛先
+
+>[!IMPORTANT]
+>
+>この節で説明する宛先は従来のもので、お勧めしません。 Data Warehouse の宛先を作成する際は、代わりに、 Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS、電子メールのいずれかの宛先を使用してください。 これらの推奨される各宛先の詳細については、上記の情報を参照してください。
+
+次の情報は、レガシーの各宛先の設定情報を示します。
+
+### FTP
+
+Data Warehouse のデータは、Adobeまたは顧客がホストする FTP の場所に配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
+
+使用可能フィールドに入力する際は、次の情報を参照してください。
+
+* [!UICONTROL **ホスト**]：目的の FTP の宛先 URL を入力します。 例：`ftp://ftp.omniture.com`。
+* [!UICONTROL **パス**]：空白のままにできます
+* [!UICONTROL **ユーザー名**]:FTP サイトにログインするユーザー名を入力します。
+* [!UICONTROL **パスワードとパスワードの確認**]:FTP サイトにログインするためのパスワードを入力します。
+
+### SFTP
+
+Data Warehouse の SFTP サポートを利用できます。 SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。Data Warehouse の宛先を作成する際に、適切な公開鍵をダウンロードできます。
+
+### S3
+
+ウェアハウスデータはAmazon S3 バケットに直接送信できます。 この宛先タイプには、バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
+
+Data Warehouse データをアップロードするために指定するユーザーには、以下が必要です [権限](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+以下の 16 の標準 AWS 地域がサポートされます（必要に応じて適切な署名アルゴリズムを使用）。
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>Cn-north-1 地域はサポートされていません。
+
+### Azure BLOB
+
+Data Warehouse は Azure BLOB の宛先をサポートしています。 コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
+
+>[!NOTE]
+>
+>Data Warehouse の宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。 アドビはサーバーからデータを削除しません。
