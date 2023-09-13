@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2adc2ba45fb7ce740ff9dc9e376b60da7a84ea4e
+source-git-commit: 95e4a3254bafed8ac4cb59625e6f5ba2fb3b1ad0
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 68%
+source-wordcount: '792'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 68%
 | ----------- | ---------- | ------- | ---- |
 | **API 2.0 での分類** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 該当なし | 2023年9月13日（PT） |
 | **新規のサポート `correlationID` A4T 分類のフィールド** | The `_experience.decisioning.propositions.scopeDetails.correlationID` フィールドがAdobe Analyticsソースコネクタスキーマで使用できるようになりました。 この ID を追加して、Adobe Targetのアクティビティやエクスペリエンスイベントの分類データを簡単に結合できるようにします。 | 該当なし | 2023年9月13日（PT） |
-| **Data Warehouse の機能強化** | Data Warehouseリクエストを作成する際に、をレポートの宛先として使用するようにクラウドアカウントを設定できるようになりました。 データを送信する際には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E メール（このオプションは以前から使用可能でした）</li></ul>FTP、SFTP、Azure Blob、S3 は、引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、ユーザーリクエストを作成および管理する際のData Warehouseエクスペリエンスも改善されました。 詳しくは、 [Data Warehouseリクエストの作成](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) および [Data Warehouseリクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja). | 2023年9月13日（PT） | 2023 年 10 月 5 日 |
+| **Data Warehouse の機能強化** | Data Warehouseリクエストを作成する際に、をレポートの宛先として使用するようにクラウドアカウントを設定できるようになりました。 データを送信する際には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E メール（このオプションは以前から使用可能でした）</li></ul>FTP、SFTP、Azure Blob、S3 は、引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、ユーザーリクエストを作成および管理する際のData Warehouseエクスペリエンスも改善されました。 詳しくは、 [Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md) および [Data Warehouseリクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja). | 2023年9月13日（PT） | 2023 年 10 月 5 日 |
 
 {style="table-layout:auto"}
 
