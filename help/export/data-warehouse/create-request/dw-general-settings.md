@@ -2,10 +2,10 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: Data Warehouseリクエストの一般設定
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 27%
+source-wordcount: '354'
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ Data Warehouse要求の一般設定を構成するには：
    | オプション | 関数 |
    |---------|----------|
    | リクエスト名 | この名前は、リクエストを管理する際にメインData Warehouseページに表示されます。 |
-   | 日付範囲 | レポートに含める日付範囲を選択します。 <p>カスタム日付、または事前設定された日付範囲を選択できます。 プリセット範囲は、レポートの送信日に相対的な日付です。</p><p>次のプリセットオプションを使用できます。</p><ul><li>Today</li><li>昨日</li><li>過去 7 日間</li><li>過去 30 日間</li><li>今週</li><li>先週</li><li>最近の 2 週間</li><li>最近の 3 週間</li><li>最近の 4 週間</li><li>今月</li><li>先月</li><li>過去 1 時間</li><li>Today</li><li>Today</li></ul> |
+   | 日付範囲 | レポートに含める日付範囲を選択します。 <p>カスタム日付、または事前設定された日付範囲を選択できます。 プリセット範囲は、レポートの送信日に相対的な日付です。</p><p>次のプリセットオプションを使用できます。</p><ul><li>Today</li><li>昨日</li><li>過去 7 日間</li><li>過去 30 日間</li><li>今週</li><li>先週</li><li>最近の 2 週間</li><li>最近の 3 週間</li><li>最近の 4 週間</li><li>今月</li><li>先月</li><li>過去 1 時間</li></ul> |
    | 精度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間の精度。 設定できる値は「なし」、「時間」、「日」、「週」、「月」、「四半期」、「年」です。<p>精度をレポートするには追加の処理時間が必要になります。1 年間の月の精度をレポートする場合、月ごとにレポートリクエストを送信するとレポートプロセスがより高速に処理されます。</p> |
 
    {style="table-layout:auto"}
