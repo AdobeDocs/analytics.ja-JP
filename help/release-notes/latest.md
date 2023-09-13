@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
+source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 69%
+source-wordcount: '800'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 の分類セット** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 該当なし | 2023年9月13日（PT） |
+| **API 2.0 での分類** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 該当なし | 2023年9月13日（PT） |
 | **新規のサポート `correlationID` A4T 分類のフィールド** | The `_experience.decisioning.propositions.scopeDetails.correlationID` フィールドがAdobe Analyticsソースコネクタスキーマで使用できるようになりました。 この ID を追加して、Adobe Targetのアクティビティやエクスペリエンスイベントの分類データを簡単に結合できるようにします。 | 該当なし | 2023年9月13日（PT） |
 | **Data Warehouse の機能強化** | Data Warehouseリクエストを作成する際に、をレポートの宛先として使用するようにクラウドアカウントを設定できるようになりました。 データを送信する際には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>E メール（このオプションは以前から使用可能でした）</li></ul>FTP、SFTP、Azure Blob、S3 は、引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、ユーザーリクエストを作成および管理する際のData Warehouseエクスペリエンスも改善されました。 詳しくは、 [Data Warehouseリクエストの作成](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) および [Data Warehouseリクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja). | 2023年9月13日（PT） | 2023 年 10 月 5 日 |
 
