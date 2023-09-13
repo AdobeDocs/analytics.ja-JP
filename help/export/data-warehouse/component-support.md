@@ -3,7 +3,7 @@ title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -78,3 +78,4 @@ Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
+
