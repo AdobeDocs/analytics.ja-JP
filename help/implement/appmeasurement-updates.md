@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 96%
+source-wordcount: '2414'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,13 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 最新バージョンのAppMeasurementは、 [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## バージョン 2.25.0
+
+リリース日：**2023年9月12日（PT）**
+
+* オプションの設定 (`bufferRequests`) を使用すると、ブラウザーがビーコン API を適切にサポートしていない場合や、ページのアンロード中に要求がキャンセルされる場合に、要求の取得の信頼性を高めることができます。
+* 単一のトラッキングリクエストに対する複数のトラック後コールバックを防ぐための保護機能が追加されました。
 
 ## バージョン 2.24.0
 
@@ -332,7 +339,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2015 年 9 月 17 日**
 
 * Visitor API 1.5.2 を同梱しました。
-* 更新済み [!DNL Audience Manager] モジュールを使用してAdobe Audience ManagerDIL6.2 を使用する — VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しでAdobe Audience Managerに渡します。 （AN-104978）
+* 更新済み [!DNL Audience Manager] モジュールを使用してAdobe Audience ManagerDIL6.2 を使用する — VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しでAdobe Audience Managerに渡すようになりました。 （AN-104978）
 
 ## バージョン 1.5
 
