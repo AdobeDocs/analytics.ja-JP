@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -116,11 +116,8 @@ ht-degree: 99%
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + [メディア分平均オーディエンスパネル](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [メディア同時視聴者数パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + メディア再生滞在時間 {#media-playback-timespent}
-         + [概要](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [入力と出力の設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [よくある質問（FAQ）](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [メディアの同時視聴者パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [メディア再生滞在時間パネル](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [次または前の項目パネル](analysis-workspace/c-panels/next-previous.md)
       + [ページの概要パネル](analysis-workspace/c-panels/page-summary.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
