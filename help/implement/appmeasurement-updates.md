@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 リリース日：**2023年9月12日（PT）**
 
-* オプションの設定 (`bufferRequests`) を使用すると、ブラウザーがビーコン API を適切にサポートしていない場合や、ページのアンロード中に要求がキャンセルされる場合に、要求の取得の信頼性を高めることができます。
+* オプションのメソッドを追加しました。 [`bufferRequests()`](vars/functions/bufferrequests.md) ブラウザーがビーコン API をサポートしていない場合や、ページがアンロードされた場合に要求をキャンセルする場合に、要求の取得の信頼性を高める。
 * 単一のトラッキングリクエストに対する複数のトラック後コールバックを防ぐための保護機能が追加されました。
 
 ## バージョン 2.24.0
 
 リリース日：**2023 年 7 月 18 日**
 
-* オプションの設定 (`decodeLinkParameters`  — デフォルト= false) 全角文字をエンコードしたリンク URL をデコードします。
+* オプションの設定変数を追加しました。 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) を使用して、2 バイトエンコードされた文字を含むリンク URL をデコードします。
 * 高エントロピーの誤った User-Agent クライアントヒント API を持つブラウザーに対するエラー処理を追加しました。
 * Content-TypePOSTヘッダーを `x-www-form-urlencoded` デフォルトでは。
 
@@ -37,25 +37,25 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 リリース日：**2022年9月23日（PT）**
 
-* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。タグを使用してクライアントヒントを設定するか、「collectHighEntropyUserAgentHints」フラグを使用できます。高エントロピーヒントの収集は、デフォルトではオフになっています。User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
+* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。クライアントヒントは、タグを使用して設定するか、 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 設定変数。 高エントロピーのヒントのコレクションは、デフォルトで無効になっています。 User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
 
 ## バージョン 2.22.4
 
 リリース日：**2022年1月18日（PT）**
 
-* リンクトラッキング呼び出し `s.tl()` で、渡されたオブジェクトに `string` タイプの `href` 属性が含まれていることを確認するようになりました。`string` でない場合は、失敗せずに `href` 属性が適切に無視されます。これは、`svg` オブジェクトをリンクトラッキング呼び出しに渡すときに発生する可能性があります。
+* リンクトラッキング呼び出し `s.tl()` で、渡されたオブジェクトに `string` タイプの `href` 属性が含まれていることを確認するようになりました。次の値でない場合、 `string`その場合、 `href` 属性を設定する必要があります。 このシナリオは、 `svg` オブジェクトをリンクトラッキングコールに追加します。
 
 ## バージョン 2.22.3
 
 リリース日：**2021年10月11日**
 
-* ヘルプドキュメントを参照していたファイルを更新し、現在のヘルプの場所を示すようにしました。
+* ドキュメントを指すファイル内のリンクを更新しました。
 
 ## バージョン 2.22.2
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。[同意変数の完全なリスト](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=ja)は次の通りです。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、 [プライバシーレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) （『管理者ユーザガイド』内）を参照してください。
 
 ## バージョン 2.22.1
 

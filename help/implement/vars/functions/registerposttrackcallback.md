@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 74%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 >[!WARNING]
 >
-> [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは `registerPostTrackCallback` 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
+>次のようなトラッキングコールを実行しない [`t()`](t-method.md) または [`tl()`](tl-method.md) 内側 `registerPostTrackCallback` 変数を使用します。 この変数でトラッキングコールを設定すると、イメージリクエストが無限ループに陥ります。
 
 `registerPostTrackCallback` 変数を呼び出すたびに、その関数をフックして、イメージリクエストが正常に送信された直後に実行します。同じページの読み込みで同じ関数を複数回登録しないでください。
 
@@ -26,7 +26,7 @@ ht-degree: 74%
 
 ## Web SDK 拡張機能を使用したトラック後のコールバック
 
-近日開始！
+準備中!
 
 ## 追跡後のコールバックによる Web SDK の手動実装
 
@@ -44,9 +44,9 @@ alloy("sendEvent",{
 
 ## Adobe Analytics拡張機能を使用したトラック後のコールバックの登録
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.registerPostTrackCallback
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.registerPostTrackCallback
 
 `s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、画像リクエストが正常に送信された直後に実行されます。
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## ユースケースの例
+## ユースケース
 
 トラック後のコールバックに [`clearVars()`](clearvars.md) 関数を登録すると、シングルページアプリケーションで役立ちます。ヒットがアドビに正常に送信されるたびに、`clearVars()` 関数が実行されます。その後、誤って値が永続化されるのを気にすることなく、変数を再び定義できます。
 
