@@ -4,7 +4,7 @@ description: Analysis Workspace のメディア再生滞在時間パネルを使
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Media Analytics のお客様は、再生に費やした時間を分析して、�
 ## メディア再生に費やした時間パネルの使用
 
 1. Media Analytics コンポーネントが有効なレポートスイートに移動します。
-
 1. 左端のパネルアイコンを選択し、パネルをAnalysis Workspaceプロジェクトにドラッグします。
-
 1. 以下の節に進み、メディア再生に費やした時間パネルをカスタマイズします。
 
    * [パネル入力](#panel-inputs)
-
    * [パネル出力](#panel-output)
 
 ## パネル入力 {#Input}
