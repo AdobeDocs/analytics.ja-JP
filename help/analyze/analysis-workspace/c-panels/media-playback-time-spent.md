@@ -4,7 +4,7 @@ description: Analysis Workspace のメディア再生滞在時間パネルを使
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ Media Analytics のお客様は、再生に費やした時間を分析して、�
 |---|---|
 | 再生滞在時間 | 視聴されたコンテンツの合計（時:minutes:秒または分）。選択した精度で、一時停止、バッファー、開始のための時間を含みます。 |
 
-### よくある質問（FAQ）
+## よくある質問（FAQ）
 
 | 質問 | 回答 |
 |---|---|
