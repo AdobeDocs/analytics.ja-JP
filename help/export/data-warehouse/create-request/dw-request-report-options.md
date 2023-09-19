@@ -2,10 +2,10 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: レポートリクエストのレポートオプションのData Warehouseを設定する
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 19%
 
    | オプション | 関数 |
    |---------|----------|
-   | [!UICONTROL **ファイル名**] | レポートを識別します。 |
+   | [!UICONTROL **ファイル名**] | レポートを識別します。 <p>ファイル名に次の特殊文字が使用されている場合、リクエストは保存できません。 <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ?@ [ ] \ ^ ` {  } \| ~</code> </p><p>%文字は、次のように、「R」、「rsid」、「id」の後に付く場合にのみ使用できます。 <code>%R</code>, <code>%rsid</code>、および <code>%id</code>。</p> |
    | [!UICONTROL **ファイル名にレポートの日付範囲を追加**] | レポートファイル名に日付範囲を追加します。 <p>例えば、2024 年 5 月 1 日から 2024 年 5 月 7 日までのデータを要求した場合、ファイル名には20240501 ～ 20240507の日付範囲が含まれます。</p> |
    | [!UICONTROL **CSV**] | レポートを CSV ファイル形式で配信し、データをスプレッドシートで表示します。 |
    | [!UICONTROL **Tableau(TDE)**] | レポートを Tableau Data Extract(TDE) ファイル形式で配信します。この形式は、Tableau 内の追加データのデータやレイヤーを視覚化するために使用できます。 |
