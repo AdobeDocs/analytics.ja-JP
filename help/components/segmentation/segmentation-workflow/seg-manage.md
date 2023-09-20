@@ -3,10 +3,10 @@ description: セグメントマネージャでは、セグメントを様々な�
 title: セグメントの管理 (セグメントマネージャ)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 36%
 
 ---
 
@@ -67,8 +67,8 @@ Analytics セグメントマネージャには、自分が所有しているす�
    | タグ（列の選択でチェックされていないので、列は表示されていません） | 自分または自分とセグメントを共有しているユーザーによってセグメントに適用されたタグ。 |
    | 共有先 | 自分がセグメントを共有している個人、グループまたは全員が表示されます。グループまたは全員を表示できるのは管理者のみです。 <p>セグメントが自分と共有されているとき、または自分と共有されているときに、セグメント名の横に共有アイコンが表示されます。</p> |
    | 変更日 | セグメントが最後に修正された日付を表示します。 |
-   | 使用場所 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Customer Journey Analytics機能リリース](/help/release-notes/releases.md).<p>セグメントが現在使用されている次のコンポーネントタイプを表示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li><li>セグメント</li></ul> 例えば、セグメントが 40 件のプロジェクトで 2 件のアラートで使用されている場合、この列にはが表示されます。 [!UICONTROL **アラート (2)、プロジェクト (40)**]. <p>この情報は、セグメントが組織内のユーザーにとって有用かどうか、またはセグメントを削除する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
-   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Customer Journey Analytics機能リリース](/help/release-notes/releases.md).<p>次のいずれかのコンポーネントタイプでセグメントが最後に使用された日付を表示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li><li>セグメント</li></ul> <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、または削除する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
+   | 使用場所 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).<p>セグメントが現在使用されているコンポーネントの数を示します。 <p>例えば、セグメントが 40 件のプロジェクトと 2 件のアラートで使用されている場合、この列の値は次のように表示されます。 [!UICONTROL **42 個のコンポーネント**].</p> <p>この列の値を選択して、セグメントが使用されている場所の分類を表示します ( 例： [!UICONTROL **プロジェクト (40)**], [!UICONTROL **アラート (2)**]) をクリックします。</p><p>セグメントは、次のいずれかのコンポーネントタイプで使用できます。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li><li>セグメント</li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。</p><p>The [!UICONTROL **使用場所**] デフォルトでは、列は表示されません。 [列の設定](#configure-columns) をクリックして表示します。</p> |
+   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).<p>次のいずれかのコンポーネントタイプでセグメントが最後に使用された日付を表示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li><li>セグメント</li></ul> <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
 
    {style="table-layout:auto"}
 

@@ -3,10 +3,10 @@ description: 計算指標ページでは、指標を様々な方法で管理で�
 title: 計算指標マネージャー
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 12%
+source-wordcount: '721'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 12%
    | タグ | 自分または自分と計算指標を共有しているユーザーによって指標に適用されたタグが表示されます。 |
    | 共有先 | 計算指標を共有している個人、グループ（管理者のみ）、またはすべて（管理者のみ）が表示されます。 <p>計算指標が共有されているときは、計算指標名の横に共有アイコンが表示されます。</p> |
    | 変更日 | カスタム指標が最後に変更された日付を示します。 |
-   | 使用場所 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Customer Journey Analytics機能リリース](/help/release-notes/releases.md).<p>計算指標が現在使用されている次のコンポーネントタイプを示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li></ul> 例えば、コンポーネントが 40 個のプロジェクトで使用され、2 個のアラートで使用されている場合、この列にはが表示されます [!UICONTROL **アラート (2)、プロジェクト (40)**]. <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、または削除する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
-   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Customer Journey Analytics機能リリース](/help/release-notes/releases.md).<p>次のいずれかのコンポーネントタイプで計算指標が最後に使用された日付を表示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li></ul> <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、または削除する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
+   | 使用場所 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).<p>計算指標が現在使用されているコンポーネントの数を示します。 <p>例えば、計算指標が 40 件のプロジェクトと 2 件のアラートで使用されている場合、この列の値は次のように表示されます。 [!UICONTROL **42 個のコンポーネント**].</p> <p>この列の値を選択して、計算指標が使用されている場所の分類を確認します ( 例： [!UICONTROL **プロジェクト (40)**], [!UICONTROL **アラート (2)**]) をクリックします。</p><p>計算指標は、次のいずれかのコンポーネントタイプで使用できます。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。</p><p>The [!UICONTROL **使用場所**] デフォルトでは、列は表示されません。 [列の設定](#configure-columns) をクリックして表示します。</p> |
+   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).<p>次のいずれかのコンポーネントタイプで計算指標が最後に使用された日付を表示します。</p> <ul><li>アラート</li><li>計算指標</li><li>プロジェクト</li><li>スケジュールされたプロジェクト</li></ul> <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p><p>以下を使用すると、 [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) お客様の組織でのコンポーネントの使用方法を追跡し、より深く理解するのに役立つこの情報と共に使用します。 |
 
    {style="table-layout:auto"}

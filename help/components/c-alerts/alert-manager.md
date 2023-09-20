@@ -3,9 +3,9 @@ description: アラートを管理.
 title: アラートマネージャーの概要
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '468'
 ht-degree: 33%
 
 ---
@@ -61,6 +61,6 @@ ht-degree: 33%
    | タグ | 自分または自分とアラートを共有しているユーザーによってアラートに適用されたタグが表示されます。 |
    | 共有先 | 自分がアラートを共有している個人、グループ（管理者のみ）、または全員（管理者のみ）が表示されます。 |
    | 変更日 | アラートが最後に変更された日付を示します。 |
-   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Customer Journey Analytics機能リリース](/help/release-notes/releases.md).<p>アラートが最後に使用された日付を表示します。</p> <p>この情報は、アラートが組織内のユーザーにとって有用かどうか、またはアラートを削除する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p> |
+   | 前回の使用 | **注意：** この機能は、リリースの制限付きテスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般に利用できるようになったら、このメモは削除されます。Customer Journey Analyticsのリリース手順については、 [Adobe Analyticsの機能リリース](/help/release-notes/releases.md).<p>アラートが最後に使用された日付を表示します。</p> <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</p> |
 
    {style="table-layout:auto"}
