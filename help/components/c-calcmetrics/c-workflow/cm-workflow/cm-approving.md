@@ -3,10 +3,10 @@ description: 計算指標マネージャ内では、様々なレベルのアプ�
 title: 計算指標の承認
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 17%
+source-wordcount: '238'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 計算指標を承認済みとしてマークするには：
 
-1. Adobe Analyticsで、 [!UICONTROL **コンポーネント**] > [!UICONTROL **計算指標**] をクリックして、計算指標マネージャに移動します。
+1. Adobe Analyticsで、 [!UICONTROL **コンポーネント**] > [!UICONTROL **計算指標**].
 
 1. 計算指標マネージャで、承認としてマークする指標の左側にあるチェックボックスを選択します。
 

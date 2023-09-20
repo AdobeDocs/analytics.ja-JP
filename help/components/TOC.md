@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 98%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 100%
       + [セグメントのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
       + [セグメントのお気に入りへの登録](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [セグメントの削除](segmentation/segmentation-workflow/seg-delete.md)
+      + [セグメントのコピー](segmentation/segmentation-workflow/seg-copy.md)
       + [セグメントの管理](segmentation/segmentation-workflow/seg-manage.md)
    + セグメントの参照 {#segment-reference}
       + [セグメントの比較演算子](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 100%
       + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [計算指標のタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [計算指標へのフィルター設定](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [計算指標のお気に入りへの登録](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [計算指標のコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [計算指標マネージャー](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指標リファレンス {#calcmetrics-reference}
       + [リファレンス：基本的な関数](c-calcmetrics/cm-reference/cm-functions.md)

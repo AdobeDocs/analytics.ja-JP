@@ -3,10 +3,10 @@ description: タグ、所有者およびその他のフィルター（すべて�
 title: セグメントのフィルタリング
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 95%
+source-wordcount: '170'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 95%
    |---|---|
    | タグ | 特定の[タグ](/help/components/segmentation/segmentation-workflow/seg-tag.md)を使用してセグメントをフィルタリングできます。「タグ」列はデフォルトで表示されます。 |
    | 所有者 | セグメントを所有者でフィルタリングできます。 |
+   | レポートスイート | レポートスイートでフィルタリングできます。 |
    | その他のフィルター／すべてを表示 | **（管理者のみ）**&#x200B;セグメント、所有者および最終修正日をすべて表示します。 |
    | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
    | その他のフィルター／自分と共有 | 他のユーザーが自分と[共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md)しているセグメントをすべて表示します。 |

@@ -3,10 +3,10 @@ description: 権限に応じて、指標を組織全体、グループまたは�
 title: 計算指標の共有
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 24%
+source-wordcount: '335'
+ht-degree: 23%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 24%
 
 計算指標を共有するには：
 
+1. Adobe Analyticsで、 **[!UICONTROL コンポーネント]** 「 」タブで、「 **[!UICONTROL 計算指標]**.
+
 1. 計算指標マネージャで、共有する指標の左側にあるチェックボックスを選択します。
 
-1. を選択します。 **[!UICONTROL 共有]** アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. を選択します。 **[!UICONTROL 共有]** アイコン。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    計算指標の共有ダイアログボックスが表示されます。
 
@@ -33,17 +35,17 @@ ht-degree: 24%
 
 1. 共有先を選択：
 
-   * **[!UICONTROL すべて]** （管理者のみ）:組織内のすべてのユーザーと共有します。
+   * **[!UICONTROL すべて]** （管理者のみ）：組織内のすべてのユーザーと共有します。
 
-      会社全体と誰もが使いやすい場合にのみ、全員との共有を検討してください。 この場合、 [承認済み指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     会社全体と誰もが使いやすい場合にのみ、全員との共有を検討してください。 この場合、 [承認済み指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
 
-   * **[!UICONTROL グループ]** （管理者のみ）:共有するグループを選択します。
+   * **[!UICONTROL グループ]** （管理者のみ）：共有するグループをすべて選択します。
 
-      指標がそのチームに対して適切なビジネス価値を提供する場合は、グループとの共有を検討します。
+     指標がそのチームに対して適切なビジネス価値を提供する場合は、グループとの共有を検討します。
 
-   * **[!UICONTROL 個々のユーザー]**:共有する個々のユーザーを検索して選択します。
+   * **[!UICONTROL 個々のユーザー]**：共有する個々のユーザーを検索して選択します。
 
-      これは、すべてのユーザーが使用できる唯一の共有オプションです。 管理者は、指標をグループや全員に公開する前に、このオプションを使用して指標を入念に調べて検証する必要が生じる場合があります。 指標が有用でない場合は、破棄できます。 管理者は、このタイプの指標を正式に承認しないでください。
+     これは、すべてのユーザーが使用できる唯一の共有オプションです。 管理者は、指標をグループや全員に公開する前に、このオプションを使用して指標を入念に調べて検証する必要が生じる場合があります。 指標が有用でない場合は、破棄できます。 管理者は、このタイプの指標を正式に承認しないでください。
 
 1. 「**[!UICONTROL 共有]**」を選択します。
 
