@@ -3,16 +3,16 @@ title: eVar（ディメンション）
 description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
 # eVar
 
-*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
+*このヘルプページでは、eVar が [ディメンション](overview.md). eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
 eVar は、好きなだけ使用できるカスタム変数です。 次の場合、 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)の場合、組織に固有のほとんどのディメンションは、 [!UICONTROL eVar]に追加され、Adobe Analyticsで使用できるデフォルトのディメンション（「ページ名」、「参照ドメイン」、「チャネル」など）が含まれます。 詳しくは、 [Dimensionの概要](overview.md) を参照してください。
 

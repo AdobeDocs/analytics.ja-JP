@@ -3,10 +3,10 @@ title: 指標の概要
 description: 時間の経過に伴うディメンション項目またはデータの表示量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics 管理者は、レポートスイート内または直接 Analysis Wor
 
 ## Analysis Workspace での指標の使用
 
-Analysis Workspace での指標の使用方法については、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の「Analysis Workspace での指標の使用」を参照してください。
+Analysis Workspaceでの指標の使用方法について詳しくは、 [Analysis Workspaceでの指標の使用](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

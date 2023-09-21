@@ -3,16 +3,16 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 郵便番号
 
-「郵便番号」ディメンションは、訪問者の郵便番号を報告します。このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [ディメンション](overview.md) は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 

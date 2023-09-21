@@ -3,16 +3,16 @@ title: 米国の州
 description: 訪問者の米国の州。
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 89%
+ht-degree: 85%
 
 ---
 
 # 米国の州
 
-「米国の州」ディメンションは、米国の訪問者の州をレポートします。これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「米国の州」 [ディメンション](overview.md) は、米国の訪問者の州をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 

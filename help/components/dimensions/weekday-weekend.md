@@ -3,16 +3,16 @@ title: 平日／週末
 description: ヒットが平日または週末のどちらで発生したかを指定します。
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # 平日／週末
 
-「平日／週末」ディメンションは、ヒットが平日（月～金）または週末（土曜～日）のどちらで発生したかを分析するために使用します。ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
+「平日/週末」 [ディメンション](overview.md) ヒットが平日（月～金）または週末（土～日）のどちらで発生したかを把握できます。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションへのデータ入力
 

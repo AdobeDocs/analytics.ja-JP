@@ -3,16 +3,16 @@ title: 永続的な cookie のサポート
 description: 訪問者が永続的な cookie をサポートできるかどうかを指定します。
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 永続的な cookie のサポート
 
-「永続的な cookie のサポート」ディメンションは、永続的なソースから発生した訪問者の識別子をヒットが使用したかどうかを示します。 最も一般的な永続的なソースは cookie からのものですが、モバイルヘッダーや他のソースも使用できます。
+「永続的な cookie のサポート」 [ディメンション](overview.md) ヒットが、永続的なソースから発生した訪問者識別子を使用したかどうかを示します。 最も一般的な永続的なソースは cookie からのものですが、モバイルヘッダーや他のソースも使用できます。
 
 ## このディメンションへのデータ入力
 

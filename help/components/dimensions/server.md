@@ -3,22 +3,22 @@ title: サーバー
 description: サーバーの名前。
 feature: Dimensions
 exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # サーバー
 
-「サーバー」ディメンションは、通常、サイトのホスト名をリストします。複数のドメインまたはサブドメインを組み合わせたレポートスイートでは、このディメンションは、どのドメインまたはサブドメインのパフォーマンスが最も良いかを調べるのに役立ちます。
+「サーバー」 [ディメンション](overview.md) は通常、サイトのホスト名をリストします。 複数のドメインまたはサブドメインを組み合わせたレポートスイートでは、このディメンションは、どのドメインまたはサブドメインのパフォーマンスが最も良いかを調べるのに役立ちます。
 
 このディメンションは、[ページ](page.md)および[サイトセクション](site-section.md)ディメンションに関連しています。ページの精度は最も高く、サーバーの精度は最も低く、サイトセクションはこの 2 つの間にあります。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`server`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、[`server`](/help/implement/vars/page-vars/server.md) 変数を使用してこのデータを収集します。
+このディメンションは、イメージリクエストの[`server`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、[`server`](/help/implement/vars/page-vars/server.md) 変数を使用してこのデータを収集します。
 
 ## ディメンション項目
 

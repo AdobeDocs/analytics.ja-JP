@@ -3,10 +3,10 @@ title: 階層
 description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> このディメンションは廃止され、Analysis Workspace で使用できるディメンションではありません。アドビでは、代わりに [eVar](evar.md) と分類を使用することをお勧めします。
+>このディメンションは廃止されており、使用できません [ディメンション](overview.md) Analysis Workspaceで アドビでは、代わりに [eVar](evar.md) と分類を使用することをお勧めします。
 
 階層は、好きなように使用できるカスタム変数です。設定されたヒットの後は保持されません。アドビとの契約でサポートされている場合は、最大 5 個の階層を使用できます。
 

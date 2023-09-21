@@ -3,16 +3,16 @@ title: カスタムリンク
 description: カスタムリンクの名前。
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # カスタムリンク
 
-「カスタムリンク」ディメンションは、サイトに実装されたカスタムリンクの名前をレポートします。このディメンションは、訪問者が最もクリックするリンクのタイプを理解したい場合に役立ちます。
+「カスタムリンク」 [ディメンション](overview.md) は、サイトに実装されたカスタムリンクの名前をレポートします。 このディメンションは、訪問者が最もクリックするリンクのタイプを理解したい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 

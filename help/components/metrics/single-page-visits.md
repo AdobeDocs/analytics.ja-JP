@@ -3,8 +3,8 @@ title: 直帰数（指標）
 description: 訪問で、「ページ」ディメンション項目が変更されなかった回数。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *このヘルプページでは、「直帰数」が指標としてどのように機能するかを説明します。詳しくは、[直帰数](../dimensions/single-page-visits.md)ディメンションを参照してください。*
 
-「[!UICONTROL 直帰数]」指標は、「[ページ](../dimensions/page.md)」ディメンション項目に訪問全体で一意の値が 1 つのみ含まれている訪問回数を示します。この指標は、短い訪問を表示したいが、[[!UICONTROL バウンス]](bounces.md)ほど厳しいルールを持たないディメンションのコンテキストで役立ちます。
+「[!UICONTROL 直帰数][](overview.md)」指標は、「[ページ](../dimensions/page.md)」ディメンション項目に訪問全体で一意の値が 1 つのみ含まれている訪問回数を示します。この指標は、短い訪問を表示したいが、[[!UICONTROL バウンス]](bounces.md)ほど厳しいルールを持たないディメンションのコンテキストで役立ちます。
 
 ## この指標の計算方法
 

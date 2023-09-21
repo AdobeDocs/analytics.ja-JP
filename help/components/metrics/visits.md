@@ -3,16 +3,16 @@ title: 訪問数
 description: 1 回のランディングでの一連のページビュー。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 訪問数
 
-「訪問回数」指標は、サイト上のすべての訪問者のセッション数を示します。
+「訪問回数」 [指標](overview.md) サイト上のすべての訪問者のセッション数を示します。
 
 ## この指標の計算方法
 

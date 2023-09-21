@@ -3,16 +3,16 @@ title: 一意のデバイス
 description: 一意のデバイスの数。
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 一意のデバイス
 
-「一意のデバイス」指標は、一意の未識別デバイス数と一意の仮想デバイス数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。未識別のデバイスとは、匿名のヒットを生成したデバイスのことです。一意の仮想デバイスとは、デバイスごとに識別される個別のユーザーです。
+「個別デバイス」 [指標](overview.md) は [クロスデバイス分析](../cda/overview.md) 一意の未識別デバイスと一意の仮想デバイスの数をカウントする指標。 未識別のデバイスとは、匿名のヒットを生成したデバイスのことです。一意の仮想デバイスとは、デバイスごとに識別される個別のユーザーです。
 
 ## この指標の計算方法
 

@@ -3,16 +3,16 @@ title: 買い物かご
 description: 訪問者が最初の製品を買い物かごに追加したヒットの数。
 feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 56%
+ht-degree: 45%
 
 ---
 
 # 買い物かご
 
-「買い物かご」指標は、訪問者が最初の製品を買い物かごに追加したヒット数を示します。
+「買い物かご」 [指標](overview.md) 訪問者が買い物かごに最初の製品を追加したヒットの数を示します。
 
 ## この指標の計算方法
 

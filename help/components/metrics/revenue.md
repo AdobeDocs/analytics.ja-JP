@@ -3,16 +3,16 @@ title: 売上高
 description: すべての注文内で購入された商品の金額。
 feature: Metrics
 exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 売上高
 
-「売上高」指標は、すべての注文内で購入された製品の金額を示します。この指標は、e コマースのサイトでコンバージョンを測定する際に重要です。この指標を任意のディメンションと組み合わせて、売上高に貢献したディメンション項目を確認できます。例えば、トラッキングコード（[トラッキングコード](../dimensions/tracking-code.md)ディメンション）を使用した上位のキャンペーンや、[eVar](../dimensions/evar.md) を使用した上位の内部検索用語を確認できます。
+「売上高」 [指標](overview.md) すべての注文内で購入された製品の金額を表示します。 この指標は、e コマースのサイトでコンバージョンを測定する際に重要です。この指標を任意のディメンションと組み合わせて、売上高に貢献したディメンション項目を確認できます。例えば、トラッキングコード（[トラッキングコード](../dimensions/tracking-code.md)ディメンション）を使用した上位のキャンペーンや、[eVar](../dimensions/evar.md) を使用した上位の内部検索用語を確認できます。
 
 ## この指標の計算方法
 

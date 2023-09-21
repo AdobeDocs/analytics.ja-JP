@@ -3,16 +3,16 @@ title: 直帰数（ディメンション）
 description: 訪問が 1 つのページで構成されていることを示すフラグ。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 直帰数
 
-*このヘルプページでは、「直帰数」がディメンションとして機能する方法を説明します。詳しくは、[直帰数](../metrics/single-page-visits.md)指標を参照してください。*
+*このヘルプページでは、「単一ページ訪問」が [ディメンション](overview.md). 詳しくは、[直帰数](../metrics/single-page-visits.md)指標を参照してください。*
 
 「直帰数」ディメンションは、一意の[ページ](page.md)ディメンション項目 1 つで構成される訪問回数をレポートします。これは、[直帰数](../metrics/single-page-visits.md)指標のディメンション形式です。
 

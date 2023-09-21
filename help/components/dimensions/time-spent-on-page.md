@@ -3,16 +3,16 @@ title: ページでの滞在時間
 description: 訪問者がページに滞在した時間。
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 91%
+ht-degree: 85%
 
 ---
 
 # ページでの滞在時間
 
-「ページでの滞在時間」ディメンションは、訪問者がページで滞在した時間を記録します。次の手順を使用して計算を測定します。
+「ページでの滞在時間」 [ディメンション](overview.md) 訪問者がページに滞在した時間を記録します。 次の手順を使用して計算を測定します。
 
 1. 特定のヒットについて、タイムスタンプを確認します。
 2. このヒットを、訪問の次のヒットのタイムスタンプと比較します。ページビューとリンクトラッキングのヒット数の両方。

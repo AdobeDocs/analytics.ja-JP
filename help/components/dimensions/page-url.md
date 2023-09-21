@@ -3,16 +3,16 @@ title: ページ URL
 description: ページの URL。
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # ページ URL
 
-「ページ URL」ディメンションは、サイト上の URL をリストします。
+「ページ URL」 [ディメンション](overview.md) は、サイトの URL の一覧を示します。
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 このディメンションは、[ページビュー呼び出し（`t()`）](/help/implement/vars/functions/t-method.md) の [`g` および `-g` のクエリ文字列 ](/help/implement/validate/query-parameters.md) からデータを取得します。 [リンクトラッキング呼び出し（`tl()`）](/help/implement/vars/functions/tl-method.md) は、 `g` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
 
-URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリー文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリー文字列パラメーターに保存されます。URL 内のプロトコルとクエリー文字列がこの変数に含まれます。
+URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリ文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリ文字列パラメーターに保存されます。URL 内のプロトコルとクエリ文字列がこの変数に含まれます。
 
 AppMeasurement は、ページの URL に基づいてこのデータを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。
 

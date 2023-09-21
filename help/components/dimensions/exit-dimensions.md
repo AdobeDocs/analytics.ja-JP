@@ -4,16 +4,16 @@ description: 出口ディメンションと、その使用をリストします�
 keywords: 出口ページ、出口サイトセクション、出口サーバー、出口 custom insight
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 出口ディメンション
 
-*このヘルプページでは、出口がディメンションとして機能するしくみについて説明します。出口が指標として機能する方法について詳しくは、[出口](../metrics/exits.md)指標を参照してください。*
+*このヘルプページでは、出口が [ディメンション](overview.md). 出口が指標として機能する方法について詳しくは、[出口](../metrics/exits.md)指標を参照してください。*
 
 出口ディメンションは、最後のディメンション項目を記録し、訪問のすべてのヒットに遡って適用します。出口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
 

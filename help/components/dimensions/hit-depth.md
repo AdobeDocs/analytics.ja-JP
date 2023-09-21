@@ -3,16 +3,16 @@ title: ヒットの深さ
 description: 訪問へのヒット数。
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # ヒットの深さ
 
-「ヒットの深さ」ディメンションは、特定のヒットが訪問までどの程度あるかをレポートします。このディメンションは、訪問者がサイト上でアクションを実行する訪問までの距離を把握するのに役立ちます。ヒットの深さでは、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）やリンクトラッキングのヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）など、すべてのタイプのヒットをカウントします。
+「ヒットの深さ」 [ディメンション](overview.md) は、特定のヒットが訪問までどの程度の距離にあるかをレポートします。 このディメンションは、訪問者がサイト上でアクションを実行する訪問までの距離を把握するのに役立ちます。ヒットの深さでは、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）やリンクトラッキングのヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）など、すべてのタイプのヒットをカウントします。
 
 ## このディメンションへのデータ入力
 

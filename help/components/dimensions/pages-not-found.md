@@ -3,16 +3,16 @@ title: エラーページ（ディメンション）
 description: サイトでエラーを返した URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
 # エラーページ（404）
 
-*このヘルプページでは、「エラーページ（404）」がディメンションとして機能する方法を説明します。詳しくは、[エラーページ（404）](../metrics/pages-not-found.md)指標を参照してください。*
+*このヘルプページでは、「エラーページ (404)」が [ディメンション](overview.md). 詳しくは、[エラーページ（404）](../metrics/pages-not-found.md)指標を参照してください。*
 
 エラーを含む URL を示す「エラーページ（404）」ディメンション。このディメンションは、訪問者がサイトで発生するエラーの数を減らす場合に役立ちます。
 

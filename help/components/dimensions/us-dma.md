@@ -3,16 +3,16 @@ title: 米国 DMA
 description: ヒットの指定された市場領域。
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # 米国 DMA
 
-「US DMA」ディメンションは、訪問者の指定販売地域（DMA）を報告します。これは、[Nielsen 社](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/)がまとめたメディア市場に基づいています。
+「米国 DMA」 [ディメンション](overview.md) は、訪問者の指定販売地域 (DMA) を報告します。 これは、[Nielsen 社](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/)がまとめたメディア市場に基づいています。
 
 ## このディメンションへのデータ入力
 

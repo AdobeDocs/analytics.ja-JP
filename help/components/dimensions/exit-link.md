@@ -3,16 +3,16 @@ title: 離脱リンク
 description: 離脱リンクの名前。
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 離脱リンク
 
-「離脱リンク」ディメンションは、サイトに実装された離脱リンクの名前をレポートします。このディメンションは、サイト外のドメインを指すどのリンクが最も人気があるかを把握したい場合に役立ちます。
+「出口リンク」 [ディメンション](overview.md) は、サイトに実装された出口リンクの名前をレポートします。 このディメンションは、サイト外のドメインを指すどのリンクが最も人気があるかを把握したい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 

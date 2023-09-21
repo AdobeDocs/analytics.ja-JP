@@ -3,8 +3,8 @@ title: ページビュー数
 description: Adobe Analytics でディメンション項目が設定または保持された回数。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # ページビュー数
 
-**[!UICONTROL ページビュー数]**&#x200B;の指標は、特定のディメンション項目（ディメンション値）がページ上で定義または保持された回数（つまり、期限切れになった日時）を示します。これは、レポートで最も一般的で基本的な指標の 1 つです。
+**[!UICONTROL ページビュー数]**&#x200B;の指標は、特定のディメンション項目（ディメンション値）がページ上で定義または保持された回数（つまり、期限切れになった日時）を示します。[](overview.md)これは、レポートで最も一般的で基本的な指標の 1 つです。
 
 例えば、[!UICONTROL 曜日]ディメンションは、日曜日、月曜日、火曜日、水曜日、木曜日、金曜日、土曜日の各ディメンション項目で構成されます。
 

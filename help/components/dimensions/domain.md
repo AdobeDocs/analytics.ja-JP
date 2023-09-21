@@ -3,16 +3,16 @@ title: ドメイン
 description: 訪問者がインターネットにアクセスするために使用する組織または ISP。
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # ドメイン
 
-「ドメイン」ディメンションは、訪問者がインターネットへのアクセスに使用するアクセスポイントを報告します。
+「ドメイン」 [ディメンション](overview.md) は、訪問者がインターネットにアクセスする際に使用するアクセスポイントをレポートします。
 
 ## このディメンションへのデータ入力
 

@@ -3,16 +3,16 @@ title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Analytics のディメンションの互換性
 
-このページは、それぞれの Analytics 機能でサポートされているディメンションを一覧表示しています。
+このページのリスト [寸法](overview.md) は、それぞれの Analytics 機能でサポートされています。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 国 | `geocountry` |
 | 顧客の忠誠度 | `customerloyalty` |
 | カスタムコンバージョン VAR | `evar1`, `evar2`, etc. |
-| カスタムインサイト VAR | `prop1`, `prop2`など |
+| カスタムインサイト VAR | `prop1`, `prop2`, etc. |
 | カスタムリンク | `customlink` |
 | 初回購入までの日数 | `daysbeforefirstpurchase` |
 | 前回購入からの日数 | `dayssincelastpurchase` |

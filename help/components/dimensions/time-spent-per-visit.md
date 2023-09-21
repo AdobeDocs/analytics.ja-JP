@@ -3,16 +3,16 @@ title: 訪問別滞在時間（ディメンション）
 description: 訪問に費やした合計時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # 訪問別滞在時間
 
-*このヘルプページでは、「訪問別滞在時間」がそれぞれのディメンションとしてどのように機能するかを説明します。詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
+*このヘルプページでは、「訪問別滞在時間」がそれぞれの [寸法](overview.md). 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
 
 「訪問別滞在時間」ディメンションは、訪問者が訪問全体で滞在した時間を記録します。次の手順を使用して計算を測定します。
 

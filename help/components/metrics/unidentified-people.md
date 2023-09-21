@@ -3,16 +3,16 @@ title: 特定されていないユーザー
 description: クロスデバイス分析で識別されなかった訪問者の数。
 feature: Metrics
 exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
 # 特定されていないユーザー
 
-「未識別のユーザー」指標は、CDA が識別できなかった訪問者の数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。
+「未確認の人々」 [指標](overview.md) は [クロスデバイス分析](../cda/overview.md) 指標を使用して、CDA が識別できなかった訪問者の数をカウントします。
 
 ## この指標の計算方法
 

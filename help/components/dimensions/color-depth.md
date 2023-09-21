@@ -3,20 +3,20 @@ title: 色深度
 description: デバイスの色深度。
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 色深度
 
-色深度ディメンションは、デバイスがサポートする色数を報告します。このディメンションは、1600 万色をサポートしていないデバイスから発生するトラフィックの量を調べるのに役立ちます。これまで、このレポートは新しいモバイル Web が登場したときに役に立ちました。ただし、現在の世代のほとんどのデバイスは 1600 万色をサポートしています（0 ～ 255 は赤、緑、青）。 <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+「色深度」 [ディメンション](overview.md) は、デバイスがサポートする色数を報告します。 このディメンションは、1600 万色をサポートしていないデバイスから発生するトラフィックの量を調べるのに役立ちます。これまで、このレポートは新しいモバイル Web が登場したときに役に立ちました。ただし、現在の世代のほとんどのデバイスは 1600 万色をサポートしています（0 ～ 255 は赤、緑、青）。 <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## このディメンションへのデータ入力
 
-このディメンションは、ルックアップテーブルを参照し、ビット値をより読みやすい形式に変換します。イメージリクエスト内の [`c` クエリ文字列](/help/implement/validate/query-parameters.md)を収集します。AppMeasurement は、`screen.colorDepth` 変数を使用して、イメージリクエストクエリ文字列を設定します。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `c` クエリー文字列パラメーターを有効なビット値で含めてください。
+このディメンションは、ルックアップテーブルを参照し、ビット値をより読みやすい形式に変換します。イメージリクエスト内の [`c` クエリ文字列](/help/implement/validate/query-parameters.md)を収集します。AppMeasurement は、`screen.colorDepth` 変数を使用して、イメージリクエストクエリ文字列を設定します。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `c` クエリ文字列パラメーターを有効なビット値で含めてください。
 
 ## ディメンション項目
 

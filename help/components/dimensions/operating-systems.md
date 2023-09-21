@@ -3,16 +3,16 @@ title: オペレーティングシステム
 description: 訪問者のオペレーティングシステム。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
 # オペレーティングシステム
 
-「オペレーティングシステム」ディメンションは、訪問者が使用していたオペレーティングシステムとバージョンを示します。Web プロパティに OS 固有の機能がある場合、このディメンションは、最も一般的なオペレーティングシステムを示します。
+「オペレーティングシステム」 [ディメンション](overview.md) 訪問者が使用したオペレーティングシステムとバージョンを表示します。 Web プロパティに OS 固有の機能がある場合、このディメンションは、最も一般的なオペレーティングシステムを示します。
 
 ## このディメンションへのデータ入力
 
@@ -22,9 +22,9 @@ ht-degree: 25%
 
 ディメンション項目には、訪問者が使用するオペレーティングシステムが含まれます。例として、`"Windows 10"`、`"OS X 10.15"`、および `"Android 9"` があります。
 
-## ラベル設定と定義の変更
+## ラベル付けと定義の変更
 
-以下に、ユーザーエージェントとAdobe Analyticsのレポートでオペレーティングシステムがどのように表示されたかに関する具体的な問題を示します。
+以下に、ユーザーエージェントとAdobe Analyticsのレポートでオペレーティングシステムがどのように表示されたかに関する具体的な問題のリストを示します。
 
 ### オペレーティングシステムの精度の変更
 
@@ -43,10 +43,10 @@ ht-degree: 25%
 
 Appleコンピューター上の User Agent では、新しいバージョンでも OS のバージョンが10.15.7と表示されます。 これは、UA にバージョン 11 を含めると、明らかに一部のウェブサイトで問題が発生したためです。 これはに当てはまります。 *すべてのブラウザー* とは、Chromium ブラウザー上のGoogleユーザーエージェントの「フリーズ」とは関係ありません。
 
-クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒント FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
+クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒントに関する FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
 
-### Windows 11 以降のユーザーエージェントで、Windows のバージョンが正しくありません
+### Windows 11 以降の User Agent で、Windows のバージョンが正しくありません
 
 2023 年 1 月以降、すべてのブラウザーの User Agent では、Windows 11 が Windows 10 と表示されます。
 
-クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒント FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
+クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒントに関する FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細

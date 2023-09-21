@@ -3,16 +3,16 @@ title: コンテンツベロシティ
 description: コンテンツベロシティは、コンテンツが下流のコンテンツに与える影響を測定します。
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
 # コンテンツベロシティ
 
-「コンテンツベロシティ」は、ダウンストリームコンテンツに対するディメンションの影響を測定するのに役立つ計算指標テンプレートです。「`Page views (Visit participation) divided by Visits`」式が使用されています。
+「コンテンツベロシティ」は計算済みです [指標](overview.md) ダウンストリームコンテンツに対するディメンションの影響を測定するのに役立つテンプレートです。 「`Page views (Visit participation) divided by Visits`」式が使用されています。
 
 ![](assets/cont-velo-1.png)
 

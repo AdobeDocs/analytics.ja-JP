@@ -3,16 +3,16 @@ title: 午前／午後
 description: ヒットが午前中に発生したか、午後 2 時間に発生したかを判定します。
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # 午前／午後
 
-「AM／PM」ディメンションは、ヒットが午前または午後の時間に発生したかどうかに関する洞察を提供します。ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
+「午前/午後」 [ディメンション](overview.md) ヒットが午前中に発生したか、午後 2 時間に発生したかに関するインサイトを提供します。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションへのデータ入力
 
