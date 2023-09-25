@@ -3,10 +3,10 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 71%
 
 製品は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の XDM フィールドの下：
 
-* カテゴリのマッピング先 `productListItems[].lineItemId`.
+* カテゴリのマッピング先 `productListItems[].productCategories[].categoryID`. 次の項目の最初の項目を使用します： `productCategories[]` 配列。 `lineItemId` また、は正しくマッピングされますが、 `categoryID` これは標準の XDM なので。 両方の XDM フィールドが存在する場合 `lineItemId` が優先します。
 * 製品が `productListItems[].SKU` または `productListItems[].name`. 両方の XDM フィールドが存在する場合、 `productListItems[].SKU` が使用されます。
 * 数量が次にマッピングされています： `productListItems[].quantity`.
 * 価格は `productListItems[].priceTotal`.
@@ -35,7 +35,7 @@ ht-degree: 71%
 
 ## Adobe Analytics拡張機能を使用する製品
 
-Adobe Experience Platformデータ収集にこの変数を設定するための専用フィールドはありません。ただし、役に立つ複数のサードパーティの拡張機能が存在します。
+Adobe Experience Platformデータ収集にこの変数を設定するための専用フィールドはありませんが、役立つように複数のサードパーティ拡張機能が存在します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
@@ -44,11 +44,11 @@ Adobe Experience Platformデータ収集にこの変数を設定するための�
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement内の s.products と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementの s.products と Analytics 拡張機能のカスタムコードエディター
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。文字列内の各フィールドをセミコロン（`;`）で区切ります。
 
-* **カテゴリ** （オプション）:商品カテゴリ。 このフィールドの最大長は 100 バイトです。
+* **カテゴリ** （オプション）：製品カテゴリ。 このフィールドの最大長は 100 バイトです。
 * **製品名**（必須）：製品の名前。このフィールドの最大長は 100 バイトです。
 * **量**（任意）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **価格**（任意）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
