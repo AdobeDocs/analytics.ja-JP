@@ -3,7 +3,7 @@ title: Adobe Analytics が使用する IP とドメイン
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 23de7e6fb9f3b1276c7725ac99154e96e09a8469
+source-git-commit: 32318f2974e4ced630ab6d4090fa9ea5c420ddae
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 73%
@@ -83,9 +83,9 @@ Adobe Analytics は、Amazon Web サービスをデータ収集プロセスの�
 
 | 場所 | ホスト |
 | --- | --- |
-| 中国 | `52.80.44.16` |
-| 中国 | `52.80.161.58` |
-| 中国 | `140.179.173.142` |
+| 中国 | `52.80.168.159` |
+| 中国 | `52.80.199.104` |
+| 中国 | `54.223.199.8` |
 
 次の表に、Adobeで使用されるAWS IPv6 アドレスブロックを示します。 これらのホストは、上記の集計ブロック範囲に含まれ&#x200B;**ません**。
 
