@@ -3,7 +3,7 @@ title: Adobe Analytics 権限 - 概要テーブル
 description: Adobe Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ ht-degree: 98%
 | ビデオ設定 |  |  |  | x | 未使用。 |
 | Web リソース |  |  |  | x | 未使用。 |
 
+{style="table-layout:auto"}
+
 ## Analytics ツール
 
 | Analytics ツール | 管理 | アクセス制御 | レポートのみの機能 | 廃止された  | 説明 |
@@ -110,3 +112,5 @@ ht-degree: 98%
 | 権限（書き込み） - Web サービス |  |  |  | x | 廃止。ユーザーが管理 API を使用して従来の Analytics 権限を編集できるようにします。代わりに、Adobe Admin Console を使用します。 |
 | 環境設定 |  |  |  | x | 未使用。 |
 | シングルサインオン |  |  |  | x | 廃止。非推奨のシングルサインオンサービスへのアクセスを許可します。 |
+
+{style="table-layout:auto"}

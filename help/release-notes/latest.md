@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2023年9月）
 
-**最終更新日**：2023年9月13日（PT）
+**最終更新日**：2023年9月20日（PT）
 
 9月のリリースノートは、2023年9月13日（PT）から 2023年10月3日（PT）までのリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 | **API 2.0 での分類** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 該当なし | 2023年9月13日（PT） |
 | **A4T 分類に対する新しい `correlationID` フィールドのサポート** | `_experience.decisioning.propositions.scopeDetails.correlationID` フィールドが Adobe Analytics ソースコネクタスキーマで使用できるようになりました。Adobe Target のアクティビティとエクスペリエンスイベントの分類データを簡単に結合できるように、この ID を追加しています。 | 該当なし | 2023年9月13日（PT） |
 | **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月13日（PT） | 2023年10月4日（PT） |
-| **コンポーネントを管理する際に使用できる新しい列** | コンポーネントを管理する際に、次の新しい列を使用できるようになりました。<ul><li>使用場所<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) そして [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>前回の使用<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)、および [アラートマネージャー](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、および削除または変更する必要があるかどうかを判断するのに役立ちます。 この情報と共にデータディクショナリを使用すると、組織でのコンポーネントの使用方法を追跡し、より深く理解することができます。</p> | 2023年9月20日（PT） | 2023年10月4日（PT） |
+| **コンポーネントを管理する際に使用できる新しい列** | コンポーネントを管理する際に、次の新しい列を使用できるようになりました。<ul><li>使用場所<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) そして [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>前回の使用<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)、および [アラートマネージャー](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、削除または変更する必要があるかどうかを判断するのに役立ちます。この情報と共にデータ辞書を使用すると、組織内でのコンポーネントの使用方法を追跡し、より深く理解することができます。</p> | 2023年9月20日（PT） | 2023年10月4日（PT） |
 
 {style="table-layout:auto"}
 
