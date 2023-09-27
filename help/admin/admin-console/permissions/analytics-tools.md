@@ -3,9 +3,9 @@ title: Analytics ツールの製品プロファイル権限
 description: Analytics ツールの権限の項目を使用して、Adobe Analytics 内の機能へのアクセス権を付与します。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | Analytics ツールの権限の項目 | 説明 |
 |----|----|
 | [!UICONTROL Activity Map] | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
-| [!UICONTROL Advertising Analytics 管理] | 未使用。 |
+| [!UICONTROL Advertising Analytics 管理] | ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 |
 | [!UICONTROL Analysis Workspace アクセス] | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
 | [!UICONTROL Analysis Workspace：テンプレートとして保存] | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
 | [!UICONTROL 注釈の作成] | 注釈を作成する機能を付与します。 |

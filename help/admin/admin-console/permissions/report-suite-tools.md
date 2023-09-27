@@ -3,10 +3,10 @@ title: Adobe Admin Console のレポートスイートツールに対する製�
 description: レポートスイートツールの各権限項目について説明します。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 90%
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 | レポートスイートツールの権限の項目 | 説明 |
 |------|------|
 | [!UICONTROL アカウントの概要] | Report Suite Manager の一般／一般的なアカウント設定へのアクセスを許可します。 |
-| [!UICONTROL Advertising Analytics 設定] | Advertising Analyticsの設定のすべての側面へのアクセス権を付与します。 |
+| [!UICONTROL Advertising Analytics 設定] | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 |
 | [!UICONTROL 異常値検出] | Analysis Workspace の異常値検出へのアクセスを許可します。 |
 | [!UICONTROL ボットページ] | Reports &amp; Analytics のサイト指標／ボット／ボットページレポートへのアクセスを許可します。 |
 | [!UICONTROL ボット] | Reports &amp; Analytics のサイト指標／ボット／ボットレポートへのアクセスを許可します。 |
@@ -44,8 +44,8 @@ ht-degree: 90%
 | [!UICONTROL リアルタイムレポート] | Reports &amp; Analytics のサイト指標／リアルタイムへのアクセスを許可します。このレポートを設定するアクセス権を付与するには、権限項目「リアルタイムレポート設定」を使用します。 |
 | [!UICONTROL リアルタイムレポート設定] | Report Suite Manager の「リアルタイム」へのアクセスを許可します。権限項目「リアルタイムレポート」を使用して、レポート自体へのアクセスを許可します。 |
 | [!UICONTROL 再来訪] | Reports &amp; Analytics で、訪問者保持率／再来訪へのアクセスを許可します。 |
-| [!UICONTROL Activity Manager 管理者のレポート] | 詳細ページへのアクセス権とリクエストのキャンセル機能を付与します。 |
-| [!UICONTROL レポートアクティビティマネージャーへのアクセス] |  |
+| [!UICONTROL Activity Manager 管理者のレポート] | 未定 |
+| [!UICONTROL レポートアクティビティマネージャーへのアクセス] | 未定 |
 | [!UICONTROL レポート スイート管理] | Report Suite Manager へのアクセスを許可しますが、変更は許可されません。 |
 | [!UICONTROL R&amp;A ダッシュボード画像レポートレット] | 未使用 |
 | [!UICONTROL R&amp;A ダッシュボード指標ゲージレポートレット] | 未使用 |
