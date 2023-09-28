@@ -4,9 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 96%
 
 ---
@@ -32,6 +34,7 @@ ht-degree: 96%
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
+   + [コンポーネントの移行](admin/component-migration.md)
    + レポートスイートマネージャー {#manage-report-suites}
       + レポートスイートの設定の編集 {#edit-report-suite}
          + 一般 {#report-suite-general}
@@ -171,7 +174,7 @@ ht-degree: 96%
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
    + ユーザーと製品の管理（レガシー） {#user-product-management}
       + [ユーザーと製品の管理(レガシー)](admin/user-management2/user-management.md)
-      + [ユーザーアセットの転送またはアカウント有効期限の設定](admin/user-management2/users-assets.md)
+      + [ユーザーアセットの転送と、アカウントの有効期限の設定](admin/user-management2/users-assets.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
