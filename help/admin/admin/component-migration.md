@@ -4,16 +4,16 @@ title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネン�
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1784'
 ht-degree: 8%
 
 ---
 
 # Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行
 
-Adobe Analytics管理者は、Adobe AnalyticsのコンポーネントとプロジェクトをCustomer Journey Analyticsに移行できます。
+Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
 
 移行プロセスには、以下が含まれます。
 
@@ -21,15 +21,17 @@ Adobe Analytics管理者は、Adobe Analyticsのコンポーネントとプロ�
 
 * ディメンションと指標をAdobe Analyticsレポートスイートから指標データビューのディメンションとCustomer Journey Analyticsにマッピングする。
 
-  一部のディメンションと指標は自動的にマッピングされます。それ以外のディメンションと指標は、移行プロセスの一環として手動でマッピングする必要があります。
+  一部のディメンションと指標は自動的にマッピングされます。それ以外のディメンションと指標は、移行プロセスの一環として手動でマッピングする必要があります。 また、セグメントも移行されますが、移行プロセスの一環としてマッピングする必要はありません。
+
+  移行が完了すると、移行されたすべてのコンポーネントが移行概要に表示されます。
 
 ## 移行の準備
 
-組織内のプロジェクトの移行を開始する前に、前提条件を満たし、移行の内容と移行されない内容を確認し、組織の移行計画を作成します。
+組織内の誰かがプロジェクトの移行を開始する前に、次の節を完了してください。
 
 ### 前提条件
 
-プロジェクトと関連するディメンションおよび指標を移行する準備が整う前に、まず次の手順を実行する必要があります。
+プロジェクトと関連コンポーネントを移行する準備が整う前に、まず次の手順を実行する必要があります。
 
 * Analytics ソースコネクタを使用して、Adobe AnalyticsレポートスイートデータをCustomer Journey Analyticsで表示します。 それには、次の手順を実行します。
 
@@ -49,28 +51,70 @@ Adobe Analytics管理者は、Adobe Analyticsのコンポーネントとプロ�
 
 移行に含まれるプロジェクト要素とコンポーネントの概要を次の表に示します。
 
+#### 移行されるコンポーネント要素
 
-|  | プロジェクト | Dimensionと指標 |
-|---------|----------|---------|
-| **日付範囲** | ○ | 該当なし |
-| **セグメント** | ○ | 該当なし |
-| **クイックセグメント** | ○ | 該当なし |
-| **パネル** | ○ | 該当なし |
-| **ビジュアライゼーション** | ○ | 該当なし |
-| **所有者** | （移行を実行するユーザーによって定義） | ? |
-| **キュレーション** | × | 該当なし |
-| **共有（プロジェクトの役割）** | × | × |
-| **注釈** | × | 該当なし |
-| **フォルダー構造** | × | 該当なし |
-| **説明** | ○ | ? |
-| **タグ** | ? | ? |
-| **スケジュール** | ? | 該当なし |
-| **アトリビューション（ディメンションに対する）** | 該当なし | ? |
-| **異常値検出** | ? | 該当なし |
-| **貢献度分析** | ? | 該当なし |
-| **アラート** | ? | 該当なし |
+|  | 移行済み |
+|---------|---------|
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | × |
+| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | × |
+| **[アトリビューション（ディメンションに対する）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### 移行されるプロジェクト要素
+
+|  | 移行済み |
+|---------|----------|
+| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[ディメンション](/help/components/dimensions/overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
+| **[指標](/help/components/metrics/overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
+| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 移行を実行するユーザーによって定義 |
+| **[キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)** | × |
+| **[共有（プロジェクトの役割）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | × |
+| **[共有（他のユーザーと共有）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)** | × |
+| **[フォルダー構造](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | × |
+| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[タグ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | × |
+| **[スケジュール](/help/components/scheduled-projects-manager.md)** | × |
+| **[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[お気に入り](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### エラーの原因となる、サポートされていない要素を理解する
+
+次のビジュアライゼーション、パネルおよび機能は、Customer Journey Analyticsではサポートされていません。 これらの要素が移行前にプロジェクトに含まれている場合、移行が失敗するか、プロジェクトの移行後にエラーが発生する可能性があります。
+
+プロジェクトをCustomer Journey Analyticsに移行する前に、これらの要素をAdobe Analyticsプロジェクトから削除します。 移行が失敗した場合は、移行を再試行する前にこれらの要素を削除します。
+
+#### サポートされないビジュアライゼーション
+
+* [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### サポートされていないパネル
+
+* [Analytics for Target（A4T）](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [メディア分平均オーディエンス](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [次または前の項目](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [ページの概要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### サポートされない機能
+
+* [貢献度分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [アラート](/help/components/c-alerts/intellligent-alerts.md)
 
 ### 組織としての移行プランの作成
 
@@ -108,7 +152,7 @@ Adobe Analytics管理者は、Adobe Analyticsのコンポーネントとプロ�
 
 1. Adobe Analytics の [!UICONTROL **プロジェクト所有者**] 「 」フィールドに、「Customer Journey Analytics」でプロジェクトの所有者に設定するユーザーの名前を入力し、ドロップダウンメニューでユーザーの名前を選択します。
 
-   指定した所有者は、プロジェクトに対する完全な管理権限を持ちます。
+   指定した所有者には、プロジェクトに対する完全な管理権限があります.
 
 1. Adobe Analytics の [!UICONTROL **レポートスイートのスキーマをマッピング**] セクションで、レポートスイートを選択します。
 
