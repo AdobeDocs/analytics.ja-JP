@@ -4,10 +4,10 @@ title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネン�
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 8%
+source-wordcount: '1974'
+ht-degree: 9%
 
 ---
 
@@ -116,11 +116,89 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 * [アラート](/help/components/c-alerts/intellligent-alerts.md)
 
-### 組織としての移行プランの作成
+### サポートされていないコンポーネントのマッピング方法を組織として決定する
 
-特定のプロジェクトの移行に対してマッピングされるコンポーネントは、組織全体の今後のプロジェクトの移行に適用されるので、事前にすべてのプロジェクトの移行を計画しておくことが重要です。
+>[!IMPORTANT]
+>
+>Customer Journey Analyticsプロセスでは、Adobe Analyticsプロジェクト内のコンポーネントが識別されます。このコンポーネントは移行時に自動的にコンポーネントにマッピングされず、手動でマッピングできます。
+>
+>**1 つのプロジェクトに対して行われたマッピングは、移行を実行しているユーザーに関係なく、組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、カスタマーケアに問い合わせる以外は、変更または取り消しできません。**
+>
+>このため、プロジェクトを移行する前に、組織がディメンションと指標のマッピング方法を決定することが重要です。 これにより、1 つのプロジェクトのみを考慮する場合に、個々の管理者がサイロで意思決定を行うのを防ぐことができます。
+>
+>次に、プロジェクトに存在する場合に手動でマッピングする必要があるディメンションと指標のリストを示します。 移行する前に、このリストを確認することをお勧めします。 プロジェクト内にこれらのコンポーネントが存在する場合は、どのCustomer Journey Analyticsコンポーネントにマッピングするかを今すぐ決定します。
 
-ディメンションと指標のマッピング方法は、組織として決定する必要があります。 これにより、1 つのプロジェクトのみを考慮する場合に、個々の管理者がサイロで意思決定を行うのを防ぐことができます。
+
+#### サポートされていないディメンション
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### サポートされない指標
+
+* timespentvisit
+* timespentvisitor
+* リロード
+* bounces
+* 跳ね返る
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* 新規エンゲージメント
+* time_granularity
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* デバイス
+* 推定担当者
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Adobe AnalyticsプロジェクトのCustomer Journey Analyticsへの移行
 
@@ -214,11 +292,13 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 移行に失敗した場合は、移行を再試行できます。
 
-失敗した移行は、次のいずれかの方法で再試行できます。
+失敗した移行を再試行する前に、必ず [サポートされていない要素](#understand-unsupported-elements-that-cause-errors) を選択します。
 
 >[!NOTE]
 >
 >再試行後も移行が失敗し続ける場合は、プロジェクト ID をカスタマーケアにお問い合わせください。 プロジェクト ID は、移行ステータスページで確認できます。 <!-- when does this page display? How can they get there -->
+
+失敗した移行を再試行するには：
 
 1. Adobe Analytics で、「[!UICONTROL **管理者**]」タブを選択し、「[!UICONTROL **すべての管理者**]」を選択します。
 
