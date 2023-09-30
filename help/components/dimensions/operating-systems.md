@@ -3,10 +3,10 @@ title: オペレーティングシステム
 description: 訪問者のオペレーティングシステム。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 22%
+source-wordcount: '433'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 22%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。Adobeパートナーと [DeviceAtlas](https://deviceatlas.com/) ユーザーエージェントとオペレーティングシステム間の検索を維持する。
+
+* AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
+* Web SDK 実装の場合、を有効にします。 [!UICONTROL デバイス参照] when [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja).
 
 ## ディメンション項目
 

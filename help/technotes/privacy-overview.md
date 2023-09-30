@@ -4,9 +4,9 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ Adobe Analyticsでは、次のタイプのデータを収集できます。
 | 内部検索用語 | 内部検索データには、Web サイト内またはアプリの検索機能内から派生するキーワードが含まれます。 Adobeは、内部検索データを自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズすることはできます。 この方法は、Adobe Analyticsを使用する組織で一般的です。 | [eVar](../components/dimensions/evar.md) |
 | コンピューターおよびブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルの場合など、低エントロピーのブラウザーヒントを自動的に収集します。 ブラウザーの特定のバージョン/ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。 詳しくは、 [クライアントヒントの概要](client-hints.md) を参照してください。 | [ブラウザー](../components/dimensions/browser.md), [オペレーティングシステム](../components/dimensions/operating-systems.md), [モバイルディメンション](../components/dimensions/mobile-dimensions.md), [画面の解像度](../components/dimensions/monitor-resolution.md) |
 | 位置情報 | Adobeには、（レポートスイートレベルで）各 Web サイトまたはアプリの位置情報データの収集を有効または無効にする機能が用意されています。 位置情報データ収集は、デフォルトで有効になっています。 | [市区町村](../components/dimensions/cities.md), [地域](../components/dimensions/regions.md), [国](../components/dimensions/countries.md) |
-| IP アドレス | Adobeは、訪問者がこのデータを保存する際に、最後のオクテットを難読化するか、訪問者の IP アドレスを完全に難読化する機能を提供します。 通常、EMEA のお客様は、デフォルトで完全に不明化された IP アドレス設定をお持ちです。 難読化の設定に関係なく、IP アドレスはAdobe Analyticsではディメンションとして使用できず、 [データフィード](../export/analytics-data-feed/data-feed-overview.md). | なし |
+| IP アドレス | Adobeでは、このデータを保存する際に、訪問者の IP アドレスを難読化（ハッシュ化）したり、完全に削除したりできます。 通常、EMEA のお客様の IP アドレス設定は、デフォルトで不明化されます。 難読化の設定に関係なく、IP アドレスはAnalysis Workspaceではディメンションとして使用できず、 [データフィード](../export/analytics-data-feed/data-feed-overview.md). 詳しくは、 [一般的なアカウント設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) （利用可能な難読化設定の詳細については、管理者ガイド）を参照してください。 | なし |
 | サイトで提供されたフォーム情報 | すべての実装タイプで、このデータを収集するために設定が必要です。 このデータは、カスタム変数に含めることができます。 | [eVar](../components/dimensions/evar.md) |
-| サイト上で広告またはリンクをクリックしました | データ収集ライブラリを使用する場合は、デフォルトで収集されます。 「Activity Map」を有効にした場合は、クリックの場所などの追加情報を使用できます。 | [Activity Map](../analyze/activity-map/activity-map.md), [出口リンク](../components/dimensions/exit-link.md), [ダウンロードリンク](../components/dimensions/download-link.md) |
+| サイト上で広告またはリンクをクリックしました | 次の場合に収集 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) または [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) が有効になっている。 「Activity Map」を有効にした場合は、クリックの場所などの追加情報を使用できます。 | [Activity Map](../analyze/activity-map/activity-map.md), [出口リンク](../components/dimensions/exit-link.md), [ダウンロードリンク](../components/dimensions/download-link.md) |
 | サイトで購入した製品 | すべての実装タイプで、このデータを収集するために設定が必要です。 Adobeは、この情報を収集するためのデフォルトの変数をいくつか提供します。 | [製品](../components/dimensions/product.md), [購入回数](../components/metrics/orders.md), [売上高](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Adobe Analyticsでは、次のタイプのデータを収集できます。
 
 ## データ処理の場所
 
-Adobeでは、Adobe Analyticsのデータ処理場所が 3 つあります。 これらのサイトは生データを受け取り、レポートスイートに処理します。レポートスイートは、データの保存とレポートの取得に最適化されています。 これらのデータ処理場所は、米国（オレゴン）、英国（ロンドン）、シンガポールに存在します。 詳しくは、 [Adobe Analytics security の概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} を参照してください。
+Adobeでは、Adobe Analyticsのデータ処理場所が 3 つあります。 これらのサイトは生データを受け取り、レポートスイートに処理します。レポートスイートは、データの保存とレポートの取得に最適化されています。 これらのデータ処理場所は、現在、米国（オレゴン）、英国（ロンドン）、シンガポールに存在します。 詳しくは、 [Adobe Analytics security の概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} を参照してください。

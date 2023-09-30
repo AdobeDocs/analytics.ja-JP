@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 98%
    + [マーケティングチャネル](dimensions/marketing-channel.md)
    + [マーケティングチャネルの詳細](dimensions/marketing-detail.md)
    + [分](dimensions/minute.md)
-   + [モバイルディメンション](dimensions/mobile-dimensions.md)
+   + [モバイルのライフサイクルディメンション](dimensions/lifecycle-dimensions.md)
+   + [モバイル参照ディメンション](dimensions/mobile-dimensions.md)
    + [画面の解像度](dimensions/monitor-resolution.md)
    + [月](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 98%
    + [トラッキングオプトアウト理由](dimensions/tracking-opt-out-reason.md)
    + [米国 DMA](dimensions/us-dma.md)
    + [米国の州](dimensions/us-states.md)
+   + [音声ディメンション](dimensions/voice-dimensions.md)
    + [訪問の深度](dimensions/visit-depth.md)
    + [訪問数](dimensions/visit-number.md)
    + [週](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 98%
    + [出口](metrics/exits.md)
    + [識別済みユーザー](metrics/identified-people.md)
    + [インスタンス](metrics/instances.md)
+   + [モバイルのライフサイクル指標](metrics/lifecycle-metrics.md)
    + [モバイルビュー数](metrics/mobile-views.md)
    + [新規エンゲージメント](metrics/new-engagements.md)
    + [発生件数](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 98%
    + [一意のデバイス](metrics/unique-devices.md)
    + [ユニーク訪問者](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
+   + [ボイス指標](metrics/voice-metrics.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
    + [訪問数](metrics/visits.md)
 + セグメント化 {#segmentation}

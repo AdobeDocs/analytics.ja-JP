@@ -3,10 +3,10 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
 * **マーケティングチャネル：** Adobe Analytics の機能の 1 つで、訪問者がサイトに到達した方法ごとにヒットを分類します。ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。コンポーネントユーザーガイドの「[マーケティングチャネルの概要](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
-* **Mobile Services：** Adobe Experience Cloud 全体のモバイルアプリケーションのモバイルマーケティング機能が統合されます。これにより、アプリケーションに対するユーザーエンゲージメントを把握し、向上につなげることができます。[Mobile Services の概要](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja) を参照してください。
+* **Mobile Services:** Adobe Experience Cloud全体からモバイルAdobe用のモバイルマーケティング機能を統合し、アプリの利用状況を把握し改善につなげた、古いアプリの製品です。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
 * **回数**：ディメンション項目が設定または持続されたヒット数を示す指標のタイプ。『コンポーネントユーザガイド』の[発生件数](/help/components/metrics/occurrences.md)指標を参照してください。

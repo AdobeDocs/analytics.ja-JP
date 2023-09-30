@@ -3,9 +3,9 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2366'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。『Mobile Services ユーザーガイド』の [iOS 拡張機能の実装](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=ja)を参照してください。
-* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。詳しくは、『Mobile Services ユーザーガイド』の [Android ウェアラブル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=ja)を参照してください。
+* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。
+* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 

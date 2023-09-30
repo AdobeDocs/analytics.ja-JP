@@ -3,10 +3,10 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,14 @@ ht-degree: 94%
 このディメンションは、データを入力する複数の方法が含まれている点で一意です。どちらかまたは両方を使用できます。
 
 * `zip` 変数を使用して郵便番号を直接設定します。または
-* 地理特性データから取り込むように設定します。
+* ジオロケーションデータから取り込むように設定します。
 
 「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
 
->[!IMPORTANT]
->
->このディメンションの入力方法を完全に制御する場合は、レポートスイートの設定が重要です。
+地域郵便番号に関する任意のオプションを使用する場合：
+
+* AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
+* Web SDK 実装の場合、を有効にします。 [!UICONTROL 地域ルックアップ] when [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja).
 
 ## ディメンション項目
 

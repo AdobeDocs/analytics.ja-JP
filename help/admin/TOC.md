@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '632'
 ht-degree: 96%
 
 ---
@@ -106,7 +106,9 @@ ht-degree: 96%
             + [スパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [恒常的なトラフィック](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [デフォルトの指標](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + アプリ管理 {#app-management}
+            + [アプリレポート](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+            + [アプリの分類](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [メディア管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)

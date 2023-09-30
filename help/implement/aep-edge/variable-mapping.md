@@ -3,10 +3,10 @@ title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: f790407b5495d5fad679a2980c951b2247971069
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 96%
+source-wordcount: '1495'
+ht-degree: 83%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 96%
 
 | XDM フィールドパス | Analytics のディメンションと説明 |
 | --- | --- |
-| `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
-| `application.isInstall` | モバイル指標である[初回起動数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)を増やすタイミングを判断するのに役立ちます。 |
-| `application.isLaunch` | モバイル指標である[初回起動数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)を増やすタイミングを判断するのに役立ちます。 |
-| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」指標の設定に役立ちます。 |
-| `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」。 |
-| `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」。 |
-| `application.name` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」の設定に役立ちます。 |
-| `application.isUpgrade` | モバイル指標「[アップグレード](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」。 |
-| `application.version` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」の設定に役立ちます。 |
-| `application.sessionLength` | モバイル指標「[前のセッションの長さ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」。 |
+| `application.isClose` | モバイルのライフサイクル指標の定義に役立ちます [クラッシュ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isInstall` | モバイルのライフサイクル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | モバイルのライフサイクル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。モバイルのライフサイクル指標の設定に役立ちます [クラッシュ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 指標。 |
+| `application.isInstall` | モバイルのライフサイクル指標 [インストール数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | モバイルのライフサイクル指標 [起動回数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.name` | モバイルライフサイクルディメンションの設定に役立ちます [アプリ ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isUpgrade` | モバイルのライフサイクル指標 [アップグレード](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.version` | モバイルライフサイクルディメンションの設定に役立ちます [アプリ ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.sessionLength` | モバイルのライフサイクル指標 [以前のセッションの長さ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `commerce.checkouts.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[チェックアウト](../../components/metrics/checkouts.md)」指標に適用します。 |
 | `commerce.checkouts.value` | 「[チェックアウト](../../components/metrics/checkouts.md)」指標を必要な量だけ増分します。 |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 設定変数を設定します。 |
@@ -44,7 +44,7 @@ ht-degree: 96%
 | `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示回数](../../components/metrics/product-views.md)」指標に適用します。 |
 | `commerce.productViews.value` | 「[製品表示回数](../../components/metrics/product-views.md)」指標を増分します。 |
 | `commerce.purchases.value` | 「[注文件数](../../components/metrics/orders.md)」指標を増分します。 |
-| `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
+| `device.model` | モバイルライフサイクルディメンション [デバイス名](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `device.colorDepth` | 「[色深度](../../components/dimensions/color-depth.md)」ディメンションの設定に役立ちます。 |
 | `device.screenHeight` | 「[画面の解像度](../../components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
 | `device.screenWidth` | 「[画面の解像度](../../components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
@@ -55,12 +55,12 @@ ht-degree: 96%
 | `environment.browserDetails.userAgent` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`User-Agent` HTTP リクエストヘッダーを使用して生成します。このフィールドをレポートで使用する場合は、eVar にマッピングできます。 |
 | `environment.browserDetails.viewportHeight` | [ブラウザーの高さ](../../components/dimensions/browser-height.md)ディメンションを設定します。 |
 | `environment.browserDetails.viewportWidth` | [ブラウザーの幅](../../components/dimensions/browser-width.md)ディメンションを設定します。 |
-| `environment.carrier` | モバイルディメンションの[通信事業者名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)。 |
+| `environment.carrier` | モバイルライフサイクルディメンション [通信事業者名](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
 | `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
 | `environment.language` | モバイルディメンション「ロケール」。 |
-| `environment.operatingSystem` | モバイルディメンション「[オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
-| `environment.operatingSystemVersion` | [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)ディメンションを設定するのに役立ちます。 |
+| `environment.operatingSystem` | モバイルライフサイクルディメンション [オペレーティングシステム](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystemVersion` | モバイルライフサイクルディメンションの設定に役立ちます [オペレーティングシステムのバージョン](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれの [eVar](../../components/dimensions/evar.md) ディメンションを設定します。 |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | それぞれの[階層](/help/components/dimensions/hierarchy.md)ディメンションを設定します。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | リスト prop の区切り文字の上書き。区切り文字はレポートスイート設定の[トラフィック変数管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)から自動的に取得されるので、このフィールドの使用はお勧めしません。このフィールドを使用すると、使用される区切り文字と Analytics が想定する区切り文字との間に不一致が発生する可能性があります。 |
