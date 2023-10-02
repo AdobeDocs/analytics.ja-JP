@@ -4,10 +4,10 @@ title: Workspace の合計
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 合計設定を表示 {#display-total}
 
-「**[!UICONTROL 列設定]**」の下に、「**[!UICONTROL 合計を表示]**」と「**[!UICONTROL 総計を表示]**」のオプションがあります。これらの設定がオフの場合、合計はテーブルから削除されます。これは、特定の[計算指標のシナリオ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)などで合計が意味をなさない場合に必要です。
+「**[!UICONTROL 列設定]**」の下に、「**[!UICONTROL 合計を表示]**」と「**[!UICONTROL 総計を表示]**」のオプションがあります。これらの設定がオフの場合、合計はテーブルから削除されます。これは、例えば、特定の [計算指標のシナリオ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja).
 
 ![](assets/column-settings-total.png)
 
@@ -42,5 +42,5 @@ ht-degree: 100%
 | 灰色の列の割合は、どの「合計」を基準にしていますか。 | これは、「**[!UICONTROL 行設定]**」で選択した「**[!UICONTROL パーセンテージ]**」の設定によって異なります。<ul><li>割合を列ごとに計算 - これがデフォルト設定です。割合は、テーブル合計に基づきます。</li><li>割合を行ごとに計算 - パーセントは総計に基づきます。</li></ul> |
 | 「**[!UICONTROL 未指定 (なし) を含む]**」設定は、合計にどのように影響しますか。 | 「**[!UICONTROL 未指定 (なし) を含む]**」設定がオフの場合、「なし/未指定」の行はテーブル（テーブル合計）から削除され、[「合計」の指標タイプ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html?lang=ja)を使用する計算指標にも適用されます。 |
 | フリーフォームテーブルにカスタムテーブルフィルターを適用する場合、そのフィルターに対してすべての計算指標と条件付き書式設定を利用できますか。 | 現在は利用できません。「**[!UICONTROL 未指定 (なし) を含む]**」は計上されますが、カスタムテーブルフィルターは次に影響しません。<ul><li>条件付き書式で使用される列の最大／最小範囲は、すべてのデータを対象とします。</li><li>**[!UICONTROL 総計]**&#x200B;指標タイプを利用する計算指標。</li><li>フリーフォームテーブルの行をまたいで計算する関数（例：Column Sum、Column max、Column min、Count、Mean、Median、Percentile、Quartile、Row Count、Standard Deviation、Variance、Cumulative、Cumulative Average、Regression variants、T-Score、T-Test、Z-Score、Z-Test）を使用する計算指標。</li></ul> |
-| 「計算指標」で、「**[!UICONTROL 総計]**」指標タイプは何を反映していますか。 | 「**[!UICONTROL 総計]**」は引き続き「**[!UICONTROL 総計]**」を参照します。また、テーブルや&#x200B;**[!UICONTROL テーブル合計]**&#x200B;に適用されたフィルターは反映されません。 |
+| 計算指標では、 **[!UICONTROL 総計]** 指標タイプが反映されますか？ | 「**[!UICONTROL 総計]**」は引き続き「**[!UICONTROL 総計]**」を参照します。また、テーブルや&#x200B;**[!UICONTROL テーブル合計]**&#x200B;に適用されたフィルターは反映されません。 |
 | フリーフォームテーブルからデータをコピーして貼り付けるか、CSV でデータをダウンロードすると、合計はどのように表示されますか。 | 合計行は、**[!UICONTROL テーブル合計]**&#x200B;のみを反映し、列の&#x200B;**[!UICONTROL 合計を表示]**&#x200B;設定に従います。 |

@@ -4,16 +4,16 @@ title: 計算指標
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
 # 計算指標
 
-Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
+Report Builder5.2 では、Adobe Analyticsを統合した計算指標がサポートされています。 これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 リクエストウィザードのステップ 2 では、計算指標へのフィルター設定と計算指標の適用ができます。
 
-## 計算指標のフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
+## 計算指標へのフィルター設定 {#section_376E986D3E684999A7CDB08E53854159}
 
 **フィルター** 計算指標を選択するには、フィルターアイコンをクリックします。  ![「アプリケーション」、「ユーザー」、「プロジェクト」の各フィールドを示すフィルターオプションのスクリーンショット。](/help/admin/admin/assets/filter.png)
 

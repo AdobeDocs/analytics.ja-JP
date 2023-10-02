@@ -3,10 +3,10 @@ description: 計算指標ビルダーを使用すると、統計関数と数学�
 title: リファレンス：基本的な関数
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -245,7 +245,7 @@ STDEV(metric)
 
 | 引数 | 説明 |
 | --- | --- |
-| *metric*  | 標準偏差に必要な指標です。 |
+| *metric* | 標準偏差に必要な指標です。 |
 
 ## 平方偏差（表） {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -281,4 +281,4 @@ VARIANCE(metric)
 
 3
 
-この列の平均は 2 です。この列の平方偏差は、((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3 です。
+この列の平均は 2 です。この列の平方偏差は ((1 - 2) です<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3。

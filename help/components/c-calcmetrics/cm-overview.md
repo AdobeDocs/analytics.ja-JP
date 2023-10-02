@@ -4,7 +4,7 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -22,7 +22,7 @@ ht-degree: 88%
 * [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
-以下に、計算指標と高度な計算指標の機能の比較を示します。
+以下に、計算指標と高度な計算指標機能の比較を示します。
 
 | ビルダーのオプション | 計算指標 | 高度な計算（派生）指標 |
 |---|---|---|
