@@ -4,10 +4,10 @@ description: ユーザーの一般的な環境設定とプロジェクト環境�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3063'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3156'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 
 {style="table-layout:auto"}
 
-## プロジェクトの環境設定
+## プロジェクトと分析環境設定
 
 Analysis Workspace で作成するすべての新しいプロジェクトについて、プロジェクトの環境設定をカスタマイズできます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
@@ -73,7 +73,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 | --- | --- | --- |
 | **表示** | | |
 |  | [表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ja) | 左パネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らして、画面に表示するコンテンツの量を選択します。 <ul><li>コンパクト</li><li>快適</li><li>拡張（デフォルト）</li></ul> |
-| | [カラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja) | Analysis Workspace 使用するビジュアライゼーションカラーパレットを選択します。 <ul><li>Adobe が提供するパレット（デフォルト）</li><li>条件付き書式パレット </li><li>上/下パレット（分岐）<li>カスタム定義パレット</li></ul> |
+| | [カラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja) | Analysis Workspaceで使用するビジュアライゼーションカラーパレットを選択します。<ul><li>**分類パレット**:Analysis Workspaceの多くのビジュアライゼーションに適用されます。 各色は、個別の分類値を表します。 Adobe指定のオプションから選択するか、コンマ区切りの 16 進値で定義されたカスタムパレットを入力します。</li><li>**分岐パレット**:Analysis Workspaceのコホートテーブルに適用されます。 このパレットには、両端が 2 つあり、中央にベースラインが 1 つある数値の意味が表示されます。</li><li>**順次パレット**：頻度のトレンド（積み重ね棒）のガイド付き分析に適用されます。 このパレットには、明るい色から暗い色までの数値の意味が含まれます。</li></ul> |
 | **データ** | | |
 |  | [レポートスイート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja#report-suite) | テーブルとビジュアライゼーションがデータを導き出す場所を選択します。 <ul><li>最新（デフォルト）</li><li>リストから選択された特定のレポートスイート</li></ul> |
 |  | [カレンダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja#calendar) | 次のリストから選択します。 <ul><li>アドビが指定する範囲（デフォルトは今月）</li><li>カスタム定義範囲</li></ul> |
@@ -112,10 +112,11 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 | **[行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 位置で分類 | 項目自体ではなく項目の位置に分類を保持する場合は、このオプションを選択します。分類について詳しくは、[ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。 |
 | | パーセンテージ計算 | <ul><li>列</li><li>行</li></ul> |
+| | 列の合計（静的な行のみ） | <ul><li>行の合計を表示：個々の行項目の合計を表示します </li><li>総計を表示：重複を排除した行の合計を表示します。</li></ul> |
 
 ## ビジュアライゼーションの環境設定
 
-Analysis Workspace で作成するすべての新しいプロジェクトについて、ビジュアライゼーション環境設定を更新できます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
+Analysis Workspaceで作成するすべての新しいプロジェクトのビジュアライゼーション環境設定を更新できます。 これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
 これらの同じ環境設定の一部は、個々のビジュアライゼーション用にカスタマイズすることもできます。
 
