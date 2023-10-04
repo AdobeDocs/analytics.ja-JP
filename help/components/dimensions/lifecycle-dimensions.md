@@ -2,10 +2,11 @@
 title: モバイルのライフサイクルディメンション
 description: Dimensionは、Mobile SDK を使用して収集されたデータに基づいています。
 feature: Dimensions
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
+source-git-commit: d940428e1cbe1be6d8263e986e8b641ec18aace1
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 55%
+source-wordcount: '145'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 | ライフサイクルディメンション名 | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |
-| [!UICONTROL 初回起動日] | | 未定（このインストール日はですか？） |
+| [!UICONTROL 初回起動日] | | 未定 |
 | [!UICONTROL 機種名（SDK）] | | `a.DeviceName` |
 | [!UICONTROL オペレーティングシステムのバージョン（SDK）] | | `a.OSVersion` |
 | [!UICONTROL 解像度 (SDK)] | | `a.Resolution` |
