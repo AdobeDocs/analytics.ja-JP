@@ -2,12 +2,10 @@
 description: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する方法について説明します。
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 9%
+source-wordcount: '2051'
+ht-degree: 8%
 
 ---
 
@@ -53,13 +51,15 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 #### 移行されるコンポーネント要素
 
+Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey Analyticsへの移行](#migrate-adobe-analytics-projects-to-customer-journey-analytics)に基づいて、セグメントと日付範囲は、
+
 |  | 移行済み |
 |---------|---------|
-| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | × |
-| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | × |
-| **[アトリビューション（ディメンションに対する）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲： ![チェックマーク](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
+| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲： ![チェックマーク](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
+| **[アトリビューション（ディメンションに対する）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 | **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
 | **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 移行を実行するユーザーによって定義 |
 | **[キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)** | × |
-| **[共有（プロジェクトの役割）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | × |
-| **[共有（他のユーザーと共有）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[共有（プロジェクトの役割）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ×<!-- Add info on Share with Anyone? Is it the same?--> |
 | **[注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)** | × |
 | **[フォルダー構造](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | × |
 | **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
 | **[タグ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | × |
 | **[スケジュール](/help/components/scheduled-projects-manager.md)** | × |
-| **[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[お気に入り](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### エラーの原因となる、サポートされていない要素を理解する
 
@@ -116,7 +115,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 * [アラート](/help/components/c-alerts/intellligent-alerts.md)
 
-### サポートされていないコンポーネントのマッピング方法を組織として決定する
+### 組織として、コンポーネントのマッピング方法を決定します。
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 >次に、プロジェクトに存在する場合に手動でマッピングする必要があるディメンションと指標のリストを示します。 移行する前に、このリストを確認することをお勧めします。 プロジェクト内にこれらのコンポーネントが存在する場合は、どのCustomer Journey Analyticsコンポーネントにマッピングするかを今すぐ決定します。
 
 
-#### サポートされていないディメンション
+#### 手動でマッピングする必要があるDimension
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 * targetraw
 
 
-#### サポートされない指標
+#### 手動でマッピングする必要がある指標
 
 * timespentvisit
 * timespentvisitor
