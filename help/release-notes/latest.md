@@ -3,43 +3,42 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 95%
+source-wordcount: '1216'
+ht-degree: 58%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2023年9月）
+# 現在の Adobe Analytics リリースノート（2023年10月）
 
-**最終更新日**：2023年9月20日（PT）
+**最終更新日**：2023年10月4日（PT）
 
-9月のリリースノートは、2023年9月13日（PT）から 2023年10月3日（PT）までのリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
+リリースノートの 10 月は、2023 年 10 月 4 日から 2023 年 10 月 24 日までのリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 での分類** | 分類セットデータの保存、削除、取得、読み込み、書き出しを行うための Adobe Analytics API 2.0 メソッドが用意されています。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 該当なし | 2023年9月13日（PT） |
-| **A4T 分類に対する新しい `correlationID` フィールドのサポート** | `_experience.decisioning.propositions.scopeDetails.correlationID` フィールドが Adobe Analytics ソースコネクタスキーマで使用できるようになりました。Adobe Target のアクティビティとエクスペリエンスイベントの分類データを簡単に結合できるように、この ID を追加しています。 | 該当なし | 2023年9月13日（PT） |
-| **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月13日（PT） | 2023年10月4日（PT） |
 | **コンポーネントを管理する際に使用できる新しい列** | コンポーネントを管理する際に、次の新しい列を使用できるようになりました。<ul><li>使用場所<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) そして [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>前回の使用<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)、および [アラートマネージャー](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、削除または変更する必要があるかどうかを判断するのに役立ちます。この情報と共にデータ辞書を使用すると、組織内でのコンポーネントの使用方法を追跡し、より深く理解することができます。</p> | 2023年9月20日（PT） | 2023年10月4日（PT） |
+| **Activity Manager のレポート機能の強化** | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。このレポートは、レポートの消費状況を詳細に把握し、ピーク時のレポート作成時に容量の問題を簡単に診断して修正できるように管理者に提供します。 レポートアクティビティマネージャーで使用できる機能強化の一部を次に示します。 <ul><li>以降のリクエストを制限：管理者は、現在のリクエストのキャンセルに加えて、定義した期間だけリクエストを制限できるようになりました。 管理者は、リクエスト、プロジェクト、ユーザーによってリクエストを制限できます。</li><li>使用率および容量の指標に加えて、レポートアクティビティマネージャーには、レポートアクティビティに関するより多くのデータ（複雑度列、ユーザー列、接続列）が含まれるようになりました。</li><li>レポートアクティビティマネージャーで行われたすべてのキャンセルと制限が監査ログに表示されるようになりました。 管理者は、監査ログを使用して、現在キャンセルされている内容を表示できます。 レポートアクティビティマネージャーまたは監査ログでキャンセルを元に戻すことはできません。</li></ul>詳細情報（近日公開） | 2023年10月17日（PT） | 2023年10月23日（PT） |
+| **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月12日（PT） | 2023年10月25日（PT） |
+| **Adobe Analyticsプロジェクトと含まれるコンポーネントをCustomer Journey Analyticsに移行** | これで、Adobe AnalyticsプロジェクトをCustomer Journey Analyticsに移行できます。 このプロセスにより、Adobe AnalyticsからCustomer Journey Analyticsへの移行が簡単になります。 プロジェクトをCustomer Journey Analyticsに移行すると、アセットはAdobe AnalyticsレポートスイートからCustomer Journey Analyticsデータビューにマッピングされます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 該当なし | 2023年10月4日（PT） |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics の修正点
 
-* 分類データが Workspace に表示されない問題を修正しました。（AN-326827）
+* Target/Analytics UI に A4T レポートが表示されない問題を修正しました。 (AN-329375、AN-329745、AN-330026)
 
-## その他の修正点
-
-AN-314882、AN-315591、AN-318165、AN-318559、AN-319031、AN-319244、AN-321657、AN-321759、AN-323099、AN-323596、AN-323640、AN-324442、AN-324921、AN-324953、AN-324977、AN-324979、AN-325124、AN-325395、AN-325433、AN-325535、AN-325693、AN-325720、AN-325835、AN-325880、AN-325957、AN-325984、AN-326054、AN-326065、AN-326136、AN-326155、AN-326162、AN-326235、AN-326317、AN-326344、AN-326357、AN-326359、AN-326433、AN-326438、AN-326440、AN-326461、AN-326464、AN-326523、AN-326553、AN-326606、AN-326635、AN-326642、AN-326652、AN-326678、AN-326769、AN-326777、AN-326830、AN-326938、AN-326949、AN-327081、AN-327082、AN-327085、AN-327103、AN-327198、AN-327225、AN-327275、AN-327358、AN-327423、AN-327561、AN-327755、AN-327896、AN-327922、AN-328128、AN-328300、AN-328428、AN-328518、AN-328554
+AN-313983、AN-324189、AN-325095、AN-325677、AN-325886、AN-326360、AN-326458、AN-327290、AN-327315、AN-327353、AN-327505、AN-AN-327922AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN AN AN AN AN AN    AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| 該当なし | 該当なし | 該当なし |
+| **AdobeExperience Edge ヒットの完全な IP 難読化** | 2023年9月27日（PT） | Experience Edge からのヒットの IP 難読化は、2023 年 10 月後半に更新されます。 4 月に、Experience Edge は IP アドレスを難読化する機能を追加しました。 その時点で、Adobe Analyticsは、Experience Edge からのヒットを Analytics で処理する方法が原因で、IP の部分的な難読化のみをサポートしていました。 お客様が Experience Edge の完全な不明化を選択した場合、Analytics は部分的に不明化された IP のみを受け取りました。 この変更が実装されると、Analytics は、完全に不明化された IP を受け取ります。 |
+| **Adobe Analytics Livestream - Analytics 2.0 API** | 2023年9月27日（PT） | これで、 [Adobe Analytics Livestream のエンドポイントガイド](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) （1.4 API を使用）の代わりに、Adobe Analytics 2.0 API を以前の場所に追加しました。 Adobe I/Oの JWT 資格情報を使用するお客様は、2025 年 1 月 1 日までにAdobe I/Oの OAuth サーバー間資格情報に移行する必要があります。 （詳しくは、以下の EOL に関する注意事項を参照してください）。 |
 
 {style="table-layout:auto"}
 
@@ -56,7 +55,7 @@ AN-314882、AN-315591、AN-318165、AN-318559、AN-319031、AN-319244、AN-32165
 
 ## AppMeasurement
 
-AppMeasurement リリース（バージョン 2.24.0）の最新のアップデートについては、[JavaScript 版 AppMeasurement リリースノート](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ja)を参照してください。
+AppMeasurement リリース（バージョン 2.25.0）の最新のアップデートについては、[JavaScript 版 AppMeasurement リリースノート](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ja)を参照してください。
 
 
 ## 関連リソース
