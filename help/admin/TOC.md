@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
+source-git-commit: 31487111111575e267306d5f68eede23276e79a8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 96%
+source-wordcount: '637'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,9 @@ ht-degree: 96%
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
-   + [コンポーネントの移行](admin/component-migration.md)
+   + コンポーネントの移行 {#component-migration}
+      + [移行の準備](admin/component-migration/prepare-component-migration.md)
+      + [移行ワークフロー](admin/component-migration/component-migration.md)
    + レポートスイートマネージャー {#manage-report-suites}
       + レポートスイートの設定の編集 {#edit-report-suite}
          + 一般 {#report-suite-general}
