@@ -4,14 +4,16 @@ title: リアルタイムレポートの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
 ---
 
 # リアルタイムレポートの概要
+
+{{ra-eol}}
 
 リアルタイムレポートは Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 

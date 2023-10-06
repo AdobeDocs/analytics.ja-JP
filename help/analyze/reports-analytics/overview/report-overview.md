@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '407'
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 
 この例では、[!UICONTROL ページレポート]を示しています。設定オプションは実行するレポートによって異なることがあります。例えば、[!UICONTROL サイトコンテンツ]レポートで、「トレンド」や「ランク」を選択するのではなく、[!UICONTROL サイト指標]レポートの精度やページ名を指定する場合があります。
-
->[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 ## ページレポートの例 {#section_288CC85536684C2DB184141358481EF0}
 

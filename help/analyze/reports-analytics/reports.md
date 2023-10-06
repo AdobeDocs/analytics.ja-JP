@@ -4,9 +4,9 @@ description: 各レポートで Reports & Analytics が使用するディメン�
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1863'
 ht-degree: 100%
 
 ---
@@ -20,9 +20,6 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 >[!NOTE]
 >
 >組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)」を参照してください。
-
->[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 ## サイト指標
 
@@ -135,10 +132,10 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 
 ## キャンペーン
 
-主に [Tracking code（追跡コード）](/help/components/dimensions/tracking-code.md) ディメンションに関するレポートが含まれます。
+主に [トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションに関するレポートが含まれます。
 
 * キャンペーンコンバージョンファネル：ファネルレポートでクリックスルー、[チェックアウト](/help/components/metrics/checkouts.md)、[注文](/help/components/metrics/orders.md)、[売上高](/help/components/metrics/revenue.md)をレポートします。クリックスルー指標は、[Tracking code](/help/components/dimensions/tracking-code.md) ディメンションに関連する[インスタンス](/help/components/metrics/instances.md)指標に似ています。Analysis Workspace でも、[フォールアウトビジュアライゼーション](../analysis-workspace/visualizations/fallout/fallout-flow.md)を使用して同様のビジュアライゼーションを実現できます。
-* トラッキングコード：[Tracking code](/help/components/dimensions/tracking-code.md) ディメンションを使用します。
+* トラッキングコード：[トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションを使用します。
 
 ## 製品
 

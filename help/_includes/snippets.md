@@ -1,7 +1,7 @@
 ---
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1127'
 ht-degree: 100%
 
 ---
@@ -10,6 +10,8 @@ ht-degree: 100%
 ## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
+>
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 >
 >詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。
 
