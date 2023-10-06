@@ -2,10 +2,11 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++電子メール
 
@@ -147,7 +148,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. 「[!UICONTROL **保存**]」を選択します。
 
@@ -209,14 +210,59 @@ Data Warehouse のデータは、Adobeまたは顧客がホストする FTP の�
 
 使用可能フィールドに入力する際は、次の情報を参照してください。
 
-* [!UICONTROL **ホスト**]：目的の FTP の宛先 URL を入力します。 例：`ftp://ftp.omniture.com`。
-* [!UICONTROL **パス**]：空白のままにできます
+#### アカウントフィールド
+
+* [!UICONTROL **アカウント名**]:FTP アカウントの名前。
+
+* [!UICONTROL **アカウントの説明**]:FTP アカウントの説明。
+
+* [!UICONTROL **ホスト名**]：目的の FTP の宛先 URL を入力します。 例：`ftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  次を含めない `ftp://` を URL の先頭に追加します。
+
 * [!UICONTROL **ユーザー名**]:FTP サイトにログインするユーザー名を入力します。
+
 * [!UICONTROL **パスワードとパスワードの確認**]:FTP サイトにログインするためのパスワードを入力します。
+
+#### 場所フィールド
+
+* [!UICONTROL **場所名**]：ファイルを送信する FTP アカウント上の場所の名前。
+
+* [!UICONTROL **場所の説明**]:FTP アカウント上の場所の説明。
+
+* [!UICONTROL **ディレクトリパス**]:FTP アカウント上の場所のパス。
 
 ### SFTP
 
 Data Warehouse の SFTP サポートを利用できます。 SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。Data Warehouse の宛先を作成する際に、適切な公開鍵をダウンロードできます。
+
+使用可能フィールドに入力する際は、次の情報を参照してください。
+
+#### アカウントフィールド
+
+* [!UICONTROL **アカウント名**]:FTP アカウントの名前。
+
+* [!UICONTROL **アカウントの説明**]:FTP アカウントの説明。
+
+* [!UICONTROL **ホスト名**]：目的の SFTP の宛先 URL を入力します。 例：`sftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  次を含めない `sftp://` を URL の先頭に追加します。
+
+* [!UICONTROL **ユーザー名**]:SFTP サイトにログインするユーザー名を入力します。
+
+* [!UICONTROL **公開鍵**]:Data Warehouse の宛先を作成する際に、適切な公開鍵をダウンロードします。
+
+#### 場所フィールド
+
+* [!UICONTROL **場所名**]：ファイルを送信する SFTP アカウント上の場所の名前。
+
+* [!UICONTROL **場所の説明**]:SFTP アカウント上の場所の説明。
+
+* [!UICONTROL **ディレクトリパス**]:SFTP アカウント上の場所のパス。
 
 ### S3
 
