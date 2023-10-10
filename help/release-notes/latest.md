@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: 4134eed3cb97c478304988123196b0c906c86560
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 58%
+source-wordcount: '1233'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 58%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **コンポーネントを管理する際に使用できる新しい列** | コンポーネントを管理する際に、次の新しい列を使用できるようになりました。<ul><li>使用場所<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) そして [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>前回の使用<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)、および [アラートマネージャー](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、削除または変更する必要があるかどうかを判断するのに役立ちます。この情報と共にデータ辞書を使用すると、組織内でのコンポーネントの使用方法を追跡し、より深く理解することができます。</p> | 2023年9月20日（PT） | 2023年10月4日（PT） |
-| **Activity Manager のレポート機能の強化** | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。このレポートは、レポートの消費状況を詳細に把握し、ピーク時のレポート作成時に容量の問題を簡単に診断して修正できるように管理者に提供します。 レポートアクティビティマネージャーで使用できる機能強化の一部を次に示します。 <ul><li>以降のリクエストを制限：管理者は、現在のリクエストのキャンセルに加えて、定義した期間だけリクエストを制限できるようになりました。 管理者は、リクエスト、プロジェクト、ユーザーによってリクエストを制限できます。</li><li>使用率および容量の指標に加えて、レポートアクティビティマネージャーには、レポートアクティビティに関するより多くのデータ（複雑度列、ユーザー列、接続列）が含まれるようになりました。</li><li>レポートアクティビティマネージャーで行われたすべてのキャンセルと制限が監査ログに表示されるようになりました。 管理者は、監査ログを使用して、現在キャンセルされている内容を表示できます。 レポートアクティビティマネージャーまたは監査ログでキャンセルを元に戻すことはできません。</li></ul>詳細情報（近日公開） | 2023年10月17日（PT） | 2023年10月23日（PT） |
+| **Activity Manager のレポート機能の強化** | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。レポートアクティビティマネージャーで使用できる機能強化の一部を次に示します。 <ul><li>以降のリクエストを制限：管理者は、現在のリクエストのキャンセルに加えて、定義した期間だけリクエストを制限できるようになりました。 管理者は、リクエスト、プロジェクト、ユーザーによってリクエストを制限できます。</li><li>使用率および容量の指標に加えて、レポートアクティビティマネージャーには、レポートアクティビティに関するより多くのデータ（複雑度列、ユーザー列、接続列）が含まれるようになりました。</li><li>レポートアクティビティマネージャーで行われたすべてのキャンセルと制限が監査ログに表示されるようになりました。 管理者は、監査ログを使用して、現在キャンセルされている内容を表示できます。 レポートアクティビティマネージャーまたは監査ログでキャンセルを元に戻すことはできません。</li></ul><p>詳しくは、 [Activity Manager のレポートの概要](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023年10月17日（PT） | 2023年10月23日（PT） |
 | **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月12日（PT） | 2023年10月25日（PT） |
-| **Adobe Analyticsプロジェクトと含まれるコンポーネントをCustomer Journey Analyticsに移行** | これで、Adobe AnalyticsプロジェクトをCustomer Journey Analyticsに移行できます。 このプロセスにより、Adobe AnalyticsからCustomer Journey Analyticsへの移行が簡単になります。 <p>プロジェクトをCustomer Journey Analyticsに移行すると、アセットはAdobe AnalyticsレポートスイートからCustomer Journey Analyticsデータビューにマッピングされます。</p> <p>Adobe AnalyticsインターフェイスからCustomer Journey Analyticsにプロジェクトを移行します。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 該当なし | 2023年10月9日（PT） |
+| **Adobe Analytics プロジェクトと含まれるコンポーネントを Customer Journey Analytics に移行** | Adobe Analyticsプロジェクトを Customer Journey Analytics に移行できるようになりました。このプロセスにより、Adobe Analytics から Customer Journey Analytics への移行が簡単になります。 <p>プロジェクトを Customer Journey Analytics に移行すると、アセットは Adobe Analytics レポートスイートから Customer Journey Analytics データビューにマッピングされます。</p> <p>Adobe Analytics インターフェイスから Customer Journey Analytics にプロジェクトを移行します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html)</p> | 該当なし | 2023年10月9日（PT） |
 
 {style="table-layout:auto"}
 
