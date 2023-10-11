@@ -3,14 +3,16 @@ title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # オプトアウトリンクの実装
+
+*このヘルプページでは、Adobe Analyticsのお客様は、ユーザーにオプトアウトリンクを提供できます。 Adobe Analyticsのユーザーでない場合は、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。*
 
 >[!IMPORTANT]
 >
@@ -29,7 +31,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 組織のオプトアウトページは、実装内の [`trackingServer`](../vars/config-vars/trackingserver.md) 変数値に応じて異なります。
 
 * Analytics 拡張機能では、以下の操作をおこないます。
-   1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+   1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
    1. 目的のタグプロパティをクリックします。
    1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
    1. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
@@ -38,7 +40,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
    1. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用して、以下を実行します。
+* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
    1. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
    1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
@@ -48,13 +50,13 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 * サードパーティ Cookie： `https://example.data.adobedc.net/optout.html`
 * ファーストパーティ Cookie：`https://stats.example.com/optout.html`
 
-## オプトアウトクエリー文字列パラメーター
+## オプトアウトクエリ文字列パラメーター
 
-クエリー文字列を使用してこのページに自動的に読み込むことができる設定があります。
+クエリ文字列を使用してこのページに自動的に読み込むことができる設定があります。
 
 ### 地域
 
-`locale` クエリー文字列パラメーターを含めて、オプトアウトページの言語を自動的に切り替えます。このクエリー文字列パラメーターに、次のいずれかの値を割り当てます。
+`locale` クエリ文字列パラメーターを含めて、オプトアウトページの言語を自動的に切り替えます。このクエリ文字列パラメーターに、次のいずれかの値を割り当てます。
 
 * en_US（英語、デフォルト）
 * bg_BG（ブルガリア語）
@@ -83,26 +85,26 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 >[!TIP]
 >
-> ページはデフォルトで英語で読み込まれるので、`en_US` クエリー文字列値は必須ではありません。
+>ページはデフォルトで英語で読み込まれるので、`en_US` クエリ文字列値は必須ではありません。
 
 ### ポップアップ
 
-ページに「ウィンドウを閉じる」ボタンを追加すると、オプトアウトページをポップアップウィンドウにすることができます。`popup` クエリー文字列パラメーターを使用し、`1` 値を指定します。
+ページに「ウィンドウを閉じる」ボタンを追加すると、オプトアウトページをポップアップウィンドウにすることができます。`popup` クエリ文字列パラメーターを使用し、`1` 値を指定します。
 
 例えば、`https://example.data.adobedc.net/optout.html?popup=1` は、「ウィンドウを閉じる」ボタンを含むオプトアウトページを読み込みます。
 
 >[!NOTE]
 >
-> 歴史的に、このクエリー文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
+>以前は、このクエリ文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
 
 ### シングルクリックのオプトアウト
 
-ユーザーが追跡を直ちにオプトアウトできるようにします。`opt_out` と `confirm_change` の 2 つのクエリー文字列パラメーターを追加し、それぞれに `1` の値を指定します。
+ユーザーが追跡を直ちにオプトアウトできるようにします。`opt_out` と `confirm_change` の 2 つのクエリ文字列パラメーターを追加し、それぞれに `1` の値を指定します。
 
 例えば、`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` は、オプトアウト Cookie を訪問者のページに直ちにインストールします。
 
 ### シングルクリックのオプトイン
 
-ユーザーがオプトアウト Cookie を削除して、追跡を即座にオプトインできるようにします。`opt_in` と `confirm_change` の 2 つのクエリー文字列パラメーターを追加し、それぞれに `1` の値を指定します。
+ユーザーがオプトアウト Cookie を削除して、追跡を即座にオプトインできるようにします。`opt_in` と `confirm_change` の 2 つのクエリ文字列パラメーターを追加し、それぞれに `1` の値を指定します。
 
 例えば、`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` は、訪問者のオプトアウト Cookie を直ちに削除します。
