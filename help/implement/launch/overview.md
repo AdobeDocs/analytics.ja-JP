@@ -3,10 +3,10 @@ title: Analytics 拡張機能を使用した Adobe Analytics の実装
 description: タグと Analytics 拡張機能を使用した Adobe Analytics の実装方法について説明します
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -63,8 +63,8 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 <tr>
 <td>6</td> 
-<td><b>検証して実稼動環境に公開します</b>。タグプロパティを web サイトに追加します。次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="./validate-publish-prod.md">開発実装の検証と実稼動環境への公開</a></td>
+<td><b>検証して実稼動環境に公開します</b>。タグプロパティを Web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">埋め込みコード</a><br/><a href="./validate-publish-prod.md">開発実装の検証と実稼動環境への公開</a></td>
 </tr>
 
 </table>

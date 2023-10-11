@@ -3,10 +3,10 @@ title: Adobe Experience Platform Web SDK を使用した Adobe Analytics の実�
 description: Adobe Experience Platform データ収集の Web SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -138,8 +138,8 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 <tr>
 <td>8</td>
-<td><b>反復し、検証して実稼動環境に公開します</b>。タグプロパティを web サイトに追加します。次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja">公開の概要</a></td>
+<td><b>反復し、検証して実稼動環境に公開します</b>。タグプロパティを Web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">埋め込みコード</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja">公開の概要</a></td>
 </tr>
 
 </table>

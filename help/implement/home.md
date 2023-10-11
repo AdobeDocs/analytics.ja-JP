@@ -3,10 +3,10 @@ title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティ、アプリケーションに実装します。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 85%
+source-wordcount: '933'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 **Web サイト**&#x200B;では、次の実装方法を使用できます。
 
-* **Web SDK 拡張機能**：新規顧客向けに Adobe Analytics を実装するための標準化されたお勧めの方法です。のインストール **Adobe Experience Platform Web SDK 拡張機能** (Adobe Experience Platform Data Collection) **タグ**&#x200B;を使用し、各ページでローダタグを使用して、データをAdobe Experience Platformに送信する **Edge Network** 組織に便利な形式で。 Edge Network は、受信したデータを正しい形式で Adobe Analytics に転送します。
+* **Web SDK 拡張機能**：新規顧客向けに Adobe Analytics を実装するための標準化されたお勧めの方法です。をインストールします。 **Adobe Experience Platform Web SDK 拡張機能** (Adobe Experience Platform Data Collection) **タグ**、各ページに埋め込みコード（JavaScript ローダータグ）を配置し、データをAdobe Experience Platformに送信する **Edge Network** 組織に便利な形式で。 Edge Network は、受信したデータを正しい形式で Adobe Analytics に転送します。
   ![Web SDK 拡張機能](./assets/websdk-extension-implementation.png)
 詳しくは、 [Adobe Experience Platform Web SDK 拡張機能を使用したAdobe Analyticsの実装方法です。](./aep-edge/overview.md)を参照してください。
 
@@ -42,7 +42,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 詳しくは、 [Adobe Experience Platform Web SDK を使用したAdobe Analyticsの実装方法](./aep-edge/overview.md) を参照してください。
 
 
-* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**にインストールします。各ページにローダータグを配置し、Adobe Analytics 拡張機能を使用して、各変数の定義方法を決定します。タグの便利さを望むが、Edge Network インフラストラクチャを使用しない場合は、この実装方法を使用します。
+* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**にインストールします。各ページに埋め込みコード（JavaScript のローダータグ）を配置し、Adobe Analytics拡張機能を使用して各変数の定義方法を決定します。 タグの便利さを望むが、Edge Network インフラストラクチャを使用しない場合は、この実装方法を使用します。
   ![Adobe Analytics拡張機能](./assets/analytics-extension-implementation.png)
 詳しくは、 [Analytics 拡張機能を使用したAdobe Analyticsの実装方法](launch/overview.md) を参照してください。
 
