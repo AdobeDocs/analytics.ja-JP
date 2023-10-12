@@ -4,10 +4,10 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 16%
 
 ## リクエストの履歴の表示
 
-実行されたレポートの履歴を表示できます。
+おこなったData Warehouse要求の履歴を表示できます。
 
 1. Adobe Analyticsで、 [!UICONTROL **ツール**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ ht-degree: 16%
 
 1. 選択 [!UICONTROL **履歴を表示**].
 
-   The [!UICONTROL **Data Warehouse要求の表示**] ページには、個々のレポート配信のリストが表示されます。
+   The [!UICONTROL **Data Warehouse要求の表示**] ページには、リクエストに関連付けられている個々のレポート配信のリストが表示されます。
+
+   を選択します。 **列を設定** アイコン ![列を設定アイコン](assets/configure-column-icon.png) ：デフォルトで表示されていない列の非表示または表示を切り替えます。
 
    ![リクエスト履歴ページ](assets/dw-request-history.png)
+
+   以下の列を表示できます。
+
+   | 列 | 説明 |
+   |---------|----------|
+   | [!UICONTROL **作成日**] | レポートが作成された日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **開始日**] | レポートが開始された日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **完了日**] | レポートが完了した日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **更新日**] | レポートが最後に更新された日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **ステータス**] | レポート配信のステータス。 考えられるステータスは次のとおりです。<ul><li>[!UICONTROL **作成済み**]：レポートは作成されましたが、まだ処理されていません。</li><li>[!UICONTROL **保留中**]：レポートは処理を待機中です。</li><li>[!UICONTROL **処理中**]：レポートは現在処理中です。</li><li>[!UICONTROL **完了**]：レポートが完了し、使用できるようになりました。</li><li>[!UICONTROL **Scheduled**]：レポートはスケジュールされていますが、まだ開始されていません。</li><li>[!UICONTROL **キャンセル**]：レポートがユーザーによってキャンセルされました。</li><li>[!UICONTROL **エラー — 処理中**:] レポートの処理中にエラーが発生しました。 レポートを再実行して、もう一度試してください。</li><li>[!UICONTROL **エラー — 送信エラー**]：レポートが正常に生成されましたが、配信できませんでした。 次を確認します。 [宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)」をクリックし、レポートを再送信します。</li></ul>。 |
+   | [!UICONTROL **送信元**] | レポートに含まれる全体的な期間の開始日。<p>これは、レポートスイートのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **設定値**] | レポートに含まれる全期間の終了日。 <p>これは、レポートスイートのタイムゾーンに表示されます。</p> |
+   | [!UICONTROL **レガシーリクエスト ID**] | レガシーData Warehouseインターフェイスでレポートを識別するために使用される ID。 この ID は、カスタマーケアに問い合わせる際にAdobeで必要になる場合があります。 |
+   | [!UICONTROL **レポート ID**] | 現在のData Warehouseインターフェイスでレポートを識別するために使用される ID。 この ID は、カスタマーケアに問い合わせる際にAdobeで必要になる場合があります。 |
+
 
 1. レポート配信を選択し、次のいずれかのオプションを選択します。
 
