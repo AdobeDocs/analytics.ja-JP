@@ -4,10 +4,10 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ ht-degree: 18%
    ![リクエストの管理](assets/dw-manage-request.png)
 
 1. 選択 [!UICONTROL **履歴を表示**].
+
+   The [!UICONTROL **Data Warehouse要求の表示**] ページには、個々のレポート配信のリストが表示されます。
+
+   ![リクエスト履歴ページ](assets/dw-request-history.png)
+
+1. レポート配信を選択し、次のいずれかのオプションを選択します。
+
+   | オプション | 関数 |
+   |---------|----------|
+   | [!UICONTROL **宛先の詳細**] | リクエストに関連付けられたアカウントと場所の詳細を表示します。 これは、以前に設定したアカウントと場所です。詳しくは、 [レポートの送信先の設定リクエストのData Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **レポートをキャンセル**] | レポートをキャンセルします。 ステータスが「 [!UICONTROL **完了**] または [!UICONTROL **キャンセル**]. |
+   | [!UICONTROL **レポートを再実行**] | 最初の送信時と同じデータでレポートを再実行します。 次のいずれかのステータスのレポートを再実行できます。 [!UICONTROL **キャンセル**], [!UICONTROL **完了**], [!UICONTROL **エラー — 処理中**]&#x200B;または [!UICONTROL **エラー — 送信エラー**]. |
+   | [!UICONTROL **レポートを再送信**] | 以前に生成されたレポートファイルを再送信します。 次のいずれかのステータスのレポートを再送信できます。 [!UICONTROL **完了**] または [!UICONTROL **エラー — 送信エラー**]. |
 
 ## リクエストのコピー
 

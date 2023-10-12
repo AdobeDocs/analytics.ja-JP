@@ -3,10 +3,10 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 15%
+source-wordcount: '2304'
+ht-degree: 14%
 
 ---
 
@@ -254,6 +254,8 @@ Data Warehouse の SFTP サポートを利用できます。 SFTP ホスト、�
 
 * [!UICONTROL **ユーザー名**]:SFTP サイトにログインするユーザー名を入力します。
 
+* [!UICONTROL **アップロード時に一時ファイル拡張子を使用**]：有効にすると、 `.part` ファイル拡張子は、アップロードプロセス中に使用されます。 SFTP サーバーでアップロード完了後にファイル名の変更が制限されていない場合は、このオプションを有効にしておきます。
+
 * [!UICONTROL **公開鍵**]:Data Warehouse の宛先を作成する際に、適切な公開鍵をダウンロードします。
 
 #### 場所フィールド
@@ -263,6 +265,8 @@ Data Warehouse の SFTP サポートを利用できます。 SFTP ホスト、�
 * [!UICONTROL **場所の説明**]:SFTP アカウント上の場所の説明。
 
 * [!UICONTROL **ディレクトリパス**]:SFTP アカウント上の場所のパス。
+
+SFTP の設定について詳しくは、 [SFTP サーバーへのData Warehouseリクエストの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 

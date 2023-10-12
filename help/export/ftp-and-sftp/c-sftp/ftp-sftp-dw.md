@@ -4,43 +4,29 @@ keywords: ftp;sftp
 title: SFTP サーバーへの Data Warehouse リクエストの送信
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 53%
 
 ---
 
 # SFTP サーバーへの Data Warehouse リクエストの送信
 
-アドビでは、Data Warehouse リクエストの SFTP サーバーへの書き出しをサポートしています。
+Adobeは、SFTP サーバーへのData Warehouseリクエストの書き出しをサポートします ( [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) この記事では [レポートの送信先の設定リクエストのData Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 以下の作業をおこないます。
 
-アドビでは、以下の条件が満たされた場合に、Data Warehouse リクエストの SFTP サーバーへのエクスポートをサポートします。
-
-* Data Warehouse レポートをリクエストするときに、`sftp://` プロトコルがホストフィールドに指定されており（例：`sftp://ftp.example.com`）、ポート 22 のみが使用されていること。以下のように、`sftp+norename://` オプションを使用することもできます。
-* アドビの `authorized_keys` ファイルが、ログインしているユーザーのルートディレクトリ内の `.ssh` ディレクトリにあること。
+* ポートレポートをリクエストする際には、Data Warehouse22 のみが使用されます。
+* Adobe `authorized_keys` ファイルが `.ssh` ディレクトリ内の、ログインするユーザーのルートディレクトリ内にある。
 * 接続先が `ftp.omniture.com` ではないこと。アドビの内部サーバー間では、SFTP プロトコルはサポートされていません。
 * 接続先で、1 要素（PKI）認証がサポートされていること。2 要素のチャレンジがある場合、レポートの配信は失敗します。サーバーが二要素認証を試行するように設定されていないことを確認してください。Adobe Analytics では、ログインに鍵のみを使用し、その他のものは使用しません。
 * アドビでは、SSHv2 暗号化をサポートしています。SSHv2 が使用できない場合は、SSHv1 を使用します（RSA 鍵のみ）。
 
 Data Warehouse リクエストを SFTP 経由で正常に送信するには：
 
-1. 組織のサポート対象ユーザーがカスタマーケアに連絡して、`authorized_keys` ファイルを入手します。
-1. このファイルを入手したら、Data Warehouse リクエストで使用されているものと同じ資格情報で FTP サイトにログインします。
+1. 次に示す手順を実行します： [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) この記事では [レポートの送信先の設定リクエストのData Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)（公開鍵のダウンロードを含む）
+1. Data Warehouseリクエストに使用されているのと同じ資格情報で、SFTP サイトにログインします。
 1. ルートディレクトリの下の `.ssh` という名前のフォルダーに移動し（存在しない場合はこのフォルダーを作成します）、`authorized_keys` ファイルをそこに配置します。
 
-1. Data Warehouse リクエストマネージャーに移動します。必要に応じてリクエストを設定し、「**[!UICONTROL アドバンス配信オプション]**」をクリックします。
-
-1. ポップアップウィンドウで「**[!UICONTROL FTP]**」をクリックし、FTP サイト（`sftp://` プロトコルを含む。例：`sftp://ftp.omniture.com`）とポート 22 を指定します。
-
-   `sftp://` プロトコルは、SFTP を使用する場合にのみ指定できます。通常の FTP リクエストの場合は、プロトコルの接頭辞を省略する必要があります（`ftp://ftp.omniture.com` ではなく `ftp.omniture.com` と指定します）。
-
-1. 「フォルダー」フィールドに、ファイルを配置するフォルダーの名前を入力します。フォルダーは必須です。
-1. 手順 2 と同じユーザー名とパスワードを入力します。
-1. 「**[!UICONTROL 送信]**」をクリックします。
-
-SFTP の PUT コマンドを使用すると、指定したディレクトリに、.part という拡張子の一時ファイルが配置されます。アップロードが完了すると、ファイルの拡張子が最終的な拡張子に変更され、その時点でファイルが使用できるようになります。
-
-`sftp://` ではなく `sftp+norename://` を指定して、アップロード時に一時的な `.part` ファイル名を付けずに最終的なファイル名でファイルを直接アップロードすることができます。この方法は、SFTP サーバーがアップロード中にファイル名の変更を自動的に処理する場合に適しており、アップロードが完了する前にファイルが処理される可能性はありません。
+1. Data Warehouseリクエストをまだ実行していない場合は、 [レポートの送信先の設定リクエストのData Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).

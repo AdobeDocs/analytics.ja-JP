@@ -2,9 +2,10 @@
 description: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行するために必要な準備について説明します。
 title: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 15%
 
 ---
@@ -54,7 +55,9 @@ ht-degree: 15%
 
 ### 移行されるコンポーネント要素
 
-Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey Analyticsへの移行](#migrate-adobe-analytics-projects-to-customer-journey-analytics)に基づいて、セグメントと日付範囲は、
+Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey Analyticsへの移行](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Customer Journey Analyticsにまだ存在しないセグメント、日付範囲、計算指標は、マッピングされているディメンションと指標に基づいて、そこで再作成されます。
 
 |  | 移行済み |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey A
 
 ## エラーの原因となる、サポートされていない要素を理解する
 
-次のビジュアライゼーション、パネルおよび機能は、Customer Journey Analyticsではサポートされていません。 これらの要素が移行前にプロジェクトに含まれている場合、移行が失敗するか、プロジェクトの移行後にエラーが発生する可能性があります。
+次のビジュアライゼーションおよびパネルは、Customer Journey Analyticsではサポートされていません。 これらの要素が移行前にプロジェクトに含まれている場合、移行が失敗するか、プロジェクトの移行後にエラーが発生する可能性があります。
 
 プロジェクトをCustomer Journey Analyticsに移行する前に、これらの要素をAdobe Analyticsプロジェクトから削除します。 移行が失敗した場合は、移行を再試行する前にこれらの要素を削除します。
 
@@ -112,11 +115,7 @@ Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey A
 
 * [ページの概要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### サポートされない機能
-
 * [貢献度分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [アラート](/help/components/c-alerts/intellligent-alerts.md)
 
 ## 組織として、コンポーネントのマッピング方法を決定します。
 
