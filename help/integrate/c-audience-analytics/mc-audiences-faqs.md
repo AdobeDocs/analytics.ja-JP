@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 75%
 
 ---
 
@@ -58,7 +58,7 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> <p>「<span class="uicontrol">Segment Mappings</span>」で「<span class="uicontrol">Automatically map all current and future segments</span>」オプションを選択すると、Analytics の宛先はセグメントの「Destination Mappings」セクションに表示されなくなります。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>これを防ぐには、自動オプションの代わりに「<span class="uicontrol">Manually map segments</span>」を選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q:Analytics で、Adobe Audience Managerからすべての情報が提供されますか。</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q:Analytics では、Adobe Audience Managerからすべての情報が提供されますか。</b> </p> </td> 
    <td colname="col2"> <p>いいえ。Audience Manager オーディエンスの有効化中または有効化後、およびセグメント認定中／認定後にサイトを訪問するユーザーに関連するデータのみ提供されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。（メモ：また、Data Warehouse では「Audience ID = -1」および「::max_audiences_exceeded::」としても表示されます）</b> </p> </td> 
-   <td colname="col2"> <p>デフォルトでは、Adobe Audience ManagerのAudience Analytics統合は、訪問者が認定するすべてのセグメントをヒットごとに Analytics に送信します。 1 回のヒットで訪問者が 150 を超えるAdobe Audience Managerセグメントに属している場合、 <b>最近 150 個の認定済みセグメント</b> 残りのリストは切り捨てられる間、が Analytics に送信されます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
+   <td colname="col2"> <p>デフォルトでは、Adobe Audience ManagerのAudience Analytics統合は、訪問者が認定するすべてのセグメントをヒットごとに Analytics に送信します。 1 回のヒットで訪問者が 150 を超えるAdobe Audience Managerセグメントに属している場合、 <b>最近認定された 150 個のセグメント</b> 残りのリストは切り捨てられる間、が Analytics に送信されます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選択肢 1</b>：統合を初期状態で使用し、特定の訪問者が最近認定された 150 個のセグメントを送信します。 </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>オプション 2</b>:Adobe Audience Managerで、統合でビジネスにとって最も重要な 150 個のセグメントを選択します。 次に、Adobe Audience Managerは、これら 150 個のセグメントに対してのみ訪問者をチェックします。 この手法の欠点は、すべての訪問者に対してこの 150 セグメントしか受け取れないことです。一方、1 の手法の場合、統合にはヒットごとの特性があるので、セグメントを無制限に送信できます。 </li> 
@@ -145,8 +145,8 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> <p>詳しくは、 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Analytics とAudience Managerのセグメントについて </a>. </p> <p>Adobe Audience Managerオーディエンスは、Analytics で使用する「ディメンション」コンポーネントとして送信および共有されます。 これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q:顧客属性とAdobe Audience Managerから統合された顧客データの違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>顧客属性は時間ベースではなく、過去や未来の時点に適用されます。Adobe Audience Managerの統合データは、時間ベースで将来のみ利用できます。 また、Experience Cloud属性は顧客 ID のルックアップテーブルですが、Adobe Audience Manager統合は、訪問者の各ヒットに関連付けられたデータです。 </p> </td> 
+   <td colname="col1"> <p><b>Q：顧客属性と、Adobe Audience Managerから統合された顧客データの違いは何ですか。</b> </p> </td> 
+   <td colname="col2"> <p>顧客属性は時間ベースではなく、遡って適用され、将来的に適用されます。 Adobe Audience Managerの統合データは、時間ベースで将来のみ利用できます。 また、Experience Cloud属性は顧客 ID のルックアップテーブルです。Adobe Audience Manager統合は、訪問者の各ヒットに関連付けられたデータです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：この問題に対する従来の手法（古いベータ版、コンサルティングプラグインの cookie の宛先など）は使用できますか。</b> </p> </td> 

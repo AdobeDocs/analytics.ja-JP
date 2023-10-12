@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 96%
+source-wordcount: '758'
+ht-degree: 93%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 96%
    + [コンテキスト対応セッション](vrs/vrs-mobile-visit-processing.md)
    + [レポート時間処理](vrs/vrs-report-time-processing.md)
    + [A4T に関する考慮事項](vrs/vrs-a4t.md)
-   + [VRS FAQ](vrs/vrs-faq.md)
-   + [VRS とグローバル／マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
-   + VRS のワークフロー {#vrs-workflow}
+   + [仮想レポートスイートに関する FAQ](vrs/vrs-faq.md)
+   + [仮想レポートスイートとグローバル/マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
+   + 仮想レポートスイートのワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 96%
    + [クロスデバイス分析の設定](cda/setup.md)
    + [再生の仕組み](cda/replay.md)
    + [CDA Workspace テンプレート](cda/workspace-template.md)
-   + [VRS を特定の日付に制限する](cda/limit-vrs-date.md)
+   + [特定の日付に仮想レポートスイートを制限する](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)

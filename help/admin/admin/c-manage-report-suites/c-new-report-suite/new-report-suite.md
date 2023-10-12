@@ -4,10 +4,10 @@ title: 新しいレポートスイート - 設定
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 96%
 
 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 
-エレメントの説明（[レポートスイートの作成時](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)で使用されます）。
+要素の説明（[レポートスイートの作成時](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)で使用されます）。
 
 >[!NOTE]
 >
->仮想レポートスイートの作成方法について詳しくは、[仮想レポートスイートのドキュメント](/help/components/vrs/c-workflow-vrs/vrs-create.md)を参照してください。
+>The [仮想レポートスイートのドキュメント](/help/components/vrs/c-workflow-vrs/vrs-create.md) 仮想レポートスイートの作成方法を示します。
 
 | 要素 | 説明 |
 | --- | --- |

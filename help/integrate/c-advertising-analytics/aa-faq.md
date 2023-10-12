@@ -3,10 +3,10 @@ description: Advertising Analytics に関するよくある質問。
 title: 広告分析に関するよくある質問 (FAQ)
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 99%
    <td colname="col2"> <p>回答：レポートスイートを Advertising Analytics アカウントに割り当てるには、目的のレポートスイートを<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Advertising Analytics レポート用にプロビジョニングする</a>必要があります。 </p> <p>これは別の管理者ページでおこないます。このページには、<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">[Experience Cloud 対応レポートスイートを選択]</span>／<span class="uicontrol">設定を編集</span>／<span class="uicontrol">Advertising Analytics 設定</span></span>からアクセスできます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>質問：Advertising Analytics アカウントに<b>仮想レポートスイート</b>（VRS）を割り当てることはできますか？ </p> </td> 
-   <td colname="col2"> <p>回答：仮想レポートスイート（VRS）はデータを収集しないので、VRS に Advertising Analytics アカウントを直接マッピングすることはできません。 </p> <p>ただし、データを表示したい VRS の親レポートスイートに Advertising Analytics をマッピングできます。 </p> <p>検索エンジンの指標（クリック、コスト、インプレッション）は、AMO ID（またはその分類）に基づいたセグメントのロジックに「or」条件を含めない限り、VRS に表示されない場合があります。例：「AMO ID が存在するすべてのヒット」を追加すると、セグメント内の検索エンジンの指標が含まれます。 </p> </td> 
+   <td colname="col1"> <p>質問： <b>仮想レポートスイート</b> Advertising Analyticsアカウントに？ </p> </td> 
+   <td colname="col2"> <p>回答：仮想レポートスイートではデータが収集されないので、Advertising Analyticsアカウントを仮想レポートスイートに直接マッピングすることはできません。 </p> <p>ただし、データを表示する仮想レポートスイートの親レポートスイートにAdvertising Analyticsアカウントをマッピングすることはできます。 </p> <p>AMO ID（またはその分類）に基づくセグメントロジックに「or」条件を含めない限り、検索エンジンの指標（クリック、コスト、インプレッション）が仮想レポートスイートに表示されない場合があります。 例：「AMO ID が存在するすべてのヒット」を追加すると、セグメント内の検索エンジンの指標が含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics 指標は<b>マーケティングチャネル</b>レポートでレポート可能ですか？ </p> </td> 
@@ -110,7 +110,7 @@ ht-degree: 99%
    <td colname="col2"> <p>回答：AMO ID は、インプレッション数、コスト、クリック数、平均順位および平均品質スコアといった検索エンジン指標をキャプチャします。クリックがなく、インプレッションがある場合は、インプレッション／順位／品質スコアデータが Analytics に送信されます。通常、クリックがない場合は、コストもありません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>質問：このデータがキャプチャされるのはどのレベルですか？<b>訪問者ですか？ それともヒットですか？</b> </p> </td> 
+   <td colname="col1"> <p>質問：このデータがキャプチャされるのはどのレベルですか？<b>訪問者ですか？ ヒット?</b> </p> </td> 
    <td colname="col2"> <p>回答：検索エンジン指標は、ヒットレベルでキャプチャされ、AMO ID（およびその分類）に接続されます。概要レベルデータであり、訪問／訪問者には接続されません。そのため、検索エンジン指標は、ヒットレベルの範囲の、AMO ID（またはその分類）に基づくセグメントにのみ使用できます。 </p> <p>また、AMO ID もランディングページ（訪問／訪問者に接続）のヒットでキャプチャされ、（期限が切れるか新しい AMO ID で上書きされるまで）他の Analytics 指標のクレジットを受け取るためにダウンストリームを保持します。他の任意の eVar のように、データセットに完全に組み込まれます。 </p> </td> 
   </tr> 
   <tr> 

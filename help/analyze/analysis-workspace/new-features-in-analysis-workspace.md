@@ -5,10 +5,10 @@ title: Analysis Workspace の新機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
-source-wordcount: '8267'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '8268'
+ht-degree: 99%
 
 ---
 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 |--- |--- |
-| [VRS およびプロジェクトのキュレーション - 機能強化](/help/analyze/analysis-workspace/curate-share/curate.md) | これらの変更は 2018 年 10 月に実際に導入されました。キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。<br>以前は、「すべてのコンポーネントを表示」をクリックすると、誰でもキュレーションされていないコンポーネントを表示できました。更新されたキュレーション機能により、どのコンポーネントを表示できるかをより詳細に制御できます。</br> |
+| [仮想レポートスイートとプロジェクトのキュレーション — 機能強化](/help/analyze/analysis-workspace/curate-share/curate.md) | これらの変更は 2018 年 10 月に実際に導入されました。キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイートで、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。 <br>以前は、「すべてのコンポーネントを表示」をクリックすると、誰でもキュレーションされていないコンポーネントを表示できました。更新されたキュレーション機能により、どのコンポーネントを表示できるかをより詳細に制御できます。</br> |
 
 ## 2018 年 10 月
 
@@ -537,7 +537,7 @@ ht-degree: 100%
   </tr>
   <tr>
    <td colname="col1"> <p>event#、eVar# および prop# に対する変更 </p> </td>
-   <td colname="col2"> <p>2017 年に左側のパネルのディメンション名に追加された event#、eVar# および prop# は、コンポーネントを<b>検索</b>するときにのみ表示されます。 </p> <p>（仮想レポートスイートビルダーにも該当します。） </p> </td>
+   <td colname="col2"> <p>2017 年に左側のパネルのディメンション名に追加された event#、eVar# および prop# は、コンポーネントを<b>検索</b>するときにのみ表示されます。 </p> <p>（仮想レポートスイートビルダーにも適用されます）。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>なし／未指定に対する変更 </p> </td>
@@ -1032,7 +1032,7 @@ ht-degree: 100%
 2016 年 6 月 16 日（PT）にリリースされた新機能：
 
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)。2016 年 6 月 16 日（PT）現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-* [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセスできる一つ一つの指標およびディメンションを自動分析することで、2 つのセグメント間の統計的に最も有意な差異を見つけることができます。
+*  [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセスできる一つ一つの指標およびディメンションを自動分析することで、2 つのセグメント間の統計的に最も有意な差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
@@ -1111,7 +1111,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ## このプロジェクトへのリンク {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-プロジェクトで、アクションメニューから「**[!UICONTROL このプロジェクトへのリンク]**」をクリックすると、保存したプロジェクトの URL が他のユーザーに電子メールで送信されます。このメールを受信したユーザーに管理者権限があれば、この方法で共有されたプロジェクトを編集して、保存できます。それ以外の場合は、このようなプロジェクトは読み取り専用になります。
+プロジェクトで、アクションメニューから「**[!UICONTROL このプロジェクトへのリンク]**」をクリックすると、保存したプロジェクトの URL が他のユーザーにメールで送信されます。このメールを受信したユーザーに管理者権限があれば、この方法で共有されたプロジェクトを編集して、保存できます。それ以外の場合は、このようなプロジェクトは読み取り専用になります。
 
 ![](assets/link-to-this-project.png)
 

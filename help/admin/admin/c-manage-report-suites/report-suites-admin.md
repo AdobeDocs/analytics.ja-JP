@@ -3,10 +3,10 @@ description: レポートスイートでは、選択した web サイト、web �
 title: レポートスイートマネージャー
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics ソリューションにログインしたら、使用するレ�
 
 >[!NOTE]
 >
->仮想レポートスイートは、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;で管理されます。[仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
+>仮想レポートスイートは、 **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL 仮想レポートスイート]**. 詳しくは、 [仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md).
 
 ## レポートスイートマネージャーの説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

@@ -3,10 +3,10 @@ title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ## アドビツールを組み合わせて使用
 
-さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。提供されている機能：Experience Cloud ID サービス、セグメント化、Data Warehouse、顧客属性、および仮想レポートスイート。以下に、これらのツールを使う方法の概要を示します。
+さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。Experience CloudID サービス、セグメント化、Data Warehouse、顧客属性および仮想レポートスイートの機能が含まれます。 以下に、これらのツールを使う方法の概要を示します。
 
 ### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
@@ -66,14 +66,14 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 必ず Experience Cloud 訪問者 ID をディメンションとして使用し、ボットセグメントを適用してください。
 
-### 手順 4：このリストを顧客属性としてアドビに渡す
+### 手順 4：このリストを顧客属性としてAdobeに渡す
 
 Data Warehouse レポートが届いたら、履歴データからフィルタリングする必要のある ECID のリストが表示されます。これらの ECID をコピーして、2 列のみ（ECID とボットフラグ）からなる空白の .CSV ファイルに貼り付けます。
 
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
-* **ボットフラグ**：「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
+* **ボットフラグ**:「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
 
-この .CSV ファイルを顧客属性の読み込みファイルとして使用し、この[ブログ投稿](https://theblog.adobe.com/link-digital-behavior-customers)の説明に従って、顧客属性にレポートスイートを登録します。
+この.CSV ファイルを顧客属性の読み込みファイルとして使用し、この説明に従って、顧客属性にレポートスイートを登録します。 [ブログ投稿](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -85,11 +85,11 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順 6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、次のように、このセグメントを使用して識別されたボットを除外する[仮想レポートスイート](/help/components/vrs/vrs-about.md)を作成します。
+最後に、 [仮想レポートスイート](/help/components/vrs/vrs-about.md) では、このセグメントを使用して、識別されたボットを除外します。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-この新しくセグメント化された仮想レポートスイートでは、識別されたボットが削除され、データセットがよりクリーンになります。
+この新しくセグメント化された仮想レポートスイートでは、識別されたボットが削除され、よりクリーンなデータセットが得られるようになりました。
 
 ### 手順 7：手順 2、3、4 を定期的に繰り返す
 

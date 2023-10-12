@@ -4,10 +4,10 @@ title: セグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 95%
+source-wordcount: '497'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Workspace では、どのくらい複雑なセグメントが必要か、この�
 | コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
 | クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | アドホックの単一ルールセグメント（ドラッグ&amp;ドロップを使用）または複数のルールの追加/編集（セグメントアイコンをクリック）に使用できます |
 | 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
-| VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | VRS 定義内でのセグメントの適用 |
+| 仮想レポートスイートベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | 仮想レポートスイート定義内でのセグメントの適用 |
 
 ## ビデオ
 

@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 

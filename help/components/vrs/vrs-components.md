@@ -3,10 +3,10 @@ description: 仮想レポートスイートをキュレートして、Analysis W
 title: 仮想レポートスイートコンポーネントのキュレーション
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[更新されたキュレーション機能](/help/analyze/analysis-workspace/curate-share/curate.md)により、どのコンポーネントを表示できるかをより詳細に制御できます。
+>キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイートで、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。 以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[更新されたキュレーション機能](/help/analyze/analysis-workspace/curate-share/curate.md)により、どのコンポーネントを表示できるかをより詳細に制御できます。
 
 コンポーネントのキュレーションを有効にするには、次の手順に従います。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**／**[!UICONTROL 新しい仮想レポートスイートを作成]**&#x200B;に移動します。
+1. に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL 仮想レポートスイート]** > **[!UICONTROL 新しい仮想レポートスイートの作成]**.
 1. **[!UICONTROL 設定]**&#x200B;を定義したら、「**[!UICONTROL コンポーネント]**」タブをクリックします。
 
-1. 「**[!UICONTROL 仮想レポートスイートのコンポーネントのカスタマイズを有効にする]**」チェックボックスをオンにします。
+1. チェックボックスを選択します。 **[!UICONTROL 仮想レポートスイートのコンポーネントのカスタマイズを有効にする]**:
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ ht-degree: 100%
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* Analytics レポート API
-
 
    このチェックボックスを選択した後は、「除外されたコンポーネント」列から「含まれるコンポーネント」列にコンポーネントをドラッグすることで、任意のコンポーネントを仮想レポートスイートに追加できます。仮想レポートスイートに含めるかどうかを選択できるコンポーネントは次のとおりです。
 

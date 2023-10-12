@@ -3,10 +3,10 @@ title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ CDA を使用するには、次のすべてが必要です。[フィールドベ
 * Adobe Analytics レポートスイートを複数の組織 ID にマッピングすることはできません。CDA は特定のレポートスイート内のデバイスを結び付けるので、CDA を使用して複数の組織 ID をまたいでデータを結び付けることはできません。
 * CDA は、複数の依存コンポーネントを持つ複雑な処理パイプラインを使用します。これは、ベース Analytics レポーティングワークフローと並行して実行されます。そのため、元のレポートスイートと CDA 仮想レポートスイートの間で、合計ヒット数の約 1％のデータが一致しないことが予想されます。
 * クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。例えば、現在マーケティングチャネル変数をサポートしていません。これらの制限について詳しくは、 [仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) と [レポートの時間処理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ja#report-time-processing-limitations) を参照してください。
-* プライベートグラフでは、Experience Cloud と Adobe Analytics で使用されている[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#customer-attributes)機能と同じ ID 同期を活用します。ただし、CDA 仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。つまり、顧客属性ベースのディメンションは、CDA 仮想レポートスイート内では使用できません。
+* プライベートグラフは、 [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja#customer-attributes) 機能がExperience CloudとAdobe Analytics内に見つかりました。 ただし、CDA 仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチかにかかわらず）は、他の顧客属性機能との互換性がありません。 つまり、顧客属性ベースのディメンションは、CDA 仮想レポートスイートでは使用できません。
 * 現在、CDA と A4T には互換性がありません。
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * アドビによる CDA ステッチプロセスのアクティブな監視は、実稼動用レポートスイートにのみ制限されます。

@@ -3,10 +3,10 @@ description: 複数のスイートタグ付けを実装し、イメージリク�
 title: 複数のスイートタグ付けの実装
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 多くの場合、複数のスイートタグ付けの代わりに仮想レポートスイートを使用することがベストプラクティスですが、ビジネスニーズに応じて組織に最適なレポートスイートアプローチを決定する必要があります。
 
-仮想レポートスイートが最適なアプローチかどうかを理解するには、 [仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md) を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については、 [仮想レポートスイートと複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) も参照してください。
+仮想レポートスイートが最適なアプローチかどうかを理解するには、 [仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md) を参照してください。関連項目：[仮想レポートスイートと、複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)」をクリックします。

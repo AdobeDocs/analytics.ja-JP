@@ -3,10 +3,10 @@ title: Adobe Analytics のオーディエンスレポート
 description: Analysis Workspace を使用してオーディエンスベースのレポートを作成する方法について説明します。
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 
 デモグラフィック属性と興味関心データは、サイトにアクセスしたユーザーの年齢、性別、興味関心についての情報を提供します。Google では、これらのデータをクロスサイトトラッキング機能を使用して収集します。
 
-アドビ製品では、デモグラフィック属性と興味関心データの自動収集をおこなっていません。ただし、これらのデータを取得した場合は、顧客属性（Adobe Experience Cloud プラットフォーム内の機能）を使用できます。デモグラフィック属性と興味関心データだけでなく、様々な属性に関するデータを属性別に管理、編成できます。
+アドビ製品では、デモグラフィック属性と興味関心データの自動収集をおこなっていません。ただし、組織がこのデータを取得した場合は、顧客属性 (Adobe Experience Cloud Platform 内の機能 ) を使用できます。 デモグラフィック属性と興味関心データだけでなく、様々な属性に関するデータを属性別に管理、編成できます。
 
 詳しくは、顧客属性ヘルプを参照してください。
 

@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 * データ挿入 API と一括データ挿入 API はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
 
-**[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)** は以下の場合に使用します。
+**[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)** は以下の場合に使用します。
 
 * 顧客関係管理（CRM）データベースに取り込んだエンタープライズ顧客データを Experience Cloud にアップロードする場合。
 * CRM データを Analytics でより詳しく分析する場合または Adobe Target のターゲティング条件として使用する場合。
