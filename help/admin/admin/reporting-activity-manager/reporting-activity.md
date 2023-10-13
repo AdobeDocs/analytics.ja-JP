@@ -4,10 +4,10 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ The [!UICONTROL レポートアクティビティマネージャー] 管理者�
 
   ![ユニークユーザーのグラフ](assets/distinct-users-graph.png)
 
-<!--
+#### リクエストグラフ
 
-#### Requests graph
+「リクエスト数」のグラフには、選択したレポートスイートに対する過去 2 時間の処理済みリクエスト数および完了済みリクエスト数が表示されます。
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+グラフの上にマウスポインターを置くと、その分のリクエストの最大数が最も多かった時点のポイントが表示されます。
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **X 軸**：過去 2 時間の時間枠での、処理済みおよび完了済みのリクエストの数。
+* **Y 軸**：処理されたリクエスト（紫色）と完了したリクエスト（緑色）の数（分単位）。
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![ユニークユーザーのグラフ](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### キューグラフ
 
-#### Queueing graph
+キューのグラフには、過去 2 時間の選択したレポートスイートに対するレポートリクエストの平均キュー待機時間（秒）が表示されます。
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+グラフの上にマウスポインターを置くと、その分の平均待機時間の最大値が最も大きい時間のポイントが表示されます。
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **X 軸**：過去 2 時間の時間枠での、レポートリクエストの平均キュー待機時間。
+* **Y 軸**：平均待機時間（秒）。
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![ユニークユーザーのグラフ](assets/queueing-graph.png)
 
 ### テーブルを表示 {#view-table}
 
