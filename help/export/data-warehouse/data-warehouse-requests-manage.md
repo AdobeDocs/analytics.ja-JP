@@ -4,9 +4,9 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
+source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1258'
 ht-degree: 13%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 13%
    | [!UICONTROL **開始日**] | レポートが開始された日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
    | [!UICONTROL **完了日**] | レポートが完了した日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
    | [!UICONTROL **更新日**] | レポートが最後に更新された日時。<p>これは、リクエストを開始したユーザーのタイムゾーンに表示されます。</p> |
-   | [!UICONTROL **ステータス**] | レポート配信のステータス。 考えられるステータスは次のとおりです。<ul><li>[!UICONTROL **作成済み**]：レポートは作成されましたが、まだ処理されていません。</li><li>[!UICONTROL **保留中**]：レポートは処理を待機中です。</li><li>[!UICONTROL **処理中**]：レポートは現在処理中です。</li><li>[!UICONTROL **完了**]：レポートが完了し、使用できるようになりました。</li><li>[!UICONTROL **Scheduled**]：レポートはスケジュールされていますが、まだ開始されていません。</li><li>[!UICONTROL **キャンセル**]：レポートがユーザーによってキャンセルされました。</li><li>[!UICONTROL **エラー — 処理中**:] レポートの処理中にエラーが発生しました。 レポートを再実行して、もう一度試してください。</li><li>[!UICONTROL **エラー — 送信エラー**]：レポートが正常に生成されましたが、配信できませんでした。 次を確認します。 [宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)」をクリックし、レポートを再送信します。</li></ul>。 |
+   | [!UICONTROL **ステータス**] | レポート配信のステータス。 考えられるステータスは次のとおりです。<ul><li>[!UICONTROL **作成済み**]：レポートは作成されましたが、まだ処理されていません。</li><li>[!UICONTROL **保留中**]：レポートは処理を待機中です。</li><li>[!UICONTROL **処理中**]：レポートは現在処理中です。</li><li>[!UICONTROL **完了**]：レポートが完了し、使用できるようになりました。</li><li>[!UICONTROL **Scheduled**]：レポートはスケジュールされていますが、まだ開始されていません。</li><li>[!UICONTROL **キャンセル**]：レポートがユーザーによってキャンセルされました。</li><li>[!UICONTROL **エラー — 処理中**:] レポートでエラーが発生したので、処理できませんでした。</li><li>[!UICONTROL **エラー — 送信エラー**]：レポートが正常に生成されましたが、配信できませんでした。 次を確認します。 [宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)」をクリックし、レポートを再送信します。</li></ul>。 |
    | [!UICONTROL **送信元**] | レポートに含まれる全体的な期間の開始日。<p>これは、レポートスイートのタイムゾーンに表示されます。</p> |
    | [!UICONTROL **設定値**] | レポートに含まれる全期間の終了日。 <p>これは、レポートスイートのタイムゾーンに表示されます。</p> |
    | [!UICONTROL **レガシーリクエスト ID**] | レガシーData Warehouseインターフェイスでレポートを識別するために使用される ID。 この ID は、カスタマーケアに問い合わせる際にAdobeで必要になる場合があります。 |
