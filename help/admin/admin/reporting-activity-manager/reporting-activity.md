@@ -4,7 +4,7 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 18%
@@ -172,7 +172,7 @@ The [!UICONTROL レポートアクティビティマネージャー] 管理者�
 
 | 列 | 説明 |
 | --- | --- |
-| [!UICONTROL **プロジェクト**] | クエリが開始されたプロジェクト。 |
+| [!UICONTROL **プロジェクト**] | リクエストが開始されたプロジェクト。 |
 | [!UICONTROL **リクエスト数**] | プロジェクトに関連付けられた要求の数。 |
 | [!UICONTROL **ユーザー数**] | プロジェクトに関連付けられたユーザーの数。 <!-- ??? --> |
 | [!UICONTROL **アプリケーション**] | [!UICONTROL レポートアクティビティマネージャー]でサポートされているアプリケーションは次のとおりです。 <ul><li>Analysis Workspace UI</li><li>Workspace のスケジュール済みプロジェクト</li><li>Report Builder</li><li>ビルダー UI：セグメント、計算指標、注釈、オーディエンスなど。</li><li>API 1.4 または 2.0 からの API 呼び出し</li><li>インテリジェントアラート</li></ul> |
@@ -189,7 +189,7 @@ The [!UICONTROL レポートアクティビティマネージャー] 管理者�
 
 | 列 | 説明 |
 | --- | --- |
-| [!UICONTROL **アプリケーション**] | クエリが開始されたアプリケーション。 |
+| [!UICONTROL **アプリケーション**] | リクエストが開始されたアプリケーション。 |
 | [!UICONTROL **リクエスト数**] | アプリケーションに関連付けられたリクエストの数。 |
 | [!UICONTROL **ユーザー数**] | アプリケーションに関連付けられているユーザーの数。 <!--???--> |
 | [!UICONTROL **プロジェクト数**] | アプリケーションに関連付けられているプロジェクトの数。 <!--???--> |
@@ -199,31 +199,5 @@ The [!UICONTROL レポートアクティビティマネージャー] 管理者�
 | [!UICONTROL **平均セグメント数**] | 含まれるリクエストに適用されたセグメントの平均数。 セグメントが増えると、リクエストが複雑になります。 |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 
