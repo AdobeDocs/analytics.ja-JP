@@ -2,10 +2,10 @@
 description: レポートアクティビティマネージャーを使用して、ピーク時のレポート作成時の容量の問題を診断および修正する方法について説明します。
 title: レポートアクティビティマネージャーの概要
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ Activity Manager のレポートには次のような利点があります。
 
 レポートアクティビティマネージャでのレポート要求の取り消しについては、 [レポートアクティビティマネージャーでのレポート要求のキャンセル](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## よくある質問 {#faq}
-
-| 質問 | 回答 |
-| --- | --- |
-| 追加のレポート処理能力を購入することはできますか？ | この機能は今後利用可能になる予定です。 |
-
-{style="table-layout:auto"}
