@@ -4,10 +4,10 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: de0d103a2b4cd1827b2c9a93aa140a9c5e44584e
 workflow-type: tm+mt
 source-wordcount: '1892'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
