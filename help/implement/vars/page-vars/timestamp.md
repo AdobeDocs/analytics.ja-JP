@@ -3,10 +3,10 @@ title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 81%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 81%
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.timestamp
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.timestamp
 
-`s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式は、[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) と [Unix 時間](https://ja.wikipedia.org/wiki/UNIX時間)です。
+`s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式は次のとおりです。 [ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) および [Unix 時間](https://ja.wikipedia.org/wiki/UNIX時間) 秒単位で指定します。
 
 ```js
 // Timestamp using ISO 8601
@@ -46,7 +46,7 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 値
 
-[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
+[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
 
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。
