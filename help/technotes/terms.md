@@ -3,10 +3,10 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 98%
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とは](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)」を参照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。
+* **コンポーネント：** Analysis Workspaceのコンポーネントは、プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび日付範囲で構成されます。 詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 」を参照してください。
 * **コンテキストデータ変数：**&#x200B;処理ルールでのみ使用される一時変数。コンテキストデータ変数をコンバージョン変数またはトラフィック変数にコピーするように処理ルールを設定していない場合、コンテキストデータ変数は恒久的に失われます。『実装ユーザガイド』の「[コンテキストデータ変数](../implement/vars/page-vars/contextdata.md)」を参照してください。
 * **コンバージョン変数：** eVar とも呼ばれています。カスタム値を格納し、変数値が期限切れになるまで保持します。『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar.md) ディメンションを参照してください。
 * **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。『分析ユーザガイド』の「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。
