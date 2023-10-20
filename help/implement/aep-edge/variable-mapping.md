@@ -3,7 +3,7 @@ title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ ht-degree: 83%
 | `media.mediaTimed.thirdQuartiles.value` | Media Analytics 指標「[75％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#seventy-five-progress-marker)」。 |
 | `media.mediaTimed.timePlayed.value` | Media Analytics 指標「[コンテンツ滞在時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-time-spent)」。 |
 | `media.mediaTimed.totalTimePlayed.value` | Media Analytics 指標「[メディア閲覧時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#media-time-spent)」。 |
-| `placeContext.geo.latitude` | Mobile ディメンション「緯度」。 |
-| `placeContext.geo.longitude` | モバイルディメンション「経度」。 |
+| `placeContext.geo._schema.latitude` | Mobile ディメンション「緯度」。 |
+| `placeContext.geo._schema.longitude` | モバイルディメンション「経度」。 |
 | `placeContext.geo.postalCode` | 「[郵便番号](../../components/dimensions/zip-code.md)」ディメンション。 |
 | `placeContext.geo.stateProvince` | 「[米国の州](../../components/dimensions/us-states.md)」ディメンション。 |
 | `placeContext.localTime` | Reports &amp; Analytics で[タイムゾーン](/help/analyze/reports-analytics/reports.md)を入力するのに役立ちます。[データフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)では `t_time_info` として表示されます。 |
