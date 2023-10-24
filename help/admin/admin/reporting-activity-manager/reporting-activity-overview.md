@@ -2,7 +2,7 @@
 description: レポートアクティビティマネージャーを使用して、ピーク時のレポート作成時の容量の問題を診断および修正する方法について説明します。
 title: レポートアクティビティマネージャーの概要
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Activity Manager のレポートの概要
-
-{{release-limited-testing}}
 
 The [!UICONTROL レポートアクティビティマネージャー] は管理者が使用できます。
 
