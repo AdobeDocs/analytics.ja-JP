@@ -4,9 +4,9 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >すべてのお客様が間もなく利用できる新しいData Warehouse体験をお持ちでない場合は、 [Data Warehouseリクエストの管理（古いエクスペリエンス）](#manage-data-warehouse-requests-old-experience) をクリックします。
 
 
-自分が行ったData Warehouseリクエストを表示および管理できます。 管理者のみが、管理権限を持つ組織内の他のユーザーによるリクエストの表示と管理をおこなうことができます。
+自分が行ったData Warehouseリクエストを表示および管理できます。 組織内の他のユーザーが行ったリクエストの表示と管理を行えるのは、管理者のみです。
 
 次の節では、リクエストを管理する際に実行できるアクティビティについて説明します。
 
@@ -47,6 +47,8 @@ ht-degree: 13%
 * スケジュールに従って実行するように設定されたリクエストのみを編集できます。
 
 * リクエストに関連付けられているすべてのフィールドを編集できるわけではありません。 編集できないフィールドは淡色表示になります。
+
+* 別のユーザーのリクエストを編集する管理者は、アクセスできる新しいアカウントと場所を選択する必要があります。
 
 スケジュールされたリクエストを編集するには：
 
