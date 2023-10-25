@@ -3,41 +3,41 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 69cffe2bc97a81cb9e4b989f2193dc2deb6e8d22
+source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 65%
+source-wordcount: '1134'
+ht-degree: 66%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2023年10月）
+# 最新の Adobe Analytics リリースノート（2023年10月／11月）
 
-**最終更新日**：2023年10月19日（PT）
+**最終更新日**：2023年10月25日（PT）
 
-リリースノートの 10 月は、2023 年 10 月 4 日から 2023 年 10 月 25 日までのリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
+これらのリリースノートでは、2023 年 10 月 23 日のリリース期間を 2023 年 11 月末にカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **コンポーネントを管理する際に使用できる新しい列** | コンポーネントを管理する際に、次の新しい列を使用できるようになりました。<ul><li>使用場所<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) そして [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>前回の使用<p>この列は、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)、および [アラートマネージャー](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、削除または変更する必要があるかどうかを判断するのに役立ちます。この情報と共にデータ辞書を使用すると、組織内でのコンポーネントの使用方法を追跡し、より深く理解することができます。</p> | 2023年9月20日（PT） | 2023年10月4日（PT） |
 | **Activity Manager のレポート機能の強化** | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。レポートアクティビティマネージャーで使用できる機能強化の一部を次に示します。 <ul><li>以降のリクエストを制限：管理者は、現在のリクエストのキャンセルに加えて、定義した期間だけリクエストを制限できるようになりました。 管理者は、リクエスト、プロジェクト、ユーザーによってリクエストを制限できます。</li><li>使用率および容量の指標に加えて、レポートアクティビティマネージャーには、レポートアクティビティに関するより多くのデータ（複雑度列、ユーザー列、接続列）が含まれるようになりました。</li><li>レポートアクティビティマネージャーで行われたすべてのキャンセルと制限が監査ログに表示されるようになりました。 管理者は、監査ログを使用して、現在キャンセルされている内容を表示できます。 レポートアクティビティマネージャーまたは監査ログでキャンセルを元に戻すことはできません。</li></ul><p>詳しくは、 [Activity Manager のレポートの概要](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023年10月17日（PT） | 2023年10月24日（PT） |
 | **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月12日（PT） | 2023 年 11 月 8 日以前 |
-| **Adobe Analytics プロジェクトと含まれるコンポーネントを Customer Journey Analytics に移行** | Adobe Analyticsプロジェクトを Customer Journey Analytics に移行できるようになりました。このプロセスにより、Adobe Analytics から Customer Journey Analytics への移行が簡単になります。 <p>プロジェクトを Customer Journey Analytics に移行すると、アセットは Adobe Analytics レポートスイートから Customer Journey Analytics データビューにマッピングされます。</p> <p>Adobe Analytics インターフェイスから Customer Journey Analytics にプロジェクトを移行します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ja)</p> | 該当なし | 2023年10月9日（PT） |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics の修正点
 
-* Target/Analytics UI に A4T レポートが表示されない問題を修正しました。 (AN-329375、AN-329745、AN-330026)
+* これらの Analytics 処理およびレポートエンジンの変更は、10 月の最後の週にデプロイされます。ページディメンションまたはリンクディメンションのラベルが、間違って `Unknown`. 修正前に、 `Unknown` ページ名またはリンク名がヒット時に渡されない（デフォルトの「」が使用される）場合、ラベルが正しく表示されないことがありました [!UICONTROL ページ URL] および [!UICONTROL リンク URL]、それぞれ。 これらのディメンションは、大文字と小文字を区別しないように設定されています。 この修正により、今後のレポートは正しくなります。 ただし、履歴データに関するレポートの場合、一部のレポート結果に、誤って `Unknown`. （AN-328030）
 
-AN-313983、AN-324189、AN-325095、AN-325677、AN-325886、AN-326360、AN-326458、AN-327290、AN-327315、AN-327353、AN-327505、AN-AN-327922AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN AN AN AN AN AN    AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-ANAN 、AN 、AN 、AN 、AN 、AN 、AN 、AN AN 、AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN AN  AN AN AN AN     AN AN AN AN AN      ANAN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN
+### その他の修正点
+
+-315676、AN-、AN-323398、AN-326209、AN-328178、AN-328261、AN-328395、AN-328671、AN-329282、AN-329330、AN-329355、AN-329506、AN-329516、AN-329738、AN-329769、AN-329771、AN-329816、AN-329877、AN-329928、AN-329957、AN-329962、AN-329966、AN-330023、AN-330081、AN-330083、AN-330105、AN-330138、AN-330140、AN-330165、AN-330241、AN-330359、AN-330366、AN-330427、AN-330438、AN-330442、AN-330534、AN-330616、AN-330654、AN-330783、AN-330879、AN-330881、AN-330883、AN-330887、AN-330888、AN-330955、AN-330979、AN-331031、AN-331053、AN-331068、AN-331071、AN-331074、AN-331075、AN-331076、AN-331078、AN-331085、AN-331093、AN-331167、AN-331171、AN-331181、AN-331196、AN-331226、AN-331258、AN-331260、AN-331279、AN-331286、AN-331290、AN-331365、AN-331375、AN-331376、AN-331454、AN-331519、AN-331570、AN-331590、AN-331593、AN-331603、AN-331751、AN-331816、AN-331897、AN-331900、AN-331906、AN-331926、AN-331929、AN-332031、AN-332067、AN-332101、AN-332114、AN-332156、AN-332201、 AN-332225、AN-332253、AN-332277、AN-332361、AN-332370、AN-332386
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **AdobeExperience Edge ヒットの完全な IP 難読化** | 2023年9月27日（PT） | Experience Edge からのヒットの IP 難読化は、2023 年 10 月後半に更新されます。 4 月に、Experience Edge は IP アドレスを難読化する機能を追加しました。 その時点で、Adobe Analyticsは、Experience Edge からのヒットを Analytics で処理する方法が原因で、IP の部分的な難読化のみをサポートしていました。 お客様が Experience Edge の完全な不明化を選択した場合、Analytics は部分的に不明化された IP のみを受け取りました。 この変更が実装されると、Analytics は、完全に不明化された IP を受け取ります。 |
+| **AdobeExperience Edge ヒットの完全な IP 難読化** | 2023年9月27日（PT） | Experience Edge からのヒットの IP 難読化は、2023 年 10 月後半に更新されます。 2023 年 4 月に、Experience Edge は IP アドレスを難読化する機能を追加しました。 その時点で、Adobe Analyticsは、Experience Edge からのヒットを Analytics で処理する方法が原因で、IP の部分的な難読化のみをサポートしていました。 お客様が Experience Edge の完全な不明化を選択した場合、Analytics は部分的に不明化された IP のみを受け取りました。 この変更が実装されると、Analytics は、完全に不明化された IP を受け取ります。 |
 | **Adobe Analytics Livestream - Analytics 2.0 API** | 2023年9月27日（PT） | これで、 [Adobe Analytics Livestream のエンドポイントガイド](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) （1.4 API を使用）の代わりに、Adobe Analytics 2.0 API を以前の場所に追加しました。 Adobe I/Oの JWT 資格情報を使用するお客様は、2025 年 1 月 1 日までにAdobe I/Oの OAuth サーバー間資格情報に移行する必要があります。 （詳しくは、以下の EOL に関する注意事項を参照してください）。 |
 
 {style="table-layout:auto"}
