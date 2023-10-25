@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5165'
 ht-degree: 96%
 
 ---
@@ -25,8 +25,10 @@ ht-degree: 96%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023年10月** | |
+| Reporting Activity Manager にログ情報を追加しました。 | 次のような情報を追加しました。 [報告活動の解除及びその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 」をクリックします。 [ログ](/help/admin/admin/logs.md). |
 | **2023年9月** | |
-| メディア再生に費やした時間パネル用に記事の構造を更新しました。 | メディア再生時間というフォルダーを削除し、フォルダーの内容を 1 つの記事に組み合わせました。 [メディア再生時間滞在パネル](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>この変更は、他のパネルのドキュメントとより一致しています。</p> |
+| メディア再生滞在時間パネルの記事の構造を更新しました。 | メディア再生滞在時間というフォルダーを削除し、フォルダーの内容を 1 つの記事である[メディア再生滞在時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)パネルに統合しました。 <p>この変更は、その他のパネルのドキュメントに沿ったものになります。</p> |
 | 入門コンテンツの機能強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な使用開始時のタスクとリソースの概要を説明する情報を追加しました。 次の新しい記事が追加されました。 <ul><li>[はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[使用例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Media Analytics レポートドキュメントの改善 | ストリーミングメディアガイドの「レポート」節のコンテンツの一部を再編成しました。これには、独自の節で API ドキュメントを統合し、一部の記事の順序を調整するなどが含まれます。 <p>Media Workspace テンプレート記事の名前をに変更しました。 [Workspace のメディアレポート](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ja) 製品内の名前に合わせて調整できます。 </p> |
 | **2023年8月** | |
