@@ -3,9 +3,10 @@ description: 分類データのアップロード先となるクラウドイン�
 keywords: Analysis Workspace
 title: クラウドの読み込み場所の設定
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '543'
 ht-degree: 8%
 
 ---
@@ -22,13 +23,13 @@ ht-degree: 8%
 
 1. 場所を追加する前に、アカウントを追加する必要があります。 まだアカウントを追加していない場合は、 [クラウドインポートアカウントの設定](/help/components/locations/configure-import-accounts.md).
 1. Adobe Analyticsで、 [!UICONTROL **コンポーネント**] > [!UICONTROL **場所**].
-1. の [!UICONTROL 場所] ページで、 [!UICONTROL **場所**] タブをクリックします。
+1. 次の日： [!UICONTROL 場所] ページで、 [!UICONTROL **場所**] タブをクリックします。
 1. 選択 [!UICONTROL **場所を追加**]. <!-- add screenshot? -->
 
    [ ロケーション ] ダイアログが表示されます。
-1. 次の情報を指定します。 |フィールド |関数 | |—|—| | [!UICONTROL **名前**] |場所の名前。  | | [!UICONTROL **説明**] |同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 | | [!UICONTROL **場所アカウント**] |で作成したロケーションアカウントを選択します [アカウントを追加](#add-an-account). |
+1. 次の情報を指定します。 |フィールド |関数 | |—|—| | [!UICONTROL **名前**] |場所の名前。  | | [!UICONTROL **説明**] |同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 | | [!UICONTROL **場所アカウント**] |で作成したロケーションアカウントを選択します。 [アカウントを追加](#add-an-account). |
 
-1. 内 [!UICONTROL **場所のプロパティ**] 「 」セクションで、ロケーションアカウントのアカウントタイプに固有の情報を指定します。
+1. Adobe Analytics の [!UICONTROL **場所のプロパティ**] 「 」セクションで、ロケーションアカウントのアカウントタイプに固有の情報を指定します。
 
    設定手順については、 [!UICONTROL **場所のアカウント**] フィールドに入力します。
 
@@ -38,8 +39,8 @@ ht-degree: 8%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 Adobeが提供したユーザー ARN が、このバケットにファイルをアップロードするためのアクセス権を持っていることを確認します。 |
-   | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダーです。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
+   | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 |
+   | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -52,7 +53,7 @@ ht-degree: 8%
    | フィールド | 関数 |
    |---------|----------|
    | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信する GCP アカウント内のバケット。 ファイルをこのバケットにアップロードするための権限が、Adobeから提供されるプリンシパルに対して付与されていることを確認します。 |
-   | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダーです。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
+   | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
 
    {style="table-layout:auto"}
 
