@@ -3,10 +3,10 @@ title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 多くの組織では、プロキシサーバーやファイアウォールなど、セキュリティを強化するためのネットワーク機能を導入しています。こうしたネットワークへのカスタマイズが、Adobe Analytics でアクティブなセッションを保持する機能の妨げになる場合があります。
 
-接続している企業ネットワークが Adobe Analytics の使用に問題を引き起こしているかどうかを判断するには、企業ネットワークに接続していないデバイスで Experience Cloud のログイン認証情報を使用します。デバイスの例としては、ホームネットワークやモバイルデバイスのデータプランなどがあります。ログアウトせずにページ間を正常に移動できる場合は、企業ネットワークが Adobe Analytics からのログアウトを引き起こす原因である可能性があります。
+接続している企業ネットワークが Adobe Analytics の使用に問題を引き起こしているかどうかを判断するには、企業ネットワークに接続していないデバイスで Experience Cloud のログイン資格情報を使用します。デバイスの例としては、ホームネットワークやモバイルデバイスのデータプランなどがあります。ログアウトせずにページ間を正常に移動できる場合は、企業ネットワークが Adobe Analytics からのログアウトを引き起こす原因である可能性があります。
 
 ## プロキシによる問題
 
@@ -34,5 +34,5 @@ ht-degree: 100%
 
  のプロキシと認証ヘッダーに関する情報は、次を参照してください。
 
-* [ProxySG または ASG アプライアンスでのプロキシチェーンデプロイメントにおけるアップストリームプロキシ認証を設定する](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [ProxySG または ASG アプライアンスでのプロキシチェーンデプロイメントにおけるアップストリームプロキシ認証を設定する](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [ProxySG アプライアンスの背後にあるサーバーにユーザーの資格情報を転送する方法](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
