@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: クラウドの読み込み場所の設定
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ ht-degree: 8%
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   これで、設定したアカウントと場所にデータをインポートできます。
+   これで、アカウントと設定した場所からデータをインポートできるようになりました。
+
+   データは、読み込み後にクラウドの宛先から削除されません。
+
+   >[!NOTE]
+   >
+   >   以前に [分類をインポートする FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) Adobe Analyticsに FIN ファイルをアップロードする必要がありました。 クラウドアカウントからインポートする場合、この FIN ファイルは不要です。
+
