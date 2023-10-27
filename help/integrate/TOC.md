@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager や Advertising Cloud など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 96%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 + [Adobe Analytics データと Adobe Campaign Classic の統合](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
-+ [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
++ [Adobe Exchange](https://exchange.adobe.com)
