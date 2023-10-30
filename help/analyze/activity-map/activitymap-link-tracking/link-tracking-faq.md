@@ -5,7 +5,7 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: a0b8f61c3728c5867640ce20768614c8d79ca657
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
@@ -81,7 +81,7 @@ b. `s_objectID` 変数を使用します。例：
 ### 例 1
 
 ```
-  <a hef="/home>Home</a>
+  <a href="/home>Home</a>
 ```
 
 ### 例 2
