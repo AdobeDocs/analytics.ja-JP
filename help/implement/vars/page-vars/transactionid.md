@@ -3,7 +3,7 @@ title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: ccdeaf341cf9a603da857d9425d3a2196d0f67f4
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## Web SDK を使用したトランザクション ID
 
-トランザクション ID は、XDM フィールド `commerce.order.transactionID` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+トランザクション ID は、XDM フィールド `commerce.order.payments[0].transactionID` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
 
 ## Adobe Analytics 拡張機能を使用したトランザクション ID
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. 「[!UICONTROL トランザクション ID]」セクションを探します。
 
 トランザクション ID は、データ要素を含む任意の文字列値に設定できます。
@@ -53,6 +53,6 @@ s.transactionID = "ABC123";
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE]
+>[!TIP]
 >
 > この変数を使用して複数のオフラインチャネルを統合する場合は、異なるチャネルがトランザクション ID と重ならないようにしてください。例えば、コールセンターのトランザクション ID の値が `1234` で販売リードのトランザクション ID の値が `1234` である場合、これらが競合し、予期しない結果を引き起こす可能性があります。トランザクション ID には、オフラインチャネルごとに一意の形式が含まれていることを確認し、必要に応じてそれらを区別します。例えば、データソースと AppMeasurement の両方で、コールセンターのトランザクション ID を `call_1234` に設定し、販売リードのトランザクション ID を `lead_1234` に設定します。
