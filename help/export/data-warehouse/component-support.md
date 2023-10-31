@@ -3,10 +3,10 @@ title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用で
 
 ### サポートされていないディメンション
 
-* 一部の時間ベースのディメンション。例：
-   * 午前／午後
-   * 日付
-   * 曜日
-   * 年間通算日
-   * 時刻
-   * 分
-   * 月
-   * 四半期
-   * 平日／週末
-   * 年
+* 午前／午後
 * 一部のパスベースのディメンション。例：
    * 「すべての入口」ディメンション（「入口ページ」を除く）
    * 「すべての出口」ディメンション（「出口ページ」と「離脱リンク」を除く）
@@ -59,7 +49,6 @@ Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用で
    * イベント前の時間
    * ページでの滞在時間 - グループ
    * 訪問別滞在時間 - グループ
-   * 訪問の深さ
 * すべての検索ページのランク
 * 階層変数
 * ヒットタイプ
@@ -78,4 +67,16 @@ Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
+* パーティシペーション指標 ( [「パーティシペーション」指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Dimensionが異なる方法でサポートされる
+
+次の時間ベースのディメンションがサポートされています。 ただし、これらのディメンションを使用する場合、日付の出力は非標準です。 特に、年は 1900 年のオフセットで、月は 0 から始まります。
+
+* 年
+* 四半期
+* 月
+* 週
+* 日
+* 時間
+* 分
