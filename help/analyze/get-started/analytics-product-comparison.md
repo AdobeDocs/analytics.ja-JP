@@ -4,9 +4,9 @@ title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 91%
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | × | × | × | ○ | × | × |
 | **アトリビューション** | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） | 制限あり | 制限あり | × | ○ | × | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） |
 | **Virtual Analyst の機能** <br> [詳細情報](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | ○ | × | × | × | × | × | ○ |
-| **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | はい — プロジェクトおよび仮想レポートスイート | × | × | × | × | × | はい — 仮想レポートスイートのみ |
+| **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | × | × | × | × | × | ○ - 仮想レポートスイートのみ |
 | **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | ○ | ○ | × | ○ | × | × |
 | **配信予定** | ○ | ○ | ○ | ○ | × | ○ | × |
-| **配信先** | 電子メール | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、電子メール | - | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
-| **仮想レポートスイートレポートの時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | ○ | × | × | × | × | × | ○ |
+| **配信先** | 電子メール | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | - | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
+| **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | ○ | × | × | × | × | × | ○ |
