@@ -5,9 +5,9 @@ title: Adobe Analytics の概要
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Adobe Analytics を使用すると、組織はデータを収集し、デジタ�
 
 ## Adobe Analytics の基本を学ぶ
 
-Adobe Analyticsの基本を学ぶには、次のリソースを使用します。
+Adobe Analytics の基本を学ぶには、次のリソースを使用します。
 
 
 | ドキュメントリソース | 関数 |
 |---------|----------|
-| [はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md) | 管理者、アナリスト、エンドユーザー、開発者のどちらであるかに関わらず、認識する必要がある主な機能とタスクについて詳しく説明します。 |
-| [Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md) | Analytics インターフェイスの主な領域の概要を説明します。 |
-| [使用例](/help/analyze/get-started/use-cases.md) | Adobe Analyticsが、顧客に対する貢献を促進するために組織が重要なインサイトを得るのに役立つ主な方法のいくつかを説明します。 |
+| [基本を学ぶ（役割別）](/help/analyze/get-started/get-started-by-role.md) | 管理者、アナリスト、エンドユーザー、開発者のいずれかに関わらず、認識しておく必要がある主な機能とタスクについて詳しく説明します。 |
+| [Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md) | Analytics インターフェイスの主な領域の概要について説明します。 |
+| [使用例](/help/analyze/get-started/use-cases.md) | 組織が顧客により優れたサービスを提供するために、Adobe Analytics で重要なインサイトを取得するのに役立つ主な方法の一部について説明します。 |
 | [使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md) | 各 Adobe Analytics ツールの推奨される使用例を紹介しています。 |
-| [Analytics 製品の比較と必要システム構成](/help/analyze/get-started/analytics-product-comparison.md) | 使用可能な様々なAdobe Analytics製品を比較します。 |
-| [必要システム構成](/help/analyze/get-started/sys-reqs.md) | Adobe Analyticsの実装と使用に関する前提条件と必要システム構成について説明します。 |
+| [Analytics 製品の比較と必要システム構成](/help/analyze/get-started/analytics-product-comparison.md) | 使用可能な様々な Adobe Analytics 製品を比較します。 |
+| [必要システム構成](/help/analyze/get-started/sys-reqs.md) | Adobe Analytics の実装と使用に関する前提条件と必要システム構成について説明します。 |
 
 ## ビデオの概要
 
