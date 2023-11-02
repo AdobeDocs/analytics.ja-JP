@@ -4,15 +4,15 @@ description: 1 回のランディングでの一連のページビュー。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 訪問数
 
-「訪問回数」 [指標](overview.md) サイト上のすべての訪問者のセッション数を示します。
+「訪問数」[指標](overview.md)は、サイト上のすべての訪問者のセッション数を示します。
 
 ## この指標の計算方法
 
