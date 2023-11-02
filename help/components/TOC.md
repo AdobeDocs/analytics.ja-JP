@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
    + [マーケティングチャネル](dimensions/marketing-channel.md)
    + [マーケティングチャネルの詳細](dimensions/marketing-detail.md)
    + [分](dimensions/minute.md)
-   + [モバイルのライフサイクルディメンション](dimensions/lifecycle-dimensions.md)
+   + [モバイルライフサイクルディメンション](dimensions/lifecycle-dimensions.md)
    + [モバイル参照ディメンション](dimensions/mobile-dimensions.md)
    + [画面の解像度](dimensions/monitor-resolution.md)
    + [月](dimensions/month-of-year.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
    + [出口](metrics/exits.md)
    + [識別済みユーザー](metrics/identified-people.md)
    + [インスタンス](metrics/instances.md)
-   + [モバイルのライフサイクル指標](metrics/lifecycle-metrics.md)
+   + [モバイルライフサイクル指標](metrics/lifecycle-metrics.md)
    + [モバイルビュー数](metrics/mobile-views.md)
    + [新規エンゲージメント](metrics/new-engagements.md)
    + [発生件数](metrics/occurrences.md)
@@ -154,7 +154,7 @@ ht-degree: 93%
    + [一意のデバイス](metrics/unique-devices.md)
    + [ユニーク訪問者](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
-   + [ボイス指標](metrics/voice-metrics.md)
+   + [音声指標](metrics/voice-metrics.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
    + [訪問数](metrics/visits.md)
 + セグメント化 {#segmentation}
@@ -199,12 +199,12 @@ ht-degree: 93%
       + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [計算指標のタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [計算指標へのフィルター設定](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [計算指標のお気に入りへの登録](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [計算指標をタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [計算指標をフィルタリング](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [計算指標をお気に入りに登録](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [計算指標のコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+      + [計算指標をコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [計算指標マネージャー](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指標リファレンス {#calcmetrics-reference}
       + [リファレンス：基本的な関数](c-calcmetrics/cm-reference/cm-functions.md)
@@ -220,7 +220,7 @@ ht-degree: 93%
    + [レポート時間処理](vrs/vrs-report-time-processing.md)
    + [A4T に関する考慮事項](vrs/vrs-a4t.md)
    + [仮想レポートスイートに関する FAQ](vrs/vrs-faq.md)
-   + [仮想レポートスイートとグローバル/マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
+   + [仮想レポートスイートとグローバル／複数のスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
    + 仮想レポートスイートのワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
@@ -233,7 +233,7 @@ ht-degree: 93%
    + [クロスデバイス分析の設定](cda/setup.md)
    + [再生の仕組み](cda/replay.md)
    + [CDA Workspace テンプレート](cda/workspace-template.md)
-   + [特定の日付に仮想レポートスイートを制限する](cda/limit-vrs-date.md)
+   + [仮想レポートスイートを特定の日付に制限](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
