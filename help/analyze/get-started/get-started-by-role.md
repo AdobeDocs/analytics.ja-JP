@@ -4,25 +4,25 @@ title: 管理者、アナリスト、エンドユーザーおよび開発者向�
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 
-一般的な組織には、Adobe Analyticsユーザーに次の 4 つのタイプがあります。
+一般的な組織には、次の 4 つのタイプの Adobe Analytics ユーザーがいます。
 
-* **管理者：** Adobe Analyticsの実装と設定
+* **管理者：** Adobe Analytics を実装して設定します。
 
-* **アナリスト：** Analysis Workspaceを使用したプロジェクトの設定と分析の作成
+* **アナリスト：** Analysis Workspace を使用してプロジェクトを設定し、分析を作成します
 
-* **エンドユーザー：** 独自の分析を作成するか、アナリストと協力して顧客に関する実用的なインサイトを得る
+* **エンドユーザー：**&#x200B;独自の分析を作成するか、アナリストと協力して分析を作成することにより、顧客に関する実用的なインサイトを取得します。
 
-* **開発者：** Adobe Analytics 2.0 API を使用して、Adobeのサーバーを直接呼び出し、調査するレポートの作成、インサイトの取得、データに関する重要な質問への回答など、ユーザーインターフェイスで実行できるほとんどの操作を実行します。
+* **開発者：** Adobe Analytics 2.0 API を使用してアドビのサーバーを直接呼び出し、調査するレポートの作成、インサイトの取得、データに関する重要な質問への回答など、ユーザーインターフェイスで実行できるほとんどのアクションを実行します。
 
-以下の情報では、各ユーザーがAdobe Analyticsを使い始める方法の概要を説明します。
+以下の情報は、これらの各ユーザーが Adobe Analytics の基本を学ぶ方法の概要を示しています。
 
 ## 管理者向けの基本を学ぶ
 
@@ -78,7 +78,7 @@ Analytics 管理者は、組織内のユーザーが Adobe Analytics を使用�
 | 異常値の検出 | 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。 | [異常値検出の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja) |
 | 貢献度分析 | 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。 | [貢献度分析のトークン - 概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=ja) |
 | Analytics のセグメント化 | Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要なオーディエンスセグメントを作成、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja) |
-| Audience Manager へオーディエンスを公開 | Adobe Audience Managerは、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを構築するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) |
+| Audience Manager へオーディエンスを公開 | Adobe Audience Manager は、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを作成するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) |
 | 統合 | Adobe Analytics では、他のアプリケーションからの情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja">Media Analytics</a></li> | [Analytics の統合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=ja) |
 
 {style="table-layout:auto"}
