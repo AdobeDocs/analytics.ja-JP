@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
 source-wordcount: '5296'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 94%
 | Data Warehouseコンポーネントのサポートの更新 | 一部のコンポーネントの可用性を追加し、他のコンポーネントのData Warehouseのための可用性を削除しました。 これらの変更は、 [Data Warehouseでのコンポーネントのサポート](/help/export/data-warehouse/component-support.md). <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）。</li><li>パーティシペーション指標のサポートを削除しました（サポートされない指標のリストにパーティシペーション指標を追加しました）。</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションのサポートが追加されました（サポートされていないディメンションのリストからこれらのディメンションが削除されました）。 <p>以前は、Data Warehouseで、精度が選択されていた場合、フリーフォームテーブルの最初の列でのみ、これらのディメンションがサポートされていました。 現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は非標準です。 年は 1900 年までにオフセットされ、月は 0 から始まります。</li></ul> |
 | **2023年9月** | |
 | メディア再生滞在時間パネルの記事の構造を更新しました。 | メディア再生滞在時間というフォルダーを削除し、フォルダーの内容を 1 つの記事である[メディア再生滞在時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)パネルに統合しました。 <p>この変更は、その他のパネルのドキュメントに沿ったものになります。</p> |
-| 入門コンテンツの機能強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な使用開始時のタスクとリソースの概要を説明する情報を追加しました。 次の新しい記事が追加されました。 <ul><li>[はじめに（ロール別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[使用例](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Media Analytics レポートドキュメントの改善 | ストリーミングメディアガイドの「レポート」節のコンテンツの一部を再編成しました。これには、独自の節で API ドキュメントを統合し、一部の記事の順序を調整するなどが含まれます。 <p>Media Workspace テンプレート記事の名前をに変更しました。 [Workspace のメディアレポート](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ja) 製品内の名前に合わせて調整できます。 </p> |
+| 基本を学ぶコンテンツの機能強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な基本を学ぶタスクとリソースの概要を説明する情報を追加しました。以下の新しい記事を利用できます。 <ul><li>[基本を学ぶ（役割別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[ユースケース](/help/analyze/get-started/use-cases.md)</li></ul> |
+| Media Analytics レポートドキュメントの改善 | API ドキュメントを独自の節に統合し、一部の記事の順序を調整するなど、ストリーミングメディアガイドの「レポート」節のコンテンツの一部を再編成しました。 <p>製品内の名前に合わせて、Media Workspace テンプレートの記事の名前を [Workspace のメディアレポート](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ja)に変更しました。 </p> |
 | **2023年8月** | |
-| データフィードの明確化 | 更新済み [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md) 履歴データのデータフィードを処理する際に、データを収集している過去の任意の日付に開始日を設定できることを明確にするため。 |
-| Experience Edge データの処理 | Adobe Analyticsの内容を追加しました [は、Experience Edge からのデータを処理します](../implement/aep-edge/overview.md). |
+| データフィードの明確化 | [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md)を更新し、履歴データのデータフィードを処理する際に、データが収集されている過去の任意の日付に開始日を設定できることを明確化しました。 |
+| Experience Edge データの処理 | Adobe Analytics が [Experience Edge からのデータを処理](../implement/aep-edge/overview.md)する方法のコンテンツを追加しました。 |
 | メディア再生滞在時間パネル | 読みやすさを向上させるために、[メディア再生滞在時間パネル](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)のコンテンツを更新しました。 |
 | スケジュールされたプロジェクトの管理に関するコンテンツの移動 | Analytics コンポーネントガイドに[スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md)という新しい記事を作成しました。このコンテンツは、以前は Analytics ツールガイドの[プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)という記事に記載されていました。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。[詳細情報](../implement/prepare/comparison.md) |
