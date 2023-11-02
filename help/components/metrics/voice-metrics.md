@@ -1,20 +1,21 @@
 ---
-title: ボイス分析指標
-description: ボイス分析指標
+title: 音声分析指標
+description: 音声分析指標
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 3c1b4e4e-d8d2-446f-9582-a2ce5580a8d3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '25'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
-# ボイス分析指標
+# 音声分析指標
 
 | Metric name | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |
-| ボイス発話 | | 未定 |
-| ボイスセッションを終了 | | 未定 |
-| ボイスエラー | | 未定 |
+| 音声発話 | | 未定 |
+| 音声終了セッション | | 未定 |
+| 音声エラー | | 未定 |
 
 {style="table-layout:auto"}
