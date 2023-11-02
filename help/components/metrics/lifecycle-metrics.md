@@ -1,15 +1,16 @@
 ---
 name: Mobile lifecycle metrics
-description: Mobile SDK で収集されたデータに基づく指標です。
+description: Mobile SDK を使用して収集されたデータに基づく指標です。
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# モバイルのライフサイクル指標
+# モバイルライフサイクル指標
 
 | ライフサイクル指標名 | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |
