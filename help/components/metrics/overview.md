@@ -4,9 +4,9 @@ description: 時間の経過に伴うディメンション項目またはデー�
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics 管理者は、レポートスイート内または直接 Analysis Wor
 
 ## Analysis Workspace での指標の使用
 
-Analysis Workspaceでの指標の使用方法について詳しくは、 [Analysis Workspaceでの指標の使用](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Analysis Workspace での指標の使用方法については、[Analysis Workspace での指標の使用](/help/analyze/analysis-workspace/components/apply-create-metrics.md)を参照してください。
