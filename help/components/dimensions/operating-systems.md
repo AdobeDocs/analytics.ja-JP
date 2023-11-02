@@ -3,10 +3,10 @@ title: オペレーティングシステム
 description: 訪問者のオペレーティングシステム。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
+source-git-commit: 9c3e65392d6e5929ce1ecefbc460c1fd5576aed8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 18%
+source-wordcount: '171'
+ht-degree: 45%
 
 ---
 
@@ -23,33 +23,8 @@ ht-degree: 18%
 
 ## ディメンション項目
 
-ディメンション項目には、訪問者が使用するオペレーティングシステムが含まれます。例として、`"Windows 10"`、`"OS X 10.15"`、および `"Android 9"` があります。
+ディメンション項目には、訪問者が使用するオペレーティングシステムが含まれます。例として、`"Windows 10"`、`"OS X 10.15.7"`、および `"Android 9"` があります。
 
-## ラベル付けと定義の変更
+## 正確な OS バージョンの追跡
 
-以下に、ユーザーエージェントとAdobe Analyticsのレポートでオペレーティングシステムがどのように表示されたかに関する具体的な問題のリストを示します。
-
-### オペレーティングシステムの精度の変更
-
-2023 年 3 月 2 日に、オペレーティングシステムに詳細を含めるようレポートを更新しました。 この日以降は、オペレーティングシステムのパッチバージョンが含まれます。 例えば、OS X 10.15.7を使用するユーザーは、3 月 2 日より前に「OS X 10.15」と表示されていました。 3 月 2 日以降は、「OS X 10.15.7」と表示されます。
-
-### Appleオペレーティングシステムの命名規則の変更：
-
-バージョン 11 以降では、OS X ではなくMacOSを使用して、Appleオペレーティングシステムを参照します。
-
-例：
-
-* &quot;OS X 10.15&quot;(UA 文字列での表現に関するバージョン10.15.7に関する下記の注意を参照 )。
-* &quot;MacOS 11.0.0&quot;
-
-### Mac OS のバージョンが、バージョン10.15.7以降のユーザーエージェントで正しくありません 
-
-Appleコンピューター上の User Agent では、新しいバージョンでも OS のバージョンが10.15.7と表示されます。 これは、UA にバージョン 11 を含めると、明らかに一部のウェブサイトで問題が発生したためです。 これはに当てはまります。 *すべてのブラウザー* とは、Chromium ブラウザー上のGoogleユーザーエージェントの「フリーズ」とは関係ありません。
-
-クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒントに関する FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
-
-### Windows 11 以降の User Agent で、Windows のバージョンが正しくありません
-
-2023 年 1 月以降、すべてのブラウザーの User Agent では、Windows 11 が Windows 10 と表示されます。
-
-クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒントに関する FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
+業界がクライアントのヒントに近づくにつれ、一部のオペレーティングシステムのバージョンが統合される可能性があります。 例えば、高エントロピーのクライアントヒントを収集しない場合、「Windows 10」と「Windows 11」の両方を「Windows 10」の下にグループ化できます。 詳しくは、 [クライアントヒント](/help/technotes/client-hints.md) （技術注記ガイド）を参照してください。
