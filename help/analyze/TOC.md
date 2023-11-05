@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 99%
 
 ---
 
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
    + はじめに {#getting-started}
-      + はじめに（管理者向け） {#get-started-admins}
-         + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Activity Map の実装](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + はじめに（ユーザー向け） {#get-started-users}
-         + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [有効化して有効にするActivity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activity Map ブラウザープラグインのインストール ](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
    + リンクトラッキング {#link-tracking}
       + [リンクトラッキング手法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
