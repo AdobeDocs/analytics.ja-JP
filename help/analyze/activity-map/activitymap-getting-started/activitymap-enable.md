@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Activity Map のリンクコレクションおよびユーザーダウンロー�
 
 Activity Mapモジュールは、AppMeasurement.js、Adobe Experience Platformタグおよび Web SDK(alloy.js) の一部です。 Activity Mapデータは、 **Web SDK バージョン2.15.0** 以上、または **Adobe Analytics tags 拡張機能 v1.90** 以上、または **AppMeasurementバージョン 1.6** 以上
 
-+++Web SDK （Tags 拡張機能）
++++Web SDK(Adobe Experience Platform Tags Extension)
 
 Adobe Experience Platformタグで、Analytics を実装するプロパティに移動します。 の下 [!UICONTROL 拡張機能] -> [!UICONTROL Adobe Experience Platform Web SDK]を選択します。 **[!UICONTROL クリックデータの収集を有効にする]** 以下に示すように。 次に、変更を加えてライブラリを構築し、実稼動環境に公開します。
 
@@ -57,7 +57,7 @@ Adobe Experience Platformタグで、Analytics を実装するプロパティに
 
 ## 手順 2.Activity Map レポートを有効にする {#enable}
 
-まず、レポートスイートレベルでActivity Mapレポートを有効にする必要があります。
+レポートスイートレベルでActivity Mapレポートを有効にする必要があります。
 
 1. Adobe Analytics にログインし、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動してレポートスイートを選択し、**[!UICONTROL 設定を編集]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map レポート]** に移動します。
 

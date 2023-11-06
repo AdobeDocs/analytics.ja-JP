@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '5326'
+source-wordcount: '5327'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2023年11月** | |
-| Activity Map有効化トピックの更新 | 追加済み [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) ( 手動とAdobe Experience Platformタグ拡張機能の両方 ) コンテンツ。 |
+| Activity Mapの有効化/有効化に関するトピックの更新 | 追加済み [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) ( 手動とAdobe Experience Platformタグ拡張機能の両方 ) コンテンツ。 |
 | **2023年10月** | |
 | Reporting Activity Manager にログ情報を追加しました。 | 次のような情報を追加しました。 [報告活動の解除及びその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 」をクリックします。 [ログ](/help/admin/admin/logs.md). |
 | Data Warehouseコンポーネントのサポートの更新 | 一部のコンポーネントの可用性を追加し、他のコンポーネントのData Warehouseのための可用性を削除しました。 これらの変更は、 [Data Warehouseでのコンポーネントのサポート](/help/export/data-warehouse/component-support.md). <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）。</li><li>パーティシペーション指標のサポートを削除しました（サポートされない指標のリストにパーティシペーション指標を追加しました）。</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションのサポートが追加されました（サポートされていないディメンションのリストからこれらのディメンションが削除されました）。 <p>以前は、Data Warehouseで、精度が選択されていた場合、フリーフォームテーブルの最初の列でのみ、これらのディメンションがサポートされていました。 現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は非標準です。 年は 1900 年までにオフセットされ、月は 0 から始まります。</li></ul> |
