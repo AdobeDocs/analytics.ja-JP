@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '5296'
 ht-degree: 96%
@@ -68,7 +68,7 @@ ht-degree: 96%
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
 | 動的検索 | [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)に関する追加情報を追加しました。以前は、情報は、複数の動的検索の 1 つであるモバイル属性に対してのみ存在していました。 |
 | **2023年3月** | |
-| Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)を更新しました。 |
+| Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |

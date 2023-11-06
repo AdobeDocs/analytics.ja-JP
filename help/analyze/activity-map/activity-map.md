@@ -4,16 +4,16 @@ title: Activity Map とは？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 22%
+source-wordcount: '575'
+ht-degree: 20%
 
 ---
 
 # Activity Map の概要
 
-Adobe AnalyticsActivity Mapは、Adobe Analyticsの機能で、Web ページやモバイルアプリでのユーザーエンゲージメントを視覚的に表現します。 これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。 Activity Mapは、Web ページ上の様々な要素の人気と効果を示すヒートマップおよびオーバーレイレポートを生成し、組織がデジタルエクスペリエンスを最適化し、コンバージョンを促進するのに役立ちます。
+Adobe AnalyticsActivity Mapは、Adobe Analyticsの機能で、Web ページやモバイルアプリでのユーザーエンゲージメントを視覚的に表現します。 これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。 Activity Mapは、Web ページ上の様々な要素の人気と効果を示すヒートマップおよびオーバーレイレポートを生成し、組織がデジタルエクスペリエンスを最適化し、コンバージョンを高めるのに役立ちます。
 
 ## 機能とメリット
 
@@ -35,16 +35,11 @@ Adobe AnalyticsActivity Mapは、Adobe Analyticsの機能で、Web ページや�
 
 * モバイルアプリの最適化：Adobe AnalyticsActivity Mapは、Web サイトに限定されず、モバイルアプリケーションにも拡張されます。 ビジネスは、アプリ内でのユーザーインタラクションに関するインサイトを得ることができ、ユーザビリティを向上させ、ナビゲーションを強化し、機能を改良してシームレスなモバイルエクスペリエンスを実現できます。
 
-## はじめに（管理者向け）
+## はじめに
 
-* [Activity Map の有効化](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [実装コードのサンプル](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* Web SDK を使用したActivity Mapの有効化
-
-## はじめに（ユーザー向け）
-
-* [Activity Map ブラウザープラグインのインストール ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [Activity Map の起動](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [「アクティブ化して有効化」Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [Activity Map ブラウザープラグインのインストール ](activitymap-getting-started/activitymap-install.md)
+* [Activity Map の起動](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map の機能
 

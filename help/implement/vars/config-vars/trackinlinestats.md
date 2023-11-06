@@ -4,7 +4,7 @@ description: 実装でClickMapを有効または無効にします。
 keywords: clickmap を無効にする
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: a3df69f7de45ba3694e1212e5c16a10bb4602cd6
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 >[!IMPORTANT]
 >
-> この変数は廃止されています。詳しくは、 [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 代わりに、
+> この変数は廃止されています。詳しくは、 [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) 代わりに、
 
 ClickMapは、訪問者がクリックした場所とクリックした内容に関するデータを収集する、Adobe Analyticsの古い機能です。 この機能はに置き換えられました。 [Activity Map](/help/analyze/activity-map/activity-map.md).
 
