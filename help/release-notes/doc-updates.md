@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
 source-wordcount: '5327'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 96%
 | **2023年11月** | |
 | Activity Mapの有効化/有効化に関するトピックの更新 | 追加済み [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) ( 手動とAdobe Experience Platformタグ拡張機能の両方 ) コンテンツ。 |
 | **2023年10月** | |
-| Reporting Activity Manager にログ情報を追加しました。 | 次のような情報を追加しました。 [報告活動の解除及びその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 」をクリックします。 [ログ](/help/admin/admin/logs.md). |
-| Data Warehouseコンポーネントのサポートの更新 | 一部のコンポーネントの可用性を追加し、他のコンポーネントのData Warehouseのための可用性を削除しました。 これらの変更は、 [Data Warehouseでのコンポーネントのサポート](/help/export/data-warehouse/component-support.md). <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）。</li><li>パーティシペーション指標のサポートを削除しました（サポートされない指標のリストにパーティシペーション指標を追加しました）。</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションのサポートが追加されました（サポートされていないディメンションのリストからこれらのディメンションが削除されました）。 <p>以前は、Data Warehouseで、精度が選択されていた場合、フリーフォームテーブルの最初の列でのみ、これらのディメンションがサポートされていました。 現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は非標準です。 年は 1900 年までにオフセットされ、月は 0 から始まります。</li></ul> |
+| レポートアクティビティマネージャーにログ情報を追加しました。 | レポートアクティビティマネージャーの[レポートアクティビティのキャンセルとその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)が[ログ](/help/admin/admin/logs.md)にキャプチャされるという情報を追加しました。 |
+| Data Warehouse コンポーネントのサポートの更新 | Data Warehouse の一部のコンポーネントの可用性を追加し、他のコンポーネントの可用性を削除しました。これらの変更は、[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)に反映しています。 <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）</li><li>パーティシペーション指標のサポートを削除しました（サポートされていない指標のリストにパーティシペーション指標を追加しました）</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションがサポートされるようになりました（サポートされていないディメンションのリストからこれらのディメンションを削除しました）。 <p>以前は、精度が選択されていた場合、データウェアハウスでは、フリーフォームテーブルの最初の列でのみこれらのディメンションをサポートしていました。現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。年は 1900 年でオフセットされ、月は 0 から始まります。</li></ul> |
 | **2023年9月** | |
 | メディア再生滞在時間パネルの記事の構造を更新しました。 | メディア再生滞在時間というフォルダーを削除し、フォルダーの内容を 1 つの記事である[メディア再生滞在時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)パネルに統合しました。 <p>この変更は、その他のパネルのドキュメントに沿ったものになります。</p> |
 | 基本を学ぶコンテンツの機能強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な基本を学ぶタスクとリソースの概要を説明する情報を追加しました。以下の新しい記事を利用できます。 <ul><li>[基本を学ぶ（役割別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[ユースケース](/help/analyze/get-started/use-cases.md)</li></ul> |
