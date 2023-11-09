@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 28%
 
 ---
 
@@ -23,9 +23,42 @@ Activity Mapモジュールは、AppMeasurement.js、Adobe Experience Platform�
 
 +++Web SDK(Adobe Experience Platform Tags Extension)
 
-Adobe Experience Platformタグで、Analytics を実装するプロパティに移動します。 の下 [!UICONTROL 拡張機能] -> [!UICONTROL Adobe Experience Platform Web SDK]を選択します。 **[!UICONTROL クリックデータの収集を有効にする]** 以下に示すように。 次に、変更を加えてライブラリを構築し、実稼動環境に公開します。
+1. Adobe Experience Platformタグで、Analytics を実装するプロパティに移動します。 の下 [!UICONTROL 拡張機能] -> [!UICONTROL Adobe Experience Platform Web SDK]を選択します。 **[!UICONTROL クリックデータの収集を有効にする]** 以下に示すように。
+1. 変更を加えてライブラリを構築します。
+1. ライブラリを実稼動環境に公開します。
 
 ![](assets/web_sdk.png)
+
+**検証**
+
+開発者コンソールの「ネットワーク」タブを使用して呼び出しを操作します。
+
+1. サイトに開発用 Launch スクリプトを読み込みます。
+1. 要素のクリック時に、「ネットワーク」タブで「/ee」を検索します。
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform デバッガー:
+
+1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. に移動します。 [!UICONTROL ログ] > [!UICONTROL Edge] > [!UICONTROL Edge に接続].
+
+   ![](assets/validation2.jpg)
+
+**よくある質問（FAQ）**
+
+* **「ネットワーク」タブでは、インタラクション呼び出しが実行されません。**
+収集呼び出しでのクリックデータ収集は、「/ee」または「collect?」でフィルタリングする必要があります。
+
+* **コレクト呼び出しのペイロード表示がありません。**
+収集呼び出しは、トラッキングが他のサイトへのナビゲーションに影響を与えないように設計されているので、ドキュメントのアンロード機能は収集呼び出しに適用できます。 これはデータ収集には影響しませんが、ページで検証する必要がある場合は、それぞれの要素に target = &quot;_blank&quot;を追加します。 リンクが新しいタブで開きます。
+
+* **PII のコレクションを無視する方法を教えてください。**
+&lt;&lt; on before link click callback>> にそれぞれの条件を追加し、false を返してこれらの値を無視します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)
+
+  サンプルコード:
+
+  ![](assets/sample-code.png)
 
 +++
 
@@ -35,7 +68,7 @@ Adobe Experience Platformタグで、Analytics を実装するプロパティに
 
 >[!NOTE]
 >
->現在、Web SDK でリンクトラッキングを有効にすると、顧客がページ間を移動した際にリンクイベントが送信されます。AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。
+>現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングを有効にすると、リンクイベントが送信されます。 AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。
 
 +++
 
