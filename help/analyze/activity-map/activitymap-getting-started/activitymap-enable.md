@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
+source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -40,7 +40,7 @@ Activity Mapモジュールは、AppMeasurement.js、Adobe Experience Platform�
 
 Adobe Experience Platform デバッガー:
 
-1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. に移動します。 [!UICONTROL ログ] > [!UICONTROL Edge] > [!UICONTROL Edge に接続].
 
    ![](assets/validation2.jpg)
