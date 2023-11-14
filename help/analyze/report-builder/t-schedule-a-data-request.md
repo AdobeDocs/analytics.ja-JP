@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 96%
 | カスタマイズ | 日付形式をカスタマイズできます。 |
 | 設定値 | 該当する場合、Outlook のアドレス帳を表示します。 |
 | 送信先：電子メール | ワークブック受信者の電子メール。 |
-| 送信先：発行リスト | この会社で使用可能な配信リストの一覧が表示されます。 |
 | Power BI | 詳しくは、[ワークブックを Microsoft Power BI に発行](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)を参照してください。 |
 | 件名 | メールの件名。 |
 | スケジュール設定 | ワークブックを送信するタイミングを指定します（即時、毎時、毎日、毎月、毎年から選択できます）。 |
