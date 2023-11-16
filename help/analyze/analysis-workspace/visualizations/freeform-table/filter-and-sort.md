@@ -4,9 +4,9 @@ title: フリーフォームテーブルのフィルターと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 - テーブルフィルター
 - セグメント化
 
-各メソッドの影響を必ず確認してください [フリーフォームテーブルの合計](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+各メソッドの影響を必ず確認してください [フリーフォームテーブルの合計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### テーブルから特定の行をすばやく除外する
 
@@ -89,7 +89,7 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
 ### セグメント化
 
-詳しくは、 [セグメント化に関するドキュメント](https://docs.adobe.com/help/ja-JP/analytics/components/segmentation/seg-home.html) を参照してください。
+詳しくは、 [セグメント化に関するドキュメント](/help/components/segmentation/seg-home.md) を参照してください。
 
 ## テーブルの並べ替え
 
