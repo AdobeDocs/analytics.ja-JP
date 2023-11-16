@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace でテーブルをフィルタリングし並べ替える方法について説明するドキュメントです。
-title: テーブルのフィルタリングと並べ替え
+title: フリーフォームテーブルのフィルターと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# テーブルのフィルタリングと並べ替え
+# フリーフォームテーブルのフィルターと並べ替え
 
 Analysis Workspace のフリーフォームテーブルは、インタラクティブなデータ分析の基盤となります。そのため、何千行もの情報を含めることができます。データのフィルタリングと並べ替えは、最も重要な情報を効率的に表示するための重要な要素になる可能性があります。
 
@@ -22,6 +22,17 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 >[!NOTE]
 >
 > この節で説明するように、動的ディメンション項目のみをフィルタリングできます。 静的ディメンション項目はフィルタリングできません。 詳しくは、 [フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## フリーフォームテーブルの行をフィルター
+
+フリーフォームテーブルから行をフィルタリングする方法はいくつかあります。 
+
+- 行の「X」をクリックします。
+- 右クリック >「選択した行を削除」
+- テーブルフィルター
+- セグメント化
+
+各メソッドの影響を必ず確認してください [フリーフォームテーブルの合計](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### テーブルから特定の行をすばやく除外する
 
@@ -35,7 +46,14 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
 1. 除外する行の上にマウスポインターを置いて、x アイコンを選択します。
 
-   Shift キーを押しながら範囲行を選択するか、Command キー (Mac) または Ctrl キー (Windows) を押しながら複数の行を選択します。
+   Shift キーを押しながら行の範囲を選択するか、Command キー (Mac) または Ctrl キー (Windows) を押しながら複数の行を選択します。
+
+### 右クリック > 選択した行を削除
+
+1. 1 つ以上の行を選択します。
+1. 右クリックして「 」を選択します。 **[!UICONTROL 選択した行を削除]**.
+
+   このアクションは、テーブルから行を削除し、テーブルフィルターを適用します。
 
 ### テーブルへの標準フィルターまたは詳細フィルターの適用
 
@@ -69,9 +87,13 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
    フィルターがテーブルに適用されると、**フィルター**&#x200B;アイコン（![テーブルがフィルタリングされた後の青いフィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)）が青に変わります。
 
+### セグメント化
+
+詳しくは、 [セグメント化に関するドキュメント](https://docs.adobe.com/help/ja-JP/analytics/components/segmentation/seg-home.html) を参照してください。
+
 ## テーブルの並べ替え
 
-Analysis Workspace の指標の列で、フリーフォームテーブルのデータを並べ替えることができます。
+フリーフォームテーブルのデータは、Analysis Workspace内の指標である任意の列で並べ替えることができます。
 
 現在データの並べ替えに使用されている列のヘッダーに、下向き矢印アイコン（![テーブルの並べ替えに使用された列を示す下向き矢印アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg)）が表示されます。
 

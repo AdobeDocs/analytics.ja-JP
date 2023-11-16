@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
-workflow-type: ht
-source-wordcount: '1096'
-ht-degree: 100%
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [テーブルのフィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [フリーフォームテーブルのフィルターと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
