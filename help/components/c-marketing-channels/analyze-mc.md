@@ -3,10 +3,10 @@ title: マーケティングチャネルの分析
 description: Workspace でのマーケティングチャネルディメンションの使用方法について説明します。
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 96%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>Attribution と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 >
->Analytics 管理者は、組織のマーケティングチャネルを管理できます。詳しくは、 [マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で説明しているように、組織のマーケティングチャネルを管理できます。
 
 ターゲットの精度を上げ、マーケティング収益を増加できるよう、最も効果的なマーケティングチャネルとそのユーザーを知りたい場合があります。Adobe Analytics では、Workspace のマーケティングチャネルディメンションとマーケティング指標は、様々なチャネルが注文件数や売上高などに与える影響を追跡し、有益なチャネルに関するインサイトを提供するツールです。マーケティングチャネルに使用できるディメンションと指標は次のとおりです。
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 | ディメンション／指標 | 定義 |
 | --- | --- |
-| マーケティングチャネル | これは、使用する推奨されるマーケティングチャネルディメンションです。Attribution IQ モデルは、実行時に適用できます。このディメンションは、ラストタッチチャネルディメンションと同じように動作しますが、異なるアトリビューションモデルでマーケティングチャネルを使用する場合の混乱を防ぐために、異なるラベルが付けられます。 |
+| マーケティングチャネル | これは、使用する推奨されるマーケティングチャネルディメンションです。Attribution モデルは、実行時に適用できます。このディメンションは、ラストタッチチャネルディメンションと同じように動作しますが、異なるアトリビューションモデルでマーケティングチャネルを使用する場合の混乱を防ぐために、異なるラベルが付けられます。 |
 | ラストタッチチャネル | ラストタッチアトリビューションモデルが事前に適用され、変更できない既存のディメンション。 |
 | ファーストタッチチャネル | ファーストタッチアトリビューションモデルが事前に適用され、変更できない既存のディメンション。 |
 | マーケティングチャネルインスタンス | この指標は、標準ページビューやカスタムリンクの呼び出しなど、マーケティングチャネルがイメージリクエストで定義された回数を測定します。永続化された値は含まれません。 |
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 ## アトリビューションモデルの適用
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) を使用すると、様々なアトリビューションモデルを瞬時に適用できます。
+[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) を使用すると、様々なアトリビューションモデルを瞬時に適用できます。
 
 ![](assets/mc-viz5.png)
 

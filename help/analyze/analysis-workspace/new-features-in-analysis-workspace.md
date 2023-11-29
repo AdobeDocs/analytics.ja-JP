@@ -5,10 +5,10 @@ title: Analysis Workspace の新機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8268'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8261'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 |--- |--- |
-| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace のアルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja) |
-| Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete および Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows) |
+| アトリビューション：アルゴリズムアトリビューション | Analysis Workspace のアルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja) |
+| アトリビューション：カスタムルックバックウィンドウ | Attribution で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete および Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows) |
 | 共有ワークスペースプロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) |
 | 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja) |
 | ワークスペースプロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) |
@@ -187,7 +187,7 @@ ht-degree: 100%
 |--- |--- |
 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
-| [Attribution IQ における複数値の変数のサポート](attribution/overview.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
+| [Attribution における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution を適用できるようになりました。 |
 | パフォーマンスの向上 | 分類の可視化スピードの向上 - 多くの分類を含むプロジェクトの読み込み速度が向上します。 |
 
 ## 2018 年 11 月
@@ -270,8 +270,8 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Attribution IQ は、マーケティングパフォーマンスについて、さらに高度でインテリジェントな分析を実現します。新しいアトリビューションモデルは、Analysis Workspace（任意のテーブルまたは分類）の指標および計算指標で使用できます。新しい属性パネルでは、ビジュアライゼーションと比較機能が強化されました。 </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > アトリビューション </a> </b> </p> </td>
+   <td colname="col2"> <p>Attribution は、マーケティングパフォーマンスについて、さらに高度でインテリジェントな分析を実現します。新しいアトリビューションモデルは、Analysis Workspace（任意のテーブルまたは分類）の指標および計算指標で使用できます。新しい属性パネルでは、ビジュアライゼーションと比較機能が強化されました。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> 左側のパネルの改善 </b> </p> </td>
@@ -348,7 +348,7 @@ ht-degree: 100%
    <td colname="col2"> <p>コンポーネントを新しい場所にドラッグしている最中に、上下にスクロールできるようになりました。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 異常値</a>に関する追加情報 </b> </p> </td>
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > 異常値</a>に関する追加情報 </b> </p> </td>
    <td colname="col2"> <p>折れ線グラフで異常値にカーソルを合わせると、日付および生の値の情報が表示されるようになりました。 </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ ht-degree: 100%
    <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100％の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > 異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td>
    <td colname="col2"> <p>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。 </p> <p>Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。 </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ ht-degree: 100%
     </ul> <p>例えば、「時間帯」がテーブルにドロップされる場合、午前 00 時～午後 11 時の順に並べ替えられます。指標列で並べ替えるオプションは現在も使用できます。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 信頼区間でチャートを再調整するオプション </a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > 信頼区間でチャートを再調整するオプション </a> </p> </td>
    <td colname="col2"> <p>異常値検出の信頼区間では、ビジュアライゼーションの Y 軸を自動的に調整しないので、わかりやすくなります。 </p> <p>信頼区間でチャートを調整できるオプションが追加されました。 </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ ht-degree: 100%
    <td colname="col1"> <p>  セグメント比較および貢献度分析設定の「<span class="uicontrol">すべてクリア</span>」ボタン </p> </td>
    <td colname="col2"> <p>以下の Workspace 領域において、各要素を手動で削除する代わりにすべての要素をクリアできるようになりました。 </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢献度分析の除外されたコンポーネント </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 貢献度分析の除外されたコンポーネント </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> セグメント比較の除外されたコンポーネント </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ ht-degree: 100%
    <td colname="col2"> <p>（ビジュアライゼーションに使用する）データソースの管理方法を改善しました。データソースをテーブルにロックした場合、他の非表示のテーブルはなくなります。 </p> <p>代わりに、作成したテーブルに関連する表示を維持します。また、これにより、精度を変更しても次にプロジェクトを読み込むと古い精度に戻っていた、ライブリンクテーブルの問題も解決されました。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 特定の異常値をハイライトする機能 </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 特定の異常値をハイライトする機能 </a></b> </p> </td>
    <td colname="col2"> <p>貢献度分析およびそれにリンクされたインテリジェントアラートプロジェクトで、異常値が青い点でハイライト表示されるようになりました。これにより、分析された異常値がより明確に示されます。 </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ ht-degree: 100%
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 異常値検出と貢献度分析 </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 異常値検出と貢献度分析 </a></b> </td>
    <td colname="col2"> <p>トレンドデータにおける変化が有意な場合に、その旨とその原因を通知します。 </p> <p>異常値検出と貢献度分析の双方が、Analysis Workspace の主要ワークフローになりました。 </p> <p>重要：貢献度分析は、Adobe Analytics Premium のお客様のみご利用いただけます。 </p> <p>次のことができます。 </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">データの統計的に有意なデータの異常値を自動的に検出します。 </li>
@@ -1032,7 +1032,7 @@ ht-degree: 100%
 2016 年 6 月 16 日（PT）にリリースされた新機能：
 
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)。2016 年 6 月 16 日（PT）現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-* [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセスできる一つ一つの指標およびディメンションを自動分析することで、2 つのセグメント間の統計的に最も有意な差異を見つけることができます。
+*  [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセスできる一つ一つの指標およびディメンションを自動分析することで、2 つのセグメント間の統計的に最も有意な差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。

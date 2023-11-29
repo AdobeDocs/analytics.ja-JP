@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
    * Adobe Admin Console。製品へのアクセス権がプロビジョニングされ、ユーザー権限が管理されます。『管理ユーザガイド』の「[Admin Console](/help/admin/admin-console/home.md)」を参照してください。
 * **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」を参照してください。
 * **Analysis Workspace：**&#x200B;堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Reports and Analytics よりも柔軟にレポートを作成できます。
-* **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。『分析ユーザガイド』の「[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)」を参照してください。
+* **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。『分析ユーザガイド』の「[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」を参照してください。
 * **AppMeasurement：**&#x200B;データの収集とアドビへの送信に使用するコードライブラリ。『実装ユーザガイド』の「[ホームページ](/help/implement/home.md)」を参照してください。
 * **ASI スロット：**&#x200B;現在は使用されていません。以前のバージョンの Adobe Analytics では、ASI スロットにセグメント化されたデータを表示するための一時的なレポートスイートコンテナが用意されていました。現在のバージョンの Adobe Analytics では、セグメントを任意のレポートに即座に適用できます。
 * **分類：**&#x200B;ディメンションを別のディメンションのコンテキスト内に表示できます。『分析ユーザガイド』の「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。

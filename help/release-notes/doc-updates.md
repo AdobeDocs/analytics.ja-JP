@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5327'
-ht-degree: 100%
+source-wordcount: '5323'
+ht-degree: 99%
 
 ---
 
@@ -202,8 +202,8 @@ ht-degree: 100%
 | **2020年6月** | |
 | 2020年6月25日 | ワークスペースの[クイックインサイトパネル](/help/analyze/analysis-workspace/c-panels/quickinsight.md)に関する新しいドキュメント。これは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問に素早く簡単に答える方法を学ぶためのガイダンスを提供します。 |
 | 2020年6月25日 | ワークスペースの [Analytics for Target パネル](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)に関する新しいドキュメント。上昇率と信頼性を使用して、Adobe Target のアクティビティとエクスペリエンスを分析できます。 |
-| 2020年6月18日 | [Attribution IQ：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja)に関する新しいドキュメント |
-| 2020年6月18日 | [Attribution IQ：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows)に関する新しいドキュメント |
+| 2020年6月18日 | に関する新しいドキュメント [アトリビューション：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja) |
+| 2020年6月18日 | に関する新しいドキュメント [アトリビューション：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows) |
 | 2020年6月18日 | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
 | 2020年6月18日 | [「表示のみ」の ワークスペースプロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメント。プロジェクトは、「表示可能」としてのみユーザーと共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
 | 2020年6月18日 | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
@@ -276,4 +276,4 @@ ht-degree: 100%
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
 | 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
 | 2019年1月17日 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
-| 2019年1月17日 | [Attribution IQ における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md). Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
+| 2019年1月17日 | [Attribution における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md). Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution を適用できるようになりました。 |

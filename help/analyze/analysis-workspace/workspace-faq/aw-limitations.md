@@ -4,9 +4,9 @@ title: Analysis Workspace の既知の制限
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## コンポーネント／セグメント
 
 * 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL ユニーク訪問者]など）。
-* で作成されたアドホックセグメント [パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) はクイックフィルターの一種です。 これらは、公開されない限り、Workspace またはセグメントコンポーネントマネージャの左側のレールに表示されません。 詳しくは、 [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* で作成されたアドホックセグメント [パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) は、クイックフィルターの一種です。 これらは、公開されない限り、Workspace またはセグメントコンポーネントマネージャの左側のレールに表示されません。 詳しくは、 [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## コンポーネント／計算指標
 
@@ -56,6 +56,6 @@ ht-degree: 90%
 
 * 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 千単位区切り文字]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り文字]）のみが使用されます。
 
-## Attribution IQ
+## アトリビューション
 
-* 指標のサブセットは、[!UICONTROL Attribution IQ] ではサポートされません。完全なリストについては、[Attribution IQ に関する FAQ](../attribution/faq.md) を参照してください。
+* 指標のサブセットは、[!UICONTROL Attribution ] ではサポートされません。完全なリストについては、[Attribution に関する FAQ](/help/analyze/analysis-workspace/attribution/faq.md) を参照してください。

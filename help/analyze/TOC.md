@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+workflow-type: tm+mt
+source-wordcount: '1080'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [表示専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
+   + 属性 {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
       + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 100%
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
-   + 仮想アナリスト {#virtual-analyst}
-      + [仮想アナリストの概要](analysis-workspace/virtual-analyst/overview.md)
-      + 異常値検出 {#anomaly-detection}
-         + [異常値検出の概要](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Analysis Workspace での異常値の表示](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [異常値検出をオフにする](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [異常値検出で使用される統計的手法](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + 貢献度分析 {#contribution-analysis}
-         + [貢献度分析のトークンの概要](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [貢献度分析の実行](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [貢献度分析で使用される統計的手法](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + 異常値検出 {#anomaly-detection}
+      + [異常値検出の概要](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Analysis Workspace での異常値の表示](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [異常値検出をオフにする](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [異常値検出で使用される統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + インテリジェントアラート {#intelligent-alerts}
          + [インテリジェントアラートの概要](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [アラートビルダー](analysis-workspace/c-intelligent-alerts/alert-builder.md)

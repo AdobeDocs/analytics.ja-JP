@@ -4,9 +4,9 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1436'
 ht-degree: 57%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL クリックインサイト]、[!UICONTROL 空白]、[!UICONTROL フリーフォーム]パネルは、分析を開始するのに最適です。[!UICONTROL Analytics for Target]、[!UICONTROL Attribution IQ]、[!UICONTROL メディア同時ビューア]および[!UICONTROL セグメント比較]は、より高度な分析に役立ちます。プロジェクトでは `"+"` ボタンが使用できるので、いつでも空白のパネルを追加できます。
+[!UICONTROL クリックインサイト]、[!UICONTROL 空白]、[!UICONTROL フリーフォーム]パネルは、分析を開始するのに最適です。[!UICONTROL Analytics for Target]、[!UICONTROL Attribution ]、[!UICONTROL メディア同時ビューア]および[!UICONTROL セグメント比較]は、より高度な分析に役立ちます。プロジェクトでは `"+"` ボタンが使用できるので、いつでも空白のパネルを追加できます。
 
 デフォルトの開始パネルは[!UICONTROL フリーフォーム]パネルですが、[空白パネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)をデフォルトにすることも可能です。
 

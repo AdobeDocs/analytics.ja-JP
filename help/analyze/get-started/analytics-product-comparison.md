@@ -3,10 +3,10 @@ description: 以下の表に、Analysis Workspace、Reports & Analytics、Report
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '432'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 97%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 | **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | ○（制限あり） | ○ | × | ○ | × | ○ |
 | **分類の数** | 制限なし | ～ 2 | ～ 2 | 制限なし | 制限なし | 制限なし | 制限なし（複数のクエリに対して実行） |
 | **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | ○ | ○ | ○ | ○（[制限あり](/help/components/segmentation/seg-reference/seg-compatibility.md)） | ○ | × | ○ |
-| **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） | ○ | ○ | × | ○ | × | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） |
+| **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | はい、 [帰属](/help/analyze/analysis-workspace/attribution/overview.md) | ○ | ○ | × | ○ | × | はい、 [帰属](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | ○ | ○ | ○ | ○ | ○ | ○ — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | × | × | × | ○ | × | × |
-| **アトリビューション** | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） | 制限あり | 制限あり | × | ○ | × | ○（[Attribution IQ あり](/help/analyze/analysis-workspace/attribution/overview.md)） |
-| **Virtual Analyst の機能** <br> [詳細情報](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | ○ | × | × | × | × | × | ○ |
+| **アトリビューション** | はい、 [帰属](/help/analyze/analysis-workspace/attribution/overview.md) | 制限あり | 制限あり | × | ○ | × | はい、 [帰属](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | × | × | × | × | × | ○ - 仮想レポートスイートのみ |
 | **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | ○ | ○ | × | ○ | × | × |
 | **配信予定** | ○ | ○ | ○ | ○ | × | ○ | × |

@@ -5,7 +5,7 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 72%
@@ -38,4 +38,4 @@ ht-degree: 72%
    いずれかのオプションを選択すると、元の指標から異常値検出用のコピーが作成されます。例えば、訪問指標の場合、[!UICONTROL 指標]グループに下限訪問指標が追加されます。
 1. 「**[!UICONTROL 完了]**」をクリックし、Excel に出力するセルを選択します。
 
-   [異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)を参照してください。
+   [異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)を参照してください。

@@ -4,7 +4,7 @@ title: インテリジェントアラートの概要
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Analysis Workspace の新しいアラートビルダーおよびアラートマ�
 | 1 つ以上のフリーフォームテーブル行項目を選択 | 右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択します。これにより、[!UICONTROL アラートビルダー]が開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![選択からアラートを作成](assets/create-alert-from-selection.png) |
 | Reports &amp; Analytics レポート内から | **[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動します。これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![アラートの追加](assets/add-alert.png) |
 
-パーセントしきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
+パーセントしきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
 
 >[!IMPORTANT]
 >
@@ -50,4 +50,4 @@ Analysis Workspace の新しいアラートビルダーおよびアラートマ�
 * 日単位の精度：35 日 + 前年の同じ時間範囲
 * 時間単位の精度：336 時間
 
-詳しくは、[異常値検出で使用される統計的手法](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)を参照してください。
+詳しくは、[異常値検出で使用される統計的手法](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)を参照してください。

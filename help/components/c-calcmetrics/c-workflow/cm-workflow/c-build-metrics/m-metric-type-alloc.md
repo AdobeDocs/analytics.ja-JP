@@ -3,9 +3,9 @@ description: 詳細
 title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 73%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 73%
 
 ## 線形配分の仕組み
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) は、計算指標の配分モデルの評価方法です。
+[帰属](/help/analyze/analysis-workspace/attribution/overview.md) は、計算指標の配分モデルの評価方法です。
 
 デフォルト以外のアトリビューションモデルとサポートされるルックバックウィンドウの完全なリストについては、 [アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md) を参照してください。
 
 次の例は、線形配分を持つ計算指標がレポートでどのように機能するかを示しています。
 
-|  | ヒット 1 | ヒット 2 | ヒット 3 | ヒット 4 | ヒット 5 | ヒット 6 | ヒット 7 |
+| | ヒット 1 | ヒット 2 | ヒット 3 | ヒット 4 | ヒット 5 | ヒット 6 | ヒット 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 送信データ | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 | ラストタッチ eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
@@ -51,4 +51,4 @@ ht-degree: 73%
 この 2 つのツール間での線形アトリビューションの動作には、いくつかの違いがあります。
 
 * Reports &amp; Analytics では、（処理された）線形アトリビューションは常に訪問ベースですが、Workspace では訪問ベースまたは訪問者ベースになります。
-* Reports &amp; Analytics では、訪問の最初のヒットで値が渡されなかった場合、（初期）値は以前の訪問から保持されます。Workspace（Attribution IQ）では、このような状況にはなりません。訪問の最初のヒットで値が渡されない場合、「なし」が初期値になります。
+* Reports &amp; Analytics では、訪問の最初のヒットで値が渡されなかった場合、（初期）値は以前の訪問から保持されます。Workspace（アトリビューション）では、このようにはなりません。 訪問の最初のヒットで値が渡されない場合、「なし」が初期値になります。

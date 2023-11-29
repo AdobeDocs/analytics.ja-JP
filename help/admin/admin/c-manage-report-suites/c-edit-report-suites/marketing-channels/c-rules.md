@@ -3,9 +3,9 @@ title: マーケティングチャネルの処理ルール
 description: マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するために使用します。このルールは、サイトでの訪問者によるすべてのヒットを処理します。チャネルの条件をルールが満たしていない場合やルールが正しく設定されていない場合、ヒットには「チャネルが識別されませんでした」が割り当てられます。
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 76%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 * [マーケティングチャネル使用の手引き](/help/components/c-marketing-channels/c-getting-started-mchannel.md)で概念的な情報を確認する。
 * ルールを割り当てるためにチャネルを 1 つ以上作成してください。[マーケティングチャネルの追加](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)を参照してください。
-* [!UICONTROL マーケティングチャネル]を [!UICONTROL Attribution IQ] と共に使用する際のベストプラクティスを確認します。
+* [!UICONTROL マーケティングチャネル]を [!UICONTROL Attribution ] と共に使用する際のベストプラクティスを確認します。
 
 ## マーケティングチャネルの処理ルールの作成
 
