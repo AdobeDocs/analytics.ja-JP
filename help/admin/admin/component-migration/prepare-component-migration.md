@@ -3,7 +3,7 @@ description: コンポーネントとプロジェクトをAdobe AnalyticsからC
 title: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 15%
@@ -51,7 +51,7 @@ ht-degree: 15%
 
 ## 移行に含まれる機能の理解
 
-移行に含まれるプロジェクト要素とコンポーネントの概要を次の表に示します。
+移行に含まれるプロジェクトとコンポーネントの要素の概要を次の表に示します。
 
 ### 移行されるコンポーネント要素
 
