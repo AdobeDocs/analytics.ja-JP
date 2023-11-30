@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 100%
       + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
+   + レポート {#reports}
+      + [事前定義済みレポートの使用](analysis-workspace/reports/use-reports.md)
+      + [会社レポートの作成と管理](analysis-workspace/reports/create-company-reports.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + [コンポーネントの説明の追加](analysis-workspace/components/add-component-descriptions.md)
@@ -307,7 +310,6 @@ ht-degree: 100%
       + [データ収集について](reports-analytics/overview/overview-data-collection.md)
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)
       + [レポートの機能](reports-analytics/overview/report-overview.md)
-      + [一般用語](reports-analytics/overview/overview-common-terms.md)
    + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
    + [レポートのスケジュールと配信](reports-analytics/scheduling.md)
    + [予定レポートの提供終了のお知らせ](reports-analytics/scheduled-reports-eol.md)

@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-異なるレポートタイプの実行手順を説明します。
+Analysis Workspaceでは、様々なタイプのレポートを実行できます。 以下にいくつかの例を示します。
 
-## ランクレポートの実行 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+使用可能な事前定義済みレポートタイプの完全なリストについては、 [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-ランクレポートでは、指標の大小で並べ替えられた項目がテーブルに表示されます。ランクレポートでは、1 つのレポートに複数の指標を表示できます。
+<!-- How do you do a Ranked Report in Workspace?
 
-1. [!UICONTROL ページレポート]などのレポートを生成します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**）。
-1. レポートタイプで「**[!UICONTROL ランク]**」をクリックします。
-1.  レポートのランクを設定するには、テーブルの列ヘッダーをクリックします。
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   ランクレポートには、表に 200 個までの行項目（製品、カテゴリ、Web ページなど）と 10 個までの指標（売上高、注文件数、表示回数など）を含めることができます。
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## トレンドレポートの実行 {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-トレンドレポートには、時系列で指標が表示されます。このレポートタイプは、指定した期間における指定の増減を表示するために使用します。
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-ほとんどのコンバージョンとトラフィックレポートではトレンドを表示できます。[!UICONTROL カレンダー]を使用すると、月内の日、年内の週、四半期内の週、月など、どの期間ごとのパフォーマンスの改善も見ることができます。トレンドレポートは、最大 5 つまでの項目（製品、カテゴリ、Web ページなど）に対して 1 つの指標（売上高、注文、表示回数など）のトレンドを表示できます。
+-->
 
-**トレンドレポートを実行するには**
+<!-- Can you do a Trended report? 
 
-1. **[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**&#x200B;などの変換またはトラフィックレポートを実行します。
-1. 「**[!UICONTROL レポートタイプ]**」の「**[!UICONTROL トレンド]**」をクリックします。
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## フォールアウトレポートの実行 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Analysis Workspace の新しい[フォールアウト分析](https://experiencel
 1. [!UICONTROL Adobe Analytics] で、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL フォールアウト]**&#x200B;をクリックします。
 1. [!UICONTROL フォールアウトレポート]ページで、「**[!UICONTROL フォールアウト Report Builder の起動]**」をクリックします。
 
-   ![手順の結果](assets/fallout_add_items.png)
-
 1. [!UICONTROL チェックポイントの定義ページで]、レポートに使用するチェックポイントを指定します。
 1. 「**[!UICONTROL レポートを実行]**」をクリックします。
-
-   ![手順の結果](assets/fallout_report.png)
 
 ## ページフローレポートの実行 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 ページフローレポートには、訪問者がページにアクセスした順序と使用したナビゲーション方法が表示されます。このレポートは問題を解決するのに役立ちます。
 
-以下を確認します。 [フロービジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace!
-
-例えば、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 次ページのフロー]**&#x200B;をクリックします。
+例えば、「 **[!UICONTROL Workspace]** > **[!UICONTROL レポート]** > **[!UICONTROL エンゲージメント]** > **[!UICONTROL 次と前のページのフロー]**.
 
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -92,7 +96,7 @@ Analysis Workspace の新しい[フォールアウト分析](https://experiencel
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートスイートの選択</strong></td> 
-   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
+   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ja"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートの切り替え</strong></td> 

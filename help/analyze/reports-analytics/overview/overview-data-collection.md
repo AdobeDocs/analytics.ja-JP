@@ -6,16 +6,14 @@ uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # データ収集について
-
-{{ra-eol}}
 
 Adobe Analytics 用にデータを収集する方法を説明します。
 

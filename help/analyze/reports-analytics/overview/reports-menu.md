@@ -5,14 +5,14 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ca876371b114c7e34b47bbee63588563e462e23c
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# レポートメニュー {#reports-menu}
+# レポートメニュー{#reports-menu}
 
 {{ra-eol}}
 

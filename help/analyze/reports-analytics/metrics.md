@@ -4,14 +4,14 @@ title: Reports & Analytics 指標の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fe472efe57f8fb2da7ad6942852cad0301aefe46
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '323'
 ht-degree: 97%
 
 ---
 
-# Reports &amp; Analytics 指標の概要
+# 指標の概要
 
 {{ra-eol}}
 

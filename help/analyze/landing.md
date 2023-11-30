@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: ht
-source-wordcount: '4071'
-ht-degree: 100%
+source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 98%
 
 ---
 
@@ -114,127 +114,9 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 ![「レポート」タブ](assets/reports-tab2.png)
 
+レポートの表示や保存を含む、Analysis Workspaceの「レポート」タブについて詳しくは、 [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-### レポートの表示 {#menus}
-
-1. 「[!UICONTROL **レポート**]」タブに移動します。
-1. 検索フィールドを使用して、特定のレポートを検索します。
-
-   または
-
-   表示するレポートに移動します。
-
-   次のレポートを使用できます。
-
-   | メニュー項目 | このメニュー項目のレポート |
-   | --- | --- |
-   | **[!UICONTROL 最頻使用]** | <ul><li>トレーニングチュートリアル（既存のワークスペーステンプレート）</li><li>ページ（トップページは何か）</li><li>ページビュー数（生成しているページビュー数はいくつか）</li><li>訪問回数（訪問回数はいくつか）</li><li>訪問者（訪問者は何人か）</li><li>主要指標（最も重要な指標のパフォーマンスはどの程度か）</li><li>サイトセクション（最もページビュー数の多いサイトセクションはどれか）</li><li>次のページ（訪問者が次に閲覧するページは何か）</li><li>前のページ（訪問者が最後に閲覧したページは何か）</li><li>キャンペーン（主要指標を促しているキャンペーンは何か）</li><li>製品（主要指標を推進しているのはどの製品か）</li><li>ラストタッチチャネル（パフォーマンスが最も高いラストタッチチャネルはどれか）</li><li>ラストタッチチャネルの詳細（他のチャネルよりパフォーマンスが優れているラストタッチチャネルはどれか）</li><li>売上高（売上高のパフォーマンスはどの程度か）</li><li>注文（注文のパフォーマンスはどの程度か）</li><li>点数（販売数はいくつか）</li></ul> |
-   | **[!UICONTROL エンゲージメント]** | <ul><li>主要指標（最も重要な指標のパフォーマンスはどの程度か）</li><li>ページビュー数（生成しているページビュー数はいくつか）</li><li>ページ（トップページは何か）</li><li>訪問回数（訪問回数はいくつか）</li><li>訪問者（訪問者は何人か）</li><li>訪問別滞在時間（ユーザーの滞在時間は1 回の訪問あたりどのくらいか）</li><li>イベント前の時間（成功イベントの前にユーザーが滞在した時間はどれくらいか）</li><li>サイトセクション（最もページビュー数の多いサイトセクションはどれか）</li><li>Web コンテンツの消費（最も消費され、ユーザーを引き付けているのはどのコンテンツか）</li><li>メディアコンテンツ消費（最も消費され、ユーザーを引き付けているのはどのコンテンツか）</li><li>次と前のページフロー（訪問者がたどった次／前のパスは何か）</li><li>フォールアウト（デジタルプロパティのどこでフォールアウトが発生するか）</li><li>クロスデバイス分析（Analysis Workspace でのクロスデバイス分析の使用）</li><li>Web リテンション（常連ユーザーは誰で、どのような行動を取っているか）</li><li>メディアオーディオ消費（オーディオ消費のトレンドとトップ指標は何か）</li><li>メディアの最新性、頻度、ロイヤルティ（常連読者は誰か）</li><li>ページ分析／リロード回数（最もリロード回数の多いページはどれか）</li><li>ページ分析／ページでの滞在時間（ユーザーがページで滞在した時間はどのくらいか）</li><li>入口と出口／入口ページ（上位の入口ページはどれか）</li><li>入口と出口／オリジナルの入口ページ（訪問者が最初にアクセスしたページはどれか）</li><li>入口と出口／単一ページ訪問数（単一ページ訪問数が最も多いページはどれか）</li><li>入口と出口／出口ページ（上位の出口ページはどれか）</li></ul> |
-   | **[!UICONTROL コンバージョン]** | <ul><li>製品／製品（主要指標を促しているのはどの製品か）</li><li>製品／製品のパフォーマンス（最もパフォーマンスが高い製品はどれか）</li><li>製品／カテゴリー（最もパフォーマンスの高い製品カテゴリーは何か）</li><li>買い物かご／買い物かご（買い物かごに製品を追加したユーザーは何人か）</li><li>買い物かご／買い物かご表示（訪問者が買い物かごを何回表示したか）</li><li>買い物かご／買い物かごへの追加（ユーザーが買い物かごに製品を追加する頻度はどのくらいか）</li><li>買い物かご／買い物かごからの削除（ユーザーが買い物かごから商品を削除する頻度はどのくらいか）</li><li>購入／売上高（売上高のパフォーマンスはどの程度か）</li><li>購入／注文（注文のパフォーマンスはどの程度か）　</li><li>購入／点数（販売数はいくつか）</li><li>[Magento：マーケティングとコマース](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#commerce)</li></ul> |
-   | **[!UICONTROL オーディエンス]** | <ul><li>人物指標（ブランドとやり取りしているユーザーは何人か）</li><li>訪問者プロファイル／場所の概要（ユーザーの間で最も多くの利用を促進しているのは場所はどこか）</li><li>訪問者プロファイル／地理特性／地域 - 郡、地域 - 米国の州、地域 - 地域、地域 - 市区町村、地域 - 米国 DMA（ユーザーがアクセスしている地域はどこか）</li><li>訪問者プロファイル／言語（ユーザーが好む言語はどれか）</li><li>訪問者プロファイル／タイムゾーン（ユーザーはどのタイムゾーンから訪問しているか）</li><li>訪問者プロファイル／ドメイン（訪問者がサイトへのアクセスに使用している ISP はどれか）</li><li>訪問者プロファイル／トップレベルドメイン（サイトへのトラフィックを促進しているのはどのドメインか）</li><li>訪問者プロファイル／技術／技術の概要（訪問者がサイトへのアクセスに使用しているのはどのテクノロジーか）</li><li>訪問者プロファイル／技術／ブラウザー、ブラウザータイプ、ブラウザーの幅、ブラウザーの高さ（ユーザーがサイトへのアクセスに使用しているのはどの会社のブラウザー、ブラウザー バージョン、幅と高さか）</li><li>訪問者プロファイル／テクノロジー／オペレーティングシステム、オペレーティングシステムのタイプ（訪問者が使用している OS とバージョンはどれか）。</li><li>訪問者プロファイル／テクノロジー／携帯電話会社（訪問者がサイトへのアクセスに使用する携帯電話会社はどれか）</li><li>訪問者保持率／再来訪頻度（ユーザーの前回の訪問から現在の訪問までの経過時間はどのくらいか）</li><li>訪問者保持率／再来訪（訪問者のうちの、再訪問者の数）</li><li>訪問者保持率／訪問回数（主要指標の大部分を占める訪問回数のバケットはどれか）</li><li>訪問者保持率／販売サイクル／顧客の忠誠度（ユーザーはどのロイヤルティセグメントに属しているか）</li><li>訪問者保持率／販売サイクル／初回購入までの日数（ユーザーの初回訪問から初回購入までの日数はどのくらいか）</li><li>訪問者保持率／販売サイクル／前回購入からの日数（ユーザーの現在の訪問から前回購入までの日数はどのくらいか）をクリックします。</li><li>訪問者保持率／モバイル／デバイスとデバイスのタイプ（訪問が使用しているデバイスとデバイスのタイプはどれか）</li><li>訪問者保持率／モバイル／製造元（訪問者が使用しているモバイルデバイスのメーカーはどれか）</li><li>訪問者保持率／モバイル／画面サイズ、画面の高さ、画面の幅（訪問者のモバイル画面のサイズ/高さ/幅はどれですか？）</li><li>訪問者保持率／モバイル／[モバイルアプリの使用状況](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>訪問者保持率／モバイル／[モバイルアプリジャーニー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>訪問者保持率／モバイル／[モバイルアプリ指標](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>訪問者保持率／モバイル／[モバイルアプリメッセージ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>訪問者保持率／モバイル／[モバイルアプリのパフォーマンス](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>訪問者保持率／モバイル／[モバイルアプリ保持率](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li></ul> |
-   | **[!UICONTROL 獲得]** | <ul><li>マーケティングチャネル／ファーストタッチチャネル、ファーストタッチチャネルの詳細（ファーストタッチチャネルの種類と、パフォーマンスが最も高い特定のファーストタッチチャネルの種類はどれか）</li><li>マーケティングチャネル／最後のチャネル、最後のチャネルの詳細（ラストタッチチャネル、および最もパフォーマンスの高い特定のラストタッチチャネルはどれか）</li><li>Campaign／Campaign（主要指標を推進しているキャンペーンはどれか）</li><li>Campaign／キャンペーンのパフォーマンス（最も高い売上を促進しているのはどのキャンペーンか）</li><li>キャンペーン／トラッキングコード（パフォーマンスが最も高いキャンペーントラッキングコードはどれか）</li><li>[Web 獲得](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#web)</li><li>[モバイル獲得](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#mobile)</li><li>[Advertising Analytics: 有料検索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#advertising)</li><li>検索キーワード - すべて、有料、自然（主要指標を最も促進している検索キーワードおよび有料／自然検索キーワードはどれか）</li><li>検索エンジン - すべて、有料、自然（主要指標を最も促進している検索エンジンおよび有料／自然検索エンジンはどれか）</li><li>すべての検索ページのランク（ユーザーはどの検索ページから訪問しているか）</li><li>参照ドメイン（サイトへのトラフィックを促進しているのはどのドメインか）</li><li>オリジナルの参照ドメイン（サイトを訪問する前に最初に訪問したドメインは何か）</li><li>リファラー（クリックスルーしてサイトにアクセスする前に、ユーザーが閲覧していた URL はどれか）</li><li>リファラータイプ（参照 URL が属するカテゴリはどれか）</li></ul> |
-
-### レポートの表示と保存 {#use-reports}
-
-変更した後にレポートから移動すると、変更を保存するか破棄するように求められます。レポートに対する変更を保存すると、レポートが新しいプロジェクトとして保存されます。
-
-1. 「[!UICONTROL **レポート**]」タブに移動します。
-1. 表示するレポートを選択します。例えば、「[!UICONTROL **一番人気**]」で、[!UICONTROL **ページ**]&#x200B;レポートを選択します。
-
-   ![ページレポート](assets/pages-report.png)
-
-1. Analysis Workspace に表示されるページレポートには、2 つの[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)（[棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)と[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)）および[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)が表示されます。使用される指標は発生件数です。
-1. 次のいずれかの操作を行います。
-
-   * レポートを表示する。
-   * 上部のセグメントドロップゾーンに、1 つ以上のセグメントをドラッグする。例えば、[!UICONTROL **モバイル顧客**]&#x200B;セグメントをドラッグし、結果を表示します。
-   * 右上のカレンダーに移動して、日付範囲を変更する。
-   * ディメンション分類を追加し、他の指標をドラッグして、通常はニーズに合わせてレポートをカスタマイズする。
-
-1. （オプション）[!UICONTROL **プロジェクト**]／[!UICONTROL **保存**]&#x200B;を選択して、レポートをプロジェクトとして保存します。
-
-   これにより、レポートが新しいプロジェクトとして保存されます。既存のレポートは変更されません。レポートをプロジェクトとして保存する方法について詳しくは、[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)の「空のプロジェクトまたはレポートからのプロジェクトの作成」を参照してください。
-
-### カスタム会社レポートの作成 {#company-report}
-
-ログイン会社の他のユーザーが使用するために作成および保存したカスタムレポートは、会社レポートと呼ばれます。以前作成した会社レポートおよび新しく作成した会社レポートは、次に示すように、プロジェクトを作成モーダルにリストされます。
-
-新しい会社レポートを作成するには：
-
-1. Analysis Workspace でプロジェクトを目的の状態にビルドします。
-1. [!UICONTROL **プロジェクト**]／**[!UICONTROL 会社レポートとして保存…]** を選択します。
-
-   ![会社レポート](assets/company-report.png)
-
-1. レポート名の更新、説明の追加、タグの追加を行い、「[!UICONTROL **会社レポートとして保存**]」を選択します。
-
-   このレポートは、プロジェクトを作成モーダルの会社レポートリストに追加され、ログインしている会社のユーザーが使用できます。
-
-   ユーザーが会社レポートに基づいてプロジェクトを作成する方法について詳しくは、[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)の「空のプロジェクトまたはレポートからのプロジェクトの作成」を参照してください。
-
-その他の学習オプション：
-
-* 開いているレポートの左上で、Analysis Workspace の 20 分間のビデオの概要を確認できます。
-* 新規ユーザーには、新しいプロジェクトの構築手順を示す[トレーニングチュートリアル](https://www.youtube.com/watch?v=lCH1Kl1q9Wk)ビデオをお勧めします。
-* [完全な Analysis Workspace のドキュメント](/help/analyze/analysis-workspace/home.md)へのリンクはこちらです。
-* 完全な [Analysis Workspace の YouTube プレイリスト](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)はこちらです。
-
-### 会社レポートを管理 {#manage-company-reports}
-
-管理者は、プロジェクトリストをフィルタリングして、会社レポートを表示および管理できます。ピン留めされた項目は、レポートアイコン（![レポートアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)）で識別される会社レポートのリストに続いてピン留めされたままです。この表示では、1 つまたは複数のレポートを削除、名前変更、タグ付けまたは承認できます。
-
-会社レポートを表示および管理するには
-
-1. フィルターパネルでは、**その他のフィルター**&#x200B;を選択してから、**会社レポート**を選択します。
-会社レポートのリストが表示されます。すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
-
-   ![会社レポートフィルターを表示](assets/company-reports-filter.png)
-
-   会社レポートを表示していると、管理者は、タグを削除、名前変更、追加したり、レポートを承認したりできます。
-
-1. レポートリストで、単一のレポートを選択したり、複数のレポートを選択したりします。
-
-1. レポートの横にある **...** 省略記号アイコンをクリックして、使用可能なオプション（削除、名前を変更、タグおよび承認）を表示します。
-
-   ![会社レポートのアクション](assets/company-reports-actions.png)
-
-1. オプション（削除、名前を変更、タグおよび承認）を選択します。
-
-1. 完了時に標準表示に戻るには、もう一度フィルターパネルで会社レポートオプションをオフにします。
-
-### 会社レポートの削除
-
-管理者は、会社レポートリストオプション（前述）を使用してレポートを削除したり、プロジェクトを作成モーダルからレポートを削除したりできます。
-
-![その他のフィルター](assets/delete-fr-create-project-modal.png)
-
-### テンプレートの場所（現在はレポートと呼ばれています） {#templates}
-
-| レポート（テンプレート）名 | レポートの場所 |
-| --- | --- |
-| トレーニングチュートリアル | 最も人気のある > トレーニングチュートリアル |
-| web コンテンツ消費 | エンゲージメント > web コンテンツ消費 |
-| メディアコンテンツ消費 | エンゲージメント > メディアコンテンツ消費 |
-| クロスファイル分析 | エンゲージメント > クロスデバイス分析 |
-| web 定着 | エンゲージメント > web 定着 |
-| メディアオーディオ消費 | エンゲージメント > メディアオーディオ消費量 |
-| メディアの最新性、頻度、ロイヤルティ | エンゲージメント > メディアの最新性、頻度、ロイヤルティ |
-| ITP の影響 | エンゲージメント > ITP の影響 |
-| 製品パフォーマンス | コンバージョン > 製品 > 製品パフォーマンス |
-| Magento：Marketing &amp; Commerce | コンバージョン > Magento：Marketing &amp; Commerce |
-| 人物指標 | オーディエンス > 人物指標 |
-| ロケーションの概要 | オーディエンス > 訪問者プロファイル > ロケーションの概要 |
-| 技術概要 | オーディエンス > 訪問者プロファイル > 技術 > 技術概要 |
-| モバイルアプリの使用状況 | オーディエンス > モバイル > モバイルアプリの使用 |
-| モバイルアプリジャーニー | オーディエンス > モバイル > モバイルアプリジャーニー |
-| モバイルアプリ指標 | オーディエンス > モバイル > モバイルアプリメッセージ |
-| モバイルアプリのパフォーマンス | オーディエンス > モバイル > モバイルアプリのパフォーマンス |
-| モバイルアプリの定着 | オーディエンス > モバイル > モバイルアプリの定着 |
-| キャンペーンパフォーマンス | 獲得 > キャンペーン > キャンペーンのパフォーマンス |
-| モバイルの獲得 | 獲得 > モバイルの獲得 |
-| Web 獲得 | 獲得 > Web 獲得 |
-| Advertising Analytics：有料検索 | 獲得 > Advertising Analytics：有料検索 |
-
+カスタム会社レポートの作成と管理について詳しくは、 [会社レポートの作成と管理](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## 「学習」タブを使用 {#navigate-learning}
 

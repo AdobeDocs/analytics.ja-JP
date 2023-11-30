@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 91%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
 # アラート
 
-{{ra-eol}}
-
 ## アラート {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Adobe Analytics 全体の新しいアラートシステムであるインテリジェントアラートでは、アラートプレビューとルール貢献度を備えたアラートの作成と管理をおこなうことができます。次のことが可能です。
+インテリジェントアラートは、Adobe Analytics全体のアラートシステムとして、アラートの作成と管理を行うと共に、アラートプレビューとルール貢献度に関する機能を提供します。 次のことが可能です。
 
 * 異常値（90％、95％または 99％のしきい値、変化率、超過／未満）に基づいたアラートの構築。
 * アラートがトリガーされる頻度のプレビュー。

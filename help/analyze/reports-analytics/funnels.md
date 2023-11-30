@@ -5,16 +5,14 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # コンバージョンファネル
-
-{{ra-eol}}
 
 コンバージョン率は、通常は、開始イベント、終了イベント、およびマイルストーンイベントまたはコンバージョンプロセス内のポイントの間で発生したコンバージョンを測定します。ユーザーが成功イベントをサイト上にコーディングした後、レポートでこれらの異なる成功イベント間の比率が測定され、コンバージョンファネルレポートに表示されます。
 
