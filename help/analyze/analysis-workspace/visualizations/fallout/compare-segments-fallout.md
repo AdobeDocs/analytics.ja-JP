@@ -5,10 +5,10 @@ title: フォールアウト分析でのセグメントの適用
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## フォールアウトでのセグメントの比較 {#section_E0B761A69B1545908B52E05379277B56}
 
-フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。
+フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。（以下のビデオでは、最大 3 つのセグメントを比較できることを示していますが、これは間違いです）。
 
 以下は、フォールアウトでのセグメントの比較に関するビデオです。
 

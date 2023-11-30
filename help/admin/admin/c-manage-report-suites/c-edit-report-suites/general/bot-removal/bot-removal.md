@@ -3,9 +3,9 @@ title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '795'
 ht-degree: 84%
 
 ---
@@ -73,7 +73,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
 * **ボットフラグ**:「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
 
-この.CSV ファイルを顧客属性の読み込みファイルとして使用し、この説明に従って、顧客属性にレポートスイートを登録します。 [ブログ投稿](https://theblog.adobe.com/link-digital-behavior-customers).
+この.CSV ファイルを顧客属性の読み込みファイルとして使用し、この説明に従って、顧客属性にレポートスイートを登録します。 [ブログ投稿](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
