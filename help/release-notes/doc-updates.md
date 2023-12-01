@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2023年12月** | |
+| 新しいレポートセクション | 次の情報を含む新しい「レポート」セクションを追加しました： [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md) および [会社レポートの作成と管理](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、仮想アナリストに関する節に記載されていました。 次の変更が加えられました。 <ul><li>Virtual Analyst という用語はドキュメントから削除されました。</li><li>に関する節 [異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) は、Analysis Workspaceセクションのすぐ下に移動されました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合されました。</li></ul> |
+| &quot;Attribution IQ&quot;が&quot;属性&quot;に変更されました&quot; | 「Attribution IQ」のすべてのインスタンスを「[帰属](/help/analyze/analysis-workspace/attribution/overview.md)」がドキュメント全体に表示されます。 |
 | **2023年11月** | |
 | Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ja)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |

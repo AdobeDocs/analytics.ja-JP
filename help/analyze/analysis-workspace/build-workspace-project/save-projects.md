@@ -4,9 +4,9 @@ title: プロジェクトの保存
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '720'
 ht-degree: 96%
 
 ---
@@ -30,7 +30,7 @@ Analysis Workspace において手動でプロジェクトを保存する場合�
    | **[!UICONTROL 保存]** | プロジェクトに対する変更を保存します。プロジェクトが共有されている場合は、プロジェクトの受信者にも変更が表示されます。プロジェクトを最初に保存すると、プロジェクトに名前と説明（任意）を与え、タグを追加（任意）するよう求めるプロンプトが表示されます。 |
    | **[!UICONTROL メモと共に保存]** | プロジェクトを保存する前に、プロジェクトで変更した内容に関するメモを追加します。メモはプロジェクトバージョンと共に保存され、[!UICONTROL プロジェクト]／[!UICONTROL 以前のバージョンを開く]で、すべてのエディターが使用できます。 |
    | **[!UICONTROL 名前を付けて保存]** | プロジェクトの複製を作成します。元のプロジェクトは影響を受けません。 |
-   | **[!UICONTROL 会社レポートとして保存]** | プロジェクトを [会社レポート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) を **[!UICONTROL プロジェクト/新規]** |
+   | **[!UICONTROL 会社レポートとして保存]** | プロジェクトを [会社レポート](/help/analyze/analysis-workspace/reports/create-company-reports.md) を **[!UICONTROL プロジェクト/新規]** |
 
 ## 自動保存 {#Autosave}
 
