@@ -5,16 +5,18 @@ title: 表示専用プロジェクト
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 82%
+source-wordcount: '238'
+ht-degree: 75%
 
 ---
 
 # 表示専用プロジェクト
 
 [プロジェクト共有ワークフロー](/help/analyze/analysis-workspace/curate-share/share-projects.md)を使用して、受信者に「表示のみ」としてプロジェクトを共有できます。「Can View」役割に配置された受信者は、より限定的なプロジェクト体験を受け取るようになります。組織のデータ構造、Analysis Workspace、Adobe Analyticsの一般的な知識の低いユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用したい場合には、この方法が望ましい場合があります。
+
+パネルカレンダーの日付範囲は、表示専用プロジェクトでも編集できます。
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ ht-degree: 82%
 
 * 左側のレールを非表示にする
 * レポートスイート
-* パネルカレンダーの日付範囲注意：受信者にカレンダー制御を付与する場合は、日付範囲を含む[ドロップダウンフィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)を追加します。
 * フリーフォームフィルター
 * 表示可能な行のフリーフォーム数
 * フリーフォーム行、列またはビジュアライゼーションの設定
