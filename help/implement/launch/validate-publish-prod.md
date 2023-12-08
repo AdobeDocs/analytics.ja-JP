@@ -3,9 +3,9 @@ title: 開発実装の検証と実稼動環境への公開
 description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '622'
 ht-degree: 72%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 72%
 
 Experience Cloudデバッガーは、ページに存在するすべてのExperience Cloudタグを表示する拡張機能です。
 
-1. 次のいずれかの拡張機能をインストールします。 [クロム](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または [Firefox](https://addons.mozilla.org/ja/firefox/addon/adobe-experience-platform-dbg/).
+1. 次のいずれかの拡張機能をインストールします。 [クロム](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または Firefox。
 2. タグを実装した開発用 web サイトに移動します。
 3. ブラウザーでAdobe Experience Cloud Debugger アイコンをクリックします。
 4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよびAdobe Experience Cloud訪問者 ID サービス内にコンテンツが表示されます。
@@ -58,7 +58,7 @@ Experience Cloudデバッガーは、ページに存在するすべてのExperie
 * コンソールに JavaScript エラーはありません。組織の Web サイトの所有者と協力して、すべての JS エラーが解決されていることを確認します。
 * ヘッダーコードが正しく実装されている：ヘッダーコードが `<head>` タグ内にあり、ファイルが存在することを確認してください。
 * AppMeasurement ライブラリが存在します：JS ソースに直接移動し、JS ファイルにコードが含まれていることを確認します。表示されない場合は、各環境が作成され、それぞれの環境にライブラリが公開されていることを確認します。
-* 干渉拡張機能：広告ブロッカーなどの一部の拡張は、イメージリクエストの実行を防ぐ可能性があります。 データのAdobeへの送信を停止する可能性のある拡張機能を無効にします。
+* 干渉拡張機能：広告ブロッカーなど、一部の拡張は、イメージリクエストの実行を妨げる可能性があります。 データのAdobeへの送信を停止する可能性のある拡張機能を無効にします。
 
 ## 次の手順
 
