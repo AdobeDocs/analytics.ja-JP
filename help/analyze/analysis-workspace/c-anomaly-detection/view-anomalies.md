@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    * 貢献度分析を開始するための分析リンク
 
-     ( 詳しくは、 [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) を参照 )。
+     （詳しくは、[異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)を参照してください）。
 
 
 
