@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 貢献度分析の実行
 
-[貢献度分析は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)目的は、ユーザーが、別の方法よりもずっと迅速に、焦点を当てるべき領域や追加の分析のオポチュニティを見つけるのを支援することです。
+[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。目的は、ユーザーが重点領域や追加分析の機会をより迅速に見つけられるように支援することです。
 
 ## 貢献度分析の実行 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
