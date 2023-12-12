@@ -5,9 +5,9 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 
 >[!IMPORTANT]
 >
->Adobe Analytics Select およびAdobe Analytics Foundationのお客様は、Workspace で「日の精度」の異常値検出のみにアクセスできます。 詳しくは、[異常値検出と貢献度分析の権限](#anomaly-detection-and-contribution-analysis-entitlements)を参照してください。
+>Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。詳しくは、[異常値検出と貢献度分析の権限](#anomaly-detection-and-contribution-analysis-entitlements)を参照してください。
 
 ## 異常値検出
 
