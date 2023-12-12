@@ -4,9 +4,9 @@ title: 管理者、アナリスト、エンドユーザーおよび開発者向�
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1883'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe Analytics と Analysis Workspace の機能を最大限に活用するた�
 | Analysis Workspace でのプロジェクトの作成と共有 | Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加を行い、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。<p>データアナリストは多くの場合、組織内のユーザー向けに Analysis Workspace でプロジェクトを作成する責任を負います。</p><p>プロジェクトを作成した後、アナリストは、データをリクエストした組織内の[エンドユーザー](#end-users)（非アナリスト）とこれらのプロジェクトを共有し、データの解釈方法を理解できるようにサポートします。</p> | <ul><li>[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
 | アトリビューション | アナリストは、Analysis Workspace の様々なアトリビューションモデルとルックバックウィンドウを使用して、ディメンション項目で成功イベントのクレジットを取得する方法をカスタマイズできます。<p>線形アトリビューションモデルでは、コンバージョンに至るまでのすべてのタッチポイントに同等のクレジットが与えられますが、ファーストタッチでは最初のタッチポイントに完全なクレジットが与えられます。統計的手法を使用してクレジットの最適な配分を動的に決定するアルゴリズムモデルなど、他にも多くのアトリビューションモデルが使用可能です。 </p> | [アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常値の検出 | Analysis Workspace の統計的モデリングでは、指標を分析し、値の下限、上限および予想される範囲を決定することで、データ内の予期しないトレンドを自動的に検出します。予期しないスパイクまたは下落が発生した場合にレポートします。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| 貢献度分析 | Analysis Workspace を使用して、データ内の非表示パターンを発見して統計的な異常値を明らかにし、予期しない顧客のアクション、範囲外の値、オーディエンスセグメント全体の指標の突然のスパイクや下落の背後にある相関関係を特定します。 | [貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) in [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| 貢献度分析 | Analysis Workspace を使用して、データ内の非表示パターンを発見して統計的な異常値を明らかにし、予期しない顧客のアクション、範囲外の値、オーディエンスセグメント全体の指標の突然のスパイクや下落の背後にある相関関係を特定します。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)の[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | インテリジェントアラート | データの異常値と、単一のアラートで複数の指標をキャプチャする「積み重ね」アラートに基づいてアラートを作成および管理します。 | [インテリジェントアラートの概要](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | データの書き出し | Data Warehouse とデータフィードを使用すると、Google Cloud Platform、Azure RBAC、Azure SAS、Amazon S3 などの様々なクラウドの宛先にデータを書き出すことができます。 | [Analytics 書き出しガイド](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=ja) |
 | Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja) |
