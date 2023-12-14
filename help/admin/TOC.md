@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '641'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 95%
                + [処理ルールのヒントとテクニック](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + ボットルール {#bot-removal}
                + [ボットの削除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [ボットルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [ボットルールの理解と設定](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [一般的なボット署名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [ボットの除外メソッド](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [プライバシー設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -158,7 +158,7 @@ ht-degree: 95%
       + [設定マネージャー](admin/company/preferences-manager.md)
       + [保留中のアクション](admin/company/pending-actions-admin.md)
       + [機能アクセスレベル](admin/company/feature-access-levels.md)
-   + データガバナンスプライバシーのラベル付け {#data-governance}
+   + データガバナンスのプライバシーラベル付け {#data-governance}
       + [Adobe Analytics データプライバシーワークフロー](admin/c-data-governance/an-gdpr-workflow.md)
       + [よくある質問](admin/c-data-governance/gdpr-faq.md)
       + データのラベル付け {#data-labels}
@@ -177,8 +177,8 @@ ht-degree: 95%
       + [サーバーコールの使用状況アラート](admin/c-server-call-usage/scu-alerts.md)
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
    + ユーザーと製品の管理（レガシー） {#user-product-management}
-      + [ユーザーと製品の管理(レガシー)](admin/user-management2/user-management.md)
-      + [ユーザーアセットの転送と、アカウントの有効期限の設定](admin/user-management2/users-assets.md)
+      + [ユーザーと製品の管理（レガシー）](admin/user-management2/user-management.md)
+      + [ユーザーアセットの転送またはアカウント有効期限の設定](admin/user-management2/users-assets.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
