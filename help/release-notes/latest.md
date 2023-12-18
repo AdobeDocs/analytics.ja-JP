@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00c6915275c4730413aa8505094886ae56649ec4
+source-git-commit: d3d4547238bdaedf8a9c8ac9c4a29e9237bbc3d8
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 98%
@@ -21,7 +21,7 @@ ht-degree: 98%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **レポートアクティビティマネージャーの機能強化** | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。レポートアクティビティマネージャーで現在使用できる機能強化の一部を以下に示します。 <ul><li>後続のリクエストを制限：管理者は、現在のリクエストのキャンセルに加えて、定義した期間だけリクエストを制限できるようになりました。管理者は、リクエスト、プロジェクトおよびユーザーごとにリクエストを制限できます。</li><li>稼働率と処理能力の指標に加えて、レポートアクティビティマネージャーには、レポートアクティビティに関するより多くのデータ（複雑度列、ユーザー列、接続列）が含まれるようになりました。</li><li>レポートアクティビティマネージャーで行われたすべてのキャンセルと制限が監査ログに表示されるようになりました。管理者は、監査ログを使用して、現在キャンセルされている内容を表示できます。レポートアクティビティマネージャーまたは監査ログでキャンセルを元に戻すことはできません。</li></ul><p>詳しくは、[レポートアクティビティマネージャーの概要](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)を参照してください</p> | 2023年10月17日（PT） | 2023年10月24日（PT） |
-| **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月12日（PT） | 未定 |
+| **Data Warehouse の機能強化** | Data Warehouse リクエストを作成する際に、レポートの宛先として使用するクラウドアカウントを設定できるようになりました。データの送信には、次のクラウドアカウントタイプを使用できます。<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>メール（このオプションは、以前は利用できました）</li></ul>FTP、SFTP、Azure BLOB および S3 は引き続きレポートの宛先として使用できますが、非推奨になりました。<p>また、Data Warehouse リクエストを作成および管理する際のユーザーエクスペリエンスも向上しました。詳しくは、[Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)および [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja)を参照してください。 | 2023年9月12日（PT） | 2023年12月15日 |
 
 {style="table-layout:auto"}
 
