@@ -3,10 +3,10 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3879'
-ht-degree: 97%
+source-wordcount: '3934'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 97%
 「全員を含む」が設定されているセグメントを作成すると、そのセグメントでは指定されたパターン全体と一致するパスを識別します。これは、同じ訪問者が訪問したときのヒット（ページ A）に続くヒット（ページ B）を探す基本的なシーケンスセグメントの例です。セグメントを「全員を含む」に設定します。
 
 ![](/help/admin/admin/assets/filter.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | 結果が次の場合： | シーケンス |
 |--- |--- |
@@ -342,6 +343,16 @@ ht-degree: 97%
 ![](assets/then_within_operators.png)
 
 [!UICONTROL Within] および [!UICONTROL After] コンテナを使用し、精度とカウントを指定することで、一致の範囲を指定した期間に制限できます。[!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。[!UICONTROL After] 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。
+
+>[!NOTE]
+>
+>のように同じ名前の要素間では評価に違いがあります。 **日** または **日**. Within と After の時間ベースの定義については、ポップアップウィンドウで最初に表示されるオプションを利用します。
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>Within と After のディメンションベースの定義には、サブメニューのオプションを使用します。 *その他のDimension*:
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### After および Within 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
