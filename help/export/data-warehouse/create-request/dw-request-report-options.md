@@ -2,22 +2,15 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: レポートリクエストのレポートオプションのData Warehouseを設定する
 feature: Data Warehouse
-source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
+exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 9%
 
 ---
 
 # レポートリクエストのレポートオプションのData Warehouseを設定する
-
->[!AVAILABILITY]
->
->この記事 ( およびこの節の他のData Warehouse記事 ) で説明するData Warehouse機能の一部は、リリースの制限付きテスト段階でのみ使用でき、お使いの環境ではまだ使用できない場合があります。
->
->すべてのお客様がまだ利用できない機能について、およびこれらの機能のリリースのタイムラインについて詳しくは、 [リリースノート](/help/release-notes/latest.md).
->
->このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
 設定リクエストを作成する際には、様々な設定オプションをData Warehouseできます。 次の情報では、リクエストのレポートオプションを設定する方法を説明します。
 
@@ -37,16 +30,16 @@ ht-degree: 18%
 
    | オプション | 関数 |
    |---------|----------|
-   | [!UICONTROL **ファイル名**] | レポートを識別します。 <p>ファイル名に次の特殊文字が使用されている場合、リクエストは保存できません。 <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ?@ [ ] \ ^ ` {  } \| ~</code> </p><p>%文字は、次のように、「R」、「rsid」、「id」の後に付く場合にのみ使用できます。 <code>%R</code>, <code>%rsid</code>、および <code>%id</code>。</p> |
+   | [!UICONTROL **ファイル名**] | レポートを識別します。 <p>ファイル名に次の特殊文字が使用されている場合、リクエストは保存できません。 <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ?@ [ ] \ ^ &#39; { } \| ～</code> </p><p>%文字は、次のように、「R」、「rsid」、「id」の後に付く場合にのみ使用できます。 <code>%R</code>, <code>%rsid</code>、および <code>%id</code>。</p> |
    | [!UICONTROL **ファイル名にレポートの日付範囲を追加**] | レポートファイル名に日付範囲を追加します。 <p>例えば、2024 年 5 月 1 日から 2024 年 5 月 7 日までのデータを要求した場合、ファイル名には20240501 ～ 20240507の日付範囲が含まれます。</p> |
    | [!UICONTROL **CSV**] | レポートを CSV ファイル形式で配信し、データをスプレッドシートで表示します。 |
    | [!UICONTROL **Tableau(TDE)**] | レポートを Tableau Data Extract(TDE) ファイル形式で配信します。この形式は、Tableau 内の追加データのデータやレイヤーを視覚化するために使用できます。 |
    | [!UICONTROL **レポートを圧縮ファイル (ZIP) として送信**] | レポートを圧縮 (ZIP) ファイル形式で配信します。 電子メールを [レポートの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **すべての行を返す**] | 有効にすると、すべての行がレポートに含まれます。 このオプションを無効にして、含める行数を指定します。 |
-   | [!UICONTROL **レポートのコメントの先頭**] | レポートに含めるコメントを追加します。 レポートの先頭にコメントが表示されます。 |
-   | [!UICONTROL **指標で並べ替え**] | 指標値を降順で並べ替えた、Data Warehouse のランク分類レポートを提供します。指標で並べ替えると、Data Warehouse レポートが解釈しやすくなり、他の Analytics 分類レポート表示と比較しやすくなります。<p>詳しくは、 [指標で並べ替え](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | [!UICONTROL **マニフェストファイルを送信**] | レポートに含まれるファイルに関するメタデータが含まれます。<!-- What kind of metadata is included in the manifest file? --> |
-   | [!UICONTROL **デジタル署名ファイルを送信**] | レポートの受信者は、ファイルがAdobeから送信されたもので、変更されていないことを確認できます。 |
+   | [!UICONTROL **レポートコメントの開始**] | レポートに含めるコメントを追加します。 レポートの先頭にコメントが表示されます。 |
+   | [!UICONTROL **指標で並べ替え**] | 指標値を降順で並べ替えた、Data Warehouseでランク分類レポートを提供します。 指標で並べ替えると、Data Warehouse レポートが解釈しやすくなり、他の Analytics 分類レポート表示と比較しやすくなります。<p>詳しくは、 [指標で並べ替え](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **マニフェストファイルの送信**] | レポートに含まれるファイルに関するメタデータが含まれます。<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **電子署名ファイルの送信**] | レポートの受信者は、ファイルがAdobeから送信されたもので、変更されていないことを確認できます。 |
    | [!UICONTROL **レポートにデータがない場合は空のファイルを送信**] | レポートにデータが含まれていない場合でもレポートを送信します。 |
 
    {style="table-layout:auto"}

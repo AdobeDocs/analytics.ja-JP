@@ -2,22 +2,15 @@
 description: Data Warehouse リクエストを作成する方法について手順を説明します。
 title: レポートリクエストのレポートオプションのData Warehouseを設定する
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 16%
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 # 通知リクエスト用の通知電子メールのData Warehouse
-
->[!AVAILABILITY]
->
->この記事 ( およびこの節の他のData Warehouse記事 ) で説明するData Warehouse機能の一部は、リリースの制限付きテスト段階でのみ使用でき、お使いの環境ではまだ使用できない場合があります。
->
->すべてのお客様がまだ利用できない機能について、およびこれらの機能のリリースのタイムラインについて詳しくは、 [リリースノート](/help/release-notes/latest.md).
->
->このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。
 
 設定リクエストを作成する際には、様々な設定オプションをData Warehouseできます。 次の情報では、リクエストの通知 E メールを設定する方法について説明します。
 
