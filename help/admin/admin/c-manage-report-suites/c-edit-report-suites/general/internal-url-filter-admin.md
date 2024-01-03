@@ -4,10 +4,10 @@ title: 内部 URL フィルター
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: 2beb4cd38fc8b48e2b34468a4570f7168aeacb78
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 30%
+source-wordcount: '221'
+ht-degree: 31%
 
 ---
 
@@ -16,28 +16,17 @@ ht-degree: 30%
 
 内部 URL フィルターを使用すると、サイト内部と見なすリファラーを特定できます。 トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
 
-リファラー（参照元ページ）は、通常訪問者がサイトを訪問する前に表示したページです。データの歪曲を避けるために、自社の内部リファラーをフィルターして除外できます。レポートでは、[転送者](/help/components/dimensions/referrer.md)ディメンション、[参照ドメインディメンション](/help/components/dimensions/referring-domain.md)、および他のトラフィックソースディメンションからフィルターされた転送者を除外します。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL 内部 URL フィルター]**
 
-## 既存の内部 URL フィルターを表示
+リファラー（参照元ページ）は、通常訪問者がサイトを訪問する前に表示したページです。データの歪曲を避けるために、自社の内部リファラーをフィルターして除外できます。内部 URL フィルターに依存するDimensionには、以下が含まれます [リファラー](/help/components/dimensions/referrer.md), [参照ドメイン](/help/components/dimensions/referring-domain.md), [マーケティングチャネル](/help/components/dimensions/marketing-channel.md)、およびその他のトラフィックソースディメンション。
 
->[!NOTE]
+[マーケティングチャネルの処理ルール](../marketing-channels/c-rules.md) &quot;[!UICONTROL 内部 URL フィルターに一致]」を設定します。
+
+>[!IMPORTANT]
 >
->一部のレポートスイートには、ピリオド (.) の内部 URL フィルターがあります デフォルトで設定されます。 このフィルターが存在する場合、すべてのトラフィックは内部トラフィックとして分類されます。 リファラーレポートは、ピリオド (.) が付くまで機能しません。 フィルターが削除されました。
+>一部のレポートスイートには、期間 (`.`) がデフォルトで設定されています。 このフィルターが存在する場合、すべてのトラフィックは内部トラフィックとして分類されます。 リファラーレポートは、このフィルターが削除され、1 つ以上の目的の内部ドメインに置き換えられるまで機能しません。
 
-レポートスイートに対して設定されている内部 URL フィルターを確認するには： <!-- I don't see the period in my instance? Is the following information valid? "To avoid this, remove the rule listing a period (.) as a filter, and add your own site. The reason why a period is the default internal URL filter is to allow data to be collected in the Pages report. If hits do not match internal URL filters, all pages come up as Other. A period is always somewhere in the URL, which guarantees the Pages report is populated.")-->
+* 以下の既存のフィルターをすべて表示 **[!UICONTROL 現在のフィルター]** 」セクションに入力します。
+* フィルターを追加するには、 **[!UICONTROL フィルターを追加]** 「 」セクションで、「 **[!UICONTROL 追加]**.
 
-1. 選択 **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** 」をクリックして Report Suite Manager にアクセスします。
-
-1. どの内部 URL フィルターが設定されているかを確認するレポートスイートを選択し、「 **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL 内部 URL フィルター]**.
-
-   既存のすべてのフィルターは、 [!UICONTROL **現在のフィルター**] 」セクションに入力します。
-
-## レポートスイートに内部 URL フィルターを追加する
-
-1. 選択 **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** 」をクリックして Report Suite Manager にアクセスします。
-
-1. 内部 URL フィルターを追加するレポートスイートを選択し、「 **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL 内部 URL フィルター]**.
-
-1. 「フィルターを追加」セクションで、指定したフィールドにフィルターを適用するページの URL を入力し、「 」を選択します。 [!UICONTROL **追加**].
-
-   追加した URL が [!UICONTROL **現在のフィルター**] 」セクションに入力します。
+フィルターは次を使用して動作します **次を含む** 論理を完全な URL に対して使用します。 Adobeでは、プロトコル (`https://`) およびサブドメイン（別のサブドメインからのトラフィックが外部トラフィックとして必要でない場合）にのみ使用できます。

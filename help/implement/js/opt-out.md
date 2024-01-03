@@ -3,24 +3,24 @@ title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # オプトアウトリンクの実装
 
-*このヘルプページでは、Adobe Analyticsのお客様は、ユーザーにオプトアウトリンクを提供できます。 Adobe Analyticsのユーザーでない場合は、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。*
-
 >[!IMPORTANT]
 >
-> 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を参照してください。
+> **このヘルプページでは、Adobe Analyticsのお客様は、ユーザーにオプトアウトリンクを提供できます。 Adobe Analyticsのユーザーでない場合は、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。**
 
-Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。アドビでは、Web サイトの訪問者が自分の情報が収集されないようにする機能を用意しています。この機能はすべての実装タイプに対応しています。組織は、自らのプライバシーポリシーに責任を持ち、署名済みの利用条件に従う責任を負うものとします。
+Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeを使用すると、Web サイトの訪問者が分析対象の情報をオプトアウトできるようになります。
 
-訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーが追跡を選択せず、オプトアウト Cookie が設定されている場合、JavaScript ファイルは引き続きアドビのサーバーにデータを送信します。ただし、そのデータは処理されず、レポートに含まれません。
+オプトアウトリンクを使用すると、Web サイトへの訪問者は、Analytics レポートからデータを省略できます。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、 [Adobe Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) 代わりに、 オプトインサービスは、Adobe AnalyticsやAppMeasurementを含む複数のAdobe Experience Cloud製品に対してより堅牢で機能します。
+
+訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーが追跡を選択せず、オプトアウト Cookie が設定されている場合、AppMeasurementは引き続きデータをAdobeに送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 `locale` クエリ文字列パラメーターを含めて、オプトアウトページの言語を自動的に切り替えます。このクエリ文字列パラメーターに、次のいずれかの値を割り当てます。
 
-* en_US（英語、デフォルト）
-* bg_BG（ブルガリア語）
-* zh_CN（簡体字中国語）
-* zh_TW（繁体字中国語）
-* cs_CZ（チェコ語）
-* da_NK（デンマーク語）
-* nl_NL（オランダ語）
-* et_EE（エストニア語）
-* fi_FI（フィンランド語）
-* fr_FR（フランス語）
-* de_DE（ドイツ語）
-* el_GR（ギリシャ語）
-* it_IT（イタリア語）
-* jp_JP（日本語）
-* ko_KR（韓国語）
-* lv_LV（ラトビア語）
-* lt_LT（リトアニア語）
-* nb_NO（ノルウェー語）
-* pl_PL（ポーランド語）
-* pt_BR（ポルトガル語）
-* sk_SK（スロバキア語）
-* es_ES（スペイン語）
+* `en_US` （英語、デフォルト）
+* `bg_BG` （ブルガリア語）
+* `zh_CN` （簡体字中国語）
+* `zh_TW` （繁体字中国語）
+* `cs_CZ` （チェコ語）
+* `da_NK` （デンマーク語）
+* `nl_NL` （オランダ語）
+* `et_EE` （エストニア語）
+* `fi_FI` （フィンランド語）
+* `fr_FR` （フランス語）
+* `de_DE` （ドイツ語）
+* `el_GR` （ギリシャ語）
+* `it_IT` （イタリア語）
+* `jp_JP` （日本語）
+* `ko_KR` （韓国語）
+* `lv_LV` （ラトビア語）
+* `lt_LT` （リトアニア語）
+* `nb_NO` （ノルウェー語）
+* `pl_PL` （ポーランド語）
+* `pt_BR` （ポルトガル語）
+* `sk_SK` （スロバキア語）
+* `es_ES` （スペイン語）
 
 例えば、`https://example.data.adobedc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。
-
->[!TIP]
->
->ページはデフォルトで英語で読み込まれるので、`en_US` クエリ文字列値は必須ではありません。
 
 ### ポップアップ
 
