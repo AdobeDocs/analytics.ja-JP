@@ -3,7 +3,7 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: Data Warehouseリクエストの一般設定
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 27%
@@ -32,7 +32,7 @@ Data Warehouse要求の一般設定を構成するには：
    |---------|----------|
    | リクエスト名 | この名前は、リクエストを管理する際にメインData Warehouseページに表示されます。 |
    | 日付範囲 | レポートに含める日付範囲を選択します。 <p>カスタム日付、または事前設定された日付範囲を選択できます。 プリセット範囲は、レポートの送信日に相対的な日付です。</p><p>次のプリセットオプションを使用できます。</p><ul><li>Today</li><li>昨日</li><li>過去 7 日間</li><li>過去 30 日間</li><li>今週</li><li>先週</li><li>最近の 2 週間</li><li>最近の 3 週間</li><li>最近の 4 週間</li><li>今月</li><li>先月</li><li>過去 1 時間</li></ul> |
-   | 精度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間の精度。 設定できる値は「なし」、「時間」、「日」、「週」、「月」、「四半期」、「年」です。<p>精度をレポートするには追加の処理時間が必要になります。1 年間の月の精度をレポートする場合、月ごとにレポートリクエストを送信するとレポートプロセスがより高速に処理されます。</p> |
+   | 精度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間の精度。 設定できる値は「なし」、「時間」、「日」、「週」、「月」、「四半期」、「年」です。<p>精度をレポートするには追加の処理時間が必要になります。1 年間の月の精度をレポートする場合、月ごとにレポートリクエストを送信するとレポートプロセスがより高速に処理されます。</p> <!-- Make this into a new row: Make available to users in your organization - All data warehouse requests are visible only to you and any system administrators. Enable this option if you want to make the request visible to everyone in your organization. <p>Enabling this option is useful if you want other users in your organization to help create or update the request.</p>--> |
 
    {style="table-layout:auto"}
 

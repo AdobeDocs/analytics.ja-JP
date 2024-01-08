@@ -3,9 +3,9 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ Data Warehouseレポートの送信先を設定するには：
 
    ![「レポートの宛先」タブ](assets/dw-report-destination.png)
 
-1. （条件付き）レポートの宛先として使用するアカウント（およびそのアカウントの宛先）を以前に設定した場合：
+1. （条件付き）レポートの送信先として使用するアカウント（およびそのアカウントの宛先）が既に設定されている場合：
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. 次の中からアカウントを選択します： [!UICONTROL **アカウントを選択**] ドロップダウンメニュー。
 
@@ -123,7 +125,7 @@ Data Warehouseレポートの送信先を設定するには：
       |---------|----------|
       | [!UICONTROL **受信者**] | レポートの送信時に、特定のユーザーに電子メール通知を送信できます。 1 つの電子メールアドレスを指定するか、電子メールアドレスのコンマ区切りリストを指定します。 <!-- How does this differ from the Notification email tab? --> |
 
-   1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。 |フィールド |関数 | |—|—| | [!UICONTROL **名前**] |場所の名前。  | | [!UICONTROL **説明**] |同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 | | [!UICONTROL **場所アカウント**] |で作成したロケーションアカウントを選択します。 [アカウントを追加](#add-an-account). |
+   1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。 |フィールド | 関数 | |—|—| | [!UICONTROL **名前**] | 場所の名前。  | | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 | | [!UICONTROL **場所アカウント**] | 作成したロケーションアカウントを選択 [アカウントを追加](#add-an-account). |
 
    1. Adobe Analytics の [!UICONTROL **場所のプロパティ**] 「 」セクションで、ロケーションアカウントのアカウントタイプに固有の情報を指定します。
 

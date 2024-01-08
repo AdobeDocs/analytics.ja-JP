@@ -4,9 +4,9 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 5%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 5%
    | レポートスイート | リクエストに関連付けられたレポートスイート。 |
    | リクエスト発信者 | リクエストを作成したユーザー。 |
    | リクエスト日 | リクエストがおこなわれた日付。 |
-   | ステータス | 次のステータスを使用できます。<ul><li><p>**完了**：リクエストが正常に実行されました。</p></li><li><p>**キャンセル**：リクエストがユーザーによってキャンセルされました。</p></li><li><p>**Scheduled**：リクエストは、スケジュールに従って実行するように設定されます。</p></li><!-- Are there other statuses? Failed? --> |
+   | ステータス | 次のステータスを使用できます。<ul><li><p>**完了**：リクエストが正常に実行されました。</p></li><li><p>**キャンセル**：リクエストがユーザーによってキャンセルされました。</p></li><li><p>**Scheduled**：リクエストは、スケジュールに従って実行するように設定されます。</p></li><li><p>**失敗**：リクエストを完了できませんでした。 要求が引き続き失敗する場合は、カスタマーサポートにお問い合わせください。</p></li></ul> |
 
    {style="table-layout:auto"}
 
