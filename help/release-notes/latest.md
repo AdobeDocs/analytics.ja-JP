@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 88%
+source-wordcount: '1002'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouseの更新** | 次のData Warehouseが強化されました。<ul><li>Data Warehouseリクエストを作成する際に、組織内のすべてのユーザーがリクエストを使用できるようにするために、新しい切り替え ( [!UICONTROL **組織内のユーザーが利用できるようにする**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Data Warehouseレポートの宛先を作成または管理する際に、組織内のユーザーが作成したアカウントおよび場所をシステム管理者が表示できるようになりました。そのためには、 [!UICONTROL **すべての宛先を表示**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | 該当なし | 2024年1月10日（PT） |
+| **Data Warehouseの更新** | 次のData Warehouseが強化されました。<ul><li>Data Warehouseリクエストを作成する際に、組織内のすべてのユーザーがリクエストを使用できるようにするために、新しい切り替え ( [!UICONTROL **組織内のユーザーが利用できるようにする**].<p>詳しくは、 [Data Warehouseリクエストの一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Data Warehouseレポートの宛先を作成または管理する際に、組織内のユーザーが作成したアカウントおよび場所をシステム管理者が表示できるようになりました。そのためには、 [!UICONTROL **すべての宛先を表示**].<p>詳しくは、 [レポートの送信先の設定リクエストのData Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | 該当なし | 2024年1月10日（PT） |
 
 {style="table-layout:auto"}
 

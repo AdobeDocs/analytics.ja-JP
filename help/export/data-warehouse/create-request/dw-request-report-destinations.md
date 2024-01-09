@@ -3,9 +3,9 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2204'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ Data Warehouseレポートの送信先を設定するには：
 
 1. （条件付き）レポートの送信先として使用するアカウント（およびそのアカウントの宛先）が既に設定されている場合：
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. （オプション）システム管理者の場合、 [!UICONTROL **すべての宛先を表示**] オプションが使用可能です。 組織内の任意のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
 
    1. 次の中からアカウントを選択します： [!UICONTROL **アカウントを選択**] ドロップダウンメニュー。
 
