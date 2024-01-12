@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
+source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
 workflow-type: tm+mt
-source-wordcount: '4959'
-ht-degree: 97%
+source-wordcount: '4994'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,14 @@ ht-degree: 97%
 
 ## ドキュメントの主な更新の詳細
 
-### 2023 {#23}
+### 2024 {#24}
+
+| 機能 | 説明 |
+| --- | --- |
+| **2024年1月** | |
+| メディアの分平均オーディエンスドキュメントの更新 | の情報を更新しました。 [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 明確性を向上させるため。<p>改善点は次のとおりです。</p> <ul><li>情報の整理の改善</li><li>タスクに基づく情報を示す手順を追加しました。</li></ul> |
+
+### 2023年 {#23}
 
 | 機能 | 説明 |
 | --- | --- |
