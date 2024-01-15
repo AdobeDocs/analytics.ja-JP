@@ -2,8 +2,9 @@
 title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
+role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 81%

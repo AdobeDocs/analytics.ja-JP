@@ -2,11 +2,11 @@
 description: このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
 title: 検索方法
 feature: Admin Tools
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 97%
 
 ---

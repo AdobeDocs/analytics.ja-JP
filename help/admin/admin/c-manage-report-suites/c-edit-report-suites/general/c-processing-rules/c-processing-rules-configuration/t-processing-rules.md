@@ -3,11 +3,12 @@ description: 処理ルールはレポートスイートで設定されます。
 subtopic: Processing rules
 title: 処理ルールの作成
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: ht
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -28,4 +29,4 @@ ht-degree: 100%
 
    複数のルールがある場合、それらのルールをページにドラッグアンドドロップして処理順序を変更できます。
 
-   詳しくは、[処理ルールの例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)を参照してください。
+   詳しくは、 [処理ルールの例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) を参照してください。

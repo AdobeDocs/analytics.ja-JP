@@ -2,17 +2,18 @@
 title: 様々なボット除外方法の比較
 description: ボットを除外する様々な方法を比較できます。
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # 様々なボット除外方法の比較
 
-次の表に、ボットを除外する様々な方法と、ボットの積み重ね方を示します。
+次の表に、ボットを除外する様々な方法と、ボットの比較方法を示します。
 
 | メソッド | ボットルール | IP アドレスで除外 | 顧客属性 | セグメント化 | サードパーティのスコアリング + セグメンテーション | 実行時にボットのサーバー呼び出しを抑制 | カスタム DB VISTA ルール |
 | --- | --- | --- | --- | --- | --- | --- | --- |

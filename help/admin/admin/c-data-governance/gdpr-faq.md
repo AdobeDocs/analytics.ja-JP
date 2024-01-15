@@ -2,10 +2,11 @@
 description: Adobe Analytics のデータガバナンスに関する FAQ
 title: データガバナンスに関するよくある質問（FAQ）
 feature: Data Governance
+role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2042'
 ht-degree: 97%
 
 ---

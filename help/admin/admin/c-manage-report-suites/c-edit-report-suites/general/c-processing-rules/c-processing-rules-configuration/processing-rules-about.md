@@ -3,11 +3,12 @@ description: 処理ルールを使用して、定義した条件に基づいて�
 subtopic: Processing rules
 title: 処理ルールのしくみ
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 処理ルールを使用して、定義した条件に基づいてデータを変更できます。属性や値が定義した条件に一致する場合、値を設定および削除でき、イベントを設定できます。
 
-処理ルールはデータの収集時にデータに適用されます。また、ルールは、AppMeasurement ライブラリおよび Data Insertion API を介して取得されるすべてのデータに適用されます。処理ルールは、フルデータソースとログデータソースにも適用されます。これらのソースには、*`hit`* またはユーザーが実行するアクションが含まれています。処理ルールは他のデータソースには適用されません。
+処理ルールはデータの収集時にデータに適用されます。また、ルールは、AppMeasurement ライブラリおよび Data Insertion API を介して取得されるすべてのデータに適用されます。処理ルールは、フルデータソースとログデータソースにも適用されます。これらのソースには、 *`hit`* またはユーザーが実行するアクションが含まれます。 処理ルールは他のデータソースには適用されません。
 
 ## 重要な概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,7 +40,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、保存後すぐにレポートスイートに適用されます。 </p> </td> 
-   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">リアルタイムレポート</a>を設定して、処理ルールの結果をすばやく表示できるようにすることをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする場合は、 <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> リアルタイムレポート</a> をテストレポートスイートに追加して、処理ルールの結果をすばやく表示できるようにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、コンテキストデータ変数にアクセスする唯一の方法です。 </p> </td> 
@@ -62,12 +63,12 @@ ht-degree: 100%
    <td colname="col2"> <p>モバイルデバイスの参照は、処理ルールの前におこなわれますが、処理ルールで属性は使用できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 以前を実行している場合は、URL の最初の 255 文字を超えるクエリー文字列パラメーターを読み取ることはできません。JavaScript AppMeasurement H.25.3 以降では、処理ルールに対してすべてのクエリー文字列パラメーターを含む完全修飾 URL が提供されます。 </p> </td> 
-   <td colname="col2"> <p>H.25.3 以降へのアップグレードでは、長い URL のクライアントサイドからクエリー文字列パラメーターを読み取り、値を Context Data 変数に格納します。 </p> </td> 
+   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 以前を実行している場合は、URL の最初の 255 文字を超えるクエリ文字列パラメーターを読み取ることはできません。JavaScript AppMeasurement H.25.3 以降では、処理ルールに対してすべてのクエリ文字列パラメーターを含む完全修飾 URL が提供されます。 </p> </td> 
+   <td colname="col2"> <p>H.25.3 以降へのアップグレードでは、長い URL のクライアントサイドからクエリ文字列パラメーターを読み取り、値を Context Data 変数に格納します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>処理ルールで読み取れるように、クエリー文字列値を Unicode または UTF-8 でエンコードする必要があります。 </p> </td> 
-   <td colname="col2"> <p>これは、クエリー文字列を使用して渡されるマルチバイト文字に影響することがあります。 </p> </td> 
+   <td colname="col1"> <p>処理ルールで読み取れるように、クエリ文字列値を Unicode または UTF-8 でエンコードする必要があります。 </p> </td> 
+   <td colname="col2"> <p>これは、クエリ文字列を使用して渡されるマルチバイト文字に影響することがあります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>各レポートスイートでは、ルールの数は 150 個まで、ルールに含まれる条件の数は 30 個までに制限されます。 </p> </td> 

@@ -3,11 +3,12 @@ description: トラフィック分類では、トラフィック変数（prop）
 subtopic: Classifications
 title: トラフィック分類
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 トラフィック分類ページでは、選択したレポートスイートの分類を作成することができます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられた属性を使用して生成することもできます。
 
-分類を有効にした後、[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
+分類を有効にした後、 [分類インポーター](/help/components/classifications/importer/c-working-with-saint.md) をクリックして、該当する分類に特定の値を割り当てます。
 
 ## トラフィック分類の追加 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

@@ -2,10 +2,11 @@
 title: 一般的なボットの特徴
 description: ボットの共通識別子を認識します。
 feature: Bot Removal
+role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '521'
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---

@@ -2,11 +2,12 @@
 description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンをポップミュージック用語などのカテゴリに分類し、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関するそのカテゴリの成功を報告できます。
 title: コンバージョンの分類
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 96%
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
 
-分類を有効にした後、[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
+分類を有効にした後、 [分類インポーター](/help/components/classifications/importer/c-working-with-saint.md) をクリックして、該当する分類に特定の値を割り当てます。
 
 >[!WARNING]
 >

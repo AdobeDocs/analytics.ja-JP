@@ -1,12 +1,13 @@
 ---
-description: 送信する ID は、Analytics でデータ主体に関連付けることができるすべてのヒットデータを常にカバーしているわけではありません。Analytics では、ID のセットを拡張し、関連付けられているデータをデータプライバシー要求に含めることができます。このオプションを要求するには、送信する各データプライバシー要求に対するオプションのパラメーターを JSON 要求に追加します
+description: 送信する ID は、Analytics でデータ主体に関連付けることができるすべてのヒットデータを常にカバーしているわけではありません。Analytics では、ID のセットを拡張して、関連付けられているデータをデータプライバシー要求に含めることができます。
 title: ID 拡張
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 

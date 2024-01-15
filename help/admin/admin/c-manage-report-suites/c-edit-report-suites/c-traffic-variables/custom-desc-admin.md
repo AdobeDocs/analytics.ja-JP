@@ -2,10 +2,11 @@
 description: eVar、prop、分類およびイベントに対して、カスタムレポートの説明を入力できます。説明は、すべてのエンドユーザーに表示されます。
 title: カスタムレポートの説明
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '113'
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -29,8 +30,8 @@ eVar、prop、分類およびイベントに対して、カスタムレポート
 
 * 該当するレポートのタイトルバー：
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * 左側のナビゲーションでレポートの上にマウスカーソルを置いたときのツールチップ：
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

@@ -3,11 +3,11 @@ description: 処理ルールは、コンテキストデータ変数の値を pro
 subtopic: Processing rules
 title: コンテキストデータ変数の eVar へのコピー
 feature: Admin Tools
-uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
+role: Admin
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '229'
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
