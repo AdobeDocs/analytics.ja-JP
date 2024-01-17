@@ -4,9 +4,9 @@ description: 入口に対するヒットが 1 つだけある訪問の割合。
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 93%
 
 ## この指標の計算方法
 
-この指標は、数式を使用して計算されます [バウンス](bounces.md) ～で割られる [入口](entries.md).
+この指標は、数式「[バウンス](bounces.md)[入口](entries.md)」を使用して計算されます。
