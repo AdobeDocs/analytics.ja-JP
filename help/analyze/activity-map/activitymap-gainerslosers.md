@@ -4,10 +4,10 @@ title: カスタマイズ可能なオーバーレイ
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 オーバーレイを使用すると、複数の方法でデータの視覚化を設定できるので、ページ上のリンクの人気度を簡単に確認して把握できます。
 
-オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。これが、Activity Map のような視覚的分析ツールと Reports &amp; Analytics のような主に表やグラフィックを使用するツールとの違いです。
+オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。
 
 Activity Map では次の 3 つのタイプのオーバーレイが提供されています。
 
@@ -29,7 +29,7 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 オーバーレイにカーソルを合わせると、その[詳細](/help/analyze/activity-map/activitymap-overlay-details.md)が表示されます。
 
-## グラデーションオーバーレイ（ヒートマップ）  {#section_06AF13DE05A1454D960176CD0DA921A6}
+## グラデーションオーバーレイ（ヒートマップ） {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 グラデーションオーバーレイでは、色の強度はリンクの人気度に基づきます。この強度は、上位 30 件、または指標絶対値の関数に合わせて標準化できます。
 

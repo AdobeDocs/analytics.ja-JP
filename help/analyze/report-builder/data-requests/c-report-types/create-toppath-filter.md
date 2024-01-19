@@ -4,10 +4,10 @@ title: 依存リクエストの追加によるパスレポートのフィルタ�
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 85%
 
 事前定義済みのフィルターを使用してパスレポートを作成する方法について説明します。
 
-Reports &amp; Analytics には、[!UICONTROL 次]および[!UICONTROL 前のサイトセクション]レポート、入口および[!UICONTROL 出口サイトセクション]レポート、[!UICONTROL 単一サイトセクション]レポートなど、事前定義済みのフィルターが適用されたトップパスレポートであるスタンドアロンレポートがいくつか用意されています。
-
-Report Builder ではこれらはスタンドアロンレポートとしては提供されていませんが、コンテキストメニューで、**[!UICONTROL 依存リクエストを追加]**／**[!UICONTROL パス]**&#x200B;を選択してこれらを作成できます。次のレポートを使用できます。
+Report Builderでは、パスレポートはスタンドアロンレポートとして提供されませんが、 **[!UICONTROL 依存リクエストを追加]** > **[!UICONTROL パス]** コンテキストメニュー。 次のレポートを使用できます。
 
 * パス／ページのフォールアウト
 * パス／入口パス
@@ -29,7 +27,7 @@ Report Builder ではこれらはスタンドアロンレポートとしては�
 * パス／入口パス／入口ページ
 * パス／離脱パス／出口ページ
 
-1. 既存のリクエストから複数行を選択し、右クリックして、**[!UICONTROL 依存リクエストを追加]**／**[!UICONTROL パス]**&#x200B;を選択します表示する行を 3 つ以上選択する必要があります。 **[!UICONTROL ページフォールアウト]** メニュー項目。
+1. 既存のリクエストから複数の行を選択し、右クリック **[!UICONTROL 依存リクエストの追加]** > **[!UICONTROL パス]**. 表示する行を 3 つ以上選択する必要があります。 **[!UICONTROL ページフォールアウト]** メニュー項目。
 
    ![「依存リクエストを追加」オプションが選択された 3 つの行が表示されたスクリーンショット。](assets/dependen_request.png)
 

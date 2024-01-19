@@ -4,10 +4,10 @@ title: インテリジェントアラートの概要
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 83%
 
 ---
 
@@ -19,23 +19,22 @@ ht-degree: 100%
 
 ## 概要
 
-Analysis Workspace の新しいアラートビルダーおよびアラートマネージャーは、Reports &amp; Analytics の既存のアラート機能を置き換えます。インテリジェントアラートを使用すると、次のことができます。
+Analysis Workspaceの新しいアラートビルダーとアラートマネージャーは、提供が終了した Reports &amp; Analytics のアラート機能を置き換えます。 インテリジェントアラートを使用すると、次のことができます。
 
 * 異常値（90％、95％、99％、99.75％、99.9％のしきい値、変化率、超過／未満）に基づいてアラートを構築
 * アラートがトリガーされる頻度のプレビュー
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成
 
-アラートビルダーにアクセスするには、次の 4 つの方法があります。
+アラートビルダーにアクセスする方法は 3 つあります。
 
 | 方法 | 詳細 |
 | --- | --- |
 | アラートビルダーに直接移動 | **[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]** |
 | Workspace でキーボードショートカットを使用 | `Ctrl + Shift + A`（Windows）または `Cmd + Shift + A`（Mac） |
 | 1 つ以上のフリーフォームテーブル行項目を選択 | 右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択します。これにより、[!UICONTROL アラートビルダー]が開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![選択からアラートを作成](assets/create-alert-from-selection.png) |
-| Reports &amp; Analytics レポート内から | **[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動します。これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![アラートの追加](assets/add-alert.png) |
 
-パーセントしきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
+パーセントしきい値は標準偏差です。例えば、95％ = 2 標準偏差、99％ = 3 標準偏差です。選択した時間の精度に応じて、 [異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) は、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）を計算するために使用されます。 しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
 
 >[!IMPORTANT]
 >

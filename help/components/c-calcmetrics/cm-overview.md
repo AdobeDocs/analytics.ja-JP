@@ -4,10 +4,10 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 88%
+source-wordcount: '564'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
 * Adobe [!DNL Analytics] Foundation：計算指標
-* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標        + 高度な計算指標
+* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算済み+高度な計算済み
 * [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
@@ -38,8 +38,8 @@ ht-degree: 88%
 
 次のことが可能です。
 
-* [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成します。
-* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらはセグメントに基づいているため、時系列で表示できます。
+* 次をまたいで指標を作成： [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL 異常値検出]、および [!UICONTROL 貢献度分析].
+* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
@@ -54,7 +54,6 @@ ht-degree: 88%
 
 一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
 
-* [!UICONTROL Reports &amp; Analytics] の[!UICONTROL ファネル]
 * [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
@@ -103,7 +102,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td colname="col1"> 指標セレクターレール </td> 
-   <td colname="col2"> <p><span class="uicontrol">Reports &amp; Analytics</span> の<span class="uicontrol">指標を表示</span>ポップアップを置き換えます。 </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >並べ替え</a>順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p><span class="uicontrol">Reports &amp; Analytics</span> の<span class="uicontrol">指標を表示</span>ポップアップを置き換えます。 </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > 並べ替え</a> 順序（オプション：アルファベット順、推奨、頻繁に使用、最近使用） さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算指標の API</a> </td> 

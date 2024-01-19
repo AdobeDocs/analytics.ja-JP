@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 84%
 * Web サイトやアプリケーションでのカスタマージャーニーをビジュアライズする
 * 入口、特定のディメンション、出口など、指定したチェックポイントの前後で顧客がどこに移動するかを分析する
 * 選択したパスの特定のポイントを指定することで、セグメントを作成する
-
->[!NOTE]
->
->Analysis Workspace と Reports &amp; Analytics でのフローへのセグメントの適用結果の違いについて詳しくは、「[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)」を参照してください。
 
 以下は、フロービジュアライゼーションに関するビデオチュートリアルです。
 

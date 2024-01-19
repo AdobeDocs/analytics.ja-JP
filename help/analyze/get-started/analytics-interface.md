@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
-source-wordcount: '2816'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
 
 ## 「レポート」タブ
 
-2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。
-
-代わりに、「[!UICONTROL **ワークスペース**]」タブの左側のパネルにある&#x200B;[!UICONTROL **レポート**]&#x200B;領域を使用します。詳しくは、[Adobe Analytics ランディングページ](/help/analyze/landing.md)の&#x200B;*「レポート」タブの移動*&#x200B;を参照してください。
+以下を使用します。 [!UICONTROL **レポート**] の左側のパネルの [!UICONTROL **Workspace**] タブをクリックします。 詳しくは、[Adobe Analytics ランディングページ](/help/analyze/landing.md)の&#x200B;*「レポート」タブの移動*&#x200B;を参照してください。
 
 ## 「コンポーネント」タブ
 
@@ -52,13 +50,11 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | 日付範囲 | Analysis Workspace には、ユーザーが分析を作成する際に使用できるデフォルトの日付範囲のリストが含まれています。さらに、カスタム日付範囲を作成し、Analysis Workspace でユーザーが使用できるようにすることもできます。 | [カスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 仮想レポートスイート | 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。 | [仮想レポートスイートの概要](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) |
    | アラート | インテリジェントアラートにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。 | [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) |
-   | ターゲット | ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。ターゲットを作成する場合は、測定する属性指標や eVar を選択するか、選択した指標を使ってサイト全体を測定します。 <p>ターゲットは、Reports &amp; Analytics に含まれます。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://express.adobe.com/page/6WnF8JK6IRDhf/)を参照してください。</p> | [ターゲット](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=ja) |
    | カレンダーイベント | 時間の経過と共にトレンドを示すレポートの場合、イベントをビジュアルに表示し、キャンペーンやその他のイベントがサイトトラフィックや収益、その他の指標に影響を与えたかどうかを確認できます。 | [カレンダーイベント](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=ja) |
    | 注釈 | Analysis Workspace の注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。カレンダーイベントを特定のディメンションや指標に関連付けることができます。 | [注釈を管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=ja) |
    | 分類セット | 分類セットは、分類とルールを管理するための単一のインターフェイスを提供します。 <p>分類とは、Analytics 変数データをカテゴリーにまとめ、レポートを生成する際に様々な方法でデータを表示する手法です。変数値とその値に関連するメタデータとの間の関係を確立します。分類は、トラッキングコード、prop、eVar など、ほとんどのカスタムディメンションで使用できます。</p> | [分類セットの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja) |
    | 場所 | Adobe Analytics 分類データをクラウドの宛先から読み込むには、最初に分類データを収集する場所を追加して設定する必要があります。場所は、作成、編集または削除できます。 | [場所マネージャー](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=ja) |
    | スケジュールされたプロジェクト | スケジュールされたプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除したり、検索バーまたは左側のパネルのフィルターオプションを使用してスケジュールを検索したり、タグ、承認済みスケジュール、所有者などでフィルタリングしたりできます。 | [スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md) |
-   | ブックマーク | ブックマークを使用すると、よく使用するレポートにすばやくアクセスできます。作成したブックマークは、Experience Cloud に保存され、Data Connectors などの統合機能で使用できます。 <p>ブックマークは、Reports &amp; Analytics に含まれます。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://express.adobe.com/page/6WnF8JK6IRDhf/)を参照してください。 | [ブックマークマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=ja) |
    | ダッシュボード | ダッシュボードを作成すると、指標を視覚化し、データのインタラクティブな分析機能を提供できます。ダッシュボード内の項目をクリックすると、データを迅速かつ簡単にセグメント化し、分析から情報を引き出すことができます。 <p>ダッシュボードは、Data Workbench に含まれます。詳しくは、Data Workbench の[提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。 | [ダッシュボードマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html?lang=ja) |
    | 予定レポート | 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。 | [予定レポートキュー](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html?lang=ja) |
    | レポート設定 | これらの設定は、Analytics Workspace とその関連コンポーネントを除く、従来の Adobe Analytics 製品に適用されます。Analysis Workspace の設定を調整するには、コンポーネント／環境設定に移動します。 |  |
@@ -118,16 +114,13 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | Advertising Analytics | すべての Google および Bing 有料検索データを並べて表示するように Adobe Analytics を設定します。 | [Advertising Analytics の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=ja) |
    | データフィード | データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 | [Analytics データフィードの概要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) |
    | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。 | [IP アドレスで除外](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ja) |
-   | パブリッシングウィジェット | Reports &amp; Analytics のビジュアライゼーションを web ページに埋め込むことができます。 <p>2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。</p><p>この機能の代替として、ログインを必要とせずに[プロジェクトを任意のユーザーと共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja#share-public-link)できるようになりました。</p> <p>管理者は、[会社の環境設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=ja#company-preferences)でこの機能を設定できます</p> |  |
    | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja) |
    | データガバナンスプライバシーのラベル付け | レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。 | [レポートスイートのデータのラベル設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=ja) |
    | 会社設定ホーム | カンパニー設定ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。 | [会社設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ja) |
    | セキュリティマネージャー | セキュリティマネージャーを使用すると、レポートデータへのアクセスを管理できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 | [セキュリティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=ja) |
-   | サポート情報 | サポート情報ページでは、Reports &amp; Analytics 全体に表示されるサポート情報を管理します。Reports &amp; Analytics. <p>2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。</p> |  |
    | Web サービス | Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。 | [Web サービス](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=ja) |
    | Report Builder レポート | Report Builder ユーザーに割り当てられたライセンスを管理します。 | [Report Builder レポート](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=ja) |
    | シングルサインオンサービス | Adobe Experience Cloud のシングルサインオンは、Admin Console を通じて実装されます。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
-   | Adobe Experience Cloud のブランド提携 | ブランド提携画像の管理ページを使用すると、Reports &amp; Analytics のダウンロードしたレポートとレガシーダッシュボードに会社のロゴを表示できます。ブランド提携は、Analysis Workspace では使用されません。<p>2023年12月31日（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。</p> | [ブランド提携](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=ja) |
    | レポートスイートを非表示 | レポートスイートを自分とユーザーが使用できないようにする場合、Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。 | [レポートスイートを非表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=ja) |  |
 
    {style="table-layout:auto"}

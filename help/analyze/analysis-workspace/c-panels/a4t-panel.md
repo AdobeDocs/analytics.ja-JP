@@ -4,10 +4,10 @@ title: Analytics for Target（A4T）パネル
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 87%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Analytics for Target パネルは、豊富なデータとビジュアライゼ�
 | コンバージョン率 | 成功指標/標準化指標 |
 | 上昇率 | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。注：上昇率は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。分類したり、他のディメンションで使用したりすることはできません。 |
 | 上昇率 (下限) | バリアントエクスペリエンスがコントロールに対して持つ可能性のある最悪の上昇率を 95% の信頼区間で表します。<br>詳しくは、 [統計指標](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) および [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel ファイルを参照してください。 |
-| 上昇率 (中間) | 95% の信頼区間において、コントロールのバリアントエクスペリエンスで使用できる上昇率の中央値を表します。これは、Reports &amp; Analytics の「リフト」です。<br>詳しくは、 [統計指標](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) および [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel ファイルを参照してください。 |
+| 上昇率 (中間) | 95% の信頼区間において、コントロールのバリアントエクスペリエンスで使用できる上昇率の中央値を表します。<br>詳しくは、 [統計指標](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) および [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel ファイルを参照してください。 |
 | 上昇率 (上限) | バリアントエクスペリエンスがコントロールに対して持つ可能性のある最高の上昇率を 95% の信頼区間で表します。<br>詳しくは、 [統計指標](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) および [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel ファイルを参照してください。 |
 | 信頼性 | 学生 t テストは信頼性レベルを計算します。これは、テストを再度実行した場合に結果が重複する可能性を示しています。75%／85%／95%という固定の条件付き書式が指標に適用されました。この形式設定は、必要に応じて列設定の下でカスタマイズできます。注 ：信頼性は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。<br>詳しくは、 [統計指標](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) および [Complete Confidence Calculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel ファイルを参照してください。 |
 

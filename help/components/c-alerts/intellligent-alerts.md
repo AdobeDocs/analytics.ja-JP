@@ -3,10 +3,10 @@ description: インテリジェントアラートシステムにより、アラ�
 title: インテリジェントアラート
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 アラートシステムのコンポーネントには、アラートビルダー、アラートマネージャー、アラートプレビュー、アラート作成への強化されたコンテキスト内アクセスなどが含まれます。古いアラートシステムユーザーインターフェイスは使用できなくなりますが、アラートは移行されます。一部のレガシーアラート機能は、[使用できなくなりました](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ja)。
 
-アラートビルダーにアクセスするには、次の 4 つの方法があります。
+アラートビルダーにアクセスする方法は 3 つあります。
 
 * Analysis Workspace で以下のショートカットを使用する。
 
@@ -43,13 +43,10 @@ ht-degree: 100%
 
   ![](assets/create-alert-from-selection.png)
 
-* [!UICONTROL Reports &amp; Analytics] レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
 
-  ![](assets/add-alert.png)
+## FAQ：アラートが計算およびトリガーされる仕組み {#trigger}
 
-## FAQ：アラートが計算およびトリガーされる仕組み {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-% しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90％など）を設定すると、高いしきい値（99％など）を設定した場合よりも多くの異常値が取得されます。99.75％と 99.99％のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
+% しきい値は標準偏差です。例えば、95％ = 2 標準偏差、99％ = 3 標準偏差です。選択した時間の精度に応じて、 [異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) は、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）を計算するために使用されます。 低いしきい値（90％など）を設定すると、高いしきい値（99％など）を設定した場合よりも多くの異常値が取得されます。99.75％と 99.99％のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 

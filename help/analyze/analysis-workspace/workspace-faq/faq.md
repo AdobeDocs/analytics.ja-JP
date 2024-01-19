@@ -4,10 +4,10 @@ title: よくある質問と Workspace のトラブルシューティング
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 +++
 
 +++Analysis Workspace は Adobe Analytics の事前設定済みレポートを変更しますか？
-いいえ。環境が異なるので、Adobe Analytics の既存のレポートや事前設定されたレポートは変更されません。Analysis Workspace を使用する際も、標準の Reports &amp; Analytics および Report Builder のレポートを使用できます。
+いいえ。環境が異なるので、Adobe Analytics の既存のレポートや事前設定されたレポートは変更されません。Analysis Workspaceを使用して、標準のReport Builderレポートを引き続き使用できます。
 +++
 
 +++Data Warehouse に Analysis Workspace を使用できますか？

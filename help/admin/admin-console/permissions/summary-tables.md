@@ -3,9 +3,9 @@ title: Adobe Analytics 権限 - 概要テーブル
 description: Adobe Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ ht-degree: 98%
 | 異常値検出 |  | x |  |  | Analysis Workspace の異常値検出へのアクセスを許可します。 |
 | 貢献度分析 |  | x |  |  | Analysis Workspace の右クリックメニュー「貢献度分析を実行」へのアクセス権を付与します。 |
 | カスタム Data Warehouse レポート |  | x |  |  | Analytics のトップナビゲーションでツール／Data Warehouse へのアクセスを許可します。 |
-| ボットページ |  |  | x |  | Reports &amp; Analytics のサイト指標／ボット／ボットページレポートへのアクセスを許可します。 |
-| ボット |  |  | x |  | Reports &amp; Analytics のサイト指標／ボット／ボットレポートへのアクセスを許可します。 |
-| チャネルレポート |  |  | x |  | Reports &amp; Analytics のマーケティングチャネル／チャネル概要レポートへのアクセスを許可します。 |
-| 日別再来訪 |  |  | x |  | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
-| 推奨レポート |  |  | x |  | Reports &amp; Analytics のサイト指標／マイ推奨レポートへのアクセスを許可します。 |
-| リアルタイムレポート |  |  | x |  | Reports &amp; Analytics のサイト指標／リアルタイムへのアクセスを許可します。このレポートを設定するアクセス権を付与するには、権限項目「リアルタイムレポート設定」を使用します。 |
-| 再来訪 |  |  | x |  | Reports &amp; Analytics で、訪問者保持率／再来訪へのアクセスを許可します。 |
 | Advertising Analytics 設定 |  |  |  | x | 未使用。 |
 | 会社概要レポートレット |  |  |  | x | 未使用。 |
 | Data Warehouse |  |  |  | x | 未使用。代わりに、「カスタム Data Warehouse レポート」を使用します。 |
@@ -94,7 +87,7 @@ ht-degree: 98%
 | 他のユーザーとプロジェクトリンクを共有 | x |  |  |  | Workspace プロジェクトの下にある全員と共有する/共有/他のユーザーと共有に対するユーザーへのアクセス権を付与します。 |
 | Activity Map |  | x |  |  | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
 | Ad Hoc Analysis ライセンスユーザー |  | x |  |  | Ad Hoc Analysis のサポートは終了しました。[詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
-| Analysis Workspace アクセス |  | x |  |  | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
+| Analysis Workspace アクセス |  | x |  |  | Analysis Workspaceへのアクセスを許可します。 |
 | Analysis Workspace：テンプレートとして保存 |  | x |  |  | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
 | 計算指標の作成 |  | x |  |  | すべての Analytics 機能で計算指標を作成する機能を付与します。 |
 | ラボのアクセス |  | x |  |  | ラボへのアクセスを許可します。 |
@@ -102,8 +95,6 @@ ht-degree: 98%
 | セグメントの作成 |  | x |  |  | すべての Analytics 機能でセグメントを作成および共有する機能を付与します。 |
 | セグメント公開 |  | x |  |  | セグメントの作成時または編集時に、セグメントを Experience Cloud オーディエンスにする機能を付与します。 |
 | Web サービスへのアクセス |  | x |  |  | サードパーティサイトとの認証や API 呼び出しの送信を含め、API を使用する機能を許可します。 |
-| 現在のデータ |  |  | x |  | Reports &amp; Analytics レポートで現在のデータを表示するオプションを有効にします。 |
-| Reports &amp; Analytics アクセス |  |  | x |  | Reports &amp; Analytics へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループまたは Analysis Workspace アクセス（推奨）に属している必要があります。 |
 | Advertising Analytics 管理 |  |  |  | x | 未使用。 |
 | ブランド提携 |  |  |  | x | 廃止。管理者／すべての管理者／会社設定／ブランド提携へのアクセス権を付与します。 |
 | Excel ライセンスユーザー |  |  |  | x | 未使用。 |

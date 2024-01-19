@@ -3,10 +3,10 @@ description: レポートスイートタイプの説明とグローバルレポ�
 title: レポートスイートのアプローチ
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] はロールアップレポートをサポートする唯一のツールであり、アドビではロールアップの使用を推奨しなくなりました。代わりに、グローバルレポートスイートをマルチスイートタグ付けまたは仮想レポートスイートとともに使用することを検討してください。
-
-ロールアップレポートは、重複排除やセグメントまたはデータの分類を使用せずに、複数のレポートスイートからのデータを単純に集計したものです。ロールアップにはコードの実装は必要ありません。ロールアップレポートを使用するには、[子レポートスイートを実装](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)してから、[!UICONTROL 管理ツール]を使用して[ロールアップレポートに結合](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)します。
-
-ロールアップレポートは無料です。子レポートスイートには、独自のサーバーコールが発生しますが、ロールアップには追加のコールは発生しません。ロールアップはレガシー機能で、多くの制限があります。
+>[!DNL Reports & Analytics] は、ロールアップレポートをサポートする唯一のツールです。 Reports &amp; Analytics は、2024 年 1 月 17 日に提供終了となりました。
 
 ### ロールアップレポートの制限事項 {#limitations-rollups}
 
@@ -80,6 +76,6 @@ ht-degree: 96%
 
 **レポート**：グローバルレポートスイートではすべてのディメンションに関する情報が得られるのに対して、ロールアップでは上位レベルのレポートに関する集計データのみが得られます。
 
-**サポート対象製品**：ロールアップは Reports &amp; Analytics でのみ使用できます。これらは、Analysis Workspace や Data Warehouse ではサポートされていません。グローバルレポートスイートは、すべての製品で使用できます。
+**サポート対象製品**：ロールアップは Reports &amp; Analytics でのみ使用できました。 これらは、Analysis Workspace や Data Warehouse ではサポートされていません。グローバルレポートスイートは、すべての製品で使用できます。
 
 **集計レポートスイートの数**：ロールアップでサポートされる子レポートスイートは 40 個までです。グローバルレポートスイートは、所有している任意の数のドメインまたはアプリケーションに実装できます。

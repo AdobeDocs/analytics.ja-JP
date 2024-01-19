@@ -4,9 +4,9 @@ title: 成功イベントの設定
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 100%
 
    | 設定 | 表示 | 非表示 |
    |---------|----------|---------|
-   | [!UICONTROL **すべての場所で表示**] | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> | 該当なし |
-   | [!UICONTROL **ビルダー**] | <ul><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **すべての場所で非表示**] | 該当なし | <ul><li>Reports &amp; Analytics（メニューと指標セレクター）</li><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> |
+   | [!UICONTROL **すべての場所で表示**] | <ul><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> | 該当なし |
+   | [!UICONTROL **ビルダー**] | <ul><li>セグメントビルダー</li><li>計算指標ビルダー</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **すべての場所で非表示**] | 該当なし | <ul><li>Analysis Workspace</li><li>セグメントビルダー</li><li>計算指標ビルダー</li></ul> |
 
 1. 説明を入力します。
 1. イベントを常に記録するかどうかを選択します。

@@ -3,10 +3,10 @@ title: Adobe Analytics の製品プロファイル
 description: 製品管理者が組織内のユーザーに割り当てる権限プリセットとして製品プロファイルを使用する方法について説明します。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 Adobe Analytics にアクセスするためには、製品プロファイルで最低限、次の権限が必要となります。
 
 * 製品プロファイルは、少なくとも 1 つのレポートスイートにアクセスできる必要があります
-* 製品プロファイルは、Analytics ツール権限項目の **Analysis Workspace Access**（または **Reports &amp; Analytics Access**）に属している必要があります
+* 製品プロファイルは、Analytics ツール権限項目に属している必要があります **Analysis Workspace Access**.
 
 ### レポートスイート
 
@@ -40,13 +40,13 @@ Analytics 組織に属するレポートスイートへのアクセスを許可�
 
 ### 指標
 
-レポートスイート内の指標へのアクセスを許可します。指標は、Analysis Workspace のそれぞれのコンポーネントにリストされるか、Reports &amp; Analytics で指標を利用できる場合はサイト指標のメニュー項目として利用できます。
+レポートスイート内の指標へのアクセスを許可します。指標は、Analysis Workspaceでそれぞれのコンポーネントとして表示されます。
 
 レポートスイートから独立させるため、カスタム指標には「カスタムイベント 1 ～ 1000」というラベルが付けられます。「カスタムイベント 1」が有効な権限項目である場合、そのユーザーは製品プロファイル内のすべてのレポートスイートの event1 にアクセスできます。
 
 ### ディメンション
 
-レポートスイートのディメンションへのアクセスを許可します。ディメンションは、Analysis Workspace のそれぞれのコンポーネントにリストされるか、Reports &amp; Analytics でディメンションを利用できる場合はメニュー項目として利用できます。
+レポートスイートのディメンションへのアクセスを許可します。Dimensionは、Analysis Workspaceでそれぞれのコンポーネントとして表示されます。
 
 eVar などのカスタム変数には、レポートスイートから独立させるため、「カスタムコンバージョン 1 ～ 250」というラベルが付けられます。「カスタムコンバージョン 1」が有効な権限項目である場合、そのユーザーは製品プロファイル内のすべてのレポートスイートの eVar1 にアクセスできます。
 
