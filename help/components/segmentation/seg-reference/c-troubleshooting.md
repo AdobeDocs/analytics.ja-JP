@@ -3,9 +3,9 @@ description: セグメントに関する問題のトラブルシューティン�
 title: セグメント化のトラブルシューティング
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 100%
 考えられる理由は次のとおりです。
 
 * Data Warehouse でのみ使用可能で、セグメントマネージャでは使用できないディメンションがある。
-* セグメントに Reports &amp; Analytics との互換性がない。
 * セグメントが特定のレポートスイートに対してのみチェックされている。
 * 共有セグメントが別のユーザーによって削除されている。
 * データセンターまたはブラウザーキャッシュの問題により、セグメントの読み込みができなかった。

@@ -4,10 +4,10 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 81%
+source-wordcount: '542'
+ht-degree: 58%
 
 ---
 
@@ -58,55 +58,15 @@ ht-degree: 81%
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]
-* [!UICONTROL リアルタイムレポート]
-* [!UICONTROL 現在のデータレポート]
 * [!DNL Analytics] for [!DNL Target]
 
 ## ツール {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 以下に、 [!UICONTROL 計算指標] ツール：
 
-<table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ツール </th> 
-   <th colname="col2" class="entry"> 機能 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > 計算指標ビルダー</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
-     <li id="li_A4A6E716374243A190C539A3F4A41C0C">高度な配分モデルを使用した計算指標および高度な計算指標を作成する。 </li> 
-     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">指標の数式にセグメントをインラインで追加する。 </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">同じレポート内のセグメントを比較する。例えば、各地域における訪問者と海外での訪問者を比較します。 </li> 
-     <li id="li_4B528FDE1F96400DBA0D3276408FF919">統計関数を使用する。 </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">指標の詳細な説明を指定する（指標の用途や指標を使用する（または使用しない）場所を示します）。 </li> 
-     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">新しい指標に定義をコピーする。 </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">インラインで指標をプレビューする。 </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">指標の両極性を設定する。これは、指定されたカスタムイベント（指標）が発生した場合に、それが良いか悪いかを示します。 </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">指標にタグ付けする。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > 計算指標マネージャ</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
-     <li id="li_E0B216BA1478406EB6212263DF71D85B">他のユーザーと指標を共有する。 </li> 
-     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">指標を承認して管理する。 </li> 
-     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">ユーザーが検索しやすいように指標を管理（タグ付け）する。 </li> 
-     <li id="li_726F3C3390744E49BA63606FE196880E">指標を削除する。 </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">指標の名前を変更する。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 指標セレクターレール </td> 
-   <td colname="col2"> <p><span class="uicontrol">Reports &amp; Analytics</span> の<span class="uicontrol">指標を表示</span>ポップアップを置き換えます。 </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  > 並べ替え</a> 順序（オプション：アルファベット順、推奨、頻繁に使用、最近使用） さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算指標の API</a> </td> 
-   <td colname="col2"> <p>Adobe Analytics 2.0 API セットの一部。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| ツール | 機能 |
+|--- |--- |
+| 計算指標ビルダー | <ul><li>高度な配分モデルを使用した計算指標および高度な計算指標を作成する。</li><li>指標の数式にセグメントをインラインで追加する</li><li>同じレポート内のセグメントを比較する。例えば、各地域における訪問者と海外での訪問者を比較します。</li><li>統計関数の使用</li><li>詳細な指標の説明を入力します（指標の内容、使用場所、使用しない場所を表示します）。</li><li>新しい指標への定義のコピー</li><li>インライン指標のプレビューを提供する</li><li>指標の極性を設定します。これは、特定のカスタムイベント（指標）が上昇する場合に、それが良いか悪いかを示します。</li><li>指標のタグ付け</li></ul> |
+| 計算指標マネージャ | <ul><li>他のユーザーとの指標の共有&lt;/li><li>指標の承認とキュレーション</li><li>指標を整理（タグ付け）して、顧客が見つけられるようにします</li><li>指標の削除</li><li>指標の名前を変更</li></ul> |
+| 指標セレクターレール | レポートで指標を検索し、追加したり、レポートに適用したりできます。 並べ替え順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。 また、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標のみを表示することもできます。  この指標セレクターにアクセスするには、レポートの左側にある指標アイコンをクリックします。 |
+| 計算指標の API | Adobe Analytics 2.0 API セットの一部。 |

@@ -3,10 +3,10 @@ description: 詳細
 title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 73%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ ht-degree: 73%
 
 この例では、ヒット 7 で $10 の購入が行われる前に、値 A、B、C がヒット 1、3、4、6 の変数に送信されました。2 番目の行では、ラストタッチでの訪問がベースとなり、ヒット全体に値が持続されています。3 番目の行では、ファーストタッチでの訪問が持続されていることがわかります。最後の行には、持続性のない prop に記録されるデータの内容が示されています。
 
-## Reports &amp; Analytics と Workspace での線形配分の動作の違い
-
-この 2 つのツール間での線形アトリビューションの動作には、いくつかの違いがあります。
-
-* Reports &amp; Analytics では、（処理された）線形アトリビューションは常に訪問ベースですが、Workspace では訪問ベースまたは訪問者ベースになります。
-* Reports &amp; Analytics では、訪問の最初のヒットで値が渡されなかった場合、（初期）値は以前の訪問から保持されます。Workspace（アトリビューション）では、このようにはなりません。 訪問の最初のヒットで値が渡されない場合、「なし」が初期値になります。

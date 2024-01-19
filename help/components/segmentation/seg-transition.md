@@ -3,10 +3,10 @@ description: レガシーセグメントの管理に関するよくある質問 
 title: レガシーセグメントに関するよくある質問 (FAQ)
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 91%
 
 +++ **既存のセグメントへの影響**
 
-既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。[こちら](/help/components/segmentation/seg-transition.md)を参照してください。
+既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。[さらに詳しく...](/help/components/segmentation/seg-transition.md)
 
-従来の事前定義されたスイートセグメントは、ほとんどがセグメントテンプレートとしてセグメントビルダーに移行されます。セグメントテンプレートは、一般的な閲覧者を含むカスタムセグメントをすばやく作成するために部品として利用できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
+以前の事前定義済みおよびスイートセグメントのほとんどは、セグメントテンプレートとしてセグメントビルダーに移行します。 セグメントテンプレートは、一般的な閲覧者を含むカスタムセグメントをすばやく作成するために部品として利用できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
 
 セグメントテンプレートは、セグメントビルダーに特別なアイコン付きで表示されます。
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 +++ **Data Warehouseセグメントへの影響**
 
-既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。また、ほとんどの Data Warehouse セグメントは、Analysis Workspace、Reports &amp; Analytics などの他のコンポーネントでも機能します。
+既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis Workspaceなどの他のコンポーネントでも機能します。
 
 新しい Data Warehouse セグメントは、セグメントビルダーとセグメントマネージャで作成または編集できます。セグメントビルダーの製品の互換性メカニズムは、セグメントが Data Warehouse と互換性があるかどうかを自動的に判定します。
 
@@ -103,7 +103,7 @@ ht-degree: 91%
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-*  [ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
+* 次に従ったセグメントのタグ付け [ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -144,7 +144,7 @@ ht-degree: 91%
 | 訪問の深さ | パスの長さ | - |
 | 郵便番号 | 郵便番号 | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 既知の値を持つ文字列ベースのディメンションの変更 {#string-based-dims}
 

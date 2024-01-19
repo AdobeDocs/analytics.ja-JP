@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3be3de8c24e48f5ecddd37ff6d3cbcf64bca3209
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 74%
+source-wordcount: '1318'
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 
 ## レポート時間処理の制限事項
 
-レポート時間処理は、従来の Analytics レポートで使用できるすべての指標とディメンションをサポートしているわけではありません。レポート時間処理を使用する仮想レポートスイートには Analysis Workspace からのみアクセスでき、[!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、データフィードおよびレポート API からはアクセスできません。
+レポート時間処理は、従来の Analytics レポートで使用できるすべての指標とディメンションをサポートしているわけではありません。レポート時間処理を使用する仮想レポートスイートにはAnalysis Workspaceからのみアクセスでき、Data Warehouse、Report Builder、データフィードまたはレポート API からはアクセスできません。
 
 また、レポート時間処理では、レポートの日付範囲（以下、「日付ウィンドウイング」と呼びます）内のデータのみが処理されます。したがって、レポートの日付範囲の前に「無期限」に設定された訪問者の eVar の値はレポート期間に持ち越されず、レポートには表示されません。また、顧客の忠誠度もレポートの日付範囲内に存在するデータのみに基づいて測定され、レポートの日付範囲の前に存在する履歴は無視されます。
 
@@ -66,7 +66,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 * [**再来訪頻度**](/help/components/dimensions/return-frequency.md)
 * [**単一アクセス**](/help/components/metrics/single-access.md)
 * **トランザクション ID データソース**
-* [**訪問数**](/help/components/dimensions/visit-number.md)
+* [**訪問回数**](/help/components/dimensions/visit-number.md)
 
 ## 影響を受けるディメンションと指標
 
@@ -81,7 +81,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
    * [**ユニーク訪問者指標：**](/help/components/metrics/unique-visitors.md)&#x200B;ユニーク訪問者には、レポートの日付範囲でバックグラウンドヒットのみを行った訪問者は含まれません。
 * [**訪問回数：**](/help/components/metrics/visits.md)&#x200B;訪問回数には仮想レポートスイートで定義されているすべての設定が反映されます。これらの設定はベースレポートスイートと異なる場合があります。
 * **イベント ID が付くシリアル化されたイベント：**&#x200B;イベント ID が付くイベントのシリアル化を使用するイベントは、訪問者のレポート日付範囲内で発生したイベントに対してのみ重複除外されます。レポート時間処理の日付ウィンドウイングより、これらのイベントは、すべての日付または訪問者に対してグローバルに重複除外されません。
-* **購入** / [**売上高**](/help/components/metrics/revenue.md) / [**注文**](/help/components/metrics/orders.md) / [**単位：**](/help/components/metrics/units.md) 購入 ID を使用する場合、これらの指標は、レポート時間処理の日付ウィンドウイングに従ってグローバルに全日付または訪問者に対してではなく、訪問者のレポート日付範囲内で発生する重複購入 ID に対してのみ重複除外されます。
+* **購入** / [**売上高**](/help/components/metrics/revenue.md) / [**購入回数**](/help/components/metrics/orders.md) / [**単位：**](/help/components/metrics/units.md) 購入 ID を使用する場合、これらの指標は、レポート時間処理の日付ウィンドウイングに従ってグローバルに全日付または訪問者に対してではなく、訪問者のレポート日付範囲内で発生する重複購入 ID に対してのみ重複除外されます。
 * [**非マーチャンダイジング eVar**](/help/components/dimensions/evar.md) / **予約済み eVar:** eVarに設定された値は、レポート時間処理の日付ウィンドウイングによってレポートの日付範囲内に値が設定された場合にのみ保持されます。 なお、値が維持されている間に夏時間への変更や夏時間からの変更があった場合は、時間に基づく有効期限が通常よりも 1 時間早く終了したり、1 時間遅く終了したりすることがあります。
 * [**マーチャンダイジング eVar**](/help/components/dimensions/evar-merchandising.md) / **予約済み eVar:** 上記を参照してください。 なお、バインディングが「すべてのイベント」に設定されるコンバージョン構文については、「すべてのヒット」が代わりに使用されます。
 * [**ヒットタイプ：**](/help/components/dimensions/hit-type.md)&#x200B;このディメンションは、ヒットがフォアグラウンドで発生したかバックグラウンドで発生したかを示します。

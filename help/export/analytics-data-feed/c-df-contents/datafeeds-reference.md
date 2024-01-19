@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: ht
-source-wordcount: '3671'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 | **`color`** | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`connection_type`** | 接続タイプを表す数値 ID。「[接続タイプ](/help/components/dimensions/connection-type.md)」ディメンションで使用される変数。`connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`cookies`** | 「[cookie サポート](/help/components/dimensions/cookie-support.md)」ディメンションで使用される変数。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| **`country`** | `country.tsv` ルックアップで見つかった値を表す数値 ID。Reports &amp; Analytics のトップレベルドメインレポートで使用されます。 | smallint unsigned |
+| **`country`** | 次に示す `country.tsv` 参照。 | smallint unsigned |
 | **`ct_connect_type`** | `connection_type` 列と関連しています。よく使用される値は LAN/Wi-Fi、Mobile Carrier、Modem です。 | char(20) |
 | **`curr_factor`** | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD では小数点以下 2 桁を使用するので、この列の値は 2 になります。 | tinyint |
 | **`curr_rate`** | トランザクションが発生した時点の為替レート。アドビでは XE 社との提携により、当日の為替レートを決定しています。 | decimal(24,12) |

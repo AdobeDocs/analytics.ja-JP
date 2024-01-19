@@ -3,10 +3,10 @@ title: 繰り返しインスタンスのカウント
 description: レポート内でレポートインスタンスがカウントされるかどうかを指定します。
 feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 91%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 100%
 
 [!UICONTROL 繰り返しインスタンスをカウント]：繰り返しインスタンスがレポートまたはプロジェクト内でカウントされるかどうかを指定します。この設定を有効にすると、複数の連続するページビューが複数のページビューと同じページに対して処理されます。この設定を「Off」に設定すると、これらのページビューは単一のページビューとしてカウントされます。この設定は、[!UICONTROL 単一ページ訪問]など、特定の指標にのみ影響します。
 
-Reports &amp; Analytics では、この設定は設定できません。繰り返しインスタンスは、デフォルトで含まれます。
 Workspace で、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報と設定]**&#x200B;の下で、[繰り返しインスタンスを含めるまたは除外する](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)ように選択できます。これらはデフォルトで含まれます。
 
 >[!NOTE]
->この設定は、[!UICONTROL フロー]または[!UICONTROL フォールアウト]のビジュアライゼーションには適用されません。Workspace では、[!UICONTROL フロー]には、繰り返しを削除するための独自の[設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)があります。Reports &amp; Analytics では、フローレポートは、デフォルトで常に繰り返しインスタンスを削除しています。
+>この設定は、[!UICONTROL フロー]または[!UICONTROL フォールアウト]のビジュアライゼーションには適用されません。Workspace では、 [!UICONTROL 流量] 独自の [設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 繰り返しを削除する場合。

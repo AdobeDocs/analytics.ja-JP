@@ -4,16 +4,16 @@ keywords: ftp;sftp
 title: セキュアファイル転送プロトコル - 概要
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 88%
 
 ---
 
 # セキュアファイル転送プロトコル - 概要
 
-SFTP は、データ転送を安全に行うためのプロトコルであり、当事者以外がデータを盗み見ることはできません。Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
+SFTP は、データ転送を安全に行うためのプロトコルで、自分以外のユーザーがデータを見ることはできません。 Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
 
 ## プッシュ配信 {#section_A47831BB1DCA490BB57F0940617AA506}
 
@@ -21,11 +21,7 @@ SFTP は、データ転送を安全に行うためのプロトコルであり、
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) と [Analytics のデータフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja)は、SFTP 経由でデータをプッシュできます。
 
-以下の Analytics ツールでは、SFTP 経由でデータをプッシュ&#x200B;**できません**。
-
-* Reports &amp; Analytics
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **できません** SFTP 経由でデータをプッシュします。
 
 ## プル配信 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

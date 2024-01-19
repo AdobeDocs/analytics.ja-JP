@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace テンプレート、および Reports & Analytics と Report Builder でのレポートについて説明します。
+description: Analysis Workspaceテンプレートの詳細と、Report Builderでのレポート。
 title: Adobe Analytics での広告データのレポート
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 93%
 
 ---
 
 # Adobe Analytics での広告データのレポート
 
-Analysis Workspace テンプレート、および Reports &amp; Analytics と Report Builder でのレポートについて説明します。
+Analysis Workspaceテンプレートの詳細と、Report Builderでのレポート。
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ Analysis Workspace テンプレート、および Reports &amp; Analytics と Re
 | 広告の合計 | 関連する指標による上位の広告内訳を示す自由形式の表。 |
 | キーワード | すべてのキーワード／一致タイプの組み合わせのインプレッション数、クリック数、コストの散布グラフ。 |
 | キーワードの合計 | 関連する指標による上位のキーワード／一致タイプの組み合わせ内訳を示す自由形式の表。 |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-Advertising Analytics アカウントを設定するとすぐに、Advertising Analytics レポートが利用できるようになります。
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

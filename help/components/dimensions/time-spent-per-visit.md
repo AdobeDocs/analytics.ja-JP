@@ -3,10 +3,10 @@ title: 訪問別滞在時間（ディメンション）
 description: 訪問に費やした合計時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 93%
+source-wordcount: '302'
+ht-degree: 91%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 93%
 訪問の滞在時間に対して複数のディメンションが存在します。
 
 * **訪問の滞在時間 — グループ**：時間がグループ化されます。ディメンション項目の範囲は `"Less than 1 minute"` ～ `"More than 15 hours"` です。通常、訪問は 12 時間を超えません。ただし、タイムスタンプ付きのヒットまたはデータソースを使用している場合、訪問回数は 12 時間を超える可能性があります。
-* **訪問の滞在時間 — 詳細**：各秒数は、一意のディメンション項目です。このディメンションは、Reports &amp; Analytics または Data Warehouse では使用できません。
+* **訪問の滞在時間 — 詳細**：各秒数は、一意のディメンション項目です。このディメンションは、Data Warehouseでは使用できません。
 
-滞在時間の一般情報について詳しくは、「[滞在時間の概要](../metrics/time-spent.md)」を参照してください。
+滞在時間の一般情報について詳しくは、[滞在時間の概要](../metrics/time-spent.md)を参照してください。

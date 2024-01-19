@@ -3,10 +3,10 @@ description: マーケティングチャネルレポートを実行し、制限�
 title: マーケティングチャネルの権限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Attribution と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>アトリビューションとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、いくつかの [改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で説明しているように、組織のマーケティングチャネルを管理できます。
 
@@ -24,7 +24,6 @@ ht-degree: 100%
 |---|---|---|
 | レポートスイートツール | チャネル | Report Suite Manager で、マーケティングチャネルマネージャー、マーケティングチャネル処理ルール、マーケティングチャネルの有効期限などのマーケティングチャネルへのアクセスを許可します。 |
 | レポートスイートツール | コスト | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
-| レポートスイートツール | チャネルレポート | Reports &amp; Analytics のマーケティングチャネル／チャネル概要レポートへのアクセスを許可します。 |
 | レポートスイートツール | 分類 | レポートスイートマネージャのすべての分類設定（マーケティングチャネル／マーケティングチャネル分類を含む）へのアクセス権を付与します。 |
 | Analytics ツール | Analysis Workspace アクセス | Analysis Workspace へのアクセスを許可します。Workspace でマーケティングチャネルディメンションを使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスのいずれかに属している必要があります。 |
 | Analytics ツール | Reports and Analytics アクセス | Reports and Analytics へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループまたは Analysis Workspace アクセス（推奨）に属している必要があります。 |

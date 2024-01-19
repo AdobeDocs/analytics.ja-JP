@@ -3,10 +3,10 @@ title: サードパーティの分析プラットフォームから Adobe Analyt
 description: Google Analytics などの他のプラットフォームに詳しいユーザー向けに、レポートの取得に関する概要について説明します。
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 90%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 100%
 
 Google Analytics と Adobe Analytics は、Web サイトのパフォーマンスに対する価値あるインサイトを得るための強力なプラットフォームです。それぞれ独自の処理アーキテクチャとユーザーインターフェイスを備えており、異なる利点があります。このガイドは、Google Analytics を使用したことがあるユーザーを対象に、Adobe Analytics の使用方法を説明することを目的としています。
 
-Adobe Analytics では、Adobe Experience Cloud にログインしたあとに基本レポートを取り込む方法が 2 つあります。
-
-* **Reports &amp; Analytics** は、基本レポートを取り込む従来の方法です。左側のメニューには既製レポートのリストが表示され、適切なレポートに移動してデータを取得できます。セグメントと指標をカスタマイズできます。このレイアウトは、Google Analytics のレポートと類似しています。
-* **Analysis Workspace** の使用は、現在最も推奨されるレポート取得方法です。左側のメニューでは、コンポーネントをドラッグ＆ドロップして独自のレポートを作成できます。柔軟性が非常に高く、あらゆるレポートニーズに的確に対応します。このレイアウトは、Google Analytics のダッシュボードとカスタムレポートに類似しています。
-
-ほとんどのレポートは、[!UICONTROL Reports &amp; Analytics] と [!UICONTROL Analysis Workspace] の両方で作成できます。ただし、どちらかのプラットフォームでのみ取り込むことができるレポートもあります。特定の機能が [!UICONTROL Reports &amp; Analytics] でのみ使用できる場合を除き基本的には [!UICONTROL Analysis Workspace] の使用をお勧めします。
+Adobe AnalyticsでAdobe Experience Cloudにログインした後に基本レポートを取り込む主な方法は、 **Analysis Workspace**. 左側のメニューでは、コンポーネントをドラッグ＆ドロップして独自のレポートを作成できます。より自由に、正確なレポートニーズに応えることができます。 このレイアウトは、Google Analytics のダッシュボードとカスタムレポートに類似しています。
 
 ## 推奨学習パス
 

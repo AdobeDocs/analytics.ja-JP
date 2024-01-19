@@ -3,10 +3,10 @@ title: ユーザーへの影響の伝達
 description: 組織内のイベントの影響を効果的に伝える方法を学びます。
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Analytics内の以下の節では、組織内のユーザーとコミュ�
 
 ![パネルの説明](assets/panel_description.png)
 
-## テキストビジュアライゼーションを通じた通信
+## テキストビジュアライゼーションを通じたコミュニケーション
 
 また、専用のテキストビジュアライゼーションを使用して、イベントの影響を伝えることもできます。 詳しくは、 [テキストのビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/text.md) 」を参照してください。
 
-![テキストビジュアライゼーション](assets/text_visualization.png)
+![テキストのビジュアライゼーション](assets/text_visualization.png)
 
 ## Workspace のトレンドへのカスタムカレンダーイベントの追加
 
@@ -57,12 +57,3 @@ Workspace のトレンドビジュアライゼーションについては、影�
 
    ![情報アイコン](assets/calcmetric_infoicon.png)
 
-## Reports &amp; Analytics でのカレンダーイベントの使用
-
-Reports &amp; Analytics を使用している場合、 [カレンダーイベント](/help/components/t-calendar-event.md) をクリックして、任意のトレンドレポートの影響を受ける日を強調表示します。 この方法は、Analysis Workspaceには適用されません。
-
-1. に移動します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL カレンダーイベント]**.
-2. 目的のタイトル、日付範囲、メモテキストを入力します。
-3. 「**[!UICONTROL 保存]**」をクリックします。
-
-![カレンダーイベント](assets/exclude_calendar_event.png)

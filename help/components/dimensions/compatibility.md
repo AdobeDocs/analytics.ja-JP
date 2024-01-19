@@ -3,10 +3,10 @@ title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 98%
 >
 >カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有の値です。
 
->[!NOTE]
->
->Analytics のツールで、類似したディメンションに異なる用語が使用されている場合は、重なりがあります。例えば、Reports &amp; Analytics は `browserwidth` を使用し、Analysis Workspace は `browserwidthbucketed` を使用します。
-
-## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているディメンション
+## Analysis WorkspaceでサポートされるDimension
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |---|---|
@@ -84,7 +80,7 @@ ht-degree: 98%
 | SC-TnT | `tntbase` |
 | 検索エンジン | `searchengine` |
 | 検索キーワード | `searchenginekeyword` |
-| 検索エンジン- ナチュラル | `searchenginenatural` |
+| 検索エンジン - 自然 | `searchenginenatural` |
 | 検索エンジン - 有料 | `searchenginepaid` |
 | 検索キーワード - 自然 | `searchenginenaturalkeyword` |
 | 検索キーワード - 有料 | `searchenginepaidkeyword` |
@@ -101,11 +97,6 @@ ht-degree: 98%
 | 訪問の深さ | `pathlength` |
 | 訪問数 | `visitnumber` |
 | 郵便番号 | `zip` |
-
-## Analysis Workspace のみでサポートされているディメンション
-
-| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
-|--- |--- |
 | 午前／午後 | `timepartampm` |
 | ブラウザーの高さ - グループ | `browserheightbucketed` |
 | ブラウザーの幅 - グループ | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ ht-degree: 98%
 | Nielsen チャネルアセット | `nielsenchannelasset` |
 | Nielsen コンテンツタイプ | `nielsencontenttype` |
 
-## Reports &amp; Analytics のみでサポートされているディメンション
-
-| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
-|--- |--- |
-| ブラウザーの高さ | `browserheight` |
-| ブラウザーの幅 | `browserwidth` |
-| 日別ユニーク顧客 | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| JavaScript のバージョン | `javascriptversion` |
-| 月別ユニーク顧客 | `monthlyuniquecustomers` |
-| 四半期別ユニーク顧客 | `quarterlyuniquecustomers` |
-| タイムゾーン | `timezone` |
-| トップレベルドメイン | `topleveldomain` |
-| 訪問者の州 | `legacystate` |
-| 週別ユニーク顧客 | `weeklyuniquecustomers` |
-| 年別ユニーク顧客 | `yearlyuniquecustomers` |
-
-## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているコンテンツに応じたディメンション
+## Analysis Workspaceでサポートされるコンテンツに応じたディメンション
 
 ### ビデオ（メディア分析）
 
@@ -331,7 +305,7 @@ ht-degree: 98%
 | 入口 Nielsen クライアント ID | `entrynielsenclientid` |
 | 出口 Nielsen クライアント ID | `exitnielsenclientid` |
 
-### Adobe Experience Manager(AEM)
+### Adobe Experience Manager（AEM）
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |

@@ -3,10 +3,10 @@ description: インポーターを使用すると、分類データを Analytics
 title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 98%
 * 分類は、0（ゼロ）の値を持つことはできません。
 * インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 * アップロードするファイルは、BOM なしの UTF-8 でエンコードする必要があります。
-* タブ、改行、引用符などの特殊文字は、バージョン 2.1 のファイル形式が指定されており、セルが適切に[エスケープ](/help/components/classifications/importer/t-classifications-escape-data.md)されている場合にのみ使用することができます。特殊文字には、次のものがあります。
+* v2.1 ファイル形式が指定され、セルが正しく指定されている場合は、セル内にタブ、改行、引用符などの特殊文字を埋め込むことができます [エスケープ](/help/components/classifications/importer/t-classifications-escape-data.md). 特殊文字には、次のものがあります。
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   コンマは特殊文字に含まれません。
+  コンマは特殊文字に含まれません。
 
 * キャレット（^）は、下位分類を示すために使用されるので、分類にこの文字を含めることはできません。
 * ハイフンを使用する際は注意が必要です。例えば、Social のキーワードでハイフン（-）を使用すると、Social はハイフンを [!DNL Not] 演算子（マイナス記号）として認識します。例えば、読み込むキーワードとして「*`fragrance-free`*」を指定すると、Social はこのキーワードを「fragance *`minus`* free」と認識し、「*`fragrance`*」に関する投稿のみを収集し、「*`free`*」に関する投稿は収集されません。
@@ -94,7 +94,6 @@ ht-degree: 98%
 >
 >* [一般的なアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)
 
-
 ## 列見出しの形式
 
 >[!NOTE]
@@ -109,11 +108,9 @@ ht-degree: 98%
 
 ### 分類列の見出し
 
-例：Reports &amp; Analytics の実装では、 [!UICONTROL Campaign] 変数： [!UICONTROL キャンペーン] および [!UICONTROL クリエイティブエレメント]. データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
-
 >[!NOTE]
 >
->[!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。「キー」は予約済みの分類（ヘッダー）値です。 「キー」という名前の新しい分類はサポートされていません。
+>[!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が [!UICONTROL キャンペーン] から [!UICONTROL 内部キャンペーン名] （内） [!UICONTROL Campaign 設定マネージャ]に設定する場合、一致するファイルの列見出しを変更する必要があります。 「キー」は予約済みの分類（ヘッダー）値です。 「キー」という名前の新しい分類はサポートされていません。
 
 また、データファイルでは、以下に示す見出しの規則をサポートし、下位分類やその他の特殊なデータ列を識別します。
 

@@ -3,10 +3,10 @@ description: この詳細なガイドでは、必要な権限や使用可能な�
 title: Advertising Analytics のガイド
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 >
 > Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。
 
-これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspace に含まれる新しいWorkspace の[有料検索パフォーマンス](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)テンプレートにより、この分析を容易におこなうことができます。
+これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。新しい [有料検索パフォーマンス](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) テンプレートを使用すると、この分析を容易におこなえます。
 
 ![](assets/aa_aw.png)
 
@@ -70,7 +70,7 @@ Analytics には、Analytics 管理者に自動で付与される 2 つの権限
 
 ## Advertising Analytics のディメンションと指標 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics では、以下のディメンションと指標が Analysis Workspace、Reports &amp; Analytics、Report Builder、Analytics レポート API に加わります。
+Advertising Analyticsは、次のディメンションと指標をAnalysis Workspace、Report Builderおよび Analytics レポート API に追加します。
 
 **ディメンション**
 

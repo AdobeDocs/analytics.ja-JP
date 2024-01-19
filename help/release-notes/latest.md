@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c3f59a07d51f5e6a73fa87aed573450c133d5bd6
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 39%
+source-wordcount: '1077'
+ht-degree: 30%
 
 ---
 
@@ -53,8 +53,8 @@ AN-323975、AN-325383、AN-325809、AN-326787、AN-331611、AN-332124、AN-33227
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2024年1月10日（PT） | **2024年1月17日**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2023年12月31日（PT）に、関連する Reports &amp; Analytics 機能の多くを終了します。これには、予定レポート、データ抽出、DL レポートが含まれますが、これらに限定されるものではありません。2023年12月31日（PT）以降、予定レポートは送信されなくなります。 **2023年4月**&#x200B;に、2023年12月31日（PT）以降に有効期限が切れる予定だったレポートはすべて自動的に更新され、2023年12月31日（PT）に期限切れとなるように戻されます。また、2023年12月31日（PT）以降のレポートをスケジュールできなくなりました。 |
-| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2024年1月10日（PT） | Reports &amp; Analytics のサポート終了の一環として、 [!UICONTROL 発行リスト] は、の提供終了に達する予定です **2024 年 1 月 18 日**. 新しいパブリッシュリストを作成するか既存の[!UICONTROL パブリッシュリスト]にアクセスして、[!UICONTROL Analysis Workspace] プロジェクトを送信したりスケジュールしたりすることはできなくなります。 |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2024年1月10日（PT） | 有効 **2024 年 1 月 18 日**,Adobe中止 [!DNL Reports & Analytics] そしてそれに伴うレポートと特徴 以下を実現するレポート、ビジュアライゼーションおよび基盤となるテクノロジー [!DNL Reports & Analytics] Adobeの技術基準を満たさなくなりました。 ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。<p>2024 年 1 月 18 日に、予定レポート、データ抽出、DL レポートなど、関連する Reports &amp; Analytics の多くの機能を終了しました（ただし、これらに限定されません）。 2024 年 1 月 18 日以降、予定レポートは送信されなくなりました。 また、2024 年 1 月 17 日以降、今後のレポートのスケジュールを設定できなくなりました。 |
+| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2024年1月10日（PT） | Reports &amp; Analytics のサポート終了の一環として、 [!UICONTROL 発行リスト] ～の提供終了に達した **2024 年 1 月 18 日**. 新規作成や既存のアクセスはできなくなりました [!UICONTROL 発行リスト] 送信する、またはスケジュールする [!UICONTROL Analysis Workspace] プロジェクト。 |
 | **Data Workbench のサポート終了** | 2024年1月2日（PT） | Adobeの提供終了Data Workbench効果 **2023 年 12 月 31 日**. 詳しくは、[Data Workbench の提供終了のお知らせ](https://express.adobe.com/page/GSu6oKOD88GAj/)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |
 | **Adobe I/O OAuth サーバー間資格情報への移行** | 2023年5月11日（PT） | Adobe I/O JWT 資格情報を使用している Adobe Analytics API および Livestream のお客様は、**2025年1月1日（PT）**&#x200B;までに Adobe I/O OAuth サーバー間資格情報に移行する必要があります。Adobe I/O では、2024年5月1日（PT）以降、新しい JWT 資格情報を作成できなくなります。JWT を使用しているお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。また、お客様が新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要もあります。 <ul><li>[サービスアカウント（JWT）資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth を使用した新旧のアプリケーションの実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 

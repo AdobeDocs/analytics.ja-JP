@@ -3,10 +3,10 @@ description: Analysis Workspace でアラートを使用します。
 title: アラートビルダーの概要
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 99%
 >
 >インテリジェントアラートは、Adobe [!DNL Analytics] Prime および Adobe [!DNL Analytics] Ultimate のお客様のみご利用いただけます。
 
-アラートビルダーには、以下の 4 つのうちいずれかの方法でアクセスします。
+アラートビルダーにアクセスするには、次の 3 つの方法があります。
 
 * Analysis Workspace で以下のショートカットを使用する。
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * **[!UICONTROL Workspace]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;に移動する。
 * 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL 選択からアラートを作成]**」を選択する。
-* [!UICONTROL Reports &amp; Analytics] レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。
 
 アラートビルダーインターフェイスは、[!DNL Analytics] でセグメントや計算指標を作成していたユーザーにとってなじみのあるものです。
 
@@ -59,7 +58,7 @@ ht-degree: 99%
 
 * トリガーを追加するキャンバスに指標をドラッグ＆ドロップします。
 
-   注意：現在選択されているレポートスイートと互換性がないコンポーネント（指標、ディメンション、セグメント）がアラートに含まれている場合は、「**互換性のないコンポーネント**」というメッセージが表示されます。
+  注意：現在選択されているレポートスイートと互換性がないコンポーネント（指標、ディメンション、セグメント）がアラートに含まれている場合は、「**互換性のないコンポーネント**」というメッセージが表示されます。
 
 * アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。
 

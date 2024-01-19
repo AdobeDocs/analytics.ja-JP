@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 +++
 
 +++セグメントはライブモードで動作しますか？
-いいえ。セグメントはライブモードでは動作しません。この機能は、Reports &amp; Analytics のリアルタイムレポートと同様、セグメント化をサポートしません。
+いいえ。セグメントはライブモードでは機能しません。
 +++
 
 +++Activity Map は、仮想レポートスイートと互換性がありますか？
@@ -89,9 +89,9 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 * `AppMeasurement_Module_ActivityMap` 関数を JS ファイルから削除します。
 * 上記の関数を空の本文に書き換えるカスタムコードを追加します。次に例を示します。
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * `s.trackClickMap` および `s.trackInlineStats` を `false` に設定して AppMeasurement を設定します。
 +++
