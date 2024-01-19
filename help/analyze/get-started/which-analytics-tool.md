@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 97%
 
 ---
 
@@ -24,28 +24,9 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** は以下の場合に使用します。
+**[Report Builder](/help/analyze/report-builder/home.md)** はMicrosoft Excel のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
-* ナビゲーションが容易な作成済みのレポートにアクセスする必要がある初心者ユーザーの場合。
-* UI でリアルタイムデータにアクセスする。
-* カレンダーイベントをセットアップする。
-* ターゲットをセットアップする。
-* ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
-
->[!IMPORTANT]
->
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja)** は以下の場合に使用します。
-
-* 予測、統計的モデリング（傾向スコアリング、クラスタリング、相関関係など）。
-* 待ち時間分析（イベント前後の時間）。
-* Adobe Experience Cloud 全体での複雑なセグメントの識別およびエクスポート。
-
->[!IMPORTANT]
->
->詳しくは、Data Workbench の[提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。
-
+**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** では、モバイルで直感的なスコアカードにアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
 ## Adobe Analytics へのデータの読み込み {#import}
 
@@ -93,7 +74,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 **[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
 
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
-* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより恒久的なソリューションはデータソースです（「Adobe Analytics へのデータのインポート」を参照）。
+* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより永続的なソリューションはデータソースです（Analytics へのデータのインポートを参照）。
 * 様々なディメンションのレポートから得られるデータの結合（例えば、プロモーションのインプレッションレポートとプロモーションのクリックトゥコンバージョンレポートの結合など）。
 * 異なるレポートスイートからのデータを、同じテーブルで横に並べて合計または表示する方法で結合します。
 * スケジュール設定による自動化が求められる場合（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。

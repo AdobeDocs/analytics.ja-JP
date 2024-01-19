@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 ワークブックのスケジュール設定、アドバンス配信オプションの指定、受信者の指定およびスケジュールの履歴の表示を行うことができます。アドバンス配信オプションでは、特定の時間または間隔で送信するワークブックを設定します。また、送信するワークブックのファイル形式も選択できます。
 
 例えば、ワークブックがすぐに配信されるようにスケジュールしたり、繰り返し配信されるようにスケジュールしたりできます。また、「[!DNL Advanced Delivery Options]」ではファイル形式を指定できます。ワークブックをアップロードする場合のファイルサイズの上限は 5 MB です。
-
-さらに、Report Builder でワークブックのスケジュールを作成した後、**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;でスケジュールを表示して編集できます（Reports &amp; Analytics ヘルプの[レポートのスケジュールと配信](/help/analyze/reports-analytics/scheduling.md)を参照してください）。
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ ht-degree: 96%
 1. Report Builder ツールバーで、「**[!UICONTROL スケジュール]**」をクリックします。
 
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
-1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規作成]**」をクリックします。基本のスケジュールウィザードには、予定レポートの定義に使用するオプションが表示されます。
+1. 次の日： **[!UICONTROL 予定レポート]** タブ、クリック **[!UICONTROL 新規]**. 基本のスケジュールウィザードには、予定レポートの定義に使用するオプションが表示されます。
 
    ![基本的なスケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
 

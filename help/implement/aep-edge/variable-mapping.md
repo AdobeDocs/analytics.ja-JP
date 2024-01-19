@@ -3,16 +3,16 @@ title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1145'
 ht-degree: 83%
 
 ---
 
 # Adobe Experience Edge での Analytics 変数のマッピング
 
-次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analytics にデータを送信するための追加設定は必要ありません。これらのフィールドは、 **[!UICONTROL Adobe Analytics ExperienceEvent テンプレート]** フィールドグループを使用します。
+次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analyticsにデータを送信するための追加の設定は必要ありません。 これらのフィールドは、 **[!UICONTROL Adobe Analytics ExperienceEvent テンプレート]** フィールドグループを使用します。
 
 このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)で確認できます。
 
@@ -67,8 +67,8 @@ ht-degree: 83%
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの[リスト prop](../vars/page-vars/prop.md#list-props) 値を含む文字列配列。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | それぞれの `value` 配列内のすべての `list[]` 文字列をそれぞれの[リスト変数](../vars/page-vars/list.md)に連結します。区切り文字は、[レポートスイート設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)で設定された値に基づいて自動的に選択されます。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれの [prop](../../components/dimensions/prop.md) ディメンションを設定します。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | それぞれの[カスタムイベント](../../components/metrics/custom-events.md)指標に[イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を適用します。各イベント ID は、100 グループの親に存在します。 例えば、にシリアル化を適用するには、次のようにします。 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれの[カスタムイベント](../../components/metrics/custom-events.md)指標を必要な量だけ増分します。各イベントは、100 グループの親に存在します。 例えば、 `event567` 次に該当 `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) それぞれの [カスタムイベント](../../components/metrics/custom-events.md) 指標。 各イベント ID は、100 グループの親に存在します。 例えば、にシリアル化を適用するには、次のようにします。 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれ [カスタムイベント](../../components/metrics/custom-events.md) 指標を必要な量で絞り込みます。 各イベントは、100 グループの親に存在します。 例えば、 `event567` 次に該当 `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID サービスの ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。 |
 | `marketing.trackingCode` | [トラッキングコード](../../components/dimensions/tracking-code.md)ディメンションを設定します。 |
 | `media.mediaTimed.completes.value` | Media Analytics 指標「[コンテンツ完了](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-complete)」。 |
@@ -110,7 +110,7 @@ ht-degree: 83%
 | `placeContext.geo._schema.longitude` | モバイルディメンション「経度」。 |
 | `placeContext.geo.postalCode` | 「[郵便番号](../../components/dimensions/zip-code.md)」ディメンション。 |
 | `placeContext.geo.stateProvince` | 「[米国の州](../../components/dimensions/us-states.md)」ディメンション。 |
-| `placeContext.localTime` | Reports &amp; Analytics で[タイムゾーン](/help/analyze/reports-analytics/reports.md)を入力するのに役立ちます。[データフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)では `t_time_info` として表示されます。 |
+| `placeContext.localTime` | [データフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)では `t_time_info` として表示されます。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | eVars に [product 構文](../vars/page-vars/products.md)マーチャンダイジングを適用します。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | イベントに [product 構文](../vars/page-vars/products.md)マーチャンダイジングを適用します。 |
 | `productListItems[].productCategories[].categoryID` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |

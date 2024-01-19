@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1008'
 ht-degree: 99%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 99%
       + [データリクエストの作成](report-builder/data-requests/t-create-a-data-request.md)
       + レポートスイート {#report-suites}
          + [レポートスイートを選択します](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [レポートスイートを選択しますExcel の既存のリクエストから](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Excel のセルからのレポートスイートの選択](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](report-builder/data-requests/segmentation.md)
       + レポートタイプ {#report-types}
@@ -304,35 +304,6 @@ ht-degree: 99%
    + [Analytics の Activity Map レポート](activity-map/activitymap-reporting-analytics.md)
    + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
    + [データ収集のトラブルシューティング](activity-map/troubleshoot-data-collection.md)
-+ Reports and Analytics {#reports-analytics}
-   + [Reports and Analytics の概要](reports-analytics/getting-started.md)
-   + レポートインターフェイスの概要 {#reporting-interface}
-      + [データ収集について](reports-analytics/overview/overview-data-collection.md)
-      + [レポートメニュー](reports-analytics/overview/reports-menu.md)
-      + [レポートの機能](reports-analytics/overview/report-overview.md)
-   + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
-   + [レポートのスケジュールと配信](reports-analytics/scheduling.md)
-   + [予定レポートの提供終了のお知らせ](reports-analytics/scheduled-reports-eol.md)
-   + [レポートタイプ](reports-analytics/reports.md)
-   + [異なるレポートタイプの実行](reports-analytics/t-running-report-types.md)
-   + レポートのカスタマイズ {#customize-reports}
-      + [レポートのカスタマイズの概要](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [レポートのグラフの変更](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [分類](reports-analytics/reports-customize/breakdowns.md)
-      + [下位関係](reports-analytics/reports-customize/subrelations.md)
-      + [レポートデータのフィルタリング](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Analytics のセグメント化](reports-analytics/segmentation.md)
-   + [ブックマークマネージャー](reports-analytics/bookmarks.md)
-   + [現在のデータ](reports-analytics/current-data.md)
-   + [ダッシュボードおよびレポートレット](reports-analytics/dashboard.md)
-   + [ダッシュボードマネージャー](reports-analytics/dashboard-manage.md)
-   + [ファネルレポート](reports-analytics/funnels.md)
-   + [指標](reports-analytics/metrics.md)
-   + [ターゲット](reports-analytics/targets.md)
-   + [アラート](reports-analytics/alerts.md)
-   + [カレンダーイベント](reports-analytics/t-calendar-event.md)
-   + [よくある質問](reports-analytics/frequently-asked-questions.md)
-   + [トラブルシューティング](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics ダッシュボード {#mobapp}
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター紹介](mobile-app/curator.md)

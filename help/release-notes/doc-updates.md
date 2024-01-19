@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4994'
 ht-degree: 96%
@@ -142,7 +142,7 @@ ht-degree: 96%
 | Adobe Analytics ランディングページの更新 | Analysis Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
 | [!UICONTROL ページの概要]ワークスペースパネル | このパネルでは、選択したページに関する詳細な分析結果を提供します。 |
-| 古い予定レポートの一時停止に関する新しいトピック | **2022年4月15日**&#x200B;より、アドビは、[作成日が 2 年を超える予定レポートをすべて一時停止](/help/analyze/reports-analytics/scheduled-reports-eol.md)する予定です。 |
+| 古い予定レポートの一時停止に関する新しいトピック | 有効 **2022 年 4 月 16 日**&#x200B;作成日が 2 年を超える予定レポートをすべて一時停止します |
 | **2022年2月** |
 | モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

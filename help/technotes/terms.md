@@ -3,9 +3,9 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 97%
 * **コンテキストデータ変数：**&#x200B;処理ルールでのみ使用される一時変数。コンテキストデータ変数をコンバージョン変数またはトラフィック変数にコピーするように処理ルールを設定していない場合、コンテキストデータ変数は恒久的に失われます。『実装ユーザガイド』の「[コンテキストデータ変数](../implement/vars/page-vars/contextdata.md)」を参照してください。
 * **コンバージョン変数：** eVar とも呼ばれています。カスタム値を格納し、変数値が期限切れになるまで保持します。『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar.md) ディメンションを参照してください。
 * **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。『分析ユーザガイド』の「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。
-* **現在のデータ：**&#x200B;一部のレポートで、処理が完了していない最近収集したデータを含めることができるオプション。『分析ユーザガイド』の「[現在のデータ](/help/analyze/reports-analytics/current-data.md)」を参照してください。
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。『実装ユーザガイド』の「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **カスタマーサポート委任者：**&#x200B;アドビカスタマーケアと直接連絡を取る権限を持つ指定ユーザー。Experience Cloud ナレッジベースの「[カスタマーサポート委任者](https://helpx.adobe.com/jp/experience-cloud/supported-users.html)」を参照してください。
