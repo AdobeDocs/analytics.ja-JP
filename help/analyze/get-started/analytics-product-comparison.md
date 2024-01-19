@@ -3,7 +3,7 @@ description: 以下の表に、Analysis Workspace、Reports & Analytics、Report
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: a733d7296c61e7cb96c637bbd101268e492a1cd4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 使用すべき Adobe Analytics 製品について詳しくは、[使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
 | 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developer の資格情報でログインします。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **データの精度** | 集計 | 集計 | 集計 | ヒット | 集計 |
 | **Experience Cloud ID（ECID）が使用可能** | × | × | ○ | ○ | × |
