@@ -1,12 +1,12 @@
 ---
 title: タグの Analytics プロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 ## 前提条件
 
-[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。。
+[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。
 
 ## タグプロパティを作成し、重要な拡張機能をインストール
 
@@ -47,9 +47,9 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
    * データ要素の種類：JavaScript 変数
    * JavaScript 変数名：`window.document.title`
 
-      >[!NOTE]
-      >
-      >この値は、開始を支援するための例として提供されます。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+     >[!NOTE]
+     >
+     >この値は、開始を支援するための例として提供されます。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
    * 保存期間：なし
 1. 「**[!UICONTROL 保存]**」をクリックします。

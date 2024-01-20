@@ -1,11 +1,11 @@
 ---
 title: 開発環境への Adobe Analytics のデプロイ
 description: タグを使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 48%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 48%
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. サイトに実装するタグプロパティをクリックします。
-3. クリック **[!UICONTROL ホスト]**&#x200B;を選択し、「 **[!UICONTROL ホストを追加]**.
-4. 名前を付ける `"Adobe managed"`を選択し、 **[!UICONTROL 管理者Adobe]** を選択します。 「保存」をクリックします。
-5. に移動します。 **[!UICONTROL 環境]**&#x200B;を選択し、「 **[!UICONTROL 環境を追加]**.
+3. クリック **[!UICONTROL ホスト]**&#x200B;を選択し、次に **[!UICONTROL ホストを追加]**.
+4. 名前を付ける `"Adobe managed"`をクリックし、次を選択します。 **[!UICONTROL 管理者Adobe]** 」と入力します。 「保存」をクリックします。
+5. に移動します。 **[!UICONTROL 環境]**&#x200B;を選択し、次に **[!UICONTROL 環境を追加]**.
 6. 選択 **[!UICONTROL 開発]**、という名前を付けます。 `"Dev Environment"`を選択し、ドロップダウンリストからAdobeが管理するホストを選択します。 「**[!UICONTROL 保存]**」をクリックします。
-7. Web インストール手順を示すモーダルウィンドウが表示されます。 私たちは後でこの窓に戻る。クリック **[!UICONTROL 閉じる]** 今のところ
+7. Web インストール手順を示すモーダルウィンドウが表示されます。 後でこのウィンドウに戻ります。 **[!UICONTROL 閉じる]** 今のところ
 8. クリック **[!UICONTROL 環境を追加]**&#x200B;を選択します。 **[!UICONTROL ステージング]**、という名前を付けます。 `"Staging Environment"`をクリックし、管理対象Adobeを選択します。 クリック **[!UICONTROL 作成]**&#x200B;次に、インストール手順モーダルウィンドウを閉じます。
-9. クリック **[!UICONTROL 環境を追加]** 再度、 **[!UICONTROL 実稼動]**、という名前を付けます。 `"Production Environment"`をクリックし、管理対象Adobeを選択します。 クリック **[!UICONTROL 作成]**&#x200B;次に、インストール手順モーダルウィンドウを閉じます。
+9. クリック **[!UICONTROL 環境を追加]** 再び「 」を選択します。 **[!UICONTROL 実稼動]**、という名前を付けます。 `"Production Environment"`をクリックし、管理対象Adobeを選択します。 クリック **[!UICONTROL 作成]**&#x200B;次に、インストール手順モーダルウィンドウを閉じます。
 
 ## 開発用ライブラリの構築
 
@@ -38,7 +38,7 @@ ht-degree: 48%
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. サイトに実装するタグプロパティをクリックします。
-3. 次をクリック： **[!UICONTROL 公開フロー]** 「 」タブで、「 **[!UICONTROL ライブラリを追加]**. 詳しくは、 [公開の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja) （タグに関するドキュメント）を参照してください。
+3. 次をクリック： **[!UICONTROL 公開フロー]** 「 」タブで、「 」をクリックします。 **[!UICONTROL ライブラリを追加]**. 詳しくは、 [公開の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja) （タグに関するドキュメント）を参照してください。
 4. ライブラリに名前を付けます。 `'Initial changes'`をクリックし、開発環境を選択します。
 5. クリック **[!UICONTROL 変更されたリソースをすべて追加]**:Adobe Analytics、ID サービスおよびコアが自動的に一覧表示されます。
 6. 「**[!UICONTROL 保存]**」をクリックします。
@@ -51,9 +51,9 @@ ht-degree: 48%
 Web サイトのコードを制御する場合は、コードの各ブロックをそれぞれの場所に実装します。
 
 * メインタグは、 `<head>` タグを使用して貼り付けます。
-* タグを同期的に読み込む場合は、終了タグのすぐ下に 2 つ目のコードブロックを含める必要があります `</body>` タグを使用して貼り付けます。 ライブラリタグを同期的に読み込むように選択するには、 **[!UICONTROL ライブラリを非同期で読み込み]** 」オプションを使用して、Web インストール手順を参照してください。
+* タグを同期的に読み込む場合は、終了タグのすぐ下に 2 つ目のコードブロックを含める必要があります。 `</body>` タグを使用して貼り付けます。 ライブラリタグを同期的に読み込むように選択するには、 **[!UICONTROL ライブラリを非同期で読み込み]** 」オプションを使用して、Web インストール手順を参照してください。
 
-タグコードは通常、サイトの包括的なテンプレートに配置されます。 実装コードのみを含む空白のページは、次のようになります。
+タグコードは、通常、サイトの包括的なテンプレートに配置されます。 実装コードのみを含む空白のページは、次のようになります。
 
 ```html
 <!doctype html>

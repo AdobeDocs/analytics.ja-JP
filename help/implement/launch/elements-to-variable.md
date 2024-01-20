@@ -1,11 +1,11 @@
 ---
 title: タグデータ要素の Analytics 変数へのマッピング
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
-feature: Launch Implementation
+feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '433'
 ht-degree: 96%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 96%
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブをクリックし、目的のルールをクリックします（または作成します）。
 1. 「[!UICONTROL アクション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
-1. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] を変数を設定します。
+1. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] を変数を設定します。
 1. 目的の Analytics 変数の右側にある![データ要素](assets/data-element.png)アイコンをクリックします。組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)には、使用する Analytics 変数が記載されています。
 1. モーダルウィンドウで目的のデータ要素を選択します。「[!UICONTROL 選択]」をクリックします。
 1. `%` 記号で囲まれたテキストフィールドに、データ要素名が追加されます。例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てると、文字列 `%Page name%` 表示されます。
