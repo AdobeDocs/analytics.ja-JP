@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。クロスデバイス分析について説明します。
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [ページイベント](metrics/page-events.md)
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
-   + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
+   + [Experience Cloud ID を持つ個人](metrics/people-with-exp-cloud-id.md)
    + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [場所マネージャー](/help/components/locations/locations-manager.md)
    + [クラウドの読み込みアカウント](/help/components/locations/configure-import-accounts.md)
    + [クラウドの読み込み場所](/help/components/locations/configure-import-locations.md)
-+ [カレンダーイベント](t-calendar-event.md)
 + [スケジュールされたプロジェクト](scheduled-projects-manager.md)
 + [予定レポートキュー](scheduled-reports-admin.md)
 + リアルタイムレポート {#real-time-reporting}

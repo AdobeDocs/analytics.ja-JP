@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 91%
             + 有料検索検知 {#paid-search-detection}
                + [有料検索検知の概要](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [有料検索検知の設定](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [メニューのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + 処理ルール {#c-processing-rules}
                + [処理ルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + 処理ルール {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 91%
       + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新しいレポートスイート {#c-new-report-suite}
          + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [レポートスイートグループの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,7 +151,6 @@ ht-degree: 91%
       + [Web サービス](admin/company/web-services-admin.md)
       + [Report Builder レポート](admin/company/report-builder-reports-admin.md)
       + [シングルサインオン](admin/company/single-signon-admin.md)
-      + [ブランド提携](admin/company/co-branding-admin.md)
       + [レポートスイートを非表示](admin/company/c-hide-report-suites.md)
       + [設定マネージャー](admin/company/preferences-manager.md)
       + [保留中のアクション](admin/company/pending-actions-admin.md)

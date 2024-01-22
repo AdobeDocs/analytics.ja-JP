@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,11 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
 
+**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** では、モバイルで直感的なスコアカードにアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+
 **[Report Builder](/help/analyze/report-builder/home.md)** はMicrosoft Excel のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
-**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** では、モバイルで直感的なスコアカードにアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** は、Adobe Analyticsの機能で、Web ページやモバイルアプリに対するユーザーのアクションを視覚的に表現します。 これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
 
 ## Adobe Analytics へのデータの読み込み {#import}
 

@@ -3,10 +3,10 @@ description: レポートスイートタイプの説明とグローバルレポ�
 title: レポートスイートのアプローチ
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ ht-degree: 93%
 >
 >[!DNL Reports & Analytics] は、ロールアップレポートをサポートする唯一のツールです。 Reports &amp; Analytics は、2024 年 1 月 17 日に提供終了となりました。
 
-### ロールアップレポートの制限事項 {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* ロールアップは合計データを提供しますが、個々の値はレポートしません。例えば、eVar1 値は含まれず、その集計合計が含まれます。
-* ロールアップが複数のレポートスイートのデータを結合する場合、データは重複排除されません。
-* ロールアップは毎夜深夜に実行されます。
-* レポートスイートを既存のロールアップに追加する場合、履歴データはロールアップには含められません。
-* ロールアップが機能するためには、すべての子レポートスイートにデータが必要です。新しいレポートスイートがロールアップに含まれている場合には、それらの各レポートスイートに少なくとも 1 つのページビューを送信してください。
-* ロールアップレポートスイートには、最大 40 件の子レポートスイートを含めることができます。
-* ロールアップレポートスイートには、最大 100 件のイベントを含めることができます。
-* ロールアップレポートスイートに含まれるデータは、分類やセグメントには対応していません。
-* ページレポートは、子のスイートレベルで指標についてレポートする、最頻訪問サイトレポートに置き換わります。
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## グローバルレポートスイートとロールアップレポートの機能の比較
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**セカンダリサーバーコール**：ロールアップでは、単一のレポートスイートで収集される以外の追加のサーバーコールは発生しません。組織で複数のスイートタグ付けを使用している場合、イメージリクエストに含まれる追加の各レポートスイートに対してセカンダリサーバーコールが実行されます。
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
-> グローバルレポートスイートを[仮想レポートスイート](/help/components/vrs/vrs-considerations.md)でのみ使用する場合、セカンダリサーバーコールは必要ありません。
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**実装の変更**：ロールアップでは実装の変更は必要ありませんが、グローバルレポートスイートでは実装にグローバルレポートスイート ID を含める必要があります。
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**複製**：グローバルレポートスイートではユニーク訪問者の重複を除外するのに対して、ロールアップでは重複除外が実行されません。例えば、ユーザーが同じ日に 3 つのドメインを訪問した場合であれば、ロールアップでは 1 日に訪問者が 3 名であったとカウントされます。これに対して、グローバルレポートスイートでは、ユニーク訪問者が 1 名であるという記録になります。
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**時間枠**：ロールアップでは毎日午前 0 時に処理を実行するのに対して、グローバルレポートスイートでは、標準待ち時間に従ってデータを報告します。
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**範囲**：ロールアップではレポートスイート間の通信手段がありません。グローバルレポートスイートではレポートスイート間のコンバージョン変数の貢献度を明らかにし、複数のレポートスイートにまたがるパスを表示できます。
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**履歴データ**：ロールアップでは履歴データを集計できるのに対して、グローバルレポートスイートでは実装時点からのデータを報告するにとどまります。
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**レポート**：グローバルレポートスイートではすべてのディメンションに関する情報が得られるのに対して、ロールアップでは上位レベルのレポートに関する集計データのみが得られます。
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**サポート対象製品**：ロールアップは Reports &amp; Analytics でのみ使用できました。 これらは、Analysis Workspace や Data Warehouse ではサポートされていません。グローバルレポートスイートは、すべての製品で使用できます。
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**集計レポートスイートの数**：ロールアップでサポートされる子レポートスイートは 40 個までです。グローバルレポートスイートは、所有している任意の数のドメインまたはアプリケーションに実装できます。
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
