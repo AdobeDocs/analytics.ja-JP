@@ -3,10 +3,10 @@ title: リファラー
 description: 自動的に収集されたヒットのリファラーを上書きします。
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 84%
+source-wordcount: '293'
+ht-degree: 80%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 84%
 
 リファラー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webReferrer.URL`.
 
+Web SDK は、イベントヒットのたびに、このディメンションを含めます。
+
 ## Adobe Analytics拡張機能を使用したリファラー
 
 referrer は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
@@ -26,12 +28,12 @@ referrer は、Analytics 拡張機能の設定時（グローバル変数）ま�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL リファラー]セクションを見つけます。
 
 referrer は、データ要素を含む任意の文字列値に設定できます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.referrer
+## AppMeasurementの s.referrer と Analytics 拡張機能のカスタムコードエディター
 
 `s.referrer` 変数は、前のページの URL を含む文字列です。この変数には最大 255 バイトを格納できます。255 バイトを超える値は切り捨てられます。AppMeasurement は、この変数を自動的に `document.referrer` に設定します。自動収集された値を上書きする場合を除き、この変数を設定する必要はありません。
 
@@ -51,7 +53,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 ## 例
 
-多くの組織では、リダイレクトに関する実装を扱っています。[`Util.getQueryParam()`](../functions/util-getqueryparam.md) ユーティリティを使用して、サイトでリファラーを受け入れる場合に URL からリファラーを取得できます。クエリー文字列に含まれる値は URL エンコードしてください。
+多くの組織では、リダイレクトに関する実装を扱っています。[`Util.getQueryParam()`](../functions/util-getqueryparam.md) ユーティリティを使用して、サイトでリファラーを受け入れる場合に URL からリファラーを取得できます。クエリ文字列に含まれる値は URL エンコードしてください。
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
