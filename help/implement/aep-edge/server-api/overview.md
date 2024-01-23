@@ -3,10 +3,10 @@ title: Adobe Experience Platform Edge Network Server API を使用したAdobe An
 description: Adobe Experience Platform Edge Network Server API を使用して、Adobe Analyticsにデータを送信します。
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 41%
+source-wordcount: '260'
+ht-degree: 35%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 41%
 
 <tr>
 <td>2</td>
-<td><b>スキーマとデータセットを設定します</b>。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+<td><b>スキーマを設定</b>. Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
 </tr>
 
 <tr>

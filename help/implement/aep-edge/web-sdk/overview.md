@@ -3,10 +3,10 @@ title: Adobe Experience Platform Web SDK を使用した Adobe Analytics の実�
 description: Adobe Experience Platform データ収集の Web SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 93%
+source-wordcount: '648'
+ht-degree: 91%
 
 ---
 
@@ -36,8 +36,8 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 <tr>
 <td>2</td>
-<td><b>スキーマとデータセットを設定します</b>。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+<td><b>スキーマを設定</b>. Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
 </tr>
 
 <tr>
@@ -102,8 +102,8 @@ Web SDK を使用して、またはタグの Web SDK 拡張機能を通じて、
 
 <tr>
 <td>2</td>
-<td><b>スキーマとデータセットを設定します</b>。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+<td><b>スキーマを設定</b>. Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
 </tr>
 
 <tr>

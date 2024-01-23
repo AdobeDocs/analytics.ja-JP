@@ -3,10 +3,10 @@ title: Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の�
 description: Adobe Experience Platform データ収集の Mobile SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 99%
 
 ---
 
@@ -38,8 +38,8 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 
 <tr>
 <td>2</td>
-<td><b>スキーマとデータセットを設定します</b>。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja">データセット UI の概要</a></td>
+<td><b>スキーマを設定します。</b>に移動します。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
 </tr>
 
 <tr>
