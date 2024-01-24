@@ -5,10 +5,10 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e54b63bdfc32cf628ea1c6456df421b2d3d23b2c
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 78%
 
 ---
 
@@ -19,4 +19,11 @@ ht-degree: 100%
 **セルから日付を設定するには**
 
 1. [!UICONTROL リクエストウィザード：ステップ 1] で、「**[!UICONTROL セルから日付を選択]**」を選択します。
-1. 「**[!UICONTROL 開始日]**」フィールドと「**[!UICONTROL 終了日]**」フィールドにセル参照を入力するか、選択ボタンをクリックして開始日および終了日のリクエストを含むセルを選択します。例えば、日付範囲を「昨日」に設定した Report Builder リクエストを作成し、「today()-1」と同じセルにリクエスト日を出力します。
+1. 次の場所にセル参照を入力 **[!UICONTROL 送信者]** および **[!UICONTROL 宛先]** フィールドを選択するか、セレクターをクリックして、開始日と終了日のリクエストを含むセルを選択します。
+
+   例えば、日付範囲を「昨日」に設定した Report Builder リクエストを作成し、「today()-1」と同じセルにリクエスト日を出力します。
+
+次に、サポートされる日付形式のリストを示します。
+
+![サポートされている日付形式を示すスクリーンショット。](assets/date-formats.png)
+
