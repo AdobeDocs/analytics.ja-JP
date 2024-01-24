@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 67%
 
 セグメントは、 [!UICONTROL 訪問者], [!UICONTROL 訪問]、および [!UICONTROL ヒット] 階層の階層をネストされたコンテナモデルを使用して作成します。 ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
-セグメントビルダーでセグメントを作成して保存することも、Analysis Workspace でフォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。また、セグメントは、 [積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+セグメントビルダーでセグメントを作成して保存することも、フォールアウトレポートから ( [!UICONTROL Analysis Workspace]) をクリックします。 また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。また、セグメントは、 [積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 セグメントによる識別
 
