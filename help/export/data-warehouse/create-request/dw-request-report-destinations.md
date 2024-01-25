@@ -3,9 +3,9 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ ht-degree: 10%
 >
 >* レポートの送信先には、クラウドアカウントまたは電子メールを使用することをお勧めします。 レガシー FTP および SFTP アカウントを使用できますが、お勧めしません。
 >
->* Data Warehouseリクエストは、Adobe Analyticsユーザーアカウントに関連付けられます。 デフォルトでは、他のユーザーは設定したリクエストを使用または表示できません。 組織内の他のData Warehouseがユーザーリクエストを利用できるようにするには、 **すべての宛先を表示** 切り替え ( [Data Warehouseリクエストの一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* 以前に設定したクラウドアカウント [データフィード](/help/export/analytics-data-feed/create-feed.md) または [Adobe Analytics分類データのインポート](/help/components/locations/locations-manager.md) は、Data Warehouseに使用できます。 ただし、分類データのインポート用に設定されている場所は使用できません。
 >
->* 以前に使用したすべてのクラウドアカウント [データフィード用に設定](/help/export/analytics-data-feed/create-feed.md) は、Data Warehouseに使用できます。
+>* クラウドアカウントはAdobe Analyticsユーザーアカウントに関連付けられています。 他のユーザーは、設定したクラウドアカウントを使用または表示できません。
 >
->* 用に設定されたクラウドアカウント [Adobe Analytics分類データのインポート](/help/components/locations/locations-manager.md) クラウドからの宛先は、レポートの宛先を設定する際に使用できます。 ただし、分類データのインポート用に設定されている場所は使用できません。
 
 Data Warehouseレポートの送信先を設定するには：
 
