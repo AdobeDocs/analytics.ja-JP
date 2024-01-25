@@ -1,19 +1,20 @@
 ---
-description: サーバーサイド転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバーサイド転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
+description: サーバーサイド転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。以下の手順では、サーバー側転送が正しく有効になっていることを確認するために存在する必要がある指標を示しています。
 solution: Analytics
 title: サーバーサイド転送の実装の確認方法
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
 # サーバーサイド転送の実装の確認方法
 
-サーバーサイド転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバーサイド転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
+サーバーサイド転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。次の手順は、サーバー側転送が正しく有効になっていることを確認するために存在する必要がある指標を示しています。
 
 サーバーサイド転送のステータスを確認するには：
 
@@ -30,4 +31,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Charles Web デバッガー](https://www.charlesproxy.com/)
-

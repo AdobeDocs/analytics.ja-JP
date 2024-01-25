@@ -4,10 +4,11 @@ subtopic: Marketing channels
 title: マーケティングチャネルの有効期限
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 >
 > マーケティングチャネルに関する一般情報については、[マーケティングチャネルの基本を学ぶ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。
 >
-> Attribution と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+> アトリビューションとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、いくつかの [改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの有効期限]**。
 

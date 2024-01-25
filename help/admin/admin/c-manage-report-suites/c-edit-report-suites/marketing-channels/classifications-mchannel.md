@@ -3,10 +3,11 @@ title: マーケティングチャネルでの分類
 description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 >
 > マーケティングチャネルに関する一般情報については、[マーケティングチャネルの基本を学ぶ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。
 >
-> Attribution と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+> アトリビューションとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、いくつかの [改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの分類]**。
 

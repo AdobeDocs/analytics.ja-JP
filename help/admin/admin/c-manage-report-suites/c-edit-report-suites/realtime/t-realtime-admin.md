@@ -3,10 +3,10 @@ description: リアルタイムレポートを設定するための管理者の�
 title: リアルタイムレポートの設定
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 リアルタイムレポートを設定するための管理者の手順です。
 
-Reports &amp; Analytics 内でリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
+Adobe Analyticsでリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
@@ -55,6 +55,6 @@ Reports &amp; Analytics 内でリアルタイムレポートを設定する手�
 
 1. 「**[!UICONTROL 保存]**」または「**[!UICONTROL レポートを保存して表示]**」をクリックします。
 
-   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ja)を参照してください。
+   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降、データは直ちに使用可能になります。
 
 1. デフォルトでは、すべてのユーザーがリアルタイムレポートにアクセスします。

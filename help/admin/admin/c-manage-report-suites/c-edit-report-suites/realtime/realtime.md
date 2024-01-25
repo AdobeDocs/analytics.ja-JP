@@ -3,10 +3,10 @@ description: Web ページのトラフィックを表示し、ページビュー
 title: リアルタイムレポート
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,11 @@ ht-degree: 100%
 
 Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 
+
+
 >[!NOTE]
 >
->リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) を参照してください。
+>リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートを設定するには、 [リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 以下は、このトピックの概要に関するビデオです。
 
@@ -46,7 +48,7 @@ Web ページのトラフィックを表示し、ページビューをリアル�
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較することができます。
 
-永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、[リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) を参照してください。
+永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、 [リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 

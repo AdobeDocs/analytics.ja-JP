@@ -1,12 +1,13 @@
 ---
-description: グレゴリオ暦以外のカレンダーオプションです。オプションには 4-4-5 制、4-5-4 制および 5-4-4 制のカレンダーモデルがあり、すべて小売業界では標準として使用されています。さらに、レポーティングでは、自分で設定できる完全にカスタマイズ可能なカレンダーのオプションを提供しています。
+description: グレゴリオ暦以外のカレンダーオプションです。オプションには 4-4-5 制、4-5-4 制および 5-4-4 制のカレンダーモデルがあり、すべて小売業界では標準として使用されています。また、レポートには、完全にカスタマイズ可能なカレンダーが用意されています。自分で設定することもできます。
 title: カレンダーのカスタマイズ
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
 

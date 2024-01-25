@@ -4,9 +4,10 @@ title: タイムスタンプオプション
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '319'
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 100%
 
 * テンプレートから作成された場合、新しいレポートスイートでは、デフォルトでタイムスタンプオプションが設定されます。
 
-   （**管理者／レポートスイート／新規作成／レポートスイート**&#x200B;で、テンプレートから新しいレポートスイートを作成できます。）
+  （**管理者／レポートスイート／新規作成／レポートスイート**&#x200B;で、テンプレートから新しいレポートスイートを作成できます。）
 * 既存のレポートスイートからコピーした場合、新しいレポートスイートは、元のレポートスイートから次のようなタイムスタンプ設定を継承します。
 
    * **タイムスタンプを使用できない**（s.visitorID の設定はサポートされている）

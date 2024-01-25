@@ -4,10 +4,10 @@ title: サポートされるリアルタイム指標とディメンション（�
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '107'
-ht-degree: 100%
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 リアルタイムレポートでサポートされる指標とディメンションを一覧表示します。分類もサポートされます（分類を定義している場合）。
 
-## サポートされる指標 {#section_514ED8B382494C47BFC0657894D1AF94}
+## サポートされる指標 {#metrics}
 
 * 売上高
 * 注文件数
@@ -28,7 +28,7 @@ ht-degree: 100%
 * インスタンス
 * カスタムイベント 1 ～ 100 件（レポートスイートで有効な場合）
 
-## サポートされるディメンション {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## サポートされるディメンション {#dimensions}
 
 * ページ
 * 検索キーワード

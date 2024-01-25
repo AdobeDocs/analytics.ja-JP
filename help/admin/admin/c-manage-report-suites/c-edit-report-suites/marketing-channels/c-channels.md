@@ -4,7 +4,8 @@ subtopic: Marketing channels
 title: マーケティングチャネルの管理
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 94%

@@ -4,10 +4,11 @@ solution: Analytics
 title: サーバーサイド転送の概要
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 
@@ -49,12 +50,12 @@ ht-degree: 0%
 * **&quot;status&quot;:&quot;SUCCESS&quot;**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
 * **2 x 2 の画像**：サーバーサイド転送および Audience Management モジュールは実装されていません。修正手順を以下に示します。
 
-   * **Adobe Audience ManagerDILのお客様**:以下の 2 つの項目を密接に連携させます。
+   * **Adobe Audience ManagerDILのお客様**：以下の 2 つの項目を密接に連携させます。
 
       1. DIL コードを削除し、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバーサイド転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
 
-   * **新しいAdobe Audience Managerのお客様**  — インストール [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja) ページコードを参照して、手順 3 に進みます。 手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
+   * **新しいAdobe Audience Managerのお客様**  — をインストールします。 [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja) ページコードを参照して、手順 3 に進みます。 手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
 
 ## ![step3_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) レポートスイートのサーバーサイド転送の実装の確認
 

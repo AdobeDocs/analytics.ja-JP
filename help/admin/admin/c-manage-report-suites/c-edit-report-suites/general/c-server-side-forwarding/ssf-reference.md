@@ -3,10 +3,11 @@ description: サーバーサイド転送コールでの設定変数、HTTP ヘ�
 title: サーバーサイド転送のデータとコードのリファレンス
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 97%
 
 ---
 
@@ -53,12 +54,12 @@ ht-degree: 100%
 | `c_colorDepth` | 16 ビットまたは 32 ビットカラーとして指定します。 |
 | `c_connectionType` | 接続のタイプを指定します。次に、オプションを示します。<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | 例：<ul><li>AppMeasurement：`s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>シグナル：`c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
+| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。次のオプションがあります。はい、いいえ、不明 |
 | `c_currencyCode` | トランザクションに使用する通貨のタイプ。 |
 | `c_evar#` | カスタム eVar |
 | `c_events` | `s.events` で設定。 |
 | `c_hier#` | カスタム階層変数。 |
-| `c_javaEnabled` | Java を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
+| `c_javaEnabled` | Java を有効にできるかどうかを指定します。次のオプションがあります。はい、いいえ、不明 |
 | `c_javaScriptVersion` | ブラウザーでサポートされている JavaScript のバージョン。 |
 | `c_latitude` | 緯度（数値） |
 | `c_linkClick` | オプション：カスタム、ダウンロード終了 |
@@ -67,7 +68,7 @@ ht-degree: 100%
 | `c_linkExitURL` | 離脱リンクの URL。 |
 | `c_list#` | カスタムリスト変数。 |
 | `c_longitude` | 経度（数値）。 |
-| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。次に、オプションを示します。  その他、Primetime |
+| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。オプションは次のとおりです。その他、primetime |
 | `c_pageName` | ページ名（設定されている場合）。 |
 | `c_pageURL` | ブラウザーのアドレスバーに表示されるページのアドレス。 |
 | `c_products` | 製品文字列（`s.products` で設定）。 |
