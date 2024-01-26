@@ -3,9 +3,10 @@ description: ユーザー移行の影響を受ける API の一覧を示しま�
 title: ユーザー移行の影響を受ける API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
-workflow-type: ht
-source-wordcount: '240'
+role: Admin, Developer
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 アドビでは、すべての会社が Analytics にログインする方法を [!DNL my.omniture.com] から、Adobe Experience Cloud 経由での認証に移行しています。会社の移行が始まると、Analytics Admin API の v1.3 および v1.4 経由で利用可能な Analytics 固有の権限および `GetLoginKey` メソッドによる、プログラミングを使用したユーザーの作成と管理はサポートされなくなります。これらのアクションは、[!DNL adobe.io] から Experience Cloud 全体で有効化されるようになります。
 
-## 影響を受ける API メソッド {#section-d19051ac26cc49aeb124f767c4760254}
+## 影響を受ける API メソッド {#methods}
 
 ユーザーの移行を開始すると、Admin API の v1.3 および v1.4 では次の API メソッドがサポートされなくなります。
 
@@ -33,7 +34,7 @@ ht-degree: 100%
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## 実行できるアクション {#section-8b0b89a862614f729ebdbe092ce99027}
+## 実行できるアクション {#actions}
 
 会社が現在これらの方法を使用している場合は、2018 年 4 月 1 日から始まった移行前通知を探してください。通知は、会社が Experience Cloud 認証への移行を開始する少なくとも 30 日前に送信されます。その時点で、これらのメソッドのサポートは中止されます。
 

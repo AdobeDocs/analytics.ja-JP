@@ -3,9 +3,10 @@ title: Adobe Analytics の管理者の役割
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '1128'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---
@@ -36,7 +37,7 @@ Adobe Analytics を使用する際は、次の主要な役割を考慮します�
 
 Adobe Analytics アクセス権を自分自身または他のユーザーに付与するには：
 
-1. Adobe ID の認証情報を使用して [Admin Console](https://adminconsole.adobe.com/) にログインします。
+1. Adobe ID の資格情報を使用して [Admin Console](https://adminconsole.adobe.com/) にログインします。
 1. 上部の「**[!UICONTROL 製品]**」タブをクリックします。組織が購入した製品はすべて左側に表示されます。「**[!UICONTROL Adobe Analytics]**」をクリックし、「**[!UICONTROL 新しいプロファイル]**」ボタンをクリックします。
 1. このプロファイルに「Analytics の管理者フルアクセス」という名前を付けて、**[!UICONTROL 次へ]**／**[!UICONTROL 保存]**&#x200B;をクリックします。
 1. 製品プロファイルページに戻り、新しく作成したプロファイルをクリックして、「**[!UICONTROL 権限]**」タブをクリックします。
@@ -53,7 +54,7 @@ Adobe Analytics アクセス権を自分自身または他のユーザーに付�
 
 Experience Platform のデータ収集の製品管理者アクセスは、Analytics の製品管理者アクセス権を付与するのとほとんど同じです。
 
-1. Adobe ID の認証情報を使用して [Adobe Admin Console](https://adminconsole.adobe.com) にログインします。
+1. Adobe ID の資格情報を使用して [Adobe Admin Console](https://adminconsole.adobe.com) にログインします。
 1. 上部の「**[!UICONTROL 製品]**」タブをクリックします。組織が購入した製品はすべて左側に表示されます。「**[!UICONTROL Experience Platform Launch]**」をクリックし、「**[!UICONTROL 新しいプロファイル]**」をクリックします。
 1. このプロファイルに「データ収集の管理者フルアクセス」という名前を付け、「**[!UICONTROL 完了]**」をクリックします。
 1. **[!UICONTROL 製品プロファイル]**&#x200B;ページに戻り、新しく作成したプロファイルをクリックして、「**[!UICONTROL 権限]**」タブをクリックします。

@@ -1,18 +1,19 @@
 ---
-title: Adobe Analytics first admin guide
+title: Adobe Analytics はじめての管理ガイド
 description: 最初の管理プロビジョニングプロセスの実行方法と次の手順を理解します。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 43%
 
 ---
 
-# Adobe Analytics first admin guide
+# Adobe Analytics はじめての管理ガイド
 
-ユーザーにAdobe Analyticsでロールを割り当てるには、その前に、Experience Cloudの最初の管理者としてユーザーを割り当てる必要があります。 最初の管理者は、組織内のユーザーに他の主要な役割を割り当てることができます。
+Adobe Analytics で任意のユーザーに役割を割り当てる前に、1 人のユーザーを Experience Cloud の最初の管理者として割り当てる必要があります。最初の管理者は、組織内のユーザーに他の主要な役割を割り当てることができます。
 
 最初の管理者は、組織の残りのユーザーがAdobe Analyticsを含む各Experience Cloudソリューションを使用できるようにする出発点となります。
 
@@ -20,7 +21,7 @@ ht-degree: 19%
 
 契約の署名後：
 
-1. Adobeのプロビジョニングチームは、アカウントの作成を準備します。
+1. アドビのプロビジョニングチームは、アカウントを作成するための準備をします。
 
 1. 最初の管理者には、契約の開始日より前に、ログイン資格情報が記載された電子メールが送られます。
 

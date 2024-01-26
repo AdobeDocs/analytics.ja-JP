@@ -3,9 +3,10 @@ description: Adobe Analytics サーバーコールの使用に関する FAQ
 title: サーバーコールの使用状況の FAQ
 feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '696'
 ht-degree: 93%
 
 ---

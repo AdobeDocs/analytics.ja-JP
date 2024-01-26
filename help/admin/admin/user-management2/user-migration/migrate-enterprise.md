@@ -3,14 +3,15 @@ description: Analytics ユーザーアカウントを Enterprise ID または Fe
 title: Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
-source-wordcount: '763'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
-# Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 {#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 
 
 Analytics ユーザーアカウントを Enterprise ID または Federated ID として Adobe Admin Console に移行する方法。
 
@@ -127,7 +128,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列のドメインが、前提条件</a>で確立されたドメインと一致することを確認します。 </p> </td> 
+   <td colname="col2"> <p>でドメインが <span class="term"> ドメイン</span> および <span class="term"> 電子メール</span> 列は、前提条件で確立されたドメインと一致しています</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 

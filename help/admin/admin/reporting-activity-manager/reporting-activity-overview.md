@@ -1,11 +1,13 @@
 ---
 description: レポートアクティビティマネージャーを使用して、ピーク時のレポート作成時の容量の問題を診断および修正する方法について説明します。
-title: レポートアクティビティマネージャーの概要
+title: Activity Manager のレポートの概要
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 23%
 
 The [!UICONTROL レポートアクティビティマネージャー] は管理者が使用できます。
 
-ピーク時のレポート作成パフォーマンスが低下した場合、Reporting Activity Manager を使用すると、Adobeカスタマーケアの介入なしに、容量の問題を自己診断し、修正できます。 単一のインターフェイス内でレポートキューを簡単に管理でき、即座に処理してユーザーエクスペリエンスを向上させることができます。
+ピーク時のレポート作成パフォーマンスが低下した場合、Reporting Activity Manager を使用すると、Adobeカスタマーケアの介入なしに、容量の問題を自己診断し、修正できます。 単一のインターフェイス内でレポートキューを簡単に管理でき、即座に処理して&#x200B;ユーザーエクスペリエンスを向上させることができます。
 
 ## メリット
 
@@ -38,4 +40,3 @@ Activity Manager のレポートには次のような利点があります。
 ## レポートリクエストのキャンセル
 
 レポートアクティビティマネージャでのレポート要求の取り消しについては、 [レポートアクティビティマネージャーでのレポート要求のキャンセル](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
-

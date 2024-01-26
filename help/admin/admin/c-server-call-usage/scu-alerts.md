@@ -3,9 +3,10 @@ description: サーバーのすべての使用状況アラートを追加また�
 title: サーバーコールの使用状況アラート
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '524'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # サーバーコールの使用状況アラート
 
 アラートをセットアップすると、請求会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
-
-## 概要
 
 **[!UICONTROL サーバーコールの使用状況アラート]**&#x200B;という新しいアラートカテゴリーが既存の[アラート管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ja)ユーザーインターフェイスに追加されます。
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 * 「現在の使用状況」タブまたは「レポートスイートの使用状況」タブの右上隅にある「**[!UICONTROL アラートを管理]**」をクリックします。
 * Adobe Analytics で&#x200B;**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**&#x200B;を選択します。
 
-## サーバーコールの使用状況アラートの作成 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## サーバーコールの使用状況アラートの作成 {#create}
 
 追加のアラートを作成するには、以下の手順に従います。
 
@@ -58,7 +57,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## サーバーコールの使用状況アラートの管理 {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## サーバーコールの使用状況アラートの管理 {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -75,5 +74,7 @@ ht-degree: 100%
    | 名前変更 | デフォルトアラートを除くすべてのアラートの名前を変更できます。 |
    | 承認 | アラートを承認して、「正式な」アラートにします。 |
    | 有効 / 無効 | デフォルトアラートを含め、すべてのアラートを有効または無効にすることができます。 |
-   | 更新 | 1 つまたは複数のアラートが選択されている場合、更新できます。これにより、元の有効期限にかかわらず、「[!UICONTROL 更新]」がクリックされた日から 1 年先に有効期限が延長されます。 |
+   | 更新 | 1 つ以上のアラートを選択すると、それらを更新できます。これにより、元の有効期限日に関係なく、有効期限日を「[!UICONTROL 更新]」をクリックした日の 1 年先に延長できます。 |
    | CSV に書き出し | [使用状況レポートのダウンロード](/help/admin/admin/c-server-call-usage/report-suite-usage.md)を参照してください。 |
+
+   {style="table-layout:auto"}

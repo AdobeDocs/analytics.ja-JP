@@ -3,7 +3,8 @@ title: Analytics ツールの製品プロファイル権限
 description: Analytics ツールの権限の項目を使用して、Adobe Analytics 内の機能へのアクセス権を付与します。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 91%

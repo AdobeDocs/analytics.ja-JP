@@ -1,22 +1,17 @@
 ---
-description: レポートスイートタイプの説明とグローバルレポートスイートとロールアップレポートスイートの比較。
-title: レポートスイートのアプローチ
+description: グローバルレポートスイートの説明
+title: グローバルレポートスイート
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# レポートスイートのアプローチ
-
-<!-- change filename since page name changed? -->
-
-レポートスイートは、グローバルレポートスイート&#x200B;**&#x200B;またはロールアップレポートスイート&#x200B;**&#x200B;のいずれかとして設定できます。
-
-## グローバルレポートスイート
+# グローバルレポートスイート
 
 グローバルレポートスイートは、組織が所有するすべてのドメインとアプリケーションからデータを収集します。すべてのイメージリクエストを単一のレポートスイートに送信するための実装が必要です。
 
@@ -38,13 +33,13 @@ ht-degree: 89%
 
 マルチスイートタグ付けの代わりに仮想レポートスイートを使用することは、多くの場合、ベストプラクティスですが、仮想レポートスイートにはいくつかの制限があります。ビジネスニーズに最適なレポートスイートのアプローチを決定するには、[仮想レポートスイートとマルチスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。仮想レポートスイートとマルチスイートタギング機能の詳細な比較については、[仮想レポートスイートと複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## ロールアップレポート
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] は、ロールアップレポートをサポートする唯一のツールです。 Reports &amp; Analytics は、2024 年 1 月 17 日に提供終了となりました。
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

@@ -3,9 +3,10 @@ description: コードマネージャーを使用すると、Web およびモバ
 title: コードマネージャー
 feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '132'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,14 @@
 description: Adobe Admin Consoleで Analytics ユーザーとそのアセットを管理します。
 title: Analytics ユーザーとアセットの管理
 feature: Admin Tools
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
-
 
 # ユーザーアセットの転送またはアカウント有効期限の設定
 
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 ほとんどのユーザー管理機能と製品管理機能はAdobe Admin Consoleでのみ使用できますが、このページで説明する管理機能はAdobe Analytics管理領域からのみ使用できます。
 
-## ある Analytics ユーザーから別のユーザーにアセットを転送する
+## ある Analytics ユーザーから別のユーザーにアセットを転送する {#transfer}
 
 1. に移動します。 **管理者** > [!UICONTROL **Analytics ユーザーおよびアセット**].
 ユーザーページが表示されます。
@@ -27,12 +28,12 @@ ht-degree: 1%
    ![ユーザーアカウントの有効期限を設定](assets/manage-user-assets.png)
 1. 選択 [!UICONTROL **アセットを転送**].
 1. アセットを転送ページで、 [!UICONTROL **アセットの転送先**] 「 」フィールドに、アセットの転送先となるユーザーの名前を入力し、ドロップダウンメニューに表示されたら名前を選択します。
-1. 内 [!UICONTROL **転送するアカウント項目を選択**] セクションで、に移動して転送するアセットを選択し、「 」を選択します。 [!UICONTROL **転送**].
+1. Adobe Analytics の [!UICONTROL **転送するアカウント項目を選択**] セクションで、に移動して転送するアセットを選択し、「 」を選択します。 [!UICONTROL **転送**].
 
-   選択したアセットは指定されたユーザーに転送されます。
+   選択したアセットは、指定されたユーザーに転送されます。
 
 
-## ユーザーアカウントの有効期限を設定する
+## ユーザーアカウントの有効期限を設定する {#expiration}
 
 1. に移動します。 **管理者** > [!UICONTROL **Analytics ユーザーおよびアセット**].
 ユーザーページが表示されます。

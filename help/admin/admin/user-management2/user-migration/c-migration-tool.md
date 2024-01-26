@@ -3,10 +3,11 @@ description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin C
 title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '3162'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +104,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー ID を移行するにはどうしたらよいですか。 </p> </td> 
-   <td colname="col2"> <p> 管理者ページの「ユーザー管理」の下にある「<a href="/help/admin/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">ユーザー ID を移行</a>」をクリックします。ツールを使用して、ユーザーを Adobe Admin Console の製品プロファイル（Analytics の権限グループから複製したもの）に追加します。ユーザー ID の移行は自分のペースで行うことができます。 </p> <p>管理権限が必要です。移行が完了したら、元に戻すことはできません。 </p> <p>移行終了日になると、ログイン会社内のユーザーの <span class="filepath">my.omniture.com</span> へのアクセス権が無効になります。ユーザー（まだ移行されていないユーザーを含む）は、新しい Experience Cloud URL（<span class="filepath">experiencecloud.adobe.com</span>）にリダイレクトされます。 </p> <p>メモ：移行前に、ユーザーおよびグループを監査することをお勧めします。古い未使用のアカウントや、製品へのアクセス権を持つべきではなくなっているアカウント（もう組織にいない従業員など）を削除してください。 </p> <p>関連トピック：<a href="/help/admin/admin/user-management2/user-migration/migrate-enterprise.md">Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行</a>。 </p> </td> 
+   <td colname="col2"> <p> クリック <a href="/help/admin/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> ユーザー ID を移行</a> 管理ページの「ユーザー管理」で、 ツールを使用して、ユーザーを Adobe Admin Console の製品プロファイル（Analytics の権限グループから複製したもの）に追加します。ユーザー ID の移行は自分のペースで行うことができます。 </p> <p>管理権限が必要です。移行が完了したら、元に戻すことはできません。 </p> <p>移行終了日になると、ログイン会社内のユーザーの <span class="filepath">my.omniture.com</span> へのアクセス権が無効になります。ユーザー（まだ移行されていないユーザーを含む）は、新しい Experience Cloud URL（<span class="filepath">experiencecloud.adobe.com</span>）にリダイレクトされます。 </p> <p>メモ：移行前に、ユーザーおよびグループを監査することをお勧めします。古い未使用のアカウントや、製品へのアクセス権を持つべきではなくなっているアカウント（もう組織にいない従業員など）を削除してください。 </p> <p>関連トピック：<a href="/help/admin/admin/user-management2/user-migration/migrate-enterprise.md">Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行は Analytics の実装やデータの収集方法に影響しますか。 </p> </td> 
@@ -317,7 +318,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
 
 まもなく、すべての Adobe Analytics アカウントを [!DNL https://my.omniture.com/login/] から Adobe Experience Cloud（[experiencecloud.adobe.com](https://experiencecloud.adobe.com/)）に移行する処理を開始します。この移行に伴い、Adobe Analytics アカウントがアップグレードされ、Adobe Experience Cloud を通じて Analytics にアクセスできるようになります。Analytics にアクセスする方法は変わりますが、レポートスイートやツールに対する既存の権限はすべて維持されます。
 
-**次の手順：**&#x200B;ユーザーの移行について、**日付の挿入**&#x200B;から開始します。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/jp/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
+**次の手順：** ユーザーの移行は **日付の挿入**. ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/jp/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
 
 **参考情報：**
 

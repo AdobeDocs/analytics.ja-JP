@@ -3,10 +3,11 @@ title: IP アドレスによる除外
 description: 特定の IP アドレスで生成されたデータがレポートに表示されないようにします。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 93%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
@@ -30,4 +31,4 @@ ht-degree: 93%
 
 IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。
 
-最後のオクテットが削除されると、IP フィルタリングの前に行われます。最後のオクテットが 0 に置換されるので、末尾が 0 の IP アドレスに一致するように IP 除外ルールを更新します。一致 &#42; は 0 に一致する必要があります。
+最後のオクテットが削除されると、IP フィルタリングの前に行われます。最後のオクテットが 0 に置換されるので、末尾が 0 の IP アドレスに一致するように IP 除外ルールを更新します。「&#42; に一致」は、0 にも一致します。

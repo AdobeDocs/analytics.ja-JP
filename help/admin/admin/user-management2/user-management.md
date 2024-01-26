@@ -4,9 +4,10 @@ subtopic: Users and groups
 title: ユーザーと製品の管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
-workflow-type: ht
-source-wordcount: '278'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -19,7 +20,7 @@ Adobe Admin Console で Analytics ユーザー、グループおよび製品を�
 >
 >ユーザーと製品の管理は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。Adobe Analytics ユーザーに対するユーザー権限の管理を開始するには、[Admin Console での Adobe Analytics](/help/admin/admin-console/home.md) を参照してください。
 
-## Adobe Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
+## Adobe Admin Console 管理者向けヘルプリソース {#help}
 
 | タスクまたはリソース | 説明 |
 | --- | --- |

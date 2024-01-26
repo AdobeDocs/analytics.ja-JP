@@ -3,14 +3,15 @@ description: Analytics ユーザーの従来のログインを無効化する方
 title: 従来のログインの無効化
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# 従来のログインの無効化{#disable-legacy-logins}
+# 従来のログインの無効化
 
 Analytics ユーザーの従来のログインを無効化する方法を学習します。
 

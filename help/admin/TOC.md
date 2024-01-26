@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '631'
 ht-degree: 91%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 91%
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
-      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [グローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
       + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新しいレポートスイート {#c-new-report-suite}

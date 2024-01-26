@@ -3,10 +3,11 @@ title: Admin Console での Adobe Analytics
 description: Adobe Admin Console を使用して、Analytics の製品とユーザーを管理します。
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
 

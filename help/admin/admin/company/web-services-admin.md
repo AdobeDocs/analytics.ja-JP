@@ -3,10 +3,11 @@ description: Web Services API を使用すると、Analytics インターフェ�
 title: Web サービス
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 80%
+source-wordcount: '292'
+ht-degree: 75%
 
 ---
 
@@ -14,12 +15,12 @@ ht-degree: 80%
 
 Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL 会社の設定]**／**[!UICONTROL web サービス]** または **[!UICONTROL API アクセス]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL カンパニー設定]** > **[!UICONTROL Web サービス]** または **[!UICONTROL API アクセス]**
 
 
 ## Analytics 2.0 API
 
-Analytics 2.0 API にアクセスするには、Analytics 会社のグローバル会社 ID が必要です。 グローバル企業 ID は、 **太字** の最上部に [!UICONTROL API アクセス] 」セクションに入力します。 次に例を示します。「現在ログインしている Analytics 会社のグローバル会社 ID は、 **adobe1234**.&quot;
+Analytics 2.0 API にアクセスするには、Analytics 会社のグローバル会社 ID が必要です。 グローバル企業 ID は、 **太字** の最上部に [!UICONTROL API アクセス] 」セクションに入力します。 次に例を示します。「現在ログインしている Analytics の会社のグローバル会社 ID は、 **adobe1234**.&quot;
 
 ## 従来の Web サービスの管理（廃止）
 
