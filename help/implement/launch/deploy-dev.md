@@ -3,7 +3,8 @@ title: 開発環境への Adobe Analytics のデプロイ
 description: タグを使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
 feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 48%

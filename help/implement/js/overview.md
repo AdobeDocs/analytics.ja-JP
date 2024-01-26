@@ -3,10 +3,11 @@ title: JavaScript 版AppMeasurementを使用したAdobe Analyticsの実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 49%
+ht-degree: 42%
 
 ---
 
@@ -29,7 +30,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurementに必要な JavaScript コードのダウンロード</b> を使用します。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
+<td>2</td><td><b>AppMeasurementに必要な JavaScript コードのダウンロード</b> 」をクリックします。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
 </tr>
 
 <tr>
@@ -46,7 +47,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>4</td><td><b><code>AppMeasurement.js</code></b> で設定変数を定義します。Analytics オブジェクトがインスタンス化される際に、これらの変数は、データ収集の設定が正しいことを確認します。
+<td>4</td><td><b>内で設定変数を定義する <code>AppMeasurement.js</code></b>. Analytics オブジェクトがインスタンス化される際に、これらの変数は、データ収集の設定が正しいことを確認します。
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>サイトのページコード内でページレベルの変数を定義する</b>. これらの変数は、アドビに送信される特定のディメンションと指標を決定します。
+<td>5</td><td><b>サイトのページコード内でページレベルの変数を定義する</b>. これらの変数は、Adobeに送信される特定のディメンションと指標を決定します。
 
 ```js
 s.pageName = "Example page";
@@ -73,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>を使用してAdobeにデータを送信 <code>t()</code> メソッド</b>（すべてのページ変数が定義されている場合）
+<td>6</td><td><b>を使用してAdobeにデータを送信する <code>t()</code> メソッド</b>（すべてのページ変数が定義されている場合）
 
 ```js
 s.t();

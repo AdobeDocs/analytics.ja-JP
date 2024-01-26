@@ -3,8 +3,9 @@ title: クロスデバイス訪問者特定に関する FAQ
 description: クロスデバイス訪問者特定に関するよくある質問（FAQ）
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # クロスデバイス訪問者特定に関する FAQ
 
-クロスデバイス訪問者特定に関するよくある質問（FAQ）。
+クロスデバイス訪問者特定に関するよくある質問です。
 
 +++クロスデバイス訪問者特定とクロスデバイス分析の違いは何ですか？
 クロスデバイス訪問者特定では、`visitorID` 変数を使用してデバイスを結び付けますが、いくつかの大きな制限があります。この識別方法の最も大きな制限の 1 つは、デバイスが既に認識されていない限り、未認証のヒットが分離されることです。これらの未認証ヒットは、ユニーク訪問者数を水増しする可能性があります。

@@ -3,9 +3,10 @@ title: s_gi()
 description: AppMeasurement のインスタンスを作成し、追跡します。
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
-source-wordcount: '494'
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '481'
 ht-degree: 100%
 
 ---

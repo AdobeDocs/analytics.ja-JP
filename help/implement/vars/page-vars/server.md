@@ -3,10 +3,11 @@ title: サーバー
 description: 「サーバー」ディメンションを設定します。
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 75%
+source-wordcount: '183'
+ht-degree: 74%
 
 ---
 
@@ -26,12 +27,12 @@ ht-degree: 75%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL サーバー]セクションを探します。
 
 サーバーは任意の文字列値またはデータ要素に設定できます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.server
+## AppMeasurement内の s.server と Analytics 拡張機能のカスタムコードエディター
 
 `s.server` 変数は、通常、サイトのホスト名を含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。
 

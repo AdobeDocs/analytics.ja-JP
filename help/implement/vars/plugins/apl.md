@@ -3,9 +3,10 @@ title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '672'
 ht-degree: 90%
 
 ---

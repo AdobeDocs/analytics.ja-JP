@@ -1,11 +1,12 @@
 ---
 title: getQueryParam
-description: URL のクエリー文字列パラメーターの値を抽出します。
+description: URL のクエリ文字列パラメーターの値を抽出します。
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 74%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 74%
 
 {{plug-in}}
 
-`getQueryParam` プラグインを使用すると、URL に含まれるクエリー文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリー文字列パラメーターを抽出する場合にも役立ちます。
+`getQueryParam` プラグインを使用すると、URL に含まれるクエリ文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリ文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリー文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Web SDK またはAdobe Analytics拡張機能を使用するか、 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドが AppMeasurement に含まれています。
+このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Web SDK またはAdobe Analytics拡張機能を使用するか、 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドがAppMeasurementに含まれます。
 
 ## Web SDK 拡張機能を使用したプラグインのインストール
 
@@ -25,11 +26,11 @@ Adobeには、Web SDK で最もよく使用されるプラグインを使用で�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張：共通の Web SDK プラグイン
-   * データ要素: `getQueryParam`
+1. 次の設定を使用して、目的のデータ要素名を設定します。
+   * 拡張機能：Common Web SDK Plugins
+   * データ要素： `getQueryParam`
 1. 右側に目的のパラメーターを設定します。
 1. 変更を保存し、データ要素に公開します。
 
@@ -75,9 +76,9 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 `getQueryParam` 関数は次の引数を使用します。
 
-* **`qsp`**（必須）：URL 内で検索するクエリー文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
-* **`de`**（任意）：複数のクエリー文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
-* **`url`**（任意）：クエリー文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
+* **`qsp`**（必須）：URL 内で検索するクエリ文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
+* **`de`**（任意）：複数のクエリ文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
+* **`url`**（任意）：クエリ文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
 
 この関数を呼び出すと、上記の引数と URL に応じた値が返されます。
 
@@ -130,7 +131,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 4.0.1（2021 年 3 月 26 日（PT））
 
-* クエリーパラメーターがクエリー文字列に存在しない場合、「」の代わりに undefined が返される問題を更新しました。
+* クエリーパラメーターがクエリ文字列に存在しない場合、「」の代わりに undefined が返される問題を更新しました。
 
 ### 4.0（2021年3月19日）
 
@@ -147,7 +148,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 3.1（2018 年 5 月 10 日（PT））
 
-* 値のないクエリー文字列パラメーターの取得に関する問題を修正しました。
+* 値のないクエリ文字列パラメーターの取得に関する問題を修正しました。
 
 ### 3.0（2018 年 4 月 16 日（PT））
 
@@ -161,7 +162,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2.4
 
-* `h` パラメーターを追加し、ハッシュ文字（`#`）の後に見つかったクエリー文字列パラメーターをコードで検索できるようになりました。
+* `h` パラメーターを追加し、ハッシュ文字（`#`）の後に見つかったクエリ文字列パラメーターをコードで検索できるようになりました。
 
 ### 2.3
 

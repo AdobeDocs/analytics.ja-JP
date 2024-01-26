@@ -3,10 +3,11 @@ title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 73%
+source-wordcount: '588'
+ht-degree: 72%
 
 ---
 
@@ -23,11 +24,11 @@ Adobeには、Web SDK で最もよく使用されるプラグインを使用で�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張：共通の Web SDK プラグイン
-   * データ要素: `getTimeSinceLastVisit`
+1. 次の設定を使用して、目的のデータ要素名を設定します。
+   * 拡張機能：Common Web SDK Plugins
+   * データ要素： `getTimeSinceLastVisit`
 1. 変更を保存し、データ要素に公開します。
 
 ## Web SDK の手動実装プラグインのインストール

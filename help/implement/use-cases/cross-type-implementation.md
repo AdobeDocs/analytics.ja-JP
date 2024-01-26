@@ -3,9 +3,10 @@ title: 異なる実装タイプでのトラッキング
 description: 異なる実装タイプを使用し、訪問者をシームレスに追跡します。
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '357'
 ht-degree: 100%
 
 ---

@@ -3,10 +3,11 @@ title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 72%
+source-wordcount: '349'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 72%
 
 ## Web SDK 拡張機能を使用したトラック後のコールバック
 
-準備中!
+近日開始！
 
 ## 追跡後のコールバックによる Web SDK の手動実装
 

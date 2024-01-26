@@ -3,9 +3,10 @@ title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '640'
 ht-degree: 74%
 
 ---
@@ -23,12 +24,12 @@ Adobeには、Web SDK で最もよく使用されるプラグインを使用で�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張：共通の Web SDK プラグイン
-   * データ要素: `getNewRepeat`
-1. を `daysBeforeReset` パラメーターを右側に配置します。
+1. 次の設定を使用して、目的のデータ要素名を設定します。
+   * 拡張機能：Common Web SDK Plugins
+   * データ要素： `getNewRepeat`
+1. を設定します。 `daysBeforeReset` パラメーターを右側に配置します。
 1. 変更を保存し、データ要素に公開します。
 
 ## Web SDK の手動実装プラグインのインストール

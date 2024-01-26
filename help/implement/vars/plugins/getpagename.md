@@ -3,10 +3,11 @@ title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 76%
+source-wordcount: '684'
+ht-degree: 75%
 
 ---
 
@@ -23,11 +24,11 @@ Adobeには、Web SDK で最もよく使用されるプラグインを使用で�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張：共通の Web SDK プラグイン
-   * データ要素: `getPageName`
+1. 次の設定を使用して、目的のデータ要素名を設定します。
+   * 拡張機能：Common Web SDK Plugins
+   * データ要素： `getPageName`
 1. 右側に目的のパラメーターを設定します。
 1. 変更を保存し、データ要素に公開します。
 
@@ -78,7 +79,7 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 `getPageName` 関数は次の引数を使用します。
 
 * **`si`**（オプション、文字列）：サイトの ID を表す文字列の先頭に挿入される ID。この値は、数値 ID またはわかりやすい名前にすることができます。設定しない場合は、デフォルトで現在のドメインが使用されます。
-* **`qv`**（オプション、文字列）：URL 内にある場合に文字列に追加されるクエリー文字列パラメーターのコンマ区切りリストです。
+* **`qv`**（オプション、文字列）：URL 内にある場合に文字列に追加されるクエリ文字列パラメーターのコンマ区切りリストです。
 * **`hv`**（オプション、文字列）：URL ハッシュに含まれるパラメーターのコンマ区切りリストです。URL 内に含まれる場合は文字列に追加されます。
 * **`de`**（オプション、文字列）：文字列の個々の部分を分割する区切り文字です。デフォルトはパイプ（`|`）です。
 

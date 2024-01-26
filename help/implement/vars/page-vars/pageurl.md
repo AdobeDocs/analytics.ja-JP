@@ -3,10 +3,11 @@ title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 80%
+source-wordcount: '305'
+ht-degree: 79%
 
 ---
 
@@ -30,12 +31,12 @@ Adobe Experience Platformデータ収集の Analytics 拡張機能により、�
 2. 目的のタグプロパティをクリックします。
 3. 「**[!UICONTROL ルール]**」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「**[!UICONTROL アクション]**」で、既存の「**[!UICONTROL Adobe Analytics - 変数を設定]**」アクションをクリックするか、「+」アイコンをクリックします。
-5. を **[!UICONTROL 拡張]** Adobe Analyticsのドロップダウンリスト **[!UICONTROL アクションタイプ]** から **[!UICONTROL 変数を設定]**.
+5. を設定します。 **[!UICONTROL 拡張]** Adobe Analyticsのドロップダウンリスト、 **[!UICONTROL アクションタイプ]** から **[!UICONTROL 変数を設定]**.
 6. **[!UICONTROL ページ URL]** セクションを見つけます。
 
 ページ URL は任意の文字列値に設定できます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.pageURL
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.pageURL
 
 `s.pageURL` 変数は、ページの URL を含む文字列です。AppMeasurement はこの変数を自動的に収集しますが、必要に応じてその値を上書きできます。
 

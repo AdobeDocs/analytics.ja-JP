@@ -3,10 +3,11 @@ title: writeSecureCookies
 description: AppMeasurement が Secure 属性を持つ cookie を設定することを許可します。
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 72%
+source-wordcount: '263'
+ht-degree: 76%
 
 ---
 
@@ -30,12 +31,12 @@ Analytics の cookie について詳しくは、[こちら](https://experiencele
 
 「[!UICONTROL 安全な Cookie を書き込む]」は、Adobe Analytics 拡張機能を設定する際の [!UICONTROL Cookie] アコーディオンの下にあるチェックボックスです。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. [!UICONTROL Cookies] アコーディオンを展開すると、「[!UICONTROL 安全な Cookie を書き込む]」チェックボックスが表示されます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.writeSecureCookies
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.writeSecureCookies
 
 この `s.writeSecureCookies` 変数は、AppMeasurement が cookie の作成時にセキュア属性を設定するかどうかを決定するブール値です。デフォルト値は `false` です。サイト上のすべてのコンテンツがセキュリティで保護されていて、AppMeasurement によって設定されるcookieにセキュリティで保護された属性を持たせたい場合は、この変数を `true` に設定します。
 

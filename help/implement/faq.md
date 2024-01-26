@@ -3,9 +3,10 @@ title: 実装 FAQ
 description: 実装に関するよくある質問と、詳細情報へのリンクです。
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
-source-wordcount: '508'
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
 
 ---

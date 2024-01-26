@@ -3,10 +3,11 @@ title: Adobe Experience Platform Edge を使用した Adobe Analytics の実装
 description: Adobe Analytics における Experience Platform の XDM データの使用の概要
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
-source-git-commit: e0f08e6e53b6d7001bd1163a65facda8e21c91fd
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 39%
+source-wordcount: '324'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +31,7 @@ XDM 自体は、ページビューやリンクイベントの定義方法を規�
 
 ページビューとリンクイベントを適切に処理するには、次のロジックがAdobeExperience Edge ネットワークに送信され、Adobe Analyticsに転送されるデータに適用されます。
 
-| XDM ペイロードに含まれる内容： | Adobe Analytics... |
+| XDM ペイロードに含まれる内容： | ADOBE ANALYTICS... |
 |---|---|
 | `web.webPageDetails.name` または `web.webPageDetails.URL` およびいいえ `web.webInteraction.type` | ペイロードを考慮する **ページビュー** |
 | `web.webInteraction.type` および (`web.webInteraction.name` または `web.webInteraction.url`) | ペイロードを考慮する **リンクイベント** |

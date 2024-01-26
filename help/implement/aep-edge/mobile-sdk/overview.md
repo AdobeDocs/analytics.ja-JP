@@ -3,7 +3,8 @@ title: Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の�
 description: Adobe Experience Platform データ収集の Mobile SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: ebdf52c4b42e4a443284d285e79e949ac6646078
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 98%

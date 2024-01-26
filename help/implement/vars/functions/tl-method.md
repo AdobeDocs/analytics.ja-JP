@@ -3,9 +3,10 @@ title: tl
 description: リンクトラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 80%
 
 ## Web SDK を使用したリンクトラッキング
 
-Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方とも `sendEvent` コマンドを使用します。 Adobe Analyticsで特定の XDM イベントをリンクトラッキングコールとしてカウントする場合は、XDM データにまたはが含まれていることと、がにマッピングされていることを確認してください `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
+Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方の `sendEvent` コマンドを使用します。 Adobe Analyticsで特定の XDM イベントをリンクトラッキングコールとしてカウントする場合は、XDM データにまたはが含まれていることと、がにマッピングされていることを確認してください `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
 
 * リンク名のマッピング先 `web.webInteraction.name`.
 * URL マッピングのリンク先 `web.webInteraction.URL`.
-* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。
+* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。
 
 ```js
 alloy("sendEvent", {
@@ -46,12 +47,12 @@ Adobe Analytics拡張機能には、リンクトラッキングコールを設�
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics 拡張機能では、オプションの引数を設定できません。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.tl() メソッド
+## AppMeasurementの s.tl() メソッドと Analytics 拡張機能のカスタムコードエディター
 
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 
@@ -78,7 +79,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### リンクタイプ (必須)
+### リンクタイプ（必須）
 
 リンクタイプ引数は、リンクトラッキングコールのタイプを決定する 1 文字の文字列です。有効な値は 3 つです。
 

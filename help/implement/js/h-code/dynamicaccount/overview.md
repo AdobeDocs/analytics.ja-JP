@@ -3,9 +3,10 @@ title: 動的アカウントの概要
 description: H コードを使用してレポートスイートを動的に選択する方法に関するワークフローについて説明します。
 feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 100%
 3 つの変数を使用して、レポートスイートを動的に選択します。
 
 * [`dynamicAccountSelection`](dynamicaccountselection.md)：動的アカウント選択を有効化または無効化します。
-* [`dynamicAccountMatch`](dynamicaccountmatch.md)：観察する値を決定します。例えば、URL やクエリー文字列などです。
+* [`dynamicAccountMatch`](dynamicaccountmatch.md)：観察する値を決定します。例えば、URL やクエリ文字列などです。
 * [`dynamicAccountList`](dynamicaccountlist.md)：`dynamicAccountMatch` との値を比較し、一致が見つかった場合は `account` 変数を入力します。
 
 `dynamicAccountSelection = true` の場合、`dynamicAccountMatch` の値が `dynamicAccountList` と比較されます。`dynamicAccountList` の値が一致する場合、レポートスイート ID が `account` 変数に含まれます。

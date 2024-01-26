@@ -3,10 +3,11 @@ title: モジュールの統合
 description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 96%
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 96%
 
 モジュールコードを取得するには、製品管理者のアクセス権を持つユーザー、またはコードマネージャーへのアクセス権を持つ製品プロファイルに属するユーザーである必要があります。モジュールコードの取得メソッドは、Adobe Experience Platform のタグを含め、すべての実装方法で同じです。
 
-1. Adobe ID の認証情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
+1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
 1. 上部のナビゲーションで、**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL Code Manager]** をクリックします。
 1. 最新の JavaScript appMeasurement ライブラリをダウンロードします。
@@ -43,7 +44,7 @@ ht-degree: 96%
 
 サイトに統合モジュールを実装するには、Adobe Experience Platformデータ収集にアクセスする必要があります。 レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 編集するタグプロパティをクリックします。
 1. 「拡張機能」タブをクリックしてから、Adobe Analytics で「設定」をクリックします。
 1. カスタムコードアコーディオンを使用してトラッカーの設定を開き、「&lt;/> エディターを開く」をクリックします。
@@ -71,7 +72,7 @@ s.Integrate.add("<partner_name>");
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-通常、組織はアドビのパートナーと連携してパートナー名の値を決定します。URL に含まれるクエリー文字列はオプションで、パートナーに依存します。ブラウザーのキャッシュを防ぐために、統合モジュールには、乱数を含むクエリー文字列が自動的に含まれます。
+通常、組織はアドビのパートナーと連携してパートナー名の値を決定します。URL に含まれるクエリ文字列はオプションで、パートナーに依存します。ブラウザーのキャッシュを防ぐために、統合モジュールには、乱数を含むクエリ文字列が自動的に含まれます。
 
 ### delay
 
@@ -87,9 +88,9 @@ s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 
 * **パートナー名：**&#x200B;通常、組織はアドビのパートナーと連携してパートナー名の値を決定します。
 * **JSON オブジェクトへの URL：**&#x200B;イメージリクエストに組み込むパートナー変数を含む JSON オブジェクトへの URL。
-* **クエリー文字列パラメーター：**&#x200B;パートナーのシステム内で組織を識別するパートナーアカウント情報。アドビパートナーは、この情報を使用してデータセットを識別します。
+* **クエリ文字列パラメーター：**&#x200B;パートナーのシステム内で組織を識別するパートナーアカウント情報。アドビパートナーは、この情報を使用してデータセットを識別します。
 
-統合モジュールは、自動的に URL にクエリー文字列を追加します。var クエリー文字列は、モジュールがパートナーから返されるよう想定する JSON オブジェクトの名前を指定します。また、ブラウザーのキャッシュを防ぐために、乱数も追加されます。
+統合モジュールは、自動的に URL にクエリ文字列を追加します。var クエリ文字列は、モジュールがパートナーから返されるよう想定する JSON オブジェクトの名前を指定します。また、ブラウザーのキャッシュを防ぐために、乱数も追加されます。
 
 ### Ready
 
@@ -129,4 +130,4 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-通常、組織はアドビのパートナーと連携してパートナー名の値を決定します。URL に含まれるクエリー文字列はオプションで、パートナーに依存します。ブラウザーのキャッシュを防ぐために、統合モジュールには、乱数を含むクエリー文字列が自動的に含まれます。
+通常、組織はアドビのパートナーと連携してパートナー名の値を決定します。URL に含まれるクエリ文字列はオプションで、パートナーに依存します。ブラウザーのキャッシュを防ぐために、統合モジュールには、乱数を含むクエリ文字列が自動的に含まれます。

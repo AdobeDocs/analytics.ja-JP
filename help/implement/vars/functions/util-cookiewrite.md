@@ -3,7 +3,8 @@ title: Util.cookieWrite
 description: Cookie に値を書き込みます。
 feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 70%
@@ -18,7 +19,7 @@ Cookie は、同じドメインの複数のページにわたって情報を保�
 
 Adobe Experience Platformのデータ収集機能には、インターフェイスで cookie を設定する機能は用意されていません。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.Util.cookieWrite()
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.Util.cookieWrite()
 
 `s.Util.cookieWrite()` メソッドを呼び出して、Cookie に目的の値を設定します。
 

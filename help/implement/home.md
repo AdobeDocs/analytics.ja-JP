@@ -3,9 +3,10 @@ title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティ、アプリケーションに実装します。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: b157674adf67fa6ef0f2e75775d0ec888cff3cba
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '829'
 ht-degree: 55%
 
 ---

@@ -3,9 +3,10 @@ title: Facebook インスタント記事での実装
 description: Facebook インスタント記事ページに Adobe Analytics を実装します。
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '471'
 ht-degree: 100%
 
 ---
@@ -20,7 +21,7 @@ Adobe Analytics を Facebook インスタント記事に埋め込んで、訪問
 
 Adobe Analytics を実装するための包括的なワークフローは次のとおりです。
 
-1. `stats.html` ページを作成します。URL からクエリー文字列パラメーターを取り込み、各パラメーターを Analytics 変数に割り当てるには、このページをコード化します
+1. `stats.html` ページを作成します。URL からクエリ文字列パラメーターを取り込み、各パラメーターを Analytics 変数に割り当てるには、このページをコード化します
 1. Web サーバー上で `stats.html` ページをホストします
 1. Iframe 内で `stats.html` ファイルを参照して Facebook インスタント記事に Analytics を実装します
 1. Iframe の `src` 属性にクエリー文字列パラメーターを含めます
@@ -78,9 +79,9 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
 カスタム変数およびイベントは、Analytics HTML 内で 2 つの異なる方法でトラッキングできます。
 
 * 変数の値とイベントを直接 `stats.html` ページに含めます。ここで定義する変数は、すべての Facebook インスタント記事で通常同じ値に最適です。
-* Iframe を参照するクエリー文字列の一部として変数値を含めます。この方法を使用すると、Facebook インスタント記事から Analytics コードをホストする iframe に変数値を送信できます。
+* Iframe を参照するクエリ文字列の一部として変数値を含めます。この方法を使用すると、Facebook インスタント記事から Analytics コードをホストする iframe に変数値を送信できます。
 
-次の例は、クエリー文字列に含まれる複数のカスタム変数を示しています。次に、`stats.html` の JavaScript が `s.Util.getQueryParam()` を使用してクエリー文字列を確認します。
+次の例は、クエリ文字列に含まれる複数のカスタム変数を示しています。次に、`stats.html` の JavaScript が `s.Util.getQueryParam()` を使用してクエリ文字列を確認します。
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
@@ -88,7 +89,7 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
 
 >[!NOTE]
 >
->iframe の性質上、 リファラーディメンションは自動的には追跡されません。追跡する場合は、クエリー文字列の一部にこのディメンションを含めてください。
+>iframe の性質上、 リファラーディメンションは自動的には追跡されません。トラッキングする場合は、クエリ文字列の一部にこのディメンションを含めてください。
 
 ## Facebook インスタント記事とプライバシー
 

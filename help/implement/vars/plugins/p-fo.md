@@ -3,10 +3,11 @@ title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 78%
+source-wordcount: '708'
+ht-degree: 77%
 
 ---
 
@@ -23,11 +24,11 @@ Adobeには、Web SDK で最もよく使用されるプラグインを使用で�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を見つけてインストールする **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張：共通の Web SDK プラグイン
-   * データ要素: `p_fo`
+1. 次の設定を使用して、目的のデータ要素名を設定します。
+   * 拡張機能：Common Web SDK Plugins
+   * データ要素： `p_fo`
 1. 変更を保存し、データ要素に公開します。
 
 ## Web SDK の手動実装プラグインのインストール

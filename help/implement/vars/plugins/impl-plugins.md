@@ -3,7 +3,8 @@ title: プラグインの概要
 description: サイトにコードを貼り付けて、新しい機能を導入します。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 96%

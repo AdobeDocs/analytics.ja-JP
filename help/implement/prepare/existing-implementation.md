@@ -3,10 +3,11 @@ title: 既存の Adobe Analytics の実装を担当する
 description: 既存の Adobe Analytics 実装を初めて使用する管理者向けの手順です。
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +19,7 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 ![プレイブック](assets/inherited-impl-playbook.png)
 
-テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。Adobe Analytics チャンピオンの Sarah が、継承された実装プレイブックを使用して既存の実装を扱う方法についてのアイデアを紹介します。
+テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。Adobe Analyticsチャンピオンの Sarah が、継承された実装プレイブックを使用して既存の実装を扱う方法に関するアイデアを紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 

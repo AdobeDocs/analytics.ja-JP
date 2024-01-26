@@ -3,10 +3,11 @@ title: t
 description: ページビュートラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 57%
+source-wordcount: '453'
+ht-degree: 56%
 
 ---
 
@@ -28,13 +29,13 @@ s.eVar1 = "Example dimension item";
 s.t();
 ```
 
-`t()` メソッドを実行すると、定義されたすべての Analytics 変数が使用され、これらの変数に基づいて URL が作成されます。一部の Analytics 変数は画像の URL を決定し、他の変数はクエリー文字列パラメーター値を決定します。
+`t()` メソッドを実行すると、定義されたすべての Analytics 変数が使用され、これらの変数に基づいて URL が作成されます。一部の Analytics 変数は画像の URL を決定し、他の変数はクエリ文字列パラメーター値を決定します。
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリー文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
+アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリ文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
 
 ## Web SDK 拡張機能を使用したイベントの送信
 
@@ -44,11 +45,11 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**.
+1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**.
 
 ## Web SDK を手動で実装するイベントの送信
 
-以下を使用： `sendEvent` コマンドを使用してデータをAdobeに送信します。 Datastream は、このデータを受け取り、設定されたマッピングを適用し、そのデータがその Datastream に追加されたサービスである場合はAdobe Analyticsに転送します。
+以下を使用します。 `sendEvent` コマンドを使用してデータをAdobeに送信します。 Datastream は、このデータを受け取り、設定されたマッピングを適用し、そのデータがその Datastream に追加されたサービスである場合はAdobe Analyticsに転送します。
 
 ```js
 alloy("sendEvent", {
@@ -66,10 +67,10 @@ Adobe Experience Platformデータ収集のAdobe Analytics拡張機能には、�
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
 1. 「`s.t()`」ラジオボタンをクリックします。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.t() メソッド
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.t() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.t()` メソッドを呼び出します。
 

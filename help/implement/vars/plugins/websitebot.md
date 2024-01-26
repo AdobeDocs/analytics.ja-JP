@@ -3,9 +3,10 @@ title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---

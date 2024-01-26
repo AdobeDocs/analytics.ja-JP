@@ -3,9 +3,10 @@ title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: ht
-source-wordcount: '509'
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '503'
 ht-degree: 100%
 
 ---

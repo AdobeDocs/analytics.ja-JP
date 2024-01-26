@@ -3,9 +3,10 @@ title: pt
 description: 変数のリストで関数を実行します。
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '586'
 ht-degree: 88%
 
 ---
@@ -73,7 +74,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 例 1
 
-次のコードは getQueryParam プラグインの一部です。URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切る必要があります。parameterKey は、プラグインがクエリー文字列から抽出しようとしているクエリー文字列パラメーターを参照します。
+次のコードは getQueryParam プラグインの一部です。URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切る必要があります。parameterKey は、プラグインがクエリ文字列から抽出しようとしているクエリ文字列パラメーターを参照します。
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)

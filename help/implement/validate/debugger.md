@@ -3,9 +3,10 @@ title: レガシー Adobe Experience Cloud デバッガー
 description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、Analytics、Target、Advertising Cloud、ID サービスおよびデータ収集のタグを調べます。
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 100%
 
 ---
@@ -36,7 +37,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
+[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
 
 1. 右上の 3 つのドットをクリックし、ブックマーク／ブックマークマネージャーに移動します。また、`Ctrl` + `Shift` + `O`（Windows）または `Cmd` + `Shift` + `O`（Mac）を押すこともできます。
 2. ブックマークマネージャーの右上で、3 つのドットをクリックし、「新しいブックマークの追加」をクリックします。
@@ -82,6 +83,6 @@ Safari ではブックマークレットを手動で作成することはでき�
 * **Experience Cloud 製品の表示**：各 Experience Cloud 製品の画像リクエストの表示／非表示を切り替えます。
 * **URL デコード**：URL は、イメージリクエストをデコードして、レポートに表示される内容に一致させます。このチェックボックスはオンのままにすることをお勧めします。
 * **自動更新**：数秒ごとにポップアップを自動的に更新し、ページ上で追加のイメージリクエストがないかどうかを確認します。デバッガーでコンテンツをコピー／ペーストする必要がある場合は、自動更新を無効にして、選択を維持します。
-* **わかりやすい形式**：イメージリクエストで役立つラベルと生のクエリー文字列の表示形式を切り替えます。詳しくは、[データ収集クエリーのパラメーター](query-parameters.md)を参照してください。
+* **わかりやすい形式**：イメージリクエストで役立つラベルと生のクエリ文字列の表示形式を切り替えます。詳しくは、[データ収集クエリーのパラメーター](query-parameters.md)を参照してください。
 
 デバッガーのデフォルトの表示オプションを保存するには、右上隅の「Adobe Debugger」リンクを右クリックし、リンクアドレスをコピーします。現在のデバッガーのブックマークレットを編集し、更新したコードスニペットを「URL」フィールドに貼り付けます。

@@ -3,10 +3,11 @@ title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
@@ -24,13 +25,13 @@ ht-degree: 61%
 
 ## Web SDK 拡張機能を使用した sendBeacon API の使用
 
-この **[!UICONTROL ドキュメントはアンロードされます]** 「アクション設定」内のチェックボックスは、Adobeに送信するデータが sendBeacon API を使用するかどうかを指定します。
+The **[!UICONTROL ドキュメントはアンロードされます]** 「アクション設定」内のチェックボックスは、Adobeに送信するデータが sendBeacon API を使用するかどうかを指定します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 次に移動： [!UICONTROL ルール] 」タブをクリックし、目的のルールをクリックします。
-1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックして新しいアクションを追加します。
-1. を [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**
+1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックして、新しいアクションを追加します。
+1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**
 1. チェックボックスをクリックします。 **[!UICONTROL ドキュメントはアンロードされます]** 右側に
 
 このボックスをオンにすると、データが sendBeacon API を使用してAdobeに送信されます。 デフォルトでは選択解除されています。
@@ -52,7 +53,7 @@ alloy("sendEvent", {
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement の s.useBeacon と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.useBeacon
 
 `s.useBeacon` 変数は、AppMeasurement がブラウザーの `navigator.sendBeacon()` メソッドを使用するかどうかを決定するブール値です。デフォルト値は `false` です。`navigator.sendBeacon()` の非同期性を使用する場合は、トラッキング関数を呼び出す前にこの変数を `true` に設定します。
 

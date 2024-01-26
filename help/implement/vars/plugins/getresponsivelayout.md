@@ -3,9 +3,10 @@ title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 86%
 
 ---

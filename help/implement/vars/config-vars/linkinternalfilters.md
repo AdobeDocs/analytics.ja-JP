@@ -3,9 +3,10 @@ title: linkInternalFilters
 description: linkInternalFilters 変数の使用は離脱リンクの自動トラッキングに役立ちます。
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '431'
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '422'
 ht-degree: 100%
 
 ---

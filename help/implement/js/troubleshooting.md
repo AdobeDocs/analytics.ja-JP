@@ -3,9 +3,10 @@ title: JavaScript 実装のトラブルシューティング
 description: JavaScript 実装の一般的な問題とトラブルシューティングに関するベストプラクティスについて説明します。
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -89,21 +90,21 @@ s.pageName = "        Home Page";
 * **Experience Cloud ID サービスの使用**：AppMeasurement ライブラリ 1.4.1 以降では、イメージリクエストが長すぎる場合、送信に自動的に HTTP POST を使用します。このメソッドを使用して送信されるデータは、長さに関係なく切り捨てられません。詳しくは、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。
 * **処理ルールの使用**：[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)では、変数間で値をコピーできます。この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。次に例を示します。
 
-   常に実行：<br>prop1 の値を eVar1 で上書き<br>eVar2 の値を eVar1 で上書き<br>prop2 の値を eVar1 で上書き<br>
+  常に実行：<br>prop1 の値を eVar1 で上書き<br>eVar2 の値を eVar1 で上書き<br>prop2 の値を eVar1 で上書き<br>
 
-   次に、実装に eVar1 を設定します。
+  次に、実装に eVar1 を設定します。
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **動的変数の使用**：実装で多くの変数に同じ値が設定される場合、[動的変数](/help/implement/vars/page-vars/dynamic-variables.md)を使用して、リクエスト URL を短縮できます。
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **分類の使用**：製品名やページ名が非常に長い場合は、識別値やコードを使用し、[分類](/help/components/classifications/c-classifications.md)を使用してわかりやすい名前を表示できます。

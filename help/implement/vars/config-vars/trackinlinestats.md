@@ -4,10 +4,11 @@ description: 実装でClickMapを有効または無効にします。
 keywords: clickmap を無効にする
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 31%
+source-wordcount: '191'
+ht-degree: 30%
 
 ---
 

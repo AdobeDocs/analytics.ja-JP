@@ -3,10 +3,11 @@ title: linkURL
 description: AppMeasurement がリンクトラッキングコールで使用する、自動生成されたリンク URL を上書きします。
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 65%
+source-wordcount: '138'
+ht-degree: 75%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 65%
 
 ## Adobe Analytics拡張機能を使用したリンク URL
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.linkURL
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkURL
 
 `s.linkURL` 変数は、リンクがクリックされたときのブラウザー URL を含む文字列です。この変数は、レポートで使用できるディメンションを入力しません。
 

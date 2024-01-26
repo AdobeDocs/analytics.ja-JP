@@ -3,10 +3,11 @@ title: offlineThrottleDelay
 description: デバイスがオンラインに戻ったときのヒットの頻度を設定します。
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -18,9 +19,9 @@ ht-degree: 81%
 
 ## Adobe Analytics拡張機能を使用したオフラインスロットル遅延
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.offlineThrottleDelay
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.offlineThrottleDelay
 
 `s.offlineThrottleDelay` 変数は、キューに格納されたヒットを送信する間に AppMeasurement が待機するミリ秒数を表す整数です。デフォルト値は `0` です。つまり、キューに登録されているすべてのヒットが一度に送信されます。`trackOffline` が `false` である場合、この変数は何もしません。
 

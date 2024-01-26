@@ -3,7 +3,8 @@ title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 83%

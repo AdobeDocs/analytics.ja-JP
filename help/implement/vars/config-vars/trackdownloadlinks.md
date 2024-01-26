@@ -3,10 +3,11 @@ title: trackDownloadLinks
 description: ダウンロードリンクの自動リンクトラッキングを有効または無効にします。
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 51%
+source-wordcount: '322'
+ht-degree: 59%
 
 ---
 
@@ -18,12 +19,12 @@ ht-degree: 51%
 
 ## Web SDK 拡張機能を使用したクリックコレクションの有効化または無効化
 
-以下を使用： [!UICONTROL クリックデータ収集を有効にする] 」チェックボックスをオンにします。 このチェックボックスは、出口リンクとダウンロードリンクの両方を処理します。
+以下を使用します。 [!UICONTROL クリックデータの収集を有効にする] 」チェックボックスをオンにします。 このチェックボックスは、出口リンクとダウンロードリンクの両方を処理します。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
-1. の下 [!UICONTROL データ収集]、 **[!UICONTROL クリックデータ収集を有効にする]** チェックボックス。
+1. の下 [!UICONTROL データ収集]をクリックし、 **[!UICONTROL クリックデータの収集を有効にする]** チェックボックス。
 
 ## Web SDK を手動で実装するクリックコレクションを有効または無効にします
 
@@ -39,14 +40,14 @@ alloy("configure", {
 
 「ダウンロードリンクトラッキング」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるチェックボックスです。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL ダウンロードリンクトラッキング]」チェックボックスが表示されます。
 
 自動ダウンロードリンクトラッキングを有効にするには、このチェックボックスをクリックします。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.trackDownloadLinks
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.trackDownloadLinks
 
 `s.trackDownloadLinks` は、ダウンロードリンクの自動トラッキングを有効または無効にするブール値です。ダウンロードリンクを追跡しない場合や、`tl()` メソッドを手動で呼び出してダウンロードリンクを追跡する場合は、この変数を `false` に設定します。
 

@@ -3,9 +3,10 @@ description: 複数のスイートタグ付けを実装し、イメージリク�
 title: 複数のスイートタグ付けの実装
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '282'
 ht-degree: 93%
 
 ---

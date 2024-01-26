@@ -1,12 +1,13 @@
 ---
 title: clearVars
-description: インスタンスオブジェクトの以下の値をクリアします。この関数は要素を削除します（要素を「undefined」に設定します）。
+description: インスタンスオブジェクトから値をクリアします。
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 72%
+source-wordcount: '186'
+ht-degree: 67%
 
 ---
 
@@ -41,9 +42,9 @@ Web SDK を使用してAdobeにデータを送信すると、すべての XDM �
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL Clear Variables].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL Clear Variables].
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.clearVars()
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.clearVars()
 
 Analytics オブジェクトインスタンスをインスタンス化した後、実装の任意の場所で `s.clearVars()` メソッドを呼び出すことができます。
 

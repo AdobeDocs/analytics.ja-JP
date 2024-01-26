@@ -3,10 +3,11 @@ title: sa
 description: いつでも実装のレポートスイートを変更できます。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 44%
+source-wordcount: '430'
+ht-degree: 42%
 
 ---
 
@@ -32,12 +33,12 @@ Web SDK 拡張機能には、各環境用のデータストリームドロップ
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
-1. の下 [!UICONTROL データストリーム]」で、各環境のドロップダウンリストから目的のデータストリームを選択します。
+1. の下 [!UICONTROL データストリーム]」で、各環境のドロップダウンリストから目的の Datastream を選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## Web SDK を手動で実装する目的の Datastream の設定
 
-を `edgeConfigId` 設定変数から Datastream ID への変換。 Adobe Experience Platformデータ収集でデータストリームを表示すると、右側にデータストリーム ID が表示されます。
+を設定します。 `edgeConfigId` 設定変数から Datastream ID への変換。 Adobe Experience Platformデータ収集でデータストリームを表示すると、右側にデータストリーム ID が表示されます。
 
 ```js
 alloy("configure", {
@@ -51,7 +52,7 @@ alloy("configure", {
 
 インターフェイス内のレポートスイートを柔軟に変更する方法はありません。Adobe Analytics 拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンの下でレポートスイートを設定できます。ただし、ルールを使用してレポートスイートを変更または更新することはできません。設定後にレポートスイートの値を更新する場合は、AppMeasurement 構文に従ってカスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.sa()
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.sa()
 
 `s.sa()` メソッドを呼び出して、送信先のレポートスイートを変更します。唯一の引数は、レポートスイート ID を含む文字列、またはコンマで区切られた複数のレポートスイート ID です。レポートスイート ID 引数は必須です。文字列引数にスペースを使用しないでください。
 

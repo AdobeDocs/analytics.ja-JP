@@ -3,10 +3,11 @@ title: visitorID
 description: カスタム訪問者 ID を使用します。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## Web SDK と Experience Edge を使用した訪問者 ID
 
-Experience Edge を使用すると、XDM の [ID マップ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID マップ内の ID は、それぞれ異なる名前空間を持ちます。 訪問者 ID に使用する名前空間を、 [データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#analytics). 設定が完了すると、この名前空間に指定された値を持つイベントを送信する際に、Analytics で訪問者 ID として自動的に使用されます。
+Experience Edge を使用すると、XDM の [ID マップ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID マップ内の ID は、それぞれ異なる名前空間を持ちます。 訪問者 ID に使用する名前空間を、 [データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 設定が完了すると、この名前空間に指定された値を持つイベントを送信する際に、Analytics で訪問者 ID として自動的に使用されます。

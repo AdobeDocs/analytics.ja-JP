@@ -3,9 +3,10 @@ title: pageName
 description: サイトのページの名前。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---
@@ -32,12 +33,12 @@ ht-degree: 81%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL ページ名]セクションを見つけます。
 
 ページ名は、データ要素を含む任意の文字列値に設定できます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.pageName
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.pageName
 
 `s.pageName` 変数は、通常、ページの名前を含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。この切り捨てには、この変数が空白の場合に `pageURL` にフォールバックされるインスタンスが含まれます。
 

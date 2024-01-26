@@ -3,9 +3,10 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 
 ---
@@ -45,21 +46,21 @@ ht-degree: 90%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
 6. [!UICONTROL イベント]セクションを見つけます。
 
 次の機能が利用できます。
 
 * 含めるイベントを選択できるドロップダウンリスト
 * シリアル化用のオプションのテキストフィールドです。[イベントのシリアル化](event-serialization.md)を参照してください。
-* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例： `event1` を選択し、 `10` このフィールドでは `event1` レポートで 10 倍に増やしました。
+* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例：選択 `event1` を選択し、 `10` このフィールドでは `event1` レポートで 10 倍に増やしました。
 * 別のイベントを追加するボタン。単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events
 
 `s.events` 変数は、ヒットに含めるイベントのコンマ区切りリストを含む文字列です。変数では最大 64 KB まで使用でき、効果的にヒットのニーズに応じて最大限のイベントを許可します。 有効な設定値は以下のとおりです。
 
-* `event1`～`event1000`：カスタムイベントを設定します。組織の[ソリューションデザインドキュメント](../../../prepare/solution-design.md)に各イベントの使用方法を記録します。使用可能なイベントの数は、組織の Analytics 契約によって異なります。レガシー契約以外の組織のほとんどは、1,000 件のカスタムイベントを利用できます。使用可能なカスタムAdobeの数が不明な場合は、担当のイベントアカウントチームにお問い合わせください。
+* `event1`～`event1000`：カスタムイベントを設定します。組織の[ソリューションデザインドキュメント](../../../prepare/solution-design.md)に各イベントの使用方法を記録します。使用可能なイベントの数は、組織の Analytics 契約によって異なります。レガシー契約以外の組織のほとんどは、1,000 件のカスタムイベントを利用できます。使用できるカスタムAdobeの数が不明な場合は、担当のイベントアカウントチームにお問い合わせください。
 * `purchase`：「[注文件数](/help/components/metrics/orders.md)」指標を 1 増分し、`products` 変数に設定された値を使用して「[単位](/help/components/metrics/units.md)」と「[売上高](/help/components/metrics/revenue.md)」を計算します。詳しくは、[購入イベント](event-purchase.md)を参照してください。
 * `prodView`：「[製品表示回数](/help/components/metrics/product-views.md)」指標を増分します。
 * `scOpen`：「[買い物かご](/help/components/metrics/carts.md)」指標を増分します。

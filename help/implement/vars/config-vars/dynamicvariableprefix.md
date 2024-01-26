@@ -3,10 +3,11 @@ title: dynamicVariablePrefix
 description: 動的変数を識別する文字列をカスタマイズできます。
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 71%
+source-wordcount: '255'
+ht-degree: 76%
 
 ---
 
@@ -24,14 +25,14 @@ Web SDK では、動的な変数形式設定を使用しません。 代わり�
 
 「動的変数プレフィックス」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL グローバル変数]」アコーディオンの下にあるフィールドです。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL グローバル変数]」アコーディオンを展開すると、「[!UICONTROL 動的変数のプレフィックス]」フィールドが表示されます。
 
 このフィールドにはデフォルトで `D=` 値が含まれています。別の動的変数のプレフィックスを使用する場合は、値を変更できます。サイト上の文字エンコーディングと一致する限り、任意の値を使用できます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.dynamicVariablePrefix
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.dynamicVariablePrefix
 
 `s.dynamicVariablePrefix` 変数は、任意の文字シーケンスを含む文字列です。この変数を定義しない場合、AppMeasurement はデフォルトで文字列 `D=` を使用します。
 

@@ -3,10 +3,11 @@ title: キャンペーントラッキングワークフロー
 description: Adobe Analyticsを使用してマーケティング活動を追跡します。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-source-git-commit: c118d42667c4a1af55929834b87d148a5973bed9
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 組織がマーケティング活動のパフォーマンスとクリックスルー率を追跡する場合は、次のプロセスを使用できます。 これらの各手順には、詳細を説明する専用の節があります。
 
 1. [トラッキングコード生成プロセスの確立](#establish-a-tracking-code-generation-process)
-1. [目的のトラッキングコードを E メールに追加します](#add-the-desired-tracking-code-to-the-email)
+1. [目的のトラッキングコードを E メールに追加します。](#add-the-desired-tracking-code-to-the-email)
 1. [トラッキングコードデータを含めるようにAdobe Analyticsの実装を設定または調整する](#include-campaign-variables-in-your-implementation)
 1. [Analysis Workspaceでレポートを表示](#view-the-reports-in-analysis-workspace)
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 ## 目的のトラッキングコードを URL に追加します。
 
-目的のトラッキングコードの値を取得したら、広告、ソーシャルメディア、電子メールなど、オンラインで投稿する任意のリンクに追加できます。 これらのトラッキングコードの追加は、通常、リンクのクエリ文字列でおこなわれます。 使用するクエリー文字列パラメーターは、組織のトラッキング要件に応じて異なります。一般的なクエリー文字列パラメーターは `cid` （キャンペーン ID の略語）。 Google Analyticsも使用する組織には、 `utm_source`, `utm_medium`など。
+目的のトラッキングコードの値が得られたら、広告、ソーシャルメディア、電子メールなど、オンラインで投稿する任意のリンクにその値を追加できます。 これらのトラッキングコードの追加は、通常、リンクのクエリ文字列でおこなわれます。 使用するクエリー文字列パラメーターは、組織の追跡要件に応じて異なります。一般的なクエリー文字列パラメーターは、 `cid` （キャンペーン ID の略語）。 組織も使用する場合、Google Analyticsには、 `utm_source`, `utm_medium`など。
 
 E メール内のリンクにクエリー文字列を追加すると、次のようになります。
 
@@ -46,7 +47,7 @@ Adobe Analyticsには専用の [トラッキングコード](/help/components/di
 組織が `utm` クエリ文字列では、次のいずれかを選択できます。
 
 * すべて送信 `utm` クエリ文字列を連結された値としてトラッキングコードディメンションに取り込みます。 その後、 [分類ルール](/help/components/classifications/crb/classification-rule-builder.md) それぞれに焦点を当てた追加のディメンションを作成するには `utm` パラメーター。 この方法では、より複雑な学習曲線を作成できますが、追加の eVar は使用されません。
-* それぞれ送信 `utm` クエリ文字列を別の [eVar](/help/components/dimensions/evar.md). この方法は、全体的に実装するのにより簡単ですが、追加の eVar を使用する必要があります。
+* それぞれを送信 `utm` クエリ文字列を別の [eVar](/help/components/dimensions/evar.md). この方法は、全体的に実装するのにより簡単ですが、追加の eVar を使用する必要があります。
 
 ## Analysis Workspaceでレポートを表示
 
@@ -55,6 +56,6 @@ Adobe Analyticsには専用の [トラッキングコード](/help/components/di
 1. にログインします。 [Adobe Experience Cloud](https://experience.adobe.com) を選択し、 [!UICONTROL Adobe Analytics].
 1. の作成 [Workspace プロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. 左側のコンポーネントのリストで、 [トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションをワークスペースキャンバスに追加します。
-1. 目的の指標（例： ）をドラッグします。 [訪問回数](/help/components/metrics/visits.md) または [注文](/help/components/metrics/orders.md) をワークスペースキャンバスの右側に表示します。
+1. 目的の指標（例： ）をドラッグします。 [訪問回数](/help/components/metrics/visits.md) または [購入回数](/help/components/metrics/orders.md) をワークスペースキャンバスの右側に表示します。
 
 ![キャンペーントラッキングレポート](../assets/campaign-tracking-report.png)

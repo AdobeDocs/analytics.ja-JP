@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -66,9 +67,9 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`stp`**（必須、文字列）：タイマー停止イベント。Analytics「タイマー停止」イベントのコンマ区切りの文字列。
 * **`res`**（必須、ブール値）：タイマーのリセットオプション。タイマーが開始してからの時間を記録し、停止した後にタイマーをリセットする場合には、`true` に設定します。時間を記録するが、タイマーを停止しない場合には、`false` に設定します。`false` に設定した場合、イベント変数が停止イベントを記録した後もタイマーは引き続き実行されます。
 
-   >[!TIP]
-   >
-   > この引数を `false` に設定する場合は、`rte` 引数を設定することを強くお勧めします。
+  >[!TIP]
+  >
+  > この引数を `false` に設定する場合は、`rte` 引数を設定することを強くお勧めします。
 * **`cn`**（オプション、文字列）：最初のイベントの時刻が保存される Cookie 名。デフォルト値は `"s_tbe"` です。
 * **`etd`**（オプション、整数）：Cookie の有効期限（日数）。ブラウザーセッションの終了時に期限切れにするには `0` に設定します。設定されていない場合のデフォルトは 1 日です。
 * **`fmt`**（オプション、文字列）：秒数を返す時間の形式（デフォルトは何も返さない）

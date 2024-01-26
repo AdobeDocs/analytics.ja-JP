@@ -3,10 +3,11 @@ title: forceOffline
 description: AppMeasurement のオンライン状態を手動で設定します。
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -26,9 +27,9 @@ Web SDK は、オフライン追跡をサポートしていません。
 
 ## Adobe Analytics拡張機能を使用してオフラインを強制
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.forceOffline()
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.forceOffline()
 
 Analytics オブジェクトをインスタンス化した後、実装の任意の場所で `s.forceOffline()` メソッドを呼び出すことができます。
 

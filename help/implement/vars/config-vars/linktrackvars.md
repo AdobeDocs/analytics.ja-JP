@@ -3,10 +3,11 @@ title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 61%
+source-wordcount: '331'
+ht-degree: 62%
 
 ---
 
@@ -26,9 +27,9 @@ Web SDK は、リンクトラッキングコール用に特定のフィールド
 
 >[!IMPORTANT]
 >
->カスタムコードエディターで変数を設定する場合は、 `linkTrackVars` カスタムコードの使用もおこないます。
+>カスタムコードエディターを使用して変数を設定する場合、 `linkTrackVars` カスタムコードの使用もおこないます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.linkTrackVars
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkTrackVars
 
 `s.linkTrackVars` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含める変数のコンマ区切りリストを含む文字列です。リンクトラッキングヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
 

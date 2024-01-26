@@ -3,9 +3,10 @@ title: cookieLifetime
 description: AppMeasurement で作成される Cookie の有効期限を上書きします。
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '264'
 ht-degree: 64%
 
 ---
@@ -38,7 +39,7 @@ cookie の有効期間は、 [!UICONTROL Cookie] アコーディオンを使用�
 * **セッション**：Cookie は、訪問者のセッションの終了時に期限切れになります。
 * **秒**：Cookie は、指定された秒数が経過すると有効期限が切れます。例えば、次のドロップダウンリストを [!UICONTROL 秒] および配置 `86400` をカスタムフィールドに入力すると、cookie の有効期限が 24 時間後に強制的に切れます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.cookieLifetime
+## AppMeasurementの s.cookieLifetime と Analytics 拡張機能のカスタムコードエディター
 
 `s.cookieLifetime` 変数は、AppMeasurement によって設定される Cookie の有効期限を決定する文字列です。
 

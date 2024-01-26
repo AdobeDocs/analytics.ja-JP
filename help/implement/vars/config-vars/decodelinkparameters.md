@@ -1,9 +1,10 @@
 ---
 title: decodeLinkParameters
 description: AppMeasurementの二重エンコーディングリンクトラッキング変数を有効または無効にします。
-exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
+exl-id: 329c521a-b965-4114-93ce-f45f159d4a20
 feature: Variables
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 7%

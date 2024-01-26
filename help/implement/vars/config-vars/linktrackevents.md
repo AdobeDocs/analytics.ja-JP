@@ -3,10 +3,11 @@ title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '313'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +29,7 @@ Web SDK は、リンクトラッキングコール用に特定のフィールド
 >
 >Analytics 拡張機能のカスタムコードエディターでイベントを設定する場合は、 `linkTrackEvents` カスタムコードの使用もおこないます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.linkTrackEvents
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkTrackEvents
 
 `s.linkTrackEvents` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含めるイベントのコンマ区切りリストを含む文字列です。リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
 

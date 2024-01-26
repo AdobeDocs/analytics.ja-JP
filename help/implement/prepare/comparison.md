@@ -3,10 +3,11 @@ title: 実装方法の比較
 description: Adobe Analytics にデータを送信する各方法の利点を確認します。
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 43%
+source-wordcount: '489'
+ht-degree: 41%
 
 ---
 
@@ -18,7 +19,7 @@ Adobe Analytics の各実装方法について、比較して説明します。�
 
 | | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics 拡張機能](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK 拡張機能](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| 実装要件 | 各ページの `AppMeasurement.js` を参照し、変数を定義して、`s.t()` を使用してデータを送信する Adobe Analyticsへ | 各ページの参照タグローダー。データ収集 UI を使用して変数を定義し、Adobe Analyticsにデータを送信します | 参照 `Alloy.js` 各ページで、 `alloy("sendEvent",{})` :XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに目的のデータを送信する | 各ページの参照タグローダー。データ収集 UI を使用して XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに必要なデータを送信します |
+| 実装要件 | 参照 `AppMeasurement.js` 各ページで変数を定義し、 `s.t()` Adobe Analyticsへ | 各ページの参照タグローダー。データ収集 UI を使用して変数を定義し、Adobe Analyticsにデータを送信します | 参照 `Alloy.js` 各ページで、 `alloy("sendEvent",{})` :XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに目的のデータを送信する | 各ページの参照タグローダー。データ収集 UI を使用して XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに必要なデータを送信します |
 | データ宛先 | Adobe Analytics に直接送信 | Adobe Analytics に直接送信 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
 | 実装の調整が困難 | 実装の変更ごとに web サイトコードへのアクセスが必要 | Web サイトのコードを 1 回変更してローダータグをインストールします。その後の実装の更新はすべて、データ収集 UI でおこなうことができます。 | 実装の変更ごとに web サイトコードへのアクセスが必要 | Web サイトのコードを 1 回変更してローダータグをインストールします。その後の実装の更新はすべて、データ収集 UI でおこなうことができます。 |
 | A4T の処理方法 | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、別のヒットとして送信される | A4T 呼び出しは、別のヒットとして送信される |
@@ -33,7 +34,7 @@ Adobe Analytics の各実装方法について、比較して説明します。�
 >バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、 [AdobeMobile Services の提供終了に関する FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) を参照してください。
 
 
-| | [モバイル SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [サーバー API](/help/implement/aep-edge/server-api/overview.md) |
+| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [サーバー API](/help/implement/aep-edge/server-api/overview.md) |
 | --- | --- | --- |
 | 実装要件 | アプリ内でタグローダーを参照し、データ収集 UI で直接 API 呼び出しまたはルールを使用して XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに目的のデータを送信します。 | Edge Network Server API を使用して XDM オブジェクトを作成し、Edge Network を使用してAdobe Analyticsに目的のデータを送信する |
 | データ宛先 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |

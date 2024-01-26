@@ -3,9 +3,10 @@ title: currencyCode 変数とは何ですか？ その使い方を教えてく�
 description: e コマースサイトの場合、ページで扱う通貨を設定します。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
-source-wordcount: '954'
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '945'
 ht-degree: 100%
 
 ---

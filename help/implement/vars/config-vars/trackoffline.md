@@ -3,10 +3,11 @@ title: trackOffline
 description: オフライントラッキングを有効または無効にします。これにより、AppMeasurement でのデータ収集方法が変更されます。
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 83%
 
 有効にすると、AppMeasurement は次のプロセスを使用してアドビにデータを送信します。
 
-* イメージリクエストをコンパイルする際に、タイムスタンプクエリー文字列パラメーターが含まれます。
+* イメージリクエストをコンパイルする際に、タイムスタンプクエリ文字列パラメーターが含まれます。
 * デバイスがアドビのデータ収集サーバーに接続できない場合、ヒットはデバイスにローカルに保存されます。
 * 後続のヒットのたびに、AppMeasurement はイメージリクエストをアドビに送信しようとします。
    * アドビのデータ収集サーバーに接続できない場合、ヒットはデバイス上のキューに追加されます。
@@ -34,9 +35,9 @@ Web SDK は、オフライン追跡をサポートしていません。
 
 ## Adobe Analytics拡張機能を使用したオフライントラッキング
 
-Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.trackOffline
+## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.trackOffline
 
 `s.trackOffline` 変数は、オフライントラッキングを有効または無効にするブール値です。デフォルト値は `false` です。オフライントラッキングを有効にする場合は、この値を `true` に設定します。
 

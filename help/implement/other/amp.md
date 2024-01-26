@@ -3,10 +3,11 @@ title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 次の表では、これら 2 つの方法を比較しています。
 
-|   | **`"adobeanalytics"`編集** | **`"adobeanalytics_nativeConfig"`編集** |
+|   | **`"adobeanalytics"`テンプレート** | **`"adobeanalytics_nativeConfig"`テンプレート** |
 |---|---|---|
 | 既存のレポートスイートの訪問者数／訪問数 | 高い水増し | 最小の水増し |
 | 別のレポートスイートの使用 | 推奨 | 不要 |
@@ -78,7 +79,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-The `<amp-analytics>` タグは、認識しているデータ値を AMP が提供できるように、変数の置換をサポートします。 詳しくは、GitHub の [ でサポートされる変数`amp-analytics`を参照してください。](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
+The `<amp-analytics>` タグは、認識しているデータ値を AMP が提供できるように、変数の置換をサポートします。 詳しくは、 [でサポートされる変数 `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) GitHub で詳しく説明しています。
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Web サーバーでホストする HTML ページも必要です。
 
 このアプローチは、`iframeMessage` リクエストパラメーターに追加された特別なクエリ文字列パラメーターを使用して、ユーティリティ web ページにデータを送信します。これらのクエリ文字列パラメーターは、それらから適切なデータを収集するように `stats.html` ページが設定されている限り、好きなように名前を付けることができます。
 
-また、`"adobeanalytics_nativeConfig"` テンプレートも、 タグの `extraUrlParams` セクションにリストされた変数に基づいて、クエリ文字列パラメーターを追加します。`<amp-analytics>`上記の例では、`pageName` パラメーターと `v1` パラメーターが含まれます。
+The `"adobeanalytics_nativeConfig"` また、 `extraUrlParams` のセクション `<amp-analytics>` タグを使用します。 上記の例では、`pageName` パラメーターと `v1` パラメーターが含まれます。
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '402'
 ht-degree: 98%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 98%
    + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
-   + [DTM を使用した Analytics の実装](other/dtm-implementation-overview.md)
    + [Ajax への Analytics の実装](other/ajax.md)
    + [AMP への Analytics の実装](other/amp.md)
    + [Analytics のデジタルアシスタントへの実装](other/digital-assistants.md)
