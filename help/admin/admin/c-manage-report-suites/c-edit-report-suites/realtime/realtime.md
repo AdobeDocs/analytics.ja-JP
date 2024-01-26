@@ -3,10 +3,10 @@ description: Web ページのトラフィックを表示し、ページビュー
 title: リアルタイムレポート
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '582'
+ht-degree: 94%
 
 ---
 
@@ -14,17 +14,13 @@ ht-degree: 96%
 
 Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 
-
-
 >[!NOTE]
 >
 >リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートを設定するには、 [リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-以下は、このトピックの概要に関するビデオです。
+リアルタイムレポートを表示するには、次の場所に移動します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL サイト指標]**／**[!UICONTROL リアルタイム]**
+**[!UICONTROL Workspace]** > **[!UICONTROL レポート]** > **[!UICONTROL エンゲージメント]** > **[!UICONTROL リアルタイム]**.
 
 リアルタイムレポートを使用すると、自分のサイトの傾向とその理由を把握できます。この機能を使用すると、マーケティング担当者はマーケティングコンテンツとキャンペーンの結果にすばやく対応し、その結果を自発的に管理できます。レポートされるリアルタイムデータは 2 分未満のもので、1 分ごとに自動更新されます。
 
@@ -52,7 +48,7 @@ Web ページのトラフィックを表示し、ページビューをリアル�
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
-## A4T 設定によるデータ遅延 {#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 設定によるデータ遅延 {#latency}
 
 Adobe Target で A4T 統合を有効にすると、Adobe Analytics で 5～10 分の待ち時間が追加で発生します。この追加の待ち時間は、Analytics と Target からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
 
