@@ -3,10 +3,10 @@ description: リアルタイムレポートを設定するための管理者の�
 title: リアルタイムレポートの設定
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
+source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,10 @@ Adobe Analyticsでリアルタイムレポートを設定する手順は、レ�
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
-   **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**／**[!UICONTROL すべてのレポートを表示／サイト指標]**／**[!UICONTROL リアルタイム]**&#x200B;に移動し、上部のドロップダウンからレポートスイートを選択します。
+   に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者/レポートスイート]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+1. クリック **[!UICONTROL 設定を編集]** > **[!UICONTROL リアルタイム]**.
 
-   リアルタイムレポート用に設定されていないレポートスイートのリアルタイムレポートを表示しようとすると、メッセージが表示されます。このメッセージから、レポートスイートの設定を実行できます。
-
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
-
-1. **[!UICONTROL 設定]**（歯車アイコン）をクリックして、[!UICONTROL Report Suite Manager] を実行します。
-
-   （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
-
-1. 「**[!UICONTROL リアルタイムの処理を有効にする]**」設定をオンにします。
 1. 最大 3 つのレポートに対してリアルタイムデータ収集を設定し、レポートあたり 1 つの指標と 3 つのディメンションまたは分類を使用できます。
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
