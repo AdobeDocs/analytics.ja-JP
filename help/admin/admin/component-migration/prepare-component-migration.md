@@ -3,10 +3,10 @@ description: コンポーネントとプロジェクトをAdobe AnalyticsからC
 title: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 15%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -16,38 +16,38 @@ ht-degree: 15%
 
 ## 前提条件
 
-プロジェクトと関連コンポーネントを移行する準備が整う前に、まず次の手順を実行する必要があります。
+プロジェクトと関連コンポーネントを移行する準備が整う前に、まず [Adobe Analyticsからの変化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ja) ( Adobe Customer Journey Analytics Guide の ) を参照してください。 次の手順が含まれます。
 
-* 次のいずれかの方法を使用して、Adobe Experience Platformにデータを取り込み、Adobe AnalyticsレポートスイートデータをCustomer Journey Analyticsで表示します。
+1. 次のいずれかの方法を使用して、Adobe Experience Platformにデータを取り込み、Adobe AnalyticsレポートスイートデータをCustomer Journey Analyticsで表示します。
 
-  >[!NOTE]
-  >
-  >  WebSDK を使用してデータを取り込む場合、すべてのスキーマフィールドを手動でマッピングする必要があります。 ( マッピングプロセスについて詳しくは、 [Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/admin/component-migration/component-migration.md))
+   >[!NOTE]
+   >
+   >  WebSDK を使用してデータを取り込む場合、すべてのスキーマフィールドを手動でマッピングする必要があります。 ( マッピングプロセスについて詳しくは、 [Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/admin/component-migration/component-migration.md))
 
 
    * Adobe Analyticsソースコネクタを使用するには、次の操作が必要です。
 
-      * [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [データの取り込みと使用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
+      1. [データの取り込みと使用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
 
    * WebSDK を使用するには、次の操作が必要です。
 
-      * [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [Adobe Experience Platform Web SDK を使用したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Adobe Experience Platform Web SDK を使用したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-* の作成 [接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ja) および [データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) 取り込まれたデータを使用します。
+1. の作成 [接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) および [データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) 取り込まれたデータを使用します。
 
-* データがマッピングされるデータビューにCustomer Journey Analytics内のユーザーがプロビジョニングされていることを確認します。
+1. データがマッピングされるデータビューにCustomer Journey Analytics内のユーザーがプロビジョニングされていることを確認します。
 
-  詳しくは、 [Customer Journey AnalyticsのAdmin Console権限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analyticsアクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   詳しくは、 [Customer Journey AnalyticsのAdmin Console権限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analyticsアクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
-  「権限」タブは、Admin Console の各製品プロファイルの一部です。特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
+   「権限」タブは、Admin Consoleの各製品プロファイルに含まれています。 特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
 
-* コンポーネントのマッピング方法を組織として決定します。
+1. コンポーネントのマッピング方法を組織として決定します。
 
-  詳しくは、以下の節を参照してください。 [組織として、コンポーネントのマッピング方法を決定します。](#decide-as-an-organization-how-you-will-map-components).
+   詳しくは、以下の節を参照してください。 [組織として、コンポーネントのマッピング方法を決定します。](#decide-as-an-organization-how-you-will-map-components).
 
 ## 移行に含まれる機能の理解
 
@@ -123,7 +123,7 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 >
 >Customer Journey Analyticsプロセスでは、Adobe Analyticsプロジェクト内のコンポーネントが識別されます。このコンポーネントは移行時に自動的にコンポーネントにマッピングされず、手動でマッピングできます。
 >
->**1 つのプロジェクトに対して行われたマッピングは、移行を実行しているユーザーに関係なく、組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、カスタマーケアに問い合わせる以外は、変更または取り消しできません。**
+>**1 つのプロジェクトでおこなわれたマッピングは、移行を実行しているユーザーに関係なく、IMS 組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、カスタマーケアに問い合わせる以外は、変更または取り消しできません。**
 >
 >このため、プロジェクトを移行する前に、組織がディメンションと指標のマッピング方法を決定することが重要です。 これにより、1 つのプロジェクトのみを考慮する場合に、個々の管理者がサイロで意思決定を行うのを防ぐことができます。
 >

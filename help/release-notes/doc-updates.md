@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4994'
-ht-degree: 96%
+source-wordcount: '5047'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年1月** | |
+| コンポーネントの移行は個々の IMS 組織に適用されます | 明確にした [コンポーネントの移行](/help/admin/admin/component-migration/component-migration.md) は、クロス IMS 組織の移行をサポートしていません。 |
+| 特定の情報が管理者のみに提供されることを明確にしました。 | 「最後に使用した日」列と「次で使用された日」列について、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) および [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md) は、システム管理者のみが使用できます。 |
 | メディアの分平均オーディエンスドキュメントの更新 | の情報を更新しました。 [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 明確性を向上させるため。<p>改善点は次のとおりです。</p> <ul><li>情報の整理の改善</li><li>タスクに基づく情報を示す手順を追加しました。</li></ul> |
 
 ### 2023年 {#23}

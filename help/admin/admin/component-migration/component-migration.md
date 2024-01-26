@@ -3,10 +3,10 @@ description: コンポーネントとプロジェクトをAdobe AnalyticsからC
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 3%
+source-wordcount: '1389'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 >
 >この節で説明するように、プロジェクトをCustomer Journey Analyticsに移行する前に、 [コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->マッピングしたディメンションまたは指標は、このプロジェクトに対しても、組織全体で移行される今後のすべてのプロジェクトに対しても、永続的です。 マッピングを変更することは、移行の完了後はできません。
+>マッピングしたディメンションまたは指標は、このプロジェクトに対しても、IMS 組織全体で移行される今後のすべてのプロジェクトに対しても、永続的です。 マッピングを変更することは、移行の完了後はできません。
 
 1. Adobe Analytics で、「[!UICONTROL **管理者**]」タブを選択し、「[!UICONTROL **すべての管理者**]」を選択します。
 
@@ -58,7 +58,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 1. Adobe Analytics の [!UICONTROL **プロジェクト所有者**] 「 」フィールドに、「Customer Journey Analytics」でプロジェクトの所有者に設定するユーザーの名前を入力し、ドロップダウンメニューでユーザーの名前を選択します。
 
-   指定した所有者には、プロジェクトに対する完全な管理権限があります.
+   指定した所有者は、プロジェクトに対する完全な管理権限を持ちます。
 
 1. Adobe Analytics の [!UICONTROL **レポートスイートのスキーマをマッピング**] セクションで、レポートスイートを選択します。
 
@@ -156,7 +156,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 | フィルター | 説明 |
 |---------|----------|
-| [!UICONTROL **ステータス**] | 移行のステータス： <ul><li>[!UICONTROL **未開始**]</li><li>[!UICONTROL **Started**]</li><li>[!UICONTROL **完了**]</li><li>[!UICONTROL **失敗**]</li></ul>。 |
+| [!UICONTROL **ステータス**] | 移行のステータス： <ul><li>[!UICONTROL **未開始**]</li><li>[!UICONTROL **開始済み**]</li><li>[!UICONTROL **Completed**]</li><li>[!UICONTROL **失敗**]</li></ul>。 |
 | [!UICONTROL **タグ**] | タグのリストから任意のタグを選択します。 選択したタグが適用されたプロジェクトのみが表示されます。 |
 | [!UICONTROL **レポートスイート**] | レポートスイートのリストから任意のレポートスイートを選択します。 選択したレポートスイートを使用するプロジェクトのみが表示されます。 |
 | [!UICONTROL **所有者**] | 所有者のリストから任意の所有者を選択します。 選択したユーザーが所有するプロジェクトのみが表示されます。 |
