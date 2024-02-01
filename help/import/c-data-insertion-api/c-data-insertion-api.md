@@ -3,16 +3,17 @@ description: データ挿入 API ドキュメントへのリンク。
 title: データ挿入 API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
-source-git-commit: 9f83d5670d717aa1aaa4b9e10d5e79d20655c762
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 81%
+source-wordcount: '91'
+ht-degree: 47%
 
 ---
 
 # データ挿入 API
 
-[](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)データ挿入 API と[一括データ挿入 API](../bulk-data-insertion-api/bulk-data-insert.md) はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) および [一括データ挿入 API](../bulk-data-insertion-api/bulk-data-insert.md) は、どちらの方法でも、サーバー側の収集データをAdobe Analyticsに送信できます。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、イベントデータを含む CSV 形式のファイルを受け取ります。1 行に 1 つのイベントが含まれます。
 
 詳しくは、 [一括データ挿入 API の開発者向けドキュメント](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) を参照してください。
 

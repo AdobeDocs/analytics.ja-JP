@@ -3,10 +3,11 @@ title: トランザクション ID データソース
 description: トランザクション ID データソースの一般的な使用ワークフローについて説明します。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 54c88a275b48f2b401be450ce35767ab3ea9d40b
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 10%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
@@ -14,19 +15,19 @@ ht-degree: 10%
 
 トランザクション ID データソースは、オンラインとオフラインのデータを結び付けることができる、概要データソースに関するバリエーションです。 Analytics 実装で [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用する必要があります。
 
-* データソースファイルの行に、AppMeasurement によって既に収集されたトランザクション ID と一致するトランザクション ID が含まれている場合、ディメンションと指標がオンラインヒットに追加されます。
+* データソースファイルの行に、AppMeasurementが既に収集したトランザクション ID と一致するトランザクション ID が含まれている場合、ディメンションと指標がオンラインヒットに追加されます。
 * データソースファイルの行に、一致するトランザクション ID が含まれていない場合、その行は概要データソースと同様に扱われます。
 
 >[!NOTE]
 >
->トランザクション ID データソースを使用する前に、まず [一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) を設定します。
+>トランザクション ID データソースを使用する前に、まず [一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 」をクリックします。
 
-を含むオンラインヒットを送信するとき [`transactionID`](/help/implement/vars/page-vars/transactionid.md) の値、Adobeは、その時点で設定または持続するすべての変数の「スナップショット」を取得します。 データソースを通じてアップロードされた一致するトランザクション ID が見つかると、オフラインデータとオンラインデータが結び付けられます。
+を含むオンラインヒットを送信するとき [`transactionID`](/help/implement/vars/page-vars/transactionid.md) の値、Adobeは、その時点で設定または持続するすべての変数の「スナップショット」を取ります。 データソースを通じてアップロードされた一致するトランザクション ID が見つかると、オフラインデータとオンラインデータが結び付けられます。
 
 トランザクション ID データソースには次のプロパティがあります。
 
 * オンラインデータを収集し、最初に処理する必要があります。 レポートスイートがトランザクション ID と一致するヒットを処理する前にトランザクション ID データソースがアップロードされた場合、そのデータはリンクされません。
-* AppMeasurement を通じて収集されたトランザクション ID は、約 90 日後に期限切れになります。 組織で長いトランザクション ID ウィンドウが必要な場合は、Adobeカスタマーケアにお問い合わせください。
+* AppMeasurementを通じて収集されたトランザクション ID は、約 90 日後に期限切れになります。 組織で長いトランザクション ID ウィンドウが必要な場合は、Adobeカスタマーケアにお問い合わせください。
 * 期限切れのトランザクション ID を使用してアップロードされたデータソースは、トランザクション ID を使用せずにアップロードされたデータと同様に扱われます。
 * オンラインヒットとトランザクション ID データソースの両方に同じ変数が含まれる場合は、トランザクション ID データソースの値が使用されます。
 * ある変数がオンラインヒットに含まれているが、一致するトランザクション ID データソースヒットに含まれていない場合、そのオンラインヒット変数は保持されます。
@@ -35,7 +36,7 @@ ht-degree: 10%
 
 次に例を示します。
 
-1. 次の場合に、AppMeasurement からページビューで送信します。
+1. 次の場合に、ページビューをAppMeasurementから送信します。
    * `eVar1` 次と等しい `blue`
    * `eVar2` 次と等しい `water`
    * `events` 次と等しい `event1`

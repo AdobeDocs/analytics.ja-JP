@@ -3,10 +3,11 @@ title: データソースに関する FAQ
 description: データソースに関するよくある質問 (FAQ) です。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 5%
 データソースに関するよくある質問 (FAQ) です。
 
 +++データソースの使用にかかるコストはどれくらいですか？
-データソースには料金は発生しません。また、サーバーコールの使用にはカウントされません。 [フル処理データソース](full-processing-eol.md) 退職前にサーバーの電話にカウントされます。
+データソースには料金は発生しません。また、サーバーコールの使用にはカウントされません。 [フル処理データソース](full-processing-eol.md) 退職前にサーバーの電話にカウントされました。
 +++
 
 +++データソースは eVar のアトリビューションと有効期限にどのように影響しますか。
@@ -40,7 +41,7 @@ eVarソースとオンラインヒットの間で transactionID が一致する�
 
 +++データソースからレポートに負の値を渡すとどうなりますか。
 
-渡された内容に応じて値が減少します。一部の組織では、負のデータソース値を使用してデータの修正を試みます。 負のデータソース値は、望ましくない、または予期しない方法でレポートに影響を与える可能性があります。 Adobeでは、否定的なデータソースのみを最後の手段として使用することをお勧めします。
+値はそれに従って減らされます。 一部の組織では、負のデータソース値を使用してデータの修正を試みます。 負のデータソース値は、望ましくない、または予期しない方法でレポートに影響を与える可能性があります。 Adobeでは、否定的なデータソースのみを最後の手段として使用することをお勧めします。
 +++
 
 +++ファイル拡張子では大文字と小文字が区別されますか？
@@ -52,5 +53,5 @@ eVarソースとオンラインヒットの間で transactionID が一致する�
 +++
 
 +++データソースを使用する際に、Adobeが指定した FTP の場所を使用することはできますか？
-以下を使用して、 [データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/):API 呼び出しを直接Adobeに送信できます。 これらの API 呼び出しには、 `UploadData` メソッドを使用してデータを送信できます。
+以下を使用すると、 [データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/):API 呼び出しを直接Adobeに送信できます。 これらの API 呼び出しには、 `UploadData` メソッドを使用してデータを送信できます。
 +++

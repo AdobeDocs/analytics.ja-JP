@@ -1,12 +1,12 @@
 ---
 title: Analytics インポートガイド
-description: このガイドでは、データソース、Data Insertion API、Data Connectors を使用して、データを Analytics に送信する方法について説明します。
+description: このガイドでは、データソースおよびデータ挿入 API を使用してデータを Analytics に取り込む方法を説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 88%
 
 ---
 
