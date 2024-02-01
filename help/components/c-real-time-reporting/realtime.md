@@ -4,10 +4,10 @@ title: リアルタイムレポートの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '591'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) を参照してください。
+>リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートを設定するには、 [リアルタイムレポートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 ## リアルタイムレポートへのアクセス
 
@@ -49,11 +49,11 @@ ht-degree: 92%
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較することができます。
 
-永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md) を参照してください。
+永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、 [リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
-## A4T 設定によるデータ遅延 {#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 設定によるデータ遅延 {#latency-a4t}
 
 Adobe [!DNL Target] で A4T 統合を有効にすると、Adobe Analytics で 5～10 分の待ち時間が追加で発生します。この追加の待ち時間は、Analytics と [!DNL Target] からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
 

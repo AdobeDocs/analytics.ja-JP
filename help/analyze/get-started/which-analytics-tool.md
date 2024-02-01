@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 93%
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
 
-* データを Adobe Analytics にアップロードする必要があるときに Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。
+* データをAdobe Analyticsにアップロードする必要があり、Adobe AppMeasurementまたはモバイル SDK コードを使用できない場合。 一括データ挿入 API の使用をお勧めします（以下を参照）。
 
 **[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
