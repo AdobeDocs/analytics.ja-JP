@@ -1,16 +1,16 @@
 ---
-description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
-title: Advertising Analytics のガイド
+description: 必要な権限、使用可能なディメンションや指標など、Advertising Analyticsで実行できるすべての操作について説明します。
+title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 97%
+source-wordcount: '1176'
+ht-degree: 96%
 
 ---
 
-# Advertising Analytics のガイド
+# Advertising Analytics
 
 Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。Adobe Analytics 内で、インプレッション数、クリック数、コストデータを、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。「品質スコア」と「平均順位」指標は、Google が 2019年9月に廃止したため、収集されなくなりました。
 
@@ -27,19 +27,16 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 * 有料検索マーケターのパフォーマンスレポートを収集する必要がある&#x200B;**アナリスト**。
 * 次の問いの答えを模索している&#x200B;**有料検索マーケター**：自社サイトへ自分で送信しているトラフィックの量、お客様が変換しているトラフィックの量はどの程度か。コスト効果の高い広告キャンペーンとはどのようなものか。
 
-## 前提条件 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## 前提条件 {#prerequisites}
 
 * Advertising Analytics は、Adobe Analytics [Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)、[Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html) SKU でのみ利用できます。
-
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
-* Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
+* Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#permissions)。
 * Google／Bing の検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
-
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
 * Bing 広告の場合、Bing 顧客 ID も必要になります。
-* Internet Explorer 11（または以前のバージョン）を使用している場合、3 つのどの検索エンジンでも [Advertising アカウントを正しく設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)できません。他の web ブラウザーを使用してください。
 
-## Advertising Analytics の権限 {#section_FCC58EB635954A32990D4E67B52B4369}
+## Advertising Analytics の権限 {#permissions}
 
 Analytics には、Analytics 管理者に自動で付与される 2 つの権限があります。管理者は、これらの権限を管理者以外のユーザーに付与することを選択できます。
 
@@ -68,11 +65,11 @@ Analytics には、Analytics 管理者に自動で付与される 2 つの権限
  </tbody> 
 </table>
 
-## Advertising Analytics のディメンションと指標 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics のディメンションと指標 {#dimensions-metrics}
 
 Advertising Analyticsは、次のディメンションと指標をAnalysis Workspace、Report Builderおよび Analytics レポート API に追加します。
 
-**ディメンション**
+### ディメンション
 
 >[!IMPORTANT]
 >
@@ -101,7 +98,7 @@ Advertising Analyticsは、次のディメンションと指標をAnalysis Works
 | 最適化（AMO ID） | Advertising Analytics では使用しません。Advertising Cloud のお客様のみが使用します。 |
 | デバイス（AMO ID） | 現在は使用しません。広告のターゲットのデバイスタイプ（モバイル、デスクトップなど）を示すための、将来の潜在的な製品の改良用のプレースホルダーです（訪問者の実際のデバイスではありません）。 |
 
-**指標**
+### 指標
 
 >[!IMPORTANT]
 >
