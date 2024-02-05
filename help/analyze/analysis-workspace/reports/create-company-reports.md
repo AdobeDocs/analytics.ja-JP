@@ -1,18 +1,19 @@
 ---
-description: Analysis Workspaceでのデフォルトレポートの使用方法の概要です。
+description: Analysis Workspace でのデフォルトレポートの使用方法の概要。
 title: レポートを使用
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 # 会社レポートの作成と管理
 
-カスタムレポートを作成して、ログイン会社の他のユーザーが使用できるように保存することができます。 会社レポートでは、 [空のプロジェクトまたはレポートからプロジェクトを作成する](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) この記事では [Analysis Workspaceでプロジェクトを作成する](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+カスタムレポートを作成し、ログイン会社内の他のユーザーが使用できるように保存できます。[Analysis Workspace でのプロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)の記事の[空のプロジェクトまたはレポートからのプロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report)で説明しているように、プロジェクトの作成時に会社レポートを選択できます。
 
 ## カスタム会社レポートの作成
 
