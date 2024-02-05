@@ -1,18 +1,18 @@
 ---
-description: 必要システム構成と、Analysis Workspace、Report Builder、Data Warehouse、Data Workbenchの比較
+description: 必要システム構成と、Analysis Workspace、Report Builder、Data Warehouse、Data Workbench の比較
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Analytics 製品の比較と必要システム構成
 
-このページでは、Analysis Workspace、Report Builder、Data Warehouse、データフィード、Analytics API 2.0 など、様々なAdobe Analytics製品の比較を示します。
+このページでは、Adobe Analytics の各種製品（Analysis Workspace、Report Builder、Data Warehouse、データフィード、および Analytics API 2.0）の比較を示します。
 
 使用すべき Adobe Analytics 製品について詳しくは、[使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 | **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | ○ | × | ○ | × | ○ |
 | **分類の数** | 制限なし | ～ 2 | 制限なし | 制限なし | 制限なし（複数のクエリに対して実行） |
 | **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | ○ | ○ | ○（[制限あり](/help/components/segmentation/seg-reference/seg-compatibility.md)） | × | ○ |
-| **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | はい（属性あり） | ○ | × | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
+| **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | ○（Attribution あり） | ○ | × | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
 | **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | ○ | ○ | ○ | ○ — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | ○ | × | × | × |
 | **アトリビューション** | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | 制限あり | × | × | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | × |
