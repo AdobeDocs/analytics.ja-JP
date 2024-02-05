@@ -4,7 +4,7 @@ description: データソースで使用するファイルを正しく生成す�
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobeは、他のディメンションや指標のデータソースをサポー
 
 各行の最初の値 **必須** を日付にします。 日付の形式は、次のいずれかの形式で指定する必要があります。
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 時間/分/秒を省略すると、その日のタイムスタンプが午後 12 時に自動的に設定されます。
 
