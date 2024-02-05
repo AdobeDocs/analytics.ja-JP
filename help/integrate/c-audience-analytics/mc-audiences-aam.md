@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ Audience Analyticsを統合したら、人口統計情報（例：性別や所�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## 主なメリット  {#section_94816D17283349E0BA28521BE55BB868}
+## 主なメリット  {#benefits}
 
 Audience Analytics 統合には次の主要なメリットがあります。
 
@@ -29,19 +29,19 @@ Audience Analytics 統合には次の主要なメリットがあります。
 * ソリューション管理者は、ユーザーインターフェイスから統合を有効にすることができ、コードの変更は最小限で済みます。
 * Audience Manager のデータエクスポートコントロールに準拠するセグメントのみが共有されます。
 
-## 仕組み {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Audience Analyticsの仕組み {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
-1.   [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)に設定されている場合、Analytics が受け取った各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
+1. を使用 [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)に設定されている場合、Analytics が受け取った各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
 1. Audience Analytics統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
 
 Adobe Audience Managerのセグメントは同じヒット単位で挿入されるので、Adobe Audience Managerで使用可能な訪問者に関するデータがどれであれ、訪問者がミスされず、そのヒットに関して最新の状態に保つことができます。 AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
 
 また、Adobe Audience Managerセグメント ID はわかりやすい名前に自動的に分類されるので、Analytics レポートで英数字の ID を参照する必要はありません。
 
-## 前提条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## 前提条件 {#prerequisites}
 
 次の前提条件を満たしていることを確認します。
 
