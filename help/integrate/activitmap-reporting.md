@@ -3,9 +3,10 @@ description: Analytics で Activity Map レポートを有効にするための�
 title: Activity Map レポート
 feature: Activity Map
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
@@ -21,12 +22,12 @@ Activity Map（旧称 ClickMap）から提供されるユーザーアクティ�
 * Analytics でのレポートの作成が可能になります。
 * **[!UICONTROL すべてのレポートを表示]**／**[!UICONTROL Activity Map：]**&#x200B;に以下の新しいレポートが追加されます。
 
-   | レポート | 説明 |
-   |---|---|
-   | Activity Map ページ | リンクがクリックされたページのリストを表示します。 |
-   | Activity Map 地域 | Web サイト全体で収集されたすべてのリンク領域のリストを表示します。1 つの領域が複数のページに表示される場合は、そのすべてのページにまたがって指標が集計されます。 |
-   | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
-   | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
+  | レポート | 説明 |
+  |---|---|
+  | Activity Map ページ | リンクがクリックされたページのリストを表示します。 |
+  | Activity Map 地域 | Web サイト全体で収集されたすべてのリンク領域のリストを表示します。1 つの領域が複数のページに表示される場合は、そのすべてのページにまたがって指標が集計されます。 |
+  | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
+  | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
 
 レポートにデータが入力されるようにするには、[Activity Map のドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja)を参照して、導入手順をご確認ください。
 

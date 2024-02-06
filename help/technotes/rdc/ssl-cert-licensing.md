@@ -3,9 +3,10 @@ title: SSL 証明書のライセンス
 description: 顧客管理証明書の手続き
 feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 アドビでは、[Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ja) を利用して、追加費用なしで証明書を管理することをお勧めします。Adobe Managed Certificate Program は完全自動化されており、証明書の期限切れによる影響を回避するために、適時に証明書を更新できるようにします。
 
-[Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) を使用しない場合、ファーストパーティ cookie に使用する SSL／TLS 証明書を提供する必要があります。
+[Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ja) を使用しない場合、ファーストパーティ cookie に使用する SSL／TLS 証明書を提供する必要があります。
 
 お客様が独自の証明書を用意する場合は、購入やメンテナンスを独自に継続していただく必要があります。SSL／TLS 証明書には、無制限のサーバーライセンスが含まれている必要があります。
 

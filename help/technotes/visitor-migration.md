@@ -5,10 +5,10 @@ title: 訪問者の移行
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 訪問者の移行を設定した後で、訪問者 ID cookie を持たないユーザーが新しいドメインを訪問すると、サーバーは前のデータ収集ホスト名にリダイレクトして、使用できる訪問者 ID cookie をすべて取得した後、新しいドメインに再リダイレクトします。前のホスト名で訪問者 ID が見つからない場合、新しい ID が生成されます。この処理は訪問者 1 人につき 1 回のみ実行されます。
 
-## 訪問者の移行のプロセス {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 訪問者の移行のプロセス {#process}
 
 以下の表に、訪問者の移行に必要なタスクを示します。
 
@@ -66,3 +66,10 @@ ht-degree: 88%
   </tr> 
  </tbody> 
 </table>
+
+| タスク | 説明 |
+|--- |--- |
+| 開始方法：カスタマーケアに連絡して、移行するドメインと、有効にする移行期間（30 日、60 日または 90 日）を伝えます。 セキュリティで保護されていないドメインとセキュリティで保護されていないドメインを必ず含めてください。 | 移行元および移行元のドメインの正確な構文を持つリストを作成します。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>移行ホスト名はアドビのデータ収集サーバーに設定されます。変更が実施され、次の手順を計画できるようになると、カスタマーケアから通知されます。 |
+| 設定変更から 6 時間以上経過後： `s.trackingServer` および `s.trackingServerSecure` 変数を使用して新しいデータ収集サーバーを使用する必要があります。 | この変更を行った後、 [Experience Cloudデバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja) をクリックして、Analytics イメージリクエストが更新されたデータ収集サーバーに送信されることを確認します。 |
+| Analytics コードの更新直後：サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 | の使用 [パケット監視](../implement/validate/packet-monitor.md) サイトに初めてアクセスしたときや cookie を消去した後に、200(OK)HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されていることを確認するには、次のようにします。 いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 |
+| 移行期間全体：前のホスト名の DNS レコードをアクティブに保ちます。 | 前のホスト名が DNS によって解決されなければ、cookie は移行されません。 |

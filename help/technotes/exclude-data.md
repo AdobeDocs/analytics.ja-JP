@@ -3,7 +3,8 @@ title: Adobe Analytics のデータを除外
 description: データ収集前と収集後のデータを除外する方法について、様々な方法を説明します。
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 96%
@@ -20,7 +21,7 @@ ht-degree: 96%
 
 * **IP による除外**：Adobe Analytics は、レポートスイート内の IP アドレスまたは範囲のデータを除外する基本機能を提供しています。 管理者ユーザガイドの [IP による除外](/help/admin/admin/exclude-ip.md)を参照してください。
 * **ボットルール**：ボットルールは、既知のボットユーザーエージェント文字列からトラフィックを取得し、Analytics レポートから除外します。 ボットルールによって除外したデータは、ボットレポートに配置されます。 カスタムボットルールを作成して、追加のデータを除外できます。 管理者ユーザガイドの[ボットルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)を参照してください。
-* **VISTA ルール**：組織のニーズに応じて、要件に一致するヒットが、除外されたデータ受信専用の別のレポートスイートに送信されます。 VISTA ルールは一般的に IP アドレスに対して使用されますが、これらに限定されません。 任意のディメンションを使用して、レポートスイートにデータを含めたり、除外したりできます。 VISTA ルールは追加費用がかかる場合があります。詳しくは、Adobeアカウントチームにお問い合わせください。
+* **VISTA ルール**：組織のニーズに応じて、要件に一致するヒットが、除外されたデータ受信専用の別のレポートスイートに送信されます。 VISTA ルールは一般的に IP アドレスに対して使用されますが、これらに限定されません。 任意のディメンションを使用して、レポートスイートにデータを含めたり、除外したりできます。 VISTA ルールは追加費用の対象となります。詳しくは、Adobeのアカウントチームにお問い合わせください。
 * **オプトアウト Cookie**：すべてのサイト訪問者は、トラッキングサーバーに固有のページにアクセスすることにより、任意に Adobe Analytics でのトラッキングをオプトアウトできます。 実装ユーザガイドの[オプトアウトリンクの実装](/help/implement/js/opt-out.md)を参照してください。
 
 >[!TIP]

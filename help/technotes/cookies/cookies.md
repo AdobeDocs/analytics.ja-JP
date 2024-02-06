@@ -3,10 +3,11 @@ title: Adobe Analytics とブラウザーの cookie
 description: トラッキング防止対策が、Adobe Analytics によって設定されたサードパーティ cookie およびファーストパーティ cookie にどのように影響するかを説明します。
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1981'
-ht-degree: 100%
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+workflow-type: tm+mt
+source-wordcount: '1914'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 ## ブラウザーでの cookie の使用制限
 
 >[!NOTE]
->[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、利用可能な場合は、ハッシュ化されたログイン ID など、個人 ID を使用して cookie をまたいで関連付けできます。
+>[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda) および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) は、ハッシュ化されたログイン id（使用可能な場合）など、ユーザー ID を使用して cookie をまたいで結び付けることができます。
 
 ### サードパーティ cookie の制限
 
@@ -74,7 +75,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子として、HTTPS による安全なコンテンツ提供を可能にします。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーはAdobeを [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) サードパーティ Cookie としての ID ですが、クライアントはAdobeに対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しをおこないません。 この cookie はドメイン間で永続的な識別子として、HTTPS による安全なコンテンツ提供を可能にします。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告のユースケース（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、所有する別のドメインに訪問者がアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -168,11 +169,11 @@ ITP トラッキング防止の影響を受けているビジネスは、レポ�
 
 * ITP ユーザーを除外するセグメントを作成します。
 
-   ![ITP 以外の訪問者のセグメント](/help/technotes/assets/non-itp-visitor-segment.png)
+  ![ITP 以外の訪問者のセグメント](/help/technotes/assets/non-itp-visitor-segment.png)
 
 * 既知の訪問者の水増しに合わせて調整する計算指標を作成します。
 
-   ![訪問者の水増しに合わせて調整する計算指標](/help/technotes/assets/estimated-itp-visitors-metric.png)
+  ![訪問者の水増しに合わせて調整する計算指標](/help/technotes/assets/estimated-itp-visitors-metric.png)
 
 >[!MORELIKETHIS]
 >

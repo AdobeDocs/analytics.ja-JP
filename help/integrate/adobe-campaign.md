@@ -3,14 +3,16 @@ description: Adobe AnalyticsでAdobe Campaign Standardレポートを有効に�
 title: Adobe Campaign Standard Reporting をAdobe Analyticsに統合する方法を教えてください。
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
 
-# Adobe Campaign Standardレポート
+
+# Adobe Campaign Standard Reporting
 
 この統合を設定する方法について詳しくは、[Adobe Campaign のドキュメント](https://helpx.adobe.com/jp/campaign/standard/integrating/using/about-campaign-analytics-integration.html)を参照してください。
 
@@ -27,7 +29,7 @@ Adobe AnalyticsとAdobe Campaign Standardのこの統合：
 * 6 個の新しい Adobe Campaign ディメンションが追加されます。
 * 自動プロビジョニングされたデータソースを使用して、15 分ごとに Analytics にデータを同期します。
 
-## 手順 1：Adobe Campaign Standardレポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
+## 手順 1.Adobe Campaign Standardレポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
 
 Analytics でCampaign Standardデータを表示するには、まず Report Suite Manager で Campaign レポートを有効にする必要があります。
 
@@ -42,7 +44,7 @@ Adobe Campaign Standard と Adobe Analytics の統合により、**[!UICONTROL A
 
 * **[!UICONTROL Adobe Campaign実行済み配信 ID]**:Adobe Campaignから読み込まれた、Adobe Campaignから送信された電子メールに関するデータを表示します。 |
 
-## 手順 3：Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## 手順 3.Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**`<select report suite>`**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Adobe Campaign]**／**[!UICONTROL Adobe Campaign 分類]**
 
@@ -54,7 +56,7 @@ Adobe Campaign に対してレポートスイートを有効にすると、次�
 | [!UICONTROL 配信ラベル] | Campaign での配信 — 個別配信/繰り返し配信/トランザクション配信 |
 | [!UICONTROL キャンペーン ID] | Campaign に表示される内部キャンペーン名 |
 | [!UICONTROL キャンペーンラベル] | Adobe Campaignでのキャンペーン |
-| [!UICONTROL 実行された配信ラベル] | 個々に実行された配信のリスト |
+| [!UICONTROL 実行済み配信ラベル] | 個々に実行された配信のリスト |
 
 ## Adobe Analyticsで使用できるAdobe Campaign Standardのディメンションと指標 {#section_F33385C9660644AF84172EC39601469B}
 

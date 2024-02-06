@@ -3,10 +3,11 @@ title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 87%
+source-wordcount: '1184'
+ht-degree: 84%
 
 ---
 
@@ -30,7 +31,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 >
 > 2023年1月の時点で、Mac および Windows オペレーティング システムの一部のバージョンがユーザーエージェントで正しく表示されず、高エントロピーのクライアントヒントでは正しく表示されます。詳しくは、[オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照してください。
 
-Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 次を使用する場合： [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
+Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 を使用している場合、 [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
 
 ## よくある質問
 
@@ -67,14 +68,14 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 | Sec-CH-UA | ブラウザーと重要なバージョン | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | `true` |
 | Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | `"Android"` |
-| アークテクチャ | サイトのアーキテクチャ | 高 | `"arm"` |
+| アーキテクチャ | サイトのアーキテクチャ | 高 | `"arm"` |
 | 硬さ | アーキテクチャのビット度 | 高 | `"64"` |
 | fullVersionList | ブランドとそのバージョンのリスト | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | デバイスモデル | 高 | `"Pixel 3"` |
 | platformVersion | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
 
 * 低エントロピーのヒントは、リクエストヘッダーで収集されます。
-* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリ文字列パラメーターは、`h.` をイメージリクエストのプレフィックスとして使用します。ブラウザのメジャーバージョンは低エントロピーヒントとして取り込まれるので、fullVersionList は現在収集されていません。
+* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリー文字列パラメーターは、 `h.` をイメージリクエストのプレフィックスとして使用します。 ブラウザのメジャーバージョンは低エントロピーヒントとして取り込まれるので、fullVersionList は現在収集されていません。
 
 高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターで渡されます
 
@@ -158,6 +159,6 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++**Adobe Audience Managerサーバー側転送はクライアントヒントをサポートしますか？**
 
-はい。Adobe Audience Managerに転送されるデータに、クライアントヒントが含まれます。 Adobe Audience Managerでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 次を使用する場合： [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
+はい。Adobe Audience Managerに転送されるデータに、クライアントヒントが含まれます。 Adobe Audience Managerでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 を使用している場合、 [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
 
 +++
