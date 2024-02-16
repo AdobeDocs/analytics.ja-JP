@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '5047'
-ht-degree: 95%
+source-wordcount: '5095'
+ht-degree: 99%
 
 ---
 
@@ -25,20 +25,22 @@ ht-degree: 95%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2024年2月** | |
+| Data Warehouseおよびデータフィードで、ファイルをAmazon S3 および GCP バケットにアップロードするための権限要件を追加しました。 | ファイルをAmazon S3 およびGoogle Cloud Platform バケットにアップロードするための正確な権限要件 ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
 | **2024年1月** | |
-| コンポーネントの移行は個々の IMS 組織に適用されます | 明確にした [コンポーネントの移行](/help/admin/admin/component-migration/component-migration.md) は、クロス IMS 組織の移行をサポートしていません。 |
-| 特定の情報が管理者のみに提供されることを明確にしました。 | 「最後に使用した日」列と「次で使用された日」列について、 [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) および [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md) は、システム管理者のみが使用できます。 |
-| メディアの分平均オーディエンスドキュメントの更新 | の情報を更新しました。 [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 明確性を向上させるため。<p>改善点は次のとおりです。</p> <ul><li>情報の整理の改善</li><li>タスクに基づく情報を示す手順を追加しました。</li></ul> |
+| コンポーネントの移行を個々の IMS 組織に適用 | [コンポーネントの移行](/help/admin/admin/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
+| 特定の情報は管理者のみが利用できることを明確化 | [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)および[セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で説明している「前回の使用」列と「使用場所」列は、システム管理者のみが使用できることを示す情報を追加しました。 |
+| メディア分平均オーディエンスドキュメントの更新 | [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li></ul> |
 
 ### 2023年 {#23}
 
 | 機能 | 説明 |
 | --- | --- |
 | **2023年12月** | |
-| ボットルールに関するドキュメントの改善 | の情報を更新しました。 [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) 明確性を向上させるため。<p>改善点は次のとおりです。</p> <ul><li>記事のタイトルを更新して説明的にしました</li><li>情報の整理の改善</li><li>タスクに基づく情報を示す手順を追加しました。</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加しました。</li></ul> |
-| 新しいレポートセクション | 次の情報を含む新しい「レポート」セクションを追加しました： [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md) および [会社レポートの作成と管理](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
-| 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、仮想アナリストに関する節に記載されていました。 次の変更が加えられました。 <ul><li>Virtual Analyst という用語はドキュメントから削除されました。</li><li>に関する節 [異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) は、Analysis Workspaceセクションのすぐ下に移動されました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合されました。</li></ul> |
-| &quot;Attribution IQ&quot;が&quot;属性&quot;に変更されました&quot; | 「Attribution IQ」のすべてのインスタンスを「[帰属](/help/analyze/analysis-workspace/attribution/overview.md)」がドキュメント全体に表示されます。 |
+| ボットルールに関するドキュメントの改善 | [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>説明的にした記事のタイトルを更新</li><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加</li></ul> |
+| 新しいレポートの節 | [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md)と[会社レポートの作成と管理](/help/analyze/analysis-workspace/reports/create-company-reports.md)に関する情報を含む。新しいレポートの節を追加しました。 |
+| 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
+| 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
 | Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ja)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |
@@ -144,7 +146,7 @@ ht-degree: 95%
 | Adobe Analytics ランディングページの更新 | Analysis Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
 | [!UICONTROL ページの概要]ワークスペースパネル | このパネルでは、選択したページに関する詳細な分析結果を提供します。 |
-| 古い予定レポートの一時停止に関する新しいトピック | 有効 **2022 年 4 月 16 日**&#x200B;作成日が 2 年を超える予定レポートをすべて一時停止します |
+| 古い予定レポートの一時停止に関する新しいトピック | **2022年4月15日（PT）**&#x200B;より、アドビは、作成日から 2 年以上が経過した予定レポートをすべて一時停止する予定です。 |
 | **2022年2月** |
 | モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

@@ -3,9 +3,9 @@ description: Data Warehouse リクエストを作成する方法について手�
 title: レポートの送信先の設定リクエストのData Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 Adobeから提供されたユーザー ARN が、このバケットにファイルをアップロードするためのアクセス権を持っていることを確認します。 |
+      | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 <p>Adobeが提供したユーザー ARN に `S3:PutObject` 権限を持っています。 この権限を持つユーザー ARN は、以降のアップロードで、初期ファイルをアップロードし、ファイルを上書きできます。</p> |
       | [!UICONTROL **キーのプレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Data Warehouseレポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信する GCP アカウント内のバケット。 ファイルをこのバケットにアップロードするための権限が、Adobeから提供されるプリンシパルに対して付与されていることを確認します。 権限の付与について詳しくは、 [プリンシパルをバケットレベルのポリシーに追加する](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) ( Google Cloud ドキュメント ) を参照してください。 |
+      | [!UICONTROL **バケット名**] | Adobe Analyticsデータを送信する GCP アカウント内のバケット。 <p>Adobeが提供するプリンシパルに対して、次のいずれかの権限を付与していることを確認します。<ul><li>`roles/storage.objectCreator`：プリンシパルで GCP アカウント内のファイルの作成のみを制限する場合は、この権限を使用します。 </br>**重要：** スケジュールされたレポートでこの権限を使用する場合は、新たにスケジュールされたエクスポートを作成するたびに一意のファイル名を使用する必要があります。 そうしないと、プリンシパルは既存のファイルを上書きするアクセス権を持たないので、レポートの生成に失敗します。</li><li>`roles/storage.objectUser`：プリンシパルに、GCP アカウント内のファイルの表示、リスト、更新、削除のアクセス権を付与する場合は、この権限を使用します。</br>この権限を持つプリンシパルは、以降のアップロードで既存のファイルを上書きできます。新しくスケジュールされた書き出しごとに一意のファイル名を自動生成する必要はありません。</li></ul><p>権限の付与について詳しくは、 [プリンシパルをバケットレベルのポリシーに追加する](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) ( Google Cloud ドキュメント ) を参照してください。</p> |
       | [!UICONTROL **キーのプレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例えば、folder_name/ |
 
       {style="table-layout:auto"}

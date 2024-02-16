@@ -3,10 +3,10 @@ title: データフィードの作成
 description: データフィードを作成する方法を説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 20%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 20%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **名前**] | データフィードの名前。選択したレポートスイート内で一意である必要があり、最大 255 文字まで設定できます。 |
+   | [!UICONTROL **名前**] | データフィードの名前。 選択したレポートスイート内で一意である必要があり、最大 255 文字まで設定できます。 |
    | [!UICONTROL **レポートスイート**] | データフィードの基になるレポートスイート。 同じレポートスイートに対して複数のデータフィードを作成する場合は、異なる列定義を持つ必要があります。データフィードをサポートするのはソースレポートスイートのみです。仮想レポートスイートはサポートされていません。 |
-   | [!UICONTROL **完了時にメールを送信**] | フィードの処理が終了したときに通知される電子メールアドレス。 電子メールアドレスは正しい形式にする必要があります。 |
+   | [!UICONTROL **完了時に電子メールを送信**] | フィードの処理が終了したときに通知される電子メールアドレス。 電子メールアドレスは正しい形式にする必要があります。 |
    | [!UICONTROL **フィード間隔**] | 選択 **毎日** ：バックフィルまたは履歴データ用。 毎日のフィードには、レポートスイートのタイムゾーンの午前 0 時から午前 0 時までの 1 日分のデータが含まれます。  選択 **1 時間ごと** 継続データ用（希望する場合は、継続フィードでも Daily を使用できます）。 時間別フィードには、1 時間分のデータが含まれます。 |
    | [!UICONTROL **遅延処理**] | データフィードファイルを処理する前に、所定の時間待ちます。 遅延は、モバイル実装に、オフラインデバイスがオンラインになり、データを送信する機会を与えるのに役立ちます。また、以前に処理されたファイルを管理する際に、組織のサーバー側のプロセスに対応するためにも使用できます。ほとんどの場合、遅延は必要ありません。フィードは、最大 120 分遅れる可能性があります。 |
    | [!UICONTROL **開始日と終了日**] | 開始日は、データフィードを開始する日付を示します。 履歴データのデータフィードの処理を直ちに開始するには、データを収集している過去の任意の日付にこの日付を設定します。 開始日と終了日は、レポートスイートのタイムゾーンに基づきます。 |
@@ -94,17 +94,17 @@ ht-degree: 20%
          | [!UICONTROL **アカウント名**] | アカウントの名前。 任意の名前を指定できます。 |
          | [!UICONTROL **アカウントの説明**] | アカウントの説明。 |
          | [!UICONTROL **役割 ARN**] | AdobeがAmazon S3 アカウントへのアクセス権を取得するために使用できる役割 ARN(Amazon Resource Name) を指定する必要があります。 これを行うには、ソースアカウントの IAM アクセス許可ポリシーを作成し、そのポリシーをユーザーに関連付けてから、宛先アカウントのロールを作成します。 詳しくは、 [このAWSドキュメント](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **ユーザーARN**] | ユーザー ARN(Amazon Resource Name) は、Adobeが提供します。 作成したポリシーにこのユーザーを添付する必要があります。 |
+         | [!UICONTROL **ユーザー ARN**] | ユーザー ARN(Amazon Resource Name) は、Adobeが提供します。 作成したポリシーにこのユーザーを添付する必要があります。 |
 
          {style="table-layout:auto"}
 
-         1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。
+      1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。
 
          | フィールド | 関数 |
          |---------|----------|
          | [!UICONTROL **名前**] | アカウントの名前。 |
          | [!UICONTROL **説明**] | アカウントの説明。 |
-         | [!UICONTROL **グループ**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 Adobeから提供されたユーザー ARN が、このバケットにファイルをアップロードするためのアクセス権を持っていることを確認します。 |
+         | [!UICONTROL **バケット**] | Adobe Analyticsデータを送信するAmazon S3 アカウント内のバケット。 <p>Adobeが提供したユーザー ARN に `S3:PutObject` 権限を持っています。 この権限を持つユーザー ARN は、以降のアップロードで、初期ファイルをアップロードし、ファイルを上書きできます。</p> |
          | [!UICONTROL **プレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例：`folder_name/` |
 
          {style="table-layout:auto"}
@@ -213,8 +213,8 @@ ht-degree: 20%
          | [!UICONTROL **アカウントの説明**] | Azure SAS アカウントの説明。 この説明は、 [!UICONTROL **アカウントを選択**] ドロップダウンフィールドに含めることができます。任意の名前を指定できます。 |
          | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS トークンへのパス。  Azure SAS を構成するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>キー Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。 詳しくは、 [Key Vault アクセスポリシーの割り当て方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **Key Vault シークレットの名前**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵の名前。 Microsoft Azure では、この情報は、次の場所で作成した Key Vault 内の **Key Vault** 設定ページ。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **キーボールト URI**] | <p>Azure Key Vault の SAS トークンへのパス。  Azure SAS を構成するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>キー Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。 詳しくは、 [Key Vault アクセスポリシーの割り当て方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **キー Vault の秘密鍵の名前**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵の名前。 Microsoft Azure では、この情報は、次の場所で作成した Key Vault 内の **Key Vault** 設定ページ。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。 Microsoft Azure では、この情報は **証明書と秘密鍵** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -274,14 +274,14 @@ ht-degree: 20%
 
          {style="table-layout:auto"}
 
-         1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。
+      1. 選択 [!UICONTROL **場所を追加**]&#x200B;次の情報を指定します。
 
          | フィールド | 関数 |
          |---------|----------|
          | [!UICONTROL **プリンシパル**] | プリンシパルはAdobeで提供されます。 このプリンシパルにフィードを受け取る権限を付与する必要があります。 |
          | [!UICONTROL **名前**] | アカウントの名前。 |
          | [!UICONTROL **説明**] | アカウントの説明。 |
-         | [!UICONTROL **グループ**] | Adobe Analyticsデータを送信する GCP アカウント内のバケット。 ファイルをこのバケットにアップロードするための権限が、Adobeから提供されるプリンシパルに対して付与されていることを確認します。 |
+         | [!UICONTROL **バケット**] | Adobe Analyticsデータを送信する GCP アカウント内のバケット。 <p>Adobeが提供するプリンシパルに対して、次のいずれかの権限を付与していることを確認します。<ul><li>`roles/storage.objectCreator`：プリンシパルで GCP アカウント内のファイルの作成のみを制限する場合は、この権限を使用します。 </br>**重要：** スケジュールされたレポートでこの権限を使用する場合は、新たにスケジュールされたエクスポートを作成するたびに一意のファイル名を使用する必要があります。 そうしないと、プリンシパルは既存のファイルを上書きするアクセス権を持たないので、レポートの生成に失敗します。</li><li>（推奨） `roles/storage.objectUser`：プリンシパルに、GCP アカウント内のファイルの表示、リスト、更新、削除のアクセス権を付与する場合は、この権限を使用します。</br>この権限を持つプリンシパルは、以降のアップロードで既存のファイルを上書きできます。新しくスケジュールされた書き出しごとに一意のファイル名を自動生成する必要はありません。</li></ul><p>権限の付与について詳しくは、 [プリンシパルをバケットレベルのポリシーに追加する](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) ( Google Cloud ドキュメント ) を参照してください。</p> |
          | [!UICONTROL **プレフィックス**] | データを配置するバケット内のフォルダー。 フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。 例：`folder_name/` |
 
          {style="table-layout:auto"}
@@ -297,7 +297,7 @@ ht-degree: 20%
    | フィールド | 関数 |
    |---------|----------|
    | [!UICONTROL **エスケープ文字を削除**] | データを収集する際に、一部の文字（改行など）が問題の原因となる場合があります。 フィードファイルからこれらの文字を削除する場合は、このチェックボックスをオンにします。 |
-   | [!UICONTROL **圧縮形式**] | 使用する圧縮のタイプ。 **** Gzip はファイルを `.tar.gz` 形式で出力します。**** Zip はファイルを `.zip` 形式で出力します。 |
+   | [!UICONTROL **圧縮形式**] | 使用する圧縮のタイプ。 **Gzip** ファイルを出力 `.tar.gz` 形式を使用します。 **郵便番号** ファイルを出力 `.zip` 形式を使用します。 |
    | [!UICONTROL **パッケージタイプ**] | 選択 **複数のファイル** ほとんどのデータフィードで使用できます。 このオプションは、非圧縮の 2GB チャンクにデータをページ分けします。 （複数のファイルを選択し、レポートウィンドウの非圧縮データが 2GB 未満の場合、1 つのファイルが送信されます）。 選択 **単一ファイル** は、 `hit_data.tsv` ファイルを 1 つの、潜在的に大規模なファイルに格納します。 |
    | [!UICONTROL **マニフェスト**] | Adobeが [マニフェストファイル](c-df-contents/datafeeds-contents.md#feed-manifest) を宛先に送信する必要があります（フィード間隔でデータが収集されない場合）。 次を選択した場合、 **マニフェストファイル**&#x200B;に値を指定すると、データが収集されない場合に、次のようなマニフェストファイルを受け取ります。<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **列テンプレート**] | 多数のデータフィードを作成する場合、Adobeでは列テンプレートを作成することをお勧めします。 列テンプレートを選択すると、指定した列が自動的にテンプレートに含まれます。また、アドビでは、デフォルトで複数のテンプレートを提供しています。 |
