@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '5095'
-ht-degree: 99%
+source-wordcount: '5161'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,9 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2024年2月** | |
+| **2024 年 2 月** | |
+| プロジェクト共有ドキュメントの更新 | 次の方法に関する情報を追加しました。 [共有プロジェクトを表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>また、 [個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
+| Data Warehouseおよびデータフィードで、Azure SAS および Azure RBAC にファイルをアップロードするための権限要件を追加しました。 | Azure SAS および Azure RBAC にファイルをアップロードするための正確な権限要件を追加しました ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
 | Data Warehouseおよびデータフィードで、ファイルをAmazon S3 および GCP バケットにアップロードするための権限要件を追加しました。 | ファイルをAmazon S3 およびGoogle Cloud Platform バケットにアップロードするための正確な権限要件 ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
 | **2024年1月** | |
 | コンポーネントの移行を個々の IMS 組織に適用 | [コンポーネントの移行](/help/admin/admin/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
