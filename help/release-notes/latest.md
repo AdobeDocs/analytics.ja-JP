@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 42%
+source-wordcount: '751'
+ht-degree: 40%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2024年2月）
 
-**最終更新日**：2024年2月16日（PT）
+**最終更新日**：2024年2月21日（PT）
 
 これらのリリースノートでは、2024 年 2 月 14 日のリリース期間を 2024 年 3 月 11 日まで対象としています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -20,6 +20,7 @@ ht-degree: 42%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Data WarehouseAPI ドキュメント** | 詳しくは、 [Adobe AnalyticsData WarehouseAPI 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) を参照してください。 に移動します。 [!UICONTROL 定義を選択] を選択し、 [!UICONTROL Data WarehouseAPI]. | | 2024年2月19日（PT） |
 | **追加費用なしの Web SDK のActivity Map** | 現在、Activity Mapリンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。 この機能強化では、AppMeasurementでのイベントの処理と同様に、一部のリンクイベントを取得し、それらを次のヒットにパッケージ化します。 |  | 2024年3月6日（PT） |
 | **デフォルトの低トラフィックしきい値の増加** | In **2024 年 4 月中旬**&#x200B;に設定すると、Adobeは、次のように、デフォルトのレポートスイートの低トラフィックしきい値を増やし始めます。 ![低トラフィックしきい値](assets/thresholds.png) これは、現在新しいしきい値を下回って設定されている変数にのみ影響します。 これらの変更は段階的におこなわれ、作業は **5 月末**. これらの増加がロールアウトされると、大基数変数の変更に気付く場合があります。<ul><li>レポートには、より多くのディメンション値を使用できる場合があります。</li><li>セグメントと計算指標に含まれるデータの量が多くなる場合があります。</li><li>セグメントに基づく仮想レポートスイートには、より多くのデータが含まれる場合があります。</li><li>分類の書き出しには、より多くのデータが含まれる場合があります。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月末 |
 

@@ -4,9 +4,9 @@ description: サイトへの訪問者を対象にしたオプトアウトリン�
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 67%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> この記事では、 **Adobe Analyticsを実装する（計画中の）Adobe Analyticsのお客様** を Web サイトに追加し、Web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
-> 次の場合、 **Adobe Analyticsを実装した web サイトの訪問**&#x200B;をオプトアウトする必要がある場合は、 **<span style="color:red">この記事はあなたのためではありません</span>**. 詳しくは、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。
+> この記事では、 **Adobe Analyticsを実装する（計画中の）Adobe Analyticsのお客様** を Web サイトのユーザーにオプトアウトリンクを提供する方法について説明しています。 <p><p>
+> 次の場合、 **Adobe Analyticsを実装した web サイトの訪問**&#x200B;をオプトアウトする必要があります。 **<span style="color:red">この記事はあなたのためではありません</span>**. 詳しくは、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeを使用すると、Web サイトの訪問者が分析対象の情報をオプトアウトできるようになります。
 
