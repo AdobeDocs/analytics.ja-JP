@@ -4,9 +4,9 @@ title: データ要素の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ Analysis Workspace 内で、次のいずれかの方法でデータ要素にア�
 
   ![情報ポップオーバー内の「データ要素」アイコン](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* [!UICONTROL **ヘルプ**]／[!UICONTROL **データ要素**]&#x200B;メニューから。
 
 データ要素で使用できる様々なオプションについて詳しくは、[データ要素でのコンポーネント情報の表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)を参照してください。
 
