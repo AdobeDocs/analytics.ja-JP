@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '3897'
-ht-degree: 100%
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+workflow-type: tm+mt
+source-wordcount: '3899'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | **`clickmaplinkbyregion`** | Activity Map 地域別リンク | varchar(255) |
 | **`clickmappage`** | Activity Map ページ | varchar(255) |
 | **`clickmapregion`** | Activity Map 地域 | varchar(255) |
-| **`code_ver`** | イメージリクエストのコンパイルと送信に使用される AppMeasurement Library のバージョン。 | char(16) |
+| **`code_ver`** | イメージリクエストのコンパイルと送信に使用される API またはクライアント SDK のバージョン。 | char(16) |
 | **`color`** | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`connection_type`** | 接続タイプを表す数値 ID。「[接続タイプ](/help/components/dimensions/connection-type.md)」ディメンションで使用される変数。`connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`cookies`** | 「[cookie サポート](/help/components/dimensions/cookie-support.md)」ディメンションで使用される変数。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
