@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 22%
 
 ---
 
@@ -38,9 +38,9 @@ Activity Mapモジュールは、AppMeasurement.js、Adobe Experience Platform�
 
    ![](assets/validation1.png)
 
-Adobe Experience Platform デバッガー:
+ADOBE EXPERIENCE PLATFORM DEBUGGER:
 
-1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. に移動します。 [!UICONTROL ログ] > [!UICONTROL Edge] > [!UICONTROL Edge に接続].
 
    ![](assets/validation2.jpg)
@@ -56,7 +56,7 @@ Adobe Experience Platform デバッガー:
 * **PII のコレクションを無視する方法を教えてください。**
 &lt;&lt; on before link click callback>> にそれぞれの条件を追加し、false を返してこれらの値を無視します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)
 
-  サンプルコード:
+  サンプルコード：
 
   ![](assets/sample-code.png)
 
@@ -68,7 +68,7 @@ Adobe Experience Platform デバッガー:
 
 >[!NOTE]
 >
->現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングを有効にすると、リンクイベントが送信されます。 AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。
+>現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングを有効にすると、リンクイベントが送信されます。 これは、AppMeasurementの仕組みとは異なり、潜在的に請求可能なヒットがAdobeに送信される可能性があります。
 
 +++
 

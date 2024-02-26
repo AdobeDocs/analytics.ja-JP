@@ -4,7 +4,7 @@ description: Adobe Experience Platform のタグを使用して、Adobe Analytic
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
@@ -23,7 +23,7 @@ ht-degree: 72%
 
 Experience Cloudデバッガーは、ページに存在するすべてのExperience Cloudタグを表示する拡張機能です。
 
-1. 次のいずれかの拡張機能をインストールします。 [クロム](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または Firefox。
+1. 次のいずれかの拡張機能をインストールします。 [クロム](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または Firefox。
 2. タグを実装した開発用 web サイトに移動します。
 3. ブラウザーでAdobe Experience Cloud Debugger アイコンをクリックします。
 4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよびAdobe Experience Cloud訪問者 ID サービス内にコンテンツが表示されます。
