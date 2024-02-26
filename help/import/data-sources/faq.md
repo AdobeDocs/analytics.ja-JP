@@ -4,10 +4,10 @@ description: データソースに関するよくある質問 (FAQ) です。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ eVarソースとオンラインヒットの間で transactionID が一致する�
 
 +++データソースを使用してインポートしたデータを削除できますか。
 
-**いいえ。** データソースを使用してレポートにアップロードされたデータは、 **永続的**. インポート後は、Adobeでも削除できません。 Adobeでは、データソースのデータをテスト用のレポートスイートにアップロードしてから実稼動用のレポートスイートにアップロードすることを強くお勧めします。
+はい。このデータは、 [データ修復 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). また、Adobeでは、データソースのデータをテスト用のレポートスイートにアップロードしてから、実稼動用のレポートスイートにアップロードすることを強くお勧めします。
 +++
 
 +++一度にインポートできるデータ量はどれくらいですか？
