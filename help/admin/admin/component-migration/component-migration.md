@@ -3,22 +3,22 @@ description: コンポーネントとプロジェクトをAdobe AnalyticsからC
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 2%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
 # Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行
 
-Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連コンポーネントを Customer Journey Analytics に移行できます。
 
-移行プロセスには、以下が含まれます。
+移行プロセスには、次が含まれます。
 
-* Customer Journey AnalyticsでのAdobe Analyticsプロジェクトの再作成
+* Customer Journey Analytics で Adobe Analytics プロジェクトを再作成する。
 
-* ディメンションと指標をAdobe Analyticsレポートスイートから指標データビューのディメンションとCustomer Journey Analyticsにマッピングする。
+* Adobe Analytics レポートスイートのディメンションと指標を、Customer Journey Analytics データビューのディメンションと指標へマッピングする。
 
   一部のディメンションと指標は自動的にマッピングされます。それ以外のディメンションと指標は、移行プロセスの一環として手動でマッピングする必要があります。 また、セグメントも移行されますが、移行プロセスの一環としてマッピングする必要はありません。
 
@@ -124,7 +124,7 @@ Adobe Analytics管理者は、Adobe Analyticsプロジェクトとそれに関�
 
 移行に失敗した場合は、移行を再試行できます。
 
-失敗した移行を再試行する前に、必ず [サポートされていない要素](#understand-unsupported-elements-that-cause-errors) を選択します。
+失敗した移行を再試行する前に、必ず [サポートされていない要素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) を選択します。
 
 >[!NOTE]
 >
