@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '5161'
+source-wordcount: '5186'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2024 年 2 月** | |
+| Data Warehouseリクエストの管理に関する情報の更新 | ユーザーはデフォルトで、次の場合に作成したリクエストのみを表示できることを明確にしました。 [Data Warehouseリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | プロジェクト共有ドキュメントの更新 | 次の方法に関する情報を追加しました。 [共有プロジェクトを表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>また、 [個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
 | Data Warehouseおよびデータフィードで、Azure SAS および Azure RBAC にファイルをアップロードするための権限要件を追加しました。 | Azure SAS および Azure RBAC にファイルをアップロードするための正確な権限要件を追加しました ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
 | Data Warehouseおよびデータフィードで、ファイルをAmazon S3 および GCP バケットにアップロードするための権限要件を追加しました。 | ファイルをAmazon S3 およびGoogle Cloud Platform バケットにアップロードするための正確な権限要件 ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |

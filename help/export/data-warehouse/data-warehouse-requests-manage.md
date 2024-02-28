@@ -4,10 +4,10 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 5%
+source-wordcount: '1148'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,13 @@ ht-degree: 5%
 
 ## リクエストの表示
 
+デフォルトでは、自分が作成したリクエストのみが表示されます。ただし、ユーザーが自分のリクエストを組織内の他のユーザーに表示するように選択している場合を除きます ( [Data Warehouseリクエストの一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)) をクリックします。 システム管理者は、すべてのリクエストを表示できます。
+
+Data Warehouse要求を表示するには：
+
 1. Adobe Analyticsで、 [!UICONTROL **ツール**] > [!UICONTROL **Data Warehouse**].
 
-   Data Warehouseページには、おこなったすべてのリクエストが表示されます。 <!-- just those you have made? -->データは各列に表示されます。 以下が可能です。 [どの列を設定するかを設定](#configure-columns) が表示されます。
+   Data Warehouseページには、おこなったすべてのリクエストが表示されます。 データは各列に表示されます。 以下が可能です。 [どの列を設定するかを設定](#configure-columns) が表示されます。
 
    <!-- add screenshot of main page -->
 
