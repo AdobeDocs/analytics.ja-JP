@@ -4,22 +4,22 @@ description: Adobe Experience Platform Edge Network Server API を使用して�
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 35%
+source-wordcount: '268'
+ht-degree: 34%
 
 ---
 
 # Adobe Experience Platform Edge Network Server API を使用したAdobe Analyticsの実装
 
-通常、Experience Platformエッジネットワークサーバー API を使用して、IoT デバイス、セットトップボックス、デスクトップアプリケーションなどのデバイスからデータを収集します。 次に、そのデータを Edge ネットワークに送信し、Adobe Analyticsなどのサービスに送信します。
+通常、Experience PlatformEdge Network Server API を使用して、クライアント側ではなくサーバー側でデータを収集し、IoT デバイス、セットトップボックス、デスクトップアプリケーションなどのデバイスからデータを収集します。 次に、そのデータを Edge ネットワークやAdobe Analyticsなどのサービスに送信します。
 
 また、機密データをネットワークを介して安全に収集し、認証する必要がある場合は、Edge Network Server API も検討します。 詳しくは、 [認証](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) を参照してください。
 
 実装タスクの大まかな概要：
 
-![Analytics 拡張機能ワークフローを使用した Adobe Analytics](../../assets/edge-network-server-api.png)
+![Analytics 拡張機能ワークフローを使用した Adobe Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 

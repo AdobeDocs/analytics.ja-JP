@@ -4,20 +4,20 @@ description: タグと Analytics 拡張機能を使用した Adobe Analytics の
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # Analytics 拡張機能を使用した Adobe Analytics の実装
 
-Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。アドビが現在推奨するのは、Adobe Experience Platform のタグを介した方法です。
+Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeの現在の推奨方法は次のとおりです： [タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) Adobe Experience Platformで
 
 Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
-有効な Adobe Experience Cloud 契約を締結しているすべてのお客様は、タグを使用できます。Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
+アクティブなAdobe Experience Cloud契約を締結しているすべてのお客様は、タグを使用できます。 Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
 
 実装タスクの大まかな概要：
 
@@ -48,7 +48,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 <tr>
 <td>3</td>
 <td><b><b>タグプロパティを作成します</b>。プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
-<td><a ref="../launch/create-analytics-property.md">Adobe Analytics タグプロパティの作成</a></td>
+<td><a href="../launch/create-analytics-property.md">Adobe Analytics タグプロパティの作成</a></td>
 </tr>
 
 <tr>
