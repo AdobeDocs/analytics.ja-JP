@@ -4,10 +4,10 @@ title: ボットルールの理解と設定
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 71%
 通常、ボットトラフィックを削除すると、トラフィックの量が減り、コンバージョン指標が下がります。多くのお客様は、ボットトラフィックを削除すると、コンバージョン率が向上し、他のユーザビリティ指標が増加することに気がつきます。
 
 ボットトラフィックデータは、ボットレポートとボットページレポートに表示するために、個別のリポジトリに保存されます。
+
+>[!NOTE]
+>
+>Adobeエクスペリエンス Edge は、 [ボット検出サービス](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ja) ボットからのヒットとして識別されるヒットのラベルを示すもの。 Adobe Analyticsのボット検出プロセスは、これとは別のもので、Experience Edge 経由で到着したデータに含まれるボットスコアは参照されません。 2 つのシステムは同じ IAB ボットリストを使用しているので、その点では同じように動作する必要があります。
 
 ## ボットルールの更新またはアップロード
 
