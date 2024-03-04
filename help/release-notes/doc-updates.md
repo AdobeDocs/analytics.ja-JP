@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '5186'
+source-wordcount: '5205'
 ht-degree: 97%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 97%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2024年3月** | |
+| AppMeasurementの更新 | [リリースノート](/help/implement/appmeasurement-updates.md) AppMeasurementアップデート v2.26.0の<br/>の参照と更新を含む [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数のドキュメントです。 |
 | **2024 年 2 月** | |
 | Data Warehouseリクエストの管理に関する情報の更新 | ユーザーはデフォルトで、次の場合に作成したリクエストのみを表示できることを明確にしました。 [Data Warehouseリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | プロジェクト共有ドキュメントの更新 | 次の方法に関する情報を追加しました。 [共有プロジェクトを表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>また、 [個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |

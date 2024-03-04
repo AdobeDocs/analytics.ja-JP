@@ -4,10 +4,10 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 89%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 最新バージョンのAppMeasurementは、 [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## バージョン 2.26.0
+
+リリース日： **2024 年 3 月 5 日**
+
+* AppMeasurementは、国コードのトップレベルドメインのルートドメインを自動的に認識して利用します。これは、以前は特定の cookie ドメイン設定が必要でした。 この自動認識により、更新に影響が出る場合があります。 詳しくは、 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) を参照してください。
+* この配布には、 ID サービスライブラリ 5.5.0 とData Integration Library9.6 が含まれます。
 
 ## バージョン 2.25.0
 
