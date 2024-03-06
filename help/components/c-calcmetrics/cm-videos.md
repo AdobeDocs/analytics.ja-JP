@@ -1,22 +1,24 @@
 ---
-description: 計算指標ツールの使用を最適化する方法の概要を示す短いビデオ（8 分以下）が用意されています。
+description: 計算指標ツールの使用を最適化する方法の概要を示す短いビデオが用意されています。
 title: ハウツービデオ
 feature: Calculated Metrics
+role: User
+level: Beginner
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 36d74c4cc579b8bacabb62288addd49fa1cde4a7
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 100%
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
 # ハウツービデオ
 
-計算指標ツールの使用を最適化する方法の概要を示す短いビデオ（8 分以下）が用意されています。
+計算指標ツールの使用を最適化する方法の概要を示す短いビデオが用意されています。
 
-* [指標セレクター](https://youtu.be/jCJ7XEJxcYo)
-* [指標ビルダー](https://youtu.be/wpdWYWaf0uo)
-* [セグメント化指標](https://youtu.be/YtikkXvOrS8)
-* [実装なしの指標](https://youtu.be/CuQTm9RaUpY)
-* [関数](https://youtu.be/SSyWvomnewI)
-* [管理者向けのヒント](https://youtu.be/-wqHOvzz0P0)
+* [Analysis Workspaceでのクイック計算指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+* [指標ビルダー](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+* [セグメント化指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=ja){target="_blank"}
+* [実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja){target="_blank"}
+* [関数](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+* [計算指標の管理](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
