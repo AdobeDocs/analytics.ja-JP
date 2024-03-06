@@ -3,10 +3,10 @@ title: ダウンロードリンク
 description: ダウンロードリンクの名前。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 92%
 
 このディメンションは、イメージリクエストでの `lnk_d` 値を持つ `pe` クエリ文字列も持つヒットについて、クエリ文字列 [`pev2`](/help/implement/validate/query-parameters.md) からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
 
-AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"d"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。リンク名の引数に必要な値を入力します。
+AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"d"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。目的の値でリンク名引数を設定します。
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## ディメンション項目
 
