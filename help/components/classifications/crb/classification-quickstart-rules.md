@@ -3,10 +3,10 @@ description: 分類ルールを設定すると、分類されていない語句�
 title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '2015'
-ht-degree: 100%
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+workflow-type: tm+mt
+source-wordcount: '2001'
+ht-degree: 92%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 * **メール** および **ディスプレイ広告**： メールキャンペーンに対するディスプレイ広告キャンペーンのパフォーマンスを確認できるように、個々のディスプレイ広告キャンペーンをグループ化する分類ルールを作成します。
 
 * **トラッキングコード**：トラッキングコードの文字列から派生するキー値を分類するための分類ルールを作成し、定義した特定の条件と照合します。
-* **検索用語**：[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)とワイルドカードを使用して、検索用語の分類を簡略化できます。例えば、検索用語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
+* **検索語句**：使用 [正規表現](/help/components/classifications/crb/classification-quickstart-rules.md) やワイルドカードを使用して、検索用語の分類を簡略化できます。 例えば、検索用語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
 
-例えば、電子メールキャンペーン ID が次のトラッキングコードを持つとします。
+例えば、メールキャンペーン ID が次のトラッキングコードを持つとします。
 
 `em:Summer:2013:Sale` を参照してください。
 
@@ -57,37 +57,37 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*   [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
+* 指定 [グループ権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類の [!UICONTROL 管理ツール].
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
 * **レポートスイート**：分類を選択するには、1 つ以上のレポートスイートが選択されている必要があります。レポートスイートは、ルールセットが作成され変数が割り当てられていないと、適用できません。
 
-   ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します（[キー](/help/components/classifications/importer/c-saint-data-files.md)は、分類する変数、または分類アップロードテーブルの最初の列です）。
+  ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します( [key](/help/components/classifications/importer/c-saint-data-files.md) は、分類する変数、または分類アップロードテーブルの最初の列です )。
 
-* **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、[ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+* **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、 [ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **ルールの数に関する制限**：作成できるルールの数に制限はありません。ただし、大量にルールを作成すると、ブラウザーのパフォーマンスに影響が及ぶことがあります。
 * **処理**：ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
 
-   アクティブなルールは 4 時間ごとに処理され、通常、分類データの調査は月に 1 回行われます。ルールでは、自動的に新しい値がチェックされ、インポーターを使用して分類がアップロードされます。
+  アクティブなルールは 4 時間ごとに処理され、通常、分類データの調査は月に 1 回行われます。ルールでは、自動的に新しい値がチェックされ、インポーターを使用して分類がアップロードされます。
 
 * **既存の分類の上書き**：詳しくは、[ルールによるキーの分類が行われない状況を参照してください。](/help/components/classifications/crb/classification-quickstart-rules.md)必要に応じて、インポーターを使用して既存の分類を削除できます。
 
 ## ルールによるキーの分類が行われない状況
 
-ルールをアクティブにするとき、既存の分類を上書きできます。次の場合、分類ルールによる[キー](/help/components/classifications/importer/c-saint-data-files.md)（変数）の分類は行われません。
+ルールをアクティブにするとき、既存の分類を上書きできます。次の場合、分類ルールによって [key](/help/components/classifications/importer/c-saint-data-files.md)（変数）の分類は行われません。
 
 * キーが既に分類済みで、「[分類を上書き](/help/components/classifications/crb/classification-rule-definitions.md)」を選択していない。
 
-   分類の上書きは、[ルールを追加およびアクティブ化する](/help/components/classifications/crb/classification-quickstart-rules.md)ときと、データコネクタの統合をアクティブ化するときに行うことができます（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
+  分類は、 [追加とアクティブ化](/help/components/classifications/crb/classification-quickstart-rules.md) ルールを作成し、data connectors 統合をアクティブ化する際に使用します。 （データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
 
 * 「[分類を上書き](/help/components/classifications/crb/classification-rule-definitions.md)」を有効にした後であっても、キーを上書きするときに指定された時間枠が経過した後、分類されたキーがデータに表示されていない。
 * キーが分類されず、約 1 ヶ月前から始まる時間枠が経過した後もキーが [!DNL Adobe Analytics] に渡されない。
 
-   >[!NOTE]
-   >
-   >レポートでは、分類は、キーが存在するかどうかに関係なく、指定されたすべての時間枠に適用されます。レポートの日付範囲はレポートに影響しません。
+  >[!NOTE]
+  >
+  >レポートでは、分類は、キーが存在するかどうかに関係なく、指定されたすべての時間枠に適用されます。レポートの日付範囲はレポートに影響しません。
 
 ![](assets/overwrite_keys.png)
 
@@ -151,7 +151,7 @@ regex_classification_rules.xml
 
 | 正規表現 | 文字列または一致結果 | 対応する一致グループ |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | 構文の構築 | `^`= 行の先頭 () = 文字をグループ化し、括弧内の一致する文字を抽出します。`(.+)` = 1 ( .) 文字と ( + ) 任意の  \ = 文字列の先頭。`$` = 前の文字（または文字グループ）が行の末尾であることを示しています。 |
 
 正規表現の文字が何を意味しているかについては、 [正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) を参照してください。
@@ -198,12 +198,12 @@ regex_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |--- |--- |--- |--- |
-| 一致文字列 a:b の正規表現 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 一致文字列 a:b の正規表現 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 一致文字列 a:b:c:d の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 一致文字列の正規表現 `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 一致文字列の正規表現 `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 一致文字列の正規表現 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 一致文字列の正規表現 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 一致文字列の正規表現 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 一致文字列の正規表現 `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 正規表現 - 「含まない」の例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 2 | 次を含む | ファンタジー | 検索タイプ | ファンタジー |
 | 3 | 次を含む | Romo | 検索タイプ | プレーヤー |
 
-ユーザーが「*`Cowboys fantasy Tony Romo`*」を検索すると、「分類を設定」列に表示する「最後に指定した分類」と一致するため、*`Player`*」が分類されます。
+ユーザーが *`Cowboys fantasy Tony Romo`*、「 *`Player`* が分類されるのは、「分類を設定」列に表示される最後に指定した分類と一致するからです。
 
 同じように、以下の検索語についてルールを 2 つ設定している場合を考えます。
 
@@ -294,7 +294,7 @@ rule_priority.xml
 | 1 | 次を含む | カウボーイズ | 市区町村 | ダラス |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
-ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーがルールマッチングで競合を検出した場合、2 番目のルールの分類（Denver）がこの検索に適用されます。
+ユーザーが *`Cowboys vs. Broncos`*. ルールビルダーがルールマッチングで競合を検出した場合、2 番目のルールの分類（Denver）がこの検索に適用されます。
 
 ## ルール設定に対する分類ルールの追加 {#add-classification-to-rule-set}
 
@@ -308,7 +308,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](/help/components/classifications/c-sub-classifications.md)を使ってルールセットを簡素化する方法の検討が必要です。
+>この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。100 を超えるルールがある場合、 [下位分類](/help/components/classifications/c-sub-classifications.md).
 
 分類ルールを追加または編集するには：
 
@@ -330,7 +330,6 @@ t_classification_rule.xml
    >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
-
 
 1. 既存の値を上書きするかどうかを指定します。
 
@@ -381,7 +380,7 @@ t_classifications_test_rule.xml
    * トラッキングコード
    * 検索キーワードまたは語句
 
-   詳しくは、[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+   詳しくは、 [分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 1. 「**[!UICONTROL テストを実行]**」をクリックします。
 
    「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。

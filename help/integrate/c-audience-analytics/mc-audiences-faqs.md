@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ Analytics で、Adobe Audience Managerからすべての情報が提供されま
 
 +++
 
-+++ Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。 ( 注意：これは、オーディエンス ID = -1 および「:」としても表されます。:max_audiences_exceeded::&quot; (Data Warehouse)
++++ Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。 ( 注意：これは、オーディエンス ID = -1 としても表示されます。 `::max_audiences_exceeded::` (DATA WAREHOUSE)
 
 デフォルトでは、Adobe Audience ManagerのAudience Analytics統合は、訪問者が認定するすべてのセグメントをヒットごとに Analytics に送信します。 1 回のヒットで訪問者が 150 を超えるAdobe Audience Managerセグメントに属している場合、 **最近認定された 150 個のセグメント** 残りのリストは切り捨てられる間、が Analytics に送信されます。 セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。
 
