@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
+source-git-commit: 3c6e11dd9d0044dbf79fa0ba97e55a547966d120
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 50%
@@ -24,7 +24,7 @@ ht-degree: 50%
 | **Data Warehouse の更新** | 以下の Data Warehouse の機能強化を利用できます。<ul><li>Data Warehouse リクエストを作成する際に、[!UICONTROL **組織内のユーザーに利用できるようにする**]&#x200B;という新しい切替スイッチを有効にすることで、組織内のすべてのユーザーがリクエストを利用できるようになりました。<p>詳しくは、[Data Warehouse リクエストの一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)を参照してください。</p></li><li>Data Warehouse レポートの宛先を作成または管理する際、システム管理者は、[!UICONTROL **すべての宛先を表示**]&#x200B;という切替スイッチを有効にすることで、組織内のユーザーが作成したアカウントと場所を表示できるようになりました。<p>詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。</p></li> | 該当なし | 2024年1月10日（PT） |
 | **主要指標の概要ビジュアライゼーションの更新** | 主要指標の概要ビジュアライゼーションを使用する際、選択した比較日付範囲オプションが主な日付範囲に対して相対的であるか固定であるかに応じて、比較日付範囲が自動的に更新されるようになりました。[詳細情報](/help/analyze/analysis-workspace/visualizations/key-metric.md)。 | 該当なし | 2024年1月17日（PT） |
 | **Data WarehouseAPI ドキュメント** | 詳しくは、 [Adobe AnalyticsData WarehouseAPI 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) を参照してください。 に移動します。 [!UICONTROL 定義を選択] を選択し、 [!UICONTROL Data WarehouseAPI]. | | 2024年2月19日（PT） |
-| **追加費用なしの Web SDK のActivity Map** | 現在、Activity Mapリンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。 この機能強化では、AppMeasurementでのイベントの処理と同様に、一部のリンクイベントを取得し、それらを次のヒットにパッケージ化します。 |  | 2024年3月6日（PT） |
+| **追加費用なしの Web SDK のActivity Map** | 現在、Activity Mapリンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。 この機能強化では、AppMeasurementでのイベントの処理と同様に、一部のリンクイベントを取得し、それらを次のヒットにパッケージ化します。 |  | 2024年4月3日（PT） |
 | **デフォルトの低トラフィックしきい値の増加** | In **2024 年 4 月中旬**&#x200B;に設定すると、Adobeは、次のように、デフォルトのレポートスイートの低トラフィックしきい値を増やし始めます。 ![低トラフィックしきい値](assets/thresholds.png) これは、現在新しいしきい値を下回って設定されている変数にのみ影響します。 これらの変更は段階的におこなわれ、作業は **5 月末**. これらの増加がロールアウトされると、大基数変数の変更に気付く場合があります。<ul><li>レポートには、より多くのディメンション値を使用できる場合があります。</li><li>セグメントと計算指標に含まれるデータの量が多くなる場合があります。</li><li>セグメントに基づく仮想レポートスイートには、より多くのデータが含まれる場合があります。</li><li>分類の書き出しには、より多くのデータが含まれる場合があります。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月末 |
 
 {style="table-layout:auto"}
