@@ -4,10 +4,10 @@ description: カスタム訪問者 ID を使用します。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 72%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -46,6 +46,6 @@ s.visitorID = "abc123";
 >
 >カスタム訪問者 ID を無効に実装すると、データが正しくなくなり、レポートのパフォーマンスが低下する可能性があります。この変数にデフォルト値（`"0"` やなど `"NULL"`）が含まれている場合、これらのヒットは同じ訪問者であるかのように扱われます。この状況では、誤ったデータが返され、訪問者数と訪問者レベルのセグメントが期待どおりに機能しなくなります。また、カスタム訪問者 ID が誤って実装されると、処理サーバーに負荷がかかり、[待ち時間](/help/technotes/latency.md)が増加し、レポートのパフォーマンスが低下します。
 
-## Web SDK と Experience Edge を使用した訪問者 ID
+## Web SDK を使用した訪問者 ID
 
-Experience Edge を使用すると、XDM の [ID マップ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). ID マップ内の ID は、それぞれ異なる名前空間を持ちます。 訪問者 ID に使用する名前空間を、 [データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 設定が完了すると、この名前空間に指定された値を持つイベントを送信する際に、Analytics で訪問者 ID として自動的に使用されます。
+Adobe Experience Platform Edge Network を使用すると、XDM の [ID マップ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap). ID マップ内の ID は、それぞれ異なる名前空間を持ちます。 訪問者 ID に使用する名前空間を、 [データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). 設定が完了すると、この名前空間に指定された値を持つイベントを送信する際に、Analytics で訪問者 ID として自動的に使用されます。

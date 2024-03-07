@@ -1,25 +1,25 @@
 ---
-description: Adobe AnalyticsでAdobe Campaign Standardレポートを有効にする方法を説明します
-title: Adobe Campaign Standard Reporting をAdobe Analyticsに統合する方法を教えてください。
+description: Adobe Analytics で Adobe Campaign Standard のレポートを有効にする方法を学ぶ
+title: Adobe Campaign Standard レポートを Adobe Analytics に統合する方法？
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 67%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Standard Reporting
+# Adobe Campaign Standard レポート
 
 この統合を設定する方法について詳しくは、[Adobe Campaign のドキュメント](https://helpx.adobe.com/jp/campaign/standard/integrating/using/about-campaign-analytics-integration.html)を参照してください。
 
 >[!IMPORTANT]
->この記事はAdobe Campaignに適用されます **標準** レポートのみ。 詳しくは、 [ここ](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) Adobe Campaignの追加 **クラシック** レポート。
+>この記事は Adobe Campaign **Standard** レポートにのみに当てはまります。Adobe Campaign **Classic** レポートの追加については、[こちら](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)を参照してください。
 
-Adobe AnalyticsとAdobe Campaign Standardのこの統合：
+Adobe Analytics と Adobe Campaign Standard の統合によって行われること：
 
 * Adobe Campaign Standard の KPI（主要なパフォーマンスインジケーター）データを Adobe Analytics と共有できます。
 * Adobe Analytics のパラメーターにより、トラッキングの数式が拡張されます。
@@ -27,11 +27,11 @@ Adobe AnalyticsとAdobe Campaign Standardのこの統合：
 * 5 個の新しい Adobe Campaign 分類が追加されます。
 * 9 個の新しい Adobe Campaign 指標が追加されます。
 * 6 個の新しい Adobe Campaign ディメンションが追加されます。
-* 自動プロビジョニングされたデータソースを使用して、15 分ごとに Analytics にデータを同期します。
+* 自動的にプロビジョニングされたデータソースを使用して、15 分ごとに Analytics にデータを同期します。
 
-## 手順 1.Adobe Campaign Standardレポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
+## 手順 1.Adobe Campaign Standard レポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
 
-Analytics でCampaign Standardデータを表示するには、まず Report Suite Manager で Campaign レポートを有効にする必要があります。
+Analytics で Campaign Standard データを表示するには、まずレポートスイートマネージャーで Campaign レポートを有効にする必要があります。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**`<select report suite>`**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Adobe Campaign]**／**[!UICONTROL Adobe Campaign レポート]**&#x200B;に移動します。
 1. 「**[!UICONTROL Adobe Campaign レポートを有効化]**」をクリックします。
@@ -42,7 +42,7 @@ Analytics でCampaign Standardデータを表示するには、まず Report Sui
 
 Adobe Campaign Standard と Adobe Analytics の統合により、**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;に次のレポートが追加されます。
 
-* **[!UICONTROL Adobe Campaign実行済み配信 ID]**:Adobe Campaignから読み込まれた、Adobe Campaignから送信された電子メールに関するデータを表示します。 |
+* **[!UICONTROL Adobe Campaign で実行された配信の ID]**：Adobe Campaign から送信されたメールに関する、Adobe Campaign から読み込まれたデータを表示します。
 
 ## 手順 3.Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -52,13 +52,13 @@ Adobe Campaign に対してレポートスイートを有効にすると、次�
 
 | 分類 | 説明 |
 | --- | --- |
-| [!UICONTROL 配信 ID] | Campaign に表示される内部配信名 |
-| [!UICONTROL 配信ラベル] | Campaign での配信 — 個別配信/繰り返し配信/トランザクション配信 |
-| [!UICONTROL キャンペーン ID] | Campaign に表示される内部キャンペーン名 |
-| [!UICONTROL キャンペーンラベル] | Adobe Campaignでのキャンペーン |
-| [!UICONTROL 実行済み配信ラベル] | 個々に実行された配信のリスト |
+| [!UICONTROL 配信 ID] | Campaign 内で表示される内部配信名 |
+| [!UICONTROL 配信ラベル] | Campaign での配信 - 個別配信／繰り返し配信／トランザクション配信 |
+| [!UICONTROL キャンペーン ID] | Campaign 内で表示される内部キャンペーン名 |
+| [!UICONTROL キャンペーンラベル] | Adobe Campaign でのキャンペーン |
+| [!UICONTROL 実行された配信ラベル] | 個々に実行された配信のリスト |
 
-## Adobe Analyticsで使用できるAdobe Campaign Standardのディメンションと指標 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics で使用できる Adobe Campaign Standard のディメンションと指標 {#section_F33385C9660644AF84172EC39601469B}
 
 Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**指標**&#x200B;を使用できます。
 

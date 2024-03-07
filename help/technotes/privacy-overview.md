@@ -4,7 +4,7 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: cc64a52d4e0dd2eef0b6dc1e1d2f01ab81147a3b
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Adobe Analyticsでは、次のタイプのデータを収集できます。
 | 外部検索用語 | 外部検索データには、検索エンジンから派生するキーワードが含まれます。 データ収集ライブラリは、参照 URL に基づいてこのデータを検索します。 ただし、多くの最新の検索エンジンでは、この情報は含まれていません。 | [検索キーワード](../components/dimensions/search-keyword.md) |
 | 内部検索用語 | 内部検索データには、Web サイト内またはアプリの検索機能内から派生するキーワードが含まれます。 Adobeは、内部検索データを自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズすることはできます。 この方法は、Adobe Analyticsを使用する組織で一般的です。 | [eVar](../components/dimensions/evar.md) |
 | コンピューターおよびブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルの場合など、低エントロピーのブラウザーヒントを自動的に収集します。 ブラウザーの特定のバージョン/ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。 詳しくは、 [クライアントヒントの概要](client-hints.md) を参照してください。 | [ブラウザー](../components/dimensions/browser.md), [オペレーティングシステム](../components/dimensions/operating-systems.md), [モバイルディメンション](../components/dimensions/mobile-dimensions.md), [画面の解像度](../components/dimensions/monitor-resolution.md) |
-| 位置情報 | Adobeでは、IP アドレスの最後のオクテットを 0 に設定することで、詳細な地域情報を防ぐことができます。 これにより、地域情報の精度が低下し、 [レポートスイートの設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=en). | [市区町村](../components/dimensions/cities.md), [地域](../components/dimensions/regions.md), [国](../components/dimensions/countries.md) |
+| 位置情報 | Adobeでは、IP アドレスの最後のオクテットを 0 に設定することで、詳細な地域情報を防ぐことができます。 これにより、地域情報の精度が低下し、 [レポートスイートの設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=ja). | [市区町村](../components/dimensions/cities.md), [地域](../components/dimensions/regions.md), [国](../components/dimensions/countries.md) |
 | IP アドレス | Adobeでは、このデータを保存する際に、訪問者の IP アドレスを難読化（ハッシュ化）したり、完全に削除したりできます。 通常、EMEA のお客様の IP アドレス設定は、デフォルトで不明化されます。 難読化の設定に関係なく、IP アドレスはAnalysis Workspaceではディメンションとして使用できず、 [データフィード](../export/analytics-data-feed/data-feed-overview.md). 詳しくは、 [一般的なアカウント設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) （利用可能な難読化設定の詳細については、管理者ガイド）を参照してください。 | なし |
 | サイトで提供されたフォーム情報 | すべての実装タイプで、このデータを収集するために設定が必要です。 このデータは、カスタム変数に含めることができます。 | [eVar](../components/dimensions/evar.md) |
 | サイト上で広告またはリンクをクリックしました | 次の場合に収集 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) または [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) が有効になっている。 「Activity Map」を有効にした場合は、クリックの場所などの追加情報を使用できます。 | [Activity Map](../analyze/activity-map/activity-map.md), [出口リンク](../components/dimensions/exit-link.md), [ダウンロードリンク](../components/dimensions/download-link.md) |

@@ -4,9 +4,9 @@ title: ボットルールの理解と設定
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobeエクスペリエンス Edge は、 [ボット検出サービス](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ja) ボットからのヒットとして識別されるヒットのラベルを示すもの。 Adobe Analyticsのボット検出プロセスは、これとは別のもので、Experience Edge 経由で到着したデータに含まれるボットスコアは参照されません。 2 つのシステムは同じ IAB ボットリストを使用しているので、その点では同じように動作する必要があります。
+>Adobe Experience Platform Edge Network は、 [ボット検出サービス](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ja) ボットからのヒットとして識別されるヒットのラベルを示すもの。 Adobe Analyticsで使用されるボット検出プロセスは別々で、Edge ネットワークを通じて到着したデータに含まれるボットスコアを参照しません。 ただし、2 つのシステムは同じ IAB ボットリストを使用します。
 
 ## ボットルールの更新またはアップロード
 

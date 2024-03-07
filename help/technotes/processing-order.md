@@ -3,10 +3,10 @@ title: Adobe Analytics でのデータの処理順序
 description: Adobe Analytics でデータを処理するコンポーネントとサービスの順序について説明します。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: c697530103ea7cd279cc3560c1daec796759e7a1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '585'
+ht-degree: 91%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 97%
 データをアドビに送信する前に、次のいずれかのメソッドを使用すると、通常はクライアント側でコンパイルされます。
 
 * **AppMeasurement**：サイトでホストされ、各ページで参照される JavaScript ファイル。データは Adobe Analytics に直接送信されます。
-* **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。データは Adobe Experience Edge に送信されます。
+* **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。データがAdobe Experience Platform Edge Network に送信されます。
 * **Adobe Experience Cloud データ収集のタグ**：データ収集 UI 内で作成されたルールを含む、各ページで参照される JavaScript ファイル。Adobe Analytics 拡張機能を使用すると、AppMeasurement の実装が容易になります。Web SDK 拡張機能を使用すると、Web SDK をより簡単に実装できます。
 
-Adobe Experience Edge にデータを送信する場合、Adobe Analytics（および他の多くの Adobe Experience Cloud ソリューション）にデータを転送するように設定できます。実装メソッドに関係なく、最終的には必要な変数を含むイメージリクエストが Adobe データ収集サーバーに送信されます。
+Edge ネットワークにデータを送信する場合、Adobe Analytics( および他の多くのAdobe Experience Cloudソリューション ) にデータを転送するように設定できます。 実装メソッドに関係なく、最終的には必要な変数を含むイメージリクエストが Adobe データ収集サーバーに送信されます。
 
 ## Adobe Analytics データ収集サーバーに送信されたデータ
 

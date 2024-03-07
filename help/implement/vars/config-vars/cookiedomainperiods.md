@@ -4,7 +4,7 @@ description: ドメインのサフィックスにピリオドが含まれてい�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 43%

@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
 
 ## 「レポート」タブ
 
-以下を使用します。 [!UICONTROL **レポート**] の左側のパネルの [!UICONTROL **Workspace**] タブをクリックします。 詳しくは、[Adobe Analytics ランディングページ](/help/analyze/landing.md)の&#x200B;*「レポート」タブの移動*&#x200B;を参照してください。
+「[!UICONTROL **ワークスペース**]」タブの左側のパネルにある&#x200B;[!UICONTROL **レポート**]&#x200B;領域を使用します。詳しくは、[Adobe Analytics ランディングページ](/help/analyze/landing.md)の&#x200B;*「レポート」タブの移動*&#x200B;を参照してください。
 
 ## 「コンポーネント」タブ
 
@@ -49,13 +49,13 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | 計算指標 | 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。これにより、マーケター、製品マネージャーおよびアナリストは、Adobe Analytics の実装を変更することなく、データについて質問できるようになります。 | [計算指標および高度な計算（派生）指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja) |
    | 日付範囲 | Analysis Workspace には、ユーザーが分析を作成する際に使用できるデフォルトの日付範囲のリストが含まれています。さらに、カスタム日付範囲を作成し、Analysis Workspace でユーザーが使用できるようにすることもできます。 | [カスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 仮想レポートスイート | 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。 | [仮想レポートスイートの概要](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) |
-   | アラート | インテリジェントアラートにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。 | [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) |
-   | 注釈 | Analysis Workspace の注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。カレンダーイベントを特定のディメンションや指標に関連付けることができます。 | [注釈を管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=ja) |
+   | アラート | インテリジェントアラートにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。 | [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
+   | 注釈 | Analysis Workspace の注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。カレンダーイベントを特定のディメンションや指標に関連付けることができます。 | [注釈を管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | 分類セット | 分類セットは、分類とルールを管理するための単一のインターフェイスを提供します。 <p>分類とは、Analytics 変数データをカテゴリーにまとめ、レポートを生成する際に様々な方法でデータを表示する手法です。変数値とその値に関連するメタデータとの間の関係を確立します。分類は、トラッキングコード、prop、eVar など、ほとんどのカスタムディメンションで使用できます。</p> | [分類セットの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja) |
-   | 場所 | Adobe Analytics 分類データをクラウドの宛先から読み込むには、最初に分類データを収集する場所を追加して設定する必要があります。場所は、作成、編集または削除できます。 | [場所マネージャー](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=ja) |
+   | 場所 | Adobe Analytics 分類データをクラウドの宛先から読み込むには、最初に分類データを収集する場所を追加して設定する必要があります。場所は、作成、編集または削除できます。 | [場所マネージャー](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |
    | スケジュールされたプロジェクト | スケジュールされたプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除したり、検索バーまたは左側のパネルのフィルターオプションを使用してスケジュールを検索したり、タグ、承認済みスケジュール、所有者などでフィルタリングしたりできます。 | [スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md) |
-   | ダッシュボード | ダッシュボードを作成すると、指標を視覚化し、データのインタラクティブな分析機能を提供できます。ダッシュボード内の項目をクリックすると、データを迅速かつ簡単にセグメント化し、分析から情報を引き出すことができます。 <p>ダッシュボードは、Data Workbench に含まれます。詳しくは、Data Workbench の[提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。 | [ダッシュボードマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html?lang=ja) |
-   | 予定レポート | 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。 | [予定レポートキュー](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html?lang=ja) |
+   | ダッシュボード | ダッシュボードを作成すると、指標を視覚化し、データのインタラクティブな分析機能を提供できます。ダッシュボード内の項目をクリックすると、データを迅速かつ簡単にセグメント化し、分析から情報を引き出すことができます。 <p>ダッシュボードは、Data Workbench に含まれます。詳しくは、Data Workbench の[提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。 | [ダッシュボードマネージャー](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html) |
+   | 予定レポート | 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。 | [予定レポートキュー](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html) |
    | レポート設定 | これらの設定は、Analytics Workspace とその関連コンポーネントを除く、従来の Adobe Analytics 製品に適用されます。Analysis Workspace の設定を調整するには、コンポーネント／環境設定に移動します。 |  |
    | 環境設定 | 作成するすべての新規プロジェクトまたはパネルの Analysis Workspace とその関連コンポーネントの設定を管理します。既存のプロジェクトやパネルは影響を受けません。 | [環境設定](/help/analyze/analysis-workspace/user-preferences.md) |
 
@@ -75,7 +75,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse は、データをフィルタリングして、保存用およびカスタムレポート用の Analytics データのコピーを参照できます。 <p>リクエストマネージャーを使用して、リクエストの表示、複製、優先順位の再設定を行うことができます。</p> | [Data Warehouse リクエストの管理](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=ja) |
    | Activity Map | Activity Map は、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。これを使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。 | [Activity Map の概要](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja) |
-   | Recommendations Classic | Recommendations は、以前のユーザーアクティビティ、環境設定、その他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービス、コンテンツを自動的に表示する Adobe Target の機能です。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=ja) |
+   | Recommendations Classic | Recommendations は、以前のユーザーアクティビティ、環境設定、その他の条件に基づいて、訪問者が興味を持つ可能性のある製品、サービス、コンテンツを自動的に表示する Adobe Target の機能です。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | この機能はサポートされなくなりました。 |  |
    | Mobile Services | この機能はサポートされなくなりました。 |  |
    | Analytics ダッシュボード（モバイルアプリ） | Adobe Analytics ダッシュボードアプリは、Adobe Analytics から任意の時間、任意の場所でインサイトを提供します。ユーザーはアプリを通じて、Adobe Analytics デスクトップ UI を使用して作成した直感的なスコアカードを表示できます。 | iOS App Store または Google Play ストアの Adobe Analytics ダッシュボードアプリ |
@@ -95,32 +95,32 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
 
    | 製品の機能 | 関数 | 詳細情報 |
    |---------|----------|----------|
-   | Analytics ユーザーとアセット | 現在、ほとんどのユーザーおよび製品管理機能は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) でのみ使用可能ですが、あるユーザーから別のユーザーにアセットを転送したり、ユーザーアカウントの有効期限を設定したりする管理機能は、Adobe Analytics 管理者領域からのみ使用可能です。 | [ユーザーアセットの転送と、アカウントの有効期限の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=ja) |
-   | ユーザー ID の移行 | 管理者は、Analytics ユーザー ID 移行機能を使用して、Analytics User Management から Adobe Admin Console にユーザーアカウントを簡単に移行できます。 | [Adobe Admin Console への Analytics ユーザーの移行](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=ja) |
+   | Analytics ユーザーとアセット | 現在、ほとんどのユーザーおよび製品管理機能は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) でのみ使用可能ですが、あるユーザーから別のユーザーにアセットを転送したり、ユーザーアカウントの有効期限を設定したりする管理機能は、Adobe Analytics 管理者領域からのみ使用可能です。 | [ユーザーアセットの転送と、アカウントの有効期限の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
+   | ユーザー ID の移行 | 管理者は、Analytics ユーザー ID 移行機能を使用して、Analytics User Management から Adobe Admin Console にユーザーアカウントを簡単に移行できます。 | [Adobe Admin Console への Analytics ユーザーの移行](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html) |
    | ユーザー管理ホーム（レガシー） | ユーザーと製品の管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | グループ（レガシー） | グループ管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics のグループの管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | レポートスイートへのアクセス | レポートスイートツールへのアクセス権を付与する方法は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーにレポートスイートへのアクセス権を付与します。 | [レポートスイートツールの製品プロファイル権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=ja) |
-   | 管理者ツールホーム | Analytics 管理ツール領域は、Adobe Analytics インスタンスを管理するための主な領域です。この領域では、ほとんどの管理タスクを実行できます。 | [管理ツールの概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ja) |
-   | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=ja) |
+   | 管理者ツールホーム | Analytics 管理ツール領域は、Adobe Analytics インスタンスを管理するための主な領域です。この領域では、ほとんどの管理タスクを実行できます。 | [管理ツールの概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html) |
+   | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html) |
    | Analytics ユーザーとアセット | ユーザーとアセットの管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
    | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ja) |
    | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=ja) |
-   | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=ja) |
-   | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja) |
-   | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。 | [トラフィック管理の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=ja) |
-   | サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=ja) |
-   | ログ | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ja) |
-   | Advertising Analytics | すべての Google および Bing 有料検索データを並べて表示するように Adobe Analytics を設定します。 | [Advertising Analytics の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=ja) |
+   | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html) |
+   | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html) |
+   | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。 | [トラフィック管理の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html) |
+   | サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html) |
+   | ログ | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html) |
+   | Advertising Analytics | すべての Google および Bing 有料検索データを並べて表示するように Adobe Analytics を設定します。 | [Advertising Analytics の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html) |
    | データフィード | データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 | [Analytics データフィードの概要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) |
    | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。 | [IP アドレスで除外](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ja) |
-   | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja) |
-   | データガバナンスプライバシーのラベル付け | レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。 | [レポートスイートのデータのラベル設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=ja) |
-   | 会社設定ホーム | カンパニー設定ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。 | [会社設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ja) |
-   | セキュリティマネージャー | セキュリティマネージャーを使用すると、レポートデータへのアクセスを管理できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 | [セキュリティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=ja) |
-   | Web サービス | Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。 | [Web サービス](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=ja) |
-   | Report Builder レポート | Report Builder ユーザーに割り当てられたライセンスを管理します。 | [Report Builder レポート](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=ja) |
+   | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
+   | データガバナンスプライバシーのラベル付け | レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。 | [レポートスイートのデータのラベル設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html) |
+   | 会社設定ホーム | カンパニー設定ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。 | [会社設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html) |
+   | セキュリティマネージャー | セキュリティマネージャーを使用すると、レポートデータへのアクセスを管理できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 | [セキュリティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html) |
+   | Web サービス | Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。 | [Web サービス](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
+   | Report Builder レポート | Report Builder ユーザーに割り当てられたライセンスを管理します。 | [Report Builder レポート](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
    | シングルサインオンサービス | Adobe Experience Cloud のシングルサインオンは、Admin Console を通じて実装されます。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
-   | レポートスイートを非表示 | レポートスイートを自分とユーザーが使用できないようにする場合、Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。 | [レポートスイートを非表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=ja) |  |
+   | レポートスイートを非表示 | レポートスイートを自分とユーザーが使用できないようにする場合、Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。 | [レポートスイートを非表示](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
 
    {style="table-layout:auto"}
 

@@ -4,7 +4,7 @@ description: Adobe Experience Platform Edge Network Server API を使用して�
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 34%
@@ -15,7 +15,7 @@ ht-degree: 34%
 
 通常、Experience PlatformEdge Network Server API を使用して、クライアント側ではなくサーバー側でデータを収集し、IoT デバイス、セットトップボックス、デスクトップアプリケーションなどのデバイスからデータを収集します。 次に、そのデータを Edge ネットワークやAdobe Analyticsなどのサービスに送信します。
 
-また、機密データをネットワークを介して安全に収集し、認証する必要がある場合は、Edge Network Server API も検討します。 詳しくは、 [認証](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) を参照してください。
+また、機密データをネットワークを介して安全に収集し、認証する必要がある場合は、Edge Network Server API も検討します。 詳しくは、 [認証](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) を参照してください。
 
 実装タスクの大まかな概要：
 
@@ -48,12 +48,12 @@ ht-degree: 34%
 <tr>
 <td>4</td>
 <td><b>データ収集の実装とテスト</b> 単一イベントデータとバッチイベントデータ収集 API の使用</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">単一イベントのデータ収集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">バッチイベントのデータ収集</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja">単一イベントのデータ収集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">バッチイベントのデータ収集</a>
 </tr>
 
 <td>5</td>
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。 このサービスは、Adobe Analytics にデータを送信するかどうかと、どのように送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">Adobe Analytics の操作</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Adobe Analytics の操作</a></td>
 </tr>
 
 

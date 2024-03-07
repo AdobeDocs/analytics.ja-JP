@@ -4,7 +4,7 @@ title: データガバナンスのプライバシーラベリングの表示／�
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 94%
@@ -31,11 +31,11 @@ ht-degree: 94%
 | 設定 | 説明 |
 | --- | --- |
 | **[!UICONTROL コンポーネント名]** | この列には、このレポートスイートの一部であるすべてのコンポーネント（ディメンション、指標）がリストされます。 |
-| **[!UICONTROL ID]** | 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
-| **[!UICONTROL 機密性]** | 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL GDPR アクセス]** | データガバナンスラベルを使用すると、規制や企業のポリシーに準拠するためにプライバシー関連の注意事項や契約条件を反映したデータを分類できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 削除]** | 削除ラベルは、ヒットとデータ主体との関連付けを許可する（つまり、データ主体の識別を許可する）値を含んだフィールドに対してのみ必要です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL 名前空間]** | 変数を ID-DEVICE または ID-PERSON としてラベル設定する場合、名前空間を提供するよう指示されます。以前定義した名前空間を使用することも、新しい名前空間を定義することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL ID]** | 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL 機密性]** | 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL GDPR アクセス]** | データガバナンスラベルを使用すると、規制や企業のポリシーに準拠するためにプライバシー関連の注意事項や契約条件を反映したデータを分類できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 削除]** | 削除ラベルは、ヒットとデータ主体との関連付けを許可する（つまり、データ主体の識別を許可する）値を含んだフィールドに対してのみ必要です。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL 名前空間]** | 変数を ID-DEVICE または ID-PERSON としてラベル設定する場合、名前空間を提供するよう指示されます。以前定義した名前空間を使用することも、新しい名前空間を定義することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL カテゴリ]** | コンポーネントのタイプ（標準コンポーネント、コンバージョン変数など）を指します |
 
 {style="table-layout:auto"}

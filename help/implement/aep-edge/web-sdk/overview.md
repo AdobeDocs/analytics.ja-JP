@@ -4,18 +4,16 @@ description: Adobe Experience Platform データ収集の Web SDK 拡張機能�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 76%
+source-wordcount: '670'
+ht-degree: 72%
 
 ---
 
 # Adobe Experience Platform Web SDK を使用した Adobe Analytics の実装
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ja) を使用して、データを Adobe Analytics に送信できます。この実装を機能させるには、[Experience Data Model（XDM）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を Analytics で使用される形式に変換します。
-
-を使用して、Experience Edge に直接データを送信できます。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)、またはタグの Web SDK 拡張機能を使用して。
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) を使用して、データを Adobe Analytics に送信できます。この実装方法は、 [エクスペリエンスデータモデル (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) を Analytics で使用される形式に変換します。 Web SDK JavaScript ライブラリまたは Web SDK タグ拡張を使用して、Adobe Experience Platform Edge Network にデータを送信できます。
 
 ## Web SDK
 
@@ -32,7 +30,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
@@ -50,7 +48,7 @@ ht-degree: 76%
 <tr>
 <td> 4</td>
 <td><b>事前ビルドスタンドアロンバージョンをインストールします</b>。CDN のライブラリ（<code>alloy.js</code>）をページで直接参照するか、ダウンロードして独自のインフラストラクチャにホストすることができます。または、NPM パッケージを使用することもできます。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja#option-2%3A-installing-the-prebuilt-standalone-version">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja#option-3%3A-using-the-npm-package">NPM パッケージの使用</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM パッケージの使用</a></td>
 </tr>
 
 <tr>
@@ -61,20 +59,20 @@ ht-degree: 76%
 
 <td>6</td>
 <td>データストリームに <b>Adobe Analytics サービス</b>を追加します。このサービスは、データをAdobe Analyticsに送信するかどうかと方法、および具体的にどのレポートスイートに送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID（旧称：エッジ設定 ID）を使用して正しく設定されていることを確認します (<code>edgeConfigId</code>)、組織 id (<code>orgId</code>) やその他の使用可能なオプションが含まれます。 変数の適切なマッピングを確認します。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja">Web SDK の設定</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics 変数のマッピング</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">変数の手動マッピング</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK の設定</a><br/><a href="../variable-mapping.md">XDM オブジェクト変数のマッピング</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>コマンドを実行</b>したり、<b>イベントを追跡</b>したりします。Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントの追跡を開始できます。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=ja">コマンドの実行</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja">イベントの追跡</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">イベントの送信</a></td>
 </tr>
 
 <tr>
@@ -98,7 +96,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
@@ -122,13 +120,13 @@ ht-degree: 76%
 <tr>
 <td>5</td> 
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。 このサービスは、データをAdobe Analyticsに送信するかどうかと方法、および具体的にどのレポートスイートに送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>タグプロパティを作成します</b>。プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ja#for-web">Web 用のタグプロパティの作成または設定</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Web 用のタグプロパティの作成または設定</a></td>
 </tr>
 
 <tr>
@@ -140,7 +138,7 @@ ht-degree: 76%
 <tr>
 <td>8</td>
 <td><b>反復し、検証して実稼動環境に公開します</b>。タグプロパティを Web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">埋め込みコード</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja">公開の概要</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">埋め込みコード</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja">公開の概要</a></td>
 </tr>
 
 </table>

@@ -4,7 +4,7 @@ description: クライアントヒントが User-Agent をデバイス情報の�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Managerでは、機能を完全に保持するために、高エ�
 
 どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
 
-API で送信されたデータの場合（[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) や [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=ja) など）、ヒントは、ペイロードに明示的に含める必要があります。詳しくは、それぞれのドキュメントを参照してください。
+API で送信されたデータの場合（[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) や [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html) など）、ヒントは、ペイロードに明示的に含める必要があります。詳しくは、それぞれのドキュメントを参照してください。
 
 +++
 

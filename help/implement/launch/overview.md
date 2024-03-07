@@ -4,7 +4,7 @@ description: タグと Analytics 拡張機能を使用した Adobe Analytics の
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 83%
@@ -65,7 +65,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 <tr>
 <td>6</td> 
 <td><b>検証して実稼動環境に公開します</b>。タグプロパティを Web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">埋め込みコード</a><br/><a href="./validate-publish-prod.md">開発実装の検証と実稼動環境への公開</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">埋め込みコード</a><br/><a href="./validate-publish-prod.md">開発実装の検証と実稼動環境への公開</a></td>
 </tr>
 
 </table>

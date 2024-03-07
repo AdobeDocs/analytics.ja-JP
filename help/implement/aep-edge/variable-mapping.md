@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Edge での Analytics 変数のマッピング
+title: Web SDK XDM オブジェクトを使用した Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 83%
+source-wordcount: '1149'
+ht-degree: 81%
 
 ---
 
-# Adobe Experience Edge での Analytics 変数のマッピング
+# Web SDK XDM オブジェクトを使用した Analytics 変数のマッピング
 
 次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analyticsにデータを送信するための追加の設定は必要ありません。 これらのフィールドは、 **[!UICONTROL Adobe Analytics ExperienceEvent テンプレート]** フィールドグループを使用します。
 
