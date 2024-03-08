@@ -4,10 +4,10 @@ description: 訪問者が閲覧したページの割合を取得します。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 これらの変数の 1 つ以上を eVar に割り当てて、レポート内のディメンションデータを表示します。
 
-このプラグインは、上記の値を含む、`s_ppv` という名前のファーストパーティ Cookie を作成します。ブラウザーセッションの終わりに有効期限が切れます。
+このプラグインは、ブラウザーセッションの終了時に期限切れになる 3 つのファーストパーティ Cookie を作成します。
+
+* `s_ppv`：関数を呼び出して公開された各値を格納します
+* `s_tp`：前のページの合計ピクセル高を格納します。
+* `s_ips`：前のページの初期スクロール率を格納します
 
 ## 例
 
