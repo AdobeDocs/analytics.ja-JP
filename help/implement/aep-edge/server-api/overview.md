@@ -4,10 +4,10 @@ description: Adobe Experience Platform Edge Network Server API を使用して�
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 2e5171842794d7acc7bb67048b734f47a438cf1c
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 34%
 
 <td>5</td>
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。 このサービスは、Adobe Analytics にデータを送信するかどうかと、どのように送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Adobe Analytics の操作</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ja">Adobe Analytics の操作</a></td>
 </tr>
 
 
