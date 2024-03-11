@@ -3,16 +3,16 @@ description: 同意管理ディメンションを有効にします。
 title: プライバシーレポート
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 77%
 
 ---
 
 # プライバシーレポート
 
-プライバシーレポートを使用すると、[同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md)および[同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md)ディメンションをレポートで使用できます。
+プライバシーレポートで [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md), [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) および [広告の同意](/help/components//dimensions/ad-consent.md) レポートで使用するディメンションです。
 
 このページにアクセスするには：
 
