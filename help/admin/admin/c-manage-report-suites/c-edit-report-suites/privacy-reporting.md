@@ -3,10 +3,10 @@ description: 同意管理ディメンションを有効にします。
 title: プライバシーレポート
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 77%
+source-wordcount: '87'
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 77%
 
    ![設定を編集](assets/rsm-privacy-select.png)
 
-1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。
+1. クリック **[!UICONTROL データプライバシーレポートを有効にする]**.
 
    >[!NOTE]
    >
