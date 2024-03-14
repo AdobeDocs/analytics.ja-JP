@@ -3,16 +3,20 @@ description: 同意管理ディメンションを有効にします。
 title: プライバシーレポート
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
+source-git-commit: a102242b98967d578918f358166e13d90f06e070
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 71%
+source-wordcount: '112'
+ht-degree: 55%
 
 ---
 
 # プライバシーレポート
 
 プライバシーレポートで [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md), [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) および [広告の同意](/help/components//dimensions/ad-consent.md) レポートで使用するディメンションです。
+
+>[!NOTE]
+>
+>最近、新しい Ad Platform 同意フラグが追加されました。 この新しい変数を有効にするには、データプライバシーレポートを再度有効にする必要があります。
 
 このページにアクセスするには：
 
