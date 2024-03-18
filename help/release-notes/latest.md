@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 0cbb11623d7d262a0cbd6aabad568f752d8ffa9c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 25%
