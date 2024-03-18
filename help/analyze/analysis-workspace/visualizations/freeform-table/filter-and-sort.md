@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace でテーブルをフィルタリングし並べ替える方法について説明するドキュメントです。
-title: フリーフォームテーブルのフィルターと並べ替え
+title: フリーフォームテーブルのフィルタリングと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
-# フリーフォームテーブルのフィルターと並べ替え
+# フリーフォームテーブルのフィルタリングと並べ替え
 
 Analysis Workspace のフリーフォームテーブルは、インタラクティブなデータ分析の基盤となります。そのため、何千行もの情報を含めることができます。データのフィルタリングと並べ替えは、最も重要な情報を効率的に表示するための重要な要素になる可能性があります。
 
@@ -48,12 +48,14 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
    Shift キーを押しながら行の範囲を選択するか、Command キー (Mac) または Ctrl キー (Windows) を押しながら複数の行を選択します。
 
-### 右クリック > 選択した行を削除
+<!--### Right-click > Delete selected rows
 
-1. 1 つ以上の行を選択します。
-1. 右クリックして「 」を選択します。 **[!UICONTROL 選択した行を削除]**.
+Note: this option does not seem to work. AN-338422
 
-   このアクションは、テーブルから行を削除し、テーブルフィルターを適用します。
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### テーブルへの標準フィルターまたは詳細フィルターの適用
 
