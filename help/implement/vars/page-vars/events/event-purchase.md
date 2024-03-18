@@ -4,10 +4,10 @@ description: 購入イベントを使用して、「注文件数」、「数量�
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 74%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 74%
 
 ## Web SDK を使用した購入イベントの設定
 
-購入イベントは、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の XDM フィールドの下：
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;購入イベントが次の XDM フィールドを使用する場合：
 
-* 注文件数は、`commerce.purchases.value` にマッピングされます。
-* 単位は、すべての `productListItems[].quantity` フィールドの合計にマッピングされます。
-* 売上高は、すべての `productListItems[].priceTotal` フィールドの合計にマッピングされます。
+* 注文件数は、`xdm.commerce.purchases.value` にマッピングされます。
+* 単位は、すべての `xdm.productListItems[].quantity` フィールドの合計にマッピングされます。
+* 売上高は、すべての `xdm.productListItems[].priceTotal` フィールドの合計にマッピングされます。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;購入イベントが `data.__adobe.analytics.events`に設定します。AppMeasurementー文字列構文に従います。
 
 ## Adobe Analytics拡張機能を使用した購入イベントの設定
 

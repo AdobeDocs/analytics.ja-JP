@@ -4,10 +4,10 @@ description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ Prop は、好きなだけ使用できるカスタム変数です。prop は、�
 
 ## Web SDK を使用した prop
 
-prop は、XDM フィールドの `_experience.analytics.customDimensions.props.prop1` から `_experience.analytics.customDimensions.props.prop75` で [Adobe Analytics 向けにマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。リスト prop は、別のフィールドで指定されます。
+prop は次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — リスト prop は [別々のフィールドセット](#list-props-web-sdk).
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；または `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — リスト prop はこれらのフィールドに含まれます。
 
 ## Adobe Analytics 拡張機能を使用した prop
 
@@ -60,9 +63,11 @@ s.prop1 = "Example custom value";
 >
 > 実装で使用される一般的な区切り文字は、コンマ（`,`）、コロン（`:`）、セミコロン（`;`）、パイプ（`|`）です。実装に最適な任意の非拡張 ASCII 区切り文字を使用できます。
 
-### Web SDK を使用したリスト prop の設定
+### Web SDK を使用したリスト prop の設定 {#list-props-web-sdk}
 
-レポートスイート設定で目的の区切り文字を使用してリスト prop を設定すると、リスト prop は、Adobe Analytics 用に `_experience.analytics.customDimensions.listProps.prop1.values[]` から `_experience.analytics.customDimensions.listProps.prop75.values[]` にマッピングされます。Web SDK は、レポートスイート設定にリストされた正しい区切り文字を自動的に使用します。XDM フィールドで区切り文字を設定すると（例えば、`_experience.analytics.customDimensions.props.prop1.delimiter`）、レポートスイート設定から自動的に取得された区切り文字が上書きされ、リスト prop 文字列の間違った解析につながる可能性があります。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、リスト prop はにマッピングされます。 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK は、レポートスイート設定にリストされた正しい区切り文字を自動的に使用します。XDM フィールドで区切り文字を設定すると（例えば、`xdm._experience.analytics.customDimensions.props.prop1.delimiter`）、レポートスイート設定から自動的に取得された区切り文字が上書きされ、リスト prop 文字列の間違った解析につながる可能性があります。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;の場合、リスト prop は標準の prop と同じフィールドを使用し、AppMeasurement構文に従います。
 
 ### Adobe Analytics 拡張機能および AppMeasurement を使用したリスト prop の設定
 

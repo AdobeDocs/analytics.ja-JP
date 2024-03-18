@@ -4,7 +4,7 @@ description: Adobe Experience Platform データ収集の Web SDK 拡張機能�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ ht-degree: 72%
 <tr>
 <td>7</td>
 <td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID（旧称：エッジ設定 ID）を使用して正しく設定されていることを確認します (<code>edgeConfigId</code>)、組織 id (<code>orgId</code>) やその他の使用可能なオプションが含まれます。 変数の適切なマッピングを確認します。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK の設定</a><br/><a href="../variable-mapping.md">XDM オブジェクト変数のマッピング</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK の設定</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数のマッピング</a></td>
 </tr>
 
 <tr>

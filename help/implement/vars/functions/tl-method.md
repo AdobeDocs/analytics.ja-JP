@@ -4,10 +4,10 @@ description: リンクトラッキングコールをアドビに送信します�
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 80%
 
 ## Web SDK を使用したリンクトラッキング
 
-Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方の `sendEvent` コマンドを使用します。 Adobe Analyticsで特定の XDM イベントをリンクトラッキングコールとしてカウントする場合は、XDM データにまたはが含まれていることと、がにマッピングされていることを確認してください `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
+Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方の `sendEvent` コマンドを使用します。
 
-* リンク名のマッピング先 `web.webInteraction.name`.
-* URL マッピングのリンク先 `web.webInteraction.URL`.
-* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。
+XDM オブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに以下が含まれていることを確認します。
+
+* リンク名：マッピング先 `xdm.web.webInteraction.name`.
+* リンク URL：にマッピング済み `xdm.web.webInteraction.URL`.
+* リンクタイプ：マッピング先 `xdm.web.webInteraction.type`. 有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+データオブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、データオブジェクトに以下が含まれていることを確認してください。
+
+* リンク名：マッピング先 `data.__adobe.analytics.linkName`.
+* リンク URL：にマッピング済み `data.__adobe.analytics.linkURL`.
+* リンクタイプ：マッピング先 `data.__adobe.analytics.linkType`. 有効な値は `o`（カスタムリンク）、`d`（ダウンロードリンク）、`e`（離脱リンク）です。
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

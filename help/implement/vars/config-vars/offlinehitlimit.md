@@ -4,10 +4,10 @@ description: オフライントラッキング用にキューに入れる最大�
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 88%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 88%
 
 `offlineHitLimit` 変数は、デバイスがローカルに保存するヒット数に上限を設定します。この変数は、[`trackOffline`](trackoffline.md) が有効な場合にのみ機能します。
 
-## Adobe Analytics拡張機能を使用したオフラインヒット制限
+## Web SDK を使用したオフラインヒット制限
+
+Web SDK は、オフライン追跡をサポートしていません。
+
+## Adobe Analytics拡張機能を使用したオフラインヒットの制限
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 

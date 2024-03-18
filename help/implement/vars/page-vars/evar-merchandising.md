@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -45,10 +45,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### Web SDK を使用した製品構文
 
-製品構文マーチャンダイジング変数は、複数の異なる XDM フィールドで [Adobe Analytics 用にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)、製品構文マーチャンダイジング変数は、次の XDM フィールドを使用します。
 
-* 製品構文マーチャンダイジング eVar は、`productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `productListItems[]._experience.analytics.customDimensions.eVars.eVar250` までにマッピングされます。
-* 製品構文マーチャンダイジングイベントは、`productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems[]._experience.analytics.event901to1000.event1000.value` までにマッピングされます。[イベントのシリアル化](events/event-serialization.md) XDM フィールドは、`productListItems[]._experience.analytics.event1to100.event1.id` から `productListItems[]._experience.analytics.event901to1000.event1000.id` までにマッピングされます。
+* 製品構文マーチャンダイジング eVar は、`xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250` までにマッピングされます。
+* 製品構文マーチャンダイジングイベントは、`xdm.productListItems[]._experience.analytics.event1to100.event1.value` から `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value` までにマッピングされます。[イベントのシリアル化](events/event-serialization.md) XDM フィールドは、`xdm.productListItems[]._experience.analytics.event1to100.event1.id` から `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id` までにマッピングされます。
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 次の例では、複数のマーチャンダイジング eVar およびイベントを使用した 1 つの[製品](products.md)を示します。
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 上記の例のオブジェクトは、Adobe Analytics に `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` として送信されることになります。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、eVarマーチャンダイジングの使用 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 次のAppMeasurement構文に従います。
 
 ## コンバージョン変数の構文を使用した実装
 
@@ -109,33 +111,60 @@ s.products = ";Canary";
 
 ### Web SDK を使用したコンバージョン変数構文
 
-Web SDK を使用したコンバージョン変数構文は、他の [eVar](evar.md) および[イベント](events/events-overview.md)の実装と同じように動作します。上記の例を反映した XDM は、次のようになります。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、構文は他の [eVar](evar.md) および [イベント](events/events-overview.md). 上記の例を反映した XDM は、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 製品文字列の入札イベントと値を設定します。
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;の場合、上記の例をミラーリングするデータオブジェクトは次のようになります。
+
+同じまたは前のイベントコールで eVar を設定します。
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+製品文字列の入札イベントと値を設定します。
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

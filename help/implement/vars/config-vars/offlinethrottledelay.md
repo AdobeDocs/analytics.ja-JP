@@ -4,10 +4,10 @@ description: デバイスがオンラインに戻ったときのヒットの頻�
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 90%
 オフライントラッキングは、Adobe Analytics でデータを収集するオプションの方法です。訪問者がインターネットから切断したが引き続きサイトを閲覧した場合、デバイスがインターネットに再接続されるまで、ヒットはオフラインキューに保存されます。オフライントラッキングは、ほとんどの場合モバイルアプリケーションで使用されます。
 
 デバイスが再びオンラインになると、デバイスに保存されているすべてのヒットがアドビのデータ収集サーバーに送信されます。キューに格納されたヒットの数が多いと、古いデバイスのパフォーマンスに影響を与える可能性があります。`offlineThrottleDelay` 変数を使用して、キューに登録されたヒットがアドビに送信される頻度を指定します。
+
+## Web SDK を使用したオフラインスロットル遅延
+
+Web SDK は、オフライン追跡をサポートしていません。
 
 ## Adobe Analytics拡張機能を使用したオフラインスロットル遅延
 

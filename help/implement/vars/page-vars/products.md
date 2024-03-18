@@ -4,10 +4,10 @@ description: 表示される製品や買い物かごに含まれる製品に関�
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ ht-degree: 68%
 
 ## Web SDK を使用する製品
 
-製品は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の XDM フィールドの下：
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、製品は次の変数にマッピングされます。
 
-* カテゴリのマッピング先 `productListItems[].productCategories[].categoryID`. 次の項目の最初の項目を使用します： `productCategories[]` 配列。 `lineItemId` また、は正しくマッピングされますが、 `categoryID` これは標準の XDM なので。 両方の XDM フィールドが存在する場合 `lineItemId` が優先します。
-* 製品が `productListItems[].SKU` または `productListItems[].name`. 両方の XDM フィールドが存在する場合、 `productListItems[].SKU` が使用されます。
-* 数量が次にマッピングされています： `productListItems[].quantity`.
-* 価格は `productListItems[].priceTotal`.
-* マーチャンダイジング eVar は `productListItems._experience.analytics.customDimensions.eVars.eVar1` から `productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
-* マーチャンダイジングイベントのマッピング先 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。 これらのフィールドのいずれかにイベントを設定すると、そのイベントは自動的に [イベント](events/events-overview.md) 文字列がAdobe Analyticsに送信されました。
+* カテゴリのマッピング先 `xdm.productListItems[].productCategories[].categoryID`. 次の項目の最初の項目を使用します： `productCategories[]` 配列。 `lineItemId` また、は正しくマッピングされますが、Adobeでは `categoryID` これは標準の XDM なので。 両方の XDM フィールドが存在する場合、 `lineItemId` が優先します。
+* 製品が `xdm.productListItems[].SKU` または `xdm.productListItems[].name`. 両方の XDM フィールドが存在する場合、 `xdm.productListItems[].SKU` が使用されます。
+* 数量が次にマッピングされています： `xdm.productListItems[].quantity`.
+* 価格は `xdm.productListItems[].priceTotal`.
+* マーチャンダイジング eVar は `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` から `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
+* マーチャンダイジングイベントのマッピング先 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` から `xdm.productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。 これらのフィールドのいずれかにイベントを設定すると、そのイベントは自動的に [イベント](events/events-overview.md) 文字列がAdobe Analyticsに送信されました。
 
 >[!NOTE]
 >
 >`lineItemId` は、まだ標準の Analytics イベントスキーマの一部ではないので、カスタムフィールドとして追加する必要があります。 Adobeは、将来、専用の「カテゴリ」フィールドを追加する予定です。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;に値を指定しない場合、products 変数は `data.__adobe.analytics.products` 次のAppMeasurement構文に従います。 このフィールドを設定した場合、XDM オブジェクトに設定された製品は上書きされ、Adobe Analyticsには送信されません。
 
 ## Adobe Analytics拡張機能を使用する製品
 

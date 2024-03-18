@@ -4,10 +4,10 @@ description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## Web SDK を使用したリスト変数
 
-リスト変数は、XDM フィールドの `_experience.analytics.customDimensions.lists.list1.list[]` から `_experience.analytics.customDimensions.lists.list3.list[]` で [Adobe Analytics 向けにマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。これは、[レポートスイートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)で指定した値を使用して自動的に含まれます。例えば、コンマ（「`,`」）がリスト変数 1 の区切り文字として設定されている場合、次の XDM オブジェクトは `list1` 変数に `"Example value 1,Example value 2,Example value 3"` を入力します。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、リスト変数は XDM フィールドを使用します `xdm._experience.analytics.customDimensions.lists.list1.list[]` から `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。Adobeデータ収集サーバーは、 [レポートスイートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -58,6 +58,18 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Adobe XDM スキーマには、各 `list[]` 配列の `value` オブジェクトに加えて `key` オブジェクトが含まれています。アドビは、データを Adobe Analytics に送信するときにこれらの `key` オブジェクトを使用しません。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、リスト変数は `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 次のAppMeasurement構文に従います。 で設定されている正しい区切り文字を使用していることを確認してください。 [レポートスイートの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "list1": "Example value 1,Example value 2,Example value 3"
+    }
+  }
+}
+```
 
 ## Adobe Analytics 拡張機能を使用したリスト変数
 

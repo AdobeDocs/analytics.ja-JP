@@ -4,10 +4,10 @@ description: e コマースサイトの場合、ページで扱う通貨を設�
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ ht-degree: 100%
 
 ## Web SDK を使用した通貨コード
 
-通貨コードは、XDM フィールド `commerce.order.currencyCode` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+通貨コードは、次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` または `data.__adobe.analytics.cc`
 
 ## Adobe Analytics 拡張機能を使用した通貨コード
 

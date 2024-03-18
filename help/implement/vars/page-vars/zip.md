@@ -4,10 +4,10 @@ description: レポートスイートの設定で許可されている場合は�
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +17,16 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
-> レポートスイート設定の「[!UICONTROL 郵便番号オプション]」が目的の値に設定されていることを確認します。[!UICONTROL geozip] を常に使用する場合は、この変数を使用できません。詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」を参照してください。
+> レポートスイート設定の「[!UICONTROL 郵便番号オプション]」が目的の値に設定されていることを確認します。この変数を使用できないのは、 [!UICONTROL 地域郵便番号] が常に使用されます。 詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」を参照してください。
 
-## Adobe Analytics 拡張機能を使用した郵便番号
+## Web SDK を使用した郵便番号
+
+郵便番号は次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Adobe Analytics拡張機能を使用した郵便番号
 
 郵便番号は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 

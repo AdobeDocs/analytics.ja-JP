@@ -4,10 +4,10 @@ description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 96%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,10 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 ## Web SDK を使用した eVar
 
-eVar は、XDM フィールドの `_experience.analytics.customDimensions.eVars.eVar1` から `_experience.analytics.customDimensions.eVars.eVar250` で [Adobe Analytics 向けにマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+eVar は次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` から `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` から `data.__adobe.analytics.eVar250`；または `data.__adobe.analytics.v1` から `data.__adobe.analytics.v250`
 
 ## Adobe Analytics 拡張機能を使用した eVar
 

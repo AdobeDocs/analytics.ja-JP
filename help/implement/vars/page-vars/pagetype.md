@@ -4,10 +4,10 @@ description: 現在のページが 404 エラーであるかどうかを調べ�
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 
 ## Web SDK を使用したページタイプ
 
-ページタイプは、XDM フィールド `web.webPageDetails.isErrorPage` で [Adobe Analytics 用にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。この XDM フィールドはブール値です。エラーページとしてフラグを立てるには `true` に設定し、エラーページでない場合は `false` に設定します。Adobe は、Analytics レポートスイートに送信される際に、ブール値を文字列値 `errorPage` に自動的に変換します。
+チャネルは、次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage`  — この XDM フィールドはブール値です。次のように設定します。 `true` エラーページとしてフラグを設定するか、 `false` エラーページでない場合は。
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType`  — このデータオブジェクトフィールドは文字列です。 `"errorPage"` そのようにフラグを設定する
 
 ## Adobe Analytics 拡張機能を使用したページタイプ
 

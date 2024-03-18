@@ -4,10 +4,10 @@ description: 「サイトセクション」ディメンションを設定しま�
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 76%
+source-wordcount: '194'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 76%
 
 ## Web SDK を使用したチャネル
 
-チャネルは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.siteSection`.
+チャネルは、次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` または `data.__adobe.analytics.ch`
 
 ## Adobe Analytics拡張機能を使用するチャネル
 

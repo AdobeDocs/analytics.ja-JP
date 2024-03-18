@@ -4,10 +4,10 @@ description: サイトのページの名前。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 81%
+source-wordcount: '258'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,10 @@ ht-degree: 81%
 
 ## Web SDK を使用したページ名
 
-ページが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.name`.
+ページ名は次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.name`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageName`
 
 ## Adobe Analytics拡張機能を使用したページ名
 

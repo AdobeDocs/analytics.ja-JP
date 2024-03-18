@@ -4,10 +4,10 @@ description: コンテキストデータ変数を使用すると、処理ルー�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ ht-degree: 100%
 
 ## Web SDK を使用したコンテキストデータ変数
 
-XDM フィールドが [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されていない場合は、コンテキストデータ変数として自動的に含まれます。その後、[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を指定した場合、Adobe Analytics変数にマッピングされないすべてのフィールドが、コンテキストデータ変数として自動的に含まれます。 その後、[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。
 
-ベストプラクティスは、データストリームの正しい XDM フィールドにデータをマッピングすることですが、この方法は、同様の結果を実現します。
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;に格納します。すべてのコンテキストデータ変数は、 `data.__adobe.analytics.contextData` をキーと値のペアとして使用します。
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+The [処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) インターフェイスが表示されます `c.example_variable` および `c.second_example` 該当するドロップダウンメニュー
 
 ## Adobe Analytics 拡張機能を使用したコンテキストデータ変数
 

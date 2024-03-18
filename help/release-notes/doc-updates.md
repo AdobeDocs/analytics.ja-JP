@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 94%
@@ -141,7 +141,7 @@ ht-degree: 94%
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [Analysis Workspace で作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
 | **2022年5月** | |
-| Edge ネットワークを通じてライフサイクルディメンションと指標を設定する | Edge ネットワークに送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。 XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/variable-mapping.md)を参照してください。 |
+| Edge ネットワークを通じてライフサイクルディメンションと指標を設定する | Edge ネットワークに送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。 XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/xdm-var-mapping.md)を参照してください。 |
 | **2022年4月** | |
 | Adobe Analytics ランディングページの更新 | [Analysis Workspace と Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

@@ -4,10 +4,10 @@ description: 動的変数を識別する文字列をカスタマイズできま�
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 76%
+source-wordcount: '275'
+ht-degree: 70%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 76%
 ## Web SDK を使用した動的変数のプレフィックス
 
 Web SDK では、動的な変数形式設定を使用しません。 代わりに、データストリームマッピングを使用して、単一のソースフィールドを使用して複数のターゲットフィールドにデータを入力できます。 詳しくは、 [Web SDK を使用した動的変数](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) を参照してください。
+
+スキーマに準拠せずにAdobe Analyticsに直接データを送信した場合、次の変数が使用されます。
+
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Adobe Analytics拡張機能を使用した動的変数プレフィックス
 

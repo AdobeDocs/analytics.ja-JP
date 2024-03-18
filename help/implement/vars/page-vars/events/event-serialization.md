@@ -4,10 +4,10 @@ description: サイト上の指標の重複を除外するのに役立ちます�
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -35,9 +35,11 @@ ht-degree: 96%
 
 ## Web SDK を使用したイベント ID の使用
 
-イベントのシリアル化は、目的のイベント XDM フィールド `id` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。完全な XDM パスは、シリアル化するイベントによって異なります。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、イベントのシリアル化は目的のイベントの XDM フィールドを使用します `id`. 完全な XDM パスは、シリアル化するイベントによって異なります。
 
-例えば、買い物かごへの追加指標をシリアル化したい場合、`commerce.productListAdds.id` XDM フィールドを目的のシリアル化値に設定します。カスタムイベント 20 をシリアル化したい場合、`_experience.analytics.event1to100.event20` XDM フィールドを目的のシリアル化値に設定します。
+例えば、買い物かごへの追加指標をシリアル化する場合は、 `xdm.commerce.productListAdds.id` を目的のシリアル化値に追加します。 カスタムイベント 20 をシリアル化する場合は、 `xdm._experience.analytics.event1to100.event20` を目的のシリアル化値に追加します。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、イベントシリアル化では `data.__adobe.analytics.events`に設定します。AppMeasurementー文字列構文に従います。
 
 ## Adobe Analytics 拡張機能を使用したイベント ID の使用
 

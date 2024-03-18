@@ -4,9 +4,9 @@ description: 自動的に収集されたヒットのリファラーを上書き�
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 80%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 80%
 
 ## Web SDK を使用したリファラー
 
-リファラー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webReferrer.URL`.
+リファラーは次の変数にマッピングされます。
 
-Web SDK は、イベントヒットのたびに、このディメンションを含めます。
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+
+Web SDK は、次を自動的に含めます `web.webReferrer.URL` 送信されるイベントごと（可能な場合）に
 
 ## Adobe Analytics拡張機能を使用したリファラー
 

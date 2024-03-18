@@ -4,10 +4,10 @@ description: イベント変数を設定します。この変数は、サイト�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ ht-degree: 90%
 
 ## Web SDK を使用したイベント
 
-カスタムイベントは、次の XDM フィールドで [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、カスタムイベントは次の XDM フィールドを使用します。
 
-* カスタムイベント 1 ～ 100 は、`_experience.analytics.event1to100.event1` ～ `_experience.analytics.event1to100.event100` にマッピングされます。
-* カスタムイベント 101 ～ 200 は、`_experience.analytics.event101to200.event100` ～ `_experience.analytics.event101to200.event200` にマッピングされます。
-* このパターンは、`_experience.analytics.event901to1000.event901` ～ `_experience.analytics.event901to1000.event1000` まで、100 イベントごとに繰り返されます。`eventx.value` は、増分量を指定するために使用されます。`eventx.id` は、[シリアル化](event-serialization.md)に使用されます。
-* 注文件数は、`commerce.purchases.value` にマッピングされます。
+* カスタムイベント 1 ～ 100 は、`xdm._experience.analytics.event1to100.event1` ～ `xdm._experience.analytics.event1to100.event100` にマッピングされます。
+* カスタムイベント 101 ～ 200 は、`xdm._experience.analytics.event101to200.event100` ～ `xdm._experience.analytics.event101to200.event200` にマッピングされます。
+* このパターンは、`xdm._experience.analytics.event901to1000.event901` ～ `xdm._experience.analytics.event901to1000.event1000` まで、100 イベントごとに繰り返されます。`eventx.value` は、増分量を指定するために使用されます。`eventx.id` は、[シリアル化](event-serialization.md)に使用されます。
+* 注文件数は、`xdm.commerce.purchases.value` にマッピングされます。
 * 単位は、すべての `productListItems[].quantity` フィールドの合計にマッピングされます。
 * 売上高は、すべての `productListItems[].priceTotal` フィールドの合計にマッピングされます。
-* 製品表示は、`commerce.productListViews.value` にマッピングされます。
-* 買い物かごは、`commerce.productListOpens.value` にマッピングされます。
-* 買い物かごへの追加は、`commerce.productListAdds.value` にマッピングされます。
-* 買い物かごからの削除は、`commerce.productListRemovals.value` にマッピングされます。
-* 買い物かご表示は、`commerce.productListViews.value` にマッピングされます。
-* チェックアウトは、`commerce.checkouts.value` にマッピングされます。
+* 製品表示は、`xdm.commerce.productListViews.value` にマッピングされます。
+* 買い物かごは、`xdm.commerce.productListOpens.value` にマッピングされます。
+* 買い物かごへの追加は、`xdm.commerce.productListAdds.value` にマッピングされます。
+* 買い物かごからの削除は、`xdm.commerce.productListRemovals.value` にマッピングされます。
+* 買い物かご表示は、`xdm.commerce.productListViews.value` にマッピングされます。
+* チェックアウトは、`xdm.commerce.checkouts.value` にマッピングされます。
 
 >[!NOTE]
 >
 >イベントが `productListItems` に設定され（例えば、`productListItems._experience.analytics.event1.value`）、そのイベントがまだこのフィールドにない場合、そのイベントは、このフィールドに自動的に追加されます。
+
+を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、すべてのイベントが `data.__adobe.analytics.events`に設定します。AppMeasurementー文字列構文に従います。 このフィールドを設定した場合、XDM オブジェクトに設定されたイベントは上書きされ、Adobe Analyticsには送信されません。
 
 ## Adobe Analytics 拡張機能を使用したイベント
 

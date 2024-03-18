@@ -4,9 +4,9 @@ description: Adobe Analytics に階層変数を実装します。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 95%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Web SDK を使用する階層
 
-階層は XDM フィールドの `_experience.analytics.customDimensions.hierarchies.hier1` から `_experience.analytics.customDimensions.hierarchies.hier5` に [Adobe Analytics でマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+階層は XDM フィールドの `xdm._experience.analytics.customDimensions.hierarchies.hier1` から `xdm._experience.analytics.customDimensions.hierarchies.hier5` に [Adobe Analytics でマッピング](/help/implement/aep-edge/xdm-var-mapping.md)されます。
 
 ## Adobe Analytics 拡張機能を使用した階層
 

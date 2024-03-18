@@ -4,10 +4,10 @@ description: この変数を使用して、オンラインとオフラインの�
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 96%
 
 ## Web SDK を使用したトランザクション ID
 
-トランザクション ID は、XDM フィールド `commerce.order.payments[0].transactionID` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
+トランザクション ID は、次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` または `data.__adobe.analytics.xact`
 
 ## Adobe Analytics 拡張機能を使用したトランザクション ID
 

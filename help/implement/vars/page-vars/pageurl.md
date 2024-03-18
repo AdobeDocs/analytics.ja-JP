@@ -4,9 +4,9 @@ description: 自動的に収集されたページの URL をサイトで上書�
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,10 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 ## Web SDK を使用したページ URL
 
-ページ URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.URL`.
+ページ URL は、次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` または `data.__adobe.analytics.g`
 
 ## Adobe Analytics拡張機能を使用したページ URL
 

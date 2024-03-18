@@ -4,10 +4,10 @@ description: abort 変数は、ヒットがアドビのデータ収集サーバ�
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
-> `abort` 変数は、トラッキングコールのたびに `false` にリセットされます。同じページで後続のトラッキングコールを中止する必要がある場合は、`abort` を再度 `true` に設定します。
+> `abort` 変数は、トラッキングコールのたびに `false` にリセットされます。同じページで後続のトラッキングコールを中止する場合は、 `abort` から `true` 再び
 
-例えば、 `abort` 変数は、 [`doPlugins()`](../functions/doplugins.md) 関数内で使用されます。これは、イメージリクエストがAdobeに送信される前に実行される最後の関数です。 この例の動作は、 `onBeforeEventSend` Web SDK を使用したコールバック。
+The `abort` 変数は、 [`doPlugins()`](../functions/doplugins.md) 関数内で使用されます。これは、イメージリクエストがAdobeに送信される前に実行される最後の関数です。 この例の動作は、 `onBeforeEventSend` Web SDK を使用したコールバック。
 
 ```js
 s.doPlugins = function(s) {

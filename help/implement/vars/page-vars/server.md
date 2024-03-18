@@ -4,7 +4,7 @@ description: 「サーバー」ディメンションを設定します。
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -17,7 +17,10 @@ ht-degree: 74%
 
 ## Web SDK を使用するサーバー
 
-サーバー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.server`.
+サーバーは次の変数にマッピングされます。
+
+* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Adobe Analytics拡張機能を使用するサーバー
 

@@ -4,10 +4,10 @@ description: ヒットのタイムスタンプを手動で設定します。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 ## Web SDK を使用したタイムスタンプ
 
-タイムスタンプ： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `xdm.timestamp`. このフィールドでは、Unix 時間のみがサポートされます。
+タイムスタンプ： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) XDM フィールドの下 `xdm.timestamp`. このフィールドでは、Unix 時間のみがサポートされます。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
@@ -33,7 +33,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ s.timestamp = new Date().toISOString();
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。
 * 曜日と年間通算日はサポートされません。
-* 日付は標準形式と拡張形式のどちらでも指定できます。例えば、`2020-01-01T00:00:00Z` と `20200101T000000Z` は両方とも有効です。
+* 日付は標準形式と拡張形式のどちらでも指定できます。例えば、`2024-01-01T00:00:00Z` と `20240101T000000Z` は両方とも有効です。
 * 分数の小数値と秒数は技術的に有効ですが、小数値はアドビでは無視されます。
 * タイムゾーンは、標準形式と拡張形式でサポートされています。
 
 次に、`timestamp` 変数内の有効な ISO 8601 値の例を示します。
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```
