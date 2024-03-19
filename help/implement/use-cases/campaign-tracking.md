@@ -1,38 +1,38 @@
 ---
 title: キャンペーントラッキングワークフロー
-description: Adobe Analyticsを使用してマーケティング活動を追跡します。
+description: Adobe Analytics を使用して、マーケティング活動を追跡します。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # キャンペーントラッキングワークフロー
 
-組織がマーケティング活動のパフォーマンスとクリックスルー率を追跡する場合は、次のプロセスを使用できます。 これらの各手順には、詳細を説明する専用の節があります。
+組織がマーケティング活動のパフォーマンスとクリックスルー率を追跡する場合は、次のプロセスを使用できます。次の各手順には、以下の専用の節があり、詳細が記載されています。
 
-1. [トラッキングコード生成プロセスの確立](#establish-a-tracking-code-generation-process)
-1. [目的のトラッキングコードを E メールに追加します。](#add-the-desired-tracking-code-to-the-email)
-1. [トラッキングコードデータを含めるようにAdobe Analyticsの実装を設定または調整する](#include-campaign-variables-in-your-implementation)
-1. [Analysis Workspaceでレポートを表示](#view-the-reports-in-analysis-workspace)
+1. [トラッキングコード生成プロセスを確立](#establish-a-tracking-code-generation-process)
+1. [目的のトラッキングコードをメールに追加](#add-the-desired-tracking-code-to-the-email)
+1. [Adobe Analytics 実装を設定または調整し、トラッキングコードデータを含める](#include-campaign-variables-in-your-implementation)
+1. [Analysis Workspace でレポートを表示](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) では、これらの各手順を簡素化して、マーケティング活動の最大限の価値を引き出すことができます。 詳しくは、Adobeのセールス担当者にお問い合わせください。
+[Adobe Campaign](https://business.adobe.com/jp/products/campaign/adobe-campaign.html) は、これらの各手順を簡素化し、マーケティング活動から最大限の価値を引き出すのに役立ちます。詳しくは、アドビ担当営業または販売店にお問い合わせください。
 
-## トラッキングコード生成プロセスの確立
+## トラッキングコード生成プロセスを確立
 
-トラッキングコードには、組織ごとに異なるニーズがあります。 組織によっては、手動で作成したトラッキングコードで十分な量を超えるニーズが最小限に抑えられている場合があります。 その他の組織では、トラッキングの制御を強化し、必要なトラッキングコードを作成するために複数のシステムを用意しておく必要があります。 組織がAdobe Analytics以外のGoogle Analyticsを使用している場合は、既に `utm` トラッキングコードモデルが確立されました。
+組織ごとに、トラッキングコードに対するニーズは異なります。組織によっては、ニーズが最小限のため、手動で作成したトラッキングコードで十分な場合もあります。一方で他の組織では、トラッキングをより詳細に制御したいと考えて、目的のトラッキングコードを作成するために複数のシステムを導入しているところもあります。組織が Adobe Analytics 以外に Google Analytics を使用している場合は、既に `utm` トラッキングコードモデルが確立されている可能性があります。
 
-トラッキングコードの作成方法や生成方法に関係なく、一貫性のあるシステムを採用することで、レポート用にトラッキングコードをまとめてグループ化する際に、時間をかけやすくすることができます。 一貫した構造を持つトラッキングコードを使用すると、 [分類ルール](/help/components/classifications/crb/classification-rule-builder.md) これにより、カテゴリーパフォーマンスに関するインサイトを得ることができます。
+トラッキングコードの作成方法や生成方法に関わらず、一貫したシステムを導入すると、レポート用にトラッキングコードをグループ化する際に、組織が非常に簡単に対応できます。一貫して構造化されたトラッキングコードを使用して[分類ルール](/help/components/classifications/crb/classification-rule-builder.md)を作成し、カテゴリ別のパフォーマンスに関するインサイトを得ることができます。
 
-## 目的のトラッキングコードを URL に追加します。
+## 目的のトラッキングコードを URL に追加
 
-目的のトラッキングコードの値が得られたら、広告、ソーシャルメディア、電子メールなど、オンラインで投稿する任意のリンクにその値を追加できます。 これらのトラッキングコードの追加は、通常、リンクのクエリ文字列でおこなわれます。 使用するクエリー文字列パラメーターは、組織の追跡要件に応じて異なります。一般的なクエリー文字列パラメーターは、 `cid` （キャンペーン ID の略語）。 組織も使用する場合、Google Analyticsには、 `utm_source`, `utm_medium`など。
+目的のトラッキングコード値を取得したら、広告、ソーシャルメディア、メールなど、オンラインで投稿するリンクにその値を追加できます。これらのトラッキングコードの追加は通常、リンクのクエリ文字列で行います。使用するクエリ文字列パラメーターは、組織のトラッキング要件に応じて異なります。一般的なクエリ文字列パラメーターは、`cid`（キャンペーン ID の略）です。Google Analytics も使用している一部の組織では、`utm_source`、`utm_medium` などの複数のキャンペーンクエリ文字列パラメーターを既に使用している場合があります。
 
-E メール内のリンクにクエリー文字列を追加すると、次のようになります。
+メール内のリンクにクエリ文字列を追加すると、次のようになります。
 
 ```text
 https://example.com?cid=EM989027
@@ -40,22 +40,22 @@ https://example.com?cid=EM989027
 
 ## 実装にキャンペーン変数を含める
 
-Adobe Analyticsには専用の [トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションを使用して、組織全体の様々なマーケティング活動を測定できます。 ただし、組織が異なれば、トラッキング要件が異なる場合があります。 組織の [ソリューションデザインドキュメント](../prepare/solution-design.md) を使用して、適切な変数内で適切な値を一貫して追跡する必要があります。
+Adobe Analytics には、組織全体の様々なマーケティング活動を測定するために使用できる専用の[トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンションがあります。ただし、組織が異なれば、トラッキング要件も異なる場合があります。組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)を参照して、適切な変数の適切な値を一貫して追跡することが重要です。
 
-まだキャンペーントラッキングを設定していない場合は、実装を調整して [`campaign`](/help/implement/vars/page-vars/campaign.md) 変数を使用します。 詳しくは、 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) メソッドを使用して、組織の実装に固有のクエリー文字列パラメーター値を収集する方法を学習します。
+組織がまだキャンペーントラッキングを設定していない場合は、実装を調整して [`campaign`](/help/implement/vars/page-vars/campaign.md) 変数を設定できます。 組織の実装に固有のクエリ文字列パラメーター値を収集する方法については、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) メソッドを参照してください。
 
-組織が `utm` クエリ文字列では、次のいずれかを選択できます。
+組織が `utm` クエリ文字列を収集している場合は、次のいずれかを選択できます。
 
-* すべて送信 `utm` クエリ文字列を連結された値としてトラッキングコードディメンションに取り込みます。 その後、 [分類ルール](/help/components/classifications/crb/classification-rule-builder.md) それぞれに焦点を当てた追加のディメンションを作成するには `utm` パラメーター。 この方法では、より複雑な学習曲線を作成できますが、追加の eVar は使用されません。
-* それぞれを送信 `utm` クエリ文字列を別の [eVar](/help/components/dimensions/evar.md). この方法は、全体的に実装するのにより簡単ですが、追加の eVar を使用する必要があります。
+* すべての `utm` クエリ文字列を連結値としてトラッキングコードディメンションに送信します。その後、[分類ルール](/help/components/classifications/crb/classification-rule-builder.md)を使用して、各 `utm` パラメーターに焦点を当てた追加のディメンションを作成できます。このメソッドの学習曲線はより複雑ですが、追加の eVar は使用されません。
+* 各 `utm` クエリ文字列を個別の [eVar](/help/components/dimensions/evar.md) に送信します。このメソッドは全体的に実装がより簡単ですが、追加の eVar の使用が必要です。
 
-## Analysis Workspaceでレポートを表示
+## Analysis Workspace でレポートを表示
 
-トラッキングコードデータを収集するように実装を適切に設定したら、Analysis Workspaceでレポートを表示できます。
+トラッキングコードデータを収集するよう実装を適切に設定したら、Analysis Workspace でレポートを表示できます。
 
-1. にログインします。 [Adobe Experience Cloud](https://experience.adobe.com) を選択し、 [!UICONTROL Adobe Analytics].
-1. の作成 [Workspace プロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
-1. 左側のコンポーネントのリストで、 [トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションをワークスペースキャンバスに追加します。
-1. 目的の指標（例： ）をドラッグします。 [訪問回数](/help/components/metrics/visits.md) または [購入回数](/help/components/metrics/orders.md) をワークスペースキャンバスの右側に表示します。
+1. [Adobe Experience Cloud](https://experience.adobe.com) にログインし、[!UICONTROL Adobe Analytics] を選択します。
+1. [ワークスペースプロジェクト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)を作成します。
+1. 左側のコンポーネントのリストで、[トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンションをワークスペースキャンバスにドラッグします。
+1. [訪問回数](/help/components/metrics/visits.md)や[注文件数](/help/components/metrics/orders.md)などの目的の指標をワークスペースキャンバスの右側にドラッグします。
 
-![キャンペーントラッキングレポート](../assets/campaign-tracking-report.png)
+![キャンペーンのトラッキングレポート](../assets/campaign-tracking-report.png)

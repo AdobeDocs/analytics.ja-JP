@@ -1,23 +1,23 @@
 ---
-description: Data Warehouse は、データをフィルタリングして、保存用およびカスタムレポート用の Analytics データのコピーを参照できます。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。Data Warehouse レポートは、電子メールで送信したり、クラウドストレージプロバイダーに送信したりできます。処理には最大 72 時間かかる場合があります。 処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
+description: Data Warehouse は、データをフィルタリングして、保存用およびカスタムレポート用の Analytics データのコピーを参照できます。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。データウェアハウスレポートはメールで送信されるか、クラウドストレージプロバイダーに送信されます。処理には最大 72 時間かかる場合があります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
 title: Data Warehouse の概要
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
-workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 58%
+workflow-type: ht
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
 # Data Warehouse の概要
 
-Data Warehouseを使用すると、Adobe Analyticsデータをコピーして保存したり、カスタムレポートを作成したりできます。これは、データをフィルタリングすることで実行できます。
+データウェアハウスでは、Adobe Analytics データをコピーして保存したり、データをフィルタリングして実行できるカスタムレポートを作成したりできます。
 
 ## レポートの概要
 
-Data Warehouseレポートでは、ユニークな質問に基づいて生のデータから詳細なデータの関係を表示できます。 1 つのリクエストに含める行数に制限はありません（個々のレポート、予定レポート、ダウンロードされたレポート）。
+データウェアハウスレポートでは、独自の質問に基づいて、生データからの詳細なデータ関係を表示できます。1 つのリクエストに含めることができる行数に制限はありません（個別レポート、スケジュール済みレポート、ダウンロード済みレポートの場合)。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Data Warehouseレポートでは、ユニークな質問に基づいて生のデ
 
 ## 配信の概要
 
-Data Warehouseレポートは、電子メールで送信したり、クラウドストレージプロバイダーに送信したりできます。処理には最大 72 時間かかる場合があります。 処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
+データウェアハウスレポートはメールで送信されるか、クラウドストレージプロバイダーに送信されます。処理には最大 72 時間かかる場合があります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
 
 Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイルに圧縮します。電子メールの添付ファイルサイズは最大 10 MB です。
 
@@ -37,16 +37,16 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 アドビでは、特定のレポートスイートの管理者レベルのユーザーに対してのみ Data Warehouse を有効にします。（Data Warehouse は、グローバルレポートスイートおよび子レポートスイートに対して有効にすることができます。ただし、ロールアップレポートスイートに対しては有効にすることができません）。管理者は Data Warehouse にアクセスできるグループを作成し、非管理者レベルのユーザーをそのグループに関連付けることができます。
 
-詳しくは、 [Data Warehouse権限の管理](/help/export/data-warehouse/t-dw-group.md).
+詳しくは、[データウェアハウス権限の管理](/help/export/data-warehouse/t-dw-group.md)を参照してください。
 
-## Data Warehouse リクエストの作成
+## データウェアハウスリクエストの作成
 
-リクエストの作成方法について詳しくは、「Data Warehouseリクエストの作成方法」を参照してください。 [Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+データウェアハウスリクエストの作成方法について詳しくは、[データウェアハウスリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-## Data Warehouse リクエストの管理
+## データウェアハウスリクエストの管理
 
-Data Warehouseリクエストの管理方法について詳しくは、 [Data Warehouseリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md).
+データウェアハウスリクエストの管理方法について詳しくは、[データウェアハウスリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md)を参照してください。
 
-## FAQ
+## よくある質問（FAQ）
 
-よくある質問のリストについては、 [Data Warehouseの FAQ](/help/export/data-warehouse/faq.md).
+よくある質問のリストについて詳しくは、[データウェアハウスに関するよくある質問（FAQ）](/help/export/data-warehouse/faq.md)を参照してください。

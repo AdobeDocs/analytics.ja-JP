@@ -4,21 +4,21 @@ description: レポートで使用できるカスタムディメンションで�
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
 # eVar
 
-*このヘルプページでは、eVar が [ディメンション](overview.md). eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
+*このヘルプページでは、eVar が[ディメンション](overview.md)としてどのように機能するかについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。 次の場合、 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)の場合、組織に固有のほとんどのディメンションは、 [!UICONTROL eVar]に追加され、Adobe Analyticsで使用できるデフォルトのディメンション（「ページ名」、「参照ドメイン」、「チャネル」など）が含まれます。 詳しくは、 [Dimensionの概要](overview.md) を参照してください。
+eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)がある場合、「ページ名」、「参照ドメイン」、「チャネル」など、Adobe Analytics で使用できるデフォルトのディメンションに加えて、組織に固有のほとんどのディメンションが [!UICONTROL eVar] になります。詳しくは、[ディメンションの概要](overview.md)を参照してください。
 
-デフォルトでは、eVar は設定されたヒットを超えても保持されます。[レポートスイート設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)の「[!UICONTROL コンバージョン変数]」で、その有効期限と配分をカスタマイズできます。コンバージョン変数 UI のeVar定義の例については、以下を参照してください。
+デフォルトでは、eVar は設定されたヒットを超えても保持されます。[!UICONTROL レポートスイート設定]の[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)で、その有効期限と配分をカスタマイズできます。コンバージョン変数 UI での eVar 定義の例について詳しくは、以下を参照してください。
 
-![Evar の例](assets/evars-sample.png)
+![eVar の例](assets/evars-sample.png)
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
@@ -32,7 +32,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-eVar は実装内にカスタム文字列を含むので、各 eVar のディメンション項目は組織によって決定されます。各eVarの目的と一般的なディメンション項目を必ず [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md).
+eVar は実装内にカスタム文字列を含むので、各 eVar のディメンション項目は組織によって決定されます。各 eVar の目的と一般的なディメンション項目を必ず[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録してください。
 
 ## eVar のしくみ
 

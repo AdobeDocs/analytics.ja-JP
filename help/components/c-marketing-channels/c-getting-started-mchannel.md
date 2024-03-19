@@ -4,7 +4,7 @@ description: マーケティングチャネルのワークフロー、自動セ�
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
 ht-degree: 100%
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Attribution と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂版のベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>アトリビューションと Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 >
->Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で説明しているように、組織のマーケティングチャネルを管理できます。
+>Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
 
 マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネルの処理ルールをカスタマイズできます。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * すべてのソーシャルネットワーキングサイトの集計を行うか。または、個別に追跡したいソーシャルネットワーキングサイトがあるか。
 * コンバージョンに影響を与えている可能性があり、追跡したい他のチャネルがあるか。
 
-チャネルの推奨事項のリストについては、[よくある質問と例](/help/components/c-marketing-channels/c-faq.md)を参照してください。使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
+推奨チャネルのリストについては、[よくある質問と例](/help/components/c-marketing-channels/c-faq.md)を参照してください。使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
 
 ![](assets/step2_icon.png)[!UICONTROL マーケティングチャネルマネージャー]でマーケティングチャネルを追加します。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 [!UICONTROL マーケティングチャネルマネージャー]ページでチャネルを作成したら、ルールを設定して、チャネルからデータを取得しレポートできるようにします。
 
-詳しくは、[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)を参照してください。
+[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)を参照してください。
 
 チャネルが自動セットアップで作成された場合は、これらのチャネルのルールが定義されています。ニーズに合わせてこれらのルールを変更します。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ルールセットを適用する前に、テンプレートからチャネルを適用してください。この手順を実行する際、チャネルは全レポートスイート間で同一である必要があります。
+>ルールセットを適用する前に、テンプレートからチャネルを適用してください。この手順を実行する際、チャネルは全レポートスイート間で同一にする必要があります。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. **[!UICONTROL Report Suite Manager]** ページで、テンプレートレポートスイートと、1 つ以上の対象レポートスイートを選択します。

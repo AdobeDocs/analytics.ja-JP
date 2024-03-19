@@ -4,15 +4,15 @@ description: 変数が設定または持続されたヒットの数。
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # 発生件数
 
-「発生件数」 [指標](overview.md) 特定のディメンションが設定または持続されたヒット数を示します。 Workspace でディメンションを空白のキャンバスにドラッグすると、Adobe はこの指標を自動的にプロジェクトに適用します。
+「発生件数」[指標](overview.md)は、特定のディメンションが設定または持続されたヒット数を示します。Workspace でディメンションを空白のキャンバスにドラッグすると、Adobe はこの指標を自動的にプロジェクトに適用します。
 
 ## この指標の計算方法
 
@@ -21,4 +21,4 @@ ht-degree: 64%
 ## 類似の指標と比較
 
 * **発生件数と[インスタンス](instances.md)**：発生件数は、ディメンション項目が設定または持続されたヒットをカウントします。ディメンション項目が持続するヒットは、インスタンスに含まれません。
-* **発生件数と [ページビュー数](page-views.md)**：発生件数には、ページビュートラッキングコール ([`t()`](/help/implement/vars/functions/t-method.md))、リンクトラッキングコール ([`tl()`](/help/implement/vars/functions/tl-method.md))、および概要からのデータ [データソース](/help/import/data-sources/overview.md). ページビュー数指標には、リンクトラッキングコールおよび概要データソースを除く、ページビュートラッキングコールのみが含まれます。
+* **発生件数と[ページビュー](page-views.md)**：発生件数には、ページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）およびリンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）、概要[データソース](/help/import/data-sources/overview.md)からのデータを含む、すべてのヒットタイプが含まれます。ページビュー数指標には、リンクトラッキングコールおよび概要データソースを除く、ページビュートラッキングコールのみが含まれます。

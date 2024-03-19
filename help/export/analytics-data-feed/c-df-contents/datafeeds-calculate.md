@@ -5,8 +5,8 @@ title: 計算指標
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: tm+mt
-source-wordcount: '457'
+workflow-type: ht
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -39,12 +39,12 @@ ht-degree: 100%
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。
 
-## カスタムリンク、ダウンロードリンクまたは出口リンク
+## カスタムリンク、ダウンロードリンクまたは離脱リンク
 
 1. 次の行数をカウントします。
    * `post_page_event = 100`（カスタムリンクの場合）
    * `post_page_event = 101`（ダウンロードリンクの場合）
-   * `post_page_event = 102`（出口リンクの場合）
+   * `post_page_event = 102`（離脱リンクの場合）
 
 ## カスタムイベント
 

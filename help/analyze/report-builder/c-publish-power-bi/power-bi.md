@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
-workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 79%
+workflow-type: ht
+source-wordcount: '1175'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 79%
 
 Microsoft Power BI は、データを分析してインサイトを共有するビジネス分析ダッシュボードのスイートです。Adobe Analytics と Power BI を統合すると、Microsoft Power BI 内で Report Builder Analytics データを視覚化し、組織全体で簡単に共有できます。
 
-アナリストとして、これまでは、電子メールまたは ftp を使用してReport Builderワークブックの配信をスケジュールしていました。 これで、ビジネス関係者に、Power BIアカウント内から、プラットフォームやデバイスをまたいでアクセス可能な Web ベースの環境で、正確で最新のデータにアクセスできるようになります。
+これまで、アナリストは、メールまたは ftp を使用して Report Builder ワークブックの配信をスケジュールしていました。それが、関係するビジネスユーザーが、様々なプラットフォームやデバイスからアクセス可能な web ベース環境で、正確かつ最新のデータに、Power BI アカウント内からアクセスできるようになりました。
 
-Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。また、Power BIを使用して、Adobe Analyticsを他のデータソース（POS や CRM ソースなど）と統合し、個別の顧客インサイト、関連事項、機会を見つけることもできます。
+Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。また、Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連性および機会を発見することもできます。
 
-![MicrosoftPower BIアイコンとAdobe Analyticsアイコンの図です。](assets/aaplusbi.png)
+![Microsoft Power BI アイコンと Adobe Analytics アイコンの図](assets/aaplusbi.png)
 
 ## 必要システム構成 {#section_0B71092D853446F38FA36447DAC0D32B}
 
@@ -28,7 +28,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 ## ワークブックを Power BI に発行する {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-スケジュールされたワークブックは、Adobe Analyticsのデータが取り込まれた、フォーマット済みの Excel スプレッドシートで、定期的にスケジュールされた状態で配布されます。
+スケジュールされたワークブックは、Adobe Analytics のデータが取り込まれた、フォーマット済みの Excel スプレッドシートです。定期的なスケジュールで配信されます。
 
 **Report Builder でのワークブックの発行**
 
@@ -37,7 +37,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 1. 基本のスケジュールウィザードで、「**[!UICONTROL ワークブックを Microsoft Power BI に発行]**」の横にあるチェックボックスをオンにします。
 
-   ![「Report BuilderをMicrosoftに発行」Power BIオプションを確認するオプションが表示されたワークブックスケジュールウィザードのスクリーンショット。](assets/simple-schedule-wizard.png)
+   ![「ワークブックを Microsoft Power BI にパブリッシュ」オプションをオンにするオプションが表示されている Report Builder のスケジュールウィザードのスクリーンショット](assets/simple-schedule-wizard.png)
 
 1. 電子メールを指定してすぐに送信するか、スケジュールの頻度（毎時、毎日など）を指定します。
 1. 「**[!UICONTROL OK]**」をクリックして発行します。
@@ -50,11 +50,11 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 1. Power BI で、[!UICONTROL ワークブック]メニューの下に表示されるワークブックをダブルクリックします。
 
-   ![ワークブックビューのPower BIのスクリーンショット。](assets/workbooks-power-bi.png)
+   ![Power BI ワークブックビューのスクリーンショット](assets/workbooks-power-bi.png)
 
-1. これで、ワークブックのダッシュボードデータを表示できるようになります。        ![ワークブックのダッシュボードデータ。](assets/view-data-pbi.png)
+1. これで、ワークブックのダッシュボードデータを表示できるようになります。![ワークブックのダッシュボードデータ](assets/view-data-pbi.png)
 
-1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加することができます。
+1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加できます。
 
 ## ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
@@ -76,7 +76,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 1. 基本のスケジュールウィザードで、**[!UICONTROL アドバンススケジュールオプション]**&#x200B;をクリックします。
 1. [!UICONTROL スケジュールウィザード - アドバンス]の「**[!UICONTROL 発行オプション]**」タブで「**[!UICONTROL すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行]**」の横にあるチェックボックスをオンにします。
 
-   ![スケジュールウィザード — アドバンス公開オプションを示すスクリーンショットに、「すべてのフォーマット済みテーブルをPower BIセットテーブルとして公開」が表示されます。](assets/advanced-schedule-wizard2.png)
+   ![スケジュールウィザードのスクリーンショット - すべての書式設定されたテーブルを Power BI データセットテーブルとして公開する詳細公開オプション。](assets/advanced-schedule-wizard2.png)
 
 1. （オプション）発行されたアセットの名前を Power BI でカスタマイズできます。これは、ワークブック名の一部としてバージョン番号を使用しており（myworkbook_v1.1.xlsx など）、発行された Power BI アセットの名前にバージョン番号を表示したくない場合に便利です。バージョン番号が変更されても、発行されたアセットは変更されないという利点もあります（こちらの[仕様](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)を参照してください）。
 
@@ -84,19 +84,19 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 1. Power BI で、**[!UICONTROL Workspace]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
-   ![レポートの作成をハイライトしたPower BIセットメニューを示すスクリーンショット。](assets/datasets-menu.png)
+   ![レポートの作成をハイライトした Power BI セットメニューを示すスクリーンショット。](assets/datasets-menu.png)
 
 1. 発行したデータセットを選択し、その横にある[!UICONTROL レポートの作成]アイコンをクリックします。テーブルはフィールドとして表示されることに注意してください。
 
-   ![テーブルをフィールドとしてリストした、選択した公開済みデータセットを示すスクリーンショット。](assets/formatted-tables.png)
+   ![テーブルをフィールドとしてリストする選択した公開済みデータセットを示すスクリーンショット。](assets/formatted-tables.png)
 
 1. テーブルとその関連列を選択します。
 
-   ![関連する列を含む選択したテーブルを示すスクリーンショット](assets/view-table-dataset.png)
+   ![関連する列を含む選択したテーブルを示すスクリーンショット。](assets/view-table-dataset.png)
 
 1. [!UICONTROL 視覚化]メニューから、Power BI でテーブルを視覚化する方法を選択できます。例えば、データを折れ線グラフとして表示することができます。
 
-   ![ビジュアライゼーションメニューとデータ線グラフを示すスクリーンショット](assets/bi-line-graph.png)
+   ![ビジュアライゼーションメニューとデータ線グラフを示すスクリーンショット。](assets/bi-line-graph.png)
 
 1. ここから、このデータセットテーブルのビジュアライゼーションを作成できます。
 
@@ -112,7 +112,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 1. Report Builder ツールバーで、**[!UICONTROL スケジュール]**／**[!UICONTROL 新規作成]**&#x200B;をクリックします。
 
 1. 基本のスケジュールウィザードで、**[!UICONTROL アドバンススケジュールオプション]**&#x200B;をクリックします。
-1. [!UICONTROL スケジュールウィザード - アドバンス]の「**[!UICONTROL 発行オプション]**」タブで「**[!UICONTROL すべての Report Builder リクエストを Power BI データセットテーブルとして発行]**」の横にあるチェックボックスをオンにします。![「すべてのReport BuilderリクエストをPower BIセットテーブルとして公開」オプションをハイライトしたスケジュールウィザードを示すスクリーンショット。](assets/advanced-schedule-wizard2.png)
+1. [!UICONTROL スケジュールウィザード - 詳細]の「**[!UICONTROL 発行オプション]**」タブで、「**[!UICONTROL すべての Report Builder リクエストを Power BI データセットテーブルとして発行]**」の横のボックスをオンにします。「![すべての Report Builder リクエストを Power BI データセットテーブルとして発行」オプションをハイライト表示するスケジュールウィザードを示すスクリーンショット。](assets/advanced-schedule-wizard2.png)
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 

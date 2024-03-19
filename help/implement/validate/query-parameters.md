@@ -5,7 +5,7 @@ feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
 ht-degree: 100%
 

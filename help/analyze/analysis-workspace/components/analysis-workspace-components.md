@@ -5,8 +5,8 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
-workflow-type: tm+mt
-source-wordcount: '1190'
+workflow-type: ht
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Analysis Workspace の左側のパネルにあるコンポーネントリスト�
    | [!UICONTROL **お気に入り**] | お気に入りのリストにあるコンポーネントのみを表示します。お気に入りのリストにコンポーネントを追加する方法については、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。 |
    | [!UICONTROL **ディメンション**] | ディメンションであるコンポーネントのみを表示します。 |
    | [!UICONTROL **指標**] | 指標であるコンポーネントのみを表示します。 |
-   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します<!--this is Filters in Customer Journey Analytics--> |
+   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します。<!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **日付範囲**] | 日付範囲であるコンポーネントのみを表示します。 |
    | [!UICONTROL **すべてを表示**] | すべてのコンポーネントの表示。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **未承認**] | 管理者が承認済みとしてまだマークしていないコンポーネントのみを表示します。レビューと承認が必要なコンポーネントを管理者が識別する際に役立ちます。このオプションは、管理者のみが使用できます。 |

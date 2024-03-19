@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 91%
 1. サイトの訪問者が、いずれかの商品ページへの有料検索リンクをクリックします。商品を買い物かごに追加しますが、購入はしません。
 2. 次の日に、訪問者は友達の 1 人からのソーシャルメディアの投稿を見てリンクをクリックし、購入を完了します。
 
-一部のレポートでは、注文を有料検索に関連付けることが望まれるかもしれません。他のレポートでは、注文を「ソーシャル」に関連付けることが望まれるかもしれません。アトリビューションを使用すると、このレポートの側面を制御できます。Adobe Analytics Ultimate、Prime、Select、Foundation ですべての組織で利用できます。Adobeとの契約の種類が不明な場合は、組織のAdobeアカウントチームにお問い合わせください。
+一部のレポートでは、注文を有料検索に関連付けることが望まれるかもしれません。他のレポートでは、注文を「ソーシャル」に関連付けることが望まれるかもしれません。アトリビューションを使用すると、このレポートの側面を制御できます。Adobe Analytics Ultimate、Prime、Select、Foundation ですべての組織で利用できます。アドビとの契約のタイプが不明な場合は、組織のアドビのアカウントチームにお問い合わせください。
 
-## 属性の値
+## アトリビューションの価値
 
 特定のカスタマージャーニーは、線形ではなく、予測不可能な場合も多くあります。各顧客は、それぞれのペースで進みます。多くの場合、ダブルバック、停止、再起動、または他の非線形動作に関与します。このような生物的なアクションにより、カスタマージャーニー全体を通したマーケティング活動の影響を把握することが難しくなっています。また、複数のチャネルのデータを結び付ける作業の妨げにもなります。
 
-![属性の問題](assets/attribution_iq_problem.png)
+![アトリビューションに関する問題](assets/attribution_iq_problem.png)
 
 Adobe Analytics を使用すると、以下が可能になるので、アトリビューションを強化できます。
 
@@ -39,7 +39,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 ## 機能
 
-Attribution は、次の機能で構成されます。
+アトリビューションは、次の機能で構成されます。
 
 * [アトリビューションパネル](../c-panels/attribution.md)：任意のディメンションと指標を使用して、様々なアトリビューションモデルとすばやく比較できます。
 * [指標へのアトリビューションの適用](../visualizations/freeform-table/column-row-settings/column-settings.md)：プロジェクト内の任意の指標にデフォルト以外のアトリビューションを使用します。
@@ -48,22 +48,22 @@ Attribution は、次の機能で構成されます。
 
 ## ビデオ
 
-フリーフォームテーブルでの Attribution ：
+フリーフォームテーブルでのアトリビューション：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-計算指標での Attribution 
+計算指標でのアトリビューション
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-アトリビューションパネルの使用:
+アトリビューションパネルの使用
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Attribution モデルの並列比較の追加：
+アトリビューションモデルの並列比較の追加：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Attribution をサポートしない Adobe Analytics ツール
+## アトリビューションをサポートしない Adobe Analytics ツール
 
-Analytics 2.0 API をサポートしないツール (Report Builderなど ) は、Attribution をサポートしません。
+Analytics 2.0 API をサポートしないすべてのツール（Report Builder など）は、アトリビューションをサポートしません。

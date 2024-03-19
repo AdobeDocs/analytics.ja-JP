@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
-source-wordcount: '317'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
 # ディメンション間のフロー
 
-ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。以下は、Analysis Workspace でのテキストの折り返しと多次元フローに関するビデオです。
+ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを調べることができます。以下は、Analysis Workspace でのテキストの折り返しと多次元フローに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 * ドロップゾーンのどちらかの端（表示される黒い縁の長方形のゾーンの内側）にドラッグして、その端の上位の結果を&#x200B;**置き換えます**。
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * その端の白いスペース（黒い括弧で示される）にドラッグして、ビジュアライゼーションに&#x200B;**追加**&#x200B;します。
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 右の列の ItemScaled 項目をページディメンションで置き換える場合の結果を次に示します。上位の結果は、ページディメンションの上位の結果に変更されています。
 

@@ -4,9 +4,9 @@ description: アトリビューションモデルの決定に関するベスト�
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
 
