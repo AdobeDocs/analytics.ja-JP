@@ -1,17 +1,17 @@
 ---
-title: 広告の同意
+title: 広告プラットフォームの同意
 description: サードパーティの広告プロバイダーの広告の同意に関する設定を参照してください。
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
-# 広告の同意
+# 広告プラットフォームの同意
 
-「広告の同意」 [ディメンション](overview.md) は、Google、Meta などのサードパーティの広告プロバイダーにデータを送信するために同意を収集するかどうかを表示します。
+「広告プラットフォームの同意」 [ディメンション](overview.md) は、Google、Meta などのサードパーティの広告プロバイダーにデータを送信するために同意を収集するかどうかを表示します。
 
 現在、このディメンションはGoogleに対してのみ使用されています。 Googleでは、プライバシーに関する規制 (DMA) がヨーロッパで定められているので、では自社のサーバーに送信され、ヨーロッパで収集されたデータに同意が収集されたかどうかを示す必要があります。 Analytics の一部のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertising経由でGoogleに送信します。
 
@@ -52,7 +52,6 @@ contextData.['adConsent'] = "YN..."
 
 * データフィード：広告の同意データは、 `dataprivacydmaconsent` [列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouseレポート：広告の同意データは、 **[!UICONTROL 広告プラットフォームの同意]** ディメンション。
-
 
 組織は、このコンテキストデータ変数を実装するロジックを決定します。 この値は、設定されたヒットの後は保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
 
