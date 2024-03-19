@@ -72,7 +72,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -84,7 +84,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -100,7 +100,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -114,7 +114,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++メール
 
@@ -146,7 +146,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -159,7 +159,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -172,7 +172,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -186,7 +186,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. 「[!UICONTROL **保存**]」を選択します。
 
