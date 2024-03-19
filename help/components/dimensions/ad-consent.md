@@ -2,9 +2,9 @@
 title: 広告の同意
 description: サードパーティの広告プロバイダーの広告の同意に関する設定を参照してください。
 feature: Dimensions
-source-git-commit: 31f61c64fef707e2d2499b853a9b54caf847634b
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 1%
 現在、このディメンションはGoogleに対してのみ使用されています。 Googleでは、プライバシーに関する規制 (DMA) がヨーロッパで定められているので、では自社のサーバーに送信され、ヨーロッパで収集されたデータに同意が収集されたかどうかを示す必要があります。 Analytics の一部のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertising経由でGoogleに送信します。
 
 今後、このディメンションは、他のサードパーティの広告プロバイダーに対する追加の同意情報のエンコードをサポートするために使用できます。
-
 
 ## このディメンションへのデータ入力
 
@@ -52,9 +51,11 @@ contextData.['adConsent'] = "YN..."
 収集された広告同意データは以下の場合に使用できます。
 
 * データフィード：広告の同意データは、 `dataprivacydmaconsent` [列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Data Warehouse レポート：広告の同意データは、 **[!UICONTROL 広告プラットフォームの同意]** ディメンション。
+* Data Warehouseレポート：広告の同意データは、 **[!UICONTROL 広告プラットフォームの同意]** ディメンション。
 
 
 組織は、このコンテキストデータ変数を実装するロジックを決定します。 この値は、設定されたヒットの後は保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
 
 Adobe Advertising経由でAdobe Analyticsから広告データをコンバージョンイベントとしてGoogleに送信する場合、統合に関してAdobe Advertisingチームに問い合わせてください。
+
+詳しくは、 [プライバシーレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

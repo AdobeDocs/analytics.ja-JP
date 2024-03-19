@@ -3,10 +3,10 @@ description: 同意管理ディメンションを有効にします。
 title: プライバシーレポート
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ ht-degree: 55%
 1. 有効にすると、確認メッセージが表示されます。ディメンションは、レポートで使用できます。
 
    ![レポート](assets/consent-management.png)
+
+## 広告同意ディメンション
+
+The [広告同意ディメンション](/help/components/dimensions/ad-consent.md) は、Google、Meta などのサードパーティの広告プロバイダーにデータを送信するために同意を収集するかどうかを表示します。
