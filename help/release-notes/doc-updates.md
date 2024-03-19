@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 94%
 | **2024年3月** | |
 | AppMeasurementの更新 | [リリースノート](/help/implement/appmeasurement-updates.md) AppMeasurementアップデート v2.26.0の<br/>の参照と更新を含む [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数のドキュメントです。 |
 | 「Used in」列の使用状況情報は、2023 年 9 月から提供されます。 | に関する使用状況情報を明確にしました。 **使用場所** 列 [プロジェクトランディングページ](/help/analyze/landing.md) は 2023 年 9 月までしか遡りません。 |
-| **2024 年 2 月** | |
+| **2024年2月** | |
 | Data Warehouseリクエストの管理に関する情報の更新 | ユーザーはデフォルトで、次の場合に作成したリクエストのみを表示できることを明確にしました。 [Data Warehouseリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| プロジェクト共有ドキュメントの更新 | 次の方法に関する情報を追加しました。 [共有プロジェクトを表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>また、 [個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| Data Warehouseおよびデータフィードで、Azure SAS および Azure RBAC にファイルをアップロードするための権限要件を追加しました。 | Azure SAS および Azure RBAC にファイルをアップロードするための正確な権限要件を追加しました ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
-| Data Warehouseおよびデータフィードで、ファイルをAmazon S3 および GCP バケットにアップロードするための権限要件を追加しました。 | ファイルをAmazon S3 およびGoogle Cloud Platform バケットにアップロードするための正確な権限要件 ( [Data Warehouseの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [データフィードの宛先を設定する際に使用します。](/help/export/analytics-data-feed/create-feed.md). |
+| プロジェクト共有ドキュメントの更新 | [共有プロジェクトの表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)方法についての情報を追加しました。<p>また、[個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)に関する情報も整理しました。</p> |
+| データウェアハウスとデータフィードで、Azure SAS と Azure RBAC にファイルをアップロードする権限要件を追加しました。 | Azure SAS と Azure RBAC にファイルをアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定をする](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
+| データウェアハウスとデータフィードで、ファイルを Amazon S3 と GCP バケットにアップロードする権限要件を追加しました。 | ファイルを Amazon S3 バケットと Google Cloud Platform バケットにアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定する](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | **2024年1月** | |
 | コンポーネントの移行を個々の IMS 組織に適用 | [コンポーネントの移行](/help/admin/admin/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
 | 特定の情報は管理者のみが利用できることを明確化 | [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)および[セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で説明している「前回の使用」列と「使用場所」列は、システム管理者のみが使用できることを示す情報を追加しました。 |

@@ -8,53 +8,53 @@ mini-toc-levels: 3
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 22%
+ht-degree: 99%
 
 ---
 
 
-# 「アクティブ化して有効化」Activity Map
+# Activity Map のアクティベートと有効化
 
 Activity Map のリンクコレクションおよびユーザーダウンロードを有効にするために Analytics 管理者がおこなう必要がある手順について説明します。
 
-## 手順 1.有効化Activity Map {#update_code}
+## 手順 1.Activity Map のアクティベート {#update_code}
 
-Activity Mapモジュールは、AppMeasurement.js、Adobe Experience Platformタグおよび Web SDK(alloy.js) の一部です。 Activity Mapデータは、 **Web SDK バージョン2.15.0** 以上、または **Adobe Analytics tags 拡張機能 v1.90** 以上、または **AppMeasurementバージョン 1.6** 以上
+Activity Map モジュールは、AppMeasurement.js、Adobe Experience Platform タグおよび Web SDK（alloy.js）の一部です。**Web SDK バージョ ン2.15.0** 以降、または **Adobe Analytics タグ拡張機能 v1.90** 以降、または **AppMeasurement バージョン 1.6** 以降に更新しない限り、Activity Map データを収集できません。
 
-+++Web SDK(Adobe Experience Platform Tags Extension)
++++Web SDK（Adobe Experience Platform タグ拡張機能）
 
-1. Adobe Experience Platformタグで、Analytics を実装するプロパティに移動します。 の下 [!UICONTROL 拡張機能] -> [!UICONTROL Adobe Experience Platform Web SDK]を選択します。 **[!UICONTROL クリックデータの収集を有効にする]** 以下に示すように。
-1. 変更を加えてライブラリを構築します。
+1. Adobe Experience Platform タグで、Analytics を実装するプロパティに移動します。[!UICONTROL 拡張機能]／[!UICONTROL Adobe Experience Platform Web SDK] で、以下でハイライト表示されているように、「**[!UICONTROL クリックデータ収集を有効にする]**」を選択します。
+1. 変更を加えてライブラリをビルドします。
 1. ライブラリを実稼動環境に公開します。
 
 ![](assets/web_sdk.png)
 
 **検証**
 
-開発者コンソールの「ネットワーク」タブを使用して呼び出しを操作します。
+Developer Console の「ネットワーク」タブを使用た操作呼び出し：
 
 1. サイトに開発用 Launch スクリプトを読み込みます。
 1. 要素のクリック時に、「ネットワーク」タブで「/ee」を検索します。
 
    ![](assets/validation1.png)
 
-ADOBE EXPERIENCE PLATFORM DEBUGGER:
+Adobe Experience Platform Debugger：
 
-1. をダウンロードしてインストールする [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
-1. に移動します。 [!UICONTROL ログ] > [!UICONTROL Edge] > [!UICONTROL Edge に接続].
+1. [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) をダウンロードしてインストールします。
+1. [!UICONTROL ログ]／[!UICONTROL Edge]／[!UICONTROL Edge に接続]に移動します。
 
    ![](assets/validation2.jpg)
 
 **よくある質問（FAQ）**
 
-* **「ネットワーク」タブでは、インタラクション呼び出しが実行されません。**
+* **「ネットワーク」タブでは、操作呼び出しが起動しません。**
 収集呼び出しでのクリックデータ収集は、「/ee」または「collect?」でフィルタリングする必要があります。
 
-* **コレクト呼び出しのペイロード表示がありません。**
-収集呼び出しは、トラッキングが他のサイトへのナビゲーションに影響を与えないように設計されているので、ドキュメントのアンロード機能は収集呼び出しに適用できます。 これはデータ収集には影響しませんが、ページで検証する必要がある場合は、それぞれの要素に target = &quot;_blank&quot;を追加します。 リンクが新しいタブで開きます。
+* **収集呼び出しのペイロード表示がありません。**
+収集呼び出しは、トラッキングが他のサイトへのナビゲーションに影響しないように設計されているので、ドキュメントのアンロード機能は収集呼び出しに適用できます。これはデータ収集には影響しませんが、ページで検証する必要がある場合は、それぞれの要素に「target = &quot;_blank」を追加します。その後、リンクが新しいタブで開きます。
 
-* **PII のコレクションを無視する方法を教えてください。**
-&lt;&lt; on before link click callback>> にそれぞれの条件を追加し、false を返してこれらの値を無視します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)
+* **PII の収集を無視するにはどうすればよいですか？**
+&lt;&lt; on before link click send callback>> にそれぞれの条件を追加し、false を返してこれらの値を無視します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)
 
   サンプルコード：
 
@@ -62,19 +62,19 @@ ADOBE EXPERIENCE PLATFORM DEBUGGER:
 
 +++
 
-+++手動での Web SDK の実装
++++手動による Web SDK の実装
 
-詳しくは、 [リンクを追跡](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja) リンクトラッキングの実装方法と、 `region` クリックされたHTML要素の
+リンクトラッキングの実装方法と、クリックされた HTML 要素の `region` をキャプチャして Activity Map を有効にする方法について詳しくは、[リンクの追跡](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->現在、顧客がページ間を移動すると、Web SDK でのリンクトラッキングを有効にすると、リンクイベントが送信されます。 これは、AppMeasurementの仕組みとは異なり、潜在的に請求可能なヒットがAdobeに送信される可能性があります。
+>現在、Web SDK でリンクトラッキングを有効にすると、顧客がページ間を移動した際にリンクイベントが送信されます。AppMeasurement の動作方法とは異なり、このイベントはアドビに送信される追加の課金対象ヒットとされる可能性があります。
 
 +++
 
-+++Analytics 拡張機能 (Adobe Experience Platformタグ )
++++Analytics 拡張機能（Adobe Experience Platform タグ）
 
-Adobe Experience Platformタグで、Analytics を実装するプロパティに移動します。 Adobe Analytics の [!UICONTROL 拡張機能のインストール] ダイアログ、選択 **[!UICONTROL 使用Activity Map]**.
+Adobe Experience Platform タグで、Analytics を実装するプロパティに移動します。[!UICONTROL 拡張機能のインストール]ダイアログで、「**[!UICONTROL Activity Map を使用]**」を選択します。
 
 ![](assets/aa_extension.png)
 
@@ -82,15 +82,15 @@ Adobe Experience Platformタグで、Analytics を実装するプロパティに
 
 +++AppMeasurement
 
-1. AppMeasurement用の最新の JavaScript ライブラリをダウンロードします。
-に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL コードマネージャー]**.
-1. 次の手順で実装します。 [これらの手順](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ja).
+1. AppMeasurement 用の最新の JavaScript ライブラリをダウンロードします。
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL Code Manager]** に移動します。
+1. [これらの手順](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=ja)に従って実装してください。
 
 +++
 
 ## 手順 2.Activity Map レポートを有効にする {#enable}
 
-レポートスイートレベルでActivity Mapレポートを有効にする必要があります。
+レポートスイートレベルで Activity Map レポートを有効にする必要があります。
 
 1. Adobe Analytics にログインし、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動してレポートスイートを選択し、**[!UICONTROL 設定を編集]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map レポート]** に移動します。
 
@@ -102,13 +102,13 @@ Adobe Experience Platformタグで、Analytics を実装するプロパティに
 
 1. 約 1 時間後に、[Activity Map ページレポート](/help/analyze/activity-map/activitymap-reporting-analytics.md)を確認すると、ユーザーがリンクをクリックしたページがすべて表示されます。
 
-## 手順 3.ユーザーの追加先 [!UICONTROL Activity Mapアクセス] 製品プロファイル {#add_users}
+## 手順 3.ユーザーを [!UICONTROL Activity Map アクセス]製品プロファイルに追加 {#add_users}
 
 1. 「**[!UICONTROL ユーザーをグループに追加]**」をクリックします。
 
-   これにより、 [Adobe Admin Console](https://adminconsole.adobe.com/E2F05B3B52F54D2E0A490D44@AdobeOrg/overview).
+   [Adobe Admin Console](https://adminconsole.adobe.com/E2F05B3B52F54D2E0A490D44@AdobeOrg/overview) の製品プロファイルページが表示されます。
 
-1. まだ [!UICONTROL Activity Mapアクセス] 製品プロファイルに移動します。 このプロファイルに必要な権限項目は次のとおりです [!UICONTROL Analytics ツール] > [!UICONTROL Activity Map] および [!UICONTROL Analytics ツール] > [!UICONTROL セグメント公開].
+1. [!UICONTROL Activity Map アクセス]製品プロファイルをまだ作成していない場合は、今すぐ作成します。このプロファイルに必要な権限項目は、[!UICONTROL Analytics ツール]／[!UICONTROL Activity Map] および [!UICONTROL Analytics ツール]／[!UICONTROL セグメント公開]です。
 
-1. 製品プロファイルにユーザーを追加します。 これにより、ユーザーは、  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL ツール]** > **[!UICONTROL ActivityMap]** .
+1. 製品プロファイルにユーザーを追加します。これで、ユーザーは、**[!UICONTROL Adobe Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Activity Map]** から Activity Map をダウンロードできます。
 

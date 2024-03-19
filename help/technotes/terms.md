@@ -6,7 +6,7 @@ feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とは](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)」を参照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。
-* **コンポーネント：** Analysis Workspaceのコンポーネントは、プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび日付範囲で構成されます。 詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 」を参照してください。
+* **コンポーネント：** Analysis Workspace のコンポーネントは、プロジェクトにドラッグ＆ドロップできるディメンション、指標、セグメント、および日付範囲で構成されています。『分析ユーザガイド』の[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。
 * **コンテキストデータ変数：**&#x200B;処理ルールでのみ使用される一時変数。コンテキストデータ変数をコンバージョン変数またはトラフィック変数にコピーするように処理ルールを設定していない場合、コンテキストデータ変数は恒久的に失われます。『実装ユーザガイド』の「[コンテキストデータ変数](../implement/vars/page-vars/contextdata.md)」を参照してください。
 * **コンバージョン変数：** eVar とも呼ばれています。カスタム値を格納し、変数値が期限切れになるまで保持します。『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar.md) ディメンションを参照してください。
 * **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。『分析ユーザガイド』の「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。
@@ -74,7 +74,7 @@ ht-degree: 97%
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
 * **マーケティングチャネル：** Adobe Analytics の機能の 1 つで、訪問者がサイトに到達した方法ごとにヒットを分類します。ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。コンポーネントユーザーガイドの「[マーケティングチャネルの概要](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
-* **Mobile Services:** Adobe Experience Cloud全体からモバイルAdobe用のモバイルマーケティング機能を統合し、アプリの利用状況を把握し改善につなげた、古いアプリの製品です。
+* **Mobile Services：** Adobe Experience Cloud 全体のモバイルアプリケーションのモバイルマーケティング機能を統合した、廃止されたアドビ製品により、アプリケーションに対するユーザーエンゲージメントを把握し、向上につなげることができます。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
 * **回数**：ディメンション項目が設定または持続されたヒット数を示す指標のタイプ。『コンポーネントユーザガイド』の[発生件数](/help/components/metrics/occurrences.md)指標を参照してください。
@@ -91,7 +91,7 @@ ht-degree: 97%
 * **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
 * **Report Builder：** Adobe Analytics データからカスタマイズされたリクエストを作成できる Microsoft Excel アドインです。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
-* **Reports &amp; Analytics：**&#x200B;旧称 SiteCatalyst。レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 このツールは [提供終了](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
+* **Reports &amp; Analytics：**&#x200B;旧称 SiteCatalyst。レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。このツールは[提供終了](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)となりました。
 * **周期的日付範囲：**&#x200B;時間が経過すると変化する相対的な日付範囲。例えば、過去 7 日間のデータを示すレポートは、周期的日付範囲と見なすことができます。「静的日付範囲」も参照してください。
 * **RSID：**&#x200B;レポートスイート ID の略称です。レポートスイートには名前とレポートスイート ID の両方が指定されます。
 * **s.t()：**&#x200B;ページビューのイメージリクエストを送信する AppMeasurement ライブラリ内の関数の名前。一部の AppMeasurement ライブラリでは、代わりに `s.track()` が使用されます。実装ユーザーガイドの「[t](../implement/vars/functions/t-method.md)」を参照してください。
