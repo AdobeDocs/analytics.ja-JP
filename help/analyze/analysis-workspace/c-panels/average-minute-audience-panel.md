@@ -4,7 +4,7 @@ description: Analysis Workspace のメディア分平均オーディエンスパ
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: b718c3d545dc8c8d839037d5e0ea840404efc50b
+source-git-commit: 68cdf9debcd3bd50b0d33cf24206b64f7730e57a
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 31%
