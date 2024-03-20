@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 40%
+source-wordcount: '1303'
+ht-degree: 37%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198、AN-338009、AN-339549、AN-333970、AN-334790、AN-336572、AN-33954
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
+| **保存されたの 13 か月の有効期限`cust_visids`** | 2024年3月20日（PT） | 4 月または 5 月を対象とする、Analytics のヒット処理エンジンの今後のリリースで、保存済みのの 13 か月の有効期限の適用が開始されます `cust_visids`. レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定を使用して `cust_visid` の `visid_high/visid_low value` いいえ `cust_visid` をヒットに追加します。 現在、 `cust_visid` の `visid_high/visid_low`. このリリースでは、 `visid_high/visid_low` は、 `cust_visid` ヒットの場合、マッピングは期限切れになります。 |
 | **AdobeAPI オブジェクトメンバーの追加** | 2024年1月17日（PT） | アドビでは、バージョン管理の通知や変更なしに、オプションのリクエストおよび応答メンバー（名前／値のペア）を既存の API オブジェクトにいつでも追加できます。アドビでは、API と統合するサードパーティツールの API ドキュメントを参照し、理解できない場合は、そのような追加が処理で無視されるようにすることをお勧めします。適切に実装されている場合、そのような追加は実装に対して破壊的な変更ではありません。アドビでは、最初にリリースノートを通じて標準通知を提供することなく、パラメーターを削除したり、必要なパラメーターを追加したりすることはありません。 |
 | **`getPageLoadTime`プラグインが廃止されました** | 2024年1月10日（PT） | このプラグインはサポートされなくなりました。そのコードは、（MDN に従って）[廃止](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming)となった Performance.timing メソッドを利用しています。更新されたプラグインの動作が開始しました。 |
 
