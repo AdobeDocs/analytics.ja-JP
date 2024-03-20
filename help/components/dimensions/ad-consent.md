@@ -2,9 +2,9 @@
 title: 広告プラットフォームの同意
 description: サードパーティの広告プロバイダーの広告の同意に関する設定を参照してください。
 feature: Dimensions
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 3%
 
 ---
