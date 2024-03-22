@@ -4,10 +4,10 @@ title: フリーフォームテーブルのフィルタリングと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 フリーフォームテーブルから行をフィルタリングする方法はいくつかあります。 
 
 - 行の「X」をクリックします。
-- 右クリック >「選択した行を削除」
 - テーブルフィルター
 - セグメント化
 
