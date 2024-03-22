@@ -3,10 +3,10 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+workflow-type: tm+mt
+source-wordcount: '2430'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
 Data Warehouse レポートの送信先を設定するには：
 
-1. Adobe Analytics でのリクエストの作成を開始するには、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択します。
+1. まだリクエストを作成していない場合は、「 Adobe Analytics 」を選択して、リクエストの作成を開始します。 **[!UICONTROL ツール]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **追加**].
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
@@ -72,7 +72,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -84,7 +84,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -100,7 +100,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -108,13 +108,13 @@ Data Warehouse レポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+      | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
       | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
       | [!UICONTROL **シークレット**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++メール
 
@@ -146,7 +146,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -159,7 +159,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -172,7 +172,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -186,11 +186,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
-
-   1. 「[!UICONTROL **保存**]」を選択します。
-
-      これで、設定したアカウントと場所にデータを読み込むことができます。
++++
 
 1. 「[!UICONTROL **レポートオプション**]」タブでデータウェアハウスリクエストを引き続き設定します。詳しくは、[データウェアハウスのリクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-options.md)を参照してください。
 

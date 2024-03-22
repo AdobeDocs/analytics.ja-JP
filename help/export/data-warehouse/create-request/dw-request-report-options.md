@@ -1,26 +1,26 @@
 ---
-description: Data Warehouse リクエストを作成する方法について手順を説明します。
+description: Data Warehouse リクエストの作成方法について手順を説明します。
 title: レポートリクエストのレポートオプションのData Warehouseを設定する
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
 # レポートリクエストのレポートオプションのData Warehouseを設定する
 
-設定リクエストを作成する際には、様々な設定オプションをData Warehouseできます。 次の情報では、リクエストのレポートオプションを設定する方法を説明します。
+Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報では、リクエストのレポートオプションを設定する方法を説明します。
 
-リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、 [Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
 レポート・リクエストのレポート・オプションをData Warehouseするには、次の手順に従います。
 
-1. Adobe Analyticsでのリクエストの作成を開始するには、「 **[!UICONTROL ツール]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **追加**].
+1. まだリクエストを作成していない場合は、「 Adobe Analytics 」を選択して、リクエストの作成を開始します。 **[!UICONTROL ツール]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **追加**].
 
-   詳しくは、 [Data Warehouseリクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
 1. 新しいData Warehouseリクエストページで、 [!UICONTROL **レポートのオプション**] タブをクリックします。
 
