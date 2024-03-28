@@ -6,9 +6,9 @@ title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 98%
 | **`daily_visitor`** | ヒットが新しい日別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md)ディメンションで使用される変数。ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`DMP` および `SELL` などがあります。 | varchar(100) |
 | **`dataprivacyconsentoptout`** | [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md)ディメンションで使用される変数。ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`SSF`、`DMP`、`SELL` などがあります。 | varchar(100) |
-| **`dataprivacydmaconsent`** | Adobe AnalyticsからAdobe Advertisingを通じてサードパーティの広告プロバイダー (Googleなど ) にデータを送信する際に同意が得られるかどうかを識別する値。 詳しくは、 [広告の同意](/help/components/dimensions/ad-consent.md) を参照してください。 | varchar(100) |
+| **`dataprivacydmaconsent`** | Adobe Analytics から Adobe Advertising を通じてサードパーティの広告プロバイダー（Google など）にデータを送信することについて同意が得られているかどうかを識別する値。詳しくは、[広告の同意](/help/components/dimensions/ad-consent.md)を参照してください。 | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | **`domain`** | 「[ドメイン](/help/components/dimensions/domain.md)」ディメンションで使用される変数。訪問者のインターネットアクセスポイントに基づいています。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |

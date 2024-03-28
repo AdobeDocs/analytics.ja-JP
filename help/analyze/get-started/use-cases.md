@@ -4,9 +4,9 @@ title: Analytics のユースケース
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics は、顧客が自社のブランドを操作する場所、顧�
 
 * [マルチチャネルデータ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja)
 
-* [オフラインデータ統合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)
+* [オフラインデータ統合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ja)
 
 * [Analysis Workspace での Ad Hoc Analysis](/help/analyze/analysis-workspace/home.md)
 

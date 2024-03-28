@@ -5,9 +5,9 @@ feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 この統合を設定する方法について詳しくは、[Adobe Campaign のドキュメント](https://helpx.adobe.com/jp/campaign/standard/integrating/using/about-campaign-analytics-integration.html)を参照してください。
 
 >[!IMPORTANT]
->この記事は Adobe Campaign **Standard** レポートにのみに当てはまります。Adobe Campaign **Classic** レポートの追加については、[こちら](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html)を参照してください。
+>この記事は Adobe Campaign **Standard** レポートにのみに当てはまります。Adobe Campaign **Classic** レポートの追加については、[こちら](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=ja)を参照してください。
 
 Adobe Analytics と Adobe Campaign Standard の統合によって行われること：
 

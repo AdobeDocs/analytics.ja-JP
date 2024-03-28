@@ -5,7 +5,7 @@ user-guide-title: Analytics リリースノート
 breadcrumb-title: リリースノート
 user-guide-description: Adobe Analytics の新機能および修正点について説明します。
 source-git-commit: 206a7f9bed88229142ac6540fbf3fae31dd06689
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
 ht-degree: 100%
 

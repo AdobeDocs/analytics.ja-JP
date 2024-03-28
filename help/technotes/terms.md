@@ -4,9 +4,9 @@ description: Adobe Analytics でよく使用される用語を集めた用語集
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 99%
 * **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
 * **Report Builder：** Adobe Analytics データからカスタマイズされたリクエストを作成できる Microsoft Excel アドインです。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
-* **Reports &amp; Analytics：**&#x200B;旧称 SiteCatalyst。レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。このツールは[提供終了](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)となりました。
+* **Reports &amp; Analytics：**&#x200B;旧称 SiteCatalyst。レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。このツールは[提供終了](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja)となりました。
 * **周期的日付範囲：**&#x200B;時間が経過すると変化する相対的な日付範囲。例えば、過去 7 日間のデータを示すレポートは、周期的日付範囲と見なすことができます。「静的日付範囲」も参照してください。
 * **RSID：**&#x200B;レポートスイート ID の略称です。レポートスイートには名前とレポートスイート ID の両方が指定されます。
 * **s.t()：**&#x200B;ページビューのイメージリクエストを送信する AppMeasurement ライブラリ内の関数の名前。一部の AppMeasurement ライブラリでは、代わりに `s.track()` が使用されます。実装ユーザーガイドの「[t](../implement/vars/functions/t-method.md)」を参照してください。

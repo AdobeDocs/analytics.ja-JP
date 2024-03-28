@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5243'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年3月** | |
-| AppMeasurementの更新 | [リリースノート](/help/implement/appmeasurement-updates.md) AppMeasurementアップデート v2.26.0の<br/>の参照と更新を含む [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数のドキュメントです。 |
-| 「Used in」列の使用状況情報は、2023 年 9 月から提供されます。 | に関する使用状況情報を明確にしました。 **使用場所** 列 [プロジェクトランディングページ](/help/analyze/landing.md) は 2023 年 9 月までしか遡りません。 |
+| AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数ドキュメントへの参照と更新が含まれます。 |
+| 「使用場所」列に関する使用状況情報は、2023年9月以降のみ使用可能です。 | [プロジェクトのランディングページ](/help/analyze/landing.md)の&#x200B;**使用場所**&#x200B;列に関する使用状況情報は、2023年9月までしか遡らないことを明確にしました。 |
 | **2024年2月** | |
-| Data Warehouseリクエストの管理に関する情報の更新 | ユーザーはデフォルトで、次の場合に作成したリクエストのみを表示できることを明確にしました。 [Data Warehouseリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
+| Data Warehouse リクエストの管理に関する情報の更新 | デフォルトでは、ユーザーは [Data Warehouse リクエストを管理](/help/export/data-warehouse/data-warehouse-requests-manage.md)する際に自分が作成したリクエストのみを表示できることを明確にしました。 |
 | プロジェクト共有ドキュメントの更新 | [共有プロジェクトの表示](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)方法についての情報を追加しました。<p>また、[個々または複数のプロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)に関する情報も整理しました。</p> |
 | データウェアハウスとデータフィードで、Azure SAS と Azure RBAC にファイルをアップロードする権限要件を追加しました。 | Azure SAS と Azure RBAC にファイルをアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定をする](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | データウェアハウスとデータフィードで、ファイルを Amazon S3 と GCP バケットにアップロードする権限要件を追加しました。 | ファイルを Amazon S3 バケットと Google Cloud Platform バケットにアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定する](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
@@ -48,7 +48,7 @@ ht-degree: 96%
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
 | 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
-| Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
+| Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ja)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |
 | レポートアクティビティマネージャーにログ情報を追加しました。 | レポートアクティビティマネージャーの[レポートアクティビティのキャンセルとその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)が[ログ](/help/admin/admin/logs.md)にキャプチャされるという情報を追加しました。 |
 | Data Warehouse コンポーネントのサポートの更新 | Data Warehouse の一部のコンポーネントの可用性を追加し、他のコンポーネントの可用性を削除しました。これらの変更は、[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)に反映しています。 <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）</li><li>パーティシペーション指標のサポートを削除しました（サポートされていない指標のリストにパーティシペーション指標を追加しました）</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションがサポートされるようになりました（サポートされていないディメンションのリストからこれらのディメンションを削除しました）。 <p>以前は、精度が選択されていた場合、データウェアハウスでは、フリーフォームテーブルの最初の列でのみこれらのディメンションをサポートしていました。現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。年は 1900 年でオフセットされ、月は 0 から始まります。</li></ul> |
@@ -58,12 +58,12 @@ ht-degree: 96%
 | Media Analytics レポートドキュメントの改善 | API ドキュメントを独自の節に統合し、一部の記事の順序を調整するなど、ストリーミングメディアガイドの「レポート」節のコンテンツの一部を再編成しました。 <p>製品内の名前に合わせて、Media Workspace テンプレートの記事の名前を [Workspace のメディアレポート](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=ja)に変更しました。 </p> |
 | **2023年8月** | |
 | データフィードの明確化 | [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md)を更新し、履歴データのデータフィードを処理する際に、データが収集されている過去の任意の日付に開始日を設定できることを明確化しました。 |
-| Adobe Experience Platform Edge Network のデータ処理 | Adobe Analyticsの仕組みに関する内容を追加しました。 [は、Edge ネットワークからのデータを処理します](../implement/aep-edge/overview.md). |
+| Adobe Experience Platform Edge Network のデータ処理 | Adobe Analytics が [Edge Network からのデータを処理](../implement/aep-edge/overview.md)する方法に関するコンテンツを追加しました。 |
 | メディア再生滞在時間パネル | 読みやすさを向上させるために、[メディア再生滞在時間パネル](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)のコンテンツを更新しました。 |
 | スケジュールされたプロジェクトの管理に関するコンテンツの移動 | Analytics コンポーネントガイドに[スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md)という新しい記事を作成しました。このコンテンツは、以前は Analytics ツールガイドの[プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)という記事に記載されていました。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。[詳細情報](../implement/prepare/comparison.md) |
 | データフィード用の SFTP を設定する際、アドビカスタマーケアが必要ないことを明記しました | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨しなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
-| ストリーミングメディアのドキュメントの改善 | ストリーミングメディアに関して、次のドキュメントを改善しました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)を更新しました。また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)に固有の前提条件を追加しました。また、[一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)領域の記事の内容と構成を合理化しました。これに、Edge の実装および Analytics のみの実装別の実装の分類を含めました。</li><li>[トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
+| ストリーミングメディアのドキュメントの改善 | ストリーミングメディアに関して、次のドキュメントを改善しました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)を更新しました。また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ja)および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ja)に固有の前提条件を追加しました。また、[一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ja)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ja)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)領域の記事の内容と構成を合理化しました。これに、Edge の実装および Analytics のみの実装別の実装の分類を含めました。</li><li>[トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ja)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
 | **2023年7月** | |
 | Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
 | グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/admin/company/web-services-admin.md)を文書化しました。この ID は、Analytics 2.0 API で必要です。 |
@@ -133,15 +133,15 @@ ht-degree: 96%
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** | |
-| Edge コレクション用 XDM でのリスト変数のサポート | Web SDK を使用してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。 [詳細情報](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
-| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Web SDK を使用してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。 [詳細情報](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
+| Edge コレクション用 XDM でのリスト変数のサポート | Web SDK を使用してデータを収集するお客様が、XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
+| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Web SDK を使用してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022年6月** |  |
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/server-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [Analysis Workspace で作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
 | **2022年5月** | |
-| Edge ネットワークを通じてライフサイクルディメンションと指標を設定する | Edge ネットワークに送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。 XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/xdm-var-mapping.md)を参照してください。 |
+| Edge Network を介したライフサイクルディメンションおよび指標の入力 | Edge Network に送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/xdm-var-mapping.md)を参照してください。 |
 | **2022年4月** | |
 | Adobe Analytics ランディングページの更新 | [Analysis Workspace と Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

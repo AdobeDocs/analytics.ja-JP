@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
   ![従来の JavaScript を使用した Adobe Analytics の実装方法](./assets/appmeasurement-implementation.png)
 この実装方法は、カスタムコードを使用した実装に役立ち、[AMP ページ](other/amp.md)など、他では提供されない実装タイプに最適です。
 
-次の決定フローは、クライアント側の実装方法の選択に役立ちます。
+次の決定フローは、クライアントサイドの実装方法の選択に役立つ可能性があります。
 
 ![この節で説明する、実装方法を選択するための決定ツリー。](./assets/decision-tree.png)
 
@@ -50,15 +50,15 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 ### サーバーサイド
 
-Adobe Analyticsサーバー側を実装するには、次のオプションがあります。
+Adobe Analytics サーバーサイドを実装するには、次のオプションがあります。
 
-* **Edge Server API**:Adobe Experience Platform Edge Server API を使用してデータストリームを介してAdobe Analyticsと通信するコードをサーバーに実装します。
-  ![サーバー側実装](assets/edge-network-server-api.svg)
-詳しくは、 [Adobe Experience Platform Edge Network Server API を使用したAdobe Analyticsの実装](/help/implement/aep-edge/server-api/overview.md) を参照してください。
+* **Edge Server API**：Adobe Experience Platform Edge Server API を使用して、データストリームを介して Adobe Analytics と通信するコードをサーバーに実装します。
+  ![サーバーサイドの実装](assets/edge-network-server-api.svg)
+詳しくは、[Adobe Experience Platform Edge Network Server API を使用した Adobe Analytics の実装](/help/implement/aep-edge/server-api/overview.md)を参照してください。
 
-* **（一括）Data Insertion API**:Adobe Analytics（一括）Data Insertion API を使用して、サーバー側でデータをAdobe Analyticsに直接収集します。
+* **（一括）データ挿入 API**：Adobe Analytics（一括）データ挿入 API を使用して、サーバーサイドのデータを Adobe Analytics に直接収集します。
   ![データ挿入 API](assets/analytics-apis.png)
-詳しくは、 [Data Insertion API](../import/c-data-insertion-api/c-data-insertion-api.md) を参照してください。
+詳しくは、[Data 挿入 API](../import/c-data-insertion-api/c-data-insertion-api.md) を参照してください。
 
 ## モバイルアプリの実装方法
 
@@ -77,7 +77,7 @@ Adobe Analyticsサーバー側を実装するには、次のオプションが�
 
 >[!CAUTION]
 >
->Adobeのモバイル SDK の古いバージョンのサポートについては、を参照してください。 [SDK のサポート終了に関するお知らせ](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>アドビのモバイル SDK の古いバージョンのサポートについては、[SDK のサポート終了に関するお知らせ](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/)を参照してください。
 
 ## 主な Analytics 実装関連の記事
 
@@ -85,13 +85,13 @@ Adobe Analyticsサーバー側を実装するには、次のオプションが�
 * [Adobe Debugger](validate/debugger.md)
 * [Experience Platform でのタグプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
-* [Platform Web SDK を使用したAdobe Analyticsの設定チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [Platform Web SDK を使用した Adobe Analytics の設定チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=ja)
 * [モバイルアプリでの Adobe Experience Cloud の実装のチュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=ja)
 
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [最新のリリースノート](../release-notes/latest.md)
