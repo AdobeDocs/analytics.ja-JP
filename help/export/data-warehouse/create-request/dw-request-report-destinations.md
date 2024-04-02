@@ -4,9 +4,9 @@ title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2430'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
 Data Warehouse レポートの送信先を設定するには：
 
-1. まだリクエストを作成していない場合は、「 Adobe Analytics 」を選択して、リクエストの作成を開始します。 **[!UICONTROL ツール]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **追加**].
+1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
