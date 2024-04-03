@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
+source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Workspace プロジェクトの削除プロトコルの変更** | 以前は、削除されたプロジェクトはシステムからパージされませんでした。 180 日後に削除されたプロジェクトのパージを開始するようになりました。 削除後 180 日間も、ユーザーは、ダイレクトプロジェクトへの URL を持っている場合、 Web インターフェイスを通じてプロジェクトにアクセスできます。 | | 2024年3月14日（PT） |
+| **Workspace プロジェクトの削除プロトコルの変更** | 以前は、削除されたプロジェクトはシステムからパージされませんでした。 180 日後に削除されたプロジェクトのパージを開始するようになりました。 削除後 180 日間も、ユーザーは、プロジェクトへの URL を持っている場合、Web インターフェイスを通じて削除済みのプロジェクトにアクセスできます。 | | 2024年3月14日（PT） |
 | **AppMeasurement のアップデート** | [AppMeasurement リリース v2.26.0](/help/implement/appmeasurement-updates.md) が使用可能です。 | | 2024年3月4日（PT） |
 | **プロジェクトランディングページで使用可能な新しい列** | [Adobe Analytics ランディングページ](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=ja)の「プロジェクト」タブを表示すると、**[!UICONTROL 前回の使用]**&#x200B;列が使用できるようになりました。 <p>この情報は、プロジェクトが前回開かれた日時を示し、プロジェクトが組織内のユーザーにとって有用かどうかを判断するのに役立ちます。</p> <p>以前は、**[!UICONTROL 前回の使用]**&#x200B;列は、計算指標マネージャー、セグメントマネージャー、アラートマネージャーでのみ使用できました。</p> |  | 2024年3月13日（PT） |
 | **Google による DMA に必要な同意フラグの Analytics サポート** | 新しい欧州プライバシー規制により、Google では、欧州で収集され、Google に送信されたデータには、2 つの特定の種類の同意が付与されたかどうかを示す必要があります。**3月6日（PT）以降**、Google では、関連する同意が付与されたことを示さないイベントデータを承認しなくなります。Adobe Analytics では、新しい adConsent 変数を通じてこのデータをキャプチャするサポートをリリースしました。新しい変数が[プライバシーレポート UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) にリストされていることを参照できます。これをアクティブ化する場合、および以前の同意変数に対してプライバシーが既に有効である場合は、プライバシーを再度有効にする必要があります。<p>[広告プラットフォームの同意ディメンション](/help/components/dimensions/ad-consent.md)は、Google などのサードパーティの広告プロバイダーにデータを送信するための同意を収集するかどうかを表示します。 |  | 2024年3月13日（PT） |
