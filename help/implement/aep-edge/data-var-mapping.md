@@ -1,11 +1,12 @@
 ---
 title: Adobe Analyticsへのデータオブジェクト変数のマッピング
-description: Edge が Analytics 変数に自動的にマッピングするデータオブジェクトフィールドを表示します。
+description: Edge が Analytics 変数に自動的にマッピングするExperience Platformオブジェクトフィールドを表示します。
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
