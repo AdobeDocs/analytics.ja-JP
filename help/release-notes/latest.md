@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 627a813d0d5595521d72f0cf832b3a1ceb7655f8
+source-git-commit: d2b2ebdbc6a3c0f20b8684ba5c1b4b89cefb8e5a
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 51%
@@ -26,7 +26,7 @@ ht-degree: 51%
 | **に同じクラウドアカウントを使用 [!UICONTROL データフィード], [!UICONTROL Data Warehouse]、および [!UICONTROL 分類セット]** | 作成したクラウドアカウントおよび場所は、（を使用した）データの書き出しに使用できるようになりました [!UICONTROL データフィード] および [!UICONTROL Data Warehouse]）とデータの読み込み（を使用） [!UICONTROL 分類セット]）に設定します。<p> **アカウントを設定する際の変更：** ユーザーは次のことができます [クラウドのインポートおよびエクスポートアカウントの設定](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) および [クラウドの読み込み場所と書き出し場所の設定](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 次のいずれかの目的で使用できます。<ul><li>でのデータの読み込み [!UICONTROL 分類セット]</li><li>を使用したデータのエクスポート [!UICONTROL データフィード]</li><li>を使用したデータのエクスポート [!UICONTROL Data Warehouse].</li></ul><p>**アカウントを管理する際の変更**：ユーザーは以下を使用できます [場所](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) ページ （下） [!UICONTROL Components] > Locアクション）を使用して、作成場所に関係なく、作成したすべてのアカウントと場所を表示および管理します。 <p>以前は、 [!UICONTROL 場所] でデータをインポートするために作成されたアカウントにのみ適用されたページ [!UICONTROL 分類セット].</p> | | 2024年4月17日（PT） |
 | **管理者は組織内のすべての場所とアカウントを管理できる** | 「場所」タブ（コンポーネント／場所ページ）の新しいオプションを使用すれば、管理者は組織内のすべての場所を表示および管理できます。<p>の新しいオプション [場所](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 「アカウント」タブ（コンポーネント / ロケーション ページ）を使用すると、管理者は、組織内のすべてのアカウントを表示および管理できます。</p> <p>以前は、管理者は自分が作成した場所とアカウントのみを表示および管理できました。</p> |  | 2024年4月17日（PT） |
 | **デフォルトの低トラフィックしきい値の増加** | **2024年4月中旬**&#x200B;に、アドビは、次のように、デフォルトのレポートスイートの低トラフィックしきい値を引き上げ始めます。![低トラフィックしきい値](assets/thresholds.png)：これは、現在新しいしきい値を下回って設定されている変数にのみ影響します。 この度の変更は段階的に行われ、作業は **5月末**&#x200B;に完了する予定です。 この度の増加がロールアウトされると、高基数変数の変更に気付く場合があります。<ul><li>レポートには、より多くのディメンション値を使用できる場合があります。</li><li>セグメントと計算指標に含まれるデータの量が多くなる場合があります。</li><li>セグメントに基づく仮想レポートスイートには、より多くのデータが含まれる場合があります。</li><li>分類の書き出しには、より多くのデータが含まれる場合があります。</li></ul> | 2024年4月中旬 | 2024年5月31日（PT） |
-| **Activity Map が使用する Web SDK のサーバー呼び出しの数が低減します** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。 <p>この機能強化では、AppMeasurement でのイベントの処理と同様に、一部のリンクイベントを取り上げ、それらを次のヒットにパッケージ化します。</p> |  | 2024年5月1日（PT） |
+| **Activity Map が使用する Web SDK のサーバー呼び出しの数が低減します** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。 <p>この機能強化では、AppMeasurement でのイベントの処理と同様に、一部のリンクイベントを取り上げ、それらを次のヒットにパッケージ化します。</p> |  | 2024年5月31日（PT） |
 
 {style="table-layout:auto"}
 
