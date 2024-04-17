@@ -1,45 +1,58 @@
 ---
-description: 分類データのアップロード先となるクラウドインポートアカウントを設定する
+description: 分類データをアップロードできるクラウドインポートアカウントおよび場所を設定します
 keywords: Analysis Workspace
-title: クラウドインポートアカウントの設定
+title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 5%
+source-wordcount: '1224'
+ht-degree: 56%
 
 ---
 
-# クラウドインポートアカウントの設定
+# クラウドのインポートおよびエクスポートアカウントの設定
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-クラウドの宛先からAdobe Analytics分類データをインポートする前に、アカウントと、そのアカウント内で分類データを収集する場所を追加して設定する必要があります。
+次の目的の一部またはすべてに使用するクラウドアカウントを設定できます。
 
-このプロセスは、この記事で説明するアカウント (Amazon S3 の役割 ARN、Google Cloud Platform など ) の追加と設定の後、アカウント内の場所（アカウント内のフォルダーなど）の追加と設定で構成します。詳しくは、 [クラウドの読み込み場所の設定](/help/components/locations/configure-import-locations.md).
+* を使用したファイルのエクスポート [データフィード](/help/export/analytics-data-feed/create-feed.md)
+* を使用したレポートのエクスポート [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* を使用したスキーマのインポート [分類セット](/help/components/classifications/sets/overview.md)
 
-クラウドの宛先アカウントにアクセスするために必要な情報をAdobe Analyticsに設定する必要があります。
+Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事の説明に従ってアカウント（Amazon S3 Role ARN、Google Cloud Platform など）を追加および設定し、次に説明に従ってアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
 
-クラウドインポートアカウントを設定するには：
+クラウドのインポートまたはエクスポートアカウントを設定するには：
 
-1. Adobe Analyticsで、 [!UICONTROL **コンポーネント**] > [!UICONTROL **場所**].
-1. 次の日： [!UICONTROL 場所] ページで、 [!UICONTROL **場所の資格情報**] タブをクリックします。
-1. 選択 [!UICONTROL **アカウントを追加**]. <!-- add screenshot? -->
+1. Adobe Analyticsで、を選択します。 [!UICONTROL **Components**] > [!UICONTROL **場所**].
+1. 日 [!UICONTROL 場所] ページで、 [!UICONTROL **場所アカウント**] タブ。
+1. 新しいアカウントを作成するには、を選択します [!UICONTROL **アカウントを追加**].
 
    アカウントを追加ダイアログが表示されます。
-1. 次の情報を指定します。 |フィールド |関数 | |—|—| | [!UICONTROL **場所のアカウント名**] |ロケーションアカウントの名前。 この名前は、ロケーションを作成する際に表示されます | | [!UICONTROL **場所アカウントの説明**] |同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの簡単な説明を入力します。 | | [!UICONTROL **アカウントタイプ**] |クラウドアカウントのタイプを選択します。 アカウントのタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を持つことをお勧めします。 |
-1. Adobe Analytics の [!UICONTROL **アカウントのプロパティ**] 「 」セクションで、選択したアカウントタイプに固有の情報を指定します。
 
-   設定手順については、 [!UICONTROL **アカウントタイプ**] を選択します。
+   または
+
+   既存のアカウントを編集するには、以下を選択します [!UICONTROL **詳細を表示**] 編集するアカウントをリストするタイルで。
+場所ダイアログが表示されます。
+
+   場所アカウントの詳細ダイアログが表示されます
+
+
+1. 次の情報を指定します。 |フィールド |関数 | |---------|----------| | [!UICONTROL **場所アカウント名**] |場所アカウントの名前。 この名前は、場所の作成時に表示されます | | [!UICONTROL **場所アカウントの説明**] |アカウントの簡単な説明を入力して、同じアカウントタイプを持つ他のアカウントとの区別に役立てます。 | | [!UICONTROL **アカウントタイプ**] | クラウドアカウントタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を設定することをお勧めします。 |
+1. が含まれる [!UICONTROL **アカウントのプロパティ**] セクションで、選択したアカウントの種類に固有の情報を指定します。
+
+   設定手順については、に対応する以下のセクションを展開してください [!UICONTROL **アカウントタイプ**] を選択しました。 （追加の従来のアカウントタイプも使用できますが、推奨されません。）
+
+   **アカウントタイプ**
 
    +++Amazon S3 Role ARN
 
-   Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
+   Amazon S3 ロール ARN アカウントを設定するには、次の情報を指定します。
 
-   | フィールド | 関数 |
+   | フィールド | 機能 |
    |---------|----------|
-   | [!UICONTROL **役割 ARN**] | AdobeがAmazon S3 アカウントへのアクセス権を取得するために使用できる役割 ARN(Amazon Resource Name) を指定する必要があります。 これを行うには、ソースアカウントの IAM アクセス許可ポリシーを作成し、そのポリシーをユーザーに関連付けてから、宛先アカウントのロールを作成します。 詳しくは、 [このAWSドキュメント](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+   | [!UICONTROL **役割 ARN**] | アドビが Amazon S3 アカウントへのアクセス権を取得するために使用できる役割 ARN（Amazon リソースネーム）を指定する必要があります。これを行うには、ソースアカウントの IAM 権限ポリシーを作成し、そのポリシーをユーザーに関連付けてから、宛先アカウントの役割を作成します。詳しくは、[この AWS ドキュメント](https://repost.aws/ja/knowledge-center/cross-account-access-iam)を参照してください。 |
 
    {style="table-layout:auto"}
 
@@ -51,7 +64,7 @@ ht-degree: 5%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **プロジェクト ID**] | Google Cloud プロジェクト ID。 詳しくは、 [プロジェクト ID の取得に関するGoogle Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+   | [!UICONTROL **プロジェクト ID**] | お客様の Google Cloud プロジェクト ID。[プロジェクト ID の取得に関する Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=ja#identifying_projects)を参照してください。 |
 
    {style="table-layout:auto"}
 
@@ -59,15 +72,15 @@ ht-degree: 5%
 
    +++Azure SAS
 
-   Azure SAS アカウントを構成するには、次の情報を指定します。
+   Azure SAS アカウントを設定するには、次の情報を指定します。
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS トークンへのパス。  Azure SAS を構成するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>キー Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。 詳しくは、 [Key Vault アクセスポリシーの割り当て方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Key Vault シークレットの名前**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵の名前。 Microsoft Azure では、この情報は、次の場所で作成した Key Vault 内の **Key Vault** 設定ページ。 詳しくは、 [Azure Key Vault からシークレットを設定および取得する方法に関するMicrosoft Azure ドキュメント](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。 Microsoft Azure では、この情報は **証明書と秘密鍵** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンをシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault の URI が作成されたら、Key Vault にアクセスポリシーを追加して、作成した Azure アプリケーションに権限を付与します。 詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
+   | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。 Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページ。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
+   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
    {style="table-layout:auto"}
 
@@ -79,14 +92,84 @@ ht-degree: 5%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報は **概要** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。 Microsoft Azure では、この情報は **証明書と秘密鍵** 」タブをクリックします。 詳しくは、 [Microsoft Azure ドキュメント：Microsoft identity platform でのアプリケーションの登録方法に関する](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
    {style="table-layout:auto"}
 
 +++
 
+   **従来のアカウントタイプ**
+
+   これらのレガシーアカウントタイプは、でデータを書き出す場合にのみ使用できます [データフィード](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). でデータをインポートする場合、これらのオプションは使用できません [分類セット](/help/components/classifications/sets/manage/schema.md).
+
+   +++FTP
+
+   データフィードデータは、Adobeまたは顧客がホストする FTP ロケーションに配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
+
+   | フィールド | 関数 |
+   |---------|----------|
+   | [!UICONTROL **ホスト**] | 目的の FTP 宛先 URL を入力します。 例：`ftp://ftp.omniture.com`。 |
+   | [!UICONTROL **パス**] | 空白のままにすることができます。 |
+   | [!UICONTROL **ユーザー名**] | FTP サイトにログインするためのユーザー名を入力します。 |
+   | [!UICONTROL **パスワードとパスワードの確認**] | FTP サイトにログインするためのパスワードを入力します。 |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++SFTP
+
+   データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
+
++++
+
+   +++S3
+
+   ウェアハウスデータは Amazon S3 バケットに直接送信できます。この宛先タイプには、バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
+
+   データウェアハウスのデータをアップロードするために指定するユーザーには、次の[権限](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)が必要です。
+
+   * s3:GetObject
+   * s3:PutObject
+   * s3:PutObjectAcl
+
+   以下の 16 の標準 AWS 地域がサポートされます（必要に応じて適切な署名アルゴリズムを使用）。
+
+   * us-east-2
+   * us-east-1
+   * us-west-1
+   * us-west-2
+   * ap-south-1
+   * ap-northeast-2
+   * ap-southeast-1
+   * ap-southeast-2
+   * ap-northeast-1
+   * ca-central-1
+   * eu-central-1
+   * eu-west-1
+   * eu-west-2
+   * eu-west-3
+   * eu-north-1
+   * sa-east-1
+
+   >[!NOTE]
+   >
+   >Cn-north-1 地域はサポートされていません。
+
++++
+
+   +++Azure Blob
+
+   Data Warehouse は、Azure Blob 宛先をサポートします。 コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
+
+   >[!NOTE]
+   >
+   >データウェアハウス宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
+
++++
+
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. 次で続行 [クラウドの読み込み場所の設定](/help/components/locations/configure-import-locations.md).
+1. 続行 [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).

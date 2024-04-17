@@ -3,10 +3,10 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 >
 >レポートの宛先を設定する際には、次の点を考慮してください。
 >
->* レポートの宛先には、クラウドアカウントまたはメールを使用することをお勧めします。従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
+>* レポートの宛先には、クラウドアカウントまたはメールを使用することをお勧めします。[従来の FTP アカウントと SFTP アカウント](#legacy-destinations) は使用可能ですが、推奨されていません。
 >
->* [データフィード](/help/export/analytics-data-feed/create-feed.md)または [Adobe Analytics 分類データの読み込み](/help/components/locations/locations-manager.md)用に以前に設定したクラウドアカウントは、Data Warehouse に使用できます。ただし、分類データの読み込み用に設定されている場所は使用できません。
+>* 以前に設定したクラウドアカウントは、Data Warehouseに使用できます。 クラウドアカウントは、次のいずれかの方法で設定できます。
+>
+>   * の設定時 [データフィード](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * 条件 [Adobe Analytics分類データの読み込み](/help/components/locations/locations-manager.md) （アカウントは使用できますが、それらのアカウントに設定されている場所は使用できません。）
+>   
+>   * 場所マネージャーからの [コンポーネント/場所](/help/components/locations/configure-import-accounts.md).
 >
 >* クラウドアカウントは Adobe Analytics ユーザーアカウントに関連付けられています。他のユーザーは、設定したクラウドアカウントを使用したり、表示したりできません。
 >
+>* の場所マネージャーから作成した任意の場所を編集できます [コンポーネント/場所](/help/components/locations/configure-import-accounts.md)
 
 Data Warehouse レポートの送信先を設定するには：
 
@@ -37,17 +44,27 @@ Data Warehouse レポートの送信先を設定するには：
 
    ![レポートの宛先タブ](assets/dw-report-destination.png)
 
-1. （条件付き）レポートの宛先として使用するアカウント（およびそのアカウントの宛先）が既に設定されている場合：
+1. （条件付き）クラウドアカウント（およびそのアカウントに対する宛先）が既にAdobe Analyticsで設定されている場合は、レポートの宛先として使用できます。
 
-   1. （オプション）システム管理者の場合、「[!UICONTROL **すべての宛先を表示**]」オプションを使用できます。組織内のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
+   >[!NOTE]
+   >
+   >アカウントは、自分で設定した場合、または自分が属する組織と共有されていた場合にのみ使用できます。
+   >
+   >システム管理者の場合、 [!UICONTROL **すべての宛先を表示**] オプションを利用できます。 組織内のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
 
    1. [!UICONTROL **アカウントを選択**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
-      クラウドの宛先から [Adobe Analytics 分類データの読み込み](/help/components/locations/locations-manager.md)用に設定した任意のクラウドアカウントがここに表示され、使用できます。ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
+      Adobe Analyticsの次のエリアのいずれかで設定したクラウドアカウントを使用できます。
+
+      * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+
+        ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
+
+      * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
 
    1. [!UICONTROL **宛先を選択**]&#x200B;ドロップダウンから、アカウントに関連付けられている宛先を選択します。<!-- Is this correct? -->
 
-1. （条件付き）以前にアカウントを設定していない場合：
+1. （条件付き）Adobe Analyticsで既に設定されている Cloud アカウントへのアクセス権がない場合は、次のいずれかを設定できます。
 
    1. 「[!UICONTROL **アカウントを追加**]」を選択し、次の情報を指定します。
 
@@ -63,7 +80,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       +++Amazon S3
 
-      Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
+      Amazon S3 ロール ARN アカウントを設定するには、次の情報を指定します。
 
       | フィールド | 機能 |
       |---------|----------|
@@ -72,7 +89,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -84,7 +101,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -100,7 +117,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -114,7 +131,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++メール
 
@@ -141,12 +158,12 @@ Data Warehouse レポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p> |
+      | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p><p>バケット名は、特定の命名規則を満たす必要があります。 例えば、3 ～ 63 文字の長さにする必要があり、小文字、数字、ドット （.）、ハイフン （–）のみで構成でき、先頭と末尾は文字または数字にする必要があります。 [命名規則の完全なリストについては、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -159,7 +176,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -172,7 +189,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -186,7 +203,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 「[!UICONTROL **レポートオプション**]」タブでデータウェアハウスリクエストを引き続き設定します。詳しくは、[データウェアハウスのリクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-options.md)を参照してください。
 
