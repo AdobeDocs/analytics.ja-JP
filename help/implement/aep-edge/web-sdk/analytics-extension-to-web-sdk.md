@@ -1,9 +1,10 @@
 ---
 title: Adobe Analyticsのタグ拡張機能から Web SDK のタグ拡張機能への移行
 description: Web SDK 拡張機能を使用するように、Adobe Experience Platform Data Collection タグの Analytics 実装を更新します。
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 2%
 
 ---
@@ -46,7 +47,7 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. サービスのドロップダウンメニューで、を選択します **[!UICONTROL Adobe Analytics]**.
 1. 分析データを現在送信しているサイトと同じレポートスイート ID を入力します。 「**[!UICONTROL 保存]**」をクリックします。
 
-![Adobe Analytics サービスを追加](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics サービスを追加](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 これで、データストリームがデータを受け取り、Adobe Analyticsに渡す準備が整いました。
 
@@ -62,11 +63,11 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. を選択 **[!UICONTROL カタログ]** 上部の近くに、使用可能なすべての拡張機能のリストが表示されます。
 1. を検索して選択します。 **[!UICONTROL Adobe Experience Platform Web SDK]** 拡張機能をクリックしてから、 **[!UICONTROL インストール]** 右です。
 
-   ![カタログ](assets/catalog.png) {style="border:1px solid gray"}
+   ![カタログ](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 拡張機能の設定が表示されます。 「データストリーム」セクションを見つけ、前の手順で作成したデータストリームを選択します。
 
-   ![データストリームの選択](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![データストリームの選択](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. 「**[!UICONTROL 保存]**」を選択します。
 
@@ -83,14 +84,14 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. データ要素に次の設定を指定します。
    * [!UICONTROL 名前]:「データレイヤー」や「データオブジェクト」など、必要なもの
    * [!UICONTROL 拡張機能]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL 変数]: [!UICONTROL 変数]
+   * [!UICONTROL データ要素タイプ]: [!UICONTROL 変数]
    * チェックボックスは現状のままでもかまいません
 1. 右側で、次の設定を選択します。
    * プロパティラジオボタン： [!UICONTROL データ]
    * 解決策： [!UICONTROL Adobe Analytics]
 1. 「**[!UICONTROL 保存]**」を選択します。
 
-![データ要素の作成](assets/create-data-element.png) {style="border:1px solid gray"}
+![データ要素の作成](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 これで、タグプロパティに、各ルールを更新するために必要なすべてが揃いました。
 
@@ -103,7 +104,7 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. タグインターフェイスの左側のナビゲーションで、 **[!UICONTROL ルール]**.
 1. 編集するルールを選択します。
 1. アクションを選択 **[!UICONTROL Adobe Analytics – 変数を設定]**
-1. このルール内で設定されたすべての Analytics 変数に注意してください。 ドロップダウンメニューで設定された変数と、カスタムコード内で設定された変数の両方に注意してください。
+1. このルール内で設定されたすべての Analytics 変数に注意してください。 ドロップダウンメニューで設定された変数と、カスタムコード内で設定された変数の両方を含めます。
 1. 変更： [!UICONTROL アクションの設定] を次の設定に変更します。
    * [!UICONTROL 拡張機能]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL アクションタイプ]：変数を更新
@@ -146,7 +147,7 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. 開発環境で変更をテストし、すべてのルールが適切に実行され、データオブジェクトに想定される値が入力されていることを確認します。
 1. 準備が整ったら、ライブラリを承認用に送信し、ステージング環境にビルドしてから、最終的に承認して実稼動環境に公開します。
 
-![公開フロー](assets/publishing-flow.png) {style="border:1px solid gray"}
+![公開フロー](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

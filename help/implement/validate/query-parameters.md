@@ -4,9 +4,9 @@ description: イメージリクエストで使用されるすべてのクエリ�
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 100%
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | [エラーページ](/help/components/dimensions/pages-not-found.md)ディメンションで使用されます。 |
 | `pccr` | なし | 新規訪問者に対してのみ設定し、常に `true` に設定します。訪問者が Cookie を拒否した場合に、無限リダイレクトを防ぐのに役立ちます。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | カスタムリンクのタイプを決定します。[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、[離脱リンク](/help/components/dimensions/exit-link.md)に必須です。 |
-| `pev1` | なし | カスタムリンクが発生した URL。 |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | カスタムリンクが発生した URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | カスタムリンクのわかりやすい名前。 |
 | `pev3` | なし | 廃止。以前のバージョンのビデオレポートで追跡されたマイルストーン。 |
 | `pf` | なし | プラットフォームフラグ（アドビでのみ使用）。変更できません。 |

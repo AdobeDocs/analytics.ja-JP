@@ -1,7 +1,8 @@
 ---
 title: AppMeasurementから Web SDK への移行
 description: AppMeasurement JavaScript ライブラリから Web SDK JavaScript ライブラリにAdobe Analytics実装を更新します。
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. サービスのドロップダウンメニューで、を選択します **[!UICONTROL Adobe Analytics]**.
 1. 分析データを現在送信しているサイトと同じレポートスイート ID を入力します。 「**[!UICONTROL 保存]**」をクリックします。
 
-![Adobe Analytics サービスを追加](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Adobe Analytics サービスを追加](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 これで、データストリームがデータを受け取り、Adobe Analyticsに渡す準備が整いました。 データストリーム ID をメモします。この ID は、コードで Web SDK を設定する際に必要になるからです。
 
