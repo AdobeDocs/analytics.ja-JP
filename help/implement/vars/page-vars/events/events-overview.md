@@ -4,7 +4,7 @@ description: イベント変数を設定します。この変数は、サイト�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
+source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK を使用したイベント
 
-を使用する場合 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、カスタムイベントでは次の XDM フィールドを使用します。
+を使用する場合 [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md)の場合、カスタムイベントでは次の XDM フィールドを使用します。
 
 * カスタムイベント 1 ～ 100 は、`xdm._experience.analytics.event1to100.event1` ～ `xdm._experience.analytics.event1to100.event100` にマッピングされます。
 * カスタムイベント 101 ～ 200 は、`xdm._experience.analytics.event101to200.event100` ～ `xdm._experience.analytics.event101to200.event200` にマッピングされます。
