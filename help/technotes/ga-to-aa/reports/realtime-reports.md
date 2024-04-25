@@ -3,10 +3,10 @@ title: Adobe Analytics でのリアルタイムレポート
 description: Google Analytics に詳しいユーザー向けに、Adobe Analytics でリアルタイムレポートを取り込む方法について説明します。
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,14 @@ ht-degree: 100%
 
 ![リアルタイムレポート](/help/technotes/ga-to-aa/assets/realtime.png)
 
-リアルタイムレポートは、Analysis Workspace にまだ導入されていない機能の 1 つです。リアルタイムデータを取得するには、Reports &amp; Analytics を使用します。データの収集を開始するには、簡単な設定が必要です。
+リアルタイムレポートは、Analysis Workspace にまだ導入されていない機能の 1 つです。レポートを使用してこのデータを取得します。 データの収集を開始するには、簡単な設定が必要です。
 
 リアルタイムレポート設定ページにアクセスするには（管理者権限が必要です）：
 
-1. Adobe Analytics ヘッダーナビゲーションで「[!UICONTROL レポート]」をクリックします。
-2. 左側のメニューで、*[!UICONTROL サイト指標]*／*[!UICONTROL リアルタイム]*&#x200B;をクリックします。
-3. レポートスイートでリアルタイム機能が有効になっていない場合は、メッセージと共にレポートスイートを設定するためのリンクが表示されます。レポートスイートでリアルタイム機能が有効になっている場合は、リアルタイムレポートのタイトルの近くにある「[!UICONTROL 設定]」をクリックします。
+1. クリック **[!UICONTROL ワークスペース]** Adobe Analyticsの上部のナビゲーションバー
+1. を選択 **[!UICONTROL 報告書]** 左側のナビゲーションバーから。
+1. を選択 **[!UICONTROL エンゲージメント]** ![山形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL リアルタイム]**. 以下の手順でも可能です ![検索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) リアルタイムを検索します。
+1. レポートスイートでリアルタイムが有効になっていない場合は、レポートスイートを設定するためのリンクを含むメッセージが表示されます。
 
 アドビでは、最大 3 つのリアルタイムレポートで同時にデータを収集できます。リアルタイムでのデータ収集を開始する前に、各レポートを設定する必要があります。
 
@@ -66,7 +67,7 @@ ht-degree: 100%
 
 ## リアルタイムイベント
 
-リアルタイムイベントは、サイトで最も多く発生しているイベントを示します。Google Analytics では、イベントは特定のアクション（通常、ページビューとは無関係なアクション）が発生した回数をキャプチャします。Google Analytics のイベントは、カテゴリ、ラベルおよびアクションと共に送信されます。Adobe Analytics では、カスタムイベントは Admin Console でわかりやすい名前が付けられた、任意のディメンションと共に分析できる指標です。Adobe Analytics で Google Analytics のイベントと同様のディメンションが必要な場合は、（出口リンク（出口用）とダウンロードリンク（ダウンロード用）のほかに）ページビューとは無関係なデータを収集するためのキャッチオールとして使用される、カスタムリンクディメンションを適用することを検討します。
+リアルタイムイベントは、サイトで最も多く発生しているイベントを示します。Google Analytics では、イベントは特定のアクション（通常、ページビューとは無関係なアクション）が発生した回数をキャプチャします。Google Analytics のイベントは、カテゴリ、ラベルおよびアクションと共に送信されます。Adobe Analytics では、カスタムイベントは Admin Console でわかりやすい名前が付けられた、任意のディメンションと共に分析できる指標です。Adobe Analytics で Google Analytics のイベントと同様のディメンションが必要な場合は、（離脱リンク（離脱用）とダウンロードリンク（ダウンロード用）のほかに）ページビューとは無関係なデータを収集するためのキャッチオールとして使用される、カスタムリンクディメンションを適用することを検討します。
 
 >[!NOTE]
 >
