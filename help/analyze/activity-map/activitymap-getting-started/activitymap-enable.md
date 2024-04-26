@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,10 @@ Activity Map モジュールは、AppMeasurement.js、Adobe Experience Platform 
 
 +++Web SDK（Adobe Experience Platform タグ拡張機能）
 
-1. Adobe Experience Platform タグで、Analytics を実装するプロパティに移動します。[!UICONTROL 拡張機能]／[!UICONTROL Adobe Experience Platform Web SDK] で、以下でハイライト表示されているように、「**[!UICONTROL クリックデータ収集を有効にする]**」を選択します。
+メモ：現在、Web SDK は、個別のリンククリックイベントを記録して、Activity Map情報を収集します。 これは、内部リンクのActivity Map情報を記録するAppMeasurementとは異なり、後続のページ読み込みに内部リンク情報を含めます。 このため、Web SDK の収集の結果、追加のサーバーコールが発生します。 Web SDK の今後のリリースでは、基本的にAppMeasurementの動作と一致する、後続のヒットに関するActivity Map情報をパッケージ化するように Web SDK を設定できるようになります。
+
+1. Adobe Experience Platform タグで、Analytics を実装するプロパティに移動します。
+1. 次の下 [!UICONTROL 拡張機能] > [!UICONTROL Adobe Experience Platform Web SDK]を選択 **[!UICONTROL クリックデータ収集の有効化]** 以下でハイライト表示されているように。
 1. 変更を加えてライブラリをビルドします。
 1. ライブラリを実稼動環境に公開します。
 
