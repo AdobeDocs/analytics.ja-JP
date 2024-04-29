@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '5273'
-ht-degree: 99%
+source-wordcount: '5315'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2024 年 4 月** | |
+| 分類セットの「所有者」に関連するドキュメントを削除しました | 「所有者」フィルターおよび列がから削除されました [分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md) 「所有者」フィールドがから削除されました [分類セットの設定](/help/components/classifications/sets/manage/settings.md). <p>このフィルター、列、フィールドを削除するようにドキュメントを更新しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました | の折りたたみ可能なセクションを削除しました [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md) クラウドアカウントタイプの説明については、を参照してください。 |
 | **2024年3月** | |
 | AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数ドキュメントへの参照と更新が含まれます。 |
