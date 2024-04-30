@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
 ht-degree: 98%
@@ -150,7 +150,7 @@ ht-degree: 98%
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 次／前の項目]パネルに関する新しいトピック | [次／前のディメンション項目パネル](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022年3月** | |
-| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | 暗号セキュリティレベルが「高」に設定されているお客様向けに[サポートされている HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md)。 |
+| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | 暗号セキュリティレベルが「高」に設定されているお客様向けにサポートされている HTTPS 暗号化アルゴリズム。 |
 | Analysis Workspace での注釈に関する新しいドキュメント | [Analysis Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。 |
 | Adobe Analytics ランディングページの更新 | Analysis Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
@@ -296,7 +296,7 @@ ht-degree: 98%
 | 2019年5月9日 | フロービジュアライゼーション設定に新しい設定を追加しました：繰り返しインスタンスを含める。[フロー設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)を参照 |
 | 2019年4月11日 | ワークスペースの最適化のベストプラクティスに関する機能強化：[パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019年4月11日 | [ワークスペースのパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
-| 2019年3月14日 | [地域データ収集](/help/technotes/rdc/regional-data-collection.md)が大幅に更新されました。 |
+| 2019年3月14日 | 地域のデータ収集を大幅に更新しました。 |
 | 2019年2月7日 | [一般アカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
 | 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |

@@ -4,10 +4,10 @@ description: トラッキング防止対策が、Adobe Analytics によって設
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 97%
+source-wordcount: '1909'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 ## ブラウザーでの cookie の使用制限
 
 >[!NOTE]
->[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda) および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) は、ハッシュ化されたログイン id（使用可能な場合）など、ユーザー ID を使用して cookie をまたいで結び付けることができます。
+>[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、ハッシュ化されたログイン ID などのユーザー ID（使用可能な場合）を使用して、Cookie をつなぎ合わせることができます。
 
 ### サードパーティ cookie の制限
 
@@ -75,7 +75,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーはAdobeを [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) サードパーティ Cookie としての ID ですが、クライアントはAdobeに対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しをおこないません。 この cookie はドメイン間で永続的な識別子として、HTTPS による安全なコンテンツ提供を可能にします。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子として、HTTPS による安全なコンテンツ提供を可能にします。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告のユースケース（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、所有する別のドメインに訪問者がアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -105,7 +105,7 @@ Analytics 実装では、ファーストパーティ cookie を使用して、�
 
 訪問者 ID サービスを使用している顧客の場合、cookie のプロパティ `SameSite=None` と `secure` はデフォルトで設定されているので、これらの cookie でサードパーティの使用例をサポートできます。
 
-Analytics の従来の識別子（「s_vi」および「s_fid」 cookie）を使用している顧客の場合、cookie は、標準の収集ドメイン（adobedc.net、2o7.net および omtrdc.net）を持つサードパーティの使用例も有効にするように設定されています。CNAME 実装を使用している顧客の場合、Analytics は `SameSite=Lax` を設定しています。
+Analytics の従来の識別子を使用している顧客の場合（`s_vi` および `s_fid` cookie）、cookie も、標準の収集ドメインでサードパーティの使用例を有効にするために設定されます。 `adobedc.net`, `2o7.net`、および `omtrdc.net`. CNAME 実装を使用している顧客の場合、Analytics は `SameSite=Lax` を設定しています。
 
 >[!NOTE]
 >

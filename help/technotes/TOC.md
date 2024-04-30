@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 100%
 + [処理順序](processing-order.md)
 + [プログレッシブ Web アプリケーション](pwa.md)
 + [リダイレクトとエイリアス](redirects.md)
-+ 地域データ収集 {#rdc}
-   + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
-   + [SSL 証明書ライセンス](rdc/ssl-cert-licensing.md)
-   + [サポートされる HTTPS 暗号化アルゴリズム](rdc/encryption-algos.md)
 + [セキュリティリソース](security.md)
 + [使用される用語（用語集）](terms.md)
 + [タイムスタンプオプション](timestamps-optional.md)
