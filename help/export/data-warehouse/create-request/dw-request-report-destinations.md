@@ -4,9 +4,9 @@ title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2584'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 >
 >レポートの宛先を設定する際には、次の点を考慮してください。
 >
->* レポートの宛先には、クラウドアカウントまたはメールを使用することをお勧めします。[従来の FTP アカウントと SFTP アカウント](#legacy-destinations) は使用可能ですが、推奨されていません。
+>* レポートの宛先には、クラウドアカウントまたはメールを使用することをお勧めします。[従来の FTP および SFTP アカウント](#legacy-destinations)を使用することはできますが、推奨していません。
 >
->* 以前に設定したクラウドアカウントは、Data Warehouseに使用できます。 クラウドアカウントは、次のいずれかの方法で設定できます。
+>* 以前に設定したクラウドアカウントは、データウェアハウスに使用できます。クラウドアカウントは、次のいずれかの方法で設定できます。
 >
->   * の設定時 [データフィード](/help/export/analytics-data-feed/create-feed.md)
+>   * [データフィード](/help/export/analytics-data-feed/create-feed.md)を設定する場合
 >   
->   * 条件 [Adobe Analytics分類データの読み込み](/help/components/locations/locations-manager.md) （アカウントは使用できますが、それらのアカウントに設定されている場所は使用できません。）
+>   * [Adobe Analytics 分類データを読み込む](/help/components/locations/locations-manager.md)場合（アカウントは使用できますが、それらのアカウントに設定されている場所は使用できません。）
 >   
->   * 場所マネージャーからの [コンポーネント/場所](/help/components/locations/configure-import-accounts.md).
+>   * 場所マネージャー（[コンポーネント／場所](/help/components/locations/configure-import-accounts.md)）から
 >
 >* クラウドアカウントは Adobe Analytics ユーザーアカウントに関連付けられています。他のユーザーは、設定したクラウドアカウントを使用したり、表示したりできません。
 >
->* の場所マネージャーから作成した任意の場所を編集できます [コンポーネント/場所](/help/components/locations/configure-import-accounts.md)
+>* 場所マネージャー（[コンポーネント／場所](/help/components/locations/configure-import-accounts.md)）から作成した任意の場所を編集できます。
 
-Data Warehouse レポートの送信先を設定するには：
+データウェアハウスレポートの送信先を設定するには、次の手順に従います。
 
 1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
@@ -44,27 +44,27 @@ Data Warehouse レポートの送信先を設定するには：
 
    ![レポートの宛先タブ](assets/dw-report-destination.png)
 
-1. （条件付き）クラウドアカウント（およびそのアカウントに対する宛先）が既にAdobe Analyticsで設定されている場合は、レポートの宛先として使用できます。
+1. （条件付き）クラウドアカウント（およびそのアカウントの宛先）が Adobe Analytics で既に設定されている場合は、それをレポートの宛先として使用できます。
 
    >[!NOTE]
    >
    >アカウントは、自分で設定した場合、または自分が属する組織と共有されていた場合にのみ使用できます。
    >
-   >システム管理者の場合、 [!UICONTROL **すべての宛先を表示**] オプションを利用できます。 組織内のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
+   >システム管理者の場合、「[!UICONTROL **すべての宛先を表示**]」オプションを使用できます。組織内のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
 
    1. [!UICONTROL **アカウントを選択**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
-      Adobe Analyticsの次のエリアのいずれかで設定したクラウドアカウントを使用できます。
+      Adobe Analytics の次の領域のいずれかで設定したクラウドアカウントを使用できます。
 
-      * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+      * [スキーマ](/help/components/classifications/sets/manage/schema.md)の説明に従って、Adobe Analytics 分類データを読み込む場合。
 
         ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
 
-      * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
+      * [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)および[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って、場所領域でアカウントと場所を設定する場合。
 
-   1. [!UICONTROL **宛先を選択**]&#x200B;ドロップダウンから、アカウントに関連付けられている宛先を選択します。<!-- Is this correct? -->
+   1. [!UICONTROL **宛先を選択**]&#x200B;ドロップダウンメニューから、アカウントに関連付けられている宛先を選択します。<!-- Is this correct? -->
 
-1. （条件付き）Adobe Analyticsで既に設定されている Cloud アカウントへのアクセス権がない場合は、次のいずれかを設定できます。
+1. （条件付き）Adobe Analytics で既に設定されているクラウドアカウントへのアクセス権がない場合は、次のいずれかのアカウントを設定できます。
 
    1. 「[!UICONTROL **アカウントを追加**]」を選択し、次の情報を指定します。
 
@@ -80,7 +80,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       +++Amazon S3
 
-      Amazon S3 ロール ARN アカウントを設定するには、次の情報を指定します。
+      Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
 
       | フィールド | 機能 |
       |---------|----------|
@@ -111,7 +111,7 @@ Data Warehouse レポートの送信先を設定するには：
       |---------|----------|
       | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
       | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-      | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS URI へのパス。  Azure SAS を構成するには、Azure Key Vault を使用して SAS URI をシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。</li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` 組み込みの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure の組み込みの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul><p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
+      | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS URI へのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS URI を秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。</li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` 組み込みの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure の組み込みの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul><p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
       | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。詳しくは、[Azure Key Vault からシークレットを設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
       | [!UICONTROL **シークレット**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
@@ -158,7 +158,7 @@ Data Warehouse レポートの送信先を設定するには：
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p><p>バケット名は、特定の命名規則を満たす必要があります。 例えば、3 ～ 63 文字の長さにする必要があり、小文字、数字、ドット （.）、ハイフン （–）のみで構成でき、先頭と末尾は文字または数字にする必要があります。 [命名規則の完全なリストについては、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p><p>バケット名は、特定の命名規則を満たす必要があります。例えば、3〜63 文字までの長さで、小文字、数字、ドット（.）、ハイフン（-）のみで構成でき、先頭と末尾は文字または数字にする必要があります。[命名規則の完全なリストについて詳しくは、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
       | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
       {style="table-layout:auto"}
@@ -185,7 +185,7 @@ Data Warehouse レポートの送信先を設定するには：
       | フィールド | 関数 |
       |---------|----------|
       | [!UICONTROL **コンテナ名**] | Adobe Analytics データの送信先として指定したアカウント内のコンテナ。 |
-      | [!UICONTROL **キープレフィックス**] | データを配置するコンテナ内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/`<p>Azure SAS アカウントを設定する際に、Key Vault シークレット名フィールドで指定した SAS URI ストアに `Write` 権限。 これにより、SAS URI を使用して Azure コンテナにファイルを作成できます。 <p>SAS URI でファイルも上書きする場合は、SAS URI ストアにが含まれていることを確認してください `Delete` 権限。</p><p>詳しくは、Azure Blob Storage ドキュメントの [Blob Storage のリソース](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)を参照してください。</p> |
+      | [!UICONTROL **キープレフィックス**] | データを配置するコンテナ内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/`<p>Azure SAS アカウントを設定する際に、Key Vault 秘密鍵名フィールドに指定した SAS URI ストアに `Write` 権限があることを確認します。これにより、SAS URI で Azure コンテナにファイルを作成できます。 <p>SAS URI でファイルも上書きする場合は、SAS URI ストアに `Delete` 権限があることを確認します。</p><p>詳しくは、Azure Blob Storage ドキュメントの [Blob Storage のリソース](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)を参照してください。</p> |
 
       {style="table-layout:auto"}
 
