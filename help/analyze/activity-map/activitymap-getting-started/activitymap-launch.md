@@ -4,21 +4,29 @@ title: Activity Map の起動
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
-workflow-type: ht
-source-wordcount: '63'
-ht-degree: 100%
+source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 35%
 
 ---
 
 
 # Activity Map の起動
 
-正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
+正しいブラウザー/拡張機能がであるとします。 [installed](/help/analyze/activity-map/activitymap-getting-started/activitymap-install.md)を使用すると、web ページから直接Activity Mapを起動できます。
 
-1. ブラウザーのアドレスバーの右側にある Adobe Analytics アイコンをクリックします。\
-   <br/><img src="./assets/an_icon.png" width="150px"/><br/>
+## Chrome での起動
 
-2. ログイン用の会社名、ユーザ名およびパスワードを使用してログインします。
+1. 
+   1. 右上の Chrome 拡張機能アイコンをクリックします。
+      ![Activity Map拡張機能](assets/chrome2.png)
+1. 「Activity Map」をクリックします。
+   ![Activity Map の起動](assets/chrome3.png)
+1. プロファイル、ユーザー名、パスワードを使用してログインします。
+1. アプリケーションが起動し、ツールバーとオーバーレイが表示されます。
 
-3. アプリケーションが起動し、ツールバーとオーバーレイが表示されます。
+## Firefox での起動
+
+
+
