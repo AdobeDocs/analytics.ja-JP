@@ -1,51 +1,51 @@
 ---
 title: 動的検索
-description: 動的検索とは何か、および動的検索を有効にする方法について説明します。 通信事業者、モバイル属性、オペレーティングシステムタイプが含まれます。
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+description: 動的検索の概要と有効化方法について説明します。 通信事業者、モバイル属性、オペレーティングシステムの種類が含まれます。
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
 
 # 動的検索
 
-動的検索を使用すると、データフィードで追加の参照ファイルを受け取ることができます。このファイルがない場合は、利用できません。 この設定により、各データフィードファイルと共に次のルックアップテーブルを送信できます。
+動的検索を使用すると、追加の参照ファイルをデータフィードで受け取ることができます。それ以外の場合は使用できません。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。
 
-* **通信事業者名**:追加のコンテキストを提供します。 `carrier` 列。 含まれるファイル名は `carrier.tsv`.
-* **モバイル属性**:追加のコンテキストを提供します。 `mobile_id` 」列に追加されます。この列には、各モバイルデバイスで追跡されるすべての機能が含まれます。 含まれるファイル名は `mobile_attributes.tsv`.
-* **オペレーティングシステムの種類**:の代替コンテキストを提供します。 `os` 列。 両方 `operating_systems.tsv` および `operating_system_type.tsv` を使用します。 `os` 列をキーとして使用しますが、 `operating_system_type.tsv` は動的検索です。
+* **通信事業者名**：の追加コンテキストを提供します `carrier` 列。 含まれるファイル名は次のとおりです `carrier.tsv`.
+* **モバイル属性**：の追加コンテキストを提供します `mobile_id` 列（各モバイルデバイスで追跡されたすべての機能を含む）。 含まれるファイル名は次のとおりです `mobile_attributes.tsv`.
+* **オペレーティングシステムの種類**：の代替コンテキストを提供します `os` 列。 両方 `operating_systems.tsv` および `operating_system_type.tsv` を使用する `os` 列がキーになっていますが、のみ `operating_system_type.tsv` は動的検索です。
 
-## 動的検索を有効にする
+## 動的検索の有効化
 
-前述の参照ファイルを受け取る場合は、次の前提条件をすべて満たす必要があります。
+前述の参照ファイルを受け取るには、次の前提条件をすべて満たす必要があります。
 
-* キー列は、データフィードに含める必要があります。
-   * の場合 `carrier.tsv`を含める必要があります。 `carrier`.
-   * の場合 `mobile_attributes.tsv`を含める必要があります。 `mobile_id`.
-   * の場合 `operating_system_type.tsv`を含める必要があります。 `os`.
-* 次の列を **除外済み**. これらの列のいずれかがデータフィードに含まれている場合、追加のルックアップテーブルは含まれません。
+* キー列をデータフィードに含める必要があります。
+   * の場合 `carrier.tsv`を含める必要があります `carrier`.
+   * の場合 `mobile_attributes.tsv`を含める必要があります `mobile_id`.
+   * の場合 `operating_system_type.tsv`を含める必要があります `os`.
+* 次の列は、である必要があります **除外済み**. データフィードにこれらの列が含まれている場合は、 `mobile_attributes.tsv` 動的検索は含まれません。
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
-データフィードが列の追加要件と除外要件を満たしたら、データフィード ID をサポートに連絡し、動的な検索を有効にするようリクエストします。
+データフィードが列の包含および除外の要件を満たしたら、カスタマーケアにデータフィード ID を連絡し、動的検索を有効にするようリクエストします。
 
 ## 参照ヘッダーの参照
 
-これらの参照ファイルの列ヘッダーは、時間の経過と共に変化しないので、各データフィードファイルにはヘッダーが含まれません。 これらの列ヘッダーを参照として使用するか、それぞれのヘッダーをダウンロードします `.tsv` ファイル。
+これらの参照ファイルの列ヘッダーは、時間の経過に伴って変化しないので、各データフィードファイルにはヘッダーは含まれません。 これらの列ヘッダーを参照として使用するか、それぞれダウンロードします `.tsv` ファイル。
 
 +++**通信事業者名**
-ダウンロード [carrier_headers.tsv](assets/carrier_headers.tsv) または以下のヘッダーを参照します。
+Download [carrier_headers.tsv](assets/carrier_headers.tsv) または、以下のヘッダーを参照してください。
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**モバイル属性**
-ダウンロード [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) または以下のヘッダーを参照します。
+Download [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) または、以下のヘッダーを参照してください。
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ ht-degree: 1%
 +++
 
 +++**オペレーティングシステムの種類**
-ダウンロード [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) または以下のヘッダーを参照します。
+Download [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) または、以下のヘッダーを参照してください。
 
 `os`
 `Operating System Type`

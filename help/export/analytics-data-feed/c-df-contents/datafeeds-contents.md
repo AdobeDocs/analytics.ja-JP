@@ -5,30 +5,30 @@ subtopic: data feeds
 title: データフィードの内容 - 概要
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 77%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
-# データフィードの内容 — 概要
+# データフィードの内容 – 概要
 
-次の節では、データフィード配信で見つかったファイルにアクセスし理解する方法について説明します。
+次の節では、データフィード配信にあるファイルにアクセスして理解する方法について説明します。
 
-## データフィードコンテンツへのアクセス
+## データフィードのコンテンツへのアクセス
 
 データフィードのコンテンツにアクセスするには：
 
 1. データフィードの宛先サイトにログインします。
 
-   これは、Amazon S3 やGoogle Cloud Platform バケットなど、データフィードを作成する際に設定する宛先サイトです。
+   これは、Amazon S3 やGoogle Cloud Platform バケットなどのデータフィードを作成する際に設定する宛先サイトです。
 
 1. 圧縮データフィードファイルをローカルマシンにダウンロードします。
 
 1. `.tar.gz` ファイル拡張子をサポートするプログラムを使用して、圧縮ファイルを解凍します。
 
-1. スプレッドシートまたはデータベースアプリケーションで `hit_data.tsv` ファイルを開き、その日の生データを確認します。 —>
+1. を開きます `hit_data.tsv` その日の生データを表示するには、スプレッドシートまたはデータベースアプリケーションで選択したファイルを使用します。—>
 
 ## マニフェストファイル {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 すべてのマニフェストファイルに、参照ファイルの合計数、データファイルの合計数、全データファイル内のレコードの合計数を示すヘッダーが含まれています。このヘッダーの後に、データフィード配信に含まれる各ファイルの情報が記述された複数のセクションが続きます。
 
-`.fin` ファイルのマニフェストの代わりに `.txt` ファイルを受信するようにフィードが設定されている場合もあります。この `.fin` ファイルは、アップロードが完了したことを示しますが、アップロードに関するメタデータを含みません。
+`.fin` ファイルのマニフェストの代わりに `.txt` ファイルを受信するようにフィードが設定されている場合もあります。この `.fin` は、アップロードが完了したが、その中に含まれるメタデータが古い形式であることを示します。
 
 ## 参照ファイル
 
@@ -81,20 +81,20 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**:列ヘッダーを含む単一の行 `hit_data.tsv`.
-* **`browser.tsv`**:ブラウザー ID( `browser` フィード列 ) をブラウザーのわかりやすい名前に変更する必要があります。
-* **`browser_type.tsv`**:ブラウザー ID( `browser` フィード列 ) をブラウザーのタイプに追加する必要があります。
-* **`color_depth.tsv`**:色深度 ID( `color` フィード列 ) を色深度に変更します。
-* **`connection_type.tsv`**:接続タイプ ID ( `connection_type` フィード列 ) を接続タイプに追加します。
-* **`country.tsv`**:国 ID( `country` フィード列 ) を国名に追加する必要があります。
-* **`javascript_version.tsv`**:JavaScript バージョン ID ( `javascript` フィード列 ) を JavaScript バージョンに追加する必要があります。
-* **`languages.tsv`**:言語 ID ( `language` フィード列 ) を言語に追加します。
-* **`operating_systems.tsv`**:オペレーティングシステム ID( `os` フィード列 ) をオペレーティングシステム名に追加します。
-* **`plugins.tsv`**:プラグイン ID( `plugin` フィード列 ) を各プラグイン名に追加する必要があります。
-* **`resolution.tsv`**:解像度 ID ( `resolution` フィード列 ) を画面の解像度に合わせて表示します。
-* **`referrer_type.tsv`**:リファラータイプ ID( `ref_type` フィード列 ) をリファラータイプに追加します。
-* **`search_engines.tsv`**:検索エンジン ID( `search_engine` フィード列 ) を検索エンジン名に追加します。
-* **`event.tsv`**:各イベント ID( `event_list` フィード列 ) をそれぞれのイベント名に追加する必要があります。
+* **`column_headers.tsv`**：の列ヘッダーを含む 1 行 `hit_data.tsv`.
+* **`browser.tsv`**：ブラウザー ID （ `browser` フィード列）を使用して、ブラウザーのわかりやすい名前を指定します。
+* **`browser_type.tsv`**：ブラウザー ID （ `browser` フィード列）を使用して、ブラウザーのタイプを定義します。
+* **`color_depth.tsv`**：色深度 ID （ `color` フィード列）を色深度に設定します。
+* **`connection_type.tsv`**：接続タイプ ID （ `connection_type` フィード列）を使用して、接続タイプを指定します。
+* **`country.tsv`**：国 ID （ `country` フィード列）を国名に変換します。
+* **`javascript_version.tsv`**:JavaScript バージョン ID （ `javascript` フィード列）を使用して、JavaScript バージョンに変換します。
+* **`languages.tsv`**：言語 ID （ `language` フィード列）を言語に変換します。
+* **`operating_systems.tsv`**：オペレーティングシステム ID （ `os` フィード列）を使用して、オペレーティングシステム名を指定します。
+* **`plugins.tsv`**：プラグイン ID （ `plugin` フィード列）を使用して、それぞれのプラグイン名を指定します。
+* **`resolution.tsv`**：解決 ID （ `resolution` フィード列）を使用して、モニターの解像度を変更できます。
+* **`referrer_type.tsv`**：リファラータイプ ID （ `ref_type` フィード列）をリファラータイプに割り当てます。
+* **`search_engines.tsv`**：検索エンジン ID （ `search_engine` フィード列）を検索エンジン名に追加します。
+* **`event.tsv`**：各イベント ID （ `event_list` フィード列）をイベント名に変換します。
 
 ## ヒットデータファイル
 
@@ -107,6 +107,7 @@ Datafeed-Manifest-Version: 1.0
 * `[YYYY-mm-dd]` は、データフィードの開始日を示します。
 * `[HHMMSS]` は時間別フィードでのみ使用され、データフィードの開始時間を示します。
 * `[compression_suffix]` は、使用される圧縮のタイプを指します。通常、データフィードは `tar.gz` または `zip` ファイルに圧縮されます。
+* `[format_suffix]` は、ファイル形式のタイプを参照します。 通常、データフィードファイルの形式はです `.tsv`.
 
 ### 日別、単一ファイル
 
@@ -122,7 +123,7 @@ Datafeed-Manifest-Version: 1.0
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-展開すると、各データファイルには約 2GB の非圧縮データを含む `hit_data.tsv` が 1 つと、必要な列のルックアップファイルが含まれています。
+展開すると、各データファイルには約 2GB の非圧縮データを含む `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` が 1 つと、必要な列のルックアップファイルが含まれています。
 
 ### 時間別、単一ファイル
 
@@ -134,11 +135,11 @@ Datafeed-Manifest-Version: 1.0
 
 ### 時間別、複数のファイル
 
-1 時間分のデータを収集した後、圧縮データファイル 1 つ以上とマニフェストファイル 1 つを受け取ります。データファイルの名前は次のようになります。
+1 時間分のデータを収集した後、圧縮データファイル 1 つ以上とマニフェストファイル 1 つを受け取ります。データファイルの名前は次のとおりです。
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-展開すると、各データファイルには約 2GB の非圧縮データを含む `hit_data.tsv` が 1 つと、必要な列のルックアップファイルが含まれています。
+抽出された場合、各データファイルには、1 つのが含まれます `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` 約 2 GB の非圧縮データと、必要な列のルックアップファイルを含むファイル。
 
 ## データファイルサイズ
 
