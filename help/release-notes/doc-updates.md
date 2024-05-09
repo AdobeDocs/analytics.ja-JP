@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年4月** | |
-| 分類セットの「所有者」に関連するドキュメントを削除しました | 「所有者」フィルターおよび列がから削除されました [分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md) 「所有者」フィールドがから削除されました [分類セットの設定](/help/components/classifications/sets/manage/settings.md). <p>このフィルター、列、フィールドを削除するようにドキュメントを更新しました。</p> |
+| 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました。 | クラウドアカウントタイプの説明に関する[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の折りたたみ可能な節を削除しました。 |
 | **2024年3月** | |
 | AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数ドキュメントへの参照と更新が含まれます。 |
@@ -296,7 +296,7 @@ ht-degree: 98%
 | 2019年5月9日 | フロービジュアライゼーション設定に新しい設定を追加しました：繰り返しインスタンスを含める。[フロー設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)を参照 |
 | 2019年4月11日 | ワークスペースの最適化のベストプラクティスに関する機能強化：[パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019年4月11日 | [ワークスペースのパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
-| 2019年3月14日 | 地域のデータ収集を大幅に更新しました。 |
+| 2019年3月14日 | 地域データ収集が大幅に更新されました。 |
 | 2019年2月7日 | [一般アカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
 | 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
