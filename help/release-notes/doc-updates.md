@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '5315'
-ht-degree: 100%
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2024年5月** | |
+| Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。<p>次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| カスタム日付範囲に関するドキュメントを更新しました | に関連するスクリーンショットと手順を更新しました [カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 現在の製品の機能やデザインに合わせるために。 |
 | **2024年4月** | |
 | 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました。 | クラウドアカウントタイプの説明に関する[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の折りたたみ可能な節を削除しました。 |
