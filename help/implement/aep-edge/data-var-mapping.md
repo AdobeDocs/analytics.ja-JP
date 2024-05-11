@@ -1,63 +1,63 @@
 ---
 title: Adobe Analyticsへのデータオブジェクト変数のマッピング
-description: Edge が Analytics 変数に自動的にマッピングするExperience Platformオブジェクトフィールドを表示します。
+description: Experience PlatformEdge が Analytics 変数に自動的にマッピングするデータオブジェクトフィールドを表示します。
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Adobe Analyticsへのデータオブジェクト変数のマッピング
 
-次の表に、Adobe Experience Platform Edge Network が自動的にAdobe Analyticsにマッピングするデータオブジェクト変数を示します。 これらのデータオブジェクトフィールドパスを使用する場合、Adobe Analyticsにデータを送信するための追加の設定は必要ありません。
+次の表に、Adobe Experience PlatformEdge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクト変数を示します。 これらのデータオブジェクトフィールドのパスを使用する場合、データをAdobe Analyticsに送信するために追加の設定は必要ありません。
 
-将来Customer Journey Analyticsを使用する場合は、これらのフィールドを使用することをお勧めします。 この実装方法を使用すると、XDM スキーマに準拠していなくても、Web SDK を使用してAdobeにデータを送信できます。 組織でAdobe Experience Platformにデータを送信する準備が整ったら、 [データストリームマッピング](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定します。
+今後Customer Journey Analyticsを使用する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装方法を使用すると、XDM スキーマに準拠せずに、web SDK を使用してAdobeにデータを送信できます。 Adobe Experience Platformにデータを送信する準備が整ったら、 [データストリームマッピング](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) でデータオブジェクトフィールドをそれぞれの XDM フィールドに指定します。
 
-## 優先度の価値
+## 値の優先度
 
-このテーブルのデータオブジェクトフィールドは、 [マッピングされた XDM フィールド](xdm-var-mapping.md). 両方の `data` オブジェクトフィールドとそれぞれの XDM フィールド、データオブジェクトフィールドが優先されます。 XDM オブジェクトフィールドとデータオブジェクトフィールドの両方を使用する場合、Adobeでは、データオブジェクトフィールドを使用してカスタムイベントを設定することをお勧めします。 フィールドが `data.__adobe.analytics.events` が存在する場合は、コマースおよびカスタムイベントに関連するすべての XDM オブジェクトフィールドを上書きします。
+このテーブル内のほとんどのデータオブジェクトフィールドは、 [マッピングされた XDM フィールド](xdm-var-mapping.md). 特定のデータオブジェクトフィールドとそれぞれの XDM フィールドの両方を設定した場合、データオブジェクトフィールドが優先されます。 例えば、フィールドが `data.__adobe.analytics.events` が存在する場合、イベント関連のすべての XDM オブジェクトフィールドを上書きします。
 
-一部のデータオブジェクトフィールドは、それぞれの [クエリパラメーター値](../validate/query-parameters.md) 略記法の値として。 それぞれが一意の変数を持つ限り、標準データオブジェクトフィールドと短縮形データオブジェクトフィールドを同じ意味で使用できます。 標準データオブジェクトフィールドと、それぞれの短縮形のデータオブジェクトフィールドの両方を同時に設定しないでください。 Adobeは、どのフィールドが優先されるかを保証できません。
+一部のデータオブジェクトフィールドも、それぞれのサポートを提供しています [クエリパラメーター値](../validate/query-parameters.md) 略記法の値。 標準のデータオブジェクトフィールドと短縮形のデータオブジェクトフィールドは、一意の変数に対してそれぞれが存在する限り、区別なく使用することができます。 標準データオブジェクトフィールドと、それぞれの短縮形データオブジェクトフィールドの両方を同時に設定しないでください。 Adobeでは、どのフィールドが優先されるかを保証することはできません。
 
 ## データオブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)で確認できます。
+このテーブルに対する以前の更新は、このページので確認できます [github のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). AppMeasurement変数と同様に、すべてのデータオブジェクトフィールドでは大文字と小文字が区別されます。
 
-| データオブジェクトフィールドのパス | Analytics 変数と説明 |
+| データオブジェクトフィールドのパス | Analytics の変数と説明 |
 | --- | --- |
-| `data.__adobe.analytics.browserHeight` | The [ブラウザーの高さ](../../components/dimensions/browser-height.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.bh` はサポートされています。 |
-| `data.__adobe.analytics.browserWidth` | The [ブラウザーの幅](../../components/dimensions/browser-width.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.bw` はサポートされています。 |
-| `data.__adobe.analytics.campaign` | The [トラッキングコード](../../components/dimensions/tracking-code.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.v0` はサポートされています。 |
-| `data.__adobe.analytics.channel` | The [サイトセクション](../../components/dimensions/site-section.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.ch` はサポートされています。 |
-| `data.__adobe.analytics.colorDepth` | The [色深度](../../components/dimensions/color-depth.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.c` はサポートされています。 |
-| `data.__adobe.analytics.connectionType` | The [接続タイプ](../../components/dimensions/connection-type.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.ct` はサポートされています。 |
+| `data.__adobe.analytics.browserHeight` | この [ブラウザーの高さ](../../components/dimensions/browser-height.md) ディメンション。 略記法フィールド `data.__adobe.analytics.bh` もサポートされています。 |
+| `data.__adobe.analytics.browserWidth` | この [ブラウザーの幅](../../components/dimensions/browser-width.md) ディメンション。 略記法フィールド `data.__adobe.analytics.bw` もサポートされています。 |
+| `data.__adobe.analytics.campaign` | この [トラッキングコード](../../components/dimensions/tracking-code.md) ディメンション。 略記法フィールド `data.__adobe.analytics.v0` もサポートされています。 |
+| `data.__adobe.analytics.channel` | この [サイトセクション](../../components/dimensions/site-section.md) ディメンション。 略記法フィールド `data.__adobe.analytics.ch` もサポートされています。 |
+| `data.__adobe.analytics.colorDepth` | この [色深度](../../components/dimensions/color-depth.md) ディメンション。 略記法フィールド `data.__adobe.analytics.c` もサポートされています。 |
+| `data.__adobe.analytics.connectionType` | この [接続タイプ](../../components/dimensions/connection-type.md) ディメンション。 略記法フィールド `data.__adobe.analytics.ct` もサポートされています。 |
 | `data.__adobe.analytics.contextData` | [コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md). |
-| `data.__adobe.analytics.cookiesEnabled` | The [cookie サポート](../../components/dimensions/cookie-support.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.k` はサポートされています。 |
-| `data.__adobe.analytics.currencyCode` | The [`currencyCode`](../vars/config-vars/currencycode.md) 実装変数。 短縮形のフィールド `data.__adobe.analytics.cc` はサポートされています。 |
-| `data.__adobe.analytics.dynamicVariablePrefix` | The [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) 実装変数。 |
-| `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` | [eVar](../../components/dimensions/evar.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.v1` - `data.__adobe.analytics.v250` はサポートされています。 |
-| `data.__adobe.analytics.events` | [カスタムイベント](../../components/metrics/custom-events.md). このフィールドの書式を [`events`](../vars/page-vars/events/events-overview.md) 実装変数。 |
-| `data.__adobe.analytics.javaEnabled` | The [Java 有効](../../components/dimensions/java-enabled.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.v` はサポートされています。 |
-| `data.__adobe.analytics.latitude` | 設定に役立つ [場所](../../components/dimensions/lifecycle-dimensions.md) モバイルのライフサイクルディメンション。 短縮形のフィールド `data.__adobe.analytics.lat` はサポートされています。 |
-| `data.__adobe.analytics.linkName` | The [カスタムリンク](../../components/dimensions/custom-link.md), [ダウンロードリンク](../../components/dimensions/download-link.md)または [出口リンク](../../components/dimensions/exit-link.md) ディメンション ( `data.__adobe.analytics.linkType`. 短縮形のフィールド `data.__adobe.analytics.pev2` はサポートされています。 |
-| `data.__adobe.analytics.linkURL` | The [`linkURL`](../vars/config-vars/linkurl.md) 実装変数。 短縮形のフィールド `data.__adobe.analytics.pev1` はサポートされています。 |
-| `data.__adobe.analytics.linkType` | クリックされたリンクのタイプを判断します。有効な値は次のとおりです。 `o` （カスタムリンク） `d` （ダウンロードリンク）、 `e` （出口リンク）。 短縮形のフィールド `data.__adobe.analytics.pe` はサポートされています。 |
-| `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | [`list`](/help/implement/vars/page-vars/list.md) 実装変数。 短縮形のフィールド `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` はサポートされています。 |
-| `data.__adobe.analytics.longitude` | ヘルプセット [場所](../../components/dimensions/lifecycle-dimensions.md) モバイルのライフサイクルディメンション。 短縮形のフィールド `data.__adobe.analytics.lon` はサポートされています。 |
-| `data.__adobe.analytics.pageName` | 「[ページ](/help/components/dimensions/page.md)」ディメンション。 |
-| `data.__adobe.analytics.pageURL` | The [ページ URL](/help/components/dimensions/page-url.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.g` はサポートされています。 |
-| `data.__adobe.analytics.pageType` | The [`pageType`](../vars/page-vars/pagetype.md) 実装変数。 |
-| `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | [Prop](../../components/dimensions/prop.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` はサポートされています。 |
-| `data.__adobe.analytics.purchaseID` | The [`purchaseID`](../vars/page-vars/purchaseid.md) 実装変数。 |
-| `data.__adobe.analytics.products` | The [`products`](../vars/page-vars/products.md) 実装変数に書き込みます。 |
+| `data.__adobe.analytics.cookiesEnabled` | この [Cookie サポート](../../components/dimensions/cookie-support.md) ディメンション。 略記法フィールド `data.__adobe.analytics.k` もサポートされています。 |
+| `data.__adobe.analytics.currencyCode` | この [`currencyCode`](../vars/config-vars/currencycode.md) 実装変数。 略記法フィールド `data.__adobe.analytics.cc` もサポートされています。 |
+| `data.__adobe.analytics.dynamicVariablePrefix` | この [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) 実装変数。 |
+| `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` | [eVar](../../components/dimensions/evar.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.v1` - `data.__adobe.analytics.v250` もサポートされています。 |
+| `data.__adobe.analytics.events` | [カスタムイベント](../../components/metrics/custom-events.md). このフィールドの形式を「」と同様にします [`events`](../vars/page-vars/events/events-overview.md) 実装変数。 |
+| `data.__adobe.analytics.javaEnabled` | この [Java 有効](../../components/dimensions/java-enabled.md) ディメンション。 略記法フィールド `data.__adobe.analytics.v` もサポートされています。 |
+| `data.__adobe.analytics.latitude` | を設定するのに役立ちます [場所](../../components/dimensions/lifecycle-dimensions.md) モバイルライフサイクルディメンション。 略記法フィールド `data.__adobe.analytics.lat` もサポートされています。 |
+| `data.__adobe.analytics.linkName` | この [カスタムリンク](../../components/dimensions/custom-link.md), [ダウンロードリンク](../../components/dimensions/download-link.md)、または [離脱リンク](../../components/dimensions/exit-link.md) ディメンション （の値によって異なる） `data.__adobe.analytics.linkType`. 略記法フィールド `data.__adobe.analytics.pev2` もサポートされています。 |
+| `data.__adobe.analytics.linkURL` | この [`linkURL`](../vars/config-vars/linkurl.md) 実装変数。 略記法フィールド `data.__adobe.analytics.pev1` もサポートされています。 |
+| `data.__adobe.analytics.linkType` | クリックされたリンクのタイプを判断します。有効な値は次のとおりです `o` （カスタムリンク）、 `d` （ダウンロードリンク）、 `e` （離脱リンク）。 略記法フィールド `data.__adobe.analytics.pe` もサポートされています。 |
+| `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | [`list`](/help/implement/vars/page-vars/list.md) 実装変数。 短縮形のフィールド `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` もサポートされています。 |
+| `data.__adobe.analytics.longitude` | を設定するヘルプ [場所](../../components/dimensions/lifecycle-dimensions.md) モバイルライフサイクルディメンション。 略記法フィールド `data.__adobe.analytics.lon` もサポートされています。 |
+| `data.__adobe.analytics.pageName` | [ページ](/help/components/dimensions/page.md)ディメンション。 |
+| `data.__adobe.analytics.pageURL` | この [ページ URL](/help/components/dimensions/page-url.md) ディメンション。 略記法フィールド `data.__adobe.analytics.g` もサポートされています。 |
+| `data.__adobe.analytics.pageType` | この [`pageType`](../vars/page-vars/pagetype.md) 実装変数。 |
+| `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | [Prop](../../components/dimensions/prop.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` もサポートされています。 |
+| `data.__adobe.analytics.purchaseID` | この [`purchaseID`](../vars/page-vars/purchaseid.md) 実装変数。 |
+| `data.__adobe.analytics.products` | この [`products`](../vars/page-vars/products.md) 実装変数。同様の形式を使用します。 |
 | `data.__adobe.analytics.referrer` | 「[リファラー](/help/components/dimensions/referrer.md)」ディメンション。 |
-| `data.__adobe.analytics.resolution` | The [画面の解像度](../../components/dimensions/monitor-resolution.md) ディメンション。 短縮形のフィールド `data.__adobe.analytics.s` はサポートされています。 |
+| `data.__adobe.analytics.resolution` | この [画面の解像度](../../components/dimensions/monitor-resolution.md) ディメンション。 略記法フィールド `data.__adobe.analytics.s` もサポートされています。 |
 | `data.__adobe.analytics.server` | 「[サーバー](/help/components/dimensions/server.md)」ディメンション。 |
-| `data.__adobe.analytics.transactionID` | The [`transactionID`](../vars/page-vars/transactionid.md) 実装変数。 短縮形のフィールド `data.__adobe.analytics.xact` はサポートされています。 |
-| `data.__adobe.analytics.zip` | The [郵便番号](../../components/dimensions/zip-code.md) ディメンション。 |
+| `data.__adobe.analytics.transactionID` | この [`transactionID`](../vars/page-vars/transactionid.md) 実装変数。 略記法フィールド `data.__adobe.analytics.xact` もサポートされています。 |
+| `data.__adobe.analytics.zip` | この [郵便番号](../../components/dimensions/zip-code.md) ディメンション。 |
 
 {style="table-layout:auto"}
