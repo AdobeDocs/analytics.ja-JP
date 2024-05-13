@@ -3,34 +3,35 @@ description: Advertising Analytics で使用する、Experience Cloud をマッ�
 title: Advertising Analytics 用のレポートスイートの有効化
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 47%
 
 ---
 
 # Advertising Analytics 用のレポートスイートの有効化
 
-Advertising Analytics の検索データを Analytics で表示するには、Experience Cloud をマッピングした各レポートスイートを Advertising Analytics レポート用に設定する必要があります。
+Analytics でAdvertising Analyticsの検索データを表示するには、Advertising Analytics レポート用にExperience Cloudがマッピングされた各レポートスイートを設定する必要があります。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]** に移動します。
 
 1. Experience Cloud の組織にマッピングされているレポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL Advertising Analytics 設定]**&#x200B;をクリックします。
 
-   ![レポート](assets/aa_reporting.png)
+   ![レポート](assets/aa-reporting.png)
 
    >[!IMPORTANT]
    >
-   >AMO ID は、検索データの挿入先となる Adobe Advertising Cloud 変数を参照します。
+   >AMO ID とは、検索データが挿入されるAdobe Advertising Cloud（Adobe Media Optimizerとも呼ばれます）変数を指します。
 
-1. 変数の配分と AMO ID 変数で使用する有効期限を設定します。コンバージョン変数（eVar）を使用することで、Adobe Analytics は成功イベントを具体的な変数値と紐づけることができます。成功イベントが発生するまでに変数が変化することがあります。その場合、どの変数値にイベントのクレジットが付与されるかは、配分の設定によって決まります。
+1. を選択 **[!UICONTROL Advertising Analyticsに慣れていない？ 詳しくは、ここをクリックしてください]** Advertising Analyticsの詳細情報。
+
+1. AMO ID 変数で使用する変数の配分と有効期限を設定します。 コンバージョン変数（eVar）を使用することで、Adobe Analytics は成功イベントを具体的な変数値と紐づけることができます。成功イベントが発生するまでに変数が変化することがあります。その場合、どの変数値にイベントのクレジットが付与されるかは、配分の設定によって決まります。
 
    | 設定 | 定義 |
    |--- |--- |
-   | 元の値（最初） | 最初の値にクレジットのすべての配分が付与されます。それ以降の値は関係ありません。 |
-   | 最新（最後） | 最後の値に成功イベントのクレジットのすべての配分が付与されます。その前にどのような変数が発生したかは関係ありません。 |
-   | 有効期限 | eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定できます。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
+   | **[!UICONTROL 配分]** | 次から選択します。<br/> **[!UICONTROL 元の値（最初）]**：表示される最初の値は、その変数の後続の値に関係なく、完全な配分クレジットを取得します。 <br/>**[!UICONTROL 最新（最後）]**：表示された最後の値は、どのような変数が以前に発生した場合でも、成功イベントの配分クレジット全体を取得します。 |
+   | **[!UICONTROL 有効期限]** | eVar値の有効期限が切れる（つまり、成功イベントのクレジットを受け取らない）期間またはイベントを指定できます。  eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」値がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
-1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回時）、または「**[!UICONTROL Advertising Analytics レポートを更新]**」（2 回目以降）をクリックします。これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)状態ではありません。
+1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回時）、または「**[!UICONTROL Advertising Analytics レポートを更新]**」（2 回目以降）をクリックします。これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。準備が整いました [広告アカウントの作成](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

@@ -3,10 +3,10 @@ description: Advertising Analytics に関する問題をトラブルシューテ
 title: Advertising Analytics のトラブルシューティング
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 ## 「マッピング」セクションにレポートスイートが表示されません。 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-[新規の Advertising アカウントを設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)しようとしても、**[!UICONTROL レポートスイートの選択]**&#x200B;ドロップダウンリストにレポートスイートが表示されません。2 つの理由が考えられます。
+実行しようとしている [新しい広告アカウントの設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) にレポートスイートが表示されません。 **[!UICONTROL マッピングされたレポートスイート]** ドロップダウンリスト。 2 つの理由が考えられます。
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,11 +28,11 @@ ht-degree: 92%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. レポートスイートがログインユーザーの Experience Cloud Org ID にマッピングされていません。 </p> </td> 
-   <td colname="col2"> <p>カスタマーケアに問い合わせて、レポートスイートを組織 ID にマッピングしてください。</p> </td> 
+   <td colname="col1"> <p>1. レポートスイートがログインユーザーのExperience Cloud組織 ID にマッピングされていない。 </p> </td> 
+   <td colname="col2"> <p>カスタマーケアに連絡して、レポートスイートを組織 ID にマッピングしてください。</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. レポートスイートが Advertising Analytics レポート用にプロビジョニングされていません。 </p> </td> 
+   <td colname="col1"> <p>2. レポートスイートがAdvertising Analytics レポート用にプロビジョニングされていない。 </p> </td> 
    <td colname="col2"> <p>手順については、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >レポートスイートのプロビジョニング</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 

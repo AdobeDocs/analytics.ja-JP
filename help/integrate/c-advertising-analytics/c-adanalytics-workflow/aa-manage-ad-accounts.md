@@ -3,10 +3,10 @@ description: Advertising Analytics でアカウントを管理します。
 title: 広告アカウントの管理
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 管理 UI にアクセスするには、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
 
-![](assets/manage_ad_accounts.png)
+![広告アカウント](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 追加 </p> </td> 
-   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Advertising アカウントの設定</a> UI が表示されます。 </p> </td> 
+   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Advertising アカウントの設定</a> UI が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>名前変更 </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>一時停止 </p> </td> 
-   <td colname="col2"> <p>アカウントを非アクティブ化します。再びアクティブ化するには、「<span class="uicontrol">アクティブにする</span>」をクリックします。 </p> </td> 
+   <td colname="col2"> <p>アカウントを非アクティブ化します。再度アクティブにするには、を選択します <span class="uicontrol">Activate</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>列ヘッダー</b> </p> </td> 
@@ -54,11 +54,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイート </p> </td> 
-   <td colname="col2"> <p>この Advertising アカウントにマッピングされたレポートスイート。 </p> </td> 
+   <td colname="col2"> <p>この広告アカウントにマッピングされたレポートスイート。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>タイプ </p> </td> 
-   <td colname="col2"> <p>現時点では「検索」タイプのみがサポートされています。 </p> </td> 
+   <td colname="col2"> <p>サポートされているタイプは 1 つだけです：検索。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウント </p> </td> 

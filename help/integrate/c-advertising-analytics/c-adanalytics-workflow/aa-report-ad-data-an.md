@@ -1,30 +1,30 @@
 ---
-description: Analysis Workspaceテンプレートの詳細と、Report Builderでのレポート。
+description: Analysis Workspace テンプレートとReport Builderでのレポートの詳細です。
 title: Adobe Analytics での広告データのレポート
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# Adobe Analytics での広告データのレポート
+# 広告データのレポート
 
-Analysis Workspaceテンプレートの詳細と、Report Builderでのレポート。
-
->[!NOTE]
->
-> 検索エンジンのデータが Analytics レポートに入力され始めるまでに 24 時間以上かかることを想定する必要があります。また、AMO データは時間単位の精度をサポートしていないので、Analytics レポートが時間単位の精度でデータを返さないことに注意してください。
-
-## Analysis Workspace：検索エンジン {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-このテンプレートを使用すると、この検索エンジン統合を実装するユーザーは、Analytics で大量の検索エンジンデータにアクセスできます。**[!UICONTROL Workspace]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 広告]**／**[!UICONTROL 検索エンジン]**&#x200B;からアクセスできます。
+この記事では、Analysis Workspace レポートとReport Builderでのレポートの詳細を説明します。
 
 >[!NOTE]
 >
->広告テンプレートのカテゴリーは、Advertising アカウントを導入していなくても、すべてのお客様に表示されます。ただし、プロビジョニングされていない会社の検索エンジンテンプレートを開こうとすると、検索エンジンアカウントが設定されていないというエラーメッセージが表示されます。この場合は、「**[!UICONTROL 今すぐ設定]**」をクリックし、[Advertising アカウント設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)画面に移動します。
+>検索エンジンデータが Analytics レポートに入力され始めるまで、少なくとも 24 時間待つことをお勧めします。 また、Advertising Cloud データは時間単位の精度をサポートしていないので、Analytics レポートが時間単位の精度でデータを返さないことに注意してください。
+
+## 有料検索レポート {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 からアクセスできます **[!UICONTROL ワークスペース]** > **[!UICONTROL 報告書]** > **[!UICONTROL 獲得]** > **[!UICONTROL Advertising Analytics：有料検索]**
+
+>[!NOTE]
+>
+>有料検索レポートは、広告アカウントを実装していない場合でも、すべての顧客に表示されます。 プロビジョニングされていない会社の有料検索レポートを開こうとすると、検索エンジンアカウントを設定していないというエラーメッセージが表示されます。 を選択 **[!UICONTROL 今すぐ設定]**&#x200B;に移動します。 [広告アカウントの設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 画面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ Analysis Workspaceテンプレートの詳細と、Report Builderでのレポー
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Advertising Analytics アカウントを設定するとすぐに、Advertising Analytics レポートが利用できるようになります。
+Advertising Analytics アカウントを設定すると、すぐにAdvertising Analytics レポートが使用できるようになります。

@@ -1,43 +1,47 @@
 ---
-description: トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
-title: トラッキング：手動モードと自動モード
+description: トラッキングタイプは、Adobe Analytics実装が検索エンジンデータを追跡する方法を決定します。 このトラッキングタイプは、Adobe Analytics データを検索エンジンデータで適切に拡張するために必要な手順です。
+title: トラッキングタイプ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# トラッキング：手動モードと自動モード
+# トラッキングタイプ
 
-トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
+トラッキングタイプは、Adobe Analytics実装が検索エンジンデータを追跡する方法を決定します。 このトラッキングタイプは、Adobe Analytics データを検索エンジンデータで適切に拡張するために必要な手順です。
 
-以下に、Advertising Analytics トラッキングテンプレートの実装方法に関する概要ビデオを示します。
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-自動モードと手動モードの 2 つのトラッキングモードがサポートされています。
+-->
 
-## 自動モードのトラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+次の 2 つのトラッキングモードがサポートされています。 [!UICONTROL 自動] および [!UICONTROL 手動].
 
-自動モードでは、Advertising Cloud Engine によって検索エンジンの処理方法が決定されます。これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。
+## [!UICONTROL 自動] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-そのため、アカウント設定を保存するには自動モードの選択時に承認のチェックボックスをチェックする必要があります。
+[!UICONTROL 自動] トラッキングを使用すると、Advertising Cloud エンジンが検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
 
-「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。
+そのため、を選択する場合は、確認チェックボックスをオンにする必要があります。 **[!UICONTROL 自動]** アカウント設定を保存する前に。
 
-* `s_kwcid` パラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。Web サーバーで URL の最後に特定の key=value ペアが必要な場合、または URL の新しい key=value ペアをサポートするための更新が必要な場合は、追加のアクションが必要になる場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
-* 加えて、キーワードを `s_kwcid` 値の一部としてランディング URL に追加できます。特殊文字や記号が含まれる場合は、Web サーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
+で検索エンジンアカウントを設定する方法を説明します **[!UICONTROL 自動]** タイプ。次のアクションを実行する必要があります。
+
+* この `s_kwcid` パラメーターと値が、追加するアカウントのアカウントトラッキングテンプレートまたはランディングページ URL に追加されます。 このパラメーターと値は、URL の末尾に挿入されます。 Web サーバーで特定の操作が必要な場合は、ユーザー側で追加の操作が必要になることがあります `key=value` URL の末尾にをペアにします。 または、新規サポートの更新 `key=value` URL でペアを作成します。 追加した URL パラメーターが最終的なランディングページに正しく保持されるようにするには、ユーザーの責任です。
+* 加えて、キーワードを `s_kwcid` 値の一部としてランディング URL に追加できます。特殊文字や記号が含まれる場合は、Web サーバーでそれらの文字がサポートされていることを確認してください。例えば、一般的な特殊文字はです。 `+`（「部分一致で変更」のキーワードで使用されます）
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=ja)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
-## 手動モードのトラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## 手動トラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-手動モードでは、検索エンジンデータが Advertising Analytics データ統合プロセスによってどのように処理されるかを指定する必要があります。
+手動トラッキングを使用すると、Advertising Analytics データ統合プロセスによる検索エンジンデータの処理方法を指定できます。
 
 ### Google アカウントへの手動トラッキングの追加 {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -45,7 +49,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、のアカウント画面から取得できます [!UICONTROL トラッキング] セクション。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 様々なトラッキングテンプレート形式によるトラッキングコードの例：
 
@@ -78,7 +82,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **サードパーティ（ダブルクリック）`{lpurl}`**
 
-URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
+最終的なランディングページ URL へのリダイレクトを通して文字列が保持されるようにするには、文字列を十分にエンコードする必要があります。
+
+* url がリダイレクトを経由する場合、および
+* は、「unescapedlpurl」値を使用していません。
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -90,7 +98,7 @@ Bing アカウントに追加する必要がある文字列を以下に示しま
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -98,7 +106,7 @@ Bing アカウントに追加する必要がある文字列を以下に示しま
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL 形式によるトラッキングコードの例：
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **サードパーティ（ダブルクリック）`{lpurl}`**
 
-URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
+最終的なランディングページ URL へのリダイレクトを通して文字列が保持されるようにするには、文字列を十分にエンコードする必要があります。
+
+* url がリダイレクトを経由する場合、および
+* は、「unescapedlpurl」値を使用していません。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
