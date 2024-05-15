@@ -3,9 +3,9 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a4efa48df735eacbda0f53ba30064da7d8f71028
+source-git-commit: 97a63c42a121204e043d308525518d16e44b21f9
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '960'
 ht-degree: 46%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 46%
 | **Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント** | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。 次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。<ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li></ul>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 今すぐ利用可能 |
 | **を設定 `contextData` xdm を使用したフィールド** | エクスペリエンスEdge Networkを介してAdobe Analyticsにデータを送信するお客様は、次のことができます [コンテキストデータ値の設定](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/contextdata) xdm 内またはペイロードの「データ」部分のいずれかで直接。 |  | 今すぐ利用可能 |
 | **Analytics リアルタイムレポート 2.0 API** | Adobe Analyticsの新しいリアルタイムレポート API 2.0 では、お客様の統合が向上し、迅速なレポート結果が得られます。 これらの結果は、プログラムを使用して、基本、トレンド、分類の各レポートを操作できます。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024年5月30日（PT） |
-| **ストリーミングメディア：Web SDK を使用したAdobe Experience Platform Edge Networkへの web データの送信** | Adobe Experience Platform Web SDK を使用して、ストリーミングメディア web データをAdobe Experience Platform Edge Networkに送信できるようになりました。 この機能強化により、よりパーソナライズされたキャンペーンを作成し、よりパーソナライズされたコンテンツを提供できるので、レポートするトラッキングデータが増えます。<p>この変更により、Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer、イベント転送など、すべての Platform ソリューションにわたる Web 実装の統合的な収集手段が提供されます。 以前は、Streaming Media web データをEdge Networkに送信する唯一の方法は、Media Edge API を使用することでした。 [詳細情報](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024年5月31日（PT） |
+| **ストリーミングメディア：Web SDK を使用したAdobe Experience Platform Edge Networkへの web データの送信** | Adobe Experience Platform Web SDK を使用して、ストリーミングメディア web データをAdobe Experience Platform Edge Networkに送信できるようになりました。 この機能強化により、よりパーソナライズされたキャンペーンを作成し、よりパーソナライズされたコンテンツを提供できるので、レポートするトラッキングデータが増えます。<p>この変更により、Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer、イベント転送など、すべての Platform ソリューションにわたる Web 実装の統合的な収集手段が提供されます。 以前は、Streaming Media web データをEdge Networkに送信する唯一の方法は、Media Edge API を使用することでした。 [近日中にフォローする詳細情報] | | 2024年5月31日（PT） |
 | **デフォルトの低トラフィックしきい値の増加** | **2024年4月中旬**&#x200B;に、アドビは、次のように、デフォルトのレポートスイートの低トラフィックしきい値を引き上げ始めます。![低トラフィックしきい値](assets/thresholds.png)：これは、現在新しいしきい値を下回って設定されている変数にのみ影響します。 この度の変更は段階的に行われ、作業は **5月末**&#x200B;に完了する予定です。 この度の増加がロールアウトされると、高基数変数の変更に気付く場合があります。<ul><li>レポートには、より多くのディメンション値を使用できる場合があります。</li><li>セグメントと計算指標に含まれるデータの量が多くなる場合があります。</li><li>セグメントに基づく仮想レポートスイートには、より多くのデータが含まれる場合があります。</li><li>分類の書き出しには、より多くのデータが含まれる場合があります。</li></ul> | 2024年4月中旬 | 2024年5月31日（PT） |
-| **Web SDK に対するサーバーコールの数を減らすActivity Map** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。この機能強化により、AppMeasurementでのイベントの処理方法と同様に、一部のリンクイベントが取得され、次のヒットにパッケージ化されます。 （書類を添付） |  | 2024年5月31日（PT） |
+| **Web SDK に対するサーバーコールの数を減らすActivity Map** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。この機能強化により、AppMeasurementでのイベントの処理方法と同様に、一部のリンクイベントが取得され、次のヒットにパッケージ化されます。 （書類を添付） | ベータ版は 2024 年 5 月 31 日（PT）から開始 | 未定 |
 
 {style="table-layout:auto"}
 
