@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5448'
+source-wordcount: '5471'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,12 @@ ht-degree: 97%
 
 ## ドキュメントの主な更新の詳細
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | 機能 | 説明 |
 | --- | --- |
 | **2024年5月** | |
+| XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | に対する機能を文書化しました。 [xdm オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定する](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。<p>次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | カスタム日付範囲に関するドキュメントを更新しました | に関連するスクリーンショットと手順を更新しました [カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 現在の製品の機能やデザインに合わせるために。 |
 | **2024年4月** | |
@@ -44,7 +45,7 @@ ht-degree: 97%
 | 特定の情報は管理者のみが利用できることを明確化 | [計算指標マネージャー](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)および[セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で説明している「前回の使用」列と「使用場所」列は、システム管理者のみが使用できることを示す情報を追加しました。 |
 | メディア分平均オーディエンスドキュメントの更新 | [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li></ul> |
 
-### 2023年 {#23}
+### 2023年 {#year2023}
 
 | 機能 | 説明 |
 | --- | --- |
@@ -118,7 +119,7 @@ ht-degree: 97%
 | プロジェクトの自動保存 | コンテンツが更新され、[プロジェクトの保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)に自動保存機能を含めるようにしました。 |
 | ランディングページ | 新しい[ランディングページの更新](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | 機能 | 説明 |
 | --- | --- |
@@ -139,13 +140,13 @@ ht-degree: 97%
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** | |
-| Edge コレクション用 XDM でのリスト変数のサポート | Web SDK を使用してデータを収集するお客様が、XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
+| Edge コレクション用 XDM でのリスト変数のサポート | Web SDK を使用してデータを収集するお客様が、XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Web SDK を使用してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022年6月** |  |
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/server-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
-| モバイルスコアカードでの注釈の共有に関するドキュメント | [Analysis Workspace で作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
+| モバイルスコアカードでの注釈の共有に関するドキュメント | 次を表示できます [モバイルスコアカードのワークスペースで作成される注釈](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **2022年5月** | |
 | Edge Network を介したライフサイクルディメンションおよび指標の入力 | Edge Network に送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/xdm-var-mapping.md)を参照してください。 |
 | **2022年4月** | |
@@ -159,12 +160,12 @@ ht-degree: 97%
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
 | [!UICONTROL ページの概要]ワークスペースパネル | このパネルでは、選択したページに関する詳細な分析結果を提供します。 |
 | 古い予定レポートの一時停止に関する新しいトピック | **2022年4月15日（PT）**&#x200B;より、アドビは、作成日から 2 年以上が経過した予定レポートをすべて一時停止する予定です。 |
-| **2022年2月** |
+| **2022年2月** | |
 | モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日**&#x200B;より、アドビは、[2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md)する予定です。 |
 
-### 2021年 {#21}
+### 2021年 {#year2021}
 
 | 機能 | 説明 |
 | --- | --- |
@@ -200,7 +201,7 @@ ht-degree: 97%
 | 2021年1月14日 | 公開画像 URL を参照して、画像を ワークスペースプロジェクトに追加する方法に関するドキュメントを追加しました。 |
 | 2021年1月14日 | ワークスペースのビジュアライゼーションのソースマネージャーと設定マネージャーの結合：ビジュアライゼーションの [!UICONTROL データソース] マネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに結合し、一箇所でソースと設定を簡単に管理できます。 |
 
-### 2020年 {#20}
+### 2020年 {#year2020}
 
 | 機能 | 説明 |
 | --- | --- |
@@ -267,7 +268,7 @@ ht-degree: 97%
 | 2020年1月14日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2020年1月14日 | [使用する Adobe Analytics ツール](/help/analyze/get-started/which-analytics-tool.md)ページを変更しました。 |
 
-### 2019年 {#19}
+### 2019年 {#year2019}
 
 | 機能 | 説明 |
 | --- | --- |
@@ -287,7 +288,8 @@ ht-degree: 97%
 | 2019年9月12日 | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
-| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 | 2019年8月8日 | Workspace では、静的ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
+| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)について明確化しました。 |
+| 2019年8月8日 | Workspace では、静的ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
 | 2019年8月2日 | [Analytics 用語集](/help/technotes/terms.md)を大幅に更新しました。 |
 | 2019年7月22日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
 | 2019年7月18日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
