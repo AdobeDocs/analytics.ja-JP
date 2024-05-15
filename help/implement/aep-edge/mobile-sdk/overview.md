@@ -4,10 +4,10 @@ description: Adobe Experience Platform データ収集の Mobile SDK 拡張機�
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 98%
+source-wordcount: '454'
+ht-degree: 99%
 
 ---
 
@@ -39,46 +39,40 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 
 <tr>
 <td>2</td>
-<td><b>スキーマを設定します。</b>に移動します。Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>データストリームを設定します</b>。 データストリームは、Adobe Experience Platform Web SDK を実装する際のサーバーサイド設定を表します。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja">データストリームの設定<a></td> 
 </tr>
 
-<td>4</td>
+<td>3</td>
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。このサービスは、Adobe Analytics にデータを送信するかどうかと、どのように送信するかを制御します。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>モバイルプロパティを作成します</b>。プロパティは、拡張機能、ルール、データ要素およびライブラリを入れるコンテナです。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">モバイルプロパティの設定</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td>モバイルタグプロパティに <b>Adobe Experience Platform Edge Network 拡張機能をインストール</b>し、拡張機能でデータストリームを設定します。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>アプリでコードを使用</b>して、必要な拡張機能を登録し、タグ設定を読み込みます。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定の指定</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td>アプリでのタグのデータ要素、ルール、追加の拡張機能、SDK API 呼び出しの組み合わせを使用して、<b>機能を実装およびテストします</b>。モバイルアプリケーションのデータ収集とエクスペリエンスを検査、検証およびデバッグします。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">サンプルアプリケーションの使用</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td>実稼動環境にプッシュする前に、<b>モバイルアプリの実装を拡張して検証します</b>。</td>
 <td></td> 
 </tr>
