@@ -3,7 +3,7 @@ title: Advertising Analytics で広告アカウントを設定する方法
 description: この記事では、新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングする方法について説明します。
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
@@ -23,7 +23,7 @@ Adobe Analytics管理者は、新しい広告アカウントを作成し、複�
 1. Adobe Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
 1. （初回の使用時のみ）エンドユーザー使用許諾契約書に同意します。
 1. を選択 **[!UICONTROL +追加]**.
-1. この [!UICONTROL 新しい検索エンジン設定] 次のダイアログが表示されます。
+1. この [!UICONTROL 新しい検索エンジン設定] ダイアログが表示されます。
 
    ![](assets/aa-new-se-account.png)
 

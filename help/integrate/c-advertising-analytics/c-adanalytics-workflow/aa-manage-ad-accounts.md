@@ -3,78 +3,80 @@ description: Advertising Analytics でアカウントを管理します。
 title: 広告アカウントの管理
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 86%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
 # 広告アカウントの管理
 
-管理 UI にアクセスするには、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
+広告アカウントインターフェイスにアクセスするには、に移動します。 **[!UICONTROL Admin]** > **[!UICONTROL 広告アカウント]**.
 
-![広告アカウント](assets/manage_ad_accounts.png)
+![広告アカウント](assets/manage-ad-accounts.png)
 
-<table id="table_BE318026CF024E94A885EED86AA7077F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 要素 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>アクション</b> </p> </td> 
-   <td colname="col2"> <p><b>注意：アクションは、少なくとも 1 つの Advertising アカウントを選択している場合にのみ表示されます。</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>+ 追加 </p> </td> 
-   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Advertising アカウントの設定</a> UI が表示されます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>名前変更 </p> </td> 
-   <td colname="col2"> <p>このアカウントがマッピングされているすべてのレポートスイートで、このアカウントの名前を変更します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>レポートスイートをマッピング </p> </td> 
-   <td colname="col2"> <p>レポートスイートのマッピングを編集できるようになります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>一時停止 </p> </td> 
-   <td colname="col2"> <p>アカウントを非アクティブ化します。再度アクティブにするには、を選択します <span class="uicontrol">Activate</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>列ヘッダー</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>名前 </p> </td> 
-   <td colname="col2"> <p>この Advertising アカウントに割り当てた名前。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>レポートスイート </p> </td> 
-   <td colname="col2"> <p>この広告アカウントにマッピングされたレポートスイート。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>タイプ </p> </td> 
-   <td colname="col2"> <p>サポートされているタイプは 1 つだけです：検索。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>アカウント </p> </td> 
-   <td colname="col2"> <p>サポートされる 2 つのアカウント タイプ（Google AdWords または Bing Ads）のうちいずれかをリストします。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ステータス </p> </td> 
-   <td colname="col2"> <p>2 つのステータスインジケーターがあります。 </p> 
-    <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>アクティブ</b>：アカウントは検索データを取り込んでいます。 </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>一時停止</b>：現在アカウントは非アクティブ化され検索データを取り込んでいません。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>フィルター</b> </p> </td> 
-   <td colname="col2"> <p>（左余白）レポートスイート、タイプ、ステータスによって、Advertising アカウントをフィルターできます。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+広告アカウントのリストを示すテーブルが表示されます。 使用できる広告アカウントがない場合は、を選択します **[!UICONTROL 新しい広告アカウントの作成]**.
+
+このテーブルは、次の列で構成されます。
+
+| 名前または要素 | 説明 |
+|---|---|
+| **[!UICONTROL 名前]** | *アカウント名*. 名前を選択して、検索エンジンの設定を編集できます。 |
+| ![編集](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 広告アカウントの名前を変更するか、検索エンジンの設定を編集するかを選択します。 |
+| ![詳細情報](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選択すると、コンテキストメニューが開き、以下の操作が可能になります [レポートスイートのマッピング](#map-reporting-suites), [広告アカウントのアクティブ化または一時停止](#activate-or-pause-advertising-accounts). |
+| **[!UICONTROL レポートスイート]** | 広告アカウントのマッピング先のレポートスイートをリストします。 |
+| **[!UICONTROL タイプ]** | 広告アカウントのタイプを表示します。 デフォルトでは、タイプはです。 [!UICONTROL 検索] |
+| **[!UICONTROL アカウント]** | 次のいずれかのアカウントタイプを表示します [!UICONTROL Bing Ads] または [!UICONTROL Google Adwords]. |
+| **[!UICONTROL ステータス]** | 広告アカウントのステータス： *一時停止* またはアクティブ。 |
+
+
+- レポートスイート、タイプおよびステータスでリストをフィルタリングするには、以下を選択します。 ![フィルター](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+- を使用して広告アカウントを検索するには ![検索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 検索フィールド。
+- テーブルでアクティブなアカウントを選択するには、 **[!UICONTROL アクティブなアカウント]**.
+- テーブルに表示する列を定義するには、以下を選択します ![列設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>が含まれる **[!UICONTROL テーブルをカスタマイズ]** ダイアログ：
+   - 表示する列を選択します。
+   - 「**[!UICONTROL 適用]**」を選択します。
+
+1 つ以上の広告アカウントを選択すると、選択したアカウントのステータスに基づいた青いアクションバーで、次の操作を実行できます ![編集](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 名前を変更]**, ![更新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL レポートスイートのマッピング]**, ![再生](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** または ![一時停止](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 一時停止]** 広告アカウント。
+
+## 広告アカウントの作成
+
+新しい広告アカウントを作成するには：
+
+1. を選択 ![追加](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL 追加]**.
+1. 「」が表示されます。 [!UICONTROL 広告アカウント] > **[!UICONTROL 新しいアカウント]** 新しい広告アカウントを定義できるダイアログ。 参照： [広告アカウントの設定](aa-create-ad-account.md) を参照してください。
+
+
+## 広告アカウントの編集
+
+広告アカウントの検索エンジン設定を編集するには：
+
+- 広告アカウントの名前を選択します。
+- を選択 ![編集](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 広告アカウントの名前の隣。
+
+## レポートスイートのマッピング
+
+1 つ以上の広告アカウントをレポートスイートにマッピングするには：
+
+1. （任意）複数の広告アカウントを選択します。
+1. を選択 ![詳細](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定の広告アカウントの場合。
+1. を選択 ![更新](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL レポートスイートのマッピング]** コンテキストメニューから。
+1. レポートスイートをマッピング ダイアログで、ドロップダウンから 1 つ以上のレポートスイートを選択します。 マッピングからレポートスイートを削除するには、次を使用します ![間](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. を選択 **[!UICONTROL 保存]** マッピングを保存します。
+
+
+## 広告アカウントのアクティブ化または一時停止
+
+1 つ以上の広告アカウントをアクティブ化するには：
+
+1. （任意）複数の広告アカウントを選択します。
+1. を選択 ![詳細](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定の広告アカウントの場合。
+1. を選択 ![再生](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** コンテキストメニューから。
+
+1 つ以上の広告アカウントを一時停止するには：
+
+1. （任意）複数の広告アカウントを選択します。
+1. を選択 ![詳細](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 特定の広告アカウントの場合。
+1. を選択 ![一時停止](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 一時停止]** コンテキストメニューから。
+
