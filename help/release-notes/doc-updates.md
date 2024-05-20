@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
+source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
 workflow-type: tm+mt
-source-wordcount: '5471'
-ht-degree: 97%
+source-wordcount: '5488'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年5月** | |
+| Advertising Analyticsのドキュメントの更新 | に加えられた更新に沿ってドキュメントを更新しました [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイス。 |
 | XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | に対する機能を文書化しました。 [xdm オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定する](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。<p>次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | カスタム日付範囲に関するドキュメントを更新しました | に関連するスクリーンショットと手順を更新しました [カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 現在の製品の機能やデザインに合わせるために。 |
