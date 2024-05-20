@@ -4,7 +4,7 @@ description: レポートで使用するリスト変数を作成および設定�
 feature: Admin Tools
 role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: cf924b337772764b33d750787a0d09b3f11203be
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 25%
