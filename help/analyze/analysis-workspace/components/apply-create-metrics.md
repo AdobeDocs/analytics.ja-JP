@@ -4,10 +4,10 @@ title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -33,15 +33,7 @@ ht-degree: 100%
 
 ## Analysis Workspace での指標の使用
 
-指標は、Analysis Workspace 内で様々な方法で使用できます。 次のことができます。
-
-* 指標を空のフリーフォームテーブルにドラッグすると、プロジェクトの日付期間にわたるその指標のトレンドを確認できます。
-
-* ディメンションが存在する場合に指標をドラッグすると、その指標を各ディメンション項目と比較して確認できます。
-
-* 指標を既存の指標ヘッダーの上にドラッグすると、指標を置き換えることができます。
-
-* 指標をヘッダーの横にドラッグすると、両方の指標を並べて確認できます。
+指標は、Analysis Workspace 内で様々な方法で使用できます。 指標およびその他のタイプのコンポーネントをAnalysis Workspaceに追加する方法について詳しくは、以下を参照してください。 [Analysis Workspaceのコンポーネントの使用](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

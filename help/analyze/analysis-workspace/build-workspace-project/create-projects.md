@@ -4,10 +4,10 @@ title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 85%
 
 ---
 
@@ -98,13 +98,21 @@ Analysis Workspace で提供される多くのパネルは、少数のユーザ�
 >
 >各コンポーネントについて詳しくは、左側のパネルでコンポーネントの名前の横にある情報アイコンを選択するか、[Analytics コンポーネントガイド](/help/components/home.md)を参照してください。
 
-コンポーネントを追加するには、次の手順に従います。
+Analysis Workspaceでコンポーネントをプロジェクトに追加する方法に関する基本情報を以下に示します。 様々なタイプのコンポーネント（ディメンション、指標、セグメントおよび日付範囲）の追加について詳しくは、 [Analysis Workspaceのコンポーネントの使用](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+
+Analysis Workspaceでコンポーネントをプロジェクトに追加するには：
 
 1. 左側のパネルにある&#x200B;**[!UICONTROL コンポーネント]**&#x200B;アイコンを選択します。
 
    ![](assets/build-components.png)
 
-1. 追加するコンポーネントを検索します。左側のパネルに表示されたら、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
+1. 追加するコンポーネントまでスクロールするか検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
+
+   例えば、セグメントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。
+
+   ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
+
+   プロジェクトへのコンポーネントの追加について詳しくは、 [Analysis Workspaceのコンポーネントの使用](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. （オプション）[プロジェクトの保存と共有](#save-and-share-the-project)の説明に従って、プロジェクトを共有します。
 

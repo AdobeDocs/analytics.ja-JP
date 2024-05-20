@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1007'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 99%
 + [ランディングページ](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace の概要](analysis-workspace/home.md)
-   + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)
    + プロジェクト {#build-workspace-project}
       + [プロジェクトの概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
@@ -49,6 +48,7 @@ ht-degree: 99%
       + [会社レポートの作成と管理](analysis-workspace/reports/create-company-reports.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
+      + [Workspace でのコンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
       + [コンポーネントの説明の追加](analysis-workspace/components/add-component-descriptions.md)
       + 注釈 {#annotations}
          + [注釈の概要](analysis-workspace/components/annotations/overview.md)
@@ -178,7 +178,7 @@ ht-degree: 99%
       + [データリクエストの作成](report-builder/data-requests/t-create-a-data-request.md)
       + レポートスイート {#report-suites}
          + [レポートスイートを選択します](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Excel のセルからのレポートスイートの選択](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Excel のセルからのレポートスイートを選択](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](report-builder/data-requests/segmentation.md)
       + レポートタイプ {#report-types}

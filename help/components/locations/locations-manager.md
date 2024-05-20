@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 場所マネージャー
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,9 @@ ht-degree: 1%
 >
 >場所を削除する場合、次の操作を行う必要があります [データフィードの編集](/help/export/analytics-data-feed/create-feed.md), [Data Warehouseレポート](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、および [分類セットスキーマ](/help/components/classifications/sets/manage/schema.md) 機能する場所を使用する。
 
-場所を削除するには：
+Adobe Analyticsの Locations Manager で場所を削除するには：
+
+1. を選択 **[!UICONTROL Components]** > **[!UICONTROL 場所]**&#x200B;を選択してから、 [!UICONTROL **場所**] タブ。
 
 1. で 3 ドットメニューを選択します。 [!UICONTROL **場所名**] 削除する場所の列。
 

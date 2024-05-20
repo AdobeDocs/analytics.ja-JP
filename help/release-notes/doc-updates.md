@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
+source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
-source-wordcount: '5488'
+source-wordcount: '5511'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年5月** | |
+| プロジェクトへのコンポーネントの追加に関するドキュメント | 方法に関する一般情報を追加しました [様々なタイプのコンポーネントをAnalysis Workspaceのプロジェクトに追加します](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Advertising Analyticsのドキュメントの更新 | に加えられた更新に沿ってドキュメントを更新しました [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイス。 |
 | XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | に対する機能を文書化しました。 [xdm オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定する](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。<p>次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
@@ -211,7 +212,7 @@ ht-degree: 96%
 | 2020年12月8日 | ワークスペースの[新しいプロジェクトを作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja)ページを更新しました。 |
 | **2020年11月** | |
 | 2020年11月24日 | ワークスペースの[パネルの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)ページを更新しました。 |
-| 2020年11月24日 | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
+| 2020年11月24日 | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/ja/docs/analytics/implementation/review/focused-review)</li></ul> |
 | 2020年11月24日 | Analysis Workspace の [ビジュアライゼーションの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) ページを更新しました。 |
 | 2020年11月12日 | [継承された Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=ja)の新しいページ。 |
 | 2020年11月2日 | [FTP の分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)に関するドキュメントを更新しました。 |
@@ -300,7 +301,7 @@ ht-degree: 96%
 | 2019年6月4日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
 | 2019年5月31日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
 | 2019年5月9日 | フロービジュアライゼーション設定に新しい設定を追加しました：繰り返しインスタンスを含める。[フロー設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)を参照 |
-| 2019年4月11日 | ワークスペースの最適化のベストプラクティスに関する機能強化：[パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
+| 2019年4月11日 | ワークスペースの最適化のベストプラクティスに関する機能強化：パフォーマンスの最適化 |
 | 2019年4月11日 | [ワークスペースのパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
 | 2019年3月14日 | 地域データ収集が大幅に更新されました。 |
 | 2019年2月7日 | [一般アカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
