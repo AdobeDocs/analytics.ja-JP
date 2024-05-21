@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: クラウドの読み込み場所と書き出し場所の設定
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ ht-degree: 31%
 
 Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、に示すように、アカウント（Amazon S3 Role ARN、Google Cloud Platform など）を追加して設定します。 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md)を設定した後、そのアカウント内での場所の追加と設定を行います（この記事で説明しています）。
 
-## クラウドの書き出し場所の作成または編集を開始
+ロケーションの表示、編集、削除など、既存のロケーションの管理方法については、を参照してください。 [Locations manager](/help/components/locations/locations-manager.md).
+
+## クラウドの書き出し場所の作成を開始
 
 1. Adobe Analyticsで、を選択します。 [!UICONTROL **Components**] > [!UICONTROL **場所**].
 1. 日 [!UICONTROL 場所] ページで、 [!UICONTROL **場所**] タブ。
-1. 新しい場所を作成するには、次を選択します [!UICONTROL **場所を追加**]. （アカウントをまだ追加していない場合は、の説明に従って追加します。 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md).）
+1. を選択 [!UICONTROL **場所を追加**]. （アカウントをまだ追加していない場合は、の説明に従って追加します。 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md).）
 
-   または
-
-   既存の場所を編集するには、で 3 ドットメニューを選択します。 [!UICONTROL **場所名**] 編集する場所の列を選択し、 [!UICONTROL **編集**].
-場所ダイアログが表示されます。
+   場所ダイアログが表示されます。
 
 1. 次の情報を指定します。 |フィールド |関数 | |---------|----------| | [!UICONTROL **名前**] |場所の名前。  |
 | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別できるように、アカウントの簡単な説明を入力します。| | [!UICONTROL **での使用**] |この場所を一緒に使用するかどうかを選択 [!UICONTROL **データフィード**], [!UICONTROL **Data Warehouse**]、または [!UICONTROL **分類セット**]. <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、分類セットまたはData Warehouseセットにも使用できません。</li><li>ある場所内でのファイルの競合を回避するには、の値を変更しないでください [!UICONTROL **での使用**] を使用した後のフィールド。</li></ul> | | [!UICONTROL **場所アカウント**] |この場所を作成する場所アカウントを選択します。 アカウントの作成方法については、を参照してください [アカウントを追加](#add-an-account). |
@@ -51,7 +50,7 @@ Amazon S3 ロール ARN の場所を設定するには、次の情報を指定�
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>Adobeから提供されたユーザー ARN に、次のものが含まれていることを確認します `S3:PutObject` このバケットにファイルをアップロードするための権限。 </p><p>バケット名は、特定の命名規則を満たす必要があります。 例えば、3 ～ 63 文字の長さにする必要があり、小文字、数字、ドット （.）、ハイフン （–）のみで構成でき、先頭と末尾は文字または数字にする必要があります。 [命名規則の完全なリストについては、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **バケット名**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>Adobeから提供されたユーザー ARN に、次のものが含まれていることを確認します `S3:PutObject` このバケットにファイルをアップロードするための権限。 </p><p>バケット名は、特定の命名規則を満たす必要があります。例えば、3〜63 文字までの長さで、小文字、数字、ドット（.）、ハイフン（-）のみで構成でき、先頭と末尾は文字または数字にする必要があります。[命名規則の完全なリストについて詳しくは、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **キープレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
    {style="table-layout:auto"}

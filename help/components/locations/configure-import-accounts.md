@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ ht-degree: 56%
 
 Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事の説明に従ってアカウント（Amazon S3 Role ARN、Google Cloud Platform など）を追加および設定し、次に説明に従ってアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
 
+アカウントの表示、編集、削除など、既存アカウントの管理方法については、を参照してください。 [Locations manager](/help/components/locations/locations-manager.md).
+
 クラウドのインポートまたはエクスポートアカウントを設定するには：
 
 1. Adobe Analyticsで、を選択します。 [!UICONTROL **Components**] > [!UICONTROL **場所**].
 1. 日 [!UICONTROL 場所] ページで、 [!UICONTROL **場所アカウント**] タブ。
-1. 新しいアカウントを作成するには、を選択します [!UICONTROL **アカウントを追加**].
+1. を選択 [!UICONTROL **アカウントを追加**].
 
    アカウントを追加ダイアログが表示されます。
-
-   または
-
-   既存のアカウントを編集するには、以下を選択します [!UICONTROL **詳細を表示**] 編集するアカウントをリストするタイルで。
-場所ダイアログが表示されます。
-
-   場所アカウントの詳細ダイアログが表示されます
-
 
 1. 次の情報を指定します。 |フィールド |関数 | |---------|----------| | [!UICONTROL **場所アカウント名**] |場所アカウントの名前。 この名前は、場所の作成時に表示されます | | [!UICONTROL **場所アカウントの説明**] |アカウントの簡単な説明を入力して、同じアカウントタイプを持つ他のアカウントとの区別に役立てます。 | | [!UICONTROL **アカウントタイプ**] | クラウドアカウントタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を設定することをお勧めします。 |
 1. が含まれる [!UICONTROL **アカウントのプロパティ**] セクションで、選択したアカウントの種類に固有の情報を指定します。
@@ -48,7 +42,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    +++Amazon S3 Role ARN
 
-   Amazon S3 ロール ARN アカウントを設定するには、次の情報を指定します。
+   Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
 
    | フィールド | 機能 |
    |---------|----------|
