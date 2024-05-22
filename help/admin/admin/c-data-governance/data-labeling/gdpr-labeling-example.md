@@ -4,10 +4,10 @@ title: ラベル設定の例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 99%
 
 ## アクセスリクエストのサンプル {#access}
 
-アクセス要求を送信すると、概要ファイルには次の表に示されている値が含まれます。要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandID が true の場合にのみ返されます。
+アクセス要求を送信すると、データ主体に戻ることができる 2 つのファイルが届きます。 1 つのファイルは、データ主体に対して受け取ったヒットごとに 1 つの行と、適切なアクセスラベルが付いた各変数の列を含む CSV ファイルです。 もう 1 つのファイルは概要HTMLファイルで、各変数と、データ主体のその変数に対して表示されたすべての一意の値と、各一意の値が表示された回数が記載されています。
+
+この例では、概要ファイルには、以下の表に示す値が含まれています。 要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。ユーザー ID が使用され、 `expandIds` は true です。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API の値</th>
-    <th rowspan="2">返される<br>ファイルタイプ</th>
+    <th rowspan="2">概要<br/>ファイルタイプ<br/>returned</th>
     <th colspan="5" style="text-align:center">概要アクセスファイルのデータ</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ ht-degree: 99%
   </tr>
 </table>
 
-Cookie ID が使用されている場合、expandIDs の設定は出力に影響しないことに注意してください。
+の設定に注目してください `expandIDs` cookie ID が使用されている場合、は出力に違いはありません。
 
 ## 削除リクエストのサンプル {#delete}
 
@@ -217,7 +219,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 >[!NOTE]
 >
->AAID = 77 および DEL-DEVICE ラベルを含む行のセルのみが影響を受けます。
+>を含む行の列のみ `AAID=77` および `DEL-DEVICE` ラベルが影響を受けます。
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 >[!NOTE]
 >
->user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar です。 置き換える値は、数値を別のランダムな数値で置き換えた文字列ではなく、「Privacy-」で始まり、その後にランダムな数値（GUID）が続く文字列になります。
+>を含む行の celcolumnsls のみ `user=Mary` および `DEL-PERSON` ラベルが影響を受けます。 また、実際には、以下を含む変数が `A_ID` おそらく、prop またはeVarです。 置換する値は、で始まる文字列になります。 `Privacy-`数値を別のランダムな数値で置き換えるのではなく、その後にランダムな数値（GUID）が続きます。
 
 <table>
   <tr>

@@ -4,10 +4,10 @@ title: 名前空間
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 100%
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-詳しくは、[Experience Cloud データプライバシー API のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)を参照してください。
+を参照してください。 [Experience Cloudデータプライバシー API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 詳細および [標準 id 名前空間のリスト](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 参照： [アクセス/削除ジョブの作成](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) リクエストのサンプルです。
 
 ## Cookie ID
 
 従来の Analytics トラッキング Cookie（Adobe Analytics ID（AAID）とも呼ばれる）：
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ ht-degree: 100%
 
 ## 従来の Analytics トラッキング Cookie：廃止された形式
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-廃止された形式：
 
 値は、16 桁の 2 つの 16 進数または 19 桁の 2 つの 10 進数で指定される必要があります。この値は、ダッシュ、アンダースコアまたはコロンで区切られる必要があります。いずれかの数値が十分な桁数を持たない場合、先頭にゼロを追加する必要があります。
 
 ## ID サービスの Cookie
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ ht-degree: 100%
 
 ## カスタム訪問者 ID
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ ht-degree: 100%
 
 ## カスタム変数の ID
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
+>名前空間 `visitorId` および `customVisitorId` は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
 詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)を参照してください。

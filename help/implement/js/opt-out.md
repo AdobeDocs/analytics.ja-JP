@@ -3,8 +3,10 @@ title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+hide: true
+hidefromtoc: true
 role: Developer
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -15,14 +17,14 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> この記事では、 **Adobe Analyticsを実装する（計画中の）Adobe Analyticsのお客様** を Web サイトのユーザーにオプトアウトリンクを提供する方法について説明しています。 <p><p>
-> 次の場合、 **Adobe Analyticsを実装した web サイトの訪問**&#x200B;をオプトアウトする必要があります。 **<span style="color:red">この記事はあなたのためではありません</span>**. 詳しくは、 [Adobeプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeが情報をどのように使用するかを制御できます。
+> この記事では、次の内容について説明します **Adobe Analyticsを実装する（予定している）Adobe Analyticsのお客様** Web サイトで、web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
+> 次の場合： **Adobe Analyticsが実装されている web サイトへのアクセス**&#x200B;オプトアウトする場合 **<span style="color:red">この記事はあなたには向いていません</span>**. を参照してください [Adobeのプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeでの情報の使用方法を制御します。
 
-Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeを使用すると、Web サイトの訪問者が分析対象の情報をオプトアウトできるようになります。
+Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeは、Web サイトへの訪問者に、分析中の訪問者の情報をオプトアウトする手段を提供します。
 
-オプトアウトリンクを使用すると、Web サイトへの訪問者は、Analytics レポートからデータを省略できます。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、 [Adobe Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) 代わりに、 オプトインサービスは、Adobe AnalyticsやAppMeasurementを含む複数のAdobe Experience Cloud製品に対してより堅牢で機能します。
+オプトアウトリンクを使用すると、web サイトの訪問者が、Analytics のレポートからデータを省略できます。 これらのリンクは、AppMeasurement実装に限定されます。Adobeでは、 [Adobe Experience Cloud オプトインサービス](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) その代わり。 オプトインサービスはより堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で機能します。
 
-訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーが追跡を選択せず、オプトアウト Cookie が設定されている場合、AppMeasurementは引き続きデータをAdobeに送信します。 ただし、そのデータは処理されず、レポートに含まれません。
+訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーがトラッキングされないようにし、オプトアウト cookie が設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
 >[!TIP]
 >
@@ -32,7 +34,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 組織のオプトアウトページは、実装内の [`trackingServer`](../vars/config-vars/trackingserver.md) 変数値に応じて異なります。
 
-* Analytics 拡張機能では、以下の操作をおこないます。
+* Analytics 拡張機能で：
    1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
    1. 目的のタグプロパティをクリックします。
    1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
@@ -80,7 +82,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 * `nb_NO` （ノルウェー語）
 * `pl_PL` （ポーランド語）
 * `pt_BR` （ポルトガル語）
-* `sk_SK` （スロバキア語）
+* `sk_SK` （スロバキア）
 * `es_ES` （スペイン語）
 
 例えば、`https://example.data.adobedc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。

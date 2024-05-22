@@ -4,10 +4,10 @@ title: Adobe Analytics と CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 ## アドビによる CCPA データの処理方法
 
-Adobe Cloud Platform（ACP）には統合型ソリューションが用意されており、お客様のデータガバナンスインフラストラクチャと、顧客エクスペリエンスを作成および管理するためのアドビのツールを連携させることができます。Adobe Cloud Platform のこのデータガバナンス機能によって、データガバナンスポリシーとデータ利用を直接リンクさせることができます。
+Adobe Experience Cloudは、ブランドのデータガバナンスインフラストラクチャを、消費者エクスペリエンスの作成と管理に使用されるAdobeツールと結び付ける統合ソリューションを提供します。 Adobe Experience Cloudのデータガバナンス機能により、データガバナンスポリシーとデータ使用を直接リンクできます。
 
 「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、プライバシー対応の手順と、Adobe Experience Cloud プライバシーサービス API との統合方法について説明しています。
 
@@ -37,7 +37,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 アドビは、お客様自身がレポートスイートのカスタムデータのことを最も熟知していると考えているので、お客様がデータガバナンスの各種設定を指定できるようにしています。そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
 
-詳しくは、 [レポートスイートデータのラベル設定](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) ラベルの設定方法の詳細については、を参照してください。
+参照： [レポートスイートのデータのラベル設定](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) ラベルの設定方法について詳しくは、こちらを参照してください。
 
 ## 前提条件
 
@@ -45,7 +45,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 * ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)についてお尋ねください。
 * CCPA の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
-  データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間を設定するには、担当のAdobeアカウントチームにお問い合わせください。
+  データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、Adobeアカウントチームにお問い合わせください。
 
 * 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
 * ヒットレベルで同意ステータスを追跡するには、[同意管理変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)の実装を検討してください。
