@@ -3,10 +3,10 @@ title: データフィードの作成
 description: データフィードの作成方法を説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 42%
    >
    >* クラウドアカウントは Adobe Analytics ユーザーアカウントに関連付けられています。他のユーザーは、設定したクラウドアカウントを使用したり、表示したりできません。
    >
-   >* の場所マネージャーから作成した任意の場所を編集できます [コンポーネント/場所](/help/components/locations/configure-import-accounts.md)
+   >* 場所マネージャー（[コンポーネント／場所](/help/components/locations/configure-import-accounts.md)）から作成した任意の場所を編集できます。
 
    ![データフィードの宛先ドロップダウンメニュー](assets/datafeed-destinations-dropdown.png)
 
@@ -95,11 +95,11 @@ ht-degree: 42%
 
          Adobe Analyticsの次の領域のいずれかで設定されたクラウドアカウントを使用できます。
 
-         * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+         * [スキーマ](/help/components/classifications/sets/manage/schema.md)の説明に従って、Adobe Analytics 分類データを読み込む場合。
 
            ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
 
-         * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
+         * [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)および[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って、場所領域でアカウントと場所を設定する場合。
 
       1. 「」から場所を選択します [!UICONTROL **場所を選択**] ドロップダウンメニュー。
 
@@ -126,7 +126,7 @@ ht-degree: 42%
          |---------|----------|
          | [!UICONTROL **名前**] | アカウントの名前。 |
          | [!UICONTROL **説明**] | アカウントの説明。 |
-         | [!UICONTROL **バケット**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p><p>バケット名は、特定の命名規則を満たす必要があります。 例えば、3 ～ 63 文字の長さにする必要があり、小文字、数字、ドット （.）、ハイフン （–）のみで構成でき、先頭と末尾は文字または数字にする必要があります。 [命名規則の完全なリストについては、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **バケット**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、アドビが提供したユーザー ARN に `S3:PutObject` 権限があることを確認してください。この権限により、ユーザー ARN は初期ファイルをアップロードし、以降のアップロードでファイルを上書きできます。</p><p>バケット名は、特定の命名規則を満たす必要があります。例えば、3〜63 文字までの長さで、小文字、数字、ドット（.）、ハイフン（-）のみで構成でき、先頭と末尾は文字または数字にする必要があります。[命名規則の完全なリストについて詳しくは、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
          | [!UICONTROL **プレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/` |
 
          {style="table-layout:auto"}
@@ -165,13 +165,13 @@ ht-degree: 42%
 
       1. [!UICONTROL **アカウントを選択**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
-      Adobe Analyticsの次のエリアのいずれかで設定したクラウドアカウントを使用できます。
+      Adobe Analytics の次の領域のいずれかで設定したクラウドアカウントを使用できます。
 
-      * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+      * [スキーマ](/help/components/classifications/sets/manage/schema.md)の説明に従って、Adobe Analytics 分類データを読み込む場合。
 
         ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
 
-      * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
+      * [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)および[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って、場所領域でアカウントと場所を設定する場合。
 
       1. 「」から場所を選択します [!UICONTROL **場所を選択**] ドロップダウンメニュー。
 
@@ -239,13 +239,13 @@ ht-degree: 42%
 
       1. [!UICONTROL **アカウントを選択**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
-         Adobe Analyticsの次のエリアのいずれかで設定したクラウドアカウントを使用できます。
+         Adobe Analytics の次の領域のいずれかで設定したクラウドアカウントを使用できます。
 
-         * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+         * [スキーマ](/help/components/classifications/sets/manage/schema.md)の説明に従って、Adobe Analytics 分類データを読み込む場合。
 
            ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
 
-         * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
+         * [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)および[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って、場所領域でアカウントと場所を設定する場合。
 
       1. 「」から場所を選択します [!UICONTROL **場所を選択**] ドロップダウンメニュー。
 
@@ -263,7 +263,7 @@ ht-degree: 42%
          | [!UICONTROL **アカウントの説明**] | Azure SAS アカウントの説明。 この説明は [!UICONTROL **アカウントを選択**] ドロップダウンフィールド。任意の名前を指定できます。 |
          | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
          | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-         | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS URI へのパス。  Azure SAS を構成するには、Azure Key Vault を使用して SAS URI をシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。</li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` 組み込みの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure の組み込みの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul><p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
+         | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS URI へのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS URI を秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。</li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` 組み込みの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure の組み込みの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul><p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
          | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。詳しくは、[Azure Key Vault からシークレットを設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
          | [!UICONTROL **シークレット**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
@@ -276,7 +276,7 @@ ht-degree: 42%
          | [!UICONTROL **名前**] | 場所の名前。 この名前は [!UICONTROL **場所を選択**] ドロップダウンフィールド。任意の名前を指定できます。 |
          | [!UICONTROL **説明**] | 場所の説明。 この説明は [!UICONTROL **場所を選択**] ドロップダウンフィールド。任意の名前を指定できます。 |
          | [!UICONTROL **コンテナ**] | Adobe Analytics データの送信先として指定したアカウント内のコンテナ。 |
-         | [!UICONTROL **プレフィックス**] | データを配置するコンテナ内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/`<p>Azure SAS アカウントを設定する際に、Key Vault シークレット名フィールドで指定した SAS URI ストアに `Write` 権限。 これにより、SAS URI を使用して Azure コンテナにファイルを作成できます。 <p>SAS URI でファイルも上書きする場合は、SAS URI ストアにが含まれていることを確認してください `Delete` 権限。</p><p>詳しくは、Azure Blob Storage ドキュメントの [Blob Storage のリソース](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)を参照してください。</p> |
+         | [!UICONTROL **プレフィックス**] | データを配置するコンテナ内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/`<p>Azure SAS アカウントを設定する際に、Key Vault 秘密鍵名フィールドに指定した SAS URI ストアに `Write` 権限があることを確認します。これにより、SAS URI で Azure コンテナにファイルを作成できます。 <p>SAS URI でファイルも上書きする場合は、SAS URI ストアに `Delete` 権限があることを確認します。</p><p>詳しくは、Azure Blob Storage ドキュメントの [Blob Storage のリソース](https://learn.microsoft.com/ja-jp/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)を参照してください。</p> |
 
          {style="table-layout:auto"}
 
@@ -312,13 +312,13 @@ ht-degree: 42%
 
       1. [!UICONTROL **アカウントを選択**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
-         Adobe Analyticsの次のエリアのいずれかで設定したクラウドアカウントを使用できます。
+         Adobe Analytics の次の領域のいずれかで設定したクラウドアカウントを使用できます。
 
-         * Adobe Analytics分類データを読み込む場合（を参照） [スキーマ](/help/components/classifications/sets/manage/schema.md).
+         * [スキーマ](/help/components/classifications/sets/manage/schema.md)の説明に従って、Adobe Analytics 分類データを読み込む場合。
 
            ただし、分類データの読み込み用に設定されている場所は使用できません。代わりに、以下に示すように、新しい宛先を追加します。
 
-         * の説明に従って、[Locations] 領域でアカウントとロケーションを設定する場合 [クラウドのインポートおよびエクスポートアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
+         * [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)および[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って、場所領域でアカウントと場所を設定する場合。
 
       1. 「」から場所を選択します [!UICONTROL **場所を選択**] ドロップダウンメニュー。
 
@@ -345,7 +345,7 @@ ht-degree: 42%
          | [!UICONTROL **元本**] | プリンシパルはAdobeで提供されます。 このプリンシパルへのフィードを受信する権限を付与する必要があります。 |
          | [!UICONTROL **名前**] | アカウントの名前。 |
          | [!UICONTROL **説明**] | アカウントの説明。 |
-         | [!UICONTROL **バケット**] | Adobe Analytics データを送信する GCP アカウント内のバケット。 <p>アドビが提供するプリンシパルに対して、次のいずれかの権限を付与していることを確認します。<ul><li>`roles/storage.objectCreator`：プリンシパルで GCP アカウント内のファイルの作成にのみ制限する場合は、この権限を使用します。</br>**重要：**&#x200B;スケジュールされたレポートでこの権限を使用する場合は、新しくスケジュールされた書き出しごとに一意のファイル名を使用する必要があります。そうしないと、プリンシパルには既存のファイルを上書きするアクセス権がないので、レポートの生成は失敗します。</li><li>（推奨） `roles/storage.objectUser`:GCP アカウントのファイルを表示、リスト、更新、削除するためのアクセス権をプリンシパルに付与する場合は、この権限を使用します。</br>この権限により、プリンシパルで、新しくスケジュールされた書き出しごとに一意のファイル名を自動生成することなく、以降のアップロードのために既存のファイルを上書きできます。</li></ul><p>権限の付与について詳しくは、Google Cloud ドキュメントの[バケットレベルのポリシーにプリンシパルを追加する](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=ja#bucket-add)を参照してください。</p> |
+         | [!UICONTROL **バケット**] | Adobe Analytics データを送信する GCP アカウント内のバケット。 <p>Adobeが提供するプリンシパルに次のいずれかの権限を付与していることを確認します。（権限の付与について詳しくは、 [バケットレベルのポリシーへのプリンシパルの追加](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=ja#bucket-add) （Google Cloud のドキュメントを参照してください）。<ul><li>`roles/storage.objectCreator`：プリンシパルで GCP アカウント内のファイルの作成にのみ制限する場合は、この権限を使用します。</br>**重要：**&#x200B;スケジュールされたレポートでこの権限を使用する場合は、新しくスケジュールされた書き出しごとに一意のファイル名を使用する必要があります。そうしないと、プリンシパルには既存のファイルを上書きするアクセス権がないので、レポートの生成は失敗します。</li><li>（推奨） `roles/storage.objectUser`:GCP アカウントのファイルを表示、リスト、更新、削除するためのアクセス権をプリンシパルに付与する場合は、この権限を使用します。</br>この権限により、プリンシパルで、新しくスケジュールされた書き出しごとに一意のファイル名を自動生成することなく、以降のアップロードのために既存のファイルを上書きできます。</li></ul><p>組織がを使用している場合 [組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints) 許可リストでGoogle Cloud Platform アカウントのみを許可するには、Adobeが所有する次のGoogle Cloud Platform 組織 ID が必要です。 <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **プレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：`folder_name/` |
 
          {style="table-layout:auto"}

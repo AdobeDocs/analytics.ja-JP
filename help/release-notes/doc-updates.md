@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 96%
+source-wordcount: '5562'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 96%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年5月** | |
+| データフィードおよびData WarehouseでGoogle Cloud Platform と共に組織ポリシー制約を使用する際に必要な情報 | Adobeが所有するGoogle Cloud Platform 組織 ID をに追加しました [データフィード](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ドキュメント。 <p>この情報は、を使用する組織の場合にのみ必要です [組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints) （Google Cloud Platform の場合）。</p> |
 | プロジェクトへのコンポーネントの追加に関するドキュメント | 方法に関する一般情報を追加しました [様々なタイプのコンポーネントをAnalysis Workspaceのプロジェクトに追加します](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Advertising Analyticsのドキュメントの更新 | に加えられた更新に沿ってドキュメントを更新しました [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイス。 |
 | XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | に対する機能を文書化しました。 [xdm オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定する](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
