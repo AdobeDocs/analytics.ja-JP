@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 40%
+source-wordcount: '1150'
+ht-degree: 38%
 
 ---
 
 # 最新の Adobe Analytics リリースノート（2024年5月）
 
-**最終更新日**：2024年5月21日（PT）
+**最終更新日**：2024年5月22日（PT）
 
 これらのリリースノートは、2024 年 5 月 15 日（PT）から 6 月までのリリース期間を対象としています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
+| **保存された`cust_visids`** の有効期限は 13 か月 | 2024年5月22日（PT） | Analytics ヒット処理エンジンの今後のリリース **2024 年 7 月に予定されています**&#x200B;は、保存されたの 13 か月の有効期限の適用を開始します `cust_visids`. レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定は、ヒット時の `cust_visid` がない `visid_high/visid_low value` で、`cust_visid` を見つける際に使用します。 現在、`visid_high/visid_low` に対する `cust_visid` のマッピングに有効期限はありません。 このリリースでは、それ以降 13 か月以上が経過している場合 `visid_high/visid_low` に、 `cust_visid` ヒットすると、マッピングは期限切れになります。 |
 | **ISO 地域の更新** | 2024年5月10日（PT） | Adobeは、2024 年 6 月 7 日に、2024 年の ISO 地域の更新を実施します。 このリリース以降、マイナーな地域情報（地域）に関するアップデートが提供される可能性があります。 |
-| **保存された`cust_visids`** の有効期限は 13 か月 | 2024年3月20日（PT） | Analytics のヒット処理エンジンの次回リリース（4月または 5月を予定）では、保存された `cust_visids` に 13 か月の有効期限が適用されます。 レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定は、ヒット時の `cust_visid` がない `visid_high/visid_low value` で、`cust_visid` を見つける際に使用します。 現在、`visid_high/visid_low` に対する `cust_visid` のマッピングに有効期限はありません。 このリリースでは、それ以降 13 か月以上が経過している場合 `visid_high/visid_low` に、 `cust_visid` ヒットすると、マッピングは期限切れになります。 |
 
 {style="table-layout:auto"}
 
