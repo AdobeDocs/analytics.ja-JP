@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
 source-wordcount: '5562'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 95%
 | データフィードおよびData WarehouseでGoogle Cloud Platform と共に組織ポリシー制約を使用する際に必要な情報 | Adobeが所有するGoogle Cloud Platform 組織 ID をに追加しました [データフィード](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ドキュメント。 <p>この情報は、を使用する組織の場合にのみ必要です [組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints) （Google Cloud Platform の場合）。</p> |
 | プロジェクトへのコンポーネントの追加に関するドキュメント | 方法に関する一般情報を追加しました [様々なタイプのコンポーネントをAnalysis Workspaceのプロジェクトに追加します](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Advertising Analyticsのドキュメントの更新 | に加えられた更新に沿ってドキュメントを更新しました [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイス。 |
-| XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | に対する機能を文書化しました。 [xdm オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定する](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Adobe AnalyticsからCustomer Journey Analyticsへのアップグレードに関する新しいドキュメント | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードする場合、組織の現在のAdobe Analyticsの実装と長期目標に基づいて、複数のアップグレードオプションや多くの考慮事項に留意する必要があります。<p>次の内容をより深く理解するのに役立つ新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在するさまざまなアップグレードパス</li><li>組織の現在のAdobe Analytics実装に基づいて使用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスのステップバイステップのガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[Customer Journey Analyticsへのアップグレードの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
-| カスタム日付範囲に関するドキュメントを更新しました | に関連するスクリーンショットと手順を更新しました [カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 現在の製品の機能やデザインに合わせるために。 |
+| XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | [XDM オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)する機能を文書化しました。 |
+| Adobe Analytics から Customer Journey Analytics へのアップグレードに関する新しいドキュメント | Adobe Analytics から Customer Journey Analytics にアップグレードする組織の場合、組織の現在の Adobe Analytics 実装と長期目標に基づいて、複数のアップグレードオプションと多くの考慮事項があることに留意する必要があります。<p>次の内容に対する理解を深めるのに役立つ、新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在する様々なアップグレードパス</li><li>組織の現在の Adobe Analytics 実装に基づいて利用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスの段階的なガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[詳しくは、Customer Journey Analytics へのアップグレードを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| カスタム日付範囲に関するドキュメントを更新 | 現在の製品の機能とデザインに一致させるために、[カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)に関連するスクリーンショットと手順を更新しました。 |
 | **2024年4月** | |
 | 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました。 | クラウドアカウントタイプの説明に関する[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の折りたたみ可能な節を削除しました。 |
@@ -149,7 +149,7 @@ ht-degree: 95%
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/server-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
-| モバイルスコアカードでの注釈の共有に関するドキュメント | 次を表示できます [モバイルスコアカードのワークスペースで作成される注釈](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| モバイルスコアカードでの注釈の共有に関するドキュメント | [ワークスペースで作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
 | **2022年5月** | |
 | Edge Network を介したライフサイクルディメンションおよび指標の入力 | Edge Network に送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/xdm-var-mapping.md)を参照してください。 |
 | **2022年4月** | |
