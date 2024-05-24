@@ -4,7 +4,7 @@ description: 6 か月ごとに実装状況を確認し、ビジネスニーズ�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 # 完全なレビュー（年 2 回実装状況を確認する場合）
 
-6 か月ごとに実装をレビューする必要があるのはなぜですか。お客様のビジネスニーズに合わせて実装を行う必要があるからです。また、データ品質に関する問題が小さく、関係者の信頼を損なう可能性のある主要なデータの問題に発展する前に、その問題に対処する必要があります。 6 か月ごとの完全なレビューに加えて、各 Web サイトのリリース後に、[重点レビュー](/help/implement/review/focused-review.md)を行う必要があります。
+6 か月ごとに実装をレビューする必要があるのはなぜですか。お客様のビジネスニーズに合わせて実装を行う必要があるからです。また、問題が小さく、関係者の信頼を損なう可能性のある重大なデータの問題に発展する前に、データ品質の問題に対処する必要があります。 6 か月ごとの完全なレビューに加えて、各 Web サイトのリリース後に、[重点レビュー](/help/implement/review/focused-review.md)を行う必要があります。
 
 ## 1. お客様の実装が、当社のビジネスニーズと完全に合致していることを確認します
 
@@ -23,10 +23,10 @@ ht-degree: 80%
 
 ビジネスにとって重要な順序で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。  [上位 5 件の KPI ](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=ja#review)に関連付けられた、最も重要な指標や変数から開始します。次に手順を示します。
 
-* ダッシュボードを作成して、指標と変数の月別トレンド表示を確認します ( または、 [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) を参照 ) を使用して、期待するデータが取得され、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
-* [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、指標と変数の広範なトレンドを監視します。
+* ダッシュボードを作成して、指標と変数の月間トレンドビューを確認します（または次を設定します [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) それぞれについて）を使用して、期待するデータを取得しており、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
+* [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)を再実行して、指標と変数の広範なトレンドを監視します。
 
-実装では、不要な指標や変数が多くなりすぎないようにしてください。 ビジネスで不要になった指標や変数は無効にしてください。これらは、後で削除したり再利用したりできます。
+必要のない指標や変数で実装が肥大化するのを防ぎます。 ビジネスで不要になった指標や変数は無効にしてください。これらは、後で削除したり再利用したりできます。
 
 ## 3. KPI を更新します
 
