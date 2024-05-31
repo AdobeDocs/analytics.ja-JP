@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5562'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年5月** | |
-| データフィードおよびData WarehouseでGoogle Cloud Platform と共に組織ポリシー制約を使用する際に必要な情報 | Adobeが所有するGoogle Cloud Platform 組織 ID をに追加しました [データフィード](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ドキュメント。 <p>この情報は、を使用する組織の場合にのみ必要です [組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints) （Google Cloud Platform の場合）。</p> |
-| プロジェクトへのコンポーネントの追加に関するドキュメント | 方法に関する一般情報を追加しました [様々なタイプのコンポーネントをAnalysis Workspaceのプロジェクトに追加します](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
-| Advertising Analyticsのドキュメントの更新 | に加えられた更新に沿ってドキュメントを更新しました [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイス。 |
+| データフィードとデータウェアハウスで Google Cloud Platform の組織ポリシー制約を使用する際に必要な情報 | [データフィード](/help/export/analytics-data-feed/create-feed.md)と[データウェアハウス](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)のドキュメントに、アドビ所有の Google Cloud Platform 組織 ID を追加しました。 <p>この情報は、Google Cloud Platform で[組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints)を使用している組織にのみ必要です。</p> |
+| プロジェクトへのコンポーネントの追加に関するドキュメント | [Analysis Workspace のプロジェクトに様々なタイプのコンポーネントを追加](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)する方法について、一般情報を追加しました。 |
+| Advertising Analytics ドキュメントの更新 | [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) ユーザーインターフェイスの更新に合わせてドキュメントを更新しました。 |
 | XDM オブジェクト変数のコンテキストデータ変数への明示的なマッピング | [XDM オブジェクト変数マッピングを使用してコンテキストデータ変数を明示的に設定](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)する機能を文書化しました。 |
 | Adobe Analytics から Customer Journey Analytics へのアップグレードに関する新しいドキュメント | Adobe Analytics から Customer Journey Analytics にアップグレードする組織の場合、組織の現在の Adobe Analytics 実装と長期目標に基づいて、複数のアップグレードオプションと多くの考慮事項があることに留意する必要があります。<p>次の内容に対する理解を深めるのに役立つ、新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在する様々なアップグレードパス</li><li>組織の現在の Adobe Analytics 実装に基づいて利用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスの段階的なガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[詳しくは、Customer Journey Analytics へのアップグレードを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | カスタム日付範囲に関するドキュメントを更新 | 現在の製品の機能とデザインに一致させるために、[カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)に関連するスクリーンショットと手順を更新しました。 |

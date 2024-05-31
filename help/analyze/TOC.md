@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
       + [会社レポートの作成と管理](analysis-workspace/reports/create-company-reports.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
-      + [Workspace でのコンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
+      + [ワークスペースでのコンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
       + [コンポーネントの説明の追加](analysis-workspace/components/add-component-descriptions.md)
       + 注釈 {#annotations}
          + [注釈の概要](analysis-workspace/components/annotations/overview.md)
