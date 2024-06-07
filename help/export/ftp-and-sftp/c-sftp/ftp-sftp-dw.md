@@ -13,20 +13,20 @@ ht-degree: 100%
 
 # SFTP サーバーへの Data Warehouse リクエストの送信
 
-Adobeは、に記載されているように、SFTP サーバへのData Warehouse リクエストのエクスポートをサポートしています [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) この記事では、 [Data Warehouseリクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+アドビでは、[Data Warehouse リクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).の記事にある [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) に記載されているように、Data Warehouse リクエストの SFTP サーバへの書き出しをサポートしています。
 
-以下の作業をおこないます。
+以下の作業を行います。
 
-* Data Warehouse レポートをリクエストする場合、ポート 22 だけが使用されます。
-* Adobe `authorized_keys`ファイルが`.ssh`ディレクトリ内の、ログインするユーザーのルートディレクトリ内にある。
+* Data Warehouse レポートをリクエストする場合、ポート 22 のみを使用する。
+* アドビの `authorized_keys` ファイルが、ログインに使用したユーザーのルートディレクトリ内の `.ssh` ディレクトリにある。
 * 接続先が `ftp.omniture.com` ではないこと。アドビの内部サーバー間では、SFTP プロトコルはサポートされていません。
 * 接続先で、1 要素（PKI）認証がサポートされていること。2 要素のチャレンジがある場合、レポートの配信は失敗します。サーバーが二要素認証を試行するように設定されていないことを確認してください。Adobe Analytics では、ログインに鍵のみを使用し、その他のものは使用しません。
 * アドビでは、SSHv2 暗号化をサポートしています。SSHv2 が使用できない場合は、SSHv1 を使用します（RSA 鍵のみ）。
 
 Data Warehouse リクエストを SFTP 経由で正常に送信するには：
 
-1. に記載されている手順を実行します [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) この記事では、 [Data Warehouseリクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)公開鍵のダウンロードを含みます。
-1. Data Warehouseリクエストに使用されているのと同じ資格情報で、SFTP サイトにログインします。
+1. [Data Warehouse リクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)の記事にある、[SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) に記載されている手順に従います（公開鍵のダウンロードを含む）。
+1. Data Warehouse リクエストに使用されているのと同じ資格情報で、SFTP サイトにログインします。
 1. ルートディレクトリの下の `.ssh` という名前のフォルダーに移動し（存在しない場合はこのフォルダーを作成します）、`authorized_keys` ファイルをそこに配置します。
 
-1. Data Warehouseリクエストをまだ完了していない場合は、の説明に従って完了します [Data Warehouseリクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Data Warehouse リクエストをまだ完了していない場合は、[Data Warehouse リクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).の説明に従って完了します。
