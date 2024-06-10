@@ -4,10 +4,10 @@ keywords: データフィード;ジョブ;指標;列の前;列の後;ボット;�
 title: 計算指標
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ ht-degree: 100%
 
 1. 値が `post_pagename` または `post_page_url` に含まれる行の数をカウントします。
 
+## 発生件数
+
+1. 合計行数をカウントします。
+
 ## 訪問数
 
 1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
 1. 一意の値の数をカウントします。
 
->[!NOTE]
+>[!TIP]
 >
->インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。訪問をカウントする際には `visit_start_time_gmt` を使用して、これらの訪問が確実にカウントされるようにします。
+>インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。オプションですが、を使用します。 `visit_start_time_gmt` 訪問をカウントする場合は、その訪問がカウントされていることを確認します。
 
 ## 訪問者
 

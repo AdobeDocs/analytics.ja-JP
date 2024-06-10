@@ -4,10 +4,10 @@ description: 一意の購入識別子に基づいてヒットの重複を除外�
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -17,20 +17,29 @@ ht-degree: 83%
 
 アドビがヒットを重複購入と認識した場合、すべてのコンバージョンデータ（eVar やイベントなど）はレポートに表示されません。データフィードでは、`duplicate_purchase` 列は `1` に設定されます。
 
-購入 ID はすべての訪問者に適用され、37 ヶ月後に期限切れになります。 ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
+購入 ID はすべての訪問者に適用され、37 か月後に有効期限が切れます。 ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
 ## Web SDK を使用した購入 ID
 
-購入 ID は次の変数にマッピングされます。
+購入 ID は、次の変数にマッピングされます。
 
 * [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
 * [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Adobe Analytics拡張機能を使用した購入 ID
 
-Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+購入 ID は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.purchaseID
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
+2. 目的のタグプロパティをクリックします。
+3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
+5. を [!UICONTROL 拡張機能] Adobe Analyticsへのドロップダウンリスト、および [!UICONTROL アクションタイプ] 対象： [!UICONTROL 変数を設定].
+6. を見つけます。 [!UICONTROL 購入 ID] セクション。
+
+購入 ID は値またはデータ要素に設定できます。 別の Analytics 変数から値をコピーすることもできます。
+
+## AppMeasurementの s.purchaseID と Analytics 拡張機能のカスタムコードエディター
 
 `s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 

@@ -4,9 +4,9 @@ description: Edge が Analytics 変数に自動的にマッピングする XDM �
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1414'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ Customer Journey Analyticsに移行する予定がある場合、Adobeでは代�
 | --- | --- |
 | `xdm.application.isClose` | モバイルライフサイクル指標である[クラッシュ回数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)の定義に役立ちます。 |
 | `xdm.application.isInstall` | モバイルライフサイクル指標である[初回起動数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)を増やすタイミングを判断するのに役立ちます。 |
-| `xdm.application.isLaunch` | モバイルライフサイクル指標である[初回起動数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)を増やすタイミングを判断するのに役立ちます。 |
 | `xdm.application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。モバイルライフサイクル指標である[クラッシュ回数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
 | `xdm.application.isInstall` | モバイルライフサイクル指標である[インストール数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | モバイルライフサイクル指標である[起動回数](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
