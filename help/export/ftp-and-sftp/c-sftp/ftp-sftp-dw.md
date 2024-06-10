@@ -13,9 +13,9 @@ ht-degree: 100%
 
 # SFTP サーバーへの Data Warehouse リクエストの送信
 
-アドビでは、[Data Warehouse リクエストのレポート先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).の記事にある [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) に記載されているように、Data Warehouse リクエストの SFTP サーバへの書き出しをサポートしています。
+アドビでは、[Data Warehouse リクエストのレポートの宛先を設定する](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)の記事の [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) に記載されているように、SFTP サーバーへの Data Warehouse リクエストの書き出しをサポートしています。
 
-以下の作業を行います。
+以下の作業が完了していることを確認してください。
 
 * Data Warehouse レポートをリクエストする場合、ポート 22 のみを使用する。
 * アドビの `authorized_keys` ファイルが、ログインに使用したユーザーのルートディレクトリ内の `.ssh` ディレクトリにある。
