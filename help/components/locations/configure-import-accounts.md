@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # クラウドのインポートおよびエクスポートアカウントの設定
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>アカウントを作成および編集する際は、次の点に注意してください。 <ul><li>システム管理者は、の説明に従って、ユーザーによるアカウントの作成を制限できます。 [ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
 次の目的の一部またはすべてに使用するクラウドアカウントを設定できます。
 
@@ -23,17 +27,25 @@ ht-degree: 61%
 
 Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事の説明に従ってアカウント（Amazon S3 Role ARN、Google Cloud Platform など）を追加および設定し、次に説明に従ってアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md).
 
-アカウントの表示、編集、削除など、既存アカウントの管理方法については、を参照してください。 [Locations manager](/help/components/locations/locations-manager.md).
+既存のアカウントを表示および削除する方法については、を参照してください [Locations manager](/help/components/locations/locations-manager.md).
 
 クラウドのインポートまたはエクスポートアカウントを設定するには：
 
 1. Adobe Analyticsで、を選択します。 [!UICONTROL **Components**] > [!UICONTROL **場所**].
 1. 日 [!UICONTROL 場所] ページで、 [!UICONTROL **場所アカウント**] タブ。
-1. を選択 [!UICONTROL **アカウントを追加**].
+1. （条件付き）システム管理者は、次を有効にできます [!UICONTROL **すべてのユーザーのアカウントの表示**] 組織内のすべてのユーザーが作成したアカウントを表示するオプション。
+   ![すべてのユーザーのアカウントを表示](assets/accounts-all-users.png)
+1. 新しいアカウントを作成するには、を選択します [!UICONTROL **アカウントを追加**].
 
-   アカウントを追加ダイアログが表示されます。
+   この [!UICONTROL **場所アカウントの詳細**] ダイアログが表示されます。
 
-1. 次の情報を指定します。 |フィールド |関数 | |---------|----------| | [!UICONTROL **場所アカウント名**] |場所アカウントの名前。 この名前は、場所の作成時に表示されます | | [!UICONTROL **場所アカウントの説明**] |アカウントの簡単な説明を入力して、同じアカウントタイプを持つ他のアカウントとの区別に役立てます。 | | [!UICONTROL **アカウントタイプ**] | クラウドアカウントタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を設定することをお勧めします。 |
+   または
+
+   既存のアカウントを編集するには、編集するアカウントを見つけ、 [!UICONTROL **詳細を編集**] ボタン。
+
+   この [!UICONTROL **アカウントを追加**] ダイアログが表示されます。
+
+1. 次の情報を指定します。 |フィールド |関数 | |---------|----------| | [!UICONTROL **場所アカウント名**] |場所アカウントの名前。 この名前は、場所の作成時に表示されます | | [!UICONTROL **場所アカウントの説明**] |アカウントの簡単な説明を入力して、同じアカウントタイプを持つ他のアカウントとの区別に役立てます。 | | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | **注意：** この機能は、リリースの限定的テスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 このメモは、機能が一般入手可能になったら削除されます。Analytics リリースプロセスについて詳しくは、[Adobe Analytics 機能リリース](/help/release-notes/releases.md)を参照してください。 <p>組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。</p> <p>アカウントを共有する際は、次の点に注意してください。</p><ul><li>共有しているアカウントの共有を解除することはできません。</li><li>共有アカウントは、そのアカウントの所有者のみが編集できます。</li><li>共有アカウントの場所は誰でも作成できます。</li></ul> | | [!UICONTROL **アカウントタイプ**] | クラウドアカウントタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、の説明に従って、ユーザーが作成できるアカウント タイプを制限することができます。 [ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
 1. が含まれる [!UICONTROL **アカウントのプロパティ**] セクションで、選択したアカウントの種類に固有の情報を指定します。
 
    設定手順については、に対応する以下のセクションを展開してください [!UICONTROL **アカウントタイプ**] を選択しました。 （追加の従来のアカウントタイプも使用できますが、推奨されません。）
@@ -88,7 +100,23 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
    | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++メール
+
+   >[!NOTE]
+   >
+   >電子メール アカウントは次のアカウントでのみ使用できます [データフィード](/help/export/analytics-data-feed/create-feed.md). （メールアカウントはではサポートされていません） [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または [分類セット](/help/components/classifications/sets/overview.md)）に設定します。
+
+   Azure RBAC アカウントを設定するには、次の情報を指定します。
+
+   | フィールド | 関数 |
+   |---------|----------|
+   | [!UICONTROL **受信者**] | レポートの送信時に、特定のユーザーにメール通知を送信できます。単一のメールアドレスまたはメールアドレスのコンマ区切りのリストを指定します。 |
 
    {style="table-layout:auto"}
 
