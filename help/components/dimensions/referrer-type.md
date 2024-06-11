@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 375948a8a1d638ab4331b2437462c43c73ddfd6a
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # リファラータイプ
 
-「リファラータイプ」 [ディメンション](overview.md) は、訪問者がクリックスルーしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [寸法](overview.md) 訪問者がクリックスルーしてサイトに到達した汎用チャネルのレポート。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
@@ -184,6 +184,7 @@ ht-degree: 96%
 * `weourfamily.com`
 * `wer-kennt-wen.de`
 * `wordpress.com`
+* `x.com`
 * `xanga.com`
 * `xing.com`
 * `yammer.com`
