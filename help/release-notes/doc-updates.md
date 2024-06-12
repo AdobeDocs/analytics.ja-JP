@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: ht
-source-wordcount: '5562'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '5586'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2024年6月** | |
+| インテリジェントアラートドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。 以下に関する情報が更新されています [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、および [概要情報](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **2024年5月** | |
 | データフィードとデータウェアハウスで Google Cloud Platform の組織ポリシー制約を使用する際に必要な情報 | [データフィード](/help/export/analytics-data-feed/create-feed.md)と[データウェアハウス](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)のドキュメントに、アドビ所有の Google Cloud Platform 組織 ID を追加しました。 <p>この情報は、Google Cloud Platform で[組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints)を使用している組織にのみ必要です。</p> |
 | プロジェクトへのコンポーネントの追加に関するドキュメント | [Analysis Workspace のプロジェクトに様々なタイプのコンポーネントを追加](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)する方法について、一般情報を追加しました。 |

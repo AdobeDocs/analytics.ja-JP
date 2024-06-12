@@ -4,20 +4,18 @@ title: インテリジェントアラートの概要
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 88%
+source-wordcount: '279'
+ht-degree: 52%
 
 ---
 
 # インテリジェントアラートの概要
 
-インテリジェントアラートシステムでは、異常値検出とアラートを統合して、アラートをより詳細に制御します。
+Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。
 
-[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja)（5:34）のビデオチュートリアルを紹介します。
-
-## 概要
+異常値のしきい値、変更された割合、または特定のデータポイントに基づいてトリガーされるアラートを設定できます。 アラートは、と統合されたきめ細かい制御を提供します。 [異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)、最も必要なときにトリガーします。
 
 インテリジェントアラートを使用すると、次のことができます。
 
@@ -26,19 +24,7 @@ ht-degree: 88%
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成
 
-アラートビルダーにアクセスする方法は 3 つあります。
-
-| 方法 | 詳細 |
-| --- | --- |
-| アラートビルダーに直接移動 | **[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]** |
-| Workspace でキーボードショートカットを使用 | `Ctrl + Shift + A`（Windows）または `Cmd + Shift + A`（Mac） |
-| 1 つ以上のフリーフォームテーブル行項目を選択 | 右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択します。これにより、[!UICONTROL アラートビルダー]が開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![選択からアラートを作成](assets/create-alert-from-selection.png) |
-
-パーセントしきい値は標準偏差です。例えば、95％ = 2 標準偏差、99％ = 3 標準偏差です。選択した時間の精度に応じて、 [異なるモデル](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) は、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）を計算するために使用されます。 しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
-
->[!IMPORTANT]
->
->タイムスタンプ付きデータを使用してアラートを作成すると、アラートが誤って起動される可能性があります。インテリジェントアラートには、タイムスタンプのないデータの使用をお勧めします。
+次のビデオチュートリアルでは、アラートの基本的な概要を説明します。 [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja) （5:34）
 
 ## アラートの異常値ルックバック
 
@@ -49,4 +35,18 @@ ht-degree: 88%
 * 日単位の精度：35 日 + 前年の同じ時間範囲
 * 時間単位の精度：336 時間
 
-詳しくは、[異常値検出で使用される統計的手法](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)を参照してください。
+詳しくは、を参照してください [異常値検出で使用される統計的手法](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## アラートの作成
+
+Adobe Analyticsでアラートを作成する方法について詳しくは、以下を参照してください [アラートの作成](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+>[!IMPORTANT]
+>
+>タイムスタンプ付きデータを使用してアラートを作成すると、アラートが誤って起動される可能性があります。インテリジェントアラートには、タイムスタンプのないデータの使用をお勧めします。
+
+## アラートの管理
+
+アラートマネージャーでは、既存のアラートを管理できます。 タグ付け、名前の変更、削除など、アラートに対して様々な管理タスクを実行できます。
+
+Adobe Analyticsの既存のアラートを管理する方法について詳しくは、以下を参照してください。 [アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
