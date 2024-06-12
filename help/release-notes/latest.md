@@ -3,9 +3,9 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ed7ccd23b850cda3a0bb695fdc8daee56643c33d
+source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '987'
 ht-degree: 55%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 55%
 | ----------- | ---------- | ------- | ---- |
 | **フリーフォームテーブルのドロップダウンメニューで複数のフィルターを使用できる場合は、選択します** | 複数のフィルターがドロップダウンメニューとしてフリーフォームテーブルに追加された場合、フリーフォームテーブルのユーザーは一度に複数のフィルターを選択できるようになりました。 フリーフォームテーブルがフィルタリングされ、選択したフィルターのいずれかが含まれます。 以前は、ユーザーはフィルタードロップダウンメニューで一度に 1 つのフィルターのみを選択できました。<p>（フォローするためのドキュメントリンク。） |  | 2024年6月19日（PT） |
 | **ワークスペースプロジェクトの目次** | プロジェクトで新しい目次が使用できるようになりました。 目次には、プロジェクト内のパネルやビジュアライゼーションにすばやくジャンプできるリンクがあります。 目次は、個々のプロジェクトに対して、または特定のユーザーのすべてのプロジェクトに対して有効にできます。<p>（フォローするためのドキュメントリンク。） |  | 2024年6月19日（PT） |
-| **フリーフォームテーブルのディメンション項目にハイパーリンクを追加** | <ul><li>1 つ以上のディメンション項目にハイパーリンクを作成して、Analysis Workspaceのフリーフォームテーブル内でクリックできるようにします。</li><li>URL 値を持つディメンション項目のハイパーリンクを作成したり、非 URL 値を持つディメンション項目のカスタム URL を作成したりできます。</li><li>変数を使用して、複数のディメンション項目の動的カスタム URL を作成できます。 変数は、ディメンション項目の値を参照することも、分類ディメンションを参照することもできます。</li></ul>（フォローするためのドキュメントリンク。） |  | 2024年6月19日（PT） |
-| **書き出しと読み込みに使用されるアカウントと場所を制御するための管理者設定** | 新品 [ロケーションマネージャーの「管理者設定」タブ](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/locations-manager) ユーザーがアカウントと場所を作成および編集できるかどうかを管理者が制御できます。 これらの設定は、次の場合に適用されます [クラウドの読み込みアカウントと書き出しアカウントの設定](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-accounts) および [クラウドの読み込み場所と書き出し場所の設定](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-locations). <p>また、管理者は、ユーザーが作成して使用できるアカウントのタイプ（Google Cloud Platform、Azure RBAC、Amazon S3 など）を制限することもできます。</p><p>以前は、すべてのユーザーが、あらゆるタイプのアカウントと場所を作成、編集、使用できました。</p> | 2024年3月11日（PT） | 2024年6月18日（PT） |
+| **フリーフォームテーブルでのディメンション項目のハイパーリンクの作成** | 1 つ以上のディメンション項目にハイパーリンクを作成して、Analysis Workspaceのフリーフォームテーブル内でクリックできるようにします。 <p>URL 値を持つディメンション項目のハイパーリンクを作成したり、非 URL 値を持つディメンション項目のカスタム URL を作成したりできます。</p><p>変数を使用して、複数のディメンション項目の動的カスタム URL を作成できます。 変数は、ディメンション項目の値を参照することも、分類ディメンションを参照することもできます。</p><p>（フォローするためのドキュメントリンク。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日（PT） |
+| **書き出しと読み込みに使用されるアカウントと場所を制御するための管理者設定** | 新品 [ロケーションマネージャーの「管理者設定」タブ](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) ユーザーがアカウントと場所を作成および編集できるかどうかを管理者が制御できます。 これらの設定は、次の場合に適用されます [クラウドの読み込みアカウントと書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md) および [クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md). <p>また、管理者は、ユーザーが作成して使用できるアカウントのタイプ（Google Cloud Platform、Azure RBAC、Amazon S3 など）を制限することもできます。</p><p>以前は、すべてのユーザーが、あらゆるタイプのアカウントと場所を作成、編集、使用できました。</p> | 2024年6月12日（PT） | 2024年6月30日（PT） |
 | **書き出しと読み込みに使用されるアカウントと場所の共有** | ユーザーは、作成したアカウントと場所を組織内のすべてのユーザーに対して使用できるようになりました。アカウントと場所の所有者およびシステム管理者のみが、アカウントと場所を編集および削除できます。<p>以前は、アカウントと場所は、作成したユーザーのみが使用できました。</p><p>これらの設定は、ユーザーが次の場合に使用できます [クラウドの読み込みアカウントと書き出しアカウントの設定](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-accounts) および [クラウドの読み込み場所と書き出し場所の設定](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-locations). </p> | 2024年6月12日（PT） | 2024年6月30日（PT） |
 | **Web SDK のサーバー呼び出しを減らすための Activity Map** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。この度の機能強化では、AppMeasurement でのイベントの処理と同様に、一部のリンクイベントを取り上げ、それらを次のヒットにパッケージ化します。 <p>（更新されたドキュメントへのリンクを添付）</p> | オープンベータ版は 2024 年 6 月 19 日（PT）より提供 | 未定 |
 
