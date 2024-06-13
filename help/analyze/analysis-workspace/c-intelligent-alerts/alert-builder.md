@@ -4,10 +4,10 @@ title: アラートビルダー（Analysis Workspace）
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 42%
+source-wordcount: '613'
+ht-degree: 39%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 42%
 >
 >インテリジェントアラートは、Adobe Analytics Prime および Adobe Analytics Ultimate のお客様のみご利用いただけます。
 
-Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。
+Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。 （サーバーコールの使用状況アラートは、Analytics 管理者のみが使用できる別の種類のアラートです。 これらのアラートは、サーバーコールの消費とコミットメントデータにおける超過のリスクや発生を通知します。 詳しくは、を参照してください [サーバーコールの使用状況アラート](/help/admin/admin/c-server-call-usage/scu-alerts.md).）
 
 インテリジェントアラートの概要について詳しくは、 [インテリジェントアラートの概要](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-アラートを作成するには：
+インテリジェント・アラートを作成するには：
 
 1. アラートビルダーにアクセスして、アラートの作成を開始します。 アラートビルダーには、次のいずれかの方法でアクセスできます。
 
@@ -32,7 +32,7 @@ Adobe Analyticsのインテリジェントアラート（または単に「ア�
    * Analysis Workspaceでプロジェクトを開き、フリーフォームテーブルで 1 つ以上の行項目を選択して、右クリックして選択します。 **[!UICONTROL 選択からアラートを作成]**.
 
      これにより、アラートビルダーがすぐに事前設定され、適切な指標とフィルターを使用してアラートが作成されます。
-   * Adobe Analyticsで、を選択します。 **[!UICONTROL Components]** > [!UICONTROL **アラート**] > **[!UICONTROL 新しいアラートを作成]**.
+   * アラートの作成 [アラートマネージャーから](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    アラートビルダーが表示されます。 このインターフェイスは、Analytics でセグメントや計算指標を作成したユーザーによく知られています。
 

@@ -4,10 +4,10 @@ title: アラートマネージャー（Analysis Workspace）
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 7%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,22 @@ ht-degree: 7%
 
 1. を選択 [!UICONTROL **追加**] （または [!UICONTROL **新しいアラートを作成**] 既存のアラートがない場合）。
 
-1. 続行 [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) アラート作成の詳細。
+1. 作成するアラートに対応するアラートタイプを選択します。
+
+   * [!UICONTROL **Analytics データアラート**]：データで異常なイベントが発生した場合に通知するアラート。
+
+     このオプションを選択した場合は、に進みます [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) アラート作成の詳細。
+
+   * [!UICONTROL **サーバーコールの使用状況アラート**]：サーバーコールの利用とコミットメントデータに超過が発生するリスクまたは発生を通知するアラート。
+
+     このオプションを選択した場合は、に進みます [サーバーコールの使用状況アラート](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >サーバーコールの使用状況にアクセスするには、Analytics 管理者またはサーバーコールの使用状況アクセス権を持つユーザーである必要があります。
+
+
+
 
 ## 既存アラートの管理
 
