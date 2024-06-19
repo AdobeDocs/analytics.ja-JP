@@ -4,10 +4,10 @@ description: （非推奨） Web サイトのトップレベルドメインに�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 19%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->この変数は非推奨（廃止予定）です。 AppMeasurement v2.26.x 以降、またはAdobe Analytics拡張機能 v1.9.4 以降を使用している場合、ライブラリは cookie を設定するドメインを自動的に検出します。
+>この変数は非推奨（廃止予定）です。 次のいずれかを使用する場合：
+>
+>* AppMeasurement v2.26.x 以降
+>* Adobe Analytics extension v1.9.4 以降
+>* Adobe Experience Cloud ID サービス
+>
+>該当するライブラリが Cookie を設定するドメインを自動的に検出するので、この変数は何もしません。
 
 この `cookieDomainPeriods` 変数は、トップレベルドメインに余分な時間が含まれていることを示すことで、AppMeasurementが Analytics Cookie を設定する場所を決定するのに役立ちました。 この変数を使用すると、AppMeasurementはトップレベルドメインに余分な時間を格納し、Cookie を正しい場所に設定できました。 Web サイトのトップレベルドメインに追加の期間が含まれていない場合、この変数は不要です。
 
