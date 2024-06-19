@@ -1,13 +1,13 @@
 ---
 title: hier
-description: Adobe Analytics に階層変数を実装します。
+description: （廃止）Adobe Analyticsに階層変数を実装します。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 95%
+source-wordcount: '350'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. を [!UICONTROL 拡張機能] Adobe Analyticsへのドロップダウンリスト、および [!UICONTROL アクションタイプ] 対象： [!UICONTROL 変数を設定].
 6. [!UICONTROL 階層]セクションを見つけます。
 
 階層値を静的な文字列に設定するか、データ要素を参照できます。また、目的の区切り文字を設定することもできます。ここで設定した区切り文字が、レポートスイートの設定で設定した区切り文字と一致することを確認します。

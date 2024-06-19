@@ -1,13 +1,13 @@
 ---
 title: trackInlineStats
-description: 実装でClickMapを有効または無効にします。
-keywords: clickmap を無効にする
+description: （廃止）実装内のClickMapを有効または無効にします。
+keywords: clickmap の無効化
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 30%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
-> この変数は廃止されています。詳しくは、 [「Enable」Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) 代わりに、
+> この変数は廃止されています。参照： [Activity Mapを有効にする](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) その代わり。
 
-ClickMapは、訪問者がクリックした場所とクリックした内容に関するデータを収集する、Adobe Analyticsの古い機能です。 この機能はに置き換えられました。 [Activity Map](/help/analyze/activity-map/activity-map.md).
+ClickMapは、Adobe Analyticsで廃止された機能で、訪問者のクリック場所とクリック内容に関するデータを収集するものです。 機能はに置き換えられました [Activity Map](/help/analyze/activity-map/activity-map.md).
 
-有効な場合、AppMeasurement はリンクに関する情報を収集し、そのデータを次のイメージリクエストに送信します。各クリックからの情報は、「 `s_sq`.
+有効な場合、AppMeasurement はリンクに関する情報を収集し、そのデータを次のイメージリクエストに送信します。各クリックからの情報は、というラベルの付いた cookie に保存されます `s_sq`.
 
 ## Adobe Analytics拡張機能を使用したClickMapの有効化
 
-[!UICONTROL ClickMapを有効にする] は、 [!UICONTROL リンクトラッキング] アコーディオンを使用してAdobe Analytics拡張機能を設定する際に使用します。
+[!UICONTROL ClickMapを有効にする] 「」の下のチェックボックスです [!UICONTROL リンクトラッキング] Adobe Analytics拡張機能の設定時のアコーディオン。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
@@ -33,11 +33,11 @@ ClickMapは、訪問者がクリックした場所とクリックした内容に
 
 >[!NOTE]
 >
->このチェックボックスは、 [!UICONTROL 使用Activity Map] チェックボックス（の下） [!UICONTROL ライブラリ管理] アコーディオン。
+>このチェックボックスは、 [!UICONTROL Activity Mapを使用] の下にあるチェックボックス [!UICONTROL ライブラリ管理] アコーディオン。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.trackInlineStats
+## AppMeasurementー内の s.trackInlineStats と Analytics 拡張機能のカスタムコードエディター
 
-The `s.trackInlineStats` は、データトラッキングを有効または無効にするClickMap値です。 この機能は廃止されたので、Adobeではこの変数の設定はお勧めしません。 デフォルト値は `false` です。
+この `s.trackInlineStats` は、ClickMapトラッキングを有効または無効にするブール値です。 この機能は廃止されるので、Adobeではこの変数の設定はお勧めしません。 デフォルト値は `false` です。
 
 ```js
 s.trackInlineStats = false;

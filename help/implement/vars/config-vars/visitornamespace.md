@@ -1,13 +1,13 @@
 ---
 title: visitorNameSpace
-description: Cookie ドメインを決定した古い変数。
+description: （廃止）サードパーティ cookie ドメインの決定に役立ちました。
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 このフィールドの使用はお勧めしません。代わりに、`trackingServer` および `trackingServerSecure` を使用してください。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.visitorNamespace
+## AppMeasurementの s.visitorNamespace と Analytics 拡張機能のカスタムコードエディター
 
 `s.visitorNamespace` 変数は、組織ごとの一意の値を含む文字列です。以前のバージョンの Adobe Analytics からダウンロードした場合、古い AppMeasurement ライブラリによってこの一意の値が自動的に含まれていました。現在の AppMeasurement ライブラリでは、`trackingServer` および `trackingServerSecure` が設定されていない限り、この変数を使用しません。
 

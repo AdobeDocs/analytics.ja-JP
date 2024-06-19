@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 | **`namespace`** | 未使用。削除されたフィーチャの一部。 | varchar(50) |
 | **`new_visit`** | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
 | **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。`operating_system.tsv` 標準検索と `operating_system_type.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int unsigned |
-| **`p_plugins`** | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 `navigator.plugins()` を使用します。 | テキスト |
+| **`p_plugins`** | 廃止。ブラウザーで使用可能なプラグインのリスト。 JavaScript 関数 `navigator.plugins()` を使用します。 | テキスト |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
 | **`page_event_var2`** | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定された場合）。 | varchar(100) |
@@ -173,7 +173,7 @@ ht-degree: 100%
 | **`paid_search`** | ヒットが有料検索の検出に一致した場合に設定されるフラグ。 | tinyint unsigned |
 | **`partner_plugins`** | 未使用。削除されたフィーチャの一部。 | varchar(255) |
 | **`persistent_cookie`** | 「[永続的な cookie のサポート](/help/components/dimensions/persistent-cookie-support.md)」ディメンションで使用されます。各ヒットの後で破棄されない Cookie を訪問者がサポートしているかどうかを示します。 | char(1) |
-| **`plugins`** | 廃止。ブラウザー内で使用可能なプラグインに対応する数値 ID のリスト。`plugins.tsv` ルックアップを使用します。 | varchar(180) |
+| **`plugins`** | 廃止。ブラウザー内で使用可能なプラグインに対応する数値 ID のリスト。 `plugins.tsv` ルックアップを使用します。 | varchar(180) |
 | **`pointofinterest`** | Mobile Services 目標地点の名前 | varchar(255) |
 | **`pointofinterestdistance`** | 目標地点中心までの Mobile Services の距離 | varchar(255) |
 | **`post_`** 列 | レポートで最終的に使用された値が格納されます。各 post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |

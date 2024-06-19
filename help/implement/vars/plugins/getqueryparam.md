@@ -4,10 +4,10 @@ description: URL のクエリ文字列パラメーターの値を抽出します
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 74%
+source-wordcount: '760'
+ht-degree: 73%
 
 ---
 
@@ -17,30 +17,30 @@ ht-degree: 74%
 
 `getQueryParam` プラグインを使用すると、URL に含まれるクエリ文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリ文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Web SDK またはAdobe Analytics拡張機能を使用するか、 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドがAppMeasurementに含まれます。
+このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリ文字列パラメーターのみが必要な場合、Adobeでは、Web SDK またはAdobe Analytics拡張機能、またはを使用して URL パラメーター機能を使用することをお勧めします [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドはAppMeasurementに含まれています。
 
 ## Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobeには、Web SDK で最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
 1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
+1. を見つけてインストールします。 **[!UICONTROL Common Web SDK Plugins]** 拡張機能。
 1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定を使用して、目的のデータ要素名を設定します。
+1. 次の設定で、目的のデータ要素名を設定します。
    * 拡張機能：Common Web SDK Plugins
    * データ要素： `getQueryParam`
-1. 右側に目的のパラメーターを設定します。
-1. 変更を保存し、データ要素に公開します。
+1. 必要なパラメーターを右側に設定します。
+1. 変更を保存してデータ要素に公開します。
 
-## Web SDK の手動実装プラグインのインストール
+## Web SDK を手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用は、まだサポートされていません。
+このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
 
-## Adobe Analytics拡張機能を使用したプラグインのインストール
+## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0（2021年3月19日）
 
 * コンテキストデータとしてバージョン番号を追加しました。
-* pt プラグインへの依存関係を削除しました。
+* の依存関係を削除しました `pt` プラグイン。
 
 ### 3.3（2019 年 9 月 24 日（PT））
 

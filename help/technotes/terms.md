@@ -3,10 +3,10 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    * チャネル変数。サイトセクションディメンションを入力します。『実装ユーザガイド』の「[ページ変数](/help/implement/vars/page-vars/page-variables.md)」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。『コンポーネントユーザガイド』の「[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **分類**：Adobe Analytics の機能の 1 つで、ディメンション項目のグループ化を可能にします。『コンポーネントユーザガイド』の「[分類](/help/components/classifications/c-classifications.md)」を参照してください。
-* **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。このツールは廃止され、Activity Map に変更されました。
+* **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。この道具は廃止されActivity Mapに置き換えられた。
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とは](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)」を参照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。

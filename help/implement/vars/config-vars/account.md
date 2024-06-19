@@ -1,13 +1,13 @@
 ---
 title: account
-description: Account 変数を使用して、データの送信先のレポートスイートを決定します。
+description: （廃止）データの送信先のレポートスイートを決定します。
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 47%
+source-wordcount: '131'
+ht-degree: 38%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 47%
 
 以前のバージョンの Adobe Analytics では、`account` 変数はデータの送信先のレポートスイートを決定しました。Adobe Analytics にデータを送信するには、レポートスイート ID が必要です。
 
-* Web SDK を使用する場合、Web SDK がデータを送信する Datastream 内のAdobe Analyticsサービス設定にレポートスイートが含まれます。
-* Adobe Analytics拡張機能を使用する場合、レポートスイートは [!UICONTROL ライブラリ管理] アコーディオンを使用してAdobe Analytics拡張機能を設定する際に使用します。
-* を使用する場合、 [`s_gi()`](../functions/s-gi.md) 関数を使用して Analytics トラッキングオブジェクトをインスタンス化する場合、関数内には必須の引数としてレポートスイート ID が既に存在します。
+* Web SDK を使用する場合、レポートスイートは、Web SDK がデータを送信するデータストリーム内のAdobe Analytics サービス設定にあります。
+* Adobe Analytics拡張機能を使用する場合、レポートスイートは次の場所に存在します [!UICONTROL ライブラリ管理] Adobe Analytics拡張機能の設定時のアコーディオン。
+* 使用する場合 [`s_gi()`](../functions/s-gi.md) 関数 Analytics トラッキングオブジェクトをインスタンス化するには、その関数内に必須の引数としてレポートスイート ID が既に存在します。

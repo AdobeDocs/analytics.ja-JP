@@ -4,10 +4,10 @@ description: 訪問者が閲覧したページの割合を取得します。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 85%
 
 このプラグインは、Web SDK 内での使用はまだサポートされていません。
 
-## Adobe Analytics拡張機能を使用したプラグインのインストール
+## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -78,11 +78,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 これらの変数の 1 つ以上を eVar に割り当てて、レポート内のディメンションデータを表示します。
 
-このプラグインは、ブラウザーセッションの終了時に期限切れになる 3 つのファーストパーティ Cookie を作成します。
+このプラグインは、ブラウザーセッションの終了時に期限切れになる 3 つのファーストパーティ cookie を作成します。
 
 * `s_ppv`：関数を呼び出して公開された各値を格納します
-* `s_tp`：前のページの合計ピクセル高を格納します。
-* `s_ips`：前のページの初期スクロール率を格納します
+* `s_tp`：前のページの合計ピクセル高さを格納します
+* `s_ips`：前のページでスクロールした割合の初期値を格納します
 
 ## 例
 
@@ -117,7 +117,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1（2021年6月22日）
 
-* 特定の特殊文字が原因でプラグインが壊れる問題を修正しました。
+* 特定の特殊文字が原因でプラグインが壊れる問題を修正しました
 
 ### 5.0（2021年3月19日）
 

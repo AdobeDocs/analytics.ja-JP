@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '5586'
 ht-degree: 99%
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
-| **2024年6月** | |
+| **2024 年 6 月** | |
 | インテリジェントアラートドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。 以下に関する情報が更新されています [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、および [概要情報](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **2024年5月** | |
 | データフィードとデータウェアハウスで Google Cloud Platform の組織ポリシー制約を使用する際に必要な情報 | [データフィード](/help/export/analytics-data-feed/create-feed.md)と[データウェアハウス](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)のドキュメントに、アドビ所有の Google Cloud Platform 組織 ID を追加しました。 <p>この情報は、Google Cloud Platform で[組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints)を使用している組織にのみ必要です。</p> |
@@ -140,7 +140,7 @@ ht-degree: 99%
 | VISTA | [VISTA ルール](/help/technotes/vista.md)の基本を説明する新しいページ。 |
 | **2022年9月** | |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
-| 更新されたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
+| 更新されたプラグイン | の更新済みバージョン [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグイン。 |
 | 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
