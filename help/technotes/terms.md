@@ -3,10 +3,10 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '2541'
-ht-degree: 99%
+source-wordcount: '2528'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **カスタマーサポート委任者：**&#x200B;アドビカスタマーケアと直接連絡を取る権限を持つ指定ユーザー。Experience Cloud ナレッジベースの「[カスタマーサポート委任者](https://helpx.adobe.com/jp/experience-cloud/supported-users.html)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
-* **データコネクタ：**&#x200B;サードパーティによる Adobe Analytics へのデータのアップロードを自動化するための包括的な開発ソリューション。サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。多くのデータコネクタは、データソースで使用されるものと同じワークフローを使用します。インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) を参照してください。
+* **Data connectors:** サードパーティによるAdobe Analyticsへのデータの自動アップロードを可能にする、廃止された開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。Adobe Exchangeの Marketplace に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。『エクスポートユーザガイド』の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse の概要](data-warehouse/data-warehouse.md)
    + [Data Warehouse ユーザーグループの追加](data-warehouse/t-dw-group.md)
-   + Data Warehouse リクエストの作成 {#dw-create-request}
+   + Data Warehouseリクエストの作成 {#dw-create-request}
       + [Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [レポートを作成](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -57,7 +57,6 @@ ht-degree: 100%
       + [FTP アカウントの設定 - 概要](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分類](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [データソース](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [データフィード](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse が配信するレポート](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder が配信するレポート](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
