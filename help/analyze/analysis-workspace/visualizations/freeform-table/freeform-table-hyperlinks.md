@@ -3,9 +3,10 @@ title: Analysis Workspaceのフリーフォームテーブルでのハイパー�
 description: Analysis Workspaceのフリーフォームテーブルでディメンション項目のハイパーリンクを作成する方法を説明します
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
+source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ ht-degree: 0%
   無効な URL を持つハイパーリンクを作成する場合、または URL 値を持たないディメンション項目を参照するハイパーリンクを作成する場合（ディメンション項目を直接参照するか、 `$value` または `$breakdown` 変数）に設定されている場合は、ハイパーリンクをクリックすると、URL が無効であることを示すエラーメッセージが表示されます。
 
 * 単一のディメンション項目に対して作成されたハイパーリンクは、そのディメンションに対して作成されたハイパーリンクより優先されます。
+
+* でハイパーリンクが機能しない [ダウンロードしたPDFファイル](/help/analyze/analysis-workspace/curate-share/download-send.md).
 
 1 つ以上のディメンション項目のハイパーリンクを作成するには：
 
@@ -130,4 +133,3 @@ ht-degree: 0%
    ハイパーリンクは、単一のディメンション項目（単一のディメンション項目を選択した場合）、またはすべてのディメンション項目（ディメンション列ヘッダーでディメンション名を選択した場合）から削除されます。
 
 1. [プロジェクトを保存します](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) 変更を保存します。
-
