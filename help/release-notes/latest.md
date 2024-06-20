@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 91%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2024年6月）
 
-**最終更新日**：2024年6月13日（PT）
+**最終更新日**：2024年6月20日（PT）
 
 このリリースノートは、2024年6月12日（PT）～7月のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 | **書き出しと読み込みに使用されるアカウントと場所を制御するための管理者設定** | [場所マネージャーの新しい「管理設定」タブ](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)により、管理者はユーザーがアカウントと場所を作成および編集できるかどうかを制御できます。これらの設定は、ユーザーが[クラウドの読み込みと書き出しのアカウントを設定](/help/components/locations/configure-import-accounts.md)し、[クラウドの読み込みと書き出しの場所を設定](/help/components/locations/configure-import-locations.md)する際に適用されます。 <p>また、管理者は、ユーザーが作成して使用できるアカウントのタイプ（Google Cloud Platform、Azure RBAC、Amazon S3 など）を制限することもできます。</p><p>以前は、すべてのユーザーが、あらゆるタイプのアカウントと場所を作成、編集、使用できました。</p> | 2024年6月12日（PT） | 2024年6月20日（PT） |
 | **書き出しと読み込みに使用されるアカウントと場所の共有** | ユーザーは、作成したアカウントと場所を組織内のすべてのユーザーに対して使用できるようになりました。アカウントと場所の所有者およびシステム管理者のみが、アカウントと場所を編集および削除できます。<p>以前は、アカウントと場所は、作成したユーザーのみが使用できました。</p><p>これらの設定は、ユーザーが[クラウドの読み込みと書き出しを行うアカウント](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-accounts)や、[クラウドの読み込みと書き出しの場所](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-locations)を設定する際に使用できます。 </p> | 2024年6月12日（PT） | 2024年6月20日（PT） |
 | **Web SDK のサーバー呼び出しを減らすための Activity Map** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。この度の機能強化では、AppMeasurement でのイベントの処理と同様に、一部のリンクイベントを取り上げ、それらを次のヒットにパッケージ化します。 <p>（更新されたドキュメントへのリンクを添付）</p> | オープンベータ版は 2024年6月19日（PT）から開始 | 未定 |
+| **新しいデータソース API ガイド** | この [Adobe Analytics 2.0 Data Sources API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) エンドポイントは、データソースアカウントを作成、表示、削除およびデータソースアカウントにアップロードするメソッドを提供します。 |  | 今すぐ利用可能 |
+| **分類 API ガイドの新しいメソッド** | ファイルパーティションを取得する 2 つの新しい方法が分類 API ガイドに追加されました。<ul><li>[分類ジョブ ファイル パーティションの取得](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[分類エクスポートジョブファイル部分を取得](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 今すぐ利用可能 |
 
 {style="table-layout:auto"}
 
