@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [プロジェクトの概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
+      + [プロジェクトの目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace のフォルダー {#workspace-folders}
          + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
       + フリーフォームテーブル {#freeform-table}
          + [フリーフォームテーブル](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [フリーフォームテーブルでのディメンションのハイパーリンクの作成](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 列および行の設定 {#column-row-settings}
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

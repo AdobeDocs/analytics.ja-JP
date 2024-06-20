@@ -1,16 +1,17 @@
 ---
 description: Analysis Workspaceでプロジェクトにコンポーネントを追加する方法を説明します
-title: Analysis Workspaceのコンポーネントの使用
+title: Analysis Workspace でのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 15%
+source-wordcount: '873'
+ht-degree: 16%
 
 ---
 
-# Analysis Workspaceのコンポーネントの使用
+# Analysis Workspace でのコンポーネントの使用
 
 コンポーネントは、Analysis Workspaceの任意のプロジェクトの実際のデータを構成します。 コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。 コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
 
@@ -32,9 +33,13 @@ ht-degree: 15%
 
    ![](assets/build-components.png)
 
-1. 追加するコンポーネントまでスクロールするか検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
+1. 追加するコンポーネントまでスクロールまたは検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
-   例えば、セグメントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。
+1. （任意）コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグします。
+
+   セグメントは、パネル内のすべてのコンテンツに適用されます。
+
+   パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、を参照してください。 [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
 
@@ -64,6 +69,10 @@ ht-degree: 15%
 
      ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
 
+1. （任意）Analysis Workspace内のディメンションおよびディメンション項目を、他のコンポーネントで分類できます。
+
+   詳しくは、を参照してください [ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
 Analysis Workspaceでディメンションを使用する方法について詳しくは、以下を参照してください [ディメンションをプレビュー](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)、および [時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## プロジェクトへの指標の追加
@@ -92,31 +101,23 @@ Analysis Workspaceでの指標の使用方法について詳しくは、 [指標
 
 [セグメント](/help/components/segmentation/seg-overview.md) を使用すると、特性や特定のインタラクションに基づいて訪問者のサブセットを識別できます。
 
-Analysis Workspaceでセグメントをプロジェクトに追加するには：
+Analysis Workspaceでは、次のいずれかの方法でセグメントを使用できます。
 
-1. の説明に従って、Analysis Workspaceでプロジェクトへのセグメントの追加を開始します。 [プロジェクトへのコンポーネントの追加の開始](#begin-adding-components-to-a-project).
+### パネルへのセグメントの追加
 
-1. パネルのフィルターを開始するには、次のいずれかの方法を選択します。
+パネルにセグメントを追加すると、そのセグメントはパネル内のすべてのコンテンツに適用されます。
 
-   * 個々のセグメントを左パネルからセグメントドロップゾーンにドラッグします。
+パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、を参照してください。 [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
+### フリーフォームテーブルの列へのセグメントの追加
 
-   * 左側のパネルで複数のセグメントを選択するには、Shift キーまたは Ctrl キーを押しながらセグメント ドロップゾーンにドロップします。
+フリーフォームテーブルの列にセグメントを追加すると、そのセグメントはテーブルの列内のすべてのコンテンツに適用されます。
 
-     ![ドロップゾーンに複数のセグメントをドロップ](assets/segment-dropzoone-multiple.png)
+### 計算指標の作成時にセグメントを使用
 
-     これによりドロップダウンメニューが作成され、パネルのユーザーが適用するフィルターを選択できるようになります。 ドロップダウンメニューには、 [!UICONTROL **フィルターなし**] パネルにフィルターを適用しない、ユーザーが選択できるオプション。
+計算指標ビルダーでは、指標の定義内にセグメントを適用できます。
 
-     （x）を選択すると、ドロップダウンメニューから任意のオプションを削除できます。 を削除した場合 [!UICONTROL **フィルターなし**] オプションを選択する場合は、フィルターが必要です。
-
-   * セグメント以外のコンポーネントをドロップゾーンにドラッグしてアドホックセグメントを作成します。 これにより、セグメントビルダーに移動する時間と労力を節約できます。 この方法で作成されたセグメントは、自動的にヒットレベルのセグメントとして定義されます。 これらの定義は、セグメントの隣の情報アイコン (I)、鉛筆の形をした編集アイコンの順にクリックし、セグメントビルダーで編集することで変更できます。
-
-     アドホックセグメントはクイックセグメントの一種で、プロジェクトに対してローカルです。 公開しない限り、左パネルには表示されません。
-
-     詳しくは、[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)を参照してください。
-
-パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、 [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).
+詳しくは、を参照してください [セグメント化指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## プロジェクトへの日付範囲の追加
 

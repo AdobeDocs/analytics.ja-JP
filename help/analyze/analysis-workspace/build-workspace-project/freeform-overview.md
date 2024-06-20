@@ -5,10 +5,10 @@ title: プロジェクトの概要
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 80%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -26,34 +26,34 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 ![](assets/sample-project.png)
 
-「プロジェクト」ページには、次の情報が含まれます。
+プロジェクト ページには、次の情報が含まれます。
 
 >[!NOTE]
 >
->一部の列は、デフォルトでは表示されません。 表示される列をカスタマイズするには、 **テーブルをカスタマイズ** アイコン ![テーブルをカスタマイズ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
+>デフォルトでは表示されない列もあります。 表示される列をカスタマイズするには、 **テーブルをカスタマイズ** アイコン ![テーブルをカスタマイズ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 | 要素 | 説明 |
 |---|---|
-| [環境設定を編集](/help/analyze/analysis-workspace/user-preferences.md) | 作成するすべての新規プロジェクトまたはパネルに関する、Analysis Workspaceおよびその関連コンポーネントの設定を管理します。 |
-| [フォルダーを作成](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 新しいフォルダまたはサブフォルダをプロジェクトとフォルダのリストに追加します。 |
-| [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 新しいプロジェクトを最初から、またはレポートから開始します。 |
-| 詳細を表示 | 空のプロジェクトまたはモバイルスコアカードを作成するためのオプションを表示します。 [トレーニングチュートリアルの表示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ja)または [リリースノートの表示](/help/release-notes/latest.md). |
-| フォルダとプロジェクトを表示 | プロジェクトのフォルダ構造を表示するかどうかを選択します。 詳しくは、[Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)を参照してください。 |
-| テーブルをカスタマイズ（アイコン） | プロジェクトページの各プロジェクトに表示される情報をカスタマイズできます。 |
+| [環境設定を編集](/help/analyze/analysis-workspace/user-preferences.md) | 作成するすべての新規プロジェクトまたはパネルについて、Analysis Workspaceおよびその関連コンポーネントの設定を管理します。 |
+| [フォルダーを作成](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | プロジェクトとフォルダーのリストに新しいフォルダーまたはサブフォルダーを追加します。 |
+| [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | ゼロから、またはレポートから新しいプロジェクトを開始します。 |
+| さらに表示 | 空のプロジェクトまたはモバイルスコアカードを作成するためのオプションが表示されます。 [トレーニングチュートリアルの表示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=ja)、または [リリースノートの表示](/help/release-notes/latest.md). |
+| フォルダーとプロジェクトを表示 | プロジェクトのフォルダー構造を表示するかどうかを選択します。 詳しくは、[Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)を参照してください。 |
+| テーブルをカスタマイズ （アイコン） | プロジェクト ページで各プロジェクトに表示される情報をカスタマイズできます。 |
 | 名前 | Workspace プロジェクトの名前。 |
-| タイプ | これが Workspace プロジェクト、フォルダ、または [モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja). |
+| タイプ | ワークスペースプロジェクト、フォルダーまたは [モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja). |
 | タグ | プロジェクトに適用されたタグです。 |
-| スケジュール済み | プロジェクトがスケジュールに従って受信者に電子メールで送信されるようにスケジュールされているかどうかを示します。 詳しくは、 [プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| 共有リンク (任意のユーザー) | プロジェクトは、Analysis Workspaceにアクセスできないユーザーとでも誰とでも共有できます。 この列は、この方法でプロジェクトが共有されたかどうかを示します。 詳しくは、 [プロジェクトを他のユーザーと共有する（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md) を参照してください。 |
+| スケジュール済み | プロジェクトがスケジュールに従って受信者にメールで送信されるようにスケジュールされているかどうかを示します。 参照： [プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
+| 共有リンク (任意のユーザー) | プロジェクトは、Analysis Workspaceへのアクセス権を持たないユーザーでも、誰とでも共有できます。 この列には、プロジェクトがこのようにして共有されたかどうかが表示されます。 参照： [任意のユーザーとプロジェクトを共有（ログインは不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 。対象： [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md) を参照してください。 |
 | レポートスイート | プロジェクトが関連付けられているレポートスイート。 |
 | [プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) | プロジェクトの役割（所有者、編集、重複、表示）を示します。 |
 | 所有者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
-| 共有先 | プロジェクトの共有先のユーザー。 |
+| 共有先 | プロジェクトが共有されているユーザー。 |
 | 最終変更日 | プロジェクトが最後に変更された日付。 |
-| 最終開封日 | プロジェクトが最後に開かれた日時。 |
+| 前回開いた日時 | プロジェクトが最後に開かれた日時。 |
 | プロジェクト ID | プロジェクトの ID。 |
-| 最長の日付範囲 | プロジェクトの最も長い日付範囲。 |
+| 最長の日付範囲 | プロジェクトの最長の日付範囲。 |
 | クエリ数 | プロジェクトに含まれるクエリの合計数。 |
 | 場所 | プロジェクトが存在するフォルダー。 |
 
@@ -65,7 +65,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 | メニュー項目 | 説明 |
 |---|---|
-| プロジェクト | 新規、開く、保存、名前を付けて保存、 [会社レポートとして保存](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。「[CSV と PDF をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)」オプションを使用すると、Workspace からデータをエクスポートできます。「[プロジェクト情報および設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja#info-settings)」には、プロジェクトを管理するための多くのオプションが用意されています。 |
+| プロジェクト | プロジェクト管理の一般的なアクション（新規、開く、保存、名前を付けて保存など）が含まれます [会社レポートとして保存](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。「[CSV と PDF をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)」オプションを使用すると、Workspace からデータをエクスポートできます。「[プロジェクト情報および設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja#info-settings)」には、プロジェクトを管理するための多くのオプションが用意されています。 |
 | テンプレートを | 前回の操作を元に戻すか、やり直します。「すべてクリア」を選択すると、プロジェクトが最初の空白の状態にリセットされます。 |
 | 前に | このメニューから、新しいパネルまたはビジュアライゼーションを挿入します。また、左側のパネルから新しいパネルやビジュアライゼーションを挿入することもできます。 |
 | [コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja) | プロジェクトから、新しいセグメント、計算指標、日付範囲またはアラートの各コンポーネントを作成します。また、左側のパネルから新しいコンポーネントを作成することもできます。コンポーネント定義が最近変更された場合は、「コンポーネントを更新」を選択すると最新の定義を取得できます。 |
@@ -75,7 +75,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 ### プロジェクト情報および設定 {#info-settings}
 
-**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;では、現在アクティブなプロジェクトに関するプロジェクトレベルの情報が提供されます。
+**[!UICONTROL ワークスペース]** > **[!UICONTROL プロジェクト]** > **[!UICONTROL プロジェクト情報および設定]** 現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
 
 ![](assets/projectinfo.png)
 
@@ -83,7 +83,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 | 設定 | 説明 |
 |---|---|
-| プロジェクト名前 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
+| プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
 | 作成者 | プロジェクト所有者名。 |
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
@@ -94,13 +94,23 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 ## 左側のパネル {#left-rail}
 
-プロジェクトでは、左側のパネルから [パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)、テーブル、 [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) および [コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja) ルからアクセスします。これらはプロジェクトの構成要素です。
+プロジェクト内の左側のパネルでは様々なアイコンを使用でき、それぞれがプロジェクトの重要な部分を表しています。
 
-また、 [空のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja) からもビジュアライゼーションやパネルにアクセスできます。
+* [パネル](/help/analyze/analysis-workspace/c-panels/panels.md) ![パネルアイコン](assets/panels-icon.png)
 
-左側のパネルのコンポーネント（ディメンション、指標、セグメント、日付範囲）は、アクティブパネルのレポートスイートに関連付けられています。アクティブパネルの周囲に青い境界線が表示され、アクティブなレポートスイートがコンポーネントパネルの上部に表示されます。
+* [ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![ビジュアライゼーションアイコン](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![コンポーネントアイコン](assets/components-icon.png)
+
+* [データディクショナリ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![データ要素アイコン](assets/data-dictionary-icon.png)
+
+* [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![目次アイコン](assets/toc-icon.png)
+
+左側のパネルのコンポーネント（ディメンション、指標、フィルター、日付範囲）は、アクティブなパネルデータビューに関連しています。アクティブなパネルは、それを囲む青い境界線で識別され、アクティブなデータビューはコンポーネントパネルの上部にリストされます。
+
+![業界横断的なデモデータビューのアクティブなパネルデータビューに関連するコンポーネント。](assets/left-rail.png)
+
+
 
 ## 右クリックメニュー
 
@@ -132,8 +142,8 @@ Analysis Workspace プロジェクトは、 **[!UICONTROL Analytics]／[!UICONTR
 
 | アクション | 説明 |
 |---|---|
-| 追加 | 新規プロジェクトを最初から作成するか、または [レポート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
-| タグまたは承認 | 「タグ」または「承認」を選択してプロジェクトを整理し、検索しやすくします。 |
+| 追加 | 新規プロジェクトをゼロから作成またはゼロから開始 [報告書](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
+| タグまたは承認 | 「タグ」または「承認」を選択して、プロジェクトを整理し、検索しやすくします。 |
 | [共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。 |
 | 削除 | プロジェクトを削除します。 |
 | 名前変更 | プロジェクトの名前を編集します。 |
