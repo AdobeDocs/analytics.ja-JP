@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 91%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **ドロップダウンフィルターでの複数フィールドの選択** | ドロップダウンフィルターに複数のフィールドが追加されている場合、ユーザーは一度に複数のフィールドを選択できるようになりました。パネルがフィルタリングされ、選択したフィールドのいずれかが含まれます。 <p>以前は、ユーザーはドロップダウンフィルターで一度に 1 つのフィールドしか選択できませんでした。</p><p>詳しくは、を参照してください [静的ドロップダウンセグメント](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 2024年6月19日（PT） |
-| **ワークスペースプロジェクトの目次** | プロジェクトで新しい目次を使用できるようになりました。目次には、ユーザーがプロジェクト内のパネルやビジュアライゼーションにすばやくジャンプできるリンクがあります。目次は、特定のユーザーの個々のプロジェクト、またはすべてのプロジェクトに対して有効にできます。<p>詳しくは、を参照してください [プロジェクトの目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 2024年6月19日（PT） |
-| **フリーフォームテーブルでのディメンション項目のハイパーリンクの作成** | 1 つ以上のディメンション項目にハイパーリンクを作成して、Analysis Workspace のフリーフォームテーブル内でクリックできるようにします。 <p>URL 値を持つディメンション項目のハイパーリンクを作成したり、URL 以外の値を持つディメンション項目のカスタム URL を作成したりできます。</p><p>変数を使用して、複数のディメンション項目の動的カスタム URL を作成できます。変数は、ディメンション項目の値を参照することも、分類ディメンションを参照することもできます。</p><p>詳しくは、を参照してください [フリーフォームテーブルでのディメンションのハイパーリンクの作成](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024年6月19日（PT） |
+| **ドロップダウンフィルターでの複数フィールドの選択** | ドロップダウンフィルターに複数のフィールドが追加されている場合、ユーザーは一度に複数のフィールドを選択できるようになりました。パネルがフィルタリングされ、選択したフィールドのいずれかが含まれます。 <p>以前は、ユーザーはドロップダウンフィルターで一度に 1 つのフィールドしか選択できませんでした。</p><p>詳しくは、[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[静的ドロップダウンセグメント](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments)を参照してください。</p> |  | 2024年6月19日（PT） |
+| **ワークスペースプロジェクトの目次** | プロジェクトで新しい目次を使用できるようになりました。目次には、ユーザーがプロジェクト内のパネルやビジュアライゼーションにすばやくジャンプできるリンクがあります。目次は、特定のユーザーの個々のプロジェクト、またはすべてのプロジェクトに対して有効にできます。<p>詳しくは、[プロジェクトの目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)を参照してください。</p> |  | 2024年6月19日（PT） |
+| **フリーフォームテーブルでのディメンション項目のハイパーリンクの作成** | 1 つ以上のディメンション項目にハイパーリンクを作成して、Analysis Workspace のフリーフォームテーブル内でクリックできるようにします。 <p>URL 値を持つディメンション項目のハイパーリンクを作成したり、URL 以外の値を持つディメンション項目のカスタム URL を作成したりできます。</p><p>変数を使用して、複数のディメンション項目の動的カスタム URL を作成できます。変数は、ディメンション項目の値を参照することも、分類ディメンションを参照することもできます。</p><p>詳しくは、[フリーフォームテーブルでディメンションのハイパーリンクを作成する](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)を参照してください。</p> |  | 2024年6月19日（PT） |
 | **書き出しと読み込みに使用されるアカウントと場所を制御するための管理者設定** | [場所マネージャーの新しい「管理設定」タブ](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)により、管理者はユーザーがアカウントと場所を作成および編集できるかどうかを制御できます。これらの設定は、ユーザーが[クラウドの読み込みと書き出しのアカウントを設定](/help/components/locations/configure-import-accounts.md)し、[クラウドの読み込みと書き出しの場所を設定](/help/components/locations/configure-import-locations.md)する際に適用されます。 <p>また、管理者は、ユーザーが作成して使用できるアカウントのタイプ（Google Cloud Platform、Azure RBAC、Amazon S3 など）を制限することもできます。</p><p>以前は、すべてのユーザーが、あらゆるタイプのアカウントと場所を作成、編集、使用できました。</p> | 2024年6月12日（PT） | 2024年6月20日（PT） |
 | **書き出しと読み込みに使用されるアカウントと場所の共有** | ユーザーは、作成したアカウントと場所を組織内のすべてのユーザーに対して使用できるようになりました。アカウントと場所の所有者およびシステム管理者のみが、アカウントと場所を編集および削除できます。<p>以前は、アカウントと場所は、作成したユーザーのみが使用できました。</p><p>これらの設定は、ユーザーが[クラウドの読み込みと書き出しを行うアカウント](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-accounts)や、[クラウドの読み込みと書き出しの場所](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-locations)を設定する際に使用できます。 </p> | 2024年6月12日（PT） | 2024年6月20日（PT） |
 | **Web SDK のサーバー呼び出しを減らすための Activity Map** | 現在、Activity Map リンクイベントは独自のイベントとしてカウントされ、追加費用が発生します。この度の機能強化では、AppMeasurement でのイベントの処理と同様に、一部のリンクイベントを取り上げ、それらを次のヒットにパッケージ化します。 <p>（更新されたドキュメントへのリンクを添付）</p> | オープンベータ版は 2024年6月19日（PT）から開始 | 未定 |

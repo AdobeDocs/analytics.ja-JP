@@ -142,7 +142,7 @@ ht-degree: 99%
 | VISTA | [VISTA ルール](/help/technotes/vista.md)の基本を説明する新しいページ。 |
 | **2022年9月** | |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
-| 更新されたプラグイン | の更新済みバージョン [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグイン。 |
+| 新しくなったプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
 | 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
