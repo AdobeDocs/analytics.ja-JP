@@ -3,13 +3,13 @@ description: Adobe Analytics と Adobe Campaign を統合する際に実装担�
 title: Analytics を Adobe Campaign と統合する方法
 feature: Campaign Integration
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 85%
+source-wordcount: '53'
+ht-degree: 69%
 
 ---
 
 # Adobe Analytics と Campaign Classic を統合
 
-Adobe Analytics データを Campaign Classic に統合する方法について詳しくは、[Adobe Analytics Connector のプロビジョニング](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html)を参照してください。
+参照： [Adobe Analytics Connector のプロビジョニング](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html?lang=ja) Adobe Analytics データのCampaign Classicへの統合について詳しくは、
