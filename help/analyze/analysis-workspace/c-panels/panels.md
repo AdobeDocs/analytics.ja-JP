@@ -4,9 +4,9 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1582'
 ht-degree: 51%
 
 ---
@@ -107,11 +107,13 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 #### 静的ドロップダウンセグメントを使用
 
-ユーザーは、次のいずれかの方法でドロップダウンセグメントメニューを使用して、パネルをフィルタリングできます。
+パネルをフィルタリングするには、次のいずれかの方法でドロップダウンセグメントメニューを使用します。
 
 * ドロップダウンメニューからセグメントを選択して、1 つのセグメントをパネルに適用します。
 
 * ドロップダウンメニューから複数のセグメントを選択して、複数のセグメントをパネルに適用します。 パネルがフィルタリングされ、選択したセグメントのいずれかが含まれます。
+
+  リストからセグメントを削除するには、ドロップダウンメニューでセグメントを再度選択します。
 
   ![複数のセグメントを選択](assets/dropdown-filter-multiselect.png)
 
