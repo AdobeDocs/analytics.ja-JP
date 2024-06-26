@@ -3,16 +3,16 @@ title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '890'
+ht-degree: 96%
 
 ---
 
 # Analytics のディメンションの互換性
 
-このページのリスト [寸法](overview.md) は、それぞれの Analytics 機能でサポートされています。
+このページには次のリストがあります [寸法](overview.md) 対応する Analytics 機能でサポートされます。
 
 >[!NOTE]
 >
@@ -155,9 +155,9 @@ ht-degree: 97%
 | Nielsen チャネルアセット | `nielsenchannelasset` |
 | Nielsen コンテンツタイプ | `nielsencontenttype` |
 
-## Analysis Workspaceでサポートされるコンテンツに応じたディメンション
+## Analysis Workspaceでサポートされるコンテンツ対応のディメンション
 
-### ビデオ（メディア分析）
+### ビデオ（ストリーミングメディアコレクションアドオン）
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |

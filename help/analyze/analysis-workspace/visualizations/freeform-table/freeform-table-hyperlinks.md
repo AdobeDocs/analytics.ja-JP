@@ -4,14 +4,14 @@ description: Analysis Workspaceのフリーフォームテーブルでディメ�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 1%
 
 ---
 
-# フリーフォームテーブルでのディメンションのハイパーリンクの作成
+# フリーフォームテーブルでディメンションのハイパーリンクを作成する
 
 ディメンション項目のハイパーリンクを作成して、Analysis Workspaceのフリーフォームテーブル内でクリックできるようにします。
 
@@ -22,6 +22,10 @@ ht-degree: 0%
 * リンク先の URL 値を含む分類を含むDimension項目（例えば、ページ URL ディメンションの分類を含むページ名ディメンション）
 
 * リンク先の URL の一部である値を持つDimension項目または分類（URL の一部であるページ名ディメンションなど）
+
+次に、この機能を紹介するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
 
 ## 1 つ以上のディメンション項目のハイパーリンクの作成
 
