@@ -4,10 +4,10 @@ title: よくある質問と Workspace のトラブルシューティング
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 
 +++Analysis Workspace を実装するにはどうすればよいですか？
 特別な実装は必要ありません。Analysis Workspace は、Analytics Standard または Premium を使用しているすべての企業で利用できます。ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）のほか、プロジェクトのキュレーションおよび共有には標準アクセス権限が適用されます。詳しくは、 [管理およびアクセス要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md) を参照してください。
-+++
-
-+++Analysis Workspace は Adobe Analytics の事前設定済みレポートを変更しますか？
-いいえ。環境が異なるので、Adobe Analytics の既存のレポートや事前設定されたレポートは変更されません。Analysis Workspaceを使用して、標準のReport Builderレポートを引き続き使用できます。
 +++
 
 +++Data Warehouse に Analysis Workspace を使用できますか？
@@ -71,4 +67,8 @@ Analysis Workspace の使用ログのトラッキングに関する次のビデ�
 * レポートにセグメントを適用している場合、そのセグメント条件がどのデータとも一致しない可能性があります。セグメントを削除するか、セグメント定義を調整してみてください。
 * 右上隅の日付範囲をチェックし、期待する値に設定されていることを確認します。
 * Web サイトに移動し、[デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用してデータが収集されていることを検証します。
++++
+
++++読み取り専用ユーザーのAnalysis Workspaceでは、どのようなアクションを実行できますか？
+プロジェクトが読み取り専用として共有されている場合、すべての編集機能は完全に無効になり、受信者はドロップダウンを変更するだけで、事前に定義された方法でパネルにフィルターを適用できます。
 +++
