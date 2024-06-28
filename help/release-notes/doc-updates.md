@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
 source-wordcount: '5695'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 96%
 | **2024年6月** | |
 | ストリーミングメディア機能を参照する製品名を更新しました | ストリーミングメディアデータを収集してAnalysis Workspaceに表示するストリーミングメディア機能のセットを参照する際に、「Media Analytics」と「Streaming Media」のインスタンスを「Streaming Media Collection Add-on」という名前に置き換えました。 <p>これらのアップデートは、Adobe Analyticsのドキュメントと同様に [ストリーミングメディアコレクションアドオンのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview).</p> |
 | インテリジェントアラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。これらの更新には、[アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、[概要情報](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)に関する情報が含まれます。 |
-| 非推奨 `cookieDomainPeriods` | これで、AppMeasurementが Cookie を設定する適切なドメインを自動的に検出し、 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 変数は非推奨（廃止予定）です。 |
-| Data Connectors ドキュメントを廃止 | Data Connectorsの提供終了ページをに移動しました。 [生産中止品](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
+| 非推奨`cookieDomainPeriods` | AppMeasurement が Cookie を設定する適切なドメインを自動的に検出するようになったので、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 変数は非推奨（廃止予定）になりました。 |
+| Data Connectors ドキュメントの廃止 | Data Connectors のサポート終了ページを[販売終了した製品](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-connectors)に移動しました。 |
 | **2024年5月** | |
 | データフィードとデータウェアハウスで Google Cloud Platform の組織ポリシー制約を使用する際に必要な情報 | [データフィード](/help/export/analytics-data-feed/create-feed.md)と[データウェアハウス](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)のドキュメントに、アドビ所有の Google Cloud Platform 組織 ID を追加しました。 <p>この情報は、Google Cloud Platform で[組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints)を使用している組織にのみ必要です。</p> |
 | プロジェクトへのコンポーネントの追加に関するドキュメント | [Analysis Workspace のプロジェクトに様々なタイプのコンポーネントを追加](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)する方法について、一般情報を追加しました。 |
