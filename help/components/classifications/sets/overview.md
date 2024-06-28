@@ -3,10 +3,10 @@ title: 分類セットの概要
 description: 分類セットを使用して分類データを管理します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,15 @@ ht-degree: 100%
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**
 
+製品管理者であるか、権限項目を含む製品プロファイルに属している必要があります [!UICONTROL レポートスイートツール] > [!UICONTROL 分類] をクリックして、このメニュー項目を表示します。 以前の分類管理インターフェイスはの下にありますが、 [!UICONTROL Admin] メニュー、分類セットはの下にあります [!UICONTROL Components] メニュー。
+
+## 機能強化
+
 分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な改善点が含まれています。
 
 * 処理時間が短縮されました（72 時間 → 24 時間）
-* 分類セット UI を使用する機能
-* [分類データ用の Adobe Analytics ソースコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=ja)を介して、今後 Adobe Experience Platform で分類データを使用するオプション
+* 分類を管理するための再設計された UI
+* [分類データ用の Adobe Analytics ソースコネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)を介して、今後 Adobe Experience Platform で分類データを使用するオプション
 
 分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な変更点も含まれています。
 

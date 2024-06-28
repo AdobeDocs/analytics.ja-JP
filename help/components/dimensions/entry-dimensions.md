@@ -4,22 +4,25 @@ description: 入口ディメンションとその使用をリストします。
 keywords: 入口ページ、入口サイトセクション、入口サーバー、入口カスタムインサイト
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 89%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 # 入口ディメンション
 
-*このヘルプページでは、入口が [ディメンション](overview.md). 入口が指標として機能する方法について詳しくは、[入口](../metrics/entries.md)指標を参照してください。*
+*このヘルプページでは、エントリがとして機能する方法について説明します [寸法](overview.md). 入口が指標として機能する方法について詳しくは、[入口](../metrics/entries.md)指標を参照してください。*
 
-入口ディメンションは、 [訪問ベース](../metrics/visits.md). これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
+入口ディメンションは [訪問ベース](../metrics/visits.md). これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
+
+>[!TIP]
+>訪問で表示された最初の値ではなく、訪問の最初のヒットに基づいてデータを表示する場合は、 [セグメント](/help/components/segmentation/seg-overview.md). ヒットコンテナを使用する場所 [ヒットの深度](hit-depth.md) が 1 に等しい場合は、そのセグメントを目的の変数と共に使用します。
 
 ## 入口ディメンションへのデータ入力
 
-特定のエントリ [ディメンション](overview.md) は、関連するトラフィック変数に基づいています。 入口変数以外の変数にデータが含まれている場合は、関連する入口ディメンションにもデータが含まれます。トラフィック変数にデータが含まれる場合、入口ディメンションに対して実装の変更は必要ありません。
+指定されたエントリ [寸法](overview.md) は、関連付けられているトラフィック変数に基づいています。 入口変数以外の変数にデータが含まれている場合は、関連する入口ディメンションにもデータが含まれます。トラフィック変数にデータが含まれる場合、入口ディメンションに対して実装の変更は必要ありません。
 
 ## ディメンション項目
 
