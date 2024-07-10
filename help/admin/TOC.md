@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
    + [ログ](admin/logs.md)
    + レポートアクティビティマネージャー {#reporting-activity-manager}
       + [概要](admin/reporting-activity-manager/reporting-activity-overview.md)
-      + [レポートアクティビティを表示](admin//reporting-activity-manager/reporting-activity.md)
+      + [レポートアクティビティの表示](admin//reporting-activity-manager/reporting-activity.md)
       + [レポートリクエストのキャンセル](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + コンポーネントの移行 {#component-migration}
       + [移行の準備](admin/component-migration/prepare-component-migration.md)
@@ -75,7 +75,7 @@ ht-degree: 91%
                + [ボットの除外メソッド](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [プライバシー設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [タイムスタンプ設定](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-            + サーバー側転送 {#server-side-forwarding}
+            + サーバーサイド転送 {#server-side-forwarding}
                + [サーバーサイド転送の概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR／ePrivacy コンプライアンスおよびサーバーサイド転送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [サーバーサイド転送の要件](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
@@ -118,9 +118,9 @@ ht-degree: 91%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [プライバシーレポート](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Document Cloud管理 {#doc-cloud-mgt}
-            + [Adobe AnalyticsとのDocument Cloudの設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Document Cloudレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + Document Cloud 管理 {#doc-cloud-mgt}
+            + [Adobe Analytics での Document Cloud の設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Document Cloud レポートの設定](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics 設定](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + リアルタイム {#real-time-reports}
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -155,7 +155,7 @@ ht-degree: 91%
       + [設定マネージャー](admin/company/preferences-manager.md)
       + [保留中のアクション](admin/company/pending-actions-admin.md)
       + [機能アクセスレベル](admin/company/feature-access-levels.md)
-   + データガバナンスのプライバシーラベル付け {#data-governance}
+   + データガバナンスプライバシーのラベル付け {#data-governance}
       + [Adobe Analytics データプライバシーワークフロー](admin/c-data-governance/an-gdpr-workflow.md)
       + [よくある質問](admin/c-data-governance/gdpr-faq.md)
       + データのラベル付け {#data-labels}
@@ -175,7 +175,7 @@ ht-degree: 91%
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
    + ユーザーと製品の管理（レガシー） {#user-product-management}
       + [ユーザーと製品の管理（レガシー）](admin/user-management2/user-management.md)
-      + [ユーザーアセットの転送またはアカウント有効期限の設定](admin/user-management2/users-assets.md)
+      + [従来のユーザーアカウント、アセットおよび有効期限の管理](admin/user-management2/users-assets.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](admin/user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin/user-management2/user-migration/t-migrate-users.md)
