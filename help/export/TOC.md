@@ -3,9 +3,9 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
-user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。FTP と SFTP を使用してファイルを転送する方法を説明します。
+user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。 FTP と SFTP を使用してファイルを転送する方法を説明します。
 source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
