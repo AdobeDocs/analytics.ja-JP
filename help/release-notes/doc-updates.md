@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
 workflow-type: tm+mt
-source-wordcount: '5709'
-ht-degree: 99%
+source-wordcount: '5771'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年7月** | |
-| 一般的なエラーメッセージを更新しました | にマイナーアップデートを加えました [一般的なエラーメッセージ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
+| データフィードの管理に関するドキュメントを更新しました | [ データフィードの管理 ](/help/export/analytics-data-feed/df-manage-feeds.md) の情報を更新し、わかりやすくしました。 <p>更新内容は次のとおりです。</p><ul><li>情報のスキャンと使用を容易にするために、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。 これらの変更は現在、限定提供となっており、一部のお客様のみはまだ利用できません。</li> |
+| 一般的なエラーメッセージを更新しました | [ 一般的なエラーメッセージ ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) をマイナーアップデートしました。 |
 | **2024年6月** | |
 | ストリーミングメディア機能を参照する製品名を更新しました | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションアドオンのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
 | インテリジェントアラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。これらの更新には、[アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、[概要情報](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)に関する情報が含まれます。 |

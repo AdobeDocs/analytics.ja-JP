@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。 FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + Analytics データフィード {#analytics-data-feed}
    + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
-   + [データフィードの作成または編集](analytics-data-feed/create-feed.md)
+   + [データフィードの作成](analytics-data-feed/create-feed.md)
    + [データフィードの管理](analytics-data-feed/df-manage-feeds.md)
    + [データフィードジョブの管理](analytics-data-feed/df-manage-jobs.md)
    + データフィードの内容 {#data-feed-contents}
