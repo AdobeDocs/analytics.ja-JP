@@ -3,10 +3,10 @@ title: データフィード UI
 description: データフィードインターフェイスのナビゲーション方法を説明します。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ ht-degree: 29%
 
    編集中のデータフィードの「[!UICONTROL **宛先**]」セクションを更新すると、「[!UICONTROL **アカウント**]」および「[!UICONTROL **場所**]」ドロップダウンフィールドで、新しいデータフィードに使用する別のアカウントと場所を選択できます。
 
-   使用されているすべてのデータフィードのアカウントと場所を編集する場合は、[ クラウドのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) および [ クラウドのインポートおよびエクスポート場所の設定 ](/help/components/locations/configure-import-locations.md) で説明しているように、アカウントと場所を直接編集できます。 クラウド以外のアカウントおよび場所は編集できません。
+   アカウントと場所は、[ クラウドのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) および [ クラウドのインポートおよびエクスポート場所の設定 ](/help/components/locations/configure-import-locations.md) の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
+
+   以前のバージョンのデータフィードマネージャーでは、FTP、SFTP、S3 および Azure BLOB 宛先を作成できました。 以前のバージョンのデータフィードマネージャーで作成された宛先は、編集またはコピーできません。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
@@ -84,7 +86,9 @@ ht-degree: 29%
 
    コピーするデータフィードの「[!UICONTROL **宛先**]」セクションを更新すると、「[!UICONTROL **アカウント**]」および「[!UICONTROL **場所**]」ドロップダウンフィールドで、新しいデータフィードに使用する別のアカウントと場所を選択できます。
 
-   使用されているすべてのデータフィードのアカウントと場所を編集する場合は、[ クラウドのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) および [ クラウドのインポートおよびエクスポート場所の設定 ](/help/components/locations/configure-import-locations.md) で説明しているように、アカウントと場所を直接編集できます。 クラウド以外のアカウントおよび場所は編集できません。
+   アカウントと場所は、[ クラウドのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) および [ クラウドのインポートおよびエクスポート場所の設定 ](/help/components/locations/configure-import-locations.md) の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
+
+   以前のバージョンのデータフィードマネージャーでは、FTP、SFTP、S3 および Azure BLOB 宛先を作成できました。 以前のバージョンのデータフィードマネージャーで作成された宛先は、編集またはコピーできません。
 
 ## データフィードの一時停止
 
