@@ -3,10 +3,10 @@ title: データフィード UI
 description: データフィードインターフェイスのナビゲーション方法を説明します。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ ht-degree: 28%
 
 ## データフィードの削除
 
-データフィードを削除すると、そのステータスは [!UICONTROL  削除済み ] に設定されます。
+データフィードを削除すると、そのステータスは [!UICONTROL  削除済み ] に設定されます。 データフィードを削除する前に、ステータスがアクティブである必要があります。
+
+データフィードを削除するには：
 
 1. Adobe Analyticsで、[!UICONTROL **管理者**] / [!UICONTROL **データフィード**] を選択します。
 
