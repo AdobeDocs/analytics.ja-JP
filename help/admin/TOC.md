@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 99%
 
 ---
 
@@ -183,4 +183,5 @@ ht-degree: 100%
          + [従来のログインの無効化](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [移行の影響を受ける API](admin/user-management2/user-migration/developer.md)
 + [Admin API](c-admin-api/c-admin-api.md)
++ [Adobe Analytics 1.4 API のサポート終了 FAQ](c-admin-api/c-admin-14-api-eol.md)
 
