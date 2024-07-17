@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
 
-**[Adobe Analytics Dashboards](/help/analyze/mobile-app/home.md)** では、モバイルで直感的なスコアカードにアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+**[Adobe Analytics ダッシュボード](/help/analyze/mobile-app/home.md)**&#x200B;では、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
-**[Report Builder](/help/analyze/report-builder/home.md)** はMicrosoft Excel のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+**[Report Builder](/help/analyze/report-builder/home.md)** は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** は、Adobe Analyticsの機能で、Web ページやモバイルアプリに対するユーザーのアクションを視覚的に表現します。 これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
+**[Activity Map](/help/analyze/activity-map/overview.md)** は、Adobe Analytics 内の機能で、web ページやモバイルアプリに対するユーザーエンゲージメントを視覚的に表現します。これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
 
 ## Adobe Analytics へのデータの読み込み {#import}
 
@@ -53,9 +53,9 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。統合アプリは、通常、概要レベルのデータを恒久的かつ自動的に繰り返し Adobe Analytics に取り込みます。
 
-**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
+**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
 
-* データをAdobe Analyticsにアップロードする必要があり、Adobe AppMeasurementまたはモバイル SDK コードを使用できない場合。 一括データ挿入 API の使用をお勧めします（以下を参照）。
+* データを Adobe Analytics にアップロードする必要があるものの、Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。一括データ挿入 API（以下を参照）の使用をお勧めします。
 
 **[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
@@ -76,7 +76,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 **[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
 
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
-* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより永続的なソリューションはデータソースです（Analytics へのデータのインポートを参照）。
+* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより永続的なソリューションはデータソースです（Adobe Analytics へのデータの読み込みを参照）。
 * 様々なディメンションのレポートから得られるデータの結合（例えば、プロモーションのインプレッションレポートとプロモーションのクリックトゥコンバージョンレポートの結合など）。
 * 異なるレポートスイートからのデータを、同じテーブルで横に並べて合計または表示する方法で結合します。
 * スケジュール設定による自動化が求められる場合（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。

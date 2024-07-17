@@ -4,10 +4,10 @@ description: リンクトラッキングコールをアドビに送信します�
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 76%
 
 ## Web SDK を使用したリンクトラッキング
 
-Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方の `sendEvent` コマンドを使用します。
+Web SDK は、ページビューコールとリンクトラッキングコールを区別しません。どちらも `sendEvent` コマンドを使用します。
 
-XDM オブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに以下が含まれていることを確認します。
+XDM オブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに次が含まれていることを確認します。
 
-* リンク名：マッピング先 `xdm.web.webInteraction.name`.
-* リンク URL：にマッピング済み `xdm.web.webInteraction.URL`.
-* リンクタイプ：マッピング先 `xdm.web.webInteraction.type`. 有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。
+* リンク名：`xdm.web.webInteraction.name` にマッピングされています。
+* リンク URL: `xdm.web.webInteraction.URL` にマップされました。
+* リンクタイプ：`xdm.web.webInteraction.type` にマッピングされています。 有効な値は `other`（カスタムリンク）、`download`（ダウンロードリンク）、`exit`（離脱リンク）です。
 
 ```js
 alloy("sendEvent", {
@@ -41,11 +41,11 @@ alloy("sendEvent", {
 });
 ```
 
-データオブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、データオブジェクトに以下が含まれていることを確認してください。
+データオブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキング呼び出しとしてカウントする場合は、データオブジェクトに次のものが含まれていることを確認します。
 
-* リンク名：マッピング先 `data.__adobe.analytics.linkName`.
-* リンク URL：にマッピング済み `data.__adobe.analytics.linkURL`.
-* リンクタイプ：マッピング先 `data.__adobe.analytics.linkType`. 有効な値は `o`（カスタムリンク）、`d`（ダウンロードリンク）、`e`（離脱リンク）です。
+* リンク名：`data.__adobe.analytics.linkName` にマッピングされています。
+* リンク URL: `data.__adobe.analytics.linkURL` にマップされました。
+* リンクタイプ：`data.__adobe.analytics.linkType` にマッピングされています。 有効な値は `o`（カスタムリンク）、`d`（ダウンロードリンク）、`e`（離脱リンク）です。
 
 ```js
 alloy("sendEvent", {
@@ -63,18 +63,18 @@ alloy("sendEvent", {
 
 ## Adobe Analytics拡張機能を使用したリンクトラッキング
 
-Adobe Analytics拡張機能には、リンクトラッキングコールを設定するための専用の場所があります。
+Adobe Analytics拡張機能には、リンクトラッキングコールを設定する専用の場所があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
+1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL ビーコンを送信]** に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics 拡張機能では、オプションの引数を設定できません。
 
-## AppMeasurementの s.tl() メソッドと Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementの s.tl （） メソッドと Analytics 拡張機能のカスタムコードエディター
 
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 
@@ -101,7 +101,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### リンクタイプ（必須）
+### リンクタイプ （必須）
 
 リンクタイプ引数は、リンクトラッキングコールのタイプを決定する 1 文字の文字列です。有効な値は 3 つです。
 
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### カスタム関数内でリンクトラッキングコールを実行します
 
-ページやリンクされている JavaScript ファイルで定義されている、自己完結型の JavaScript 関数にリンクトラッキングコードを統合できます。次に、各リンクの onClick 関数で呼び出しを行うことができます。JavaScript ファイルで次の設定を行います。
+リンクトラッキングコードを、自己完結型のJavaScript関数に統合できます。 次に、各リンクの `onClick` 関数で呼び出しを行うことができます。 JavaScript ファイルで次の設定を行います。
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ function trackClickInteraction(name){
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>`tl()` メソッドを間接的に呼び出すと、Activity Mapオーバーレイレポートの利便性が低下する可能性があります。 関数をリンク要素に登録するには、各リンクをクリックする必要があります。 ただし、WorkspaceのActivity Map寸法は同じように追跡されます。
 
 ### 重複リンクの追跡を避けます
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Activity Mapで `tl()` メソッドを使用します
+
+`tl()` メソッドを使用して、カスタム要素を追跡したり、動的コンテンツのオーバーレイレンダリングを設定したりできます。 `linkName` パラメーターは、[Activity Mapリンク ](/help/components/dimensions/activity-map-link.md) ディメンションの設定にも使用されます。
+
+`tl()` メソッドがHTML要素のクリックイベントから直接呼び出されると、Activity Mapでは、web ページが読み込まれるときにその要素のオーバーレイを表示できます。 次に例を示します。
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+HTML要素のクリック時のイベントから直接 `tl()` メソッドが呼び出されない場合、Activity Mapでは、その要素がクリックされた後にのみオーバーレイを表示できます。 次に例を示します。
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

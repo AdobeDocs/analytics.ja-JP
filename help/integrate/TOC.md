@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager や Advertising Cloud など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 96%
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Audience Analytics の概要](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics のワークフロー {#audience-analytics-workflow}
       + [ワークフローの概要](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics の宛先の作成 — Adobe Audience Managerガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
+      + [Analytics の宛先の作成 - Adobe Audience Manager ガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
@@ -43,5 +43,4 @@ ht-degree: 96%
 + [Adobe Analytics での Adobe Campaign レポート](adobe-campaign.md)
 + [Adobe Analytics データと Adobe Campaign Classic の統合](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
-+ [Activity Map レポート](activitmap-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)

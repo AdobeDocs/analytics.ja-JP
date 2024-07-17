@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 この用語集は、Adobe Analytics で使用される様々な用語のコンテキストを理解するのに役立ちます。
 
-* **Activity Map：**&#x200B;サイト内でクリック数の最も多いリンクを示すブラウザープラグイン。『分析ユーザガイド』の「[Activity Map](/help/analyze/activity-map/activity-map.md)」を参照してください。
+* **Activity Map：**&#x200B;サイト内でクリック数の最も多いリンクを示すブラウザープラグイン。『分析ユーザガイド』の「[Activity Map](/help/analyze/activity-map/overview.md)」を参照してください。
 * **Admin Console：**&#x200B;次を参照してください。
    * 従来の管理ツール。Adobe Analytics のレポートスイート設定を管理します。以前のバージョンの Adobe Analytics では、ユーザー権限もここで管理されていました。『管理ユーザガイド』の「[管理ツール](/help/admin/admin/c-admin-tools.md)」を参照してください。
    * Adobe Admin Console。製品へのアクセス権がプロビジョニングされ、ユーザー権限が管理されます。『管理ユーザガイド』の「[Admin Console](/help/admin/admin-console/home.md)」を参照してください。
@@ -46,7 +46,7 @@ ht-degree: 98%
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **カスタマーサポート委任者：**&#x200B;アドビカスタマーケアと直接連絡を取る権限を持つ指定ユーザー。Experience Cloud ナレッジベースの「[カスタマーサポート委任者](https://helpx.adobe.com/jp/experience-cloud/supported-users.html)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
-* **Data connectors:** サードパーティによるAdobe Analyticsへのデータの自動アップロードを可能にする、廃止された開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。Adobe Exchangeの Marketplace に置き換えられました。
+* **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。Adobe Exchangeの Marketplace に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。『エクスポートユーザガイド』の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。

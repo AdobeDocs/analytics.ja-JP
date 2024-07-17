@@ -4,26 +4,26 @@ description: Activity Map で、サイト上の一意のリンクを識別しま
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 80%
 
 ---
 
 # s_objectID
 
-`s_objectID` 変数はリンクの一意の ID を提供します。これは、[Activity Map](/help/analyze/activity-map/activity-map.md) のレポートをより正確にするために使用します。頻繁に変更されるリンクがページ上にある場合は、`s_objectID` 変数を使用して一意のリンクの場所を Activity Map に知らせ、必要に応じてデータを正しくグループ化できます。
+`s_objectID` 変数はリンクの一意の ID を提供します。これは、[Activity Map](/help/analyze/activity-map/overview.md) のレポートをより正確にするために使用します。頻繁に変更されるリンクがページ上にある場合は、`s_objectID` 変数を使用して一意のリンクの場所を Activity Map に知らせ、必要に応じてデータを正しくグループ化できます。
 
-Activity Map の精度が組織にとって重要な場合は、サイト上のリンクの `onClick` イベントに `s_objectID` 変数を含めることをお勧めします。詳しくは、『Analyze ユーザーガイド』の [Activity Map リンクトラッキングの使用例](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)を参照してください。
+Activity Mapの精度が組織にとって重要な場合、Adobeでは、サイト上のリンクの `onClick` しいイベントに `s_objectID` 変数を含めることをお勧めします。
 
 ## Adobe Analytics拡張機能を使用したオブジェクト ID
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s_objectID
+## AppMeasurementの s_objectID と Analytics 拡張機能のカスタムコードエディター
 
-`s_objectID` はグローバル変数で、Analytics トラッキングオブジェクトとは独立して動作します（デフォルトで `s`）。この変数の有効な値は、100 バイトまでの任意の文字列です。この変数を定義していない場合、Activity Map はリンク URL をリンクの識別子として使用します。
+`s_objectID` はグローバル変数で、Analytics トラッキングオブジェクトとは独立して動作します（デフォルトで `s`）。この変数の有効な値は、100 バイトまでの任意の文字列です。この変数が定義されていない場合、Activity Mapはリンクテキストをリンクの識別情報として使用します。
 
 この変数は、通常、HTML リンクの `onClick` イベントで設定されます。
 
@@ -60,4 +60,4 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-リンクが同じ URL を指している場合でも、Activity Map は `s_objectID` 変数を使用して、レポートでリンクを正しく区別できます。
+リンクが同じ URL を指している場合でも、Activity Mapはレポートでそれらを正しく区別するために `s_objectID` 変数を使用できます。

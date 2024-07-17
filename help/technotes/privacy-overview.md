@@ -4,53 +4,53 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # プライバシーの概要
 
-Adobeは、適用される法令に準拠できるように組織を有効にしたいと考えています。 詳しくは、 [Adobe Experience Cloudのプライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target=_blank} を参照してください。 Adobe Analyticsと組織の間では、Adobeは「データ処理者」として機能し、お客様は「データ管理者」（または該当するプライバシーおよびデータ保護法に基づく同等の者）となります。 Adobeのソリューションの実装方法は組織によってのみ制御されるので、Adobeの製品およびサービスの使用方法を開示するかどうかは、組織次第です。 Adobe Analyticsを使用している間、組織は、お客様独自のプライバシーポリシー、お客様とAdobeとのサービス契約、およびすべての適用法に準拠する責任を負います。
+アドビは、お客様の組織が適用される法律や規制に準拠できるように支援します。詳しくは、[Adobe Experience Cloud プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target=_blank}を参照してください。Adobe Analytics とお客様の組織との間では、アドビが「データ処理者」として機能し、お客様は「データ管理者」（または適用されるプライバシーおよびデータ保護法に基づく同等の者）となります。アドビのソリューションの実装方法はお客様の組織が独占的に管理するので、アドビの製品とサービスの使用方法を開示するかどうかは、お客様の組織に委ねられています。Adobe Analytics を使用する際、お客様の組織は、独自のプライバシーポリシー、アドビとのサービス契約および適用されるすべての法律を遵守する責任があります。
 
-Adobeでは、次の包括的な概念に従うことを強くお勧めします。
+アドビでは、次の包括的な概念に従うことを強くお勧めします。
 
-* **個人データを収集する場合は、プライバシーに関する法律や規制に従ってください。** カスタム変数を使用すると、ほぼすべての項目にアクセスできる情報を収集できますが、組織のプライバシーポリシーや適用法についても考慮する必要があります。
-* **顧客に対し、組織のプライバシー情報を見つけやすく分かりやすく提供する。** オプトアウトリンク、参照データの使用方法、Adobeのサービスの使用方法や計画など、役立つ情報が含まれます。
-* **お客様に適用される現地の法律と国際法の両方に注意してください。** 組織がグローバルな規模で運営する場合は、一部の国際法が適用される場合があります。
+* **個人データを収集する場合は、プライバシー法および規制に準拠していることを確認します。**&#x200B;カスタム変数を使用すると、アクセスできるデータはほとんどすべて収集できます。ただし、組織のプライバシーポリシーおよび適用される法律も考慮する必要があります。
+* **お客様の組織のプライバシー情報を見つけやすく、理解しやすい形でお客様の顧客に提供します。**&#x200B;役立つ情報には、オプトアウトリンク、閲覧データの使用方法、アドビのサービスの使用方法や使用計画などが含まれます。
+* **適用される現地の法律と国際法の両方に注意してください。**&#x200B;お客様の組織が世界規模で運営されている場合は、一部の国際法が適用される可能性があります。
 
 ## データ収集の分類
 
-Adobeは、データをAdobeに送信する際に役立つ、複数のデータ収集ライブラリを提供します。 主な例を次に示します。
+アドビでは、アドビへのデータ送信に役立つ複数のデータ収集ライブラリを提供しています。注目すべき例は次のとおりです。
 
-* **AppMeasurement**：データをAdobe Analyticsに直接送信するように設計されたライブラリ。
-* **Web SDK**：データをAdobe Experience Platform Edge ネットワークに送信するように設計されたライブラリです。このライブラリは、そのデータをAdobe Analyticsに転送します。
-* **タグ**：最初のタグ実装以外で、Web サイトやアプリのソースコードにアクセスすることなく、実装を設定できる Web ベースの UI。 拡張機能は、AppMeasurementと Web SDK の両方で使用できます。
+* **AppMeasurement**：Adobe Analytics にデータを直接送信するように設計されたライブラリ。
+* **Web SDK**：Adobe Experience Platform Edge Network にデータを送信し、そのデータを Adobe Analytics に転送するように設計されたライブラリ。
+* **タグ**：最初のタグ実装以降、web サイトやアプリのソースコードにアクセスする必要がなく、実装を設定できる web ベースの UI。拡張機能は、AppMeasurementと Web SDK の両方で使用できます。
 
-Adobe Analyticsでは、次のタイプのデータを収集できます。
+Adobe Analytics は、次のタイプのデータを収集できます。
 
 | データのタイプ | 詳細 | このデータを含む変数の例 |
 | --- | --- | --- |
-| サイト上の Web ページのページ名または URL | このデータは、Adobe Analyticsが機能するために必要です。 各ヒットには URL またはページ名が必要です。 | [ページ](../components/dimensions/page.md), [ページ URL](../components/dimensions/page-url.md) |
-| 時間ベースのデータ | このデータは、Adobe Analyticsが機能するために必要です。 データ収集にはタイムスタンプが必要で、時間に基づくデータはタイムスタンプから取得されます。 | [ページでの滞在時間](../components/dimensions/time-spent-on-page.md), [時刻](../components/dimensions/hour-of-day.md), [午前/午後](../components/dimensions/am-pm.md), [平日/週末](../components/dimensions/weekday-weekend.md), [曜日](../components/dimensions/day-of-week.md), [月（年）](../components/dimensions/month-of-year.md) |
-| リファラーデータ | データ収集ライブラリは、訪問者が Web サイトに到達したときに、デフォルトで参照 URL を収集します。 リファラーのクエリ文字列内のデータを収集するように実装をカスタマイズできます。 この方法は、キャンペーンおよび広告パフォーマンスのトラッキングで一般的です。 | [リファラー](../components/dimensions/referrer.md), [参照ドメイン](../components/dimensions/referring-domain.md) |
-| 匿名化された訪問者 ID | データ収集ライブラリは、サイトを訪問する各ブラウザーの訪問者 ID を生成し、参照します。 この ID は Cookie に保存されます。 データ収集ライブラリで cookie 識別子を設定できない場合、そのライブラリでは匿名の訪問者識別のフォールバック方法が使用されます。 この方法では、訪問者の IP アドレスとユーザーエージェント文字列を使用して、関連するヒットを同じ訪問に結び付けます。 組織で IP の不明化が有効になっている場合、この設定は有効になりません。 詳しくは、 [Adobe Analyticsとブラウザーの cookie](cookies/cookies.md) を参照してください。 | [ユニーク訪問者](../components/metrics/unique-visitors.md) |
-| 識別可能な訪問者 ID | Adobeは、カスタム訪問者 ID を自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズすることはできます。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
-| 外部検索用語 | 外部検索データには、検索エンジンから派生するキーワードが含まれます。 データ収集ライブラリは、参照 URL に基づいてこのデータを検索します。 ただし、多くの最新の検索エンジンでは、この情報は含まれていません。 | [検索キーワード](../components/dimensions/search-keyword.md) |
-| 内部検索用語 | 内部検索データには、Web サイト内またはアプリの検索機能内から派生するキーワードが含まれます。 Adobeは、内部検索データを自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズすることはできます。 この方法は、Adobe Analyticsを使用する組織で一般的です。 | [eVar](../components/dimensions/evar.md) |
-| コンピューターおよびブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルの場合など、低エントロピーのブラウザーヒントを自動的に収集します。 ブラウザーの特定のバージョン/ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。 詳しくは、 [クライアントヒントの概要](client-hints.md) を参照してください。 | [ブラウザー](../components/dimensions/browser.md), [オペレーティングシステム](../components/dimensions/operating-systems.md), [モバイルディメンション](../components/dimensions/mobile-dimensions.md), [画面の解像度](../components/dimensions/monitor-resolution.md) |
-| 位置情報 | Adobeでは、IP アドレスの最後のオクテットを 0 に設定することで、詳細な地域情報を防ぐことができます。 これにより、地域情報の精度が低下し、 [レポートスイートの設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=ja). | [市区町村](../components/dimensions/cities.md), [地域](../components/dimensions/regions.md), [国](../components/dimensions/countries.md) |
-| IP アドレス | Adobeでは、このデータを保存する際に、訪問者の IP アドレスを難読化（ハッシュ化）したり、完全に削除したりできます。 通常、EMEA のお客様の IP アドレス設定は、デフォルトで不明化されます。 難読化の設定に関係なく、IP アドレスはAnalysis Workspaceではディメンションとして使用できず、 [データフィード](../export/analytics-data-feed/data-feed-overview.md). 詳しくは、 [一般的なアカウント設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) （利用可能な難読化設定の詳細については、管理者ガイド）を参照してください。 | なし |
-| サイトで提供されたフォーム情報 | すべての実装タイプで、このデータを収集するために設定が必要です。 このデータは、カスタム変数に含めることができます。 | [eVar](../components/dimensions/evar.md) |
-| サイト上で広告またはリンクをクリックしました | 次の場合に収集 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) または [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) が有効になっている。 「Activity Map」を有効にした場合は、クリックの場所などの追加情報を使用できます。 | [Activity Map](../analyze/activity-map/activity-map.md), [出口リンク](../components/dimensions/exit-link.md), [ダウンロードリンク](../components/dimensions/download-link.md) |
-| サイトで購入した製品 | すべての実装タイプで、このデータを収集するために設定が必要です。 Adobeは、この情報を収集するためのデフォルトの変数をいくつか提供します。 | [製品](../components/dimensions/product.md), [購入回数](../components/metrics/orders.md), [売上高](../components/metrics/revenue.md) |
+| サイトの web ページのページ名または URL | このデータは、Adobe Analytics が機能するために必要です。すべてのヒットに URL またはページ名が必要です。 | [ページ](../components/dimensions/page.md)、[ページ URL](../components/dimensions/page-url.md) |
+| 時間ベースのデータ | このデータは、Adobe Analytics が機能するために必要です。データ収集にはタイムスタンプが必要で、時間ベースのデータはタイムスタンプから派生します。 | [ページでの滞在時間](../components/dimensions/time-spent-on-page.md)、[時刻](../components/dimensions/hour-of-day.md)、[午前／午後](../components/dimensions/am-pm.md)、[平日／週末](../components/dimensions/weekday-weekend.md)、[曜日](../components/dimensions/day-of-week.md)、[月](../components/dimensions/month-of-year.md) |
+| リファラーデータ | データ収集ライブラリは、訪問者が web サイトに到達すると、デフォルトで参照 URL を収集します。実装をカスタマイズして、リファラーのクエリ文字列内のデータを収集できます。これは、キャンペーンや広告パフォーマンスのトラッキングで一般的です。 | [リファラー](../components/dimensions/referrer.md)、[参照ドメイン](../components/dimensions/referring-domain.md) |
+| 匿名化された訪問者 ID | データ収集ライブラリは、サイトにアクセスするブラウザーごとに訪問者 ID を生成して参照します。この ID は cookie に保存されます。データ収集ライブラリで cookie 識別子を設定できない場合、ライブラリでは匿名の訪問者を識別するフォールバックメソッドが使用されます。このメソッドでは、訪問者の IP アドレスとユーザーエージェント文字列を使用して、関連するヒットを同じ訪問に結び付けることが含まれます。お客様の組織で IP の不明化が有効になっている場合、この設定が適用されます。詳しくは、[Adobe Analytics とブラウザーの Cookie](cookies/cookies.md) を参照してください。 | [ユニーク訪問者](../components/metrics/unique-visitors.md) |
+| 識別可能な訪問者 ID | アドビは、カスタム訪問者 ID を自動的に収集しません。ただし、このデータを収集するように実装をカスタマイズできます。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| 外部検索用語 | 外部検索データには、検索エンジンから生成されたキーワードが含まれます。データ収集ライブラリは、参照 URL に基づいてこのデータを検索します。ただし、最新の検索エンジンの多くには、この情報が含まれなくなりました。 | [検索キーワード](../components/dimensions/search-keyword.md) |
+| 内部検索用語 | 内部検索データには、web サイト内またはアプリの検索機能から生成されるキーワードが含まれます。アドビは、内部検索データを自動的に収集しません。ただし、このデータを収集するように実装をカスタマイズできます。この慣習は、Adobe Analytics を使用する組織では一般的です。 | [eVar](../components/dimensions/evar.md) |
+| コンピューターとブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルかなど、低エントロピーのブラウザーヒントを自動的に収集します。ブラウザーの特定のバージョン／ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。詳しくは、[クライアントヒントの概要](client-hints.md)を参照してください。 | [ブラウザー](../components/dimensions/browser.md)、[オペレーティングシステム](../components/dimensions/operating-systems.md)、[モバイルディメンション](../components/dimensions/mobile-dimensions.md)、[画面の解像度](../components/dimensions/monitor-resolution.md) |
+| ジオロケーション情報 | IP アドレスの最後のオクテットを 0 に設定することで、アドビは詳細な位置情報を防ぐ機能を提供しています。これにより、位置情報の精度が下がりますが、[レポートスイートの設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=ja)で設定できます。 | [市](../components/dimensions/cities.md)、[地域](../components/dimensions/regions.md)、[国](../components/dimensions/countries.md) |
+| IP アドレス | このデータを保存する際に、訪問者の IP アドレスを不明化（ハッシュ）したり、完全に削除したりできます。EMEA のお客様は通常、デフォルトで IP アドレス設定が不明化されています。不明化設定に関係なく、Analysis Workspace では IP アドレスをディメンションとして使用することはできません。[データフィード](../export/analytics-data-feed/data-feed-overview.md)にのみ含まれます。使用可能な不明化設定について詳しくは、管理者ガイドの[一般的なアカウント設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)を参照してください。 | なし |
+| サイトで提供されるフォーム情報 | すべての実装タイプでは、このデータを収集するための設定が必要です。このデータをカスタム変数に含めることができます。 | [eVar](../components/dimensions/evar.md) |
+| サイト上の広告またはリンクをクリックしました | [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) または [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) が有効な場合に収集されます。Activity Map を有効にすると、クリックの場所などの追加情報を利用できます。 | [Activity Map](../analyze/activity-map/overview.md)、[離脱リンク](../components/dimensions/exit-link.md)、[ダウンロードリンク](../components/dimensions/download-link.md) |
+| サイトで購入した製品 | すべての実装タイプでは、このデータを収集するための設定が必要です。アドビでは、この情報を収集するデフォルトの変数をいくつか用意しています。 | [製品](../components/dimensions/product.md)、[注文件数](../components/metrics/orders.md)、[収益](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
 
-のナビゲーションメニューを参照してください。 [Dimensionの概要](../components/dimensions/overview.md) および [指標の概要](../components/metrics/overview.md) を参照してください。
+アドビがデータを収集できる可能性のあるその他の変数について詳しくは、[ディメンションの概要](../components/dimensions/overview.md)および[指標の概要](../components/metrics/overview.md)のナビゲーションメニューを参照してください。
 
 ## データ処理の場所
 
-Adobeでは、Adobe Analyticsのデータ処理場所が 3 つあります。 これらのサイトは生データを受け取り、レポートスイートに処理します。レポートスイートは、データの保存とレポートの取得に最適化されています。 これらのデータ処理場所は、現在、米国（オレゴン）、英国（ロンドン）、シンガポールに存在します。 詳しくは、 [Adobe Analytics security の概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} を参照してください。
+アドビでは、Adobe Analytics の 3 つのデータ処理場所を維持します。これらの Sites では、生データを受け取り、データストレージやレポート取得に最適化されたレポートスイートに処理します。これらのデータ処理の場所は、現在、米国（オレゴン）、英国（ロンドン）、シンガポールにあります。詳しくは、[Adobe Analytics のセキュリティ概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}を参照してください。

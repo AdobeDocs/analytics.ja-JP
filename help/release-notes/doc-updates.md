@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
-source-wordcount: '5811'
+source-wordcount: '5806'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 98%
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
 | 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
-| Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=ja)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
+| Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](/help/analyze/activity-map/getting-started.md)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |
 | レポートアクティビティマネージャーにログ情報を追加しました。 | レポートアクティビティマネージャーの[レポートアクティビティのキャンセルとその後の制限](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)が[ログ](/help/admin/admin/logs.md)にキャプチャされるという情報を追加しました。 |
 | Data Warehouse コンポーネントのサポートの更新 | Data Warehouse の一部のコンポーネントの可用性を追加し、他のコンポーネントの可用性を削除しました。これらの変更は、[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)に反映しています。 <ul><li>訪問の深さディメンションのサポートを追加しました（サポートされていないディメンションのリストから訪問の深さを削除しました）</li><li>パーティシペーション指標のサポートを削除しました（サポートされていない指標のリストにパーティシペーション指標を追加しました）</li><li>年、四半期、月、週、日、時間、分の各時間ベースのディメンションがサポートされるようになりました（サポートされていないディメンションのリストからこれらのディメンションを削除しました）。 <p>以前は、精度が選択されていた場合、データウェアハウスでは、フリーフォームテーブルの最初の列でのみこれらのディメンションをサポートしていました。現在、これらのディメンションは常にサポートされています。</p><p>ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。年は 1900 年でオフセットされ、月は 0 から始まります。</li></ul> |
@@ -111,7 +111,7 @@ ht-degree: 98%
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
 | 動的検索 | [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)に関する追加情報を追加しました。以前は、情報は、複数の動的検索の 1 つであるモバイル属性に対してのみ存在していました。 |
 | **2023年3月** | |
-| Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)および [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)を更新しました。 |
+| Activity Map の Web SDK サポート | [Adobe Analyticsの実装 ](/help/implement/home.md) を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |

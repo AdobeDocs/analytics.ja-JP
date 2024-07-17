@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
+source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 100%
 + ディメンション {#dimensions}
    + [ディメンションの概要](dimensions/overview.md)
    + [ディメンションの互換性](dimensions/compatibility.md)
+   + [Activity Map リンク](dimensions/activity-map-link.md)
+   + [Activity Map 地域別リンク](dimensions/activity-map-link-by-region.md)
+   + [Activity Map ページ](dimensions/activity-map-page.md)
+   + [Activity Map 地域](dimensions/activity-map-region.md)
    + [広告プラットフォームの同意](dimensions/ad-consent.md)
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
    + [午前／午後](dimensions/am-pm.md)

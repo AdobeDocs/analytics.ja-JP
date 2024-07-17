@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
@@ -278,34 +278,14 @@ ht-degree: 100%
    + [Report Builder のトラブルシューティング](report-builder/troubleshoot.md)
    + [Report Builder の FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Activity Map の概要](activity-map/activity-map.md)
-   + はじめに {#getting-started}
-      + [Activity Map をアクティブ化して有効にする](activity-map/activitymap-getting-started/activitymap-enable.md)
-      + [Activity Map ブラウザープラグインのインストール ](activity-map/activitymap-getting-started/activitymap-install.md)
-      + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-launch.md)
-   + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
-   + リンクトラッキング {#link-tracking}
-      + [リンクトラッキング手法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [リンクトラッキングの FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [同じリンク ID および領域を参照する複数のリンクの区別](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [リンクトラッキングの停止](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s.tl() 関数の使用](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [標準モードとライブモード](activity-map/activitymap-standard-live.md)
-   + [リンクレポート](activity-map/activitymap-links-report.md)
-   + [ページの詳細](activity-map/activitymap-page-flow.md)
-   + [完全な指標セット](activity-map/activitymap-complete-metrics.md)
-   + [リアルタイム（ライブ）ページ分析](activity-map/activitymap-realtime.md)
-   + [顧客のセグメント化](activity-map/activitymap-multiple-segments.md)
-   + [カスタマイズ可能なオーバーレイ](activity-map/activitymap-gainerslosers.md)
-   + [オーバーレイの詳細](activity-map/activitymap-overlay-details.md)
-   + [CSV ファイルへの書き出し](activity-map/activitymap-csv.md)
-   + [サポートされているシステムおよび要件](activity-map/activitymap-sysreqs.md)
-   + [Activity Map の FAQ](activity-map/activitymap-faq.md)
-   + [Activity Map の設定](activity-map/activitymap-overlay-settings.md)
-   + [Activity Map ユーザーインターフェイス](activity-map/activitymap-user-interface.md)
-   + [Analytics の Activity Map レポート](activity-map/activitymap-reporting-analytics.md)
-   + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
-   + [データ収集のトラブルシューティング](activity-map/troubleshoot-data-collection.md)
+   + [概要](activity-map/overview.md)
+   + [はじめに](activity-map/getting-started.md)
+   + {#overlay} をオーバーレイ
+      + [拡張機能の概要](activity-map/overlay/overview.md)
+      + [Launch 拡張機能](activity-map/overlay/launch.md)
+      + [拡張機能の設定](activity-map/overlay/settings.md)
+   + [トラブルシューティング](activity-map/troubleshooting.md)
+   + [よくある質問（FAQ）](activity-map/faq.md)
 + Adobe Analytics ダッシュボード {#mobapp}
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター紹介](mobile-app/curator.md)
