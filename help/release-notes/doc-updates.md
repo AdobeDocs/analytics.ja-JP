@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5788'
+source-wordcount: '5811'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年7月** | |
+| 「リファラータイプ」ディメンションにthreads.netを追加しました | [ 「リファラータイプ」ディメンション ](/help/components/dimensions/referrer-type.md) で使用されるソーシャルネットワークのリストにthreads.netを追加しました。 |
 | データフィードの管理に関するドキュメントを更新しました | [ データフィードの管理 ](/help/export/analytics-data-feed/df-manage-feeds.md) の情報を更新し、わかりやすくしました。 <p>更新内容は次のとおりです。</p><ul><li>情報のスキャンと使用を容易にするために、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。 これらの変更は現在、限定提供となっており、一部のお客様のみはまだ利用できません。</li><li>データフィードを削除する前に、データフィードのステータスがアクティブである必要があるという情報を追加しました。</li> |
 | 一般的なエラーメッセージを更新しました | [ 一般的なエラーメッセージ ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md) をマイナーアップデートしました。 |
 | **2024年6月** | |

@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # リファラータイプ
 
-「リファラータイプ」 [寸法](overview.md) 訪問者がクリックスルーしてサイトに到達した汎用チャネルのレポート。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [ ディメンション ](overview.md) は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
@@ -168,6 +168,7 @@ ht-degree: 96%
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
