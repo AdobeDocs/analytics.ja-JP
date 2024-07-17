@@ -5,28 +5,28 @@ title: 共有可能なリンクの作成
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
+source-git-commit: 5d38c97dd24ae36605242720fc31a6cc6f67b1c1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 61%
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
 # 共有可能なリンクの作成
 
-Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。リンクタイプによっては、プロジェクトにアクセスする前に受信者がAdobe Analyticsにログインする必要がある場合と、ログインしない場合があります。
+Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。一部のリンクタイプでは、プロジェクトにアクセスする前に受信者が Adobe Analytics にログインする必要がありますが、その他のリンクタイプでは必要ありません。
 
-## 他の Workspace ユーザーと共有するプロジェクトリンクを取得する {#project-link}
+## 他の Workspace ユーザーと共有するプロジェクトリンクの取得 {#project-link}
 
-プロジェクトへのリンクを共有するには、共有するプロジェクトに移動し、「次に移動」を選択します。 [!UICONTROL **共有**] > [!UICONTROL **Workspace ユーザーと共有**] > [!UICONTROL **リンクで共有**]. リンクを共有するユーザーは、ログインする必要があります。
+プロジェクトへのリンクを共有するには、共有するプロジェクトに移動し、[!UICONTROL **共有**]／[!UICONTROL **Workspace ユーザーと共有**]／[!UICONTROL **リンクで共有**]&#x200B;を選択します。リンクを共有するユーザーは、ログインする必要があります。
 
-リンクの受信者に [プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)管理者が受け取る **[!UICONTROL オリジナルを編集]** 管理者以外が受け取る **[!UICONTROL コピーを編集]** エクスペリエンス。
+リンクの受信者に[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)が割り当てられていない場合、管理者は&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;エクスペリエンスを受信し、管理者以外は&#x200B;**[!UICONTROL コピーを編集]**&#x200B;エクスペリエンスを受信します。
 
-## 他のユーザーと共有する読み取り専用リンクを取得する
+## 任意のユーザーと共有する読み取り専用リンクの取得
 
-Adobe Analyticsへのアクセス権を持たないユーザーと、Analysis Workspaceプロジェクトへの読み取り専用リンクを共有できます。 リンクを共有するユーザーは、ログインする必要はありません。
+Adobe Analytics へのアクセス権を持たないユーザーと、Analysis Workspace プロジェクトへの読み取り専用リンクを共有できます。リンクを共有するユーザーは、ログインする必要はありません。
 
-詳しくは、この記事の「誰とでもプロジェクトを共有する（ログインは不要）」を参照してください。 [プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+詳しくは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の記事の「任意のユーザーとのプロジェクトの共有（ログイン不要）」を参照してください。
 
 ## パネルまたはビジュアライゼーションリンクの取得 {#panel-link}
 
@@ -38,11 +38,3 @@ Adobe Analyticsへのアクセス権を持たないユーザーと、Analysis Wo
 リンクを作成し、それらを使用して受信者をプロジェクトの特定の部分に導く方法に関する[ビデオを視聴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja)します。
 
 ![](assets/get-viz-link.png)
-
-## 目次でのリンクの使用 {#TOC}
-
-様々なリンクオプションを活用するためのヒントの 1 つは、Workspace プロジェクトの上部に常に目次を含めることです。目次では、他の関連プロジェクト、特定のパネルおよび特定のビジュアライゼーションにリンクできます。これにより、プロジェクトの受信者によるナビゲーションが容易になります。
-
-リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法に関する[ビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ja)をご覧ください。
-
-![](assets/toc.png)
