@@ -3,9 +3,9 @@ description: GitHub の Adobe Analytics 管理 API へのリンク。
 title: Adobe Analytics 1.4 API のサポート終了 FAQ
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,11 @@ Q:Adobe Analytics 2.0 API は **1.4 API と同一ですか？ そうでない場
 
 Q:**これはデータ収集に影響しますか？**
 
-回答：Adobe Analytics 1.4 の EOL は、タグ付けソリューション（タグ（以前のAdobe Launch）、WebSDK、AppMeasurement.js など）には影響しません。 ただし、1.4 Data Sources API、Data Insertion API、Classifications API を使用してデータを収集または強化する場合は、それらのワークフローをAdobe Analytics 2.0 API に移行する必要があります。 詳しくは、[2.0 API エンドポイントガイドを参照 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) てください。
+回答：Adobe Analytics 1.4 の EOL は、タグ付けソリューション（タグ（以前のAdobe Launch）、WebSDK、AppMeasurement.js など）には影響しません。 ただし、1.4 Data Sources API または Classifications API を使用してデータを収集または強化する場合は、それらのワークフローをAdobe Analytics 2.0 API に移行する必要があります。 詳しくは、[2.0 API エンドポイントガイドを参照 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) てください。
+
+Q:**Data Insertion API は影響を受けますか？**
+
+回答：いいえ。Data Insertion API は、Adobe Analytics 1.4 EOL の影響を受けません。
 
 Q:**この FAQ で質問に答えられなかった場合はどうすればよいですか？**
 
