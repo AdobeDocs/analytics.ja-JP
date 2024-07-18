@@ -12,14 +12,14 @@ ht-degree: 33%
 
 # ページイベント
 
-「ページイベント」 [指標](overview.md) は、リンクトラッキングコールがおこなわれた回数を示します。 この指標は、どのページが最も魅力的なコンテンツを持つかを把握する場合に役立ちます。この指標の測定は、訪問者が新しいページに移動せずにページ上でアクションを実行できる場合に最も役立ちます。
+「ページイベント [ 指標 ](overview.md) は、リンクトラッキングコールが行われた回数を示します。 この指標は、どのページが最も魅力的なコンテンツを持つかを把握する場合に役立ちます。この指標の測定は、訪問者が新しいページに移動せずにページ上でアクションを実行できる場合に最も役立ちます。
 
-例えば、e コマースサイトの一般的なジャーニーでは、訪問者は 1 つのページで複数のインタラクションを持つことができます。 一般的な Analytics の実装では、これらのインタラクションがリンクトラッキング ([`tl()`](/help/implement/vars/functions/tl-method.md)) 呼び出しを呼び出し、ページビュー ([`t()`](/help/implement/vars/functions/t-method.md)) 呼び出しは、最初のページ読み込み用に予約されています。 この実装方法は、訪問者のジャーニーが継続する前に発生したインタラクションに関するインサイトを提供する、エンリッチメントされたイベントトラッキングを提供します。
+例えば、e コマースサイトの一般的なジャーニーでは、訪問者は 1 ページで複数のインタラクションを持つことができます。 一般的な Analytics 実装では、これらのインタラクションはリンクトラッキング（[`tl()`](/help/implement/vars/functions/tl-method.md)）呼び出しとして設定されますが、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）呼び出しは最初のページ読み込み用に予約されます。 この実装方法は、訪問者がジャーニーを継続する前に何が起こるかについてのインサイトを提供する、エンリッチメントされたイベントトラッキングを提供します。
 
 ## この指標の計算方法
 
-この指標は、レポートスイート内のすべてのリンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）をカウントします。この指標には、特にすべてのリンクタイプが含まれます [カスタムリンク](../dimensions/custom-link.md), [ダウンロードリンク](../dimensions/download-link.md)、および [出口リンク](../dimensions/exit-link.md). ページビュー呼び出し ([`t()`](/help/implement/vars/functions/t-method.md)) をクリックします。
+この指標は、レポートスイート内のすべてのリンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）をカウントします。この指標には、すべてのリンクタイプ、特に [ カスタムリンク ](../dimensions/custom-link.md)、[ ダウンロードリンク ](../dimensions/download-link.md)、および [ 離脱リンク ](../dimensions/exit-link.md) が含まれます。 ページビューコール（[`t()`](/help/implement/vars/functions/t-method.md)）は含まれません。
 
 ## 類似の指標と比較
 
-* **ページイベントと [ページビュー数](page-views.md)**：ページイベントは、リンクトラッキングコール数 ([`tl()`](/help/implement/vars/functions/tl-method.md)) とページビュートラッキングコール ([`t()`](/help/implement/vars/functions/t-method.md)) をクリックします。 ページビューは逆で、ページビュートラッキングコール数をカウントし、リンクを除外します。
+* **ページイベントと [ ページビュー](page-views.md)**：ページイベントは、リンクトラッキングコールの数（[`tl()`](/help/implement/vars/functions/tl-method.md)）をカウントし、ページビュートラッキングコールを除外（[`t()`](/help/implement/vars/functions/t-method.md)）します。 ページビュー数は逆で、ページビュートラッキングコールの数をカウントし、リンクを除外します。

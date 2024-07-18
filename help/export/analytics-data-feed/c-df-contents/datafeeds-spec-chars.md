@@ -7,7 +7,7 @@ feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '330'
 ht-degree: 90%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 90%
 | `\\n` | データ収集中に値「`\n`」が送信され、アドビによってエスケープされました。 |
 | `\\` | データ収集中に値「`\`」が送信され、アドビによってエスケープされました。 |
 
-例えば、サイトの訪問者が内部検索を使用し、 `"search\nstring"`. eVar1 に `"search\nstring"`をクリックし、その値をAdobeに送信します。 アドビはこのヒットを受け取り、文字列に含まれる改行をエスケープします。生データに配置される実際の値は次のとおりです `"search\\nstring"`.
+例えば、サイトの訪問者が内部検索を使用してア `"search\nstring"` ットを検索するとします。 eVar 1 に `"search\nstring"` を入力し、その値をAdobeに送信します。 アドビはこのヒットを受け取り、文字列に含まれる改行をエスケープします。生データに配置される実際の値は `"search\\nstring"` です。
 
 ## 複数値の変数（events_list、products_list、mvvars）内の特殊文字
 

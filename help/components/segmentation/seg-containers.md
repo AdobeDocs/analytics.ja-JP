@@ -5,7 +5,7 @@ title: セグメントコンテナ
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 100%
 

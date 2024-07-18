@@ -19,13 +19,13 @@ ht-degree: 83%
 
 ## Web SDK を使用したオフラインスロットル遅延
 
-Web SDK は、オフライン追跡をサポートしていません。
+Web SDK はオフライントラッキングをサポートしていません。
 
 ## Adobe Analytics拡張機能を使用したオフラインスロットル遅延
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.offlineThrottleDelay
+## AppMeasurementの s.offlineThrottleDelay と Analytics 拡張機能のカスタムコードエディター
 
 `s.offlineThrottleDelay` 変数は、キューに格納されたヒットを送信する間に AppMeasurement が待機するミリ秒数を表す整数です。デフォルト値は `0` です。つまり、キューに登録されているすべてのヒットが一度に送信されます。`trackOffline` が `false` である場合、この変数は何もしません。
 

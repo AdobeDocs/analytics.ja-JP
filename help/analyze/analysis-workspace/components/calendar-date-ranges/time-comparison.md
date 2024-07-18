@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 ## 期間を比較 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL 期間の比較]では、高度な計算指標を利用します。その結果、利用できるのは Analytics Select、Prime、Ultimate SKU をお持ちのお客様のみとなります。
+>[!UICONTROL  期間の比較 ] では、高度な計算指標を利用します。 その結果、利用できるのは Analytics Select、Prime、Ultimate SKU をお持ちのお客様のみとなります。
 
 分析にはコンテキストが必要ですが、多くの場合、そのコンテキストは前の期間から得られます。例えば、「前年の同じ時期に比べてどのくらい良くなっているか悪くなっているか」という質問は、ビジネスを把握するうえで基本的な問いです。日付の比較では自動的に「差異」列が含まれ、指定した期間と比較した変更の割合が示されます。
 

@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。
 
-異常値のしきい値、変更された割合、または特定のデータポイントに基づいてトリガーされるアラートを設定できます。 アラートは、と統合されたきめ細かい制御を提供します。 [異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)、最も必要なときにトリガーします。
+異常値のしきい値、変更された割合、または特定のデータポイントに基づいてトリガーされるアラートを設定できます。 アラートは、[ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) と統合され、最も必要なときにトリガーされる詳細なコントロールを提供します。
 
 インテリジェントアラートを使用すると、次のことができます。
 
@@ -24,7 +24,7 @@ Adobe Analyticsのインテリジェントアラート（または単に「ア�
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成
 
-次のビデオチュートリアルでは、アラートの基本的な概要を説明します。 [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja) （5:34）
+次のビデオチュートリアルでは、アラートの基本的な概要を説明します。[ インテリジェントアラート ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja) （5:34）
 
 ## アラートの異常値ルックバック
 
@@ -35,11 +35,11 @@ Adobe Analyticsのインテリジェントアラート（または単に「ア�
 * 日単位の精度：35 日 + 前年の同じ時間範囲
 * 時間単位の精度：336 時間
 
-詳しくは、を参照してください [異常値検出で使用される統計的手法](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+詳しくは、[ 異常値検出で使用される統計的手法 ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) を参照してください。
 
 ## アラートの作成
 
-Adobe Analyticsでアラートを作成する方法について詳しくは、以下を参照してください [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+Adobe Analyticsでアラートを作成する方法について詳しくは、[ アラートの作成 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -49,4 +49,4 @@ Adobe Analyticsでアラートを作成する方法について詳しくは、�
 
 アラートマネージャーでは、既存のアラートを管理できます。 タグ付け、名前の変更、削除など、アラートに対して様々な管理タスクを実行できます。
 
-Adobe Analyticsの既存のアラートを管理する方法について詳しくは、以下を参照してください。 [アラートの管理](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Adobe Analyticsで既存のアラートを管理する方法について詳しくは、「[ アラートの管理 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)」を参照してください。

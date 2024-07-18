@@ -16,9 +16,9 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->既にExperience Cloud訪問者 ID サービスを実装している場合、猶予期間は適用されず、有効にする必要はありません。
+>Experience Cloud訪問者 ID サービスを既に実装している場合は、猶予期間は適用されず、有効にしないでください。
 
-訪問者の移行は、訪問者 ID cookie(s_vi) をドメイン間で移行するプロセスです。
+訪問者の移行は、訪問者 ID cookie （s_vi）がドメイン間で移行されるプロセスです。
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
@@ -45,7 +45,7 @@ ht-degree: 67%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>準備：</b><a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html"  >カスタマーケアに連絡して</a>、移行するドメインと、有効にする移行期間（30 日、60日または 90 日）を伝えます。セキュリティで保護されていないドメインとセキュリティで保護されていないドメインを必ず含めてください。 </p> </td> 
+   <td colname="col1"> <p> <b>準備：</b><a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html"  >カスタマーケアに連絡して</a>、移行するドメインと、有効にする移行期間（30 日、60日または 90 日）を伝えます。非セキュアなドメインとセキュアなドメインを必ず含めてください。 </p> </td> 
    <td colname="col3"> <p>移行元のドメインと移行先のドメインの<i>正確な</i>構文をリストにまとめます。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -69,7 +69,7 @@ ht-degree: 67%
 
 | タスク | 説明 |
 |--- |--- |
-| 開始方法：カスタマーケアに連絡して、移行するドメインと、有効にする移行期間（30 日、60 日または 90 日）を伝えます。 セキュリティで保護されていないドメインとセキュリティで保護されていないドメインを必ず含めてください。 | 移行元および移行元のドメインの正確な構文を持つリストを作成します。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>移行ホスト名はアドビのデータ収集サーバーに設定されます。変更が実施され、次の手順を計画できるようになると、カスタマーケアから通知されます。 |
-| 設定変更から 6 時間以上経過後： `s.trackingServer` および `s.trackingServerSecure` 変数を使用して新しいデータ収集サーバーを使用する必要があります。 | この変更を行った後、 [Experience Cloudデバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja) をクリックして、Analytics イメージリクエストが更新されたデータ収集サーバーに送信されることを確認します。 |
-| Analytics コードの更新直後：サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 | の使用 [パケット監視](../implement/validate/packet-monitor.md) サイトに初めてアクセスしたときや cookie を消去した後に、200(OK)HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されていることを確認するには、次のようにします。 いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 |
-| 移行期間全体：前のホスト名の DNS レコードをアクティブに保ちます。 | 前のホスト名が DNS によって解決されなければ、cookie は移行されません。 |
+| 開始するには：移行するドメインと、有効にする移行期間（30 日、60 日または 90 日）をカスタマーケアにお問い合わせください。 非セキュアなドメインとセキュアなドメインを必ず含めてください。 | 移行先および移行元のドメインの正確な構文でリストを作成します。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>移行ホスト名はアドビのデータ収集サーバーに設定されます。変更が実施され、次の手順を計画できるようになると、カスタマーケアから通知されます。 |
+| 設定変更から 6 時間以上後：新しいデータ収集サーバーを使用するように、Analytics JavaScript コードの `s.trackingServer` 変数と `s.trackingServerSecure` 変数を更新します。 | この変更をおこなった後、[Experience Cloudデバッガーを使用して ](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)Analytics イメージリクエストが更新された Data Collection Server に送信されることを確認します。 |
+| Analytics コードの更新直後：サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 | [ パケットモニター ](../implement/validate/packet-monitor.md) を使用して、初めてサイトにアクセスするとき、または Cookie をクリアした後、200 （OK） HTTP ステータスコードの前に 2 つの 302 （リダイレクト） HTTP ステータスコードが表示されることを確認します。 いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 |
+| 移行期間全体：前のホスト名の DNS レコードをアクティブにしておきます。 | 前のホスト名が DNS によって解決されなければ、cookie は移行されません。 |

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;へナビゲートします。
-1. 次の **[!UICONTROL プロジェクトカラーパレット]** 」ドロップダウンリストから、5 色のプリセットカラー設定の中から 1 つを選択できます。
+1. **[!UICONTROL プロジェクトカラーパレット]** ドロップダウンリストから、5 つの事前設定済みカラースキームのいずれかを選択できます。
 
    ![](assets/custom_palette.png)
 

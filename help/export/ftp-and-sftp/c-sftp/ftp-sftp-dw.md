@@ -5,7 +5,7 @@ title: SFTP サーバーへの Data Warehouse リクエストの送信
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
 source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 

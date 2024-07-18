@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、eVar が [ディメンション](overview.md). マーチャンダイジング eVar の実装方法について詳しくは、 [eVar（マーチャンダイジング変数）](/help/implement/vars/page-vars/evar-merchandising.md) を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar が [ ディメンション ](overview.md) として機能する方法について説明します。 マーチャンダイジング eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar（マーチャンダイジング変数） ](/help/implement/vars/page-vars/evar-merchandising.md) を参照してください。*
 
 マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。
 

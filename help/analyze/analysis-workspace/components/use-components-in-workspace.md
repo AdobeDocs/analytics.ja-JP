@@ -15,17 +15,17 @@ ht-degree: 16%
 
 コンポーネントは、Analysis Workspaceの任意のプロジェクトの実際のデータを構成します。 コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。 コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
 
-追加できるコンポーネントのタイプの概要については、を参照してください。 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+追加できるコンポーネントのタイプについて詳しくは、[ コンポーネントの概要 ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照してください。
 
 >[!TIP]
 >
->各コンポーネントについて詳しくは、Analysis Workspaceの左側のパネルでコンポーネント名の横にある情報アイコンをクリックするか、 [Analytics コンポーネントガイド](/help/components/home.md).
+>各コンポーネントについて詳しくは、Analytics の左側のパネルでコンポーネント名の横にある情報アイコンをクリックするか、『 [Analysis Workspace コンポーネントガイド ](/help/components/home.md) を参照してください。
 
 ## プロジェクトへのコンポーネントの追加の開始
 
-1. [Analysis Workspaceでのプロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) まだの場合は、
+1. [Analysis Workspaceでプロジェクトを作成します ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) まだ作成していない場合は。
 
-1. [パネルを追加](/help/analyze/analysis-workspace/c-panels/panels.md) または [ビジュアライゼーションを追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) をAnalysis Workspaceのプロジェクトに追加します。
+1. Analysis Workspaceのプロジェクトに [ パネルを追加 ](/help/analyze/analysis-workspace/c-panels/panels.md) または [ ビジュアライゼーションを追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) します。
 
    空のプロジェクトにコンポーネントを追加すると、フリーフォームテーブル ビジュアライゼーションが自動的に作成されます。
 
@@ -39,7 +39,7 @@ ht-degree: 16%
 
    セグメントは、パネル内のすべてのコンテンツに適用されます。
 
-   パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、を参照してください。 [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).
+   パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、「[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md)」の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) を参照してください。
 
    ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
 
@@ -57,37 +57,37 @@ ht-degree: 16%
 
 [Dimension](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一般的なディメンションには、[ページ](/help/components/dimensions/page.md)、[参照ドメイン](/help/components/dimensions/referring-domain.md)、[eVar](/help/components/dimensions/evar.md) があります。一方、[指標](/help/components/metrics/overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
 
-1. の説明に従って、Analysis Workspaceでプロジェクトへのディメンションの追加を開始します [プロジェクトへのコンポーネントの追加の開始](#begin-adding-components-to-a-project).
+1. [ プロジェクトへのコンポーネントの追加を開始 ](#begin-adding-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトへのディメンションの追加を開始します。
 
 1. 次のいずれかの方法を選択して、ディメンションを追加し、分析するデータのタイプを決定します。
 
    * ディメンションをAnalysis Workspaceのビジュアライゼーション（フリーフォームテーブルなど）にドラッグします。
 
-     ![プロジェクトへのディメンションの追加](assets/add-dimensions.png)
+     ![ プロジェクトへのディメンションの追加 ](assets/add-dimensions.png)
 
-   * の説明に従って、左側のパネルからセグメント ドロップゾーンに 1 つ以上のディメンションをドラッグして、アドホックセグメントを作成します [プロジェクトへのセグメントの追加](#add-segments-to-a-project).
+   * [ プロジェクトへのセグメントの追加 ](#add-segments-to-a-project) の説明に従って、左側のパネルから 1 つ以上のディメンションをセグメントドロップゾーンにドラッグして、アドホックセグメントを作成します。
 
      ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
 
 1. （任意）Analysis Workspace内のディメンションおよびディメンション項目を、他のコンポーネントで分類できます。
 
-   詳しくは、を参照してください [ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+   詳しくは、[ ディメンションの分類 ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
 
-Analysis Workspaceでディメンションを使用する方法について詳しくは、以下を参照してください [ディメンションをプレビュー](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)、および [時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
+Analysis Workspaceでのディメンションの使用方法について詳しくは、[ ディメンションのプレビュー ](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)、[ ディメンションの分類 ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) および [ 時間分割ディメンション ](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) を参照してください。
 
 ## プロジェクトへの指標の追加
 
-[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md) を使用すると、Analysis Workspaceでデータポイントを数量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
+[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) を使用すると、Analysis Workspaceでデータポイントを数量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
 
 Analysis Workspaceでプロジェクトに指標を追加するには：
 
-1. の説明に従って、Analysis Workspaceでプロジェクトに指標を追加します [プロジェクトへのコンポーネントの追加の開始](#begin-adding-components-to-a-project).
+1. [ プロジェクトへのコンポーネントの追加を開始 ](#begin-adding-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトに指標を追加し始めます。
 
 1. Analysis Workspaceに指標を追加するには、次のいずれかの方法を選択します。
 
    * 空のフリーフォームテーブルの指標ドロップゾーンに指標をドラッグすると、プロジェクトの日付期間中のその指標のトレンドを確認できます。
 
-     ![プロジェクトに指標を追加する](assets/add-metrics.png)
+     ![ プロジェクトへの指標の追加 ](assets/add-metrics.png)
 
    * ディメンションが存在する場合に指標をドラッグすると、その指標を各ディメンション項目と比較して確認できます。
 
@@ -95,11 +95,11 @@ Analysis Workspaceでプロジェクトに指標を追加するには：
 
    * 指標をヘッダーの横にドラッグすると、両方の指標を並べて確認できます。
 
-Analysis Workspaceでの指標の使用方法について詳しくは、 [指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Analysis Workspaceでの指標の使用方法について詳しくは、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) を参照してください。
 
 ## プロジェクトへのセグメントの追加
 
-[セグメント](/help/components/segmentation/seg-overview.md) を使用すると、特性や特定のインタラクションに基づいて訪問者のサブセットを識別できます。
+[ セグメント ](/help/components/segmentation/seg-overview.md) を使用すると、特性や特定のインタラクションに基づいて訪問者のサブセットを識別できます。
 
 Analysis Workspaceでは、次のいずれかの方法でセグメントを使用できます。
 
@@ -107,7 +107,7 @@ Analysis Workspaceでは、次のいずれかの方法でセグメントを使�
 
 パネルにセグメントを追加すると、そのセグメントはパネル内のすべてのコンテンツに適用されます。
 
-パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、を参照してください。 [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 。対象： [パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md).
+パネル上のセグメントドロップゾーンを使用してパネルをフィルタリングする方法について詳しくは、「[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md)」の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) を参照してください。
 
 ### フリーフォームテーブルの列へのセグメントの追加
 
@@ -117,18 +117,18 @@ Analysis Workspaceでは、次のいずれかの方法でセグメントを使�
 
 計算指標ビルダーでは、指標の定義内にセグメントを適用できます。
 
-詳しくは、を参照してください [セグメント化指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+詳しくは、[ セグメント化指標 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) を参照してください。
 
 ## プロジェクトへの日付範囲の追加
 
-[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) Analysis Workspaceでレポートの時間枠を決定し、プロジェクト内の 1 つ以上のパネルに適用できます。
+[ 日付範囲 ](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) は、Analysis Workspaceでのレポート時間枠を決定します。プロジェクト内の 1 つ以上のパネルに適用できます。
 
 各パネルには、デフォルトで日付範囲が含まれています。 パネルの日付範囲を更新する方法はいくつかあります。 Analysis Workspaceのパネルの日付範囲を更新する 1 つの方法は、日付範囲コンポーネントを左パネルからドラッグすることです。
 
-1. の説明に従って、Analysis Workspaceでプロジェクトへの日付範囲の追加を開始します。 [プロジェクトへのコンポーネントの追加の開始](#begin-adding-components-to-a-project).
+1. [ プロジェクトへのコンポーネントの追加を開始 ](#begin-adding-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトへの日付範囲の追加を開始します。
 
 1. 日付範囲を左側のパネルから、パネルの右上部分の現在の日付範囲にドラッグします。
 
-   ![日付範囲のドロップ](assets/daterange-drop.png)
+   ![ 日付範囲をドロップ ](assets/daterange-drop.png)
 
-Analysis Workspaceでカレンダーと日付範囲を使用する方法について詳しくは、 [カレンダーと日付範囲の概要](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+Analysis Workspaceでのカレンダーと日付範囲の使用方法について詳しくは、[ カレンダーと日付範囲の概要 ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) を参照してください。

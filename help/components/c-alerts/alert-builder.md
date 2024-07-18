@@ -16,7 +16,7 @@ ht-degree: 97%
 >
 >インテリジェントアラートは、Adobe [!DNL Analytics] Prime および Adobe [!DNL Analytics] Ultimate のお客様のみご利用いただけます。
 
-アラートビルダーにアクセスするには、次の 3 つの方法があります。
+次の 3 つの方法のいずれかで、アラートビルダーにアクセスします。
 
 * Analysis Workspace で以下のショートカットを使用する。
 

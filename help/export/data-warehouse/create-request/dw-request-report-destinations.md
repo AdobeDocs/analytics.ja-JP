@@ -4,7 +4,7 @@ title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++メール
 
@@ -163,7 +163,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +176,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 「[!UICONTROL **レポートオプション**]」タブでデータウェアハウスリクエストを引き続き設定します。詳しくは、[データウェアハウスのリクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-options.md)を参照してください。
 

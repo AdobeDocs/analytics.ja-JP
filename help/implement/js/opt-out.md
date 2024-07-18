@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> この記事では、次の内容について説明します **Adobe Analyticsを実装する（予定している）Adobe Analyticsのお客様** Web サイトで、web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
-> 次の場合： **Adobe Analyticsが実装されている web サイトへのアクセス**&#x200B;オプトアウトする場合 **<span style="color:red">この記事はあなたには向いていません</span>**. を参照してください [Adobeのプライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html) を使用して、Adobeでの情報の使用方法を制御します。
+> この記事では、Web サイトにAdobe Analyticsを実装する **Adobe Analyticsのお客様に** Web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
+> **Adobe Analyticsを実装した web サイトにアクセス** していて、オプトアウトする場合 **<span style="color:red">この記事は該当しません</span>**。 AdobeでのAdobeの使用方法を制御するには、[ プライバシーの選択肢 ](https://www.adobe.com/jp/privacy/opt-out.html) を参照してください。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeは、Web サイトへの訪問者に、分析中の訪問者の情報をオプトアウトする手段を提供します。
 
-オプトアウトリンクを使用すると、web サイトの訪問者が、Analytics のレポートからデータを省略できます。 これらのリンクは、AppMeasurement実装に限定されます。Adobeでは、 [Adobe Experience Cloud オプトインサービス](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) その代わり。 オプトインサービスはより堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で機能します。
+オプトアウトリンクを使用すると、web サイトの訪問者が、Analytics のレポートからデータを省略できます。 これらのリンクはAppMeasurement実装に限定されています。Adobeでは、代わりに [Adobe Experience Cloud オプトインサービスを使用することをお勧め ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) ます。 オプトインサービスはより堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で機能します。
 
 訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーがトラッキングされないようにし、オプトアウト cookie が設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
@@ -82,7 +82,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 * `nb_NO` （ノルウェー語）
 * `pl_PL` （ポーランド語）
 * `pt_BR` （ポルトガル語）
-* `sk_SK` （スロバキア）
+* `sk_SK` （スロバキア語）
 * `es_ES` （スペイン語）
 
 例えば、`https://example.data.adobedc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。

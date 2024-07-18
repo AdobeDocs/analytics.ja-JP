@@ -1,5 +1,5 @@
 ---
-description: 計算指標ツールの使用を最適化する方法の概要を示す短いビデオが用意されています。
+description: これらの短いビデオでは、計算指標ツールの使用を最適化する方法の概要を説明します。
 title: ハウツービデオ
 feature: Calculated Metrics
 role: User
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # ハウツービデオ
 
-計算指標ツールの使用を最適化する方法の概要を示す短いビデオが用意されています。
+これらの短いビデオでは、計算指標ツールの使用を最適化する方法の概要を説明します。
 
-* [Analysis Workspaceでのクイック計算指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
-* [指標ビルダー](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
-* [セグメント化指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=ja){target="_blank"}
-* [実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja){target="_blank"}
-* [関数](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
-* [計算指標の管理](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+* [Analysis Workspaceのクイック計算指標 ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+* [ 指標ビルダー ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+* [ セグメント化指標 ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=ja){target="_blank"}
+* [ 実装なしの指標 ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja){target="_blank"}
+* [ 関数 ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+* [ 計算指標の管理 ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}

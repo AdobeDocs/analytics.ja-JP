@@ -17,12 +17,12 @@ ht-degree: 80%
 
 ## Web SDK を使用したリファラー
 
-リファラーは次の変数にマッピングされます。
+リファラーは、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [ データ オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-Web SDK は、次を自動的に含めます `web.webReferrer.URL` 送信されるイベントごと（可能な場合）に
+Web SDK は、送信されたすべてのイベントに `web.webReferrer.URL` を自動的に含めます（使用可能な場合）。
 
 ## Adobe Analytics拡張機能を使用したリファラー
 
@@ -32,7 +32,7 @@ referrer は、Analytics 拡張機能の設定時（グローバル変数）ま�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL リファラー]セクションを見つけます。
 
 referrer は、データ要素を含む任意の文字列値に設定できます。

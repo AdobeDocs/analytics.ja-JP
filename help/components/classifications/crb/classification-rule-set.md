@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -76,6 +76,6 @@ ht-degree: 100%
 
    レポートスイートと変数リストには、ログインしている会社のすべてのレポートスイートで利用できるすべての分類された変数が入力されます。レポートスイート内の 1 つの変数が所属することのできるルールセットは、1 つのみです。
 
-   詳しくは、*`Variable`*（[分類ルールビルダー](/help/components/classifications/crb/classification-rule-definitions.md)ページの定義）を参照してください。
+   詳しくは、[ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-definitions.md) ページの定義の *`Variable`* を参照してください。
 1. 使用するレポートスイートおよび変数を指定して、「**[!UICONTROL 保存]**」をクリックします。
 1. 引き続き、[分類ルールの追加](/help/components/classifications/crb/classification-rule-set.md)をおこないます。

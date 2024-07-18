@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->次のようなトラッキングコールを実行しない [`t()`](t-method.md) または [`tl()`](tl-method.md) 内側 `registerPreTrackCallback` 変数を使用します。 この変数でトラッキングコールを設定すると、イメージリクエストが無限ループに陥ります。
+>[`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは `registerPreTrackCallback` 変数内で行わないでください。 この変数にトラッキングコールを設定すると、イメージリクエストの無限ループが発生します。
 
 `registerPreTrackCallback` 変数を呼び出すたびに、その関数をフックして、イメージリクエスト URL がコンパイルされるたびに実行します。同じページの読み込みで同じ関数を複数回登録しないでください。
 
@@ -25,19 +25,19 @@ ht-degree: 55%
 >
 > `registerPreTrackCallback` と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Web SDK 拡張機能を使用したトラック前のコールバック
+## Web SDK 拡張機能を使用したコールバックのプレトラック
 
-Web SDK は、データがコンパイルされた後、かつデータがAdobeに送信される前に、関数をフックすることはできません。 ただし、 `onBeforeEventSend` ：データが送信される直前に実行する関数を登録します。
+Web SDK は、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、データが送信される直前に実行する関数を登録できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用する UI。
+1. AdobeID 資格情報を使用して [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) UI にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
-1. の下 [!UICONTROL データ収集]をクリックし、 **[!UICONTROL イベント送信コールバックコードの前に編集]** 」ボタンをクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
-## Web SDK の手動実装によるトラック前のコールバック
+## Web SDK を手動で実装するコールバックのプレトラック
 
-Web SDK は、データがコンパイルされた後、かつデータがAdobeに送信される前に、関数をフックすることはできません。 ただし、 `onBeforeEventSend` を登録して、 `doPlugins`. 詳しくは、 [イベントのグローバルな変更](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （ Web SDK ドキュメント）を参照してください。
+Web SDK は、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、`doPlugins` と同様に、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -48,11 +48,11 @@ alloy("configure", {
 })
 ```
 
-## Adobe Analytics拡張機能を使用したトラック前のコールバック
+## Adobe Analytics拡張機能を使用したコールバックのプレトラック
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.registerPreTrackCallback
+## AppMeasurementの s.registerPreTrackCallback と Analytics 拡張機能のカスタムコードエディター
 
 `s.registerPreTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、イメージリクエストの送信直前に実行されます。
 

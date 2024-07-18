@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 例えば、ブラウザータイプディメンションをテーブルにドラッグすると、上位のブラウザータイプディメンション項目（Microsoft、Apple、Google など） が動的にテーブル行に戻ります。列にドロップすると、上位 5 つのブラウザータイプディメンション項目が動的に返されます。
 
-動的ディメンション項目には行フィルターオプションと X アイコンがあり、 **not** ロックアイコンが表示されます。 <!--do they have the lock icon? --> 動的ディメンション項目の横にある x をクリックすると、フィルターが自動的に適用されます。 テーブルにフィルターを適用する方法について詳しくは、 [テーブルのフィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+動的ディメンション項目には、行フィルターオプションと「X」アイコンがあり、ロックアイコンは表示 **れ** いません。 <!--do they have the lock icon? --> 動的ディメンション項目の横にある「x」をクリックすると、フィルターが自動的に適用されます。 テーブルにフィルタを適用する方法の詳細については、「テーブルをフィルタして並べ替える [ を参照してください ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
 ![](assets/dynamic-items.png)
 

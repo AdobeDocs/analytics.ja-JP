@@ -21,31 +21,31 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
 >[!NOTE]
 >
-> この節で説明するように、動的ディメンション項目のみをフィルタリングできます。 静的ディメンション項目はフィルタリングできません。 詳しくは、 [フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> 動的ディメンション項目のみを、この節で説明するようにフィルタリングできます。 静的ディメンション項目はフィルタリングできません。 詳しくは、[ フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目 ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) を参照してください。
 
-## フリーフォームテーブルの行をフィルター
+## フリーフォームテーブルの行のフィルタリング
 
-フリーフォームテーブルから行をフィルタリングする方法はいくつかあります。 
+いくつかの方法を使用して、フリーフォームテーブルの行をフィルタリングできます。 
 
-- 行の「X」をクリックします。
+- 行の「X」をクリックします
 - テーブルフィルター
 - セグメント化
 
-各メソッドの影響を必ず確認してください [フリーフォームテーブルの合計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+各方法が与える影響 [ フリーフォームテーブルの合計 ](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md) を必ずお読みください。
 
-### テーブルから特定の行をすばやく除外する
+### テーブルから特定の行をすばやく除外
 
-フィルタダイアログを開かなくても、テーブルから特定の行をすばやく除外できます。
+フィルターダイアログを開かなくても、特定の行をテーブルからすばやく除外できます。
 
 >[!NOTE]
 >
->この節で説明するように行を除外する場合、 [!UICONTROL **常に項目を除外**] ルールは、[ フィルタの詳細設定 ] ダイアログボックスで自動的に適用されます。 ( 適用されたルールを表示するには、フィルターアイコンを選択し、 [**[!UICONTROL 詳細を表示]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>この節で説明するように行を除外する場合、詳細フィルターダイアログでは [!UICONTROL **常に項目を除外**] ルールが自動的に適用されます。 （適用されたルールを表示するには、フィルターアイコン、「詳細を表示 [**[!UICONTROL  の順に選択します ]**](#apply-a-simple-or-advanced-filter-to-a-table)。
 
-フリーフォームテーブルから特定の行をすばやく除外するには：
+フリーフォームテーブルから特定の行をすばやく除外するには、次の手順に従います。
 
-1. 除外する行の上にマウスポインターを置いて、x アイコンを選択します。
+1. 除外する行にポインタを合わせて、「x」アイコンを選択します。
 
-   Shift キーを押しながら行の範囲を選択するか、Command キー (Mac) または Ctrl キー (Windows) を押しながら複数の行を選択します。
+   Shift キーを押しながら行の範囲を選択するか、Command キー（Macの場合）または Ctrl キー（Windows の場合）を押しながら複数の行を選択します。
 
 <!--### Right-click > Delete selected rows
 
@@ -56,11 +56,11 @@ Note: this option does not seem to work. AN-338422
 
    This action will remove the rows from the table and apply a table filter.-->
 
-### テーブルへの標準フィルターまたは詳細フィルターの適用
+### テーブルへの単純フィルターまたは詳細フィルターの適用
 
 フリーフォームテーブルでデータをフィルタリングするには：
 
-1. フィルターを適用するデータが格納されている列の上にマウスポインターを置きます。 <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. フィルター処理するデータを含んだ列の上にマウスポインターを置きます。<!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. **フィルター**&#x200B;アイコンが表示されたら選択します。
 
@@ -70,7 +70,7 @@ Note: this option does not seem to work. AN-338422
 
    | オプション | 関数 |
    |---------|----------|
-   | [!UICONTROL **単語または語句を検索**] | フィルターに使用する単語または語句を指定します。 指定した単語または指定したとおりの語句を含んだ行のみが表示されます。 |
+   | [!UICONTROL **検索語句**] | フィルターに使用する単語または語句を指定します。 指定した単語または指定したとおりの語句を含んだ行のみが表示されます。 |
    | [!UICONTROL **未指定 (なし) を含む**] | テーブルのどのディメンションにも該当しないデータをテーブルに表示するには、このオプションを選択します。 <!--what is this?--> |
 
 1. （オプション）異なる条件または複数の条件でフィルタリングする場合は、「[!UICONTROL **詳細を表示**]」を選択します。
@@ -90,11 +90,11 @@ Note: this option does not seem to work. AN-338422
 
 ### セグメント化
 
-詳しくは、 [セグメント化に関するドキュメント](/help/components/segmentation/seg-home.md) を参照してください。
+詳しくは、[ セグメント化に関するドキュメント ](/help/components/segmentation/seg-home.md) を参照してください。
 
 ## テーブルの並べ替え
 
-フリーフォームテーブルのデータは、Analysis Workspace内の指標である任意の列で並べ替えることができます。
+Analysis Workspaceの指標の列で、フリーフォームテーブルのデータを並べ替えることができます。
 
 現在データの並べ替えに使用されている列のヘッダーに、下向き矢印アイコン（![テーブルの並べ替えに使用された列を示す下向き矢印アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg)）が表示されます。
 

@@ -25,11 +25,11 @@ AppMeasurement は、デフォルトで、リンクトラッキング URL から
 >
 > この変数は、リンクトラッキング以外のディメンションには影響しません。カスタムリンク、離脱リンク、ダウンロードリンクのみが影響されます。
 
-## Web SDK を使用したリンククエリ文字列の処理
+## Web SDK を使用してリンククエリ文字列を処理します
 
-XDM フィールドからクエリー文字列を削除しません。 `web.webInteraction.URL`. この XDM フィールドからクエリ文字列を削除する場合は、 `onBeforeEventSend`.
+クエリ文字列は、XDM フィールド `web.webInteraction.URL` からは削除されません。 この XDM フィールドからクエリ文字列を削除する場合は、`onBeforeEventSend` を使用して編集できます。
 
-## Adobe Analytics拡張機能を使用して URL パラメーターを保持する
+## Adobe Analytics拡張機能を使用して URL パラメーターを保持
 
 「[!UICONTROL URL パラメーターの保持]」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるチェックボックスです。
 
@@ -40,7 +40,7 @@ XDM フィールドからクエリー文字列を削除しません。 `web.webI
 
 リンクトラッキングディメンションにクエリ文字列を含める場合は、このチェックボックスをオンにします。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkLeaveQueryString
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 変数はブール値です。デフォルト値は `false` です。
 

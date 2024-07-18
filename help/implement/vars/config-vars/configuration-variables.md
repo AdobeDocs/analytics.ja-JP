@@ -21,10 +21,10 @@ Web SDK 拡張機能または Analytics 拡張機能を使用した実装では�
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 次をクリック： [!UICONTROL 拡張機能] 」タブで、「 [!UICONTROL 設定] 拡張子の下に表示されます。
+1. 「[!UICONTROL  拡張機能 ]」タブをクリックしてから、拡張機能の下の「[!UICONTROL  設定 ]」をクリックします。
 
 `AppMeasurement.js` を使用した JavaScript 実装では、通常、設定変数は JS ファイルの先頭に設定されます。
 
 >[!IMPORTANT]
 >
->トラッキングメソッド ([`t()`](../functions/t-method.md) または [`tl()`](../functions/tl-method.md)) をクリックします。 [`doPlugins()`](../functions/doplugins.md) 関数内で設定変数を設定しないでください。
+>トラッキングメソッド（[`t()`](../functions/t-method.md) または [`tl()`](../functions/tl-method.md)）を呼び出す前に、すべての設定変数が設定されていることを確認します。 [`doPlugins()`](../functions/doplugins.md) 関数内で設定変数を設定しないでください。

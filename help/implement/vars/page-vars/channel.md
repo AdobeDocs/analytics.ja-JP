@@ -19,10 +19,10 @@ ht-degree: 75%
 
 チャネルは、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` または `data.__adobe.analytics.ch`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [Data オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` または `data.__adobe.analytics.ch`
 
-## Adobe Analytics拡張機能を使用するチャネル
+## Adobe Analytics拡張機能を使用したチャネル
 
 チャネルは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
@@ -30,7 +30,7 @@ ht-degree: 75%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL チャネル]セクションを見つけます。
 
 channel は任意の文字列値またはデータ要素に設定できます。

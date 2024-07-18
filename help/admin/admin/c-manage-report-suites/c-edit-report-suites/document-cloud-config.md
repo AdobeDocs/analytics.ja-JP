@@ -1,30 +1,30 @@
 ---
 description: Adobe AnalyticsでDocument Cloudデータを表示できます
-title: Document Cloudレポートの設定
+title: Document Cloud レポートの設定
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
+# Document Cloud レポートの設定
 
-# Document Cloudレポートの設定
+Adobe Analyticsで使用できるPDF固有のディメンションと指標を設定できます。
 
-Adobe Analyticsで使用できるPDF固有のディメンションおよび指標を設定できます。
+## PDFレポートを有効にすると追加されるコンポーネント
 
-## PDFレポートを有効にしたときに追加されるコンポーネント
-
-PDFレポートが適切に設定されている場合、Adobe Analyticsで次のディメンションと指標を使用できます。
+PDFレポートが適切に設定されている場合、Adobe Analyticsでは次のディメンションと指標を使用できます。
 
 **ディメンション：**
 
-* PDF検索語
+* PDF検索語句
 
 * PDFズームレベル
 
-* PDF操作
+* PDFアクション
 
 * PDFページ番号
 
@@ -36,11 +36,11 @@ PDFレポートが適切に設定されている場合、Adobe Analyticsで次�
 
 * PDF ページビュー
 
-* PDFダウンロード
+* PDFのダウンロード
 
 * PDF検索
 
-* PDFブックマーク使用済み
+* 使用されたPDFーブックマーク
 
 * PDFコピーテキスト
 
@@ -48,10 +48,8 @@ PDFレポートが適切に設定されている場合、Adobe Analyticsで次�
 
 ## Adobe AnalyticsでPDFレポートを有効にする
 
-1. に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **`<select report suite>`** > **[!UICONTROL 設定を編集]** > **[!UICONTROL Document Cloud管理]** > [!UICONTROL **Document Cloudレポート**].
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/9}Document Cloud管理 ]**/[!UICONTROL ** Document Cloudレポート **]に移動します。**[!UICONTROL 
 
-1. Adobe Document Cloud Management ページで、「 [!UICONTROL **PDFレポートを有効にする**].
+1. Adobe Document CloudPDFページで、「[!UICONTROL **管理レポートを有効にする**]」を選択します。
 
-1. Adobe Document CloudがAdobe Analyticsにデータを送信するように設定するには、 [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html).
-
-
+1. Adobe Analyticsにデータを送信するようにAdobe Document Cloudを設定するには、[Adobe Document Cloud JavaScript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html) を使用します。

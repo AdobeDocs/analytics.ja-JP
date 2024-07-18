@@ -17,11 +17,11 @@ ht-degree: 55%
 
 サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバーサイド転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 
-これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。2018 年 11 月 1 日以降、データ管理者 (Adobe Analyticsのお客様 ) は、同意前のデータをAdobe Analyticsに制限し、Adobe Audience Managerに転送されないようにするオプションがあります。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。変数は、設定されている場合、同意を受け取るまで、これらのヒットがAdobe Audience Managerに送信されないようにします。
+これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。2018 年 11 月 1 日（PT）をもって、データ管理者（Adobe Analyticsのお客様）は、同意前のデータをAdobe Analyticsに限定し、Adobe Audience Managerに転送しないようにするオプションを持ちます。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。変数を設定すると、これらのヒットが、同意が得られるまでAdobe Audience Managerに送信されなくなります。
 
-この新しいコンテキスト変数の場合、 `cm.ssf=1`がヒットに存在する場合、このヒットにはフラグが設定され、Adobe Audience Managerへのサーバー側転送はおこなわれません。 逆に、この文字列がヒットに表示されない場合、ヒットはAdobe Audience Managerに転送されます。
+この新しいコンテキスト変数 `cm.ssf=1` がヒットに存在する場合、このヒットはフラグ付けされ、Adobe Audience Managerにサーバーサイド転送されません。 逆に、この文字列がヒットで表示されない場合、ヒットはAdobe Audience Managerに転送されます。
 
-サーバー側転送は双方向です。つまり、ヒットに適用され、そのヒットがAdobe Audience Managerに転送されると、Audience AnalyticsはAdobe Audience Managerからそのヒットのセグメント情報を受け取り、Analytics に返します。 その結果、Analytics からAdobe Audience Managerにサーバー側で転送されないヒットは、Adobe Audience Managerのセグメント ID のリストで強化されません。 したがって、Adobe Audience Managerからセグメント ID 情報を取得しないトラフィック/ヒットのサブセットが存在します。
+サーバーサイド転送は双方向です。つまり、ヒットに適用され、そのヒットがAdobe Audience Managerに転送されると、Audience Analyticsはヒットのセグメント情報をAdobe Audience Managerから受け取り、Analytics に返します。 その結果、Analytics からAdobe Audience Managerにサーバーサイド転送されないヒットは、Adobe Audience Managerのセグメント ID のリストでエンリッチメントされません。 したがって、Adobe Audience Managerからセグメント ID 情報を取得しないトラフィック/ヒットのサブセットが存在します。
 
 ## 実装の詳細 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -30,11 +30,11 @@ ht-degree: 55%
 | 実装方法 | 手順 |
 |--- |--- |
 | Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
-| AppMeasurement | コンテキストデータ変数定義をAppMeasurement.js ファイルに追加します。  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| AppMeasurement | <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> メモ：ターゲットマーケティングに同意しない場合は、contextdataAppMeasurementを定義して 1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
 ## レポート（任意） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Adobe Analyticsを使用して、どのくらいのトラフィックが同意され、結果としてサーバー側転送がおこなわれたかと、どのくらいのトラフィックが同意されず、Adobe Audience Managerに転送されていないかを比較してレポートできます。
+Adobe Analyticsを使用すると、同意に基づいたトラフィックの割合をレポートできます。その結果、サーバーサイド転送されたトラフィックと、同意に基づかずAdobe Audience Managerに転送されていないトラフィックの割合を比較できます。
 
 このタイプのレポートを設定するには、処理ルールを使用して、新しいコンテキスト変数をカスタムトラフィック変数（prop）にマッピングします。次に手順を示します。
 

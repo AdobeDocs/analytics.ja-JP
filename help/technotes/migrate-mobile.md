@@ -5,8 +5,8 @@ feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![コンテキスト変数](assets/context-var.png)
 
-1. Experience Cloudで、Adobe Analyticsに切り替えて、Mobile Services で閲覧していたのと同じモバイルレポートスイートに属していることを確認します。
+1. Experience Cloudとして、Adobe Analyticsに切り替え、Mobile Services で表示していたのと同じモバイルレポートスイートにいることを確認します。
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 処理ルール]**&#x200B;に移動します。
 1. 「**[!UICONTROL Add Rule]**」をクリックします。
 1. 条件を無視して、Mobile Services に存在するのと同じコンテキスト変数の追加に進みます。
@@ -59,7 +59,7 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 テンプレートにアクセスするには：
 
 1. `experience.adobe.com` にログインし、「Analytics」を選択します。
-1. Mobile Services が有効になっているレポートスイートにいることを確認します。
+1. Mobile Services が有効になっているレポートスイートを開いていることを確認します。
 1. 「**[!UICONTROL Workspace]**」タブをクリックします。
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」をクリックします。
 1. 任意のモバイルテンプレートを選択し、「**[!UICONTROL 作成]**」をクリックします。
@@ -77,4 +77,4 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 
 * 獲得リンクについては、お客様のニーズを満たすためにアドビパートナーにご案内する場合があります。
 * プッシュメッセージングおよびアプリ内メッセージングは、Adobe Campaign Standard と Adobe Campaign Classic で利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 アドビアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
-* ロケーション機能については、新しい [Adobe Experience Platform Location Service](https://www.adobe.com/jp/experience-platform/location-service.html)：すべてのAdobe Experience Platformのお客様は無料です。
+* ロケーション機能については、すべてのAdobe Experience Platformのお客様に無料で提供される新しい [Adobe Experience Platform ロケーションサービス ](https://www.adobe.com/jp/experience-platform/location-service.html) を採用することをお勧めします。

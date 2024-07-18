@@ -1,8 +1,9 @@
 ---
 title: 広告プラットフォームの同意
-description: サードパーティの広告プロバイダーの広告の同意に関する設定を参照してください。
+description: サードパーティの広告プロバイダーに対する広告の同意の設定を参照してください。
 feature: Dimensions
-source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
+exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
+source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -11,50 +12,50 @@ ht-degree: 3%
 
 # 広告プラットフォームの同意
 
-「広告プラットフォームの同意」 [ディメンション](overview.md) は、Google、Meta などのサードパーティの広告プロバイダーにデータを送信するために同意を収集するかどうかを表示します。
+「Ad Platform の同意 [ ディメンション ](overview.md) には、Google、Meta などのサードパーティ広告プロバイダーにデータを送信するために同意が収集されるかどうかが表示されます。
 
-現在、このディメンションはGoogleに対してのみ使用されています。 Googleでは、プライバシーに関する規制 (DMA) がヨーロッパで定められているので、では自社のサーバーに送信され、ヨーロッパで収集されたデータに同意が収集されたかどうかを示す必要があります。 Analytics の一部のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertising経由でGoogleに送信します。
+現在、このディメンションは、Googleでのみ使用されています。 欧州のプライバシー規制であるデジタル市場法（DMA）により、Googleは、自社のサーバーに送信され、欧州で収集されるデータには、同意が収集されるかどうかを示す必要があることを求めています。 一部の Analytics のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertising経由でGoogleに送信しています。
 
-今後、このディメンションは、他のサードパーティの広告プロバイダーに対する追加の同意情報のエンコードをサポートするために使用できます。
+将来的には、このディメンションを使用して、他のサードパーティ広告プロバイダーの追加の同意情報のエンコーディングをサポートすることができます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、次のデータを収集します [コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)
+このディメンションは、次の [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) からデータを収集します
 
 * `contextData.['adConsent']`
 
-コンテキストデータ変数に、Google同意フィールドに関連する値を入力します
+コンテキストデータ変数には、Googleの同意フィールドの関連する値を入力します
 
-* `ad_user_data` （1 文字目）と
-* `ad_personalization` （2 文字目）
+* `ad_user_data` （最初の文字）と
+* `ad_personalization` （2 番目の文字）。
 
-詳しくは、 [Google Ads API リファレンスの同意](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) を参照してください。
+詳しくは、[Google Ads API リファレンスの同意 ](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) を参照してください。
 
-これらの各フィールドに指定できる値は次のとおりです。
+これらの各フィールドに指定可能な値は次のとおりです。
 
 | 値 | ad_user_data | ad_personalization |
 |:-:|---|---|
-| `Y` | 広告ユーザーデータに対してGoogleに同意します。 | 広告のパーソナライゼーションに関するGoogleの同意を得ます。 |
-| `N` | 広告ユーザーデータに対するGoogleの同意を拒否します。 | 広告のパーソナライゼーションに対するGoogleへの拒否の同意。 |
+| `Y` | 広告ユーザーデータに対するGoogleへの同意の付与。 | 広告のパーソナライゼーションに関するGoogleへの同意の付与。 |
+| `N` | 広告ユーザーデータに関するGoogleへの同意を拒否します。 | 広告のパーソナライゼーションについて、Googleに同意していることを示します。 |
 | `U` | 未指定。 | 未指定。 |
 
-次の例では、広告ユーザーデータに対するGoogleに対する同意を許可しますが、広告のパーソナライゼーションに対する同意は許可しません。
+次の例では、広告ユーザーデータにはGoogleの同意を付与しますが、広告のパーソナライゼーションには同意しません。
 
 ```
 contextData.['adConsent'] = "YN..."
 ```
 
-最初と 2 番目の文字を超える文字は現在、無視されます。
+現在、1 文字目と 2 文字目より後の文字は無視されます。
 
-## データを使用
+## データの使用
 
-収集された広告同意データは以下の場合に使用できます。
+収集された広告同意データを使用できます。
 
-* データフィード：広告の同意データは、 `dataprivacydmaconsent` [列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Data Warehouseレポート：広告の同意データは、 **[!UICONTROL 広告プラットフォームの同意]** ディメンション。
+* データフィード：広告の同意データは、`dataprivacydmaconsent` [ 列 ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を使用して利用できます。
+* Data Warehouseレポート：広告の同意データは、**[!UICONTROL Ad Platform の同意]** ディメンションを使用して利用できます。
 
-組織は、このコンテキストデータ変数を実装するロジックを決定します。 この値は、設定されたヒットの後は保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
+このコンテキストデータ変数を実装するためのロジックは、組織が決定します。 値は、設定されたヒットを超えて保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
 
-Adobe Advertising経由でAdobe Analyticsから広告データをコンバージョンイベントとしてGoogleに送信する場合、統合に関してAdobe Advertisingチームに問い合わせてください。
+広告データをAdobe Advertising経由でAdobe AnalyticsからGoogleにコンバージョンイベントとして送信する場合は、Adobe Advertisingチームに相談して統合を支援してください。
 
-詳しくは、 [プライバシーレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+詳しくは、[ プライバシーレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) を参照してください。

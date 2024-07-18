@@ -1,6 +1,6 @@
 ---
-description: カスタムレイアウトでは、分類やマイクロチャートの追加など、ピボットレイアウトの機能と柔軟性を提供します。
-title: Adobe Analyticsでカスタムレイアウトを設定する方法
+description: カスタムレイアウトを使用して、分類やマイクログラフの追加など、ピボットレイアウトの機能と柔軟性を実現する方法を説明します。
+title: Adobe Analyticsでのカスタムレイアウトの設定方法
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin

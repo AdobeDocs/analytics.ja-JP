@@ -67,7 +67,7 @@ ht-degree: 97%
 1. **[!UICONTROL セグメント]**：ヘッダーをクリックして展開します。
 1. **[!UICONTROL レポートスイートセレクタ]**：このセグメントを保存するレポートスイートを選択します。選択した後も、そのセグメントはすべてのレポートスイートで利用できます。
 1. **[!UICONTROL セグメントのプレビュー]**：主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認します。このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
-1. **[!UICONTROL 製品の互換性]**：作成したセグメントと互換性があるAdobe Analytics製品 (Analysis Workspace、Data Warehouse) のリストが表示されます。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、すべての演算子とディメンションが、特にすべての Analytics 製品と互換性があるわけではありません [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). このグラフは、セグメント定義を変更するとすぐに更新されます。
+1. **[!UICONTROL 製品との互換性]**：作成したセグメントと互換性があるAdobe Analytics製品（Analysis Workspace、Data Warehouse）のリストが表示されます。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、すべての演算子とディメンションがすべての Analytics 製品（特に [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) と互換性があるわけではありません。 このグラフは、セグメント定義を変更するとすぐに更新されます。
 1. **[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL キャンセル]**：セグメントを保存またはキャンセルします。「**[!UICONTROL 保存]**」をクリックした後、セグメントを管理できるセグメントマネージャーが表示されます。
 
 
@@ -83,7 +83,7 @@ ht-degree: 97%
 1. 選択した項目に対して値を入力または選択します。
 1. 必要に応じて他のコンテナを追加し、**[!UICONTROL AND]**、**[!UICONTROL OR]**、**[!UICONTROL THEN]** のルールを適用します。
 1. コンテナを配置してルールを設定したら、右上の検証グラフにセグメントの結果を表示します。検証グラフには、作成されたセグメントと一致するページビュー、訪問回数、ユニーク訪問者数の割合と絶対値が表示されます。
-1. の下 **[!UICONTROL タグ]**, [タグ](/help/components/segmentation/segmentation-workflow/seg-tag.md) 既存のタグを選択するか、新しいタグを作成することによって、コンテナを作成できます。
+1. **[!UICONTROL タグ]** の下で、既存のタグを選択するか新しいタグを作成して、コンテナを [ タグ ](/help/components/segmentation/segmentation-workflow/seg-tag.md) します。
 1. 「**[!UICONTROL 保存]**」をクリックしてセグメントを保存します。
 
 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)に移動し、複数の方法でセグメントにタグ付け、共有、管理できます。
@@ -232,7 +232,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> ソーシャルサイトからの訪問件数 </td> 
-   <td colname="col2">ソーシャルサイトから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「リファラータイプがソーシャルネットワークに等しい」です。 </p> </td> 
+   <td colname="col2">ソーシャルサイトから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>リファラータイプがソーシャルネットワークと等しい。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> タブレットからの訪問回数 </td> 

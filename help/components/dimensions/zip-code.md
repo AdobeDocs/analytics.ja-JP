@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # 郵便番号
 
-「郵便番号」 [ディメンション](overview.md) は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [ ディメンション ](overview.md) は、訪問者の郵便番号をレポートします。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 
@@ -23,10 +23,10 @@ ht-degree: 80%
 
 「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
 
-地域郵便番号に関する任意のオプションを使用する場合：
+地域 zip を含むオプションを使用する場合：
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK 実装の場合、を有効にします。 [!UICONTROL 地域ルックアップ] when [データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja).
+* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL  ジオルックアップ ] を有効にします。
 
 ## ディメンション項目
 

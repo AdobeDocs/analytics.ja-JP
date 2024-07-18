@@ -19,12 +19,12 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 ![プレイブック](assets/inherited-impl-playbook.png)
 
-テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。Adobe Analyticsチャンピオンの Sarah が、継承された実装プレイブックを使用して既存の実装を扱う方法に関するアイデアを紹介します。
+テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。Sarah はAdobe Analyticsのチャンピオンで、継承された実装プレイブックを使用して既存の実装を担当する方法について次のようにアイデアを紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 関連トピック:
 
-* [各 Web サイトリリース後の実装状況の確認のための「重点レビュー」チェックリスト](/help/implement/review/focused-review.md)
-* [「完全なレビュー」のチェックリスト（6 か月ごとに実装状況を確認）](/help/implement/review/full-review.md)
+* [「重点レビュー」チェックリスト（各 web サイトのリリース後に実装状況を確認するため）](/help/implement/review/focused-review.md)
+* [「完全レビュー」チェックリスト（6 か月ごとに実装状況を確認するため）](/help/implement/review/full-review.md)
 * [上位 5 件の KPI の定義](/help/implement/review/define-kpis.md)

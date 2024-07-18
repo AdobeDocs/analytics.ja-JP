@@ -22,7 +22,7 @@ ht-degree: 92%
 
 トラフィック分類ページでは、選択したレポートスイートの分類を作成することができます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられた属性を使用して生成することもできます。
 
-分類を有効にした後、 [分類インポーター](/help/components/classifications/importer/c-working-with-saint.md) をクリックして、該当する分類に特定の値を割り当てます。
+分類を有効にした後、[ 分類インポーター ](/help/components/classifications/importer/c-working-with-saint.md) を使用して、特定の値を適切な分類に割り当てます。
 
 ## トラフィック分類の追加 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

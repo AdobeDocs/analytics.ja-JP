@@ -23,23 +23,23 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 ページ URL は、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` または `data.__adobe.analytics.g`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Data オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` または `data.__adobe.analytics.g`
 
 ## Adobe Analytics拡張機能を使用したページ URL
 
-Adobe Experience Platformデータ収集の Analytics 拡張機能により、ページ URL が自動的に入力されます。 ただし、Analytics 拡張機能の設定時（グローバル変数）またはルールで、ページ URL の上書きを設定できます。
+Adobe Experience Platform Data Collection の Analytics 拡張機能によって、ページ URL が自動的に設定されます。 ただし、Analytics 拡張機能の設定時（グローバル変数）またはルールで、ページ URL の上書きを設定できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「**[!UICONTROL ルール]**」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「**[!UICONTROL アクション]**」で、既存の「**[!UICONTROL Adobe Analytics - 変数を設定]**」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 **[!UICONTROL 拡張]** Adobe Analyticsのドロップダウンリスト、 **[!UICONTROL アクションタイプ]** から **[!UICONTROL 変数を設定]**.
+5. 「**[!UICONTROL 拡張機能]**」ドロップダウンリストをAdobe Analyticsに設定し、「**[!UICONTROL アクションタイプ]**」を **[!UICONTROL 変数を設定]** に設定します。
 6. **[!UICONTROL ページ URL]** セクションを見つけます。
 
 ページ URL は任意の文字列値に設定できます。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.pageURL
+## AppMeasurementの s.pageURL と Analytics 拡張機能のカスタムコードエディター
 
 `s.pageURL` 変数は、ページの URL を含む文字列です。AppMeasurement はこの変数を自動的に収集しますが、必要に応じてその値を上書きできます。
 

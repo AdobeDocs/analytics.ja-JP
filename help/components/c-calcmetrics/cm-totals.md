@@ -1,6 +1,6 @@
 ---
 title: 計算指標の合計
-description: Analysis Workspaceでの計算指標の合計について説明します。
+description: Analysis Workspaceでの計算指標の合計について説明します
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
 source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd

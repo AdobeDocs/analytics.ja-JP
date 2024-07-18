@@ -16,7 +16,7 @@ ht-degree: 97%
 
 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL 分類階層]**
+**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定を編集]**/**[!UICONTROL コンバージョン]**/**[!UICONTROL 分類階層]**
 
 ## 分類階層 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

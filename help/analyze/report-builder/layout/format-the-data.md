@@ -1,20 +1,20 @@
 ---
-description: セル範囲に標準書式と制限書式を適用する方法を説明します。
-title: Report Builderで日付を書式設定する方法
+description: セル範囲に標準および制限付き書式を適用する方法を説明します。
+title: Report Builderで日付をフォーマットする方法
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
 # 日付のフォーマット
 
-Excel の書式/セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builderを使用してセル範囲に対して制限付き書式を適用できます。 それらの書式設定に使用できるオプションは、選択した指標によって異なります。
+Excel のフォーマット/セル（Ctrl+1）機能で使用可能な標準のセルのフォーマットの選択肢に加えて、Report Builderを使用してセル範囲に制限付きのフォーマットを適用できます。 それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 
 行ラベルグリッドに[ディメンションを追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)した後、「**[!UICONTROL 書式]**」をクリックします。
 
@@ -22,13 +22,13 @@ Excel の書式/セル（Ctrl + 1 キー）の機能で利用できる標準的�
 
 次の表では、「[!UICONTROL カスタムフォーマット]」フィールドで日付の略語を使用する方法を説明します。
 
-| 略語 | 意味 | 2012 年 3 月 14 日（水）の使用例 |
+| 略語 | 意味 | 例   2012 年 3 月 14 日水曜日（PT）の使用 |
 |--- |--- |--- |
 | MM/dd/yyy | 数字表記の正式な日付 | 03/14/2012 |
 | M | 月 | 3 |
 | MM | 月（10 未満の月の場合に 10 の位に 0 を付加） | 03 |
 | MMM | 月の略称 | Mar |
-| MMMM | 月の正式名称 | 年3月 |
+| MMMM | 月の正式名称 | 3月 |
 | D | 日付の正式名称 | 2012 年 3 月 14 日水曜日 |
 | d | 日 | 14 |
 | dd | 日（10 未満の日の場合に 10 の位に 0 を付加） | 01 - 09 |

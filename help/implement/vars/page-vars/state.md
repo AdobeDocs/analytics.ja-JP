@@ -15,7 +15,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->この変数は廃止されており、Analysis Workspace で使用できるディメンションではありません。の使用 [米国の州](/help/components/dimensions/us-states.md) 代わりに、訪問者の場所に基づいて自動的に収集されるAppMeasurementのディメンション。
+>この変数は廃止されており、Analysis Workspace で使用できるディメンションではありません。代わりに、[ 米国の州 ](/help/components/dimensions/us-states.md) ディメンションを使用します。このディメンションは、訪問者の場所に基づいてAppMeasurementによって自動収集されます。
 
 以前のバージョンの Adobe Analytics では、訪問者が小売サイトの配送先情報を入力したときに `state` 変数が使用されていました。機能的には prop と同じですが、Analysis Workspace では使用できません。
 
@@ -27,7 +27,7 @@ state は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張機能] Adobe Analyticsへのドロップダウンリスト、および [!UICONTROL アクションタイプ] 対象： [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL state] セクションを見つけます。
 
 state は任意の文字列値またはデータ要素に設定できます。

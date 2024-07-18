@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---

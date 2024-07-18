@@ -42,7 +42,7 @@ ht-degree: 98%
 
 ### 実装に統合モジュールを配置する
 
-サイトに統合モジュールを実装するには、Adobe Experience Platformデータ収集にアクセスする必要があります。 レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
+サイトに Integrate Module を実装するには、Adobe Experience Platform Data Collection へのアクセスが必要です。 レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 編集するタグプロパティをクリックします。

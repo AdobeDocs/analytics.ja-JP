@@ -5,7 +5,7 @@ feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '604'
 ht-degree: 100%
 
 ---

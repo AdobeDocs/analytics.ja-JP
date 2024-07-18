@@ -4,7 +4,7 @@ description: このガイドでは、データソースとデータ挿入 API �
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

@@ -16,15 +16,15 @@ ht-degree: 57%
 
 Analysis Workspaceでカスタムの日付範囲を作成し、時間コンポーネントとして保存できます。
 
-プロジェクトに既存の日付範囲を追加する方法については、を参照してください。 [カレンダーと日付範囲の概要](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+プロジェクトへの既存の日付範囲の追加について詳しくは、[ カレンダーと日付範囲の概要 ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) を参照してください。
 
 カスタムの日付範囲を作成するには：
 
-1. Adobe Analyticsで、を選択します。 **[!UICONTROL Components]** > **[!UICONTROL 日付範囲]**.
+1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL 日付範囲]** を選択します。
 
-   ![日付範囲ページ](assets/date-ranges.png)
+   ![ 日付範囲ページ ](assets/date-ranges.png)
 
-1. を選択 [!UICONTROL **新しい日付範囲を作成**].
+1. 「[!UICONTROL **新しい日付範囲を作成**]」を選択します。
 
 1. 日付範囲ビルダーで、次の情報を指定します。
 
@@ -34,9 +34,9 @@ Analysis Workspaceでカスタムの日付範囲を作成し、時間コンポ�
    | [!UICONTROL **説明**] | 日付範囲の説明。 |
    | [!UICONTROL **タグ**] | 日付範囲に適用するタグ。 |
    | [!UICONTROL **日付範囲**] | カスタムの日付範囲を選択できます。 デフォルトでは、過去 30 日間が選択されます。 |
-   | [!UICONTROL **プリセット**] | 次のような、プリセットされた日付範囲のリストから選択します [!UICONTROL **昨日**], [!UICONTROL **過去 7 日間**], [!UICONTROL **過去 30 日間**]、など。 |
+   | [!UICONTROL **プリセット**] | [!UICONTROL **昨日**]、[!UICONTROL **過去 7 日間**]、[!UICONTROL **過去 30 日間**] などのプリセット日付範囲のリストから選択します。 |
    | [!UICONTROL **開始時刻**] | 日付範囲が開始される時刻。 |
-   | [!UICONTROL **終了時間**] | 日付範囲が終了する時刻。 |
+   | [!UICONTROL **終了時刻**] | 日付範囲が終了する時刻。 |
    | [!UICONTROL **相対日付を使用**] | 日周期を使用すると、レポートを実行したタイミングに基づいて、一定期間、将来や過去を確認する動的レポートを生成できます。例えば、（「作成日」フィールドに基づく）「先月」に発行されたすべての注文をレポートしたい場合、12 月にレポートを実行すると、11 月に発行された注文が表示されます。同じレポートを 1 月に実行すると、12 月に発行された注文が表示されます。<ul><li>**[!UICONTROL 日付のプレビュー]**：周期的なカレンダーに含まれる期間を示します。</li><li>**[!UICONTROL 開始]**：本日、今週、今月、今四半期、本年から選択できます。</li><li>**[!UICONTROL 終了]**：本日、今週、今月、今四半期、本年から選択できます。</li></ul><br>デフォルトで選択されています。 |
 
 1. 「[!UICONTROL **保存**]」を選択します。

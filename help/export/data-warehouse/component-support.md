@@ -5,30 +5,30 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
 # Data Warehouse でのコンポーネントのサポート
 
-Data Warehouseアーキテクチャでの独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントを使用できます。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
+Data Warehouseアーキテクチャにおける独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントが可能になります。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
 
 ## Data Warehouse 固有のコンポーネント
 
-Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用できるディメンションや指標は、一部使用できません。
+Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用できる一部のディメンションと指標は使用できません。
 
 ### 排他的にサポートされるディメンション
 
-* **Experience CloudID**:Experience CloudID サービス (ECID) を使用する実装の場合、64 ビットの連結された 2 つの数値から成る 128 ビットの数値で、19 桁にパディングされます。
-* **ページ URL**：ヒットが発生したページの URL。
-* **購入 ID**：購入の一意の識別子（purchaseID 変数を使用して設定）。
-* **訪問者 ID**：訪問者の一意の識別子を提供します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+* **Experience CloudID**:Experience CloudID サービス（ECID）を使用する実装の場合、19 桁に埋められた 2 つの連結された 64 ビット数で構成される 128 ビットの数。
+* **ページ URL**：ヒットが発生したページ URL。
+* **購入 ID**：購入の一意の ID。purchaseID 変数を使用して設定されます。
+* **訪問者 ID**：訪問者の一意の ID を提供します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ### 排他的にサポートされる指標
 
-* **訪問回数**：この指標は、Data Warehouseに関しては、永続的でない cookie の訪問を除外します。
-* **訪問回数 — すべての訪問者数**:Data Warehouseに関するこの指標は、Adobe Analytics内の他のツールでの訪問回数指標と近い値になります。
+* **訪問**：この指標はData Warehouseのコンテキストでは、永続的でない cookie 訪問を除外します。
+* **訪問回数 – すべての訪問者数**:Data Warehouseの観点からこの指標を選択すると、Adobe Analytics内の他のツールの訪問回数指標とより近い関係にあります。
 
 ## Data Warehouse でサポートされないコンポーネント
 
@@ -67,11 +67,11 @@ Adobe Analyticsの他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
-* パーティシペーション指標 ( [「パーティシペーション」指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* パーティシペーション指標（[ 「パーティシペーション」指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) で説明）
 
-### Dimensionが異なる方法でサポートされる
+### 別の方法でサポートされるDimension
 
-次の時間ベースのディメンションがサポートされています。 ただし、これらのディメンションを使用する場合、日付の出力は非標準です。 特に、年は 1900 年のオフセットで、月は 0 から始まります。
+次の時間ベースのディメンションがサポートされています。 ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。具体的には、年は 1900 年でオフセットされ、月はゼロベースです。
 
 * 年
 * 四半期

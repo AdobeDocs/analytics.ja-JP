@@ -4,7 +4,7 @@ description: 訪問者の n 回目の訪問。
 feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

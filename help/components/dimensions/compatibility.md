@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Analytics のディメンションの互換性
 
-このページには次のリストがあります [寸法](overview.md) 対応する Analytics 機能でサポートされます。
+このページには、それぞれの Analytics 機能でサポートされている [ ディメンション ](overview.md) が一覧表示されます。
 
 >[!NOTE]
 >

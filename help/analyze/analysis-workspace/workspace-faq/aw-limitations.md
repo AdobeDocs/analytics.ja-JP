@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## コンポーネント／セグメント
 
 * 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL ユニーク訪問者]など）。
-* で作成されたアドホックセグメント [パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) は、クイックフィルターの一種です。 これらは、公開されない限り、Workspace またはセグメントコンポーネントマネージャの左側のレールに表示されません。 詳しくは、 [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* [パネルのドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)で作成されたアドホックセグメントは、クイックフィルターのタイプです。公開されない限り、Workspace の左パネルまたはセグメントコンポーネントマネージャーに表示されません。詳しくは、[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)を参照してください。
 
 ## コンポーネント／計算指標
 
@@ -58,4 +58,4 @@ ht-degree: 90%
 
 ## アトリビューション
 
-* 指標のサブセットは、[!UICONTROL Attribution ] ではサポートされません。完全なリストについては、[Attribution に関する FAQ](/help/analyze/analysis-workspace/attribution/faq.md) を参照してください。
+* 指標のサブセットは、[!UICONTROL アトリビューション]ではサポートされません。完全なリストについては、[アトリビューションに関する FAQ](/help/analyze/analysis-workspace/attribution/faq.md) を参照してください。

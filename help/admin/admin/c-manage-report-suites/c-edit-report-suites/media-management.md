@@ -21,10 +21,10 @@ ht-degree: 52%
 
 * [!UICONTROL **メディアレポート**]
 
-  ストリーミングメディアコレクションアドオンに固有のレポートは、メディアレポート ページで使用できます。 メディアレポートについて詳しくは、 [メディアレポートの有効化](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  ストリーミングメディアコレクションアドオンに固有のレポートは、メディアレポート ページで使用できます。 メディアレポートについて詳しくは、[ メディアレポートの有効化 ](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html) を参照してください。
 
 * [!UICONTROL **メディアの分類**]
 
-  ストリーミングメディアコレクションのアドオンに固有の分類は、メディアの分類ページで使用できます。 分類については、を参照してください。 [コンバージョンの分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  ストリーミングメディアコレクションのアドオンに固有の分類は、メディアの分類ページで使用できます。 分類について詳しくは、「[ コンバージョン分類 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)」を参照してください。
 
-ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、を参照してください。 [ストリーミングメディアコレクションアドオンガイド](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja).
+ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、[ ストリーミングメディアコレクションのアドオンガイド ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) を参照してください。

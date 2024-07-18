@@ -2,13 +2,13 @@
 description: Adobe Analytics で Activity Map データを表示できます
 title: Adobe Analytics での Activity Map データの表示
 feature: Admin Tools
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: ht
-source-wordcount: '166'
+exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+workflow-type: tm+mt
+source-wordcount: '160'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics での Activity Map データの表示
 
@@ -21,12 +21,12 @@ Activity Map（旧称 ClickMap）から提供されるユーザーアクティ�
 * Analytics でのレポートの作成が可能になります。
 * **[!UICONTROL すべてのレポートを表示]**／**[!UICONTROL Activity Map：]**&#x200B;に以下の新しいレポートが追加されます。
 
-   | レポート | 説明 |
-   |---|---|
-   | Activity Map ページ | リンクがクリックされたページのリストを表示します。 |
-   | Activity Map 地域 | Web サイト全体で収集されたすべてのリンク領域のリストを表示します。1 つの領域が複数のページに表示される場合は、そのすべてのページにまたがって指標が集計されます。 |
-   | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
-   | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
+  | レポート | 説明 |
+  |---|---|
+  | Activity Map ページ | リンクがクリックされたページのリストを表示します。 |
+  | Activity Map 地域 | Web サイト全体で収集されたすべてのリンク領域のリストを表示します。1 つの領域が複数のページに表示される場合は、そのすべてのページにまたがって指標が集計されます。 |
+  | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
+  | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
 
 レポートにデータが入力されるようにするには、[Activity Map のドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja)を参照して、導入手順をご確認ください。
 

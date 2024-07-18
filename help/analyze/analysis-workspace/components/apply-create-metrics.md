@@ -33,7 +33,7 @@ ht-degree: 94%
 
 ## Analysis Workspace での指標の使用
 
-指標は、Analysis Workspace 内で様々な方法で使用できます。 指標およびその他のタイプのコンポーネントをAnalysis Workspaceに追加する方法について詳しくは、以下を参照してください。 [Analysis Workspaceのコンポーネントの使用](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+指標は、Analysis Workspace 内で様々な方法で使用できます。 Analysis Workspaceに指標やその他のタイプのコンポーネントを追加する方法について詳しくは、[Analysis Workspaceでのコンポーネントの使用 ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) を参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

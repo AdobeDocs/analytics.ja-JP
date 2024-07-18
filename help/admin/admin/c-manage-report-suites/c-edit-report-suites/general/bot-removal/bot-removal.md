@@ -13,7 +13,7 @@ ht-degree: 81%
 
 # Adobe Analytics でのボットの削除
 
-Adobe Analyticsには、レポートからボットトラフィックを削除する複数のオプションが用意されています。
+Adobe Analyticsには、レポートからボットトラフィックを削除するための複数のオプションが用意されています。
 
 ## ボットルールの使用
 
@@ -24,7 +24,7 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 | 標準 IAB ボットルール | 「**[!UICONTROL IAB ボットフィルタリングルールを有効にする]**」を選択すると、[IAB](https://www.iab.com/)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。ほとんどのお客様は、少なくともこのオプションを選択します。 |
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
-詳しくは、 [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+詳しくは、[ ボットルールの理解と設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) を参照してください。
 
 ## [!UICONTROL websiteBot] プラグインを使用してボットを識別します。
 
@@ -39,7 +39,7 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 
 ## アドビツールを組み合わせて使用
 
-さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。Experience CloudID サービス、セグメント化、Data Warehouse、顧客属性および仮想レポートスイートの機能が含まれます。 以下に、これらのツールを使う方法の概要を示します。
+さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。Experience CloudID サービス、セグメント化、Data Warehouse、顧客属性、仮想レポートスイートの機能です。 以下に、これらのツールを使う方法の概要を示します。
 
 ### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
@@ -72,13 +72,13 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 Data Warehouse レポートが届いたら、履歴データからフィルタリングする必要のある ECID のリストが表示されます。これらの ECID をコピーして、2 列のみ（ECID とボットフラグ）からなる空白の .CSV ファイルに貼り付けます。
 
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
-* **ボットフラグ**:「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
+* **ボットフラグ**: 「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
 
-この.CSV ファイルを顧客属性の読み込みファイルとして使用し、この説明に従って、顧客属性にレポートスイートを登録します。 [ブログ投稿](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+この.CSV ファイルを顧客属性インポートファイルとして使用し、この [ ブログ投稿 ](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) で説明しているように、レポートスイートを顧客属性に登録します。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### 手順 5：新しい顧客属性を利用したセグメントの作成
+### 手順 5：新しい顧客属性を利用するセグメントの作成
 
 データセットが処理され、Analysis Workspace に統合されたら、新しい「ボットフラグ」顧客属性ディメンションと [!UICONTROL Exclude] コンテナを利用するもう 1 つのセグメントを作成します。
 
@@ -86,11 +86,11 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順 6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、 [仮想レポートスイート](/help/components/vrs/vrs-about.md) では、このセグメントを使用して、識別されたボットを除外します。
+最後に、次のように、このセグメントを使用して識別されたボットを除外する [ 仮想レポートスイート ](/help/components/vrs/vrs-about.md) を作成します。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-この新しくセグメント化された仮想レポートスイートでは、識別されたボットが削除され、よりクリーンなデータセットが得られるようになりました。
+この新しくセグメント化された仮想レポートスイートでは、識別されたボットが削除され、データセットがよりクリーンになります。
 
 ### 手順 7：手順 2、3、4 を定期的に繰り返す
 

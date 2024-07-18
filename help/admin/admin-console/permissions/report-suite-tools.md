@@ -18,7 +18,7 @@ ht-degree: 90%
 | レポートスイートツールの権限の項目 | 説明 |
 |------|------|
 | [!UICONTROL アカウントの概要] | Report Suite Manager の一般／一般的なアカウント設定へのアクセスを許可します。 |
-| [!UICONTROL Advertising Analytics Configuration] | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 |
+| [!UICONTROL Advertising Analyticsの設定 ] | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 |
 | [!UICONTROL 異常値検出] | Analysis Workspace の異常値検出へのアクセスを許可します。 |
 | [!UICONTROL チャネル] | Report Suite Manager で、マーケティングチャネルマネージャー、マーケティングチャネル処理ルール、マーケティングチャネルの有効期限などのマーケティングチャネルへのアクセスを許可します。 |
 | [!UICONTROL 分類] | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次の項目が含まれます：<br>トラフィック／トラフィック分類<br>コンバージョン／コンバージョン分類<br>コンバージョン／分類階層<br>マーケティングチャネル／マーケティングチャネル分類<br>アプリ管理／アプリ分類<br>メディア管理／メディア分類<br>AEM／AEM Assets 分類<br>Adobe Campaign／アドビ分類 |
@@ -28,9 +28,9 @@ ht-degree: 90%
 | [!UICONTROL カスタムカレンダー] | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
 | [!UICONTROL カスタム Data Warehouse レポート] | Analytics のトップナビゲーションでツール／Data Warehouse へのアクセスを許可します。 |
 | [!UICONTROL 日別再来訪] | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
-| [!UICONTROL データフィードマネージャー] | Analytics のトップナビゲーションで管理者／データフィードへのアクセス権を付与します。 |
+| [!UICONTROL  データフィードマネージャー ] | Analytics のトップナビゲーションで管理者／データフィードへのアクセス権を付与します。 |
 | [!UICONTROL データソースマネージャー] | Analytics のトップナビゲーションで管理者／すべての管理者／データソースへのアクセス権を付与します。権限項目「Report Suite Mgmt」が必要です。 |
-| [!UICONTROL データ修復 API] | データ修復 API へのアクセスを許可 |
+| [!UICONTROL  データ修復 API] | データ修復 API へのアクセスを許可 |
 | [!UICONTROL デフォルトの指標] | Report Suite Manager で個々のレポートスイートの設定／デフォルト指標へのアクセスを許可します。 |
 | [!UICONTROL IP アドレスで除外] | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
 | [!UICONTROL 検索方法] | Report Suite Manager のコンバージョン／検索方法へのアクセスを許可します。 |
@@ -38,16 +38,16 @@ ht-degree: 90%
 | [!UICONTROL メニューのカスタマイズ] | Report Suite Manager の一般／メニューのカスタマイズへのアクセスを許可します。 |
 | [!UICONTROL 有料検索] | Report Suite Manager の一般／有料検索検知へのアクセスを許可します。 |
 | [!UICONTROL 処理ルール] | Report Suite Manager の一般／処理ルールおよび一般／ボットルールへのアクセスを許可します。 |
-| [!UICONTROL リアルタイムレポート設定] | Report Suite Manager の「リアルタイム」へのアクセスを許可します。権限項目「リアルタイムレポート」を使用して、レポート自体へのアクセスを許可します。 |
-| [!UICONTROL Activity Manager 管理者のレポート] | 未使用 |
-| [!UICONTROL Activity Manager アクセスのレポート] | 未使用 |
-| [!UICONTROL レポートスイート管理] | Report Suite Manager へのアクセスを許可しますが、変更は許可されません。 |
-| [!UICONTROL R&amp;A ダッシュボード画像レポートレット] | 未使用 |
-| [!UICONTROL R&amp;A ダッシュボード指標ゲージレポートレット] | 未使用 |
-| [!UICONTROL R&amp;A ダッシュボードレポートスイートサマリーレポートレット] | 未使用 |
-| [!UICONTROL R&amp;A ダッシュボードテキストレポートレット] | 未使用 |
-| [!UICONTROL R&amp;A ダッシュボードレポートスイートサマリーレポートレット] | 未使用 |
-| [!UICONTROL R&amp;A ダッシュボード外部レポートレット] | 未使用 |
+| [!UICONTROL  リアルタイムレポートの設定 ] | Report Suite Manager の「リアルタイム」へのアクセスを許可します。権限項目「リアルタイムレポート」を使用して、レポート自体へのアクセスを許可します。 |
+| [!UICONTROL  レポートアクティビティマネージャー管理者 ] | 未使用 |
+| [!UICONTROL  レポートアクティビティマネージャーへのアクセス ] | 未使用 |
+| [!UICONTROL  レポートスイート管理 ] | Report Suite Manager へのアクセスを許可しますが、変更は許可されません。 |
+| [!UICONTROL R&amp;A ダッシュボード画像レポートレット ] | 未使用 |
+| [!UICONTROL R&amp;A ダッシュボード指標ゲージレポートレット ] | 未使用 |
+| [!UICONTROL R&amp;A ダッシュボードレポートスイート概要レポートレット ] | 未使用 |
+| [!UICONTROL R&amp;A ダッシュボードテキストレポートレット ] | 未使用 |
+| [!UICONTROL R&amp;A ダッシュボードレポートスイート概要レポートレット ] | 未使用 |
+| [!UICONTROL R&amp;A ダッシュボード外部レポートレット ] | 未使用 |
 | [!UICONTROL 成功イベント] | Report Suite Manager のコンバージョン／成功イベントへのアクセスを許可します。 |
 | [!UICONTROL トラフィック管理] | 未使用。 |
 | [!UICONTROL トラフィック変数] | Report Suite Manager で、トラフィック／トラフィック変数へのアクセスを許可します。 |

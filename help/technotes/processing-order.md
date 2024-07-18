@@ -21,10 +21,10 @@ ht-degree: 91%
 データをアドビに送信する前に、次のいずれかのメソッドを使用すると、通常はクライアント側でコンパイルされます。
 
 * **AppMeasurement**：サイトでホストされ、各ページで参照される JavaScript ファイル。データは Adobe Analytics に直接送信されます。
-* **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。データがAdobe Experience Platform Edge Network に送信されます。
+* **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。データはAdobe Experience Platform Edge Networkに送信されます。
 * **Adobe Experience Cloud データ収集のタグ**：データ収集 UI 内で作成されたルールを含む、各ページで参照される JavaScript ファイル。Adobe Analytics 拡張機能を使用すると、AppMeasurement の実装が容易になります。Web SDK 拡張機能を使用すると、Web SDK をより簡単に実装できます。
 
-Edge ネットワークにデータを送信する場合、Adobe Analytics( および他の多くのAdobe Experience Cloudソリューション ) にデータを転送するように設定できます。 実装メソッドに関係なく、最終的には必要な変数を含むイメージリクエストが Adobe データ収集サーバーに送信されます。
+Edge Networkにデータを送信する場合、Adobe Analytics（および他の多くのAdobe Experience Cloud ソリューション）にデータを転送するように設定できます。 実装メソッドに関係なく、最終的には必要な変数を含むイメージリクエストが Adobe データ収集サーバーに送信されます。
 
 ## Adobe Analytics データ収集サーバーに送信されたデータ
 
@@ -34,7 +34,7 @@ Adobe Analytics にデータを送信すると、必要に応じて次の機能�
 2. [**動的変数**](/help/implement/vars/page-vars/dynamic-variables.md)：イメージリクエストのいずれかの部分に動的変数が検出された場合、その値はコピーされ、独立した値として処理されます。
 3. [**ボットルール**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)：標準またはカスタムのボットフィルタリングを適用すると、そのデータをレポートから除外できます。
 4. [**処理ルール**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)：組織がデータに適用したカスタムルール。[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)のそれぞれの変数へのマッピングが含まれます。
-5. **VISTA ルール**：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。既存の VISTA ルールの詳細については、Adobeのアカウントチームにお問い合わせください。
+5. **VISTA ルール**：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。既存の VISTA ルールについて詳しくは、Adobeアカウントチームにお問い合わせください。
 6. [**マーケティングチャネルの処理ルール**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)：[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)を使用すると、マーケティングチャネルの処理ルールで使用するデータを準備できます。
 7. **ジオロケーションデータ**：IP アドレスのルックアップに依存するディメンション（[国](/help/components/dimensions/countries.md)ディメンションなど）が入力されます。
 8. [**IP の不明化**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)：組織が生データの IP アドレスを不明化することを選択した場合、他のすべての処理機能が完了した後に行われます。

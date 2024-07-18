@@ -42,9 +42,9 @@ Web SDK を使用してAdobeにデータを送信すると、すべての XDM �
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL Clear Variables].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数をクリア ] に設定します。
 
-## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.clearVars()
+## AppMeasurementの s.clearVars （）と Analytics 拡張機能のカスタムコードエディター
 
 Analytics オブジェクトインスタンスをインスタンス化した後、実装の任意の場所で `s.clearVars()` メソッドを呼び出すことができます。
 

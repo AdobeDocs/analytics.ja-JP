@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK を使用したイベント
 
-を使用する場合 [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md)の場合、カスタムイベントでは次の XDM フィールドを使用します。
+[XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、カスタムイベントでは次の XDM フィールドを使用します。
 
 * カスタムイベント 1 ～ 100 は、`xdm._experience.analytics.event1to100.event1` ～ `xdm._experience.analytics.event1to100.event100` にマッピングされます。
 * カスタムイベント 101 ～ 200 は、`xdm._experience.analytics.event101to200.event100` ～ `xdm._experience.analytics.event101to200.event200` にマッピングされます。
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >イベントが `productListItems` に設定され（例えば、`productListItems._experience.analytics.event1.value`）、そのイベントがまだこのフィールドにない場合、そのイベントは、このフィールドに自動的に追加されます。
 
-を使用する場合 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;すべてのイベントはを使用します `data.__adobe.analytics.events`、AppMeasurement文字列の構文に従います。 このフィールドを設定すると、XDM オブジェクトで設定されたイベントが上書きされ、Adobe Analyticsに送信されません。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、すべてのイベントで `data.__adobe.analytics.events` を使用します。次のAppMeasurement文字列構文に従います。 このフィールドを設定すると、XDM オブジェクトで設定されたイベントが上書きされ、Adobe Analyticsに送信されません。
 
 ## Adobe Analytics 拡張機能を使用したイベント
 
@@ -48,14 +48,14 @@ ht-degree: 85%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張機能] Adobe Analyticsへのドロップダウンリスト、および [!UICONTROL アクションタイプ] 対象： [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL イベント]セクションを見つけます。
 
 次の機能が利用できます。
 
 * 含めるイベントを選択できるドロップダウンリスト
 * シリアル化用のオプションのテキストフィールドです。[イベントのシリアル化](event-serialization.md)を参照してください。
-* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、を選択します。 `event1` ドロップダウンリストの下で、次を含む `10` このフィールドの増分 `event1` レポートでは 10 ずつ。
+* イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンリストの下の「`event1`」を選択し、このフィールドに「`10`」を含めると、レポートでは 10 ずつ `event1` 増します。
 * 別のイベントを追加するボタン。単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events

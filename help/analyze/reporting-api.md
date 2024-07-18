@@ -23,7 +23,7 @@ Adobe Analytics API のドキュメントは、[Adobe Developer](https://develop
 | **説明** | Analytics インターフェイスで利用できる、完全に処理済みで、ファイナライズされたデータ。 | 数秒間の収集で部分的に処理された、制限された指標。 | 数秒間の収集で部分的に処理されたヒットデータ。 | 大量のデータエクスポートを引き出すために使用される、完全に処理済みで、ファイナライズされたデータ。 |
 | [**遅延**](/help/technotes/latency.md) | 30 ～ 90 分 | 数秒 ～ 10 分 | 数秒 ～ 10 分 | 90 分以上 |
 | **処理の完了** | フル | 部分的 | 部分的 | フル |
-| **レポートインターフェイス** | Analysis Workspace、Report Builder、API | Report Builder, 1.4 API のリアルタイムレポート | API のみ | Data Warehouse、API |
+| **レポートインターフェイス** | Analysis Workspace, Report Builder, API | Report Builderでのリアルタイムレポート，1.4 API | API のみ | Data Warehouse、API |
 | **データの精度** | 集計済み | 集計済み | ヒットレベル | 集計済み |
 | **訪問者プロファイルの処理** | ○ | × | × | ○ |
 | **セグメントのサポート** | ○ | × | × | 部分的 |

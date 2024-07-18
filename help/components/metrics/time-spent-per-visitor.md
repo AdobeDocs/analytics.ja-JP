@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
 # 訪問者別滞在時間（秒）
 
-「[!UICONTROL 訪問者別滞在時間（秒）]」指標は、訪問者の全期間に訪問者が特定のディメンション項目を操作した平均時間を示します。[](overview.md)
+[!UICONTROL  訪問者あたりの滞在時間（秒） ][ 指標 ](overview.md) は、訪問者の全期間に訪問者が特定のディメンション項目を操作した平均時間を示します。
 
 この指標は、処理アーキテクチャが異なるので、Data Warehouse では使用できません。
 

@@ -17,7 +17,7 @@ ht-degree: 73%
 
 >[!WARNING]
 >
->次のようなトラッキングコールを実行しない [`t()`](t-method.md) または [`tl()`](tl-method.md) 内側 `registerPostTrackCallback` 変数を使用します。 この変数でトラッキングコールを設定すると、イメージリクエストが無限ループに陥ります。
+>[`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは `registerPostTrackCallback` 変数内で行わないでください。 この変数にトラッキングコールを設定すると、イメージリクエストの無限ループが発生します。
 
 `registerPostTrackCallback` 変数を呼び出すたびに、その関数をフックして、イメージリクエストが正常に送信された直後に実行します。同じページの読み込みで同じ関数を複数回登録しないでください。
 
@@ -25,13 +25,13 @@ ht-degree: 73%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Web SDK 拡張機能を使用したトラック後のコールバック
+## Web SDK 拡張機能を使用したPost トラックコールバック
 
-近日開始！
+準備中
 
-## 追跡後のコールバックによる Web SDK の手動実装
+## Web SDK を手動で実装するPost トラックコールバック
 
-データがAdobeに正常に送信された後に、イベントを送信する際に JavaScript Promise を使用して、関数を登録できます。
+Adobeにデータが正常に送信された後に関数を登録するイベントを送信する際に、JavaScript Promise を使用できます。
 
 ```js
 alloy("sendEvent",{
@@ -41,13 +41,13 @@ alloy("sendEvent",{
 });
 ```
 
-詳しくは、 [イベントからの応答の処理](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) （ Web SDK ドキュメント）を参照してください。
+詳しくは、Web SDK ドキュメントの [ イベントからの応答の処理 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) を参照してください。
 
-## Adobe Analytics拡張機能を使用したトラック後のコールバックの登録
+## Adobe Analytics拡張機能を使用したPost-track コールバックの登録
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.registerPostTrackCallback
+## AppMeasurementの s.registerPostTrackCallback と Analytics 拡張機能のカスタムコードエディター
 
 `s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、画像リクエストが正常に送信された直後に実行されます。
 

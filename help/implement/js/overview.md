@@ -1,5 +1,5 @@
 ---
-title: JavaScript 版AppMeasurementを使用したAdobe Analyticsの実装
+title: JavaScriptのAppMeasurementを使用したAdobe Analyticsの実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
@@ -11,13 +11,13 @@ ht-degree: 42%
 
 ---
 
-# JavaScript 版AppMeasurementを使用したAdobe Analyticsの実装
+# JavaScriptのAppMeasurementを使用したAdobe Analyticsの実装
 
 JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
 実装タスクの大まかな概要：
 
-![この節で説明するように、JavaScript 用AdobeAppMeasurementを使用して JavaScript 分析を実装する方法。](../assets/appmeasurement-annotated.png)
+![JavaScript 用のAppMeasurementを使用してAdobe分析を実装する方法については、この節で説明します。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>1</td><td>次の条件を満たしていることを確認します。 <b>レポートスイートの定義</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td>1</td><td><b> レポートスイートを定義 </b> したことを確認します。</td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurementに必要な JavaScript コードのダウンロード</b> 」をクリックします。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
+<td>2</td><td><b>AppMeasurementに必要なJavaScript コードを Code Manager からダウンロードします </b>。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>追加 <code>AppMeasurement.js</code> を web サイトのテンプレートファイルに追加します。</b>. コードには、データをAdobeに送信するために必要なライブラリが含まれています。
+<td>3</td><td><b>Web サイトのテンプレートファイルに <code>AppMeasurement.js</code> を追加します </b>。 このコードには、Adobeにデータを送信するために必要なライブラリが含まれています。
 
 ```html
 <head>
@@ -47,7 +47,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>4</td><td><b>内で設定変数を定義する <code>AppMeasurement.js</code></b>. Analytics オブジェクトがインスタンス化される際に、これらの変数は、データ収集の設定が正しいことを確認します。
+<td>4</td><td><b><code>AppMeasurement.js</code></b> 内で設定変数を定義します。 Analytics オブジェクトがインスタンス化されると、これらの変数によって、データ収集設定が正しいことが確認されます。
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>サイトのページコード内でページレベルの変数を定義する</b>. これらの変数は、Adobeに送信される特定のディメンションと指標を決定します。
+<td>5</td><td><b> サイトのページコード内でページレベル変数を定義します </b>。 これらの変数は、Adobeに送信される特定のディメンションと指標を決定します。
 
 ```js
 s.pageName = "Example page";
@@ -74,13 +74,13 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>を使用してAdobeにデータを送信する <code>t()</code> メソッド</b>（すべてのページ変数が定義されている場合）
+<td>6</td><td><b> すべてのページ変数が定義されている場合、<code>t()</code> メソッドを使用してデータをAdobeに送信します </b>。
 
 ```js
 s.t();
 ```
 
-</td><td><a href="../vars/functions/t-method.md">t() メソッド</a></td>
+</td><td><a href="../vars/functions/t-method.md">t （） メソッド</a></td>
 </tr>
 
 <tr>

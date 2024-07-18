@@ -1,13 +1,13 @@
 ---
-description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたりしたデータの処理されてアドビの Data Warehouse でに格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
+description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたデータは処理されて、アドビの Data Warehouse に格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
 keywords: クリックストリーム、データフィード、データフィード、データフィード
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md)：データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
-* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [ データフィードの内容 ](c-df-contents/datafeeds-contents.md)：圧縮ファイル <!-- Is this still the output users can download from the destination? I aske Jun. --> ージ内の内容を理解する
 * [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト.
 * データフィードインターフェイス操作のビデオ：
 

@@ -19,24 +19,24 @@ ht-degree: 66%
 >
 > この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
-## Web SDK 拡張機能を使用する Edge ドメイン
+## Web SDK 拡張機能を使用したEdge ドメイン
 
-Web SDK が使用する [!UICONTROL Edge ドメイン] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理できます。 必要に応じて [!UICONTROL Edge ドメイン] の値を指定します。
+Web SDK は、[!UICONTROL Edge ドメイン ] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK 拡張機能を設定する際に、目的の ]0}Edge ドメイン } 値を設定できます。[!UICONTROL 
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
-1. 目的のを設定 **[!UICONTROL Edge ドメイン]** テキストフィールド。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. 目的の「**[!UICONTROL Edge ドメイン]**」テキストフィールドを設定します。
 
-詳しくは、 [Adobe Experience Platform Web SDK 拡張機能の設定](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) （ Web SDK ドキュメント）を参照してください。
+詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK 拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
 
 >[!TIP]
 >
->組織がAppMeasurementまたは Analytics 拡張機能の実装から Web SDK に移行した場合、このフィールドでは、 `trackingServerSecure` ( または `trackingServer`) をクリックします。
+>AppMeasurementまたは Analytics 拡張機能の実装から Web SDK に移行する場合、このフィールドには `trackingServerSecure` （または `trackingServer`）に含まれるものと同じ値を使用できます。
 
-## Web SDK の手動実装の Edge ドメイン
+## Web SDK を手動で実装するEdge ドメイン
 
-を使用した SDK の設定 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja). フィールドは、データの送信先のドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用して SDK を設定します。 フィールドは、データの送信先のドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -55,7 +55,7 @@ alloy("configure", {
 
 このフィールドを空白のままにすると、[`trackingServer`](trackingserver.md) 変数の値がデフォルトになります。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.trackingServerSecure
+## AppMeasurementの s.trackingServerSecure と Analytics 拡張機能のカスタムコードエディター
 
 `s.trackingServerSecure` 変数は、イメージリクエストを送信する場所を含む文字列です。ほとんどの場合、これはサイトのサブドメインです。ブラウザーの最新のプライバシープラクティスによって、一般的なサードパーティ Cookie の信頼性が低下しています。この変数が空白の場合、`s.trackingServer` 変数の値が使用されます。
 

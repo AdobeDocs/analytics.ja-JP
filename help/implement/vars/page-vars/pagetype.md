@@ -23,8 +23,8 @@ ht-degree: 75%
 
 チャネルは、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage`  — この XDM フィールドはブール値です。次のように設定します。 `true` エラーページとしてフラグを設定するか、 `false` エラーページでない場合は。
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType`  — このデータオブジェクトフィールドは文字列です。 `"errorPage"` そのようにフラグを設定する
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md):`xdm.web.webPageDetails.isErrorPage` – この XDM フィールドはブール値です。エラーページとしてフラグを立てるには `true` に設定し、エラーページでない場合は `false` に設定します。
+* [Data object](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` – このデータオブジェクトフィールドは文字列です。そのようにフラグを立てるには、`"errorPage"` に設定します。
 
 ## Adobe Analytics 拡張機能を使用したページタイプ
 

@@ -25,13 +25,13 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムバージョンの「フリーズ」が開始されました。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
 
-クライアントヒントは、2023 年 2 月 27 日以降、Analytics デバイス参照プロセスに組み込まれ、2023 年 3 月 2 日に終了します。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、2月中旬まではデバイス検索では使用されません。後述のように、オペレーティングシステムのバージョンは 10月よりフリーズされていますが、段階的なロールアウトおよび多くのユーザーエージェントが既にフローズン OS バージョンを提供しているという事実（詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照）により、アドビでは、これが影響するのは Chrome 訪問者の 3％未満と見積もっています。
+クライアントヒントは、2023 年 2 月 27 日（PT）以降、2023 年 3 月 2 日（PT）まで、Analytics デバイス検索プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、2月中旬まではデバイス検索では使用されません。後述のように、オペレーティングシステムのバージョンは 10月よりフリーズされていますが、段階的なロールアウトおよび多くのユーザーエージェントが既にフローズン OS バージョンを提供しているという事実（詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照）により、アドビでは、これが影響するのは Chrome 訪問者の 3％未満と見積もっています。
 
 >[!NOTE]
 >
 > 2023年1月の時点で、Mac および Windows オペレーティング システムの一部のバージョンがユーザーエージェントで正しく表示されず、高エントロピーのクライアントヒントでは正しく表示されます。詳しくは、[オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)を参照してください。
 
-Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 を使用している場合、 [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
+Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [ サーバーサイド転送 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 ## よくある質問
 
@@ -55,7 +55,7 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 
 現時点ではできません。高エントロピーのヒントをすべて収集するか、まったく収集しないかを選択できます。
 
-ブラウザのメジャーバージョンは低エントロピーのヒントとして取り込まれるので、fullVersionList は現在収集されていません。
+ブラウザーのメジャーバージョンは低エントロピーのヒントとしてキャプチャされるので、fullVersionList は現在収集されないことに注意してください。
 
 +++
 
@@ -68,14 +68,14 @@ API で送信されたデータの場合（[Data Insertion API](https://github.c
 | Sec-CH-UA | ブラウザーと重要なバージョン | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | `true` |
 | Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | `"Android"` |
-| アーキテクチャ | サイトのアーキテクチャ | 高 | `"arm"` |
-| 硬さ | アーキテクチャのビット度 | 高 | `"64"` |
+| architecture | サイトのアーキテクチャ | 高 | `"arm"` |
+| ビット | アーキテクチャのビット数 | 高 | `"64"` |
 | fullVersionList | ブランドとそのバージョンのリスト | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | デバイスモデル | 高 | `"Pixel 3"` |
 | platformVersion | オペレーティングシステム／プラットフォームのバージョン | 高 | `"10"` |
 
 * 低エントロピーのヒントは、リクエストヘッダーで収集されます。
-* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリー文字列パラメーターは、 `h.` をイメージリクエストのプレフィックスとして使用します。 ブラウザのメジャーバージョンは低エントロピーヒントとして取り込まれるので、fullVersionList は現在収集されていません。
+* 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。クエリ文字列パラメーターは、`h.` をイメージリクエストのプレフィックスとして使用します。 ブラウザーのメジャーバージョンは低エントロピーのヒントとしてキャプチャされるので、fullVersionList は現在収集されないことに注意してください。
 
 高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターで渡されます
 
@@ -145,7 +145,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++
 
-+++**クライアントヒントは、Adobeソースコネクタを介してAdobe Experience PlatformおよびCustomer Journey Analyticsに送信されるデータで使用できますか？**
++++**クライアントヒントは、AdobeのSource Connector を介してAdobe Experience PlatformおよびCustomer Journey Analyticsに送信されるデータで利用できますか？**
 
 アドビは、2023年上半期に Adobe ソースコネクタを介したデータにクライアントヒントを含める予定です。
 
@@ -157,8 +157,8 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++
 
-+++**Adobe Audience Managerサーバー側転送はクライアントヒントをサポートしますか？**
++++**Adobe Audience Manager サーバーサイド転送はクライアントヒントをサポートしますか？**
 
-はい。Adobe Audience Managerに転送されるデータに、クライアントヒントが含まれます。 Adobe Audience Managerでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 を使用している場合、 [Adobe Audience Managerへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にすることができます。
+はい。クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 なお、Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [ サーバーサイド転送 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 +++

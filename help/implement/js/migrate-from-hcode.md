@@ -28,7 +28,7 @@ H コードと比較した場合、AppMeasurement には次の注目すべき変
 
 1. **新しい AppMeasurement ファイルをダウンロードします**：Adobe Analytics にログインし、管理者／すべての管理者／Code Manager の順に移動して、新しいファイルにアクセスします。ダウンロードした圧縮ファイルには、`AppMeasurement.js` 縮小ファイルと、メディアモジュールおよび統合モジュールが含まれています。
 1. **`s_code.js` のカスタマイズを`AppMeasurement.js`** にコピーします：`s_code.js` で `DO NOT ALTER ANYTHING BELOW THIS LINE` セクションの前にあるすべてのコードを `AppMeasurement.js` の先頭に移動します。
-1. **すべてのプラグインを更新する**：最新バージョンのプラグインを使用していることを確認してください。最新バージョンのプラグインは、 `s_code.js` ファイル。 この手順には、メディアモジュールと統合モジュールが含まれます。
+1. **すべてのプラグインを更新する**:`s_code.js` ファイルにリストされている各プラグインの最新バージョンを使用していることを確認してください。 この手順には、メディアモジュールと統合モジュールが含まれます。
 1. **AppMeasurement.js ファイルをデプロイします**：`AppMeasurement.js` ファイルを Web サーバーにアップロードします。
 1. **スクリプトの参照先を`AppMeasurement.js`** に更新します：すべてのページで、`s_code.js` ではなく `AppMeasurement.js` が参照されていることを確認します。
 

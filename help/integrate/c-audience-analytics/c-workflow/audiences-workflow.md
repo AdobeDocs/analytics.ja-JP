@@ -17,6 +17,6 @@ ht-degree: 54%
 
 | 手順 # | タスクの説明 | メモ |
 |--- |--- |--- |
-| 手順 1 | サーバー側転送を有効にします。 | 詳しくは、 [サーバー側転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) 」を参照してください。 |
+| 手順 1 | サーバー側転送を有効にします。 | 『管理ユーザガイド』の「[ サーバーサイド転送 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)」を参照してください。 |
 | 手順 2 | Adobe Audience Managerで Analytics の宛先を設定します。 | [Analytics の宛先の作成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)を参照してください。 |
-| 手順 3 | [Analytics でデータを使用します。](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md) | 新しいAdobe Audience Managerオーディエンスディメンションは、Analysis Workspaceおよびその関連機能（セグメント比較、フロー、ベンなど）で使用できます。 <br>オーディエンスディメンションは、Report Builder、Data Warehouse、データフィードでも使用できます。 <br>**注意**：データフィードには、オーディエンス ID のみが含まれており、オーディエンス名は含まれていません。 |
+| 手順 3 | [Analytics でデータを使用します。](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md) | Analysis Workspaceの新しいAdobe Audience Manager オーディエンスディメンションとその関連機能（セグメント比較、フロー、ベン図など）を使用できます。 <br> オーディエンスディメンションは、Report Builder、Data Warehouseおよびデータフィードでも使用できます。 <br>**注意**：データフィードには、オーディエンス ID のみが含まれており、オーディエンス名は含まれていません。 |

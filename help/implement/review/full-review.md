@@ -23,7 +23,7 @@ ht-degree: 80%
 
 ビジネスにとって重要な順序で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。  [上位 5 件の KPI ](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=ja#review)に関連付けられた、最も重要な指標や変数から開始します。次に手順を示します。
 
-* ダッシュボードを作成して、指標と変数の月間トレンドビューを確認します（または次を設定します [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) それぞれについて）を使用して、期待するデータを取得しており、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
+* ダッシュボードを作成して、指標と変数の毎月のトレンドビューを確認し（または、それぞれに [ インテリジェントアラート ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) を設定し）、期待するデータを取得し、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
 * [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)を再実行して、指標と変数の広範なトレンドを監視します。
 
 必要のない指標や変数で実装が肥大化するのを防ぎます。 ビジネスで不要になった指標や変数は無効にしてください。これらは、後で削除したり再利用したりできます。

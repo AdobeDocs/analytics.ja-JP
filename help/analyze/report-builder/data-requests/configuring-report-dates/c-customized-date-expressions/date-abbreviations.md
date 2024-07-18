@@ -14,7 +14,7 @@ ht-degree: 86%
 
 # 日付の略語
 
-日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日の範囲は、2 つの時間の略語または用語に開始日と終了日を指定することで表されます。
+日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日の範囲は、2 つの時間の略語または用語の開始日と終了日を指定することによって表されます。
 
 正しい構文を使用する方法については、[構文に関する注意点](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D) を参照してください。
 

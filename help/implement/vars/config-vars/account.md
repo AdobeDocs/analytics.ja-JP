@@ -20,5 +20,5 @@ ht-degree: 38%
 以前のバージョンの Adobe Analytics では、`account` 変数はデータの送信先のレポートスイートを決定しました。Adobe Analytics にデータを送信するには、レポートスイート ID が必要です。
 
 * Web SDK を使用する場合、レポートスイートは、Web SDK がデータを送信するデータストリーム内のAdobe Analytics サービス設定にあります。
-* Adobe Analytics拡張機能を使用する場合、レポートスイートは次の場所に存在します [!UICONTROL ライブラリ管理] Adobe Analytics拡張機能の設定時のアコーディオン。
-* 使用する場合 [`s_gi()`](../functions/s-gi.md) 関数 Analytics トラッキングオブジェクトをインスタンス化するには、その関数内に必須の引数としてレポートスイート ID が既に存在します。
+* Adobe Analytics拡張機能を使用する場合、Adobe Analytics拡張機能の設定時に、レポートスイートは [!UICONTROL  ライブラリ管理 ] アコーディオンの下に配置されます。
+* [`s_gi()`](../functions/s-gi.md) 関数を使用して Analytics トラッキングオブジェクトをインスタンス化する場合、その関数内には必須の引数としてレポートスイート ID が既に存在します。

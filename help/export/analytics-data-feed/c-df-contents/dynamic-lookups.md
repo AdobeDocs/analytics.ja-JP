@@ -14,19 +14,19 @@ ht-degree: 1%
 
 動的検索を使用すると、追加の参照ファイルをデータフィードで受け取ることができます。それ以外の場合は使用できません。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。
 
-* **通信事業者名**：の追加コンテキストを提供します `carrier` 列。 含まれるファイル名は次のとおりです `carrier.tsv`.
-* **モバイル属性**：の追加コンテキストを提供します `mobile_id` 列（各モバイルデバイスで追跡されたすべての機能を含む）。 含まれるファイル名は次のとおりです `mobile_attributes.tsv`.
-* **オペレーティングシステムの種類**：の代替コンテキストを提供します `os` 列。 両方 `operating_systems.tsv` および `operating_system_type.tsv` を使用する `os` 列がキーになっていますが、のみ `operating_system_type.tsv` は動的検索です。
+* **通信事業者名**:`carrier` 列の追加コンテキストを提供します。 ファイル名は `carrier.tsv` です。
+* **モバイル属性**：各モバイルデバイスで追跡されるすべての機能を含む、`mobile_id` 列の追加コンテキストを提供します。 ファイル名は `mobile_attributes.tsv` です。
+* **オペレーティングシステムの種類**:`os` 列の代替コンテキストを提供します。 `operating_systems.tsv` と `operating_system_type.tsv` はどちらも `os` 列をキーとして使用しますが、`operating_system_type.tsv` のみが動的検索です。
 
 ## 動的検索の有効化
 
 前述の参照ファイルを受け取るには、次の前提条件をすべて満たす必要があります。
 
 * キー列をデータフィードに含める必要があります。
-   * の場合 `carrier.tsv`を含める必要があります `carrier`.
-   * の場合 `mobile_attributes.tsv`を含める必要があります `mobile_id`.
-   * の場合 `operating_system_type.tsv`を含める必要があります `os`.
-* 次の列は、である必要があります **除外済み**. データフィードにこれらの列が含まれている場合は、 `mobile_attributes.tsv` 動的検索は含まれません。
+   * `carrier.tsv` の場合、`carrier` を含める必要があります。
+   * `mobile_attributes.tsv` の場合、`mobile_id` を含める必要があります。
+   * `operating_system_type.tsv` の場合、`os` を含める必要があります。
+* 次の列は **除外** する必要があります。 これらの列のいずれかがデータフィードに含まれる場合、`mobile_attributes.tsv` の動的参照は含まれません。
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +35,17 @@ ht-degree: 1%
 
 ## 参照ヘッダーの参照
 
-これらの参照ファイルの列ヘッダーは、時間の経過に伴って変化しないので、各データフィードファイルにはヘッダーは含まれません。 これらの列ヘッダーを参照として使用するか、それぞれダウンロードします `.tsv` ファイル。
+これらの参照ファイルの列ヘッダーは、時間の経過に伴って変化しないので、各データフィードファイルにはヘッダーは含まれません。 これらの列ヘッダーを参照として使用するか、それぞれの `.tsv` ファイルをダウンロードします。
 
-+++**通信事業者名**
-Download [carrier_headers.tsv](assets/carrier_headers.tsv) または、以下のヘッダーを参照してください。
++++**通信事業者の名称**
+[carrier_headers.tsv](assets/carrier_headers.tsv) をダウンロードするか、以下のヘッダーを参照してください。
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**モバイル属性**
-Download [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) または、以下のヘッダーを参照してください。
+[mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) をダウンロードするか、以下のヘッダーを参照してください。
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Download [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) �
 +++
 
 +++**オペレーティングシステムの種類**
-Download [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) または、以下のヘッダーを参照してください。
+[operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) をダウンロードするか、以下のヘッダーを参照してください。
 
 `os`
 `Operating System Type`

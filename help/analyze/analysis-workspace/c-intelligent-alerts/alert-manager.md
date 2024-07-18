@@ -7,7 +7,7 @@ exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -16,27 +16,27 @@ ht-degree: 5%
 
 アラートマネージャーでは、既存のアラートを管理できます。 タグ付け、名前の変更、削除など、アラートに対して様々な管理タスクを実行できます。
 
-アラートマネージャーは、次のような構造になっています [セグメントマネージャー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja) および [計算指標マネージャー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ja).
+アラートマネージャーは、[ セグメントマネージャー ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja) および [ 計算指標マネージャー ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ja) と非常に似た構造になっています。
 
 ## アラートの作成
 
 アラート・マネージャからアラートを作成するには、次の手順に従います。
 
-1. を選択 **[!UICONTROL Components]** > **[!UICONTROL アラート]** Adobe Analyticsのアラートマネージャーにアクセスするには：
+1. **[!UICONTROL コンポーネント]**/**[!UICONTROL アラート]** を選択して、Adobe Analyticsのアラートマネージャーにアクセスします。
 
    ![](assets/alert-manager.png)
 
-1. を選択 [!UICONTROL **追加**] （または [!UICONTROL **新しいアラートを作成**] 既存のアラートがない場合）。
+1. [!UICONTROL **追加**] （または既存のアラートがない場合は [!UICONTROL **新しいアラートの作成**]）を選択します。
 
 1. 作成するアラートに対応するアラートタイプを選択します。
 
-   * [!UICONTROL **Analytics データアラート**]：データで異常なイベントが発生した場合に通知するアラート。
+   * [!UICONTROL **Analytics データアラート**]：データに異常なイベントが発生した場合に通知するアラート。
 
-     このオプションを選択した場合は、に進みます [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) アラート作成の詳細。
+     このオプションを選択した場合、アラートの作成の詳細については、[ アラートの作成 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) に進みます。
 
-   * [!UICONTROL **サーバーコールの使用状況アラート**]：サーバーコールの利用とコミットメントデータに超過が発生するリスクまたは発生を通知するアラート。
+   * [!UICONTROL **サーバーコールの使用状況アラート**]：サーバーコールの使用状況とコミットメントデータに超過のリスクや発生があることを通知するアラート。
 
-     このオプションを選択した場合は、に進みます [サーバーコールの使用状況アラート](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     このオプションを選択した場合は、[ サーバーコールの使用状況アラート ](/help/admin/admin/c-server-call-usage/scu-alerts.md) に進みます。
 
      >[!NOTE]
      >
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 アラート・マネージャで既存のアラートを管理するには：
 
-1. を選択 **[!UICONTROL Components]** > **[!UICONTROL アラート]** Adobe Analyticsのアラートマネージャーにアクセスするには：
+1. **[!UICONTROL コンポーネント]**/**[!UICONTROL アラート]** を選択して、Adobe Analyticsのアラートマネージャーにアクセスします。
 
    ![](assets/alert-manager.png)
 

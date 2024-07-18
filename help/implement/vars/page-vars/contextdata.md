@@ -19,9 +19,9 @@ ht-degree: 79%
 
 ## Web SDK を使用したコンテキストデータ変数
 
-を使用する場合 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を指定すると、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 XDM オブジェクトを使用してコンテキストデータを明示的に設定することもできます。 その後、を使用できます [処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用して、コンテキストデータ変数を目的の Analytics 変数に割り当てます。  参照： [他の XDM フィールドを Analytics 変数にマッピングする](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) を参照してください。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 XDM オブジェクトを使用してコンテキストデータを明示的に設定することもできます。 その後、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。  詳しくは [ 他の XDM フィールドの Analytics 変数へのマッピング ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) を参照してください。
 
-を使用する場合 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、すべてのコンテキストデータ変数は内に存在します。 `data.__adobe.analytics.contextData` キーと値のペアとして：
+[**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、すべてのコンテキストデータ変数はキーと値のペアとして `data.__adobe.analytics.contextData` 内に存在します。
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-この [処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) インターフェイスに次が表示される `c.example_variable` および `c.second_example` （該当するドロップダウンメニュー）。
+[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) インターフェイスの該当するドロップダウンメニューには、`c.example_variable` と `c.second_example` が表示されます。
 
 ## Adobe Analytics 拡張機能を使用したコンテキストデータ変数
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 > コンテキストデータ変数は、処理ルールの実行後に破棄されます。変数に値を配置する処理ルールがアクティブでない場合、そのデータは永久的に失われます。
 
 1. コンテキストデータ変数の名前と値を設定するには、実装を更新します。
-2. Adobe Analyticsにログインし、に移動します。 **[!UICONTROL Admin]** > **[!UICONTROL 報告書]** スイート。
-3. 目的のレポートスイートを選択し、に移動します **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL 処理ルール]**.
+2. Adobe Analyticsにログインし、**[!UICONTROL 管理者]**/**[!UICONTROL レポート]** スイートに移動します。
+3. 目的のレポートスイートを選択し、**[!UICONTROL 設定を編集]**/**[!UICONTROL 一般]**/**[!UICONTROL 処理ルール]** に移動します。
 4. Analytics 変数をコンテキストデータ変数値に設定する処理ルールを作成します。
 5. 変更を保存します。
 

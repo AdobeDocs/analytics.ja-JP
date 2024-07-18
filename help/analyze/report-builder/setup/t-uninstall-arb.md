@@ -1,13 +1,13 @@
 ---
 description: Adobe Report Builderのアンインストール方法を説明します。
-title: アンインストールReport Builder
+title: Report Builderのアンインストール方法
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '122'
 ht-degree: 90%
 
 ---

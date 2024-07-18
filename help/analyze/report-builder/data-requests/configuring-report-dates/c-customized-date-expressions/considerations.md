@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 99%
 
 ---
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 
 11 月 23 日（日）に開始する現在の週の開始日から 1 日間を引いた日付 = 11 月 22 日（土）
 
-ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます。（[カスタムカレンダー](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)を参照）
+ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます。（[ カスタムカレンダー ](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) を参照してください）。

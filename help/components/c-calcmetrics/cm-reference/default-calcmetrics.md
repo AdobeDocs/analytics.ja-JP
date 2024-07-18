@@ -21,8 +21,8 @@ Adobeが提供する各計算指標、意図した関数、およびその計算
 >このページで説明されているデフォルトの計算指標に加えて、レポートスイートに追加の計算指標を追加することもできます。
 >
 >次のことができます。
-> * の説明に従って、ストリーミング メディア コレクション アドオンに既定の計算指標を追加します [計算指標](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * の説明に従って、既存の指標からカスタム計算指標を作成する [計算指標および高度な計算（派生）指標](/help/components/c-calcmetrics/cm-overview.md).
+> * [ 計算指標 ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) の説明に従って、ストリーミングメディアコレクションアドオンのデフォルトの計算指標を追加します
+> * [ 計算指標および高度な計算（派生）指標 ](/help/components/c-calcmetrics/cm-overview.md) で説明しているように、既存の指標からカスタムの計算指標を作成する。
 
 
 | 計算指標名 | 関数 | 数式 |
@@ -37,7 +37,7 @@ Adobeが提供する各計算指標、意図した関数、およびその計算
 | コンテンツベロシティ | 新しいコンテンツがサイト上で作成および公開される速度と、そのコンテンツがユーザーエンゲージメントを生成する速度。 | `[Page Views] / [Visits]` |
 | コンバージョン率 | 購入など、目的のアクションを行った訪問者の割合。 | `[Orders] / [Visits]` |
 | 入口率 | サイトの合計セッション数と比較した、特定のページでサイトに入った訪問者の割合。 | `[Entries] / [Visits]` |
-| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者を 2 以下で割ります。 この計算指標は、（CNAME 実装を使用せずに）クライアントサイド JavaScriptを使用して cookie を設定していることを前提としています。 ITP 2.1 以降、クライアントサイド JavaScriptを使用して cookie を設定する実装に影響がありました。参照： [インテリジェントなトラッキングの防止](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者を 2 以下で割ります。 この計算指標は、（CNAME 実装を使用せずに）クライアントサイド JavaScriptを使用して cookie を設定していることを前提としています。 ITP 2.1 以降、クライアントサイド JavaScriptを使用して cookie を設定する実装に影響がありました。詳しくは、[ インテリジェントトラッキング防止 ](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID の適用範囲 | Experience Cloud ID を持つ訪問者の割合。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 出口率 | 特定のページを表示した後にサイトを離れた訪問者の割合。 | `[Exits] / [Visits]` |
 | ITP 2.1 ユニーク訪問者/ ユニーク訪問者 | ITP 2.1 cookie 制限の影響を受けたブラウザーを使用するユニーク訪問者の割合。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

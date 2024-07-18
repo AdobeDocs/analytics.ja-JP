@@ -4,7 +4,7 @@ title: Adobe Analytics の低トラフィック値
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
 

@@ -29,4 +29,4 @@ ht-degree: 90%
 
    複数のルールがある場合、それらのルールをページにドラッグアンドドロップして処理順序を変更できます。
 
-   詳しくは、 [処理ルールの例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) を参照してください。
+   作成できるルールの種類については、[ 処理ルールの例 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) を参照してください。

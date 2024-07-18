@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder では、次の制限までワークブックをサポートし�
 * **会社ごとに 1 時間あたり 2 万件のリクエスト**：Report Builder は、Analytics レポート API を使用してデータを取得します。 個々のリクエストは、作成または更新されるたびに API 呼び出しを使用します。 指定時間内に組織が実行した API 呼び出しが 2 万回より多く蓄積している場合、データを再度取得するには、1 時間後まで待つ必要があります。
 * **4 時間の処理時間**：予定レポートは、4 時間以上処理した後にタイムアウトになります。大きなデータセットを使用する複雑なリクエストがワークブックに多数含まれている場合は、予定レポートが失敗する可能性があります。
 
-## Report Builderへのアクセス権があるかどうかを確認するには、どうすればよいですか？ {#access}
+## Report Builder へのアクセス権があるかどうかを確認するにはどうすればよいですか？ {#access}
 
-Adobe Analytics管理者からReport Builderアクセス権を付与されている必要があります。 管理者は、 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). 管理者に、アクセス権の付与を依頼します。
+Adobe Analytics 管理者から Report Builder アクセス権を付与されている必要があります。管理者は、[Adobe Admin Console](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-console/home) で製品プロファイルを設定します。管理者にアクセス権の付与を依頼します。

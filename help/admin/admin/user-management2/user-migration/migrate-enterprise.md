@@ -128,7 +128,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>でドメインが <span class="term"> ドメイン</span> および <span class="term"> 電子メール</span> 列は、前提条件で確立されたドメインと一致しています</a>. </p> </td> 
+   <td colname="col2"> <p>「<span class="term"> ドメイン </span>」列と「電子メール </span>」列のドメイン <span class="term">、前提条件 </a> で確立されたドメインと一致していることを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 

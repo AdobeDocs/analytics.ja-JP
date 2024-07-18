@@ -19,14 +19,14 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 ## AMP を使用しているページに Adobe Analytics を実装する方法を決定する
 
-アドビは、AMP を使用しているページに Adobe Analytics を実装する 2 つの方法を作成しました。どちらも `<amp-analytics>` HTML タグを使用します。詳しくは、 [amp-analytics](https://amp.dev/ja/documentation/components/amp-analytics) （AMP のドキュメント）を参照してください。
+アドビは、AMP を使用しているページに Adobe Analytics を実装する 2 つの方法を作成しました。どちらも `<amp-analytics>` HTML タグを使用します。詳しくは、AMP のドキュメントの [amp-analytics](https://amp.dev/ja/documentation/components/amp-analytics) を参照してください。
 
-* **以下を使用します。 `"adobeanalytics"` テンプレート**：ページ上で直接 Analytics リクエストを作成します
-* **以下を使用します。 `"analytics_nativeConfig"` テンプレート**：通常のサイトにデプロイするのと同じAppMeasurementコードを含む iframe を使用します
+* **`"adobeanalytics"` テンプレートの使用**：ページ上で直接 Analytics リクエストを作成します
+* **`"analytics_nativeConfig"` テンプレートを使用**：通常のサイトにデプロイするのと同じAppMeasurementコードを含んだ iframe を使用します
 
 次の表では、これら 2 つの方法を比較しています。
 
-|   | **`"adobeanalytics"`テンプレート** | **`"adobeanalytics_nativeConfig"`テンプレート** |
+|   | テンプレ **`"adobeanalytics"`ト** | テンプレ **`"adobeanalytics_nativeConfig"`ト** |
 |---|---|---|
 | 既存のレポートスイートの訪問者数／訪問数 | 高い水増し | 最小の水増し |
 | 別のレポートスイートの使用 | 推奨 | 不要 |
@@ -36,17 +36,17 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 | 導入の困難さ | 難しい | 比較的簡単 |
 | Adobe Experience Cloud 統合 | サポートなし | 部分的なサポート |
 
-組織に最適な実装方法を選択できるように、長所と短所を考慮します。
+長所と短所を比較検討して、組織に最適な実装方法を選択できるようにします。
 
 >[!WARNING]
 >
 > AMP を使用している同じページで、`"adobeanalytics"` テンプレートと `"adobeanalytics_nativeConfig"` テンプレートの両方を使用しないでください。両方を使用すると、ブラウザーコンソールでエラーが発生し、訪問者が二重にカウントされる可能性があります。
 
-## 方法 1：を使用します。 `<amp-analytics>` タグに `"adobeanalytics"` テンプレート
+## 方法 1:`"adobeanalytics"` テンプレートで `<amp-analytics>` タグを使用する
 
 `"adobeanalytics"` トラッキングテンプレートは、`<amp-analytics>` HTML タグを使用して、トラッキングリクエストを直接作成します。表示されるページやクリック時など、特定のページイベントで発生するヒットリクエストを指定できます。クリックイベントは、セレクターを指定することで、特定の要素 ID またはクラスに適用するようにカスタマイズできます。amp-analytics タグに `type="adobeanalytics"` を追加することで、テンプレートを読み込むことができます。
 
-次のコード例に、`pageLoad` および `click` が定義された 2 つのトリガーがあります。`pageLoad` トリガーは、ドキュメントが表示され、`vars` セクションで定義された `pageName` 変数が含まれると実行されます。2 番目のトリガー、`click` は、ボタンがクリックされると実行されます。The `eVar1` 変数がこのイベント用に設定され、値を持ちます。 `button clicked`.
+次のコード例に、`pageLoad` および `click` が定義された 2 つのトリガーがあります。`pageLoad` トリガーは、ドキュメントが表示され、`vars` セクションで定義された `pageName` 変数が含まれると実行されます。2 番目のトリガー、`click` は、ボタンがクリックされると実行されます。`eVar1` 変数は、値が `button clicked` のこのイベントに対して設定されます。
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,17 +79,17 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-The `<amp-analytics>` タグは、認識しているデータ値を AMP が提供できるように、変数の置換をサポートします。 詳しくは、 [でサポートされる変数 `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) GitHub で詳しく説明しています。
+`<amp-analytics>` タグは、AMP が認識しているデータ値を提供できるように、変数の置き換えをサポートしています。 詳しくは、GitHub の `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) でサポートされている [ 変数を参照してください。
 
 >[!NOTE]
 >
->この方法を使用してAdobeに送信されるイメージリクエストには、多くのデフォルトレポート（例えば、ブラウザー、画面サイズ、リファラー）のデータは含まれません。 この情報をヒットに含める場合は、これらの情報がイメージリクエストクエリ文字列の一部として含まれていることを確認します。 詳しくは、 [データ収集クエリのパラメーター](../validate/query-parameters.md) イメージリクエストのクエリパラメーターとそれに関連する変数の完全なリスト。
+>この方法を使用してAdobeに送信されるイメージリクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータが含まれていません。 この情報をヒットに含める場合は、イメージリクエストクエリ文字列の一部に含めてください。 イメージリクエストクエリパラメーターとそれに関連する変数の完全なリストについては、[ データ収集クエリパラメーター ](../validate/query-parameters.md) を参照してください。
 
-アドビは、組み込みの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。この訪問者 ID は、Adobe Analyticsが設定した他の ID と一意です。 訪問者がコンテンツを取得した CDN ごとに異なる個別訪問者がカウントされるので、個別訪問者数が水増しされる可能性があります。 AMP が個別訪問者を識別する方法を考慮して、AMP ページに対して別のレポートスイートを使用することを強くお勧めします。 Adobe Experience Cloud ID サービスはサポートされていません。
+アドビは、組み込みの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。この訪問者 ID は、Adobe Analyticsで設定された他の ID に対して一意です。 訪問者がコンテンツを取得した CDN ごとに異なるユニーク訪問者がカウントされるので、ユニーク訪問者数を増やす可能性があります。 AMP によるユニーク訪問者の識別方法の違いにより、AMP ページには別のレポートスイートを使用することを強くお勧めします。 Adobe Experience Cloud ID サービスはサポートされていません。
 
 このソリューションは、既存のプライバシーポリシー制御が優先されるように、`host` プロパティで指定したトラッキングサーバーがメインサイトのトラッキングサーバーと一致している必要があるということです。それ以外の場合は、AMP を使用するページに対して別のプライバシーポリシーを作成します。
 
-## 方法 2: `<amp-analytics>` タグに `"adobeanalytics_nativeConfig"` テンプレート
+## 方法 2:`"adobeanalytics_nativeConfig"` テンプレートで `<amp-analytics>` タグを使用する
 
 `"adobeanalytics_nativeConfig"` タグは、通常の Web ページで使用するのと同じタグ付け手法を使用するので、実装がより簡単です。`amp-analytics` タグに次を追加します。
 
@@ -147,7 +147,7 @@ Web サーバーでホストする HTML ページも必要です。
 
 このアプローチは、`iframeMessage` リクエストパラメーターに追加された特別なクエリ文字列パラメーターを使用して、ユーティリティ web ページにデータを送信します。これらのクエリ文字列パラメーターは、それらから適切なデータを収集するように `stats.html` ページが設定されている限り、好きなように名前を付けることができます。
 
-The `"adobeanalytics_nativeConfig"` また、 `extraUrlParams` のセクション `<amp-analytics>` タグを使用します。 上記の例では、`pageName` パラメーターと `v1` パラメーターが含まれます。
+また、`"adobeanalytics_nativeConfig"` テンプレートは、`<amp-analytics>` タグの `extraUrlParams` セクションにリストされている変数に基づいてクエリ文字列パラメーターを追加します。 上記の例では、`pageName` パラメーターと `v1` パラメーターが含まれます。
 
 >[!IMPORTANT]
 >

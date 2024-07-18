@@ -15,14 +15,14 @@ ht-degree: 65%
 
 リンクトラッキングコールがアドビに送信されるたびに、データ収集サーバーは URL を自動的に検出します。`linkURL` 変数は、検出された URL を上書きするために使用します。
 
-Analysis Workspaceには、この変数についてレポートするディメンションはありません。 が設定されます `page_event_var1` 列： [データフィード](/help/export/analytics-data-feed/data-feed-overview.md).
+Analysis Workspaceには、この変数についてレポートするディメンションはありません。 [ データフィード ](/help/export/analytics-data-feed/data-feed-overview.md) の `page_event_var1` 列に入力されます。
 
 ## Web SDK を使用した URL のリンク
 
 リンク URL は、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` または `data.__adobe.analytics.pev1`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [Data オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` または `data.__adobe.analytics.pev1`
 
 ## Adobe Analytics拡張機能を使用した URL のリンク
 

@@ -1,6 +1,6 @@
 ---
 description: データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。インポートしたデータは、通常の方法で収集されたデータと同じように処理できます。
-title: 管理者向けのデータソース
+title: 管理者向けデータソース
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 role: Admin

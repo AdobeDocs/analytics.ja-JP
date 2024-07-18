@@ -7,7 +7,7 @@ exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 これらのエンゲージメントには、[!UICONTROL DB VISTA] やカスタムプロジェクトがあります。
 
-FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
+FTP の制限とデータ保持については、「[FTP の制限とデータ保持 ](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 

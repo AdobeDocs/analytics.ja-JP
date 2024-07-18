@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 93%
 
 ---
 
 # prop
 
-*このヘルプページでは、prop が [ディメンション](overview.md). prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
+*このヘルプページでは、prop が [ ディメンション ](overview.md) として機能する方法について説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
 
 prop は、好きなだけ使用できるカスタム変数です。prop は、設定されたヒットの後は保持されません。
 
@@ -30,7 +30,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。各 prop の目的と一般的なディメンション項目を必ず [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md).
+prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。必ず、各 prop の目的と一般的なディメンション項目を [ ソリューションデザインドキュメント ](/help/implement/prepare/solution-design.md) に記録してください。
 
 ## 大文字と小文字の区別
 

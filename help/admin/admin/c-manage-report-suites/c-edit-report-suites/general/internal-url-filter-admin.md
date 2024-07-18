@@ -5,7 +5,7 @@ feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -30,4 +30,3 @@ ht-degree: 100%
 * フィルターを追加するには、 **[!UICONTROL フィルターを追加]** 「 」セクションで、「 **[!UICONTROL 追加]**.
 
 フィルターは次を使用して動作します **次を含む** 論理を完全な URL に対して使用します。 Adobeでは、プロトコル (`https://`) およびサブドメイン（別のサブドメインからのトラフィックが外部トラフィックとして必要でない場合）にのみ使用できます。
-

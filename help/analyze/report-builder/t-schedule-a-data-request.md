@@ -1,6 +1,6 @@
 ---
-description: レポートのスケジュール方法を説明します。
-title: データリクエストのスケジュール方法
+description: レポートをスケジュールする方法を説明します。
+title: データリクエストのスケジュール設定方法
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
@@ -38,9 +38,9 @@ ht-degree: 96%
 1. Report Builder ツールバーで、「**[!UICONTROL スケジュール]**」をクリックします。
 
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
-1. 次の日： **[!UICONTROL 予定レポート]** タブ、クリック **[!UICONTROL 新規]**. 基本のスケジュールウィザードには、予定レポートの定義に使用するオプションが表示されます。
+1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規]**」をクリックします。 基本スケジュール・ウィザードには、スケジュール・レポートの定義に使用するオプションが表示されます。
 
-   ![基本的なスケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
+   ![ 基本スケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
 
 1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 

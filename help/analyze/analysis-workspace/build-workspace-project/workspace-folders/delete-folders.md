@@ -7,7 +7,7 @@ exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 **ガイドライン**
 
 * フォルダーを削除しても、フォルダーの内容は削除されません。削除されたフォルダーの内容（プロジェクトまたはサブフォルダー）は、フォルダー階層のすぐ上のフォルダーに移動されます。
-* 管理者は、別の管理者が作成した会社フォルダー内のフォルダーを削除できます。管理者は、場合によっては、フォルダーやプロジェクトへのアクセスの一貫性を保つために、他の管理者と連携する必要があります。詳しくは、 [Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* 管理者は、別の管理者が作成した会社フォルダー内のフォルダーを削除できます。管理者は、フォルダーやプロジェクトのアクセスの一貫性を維持するために、他の管理者と連携する必要がある場合があります。詳しくは、[Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)を参照してください。
 
 フォルダーを削除するには
 

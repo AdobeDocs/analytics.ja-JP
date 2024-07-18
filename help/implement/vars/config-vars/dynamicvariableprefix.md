@@ -17,13 +17,13 @@ ht-degree: 70%
 
 デフォルトでは、動的変数は `D=` プレフィックスを使用します。`dynamicVariablePrefix` 変数を使用すると、動的変数を識別する文字列をカスタマイズできます。大文字と小文字が区別されます。
 
-## Web SDK を使用した動的変数のプレフィックス
+## Web SDK を使用した動的変数プレフィックス
 
-Web SDK では、動的な変数形式設定を使用しません。 代わりに、データストリームマッピングを使用して、単一のソースフィールドを使用して複数のターゲットフィールドにデータを入力できます。 詳しくは、 [Web SDK を使用した動的変数](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) を参照してください。
+Web SDK では、動的変数形式を使用しません。 代わりに、データストリームマッピングを使用して、1 つのSource フィールドを使用して複数のターゲットフィールドに値を入力できます。 詳しくは、[Web SDK を使用した動的変数 ](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) を参照してください。
 
-スキーマに準拠せずにAdobe Analyticsに直接データを送信した場合、次の変数が使用されます。
+スキーマに準拠せずにAdobe Analyticsに直接データを送信する場合は、次の変数を使用します。
 
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [ データ オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Adobe Analytics拡張機能を使用した動的変数プレフィックス
 
@@ -36,7 +36,7 @@ Web SDK では、動的な変数形式設定を使用しません。 代わり�
 
 このフィールドにはデフォルトで `D=` 値が含まれています。別の動的変数のプレフィックスを使用する場合は、値を変更できます。サイト上の文字エンコーディングと一致する限り、任意の値を使用できます。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.dynamicVariablePrefix
+## AppMeasurementの s.dynamicVariablePrefix と Analytics 拡張機能のカスタムコードエディター
 
 `s.dynamicVariablePrefix` 変数は、任意の文字シーケンスを含む文字列です。この変数を定義しない場合、AppMeasurement はデフォルトで文字列 `D=` を使用します。
 

@@ -1,6 +1,6 @@
 ---
-description: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行するために必要な準備について説明します。
-title: コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備
+description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネントやプロジェクトを移行するための準備に必要な準備について説明します。
+title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
@@ -10,62 +10,62 @@ ht-degree: 9%
 
 ---
 
-# コンポーネントとプロジェクトをAdobe AnalyticsからCustomer Journey Analyticsに移行する準備
+# Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備
 
-組織の誰かがプロジェクトの移行を開始する前に、 [Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/admin/component-migration/component-migration.md)で、以下の節を完了します。
+[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行 ](/help/admin/admin/component-migration/component-migration.md) に記載されている手順に従って、組織内の任意のユーザーがプロジェクトの移行を開始する前に、次の節を完了してください。
 
 ## 前提条件
 
-プロジェクトと関連コンポーネントを移行する準備が整う前に、まず [Adobe Analyticsからの変化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ja) ( Adobe Customer Journey Analytics Guide の ) を参照してください。 次の手順が含まれます。
+プロジェクトと関連コンポーネントを移行する準備を整える前に、まずAdobe Customer Journey Analytics ガイドの [Adobe Analyticsからの進化 ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=ja) の手順に従う必要があります。 手順は次のとおりです。
 
-1. 次のいずれかの方法を使用して、Adobe Experience Platformにデータを取り込み、Adobe AnalyticsレポートスイートデータをCustomer Journey Analyticsで表示します。
+1. Adobe Analytics レポートスイートデータをCustomer Journey Analyticsで表示するには、次のいずれかの方法を使用して、データをAdobe Experience Platformに取り込みます。
 
    >[!NOTE]
    >
-   >  WebSDK を使用してデータを取り込む場合、すべてのスキーマフィールドを手動でマッピングする必要があります。 ( マッピングプロセスについて詳しくは、 [Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/admin/component-migration/component-migration.md))
+   >  WebSDK を使用してデータを取り込む場合は、すべてのスキーマフィールドを手動でマッピングする必要があります。 （マッピングプロセスについて詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行 ](/help/admin/admin/component-migration/component-migration.md) を参照してください。
 
 
-   * Adobe Analyticsソースコネクタを使用するには、次の操作が必要です。
+   * Adobe Analytics ソースコネクタを使用するには、次の操作が必要です。
 
-      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [データの取り込みと使用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
+      1. [ データの取り込みと使用 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
 
    * WebSDK を使用するには、次の操作が必要です。
 
-      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むためのレポートスイートの設定](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 ](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Adobe Experience Platform Web SDK を使用したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Adobe Experience Platform Web SDK を使用したデータの取得 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. の作成 [接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) および [データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) 取り込まれたデータを使用します。
+1. 取り込んだデータを使用して [ 接続 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) および [ データビュー ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) を作成します。
 
-1. データがマッピングされるデータビューにCustomer Journey Analytics内のユーザーがプロビジョニングされていることを確認します。
+1. Customer Journey Analyticsのユーザーが、データがマッピングされているデータビューにプロビジョニングされていることを確認します。
 
-   詳しくは、 [Customer Journey AnalyticsのAdmin Console権限](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Customer Journey Analyticsアクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   詳しくは、[Customer Journey Analyticsアクセス制御の [Admin ConsoleのCustomer Journey Analytics権限 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) を参照してくだ ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html) い。
 
-   「権限」タブは、Admin Consoleの各製品プロファイルに含まれています。 特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
+   「権限」タブは、Admin Consoleの各製品プロファイルの一部です。 特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
 
 1. コンポーネントのマッピング方法を組織として決定します。
 
-   詳しくは、以下の節を参照してください。 [組織として、コンポーネントのマッピング方法を決定します。](#decide-as-an-organization-how-you-will-map-components).
+   詳しくは、以下の節 [ コンポーネントのマッピング方法を組織として決定 ](#decide-as-an-organization-how-you-will-map-components) を参照してください。
 
-## 移行に含まれる機能の理解
+## 移行に含まれる内容を理解する
 
-移行に含まれるプロジェクトとコンポーネントの要素の概要を次の表に示します。
+次の表は、移行に含めるプロジェクトとコンポーネントの要素の概要を示しています。
 
 ### 移行されるコンポーネント要素
 
-Dimensionと指標は、 [Adobe AnalyticsプロジェクトのCustomer Journey Analyticsへの移行](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimensionと指標は、[Adobe Analytics プロジェクトのCustomer Journey Analyticsへの移行 ](#migrate-adobe-analytics-projects-to-customer-journey-analytics) に示されているマッピングプロセスの一環として移行されます。
 
-Customer Journey Analyticsにまだ存在しないセグメント、日付範囲、計算指標は、マッピングされているディメンションと指標に基づいて、そこで再作成されます。
+Customer Journey Analyticsにまだ存在しないセグメント、日付範囲、計算指標は、マッピングされたディメンションと指標に基づいてそこに再作成されます。
 
 |  | 移行済み |
 |---------|---------|
-| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲： ![チェックマーク](assets/Smock_Checkmark_18_N.svg)</p> |
-| **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
-| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲： ![チェックマーク](assets/Smock_Checkmark_18_N.svg)</p> |
-| **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
-| **[アトリビューション（ディメンションに対する）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensionと指標：なし<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：なし<p>セグメントと日付範囲：なし</p> |
+| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensionと指標：なし<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensionと指標：なし<p>セグメントと日付範囲：なし</p> |
+| **[アトリビューション（ディメンション上）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensionと指標：なし<p>セグメントと日付範囲：なし</p> |
 
 {style="table-layout:auto"}
 
@@ -73,33 +73,33 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 |  | 移行済み |
 |---------|----------|
-| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[ディメンション](/help/components/dimensions/overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
-| **[指標](/help/components/metrics/overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
-| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
-| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) 移行を実行するユーザーによって定義 |
+| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ディメンション](/help/components/dimensions/overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
+| **[指標](/help/components/metrics/overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) 自動または手動でマッピング |
+| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) 移行を行うユーザーによって定義されます |
 | **[キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)** | × |
 | **[共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | × |
 | **[注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)** | × |
 | **[フォルダー構造](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | × |
-| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 | **[タグ](/help/analyze/landing.md)** | × |
 | **[お気に入り](/help/analyze/landing.md)** | × |
 | **[スケジュール](/help/components/scheduled-projects-manager.md)** | × |
-| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![チェックマーク](assets/Smock_Checkmark_18_N.svg) |
+| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
-## エラーの原因となる、サポートされていない要素を理解する
+## エラーを引き起こすサポートされていない要素について
 
-次のビジュアライゼーションおよびパネルは、Customer Journey Analyticsではサポートされていません。 これらの要素が移行前にプロジェクトに含まれている場合、移行が失敗するか、プロジェクトの移行後にエラーが発生する可能性があります。
+次のビジュアライゼーションとパネルは、Customer Journey Analyticsではサポートされていません。 移行前のプロジェクトにこれらの要素が含まれていると、移行が失敗したり、プロジェクトの移行後にエラーが発生する可能性があります。
 
-プロジェクトをCustomer Journey Analyticsに移行する前に、これらの要素をAdobe Analyticsプロジェクトから削除します。 移行が失敗した場合は、移行を再試行する前にこれらの要素を削除します。
+プロジェクトをCustomer Journey Analyticsに移行する前に、これらの要素をAdobe Analytics プロジェクトから削除します。 移行が失敗した場合は、移行を再試行する前にこれらの要素を削除します。
 
-### サポートされないビジュアライゼーション
+### サポートされていないビジュアライゼーション
 
 * [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
 
@@ -117,17 +117,17 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 * [貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
 
-## 組織として、コンポーネントのマッピング方法を決定します。
+## コンポーネントのマッピング方法を組織として決定する
 
 >[!IMPORTANT]
 >
->Customer Journey Analyticsプロセスでは、Adobe Analyticsプロジェクト内のコンポーネントが識別されます。このコンポーネントは移行時に自動的にコンポーネントにマッピングされず、手動でマッピングできます。
+>この移行プロセスでは、Customer Journey Analytics内のコンポーネントに自動的にマッピングできないAdobe Analytics プロジェクトのコンポーネントを特定し、手動でマッピングできるようにします。
 >
->**1 つのプロジェクトでおこなわれたマッピングは、移行を実行しているユーザーに関係なく、IMS 組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、カスタマーケアに問い合わせる以外は、変更または取り消しできません。**
+>**1 つのプロジェクトで行われたマッピングは、移行を実行するユーザーに関係なく、IMS 組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、カスタマーケアに連絡しない限り、変更したり取り消したりすることはできません。**
 >
->このため、プロジェクトを移行する前に、組織がディメンションと指標のマッピング方法を決定することが重要です。 これにより、1 つのプロジェクトのみを考慮する場合に、個々の管理者がサイロで意思決定を行うのを防ぐことができます。
+>このため、プロジェクトを移行する前に、組織でディメンションと指標のマッピング方法を決定することが重要です。 これにより、個々の管理者が 1 つのプロジェクトのみを検討する際に、サイロ内で決定を下すことを回避できます。
 >
->次に、プロジェクトに存在する場合に手動でマッピングする必要があるディメンションと指標のリストを示します。 移行する前に、このリストを確認することをお勧めします。 プロジェクト内にこれらのコンポーネントが存在する場合は、どのCustomer Journey Analyticsコンポーネントにマッピングするかを今すぐ決定します。
+>以下は、プロジェクトに存在する場合に手動でマッピングする必要があるディメンションと指標のリストです。 移行前に、このリストを確認することをお勧めします。 これらのコンポーネントがプロジェクトに存在する場合は、マッピング先のCustomer Journey Analyticsコンポーネントを決定します。
 
 
 ### 手動でマッピングする必要があるDimension
@@ -170,27 +170,27 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 * timespentvisitor
 * リロード
 * bounces
-* 跳ね返る
+* バウンス
 * pageevents
 * pageviewspervisit
 * orderspervisit
-* averagedepth
+* averagepagedepth
 * averagetimespentonsite
 * exitlinkinstances
 * customlinkinstances
 * downloadlinkinstances
-* darkvisitors
+* 暗い訪問者
 * singlepagevisits
 * singlevaluevisits
 * visitorhomepage
 * visitorsmcvisid
 * pagesnotfound
-* 新規エンゲージメント
+* newengagements
 * time_granularity
 * concurrent_viewers_visitors
 * concurrent_viewers_occurrences
 * デバイス
-* 推定担当者
+* estimatedpeople
 * playback_time_spent_seconds
 * playback_time_spent_minutes
 * average_minute_audience_time_based

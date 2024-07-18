@@ -7,7 +7,7 @@ exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Analytics を使用して、FTP ベースのデータソースを作成および
 
 [!UICONTROL データソースの管理]ウィンドウでは、データソースを検索し、FTP 情報のリンクを選択できます。[!UICONTROL データソースをアクティブにする]ウィンドウの「[!UICONTROL アップロード／FTP 情報]」セクションに、FTP ログイン情報が表示されます。
 
-FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
+FTP の制限とデータ保持については、「[FTP の制限とデータ保持 ](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
 
 ## 分類およびデータソースのアップロードに必要な .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
 

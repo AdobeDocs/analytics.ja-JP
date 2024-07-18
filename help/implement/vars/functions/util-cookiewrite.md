@@ -15,11 +15,11 @@ ht-degree: 70%
 
 Cookie は、同じドメインの複数のページにわたって情報を保存および取得できます。`Util.cookieWrite()` メソッドを使用して、Cookie に値を設定します。[`Util.cookieRead()`](util-cookieread.md) メソッドを使用すると、`Util.cookieWrite()` を使用して値セットを取得できます。
 
-## Adobe Analytics拡張機能と Web SDK 拡張機能を使用した cookie の設定
+## Adobe Analytics拡張機能と Web SDK 拡張機能を使用して cookie を設定します
 
-Adobe Experience Platformのデータ収集機能には、インターフェイスで cookie を設定する機能は用意されていません。
+Adobe Experience Platform Data Collection には、インターフェイスで cookie を設定する機能はありません。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.Util.cookieWrite()
+## AppMeasurementの s.Util.cookieWrite （）と Analytics 拡張機能のカスタムコードエディター
 
 `s.Util.cookieWrite()` メソッドを呼び出して、Cookie に目的の値を設定します。
 

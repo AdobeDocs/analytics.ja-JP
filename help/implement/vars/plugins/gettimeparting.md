@@ -25,26 +25,26 @@ Analysis Workspace は、このプラグインとは少し異なる形式の、�
 
 ## Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobeには、Web SDK で最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
-1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
-1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定を使用して、目的のデータ要素名を設定します。
+1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
+1. 左側の **[!UICONTROL 拡張機能]** をクリックしてから、「**[!UICONTROL カタログ]**」タブをクリックします
+1. **[!UICONTROL Common Web SDK Plugins]** 拡張機能を見つけてインストールします。
+1. 左側の **[!UICONTROL データ要素]** をクリックしてから、目的のデータ要素をクリックします。
+1. 次の設定で、目的のデータ要素名を設定します。
    * 拡張機能：Common Web SDK Plugins
-   * データ要素： `getTimeParting`
-1. を設定します。 `Time Zone` パラメーターを右側に配置します。
-1. 変更を保存し、データ要素に公開します。
+   * データ要素：`getTimeParting`
+1. `Time Zone` パラメーターを右側に設定します。
+1. 変更を保存してデータ要素に公開します。
 
-## Web SDK の手動実装プラグインのインストール
+## Web SDK を手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用は、まだサポートされていません。
+このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
 
-## Adobe Analytics拡張機能を使用したプラグインのインストール
+## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -145,7 +145,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018 年 11 月 26 日（PT））
 
-* Internet Explorer ブラウザーでの問題を修正しました。訪問者のローカル時間内でのみ時間を返すことができます。
+* Internet Explorer ブラウザーでの問題を修正しました。時間を返すことができますが、訪問者の現地時間に限られます。
 
 ### 6.0（2018 年 8 月 14 日（PT））
 

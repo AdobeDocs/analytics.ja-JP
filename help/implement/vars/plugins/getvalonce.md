@@ -19,26 +19,26 @@ ht-degree: 74%
 
 ## Web SDK 拡張機能を使用したプラグインのインストール
 
-Adobeには、Web SDK で最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. クリック **[!UICONTROL タグ]** 左側で、目的のタグプロパティをクリックします。
-1. クリック **[!UICONTROL 拡張機能]** 左側で、 **[!UICONTROL カタログ]** タブ
-1. を探してインストールします。 **[!UICONTROL 共通の Web SDK プラグイン]** 拡張子。
-1. クリック **[!UICONTROL データ要素]** 左側で、目的のデータ要素をクリックします。
-1. 次の設定を使用して、目的のデータ要素名を設定します。
+1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
+1. 左側の **[!UICONTROL 拡張機能]** をクリックしてから、「**[!UICONTROL カタログ]**」タブをクリックします
+1. **[!UICONTROL Common Web SDK Plugins]** 拡張機能を見つけてインストールします。
+1. 左側の **[!UICONTROL データ要素]** をクリックしてから、目的のデータ要素をクリックします。
+1. 次の設定で、目的のデータ要素名を設定します。
    * 拡張機能：Common Web SDK Plugins
-   * データ要素： `getValOnce`
-1. 右側に目的のパラメーターを設定します。
-1. 変更を保存し、データ要素に公開します。
+   * データ要素：`getValOnce`
+1. 必要なパラメーターを右側に設定します。
+1. 変更を保存してデータ要素に公開します。
 
-## Web SDK の手動実装プラグインのインストール
+## Web SDK を手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用は、まだサポートされていません。
+このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
 
-## Adobe Analytics拡張機能を使用したプラグインのインストール
+## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeには、Adobe Analyticsで最もよく使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -100,9 +100,9 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ## バージョン履歴
 
-### 3.1（2022 年 9 月 23 日）
+### 3.1 （2022 年 9 月 22 日）
 
-* 有効期限のバグを修正しました。
+* 有効期限のバグを修正しました
 
 ### 3.0 （2021 年 3 月 19 日（PT））
 

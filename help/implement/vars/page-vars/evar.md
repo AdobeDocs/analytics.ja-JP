@@ -25,10 +25,10 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 ## Web SDK を使用した eVar
 
-eVar は次の変数にマッピングされます。
+eVar は、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` から `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` から `data.__adobe.analytics.eVar250`；または `data.__adobe.analytics.v1` から `data.__adobe.analytics.v250`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ～ `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md):`data.__adobe.analytics.eVar1` から `data.__adobe.analytics.eVar250`、または `data.__adobe.analytics.v1` から `data.__adobe.analytics.v250`
 
 ## Adobe Analytics 拡張機能を使用した eVar
 
@@ -38,7 +38,7 @@ eVar は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL eVars] セクションを見つけます。
 
 eVar を値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。

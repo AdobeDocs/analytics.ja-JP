@@ -7,14 +7,14 @@ role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '237'
 ht-degree: 91%
 
 ---
 
 # 指標およびディメンションの概要
 
-リクエストウィザード：ステップ 2 で指標とディメンションを追加し、リクエスト内でデータの Analytics レイアウトを定義します。 Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
+リクエストウィザードで指標とディメンションを追加する：手順 2 リクエスト内のデータの Analytics レイアウトを定義します。 Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 
 指標は数値で表されます。指標は、[!UICONTROL ページビュー数]、[!UICONTROL 訪問者プロファイル]、[!UICONTROL クリックスルー数]、[!UICONTROL リロード回数]、[!UICONTROL 平均滞在時間]、[!UICONTROL 日付]、[!UICONTROL 数量]など、Web サイト上のアクティビティに関する定量情報から構成されます。Analytics の次の標準的なグループに従い、Report Builder は指標を複数のグループに分類しています。
 

@@ -1,22 +1,23 @@
 ---
-title: ボイス分析ディメンション
-description: ボイス分析ディメンション
+title: 音声分析ディメンション
+description: 音声分析ディメンション
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 32%
 
 ---
 
-# ボイス分析ディメンション
+# 音声分析ディメンション
 
-| Dimension名 | 説明 | コンテキストデータ変数 |
+| ディメンション名 | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |
-| ボイスエラータイプ | | 未定 |
-| ボイス言語 | | 未定 |
-| ボイスインテント | | 未定 |
-| ボイスアプリの応答 | | 未定 |
+| 音声エラータイプ | | 未定 |
+| 音声言語 | | 未定 |
+| 音声インテント | | 未定 |
+| 音声アプリの応答 | | 未定 |
 | 音声認証 | | 未定 |
 | 目標点 ID | | 未定 |
 

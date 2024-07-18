@@ -1,5 +1,5 @@
 ---
-description: 「Report Builder」の相対日付のフィールドの定義です。
+description: Report Builderでの相対日付のフィールド定義。
 title: リクエストウィザードの定義 - 相対日付
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # リクエストウィザードの定義 - 相対日付
 
-「Report Builder」の相対日付のフィールドの定義です。
+Report Builderでの相対日付のフィールド定義。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -26,7 +26,7 @@ ht-degree: 73%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>式のカスタマイズ </p> </td> 
-   <td colname="col2"> <p>詳しくは、 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 日付式のカスタマイズ</a>. </p> </td> 
+   <td colname="col2"> <p>カスタマイズされた日付式 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 参照してください </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 基準日 </p> </td> 

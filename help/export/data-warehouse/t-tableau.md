@@ -10,8 +10,8 @@ ht-degree: 42%
 
 ---
 
-# Tableau 用のData Warehouseレポートの設定
+# Tableau のData Warehouseレポートの設定
 
-Data Warehouseは、Tableau Data Extract(TDE) ファイル形式でレポートを配信できます。この形式は、Tableau 内の追加データのデータやレイヤーを視覚化するのに使用できます。
+Data Warehouseでは、Tableau Data Extract （TDE）ファイル形式でレポートを配信できます。このファイル形式を使用して、Tableau 内でデータやレイヤーを視覚化できます。
 
-TDE 形式で配信されるData Warehouseレポートの設定方法について詳しくは、 [レポートリクエストのレポートオプションのData Warehouseを設定する](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+TDE 形式で配信されるようにData Warehouseレポートを設定する方法について詳しくは、[Data Warehouseリクエストのレポートオプションの設定 ](/help/export/data-warehouse/create-request/dw-request-report-options.md) を参照してください。

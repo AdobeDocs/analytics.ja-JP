@@ -22,9 +22,9 @@ ht-degree: 86%
 >
 > この変数ではサブドメインは考慮しません。例えば、サンプル URL `store.toys.example.com` では `fpCookieDomainPeriods` を設定しないでください。AppMeasurement は、多くのサブドメインを持つ URL 上でも、Cookie の保存先が `example.com` であることをデフォルトで認識します。
 
-## Web SDK を使用するファーストパーティドメインピリオド
+## Web SDK を使用したファーストパーティドメインピリオド
 
-Web SDK は、この変数を使用せずに、正しい Cookie ストレージドメインを判断できます。
+Web SDK は、この変数を使用せずに正しい cookie ストレージドメインを決定できます。
 
 ## Adobe Analytics拡張機能を使用したファーストパーティドメインピリオド
 
@@ -37,7 +37,7 @@ Web SDK は、この変数を使用せずに、正しい Cookie ストレージ�
 
 サフィックスにピリオドを含むドメインでのみ、このフィールドを `3` に設定します。それ以外の場合は、このフィールドを空白のままにすることができます。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.fpCookieDomainPeriods
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.fpCookieDomainPeriods
 
 `fpCookieDomainPeriods` 変数は、通常、サフィックスにピリオドを含むドメインでのみで `"3"` に設定される文字列です。デフォルト値は `"2"` で、ほとんどのドメインに対応します。
 

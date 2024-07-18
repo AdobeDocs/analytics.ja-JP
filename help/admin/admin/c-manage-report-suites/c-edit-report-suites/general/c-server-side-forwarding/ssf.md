@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 >Analytics を使用している現在の Audience Manager のお客様は、サーバーサイド転送に移行する必要があります。Adobe Analytics と Audience Manager の新しいお客様は、デフォルトのデータ収集および転送方法として（DIL ではなく）サーバーサイド転送を実装する必要があります。
 
 >[!IMPORTANT]
->EU Cookie コンプライアンス規則により、データ管理者（Analytics のお客様）には、同意前のデータをAdobe Analyticsに制限し、Adobe Audience Managerにサーバー側転送しないようにするオプションが追加されました。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。変数は、設定されている場合、同意を受け取るまで、これらのヒットがAdobe Audience Managerに送信されないようにします。 詳しくは、[GDPR_ePrivacy コンプライアンスおよびサーバーサイド転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)を参照してください。
+>EU Cookie コンプライアンス規定により、データ管理者（Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、Adobe Audience Manager にサーバーサイド転送しないようにするオプションが追加されました。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは Adobe Audience Manager に送信されません。詳しくは、[GDPR_ePrivacy コンプライアンスおよびサーバーサイド転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)を参照してください。
 
 サーバーサイド転送の実装状況を確認するには、以下の検証ステップを実行してください。
 
@@ -50,12 +50,12 @@ ht-degree: 89%
 * **&quot;status&quot;:&quot;SUCCESS&quot;**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
 * **2 x 2 の画像**：サーバーサイド転送および Audience Management モジュールは実装されていません。修正手順を以下に示します。
 
-   * **Adobe Audience ManagerDILのお客様**：以下の 2 つの項目を密接に連携させます。
+   * **DIL を使用している Adobe Audience Manage のお客様**：以下の 2 つの項目を緊密に連携および調整します。
 
       1. DIL コードを削除し、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバーサイド転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
 
-   * **新しいAdobe Audience Managerのお客様**  — をインストールします。 [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja) ページコードを参照して、手順 3 に進みます。 手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
+   * **Adobe Audience Manager の新しいお客様** - [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
 
 ## ![step3_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) レポートスイートのサーバーサイド転送の実装の確認
 

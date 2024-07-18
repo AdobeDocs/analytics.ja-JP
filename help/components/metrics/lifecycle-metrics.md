@@ -4,7 +4,7 @@ description: Mobile SDK を使用して収集されたデータに基づく指�
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 100%
 

@@ -30,8 +30,8 @@ ht-degree: 94%
    ![データ要素の作成](assets/createelement.png)
 
 1. データ要素の名前を入力します。追跡するデータレイヤーの JavaScript 変数に対応する単純なラベルを指定できます。
-1. の下 **[!UICONTROL 拡張]** ドロップダウンリストで、「 **[!UICONTROL コア]**.
-1. の下 **[!UICONTROL データ要素タイプ]** ドロップダウンリストで、「 **[!UICONTROL JavaScript 変数]**. 右側にテキストフィールドが表示され、このデータ要素にマッピングする JavaScript 変数を入力できます。
+1. 「**[!UICONTROL 拡張機能]**」ドロップダウンリストから「**[!UICONTROL コア]**」を選択します。
+1. 「**[!UICONTROL データ要素タイプ]**」ドロップダウンリストで、「**[!UICONTROL JavaScript変数]**」を選択します。 右側にテキストフィールドが表示され、このデータ要素にマッピングする JavaScript 変数を入力できます。
 1. （通常はデータレイヤー内で）目的の JavaScript 変数を入力します。例えば、組織のデータレイヤーがアドビの推奨プラクティスと密接に一致する場合、値は `digitalData.page.pageInfo.pageName` になります。ブラウザーのコンソールを使用して、JavaScript 変数の構文と値を検証できます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # キャンペーン
 
-「キャンペーン」 [ディメンション](overview.md) は次を参照してください。
+「キャンペーン」 [ ディメンション ](overview.md) は、次を参照できます。
 
 * 一部のレポートスイートで自動的に作成された[分類](../classifications/c-classifications.md)。これは、[トラッキングコード](tracking-code.md)ディメンションに基づいています。
 * [トラッキングコード](tracking-code.md)ディメンション自体。[キャンペーン](/help/implement/vars/page-vars/campaign.md)実装変数を使用します。

@@ -12,20 +12,20 @@ ht-degree: 26%
 
 # セグメントの積み重ねと置き換え
 
-計算指標ビルダー内で、セグメントの積み重ねと置き換えができます。
+計算指標ビルダー内でセグメントの積み重ねと置き換えを行えます。
 
 ## セグメントの積み重ね {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. 指標の作成を開始します ( [指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 指標の作成を開始します。詳しくは、[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を参照してください。
 
-1. 「定義」キャンバスで、既存のセグメントの横に新しいセグメントをドロップします。
+1. 定義キャンバスで、既存のセグメントの横に新しいセグメントをドロップします。
 
 ![](assets/cm_stack_seg.png)
 
-## あるセグメントを別のセグメントと置き換える {#section_3DA899DF522A44D7A583C5DC8C0A033E}
+## あるセグメントを別のセグメントで置換 {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. 指標の作成を開始します ( [指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 指標の作成を開始します。詳しくは、[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を参照してください。
 
-1. 「定義」キャンバスで、新しいセグメントを既存のセグメントの上にドロップします。
+1. 定義キャンバスで、既存のセグメントの上に新しいセグメントをドロップします。
 
 ![](assets/cm_replace_seg.png)

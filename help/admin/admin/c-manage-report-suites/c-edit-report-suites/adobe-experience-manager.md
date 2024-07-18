@@ -2,13 +2,13 @@
 description: Adobe Analytics で Adobe Experience Manager データを表示できます
 title: Adobe Analytics での Adobe Experience Manager データの表示
 feature: Admin Tools
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: ht
-source-wordcount: '119'
+exl-id: 047933a6-b4eb-4fcc-9310-383d15f04ccb
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+workflow-type: tm+mt
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics での Adobe Experience Manager データの表示
 

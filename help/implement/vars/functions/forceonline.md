@@ -23,13 +23,13 @@ AppMeasurement は、デバイスのオンライン状態を自動的に検出�
 
 ## Web SDK を使用してオンラインを強制
 
-Web SDK は、オフライン追跡をサポートしていません。
+Web SDK はオフライントラッキングをサポートしていません。
 
 ## Adobe Analytics拡張機能を使用してオンラインを強制
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.forceOnline()
+## AppMeasurementの s.forceOnline （）と Analytics 拡張機能のカスタムコードエディター
 
 Analytics オブジェクトをインスタンス化した後、実装の任意の場所で `s.forceOnline()` メソッドを呼び出すことができます。
 

@@ -5,7 +5,7 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 100%
 

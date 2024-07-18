@@ -15,11 +15,11 @@ ht-degree: 93%
 
 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての[!UICONTROL 有料検索]キャンペーンを&#x200B;*ポップミュージック用語*&#x200B;などのカテゴリに分類し、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関するそのカテゴリの成功を報告できます。1 つの変数に追加できる分類は 255 個までです。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL コンバージョンの分類]**
+**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定編集]**/**[!UICONTROL コンバージョン]**/**[!UICONTROL コンバージョン分類]**
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
 
-分類を有効にした後、 [分類インポーター](/help/components/classifications/importer/c-working-with-saint.md) をクリックして、該当する分類に特定の値を割り当てます。
+分類を有効にした後、[ 分類インポーター ](/help/components/classifications/importer/c-working-with-saint.md) を使用して、特定の値を適切な分類に割り当てます。
 
 >[!WARNING]
 >

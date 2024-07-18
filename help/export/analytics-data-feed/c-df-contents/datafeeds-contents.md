@@ -28,7 +28,7 @@ ht-degree: 69%
 
 1. `.tar.gz` ファイル拡張子をサポートするプログラムを使用して、圧縮ファイルを解凍します。
 
-1. を開きます `hit_data.tsv` その日の生データを表示するには、スプレッドシートまたはデータベースアプリケーションで選択したファイルを使用します。—>
+1. `hit_data.tsv` ファイルを任意のスプレッドシートまたはデータベースアプリケーションで開いて、その日の生データを表示します。—>
 
 ## マニフェストファイル {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 すべてのマニフェストファイルに、参照ファイルの合計数、データファイルの合計数、全データファイル内のレコードの合計数を示すヘッダーが含まれています。このヘッダーの後に、データフィード配信に含まれる各ファイルの情報が記述された複数のセクションが続きます。
 
-`.fin` ファイルのマニフェストの代わりに `.txt` ファイルを受信するようにフィードが設定されている場合もあります。この `.fin` は、アップロードが完了したが、その中に含まれるメタデータが古い形式であることを示します。
+`.fin` ファイルのマニフェストの代わりに `.txt` ファイルを受信するようにフィードが設定されている場合もあります。`.fin` は、アップロードが完了したが、アップロードに含まれるメタデータが古い形式であることを示しています。
 
 ## 参照ファイル
 
@@ -81,20 +81,20 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**：の列ヘッダーを含む 1 行 `hit_data.tsv`.
-* **`browser.tsv`**：ブラウザー ID （ `browser` フィード列）を使用して、ブラウザーのわかりやすい名前を指定します。
-* **`browser_type.tsv`**：ブラウザー ID （ `browser` フィード列）を使用して、ブラウザーのタイプを定義します。
-* **`color_depth.tsv`**：色深度 ID （ `color` フィード列）を色深度に設定します。
-* **`connection_type.tsv`**：接続タイプ ID （ `connection_type` フィード列）を使用して、接続タイプを指定します。
-* **`country.tsv`**：国 ID （ `country` フィード列）を国名に変換します。
-* **`javascript_version.tsv`**:JavaScript バージョン ID （ `javascript` フィード列）を使用して、JavaScript バージョンに変換します。
-* **`languages.tsv`**：言語 ID （ `language` フィード列）を言語に変換します。
-* **`operating_systems.tsv`**：オペレーティングシステム ID （ `os` フィード列）を使用して、オペレーティングシステム名を指定します。
-* **`plugins.tsv`**：プラグイン ID （ `plugin` フィード列）を使用して、それぞれのプラグイン名を指定します。
-* **`resolution.tsv`**：解決 ID （ `resolution` フィード列）を使用して、モニターの解像度を変更できます。
-* **`referrer_type.tsv`**：リファラータイプ ID （ `ref_type` フィード列）をリファラータイプに割り当てます。
-* **`search_engines.tsv`**：検索エンジン ID （ `search_engine` フィード列）を検索エンジン名に追加します。
-* **`event.tsv`**：各イベント ID （ `event_list` フィード列）をイベント名に変換します。
+* **`column_headers.tsv`**: `hit_data.tsv` の列ヘッダーを含む 1 行。
+* **`browser.tsv`**：ブラウザー ID （`browser` フィード列）をブラウザーのわかりやすい名前にマッピングします。
+* **`browser_type.tsv`**：ブラウザー ID （`browser` フィード列）をブラウザータイプにマッピングします。
+* **`color_depth.tsv`**：色深度 ID （`color` フィード列）を色深度にマッピングします。
+* **`connection_type.tsv`**：接続タイプ ID （`connection_type` フィード列）を接続タイプにマッピングします。
+* **`country.tsv`**：国 ID （`country` フィード列）を国名にマッピングします。
+* **`javascript_version.tsv`**:JavaScriptのバージョン ID （`javascript` フィード列）をJavaScriptのバージョンにマッピングします。
+* **`languages.tsv`**：言語 ID （`language` フィード列）を言語にマッピングします。
+* **`operating_systems.tsv`**: オペレーティングシステム ID （`os` フィード列）をオペレーティングシステム名にマッピングします。
+* **`plugins.tsv`**：プラグイン ID （`plugin` フィード列）をそれぞれのプラグイン名にマップします。
+* **`resolution.tsv`**：解像度 ID （`resolution` フィード列）をモニターの解像度にマップします。
+* **`referrer_type.tsv`**: リファラータイプ ID （`ref_type` フィード列）をリファラータイプにマッピングします。
+* **`search_engines.tsv`**：検索エンジン ID （`search_engine` フィード列）を検索エンジン名にマッピングします。
+* **`event.tsv`**：各イベント ID （`event_list` フィード列）をそれぞれのイベント名にマッピングします。
 
 ## ヒットデータファイル
 
@@ -107,7 +107,7 @@ Datafeed-Manifest-Version: 1.0
 * `[YYYY-mm-dd]` は、データフィードの開始日を示します。
 * `[HHMMSS]` は時間別フィードでのみ使用され、データフィードの開始時間を示します。
 * `[compression_suffix]` は、使用される圧縮のタイプを指します。通常、データフィードは `tar.gz` または `zip` ファイルに圧縮されます。
-* `[format_suffix]` は、ファイル形式のタイプを参照します。 通常、データフィードファイルの形式はです `.tsv`.
+* `[format_suffix]` はファイル形式のタイプを指します。 通常、データフィードファイル形式は `.tsv` です。
 
 ### 日別、単一ファイル
 
@@ -139,7 +139,7 @@ Datafeed-Manifest-Version: 1.0
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-抽出された場合、各データファイルには、1 つのが含まれます `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` 約 2 GB の非圧縮データと、必要な列のルックアップファイルを含むファイル。
+抽出された場合、各データファイルには、約 2 GB の非圧縮データと、必要な列のルックアップファイルが含まれる 1 つの `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` ファイルが含まれます。
 
 ## データファイルサイズ
 

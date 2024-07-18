@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 [!UICONTROL Analysis Workspace] でのナビゲーションは、上から下、左から右です。次のナビゲーション要素はアクセシビリティを容易にします。
 
-* `Tab` キーは、ランドマークショートカットを有効にします。、Workspace 内の大きいセクション間を移動します。 左側のレールでは、`Tab` を使用して、ドラッグ可能なオプション間を移動することもできます。
+* `Tab` キーを押すと、Workspace 内の大きなセクション間を移動するランドマークショートカットが有効になります。左側のレールでは、`Tab` を使用して、ドラッグ可能なオプション間を移動することもできます。
 * `Tab` で強調表示した後、`left/right arrows` で個々の要素間を移動します。
 * `F6` を押すとプロジェクト内の最初のパネルに移動し、そのパネル内のビジュアライゼーション間を移動します。 その後、プロジェクト内の次のパネルに移動し、同じ動作を繰り返します。
 * フォーカスインジケーターを適用して、目が見えるキーボードユーザーが現在どの UI 要素にフォーカスがあるかを明確に示します。インジケーターは、選択した要素の周りの青い境界線です。
 
-   ![フォーカスインジケーター](assets/focus-indicator.png)
+  ![フォーカスインジケーター](assets/focus-indicator.png)
 
 ### メニューバーのキーボードナビゲーション
 
@@ -55,10 +55,10 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 | ショートカット | アクション |
 | --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | 別のパネルにジャンプする：[!UICONTROL パネル]、[!UICONTROL ビジュアライゼーション]、[!UICONTROL コンポーネント] |
+| `[Alt + Shift + 1 / 2 / 3]` | 別のパネルにジャンプする：[!UICONTROL パネル]、[!UICONTROL ビジュアライゼーション]または[!UICONTROL コンポーネント] |
 | `[Alt + Left / Right]` | パネル間の移動 |
-| `[Alt + M]` | すべてのパネルを折りたたむ／展開 |
-| `[Alt + Ctrl + M]` | アクティブパネルを折りたたみ／展開 |
+| `[Alt + M]` | すべてのパネルを折りたたむ／展開する |
+| `[Alt + Ctrl + M]` | アクティブパネルを折りたたむ／展開する |
 | `[Ctrl + /]` | 左パネルを検索 |
 
 #### 分析作成
@@ -66,7 +66,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 | ショートカット | アクション |
 | --- | --- |
 | `[Alt + 1]` | 新しいフリーフォームテーブル |
-| `[Ctrl + Shift + C]` | 新規計算指標 |
+| `[Ctrl + Shift + C]` | 新しい計算指標 |
 | `[Ctrl + Shift + D]` | 新しい日付範囲 |
 | `[Ctrl + Shift + E]` | 新しいセグメント |
 | `[Ctrl + Z]` | 元に戻す |

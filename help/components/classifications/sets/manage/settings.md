@@ -4,7 +4,7 @@ description: 分類セットを作成または編集します。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 | Q：マルチスイートタギングを使用していて、レポートスイートの 1 つだけが Experience Cloud 組織にマッピングされ、それ以外はマッピングされていない場合はどうなりますか？ | ヒットは、マッピングされたレポートスイートの Experience Cloud 組織の対応するデータ収集サーバーに転送されます。ただし、マッピングされていないレポートスイートの場合、Audience Manager に関連するデータソースがないので、Audience Manager でマップされていないレポートスイートのデータは記録されません。 |
 | Q：複数の Experience Cloud 組織にマッピングされたレポートスイートがある場合はどうなりますか？ | Analytics によってこのレポートスイートはマッピングされていないと見なされるので、このレポートスイートに対してサーバー側転送を有効にできません。この問題を解決するには、カスタマーケアへのお問い合わせ。 |
 | Q：レポートスイートベースのサーバー側転送手法はトラッキングサーバーベースのサーバー側転送より低速ですか？ | いいえ。応答時間は同じです。 |
-| Q:2 つのExperience Cloud組織 ( またはAdobe Audience Managerインスタンス ) があり、両方のExperience Cloud組織間でデータを共有したい場合はどうなりますか？ サーバー側転送を使用して単一の Analytics ヒットを複数の Experience Cloud 組織に送信できますか？ | いいえ。1 つの Experience Cloud 組織で収集されたデータを別の Experience Cloud 組織と共有する必要がある場合は、オーディエンスマーケットプレイスを使用して 1 つの Audience Manager インスタンスから別の Audience Manager インスタンスに該当するオーディエンスを送信することをお勧めします。 |
+| Q：2 つの Experience Cloud 組織（または Adobe Audience Manager インスタンス）があり、その両方の Experience Cloud 組織でデータを共有したい場合はどうなりますか？サーバー側転送を使用して単一の Analytics ヒットを複数の Experience Cloud 組織に送信できますか？ | いいえ。1 つの Experience Cloud 組織で収集されたデータを別の Experience Cloud 組織と共有する必要がある場合は、オーディエンスマーケットプレイスを使用して 1 つの Audience Manager インスタンスから別の Audience Manager インスタンスに該当するオーディエンスを送信することをお勧めします。 |
 | Q：サーバー側転送によって Audience Manager または Analytics で追加の請求が発生しますか？ | Analytics では、追加の請求は発生しません。Audience Manager では、転送されたヒットは他のヒットと同じように扱われ、請求されます。これが、DIL とサーバー側転送を同時に有効にしないことが重要である理由です。この場合、データの重複が発生するだけでなく、2 重に課金されることになります。 |
 
 >[!MORELIKETHIS]

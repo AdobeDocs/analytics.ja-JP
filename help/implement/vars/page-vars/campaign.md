@@ -15,14 +15,14 @@ ht-degree: 67%
 
 `campaign` 変数は、サイトでのトラッキングコードの収集専用です。以前のバージョンの Adobe Analytics では、ほとんどのディメンションの分類として使用できる特別な処理がおこなわれていました。現在のバージョンの Adobe Analytics では、eVar と同じ動作をします。
 
-この変数は、 [トラッキングコード](/help/components/dimensions/tracking-code.md) ディメンション。 通常、値は [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッド。 ただし、この変数の設定方法は組織によって決まります。
+この変数は、[ トラッキングコード ](/help/components/dimensions/tracking-code.md) ディメンションを設定します。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列から値を取得します。 ただし、組織はこの変数の設定方法を正確に決定しています。
 
 ## Web SDK を使用したキャンペーン
 
-Campaign は次の変数にマッピングされます。
+Campaign は、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` または `data.__adobe.analytics.v0`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Data オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` または `data.__adobe.analytics.v0`
 
 ## Adobe Analytics拡張機能を使用したキャンペーン
 
@@ -32,12 +32,12 @@ Campaign は次の変数にマッピングされます。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL キャンペーン]セクションを見つけます。
 
 キャンペーンは、値またはクエリ文字列パラメーターに設定できます。
 
-## AppMeasurement内の s.campaign と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementの s.campaign と Analytics 拡張機能のカスタムコードエディター
 
 `s.campaign` 変数は、通常、マーケティング活動で使用されるトラッキングコードを含む文字列です。最大長は 255 バイトです。255 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 

@@ -17,41 +17,41 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-最新バージョンのAppMeasurementは、 [GitHub](https://github.com/adobe/appmeasurement/releases).
+最新バージョンのAppMeasurementは、[GitHub](https://github.com/adobe/appmeasurement/releases) からダウンロードできます。
 
 ## バージョン 2.26.0
 
-リリース日： **2024 年 3 月 5 日**
+リリース日：**2024 年 3 月 4 日**
 
-* AppMeasurementは、国コードのトップレベルドメインのルートドメインを自動的に認識して利用します。これは、以前は特定の cookie ドメイン設定が必要でした。 この自動認識により、更新に影響が出る場合があります。 詳しくは、 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) を参照してください。
-* この配布には、 ID サービスライブラリ 5.5.0 とData Integration Library9.6 が含まれます。
+* AppMeasurementでは、以前は特定の cookie ドメイン設定が必要だった国コードのトップレベルドメインのルートドメインを自動的に認識し、利用します。 この自動認識により、更新が影響を与える可能性があります。 詳細は、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) を参照してください。
+* この配布には、ID サービスライブラリ 5.5.0 とData Integration Library 9.6 が含まれています。
 
 ## バージョン 2.25.0
 
 リリース日：**2023年9月12日（PT）**
 
-* オプションのメソッドを追加しました。 [`bufferRequests()`](vars/functions/bufferrequests.md) ブラウザーがビーコン API をサポートしていない場合や、ページがアンロードされた場合に要求をキャンセルする場合に、要求の取得の信頼性を高める。
-* 単一のトラッキングリクエストに対する複数のトラック後コールバックを防ぐための保護機能が追加されました。
+* ブラウザーがビーコン API をサポートしていない場合や、ページがアンロードされたときにリクエストをキャンセルする場合に、リクエストのキャプチャの信頼性を高めるオプションのメソッド [`bufferRequests()`](vars/functions/bufferrequests.md) を追加しました。
+* 1 つのトラッキングリクエストに対して複数のポストトラックコールバックを防ぐための保護機能を追加しました。
 
 ## バージョン 2.24.0
 
-リリース日： **2023 年 7 月 19 日**
+リリース日：**2023 年 7 月 18 日**
 
-* オプションの設定変数を追加しました。 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) を使用して、2 バイトエンコードされた文字を含むリンク URL をデコードします。
-* 高エントロピーの誤った User-Agent クライアントヒント API を持つブラウザーに対するエラー処理を追加しました。
-* Content-TypePOSTヘッダーを `x-www-form-urlencoded` デフォルトでは。
+* ダブルバイトエンコードされた文字を含むリンク URL をデコードするためのオプションの設定変数 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) を追加しました。
+* 高エントロピーの欠陥がある User-Agent クライアントヒント API を含むブラウザーに対するエラー処理を追加しました。
+* POSTの Content-Type ヘッダーが変更されて、デフォルトで `x-www-form-urlencoded` を使用するようになりました。
 
 ## バージョン 2.23.0
 
 リリース日：**2022年9月23日（PT）**
 
-* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。クライアントヒントは、タグを使用して設定するか、 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 設定変数。 高エントロピーのヒントのコレクションは、デフォルトで無効になっています。 User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
+* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー（Google Chrome および Microsoft Edge）では、これらのヒントを使用してデバイス情報を提供します。タグを使用してクライアントヒントを設定するか、[`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 設定変数を使用できます。 高エントロピーのヒントの収集は、デフォルトで無効になっています。 User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
 
 ## バージョン 2.22.4
 
 リリース日：**2022年1月18日（PT）**
 
-* リンクトラッキング呼び出し `s.tl()` で、渡されたオブジェクトに `string` タイプの `href` 属性が含まれていることを確認するようになりました。次の値でない場合、 `string`その場合、 `href` 属性を設定する必要があります。 このシナリオは、 `svg` オブジェクトをリンクトラッキングコールに追加します。
+* リンクトラッキング呼び出し `s.tl()` で、渡されたオブジェクトに `string` タイプの `href` 属性が含まれていることを確認するようになりました。`string` でない場合は、失敗せずに `href` 属性が適切に無視されます。 このシナリオは、オブジェクトをリンクトラッキング呼び出し `svg` 渡すと発生する可能性があります。
 
 ## バージョン 2.22.3
 
@@ -63,7 +63,7 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、 [プライバシーレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) （『管理者ユーザガイド』内）を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、『管理者ユーザーガイド』の [ プライバシーレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) を参照してください。
 
 ## バージョン 2.22.1
 
@@ -347,7 +347,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2015 年 9 月 17 日**
 
 * Visitor API 1.5.2 を同梱しました。
-* 更新済み [!DNL Audience Manager] モジュールを使用してAdobe Audience ManagerDIL6.2 を使用する — VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しでAdobe Audience Managerに渡すようになりました。 （AN-104978）
+* Adobe Audience Manager DIL 6.2 を使用するように [!DNL Audience Manager] モジュールを更新しました – VisitorAPI.js から getCustomer ID を取得し、Adobe Audience Managerの/event 呼び出しで渡します。 （AN-104978）
 
 ## バージョン 1.5
 
@@ -361,8 +361,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDK バージョン 4.5 から、新しいiOS拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなど、その他すべてのiOS拡張機能アプリから使用状況データを収集できるようになりました。
-* Android SDK バージョン 4.5 から、新しい Android 拡張機能により Android ウェアラブルアプリからデータを収集できるようになりました。
+* iOS SDK バージョン 4.5 以降の新しいiOS拡張機能では、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットおよびその他すべてのiOS拡張機能アプリから使用状況データを収集できます。
+* Android SDK バージョン 4.5 以降では、新しいAndroid拡張機能を使用して、Android ウェアラブルアプリからデータを収集できます。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
@@ -383,7 +383,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2015 年 2 月 19 日**
 
 * 遅延したトラッキングコールのすべての処理を一貫させるようにしました。これにより、クリックされたオブジェクトなど、遅延中のバックアップ変数の問題を修正しました。
-* 最初のトラッキングコールの後、自動リファラートラッキングをおこなわないように変更されました。これにより、最初のトラッキングコールの前に *`s.referrer`* は、最初のトラッキングコールの前に手動で設定されていました。
+* 最初のトラッキングコールの後で自動リファラートラッキングを行わないように変更し、最初のトラッキングコールの前に手動で設定した場合、2 番目、3 番目など *`s.referrer`* トラッキングコール（通常はリンクトラッキング）がリファラーを二重カウントしないようにします。
 * 配布 zip を更新して Visitor API 1.3.5 を含めました。
 
 ## バージョン 1.4.2

@@ -17,35 +17,35 @@ ht-degree: 34%
 
 >[!TIP]
 >
->ほとんどの場合、[eVar](/help/implement/vars/page-vars/evar.md) の使用をお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、Adobeでは eVar が改善され、prop のほとんどすべての使用例を満たすようになりました。
+>ほとんどの場合、[eVar](/help/implement/vars/page-vars/evar.md) の使用をお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、Adobeは eVar を改善し、prop のほとんどのユースケースを満たすようになりました。
 
-トラフィック変数レポートを追加し、有効にすることができます。 また、既存のトラフィック変数レポートを無効にしたり、名前を変更したりできます。
+トラフィック変数レポートを追加し、有効にすることができます。 既存のトラフィック変数レポートを無効にしたり、名前を変更したりすることもできます。
 
 ## トラフィック変数レポートの追加と有効化
 
-1. 選択 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]**」をクリックし、レポートスイートを選択します。
-1. 選択 **[!UICONTROL 設定を編集]** > **[!UICONTROL トラフィック]** > **[!UICONTROL トラフィック変数]**.
-1. 選択 **[!UICONTROL 新規追加]**&#x200B;をクリックし、レポートに名前を付けます。
-1. Adobe Analytics の [!UICONTROL **有効**] 列、選択 [!UICONTROL **有効**] を選択します。 1.選択 **[!UICONTROL 保存]**.
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]** を選択し、レポートスイートを選択します。
+1. **[!UICONTROL 設定を編集]**/**[!UICONTROL トラフィック]**/**[!UICONTROL トラフィック変数]** を選択します。
+1. **[!UICONTROL 新規追加]** を選択し、レポートに名前を付けます。
+1. [!UICONTROL **有効**] 列で、ドロップダウンメニューから [!UICONTROL **有効**] を選択します。1.**[!UICONTROL 保存]** を選択します。
 
-## トラフィック変数レポートを無効にする
+## トラフィック変数レポートの無効化
 
-トラフィック変数レポートを無効にした場合、レポートはユーザーインターフェイスに表示されません。
+トラフィック変数レポートを無効にすると、そのレポートはユーザーインターフェイスに表示されなくなります。
 
 トラフィック変数レポートを無効にするには：
 
-1. 選択 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]**」をクリックし、レポートスイートを選択します。
-1. 選択 **[!UICONTROL 設定を編集]** > **[!UICONTROL トラフィック]** > **[!UICONTROL トラフィック変数]**.
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]** を選択し、レポートスイートを選択します。
+1. **[!UICONTROL 設定を編集]**/**[!UICONTROL トラフィック]**/**[!UICONTROL トラフィック変数]** を選択します。
 1. 無効にするトラフィック変数レポートを選択します。
-1. Adobe Analytics の [!UICONTROL **有効**] 列、選択 [!UICONTROL **無効**] を選択します。
+1. [!UICONTROL **有効**] 列で、ドロップダウンメニューから [!UICONTROL **無効**] を選択します。
 1. 「[!UICONTROL **保存**]」を選択します。
 
 ## トラフィック変数レポートの名前を変更
 
-1. 選択 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]**」をクリックし、レポートスイートを選択します。
-1. 選択 **[!UICONTROL 設定を編集]** > **[!UICONTROL トラフィック]** > **[!UICONTROL トラフィック変数]**.
-1. 名前を変更するトラフィック変数レポートを選択します。
-1. Adobe Analytics の [!UICONTROL **名前**] 」列で、レポートの新しい名前を指定します。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]** を選択し、レポートスイートを選択します。
+1. **[!UICONTROL 設定を編集]**/**[!UICONTROL トラフィック]**/**[!UICONTROL トラフィック変数]** を選択します。
+1. 名前変更するトラフィック変数レポートを選択します。
+1. [!UICONTROL **名前**] 列で、レポートの新しい名前を指定します。
 1. 「[!UICONTROL **保存**]」を選択します。
 
-関連トピック [prop](/help/implement/vars/page-vars/prop.md) （実装ユーザーガイド）を参照してください。
+実装ユーザーガイドの [prop](/help/implement/vars/page-vars/prop.md) も参照してください。

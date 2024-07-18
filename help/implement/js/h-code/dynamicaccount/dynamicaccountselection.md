@@ -15,7 +15,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
-> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAppMeasurementライブラリやAdobe Experience Platformのデータ収集ではサポートされていません。
+> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAppMeasurementライブラリやAdobe Experience Platform Data Collection ではサポートされていません。
 
 `dynamicAccountSelection` 変数は、動的アカウント選択を使用するかどうかを決定するブール値です。
 

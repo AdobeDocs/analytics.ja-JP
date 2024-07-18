@@ -17,19 +17,19 @@ ht-degree: 68%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Web SDK を使用した、XDM イベントに含める Analytics イベントの決定
+## Web SDK を使用して、XDM イベントに含める Analytics イベントを決定します
 
-Web SDK は、リンクトラッキングコール用に特定のフィールドを除外しません。 ただし、 `onBeforeEventSend` データがAdobeに送信される前に、目的のフィールドをクリアまたは設定するコールバック。 詳しくは、 [イベントのグローバルな変更](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （ Web SDK ドキュメント）を参照してください。
+Web SDK は、リンクトラッキングコールの特定のフィールドを除外しません。 ただし、`onBeforeEventSend` コールバックを使用して、データがAdobeに送信される前に目的のフィールドをクリアまたは設定できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
-## Adobe Analytics拡張機能を使用したリンクトラッキングコールのイベント
+## Adobe Analytics拡張機能を使用したリンクトラッキング呼び出しのイベント
 
 カスタムコードを使用しない場合、Adobe Experience Platform では、定義済みのイベントが自動的にリンクトラッキングのヒットに含まれます。
 
 >[!IMPORTANT]
 >
->Analytics 拡張機能のカスタムコードエディターでイベントを設定する場合は、 `linkTrackEvents` カスタムコードの使用もおこないます。
+>Analytics 拡張機能のカスタムコードエディターでイベントを設定する場合は、カスタムコードを使用して `linkTrackEvents` にもイベントを含める必要があります。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkTrackEvents
+## AppMeasurementーおよび Analytics 拡張機能のカスタムコードエディターの s.linkTrackEvents
 
 `s.linkTrackEvents` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含めるイベントのコンマ区切りリストを含む文字列です。リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
 

@@ -6,43 +6,43 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 69%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
 # フリーフォームテーブル
 
-Analysis Workspaceでは、フリーフォームテーブルはインタラクティブなデータ分析の基盤となっています。[コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja)の組み合わせを行と列にドラッグ＆ドロップして、分析用のカスタムテーブルを作成できます。各コンポーネントが削除されると、テーブルは直ちに更新されるので、分析や掘り下げを迅速におこなうことができます。
+Analysis Workspaceでは、フリーフォームテーブルはインタラクティブなデータ分析の基盤となっています。[コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja)の組み合わせを行と列にドラッグ＆ドロップして、分析用のカスタムテーブルを作成できます。各コンポーネントがドロップされると、テーブルは直ちに更新されるので、分析したり、深く掘り下げたりすることができます。
 
-## 単純なフリーフォームテーブルの作成
+## シンプルなフリーフォームテーブルの作成
 
-まず、空のフリーフォームテーブルを使用します。
+空のフリーフォームテーブルから開始します。
 
-![空のフリーフォームテーブル](assets/freeform-table-1.png)
+![ 空のフリーフォームテーブル ](assets/freeform-table-1.png)
 
-次の場合、 **[!UICONTROL **&#x200B;訪問回数&#x200B;**]** 指標 **[!UICONTROL **&#x200B;ここに指標（または他のコンポーネント）をドロップ&#x200B;**]**&#x200B;を指定した場合、フリーフォームテーブルは、選択したカレンダー期間の 1 日あたりの訪問数を自動的に入力します。
+**[!UICONTROL ** 指標（または他のコンポーネント）に **[!UICONTROL ** 訪問回数 **]** 指標をドロップ **]** すると、フリーフォームテーブルには、選択したカレンダー期間の 1 日あたりの訪問回数が自動的に入力されます。
 
-![訪問回数フリーフォームテーブル](assets/freeform-table-2.png)
+![ 訪問回数フリーフォームテーブル ](assets/freeform-table-2.png)
 
-次に **[!UICONTROL **&#x200B;ページ&#x200B;**]** 置き換えるディメンション **[!UICONTROL **&#x200B;日&#x200B;**]** ディメンション列を使用すると、フリーフォームテーブルは各ページの訪問を自動的に反映します。
+次に、**[!UICONTROL ** ページ **]** ディメンションをドロップして **[!UICONTROL ** 日 **]** ディメンション列を置き換えると、フリーフォームテーブルに各ページの訪問回数が自動的に反映されます。
 
-![ページフリーフォームテーブル別訪問回数](assets/freeform-table-3.png)
+![ ページ別の訪問回数フリーフォームテーブル ](assets/freeform-table-3.png)
 
-次に、例えば、 **[!UICONTROL ** category:5 **]** ページをドロップして **[!UICONTROL **&#x200B;マーケティングチャネル&#x200B;**]** ディメンション **[!UICONTROL ** category:5 **]** 行
+次に、**[!UICONTROL ** マーケティングチャネル **]** ディメンションを **[!UICONTROL ** category:5 **]** 行にドロップして、**[!UICONTROL ** category:5 **]** ページなどを分類できます。
 
-![ページフリーフォームテーブルによる訪問の分類](assets/freeform-table-4.png)
+![ ページ別の訪問数の分類フリーフォームテーブル ](assets/freeform-table-4.png)
 
 
 ## 自動化されたテーブル
 
-上の図に示すように、テーブルを最もすばやく作成するには、空のプロジェクト、パネルまたはフリーフォームテーブルにコンポーネントを直接ドロップします。 推奨される形式のフリーフォームテーブルが自動的に作成されます。[こちら](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=ja)から、チュートリアルをご覧ください。
+上図のように、テーブルを作成する最も簡単な方法は、空のプロジェクト、パネルまたはフリーフォームテーブルにコンポーネントを直接ドロップすることです。 推奨される形式のフリーフォームテーブルが自動的に作成されます。[こちら](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=ja)から、チュートリアルをご覧ください。
 
 ![](assets/automated-table.png)
 
 ## フリーフォームテーブルビルダー
 
-最初に複数のコンポーネントをテーブルに追加し、次にデータをレンダリングすると、フリーフォームテーブルビルダーを有効にできます。ビルダーを有効にすると、多くのディメンション、分類、指標およびセグメントをドラッグ&amp;ドロップして、より複雑な質問に回答するテーブルを作成できます。 データはその場では更新されず、「 **[!UICONTROL ビルド]**.
+最初に複数のコンポーネントをテーブルに追加し、次にデータをレンダリングすると、フリーフォームテーブルビルダーを有効にできます。ビルダーを有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ&amp;ドロップして、より複雑な質問に回答するテーブルを作成できます。 データはその場では更新されず、「**[!UICONTROL ビルド]**」をクリックすると更新されます。
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Analysis Workspace のすべてのデータエクスポートオプションに�
 
 * 右クリック >「**[!UICONTROL データソースをクリップボードにコピー]**」：表示されているテーブルデータを書き出します。テーブルを選択すると、このオプションが「**[!UICONTROL 選択範囲をクリップボードにコピー]**」に変わります。ホットキー **Ctrl + C** を使用して、選択したデータをコピーすることもできます。
 * 右クリック >「**[!UICONTROL データを CSV 形式でダウンロード]**」：表示されているテーブルデータが CSV 形式でダウンロードされます。テーブルを選択すると、このオプションが「**[!UICONTROL 選択内容を CSV 形式でダウンロード]**」に変わります。
-* 右クリック > **[!UICONTROL プロジェクト/項目を CSV 形式でダウンロード]** 選択したディメンションの最大 50,000 個のディメンション項目をエクスポートします。
+* 右クリック/**[!UICONTROL プロジェクト/項目を CSV としてダウンロード]** を選択すると、選択したディメンションに対して最大 50,000 個のディメンション項目が書き出されます。
 
 Analysis Workspace のすべてのデータエクスポートオプションについては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)から確認できます。
 

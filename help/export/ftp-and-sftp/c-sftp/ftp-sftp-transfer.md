@@ -15,8 +15,8 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->次の情報は、FTP および SFTP の宛先タイプに関連しています。 FTP と SFTP は従来の宛先タイプです。 データフィードを設定する場合は、より安全なクラウドの宛先タイプを使用する必要があります。 データフィードのクラウドの宛先タイプの設定について詳しくは、 [データフィードの作成](/help/export/analytics-data-feed/create-feed.md).
+>以下の情報は、FTP および SFTP の宛先タイプに関するものです。 FTP および SFTP は、従来の宛先タイプです。 データフィードを設定する場合は、より安全なクラウド宛先タイプを使用する必要があります。 データフィードのクラウド宛先タイプの設定について詳しくは、[ データフィードの作成 ](/help/export/analytics-data-feed/create-feed.md) を参照してください。
 
-SFTP を使用して、外部 FTP アカウントに送信されるAdobeデータを設定できます。
+SFTP を使用して、外部 FTP アカウントに送信するAdobeデータを設定できます。
 
-詳しくは、 [データフィードの作成](/help/export/analytics-data-feed/create-feed.md).
+詳しくは、[ データフィードの作成 ](/help/export/analytics-data-feed/create-feed.md) を参照してください。

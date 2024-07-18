@@ -1,5 +1,5 @@
 ---
-description: Report Builderの「リクエストを管理」のフィールドの説明について説明します。
+description: Report Builderのリクエストの管理のフィールドの説明について説明します。
 title: Report Builderでのリクエストの管理方法
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
@@ -8,23 +8,23 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
 # リクエストの管理 - 定義
 
-リクエストステータスの詳細を表示し、フィールドの説明を使用して、Report Builderでリクエストを管理します。
+リクエストステータスの詳細を表示し、フィールドの説明を使用してReport Builderでリクエストを管理します。
 
 ## 概要 {#section_75C288C945FA4781A4EDF806711A5660}
 
-The [!UICONTROL リクエストマネージャー] は、作成したすべてのリクエストの状態を、すべてのシートに対して表示するか、作業中のワークブックの 1 シートに対して表示するかを詳細に示します。 また、リクエストの追加、編集、更新、削除をおこなうこともできます。 これらの関数は通常、 [!UICONTROL リクエストウィザード] および [!UICONTROL リクエストマネージャー] をクリックします。
+[!UICONTROL  リクエストマネージャー ] は、すべてのシート、またはアクティブなワークブックの 1 つのシートに対して作成したすべてのリクエストのステータスの詳細ビューを提供します。 リクエストの追加、編集、更新、削除も行えます。 これらの関数は、通常、以前のリクエストを含む Excel スプレッドシート内の使用可能なセルを右クリックしたときに [!UICONTROL  リクエストウィザード ] および [!UICONTROL  リクエストマネージャー ] に関連付けられています。
 
-The [!UICONTROL リクエストマネージャー] クリックすると表示されます **[!UICONTROL 管理]**  ![](assets/edit_request.gif) をクリックします。
+[!UICONTROL  リクエストマネージャー ] は、Report Builderツールバーの **[!UICONTROL 管理]**![](assets/edit_request.gif) をクリックすると表示されます。
 
 >[!NOTE]
 >
->Adobe Report Builder では、同一ワークシート内でのみリクエストの依存関係を実行します。ワークシート間では実行しません。依存関係を単一のワークシート内に制限することで、確実に実行タイムリーになります。
+>Adobe Report Builderでは、リクエストの依存関係は同じワークシート内でのみ適用され、ワークシート間では適用されません。 単一のワークシート内の依存関係に制限することで、実行のタイムリーさを保証します。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -62,7 +62,7 @@ The [!UICONTROL リクエストマネージャー] クリックすると表示�
   </tr> 
   <tr> 
    <td colname="col1"> <p>追加 </p> </td> 
-   <td colname="col2"> <p>リクエストウィザードダイアログを表示します。<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >データリクエストの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>リクエストウィザードダイアログを表示します。データリクエスト <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 作成を参照してください </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>テンプレートを </p> </td> 
@@ -82,7 +82,7 @@ The [!UICONTROL リクエストマネージャー] クリックすると表示�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 更新 </p> </td> 
-   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します（<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >リクエストの更新</a>を参照してください。） </p> </td> 
+   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します（リクエスト <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 更新を参照してください </a>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リストを更新 </p> </td> 

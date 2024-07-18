@@ -1,18 +1,18 @@
 ---
-description: 分類ルールビルダーのページ上のインターフェイスエレメントの定義です。
+description: 分類ルールビルダーのページ上のインターフェイス要素の定義です。
 title: 分類ルール - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
 # 分類ルール - 定義
 
-分類ルールビルダーのページ上のインターフェイスエレメントの定義です。
+分類ルールビルダーのページ上のインターフェイス要素の定義です。
 
 ## ルールページ {#section_4A5BF384EEEE4994B6DC888339833529}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">#</span> </td> 
-   <td colname="col2"> <p>ルール番号。 </p> <p>詳しくは、<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ルール番号。 </p> <p>詳しくは、ルールの処理方法 <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 参照 </a> てください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">ルールタイプを選択</span> </td> 
@@ -129,7 +129,7 @@ ht-degree: 100%
 | 一致グループ | キャンペーン ID 内の位置を分類できるように、正規表現がどのようにキャンペーン ID 文字に一致するかを示します。 |
 | 一致結果 | 正規表現に一致する文字列の部分を表示します。 |
 
-詳しくは、[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。
+[ 分類ルールの正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 ## テストページ {#section_EC926F97901C4E65901413F9683AA70A}
 

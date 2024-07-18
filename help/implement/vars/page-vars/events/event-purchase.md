@@ -23,14 +23,14 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->売上高に数量フィールドを掛けることはありません。例： `s.products="Womens;Socks;5;4.50"` は$22.50 を売上高に渡さず、$4.50 を渡します。実装が、リストされている数量の合計売上高を渡していることを確認してください。 例：`s.products="Womens;Socks;5;22.50"`。
+>売上高に数量フィールドを掛けることはありません。例えば、`s.products="Womens;Socks;5;4.50"` は売上高に$22.50 を渡さず、$4.50 を渡します。実装が、リストされている数量の合計売上高を渡していることを確認してください。 例：`s.products="Womens;Socks;5;22.50"`。
 
 ## Web SDK を使用した購入イベントの設定
 
-を使用する場合 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、購入イベントは次の XDM フィールドを使用します。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、購入イベントは次の XDM フィールドを使用します。
 
 * 注文件数は、`xdm.commerce.purchases.value` にマッピングされます。
-* 単位は、すべての `xdm.productListItems[].quantity` フィールド。 参照： [`products`](../products.md) を参照してください。
+* 単位は、すべての `xdm.productListItems[].quantity` フィールドの合計にマッピングされます。 詳細は、[`products`](../products.md) を参照してください。
 * 売上高は、すべての `xdm.productListItems[].priceTotal` フィールドの合計にマッピングされます。
 
 ```json
@@ -45,7 +45,7 @@ ht-degree: 70%
 }
 ```
 
-を使用する場合 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、購入イベントはを使用します `data.__adobe.analytics.events`、AppMeasurement文字列の構文に従います。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、購入イベントはAppMeasurement文字列構文に従って `data.__adobe.analytics.events` を使用します。
 
 ```json
 {
@@ -65,10 +65,10 @@ ht-degree: 70%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を [!UICONTROL 拡張機能] Adobe Analyticsへのドロップダウンリスト、および [!UICONTROL アクションタイプ] 対象： [!UICONTROL 変数を設定].
-6. を見つけます。 [!UICONTROL イベント] セクションに移動し、 [!UICONTROL イベント] ドロップダウンリストの宛先 [!UICONTROL 購入].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
+6. 「[!UICONTROL  イベント ]」セクションを見つけ、[!UICONTROL  イベント ] ドロップダウンリストを [!UICONTROL  購入 ] に設定します。
 
-その他の依存変数（ `products` および `purchaseID` Adobe Experience Platform Data Collection 内の Analytics 拡張機能に専用のフィールドはありません。 これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
+`products` や `purchaseID` など、その他の依存変数には、Adobe Experience Platform Data Collection 内の Analytics 拡張機能の専用フィールドはありません。 これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
 
 ## AppMeasurementと Analytics 拡張機能のカスタムコードエディターで購入イベントを設定します
 

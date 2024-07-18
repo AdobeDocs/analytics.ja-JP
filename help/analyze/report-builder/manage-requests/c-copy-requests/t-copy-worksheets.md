@@ -1,13 +1,13 @@
 ---
-description: 同じワークブック内でスプレッドシートを別のスプレッドシートにコピーする方法を説明します。
-title: Report Builder内のワークシートのコピー方法
+description: 同じワークブック内のあるスプレッドシートを別のスプレッドシートにコピーする方法を説明します。
+title: Report Builderでワークシートをコピーする方法
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin
 exl-id: 51785d9a-fdd1-42f1-8f44-4ca135d97d99
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 86%
 
 ---

@@ -21,7 +21,7 @@ ht-degree: 94%
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-を参照してください。 [Experience Cloudデータプライバシー API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 詳細および [標準 id 名前空間のリスト](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 参照： [アクセス/削除ジョブの作成](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) リクエストのサンプルです。
+詳細および ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 標準 ID 名前空間のリスト [ については、[Experience Cloudデータプライバシー API ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces) を参照してください。 リクエストのサンプルについては、[ アクセス/削除ジョブの作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) を参照してください。
 
 ## Cookie ID
 
@@ -114,6 +114,6 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->名前空間 `visitorId` および `customVisitorId` は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
+>名前空間 `visitorId` と `customVisitorId` は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
 詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)を参照してください。

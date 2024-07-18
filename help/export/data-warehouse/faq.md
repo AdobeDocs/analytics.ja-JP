@@ -5,7 +5,7 @@ feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 84%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 Data Warehouse に関するよくある質問です。
 
-## リクエストの作成時に精度ドロップダウンリストを使用すると、日付の形式はどのようになりますか？
+## リクエストの作成時に精度ドロップダウンリストを使用すると、日付はどのような形式になりますか？
 
 Data Warehouse リクエストで精度を適用する場合、「日付」列がレポートに追加されます。 選択した精度に応じて、日付の形式が変わります。
 

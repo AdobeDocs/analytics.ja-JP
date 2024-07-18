@@ -1,14 +1,14 @@
 ---
-description: ピボットレイアウトとカスタムレイアウトのリクエストで、セルに対する文字列または文字の前後の追加について説明します。
-title: セルに対するテキストの前付けおよび後付けの方法
+description: ピボットおよびカスタム・レイアウトの要求で、セルに文字列または文字を追加または追加する方法を学習します。
+title: セルにテキストを追加および後付けする方法
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
 role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 60%
+source-wordcount: '86'
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 ピボットレイアウトとカスタムレイアウトのリクエストでは、セルに挿入される数値や文字列の前後に文字列を追加することができます。
 
-このオプションは、 [!UICONTROL リクエストウィザード：ステップ 2] ウィンドウ
+このオプションは、[!UICONTROL  リクエストウィザード：手順 2] ウィンドウで使用できます。
 
 **接頭辞：**&#x200B;セル内に数値または文字列の接頭辞を追加します。
 

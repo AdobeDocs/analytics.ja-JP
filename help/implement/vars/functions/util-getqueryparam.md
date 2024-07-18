@@ -15,19 +15,19 @@ ht-degree: 79%
 
 ブラウザー URL のクエリ文字列パラメーターには、Analytics の重要なデータが含まれることがよくあります。クエリ文字列からデータを取得するには、`Util.getQueryParam()` メソッドを使用します。
 
-## Adobe Analytics拡張機能と Web SDK 拡張機能を使用したクエリー文字列パラメーターデータの取得
+## Adobe Analytics拡張機能と Web SDK 拡張機能を使用して、クエリ文字列パラメーターデータを取得します
 
 データ要素に値を設定することで、クエリ文字列パラメーターデータを取得できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL コア]**、および [!UICONTROL データ要素タイプ] から **[!UICONTROL クエリー文字列パラメーター]**.
+4. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Core]** に設定し、「[!UICONTROL  データ要素タイプ ]」を **[!UICONTROL クエリ文字列パラメーター]** に設定します。
 5. テキストフィールドにクエリ文字列パラメーターを入力します。
 
-クエリ文字列パラメーター値は、データ要素に格納されます。その後、ルール内のデータ要素を参照して、目的の変数を割り当てることができます。
+クエリ文字列パラメーター値は、データ要素に格納されます。その後、ルールでデータ要素を参照して、必要な変数を割り当てることができます。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.Util.getQueryParam()
+## AppMeasurementの s.Util.getQueryParam （）と Analytics 拡張機能のカスタムコードエディター
 
 `s.Util.getQueryParam()` メソッドを呼び出して、ブラウザー URL からクエリ文字列値を取得します。クエリ文字列パラメーターを含む文字列引数が必要です。このメソッドは、Analytics 変数に割り当て可能な文字列を返します。
 

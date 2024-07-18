@@ -6,7 +6,7 @@ exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
   <tr> 
    <td> <b>AND と OR の無制限の結合</b> </td> 
    <td> サポート </td> 
-   <td> 一部制限あり。テーブルの下の「メモ」を参照。 </td> 
+   <td> いくつかの制限。 テーブルの下の「メモ」を参照。 </td> 
   </tr> 
   <tr> 
    <td> <b>コンテナのネスト</b> </td> 
@@ -71,7 +71,7 @@ ht-degree: 100%
      <li>階層（「階層」で始まるすべてのディメンション） </li> 
      <li>ヒットの深さ </li> 
      <li>ヒットタイプ </li> 
-     <li>時間日 </li> 
+     <li>時刻 </li> 
      <li>月 </li> 
      <li>エラーページ（404） </li> 
      <li>有料検索 </li> 

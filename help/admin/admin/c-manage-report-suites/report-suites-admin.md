@@ -6,7 +6,7 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics ソリューションにログインしたら、使用するレ�
 
 >[!NOTE]
 >
->仮想レポートスイートは、 **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL 仮想レポートスイート]**. 詳しくは、 [仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md).
+>仮想レポートスイートは、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;で管理されます。[仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
 
 ## レポートスイートマネージャーの説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ Adobe Analytics ソリューションにログインしたら、使用するレ�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ロールアップ</span> </td> 
-   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p>詳しくは、<a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">ロールアップレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p><a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">ロールアップレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 設定の編集</span> </td> 

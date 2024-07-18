@@ -1,34 +1,34 @@
 ---
 description: Data Warehouse リクエストの作成方法について手順を説明します。
-title: Data Warehouse要求用のレポートの作成
+title: Data Warehouseリクエストに関するレポートの作成
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 39%
+ht-degree: 49%
 
 ---
 
-# Data Warehouse要求用のレポートの作成
+# Data Warehouseリクエストに関するレポートの作成
 
-Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報では、リクエストのレポートを作成する方法を説明します。
+Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報は、リクエストのレポートを作成する方法を説明しています。
 
 リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-Data Warehouse・リクエストのレポートを作成するには：
+Data Warehouseリクエストのレポートを作成するには：
 
-1. まだリクエストを作成していない場合は、「 Adobe Analytics 」を選択して、リクエストの作成を開始します。 **[!UICONTROL ツール]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **追加**].
+1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-1. 新しいData Warehouseリクエストページで、 [!UICONTROL **レポートの作成**] タブをクリックします。
+1. 新しいData Warehouseリクエスト ページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
 
-   ![「レポートを作成」タブ](assets/build-report.png)
+   ![ 「レポートを作成」タブ ](assets/build-report.png)
 
-1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouseリクエストに含まれるデータが決まります。
+1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouseリクエストに含めるデータが決まります。
 
-1. 引き続き、 [!UICONTROL **レポートの送信先**] タブをクリックします。 詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。
+1. 「[!UICONTROL **レポートの宛先**] タブでData Warehouseリクエストの設定を続けます。 詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。
 
 <!--
 

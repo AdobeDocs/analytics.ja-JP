@@ -15,14 +15,14 @@ ht-degree: 74%
 
 `server` 変数は通常、サイトのホスト名を保存します。これは、複数のドメインのデータを含むレポートスイートで一般的に使用されます。機能的には prop と同じです。
 
-## Web SDK を使用するサーバー
+## Web SDK を使用したサーバー
 
 サーバーは次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [ データ オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
-## Adobe Analytics拡張機能を使用するサーバー
+## Adobe Analytics拡張機能を使用したサーバー
 
 サーバーは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
@@ -30,12 +30,12 @@ ht-degree: 74%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL サーバー]セクションを探します。
 
 サーバーは任意の文字列値またはデータ要素に設定できます。
 
-## AppMeasurement内の s.server と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementの s.server と Analytics 拡張機能のカスタムコードエディター
 
 `s.server` 変数は、通常、サイトのホスト名を含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。
 

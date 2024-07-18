@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 99%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 100%
 | 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
 | 手順 4：[分類ルールをセットに追加する](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)」の情報を確認します。 |
 | 手順 5：[分類ルールセットのテスト](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を使用する場合に重要です。 |
-| 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。 |
-| 手順 7（オプション）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、 [分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md) を参照してください。 |
+| 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。[ ルールの処理方法 ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。 |
+| 手順 7（任意）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、 [分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md) を参照してください。 |
 
 >[!NOTE]
 >

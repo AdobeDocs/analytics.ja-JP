@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '492'
 ht-degree: 96%
 
 ---
@@ -32,7 +32,7 @@ Analysis Workspace のコホートテーブルに関するビデオ：
 
 >[!IMPORTANT]
 >
->[!UICONTROL コホート分析] は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、発生件数をサポートしていません。
+>[!UICONTROL  コホート分析 ] では、セグメント化できない指標（計算指標など）、整数以外の指標（売上高など）、発生件数はサポートしていません。
 >
 >[!UICONTROL コホート分析] で使用できるのはセグメントで使用できる指標のみで、一度に増やせるのは 1 を超える数のみです。
 

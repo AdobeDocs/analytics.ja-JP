@@ -5,24 +5,24 @@ feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 38%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
 
 # アラートマネージャー
 
-アラートマネージャーは、 [セグメントマネージャ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja) そして [計算指標マネージャ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ja).
+アラートマネージャーは、[ セグメントマネージャー ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja) および [ 計算指標マネージャー ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ja) と非常に似た構造になっています。
 
 ![](assets/alert-manager.png)
 
 ## アラートマネージャーへのアクセス
 
-1. Adobe Analyticsで、 [!UICONTROL **コンポーネント**] > [!UICONTROL **アラート**].
+1. Adobe Analyticsで、[!UICONTROL **コンポーネント**]/[!UICONTROL **アラート**] を選択します。
 
-## アラートマネージャで使用可能なアクション
+## アラートマネージャーで使用可能なアクション
 
-アラートマネージャでは、次の操作を実行できます。
+アラートマネージャーでは、次の操作を実行できます。
 
 * 「**[!UICONTROL + 追加]**」をクリックすると、アラートビルダーにアクセスします。
 * アラートのタグ付け。これにより、アラートを使いやすく整理できます。
@@ -40,27 +40,27 @@ ht-degree: 38%
 * 他のフィルターの追加。
 * アラートの&#x200B;**有効期限**&#x200B;の定義。
 
-## 列の設定
+## 列を設定
 
-アラートマネージャで、各アラートに対して表示される情報を構成するには、表示する列を構成します。
+アラート・マネージャで各アラートに表示される情報を構成するには、表示される列を構成します。
 
-アラート・マネージャで表示される列を構成するには、次の手順に従います。
+アラート・マネージャで表示可能な列を構成するには、次の手順に従います。
 
-1. Adobe Analyticsで、 **[!UICONTROL コンポーネント]** 「 」タブで、「 **[!UICONTROL アラート]**.
+1. Adobe Analyticsで、「**[!UICONTROL コンポーネント]**」タブを選択し、「**[!UICONTROL アラート]**」を選択します。
 
-1. アラートマネージャーで、 **列のカスタマイズ** アイコン ![列をカスタマイズアイコン](assets/customize-columns-icon.png)をクリックし、アラートマネージャーに表示する列を選択します。
+1. アラートマネージャーで **列のカスタマイズ** アイコン ![ 列のカスタマイズ ](assets/customize-columns-icon.png) を選択し、アラートマネージャーに表示する列を選択します。
 
    以下の列を表示できます。
 
-   | 列のタイトル | 説明 |
+   | 列タイトル | 説明 |
    |---|---|
-   | お気に入り | 各アラートの横に星形のアイコンが表示され、アラートをお気に入りに登録できます。 <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | お気に入り | 各アラートの横に星アイコンが表示され、アラートをお気に入りとしてマークできます。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | タイトルと説明 | これらの値は、アラートビルダーで提供されます。 タイトルと説明を編集するには、タイトルリンクを選択してアラートビルダーを開きます。 |
    | レポートスイート | アラートが最後に保存されたレポートスイートを示します。 |
-   | 所有者 | アラートの所有者を示します。 管理者以外のユーザーは、自分が所有しているまたは自分が共有していたアラートのみを表示できます。 |
-   | タグ | 自分または自分とアラートを共有しているユーザーによってアラートに適用されたタグが表示されます。 |
-   | 共有先 | 自分がアラートを共有している個人、グループ（管理者のみ）、または全員（管理者のみ）が表示されます。 |
+   | 所有者 | アラートの所有者を示します。 管理者以外のユーザーには、自分が所有しているアラートまたは自分と共有されていたアラートのみが表示されます。 |
+   | タグ | 自分または自分とアラートを共有したユーザーによってアラートに適用されたタグを表示します。 |
+   | 共有先 | アラートを共有した個人またはグループ（管理者のみ）または全て（管理者のみ）をリストします。 |
    | 変更日 | アラートが最後に変更された日付を示します。 |
-   | 前回の使用 | アラートが最後に使用された日付を表示します。 <p>この情報は、コンポーネントが組織内のユーザーにとって有用かどうか、どこで使用されているか、削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この列を表示する際は、次の点に注意してください。</p><ul><li>この情報には、API、Report Builder、Data Warehouseの使用方法は含まれません。</li><li>一部のコンポーネントでは、2023 年 9 月より前にコンポーネントを最後に使用した場合、この列にデータが含まれないことがあります。</li></ul> |
+   | 前回の使用 | アラートが最後に使用された日付を表示します。 <p>この情報は、コンポーネントが組織内のユーザーにとって価値があるかどうか、コンポーネントが使用されている場所、コンポーネントを削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この列を表示する際は、次の点を考慮してください。</p><ul><li>この情報には、API、Report Builder、Data Warehouseからの使用は含まれません。</li><li>一部のコンポーネントでは、2023 年 9 月より前にコンポーネントが最後に使用されていた場合、この列にデータが含まれないことがあります。</li></ul> |
 
    {style="table-layout:auto"}

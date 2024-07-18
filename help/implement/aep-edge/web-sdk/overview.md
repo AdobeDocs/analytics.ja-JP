@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 39%
 
 | | **AppMeasurementから移行** | **Web SDK のクリーン実装** |
 | --- | --- | --- |
-| **タグを使用** | [Analytics 拡張機能から Web SDK 拡張機能への移行](analytics-extension-to-web-sdk.md) | [Web SDK 拡張機能を使用したAdobe Analyticsへのデータの送信](web-sdk-tag-extension.md) |
-| **JavaScript の使用** | [AppMeasurementから Web SDK JavaScript ライブラリへの移行](appmeasurement-to-web-sdk.md) | [Web SDK JavaScript ライブラリを使用したAdobe Analyticsへのデータの送信](web-sdk-javascript-library.md) |
+| **タグを使用** | [Analytics 拡張機能から Web SDK 拡張機能への移行 ](analytics-extension-to-web-sdk.md) | [Web SDK 拡張機能を使用したAdobe Analyticsへのデータの送信 ](web-sdk-tag-extension.md) |
+| **JavaScriptの使用** | [AppMeasurementから Web SDK JavaScript ライブラリへの移行 ](appmeasurement-to-web-sdk.md) | [Web SDK JavaScript ライブラリを使用したAdobe Analyticsへのデータの送信 ](web-sdk-javascript-library.md) |
 
-Adobeでは、新しい Web SDK の実装が必要で、今後スキーマを使用する予定がある場合、独自のCustomer Journey Analyticsを使用してクリーンな Web SDK の実装をお勧めします。 参照： [Adobe Experience Platform Web SDK を使用したデータの取り込み](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) （Customer Journey Analyticsユーザーガイド）を参照してください。
+Adobeでは、新しい Web SDK の実装が必要で、今後スキーマを使用する予定がある場合、独自のCustomer Journey Analyticsを使用してクリーンな Web SDK の実装をお勧めします。 Customer Journey Analyticsユーザーガイドの [Adobe Experience Platform Web SDK を使用したデータの取り込み ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) を参照してください。
 
 ## その他のリソース
 

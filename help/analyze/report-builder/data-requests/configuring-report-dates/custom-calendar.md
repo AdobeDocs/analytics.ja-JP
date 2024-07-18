@@ -44,7 +44,7 @@ Report Builder では、Analytics のカスタムカレンダーを使用しま�
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：1 月は 4 週、2 月は 5 週、3 月は 4 週などとなります。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：例えば、1 月は 4 週、2 月は 4 週、3 月は 5 週になります。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：例えば、1 月は 5 週、2 月は 5 週、3 月は 4 週になります。 </li> 
-    </ul> <p>注意：このカレンダーオプションは、すべてのAdobe Analyticsツール (Analysis Workspace、Report Builder、Activity Map) でサポートされています。 例外は Data Warehouse で、これはカスタムカレンダーをサポートしていません。 </p> </td> 
+    </ul> <p>注意：このカレンダーオプションは、すべてのAdobe Analytics ツール（Analysis Workspace、Report BuilderおよびActivity Map）でサポートされています。 例外は Data Warehouse で、これはカスタムカレンダーをサポートしていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

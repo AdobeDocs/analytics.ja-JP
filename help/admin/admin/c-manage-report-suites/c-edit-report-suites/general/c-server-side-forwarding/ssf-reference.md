@@ -54,12 +54,12 @@ ht-degree: 97%
 | `c_colorDepth` | 16 ビットまたは 32 ビットカラーとして指定します。 |
 | `c_connectionType` | 接続のタイプを指定します。次に、オプションを示します。<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | 例：<ul><li>AppMeasurement：`s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>シグナル：`c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。次のオプションがあります。はい、いいえ、不明 |
+| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。オプション：はい、いいえ、不明 |
 | `c_currencyCode` | トランザクションに使用する通貨のタイプ。 |
 | `c_evar#` | カスタム eVar |
 | `c_events` | `s.events` で設定。 |
 | `c_hier#` | カスタム階層変数。 |
-| `c_javaEnabled` | Java を有効にできるかどうかを指定します。次のオプションがあります。はい、いいえ、不明 |
+| `c_javaEnabled` | Java を有効にできるかどうかを指定します。オプション：はい、いいえ、不明 |
 | `c_javaScriptVersion` | ブラウザーでサポートされている JavaScript のバージョン。 |
 | `c_latitude` | 緯度（数値） |
 | `c_linkClick` | オプション：カスタム、ダウンロード終了 |
@@ -68,7 +68,7 @@ ht-degree: 97%
 | `c_linkExitURL` | 離脱リンクの URL。 |
 | `c_list#` | カスタムリスト変数。 |
 | `c_longitude` | 経度（数値）。 |
-| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。オプションは次のとおりです。その他、primetime |
+| `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。オプション：other、primetime |
 | `c_pageName` | ページ名（設定されている場合）。 |
 | `c_pageURL` | ブラウザーのアドレスバーに表示されるページのアドレス。 |
 | `c_products` | 製品文字列（`s.products` で設定）。 |

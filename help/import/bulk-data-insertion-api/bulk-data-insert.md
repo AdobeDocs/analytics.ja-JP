@@ -1,6 +1,6 @@
 ---
 title: 一括データ挿入 API
-description: Bulk Data Insertion API(BDIA) は、Adobe Analyticsの機能で、AppMeasurementなどのクライアント側ライブラリを使用する代わりに、サーバー呼び出しデータをファイルのバッチでアップロードできます。
+description: Bulk Data Insertion API （BDIA）は、Adobe Analyticsの機能で、AppMeasurementなどのクライアントサイドライブラリを使用する代わりに、多数のファイルからなるサーバーコールデータをアップロードできるものです。
 solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62

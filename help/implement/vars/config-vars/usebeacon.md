@@ -25,20 +25,20 @@ ht-degree: 62%
 
 ## Web SDK 拡張機能を使用した sendBeacon API の使用
 
-The **[!UICONTROL ドキュメントはアンロードされます]** 「アクション設定」内のチェックボックスは、Adobeに送信するデータが sendBeacon API を使用するかどうかを指定します。
+Action Configuration 内の **[!UICONTROL Document will unload]** チェックボックスにより、Adobeに送信されたデータが sendBeacon API を使用しているかどうかが決まります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 次に移動： [!UICONTROL ルール] 」タブをクリックし、目的のルールをクリックします。
-1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックして、新しいアクションを追加します。
-1. を設定します。 [!UICONTROL 拡張] ドロップダウンリスト **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**
-1. チェックボックスをクリックします。 **[!UICONTROL ドキュメントはアンロードされます]** 右側に
+1. 「[!UICONTROL  ルール ]」タブに移動し、目的のルールをクリックします。
+1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックして新しいアクションを追加します。
+1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Experience Platform Web SDK]** に設定し、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL イベントを送信]** に設定します
+1. 右側のチェックボックス **[!UICONTROL ドキュメントをアンロードします]** をクリックします。
 
-このボックスをオンにすると、データが sendBeacon API を使用してAdobeに送信されます。 デフォルトでは選択解除されています。
+このチェックボックスをオンにすると、データは sendBeacon API を使用してAdobeに送信されます。 デフォルトでは選択解除されています。
 
 ## Web SDK を手動で実装する sendBeacon API の使用
 
-設定 `documentUnloading` から `true` イベントを送信する際に使用します。 設定しない場合、デフォルト値はです。 `false`.
+イベントを送信する際に、`documentUnloading` を `true` に設定します。 設定されていない場合、デフォルト値は `false` です。
 
 ```json
 alloy("sendEvent", {
@@ -47,13 +47,13 @@ alloy("sendEvent", {
 });
 ```
 
-詳しくは、 [sendBeacon API の使用](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) （ Web SDK ドキュメント）を参照してください。
+詳しくは、Web SDK ドキュメントの [sendBeacon API の使用 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したビーコンの使用
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.useBeacon
+## AppMeasurementの s.useBeacon と Analytics 拡張機能のカスタムコードエディター
 
 `s.useBeacon` 変数は、AppMeasurement がブラウザーの `navigator.sendBeacon()` メソッドを使用するかどうかを決定するブール値です。デフォルト値は `false` です。`navigator.sendBeacon()` の非同期性を使用する場合は、トラッキング関数を呼び出す前にこの変数を `true` に設定します。
 

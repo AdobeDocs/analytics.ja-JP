@@ -1,5 +1,5 @@
 ---
-description: リクエストを削除して、新しいリクエストの領域を確保するためのワークブックの編集方法を説明します。
+description: リクエストを削除してワークブックを編集し、新しいリクエストの領域を確保する方法を説明します。
 title: 出力マッピングの削除方法
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder

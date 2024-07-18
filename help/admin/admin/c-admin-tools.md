@@ -13,27 +13,27 @@ ht-degree: 14%
 
 # 管理ツールの概要
 
-Analytics 管理ツール領域は、Adobe Analyticsインスタンスを管理するための主な領域です。この領域では、ほとんどの管理タスクを実行できます。 Analytics 管理のもう 1 つの領域であるAdobe管理コンソールは、ユーザーのプロビジョニングと権限の設定に使用します。
+Analytics 管理ツール領域は、Adobe Analytics インスタンスを管理する主な領域です。ここで、ほとんどの管理タスクを実行できます。 Analytics 管理用のもう 1 つの領域であるAdobe Admin Console は、ユーザーのプロビジョニングと権限の設定を行います。
 
-次に、これら 2 つの領域の内訳を示します。
+これら 2 つの領域の内訳を次に示します。
 
 ## Analytics 管理ツール
 
-（ユーザープロビジョニングおよび権限管理に加えて）すべてのAdobe Analytics管理タスクに対して、 Analytics 管理ツール領域を使用します。 一般的な管理タスクの例としては、レポートスイートの作成と管理、外部データソースのインポート、特定の IP アドレスからのデータの除外などがあります。
+すべてのAdobe Analytics管理タスク（ユーザープロビジョニングと権限管理を除く）に対して、Analytics 管理ツール エリアを使用します。 一般的な管理タスクの例としては、レポートスイートの作成と管理、外部データソースの読み込み、特定の IP アドレスからのデータの除外などがあります。
 
-ページの左側のコンテンツ階層を参照して、Adobe Analyticsで使用可能な管理タスクにジャンプします。
+Adobe Analyticsで使用可能な管理タスクにジャンプするには、ページの左側にあるコンテンツ階層を参照してください。
 
 >[!WARNING]
 >
->同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較し、新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを使用してルールセットを比較することをお勧めします。
+>同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くかスクリーンショットを撮ってルールセットを比較することをお勧めします。
 
-管理ツールにアクセスするには、 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]**.
+管理ツールにアクセスするには、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]** に移動します。
 
 ## Adobe管理コンソール
 
 このツールを使用して、ユーザーをプロビジョニングし、アクセス権限を変更します。
 
-Adobe IMSに移行されるすべての組織に対して、これらのタスクはAdobeAdmin Console で実行されます。 詳しくは、 [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). 組織がまだAdobe IMSに移行されていない場合は、 [Adobe Admin Consoleへの Analytics ユーザーの移行](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+Adobe IMSに移行されるすべての組織では、これらのタスクはAdobe管理コンソールで実行されます。 詳しくは、[Adobe Analyticsはじめての管理ガイド ](/help/admin/admin-console/first-admin-guide.md) を参照してください。 まだAdobe IMSに移行していない場合は、[Analytics ユーザーのAdobe Admin Consoleへの移行 ](/help/admin/admin/user-management2/user-migration/c-migration-tool.md) を参照してください。
 
 
 

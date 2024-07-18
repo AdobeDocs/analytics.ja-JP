@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 90%
 
 ---
@@ -43,8 +43,8 @@ ht-degree: 90%
 
 1. [!UICONTROL 複数のリクエストを編集]フォームで、「**[!UICONTROL OK]**」をクリックします。
 
-## 複数のリクエストにセグメントを一度に追加
+## 複数のリクエストへのセグメントの一括追加
 
-プロセスを示すビデオを次に示します。
+次に、プロセスを示すビデオを示します。
 
-https://video.tv.adobe.com/v/25445/?quality=12&amp;captions=jpn
+https://video.tv.adobe.com/v/25445/?quality=12

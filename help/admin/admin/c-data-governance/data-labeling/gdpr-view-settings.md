@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >このメニュー項目が表示されない場合は、 [Admin Console の製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja) を使用して、この機能に対する権限を持つか、Admin Console内のレポートスイートへのアクセス権を付与されています。
+   >このメニュー項目が表示されない場合は、この機能への権限を持つ [Admin Console の製品プロファイル ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja) に追加するか、Admin Console内のレポートスイートへのアクセス権を付与されている必要があります。
 
 3. 右上で、プライバシーラベルを表示または管理したいレポートスイートを選択します。
 

@@ -35,11 +35,11 @@ ht-degree: 83%
 
 ## Web SDK を使用したイベント ID の使用
 
-を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、イベントのシリアル化は目的のイベントの XDM フィールドを使用します `id`. 完全な XDM パスは、シリアル化するイベントによって異なります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、イベントのシリアル化には、目的のイベントの XDM フィールド `id` が使用されます。 完全な XDM パスは、シリアル化するイベントによって異なります。
 
-例えば、買い物かごへの追加指標をシリアル化する場合は、 `xdm.commerce.productListAdds.id` を目的のシリアル化値に追加します。 カスタムイベント 20 をシリアル化する場合は、 `xdm._experience.analytics.event1to100.event20` を目的のシリアル化値に追加します。
+例えば、買い物かごへの追加指標をシリアル化したい場合、`xdm.commerce.productListAdds.id` を目的のシリアル化値に設定します。 カスタムイベント 20 をシリアル化したい場合、`xdm._experience.analytics.event1to100.event20` を目的のシリアル化値に設定します。
 
-を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、イベントシリアル化では `data.__adobe.analytics.events`に設定します。AppMeasurementー文字列構文に従います。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、イベントのシリアル化には、AppMeasurement文字列の構文に従って `data.__adobe.analytics.events` が使用されます。
 
 ## Adobe Analytics 拡張機能を使用したイベント ID の使用
 
@@ -49,7 +49,7 @@ ht-degree: 83%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL イベント]セクションを探します。各イベントには「[!UICONTROL Event ID]」フィールドが含まれます。
 
 有効な値は、20 バイトまでの英数字です。20 バイトを超える値を入力すると、最初の 20 バイトに切り捨てられます。

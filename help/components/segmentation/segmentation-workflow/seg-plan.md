@@ -6,7 +6,7 @@ exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
    * このセグメントはどのような分野で役立ちますか。
    * このセグメントはいつ使用する必要がありますか。
 
-1. セグメントの&#x200B;**スコープ**&#x200B;を決定します。スコープを最も適切に表すのは、どの[セグメントコンテナ](/help/components/segmentation/seg-overview.md)ですか。できるだけ小さいコンテナを使用します。
+1. セグメントの&#x200B;**スコープ**&#x200B;を決定します。範囲を最もよく表す [ セグメントコンテナ ](/help/components/segmentation/seg-overview.md) はどれですか？ できるだけ小さいコンテナを使用します。
 
-1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。その際、[変数の持続性](/help/components/segmentation/seg-overview.md)も決定します。
+1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。この決定では [ 変数の永続性 ](/help/components/segmentation/seg-overview.md) について検討します。
 
 1. **承認プロセス**&#x200B;の展開方法を検討します。セグメントの確認および承認を 1 人の担当者のみで行いますか。それとも委員会で判定しますか。
 1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で[積み重ね](/help/components/segmentation/segmentation-workflow/seg-build.md)および再利用できます。このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。

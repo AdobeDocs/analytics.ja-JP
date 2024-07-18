@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # 平日／週末
 
-「平日/週末」 [ディメンション](overview.md) ヒットが平日（月～金）または週末（土～日）のどちらで発生したかを把握できます。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
+「平日/週末」 [ ディメンション ](overview.md) は、ヒットが平日（月曜日～金曜日）または週末（土曜日～日曜日）に発生したかどうかを把握できます。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションへのデータ入力
 

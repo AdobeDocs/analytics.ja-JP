@@ -14,7 +14,7 @@ ht-degree: 35%
 
 一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。このリストの範囲を使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。
 
-Adobe Analyticsで使用される IP アドレスはすべて [Adobe Experience Cloudで使用される IP アドレス](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)中国のパフォーマンス最適化アドオンパッケージを除く。
+Adobe Analyticsで使用される IP アドレスは、China Performance Optimization アドオンパッケージを除き、すべて [Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) の一部です。
 
 ## 中国のパフォーマンス最適化 IP アドレス
 
@@ -36,6 +36,6 @@ China Performance Optimization アドオンパッケージは、中国国内の�
 
 >[!MORELIKETHIS]
 >
->[Adobe Experience Cloudで使用される IP アドレス](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
->[Adobe Analyticsが使用するドメイン](domains.md)
+>[Adobe Analyticsが使用するドメイン ](domains.md)

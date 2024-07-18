@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # インテリジェントアラート - 使用例
 
-インテリジェント アラートは、の説明に従って作成できます。 [アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+[ アラートの作成 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) の説明に従って、インテリジェントアラートを作成できます。
 
 以下の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
 

@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （オプション）。TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （任意）。TRUE または FALSE として求める追加の条件です。 |
 
 ## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -87,7 +87,7 @@ ACOS(metric)
 
 | 引数 |  |
 |---|---|
-| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
+| *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
 ## アークサイン（行） {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
@@ -99,7 +99,7 @@ ASIN(metric)
 
 | 引数 |  |
 |---|---|
-| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
+| *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
 ## アークタンジェント（行） {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 | 引数 |  |
 |---|---|
-| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
+| *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
 ## 指数回帰：予測 Y（行） {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -161,7 +161,7 @@ CEILING(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | 丸める指標です。 |
+| *metric* | 丸める指標です。 |
 
 ## コサイン（行） {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -173,7 +173,7 @@ COS(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | コサインを求めるラジアンによる角度です。 |
+| *metric* | コサインを求めるラジアンによる角度です。 |
 
 ## 立方根 {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -185,7 +185,7 @@ CBRT(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | 立方根を求める指標です。 |
+| *metric* | 立方根を求める指標です。 |
 
 ## 累積 {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -269,7 +269,7 @@ FLOOR(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | 丸める指標です。 |
+| *metric* | 丸める指標です。 |
 
 ## 次よりも大きい {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -289,7 +289,7 @@ COSH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | ハイパボリックコサインを求めるラジアンによる角度です。 |
+| *metric* | ハイパボリックコサインを求めるラジアンによる角度です。 |
 
 ## ハイパボリックサイン（行） {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -301,7 +301,7 @@ SINH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | ハイパボリックサインを求めるラジアンによる角度です。 |
+| *metric* | ハイパボリックサインを求めるラジアンによる角度です。 |
 
 ## ハイパボリックタンジェント（行） {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -313,7 +313,7 @@ TANH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
+| *metric* | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
 
 ## IF（行） {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -363,7 +363,7 @@ LOG10(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | 10 を底とする対数を求める正の実数です。 |
+| *metric* | 10 を底とする対数を求める正の実数です。 |
 
 ## 対数回帰：相関係数（表） {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -429,7 +429,7 @@ LN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | 自然対数を求める正の実数です。 |
+| *metric* | 自然対数を求める正の実数です。 |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -464,7 +464,7 @@ OR(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （オプション）。TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （任意）。TRUE または FALSE として求める追加の条件です。 |
 
 ## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -642,7 +642,7 @@ SIN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | サインを求めるラジアンによる角度です。 |
+| *metric* | サインを求めるラジアンによる角度です。 |
 
 ## t スコア {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -684,7 +684,7 @@ TAN (metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric*  | タンジェントを求めるラジアンによる角度です。 |
+| *metric* | タンジェントを求めるラジアンによる角度です。 |
 
 ## z スコア（行） {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -711,7 +711,7 @@ Z スコア（指標）
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i> metric</i>  </td> 
+   <td colname="col1"> <i> metric</i> </td> 
    <td colname="col2"> <p> 最初のゼロ以外の引数の値を返します。 </p> </td> 
   </tr> 
  </tbody> 

@@ -17,7 +17,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 ## 前提条件
 
-[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。
+[ レポートスイートの作成 ](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データのサイロを作成します。
 
 ## タグプロパティを作成し、重要な拡張機能をインストール
 

@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->有効 **2024 年 1 月 18 日**、Adobeで廃止された Reports &amp; Analytics とそれに伴うレポートおよび機能です。 その時点で、Reports &amp; Analytics とそのすべてのレポートおよびスケジュールが機能しなくなりました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。Analysis Workspaceでのレポートの使用について詳しくは、 [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md).
+>**2024 年 1 月 17 日** をもって、Adobeは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは動作を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。Analysis Workspaceでのレポートの使用について詳しくは、[ 事前定義済みレポートの使用 ](/help/analyze/analysis-workspace/reports/use-reports.md) を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 >
@@ -34,7 +34,7 @@ ht-degree: 96%
 | [!UICONTROL **説明がありません**] | 「説明」フィールドにまだ説明がないコンポーネントのみを表示します。このオプションは、管理者のみが使用できます。 |
 | [!UICONTROL **重複の表示**] | <p>選択したレポートスイート内の別のコンポーネントと同じ名前や同じ定義があるコンポーネントのみを表示します。重複として表示するには、名前または定義が完全に一致している必要があります。</p><p>このオプションは、管理者のみが使用できます。</p><p>**メモ：**&#x200B;定義には、ユーザー作成のコンポーネントとアドビ提供のコンポーネントが含まれます。名前には、現在、ユーザー作成のコンポーネントのみが含まれ、アドビ提供のコンポーネントは含まれません。アドビ提供のコンポーネントの重複した名前を表示する機能は、今後のリリースで追加される予定です。</p> |
 | [!UICONTROL **最近のデータがありません**] | 過去 90 日間にデータを収集していないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
-| [!UICONTROL **作成者Adobe**] <!-- I don't see this option--> | アドビが作成したコンポーネントのみを表示します。組織内の管理者または別のユーザーが作成したコンポーネントは表示しません。 |
+| [!UICONTROL **作成者：Adobe**]<!-- I don't see this option--> | アドビが作成したコンポーネントのみを表示します。組織内の管理者または別のユーザーが作成したコンポーネントは表示しません。 |
 
 {style="table-layout:auto"}
 

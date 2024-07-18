@@ -45,7 +45,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### Web SDK を使用した製品構文
 
-を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)、製品構文マーチャンダイジング変数は、次の XDM フィールドを使用します。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、製品構文マーチャンダイジング変数は次の XDM フィールドを使用します。
 
 * 製品構文マーチャンダイジング eVar は、`xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250` までにマッピングされます。
 * 製品構文マーチャンダイジングイベントは、`xdm.productListItems[]._experience.analytics.event1to100.event1.value` から `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value` までにマッピングされます。[イベントのシリアル化](events/event-serialization.md) XDM フィールドは、`xdm.productListItems[]._experience.analytics.event1to100.event1.id` から `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id` までにマッピングされます。
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上記の例のオブジェクトは、Adobe Analytics に `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` として送信されることになります。
 
-を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)、eVarマーチャンダイジングの使用 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 次のAppMeasurement構文に従います。
+[**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、eVarマーチャンダイジングは `data.__adobe.analytics.eVar1` – 次 `data.__adobe.analytics.eVar250`AppMeasurement構文を使用します。
 
 ## コンバージョン変数の構文を使用した実装
 
@@ -111,7 +111,7 @@ s.products = ";Canary";
 
 ### Web SDK を使用したコンバージョン変数構文
 
-を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、構文は他の [eVar](evar.md) および [イベント](events/events-overview.md). 上記の例を反映した XDM は、次のようになります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、構文は他の [eVars](evar.md) および [events](events/events-overview.md) の実装と同じように動作します。 上記の例を反映した XDM は、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 
@@ -142,7 +142,7 @@ s.products = ";Canary";
 ]
 ```
 
-を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;の場合、上記の例をミラーリングするデータオブジェクトは次のようになります。
+[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、上記の例を反映したデータオブジェクトは次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 

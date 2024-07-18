@@ -2,13 +2,13 @@
 description: Adobe Analytics で Adobe Campaign データを表示できます
 title: Adobe Analytics での Adobe Campaign データの表示
 feature: Admin Tools
-source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
-workflow-type: ht
+exl-id: a4bf0cc3-b63b-49a9-aefd-44a82d4d2495
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics での Adobe Campaign データの表示
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
       * 例えば、前年比指標のグラフを表示するときに、ニューヨークの上に -33% と表示することができます。
       * 「割合」タイプの指標の場合、クラスタリングで割合がまとめて平均化されます。
       * 緑／赤の色スキーム：ポジティブ／ネガティブ
+
    * [!UICONTROL Ctrl] キーを押しながらマップを動かし、2D または 3D のマップを&#x200B;**回転**&#x200B;します。
 
    * 後述の[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)を使用して、ヒートマップなど、別の表示に&#x200B;**切り替え**&#x200B;ます。バブル表示がデフォルト設定です。
-
 
 1. プロジェクトを&#x200B;**保存**&#x200B;して、すべてのマップ設定（座標、ズーム、回転）を保存します。
 1. 左側のパネルから場所のディメンションと指標をドラッグすることで、フリーフォームテーブル（以下のビジュアライゼーション）を設定できます。

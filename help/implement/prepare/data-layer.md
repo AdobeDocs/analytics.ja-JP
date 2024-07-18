@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `adobeDataLayer.page.title` です。
 1. **Adobe Experience Platform データ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**：この手順は、組織の実装方法によって次のように異なります。
-   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。詳しくは、 [Analytics XDM 変数のマッピング](../aep-edge/xdm-var-mapping.md) を使用して、目的のデータレイヤーマッピングを決定します。
+   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。目的のデータレイヤーマッピングを決定するには、[Analytics XDM 変数のマッピング ](../aep-edge/xdm-var-mapping.md) を参照してください。
    * **Analytics 拡張機能を使用する場合**：Adobe Experience Platform データ収集のタグにデータ要素を作成して、目的のデータレイヤーオブジェクトに割り当てます。次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
 
 ## 仕様

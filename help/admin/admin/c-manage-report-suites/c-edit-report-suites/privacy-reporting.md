@@ -12,11 +12,11 @@ ht-degree: 54%
 
 # プライバシーレポート
 
-プライバシーレポートで [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md), [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) および [広告プラットフォームの同意](/help/components//dimensions/ad-consent.md) レポートで使用するディメンションです。
+プライバシーレポートを使用すると、[ 同意管理のオプトイン ](/help/components/dimensions/cm-opt-in.md)、[ 同意管理のオプトアウト ](/help/components/dimensions/cm-opt-out.md) および [Ad Platform の同意 ](/help/components//dimensions/ad-consent.md) ディメンションをレポートで使用できます。
 
 >[!NOTE]
 >
->新しい Ad Platform 同意フラグが追加されました。 この新しい変数を有効にするには、データプライバシーレポートを再度有効にする必要があります。
+>新しい広告プラットフォーム同意フラグを追加しました。 この新しい変数を有効にするには、データプライバシーレポートを再度有効にする必要があります。
 
 このページにアクセスするには：
 
@@ -25,7 +25,7 @@ ht-degree: 54%
 
    ![設定を編集](assets/rsm-privacy-select.png)
 
-1. クリック **[!UICONTROL データプライバシーレポートを有効にする]**.
+1. 「**[!UICONTROL データプライバシーレポートを有効にする]**」をクリックします。
 
    >[!NOTE]
    >

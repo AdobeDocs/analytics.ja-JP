@@ -13,17 +13,17 @@ ht-degree: 83%
 
 # Analytics 拡張機能を使用した Adobe Analytics の実装
 
-Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeの現在の推奨方法は次のとおりです： [タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) Adobe Experience Platformで
+Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeが現在推奨するのは、Adobe Experience Platformの [ タグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用する方法です。
 
 Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
-アクティブなAdobe Experience Cloud契約を締結しているすべてのお客様は、タグを使用できます。 Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
+有効なAdobe Experience Cloud契約を締結しているすべてのお客様は、タグを使用できます。 Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
 
 実装タスクの大まかな概要：
 
 
 
-![Analytics 拡張機能ワークフローを使用したAdobe Analyticsの実装方法。この節で説明します。](../assets/analytics-extension-annotated.png)
+![ この節で説明しているように、Analytics 拡張機能ワークフローを使用してAdobe Analyticsを実装する方法 ](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -64,8 +64,8 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 <tr>
 <td>6</td> 
-<td><b>検証して実稼動環境に公開します</b>。タグプロパティを Web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">埋め込みコード</a><br/><a href="./validate-publish-prod.md">開発実装の検証と実稼動環境への公開</a></td>
+<td><b>検証して実稼動環境に公開します</b>。タグプロパティを web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code"> 埋め込みコード </a><br/><a href="./validate-publish-prod.md"> 開発実装の検証と実稼動環境への公開 </a></td>
 </tr>
 
 </table>

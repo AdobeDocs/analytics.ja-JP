@@ -1,5 +1,5 @@
 ---
-description: Analytics 全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
+description: Analytics 全体でAdobe Audience Manager オーディエンスディメンションを使用できます。 統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
 solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 feature: Audience Analytics
@@ -13,11 +13,11 @@ ht-degree: 89%
 
 # Analytics でのオーディエンスデータの使用
 
-Analytics 全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
+Analytics 全体でAdobe Audience Manager オーディエンスディメンションを使用できます。 統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
 
 ## Analysis Workspace {#workspace}
 
-Analysis Workspaceでは、Adobe Audience Managerセグメントは 2 つのディメンションとして表示されます。
+Analysis Workspaceでは、Adobe Audience Manager セグメントは 2 つのディメンションとして表示されます。
 
 1. **[!UICONTROL Workspace]** に移動します。
 1. 「**[!UICONTROL ディメンション]**」のリストから、ディメンション「**[!UICONTROL オーディエンス ID]**」または「**[!UICONTROL オーディエンス名]**」を選択します。名前は ID をわかりやすく分類するものです。
@@ -43,7 +43,7 @@ Analysis Workspaceでは、Adobe Audience Managerセグメントは 2 つのデ�
 
 ## Analysis Workspace でのカスタマージャーニー（フロー） {#flow}
 
-Adobe Audience Managerのセグメントデータは、ヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。Analysis Workspace で[フロー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ja)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
+Adobe Audience Manager セグメントデータは、ヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。Analysis Workspace で[フロー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ja)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
 
 1. **[!UICONTROL Workspace]** に移動して、左パネルから「**[!UICONTROL フロー]**」ビジュアライゼーションを選択します。
 

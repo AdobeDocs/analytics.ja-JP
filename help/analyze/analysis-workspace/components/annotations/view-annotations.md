@@ -6,7 +6,7 @@ feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 100%
 | --- | --- |
 | **1 日** | ![](assets/single-day.png)<p>注釈の上にマウスポインターを置くと、その詳細が表示されます。また、ペンアイコンを選択して注釈を編集することも、注釈を削除することもできます。<p> ![](assets/hover.png) |
 | **日付範囲** | アイコンが変わり、その上にマウスポインターを置くと、日付範囲が表示されます。<p>![](assets/multi-day.png)<p>折れ線グラフで選択すると、注釈のメタデータが表示され、それを編集または削除できます。            ![](assets/multi-hover.png)<p>テーブルでは、日付範囲のすべての日付にアイコンが表示されます。<p>![](assets/multi-day-table.png) |
-| **重複する注釈** | 複数の注釈が関連付けられている日のアイコンはグレーになります。<p>![](assets/grey.png)<p>グレーのアイコンの上にマウスポインターを置くと、重複するすべての注釈が表示されます。<p>![](assets/overlap.png) |
+| **重複する注釈** | 複数の注釈が関連付けられている日のアイコンはグレーになります。<p>![](assets/grey.png)<p>灰色のアイコンの上にポインタを合わせると、重複するすべての注釈が表示されます。<p>![](assets/overlap.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## .pdf ファイルで注釈を表示
 

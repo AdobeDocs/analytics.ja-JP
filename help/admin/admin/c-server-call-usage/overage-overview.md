@@ -15,8 +15,8 @@ ht-degree: 80%
 
 Adobe Analytics サーバーコールの使用状況は、ブラウザーとモバイルの両方のサーバーコールの使用状況データに対する透明性のリクエストに対処します。 これを利用すると、以下にアクセスできます。
 
-* サーバーコール消費データを追跡し、契約上の制限と比較するサーバーコール使用状況ダッシュボード。 （Adobe Analyticsで、 [!UICONTROL **Admin**] > [!UICONTROL **サーバーコールの使用状況**]）
-* アラートビルダーのサーバーコールの使用状況アラートタイプで、超過を防ぐためのアラートを設定できます（Adobe Analyticsでは [!UICONTROL **Components**] > [!UICONTROL **アラート**]）
+* サーバーコール消費データを追跡し、契約上の制限と比較するサーバーコール使用状況ダッシュボード。 （Adobe Analyticsで、/[!UICONTROL **管理者**]/[!UICONTROL **サーバーコールの使用状況**] を選択します）。
+* アラートビルダーのサーバーコールの使用状況アラートタイプで、超過を防ぐためのアラートを設定できます（Adobe Analyticsでは、[!UICONTROL **コンポーネント**]/[!UICONTROL **アラート**] を選択します）
 
 サーバーコールの使用の主なメリットには、次のものがあります。
 
@@ -26,7 +26,7 @@ Adobe Analytics サーバーコールの使用状況は、ブラウザーとモ�
 ## 前提条件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **権限：** サーバーコール使用状況ダッシュボード、アラートビルダー、アラートマネージャーにアクセスするには、Adobe Analytics管理者である必要があります。
-* **権限：** 管理者は、管理者以外のユーザーにアクセス権を付与できます。この権限は次のように呼ばれます **[!UICONTROL サーバーコールの使用状況]**. 参照： [サーバーコールの使用状況に関する権限](#server-call-usage-permission).
+* **権限：** 管理者は、管理者以外のユーザーにアクセス権を付与できます。この権限は **[!UICONTROL サーバーコールの使用状況]** と呼ばれます。 [ サーバーコールの使用状況に関する権限 ](#server-call-usage-permission) を参照してください。
 
 ## 重要な用語 {#terminology}
 
@@ -99,13 +99,13 @@ Adobe Analytics サーバーコールの使用状況は、ブラウザーとモ�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">sc.omniture.com を通じて Analytics にログインします。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">に移動します。 <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> すべての管理者 </span>  &gt; <span class="uicontrol"> ユーザー管理 </span>  &gt; <span class="uicontrol"> グループ </span>  &gt; <span class="uicontrol"> すべてのレポートアクセスを編集 </span>  &gt; <span class="uicontrol"> Analytics ツール </span>  &gt; <span class="uicontrol"> Customize </span>  &gt; <span class="uicontrol"> サーバーコールの使用状況 </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"> <span class="uicontrol"> Admin </span>/<span class="uicontrol"> すべての管理者 </span>/<span class="uicontrol"> User Management </span>/<span class="uicontrol"> Groups </span>/<span class="uicontrol"> すべてのレポートアクセスの編集 </span>/<span class="uicontrol"> Analytics ツール </span>/<span class="uicontrol"> </span> のカスタマイズ/<span class="uicontrol"> サーバーコールの使用状況 </span> </span> に移動します。 </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">login.experiencecloud.adobe.com にログインします。</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">「<span class="uicontrol">Analytics</span>」をクリックします。 </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">に移動します。 <span class="ignoretag"> <span class="uicontrol"> 製品 </span>  &gt; <span class="uicontrol"> 製品プロファイル </span>  &gt; <span class="uicontrol"> 権限 </span>  &gt; <span class="uicontrol"> Analytics ツール </span>  &gt; <span class="uicontrol"> サーバーコールの使用状況 </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF"><span class="ignoretag"> <span class="uicontrol"> Products </span>/<span class="uicontrol"> Product Profile </span>/<span class="uicontrol"> Permissions </span>/<span class="uicontrol"> Analytics Tools </span>/<span class="uicontrol"> サーバーコールの使用状況 </span> </span> に移動します。 </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

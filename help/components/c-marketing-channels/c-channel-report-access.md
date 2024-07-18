@@ -6,7 +6,7 @@ exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->アトリビューションとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、いくつかの [改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>アトリビューションと Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 >
->Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で説明しているように、組織のマーケティングチャネルを管理できます。
+>Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
 
 [Admin Console](https://adminconsole.adobe.com/) でマーケティングチャネルの様々な側面を操作するために必要な権限は、次のとおりです。
 

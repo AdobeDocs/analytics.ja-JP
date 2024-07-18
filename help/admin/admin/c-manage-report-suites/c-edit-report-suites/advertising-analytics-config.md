@@ -1,29 +1,29 @@
 ---
-description: Adobe AnalyticsでAdvertising Analyticsデータを表示できます
+description: Adobe AnalyticsでAdvertising Analytics データを表示できます
 title: Advertising Analyticsの設定
 feature: Admin Tools
-source-git-commit: 47ba1b9f7e03628976962b648a0faf8f6c59e82c
+exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 2%
 
 ---
 
-
 # Advertising Analyticsの設定
 
-すべてのGoogleおよび Bing 有料検索データを並べて表示するようにAdobe Analyticsを設定できます。
+Adobe Analyticsを設定して、すべてのGoogleと Bing ペイド検索のデータを並べて表示することができます。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **`<select report suite>`** > **[!UICONTROL 設定を編集]** > **[!UICONTROL Advertising Analytics Configuration]**
+**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/]**9}Advertising Analytics設定**[!UICONTROL 
 
-Adobe Analytics内では、次のデータを取得できます。
+Adobe Analytics内で次のデータを取得できます。
 
-* インプレッション
+* 印象
 
 * クリック数
 
-* 検索エンジンから直接データをコストにかける
+* 検索エンジンから直接データにかかるコスト
 
-* AMO ID インスタンス（クリックインスタンス）
+* AMO ID インスタンス （クリックインスタンス）
 
-詳しくは、 [Advertising Analyticsのガイド](/help/integrate/c-advertising-analytics/overview.md).
+詳しくは、[Advertising Analyticsのガイド ](/help/integrate/c-advertising-analytics/overview.md) を参照してください。

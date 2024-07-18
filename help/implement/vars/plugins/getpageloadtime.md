@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->このプラグインはサポートされなくなりました。 このコードでは、を使用します [`PerformanceTiming`](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming) ほとんどのブラウザーで非推奨（廃止予定）になっているインターフェイス。
+>このプラグインのサポートは終了しました。そのコードは、ほとんどの最新のブラウザーで非推奨となっている [`PerformanceTiming`](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming) インターフェイスを使用しています。
 
-この `getPageLoadTime` プラグインでは、JavaScript パフォーマンスオブジェクトを使用して、ページの完全な読み込みにかかる時間を測定できるようになりました。 このプラグインはサポートされなくなったため、インストール手順とプラグインコードは使用できなくなりました。
+`getPageLoadTime` プラグインでは、JavaScript パフォーマンスオブジェクトを使用して、ページの完全な読み込みにかかる時間を測定できます。 このプラグインはサポートされなくなったため、インストール手順とプラグインコードは使用できなくなりました。

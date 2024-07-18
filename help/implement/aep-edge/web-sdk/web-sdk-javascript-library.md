@@ -13,9 +13,9 @@ ht-degree: 18%
 
 この実装パスには、Web SDK JavaScript ライブラリを使用した新規 Web SDK インストールが含まれます。 その他の実装パスについては、次の別のページで説明しています。
 
-* [Web SDK タグ拡張機能](web-sdk-tag-extension.md):Web SDK タグ拡張機能を使用した新規 Web SDK インストール。 Web SDK JavaScript ライブラリのアプローチ（このページ）と同様に、Adobe Experience Platform Data Collection のタグを使用して実装を管理する点が異なります。 これには、XDM スキーマに含める一般的な Analytics 変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
-* [Analytics 拡張機能から Web SDK 拡張機能へ](analytics-extension-to-web-sdk.md):Adobe Analytics タグ拡張機能から Web SDK タグ拡張機能に移行するためのスムーズで系統的なアプローチを採用します。 このアプローチにより、Customer Journey AnalyticsなどのAdobe Experience Platform サービスを使用する準備が整うまで XDM を使用する必要がなくなります。 の使用 `data` の代わりにのオブジェクト `xdm` Adobeにデータを送信するオブジェクト。
-* [Web SDK JavaScript ライブラリのAppMeasurement](appmeasurement-to-web-sdk.md)：タグを使用しない点を除き、Web SDK に移行するためのスムーズで系統立ったアプローチ。 代わりに、Adobe Analytics データ収集ライブラリ（`AppMeasurement.js`）を選択し、Web SDK JavaScript ライブラリ（`alloy.js`）に設定します。
+* [Web SDK タグ拡張機能 ](web-sdk-tag-extension.md):Web SDK タグ拡張機能を使用した新規 Web SDK インストール。 Web SDK JavaScript ライブラリアプローチ（このページ）と似ていますが、Adobe Experience Platform Data Collection のタグを使用して実装を管理する点が異なります。 これには、XDM スキーマに含める一般的な Analytics 変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
+* [Analytics 拡張機能を Web SDK 拡張機能に ](analytics-extension-to-web-sdk.md):Adobe Analytics タグ拡張機能から Web SDK タグ拡張機能にスムーズかつ系統的なアプローチで移行します。 このアプローチにより、Customer Journey AnalyticsなどのAdobe Experience Platform サービスを使用する準備が整うまで XDM を使用する必要がなくなります。 データをAdobeに送信するには、`xdm` オブジェクトではなく `data` オブジェクトを使用します。
+* [Web SDK JavaScript ライブラリへのAppMeasurement](appmeasurement-to-web-sdk.md): タグを使用しない点を除き、Web SDK に移行するためのスムーズで系統的なアプローチです。 代わりに、Adobe Analytics データ収集ライブラリ（`AppMeasurement.js`）を手動で削除し、Web SDK JavaScript ライブラリ（`alloy.js`）に置き換えることができます。
 
 ## この実装パスのメリットとデメリット
 
@@ -23,7 +23,7 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 | メリット | デメリット |
 | --- | --- |
-| <ul><li>**直接アプローチ**：この実装パスは、既存のAdobe Analytics実装を移行するアプローチよりも簡単です。 現在Adobe Analyticsの実装を心配する必要がない場合は、該当する Web SDK XDM フィールドに値を入力します。</li><li>**定義済みスキーマ**：組織で独自のスキーマが必要ない場合は、Adobe Analytics向けのスキーマを使用するだけです。 この概念は、Customer Journey Analyticsに向かう途中でも当てはまります。prop と eVar の概念はCustomer Journey Analyticsには当てはまりませんが、prop と eVar を単純なカスタムディメンションとして引き続き使用できます。</li></ul> | <ul><li>**実装を変更するには、開発者の介入が必要です**:Web SDK 実装を変更する場合は、開発チームと協力してサイトのコードを編集する必要があります。 を使用するアプローチ [Web SDK タグ拡張機能](web-sdk-tag-extension.md) この欠点を回避します。</li><li>**特定のスキーマを使用してにロック**：組織がCustomer Journey Analyticsに移行する場合、Adobe Analytics スキーマを引き続き使用するか、独自の組織のスキーマ（個別のデータセット）に移行するかを選択する必要があります。 Customer Journey Analyticsへの移行時にAdobe Analytics スキーマと個別のデータセットへの移行の両方を避けたい場合、Adobeでは次の 2 つの方法のいずれかを推奨します。</li><ul><li>の使用 `data` オブジェクト：です `data` オブジェクトを使用すると、XDM スキーマに準拠せずにAdobe Analyticsにデータを送信できます。 組織のスキーマが作成されたら、データストリームマッピングを使用してマッピングできます `data` オブジェクトフィールドを XDM に変換します。 両方 [Analytics 拡張機能から Web SDK 拡張機能へ](analytics-extension-to-web-sdk.md) および [Web SDK JavaScript ライブラリのAppMeasurement](appmeasurement-to-web-sdk.md) これを使用 `data` オブジェクト。</li><li>Adobe Analyticsを完全にスキップする：Web SDK を実装している場合は、そのデータをAdobe Experience Platformのデータセットに送信して、Customer Journey Analyticsで使用できます。 任意のスキーマを使用できます。Adobe Analyticsは、このワークフローにはまったく関与しないので、Adobe Analytics ExperienceEvent フィールドグループは必要ありません。 この方法では、最低限の技術的負債しか発生しませんが、Adobe Analyticsは完全に全体像から外れています。</li></ul></ul> |
+| <ul><li>**直接のアプローチ**：この実装パスは、既存のAdobe Analytics実装を移行するアプローチよりも簡単です。 現在Adobe Analyticsの実装を心配する必要がない場合は、該当する Web SDK XDM フィールドに値を入力します。</li><li>**定義済みのスキーマ**：独自のスキーマが必要ない場合は、Adobe Analytics向けのスキーマを使用するだけです。 この概念は、Customer Journey Analyticsに向かう途中でも当てはまります。prop と eVar の概念はCustomer Journey Analyticsには当てはまりませんが、prop と eVar を単純なカスタムディメンションとして引き続き使用できます。</li></ul> | <ul><li>**実装の変更には開発者の介入が必要**:Web SDK の実装を変更する場合は、開発チームと協力してサイトのコードを編集する必要があります。 [Web SDK タグ拡張機能 ](web-sdk-tag-extension.md) を使用するアプローチでは、この欠点を回避できます。</li><li>**特定のスキーマを使用してにロック**：組織がCustomer Journey Analyticsに移行する場合、Adobe Analytics スキーマを引き続き使用するか、独自の組織のスキーマ（個別のデータセット）に移行するかを選択する必要があります。 Customer Journey Analyticsへの移行時にAdobe Analytics スキーマと個別のデータセットへの移行の両方を避けたい場合、Adobeでは次の 2 つの方法のいずれかを推奨します。</li><ul><li>`data` オブジェクトの使用：`data` オブジェクトを使用すると、XDM スキーマに準拠せずにAdobe Analyticsにデータを送信できます。 組織のスキーマが作成されたら、データストリームマッピングを使用して、`data` のオブジェクトフィールドを XDM にマッピングできます。 [Analytics extension to Web SDK extension](analytics-extension-to-web-sdk.md) と [Extension to Web SDK JavaScriptの両方のAppMeasurementで ](appmeasurement-to-web-sdk.md) この `data` オブジェクトを使用します。</li><li>Adobe Analyticsを完全にスキップする：Web SDK を実装している場合は、そのデータをAdobe Experience Platformのデータセットに送信して、Customer Journey Analyticsで使用できます。 任意のスキーマを使用できます。Adobe Analyticsは、このワークフローにはまったく関与しないので、Adobe Analytics ExperienceEvent フィールドグループは必要ありません。 この方法では、最低限の技術的負債しか発生しませんが、Adobe Analyticsは完全に全体像から外れています。</li></ul></ul> |
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 実装タスクの大まかな概要：
 
-![Web SDK ワークフローを使用してAdobe Analyticsを実装する方法について詳しくは、この節を参照してください。](../../assets/websdk-annotated.png)
+![ この節で説明しているように、Web SDK ワークフローを使用してAdobe Analyticsを実装する方法 ](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -53,7 +53,7 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 <tr>
 <td>2</td>
-<td><b>スキーマの設定</b>. Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
+<td><b> スキーマを設定 </b>. Adobe Experience Platform を活用するアプリケーション間で使用するデータ収集を標準化するために、アドビはオープンで公的に文書化された標準である Experience Data Model（XDM）を作成しました。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja">スキーマ UI の概要</a></td>
 </tr>
 
@@ -82,8 +82,8 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 <tr>
 <td>7</td>
-<td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID （以前のエッジ設定 ID （）で適切に設定されていることを確認します。<code>edgeConfigId</code>））、組織 id （<code>orgId</code>）、およびその他の使用可能なオプションです。 変数が適切にマッピングされていることを確認します。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK の設定</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数のマッピング</a></td>
+<td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID （以前のエッジ設定 ID （<code>edgeConfigId</code>））、組織 ID （<code>orgId</code>）、その他の使用可能なオプションで適切に設定されていることを確認します。 変数が適切にマッピングされていることを確認します。 </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピングの設定 </a></td>
 </tr>
 
 <tr>

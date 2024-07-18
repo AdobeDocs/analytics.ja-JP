@@ -19,16 +19,16 @@ Prop は、好きなだけ使用できるカスタム変数です。prop は、�
 
 >[!TIP]
 >
->ほとんどの場合、[eVar](evar.md) の使用をお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、Adobeでは eVar が改善され、prop のほとんどすべての使用例を満たすようになりました。
+>ほとんどの場合、[eVar](evar.md) の使用をお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、Adobeは eVar を改善し、prop のほとんどのユースケースを満たすようになりました。
 
 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)がある場合、これらのカスタムディメンションを組織に固有の値に割り当てることができます。使用可能な prop の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 75 個の prop を使用できます。
 
 ## Web SDK を使用した prop
 
-prop は次の変数にマッピングされます。
+prop は、次の変数にマッピングされます。
 
-* [XDM オブジェクト](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — リスト prop は [別々のフィールドセット](#list-props-web-sdk).
-* [データオブジェクト](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；または `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — リスト prop はこれらのフィールドに含まれます。
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md):`xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - リスト prop は、[ 別のフィールドのセット ](#list-props-web-sdk) で指定されます。
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md):`data.__adobe.analytics.prop1`～`data.__adobe.analytics.prop75`、または `data.__adobe.analytics.c1`～`data.__adobe.analytics.c75` - リスト prop がこれらのフィールドに含まれます。
 
 ## Adobe Analytics 拡張機能を使用した prop
 
@@ -38,7 +38,7 @@ Prop は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. を設定します。 [!UICONTROL 拡張] Adobe Analyticsのドロップダウンリスト、 [!UICONTROL アクションタイプ] から [!UICONTROL 変数を設定].
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL Props] セクションを見つけます。
 
 Prop 値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
@@ -65,9 +65,9 @@ s.prop1 = "Example custom value";
 
 ### Web SDK を使用したリスト prop の設定 {#list-props-web-sdk}
 
-を使用する場合、 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;の場合、リスト prop はにマッピングされます。 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK は、レポートスイート設定にリストされた正しい区切り文字を自動的に使用します。XDM フィールドで区切り文字を設定すると（例えば、`xdm._experience.analytics.customDimensions.props.prop1.delimiter`）、レポートスイート設定から自動的に取得された区切り文字が上書きされ、リスト prop 文字列の間違った解析につながる可能性があります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、リスト prop は `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` ～ `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` にマッピングされます。 Web SDK は、レポートスイート設定にリストされた正しい区切り文字を自動的に使用します。XDM フィールドで区切り文字を設定すると（例えば、`xdm._experience.analytics.customDimensions.props.prop1.delimiter`）、レポートスイート設定から自動的に取得された区切り文字が上書きされ、リスト prop 文字列の間違った解析につながる可能性があります。
 
-を使用する場合、 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;の場合、リスト prop は標準の prop と同じフィールドを使用し、AppMeasurement構文に従います。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、list prop は標準 prop と同じフィールドを使用し、AppMeasurementの構文に従います。
 
 ### Adobe Analytics 拡張機能および AppMeasurement を使用したリスト prop の設定
 

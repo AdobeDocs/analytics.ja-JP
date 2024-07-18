@@ -1,6 +1,6 @@
 ---
 description: リクエストの複数のコピーを作成する方法を説明します。
-title: リクエストの複数コピーの作成方法
+title: リクエストの複数のコピーを作成する方法
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin

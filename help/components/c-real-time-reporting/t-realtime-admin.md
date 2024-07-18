@@ -5,20 +5,20 @@ feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '291'
 ht-degree: 78%
 
 ---
 
 # リアルタイムレポートの設定
 
-次の情報に、リアルタイムレポートを設定するための管理者の手順を示します。
+次の情報には、リアルタイムレポートを設定するための管理手順が含まれています。
 
 これは、レポートスイートの選択と、そのレポートスイートに対する最大 3 つのレポートの設定で構成されます。
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
-   1. Analysis Workspaceで、 [!UICONTROL **Workspace**] 「 」タブで、「 [!UICONTROL **レポート**] > [!UICONTROL **エンゲージメント**] > **[!UICONTROL リアルタイム]**.
+   1. Analysis Workspaceで、「[!UICONTROL **Workspace**]」タブを選択し、[!UICONTROL **レポート**]/[!UICONTROL **エンゲージメント**]/**[!UICONTROL リアルタイム]** を選択します。
 
    1. 上部のドロップダウンからレポートスイートを選択します。
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. 選択 **[!UICONTROL 設定]** を実行する [!UICONTROL Report Suite Manager].
+1. **[!UICONTROL 設定]** を選択して、[!UICONTROL  レポートスイートマネージャー ] を実行します。
 
    （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
 
@@ -55,7 +55,7 @@ ht-degree: 78%
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. 選択 **[!UICONTROL 保存]** または **[!UICONTROL レポートの保存と表示]**.
+1. **[!UICONTROL 保存]** または **[!UICONTROL 保存してレポートを表示]** を選択します。
 
    この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=ja)を参照してください。
 

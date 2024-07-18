@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # linkDownloadFileTypes
 
-条件 [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) または [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK) が有効になっていて、訪問者がリンクをクリックすると、AppMeasurementはリンクの URL でファイルタイプ拡張子を確認します。 リンク URL に一致するファイルタイプが含まれている場合、ダウンロードリンクイメージリクエストが自動的に送信されます。
+[`trackDownloadLinks`](trackdownloadlinks.md) （AppMeasurement）または [`clickCollectionEnabled`](trackdownloadlinks.md) （Web SDK）が有効になっており、訪問者がリンクをクリックすると、AppMeasurementーはリンクの URL を調べて filetype 拡張機能を確認します。 リンク URL に一致する filetype が含まれている場合、ダウンロードリンク画像リクエストが自動的に送信されます。
 
 `linkDownloadFileTypes` を使用して、ダウンロードリンクとしてカウントするファイル拡張子をカスタマイズします。
 
@@ -26,22 +26,22 @@ ht-degree: 55%
 >* 右クリックして「ターゲットに名前を付けて保存…」を選択します
 >* JavaScript を使用するリンク（`javascript:openLink()` など）
 >
->これらのダウンロードタイプでは、 [`link tracking`](../functions/tl-method.md) を呼び出します。
+>これらのダウンロードタイプについては、[`link tracking`](../functions/tl-method.md) 呼び出しを手動で送信できます。
 
 クリックされたリンクが離脱リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
-## Web SDK 拡張機能を使用してリンク修飾子をダウンロード
+## Web SDK 拡張機能を使用したリンク修飾子のダウンロード
 
-The [!UICONTROL リンク修飾子をダウンロード] テキストフィールドは正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
+[!UICONTROL  ダウンロードリンク修飾子 ] テキストフィールドでは、正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
-1. の下 [!UICONTROL データ収集]」をクリックし、 **[!UICONTROL リンク修飾子をダウンロード]** テキストフィールド。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
 
-## Web SDK を手動で実装するリンク修飾子をダウンロード
+## Web SDK を手動で実装するリンク修飾子のダウンロード
 
-[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用する SDK [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking). このフィールドは、クリックされた URL の正規表現を使用して、有効なダウンロードリンクであるかどうかを判断します。 次の場合 `downloadLinkQualifier` が定義されていない場合、デフォルト値は `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking) を使用した SDK の [ 設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)。 このフィールドでは、クリックされた URL に対して正規表現を使用して、有効なダウンロードリンクかどうかを判断します。 `downloadLinkQualifier` が定義されていない場合、デフォルト値は `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` に設定されます。
 
 ```json
 alloy("configure", {
@@ -58,9 +58,9 @@ alloy("configure", {
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「**[!UICONTROL ダウンロード拡張子]**」フィールドが表示されます。
 
-フィールドにテキストを入力し、「**[!UICONTROL 追加]**」をクリックして、リストにファイル拡張子を追加します。リストからファイル拡張子を削除するには、該当する **&#39;X&#39;** アイコン。
+フィールドにテキストを入力し、「**[!UICONTROL 追加]**」をクリックして、リストにファイル拡張子を追加します。ファイル拡張子の **&#39;X&#39;のアイコンをクリックして、リストからファイル拡張子** 削除します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkDownloadFileTypes
+## AppMeasurementーおよび Analytics 拡張機能のカスタムコードエディターの s.linkDownloadFileTypes
 
 `s.linkDownloadFileTypes` 変数は、コンマで区切られたファイル拡張子の文字列です。スペースは使用しないでください。
 

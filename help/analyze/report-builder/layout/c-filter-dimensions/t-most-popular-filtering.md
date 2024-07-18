@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Boolean ロジックと AND／OR 検索式を使用して設定する、ラン�
 
 1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの横にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 
-   ![[ フィルタを定義 ] ダイアログボックスが表示され、[ アプリケーション ]、[ ユーザ ]、[ プロジェクト ] でフィルタを設定するオプションが表示されます。](/help/admin/admin/assets/filter.png)
+   ![ アプリケーション、ユーザーおよびプロジェクトでフィルターするためのオプションを含んだフィルターを定義ダイアログを示すスクリーンショット。](/help/admin/admin/assets/filter.png)
 
 1.  「[!UICONTROL ページを選択]」フォームで、「**[!UICONTROL ランクから選択]**」を有効にして、次のオプションを設定します。
 
@@ -43,15 +43,15 @@ Boolean ロジックと AND／OR 検索式を使用して設定する、ラン�
 1. 「[!UICONTROL フィルターを定義]」フォームで、必要に応じて条件を設定します。
 
 
-   ![[ フィルタを定義 ] ダイアログボックスを示すスクリーンショット。](assets/expressions_define_filter.png)
+   ![ フィルターを定義ダイアログを示すスクリーンショット。](assets/expressions_define_filter.png)
 
-   セルを選択アイコンを使用すると、セルの値に定義された条件を指定できます。 ![セルを選択アイコン。](assets/select_cell_icon.png)
+   「セルを選択」アイコンを使用すると、セルの値で定義した条件を見つけることができます。 ![ セルを選択アイコン ](assets/select_cell_icon.png)
 
-   The **条件を追加** 「リンク」を使用すると、式に条件を追加できます。 追加できる条件の数に制限はありません。
+   **条件を追加** リンクを使用すると、式に条件を追加できます。 追加できる条件の数に制限はありません。
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-   ![フィルターを定義ダイアログのスクリーンショット。右下に「OK」ボタンが表示されます。](assets/choose_page_02.png)
+   ![ 右下の「OK」ボタンを含んだフィルターを定義ダイアログのスクリーンショット ](assets/choose_page_02.png)
 
 1. 「[!UICONTROL ページを選択]」で「**[!UICONTROL 保存]**」をクリックし、式を保存します。
 1. 「**[!UICONTROL OK]**」をクリックします。

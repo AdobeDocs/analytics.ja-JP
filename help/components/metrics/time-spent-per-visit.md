@@ -1,11 +1,11 @@
 ---
-title: 訪問別滞在時間（指標）
+title: 訪問あたりの滞在時間（指標）
 description: ディメンション項目の訪問別滞在時間。
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '263'
 ht-degree: 88%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 *このヘルプページでは、「訪問別滞在時間」が指標としてどのように機能するかを説明します。詳しくは、[訪問別滞在時間](../dimensions/time-spent-per-visit.md)ディメンションを参照してください。*
 
-「訪問別滞在時間（秒）」 [指標](overview.md) 各訪問中に訪問者が特定のディメンション項目とやり取りした平均時間を示します。
+「訪問あたりの滞在時間（秒）」 [ 指標 ](overview.md) は、訪問者が各訪問中に特定のディメンション項目を操作した平均時間を示します。
 
 この指標は、処理アーキテクチャが異なるので、Data Warehouse では使用できません。
 

@@ -17,4 +17,4 @@ ht-degree: 91%
 Workspace で、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報と設定]**&#x200B;の下で、[繰り返しインスタンスを含めるまたは除外する](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)ように選択できます。これらはデフォルトで含まれます。
 
 >[!NOTE]
->この設定は、[!UICONTROL フロー]または[!UICONTROL フォールアウト]のビジュアライゼーションには適用されません。Workspace では、 [!UICONTROL 流量] 独自の [設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) 繰り返しを削除する場合。
+>この設定は、[!UICONTROL フロー]または[!UICONTROL フォールアウト]のビジュアライゼーションには適用されません。Workspaceでは、[!UICONTROL  フロー ] には、繰り返しを削除するための独自の [ 設定 ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) があります。

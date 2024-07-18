@@ -37,7 +37,7 @@ Adobe Experience Cloudは、ブランドのデータガバナンスインフラ�
 
 アドビは、お客様自身がレポートスイートのカスタムデータのことを最も熟知していると考えているので、お客様がデータガバナンスの各種設定を指定できるようにしています。そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
 
-参照： [レポートスイートのデータのラベル設定](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) ラベルの設定方法について詳しくは、こちらを参照してください。
+ラベルの設定方法について詳しくは、[ レポートスイートのデータのラベル設定 ](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) を参照してください。
 
 ## 前提条件
 

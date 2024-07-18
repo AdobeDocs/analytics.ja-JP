@@ -5,7 +5,7 @@ feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
 source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 99%
 
 ---

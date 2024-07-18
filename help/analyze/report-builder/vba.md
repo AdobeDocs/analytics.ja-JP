@@ -1,27 +1,27 @@
 ---
 title: Report Builderで Visual Basic マクロを使用する方法
-description: VBA マクロを使用して、Excel のブックやReport Builderの機能を拡張する方法を説明します。
+description: VBA マクロを使用して Excel ブックとReport Builderの機能を拡張する方法について説明します。
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
 # Report Builder の Visual Basic マクロ
 
-Visual Basic (VBA) マクロには、Excel ブックを更新するのに役立つ機能が用意されています。 Visual Basic は、ブック、Excel、および Windows にアクセスできます。
+Visual Basic （VBA） マクロには、Excel ブックの更新に役立つ機能が用意されています。 Visual Basic は、ブック、Excel、および Windows にアクセスできます。
 
-VBA マクロを実行する前に、最新バージョンのReport Builderを実行し、ログインする必要があります。
+VBA マクロを実行する前に、最新バージョンのReport Builderを実行してログインする必要があります。
 
 >[!IMPORTANT]
 >
 >セキュリティ上の理由から、マクロを含むブックをスケジュールすることはできません。
 
-アドビは 3 つの Report Builder API メソッドをサポートしています。
+Adobeでは、3 つのReport BuilderAPI メソッドをサポートしています。
 
 ## `RefreshAllReportBuilderRequests()`
 

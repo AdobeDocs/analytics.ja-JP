@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3123'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 
 | 環境設定 | オプション |
 | --- | --- |
-| ランディングページ | Adobe Analytics にアクセスしたときにデフォルトのページとして表示するページを選択します。 <ul><li>プロジェクトリスト（デフォルト）</li><li>空のプロジェクト</li><li>特定のプロジェクトリストから選択</li></ul> |
+| ランディングページ | Adobe Analytics にアクセスしたときにデフォルトのページとして表示するページを選択します。 <ul><li>プロジェクトリスト（デフォルト）</li><li>空のプロジェクト</li><li>リストから選択された特定のプロジェクト</li></ul> |
 | ヒントを表示 | Analysis Workspace の右下にある青いボックスにヒントを表示します。 <p>このオプションは、デフォルトでは有効になっています。</p> |
 | 左側のパネルグループに表示されるコンポーネント | 左側のパネルのコンポーネントメニューに表示する各コンポーネントの数を選択します。 <p>0 を選択すると、ワークスペースの左側のパネルからコンポーネントにアクセスできなくなります。</p><p>デフォルトでは、次の各項目に対して 5 つのコンポーネントが表示されます。</p> <ul><li>ディメンション</li><li>指標</li><li>フィルター</li><li>日付範囲</li></ul> <p>Analysis Workspace のコンポーネントについて詳しくは、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。</p> |
 
@@ -80,7 +80,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 |  | [パネルタイプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) | <ul><li>フリーフォーム（デフォルト）</li><li>空白</li><li>クイックインサイト</li></ul> |
 |  | 繰り返しインスタンスのカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。オフになっている場合は、単一ページビューとしてカウントされます。 <p>**メモ：** この設定は、特定の指標（単一ページ訪問数など）にのみ影響し、フロービジュアライゼーションやフォールアウトビジュアライゼーションには適用されません。</p> |
 |  | 数値の形式 | <ul><li>1,000.00（デフォルト）</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | CSV 区切り文字文字 | <ul><li>コンマ（デフォルト）</li><li>セミコロン</li><li>コロン</li><li>パイプ</li><li>ピリオド</li><li>空白文字</li><li>タブ</li></ul> |
+|  | CSV 区切り文字 | <ul><li>コンマ（デフォルト）</li><li>セミコロン</li><li>コロン</li><li>パイプ</li><li>ピリオド</li><li>空白文字</li><li>タブ</li></ul> |
 |  | 注釈を表示 | 注釈をプロジェクトに表示するかどうかを選択します。注釈について詳しくは、[注釈：概要](/help/analyze/analysis-workspace/components/annotations/overview.md)を参照してください。 |
 
 ## フリーフォームテーブルの環境設定
@@ -95,7 +95,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 | --- | --- | --- |
 | **テーブル** | | |
 | | テーブルタイプ | <ul><li>フリーフォーム</li><li>テーブルビルダー</li></ul> |
-| | デフォルトのテーブル指標 | <ul><li>発生件数</li><li>ユニーク訪問者</li><li>訪問数</li></ul> |
+| | デフォルトのテーブル指標 | <ul><li>発生件数</li><li>ユニーク訪問者</li><li>訪問回数</li></ul> |
 | | デフォルトのテーブルディメンション | 分、時間、日、週、月、四半期、年から選択します。 |
 | | 日付の整列 | このオプションを選択して各列の日付を整列させ、すべて同じ行から始まるようにすることもできます。 |
 | **[列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |

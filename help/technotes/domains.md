@@ -2,7 +2,8 @@
 title: Adobe Analyticsが使用するドメイン
 description: Adobe Analyticsを使用して最適なエクスペリエンスを得るには、組織のファイアウォールを通過してこれらのドメインを許可します。
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 13%
@@ -28,10 +29,10 @@ ht-degree: 13%
 
 ## Adobe Experience Cloud ドメイン
 
-上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 参照： [Adobe Experience Cloudが使用するドメイン](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) （ドメインのこのリスト）。
+上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) を参照してください。
 
 >[!MORELIKETHIS]
 >
->[Adobe Analyticsで使用される IP アドレス](ip-addresses.md)
+>[Adobe Analyticsで使用される IP アドレス ](ip-addresses.md)
 >
->[Adobe Experience Cloudが使用するドメイン](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloudが使用するドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

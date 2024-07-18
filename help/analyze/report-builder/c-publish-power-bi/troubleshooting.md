@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 68%
+source-wordcount: '329'
+ht-degree: 64%
 
 ---
 
@@ -37,13 +37,13 @@ Report Builder リクエストを Power BI に発行した後にビジュアラ�
 
 >[!IMPORTANT]
 >
->Report Builderでは、組織のリソースへのアクセスを認証する管理者が必要です。 アクセス権が必要な場合は、管理者に権限の付与を依頼してください。
-> Microsoftの管理者が *ユーザーはアプリを登録できます* 次の場所に設定が見つかりました： **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 「ユーザー設定」ではオプションを使用できます]**. このオプションが **いいえ**&#x200B;を使用しない場合、管理者はこれらのタイプのアプリケーションを登録できます。
+>Report Builderのリソースへのアクセスを許可するには管理者が必要です。 アクセス権が必要な場合は、管理者に権限の付与を依頼してください。
+> Microsoft管理者は、**[!UICONTROL Microsoft Azure]**/**[!UICONTROL Azure Active Directory]**/**[!UICONTROL ユーザー設定許可オプション]** の下にある *ユーザーはアプリケーションを登録できる* 設定を確認できます。 このオプションを **いいえ** に設定すると、管理者はこれらのタイプのアプリケーションを登録できます。
 
-ユーザーは、 [MicrosoftPower BIアカウント](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+ユーザーは、自分の [Microsoft Power BIアカウント ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) にログインしてアクセス権を付与できます。
 
-管理者は、 [管理者のMicrosoftPower BIアカウント](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+管理者は、自分の [ 管理者のMicrosoft Power BIアカウント ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) にログインして、すべてのユーザーにアクセス権を付与できます。
 
-## API 制限への到達
+## API 制限に到達しています
 
-Power BIのレポートは Analytics レポート API で機能するので、API しきい値の制限が適用されます。 詳しくは、 [Web サービスのエラーコード](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+Power BIのレポートは Analytics レポート API と連携するので、API しきい値の制限が適用されます。 詳しくは、[Web サービスのエラーコード ](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md) を参照してください。

@@ -30,7 +30,7 @@ ht-degree: 100%
    * 既存のタグから選択するか、
    * 新しいタグを追加して、**[!UICONTROL Enter]** キーを押します。
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. 「**[!UICONTROL タグ]**」を再度クリックしてセグメントにタグを付けます。
 

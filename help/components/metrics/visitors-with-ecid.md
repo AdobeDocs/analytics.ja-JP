@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '361'
 ht-degree: 93%
 
 ---
 
 # Experience Cloud ID を持つ訪問者
 
-「Experience CloudID を持つ訪問者」 [指標](overview.md) は、 [Experience CloudID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja). この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
+「Experience CloudID を持つ訪問者 [ 指標 ](overview.md) は、[Experience CloudID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用してAdobeによって識別されたユニーク訪問者の数を示します。 この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
 
 >[!NOTE]
 >

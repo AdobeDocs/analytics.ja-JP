@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # セキュアファイル転送プロトコル - 概要
 
-SFTP は、データ転送を安全に行うためのプロトコルで、自分以外のユーザーがデータを見ることはできません。 Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
+SFTP は、データを転送するための安全なプロトコルで、あなた以外のデータを誰にも見られないようにします。 Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
 
 ## プッシュ配信 {#section_A47831BB1DCA490BB57F0940617AA506}
 
@@ -21,7 +21,7 @@ SFTP は、データ転送を安全に行うためのプロトコルで、自分
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) と [Analytics のデータフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja)は、SFTP 経由でデータをプッシュできます。
 
-Report Builder **できません** SFTP 経由でデータをプッシュします。
+Report Builder **SFTP 経由でデータをプッシュできません**。
 
 ## プル配信 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

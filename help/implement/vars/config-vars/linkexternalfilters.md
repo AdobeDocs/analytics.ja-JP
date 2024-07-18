@@ -15,7 +15,7 @@ ht-degree: 91%
 
 AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。[`trackExternalLinks`](trackexternallinks.md)（AppMeasurement）または [`clickCollectionEnabled`](trackexternallinks.md)（Web SDK）が有効になっている場合、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。`linkExternalFilters` 変数と [`linkInternalFilters`](linkinternalfilters.md) 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、出口リンクの自動トラッキングは許可リストのように動作します。 リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは離脱リンクと見なされません。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリ文字列も調べられます。
+この変数に値が含まれる場合、離脱リンクの自動トラッキングは許可リストのように動作します。 リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは離脱リンクと見なされません。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリ文字列も調べられます。
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 詳しくは、Web SDK ドキュメントの[自動リンクトラッキング](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking)を参照してください。
 
-## アウトバウンドリンク — Adobe Analytics拡張機能を使用した追跡
+## Adobe Analytics拡張機能を使用したアウトバウンドリンク – トラック
 
 「追跡」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
@@ -40,7 +40,7 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 常に外部と見なすフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターの s.linkExternalFilters
+## AppMeasurementーの s.linkExternalFilters と Analytics 拡張機能のカスタムコードエディター
 
 `s.linkExternalFilters` 変数は、離脱リンクと見なすフィルター（ドメインなど）を含む文字列です。複数のドメインは、スペースなしのコンマで区切ります。
 
