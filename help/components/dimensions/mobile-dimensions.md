@@ -4,7 +4,7 @@ description: デバイスの IP アドレスとユーザーエージェントに
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
 ht-degree: 100%
 
