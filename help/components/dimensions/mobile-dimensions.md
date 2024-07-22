@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # モバイル参照ディメンション
 
-*このページは、お客様の web サイトにアクセスするモバイルデバイスのプロパティを参照します。モバイルアプリ内でのトラッキングについては、[モバイルライフサイクルディメンション](lifecycle-dimensions.md)または[モバイルライフサイクル指標](../metrics/lifecycle-metrics.md)を参照してください。*
+*このページは、お客様の web サイトにアクセスするモバイルデバイスのプロパティを参照します。モバイルアプリ内での追跡については、[モバイルライフサイクルディメンション](lifecycle-dimensions.md)または[モバイルライフサイクル指標](../metrics/lifecycle-metrics.md)を参照してください。*
 
 モバイル参照[ディメンション](overview.md)は、サイトを訪問したモバイルデバイスのプロパティに関するインサイトを提供します。これらのプロパティは、ヒットのユーザーエージェントと IP アドレスに基づいています。これらのディメンションを使用すると、モバイルデバイスがサポートする機能を理解するのに役立ちます。
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 これらのディメンションは、アドビ内部の参照ルールを参照します。
 
-* [!UICONTROL 携帯電話会社]のディメンションについては、アドビでは NetAcuity を使用して [Digital Element](https://www.digitalelement.com/) と提携し、IP アドレスと携帯電話会社の間の参照を維持します。
-* 他のすべてのモバイルディメンションについては、アドビでは [DeviceAtlas](https://deviceatlas.com/) と提携し、ユーザーエージェントとそれぞれのモバイルディメンションの間の参照を維持します。
+* [!UICONTROL 携帯電話会社]ディメンションに関して、Adobe は[Digital Element](https://www.digitalelement.com/) と提携して NetAcuity を使用し、IP アドレスと携帯電話会社間の参照を維持しています。
+* その他すべてのモバイルディメンションに関して、Adobe は [DeviceAtlas](https://deviceatlas.com/) と提携して、ユーザーエージェントと各モバイルディメンション間の参照を維持しています。
 
 これらのディメンションを使用できるかどうかは、実装タイプによって異なります。
 
 * AppMeasurement 実装の場合、これらのディメンションは標準で使用できます。
-* Web SDK 実装の場合、[データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)する際に、[!UICONTROL 位置情報参照]（携帯電話会社の場合）または[!UICONTROL デバイス参照]（他のすべてのディメンションの場合）を有効にします。
+* Web SDK 実装の場合、[データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL  Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
 
 ## モバイルディメンションの説明
 
