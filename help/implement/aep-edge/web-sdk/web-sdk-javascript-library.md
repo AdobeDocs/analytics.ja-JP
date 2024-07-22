@@ -2,7 +2,7 @@
 title: Web SDK JavaScript ライブラリを使用したAdobe Analyticsへのデータの送信
 description: まず、JavaScript ライブラリを使用してAdobe Analyticsにデータを送信する、クリーンな Web SDK の実装から始めます。
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 <tr>
 <td>7</td>
-<td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID （以前のエッジ設定 ID （<code>edgeConfigId</code>））、組織 ID （<code>orgId</code>）、その他の使用可能なオプションで適切に設定されていることを確認します。 変数が適切にマッピングされていることを確認します。 </td>
+<td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID （以前のエッジ設定 ID （<code>datastreamId</code>））、組織 ID （<code>orgId</code>）、その他の使用可能なオプションで適切に設定されていることを確認します。 変数が適切にマッピングされていることを確認します。 </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピングの設定 </a></td>
 </tr>
 

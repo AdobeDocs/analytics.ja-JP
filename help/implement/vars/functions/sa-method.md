@@ -4,7 +4,7 @@ description: いつでも実装のレポートスイートを変更できます�
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ Web SDK 拡張機能には、各環境の「データストリーム」ドロッ
 
 ## Web SDK を手動で実装する目的のデータストリームを設定します。
 
-`edgeConfigId` 設定変数をデータストリーム ID に設定します。 Adobe Experience Platform Data Collection でデータストリームを表示すると、データストリーム ID が右側に見つかります。
+`datastreamId` 設定変数をデータストリーム ID に設定します。 Adobe Experience Platform Data Collection でデータストリームを表示すると、データストリーム ID が右側に見つかります。
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

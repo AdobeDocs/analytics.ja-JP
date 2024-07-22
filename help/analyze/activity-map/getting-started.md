@@ -4,7 +4,7 @@ description: Activity Mapのオーバーレイと寸法の使用を開始しま�
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -60,9 +60,9 @@ Web SDK 設定変数 [`clickCollectionEnabled`](https://experienceleague.adobe.c
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-  "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg",
-  "clickCollectionEnabled": true
+  datastreamId: "ebebf826-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg",
+  clickCollectionEnabled: true
 });
 ```
 
