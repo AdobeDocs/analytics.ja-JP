@@ -4,10 +4,10 @@ title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '505'
+ht-degree: 51%
 
 ---
 
@@ -37,13 +37,41 @@ ht-degree: 94%
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## 計算指標
+## 計算指標の作成
 
-計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。計算指標を作成する方法はいくつかあります。
+計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。
 
-* 左側にあるコンポーネントのリストの下で、指標ヘッダーの横にあるプラスアイコンをクリックします。
-* **[!UICONTROL コンポーネント]**／**[!UICONTROL 計算指標]**／**[!UICONTROL 追加]**&#x200B;に移動します。
-* 1 つ以上のヘッダー列のセルが選択されている場合は、列見出しを右クリックして、**[!UICONTROL 選択から指標を作成]**&#x200B;に移動します。このオプションでは、計算指標ルールビルダーを使用しなくても、計算指標が自動的に作成されます。
+計算指標を作成する方法はいくつかあります。 選択した方法によって、計算指標をすべてのプロジェクトのコンポーネントリストから使用できるか、計算指標が作成されたプロジェクトでのみ使用できるかが決まります。
+
+### すべてのプロジェクトの計算指標を作成
+
+計算指標ビルダーを使用して、計算指標を作成できます。 この方法で作成した場合、計算指標はコンポーネントリストで使用できるので、組織全体のプロジェクトで使用できます。
+
+計算指標ビルダーへのアクセス方法について詳しくは、[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を参照してください。
+
+### 単一プロジェクトの計算指標の作成
+
+作成したプロジェクトでのみ使用できるクイック計算指標を作成できます。
+
+単一プロジェクトの計算指標を作成するには：
+
+1. Analysis Workspaceで、計算指標を作成するプロジェクトを開きます。
+
+1. フリーフォームテーブルで、1 つ以上のヘッダー列のセルを右クリックし、「**[!UICONTROL 選択から指標を作成]**」を選択します。
+
+   ![ 選択範囲から作成を強調表示したWorkspace パネル ](assets/create-metric-from-selection.png)
+
+1. このプロジェクトにのみ計算指標を作成するには、次のオプションから選択します。
+
+   * [!UICONTROL **除算**]
+
+   * [!UICONTROL **減算**]
+
+   * [!UICONTROL **追加**]
+
+   * [!UICONTROL **Multiply**]
+
+   計算指標ビルダーを開いて、すべてのプロジェクトの計算指標を作成するには、「[!UICONTROL **計算指標ビルダーで開く**]」を選択して [ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を続行します。
 
 [計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
