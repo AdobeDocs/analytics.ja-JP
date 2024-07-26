@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
 workflow-type: tm+mt
-source-wordcount: '3425'
-ht-degree: 75%
+source-wordcount: '3578'
+ht-degree: 68%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 75%
 | **`color`** | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`connection_type`** | 接続タイプを表す数値 ID。 [ 接続タイプ ](/help/components/dimensions/connection-type.md) ディメンション。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`cookies`** | [Cookie サポート ](/help/components/dimensions/cookie-support.md) ディメンション。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| **`country`** | 訪問者の国を表す数値 ID。 `country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
+| **`country`** | 訪問者国を表す数値 ID。 `country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`ct_connect_type`** | `connection_type` 列と関連しています。最も一般的な値は、LAN/Wifi、モバイル キャリア、およびモデムです。 | char(20) |
 | **`curr_factor`** | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD は小数点以下 2 桁を使用しているので、この列の値は `2` になります。 | tinyint |
 | **`curr_rate`** | トランザクションが発生した時点の為替レート。アドビでは XE 社との提携により、当日の為替レートを決定しています。 | decimal(24,12) |
@@ -70,8 +70,8 @@ ht-degree: 75%
 | **`duplicated_from`** | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットがどのレポートスイートからコピーされたかを示します。 | varchar(40) |
 | **`ef_id`** | Adobe Advertising 統合で使用される `ef_id`。 | varchar(255) |
 | **`evar1 - evar250`** | カスタム変数 1 ～ 250。「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、組織に固有の [ ソリューションデザインドキュメント ](/help/implement/prepare/solution-design.md) を参照してください。 | varchar(255) |
-| **`event_list`** | ヒットに対してトリガーされたイベントを表す数値 ID のコンマ区切りリスト。 デフォルトイベントと [ カスタムイベント 1 ～ 1000](/help/components/metrics/custom-events.md) の両方が含まれます。 `event.tsv` ルックアップを使用します。 | テキスト |
-| **`exclude_hit`** | ヒットがレポートから除外されるかどうかを決定するフラグ。 除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
+| **`event_list`** | ヒットでトリガーされるイベントを表す数値 ID のコンマ区切りリスト。 デフォルトイベントと [カスタムイベント 1-1000](/help/components/metrics/custom-events.md) の両方が含まれます。 `event.tsv` ルックアップを使用します。 | テキスト |
+| **`exclude_hit`** | ヒットをレポートから除外するかどうかを決定するフラグ。 除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
 | **`first_hit_page_url`** | 訪問者の本当に最初の URL。 | varchar(255) |
 | **`first_hit_pagename`** | [ オリジナルの入口ページ ](/help/components/dimensions/entry-dimensions.md) ディメンション。 訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | **`first_hit_ref_domain`** | [ オリジナルの参照ドメイン ](/help/components/dimensions/original-referring-domain.md) ディメンション。 `first_hit_referrer` に基づきます。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
@@ -92,7 +92,7 @@ ht-degree: 75%
 | **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | **`java_enabled`** | [[!UICONTROL Java 有効 ]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| **`javascript`** | `j_jscript` に基づく、JavaScript バージョンのルックアップ ID。 `javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
+| **`javascript`** | `j_jscript`に基づくJavaScriptバージョンの参照 ID。`javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 訪問者の言語を表す数値 ID。 `languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
 | **`last_purchase_num`** | 「[ 顧客ロイヤルティ ](/help/components/dimensions/customer-loyalty.md)」ディメンション。 訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
@@ -159,14 +159,14 @@ ht-degree: 75%
 | **`pointofinterest`** | Mobile Services 目標地点の名前 | varchar(255) |
 | **`pointofinterestdistance`** | 目標地点中心までの Mobile Services の距離 | varchar(255) |
 | **`post_`** 列 | レポートで最終的に使用された値が格納されます。各 post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |
-| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) ページ 変数。[カテゴリー](/help/components/dimensions/category.md)、[製品](/help/components/dimensions/product.md)、[数量](/help/components/metrics/units.md)、[売上高](/help/components/metrics/revenue.md)など、いくつかのディメンションと指標の入力に役立ちます。 | テキスト |
+| **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md) ページ変数。 [ カテゴリ ](/help/components/dimensions/category.md)、[ 製品 ](/help/components/dimensions/product.md)、[ 単位 ](/help/components/metrics/units.md)、[ 売上高 ](/help/components/metrics/revenue.md) など、複数のディメンションおよび指標の入力に役立ちます。 | テキスト |
 | **`prop1`**～`prop75` | カスタムトラフィック変数 1 ～ 75。「[Prop](/help/components/dimensions/prop.md)」ディメンションで使用されます。 | varchar(100) |
 | **`purchaseid`** | 購入の一意な識別子（[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 変数を使用して設定）。`duplicate_purchase` 列で使用されます。 | char(20) |
 | **`quarterly_visitor`** | ヒットが新しい四半期ごとの訪問者かどうかを判断するフラグ。 | tinyint unsigned |
 | **`ref_domain`** | [ 参照ドメイン ](/help/components/dimensions/referring-domain.md) ディメンション。 `referrer` 列に基づいています。 | varchar(100) |
 | **`ref_type`** | ヒットのリファラルのタイプを表す数値 ID。 「[リファラータイプ](/help/components/dimensions/referrer-type.md)」ディメンションで使用されます。<br>1：サイト内<br>2：その他の Web サイト<br>3：検索エンジン<br>4：ハードドライブ<br>5：USENET<br>6：手動入力／ブックマーク（リファラーなし）<br>7：電子メール<br>8：JavaScript なし<br>9：ソーシャルネットワーク | tinyint unsigned |
 | **`referrer`** | 「[ リファラー ](/help/components/dimensions/referrer.md)」ディメンション。 `referrer` のデータ型は varchar(255)、`post_referrer` のデータ型は varchar(244) です。 | varchar(255) |
-| **`resolution`** | 監視の解像度を表す数値 ID。 「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションで使用されます。`resolution.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
+| **`resolution`** | モニターの解像度を表す数値 ID。 「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションで使用されます。`resolution.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
 | **`s_kwcid`** | Adobe Advertising 統合で使用されるキーワード ID。 | varchar(255) |
 | **`s_resolution`** | 画面解像度の未処理の値。JavaScript 関数 `screen.width x screen.height` を使用して収集します。 | char(20) |
 | **`search_engine`** | 訪問者をサイトに誘導した検索エンジンを表す数値 ID。 [ 検索エンジン ](/help/components/dimensions/search-engine.md) ディメンションで使用されます。 `search_engines.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
@@ -190,69 +190,69 @@ ht-degree: 75%
 | **`va_closer_id`** | [ ラストタッチチャネル ](/help/components/dimensions/last-touch-channel.md) ディメンションを識別する数値 ID。 この ID のルックアップは、マーケティングチャネルマネージャーで確認できます。 | tinyint unsigned |
 | **`va_finder_detail`** | [ ファーストタッチの詳細 ](/help/components/dimensions/first-touch-detail.md) ディメンション。 | varchar(255) |
 | **`va_finder_id`** | [ ファーストタッチチャネル ](/help/components/dimensions/first-touch-channel.md) ディメンションを識別する数値 ID。 この ID のルックアップは、マーケティングチャネルマネージャーで確認できます。 | tinyint unsigned |
-| **`va_instance_event`** | マーケティングチャンネル [インスタンス](/help/components/metrics/instances.md)を識別するフラグ。 | tinyint unsigned |
-| **`va_new_engagement`** | マーケティングチャンネル [新規エンゲージメントを識別するフラグ](/help/components/metrics/new-engagements.md)。 | tinyint unsigned |
-| **`video`** | ビデオコンテンツ | varchar(255) |
-| **`videoad`** | ビデオ広告名 | varchar(255) |
-| **`videoadinpod`** | ポッド位置のビデオ広告 | varchar(255) |
-| **`videoadlength`** | ビデオ広告の長さ | 整数 |
-| **`videoadload`** | ビデオ広告の読み込み | varchar(255) |
-| **`videoadname`** | ビデオ広告名 | varchar(255) |
-| **`videoadplayername`** | ビデオ広告プレイヤー名 | varchar(255) |
-| **`videoadpod`** | ビデオ広告ポッド | varchar(255) |
-| **`videoadvertiser`** | ビデオ広告主 | varchar(255) |
-| **`videoaudioalbum`** | ビデオオーディオアルバム | varchar(255) |
-| **`videoaudioartist`** | ビデオオーディオアーティスト | varchar(255) |
-| **`videoaudioauthor`** | ビデオオーディオ作成者 | varchar(255) |
-| **`videoaudiolabel`** | ビデオオーディオラベル | varchar(255) |
-| **`videoaudiopublisher`** | ビデオオーディオ発行者 | varchar(255) |
-| **`videoaudiostation`** | ビデオオーディオステーション | varchar(255) |
-| **`videocampaign`** | ビデオキャンペーン | varchar(255) |
-| **`videochannel`** | ビデオチャンネル | varchar(255) |
-| **`videochapter`** | ビデオチャプター名 | varchar(255) |
-| **`videocontenttype`** | ビデオコンテンツタイプ。すべてのビデオ視聴で、自動的に「ビデオ」に設定されます。 | varchar(255) |
-| **`videodaypart`** | ビデオ日分割 | varchar(255) |
-| **`videoepisode`** | ビデオのエピソード | varchar(255) |
-| **`videofeedtype`** | ビデオフィードのタイプ | varchar(255) |
-| **`videogenre`** | ビデオのジャンル | テキスト |
-| **`videolength`** | ビデオの長さ | 整数 |
-| **`videomvpd`** | ビデオ MVPD | varchar(255) |
-| **`videoname`** | ビデオ名 | varchar(255) |
-| **`videonetwork`** | ビデオネットワーク | varchar(255) |
-| **`videopath`** | ビデオパス | varchar(100) |
-| **`videoplayername`** | ビデオプレイヤー名 | varchar(255) |
-| **`videotime`** | ビデオ時間 | 整数 |
-| **`videoqoebitrateaverageevar`** | ビデオ画質平均ビットレート | varchar(255) |
-| **`videoqoebitratechangecountevar`** | ビデオ画質変更回数 | varchar(255) |
-| **`videoqoebuffercountevar`** | ビデオ画質バッファ数 | varchar(255) |
-| **`videoqoebuffertimeevar`** | ビデオ画質バッファ時間 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | ビデオ画質ドロップフレーム数 | varchar(255) |
-| **`videoqoeerrorcountevar`** | ビデオ画質エラー数 | varchar(255) |
-| **`videoqoeextneralerrors`** | ビデオ画質の外部エラー | テキスト |
-| **`videoqoeplayersdkerrors`** | ビデオ画質 SDK エラー | テキスト |
-| **`videoqoetimetostartevar`** | ビデオ画質開始時間 | varchar(255) |
-| **`videoseason`** | ビデオシーズン | varchar(255) |
-| **`videosegment`** | ビデオセグメント | varchar(255) |
-| **`videoshow`** | ビデオ番組 | varchar(255) |
-| **`videoshowtype`** | ビデオ番組のタイプ | varchar(255) |
-| **`videostreamtype`** | ビデオストリームのタイプ | varchar(255) |
+| **`va_instance_event`** | マーケティングチャネル [ インスタンス ](/help/components/metrics/instances.md) を識別するフラグ。 | tinyint unsigned |
+| **`va_new_engagement`** | マーケティングチャネル [ 新規エンゲージメント ](/help/components/metrics/new-engagements.md) を識別するフラグ。 | tinyint unsigned |
+| **`video`** | [ コンテンツ ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoad`** | 「[ 広告 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videoadinpod`** | [ ポッド位置の広告 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoadlength`** | [ 広告の長さ（可変） ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | 整数 |
+| **`videoadload`** | [ 広告の読み込み ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoadname`** | [ 広告名（変数） ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoadplayername`** | 「[ 広告プレーヤー名 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videoadpod`** | [ 広告ポッド ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoadvertiser`** | [広告主](/help/components/dimensions/sm-ads.md)ストリーミングメディアディメンション。 | varchar(255) |
+| **`videoaudioalbum`** | [アルバム](/help/components/dimensions/sm-audio-metadata.md)ストリーミングメディアディメンション。 | varchar(255) |
+| **`videoaudioartist`** | [ アーティスト ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoaudioauthor`** | [ オーサー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoaudiolabel`** | [ ラベル ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoaudiopublisher`** | [ パブリッシャー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoaudiostation`** | [ ステーション ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videocampaign`** | [ キャンペーン ID](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videochannel`** | [ コンテンツチャネル ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videochapter`** | [ チャプター ](/help/components/dimensions/sm-chapters.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videocontenttype`** | [コンテンツタイプ](/help/components/dimensions/sm-core.md)ストリーミングメディアディメンション。 | varchar(255) |
+| **`videodaypart`** | [日部分](/help/components/dimensions/sm-video-metadata.md)ストリーミングメディアディメンション。 | varchar(255) |
+| **`videoepisode`** | [ エピソード ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアディメンション。 | varchar(255) |
+| **`videofeedtype`** | 「[ メディアフィードのタイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videogenre`** | [ジャンル](/help/components/dimensions/sm-video-metadata.md)ストリーミングメディアディメンション。このディメンションでは、同じヒットに複数の値をコンマで区切って指定できます。 | テキスト |
+| **`videolength`** | 「[ コンテンツの長さ（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | 整数 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoname`** | [ コンテンツ名（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videonetwork`** | [ ネットワーク ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videopath`** | [ メディアパス ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(100) |
+| **`videoplayername`** | 「[ コンテンツプレーヤー名 ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videotime`** | ストリーミングメディア指標 [ コンテンツ視聴時間 ](/help/components/metrics/sm-core.md)。 | 整数 |
+| **`videoqoebitrateaverageevar`** | [ 平均ビットレート ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [ ビットレート変更 ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoqoebuffercountevar`** | [ バッファーイベント ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoqoebuffertimeevar`** | [ ストリーミングメディアの合計バッファー時間 ](/help/components/dimensions/sm-quality.md) ディメンション。 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | 「[ ドロップフレーム ](/help/components/dimensions/sm-quality.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videoqoeerrorcountevar`** | [ エラー ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoqoeextneralerrors`** | [ 外部エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
+| **`videoqoeplayersdkerrors`** | [プレーヤー SDK のエラー ID](/help/components/dimensions/sm-quality.md)ストリーミングメディアディメンション。このディメンションでは、同じヒットに複数の値を使用できます。 | テキスト |
+| **`videoqoetimetostartevar`** | ストリーミングメディアディメンション開始](/help/components/dimensions/sm-quality.md)[時間。 | varchar(255) |
+| **`videoseason`** | [シーズン](/help/components/dimensions/sm-video-metadata.md)ストリーミングメディアディメンション。 | varchar(255) |
+| **`videosegment`** | [ コンテンツセグメント ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`videoshow`** | 「ストリーミングメディア [ 表示 ](/help/components/dimensions/sm-video-metadata.md)」ディメンション。 | varchar(255) |
+| **`videoshowtype`** | 「[ 表示タイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア」ディメンション。 | varchar(255) |
+| **`videostreamtype`** | [ ストリームタイプ ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
 | **`visid_high`** | `visid_low` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_low`** | `visid_high` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_new`** | ヒットに新しく生成された訪問者 ID が含まれるかどうかを決定するフラグ。 | char(1) |
 | **`visid_timestamp`** | 訪問者 ID を新たに生成する場合、は訪問者 ID が生成された時刻のタイムスタンプを UNIX® 単位で指定します。 | int |
 | **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用される方法を表す数値 ID。<br>`0`：カスタム訪問者 ID または不明／該当なし<br>`1`：IP およびユーザーエージェントのフォールバック<br>`2`：HTTP モバイル加入者ヘッダー<br>`3`：従来の cookie 値（`s_vi`）<br>`4`：フォールバック cookie の値（`s_fid`）<br>`5`：ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[ 検索キーワード ](/help/components/dimensions/search-keyword.md)」ディメンション。 この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
-| **`visit_num`** | [ 訪問回数 ](/help/components/dimensions/visit-number.md) ディメンション。 1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
-| **`visit_page_num`** | 「[ ヒットの深度 ](/help/components/dimensions/hit-depth.md)」ディメンション。 訪問者でヒットが発生するごとに 1 ずつ増えます。 訪問ごとにリセットされます。 | int unsigned |
+| **`visit_num`** | [訪問回数](/help/components/dimensions/visit-number.md) ディメンション。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
+| **`visit_page_num`** | [ヒットの深さ](/help/components/dimensions/hit-depth.md) ディメンション。訪問者でヒットが発生するごとに 1 ずつ増えます。 訪問ごとにリセットされます。 | int unsigned |
 | **`visit_ref_domain`** | `visit_referrer` 列に基づきます。訪問の最初の参照ドメイン。 | varchar(100) |
-| **`visit_ref_type`** | 訪問の最初のリファラーのリファラータイプを表す数値 ID。 `referrer_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
+| **`visit_ref_type`** | 訪問の最初の転送者の転送者の種類を表す数値 ID。 `referrer_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`visit_referrer`** | 訪問の最初のリファラー。 | varchar(255) |
 | **`visit_search_engine`** | 訪問の最初の検索エンジンを表す数値 ID。 `search_engines.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`visit_start_page_url`** | 訪問の最初の URL。 | varchar(255) |
 | **`visit_start_pagename`** | 訪問の最初のヒットにおけるページ名の値。 | varchar(100) |
 | **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | **`weekly_visitor`** | ヒットが新しい週別訪問者かどうかを判断するフラグ。 | tinyint unsigned |
-| **`yearly_visitor`** | ヒットが新しい年別訪問者かどうかを判断するフラグ。 | tinyint unsigned |
+| **`yearly_visitor`** | ヒットが新しい年間訪問者かどうかを決定するフラグ。 | tinyint unsigned |
 | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。関連トピック 「`geo_zip`」を参照してください。 | varchar(50) |
 
 {style="table-layout:auto"}

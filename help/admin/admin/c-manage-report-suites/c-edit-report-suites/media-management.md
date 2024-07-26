@@ -4,16 +4,16 @@ title: メディア管理
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 52%
+source-wordcount: '224'
+ht-degree: 23%
 
 ---
 
 # メディア管理
 
-メディアを Analytics で有効にして、測定やレポートで使用するメディアソリューション変数の特別なセットを予約できます。 これらの変数は、カスタム eVar、イベント、prop のように動作しますが、変数の制限に対してはカウントされません。有効にすると、Analytics メニューに新しいメディアレポートのセットが表示されます。
+このインターフェイスを使用して、メディア測定およびレポートで使用する変数を予約できます。 これらの変数は、eVar、prop およびイベントと同様に動作しますが、変数制限に対してはカウントされません。 有効にすると、Analytics メニューに新しいメディアレポートのセットが表示されます。
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL メディア管理]**。
 
@@ -21,10 +21,23 @@ ht-degree: 52%
 
 * [!UICONTROL **メディアレポート**]
 
-  ストリーミングメディアコレクションアドオンに固有のレポートは、メディアレポート ページで使用できます。 メディアレポートについて詳しくは、[ メディアレポートの有効化 ](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html) を参照してください。
+  これらのチェックボックスを使用して、ストリーミングメディアコレクションアドオンに固有のディメンションと指標を有効にします。
+
+   * [メディアコアディメンション](/help/components/dimensions/sm-core.md)
+   * [メディアコア指標](/help/components/metrics/sm-core.md)
+   * [メディアとディメンション](/help/components/dimensions/sm-ads.md)
+   * [メディア広告指標](/help/components/metrics/sm-ads.md)
+   * [メディアチャプターディメンション](/help/components/dimensions/sm-chapters.md)
+   * [メディアチャプター指標](/help/components/metrics/sm-chapters.md)
+   * [メディア品質ディメンション](/help/components/dimensions/sm-quality.md)
+   * [メディア品質指標](/help/components/metrics/sm-quality.md)
+   * [ビデオメタデータのサイズ](/help/components/dimensions/sm-video-metadata.md)
+   * [ビデオメタデータの指標](/help/components/metrics/sm-video-metadata.md)
+   * [オーディオメタデータのサイズ](/help/components/dimensions/sm-audio-metadata.md)
+   * [プレーヤーステートトラッキング指標](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **メディアの分類**]
 
-  ストリーミングメディアコレクションのアドオンに固有の分類は、メディアの分類ページで使用できます。 分類について詳しくは、「[ コンバージョン分類 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)」を参照してください。
+  ストリーミングメディアコレクションのアドオンディメンションに固有の分類は、[!UICONTROL  メディア分類 ] ページで使用できます。 コンバージョン変数で使用可能な [ コンバージョン分類 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) と同様に動作します。 [!UICONTROL  メディアレポート ] の下で特定のコンポーネントを有効にすると、分類ディメンションが自動的に作成されます。 このインターフェイスを使用して、独自の分類ディメンションを作成したり、分類データをアップロードしたりできます。
 
-ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、[ ストリーミングメディアコレクションのアドオンガイド ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) を参照してください。
+ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、[ ストリーミングメディアコレクションのアドオンガイド ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) を参照してください。
