@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,12 +280,12 @@ ht-degree: 99%
 + Activity Map {#activity-map}
    + [概要](activity-map/overview.md)
    + [はじめに](activity-map/getting-started.md)
-   + {#overlay} をオーバーレイ
+   + オーバーレイ {#overlay}
       + [拡張機能の概要](activity-map/overlay/overview.md)
       + [Launch 拡張機能](activity-map/overlay/launch.md)
       + [拡張機能の設定](activity-map/overlay/settings.md)
    + [トラブルシューティング](activity-map/troubleshooting.md)
-   + [よくある質問（FAQ）](activity-map/faq.md)
+   + [FAQ](activity-map/faq.md)
 + Adobe Analytics ダッシュボード {#mobapp}
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター紹介](mobile-app/curator.md)
