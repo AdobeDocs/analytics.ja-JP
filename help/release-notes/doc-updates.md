@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
 source-wordcount: '5910'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 97%
 | --- | --- |
 | **2024年7月** | |
 | クイック計算指標に関する情報を追加しました | [ 計算指標ビルダーで作成された計算指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) と [1 つのプロジェクト内でクイック計算指標として作成された計算指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) との違いを明確にするために、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) の情報を更新しました。 また、クイック計算指標を作成する方法に関する詳細も追加しました。<p>計算指標ビルダーで作成した計算指標はコンポーネントリストで使用でき、組織全体のプロジェクトに適用できます。一方、クイック計算指標として作成した計算指標は、その計算指標を作成したプロジェクト内でのみ使用できます。</p><p>また、[ 指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) の情報を更新して、同様の説明を行いました。</p> |
-| 「リファラータイプ」ディメンションにthreads.netを追加しました | [ 「リファラータイプ」ディメンション ](/help/components/dimensions/referrer-type.md) で使用されるソーシャルネットワークのリストにthreads.netを追加しました。 |
-| データフィードの管理に関するドキュメントを更新しました。 | [データフィードの管理](/help/export/analytics-data-feed/df-manage-feeds.md)の情報を更新して、明確化しました。 <p>更新内容は次のとおりです。</p><ul><li>情報を簡単にスキャンして使用できるように、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。これらの変更は現在、限定提供となっており、まだすべてのお客様が利用できるわけではありません。</li><li>データフィードを削除する前に、データフィードのステータスがアクティブである必要があるという情報を追加しました。</li> |
+| 「リファラータイプ」ディメンションに threads.net を追加しました | [「リファラータイプ」ディメンション](/help/components/dimensions/referrer-type.md)で使用されるソーシャルネットワークのリストに threads.net を追加しました。 |
+| データフィードの管理に関するドキュメントを更新しました。 | [データフィードの管理](/help/export/analytics-data-feed/df-manage-feeds.md)の情報を更新して、明確化しました。 <p>更新内容は次のとおりです。</p><ul><li>情報を簡単にスキャンして使用できるように、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。これらの変更は現在、限定提供となっており、まだすべてのお客様が利用できるわけではありません。</li><li>データフィードを削除する前に、そのステータスがアクティブである必要があることを示す情報を追加しました。</li> |
 | 一般的なエラーメッセージを更新しました。 | [一般的なエラーメッセージ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)に対するマイナーな更新を行いました。 |
 | **2024年6月** | |
 | ストリーミングメディア機能を参照する製品名を更新しました | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションアドオンのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
@@ -112,7 +112,7 @@ ht-degree: 97%
 | プロジェクトセグメント（アドホックおよびクイックセグメント） | プロジェクトセグメントに関するドキュメントを合理化し、重複した情報を削除しました。アドホックセグメントの作成手順は、[クイックセグメントの作成](/help/analyze/analysis-workspace/components/segments/quick-segments.md)手順と統合しました。 |
 | 動的検索 | [動的検索](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)に関する追加情報を追加しました。以前は、情報は、複数の動的検索の 1 つであるモバイル属性に対してのみ存在していました。 |
 | **2023年3月** | |
-| Activity Map の Web SDK サポート | [Adobe Analyticsの実装 ](/help/implement/home.md) を更新しました。 |
+| Activity Map の Web SDK サポート | [Adobe Analytics の実装](/help/implement/home.md)を更新しました。 |
 | トラフィック変数（prop）の概要 | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。「トラフィック変数レポートの有効化」という記事の内容を統合し、その記事を削除しました。[トラフィック変数（prop）の概要](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)を参照してください。 |
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
