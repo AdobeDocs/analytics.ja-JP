@@ -3,10 +3,10 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++メール
 
@@ -141,12 +141,13 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
       |---------|----------|
       | [!UICONTROL **受信者**] | レポートの送信時に、特定のユーザーにメール通知を送信できます。単一のメールアドレスまたはメールアドレスのコンマ区切りのリストを指定します。<!-- How does this differ from the Notification email tab? --> |
 
-   1. 「[!UICONTROL **場所を追加**]」を選択し、次の情報を指定します。
-|フィールド | 関数 |
-|---------|----------|
-[!UICONTROL **名前**] | 場所の名前。  |
-| [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別できるように、アカウントの簡単な説明を入力します。|
-| [!UICONTROL **場所アカウント**] | 作成した場所アカウントを選択 [アカウントを追加](#add-an-account)。 |
+   1. 「[!UICONTROL **場所を追加**]」を選択して、次の情報を指定します。
+
+      | フィールド | 関数 |
+      |---------|----------|
+      | [!UICONTROL **名前**] | 場所の名前。 |
+      | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
+      | [!UICONTROL **場所アカウント**] | [ アカウントの追加 ](#add-an-account) で作成した場所アカウントを選択します。 |
 
    1. Adobe Analytics の「[!UICONTROL **場所のプロパティ**]」セクションで、場所アカウントのアカウントタイプに固有の情報を指定します。
 
@@ -163,7 +164,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 「[!UICONTROL **レポートオプション**]」タブでデータウェアハウスリクエストを引き続き設定します。詳しくは、[データウェアハウスのリクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-options.md)を参照してください。
 

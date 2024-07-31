@@ -3,7 +3,7 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ ht-degree: 97%
    | 繰り返し | X | X | X | - | X | - |
    | インスタンス | X | X | - | - | X | - |
    | 繰り返しなしインスタンス | X | - | - | - | X | - |
+
 1. **[!UICONTROL And／Or／Then]**：コンテナまたはルールの間に [!UICONTROL AND／OR／THEN] 演算子を割り当てます。THEN 演算子は、[順次セグメントを定義](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)します。
 1. **[!UICONTROL 指標]**：（緑色のサイドバー）指標リストからドラッグ＆ドロップした指標。
 1. **[!UICONTROL 比較]**&#x200B;演算子：選択した演算子を使用して値を比較および制限できます。
