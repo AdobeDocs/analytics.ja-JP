@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5910'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年7月** | |
-| クイック計算指標に関する情報を追加しました | [ 計算指標ビルダーで作成された計算指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) と [1 つのプロジェクト内でクイック計算指標として作成された計算指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) との違いを明確にするために、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) の情報を更新しました。 また、クイック計算指標を作成する方法に関する詳細も追加しました。<p>計算指標ビルダーで作成した計算指標はコンポーネントリストで使用でき、組織全体のプロジェクトに適用できます。一方、クイック計算指標として作成した計算指標は、その計算指標を作成したプロジェクト内でのみ使用できます。</p><p>また、[ 指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) の情報を更新して、同様の説明を行いました。</p> |
+| クイック計算指標に関する情報を追加しました | [計算指標ビルダーで作成された計算指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)と [1 つのプロジェクト内でクイック計算指標として作成された計算指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)との違いを明確にするために、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の情報を更新しました。また、クイック計算指標を作成する方法に関する詳細も追加しました。<p>計算指標ビルダーで作成した計算指標はコンポーネントリストで使用でき、組織全体のプロジェクトに適用できます。一方、クイック計算指標として作成した計算指標は、作成されたプロジェクト内でのみ使用できます。</p><p>また、[指標を作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)の情報を更新して、同様の説明を追加しました。</p> |
 | 「リファラータイプ」ディメンションに threads.net を追加しました | [「リファラータイプ」ディメンション](/help/components/dimensions/referrer-type.md)で使用されるソーシャルネットワークのリストに threads.net を追加しました。 |
 | データフィードの管理に関するドキュメントを更新しました。 | [データフィードの管理](/help/export/analytics-data-feed/df-manage-feeds.md)の情報を更新して、明確化しました。 <p>更新内容は次のとおりです。</p><ul><li>情報を簡単にスキャンして使用できるように、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。これらの変更は現在、限定提供となっており、まだすべてのお客様が利用できるわけではありません。</li><li>データフィードを削除する前に、そのステータスがアクティブである必要があることを示す情報を追加しました。</li> |
 | 一般的なエラーメッセージを更新しました。 | [一般的なエラーメッセージ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)に対するマイナーな更新を行いました。 |

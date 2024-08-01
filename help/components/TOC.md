@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 94%
    + [ストリーミングメディア広告](dimensions/sm-ads.md)
    + [ストリーミングメディアチャプター](dimensions/sm-chapters.md)
    + [ストリーミングメディア品質](dimensions/sm-quality.md)
-   + [ストリーミングメディアオーディオメタデータ](dimensions/sm-audio-metadata.md)
+   + [ストリーミングメディアオーディオのメタデータ](dimensions/sm-audio-metadata.md)
    + [ストリーミングメディアビデオのメタデータ](dimensions/sm-video-metadata.md)
    + [イベント前の時間](dimensions/time-prior-to-event.md)
    + [ページでの滞在時間](dimensions/time-spent-on-page.md)
@@ -160,7 +160,7 @@ ht-degree: 94%
    + [ストリーミングメディアのコア指標](metrics/sm-core.md)
    + [ストリーミングメディア広告](metrics/sm-ads.md)
    + [ストリーミングメディアチャプター](metrics/sm-chapters.md)
-   + [ストリーミングメディアプレーヤーの状態トラッキング](metrics/sm-player-state.md)
+   + [ストリーミングメディアプレーヤーの状態のトラッキング](metrics/sm-player-state.md)
    + [ストリーミングメディア品質](metrics/sm-quality.md)
    + [ストリーミングメディアビデオのメタデータ](metrics/sm-video-metadata.md)
    + [訪問別滞在時間](metrics/time-spent-per-visit.md)
