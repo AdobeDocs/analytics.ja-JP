@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 場所マネージャー
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ Adobe Analyticsの Locations Manager で場所を削除するには：
 1. 「[!UICONTROL **許可されるアカウントタイプ**] セクションを見つけます。
 
    デフォルトでは、次のアカウントタイプをユーザーが使用できます。 ユーザーによる使用を制限する勘定科目タイプの選択を解除します。
+
+   少なくとも 1 つのアカウントタイプを選択する必要があります。
 
    * [!UICONTROL **Amazon S3 ロール ARN**]
 
