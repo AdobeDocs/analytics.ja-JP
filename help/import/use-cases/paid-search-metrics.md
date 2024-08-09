@@ -3,10 +3,10 @@ title: 有料検索指標のインポート
 description: データソースを使用して有料検索指標（Google AdWords、MSN、Yahoo など）を追跡するように Adobe Analytics を設定する手順。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1205'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 1. 「**[!UICONTROL 次へ]**」をクリックして、データソースに名前を付けます。この名前は、データソースマネージャーに表示されます。
 1. サービス使用許諾契約に同意し、「**[!UICONTROL 次へ]**」をクリックします。
 1. 「[!UICONTROL インプレッション数]」、「[!UICONTROL クリック数]」および「[!UICONTROL 合計コスト]」の 3 つの標準指標を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-1. 次に、この新しいデータソースを[成功イベントの設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)で作成したカスタムイベントに「マッピング」します。
+1. 次に、この新しいデータソースを [ 成功イベント ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) で作成したカスタムイベントに「マッピング」します。
 
    ![マッピング](assets/data-source-mapping.png)
 
