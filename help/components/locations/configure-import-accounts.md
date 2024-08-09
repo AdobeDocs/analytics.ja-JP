@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **ホスト**] | 目的の FTP 宛先 URL を入力します。 例：`ftp://ftp.omniture.com`。 |
+   | [!UICONTROL **ホスト**] | 目的の FTP 宛先 URL を入力します。 例：`ftp.adobe.com`。 |
    | [!UICONTROL **パス**] | 空白のままにすることができます。 |
    | [!UICONTROL **ユーザー名**] | FTP サイトにログインするためのユーザー名を入力します。 |
    | [!UICONTROL **パスワードとパスワードの確認**] | FTP サイトにログインするためのパスワードを入力します。 |
