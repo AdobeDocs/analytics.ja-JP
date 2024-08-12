@@ -5,10 +5,10 @@ title: コンバージョン変数（eVar）
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 100%
 
 ## コンバージョン変数（eVar）の概要
 
-以下は、概要に関するビデオです。
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+コンバージョン変数の概要に関するビデオについては、Analytics チュートリアルガイドの [ コンバージョン変数の概要 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) を参照してください。
 
 1 つの eVar を 1 人の訪問者の値に設定すると、その値が期限切れになるまで自動的に記憶されます。eVar 値がアクティブなときに訪問者に対して発生したすべての成功イベントは、その eVar 値にカウントされます。
 
