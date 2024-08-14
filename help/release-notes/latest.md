@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 77%
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **リンクトラッキングに関する Web SDK の改善** | Web SDK の最新バージョンでは、リンクトラッキングに関するいくつかの注目すべき改善が行われ、Activity Map に直接メリットをもたらします。これらの新機能は、Web SDK JavaScript ライブラリと Web SDK タグ拡張機能の両方で利用できます。<ul><li>イベントのグループ化：訪問者が内部リンクをクリックすると、リンクトラッキング用に別のイベント呼び出しをトリガーする代わりに、次のページでイベントデータをグループ化することを選択できます。この改善により、契約上の制限に対して Web SDK で使用するイベントの数が削減されます。</li><li>フィルタークリックプロパティ：`OnBeforeLinkClickSend` に代わる新しいコールバックです。このコールバックを使用すると、リンク関連のデータをアドビに送信する前にフィルタリングまたは不明化できます。</li></ul><p>詳しくは、Web SDK ユーザーガイドの [clickCollection](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollection) を参照してください。</p> | オープンベータ版は 2024年7月10日（PT）から開始 | 未定 |
+| **リンクトラッキングに関する Web SDK の改善** | Web SDK の最新バージョンでは、リンクトラッキングに関するいくつかの注目すべき改善が行われ、Activity Map に直接メリットをもたらします。これらの新機能は、Web SDK JavaScript ライブラリと Web SDK タグ拡張機能の両方で利用できます。<ul><li>イベントのグループ化：訪問者が内部リンクをクリックすると、リンクトラッキング用に別のイベント呼び出しをトリガーする代わりに、次のページでイベントデータをグループ化することを選択できます。この改善により、契約上の制限に対して Web SDK で使用するイベントの数が削減されます。</li><li>フィルタークリックプロパティ：`OnBeforeLinkClickSend` に代わる新しいコールバックです。このコールバックを使用すると、リンク関連のデータをアドビに送信する前にフィルタリングまたは不明化できます。</li></ul><p>詳しくは、Web SDK ユーザーガイドの [clickCollection](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollection) を参照してください。</p> | オープンベータ版は 2024年7月10日（PT）から開始 | 2024年7月18日（PT） |
 
 {style="table-layout:auto"}
 
