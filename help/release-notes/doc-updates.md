@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5957'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年7月** | |
-| 成功イベント | [ 成功イベント ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) に関するドキュメントを合理化しました。 明確さと精度を高めるために更新されました。 |
+| 成功イベント | [成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | 場所を管理する際は、少なくとも 1 つのアカウントタイプを選択する必要があります | 管理者が[書き出しと読み込みに使用するアカウントタイプを制限](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)している場合、少なくとも 1 つのアカウントタイプを選択する必要があることを明確にしました。 |
 | クイック計算指標に関する情報を追加しました | [計算指標ビルダーで作成された計算指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)と [1 つのプロジェクト内でクイック計算指標として作成された計算指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)との違いを明確にするために、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の情報を更新しました。また、クイック計算指標を作成する方法に関する詳細も追加しました。<p>計算指標ビルダーで作成した計算指標はコンポーネントリストで使用でき、組織全体のプロジェクトに適用できます。一方、クイック計算指標として作成した計算指標は、作成されたプロジェクト内でのみ使用できます。</p><p>また、[指標を作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)の情報を更新して、同様の説明を追加しました。</p> |
 | 「リファラータイプ」ディメンションに threads.net を追加しました | [「リファラータイプ」ディメンション](/help/components/dimensions/referrer-type.md)で使用されるソーシャルネットワークのリストに threads.net を追加しました。 |
