@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f7d36ac8de37633ccbe725865dbaeecee532f47e
+source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # 最新の Adobe Analytics リリースノート（2024年8月）
 
-**最終更新日**：2024年8月14日（PT）
+**最終更新日**：2024年8月20日（PT）
 
 このリリースノートは、2024年8月14日（PT）～2024年9月のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
