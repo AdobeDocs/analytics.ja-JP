@@ -3,22 +3,24 @@ title: 音声分析ディメンション
 description: 音声分析ディメンション
 feature: Dimensions
 exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 6a229439c455389b88d5fe96a0366b8888809c02
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 32%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
 # 音声分析ディメンション
 
+[[!UICONTROL  アプリケーションレポート ]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) で [!UICONTROL  音声およびチャットボット ] を有効にすると、次のディメンション（および [ 指標 ](../metrics/voice-metrics.md)）が作成されます。 [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) を使用して、目的の文字列値に設定できます。 レポートスイートの設定で有効にすると、音声分析ディメンションを関連するコンテキストデータ変数にマッピングする [ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) が自動的に作成されます。
+
 | ディメンション名 | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |
-| 音声エラータイプ | | 未定 |
-| 音声言語 | | 未定 |
-| 音声インテント | | 未定 |
-| 音声アプリの応答 | | 未定 |
-| 音声認証 | | 未定 |
-| 目標点 ID | | 未定 |
+| 音声エラータイプ | 発生したエラーのタイプ。 | `a.voiceerrortype` |
+| 音声言語 | ユーザーが音声アプリでやり取りする言語。 | `a.voicelanguage` |
+| 音声インテント | ユーザーが実行するコマンド。 | `a.voiceintent` |
+| 音声アプリの応答 | 音声アプリがユーザーに返した応答。 | `a.voiceappresponse` |
+| 音声認証 | 音声アプリとやり取りする際のユーザーの認証状態。 | `a.voiceauthentication` |
+| 目標点 ID | 目標点 ID。 | `a.loc.poi.id` |
 
 {style="table-layout:auto"}
