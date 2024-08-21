@@ -4,10 +4,10 @@ title: インテリジェントアラートの概要
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: a012aca08740428671f216793dbd12aa15f21448
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。
 
-異常値のしきい値、変更された割合、または特定のデータポイントに基づいてトリガーされるアラートを設定できます。 アラートは、[ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) と統合され、最も必要なときにトリガーされる詳細なコントロールを提供します。
+異常しきい値、変更された割合、または特定のデータポイントに基づいてアラートをトリガーするように設定できます。アラートは、[ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) と統合され、最も必要なときにトリガーされる詳細なコントロールを提供します。
 
 インテリジェントアラートを使用すると、次のことができます。
 
@@ -49,4 +49,4 @@ Adobe Analyticsでアラートを作成する方法について詳しくは、[ 
 
 アラートマネージャーでは、既存のアラートを管理できます。 タグ付け、名前の変更、削除など、アラートに対して様々な管理タスクを実行できます。
 
-Adobe Analyticsで既存のアラートを管理する方法について詳しくは、「[ アラートの管理 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)」を参照してください。
+Adobe Analyticsで既存のアラートを管理する方法について詳しくは、「[ アラートの管理 ](/help/components/c-alerts/alert-manager.md)」を参照してください。

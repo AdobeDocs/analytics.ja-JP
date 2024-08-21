@@ -4,7 +4,7 @@ title: サーバーコールの使用状況アラート
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 アラートをセットアップすると、請求会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 
-サーバーコールの使用状況アラートは、[ アラート ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) ユーザーインターフェイスの一部です。
+サーバーコールの使用状況アラートは、[ アラート ](/help/components/c-alerts/alert-manager.md) ユーザーインターフェイスの一部です。
 
 **1 つのデフォルトアラート**&#x200B;があらかじめ設定されており、サーバーコール使用状況の機能を利用できるあらゆるログイン会社内で表示されます。以下の条件のいずれかが満たされた場合、このアラートはログイン会社の管理者全員に宛てた通知をトリガーします。
 

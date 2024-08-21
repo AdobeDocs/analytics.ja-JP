@@ -4,7 +4,7 @@ title: アラートビルダー（Analysis Workspace）
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 39%
@@ -32,7 +32,7 @@ Adobe Analyticsのインテリジェントアラート（または単に「ア�
    * Analysis Workspaceでプロジェクトを開き、フリーフォームテーブルで 1 つ以上の行項目を選択して右クリックし、「**[!UICONTROL 選択からアラートを作成]** を選択します。
 
      これにより、アラートビルダーがすぐに事前設定され、適切な指標とフィルターを使用してアラートが作成されます。
-   * アラートを作成 [ アラートマネージャーから ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts)。
+   * アラートを作成 [ アラートマネージャーから ](/help/components/c-alerts/alert-manager.md#create-alerts)。
 
    アラートビルダーが表示されます。 このインターフェイスは、Analytics でセグメントや計算指標を作成したユーザーによく知られています。
 
@@ -48,6 +48,6 @@ Adobe Analyticsのインテリジェントアラート（または単に「ア�
    | [!UICONTROL **受信者**] | アラートの送信先を指定します。アラートは、Analytics ユーザー、Analytics グループ、生の電子メールアドレスまたは電話番号に送信できます。<p><b> 重要：</b> 電話番号の前には、「+」と [ 国コード ](https://countrycode.org/) が必要です。</p><p>アラートがトリガーされた後にユーザーが受け取る電子メールは、次のようになります。</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **有効期限**] | アラートの有効期限を設定する日時を設定します。 |
    | [!UICONTROL **アラートを送信するタイミング**] | [!UICONTROL **次のいずれかの指標トリガー**]：指標（計算指標を含む）をここにドラッグ&amp;ドロップして、アラートのトリガーを作成します。<p>アラート内のすべての指標、ディメンション、またはセグメントが、現在選択されているデータビューと互換性がない場合、**「互換性のないコンポーネント」** というメッセージが表示されます。</p><p>アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。</p><ul><li>異常値が存在する</li><li>異常値が予測より上</li><li>異常値が予測より下</li><li>以上</li><li>以下</li><li>変更（％）</li><li>90％、95％、99％、99.75％、99.9％ のしきい値を設定できます。</li></ul><p>[!UICONTROL **これらのフィルターを全て使用する場合**]：セグメントまたはディメンションをドラッグ&amp;ドロップして、フィルターを追加します。 例えば、「モバイルデバイスのみ」のセグメントを追加すると、ルールトリガーはモバイルデバイスのみに適用されます。 AND ステートメントを使用して、追加のフィルターを追加できます。 ギアアイコンをクリックして、AND または OR ルールを追加できます。</p><p>ユースケースについては、[ インテリジェントアラート – ユースケース ](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md) を参照してください。</p> |
-   | [!UICONTROL **プレビュー**] | インタラクティブアラートプレビューは、過去の経験に基づいて、アラートが実行されるおよその頻度を表示します。<p>例えば、時間の精度を毎日に設定すると、プレビューにより、最近の 30 または 31 日間で、特定の指標に対してアラートが何回トリガーされたかがわかります。</p><p>トリガーされているアラートが多すぎる場合は、[アラートマネージャー](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)でしきい値を調整できます。</p><p>![](assets/alert_preview.png)</p> |
+   | [!UICONTROL **プレビュー**] | インタラクティブアラートプレビューは、過去の経験に基づいて、アラートが実行されるおよその頻度を表示します。<p>例えば、時間の精度を毎日に設定すると、プレビューにより、最近の 30 または 31 日間で、特定の指標に対してアラートが何回トリガーされたかがわかります。</p><p>トリガーされているアラートが多すぎる場合は、[アラートマネージャー](/help/components/c-alerts/alert-manager.md)でしきい値を調整できます。</p><p>![](assets/alert_preview.png)</p> |
 
 1. 「[!UICONTROL **保存**]」を選択します。
