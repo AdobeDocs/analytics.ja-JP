@@ -3,10 +3,10 @@ description: アラートを管理.
 title: アラートマネージャーの概要
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '378'
+ht-degree: 35%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 31%
 * 他のフィルターの追加。
 * アラートの&#x200B;**有効期限**&#x200B;の定義。
 
-## 列を設定
+## 列の設定
 
 アラート・マネージャで各アラートに表示される情報を構成するには、表示される列を構成します。
 
@@ -50,17 +50,22 @@ ht-degree: 31%
 
 1. アラートマネージャーで **列のカスタマイズ** アイコン ![ 列のカスタマイズ ](assets/customize-columns-icon.png) を選択し、アラートマネージャーに表示する列を選択します。
 
-   以下の列を表示できます。
+   次の列を表示できます。
 
    | 列タイトル | 説明 |
    |---|---|
-   | お気に入り | 各アラートの横に星アイコンが表示され、アラートをお気に入りとしてマークできます。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | タイトルと説明 | これらの値は、アラートビルダーで提供されます。 タイトルと説明を編集するには、タイトルリンクを選択してアラートビルダーを開きます。 |
+   | お気に入り | 各アラートの横に星アイコンが表示され、アラートをお気に入りとしてマークできます。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | タイプ | アラートが Analytics データアラートかサーバーコールの使用状況アラートかを表示します。 |
+   | 有効 | アラートが現在有効か無効かを表示します。 |
    | レポートスイート | アラートが最後に保存されたレポートスイートを示します。 |
    | 所有者 | アラートの所有者を示します。 管理者以外のユーザーには、自分が所有しているアラートまたは自分と共有されていたアラートのみが表示されます。 |
    | タグ | 自分または自分とアラートを共有したユーザーによってアラートに適用されたタグを表示します。 |
-   | 共有先 | アラートを共有した個人またはグループ（管理者のみ）または全て（管理者のみ）をリストします。 |
+   | 有効期限 | アラートの有効期限が切れるように設定された日時を表示します。 |
    | 変更日 | アラートが最後に変更された日付を示します。 |
-   | 前回の使用 | アラートが最後に使用された日付を表示します。 <p>この情報は、コンポーネントが組織内のユーザーにとって価値があるかどうか、コンポーネントが使用されている場所、コンポーネントを削除または変更する必要があるかどうかを判断するのに役立ちます。</p><p>この列を表示する際は、次の点を考慮してください。</p><ul><li>この情報には、API、Report Builder、Data Warehouseからの使用は含まれません。</li><li>一部のコンポーネントでは、2023 年 9 月より前にコンポーネントが最後に使用されていた場合、この列にデータが含まれないことがあります。</li></ul> |
 
    {style="table-layout:auto"}
+
+   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
+
+
