@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ AN-354361、AN-354248、AN-354211、AN-354324、AN-351532、AN-349808、AN-34783
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **保存された`cust_visids`** の有効期限は 13 か月 | 2024年8月20日（PT） | **2024 年 8 月 20 日（PT**）リリースの Analytics ヒット処理エンジンでは、保存された `cust_visids` ータの 13 か月の有効期限が適用されます。 レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定は、ヒット時の `cust_visid` がない `visid_high/visid_low value` で、`cust_visid` を見つける際に使用します。 以前は、`visid_high/visid_low` ージの `cust_visid` ータのマッピングに有効期限がありませんでした。 このリリースでは、`visid_high/visid_low` にヒット時の `cust_visid` が設定されてから 13 か月以上が経過すると、マッピングが期限切れになります。 |
+| **保存された`cust_visids`** の有効期限は 13 か月 | 2024年8月20日（PT） | **2024年8月20日（PT）**&#x200B;の Analytics のヒット処理エンジンのリリースでは、保存された `cust_visids` に 13 か月の有効期限が適用されます。レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定は、ヒット時の `cust_visid` がない `visid_high/visid_low value` で、`cust_visid` を見つける際に使用します。 以前は、`visid_high/visid_low` ージの `cust_visid` ータのマッピングに有効期限がありませんでした。 このリリースでは、`visid_high/visid_low` にヒット時の `cust_visid` が設定されてから 13 か月以上が経過すると、マッピングが期限切れになります。 |
 
 {style="table-layout:auto"}
 
