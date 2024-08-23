@@ -4,14 +4,17 @@ description: クロスデバイス分析に関するよくある質問（FAQ）
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 98%
 
 ---
 
+
 # よくある質問
+
+{{available-existing-customers}}
 
 +++ CDA を使用して、ユーザーがデバイスタイプ間をどのように移動しているかを確認する方法を教えてください。
 

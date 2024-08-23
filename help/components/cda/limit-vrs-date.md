@@ -4,7 +4,7 @@ description: ステッチされたデータのみに焦点を当てるために�
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 41%
@@ -12,6 +12,8 @@ ht-degree: 41%
 ---
 
 # 仮想レポートスイートを特定の日付に制限
+
+{{available-existing-customers}}
 
 ステッチをオンにすると、特定の日付にステッチが始まります。 その日付が 6 月 1 日だと仮定しましょう。 CDA 仮想レポートスイートには、6 月 1 日（PT）より前のステッチされていないデータが含まれます。 6 月 1 日（PT）より前の仮想レポートスイートのデータを非表示にして、ステッチが開始された後の日付範囲に分析を集中させることができます。
 

@@ -4,7 +4,7 @@ description: フィールドベースのステッチを使用してデータを�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # フィールドベースのステッチ
+
+{{available-existing-customers}}
 
 クロスデバイス分析には、データを結合する 2 つの異なる方法があります。この方法は、[prop](/help/implement/vars/page-vars/prop.md) や [eVar](/help/implement/vars/page-vars/evar.md) などの Analytics 変数に依存して、個人識別子を格納します。この変数をベースに、デバイスを相互にリンクします。Adobeでは、訪問者トラッキングの透明性と予測可能性を高めるために、このステッチオプションをお勧めします。
 

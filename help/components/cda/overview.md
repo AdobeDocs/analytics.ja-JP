@@ -4,7 +4,7 @@ description: デバイスデータをまとめて、デバイス中心のデー�
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # クロスデバイス分析
+
+{{available-existing-customers}}
 
 クロスデバイス分析（CDA）は、分析をデバイス中心のビューからユーザー中心のビューに変換する機能です。その結果、アナリストは、ブラウザー、デバイスまたはアプリをまたいだユーザーの行動を把握できます。アドビでは、2 つの包括的なワークフローをサポートし、デバイスデータを相互にリンクします。
 

@@ -4,7 +4,7 @@ description: CDA を有効にする仮想レポートスイートを設定しま
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 87%
@@ -12,6 +12,8 @@ ht-degree: 87%
 ---
 
 # クロスデバイス分析の設定
+
+{{available-existing-customers}}
 
 すべての前提条件を満たしたら、次の手順を使用してクロスデバイス分析を有効にします。以下の手順に従うには、製品プロファイル管理者グループに属しているか、Adobe Analytics の管理者権限が必要です。
 
