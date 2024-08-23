@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5972'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年8月** | |
-| アラートマネージャー | [ アラートマネージャー ](/help/components/c-alerts/alert-manager.md) に関するドキュメントを合理化しました。 明確さと精度を高める更新が行われました。 |
+| アラートマネージャー | [アラートマネージャー](/help/components/c-alerts/alert-manager.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | **2024年7月** | |
 | 成功イベント | [成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | 場所を管理する際は、少なくとも 1 つのアカウントタイプを選択する必要があります | 管理者が[書き出しと読み込みに使用するアカウントタイプを制限](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)している場合、少なくとも 1 つのアカウントタイプを選択する必要があることを明確にしました。 |
