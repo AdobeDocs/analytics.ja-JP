@@ -2,7 +2,7 @@
 title: AppMeasurementから Web SDK への移行
 description: AppMeasurement JavaScript ライブラリから Web SDK JavaScript ライブラリにAdobe Analytics実装を更新します。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 7%
@@ -63,7 +63,7 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 
 Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンドを使用して、前の手順で作成したデータストリームを指すように実装を設定します。 `configure` コマンドは、ライブラリのインストールコードと一緒に含めることができるように、すべてのページで設定する必要があります。
 
-Web SDK `configure` コマンド内で [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) および [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) プロパティを使用します。
+Web SDK `configure` コマンド内で [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) および [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) プロパティを使用します。
 
 * `datastreamId` を、前の手順で取得したデータストリーム ID に設定します。
 * 組織の IMS 組織に `orgId` を設定します。
