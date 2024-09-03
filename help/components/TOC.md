@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 100%
    + [レガシーセグメントの管理に関する FAQ](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
-   + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
+   + [計算指標と高度な計算指標](c-calcmetrics/cm-overview.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)

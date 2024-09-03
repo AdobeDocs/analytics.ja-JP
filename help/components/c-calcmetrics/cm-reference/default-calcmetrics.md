@@ -3,9 +3,9 @@ description: Adobeでは、使用可能な様々な計算指標を提供しま�
 title: デフォルトの計算指標
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 41%
 
 ---
@@ -21,8 +21,9 @@ Adobeが提供する各計算指標、意図した関数、およびその計算
 >このページで説明されているデフォルトの計算指標に加えて、レポートスイートに追加の計算指標を追加することもできます。
 >
 >次のことができます。
+>
 > * [ 計算指標 ](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html) の説明に従って、ストリーミングメディアコレクションアドオンのデフォルトの計算指標を追加します
-> * [ 計算指標および高度な計算（派生）指標 ](/help/components/c-calcmetrics/cm-overview.md) で説明しているように、既存の指標からカスタムの計算指標を作成する。
+> * [ 計算指標と高度な計算指標 ](/help/components/c-calcmetrics/cm-overview.md) で説明しているように、既存の指標からカスタムの計算指標を作成する。
 
 
 | 計算指標名 | 関数 | 数式 |

@@ -1,19 +1,19 @@
 ---
-description: 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。
-keywords: 計算指標,派生指標,高度な計算指標
-title: 計算指標および高度な計算（派生）指標
+description: 計算指標と高度な計算指標は、既存の指標から作成できるカスタム指標です。
+keywords: 計算指標；高度な計算指標
+title: 計算指標と高度な計算指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 58%
+source-wordcount: '533'
+ht-degree: 53%
 
 ---
 
-# 計算指標および高度な計算（派生）指標
+# 計算指標と高度な計算指標
 
-計算指標と高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。
+計算指標と高度な計算指標は、既存の指標から作成できるカスタム指標です。
 
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 計算指標と高度な計算指標機能の比較を次に示します。
 
-| ビルダーのオプション | 計算指標 | 高度な計算（派生）指標 |
+| ビルダーのオプション | 計算指標 | 高度な計算指標 |
 |---|---|---|
 | [形式のタイプ（小数、時間、割合、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | ○ | ○ |
 | [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
