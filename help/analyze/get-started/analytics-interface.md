@@ -4,9 +4,9 @@ title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2065'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | 製品の機能 | 関数 | 詳細情報 |
    |---------|----------|----------|
    | セグメント | Adobe Analytics では、Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要な閲覧者セグメントを構築、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja) |
-   | 計算指標 | 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。これにより、マーケター、製品マネージャーおよびアナリストは、Adobe Analytics の実装を変更することなく、データについて質問できるようになります。 | [ 計算指標と高度な計算指標 ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja) |
+   | 計算指標 | 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。これにより、マーケター、製品マネージャーおよびアナリストは、Adobe Analytics の実装を変更することなく、データについて質問できるようになります。 | [計算指標および高度な計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja) |
    | 日付範囲 | Analysis Workspace には、ユーザーが分析を作成する際に使用できるデフォルトの日付範囲のリストが含まれています。さらに、カスタム日付範囲を作成し、Analysis Workspace でユーザーが使用できるようにすることもできます。 | [カスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 仮想レポートスイート | 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。 | [仮想レポートスイートの概要](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) |
    | アラート | インテリジェントアラートにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。 | [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) |
