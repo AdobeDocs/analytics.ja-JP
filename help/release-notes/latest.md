@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 56%
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 |--- | --- | --- | --- |
-| **計算指標マネージャーとセグメントマネージャーの「使用されている場所」列の追加情報** | 計算指標マネージャーとセグメントマネージャーの「使用されている場所」列には、次の新しいレポート領域が含まれています。<ul><li>**Report Builder**:Report Builderで使用されている計算指標または計算指標セグメントの数が表示されます。</li><li>**アドホックコンポーネント**：プロジェクトで使用されているアドホック計算指標またはアドホックセグメントの数を表示します。 これらのアドホック計算指標およびセグメント（別名「クイック計算指標」および「クイックセグメント」）は、作成されたプロジェクトでのみ使用できるので、「使用されている場所」列の「プロジェクト」レポート領域とは別にレポートされます。</li></ul>詳しくは、[ 計算指標マネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) および [ セグメントマネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage) を参照してください。 |  | 2024 年 9 月 11 日（Pt） |
+| **計算指標マネージャーとセグメントマネージャーの「使用場所」列に含まれる追加情報** | 計算指標マネージャーとセグメントマネージャーの「使用場所」列には、次の新しいレポート領域が含まれています。<ul><li>**Report Builder**:Report Builderで使用されている計算指標または計算指標セグメントの数が表示されます。</li><li>**アドホックコンポーネント**：プロジェクトで使用されているアドホック計算指標またはアドホックセグメントの数を表示します。 これらのアドホック計算指標およびアドホックセグメント（別名「クイック計算指標」および「クイックセグメント」）は、作成元のプロジェクト以外では使用できないので、「使用場所」列の「プロジェクト」レポート領域とは別に報告されます。</li></ul>詳しくは、[ 計算指標マネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) および [ セグメントマネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage) を参照してください。 |  | 2024 年 9 月 11 日（Pt） |
 | **Activity Map v3 拡張機能** | Activity Map v3 拡張機能が利用できるようになりました。 v2 拡張機能がインストールされている場合は、v3 拡張機能をインストールする前にアンインストールします。 **[!UICONTROL ツール]** / **[!UICONTROL 拡張機能]** に移動して、Activity Mapの最新バージョンを取得します。 |  | 2024 年 9 月 3 日（Pt） |
 
 
