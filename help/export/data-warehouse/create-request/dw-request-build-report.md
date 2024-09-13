@@ -3,10 +3,10 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouseリクエストに関するレポートの作成
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ Data Warehouseリクエストのレポートを作成するには：
 1. 新しいData Warehouseリクエスト ページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
 
    ![ 「レポートを作成」タブ ](assets/build-report.png)
+
+1. 左上隅で、Data Warehouseレポートの作成時に使用するレポートスイートを選択します。
+
+   セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。互換性のないセグメントを含む仮想レポートスイートを選択すると、エラーが表示されます。
+
+   セグメント内でサポートされる関数の一覧については、[Data Warehouseのセグメントの互換性 ](/help/components/segmentation/seg-reference/seg-compatibility.md) を参照してください。
 
 1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouseリクエストに含めるデータが決まります。
 
