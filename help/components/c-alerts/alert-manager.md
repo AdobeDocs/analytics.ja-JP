@@ -3,7 +3,7 @@ description: アラートを管理.
 title: アラートマネージャーの概要
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
    * [!UICONTROL **Analytics データアラート**]：データに異常なイベントが発生した場合に通知するアラート。
 
-     このオプションを選択した場合、アラートの作成の詳細については、[ アラートの作成 ](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) に進みます。
+     このオプションを選択した場合、アラートの作成の詳細については、[ アラートの作成 ](/help/components/c-alerts/alert-builder.md) に進みます。
 
    * [!UICONTROL **サーバーコールの使用状況アラート**]：サーバーコールの使用状況とコミットメントデータに超過のリスクや発生があることを通知するアラート。
 

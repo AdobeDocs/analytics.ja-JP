@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: ht
-source-wordcount: '930'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
@@ -152,11 +152,6 @@ ht-degree: 100%
       + [異常値検出をオフにする](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [異常値検出で使用される統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
-      + インテリジェントアラート {#intelligent-alerts}
-         + [インテリジェントアラートの概要](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [アラートの作成](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [アラートの管理](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [ユースケース](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
    + Workspace FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)

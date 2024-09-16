@@ -3,30 +3,32 @@ description: インテリジェントアラートの作成と管理の使用例�
 title: インテリジェントアラート - 使用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '70'
+ht-degree: 67%
 
 ---
 
 # インテリジェントアラート - 使用例
 
-## 2 つのセグメントでフィルターしたシンプルなアラートの作成 {#filter}
+[ アラートの作成 ](/help/components/c-alerts/alert-builder.md) の説明に従って、インテリジェントアラートを作成できます。
+
+以下の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
+
+## 2 つのセグメントでフィルターしたシンプルなアラートの作成 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+
+<!-- 
+
+Update screenshots for better readability.
+
+ -->
 
 ![](assets/alerts_example1.png)
 
-## テーブルの選択範囲からアラートを作成する {#from-selection}
 
-フリーフォームテーブルで、テーブル行を右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択することで、コンテキスト内アラートを作成できるようになりました。
 
-![](assets/alert_selection.png)
-
-これにより、即座にアラートビルダーに事前入力して、適切な指標およびフィルターでアラートを作成できます。
-
-![](assets/prepopulated_alert.png)
-
-## 複数のアラートを作成する代わりに（スタック）アラートを統合する {#stacking}
+## 複数のアラートを作成する代わりに（スタック）アラートを統合する {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取ることがないようにします。
 

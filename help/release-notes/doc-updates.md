@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: ht
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
 source-wordcount: '5972'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 | 一般的なエラーメッセージを更新しました。 | [一般的なエラーメッセージ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)に対するマイナーな更新を行いました。 |
 | **2024年6月** | |
 | ストリーミングメディア機能を参照する製品名を更新しました | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションアドオンのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
-| インテリジェントアラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。これらの更新には、[アラートの作成](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[アラートの管理](/help/components/c-alerts/alert-manager.md)、[概要情報](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)に関する情報が含まれます。 |
+| インテリジェントアラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。これらの更新には、[アラートの作成](/help/components/c-alerts/alert-builder.md)、[アラートの管理](/help/components/c-alerts/alert-manager.md)、[概要情報](/help/components/c-alerts/intellligent-alerts.md)に関する情報が含まれます。 |
 | 非推奨`cookieDomainPeriods` | AppMeasurement が Cookie を設定する適切なドメインを自動的に検出するようになったので、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 変数は非推奨（廃止予定）になりました。 |
 | Data Connectors ドキュメントの廃止 | Data Connectors のサポート終了ページを[販売終了した製品](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-connectors)に移動しました。 |
 | **2024年5月** | |

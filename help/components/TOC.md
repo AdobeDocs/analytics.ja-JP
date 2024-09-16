@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [仮想レポートスイートを特定の日付に制限](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
-   + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
-   + [アラートビルダー](c-alerts/alert-builder.md)
-   + [アラートマネージャー](c-alerts/alert-manager.md)
-   + [インテリジェントアラート - 使用例](c-alerts/alerts-use-cases.md)
+   + [概要](c-alerts/intellligent-alerts.md)
+   + [作成](c-alerts/alert-builder.md)
+   + [管理](c-alerts/alert-manager.md)
+   + [ユースケース](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類の概要](classifications/c-classifications.md)
    + 分類セット {#sets}
