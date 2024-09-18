@@ -3,10 +3,10 @@ title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -72,4 +72,4 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 
 ## カスタムアラート
 
-アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、コンポーネントユーザーガイドの「[インテリジェントアラート](/help/components/c-alerts/intellligent-alerts.md)」を参照してください。
+アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、『コンポーネントユーザガイド』の [ アラートの概要 ](/help/components/c-alerts/intellligent-alerts.md) を参照してください。

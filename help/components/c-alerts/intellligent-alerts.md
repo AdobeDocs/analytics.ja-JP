@@ -1,31 +1,35 @@
 ---
-description: インテリジェントアラートシステムにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。
-title: インテリジェントアラート
+description: アラートを使用すると、通知をきめ細かく制御したり、異常値検出と統合したりできます。
+title: アラートの概要
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 59%
+source-wordcount: '306'
+ht-degree: 33%
 
 ---
 
-# インテリジェントアラートの概要
+# アラートの概要
 
-Adobe Analyticsのインテリジェントアラート（または単に「アラート」）を使用すると、データで異常なイベントが発生した場合に、すぐに通知を受け取ることができます。
+Adobe Analyticsのアラートを使用すると、変更された割合や特定のデータポイントに基づいて通知を受けることができます。
 
-異常しきい値、変更された割合、または特定のデータポイントに基づいてアラートをトリガーするように設定できます。アラートは、[ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) と統合され、最も必要なときにトリガーされる詳細なコントロールを提供します。
+Adobe Analytics パッケージによっては、異常値のしきい値に基づいてアラートをトリガーすることもできます。 これらのアラート（「インテリジェントアラート」とも呼ばれます）は、[ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) と統合され、最も必要なときにトリガーされる詳細なコントロールを提供します。
 
-インテリジェントアラートを使用すると、次のことができます。
+アラートを使用すると、次のことができます。
 
-* 異常値（90％、95％、99％、99.75％、99.9％のしきい値、変化率、超過／未満）に基づいてアラートを構築
 * アラートがトリガーされる頻度のプレビュー
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成
+* 異常値（90%、95%、99%、99.75%、99.9% のしきい値、変化率、% 以下）に基づいてアラートを作成します（Select、Prime または Ultimate パッケージを利用するAdobe Analyticsのお客様のみが利用できます）。
 
-次のビデオチュートリアルでは、アラートの基本的な概要を説明します。[ インテリジェントアラート ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja) （5:34）
+次のビデオチュートリアルでは、アラートの基本的な概要を説明します。[ アラート ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=ja) （5:34）
 
 ## アラートの異常値ルックバック
+
+>[!NOTE]
+>
+>異常値検出を使用したアラート（_インテリジェントアラート_ とも呼ばれます）は、Adobe Analytics Select、Prime または Ultimate パッケージを使用している組織でのみ使用できます。
 
 異常値検出を使用するアラートの場合、トレーニング期間は、アラートに選択した精度に応じて異なります。
 
@@ -42,7 +46,7 @@ Adobe Analyticsでアラートを作成する方法について詳しくは、[ 
 
 >[!IMPORTANT]
 >
->タイムスタンプ付きデータを使用してアラートを作成すると、アラートが誤って起動される可能性があります。インテリジェントアラートには、タイムスタンプのないデータの使用をお勧めします。
+>タイムスタンプ付きデータを使用してアラートを作成すると、アラートが誤って起動される可能性があります。Adobeでは、アラートにタイムスタンプのないデータを使用することをお勧めします。
 
 ## アラートの管理
 

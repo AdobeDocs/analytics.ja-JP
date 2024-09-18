@@ -4,9 +4,9 @@ description: 6 か月ごとに実装状況を確認し、ビジネスニーズ�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 80%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 80%
 
 ビジネスにとって重要な順序で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。  [上位 5 件の KPI ](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=ja#review)に関連付けられた、最も重要な指標や変数から開始します。次に手順を示します。
 
-* ダッシュボードを作成して、指標と変数の毎月のトレンドビューを確認し（または、それぞれに [ インテリジェントアラート ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) を設定し）、期待するデータを取得し、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
+* ダッシュボードを作成して、指標と変数の毎月のトレンドビューを確認し（または、それぞれに [ アラート ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) を設定し）、期待するデータを取得し、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
 * [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)を再実行して、指標と変数の広範なトレンドを監視します。
 
 必要のない指標や変数で実装が肥大化するのを防ぎます。 ビジネスで不要になった指標や変数は無効にしてください。これらは、後で削除したり再利用したりできます。

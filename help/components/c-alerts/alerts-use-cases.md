@@ -1,18 +1,18 @@
 ---
-description: インテリジェントアラートの作成と管理の使用例。
-title: インテリジェントアラート - 使用例
+description: アラートの作成と管理のユースケース。
+title: アラート – ユースケース
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 67%
+source-wordcount: '66'
+ht-degree: 46%
 
 ---
 
-# インテリジェントアラート - 使用例
+# アラート – ユースケース
 
-[ アラートの作成 ](/help/components/c-alerts/alert-builder.md) の説明に従って、インテリジェントアラートを作成できます。
+「アラートの作成 [ の説明に従ってアラートを作成でき ](/help/components/c-alerts/alert-builder.md) す。
 
 以下の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
 

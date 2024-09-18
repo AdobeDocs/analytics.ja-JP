@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | 計算指標 | 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。これにより、マーケター、製品マネージャーおよびアナリストは、Adobe Analytics の実装を変更することなく、データについて質問できるようになります。 | [計算指標および高度な計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja) |
    | 日付範囲 | Analysis Workspace には、ユーザーが分析を作成する際に使用できるデフォルトの日付範囲のリストが含まれています。さらに、カスタム日付範囲を作成し、Analysis Workspace でユーザーが使用できるようにすることもできます。 | [カスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 仮想レポートスイート | 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。 | [仮想レポートスイートの概要](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) |
-   | アラート | インテリジェントアラートにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。 | [インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) |
+   | アラート | アラートを使用すると、アラートをよりきめ細かく制御でき、異常値検出とアラートシステムを統合できます。 | [ アラートの概要 ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=ja) |
    | 注釈 | Analysis Workspace の注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。カレンダーイベントを特定のディメンションや指標に関連付けることができます。 | [注釈を管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=ja) |
    | 分類セット | 分類セットは、分類とルールを管理するための単一のインターフェイスを提供します。 <p>分類とは、Analytics 変数データをカテゴリーにまとめ、レポートを生成する際に様々な方法でデータを表示する手法です。変数値とその値に関連するメタデータとの間の関係を確立します。分類は、トラッキングコード、prop、eVar など、ほとんどのカスタムディメンションで使用できます。</p> | [分類セットの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja) |
    | 場所 | Adobe Analytics 分類データをクラウドの宛先から読み込むには、最初に分類データを収集する場所を追加して設定する必要があります。場所は、作成、編集または削除できます。 | [場所マネージャー](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=ja) |
