@@ -4,9 +4,9 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -15,41 +15,41 @@ ht-degree: 66%
 
 **最終更新日**：2024年9月11日（PT）
 
-これらのリリースノートは、2024 年 9 月 11 日（PT）から 10 月上旬のリリース期間を対象としています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+このリリースノートは、2024年9月11日（PT）～10月上旬のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 |--- | --- | --- | --- |
-| **計算指標マネージャーとセグメントマネージャーの「使用場所」列に含まれる追加情報** | 計算指標マネージャーとセグメントマネージャーの「使用場所」列には、次の新しいレポート領域が含まれています。<ul><li>**Report Builder**:Report Builderで使用されている計算指標または計算指標セグメントの数が表示されます。</li><li>**アドホックコンポーネント**：プロジェクトで使用されているアドホック計算指標またはアドホックセグメントの数を表示します。 これらのアドホック計算指標およびアドホックセグメント（別名「クイック計算指標」および「クイックセグメント」）は、作成元のプロジェクト以外では使用できないので、「使用場所」列の「プロジェクト」レポート領域とは別に報告されます。</li></ul>詳しくは、[ 計算指標マネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) および [ セグメントマネージャー ](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage) を参照してください。 |  | 2024 年 9 月 11 日（Pt） |
-| **Activity Map v3 拡張機能** | Activity Map v3 拡張機能が利用できるようになりました。 v2 拡張機能がインストールされている場合は、v3 拡張機能をインストールする前にアンインストールします。 **[!UICONTROL ツール]** / **[!UICONTROL 拡張機能]** に移動して、Activity Mapの最新バージョンを取得します。 |  | 2024 年 9 月 3 日（Pt） |
+| **計算指標マネージャーとセグメントマネージャーの「使用場所」列に含まれる追加情報** | 計算指標マネージャーとセグメントマネージャーの「使用場所」列には、次の新しいレポート領域が含まれています。<ul><li>**Report Builder**：Report Builder で使用中の計算指標またはセグメントの数を示します。</li><li>**アドホックコンポーネント**：プロジェクトで使用中のアドホック計算指標またはアドホックセグメントの数を示します。これらのアドホック計算指標およびアドホックセグメント（別名「クイック計算指標」および「クイックセグメント」）は、作成元のプロジェクト以外では使用できないので、「使用場所」列の「プロジェクト」レポート領域とは別に報告されます。</li></ul>詳しくは、[計算指標マネージャー](https://experienceleague.adobe.com/ja/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)および[セグメントマネージャー](https://experienceleague.adobe.com/ja/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)を参照してください。 |  | 2024年9月11日（PT） |
+| **Activity Map v3 拡張機能** | Activity Map v3 拡張機能が使用できるようになりました。v2 拡張機能がインストールされている場合は、v3 拡張機能をインストールする前にアンインストールしてください。**[!UICONTROL ツール]**／**[!UICONTROL Activity Map]** に移動して、最新バージョンの拡張機能を入手します。 |  | 2024年9月3日（PT） |
 
 
 ## Adobe Analytics の修正点
 
-A4T: AN-355736
-Activity Map: AN-353779
-Analysis Workspace: AN-348485; AN-349693; AN-357247
+A4T：AN-355736
+Activity Map：AN-353779
+Analysis Workspace：AN-348485、AN-349693、AN-357247
 Analytics モバイルアプリ：AN-352645
-分類：AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
+分類：AN-355636、AN-355651、AN-355753、AN-356005、AN-356439、AN-356540、AN-356577、AN-356622
 クロスデバイス分析：AN-355138
-データフィード：AN-356258; AN-357133
-Data Warehouse: AN-339292; AN-353807
+データフィード：AN-356258、AN-357133
+データウェアハウス：AN-339292、AN-353807
 書き出し場所：AN-356912
-プライバシー API:AN-352420
-Report Builder: AN-352555; AN-354316
+Privacy API：AN-352420
+Report Builder：AN-352555、AN-354316
 スケジュールされたプロジェクト：AN-355971
-セグメント化：AN-352095;
+セグメント化：AN-352095、
 Target レポート：AN-355748
 
-その他の修正点：AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
+その他の修正点：AN-349698、AN-349880、AN-354860、AN-355355、AN-356289、
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
 | **保存された`cust_visids`** の有効期限は 13 か月 | 2024年8月20日（PT） | **2024年8月20日（PT）**&#x200B;の Analytics のヒット処理エンジンのリリースでは、保存された `cust_visids` に 13 か月の有効期限が適用されます。レポートスイートで「訪問者のステッチを有効にする」が有効になっている場合、この設定は、ヒット時の `cust_visid` がない `visid_high/visid_low value` で、`cust_visid` を見つける際に使用します。以前は、`visid_high/visid_low` に対する `cust_visid` のマッピングに有効期限はありませんでした。このリリースでは、`visid_high/visid_low` にヒット時の `cust_visid` が設定されてから 13 か月以上が経過すると、マッピングが期限切れになります。 |
-| **自動的にマッピングされる追加の実装詳細 XDM フィールド** | 2024年9月11日（PT） | Adobe Experience Platform Edge Networkを使用してAdobe Analyticsにデータを送信する際に、XDM フィールド `xdm.implementationdetails.name` および `xdm.implementationdetails.environment` が常にコンテキストデータ変数 `c.a.x.implementationdetails.name` および `c.a.x.implementationdetails.environment` にマッピングされるようになりました。 以前は、一部のシナリオでこれらの値が入力されませんでした。 これらの値を使用できるように、関連する処理ルールを調整してください。 |
+| **自動的にマッピングされる追加の実装詳細 XDM フィールド** | 2024年9月11日（PT） | Adobe Experience Platform Edge Network を使用してデータを Adobe Analytics に送信する際に、XDM フィールド `xdm.implementationdetails.name` と `xdm.implementationdetails.environment` は、常にコンテキストデータ変数 `c.a.x.implementationdetails.name` と `c.a.x.implementationdetails.environment` にマッピングされるようになりました。以前は、一部のシナリオで、これらの値が入力されませんでした。これらの値が使用可能になるように、関連する処理ルールを調整してください。 |
 
 {style="table-layout:auto"}
 
