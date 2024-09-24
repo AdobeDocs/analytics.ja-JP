@@ -3,18 +3,18 @@ description: セグメントをオーディエンスライブラリ、Target お
 title: Publish セグメントのExperience Cloud化
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
+source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 74%
+source-wordcount: '1306'
+ht-degree: 67%
 
 ---
 
 # Publish セグメントのExperience Cloud化
 
-Adobe Analytics セグメントをExperience Cloudに公開すると、そのセグメントを [!DNL Audience Manager] や他のアクティブ化チャネル（Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] など）でマーケティングアクティビティに使用できます。 最近の更新で、公開ワークフローが大幅に最適化されました。Analytics のセグメントを Experience Cloud へと 8 時間以内に公開できるようになりました。これらのセグメントを使用して、Audience Manager 内のオーディエンスを、すべてのダウンストリームの宛先でアクティブ化します。
+Adobe Analytics セグメントをExperience Cloudに公開すると、そのセグメントを [!DNL Audience Manager] や他のアクティブ化チャネル（Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] など）でマーケティングアクティビティに使用できます。
 
-また、公開可能な Adobe Analytics セグメントの最大数を 20 から 75 に増やしました。公開したセグメントは、[!UICONTROL Analytics／Components／Segments] で表示できます。
+Analytics セグメントは、8 時間以内にExperience Cloudに公開できます。 これらのセグメントを使用して、Audience Manager 内のオーディエンスを、すべてのダウンストリームの宛先でアクティブ化します。
 
 詳しくは、このビデオを参照してください。
 
@@ -50,12 +50,11 @@ Adobe Analytics セグメントをExperience Cloudに公開すると、そのセ
 
 ## [!UICONTROL セグメントビルダー]でのセグメントの公開
 
-1. **[!UICONTROL Analytics／Workspace／コンポーネント／セグメント]／+** に移動します。
-1. [!UICONTROL セグメントビルダー]でセグメントを作成します。
-1. セグメントのタイトルと説明を指定します。指定しない場合は、セグメントを保存できません。
-1. 「**[!UICONTROL Experience Cloud にこのセグメントを公開 (*レポートスイート*用)]**」をオンにします。
-
-![Experience Cloud の公開](assets/publish-ec.png)
+1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
+1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
+   ![Experience Cloud の公開](assets/publish-ec.png)
+1. セグメントのタイトルと説明を入力します。 これらのフィールドは保存する前に必要です。
+1. 「**[!UICONTROL Experience Cloudの公開]**」セクションで、「**[!UICONTROL このセグメントをExperience CloudにPublishする」オプションを選択します（*レポートスイート* の場合）]**。
 
 >[!IMPORTANT]
 >Adobe Analytics の数値と Audience Manager の数値を比較する際の総「ユニーク訪問者」セグメントプレビューではなく、Analytics でセグメントプレビューを確認する際の「Experience Cloud ID を持つ訪問者」を使用してください。
@@ -78,12 +77,17 @@ Experience Cloudに公開されているセグメントを削除するには、�
 >
 >次のいずれかのアドビソリューションで現在使用中のセグメントの公開を取り消すことは&#x200B;**できません**：[!DNL Analytics]（[!DNL Audience Analytics]の場合）、[!DNL Campaign]、[!DNL Advertising Cloud]（[!DNL Core Service] および [!DNL Audience Manager] 顧客の場合）、およびその他すべての外部パートナー（[!DNL Audience Manager] の顧客の場合）。[!DNL Target] で使用中のセグメントを非公開にすることが&#x200B;**できます**。
 
-## [!UICONTROL セグメントマネージャ]でのセグメントの公開状況の表示
+## セグメントの公開ステータスの表示
 
-1. [!UICONTROL Analytics／コンポーネント／セグメント] に移動します。
-1. 新しい「[!UICONTROL 公開済み]」列に注目します。はい/いいえ：セグメントがExperience Cloudに公開されているかどうかを表します。
+公開可能なAdobe Analytics セグメントの最大数は 75 です。
 
-![公開ステータス](assets/publish-status.png)
+公開済みのセグメントを表示するには：
+
+1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
+
+1. **[!UICONTROL 公開済み]** 列を表示します。 **[!UICONTROL はい]** この列は、セグメントがExperience Cloudに公開されたことを示します。 **[!UICONTROL いいえ]** は、ないことを示します。
+
+   ![公開ステータス](assets/publish-status.png)
 
 ## [!DNL Audience Manager] UUID の取得
 
