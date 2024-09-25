@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -118,7 +118,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    >[!NOTE]
    >
-   >電子メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) でのみ使用できます。 （メールアカウントは、[ 分類 ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または [Data Warehouseセット ](/help/components/classifications/sets/overview.md) ではサポートされていません）。
+   >電子メール アカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) でのみ使用できます。 （メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) または [ 分類セット ](/help/components/classifications/sets/overview.md)）ではサポートされていません）。
 
    Azure RBAC アカウントを設定するには、次の情報を指定します。
 
