@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 68%
+source-wordcount: '3580'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 68%
 | **`color`** | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`connection_type`** | 接続タイプを表す数値 ID。 [ 接続タイプ ](/help/components/dimensions/connection-type.md) ディメンション。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`cookies`** | [Cookie サポート ](/help/components/dimensions/cookie-support.md) ディメンション。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| **`country`** | 訪問者国を表す数値 ID。 `country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
+| **`country`** | 訪問者の国を表す数値 ID。 `country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`ct_connect_type`** | `connection_type` 列と関連しています。最も一般的な値は、LAN/Wifi、モバイル キャリア、およびモデムです。 | char(20) |
 | **`curr_factor`** | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD は小数点以下 2 桁を使用しているので、この列の値は `2` になります。 | tinyint |
 | **`curr_rate`** | トランザクションが発生した時点の為替レート。アドビでは XE 社との提携により、当日の為替レートを決定しています。 | decimal(24,12) |
@@ -144,7 +144,7 @@ ht-degree: 68%
 | **`mobileresolution`** | モバイルデバイスの解像度。`[Width] x [Height]` 画素数. | varchar(255) |
 | **`monthly_visitor`** | 訪問者が当月固有かどうかを決定するフラグ。 | tinyint unsigned |
 | **`mvvar1`**～`mvvar3` | [ リスト変数 ](/help/implement/vars/page-vars/list.md) 値。 実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
-| **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字を `--**--` に置き換えます。`post` 列がありません。 | テキスト |
+| **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字を `--**--` に置き換えます。通常、 `post` 列にはデータが含まれません。 | テキスト |
 | **`new_visit`** | 現在のヒットが新しい訪問かどうかを判断するフラグ。 訪問が無操作状態になってから 30 分後にAdobeが設定します。 | tinyint unsigned |
 | **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。 `user_agent` 列に基づきます。`operating_system.tsv` 標準検索と `operating_system_type.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int unsigned |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
