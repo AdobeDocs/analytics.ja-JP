@@ -4,10 +4,10 @@ description: Adobe Analytics における Experience Platform の XDM データ�
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
+source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 85%
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
@@ -35,9 +35,17 @@ Edge Networkは、次のロジックを使用して、Adobe Analyticsのペー�
 | XDM ペイロードには次のものが含まれます。 | Adobe Analytics... |
 |---|---|
 | `xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.URL` and no `xdm.web.webInteraction.type` | ペイロードを&#x200B;**ページビュー**&#x200B;とみなします |
+| `xdm.eventType = web.webPageDetails.pageViews` | ペイロードを&#x200B;**ページビュー**&#x200B;とみなします |
 | `xdm.web.webInteraction.type` and (`xdm.web.webInteraction.name` or `xdm.web.webInteraction.url`) | ペイロードを&#x200B;**リンクイベント**&#x200B;とみなします |
-| `web.webInteraction.type` and (`web.webPageDetails.name` or `web.webPageDetails.url`) | ペイロードを&#x200B;**リンクイベント**&#x200B;とみなし、<br/>`web.webPageDetails.name` と `web.webPageDetails.URL` は `null` に設定されます |
-| no `web.webInteraction.type` and (no `webPageDetails.name` and no `web.webPageDetails.URL`) | ペイロードをドロップし、データを無視します |
+| `xdm.web.webInteraction.type` and (`xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.url`) | ペイロードを **リンクイベント** とみなします <br/>`xdm.web.webPageDetails.name` および `xdm.web.webPageDetails.URL` も `null` に設定します |
+| no `xdm.web.webInteraction.type` and (no `xdm.webPageDetails.name` and no `xdm.web.webPageDetails.URL`) | ペイロードをドロップし、データを無視します |
+
+{style="table-layout:auto"}
+
+ページビュー数とリンククリック数の違いに加えて、特定のイベントを A4T として分類するか破棄するかを決定する次のロジックが用意されています。
+
+| XDM ペイロードには次のものが含まれます。 | Adobe Analytics... |
+| --- | --- |
 | `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`、<br/>`xdm.eventType = decisioning.propositionFetch`、`xdm._experience.decisioning` | は、ペイロードを **A4T** 呼び出しとみなします。 |
 | `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`、<br/>`xdm.eventType = decisioning.propositionFetch` で `xdm._experience.decisioning` なし | ペイロードをドロップし、データを無視します |
 | `xdm.eventType = click` または `xdm.eventType = decisioning.propositionInteract` と `xdm._experience.decisioning` で `web.webInteraction.type` なし | は、ペイロードを **A4T** 呼び出しとみなします。 |
