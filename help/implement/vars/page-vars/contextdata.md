@@ -4,10 +4,10 @@ description: コンテキストデータ変数を使用すると、処理ルー�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
+source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 79%
+source-wordcount: '576'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。コード内の Analytics 変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれの Analytics 変数に渡します。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
 
-コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストできます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
+コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストできます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。Adobeチームが心配するのは、最終的に、開発で多くのページ変数が提供されるのではなく、コンテキストデータ変数のみです。
 
 ## Web SDK を使用したコンテキストデータ変数
 
@@ -56,6 +56,7 @@ s.contextData["example_variable"] = "Example value";
 * 有効なコンテキストデータ変数には、英数字、アンダースコアおよびピリオドのみが含まれます。ハイフンなどの他の文字を含める場合、処理ルールでのデータ収集は保証されません。
 * コンテキストデータ変数を `"a."` で開始しないでください。このプレフィックスはアドビが予約して使用します。例えば、`s.contextData["a.InstallEvent"]` を使用しないでください。
 * コンテキストデータ変数では、大文字と小文字が区別されません。`s.contextData["example"]` 変数と `s.contextData["EXAMPLE"]` 変数は同じです。
+* 1 つのキーに複数の値を含めることはできません。 複数値変数にコンテキストデータ変数を使用する場合は、すべての値を区切り文字（通常はコンマ）を使用して連結し、処理ルールを使用して [ リスト prop](prop.md#list-props) または [ リスト変数 ](list.md) に渡します。
 
 ## 処理ルールを使用した Analytics 変数の入力
 
