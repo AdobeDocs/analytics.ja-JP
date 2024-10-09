@@ -3,10 +3,10 @@ title: 訪問数
 description: 1 回のランディングでの一連のページビュー。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 訪問者が次のいずれかの操作を実行すると、新しい訪問が発生します。
 
-* セッション中にキャッシュをクリアし、サイトの閲覧を続行する
+* セッションの途中で Cookie を削除し、サイトの閲覧を続行します
 * サイトをタブで 30 分以上開いたまま、閲覧を続行する
 * 別のブラウザーを開き、同じコンピューター上のサイトに移動する
 * 同じ訪問者が異なるデバイスでサイトを閲覧する
