@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。 FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: ht
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 100%
    + [指標で並べ替え](data-warehouse/sorting-by-metric.md)
    + [Data Warehouse リクエストの管理](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse でサポートされるコンポーネント](data-warehouse/component-support.md)
-   + [Data Warehouse に関するよくある質問](data-warehouse/faq.md)
    + [Data Warehouse のベストプラクティス](data-warehouse/data-warehouse-bp.md)
 + FTP と SFTP {#ftp-and-sftp}
    + [Adobe Experience Cloud での FTP および SFTP の使用](ftp-and-sftp/ftp-overview.md)
