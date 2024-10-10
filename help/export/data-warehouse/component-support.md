@@ -3,10 +3,10 @@ title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
 * 日
 * 時間
 * 分
+
+## Data Warehouseのディメンションとしてのセグメント
+
+Data Warehouse でディメンションとしてセグメントを使用すると、レポートから`"0"` または `"1"` を含む列が返されます。
+
+* **`"0"`**：ディメンション項目がセグメントの条件を満たしていません。
+* **`"1"`**：ディメンション項目がセグメントの条件を満たしています。

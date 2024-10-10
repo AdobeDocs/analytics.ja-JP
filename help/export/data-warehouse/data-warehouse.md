@@ -4,9 +4,9 @@ title: Data Warehouse の概要
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -47,6 +47,3 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 データウェアハウスリクエストの管理方法について詳しくは、[データウェアハウスリクエストの管理](/help/export/data-warehouse/data-warehouse-requests-manage.md)を参照してください。
 
-## よくある質問（FAQ）
-
-よくある質問のリストについて詳しくは、[データウェアハウスに関するよくある質問（FAQ）](/help/export/data-warehouse/faq.md)を参照してください。
