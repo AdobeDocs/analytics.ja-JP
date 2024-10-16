@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
-workflow-type: ht
-source-wordcount: '1160'
-ht-degree: 100%
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
+source-wordcount: '1220'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,9 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Adobe Analytics ダッシュボード](/help/analyze/mobile-app/home.md)**&#x200B;では、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
-**[Report Builder](/help/analyze/report-builder/home.md)** は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** は、Mac、Windows および web ブラウザーで動作するMicrosoft Excel 用のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+
+**[従来のReport Builder](/help/analyze/legacy-report-builder/home.md)** は、Windows のみで動作するMicrosoft Excel 用のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** は、Adobe Analytics 内の機能で、web ページやモバイルアプリに対するユーザーエンゲージメントを視覚的に表現します。これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
 
@@ -73,7 +75,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 ## Adobe Analytics からのデータのエクスポート {#export}
 
-**[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** は以下の場合に使用します。
 
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
 * ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより永続的なソリューションはデータソースです（Adobe Analytics へのデータの読み込みを参照）。

@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
 source-wordcount: '5971'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ ht-degree: 100%
 | **2022年2月** | |
 | モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日**&#x200B;より、アドビは、[2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md)する予定です。 |
+| 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日**&#x200B;より、アドビは、[2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)する予定です。 |
 
 ### 2021年 {#year2021}
 

@@ -3,7 +3,7 @@ description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネ�
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    警告アイコンを含む各ディメンションまたは指標に対して、このプロセスを繰り返します。
 
-   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analyticsデータビューのディメンションまたは指標にマッピングされると、「レポートスイートのスキーマのマッピング ![](assets/report-suite-check.png) セクションのレポートスイート名の横に緑色のチェックマーク [!UICONTROL **チェックマーク**] が表示されます。
+   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analyticsレポートスイート内のディメンションまたは指標にマッピングされると、「[!UICONTROL **レポートスイートのスキーマをマッピング ](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク ![ チェックマーク**] が表示されます。
 
 1. （条件付き）移行中のプロジェクトに複数のレポートスイートが含まれている場合は、「レポートスイートのスキーマのマッピング [!UICONTROL **セクションで別のレポートスイートを選択してから、手順 6**] ら手順 10 を繰り返します。<!-- double-check that the step numbers are still correct -->
 

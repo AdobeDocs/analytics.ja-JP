@@ -3,7 +3,7 @@ description: 必要システム構成と、Analysis Workspace、Report Builder�
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 使用すべき Adobe Analytics 製品について詳しくは、[使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
-| 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developer の資格情報でログインします。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developer の資格情報でログインします。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **データの精度** | 集計 | 集計 | 集計 | ヒット | 集計 |
 | **Experience Cloud ID（ECID）が使用可能** | × | × | ○ | ○ | × |
 | **タイムスタンプが使用可能** | × | × | × | ○ | × |
@@ -36,5 +36,5 @@ ht-degree: 100%
 | **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | × | × | × | ○ - 仮想レポートスイートのみ |
 | **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | ○ | × | × | × |
 | **配信予定** | ○ | ○ | ○ | ○ | × |
-| **配信先** | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
+| **配信先** | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
 | **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | ○ | × | × | × | ○ |

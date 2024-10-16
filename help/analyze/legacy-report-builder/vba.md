@@ -1,0 +1,75 @@
+---
+title: Report Builderで Visual Basic マクロを使用する方法
+description: VBA マクロを使用して Excel ブックとReport Builderの機能を拡張する方法について説明します。
+feature: Report Builder
+role: User, Admin
+exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
+source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 64%
+
+---
+
+# Report Builder の Visual Basic マクロ
+
+Visual Basic （VBA） マクロには、Excel ブックの更新に役立つ機能が用意されています。 Visual Basic は、ブック、Excel、および Windows にアクセスできます。
+
+VBA マクロを実行する前に、最新バージョンのReport Builderを実行してログインする必要があります。
+
+>[!IMPORTANT]
+>
+>セキュリティ上の理由から、マクロを含むブックをスケジュールすることはできません。
+
+Adobeでは、3 つのReport BuilderAPI メソッドをサポートしています。
+
+## `RefreshAllReportBuilderRequests()`
+
+次のマクロは、アクティブなワークブック内のすべての Report Builder リクエストを最新の情報に更新します。`RefreshAllReportBuilderRequests()`まず Report Builder COM Add-in をその製品 ID で呼び出し、次に `RefreshAllRequests()` API コマンドを呼び出します。
+
+```vba
+Sub RefreshAllReportBuilderRequests()
+ 
+ Dim addIn As COMAddIn
+ Dim automationObject As Object
+ Dim success As String
+ Set addIn = Application.COMAddIns("ReportBuilderAddIn.Connect")
+ Set automationObject = addIn.Object
+ success = automationObject.RefreshAllRequests(ActiveWorkbook)
+ 
+End Sub
+```
+
+## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
+
+`RefreshAllReportBuilderRequestsInActiveWorksheet()` マクロは、アクティブなワークブック内のすべての Report Builder リクエストを最新の情報に更新します。`RefreshWorksheetRequests()` API 呼び出しは、ワークシートオブジェクトを引数として受け取ります。  この呼び出しは、Report Builder 要求を含むワークシートに対して使用できます。
+
+```vba
+Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
+ 
+ Dim addIn As COMAddIn
+ Dim automationObject As Object
+ Dim success As String
+ Set addIn = Application.COMAddIns("ReportBuilderAddIn.Connect")
+ Set automationObject = addIn.Object
+ success = automationObject.RefreshWorksheetRequests(ActiveWorkbook.ActiveSheet)
+ 
+End Sub
+```
+
+## `RefreshAllReportBuilderRequestsInCellsRange()`
+
+`RefreshAllReportBuilderRequestsInCellsRange()` マクロは、セル出力が指定した範囲のセルと交差するすべての Report Builder リクエストを最新の情報に更新します。次の使用例は、作業中のブック内の「Data」ワークシートで `B1:B54` の範囲を指すセル範囲を指定します。範囲式は、サポートされる Excel 範囲式をすべてサポートしています。
+
+```vba
+Sub RefreshAllReportBuilderRequestsInCellsRange()
+ 
+ Dim addIn As COMAddIn
+ Dim automationObject As Object
+ Dim success As String
+ Set addIn = Application.COMAddIns("ReportBuilderAddIn.Connect")
+ Set automationObject = addIn.Object
+ success = automationObject.RefreshRequestsInCellsRange("'Data'!B1:B54")
+  
+End Sub
+```
