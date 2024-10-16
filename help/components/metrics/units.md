@@ -3,16 +3,16 @@ title: 単位
 description: すべての注文内で購入された製品の合計数。
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a1fbd3f483d3a236fe5dc3246f5e90c1b3f51ba9
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 80%
 
 ---
 
 # 単位
 
-「単位」 [ 指標 ](overview.md) は、すべての注文内で購入された製品の合計数を示します。 この指標は、e コマースのサイトでコンバージョンを測定する際に重要です。この指標を任意のディメンションと組み合わせて、どのディメンション項目が製品の購入数に貢献したかを確認できます。例えば、購入した商品に貢献したトップキャンペーン（[トラッキングコード](../dimensions/tracking-code.md)ディメンションを使用）またはトップ内検索用語（[eVar](../dimensions/evar.md) を使用）を確認できます。
+「単位」 [ 指標 ](overview.md) は、すべての注文内で購入された製品の合計数を示します。 この指標は、e コマースのサイトでコンバージョンを測定する際に重要です。この指標を任意のディメンションと組み合わせると、購入された製品の数に貢献したディメンション項目を確認できます。 例えば、購入した商品に貢献したトップキャンペーン（[トラッキングコード](../dimensions/tracking-code.md)ディメンションを使用）またはトップ内検索用語（[eVar](../dimensions/evar.md) を使用）を確認できます。
 
 ## この指標の計算方法
 
