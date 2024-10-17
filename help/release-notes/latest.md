@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+source-git-commit: 21cf08af6922aaaed2f0b3e4c0fcd701b54473ee
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 91%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2024年10月）
 
-**最終更新日**：2024年10月16日（PT）
+**最終更新日**：2024年10月17日（PT）
 
 このリリースノートは、2024年10月2日～2024年10月22日（PT）のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Adobe Analyticsの新しいReport Builder | 新しいReport Builderアプリケーションは、パフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows および web ブラウザー上のMicrosoft Excel のサポートなど、Adobe Analyticsに更新された機能を提供します。 [ フォローするドキュメントへのリンク ] |  | 2024年10月16日（PT） |
+| Adobe Analyticsの新しいReport Builder | 新しいReport Builderアプリケーションは、パフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows および web ブラウザー上のMicrosoft Excel のサポートなど、Adobe Analyticsに更新された機能を提供します。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
 
 ## Adobe Analytics の修正点
 
