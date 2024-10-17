@@ -5,7 +5,7 @@ uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 feature: Report Builder
 role: User, Admin
 exl-id: 3d2ebd3f-9090-4de6-8da9-50a2640ffaf2
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # 指標の変更 - フィールドの定義
+
+{{legacy-arb}}
 
 Report Builder で指標を設定する際に使用するフィールドの説明です。
 

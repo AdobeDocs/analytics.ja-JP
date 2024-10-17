@@ -5,7 +5,7 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 33%
@@ -13,6 +13,8 @@ ht-degree: 33%
 ---
 
 # リクエストを作成および編集するオフラインモード
+
+{{legacy-arb}}
 
 オフラインモードでは、プレースホルダーデータを返し、リクエストの作成および編集のプロセスにかかる時間を短縮します。
 

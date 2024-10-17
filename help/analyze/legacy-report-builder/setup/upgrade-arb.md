@@ -5,7 +5,7 @@ uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 51%
@@ -13,6 +13,8 @@ ht-degree: 51%
 ---
 
 # Report Builder のアップグレード
+
+{{legacy-arb}}
 
 Report Builderをアップグレードする際は、次のガイドラインに注意してください。
 

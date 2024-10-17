@@ -1,11 +1,18 @@
 ---
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 93%
+source-wordcount: '1214'
+ht-degree: 89%
 
 ---
 # スニペット
+
+## 従来のReport Builder {#legacy-arb}
+
+>[!IMPORTANT]
+>
+>合理化された新しい [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) が 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
+>この従来のReport Builderのアドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) できます。
 
 ## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
 

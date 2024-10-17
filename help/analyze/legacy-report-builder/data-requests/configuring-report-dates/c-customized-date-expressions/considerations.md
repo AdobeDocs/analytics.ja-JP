@@ -5,7 +5,7 @@ uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
 role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # 日付のカスタマイズに関する考慮事項
+
+{{legacy-arb}}
 
 「式をカスタマイズ」を使用して日付範囲を設定する際には、次の 2 点に注意してください。
 

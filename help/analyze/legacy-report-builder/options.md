@@ -5,7 +5,7 @@ uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
 role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 88%
@@ -13,6 +13,8 @@ ht-degree: 88%
 ---
 
 # Report Builder オプション
+
+{{legacy-arb}}
 
 オプションパネルでは、日付設定、待ち時間設定（現在のデータ）およびログ情報を指定し、更新を設定できます。
 

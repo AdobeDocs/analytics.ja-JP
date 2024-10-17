@@ -5,7 +5,7 @@ uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
 role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 91%
@@ -13,6 +13,8 @@ ht-degree: 91%
 ---
 
 # 指標およびディメンションの概要
+
+{{legacy-arb}}
 
 リクエストウィザードで指標とディメンションを追加する：手順 2 リクエスト内のデータの Analytics レイアウトを定義します。 Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 

@@ -5,7 +5,7 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 38%
@@ -13,6 +13,8 @@ ht-degree: 38%
 ---
 
 # 指標およびディメンションの追加
+
+{{legacy-arb}}
 
 リクエストに指標およびディメンションを追加する手順です。
 

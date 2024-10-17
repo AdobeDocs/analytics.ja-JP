@@ -5,7 +5,7 @@ uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
 role: User, Admin
 exl-id: 650c1626-be2d-4e4c-bcd9-bd9665ef9550
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 75%
@@ -13,6 +13,8 @@ ht-degree: 75%
 ---
 
 # すべてのシートのリクエストの更新
+
+{{legacy-arb}}
 
 すべてのシート上のリクエストを一括で更新することができます。
 

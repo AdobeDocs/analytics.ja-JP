@@ -5,7 +5,7 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 71%
@@ -13,6 +13,8 @@ ht-degree: 71%
 ---
 
 # ディメンションおよび指標のユーザーアクセス権限
+
+{{legacy-arb}}
 
 Adobe Report Builderには、Analytics Admin Tools と同様の権限設定があります。
 

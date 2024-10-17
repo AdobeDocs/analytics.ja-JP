@@ -4,7 +4,7 @@ title: 顧客属性
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 83%
@@ -12,6 +12,8 @@ ht-degree: 83%
 ---
 
 # 顧客属性
+
+{{legacy-arb}}
 
 顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。
 

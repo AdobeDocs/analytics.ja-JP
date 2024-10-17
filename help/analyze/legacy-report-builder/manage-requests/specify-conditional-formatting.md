@@ -5,7 +5,7 @@ uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
 role: User, Admin
 exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 32%
@@ -13,6 +13,8 @@ ht-degree: 32%
 ---
 
 # 条件付き書式の指定
+
+{{legacy-arb}}
 
 リクエストが埋め込まれたレポートを作成したら、ワークブックのセルに条件付き書式を適用できます。
 

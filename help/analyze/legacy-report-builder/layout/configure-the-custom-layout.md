@@ -5,7 +5,7 @@ uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 70%
@@ -13,6 +13,8 @@ ht-degree: 70%
 ---
 
 # カスタムレイアウトの設定
+
+{{legacy-arb}}
 
 カスタムレイアウトでは、ピボットレイアウトの機能のほとんどが利用できます。ただし、スプレッドシート内のグリッドの各項目を配置する場所はユーザーが選択します。このレイアウトでは、従来のバージョンのように、分類やマイクロチャートの追加などを柔軟に行うことができます。
 

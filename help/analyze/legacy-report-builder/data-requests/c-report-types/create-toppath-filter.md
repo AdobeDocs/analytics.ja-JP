@@ -4,7 +4,7 @@ title: 依存リクエストの追加によるパスレポートのフィルタ�
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 62%
@@ -12,6 +12,8 @@ ht-degree: 62%
 ---
 
 # 依存リクエストの追加によるパスレポートのフィルタリング
+
+{{legacy-arb}}
 
 事前定義済みのフィルターを使用してパスレポートを作成する方法について説明します。
 

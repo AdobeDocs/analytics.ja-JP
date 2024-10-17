@@ -5,7 +5,7 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%
@@ -13,6 +13,8 @@ ht-degree: 98%
 ---
 
 # カスタマイズされた式を使用した日付範囲の例
+
+{{legacy-arb}}
 
 カスタマイズされた式で日付範囲を使用する場合の例、注意事項および構文に関する注意点について説明します。
 

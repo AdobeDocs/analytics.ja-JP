@@ -5,7 +5,7 @@ uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 feature: Report Builder
 role: User, Admin
 exl-id: e2ab1b8b-30e7-4851-8f13-292613fef016
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 89%
@@ -13,6 +13,8 @@ ht-degree: 89%
 ---
 
 # リクエストウィザードの定義 - 固定日付
+
+{{legacy-arb}}
 
 Report Builder における固定日付の定義です。
 

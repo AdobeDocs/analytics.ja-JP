@@ -1,17 +1,19 @@
 ---
-title: Adobe Analytics の Report Builder について
+title: Adobe Analyticsの従来のReport Builderについて
 description: Report Builder を使用して、Adobe Analytics のデータを Microsoft Excel に直接取り込む方法について説明します。
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 90%
 
 ---
 
-# Report Builder とは
+# レガシーReport Builderとは
+
+{{legacy-arb}}
 
 Adobe Report Builder は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 

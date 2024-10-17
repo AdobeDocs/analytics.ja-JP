@@ -5,7 +5,7 @@ uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: User, Admin
 exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 81%
@@ -13,6 +13,8 @@ ht-degree: 81%
 ---
 
 # ワークブックのアップロード
+
+{{legacy-arb}}
 
 共有する Report Builder の Excel ワークブックをアップロードします。
 

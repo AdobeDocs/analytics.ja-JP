@@ -5,7 +5,7 @@ uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
 role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 73%
@@ -13,6 +13,8 @@ ht-degree: 73%
 ---
 
 # リクエストウィザードの定義 - 相対日付
+
+{{legacy-arb}}
 
 Report Builderでの相対日付のフィールド定義。
 

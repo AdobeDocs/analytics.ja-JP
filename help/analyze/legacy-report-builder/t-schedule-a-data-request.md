@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%
@@ -13,6 +13,8 @@ ht-degree: 96%
 ---
 
 # ワークブックのスケジュール設定
+
+{{legacy-arb}}
 
 ワークブックのスケジュール設定、アドバンス配信オプションの指定、受信者の指定およびスケジュールの履歴の表示を行うことができます。アドバンス配信オプションでは、特定の時間または間隔で送信するワークブックを設定します。また、送信するワークブックのファイル形式も選択できます。
 

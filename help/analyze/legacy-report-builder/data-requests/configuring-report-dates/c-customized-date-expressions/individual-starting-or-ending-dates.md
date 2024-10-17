@@ -5,7 +5,7 @@ uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
 role: User, Admin
 exl-id: 0ae7887f-29bf-4565-9ca0-20b77a3a70cb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 83%
@@ -13,6 +13,8 @@ ht-degree: 83%
 ---
 
 # 開始日または終了日
+
+{{legacy-arb}}
 
 開始日および終了日の略語です。
 

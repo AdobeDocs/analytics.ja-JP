@@ -4,7 +4,7 @@ title: リクエストウィザードを使用したフォールアウトレポ�
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 80%
@@ -12,6 +12,8 @@ ht-degree: 80%
 ---
 
 # リクエストウィザードを使用したフォールアウトレポートのフィルタリング
+
+{{legacy-arb}}
 
 フォールアウトレポートにフィルターを適用する手順について説明します。
 

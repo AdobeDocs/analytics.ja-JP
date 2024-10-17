@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 32%
+source-wordcount: '561'
+ht-degree: 28%
 
 ---
 
@@ -16,10 +16,14 @@ ht-degree: 32%
 
 当初はCustomer Journey Analyticsでのみ利用できた新しい JavaScriptReport Builderアドインが、Adobe Analyticsにも導入されるようになりました。 この新しいバージョンには、次のようないくつかの利点があります。
 
-- Mac、Microsoft Windows および web ブラウザーでのMicrosoft Excel のサポート
-- ユーザーエクスペリエンスの向上
+- データブロックの柔軟性の向上など、データブロックの作成と管理のワークフローが改善され、Excel でのインサイトをより迅速かつ簡単に見つけることができます
+- クロスプラットフォーム：PC、Mac、Excel Online がサポートされるようになり、Report Builderを使用するために仮想マシンにログインする必要がなくなりました
+- API 2.0 のアップグレードにより、データブロックが返されるのを待つ時間が短縮されました。
 - 速度の向上。
-- Analytics 2.0 API のサポート
+
+>[!NOTE]
+>
+>Adobe AnalyticsのこのバージョンのReport Builderに対応するワークブックのスケジュールはまだリリースされていませんが、2025 年初頭に利用可能になる予定です。 スケジュールを必要としないワークブックで、今すぐ開始できます。
 
 従来のReport Builderツールを使用すると、[ 従来のワークブックを新しいReport Builderに変換 ](/help/analyze/report-builder/convert-workbooks.md) できます。
 

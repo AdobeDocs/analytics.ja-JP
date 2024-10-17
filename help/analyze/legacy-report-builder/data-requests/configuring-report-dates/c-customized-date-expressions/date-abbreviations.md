@@ -5,7 +5,7 @@ uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
 role: User, Admin
 exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 86%
@@ -13,6 +13,8 @@ ht-degree: 86%
 ---
 
 # 日付の略語
+
+{{legacy-arb}}
 
 日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日の範囲は、2 つの時間の略語または用語の開始日と終了日を指定することによって表されます。
 

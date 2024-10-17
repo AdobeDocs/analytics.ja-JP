@@ -4,7 +4,7 @@ title: Power BI 統合のトラブルシューティング
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Power BI 統合のトラブルシューティング
+
+{{legacy-arb}}
 
 Report Builder を Power BI で使用する際の一般的な問題を調べ、解決します。
 

@@ -4,7 +4,7 @@ title: 制限および仕様
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 制限および仕様
+
+{{legacy-arb}}
 
 ## Power BI への発行の制限事項 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 

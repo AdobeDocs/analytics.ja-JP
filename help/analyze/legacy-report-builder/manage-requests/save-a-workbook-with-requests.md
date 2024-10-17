@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # リクエストを含むワークブックの保存
+
+{{legacy-arb}}
 
 リクエストが埋め込まれたレポートを作成する場合は、Excel の **ファイル**/**保存** または **ファイル**/**名前を付けて保存** を使用して保存できます。 Report Builderは、レポートにリクエストが含まれているかどうかを検出します。 保存オプションの 1 つを選択したら、**ブックに名前を付けて保存** フォームに入力します。
 

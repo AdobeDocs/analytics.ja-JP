@@ -5,7 +5,7 @@ uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin
 exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 77%
@@ -13,6 +13,8 @@ ht-degree: 77%
 ---
 
 # マクロが有効なワークブックのスケジュール
+
+{{legacy-arb}}
 
 Adobe Report Builder でマクロが設定された .xlsm 形式のワークブックをスケジュール配信できるようになりました。
 

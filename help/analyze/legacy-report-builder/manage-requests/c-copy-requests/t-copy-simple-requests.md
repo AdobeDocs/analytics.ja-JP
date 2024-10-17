@@ -5,7 +5,7 @@ uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 82%
@@ -13,6 +13,8 @@ ht-degree: 82%
 ---
 
 # 単純なリクエストのコピー
+
+{{legacy-arb}}
 
 参照リクエスト以外の単純なリクエストをコピーします。単純なリクエストとは、他のセルのリクエストまたは内容への参照を含まないリクエストです。
 

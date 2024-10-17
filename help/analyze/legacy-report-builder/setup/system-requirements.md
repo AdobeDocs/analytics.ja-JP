@@ -5,7 +5,7 @@ uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 80%
@@ -13,6 +13,8 @@ ht-degree: 80%
 ---
 
 # 必要システム構成
+
+{{legacy-arb}}
 
 システムレコメンデーション構成および前提条件。
 

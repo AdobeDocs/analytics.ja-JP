@@ -5,7 +5,7 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 17%
@@ -13,6 +13,8 @@ ht-degree: 17%
 ---
 
 # Report Builder へのログイン
+
+{{legacy-arb}}
 
 >[!IMPORTANT]
 >

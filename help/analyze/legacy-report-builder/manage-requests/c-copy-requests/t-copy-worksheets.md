@@ -5,7 +5,7 @@ uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin
 exl-id: 51785d9a-fdd1-42f1-8f44-4ca135d97d99
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 86%
@@ -13,6 +13,8 @@ ht-degree: 86%
 ---
 
 # ワークシートのコピー
+
+{{legacy-arb}}
 
 同じワークブック内でスプレッドシートを複製します。
 
