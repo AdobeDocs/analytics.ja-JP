@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 データブロックの場所、レポートスイートおよび日付範囲の初期データブロックパラメーターを設定します。
 
-1. 「**[!UICONTROL データブロックの作成]**」をクリックします。
+1. **[!UICONTROL データブロックの作成]** をクリックします。
 
    ![ データブロック作成オプションを示したスクリーンショット。](./assets/create_db.png)
 
