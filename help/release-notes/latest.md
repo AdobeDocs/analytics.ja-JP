@@ -3,15 +3,14 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # 最新のAdobe Analytics リリースノート（2024 年 10 月 23 日（PT）リリース）
-
 
 **最終更新日**：2024年10月23日（PT）
 
@@ -38,12 +37,11 @@ Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
 Data Warehouse: AN-359820
 超過アラート：AN-358132
 
-
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Campaign 以外のユーザーは、トリガーにアクセスできなくなります** | 2024年10月16日（PT） | 2025 年 1 月 30 日（PT）、Adobe Analytics ライセンスを持たないAdobe Campaign ユーザーは、[トリガー](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) を設定して使用する機能にアクセスできなくなります。 お客様は、Campaign を購入するか、トリガーの使用を中止する予定があるか、トリガー機能を提供する他のAdobeツールを検討する必要があります。 |
+| **Campaign 以外のユーザーは、トリガーにアクセスできなくなります** | 2023年10月16日（PT） | 2025 年 1 月 30 日（PT）、Adobe Campaign ライセンスを持たないAdobe Analytics ユーザーは、トリガーを設定および使用する機能にアクセスできなくなります。 お客様は、Campaign を購入するか、トリガーの使用を中止する予定があるか、トリガー機能を提供する他のAdobeツールを検討する必要があります。 |
 | **自動的にマッピングされる追加の実装詳細 XDM フィールド** | 2024年9月11日（PT） | Adobe Experience Platform Edge Network を使用してデータを Adobe Analytics に送信する際に、XDM フィールド `xdm.implementationdetails.name` と `xdm.implementationdetails.environment` は、常にコンテキストデータ変数 `c.a.x.implementationdetails.name` と `c.a.x.implementationdetails.environment` にマッピングされるようになりました。以前は、一部のシナリオで、これらの値が入力されませんでした。これらの値が使用可能になるように、関連する処理ルールを調整してください。 |
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
