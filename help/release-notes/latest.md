@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 51%
@@ -21,7 +21,7 @@ ht-degree: 51%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Analyticsの新しいReport Builder** | 新しいReport Builderアプリケーションでは、Adobe Analyticsのパフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows、web ブラウザーでのMicrosoft Excel のサポートなど、大きな更新がおこなわれました。 このアプリケーションは、従来のアプリケーションと一緒に使用できますが、同じファイルでは使用できません。 従来のワークブックを新しいアプリケーションにアップグレードするためのアップグレード機能が提供されます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
-| **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連しています。 このAdobe Analytics拡張機能の更新をワークフローの一部として使用して、拡張機能の設定を Web SDK 拡張機能で再作成できます。 Adobe Analytics タグ拡張機能では、eVar、prop およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月23日（PT） |
+| **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連しています。 このAdobe Analytics拡張機能の更新をワークフローの一部として使用して、拡張機能の設定を Web SDK 拡張機能で再作成できます。 Adobe Analytics タグ拡張機能では、eVar、prop およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月31日（PT） |
 
 ## Adobe Analytics の修正点
 
