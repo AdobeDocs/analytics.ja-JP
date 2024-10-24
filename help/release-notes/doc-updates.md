@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: bae719223ffa642434ab9559c1e48ebd76d003a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2024年10月** |  |
-| Analysis Workspaceのパフォーマンスにおけるリクエスト要因に関する新しい情報 | [Analysis Workspaceのパフォーマンスの最適化 ](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) 記事の新しい [ リクエスト要因 ](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) の節で、リクエストの処理方法と、処理時間に影響を与える様々な要因について説明します。 |
-| 新しいReport Builder | Mac、Windows および web ブラウザーでサポートされる、合理化されたReport Builderアドインの [ 新しいドキュメント ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview)。 |
+| Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報 | [Analysis Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)の記事の新しい[リクエスト要因](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)の節では、リクエストの処理方法と、処理時間に影響を与える様々な要因について説明します。 |
+| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview)。 |
 | **2024年8月** | |
 | アラートマネージャー | [アラートマネージャー](/help/components/c-alerts/alert-manager.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | **2024年7月** | |

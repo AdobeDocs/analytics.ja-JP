@@ -4,9 +4,9 @@ description: Adobe Analytics を使用するための必要システム構成で
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,5 +43,5 @@ Analysis Workspace を含む、ほとんどの Adobe Analytics ソリューシ�
 
 そのソリューションの必要システム構成については、リンクされたソリューションのページを参照してください。
 
-* [従来のReport Builderの必要システム構成](/help/analyze/legacy-report-builder/setup/system-requirements.md)
+* [レガシー Report Builder の必要システム構成](/help/analyze/legacy-report-builder/setup/system-requirements.md)
 

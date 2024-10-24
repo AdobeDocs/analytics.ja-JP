@@ -4,9 +4,9 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1220'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Adobe Analytics ダッシュボード](/help/analyze/mobile-app/home.md)**&#x200B;では、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** は、Mac、Windows および web ブラウザーで動作するMicrosoft Excel 用のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** は、Mac、Windows、web ブラウザーで実行される Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
-**[従来のReport Builder](/help/analyze/legacy-report-builder/home.md)** は、Windows のみで動作するMicrosoft Excel 用のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+**[レガシー Report Builder](/help/analyze/legacy-report-builder/home.md)** は、Windows でのみ実行される Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** は、Adobe Analytics 内の機能で、web ページやモバイルアプリに対するユーザーエンゲージメントを視覚的に表現します。これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
 
