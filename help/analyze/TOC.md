@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
-user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builderおよび従来のReport Builder、Activity Mapなどの Analytics ツールの使用方法について説明します。
+user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -174,9 +174,9 @@ ht-degree: 96%
    + [ワークブックのスケジュール設定](report-builder/schedule-reportbuilder.md)
    + [制限付きラベル](report-builder/restricted-labels.md)
    + [Report Builder の設定](report-builder/report-builder-settings.md)
-+ 従来のReport Builder {#legacy-report-builder}
-   + [従来のAdobe Report Builder ヘルプ](legacy-report-builder/home.md)
-   + 従来のReport Builder設定 {#legacy-report-builder-setup}
++ レガシー Report Builder {#legacy-report-builder}
+   + [レガシー Adobe Report Builder ヘルプ](legacy-report-builder/home.md)
+   + レガシー Report Builder の設定 {#legacy-report-builder-setup}
       + [必要システム構成](legacy-report-builder/setup/system-requirements.md)
       + [Report Builder のインストール](legacy-report-builder/setup/t-install-arb.md)
       + [Report Builder のアップグレード](legacy-report-builder/setup/upgrade-arb.md)
@@ -302,4 +302,4 @@ ht-degree: 96%
    + [モバイルスコアカードの作成](mobile-app/create-scorecard.md)
    + [ダッシュボードを使用するエグゼクティブの設定](mobile-app/set-up-execs.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
-+ [Labs](labs.md)
++ [ラボ](labs.md)
