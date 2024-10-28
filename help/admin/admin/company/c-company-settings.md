@@ -3,10 +3,10 @@ description: 組織が管理するすべてのレポートスイートに適用�
 title: カンパニー設定の概要
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
+source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 34%
 
 ---
 
@@ -16,10 +16,15 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL カンパニー設定]**
 
-+ [機能アクセスレベル](feature-access-levels.md)
-+ [Web サービス](web-services-admin.md)
++ [セキュリティマネージャー](security-manager.md)
++ サポート情報：サポート情報ページでは、管理者への問い合わせが必要になった場合にAdobe Analytics全体に表示されるサポート情報を管理します。 例えば、アクセスしようとしている機能にアクセスできない可能性があります。
++ [API アクセス ]
 + [Report Builder レポート](report-builder-reports-admin.md)
 + [シングルサインオン](single-signon-admin.md)
 + [保留中のアクション](pending-actions-admin.md)
++ コブランディング：コブランディング画像を管理ページでは、レポートおよび UI に会社のロゴを表示できます。 「**[!UICONTROL コブランディングを有効にする]**」をクリックします。
++ [環境設定]
 + [レポートスイートを非表示](c-hide-report-suites.md)
-+ [セキュリティマネージャー](security-manager.md)
++ [機能アクセス レベルの表示](feature-access-levels.md)
++ [Web サービス](web-services-admin.md)
++ Adobeのパフォーマンス最適化：中国本土における中国のパフォーマンス最適化により、中国国内のお客様は、世界中の他の場所ではなく、中国のエッジノードに直接データを送信できます。 これにより、中国外のノードにデータを送信する場合と比較して、ページの読み込み時間とデータの精度が向上します。 詳しくは、UI の FAQ の節を参照してください。
