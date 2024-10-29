@@ -6,43 +6,43 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 52%
+ht-degree: 93%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2024 年 10 月 23 日（PT）リリース）
+# 現在の Adobe Analytics リリースノート（2024年10月23日リリース）
 
 **最終更新日**：2024年10月23日（PT）
 
-これらのリリースノートは、2024 年 10 月 16 日（PT）から 2024 年末（PT）までのリリース期間に対応しています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+このリリースノートは、2024年10月16日（PT）～2024年末までのリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analyticsの新しいReport Builder** | 新しいReport Builderアプリケーションでは、Adobe Analyticsのパフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows、web ブラウザーでのMicrosoft Excel のサポートなど、大きな更新がおこなわれました。 このアプリケーションは、従来のアプリケーションと一緒に使用できますが、同じファイルでは使用できません。 従来のワークブックを新しいアプリケーションにアップグレードするためのアップグレード機能が提供されます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
-| **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連しています。 このAdobe Analytics拡張機能の更新をワークフローの一部として使用して、拡張機能の設定を Web SDK 拡張機能で再作成できます。 Adobe Analytics タグ拡張機能では、eVar、prop およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月31日（PT） |
+| **Adobe Analytics の新しい Report Builder** | 新しい Report Builder アプリケーションは、パフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows および web ブラウザー上の Microsoft Excel のサポートなど、Adobe Analytics に大幅な更新を提供します。このアプリケーションはレガシーアプリケーションと共に使用できますが、同じファイルでは使用できません。新しいアプリケーションにレガシーワークブックをアップグレードするためのアップグレード機能が提供されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
+| **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連するものです。Adobe Analytics 拡張機能に対するこのアップデートをワークフローの一部として使用し、Web SDK 拡張機能を使用して拡張機能の設定を再作成できます。Adobe Analytics タグ拡張機能では、eVar、props およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月31日（PT） |
 | **Analysis Workspaceのパフォーマンスにおけるリクエスト要因に関する新しい情報** | Analysis Workspaceでパフォーマンスを分析する際に、新しい「リクエスト要因」セクションを使用できるようになりました。 リクエストの処理方法と、処理時間に影響を与える様々な要因について詳しくは、[Analysis Workspaceのパフォーマンスの最適化 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) の「リクエスト要因」を参照してください。 |  | 2024年10月1日（PT） |
 
 ## Adobe Analytics の修正点
 
-Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
-管理ツール：AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
-分類：AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
+Analysis Workspace：AN-356287、AN-358435、AN-359456、AN-359826、AN-360215
+管理ツール：AN-342485、AN-347931、AN-348704、AN-357723、AN-358453、AN-358717、AN-359548、AN-360136
+分類：AN-359025、AN-359283、AN-359368、AN-359710、AN-359752、AN-359759、AN-359799、AN-359887、AN-360543、AN-360566、AN-360612、AN-360741、AN-360942、AN-360952
 クロスデバイス分析：AN-359210
 顧客属性：AN-357897
-データ収集：AN-351131; AN-351309; AN-355678; AN-359856
+データ収集：AN-351131、AN-351309、AN-355678、AN-359856
 データフィード：AN-359699
-データ修復 API: AN-360256
+Data Repair API：AN-360256
 データソース：AN-359290
-Data Warehouse: AN-359820
+Data Warehouse：AN-359820
 超過アラート：AN-358132
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Campaign 以外のユーザーは、トリガーにアクセスできなくなります** | 2023年10月16日（PT） | 2025 年 1 月 30 日（PT）、Adobe Campaign ライセンスを持たないAdobe Analytics ユーザーは、トリガーを設定および使用する機能にアクセスできなくなります。 お客様は、Campaign を購入するか、トリガーの使用を中止する予定があるか、トリガー機能を提供する他のAdobeツールを検討する必要があります。 |
+| **Campaign 以外のお客様は、トリガーにアクセスできなくなる** | 2023年10月16日（PT） | 2025年1月30日（PT）に、Adobe Campaign ライセンスを持たない Adobe Analytics のお客様は、トリガーを設定および使用できなくなります。お客様は、Campaign を購入するか、トリガーの使用を中止するか、トリガー機能を提供する他の Adobe ツールを検討する必要があります。 |
 | **自動的にマッピングされる追加の実装詳細 XDM フィールド** | 2024年9月11日（PT） | Adobe Experience Platform Edge Network を使用してデータを Adobe Analytics に送信する際に、XDM フィールド `xdm.implementationdetails.name` と `xdm.implementationdetails.environment` は、常にコンテキストデータ変数 `c.a.x.implementationdetails.name` と `c.a.x.implementationdetails.environment` にマッピングされるようになりました。以前は、一部のシナリオで、これらの値が入力されませんでした。これらの値が使用可能になるように、関連する処理ルールを調整してください。 |
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
