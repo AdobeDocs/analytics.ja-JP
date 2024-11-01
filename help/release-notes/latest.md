@@ -4,9 +4,9 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Analytics の新しい Report Builder** | 新しい Report Builder アプリケーションは、パフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows および web ブラウザー上の Microsoft Excel のサポートなど、Adobe Analytics に大幅な更新を提供します。このアプリケーションはレガシーアプリケーションと共に使用できますが、同じファイルでは使用できません。新しいアプリケーションにレガシーワークブックをアップグレードするためのアップグレード機能が提供されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
 | **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連するものです。Adobe Analytics 拡張機能に対するこのアップデートをワークフローの一部として使用し、Web SDK 拡張機能を使用して拡張機能の設定を再作成できます。Adobe Analytics タグ拡張機能では、eVar、props およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月31日（PT） |
-| **Analysis Workspaceのパフォーマンスにおけるリクエスト要因に関する新しい情報** | Analysis Workspaceでパフォーマンスを分析する際に、新しい「リクエスト要因」セクションを使用できるようになりました。 リクエストの処理方法と、処理時間に影響を与える様々な要因について詳しくは、[Analysis Workspaceのパフォーマンスの最適化 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance) の「リクエスト要因」を参照してください。 |  | 2024年10月1日（PT） |
+| **Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報** | Analysis Workspace でパフォーマンスを分析する際に、新しい「リクエスト要因」セクションが使用できるようになりました。リクエストの処理方法と、処理時間に影響を与える様々な要因について詳しくは、[Analysis Workspace のパフォーマンスの最適化](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)の「リクエスト要因」を参照してください。 |  | 2024年10月1日（PT） |
 
 ## Adobe Analytics の修正点
 
