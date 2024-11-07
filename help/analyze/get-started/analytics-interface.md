@@ -3,8 +3,8 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | Search &amp; Promote | この機能はサポートされなくなりました。 |  |
    | Mobile Services | この機能はサポートされなくなりました。 |  |
    | Analytics ダッシュボード（モバイルアプリ） | Adobe Analytics ダッシュボードアプリは、Adobe Analytics から任意の時間、任意の場所でインサイトを提供します。ユーザーはアプリを通じて、Adobe Analytics デスクトップ UI を使用して作成した直感的なスコアカードを表示できます。 | iOS App Store または Google Play ストアの Adobe Analytics ダッシュボードアプリ |
-   | Report Builder | Adobe Report Builder は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder とは](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja) |
+   | Report Builder | Adobe Report Builder は Microsoft Excel のアドインです。Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder とは](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) |
 
    {style="table-layout:auto"}
 

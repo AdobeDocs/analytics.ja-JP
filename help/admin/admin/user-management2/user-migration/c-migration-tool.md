@@ -4,10 +4,10 @@ title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder の更新 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=ja">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：<a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行はいつ始まるのですか。 </p> </td> 
@@ -248,7 +248,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウントの有効期限 </p> </td> 
-   <td colname="col2"> <p> アドミンツールの Analytics では、アカウントの有効期限を手動で設定できます。有効期限が来ると、ユーザーは Analytics にアクセスできなくなりますが、実際の Experience Cloud ユーザーアカウント（例: Adobe ID、Enterprise ID、Federated ID など）は期限切れにはなりません。これらのユーザーは引き続き Experience Cloud にログインできますが、Analytics を使用することはできなくなります。 </p> </td> 
+   <td colname="col2"> <p> アドミンツールの Analytics では、アカウントの有効期限を手動で設定できます。有効期限が切れると、ユーザーは Analytics にアクセスできなくなりますが、実際のExperience Cloudユーザーアカウント（Adobe ID、Enterprise ID、Federated IDなど）の有効期限は切れません。 これらのユーザーは引き続き Experience Cloud にログインできますが、Analytics を使用することはできなくなります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

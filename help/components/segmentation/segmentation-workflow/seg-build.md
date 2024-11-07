@@ -3,10 +3,10 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 * **Analytics 上部ナビゲーション**：**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;をクリックします。
 * **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
-* **[!UICONTROL Report Builder]**：[Report Builder でセグメントを追加または編集します。](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=ja)
+* **[!UICONTROL Report Builder]**：[Report Builder でセグメントを追加または編集します。](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments)
 
 ## ビルダー条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 1. **[!UICONTROL 説明]**：セグメントの説明を入力します。
 1. **[!UICONTROL タグ]**：既存のタグのリストから選択、または新しいタグを作成して、作成するセグメントに[タグを付ける](/help/components/segmentation/segmentation-workflow/seg-workflow.md)ことができます。
 1. **[!UICONTROL 定義]**：[セグメントを作成および設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、ルールを追加し、コンテナをネストして順に並べるための作業領域です。
-1. **[!UICONTROL 表示]**：（上部のコンテナセレクター）トップレベルの[コンテナ](/help/components/segmentation/seg-overview.md)（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ヒット]）を選択できます。デフォルトのトップレベルのコンテナは、ヒットコンテナです。
+1. **[!UICONTROL 表示]**:（上部のコンテナセレクター） 最上位の [ コンテナ ](/help/components/segmentation/seg-overview.md) （[!UICONTROL  訪問者 ]、[!UICONTROL  訪問 ]、[!UICONTROL  ヒット ]）を選択できます。 デフォルトのトップレベルのコンテナは、ヒットコンテナです。
 1. **[!UICONTROL オプション]**：（ギア）アイコン
 
    * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
