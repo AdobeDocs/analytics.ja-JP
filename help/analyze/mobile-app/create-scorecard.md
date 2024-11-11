@@ -4,7 +4,7 @@ title: モバイルスコアカードの作成と共有
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Analysis Workspace のモバイルスコアカードプロジェクトでデー�
 ![データストーリーの作成](assets/data-story-nav.png){width="25%"}
 
 また、キーボードの矢印を使用するか、コンポーネントを選択して画面の左または右に長押ししてスクロールすることで、前後に移動することもできます。
-
 
 ## スコアカードのプレビュー {#preview}
 

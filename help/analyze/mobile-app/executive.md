@@ -4,9 +4,9 @@ title: Adobe Analytics ダッシュボードエグゼクティブガイド
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 1. 表示するスコアカードをタップします。
 
-   1 回のログインで複数の組織にアクセスできる場合、組織のすべてのスコアカードをスコアカードリストで使用できます。
+   1 回のログインで複数の組織にアクセスできる場合、ホーム画面には、使用可能なすべての会社のすべてのスコアカードが 1 か所に表示されます。
 
    スコアカードタイトル、組織名、または最近表示した項目に従って、スコアカードリストを並べ替えることができます。 特定のスコアカードを検索することもできます。
 
