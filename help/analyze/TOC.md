@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '971'
 ht-degree: 100%
 
 ---
@@ -47,6 +47,9 @@ ht-degree: 100%
    + レポート {#reports}
       + [事前定義済みレポートの使用](analysis-workspace/reports/use-reports.md)
       + [会社レポートの作成と管理](analysis-workspace/reports/create-company-reports.md)
+   + テンプレート {#templates}
+      + [テンプレートを使用](analysis-workspace/templates/use-templates.md)
+      + [テンプレートの作成](analysis-workspace/templates/create-templates.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + [ワークスペースでのコンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
