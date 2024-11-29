@@ -5,7 +5,7 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ ht-degree: 100%
    + [レガシーリクエストの変換](report-builder/convert-workbooks.md)
    + [データブロックの作成](report-builder/create-a-data-block.md)
    + [Report Builder ハブ](report-builder/report-builder-hub.md)
-   + [レポートスイートの選択](report-builder/select-report-suite.md)
+   + [レポートスイートを選択します](report-builder/select-report-suite.md)
    + [日付範囲を選択します。](report-builder/select-date-range.md)
    + [セグメントの操作](report-builder/work-with-segments.md)
    + [ディメンションのフィルタリング](report-builder/filter-dimensions.md)
