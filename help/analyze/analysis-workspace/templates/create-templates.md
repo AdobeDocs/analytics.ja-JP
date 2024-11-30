@@ -5,58 +5,101 @@ feature: Analysis Workspace
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 6da9326feec005489e06bb7124b1ff3722830308
+exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
+source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 31%
+source-wordcount: '578'
+ht-degree: 6%
 
 ---
 
-# 会社テンプレートの作成と管理
+# テンプレートの作成と管理
 
-カスタムレポートを作成し、ログイン会社内の他のユーザーが使用できるように保存できます。会社テンプレートは、プロジェクトの作成時に使用できます。[ 空のプロジェクトまたはレポートからプロジェクトを作成する ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) の記事 [Analysis Workspaceでプロジェクトを作成する ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) を参照してください。
+管理者は、テンプレートを作成し、ログイン会社の他のユーザーが使用できるように保存できます。
 
-## カスタム会社テンプレートの作成
+ログイン会社のユーザーは、[ テンプレートの使用 ] （/help/analyze/analysis-workspace/templates/use-templates.md）で説明されているように、これらの会社テンプレートを使用できます。
 
-新しい会社テンプレートを作成するには：
+## テンプレートの作成
 
-1. Analysis Workspace でプロジェクトを目的の状態にビルドします。
-1. [!UICONTROL **プロジェクト**]/**[!UICONTROL 会社テンプレートとして保存]** を選択します。
+ログイン会社のユーザーが使用できる新しいテンプレートを作成するには：
 
-   ![会社レポート](assets/company-report.png)
+1. Analysis Workspaceで、目的のステートにプロジェクトをビルドします。
 
-1. レポート名を更新し、説明を追加し、タグを追加して、「[!UICONTROL **会社テンプレートとして保存**]」を選択します。
+1. [!UICONTROL **プロジェクト**]/**[!UICONTROL テンプレートとして保存]** を選択します。
 
-   テンプレートは、プロジェクトを作成モーダルの会社テンプレートリストに追加され、ログイン会社のユーザーが使用できます。
+   ![ 会社テンプレート ](assets/company-template-save.png)
 
-   ユーザーが会社テンプレートに基づいてプロジェクトを作成する方法について詳しくは、[ プロジェクトの作成 ](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) の「空のプロジェクトまたはレポートからプロジェクトを作成する」を参照してください。
+1. [!UICONTROL  テンプレートとして保存 ] ダイアログボックスで、次の情報を指定します。
 
-## 会社テンプレートの管理
+   | フィールド | 説明 |
+   |---------|----------|
+   | **[!UICONTROL 名前]** | テンプレートのわかりやすい名前を指定します。 |
+   | **[!UICONTROL 説明]** | テンプレートの使用目的を説明する短い説明を入力します。 |
+   | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内のユーザーに通知するための短い説明を入力します。 |
+   | **[!UICONTROL チャネル]** | このテンプレートに適用される適用可能なチャネルを選択します。 複数のチャネル（**[!UICONTROL Web]**、**[!UICONTROL モバイル]**、**[!UICONTROL クロスチャネル]**、**[!UICONTROL コールセンター]** および **[!UICONTROL 店舗]**）を選択できます。<p>選択した項目によって、テンプレートの表示場所と、そのテンプレートにアクセスするユーザーに対して「組織テンプレート」ページから適用されるフィルターが決まります。</p> |
+   | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。 **[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]** など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートの表示場所と、そのテンプレートにアクセスするユーザーに対して「組織テンプレート」ページから適用されるフィルターが決まります。</p> |
+   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。 ユーザーは、追加するタグでテンプレートのリストをフィルタリングできます。 |
 
-管理者は、プロジェクトリストをフィルタリングして、会社テンプレートを表示および管理できます。 ピン留めされた項目は、レポートアイコン（レポートアイコン ![ で識別される会社テンプレートのリストに続いてピン留めされたままです ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)。 この表示では、1 つまたは複数のレポートを削除、名前変更、タグ付けまたは承認できます。
+1. [!UICONTROL **テンプレートとして保存**] を選択します。
 
-会社テンプレートを表示および管理するには：
+ユーザーがテンプレートに基づいてプロジェクトを作成する方法については、[ テンプレートの使用 [ の「テンプレートに基づいてプロジェクトを作成する ](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) を参照してください ](/help/analyze/analysis-workspace/templates/use-templates.md)。
+
+## テンプレートの編集または削除
+
+管理者は、会社テンプレートを編集または削除できます。
+
+1. Analysis Workspaceで、「[!UICONTROL **Workspace**]」タブを選択し、「**[!UICONTROL _login_company_name _templates]**」を選択します。
+
+1. 列表示 ![ 列表示アイコン ](assets/column-view-icon.png) でテンプレートを表示している場合：
+
+   1. 編集または削除するテンプレートに移動し、テンプレート名の横にある情報アイコンを選択します。
+
+      ![ 会社テンプレート情報 ](assets/company-template-info.png)
+
+   1. **[!UICONTROL プレビュー]** を選択します。
+
+   1. その他アイコンを選択し、「**[!UICONTROL 編集]** または **[!UICONTROL 削除]** を選択します。
+
+      ![ テンプレートを編集または削除 ](assets/company-template-edit-delete.png)
+
+1. カード表示 ![ カード表示アイコン ](assets/card-view-icon.png) でテンプレートを表示している場合：
+
+   1. 編集または削除するテンプレートを見つけます。
+
+      ![ 会社テンプレートカード表示 ](assets/company-template-cards.png)
+
+   1. その他アイコンを選択し、「**[!UICONTROL 編集]** または **[!UICONTROL 削除]** を選択します。
+
+      ![ 会社テンプレートカードの編集または削除 ](assets/company-template-card-edit-delete.png)
+
+## テンプレートの名前変更、タグ付け、承認
+
+管理者は、会社テンプレートの名前変更、タグ付けおよび承認を行うことができます。
+
+1. Analysis Workspaceで、「[!UICONTROL **Workspace**]」タブを選択し、左パネルで **[!UICONTROL 「プロジェクト」タブ]** を選択します。
+
+1. フィルターアイコンを選択して、プロジェクトのリストをフィルタリングします。
 
 1. フィルターパネルでは、**その他のフィルター** を選択してから、**会社テンプレート** を選択します。
 
    会社テンプレートのリストが表示されます。 すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
 
-   ![会社レポートフィルターを表示](assets/company-reports-filter.png)
+   会社テンプレートは、テンプレート名の前に付く ![ テンプレートアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) によって識別できます。
 
-   会社テンプレートを表示していると、管理者は、タグを削除、名前変更、追加したり、レポートを承認したりできます。
+   ![ 会社テンプレートフィルターを表示 ](assets/company-templates-filter.png)
 
-1. レポートリストで、単一のレポートを選択したり、複数のレポートを選択したりします。
+1. テンプレートの横にある **...** 省略記号アイコンをクリックして、使用可能なオプションを表示します。
 
-1. レポートの横にある **...** 省略記号アイコンをクリックして、使用可能なオプション（削除、名前を変更、タグおよび承認）を表示します。
+   ![ 会社テンプレートのアクション ](assets/company-templates-actions.png)
 
-   ![会社レポートのアクション](assets/company-reports-actions.png)
+1. **[!UICONTROL 名前を変更]**、**[!UICONTROL タグ]** または **[!UICONTROL 承認]** を選択します。
 
-1. オプション（削除、名前を変更、タグおよび承認）を選択します。
+   [ テンプレートの編集または削除 ](#edit-or-delete-templates) で説明されているように、テンプレートを削除したり、テンプレートを削除したりすることもできます。
 
-1. 完了時に標準表示に戻るには、もう一度フィルターパネルで会社テンプレート オプションをオフにします。
+1. （任意）通常の表示に戻すには、フィルターパネルで「**[!UICONTROL 会社テンプレート]**」の選択を解除します。
 
-### 会社テンプレートの削除
+## 会社テンプレートへのアクセス
 
-管理者は、会社テンプレートリストオプション（前述）を使用してレポートを削除したり、プロジェクトを作成モーダルからレポートを削除したりできます。
+Adobeが提供するテンプレートと同様に、組織内のユーザーは、管理者が作成するテンプレートにアクセスできます。
 
-![その他のフィルター](assets/delete-fr-create-project-modal.png)
+会社テンプレートへのアクセス方法について詳しくは、[ テンプレートの使用 [ の「テンプレートへのアクセスと実行 ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) を参照してください ](/help/analyze/analysis-workspace/templates/use-templates.md)。
