@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Analysis Workspaceのテンプレート（または会社テンプレート）�
 
      会社テンプレートは管理者のみが作成できます。 会社テンプレートの作成方法について詳しくは、[ テンプレートの作成と管理 ](/help/analyze/analysis-workspace/reports/create-company-reports.md) を参照してください。
 
-1. 列表示 ![ 列表示アイコン）またはカード表示 ![ カード表示アイコン ](assets/column-view-icon.png) アイコンのいずれかを選択して、列表示またはカード表示でテンプレートを表示す ](assets/card-view-icon.png) かどうかを選択します。
+1. 使用可能なテンプレートの表示方法を変更するには、次のいずれかのオプションを使用します。
+
+   * 列表示 ![ 列表示アイコン）またはカード表示 ![ カード表示アイコン ](assets/column-view-icon.png) アイコンのいずれかを選択して、列表示またはカード表示でテンプレートを表示す ](assets/card-view-icon.png) かどうかを選択します。
+
+   * カード表示 ![ カード表示アイコン ](assets/card-view-icon.png) を使用する場合は、**[!UICONTROL 最近使用された項目]**、**[!UICONTROL 一番人気]**、**[!UICONTROL アルファベット順]**、**[!UICONTROL カテゴリ順]** から選択します。
 
 1. 検索フィールドに検索するテンプレートの名前の入力を開始し、テンプレートのリストから選択します。 また、prop、eVar、イベント番号でテンプレートリストを検索することもできます。<!-- still true? -->
 
@@ -58,8 +62,6 @@ Analysis Workspaceのテンプレート（または会社テンプレート）�
    >矢印キーを使用してメニューを移動するには、スラッシュ（/）キーを押してから、下矢印キーを押します。Enter キーを押して、選択したテンプレートを読み込みます。
 
    使用可能なテンプレートのリストについては、以下の [ 使用可能なテンプレート ](#available-reports) の節を参照してください。
-
-1. （任意）レポートスイートで使用できないコンポーネントを含むテンプレートを表示して使用します。 （デフォルトで表示されるテンプレートは、レポートスイートで使用可能なコンポーネントを使用するテンプレートのみです。） <!--does this apply to AA? -->
 
 ## テンプレートに基づくプロジェクトの作成 {#use-reports}
 
