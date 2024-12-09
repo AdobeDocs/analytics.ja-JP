@@ -1,12 +1,12 @@
 ---
-title: データフィード UI
-description: データフィードインターフェイスのナビゲーション方法を説明します。
+title: データフィードの管理
+description: データフィードインターフェイスの操作方法を説明します。 データフィードを作成、編集、表示する方法について説明します。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 27%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 27%
 
 ![列アイコン](assets/cols.jpg)
 
-以下の列を表示できます。
+次の列を表示できます。
 
 * **フィード名**：必須の列です。 フィード名を表示します。
 * **フィード ID**：フィード ID（一意の ID）を表示します。

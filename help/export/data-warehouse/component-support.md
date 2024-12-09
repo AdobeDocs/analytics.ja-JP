@@ -1,12 +1,12 @@
 ---
-title: Data Warehouse でのコンポーネントのサポート
+title: Data Warehouseでのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 

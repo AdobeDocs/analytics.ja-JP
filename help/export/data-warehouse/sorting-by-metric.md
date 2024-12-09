@@ -1,12 +1,12 @@
 ---
-description: 指標値を降順で並べ替えた、Data Warehouse のランク分類レポートを提供します。
+description: 指標で並べ替えることで、Data Warehouseレポートを解釈しやすくなり、他の Analytics 分類レポートビューと比較しやすくなる仕組みを説明します。
 title: 指標で並べ替え
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 99%
+source-wordcount: '337'
+ht-degree: 92%
 
 ---
 

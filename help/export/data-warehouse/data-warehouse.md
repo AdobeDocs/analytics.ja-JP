@@ -1,13 +1,13 @@
 ---
-description: Data Warehouse は、データをフィルタリングして、保存用およびカスタムレポート用の Analytics データのコピーを参照できます。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。データウェアハウスレポートはメールで送信されるか、クラウドストレージプロバイダーに送信されます。処理には最大 72 時間かかる場合があります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
-title: Data Warehouse の概要
+description: Data Warehouseと、カスタムレポートを作成して実行できるデータのフィルタリング方法について説明します。
+title: Data Warehouseの概要
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 ## アクセス
 
-アドビでは、特定のレポートスイートの管理者レベルのユーザーに対してのみ Data Warehouse を有効にします。（Data Warehouse は、グローバルレポートスイートおよび子レポートスイートに対して有効にすることができます。ただし、ロールアップレポートスイートに対しては有効にすることができません）。管理者は Data Warehouse にアクセスできるグループを作成し、非管理者レベルのユーザーをそのグループに関連付けることができます。
+アドビでは、特定のレポートスイートの管理者レベルのユーザーに対してのみ Data Warehouse を有効にします。（グローバルレポートスイートおよび子レポートスイートで有効にできますが、ロールアップレポートスイートでは無効になります）。 管理者は、Data Warehouseへのアクセス権を持つグループを作成し、管理者以外のレベルのユーザーをそのグループに関連付けることができます。
 
 詳しくは、[データウェアハウス権限の管理](/help/export/data-warehouse/t-dw-group.md)を参照してください。
 

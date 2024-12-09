@@ -1,13 +1,12 @@
 ---
 title: データフィードのトラブルシューティング
-description: データフィードの問題を特定し解決する方法について説明します。
-keywords: ジョブ、トラブルシューティング、エラー、ftp、chdir、接続、ログイン、PUT
+description: データフィードジョブでデータの処理または配信に失敗する可能性がある理由について説明します。 データフィードで発生する可能性がある問題を解決します。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
