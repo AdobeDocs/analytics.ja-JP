@@ -3,7 +3,7 @@ description: インポーターを使用して、分類を Adobe Analytics に�
 title: 分類インポーター - 概要
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -15,6 +15,8 @@ ht-degree: 100%
 インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。
 
 **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 インポートツールを使用してインポートするデータは、特定の形式にフォーマットされている必要があります。すべての適切なヘッダー詳細を含むデータテンプレートをタブ区切り形式のデータファイルとしてダウンロードできるようになっています。新しいデータをこのテンプレートに追加した後、FTP を使用してブラウザーでデータファイルをインポートできます。
 
