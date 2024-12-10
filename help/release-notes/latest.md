@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2a766fc06cab81c2b1d4b8a4de2c88dae42bf907
+source-git-commit: 65c934f56a580f921fa7baad6d5dd03c85e320e6
 workflow-type: tm+mt
 source-wordcount: '807'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 | **Adobe Analytics の新しい Report Builder** | 新しい Report Builder アプリケーションは、パフォーマンスの向上、合理化されたユーザーインターフェイス、2.0 API のサポート、Mac、Windows および web ブラウザー上の Microsoft Excel のサポートなど、Adobe Analytics に大幅な更新を提供します。このアプリケーションはレガシーアプリケーションと共に使用できますが、同じファイルでは使用できません。新しいアプリケーションにレガシーワークブックをアップグレードするためのアップグレード機能が提供されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日（PT） |
 | **タグ実装を Web SDK タグに移行するための JSON の書き出し** | Analytics タグ拡張機能に対するこのアップデートは、Web SDK への移行に関連するものです。Adobe Analytics 拡張機能に対するこのアップデートをワークフローの一部として使用し、Web SDK 拡張機能を使用して拡張機能の設定を再作成できます。Adobe Analytics タグ拡張機能では、eVar、props およびイベント設定を JSON として表示できます。これらの設定は、編集用に書き出して、Web SDK 拡張機能に含めることができます。 |  | 2024年10月31日（PT） |
 | **Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報** | Analysis Workspace でパフォーマンスを分析する際に、新しい「リクエスト要因」セクションが使用できるようになりました。リクエストの処理方法と、処理時間に影響を与える様々な要因について詳しくは、[Analysis Workspace のパフォーマンスの最適化](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)の「リクエスト要因」を参照してください。 |  | 2024年10月1日（PT） |
-| **トランザクション ID の保持期間** | `transactionID` 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。ID のデフォルトの保持期間である 90 日は、2025 年 1 月に 25 か月に延長されます。 |  | 2025年1月22日（PT） |
+| **トランザクション ID の保持期間** | トランザクション ID の保持期間は 90 日で、2025 年 1 月に 25 か月に延長されます。 `transactionID` 変数は、ヒットがデータソースを通じてアップロードされたデータに結び付けられるように、トランザクションを一意に識別します。 |  | 2025年1月22日（PT） |
 
 ## Adobe Analytics の修正点
 
