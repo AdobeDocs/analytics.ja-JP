@@ -2,16 +2,17 @@
 title: ストリーミングメディアプレーヤーの状態トラッキング指標
 description: レポートスイートに対して [!UICONTROL  プレーヤーステートトラッキング ] を有効にすると使用可能な指標です。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
 # ストリーミングメディアプレーヤーの状態トラッキング指標
 
-ストリーミングメディアプレーヤーの状態トラッキング指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクションアドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアプレーヤーの状態トラッキング指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL プレーヤーの状態のトラッキング]** を有効にすると、次の指標を使用できます。
 

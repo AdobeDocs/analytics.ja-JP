@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '1692'
-ht-degree: 100%
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+workflow-type: tm+mt
+source-wordcount: '1691'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ Analytics 管理者は、組織内のユーザーが Adobe Analytics を使用�
 | 貢献度分析 | 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。 | [貢献度分析のトークン - 概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics のセグメント化 | Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要なオーディエンスセグメントを作成、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja) |
 | Audience Manager へオーディエンスを公開 | Adobe Audience Manager は、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを作成するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) |
-| 統合 | Adobe Analytics では、他のアプリケーションからの情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja">ストリーミングメディアコレクションアドオン</a></li> | [Analytics の統合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=ja) |
+| 統合 | Adobe Analytics では、他のアプリケーションからの情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja"> ストリーミングメディアコレクション </a></li> | [Analytics の統合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=ja) |
 
 {style="table-layout:auto"}
 

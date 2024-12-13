@@ -2,9 +2,10 @@
 title: ストリーミングメディア品質ディメンション
 description: レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: e3794d8c-3c03-425d-850c-a735b579324b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '303'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *このページでは、レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディア品質指標 ](../metrics/sm-quality.md) を参照してください。*
 
-ストリーミングメディア品質ディメンションは、訪問者が消費するコンテンツの品質に関するレポートを提供します。 これらのディメンションを使用するには、[!UICONTROL Adobeのストリーミングメディアコレクション アドオン ] が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディア品質ディメンションは、訪問者が消費するコンテンツの品質に関するレポートを提供します。 これらのディメンションを使用するには、[!UICONTROL Adobeのストリーミングメディアコレクション ] が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア品質]** を有効にすると、次のディメンションを使用できます。
 
@@ -26,7 +27,7 @@ ht-degree: 1%
 | ドロップフレーム | 再生セッション中に発生したドロップフレームの合計数。 | メディアのクローズ | `a.media.qoe.droppedFrameCount` |
 | エラー数 | 再生セッション中に発生したエラーの合計数。 | メディアのクローズ | `a.media.qoe.errorCount` |
 | 外部エラー ID | CDN エラーなど、外部ソースからのすべての一意のエラー ID。 目的のエラーコードまたは ID を指定する必要があります。 複数のエラー ID を使用できます。 | メディアのクローズ | `a.media.qoe.externalErrors` |
-| プレーヤー SDK エラー ID | コンテンツプレーヤー SDK によって生成されるすべての一意のエラー ID。 目的のエラーコードまたは ID を指定する必要があります。 複数のエラー ID を使用できます。 | メディアのクローズ | `a.media.qoe.playerSdkErrors` |
+| Player SDKのエラー ID | コンテンツプレイヤーのSDKによって生成されるすべての一意のエラー ID。 目的のエラーコードまたは ID を指定する必要があります。 複数のエラー ID を使用できます。 | メディアのクローズ | `a.media.qoe.playerSdkErrors` |
 | 開始時間 | QoSObject を使用して設定しない場合、この値はデフォルトで `0` になります。 値をミリ秒単位で設定します。 Analysis Workspaceは、このディメンションを秒単位でレポートします。 | メディア開始、メディア終了 | `a.media.qoe.timeToStart` |
 
 {style="table-layout:auto"}

@@ -2,9 +2,10 @@
 title: ストリーミングメディアチャプター指標
 description: レポートスイートの [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能な指標です。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 *このページでは、レポートスイートに対して [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディアチャプターディメンション ](../dimensions/sm-chapters.md) を参照してください。*
 
-ストリーミングメディアチャプター指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクションアドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアチャプター指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 **[!UICONTROL メディアレポート]** の下の [ メディアチャプター ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次の指標を使用できます。
 

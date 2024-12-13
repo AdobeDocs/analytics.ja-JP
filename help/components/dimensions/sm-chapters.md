@@ -2,9 +2,10 @@
 title: ストリーミングメディアチャプターディメンション
 description: レポートスイートに対して [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 14%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 14%
 
 *このページでは、レポートスイートに対して [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[ ストリーミングメディアチャプター指標 ](../metrics/sm-chapters.md) を参照してください。*
 
-ストリーミングメディアチャプターディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの分析コードを使用するには、**[!UICONTROL Adobe ストリーミング メディア コレクション アドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアチャプターディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の下の **[!UICONTROL メディアチャプター]** を有効にすると、次のディメンションを使用できます。
 

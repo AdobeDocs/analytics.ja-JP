@@ -3,9 +3,9 @@ description: Adobe AnalyticsでDocument Cloudデータを表示できます
 title: Document Cloud分析を設定
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ Document Cloud分析を有効にすると、PDF固有のディメンションと
 
 * [!UICONTROL **Document Cloudレポート**]
 
-  ストリーミングメディアコレクションアドオンに固有のレポートは、メディアレポート ページで使用できます。 Document Cloudレポートについて詳しくは、[ メディアレポートの設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md) を参照してください。
+  ストリーミングメディアコレクションに固有のレポートは、メディアレポート ページで使用できます。 Document Cloudレポートについて詳しくは、[ メディアレポートの設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md) を参照してください。
 
 * [!UICONTROL **Document Cloudの分類**]
 

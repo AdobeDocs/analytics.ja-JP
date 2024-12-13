@@ -2,10 +2,11 @@
 title: ストリーミングメディアのコアディメンション
 description: レポートスイートの [!UICONTROL Media Core] を有効にするときに使用できるディメンションです。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 9%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 9%
 
 *このページでは、レポートスイートに対して [!UICONTROL Media Core] を有効にしたときに使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディアコア指標 ](../metrics/sm-core.md) を参照してください。*
 
-ストリーミングメディアコアディメンションは、ストリーミングメディアコレクションライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらの分析コードを使用するには、**[!UICONTROL Adobe ストリーミング メディア コレクション アドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアコアディメンションは、ストリーミングメディアコレクションライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL Media Core]** を有効にすると、次のディメンションを使用できます。
 

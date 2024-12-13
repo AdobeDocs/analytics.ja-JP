@@ -2,9 +2,10 @@
 title: ストリーミングメディア広告ディメンション
 description: レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 15%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 15%
 
 *このページでは、レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディア広告指標 ](../metrics/sm-ads.md) を参照してください。*
 
-ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの分析コードを使用するには、**[!UICONTROL Adobe ストリーミング メディア コレクション アドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア広告]** を有効にすると、次のディメンションを使用できます。
 

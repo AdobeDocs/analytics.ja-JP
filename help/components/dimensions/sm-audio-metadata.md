@@ -2,16 +2,17 @@
 title: ストリーミングメディアオーディオメタデータのディメンション
 description: レポートスイートに対して [!UICONTROL  オーディオメタデータ ] を有効にすると、使用可能な寸法になります。
 feature: Dimensions
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
+exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 8%
 
 ---
 
 # ストリーミングメディアオーディオメタデータのディメンション
 
-ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの分析コードを使用するには、**[!UICONTROL Adobe ストリーミング メディア コレクション アドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) で **[!UICONTROL オーディオメタデータ]** を有効にすると、次の寸法を使用できます。
 

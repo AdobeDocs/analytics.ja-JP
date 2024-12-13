@@ -2,9 +2,10 @@
 title: ストリーミングメディアのコア指標
 description: レポートスイートの [!UICONTROL Media Core] を有効にするときに使用できる指標です。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *このページでは、レポートスイートに対して [!UICONTROL Media Core] を有効にしたときに使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディアコアディメンション ](../dimensions/sm-core.md) を参照してください。*
 
-ストリーミングメディアコア指標は、ストリーミングメディアコレクションライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクションアドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアコア指標は、ストリーミングメディアコレクションライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL Media Core]** を有効にすると、次の指標を使用できます。
 

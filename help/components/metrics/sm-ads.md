@@ -2,9 +2,10 @@
 title: ストリーミングメディア広告指標
 description: レポートスイートの [!UICONTROL  メディア広告 ] を有効にした場合に使用できる指標です。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 5%
 
 *このページでは、レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディア広告ディメンション ](../dimensions/sm-ads.md) を参照してください。*
 
-ストリーミングメディア広告指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクションアドオン]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディア広告指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
 
 [ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア広告]** を有効にすると、次の指標を使用できます。
 
