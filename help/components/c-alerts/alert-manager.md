@@ -3,9 +3,9 @@ description: アラートを管理.
 title: アラートマネージャーの概要
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
@@ -85,11 +85,13 @@ ht-degree: 6%
    アラートを編集する際に実行できる操作の一部を次に示します。
 
    * 他のレポートスイートへのアラートの追加
-   * 所有者の変更
-   * フィルターを更新
-   * 有効期限の更新
+   * 説明を追加または変更
+   * 時間の精度の変更
+   * 受信者の変更
+   * 有効期限の変更
+   * 指標とフィルターの変更
 
-1. アラートを編集して、「[!UICONTROL **保存**]」を選択します。
+1. 「[!UICONTROL **保存**]」を選択します。
 
 ## 列の設定
 
