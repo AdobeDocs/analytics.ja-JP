@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 89%
 
 **セルから取得**
 
-「セルから取得」オプションでは、ワークシートのセルに入力した日付を参照できます。
+「**[!UICONTROL セルから]**」オプションでは、ワークシートのセルに入力した日付を参照できます。
 
 選択した日付範囲の今日を除外するオプションもあります。
 

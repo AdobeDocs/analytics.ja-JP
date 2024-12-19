@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -66,8 +66,8 @@ Report Builderハブには、「作成」、「管理」、「スケジュール
 
 ### 日付範囲
 
-**[!UICONTROL 日付範囲]**&#x200B;は、選択したデータブロックの日付範囲を表示します。複数の日付範囲を持つ複数のデータブロックが選択されている場合、「**[!UICONTROL 日付範囲]**」リンクに「*複数*」と表示されます。
+**[!UICONTROL 日付範囲]**&#x200B;は、選択したデータブロックの日付範囲を表示します。複数の日付範囲を持つ複数のデータブロックが選択されている場合、「**[!UICONTROL 日付範囲]**」リンクに「*複数*」と表示されます。 [詳細情報](/help/analyze/report-builder/select-date-range.md)
 
 ### セグメント
 
-**セグメント** リンクには、選択したデータブロックで使用されているセグメントの概要リストが表示されます。 複数のセグメントが適用された状態で複数のデータブロックが選択されている場合、「**セグメント**」リンクに *複数* と表示されます。
+**セグメント** リンクには、選択したデータブロックで使用されているセグメントの概要リストが表示されます。 複数のセグメントが適用された状態で複数のデータブロックが選択されている場合、「**セグメント**」リンクに *複数* と表示されます。 [詳細情報](/help/analyze/report-builder/work-with-segments.md)
