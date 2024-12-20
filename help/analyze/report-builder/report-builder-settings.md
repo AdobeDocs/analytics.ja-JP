@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ Report Builder 設定を変更するには
 
 1. 「**適用**」をクリックします。
 
-   ![ 「キャンセルして適用」ボタンを表示するReport Builderの日付範囲のペイン。](./assets/image38.png)
+   ![Report Builderの設定。](./assets/image38.png)
 
 ## オフラインモード
 
@@ -32,13 +33,13 @@ Report Builder 設定を変更するには
 
 オフラインモードを有効にするには
 
-1. 「**設定**」アイコンをクリックします。
+1. 「**[!UICONTROL 設定]**」アイコンをクリックします。
 
-1. 「**オフラインモードを有効にする**」を選択します。
+1. **[!UICONTROL Enable off-line mod]e** を選択します。
 
-1. 「**ダミーデータの表示方法**」フィールドに正の整数を入力します。
+1. 「**[!UICONTROL ダミーデータの表示方法]**」フィールドに正の整数を入力します。
 
-1. 「**適用**」をクリックします。
+1. 「**[!UICONTROL 適用]**」をクリックします。
 
 ## 言語
 
@@ -48,14 +49,14 @@ Report Builder UI で使用する言語を選択するには
 
 1. 「設定」をクリックします。
 
-1. 「**言語**」ドロップダウンメニューから言語を選択します。
+1. 「**[!UICONTROL 言語]**」ドロップダウンメニューから言語を選択します。
 
    ![ 英語が選択されたReport Builderの一覧を表示する言語の日付範囲ウィンドウ。](./assets/image39.png)
 
-1. 「**適用**」をクリックします。
+1. 「**[!UICONTROL 適用 ]」をクリック** ます。
 
 ## トラブルシューティング
 
 トラブルシューティング設定を使用して、すべてのクライアント／サーバーデータをローカルファイルに記録します。このオプションを使用して、サポートチケットの解決に役立てます。
 
-「トラブルシューティング」オプションを有効にするには、「**Report Builder リクエストをローカルファイルに記録**」を選択します。
+「トラブルシューティング」オプションを有効にするには、「**[!UICONTROL Report Builder データブロックを web コンソールに記録]**」を選択します。
