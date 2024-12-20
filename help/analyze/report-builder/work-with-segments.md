@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 4%
 
    フィルターを選択すると、そのフィルターが「**[!UICONTROL 置換文字列]**」リストに追加されます。
 
-   ![ 「置換」タブで「アプリの人物」データブロックが選択され、「置換」リストが更新されて「アプリの人物」が改訂されました。](./assets/replace_screen_new.png)
-
 1. 「**[!UICONTROL 適用]**」をクリックします。
 
    Report Builderは、置換を反映するようにセグメントのリストを更新します。
@@ -103,7 +101,7 @@ ht-degree: 4%
 
 1. データブロックでセグメントを参照するセルを選択します。
 
-1. セグメントをダブルクリックするか、「含まれるセグメント」セクションにドラッグ&amp;ドロップして、セルに追加するセグメントの選択肢を追加します。
+1. セグメントをダブルクリックするか、「**[!UICONTROL 含まれるセグメント]**」セクションにドラッグ&amp;ドロップして、セルに追加するセグメントの選択肢を追加します。
 
    注意：特定のセルに対して選択できる選択肢は、一度に 1 つだけです。
 
