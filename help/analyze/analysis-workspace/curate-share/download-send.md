@@ -4,10 +4,10 @@ title: PDF ファイルまたは CSV ファイルのダウンロード
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,7 @@ Analysis Workspace からデータを書き出すには、いくつかの方法�
    ![](assets/download-project.png)
 
 1. （条件付き）PDF のダウンロードを選択した場合は、プロジェクトのダウンロード準備が整ったら、メッセージが表示されます。「[!UICONTROL **ダウンロード**]」をクリックします。
+1. **[!UICONTROL このファイルをダウンロード]** アイコンをクリックし、ファイルを選択したフォルダーに保存します。
 
 ## データをクリップボードにコピー（ホットキー：Ctrl+C） {#copy-data}
 
