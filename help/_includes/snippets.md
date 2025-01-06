@@ -1,17 +1,17 @@
 ---
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: 1e1f90f1ba290365b8ae9c8914e38f9c2f339b3f
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 89%
+source-wordcount: '412'
+ht-degree: 71%
 
 ---
 # スニペット
 
-## 従来のReport Builder {#legacy-arb}
+## レガシー Report Builder {#legacy-arb}
 
 >[!IMPORTANT]
 >
->合理化された新しい [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) が 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
+>合理化された新しい [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) が 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
 >この従来のReport Builderのアドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) できます。
 
 ## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
@@ -23,44 +23,6 @@ ht-degree: 89%
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 >
 >詳しくは、Reports &amp; Analytics の[提供終了のお知らせ](https://www.adobe.com/go/analytics_rnaeol_jp)を参照してください。
-
-## データ要素のフィルター条件 {#dd-filter-criteria}
-
-1. （オプション）**フィルター**&#x200B;アイコン ![データ要素のフィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) を選択し、次のフィルターオプションのいずれかを選択して、コンポーネントのリストをフィルタリングします。
-
-| オプション | 関数 |
-|---------|----------|
-| [!UICONTROL **承認済み**] | 管理者が承認済みとしてマークしたコンポーネントのみを表示します。 |
-| [!UICONTROL **お気に入り**] | お気に入りのリストにあるコンポーネントのみを表示します。お気に入りのリストにコンポーネントを追加する方法については、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。 |
-| [!UICONTROL **ディメンション**] | ディメンションであるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
-| [!UICONTROL **指標**] | 指標であるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
-| [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。<!--this is Filters in Customer Journey Analytics--> |
-| [!UICONTROL **日付範囲**] | 日付範囲であるコンポーネントのみを表示します（このオプションは、最初にデータ要素にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
-| [!UICONTROL **すべてを表示**] | すべてのコンポーネントの表示。 このオプションは、管理者のみが使用できます。 |
-| [!UICONTROL **未承認**] | 管理者が承認済みとしてまだマークしていないコンポーネントのみを表示します。レビューと承認が必要なコンポーネントを管理者が識別する際に役立ちます。このオプションは、管理者のみが使用できます。 |
-| [!UICONTROL **説明がありません**] | 「説明」フィールドにまだ説明がないコンポーネントのみを表示します。このオプションは、管理者のみが使用できます。 |
-| [!UICONTROL **重複の表示**] | <p>選択したレポートスイート内の別のコンポーネントと同じ名前や同じ定義があるコンポーネントのみを表示します。重複として表示するには、名前または定義が完全に一致している必要があります。</p><p>このオプションは、管理者のみが使用できます。</p><p>**メモ：**&#x200B;定義には、ユーザー作成のコンポーネントとアドビ提供のコンポーネントが含まれます。名前には、現在、ユーザー作成のコンポーネントのみが含まれ、アドビ提供のコンポーネントは含まれません。アドビ提供のコンポーネントの重複した名前を表示する機能は、今後のリリースで追加される予定です。</p> |
-| [!UICONTROL **最近のデータがありません**] | 過去 90 日間にデータを収集していないコンポーネントのみを表示します。 このオプションは、管理者のみが使用できます。 |
-| [!UICONTROL **作成者：Adobe**]<!-- I don't see this option--> | アドビが作成したコンポーネントのみを表示します。組織内の管理者または別のユーザーが作成したコンポーネントは表示しません。 |
-
-{style="table-layout:auto"}
-
-## データ要素のコンポーネント情報 {#dd-component-information}
-
-| オプション | 関数 |
-|---------|----------|
-| [!UICONTROL **承認済み**] | <p>コンポーネントが管理者にレビューおよび承認されたことを示します。</p><p>コンポーネントが承認されたら、管理者は「**承認済み**」ボタンを選択して承認を削除できます。</p> |
-| [!UICONTROL **承認が必要です**] | <p>コンポーネントがまだ管理者にレビューおよび承認されていないことを示します。</p><p>管理者には、「[!UICONTROL **承認**]」オプションが表示されます。このオプションを選択すると、ユーザーに対してコンポーネントが「承認済み」としてマークされます。</p> |
-| [!UICONTROL **説明**] | コンポーネントの意図された機能について説明します（この情報は、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)で説明しているように、Analytics 管理者が追加します）。 |
-| [!UICONTROL **次でよく使用される**] | <p>表示しているコンポーネントと最も一緒に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。表示するアクセス権を持つコンポーネントのみを表示します。</p><p>管理者は、「[!UICONTROL **常に含める**]」および「[!UICONTROL **常に除外**]」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-| [!UICONTROL **類似**] | <p>表示しているコンポーネントと同様の名前を持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>レポートスイート内の重複するコンポーネントもすべてここに表示されます。[データ要素の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを特定して削除する必要があります。</p><p>管理者は、「[!UICONTROL **常に含める**]」および「[!UICONTROL **常に除外**]」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**メモ：**&#x200B;現在、「**類似**」セクションには、ユーザー作成のコンポーネントのみが含まれており、アドビ提供のコンポーネントは含まれていません。アドビ提供のコンポーネントは、今後のリリースで追加される予定です。</p> |
-| [!UICONTROL **タグ**] | コンポーネントに適用されているすべてのタグを表示します。管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
-| [!UICONTROL **コンポーネントの種類**] | ディメンション、指標、セグメント、または日付範囲のいずれかであるコンポーネントのタイプをリストします。 |
-| [!UICONTROL **作成者**] | コンポーネントを作成したユーザーの名前を表示します。 |
-| [!UICONTROL **プレビュー**] | Analysis Workspace でのコンポーネントの外観のプレビューを表示します。 |
-| [!UICONTROL **最終変更日**] | コンポーネントの最終変更日を表示します。 このセクションは、セグメント、計算指標および日付範囲を表示する際に表示されます。 |
-
-{style="table-layout:auto"}
 
 ## コンポーネントの並べ替えオプション {#components-sort-options}
 
