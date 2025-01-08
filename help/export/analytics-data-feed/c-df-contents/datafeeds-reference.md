@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 67%
 | **`browser_height`** | 「[ ブラウザーの高さ ](/help/components/dimensions/browser-height.md)」ディメンション。 | smallint unsigned |
 | **`browser_width`** | [ ブラウザーの幅 ](/help/components/dimensions/browser-width.md) | smallint unsigned |
 | **`c_color`** | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
-| **`campaign`** | [追跡Code](/help/components/dimensions/tracking-code.md) ディメンション。 | varchar(255) |
+| **`campaign`** | 「トラッキングCode](/help/components/dimensions/tracking-code.md)[ディメンション。 | varchar(255) |
 | **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。`carrier.tsv` [動的検索](dynamic-lookups.md)のキー値。 | varchar(100) |
 | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | テキスト |
 | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
@@ -64,7 +64,7 @@ ht-degree: 67%
 | **`dataprivacyconsentoptout`** | [ 同意管理のオプトアウト ](/help/components/dimensions/cm-opt-out.md) ディメンション。 ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`SSF`、`DMP`、`SELL` などがあります。 | varchar(100) |
 | **`dataprivacydmaconsent`** | Adobe Advertisingを通じてサードパーティの広告業者（Googleなど）にAdobe Analyticsからデータを送信することに対して同意が得られるかどうかを識別する値。 詳しくは、[広告の同意](/help/components/dimensions/ad-consent.md)を参照してください。 | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
-| **`domain`** | [ドメイン](/help/components/dimensions/domain.md) ディメンション。訪問者のインターネット アクセス ポイントに基づきます。 | varchar(100) |
+| **`domain`** | [ドメイン](/help/components/dimensions/domain.md)ディメンション。訪問者のインターネット アクセス ポイントに基づきます。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
 | **`duplicate_purchase`** | このヒットの購入イベントが重複しているので無視されるかどうかを決定するフラグ。 | tinyint unsigned |
 | **`duplicated_from`** | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットがどのレポートスイートからコピーされたかを示します。 | varchar(40) |
@@ -150,7 +150,7 @@ ht-degree: 67%
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
 | **`page_event_var2`** | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定した場合）。 `page_event` の値に応じて [ カスタムリンク ](/help/components/dimensions/custom-link.md)、[ ダウンロードリンク ](/help/components/dimensions/download-link.md) または [ 離脱リンク ](/help/components/dimensions/exit-link.md) を設定します。 | varchar(100) |
-| **`page_type`** | [ページが見つかりません](/help/components/dimensions/pages-not-found.md) ディメンション。通常は 404 ページに使用されます。 | char(20) |
+| **`page_type`** | [ページ見つかりません](/help/components/dimensions/pages-not-found.md)ディメンション。通常は 404 ページに使用されます。 | char(20) |
 | **`page_url`** | ヒットの URL。リンクトラッキングイメージ要求([`tl()`](/help/implement/vars/functions/tl-method.md))に対して`post_page_url`が削除され、varchar(255) のデータ型が使用されることに注意してください。 | テキスト |
 | **`pagename`** | 「[ ページ ](/help/components/dimensions/page.md)」ディメンション。 [`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
 | **`pagename_no_url`** | `pagename` に似ていますが、`page_url` にフォールバックされません。`post` 列のみが使用できます。 | varchar(100) |
@@ -230,7 +230,7 @@ ht-degree: 67%
 | **`videoqoeerrorcountevar`** | [ エラー ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
 | **`videoqoeextneralerrors`** | [ 外部エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
 | **`videoqoeplayersdkerrors`** | [プレーヤー SDK のエラー ID](/help/components/dimensions/sm-quality.md)ストリーミングメディアディメンション。このディメンションでは、同じヒットに複数の値を使用できます。 | テキスト |
-| **`videoqoetimetostartevar`** | ストリーミングメディアディメンション開始](/help/components/dimensions/sm-quality.md)[時間。 | varchar(255) |
+| **`videoqoetimetostartevar`** | [時間から開始](/help/components/dimensions/sm-quality.md)ストリーミングメディアディメンション。 | varchar(255) |
 | **`videoseason`** | [シーズン](/help/components/dimensions/sm-video-metadata.md)ストリーミングメディアディメンション。 | varchar(255) |
 | **`videosegment`** | [ コンテンツセグメント ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
 | **`videoshow`** | 「ストリーミングメディア [ 表示 ](/help/components/dimensions/sm-video-metadata.md)」ディメンション。 | varchar(255) |
@@ -242,8 +242,8 @@ ht-degree: 67%
 | **`visid_timestamp`** | 訪問者 ID を新たに生成する場合、は訪問者 ID が生成された時刻のタイムスタンプを UNIX® 単位で指定します。 | int |
 | **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用される方法を表す数値 ID。<br>`0`：カスタム訪問者 ID または不明／該当なし<br>`1`：IP およびユーザーエージェントのフォールバック<br>`2`：HTTP モバイル加入者ヘッダー<br>`3`：従来の cookie 値（`s_vi`）<br>`4`：フォールバック cookie の値（`s_fid`）<br>`5`：ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[ 検索キーワード ](/help/components/dimensions/search-keyword.md)」ディメンション。 この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
-| **`visit_num`** | [訪問回数](/help/components/dimensions/visit-number.md) ディメンション。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
-| **`visit_page_num`** | [ヒットの深さ](/help/components/dimensions/hit-depth.md) ディメンション。訪問者でヒットが発生するごとに 1 ずつ増えます。 訪問ごとにリセットされます。 | int unsigned |
+| **`visit_num`** | [訪問回数](/help/components/dimensions/visit-number.md)ディメンション。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
+| **`visit_page_num`** | [ヒットの深さ](/help/components/dimensions/hit-depth.md)ディメンション。訪問者でヒットが発生するごとに 1 ずつ増えます。 訪問ごとにリセットされます。 | int unsigned |
 | **`visit_ref_domain`** | `visit_referrer` 列に基づきます。訪問の最初の参照ドメイン。 | varchar(100) |
 | **`visit_ref_type`** | 訪問の最初の転送者の転送者の種類を表す数値 ID。 `referrer_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`visit_referrer`** | 訪問の最初のリファラー。 | varchar(255) |
@@ -259,7 +259,7 @@ ht-degree: 67%
 
 ## 未使用または廃止された列
 
-次の列リストは未使用で、通常はデータが含まれていません。 データを含む列は、現在のデータ収集ライブラリではサポートされておらず、Analysis Workspaceでは使用できないディメンションです。
+次の列リストは、未使用、廃止済み、またはレポートに値が含まれない列です。 これらの列の一部は、廃止された機能に関連付けられていますが、その他の列は、新機能や堅牢な機能のために不要になりました。 これらの列のほとんどはデータを含みません。データを含む可能性のある列は、現在のデータ収集ライブラリではサポートされておらず、Analysis Workspaceでは使用できないディメンションです。
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ ht-degree: 67%
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`

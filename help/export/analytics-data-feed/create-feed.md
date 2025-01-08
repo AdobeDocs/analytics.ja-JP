@@ -3,7 +3,7 @@ title: データフィードの作成
 description: データフィードを作成する方法と、Adobeに提供するファイル情報について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
 source-wordcount: '4128'
 ht-degree: 53%
@@ -15,12 +15,9 @@ ht-degree: 53%
 データフィードを作成する際は、次のAdobeを提供します。
 
 * 生データファイルの送信先に関する情報
-
 * 各ファイルに含めるデータ
 
->[!NOTE]
->
->データフィードを作成する前に、データフィードの基本を理解し、すべての前提条件を満たしていることを確認することが重要です。 詳しくは、[ データフィードの概要 ](data-feed-overview.md) を参照してください。
+データフィードを作成する前に、データフィードの基本を理解し、すべての前提条件を満たしていることを確認することが重要です。 詳しくは、[ データフィードの概要 ](data-feed-overview.md) を参照してください。
 
 ## データフィードの作成と設定
 
