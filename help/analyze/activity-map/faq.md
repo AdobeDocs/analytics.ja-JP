@@ -4,9 +4,9 @@ description: Activity Mapに関するよくある質問です。
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Activity Mapに必要な [ 権限項目 ](/help/admin/admin-console/permissions/
 
 +++Analytics ユーザー全員がActivity Mapにアクセスできますか？
 
-Adobe Analytics Standard、Premium および Ultimate の契約を締結している組織は、Activity Mapにアクセスできます。 これらのコントラクト型は、Adobe Analyticsのお客様の大部分を占めています。
+Adobe Analytics Standard、Premium およびUltimateの契約を締結している組織は、Activity Mapにアクセスできます。 これらのコントラクト型は、Adobe Analyticsのお客様の大部分を占めています。
 
 +++
 
@@ -63,7 +63,7 @@ Activity Map では、ほとんどのブラウザーの最新バージョンが�
 
 +++Activity Mapによってサーバーコールが増加しますか？
 
-Activity Map 自体は、サーバーの呼び出しを送信しません。代わりに、Activity Mapのコンテキストデータ変数が、後続のページでの Analytics ページビュー呼び出しに含まれます。 ただし、Web SDK の以前のバージョンのActivity Mapの一部は、Activity Mapデータに対して別の呼び出しを送信します。 最新バージョンの Web SDK を使用している場合、Activity Mapデータは次のイベントと結合されます。
+Activity Map 自体は、サーバーの呼び出しを送信しません。代わりに、Activity Mapのコンテキストデータ変数が、後続のページでの Analytics ページビュー呼び出しに含まれます。 ただし、Web SDKの以前のバージョンのActivity Mapの一部は、Activity Mapデータに対して別の呼び出しを送信します。 最新バージョンの web SDKを使用している場合、Activity Mapのデータは次のイベントと結合されます。
 
 +++
 
@@ -137,7 +137,7 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 
 Activity Mapを無効にする方法は、実装の種類によって異なります。
 
-* **Web SDK 拡張機能**：拡張機能の設定で、「**[!UICONTROL 内部リンククリック数を収集]**」、「**[!UICONTROL 外部リンククリック数を収集]**」および「**[!UICONTROL ダウンロードリンクのクリック数を収集]**」チェックボックスをオフにします。
+* **Web SDK拡張機能**：拡張機能の設定で、「**[!UICONTROL 内部リンククリック数を収集]**」、「**[!UICONTROL 外部リンククリック数を収集]**」および「**[!UICONTROL ダウンロードリンクのクリック数を収集]**」チェックボックスをオフにします。
 * **Web SDK JavaScript ライブラリ**:[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) を `false` に設定します。
 * **AnalyticsActivity Map**：拡張機能の設定で、「拡張機能を使用 **[!UICONTROL というラベルの付いたボックスのチェックを外]** ます。
 * **AppMeasurement**: `AppMeasurement.js` 内のモジュールを削除またはコメントアウトするか、空の本体でActivity Map関数呼び出しを上書きします：
@@ -202,6 +202,10 @@ Activity Mapは次の要素を追跡します。
 +++
 
 +++Activity Mapで自動的に追跡されないリンクの例をいくつか示してください。
+
+* アンカータグに有効な `href` がありません
+* [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) もメソッドも存在 [`tl()`](/help/implement/vars/functions/tl-method.md) ません
+* フォーム入力要素に `src` プロパティがありません
 
 次に、Activity Mapでクリック数が追跡されない例を示します。
 
