@@ -3,13 +3,11 @@ description: Analysis Workspace でのデフォルトレポートの使用方法
 title: レポートを使用
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ ht-degree: 5%
 Adobeが提供するテンプレートと同様に、組織内のユーザーは、管理者が作成するテンプレートにアクセスできます。
 
 会社テンプレートへのアクセス方法について詳しくは、[ テンプレートの使用 [ の「テンプレートへのアクセスと実行 ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) を参照してください ](/help/analyze/analysis-workspace/templates/use-templates.md)。
+
+## 「テンプレート」タブを非表示にします {#hide-reports}
+
+管理者は、組織内のすべてのユーザーの「テンプレート」タブを非表示にできます。
+
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 環境設定]**／**[!UICONTROL 会社]**&#x200B;に移動します。
+1. オプションを選択して **[!UICONTROL 「テンプレート」タブを非表示]** します。

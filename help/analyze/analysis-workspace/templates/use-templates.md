@@ -3,10 +3,8 @@ description: Analysis Workspaceでのテンプレートの使用方法の概要�
 title: テンプレートを使用
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: d93917b3bf05579ee2916aa4c8ad8b77c1eefb2e
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
 source-wordcount: '10180'
 ht-degree: 62%
