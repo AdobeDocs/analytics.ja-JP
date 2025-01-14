@@ -3,9 +3,9 @@ description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネ�
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 1. 「[!UICONTROL **プロジェクト所有者**]」フィールドに、Customer Journey Analyticsでプロジェクトの所有者として設定するユーザーの名前を入力し始め、ドロップダウンメニューで名前を選択します。
 
-   指定した所有者には、プロジェクトに対する完全な管理権限があります。
+   指定した所有者には、プロジェクトに対する完全な管理権限があります。 所有者はCustomer Journey Analyticsの管理者である必要があります。 後の手順で、プロジェクトの所有権を変更できます。
 
 1. 「[!UICONTROL **レポートスイートのスキーマのマッピング**]」セクションで、レポートスイートを選択します。
 
@@ -119,6 +119,8 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
    移行が完了すると、[!UICONTROL **移行ステータス**] ページに移行内容の概要が表示されます。
 
    移行が失敗した場合、詳しくは、以下の [ 失敗した移行の再試行 ](#retry-a-failed-migration) の節を参照してください。
+
+1. （任意）プロジェクトの移行後、プロジェクトの所有権をCustomer Journey Analytics内の任意のユーザーに転送できます。 詳細については、『Customer Journey Analyticsガイド』の [ アセットの転送 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) を参照してください。
 
 ## 失敗した移行の再試行
 
