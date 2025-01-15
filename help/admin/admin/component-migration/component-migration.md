@@ -3,9 +3,9 @@ description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネ�
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1501'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,13 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
   ディメンションや指標には、自動的にマッピングされるものと、移行プロセスの一環として手動でマッピングする必要があるものがあります。 セグメントも移行されますが、移行プロセスの一環としてマッピングする必要はありません。
 
   移行が完了すると、移行されたすべてのコンポーネントが移行の概要に表示されます。
+
+>[!NOTE]
+>
+>このページの情報では、ユーザーインターフェイスでプロジェクトとその関連コンポーネントを移行する方法について説明します。
+>
+>または、API を使用して移行を実行することもできます。 詳しくは、[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs) を参照してください。 すべての API 定義は、「**[!UICONTROL 定義を選択]**」ドロップダウンメニューで使用できます。
+
 
 ## 移行の準備
 
