@@ -4,15 +4,38 @@ title: フリーフォームパネル
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 100%
+source-wordcount: '109'
+ht-degree: 22%
 
 ---
 
 # フリーフォームパネル
 
-フリーフォームパネルは、フリーフォームテーブルが開始状態で含まれている空のパネルです。
+>[!BEGINSHADEBOX]
 
-![](assets/freeform-panel.png)
+*この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![**Adobe Analytics**のフリーフォームパネルについて説明します。この記事の <br/>CustomerJourneyAnalytics[ ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ フリーフォームパネル**を参照してください。*
+
+>[!ENDSHADEBOX]
+
+
+**[!UICONTROL フリーフォームパネル]** は、デフォルトの開始状態として [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ビジュアライゼーションを使用する空のパネルです。
+
+## 使用
+
+**[!UICONTROL フリーフォームパネル]** を使用するには：
+
+1. **[!UICONTROL フリーフォームパネル]** を作成します。 パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
+
+   ![ フリーフォームテーブルを含む空のパネルを表示するデフォルトのフリーフォームパネル。](assets/freeform-panel.png)
+
+1. [Analytics コンポーネントガイド ](/help/components/home.md) フリーフォームパネルと [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ビジュアライゼーションにコンポーネントを追加する方法を参照してください。
+
+
+>[!MORELIKETHIS]
+>
+>[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Analytics コンポーネントガイド ](/help/components/home.md)
+>[フリーフォームテーブルのビジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>
