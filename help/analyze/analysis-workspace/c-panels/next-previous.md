@@ -4,9 +4,9 @@ title: 次または前の項目パネル
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '467'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analyticsの次または前の項目パネルに関する説明です**。<br/> この記事の [](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**バージョンについては、![ 次または前の項目パネル* を参照してください。
+*この記事は、**Adobe Analyticsの次または前の項目パネルに関する説明です**。<br/> この記事の&#x200B;**Customer Journey Analytics[](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) バージョンについては、**次または前の項目パネル* を参照してください。
 
 >[!ENDSHADEBOX]
 

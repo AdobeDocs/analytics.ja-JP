@@ -4,14 +4,33 @@ title: ページの概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# ページの概要パネル
+# ページの概要パネル {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="ページの概要"
+>abstract="いくつかの大まかな指標に加え、特定のページとの間の移動も簡単に確認します。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="ページの概要パネル"
+>abstract="いくつかの大まかな指標に加え、特定のページとの間の移動も簡単に確認します。<br/><br/>**パラメーター&#x200B;**<br/>**ページディメンション項目を追加**：コンポーネントパネルを開き、ページディメンションを見つけて、キャレットをクリックして展開し、ディメンション項目を表示します。 次に、詳しく知りたい特定のページをビルダーにドラッグ&amp;ドロップします。 ディメンション項目をドラッグ&amp;ドロップすると、レポートには、ページに関する主要な情報が自動的に入力されます。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 このパネルを使用すると、特定のページに関する主要な統計を簡単に調べることができます。
 

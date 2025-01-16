@@ -4,9 +4,9 @@ title: Analytics for Target（A4T）パネル
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1158'
 ht-degree: 70%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**の Analytics for Target パネルに関するドキュメントです。<br/>CustomerJourneyAnalytics[**Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) の様々なユーザーエクスペリエンス、マーケティングまたはメッセージングのバリエーションを比較する方法については、![ 実験パネル ](/help/assets/icons/CustomerJourneyAnalytics.svg) を参照してください**。*
+*この記事は、**Adobe Analyticsの Analytics for Target パネルに関するドキュメント**。<br/>**Customer Journey Analyticsの様々なユーザーエクスペリエンス、マーケティングまたはメッセージングのバリエーションを比較する方法については、[ 実験パネル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel) を参照してください**。*
 
 >[!ENDSHADEBOX]
 

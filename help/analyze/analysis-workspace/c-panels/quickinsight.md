@@ -4,9 +4,9 @@ title: クイックインサイトパネル
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**のクイックインサイトパネルに関するドキュメントです。この記事の <br/>CustomerJourneyAnalytics[ ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ クイックインサイトパネル**を参照してください。*
+*この記事は、**Adobe Analyticsのクイックインサイトパネルに関するドキュメントです**。この記事の <br/>3}Customer Journey Analytics **バージョンについては、[ クイックインサイトパネル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight) を参照してください。***
 
 >[!ENDSHADEBOX]
 
