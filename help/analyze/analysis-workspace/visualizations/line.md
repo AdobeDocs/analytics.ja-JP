@@ -5,14 +5,30 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 96%
 
 ---
 
-# 行
+# 行 {#line}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_line_button"
+>title="行"
+>abstract="一定期間にわたる値の変化を示す、折れ線グラフのビジュアライゼーションを作成します。折れ線グラフのビジュアライゼーションは、ディメンションとして時間を使用する場合にのみ使用できます。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsの折れ線グラフのビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ ライン ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) を参照してください。*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL 折れ線]のビジュアライゼーションでは、一定期間の値の変化を示すために、線を使用して指標を表現します。折れ線グラフ は、時間がディメンションとして使用される場合にのみ使用できます。[!UICONTROL 折れ線グラフ] は、時間がディメンションとして使用される場合にのみ使用できます。
 

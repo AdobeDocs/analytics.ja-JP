@@ -3,14 +3,33 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 40%
+source-wordcount: '1137'
+ht-degree: 43%
 
 ---
 
-# 指標の作成
+# 指標の作成 {#build-metrics}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="製品の互換性"
+>abstract="Analysis Workspace、Report Builder など、この計算指標を使用できる Customer Journey Analytics の場所を示します。一部の計算指標は、実験では使用できません。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="実験で計算指標を使用"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_externalid"
+>title="外部 ID"
+>abstract="外部 ID を変更すると、ビジネスインテリジェンスツールなどの外部ソースでの計算指標の表示方法に影響する可能性があります"
+
+<!-- markdownlint-enable MD034 -->
 
 Adobe Analyticsは、ディメンション、指標、セグメントおよび関数をドラッグ&amp;ドロップし、コンテナ階層ロジック、ルールおよび演算子に基づいてカスタム指標を作成するためのキャンバスです。 この統合開発ツールでは、シンプルまたは複雑な計算指標を作成および保存できます。
 

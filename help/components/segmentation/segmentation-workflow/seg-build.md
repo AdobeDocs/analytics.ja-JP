@@ -3,14 +3,62 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 96%
+source-wordcount: '2063'
+ht-degree: 95%
 
 ---
 
-# セグメントビルダー
+# セグメントビルダー {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="オーディエンスの作成"
+>abstract="オーディエンスは、フィルターから作成して、アクティブ化するために Adobe Experience Platform と共有できます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="データのプレビュー"
+>abstract="このフィルターのデータをデータビューのデータと比較します。 プレビューの割合は、**過去 90 日間** のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="繰り返し"
+>abstract="ディメンションのインスタンスと持続値を含みます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="インスタンス"
+>abstract="ディメンションのインスタンスと持続値を含みます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="繰り返しなしインスタンス"
+>abstract="ディメンション固有の（繰り返さない）インスタンスを含みます。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 [!UICONTROL セグメントビルダー]を使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、セグメントを作成できます。セグメントビルダーのキャンバスに、指標ディメンション、イベントまたはその他のセグメントをドラッグ＆ドロップすることで、階層ロジック、ルールおよび演算子に基づいて訪問者をセグメント化できます。
 

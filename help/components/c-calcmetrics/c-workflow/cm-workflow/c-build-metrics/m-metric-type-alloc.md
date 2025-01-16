@@ -3,14 +3,140 @@ description: 詳細
 title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 69%
+source-wordcount: '576'
+ht-degree: 79%
 
 ---
 
-# 指標タイプとアトリビューション
+# 指標タイプとアトリビューション {#metric-type-attribution}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="デフォルト以外のアトリビューションモデルを使用"
+>abstract="選択した指標に対してデフォルト以外のアトリビューションモデルを有効にします。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attributionmodel"
+>title="モデル"
+>abstract="指標のアトリビューションモデルを選択します。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lasttouch"
+>title="ラストタッチ"
+>abstract="訪問者が閲覧した最後のディメンション値に、クレジットの 100％を割り当てます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_firsttouch"
+>title="ファーストタッチ"
+>abstract="訪問者が閲覧した最初のディメンション値に、クレジットの 100％を割り当てます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_linear"
+>title="線形"
+>abstract="クレジットはすべてのディメンション値に均等に配分されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_participation"
+>title="パーティシペーション"
+>abstract="訪問者が閲覧したすべてのディメンション値に 100%クレジットされます。<br/>列の合計は誇張されています。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_sametouch"
+>title="同じタッチ"
+>abstract="コンバージョンと同じイベントで発生するディメンション値にのみ、クレジットを割り当てます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_ushaped"
+>title="U 字型"
+>abstract="最初のディメンション値に 40%、最後のディメンション値に 40%、中央の値に 20%のクレジットが配分されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jcurve"
+>title="J カーブ"
+>abstract="最後のディメンション値に 60%、最初のディメンション値に 20%、中央の値に 20%のクレジットが配分されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_inversej"
+>title="逆 J 形"
+>abstract="最初のディメンション値に 60%、最後のディメンション値に 20%、中央の値に 20%のクレジットが配分されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_timedecay"
+>title="タイムディケイ"
+>abstract="コンバージョンに最も近いディメンション値に、最も多くのクレジットを付与します。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_custom"
+>title="カスタム"
+>abstract="独自の位置ベースのアトリビューションの重み付けを定義します。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_algorithmic"
+>title="アルゴリズム"
+>abstract="クレジットは、統計的アルゴリズムに基づいて動的に決定されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_lookbackwindow"
+>title="ルックバックウィンドウ"
+>abstract="この設定により、各コンバージョンに適用されるデータアトリビューションの期間が決まります。"
+
+<!-- markdownlint-enable MD034 -->
 
 [ 計算指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) 時に、指標タイプとアトリビューションモデルを指定できます。
 

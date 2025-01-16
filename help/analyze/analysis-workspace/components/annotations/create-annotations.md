@@ -4,14 +4,32 @@ description: ワークスペースでの注釈の作成方法
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
 
-# 注釈を作成
+# 注釈を作成 {#create-annotations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_details"
+>title="注釈の詳細"
+>abstract="注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。カレンダーイベントを特定のディメンションや指標に関連付けることができます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_scope"
+>title="範囲"
+>abstract="範囲を使用すると、どのデータに注釈を付けるかをカスタマイズできます。計算指標とセグメントは、その定義で使用されるコンポーネントに適用される注釈を自動的に継承しません。既存の注釈の範囲セクションに新しい計算指標を追加できます。新しいセグメントには新しい注釈が必要です。"
+
+<!-- markdownlint-enable MD034 -->
 
 デフォルトでは、管理者のみが注釈を作成できます。ユーザーは、他の Analytics コンポーネント（セグメント、計算指標など）と同様に、注釈を表示する権限を持ちます。
 

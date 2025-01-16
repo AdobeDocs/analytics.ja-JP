@@ -5,14 +5,50 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 92%
 
 ---
 
-# マップ
+# マップ {#map}
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_button"
+>title="マップ"
+>abstract="このビジュアライゼーションでは、指標をマップにオーバーレイして表示します。 これは、様々な地域をまたいだデータを識別する場合に役立ちます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_bubbles"
+>title="バブル"
+>abstract="バブルを使用してイベントをプロットします。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_heatmap"
+>title="ヒートマップ"
+>abstract="ヒートマップを使用したイベントのプロット。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsのマップのビジュアライゼーションについて説明します**。<br/> 現在、**Customer Journey Analyticsで利用できるマップビジュアライゼーションはありません**。*
+
+>[!ENDSHADEBOX]
 
 ## 概要 {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 

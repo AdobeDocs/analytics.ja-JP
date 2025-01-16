@@ -1,728 +1,2153 @@
 ---
+title: 高度な関数
 description: これらの関数にアクセスするには、関数ドロップダウンリストの「詳細を表示」を選択します。
-title: リファレンス：高度な関数
 feature: Calculated Metrics
-exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
+role: User
+source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
 workflow-type: tm+mt
-source-wordcount: '2847'
-ht-degree: 100%
+source-wordcount: '4438'
+ht-degree: 27%
 
 ---
 
-# リファレンス：高度な関数
+# 高度な関数
 
-これらの関数にアクセスするには、**[!UICONTROL 関数]**&#x200B;ドロップダウンリストの「**[!UICONTROL 詳細を表示]**」を選択します。
+[計算指標ビルダー](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)では、統計関数および数学関数を適用できます。この記事では、高度な関数とその定義をアルファベット順にリストして説明します。
 
-## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
+これらの関数にアクセスするには、コンポーネントパネルの ![ エフェクト ](/help/assets/icons/Effect.svg)**[!UICONTROL 関数]** リストの下にある **[!UICONTROL すべて表示]** を選択します。 下にスクロールして、**[!UICONTROL 高度な関数]** のリストを表示します。
+
+## 表関数と行関数
 
 表関数とは、表のどの行についても出力が同じになる関数です。行関数とは、表の各行で出力が異なる関数です。
 
-## ゼロを含むパラメーターとは {#section_C7A2B05929584C65B308FD372CB8E8E3}
+該当する場合および関連する場合、関数には、関数のタイプで注釈が付けられます。[!BADGE テーブル]{type="Neutral"}[!BADGE 行]{type="Neutral"}
 
-このパラメーターは、計算にゼロを含むかどうかを示します。ゼロは「何もない」ことを意味する場合もあれば、重要な意味を持つ場合もあります。
+## ゼロを含むパラメーターとは
 
-例えば、売上高の指標がある場合に、ページビュー数の指標をレポートに追加すると、すべてゼロの売上高の行が突然表示されます。売上高の列にある平均値、最小値、四分位数などの計算にこの状況が影響を及ぼすことは好ましくありません。その場合は、ゼロを含むパラメーターを確認します。
+このパラメーターは、計算にゼロを含むかどうかを示します。ゼロは&#x200B;*何もない*&#x200B;ことを意味する場合もあれば、重要な意味を持つ場合もあります。
 
-一方、対象とする指標が 2 つある場合は、そのうちの 1 つの指標の一部の行がゼロであったという理由で、その指標の平均値が高い、または最小値を持っているとは言えない可能性があります。したがって、この場合は、ゼロを含むパラメーターを確認しません。
+例えば、売上高の指標がある場合に、ページビュー数の指標をレポートに追加すると、すべてゼロの売上高の行が突然表示されます。その追加の指標が **[MEAN](cm-functions.md#mean)**（平均値）、**[ROW MINIMUM](cm-functions.md#row-min)**（行の最小値）、**[QUARTILE](cm-functions.md#quartile)**（四分位数）および売上高列にあるその他の計算に影響を与えることは避けるべきです。この場合は、`include-zeros` パラメーターを確認します。
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+別のシナリオとして、2 つの目標指標があり、一方の指標の平均または最小値が高くなるのは、一部の行がゼロであるためです。その場合、パラメーターにゼロを含めるかどうかを確認しないことを選択できます。
 
-引数の値を返します。値がある特定の値に等しくないことを示すには、NOT を使用します。
 
->[!NOTE]
->
->0（ゼロ）は False を表し、それ以外の値は True を表します。
+## および {#and}
 
-```
-AND(logical_test1,[logical_test2],...)
-```
+<!-- markdownlint-disable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （任意）。TRUE または FALSE として求める追加の条件です。 |
+>[!CONTEXTUALHELP]
+>id="functions-and"
+>title="および"
+>abstract="接続詞。 ゼロに等しくないは true、ゼロに等しいは false と見なされます。 出力は 0 （false）または 1 （true）です。"
 
-## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
+<!-- markdownlint-enable MD034 -->
 
-選択したディメンションに関する個別のディメンション項目を概算した数を返します。この関数では、個別カウントを概算する HyperLogLog（HLL）手法を使用しています。この関数は、値が 95％の確率で実際の値から誤差 5％以内にあることを保証するように設定されています。
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL AND （logical_test）]**
 
-```
-Approximate Count Distinct (dimension)
-```
-
-| 引数 |  |
-|---|---|
-| *ディメンション* | 個別の項目数を概算するディメンションです。 |
-
-### 使用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
-
-個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
-
-新しい計算指標「概算顧客数」の定義は次のようになります。
-
-![](assets/approx-count-distinct.png)
-
-レポートにおける「概算顧客数」指標の使用方法を次に示します。
-
-![](assets/approx-customers.png)
-
-### 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
-
-Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=ja)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
-
-### カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
-
-Approximate Count Distinct() は、Count() 関数および RowCount() 関数を改良したものです。作成した指標を任意のディメンションレポートで使用し、個別のディメンションに関して概算した項目数をレンダリングできます。例としては、モバイルデバイスタイプレポートで使用される顧客 ID 数があります。
-
-この関数は HLL 手法を使用しているので、Count() や RowCount() よりもわずかに精度が低くなります。一方、Count() と RowCount() の数は正確です。
-
-## アークコサイン（行） {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
-
-指標のアークコサイン（逆コサイン）を返します。アークコサインは、そのコサインが数値である角度です。0（ゼロ）～ pi の範囲のラジアンで角度が返されます。結果をラジアンから度に変換する場合は、その結果に 180/PI( ) を掛けます。
-
-```
-ACOS(metric)
-```
-
-| 引数 |  |
-|---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
-
-## アークサイン（行） {#concept_90F00DEC46BA47F8A21493647D9668CD}
-
-数のアークサイン（逆サイン）を返します。アークサインは、そのサインが数値である角度です。-pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークサインを度で表すには、結果に 180/PI( ) を掛けます。
-
-```
-ASIN(metric) 
-```
-
-| 引数 |  |
-|---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
-
-## アークタンジェント（行） {#concept_3408520673774A10998E9BD8B909E90C}
-
-数のアークタンジェント（逆タンジェント）を返します。アークタンジェントは、そのタンジェントが数値である角度です。-pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークタンジェントを度で表すには、結果に 180/PI( ) を掛けます。
-
-```
-ATAN(metric)
-```
-
-| 引数 |  |
-|---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
-
-## 指数回帰：予測 Y（行） {#concept_25615693312B4A7AB09A2921083502AD}
-
-「最小二乗」法を使用して最良の当てはめ線を計算し、指定されている既知の x 値（metric_X）に対する予測 y 値（metric_Y）を算出します。
-
-```
-ESTIMATE.EXP(metric_X, metric_Y)
-```
+接続詞。 ゼロに等しくないは true、ゼロに等しいは false と見なされます。 出力は 0 （false）または 1 （true）です。
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| logical_test | 少なくとも 1 つのパラメーターが必要ですが、任意の数のパラメーターを指定できます。 TRUE または FALSE と評価できる値または式 |
 
-## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
-自由度 n のスチューデントの t 分布の値（z スコアが x 未満）の割合を返します。
+## 重複を除外した概算カウント {#approximate_count_distinct}
 
-```
-cdf_t( -∞, n ) = 0 
-cdf_t(  ∞, n ) = 1 
-cdf_t( 3, 5 ) ? 0.99865 
-cdf_t( -2, 7 ) ? 0.0227501 
-cdf_t( x, ∞ ) ? cdf_z( x )
-```
+<!-- markdownlint-disable MD034 -->
 
-## Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
+>[!CONTEXTUALHELP]
+>id="functions-count-distinct-metric"
+>title="重複を除外した概算カウント"
+>abstract="選択したディメンションのディメンション項目の個別概算カウントを返します。"
 
-正規分布の値（z スコアが x 未満）の割合を返します。
+<!-- markdownlint-enable MD034 -->
 
-```
-cdf_z( -∞ ) = 0 
-cdf_z( ∞ ) = 1 
-cdf_z( 0 ) = 0.5 
-cdf_z( 2 ) ? 0.97725 
-cdf_z( -3 ) ? 0.0013499 
- 
-```
+![ 効果 ](/help/assets/icons/Effect.svg)**[!UICONTROL 個別概算カウント（ディメンション）]**
 
-## 上限（行） {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
-指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、CEILING(*Revenue*) という数式を使用して、売上高を直近のドル値（$570）に切り上げます。
+選択したディメンションのディメンション項目の個別概算カウントを返します。
 
-```
-CEILING(metric)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 丸める指標です。 |
+| ディメンション | 概算の個別品目数を計算するディメンション |
 
-## コサイン（行） {#concept_DD07AA1FB08145DC89B69D704545FD0A}
+### 例
 
-指定された角度のコサインを返します。角度が度で表されている場合は、角度に PI( )/180 を掛けます。
+この関数の一般的なユースケースは、おおよその顧客数を取得したい場合です。
 
-```
-COS(metric)
-```
+
+
+## 逆余弦 {#arc-cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-acos"
+>title="逆余弦"
+>abstract="指標のアークコサイン（逆コサイン）を返します。アークコサインは、そのコサインが数値である角度です。0（ゼロ）～ pi の範囲のラジアンで角度が返されます。結果をラジアンから度に変換する場合は、180/PI （）で乗算します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 逆余弦（メートル法）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | コサインを求めるラジアンによる角度です。 |
+| 指標 | -1 から 1 までの角度のコサイン |
 
-## 立方根 {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
+
+
+## 逆正弦 {#arc-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-asin"
+>title="逆正弦"
+>abstract="数のアークサイン（逆サイン）を返します。アークサインは、そのサインが数値である角度です。 -pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークサインを度数で表すには、その値に 180/PI （）を掛けます"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 逆正弦（メートル法）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 角度の正弦を–1 から 1 に指定します |
+
+
+
+## 円弧の接線 {#arc-tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-atan"
+>title="円弧の接線"
+>abstract="数のアークタンジェント（逆タンジェント）を返します。アークタンジェントは、そのタンジェントが数値である角度です。 -pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークタンジェントを度数で表すには、結果に 180/PI （）を掛けます。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT （メートル）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | -1 から 1 までの角度の接線 |
+
+
+
+## Cdf-T {#cdf-t}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cdf-t"
+>title="Cdf-T"
+>abstract="自由度 n の student-t 分布を持つ確率変数の z スコアが col より小さい確率を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg)**[!UICONTROL CDF-T （指標、数値）]**
+
+自由度 n の student-t 分布を持つ確率変数の z スコアが col より小さい確率を返します。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | スチューデント t 分布の累積分布関数を求める指標です。 |
+| 数 | スチューデント t 分布の累積分布関数の自由度 |
+
+### 例
+
+```
+CDF-T(-∞, n) = 0
+CDF-T(∞, n) = 1
+CDF-T(3, 5) ? 0.99865
+CDF-T(-2, 7) ? 0.0227501
+CDF-T(x, ∞) ? cdf_z(x)
+```
+
+
+## Cdf-Z {#cdf-z}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cdf-z"
+>title="Cdf-Z"
+>abstract="正規分布を持つ確率変数の z スコアが col 未満になる確率を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ エフェクト ](/help/assets/icons/Effect.svg)**[!UICONTROL CDF-Z （指標、数値）]**
+
+正規分布を持つ確率変数の z スコアが col 未満になる確率を返します。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 標準正規分布の累積分布関数を求める指標です |
+
+### 例
+
+```
+CDF-Z(-∞) = 0
+CDF-Z(∞) = 1
+CDF-Z(0) = 0.5
+CDF-Z(2) ? 0.97725
+CDF-Z(-3) ? 0.0013499
+```
+
+## 天井 {#ceiling}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ceil"
+>title="天井"
+>abstract="指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、CEILING(Revenue) という数式を使用して、売上高を直近のドル値（$570）に切り上げます。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING （metric）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 丸める指標 |
+
+
+## 信頼性 {#confidence}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence"
+>title="信頼性"
+>abstract="[ 時間一様中央限界理論と漸近的信頼性シーケンス ](https://arxiv.org/pdf/2103.06476) で説明されているように、WASKR メソッドを使用して任意の時間の有効な信頼性を計算します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg)**[!UICONTROL CONFIDENCE （normalizing-container, success-metric, control, significity-treshold）]**
+
+[ 時間一様中央限界理論と漸近的信頼性シーケンス ](https://arxiv.org/pdf/2103.06476) で説明されているように、WASKR メソッドを使用して任意の時間の有効な信頼性を計算します。
+
+信頼性は、特定のバリアントがコントロールバリアントと同じであるという証拠がどの程度あるかを示す確率測度です。 信頼性が高いほど、コントロールバリアントおよびコントロールバリアント以外のパフォーマンスが等しいという仮定に対する証拠が少ないことを示します。
+
+| 引数 | 説明 |
+| --- | --- |
+| normalizing-container | テストが実行される基準（人、セッションまたはイベント）。 |
+| 成功指標 | ユーザーがバリアントと比較する指標。 |
+| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
+| 有意しきい値 | この関数のしきい値は、デフォルトの 95%に設定されています。 |
+
+
+## 信頼性 (下限) {#confidence-lower}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence-interval-lower"
+>title="信頼性 (下限)"
+>abstract="[ 時間一様中央限界理論と漸近的信頼性シーケンス **で説明されているように** WASKR メソッドを使用して任意の時間の有効な信頼性 ](https://arxiv.org/pdf/2103.06476) 低い）を計算します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg)**[!UICONTROL CONFIDENCE （normalizing-container, success-metric, control, significity-treshold）]**
+
+[ 時間一様中央限界理論と漸近的信頼性シーケンス **で説明されているように** WASKR メソッドを使用して任意の時間の有効な信頼性 ](https://arxiv.org/pdf/2103.06476) 低い）を計算します。
+
+信頼性は、特定のバリアントがコントロールバリアントと同じであるという証拠がどの程度あるかを示す確率測度です。 信頼性が高いほど、コントロールバリアントおよびコントロールバリアント以外のパフォーマンスが等しいという仮定に対する証拠が少ないことを示します。
+
+| 引数 | 説明 |
+| --- | --- |
+| normalizing-container | テストが実行される基準（人、セッションまたはイベント）。 |
+| 成功指標 | ユーザーがバリアントと比較する指標。 |
+| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
+| 有意しきい値 | この関数のしきい値は、デフォルトの 95%に設定されています。 |
+
+## 信頼性 (上限) {#confidence-upper}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-confidence-interval-upper"
+>title="信頼性 (上限)"
+>abstract="[ 時間一様中央限界理論と漸近的信頼性シーケンス **で説明されているように** WASKR メソッドを使用して任意の時間の有効な信頼性 ](https://arxiv.org/pdf/2103.06476) 上限）を計算します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg)**[!UICONTROL CONFIDENCE （normalizing-container, success-metric, control, significity-treshold）]**
+
+[ 時間一様中央限界理論と漸近的信頼性シーケンス **で説明されているように** WASKR メソッドを使用して任意の時間の有効な信頼性 ](https://arxiv.org/pdf/2103.06476) 上限）を計算します。
+
+信頼性は、特定のバリアントがコントロールバリアントと同じであるという証拠がどの程度あるかを示す確率測度です。 信頼性が高いほど、コントロールバリアントおよびコントロールバリアント以外のパフォーマンスが等しいという仮定に対する証拠が少ないことを示します。
+
+| 引数 | 説明 |
+| --- | --- |
+| normalizing-container | テストが実行される基準（人、セッションまたはイベント）。 |
+| 成功指標 | ユーザーがバリアントと比較する指標。 |
+| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
+| 有意しきい値 | この関数のしきい値は、デフォルトの 95%に設定されています。 |
+
+
+## 余弦 {#cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cos"
+>title="余弦"
+>abstract="指定された角度のコサインを返します。角度が度単位の場合は、その角度に PI （）/180 を掛けます。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ エフェクト ](/help/assets/icons/Effect.svg)**[!UICONTROL COSINE （metric）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | コサインを求める角度（ラジアン単位） |
+
+
+## 立方根 {#cube-root}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cube-root"
+>title="立方根"
+>abstract="数の正の立方根を返します。数の立方根は、3 乗してその数になる値です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 立方根（メトリック）]**
+
 
 数の正の立方根を返します。数の立方根は、3 乗してその数になる値です。
 
-```
-CBRT(metric)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 立方根を求める指標です。 |
+| 指標 | キューブのルートを計算する指標 |
 
-## 累積 {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-最終 N 行の x の合計を返します（ディメンションによって規定されており、文字列ベースのフィールドにハッシュ値を使用します）。
 
-N &lt;= 0 の場合、前のすべての行を使用します。この関数はディメンションによって規定されているので、日付やパスの長さなど、自然順序を持つディメンションでのみ役立ちます。
+## 累積 {#cumulative}
 
-```
-| Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
-|------+------+--------------+--------------| 
-| May  | $500 | $500         | $500         | 
-| June | $200 | $700         | $700         | 
-| July | $400 | $1100        | $600         | 
- 
-```
+<!-- markdownlint-disable MD034 -->
 
-## 累加平均 {#concept_ABB650962DC64FD58A79C305282D3E61}
+>[!CONTEXTUALHELP]
+>id="functions-cumul"
+>title="累積"
+>abstract="列 x の最後の n 個の要素の合計を返します。n > 0 の場合、最後の n 個の要素または x を合計します。n &lt; 0 の場合、前の要素を合計します。"
 
-最終 N 行の平均を返します。
+<!-- markdownlint-enable MD034 -->
 
-N &lt;= 0 の場合、前のすべての行を使用します。この関数はディメンションによって規定されているので、日付やパスの長さなど、自然順序を持つディメンションでのみ役立ちます。
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE （number, metric）]**
+
+列 x の最後の n 個の要素の合計を返します。n > 0 の場合、最後の n 個の要素または x を合計します。n &lt; 0 の場合、前の要素を合計します。
+
+| 引数 | 説明 |
+| --- | --- |
+| number | 合計を返す最後の N 行。 N &lt;= 0 の場合は、前の行をすべて使用します。 |
+| 指標 | 累積合計を求める指標。 |
+
+### 例
+
+| 日付 | 売上高 | 累積（0，収益） | 累積（2，収益） |
+|------|------:|--------------:|--------------:|
+| 5月 | 500 ドル | 500 ドル | 500 ドル |
+| 6月 | 200 ドル | 700 ドル | 700 ドル |
+| 7月 | $400 | 1,100 ドル | $600 |
+
+
+## 累積（平均） {#cumulative-average}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cumul-avg"
+>title="累積（平均）"
+>abstract="列 x の最後の n 個の要素の平均を返します。n > 0 の場合、最後の n 個の要素または x を合計します。n &lt; 0 の場合、前の要素を合計します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 累積平均（数値、指標）]**
+
+列 x の最後の n 個の要素の平均を返します。n > 0 の場合、最後の n 個の要素または x を合計します。n &lt; 0 の場合、前の要素を合計します。
+
+| 引数 | 説明 |
+| --- | --- |
+| number | 平均を返す最後の N 行。 N &lt;= 0 の場合は、前の行をすべて使用します。 |
+| 指標 | 累積平均を求める指標です。 |
 
 >[!NOTE]
 >
->この関数は、割合の指標（例：売上高/訪問者数）を使用する場合は機能しません。このような指標では、最終 N にわたる売上高を合計し、最終 N にわたる訪問者数を合計して、それらを除算するのではなく、代わりに割合を平均化します。代わりに、次の数式を使用してください。
+>この関数は、1 人当たりの売上高などのレート指標では機能しません。 この関数は、過去 N 個の収益を合計し、過去 N 個の人物を合計して除算するのではなく、割合を平均します。 <br/> 代わりに、[**[!UICONTROL CUMULATIVE （revenue） ]**](#cumulative)![Divide](/help/assets/icons/Divide.svg)[**[!UICONTROL CUMULATIVE （person） ]**](#cumulative) を使用します。
+>
 
-```
-cumul(revenue)/cumul(visitor)
-```
 
-## 次と等しい {#concept_A3B97152B5F74E04A97018B35734BEEB}
+## 次と等しい {#equal}
 
-数字または文字列の値に完全に一致する項目を返します。
+<!-- markdownlint-disable MD034 -->
 
-## 指数回帰：相関係数（表） {#concept_C18BBFA43C1A499293290DF49566D8D8}
+>[!CONTEXTUALHELP]
+>id="functions-eq"
+>title="次と等しい"
+>abstract="等しい。 出力は 0 （false）または 1 （true）です。"
 
-回帰式に対して、2 つの指標列（*metric_A* と *metric_B*）の間の相関係数 *r* を返します。
+<!-- markdownlint-enable MD034 -->
 
-```
-CORREL.EXP(metric_X, metric_Y)
-```
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL EQUAL （）]**
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | *metric_Y* とクロス集計する指標です。 |
-| *metric_Y* | *metric_X* とクロス集計する指標です。 |
+等しい。 出力は 0 （false）または 1 （true）です。
 
-## 指数回帰：切片（表） {#concept_0047206C827841AD936A3BE58EEE1514}
-
-以下に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
-
-```
-INTERCEPT.EXP(metric_X, metric_Y)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | |
+| metric_Y | |
 
-## 指数回帰：傾き（表） {#concept_230991B0371E44308C52853EFA656F04}
+### 例
 
-以下に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
+`Metric 1 = Metric 2`
 
-```
-SLOPE.EXP(metric_X, metric_Y)
-```
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+## 指数回帰：相関係数 {#exponential-regression-correlation-coefficient}
 
-## 下限（行） {#concept_D368150EC3684077B284EE471463FC31}
+<!-- markdownlint-disable MD034 -->
 
-指定された値以下の最大の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、FLOOR(*Revenue*) という数式を使用して、売上高を直近のドル値（$569）に切り捨てます。
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-exp"
+>title="指数回帰：相関係数"
+>abstract="指数回帰：Y = a exp （X） + b。相関係数を返します。"
 
-```
-FLOOR(metric)
-```
+<!-- markdownlint-enable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *metric* | 丸める指標です。 |
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 指数回帰：相関係数（metric_X, metric_Y, include_zeros）]**
 
-## 次よりも大きい {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
-入力された値よりも大きい数字を持つ項目を返します。
+[!BADGE テーブル]{type="Neutral"}
 
-## 次よりも大きいか等しい {#concept_8CA6DF1F84784D50849BF1C566AE1D37}
-
-入力された値よりも大きいか等しい数字を持つ項目を返します。
-
-## ハイパボリックコサイン（行） {#concept_79DD5681CE9640BDBA3C3F527343CA98}
-
-数のハイパボリックコサインを返します。
-
-```
-COSH(metric)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | ハイパボリックコサインを求めるラジアンによる角度です。 |
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## ハイパボリックサイン（行） {#concept_96230731600C45E3A4E823FE155ABA85}
+## 指数回帰：予測 Y {#exponential-regression-predicted-y}
 
-数のハイパボリックサインを返します。
+<!-- markdownlint-disable MD034 -->
 
-```
-SINH(metric)
-```
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-exp"
+>title="指数回帰：予測 Y"
+>abstract="指数回帰：Y = a exp （X） + b。Y を返します。"
 
-| 引数 | 説明 |
-|---|---|
-| *metric* | ハイパボリックサインを求めるラジアンによる角度です。 |
+<!-- markdownlint-enable MD034 -->
 
-## ハイパボリックタンジェント（行） {#concept_BD249013732F462B9863629D142BCA6A}
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 指数回帰：予測 Y （metric_X, metric_Y, include_zeros）]**
 
-数のハイパボリックタンジェントを返します。
 
-```
-TANH(metric)
-```
+[!BADGE 行]{type="Neutral"}
 
-| 引数 | 説明 |
-|---|---|
-| *metric* | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
-
-## IF（行） {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
-
-IF 関数は、指定した条件が TRUE の場合に 1 つの値を返し、その条件が FALSE の場合にもう 1 つの値を返します。
-
-```
-IF(logical_test, [value_if_true], [value_if_false])
-```
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test* | 必須。TRUE または FALSE で示される値または式です。 |
-| *[value_if_true]* | *logical_test* 引数の値が TRUE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
-| *[value_if_false]* | *logical_test* 引数の値が FALSE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
+| metric_X | 非依存データとして指定する指標です。 |
+| metric_Y | 依存データとして指定する指標です。 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 未満 {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
-入力された値よりも小さい数字を持つ項目を返します。
+## 指数回帰：切片 {#exponential-regression-intercept}
 
-## 次よりも小さいか等しい {#concept_99D12154DE4848B1B0A6327C4322D288}
+<!-- markdownlint-disable MD034 -->
 
-入力された値よりも小さいか等しい数字を持つ項目を返します。
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-exp"
+>title="指数回帰：切片"
+>abstract="指数回帰：Y = a exp （X） + b。b を返します。"
 
-## 線形回帰：相関係数 {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
+<!-- markdownlint-enable MD034 -->
 
-Y = a X + b。相関係数を返します。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 指数回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
 
-## 線形回帰：切片 {#concept_E44A8D78B802442DB855A07609FC7E99}
 
-Y = a X + b。b を返します。
-
-## 線形回帰：予測 Y {#concept_9612B9BF106D4D278648D2DF92E98EFC}
-
-Y = a X + b。Y を返します。
-
-## 線形回帰：傾き {#concept_12352982082A4DDF824366B073B4C213}
-
-Y = a X + b。a を返します。
-
-## 10 を底とする対数（行） {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
-
-数の 10 を底とする対数を返します。
-
-```
-LOG10(metric)
-```
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 10 を底とする対数を求める正の実数です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 対数回帰：相関係数（表） {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。計算には CORREL 式を使用します。
+## 指数回帰：勾配 {#exponential-regression-slope}
 
-```
-CORREL.LOG(metric_X,metric_Y)
-```
+<!-- markdownlint-disable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | *metric_Y* とクロス集計する指標です。 |
-| *metric_Y* | *metric_X* とクロス集計する指標です。 |
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-exp"
+>title="指数回帰：勾配"
+>abstract="指数回帰：Y = a exp （X） + b。を返します。"
 
-## 対数回帰：切片（表） {#concept_75A3282EDF54417897063DC26D4FA363}
+<!-- markdownlint-enable MD034 -->
 
-回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の最小二乗回帰として、切片 *b* を返します。計算には INTERCEPT 式を使用します。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 指数回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
 
-```
-INTERCEPT.LOG(metric_X, metric_Y)
-```
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+[!BADGE テーブル]{type="Neutral"}
 
-## 対数回帰：予測 Y（行） {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
-
-最小二乗法で [!DNL Y = a ln(X) + b] に基づいて最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。計算には ESTIMATE 式を使用します。
-
-回帰分析では、この関数は、回帰方程式 [!DNL Y = a ln(X) + b] = a ln() + b の最良の当てはめ線を計算する対数を使用して既知の [!DNL x]x 値（*metric_X*）に対する予測 [!DNL y] 値（*metric_Y*）を算出します。[!DNL a] 値は各 x 値に対応し、[!DNL b] は定数値です。
-
-```
-ESTIMATE.LOG(metric_X, metric_Y)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 対数回帰：傾き（表） {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の傾き *a* を返します。計算には SLOPE 式を使用します。
+## Floor {#floor}
 
-```
-SLOPE.LOG(metric_A, metric_B)
-```
+<!-- markdownlint-disable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *metric_A* | 非依存データとして指定する指標です。 |
-| *metric_B* | 依存データとして指定する指標です。 |
+>[!CONTEXTUALHELP]
+>id="functions-floor"
+>title="Floor"
+>abstract="指定された値以下の最大の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、FLOOR(Revenue) という数式を使用して、売上高を直近のドル値（$569）に切り捨てます。"
 
-## 自然対数 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
+<!-- markdownlint-enable MD034 -->
 
-数の自然対数を返します。自然対数の底は定数 *e*（2.71828182845904）です。LN は、EXP 関数の逆関数です。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR （metric_X, metric_Y, include_zeros）]**
 
-```
-LN(metric)
-```
+[!BADGE 行]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 自然対数を求める正の実数です。 |
+| 指標 | 四捨五入する指標です。 |
 
-## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
-数が 0 の場合は 1 を返します。別の数の場合は 0 を返します。
+## 次よりも大きい {#greather-than}
 
-```
-NOT(logical)
-```
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-gt"
+>title="次よりも大きい"
+>abstract="出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN （）]**
+
+出力は 0 （false）または 1 （true）です。
 
 | 引数 | 説明 |
 |---|---|
-| *logical* | 必須。TRUE または FALSE で示される値または式です。 |
+| metric_X | |
+| metric_Y | |
 
-NOT を使用する場合は、式（&lt;、>、=、&lt;> など）が0 と 1 のどちらの値を返すかを把握しておく必要があります。
+### 例
 
-## 等しくない {#concept_EC010B7A9D2049099114A382D662FC16}
+`Metric 1 > Metric 2`
 
-入力された値の完全一致を含まない項目をすべて返します。
 
-## OR（行） {#concept_AF81A33A376C4849A4C14F3A380639D2}
+## 次よりも大きいか等しい {#greater-than-or-equal}
 
-いずれかの引数が TRUE の場合は TRUE を返します。すべての引数が FALSE の場合は FALSE を返します。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ge"
+>title="次よりも大きいか等しい"
+>abstract="次よりも大きいか等しい。 出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL GREATER THAN OR EQUAL （）]**
+
+次よりも大きいか等しい。 出力は 0 （false）または 1 （true）です。
+
+| 引数 | 説明 |
+|---|---|
+| metric_X |  |
+| metric_Y |  |
+
+### 例
+
+`Metric 1 >= Metric 2`
+
+
+
+## 双曲線余弦 {#hyperbolic-cosine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-cosh"
+>title="双曲線余弦"
+>abstract="数のハイパボリックコサインを返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 双曲線余弦（メートル法）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 双曲線余弦を求める角度（ラジアン） |
+
+
+
+## 双曲線正弦 {#hyperbolic-sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-sinh"
+>title="双曲線正弦"
+>abstract="数のハイパボリックサインを返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 双曲線正弦（メートル法）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 双曲線正弦を求める角度（ラジアン） |
+
+
+## 双曲線正接 {#hyperbolic-tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-tanh"
+>title="双曲線正接"
+>abstract="数のハイパボリックタンジェントを返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 双曲線正接（メートル）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 双曲線正接を求める角度（ラジアン） |
+
+
+## If {#if}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-if"
+>title="If"
+>abstract="条件パラメーターの値がゼロ以外（true）の場合、結果は value_if_true パラメーターの値になります。 それ以外の場合は、value_if_false パラメーターの値になります。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL IF （logical_test, value_if_true, value_if_false）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| logical_test | 必須。TRUE または FALSE と評価できる値または式 |
+| value_if_true | logical_test 引数の値が TRUE の場合に返す値。 （含まれない場合、この引数のデフォルト値は 0 です）。 |
+| value_if_false | logical_test 引数の値が FALSE の場合に返す値です (含まれない場合、この引数のデフォルト値は 0 です)。 |
+
+
+## 未満 {#less-than}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-lt"
+>title="未満"
+>abstract="出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg)**[!UICONTROL LESS THAN （）]**
+
+出力は 0 （false）または 1 （true）です。
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### 例
+
+`Metric 1 < Metric 2`
+
+
+## 次よりも小さいか等しい {#less-than-or-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-le"
+>title="次よりも小さいか等しい"
+>abstract="次よりも小さいか等しい。 出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg)**[!UICONTROL LESS THAN OR EQUAL （）]**
+
+次よりも小さいか等しい。 出力は 0 （false）または 1 （true）です。
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### 例
+
+`Metric 1 <= Metric 2`
+
+
+
+## 上昇率（#lift）
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-waskr-lift"
+>title="上昇率"
+>abstract="制御値と比較した比率の上昇率。"
+
+<!-- markdownlint-enable MD034 -->
+
+| 引数 | 説明 |
+| --- | --- |
+| normalizing-container | テストが実行される基準（人、セッションまたはイベント）。 |
+| 成功指標 | ユーザーがバリアントと比較する指標。 |
+| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
+
+
+
+## 線形回帰：相関係数 {#linear-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-linear"
+>title="線形回帰：相関係数"
+>abstract="線形回帰：Y = a X + b 相関係数を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 線形回帰：相関係数（metric_X, metric_Y, include_zeros）]**
+
+
+[!BADGE テーブル]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 線形回帰：切片 {#linear-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-linear"
+>title="線形回帰：切片"
+>abstract="線形回帰：Y = a X + bb を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 線形回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
+
+
+[!BADGE テーブル]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 線形回帰：予測 Y {#linear-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-linear"
+>title="線形回帰：予測 Y"
+>abstract="線形回帰：Y = a X + bY を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 線形回帰：予測された Y （metric_X, metric_Y, include_zeros）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 線形回帰：勾配 {#linear-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-linear"
+>title="線形回帰：勾配"
+>abstract="線形回帰：Y = a X + bを返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 線形回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## ログベース 10 {#log-base-ten}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-log10"
+>title="ログベース 10"
+>abstract="数の 10 を底とする対数を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL ログベース 10 （指標）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 底が 10 の対数を求める正の実数 |
+
+
+## 回帰を記録：相関係数 {#log-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-log"
+>title="回帰を記録：相関係数"
+>abstract="回帰を記録：Y = a ln （X） + b相関係数を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG 回帰：相関係数（metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## ログ回帰：インターセプト {#log-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-log"
+>title="ログ回帰：インターセプト"
+>abstract="回帰を記録：Y = a ln （X） + bb を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG 回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 回帰を記録：予測 Y {#log-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-log"
+>title="回帰を記録：予測 Y"
+>abstract="回帰を記録：Y = a ln （X） + bY を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL ログ回帰：予測された Y （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 回帰を記録：勾配 {#log-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-log"
+>title="回帰を記録：勾配"
+>abstract="回帰を記録：Y = a ln （X） + bを返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL LOG 回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+## 自然対数 {#natural-log}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-log"
+>title="自然対数"
+>abstract="数の自然対数を返します。自然対数の底は定数 e（2.71828182845904）です。LN は、EXP 関数の逆関数です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 自然ログ（指標）]**
+
+数の自然対数を返します。自然対数の底は定数 e（2.71828182845904）です。LN は、EXP 関数の逆関数です。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 自然対数を求める正の実数 |
+
+
+
+##  ではない {#not}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-not"
+>title=" ではない"
+>abstract="否定（ブール値として）。 出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT （logical）]**
+
+否定（ブール値として）。 出力は 0 （false）または 1 （true）です。
+
+| 引数 | 説明 |
+|---|---|
+| 論理 | 必須。TRUE または FALSE と評価できる値または式 |
+
+
+
+## 次と等しくない {#not-equal}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ne"
+>title="次と等しくない"
+>abstract="等しくない。 出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL NOT EQUAL （）]**
+
+
+等しくない。 出力は 0 （false）または 1 （true）です。
+
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | |
+| metric_Y | |
+
+### 例
+
+`Metric 1 != Metric 2`
+
+
+## または {#or}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-or"
+>title="または"
+>abstract="分離。 ゼロに等しくないは true、ゼロに等しいは false と見なされます。 出力は 0 （false）または 1 （true）です。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL OR （logical_test）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| logical_test | 少なくとも 1 つのパラメーターが必要ですが、任意の数のパラメーターを指定できます。 TRUE または FALSE と評価できる値または式 |
+
 
 >[!NOTE]
 >
 >0（ゼロ）は False を表し、それ以外の値は True を表します。
 
-```
-OR(logical_test1,[logical_test2],...)
-```
+
+## 円周率 {#pi}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-pi"
+>title="円周率"
+>abstract="円周率を返します。円周率：3.14159.."
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL PI （）]**
+
+円周率を返します。円周率：3.14159..
+
+
+## 累乗回帰：相関係数 {#power-regression-correlation-coefficient}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-power"
+>title="累乗回帰：相関係数"
+>abstract="累乗回帰：Y = b X ^ a。相関係数を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER 回帰：相関係数（metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （任意）。TRUE または FALSE として求める追加の条件です。 |
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
 
-15 桁の精度の定数 PI（3.14159265358979）を返します。
 
-```
-PI()
-```
+## 累乗回帰：インターセプト {#power-regression-intercept}
 
-[!DNL PI] 関数には引数がありません。
+<!-- markdownlint-disable MD034 -->
 
-## 累乗回帰：相関係数（表） {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-power"
+>title="累乗回帰：インターセプト"
+>abstract="累乗回帰：Y = b X ^ a。b を返します。"
 
-[!DNL Y = b*X] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
+<!-- markdownlint-enable MD034 -->
 
-```
-CORREL.POWER(metric_X, metric_Y)
-```
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER 回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | *metric_Y* とクロス集計する指標です。 |
-| *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 累乗回帰：切片（表） {#concept_7781C85597D64D578E19B212BDD1764F}
+[!BADGE テーブル]{type="Neutral"}
 
-[!DNL Y = b*X] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
-
-```
- INTERCEPT.POWER(metric_X, metric_Y)
-```
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 累乗回帰：予測 Y（行） {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-「最小二乗」法を使用して、[!DNL Y = b*X] に対する最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（[!DNL metric_X]）に対する予測 [!DNL y] 値（[!DNL metric_Y]）を算出します。
+## 累乗回帰：予測 Y {#power-regression-predicted-y}
 
-```
- ESTIMATE.POWER(metric_X, metric_Y)
-```
+<!-- markdownlint-disable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-power"
+>title="累乗回帰：予測 Y"
+>abstract="累乗回帰：Y = b X ^ a。Y を返します。"
 
-## 累乗回帰：傾き（表） {#concept_5B9E71B989234694BEB5EEF29148766C}
+<!-- markdownlint-enable MD034 -->
 
-[!DNL Y = b*X] に対して、2 つの指標（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER 回帰：予測 Y （metric_X, metric_Y, include_zeros）]**
 
-```
-SLOPE.POWER(metric_X, metric_Y)
-```
+[!BADGE 行]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 二次回帰：相関係数（表） {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-[!DNL Y=(a*X+b)]**** に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
 
-```
-CORREL.QUADRATIC(metric_X, metric_Y)
-```
+## 累乗回帰：勾配 {#power-regression-slope}
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | *metric_Y* とクロス集計する指標です。 |
-| *metric_Y* | *metric_X* とクロス集計する指標です。 |
+<!-- markdownlint-disable MD034 -->
 
-## 二次回帰：切片（表） {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-power"
+>title="累乗回帰：勾配"
+>abstract="累乗回帰：Y = b X ^ a。を返します。"
 
-[!DNL Y=(a*X+b)] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
+<!-- markdownlint-enable MD034 -->
 
-```
-INTERCEPT.POWER(metric_X, metric_Y)
-```
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL POWER 回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 二次回帰：予測 Y（行） {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-最小二乗法で [!DNL Y=(a*X+b)]**** を使用して最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。
 
-```
-ESTIMATE.QUADRATIC(metric_A, metric_B)
-```
+## 二次回帰：相関係数 {#quadratic-regression-correlation-coefficient}
 
-| 引数 | 説明 |
-|---|---|
-| *metric_A* | 非依存データとして指定する指標です。 |
-| *metric_B* | 依存データとして指定する指標です。 |
+<!-- markdownlint-disable MD034 -->
 
-## 二次回帰：傾き（表） {#concept_0023321DA8E84E6D9BCB06883CA41645}
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-quadratic"
+>title="二次回帰：相関係数"
+>abstract="二次回帰：Y = （a + bX） ^ 2、相関係数を返します。"
 
-[!DNL Y=(a*X+b)] に対して、2 つの指標列（*metric_X* と metric_Y）の間の傾き *a* を返します。
+<!-- markdownlint-enable MD034 -->
 
-```
-SLOPE.QUADRATIC(metric_X, metric_Y)
-```
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 二次回帰：相関係数（metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 逆数回帰：相関係数（表） {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
+## 二次回帰：切片 {#quadratic-regression-intercept}
 
-[!DNL Y = a/X+b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
+<!-- markdownlint-disable MD034 -->
 
-```
-CORREL.RECIPROCAL(metric_X, metric_Y)
-```
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-quadratic"
+>title="二次回帰：切片"
+>abstract="二次回帰：Y = （a + bX） ^ 2, a を返します。"
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | *metric_Y* とクロス集計する指標です。 |
-| *metric_Y* | *metric_X* とクロス集計する指標です。 |
+<!-- markdownlint-enable MD034 -->
 
-## 逆数回帰：切片（表） {#concept_2DA45B5C69F140EC987649D2C88F19B3}
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 二次回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
 
-[!DNL Y = a/X+b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
-
-```
-INTERCEPT.RECIPROCAL(metric_A, metric_B)
-```
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## 逆数回帰：予測 Y（行） {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-最小二乗法で [!DNL Y = a/X+b] を使用して最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。
+## 二次回帰：予測 Y {#quadratic-regression-predicted-y}
 
-```
-ESTIMATE.RECIPROCAL(metric_X, metric_Y)
-```
+<!-- markdownlint-disable MD034 -->
 
-| 引数 | 説明 |
-|---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-quadratic"
+>title="二次回帰：予測 Y"
+>abstract="二次回帰：Y = （a + bX） ^ 2、Y を返します。"
 
-## 逆数回帰：傾き（表） {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
+<!-- markdownlint-enable MD034 -->
 
-[!DNL Y = a/X+b] に対して、2 つの指標（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 二次回帰：予測 Y （metric_X, metric_Y, include_zeros）]**
 
-```
-SLOPE.RECIPROCAL(metric_X, metric_Y)
-```
+[!BADGE 行]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric_X* | 非依存データとして指定する指標です。 |
-| *metric_Y* | 依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## サイン（行） {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
-指定された角度のサインを返します。角度が度で表されている場合は、角度に PI( )/180 を掛けます。
+## 二次回帰：勾配 {#quadratic-regression-slope}
 
-```
-SIN(metric)
-```
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-quadratic"
+>title="二次回帰：勾配"
+>abstract="二次回帰：Y = （a + bX） ^ 2、b を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 二次回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | サインを求めるラジアンによる角度です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
 
-## t スコア {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
-z スコアのエイリアス。つまり、平均値を標準偏差で割って求める偏差値です。
 
-## t 検定 {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
+## 逆回帰：相関係数 {#reciprocal-regression-correlation-coefficient}
 
-t スコア col および自由度 n の t 検定（m-tailed）を実行します。
+<!-- markdownlint-disable MD034 -->
 
-署名は `t_test( x, n, m )` です。その下では、単に `m*cdf_t(-abs(x),n)` を呼び出します。（これは z 検定関数と似ており、z 検定関数は `m*cdf_z(-abs(x))` を実行します）。
+>[!CONTEXTUALHELP]
+>id="functions-ls-corr-reciprocal"
+>title="逆回帰：相関係数"
+>abstract="逆回帰：Y = a + b X ^ -1。 相関係数を返します。"
 
-ここで、`m` はテール数、`n` は自由度です。これらは数値でなければなりません（全体レポートの場合は、行ごとに変わらない定数でなければなりません）。
+<!-- markdownlint-enable MD034 -->
 
-`X` は t 検定統計量です。一般的には指標に基づく数式（zscore など）で、すべての行で評価されます。
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 逆回帰：相関係数（metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | metric_Y と関連付ける指標 |
+| metric_Y | metric_X と関連付ける指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## 逆回帰：切片 {#reciprocal-regression-intercept}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-intercept-reciprocal"
+>title="逆回帰：切片"
+>abstract="逆回帰：Y = a + b X ^ -1。 を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 回帰回帰：INTERCEPT （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## 逆回帰：予測 Y {#reciprocal-regression-predicted-y}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-pred-reciprocal"
+>title="逆回帰：予測 Y"
+>abstract="逆回帰：Y = a + b X ^ -1。 Y を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 逆回帰：予測 Y （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## 逆回帰：勾配 {#reciprocal-regression-slope}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-ls-slope-reciprocal"
+>title="回帰：勾配"
+>abstract="逆回帰：Y = a + b X ^ -1。 b を返します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 回帰回帰：SLOPE （metric_X, metric_Y, include_zeros）]**
+
+[!BADGE テーブル]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+
+
+## 正弦 {#sine}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-sin"
+>title="正弦"
+>abstract="指定された角度のサインを返します。角度が度単位の場合は、その角度に PI （）/180 を掛けます。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ 効果 ](/help/assets/icons/Effect.svg) **[!UICONTROL 正弦（メートル法）]**
+
+
+[!BADGE 行]{type="Neutral"}
+
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | 正弦を求める角度（ラジアン単位） |
+
+
+
+
+## t スコア {#t-score}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-t-score"
+>title="t スコア"
+>abstract="[MEAN](cm-functions.md#mean) からの偏差を標準偏差で割ったもの。 [Z スコア ](#z-score) のエイリアス。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-SCORE （metric, include_zeros）]**
+
+[MEAN](cm-functions.md#mean) からの偏差を標準偏差で割ったもの。 [Z スコア ](#z-score) のエイリアス。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | T スコアを求める指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+
+## t 検定 {#t-test}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-t-test"
+>title="t 検定"
+>abstract="t スコアが x および n 自由度の m テール型 t 検定を実行します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL T-TEST （metric, degrees, tail）]**
+
+t スコアが x および n 自由度の m テール型 t 検定を実行します。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | T 検定を実行する指標 |
+| degrees | 自由度 |
+| 尾 | T 検定を行うために使用するテールの長さ |
+
+### 詳細
+
+シグネチャは T-TEST （metric, degrees, tail）です。 その下では、単に ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)** を呼び出します。 この関数は、***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** を実行する **[Z-TEST](#z-test)** 関数に類似しています。
+
+- ***m*** は尾の数です。
+- ***n*** は自由度で、レポート全体に対して一定の数値である必要があります。つまり、行単位で変更されません。
+- ***x*** は T 検定の統計量で、多くの場合、指標に基づく数式（**[Z-SCORE](#z-score)** など）であり、すべての行で評価されます。
 
 返される値は、指定された自由度とテール数において検定統計量 x が見られる確率です。
 
-**例：**
+### 例
 
-1. 次の式を使用して外れ値を見つけます。
-
-   ```
-   t_test( zscore(bouncerate), row-count-1, 2)
-   ```
-
-1. この式に `if` を組み合わせて、極度に高いまたは低いバウンス率を無視し、その他すべてへの訪問回数をカウントします。
+1. 関数を使用して異常値を検索します。
 
    ```
-   if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
+   T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2)
    ```
 
-## タンジェント {#concept_C25E00CB17054263AB0460D9EF94A700}
+1. 関数を **[IF](#if)** と組み合わせて、非常に高いバウンス率または低いバウンス率を無視し、その他のすべてに関するセッションをカウントします。
 
-指定された角度のタンジェントを返します。角度が度で表されている場合は、角度に PI( )/180 を掛けます。
+   ```
+   IF(T-TEST(Z-SCORE(bouncerate), ROW COUNT - 1, 2) < 0.01, 0, sessions )
+   ```
 
-```
-TAN (metric)
-```
+
+
+## タンジェント {#tangent}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-tan"
+>title="タンジェント"
+>abstract="指定された角度のタンジェントを返します。角度が度単位の場合は、その角度に PI （）/180 を掛けます。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ エフェクト ](/help/assets/icons/Effect.svg)**[!UICONTROL TANGENT （metric）]**
+
+指定された角度のタンジェントを返します。角度が度単位の場合は、その角度に PI （）/180 を掛けます。
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | タンジェントを求めるラジアンによる角度です。 |
+| 指標 | 接線を求める角度（ラジアン単位） |
 
-## z スコア（行） {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-正規分布に基づく z スコア（正規スコア）を返します。z スコアは、観測値が平均値から離れている標準偏差の数です。z スコア 0（ゼロ）は、スコアが平均値と同じであることを意味します。z スコアは正と負のどちらにもなり得ます。平均値を上回るか下回るかを標準偏差の数で示します。
+
+## Z スコア {#z-score}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="functions-z-score"
+>title="Z スコア"
+>abstract="平均からの偏差を標準偏差で割ったもの。"
+
+<!-- markdownlint-enable MD034 -->
+
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL Z-SCORE （metric, include_zeros）]**
+
+[!BADGE 行]{type="Neutral"}
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | Z スコアを求める指標 |
+| include_zeros | 計算にゼロ値を含めるかどうか |
+
+Z スコアが 0 （ゼロ）の場合は、スコアが平均と同じであることを意味します。 z スコアは正と負のどちらにもなり得ます。平均値を上回るか下回るかを標準偏差の数で示します。
 
 z スコアの式は次のようになります。
 
 ![](assets/z_score.png)
 
-ここで、[!DNL x] は生のスコア、[!DNL μ] は母集団の平均値、[!DNL σ] は母集団の標準偏差です。
+ここで、***[!DNL x]*** は生のスコア、***[!DNL μ]*** は母集団の平均、***[!DNL σ]*** は母集団の標準偏差です。
 
 >[!NOTE]
 >
->[!DNL μ] （ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
+>***[!DNL μ]*** （mu）と ***[!DNL σ]*** （sigma）は、指標から自動的に計算されます。
 
-Z スコア（指標）
 
-<table id="table_AEA3622A58F54EA495468A9402651E1B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引数 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i> metric</i> </td> 
-   <td colname="col2"> <p> 最初のゼロ以外の引数の値を返します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
-## Z 検定 {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
+## Z 検定 {#z-test}
 
-z スコア A の Z 検定（n-tailed）を実行します。
+<!-- markdownlint-disable MD034 -->
 
-現在の行が列に偶然表示される可能性を返します。
+>[!CONTEXTUALHELP]
+>id="functions-z-test"
+>title="Z 検定"
+>abstract="z スコアが x の n 方向の z 検定を実行します。"
+
+<!-- markdownlint-enable MD034 -->
+
+![ エフェクト ](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST （metric_tails）]**
+
+z スコアが x の n 方向の z 検定を実行します。
+
+| 引数 | 説明 |
+|---|---|
+| 指標 | Z テストを実行する指標 |
+| 尾 | Z 検定を行うために使用するテールの長さ |
 
 >[!NOTE]
 >
 >値が正規分布されると仮定します。
+
+
+
+
+<!--
+
+
+
+## AND
+
+Returns the value of its argument. Use NOT to make sure that a value is not equal to one particular value.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
+```
+AND(logical_test1,[logical_test2],...)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
+
+## Approximate Count Distinct (dimension)
+
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+
+```
+Approximate Count Distinct (dimension)
+```
+
+|  Argument  |  |
+|---|---|
+|  *dimension* | The dimension for which you want the approximate distinct item count.  |
+
+### Example Use Case
+
+Approximate Count Distinct (customer ID eVar) is a common use case for this function.
+
+Definition for a new 'Approximate Customers' calculated metric:
+
+![Approximate county distinct new dimension definition showing Customer ID (eVar1)](assets/approx-count-distinct.png)
+
+This is how the "Approximate Customers" metric could be used in reporting:
+
+![Freeform Table showing Unique Visitors and Approximate Customers ](assets/approx-customers.png)
+
+### Comparing Count Functions
+
+Approximate Count Distinct() is an improvement over Count() and RowCount() functions because the metric created can be used in any dimensional report to render an approximated count of items for a separate dimension. For example, a count of customer IDs used in a Mobile Device Type report.
+
+This function will be marginally less accurate than Count() and RowCount() because it uses the HLL method, whereas Count() and RowCount() are exact counts.
+
+## Arc Cosine (Row)
+
+Returns the arccosine, or inverse of the cosine, of a metric. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi. If you want to convert the result from radians to degrees, multiply it by 180/PI( ).
+
+```
+ACOS(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Arc Sine (Row)
+
+Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arcsine in degrees, multiply the result by 180/PI( ).
+
+```
+ASIN(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Arc Tangent (Row)
+
+Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2. To express the arctangent in degrees, multiply the result by 180/PI( ).
+
+```
+ATAN(metric)
+```
+
+|  Argument  |  |
+|---|---|
+|  *metric* | The cosine of the angle you want from -1 to 1. |
+
+## Exponential Regression: Predicted Y (Row)
+
+Calculates the predicted y-values (metric_Y), given the known x-values (metric_X) using the "least squares" method for calculating the line of best fit based on .
+
+```
+ESTIMATE.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Cdf-T
+
+Returns the percentage of values in a student's t-distribution with n degrees of freedom that have a z-score less than x.
+
+```
+cdf_t( -∞, n ) = 0
+cdf_t(  ∞, n ) = 1
+cdf_t( 3, 5 ) ? 0.99865
+cdf_t( -2, 7 ) ? 0.0227501
+cdf_t( x, ∞ ) ? cdf_z( x )
+```
+
+## Cdf-Z
+
+Returns the percentage of values in a normal distribution that have a z-score less than x.
+
+```
+cdf_z( -∞ ) = 0
+cdf_z( ∞ ) = 1
+cdf_z( 0 ) = 0.5
+cdf_z( 2 ) ? 0.97725
+cdf_z( -3 ) ? 0.0013499
+
+```
+
+## Exponential Regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+
+```
+INTERCEPT.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Exponential Regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+
+```
+SLOPE.EXP(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Floor (Row)
+
+Returns the largest integer not greater than a given value. For example, if you want to avoid reporting currency decimals for revenue and a product has $569.34, use the formula FLOOR( *Revenue*) to round revenue down to the nearest dollar, or $569.
+
+```
+FLOOR(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The metric you want to round.  |
+
+## Greater Than
+
+Returns items whose numeric count is greater than the value entered.
+
+## Greater Than or Equal
+
+Returns items whose numeric count is greater than or equal to the value entered.
+
+## Hyperbolic Cosine (Row)
+
+Returns the hyperbolic cosine of a number.
+
+```
+COSH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic cosine.  |
+
+## Hyperbolic Sine (Row)
+
+Returns the hyperbolic sine of a number.
+
+```
+SINH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic sine.  |
+
+## Hyperbolic Tangent (Row)
+
+Returns the hyperbolic tangent of a number.
+
+```
+TANH(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+
+## IF (Row)
+
+The IF function returns one value if a condition you specify evaluates to TRUE, and another value if that condition evaluates to FALSE.
+
+```
+IF(logical_test, [value_if_true], [value_if_false])
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.)  |
+|  *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.)  |
+
+## Less Than
+
+Returns items whose numeric count is less than the value entered.
+
+## Less Than or Equal
+
+Returns items whose numeric count is less than or equal to the value entered.
+
+## Lift
+
+Returns the Lift a particular variant had in conversions over a control variant. It is the difference in performance between a given variant and the baseline, divided by the performance of the baseline, expressed as a percentage. 
+
+```
+fx Lift (normalizing-container, success-metric, control)
+```
+
+| Argument | Description |
+| --- | --- |
+| Normalizing Container | The basis (People, Sessions, or Events) on which a test will be run. |
+| Success Metric | The metric or metrics that a user is comparing variants with. |
+| Control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+
+{style="table-layout:auto"}
+
+## Linear regression_ Correlation Coefficient
+
+Y = a X + b. Returns the correlation coefficient
+
+## Linear regression_ Intercept
+
+Y = a X + b. Returns b.
+
+## Linear regression_ Predicted Y
+
+Y = a X + b. Returns Y.
+
+## Linear regression_ Slope
+
+Y = a X + b. Returns a.
+
+## Log Base 10 (Row)
+
+Returns the base-10 logarithm of a number.
+
+```
+LOG10(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The positive real number for which you want the base-10 logarithm.  |
+
+## Log regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the CORREL equation.
+
+```
+CORREL.LOG(metric_X,metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Log regression: Intercept (Table)
+
+Returns the intercept *b* as the least squares regression between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the INTERCEPT equation.
+
+```
+INTERCEPT.LOG(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Log Regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. It is calculated using the ESTIMATE equation.
+
+In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. The [!DNL a] values correspond to each x value, and [!DNL b] is a constant value.
+
+```
+ESTIMATE.LOG(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Log regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. It is calculated using the SLOPE equation.
+
+```
+SLOPE.LOG(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the independent data.  |
+
+## Natural Log
+
+Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
+
+```
+LN(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The positive real number for which you want the natural logarithm.  |
+
+## NOT
+
+Returns 1 if the number is 0 or returns 0 if another number.
+
+```
+NOT(logical)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical* | Required. A value or expression that can be evaluated to TRUE or FALSE.  |
+
+Using NOT requires knowing if the expressions (<, >, =, <> , etc.) return 0 or 1 values.
+
+## Not equal
+
+Returns all items that do not contain the exact match of the value entered.
+
+## Or (Row)
+
+Returns TRUE if any argument is TRUE, or returns FALSE if all arguments are FALSE.
+
+>[!NOTE]
+>
+>0 (zero) means False, and any other value is True.
+
+```
+OR(logical_test1,[logical_test2],...)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *logical_test1* | Required. Any value or expression that can be evaluated to TRUE or FALSE.  |
+|  *logical_test2* | Optional. Additional conditions that you want to evaluate as TRUE or FALSE  |
+
+## Pi
+
+Returns the constant PI, 3.14159265358979, accurate to 15 digits.
+
+```
+PI()
+```
+
+The [!DNL PI]function has no arguments.
+
+## Power regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+CORREL.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Power regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+ INTERCEPT.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Power regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+
+```
+ ESTIMATE.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Power regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+
+```
+SLOPE.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Quadratic regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+
+```
+CORREL.QUADRATIC(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Quadratic regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+
+```
+INTERCEPT.POWER(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Quadratic regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+
+```
+ESTIMATE.QUADRATIC(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_A* | A metric that you would like to designate as the dependent data.  |
+|  *metric_B* | A metric that you would like to designate as the dependent data.  |
+
+## Quadratic regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+
+```
+SLOPE.QUADRATIC(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Correlation coefficient (Table)
+
+Returns the correlation coefficient, *r*, between two metric columns (*metric_X)* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+CORREL.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to correlate with *metric_Y*.  |
+|  *metric_Y* | A metric that you would like to correlate with *metric_X*.  |
+
+## Reciprocal regression: Intercept (Table)
+
+Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+INTERCEPT.RECIPROCAL(metric_A, metric_B)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Predicted Y (Row)
+
+Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+
+```
+ESTIMATE.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Reciprocal regression: Slope (Table)
+
+Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+
+```
+SLOPE.RECIPROCAL(metric_X, metric_Y)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric_X* | A metric that you would like to designate as the dependent data.  |
+|  *metric_Y* | A metric that you would like to designate as the independent data.  |
+
+## Sine (Row)
+
+Returns the sine of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
+
+```
+SIN(metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want the sine.  |
+
+## T-Score
+
+Alias for Z-Score, namely the deviation from the mean divided by the standard deviation
+
+## T-Test
+
+Performs an m-tailed t-test with t-score of col and n degrees of freedom.
+
+The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+
+Here, `m` is the number of tails, and `n` is the degrees of freedom. These should be numbers (constant for the whole report, i.e. not changing on a row by row basis).
+
+`X` is the t-test statistic, and would often be a formula (e.g. zscore) based on a metric and will be evaluated on every row.
+
+The return value is the probability of seeing the test statistic x given the degrees of freedom and number of tails.
+
+**Examples:**
+
+1. Use it to find outliers:
+
+   ```
+   t_test( zscore(bouncerate), row-count-1, 2)
+   ```
+
+1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+
+   ```
+   if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
+   ```
+
+## Tangent
+
+Returns the tangent of the given angle. If the angle is in degrees, multiply the angle by PI( )/180.
+
+```
+TAN (metric)
+```
+
+|  Argument  | Description  |
+|---|---|
+|  *metric* | The angle in radians for which you want the tangent.  |
+
+## Z-Score (Row)
+
+Returns the Z-score, or normal score, based upon a normal distribution. The Z-score is the number of standard deviations an observation is from the mean. A Z-score of 0 (zero) means the score is the same as the mean. A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
+
+The equation for Z-score is:
+
+![](assets/z_score.png)
+
+where [!DNL x] is the raw score, [!DNL μ] is the mean of the population, and [!DNL σ] is the standard deviation of the population.
+
+>[!NOTE]
+>
+>[!DNL μ] (mu) and[!DNL σ] (sigma) are automatically calculated from the metric.
+
+Z-score(metric)
+
+<table id="table_AEA3622A58F54EA495468A9402651E1B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> Argument </th>
+   <th colname="col2" class="entry"> Description </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td colname="col1"> <i>metric</i> </td>
+   <td colname="col2"> <p> Returns the value of its first non-zero argument. </p> </td>
+  </tr>
+ </tbody>
+</table>
+
+## Z-Test
+
+Performs an n-tailed Z-test with Z-score of A.
+
+Returns the probability that the current row could be seen by chance in the column.
+
+>[!NOTE]
+>
+>Assumes that the values are normally distributed.
+
+-->

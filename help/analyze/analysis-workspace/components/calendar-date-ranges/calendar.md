@@ -4,14 +4,24 @@ title: カレンダーと日付範囲の概要
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 91%
 
 ---
 
-# カレンダーと日付範囲の概要
+# カレンダーと日付範囲の概要 {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="終了時間"
+>abstract="終了時間には常に 59 秒が含まれます。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 

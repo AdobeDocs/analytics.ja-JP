@@ -5,14 +5,35 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
-# フローの概要
+# フローの概要 {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="フロー"
+>abstract="1 つのチェックポイントから次のチェックポイントへのユーザーフローを表示するビジュアライゼーションを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="フロー"
+>abstract="1 つのタッチポイントから次のタッチポイントへの訪問または訪問者のフローを分析します。<br/><br/>**パラメーター&#x200B;**<br/>**次で開始**：ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントよりも後に発生する上位のタッチポイントを確認します。<br/>**次を含む**：ディメンションまたはディメンション項目を追加して、選択したコンポーネントの発生前後に発生する上位のタッチポイントを確認します。<br/>**次で終了**：ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントよりも前に発生する上位のタッチポイントを確認します。<br/>**パスディメンション**：選択したコンポーネントに続くパスや選択したコンポーネントから来るパスとして使用するディメンションを追加します。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsのフロービジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ フロー ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) を参照してください。*
+
+>[!ENDSHADEBOX]
 
 フロー機能は、Web サイトおよびアプリの顧客パスを表示します。
 

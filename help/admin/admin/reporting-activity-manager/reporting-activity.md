@@ -4,10 +4,10 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 11%
 主なメリットや権限要件など、レポートアクティビティマネージャーについて詳しくは、[ レポートアクティビティマネージャーの概要 ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) を参照してください。
 
 ## すべてのレポートスイートのレポートアクティビティを表示 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="接続"
+>abstract="この表は、レポートアクティビティを管理する権限がある接続を示しています。各接続に関する情報は、表の各列に表示されます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="接続"
+>abstract="この表は、レポートアクティビティを管理する権限がある接続を示しています。各接続に関する情報は、表の各列に表示されます。"
+
+<!-- markdownlint-enable MD034 -->
 
 1. Adobe Analyticsで、**[!UICONTROL 管理者]**/**[!UICONTROL レポートアクティビティマネージャー]** に移動します。
 

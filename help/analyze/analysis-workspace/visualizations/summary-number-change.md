@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL 数値概要] と [!UICONTROL 変更概要]
+
+*この記事は、**Adobe Analyticsの数値概要と変更概要のビジュアライゼーションについて説明します**。<br/> この記事の [3}Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) バージョンについては、**数値の概要と変更の概要* を参照してください。**
 
 以下は、これら 2 つのビジュアライゼーションに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## [!UICONTROL 数値概要] ビジュアライゼーション {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="概要番号"
+>abstract="合計と小計を表示するビジュアライゼーションを作成します。"
+
+<!-- markdownlint-enable MD034 -->
 
 [!UICONTROL 数値概要] ビジュアライゼーションを使用すると、プロジェクトで重要になる大きな数値をハイライト表示できます。このビジュアライゼーションは、次のように動作します。
 
@@ -37,6 +48,15 @@ ht-degree: 100%
 | [!UICONTROL 値の要約基準] | 選択したデータの最大値、最小値、平均値、中央値または合計値の表示を選択します。 |
 
 ## [!UICONTROL 変更概要] ビジュアライゼーション {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="変更の概要"
+>abstract="2 つの数値間の差分（変化）を表示するビジュアライゼーションの作成"
+
+<!-- markdownlint-enable MD034 -->
 
 [!UICONTROL 変更概要] ビジュアライゼーションを使用すると、2 つの数値間の差分（変化）を表示できます。[!UICONTROL 変更概要] の緑と赤の色は、 [カスタムイベントの極性](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) または計算指標の「[上昇傾向を次の形式で表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)」オプションを使用して制御できます。
 

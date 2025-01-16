@@ -4,14 +4,21 @@ title: モバイルスコアカードの作成と共有
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# モバイルスコアカードの作成
+# モバイルスコアカードの作成 {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="注釈"
+>abstract="注釈は、ワークスペースプロジェクト内のコンポーネントマネージャーで作成できます。"
+
+<!-- markdownlint-enable MD034 -->
 
 次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。はじめに、Adobe Analytics ダッシュボードスコアカードビルダーのビデオを視聴できます。
 

@@ -4,14 +4,30 @@ title: コンボグラフビジュアライゼーション
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# コンボグラフ
+# コンボグラフ {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="コンボ"
+>abstract="最初にフリーフォームテーブルを作成せずに、コンボグラフのビジュアライゼーションをすばやく作成します。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsのコンボビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ コンボ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) を参照してください。*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL コンボグラフ]ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。折れ線グラフと棒グラフの組み合わせでデータの傾向を簡単に表示できます。
 
@@ -90,7 +106,7 @@ ht-degree: 99%
 | 設定 | 定義 |
 | --- | --- |
 | **[!UICONTROL ビジュアライゼーションのタイプ]** | 別のビジュアライゼーションタイプに切り替えることができます。 |
-| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）をこのドロップダウンリストから。 |
+| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションでは、このドロップダウンリストから時間の精度（日、週、月など）を変更できます。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 割合 (％)]** | 値を割合で表示します。 |
 | **[!UICONTROL 凡例を表示]** | コンボグラフビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |

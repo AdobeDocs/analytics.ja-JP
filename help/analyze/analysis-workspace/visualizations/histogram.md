@@ -5,16 +5,33 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 90%
 
 ---
 
-# ヒストグラム
+# ヒストグラム {#histogram}
 
-ヒストグラムは、棒グラフに似ていますが、数を範囲（グループ）でグループ化します。Analytics は、数から範囲への「グループ化」を自動化しますが、[詳細設定](#section_09D774C584864D4CA6B5672DC2927477)で設定を変更できます。
+arkdownlint-disable MD034 —>
+
+>[!CONTEXTUALHELP]
+>id="workspace_histogram_button"
+>title="ヒストグラム"
+>abstract="数値データの分布を範囲のグループに表す、ヒストグラムのビジュアライゼーションを作成します。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsのヒストグラムビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**版については、[ ヒストグラム ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) を参照してください。*
+
+>[!ENDSHADEBOX]
+
+
+ヒストグラムは、棒グラフに似ていますが、数値を範囲（バケット）にグループ化します。Analytics は、数から範囲への「グループ化」を自動化しますが、[詳細設定](#section_09D774C584864D4CA6B5672DC2927477)で設定を変更できます。
 
 以下は、ヒストグラムの使用方法に関するビデオです。
 
@@ -45,7 +62,7 @@ ht-degree: 100%
 | ヒストグラムの設定 | 説明 |
 |---|---|
 | 開始グループ | どのグループからヒストグラムが始まるかを決定します。1 がデフォルトです。開始の数を 0 から無限大まで（負の数はなし）設定できます。 |
-| 指標グループ | データ範囲（グループ）の数を増減できます。グループの最大数は 50 です。 |
+| 指標グループ | データ範囲（バケット）の数を増減できます。 グループの最大数は 50 です。 |
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
 | カウント方法 | [訪問者](/help/components/metrics/unique-visitors.md)、[訪問](/help/components/metrics/visits.md)または[ヒットタイプ](/help/components/dimensions/hit-type.md)から選択できますタイプ。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
 

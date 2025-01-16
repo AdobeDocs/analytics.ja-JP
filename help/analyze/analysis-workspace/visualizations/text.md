@@ -5,14 +5,27 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 89%
 
 ---
 
-# テキスト
+# テキスト {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="テキスト"
+>abstract="ユーザー定義のリッチテキストビジュアライゼーションをプロジェクトに追加します。"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*この記事では、**Adobe Analyticsのテキストビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ テキスト ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) を参照してください。*
+
+>[!ENDSHADEBOX]
 
 テキストのビジュアライゼーションまたはパネル／ビジュアライゼーションの説明を使用して、ユーザー定義のテキストを Workspace プロジェクトに追加できます（ヘッダー／**[!UICONTROL 説明を編集]**&#x200B;を右クリック）。 また、テキストの書式設定の変更、ハイパーリンクの追加、画像の追加をおこなうこともできます。
 
