@@ -4,10 +4,10 @@ description: オーディエンスに関するデータをより深く掘り下�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 93%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Analysis Workspace のコホートテーブルに関するビデオ：
 
 ## コホート分析の機能
 
-次の機能を使用すると、作成するコホートを細かく制御できます。
+以下の節では、作成するコホートを微調整して制御できるコホート分析機能について説明します。
+
+コホートの作成および [!UICONTROL  コホート分析 ] レポートの実行について詳しくは、[ コホート分析レポートの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) を参照してください。
 
 ### [!UICONTROL リテンションテ]ーブル
 
@@ -103,5 +105,3 @@ Analysis Workspace のコホートテーブルに関するビデオ：
 デフォルトの時間に基づくコホートではなく、選択したディメンションに基づいてコホートを作成します。[!UICONTROL マーケティングチャネル]、[!UICONTROL キャンペーン]、[!UICONTROL 製品]、[!UICONTROL ページ]、[!UICONTROL 地域]などのディメンションや、Adobe Analytics のその他のディメンションを使用して、これらのディメンションの様々な値に基づいてリテンションがどのように変化しているかを表示します。
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-コホートレポートを設定および実行する方法については、「[コホート分析レポートの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)」を参照してください。
