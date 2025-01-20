@@ -5,16 +5,16 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 90%
 
 ---
 
 # ヒストグラム {#histogram}
 
-arkdownlint-disable MD034 —>
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"

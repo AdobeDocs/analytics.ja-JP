@@ -4,7 +4,7 @@ title: フリーフォームパネル
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 22%
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics![ のフリーフォームパネルについて説明します**。_<br/>_この記事の {CustomerJourneyAnalytics[ ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)_**Customer Journey Analytics![](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては_ フリーフォームパネル** を参照してください _。
+_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics![ のフリーフォームパネルについて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ フリーフォームパネル** を参照してください。_
 
 >[!ENDSHADEBOX]
 
