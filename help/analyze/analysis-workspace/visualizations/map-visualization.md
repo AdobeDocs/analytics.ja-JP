@@ -5,9 +5,9 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 92%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsのマップのビジュアライゼーションについて説明します**。<br/> 現在、**Customer Journey Analyticsで利用できるマップビジュアライゼーションはありません**。*
+_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![4}Adobe Analytics **でのマップビジュアライゼーションについて説明します。_**_<br/>_で利用できるマップビジュアライゼーションは現在ありません_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**。_
 
 >[!ENDSHADEBOX]
 

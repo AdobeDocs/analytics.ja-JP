@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 87%
+source-wordcount: '165'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、**Adobe Analyticsのベン図ビジュアライゼーションを説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ ベン図 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) を参照してください。*
+_この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ のベン図のビジュアライゼーションについて説明します**。_<br/>_この記事の_{CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) [6}Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ ベン **を参照してください。__**
 
 >[!ENDSHADEBOX]
 

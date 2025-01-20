@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 84%
+source-wordcount: '138'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsのツリーマップビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) ツリーマップ* を参照してください。
+_この記事では、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ のツリーマップビジュアライゼーションについて説明します**。_<br/>_この記事の_{CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) [6}Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ ツリーマップ **を参照してください。__**
 
 >[!ENDSHADEBOX]
 

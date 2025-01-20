@@ -5,9 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 90%
 
 ---
@@ -26,7 +26,7 @@ arkdownlint-disable MD034 —>
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsのヒストグラムビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**版については、[ ヒストグラム ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) を参照してください。*
+_この記事では、_ AdobeAnalytics![_**Adobe Analytics** のヒストグラムビジュアライゼーション ](/help/assets/icons/AdobeAnalytics.svg) ついて説明します。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、![ ヒストグラム** を参照してください。_
 
 >[!ENDSHADEBOX]
 

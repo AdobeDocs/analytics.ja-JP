@@ -5,9 +5,9 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 60836f5632cfd19d94f33441eaa9d949609d5712
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、**Adobe Analyticsのセグメント比較パネルに関するドキュメントです**。<br/>**Customer Journey Analyticsに同等のパネルがありません**。*
+_この記事は、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics![ のセグメント比較パネルに関する説明です**。_<br/>__ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) ![4}Customer Journey Analytics **には、同等のパネルがありません。__**
 
 >[!ENDSHADEBOX]
 

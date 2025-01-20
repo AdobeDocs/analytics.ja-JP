@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 69%
+source-wordcount: '174'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsの面グラフおよび積み重ね面グラフのビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) バージョンについては、[ 面グラフおよび積み重ね面グラフ**を参照してください。*
+_この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![4}Adobe Analytics_ の面グラフおよび積み重ね面グラフのビジュアライゼーションについて説明します **。_**_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ 面グラフおよび積み重ね面グラフ** を参照してください。_
 
 >[!ENDSHADEBOX]
 

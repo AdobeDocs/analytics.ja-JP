@@ -4,10 +4,10 @@ description: 最大 3 つの指標間の関係を示すビジュアライゼー�
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 86%
+source-wordcount: '158'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsの散布図ビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**版については、[ 散布図 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) を参照してください。*
+_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![4}Adobe Analytics **での散布図ビジュアライゼーションについて説明します。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、[ 散布図** を参照してください。_
 
 >[!ENDSHADEBOX]
 

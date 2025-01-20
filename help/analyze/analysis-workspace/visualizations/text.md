@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 89%
+source-wordcount: '194'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsのテキストビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ テキスト ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) を参照してください。*
+_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![4}Adobe Analytics **でのテキストのビジュアライゼーションについて説明します。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、[ テキスト** を参照してください。_
 
 >[!ENDSHADEBOX]
 

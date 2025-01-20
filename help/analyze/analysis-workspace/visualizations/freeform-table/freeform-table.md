@@ -4,9 +4,9 @@ description: フリーフォームテーブルは、Workspace のデータ分析
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 64%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsのフリーフォームテーブル ビジュアライゼーションについて説明します**。この記事の <br/>3}Customer Journey Analytics[](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) バージョンについては、{ フリーフォームテーブル&#x200B;**を参照してください。***
+_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics![ でのフリーフォームテーブルのビジュアライゼーションについて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ フリーフォームテーブル** を参照してください。_
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ description: Analysis Workspace のメディアの同時視聴者数パネルを
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1234'
 ht-degree: 47%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analytics Analytics のメディア同時閲覧者パネルについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics[](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) バージョンについては、**メディア同時視聴者数パネル* を参照してください。
+_この記事では、**Adobe Analytics Analytics のメディア同時閲覧者パネルについて説明します**。<br/> この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ メディア同時視聴者数パネル** を参照。_
 
 >[!ENDSHADEBOX]
 

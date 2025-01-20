@@ -4,7 +4,7 @@ description: Analysis Workspace のメディア分平均オーディエンスパ
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 30%
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Customer Journey Analyticsのメディア分平均オーディエンスパネルについて説明します**。<br/> この記事の&#x200B;**Adobe Analytics**版については、[ メディア分平均オーディエンスパネル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) を参照してください。*
+この記事は、**Customer Journey Analyticsのメディア分平均オーディエンスパネルに関する説明** （_M）.<br/> この記事の **Adobe Analytics** 版については、[ メディア分平均オーディエンスパネル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) を参照してください。*
 
 >[!ENDSHADEBOX]
 

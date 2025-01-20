@@ -4,9 +4,9 @@ description: オーディエンスに関するデータをより深く掘り下�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 86%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、**Adobe Analyticsのコホートテーブルに関するドキュメントです**。<br/> この記事の&#x200B;**Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) バージョンについては、[ コホートテーブル**を参照してください。*
+_この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ のコホートテーブルに関する説明です**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ コホートテーブル** を参照してください。_
 
 >[!ENDSHADEBOX]
 

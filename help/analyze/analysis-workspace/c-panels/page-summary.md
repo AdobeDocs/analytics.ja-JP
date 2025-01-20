@@ -4,9 +4,9 @@ title: ページの概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '568'
 ht-degree: 8%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 8%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+_この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ のページの概要パネルに関する説明です**。_<br/>__ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) ![4}Customer Journey Analytics **には、同等のパネルがありません。__**
+
+>[!ENDSHADEBOX]
 
 このパネルを使用すると、特定のページに関する主要な統計を簡単に調べることができます。
 

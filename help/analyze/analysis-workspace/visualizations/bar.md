@@ -5,10 +5,10 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 77%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-*この記事では、**Adobe Analyticsの棒グラフおよび積み重ね棒グラフのビジュアライゼーションについて説明します**。<br/> この記事の&#x200B;**Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) バージョンについては、[ 棒グラフおよび積み重ね棒グラフ**を参照してください。*
+_この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![4}Adobe Analytics_ の棒グラフおよび積み重ね棒グラフのビジュアライゼーションについて説明します **。_**_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ 棒グラフおよび積み重ね棒グラフ** を参照してください。_
 
 >[!ENDSHADEBOX]
 

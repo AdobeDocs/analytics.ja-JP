@@ -4,10 +4,10 @@ title: 空のパネル
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 91%
+source-wordcount: '250'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-*この記事は、**Adobe Analyticsの空白のパネルに関する説明です**。<br/> この記事の&#x200B;**Customer Journey Analytics**バージョンについては、[ 空のパネル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) を参照してください。*
+_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** の空白のパネルに関するドキュメントです。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) 空白パネル _を参照してください）。
 
 >[!ENDSHADEBOX]
 
