@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 27%
 
 ---
 
@@ -59,103 +59,105 @@ _この記事は、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**A
 
 ### パネル入力
 
-![比較パネル](assets/seg-compare-panel.png)
+次の入力設定を使用して、[!UICONTROL  セグメント比較 ] パネルを設定できます。
 
-1. 比較するセグメントを選択して、パネルにドロップします。
+![ セグメント比較入力パネル ](assets/segment-comparison-input.png)
 
-   ![オーディエンスの比較](assets/compare-audiences.png)
+| 入力 | 説明 |
+| --- | --- |
+| **[!UICONTROL セグメントを追加]** | 比較するディメンションを選択します。 |
+| **[!UICONTROL 比較対象]** | 最初に選択したセグメントの比較に使用するディメンションを選択します。 特定のセグメントを選択しない場合、デフォルトのセグメント **[!UICONTROL その他の全員]** が使用されます。 |
+| **[!UICONTROL 詳細設定の表示/非表示]** | **[!UICONTROL 詳細設定を表示]** を選択して **[!UICONTROL 除外されたコンポーネント]** を設定し、**[!UICONTROL 詳細設定を非表示]** を選択して **[!UICONTROL 除外されたコンポーネント]** を非表示にします。 |
+| **[!UICONTROL 除外されたコンポーネント]** | 除外するコンポーネント（**[!UICONTROL 指標]**、{Dimension ]****[!UICONTROL 、セグメント **[!UICONTROL など]** を指定でき <br> す。<ul><li>1 つ以上のディメンション、指標またはセグメントをコンテナから **[!UICONTROL 除外されたコンポーネント]** コンテナにドラッグ&amp;ドロップします。</li><li>コンポーネントを削除するには、タイプ （**[!UICONTROL Dimension]** **[!UICONTROL 指標]** または **[!UICONTROL セグメント]**）を選択し、![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択してコンポーネントを削除します。 すべてのコンポーネントを削除するには、「**[!UICONTROL すべてクリア]**」を選択します。</li><li>ディメンション、指標およびセグメントの現在の選択をデフォルトとして設定するには、「**[!UICONTROL デフォルトとして設定]**」を選択します。</li></ul> |
 
-   セグメントをパネルにドラッグすると、選択したセグメントに含まれないすべての人を含む「[!UICONTROL 他の全員]」セグメントが Analytics によって自動的に作成されます。これは比較パネルで頻繁に使用されるセグメントですが、このセグメントを削除し、別のセグメントを選択して比較することもできます。
-
-   ![他の全員](assets/everyone-else.png)
-
-1. 比較する 2 つのセグメントを決定したら、「[!UICONTROL ビルド]」をクリックします。
-
-   このアクションは、選択した 2 つのセグメントと、すべてのディメンション、指標、その他のセグメントとの間の統計的な違いを探すバックエンドプロセスを開始します。パネルの上部にある進行状況バーは、各指標とディメンションが分析されるまでの残り時間を示します。最も頻繁に使用される指標、ディメンションおよびセグメントは、最初に実行されるように優先順位付けされ、最も関連性の高い結果がタイムリーに返されます。
-
-## コンポーネントの比較からの除外
-
-一部のディメンション、指標またはセグメントをセグメント比較から除外する必要が生じる場合があります。例えば、「米国のモバイルユーザー」と「ドイツのモバイルユーザー」のセグメントを比較するとします。これらのセグメントは既に地域的な違いを意味しているので、地域関連のディメンションを含めても意味がありません。
-
-1. 目的の 2 つのセグメントをパネルに表示したら、「[!UICONTROL アドバンスオプションを表示する]」をクリックします。
-1. 除外したいコンポーネントを[!UICONTROL 除外されたコンポーネント]パネルにドラッグ＆ドロップします。
-
-   ![除外されたコンポーネント](assets/excluded-components.png)
-
-「[!UICONTROL デフォルトとして設定]」をクリックすると、今後のすべてのセグメント比較で現在のコンポーネントが自動的に除外されます。除外されたコンポーネントを編集する場合は、コンポーネントのタイプをクリックし、コンポーネントの横の「X」をクリックして、分析に再度含めます。セグメント比較にすべてのコンポーネントを再度含めるには、「すべてクリア」をクリックします。
-
-![除外されたディメンション](assets/excluded-dimensions.png)
+**[!UICONTROL ビルド]** を選択して、パネルをビルドします。
 
 ### パネル出力
 
-アドビが目的のセグメント 2 つの分析を完了すると、いくつかのビジュアライゼーションを通じて結果が表示されます。
+Adobe Analyticsが 2 つの目的のセグメントの分析を完了すると、出力パネルに複数のビジュアライゼーションを通じて結果が表示されます。
 
-![ビジュアライゼーション 1](assets/new-viz.png)
+![ パネル出力セグメントの比較 ](assets/segment-comparison-output.png)
 
-![ビジュアライゼーション 2](assets/new-viz2.png)
+| ビジュアライゼーション | 説明 |
+|---|---|
+| **[!UICONTROL サイズと重複]** | [ ベン ](/help/analyze/analysis-workspace/visualizations/venn.md) ビジュアライゼーションを使用して、選択した各セグメントの比較サイズと、それらが相互にどのくらい重複しているかを示します。 |
+| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を示す [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（単一ページ訪問数の例の場合） |
+| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（初回訪問の例の場合） |
+| **[!UICONTROL セグメントに対する上位の指標]** | 選択したセグメントの上位の指標を表示する [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
+| **[!UICONTROL セグメント別の指標の推移]** | 選択したセグメントの指標の推移を示す [ 折れ線グラフ ](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーション。 |
+| **[!UICONTROL セグメントに対する上位のディメンション項目]** | 選択したセグメントの混合ディメンション項目を表示する [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
+| **[!UICONTROL セグメント別のDimension項目]** | セグメント別にディメンション項目を表示する [ 横棒グラフ ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) ビジュアライゼーション。 |
+| **[!UICONTROL セグメントに対する上位のセグメント]** | セグメントに対する上位のセグメントを表示する [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
+| **[!UICONTROL セグメントの重複]** | セグメントの重複を表示する [ ベン ](/help/analyze/analysis-workspace/visualizations/venn.md) ビジュアライゼーション。 |
 
-#### サイズと重複
+![ 編集 ](/help/assets/icons/Edit.svg) を使用して、パネルの再設定と再構築を行います。
 
-ベン図を使用して、選択した各セグメントの比較サイズと、互いにどの程度重複しているかを示します。ビジュアルの上にマウスポインターを置くと、重複している、または重複していない各セクションの訪問者数を確認できます。また、重複を右クリックすると、将来の分析用の新しいセグメントを作成できます。2 つのセグメントが相互に排他的な場合、2 つの円の間の重なり合う部分は表示されません（通常、ヒットコンテナを使用するセグメントで表示されます）。
 
-![サイズと重複](assets/size-overlap.png)
+<!--
+#### Size and overlap
 
-#### 母集団の概要
+Illustrates the comparative sizes of each selected segment and how much they overlap with each other using a venn diagram. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If the two segments are mutually exclusive, no overlap is shown between the two circles (typically seen with segments using a hit container).
 
-サイズと重複ビジュアライゼーションの右側に、各セグメントと重複のユニーク訪問者の合計数が表示されます。
+![Size and overlap](assets/size-overlap.png)
 
-![母集団の概要](assets/population_summaries.png)
+#### Population summaries
 
-#### 上位指標
+To the right of the Size and Overlap visualization, the total unique visitor count in each segment and overlap is shown.
 
-2 つのセグメント間で最も統計的に有意な指標を表示します。このテーブルの各行は、差異のある指標を、各セグメント間での違いに応じてランク付けして示します。差異スコアが 1 の場合は統計的優位差があることを示し、0 の場合は統計的優位差がないことを示します。
+![Population summaries](assets/population_summaries.png)
 
-このビジュアライゼーションは、Analysis Workspace のフリーフォームテーブルに似ています。特定の指標に関するより深い分析が必要な場合は、行項目の上にカーソルを置き、「ビジュアルを作成」をクリックします。新しいテーブルが作成され、その特定の指標を分析します。指標が分析と無関係な場合は、行項目の上にカーソルを置き、「X」をクリックして削除します。
+#### Top metrics
 
->[!NOTE]
->
->指標比較の終了後にこのテーブルに追加されたセグメントには、差異スコアは適用されません。
+Displays the most statistically significant metrics between the two segments. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-![上位指標](assets/top-metrics.png)
-
-#### セグメント別の経時的な指標
-
-指標のテーブルの右側は、リンクされたビジュアライゼーションです。左側のテーブルの行項目をクリックすると、このビジュアライゼーションが更新され、経時的な指標のトレンドが表示されます。
-
-![上位指標行](assets/linked-viz.png)
-
-#### 上位ディメンション
-
-すべてのディメンションで、統計的に最も有意なディメンション項目を表示します。各行には、このディメンション項目を示す各セグメントの割合が表示されます。例えば、次のテーブルでは、「セグメント A」の訪問者の 100％にディメンション項目「ブラウザータイプ：Google」がある一方、「セグメント B」でこのディメンション項目を持っていたのは 19.6％のみでした。差異スコアが 1 の場合は統計的優位差があることを示し、0 の場合は統計的優位差がないことを示します。
-
-このビジュアライゼーションは、Analysis Workspace のフリーフォームテーブルに似ています。特定のディメンション項目に関するより深い分析が必要な場合は、行項目の上にカーソルを置き、「ビジュアルを作成」をクリックします。新しいテーブルが作成され、その特定のディメンション項目を分析します。ディメンション項目が分析と無関係な場合は、行項目の上にカーソルを置き、「X」をクリックして削除します。
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific metric is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific metric. If a metric is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->ディメンション項目比較の終了後にこのテーブルに追加されたセグメントには、差異スコアは適用されません。
+>Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![上位ディメンション](assets/top-dimension-item1.png)
+![Top metrics](assets/top-metrics.png)
 
-#### セグメント別のディメンション項目
+#### Metric over time by segment
 
-ディメンションテーブルの右側には、リンクされた棒グラフビジュアライゼーションが表示されます。棒グラフに表示されたすべてのディメンション項目が表示されます。左側のテーブルの行項目をクリックすると、右側のビジュアライゼーションが更新されます。
+To the right of the metrics table is a linked visualization. You can click a line item in the table on the left, and this visualization updates to show that metric trended over time.
 
-![上位ディメンションの棒グラフ](assets/top-dimension-item.png)
+![Top metrics line](assets/linked-viz.png)
 
-#### 上位セグメント
+#### Top dimensions
 
-統計的に有意な他のセグメント（比較用に選択した 2 つのセグメント以外）がどれかを示します。例えば、このテーブルでは、3 番目のセグメント「再訪問者」が「セグメント A」とは大きく重なり、「セグメント B」とは重なっていないことを示すことができます。差異スコアが 1 の場合は統計的優位差があることを示し、0 の場合は統計的優位差がないことを示します。
+Shows the most statistically significant dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-このビジュアライゼーションは、Analysis Workspace のフリーフォームテーブルに似ています。特定のセグメントに関するより深い分析が必要な場合は、行項目の上にカーソルを置き、「ビジュアルを作成」をクリックします。新しいテーブルが作成され、その特定のセグメントを分析します。セグメントが分析と無関係な場合は、行項目の上にカーソルを置き、「X」をクリックして削除します。
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension item is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension item. If a dimension item is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->セグメント比較の終了後にこのテーブルに追加されたセグメントには、差異スコアは適用されません。
+>Dimension items added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![上位セグメント](assets/top-segments.png)
+![Top dimensions](assets/top-dimension-item1.png)
 
-#### セグメントの重複
+#### Dimension items by segment
 
-セグメントテーブルの右側には、リンクされたベン図ビジュアライゼーションが表示されます。比較したセグメントに適用された、統計的に最も有意なセグメントが表示されます（例えば、「セグメント A」+「統計的優位差のあるセグメント」対「セグメント B」+「統計的優位差のあるセグメント」）。左側のテーブルでセグメント行項目をクリックすると、右側のベン図が更新されます。
+To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension items in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
 
-![上位セグメントのベン図](assets/segment-overlap.png)
+![Top dimensions bar chart](assets/top-dimension-item.png)
+
+#### Top segments
+
+Shows which other segments (other than the two segments selected for comparison) have statistically significant overlap. For example, this table can show that a third segment, 'Repeat Visitors', overlaps highly with 'Segment A' but does not overlap with 'Segment B'. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
+
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific segment is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific segment. If a segment is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
+
+>[!NOTE]
+>
+>Segments added to this table after the segment comparison has finished do not receive a Difference Score.
+
+![Top segments](assets/top-segments.png)
+
+#### Segment overlap
+
+To the right of the segments table is a linked venn diagram visualization. It shows the most statistically significant segment applied to your compared segments. For example, 'Segment A' + 'Statistically significant segment' vs. 'Segment B' + 'Statistically significant segment'. Clicking a segment line item in the table on the left updates the venn diagram on the right.
+
+![Top segments venn diagram](assets/segment-overlap.png)
+
+-->

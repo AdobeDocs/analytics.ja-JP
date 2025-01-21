@@ -4,7 +4,7 @@ title: 次または前の項目パネル
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 36%
@@ -69,7 +69,6 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 ### パネル出力
 
 [!UICONTROL  次または前の項目 ] パネルは、豊富なデータとビジュアライゼーションのセットを返し、特定のディメンション項目の後または前の発生件数をより深く理解するのに役立ちます。
-
 
 ![ 次/前のパネル出力 ](assets/next-or-previous-item-output.png)
 
