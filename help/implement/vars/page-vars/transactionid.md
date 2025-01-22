@@ -4,10 +4,10 @@ description: この変数を使用して、オンラインとオフラインの�
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 `transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。一致するトランザクション ID を持つデータソースを通じてアップロードされたデータは、これらの変数値に永続的に結び付けられます。
 
-デフォルトでは、すべてのトランザクション ID の値（リンクおよびリンク解除）は、最大 90 日間記憶されます。オフラインのインタラクションプロセスが 90 日を超える場合は、カスタマーケアにご連絡いただき、限度を延長してください。
+Adobeは、最大 25 か月間、すべてのトランザクション ID 値（リンク済みおよびリンク解除）を記憶します。
 
 ## Web SDK を使用したトランザクション ID
 

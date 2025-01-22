@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ ht-degree: 27%
 - クロスプラットフォーム：PC、Mac、Excel Online がサポートされるようになり、Report Builderを使用するために仮想マシンにログインする必要がなくなりました
 - API 2.0 のアップグレードにより、データブロックが返されるのを待つ時間が短縮されました。
 - 速度の向上。
-
->[!NOTE]
->
->Adobe AnalyticsのこのバージョンのReport Builderに対応するワークブックのスケジュールはまだリリースされていませんが、2025 年初頭に利用可能になる予定です。 スケジュールを必要としないワークブックで、今すぐ開始できます。
 
 従来のReport Builderツールを使用すると、[ 従来のワークブックを新しいReport Builderに変換 ](/help/analyze/report-builder/convert-workbooks.md) できます。
 

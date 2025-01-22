@@ -5,18 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
+exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 79%
+source-wordcount: '1168'
+ht-degree: 81%
 
 ---
 
 # ワークブックのスケジュール設定
-
->[!NOTE]
->
->Adobe AnalyticsのこのバージョンのReport Builderに対応するワークブックのスケジュールはまだリリースされていませんが、2025 年初頭に利用可能になる予定です。 スケジュールを必要としないワークブックで、今すぐ開始できます。
 
 ワークブックを保存して分析を完了した後、スケジュール機能を使用してチームの他のユーザーとワークブックを簡単に共有できます。スケジュール機能を使用すると、ワークブック内のデータを自動的に更新するスケジュールを作成し、指定した日時、指定したオーディエンスに Excel ワークブックの.xlsx ファイルをメールの添付ファイルとして送信できます。スケジュールを設定すると、受信者には、自動的かつ定期的に最新情報が送られます。また、スケジュール機能を使用して、自動更新のスケジュールを設定せずに、ワークブックを 1 回送信することもできます。
 
