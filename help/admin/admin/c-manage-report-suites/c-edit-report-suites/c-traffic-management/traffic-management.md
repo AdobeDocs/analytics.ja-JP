@@ -1,22 +1,27 @@
 ---
-description: トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。
+description: トラフィック管理では、予想されるトラフィック量の変化を指定できます。
 title: トラフィックの管理
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
-# トラフィック管理の概要
+# トラフィック管理
 
-トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。
+日付範囲別のトラフィック管理レポートは非推奨（廃止予定）になり、[!DNL Reports & Analytics] で非推奨（廃止予定）になりました。
 
-[!UICONTROL トラフィック管理]にアクセスするには：
+ただし、Analysis Workspaceを使用してレポートを作成することはできます。 レポートを作成したら、保存し、新しいレポートが必要な場合は必要に応じて日付範囲やレポートスイートを変更するだけです。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックし、レポートスイートを選択します。
+1. Workspaceを起動します。
 
-1. **[!UICONTROL 設定を編集]**／**[!UICONTROL トラフィック管理]**／*`<selection>`* をクリックします。
+1. 新しいプロジェクトを作成し、適切なレポートスイートを選択します。
+
+1. **[!UICONTROL 日]** ディメンションをフリーフォームテーブルにドラッグし、**[!UICONTROL 回数]** 指標を使用します。
+
+1. 日付範囲を目的の日付範囲に設定します。
+
