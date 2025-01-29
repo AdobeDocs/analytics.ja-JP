@@ -3,7 +3,7 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3931'
 ht-degree: 96%
@@ -27,7 +27,7 @@ ht-degree: 96%
 「全員を含む」が設定されているセグメントを作成すると、そのセグメントでは指定されたパターン全体と一致するパスを識別します。これは、同じ訪問者が訪問したときのヒット（ページ A）に続くヒット（ページ B）を探す基本的なシーケンスセグメントの例です。セグメントを「全員を含む」に設定します。
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | 結果が次の場合： | シーケンス |
 |--- |--- |
@@ -292,7 +292,7 @@ ht-degree: 96%
 
 ![](assets/logic_group_any_order3.png)
 
-このセグメントは、論理グループのチェックポイント（B または C）の 1 つ以上と一致する必要があります。また、論理グループの条件は、同じヒットで満たされる場合も、複数のヒットをまたいで満たされる場合もあります。
+このセグメントは、論理グループのチェックポイント（B または C）の 1 つ以上と一致する必要があります。また、論理グループの条件は、同じヒットまたは複数のヒットで満たされる場合があります。
 
 ### 論理グループの最初の一致
 
@@ -348,11 +348,11 @@ ht-degree: 96%
 >
 >**日」や** 日 **など、類似した名前の要素の間** 評価に違いがあります。 Within と After の時間ベースの定義については、ポップアップ・ウィンドウで最初に表示されたオプションを使用します。
 >
->![画像](assets/terrible-link-2.png)
+>![画像](assets/copied-link-2.png)
 >
 >「Within」および「After」の次元ベースの定義の場合は、サブメニューの下のオプションを使用します *その他のDimension*:
 >
->![画像](assets/terrible-link-3.png)
+>![画像](assets/copied-link-3.png)
 
 ### After および Within 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
