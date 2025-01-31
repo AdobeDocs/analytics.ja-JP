@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 97%
 
 ---
 
@@ -237,9 +237,14 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 ## ハウツーセグメント化のビデオ {#segment-video}
 
-このビデオでは、セグメントコンテナの概要と使用方法を簡単に説明しています。
+このビデオでは、セグメントコンテナの概要と使用方法について簡単に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントコンテナ ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 
 ## セグメントツールにアクセスする {#access}

@@ -4,10 +4,10 @@ description: Admin Console でのユーザー管理や製品管理、レポー�
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 96%
 
 ---
 
@@ -17,9 +17,12 @@ ht-degree: 100%
 
 このヘルプは、Adobe Analytics の管理者を対象としています。Admin Console でのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。 
 
-以下は、Adobe Analytics の概説ビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Adobe Analyticsの紹介ビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analyticsの概要 ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 Adobe Analytics には、現在、管理者向けの以下の 2 つの領域があります。
 
