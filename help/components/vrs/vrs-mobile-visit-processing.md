@@ -3,9 +3,9 @@ description: 仮想レポートスイートのコンテキスト対応セッシ�
 title: コンテキスト対応セッション
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 97%
 
 訪問の定義は、基になるデータを変更することなく、訪問者がデジタルエクスペリエンスをどのように操作するかに応じて自由に変更できます。
 
-以下は、コンテキスト対応セッションに関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Context-aware sessions](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 顧客視点の URL パラメーター
 

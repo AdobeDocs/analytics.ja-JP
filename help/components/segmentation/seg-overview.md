@@ -3,7 +3,7 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
+source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 97%
