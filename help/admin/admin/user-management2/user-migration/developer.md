@@ -4,9 +4,9 @@ title: ユーザー移行の影響を受ける API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,5 @@ ht-degree: 100%
 追加情報については、以下を参照してください。
 
 * [一般ユーザー管理情報](https://helpx.adobe.com/jp/enterprise/help/users.html)
-* [adobe.io 経由でのユーザー管理 API](https://developer.adobe.com/UMAPI/)
 * [ユーザー管理 API フォーラム](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Analytics ユーザーアクセスおよび管理の Experience Cloud への移行](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja)

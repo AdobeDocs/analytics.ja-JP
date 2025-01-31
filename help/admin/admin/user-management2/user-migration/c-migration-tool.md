@@ -4,10 +4,10 @@ title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 97%
+source-wordcount: '3083'
+ht-degree: 96%
 
 ---
 
@@ -281,7 +281,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー管理 API の<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">アドビがサポートしている ID タイプ</a> </p> </td> 
-   <td colname="col2"> <p> Adobe Admin Console への移行を行っている管理者は、プログラムによって Adobe Admin Console のユーザーアカウントにアクセスできるよう、Adobe Developer で提供されている<a href="https://developer.adobe.com/UMAPI/">ユーザー管理 API</a> を設定する必要があります。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
+   <td colname="col2"> <p> Adobe Admin Consoleへの移行を行っている管理者は、プログラムによってAdobe Admin Consoleのユーザーアカウントにアクセスできるよう、Adobe Developerで提供されている User Management API を設定する必要があります。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス資格情報 </p> </td> 
