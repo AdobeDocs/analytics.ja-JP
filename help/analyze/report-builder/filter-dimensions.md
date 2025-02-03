@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ ht-degree: 76%
 
 各ディメンションに対して返されるディメンション項目を変更するには
 
-1. データブロックを選択し、「コマンド」パネル内の **[!UICONTROL データブロックを編集]** をクリックします。
+1. **[!UICONTROL 管理]** をクリックし、リストからデータブロックを選択します。
+
+   ![ 管理/ データブロックを編集 ](./assets/manage-edit.png)
+
+1. コマンドパネルで **[!UICONTROL データブロックを編集]** をクリックします。
 
 1. **[!UICONTROL 次へ]** をクリックして、「Dimension」タブを表示します。
 
