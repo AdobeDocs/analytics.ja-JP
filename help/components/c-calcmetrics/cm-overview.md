@@ -4,10 +4,10 @@ keywords: 計算指標；高度な計算指標
 title: 計算指標と高度な計算指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 53%
+source-wordcount: '552'
+ht-degree: 51%
 
 ---
 
@@ -41,14 +41,25 @@ ht-degree: 53%
 * [!UICONTROL Analysis Workspace]、[!UICONTROL  分析、[!UICONTROL  異常値検出 ]、および [!UICONTROL  貢献Report Builder] にわたる指標を作成し ] す。
 * 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 計算指標 ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
 * （高度な計算指標のみ）指標のセグメント。 例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 
 * （高度な計算指標のみ）統計関数を組み込んで、データをより詳細に説明できるようにします。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメント化されたセグメントの計算指標 ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 制限事項 {#section_CB878B02451541D68A68B508D4DBD19A}
 

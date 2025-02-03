@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -86,6 +86,10 @@ Analysis Workspace では、ほとんどすべての指標の[アトリビュー
 
 ## 動的列
 
-以下は、Analysis Workspace での動的列の使用方法に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Dynamic columns](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+

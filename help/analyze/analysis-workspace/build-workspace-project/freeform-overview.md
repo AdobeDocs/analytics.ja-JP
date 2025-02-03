@@ -5,9 +5,9 @@ title: プロジェクトの概要
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: f6bfded8b3a8346b912f34cf2f3ba9a4958eefa7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1491'
 ht-degree: 43%
 
 ---
@@ -18,7 +18,13 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 以下は、Workspace プロジェクトの構築方法に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Workspace プロジェクトの構築 ](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## プロジェクトリスト {#project-list}
 
@@ -79,7 +85,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 ## メニューバー {#menu-bar}
 
-プロジェクト内のメニューには、プロジェクトの管理、コンポーネントの追加、ヘルプの検索などを行うためのオプションが表示されます。また、キーボード [ ショートカット ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) を使用して各メニューオプションにアクセスすることもできます。
+プロジェクト内のメニューには、プロジェクトの管理、コンポーネントの追加、ヘルプの検索などを行うためのオプションが表示されます。また、キーボード [ ショートカット ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys) を使用して各メニューオプションにアクセスすることもできます。
 
 
 | メニュー項目 | 説明 |
@@ -89,7 +95,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | 前に | このメニューから、新しいパネルまたはビジュアライゼーションを挿入します。また、左側のパネルから新しいパネルやビジュアライゼーションを挿入することもできます。 |
 | [コンポーネント](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | プロジェクトから、新しいセグメント、計算指標、日付範囲またはアラートの各コンポーネントを作成します。また、左側のパネルから新しいコンポーネントを作成することもできます。コンポーネント定義が最近変更された場合、「コンポーネントを更新」は最新の定義を取得します。 |
 | [共有](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | 組織の受信者に対して PDF／CSV プロジェクトのキュレーション、共有およびスケジュール設定を行います。 |
-| ヘルプ | ヘルプドキュメント、ビデオおよび Analytics [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)にアクセスします。Workspace のヒントの表示と[デバッガー](https://developer.adobe.com/analytics-apis/docs/2.0/)の表示を管理します。Workspace の詳細と、プロジェクトの[パフォーマンス](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)に影響を与える要因を確認します。 |
+| ヘルプ | ヘルプドキュメント、ビデオおよび Analytics [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)にアクセスします。Workspace のヒントの表示と[デバッガー](https://developer.adobe.com/analytics-apis/docs/2.0/)の表示を管理します。Workspace の詳細と、プロジェクトの[パフォーマンス](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)に影響を与える要因を確認します。 |
 | 「共有」ボタンまたは「所有者」 | プロジェクトを所有または編集している場合は、右上の「共有」ボタンからワンクリックでアクセスして、プロジェクト受信者を管理できます。プロジェクトの重複または表示の役割を担っている場合は、プロジェクト所有者の名前が表示されます。 |
 
 ### プロジェクト情報および設定 {#info-settings}
@@ -103,13 +109,13 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | 設定 | 説明 |
 |---|---|
 | プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
-| 所有者 | プロジェクト所有者名。 |
+| 所有者 | プロジェクト所有者名 |
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
-| 繰り返しインスタンスのカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。オフにすると、単一ページビューとしてカウントされます（この設定は、単一ページ訪問数などの特定の指標にのみ影響します）。 **メモ**：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
+| 繰り返しインスタンスをカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。オフにすると、単一ページビューとしてカウントされます（この設定は、単一ページ訪問数などの特定の指標にのみ影響します）。 **メモ**：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
 | [注釈を表示](/help/analyze/analysis-workspace/components/annotations/overview.md) | 注釈をプロジェクトに表示するかどうかを指定します。 |
-| [プロジェクトカラーパレット](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Workspace で使用する分類カラーパレットを変更するには、色弱のユーザー向け用に最適化されている既定のパレットを選択するか、カスタムパレットを指定します。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
+| [プロジェクトカラーパレット](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Workspace で使用する分類カラーパレットを変更するには、色弱のユーザー向け用に最適化されている既定のパレットを選択するか、カスタムパレットを指定します。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
 | [表示密度](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
 ## 左側のパネル {#left-rail}
@@ -118,11 +124,11 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 | アイコン | 機能 |
 |---|---|
-| ![ パネルアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [ パネル ](/help/analyze/analysis-workspace/c-panels/panels.md) |
+| ![ パネルアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [パネル](/help/analyze/analysis-workspace/c-panels/panels.md) |
 | ![ ビジュアライゼーションアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
 | ![ コンポーネントアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
-| ![ データ要素アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [ データディクショナリ ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
-| ![ 目次アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [ 目次 ](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
+| ![ データ要素アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
+| ![ 目次アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ViewList_18_N.svg) | [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) |
 
 左側のパネルのコンポーネント（ディメンション、指標、セグメント、日付範囲）は、アクティブなパネルデータビューに関連しています。 アクティブなパネルは青い境界線で示され、アクティブなレポートスイートはコンポーネントパネルの上部にリストされます。
 
@@ -131,7 +137,12 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 以下は、Analysis Workspace での右クリックメニューの使用に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ コンテキストメニューの使用 ](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 ## プロジェクトキャンバス {#canvas}
 
@@ -139,6 +150,6 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 パネルは、期間、レポートスイートまたは分析のユースケースに従ってプロジェクトを整理する場合に役立ちます。アクティブパネルの周囲に色付きの境界線があり、左パネルで使用できるコンポーネントを決定します。
 
-プロジェクトの開始点を選択した内容に応じて、キャンバスに [ フリーフォームテーブル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) または [ 空白のパネル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) が最初に表示されます。 分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルは自動的にレンダリングされます。 テーブルを作成するための様々なオプションについて [ 詳細 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) を参照するか、利用可能な [ トレーニングチュートリアル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) を活用して、最初のプロジェクトを作成する際の詳細なガイダンスを確認します。
+プロジェクトの開始点を選択した内容に応じて、キャンバスに [ フリーフォームテーブル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) または [ 空白のパネル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/blank-panel) が最初に表示されます。 分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルは自動的にレンダリングされます。 テーブルを作成するための様々なオプションについて [ 詳細 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) を参照するか、利用可能な [ トレーニングチュートリアル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) を活用して、最初のプロジェクトを作成する際の詳細なガイダンスを確認します。
 
 ![](assets/canvas.png)

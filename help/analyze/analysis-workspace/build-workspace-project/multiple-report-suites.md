@@ -4,10 +4,10 @@ description: 複数のレポートスイートを含む Workspace でプロジ�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 89%
 
 * 指標とビジュアライゼーションのダッシュボードを作成して、他の組織に報告する。様々なレポートスイートから同じプロジェクトのにデータを取り込むことができます。
 
-以下は、このトピックに関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 複数のレポートスイート ](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## レポートスイートをすべてのパネルに適用
 

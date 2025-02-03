@@ -3,10 +3,10 @@ description: セグメントビルダーでは、選択した演算子を使用�
 title: セグメントの比較演算子
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 95%
 | 次よりも大きいか等しい | 入力された値以上のユニーク数を持つディメンション項目を返します。 |
 | 次よりも小さいか等しい | 入力された値以下のユニーク数を持つディメンション項目を返します。 |
 
-以下は、個別のディメンション数に基づくセグメント化に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]

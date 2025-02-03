@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ _この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![
 * 入口、特定のディメンション、出口など、指定したチェックポイントの前後で顧客がどこに移動するかを分析する
 * 選択したパスの特定のポイントを指定することで、セグメントを作成する
 
-以下は、フロービジュアライゼーションに関するビデオチュートリアルです。
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フロービジュアライゼーション ](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## ディメンション間のフロー {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ _この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
 
-## フロービジュアライゼーションの拡張
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## 追加機能
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![ フロービジュアライゼーションの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 追加機能 ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+

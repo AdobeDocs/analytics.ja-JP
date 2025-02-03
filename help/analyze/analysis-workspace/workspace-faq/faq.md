@@ -4,10 +4,10 @@ title: よくある質問と Workspace のトラブルシューティング
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -37,36 +37,52 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 Analysis Workspace は、一括データエクスポートにはお勧めしません。これは、ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。
 +++
 
-+++Analysis Workspace のパフォーマンスを最適化するにはどうすればよいですか？
-[パフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) を参照してください。
-+++
++++Analysis Workspaceのパフォーマンスを最適化するにはどうすればよいですか？
 
-+++データは Analysis Workspace プロジェクトにどのように取り込まれますか？
-次のビデオをご覧ください。
-
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+詳しくは、[パフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)を参照してください。
 
 +++
 
-+++ Workspace の使用状況を追跡するにはどうすればよいですか？
++++データはAnalysis Workspace プロジェクトにどのように取り込まれますか？
 
-Analysis Workspace の使用ログのトラッキングに関する次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
++++
+
++++Workspaceの使用状況を追跡するにはどうすればよいですか？
+
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ログトラッキング ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++指標をドラッグすると、「無効なデータ」と表示されます。この問題を解決するにはどうすればよいですか？
+
 無効なデータとは、レポートで使用されるディメンションと指標の組み合わせを使用してデータを返せないことを意味します。例えば、2 つの指標を重ね合わせて表示する方法がない場合、その方法ではデータとして返すことはできません。代わりに、指標を並べて配置します。
+
 +++
 
 +++指標をドラッグすると、実際のデータが表示されず、ゼロのみが表示されます。この問題をトラブルシューティングするにはどうすればよいですか？
+
 ワークスペースレポートを正常に作成したのにデータがないという場合は、次の点を確認してください。
 
 * レポートスイートを再度チェックし、データが入力されていることを確認します。
 * レポートにセグメントを適用している場合、そのセグメント条件がどのデータとも一致しない可能性があります。セグメントを削除するか、セグメント定義を調整してみてください。
 * 右上隅の日付範囲をチェックし、期待する値に設定されていることを確認します。
 * Web サイトに移動し、[デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用してデータが収集されていることを検証します。
+
+
 +++
 
 +++読み取り専用ユーザーのAnalysis Workspaceでは、どのようなアクションを実行できますか？

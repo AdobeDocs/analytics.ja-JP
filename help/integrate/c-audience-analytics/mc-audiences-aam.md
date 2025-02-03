@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 42%
 
 ---
@@ -17,7 +17,13 @@ Adobe Audience Manager（Adobe Audience Manager）は、ファーストパーテ
 
 Audience Analyticsの統合を行うと、人口統計情報（性別や所得水準など）、心理学的情報（興味や趣味など）、CRM データ、広告インプレッションデータなどのAdobe Audience Manager オーディエンスデータを任意の Analytics ワークフローに組み込むことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 主なメリット  {#benefits}
 

@@ -4,10 +4,10 @@ description: アルゴリズムアトリビューションモデルの詳細。
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 84%
 
 ---
 
@@ -15,11 +15,17 @@ ht-degree: 100%
 
 Analysis Workspace のアルゴリズム[アトリビューションモデル](models.md)は、統計的な手法を使用して、レポートまたはフリーフォームテーブルのディメンション項目にクレジットを割り当てるという点で、他のモデルとは異なります。Analysis Workspace 内の他のすべてのアトリビューションモデルと同様に、任意のディメンションまたは指標で使用でき、無制限のセグメント化と分類をサポートし、コンバージョンの 100% をテーブル内のディメンション（「分数」アトリビューションとも呼ばれます）に分配します。
 
->[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アルゴリズムアトリビューション ](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 アトリビューションに使用されるアルゴリズムは、協同ゲーム理論のハルサニ配当に基づきます。ハルサニ配当は、結果への貢献度が等しくないゲーム内のプレーヤー間でクレジットを分配するためのシャープレイ値ソリューション（ノーベル賞受賞者のエコノミスト、ロイドシャープレイにちなんで名付けられました）の一般化です。
 
-高いレベルでは、各タッチポイントのコンバージョンクレジットのアトリビューション計算では、ルックバックウィンドウ内の各マーケティングタッチポイントを、剰余を均等に配分する必要のあるプレーヤーの連合とみなします。各連合の余剰分配は、各サブ連合（または以前に参加したディメンション項目）によって以前に再帰的に作成された余剰に従って決定されます。詳しくは、John Harsanyi と Lloyd Shapley の元の論文を参照してください。
+高いレベルでは、各タッチポイントのコンバージョンクレジットのアトリビューション計算では、ルックバックウィンドウ内の各マーケティングタッチポイントを、剰余を均等に配分する必要のあるプレーヤーの連合とみなします。各連合体の余剰分布は、各連合体（または以前に参加したディメンション項目）が再帰的に作成した余剰に応じて決定される。 詳しくは、John Harsanyi と Lloyd Shapley の論文を参照してください。
 
 * Shapley, Lloyd S. (1953).n 人用ゲームの値&#x200B;*Contributions to the Theory of Games, 2(28)*, 307-317.
 * Harsanyi, John C. (1963).n 人用協力ゲームのシンプル版安価モデル。*International Economic Review 4(2)*, 194-220.

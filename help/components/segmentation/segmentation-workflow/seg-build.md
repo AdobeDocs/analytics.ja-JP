@@ -3,10 +3,10 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -167,9 +167,13 @@ ht-degree: 95%
 
 ![](assets/date-ranges.png)
 
-次に、セグメントでの周期的な日付範囲の使用に関するビデオを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## セグメントの積み重ね {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

@@ -4,10 +4,10 @@ description: 既存の Adobe Analytics 実装を初めて使用する管理者�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。Sarah はAdobe Analyticsのチャンピオンで、継承された実装プレイブックを使用して既存の実装を担当する方法について次のようにアイデアを紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 継承された実装プレイブックを使用 ](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 関連トピック:
 

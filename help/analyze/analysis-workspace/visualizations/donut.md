@@ -4,10 +4,10 @@ title: ドーナツ
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 
 >[!ENDSHADEBOX]
 
-このビジュアライゼーションは、円グラフと同様に、データを全体の一部またはセグメントとして表示します。通常、項目数が少ないときに、合計のパーセンテージを比較する場合は、 [!UICONTROL ドーナツ] グラフを使用します。
 
-![](assets/donut.png)
+![ グラフドーナツ ](/help/assets/icons/GraphDonut.svg)**[!UICONTROL ドーナツ]** ビジュアライゼーションは、円グラフと同様に、データを全体の一部またはフィルターとして表示します。 通常、項目数が少ないときに、合計のパーセンテージを比較する場合は、ドーナツビジュアライゼーションを使用します。
 
-以下は、 [!UICONTROL ドーナツ] ビジュアライゼーションの使用に関するビデオです。
+![ データを全体の一部またはフィルターとして表示するドーナツグラフ。](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ドーナツビジュアライゼーションの追加 ](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

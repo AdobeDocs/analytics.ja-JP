@@ -4,10 +4,10 @@ title: カレンダーと日付範囲の概要
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 91%
+source-wordcount: '942'
+ht-degree: 90%
 
 ---
 
@@ -25,9 +25,13 @@ ht-degree: 91%
 
 カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 
-以下は、Analysis Workspace での日付範囲とカレンダーの使用に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カレンダーと日付範囲の概要 ](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 カレンダーの選択はパネルレベルで適用されますが、すべてのパネルに適用するオプションがあります。Workspace で日付範囲をクリックすると、インターフェイスに現在のカレンダー月と、前のカレンダー月が表示されます。これらの 2 つのカレンダーを調整するには、それぞれの上隅にある右向き矢印と左向き矢印をクリックします。
 

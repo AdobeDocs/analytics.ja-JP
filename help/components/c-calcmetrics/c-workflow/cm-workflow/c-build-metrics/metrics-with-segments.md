@@ -3,10 +3,10 @@ description: 個々の指標でセグメント化を行うと、1 つのレポ�
 title: セグメント化指標
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 69%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -54,9 +54,13 @@ ht-degree: 69%
 
    ![](assets/workspace-pages.png)
 
-ビデオの概要を次に示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメント化指標 ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 合計指標の割合 {#percent-total}
 

@@ -4,10 +4,10 @@ description: Analysis Workspace、 Analytics ダッシュボード（モバイ�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ Analytics ツールガイドには、次の Analytics ツールの製品機能�
 
 Adobe Analytics の基本については、以下の *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+ウェビナーについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Adobe Analyticsの概要 – スキルビルダーウェビナー ](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 使用するツールに関する質問については、[使用する Adobe Analytics ツールの検討](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ja)を参照してください。
 

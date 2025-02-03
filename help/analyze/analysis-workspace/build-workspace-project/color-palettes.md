@@ -4,10 +4,10 @@ title: ビジュアライゼーションカラーパレットとその機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 92%
+source-wordcount: '227'
+ht-degree: 88%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 92%
 
 ## [!UICONTROL カラーパレット]の変更
 
-以下は、カスタム[!UICONTROL カラーパレット]の使用に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタムカラーパレットの使用 ](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 1. **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;へナビゲートします。
 1. **[!UICONTROL プロジェクトカラーパレット]** ドロップダウンリストから、5 つの事前設定済みカラースキームのいずれかを選択できます。

@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 86%
+source-wordcount: '167'
+ht-degree: 24%
 
 ---
 
@@ -30,26 +30,33 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL ベン図] のビジュアライゼーションを使用すると、（[!UICONTROL コンポーネント] の）最大 3 つのセグメントと 1 つの指標をドラッグして、 [!UICONTROL ベン図] を作成できます。
+![ タイプ ](/help/assets/icons/TwoDots.svg) **[!UICONTROL ベン図]** ビジュアライゼーションを使用すると、（コンポーネントパネルから）最大 3 つのフィルターと 1 つの指標をドラッグして、ベン図を作成できます。
 
-![](assets/venn.png)
+![3 つのフィルターを含むベン図ビジュアライゼーション。](assets/venn.png)
 
-次に、セグメントにカーソルを合わせると、パーセンテージなどについて、より多くのインサイトが得られます。
+フィルターにカーソルを合わせると、パーセンテージなどについて、より多くのインサイトが得られます。
 
-![](assets/venn_hover.png)
+[!UICONTROL  ベン ] ビジュアライゼーションから [!UICONTROL  フリーフォームテーブル ] を生成するには、![ ベン **[!UICONTROL ヘッダーの横にある色付きの ](/help/assets/icons/StatusOrange.svg) ステータスオレンジ]** を選択し、**[!UICONTROL データソースを表示]** を選択します。 **[!UICONTROL ベン]** ビジュアライゼーションの作成に使用されるデータを含む [!UICONTROL  ベン ] データ」フリーフォームテーブルが表示されます。
 
-## [!UICONTROL ベン] 図の [!UICONTROL フリーフォーム] テーブルへの変換
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-ベン図をフリーフォームテーブルに変換するには、**[!UICONTROL ベン]**&#x200B;ヘッダーの横にある色の付いた点をクリックして、**[!UICONTROL データソースを管理]**／**[!UICONTROL 使用可能なデータソース]**／**[!UICONTROL フリーフォームテーブル]**&#x200B;を選択します。
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## [!UICONTROL ベン] 図の正規化
+-->
 
-[!UICONTROL ベン] 図を正規化する（サイズを測る）には、 ビジュアライゼーション設定アイコンに移動し、「**[!UICONTROL 正規化]**」を選択します。
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## ビデオ
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Venn ビジュアライゼーション ](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} を参照してください。
 
-以下は、 [!UICONTROL ベン] 図に関するビデオです。
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

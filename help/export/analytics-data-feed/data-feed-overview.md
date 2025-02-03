@@ -4,10 +4,10 @@ keywords: クリックストリーム、データフィード、データフィ�
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ ht-degree: 86%
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
 * [ データフィードの内容 ](c-df-contents/datafeeds-contents.md)：圧縮ファイル <!-- Is this still the output users can download from the destination? I aske Jun. --> ージ内の内容を理解する
 * [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト.
-* データフィードインターフェイス操作のビデオ：
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* データフィード ID を見つける方法に関するビデオ：
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィードインターフェイスの操作 ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} を参照してください。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィード ID を見つける ](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]

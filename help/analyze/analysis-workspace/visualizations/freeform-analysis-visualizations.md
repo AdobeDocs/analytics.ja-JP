@@ -5,10 +5,10 @@ title: ビジュアライゼーションの概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 85%
+source-wordcount: '1457'
+ht-degree: 37%
 
 ---
 
@@ -33,7 +33,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![ ヒストグラムアイコン ](assets/Smock_GraphHistogram_18_N.svg)</p> | ヒストグラムは、指標の量に基づいて、訪問者、訪問、またはヒットをバケットにまとめます。 |
 | [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![ 横棒グラフのアイコン ](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | [ 主要指標の概要 ](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![ 主要指標アイコン ](assets/key-metric-icon.png)</p> | 1 つの期間内での指標のトレンドを表示したり、2 つの期間での指標のパフォーマンスを比較したりできます。 |
-| [行](/help/analyze/analysis-workspace/visualizations/line.md)<p>![ 行アイコン ](assets/Smock_GraphTrend_18_N.svg)</p> | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
+| [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)<p>![ 行アイコン ](assets/Smock_GraphTrend_18_N.svg)</p> | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![ マップアイコン ](assets/map-icon.png)</p> | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
 | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![ 散布図アイコン ](assets/Smock_GraphScatter_18_N.svg)</p> | ディメンション項目と最大 3 つの指標の関係を表示します。 |
 | [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![ 数値の概要アイコン ](assets/summary-number-icon.png)</p> | 選択したセルを 1 つの大きな数値として表示します。 |
@@ -48,58 +48,23 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 1. 次のいずれかの方法を使用して、ビジュアライゼーションを追加します。
 
-   * 左側のパネルで、**ビジュアライゼーション** アイコン <!-- add icon --> を選択し、ビジュアライゼーションを追加するパネルにドラッグします。
+   ![ ビジュアライゼーションを追加 ](assets/add-visualization.png)
 
-     ![](assets/viz-rail.png)
+   * 左側のパネルで「![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)**ビジュアライゼーション**」を選択し、ビジュアライゼーションを追加するパネルにビジュアライゼーションをドラッグします。
 
-   * ビジュアライゼーションを追加するパネルで **プラス** アイコンを選択した後、追加するビジュアライゼーションを表すアイコンを選択します。 各ビジュアライゼーションのアイコンにマウスポインターを置くと、その名前が表示されます。
+   * ビジュアライゼーションを追加するパネルで「![AddCircle](/help/assets/icons/AddCircle.svg)」を選択し、追加するビジュアライゼーションを表すアイコンを選択します。 各ビジュアライゼーションのアイコンにマウスポインターを置くと、名前が表示されます。
 
-     ![ ビジュアライゼーションを追加するボタン ](assets/visualization-add-to-panel.png)
+   * [ 空のパネル ](/help/analyze/analysis-workspace/c-panels/blank-panel.md) を追加してから、追加するビジュアライゼーションを選択します。
 
-   * [ 空のパネル ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja) を追加してから、追加するビジュアライゼーションを選択します。
+   * Analysis Workspace プロジェクト内の既存のビジュアライゼーションのコンテキストメニューから、**[!UICONTROL ビジュアライゼーションを複製]** または **[!UICONTROL ビジュアライゼーションをコピー]** を選択します。
 
-     ![空のパネル](assets/blank_panel.png)
+   * Workspace **[!UICONTROL 挿入]** メニューを使用して、ビジュアライゼーションを挿入します。
 
-   * Analysis Workspace プロジェクト内の既存のパネルを右クリックし、[!UICONTROL **ビジュアライゼーションを複製**] または [!UICONTROL **ビジュアライゼーションをコピー**] を選択します。
+   * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。 次に、サブメニューからビジュアライゼーションを選択します。 Workspaceは、テーブル内の現在の選択内容に基づいて、提供するビジュアライゼーションを判断し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
-## ビジュアライゼーション設定のカスタマイズ
+## 凡例
 
-個々のビジュアライゼーションに対して、または作成するすべてのビジュアライゼーションに対して、ビジュアライゼーション設定をカスタマイズできます。
-
-### 単一のビジュアライゼーションのビジュアライゼーション設定のカスタマイズ
-
-個々のビジュアライゼーションの[!UICONTROL ビジュアライゼーション設定]にアクセスするには：
-
-1. Analysis Workspace では、設定をカスタマイズしたいビジュアライゼーションの上にマウスポインターを置きます。
-
-1. 歯車アイコンをクリックします。
-
-   ビジュアライゼーションの各タイプには、カスタマイズできる一意の設定があります。使用可能な設定について詳しくは、[設定](#settings)を参照してください。
-
-### 作成するすべてのビジュアライゼーションのビジュアライゼーション設定のカスタマイズ
-
-作成するすべてのビジュアライゼーションについて、設定をカスタマイズできます。詳しくは、[ユーザー環境設定](/help/analyze/analysis-workspace/user-preferences.md)を参照してください。
-
-## 設定 {#settings}
-
-![](assets/settings.png)
-
-| 設定 | 説明 |
-| --- | --- |
-| ビジュアライゼーションのタイプ | データを表現するために使用するビジュアルのタイプを変更します。 |
-| 精度 | トレンドのビジュアライゼーションでは、このドロップダウンから時間の精度（日、週、月など）をこのドロップダウンリストから。 この変更は、データソーステーブルにも適用されます。 |
-| 割合（％） | 値を割合で表示します。 |
-| 100% の積み重ね | 積み上げ面、積み上げ棒、または積み上げ横棒のビジュアライゼーションのこの設定は、グラフを「100 % の積み上げ」のビジュアライゼーションに変更します。例：![100 % の積み上げ](assets/stacked_100_percent.png) |
-| 凡例を表示 | 数の概要／変更の概要ビジュアライゼーションの詳細な凡例テキストを非表示にします。 |
-| 項目数の上限を設定 | ビジュアライゼーションで表示する項目の数を制限できます。 |
-| Y 軸をゼロに固定 | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
-| 正規化 | 指標を均等な比率にします。これは、プロットされた指標の大きさが非常に異なる場合に役立ちます。 |
-| 二重軸を表示 | 2 つの指標がある場合にのみ適用されます。（ある指標の）Y 軸を左側に、（他の指標の）Y 軸を右側に表示できます。これは、プロットされた指標の大きさが非常に異なる場合に役立ちます。 |
-| 異常値を表示 | 異常値検出を表示することで、折れ線グラフおよびフリーフォームテーブルを強化します。線のビジュアライゼーションでの異常値検出には、期待値（破線）と期待範囲（影付きの帯）が含まれます。 |
-
-## 凡例 {#legend}
-
-ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。凡例はインタラクティブです。凡例項目をクリックして、ビジュアライゼーション内のシリーズの表示/非表示を切り替えることができます。これは、視覚化するデータを簡略化する場合に便利です。
+ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーション内のシリーズの表示/非表示を切り替えることができます。これは、視覚化するデータを簡略化する場合に役立ちます。
 
 また、凡例ラベルの名前を変更して、図をより使いやすくすることができます。メモ：凡例の編集は、ツリーマップ、ブレットグラフ、変更の概要／数値の概要、テキスト、フリーフォーム、ヒストグラム、コホート、またはフローのビジュアライゼーションには&#x200B;**適用されません**。
 
@@ -108,36 +73,136 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 1. 凡例ラベルの 1 つを右クリックします。
 1. 「**[!UICONTROL ラベルを編集]**」をクリックします。
 
-   ![](assets/edit-label.png)
+   ![ 凡例ラベルと「ラベルを編集」オプション。](assets/edit-label.png)
 
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
 
-## 右クリックメニュー {#right-click}
 
-ビジュアライゼーションの追加機能は、ビジュアライゼーションのヘッダーを右クリックすると使用できます。設定は、ビジュアライゼーションによって異なります。次の設定を使用できます。
+
+### 設定
+
+使用できるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 次の表に、最も一般的な設定を示します。 一部のビジュアライゼーションには特定の設定があります。 詳しくは、個々のビジュアライゼーションのドキュメントを参照してください。
+
+| オプション | 説明 |
+| --- | --- |
+| **[!UICONTROL ビジュアライゼーションのタイプ]** | データの視覚化に使用するビジュアライゼーションのタイプを変更します。 |
+| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションの時間の精度を変更する。 この変更は、データソーステーブルにも適用されます。 |
+| **[!UICONTROL 割合 (％)]** | 値をパーセンテージで表示します。 |
+| **[!UICONTROL 100% の積み重ね]** | グラフを 100% 積み重ねビジュアライゼーションに変更します。  面グラフ、棒グラフ、積み重ね横棒グラフのビジュアライゼーションにのみ適用できます。 |
+| **[!UICONTROL 凡例を表示]** | 凡例のテキストを表示します。 |
+| **[!UICONTROL 項目数の上限を設定]** | ビジュアライゼーションで表示する項目の数を制限します。 選択した場合、最大項目数を定義します。 |
+| **[!UICONTROL 注釈を表示]** | このビジュアライゼーション用に作成された注釈を表示します。 |
+| **[!UICONTROL タイトルを非表示]** | ビジュアライゼーションのタイトルを非表示にします。 |
+| **[!UICONTROL Y 軸をゼロに固定]** | Y 軸の一番下を強制的にゼロにします。 グラフにプロットされるすべての値がゼロを大幅に上回る場合、グラフのデフォルトでは y 軸の一番下がゼロ以外になります。 このオプションを有効にすると、Y 軸がゼロに設定され、グラフが再描画されます。 |
+| **[!UICONTROL 二重軸を表示]** | 2 つの異なる指標の左右の Y 軸を表示します。 このオプションは、2 つの指標がある場合にのみ適用されます。 2 軸は、プロットされた指標の大きさが異なる場合に役立ちます。 |
+| **[!UICONTROL X 軸を表示]** | ビジュアライゼーションに X 軸を表示します。 |
+| **[!UICONTROL Y 軸を表示]** | ビジュアライゼーションに y 軸を表示します。 |
+| **[!UICONTROL 線上にバーベルを表示]** | 複合グラフビジュアライゼーションの折れ線グラフのビジュアライゼーションにバーベルを表示します。 |
+| **[!UICONTROL 正規化]** | 指標を均等な比率にします。 等しい比率は、プロットされた指標の大きさが異なる場合に役立ちます。 |
+| **[!UICONTROL 異常値を表示]** | 異常値検出を表示することで、折れ線グラフとフリーフォームテーブルを強化します。 線のビジュアライゼーションでの異常値検出には、期待値（破線）と期待範囲（影付きの帯）が含まれます。 |
+| **[!UICONTROL 予測を表示]** | 予測値を表示して、折れ線グラフとフリーフォームテーブルを強化します。 |
+| **[!UICONTROL 最小値を表示]** | ビジュアライゼーションに最小値を表示します。 |
+| **[!UICONTROL 最大値を表示]** | ビジュアライゼーションに最大値を表示します。 |
+| **[!UICONTROL トレンドラインを表示]** | ビジュアライゼーションにトレンドラインを表示します。 選択した場合、トレンドラインのタイプをドロップダウンメニューから選択できます。 |
+
+作成するすべてのビジュアライゼーションの設定をカスタマイズできます。 詳しくは、[ユーザー環境設定](/help/analyze/analysis-workspace/user-preferences.md)を参照してください。
+
+
+## コンテキストメニュー {#right-click}
+
+ビジュアライゼーションのヘッダーのコンテキストメニュー（代替選択を通じて使用可能。例えば、マウスを使用して右クリックする）を使用して、ビジュアライゼーションの追加機能にアクセスします。 すべてのビジュアライゼーションですべてのオプションを使用できるわけではありません。
+
+![ 右クリックオプションが表示された追加のビジュアライゼーション設定。 オプションについては、次のセクションで説明します。](assets/right-click.png)
+
+| オプション | 説明 |
+| --- | --- |
+| **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションを、プロジェクト内の別の場所、または完全に別のプロジェクトに貼り付け（挿入）します。 |
+| **[!UICONTROL データをクリップボードにコピー]** | ビジュアライゼーションからクリップボードにデータをコピーします。 |
+| **[!UICONTROL 選択範囲をクリップボードにコピー]** | ビジュアライゼーションからクリップボードに選択範囲をコピーします。 |
+| **[!UICONTROL 項目を CSV としてダウンロード （*ディメンション名*）]** | ビジュアライゼーションのディメンション項目（最大 50,000 個）をローカルデバイスにダウンロードします。 選択したディメンションに対して最大 50,000 個のディメンション項目。 |
+| **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、ビジュアライゼーションをプロジェクト内の別の場所、または完全に別のプロジェクトに挿入できるようにします。 |
+| **[!UICONTROL データ CSV をダウンロード]** | ビジュアライゼーションの表示データをローカルデバイスにダウンロードします。 |
+| **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
+| **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。 [ テキスト ](text.md) を参照してください。 |
+| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。 共有リンク ダイアログにリンクが表示されます。 「コピー」を選択して、リンクをクリップボードにコピーします。 |
+| **[!UICONTROL やり直し]** | 現在のビジュアライゼーションの設定を削除して、ゼロから再設定できるようにします。 |
+
+
+## 設定
+
+一部のビジュアライゼーション（コホートテーブル、フォールアウト、フローなど）には、ビジュアライゼーションの作成を支援する設定ダイアログがあります。 ビジュアライゼーションの上部にある「![ 編集 ](/help/assets/icons/Edit.svg)」を使用して、設定にアクセスし変更します。
+
+![ 設定ペイン ](assets/configuration.png)
+
+## 視覚化
+
+どのビジュアライゼーションが選択されるかわからない場合は、フリーフォームテーブルの行の ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)**[!UICONTROL Visualize]** を選択します（カーソルを合わせると使用できます）。 この選択は、ビジュアライゼーションを追加する最も速い方法です。 Analysis Workspaceは、データに最適なビジュアライゼーションを知識に基づいて推測します。 例えば、1 つの行を選択した場合、トレンド [ 折れ線グラフ ](line.md) が作成されます。 3 つのフィルター行を選択した場合は、[ ベン ](venn.md) 図が作成されます。
+
+![クイックビジュアライゼーション](assets/quick-viz.png)
+
+
+<!--
+## Settings {#settings}
+
+![](assets/settings.png)
+
+| Setting | Description |
+| --- | --- |
+| Visualization Type | Change the type of visual used to depict the data. |
+| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
+| Percentages | Displays values in percentages. |
+| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
+| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
+| Limit Max Items | Lets you limit the number of items that a visualization displays. |
+| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
+| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
+| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
+| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
+
+## Legend {#legend}
+
+A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
+
+Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+
+To edit a legend label:
+
+1. Right-click one of the legend labels.
+1. Click **[!UICONTROL Edit Label]**.
+
+   ![](assets/edit-label.png)
+
+1. Enter the new label text.
+1. Press **[!UICONTROL Enter]** to save.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
 
 ![](assets/right-click.png)
 
-| 設定 | 説明 |
+| Setting | Description |
 | --- | --- |
-| コピーしたパネル／ビジュアライゼーションを挿入 | コピーした要素をプロジェクト内の別の場所、または完全に別のプロジェクトに貼り付ける（「挿入」する）ことができます。 |
-| ビジュアライゼーションをコピー | ビジュアライゼーションを右クリックしてコピーし、プロジェクト内の別の場所に挿入したり、完全に別のプロジェクトに挿入したりできます。 |
-| [項目を CSV としてダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items) | 選択したディメンションの最大 50,000 個のディメンション項目を CSV としてダウンロードします。 |
-| [データを CSV としてダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-data) | ビジュアライゼーションデータソースを CSV 形式でダウンロードします。 |
-| 重複ビジュアライゼーション | 現在のビジュアライゼーションの厳密な複製を作成して、修正できます。 |
-| 説明を編集 | ビジュアライゼーションの説明テキストを追加（または編集）します。 |
-| ビジュアライゼーションリンクを取得 | プロジェクト内の特定のビジュアライゼーションに他のユーザーを誘導できます。受信者は、リンクをクリックした後、リンク先の正確なビジュアライゼーションにリダイレクトされる前にログインするよう求められます。 |
-| やり直し | （フロー、ベン図、ヒストグラムで機能）現在のビジュアライゼーションの設定を削除し、ゼロから再設定できるようにします。 |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
+| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
+| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
+| Edit Description | Add (or edit) a text description for the visualization. |
+| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
+| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
 
-## ビジュアルを作成アイコン {#quick-viz}
+## Create Visual icon {#quick-viz}
 
-どのビジュアライゼーションが選択されるかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL ビジュアルを作成]**&#x200B;アイコン（カーソルを合わせると使用できます）をクリックします。これは、ビジュアライゼーションを追加する最も速い方法です。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、1 行を選択した場合、トレンド折れ線グラフが作成されます。3 つのセグメント行を選択した場合は、ベン図が作成されます。
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
 
 ![](assets/quick-viz.png)
 
-## ビジュアライゼーションのスケール軸の変更
+## Change the scale axis on visualizations
 
-ビデオの概要を次に示します。
+Here is a video overview:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
+
+-->

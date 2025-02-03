@@ -4,10 +4,10 @@ short-description: アナリスト、エンドユーザーや管理者向けの�
 title: Adobe Analytics の概要
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Adobe Analytics の基本を学ぶには、次のリソースを使用します�
 
 Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+ウェビナービデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Adobe Analyticsの概要 – スキルビルダー ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 使用するツールに関する質問については、[使用する Adobe Analytics ツールの検討](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ja)を参照してください。
 

@@ -5,10 +5,10 @@ title: フォールアウト分析でのセグメントの適用
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 93%
+source-wordcount: '436'
+ht-degree: 90%
 
 ---
 
@@ -50,9 +50,13 @@ ht-degree: 93%
 
 フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。 （以下のビデオでは、最大 3 つのセグメントを比較できますが、これは誤りです。）
 
-以下は、フォールアウトでのセグメントの比較に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フォールアウトビジュアライゼーションのセグメントの比較 ](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 1. 左側の[!UICONTROL セグメント]パネルから比較したいセグメントを選択します。この例では、US Users と Non-US Users の 2 つのセグメントを選択しています。
 1. それらを上部のセグメントドロップゾーンにドラッグします。

@@ -4,10 +4,10 @@ title: セグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ Workspace では、どのくらい複雑なセグメントが必要か、この�
 
 ## ビデオ
 
-Analysis Workspace でのセグメントの使用：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} を参照してください。
 
-セグメントの検索と作成：
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-セグメントでの周期的な日付範囲：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの検索と作成 ](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## セグメントの作成 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 ### コンポーネントリストセグメントの作成 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 コンポーネントメニューの下のセグメントパネルに次が表示されます。
-* 自分または自分の会社が作成したセグメント
-* セグメントテンプレート（次のアドビアイコンで示されます）
 
-![](assets/segment_icons.png)
+* 自分または自分の会社が作成したセグメント
+* セグメントテンプレート（次のAdobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) アイコンで示されます）
+
 
 このタイプのセグメントを作成するには、2 つのオプションがあります。どちらも Adobe Analytics の[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md)に移動します。ここで詳しい手順を確認できます。
 
@@ -65,7 +74,12 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 ### セグメントを適用するその他の方法 {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントを適用するためのその他の方法 ](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 フリーフォームプロジェクトにセグメントを適用するには、他にもいくつかの方法があります。
 

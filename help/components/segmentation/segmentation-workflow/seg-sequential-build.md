@@ -3,10 +3,10 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
-ht-degree: 96%
+source-wordcount: '3932'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 96%
 
 さらに、[After および Within 演算子](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を使用して、特定の期間、精度およびチェックポイント間のカウントに順次セグメントを制限することができます。
 
-以下は、順次セグメント化に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 順次セグメント化 ](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 全員を含む {#section_75ADDD5D41F04800A09E592BB2940B35}
 

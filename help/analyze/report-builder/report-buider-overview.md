@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -70,6 +70,11 @@ Report Builderを使用すると、次のことができます。
 >
 >この概要ビデオでは、Customer Journey AnalyticsでのReport Builderユーザーインターフェイスを示します。 一部のユーザーインターフェイスと用語は異なります。 それ以外の場合、ユーザーエクスペリエンスは同じです。
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builderの概要 ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 Report Builderは [Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview) からダウンロードできます。

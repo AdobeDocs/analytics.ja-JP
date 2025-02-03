@@ -4,10 +4,10 @@ description: 以下の手順に従って、実装時にエラーが発生しな�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
@@ -44,4 +44,11 @@ ht-degree: 70%
 
 *Adobe Analytics チャンピオンである Sarah Owen による、実装レビューを多忙なスケジュールに無理なく合わせられるタイミングに関する 2 分間のビデオをご覧ください。*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 実装の確認 ](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+

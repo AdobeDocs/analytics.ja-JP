@@ -4,9 +4,9 @@ description: Analysis Workspace のメディアの同時視聴者数パネルを
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 47%
 
 ---
@@ -54,11 +54,13 @@ _この記事は、![](/help/assets/icons/AdobeAnalytics.svg) AdobeAnalytics_ _*
 Analysis Workspaceでは、同時視聴者数指標は、セッション数に関係なく、特定の時点におけるメディアストリームを視聴しているユニークなユーザーの数です。
 
 
-+++ この機能のビデオデモをご覧ください。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Media 同時視聴者数パネル ](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} を参照してください。
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 

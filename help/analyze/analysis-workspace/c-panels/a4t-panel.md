@@ -4,9 +4,9 @@ title: Analytics for Target（A4T）パネル
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 43%
 
 ---
@@ -39,11 +39,12 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 
 Analytics for Target パネルを使用すると、Analysis WorkspaceでのAdobe Targetのアクティビティとエクスペリエンスを分析できます。 また、このパネルでは、最大 3 つの成功指標に対する上昇率と信頼性を確認できます。 Analytics for Target パネルにアクセスするには、Analytics for Target コンポーネントが有効になっているレポートスイートに移動します。 次に、左端のパネルアイコンを選択し、Analytics for Target パネルをAnalysis Workspace プロジェクトにドラッグします。
 
-+++以下は、Analytics for Target パネルの概要に関する短いビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analytics for Target パネル ](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 ## 使用
 

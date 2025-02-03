@@ -3,16 +3,16 @@ title: Analytics インポートガイド
 description: このガイドでは、データソースとデータ挿入 API を使用して Analytics にデータを取得する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analytics インポートガイド
 
-![バナー](../../assets/doc_banner_import.png)
+
 
 このガイドでは、Analytics にデータを取得する方法を説明します。以下のようなものがあります。
 
@@ -21,9 +21,14 @@ ht-degree: 100%
 * **[データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)**：API を使用して、アドビのデータコレクションに直接データを送信します。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：Adobe Analytics レポートスイートのエンリッチメントに使用できる現在の統合を検索します。
 
-以下は、Adobe Analytics の概説ビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analyticsの概要 ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
 
 ## その他の Analytics ユーザーガイド
 

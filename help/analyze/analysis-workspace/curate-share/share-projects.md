@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 100%
 
 共有より前に適用した[キュレーション](curate.md)は、受信者がプロジェクトを開くと反映されます。
 
-以下は、プロジェクト共有の概要に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 
 ## 組織内の Analysis Workspace ユーザーおよびグループとの共有 {#Add}
@@ -96,7 +100,7 @@ ht-degree: 100%
 
    または
 
-   「**[!UICONTROL キュレーションと共有]**」を選択して、プロジェクトのキュレーションを自動的に適用します。（プロジェクトがすでに共有されている場合は、「**[!UICONTROL キュレーションと共有]**」を選択します。）[プロジェクトのキュレーションの詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja)を表示します。
+   「**[!UICONTROL キュレーションと共有]**」を選択して、プロジェクトのキュレーションを自動的に適用します。（プロジェクトが既に共有されている場合は、「**[!UICONTROL キュレーションと更新]** を選択します。） [ プロジェクトキュレーション ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja) の詳細を説明します。
 
 ## プロジェクトへのリンクの共有
 
@@ -138,9 +142,13 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 >
 >* 多数のユーザーが特定のリンクに同時にアクセスしようとすると、プロジェクトにアクセスできなくなる可能性があります。デフォルトでは、5 分ごとに 190 人を超えるユーザーが  1 つのリンクにアクセスできます。組織がこの上限に達した場合は、5 分待ってから、もう一度リンクにアクセスしてみてください。
 
-次のビデオデモおよび付属のドキュメントでは、任意のユーザーとのリンクの共有に関連するオプションについて説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics にアクセスできないユーザーと Analysis Workspace プロジェクトを共有するには：
 
@@ -186,11 +194,16 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 ユーザーが（「[プロジェクトを共有](#share-a-link-to-a-project)」タブから、または[任意のユーザーと共有](#share-a-project-with-anyone-no-login-required)のリンクを使用して）リンクを共有してプロジェクトを共有した場合、プロジェクトにアクセスするには、共有されたリンクを使用する必要があります。例えば、メールや内部 web サイトなどでリンクが共有されている場合があります。
 
-## 埋め込みコンポーネントの共有
+## 埋め込みコンポーネントを共有
 
-以下は、このトピックに関するビデオです。
+プロジェクトの一部である埋め込みコンポーネントを共有できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## よくある質問（FAQ） {#FAQs}
 

@@ -5,10 +5,10 @@ keywords: appmeasurement、変数、vars、設定、ページ、実装
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -22,11 +22,15 @@ Analytics には、Analytics データを収集するための変数が多数用
 
 ## 変数と実装メソッド
 
-Adobe Analytics は様々な方法で実装できます。各ページには、Web SDK の使用方法、Adobe Analytics拡張機能の使用方法、JavaScriptのAppMeasurementの使用方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。各ページには、Web SDKの使用方法、Adobe Analytics拡張機能の使用方法、JavaScriptのAppMeasurementの使用方法に関する節があります。
 
-Adobe Analytics での変数の設定に関するビデオを以下に示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 変数の設定 ](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## 演算の順序
 

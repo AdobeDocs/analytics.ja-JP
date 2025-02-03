@@ -4,10 +4,10 @@ title: コンボグラフビジュアライゼーション
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 94%
+source-wordcount: '606'
+ht-degree: 48%
 
 ---
 
@@ -29,14 +29,13 @@ _この記事では、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_*
 
 >[!ENDSHADEBOX]
 
-[!UICONTROL コンボグラフ]ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。折れ線グラフと棒グラフの組み合わせでデータの傾向を簡単に表示できます。
 
-[!UICONTROL コンボグラフ]を使用すると、
+![ コンボグラフ ](/help/assets/icons/ComboChart.svg)**[!UICONTROL コンボグラフ]** ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。 折れ線グラフと棒グラフの組み合わせで、データのトレンドを簡単に表示できます。
 
-* 今週の注文と、先月（および昨年）の同時刻の注文を数回クリックするだけで比較できます。
+[!UICONTROL Combo] を使用して、次の操作を行います。
 
-* 複数の指標（[!UICONTROL ユニーク訪問者]や[!UICONTROL 売上高]など）を同じグラフで相互にすばやく分析して比較できます。
-
+* 今週の注文と、先月（および昨年）の同時刻の注文を比較します。
+* 複数の指標（[!UICONTROL  人物 ] や [!UICONTROL  売上高 ] など）を同じグラフで相互にすばやく分析して比較できます。
 * 一定期間にわたって関数（[!UICONTROL 累積平均]など）に対する指標を分析できます。
 
 次の点に注意してください。
@@ -44,44 +43,42 @@ _この記事では、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_*
 * 複数の比較を 1 つの[!UICONTROL 複合グラフ]に追加できます。
 * 1 つ以上の比較を追加する場合は、[!UICONTROL 時間比較]など、同じタイプの比較にする必要があります。
 * 最大 5 つの比較を追加できます。
-* 1 つの指標に最大 3 つのフィルター（セグメント）を適用できます。
+* 1 つの指標に最大 3 つのフィルターを適用できます。
 * 計算指標は複合グラフではサポートされません。
 
-## コンボグラフの作成
+## 使用
 
-1. 左パネルの「ビジュアライゼーション」ドロップダウンリストから、[!UICONTROL コンボグラフ]ビジュアライゼーションを空のパネルにドラッグします。
-
-   ![](assets/combo-chart-build.png)
+1. ![ コメント ](/help/assets/icons/ComboChart.svg)[!UICONTROL  コンボ ] ビジュアライゼーションを追加します。 [ パネルへのビジュアライゼーションの追加 ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) を参照してください。
 
 1. ドロップダウンリストから、X 軸のディメンションと Y 軸の指標を選択します。
 
-1. 使用する[!UICONTROL 折れ線比較]のタイプを選択します。
+1. 使用する [!UICONTROL  線比較 ] のタイプを選択します。
 
    | 折れ線比較タイプ | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較です。例えば、この期間と 4 週間前の期間を比較します。 [!UICONTROL 時間比較]を選択した場合は、比較する期間についての補助的な選択を行います。<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。以下のサポートされている関数のリストを参照してください。<p>![](assets/combo-functions.png) |
-   | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較です。例えば、この期間と 4 週間前の期間を比較します。 [!UICONTROL 時間比較]を選択した場合は、比較する期間についての補助的な選択を行います。<p>![ 選択された期間と期間のセカンダリ選択フィールドとの比較。](assets/combo-time-period.png) |
+   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。[ サポートされている関数 ](#supported-functions) のリストを参照してください。<p>![ 選択された関数と使用可能なサポートされている関数のリストを示すリネ比較ドロップダウンメニュー。](assets/combo-functions.png) |
+   | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![2 つの指標を比較した複合グラフ。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 作成]**」を選択します。
 
-   出力は、例えば次のようになります。
+   出力は次のようになります。
 
-   ![](assets/combo-output.png)
+   ![ 現在の期間を棒グラフで示し、比較期間を折れ線グラフで示す複合グラフ ](assets/combo-output.png)
 
-   現在の期間は棒グラフで表示され、比較期間は折れ線グラフで表示されます。折れ線グラフのドットは、「バーベル」と呼ばれます。
+   現在の期間は、棒グラフで表示されます。 折れ線グラフは、比較期間を表します。 折れ線グラフのドットは、*バーベル* と呼ばれます。
 
 ## サポートされている関数
 
-[!UICONTROL 折れ線比較タイプ]として&#x200B;**[!UICONTROL 関数]**&#x200B;を選択すると、選択した指標の関数が返されます。 
+[!UICONTROL  折れ線比較タイプ ]**として**[!UICONTROL  関数 ] を選択すると、選択した指標の関数が返されます。
 
 | 関数 | 定義 |
 | --- | --- |
-| **[!UICONTROL 列の合計値]** | （1 つのディメンションのすべての要素について）1 つの列内の指標の数値をすべて加算します |
+| **[!UICONTROL 列の合計値]** | （1 つのディメンションのすべての要素について） 1 つの列内の指標の数値をすべて加算します |
 | **[!UICONTROL 累加平均]** | 最終 N 行の平均を返します。 |
-| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。中央値とは、一連の数の中央に位置する数です。つまり、半分の数は中央値以上の値を持ち、残りの半分は中央値以下の値を持ちます。 |
+| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。中央値は、一連の数の中央にある数値です。数値の半分は中央値より大きいか等しい値を持ち、半分は中央値より小さいか等しい値を持ちます。 |
 | **[!UICONTROL 累積]** | N 行の累積合計です。 |
 | **[!UICONTROL 列の最大値]** | 指標列の一連のディメンション要素の中の最大値を返します。 |
 | **[!UICONTROL 平均値]** | 指標の算術平均（平均）を返します。 |
@@ -91,32 +88,15 @@ _この記事では、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_*
 
 売上高指標の累積平均の例を以下に示します。
 
-![](assets/combo-cumul-avg.png)
+![ 累積平均を示すコンボグラフ ](assets/combo-cumul-avg.png)
 
 累積平均関数と平均関数の両方を含む複合グラフの例を次に示します。
 
-![](assets/combo-two-functions.png)
+![ 累積平均関数と平均関数の両方を表示する複合グラフ。](assets/combo-three-functions.png)
 
-## 複合グラフの設定
-
-複合グラフの右上にある歯車アイコンをクリックして、設定を変更します。
-
-![](assets/combo-settings.png)
-
-| 設定 | 定義 |
-| --- | --- |
-| **[!UICONTROL ビジュアライゼーションのタイプ]** | 別のビジュアライゼーションタイプに切り替えることができます。 |
-| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションでは、このドロップダウンリストから時間の精度（日、週、月など）を変更できます。 |
-| **[!UICONTROL 一般]** |  |
-| **[!UICONTROL 割合 (％)]** | 値を割合で表示します。 |
-| **[!UICONTROL 凡例を表示]** | コンボグラフビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
-| **[!UICONTROL 項目数の上限を設定]** | X 軸の項目数を減らします。 ビッグデータセットがある場合、最初の 10 項目（または選択した任意の値）のみが表示されます。 |
-| **[!UICONTROL オーバーレイ]** | 折れ線のバーベルを表示または非表示にします。 |
-| **[!UICONTROL 軸]** | |
-| **[!UICONTROL 二重軸を表示]** | 2 つの指標がある場合にのみ適用されます。（ある指標の）Y 軸を左側に、（他の指標の）Y 軸を右側に表示できます。これは、プロットされた指標のスケールが大きく異なる場合に役立ちます。複数の指標を比較する場合を除き、二重軸の色はテーブルの色と一致します。 この場合、すべての比較の色はグレーになります。 |
-| **[!UICONTROL 正規化]** | 指標を均等な比率にします。これは、プロットされた指標の大きさが非常に異なる場合に役立ちます。 |
-| **[!UICONTROL X 軸を表示]** | X 軸を表示するか、非表示にします。 |
-| **[!UICONTROL Y 軸を表示]** | Y 軸を表示するか、非表示にします。 |
-| **[!UICONTROL Y 軸をゼロに固定]** | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
-
-{style="table-layout:auto"}
+>[!MORELIKETHIS]
+>
+>[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

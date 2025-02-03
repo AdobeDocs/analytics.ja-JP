@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 27%
+source-wordcount: '593'
+ht-degree: 26%
 
 ---
 
@@ -39,11 +39,14 @@ _この記事は、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**A
 
 セグメント比較パネルは、[Segment IQ](../../segment-iq.md) のツールの一部で、無制限数のセグメント間で最も統計的に有意な違いを見つけます。この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。会社の KPI を推進するオーディエンスセグメントの主要な特性を自動的に発見し、セグメントがどの程度重なっているかを確認できます。
 
-+++ 以下は、セグメント比較に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメント比較 ](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 

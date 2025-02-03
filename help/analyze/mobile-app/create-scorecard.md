@@ -4,10 +4,10 @@ title: モバイルスコアカードの作成と共有
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 81%
+source-wordcount: '2524'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。はじめに、Adobe Analytics ダッシュボードスコアカードビルダーのビデオを視聴できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ モバイルスコアカードビルダー ](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics のスコアカードでは、次のように、エグゼクティブユーザー向けに主要データのビジュアライゼーションがタイル化されたレイアウトで表示されます。
 
@@ -121,11 +127,15 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 ## ビジュアライゼーションの適用 {#viz}
 
-モバイルスコアカードのビジュアライゼーションに関するビデオを表示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-Analytics ダッシュボードには 4 つのビジュアライゼーションがあり、ディメンション項目と指標に関する優れたインサイトを提供します。タイルの[!UICONTROL プロパティ]の[!UICONTROL チャートのタイプ]を変更して、別のビジュアライゼーションを適用します。適切なタイルを選択して、チャートのタイプを変更します。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ビジュアライゼーション ](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
+Analytics ダッシュボードには、4 つのビジュアライゼーションが用意されており、これらを使用してディメンション項目と指標を詳細に把握できます。タイルの[!UICONTROL プロパティ]の[!UICONTROL チャートのタイプ]を変更して、別のビジュアライゼーションを適用します。適切なタイルを選択して、チャートのタイプを変更します。
 
 ![タイルのプロパティ](assets/properties.png)
 
@@ -193,7 +203,13 @@ Analytics ダッシュボードには 4 つのビジュアライゼーション�
 
 カスタムの詳細スライドを使用すると、オーディエンスと共有する情報をさらに絞り込むことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタム詳細ビュー ](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 各詳細スライドのレイアウトを変更し、テキストを追加して、エンドユーザーに表示されるデータをより適切に説明できます。また、ドロップダウンメニューを使用してグラフのタイプを変更することもできます。
 
@@ -229,9 +245,12 @@ Analytics ダッシュボードには 4 つのビジュアライゼーション�
 
 例えば、web トラフィックに焦点を当てると、最も重要な指標は訪問数ですが、新規訪問者数やユニーク訪問者数にも関心がある場合や、web ページ別またはトラフィックが発生しているデバイスタイプ別にデータを分類したい場合があります。モバイルスコアカードプロジェクトのデータストーリーを使用すると、最も重要な指標を前面と中央に配置しながら、指標の背後にあるストーリー全体を複数の詳細スライドで伝えることができます。
 
-Analysis Workspace のモバイルスコアカードプロジェクトでデータストーリーを作成する方法について詳しくは、ビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データストーリーの作成 ](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
 
 **データストーリーを作成するには**
 

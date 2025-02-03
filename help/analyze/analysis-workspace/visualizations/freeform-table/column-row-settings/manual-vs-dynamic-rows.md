@@ -4,10 +4,10 @@ description: テーブルの動的および静的ディメンション項目の�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 フリーフォームテーブルにディメンションをドロップすると、動的な行が返されます。これらは、指定した指標と期間のディメンションに対応するトップ項目を表します。また、ディメンションをフリーフォームテーブルの列にドロップすると、ディメンションを自動的に上位 5 つのディメンション項目に展開します。
 
-例えば、ブラウザータイプディメンションをテーブルにドラッグすると、上位のブラウザータイプディメンション項目（Microsoft、Apple、Google など） が動的にテーブル行に戻ります。列にドロップすると、上位 5 つのブラウザータイプディメンション項目が動的に返されます。
+例えば、ブラウザータイプ ディメンションをテーブルにドラッグすると、上位のブラウザータイプ ディメンション項目（Microsoft、Apple、Googleなど）がテーブルの行に動的に戻ります。 列にドロップすると、上位 5 つのブラウザータイプディメンション項目が動的に返されます。
 
 動的ディメンション項目には、行フィルターオプションと「X」アイコンがあり、ロックアイコンは表示 **れ** いません。 <!--do they have the lock icon? --> 動的ディメンション項目の横にある「x」をクリックすると、フィルターが自動的に適用されます。 テーブルにフィルタを適用する方法の詳細については、「テーブルをフィルタして並べ替える [ を参照してください ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
@@ -57,6 +57,11 @@ ht-degree: 90%
 
 ## 静的行の並べ替え
 
-以下は、このトピックに関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 静的行の並べ替え ](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+

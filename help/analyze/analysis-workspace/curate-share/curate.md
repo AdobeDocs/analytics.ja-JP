@@ -5,10 +5,10 @@ title: プロジェクトのキュレーション
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,13 @@ ht-degree: 100%
 >[!NOTE]
 > 製品プロファイルは、ユーザーに表示されるコンポーネントを管理する主要メカニズムです。Adobe Experience Cloud Admin Console で管理されます。キュレーションはセカンダリフィルターです。
 
-以下は、プロジェクトのキュレーションおよび共有に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトをキュレーション ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
 
 ## プロジェクトキュレーションの適用
 

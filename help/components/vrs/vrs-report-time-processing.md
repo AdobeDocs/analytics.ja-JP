@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 69%
+source-wordcount: '1319'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 
 この処理アーキテクチャにより、従来よりもはるかに柔軟なレポートの作成が可能となります。例えば、訪問のタイムアウト時間を、必要な時間に非破壊的に変更できます。これらの変更は、完全なレポート期間中、eVar永続性コンテナおよびセグメントコンテナに反映されます。 また、ベースレポートスイートのデータを変更することなく、複数の仮想レポートスイートを作成して、同じベースレポートスイートに基づく別々のレポート時間処理オプションを仮想レポートスイートごとに設定することもできます。
 
-また、[!UICONTROL  レポート時間処理 ] では、Analytics がバックグラウンドヒットで新しい訪問が開始されないようにしたり、アプリ起動イベントがトリガーされるたびに ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)2}Adobe Experience Platform Mobile SDK} が新しい訪問を開始したりできます。[
+また、[!UICONTROL  レポート時間処理 ] では、Analytics がバックグラウンドヒットで新しい訪問が開始されないようにしたり、アプリ起動イベントがトリガーされるたびに ](https://experienceleague.adobe.com/docs/mobile.html?lang=ja)2}Adobe Experience Platform モバイルSDK} が新しい訪問を開始したりできます。[
 
 ## 設定オプション
 
@@ -40,9 +40,14 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 * **[!UICONTROL アプリが起動するたびに新しい訪問を開始]：** 訪問タイムアウトに加えて、非アクティブ状態の継続時間に関係なく、Mobile SDK からのアプリ起動イベントが記録されるたびに訪問を強制的に開始できます。この設定は、訪問指標や訪問セグメントコンテナだけでなく、eVar に対する訪問有効期限ロジックにも影響を与えます。
 * **[!UICONTROL イベントで新しい訪問を開始]：** セッションがタイムアウトしているかどうかに関係なく、イベントが発生すると新しいセッションが開始します。新しく作成されたセッションには、そのセッションを開始したイベントが含まれます。さらに、複数のイベントを使用して 1 つのセッションを開始できます。新しいセッションは、これらのイベントのいずれかがデータに検出された場合に開始されます。この設定は、訪問数、訪問セグメントコンテナおよび eVar の訪問有効期間ロジックにも影響します。
 
-以下は、イベントでの新しい訪問の開始に関するビデオです。
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ イベントで新しい訪問を開始 ](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
 
 ## レポート時間処理の制限事項
 

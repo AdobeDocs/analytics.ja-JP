@@ -3,9 +3,9 @@ title: Analytics テクニカルノート
 description: このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Adobe Analytics の主な機能には、次のものが含まれます。
 
 要約すると、Adobe Analytics は、企業がデジタルマーケティング活動を測定、分析、最適化するために必要なツールを備えた、強力な web 分析ソリューションです。リアルタイムデータ、高度な分析、アトリビューションモデリングにより、企業はデジタル変換を推進し、ROI を向上させるデータに基づく意思決定を行うことができます。
 
-以下は、Adobe Analytics の概説ビデオです。
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 主要なテクニカルノート記事
 

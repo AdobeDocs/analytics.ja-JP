@@ -4,10 +4,10 @@ title: コンポーネントの説明の追加
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Analytics 管理者は、レポートスイート内または Analysis Workspace
 
 ## レポートスイート内のコンポーネントへの説明の追加
 
-次のビデオでは、レポートスイートにディメンションと指標の説明を追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
 
 ## （データ辞書を使用した）Analysis Workspace のコンポーネントへの説明の追加 {#add-descriptions}
 
