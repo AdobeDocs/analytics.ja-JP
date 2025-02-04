@@ -4,10 +4,10 @@ description: オーディエンスに関するデータをより深く掘り下�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 81%
+source-wordcount: '708'
+ht-degree: 33%
 
 ---
 
@@ -39,80 +39,155 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 
 >[!ENDSHADEBOX]
 
-*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は]、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://ja.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
-コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレートして、任意のユーザーとコホートレポートを共有できます。[キュレートおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
 
-[!UICONTROL コホート分析]では、例えば次の操作をおこなえます。
+*コホート* とは、特定の期間、共通の特徴を共有する人々のグループです。 ![ テキスト番号付き ](/help/assets/icons/TextNumbered.svg)**[!UICONTROL コホートテーブル]** ビジュアライゼーションは、例えば、コホートがブランドとどのように関わっているかを学びたい場合に役立ちます。 トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://ja.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
+
+コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびフィルター）をキュレートして、任意のユーザーとコホートレポートを共有できます。[キュレートおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
+
+[!UICONTROL  コホートテーブル ] を使用して実行できる操作の例：
 
 * 目的のアクションを促進するために設計したキャンペーンを開始する。
 * 顧客のライフサイクルのまさに適切なタイミングでマーケティング予算を振り替える。
-* 価値を最大化するために、トライアルやオファーを終了するタイミングを認識する。
+* 価値を最大化するために、体験版またはオファーを終了するタイミングを認識します。
 * 価格やアップグレードパスなどの領域で、A/B テストの着想を得る。
 
-[!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
+[!UICONTROL  コホートテーブル ] は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべてのCustomer Journey Analyticsユーザーが利用できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![Analysis Workspaceでの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ コホート分析 ](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![Analysis Workspaceでの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ コホート分析 ](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} を参照してください。
+
+>[!ENDSHADEBOX]
+
+
+>[!IMPORTANT]
+>
+>[!UICONTROL  コホート分析 ] では、フィルタリングできない指標（計算指標など）、整数以外の指標（売上高など）、発生件数はサポートしていません。 [!UICONTROL  コホート分析 ] で使用できるのはフィルターで使用できる指標のみで、一度に増やせるのは 1 つのみです。
+
+Customer Journey Analyticsのコホートテーブルでは、ダブルベース（または任意の数値ベース）の指標をサポートしています。 例えば、Purchase.Value （double）はインクルージョン/リターン指標として使用できます。 また、Analytics Source Connector を介してAdobe Experience Platformに渡されるすべての指標も重複しています。
+
+## コホートテーブル機能
+
+以下の節では、作成するコホートを微調整して制御できるコホート分析機能について説明します。
+
+コホートの作成および [!UICONTROL  コホート分析 ] レポートの実行について詳しくは、[ コホートテーブルの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) を参照してください。
+
+### [!UICONTROL  リテンション ] テーブル
+
+[!UICONTROL  保持 ] コホートテーブルは人物を返します。各データセルは、その期間中にアクションを実行したコホート内の人物の生の数と割合を示します。 指標は最大 3 個、フィルターは最大 10 個含めることができます。
+
+![ コホート内のユーザーの単位と割合を示すレンションコホートレポート。](assets/retention-report.png)
+
+### [!UICONTROL  チャーン ] テーブル
+
+[!UICONTROL  チャーン ] コホートテーブルは、リテンション テーブルの逆であり、コホートの返品条件を満たさなかったユーザーまたは満たさなかったユーザーの経時的な数を示します。 指標は最大 3 個、フィルターは最大 10 個含めることができます。
+
+![ コホートの返品条件を満たさないユーザーの数量と割合を示すチャーンテーブル。](assets/churn-report.png)
+
+### [!UICONTROL ローリング計算]
+
+リテンションまたはチャーンは、「ローリング計算」と呼ばれる「含める」列ではなく、前の列に基づいて計算できます。
+
+![ 前のデータ列に基づく計算を示すコホート保持レポート。](assets/retention-report-rolling.png)
+
+### [!UICONTROL  待ち時間 ] テーブル
+
+待ち時間テーブルは、インクルージョンイベントが発生する前後の経過時間を測定します。 待ち時間の測定は、事前分析および事後分析に最適なツールです。 「**[!UICONTROL 含む]**」列がテーブルの中央にあり、インクルージョンイベント発生の前と後の期間が両側に表示されます。
+
+![ イベント前後の経過時間を示すコホートレポート。](assets/retention-report-latency.png)
+
+### [!UICONTROL  カスタムディメンション ] コホート
+
+時間ベースのコホート（デフォルト）ではなく、選択したディメンションに基づいてコホートを作成できます。 [!UICONTROL  市区町村地域 ]、[!UICONTROL  マーケティングチャネル ]、[!UICONTROL  キャンペーン ]、[!UICONTROL  製品 ]、[!UICONTROL  ページ ]、[!UICONTROL  地域 ] などのディメンションや、その他のディメンションを使用して、リテンションがどのように変化しているかを表示します。 これらのディメンションの様々な値に基づいています。
+
+![ 選択したディメンションでカスタマイズされたレポートを表示するコホートレポート。デフォルトの時間ベースのコホートではありません。](assets/retention-dimensions.png)
+
+>[!MORELIKETHIS]
+>
+>[ コホートテーブルの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+>
+
+
+
+<!--
+A *`cohort`* is a group of people sharing common characteristics over a specified period. [!UICONTROL Cohort Analysis] is useful, for example, when you want to learn how a cohort engages with a brand. You can easily spot changes in trends, then respond accordingly. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+
+After creating a cohort report, you can curate its components (specific dimensions, metrics, and segments), then share the cohort report with anyone. See [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+
+Examples of what you can do with [!UICONTROL Cohort Analysis]:
+
+* Launch campaigns designed to spur a desired action.
+* Shift marketing budget at exactly the right time in the customer lifecycle.
+* Recognize when to end a trial or an offer, in order to maximize value.
+* Gain ideas for A/B testing in areas such as pricing, upgrade path, and so on.
+
+[!UICONTROL Cohort Analysis] is available for all Adobe Analytics customers with access rights to [!UICONTROL Analysis Workspace].
+
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->[!UICONTROL  コホート分析 ] では、セグメント化できない指標（計算指標など）、整数以外の指標（売上高など）、発生件数はサポートしていません。
+>[!UICONTROL Cohort Analysis] does not support non-segmentable metrics (including calculated metrics), non-integer metrics (such as Revenue), or Occurrences. 
 >
->[!UICONTROL コホート分析] で使用できるのはセグメントで使用できる指標のみで、一度に増やせるのは 1 を超える数のみです。
+>Only metrics that can be used in segments can be used in [!UICONTROL Cohort Analysis], and they can only be incremented by >1 at a time. 
 
-## コホート分析の機能
+## Cohort Analysis capabilities
 
-以下の節では、作成するコホートを微調整して制御できるコホート分析機能について説明します。
+The following sections describe Cohort Analysis features that allow for fine-tuned control over the cohorts you are building.
 
-コホートの作成および [!UICONTROL  コホート分析 ] レポートの実行について詳しくは、[ コホート分析レポートの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) を参照してください。
+For more detailed information about creating a cohort and running a [!UICONTROL Cohort Analysis] report, see [Configure a Cohort Analysis report](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
-### [!UICONTROL リテンションテ]ーブル
+### [!UICONTROL Retention] Table
 
-[!UICONTROL リテンション]コホートレポートが訪問者を返す：各データセルは、その期間にアクションをおこなったコホートの生の訪問者数と割合を表します。指標は最大 3 個、セグメントは最大 10 個含めることができます。
+A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/retention-report.png)
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ローリングリテンションの計算 ](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} を参照してください。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 
-### [!UICONTROL チャーンテーブル]
+### [!UICONTROL Churn] Table
 
-[!UICONTROL チャーン]コホートはリテンションテーブルの逆で、コホートにおいてフォールアウトした訪問者、または一定期間内にリターン条件を満たしていない訪問者が表示されます。指標は最大 3 個、セグメントは最大 10 個含めることができます。
+A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. You can include up to 3 metrics and up to 10 segments.
 
 ![](assets/churn-report.png)
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ チャーン分析 ](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} を参照してください。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-### [!UICONTROL ローリング計算]
+### [!UICONTROL Rolling Calculation]
 
-「含む」列ではなく、直前の列に基づいてリテンションまたはチャーンを計算できます。
+Lets you calculate retention or churn based on the previous column, not the included column.
 
 ![](assets/cohort-rolling-calculation.png)
 
-### [!UICONTROL 待ち時間テーブル]
+### [!UICONTROL Latency] Table
 
-インクルージョンイベントが発生した前後の経過時間を測定します。このツールは、イベント発生前後の分析に役立ちます。「**[!UICONTROL 含む]**」列がテーブルの中央にあり、インクルージョンイベント発生の前と後の期間が両側に表示されます。
+Measures the time that has elapsed before and after the inclusion event occurred. This is an excellent tool for pre/post analysis. The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 
-### [!UICONTROL カスタムディメンショ]ンコホート
+### [!UICONTROL Custom Dimension] Cohort
 
-デフォルトの時間に基づくコホートではなく、選択したディメンションに基づいてコホートを作成します。[!UICONTROL マーケティングチャネル]、[!UICONTROL キャンペーン]、[!UICONTROL 製品]、[!UICONTROL ページ]、[!UICONTROL 地域]などのディメンションや、Adobe Analytics のその他のディメンションを使用して、これらのディメンションの様々な値に基づいてリテンションがどのように変化しているかを表示します。
+Create cohorts based on a selected dimension, and not time-based cohorts, which are the default. Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
+
+-->

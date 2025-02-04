@@ -4,10 +4,10 @@ title: Workspace の合計
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 94%
+source-wordcount: '474'
+ht-degree: 17%
 
 ---
 
@@ -15,32 +15,35 @@ ht-degree: 94%
 
 フリーフォームテーブルでは、合計行が各分類レベルに表示され、2 つの合計を示すことができます。
 
-* **[!UICONTROL 総計]**（灰色で表示されている「～中」の数） - この合計は、収集されたすべてのヒットを表し、「レポートスイートの合計」とも呼ばれます。セグメントがパネルレベルまたはフリーフォームテーブル内で適用されると、この合計は、セグメント条件に一致するすべてのヒットを反映するように調整されます。
-* **[!UICONTROL テーブル合計]**（黒い数字） - 通常、この合計は[!UICONTROL 総計]と等しいか、またはそのサブセットです。「[!UICONTROL なしを含む]」オプションなど、フリーフォームテーブル内で適用されたすべてのテーブルフィルターを反映します。
+![ 総計とテーブルの合計をハイライト表示したフリーフォームテーブル。](assets/total-row.png)
 
-![](assets/total-row.png)
+* **[!UICONTROL テーブル合計]** ➊ – この合計は、通常、[!UICONTROL  総計 ] と等しいか、またはそのサブセットです。 この合計には、「なし [!UICONTROL  オプションを含む、フリーフォームテーブル内で適用されたすべてのテーブルフィルターが反映さ ] ます。
+* **[!UICONTROL 総計]** （**[!UICONTROL 範囲外]** *数値*）➋ – この合計は、収集されたすべてのイベントを表します。 フィルターがパネルレベルまたはフリーフォームテーブル内で適用されると、この合計は、フィルター条件に一致するすべてのイベントを反映するように調整されます。
 
-## 合計設定を表示 {#display-total}
 
-「**[!UICONTROL 列設定]**」の下に、「**[!UICONTROL 合計を表示]**」と「**[!UICONTROL 総計を表示]**」のオプションがあります。これらの設定がオフの場合、合計はテーブルから削除されます。これは、例えば、特定の [ 計算指標シナリオ ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja) で合計が意味を持たない場合に望ましいでしょう。
 
-![](assets/column-settings-total.png)
 
-## 静的な行の合計の設定 {#static-row-total}
+## 合計を表示
 
-[静的な行](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=ja)の合計は、動作が異なり、「**[!UICONTROL 行設定]**」で制御されます。
+![ 設定 ](/help/assets/icons/Setting.svg)**[!UICONTROL 列設定]** には、**[!UICONTROL 合計を表示]** および **[!UICONTROL 総計を表示]** するオプションがあります。 これらの設定をオフにすると、合計がテーブルから削除されますが、合計が意味を持たない場合に望ましい場合があります。
 
-* **[!UICONTROL 現在の行の合計として表示]** - テーブル内の行のクライアント側の合計を表示します。これは、合計で訪問回数や訪問者数などの指標の重複が排除&#x200B;**されない**&#x200B;ことを意味します。
-* **[!UICONTROL 総計を表示]** - サーバー側の合計を表示します。つまり、合計で訪問回数や訪問者数などの指標の重複が排除されます。
 
-![](assets/static-rows.png)
+[ 静的行 ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) 合計の動作は異なり、![ 設定 ](/help/assets/icons/Setting.svg) **[!UICONTROL 行設定]** を使用して制御されます。
+
+| オプション | 説明 |
+|---|---|
+| **[!UICONTROL 現在の行の合計を合計として表示]** | クライアント側のテーブルの行の合計を表示します。 この合計によって **セッションやユーザーなどの指標の重複が排除される** ことはありません）。 |
+| **[!UICONTROL 総計を表示]** | サーバーサイドの合計値を表示します。 この合計によって、セッションやユーザーなどの重複除外指標が合計されます。 |
+
+[ フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目 ](column-row-settings/manual-vs-dynamic-rows.md) を参照してください。
+
 
 ## よくある質問
 
 | 質問 | 回答 |
 |---|---|
-| 灰色の列の割合は、どの「合計」を基準にしていますか。 | これは、「**[!UICONTROL 行設定]**」で選択した「**[!UICONTROL パーセンテージ]**」の設定によって異なります。<ul><li>割合を列ごとに計算 - これがデフォルト設定です。割合は、テーブル合計に基づきます。</li><li>割合を行ごとに計算 - パーセントは総計に基づきます。</li></ul> |
-| 「**[!UICONTROL 未指定 (なし) を含む]**」設定は、合計にどのように影響しますか。 | 「**[!UICONTROL 未指定 (なし) を含む]**」設定がオフの場合、「なし/未指定」の行はテーブル（テーブル合計）から削除され、[「合計」の指標タイプ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html?lang=ja)を使用する計算指標にも適用されます。 |
-| フリーフォームテーブルにカスタムテーブルフィルターを適用する場合、そのフィルターに対してすべての計算指標と条件付き書式設定を利用できますか。 | 現在は利用できません。「**[!UICONTROL 未指定 (なし) を含む]**」は計上されますが、カスタムテーブルフィルターは次に影響しません。<ul><li>条件付き書式で使用される列の最大／最小範囲は、すべてのデータを対象とします。</li><li>**[!UICONTROL 総計]**&#x200B;指標タイプを利用する計算指標。</li><li>フリーフォームテーブルの行をまたいで計算する関数（例：Column Sum、Column max、Column min、Count、Mean、Median、Percentile、Quartile、Row Count、Standard Deviation、Variance、Cumulative、Cumulative Average、Regression variants、T-Score、T-Test、Z-Score、Z-Test）を使用する計算指標。</li></ul> |
-| 計算指標では、「総計 **[!UICONTROL 指標タイプは何を反映して]** ますか？ | 「**[!UICONTROL 総計]**」は引き続き「**[!UICONTROL 総計]**」を参照します。また、テーブルや&#x200B;**[!UICONTROL テーブル合計]**&#x200B;に適用されたフィルターは反映されません。 |
-| フリーフォームテーブルからデータをコピーして貼り付けるか、CSV でデータをダウンロードすると、合計はどのように表示されますか。 | 合計行は、**[!UICONTROL テーブル合計]**&#x200B;のみを反映し、列の&#x200B;**[!UICONTROL 合計を表示]**&#x200B;設定に従います。 |
+| グレーの列のパーセンテージは、どの *合計* に基づいていますか？ | この *合計* は、**[!UICONTROL 行設定]** の **[!UICONTROL 割合]** 設定の選択によって異なります。<ul><li>列別に割合を計算 – この設定がデフォルトです。 割合は、テーブルの合計に基づきます。</li><li>行ごとにパーセンテージを計算する – パーセンテージは、総計に基づいています。</li></ul> |
+| 「**[!UICONTROL 未指定 (なし) を含む]**」設定は、合計にどのように影響しますか。 | 未指定（なし）を含める設定をオフにすると、なし/未指定の行はテーブルから削除され、テーブルの合計となり、[ 「合計」指標タイプを使用する計算指標に繰り越され ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) す。 |
+| フリーフォームテーブルにカスタムテーブルフィルターを適用する場合、そのフィルターに対してすべての計算指標と条件付き書式設定を利用できますか。 | 現在は利用できません。**[!UICONTROL 指定を含める（なし）]** は考慮されますが、カスタムテーブルフィルターは次の点に影響しません。<ul><li>条件付き書式で使用される列の最大/最小範囲は、すべてのデータで見られます。</li><li>**[!UICONTROL 総計]** 指標タイプを活用する計算指標。</li><li>フリーフォームテーブルの行をまたいで計算する関数を含む計算指標：列合計、列の最大、列の最小、数、平均、中央値、パーセンタイル、四分位数、行数、標準偏差、平方偏差、累積、累積平均、回帰バリアント、T スコア、T テスト、Z スコアおよび Z テスト。</li></ul> |
+| 計算指標の **[!UICONTROL 総計]** 指標タイプには何が反映されますか？ | **[!UICONTROL 総計]** は引き続き **[!UICONTROL 総計]** を参照し、テーブルまたは **[!UICONTROL テーブル合計]** に適用されたフィルターを反映しません。 |
+| フリーフォームテーブルからデータをコピーして貼り付けるか、CSV でデータをダウンロードすると、合計はどのように表示されますか。 | 集計行には、**[!UICONTROL テーブルの合計]** のみが反映され、列 **[!UICONTROL 合計を表示]** の設定に従います。 |

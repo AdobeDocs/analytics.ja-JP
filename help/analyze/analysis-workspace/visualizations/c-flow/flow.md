@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ _この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![
 
 各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
 
-## フロービジュアライゼーションの設定
-
-フロービジュアライゼーションの設定方法については、[フロービジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)を参照してください。
-
-## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
+>[!MORELIKETHIS]
+>
+>[ フロービジュアライゼーションの設定 ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)。
+>
 
 
 ## 追加機能
