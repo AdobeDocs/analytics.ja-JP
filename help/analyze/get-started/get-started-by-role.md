@@ -3,9 +3,9 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Analysis Workspace で分析を作成する方法について詳しくは、[Ana
 [Analytics API を使用すると、アドビのサーバーを直接呼び出し、ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。](https://developer.adobe.com/analytics-apis/docs/2.0/)
 
 レポートを作成して、データに関する重要な質問を調べたり、インサイトを得たり、回答したりすることができます。また、セグメントや計算指標の作成など、Adobe Analytics のコンポーネントを管理することもできます。
+
+>[!MORELIKETHIS]
+>
+>[ソリューションデザインドキュメントの作成](/help/implement/prepare/solution-design.md)
+>
