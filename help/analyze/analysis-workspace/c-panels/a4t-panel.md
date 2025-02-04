@@ -7,7 +7,7 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1130'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Analytics for Target パネル"
->abstract="Analysis Workspace で Target アクティビティとエクスペリエンスを分析します。<br/><br>**パラメーター&#x200B;**<br/>**ターゲットアクティビティ**：分析されるターゲットアクティビティ。<br/>**コントロールエクスペリエンス**：選択した Target アクティビティのエクスペリエンスをコントロールします。<br/>**指標の標準化**：訪問者数、訪問回数またはインプレッション数。 この指標（カウント手法とも呼ばれます）は、上昇率計算の分母になります。また、信頼性計算が適用される前のデータの集計方法に影響します。<br/>**成功指標**:Target アクティビティを分析するための最大 3 つの標準（非計算）成功指標。"
+>abstract="Analysis Workspace で Target アクティビティとエクスペリエンスを分析します。<br/><br>**パラメーター&#x200B;**<br/>**Target アクティビティ**：分析対象となる Target アクティビティ。<br/>**エクスペリエンスを制御**：選択した Target アクティビティのエクスペリエンスを制御します。<br/>**指標の標準化**：訪問者数、訪問回数またはインプレッション数。この指標（カウント手法とも呼ばれます）は、上昇率計算の分母になります。また、信頼性計算が適用される前のデータの集計方法に影響します。<br/>**成功指標**：Target アクティビティを分析するための最大 3 つの標準（計算されていない）成功指標。"
 
 <!-- markdownlint-enable MD034 -->
 

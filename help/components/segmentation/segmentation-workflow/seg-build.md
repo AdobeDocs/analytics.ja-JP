@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="データのプレビュー"
->abstract="このフィルターのデータをデータビューのデータと比較します。 プレビューの割合は、**過去 90 日間** のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
+>abstract="このフィルターのデータとデータビューのデータを比較します。プレビューの割合は、**過去 90 日間**&#x200B;のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
 
 <!-- markdownlint-enable MD034 -->
 

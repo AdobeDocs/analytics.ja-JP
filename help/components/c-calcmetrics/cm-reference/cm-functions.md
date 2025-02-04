@@ -45,7 +45,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-abs"
 >title="絶対値"
->abstract="数の絶対値を返します。数の絶対値とは、正の値を持つ数です。"
+>abstract="数値の絶対値を返します。数値の絶対値は、正の値を持つ数値です。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,13 +66,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-col-max"
 >title="列の最大値"
->abstract="指標列の一連のディメンション要素の中の最大値を返します。MAXV は、複数のディメンション要素の 1 つの列（指標）内を垂直方向に評価します。"
+>abstract="指標列の一連のディメンション要素の中の最大値を返します。MAXV は、ディメンション要素をまたいで、1 つの列（指標）内を垂直方向に評価します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MAXIMUM(metric, include_zeros)]**
 
-指標列の一連のディメンション要素の中の最大値を返します。MAXV は、複数のディメンション要素の 1 つの列（指標）内を垂直方向に評価します。
+指標列の一連のディメンション要素の中の最大値を返します。MAXV は、ディメンション要素をまたいで、1 つの列（指標）内を垂直方向に評価します。
 
 | 引数 | 説明 |
 |---|---|
@@ -87,14 +87,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-col-min"
 >title="列の最小値"
->abstract="指標列の一連のディメンション要素の中の最小値を返します。MINV は、複数のディメンション要素の 1 つの列（指標）内を垂直方向に評価します。"
+>abstract="指標列の一連のディメンション要素の中の最小値を返します。MINV は、ディメンション要素をまたいで、1 つの列（指標）内を垂直方向に評価します。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL COLUMN MINIMUM(metric, include_zeros)]**
 
-指標列の一連のディメンション要素の中の最小値を返します。MINV は、複数のディメンション要素の 1 つの列（指標）内を垂直方向に評価します。
+指標列の一連のディメンション要素の中の最小値を返します。MINV は、ディメンション要素をまたいで、1 つの列（指標）内を垂直方向に評価します。
 
 | 引数 | 説明 |
 |---|---|
@@ -151,7 +151,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-exp"
 >title="指数"
->abstract="指定された数の指数（e）を返します。定数 e は 2.71828182845904 と等しく、これは自然対数の底です。EXPONENT（指数）は LN（数の自然対数）の逆関数です。"
+>abstract="指定された数値の累乗した e を返します。定数 e は、自然対数のベースである 2.71828182845904 に等しくなります。EXPONENT（指数）は LN（数の自然対数）の逆関数です。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -428,7 +428,7 @@ ROUND( 314.15, -2) = 300
 >[!CONTEXTUALHELP]
 >id="functions-sqrt"
 >title="平方根"
->abstract="数の正の平方根を返します。数の平方根は、2 乗してその数になる値です。"
+>abstract="数値の正の平方根を返します。 数値の平方根は、その数値を 1/2 乗した値です。"
 
 <!-- markdownlint-enable MD034 -->
 

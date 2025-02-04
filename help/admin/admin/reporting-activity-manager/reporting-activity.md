@@ -17,7 +17,7 @@ ht-degree: 14%
 
 主なメリットや権限要件など、レポートアクティビティマネージャーについて詳しくは、[ レポートアクティビティマネージャーの概要 ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) を参照してください。
 
-## すべてのレポートスイートのレポートアクティビティを表示 {#view-all-report-suites}
+## すべてのレポートスイートのレポートアクティビティの表示 {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 
