@@ -3,20 +3,18 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
 workflow-type: tm+mt
-source-wordcount: '3932'
-ht-degree: 95%
+source-wordcount: '2410'
+ht-degree: 6%
 
 ---
 
-# 順次セグメントの構築
+# 順次セグメント
 
-順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
+コンポーネント、コンテナおよびコンポーネントまたはコンテナの間の [!UICONTROL Then] 論理演算子を使用して順次セグメントを作成します。 [!UICONTROL Then] 論理演算子は、セグメント条件が 1 つ、続いて別のセグメント条件が発生することを意味します。
 
-![](assets/before-after-sequence.png)
-
-さらに、[After および Within 演算子](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を使用して、特定の期間、精度およびチェックポイント間のカウントに順次セグメントを制限することができます。
+さらに、**[!UICONTROL After]** 演算子と **[!UICONTROL Within 演算子]** を使用して、連続するセグメントをチェックポイント間の特定の期間、精度およびカウントに制限できます。
 
 
 >[!BEGINSHADEBOX]
@@ -25,414 +23,279 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
+順次セグメントには、いくつかの [ 基本機能 ](#basics) と、順次セグメントにより多くの複雑さを追加するように設定できる追加のオプションがあります。
 
-## 全員を含む {#section_75ADDD5D41F04800A09E592BB2940B35}
+![ 順次セグメント ](assets/sequential-segment.gif)
 
-「全員を含む」が設定されているセグメントを作成すると、そのセグメントでは指定されたパターン全体と一致するパスを識別します。これは、同じ訪問者が訪問したときのヒット（ページ A）に続くヒット（ページ B）を探す基本的なシーケンスセグメントの例です。セグメントを「全員を含む」に設定します。
 
-![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
+## 基本
 
-| 結果が次の場合： | シーケンス |
-|--- |--- |
-| 一致する | A -> B<br>A ->（別の訪問で）B<br>A -> D -> B |
-| 一致しない | B -> A |
+順次セグメントを作成する際の基本は、[ セグメントビルダー ](seg-build.md) を使用して通常のセグメントを作成する場合と同じです。 通常のセグメントは、メイン定義または [ セグメント化ビルダー ](seg-build.md) 内で使用する任意のコンテナで **[!UICONTROL Then]** 演算子を選択するとすぐに、自動的に順次セグメントになります。
 
-## シーケンスの前のみおよびシーケンスの後のみ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+### 例
 
-「**[!UICONTROL シーケンスの前のみ]**」および「**[!UICONTROL シーケンスの後のみ]**」オプションは、セグメントを特定のシーケンスの前または後のデータのサブセットにフィルタリングします。
+以下の例は、様々なユースケースで順次セグメントを使用する方法を示しています。
 
-* **シーケンスの前のみ**：シーケンスの前のすべてのヒットおよびシーケンス自体の最初のヒットが含まれます（例 1、3 を参照）。1 つのパスにシーケンスが複数回現れる場合、「シーケンスの前のみ」には、最後のシーケンスの最初のヒットおよびそれ以前のすべてのヒットが含まれます（例 2 を参照）。
-* **シーケンスの後のみ**：シーケンスの後のすべてのヒットおよびシーケンス自体の最後のヒットが含まれます（例 1、3 を参照）。1 つのパスにシーケンスが複数回現れる場合、「シーケンスの後のみ」には、最初のシーケンスの最後のヒットおよびそれ以後のすべてのヒットが含まれます（例 2 を参照）。
+#### 単純なシーケンス
 
-例えば、B -> D のシーケンスについて考えてみます。3 つのフィルターは、次のようにヒットを識別します。
+あるページを閲覧した後に別のページを閲覧した訪問者を識別します。ヒットレベルのデータは、このシーケンスを使用してセグメント化されます。 前、過去、中間の訪問者数、または訪問間に発生したページビューの時間や数に関係なく、
 
-**例 1：B の次に D が 1 回現れる**
+![ 順次セグメントにすべてのユーザーを含める ](assets/sequence-include-everyone.png)
 
-| 例 | A | B | C | D | E | F |
-|---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | F |
-| シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | F |
+#### 訪問全体のシーケンス
 
-**例 2：B の次に D が複数回現れる**
+ある訪問でページを閲覧した訪問者を特定してから、別の訪問で別のページを閲覧した訪問者を特定します。 訪問を区別するには、コンテナを使用してシーケンスを作成し、コンテナごとに ![ 訪問 ](/help/assets/icons/Visit.svg)**[!UICONTROL 訪問]** レベルを定義します。
 
-| 例 | A | B | C | D | B | C | D | E |
-|---|---|---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | B | C | D | E |
-| シーケンスの前のみ | A | B | C | D | B |  |  |  |
-| シーケンスの後のみ |  |  |  | D | B | C | D | E |
+![ 訪問全体のシーケンスセグメント ](assets/sequence-filter-session.png)
 
-また、この概念をヒットの深さディメンションに当てはめてみましょう。
+#### 混合レベルシーケンス
 
-**例 3：ヒットの深さ 3 の後に 5**
+未決定訪問数で 2 ページを表示した訪問者を特定してから、別の訪問で 3 ページ目を表示します。 この場合も、コンテナを使用してシーケンスを作成し、個別の訪問を定義するコンテナに対して ![ 訪問 ](/help/assets/icons/Visit.svg)**[!UICONTROL 訪問]** レベルを定義します。
 
-![](assets/hit-depth.png)
+![ 個別の最終訪問を含むシーケンスセグメント ](assets/sequence-filter-final-session.png)
 
-## ディメンション制約 {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+#### 集計シーケンス
 
-「within」句の「THEN」ステートメントの間に、例えば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。
+最初の訪問で特定のページを訪問し、後で他のページを訪問した訪問者を特定します。 ヒットのシーケンスを区別するには、コンテナを使用して、![WebPage](/help/assets/icons/WebPage.svg)**[!UICONTROL Visit]** コンテナレベルでロジックを区切ります。
 
-ルールの間に「Within ディメンション」句を設定したセグメントでは、その句を満たすシーケンスにデータを制限できます。制約が「Within 1 page（1 ページ内）」に設定されている以下の例を参照してください。
+![ 集計コンテナにアクセス ](assets/session-aggregate-containers.png)
 
-![](assets/sequence-filter4.png)
 
-| 結果が次の場合： | シーケンス |
-|--- |--- |
-| 一致する | A -> B |
-| 一致しない | A -> C -> B （B は A から 1 ページ以内ではなかったため）<br>**注：** ディメンションの制限を取り除くと、「A -> B」と「A -> C -> B」の両方が一致します。 |
+#### シーケンスをネスト
 
-## 単純なページビューシーケンス
+訪問者が 1 ページ前を訪問し、次に他の 2 ページを含むフォローアップ訪問を行ったすべての訪問を特定します。 例えば、訪問者が最初にホームページを訪問したすべての訪問を特定してから、カテゴリ 1 ページを訪問し、その後、各訪問でカテゴリ 2 およびカテゴリ 3 ページを訪問した他の訪問を持ちます。
 
-あるページを閲覧した後に別のページを閲覧した訪問者を識別します。以前、過去または中間の訪問セッションまたは間に発生したページビューの時間や数に関係なく、ヒットレベルのデータによって、このシーケンスがフィルターされます。
+![ ネストされたシーケンス ](assets/sequence-nested.png)
 
-**例**：訪問者がページ A を閲覧し、さらに、同じまたは別の訪問内でページ B を閲覧します。
+## [!UICONTROL After] and [!UICONTROL Within]
 
-**使用例**
+**[!UICONTROL Then]** 演算子の ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** および ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** を使用して、追加の [ 時間制約 ](#time-constraints) または [ ヒット、訪問またはDimensionの制約 ](#event-session-and-dimension-constraints) を定義できます。
 
-次に、セグメントの使用例を示します。
+### 時間制約
 
-1. スポーツサイトの訪問者がフットボールランディングページを閲覧し、その後、バスケットボールランディングページを閲覧しますが、必ずしも同じ訪問であるとは限りません。これは、フットボールシーズン中のフットボールの閲覧者にバスケットボールに関するコンテンツをプッシュするようにキャンペーンに促します。
-1. ある自動車小売店では、顧客の忠誠度ページをランディングページとして閲覧し、その後、同じ訪問または別の訪問でビデオページに移動した訪問者間の関係を識別します。
+**[!UICONTROL Then]** 演算子に時間制約を適用するには：
 
-**このセグメントを作成**
+1. ![Clock](/help/assets/icons/Clock.svg) を選択します。
+1. コンテキストメニューから **[!UICONTROL Within]** または **[!UICONTROL After]** を選択します。
+1. 期間（**[!UICONTROL 分]**、**[!UICONTROL 時間]** を **[!UICONTROL 年]**）まで指定します。
+1. ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**を選択すると、**[!UICONTROL -]**または**[!UICONTROL +]**を使用して数値を入力または指定できるポップアップが開きます。
 
-2 つのページルールをトップレベルの[!UICONTROL 訪問者]コンテナ内でネストし、[!UICONTROL THEN] 演算子を使用してページヒットを順番に並べます。
+時間制約を削除するには、![CrossSize75](/help/assets/icons/CrossSize75.svg) を使用します。
 
-![](assets/segment_sequential_1.png)
-
-## 複数の訪問にまたがる訪問者シーケンス
-
-キャンペーンからフォールアウトしたが、別のセッションでこのページビューのシーケンスに戻ってきた訪問者を識別します。
-
-**例**：訪問者がある訪問でページ A を閲覧し、その後別の訪問でページ B を閲覧した。
-
-**使用例**
-
-次に、このタイプのセグメントの使用例を示します。
-
-* ニュースサイトのスポーツページを訪問した後、別のセッションでスポーツページを再度訪問します。
-* ある衣料品店では、あるセッションでランディングページを閲覧し、さらに、別のセッションでチェックアウトページに直接移動した訪問者間の関係を表示します。
-
-**このセグメントを作成**
-
-この例では、2 つの&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナをトップレベルの&#x200B;**[!UICONTROL 訪問者]**&#x200B;コンテナ内でネストし、[!UICONTROL THEN] 演算子を使用してセグメントを順に並べます。
-
-![](assets/visitor_seq_across_visits.png)
-
-## 混合レベルシーケンス
-
-不明な訪問回数の間に 2 つのページを閲覧し、さらに別の訪問で 3 ページ目を閲覧した訪問者を識別します。
-
-**例**：訪問者は 1 回以上の訪問でページ A に続き、ページ B を訪問し、さらに別の訪問でページ C を訪問した。
-
-**使用例**
-
-次に、このタイプのセグメントの使用例を示します。
-
-* 訪問者は、最初にニュースサイトを訪問した後、同じ訪問でスポーツページを閲覧します。さらに、別の訪問でウェザーページを訪問します。
-* ある小売店では、メインページの後にマイアカウントページに入る訪問者を定義します。さらに、これらの訪問者は、別の訪問でカートを表示ページを訪問します。
-
-**このセグメントを作成**
-
-1. 左のパネルからトップレベルの「[!UICONTROL 訪問者]」コンテナ内に 2 つのページディメンションをドロップします。
-1. これらのページディメンション間に THEN 演算子を追加します。
-1. **[!UICONTROL オプション]**／**[!UICONTROL コンテナを追加]**&#x200B;をクリックし、[!UICONTROL 訪問者]レベルの下に[!UICONTROL 訪問]コンテナを追加し、[!UICONTROL THEN] 演算子を使用して順番に並べます。
-
-![](assets/mixed_level_checkpoints.png)
-
-## 集計コンテナ
-
-[!UICONTROL 訪問者]コンテナ内に[!UICONTROL ヒット]コンテナを複数追加すると、同じタイプのコンテナの間に適切な演算子を使用できます。また、ページ数や訪問回数などのルールやディメンションを使用して、ページビューを定義し、[!UICONTROL ヒット]コンテナ内に順次ディメンションを指定することもできます。ヒットレベルでロジックを適用すると、[!UICONTROL 訪問者]コンテナ内で一致した同じレベルのヒットを制限および組み合わせて、様々なタイプのセグメントを作成できます。
-
-**例**：ページビューのシーケンスの最初のヒット（この例ではページ D）の後で、訪問者がページ A を訪問してから、ページ B またはページ C のいずれかを訪問した（訪問回数は不問）。
-
-**使用例**
-
-次に、このタイプのセグメントの使用例を示します。
-
-* ある訪問でメインランディングページを訪問し、次の訪問で男性衣料品ページを閲覧し、さらに次の訪問で女性または子供のランディングページを閲覧した訪問者を識別します。
-* e-zine で、ある訪問でホームページを閲覧し、次の訪問でスポーツページを閲覧し、さらに次の訪問でオピニオンページを閲覧した訪問者を収集します。
-
-**このセグメントを作成**
-
-1. [!UICONTROL 訪問者]コンテナを、トップレベルのコンテナとして選択します。
-1. 2 つの[!UICONTROL ヒット]レベルのコンテナを追加します。このとき、ディメンションには、[!UICONTROL AND] や [!UICONTROL OR] 演算子によって同じ[!UICONTROL ヒット]レベルで結合された適切な数値ディメンションを含めます。
-1. 同じ[!UICONTROL 訪問]コンテナ内に、別の[!UICONTROL ヒット]コンテナを追加し、[!UICONTROL OR] または [!UICONTROL AND] 演算子で結合された 2 つの追加の[!UICONTROL ヒット]コンテナをネストします。
-
-   [!UICONTROL THEN] 演算子を使用して、ネストされた[!UICONTROL ヒット]コンテナのシーケンスを作成します。
-
-![](assets/aggregate_checkpoints2.png)
-
-## 順次セグメントの「ネスト」
-
-[!UICONTROL 訪問]と[!UICONTROL ヒット]の両方のレベルでチェックポイントを配置することで、特定の訪問に加えて特定のヒット内の要件も満たすようにセグメントに制約をかけることができます。
-
-**例**：訪問者がページ A に訪問した後、その同じ訪問内でページ B に訪問し、さらに別の訪問でページ C にアクセスした。
-
-**このセグメントを作成**
-
-1. トップレベルの[!UICONTROL 訪問]コンテナで、2 つのページディメンションをドラッグします。
-1. 両方のルールを選択し、**[!UICONTROL オプション]**／**[!UICONTROL 選択項目からコンテナを追加]**&#x200B;をクリックし、「[!UICONTROL 訪問]」に変更します。
-1. これらのルールを [!UICONTROL THEN] 演算子で結合します。
-1. [!UICONTROL 訪問]コンテナのピアとしてヒットコンテナを作成し、ページディメンションをドラッグします。
-1. 別の [!UICONTROL THEN] 演算子を追加して、[!UICONTROL 訪問]コンテナ内のネストされたシーケンスを、[!UICONTROL ヒット]コンテナと結合します。
-
-![](assets/nesting_sequential_seg.png)
-
-## ヒットの除外
-
-「[!UICONTROL 以下を除外する]」ルールを使用して[!UICONTROL 訪問者]、[!UICONTROL 訪問]または[!UICONTROL ヒット]のデータを明示的に除外しない限り、セグメントルールはすべてのデータを含みます。「以下を除外する」ルールは、一般的なデータを無視して、より焦点を絞ったセグメントを作成するために使用できます。また、検索されたグループを除外するセグメントを作成して、それ以外のデータセットを識別するためにも使用できます。例えば、注文をした成功訪問者を含めたルールを作成した後に成功訪問者を除外することで「非購入者」を識別するという方法が考えられます。ただし、ほとんどの場合は、特定の値を含む対象を識別するために「[!UICONTROL 以下を除外する]」ルールを使用するよりも、広範な値を除外するルールを作成する方が良いでしょう。
-
-次に例を示します。
-
-* **ページの除外**。セグメントルールを使用して、レポートから特定のページ（*`Home Page`* など）を除外し、ページが「ホームページ」に等しいヒットルールを作成してから除外します。 このルールにより、ホームページを除くすべての値が自動的に含まれるようになります。
-* **参照ドメインの除外**。Google.com からの参照ドメインのみ含み、その他のすべての参照ドメインを除外するルールを使用します。
-* **非購入者の識別**。注文件数が 1 以上の場合を識別して、その[!UICONTROL 訪問者]を除外します。
-
-[!UICONTROL Exclude] 演算子を使用して、特定の訪問またはヒットが訪問者によって実行されないシーケンスを識別できます。[!UICONTROL  チェックポイントを除外 ] は、[ 論理グループ ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) 内に含めることもできます。
-
-### チェックポイント間の除外
-
-あるチェックポイントが他の 2 つチェックポイント間で明示的に発生しなかった場合に訪問者をセグメント化する論理を強制します。
-
-**例**：ページ A の後、ページ C を訪問したが、ページ B を訪問しなかった訪問者。
-
-**使用例**
-
-次に、このタイプのセグメントの使用例を示します。
-
-* ライフスタイルページの後、アートページに行かずに、シアターセクションを訪問した訪問者。
-* ある自動車販売店では、メインランディングページの後、車両ページに行かずに、キャンペーンに興味なしページに直接移動した訪問者間の関係を表示します。
-
-**このセグメントを作成**
-
-単純な順次セグメント、混合レベルの順次セグメント、またはネストされた順次セグメントの場合と同様にセグメントを作成し、コンテナ要素に [!UICONTROL EXCLUDE] 演算子を設定します。次の例は、集計セグメントです。ここでは、3 つの[!UICONTROL ヒット]コンテナがキャンバスにドラッグされており、コンテナ論理を結合するために [!UICONTROL THEN] 演算子が割り当てられています。その後で、シーケンス内でページ A からページ C に移動した訪問者だけを含めるために中間のページビューコンテナが除外されています。
-
-![](assets/exclude_between_checkpoints.png)
-
-### シーケンスの開始時の除外
-
-除外チェックポイントが順次セグメントの最初にある場合、除外されないヒットが最初に閲覧される前に、除外されるページは閲覧されないものとして扱われます。
-
-例えば、あるレストランが、メインランディングページを避けて注文ページに直接移動する傾向のあるユーザーを表示したいとします。 このデータを表示するには、ランディングページへのヒットを除外し、順次セグメントの注文ページへのヒットを含めます。
-
-**このセグメントを作成**
-
-トップレベルの訪問者コンテナ内に 2 つの別個のヒットコンテナを作成します。次に、最初のコンテナに対して [!UICONTROL EXCLUDE] 演算子を設定します。
-
-![](assets/exclude_beginning_sequence.png)
-
-### シーケンスの終了時の除外
-
-除外チェックポイントがシーケンスの最後にある場合、訪問者シーケンスが終了するまで、除外されない最後のチェックポイントと訪問者シーケンスの最後の間でチェックポイントは発生しません。
-
-例えば、ある衣料品店が、製品ページを閲覧した後に買い物かごにアクセスしなかったすべての訪問者を表示したいとします。 この例は、訪問者がページ A に移動した後に現在または後続の訪問でページ B に移動しない場合として簡略化できます。
-
-**このセグメントを作成**
-
-単純な順次セグメントを作成します。そのためには、2 つの[!UICONTROL ヒット]コンテナをキャンバスにドラッグし、[!UICONTROL THEN] 演算子を使用してそれらのコンテナを結合します。次に、[!UICONTROL EXCLUDE] 演算子をシーケンス内の 2 番目の[!UICONTROL ヒット]コンテナに割り当てます。
-
-![](assets/exclude_end_sequence.png)
-
-## 論理グループコンテナ
-
-「論理グループ」コンテナは、条件を単一の順次セグメントチェックポイントにグループ化する場合に必要です。特別な「論理グループ」コンテナは、順次セグメント化でのみ使用でき、前の順次チェックポイントの後、および後続の順次チェックポイントの前に、条件が満たされるようにします。論理グループチェックポイント内の条件は、どの順序でも満たすことができます。これに対し、非順次コンテナ（ヒット、訪問、訪問者）は、シーケンス全体で条件を満たす必要がないので、THEN 演算子と組み合わせて使用した場合に得られる結果は直観的ではありません。「[!UICONTROL 論理グループ]」コンテナは、*複数のチェックポイントをグループとして*&#x200B;扱うように設計されていますが、グループ化されたチェックポイントの&#x200B;*順序*&#x200B;は指定していません。つまり、そのグループ内のチェックポイントの順序は決まっていません。例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。しかし、代わりに、[!UICONTROL 論理グループ]コンテナを[!UICONTROL 訪問者]コンテナ内にネストし、特定の[!UICONTROL 訪問]レベルおよび[!UICONTROL ヒット]レベルのチェックポイントをそこに含めることができます。
-
->[!NOTE]
->
->[!UICONTROL 論理グループ]を定義できるのは、順次セグメントのみです。つまり、式の内部で、[!UICONTROL THEN] 演算子が使用されます。
-
-| コンテナの階層 | イラスト | 定義 |
-|---|---|---|
-| 標準的なコンテナ階層 | ![](assets/nesting_container.png) | ヒット数、訪問数および訪問者に基づいてセグメントを抽出するために、[!UICONTROL 訪問者]コンテナ内で、[!UICONTROL 訪問]コンテナと[!UICONTROL ヒット]コンテナが順次ネストされます。 |
-| ロジックコンテナ階層 | ![](assets/logic_group_hierarchy.png) | 標準的なコンテナ階層は、[!UICONTROL 論理グループ]コンテナの外側にも必要です。ただし、[!UICONTROL 論理グループ]コンテナ内部では、チェックポイントの順序や階層を設定する必要はありません。これらのチェックポイントで必要なのは、順序を問わず、訪問者が条件を満たすことです。 |
-
-論理グループは大変な作業に見える場合があります。論理グループの使用方法に関するベストプラクティスを以下に示します。
-
-**論理グループコンテナまたはヒット／訪問コンテナのどちらが適していますか。**
-順次チェックポイントをグループ化する場合、「コンテナ」は「論理グループ」になります。ただし、これらの順次チェックポイントが 1 回のヒットまたは訪問の範囲内で発生する必要がある場合は、「ヒット」または「訪問」コンテナが必要です。（もちろん、1 回のヒットが複数のチェックポイントにクレジットを提供しない場合、「ヒット」は順次チェックポイントのグループに対しては意味を持ちません。）
-
-**論理グループは順次セグメントの作成を簡略化しますか。**
-はい、できます。**訪問者がページ A を閲覧し、次に B、C、D の各ページを閲覧した**&#x200B;という訪問者のセグメントを特定するとします。
-
-このセグメントは、論理グループコンテナを使用せずに構築できますが、この作業は複雑で面倒です。訪問者が表示できるページのシーケンスをすべて指定する必要があります。
-* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
-* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
-* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
-* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
-* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
-* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
-
-次に示すように、論理グループコンテナを使用すると、このセグメントを簡単に作成できます。
-
-![](assets/logic-grp-example.png)
-
-
-### 論理グループセグメントの作成 {#section_A5DDC96E72194668AA91BBD89E575D2E}
-
-他のコンテナと同様に、[!UICONTROL 論理グループ]コンテナは、[!UICONTROL セグメントビルダー]内から複数の方法で作成できます。[!UICONTROL 論理グループ]コンテナをネストするための推奨される方法は次のとおりです。
-
-1. 左のパネルから、ディメンション、イベントまたはセグメントをドラッグします。
-1. 最上位のコンテナを「[!UICONTROL 訪問者]」コンテナに変更します。
-1. デフォルトで挿入される [!UICONTROL AND] または [!UICONTROL OR] 演算子を THEN 演算子に変更します。
-1. [!UICONTROL ヒット]コンテナ（ディメンション、イベントまたは項目）を選択し、**[!UICONTROL オプション]**／**[!UICONTROL 選択項目からコンテナを追加]**&#x200B;をクリックします。
-1. コンテナアイコンをクリックし、「**[!UICONTROL 論理グループ]**」を選択します。![](assets/logic_group_checkpoints.png)
-1. これで、階層に関係なく、[!UICONTROL ヒット]を[!UICONTROL 論理グループ]コンテナ内に設定できました。
-
-### 任意の順序での論理グループのチェックポイント
-
-[!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。これにより、「[!UICONTROL 訪問]」コンテナや「[!UICONTROL ヒット]」コンテナが通常の階層とは関係なく発生するセグメントを作成できます。
-
-**例**：訪問者はページ A を訪問した後で、ページ B とページ C を任意の順序で訪問した。
-
-**このセグメントを作成**
-
-ページ B および C は、外部「[!UICONTROL 訪問者]」コンテナ内の「[!UICONTROL 論理グループ]」コンテナ内でネストされます。次に、A の「[!UICONTROL ヒット]」コンテナの後に、[!UICONTROL AND] 演算子を使用して識別された B と C の「[!UICONTROL 論理グループ]」コンテナが続きます。ページ B と C は「[!UICONTROL 論理グループ]」内にあるので、シーケンスが定義されるわけではなく、ページ B と C の両方を任意の順序でヒットした場合、引数は true になります。
-
-![](assets/logic_group_any_order2.png)
-
-**別の例**：訪問者は、ページ B またはページ C を訪問してから、ページ A を訪問した。
-
-![](assets/logic_group_any_order3.png)
-
-このセグメントは、論理グループのチェックポイント（B または C）の 1 つ以上と一致する必要があります。また、論理グループの条件は、同じヒットまたは複数のヒットで満たされる場合があります。
-
-### 論理グループの最初の一致
-
-[!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。この順不同の最初の一致セグメントでは、[!UICONTROL 論理グループ]のルールによって、最初にページビューがページ B またはページ C のどちらであるかが識別され、その後で必須のページ A のビューが識別されます。
-
-**例**：訪問者は、ページ B または ページ C のどちらかを訪問した後で、ページ A を訪問した。
-
-**このセグメントを作成**
-
-ページ B とページ C のディメンションは[!UICONTROL 論理グループ]コンテナ内にグループ化されます。このコンテナでは [!UICONTROL OR] 演算子が選択されます。次に、[!UICONTROL ヒット]コンテナにページ A が値として表されます。
-
-![](assets/logic_group_1st_match.png)
-
-### 論理グループの除外の AND
-
-[!UICONTROL 論理グループ]を使用してセグメントを作成します。このグループでは、複数のページビューを集計して、他の特定のページが除外されている間にどのページがヒットされる必要があるかを定義します。****
-
-**例**：訪問者はページ A を訪問し、ページ B または C は明示的に訪問せずに、ページ D をヒットした。
-
-**このセグメントを作成**
-
-このセグメントを作成するには、左のパネルからディメンション、イベントおよび事前ビルドセグメントをドラッグします。「[論理グループセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)」を参照してください。
-
-「[!UICONTROL 論理グループ]」内で値をネストしてから、「**[!UICONTROL 論理グループ]**」コンテナ内の[!UICONTROL 除外]ボタンをクリックします。
-
-![](assets/logic_exclude_and.png)
-
-### 論理グループの除外の OR
-
-[!UICONTROL 論理グループ]を使用してセグメントを作成します。このグループでは、複数のページビューを集計して、他の特定のページが除外されている間にどのページがヒットされる必要があるかを定義します。
-
-**例**：ページ A を訪問した訪問者が、ページ A の前にページ B もページ C も訪問していない。
-
-**このセグメントを作成**
-
-最初のページ B とページ C が、除外された「[!UICONTROL 論理グループ]」コンテナで識別されます。その後で、訪問者によるページ A のヒットが続きます。
-
-このセグメントを作成するには、左のパネルからディメンション、イベントおよび事前ビルドセグメントをドラッグします。
-
-「[!UICONTROL 論理グループ]」内で値をネストしてから、「**[!UICONTROL 論理グループ]**」コンテナ内の[!UICONTROL 除外]ボタンをクリックします。
-
-![](assets/logic_exclude_or.png)
-
-## 期間内および時間後セグメントの作成
-
-各コンテナのヘッダーに組み込まれた [!UICONTROL Within] および [!UICONTROL After] 演算子を使用して、時間、イベントおよびカウントを定義します。
-
-![](assets/then_within_operators.png)
-
-[!UICONTROL Within] および [!UICONTROL After] コンテナを使用し、精度とカウントを指定することで、一致の範囲を指定した期間に制限できます。[!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。[!UICONTROL After] 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。
-
->[!NOTE]
->
->**日」や** 日 **など、類似した名前の要素の間** 評価に違いがあります。 Within と After の時間ベースの定義については、ポップアップ・ウィンドウで最初に表示されたオプションを使用します。
->
->![画像](assets/copied-link-2.png)
->
->「Within」および「After」の次元ベースの定義の場合は、サブメニューの下のオプションを使用します *その他のDimension*:
->
->![画像](assets/copied-link-3.png)
-
-### After および Within 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
-
-期間は、精度を表す 1 つの大文字の後に、その精度の繰り返し回数を表す数値を記述して指定します。
-
-**[!UICONTROL Within]** はエンドポイントを含みます（エンドポイント以下）。
-
-**[!UICONTROL After]** はエンドポイントを含みません（エンドポイントを超える）。
+時間制約演算子の詳細を次の表に示します。
 
 | 演算子 | 説明 |
 |--- |--- |
-| AFTER | After 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。After 値を設定すると、セグメントの適用時にこの時間制限が開始されます。例えば、ページ A を訪問したが、1 日後までページ B を訪問しなかった訪問者を識別するためにコンテナに After 演算子を設定した場合、訪問者がページ A を離れた時点からカウントが開始します。訪問者をこのセグメントに含めるには、ページ A を離れてからページ B を閲覧するまでに、最低 1440 分（1 日）が経過する必要があります。 |
-| WITHIN | Within 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。例えば、コンテナに対して Within 演算子を設定し、ページ A を訪問した後 1 日以内にページ B を訪問した訪問者を特定する場合、訪問者がページ A を離れた時点からカウントが開始します。訪問者がこのセグメントに含まれるには、訪問者はページ B を開くまで最長で 1 日の時間があります。訪問者をこのセグメントに含めるには、ページ B への訪問が、ページ A を離れてからページ B を閲覧するまでの 1440 分（1 日）以内に発生する必要があります。 |
-| AFTER／WITHIN | After と Within の両方の演算子を使用する場合に重要になるのが、両方の演算子が順次的ではなく並行的に開始および終了するという点です。例えば、コンテナを <br>`After = 1 Week(s) and Within = 2 Week(s)`<br> に設定したセグメントを作成すると、このセグメントで訪問者を識別する条件が満たされるのは 1 ～ 2 週間の期間のみです。最初のページヒットの時点から、両方の条件が適用されます。 |
+| **[!UICONTROL 後]** | [!UICONTROL After] 演算子は、2 つのチェックポイント間の時間の最小制限を指定するために使用されます。 「後」の値を設定すると、セグメントを適用した時点で制限時間が開始されます。 例えば、ページ A を訪問した訪問者を識別するコンテナに [!UICONTROL After] 演算子が設定されていて、1 日後までページ B に戻らない場合、訪問者がページ A を離れたときにその日が始まります。 訪問者をセグメントに含めるには、ページ A を離れた後、少なくとも 1440 分（1 日）経てページ B を表示する必要があります。 |
+| **[!UICONTROL 内部]** | [!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。例えば、ページ A を訪問し、その後 1 日以内にページ B に戻った訪問者を識別するコンテナに [!UICONTROL Within] 演算子を設定した場合、その日は訪問者がページ A を離れる日から始まります。このセグメントに含める場合、訪問者がページ B を開くまでの最大時間は 1 日間です。訪問者をセグメントに含めるには、ページ B を開き、ページ A を離れてページ B を表示してから最大 1440 分（1 日）以内にする必要があります。 |
+| **[!UICONTROL 後だが中]** | [!UICONTROL After] 演算子と [!UICONTROL Within] 演算子の両方を使用する場合、両方の演算子は順番ではなく、並行して開始および終了します。 <br/> 例えば、コンテナを `After = 1 Week(s) and Within = 2 Week(s)` に設定してセグメントを作成します。<br/> このセグメントで訪問者を識別するための条件が満たされるのは、1 ～ 2 週間のみです。 どちらの条件も、最初のページビューの時点から適用されます。 |
 
-### After 演算子の使用
 
-* After の時間では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
-* After の時間は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
+#### 例
 
-**例**：訪問者がページ A に訪問し、その 2 週間後以降にページ B に訪問した。
+時間制約の使用例をいくつか示します。
 
-![](assets/time_between_after_operator.png)
+##### [!UICONTROL After] 演算子
 
-**セグメントの作成**：このセグメントは、2 つの[!UICONTROL ヒット]コンテナを含む[!UICONTROL 訪問者]コンテナを追加して作成します。これにより、[!UICONTROL THEN] 演算子を設定し、[!UICONTROL AFTER] 演算子のドロップダウンを展開して、週の数値を設定できます。
+2 週間後にのみ、あるページを訪問した訪問者と別のページを訪問した訪問者を識別します。 例えば、のホームページを訪問した訪問者が、女性は訪問した場合などです |靴ページは 2 週間後のみ。
 
-![](assets/after_operator.png)
+![ シーケンス後 ](assets/sequence-after.png)
 
-**一致する**
+ホームのページビューが 2024 年 6 月 1 日 00:01 に発生した場合、ページビューは Women に移動します | 2024 年 6 月 15 日（PT） 00:01 以降、ページビューが発生する限り、シューズは一致します。
 
-「2 週間後」と指定した状態で、ページ A へのヒットが 2019 年 6 月 1 日の 0 時 1 分に発生し、その後、次のページ B へのヒットが 2019 年 6 月 15 日の 0 時 1 分（14 日後）までに発生した場合。
+##### [!UICONTROL Within] 演算子
 
-| ヒット A | ヒット B | 一致 |
-|--- |--- |--- |
-| **A** ヒット：2019 年 6 月 1 日 0 時 1 分 | **B** ヒット：2019 年 6 月 15 日 0 時 1 分 | **一致**：2019 年 6 月 1 日の「後」（2 週間後）に発生しているので、この時間制限は一致すると見なされます。 |
-| **A** ヒット：2019 年 6 月 1 日 0 時 1 分 | **B** ヒット：2019 年 6 月 8 日 0 時 1 分、B ヒット：2019 年 6 月 15 日 0 時 1 分 | **一致しない**：ページ B の最初のヒットが、2 週間より後であることを求めている制約と矛盾するので、一致しないと見なされます。 |
+5 分以内に、あるページを訪問した訪問者と別のページを訪問した訪問者を特定します。 例えば、ホームページを訪問した訪問者の後に女性ページを訪問した訪問者です |5 分以内に靴ページ。
 
-### Within 演算子の使用
+![ 内のシーケンス ](assets/sequence-within.png)
 
-* [!UICONTROL Within] では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
-* [!UICONTROL Within] は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
+ホームのページビューが 2024 年 6 月 1 日 12:01 に発生した場合、ページビューは Women に移動します | 2024 年 6 月 15 日（PT） 12:16 より前にページビューが発生する限り、シューズは一致します。
 
->[!TIP]
+##### [!UICONTROL After] but [!UICONTROL Within] 演算子
+
+2 週間後から 1 か月以内に、あるページを訪問した後に別のページを訪問した訪問者を識別します。 例えば、ホームページを訪問し、2 週間後に女性から 1 か月以内に訪問した訪問者 |靴ページ。
+
+![ シーケンスの後ろから内 ](assets/sequence-afterbutwithin.png)
+
+2024 年 6 月 1 日にホームページにアクセスし、再び女性訪問を行う訪問者 | 2019 年 6 月 15 日（PT）以降 00:01、ただし 2019 年 7 月 1 日（PT）より前のシューズページには該当するセグメントがあります。
+
+
+### [!UICONTROL  ヒット ]、[!UICONTROL  訪問 ]、[!UICONTROL Dimension] の制約
+
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** と ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 制約を使用すると、時間制約だけでなく、ヒット、訪問、ディメンションの制約も指定できます。 **[!UICONTROL ヒット]**、**[!UICONTROL 訪問]** または **[!UICONTROL その他のディメンション]** ![ 山形の権利 ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名&#x200B;*]**を選択します。 「[!UICONTROL *検索*]」フィールドを使用して、ディメンションを検索できます。
+
+#### 例
+
+以下は、ある製品カテゴリページ（女性）を訪問した訪問者を検索する順次セグメントの例です |靴）、チェックアウトページ（チェックアウト） |ありがとうございました）を 1 ページに収めました。
+
+![ 内のシーケンスセグメント ](assets/sequence-filter-within.png)
+
+次のシーケンス例は、一致するか一致しません。
+
+| シーケンス | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|--- | :---: |
+| ページ `Women \| Shoes` の後にページ `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| ページ `Women \| Shoes`、ページ `Women \| Tops`、ページ `Checkout \| Thank You` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
+
+## [!UICONTROL 含める]
+
+順次セグメントまたは順次セグメントの一部である順次コンテナに含めるデータを指定できます。
+
+### [!UICONTROL  全員 ] {#include_everyone}
+
+全員を含む順次セグメントを作成するには、「![ ユーザーグループ ](/help/assets/icons/UserGroup.svg)**[!UICONTROL 全員を含める]** オプションを選択します。
+
+順次セグメントは、全体として指定されたパターンに一致するデータを識別します。  以下は、1 つの製品カテゴリページ（女性）に訪問した訪問者を検索する基本的なシーケンスセグメントの例です |靴）、チェックアウトページ（チェックアウト） |ありがとうございました）。 セグメントは ![UserGroup](/help/assets/icons/UserGroup.svg)**[!UICONTROL Everyone を含める]** に設定されています。
+
+![ 順次セグメントにすべてのユーザーを含める ](assets/sequence-include-everyone.png)
+
+次のシーケンス例は、一致するか一致しません。
+
+| | シーケンス | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | `Women \| Shoes` の後、同じ訪問で `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` の後、（異な `Men \| Shoes` 訪問間で） `Checkout \| Thank You` 行されます | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You`、`Women \| Shoes` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
+
+### [!UICONTROL  シーケンスの前のみ ] および [!UICONTROL  シーケンスの後のみ ]
+
+オプション ![SequenceBefore](/help/assets/icons/SequenceBefore.svg)**[!UICONTROL Only Before Sequence]** および ![SequenceAfter](/help/assets/icons/SequenceAfter.svg)**[!UICONTROL Only After Sequence]** は、指定したシーケンスの前または後にデータをサブセットにセグメント化します。
+
+* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg)**シーケンスの前のみ**：シーケンスの前のすべてのデータと、シーケンス自体の最初のデータを含みます。 シーケンスがデータの一部として複数回表示される場合、[!UICONTROL  シーケンスの前のみ ] には、シーケンスの最後の発生の最初のヒットとすべての前のヒットが含まれます。
+* ![SequenceAfter](/help/assets/icons/SequenceAfter.svg)**Only After Sequence**：シーケンスとシーケンス自体の最後のデータの後のすべてのヒットを含みます。 シーケンスがデータの一部として複数回表示される場合、[!UICONTROL  シーケンスの後にのみ ] シーケンスの最初の発生の最後のヒットと、後続のすべてのヒットが含まれます。
+
+B で識別される条件を持つコンポーネントのシーケンス、および D で識別される条件を持つコンポーネントの（Then）を指定する定義について考えてみます。3 つのオプションにより、データは次のように識別されます。
+
+
+| B そして D | A | B | C | D | E | F |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| 全員を含む | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| シーケンスの前のみ | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| シーケンスの後のみ |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+
+
+
+| B、D （複数回発生） | A | B | C | D | B | C | D | E |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 全員を含む | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| シーケンスの前のみ | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| シーケンスの後のみ |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+
+#### 例
+
+サイトセクションに対して、3 つのバージョンの順次セグメントを定義しました。 オプション ![UserGroup](/help/assets/icons/UserGroup.svg)**[!UICONTROL Include Everyone]** を持つもの、オプション ![SequenceBefore](/help/assets/icons/SequenceBefore.svg)**[!UICONTROL Only Before Sequence]** を持つもの、オプション ![SequenceAfter](/help/assets/icons/SequenceAfter.svg)**[!UICONTROL Only After Sequence]** を持つもの。 3 つのセグメントに適切な名前を付けました。
+
+![ シーケンスセグメント ](assets/site-section-filters.png)
+
+これら 3 つのセグメントを使用してサイトセクションに関するレポートを作成する場合、フリーフォームテーブルの出力例は次のようになります。
+
+![ 順次セグメントレポート ](assets/sequential-filter-freeform-table.png)
+
+## [!UICONTROL 除外]
+
+セグメント定義には、**[!UICONTROL 除外]** を使用して ![User](/help/assets/icons/User.svg) [!UICONTROL Person]、![Visit](/help/assets/icons/Visit.svg) [!UICONTROL Visit] または ![WebPage](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] データを特別に除外しない限り、すべてのデータが含まれます。
+
+[!UICONTROL  除外 ] を使用すると、一般的なデータを解除し、より焦点を当てたセグメントを作成できます。 また、除外を使用すると、特定の訪問者グループを除外するセグメントを作成できます。 例えば、注文した訪問者を指定するセグメントを定義し、その訪問者のグループを除外して *非購入者* を識別する場合などです。 ベストプラクティスは、特定の include 値に一致する特定の訪問者をターゲットに [!UICONTROL  除外 ] を使用しようとするのではなく、幅広い定義を使用するルールを作成することです。
+
+除外定義の例を次に示します。
+
+* **ページの除外**。セグメント定義を使用して、レポートから特定のページ（「ホームページ *など* を除外し、ページが `Home Page` に等しいヒットルールを作成してから、ルールを除外します。 この定義には、「ホームページ *を除くすべてのページが自動的に含まれ* す。
+* **参照ドメインの除外**。Google.comからの参照ドメインのみを含み、それ以外のドメインはすべて除外する定義を使用します。
+* **非購入者の識別**。注文件数が 0 より大きい場合を識別し、[!UICONTROL  個人 ] を除外します。
+
+[!UICONTROL  除外 ] を使用すると、訪問者が特定の訪問に含まれていないシーケンスや、特定のヒットを実行していないシーケンスを識別できます。 [!UICONTROL  除外 ] は、[!UICONTROL  論理グループ ] に含めることもできます（以下を参照）。
+
+コンテナは除外できますが、コンポーネントは除外できません。
+
+### 例
+
+[!UICONTROL  除外 ] の使用例については、以下を参照してください。
+
+#### [!UICONTROL  除外 ] 内
+
+あるページを訪問し、別のページを訪問しなかった後で、さらに別のページを訪問した訪問者を特定します。 ![ 設定 ](/help/assets/icons/Setting.svg) 除外 ] を使用してコンテナを除外 [!UICONTROL  ます。 除外されたコンテナは、左側の薄い赤いバーで識別されます。
+
+![ シーケンスを除外 ](assets/sequence-exclude.png)
+
+
+#### 開始時の [!UICONTROL  除外 ]
+
+別のページに移動せずに 1 ページを訪問した訪問者を識別します。 例えば、これまでホームページを訪問したことがなく購入をチェックアウトした人などです。
+
+![ シーケンス除外開始 ](assets/sequence-exclude-start.png)
+
+
+#### 最後に [!UICONTROL  除外 ]
+
+あるページを訪問したが、他のページを訪問しなかった訪問者を識別します。 例えば、ホームページにアクセスしたが、チェックアウトページにはアクセスしなかった訪問者などです。
+
+![ シーケンス除外の終了 ](assets/sequence-exclude-end.png)
+
+
+## [!UICONTROL  論理グループ ]
+
+>[!NOTE]
 >
->「within」句の「THEN」ステートメントの間に、例えば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。
+>[!UICONTROL  論理グループ ] は、順次セグメントでのみ定義できます。つまり、[!UICONTROL Then] 演算子がコンテナ内で使用されます。
 
-**例**：ページ A に訪問した訪問者が、5 分以内にページ B を訪問した。
+論理グループを使用すると、条件を 1 つの順次セグメントチェックポイントにグループ化できます。 シーケンスの一部として、論理グループとして識別されるコンテナ内で定義されるロジックは、先行する順次チェックポイントの後、後続する順次チェックポイントの前に評価されます。
 
-![](assets/time_between_within_operator.png)
+論理グループ内の条件は、どのような順序でも満たすことができます。 これに対して、非順次コンテナ（ヒット、訪問、訪問者）では、シーケンス全体で条件が満たされる必要がないため、**[!UICONTROL Then]** 演算子で使用すると、直感的でない結果が生じる可能性があります。
 
-**セグメントの作成**：このセグメントは、[!UICONTROL 訪問者]コンテナを追加し、さらにその中に 2 つの[!UICONTROL ヒット]コンテナをドラッグして作成します。次に、[!UICONTROL THEN] 演算子を設定し、[!UICONTROL AFTER] 演算子のドロップダウンを展開して、間隔（ヒット、ページビュー、訪問、分、時、日、週、月、四半期または年）を設定できます。
+[!UICONTROL  論理グループ ] は、グループ化された条件の中で *複数の条件を、順序のないグループ* として扱うように設計されました。 それ以外の場合、論理グループ内の条件の順序は関係ありません。
 
-![](assets/within_operator.png)
+論理グループを使用するためのベストプラクティスを次に示します。
 
-**一致する**
+* 順次チェックポイントをグループ化する。
+* 順次セグメントの構成を簡単にする。
 
-この時間制限以内に一致が発生する必要があります。式を指定して、訪問者のページ A へのヒットが 0 時 1 分に発生した場合、その後のページ B へのヒットが 0 時 6 分またはそれ以前（5 分後まで）に発生した場合は一致と見なされます。ちょうど指定した時間である場合も一致と見なされます。
+### 例
 
-### Within 演算子と After 演算子
+論理グループコンテナの使用例を以下に示します。
 
-[!UICONTROL Within] および [!UICONTROL After] は、セグメントの両端でエンドポイントの最大値と最小値を指定するために使用します。
+#### 任意の順序
 
-**例**：訪問者がページ A に訪問し、2 週間後以降、1 ヶ月以内にページ B に訪問した。
+あるページを訪問した訪問者を特定し、別のページのセットから各ページを任意の順序で表示した。 例えば、ホームページを訪問した後、注文に関係なく、男性ページ、女性ページ、子供ページを訪問した訪問者。
 
-![](assets/time_between_using_both_operators.png)
+[!UICONTROL  論理グループ ] なしでこのセグメントを作成できますが、構築は複雑で面倒になります。 訪問者が表示できるページのシーケンスをすべて指定します。 わかりやすくするために、最初のコンテナのみ ![ChevronDown](/help/assets/icons/ChevronDown.svg) 開き、その他のコンテナは閉じます ![ChevronRight](/help/assets/icons/ChevronRight.svg)。 他のコンテナの内容は、タイトルから導き出すことができます。
 
-**セグメントの作成**：2 つの[!UICONTROL ヒット]コンテナを[!UICONTROL 訪問者]コンテナ内に順に並べて、セグメントを作成します。次に、[!UICONTROL After] 演算子と [!UICONTROL Within] 演算子を設定します。
+![ 論理グループを使用しない例 ](assets/logicgroup-example-notusing.png)
 
-![](assets/within_after_together.png)
+[!UICONTROL  論理グループ ] を使用して、次に示すように、このセグメントの作成を簡略化できます。 コンテナには、必ず ![ グループ ](/help/assets/icons/Group.svg) **[!UICONTROL 論理グループ]** を選択します。
 
-**一致する**
+![ 論理グループを使用しない例 ](assets/logicgroup-example-using.png)
 
-2019 年 6 月 1 日にページ A をヒットした後、2019 年 6 月 15 日 0 時 1 分より後、2019 年 7 月 1 日より&#x200B;*前に*&#x200B;戻った訪問者がこのセグメントに含まれます。[間隔：「以下を除外する」](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)と比較してください。
+#### 最初の一致
 
-[!UICONTROL After] 演算子と [!UICONTROL Within] 演算子を一緒に使用して、順次セグメントを定義できます。
+あるページまたは別のページを訪問した訪問者を特定してから、さらに別のページを訪問した訪問者を特定する。 例えば、女性ページまたは男性ページにアクセスした後にチェックアウトにアクセスした訪問者です |ありがとうページ。
 
-![](assets/time_between_within_after.png)
+![ 論理グループとの最初の一致を使用した例 ](assets/logicgroup-example-firstmatch.png)
 
-この例では、2 回目の訪問で 2 週間後から 1 ヶ月までの間にページ B にヒットしています。
+#### [!UICONTROL Exclude][!UICONTROL And]
+
+あるページを訪問した訪問者が他のページのセットを明示的に訪問せず、さらに別のページを訪問した訪問者を特定します。 例えば、ホームページを訪問した訪問者は、男性または女性ページではなく、子供ページを訪問しました。
+
+![ 論理グループの除外および ](assets/logicgroup-exclude-and.png)
+
+#### [!UICONTROL Exclude][!UICONTROL Or]
+
+あるページを訪問した訪問者を特定し、一連のページのどのページにも明示的に訪問せず、さらに別のページにも訪問した訪問者を特定します。 例えば、ホームページを訪問した訪問者は、男性および女性ページではなく、子供ページを訪問しました。
+
+![ 論理グループの除外および ](assets/logicgroup-exclude-or.png)
+
+
+<!--
+An example of a complex sequential segment if you want to find the visitors that 
+
+| visit One | visit Two | visit Three |
+| --- | --- | --- |
+| The visitor went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The visitor again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The visitor entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
+-->
+
+
+## 最後の例
+
+最後の例では、「あなたの力を与える」キャンペーンによって影響を受けない特定の製品ページについて学習した訪問者を特定します。 そして、あなたのオンラインストアへの彼らの最初の訪問では、ホームページを見ましたが、男性カテゴリからのフィットネス（ギア）製品についてはこれ以上見ませんでした。 しかし、その直後の次回の訪問では、商品ページに移動し、最初にホームページを経由せずにオンライン注文を行いました。
+
+
+![ 複雑な順次セグメントの例 ](assets/sequential-complex.png)
