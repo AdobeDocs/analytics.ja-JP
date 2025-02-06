@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![4}Adobe Analyticsのフロービジュアライゼーションについて説明します **。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、[ フロー** を参照してください。_
+_この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)Adobe Analyticsのフロービジュアライゼーションについて説明します **。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) _**Customer Journey Analytics バージョンについては、[ フロー** を参照してください。_
 
 >[!ENDSHADEBOX]
 
