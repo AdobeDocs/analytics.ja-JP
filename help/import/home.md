@@ -1,16 +1,16 @@
 ---
-title: Analytics インポートガイド
+title: Analytics 読み込みガイド
 description: このガイドでは、データソースとデータ挿入 API を使用して Analytics にデータを取得する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Analytics インポートガイド
+# Analytics 読み込みガイド
 
 
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analyticsの概要 ](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics の概要](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

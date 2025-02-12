@@ -5,19 +5,19 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1658'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics ランディングページ
 
-Adobe Analytics のランディングページでは、[!DNL Analysis Workspace] と [!DNL Reports & Analytics]（提供終了済み）の両方が単一のインターフェイスと、[!DNL Workspace] 傘下にあるアクセスポイントに統合されます。プロジェクトマネージャーのホームページ、テンプレートセクション、より効果的に使い始めるのに役立つ学習セクションが用意されています。
+Adobe Analytics のランディングページでは、[!DNL Analysis Workspace] と [!DNL Reports & Analytics]（提供終了済み）の両方が単一のインターフェイスと、[!DNL Workspace] 傘下にあるアクセスポイントに統合されます。プロジェクトマネージャーのホームページ、テンプレートセクションおよび学習セクションが用意されており、より効果的に使用を開始できます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
