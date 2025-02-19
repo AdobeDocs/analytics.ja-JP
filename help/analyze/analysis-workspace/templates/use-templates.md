@@ -37,7 +37,7 @@ Analysis Workspaceのテンプレート（または会社テンプレート）�
 
 1. [[!UICONTROL **テンプレート**]] セクションで、次のいずれかのタブを選択します。
 
-   * **[!UICONTROL Adobeテンプレート]**:Adobeが提供するすべてのテンプレートを表示します。
+   * **[!UICONTROL Adobe テンプレート]**:Adobeから提供されるすべてのテンプレートを表示します。
 
    * **[!UICONTROL _login_company_name _templates]**：組織用に作成されたすべての会社テンプレートを表示します。
 
