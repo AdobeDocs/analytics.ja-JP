@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 * ストリーミングメディアコレクションについて詳しくは、[Analytics でのオーディオとビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## ドキュメントの主な更新の詳細
+
+### 2025年 {#year2025}
+
+| 機能 | 説明 |
+| --- | --- |
+| **2025年2月** |  |
+| データフィードの一時停止と再アクティブ化に関する情報を更新しました | [ データフィードの一時停止と再アクティブ化 ](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed) を実行する際に、ライブフィードの動作を明確にしました。 フィードが一時停止されてから再アクティブ化されるまで、データ処理は行われません。 |
 
 ### 2024 {#year2024}
 
