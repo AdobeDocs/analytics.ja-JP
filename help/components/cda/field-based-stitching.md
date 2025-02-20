@@ -4,7 +4,7 @@ description: フィールドベースのステッチを使用してデータを�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
+source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 80%
@@ -43,3 +43,4 @@ ht-degree: 80%
 ## 次の手順
 
 組織がすべての要件を満たし、制限事項を理解したら、[クロスデバイス分析の設定](setup.md)を開始できます。
+
