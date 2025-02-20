@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)![4}Adobe Analytics **のコンボビジュアライゼーションについて説明します。__**
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のコンボビジュアライゼーションについて説明します。_
 
-_この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、[Combo** を参照してください。_
+_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[コンボ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
-![ コンボグラフ ](/help/assets/icons/ComboChart.svg)**[!UICONTROL コンボグラフ]** ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。 折れ線グラフと棒グラフの組み合わせで、データのトレンドを簡単に表示できます。
+![コンボグラフ](/help/assets/icons/ComboChart.svg) **[!UICONTROL コンボ]**&#x200B;ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。折れ線グラフと棒グラフの組み合わせでデータの傾向を簡単に表示できます。
 
-[!UICONTROL Combo] を使用して、次の操作を行います。
+[!UICONTROL コンボ]を使用すると、次の操作を実行できます。
 
-* 今週の注文と、先月（および昨年）の同時刻の注文を比較します。
-* 複数の指標（[!UICONTROL  人物 ] や [!UICONTROL  売上高 ] など）を同じグラフで相互にすばやく分析して比較できます。
-* 一定期間にわたって関数（[!UICONTROL 累積平均]など）に対する指標を分析できます。
+* 今週の注文と、先月（および昨年）の同時刻の注文を比較できます。
+* 複数の指標（[!UICONTROL ユーザー]や[!UICONTROL 売上高]など）を同じグラフで相互にすばやく分析して比較できます。
+* 一定期間にわたって、関数（[!UICONTROL 累積平均]など）に対する指標を分析できます。
 
 次の点に注意してください。
 
@@ -50,37 +50,37 @@ _この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com
 
 ## 使用
 
-1. ![ コメント ](/help/assets/icons/ComboChart.svg)[!UICONTROL  コンボ ] ビジュアライゼーションを追加します。 [ パネルへのビジュアライゼーションの追加 ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) を参照してください。
+1. ![コメント](/help/assets/icons/ComboChart.svg) [!UICONTROL コンボ]ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
 1. ドロップダウンリストから、X 軸のディメンションと Y 軸の指標を選択します。
 
-1. 使用する [!UICONTROL  線比較 ] のタイプを選択します。
+1. 使用する[!UICONTROL 折れ線比較]のタイプを選択します。
 
    | 折れ線比較タイプ | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較です。例えば、この期間と 4 週間前の期間を比較します。 [!UICONTROL 時間比較]を選択した場合は、比較する期間についての補助的な選択を行います。<p>![ 選択された期間と期間のセカンダリ選択フィールドとの比較。](assets/combo-time-period.png) |
-   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。[ サポートされている関数 ](#supported-functions) のリストを参照してください。<p>![ 選択された関数と使用可能なサポートされている関数のリストを示すリネ比較ドロップダウンメニュー。](assets/combo-functions.png) |
-   | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![2 つの指標を比較した複合グラフ。](assets/combo-2metrics-settings.png) |
+   | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較です。例えば、この期間と 4 週間前の期間を比較します。 [!UICONTROL 時間比較]を選択した場合は、比較する期間についての補助的な選択を行います。<p>![選択された期間と期間のセカンダリ選択フィールドの折れ線比較。](assets/combo-time-period.png) |
+   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。[サポートされている関数](#supported-functions)のリストを参照してください。<p>![選択された関数と使用可能なサポートされている関数のリストを示す折れ線比較ドロップダウンメニュー。](assets/combo-functions.png) |
+   | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![2 つの指標を比較したコンボグラフ。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
 1. 「**[!UICONTROL 作成]**」を選択します。
 
-   出力は次のようになります。
+   出力は、例えば次のようになります。
 
-   ![ 現在の期間を棒グラフで示し、比較期間を折れ線グラフで示す複合グラフ ](assets/combo-output.png)
+   ![現在の期間を棒グラフで示し、比較期間を折れ線グラフで示したコンボグラフ](assets/combo-output.png)
 
-   現在の期間は、棒グラフで表示されます。 折れ線グラフは、比較期間を表します。 折れ線グラフのドットは、*バーベル* と呼ばれます。
+   現在の期間は、棒グラフで表示されます。比較期間は、折れ線グラフで表示されます。折れ線グラフのドットは、*バーベル*&#x200B;と呼ばれます。
 
 ## サポートされている関数
 
-[!UICONTROL  折れ線比較タイプ ]**として**[!UICONTROL  関数 ] を選択すると、選択した指標の関数が返されます。
+[!UICONTROL 折れ線比較タイプ]として&#x200B;**[!UICONTROL 関数]**&#x200B;を選択すると、選択した指標の関数が返されます。
 
 | 関数 | 定義 |
 | --- | --- |
-| **[!UICONTROL 列の合計値]** | （1 つのディメンションのすべての要素について） 1 つの列内の指標の数値をすべて加算します |
+| **[!UICONTROL 列の合計値]** | （1 つのディメンションの複数の要素の）1 つの列内の指標のすべての数値を加算します。 |
 | **[!UICONTROL 累加平均]** | 最終 N 行の平均を返します。 |
-| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。中央値は、一連の数の中央にある数値です。数値の半分は中央値より大きいか等しい値を持ち、半分は中央値より小さいか等しい値を持ちます。 |
+| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。中央値は、一連の数の中央にある数値です。数値の半分は中央値以上の値であり、残りの半分は中央値以下の値です。 |
 | **[!UICONTROL 累積]** | N 行の累積合計です。 |
 | **[!UICONTROL 列の最大値]** | 指標列の一連のディメンション要素の中の最大値を返します。 |
 | **[!UICONTROL 平均値]** | 指標の算術平均（平均）を返します。 |
@@ -90,15 +90,15 @@ _この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com
 
 売上高指標の累積平均の例を以下に示します。
 
-![ 累積平均を示すコンボグラフ ](assets/combo-cumul-avg.png)
+![累積平均を示すコンボグラフ](assets/combo-cumul-avg.png)
 
-累積平均関数と平均関数の両方を含む複合グラフの例を次に示します。
+累積平均関数と平均関数の両方を含むコンボグラフの例を次に示します。
 
-![ 累積平均関数と平均関数の両方を表示する複合グラフ。](assets/combo-three-functions.png)
+![累積平均関数と平均関数の両方を示すコンボグラフ。](assets/combo-three-functions.png)
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
