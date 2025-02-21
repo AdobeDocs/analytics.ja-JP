@@ -4,10 +4,10 @@ title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
+source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 36%
+source-wordcount: '721'
+ht-degree: 30%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 36%
 
    * [!UICONTROL **列の最小値**]：列のディメンション要素のセットの最小値を表示する新しい列を作成します。 これは [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) 関数を使用します。
 
-   * [!UICONTROL **列の合計**]:1 つの列内（1 つのディメンションのすべての要素）の指標のすべての数値を加算する新しい列を作成します。 [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 関数を使用します。
+   * [!UICONTROL **列の合計**]：列内の（1 つのディメンションのすべての要素の）指標の数値をすべて加算する新しい列を作成します。 [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 関数を使用します。
 
    2 つの列を選択した場合は、次のオプションを使用できます。
 
@@ -96,17 +96,17 @@ ht-degree: 36%
 
    * [!UICONTROL **乗算**]：選択した 2 つの列の値を乗算する新しい列を作成します。
 
-   * [!UICONTROL **変化率**]：選択した 2 つの列の変化率を表示する新しい列を作成します。
+   * [!UICONTROL **変化率**]：選択した 2 つの列の間の変化率を示す新しい列を作成します。
 
 [計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
 ## 様々なアトリビューションモデルとの指標の比較
 
-アトリビューションモデルを別のアトリビューションモデルと素早く簡単に比較したい場合は、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
+アトリビューションモデルを別のアトリビューションモデルとすばやく比較するには、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
 
 ![アトリビューションの比較](assets/compare-attribution.png)
 
-これにより、指標にドラッグして設定を 2 回おこなわなくても、アトリビューションモデルをすばやく簡単に相互比較できます。
+このショートカットを使用すると、指標をドラッグして 2 回設定することなく、1 つのアトリビューションモデルを別のアトリビューションモデルと比較できます。
 
 ## [!UICONTROL 累積平均] 関数を使用した指標スムージングの適用
 
