@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
 workflow-type: tm+mt
-source-wordcount: '6071'
-ht-degree: 99%
+source-wordcount: '6237'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 99%
 | --- | --- |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報を更新しました | [ データフィードの一時停止と再アクティブ化 ](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed) を実行する際に、ライブフィードの動作を明確にしました。 フィードが一時停止されてから再アクティブ化されるまで、データ処理は行われません。 |
+| 変更されたトランザクション ID の保持期間   トランザクション ID の保持期間は 90 日から 25 か月に延長されました。 transactionID 変数は、ヒットがデータソースを通じてアップロードされたデータに結び付けられるように、トランザクションを一意に識別します。 詳しくは [ こちら ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) および [ こちら ](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en) を参照してください。 |
+| Livestream API - クライアント実装 | [Livestream クライアント実装 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) を使用して、Livestream データを使用します。 |
+| Classifications API に対する更新\[ サーバーから個々の分類フィールドまたはキーを削除 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) できるようになりました。 これにより、DELETEを使用して分類データセット全体を削除する代わりに使用できます。 |
+| **2025年1月** |  |
+| データフィード API リファレンス | [ データフィード API のリファレンス ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) が利用できるようになりました。 |
+| 新しいReport Builderのスケジューリングに関する新しいドキュメント | [ スケジュール設定 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) を使用すると、新しいReport Builder ワークブックのスケジュールを設定できるだけでなく、 また、従来のワークブックを変換する際に、スケジュールされた古いタスクのメタデータを取得できます。 |
+| Analysis Workspaceのレポート（テンプレートとも呼ばれます）の機能強化 | レポート（「[ テンプレート ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en) とも呼ばれます）で様々な機能強化が利用できるようになりました |
+
 
 ### 2024 {#year2024}
 
