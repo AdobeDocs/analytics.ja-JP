@@ -4,10 +4,10 @@ title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,8 +42,6 @@ ht-degree: 50%
 
 >[!ENDSHADEBOX]
 
-
-
 ## 計算指標の作成
 
 計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。
@@ -64,21 +62,41 @@ ht-degree: 50%
 
 1. Analysis Workspaceで、計算指標を作成するプロジェクトを開きます。
 
-1. フリーフォームテーブルで、1 つ以上のヘッダー列のセルを右クリックし、「**[!UICONTROL 選択から指標を作成]**」を選択します。
+1. フリーフォームテーブルで、1 つの列の列ヘッダーを右クリックします。
+
+   または
+
+   Shift キーを押しながら 2 つの列を選択し、選択した列の 1 つを右クリックします。
+
+1. 「**[!UICONTROL 選択から指標を作成]**」を選択します
 
    ![ 選択範囲から作成を強調表示したWorkspace パネル ](assets/create-metric-from-selection.png)
 
-1. このプロジェクトにのみ計算指標を作成するには、次のオプションから選択します。
+1. このプロジェクトにのみ計算指標を作成するには、使用可能なオプションから選択します。
 
-   * [!UICONTROL **除算**]
+   1 つの列を選択した場合、次のオプションを使用できます。
 
-   * [!UICONTROL **減算**]
+   * [!UICONTROL **平均**]：列のディメンション要素のセットの平均値を表示する新しい列を作成します。 これは [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) 関数を使用します。
 
-   * [!UICONTROL **追加**]
+   * [!UICONTROL **中央値**]：列のディメンション要素セットの中央値を表示する新しい列を作成します。 [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) 関数を使用します。
 
-   * [!UICONTROL **Multiply**]
+   * [!UICONTROL **列の最大値**]：列のディメンション要素のセットの中の最大値を表示する新しい列を作成します。 これは [Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) 関数を使用します。
 
-   計算指標ビルダーを開いて、すべてのプロジェクトの計算指標を作成するには、「[!UICONTROL **計算指標ビルダーで開く**]」を選択して [ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を続行します。
+   * [!UICONTROL **列の最小値**]：列のディメンション要素のセットの最小値を表示する新しい列を作成します。 これは [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) 関数を使用します。
+
+   * [!UICONTROL **列の合計**]:1 つの列内（1 つのディメンションのすべての要素）の指標のすべての数値を加算する新しい列を作成します。 [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 関数を使用します。
+
+   2 つの列を選択した場合は、次のオプションを使用できます。
+
+   * [!UICONTROL **除算**]：選択した 2 つの列の値を除算する新しい列を作成します。
+
+   * [!UICONTROL **減算**]：選択した 2 つの列の値を減算する新しい列を作成します。
+
+   * [!UICONTROL **追加**]：選択した 2 つの列の値を追加する新しい列を作成します。
+
+   * [!UICONTROL **乗算**]：選択した 2 つの列の値を乗算する新しい列を作成します。
+
+   * [!UICONTROL **変化率**]：選択した 2 つの列の変化率を表示する新しい列を作成します。
 
 [計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
