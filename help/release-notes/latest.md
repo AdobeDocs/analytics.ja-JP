@@ -3,9 +3,9 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 924f5f670d2f29269a5ba6623079e839f1fe8122
+source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 57%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 57%
 | **データフィード API リファレンス** | データフィード API の [ 参照 ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) が利用できるようになりました。 |  | 2025年1月30日（PT） |
 | **Livestream API - クライアント実装** | Livestream クライアント実装を使用して、Livestream データを使用します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日（PT） |
 | **Classifications API の更新** | サーバーから個々の分類フィールドまたはキーを削除できるようになりました。 これにより、DELETEを使用して分類データセット全体を削除する代わりに使用できます。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日（PT） |
+| **Analytics コンテキストデータフィールドの更新`a.locale`** | Experience Edge経由でデータを収集する際に Analytics コンテキストデータフィールドの `a.locale` が設定される方法の更新がスケジュールされています。 Experience Edgeを使用してデータがAdobe Analyticsに送信されると、Analytics フィールドは XDM フィールドのマッピングに基づいて入力されます。 `c.a.locale` のマッピングが非標準の XDM フィールド `xdm.environment.language` を参照しています。 このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。  後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。 連続性を持たせるために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストは、（こちら [ で確認でき ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) す。 | | 2025年3月5日（PT） |
 
 
 ## Adobe Analytics の修正点
@@ -43,7 +44,6 @@ ht-degree: 57%
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Analytics コンテキストデータフィールドの今後の更新`a.locale`** | 2025年2月21日（PT） | 2025 年 3 月 5 日（PT）に、Experience Edgeを介してデータを収集する際に Analytics コンテキストデータフィールド `a.locale` が設定される方法を更新する予定です。 Experience Edgeを使用してデータがAdobe Analyticsに送信されると、Analytics フィールドは XDM フィールドのマッピングに基づいて入力されます。 `c.a.locale` のマッピングが非標準の XDM フィールド `xdm.environment.language` を参照しています。 このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。  後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。 連続性を持たせるために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストは、（こちら [ で確認でき ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) す。 |
 | **Campaign 以外のお客様は、トリガーにアクセスできなくなる** | 2023年10月16日（PT） | 2025 年 1 月 30 日（PT）、Adobe Campaign ライセンスのないAdobe Analytics ユーザーは、[トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers) を設定して使用する機能にアクセスできなくなります。 お客様は、Campaign を購入、またはトリガーの使用を中止するか、トリガー機能を提供する他の Adobe ツールを検討する必要があります。 |
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
