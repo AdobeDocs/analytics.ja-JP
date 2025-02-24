@@ -3,9 +3,9 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analyticsは、ディメンション、指標、セグメントおよび�
 
 ## 計算指標の作成を開始
 
-計算指標ビルダーを使用して、計算指標を作成できます。 この方法で作成した場合、計算指標はコンポーネントリストで使用できるので、組織全体のプロジェクトで使用できます。 または、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) の「単一プロジェクトの計算指標の作成 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) の説明に従って、クイック計算指標を作成する [ こともできます。
+計算指標ビルダーを使用して、計算指標を作成または編集できます。 この方法で作成した場合、計算指標はコンポーネントリストで使用できるので、組織全体のプロジェクトで使用できます。 または、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) の「単一プロジェクトの計算指標の作成 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) の説明に従って、クイック計算指標を作成する [ こともできます。
 
 計算指標ビルダーにアクセスして、コンポーネントリストで使用できる計算指標の作成を開始します。
 
@@ -43,7 +43,7 @@ Adobe Analyticsは、ディメンション、指標、セグメントおよび�
 
    * Analysis Workspaceで、プロジェクトを開き、**[!UICONTROL コンポーネント]**/**[!UICONTROL 指標を作成]** を選択します。
    * Analysis Workspaceでプロジェクトを開き、左パネルの **指標** セクションの横にある [!UICONTROL **プラス**] アイコンを選択します。
-   * [!DNL Customer Journey Analytics] で、**[!UICONTROL コンポーネント]**/**[!UICONTROL 計算指標]** に移動し、計算指標ページの上部にある「**[!UICONTROL +追加]**」を選択します。
+   * [!DNL Adobe Analytics] で、**[!UICONTROL コンポーネント]**/**[!UICONTROL 計算指標]** に移動し、計算指標ページの上部にある「**[!UICONTROL +追加]**」を選択します。
 
 1. [ 計算指標ビルダーの領域 ](#areas-of-the-calculated-metrics-builder) に進みます。
 
@@ -70,7 +70,7 @@ Adobe Analyticsは、ディメンション、指標、セグメントおよび�
 | 13 | **歯車アイコン（指標タイプ、アトリビューション）:** 指標の横にある歯車アイコンを選択すると、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > の指標タイプとアトリビューションモデルの </a> を指定できます。 |
 | 14 | **新規：** 新しいセグメントなどの新しいコンポーネントを作成できます（<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > セグメントビルダー </a> ージが表示されます）。 |
 | 15 | **コンポーネントを検索：** この検索バーを使用すると、ディメンション、指標、セグメント（高度な計算指標のみ）および関数（高度な計算指標のみ）を検索できます。 |
-| 16 | **Dimensionのリスト：** 「ページ = ホームページ」などの単純なセグメントを作成する場合、計算指標ビルダーから離れてセグメントビルダーで作成するのではなく、計算指標ビルダーから直接ページをドラッグしてホームページを選択できます。<p>これにより、セグメントを利用する計算指標の作成が容易になります。</p> |
+| 16 | **ディメンションのリスト：** 「ページ = ホームページ」などの簡単なセグメントを作成する場合、計算指標ビルダーから離れてセグメントビルダーで作成するのではなく、計算指標ビルダーから直接ページをドラッグしてホームページを選択できます。<p>これにより、セグメントを利用する計算指標の作成が容易になります。</p> |
 | 17 | **指標のリスト：** 指標は、次の 3 つのカテゴリに分類されます。 <ul> <li>標準指標（<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>計算指標（ <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート （ <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />） – リストの一番下に。 </li> </ul> <p>指標の上にマウスポインターを置くと、右側に情報アイコンが表示されます。 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />に移動します。このアイコンをクリックすると、次の情報が表示されます。 </p><ul> <li>指標の計算を行うための数式。 </li><li>指標の傾向のプレビュー </li><li>編集（鉛筆）アイコン 右上にある計算指標ビルダーに <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> 動し、この計算指標を編集できます。 </li></ul> |
 | 18 | **セグメントのリスト：** （高度な計算指標のみ）管理者の場合、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。 管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ja"  >さらに詳しく... </a> |
 | 19 | **関数のリスト：** （高度な計算指標のみ）関数は、<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > 基本 </a> （最も頻繁に使用される）と <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > 高度な </a> の 2 つのリストに分かれています。 |
