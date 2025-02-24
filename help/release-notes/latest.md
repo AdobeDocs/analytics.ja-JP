@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
+source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 57%
@@ -24,7 +24,7 @@ ht-degree: 57%
 | **データフィード API リファレンス** | データフィード API の [ 参照 ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) が利用できるようになりました。 |  | 2025年1月30日（PT） |
 | **Livestream API - クライアント実装** | Livestream クライアント実装を使用して、Livestream データを使用します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日（PT） |
 | **Classifications API の更新** | サーバーから個々の分類フィールドまたはキーを削除できるようになりました。 これにより、DELETEを使用して分類データセット全体を削除する代わりに使用できます。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日（PT） |
-| **Analytics コンテキストデータフィールドの更新`a.locale`** | Experience Edge経由でデータを収集する際に Analytics コンテキストデータフィールドの `a.locale` が設定される方法の更新がスケジュールされています。 Experience Edgeを使用してデータがAdobe Analyticsに送信されると、Analytics フィールドは XDM フィールドのマッピングに基づいて入力されます。 `c.a.locale` のマッピングが非標準の XDM フィールド `xdm.environment.language` を参照しています。 このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。  後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。 連続性を持たせるために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストは、（こちら [ で確認でき ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) す。 | | 2025年3月5日（PT） |
+| **Analytics コンテキストデータフィールドの更新`a.locale`** | 予定されている更新では、Experience Edge経由でデータを収集する際の Analytics コンテキストデータフィールドの `a.locale` の設定方法が変更されます。 Experience Edgeを使用してデータがAdobe Analyticsに送信されると、Analytics フィールドは XDM フィールドのマッピングに基づいて入力されます。 `c.a.locale` のマッピングが非標準の XDM フィールド `xdm.environment.language` を参照しています。 このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。  後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。 連続性を持たせるために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストは、（こちら [ で確認でき ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) す。 | | 2025年3月5日（PT） |
 
 
 ## Adobe Analytics の修正点
