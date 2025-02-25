@@ -3,10 +3,10 @@ description: 必要な権限、使用可能なディメンションや指標な�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 92%
+source-wordcount: '1137'
+ht-degree: 93%
 
 ---
 
@@ -22,14 +22,6 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 
 * 有料検索マーケターのパフォーマンスレポートを収集する必要がある&#x200B;**アナリスト**。
 * 次の問いの答えを模索している&#x200B;**有料検索マーケター**：自社サイトへ自分で送信しているトラフィックの量、お客様が変換しているトラフィックの量はどの程度か。コスト効果の高い広告キャンペーンとはどのようなものか。
-
-
-
->[!BEGINSHADEBOX]
-
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Analytics](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
 
 
 ## 前提条件 {#prerequisites}
