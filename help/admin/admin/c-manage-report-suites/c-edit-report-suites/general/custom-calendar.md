@@ -4,10 +4,10 @@ title: カレンダーのカスタマイズ
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 97%
 | カスタムカレンダー | 各月の週数に基づいて 3 とおりの形式が用意されています。各月の週数は、その年の初日の選択によって異なります。1 年は 52 週です。それを 4 つの四半期に分けると、1 四半期あたり 13 週になります。しかし、1 四半期は 3 ヶ月です。13 は 3 で割り切れないので、常に一貫性が保たれるように、いずれか 1 つの月に余分な週を追加することになります。<ul><li>例えば、5-4-4 は四半期の 1 番目の月に余分の週があることを意味し、4-5-4 は四半期の 2 番目の月に余分の週があることを意味します。5-4-4 制のカレンダーでは、最後の四半期に 53 番目の週が追加されます。</li><li>4-5-4：1 月は 4 週、2 月は 5 週、3 月は 4 週などとなります。</li><li>4-4-5：1 月は 4 週、2 月は 4 週、3 月は 5 週などとなります。</li><li>5-4-4：1 月は 5 週、2 月は 4 週、3 月は 4 週などとなります。</li></ul> |
 
 >[!NOTE]
->これらのカレンダーオプションは、Data Warehouse を除くすべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map）でサポートされています。Data Warehouse は、グレゴリオ暦のみを完全にサポートしています。グレゴリオ暦以外のカレンダーを選択する場合、Data Warehouse ではグレゴリオ暦以外のカレンダーに想定される日付範囲が使用されますが、レポートの行内の日／週／月の分類は、グレゴリオ暦以外のカレンダーで想定される日付範囲とは異なる場合があります。
+>これらのカレンダーオプションは、Data Warehouseを除くすべてのAdobe Analytics ツール（Analysis Workspace、Report Builder、Activity Map）でサポートされています。 Data Warehouse は、グレゴリオ暦のみを完全にサポートしています。グレゴリオ暦以外のカレンダーを選択する場合、Data Warehouse ではグレゴリオ暦以外のカレンダーに想定される日付範囲が使用されますが、レポートの行内の日／週／月の分類は、グレゴリオ暦以外のカレンダーで想定される日付範囲とは異なる場合があります。

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [セグメントの管理](legacy-report-builder/data-requests/segmentation.md)
       + レポートタイプ {#report-types}
          + [レポートタイプの概要](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Report Builder のパスレポートおよびパスフォールアウトレポート](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [リクエストウィザードを使用したパスレポートのフィルタリング](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [リクエストウィザードを使用したフォールアウトレポートのフィルタリング](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [依存リクエストの追加によるパスレポートのフィルタリング](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

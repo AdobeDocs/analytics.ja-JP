@@ -4,9 +4,9 @@ description: レポートスイートツールの各権限項目について説�
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 90%
 | [!UICONTROL コンバージョン変数] | Report Suite Manager のコンバージョン／コンバージョン変数へのアクセスを許可します。 |
 | [!UICONTROL カスタムカレンダー] | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
 | [!UICONTROL カスタム Data Warehouse レポート] | Analytics のトップナビゲーションでツール／Data Warehouse へのアクセスを許可します。 |
-| [!UICONTROL 日別再来訪] | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
 | [!UICONTROL  データフィードマネージャー ] | Analytics のトップナビゲーションで管理者／データフィードへのアクセス権を付与します。 |
 | [!UICONTROL データソースマネージャー] | Analytics のトップナビゲーションで管理者／すべての管理者／データソースへのアクセス権を付与します。権限項目「Report Suite Mgmt」が必要です。 |
 | [!UICONTROL  データ修復 API] | データ修復 API へのアクセスを許可 |

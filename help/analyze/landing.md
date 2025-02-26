@@ -4,9 +4,9 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1658'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '1463'
 ht-degree: 100%
 
 ---
@@ -134,4 +134,3 @@ Adobe Analytics の学習ページを使用して、Adobe Analytics の初級、
 | 以前の Reports &amp; Analytics のお気に入りは引き継がれますか？ | いいえ、引き継がれません。ただし、[!UICONTROL ワークスペース]プロジェクトのお気に入りは引き継がれます。 |
 | ピン留めできるプロジェクトに最大数はありますか？ | いいえ。固定できるプロジェクトの数に制限はありません。 |
 | 管理者は、このランディングページをユーザーに指定できますか？ | いいえ。管理者は、ユーザーの代わりにランディングページを指定することはできません。個々のユーザーは、自分で切り替えをオンにする必要があります。 |
-| [!DNL Reports & Analytics] にあるすべてのレポートは、引き続きテンプレートとして使用できますか？ | いいえ。全体的な使用状況のデータに基づき、次のレポートは廃止されました。 <ul><li>任意のカスタム eVars/props/events/classifications<li>推奨レポート</li><li>時間別／日別／週別／月別／四半期別／年別ユニーク訪問者数</li><li>日別／週別／月別／四半期別／年別ユニーク顧客数</li><li>アクション名の深度</li><li>アクション名の概要</li><li>ダッシュボードを追加</li><li>年齢</li><li>音声サポート</li><li>請求情報</li><li>ページへのクリック数</li><li>色深度</li><li>cookie サポート</li><li>Cookie</li><li>接続タイプ</li><li>クリエイティブエレメント</li><li>クレジットカードの種類</li><li>クロスセル</li><li>カスタムイベントファネル</li><li>カスタムリンク</li><li>顧客 ID</li><li>曜日</li><li>入口アクション名</li><li>出口アクション名</li><li>離脱リンク</li><li>フォールアウト</li><li>ファイルのダウンロード数</li><li>ストア内を検索</li><li>フルパス</li><li>性別</li><li>ヒットタイプ VISTA ルール</li><li>画像のサポート</li><li>Java</li><li>JavaScript</li><li>JavaScript バージョン</li><li>ブックマークの管理</li><li>ダッシュボードを管理</li><li>モニターの色深度</li><li>モニターの解像度</li><li>ニュースレターへの新規登録</li><li>次のアクション名</li><li>次のアクション名のフロー</li><li>Null 検索</li><li>オペレーティングシステム</li><li>注文の確認</li><li>その日のページ</li><li>エラーページ（404）</li><li>パスファインダー</li><li>パスの長さ</li><li>前のアクション名</li><li>前のアクション名のフロー</li><li>製品アクティビティ</li><li>製品コスト</li><li>製品部門</li><li>製品在庫カテゴリ</li><li>製品名</li><li>製品レビュー</li><li>製品シーズン</li><li>製品共有</li><li>製品ズーム</li><li>リロード</li><li>検索</li><li>サーバー</li><li>単一ページ訪問数</li><li>配送先情報</li><li>サイト階層</li><li>Social メンション数</li><li>時刻</li><li>アクション名での滞在時間</li><li>ビデオサポート</li><li>訪問者の州</li></ul> |

@@ -3,9 +3,9 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 89%
    * チャネル変数。サイトセクションディメンションを入力します。『実装ユーザガイド』の「[ページ変数](/help/implement/vars/page-vars/page-variables.md)」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。『コンポーネントユーザガイド』の「[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **分類**：Adobe Analytics の機能の 1 つで、ディメンション項目のグループ化を可能にします。『コンポーネントユーザガイド』の「[分類](/help/components/classifications/c-classifications.md)」を参照してください。
-* **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。この道具は廃止されActivity Mapに置き換えられた。
+* **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。この道具は廃止され、Activity Mapに置き換えられた。
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とはAnalytics ツールガイドのを ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。
@@ -45,13 +45,13 @@ ht-degree: 89%
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。『実装ユーザガイド』の「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
-* **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。[Adobe Exchangeマーケットプレイス ](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE) に置き換えられました。
+* **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。[Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE) に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
 * **データレイヤー：** [ データレイヤー ](/help/implement/prepare/data-layer.md) は、Analytics 実装で使用される変数値を格納したサイト上のJavaScript オブジェクトのフレームワークです。 Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。『エクスポートユーザガイド』の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。
 * **Data Workbench:** 複数のチャネルにわたるオンラインとオフラインの両方の顧客インタラクションからデータを収集、処理、分析、視覚化するために設計された [ 廃止 ](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-workbench) 分析ツールです。
-* **Dimension:** Dimensionは、性別、月、年齢、ロイヤルティ、モニターの解像度など、数値および日付以外の値です。 その他の例としては、ページ名、トラッキングコード、参照ドメインなどがあります。 通常、指標と組み合わせて表示されます。
+* **Dimension:** ディメンションは、性別、月、年齢、ロイヤルティ、モニターの解像度など、数値以外の値および日付です。 その他の例としては、ページ名、トラッキングコード、参照ドメインなどがあります。 通常、指標と組み合わせて表示されます。
 * **Dimensionの分類：** 各ディメンションは、より詳細なレベルに分類できます。 例えば、「月」ディメンションは、1 月、2 月、3 月などに分類できます。
 * **イベントのシリアル化：**&#x200B;重複イベントの収集を防ぐための措置を実装するプロセス。『実装ユーザガイド』の「[イベントのシリアル化](../implement/vars/page-vars/events/event-serialization.md)」を参照してください。
 * **eVar：**「コンバージョン変数」を参照してください。
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
 * **Report Builder:** JavaScript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) アドインを使用すると、Adobe Analytics データからカスタマイズされたリクエストを作成できます。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
-* **Reports &amp; Analytics:** レポートおよび分析用の廃止されたブラウザーソリューション。 このツールは[提供終了](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja)となりました。
+* **Reports &amp; Analytics:** このツールは [ 提供終了 ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja) となりました。
 * **周期的日付範囲：**&#x200B;時間が経過すると変化する相対的な日付範囲。例えば、過去 7 日間のデータを示すレポートは、周期的日付範囲と見なすことができます。「静的日付範囲」も参照してください。
 * **RSID：**&#x200B;レポートスイート ID の略称です。レポートスイートには名前とレポートスイート ID の両方が指定されます。
 * **s.t()：**&#x200B;ページビューのイメージリクエストを送信する AppMeasurement ライブラリ内の関数の名前。一部の AppMeasurement ライブラリでは、代わりに `s.track()` が使用されます。実装ユーザーガイドの「[t](../implement/vars/functions/t-method.md)」を参照してください。
