@@ -3,9 +3,9 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL After] and [!UICONTROL Within]
 
-**[!UICONTROL Then]** 演算子の ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** および ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** を使用して、追加の [ 時間制約 ](#time-constraints) または [ ヒット、訪問またはDimensionの制約 ](#event-session-and-dimension-constraints) を定義できます。
+**[!UICONTROL Then]** 演算子の ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** および ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** を使用して、追加の [ 時間制約 ](#time-constraints) または [ ヒット、訪問またはディメンションの制約 ](#event-session-and-dimension-constraints) を定義できます。
 
 ### 時間制約
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 ### [!UICONTROL  ヒット ]、[!UICONTROL  訪問 ]、[!UICONTROL Dimension] の制約
 
-![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** と ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 制約を使用すると、時間制約だけでなく、ヒット、訪問、ディメンションの制約も指定できます。 **[!UICONTROL ヒット]**、**[!UICONTROL 訪問]** または **[!UICONTROL その他のディメンション]** ![ 山形の権利 ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名&#x200B;*]**を選択します。 「[!UICONTROL *検索*]」フィールドを使用して、ディメンションを検索できます。
+![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** と ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** 制約を使用すると、時間制約だけでなく、ヒット、訪問、ディメンションの制約も指定できます。 **[!UICONTROL ヒット]**、**[!UICONTROL 訪問]** または **[!UICONTROL その他のディメンション]** ![ 山形記号 ](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Dimension名&#x200B;*]**を選択します。 「[!UICONTROL *検索*]」フィールドを使用して、ディメンションを検索できます。
 
 #### 例
 
@@ -299,3 +299,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 
 ![ 複雑な順次セグメントの例 ](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [AA と CJA でのシーケンシャルロジックの習得：THEN の概要 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
