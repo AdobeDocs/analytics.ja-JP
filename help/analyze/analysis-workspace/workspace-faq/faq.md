@@ -4,7 +4,7 @@ title: よくある質問と Workspace のトラブルシューティング
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 81%
@@ -45,25 +45,13 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データはAnalysis Workspace プロジェクトにどのように取り込まれますか？
 
-
->[!BEGINSHADEBOX]
-
 デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
-
 
 +++
 
 +++Workspaceの使用状況を追跡するにはどうすればよいですか？
 
-
->[!BEGINSHADEBOX]
-
 デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ログトラッキング ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
-
 
 +++
 
