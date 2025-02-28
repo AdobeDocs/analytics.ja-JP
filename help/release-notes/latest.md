@@ -4,47 +4,47 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2025 年 2 月リリース）
+# 現在の Adobe Analytics リリースノート（2025年2月リリース）
 
 **最終更新日**：2025年2月21日（PT）
 
-これらのリリースノートは、2025 年 2 月 11 日（PT）から 3 月中旬のリリース期間に対応しています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+このリリースノートは、2025年2月11日（PT）～2024年3月中旬のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **トランザクション ID の保持期間** | トランザクション ID の保持期間は 90 日から 25 か月に延長されました。 `transactionID` 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。詳しくは [ こちら ](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) および [ こちら ](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid) を参照してください。 |  | 2025年2月20日（PT） |
-| **データフィード API リファレンス** | データフィード API の [ 参照 ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) が利用できるようになりました。 |  | 2025年1月30日（PT） |
-| **Livestream API - クライアント実装** | Livestream クライアント実装を使用して、Livestream データを使用します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日（PT） |
-| **Classifications API の更新** | サーバーから個々の分類フィールドまたはキーを削除できるようになりました。 これにより、DELETEを使用して分類データセット全体を削除する代わりに使用できます。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日（PT） |
-| **Analytics コンテキストデータフィールドの更新`a.locale`** | 予定されている更新では、Experience Edge経由でデータを収集する際の Analytics コンテキストデータフィールドの `a.locale` の設定方法が変更されます。 Experience Edgeを使用してデータがAdobe Analyticsに送信されると、Analytics フィールドは XDM フィールドのマッピングに基づいて入力されます。 `c.a.locale` のマッピングが非標準の XDM フィールド `xdm.environment.language` を参照しています。 このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。 連続性を持たせるために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストは、（こちら [ で確認でき ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping) す。 | | 2025年3月5日（PT） |
+| **トランザクション ID の保持期間** | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。`transactionID` 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/page-vars/transactionid)と[こちら](https://experienceleague.adobe.com/ja/docs/analytics/import/data-sources/transactionid)を参照してください。 |  | 2025年2月20日（PT） |
+| **Data Feeds API リファレンス** | Data Feeds API の[リファレンス](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)が使用可能になりました。 |  | 2025年1月30日（PT） |
+| **Livestream API - クライアント実装** | Livestream データを使用するには、Livestream クライアント実装を使用します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日（PT） |
+| **Classifications API の更新** | サーバーから個々の分類フィールドまたはキーを削除できるようになりました。これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日（PT） |
+| **Analytics コンテキストデータフィールドの更新`a.locale`** | スケジュールされた更新により、Experience Edge 経由でデータを収集する際に Analytics コンテキストデータフィールド `a.locale` の設定方法が変更されます。Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。継続性のために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
 
 
 ## Adobe Analytics の修正点
 
-**Analysis Workspace**: AN-359974; AN-366212; AN-368460
-**分類**: AN-367186; AN-367328; AN-368548
-**コンポーネントの移行**: AN-364529; AN-366398; AN-367509;
-**データフィード**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
-**Data Warehouse**: AN-368178; AN-368331;
-**モバイルアプリ**:AN-367137
-**Platform**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
-**Report Builder**: AN-366456; AN-366655;
-**仮想レポートスイート**:AN-367411
-**VISTA ルール**: AN-365331
+**Analysis Workspace**：AN-359974、AN-366212、AN-368460
+**分類**：AN-367186、AN-367328、AN-368548
+**コンポーネントの移行**：AN-364529、AN-366398、AN-367509、
+**データフィード**：AN-365685、AN-366745、AN-367256、AN-367349、AN-368363
+**Data Warehouse**：AN-368178、AN-368331、
+**モバイルアプリ**：AN-367137
+**Platform**：AN-351924、AN-365540、AN-365866、AN-366898、AN-367856、AN-367933
+**Report Builder**：AN-366456、AN-366655、
+**仮想レポートスイート**：AN-367411
+**VISTA ルール**：AN-365331
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Campaign 以外のお客様は、トリガーにアクセスできなくなる** | 2023年10月16日（PT） | 2025 年 1 月 30 日（PT）、Adobe Campaign ライセンスのないAdobe Analytics ユーザーは、[トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers) を設定して使用する機能にアクセスできなくなります。 お客様は、Campaign を購入、またはトリガーの使用を中止するか、トリガー機能を提供する他の Adobe ツールを検討する必要があります。 |
+| **Campaign 以外のお客様は、トリガーにアクセスできなくなる** | 2023年10月16日（PT） | 2025年1月30日（PT）に、Adobe Campaign ライセンスを持たない Adobe Analytics のお客様は、[トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers)を設定および使用できなくなりました。お客様は、Campaign を購入、またはトリガーの使用を中止するか、トリガー機能を提供する他の Adobe ツールを検討する必要があります。 |
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
 

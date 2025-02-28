@@ -4,7 +4,7 @@ title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
