@@ -4,9 +4,9 @@ description: Edge が Analytics 変数に自動的にマッピングする XDM �
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 56%
 
 次の表に、Adobe Experience Platform Edge NetworkがAdobe Analyticsに自動的にマッピングする XDM 変数を示します。 これらの XDM フィールドパスを使用する場合、Adobe Analyticsにデータを送信するための追加設定は必要ありません。 これらのフィールドは、**[!UICONTROL Adobe Analytics ExperienceEvent Template]** フィールドグループに含まれています。 Adobe AnalyticsとAdobe Experience Platformの両方にデータを送信する場合は、これらのフィールドの使用をお勧めします。
 
-Customer Journey Analyticsに移行する予定がある場合は、Adobeでは、代わりに `data` オブジェクトを使用して、スキーマに準拠せずに直接Adobe Analyticsにデータを送信することをお勧めします。 この方法では、[!UICONTROL Adobe Analytics ExperienceEvent テンプレート ] （Customer Journey Analyticsにはあまり適用されません）を使用する代わりに、独自のスキーマを使用できます。 同様のマッピングテーブルについては、[Adobe Analyticsへのデータオブジェクト変数のマッピング ](data-var-mapping.md) を参照してください。
+Customer Journey AnalyticsAdobeに移行する予定がある場合は、代わりに、`data` オブジェクトを使用して、スキーマに準拠せずに直接Adobe Analyticsにデータを送信することをお勧めします。 この方法では、[!UICONTROL Adobe Analytics ExperienceEvent Template] （これはCustomer Journey Analyticsにはあまり適用されません）を使用する代わりに、独自のスキーマを使用できます。 同様のマッピングテーブルについては、[Adobe Analyticsへのデータオブジェクト変数のマッピング ](data-var-mapping.md) を参照してください。
 
 ## 値の優先度
 
@@ -66,6 +66,7 @@ Customer Journey Analyticsに移行する予定がある場合は、Adobeでは�
 | `xdm.environment.carrier` | モバイルライフサイクルディメンションである[通信事業者名](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
+| `xdm.environment._dc.language` | モバイルディメンション「ロケール」。 |
 | `xdm.environment.language` | モバイルディメンション「ロケール」。 |
 | `xdm.environment.operatingSystem` | モバイルライフサイクルディメンションである[オペレーティングシステム](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | モバイルライフサイクルディメンションである[オペレーティングシステムのバージョン](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
