@@ -4,10 +4,10 @@ description: Edge が Analytics 変数に自動的にマッピングする XDM �
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ Customer Journey AnalyticsAdobeに移行する予定がある場合は、代わ�
 | `xdm.environment.carrier` | モバイルライフサイクルディメンションである[通信事業者名](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
-| `xdm.environment._dc.language` | モバイルディメンション「ロケール」。 |
+| `xdm.environment._dc.language` | モバイルディメンション「ロケール」。 xdm.environment.language が設定されていない場合にのみ使用されます。 |
 | `xdm.environment.language` | モバイルディメンション「ロケール」。 |
 | `xdm.environment.operatingSystem` | モバイルライフサイクルディメンションである[オペレーティングシステム](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | モバイルライフサイクルディメンションである[オペレーティングシステムのバージョン](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
