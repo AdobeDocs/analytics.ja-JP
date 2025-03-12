@@ -3,48 +3,46 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 57%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2025年2月リリース）
+# 最新のAdobe Analytics リリースノート（2025 年 3 月リリース）
 
-**最終更新日**：2025年2月21日（PT）
+**最終更新日**：2025年3月12日（PT）
 
-このリリースノートは、2025年2月11日（PT）～2024年3月中旬のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+これらのリリースノートは、2025 年 3 月 5 日（PT）から 5 月のリリース期間に対応しています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **トランザクション ID の保持期間** | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。`transactionID` 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/page-vars/transactionid)と[こちら](https://experienceleague.adobe.com/ja/docs/analytics/import/data-sources/transactionid)を参照してください。 |  | 2025年2月20日（PT） |
-| **Data Feeds API リファレンス** | Data Feeds API の[リファレンス](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)が使用可能になりました。 |  | 2025年1月30日（PT） |
-| **Livestream API - クライアント実装** | Livestream データを使用するには、Livestream クライアント実装を使用します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日（PT） |
-| **Classifications API の更新** | サーバーから個々の分類フィールドまたはキーを削除できるようになりました。これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日（PT） |
-| **Analytics コンテキストデータフィールドの更新`a.locale`** | スケジュールされた更新により、Experience Edge 経由でデータを収集する際に Analytics コンテキストデータフィールド `a.locale` の設定方法が変更されます。Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。継続性のために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
+| **Analytics コンテキストデータフィールドの更新`a.locale`** | この更新により、Experience Edgeを介してデータを収集する際の Analytics コンテキストデータフィールドの `a.locale` の設定方法が変わります。 Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。連続性の場合、両方のフィールドが設定されていると、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
+| **Customer Journey Analytics アップグレードガイド** | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードするためのステップバイステップのガイドを生成できます。 このガイドは、お客様の組織に合わせてカスタマイズされ、現在のAdobe Analytics環境、Customer Journey Analyticsの使用目的、お客様の組織が望んでいる時間節約のメリットを考慮しています。<p>カスタムガイドの作成を開始するには、[!DNL Customer Journey Analytics] にログインし、「**[!UICONTROL Workspace**[!UICONTROL 」タブで ]**Customer Journey Analyticsにアップグレード]** を選択します。<p>[詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025年3月11日（PT） |
+| **Data Warehouse専用ディメンション** | 2025 年 5 月より、Adobeは、基数が「Data Warehouseのみ」に極めて高いディメンション（eVar や prop などのカスタム変数）の設定を開始します。 高基数の変数には、タイムスタンプや UUID など、様々な異なる値があります。 これらのディメンションは、Analysis Workspaceでのレポートには使用できなくなります。<p>この変更の候補は、月の非常に早い段階で低トラフィックの制限を超えるディメンションです。 これらのタイプのディメンションでは、レポート可能なデータが収集された初期値のシンスライスのみを表すので、そのディメンションに基づくAnalysis Workspaceのレポートは役に立ちません。<p>Data Warehouseでは低トラフィックの制限を課さないので、これらのタイプのディメンションに基づいて、有用なレポートやセグメントを構築できます。 | | 2025年5月 |
 
 
 ## Adobe Analytics の修正点
 
-**Analysis Workspace**：AN-359974、AN-366212、AN-368460
-**分類**：AN-367186、AN-367328、AN-368548
-**コンポーネントの移行**：AN-364529、AN-366398、AN-367509、
-**データフィード**：AN-365685、AN-366745、AN-367256、AN-367349、AN-368363
-**Data Warehouse**：AN-368178、AN-368331、
-**モバイルアプリ**：AN-367137
-**Platform**：AN-351924、AN-365540、AN-365866、AN-366898、AN-367856、AN-367933
-**Report Builder**：AN-366456、AN-366655、
-**仮想レポートスイート**：AN-367411
-**VISTA ルール**：AN-365331
+**Activity Map**: AN-361038
+**管理ツール**:AN-362178; AN-369483
+**Analytics API 1.4**: AN-369615
+**Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-367313; AN-368582; AN-369821; AN-370227;
+**分類**: AN-369848; AN-370196; AN-370226; AN-370437
+**データフィード**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
+**データガバナンス**:AN-365157
+**データソース**: AN-367550
+**Platform**: AN-363931
+**Report Builder**: AN-367460; AN-368975
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Campaign 以外のお客様は、トリガーにアクセスできなくなる** | 2023年10月16日（PT） | 2025年1月30日（PT）に、Adobe Campaign ライセンスを持たない Adobe Analytics のお客様は、[トリガー](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/triggers)を設定および使用できなくなりました。お客様は、Campaign を購入、またはトリガーの使用を中止するか、トリガー機能を提供する他の Adobe ツールを検討する必要があります。 |
+| 該当なし |  |  |
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
 
@@ -61,7 +59,7 @@ AppMeasurement リリース（バージョン 2.27.0）の最新のアップデ�
 
 ## 関連リソース
 
-* [2024年の以前のリリースノート](/help/release-notes/2024.md)
+* [2025年の以前のリリースノート](/help/release-notes/2025.md)
 * [Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
 * [ストリーミングメディアコレクションのリリースノート](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ja)
 * [Adobe Experience Cloud 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)の最新のリリース更新
