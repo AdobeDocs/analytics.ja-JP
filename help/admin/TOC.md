@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 + Analytics 管理ツール {#admin-tools}
    + [管理ツールの概要](admin/c-admin-tools.md)
    + [コードマネージャー](admin/code-manager-admin.md)
-   + [Analytics 在庫](admin/analytics-inventory.md)
+   + [Analytics インベントリ](admin/analytics-inventory.md)
    + [データソース](admin/data-sources.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
@@ -163,7 +163,6 @@ ht-degree: 0%
          + [ラベル設定に関するベストプラクティス](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
          + [ラベル設定の例](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
          + [名前空間](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
-      + [ID 拡張](admin/c-data-governance/gdpr-id-expansion.md)
       + [CNIL 同意除外](admin/c-data-governance/cnil-consent-exemption.md)
    + サーバーコールの使用状況 {#server-call-usage}
       + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)

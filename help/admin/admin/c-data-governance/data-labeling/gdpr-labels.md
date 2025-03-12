@@ -4,10 +4,10 @@ title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3790'
-ht-degree: 91%
+source-wordcount: '3760'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 >[!NOTE]
 >
->I1、I2、S1 および S2 ラベルは、Adobe Experience Platformのそれに対応する名前の DULE ラベルと同じ意味を持ちます。 ただし、これらは非常に異なる目的で使用されます。 Adobe Analytics内では、これらのラベルは、Privacy Serviceリクエストの結果として匿名化する必要があるフィールドを識別するために使用されます。 Adobe Experience Platform内では、アクセス制御、同意管理、ラベル付きフィールドにマーケティング制限を適用するために使用されます。 Adobe Experience Platformでは、Adobe Analyticsで使用されない多くの追加ラベルをサポートしています。 さらに、Adobe Experience Platformのラベルがスキーマに適用されます。 Analytics Data Connector を使用してAdobe Analytics データをAdobe Experience Platformに読み込む場合、各レポートスイートで使用されるスキーマに対して適切な DULE ラベルがAdobe Experience Platformで設定されていることを確認する必要があります。 Adobe Analyticsで割り当てられたラベルは、適用する必要がある DULE ラベルのサブセットのみを表すので、Adobe Experience Platformのこれらのスキーマには自動適用されません。 また、異なるレポートスイートは、スキーマを共有しても、同じ数の prop および evar に割り当てられた異なるラベルを持つ場合があり、スキーマは他のデータソースのデータセットで共有される場合があり、特定のフィールドがこれらのラベルを受け取った理由で混乱が生じる可能性があります。
+>I1、I2、S1 および S2 ラベルは、Adobe Experience Platformのそれに対応する名前の DULE ラベルと同じ意味を持ちます。 ただし、これらは非常に異なる目的で使用されます。 Adobe Analytics内では、これらのラベルは、Privacy Service リクエストの結果として匿名化する必要があるフィールドを識別するために使用されます。 Adobe Experience Platform内では、アクセス制御、同意管理、ラベル付きフィールドにマーケティング制限を適用するために使用されます。 Adobe Experience Platformでは、Adobe Analyticsで使用されない多くの追加ラベルをサポートしています。 さらに、Adobe Experience Platformのラベルがスキーマに適用されます。 Analytics Data Connector を使用してAdobe Analytics データをAdobe Experience Platformに読み込む場合、各レポートスイートで使用されるスキーマに対して適切な DULE ラベルがAdobe Experience Platformで設定されていることを確認する必要があります。 Adobe Analyticsで割り当てられたラベルは、適用する必要がある DULE ラベルのサブセットのみを表すので、Adobe Experience Platformのこれらのスキーマには自動適用されません。 また、異なるレポートスイートは、スキーマを共有しても、同じ数の prop および evar に割り当てられた異なるラベルを持つ場合があり、スキーマは他のデータソースのデータセットで共有される場合があり、特定のフィールドがこれらのラベルを受け取った理由で混乱が生じる可能性があります。
 
 ## 識別データラベル {#identity-data-labels}
 
@@ -67,7 +67,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 他のラベルとは異なり、これらの削除ラベルは相互に排他的ではありません。どちらか、両方、なしを選択できます。どちらの削除オプションもただチェックしなければ「[!UICONTROL なし]」が表示されるので、「[!UICONTROL なし]」ラベルを別途指定する必要はありません。
 
-削除ラベルは、ヒットとデータ主体との関連付けを許可する（つまり、データ主体の識別を許可する）値を含んだフィールドに対してのみ必要です。他の個人情報（お気に入り、閲覧／購入履歴、健康状態など）は、データ主体との関連付けがなくなるので、削除する必要はありません。
+削除ラベルは、ヒットとデータ主体との関連付けを許可する（つまり、データ主体の識別を許可する）値を含んだフィールドに対してのみ必要です。その他の個人情報（お気に入り、閲覧/購入履歴、健康状態など）は、データ主体との関連付けが解除されるので、削除する必要はありません。
 
 | ラベル | 定義 | その他の要件 |
 | --- | --- | --- |
@@ -243,7 +243,7 @@ Adobe Analytics でのデータプライバシー削除要求は、レポート�
 | [!UICONTROL ユーザーエージェント] | ユーザーエージェントは、使用されたブラウザーのバージョンを識別します。 |
 | [!UICONTROL ユーザー ID] | データが含まれる Analytics レポートスイート（番号）を指定します。 |
 | [!UICONTROL レポートスイート ID] | データが含まれる Analytics レポートスイートの名前を指定します。 |
-| [!UICONTROL 訪問者 ID]<p>[!UICONTROL MCID]／[!UICONTROL ECID] | これらの ID には DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各リクエストで [!UICONTROL ID 拡張]を指定した場合は、ID-PERSON を使用しているリクエストも含め、すべての削除リクエストについて、これらの ID が自動的に削除されます。<p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 |
+| [!UICONTROL 訪問者 ID]<p>[!UICONTROL MCID]／[!UICONTROL ECID] | これらの ID には DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。prop またはeVarに一致する ID を含むヒットでこれらの cookie ID を匿名化する場合は、実際に人物を特定できる場合でも、prop またはeVarに ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。 この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID は、変更不能な [!UICONTROL DEL-DEVICE] ラベルが設定されたソリューション変数です。これは、訪問者 ID や MCID と同様に、Cookie から値が入力されます。これは、他の ID が削除されるたびに、ヒットから削除される必要があります。詳しくは、それらの変数の説明を参照してください。 |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Adobe Analytics でのデータプライバシー削除要求は、レポート�
 
 データプライバシーアクセス要求用に返されたファイルを生成するコードでは、少なくとも最初の 3 つのタイムスタンプ変数のいずれかがアクセス要求に含まれている（この要求のタイプに適用する ACC ラベルを持つ）必要があります。これらがいずれも含まれていない場合、「カスタムヒット時刻 (UTC)」が ACC-ALL ラベルを持つかのように扱われます。
 
-データプライバシーアクセスリクエストに対して返されたヒットレベル CSV ファイルでは、これらのフィールドの値を Unix タイムスタンプから形式 `YYYY-MM-DD HH:MM:SS` の日付/時刻フィールド（例：`2018-05-01 13:49:22`）に変換します。 概要HTMLファイルでは、これらのタイムスタンプ値は、日付 `YYYY-MM-DD` のみを含むように切り捨てられて、これらのフィールドに発生する一意の値の数を減らします。
+データプライバシーアクセスリクエストに対して返されたヒットレベル CSV ファイルでは、これらのフィールドの値を Unix タイムスタンプから形式 `YYYY-MM-DD HH:MM:SS` の日付/時刻フィールド（例：`2018-05-01 13:49:22`）に変換します。 概要HTML ファイルでは、これらのタイムスタンプ値は、日付 `YYYY-MM-DD` のみを含むように切り捨てられて、これらのフィールドに発生する一意の値の数を減らします。
