@@ -4,7 +4,7 @@ title: テンプレートを使用
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18666'
 ht-degree: 83%
@@ -41,7 +41,7 @@ Analysis Workspaceのテンプレート（または会社テンプレート）�
 
    * **[!UICONTROL _login_company_name _templates]**：組織用に作成されたすべての会社テンプレートを表示します。
 
-     会社テンプレートを作成できるのは管理者のみです。 会社テンプレートの作成方法について詳しくは、[ テンプレートの作成と管理 ](/help/analyze/analysis-workspace/reports/create-company-reports.md) を参照してください。
+     会社テンプレートを作成できるのは管理者のみです。 会社テンプレートの作成方法について詳しくは、[ テンプレートの作成と管理 ](/help/analyze/analysis-workspace/templates/create-templates.md) を参照してください。
 
 1. 使用可能なテンプレートの表示方法を変更するには、次のいずれかのオプションを使用します。
 

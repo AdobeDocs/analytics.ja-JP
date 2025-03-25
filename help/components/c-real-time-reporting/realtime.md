@@ -4,10 +4,10 @@ title: リアルタイムレポートの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 90%
 
 1. Analysis Workspace で、「[!UICONTROL **ワークスペース**]」タブを選択します。
 
-1. [!UICONTROL **レポート**]/[!UICONTROL **エンゲージメント**]/**[!UICONTROL リアルタイム]** を選択します。
+1. ページの左側の「**[!UICONTROL テンプレート]** で、[!UICONTROL **Adobeのテンプレート**] を選択します。
+
+1. [!UICONTROL **エンゲージメント**]/**[!UICONTROL リアルタイム]** を選択します。
 
 ## リアルタイムレポートについて
 

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 | --- | --- |
 | **2023年12月** | |
 | ボットルールに関するドキュメントの改善 | [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>説明的にした記事のタイトルを更新</li><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加</li></ul> |
-| 新しいレポートの節 | [事前定義済みレポートの使用](/help/analyze/analysis-workspace/reports/use-reports.md)と[会社レポートの作成と管理](/help/analyze/analysis-workspace/reports/create-company-reports.md)に関する情報を含む。新しいレポートの節を追加しました。 |
+| 新しいレポートの節 | [ テンプレートの使用 ](/help/analyze/analysis-workspace/templates/use-templates.md) および [ 会社テンプレートの作成 ](/help/analyze/analysis-workspace/templates/create-templates.md) に関する情報を含む新しい「レポート」セクションを追加しました。 |
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
 | 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |

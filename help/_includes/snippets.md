@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->合理化された新しい [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) が 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
->この従来のReport Builderのアドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) できます。
+>合理化された新しい [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview) は 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
+>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) できます。
 
 ## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024 年 1 月 17 日** をもって、Adobeは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは動作を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。Analysis Workspaceでのレポートの使用について詳しくは、[ 事前定義済みレポートの使用 ](/help/analyze/analysis-workspace/reports/use-reports.md) を参照してください。
+>**2024 年 1 月 17 日** をもって、Adobeは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは動作を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。詳しくは、[ テンプレートの使用 ](/help/analyze/analysis-workspace/templates/use-templates.md) を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 >
