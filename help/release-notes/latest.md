@@ -4,39 +4,39 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2025 年 3 月リリース）
+# 現在の Adobe Analytics リリースノート（2025年3月リリース）
 
 **最終更新日**：2025年3月12日（PT）
 
-これらのリリースノートは、2025 年 3 月 5 日（PT）から 5 月のリリース期間に対応しています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+このリリースノートは、2025年3月5日（PT）～2025年5月のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics コンテキストデータフィールドの更新`a.locale`** | この更新により、Experience Edgeを介してデータを収集する際の Analytics コンテキストデータフィールドの `a.locale` の設定方法が変わります。 Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。連続性の場合、両方のフィールドが設定されていると、`xdm.environment.language` が優先されます。 XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
-| **Customer Journey Analytics アップグレードガイド** | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードするためのステップバイステップのガイドを生成できます。 このガイドは、お客様の組織に合わせてカスタマイズされ、現在のAdobe Analytics環境、Customer Journey Analyticsの使用目的、お客様の組織が望んでいる時間節約のメリットを考慮しています。<p>カスタムガイドの作成を開始するには、[!DNL Customer Journey Analytics] にログインし、「**[!UICONTROL Workspace**[!UICONTROL 」タブで ]**Customer Journey Analyticsにアップグレード]** を選択します。<p>[詳細情報](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025年3月11日（PT） |
-| **Data Warehouse専用ディメンション** | 2025 年 5 月より、Adobeは、基数が「Data Warehouseのみ」に極めて高いディメンション（eVar や prop などのカスタム変数）の設定を開始します。 高基数の変数には、タイムスタンプや UUID など、様々な異なる値があります。 これらのディメンションは、Analysis Workspaceでのレポートには使用できなくなります。<p>この変更の候補は、月の非常に早い段階で低トラフィックの制限を超えるディメンションです。 これらのタイプのディメンションでは、レポート可能なデータが収集された初期値のシンスライスのみを表すので、そのディメンションに基づくAnalysis Workspaceのレポートは役に立ちません。<p>Data Warehouseでは低トラフィックの制限を課さないので、これらのタイプのディメンションに基づいて、有用なレポートやセグメントを構築できます。 | | 2025年5月 |
+| **Analytics コンテキストデータフィールドの更新`a.locale`** | この更新により、Experience Edge 経由でデータを収集する際の Analytics コンテキストデータフィールド `a.locale` の設定方法が変更されます。Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。継続性のために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
+| **Customer Journey Analytics アップグレードガイド** | Adobe Analytics から Customer Journey Analytics にアップグレードするためのステップバイステップガイドを生成できます。このガイドは、組織に合わせて調整されており、現在の Adobe Analytics 環境、Customer Journey Analytics の使用目的、組織が希望する時間節約のトレードオフを考慮しています。<p>カスタムガイドの生成を開始するには、[!DNL Customer Journey Analytics] にログインし、「**[!UICONTROL ワークスペース]**」タブで「**[!UICONTROL Customer Journey Analytics にアップグレード]**」を選択します。<p>[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025年3月11日（PT） |
+| **Data Warehouse 専用ディメンション** | 2025年5月以降、アドビでは、非常に高い基数を示すディメンション（eVar や prop などのカスタム変数）の「Data Warehouse 専用」への設定を開始します。高い基数の変数には、タイムスタンプや UUID など、多くの異なる値があります。これらのディメンションは、Analysis Workspace でのレポートに使用できなくなります。<p>この変更の候補は、月の非常に早い段階で低トラフィック制限を超えるディメンションです。これらのタイプのディメンションでは、レポート可能なデータは収集された初期値のごく一部しか表さないので、そのディメンションに基づく Analysis Workspace のレポートは役に立ちません。<p>Data Warehouse では低トラフィック制限が課されないので、これらのタイプのディメンションに基づいて、有用なレポートやセグメントを作成できます。 | | 2025年5月 |
 
 
 ## Adobe Analytics の修正点
 
-**Activity Map**: AN-361038
-**管理ツール**:AN-362178; AN-369483
-**Analytics API 1.4**: AN-369615
-**Analysis Workspace**: AN-353491; AN-363403; AN-367230; AN-367313; AN-368582; AN-369821; AN-370227;
-**分類**: AN-369848; AN-370196; AN-370226; AN-370437
-**データフィード**: AN-366162; AN-368906; AN-369066; AN-369087; AN-369225; AN-369798
-**データガバナンス**:AN-365157
-**データソース**: AN-367550
-**Platform**: AN-363931
-**Report Builder**: AN-367460; AN-368975
+**Activity Map**：AN-361038
+**管理ツール**：AN-362178、AN-369483
+**Analytics API 1.4**：AN-369615
+**Analysis Workspace**：AN-353491、AN-363403、AN-367230、AN-367313、AN-368582、AN-369821、AN-370227、
+**分類**：AN-369848、AN-370196、AN-370226、AN-370437
+**データフィード**：AN-366162、AN-368906、AN-369066、AN-369087、AN-369225、AN-369798
+**データガバナンス**：AN-365157
+**データソース**：AN-367550
+**プラットフォーム**：AN-363931
+**Report Builder**：AN-367460、AN-368975
 
 ## Adobe Analytics 管理者向けの重要な注意事項 {#admin}
 
