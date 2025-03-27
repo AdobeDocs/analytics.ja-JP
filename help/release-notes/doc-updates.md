@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
 workflow-type: tm+mt
-source-wordcount: '6331'
-ht-degree: 98%
+source-wordcount: '6352'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年3月** |  |
+| Customer Journey Analytics アップグレードガイド | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードするための [ ステップバイステップガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) を生成できます。 |
 | Data Warehouse書き出しの日付形式を明確にしました | Data Warehouse書き出しの時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouseの書き出しから日付値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouseでのコンポーネントのサポート）の ](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) 別の方法でサポートされるディメンション [ 非標準の日付形式） ](/help/export/data-warehouse/component-support.md) を参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外 ](/help/admin/admin/exclude-ip.md) が有効になるまでに最大 5 分かかり、変更は新しいヒットにのみ適用されることを説明する情報を追加しました（除外が設定される前に取得されたデータは影響を受けません）。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトを更新しました。</p> |
 | **2025年2月** |  |
