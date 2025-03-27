@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2025年3月** |  |
+| Data Warehouse書き出しの日付形式を明確にしました | Data Warehouse書き出しの時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouseの書き出しから日付値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouseでのコンポーネントのサポート）の ](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) 別の方法でサポートされるディメンション [ 非標準の日付形式） ](/help/export/data-warehouse/component-support.md) を参照してください。</p> |
+| IP 除外に関する情報を更新しました | [IP 除外 ](/help/admin/admin/exclude-ip.md) が有効になるまでに最大 5 分かかり、変更は新しいヒットにのみ適用されることを説明する情報を追加しました（除外が設定される前に取得されたデータは影響を受けません）。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトを更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
 | トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/page-vars/transactionid?lang=ja)と[こちら](https://experienceleague.adobe.com/ja/docs/analytics/import/data-sources/transactionid?lang=ja)を参照してください。 |

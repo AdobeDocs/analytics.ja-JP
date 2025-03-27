@@ -3,16 +3,16 @@ title: Data Warehouseでのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 60%
+source-wordcount: '570'
+ht-degree: 45%
 
 ---
 
 # Data Warehouse でのコンポーネントのサポート
 
-Data Warehouseアーキテクチャにおける独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントが可能になります。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
+Data Warehouse アーキテクチャの独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントが可能になります。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
 
 ## Data Warehouse 固有のコンポーネント
 
@@ -20,15 +20,15 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
 
 ### 排他的にサポートされるディメンション
 
-* **Experience CloudID**:Experience CloudID サービス（ECID）を使用する実装の場合、19 桁に埋められた 2 つの連結された 64 ビット数で構成される 128 ビットの数。
+* **Experience Cloud ID**: Experience Cloud ID サービス（ECID）を使用する実装の場合、19 桁に埋められた 2 つの連結された 64 ビット数で構成される 128 ビットの数です。
 * **ページ URL**：ヒットが発生したページ URL。
 * **購入 ID**：購入の一意の ID。purchaseID 変数を使用して設定されます。
 * **訪問者 ID**：訪問者の一意の ID を提供します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ### 排他的にサポートされる指標
 
-* **訪問**：この指標はData Warehouseのコンテキストでは、永続的でない cookie 訪問を除外します。
-* **訪問回数 – すべての訪問者数**:Data Warehouseの観点からこの指標を選択すると、Adobe Analytics内の他のツールの訪問回数指標とより近い関係にあります。
+* **訪問数**：この指標は、Data Warehouseのコンテキストでは、非永続的な cookie 訪問を除外します。
+* **訪問回数 – すべての訪問者数**:Data Warehouseのコンテキストにおけるこの指標は、Adobe Analytics内の他のツールにおける訪問回数指標とより緊密に同等です。
 
 ## Data Warehouse でサポートされないコンポーネント
 
@@ -69,9 +69,9 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
    * 滞在時間指標
 * パーティシペーション指標（[ 「パーティシペーション」指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) で説明）
 
-### 別の方法でサポートされるDimension
+### 異なる方法でサポートされるディメンション（非標準の日付形式）
 
-次の時間ベースのディメンションがサポートされています。 ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。具体的には、年は 1900 年でオフセットされ、月はゼロベースです。
+次の時間ベースのディメンションがサポートされています。
 
 * 年
 * 四半期
@@ -80,6 +80,36 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
 * 日
 * 時間
 * 分
+
+ただし、これらのディメンションを使用する場合、日付の出力は非標準です。
+
+Data Warehouseで日付の出力を計算する際は、次の点を考慮してください。
+
+* 日付次元は次のフォーマットで表示されます：`1YYMMDDHHMM`
+
+* 年（YY）が 1900 でオフセットされます。 つまり、日付フィールドの最初の 3 つの値に `1900` を追加します。
+
+  例えば、Data Warehouseの「日付範囲（週）」フィールドの値が `1250901` の場合、1900 から 125 を加算すると、2025 年になります。
+
+* すべての月はゼロベースで、1 月は 00 で、2 月は 01 で表されます。その他は次のとおりです。
+
+   * 00:1 月
+   * 01:2 月
+   * 02: 3 月
+   * 03:4 月
+   * 04: 5 月
+   * 05: 6 月
+   * 06:7 月
+   * 07:8 月
+   * 08:9 月
+   * 09: 10 月
+   * 10 日：11 月
+   * 11:12 月
+
+  例えば、Data Warehouseの「日付範囲（週）」フィールドの値が `1250901` の場合、月は 09 （10 月を示す）として表されます。
+
+
+
 
 ## Data Warehouseのディメンションとしてのセグメント
 
