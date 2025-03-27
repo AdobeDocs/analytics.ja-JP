@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: ht
-source-wordcount: '730'
-ht-degree: 100%
+source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## AppMeasurement
 
-AppMeasurement リリース（バージョン 2.27.0）の最新のアップデートについて詳しくは、[JavaScript 版 AppMeasurement リリースノート](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ja)を参照してください。
+AppMeasurement リリースの最新の更新については、[AppMeasurement for JavaScript リリースノート](https://github.com/adobe/appmeasurement/releases)を参照してください。
 
 
 ## 関連リソース
