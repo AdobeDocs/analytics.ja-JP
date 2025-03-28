@@ -4,9 +4,9 @@ title: テンプレートを使用
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
 workflow-type: tm+mt
-source-wordcount: '18666'
+source-wordcount: '18667'
 ht-degree: 83%
 
 ---
@@ -103,9 +103,9 @@ Analysis Workspaceのテンプレート（または会社テンプレート）�
 
    以下のセクションは、使用可能なカテゴリに対応し、各テンプレートに関する情報を提供します。
 
-   * [[!UICONTROL ](#most-popular)
+   * **[[!UICONTROL 一番人気]](#most-popular)**
 
-   * [[!UICONTROL ](#engagement)
+   * **[[!UICONTROL エンゲージメント]](#engagement)**
 
 ### 一番人気 {#most-popular}
 
