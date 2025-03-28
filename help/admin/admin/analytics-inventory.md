@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 48%
 
 ---
 
@@ -25,6 +25,27 @@ ht-degree: 82%
 <!-- markdownlint-enable MD034 -->
 
 Analytics Inventory は、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要を提供します。 この情報は、Customer Journey Analytics へのアップグレードの準備を開始する際に特に役立ちます。
+
+このアプリケーションの目標は、次の質問に答えるのに役立つことです。
+
+* 組織にとって、アップグレードが必要なアセット（レポートスイート、セグメント、ユーザー、ワークスペースプロジェクト、データフィードなど）や残すことができるアセットはどれですか？
+
+* 移行する必要があるアセットを決定したら、次の手順を実行します。
+
+   * このアップグレードの前にアセットのクリーンアップを実行する必要がありますか。
+
+   * プロセスの一環としてアセットの統合を行う必要がありますか？
+
+   * アップグレードシーケンスはアセットに対して何にする必要がありますか？
+
+   * 最初にアップグレードする必要があるレポートスイートのグループは何ですか？ 最後？
+
+## Analytics インベントリへのアクセス
+
+Analytics インベントリは、「管理者 **[!UICONTROL メニューと]** すべての管理者 **[!UICONTROL メニュー項目から利用]** きます。
+
+    ![Analytics インベントリ メニュー ] （assets/an-inventory-menu.png） 
+
 
 ## コンポーネント {#components}
 

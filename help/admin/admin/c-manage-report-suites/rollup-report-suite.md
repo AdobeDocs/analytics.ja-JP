@@ -4,10 +4,10 @@ title: グローバルレポートスイート
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
   仮想レポートスイートを使用するには、グローバルレポートスイートを実装してからデータを解析し、特定のセグメントが適用され、特定のグループ権限を持つ仮想レポートスイートを作成します。仮想レポートスイートは、仮想レポートスイートマネージャー（[!UICONTROL コンポーネント]／[!UICONTROL 仮想レポートスイート]）で作成できます。詳しくは、[仮想レポートスイートのワークフロー](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)を参照してください。
 
-マルチスイートタグ付けの代わりに仮想レポートスイートを使用することは、多くの場合、ベストプラクティスですが、仮想レポートスイートにはいくつかの制限があります。ビジネスニーズに最適なレポートスイートのアプローチを決定するには、[仮想レポートスイートとマルチスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。仮想レポートスイートとマルチスイートタグ付け機能の詳細な比較について詳しくは、[仮想レポートスイートとマルチスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)を参照してください。
+マルチスイートタグ付けの代わりに仮想レポートスイートを使用することは、多くの場合、ベストプラクティスですが、仮想レポートスイートにはいくつかの制限があります。ビジネスニーズに最適なレポートスイートのアプローチを決定するには、[仮想レポートスイートとマルチスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。仮想レポートスイートとマルチスイートタグ付け機能の詳細な比較については、[ 仮想レポートスイートとマルチスイートタグ付けの比較 ](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) を参照してください。
 
 <!---## Rollup reports
 
