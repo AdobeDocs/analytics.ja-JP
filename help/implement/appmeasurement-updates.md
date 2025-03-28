@@ -4,20 +4,19 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2730'
 ht-degree: 86%
 
 ---
 
 # JavaScript 版 AppMeasurement リリースノート
 
-JavaScript 版 AppMeasurement のこれまでのリリースノートです。
+>[!IMPORTANT]
+>
+>2025 年 3 月をもって、この記事は更新されなくなります。 のリリースノートを確認し、[GitHub](https://github.com/adobe/appmeasurement/releases) から最新バージョンのAppMeasurementをダウンロードできます。
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-最新バージョンのAppMeasurementは、[GitHub](https://github.com/adobe/appmeasurement/releases) からダウンロードできます。
 
 ## バージョン 2.27.0
 
@@ -32,8 +31,8 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 リリース日：**2024 年 3 月 4 日**
 
-* AppMeasurementでは、以前は特定の cookie ドメイン設定が必要だった国コードのトップレベルドメインのルートドメインを自動的に認識し、利用します。 この自動認識により、更新が影響を与える可能性があります。 詳細は、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) を参照してください。
-* この配布には、ID サービスライブラリ 5.5.0 とData Integration Library 9.6 が含まれています。
+* AppMeasurementは、国コードのトップレベルドメイン（以前は特定の cookie ドメイン設定が必要でした）のルートドメインを自動的に認識して利用します。 この自動認識により、更新が影響を与える可能性があります。 詳細は、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) を参照してください。
+* この配布版には、ID サービスライブラリ 5.5.0 とData Integration Library 9.6 が含まれています。
 
 ## バージョン 2.25.0
 
@@ -48,7 +47,7 @@ JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 
 * ダブルバイトエンコードされた文字を含むリンク URL をデコードするためのオプションの設定変数 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) を追加しました。
 * 高エントロピーの欠陥がある User-Agent クライアントヒント API を含むブラウザーに対するエラー処理を追加しました。
-* POSTの Content-Type ヘッダーが変更されて、デフォルトで `x-www-form-urlencoded` を使用するようになりました。
+* POST Content-Type ヘッダーを変更して、`x-www-form-urlencoded` をデフォルトで使用するようになりました。
 
 ## バージョン 2.23.0
 
@@ -370,8 +369,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDK バージョン 4.5 以降の新しいiOS拡張機能では、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットおよびその他すべてのiOS拡張機能アプリから使用状況データを収集できます。
-* Android SDK バージョン 4.5 以降では、新しいAndroid拡張機能を使用して、Android ウェアラブルアプリからデータを収集できます。
+* iOS SDK Version 4.5 以降では、新しいiOS拡張機能を使用して、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットおよびその他すべてのiOS Extension アプリから使用状況データを収集できます。
+* Android SDK バージョン 4.5 以降では、新しいAndroid拡張機能により、Android ウェアラブルアプリからデータを収集できます。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
