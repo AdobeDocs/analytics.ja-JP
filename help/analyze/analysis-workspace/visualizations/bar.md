@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![4}Adobe Analytics_ の棒グラフおよび積み重ね棒グラフのビジュアライゼーションについて説明します **。_**_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ 棒グラフおよび積み重ね棒グラフ** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の棒グラフおよび積み重ね棒グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[棒グラフおよび積み重ね棒グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bar)を参照してください。_
 
 >[!ENDSHADEBOX]
 
-棒グラフビジュアライゼーションには、標準および積み重ねオプションがあります。
+棒グラフビジュアライゼーションには、標準と積み重ね棒グラフのオプションがあります。
 
 ## 棒グラフ {#bar}
 
@@ -34,11 +34,11 @@ _この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)**[!UICONTROL Bar]** ビジュアライゼーションには、1 つ以上の指標の様々な値を表す縦棒が表示されます。
+この ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 棒グラフ]**&#x200B;ビジュアライゼーションでは、1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。
 
-![ ページビュー数、訪問回数、入口、出口を含む複数の指標を示す仮想バービジュアライゼーション。](assets/bar.png)
+![ページビュー数、訪問回数、エントリ、離脱を含む複数の指標を示す仮想棒グラフビジュアライゼーション。](assets/bar.png)
 
-ビジュアライゼーション設定の精度ドロップダウンを使用すると、トレンドのビジュアライゼーション（折れ線グラフ、棒グラフなど）を日別から週別から月別などに変更できます。
+ビジュアライゼーション設定の精度ドロップダウンでは、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
 
 ## 積み重ね棒グラフ {#bar-stacked}
 
@@ -52,17 +52,17 @@ _この記事では、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)**[!UICONTROL 積み重ね棒]** ビジュアライゼーションは棒グラフに似ていますが、棒を重ねて表示します。
+![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL 積み重ね棒グラフ]**&#x200B;ビジュアライゼーションは棒グラフに似ていますが、系列を表す棒は相互に積み重なっています。
 
-![ 複数の指標を表示する積み重ね棒グラフ。](assets/bar-stacked.png)
+![複数の指標を表示する積み重ね棒グラフ。](assets/bar-stacked.png)
 
-![ 設定 ](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]** の「**[!UICONTROL 100% 積み重ね]**」オプションを使用して、グラフを 100% 積み重ねビジュアライゼーションに変換します。
+![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;の「**[!UICONTROL 100％積み重ね]**」オプションを使用して、グラフを 100％積み重ねビジュアライゼーションに変換します。
 
-![100% 積み重ね棒グラフ。](assets/bar-stacked100.png)
+![100％積み重ね棒グラフ。](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

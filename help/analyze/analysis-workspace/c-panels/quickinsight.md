@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics** のクイックインサイトパネルに関するドキュメントです。_<br/>_この記事の {CustomerJourneyAnalytics[ ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)_ _**Customer Journey Analytics![ バージョンについては ](/help/assets/icons/CustomerJourneyAnalytics.svg) クイックインサイトパネル** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[クイックインサイトパネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_*
 * どこにフィルターを作成するか。
 * その他の機能
 
-これらの質問に役立つように、[!UICONTROL  クイックインサイト ] では、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、次に示すように、ドロップダウンリストには、[!UICONTROL  人気 ] がタグ付けされたディメンション、指標およびセグメントが表示されます。
+これらの疑問に答えるために、[!UICONTROL クイックインサイト]は、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
 ![クイックインサイトパネル。](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ _この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_*
 | **[!UICONTROL 指標]** | 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、人物のアクティビティに関する量的な情報です。 |
 | **[!UICONTROL ビジュアライゼーション]** | Workspace には、データを視覚的に表現する[様々なビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)が用意されています。棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図などがあります。 |
 | **[!UICONTROL ディメンションの分類]** | ディメンションの分類は、ディメンションを他のディメンションで分類する方法です。例えば、モバイルデバイスごとに米国の州を分類して、州ごとのモバイルデバイス訪問数を取得できます。または、モバイルデバイスをモバイルデバイスタイプ、地域、内部キャンペーンなどで分類することもできます。 |
-| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や web サイトでのインタラクションに基づいて人物のサブセットを識別できます。 例えば、に基づいて [!UICONTROL  訪問者 ] セグメントを作成できます <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>出口と入口：Facebook、定義済みランディングページ、参照ドメインからの訪問者</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
+| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や web サイトでのインタラクションに基づいて人物のサブセットを特定できます。例えば、次のような条件に基づいて、[!UICONTROL 訪問者]フィルターを作成できます。 <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>離脱とエントリ：Facebook、定義済みランディングページ、参照ドメインの訪問者、または</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
 
 ## 使用
 
@@ -83,7 +83,7 @@ _この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_*
 
 * **[!UICONTROL 分析]** - ディメンション（オレンジ色）を指定
 * **[!UICONTROL 条件]** - 指標（緑色）を指定
-* **[!UICONTROL フィルター条件]** - セグメント（青）を指定します。
+* **[!UICONTROL フィルター条件]** - セグメント（青色）を指定
 * **[!UICONTROL 対象]** - 日付範囲（紫色）を指定。
 
 ビジュアライゼーションが正しく機能するには、少なくとも 1 つのディメンションと 1 つの指標を選択する必要があります。
@@ -105,7 +105,7 @@ _この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_*
 
    ![縦方向にディメンション、横方向に指標を表示するフリーフォームテーブル。](assets/quick-insights-output.png)
 
-   * ディメンション（[!UICONTROL  国サイト ]）と指標（[!UICONTROL  訪問回数 ]）を、[!UICONTROL  検索エンジン ] から [!UICONTROL  訪問回数 ] でセグメント化した [!UICONTROL  過去 12 か月 ] のフリーフォームテーブル。
+   * [!UICONTROL 過去 12 か月間]の[!UICONTROL 検索エンジン]からの[!UICONTROL 訪問数]でセグメント化された、ディメンション（[!UICONTROL 国サイト]）と指標（[!UICONTROL 訪問数]）を含むフリーフォームテーブル。
 
    * 付属のビジュアライゼーション（この場合は[棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)）。生成されるビジュアライゼーションは、テーブルに追加したデータのタイプに基づいています。時間ベースのデータ（日別／月別の[!UICONTROL 訪問回数]など）は、デフォルトで[!UICONTROL 折れ線]グラフになります。時間ベースでないデータ（[!UICONTROL デバイス]ごとの[!UICONTROL 訪問回数]）は、デフォルトで[!UICONTROL 棒グラフ]になります。ビジュアライゼーションのタイプを変更するには、ビジュアライゼーションのタイプの横にあるドロップダウン矢印をクリックします。
 
@@ -129,7 +129,7 @@ _この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)_*
 
    * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍と➎ を参照してください。
 
-   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。 例えば、予約をセグメントとして追加し、そのセグメントを、比較する頻繁な予約者および初回チラシのセグメントと組み合わせます。 ➏、➐、➑ を参照してください。
+   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。➏、➐、➑ を参照してください。
 
    * 対象：日付範囲を指定できます。➒ を参照してください。
 

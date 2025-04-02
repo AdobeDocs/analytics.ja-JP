@@ -1,22 +1,22 @@
 ---
 description: アラートの作成と管理のユースケース。
-title: アラート – ユースケース
+title: アラート - ユースケース
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# アラート – ユースケース
+# アラート - ユースケース
 
-「アラートの作成 [ の説明に従ってアラートを作成でき ](/help/components/c-alerts/alert-builder.md) す。
+[アラートの作成](/help/components/c-alerts/alert-builder.md)で説明したように、アラートを作成できます。
 
-以下の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
+次の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
 
-## 2 つのセグメントでフィルターしたシンプルなアラートの作成 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## 2 つのセグメントで絞り込んだシンプルなアラートの作成 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
 <!-- 
 

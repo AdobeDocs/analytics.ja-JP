@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)Adobe Analyticsのフロービジュアライゼーションについて説明します **。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) _**Customer Journey Analytics バージョンについては、[ フロー** を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のフロービジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[フロー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.sv
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フロービジュアライゼーション ](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ _この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.sv
 
 >[!MORELIKETHIS]
 >
->[ フロービジュアライゼーションの設定 ](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)。
+>[フロービジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)。
 >
 
 
@@ -67,7 +67,7 @@ _この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.sv
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ フロービジュアライゼーションの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 追加機能 ](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -6,7 +6,7 @@ feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
 ht-degree: 100%
 

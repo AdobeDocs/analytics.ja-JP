@@ -4,9 +4,9 @@ title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="デフォルト以外のアトリビューションモデルを使用"
+>title="デフォルト以外のアトリビューションモデルの使用"
 >abstract="選択した指標に対してデフォルト以外のアトリビューションモデルを有効にします。"
 
 <!-- markdownlint-enable MD034 -->
@@ -138,13 +138,13 @@ ht-degree: 79%
 
 <!-- markdownlint-enable MD034 -->
 
-[ 計算指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) 時に、指標タイプとアトリビューションモデルを指定できます。
+[計算指標を作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)する際に、指標タイプとアトリビューションモデルを指定できます。
 
 ## 指標タイプ
 
-計算指標を作成する際に指標タイプを指定するには：
+計算指標を作成する際に、指標タイプを指定するには：
 
-1. タイプを選択する指標の横にある歯車アイコンを選択します。
+1. 選択するタイプの指標の横にある歯車アイコンを選択します。
 
    ![](assets/cm_type_alloc.png)
 
@@ -153,15 +153,15 @@ ht-degree: 79%
    | 指標タイプ | 定義 |
    |---|---|
    | 標準 | これらの指標は、標準の [!DNL Analytics] レポートで使用される指標と同じです。1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。例えば、[購入回数]／[訪問回数]の場合、特定の行項目の購入回数を特定の行項目の訪問回数で割ります。 |
-   | 総計 | 各行項目のレポート期間に総計を使用します。 数式が 1 つの合計指標で構成されている場合、すべての行項目に同じ合計数が表示されます。 総合計指標は、サイトの合計データと比較する計算指標を作成する場合に役立ちます。 例えば、[購入回数]／[合計訪問回数]は、特定の行項目への訪問回数だけでなく、サイトへのすべての訪問回数に対する購入回数の割合を示します。 |
+   | 総計 | 各行項目のレポート期間の総計を使用します。1 つの総計指標で構成される数式は、各行項目で同じ合計数を表示します。総計指標は、サイト合計データと比較する計算指標を作成する場合に役立ちます。例えば、[購入回数]／[合計訪問回数]は、特定の行項目への訪問回数だけでなく、サイトへのすべての訪問回数に対する購入回数の割合を示します。 |
 
 ## 線形配分の仕組み
 
-[ アトリビューション ](/help/analyze/analysis-workspace/attribution/overview.md) は、計算指標の配分モデルを評価する方法です。
+[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)は、計算指標における配分モデルを評価する方法です。
 
-デフォルト以外のアトリビューションモデルとサポートされるルックバックウィンドウの完全なリストについては、 [アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md) を参照してください。
+デフォルト以外のアトリビューションモデルとサポートされるルックバックウィンドウの完全なリストについて詳しくは、[アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md)を参照してください。
 
-次の例は、線形割り当てを使用した計算指標がレポートでどのように機能するかを示しています。
+次の例では、レポートで機能する線形配分を使用した計算指標を示します。
 
 | | ヒット 1 | ヒット 2 | ヒット 3 | ヒット 4 | ヒット 5 | ヒット 6 | ヒット 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

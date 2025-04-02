@@ -5,9 +5,9 @@ feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '708'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -35,78 +35,78 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-_この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ のコホートテーブルに関する説明です**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ コホートテーブル** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のコホートテーブルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[コホートテーブル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
 
-*コホート* とは、特定の期間、共通の特徴を共有する人々のグループです。 ![ テキスト番号付き ](/help/assets/icons/TextNumbered.svg)**[!UICONTROL コホートテーブル]** ビジュアライゼーションは、例えば、コホートがブランドとどのように関わっているかを学びたい場合に役立ちます。 トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://ja.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
+*コホート*&#x200B;は、特定の期間にわたって共通の特性を持つ人物のグループです。![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL コホートテーブル]**&#x200B;ビジュアライゼーションは、例えば、あるコホートが、あるブランドとどのようにエンゲージしているかを知るのに役立ちます。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://ja.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
 コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびフィルター）をキュレートして、任意のユーザーとコホートレポートを共有できます。[キュレートおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
 
-[!UICONTROL  コホートテーブル ] を使用して実行できる操作の例：
+[!UICONTROL コホートテーブル]で実行できる操作の例：
 
 * 目的のアクションを促進するために設計したキャンペーンを開始する。
 * 顧客のライフサイクルのまさに適切なタイミングでマーケティング予算を振り替える。
-* 価値を最大化するために、体験版またはオファーを終了するタイミングを認識します。
+* 価値を最大化するために、体験版やオファーを終了するタイミングを認識する。
 * 価格やアップグレードパスなどの領域で、A/B テストの着想を得る。
 
-[!UICONTROL  コホートテーブル ] は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべてのCustomer Journey Analyticsユーザーが利用できます。
+[!UICONTROL コホートテーブル]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Customer Journey Analytics ユーザーが使用できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![Analysis Workspaceでの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ コホート分析 ](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のコホート分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!IMPORTANT]
 >
->[!UICONTROL  コホート分析 ] では、フィルタリングできない指標（計算指標など）、整数以外の指標（売上高など）、発生件数はサポートしていません。 [!UICONTROL  コホート分析 ] で使用できるのはフィルターで使用できる指標のみで、一度に増やせるのは 1 つのみです。
+>[!UICONTROL コホート分析]は、フィルタリングできない指標（計算指標を含む）、整数以外の指標（売上高など）、発生件数をサポートしていません。[!UICONTROL コホート分析]で使用できるのはフィルターで使用できる指標のみで、一度に 1 つのみを増分できます。
 
-Customer Journey Analyticsのコホートテーブルでは、ダブルベース（または任意の数値ベース）の指標をサポートしています。 例えば、Purchase.Value （double）はインクルージョン/リターン指標として使用できます。 また、Analytics Source Connector を介してAdobe Experience Platformに渡されるすべての指標も重複しています。
+Customer Journey Analytics のコホートテーブルでは、2 倍ベース（または任意の数値ベース）の指標をサポートします。例えば、Purchase.Value（2 倍）はインクルージョン／リターン指標として使用できます。また、Analytics ソースコネクタ経由で Adobe Experience Platform に渡されるすべての指標も 2 倍になります。
 
-## コホートテーブル機能
+## コホートテーブルの機能
 
-以下の節では、作成するコホートを微調整して制御できるコホート分析機能について説明します。
+次の節では、作成しているコホートを微調整して制御できるコホート分析機能について説明します。
 
-コホートの作成および [!UICONTROL  コホート分析 ] レポートの実行について詳しくは、[ コホートテーブルの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) を参照してください。
+コホートの作成と[!UICONTROL コホート分析]レポートの実行について詳しくは、[コホートテーブルの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)を参照してください。
 
-### [!UICONTROL  リテンション ] テーブル
+### [!UICONTROL リテンション]テーブル
 
-[!UICONTROL  保持 ] コホートテーブルは人物を返します。各データセルは、その期間中にアクションを実行したコホート内の人物の生の数と割合を示します。 指標は最大 3 個、フィルターは最大 10 個含めることができます。
+[!UICONTROL リテンション]コホートテーブルはユーザーを返します。各データセルには、その期間中にアクションを実行したコホートのユーザーの生の数と割合が表示されます。指標は最大 3 個、フィルターは最大 10 個含めることができます。
 
-![ コホート内のユーザーの単位と割合を示すレンションコホートレポート。](assets/retention-report.png)
+![コホート内のユーザーの単位と割合を示すリテンションコホートレポート。](assets/retention-report.png)
 
-### [!UICONTROL  チャーン ] テーブル
+### [!UICONTROL チャーン]テーブル
 
-[!UICONTROL  チャーン ] コホートテーブルは、リテンション テーブルの逆であり、コホートの返品条件を満たさなかったユーザーまたは満たさなかったユーザーの経時的な数を示します。 指標は最大 3 個、フィルターは最大 10 個含めることができます。
+[!UICONTROL チャーン]コホートテーブルは、リテンションテーブルの逆で、時間の経過と共にコホートからフォールアウトしたユーザーや、コホートへのリターン条件を満たさなかったユーザーが表示されます。指標は最大 3 個、フィルターは最大 10 個含めることができます。
 
-![ コホートの返品条件を満たさないユーザーの数量と割合を示すチャーンテーブル。](assets/churn-report.png)
+![コホートのリターン条件を満たさなかった人物の数と割合を示すチャーンテーブル。](assets/churn-report.png)
 
 ### [!UICONTROL ローリング計算]
 
-リテンションまたはチャーンは、「ローリング計算」と呼ばれる「含める」列ではなく、前の列に基づいて計算できます。
+リテンションまたはチャーンは、「含む」列ではなく、前の列に基づいて計算できます。これをローリング計算と呼びます。
 
-![ 前のデータ列に基づく計算を示すコホート保持レポート。](assets/retention-report-rolling.png)
+![前のデータ列に基づく計算を示すコホートリテンションレポート。](assets/retention-report-rolling.png)
 
-### [!UICONTROL  待ち時間 ] テーブル
+### [!UICONTROL 待ち時間]テーブル
 
-待ち時間テーブルは、インクルージョンイベントが発生する前後の経過時間を測定します。 待ち時間の測定は、事前分析および事後分析に最適なツールです。 「**[!UICONTROL 含む]**」列がテーブルの中央にあり、インクルージョンイベント発生の前と後の期間が両側に表示されます。
+待ち時間テーブルは、インクルージョンイベント発生前後の経過時間を測定します。待ち時間の測定は、前後の分析に最適なツールです。「**[!UICONTROL 含む]**」列がテーブルの中央にあり、インクルージョンイベント発生の前と後の期間が両側に表示されます。
 
-![ イベント前後の経過時間を示すコホートレポート。](assets/retention-report-latency.png)
+![イベント前後の経過時間を示すコホートレポート。](assets/retention-report-latency.png)
 
-### [!UICONTROL  カスタムディメンション ] コホート
+### [!UICONTROL カスタムディメンション]コホート
 
-時間ベースのコホート（デフォルト）ではなく、選択したディメンションに基づいてコホートを作成できます。 [!UICONTROL  市区町村地域 ]、[!UICONTROL  マーケティングチャネル ]、[!UICONTROL  キャンペーン ]、[!UICONTROL  製品 ]、[!UICONTROL  ページ ]、[!UICONTROL  地域 ] などのディメンションや、その他のディメンションを使用して、リテンションがどのように変化しているかを表示します。 これらのディメンションの様々な値に基づいています。
+時間ベースのコホート（デフォルト）ではなく、選択したディメンションに基づいてコホートを作成できます。[!UICONTROL 市区町村地域]、[!UICONTROL マーケティングチャネル]、[!UICONTROL キャンペーン]、[!UICONTROL 製品]、[!UICONTROL ページ]、[!UICONTROL 地域]などのディメンションや、その他のディメンションを使用して、リテンションがどのように変化しているかを表示します。これらのディメンションの様々な値に基づいています。
 
-![ 選択したディメンションでカスタマイズされたレポートを表示するコホートレポート。デフォルトの時間ベースのコホートではありません。](assets/retention-dimensions.png)
+![デフォルトの時間ベースのコホートではなく、選択したディメンションを使用してカスタマイズされたレポートを示すコホートレポート。](assets/retention-dimensions.png)
 
 >[!MORELIKETHIS]
 >
->[ コホートテーブルの設定 ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+>[コホートテーブルの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 >
 
 

@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -22,49 +22,49 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 | ビジュアライゼーション名 | 説明 |
 | --- | --- |
-| [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md)<p>![ 領域アイコン ](assets/Smock_GraphArea_18_N.svg)</p> | 折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
-| [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![ バーアイコン ](assets/Smock_GraphBarVertical_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。 |
-| [ブレットグラフ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![ 箇条書きアイコン ](assets/Smock_GraphBullet_18_N.svg)</p> | 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを示します。 |
-| [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![ コホートテーブルアイコン ](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。コホート分析は、リテンション、チャーン、または遅延の分析に役立ちます。 |
-| [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![ ドーナツアイコン ](assets/Smock_GraphDonut_18_N.svg)</p> | このビジュアライゼーションは、円グラフと同様に、データを全体の一部または断片として表示します。 |
-| [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![ フォールアウトアイコン ](assets/Smock_ConversionFunnel_18_N.svg)</p> | フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。最終的または正確なシーケンスに設定できます |
-| [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![ フローアイコン ](assets/flow-icon.png)</p> | web サイトおよびアプリを介して正確な顧客パスを表示します。 |
-| [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![ フリーフォームテーブルアイコン ](assets/Smock_ViewTable_18_N.svg)</p> | フリーフォームテーブルは、単なるデータテーブルではなく、インタラクティブなビジュアライゼーションです。これは、ワークスペースのデータ分析の基礎になります。 |
-| [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![ ヒストグラムアイコン ](assets/Smock_GraphHistogram_18_N.svg)</p> | ヒストグラムは、指標の量に基づいて、訪問者、訪問、またはヒットをバケットにまとめます。 |
-| [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![ 横棒グラフのアイコン ](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
-| [ 主要指標の概要 ](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![ 主要指標アイコン ](assets/key-metric-icon.png)</p> | 1 つの期間内での指標のトレンドを表示したり、2 つの期間での指標のパフォーマンスを比較したりできます。 |
-| [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)<p>![ 行アイコン ](assets/Smock_GraphTrend_18_N.svg)</p> | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
-| [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![ マップアイコン ](assets/map-icon.png)</p> | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
-| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![ 散布図アイコン ](assets/Smock_GraphScatter_18_N.svg)</p> | ディメンション項目と最大 3 つの指標の関係を表示します。 |
-| [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![ 数値の概要アイコン ](assets/summary-number-icon.png)</p> | 選択したセルを 1 つの大きな数値として表示します。 |
-| [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![ 変更の概要アイコン ](assets/summary-change-icon.png)</p> | 選択したセル間の変化を 1 つの大きい数値/パーセントで表示します。 |
-| [テキスト](/help/analyze/analysis-workspace/visualizations/text.md)<p>![ テキストアイコン ](assets/Smock_Text_18_N.svg)</p> | ユーザー定義のテキストをワークスペースに追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
-| [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![ ツリーマップアイコン ](assets/Smock_GraphTree_18_N.svg)</p> | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
-| [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![ ベン図アイコン ](assets/venn-icon.png)</p> | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
+| [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md)<p>![面グラフアイコン](assets/Smock_GraphArea_18_N.svg)</p> | 折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
+| [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![棒グラフアイコン](assets/Smock_GraphBarVertical_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。 |
+| [ブレットグラフ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![ブレットアイコン ](assets/Smock_GraphBullet_18_N.svg)</p> | 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを示します。 |
+| [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![コホートテーブルアイコン](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。コホート分析は、リテンション、チャーン、または遅延の分析に役立ちます。 |
+| [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![ドーナツアイコン](assets/Smock_GraphDonut_18_N.svg)</p> | このビジュアライゼーションは、円グラフと同様に、データを全体の一部または断片として表示します。 |
+| [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![フォールアウトアイコン](assets/Smock_ConversionFunnel_18_N.svg)</p> | フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。最終的または正確なシーケンスに設定できます |
+| [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![フローアイコン](assets/flow-icon.png)</p> | web サイトおよびアプリを介して正確な顧客パスを表示します。 |
+| [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![フリーフォームテーブルアイコン](assets/Smock_ViewTable_18_N.svg)</p> | フリーフォームテーブルは、単なるデータテーブルではなく、インタラクティブなビジュアライゼーションです。これは、ワークスペースのデータ分析の基礎になります。 |
+| [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![ヒストグラムアイコン](assets/Smock_GraphHistogram_18_N.svg)</p> | ヒストグラムは、指標の量に基づいて、訪問者、訪問、またはヒットをバケットにまとめます。 |
+| [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![横棒グラフアイコン](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
+| [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![主要指標の概要アイコン](assets/key-metric-icon.png)</p> | 1 つの期間内での指標のトレンドを表示したり、2 つの期間にわたる指標のパフォーマンスを比較したりできます。 |
+| [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)<p>![折れ線グラフアイコン](assets/Smock_GraphTrend_18_N.svg)</p> | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
+| [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![マップアイコン](assets/map-icon.png)</p> | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
+| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散布図アイコン](assets/Smock_GraphScatter_18_N.svg)</p> | ディメンション項目と最大 3 つの指標の関係を表示します。 |
+| [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![数値の概要アイコン](assets/summary-number-icon.png)</p> | 選択したセルを 1 つの大きな数値として表示します。 |
+| [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![変更の概要アイコン](assets/summary-change-icon.png)</p> | 選択したセル間の変化を 1 つの大きい数値/パーセントで表示します。 |
+| [テキスト](/help/analyze/analysis-workspace/visualizations/text.md)<p>![テキストアイコン](assets/Smock_Text_18_N.svg)</p> | ユーザー定義のテキストをワークスペースに追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
+| [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![ツリーマップアイコン](assets/Smock_GraphTree_18_N.svg)</p> | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
+| [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![ベン図アイコン](assets/venn-icon.png)</p> | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
 
 ## パネルへのビジュアライゼーションの追加
 
-1. ビジュアライゼーションを追加するAnalysis Workspace プロジェクトを開きます。
+1. ビジュアライゼーションを追加する Analysis Workspace プロジェクトを開きます。
 
 1. 次のいずれかの方法を使用して、ビジュアライゼーションを追加します。
 
-   ![ ビジュアライゼーションを追加 ](assets/add-visualization.png)
+   ![ビジュアライゼーションを追加](assets/add-visualization.png)
 
-   * 左側のパネルで「![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)**ビジュアライゼーション**」を選択し、ビジュアライゼーションを追加するパネルにビジュアライゼーションをドラッグします。
+   * 左側のパネルで ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **ビジュアライゼーション**&#x200B;を選択して、ビジュアライゼーションを追加するパネルにビジュアライゼーションをドラッグします。
 
-   * ビジュアライゼーションを追加するパネルで「![AddCircle](/help/assets/icons/AddCircle.svg)」を選択し、追加するビジュアライゼーションを表すアイコンを選択します。 各ビジュアライゼーションのアイコンにマウスポインターを置くと、名前が表示されます。
+   * ビジュアライゼーションを追加するパネルで、![AddCircle](/help/assets/icons/AddCircle.svg) を選択し、追加するビジュアライゼーションを表すアイコンを選択します。各ビジュアライゼーションのアイコンにポインタを合わせると、名前が表示されます。
 
-   * [ 空のパネル ](/help/analyze/analysis-workspace/c-panels/blank-panel.md) を追加してから、追加するビジュアライゼーションを選択します。
+   * [空白のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)を追加して、追加するビジュアライゼーションを選択します。
 
-   * Analysis Workspace プロジェクト内の既存のビジュアライゼーションのコンテキストメニューから、**[!UICONTROL ビジュアライゼーションを複製]** または **[!UICONTROL ビジュアライゼーションをコピー]** を選択します。
+   * Analysis Workspace プロジェクト内の既存のビジュアライゼーションのコンテキストメニューから、「**[!UICONTROL ビジュアライゼーションを複製]**」または「**[!UICONTROL ビジュアライゼーションをコピー]**」を選択します。
 
-   * Workspace **[!UICONTROL 挿入]** メニューを使用して、ビジュアライゼーションを挿入します。
+   * Workspace の&#x200B;**[!UICONTROL 挿入]**&#x200B;メニューを使用して、ビジュアリゼーションを挿入します。
 
-   * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。 次に、サブメニューからビジュアライゼーションを選択します。 Workspaceは、テーブル内の現在の選択内容に基づいて、提供するビジュアライゼーションを判断し、データを解釈してリクエストされたビジュアライゼーションを作成します。
+   * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。次に、サブメニューからビジュアライゼーションを選択します。テーブル内の現在の選択に基づいて、Workspace は提供するビジュアライゼーションを決定し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
 ## 凡例
 
-ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーション内のシリーズの表示/非表示を切り替えることができます。これは、視覚化するデータを簡略化する場合に役立ちます。
+ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーションでシリーズを表示／非表示にすることができます。これは、視覚化するデータを簡素化する場合に役立ちます。
 
 また、凡例ラベルの名前を変更して、図をより使いやすくすることができます。メモ：凡例の編集は、ツリーマップ、ブレットグラフ、変更の概要／数値の概要、テキスト、フリーフォーム、ヒストグラム、コホート、またはフローのビジュアライゼーションには&#x200B;**適用されません**。
 
@@ -73,7 +73,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 1. 凡例ラベルの 1 つを右クリックします。
 1. 「**[!UICONTROL ラベルを編集]**」をクリックします。
 
-   ![ 凡例ラベルと「ラベルを編集」オプション。](assets/edit-label.png)
+   ![凡例ラベルと「ラベルを編集」オプション。](assets/edit-label.png)
 
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
@@ -82,62 +82,62 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 ### 設定
 
-使用できるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 次の表に、最も一般的な設定を示します。 一部のビジュアライゼーションには特定の設定があります。 詳しくは、個々のビジュアライゼーションのドキュメントを参照してください。
+使用できるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。次の表に、最も一般的な設定を示します。一部のビジュアライゼーションには特定の設定があります。詳しくは、個別のビジュアライゼーションのドキュメントを参照してください。
 
 | オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL ビジュアライゼーションのタイプ]** | データの視覚化に使用するビジュアライゼーションのタイプを変更します。 |
-| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションの時間の精度を変更する。 この変更は、データソーステーブルにも適用されます。 |
-| **[!UICONTROL 割合 (％)]** | 値をパーセンテージで表示します。 |
-| **[!UICONTROL 100% の積み重ね]** | グラフを 100% 積み重ねビジュアライゼーションに変更します。  面グラフ、棒グラフ、積み重ね横棒グラフのビジュアライゼーションにのみ適用できます。 |
-| **[!UICONTROL 凡例を表示]** | 凡例のテキストを表示します。 |
-| **[!UICONTROL 項目数の上限を設定]** | ビジュアライゼーションで表示する項目の数を制限します。 選択した場合、最大項目数を定義します。 |
+| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションの時間の精度を変更します。この変更は、データソーステーブルにも適用されます。 |
+| **[!UICONTROL 割合 (％)]** | 値を割合で表示します。 |
+| **[!UICONTROL 100％積み重ね]** | グラフを 100％積み重ねビジュアライゼーションに変換します。面グラフ、棒グラフ、積み重ね横棒グラフのビジュアライゼーションにのみ適用できます。 |
+| **[!UICONTROL 凡例を表示]** | 凡例テキストを表示します。 |
+| **[!UICONTROL 項目数の上限を設定]** | ビジュアライゼーションで表示する項目の数を制限します。選択した場合、最大項目数を定義します。 |
 | **[!UICONTROL 注釈を表示]** | このビジュアライゼーション用に作成された注釈を表示します。 |
 | **[!UICONTROL タイトルを非表示]** | ビジュアライゼーションのタイトルを非表示にします。 |
-| **[!UICONTROL Y 軸をゼロに固定]** | Y 軸の一番下を強制的にゼロにします。 グラフにプロットされるすべての値がゼロを大幅に上回る場合、グラフのデフォルトでは y 軸の一番下がゼロ以外になります。 このオプションを有効にすると、Y 軸がゼロに設定され、グラフが再描画されます。 |
-| **[!UICONTROL 二重軸を表示]** | 2 つの異なる指標の左右の Y 軸を表示します。 このオプションは、2 つの指標がある場合にのみ適用されます。 2 軸は、プロットされた指標の大きさが異なる場合に役立ちます。 |
+| **[!UICONTROL Y 軸をゼロに固定]** | Y 軸の一番下をゼロにします。グラフにプロットされたすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このオプションを有効にすると、Y 軸はゼロになり、グラフが再描画されます。 |
+| **[!UICONTROL 二重軸を表示]** | 2 つの異なる指標の左と右の Y 軸を表示します。このオプションは、指標が 2 つある場合にのみ適用されます。プロットされた指標の大きさが異なる場合、二重軸が役立ちます。 |
 | **[!UICONTROL X 軸を表示]** | ビジュアライゼーションに X 軸を表示します。 |
-| **[!UICONTROL Y 軸を表示]** | ビジュアライゼーションに y 軸を表示します。 |
-| **[!UICONTROL 線上にバーベルを表示]** | 複合グラフビジュアライゼーションの折れ線グラフのビジュアライゼーションにバーベルを表示します。 |
-| **[!UICONTROL 正規化]** | 指標を均等な比率にします。 等しい比率は、プロットされた指標の大きさが異なる場合に役立ちます。 |
-| **[!UICONTROL 異常値を表示]** | 異常値検出を表示することで、折れ線グラフとフリーフォームテーブルを強化します。 線のビジュアライゼーションでの異常値検出には、期待値（破線）と期待範囲（影付きの帯）が含まれます。 |
-| **[!UICONTROL 予測を表示]** | 予測値を表示して、折れ線グラフとフリーフォームテーブルを強化します。 |
+| **[!UICONTROL Y 軸を表示]** | ビジュアライゼーションに Y 軸を表示します。 |
+| **[!UICONTROL 折れ線グラフにバーベルを表示]** | コンボグラフビジュアライゼーションの折れ線グラフビジュアライゼーションにバーベルを表示します。 |
+| **[!UICONTROL 正規化]** | 指標を均等な比率にします。プロットされた指標の大きさが異なる場合、均等な比率が役立ちます。 |
+| **[!UICONTROL 異常値を表示]** | 異常値検出を表示することで、折れ線グラフおよびフリーフォームテーブルを強化します。線のビジュアライゼーションでの異常値検出には、期待値（破線）と期待範囲（影付きの帯）が含まれます。 |
+| **[!UICONTROL 予測を表示]** | 予測値を表示することで、折れ線グラフおよびフリーフォームテーブルを強化します。 |
 | **[!UICONTROL 最小値を表示]** | ビジュアライゼーションに最小値を表示します。 |
 | **[!UICONTROL 最大値を表示]** | ビジュアライゼーションに最大値を表示します。 |
-| **[!UICONTROL トレンドラインを表示]** | ビジュアライゼーションにトレンドラインを表示します。 選択した場合、トレンドラインのタイプをドロップダウンメニューから選択できます。 |
+| **[!UICONTROL トレンドラインを表示]** | ビジュアライゼーションにトレンドラインを表示します。選択した場合、トレンドラインのタイプをドロップダウンメニューから選択できます。 |
 
-作成するすべてのビジュアライゼーションの設定をカスタマイズできます。 詳しくは、[ユーザー環境設定](/help/analyze/analysis-workspace/user-preferences.md)を参照してください。
+作成するすべてのビジュアライゼーションの設定をカスタマイズできます。詳しくは、[ユーザー環境設定](/help/analyze/analysis-workspace/user-preferences.md)を参照してください。
 
 
 ## コンテキストメニュー {#right-click}
 
-ビジュアライゼーションのヘッダーのコンテキストメニュー（代替選択を通じて使用可能。例えば、マウスを使用して右クリックする）を使用して、ビジュアライゼーションの追加機能にアクセスします。 すべてのビジュアライゼーションですべてのオプションを使用できるわけではありません。
+ビジュアライゼーションヘッダーのコンテキストメニュー（代替選択、例えば、マウスを使用する場合は右クリックで使用可能）を使用して、ビジュアライゼーションの追加機能にアクセスします。すべてのビジュアライゼーションですべてのオプションを使用できるわけではありません。
 
-![ 右クリックオプションが表示された追加のビジュアライゼーション設定。 オプションについては、次のセクションで説明します。](assets/right-click.png)
+![右クリックオプションを表示する追加のビジュアライゼーション設定。オプションについて詳しくは、次の節を参照してください。](assets/right-click.png)
 
 | オプション | 説明 |
 | --- | --- |
-| **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションを、プロジェクト内の別の場所、または完全に別のプロジェクトに貼り付け（挿入）します。 |
-| **[!UICONTROL データをクリップボードにコピー]** | ビジュアライゼーションからクリップボードにデータをコピーします。 |
-| **[!UICONTROL 選択範囲をクリップボードにコピー]** | ビジュアライゼーションからクリップボードに選択範囲をコピーします。 |
-| **[!UICONTROL 項目を CSV としてダウンロード （*ディメンション名*）]** | ビジュアライゼーションのディメンション項目（最大 50,000 個）をローカルデバイスにダウンロードします。 選択したディメンションに対して最大 50,000 個のディメンション項目。 |
-| **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、ビジュアライゼーションをプロジェクト内の別の場所、または完全に別のプロジェクトに挿入できるようにします。 |
+| **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションをプロジェクト内の別の場所または完全に別のプロジェクトにペースト（「挿入」）します。 |
+| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードにデータをコピーします。 |
+| **[!UICONTROL クリップボードに選択範囲をコピー]** | ビジュアライゼーションからクリップボードに選択範囲をコピーします。 |
+| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | ビジュアライゼーションのディメンション項目（最大 50,000 個）をローカルデバイスにダウンロードします。選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
+| **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、プロジェクト内の別の場所または完全に別のプロジェクトにビジュアライゼーションを挿入できるようにします。 |
 | **[!UICONTROL データ CSV をダウンロード]** | ビジュアライゼーションの表示データをローカルデバイスにダウンロードします。 |
 | **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
-| **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。 [ テキスト ](text.md) を参照してください。 |
-| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。 共有リンク ダイアログにリンクが表示されます。 「コピー」を選択して、リンクをクリップボードにコピーします。 |
-| **[!UICONTROL やり直し]** | 現在のビジュアライゼーションの設定を削除して、ゼロから再設定できるようにします。 |
+| **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。詳しくは、[テキスト](text.md)を参照してください。 |
+| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。共有リンクダイアログにリンクが表示されます。「コピー」を選択して、リンクをクリップボードにコピーします。 |
+| **[!UICONTROL やり直し]** | 現在のビジュアライゼーションの設定を削除し、ゼロから再設定できるようにします。 |
 
 
 ## 設定
 
-一部のビジュアライゼーション（コホートテーブル、フォールアウト、フローなど）には、ビジュアライゼーションの作成を支援する設定ダイアログがあります。 ビジュアライゼーションの上部にある「![ 編集 ](/help/assets/icons/Edit.svg)」を使用して、設定にアクセスし変更します。
+一部のビジュアライゼーション（コホートテーブル、フォールアウト、フローなど）には、ビジュアライゼーションの作成を支援する設定ダイアログがあります。ビジュアライゼーションの上部にある「![編集](/help/assets/icons/Edit.svg)」を使用して、設定にアクセスして変更します。
 
-![ 設定ペイン ](assets/configuration.png)
+![設定パネル](assets/configuration.png)
 
 ## 視覚化
 
-どのビジュアライゼーションが選択されるかわからない場合は、フリーフォームテーブルの行の ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)**[!UICONTROL Visualize]** を選択します（カーソルを合わせると使用できます）。 この選択は、ビジュアライゼーションを追加する最も速い方法です。 Analysis Workspaceは、データに最適なビジュアライゼーションを知識に基づいて推測します。 例えば、1 つの行を選択した場合、トレンド [ 折れ線グラフ ](line.md) が作成されます。 3 つのフィルター行を選択した場合は、[ ベン ](venn.md) 図が作成されます。
+どのビジュアライゼーションを選択すればよいかわからない場合は、（ポインタを合わせると表示される）フリーフォームテーブル行にある ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覚化]**&#x200B;を選択します。この選択は、ビジュアライゼーションを追加する最も速い方法です。Analysis Workspace では、データに最適なビジュアライゼーションを学習に基づいて推測します。例えば、1 行を選択した場合、トレンド[折れ線グラフ](line.md)が作成されます。3 つのフィルター行を選択した場合は、[ベン図](venn.md)が作成されます。
 
 ![クイックビジュアライゼーション](assets/quick-viz.png)
 

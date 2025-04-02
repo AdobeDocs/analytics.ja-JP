@@ -5,121 +5,121 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # テンプレートの作成と管理
 
-管理者は、テンプレートを作成し、ログイン会社の他のユーザーが使用できるように保存できます。
+管理者はテンプレートを作成し、ログイン会社内の他のユーザーが使用できるように保存できます。
 
-ログイン会社のユーザーは、「テンプレートの使用 [ で説明しているように、これらの会社テンプレートを使用でき ](/help/analyze/analysis-workspace/templates/use-templates.md) す。
+ログイン会社の人物が、これらの会社テンプレートを使用するには、[テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
 
 ## テンプレートの作成
 
-ログイン会社のユーザーが使用できる新しいテンプレートを作成するには：
+ログイン会社の人物が使用できる新しいテンプレートを作成するには：
 
-1. Analysis Workspaceで、目的のステートにプロジェクトをビルドします。
+1. Analysis Workspace で、プロジェクトを目的の状態に作成します。
 
-1. [!UICONTROL **プロジェクト**]/**[!UICONTROL テンプレートとして保存]** を選択します。
+1. [!UICONTROL **プロジェクト**]／**[!UICONTROL テンプレートとして保存…]** を選択します。
 
-   ![ 会社テンプレート ](assets/company-template-save.png)
+   ![会社テンプレート](assets/company-template-save.png)
 
-1. [!UICONTROL  テンプレートとして保存 ] ダイアログボックスで、次の情報を指定します。
+1. [!UICONTROL テンプレートとして保存]ダイアログボックスで、次の情報を指定します。
 
    | フィールド | 説明 |
    |---------|----------|
-   | **[!UICONTROL 名前]** | テンプレートのわかりやすい名前を指定します。 |
+   | **[!UICONTROL 名前]** | テンプレートのわかりやすい名前を入力します。 |
    | **[!UICONTROL 説明]** | テンプレートの使用目的を説明する短い説明を入力します。 |
-   | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内のユーザーに通知するための短い説明を入力します。 この説明は、テンプレートのプレビューページに表示されます。 |
-   | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。 **[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]** など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートの表示場所と、そのテンプレートにアクセスするユーザーに対して「組織テンプレート」ページから適用されるフィルターが決まります。</p> |
-   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。 ユーザーは、追加するタグでテンプレートのリストをフィルタリングできます。 |
+   | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内の人物に通知する、短い説明を入力します。この説明は、テンプレートのプレビューページに表示されます。 |
+   | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。**[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]**&#x200B;など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートが表示される場所と、組織テンプレートページからそのテンプレートにアクセスするユーザーに適用されるフィルターが決定します。</p> |
+   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。人物は、追加したタグによってテンプレートのリストをフィルタリングできます。 |
 
-1. [!UICONTROL **テンプレートとして保存**] を選択します。
+1. 「[!UICONTROL **テンプレートとして保存**]」を選択します。
 
-ユーザーがテンプレートに基づいてプロジェクトを作成する方法については、[ テンプレートの使用 [ の「テンプレートに基づいてプロジェクトを作成する ](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) を参照してください ](/help/analyze/analysis-workspace/templates/use-templates.md)。
+ユーザーがテンプレートに基づいてプロジェクトを作成する方法について詳しくは、[テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)の[テンプレートに基づいたプロジェクトの作成](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template)を参照してください。
 
 ## テンプレートの編集または削除
 
 管理者は、会社テンプレートを編集または削除できます。
 
-1. Analysis Workspaceで、「[!UICONTROL **Workspace**]」タブを選択し、「**[!UICONTROL _login_company_name _templates]**」を選択します。
+1. Analysis Workspace で、「[!UICONTROL **ワークスペース**]」タブ、「**[!UICONTROL _login_company_name _テンプレート]**」の順に選択します。
 
-1. 列表示 ![ 列表示アイコン ](assets/column-view-icon.png) でテンプレートを表示している場合：
+1. 列表示 ![列表示アイコン](assets/column-view-icon.png) でテンプレートを表示している場合：
 
    1. 編集または削除するテンプレートに移動し、テンプレート名の横にある情報アイコンを選択します。
 
-      ![ 会社テンプレート情報 ](assets/company-template-info.png)
+      ![会社テンプレート情報](assets/company-template-info.png)
 
-   1. **[!UICONTROL プレビュー]** を選択します。
+   1. 「**[!UICONTROL プレビュー]**」を選択します。
 
-   1. その他アイコンを選択し、「**[!UICONTROL 編集]** または **[!UICONTROL 削除]** を選択します。
+   1. その他アイコンを選択し、「**[!UICONTROL 編集]**」または「**[!UICONTROL 削除]**」を選択します。
 
-      ![ テンプレートを編集または削除 ](assets/company-template-edit-delete.png)
+      ![テンプレートの編集または削除](assets/company-template-edit-delete.png)
 
-1. カード表示 ![ カード表示アイコン ](assets/card-view-icon.png) でテンプレートを表示している場合：
+1. カードビュー ![カードビューアイコン](assets/card-view-icon.png) でテンプレートを表示している場合：
 
    1. 編集または削除するテンプレートを見つけます。
 
-      ![ 会社テンプレートカード表示 ](assets/company-template-cards.png)
+      ![会社テンプレートカードビュー](assets/company-template-cards.png)
 
-   1. その他アイコンを選択し、「**[!UICONTROL 編集]** または **[!UICONTROL 削除]** を選択します。
+   1. その他アイコンを選択し、「**[!UICONTROL 編集]**」または「**[!UICONTROL 削除]**」を選択します。
 
-      ![ 会社テンプレートカードの編集または削除 ](assets/company-template-card-edit-delete.png)
+      ![会社テンプレートカードの編集または削除](assets/company-template-card-edit-delete.png)
 
-1. テンプレートを編集する場合は、必要な編集を行い、[!UICONTROL **プロジェクト**]/**[!UICONTROL テンプレートとして保存]** を選択します。
+1. テンプレートを編集している場合は、目的の編集を行ってから、[!UICONTROL **プロジェクト**]／**[!UICONTROL テンプレートとして保存...]** を選択します。
 
-   ![ 会社テンプレート ](assets/company-template-save.png)
+   ![会社テンプレート](assets/company-template-save.png)
 
-1. [!UICONTROL  テンプレートとして保存 ] ダイアログボックスで、次の情報を指定します。
+1. [!UICONTROL テンプレートとして保存]ダイアログボックスで、次の情報を指定します。
 
    | フィールド | 説明 |
    |---------|----------|
-   | **[!UICONTROL 名前]** | テンプレートのわかりやすい名前を指定します。 |
+   | **[!UICONTROL 名前]** | テンプレートのわかりやすい名前を入力します。 |
    | **[!UICONTROL 説明]** | テンプレートの使用目的を説明する短い説明を入力します。 |
-   | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内のユーザーに通知するための短い説明を入力します。 この説明は、テンプレートのプレビューページに表示されます。 |
-   | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。 **[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]** など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートの表示場所と、そのテンプレートにアクセスするユーザーに対して「組織テンプレート」ページから適用されるフィルターが決まります。</p> |
-   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。 ユーザーは、追加するタグでテンプレートのリストをフィルタリングできます。 |
+   | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内の人物に通知する、短い説明を入力します。この説明は、テンプレートのプレビューページに表示されます。 |
+   | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。**[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]**&#x200B;など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートが表示される場所と、組織テンプレートページからそのテンプレートにアクセスするユーザーに適用されるフィルターが決定します。</p> |
+   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。人物は、追加したタグによってテンプレートのリストをフィルタリングできます。 |
 
-1. [!UICONTROL **テンプレートとして保存**] を選択します。
+1. 「[!UICONTROL **テンプレートとして保存**]」を選択します。
 
 ## テンプレートの名前変更、タグ付け、承認
 
-管理者は、会社テンプレートの名前変更、タグ付けおよび承認を行うことができます。
+管理者は、会社テンプレートの名前変更、タグ付け、承認を行うことができます。
 
-1. Analysis Workspaceで、「[!UICONTROL **Workspace**]」タブを選択し、左パネルで **[!UICONTROL 「プロジェクト」タブ]** を選択します。
+1. Adobe Analytics で、「[!UICONTROL **ワークスペース**]」タブを選択し、左側のパネルで「**[!UICONTROL プロジェクト]**」タブを選択します。
 
 1. フィルターアイコンを選択して、プロジェクトのリストをフィルタリングします。
 
-1. フィルターパネルでは、**その他のフィルター** を選択してから、**会社テンプレート** を選択します。
+1. フィルターパネルで、「**その他のフィルター**」を選択し、「**会社テンプレート**」を選択します。
 
-   会社テンプレートのリストが表示されます。 すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
+   会社テンプレートのリストが表示されます。すべての標準プロジェクトは、ピン留めされていない限り、表示されません。
 
-   会社テンプレートは、テンプレート名の前に付く ![ テンプレートアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) によって識別できます。
+   会社テンプレートは、テンプレート名の前にある ![テンプレートアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) で識別できます。
 
-   ![ 会社テンプレートフィルターを表示 ](assets/company-templates-filter.png)
+   ![会社テンプレートフィルターを表示](assets/company-templates-filter.png)
 
-1. テンプレートの横にある **...** 省略記号アイコンをクリックして、使用可能なオプションを表示します。
+1. テンプレートの横にある「**…**」省略記号アイコンをクリックして、使用可能なオプションを表示します。
 
-   ![ 会社テンプレートのアクション ](assets/company-templates-actions.png)
+   ![会社テンプレートアクション](assets/company-templates-actions.png)
 
-1. **[!UICONTROL 名前を変更]**、**[!UICONTROL タグ]** または **[!UICONTROL 承認]** を選択します。
+1. 「**[!UICONTROL 名前変更]**」、「**[!UICONTROL タグ付け]**」または「**[!UICONTROL 承認]**」を選択します。
 
-   [ テンプレートの編集または削除 ](#edit-or-delete-templates) で説明されているように、テンプレートを削除したり、テンプレートを削除したりすることもできます。
+   テンプレートを削除することもできます。また、テンプレートを削除するには、[テンプレートの編集または削除](#edit-or-delete-templates)を参照してください。
 
-1. （任意）通常の表示に戻すには、フィルターパネルで「**[!UICONTROL 会社テンプレート]**」の選択を解除します。
+1. （オプション）通常の表示に戻るには、フィルターパネルで「**[!UICONTROL 会社テンプレート]**」を選択解除します。
 
 ## 会社テンプレートへのアクセス
 
-Adobeが提供するテンプレートと同様に、組織内のユーザーは、管理者が作成するテンプレートにアクセスできます。
+アドビが提供するテンプレートと同様に、組織内のユーザーは管理者が作成したテンプレートにアクセスできます。
 
-会社テンプレートへのアクセス方法について詳しくは、[ テンプレートの使用 [ の「テンプレートへのアクセスと実行 ](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) を参照してください ](/help/analyze/analysis-workspace/templates/use-templates.md)。
+会社テンプレートへのアクセス方法について詳しくは、[テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)の[テンプレートへのアクセスと実行](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template)を参照してください。
 
-## 「テンプレート」タブを非表示にします {#hide-reports}
+## 「テンプレート」タブの非表示 {#hide-reports}
 
 管理者は、組織内のすべてのユーザーの「テンプレート」タブを非表示にできます。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 環境設定]**／**[!UICONTROL 会社]**&#x200B;に移動します。
-1. オプションを選択して **[!UICONTROL 「テンプレート」タブを非表示]** します。
+1. 「**[!UICONTROL 「テンプレート」タブを非表示]**」オプションを選択します。

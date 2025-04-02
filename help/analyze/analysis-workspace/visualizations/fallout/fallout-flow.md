@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、![AdobeAnalytics_ _**Adobe Analyticsのフォールアウトビジュアライゼーション ](/help/assets/icons/AdobeAnalytics.svg) ついて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ フォールアウト** を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のフォールアウトビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[フォールアウト](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _この記事では、![AdobeAnalytics_ _**Adobe Analyticsのフォールアウ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Fallout ビジュアライゼーション ](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フォールアウトビジュアライゼーション](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

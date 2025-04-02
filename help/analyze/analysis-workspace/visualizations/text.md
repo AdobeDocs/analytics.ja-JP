@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics **でのテキストのビジュアライゼーションについて説明します。_**_<br/>_この記事の_![ CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) _**Customer Journey Analytics バージョンについては、[ テキスト** を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のテキストビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[テキスト](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/text)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 次のことができます
-ユーザー定義のリッチテキストをWorkspace プロジェクトに追加するには、![ テキスト ](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]** ビジュアライゼーションを使用するか、ビジュアライゼーションとパネルの説明を使用します。
+ユーザー定義のリッチテキストを ワークスペースプロジェクトに追加するには、![テキスト](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを使用するか、ビジュアライゼーションとパネルの説明を使用します。
 
 ## 使用
 
-テキスト ビジュアライゼーションは、次のように使用できます。
+テキストビジュアライゼーションは、次の方法で使用できます。
 
-1. ![ テキスト ](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]** ビジュアライゼーションを追加します。 [ パネルへのビジュアライゼーションの追加 ](freeform-analysis-visualizations.md#add-visualizations-to-a-panel) を参照してください。
+1. ![テキスト](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
-1. パネルまたはビジュアライゼーションのコンテキストメニューで「**[!UICONTROL 説明を編集]**」を選択します。
+1. パネルまたはビジュアリゼーションで、コンテキストメニューから「**[!UICONTROL 説明を編集]**」を選択します。
 
    説明の編集が完了したら ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) を選択し、キャンセルするには ![CloseCircle](/help/assets/icons/CloseCircle.svg) を選択します。
 
@@ -46,16 +46,16 @@ _この記事では、_ ![4}AdobeAnalytics](/help/assets/icons/AdobeAnalytics.sv
 
 テキストボックスや説明を編集する際に、選択したテキストのフォントサイズ（見出しレベル）、色、スタイル（太字、斜体、下線）および配置を調整できます。 箇条書きと番号付きのリストを追加することもできます。
 
-![ テキストカラーパレットをハイライト表示するWorkspace プロジェクトのテキストオプション ](assets/format.png)
+![テキストカラーパレットをハイライト表示するワークスペースプロジェクトのテキストオプション。](assets/format.png)
 
 ## ハイパーリンクの追加 {#hyperlinks}
 
-ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![ リンク ](/help/assets/icons/Link.svg) を選択します。 ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。 ハイパーリンクは、外部の web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーションなどにリンク ](/help/analyze/analysis-workspace/curate-share/shareable-links.md) きます。
+ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
 
-![ リンクアイコンがハイライト表示されたテキストオプション ](assets/hyperlink.png)
+![リンクアイコンがハイライト表示されたテキストオプション。](assets/hyperlink.png)
 
 ## 画像を追加 {#images}
 
-プロジェクトに画像を追加するには、メニューで ![ 画像 ](/help/assets/icons/Image.svg) を選択し、公開画像 URL を挿入します。 画像 URL は、`https`で始まる、`.png`、`.jpeg`、`.jpg`、または`.gif`の形式で、公開アクセス可能である必要があります。 静的な画像とアニメーション画像がサポートされます。
+プロジェクトに画像を追加するには、メニューで ![画像](/help/assets/icons/Image.svg) を選択し、公開画像 URL を挿入します。画像 URL は、`https`で始まる、`.png`、`.jpeg`、`.jpg`、または`.gif`の形式で、公開アクセス可能である必要があります。 静的な画像とアニメーション画像がサポートされます。
 
-![ 画像アイコンが選択されたテキストオプション ](assets/image.png)
+![画像アイコンが選択されたテキストオプション。](assets/image.png)

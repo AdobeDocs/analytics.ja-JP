@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -26,28 +26,28 @@ ht-degree: 24%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、![AdobeAnalytics_ _**Adobe Analyticsでの折れ線グラフのビジュアライゼーション ](/help/assets/icons/AdobeAnalytics.svg) ついて説明します**。_<br/>_この記事の_![ CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line) _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、[ ライン** を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の折れ線グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[折れ線グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/line)を参照してください。_
 
 >[!ENDSHADEBOX]
 
-![GraphTrend](/help/assets/icons/GraphTrend.svg)**[!UICONTROL 折れ線グラフ]** ビジュアライゼーションは、線を使用して指標を表し、一定期間の値の変化を示します。 折れ線グラフのビジュアライゼーションは、時間がディメンションとして使用される場合にのみ使用できます。
+![GraphTrend](/help/assets/icons/GraphTrend.svg) **[!UICONTROL 折れ線グラフ]**&#x200B;ビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフビジュアライゼーションは、時間がディメンションとして使用される場合にのみ使用できます。
 
 ![行のビジュアライゼーション](assets/line-viz.png)
 
 
 ## 設定
 
-[ ビジュアライゼーション設定 ](freeform-analysis-visualizations.md#settings) の一部として、特定の折れ線ビジュアライゼーション設定を使用できます。
+[ビジュアライゼーション設定](freeform-analysis-visualizations.md#settings)の一部として、特定の折れ線グラフビジュアライゼーション設定を使用できます。
 
 | 設定 | 説明 |
 |---|---|
-| **[!UICONTROL 精度]** | 精度ドロップダウンから選択して、毎日のトレンドビジュアライゼーションを毎週から毎月のに変更するなど、 データソーステーブルの精度も更新されます。 |
-| **[!UICONTROL 最小値を表示]** <br/>**[!UICONTROL  最大値を表示 ]** | 最小値と最大値のラベルをオーバーレイして、指標の最小値と最大値をハイライト表示できます。 最小値と最大値は、ディメンション内のすべての値ではなく、ビジュアライゼーション内に表示されたデータポイントから得られます。<br/>![ 最小値と最大値のラベルを持つオーバーレイ。](assets/min-max-labels.png) |
-| **[!UICONTROL トレンドラインを表示]** | 線系列に回帰または移動平均のトレンドラインを追加することを選択できます。 近似曲線は、データにより明確なパターンを示すのに役立ちます。 選択した場合、リストからモデルを選択します。 使用可能なモデルの概要および説明については、[ モデル ](#models) を参照してください。<br/>![ 線形近似曲線 ](assets/show-linear-trendline.png). |
+| **[!UICONTROL 精度]** | 精度ドロップダウンから選択して、トレンドビジュアライゼーションを日別から週別、月別などに変更できます。データソーステーブルの精度も更新されます。 |
+| **[!UICONTROL 最小値を表示]** <br/>**[!UICONTROL 最大値を表示&#x200B;]** | 最小値と最大値のラベルをオーバーレイして、指標の最小値と最大値をハイライト表示できます。メモ：最小値と最大値は、ディメンション内のすべての値ではなく、ビジュアライゼーション内に表示されたデータポイントから得られます。<br/>![最小値と最大値のラベルを持つオーバーレイ。](assets/min-max-labels.png) |
+| **[!UICONTROL トレンドラインを表示]** | 回帰または移動平均トレンドラインを線系列に追加できます。トレンドラインは、データのパターンをより明確に表現するのに役立ちます。選択した場合、リストからモデルを選択します。使用可能なモデルの概要および説明について詳しくは、[モデル](#models)を参照してください。<br/>![線形トレンドライン](assets/show-linear-trendline.png)。 |
 
 >[!TIP]
 >
->トレンドラインは、今日（データの一部）や未来の日付を含まないデータに適用することをお勧めします。 今日または将来の日付は、トレンドラインをゆがめます。 ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**/**[!UICONTROL ゼロを値なしで解釈]** を有効にします。
+>トレンドラインは、本日（データの一部）や未来の日付を含まないデータに適用することをお勧めします。本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。
 
 
 
@@ -57,17 +57,17 @@ _この記事では、![AdobeAnalytics_ _**Adobe Analyticsでの折れ線グラ�
 
 | モデル | 説明 |
 | --- | --- |
-| **[!UICONTROL 線形]** | 単純な線形データセットに最適な直線を作成します。これは、データが一定の割合で増加または減少する場合に役立ちます。 数式：`y = a + b * x` |
-| **[!UICONTROL 対数]** | 最適な曲線を作成します。これは、データの変化率が急速に増加または減少し、その後レベル アウトする場合に便利です。 対数近似曲線には、負の値と正の値を使用できます。数式：`y = a + b * log(x)` |
-| **[!UICONTROL 指数]** | 曲線を作成すると、データの増加や減少が頻繁に発生する場合に便利です。 データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a + e^(b * x)` |
-| **[!UICONTROL パワー]** | 曲線を作成し、特定の割合で増加する測定値を比較するデータセットに便利です。 データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a * x^b` |
-| **[!UICONTROL 二次方程式]** | 放物線（凹形の上または下）のような形状のデータセットの最適フィットを検索します。 数式：`y = a + b * x + c * x^2` |
-| **[!UICONTROL 移動平均]** | 平均値のセットに基づいて、滑らかなトレンドラインを作成します。 移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「[!UICONTROL  精度 ]」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 例えば、7 日の移動平均や 4 週間の移動平均があります。 |
+| **[!UICONTROL 線形]** | 単純な線形データセットに対して最適な直線を作成します。この直線は、データが一定速度で増減する場合に便利です。数式：`y = a + b * x` |
+| **[!UICONTROL 対数]** | 最適な曲線を作成し、データの変化率が急速に増減し、次にレベルアウトする場合に便利です。対数近似曲線には、負の値と正の値を使用できます。数式：`y = a + b * log(x)` |
+| **[!UICONTROL 指数]** | 曲線を作成します。データが一貫して加速し上昇または下降する場合に便利です。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a + e^(b * x)` |
+| **[!UICONTROL 累乗]** | 曲線を作成します。これは、特定の速度で増加する測定値を比較するデータセットに便利です。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a * x^b` |
+| **[!UICONTROL 二次回帰]** | 放物線（上または下に凹面）のような形状のデータセットに最適なデータを検索します。数式：`y = a + b * x + c * x^2` |
+| **[!UICONTROL 移動平均]** | 平均値のセットに基づいて、滑らかなトレンドラインを作成します。移動平均は、ローリング平均とも呼ばれ、（選択する「[!UICONTROL 精度]」で決定される）特定数のデータポイントを使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。例えば、7 日の移動平均や 4 週間の移動平均があります。 |
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

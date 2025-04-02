@@ -6,25 +6,25 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL  数値概要 ] および [!UICONTROL  変更概要 ]
+# [!UICONTROL 数値の概要]と[!UICONTROL 変更の概要]
 
-_この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics_ の数値概要と変更概要のビジュアライゼーションについて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)_ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ 数値概要と変更概要** を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の数値の概要と変更の概要ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[数値の概要と変更の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)を参照してください。_
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 数値概要と変更概要のビジュアライゼーション ](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数値の概要と変更の概要ビジュアライゼーション](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## [!UICONTROL 数値概要] ビジュアライゼーション {#summary-number}
+## [!UICONTROL 数値の概要]ビジュアライゼーション {#summary-number}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -36,7 +36,7 @@ _この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Ad
 <!-- markdownlint-enable MD034 -->
 
 
-![MoveUpDown](/help/assets/icons/MoveUpDown.svg)**[!UICONTROL 変更概要]** ビジュアライゼーションを使用すると、2 つの数値間の差分（変化）を表示できます。<!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL 変更の概要]**&#x200B;ビジュアライゼーションを使用すると、2 つの数値間の差分（変化）を表示できます。<!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
 <!--
 The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
@@ -52,20 +52,20 @@ The green and red color of the Summary Change can be controlled through [custom 
 * 列が選択されている場合、先頭の値がそれ自体と比較されます。その結果、変更は 0 と表示されます。
 
 
-![2 つの数値間の差分を示す変更概要ビジュアライゼーション ](assets/summary-change.png)
+![2 つの数値間の差分を示す変更の概要ビジュアライゼーション](assets/summary-change.png)
 
 
-ビジュアライゼーション設定の一部として、特定の **[!UICONTROL 変更概要オプション]** を使用できます。
+ビジュアライゼーション設定の一部として、特定の&#x200B;**[!UICONTROL 変更の概要オプション]**&#x200B;を使用できます。
 
 | オプション | 定義 |
 |--- |--- |
 | **[!UICONTROL 変化率を表示]** | 2 つの数値間の変化率を表示します。 |
-| **[!UICONTROL 生の差異を表示]** | 2 つの数値の生の違いを表示します。 また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
-| **[!UICONTROL 値を短縮]** | 変更した値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。 選択した場合、省略形の量を定義する数字を入力します。 次に例を示します。<br/><table><tr><td>**元の値**</td><td>**省略形の値**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`0` に設定</td><td align="right">12 百万ドル）</td></tr><tr><td>$12,011,141.25</td><td> 選択済み、`1` に設定</td><td  align="right">1200 万ドル</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`2` に設定</td><td align="right">1201 万ドル</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`3` に設定</td><td align="right">12011 万ドル</td></tr></table> |
+| **[!UICONTROL 生の差異を表示]** | 2 つの数値間の生の差異を表示します。また、このオプションでは、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
+| **[!UICONTROL 値を短縮]** | 変更した値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。選択した場合、短縮の量を定義する数値を入力します。次に例を示します。<br/><table><tr><td>**元の値**</td><td>**短縮の値**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`0` に設定</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> 選択済み、`1` に設定</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`2` に設定</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`3` に設定</td><td align="right">$12.011M</td></tr></table> |
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

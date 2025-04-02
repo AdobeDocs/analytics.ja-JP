@@ -4,9 +4,9 @@ title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
->title="繰り返しなしインスタンス"
+>title="繰り返さないインスタンス"
 >abstract="ディメンション固有の（繰り返さない）インスタンスを含みます。"
 
 <!-- markdownlint-enable MD034 -->
@@ -66,7 +66,7 @@ ht-degree: 96%
 
 * **Analytics 上部ナビゲーション**：**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;をクリックします。
 * **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
-* **[!UICONTROL Report Builder]**：[Report Builder でセグメントを追加または編集します。](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments)
+* **[!UICONTROL Report Builder]**：[Report Builder でセグメントを追加または編集します。](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/work-with-segments)
 
 ## ビルダー条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,7 +78,7 @@ ht-degree: 96%
 1. **[!UICONTROL 説明]**：セグメントの説明を入力します。
 1. **[!UICONTROL タグ]**：既存のタグのリストから選択、または新しいタグを作成して、作成するセグメントに[タグを付ける](/help/components/segmentation/segmentation-workflow/seg-workflow.md)ことができます。
 1. **[!UICONTROL 定義]**：[セグメントを作成および設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、ルールを追加し、コンテナをネストして順に並べるための作業領域です。
-1. **[!UICONTROL 表示]**:（上部のコンテナセレクター） 最上位の [ コンテナ ](/help/components/segmentation/seg-overview.md) （[!UICONTROL  訪問者 ]、[!UICONTROL  訪問 ]、[!UICONTROL  ヒット ]）を選択できます。 デフォルトのトップレベルのコンテナは、ヒットコンテナです。
+1. **[!UICONTROL 表示]**：（上部のコンテナセレクター）トップレベルの[コンテナ](/help/components/segmentation/seg-overview.md)（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ヒット]）を選択できます。デフォルトのトップレベルのコンテナは、ヒットコンテナです。
 1. **[!UICONTROL オプション]**：（ギア）アイコン
 
    * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
@@ -101,7 +101,7 @@ ht-degree: 96%
    |---|---|---|---|---|---|---|
    | 繰り返し | X | X | X | - | X | - |
    | インスタンス | X | X | - | - | X | - |
-   | 繰り返しなしインスタンス | X | - | - | - | X | - |
+   | 繰り返さないインスタンス | X | - | - | - | X | - |
 
 1. **[!UICONTROL And／Or／Then]**：コンテナまたはルールの間に [!UICONTROL AND／OR／THEN] 演算子を割り当てます。THEN 演算子は、[順次セグメントを定義](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)します。
 1. **[!UICONTROL 指標]**：（緑色のサイドバー）指標リストからドラッグ＆ドロップした指標。
@@ -116,7 +116,7 @@ ht-degree: 96%
 1. **[!UICONTROL セグメント]**：ヘッダーをクリックして展開します。
 1. **[!UICONTROL レポートスイートセレクタ]**：このセグメントを保存するレポートスイートを選択します。選択した後も、そのセグメントはすべてのレポートスイートで利用できます。
 1. **[!UICONTROL セグメントのプレビュー]**：主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認します。このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
-1. **[!UICONTROL 製品との互換性]**：作成したセグメントと互換性があるAdobe Analytics製品（Analysis Workspace、Data Warehouse）のリストが表示されます。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、すべての演算子とディメンションがすべての Analytics 製品（特に [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) と互換性があるわけではありません。 このグラフは、セグメント定義を変更するとすぐに更新されます。
+1. **[!UICONTROL 製品との互換性]**：作成したセグメントと互換性がある Adobe Analytics 製品（Analysis Workspace、Data Warehouse）のリストが表示されます。ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、[Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) とは互換性がない場合があります。このグラフは、セグメント定義を変更するとすぐに更新されます。
 1. **[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL キャンセル]**：セグメントを保存またはキャンセルします。「**[!UICONTROL 保存]**」をクリックした後、セグメントを管理できるセグメントマネージャーが表示されます。
 
 
@@ -132,7 +132,7 @@ ht-degree: 96%
 1. 選択した項目に対して値を入力または選択します。
 1. 必要に応じて他のコンテナを追加し、**[!UICONTROL AND]**、**[!UICONTROL OR]**、**[!UICONTROL THEN]** のルールを適用します。
 1. コンテナを配置してルールを設定したら、右上の検証グラフにセグメントの結果を表示します。検証グラフには、作成されたセグメントと一致するページビュー、訪問回数、ユニーク訪問者数の割合と絶対値が表示されます。
-1. **[!UICONTROL タグ]** の下で、既存のタグを選択するか新しいタグを作成して、コンテナを [ タグ ](/help/components/segmentation/segmentation-workflow/seg-tag.md) します。
+1. **[!UICONTROL タグ]**&#x200B;の下で、既存のタグを選択または新しいタグを作成して、コンテナを[タグ付け](/help/components/segmentation/segmentation-workflow/seg-tag.md)します。
 1. 「**[!UICONTROL 保存]**」をクリックしてセグメントを保存します。
 
 [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)に移動し、複数の方法でセグメントにタグ付け、共有、管理できます。
@@ -170,7 +170,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントでの周期的な日付範囲](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -273,7 +273,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> モバイルデバイス以外からの訪問回数 </td> 
-   <td colname="col2">モバイルデバイスを使用していない訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。このセグメントでは除外ロジックを使用します。ルールは <p>「モバイルデバイスタイプが携帯電話に等しい」 </p> <p>または </p> <p>「モバイルデバイスタイプがタブレットに等しい」です。 </p> </td> 
+   <td colname="col2">モバイルデバイスを使用していない訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。このセグメントでは除外ロジックを使用します。ルールは <p>「モバイルデバイスタイプが携帯電話に等しい」 </p> <p>Or </p> <p>「モバイルデバイスタイプがタブレットに等しい」です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 電話からの訪問回数 </td> 
@@ -285,7 +285,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> ソーシャルサイトからの訪問件数 </td> 
-   <td colname="col2">ソーシャルサイトから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>リファラータイプがソーシャルネットワークと等しい。 </p> </td> 
+   <td colname="col2">ソーシャルサイトから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「リファラータイプがソーシャルネットワークに等しい」です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> タブレットからの訪問回数 </td> 

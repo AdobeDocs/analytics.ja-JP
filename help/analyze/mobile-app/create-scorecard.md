@@ -1,13 +1,13 @@
 ---
-description: Adobe Analytics ダッシュボードのスコアカードの作成および共有方法
+description: Adobe Analytics ダッシュボードスコアカードの作成および共有方法
 title: モバイルスコアカードの作成と共有
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 
 <!-- markdownlint-enable MD034 -->
 
-次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。はじめに、Adobe Analytics ダッシュボードスコアカードビルダーのビデオを視聴できます。
+次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。はじめに、Adobe Analytics ダッシュボードのスコアカードビルダーのビデオを視聴できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ モバイルスコアカードビルダー ](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 ![スコアカードの例](assets/intro_scorecard.png)
 
-このスコアカードのキュレーターは、スコアカードビルダーを使用して、エグゼクティブコンシューマーのスコアカードに表示するタイルを設定できます。 また、タイルをタップした後に詳細ビューや分類を調整する方法も設定できます。スコアカードビルダーインターフェイスを次に示します。
+このスコアカードのキュレーターは、スコアカードビルダーを使用して、エグゼクティブコンシューマーのスコアカードに表示するタイルを設定できます。また、タイルをタップした後に詳細ビューや分類を調整する方法も設定できます。スコアカードビルダーインターフェイスを次に示します。
 
 ![スコアカードビルダー](assets/scorecard_builder.png)
 
@@ -62,13 +62,13 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 ## データを使用したスコアカードの構成と保存 {#configure}
 
-スコアカードテンプレートを実装する手順は、次のとおりです。
+スコアカードテンプレートを実装するには：
 
 1. 右側のハンドレイルの「**[!UICONTROL プロパティ]**」で、データを使用する&#x200B;**[!UICONTROL プロジェクトレポートスイート]**&#x200B;を指定します。
 
    ![レポートスイートの選択](assets/properties_save.png)
 
-1. 新しいタイルをスコアカードに追加するには、左側のパネルから指標をドラッグし、「指標をここにドラッグ&amp;ドロップ **[!UICONTROL ゾーンにドロップし]** す。 同様のワークフローを使用して、2 つのタイル間に指標を挿入することもできます。
+1. スコアカードに新しいタイルを追加するには、左側のパネルから指標をドラッグし、**[!UICONTROL ここに指標をドラッグ＆ドロップ]**&#x200B;ゾーンにドロップします。同様のワークフローを使用して、2 つのタイル間に指標を挿入することもできます。
 
    ![タイルの追加](assets/build_list.png)
 
@@ -87,7 +87,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 個々のタイルにセグメントを適用するには、左パネルからセグメントをドラッグし、タイルの上に直接ドロップします。
 
-スコアカードのすべてのタイルにセグメントを適用する場合は、スコアカードの上にタイルをドロップします。 または、日付範囲の下にあるフィルターメニューでセグメントを選択して、セグメントを適用することもできます。Adobe Analytics Workspaceと同じように [ スコアカードに対してフィルターを設定し ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja) 適用します。
+スコアカード内のすべてのタイルにセグメントを適用する場合は、スコアカードの上にタイルをドロップします。または、日付範囲の下にあるフィルターメニューでセグメントを選択して、セグメントを適用することもできます。[スコアカードに対するフィルターの設定と適用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)は、Adobe Analytics Workspace と同じ方法で行います。
 
 ![フィルター用のセグメントの作成](assets/segment_ui.png)
 
@@ -109,7 +109,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 ![新しいスコアカード4](assets/new_score_card4.png)
 
-必要な日付範囲がまだ作成されていない場合は、カレンダーアイコンをクリックして新しい日付範囲を作成できます。
+まだ対象の日付範囲が作成されていない場合は、カレンダーアイコンをクリックして新しい日付範囲を作成できます。
 
 ![新しいスコアカード5](assets/new_score_card5.png)
 
@@ -130,7 +130,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ビジュアライゼーション ](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -181,7 +181,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ## タイルのプロパティの表示と設定 {#tiles}
 
-スコアカードビルダーでタイルをクリックすると、右側のパネルにそのタイルに関連付けられているプロパティと特性および詳細スライドが表示されます。 このパネルで、タイルに新しい&#x200B;**タイトル**&#x200B;を提供するか、セグメントを適用してタイルを設定することもできます。
+スコアカードビルダーでタイルをクリックすると、右側のパネルにそのタイルに関連付けられているプロパティと特性および詳細スライドが表示されます。このパネルで、タイルに新しい&#x200B;**タイトル**&#x200B;を提供するか、セグメントを適用してタイルを設定することもできます。
 
 ![プロパティタイル](assets/properties-tile-new.png)
 
@@ -206,7 +206,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタム詳細ビュー ](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -235,7 +235,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ## コンポーネントの削除 {#remove}
 
-同様に、スコアカード全体に適用されるコンポーネントを削除するには、タイルの外側のスコアカード上の任意の場所をクリックし、コンポーネントにカーソルを合わせたときに表示される「**x**」をクリックして削除します。例えば「**初回訪問** セグメントの場合は次のようになります。
+同様に、スコアカード全体に適用されるコンポーネントを削除するには、タイルの外側のスコアカード上の任意の場所をクリックし、コンポーネントにポインタを合わせたときに表示される「**x**」をクリックして削除します。以下に&#x200B;**初回訪問回数**&#x200B;のセグメントの場合を示します。
 
 ![Remove_components](assets/new_remove.png)
 
@@ -248,7 +248,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データストーリーの作成 ](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -340,13 +340,13 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ## スコアカードの命名 {#name}
 
-スコアカードに名前を付けるには、画面の左上にある名前空間をクリックして、新しい名前を入力します。
+スコアカードを命名するには、画面の左上にある名前空間をクリックして、新しい名前を入力します。
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## スコアカードの共有 {#share}
 
-エグゼクティブユーザーとスコアカードを共有する手順は、次のとおりです。
+エグゼクティブユーザーとスコアカードを共有するには：
 
 1. **[!UICONTROL 共有]**&#x200B;メニューをクリックし、「**[!UICONTROL スコアカードの共有]**」を選択します。
 
@@ -361,25 +361,25 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ![Share_Scorecards](assets/new_share.png)
 
-受信者は、共有したスコアカードに Analytics ダッシュボードでアクセスできます。その後、スコアカードビルダーでスコアカードに変更を加えると、共有されたスコアカードが自動的に更新されます。 エグゼクティブユーザーがアプリのスコアカードを更新すると、変更が表示されます。
+受信者は、共有したスコアカードに Analytics ダッシュボードでアクセスできます。スコアカードビルダーでスコアカードに後続の変更を行うと、共有したスコアカードでその変更が自動的に更新されます。エグゼクティブユーザーは、アプリでスコアカードを更新すると、変更を確認できます。
 
 新しいコンポーネントを追加してスコアカードを更新する場合、スコアカードを再度共有すると（および「**[!UICONTROL 埋め込みコンポーネントを共有]**」オプションをオンにすると）、エグゼクティブユーザーがこれらの変更にアクセスできることを確認できます。
 
 ### 共有可能なリンクを使用したスコアカードの共有 {#shareable-link}
 
-共有可能なリンクを使用すると、メール、ドキュメント、またはテキストメッセージアプリでスコアカードを簡単に共有できます。 共有可能なリンクを使用すると、受信者はデスクトップまたはダッシュボードモバイルアプリでスコアカードを開くことができます。 共有可能なディープリンクを使用すると、プロジェクトの共有がさらに簡単になり、関係者とのエンゲージメントを高めることができます。
+共有可能なリンクを使用すると、メール、ドキュメントまたはテキストメッセージアプリでスコアカードを簡単に共有できます。共有可能なリンクを使用すると、受信者はデスクトップまたはダッシュボードモバイルアプリでスコアカードを開くことができます。共有可能なディープリンクを使用すると、プロジェクトの共有がさらに簡単になり、関係者とのエンゲージメントを高めることができます。
 
-共有可能なリンクを使用してスコアカードを共有するには
+共有可能なリンクを使用してスコアカードを共有するには：
 
 1. **[!UICONTROL 共有]**&#x200B;メニューをクリックし、「**[!UICONTROL スコアカードの共有]**」を選択します。
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
-1. リンクをコピーして、メール、ドキュメント、または IM アプリに貼り付けます。
+1. リンクをコピーして、メール、ドキュメントまたは IM アプリに貼り付けます。
 
-   受信者がデスクトップアプリまたはブラウザーを使用してリンクを開くと、モバイルスコアカードプロジェクトがWorkspaceで開きます。
+   受信者がデスクトップアプリまたはブラウザーを使用してリンクを開くと、モバイルスコアカードプロジェクトが Workspace で開きます。
 
    受信者がモバイルデバイスでリンクを開くと、スコアカードは Analytics ダッシュボードアプリで直接開きます。
 
-   受信者がモバイルアプリをダウンロードしていない場合は、App StoreまたはGoogle Play ストアのアプリリストでダウンロードできます。
+   受信者がモバイルアプリをダウンロードしていない場合は、App Store または Google Play ストアのアプリリストでダウンロードできます。
 
