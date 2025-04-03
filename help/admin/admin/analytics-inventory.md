@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 36%
+source-wordcount: '736'
+ht-degree: 25%
 
 ---
 
@@ -54,9 +54,13 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
 
    ![ メインインベントリ画面 ](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   この最初のリリースでは、Workspace プロジェクト、セグメント、計算指標、詳細（Media Analytics）データおよびユーザーの概要数値を確認できます。 現在、アクションにつながる項目はレポートスイートのみです。
+   具体的には、この画面は次のように表示されます
+
+   * この組織の下ですべてのユーザーにわたってアクティブなAnalysis Workspace プロジェクトとモバイルスコアカードプロジェクトの合計数。
+   * この組織の下ですべてのユーザーに対してアクティブなセグメントと計算指標の合計数。
+   * 定義されたベースレポートスイートの合計数（仮想レポートスイートは含まれません）。
+   * Media Analytics 機能がアクティブな場合は、どのモードで実行するか。
+   * その組織で定義されたユーザーの合計数。
 
 
 ## コンポーネント {#components}
@@ -83,9 +87,18 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
 
 <!-- markdownlint-enable MD034 -->
 
-### レポートスイートの分析
+### レポートスイート
 
-1. レポートスイートを分析し、移行するレポートスイートを決定するには、**[!UICONTROL データ設定と収集]**/**[!UICONTROL レポートスイート]** に移動し、「**[!UICONTROL 分析]**」をクリックします。
+レポートスイート表示には、組織の下で定義されたすべてのレポートスイートが表示されます。 次の質問に答えることができます。
+
+* 過去 90 日間で最もヒットを記録したのは、どのレポートスイートですか？
+* 過去 90 日間にヒットがなかったレポートスイートは何ですか？
+* 最大数のディメンションが定義されているレポートスイートはどれですか？
+* 最も多くの指標が定義されているレポートスイートはどれですか？
+
+これらの質問に対する回答は、どのレポートスイートが移行の最適な候補であるかについての優れたアイデアを提供します。
+
+1. レポートスイートを分析するには、**[!UICONTROL データ設定と収集]**/**[!UICONTROL レポートスイート]** に移動し、「**[!UICONTROL 分析]**」をクリックします。
 
    ![ レポートスイートのリスト ](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
    | --- | --- |
    | 名前 | レポートスイートの名前 |
    | ID | レポートスイート ID （rsid）。 英数字文字のみ含めることができる一意の ID を指定します。この ID は作成後は変更できません。アドビによって設定される必須の ID プレフィックスも変更できません。 |
-   | 発生件数 (過去 90 日間) |  |
-   | 指標 | How |
-   | ディメンション |  |
-   | Analytics for Target (A4T) は有効になっています |  |
-   | マーケティングチャネルは有効になっています |  |
-   | Source Connector 有効 | フォローする |
+   | 発生件数 (過去 90 日間) | 過去 90 日間にこのレポートスイートが受け取ったヒット数 |
+   | 指標 | このレポートスイートで定義されている指標の数 |
+   | ディメンション | このレポートスイートで定義されているディメンションの数 |
+   | Analytics for Target (A4T) は有効になっています | このレポートスイートは [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) に対して有効になっていますか？ |
+   | マーケティングチャネルは有効になっています | このレポートスイートは [ マーケティングチャネル ](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) に対して有効になっていますか？ |
+   | Source Connector 有効 | [ 開発中 ] このレポートスイートは、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
    | カレンダータイプ | 詳しくは、[ カスタムカレンダー ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) を参照してください。 |
 
 1. 注目すべき
