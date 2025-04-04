@@ -3,10 +3,8 @@ description: Analytics インベントリの使用
 title: Analytics 在庫
 feature: Admin Tools
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: ba96acbae989b653e4e63f2266511abed6b25b62
+source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 19%
