@@ -4,10 +4,10 @@ title: Analytics 在庫
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 19%
+source-wordcount: '1183'
+ht-degree: 21%
 
 ---
 
@@ -157,7 +157,7 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
 
 1. CJAに移行する意味のある指標を判断します。
 
-#### CSV に書き出し
+### CSV に書き出し
 
 1. レポートスイート、ディメンション、指標のリストを.csv ファイルに書き出すには、「**[!UICONTROL CSV に書き出し]**」をクリックします。
 
@@ -170,7 +170,7 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
 >除外された項目と列は、.csv ファイルに書き出されません。
 
 
-#### フィルター、検索、並べ替え、移動
+### フィルター、検索、並べ替え、移動
 
 * テーブルを検索できます。
 * 左側のパネルで、フィルターアイコンをクリックして、「タイプ」でフィルタリングします。 または、「**[!UICONTROL フィルターを非表示]**」をクリックします。
@@ -189,3 +189,13 @@ Analytics Inventory は、[Adobe Admin Console](https://experienceleague.adobe.c
 <!-- markdownlint-enable MD034 -->
 
 ユーザー管理は、Analytics インベントリの今後のリリースで使用できるようになります。
+
+## コンポーネントの移行
+
+[ コンポーネントの移行 ](/help/admin/admin/component-migration/component-migration.md) を使用して、Adobe Analytics管理者は、Analytics プロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+
+移行プロセスには、次が含まれます。
+
+* Customer Journey Analytics で Adobe Analytics プロジェクトを再作成する。
+
+* Adobe Analytics レポートスイートのディメンションと指標を、Customer Journey Analytics データビューのディメンションと指標へマッピングする。
