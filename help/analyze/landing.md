@@ -5,7 +5,7 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1463'
 ht-degree: 100%
 

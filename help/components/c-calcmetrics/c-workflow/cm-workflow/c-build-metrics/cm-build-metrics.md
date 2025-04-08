@@ -4,9 +4,9 @@ title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1150'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 
 ## 計算指標の作成の開始
 
-計算指標ビルダーを使用して、計算指標を作成または編集できます。 この方法で作成すると、コンポーネントリストで計算指標を使用できるようになります。このリストは、組織全体のプロジェクトで使用できます。または、[ 指標 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md) の [ 単一プロジェクトの計算指標の作成 ](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) の説明に従って、計算指標が作成されたプロジェクトでのみ使用できる計算指標をすばやく作成することができます。
+計算指標ビルダーを使用して、計算指標を作成または編集できます。この方法で作成すると、コンポーネントリストで計算指標を使用できるようになります。このリストは、組織全体のプロジェクトで使用できます。または、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の[単一プロジェクトの計算指標の作成](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)の説明に従って、作成されたプロジェクトでのみ使用可能な計算指標をすばやく作成することもできます。
 
 計算指標ビルダーにアクセスして、コンポーネントリストで使用できる計算指標の作成を開始します。
 
