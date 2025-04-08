@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
 source-wordcount: '6380'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 | --- | --- |
 | **2025年3月** |  |
 | | **Analytics インベントリ** | Analytics Inventory では、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要が提供されます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
-| Customer Journey Analytics アップグレードガイド | Adobe AnalyticsからCustomer Journey Analyticsにアップグレードするための [ ステップバイステップガイド ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) を生成できます。 |
-| Data Warehouse書き出しの日付形式を明確にしました | Data Warehouse書き出しの時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouseの書き出しから日付値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouseでのコンポーネントのサポート）の ](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) 別の方法でサポートされるディメンション [ 非標準の日付形式） ](/help/export/data-warehouse/component-support.md) を参照してください。</p> |
-| IP 除外に関する情報を更新しました | [IP 除外 ](/help/admin/admin/exclude-ip.md) が有効になるまでに最大 5 分かかり、変更は新しいヒットにのみ適用されることを説明する情報を追加しました（除外が設定される前に取得されたデータは影響を受けません）。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトを更新しました。</p> |
+| Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
+| Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)の[異なる方法でサポートされるディメンション（非標準の日付形式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)を参照してください。</p> |
+| IP 除外に関する情報を更新しました | [IP 除外](/help/admin/admin/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
 | トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/vars/page-vars/transactionid?lang=ja)と[こちら](https://experienceleague.adobe.com/ja/docs/analytics/import/data-sources/transactionid?lang=ja)を参照してください。 |
@@ -91,7 +91,7 @@ ht-degree: 97%
 | --- | --- |
 | **2023年12月** | |
 | ボットルールに関するドキュメントの改善 | [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>説明的にした記事のタイトルを更新</li><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加</li></ul> |
-| 新しいレポートの節 | [ テンプレートの使用 ](/help/analyze/analysis-workspace/templates/use-templates.md) および [ 会社テンプレートの作成 ](/help/analyze/analysis-workspace/templates/create-templates.md) に関する情報を含む新しい「レポート」セクションを追加しました。 |
+| 新しいレポートの節 | [テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)と[会社テンプレートの作成](/help/analyze/analysis-workspace/templates/create-templates.md)に関する情報を含む、新しいレポートの節を追加しました。 |
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
 | 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
