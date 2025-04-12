@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: d81412790f5658d90890c48eca50548cd57b4b48
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 94%
+source-wordcount: '684'
+ht-degree: 88%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2025年3月リリース）
 
-**最終更新日**：2025年4月4日（PT）
+**最終更新日**：2025年4月11日（PT）
 
 このリリースノートは、2025年3月5日（PT）～2025年5月のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -20,10 +20,10 @@ ht-degree: 94%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics インベントリ** | Analytics Inventory では、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要が提供されます。 在庫プロセスを自動化することで、Adobe AnalyticsからCustomer Journey Analyticsへの切り替えに必要な労力をすばやく把握できます。 これにより、移行がより簡単かつ迅速になります。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025年3月26日（PT） |
+| **Analytics インベントリ** | Analytics Inventory provides a comprehensive overview of your Adobe Analytics environment, including the number of projects and components, report suites, users, and more. By automating the inventory process, you can quickly understand the effort needed to switch from Adobe Analytics to Customer Journey Analytics. This will make the transition easier and faster. [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025年3月26日（PT） |
 | **Analytics コンテキストデータフィールドの更新`a.locale`** | この更新により、Experience Edge 経由でデータを収集する際の Analytics コンテキストデータフィールド `a.locale` の設定方法が変更されます。Experience Edge を使用してデータを Adobe Analytics に送信すると、XDM フィールドのマッピングに基づいて Analytics フィールドが入力されます。`c.a.locale` のマッピングは、非標準の XDM フィールド `xdm.environment.language` を参照します。このフィールドは、正しいフィールド `xdm.environment._dc.language` を参照するように更新されます。<p>後方互換性のために、マッピングは引き続き `xdm.environment.language` を参照します。継続性のために、両方のフィールドが設定されている場合は、`xdm.environment.language` が優先されます。XDM から標準の Analytics フィールドへのマッピングの完全なリストについて詳しくは、[こちら](https://experienceleague.adobe.com/ja/docs/analytics/implementation/aep-edge/xdm-var-mapping)を参照してください。 | | 2025年3月5日（PT） |
 | **Customer Journey Analytics アップグレードガイド** | Adobe Analytics から Customer Journey Analytics にアップグレードするためのステップバイステップガイドを生成できます。このガイドは、組織に合わせて調整されており、現在の Adobe Analytics 環境、Customer Journey Analytics の使用目的、組織が希望する時間節約のトレードオフを考慮しています。<p>カスタムガイドの生成を開始するには、[!DNL Customer Journey Analytics] にログインし、「**[!UICONTROL ワークスペース]**」タブで「**[!UICONTROL Customer Journey Analytics にアップグレード]**」を選択します。<p>[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025年3月11日（PT） |
-| **Data Warehouse 専用ディメンション** | 2025年5月以降、アドビでは、特定のディメンション（eVar や prop などのカスタム変数）を「Data Warehouse 専用」として設定するようになります。これは、次の特性を示すディメンションに適用されます。<ul><li> 数か月間にわたり、変数が月初の数日間で低トラフィック制限に達します。</li><li>渡される値の 90％以上は、その月中に 1 回だけしか表示されません。</li></ul>例えば、タイムスタンプ、UUID または非常に高い基数を持つその他のデータなどのディメンションが含まれており、月内のほぼすべてのヒット（または訪問や訪問者）に対して一意の新しい値が渡されます。これらのディメンションは通常、低トラフィック制限をすぐに超え、Analysis Workspace でレポート可能な値はごく一部のみです。これにより、これらのディメンションを使用するレポートでは有用または正確な情報が表示されないので、混乱を招きます。これらのディメンションは、低トラフィック機能の目的に従わず、そのメリットも受けません。低トラフィック機能は、ディメンションが月内に低トラフィック制限を超えた後に「人気」になった値に関するレポートを作成する方法を提供することを目的としています。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/technotes/low-traffic.)<p>「Data Warehouse 専用」としてマークされたディメンションは、Analysis Workspace でのレポートには使用できません。ただし、低トラフィック制限はここでは適用されないので、Data Warehouse を通じたレポートには引き続き使用できます。<p>つまり、低トラフィック制限に達したすべてのディメンションが「Data Warehouse 専用」としてマークされる候補になるわけではありません。低トラフィック制限に達するほとんどのディメンションは、実際には低トラフィック機能の意図を満たしています。<ul><li>渡される値のほとんどは一意ではありません。</li><li>月の間に低トラフィック制限に達した後も、共通の値が引き続き入力されます。</li><li>新しい「人気」の値は引き続き発生します。</li></ul>渡されるほとんどすべての値が新しく一意であるディメンションのみが、「Data Warehouse 専用」としてマークされます。このような状況で収集されるデータの一意性を考慮すると、低トラフィック制限を増やすことは解決策にはなりません。 | | 2025年5月 |
+| **Data Warehouse 専用ディメンション** | お客様のご意見を踏まえ、再評価を実施することといたしました。 以前に発表したData Warehouseのみの自動機能はリリースしません。 | | 未定 |
 
 
 ## Adobe Analytics の修正点
