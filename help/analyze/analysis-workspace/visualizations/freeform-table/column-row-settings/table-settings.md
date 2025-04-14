@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -87,5 +87,9 @@ ht-degree: 100%
 | **[!UICONTROL アトリビューションモデルを比較]** | 新しいアトリビューションモデルを指定し、選択した列のアトリビューションモデルと比較します。新しいアトリビューションモデル指標を含む新しい列が追加されます。また、比較用に変化率の列が追加されます。 |
 | **[!UICONTROL 列の幅をリセット]** | 列の幅をデフォルトの幅にリセットします。 |
 | **[!UICONTROL 選択内容から注釈を作成]** | 「**[!UICONTROL 注釈の詳細]**」を開いて、注釈を追加します。 |
-| **[!UICONTROL 選択内容からフィルターを作成]** | **[!UICONTROL フィルタービルダー]**&#x200B;を開いて、選択内容からフィルターを作成します。 |
+| **[!UICONTROL 選択内容からフィルターを作成]** | **[!UICONTROL フィルタービルダー]**&#x200B;を開いて、選択範囲からフィルターを作成します。 |
 | **[!UICONTROL 選択内容からオーディエンスを作成]** | **[!UICONTROL オーディエンスを作成]**&#x200B;ダイアログを開いて、選択内容からオーディエンスを作成します。 |
+
+## 行の高さの変更
+
+プロジェクトの表示密度は、**[!UICONTROL コンパクト]**、**[!UICONTROL 快適]**、**[!UICONTROL 展開]** に設定できます。 [詳細情報](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
