@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: f95e436566766d525858df0e707cfc36fd4f5ac4
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -58,6 +58,7 @@ ht-degree: 96%
 * `blomotion.jp`
 * `bolt.com`
 * `brightkite.com`
+* `bsky.app`
 * `buzznet.com`
 * `cafemom.com`
 * `care2.com`
@@ -87,6 +88,7 @@ ht-degree: 96%
 * `fubar.com`
 * `gaiaonline.com`
 * `geni.com`
+* `go.bsky.app`
 * `goodreads.com`
 * `plus.google.com`
 * `plus.url.google.com`
@@ -183,6 +185,7 @@ ht-degree: 96%
 * `vimeo.com`
 * `vk.com`
 * `wayn.com`
+* `web-cdn.bsky.app`
 * `weibo.com`
 * `weourfamily.com`
 * `wer-kennt-wen.de`
