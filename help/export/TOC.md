@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して生データを書き出し、Data Warehouse を使用してデータのスプレッドシート出力を取得する方法について説明します。 FTP と SFTP を使用してファイルを転送する方法を説明します。
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,4 +75,4 @@ ht-degree: 100%
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace ダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)
 + [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview)
++ [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)

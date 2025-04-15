@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ ht-degree: 89%
 * **Prop：**「トラフィック変数」を参照してください。
 * **ランクレポート：**&#x200B;通常、指標を含むディメンションに従うレポート形式を指します。このタイプのレポートでは、サイトで最も多く閲覧されたページなどの上位の項目を確認できます。「トレンドレポート」も参照してください。
 * **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
-* **Report Builder:** JavaScript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) アドインを使用すると、Adobe Analytics データからカスタマイズされたリクエストを作成できます。
+* **Report Builder:** JavaScript [Report Builder](/help/analyze/report-builder/rb-overview.md) アドインを使用すると、Adobe Analytics データからカスタマイズされたリクエストを作成できます。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
 * **Reports &amp; Analytics:** このツールは [ 提供終了 ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja) となりました。
 * **周期的日付範囲：**&#x200B;時間が経過すると変化する相対的な日付範囲。例えば、過去 7 日間のデータを示すレポートは、周期的日付範囲と見なすことができます。「静的日付範囲」も参照してください。

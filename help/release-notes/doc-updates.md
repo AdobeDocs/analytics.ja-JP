@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年3月** |  |
-| | **Analytics インベントリ** | Analytics Inventory では、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要が提供されます。 [詳細情報](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
+| | **Analytics インベントリ** | Analytics インベントリでは、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
 | Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)の[異なる方法でサポートされるディメンション（非標準の日付形式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)を参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/admin/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
@@ -47,7 +47,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024年10月** |  |
 | Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報 | [Analysis Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)の記事の新しい[リクエスト要因](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)の節では、リクエストの処理方法と、処理時間に影響を与える様々な要因について説明します。 |
-| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-buider-overview)。 |
+| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 |
 | **2024年8月** | |
 | アラートマネージャー | [アラートマネージャー](/help/components/c-alerts/alert-manager.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | **2024年7月** | |
