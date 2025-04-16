@@ -3,9 +3,9 @@ description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネ�
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
@@ -33,13 +33,15 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 ## 移行の準備
 
-プロジェクトをCustomer Journey Analyticsに移行する前に、プロジェクトの移行について詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントやプロジェクトの移行の準備 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
+プロジェクトをAdobe Analyticsに移行する前に、プロジェクトの移行について詳しくは、[Customer Journey AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
+
+さらに、Analytics 管理者が使用できるツールを使用して ](/help/admin/admin/analytics-inventory.md)0}Adobe Analytics インベントリを実行します。[
 
 ## Adobe Analytics プロジェクトのCustomer Journey Analyticsへの移行
 
 >[!IMPORTANT]
 >
->この節で説明しているように、Customer Journey Analyticsにプロジェクトを移行する前に、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントやプロジェクトの移行の準備 ](/help/admin/admin/component-migration/prepare-component-migration.md) でプロジェクトの移行について詳しく説明します。
+>この節で説明しているように、Customer Journey Analyticsにプロジェクトを移行する前に、プロジェクトの移行について詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントやプロジェクトの移行の準備 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
 >
 >**マッピングするディメンションまたは指標は、このプロジェクトと、移行を実行しているユーザーに関係なく、IMS 組織全体で移行される今後のすべてのプロジェクトの両方で永続的です。 これらのマッピングは、カスタマーケアに連絡しない限り、変更したり取り消したりすることはできません。**
 
@@ -53,29 +55,29 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 1. 移行するプロジェクトにマウスポインターを置き、**移行** アイコン ![ プロジェクトを移行 ](assets/migrate.svg) を選択します。
 
-   または
+   Or
 
-   マイグレーションするプロジェクトを選択し、[[!UICONTROL **Customer Journey Analyticsにマイグレーション**]] を選択します。
+   移行するプロジェクトを選択し、「[!UICONTROL **Customer Journey Analyticsに移行**]」を選択します。
 
    一度に選択できるプロジェクトは 1 つだけです。
 
-   [!UICONTROL **project_name をCustomer Journey Analyticsに移行**] ダイアログ・ボックスが表示されます。
+   [!UICONTROL **project_name をCustomer Journey Analyticsに移行**] ダイアログボックスが表示されます。
 
    <!-- add screenshot -->
 
 1. 「[!UICONTROL **プロジェクト所有者**]」フィールドに、Customer Journey Analyticsでプロジェクトの所有者として設定するユーザーの名前を入力し始め、ドロップダウンメニューで名前を選択します。
 
-   指定した所有者には、プロジェクトに対する完全な管理権限があります。 所有者はCustomer Journey Analyticsの管理者である必要があります。 後の手順で、プロジェクトの所有権を変更できます。
+   指定した所有者には、プロジェクトに対する完全な管理権限があります。 所有者は、Customer Journey Analyticsの管理者である必要があります。 後の手順で、プロジェクトの所有権を変更できます。
 
 1. 「[!UICONTROL **レポートスイートのスキーマのマッピング**]」セクションで、レポートスイートを選択します。
 
-1. [!UICONTROL **データビュー**] ドロップダウンメニューで、プロジェクトとコンポーネントを移行するCustomer Journey Analyticsデータビューを選択します。
+1. [!UICONTROL **データビュー**] ドロップダウンメニューで、プロジェクトとコンポーネントを移行するCustomer Journey Analytics データビューを選択します。
 
 1. [!UICONTROL **スキーマをマッピング**] を選択します。
 
-1. 「[!UICONTROL **スキーマをマッピング**]」セクションで、「[!UICONTROL **Dimension**]」および「[!UICONTROL **指標**]」セクションを展開します。
+1. 「[!UICONTROL **スキーマをマッピング**]」セクションで、「[!UICONTROL **ディメンション**]」および「[!UICONTROL **指標**]」セクションを展開します。
 
-   Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsでディメンションまたは指標に自動的にマッピングされます。 その他は手動でマッピングする必要があります。
+   Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsのディメンションまたは指標に自動的にマッピングされます。 その他は手動でマッピングする必要があります。
 
    **ディメンションと指標の自動的なマッピング**
 
@@ -83,7 +85,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
    >
    >   WebSDK を使用してデータをAdobe Experience Platformに取り込んだ場合、ディメンションと指標は自動的にマッピングできません。 詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 [ の ](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) 前提条件 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
 
-   Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsでディメンションまたは指標に自動的にマッピングされます。 これらのディメンションおよび指標には、マッピングに関する決定を行えません。
+   Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsのディメンションまたは指標に自動的にマッピングされます。 これらのディメンションおよび指標には、マッピングに関する決定を行えません。
 
    例えば、Adobe Analyticsの **訪問回数** 指標は、Customer Journey Analyticsの **セッション数** 指標と自動的にマッピングされます。
 
@@ -97,7 +99,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsのディメンションまたは指標に自動的にマッピングできません。
 
-   ディメンションまたは指標を自動的にマッピングできない場合は、[!UICONTROL **指標**] または [!UICONTROL **Dimension**] セクションのヘッダーの横にオレンジ色のカウンターが表示され、手動でマッピングする必要があるディメンションまたは指標の数が示されます。 テーブルで、手動でマッピングする必要がある各ディメンションまたは指標の横に警告アイコン ![ 警告アイコン ](assets/schema-warning.png) 警告アイコン）が表示されます。
+   ディメンションまたは指標を自動的にマッピングできない場合は、[!UICONTROL **ディメンション**] または [!UICONTROL **指標**] セクションヘッダーの横にオレンジ色のカウンターが表示され、手動でマッピングする必要があるディメンションまたは指標の数が示されます。 テーブルで、手動でマッピングする必要がある各ディメンションまたは指標の横に警告アイコン ![ 警告アイコン ](assets/schema-warning.png) 警告アイコン）が表示されます。
 
    また、「[!UICONTROL **ステータス**]」列には [!UICONTROL **マッピングされていません**] と表示されます。
 
@@ -113,7 +115,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    警告アイコンを含む各ディメンションまたは指標に対して、このプロセスを繰り返します。
 
-   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analyticsレポートスイート内のディメンションまたは指標にマッピングされると、「[!UICONTROL **レポートスイートのスキーマをマッピング ](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク ![ チェックマーク**] が表示されます。
+   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analytics レポートスイート内のディメンションまたは指標にマッピングされると、「[!UICONTROL **レポートスイートのスキーマをマッピング ](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク ![ チェックマーク**] が表示されます。
 
 1. （条件付き）移行中のプロジェクトに複数のレポートスイートが含まれている場合は、「レポートスイートのスキーマのマッピング [!UICONTROL **セクションで別のレポートスイートを選択してから、手順 6**] ら手順 10 を繰り返します。<!-- double-check that the step numbers are still correct -->
 
@@ -127,7 +129,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    移行が失敗した場合、詳しくは、以下の [ 失敗した移行の再試行 ](#retry-a-failed-migration) の節を参照してください。
 
-1. （任意）プロジェクトの移行後、プロジェクトの所有権をCustomer Journey Analytics内の任意のユーザーに転送できます。 詳細については、『Customer Journey Analyticsガイド』の [ アセットの転送 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) を参照してください。
+1. （任意）プロジェクトが移行されたら、プロジェクトの所有権をCustomer Journey Analytics内の任意のユーザーに転送できます。 詳しくは、『Customer Journey Analytics ガイド』の [ アセットの転送 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) を参照してください。
 
 ## 失敗した移行の再試行
 
