@@ -1,114 +1,69 @@
 ---
-description: GitHub の Adobe Analytics 管理 API へのリンク。
-title: Adobe Analytics 1.4 API のサポート終了 FAQ
+description: Adobe Analytics 1.4 API の提供終了のお知らせの詳細。
+title: Adobe Analytics 1.4 API EOL FAQ
 feature: Admin Tools
 role: Admin
-source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
+exl-id: 88769032-a7cd-4ca8-958f-3300a4bfe71f
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 1%
+source-wordcount: '534'
+ht-degree: 4%
 
 ---
 
-# Adobe Analytics 1.4 API のサポート終了 FAQ
+# Adobe Analytics 1.4 API EOL FAQ
 
-## 提供終了（EOL）に関するお知らせ
+Adobeは、Adobe Analytics 1.4 API を **2026 年 8 月 12 日** に廃止する予定です。 この日付を過ぎるとアクセスできなくなります。 このお知らせは、次の内容に直接影響します。
 
-**廃止されるもの**
-
-* Adobe Analytics 1.4 API
-
+* Adobe Analytics 1.4 API （Data Insertion API を除く）
 * Adobe Analytics WSSE 認証
-
-**いつ閉鎖されるの？**
-
-これらのサービスは、2026 年 8 月 12 日（PT）に廃止されます。 この日付を過ぎるとアクセスできなくなります。
 
 ## 1.4 API
 
-**これらのサービスは何ですか？**
+[Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は、レポート、分類、データフィード、レポートスイート設定など、様々なアクションを提供します。 これらは、[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に置き換わろうとしています。 2.0 API を使用すると、セグメントや計算指標などのコンポーネントのレポートや管理など、Analytics ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。
 
-[Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は、レポート、分類、データフィード、レポートスイート設定など、様々なアクションを提供する API の集まりです。
-
-**移行するにはどうすればよいですか？**
-
-[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) は、1.4 API ユーザーに移行パスを提供します。 現在 1.4 API を使用しているお客様は、2.0 API （Adobe Analytics アプリケーションが依存しているのと同じ API）に統合を移行して、最新の機能を活用できます。
-
-2.0 API を使用すると、セグメントや計算指標などのコンポーネントのレポートや管理など、Analytics ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。
-
-**2.0 API は、1.4 API と同じ機能を提供しますか？**
-1.4 API で使用できる機能は、[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) を使用して実現できます。 一部の機能は、1.4 API で使用できる機能と同じ機能を提供し、セグメントや計算指標などのコンポーネントのレポートや管理など、Analytics ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。
+Adobeは、1.4 API ユーザー向けに [ 移行パス ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/migration/) を提供しています。 統合を 2.0 API （Adobe Analytics アプリケーションが依存するのと同じ API）に移行し、最新の機能を活用できます。 1.4 API で使用できる機能は、[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) を使用して実現できます。
 
 ## WSSE 認証
 
-**これらのサービスは何ですか？**
+WSSE 認証は、Analytics 1.4 API でサポートされるレガシー認証プロトコルです。 これは、[Adobe Developer Console](https://developer.adobe.com/console/home) で提供される OAuth ベースの認証オプションに置き換えられました。 WSSE 認証を使用するプロジェクトでは、資格情報をAdobe Developer Consoleでプロビジョニングされた資格情報に更新する必要があります。 これを行うには、[Adobe Developer Console](https://developer.adobe.com/console/home) にログインして、Analytics 2.0 API 統合用のプロジェクトを作成します。 OAuth ユーザー認証方法または OAuth サーバー間認証方法のいずれかを選択します。
 
-WSSE 認証は、Analytics 1.4 API でサポートされるレガシー認証プロトコルです。 これは、[Adobe Developer Console](https://developer.adobe.com/console/home) で提供される OAuth ベースの認証オプションに置き換えられました。
+## FAQ
 
-**移行するにはどうすればよいですか？**
++++**これは、Analytics API の既存のAdobe IO プロジェクトに影響しますか？**
 
-WSSE のお客様は、Adobe Developer Consoleでプロビジョニングされた資格情報を使用するように認証を更新する必要があります。 これを行うには、[Adobe Developer Console](https://developer.adobe.com/console/home) にログインして、Analytics 2.0 API 統合用のプロジェクトを作成します。 OAuth ユーザー認証方法と OAuth サーバー間認証方法の中から選択します。
+Analytics 1.4 API を使用している既存のプロジェクトが影響を受けます。 これらの統合は、EOL 期日の前に [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があります。
 
-## 質問
++++
 
-Q:**これは、Analytics API の既存のAdobe I/O プロジェクトに影響しますか？**
++++**Analytics API を使用する別の製品やアプリケーションと、Adobeの資格情報を共有しました。 影響の有無**
 
-回答：Analytics 1.4 API を使用している既存のプロジェクトが影響を受けます。 これらの統合は、EOL 期日の前に [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があります。
+その製品またはアプリケーションが WSSE 資格情報を使用したり、Analytics 1.4 API を呼び出したりすると、影響を受けるため、EOL 期限の前に移行する必要があります。 移行プランとタイムラインについて詳しくは、製品またはアプリケーションプロバイダーにお問い合わせください。
 
-Q:**Adobe資格情報を、Analytics API を使用する別の製品またはアプリケーションと共有しました。 影響の有無**
++++
 
-回答：その製品またはアプリケーションが WSSE 資格情報を使用したり、Analytics 1.4 API を呼び出したりすると、影響を受け、EOL 期限の前に移行する必要があります。 移行プランと移行スケジュールについて詳しくは、製品またはアプリケーションのプロバイダーにお問い合わせください。
++++**プロジェクトで使用する API を確認するにはどうすればよいですか？**
 
-Q:**使用しているAdobe Analytics API が不明です。**
+API が呼び出すベース URL によって、プロジェクトで使用する API バージョンが決まります。 Adobe Analytics 1.4 API では、次の URL を使用します。
+* `https://api.omniture.com`
+* `https://api3.omniture.com`
+* `https://api4.omniture.com`
+* `https://api5.omniture.com`
 
-A：統合で呼び出されるアドレスによって、使用している API を識別できます。
+[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) は次の URL を使用します：
 
-Adobe Analytics 1.4 API にアクセスするには、次のいずれかの URL を呼び出します。
-* https://api.omniture.com
-* https://api3.omniture.com
-* https://api4.omniture.com
-* https://api5.omniture.com
+* `https://analytics.adobe.io`
 
-[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) にアクセスするには、次の URL を呼び出します。
-* https://analytics.adobe.io
+API プロジェクトのいずれかで `api*.omniture.com` を使用している場合は、Adobe Analytics 1.4 API を使用し、2.0 API に移行する必要があります。
 
-API*.omniture.comを使用している場合は、[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があります。
++++
 
-Q:Adobe Analytics 2.0 API は **1.4 API と同一ですか？ そうでない場合、最大の違いは何ですか？**
++++**提供終了はデータ収集に影響を与えますか？**
 
-回答：Adobe Analytics 2.0 API は 1.4 API と同一ではありませんが、次の利点など、同等の機能を提供します。
+Adobe Analytics 1.4 の EOL は、タグ（タグ（旧称：Adobe Launch）、Web SDK、AppMeasurementなど）のタグソリューションには影響しません。 ただし、1.4 Data Sources API または Classifications API を使用してデータを強化する場合は、これらのワークフローをAdobe Analytics 2.0 API に移行する必要があります。
 
-* よりシンプルで効率的なクエリ方法により、応答時間が短縮され、ポーリングが不要になります
+Data Insertion API は、この提供終了のお知らせの影響を受けません。 Adobeは Data Insertion API のサポートを引き続き提供する予定ですが、Adobeでは [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) を代わりに使用することをお勧めします。
 
-* クエリと動的レポートの更新をプログラムで行う機能
++++
 
-* エラー処理の精度が向上
-
-* Analysis Workspaceで実行できるすべての処理を実行する柔軟な機能
-
-* UI アクションに対する API 呼び出しの一貫性と一致
-
-* Analysis Workspaceで使用されるすべてのAttribution IQモデルへのアクセス
-
-* Analysis Workspaceで使用されるすべての異常値検出アルゴリズムへのアクセス
-
-* 他のExperience Cloudとの統合機能
-
-* 複数の分類レポートの容量の増加
-
-* 最新の Analytics 機能にアクセスする
-
-この [Adobe Analytics 2.0 API への移行 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/migration/) ガイドでは、1.4 API と 2.0 API の主な違いについて説明しています。 追加情報は、[Analytics 2.0 API FAQ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/) でも参照できます。
-
-Q:**これはデータ収集に影響しますか？**
-
-回答：Adobe Analytics 1.4 の EOL は、タグ付けソリューション（タグ（以前のAdobe Launch）、WebSDK、AppMeasurement.js など）には影響しません。 ただし、1.4 Data Sources API または Classifications API を使用してデータを収集または強化する場合は、それらのワークフローをAdobe Analytics 2.0 API に移行する必要があります。 詳しくは、[2.0 API エンドポイントガイドを参照 ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) てください。
-
-Q:**Data Insertion API は影響を受けますか？**
-
-回答：いいえ。Data Insertion API は、Adobe Analytics 1.4 EOL の影響を受けません。
-
-Q:**この FAQ で質問に答えられなかった場合はどうすればよいですか？**
-
-A：まだ質問がある場合は、Adobeアカウント担当者にお問い合わせください。
-
+この提供終了のお知らせについて、このページに記載されていないその他の質問がある場合は、Adobe アカウントチームにお問い合わせください。

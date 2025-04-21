@@ -4,7 +4,7 @@ description: クライアントヒントが User-Agent をデバイス情報の�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Managerでは、機能を完全に保持するために、高エ�
 
 どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
 
-API で送信されたデータの場合（[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) や [Bulk Data Insertion API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html) など）、ヒントは、ペイロードに明示的に含める必要があります。詳しくは、それぞれのドキュメントを参照してください。
+API で送信されたデータの場合（[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) や [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) など）、ヒントは、ペイロードに明示的に含める必要があります。詳しくは、それぞれのドキュメントを参照してください。
 
 +++
 
@@ -145,7 +145,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++
 
-+++**クライアントヒントは、AdobeのSource Connector を介してAdobe Experience PlatformおよびCustomer Journey Analyticsに送信されるデータで利用できますか？**
++++**クライアントヒントは、Adobe Source Connector を介してAdobe Experience PlatformおよびCustomer Journey Analyticsに送信されるデータで利用できますか？**
 
 アドビは、2023年上半期に Adobe ソースコネクタを介したデータにクライアントヒントを含める予定です。
 

@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -227,12 +227,12 @@ ht-degree: 99%
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ja)を更新しました |
 | 2021年6月3日 | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=ja#BucketOwnerFullControl)を更新しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
-| 2021年5月13日 | [Data Warehouse API リクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)を更新しました。「Hours」をサポートするようになりました。 |
+| 2021年5月13日 | [Data Warehouse API リクエスト](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)を更新しました。「Hours」をサポートするようになりました。 |
 | **2021年3月** | |
 | 2021年3月、4月 | Adobe Analytics ダッシュボード[エグゼクティブガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=ja)および[キュレーターガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)の更新 |
 | 2021年3月25日 | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページに関する新しいドキュメント。これにより、ユーザーの [!UICONTROL Analysis Workspace] 設定と関連コンポーネントを管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**メモ：**&#x200B;次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>ワークスペースプロジェクト：ヘルプ／ヒントを有効にする</li><li>ワークスペースプロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
 | 2021年3月25日 | [!UICONTROL ヒストグラムスマートバケット予測]は、データ分散に使用するバケットの正しい幅と数を自動的に識別することで、カーディナリティ指標の高いヒストグラムの処理に役立ちます。低カーディナリティ指標の場合、ビジュアライゼーションは以前と同じように動作します。 |
-| 2021年3月25日 | [データ修復 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) の更新（URL、クエリ文字列、記号などでのフィルタリング） |
+| 2021年3月25日 | [データ修復 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) の更新（URL、クエリ文字列、記号などでのフィルタリング） |
 | 2021年3月25日 | 新しい[使用ログ API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) ドキュメント |
 | **2021年2月** | |
 | 2021年2月4日 | コンポーネントの選択：[!UICONTROL クイックインサイト]にあるドロップダウン／ドロップゾーンコンポーネントは、[!UICONTROL ワークスペース]のすべてのドロップゾーンに追加されました。この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
