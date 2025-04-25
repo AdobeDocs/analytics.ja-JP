@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: 336347d3302ff8d78ee6ce87f3fa3acad5742dd9
 workflow-type: tm+mt
-source-wordcount: '6380'
+source-wordcount: '6378'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年3月** |  |
-| | **Analytics インベントリ** | Analytics インベントリでは、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory) |
+| Analytics インベントリ | [Analytics Inventory](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory) は、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要を提供します。 |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
 | Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)の[異なる方法でサポートされるディメンション（非標準の日付形式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)を参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/admin/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
