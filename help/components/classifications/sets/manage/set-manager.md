@@ -3,9 +3,9 @@ title: 分類セットマネージャー
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 分類セットマネージャーの左側には、目的の分類セットを見つけるためのフィルター設定が表示されます。 フィルターアイコンをクリックすると、フィルター設定の表示が切り替わります。分類セットは、**[!UICONTROL タグ]** または **[!UICONTROL レポートスイート]** でフィルタリングできます。
 
 ![分類セットフィルター](../../assets/classification-set-filters.png)
+
+一度に 1,000 個の分類セットがプリロードされることに注意してください。 左側のパネルに表示されるフィルターは、プリロードされたセットのオプションを反映しています。
 
 ## 分類セットマネージャーの列
 

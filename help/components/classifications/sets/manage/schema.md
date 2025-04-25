@@ -3,10 +3,10 @@ title: 分類セットスキーマ
 description: 個々の分類セットのスキーマを表示および編集します。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 次のボタンを使用できます。
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL アップロード]**：1 つ以上の分類ディメンションの分類データを手動でアップロードします。`JSON`、`CSV`、`TSV`、`TAB` の各ファイルがサポートされています。 有効なファイルをアップロードすると、分類するデータのテーブルプレビューが表示されます。
+* **[!UICONTROL アップロード]**：分類ディメンションの分類データを手動でアップロードします。 `JSON`、`CSV`、`TSV`、`TAB` の各ファイルがサポートされています。 有効なファイルをアップロードすると、分類するデータのテーブルプレビューが表示されます。
    * **[!UICONTROL ファイルエンコーディング]**：このドロップダウンを使用して、正しいファイルエンコーディングを選択します。 有効なオプションは、[!UICONTROL UTF-8] および [!UICONTROL Latin1] です。
    * **[!UICONTROL リスト区切り]**：正しいリスト区切り文字を選択します。 ダウンロードしたファイルまたはテンプレートファイルを使用する場合は、ここの[!UICONTROL リスト区切り文字]がファイルのダウンロード時の[!UICONTROL リスト区切り文字]と一致していることを確認してください。
    * **[!UICONTROL 適用]**：アップロードした分類データを分類セットに保存します。
@@ -59,3 +59,13 @@ ht-degree: 43%
    * **[!UICONTROL 区切り文字]**：アップロードされたファイルの列区切り文字。 オプションには、[!UICONTROL  コンマ ]、[!UICONTROL  セミコロン ]、[!UICONTROL  コロン ]、[!UICONTROL  縦棒 ]、[!UICONTROL  スペース ]、[!UICONTROL  スラッシュ ]、[!UICONTROL  バックスラッシュ ]、[!UICONTROL  ダッシュ ]、[!UICONTROL  アンダースコア ] があります。
 
    * **[!UICONTROL エンコーディング]**：ファイルのエンコーディングを決定するドロップダウンリスト。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
+
+分類を選択した後にのみ、次のアクションを使用できます。
+
+* **ルックアップを追加**：ルックアップテーブルは分類の分類です。 変数自体ではなく、分類値に関するメタデータです。 例えば、製品変数が「カラーコード」の分類を持つ場合があります。 「カラー名」のルックアップテーブルを「カラーコード」に添付して、カラーの内容を説明する場合があります。
+
+  ![ 参照テーブルを添付 ](../../assets/lookup.png)
+
+* **名前を変更**：分類の名前を変更できます。
+
+* **削除**：分類を削除できます。
