@@ -3,9 +3,9 @@ title: 分類セットスキーマ
 description: 個々の分類セットのスキーマを表示および編集します。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 この分類セットに対して現在設定されている分類ディメンションを表示します。
 
 **[!UICONTROL コンポーネント]**/**[!UICONTROL 分類セット]**/**[!UICONTROL セット]**/目的の分類セット名/**[!UICONTROL スキーマ]** をクリックします。
+
+![ 分類セットスキーマ UI](../../assets/classification-set-schema.png)
 
 次のボタンを使用できます。
 

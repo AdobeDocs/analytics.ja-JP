@@ -3,9 +3,9 @@ title: 分類セットルール
 description: 個々の分類セットのルールを表示および編集します。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 分類セットルールを使用すると、変数の設定値に基づいて値を自動的に分類できます。 これらのルールは、分類セットのすべてのサブスクリプションのすべての受信変数値に適用されます。
 
 **[!UICONTROL コンポーネント]**/**[!UICONTROL 分類セット]**/**[!UICONTROL セット]**/目的の分類セット名/**[!UICONTROL ルール]** をクリックします。
+
+![ 分類セットルール UI](../../assets/csets-rules.png)
 
 ## ルール設定
 

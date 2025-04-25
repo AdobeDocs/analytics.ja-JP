@@ -3,10 +3,10 @@ title: 分類セット設定
 description: 分類セットを作成または編集します。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 分類セットを設定します。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／［目的の分類セット名］／**[!UICONTROL 設定]**&#x200B;を選択します。
+
+![ 分類セット設定 ](../../assets/classification-set-settings.png)
 
 このタブでは、次のフィールドを使用できます。
 
