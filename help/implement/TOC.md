@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
@@ -130,16 +130,15 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [モジュールの統合](vars/integrate.md)
-+ Adobe Analytics の実装準備 {#prepare}
++ Adobe Analytics実装の準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
    + [実装方法の比較](prepare/comparison.md)
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
    + [複数のスイートタグ付けの実装](prepare/multi-suite-tagging.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
-+ Analytics Edge を使用した Experience Platform の実装 {#aep-edge}
++ Experience Platform Edgeを使用した Analytics の実装 {#aep-edge}
    + [Experience Edge の概要](aep-edge/overview.md)
    + [データオブジェクト変数のマッピング](aep-edge/data-var-mapping.md)
    + [XDM オブジェクト変数のマッピング](aep-edge/xdm-var-mapping.md)
@@ -149,18 +148,18 @@ ht-degree: 100%
       + [JavaScript を使用した Web SDK への移行](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [タグを使用した新しい実装](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [JavaScript を使用した新しい実装](aep-edge/web-sdk/web-sdk-javascript-library.md)
-   + モバイル SDK {#mobile-sdk}
+   + Mobile SDK {#mobile-sdk}
       + [Mobile SDK の概要](aep-edge/mobile-sdk/overview.md)
    + Server API {#server-api}
       + [Server API の概要](aep-edge/server-api/overview.md)
-+ Adobe Analytics 拡張機能を使用して Analytics を実装 {#launch}
++ Adobe Analytics拡張機能を使用した Analytics の実装 {#launch}
    + [タグの概要](launch/overview.md)
    + [Adobe Analytics タグプロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
    + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
    + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
-+ JavaScript を使用した Analytics の実装 {#js}
++ JavaScript を使用した Analytics の導入 {#js}
    + [JavaScript の概要](js/overview.md)
    + [オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)

@@ -4,10 +4,10 @@ description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -25,17 +25,6 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
 詳しくは、[ ボットルールの理解と設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) を参照してください。
-
-## [!UICONTROL websiteBot] プラグインを使用してボットを識別します。
-
-[!UICONTROL websiteBot] プラグインを使用すると、デスクトップ訪問者がボットかどうかを動的に識別できます。このデータを使用すると、あらゆる種類のレポートの精度を高め、合法なサイトトラフィックの測定を改善できます。
-
-このプラグインでは、次の 2 つのチェックを実行します。
-
-* まず、navigator.UserAgent 変数を使用して、デバイスがデスクトップかモバイルデバイスかを判断します。モバイルデバイスは無視されます。
-* デスクトップデバイスの場合は、マウスの動きに対するイベントリスナーを追加します。
-
-詳しくは、『[Adobe Analytics 実装ガイド](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=ja)』を参照してください。
 
 ## アドビツールを組み合わせて使用
 
