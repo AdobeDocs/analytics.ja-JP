@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 67%
 | **`daily_visitor`** | ヒットが新しい日別訪問者かどうかを決定するフラグ。 | tinyint unsigned |
 | **`dataprivacyconsentoptin`** | [ 同意管理のオプトイン ](/help/components/dimensions/cm-opt-in.md) ディメンション。 ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`DMP` および `SELL` などがあります。 | varchar(100) |
 | **`dataprivacyconsentoptout`** | [ 同意管理のオプトアウト ](/help/components/dimensions/cm-opt-out.md) ディメンション。 ヒットごとに複数の値が存在する可能性があります（パイプ（`\|`）区切り）。有効な値には、`SSF`、`DMP`、`SELL` などがあります。 | varchar(100) |
-| **`dataprivacydmaconsent`** | Adobe Advertisingを通じてサードパーティの広告業者（Googleなど）にAdobe Analyticsからデータを送信することに対して同意が得られるかどうかを識別する値。 詳しくは、[広告の同意](/help/components/dimensions/ad-consent.md)を参照してください。 | varchar(100) |
+| **`dataprivacydmaconsent`** | Adobe AnalyticsからAdobe Advertisingを通じてサードパーティの広告プロバイダー（Googleなど）にデータを送信することに対して同意が得られるかどうかを識別する値。 詳しくは、[広告の同意](/help/components/dimensions/ad-consent.md)を参照してください。 | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | **`domain`** | [ドメイン](/help/components/dimensions/domain.md)ディメンション。訪問者のインターネット アクセス ポイントに基づきます。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
@@ -145,7 +145,7 @@ ht-degree: 67%
 | **`monthly_visitor`** | 訪問者が当月固有かどうかを決定するフラグ。 | tinyint unsigned |
 | **`mvvar1`**～`mvvar3` | [ リスト変数 ](/help/implement/vars/page-vars/list.md) 値。 実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
 | **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。元の区切り文字を `--**--` に置き換えます。通常、 `post` 列にはデータが含まれません。 | テキスト |
-| **`new_visit`** | 現在のヒットが新しい訪問かどうかを判断するフラグ。 訪問が無操作状態になってから 30 分後にAdobeが設定します。 | tinyint unsigned |
+| **`new_visit`** | 現在のヒットが新しい訪問かどうかを判断するフラグ。 訪問が無操作状態になってから 30 分後にAdobeによって設定されます。 | tinyint unsigned |
 | **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。 `user_agent` 列に基づきます。`operating_system.tsv` 標準検索と `operating_system_type.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int unsigned |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
@@ -405,3 +405,8 @@ ht-degree: 67%
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[XDM オブジェクト変数のマッピング ](/help/implement/aep-edge/xdm-var-mapping.md)
+>[データオブジェクト変数マッピング ](/help/implement/aep-edge/data-var-mapping.md)

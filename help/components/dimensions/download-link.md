@@ -3,10 +3,10 @@ title: ダウンロードリンク
 description: ダウンロードリンクの名前。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 87%
+source-wordcount: '193'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストでの `lnk_d` 値を持つ `pe` クエリ文字列も持つヒットについて、クエリ文字列 [`pev2`](/help/implement/validate/query-parameters.md) からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
+このディメンションは、イメージリクエストでの `lnk_d` 値を持つ `pe` クエリ文字列も持つヒットについて、クエリ文字列 [`pev2`](/help/implement/validate/query-parameters.md) からデータを収集します。`pe` クエリ文字列のヒットに異なる値が含まれる場合、このディメンションはデータを収集しません。 このディメンションの最大長は 100 バイトです。
 
 AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"d"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。リンク名引数に必要な値を入力します。
 
