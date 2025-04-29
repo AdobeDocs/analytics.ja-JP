@@ -4,10 +4,10 @@ description: コンテキストデータ変数を使用すると、処理ルー�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 983b5073cf17a6aa0c038516c1d1ec3a40ca9eed
+source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 69%
+source-wordcount: '577'
+ht-degree: 68%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 69%
 
 コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。コード内の Analytics 変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれの Analytics 変数に渡します。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
 
-コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストできます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。Adobeチームが心配するのは、最終的に、開発で多くのページ変数が提供されるのではなく、コンテキストデータ変数のみです。
+コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストできます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。最終的に、開発チームが心配するのは、Adobeに用意されている多くのページ変数ではなく、コンテキストデータ変数のみです。
 
 ## Web SDK を使用したコンテキストデータ変数
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 XDM オブジェクトを使用してコンテキストデータを明示的に設定することもできます。 その後、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。  詳しくは [ 他の XDM フィールドの Analytics 変数へのマッピング ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) を参照してください。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 XDM オブジェクトを使用して、コンテキストデータを明示的に設定することもできます。 その後、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用してコンテキストデータ変数を目的の Analytics 変数に割り当てることができます。  詳しくは [ 他の XDM フィールドの Analytics 変数へのマッピング ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) を参照してください。
 
 [**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、すべてのコンテキストデータ変数はキーと値のペアとして `data.__adobe.analytics.contextData` 内に存在します。
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) インターフェイスの該当するドロップダウンメニューには、`c.example_variable` と `c.second_example` が表示されます。
+[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) インターフェイスの該当するドロップダウンメニューには、`example_variable` と `second_example` が表示されます。
 
 ## Adobe Analytics 拡張機能を使用したコンテキストデータ変数
 
