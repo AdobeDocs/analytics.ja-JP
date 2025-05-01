@@ -5,14 +5,14 @@ title: 処理ルールで使用可能なディメンション
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 14%
 
 ---
 
-# 処理ルールで使用可能なDimensionと指標
+# 処理ルールで使用可能なディメンションと指標
 
 処理ルールを使用して読み取りおよび書き込みが可能な、使用可能なディメンションおよび指標。
 
@@ -27,10 +27,10 @@ ht-degree: 14%
 
 | 属性 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
-| ページ URL | 読み取り+書き込み | 「[ ページ URL](/help/components/dimensions/page-url.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページ URL の値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
-| ページ名 | 読み取り+書き込み | 「[ ページ ](/help/components/dimensions/page.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページの値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
-| レポートスイート ID | 読み取り専用 | 処理ルールが実行されるレポートスイート。 このレポートスイートは、VISTA ルールを使用する場合など、AppMeasurementを通じて最初に送信されたレポートスイートとは異なる場合があります。 |
-| AppMeasurementコードのバージョン | 読み取り専用 | イメージリクエストの生成に使用されるAppMeasurementライブラリのバージョン。 |
+| ページ URL | 読み取り+書き込み | 「[ ページ URL](/help/components/dimensions/page-url.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページ URL の値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
+| ページ名 | 読み取り+書き込み | 「[ ページ ](/help/components/dimensions/page.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページの値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
+| レポートスイート ID | 読み取り専用 | 処理ルールが実行されるレポートスイート。 VISTA ルールを使用する場合など、AppMeasurementを通じて最初に送信されたレポートスイートとは異なる場合があります。 |
+| AppMeasurementのコードバージョン | 読み取り専用 | イメージリクエストの生成に使用されるAppMeasurement ライブラリのバージョン。 |
 | IP アドレス | 読み取り専用 | 訪問者の IP アドレス。 |
 | ユーザーエージェント | 読み取り専用 | 訪問者のユーザーエージェント。 |
 | リファラー | 読み取り専用 | 「[リファラー](/help/components/dimensions/referrer.md)」ディメンション。 |
@@ -49,7 +49,7 @@ ht-degree: 14%
 
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
-| eVar 1 ～ 250 | 読み取り+書き込み | [eVar](/help/components/dimensions/evar.md) ディメンション。 |
+| eVar1-250 | 読み取り+書き込み | [eVar](/help/components/dimensions/evar.md) ディメンション。 |
 | キャンペーン | 読み取り+書き込み | 「[ トラッキングコード ](/help/components/dimensions/tracking-code.md)」ディメンション。 |
 | 購入 ID | 読み取り+書き込み | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 実装変数。 |
 | 都道府県 | 読み取り+書き込み | [`state`](/help/implement/vars/page-vars/state.md) 実装変数は廃止されました。 |
@@ -75,7 +75,7 @@ ht-degree: 14%
 
 ## 成功イベント
 
-処理ルールではイベントを設定できますが、条件として読み取ることはできません。 ルールアクションドロップダウンを **[!UICONTROL イベントを設定]** に設定して、増分する使用可能な指標を確認します。
+処理ルールではイベントを設定できますが、条件として読み取ることはできません。 ルールアクションドロップダウンを **[!UICONTROL イベントを設定]** に設定して、増分可能な指標を確認します。
 
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |

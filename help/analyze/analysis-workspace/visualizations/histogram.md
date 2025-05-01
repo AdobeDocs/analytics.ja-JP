@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 ヒストグラムを作成するには
 
 1. ![ヒストグラム](/help/assets/icons/Histogram.svg) **[!UICONTROL ヒストグラム]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
-1. **[!UICONTROL 指標]**&#x200B;コンポーネントリストから指標をドラッグするか、[!UICONTROL *指標を追加*]&#x200B;ドロップダウンメニューから指標を選択します。
+1. **[!UICONTROL 指標]** コンポーネントリストから指標をドラッグするか、[!UICONTROL *指標を追加*] ドロップダウンメニューから指標を選択します。
 1. （オプション）「**[!UICONTROL 詳細設定を表示]**」を選択します。[詳細設定](#advanced-settings)を参照してください。
 1. 「**[!UICONTROL 作成]**」を選択します。
 

@@ -3,10 +3,10 @@ description: Advertising Analytics でアカウントを管理します。
 title: 広告アカウントの管理
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 7%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 1. （任意）複数の広告アカウントを選択します。
 1. 特定の広告アカウントの場合は ![ 詳細 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) を選択します。
 1. コンテキストメニューから「![ 更新 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)**[!UICONTROL レポートスイートをマッピング]**」を選択します。
-1. レポートスイートをマッピング ダイアログで、ドロップダウンから 1 つ以上のレポートスイートを選択します。 マッピングからレポートスイートを削除するには ![ クロス ](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg) を使用します。
+1. レポートスイートをマッピング ダイアログで、ドロップダウンメニューから 1 つ以上のレポートスイートを選択します。 マッピングからレポートスイートを削除するには ![ クロス ](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg) を使用します。
 1. 「**[!UICONTROL 保存]**」を選択して、マッピングを保存します。
 
 

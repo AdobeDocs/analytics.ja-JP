@@ -4,10 +4,10 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 ## レポートスイート
 
-各パネルは、[レポートスイート](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**の![データ名](/help/assets/icons/Data.svg)で識別されます。
+各パネルは、[ レポートスイート ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) に関連付けられており、パネルの右上にあるドロップダウンメニューの ![ データ ](/help/assets/icons/Data.svg) **[!UICONTROL *レポートスイートの名前&#x200B;*]**で識別されます。
 
 新しいパネルを作成する場合、デフォルトのレポートスイートは、Analysis Workspace プロジェクトで最後に作業したパネルのレポートスイートに基づいています。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 ![選択した日付範囲を示すカレンダーウィンドウ。](assets/panel-calendar.png)
 
 1. 最初に開始日を選択し、次に終了日を選択して、日付範囲を選択します。
-または、**[!UICONTROL プリセットを選択]**&#x200B;ドロップダウンメニューから「[!UICONTROL *プリセット*]」を選択できます。
+または、「**[!UICONTROL プリセットを選択]**」ドロップダウンメニューから [!UICONTROL *プリセット*] を選択できます。
 
 1. オプションで、「**[!UICONTROL 詳細設定を表示]**」を選択して、次の操作を行います。
 

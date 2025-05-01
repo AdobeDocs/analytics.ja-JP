@@ -4,9 +4,9 @@ title: よくある質問と Workspace のトラブルシューティング
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 +++
 
 +++読み取り専用ユーザーのAnalysis Workspaceでは、どのようなアクションを実行できますか？
-プロジェクトが読み取り専用として共有されている場合、すべての編集機能は完全に無効になり、受信者はドロップダウンを変更するだけで、事前に定義された方法でパネルにフィルターを適用できます。
+プロジェクトが読み取り専用として共有されると、すべての編集機能が完全に無効になり、受信者は、定義済みの方法でフィルターをパネルに適用するようにドロップダウンメニューを変更するだけです。
 +++
