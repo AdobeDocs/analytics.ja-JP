@@ -4,10 +4,10 @@ description: 製品管理者が組織内のユーザーに割り当てる権限�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '669'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 製品プロファイルは、製品管理者が組織内のユーザーに割り当てることができる権限プリセットです。製品プロファイルを作成し、その製品プロファイルに Experience Cloud ユーザーを割り当てると、ユーザーは製品プロファイルに含まれる権限項目を継承します。
 
-製品プロファイルの作成とユーザーの割り当てを含む、製品プロファイルの概要については、Enterprise ユーザーガイドの [Enterprise ユーザーの製品プロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html)を参照してください。
+製品プロファイルの作成とユーザーの割り当てを含む、製品プロファイルの概要については、Enterprise ユーザーガイドの [Enterprise ユーザーの製品プロファイルの管理 ](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html) を参照してください。
 
 ## 製品プロファイル管理者
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## Adobe Analytics 権限項目
 
-Adobe Analytics にアクセスするためには、製品プロファイルで最低限、次の権限が必要となります。
+1 つの製品プロファイルでAdobe Analyticsへのアクセスに最低限必要な権限は、次のとおりです。
 
 * 製品プロファイルは、少なくとも 1 つのレポートスイートにアクセスできる必要があります
 * 製品プロファイルは、Analytics ツール権限項目 **Analysis Workspace アクセス** に属している必要があります。
@@ -47,7 +47,7 @@ Analytics 組織に属するレポートスイートへのアクセスを許可�
 
 ### ディメンション
 
-レポートスイートのディメンションへのアクセスを許可します。Dimensionは、Analysis Workspaceでそれぞれのコンポーネントとして表示されます。
+レポートスイートのディメンションへのアクセスを許可します。ディメンションは、Analysis Workspaceでそれぞれのコンポーネントとして表示されます。
 
 eVar などのカスタム変数には、レポートスイートから独立させるため、「カスタムコンバージョン 1 ～ 250」というラベルが付けられます。「カスタムコンバージョン 1」が有効な権限項目である場合、そのユーザーは製品プロファイル内のすべてのレポートスイートの eVar1 にアクセスできます。
 
@@ -61,6 +61,6 @@ Analytics ツールの権限項目は、レポートスイートの設定に依�
 
 ## 製品プロファイル開発者
 
-開発者は、Adobe Developer の Experience Cloud API を使用する権限が付与されていることを除いて、ユーザーに似ています。詳しくは、Enterprise ユーザーガイドの[開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。プロファイルに対する開発者アクセス権限を付与されているユーザーは、開発コンソール（console.adobe.io）にアクセスし、Adobe Analytics 統合を編集できます。ユーザーに対して承認された Analytics API の呼び出しと応答は、そのユーザーが開発者アクセス権を持っているすべてのプロファイルの正味権限に依存します。
+開発者は、Adobe Developer上のExperience Cloud API を使用する権限が付与されていることを除いて、ユーザーに似ています。 詳しくは、Enterprise ユーザーガイドの[開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。プロファイルに対する開発者アクセス権を付与されている場合は、開発コンソール（console.adobe.io）にアクセスし、Adobe Analytics統合を編集できます。 ユーザーに対して許可される Analytics API 呼び出しと応答は、ユーザーが開発者アクセス権を持つすべてのプロファイルの純権限に依存します。
 
-例えば、すべての指標、すべてのディメンション、1 つのレポートスイートを含むプロファイル権限を持っている場合、プロファイルの開発者アクセスメンバーは、関連スイート内の任意のコンポーネントに関する API 呼び出しを行うことができます。異常値検出を追加すると、レポートに異常値データを追加して、より完全な応答を含めることができます。一般的に、プロファイルが Adobe Analytics インターフェイス内のシナリオへのアクセスを許可した場合、同様に定義されたプロファイル上の開発者アクセスにより、対応する API の呼び出しと応答が有効になります。
+例えば、すべての指標、すべてのディメンション、1 つのレポートスイートを含むプロファイル権限を持っている場合、開発者は、そのレポートスイート内の任意のコンポーネントに関連する API 呼び出しを行うことができます。 異常値検出権限項目が追加された場合、API 応答には異常値データを含めることができます。 経験則として、プロファイルがAdobe Analytics インターフェイス内のシナリオへのアクセス権を付与する場合、同様に定義されたプロファイルへの開発者アクセス権により、対応する API 呼び出しと応答が有効になります。
