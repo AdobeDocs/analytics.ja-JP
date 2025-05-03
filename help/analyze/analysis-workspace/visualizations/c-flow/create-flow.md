@@ -4,14 +4,66 @@ title: フロービジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# フロービジュアライゼーションの設定
+# フロービジュアライゼーションの設定 {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="次の語句で始まる"
+>abstract="このフィールドは、最初のビルドでのみ設定できます。 このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="次を含む"
+>abstract="このフィールドは、最初のビルドでのみ設定できます。 このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="次の語句で終わる"
+>abstract="このフィールドは、最初のビルドでのみ設定できます。 このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="パスディメンション"
+>abstract="選択したコンポーネントに続くパスや選択したコンポーネントから来るパスとして使用するディメンションを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="フローコンテナ"
+>abstract="パス（の数値）の表示に使用するコンテナを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="繰り返しを含める（無効）"
+>abstract="繰り返しは、複数値のディメンションを含むフロービジュアライゼーションから削除できません。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="繰り返しを含める"
+>abstract="フロービジュアライゼーションは、ディメンションのインスタンスに基づいています。この設定には、繰り返しインスタンスを含めるか除外するオプションがあります（例：ページの再読み込み）。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="最初 / 最後の発生に制限"
+>abstract="最初/最後のタッチポイントが入口/出口である場合、結果はパスに制限されます。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="列の数"
+>abstract="このフィールドは、最初のビルドでのみ設定できます。 このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="列ごとに展開される項目数"
+>abstract="このフィールドは、最初のビルドでのみ設定できます。 このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
+
+
 
 フロービジュアライゼーションを使用すると、Web サイトやアプリ上の特定のコンバージョンイベントに由来する、またはそれに至るジャーニーを把握できます。ディメンション（およびディメンション項目）または指標を通過するパスをトレースします。
 
