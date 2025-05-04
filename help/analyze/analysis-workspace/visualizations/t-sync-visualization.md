@@ -5,14 +5,19 @@ title: ビジュアライゼーションデータソースの管理
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# ビジュアライゼーションデータソースの管理
+# ビジュアライゼーションデータソースの管理 {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="選択をロック"
+>abstract="この設定を有効にすると、テーブルの位置またはデータソースで選択されている正確な項目にビジュアライゼーションをロックします。"
 
 ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
 
@@ -29,6 +34,8 @@ ht-degree: 100%
    ビジュアライゼーションをテーブルセルに同期すると、新しい（非表示の）テーブルと、そのテーブルに同期したビジュアライゼーションのカラーコードが作成されます。
 
 ## データソース設定
+
+
 
 
 >[!BEGINSHADEBOX]
