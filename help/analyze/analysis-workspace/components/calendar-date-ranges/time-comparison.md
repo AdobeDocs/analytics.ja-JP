@@ -18,7 +18,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日付の比較](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日付の比較](https://video.tv.adobe.com/v/34732?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

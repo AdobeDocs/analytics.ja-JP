@@ -18,7 +18,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 異常値検出 ](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 異常値検出 ](https://video.tv.adobe.com/v/40728?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Analysis Workspace の異常値検出アルゴリズムには以下が含まれ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 貢献度分析 ](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 貢献度分析 ](https://video.tv.adobe.com/v/40760?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -45,7 +45,7 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データはAnalysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/34729?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 +++
 

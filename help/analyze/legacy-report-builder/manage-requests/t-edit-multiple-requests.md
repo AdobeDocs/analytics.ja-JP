@@ -49,4 +49,4 @@ ht-degree: 90%
 
 次に、プロセスを示すビデオを示します。
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://video.tv.adobe.com/v/40102/?quality=12&captions=jpn

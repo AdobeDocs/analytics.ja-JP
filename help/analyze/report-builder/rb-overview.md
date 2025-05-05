@@ -73,7 +73,7 @@ Report Builderを使用すると、次のことができます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builderの概要 ](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builderの概要 ](https://video.tv.adobe.com/v/3452581?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

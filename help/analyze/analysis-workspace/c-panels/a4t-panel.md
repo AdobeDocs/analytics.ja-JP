@@ -42,7 +42,7 @@ Analytics for Target パネルを使用すると、Analysis Workspace で Adobe 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target パネル](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target パネル](https://video.tv.adobe.com/v/326710?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
