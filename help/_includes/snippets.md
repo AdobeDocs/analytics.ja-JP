@@ -11,8 +11,8 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->合理化された新しい [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) は 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
->この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) できます。
+>合理化された新しい [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview) は 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
+>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/convert-workbooks) できます。
 
 ## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 

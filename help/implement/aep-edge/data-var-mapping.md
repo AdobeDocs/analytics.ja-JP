@@ -15,7 +15,7 @@ ht-degree: 2%
 
 次の表に、Adobe Experience PlatformEdge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクト変数を示します。 これらのデータオブジェクトフィールドのパスを使用する場合、データをAdobe Analyticsに送信するために追加の設定は必要ありません。
 
-今後Customer Journey Analyticsを使用する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装方法を使用すると、XDM スキーマに準拠せずに、web SDK を使用してAdobeにデータを送信できます。 組織でAdobe Experience Platformにデータを送信する準備が整ったら、[ データストリームマッピング ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定できます。
+今後Customer Journey Analyticsを使用する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装方法を使用すると、XDM スキーマに準拠せずに、web SDK を使用してAdobeにデータを送信できます。 組織でAdobe Experience Platformにデータを送信する準備が整ったら、[ データストリームマッピング ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping) を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定できます。
 
 ## 値の優先度
 

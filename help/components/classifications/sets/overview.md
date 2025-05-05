@@ -24,7 +24,7 @@ ht-degree: 84%
 
 * 処理時間が短縮されました（72 時間 → 24 時間）
 * 分類を管理するための再設計された UI
-* [分類データ用の Adobe Analytics ソースコネクタ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)を介して、今後 Adobe Experience Platform で分類データを使用するオプション
+* [分類データ用の Adobe Analytics ソースコネクタ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/classifications)を介して、今後 Adobe Experience Platform で分類データを使用するオプション
 
 分類セットでリリースされたバックエンドアーキテクチャには、次のいくつかの主な変更点も含まれています。
 

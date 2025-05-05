@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # Adobe Experience Platform Web SDK を使用した Adobe Analytics の実装
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) を使用して、データを Adobe Analytics に送信できます。Web SDK を実装する主な方法は 2 つあり、それぞれの方法には次の 2 つの実装タイプがあります。
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja) を使用して、データを Adobe Analytics に送信できます。Web SDK を実装する主な方法は 2 つあり、それぞれの方法には次の 2 つの実装タイプがあります。
 
 | | **AppMeasurementから移行** | **Web SDK のクリーン実装** |
 | --- | --- | --- |

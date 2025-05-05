@@ -65,7 +65,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 <tr>
 <td>6</td> 
 <td><b>検証して実稼動環境に公開します</b>。タグプロパティを web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code"> 埋め込みコード </a><br/><a href="./validate-publish-prod.md"> 開発実装の検証と実稼動環境への公開 </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ja#embed-code"> 埋め込みコード </a><br/><a href="./validate-publish-prod.md"> 開発実装の検証と実稼動環境への公開 </a></td>
 </tr>
 
 </table>

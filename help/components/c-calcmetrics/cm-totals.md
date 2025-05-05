@@ -19,4 +19,4 @@ Analysis Workspace でデータを表示すると、ほとんどの場合、計�
 * フリーフォームテーブルで、[静的な行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)が使用され、「**[!UICONTROL 現在の行の合計として表示]**」オプション（デフォルト）が選択されている場合。
 * [ドーナツビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/donut.md)では、数値の合計は 100％になります。
 
-Analysis Workspace での合計の詳細については、[Workspace の合計](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total)を参照してください。
+Analysis Workspace での合計の詳細については、[Workspace の合計](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#static-row-total)を参照してください。

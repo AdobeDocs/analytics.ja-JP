@@ -135,7 +135,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 移行が失敗した場合は、移行を再試行できます。
 
-失敗した移行を再試行する前に、[ サポートされていない要素 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) をプロジェクトから削除してください。
+失敗した移行を再試行する前に、[ サポートされていない要素 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=ja#understand-unsupported-elements-that-cause-errors) をプロジェクトから削除してください。
 
 >[!NOTE]
 >

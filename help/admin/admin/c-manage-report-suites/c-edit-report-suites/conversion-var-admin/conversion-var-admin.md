@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## コンバージョン変数（eVar）の概要
 
-コンバージョン変数の概要に関するビデオについては、Analytics チュートリアルガイドの [ コンバージョン変数の概要 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) を参照してください。
+コンバージョン変数の概要に関するビデオについては、Analytics チュートリアルガイドの [ コンバージョン変数の概要 ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) を参照してください。
 
 1 つの eVar を 1 人の訪問者の値に設定すると、その値が期限切れになるまで自動的に記憶されます。eVar 値がアクティブなときに訪問者に対して発生したすべての成功イベントは、その eVar 値にカウントされます。
 

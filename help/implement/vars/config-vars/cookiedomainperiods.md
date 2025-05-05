@@ -32,7 +32,7 @@ ht-degree: 18%
 >
 > この変数ではサブドメインは考慮しません。例えば、サンプル URL `store.toys.example.com` では `cookieDomainPeriods` を設定しないでください。AppMeasurementは、多くのサブドメインを持つ URL であっても、Cookie が `example.com` に保存されることを認識します。
 
-AppMeasurement v2.26.x 以降での実装の場合、正しい cookie ドメインを自動的に判断するには、[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie が使用されます。 ライブラリは最初に、2 つのドメインピリオドを含む cookie を書き込もうとします。 この cookie の設定に失敗した場合は、成功するまでドメインピリオドを含めて再試行します。 この cookie は設定後すぐに削除されます。
+AppMeasurement v2.26.x 以降での実装の場合、正しい cookie ドメインを自動的に判断するには、[`s_ac`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) cookie が使用されます。 ライブラリは最初に、2 つのドメインピリオドを含む cookie を書き込もうとします。 この cookie の設定に失敗した場合は、成功するまでドメインピリオドを含めて再試行します。 この cookie は設定後すぐに削除されます。
 
 ## Web SDK を使用した cookie ドメインピリオド
 

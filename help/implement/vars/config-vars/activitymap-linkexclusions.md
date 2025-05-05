@@ -20,7 +20,7 @@ ht-degree: 11%
 
 ## Web SDK JavaScript ライブラリのリンクの除外
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内では、`linkName` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内では、`linkName` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
 
 ```js
 alloy("configure", {

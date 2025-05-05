@@ -15,4 +15,4 @@ ht-degree: 97%
 
 Adobe Experience Cloud のシングルサインオンは、Admin Console を通じて実装されます。
 
-ヘルプの[管理者ユーザーガイド](https://www.adobe.com/go/analytics_sso_en)を参照してください。
+ヘルプの[管理者ユーザーガイド](https://www.adobe.com/go/analytics_sso_jp)を参照してください。

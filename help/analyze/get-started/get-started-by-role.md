@@ -112,7 +112,7 @@ Adobe Analytics と Analysis Workspace の機能を最大限に活用するた�
 | アラート | データの異常値と、単一のアラートで複数の指標をキャプチャする「積み重ね」アラートに基づいてアラートを作成および管理します。 | [アラートの概要](/help/components/c-alerts/intellligent-alerts.md) |
 | データの書き出し | Data Warehouse とデータフィードを使用すると、Google Cloud Platform、Azure RBAC、Azure SAS、Amazon S3 などの様々なクラウドの宛先にデータを書き出すことができます。 | [Analytics 書き出しガイド](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=ja) |
 | Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja) |
-| Report Builder | Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
+| Report Builder | Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview) |
 
 <!-- * Realtime reporting? -->
 

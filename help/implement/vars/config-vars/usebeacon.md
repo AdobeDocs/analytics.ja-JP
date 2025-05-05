@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-詳しくは、Web SDK ドキュメントの [sendBeacon API の使用 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) を参照してください。
+詳しくは、Web SDK ドキュメントの [sendBeacon API の使用 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#using-the-sendbeacon-api) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したビーコンの使用
 

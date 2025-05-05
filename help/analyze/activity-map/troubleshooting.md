@@ -19,7 +19,7 @@ Activity Mapディメンションのデータが表示されない場合は、�
 
 まず、AppMeasurementがActivity Mapデータを正しく収集していることを確認します。
 
-1. [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home) をダウンロードしてインストールします。
+1. [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home) をダウンロードしてインストールします。
 2. Web ページに移動して、リンクをクリックします。
 3. 後続のページが読み込まれたら、デバッガーを開きます。 `activitymap.` と `.activitymap` の間にActivity Mapコンテキストデータ変数が挟まれていることが確認できることを確認します。
 

@@ -34,7 +34,7 @@ Bulk データ挿入には、以前はフル処理のデータソースでは使
 * **`aamlh`**:Adobe Audience Managerの場所のヒント。
 * **`contextData.key`**: [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**:Experience CloudID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion` および `wow64` が含まれます。
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja) 変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion` および `wow64` が含まれます。
 * **`ipaddress`**：訪問者の IP アドレス。
 * **`language`**: [ 言語 ](/help/components/dimensions/language.md) ディメンション。
 * **`list1`** - **`list3`**: [ リスト変数 ](/help/implement/vars/page-vars/list.md)。

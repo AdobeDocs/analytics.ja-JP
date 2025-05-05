@@ -22,7 +22,7 @@ Analytics ツールガイドには、次の Analytics ツールの製品機能�
 | **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja)** | Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加を行い、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。 |
 | **[Analytics ダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja)** | Analytics ダッシュボードとそのモバイルスコアカードを使用すると、エグゼクティブユーザーは、重要な概要データの幅広いレンダリングを自分のモバイルデバイスですばやく簡単に表示できます。キュレーターは、モバイルスコアカードプロジェクトにビジュアライゼーションを追加し、エグゼクティブと共有します。<br>スコアカードは、KPI をターゲットにして測定する方法を提供し、組織が目標を達成するためにどの程度取り組んでいるかを明確に示します。 |
 | **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja)** | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<br>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。 |
-| **[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)** | Microsoft Excel 用の新しい Report Builder アドインは、Mac、Windows、web ブラウザーでサポートされています。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 |
+| **[Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview)** | Microsoft Excel 用の新しい Report Builder アドインは、Mac、Windows、web ブラウザーでサポートされています。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 |
 | **[レガシー Report Builder](/help/analyze/legacy-report-builder/home.md)** | レガシー Report Builder は、Microsoft Excel 用のアドインで、Microsoft Windows でのみサポートされています。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics API を使用すると、アドビのサーバーを直接呼び出し、ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。レポートを作成して、データに関する重要な質問を調べたり、インサイトを得たり、回答したりすることができます。また、セグメントや計算指標の作成など、Adobe Analytics のコンポーネントを管理することもできます。 |
 
@@ -43,7 +43,7 @@ Adobe Analytics の機能とその使用方法について詳しくは、[Analyt
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

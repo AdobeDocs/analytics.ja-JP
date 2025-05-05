@@ -75,4 +75,4 @@ ht-degree: 99%
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace ダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)
 + [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)
++ [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview)

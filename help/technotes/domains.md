@@ -29,10 +29,10 @@ ht-degree: 13%
 
 ## Adobe Experience Cloud ドメイン
 
-上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) を参照してください。
+上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains) を参照してください。
 
 >[!MORELIKETHIS]
 >
 >[Adobe Analyticsで使用される IP アドレス ](ip-addresses.md)
 >
->[Adobe Experience Cloudが使用するドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloudが使用するドメイン ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains)

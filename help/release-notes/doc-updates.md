@@ -47,7 +47,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024年10月** |  |
 | Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報 | [Analysis Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)の記事の新しい[リクエスト要因](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)の節では、リクエストの処理方法と、処理時間に影響を与える様々な要因について説明します。 |
-| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 |
+| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview)。 |
 | **2024年8月** | |
 | アラートマネージャー | [アラートマネージャー](/help/components/c-alerts/alert-manager.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | **2024年7月** | |

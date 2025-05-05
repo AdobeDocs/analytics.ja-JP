@@ -28,7 +28,7 @@ Web SDK を設定する際は、「[!UICONTROL &#x200B; クリックデータ収
 
 ## Web SDK を手動で実装して、クリック収集を有効または無効にします
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled) を使用して SDK を設定します。 フィールドは、リンククリックに関連付けられたデータを自動的に収集するかどうかを決定するブール値です。 デフォルト値は `true` です。自動リンクトラッキングを無効にする場合、この値を `false` に設定します。 この設定では、ダウンロードリンクと離脱リンクの両方の自動リンクトラッキングを処理します。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja#clickCollectionEnabled) を使用して SDK を設定します。 フィールドは、リンククリックに関連付けられたデータを自動的に収集するかどうかを決定するブール値です。 デフォルト値は `true` です。自動リンクトラッキングを無効にする場合、この値を `false` に設定します。 この設定では、ダウンロードリンクと離脱リンクの両方の自動リンクトラッキングを処理します。
 
 ```json
 alloy("configure", {

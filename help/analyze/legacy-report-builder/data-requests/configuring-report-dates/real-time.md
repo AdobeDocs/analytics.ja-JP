@@ -31,4 +31,4 @@ Web ページトラフィックをリアルタイムで表示し、ページビ�
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; リアルタイムレポート &#x200B;] は、以前にリリースした [ 現在のデータを含める ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) （データの最新性）機能とは異なります。これにより、データが最終処理される前に表示されるので、標準レポートの待ち時間が短縮されます。
+>[!UICONTROL &#x200B; リアルタイムレポート &#x200B;] は、以前にリリースした [ 現在のデータを含める ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=ja) （データの最新性）機能とは異なります。これにより、データが最終処理される前に表示されるので、標準レポートの待ち時間が短縮されます。

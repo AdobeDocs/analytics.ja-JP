@@ -76,7 +76,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder の更新 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：<a href="https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行はいつ始まるのですか。 </p> </td> 
