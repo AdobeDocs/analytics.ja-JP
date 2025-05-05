@@ -5,7 +5,7 @@ keywords: パケットスニファー、http ステータス、200、302、charl
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: d952d199c3c02ee8d0a223569f58d56027809cfb
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Analytics の要求を表示するには、「b/ss」を使用して送信要求
 | Firefox | Internet Explorer | Chrome | スタンドアロンプログラム |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.telerik.com/fiddler) |
 | [Tamper Data](https://addons.mozilla.org/ja-JP/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
