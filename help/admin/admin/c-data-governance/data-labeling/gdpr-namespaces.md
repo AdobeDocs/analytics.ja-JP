@@ -21,7 +21,7 @@ ht-degree: 94%
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-詳細および ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 標準 ID 名前空間のリスト [ については、[Experience Cloudデータプライバシー API ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces) を参照してください。 リクエストのサンプルについては、[ アクセス/削除ジョブの作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) を参照してください。
+詳細および [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 標準 ID 名前空間のリスト  については、[Experience Cloudデータプライバシー API ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces) を参照してください。 リクエストのサンプルについては、[ アクセス/削除ジョブの作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) を参照してください。
 
 ## Cookie ID
 

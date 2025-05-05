@@ -122,7 +122,7 @@ Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
+ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
 ![Audience Manager プロファイルビューア](assets/aam-vpv.png)
 

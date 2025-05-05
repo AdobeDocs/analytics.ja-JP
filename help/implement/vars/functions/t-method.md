@@ -44,8 +44,8 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
-1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Experience Platform Web SDK]** に設定し、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL イベントを送信]** に設定します。
+1. [!UICONTROL &#x200B; アクション &#x200B;] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Adobe Experience Platform Web SDK]** に設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;] を **[!UICONTROL イベントを送信]** に設定します。
 
 ## Web SDK を手動で実装してイベントを送信
 
@@ -66,8 +66,8 @@ Adobe Experience Platform Data Collection のAdobe Analytics拡張機能には�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
-1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL ビーコンを送信]** に設定します。
+1. [!UICONTROL &#x200B; アクション &#x200B;] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL &#x200B; アクションタイプ &#x200B;] を **[!UICONTROL ビーコンを送信]** に設定します。
 1. 「`s.t()`」ラジオボタンをクリックします。
 
 ## AppMeasurementの s.t （） メソッドと Analytics 拡張機能のカスタムコードエディター

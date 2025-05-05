@@ -19,7 +19,7 @@ ht-degree: 64%
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは、Nielsen と提携して、IP アドレスと DMA の間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL  ジオルックアップ ] を有効にします。
+* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL &#x200B; ジオルックアップ &#x200B;] を有効にします。
 
 ## ディメンション項目
 

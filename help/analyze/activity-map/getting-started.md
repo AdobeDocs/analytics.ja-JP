@@ -26,7 +26,7 @@ Adobe AnalyticsのActivity Mapは、次の 4 つの主要な要素で構成さ�
 
 **[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/レポートスイートを選択/**[!UICONTROL 設定を編集]**/**[!UICONTROL Activity Map]**/**[!UICONTROL Activity Mapレポート]**/**[!UICONTROL Activity Mapレポートを有効にする]**
 
-Activity Mapレポートを有効にすると、複数のバックエンド予約変数が作成されます。 詳しくは、Adobe Analytics管理ガイドの ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)0}Activity Mapレポート } を参照してください。[
+Activity Mapレポートを有効にすると、複数のバックエンド予約変数が作成されます。 詳しくは、Adobe Analytics管理ガイドの [&#128279;](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)0&rbrace;Activity Mapレポート &rbrace; を参照してください。
 
 ## コードのインストール
 
@@ -43,8 +43,8 @@ Activity Mapデータ収集には、**[!UICONTROL Adobe Experience Platform Web 
 1. 左側のナビゲーションメニューで **[!UICONTROL タグ]** を選択します。
 1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューで **[!UICONTROL 拡張機能]** を選択します。
-1. インストールされている拡張機能のリストで ]**0}Adobe Experience Platform Web SDK} を選択し、右側の**[!UICONTROL  設定 ]**を選択します。**[!UICONTROL 
-1. [!UICONTROL  データ収集 ] というラベルの付いたセクションを見つけ、チェックボックス **[!UICONTROL クリックデータ収集を有効にする]** が有効になっていることを確認します。
+1. インストールされている拡張機能のリストで **0&rbrace;Adobe Experience Platform Web SDK&rbrace; を選択し、右側の**&#x200B;[!UICONTROL &#x200B; 設定 &#x200B;]&#x200B;**を選択します。**
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] というラベルの付いたセクションを見つけ、チェックボックス **[!UICONTROL クリックデータ収集を有効にする]** が有効になっていることを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
 
@@ -77,7 +77,7 @@ alloy("configure", {
 1. 左側のナビゲーションメニューで **[!UICONTROL タグ]** を選択します。
 1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューで **[!UICONTROL 拡張機能]** を選択します。
-1. インストールされている拡張機能のリストで ]**0}Adobe Analytics} を選択し、右側の**[!UICONTROL  設定 ]**を選択します。**[!UICONTROL 
+1. インストールされている拡張機能のリストで **0&rbrace;Adobe Analytics&rbrace; を選択し、右側の**&#x200B;[!UICONTROL &#x200B; 設定 &#x200B;]&#x200B;**を選択します。**
 1. チェックボックス **[!UICONTROL Activity Mapを使用]** が有効になっていることを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
@@ -100,10 +100,10 @@ Activity Mapモジュールは、Activity Mapデータの収集を処理し、�
 
 レポートスイートと実装の両方でActivity Mapが有効になっている場合、Analysis Workspaceで次のディメンションの使用を開始できます。
 
-* [[!UICONTROL Activity Mapリンク ]](/help/components/dimensions/activity-map-link.md)
-* [[!UICONTROL Activity Map地域 ]](/help/components/dimensions/activity-map-region.md)
-* [[!UICONTROL Activity Mapページ ]](/help/components/dimensions/activity-map-page.md)
-* [[!UICONTROL Activity Mapリンク （地域別） ]](/help/components/dimensions/activity-map-link-by-region.md)
+* [[!UICONTROL Activity Mapリンク &#x200B;]](/help/components/dimensions/activity-map-link.md)
+* [[!UICONTROL Activity Map地域 &#x200B;]](/help/components/dimensions/activity-map-region.md)
+* [[!UICONTROL Activity Mapページ &#x200B;]](/help/components/dimensions/activity-map-page.md)
+* [[!UICONTROL Activity Mapリンク （地域別） &#x200B;]](/help/components/dimensions/activity-map-link-by-region.md)
 
 ## ブラウザー拡張機能またはアドオンのダウンロードとインストール
 

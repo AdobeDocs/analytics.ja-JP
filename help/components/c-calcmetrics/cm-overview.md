@@ -38,13 +38,13 @@ ht-degree: 51%
 
 次のことが可能です。
 
-* [!UICONTROL Analysis Workspace]、[!UICONTROL  分析、[!UICONTROL  異常値検出 ]、および [!UICONTROL  貢献Report Builder] にわたる指標を作成し ] す。
+* [!UICONTROL Analysis Workspace]、[!UICONTROL &#x200B; 分析、[!UICONTROL &#x200B; 異常値検出 &#x200B;]、および [!UICONTROL &#x200B; 貢献Report Builder] にわたる指標を作成し &#x200B;] す。
 * 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 計算指標 ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 計算指標 ](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 51%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメント化されたセグメントの計算指標 ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメント化されたセグメントの計算指標 ](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ ht-degree: 51%
 
 一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
 
-* [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
+* [!UICONTROL Analysis Workspace &#x200B;][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]
@@ -73,7 +73,7 @@ ht-degree: 51%
 
 ## ツール {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-[!UICONTROL  計算指標 ] ツールの概要を以下に示します。
+[!UICONTROL &#x200B; 計算指標 &#x200B;] ツールの概要を以下に示します。
 
 | ツール | 機能 |
 |--- |--- |

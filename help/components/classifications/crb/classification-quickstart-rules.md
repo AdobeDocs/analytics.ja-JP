@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL  グループ権限 ] を指定します。
+* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL &#x200B; グループ権限 &#x200B;] を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -145,7 +145,7 @@ regex_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &amp;Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
+| 正規表現 | &Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
 
 **構文**
 

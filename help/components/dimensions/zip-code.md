@@ -26,7 +26,7 @@ ht-degree: 79%
 地域 zip を含むオプションを使用する場合：
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL  ジオルックアップ ] を有効にします。
+* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL &#x200B; ジオルックアップ &#x200B;] を有効にします。
 
 ## ディメンション項目
 

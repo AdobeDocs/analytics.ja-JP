@@ -26,7 +26,7 @@ ht-degree: 7%
 | ![編集](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 広告アカウントの名前を変更するか、検索エンジンの設定を編集するかを選択します。 |
 | ![詳細情報](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選択すると、コンテキストメニューが開き、[ レポートスイートのマッピング ](#map-reporting-suites)、[ 広告アカウントのアクティブ化または一時停止 ](#activate-or-pause-advertising-accounts) が可能になります。 |
 | **[!UICONTROL レポートスイート]** | 広告アカウントのマッピング先のレポートスイートをリストします。 |
-| **[!UICONTROL タイプ]** | 広告アカウントのタイプを表示します。 デフォルトでは、タイプは [!UICONTROL  検索 ] です。 |
+| **[!UICONTROL タイプ]** | 広告アカウントのタイプを表示します。 デフォルトでは、タイプは [!UICONTROL &#x200B; 検索 &#x200B;] です。 |
 | **[!UICONTROL アカウント]** | アカウントの種類（[!UICONTROL Bing Ads] または [!UICONTROL Google Adwords]）を表示します。 |
 | **[!UICONTROL ステータス]** | 広告アカウントのステータス：*一時停止* またはアクティブ。 |
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 新しい広告アカウントを作成するには：
 
 1. ![ 追加 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)**[!UICONTROL 追加]** を選択します。
-1. [!UICONTROL Advertising アカウント ] / **[!UICONTROL 新しいアカウント]** ダイアログが表示され、新しい広告アカウントを定義できます。 詳しくは [Advertising アカウントの設定 ](aa-create-ad-account.md) を参照してください。
+1. [!UICONTROL Advertising アカウント &#x200B;] / **[!UICONTROL 新しいアカウント]** ダイアログが表示され、新しい広告アカウントを定義できます。 詳しくは [Advertising アカウントの設定 ](aa-create-ad-account.md) を参照してください。
 
 
 ## 広告アカウントの編集

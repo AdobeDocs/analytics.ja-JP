@@ -32,12 +32,12 @@ ht-degree: 55%
 
 ## Web SDK 拡張機能を使用したリンク修飾子のダウンロード
 
-[!UICONTROL  ダウンロードリンク修飾子 ] テキストフィールドでは、正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
+[!UICONTROL &#x200B; ダウンロードリンク修飾子 &#x200B;] テキストフィールドでは、正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
-1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
 
 ## Web SDK を手動で実装するリンク修飾子のダウンロード
 

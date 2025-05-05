@@ -82,9 +82,9 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. タグインターフェイスの左側のナビゲーションで、「**[!UICONTROL データ要素]**」を選択します。
 1. 「**[!UICONTROL データ要素を追加]**」を選択します。
 1. データ要素に次の設定を指定します。
-   * [!UICONTROL  名前 ]:「データレイヤー」や「データオブジェクト」など、必要なもの
-   * [!UICONTROL  拡張機能 ]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL  データ要素タイプ ]: [!UICONTROL  変数 ]
+   * [!UICONTROL &#x200B; 名前 &#x200B;]:「データレイヤー」や「データオブジェクト」など、必要なもの
+   * [!UICONTROL &#x200B; 拡張機能 &#x200B;]: [!UICONTROL Adobe Experience Platform Web SDK]
+   * [!UICONTROL &#x200B; データ要素タイプ &#x200B;]: [!UICONTROL &#x200B; 変数 &#x200B;]
    * チェックボックスは現状のままでもかまいません
 1. 右側で、次の設定を選択します。
    * プロパティラジオボタン：[!UICONTROL Data]
@@ -105,9 +105,9 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. 編集するルールを選択します。
 1. アクション **[!UICONTROL Adobe Analytics – 変数を設定]** を選択します
 1. このルール内で設定されたすべての Analytics 変数に注意してください。 ドロップダウンメニューで設定された変数と、カスタムコード内で設定された変数の両方を含めます。
-1. [!UICONTROL  アクションの設定 ] を次の設定に変更します。
-   * [!UICONTROL  拡張機能 ]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL  アクションタイプ ]：変数を更新します
+1. [!UICONTROL &#x200B; アクションの設定 &#x200B;] を次の設定に変更します。
+   * [!UICONTROL &#x200B; 拡張機能 &#x200B;]: [!UICONTROL Adobe Experience Platform Web SDK]
+   * [!UICONTROL &#x200B; アクションタイプ &#x200B;]：変数を更新します
 1. データオブジェクトが右側のドロップダウンで選択されていることを確認します。
 1. Analytics 変数を、Analytics 拡張機能で設定したのと同じそれぞれの値に設定します。
    * タグインターフェイス内で設定された変数は、同じ値に直接変換できます。
@@ -116,16 +116,16 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 1. Web SDK 拡張機能を使用してすべてのルールロジックをレプリケートしたら、「**[!UICONTROL 変更を保持]**」を選択します。
 1. Adobe Analytics拡張機能を使用して値を設定するアクション設定ごとに、これらの手順を繰り返します。 この手順には、タグインターフェイスを使用して設定された変数と、カスタムコードを使用して設定された変数の両方が含まれます。 カスタムコードブロックは、どこからでも `s` オブジェクトを参照できません。
 
-上記の手順は、値を設定するルールにのみ適用されます。 次の手順では、[!UICONTROL  アクション設定 ][!UICONTROL  ビーコンを送信 ] を使用するすべてのアクションを置き換えます。
+上記の手順は、値を設定するルールにのみ適用されます。 次の手順では、[!UICONTROL &#x200B; アクション設定 &#x200B;][!UICONTROL &#x200B; ビーコンを送信 &#x200B;] を使用するすべてのアクションを置き換えます。
 
 1. ビーコンを送信するルールを選択します。
 1. アクション **[!UICONTROL Adobe Analytics - ビーコンを送信]** を選択します。
-1. 右側の [!UICONTROL  トラッキング ] ラジオボタンの現在の値（[`s.t()`](../../vars/functions/t-method.md) または [`s.tl()`](../../vars/functions/tl-method.md)）を確認します。
-1. [!UICONTROL  アクションの設定 ] を次の設定に変更します。
-   * [!UICONTROL  拡張機能 ]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL  アクションタイプ ]:[!UICONTROL  イベントを送信 ]
+1. 右側の [!UICONTROL &#x200B; トラッキング &#x200B;] ラジオボタンの現在の値（[`s.t()`](../../vars/functions/t-method.md) または [`s.tl()`](../../vars/functions/tl-method.md)）を確認します。
+1. [!UICONTROL &#x200B; アクションの設定 &#x200B;] を次の設定に変更します。
+   * [!UICONTROL &#x200B; 拡張機能 &#x200B;]: [!UICONTROL Adobe Experience Platform Web SDK]
+   * [!UICONTROL &#x200B; アクションタイプ &#x200B;]:[!UICONTROL &#x200B; イベントを送信 &#x200B;]
 1. 右側で、アクション設定を次のように変更します。
-   * [!UICONTROL  タイプ ]:`s.t()` しくは、**[!UICONTROL Web Webpagedetails ページビュー]** を使用します。 `s.tl()` しくは、「Web Webinteraction リンクのクリック数 **[!UICONTROL を使用]** ます。 [`s.tl()`](../../vars/functions/tl-method.md) を使用する場合、データオブジェクトに次のフィールドも含める必要があります。 [!UICONTROL  変数を更新 ] アクション設定を実行すると、これらのフィールドは [!UICONTROL  追加のプロパティ ] の下に表示されます。
+   * [!UICONTROL &#x200B; タイプ &#x200B;]:`s.t()` しくは、**[!UICONTROL Web Webpagedetails ページビュー]** を使用します。 `s.tl()` しくは、「Web Webinteraction リンクのクリック数 **[!UICONTROL を使用]** ます。 [`s.tl()`](../../vars/functions/tl-method.md) を使用する場合、データオブジェクトに次のフィールドも含める必要があります。 [!UICONTROL &#x200B; 変数を更新 &#x200B;] アクション設定を実行すると、これらのフィールドは [!UICONTROL &#x200B; 追加のプロパティ &#x200B;] の下に表示されます。
       * [リンク名](../../vars/functions/tl-method.md)
       * [リンクタイプ](../../vars/functions/tl-method.md)
       * [リンク URL](../../vars/config-vars/linkurl.md)

@@ -48,7 +48,7 @@ PDFレポートが適切に設定されている場合、Adobe Analyticsでは�
 
 ## Adobe AnalyticsでPDFレポートを有効にする
 
-1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/9}Document Cloud管理 ]**/[!UICONTROL ** Document Cloudレポート **]に移動します。**[!UICONTROL 
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/9&rbrace;Document Cloud管理 **/[!UICONTROL **&#x200B; Document Cloudレポート &#x200B;**]に移動します。**
 
 1. Adobe Document CloudPDFページで、「[!UICONTROL **管理レポートを有効にする**]」を選択します。
 

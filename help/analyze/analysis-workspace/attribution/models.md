@@ -46,7 +46,7 @@ Adobe Analytics でのアトリビューションの概念は、次の 2 つの�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタムルックバックウィンドウ ](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ カスタムルックバックウィンドウ ](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

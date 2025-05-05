@@ -68,7 +68,7 @@ Advertising AnalyticsはAdobe Analytics管理者のみが使用できますが�
 
 +++ Advertising Analyticsへのアクセス方法
 
-Adobe Analyticsにログインした後、[!UICONTROL  管理者 ] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
+Adobe Analyticsにログインした後、[!UICONTROL &#x200B; 管理者 &#x200B;] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
 
 +++
 

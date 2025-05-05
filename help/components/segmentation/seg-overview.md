@@ -242,7 +242,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントコンテナ ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントコンテナ ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

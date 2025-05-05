@@ -23,7 +23,7 @@ Web SDK は現在 UTF-8 のみをサポートし、エンコーディングを�
 
 ## Adobe Analytics拡張機能の文字セット
 
-「文字セット」は、Adobe Experience Platform Data Collection でAdobe Analytics拡張機能を設定する際に「[!UICONTROL  一般 ]」アコーディオンの下にあるフィールドです。
+「文字セット」は、Adobe Experience Platform Data Collection でAdobe Analytics拡張機能を設定する際に「[!UICONTROL &#x200B; 一般 &#x200B;]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

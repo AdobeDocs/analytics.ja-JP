@@ -20,7 +20,7 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 ## Analytics 2.0 API
 
-Analytics 2.0 API にアクセスするには、Analytics 会社のグローバル会社 ID が必要です。 「[!UICONTROL API アクセス ]」セクションの上部にある **太字** にグローバル会社 ID を確認できます。 次に例を示します。「現在ログインしている Analytics Company のグローバル会社 ID は **adobe1234** です。」
+Analytics 2.0 API にアクセスするには、Analytics 会社のグローバル会社 ID が必要です。 「[!UICONTROL API アクセス &#x200B;]」セクションの上部にある **太字** にグローバル会社 ID を確認できます。 次に例を示します。「現在ログインしている Analytics Company のグローバル会社 ID は **adobe1234** です。」
 
 ## 従来の Web サービスの管理（非推奨）
 

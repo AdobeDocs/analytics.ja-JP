@@ -34,7 +34,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ボットルールの設定 ](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ボットルールの設定 ](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

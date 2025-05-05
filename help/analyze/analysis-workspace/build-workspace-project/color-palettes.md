@@ -32,7 +32,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタムカラーパレットの使用 ](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ カスタムカラーパレットの使用 ](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

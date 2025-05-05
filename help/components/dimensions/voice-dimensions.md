@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # 音声分析ディメンション
 
-[[!UICONTROL  アプリケーションレポート ]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) で [!UICONTROL  音声およびチャットボット ] を有効にすると、次のディメンション（および [ 指標 ](../metrics/voice-metrics.md)）が作成されます。 [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) を使用して、目的の文字列値に設定できます。 レポートスイートの設定で有効にすると、音声分析ディメンションを関連するコンテキストデータ変数にマッピングする [ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) が自動的に作成されます。
+[[!UICONTROL &#x200B; アプリケーションレポート &#x200B;]](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md) で [!UICONTROL &#x200B; 音声およびチャットボット &#x200B;] を有効にすると、次のディメンション（および [ 指標 ](../metrics/voice-metrics.md)）が作成されます。 [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) を使用して、目的の文字列値に設定できます。 レポートスイートの設定で有効にすると、音声分析ディメンションを関連するコンテキストデータ変数にマッピングする [ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) が自動的に作成されます。
 
 | ディメンション名 | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |

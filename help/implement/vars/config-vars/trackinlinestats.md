@@ -24,16 +24,16 @@ ClickMapは、Adobe Analyticsで廃止された機能で、訪問者のクリッ
 
 ## Adobe Analytics拡張機能を使用したClickMapの有効化
 
-[!UICONTROL ClickMapを有効にする ] は、Adobe Analytics拡張機能の設定時に「[!UICONTROL  リンクトラッキング ]」アコーディオンの下にあるチェックボックスです。
+[!UICONTROL ClickMapを有効にする &#x200B;] は、Adobe Analytics拡張機能の設定時に「[!UICONTROL &#x200B; リンクトラッキング &#x200B;]」アコーディオンの下にあるチェックボックスです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
-4. 「[!UICONTROL  リンクトラッキング ]」アコーディオンをを展開して、「[!UICONTROL ClickMapを有効にする ]」チェックボックスを表示します。
+4. 「[!UICONTROL &#x200B; リンクトラッキング &#x200B;]」アコーディオンをを展開して、「[!UICONTROL ClickMapを有効にする &#x200B;]」チェックボックスを表示します。
 
 >[!NOTE]
 >
->このチェックボックスは、「ライブラリ管理 ] アコーディオンの下にある「[!UICONTROL Activity Mapを使用 [!UICONTROL  チェックボックス ] とは異なります。
+>このチェックボックスは、「ライブラリ管理  アコーディオンの下にある「Activity Mapを使用 [!UICONTROL &#x200B; チェックボックス &#x200B;] とは異なります。
 
 ## AppMeasurementー内の s.trackInlineStats と Analytics 拡張機能のカスタムコードエディター
 

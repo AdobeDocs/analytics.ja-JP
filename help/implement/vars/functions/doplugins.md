@@ -26,8 +26,8 @@ Web SDK は、`doPlugins` の代わりに、同様の機能を持つ `onBeforeEv
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
-1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
 ## Web SDK`onBeforeEventSend` 手動による実装を使用

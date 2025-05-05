@@ -20,11 +20,11 @@ ht-degree: 86%
 
 正しい構文を使用する方法については、[構文に関する注意点](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D) を参照してください。
 
-*  cd = current date（本日）
-*  cw = current week（現在の週の開始日）
-*  cm = current month（現在の月の開始日）
-*  cq = current quarter（現在の四半期の開始日）
-*  cy = current year（現在の年の開始日）
+* cd = current date（本日）
+* cw = current week（現在の週の開始日）
+* cm = current month（現在の月の開始日）
+* cq = current quarter（現在の四半期の開始日）
+* cy = current year（現在の年の開始日）
 
 次のリストでは、*[UNIT]* は任意の係数を表します。
 

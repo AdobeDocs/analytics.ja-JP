@@ -14,7 +14,7 @@ ht-degree: 5%
 
 Document Cloud分析を有効にすると、PDF固有のディメンションと指標をレポートスイートで使用できるようになります。
 
-**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/9}Document Cloud管理 ]****[!UICONTROL 
+**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/9&rbrace;Document Cloud管理 **&#x200B;**
 
 レポートスイートの編集時には、次のDocument Cloud管理オプションを使用できます。
 

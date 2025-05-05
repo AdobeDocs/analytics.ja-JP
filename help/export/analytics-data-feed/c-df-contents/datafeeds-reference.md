@@ -39,7 +39,7 @@ ht-degree: 67%
 | **`browser_height`** | 「[ ブラウザーの高さ ](/help/components/dimensions/browser-height.md)」ディメンション。 | smallint unsigned |
 | **`browser_width`** | [ ブラウザーの幅 ](/help/components/dimensions/browser-width.md) | smallint unsigned |
 | **`c_color`** | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
-| **`campaign`** | 「トラッキングCode](/help/components/dimensions/tracking-code.md)[ディメンション。 | varchar(255) |
+| **`campaign`** | 「トラッキングCode[&#128279;](/help/components/dimensions/tracking-code.md)ディメンション。 | varchar(255) |
 | **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。`carrier.tsv` [動的検索](dynamic-lookups.md)のキー値。 | varchar(100) |
 | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | テキスト |
 | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
@@ -91,7 +91,7 @@ ht-degree: 67%
 | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
 | **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
-| **`java_enabled`** | [[!UICONTROL Java 有効 ]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
+| **`java_enabled`** | [[!UICONTROL Java 有効 &#x200B;]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | **`javascript`** | `j_jscript`に基づくJavaScriptバージョンの参照 ID。`javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 訪問者の言語を表す数値 ID。 `languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |

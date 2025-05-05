@@ -17,7 +17,7 @@ ht-degree: 82%
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png)[ セグメントを計画 ](/help/components/segmentation/segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [ セグメントを計画 ](/help/components/segmentation/segmentation-workflow/seg-plan.md)
 
 セグメントの作成、およびセグメント管理環境の設定を行う前に、必要な質問をすべて終えておきます。意図した目的と明確な用途に従ってセグメントを設計します。
 
@@ -37,7 +37,7 @@ THEN 演算子を使用してセグメントを作成する方法については
 
 セグメントを正当なセグメントとして承認します。
 
-![](assets/step5_icon.png)[ セグメントの適用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
+![](assets/step5_icon.png) [ セグメントの適用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)
 
 レポートのセグメントレール（「セグメントを表示」をクリックして表示）からセグメントを直接適用できます。
 
@@ -49,7 +49,7 @@ THEN 演算子を使用してセグメントを作成する方法については
 
 タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。
 
-![](assets/step8_icon.png)[ セグメントをお気に入りとしてマーク ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+![](assets/step8_icon.png) [ セグメントをお気に入りとしてマーク ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
 
 セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。
 

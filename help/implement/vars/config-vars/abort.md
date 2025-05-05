@@ -21,8 +21,8 @@ ht-degree: 39%
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
-1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
 1. コードエディターで、Edgeへのデータ送信を中止する条件の下に次のコードを配置します。
 
 ```js

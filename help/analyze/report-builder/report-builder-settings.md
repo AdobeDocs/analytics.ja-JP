@@ -53,7 +53,7 @@ Report Builder UI で使用する言語を選択するには
 
    ![ 英語が選択されたReport Builderの一覧を表示する言語の日付範囲ウィンドウ。](./assets/image39.png)
 
-1. 「**[!UICONTROL 適用 ]」をクリック** ます。
+1. 「**[!UICONTROL 適用 &#x200B;]」をクリック** ます。
 
 ## トラブルシューティング
 

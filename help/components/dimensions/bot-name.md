@@ -14,7 +14,7 @@ ht-degree: 7%
 
 「ボット名」 [ ディメンション ](overview.md) には、[ ボットルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトの IAB ルールでも、組織が設定するカスタムボットルールでも構いません。 これは、サイトを訪問しているボットや、最もトラフィックが多いボットについて詳しく知りたい場合に便利です。
 
-[!UICONTROL  ボットルール ] に一致するヒットは、このディメンション、[ ボットの発生 ](../metrics/bot-occurrences.md)、[ ボットページビュー ](../metrics/bot-page-views.md) を除くすべての Analytics レポートから自動的に除外されます。 このディメンションとこれら 2 つの指標を使用して、残りのレポートから除外されているボットデータを確認できます。
+[!UICONTROL &#x200B; ボットルール &#x200B;] に一致するヒットは、このディメンション、[ ボットの発生 ](../metrics/bot-occurrences.md)、[ ボットページビュー ](../metrics/bot-page-views.md) を除くすべての Analytics レポートから自動的に除外されます。 このディメンションとこれら 2 つの指標を使用して、残りのレポートから除外されているボットデータを確認できます。
 
 ボットレポートは残りのレポートスイートデータから分離されているので、このディメンションでは次のディメンションと指標のみがサポートされます。
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ## このディメンションへのデータ入力
 
-[ ボットルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) を有効にしている場合、このディメンションはデータを自動的に収集します。 [!UICONTROL  ボットルール ] をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
+[ ボットルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) を有効にしている場合、このディメンションはデータを自動的に収集します。 [!UICONTROL &#x200B; ボットルール &#x200B;] をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
 
 ## ディメンション項目
 

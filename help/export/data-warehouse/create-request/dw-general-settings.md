@@ -18,7 +18,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
 Data Warehouseリクエストの一般設定を指定するには：
 
-1. **[!UICONTROL ツール]**/**[!UICONTROL Data Warehouse]**/{ 追加 **]を選択して、Adobe AnalyticsでData Warehouseリクエストの作成を開始し[!UICONTROL ** す。
+1. **[!UICONTROL ツール]**/**[!UICONTROL Data Warehouse]**/&lbrace; 追加 **を選択して、Adobe AnalyticsでData Warehouseリクエストの作成を開始し** す。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 

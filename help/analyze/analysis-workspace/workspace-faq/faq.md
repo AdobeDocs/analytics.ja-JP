@@ -22,7 +22,7 @@ ht-degree: 81%
 +++
 
 +++Analysis Workspace を使用すると、データ収集に影響が出ますか？
-Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせを Workspace プロジェクトにドラッグして、利用可能な項目を確認してください。無効なコンポーネントを誤って Workspace プロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで**[!UICONTROL プロジェクト]**／**[!UICONTROL 新規]**をクリックして、新しいスレートから始めることもできます。
+Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせを Workspace プロジェクトにドラッグして、利用可能な項目を確認してください。無効なコンポーネントを誤って Workspace プロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;**[!UICONTROL プロジェクト]**／**[!UICONTROL 新規]**&#x200B;をクリックして、新しいスレートから始めることもできます。
 +++
 
 +++Analysis Workspace プロジェクトに表示できるレポートスイートはいくつですか？
@@ -45,13 +45,13 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データはAnalysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} を参照してください。
 
 +++
 
 +++Workspaceの使用状況を追跡するにはどうすればよいですか？
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ログトラッキング ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ログトラッキング ](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} を参照してください。
 
 +++
 

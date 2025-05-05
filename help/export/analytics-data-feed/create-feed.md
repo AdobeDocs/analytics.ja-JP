@@ -134,7 +134,7 @@ ht-degree: 54%
 
       1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ ht-degree: 54%
 
       1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ ht-degree: 54%
 
       1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ ht-degree: 54%
 
       1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
-+++
+   +++
 
 1. 「[!UICONTROL **データ列の定義**]」セクションで、ドロップダウンメニューから最新の [!UICONTROL **すべての Adobe Columns**] テンプレートを選択し、次のフィールドに入力します。
 

@@ -215,7 +215,7 @@ Adobe Analyticsの Locations Manager で場所を削除するには：
 
    * [!UICONTROL **電子メール**]
 
-   * 従来のアカウントタイプ（[!UICONTROL **Amazon S3**]、{Azure **][!UICONTROL **、{FTP **]、[!UICONTROL ** SFTP [!UICONTROL **など**]）
+   * 従来のアカウントタイプ（[!UICONTROL **Amazon S3**]、&lbrace;Azure **[!UICONTROL **、&lbrace;FTP **]、** SFTP [!UICONTROL **など**]）
 
 1. 「[!UICONTROL **保存**]」を選択します。
 

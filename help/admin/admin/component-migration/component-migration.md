@@ -35,7 +35,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 プロジェクトをAdobe Analyticsに移行する前に、プロジェクトの移行について詳しくは、[Customer Journey AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
 
-さらに、Analytics 管理者が使用できるツールを使用して ](/help/admin/admin/analytics-inventory.md)0}Adobe Analytics インベントリを実行します。[
+さらに、Analytics 管理者が使用できるツールを使用して [&#128279;](/help/admin/admin/analytics-inventory.md)0&rbrace;Adobe Analytics インベントリを実行します。
 
 ## Adobe Analytics プロジェクトのCustomer Journey Analyticsへの移行
 
@@ -83,7 +83,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    >[!NOTE]
    >
-   >   WebSDK を使用してデータをAdobe Experience Platformに取り込んだ場合、ディメンションと指標は自動的にマッピングできません。 詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 [ の ](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) 前提条件 ](/help/admin/admin/component-migration/prepare-component-migration.md) を参照してください。
+   >   WebSDK を使用してデータをAdobe Experience Platformに取り込んだ場合、ディメンションと指標は自動的にマッピングできません。 詳しくは、[&#128279;](/help/admin/admin/component-migration/prepare-component-migration.md)Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 [ の ](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites) 前提条件  を参照してください。
 
    Adobe Analyticsの一部のディメンションおよび指標は、Customer Journey Analyticsのディメンションまたは指標に自動的にマッピングされます。 これらのディメンションおよび指標には、マッピングに関する決定を行えません。
 
@@ -115,7 +115,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    警告アイコンを含む各ディメンションまたは指標に対して、このプロセスを繰り返します。
 
-   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analytics レポートスイート内のディメンションまたは指標にマッピングされると、「[!UICONTROL **レポートスイートのスキーマをマッピング ](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク ![ チェックマーク**] が表示されます。
+   Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analytics レポートスイート内のディメンションまたは指標にマッピングされると、「![[!UICONTROL **レポートスイートのスキーマをマッピング &#x200B;]](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク [ チェックマーク**] が表示されます。
 
 1. （条件付き）移行中のプロジェクトに複数のレポートスイートが含まれている場合は、「レポートスイートのスキーマのマッピング [!UICONTROL **セクションで別のレポートスイートを選択してから、手順 6**] ら手順 10 を繰り返します。<!-- double-check that the step numbers are still correct -->
 

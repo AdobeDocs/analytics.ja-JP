@@ -41,7 +41,7 @@ ht-degree: 9%
 
 1. Customer Journey Analyticsのユーザーが、データがマッピングされているデータビューにプロビジョニングされていることを確認します。
 
-   詳しくは、[Customer Journey Analyticsアクセス制御の [Admin ConsoleのCustomer Journey Analytics権限 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) を参照してくだ ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html) い。
+   詳しくは、[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)Customer Journey Analyticsアクセス制御の [Admin ConsoleのCustomer Journey Analytics権限 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) を参照してくだ  い。
 
    「権限」タブは、Admin Consoleの各製品プロファイルの一部です。 特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
 

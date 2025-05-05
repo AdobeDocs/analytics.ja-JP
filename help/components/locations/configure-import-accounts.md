@@ -70,7 +70,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++メール
 
@@ -128,7 +128,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **従来のアカウントタイプ**
 
@@ -147,13 +147,13 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    >
    >Cn-north-1 地域はサポートされていません。
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -198,7 +198,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    >
    >データウェアハウス宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
 
-+++
+   +++
 
 1. 「[!UICONTROL **保存**]」を選択します。
 

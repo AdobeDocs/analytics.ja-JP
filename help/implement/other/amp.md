@@ -79,7 +79,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-`<amp-analytics>` タグは、AMP が認識しているデータ値を提供できるように、変数の置き換えをサポートしています。 詳しくは、GitHub の `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) でサポートされている [ 変数を参照してください。
+`<amp-analytics>` タグは、AMP が認識しているデータ値を提供できるように、変数の置き換えをサポートしています。 詳しくは、GitHub の `amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) でサポートされている  変数を参照してください。
 
 >[!NOTE]
 >
