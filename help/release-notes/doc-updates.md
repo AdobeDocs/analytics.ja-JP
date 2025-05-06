@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 336347d3302ff8d78ee6ce87f3fa3acad5742dd9
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6376'
 ht-degree: 99%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 99%
 | --- | --- |
 | **2024年10月** |  |
 | Analysis Workspace のパフォーマンスのリクエスト要因に関する新しい情報 | [Analysis Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)の記事の新しい[リクエスト要因](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)の節では、リクエストの処理方法と、処理時間に影響を与える様々な要因について説明します。 |
-| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview)。 |
+| 新しい Report Builder | Mac、Windows、web ブラウザーでサポートされている、合理化された Report Builder アドインの[新しいドキュメント](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 |
 | **2024年8月** | |
 | アラートマネージャー | [アラートマネージャー](/help/components/c-alerts/alert-manager.md)に関するドキュメントを合理化しました。明確さと精度を高める更新が行われました。 |
 | **2024年7月** | |
@@ -112,7 +112,7 @@ ht-degree: 99%
 | データフィード用の SFTP を設定する際、アドビカスタマーケアが必要ないことを明記しました | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨しなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
 | ストリーミングメディアコレクションのドキュメントの改善 | ストリーミングメディアコレクションのドキュメントに、次の改善を加えました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)を更新しました。また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ja)および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ja)に固有の前提条件を追加しました。また、[一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ja)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ja)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)領域の記事の内容と構成を合理化しました。これに、Edge の実装および Analytics のみの実装別の実装の分類を含めました。</li><li>[トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ja)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
 | **2023年7月** | |
-| Adobe Experience Platform Edge Network Server API | [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
+| ADOBE EXPERIENCE PLATFORM EDGE NETWORK API | [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) を使用してAdobe Analyticsでデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。 例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
 | グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/admin/company/web-services-admin.md)を文書化しました。この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |
@@ -144,7 +144,7 @@ ht-degree: 99%
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
-| データ要素 | <p>データ要素の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ要素に関する新しいドキュメントを追加しました。</p><p>[コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を、データ要素機能を説明するために更新しました。</p> |
+| データ辞書 | <p>データ要素の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ要素に関する新しいドキュメントを追加しました。</p><p>[コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を、データ要素機能を説明するために更新しました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
 | **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
@@ -184,7 +184,7 @@ ht-degree: 99%
 | 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Web SDK を使用してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022年6月** |  |
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
-| Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/server-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
+| Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [ワークスペースで作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
 | **2022年5月** | |

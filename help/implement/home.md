@@ -4,10 +4,10 @@ description: Adobe Analytics をサイト、プロパティ、アプリケーシ
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 Adobe Analytics サーバーサイドを実装するには、次のオプションがあります。
 
-* **Edge Server API**：Adobe Experience Platform Edge Server API を使用して、データストリームを介して Adobe Analytics と通信するコードをサーバーに実装します。
-  ![サーバーサイドの実装](assets/edge-network-server-api.svg)
-詳しくは、[Adobe Experience Platform Edge Network Server API を使用した Adobe Analytics の実装](/help/implement/aep-edge/server-api/overview.md)を参照してください。
+* **Edge Network API**: Adobe Experience Platform Edge Network API を使用してデータストリームを通じてAdobe Analyticsと通信するコードをサーバーに実装します。
+  ![ サーバーサイドの実装 ](assets/edge-network-server-api.svg)
+詳しくは、[Adobe Experience Platform Edge Network API を使用したAdobe Analyticsの実装 ](/help/implement/aep-edge/api/overview.md) を参照してください。
 
 * **（一括）データ挿入 API**：Adobe Analytics（一括）データ挿入 API を使用して、サーバーサイドのデータを Adobe Analytics に直接収集します。
   ![データ挿入 API](assets/analytics-apis.png)
@@ -91,7 +91,7 @@ Adobe Analytics サーバーサイドを実装するには、次のオプショ�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [最新のリリースノート](../release-notes/latest.md)

@@ -4,10 +4,10 @@ description: Adobe Analytics における Experience Platform の XDM データ�
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 77%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -19,9 +19,7 @@ Adobe Experience Platform Edge Network を使用すると、複数の製品宛�
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Web SDK 拡張機能を使用して Edge にデータを送信します。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Mobile SDK 拡張機能を使用して Edge にデータを送信します。
-* **[Adobe Experience Platform Edge Network Server API](server-api/overview.md)**：API を使用して Edge に直接データを送信します。
-
-
+* **[Adobe Experience Platform Edge Network API](api/overview.md)**: API を使用して、Edge Networkに直接データを送信します。
 
 ## Adobe Analytics が Edge Network データを処理する方法
 
@@ -30,7 +28,7 @@ Adobe Experience Platform Edge Network に送信されるデータは、次の 2
 * XDM オブジェクト：[XDM（エクスペリエンスデータモデル）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に基づくスキーマに準拠します。XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。イベントが Adobe Analytics に到達すると、イベントは Adobe Analytics が処理できる形式に変換されます。
 * データオブジェクト： Adobe Analytics にマッピングされた特定のフィールドを使用して、Edge Network にデータを送信します。Edge Network は、これらのフィールドの存在を検出し、スキーマに準拠する必要なく、Adobe Analytics に転送します。
 
-Edge Networkは、次のロジックを使用して、Adobe Analyticsのページビューとリンクイベントを判断します。
+Edge Networkでは、次のロジックを使用して、Adobe Analyticsのページビューとリンクイベントを判断します。
 
 | XDM ペイロードには次のものが含まれます。 | Adobe Analytics... |
 |---|---|

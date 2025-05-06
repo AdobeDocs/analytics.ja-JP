@@ -4,16 +4,16 @@ description: Adobe Analytics にデータを送信する各方法の利点を確
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '490'
 ht-degree: 41%
 
 ---
 
 # 実装方法の比較
 
-Adobe Analytics の各実装方法について、比較して説明します。これらのテーブルを使用すると、Adobeにデータを送信する最も理想的な方法を判断するのに役立ちます。 詳細については、各列をクリックしてください。
+Adobe Analytics の各実装方法について、比較して説明します。これらのテーブルを使用すると、Adobeにデータを送信する最も理想的な方法を組織が決定するのに役立ちます。 詳細については、各列をクリックしてください。
 
 ## Web
 
@@ -31,12 +31,12 @@ Adobe Analytics の各実装方法について、比較して説明します。�
 
 >[!CAUTION]
 >
->バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、[AdobeMobile Services の提供終了に関する FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=ja) を参照してください。
+>バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、[Adobe Mobile Services の提供終了に関する FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) を参照してください。
 
 
-| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [ サーバー API](/help/implement/aep-edge/server-api/overview.md) |
+| | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network API](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
-| 実装要件 | アプリでタグローダーを参照し、データ収集 UI で直接の API 呼び出しまたはルールを使用して XDM オブジェクトを作成し、Edge Networkを使用してAdobe Analyticsに送信します | Edge Networkサーバー API を使用して XDM オブジェクトを作成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信する |
+| 実装要件 | アプリでタグローダーを参照し、データ収集 UI で直接の API 呼び出しまたはルールを使用して XDM オブジェクトを作成し、Edge Networkを使用してAdobe Analyticsに送信します | Edge Network API を使用して XDM オブジェクトを作成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信します |
 | データ宛先 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
 | 実装の調整が困難 | 直接の API 呼び出しが行われるアプリコードを変更するか、データ収集 UI で変更します | 実装の変更ごとにアプリコードへのアクセスが必要 |
 | A4T の処理方法 | A4T 呼び出しは、別のヒットとして送信される | A4T 呼び出しは、別のヒットとして送信される |
