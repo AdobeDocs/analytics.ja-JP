@@ -31,7 +31,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
   ![Web SDK](./assets/websdk-implementation.png)
 詳しくは、[Adobe Experience Platform Web SDK を使用した Adobe Analytics の実装方法](./aep-edge/overview.md)を参照してください。
 
-* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**に追加し、各ページにローダータグを配置します。タグは、データを Adobe Analytics に直接送信します。タグの便利さを望むが、Edge Network インフラストラクチャを使用しない場合は、この実装方法を使用します。
+* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**&#x200B;に追加し、各ページにローダータグを配置します。タグは、データを Adobe Analytics に直接送信します。タグの便利さを望むが、Edge Network インフラストラクチャを使用しない場合は、この実装方法を使用します。
   ![Adobe Analytics 拡張機能](./assets/analytics-extension-implementation.png)
 詳しくは、[Analytics 拡張機能を使用した Adobe Analytics の実装方法](launch/overview.md)を参照してください。
 
@@ -69,7 +69,7 @@ Adobe Analytics サーバーサイドを実装するには、次のオプショ�
 
   詳しくは、[Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の実装](../implement/aep-edge/mobile-sdk/overview.md)を参照してください。
 
-* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**に追加し、アプリに Mobile SDK ライブラリを実装します。SDK を使用して、ライブラリの読み込み、拡張機能の登録、タグ設定の読み込みを行うことができます。この実装方法では、データを Adobe Analytics に直接送信します。Adobe Experience Platform データ収集の便利さを望むが、アドビの Experience Platform Edge Network インフラストラクチャを使用しない場合にお勧めします。
+* **Analytics 拡張機能**：**Adobe Analytics 拡張機能**&#x200B;を Adobe Experience Platform データ収集&#x200B;**タグ**&#x200B;に追加し、アプリに Mobile SDK ライブラリを実装します。SDK を使用して、ライブラリの読み込み、拡張機能の登録、タグ設定の読み込みを行うことができます。この実装方法では、データを Adobe Analytics に直接送信します。Adobe Experience Platform データ収集の便利さを望むが、アドビの Experience Platform Edge Network インフラストラクチャを使用しない場合にお勧めします。
   ![Analytics 拡張機能](./assets/mobilesdk-analytics-extension.png)
 
   詳しくは、[Analytics 拡張機能を使用した Adobe Analytics の実装](../implement/aep-edge/mobile-sdk/overview.md)を参照してください。
