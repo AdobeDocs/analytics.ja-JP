@@ -5,7 +5,7 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + データ要素 {#data-dictionary}
+      + データ辞書 {#data-dictionary}
          + [データ要素の概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [データ要素でのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
          + [データ要素でのコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
@@ -84,7 +84,7 @@ ht-degree: 100%
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [フリーフォームテーブルのフィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -138,7 +138,7 @@ ht-degree: 100%
       + [表示専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
-   + 属性 {#attribution}
+   + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
       + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [異常値検出で使用される統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
-   + Workspace FAQ {#workspace-faq}
+   + Workspace に関する FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)
@@ -188,7 +188,7 @@ ht-degree: 100%
       + [データリクエスト - リクエストウィザード：ステップ 1](legacy-report-builder/data-requests/data-requests.md)
       + [データリクエストの作成](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + レポートスイート {#report-suites}
-         + [レポートスイートを選択します](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [レポートスイートを選択](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Excel のセルからのレポートスイートを選択](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](legacy-report-builder/data-requests/segmentation.md)
@@ -217,7 +217,7 @@ ht-degree: 100%
          + [精度](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
          + [カスタムカレンダー](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [インタラクティブコントロール](legacy-report-builder/data-requests/interactive-controls.md)
-   + レイアウト - リクエストウィザード：ステップ 2 {#layout}
+   + レイアウト - リクエストウィザード ステップ 2 {#layout}
       + [レイアウトの概要](legacy-report-builder/layout/layout.md)
       + 指標およびディメンション {#metrics-dimension}
          + [指標およびディメンションの概要](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
@@ -238,7 +238,7 @@ ht-degree: 100%
       + [カスタムレイアウトの設定](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [指標およびディメンションのセルへのマッピング](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [マイクロチャートの作成](legacy-report-builder/layout/t-create-a-microchart.md)
-      + ディメンションフィルター {#filter-dimenson}
+      + ディメンションのフィルタリング {#filter-dimenson}
          + [ディメンションフィルターの概要](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [最頻使用フィルター](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [特定のフィルター](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
@@ -274,7 +274,7 @@ ht-degree: 100%
       + [ワークブックのダウンロード](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [ワークブックのロック／ロック解除](legacy-report-builder/workbook-library/protect-wb.md)
       + [マクロが有効なワークブックのスケジュール](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-   + Report Builder 5.5 での Power BI への発行 {#publish-powerbi}
+   + Report Builder 5.5 を使用した Power BI への公開 {#publish-powerbi}
       + [Power BI への発行 - 概要](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [制限および仕様](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Power BI への手動データインポート](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -296,7 +296,7 @@ ht-degree: 100%
    + [トラブルシューティング](activity-map/troubleshooting.md)
    + [FAQ](activity-map/faq.md)
 + Adobe Analytics ダッシュボード {#mobapp}
-   + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
+   + [Adobe Analytics ダッシュボード - 概要](mobile-app/home.md)
    + [キュレーター紹介](mobile-app/curator.md)
    + [モバイルスコアカードの作成](mobile-app/create-scorecard.md)
    + [ダッシュボードを使用するエグゼクティブの設定](mobile-app/set-up-execs.md)

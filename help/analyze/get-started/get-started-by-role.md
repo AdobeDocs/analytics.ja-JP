@@ -4,9 +4,9 @@ title: 管理者、アナリスト、エンドユーザーおよび開発者向�
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
