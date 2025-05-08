@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e2e387f20d5e5732ec1d7eb67a0c81df95e07a55
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 62%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Analytics インベントリ** | Analytics インベントリでは、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。インベントリプロセスを自動化することで、Adobe Analytics から Customer Journey Analytics への切り替えに必要な労力をすぐに把握できます。これにより、移行がより簡単で迅速になります。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025年3月26日（PT） |
-| **Data Warehouse 専用ディメンション** | お客様のご意見を踏まえ、再評価を実施することといたしました。 以前に発表した、Data Warehouse専用の自動寸法機能はリリースしません。 | | 未定 |
+| **Data Warehouse 専用ディメンション** | お客様からのフィードバックに基づいて、再評価することを決定しました。以前に発表した、Data Warehouse専用の自動寸法機能はリリースしません。 | | 未定 |
 
 ## Adobe Analytics の修正点
 
@@ -47,7 +47,7 @@ ht-degree: 62%
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **従来のドメインまたは従来の SSO を使用したアクセス** | 2025年4月10日（PT） | Adobeでは、セキュリティを強化しログインエクスペリエンスを効率化するために、ユーザーのAdobe Analyticsへのアクセス方法を更新する予定です。 この取り組みの一環として、従来のドメインまたは `my.omniture.com` を含む従来の SSO を使用したアクセスは、**2026 年 1 月 2 日** に完全に廃止されます。 この期限を過ぎると、従来のログイン資格情報と従来の SSO は機能しなくなります。 すべてのユーザーは、Adobe Experience Cloud ID を使用して `experience.adobe.com` 経由でログインする必要があります。 Experience Cloud ID に関するサポートが必要な場合は、組織のAdobe Analytics管理者または [Adobe カスタマーケア ](https://helpx.adobe.com/jp/contact.html) にお問い合わせください。 |
+| **従来のドメインまたは従来の SSO を使用したアクセス** | 2025年4月10日（PT） | Adobeでは、セキュリティを強化しログインエクスペリエンスを効率化するために、ユーザーのAdobe Analyticsへのアクセス方法を更新する予定です。 この取り組みの一環として、従来のドメインまたは `my.omniture.com` を含む従来の SSO を使用したアクセスは、**2026 年 1 月 2 日** に完全に廃止されます。 この期限を過ぎると、従来のログイン資格情報と従来の SSO は機能しなくなります。 すべてのユーザーは、Adobe Experience Cloud ID を使用して `experience.adobe.com` 経由でログインする必要があります。 Experience Cloud ID に関するサポートが必要な場合は、組織のAdobe Analytics管理者または [Adobe カスタマーケア ](https://helpx.adobe.com/contact.html) にお問い合わせください。 |
 | **Adobe I/O OAuth サーバー間資格情報への移行** | 2025年1月17日（PT） | Adobe I/O JWT 資格情報を使用している Adobe Analytics API および Livestream のお客様は、**2025年6月30日（PT）**&#x200B;までに Adobe I/O OAuth サーバー間資格情報に移行する必要があります。Adobe I/O では、2024年5月1日（PT）以降、新しい JWT 資格情報を作成できなくなります。 JWT を使用しているお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、お客様が新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要もあります。 <ul><li>[サービスアカウント（JWT）資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth を使用した新旧のアプリケーションの実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **Adobe Analytics API（バージョン 1.4）の EOL（サポート終了）** | 2024年7月17日（PT） | **2026年8月12日（PT）**&#x200B;に、次の Analytics Legacy API サービスはサポート終了となり、シャットダウンされ、これらのサービスを使用して作成された現在の統合は機能を停止します。<ul><li>Adobe Analytics API（バージョン 1.4）</li><li>Adobe Analytics WSSE 認証</li></ul><p>Adobe Analytics API（バージョン 1.4）を使用する統合は [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があり、WSSE 統合は [Adobe Developer Console](https://developer.adobe.com/console) の OAuth ベースの認証プロトコルに移行する必要があります。</p><p>よくある質問への回答と詳細なガイダンスについては、[Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md) を参照してください。</p> |
 

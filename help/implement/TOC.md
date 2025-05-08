@@ -7,7 +7,7 @@ user-guide-description: Adobe Analytics の実装方法について説明しま�
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -131,14 +131,14 @@ ht-degree: 88%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [モジュールの統合](vars/integrate.md)
-+ Adobe Analytics実装の準備 {#prepare}
++ Adobe Analytics の実装準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
    + [実装方法の比較](prepare/comparison.md)
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
    + [複数のスイートタグ付けの実装](prepare/multi-suite-tagging.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
-+ Experience Platform Edgeを使用した Analytics の実装 {#aep-edge}
++ Experience Platform Edge を使用した Analytics の実装 {#aep-edge}
    + [Experience Edge の概要](aep-edge/overview.md)
    + [データオブジェクト変数のマッピング](aep-edge/data-var-mapping.md)
    + [XDM オブジェクト変数のマッピング](aep-edge/xdm-var-mapping.md)
@@ -152,14 +152,14 @@ ht-degree: 88%
       + [Mobile SDK の概要](aep-edge/mobile-sdk/overview.md)
    + EDGE NETWORK API {#api}
       + [Edge Network API の概要](aep-edge/api/overview.md)
-+ Adobe Analytics拡張機能を使用した Analytics の実装 {#launch}
++ Adobe Analytics 拡張機能を使用した Analytics の実装 {#launch}
    + [タグの概要](launch/overview.md)
    + [Adobe Analytics タグプロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
    + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
    + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
-+ JavaScript を使用した Analytics の導入 {#js}
++ JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
    + [オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
@@ -172,7 +172,7 @@ ht-degree: 88%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection ](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
-   + レガシーのクロスデバイス特定 {#xdevice-visid}
+   + レガシークロスデバイス特定 {#xdevice-visid}
       + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
       + [変数の持続性](js/xdevice-visid/variable-persistence.md)
       + [訪問の例](js/xdevice-visid/visit-example.md)
@@ -185,7 +185,7 @@ ht-degree: 88%
    + [Analytics のデジタルアシスタントへの実装](other/digital-assistants.md)
    + [Analytics の Facebook インスタント記事への実装](other/fb-instant-articles.md)
 + [Analytics のモバイルデバイスへの実装](mobile-device-sdk.md)
-+ 実装の使用例 {#use-cases}
++ 実装のユースケース {#use-cases}
    + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
    + [異なる実装タイプでのトラッキング](use-cases/cross-type-implementation.md)
    + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
@@ -195,7 +195,7 @@ ht-degree: 88%
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
-+ 実装をレビュー {#review}
++ 実装のレビュー {#review}
    + [重点レビュー（各 Web サイトリリース後）](review/focused-review.md)
    + [完全なレビュー（6 か月ごと）](review/full-review.md)
    + [上位 5 件の KPI の定義](review/define-kpis.md)
