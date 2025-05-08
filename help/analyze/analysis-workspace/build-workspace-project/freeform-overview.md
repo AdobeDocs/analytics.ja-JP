@@ -21,7 +21,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace プロジェクトの構築 ](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace プロジェクトの構築 ](https://video.tv.adobe.com/v/3416041?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -158,7 +158,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ コンテキストメニューの使用 ](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ コンテキストメニューの使用 ](https://video.tv.adobe.com/v/327456?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
