@@ -37,7 +37,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | [ 環境設定を編集 ](/help/analyze/analysis-workspace/user-preferences.md) | 作成するすべての新規プロジェクトまたはパネルについて、Analysis Workspaceおよびその関連コンポーネントの設定を管理します。 |
 | [フォルダーを作成](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | プロジェクトとフォルダーのリストに新しいフォルダーまたはサブフォルダーを追加します。 |
 | [プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | ゼロから、またはレポートから新しいプロジェクトを開始します。 |
-| さらに表示 | この選択により、空のプロジェクトまたはモバイルスコアカードの作成、[ トレーニングチュートリアルの表示 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction) または [ リリースノートの表示 ](/help/release-notes/latest.md) のオプションが表示されます。 |
+| さらに表示 | この選択により、空のプロジェクトまたはモバイルスコアカードの作成、[ トレーニングチュートリアルの表示 ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction) または [ リリースノートの表示 ](/help/release-notes/latest.md) のオプションが表示されます。 |
 | ![ フィルターを表示 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | フィルターを表示または非表示にするには： タグ、レポートスイート、所有者、タイプ（プロジェクト、フォルダー、モバイルスコアカード）およびその他のフィルターでフィルタリングできます。 |
 | ![検索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | 検索フィールドを使用して、フォルダー、Workspace プロジェクト、モバイルスコアカードを検索します。 |
 | フォルダーとプロジェクトを表示 | プロジェクトのフォルダー構造を表示するかどうかを選択します。 詳しくは、[Analytics のフォルダーについて](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)を参照してください。 |
@@ -48,11 +48,11 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | 列 | 説明 |
 |---|---|
 | [!UICONTROL 名前] | Workspace プロジェクトの名前。 「![ 情報 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」を選択すると、プロジェクトまたはフォルダーの詳細を示すポップアップが表示されます。 ![ 詳細 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) を選択して、使用可能なアクションを表示します。 詳しくは、[ プロジェクトの管理 ](#manage-projects) を参照してください。 |
-| [!UICONTROL タイプ] | このエントリがWorkspace プロジェクト、フォルダーまたは [ モバイルスコアカード ](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home) のいずれであるかを示します。 |
+| [!UICONTROL タイプ] | このエントリがWorkspace プロジェクト、フォルダーまたは [ モバイルスコアカード ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/mobapp/home) のいずれであるかを示します。 |
 | [!UICONTROL タグ] | プロジェクトに適用されたタグです。 |
 | [!UICONTROL スケジュール済み] | プロジェクトが受信者にメールで送信されるようにスケジュールされているかどうかを示します。 [ プロジェクトのスケジュール ](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) を参照してください。 |
 | 共有リンク (任意のユーザー) | プロジェクトは、Analysis Workspaceへのアクセス権を持たないユーザーでも任意のユーザーと共有できます。 この列には、プロジェクトがこのようにして共有されたかどうかが表示されます。 詳しくは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)を参照してください。 |
-| [プロジェクトの役割](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | プロジェクトの役割（所有者、編集、重複、表示）を示します。 |
+| [プロジェクトの役割](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | プロジェクトの役割（所有者、編集、重複、表示）を示します。 |
 | [!UICONTROL レポートスイート] | プロジェクトが関連付けられているレポートスイート。 |
 | [!UICONTROL 所有者] | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
 | [!UICONTROL 共有先] | プロジェクトが共有されているユーザー。 |
@@ -90,11 +90,11 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 | メニュー項目 | 説明 |
 |---|---|
-| プロジェクト | このメニューには、新規、開く、保存、名前を付けて保存、「会社レポートとして保存 [ など、プロジェクト管理の一般的なアクションが含まれ ](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) す。 また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。「[CSV と PDF をダウンロード](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send)」オプションを使用すると、Workspace からデータをエクスポートできます。「[プロジェクト情報および設定](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview)」には、プロジェクトを管理するための多くのオプションが用意されています。 |
+| プロジェクト | このメニューには、新規、開く、保存、名前を付けて保存、「会社レポートとして保存 [ など、プロジェクト管理の一般的なアクションが含まれ ](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) す。 また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。「[CSV と PDF をダウンロード](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/curate-share/download-send)」オプションを使用すると、Workspace からデータをエクスポートできます。「[プロジェクト情報および設定](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview)」には、プロジェクトを管理するための多くのオプションが用意されています。 |
 | テンプレートを | 前回の操作を元に戻すか、やり直します。すべてクリア プロジェクトを空白の開始点にリセットします。 |
 | 前に | このメニューから、新しいパネルまたはビジュアライゼーションを挿入します。また、左側のパネルから新しいパネルやビジュアライゼーションを挿入することもできます。 |
-| [コンポーネント](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | プロジェクトから、新しいセグメント、計算指標、日付範囲またはアラートの各コンポーネントを作成します。また、左側のパネルから新しいコンポーネントを作成することもできます。コンポーネント定義が最近変更された場合、「コンポーネントを更新」は最新の定義を取得します。 |
-| [共有](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | 組織の受信者に対して PDF／CSV プロジェクトのキュレーション、共有およびスケジュール設定を行います。 |
+| [コンポーネント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | プロジェクトから、新しいセグメント、計算指標、日付範囲またはアラートの各コンポーネントを作成します。また、左側のパネルから新しいコンポーネントを作成することもできます。コンポーネント定義が最近変更された場合、「コンポーネントを更新」は最新の定義を取得します。 |
+| [共有](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files) | 組織の受信者に対して PDF／CSV プロジェクトのキュレーション、共有およびスケジュール設定を行います。 |
 | ヘルプ | ヘルプドキュメント、ビデオおよび Analytics [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)にアクセスします。Workspace のヒントの表示と[デバッガー](https://developer.adobe.com/analytics-apis/docs/2.0/)の表示を管理します。Workspace の詳細と、プロジェクトの[パフォーマンス](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)に影響を与える要因を確認します。 |
 | 「共有」ボタンまたは「所有者」 | プロジェクトを所有または編集している場合は、右上の「共有」ボタンからワンクリックでアクセスして、プロジェクト受信者を管理できます。プロジェクトの重複または表示の役割を担っている場合は、プロジェクト所有者の名前が表示されます。 |
 
@@ -134,7 +134,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 | 繰り返しインスタンスをカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。オフにすると、単一ページビューとしてカウントされます（この設定は、単一ページ訪問数などの特定の指標にのみ影響します）。 **メモ**：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
 | [注釈を表示](/help/analyze/analysis-workspace/components/annotations/overview.md) | 注釈をプロジェクトに表示するかどうかを指定します。 |
 | [プロジェクトカラーパレット](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Workspace で使用する分類カラーパレットを変更するには、色弱のユーザー向け用に最適化されている既定のパレットを選択するか、カスタムパレットを指定します。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
-| [表示密度](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
+| [表示密度](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
 ## 左側のパネル {#left-rail}
 
@@ -168,6 +168,6 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 パネルは、期間、レポートスイートまたは分析のユースケースに従ってプロジェクトを整理する場合に役立ちます。アクティブパネルの周囲に色付きの境界線があり、左パネルで使用できるコンポーネントを決定します。
 
-プロジェクトの開始点を選択した内容に応じて、キャンバスに [ フリーフォームテーブル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) または [ 空白のパネル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/blank-panel) が最初に表示されます。 分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルは自動的にレンダリングされます。 テーブルを作成するための様々なオプションについて [ 詳細 ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) を参照するか、利用可能な [ トレーニングチュートリアル ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) を活用して、最初のプロジェクトを作成する際の詳細なガイダンスを確認します。
+プロジェクトの開始点を選択した内容に応じて、キャンバスに [ フリーフォームテーブル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) または [ 空白のパネル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/blank-panel) が最初に表示されます。 分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルは自動的にレンダリングされます。 テーブルを作成するための様々なオプションについて [ 詳細 ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) を参照するか、利用可能な [ トレーニングチュートリアル ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/home) を活用して、最初のプロジェクトを作成する際の詳細なガイダンスを確認します。
 
 ![](assets/canvas.png)
