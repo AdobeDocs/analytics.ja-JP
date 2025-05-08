@@ -4,14 +4,19 @@ title: ビジュアライゼーションカラーパレットとその機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# ビジュアライゼーションカラーパレット
+# ビジュアライゼーションカラーパレット {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="プロジェクトカラーパレット"
+>abstract="このプロジェクトで使用するカラーパレットを変更します。"
 
 異なるカラーパレットを選択するか、お勤めの会社のブランドカラーと一致する独自のパレットを指定することにより、Workspace で使用するビジュアライゼーションカラーパレットを変更できます。この機能は、Workspace のほとんどのビジュアライゼーションに影響しますが、[!UICONTROL 変更概要]、[!UICONTROL フリーフォーム]テーブルの条件付き書式および[!UICONTROL マップ]ビジュアライゼーションには影響&#x200B;**しません**。
 
@@ -32,7 +37,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ カスタムカラーパレットの使用 ](https://video.tv.adobe.com/v/328266?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ カスタムカラーパレットの使用 ](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -5,19 +5,30 @@ title: ビジュアライゼーションデータソースの管理
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
 # ビジュアライゼーションデータソースの管理 {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="選択をロック"
->abstract="この設定を有効にすると、テーブルの位置またはデータソースで選択されている正確な項目にビジュアライゼーションをロックします。"
+>abstract="この設定を有効にすると、ビジュアライゼーションがデータソースで選択した位置または選択した項目にロックされます。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="テーブルを表示"
+>abstract="「**[!UICONTROL テーブルを表示]**」を選択すると、元のデータソースとは別に、現在のビジュアライゼーション用の新しいデータソースが生成されます。"
+
+<!-- markdownlint-enable MD034 -->
 
 ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
 
@@ -40,7 +51,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データソース設定](https://video.tv.adobe.com/v/328260?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データソース設定](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

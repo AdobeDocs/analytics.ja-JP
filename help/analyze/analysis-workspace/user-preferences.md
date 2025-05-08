@@ -4,10 +4,10 @@ description: ユーザーの一般的な環境設定とプロジェクト環境�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 環境設定を管理 ](https://video.tv.adobe.com/v/3429996/?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 環境設定を管理 ](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 | ヒントを表示 | Analysis Workspace の右下にある青いボックスにヒントを表示します。 <p>このオプションは、デフォルトでは有効になっています。</p> |
 | 左側のパネルグループに表示されるコンポーネント | 左側のパネルのコンポーネントメニューに表示する各コンポーネントの数を選択します。 <p>0 を選択すると、ワークスペースの左側のパネルからコンポーネントにアクセスできなくなります。</p><p>デフォルトでは、次の各項目に対して 5 つのコンポーネントが表示されます。</p> <ul><li>ディメンション</li><li>指標</li><li>フィルター</li><li>日付範囲</li></ul> <p>Analysis Workspace のコンポーネントについて詳しくは、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。</p> |
 
-## 会社環境設定
+## 会社環境設定 {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Workspace ユーザーとのみ共有を許可"
+>abstract="有効にすると、ユーザーは Analysis Workspace プロジェクトを共有する際に、「**[!UICONTROL 任意のユーザーと共有]**」オプションを使用できなくなります。以前にこの共有オプションを通じてプロジェクトへのアクセス権を取得したユーザーは、プロジェクトにアクセスできなくなります。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Experience Cloud 認証を要求"
+>abstract="有効にすると、Analysis Workspaceの「**[!UICONTROL 任意のユーザーと共有]** オプションからプロジェクトへのアクセス権を付与されたユーザーは、Experience Cloud資格情報を使用して認証する必要があります。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="プロジェクトへのコメントを許可"
+>abstract="有効になっている場合、Analysis Workspaceの各プロジェクトの右側のパネルにコメント領域が表示されます。"
 
 組織内のすべてのユーザーとプロジェクトに適用される会社環境設定を更新できます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
@@ -61,11 +76,26 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 |  | 「レポート」タブを非表示 | 組織内のすべてのユーザーの「レポート」タブを非表示にします。 |
 | **プロジェクトの共有** | | |
 | | Workspace ユーザーとのみ共有を許可 | <p>このオプションを有効にすると、組織内のユーザーには共有メニューの「任意のユーザーと共有」オプションが表示されなくなります。つまり、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、ユーザーは組織内に Analysis Workspace アカウントがない人物とプロジェクトを共有できません。</p><p>このオプションを有効または無効にする際は、次の点を考慮してください。</p> <ul><li><p>このオプションを有効にすると、以前に「任意のユーザーと共有」共有オプションを通じてプロジェクトへのアクセス権を取得していた人物は、そのプロジェクトにアクセスできなくなります。</p></li><li><p>このオプションを有効（Workspace ユーザーとのみ共有を許可）にし、後で無効（任意のユーザーと共有を許可）にする場合、以前に「任意のユーザーと共有」共有オプションを通じてプロジェクトへのアクセス権を取得していた人物は、そのプロジェクトへのアクセス権が自動的に回復しません。この場合、プロジェクトを共有するユーザーは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる「[!UICONTROL **リンクがアクティブです**]」オプションを有効にする必要があります（[!UICONTROL **共有**]／[!UICONTROL **任意のユーザーと共有**]）。</p></li> |
-| | Experience Cloud 認証を要求 | <p>有効にすると、Analysis Workspace の「任意のユーザーと共有」オプションからプロジェクトへのアクセス権を付与されたユーザーは、Experience Cloud 資格情報を使用して認証する必要があります。</p> <p>このオプションを有効にすると、ユーザーが「任意のユーザーと共有」共有オプションを使用してプロジェクトを共有するたびに、共有ダイアログで「Experience Cloud 認証を要求」オプションが有効になり、プロジェクトを共有しているユーザーがこのオプションを無効にすることはできません。（ユーザーがプロジェクトを任意のユーザーと共有できる方法については、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)を参照してください。）</p> <p>このオプションを有効にする際は、次の点を考慮してください。</p><ul><li><p>このオプションを有効にすると、以前に「任意のユーザーと共有」共有オプションで共有され、「Experience Cloud 認証を要求」オプションが有効になっていないすべてのプロジェクトが非アクティブ化されます。</p></li> <li><p>このオプションを有効（Experience Cloud 認証を要求）にし、後で無効（プロジェクトにアクセスするリンクを知っているすべてのユーザーを許可）にすると、以前に「任意のユーザーと共有」共有オプションを通じてプロジェクトへのアクセス権を取得していた人物は、そのプロジェクトへのアクセス権が自動的に回復しません。この場合、プロジェクトを共有するユーザーは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる「リンクがアクティブです」オプションを有効にする必要があります（[!UICONTROL **共有**]／[!UICONTROL **任意のユーザーと共有**]／[!UICONTROL **リンクがアクティブです**]）。</p></li> <li><p>このオプションは、組織に SSO が実装されている場合にのみ使用できます。システム管理者が組織の SSO を有効にする方法については、[ID とシングルサインオンの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html){target=_blank}を参照してください。</p><p>組織に SSO が設定されている場合は、任意の種類の自動アカウント作成がコンソールに実装されているかどうかを確認します。通常、[アカウントの自動作成の有効化](https://helpx.adobe.com/jp/enterprise/using/automatic-account-creation.html){target=_blank}で説明するように、システム管理者がこの設定を行います。</p></li><li><p>組織が HIPAA 準拠を必要とする業界に属している場合、このオプションは自動的に有効になり、無効にすることはできません。</p></li></ul> |
+| | Experience Cloud 認証を要求 | <p>有効にすると、Analysis Workspace の「任意のユーザーと共有」オプションからプロジェクトへのアクセス権を付与されたユーザーは、Experience Cloud 資格情報を使用して認証する必要があります。</p> <p>このオプションを有効にすると、ユーザーが「任意のユーザーと共有」共有オプションを使用してプロジェクトを共有するたびに、共有ダイアログで「Experience Cloud 認証を要求」オプションが有効になり、プロジェクトを共有しているユーザーがこのオプションを無効にすることはできません。（ユーザーがプロジェクトを任意のユーザーと共有できる方法については、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)を参照してください。）</p> <p>このオプションを有効にする際は、次の点を考慮してください。</p><ul><li><p>このオプションを有効にすると、以前に「任意のユーザーと共有」共有オプションで共有され、「Experience Cloud 認証を要求」オプションが有効になっていないすべてのプロジェクトが非アクティブ化されます。</p></li> <li><p>このオプションを有効（Experience Cloud 認証を要求）にし、後で無効（プロジェクトにアクセスするリンクを知っているすべてのユーザーを許可）にすると、以前に「任意のユーザーと共有」共有オプションを通じてプロジェクトへのアクセス権を取得していた人物は、そのプロジェクトへのアクセス権が自動的に回復しません。この場合、プロジェクトを共有するユーザーは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)の[任意のユーザーとのプロジェクトの共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる「リンクがアクティブです」オプションを有効にする必要があります（[!UICONTROL **共有**]／[!UICONTROL **任意のユーザーと共有**]／[!UICONTROL **リンクがアクティブです**]）。</p></li> <li><p>このオプションは、組織に SSO が実装されている場合にのみ使用できます。システム管理者が組織の SSO を有効にする方法について詳しくは、[ID とシングルサインオンの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html){target=_blank}を参照してください。</p><p>組織に SSO が設定されている場合は、任意の種類の自動アカウント作成がコンソールに実装されているかどうかを確認します。通常、[アカウントの自動作成の有効化](https://helpx.adobe.com/jp/enterprise/using/automatic-account-creation.html){target=_blank}で説明するように、システム管理者がこの設定を行います。</p></li><li><p>組織が HIPAA 準拠を必要とする業界に属している場合、このオプションは自動的に有効になり、無効にすることはできません。</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## プロジェクトと分析の環境設定
+## プロジェクトと分析の環境設定 {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="カテゴリ順パレット"
+>abstract="Analysis Workspace およびガイド付き分析の多くのビジュアライゼーションに適用されます。各カラーは、個別のカテゴリ値を表します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="分岐パレット"
+>abstract="Analysis Workspace およびユーザーの増加率のガイド付き分析のコホートテーブルに適用されます。このパレットは、2 つの極値と中央のベースラインの数値的意味を保持します。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="順次パレット"
+>abstract="頻度トレンド（積み重ね横棒グラフ）ガイド付き分析に適用されます。このパレットは、明から暗までの数値的意味を保持します。"
 
 Analysis Workspace で作成するすべての新しいプロジェクトについて、プロジェクトの環境設定をカスタマイズできます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
@@ -87,7 +117,24 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 |  | CSV 区切り文字 | <ul><li>コンマ（デフォルト）</li><li>セミコロン</li><li>コロン</li><li>パイプ</li><li>ピリオド</li><li>空白文字</li><li>タブ</li></ul> |
 |  | 注釈を表示 | 注釈をプロジェクトに表示するかどうかを選択します。注釈について詳しくは、[注釈：概要](/help/analyze/analysis-workspace/components/annotations/overview.md)を参照してください。 |
 
-## フリーフォームテーブルの環境設定
+## フリーフォームテーブルの環境設定 {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="異常値を表示"
+>abstract="「**[!UICONTROL 異常を表示]**」を選択すると、時系列のフリーフォームテーブルビジュアライゼーションに追加された最初の指標列で、異常値検出が自動的に実行されるようになります。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="予測を表示"
+>abstract="「**[!UICONTROL 予測を表示]**」を選択すると、時系列のフリーフォームテーブルビジュアライゼーションに追加された最初の指標列が、自動的に予測されるようになります。"
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="デフォルトのテーブル指標"
+>abstract="フリーフォームテーブルに使用するデフォルトの指標を選択します。選択したデータビューに選択したデフォルトの指標が含まれていない場合、テーブルは自動的に別のプライマリ指標に切り替わります。"
+
 
 Analysis Workspace で作成するすべての新しいプロジェクトについて、フリーフォームテーブルの環境設定をカスタマイズできます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
@@ -129,7 +176,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトのビ�
 | セクション | 環境設定 | オプション |
 | --- | --- | --- |
 | **一般的なデフォルト** | | |
-| | 割合（％） | すべてのビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | すべてのビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 凡例を表示 | すべてのビジュアライゼーションで詳細な凡例テキストを非表示にできます。 |
 | | 項目数の上限を設定 | すべてのビジュアライゼーションで X 軸の項目数を減らします。大きなデータセットがある場合に役立ちます。 |
 | | 2 軸を表示（該当する場合） | 2 つの指標がある場合にのみ適用されます。（ある指標の）Y 軸を左側に、（他の指標の）Y 軸を右側に表示できます。これは、プロットされた指標の大きさが非常に異なる場合に役立ちます。 |
@@ -137,7 +184,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトのビ�
 | | Y 軸をゼロに固定 | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
 | | 異常値で Y 軸のスケールの設定を許可 | グラフに複数の指標がある場合、各異常値の上にマウスポインターを置いて、その指標の信頼帯を表示する必要があります。ビジュアライゼーションを見やすくするために、異常値検出の信頼区間では、Y 軸は自動的に拡大・縮小されません。このオプションを使用すると、信頼区間でビジュアライゼーションを拡大・縮小できます。 <p>詳しくは、[Analysis Workspace での異常値の表示](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)を参照してください。</p> |
 | **[行](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
-| | 割合（％） | 折れ線グラフビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | 折れ線グラフビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 凡例を表示 | 折れ線グラフビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 | | 項目数の上限を設定 | 折れ線グラフのビジュアライゼーションの X 軸の項目数を減らします。大きなデータセットがある場合に役立ちます。 |
 | | 2 軸を表示（該当する場合） | 2 つの指標がある場合にのみ適用されます。（ある指標の）Y 軸を左側に、（他の指標の）Y 軸を右側に表示できます。これは、プロットされた指標の大きさが非常に異なる場合に役立ちます。 |
@@ -186,20 +233,20 @@ Analysis Workspace で作成するすべての新しいプロジェクトのビ�
 | | マップスタイル | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択します。 |
 | **[変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 値 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>パーセントの変更</li><li>生の差異</li></ul> |
-| | 割合（％） | 変更の概要ビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | 変更の概要ビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 凡例を表示 | 変更の概要ビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 | **[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 割合（％） | 数値の概要ビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | 数値の概要ビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 凡例を表示 | 数値の概要ビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 | | 概要値の基準 | 「最大」、「最小」、「平均」、「中央値」、「合計」から選択します。 |
 | | 値を短縮 | [!UICONTROL **数値の概要**]&#x200B;セクション内 |
 | **[ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md)** | | |
-| | 割合（％） | ツリーマップビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | ツリーマップビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 項目数の上限を設定 | ツリーマップビジュアライゼーションの X 軸の項目数を減らします。大きなデータセットがある場合に役立ちます。 |
 | **[ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)** | | |
 | | 凡例を表示 | ベン図ビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 | **[散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md)** | | |
-| | 割合（％） | 散布図のビジュアライゼーションの値をパーセンテージで表示します。 |
+| | 割合 | 散布図のビジュアライゼーションの値をパーセンテージで表示します。 |
 | | 凡例を表示 | 散布図ビジュアライゼーションの詳細な凡例テキストを非表示にできます。 |
 | | 項目数の上限を設定 | 散布図ビジュアライゼーションの X 軸の項目数を減らします。大きなデータセットがある場合に役立ちます。 |
 | | Y 軸をゼロに固定 | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
