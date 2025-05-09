@@ -110,7 +110,7 @@ Analysis Workspace のプロジェクトのパフォーマンスは、様々な�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 生産性を向上させるためのヒント ](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 生産性を向上させるためのヒント ](https://video.tv.adobe.com/v/34728?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
