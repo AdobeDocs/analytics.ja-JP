@@ -16,7 +16,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 分類ルールビルダー ](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 分類ルールビルダー ](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -38,7 +38,7 @@ ht-degree: 86%
 
 | 手順 | 作業する場所 | 説明 |
 |--- |--- |--- |
-| 手順 1 （前提条件）：分類スキーマを設定する。 | [!UICONTROL  管理者 ]/[!UICONTROL  レポートスイート ]/[!UICONTROL  設定を編集 ]/[!UICONTROL  トラフィック分類 ] または [!UICONTROL  コンバージョン分類 ] | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
+| 手順 1 （前提条件）：分類スキーマを設定する。 | [!UICONTROL &#x200B; 管理者 &#x200B;]/[!UICONTROL &#x200B; レポートスイート &#x200B;]/[!UICONTROL &#x200B; 設定を編集 &#x200B;]/[!UICONTROL &#x200B; トラフィック分類 &#x200B;] または [!UICONTROL &#x200B; コンバージョン分類 &#x200B;] | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
 | 手順 2：[ルールセットを作成する](classification-rule-set.md)。 | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
 | 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
 | 手順 4：[分類ルールをセットに追加する](classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](classification-quickstart-rules.md)」の情報を確認します。 |
