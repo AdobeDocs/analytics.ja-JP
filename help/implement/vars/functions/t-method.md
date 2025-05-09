@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-詳しくは、Web SDK ドキュメントの [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) を参照してください。
+詳しくは、Web SDK ドキュメントの [`sendEvent`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendevent/overview) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したページビュートラッキングコール
 
