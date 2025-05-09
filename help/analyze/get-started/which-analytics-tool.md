@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/30746?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -36,36 +36,30 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** は、Adobe Analytics 内の機能で、web ページやモバイルアプリに対するユーザーエンゲージメントを視覚的に表現します。これにより、マーケターやアナリストは、クリック、ホバー、スクロール動作などのユーザーインタラクションを追跡および分析できます。
 
-## Adobe Analytics へのデータの読み込み {#import}
+## Adobe Analyticsへのデータのインポート {#import}
 
-**[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
+**[分類](/help/components/classifications/classifications-overview.md)** は以下の場合に使用します。
 
-* 収集値（eVar、プロパティ、マーケティングチャネル）に関連付けるメタデータがある場合。
-* オプション：
-
-   * ルールビルダー：変数に収集中の書式設定された予測可能な値（例えば、区切り値など）がある場合に使用します。このアプローチでは、ルールを一度設定したら、後はほとんど自動化できます。
-   * ブラウザーインポーター：予測可能な値がない場合か、1 回限りの更新が必要な有限の値リストがある場合に使用します。このアプローチでは、新しい値の分類を継続的に監視する必要があります。
+* 値を収集に関連付けるメタデータ（eVar、prop、マーケティングチャネル）がある場合。 Adobeでは、[ 分類セット ](/help/components/classifications/sets/overview.md) を使用することをお勧めします。 分類ルールビルダーと分類インポーターは、分類データをAdobe Analyticsに取り込む従来の方法です。
 
 **[データソース](/help/import/data-sources/overview.md)** は以下の場合に使用します。
 
 * Adobe Analytics に恒久的に書き込むオフラインデータがある場合。
 * オプション：
-
    * 概要：単純なデータのアップロード（日単位または限定ディメンション）。
    * トランザクション ID：オンラインエンドポイントをオフラインデータに接続し、インポートしたデータを、オンラインでキャプチャした訪問者スナップショットに完全に関連付けるデータアップロード（例えば、注文がオンラインで完了し、オフラインで返されるなど）。
-   * フル処理：タイムスタンプ付きのデータソース。Adobe サーバーで収集されたヒットのように処理されます。つまり、データが訪問者のジャーニーに直接挿入されます。
 
 **[Adobe Exchange の統合](https://www.adobeexchange.com/experiencecloud.html)**&#x200B;は以下の場合に使用します。
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。統合アプリは、通常、概要レベルのデータを恒久的かつ自動的に繰り返し Adobe Analytics に取り込みます。
 
-**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
-
-* データを Adobe Analytics にアップロードする必要があるものの、Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。一括データ挿入 API（以下を参照）の使用をお勧めします。
-
 **[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* データ挿入 API と一括データ挿入 API はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
+* Bulk Data Insertion API は、イベントデータを含んだ CSV 形式のファイルを受け入れます（行ごとに 1 つのイベント）。 Adobeでは、サーバーサイドコードを必要とする実装や、データ収集にAppMeasurementや Web SDKを使用できない実装には、Bulk Insertion API を使用することをお勧めします。
+
+**[Data Insertion API （レガシー）](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は、次の場合に使用します。
+
+* データをAdobe Analyticsに取り込む必要があり、AppMeasurement、Web SDKまたは Bulk Data Insertion API を使用できない場合。
 
 **[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)**&#x200B;は以下の場合に使用します。
 

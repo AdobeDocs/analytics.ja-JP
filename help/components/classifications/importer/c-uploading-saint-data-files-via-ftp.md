@@ -3,18 +3,18 @@ description: FTP を使用してデータファイルをアップロードする
 title: FTP インポート
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 73%
+source-wordcount: '725'
+ht-degree: 72%
 
 ---
 
-# FTP インポート
+# FTP 読み込み（従来）
 
 >[!IMPORTANT]
 >
->このページで説明しているように、読み込みに FTP を使用することはお勧めしません。
+>Adobeでは、このページで説明するように、読み込みに FTP を使用することはお勧めしません。
 >
 >FTP は、ファイルを共有する非暗号化の方法なので、お勧めできません。つまり、誰でもファイルの内容と、アカウントに使用されているユーザー名およびパスワードを傍受できます。
 >

@@ -3,14 +3,16 @@ description: ルールセットは、特定の変数の分類ルールのグル�
 title: 分類ルールセット
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# 分類ルールセット
+# 分類ルールセット（レガシー）
+
+*このページでは、[ 分類ルールビルダー ](classification-rule-builder.md) の一部としての分類ルールセットについて説明します。 Adobe Analytics内のデータを分類する現在の方法については、[ 分類セット ](../sets/overview.md) を参照してください。*
 
 ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
 
@@ -56,8 +58,6 @@ ht-degree: 96%
 分類ルールセットに名前を付け、変数を適用して、上書き設定を指定します。
 
 1. （前提条件）**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;で、分類構造を定義します。
-
-   （分類の追加については、管理ツールのヘルプの[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)を参照してください。）
 
    変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ[!UICONTROL 新しいルールセット]パネルに表示されます。
 

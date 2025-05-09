@@ -3,9 +3,9 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '2064'
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '2063'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | 管理者ツールホーム | Analytics 管理ツール領域は、Adobe Analytics インスタンスを管理するための主な領域です。この領域では、ほとんどの管理タスクを実行できます。 | [管理ツールの概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=ja) |
    | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=ja) |
    | Analytics ユーザーとアセット | ユーザーとアセットの管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) |
-   | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ja) |
+   | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](/help/components/classifications/importer/c-working-with-saint.md) |
    | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー ](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=ja) |
    | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=ja) |
    | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja) |

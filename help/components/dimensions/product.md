@@ -1,9 +1,9 @@
 ---
-title: 製品
+title: '製品         '
 description: 製品名。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 91%
@@ -20,4 +20,4 @@ ht-degree: 91%
 
 ## ディメンション項目
 
-この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何かを決定します。製品に対して一貫した命名規則を設定することをお勧めします。[分類](../classifications/c-classifications.md)は、別の方法で製品をグループ化したり、わかりやすい名前を付けたりする場合に利用できます。「製品」ディメンションと「カテゴリ」ディメンションの両方を使用することをお勧めします。
+この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何かを決定します。製品に対して一貫した命名規則を設定することをお勧めします。[分類](../classifications/classifications-overview.md)は、別の方法で製品をグループ化したり、わかりやすい名前を付けたりする場合に利用できます。「製品」ディメンションと「カテゴリ」ディメンションの両方を使用することをお勧めします。

@@ -5,7 +5,7 @@ uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 76%
@@ -22,4 +22,4 @@ ht-degree: 76%
 
 分類した結果、独立したレポートが生成されるため、通常のレポートと同じ方法でアクセスできるようになります。また、ディメンションはグループ内で最上位のレポートとして表示されます。レポートが分類されている場合、メニュー中のリンクがフォルダーに変わり、その下に子分類のレポートへのリンクが追加されます。分類前の元のレポートへのリンクは、フォルダーの中の一番下に表示されます。
 
-[分類](/help/components/classifications/c-classifications.md)を参照してください。
+[分類](/help/components/classifications/classifications-overview.md)を参照してください。

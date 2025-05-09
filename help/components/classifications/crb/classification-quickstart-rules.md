@@ -3,14 +3,14 @@ description: 分類ルールを設定すると、分類されていない語句�
 title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 92%
+source-wordcount: '1979'
+ht-degree: 89%
 
 ---
 
-# 分類ルール
+# 分類ルール（レガシー）
 
 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 例えば、メールキャンペーン ID が次のトラッキングコードを持つとします。
 
-`em:Summer:2013:Sale` を参照してください。
+`em:Summer:20XX:Sale` を参照してください。
 
 ここで、文字列の一部を識別する 3 つのルールをルールセットに設定し、値を分類することができます。
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
 | 次の語句で終わる | Sale | タイプ | Sale |
-| 次を含む | 2013 | 年 | 2013 |
+| 次を含む | 20XX | 年 | 20XX |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL &#x200B; グループ権限 &#x200B;] を指定します。
+* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL  グループ権限 ] を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -95,18 +95,6 @@ about_classification_rules.xml
 
 正規表現を使用すると、一貫した形式の文字列値を分類に一致させることができます。例えば、トラッキングコードの特定の文字から分類を作成できます。特定の文字、単語または文字パターンを一致させることができます。
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [正規表現 - トラッキングコードの例](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [正規表現 - 特定の文字の分類](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [正規表現 - 様々な長さのトラッキングコードの一致](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [正規表現 - 「含まない」の例](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [正規表現 - 参照テーブル](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >ベストプラクティスとして、正規表現は、区切り文字を使用するトラッキングコードに最も適しています。
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->トラッキングコードが URL エンコードされている場合は、ルールビルダーで分類&#x200B;**されません**。
+>トラッキングコードが URL エンコードされている場合、ルールビルダーによって分類され **せん**。
 
 この例では、次のキャンペーン ID を分類することを前提とします。
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+サンプル キー：`em:JuneSale:20XX0601`
 
 分類するトラッキングコードの一部：
 
 * `em` = 電子メール
 * `JuneSale` = キャンペーン名
-* `20130601` = 日付
+* `20XX0601` = 日付
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+正規表現：`^(.+)\:(.+)\:(.+)$`
 
 正規表現とキャンペーン ID の相関関係：
 
 ![](assets/regex.png)
 
-[!UICONTROL 一致グループ]：キャンペーン ID 内の位置を分類できるように、正規表現とキャンペーン ID 文字の相関関係を示します。
+一致グループ：キャンペーン ID の位置を分類できるように、正規表現がキャンペーン ID の文字にどのように対応するかを表示します。
 
 ![](assets/regex_tracking_code.png)
 
-この例が示しているルールでは、キャンペーンの日付 `20140601` は `$3` で識別された 3 番目のグループ `(.+)` にあります。
+この例が示しているルールでは、キャンペーンの日付 `20XX0601` は `$3` で識別された 3 番目のグループ `(.+)` にあります。
 
 **[!UICONTROL ルールビルダー]**
 
@@ -145,22 +133,22 @@ regex_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
+| 正規表現 | &amp;Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
 
 **構文**
 
 | 正規表現 | 文字列または一致結果 | 対応する一致グループ |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
 | 構文の構築 | `^`= 行の先頭 () = 文字をグループ化し、括弧内の一致する文字を抽出します。`(.+)` = 1 ( .) 文字と ( + ) 任意の  \ = 文字列の先頭。`$` = 前の文字（または文字グループ）が行の末尾であることを示しています。 |
 
-正規表現の文字が何を意味しているかについては、 [正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) を参照してください。
+正規表現の文字が何を意味しているかについては、 [正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 ## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
-[!UICONTROL Sample Key]: `4s3234`
+サンプル キー：`4s3234`
 
 * `4` = ブランド名
 * `s` = Google などの検索エンジンを識別する
@@ -308,7 +296,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 を超える場合は、[ サブ分類 ](/help/components/classifications/c-sub-classifications.md) を使用してルールセットを簡素化することを検討してください。
+>この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 を超える場合は、[ 下位分類 ](/help/components/classifications/importer/subclassifications.md) を使用してルールセットを簡素化することを検討してください。
 
 分類ルールを追加または編集するには：
 

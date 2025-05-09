@@ -4,7 +4,7 @@ keywords: Analytics の実装
 title: リダイレクトとエイリアス
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -153,7 +153,7 @@ Image
  
 https://examplecom.112.2o7.net/b/ss/examplecom/1/JS-1.4/s61944015791667?[AQB] 
 ndh=1 
-t=4/8/2014 13:34:28 4 360 
+t=4/8/20XX 13:34:28 4 360 
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 

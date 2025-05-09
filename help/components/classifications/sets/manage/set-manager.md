@@ -3,7 +3,7 @@ title: 分類セットマネージャー
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 分類セットマネージャーでは、次の列を使用できます。
 
-* **[!UICONTROL 分類セット]**：分類セット名。 分類セット名をクリックすると [ 設定を編集できます ](settings.md)。
+* **[!UICONTROL 分類セット]**：分類セット名。 分類セット名をクリックすると、その [ 設定 ](settings.md) が編集されます。
 * **[!UICONTROL 購読]**：この分類セットが適用される購読の数。
 * **[!UICONTROL 分類]**：分類セットに含まれる分類ディメンションの数。
 * **[!UICONTROL 自動]**：クラウドの場所からデータを自動的に読み込むように分類セットが設定されているかどうかを判断します。 自動処理は、分類セットの [ スキーマ ](schema.md) で設定できます。
@@ -43,7 +43,7 @@ ht-degree: 7%
 * **[!UICONTROL 追加]**：分類セット [ 作成 ](create.md)。
 * **[!UICONTROL タイトルで検索]**：名前で分類セットを検索します。
 * **[!UICONTROL さらに読み込む]**：分類セットマネージャーには、最初に最大 1,000 個の分類セットが表示されます。 このボタンは、さらに 1,000 個の分類セットを読み込みます。
-* **列を表示/非表示**: [!UICONTROL &#x200B; 分類セット &#x200B;] 以外の任意の列の表示を切り替えます。
+* **列を表示/非表示**: [!UICONTROL  分類セット ] 以外の任意の列の表示を切り替えます。
 
 目的の分類セットの横にあるチェックボックスをオンにして、1 つ以上の分類セットを選択します。 分類セットを選択すると、次のオプションが表示されます。
 

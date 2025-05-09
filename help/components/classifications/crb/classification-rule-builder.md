@@ -3,31 +3,28 @@ description: トラッキングコードが変更されるたびに分類の編�
 title: 分類ルールビルダーのワークフロー
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 97%
+source-wordcount: '559'
+ht-degree: 86%
 
 ---
 
-# 分類ルールビルダーのワークフロー
+# 分類ルールビルダーの概要（レガシー）
 
 トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベース分類を作成し、複数のレポートスイートに適用することができるようになりました。ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
 
-
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 分類ルールビルダー ](https://video.tv.adobe.com/v/3434374?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 分類ルールビルダー ](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
-
 ## 始める前の重要なお知らせ
 
-分類ルールを使用する前に、次の点に注意してください。
+分類ルールを使用する際は、次の点に注意してください。
 
-* 下位分類は、分類ルールビルダー（CRB）ではサポートされていません。
-* 現在の分類システムでは、一度に 1,000 万行まで書き出すことができます。
+* 一度に最大 1,000 万行まで書き出すことができます。
 * CRB が書き出しを要求すると、分類された値と未分類の値の両方を（未分類の値は書き出しの最後に）取り込みます。つまり、時間の経過と共に、1,000 万個の分類済みの値が埋め尽くされ、未分類の値に到達しないことがあります。
 * アーキテクチャは「n」台のサーバから CRB を取り込むように設定されているので、どのサーバがどの順序で取得されるかに関して不整合が生じる可能性があります。そのため、未分類の値を取得するのは非常に困難です。
 
@@ -41,17 +38,17 @@ ht-degree: 97%
 
 | 手順 | 作業する場所 | 説明 |
 |--- |--- |--- |
-| 手順 1（必須）：[分類スキーマを設定します](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)。 | [!UICONTROL 管理者]／[!UICONTROL レポートスイート]／[!UICONTROL 設定を編集]／&lt;トラフィック分類またはコンバージョン分類> | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
-| 手順 2：[ルールセットを作成する](/help/components/classifications/crb/classification-rule-set.md)。 | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
+| 手順 1 （前提条件）：分類スキーマを設定する。 | [!UICONTROL  管理者 ]/[!UICONTROL  レポートスイート ]/[!UICONTROL  設定を編集 ]/[!UICONTROL  トラフィック分類 ] または [!UICONTROL  コンバージョン分類 ] | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
+| 手順 2：[ルールセットを作成する](classification-rule-set.md)。 | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
 | 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
-| 手順 4：[分類ルールをセットに追加する](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)」の情報を確認します。 |
-| 手順 5：[分類ルールセットのテスト](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を使用する場合に重要です。 |
-| 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。[ ルールの処理方法 ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。 |
-| 手順 7（任意）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、 [分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md) を参照してください。 |
+| 手順 4：[分類ルールをセットに追加する](classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](classification-quickstart-rules.md)」の情報を確認します。 |
+| 手順 5：[分類ルールセットのテスト](classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](classification-quickstart-rules.md)を使用する場合に重要です。 |
+| 手順 6：[有効なルールをアクティブ化する](classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。[ ルールの処理方法 ](classification-quickstart-rules.md) を参照してください。 |
+| 手順 7（任意）：[不要なルールを削除する](classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br> 注意：ルールを削除しても、アップロードされた分類データは削除されません。 分類データを削除する必要がある場合は、[ 分類データの削除 ](/help/components/classifications/importer/t-delete-classification-data.md) を参照してください。 |
 
 >[!NOTE]
 >
->分類インポートツールを使用する権限を持つグループが分類ルールを使用できます。処理に関する重要な情報については、 [ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+>分類インポートツールを使用する権限を持つグループが分類ルールを使用できます。処理に関する重要な情報については、 [ルールの処理方法](classification-quickstart-rules.md) を参照してください。
 
 **その他のリソース**
 

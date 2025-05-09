@@ -4,10 +4,10 @@ title: コンバージョンの分類
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 93%
 **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定編集]**/**[!UICONTROL コンバージョン]**/**[!UICONTROL コンバージョン分類]**
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
-
-分類を有効にした後、[ 分類インポーター ](/help/components/classifications/importer/c-working-with-saint.md) を使用して、特定の値を適切な分類に割り当てます。
 
 >[!WARNING]
 >
@@ -46,9 +44,6 @@ ht-degree: 93%
    ![ステップ情報](/help/admin/admin/assets/sub_class_create.png)
 
 1. 「**[!UICONTROL 分類の編集]**」アイコンにマウスを移動して、「**[!UICONTROL 分類の追加]**」を選択します。
-1. 「**[!UICONTROL タイプの選択]**」フィールドで、変数に追加する分類のタイプを選択します。
-
-   オプションには「**[!UICONTROL テキスト]**」と「**[!UICONTROL 数値]**」があります。分類タイプの詳細については、「[分類について](/help/components/classifications/c-classifications.md)」を参照してください。
 1. **[!UICONTROL テキスト分類]**&#x200B;ダイアログボックスで、必要に応じて分類を設定します。
 
 1. ドロップダウンリストダイアログボックスでオプションを追加または削除します。

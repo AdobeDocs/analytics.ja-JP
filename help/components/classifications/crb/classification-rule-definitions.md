@@ -3,18 +3,18 @@ description: 分類ルールビルダーのページ上のインターフェイ�
 title: 分類ルール - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# 分類ルール - 定義
+# 分類ルールの定義（レガシー）
 
 分類ルールビルダーのページ上のインターフェイス要素の定義です。
 
-## ルールページ {#section_4A5BF384EEEE4994B6DC888339833529}
+## ルールページ
 
 このページには、ルールセットに含まれるルールが表示されます。
 
@@ -56,7 +56,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ルックバックウィンドウ </p> </td> 
-   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、そのルールの影響を受けるキーの既存の分類を上書きするかどうかを指定できます（指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p><span class="term">ルックバックウィンドウ</span>を指定しなかった場合、（今日がその月の何日かによって異なりますが）およそ 1 ヶ月の間、過去のルールが参照されます。このオプションを有効にしなければ、既存の分類が上書きされることはありません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。これらのルールは、顧客が統合をアクティブ化すると表示されます。<span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>ルール処理について詳しくは、<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、そのルールの影響を受けるキーの既存の分類を上書きするかどうかを指定できます（指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p><span class="term"> ルックバックウィンドウ </span> を指定しない場合、ルールは（現在の日付に応じて）約 1 か月を振り返ります。 既存の分類は、このオプションを有効にしない限り上書きされません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。これらのルールは、顧客が統合をアクティブ化すると表示されます。<span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>ルール処理について詳しくは、<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールを追加</a> </td> 

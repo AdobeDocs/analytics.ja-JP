@@ -3,14 +3,14 @@ description: （オプション）分類をマーケティングレポートに�
 title: 分類テンプレート
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
-# 分類テンプレート
+# 分類テンプレート（レガシー）
 
 （任意）分類をレポートとプロジェクトにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 

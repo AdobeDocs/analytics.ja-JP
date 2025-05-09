@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 100%
    + [セグメントについて](segmentation/seg-overview.md)
    + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
-   + セグメントのワークフロー {#segmentation-workflow}
+   + セグメント化ワークフロー {#segmentation-workflow}
       + [セグメントワークフローの概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
       + [セグメントの構築](segmentation/segmentation-workflow/seg-build.md)
@@ -258,9 +258,9 @@ ht-degree: 100%
    + [管理](c-alerts/alert-manager.md)
    + [ユースケース](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
-   + [分類の概要](classifications/c-classifications.md)
+   + [分類の概要](classifications/classifications-overview.md)
    + 分類セット {#sets}
-      + [分類セットの概要](classifications/sets/overview.md)
+      + [概要](classifications/sets/overview.md)
       + 分類セットの管理 {#manage}
          + [分類セットマネージャー](classifications/sets/manage/set-manager.md)
          + [分類セットを作成](classifications/sets/manage/create.md)
@@ -269,30 +269,27 @@ ht-degree: 100%
          + [分類セットルール](classifications/sets/manage/rules.md)
       + [分類セットジョブマネージャー](classifications/sets/job-manager.md)
       + 分類セットの統合 {#consolidations}
-         + [分類セットの統合マネージャー](classifications/sets/consolidations/manage.md)
-         + [分類セットの統合プロセス](classifications/sets/consolidations/process.md)
-   + 分類ルールビルダー {#classifications-rulebuilder}
-      + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
+         + [統合マネージャー](classifications/sets/consolidations/manage.md)
+         + [統合プロセス](classifications/sets/consolidations/process.md)
+   + 分類ルールビルダー（レガシー）{#classifications-rulebuilder}
+      + [概要](classifications/crb/classification-rule-builder.md)
       + [分類ルールセット](classifications/crb/classification-rule-set.md)
       + [分類ルール](classifications/crb/classification-quickstart-rules.md)
-      + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
-      + [下位分類とルールビルダー](classifications/crb/sub-classification-rule-builder.md)
-   + 分類インポーター {#classifications-importer}
-      + [分類インポーター - 概要](classifications/importer/c-working-with-saint.md)
+      + [分類ルールの定義](classifications/crb/classification-rule-definitions.md)
+      + [下位分類とルールビルダー](classifications/crb/subclassification-rule-builder.md)
+   + 分類インポーター（レガシー）{#classifications-importer}
+      + [分類インポーターの概要](classifications/importer/c-working-with-saint.md)
       + [分類データファイル](classifications/importer/c-saint-data-files.md)
       + [分類データの削除](classifications/importer/t-delete-classification-data.md)
-      + [分類データのエスケープ](classifications/importer/t-classifications-escape-data.md)
-      + [未分類のキー](classifications/importer/nonclassified-keys.md)
       + [分類テンプレート](classifications/importer/c-download-saint-data.md)
-      + [ブラウザーおよび FTP インポート](classifications/importer/import-file.md)
       + [ブラウザーインポート](classifications/importer/browser-import.md)
       + [ブラウザーエクスポート](classifications/importer/browser-export.md)
       + [FTP インポート](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP エクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
+      + [下位分類](classifications/importer/subclassifications.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
-   + [下位分類](classifications/c-sub-classifications.md)
-   + [分類 FAQ](classifications/faq.md)
+      + [FAQ](classifications/importer/importer-faq.md)
 + 場所 {#locations}
    + [場所マネージャー](/help/components/locations/locations-manager.md)
    + [クラウドの読み込みアカウント](/help/components/locations/configure-import-accounts.md)

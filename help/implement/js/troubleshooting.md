@@ -4,7 +4,7 @@ description: JavaScript 実装の一般的な問題とトラブルシューテ�
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -107,4 +107,4 @@ s.pageName = "        Home Page";
   s.prop2 = "D=v1";
   ```
 
-* **分類の使用**：製品名やページ名が非常に長い場合は、識別値やコードを使用し、[分類](/help/components/classifications/c-classifications.md)を使用してわかりやすい名前を表示できます。
+* **分類の使用**：製品名やページ名が非常に長い場合は、識別値やコードを使用し、[分類](/help/components/classifications/classifications-overview.md)を使用してわかりやすい名前を表示できます。

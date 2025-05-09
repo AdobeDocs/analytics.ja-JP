@@ -3,10 +3,10 @@ description: リアルタイムレポートを設定するための管理者の�
 title: リアルタイムレポートの設定
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 78%
+source-wordcount: '283'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 設定]** を選択して、[!UICONTROL &#x200B; レポートスイートマネージャー &#x200B;] を実行します。
+1. **[!UICONTROL 設定]** を選択して、[!UICONTROL  レポートスイートマネージャー ] を実行します。
 
    （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
 
@@ -46,8 +46,6 @@ ht-degree: 78%
    >[!NOTE]
    >
    >単一のリアルタイムレポートの場合、ディメンションごとに異なる分類が選択されていても、ディメンションの複製を有効にすることは現在サポートされていません。
-
-   分類の詳細については、「[分類について](/help/components/classifications/c-classifications.md)」を参照してください。
 
    >[!NOTE]
    >
