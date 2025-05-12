@@ -3,10 +3,10 @@ description: Adobe Analytics でデータ収集用の基本コンテナを作成
 title: レポートスイートの作成
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 ## レポートスイートの作成 {#create-report-suite}
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックします。
-1. **[!UICONTROL 新規作成]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックします。
+1. **[!UICONTROL レポートスイートを追加]** をクリックします。
 1. 事前定義済みのテンプレートと既存のレポートスイートのどちらを[テンプレート](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)として使用するかを選択します。
 
    >[!NOTE]
