@@ -35,7 +35,7 @@ AdWords アカウント番号（顧客 ID）を表示するには、右上のア
 >
 >Microsoft Advertising（旧称 Bing）アカウントでGoogleの読み込み機能を使用している場合は、必ず正しいトラッキング文字列を更新してください。 トラッキング文字列が、Google バージョンから正しい Bing トラッキング文字列に自動的に更新されず、結果として未指定のデータになる場合があります。 この機能の詳細については、[こちら](https://help.ads.microsoft.com/apex/index/3/jp/50851/)をご覧ください。
 
-**[!UICONTROL アカウント ID]** と **[!UICONTROL アカウント番号]** の両方が必要です。 これらは、「設定 **[!UICONTROL 内の「**[!UICONTROL  アカウント設定 ]**」タブに一覧表示さ]** ます。
+**[!UICONTROL アカウント ID]** と **[!UICONTROL アカウント番号]** の両方が必要です。 これらは、「設定 **[!UICONTROL 内の「**&#x200B;[!UICONTROL &#x200B; アカウント設定 &#x200B;]&#x200B;**」タブに一覧表示さ]** ます。
 
 >[!NOTE]
 >
