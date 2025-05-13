@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 86%
 
 ---
 
@@ -34,9 +34,9 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 テキストビジュアライゼーションは、次の方法で使用できます。
 
-1. ![テキスト](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
+1. ![テキスト](/help/assets/icons/Text.svg) **[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
-1. パネルまたはビジュアリゼーションで、コンテキストメニューから「**[!UICONTROL 説明を編集]**」を選択します。
+1. パネルまたはビジュアライゼーションで、コンテキストメニューから「**[!UICONTROL 説明を編集]**」を選択します。
 
    説明の編集が完了したら ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) を選択し、キャンセルするには ![CloseCircle](/help/assets/icons/CloseCircle.svg) を選択します。
 
@@ -46,16 +46,20 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 テキストボックスや説明を編集する際に、選択したテキストのフォントサイズ（見出しレベル）、色、スタイル（太字、斜体、下線）および配置を調整できます。 箇条書きと番号付きのリストを追加することもできます。
 
-![テキストカラーパレットをハイライト表示するワークスペースプロジェクトのテキストオプション。](assets/format.png)
+![テキストカラーパレットをハイライト表示する Workspace プロジェクトのテキストオプション。](assets/format.png)
 
 ## ハイパーリンクの追加 {#hyperlinks}
 
 ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
 
-![リンクアイコンがハイライト表示されたテキストオプション。](assets/hyperlink.png)
+![リンクアイコンをハイライト表示するテキストオプション。](assets/hyperlink.png)
 
 ## 画像を追加 {#images}
 
-プロジェクトに画像を追加するには、メニューで ![画像](/help/assets/icons/Image.svg) を選択し、公開画像 URL を挿入します。画像 URL は、`https`で始まる、`.png`、`.jpeg`、`.jpg`、または`.gif`の形式で、公開アクセス可能である必要があります。 静的な画像とアニメーション画像がサポートされます。
+プロジェクトに画像を追加するには、メニューで ![ 画像 ](/help/assets/icons/Image.svg) を選択し、**[!UICONTROL 画像 URL]** に画像 URL （例：`https://www.adobe.com/uploads/2018/06/Adobe.png`）を指定して、**[!UICONTROL 保存]** を選択します。
+
+画像 URL は、`https`で始まる、`.png`、`.jpeg`、`.jpg`、または`.gif`の形式で、公開アクセス可能である必要があります。 静的な画像とアニメーション画像がサポートされます。
+
+画像のドラッグ&amp;ドロップ挿入はサポートされていません。
 
 ![画像アイコンが選択されたテキストオプション。](assets/image.png)
