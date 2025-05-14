@@ -4,9 +4,9 @@ description: この変数を使用して、オンラインとオフラインの�
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ Adobeは、最大 25 か月間、すべてのトランザクション ID 値（�
 
 トランザクション ID は、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[0].transactionID`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md):`xdm.commerce.order.payments[3].transactionID` または `xdm.commerce.order.payments.transactionID`
 * [Data オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID` または `data.__adobe.analytics.xact`
 
 ## Adobe Analytics 拡張機能を使用したトランザクション ID
@@ -38,7 +38,7 @@ Adobeは、最大 25 か月間、すべてのトランザクション ID 値（�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. 「[!UICONTROL トランザクション ID]」セクションを探します。
 
 トランザクション ID は、データ要素を含む任意の文字列値に設定できます。
