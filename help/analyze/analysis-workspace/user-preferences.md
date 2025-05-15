@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 環境設定を管理 ](https://video.tv.adobe.com/v/3429996/?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 環境設定を管理 ](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,8 +65,8 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
->title="プロジェクトへのコメントを許可"
->abstract="有効になっている場合、Analysis Workspaceの各プロジェクトの右側のパネルにコメント領域が表示されます。"
+>title="プロジェクトへのコメントの許可"
+>abstract="有効になっている場合、Analysis Workspace の各プロジェクトの右側のパネルでコメント領域を使用できます。"
 
 組織内のすべてのユーザーとプロジェクトに適用される会社環境設定を更新できます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
