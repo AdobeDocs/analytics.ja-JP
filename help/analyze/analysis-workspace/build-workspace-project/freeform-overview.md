@@ -21,7 +21,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Workspace プロジェクトの構築 ](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Workspace プロジェクトの構築 ](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +74,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 |---|---|
 | ![ 削除 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) 削除 | 選択すると、Workspace プロジェクトまたはモバイルスコアカードが削除されたことを確認するダイアログが表示されます。 「**[!UICONTROL OK]**」を選択して確定します。 |
 | ![ 共有 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) 共有 | このアクションを使用すると、プロジェクトを共有できます。 詳しくは、[ プロジェクトを共有 ](../curate-share/share-projects.md) を参照してください。 |
-| ![ 名前変更 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 名前変更 | プロジェクトの名前を変更するための **[!UICONTROL 名前の変更：*名前&#x200B;*]**ダイアログが開きます。 「**[!UICONTROL 保存&#x200B;]**」を選択して、プロジェクトの新しい名前を保存します。 |
+| ![ 名前変更 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 名前変更 | プロジェクトの名前を変更するための **[!UICONTROL 名前の変更：*名前&#x200B;*]**&#x200B;ダイアログが開きます。 「**[!UICONTROL 保存&#x200B;]**」を選択して、プロジェクトの新しい名前を保存します。 |
 | ![ コピー ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) コピー | 選択したプロジェクトを *元の名前* という名前の新しいプロジェクトに直ちにコピーします（コピー）。 |
 | ![ ピン留め ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) ピン | プロジェクトを直ちにリストの先頭にピン留めします。 ![ ピン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) インジケーターを追加します。 |
 | ![Tag](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) Tag | **[!UICONTROL プロジェクトをタグ付け]** ダイアログを開きます。 既存のタグを選択することも、新しいタグを追加することもできます。 「**[!UICONTROL 保存]**」を選択して、プロジェクトのタグを保存します。 |
@@ -158,7 +158,7 @@ Workspace プロジェクトでは、データコンポーネント、テーブ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ コンテキストメニューの使用 ](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ コンテキストメニューの使用 ](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
