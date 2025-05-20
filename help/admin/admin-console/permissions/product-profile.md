@@ -4,7 +4,7 @@ description: 製品管理者が組織内のユーザーに割り当てる権限�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 65%
@@ -33,7 +33,7 @@ ht-degree: 65%
 1 つの製品プロファイルでAdobe Analyticsへのアクセスに最低限必要な権限は、次のとおりです。
 
 * 製品プロファイルは、少なくとも 1 つのレポートスイートにアクセスできる必要があります
-* 製品プロファイルは、Analytics ツール権限項目 **Analysis Workspace アクセス** に属している必要があります。
+* 製品プロファイルは、Analytics ツール権限項目 **Workspace プロジェクトアクセス** に属している必要があります。
 
 ### レポートスイート
 
