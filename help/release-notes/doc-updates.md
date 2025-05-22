@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6376'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年3月** |  |
-| Analytics インベントリ | [Analytics Inventory](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory) は、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要を提供します。 |
+| Analytics インベントリ | [Analytics インベントリ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory)では、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。 |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
 | Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)の[異なる方法でサポートされるディメンション（非標準の日付形式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)を参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/admin/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
@@ -112,7 +112,7 @@ ht-degree: 99%
 | データフィード用の SFTP を設定する際、アドビカスタマーケアが必要ないことを明記しました | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨しなくなり、データフィードを設定する際にはクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
 | ストリーミングメディアコレクションのドキュメントの改善 | ストリーミングメディアコレクションのドキュメントに、次の改善を加えました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)を更新しました。また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=ja)および [Analytics のみの実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=ja)に固有の前提条件を追加しました。また、[一般的な前提条件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=ja)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=ja)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=ja)領域の記事の内容と構成を合理化しました。これに、Edge の実装および Analytics のみの実装別の実装の分類を含めました。</li><li>[トラッキング](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=ja)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
 | **2023年7月** | |
-| ADOBE EXPERIENCE PLATFORM EDGE NETWORK API | [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) を使用してAdobe Analyticsでデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。 例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
+| Adobe Experience Platform Edge Network API | [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
 | グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/admin/company/web-services-admin.md)を文書化しました。この ID は、Analytics 2.0 API で必要です。 |
 | FTP のサイズ制限を更新しました | デフォルトの [FTP データ保存制限](/help/export/ftp-and-sftp/ftp-limits.md)を 100 GB に変更しました。 |
 | 新しい AppMeasurement 変数 | 変数 `decodeLinkParameters` は、実装がリンクトラッキング変数でマルチバイト文字をエンコードするというエッジケースに対応しています。[詳細情報](../implement/vars/config-vars/decodelinkparameters.md) |

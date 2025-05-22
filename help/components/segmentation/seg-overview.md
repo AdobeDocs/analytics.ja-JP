@@ -4,9 +4,9 @@ title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -237,12 +237,12 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 ## ハウツーセグメント化のビデオ {#segment-video}
 
-このビデオでは、セグメントコンテナの概要と使用方法について簡単に説明します。
+このビデオでは、セグメントコンテナの概要と使用方法を簡単に説明しています。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントコンテナ ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

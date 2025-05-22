@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-詳細および [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) 標準 ID 名前空間のリスト  については、[Experience Cloudデータプライバシー API ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces) を参照してください。 リクエストのサンプルについては、[ アクセス/削除ジョブの作成 ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete) を参照してください。
+詳細と[標準の ID 名前空間のリスト](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)については、[Experience Cloud Data Privacy API ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)を参照してください。サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
 
 ## Cookie ID
 
@@ -114,6 +114,6 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->名前空間 `visitorId` と `customVisitorId` は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
+>名前空間 `visitorId` と `customVisitorId` は、Analytics のレガシートラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
 詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)を参照してください。

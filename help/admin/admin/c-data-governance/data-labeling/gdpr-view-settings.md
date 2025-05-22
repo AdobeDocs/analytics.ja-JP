@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >このメニュー項目が表示されない場合は、この機能への権限を持つ [Admin Console の製品プロファイル ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja) に追加するか、Admin Console内のレポートスイートへのアクセス権を付与されている必要があります。
+   >このメニュー項目が表示されない場合は、この機能への権限を持つ [Admin Console で製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)に追加するか、Admin Console 内のレポートスイートへのアクセス権を付与する必要があります。
 
 3. 右上で、プライバシーラベルを表示または管理したいレポートスイートを選択します。
 

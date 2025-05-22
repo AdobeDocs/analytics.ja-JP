@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 
 ## アドビによる GDPR データの処理方法 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Experience Cloudは、ブランドのデータガバナンスインフラストラクチャを、消費者エクスペリエンスの作成と管理に使用されるAdobeツールと結び付ける統合ソリューションを提供します。 Adobe Experience Cloudのデータガバナンス機能により、データガバナンスポリシーとデータ使用を直接リンクできます。
+Adobe Experience Cloud には、ブランドのデータガバナンスインフラストラクチャと、消費者エクスペリエンスの作成と管理に使用するアドビのツールを接続する統合ソリューションが用意されています。Adobe Experience Cloud のデータガバナンス機能により、データガバナンスポリシーをデータ使用に直接リンクできます。
 
 「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、GDPR 対応の手順と、Adobe Experience Cloud GDPR API との統合方法について説明しています。
 
@@ -41,7 +41,7 @@ Adobe Experience Cloudは、ブランドのデータガバナンスインフラ�
 
 そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
 
-ラベルの設定方法について詳しくは、[ レポートスイートのデータのラベル設定 ](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) を参照してください。
+ラベルの設定方法について詳しくは、[レポートスイートデータのラベル設定](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)を参照してください。
 
 ## 前提条件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -51,7 +51,7 @@ Adobe Experience Cloudは、ブランドのデータガバナンスインフラ�
 
   >[!NOTE]
   >
-  >データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、Adobeアカウントチームにお問い合わせください。
+  >データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、アドビのアカウントチームまでお問い合わせください。
 
 * 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
 

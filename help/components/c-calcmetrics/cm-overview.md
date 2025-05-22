@@ -1,28 +1,28 @@
 ---
-description: 計算指標と高度な計算指標は、既存の指標から作成できるカスタム指標です。
-keywords: 計算指標；高度な計算指標
-title: 計算指標と高度な計算指標
+description: 計算指標および高度な計算指標は、既存の指標から作成できるカスタム指標です。
+keywords: 計算指標;高度な計算指標
+title: 計算指標および高度な計算指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# 計算指標と高度な計算指標
+# 計算指標および高度な計算指標
 
-計算指標と高度な計算指標は、既存の指標から作成できるカスタム指標です。
+計算指標および高度な計算指標は、既存の指標から作成できるカスタム指標です。
 
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
 * Adobe [!DNL Analytics] Foundation：計算指標
-* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算済み+高度な計算済み
+* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
-計算指標と高度な計算指標機能の比較を次に示します。
+次に、計算指標と高度な計算指標の機能比較を示します。
 
 | ビルダーのオプション | 計算指標 | 高度な計算指標 |
 |---|---|---|
@@ -38,25 +38,25 @@ ht-degree: 51%
 
 次のことが可能です。
 
-* [!UICONTROL Analysis Workspace]、[!UICONTROL &#x200B; 分析、[!UICONTROL &#x200B; 異常値検出 &#x200B;]、および [!UICONTROL &#x200B; 貢献Report Builder] にわたる指標を作成し &#x200B;] す。
+* [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]をまたいで指標を作成します。
 * 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 計算指標 ](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標のセグメント。 例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
+* （高度な計算指標のみ）指標のセグメント。例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 
-* （高度な計算指標のみ）統計関数を組み込んで、データをより詳細に説明できるようにします。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
+* （高度な計算指標のみ）データをわかりやすく記述するための統計関数を組み込む。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメント化されたセグメントの計算指標 ](https://video.tv.adobe.com/v/37945?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ ht-degree: 51%
 
 一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
 
-* [!UICONTROL Analysis Workspace &#x200B;][!UICONTROL のフォールアウト]
+* [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]
@@ -73,11 +73,11 @@ ht-degree: 51%
 
 ## ツール {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-[!UICONTROL &#x200B; 計算指標 &#x200B;] ツールの概要を以下に示します。
+ここでは、[!UICONTROL 計算指標]ツールの概要を簡単に示します。
 
 | ツール | 機能 |
 |--- |--- |
-| 計算指標ビルダー | <ul><li>高度な配分モデルを使用した計算指標および高度な計算指標を作成する。</li><li>指標式へのインラインでのセグメントの追加</li><li>同じレポート内のセグメントを比較する。例えば、各地域における訪問者と海外での訪問者を比較します。</li><li>統計関数の使用</li><li>指標の詳細な説明を提供する（機能、使用場所、使用しない場所を示す）</li><li>定義を新しい指標にコピー</li><li>インライン指標プレビューの提供</li><li>指標の極性を設定します。これは、特定のカスタムイベント（指標）が増加した場合に良好か不良かを示します</li><li>タグ指標</li></ul> |
-| 計算指標マネージャ | <ul><li>他のユーザーと指標を共有 &lt;/li<li>指標の承認とキュレーション</li><li>指標を整理（タグ付け）して、ユーザーが検索できるようにします</li><li>指標の削除</li><li>指標の名前を変更</li></ul> |
-| 指標セレクターレール | 指標を検索して、レポートに追加または適用できます。 並べ替え順を変更することもできます（オプションは、アルファベット順、推奨、頻繁に使用、最近使用したもの）。 さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標のみを表示できます。  この指標セレクターにアクセスするには、レポートの左側にある指標アイコンをクリックします。 |
+| 計算指標ビルダー | <ul><li>高度な配分モデルを使用した計算指標および高度な計算指標を作成する。</li><li>指標の数式にセグメントをインラインで追加する</li><li>同じレポート内のセグメントを比較する。例えば、各地域における訪問者と海外での訪問者を比較します。</li><li>統計関数を使用する</li><li>指標の詳細な説明を指定する（指標の用途や指標を使用する（または使用しない）場所を示します）</li><li>新しい指標に定義をコピーする</li><li>インラインで指標をプレビューする</li><li>指標の両極性を設定する。これは、指定されたカスタムイベント（指標）が発生した場合に、それが良いか悪いかを示します</li><li>指標にタグ付けする</li></ul> |
+| 計算指標マネージャー | <ul><li>他のユーザーと指標を共有する&lt;/li<li>指標を承認して管理する</li><li>ユーザーが検索しやすいように指標を管理（タグ付け）する</li><li>指標を削除する</li><li>指標の名前を変更する</li></ul> |
+| 指標セレクターパネル | このパネルを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、並べ替え順序を変更することもできます（オプション：アルファベット順、推奨順、頻繁に使用した順、最近使用した順）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標のみを表示できます。この指標セレクターにアクセスするには、レポートの左側の指標アイコンをクリックします。 |
 | 計算指標の API | Adobe Analytics 2.0 API セットの一部。 |
