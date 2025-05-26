@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ ht-degree: 95%
       + [概要](classifications/crb/classification-rule-builder.md)
       + [分類ルールセット](classifications/crb/classification-rule-set.md)
       + [分類ルール](classifications/crb/classification-quickstart-rules.md)
-      + [分類ルールの定義](classifications/crb/classification-rule-definitions.md)
+      + [分類ルール定義](classifications/crb/classification-rule-definitions.md)
       + [下位分類とルールビルダー](classifications/crb/subclassification-rule-builder.md)
    + 分類インポーター（レガシー）{#classifications-importer}
       + [分類インポーターの概要](classifications/importer/c-working-with-saint.md)
