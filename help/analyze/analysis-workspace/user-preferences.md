@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/3429996/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,8 +65,8 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
->title="プロジェクトへのコメントの許可"
->abstract="有効になっている場合、Analysis Workspace の各プロジェクトの右側のパネルでコメント領域を使用できます。"
+>title="プロジェクトへのコメントを許可"
+>abstract="有効にすると、Analysis Workspace の各プロジェクトの右側のパネルにコメント領域が表示されます。"
 
 組織内のすべてのユーザーとプロジェクトに適用される会社環境設定を更新できます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。
 
