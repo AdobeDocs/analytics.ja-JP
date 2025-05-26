@@ -41,7 +41,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
    または
 
-   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**を選択します。
+   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択します。
 未保存の変更がある場合は、まずプロジェクトを保存するように求められます。
 
    共有プロジェクトダイアログボックスが表示されます。ダイアログボックスの「[!UICONTROL **リンクで共有**]」と「[!UICONTROL **設定**]」セクションは、単一のプロジェクトを共有する場合にのみ表示されます。
@@ -157,7 +157,7 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
