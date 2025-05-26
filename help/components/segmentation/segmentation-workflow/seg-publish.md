@@ -1,25 +1,36 @@
 ---
 description: セグメントをオーディエンスライブラリ、Target および Audience Manager のマーケティングアクティビティで使用できます。
-title: Publish セグメントのExperience Cloud化
+title: Experience Cloudへのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 66%
+source-wordcount: '1356'
+ht-degree: 64%
 
 ---
 
-# Publish セグメントのExperience Cloud化
+# Experience Cloudへのセグメントの公開 {#publish-segments}
 
-Adobe Analytics セグメントをExperience Cloudに公開すると、そのセグメントを [!DNL Audience Manager] や他のアクティブ化チャネル（Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] など）でマーケティングアクティビティに使用できます。
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud公開"
+>abstract="このセグメントから派生したオーディエンスをオーディエンスライブラリに公開し、Target やその他のExperience Cloud ソリューションでマーケティングアクティビティに使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="オーディエンスライブラリ"
+>abstract="オーディエンスライブラリで作成されたセグメントは即座に利用でき、Analytics の更新には依存しません。"
+
+
+Adobe Analytics セグメントをExperience Cloudに公開すると、そのセグメントを [!DNL Audience Manager] や、Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] などの他のアクティベーションチャネルでマーケティングアクティビティに使用できます。
 
 Analytics セグメントは、8 時間以内にExperience Cloudに公開できます。 これらのセグメントを使用して、Audience Manager 内のオーディエンスを、すべてのダウンストリームの宛先でアクティブ化します。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publish セグメント ](https://video.tv.adobe.com/v/37008?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの公開 ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +41,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 ## 前提条件
 
-* このセグメントの保存先のレポートスイートが [Experience Cloudに対して有効 ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ja) になっていることを確認します。 追加されていない場合、Experience Cloudに公開することはできません。
+* このセグメントの保存先のレポートスイートで [Experience Cloudが有効 ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ja) になっていることを確認します。 追加されていない場合、Experience Cloudに公開することはできません。
 * 組織が Experience Cloud ID を使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
 
@@ -58,7 +69,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
    ![Experience Cloud の公開](assets/publish-ec.png)
 1. セグメントのタイトルと説明を入力します。 これらのフィールドは保存する前に必要です。
-1. 「**[!UICONTROL Experience Cloudの公開]**」セクションで、「**[!UICONTROL このセグメントをExperience CloudにPublishする」オプションを選択します（*レポートスイート* の場合）]**。
+1. 「**[!UICONTROL Experience Cloudの公開]**」セクションで、「**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート* 用）]**」オプションを選択します。
 
 >[!IMPORTANT]
 >Adobe Analytics の数値と Audience Manager の数値を比較する際の総「ユニーク訪問者」セグメントプレビューではなく、Analytics でセグメントプレビューを確認する際の「Experience Cloud ID を持つ訪問者」を使用してください。
@@ -67,9 +78,9 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 | 要素 | 説明 |
 |---|---|
-| **[!UICONTROL このセグメントをExperience CloudにPublishします（*`<report suite>`*）]** | このオプションを有効にすると、セグメントタイトルと定義（広告プラットフォームで頻繁に使用されるシェルオーディエンス）がExperience Cloudと即座に共有され、セグメントメンバーシップが 4 時間ごとに評価されて共有されます。 <br>そのオーディエンスが [!DNL Target] のアクティビティと関連付けられている場合、[!DNL Analytics] は、その Experience Cloud および [!DNL Target] オーディエンスの対象となる訪問者の ID の送信を開始します。その時点で、オーディエンス名と対応するデータがExperience Cloudの [!DNL Audience Library] ページに表示され始めます。</br> |
+| **[!UICONTROL このセグメントをExperience Cloudに公開（*`<report suite>`*）]** | このオプションを有効にすると、セグメントタイトルと定義（広告プラットフォームで頻繁に使用されるシェルオーディエンス）がExperience Cloudと即座に共有され、セグメントメンバーシップが 4 時間ごとに評価されて共有されます。 <br>そのオーディエンスが [!DNL Target] のアクティビティと関連付けられている場合、[!DNL Analytics] は、その Experience Cloud および [!DNL Target] オーディエンスの対象となる訪問者の ID の送信を開始します。その時点で、オーディエンス名と対応するデータがExperience Cloudの [!DNL Audience Library] ページに表示され始めます。</br> |
 | **[!UICONTROL オーディエンス作成期間]** | 選択した時間枠を使用して、周期的なカレンダーベースでオーディエンスが作成されます。例えば、「過去 30 日間」（デフォルト）には、今日の日付（セグメントが作成された元の日付からではない）から過去 30 日間にオーディエンス資格を持っていた訪問者が含まれます。 |
-| **[!UICONTROL オーディエンスライブラリに作成]** | 作成および公開するセグメントは、Experience Cloudの [!DNL Audience Library] ページで、待ち時間なしで使用可能にできます。 Analytics の更新には依存しません。これらのセグメントは、公開済みの 75 個のセグメントの制限に対してはカウントされません。 |
+| **[!UICONTROL オーディエンスライブラリに作成]** | 作成および公開したセグメントは、Experience Cloudの [!DNL Audience Library] ページで、待ち時間なしで使用可能にすることができます。 Analytics の更新には依存しません。これらのセグメントは、公開済みの 75 個のセグメントの制限に対してはカウントされません。 |
 | **[!UICONTROL x / 75 個公開済み]** | Experience Cloudに公開したセグメントの数を表示します。 リンクをクリックすると、公開済みのセグメントと、関連するレポートスイートおよび所有者のリストが表示されます。 |
 | **[!UICONTROL 保存]** | このセグメントを保存します。 |
 
@@ -122,7 +133,7 @@ Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
+ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
 ![Audience Manager プロファイルビューア](assets/aam-vpv.png)
 
