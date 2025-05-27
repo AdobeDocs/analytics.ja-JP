@@ -5,7 +5,7 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -69,10 +69,10 @@ ht-degree: 100%
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + データ辞書 {#data-dictionary}
-         + [データ要素の概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [データ要素でのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [データ要素でのコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [データ要素の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [データ辞書の概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [データ辞書でのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [データ辞書でのコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [データ辞書の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
