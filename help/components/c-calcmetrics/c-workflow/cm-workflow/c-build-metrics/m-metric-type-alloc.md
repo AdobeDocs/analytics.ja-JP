@@ -4,9 +4,9 @@ title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
