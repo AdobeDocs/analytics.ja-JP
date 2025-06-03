@@ -6,16 +6,16 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# Experience Cloudへのセグメントの公開 {#publish-segments}
+# Experience Cloud へのセグメントの公開 {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Experience Cloud公開"
->abstract="このセグメントから派生したオーディエンスをオーディエンスライブラリに公開し、Target やその他のExperience Cloud ソリューションでマーケティングアクティビティに使用できます。"
+>title="Experience Cloud での公開"
+>abstract="このセグメントから派生したオーディエンスをオーディエンスライブラリに公開し、Target やその他の Experience Cloud ソリューションでマーケティングアクティビティに使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
@@ -30,7 +30,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの公開 ](https://video.tv.adobe.com/v/37008?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの公開 ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
+ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
 ![Audience Manager プロファイルビューア](assets/aam-vpv.png)
 
