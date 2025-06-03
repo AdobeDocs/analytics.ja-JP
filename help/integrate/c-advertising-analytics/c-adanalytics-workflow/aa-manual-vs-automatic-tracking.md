@@ -3,10 +3,10 @@ description: トラッキングタイプは、Adobe Analytics実装が検索エ�
 title: トラッキングタイプ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 32%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/38404/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
-[!UICONTROL &#x200B; 自動 &#x200B;] と [!UICONTROL &#x200B; 手動 &#x200B;] の 2 つのトラッキングモードがサポートされています。
+[!UICONTROL  自動 ] と [!UICONTROL  手動 ] の 2 つのトラッキングモードがサポートされています。
 
-## [!UICONTROL &#x200B; 自動 &#x200B;] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL  自動 ] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL &#x200B; 自動 &#x200B;] トラッキングを使用すると、Advertising Cloud エンジンで検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
+[!UICONTROL  自動 ] トラッキング機能を使用すると、Advertising Cloud エンジンは、検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
 
 そのため、アカウント設定を保存する前に、「**[!UICONTROL 自動]**」を選択する際に確認チェックボックスをオンにする必要があります。
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動トラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -49,7 +49,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションのアカウント画面から取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL  トラッキング ]」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -92,13 +92,13 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Bing アカウントへの手動トラッキングの追加 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Microsoft Advertising アカウントへの手動トラッキングの追加 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-Bing アカウントに追加する必要がある文字列を以下に示します。アカウント全体で使用されるすべての最終 URL サフィックスに文字列を追加する必要があります。
+Microsoft Advertising アカウントに追加する必要がある文字列を以下に示します。 アカウント全体で使用されるすべての最終 URL サフィックスに文字列を追加する必要があります。
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -106,7 +106,7 @@ Bing アカウントに追加する必要がある文字列を以下に示しま
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![ トラッキングコードパラメーターの追加 ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL 形式によるトラッキングコードの例：
 

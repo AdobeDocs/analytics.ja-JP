@@ -3,7 +3,7 @@ description: Advertising Analytics に関するよくある質問。
 title: 広告分析に関するよくある質問（FAQ）
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 36%
@@ -14,9 +14,9 @@ ht-degree: 36%
 
 ## アクセス／権利 {#access}
 
-+++ この機能にアクセスするには、Adobe Advertising CloudまたはAdobe Advertising Cloud（AMO）のユーザーである必要がありますか？
++++ この機能にアクセスするには、Adobe Advertising Cloud または Adobe Advertising Cloud （AMO）の顧客である必要がありますか？
 
-いいえ。この機能は、Advertising Cloudおよび AMO 以外のお客様が利用できます。
+いいえ。この機能は、Advertising Cloud および AMO 以外のお客様が利用できます。
 
 AMO のお客様は、既存の Analytics-AMO 統合を利用できますが、Ad Analytics は使用できません。
 
@@ -46,7 +46,7 @@ Advertising AnalyticsはAdobe Analyticsで使用できます
 
 +++
 
-+++ 既にAdvertising Cloud/AMO を使用している場合、Advertising Analytics機能を引き続き使用できますか？
++++ 既に Advertising Cloud/AMO を使用している場合、Advertising Analytics機能を引き続き使用できますか？
 
 互換性のある検索エンジンアカウントはすべてAdvertising Analyticsに渡され、読み取り専用として表示されます。 すべての編集または更新は、Advertising Cloud／AMO で処理されます。
 
@@ -62,19 +62,19 @@ Advertising AnalyticsはAdobe Analytics管理者のみが使用できますが�
 
 +++ Advertising Analyticsに含まれる検索エンジンアカウントはどれですか？
 
-検索エンジンアカウントには、Google AdWords とMicrosoft Bing が含まれます。
+検索エンジンアカウントには、Google Ads とMicrosoft Advertisingが含まれます。
 
 +++
 
 +++ Advertising Analyticsへのアクセス方法
 
-Adobe Analyticsにログインした後、[!UICONTROL &#x200B; 管理者 &#x200B;] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
+Adobe Analyticsにログインした後、[!UICONTROL  管理者 ] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
 
 +++
 
 +++ データを収集して Analytics に渡すにはどうすればよいですか？
 
-Advertising Analyticsは、一連のカスタム API を利用して、検索エンジンからAdobe Advertising Cloudを介して Analytics にデータを渡します。
+Advertising Analyticsは、一連のカスタム API を利用して、Adobe Advertising Cloud を介して検索エンジンから Analytics にデータを渡します。
 
 +++
 
@@ -82,7 +82,7 @@ Advertising Analyticsは、一連のカスタム API を利用して、検索エ
 
 次を取得します
 
-* 印象
+* インプレッション数
 * クリック数
 * コスト
 * 品質スコア

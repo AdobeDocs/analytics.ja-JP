@@ -3,16 +3,16 @@ description: 必要な権限、使用可能なディメンションや指標な�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: cf0f528f1ccb0346786c017b4d0d48dd5ab6dfc2
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 93%
+source-wordcount: '1112'
+ht-degree: 70%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。Adobe Analytics内で、インプレッション数、クリック数、コストデータを、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
+Advertising Analyticsを使用すると、すべてのGoogle Ads とMicrosoft Advertisingの有料検索データをAdobe Analytics内に並べて表示できます。 以前は、Google広告またはMicrosoft Advertisingのデータは、Adobe Advertising Cloud （AMO）または各広告インターフェイスで表示する必要がありました。 インプレッション、クリックおよびコストデータを、検索エンジンと AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
 
 これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspaceの新しい [ 有料検索パフォーマンス ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) テンプレートにより、この分析を容易におこなうことができます。
 
@@ -28,41 +28,21 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 
 * Advertising Analytics は、Adobe Analytics [Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)、[Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html) SKU でのみ利用できます。
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
-* Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#permissions)。
-* Google／Bing の検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
+* Advertising Analyticsへのアクセス権を持つには、Adobe Analytics管理者であるか、Advertising Analyticsへのアクセス権が [ 付与 ](/help/integrate/c-advertising-analytics/overview.md#permissions) されている製品プロファイルに属している必要があります。
+* Google Ads またはMicrosoft Advertisingの検索データを表示する任意のレポートスイートについて、[Advertising Analyticsのレポートスイートを有効にする ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) （**[!UICONTROL 管理者]**/**[!UICONTROL 設定を編集]**/6}Advertising Analytics Configuration ]**）必要があります。**[!UICONTROL 
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
-* Bing 広告の場合、Bing 顧客 ID も必要になります。
+* Microsoft Advertisingの場合は、[[!UICONTROL  アカウント ID] と [!UICONTROL  管理者アカウント ID]](c-adanalytics-workflow/aa-locate-account-id.md) も必要です。
 
 ## Advertising Analytics の権限 {#permissions}
 
-Analytics には、Analytics 管理者に自動で付与される 2 つの権限があります。管理者は、これらの権限を管理者以外のユーザーに付与することを選択できます。
+Analytics には、Analytics 管理者に自動的に付与される 2 つの権限があります。 管理者は、これらの権限を管理者以外のユーザーに付与することを選択できます。
 
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 権限 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-   <th colname="col3" class="entry"> Adobe Analytics での権限の付与 </th> 
-   <th colname="col4" class="entry"> Adobe Experience Cloud にログインしている場合の権限の付与 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
-   <td colname="col2"> <p>ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスの編集</span>／<span class="uicontrol">Analytics ツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限設定」タブ</span>／<span class="uicontrol">Analytics ツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
-   <td colname="col2"> <p>ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスの編集</span>／<span class="uicontrol">レポートスイートツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 設定</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限」タブ</span>／<span class="uicontrol">レポートスイートツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 権限 | 定義 | Adobe Experience Cloud にログインしている場合の権限の付与 |
+| --- | --- | --- |
+| Advertising Analytics 管理 | ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4}Adobe Analytics]/[!UICONTROL Product Profile]/[!UICONTROL Permissions] タブ/[!UICONTROL Analytics Tools]/12}Advertising Analytics Management] にログインします。[!UICONTROL [!UICONTROL  |
+| Advertising Analytics 設定 | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4}Adobe Analytics]/[!UICONTROL Product Profile]/[!UICONTROL Permissions] タブ/[!UICONTROL Analytics Tools]/12}Advertising Analytics Configuration] にログインします。[!UICONTROL [!UICONTROL  |
 
-## Advertising Analytics のディメンションと指標 {#dimensions-metrics}
+## Advertising Analyticsのディメンションと指標 {#dimensions-metrics}
 
 Advertising Analyticsは、次のディメンションと指標をAnalysis Workspace、Report Builderおよび Analytics レポート API に追加します。
 
@@ -75,25 +55,25 @@ Advertising Analyticsは、次のディメンションと指標をAnalysis Works
 >これらの指標の分類は毎日更新されます。このため、検索エンジンのメタデータに変更を加えた場合、それらの変更が反映されるのを翌日分類が更新されるまで認識できない可能性があります。
 
 | 分類（ディメンション）名 | 定義 |
-|--- |--- |
-| キーワード一致タイプ（AMO ID） | キーワード一致タイプ。通常、値は部分一致、フレーズ一致、完全一致となり、広告タイプに一致するタイプがない場合は値なしです。 |
-| 広告プラットフォーム（AMO ID） | 検索エンジンの名前。Google AdWords または Microsoft Bing Ads のいずれかの値を含めることができます。 |
-| アカウント（AMO ID） | トラッキングする検索エンジンアカウントの名前。 |
-| キャンペーン（AMO ID） | 検索エンジンアカウントでのキャンペーン名。 |
-| 広告グループ（AMO ID） | 検索エンジンキャンペーンでの広告グループ名。 |
-| 広告（AMO ID） | 広告で使用される広告タイトル + 広告の説明。 |
-| キーワード（AMO ID） | 検索エンジンアカウントからのキーワード値。 |
-| 一致タイプ（AMO ID） | キーワードに割り当てられたキーワードの一致タイプ。通常、値は部分一致、フレーズ一致、完全一致となり、広告タイプに一致するタイプがない場合は値なしです。 |
-| 広告タイプ（AMO ID） | 提供される広告のタイプ。通常は「テキスト広告」です。 |
-| 広告タイトル（AMO ID） | 広告で使用されるタイトルオブジェクト。 |
-| 広告説明（AMO ID） | 広告で使用される広告の説明オブジェクト。 |
-| 広告ディスプレイ URL（AMO ID） | 広告で使用される広告のディスプレイ URL オブジェクト。 |
-| 広告リンク先 URL（AMO ID） | 広告に割り当てられたランディングページの URL または最終 URL。 |
-| ネットワーク（AMO ID） | 広告が掲載されているネットワーク。Advertising Analytics では、この値は常に「Search」です。 |
-| プレースメント（AMO ID） | 管理されている配置の Web サイト（コンテンツネットワーク向け）。このディメンションは管理されているプレースメントのみによって使用されます。 |
-| 製品ターゲット（AMO ID） | PLA 広告で使用される製品の名前（購入した実際の製品ではありません）。 |
-| 最適化（AMO ID） | Advertising Analytics では使用しません。Advertising Cloud のお客様のみが使用します。 |
-| デバイス（AMO ID） | 現在は使用しません。広告のターゲットのデバイスタイプ（モバイル、デスクトップなど）を示すための、将来の潜在的な製品の改良用のプレースホルダーです（訪問者の実際のデバイスではありません）。 |
+| --- | --- |
+| **[!UICONTROL キーワード MatchType （AMO ID）]** | キーワード一致タイプ。通常、値は部分一致、フレーズ一致、完全一致となり、広告タイプに一致するタイプがない場合は値なしです。 |
+| **[!UICONTROL 広告プラットフォーム （AMO ID）]** | 検索エンジンの名前。値には、「Google AdWords」や「Microsoft Bing Ads」を含めることができます。 |
+| **[!UICONTROL アカウント （AMO ID）]** | トラッキングする検索エンジンアカウントの名前。 |
+| **[!UICONTROL キャンペーン （AMO ID）]** | 検索エンジンアカウントでのキャンペーン名。 |
+| **[!UICONTROL 広告グループ （AMO ID）]** | 検索エンジンキャンペーンでの広告グループ名。 |
+| **[!UICONTROL 広告（AMO ID）]** | 広告で使用される広告タイトル + 広告の説明。 |
+| **[!UICONTROL キーワード （AMO ID）]** | 検索エンジンアカウントからのキーワード値。 |
+| **[!UICONTROL 一致するタイプ （AMO ID）]** | キーワードに割り当てられたキーワードの一致タイプ。通常、値は部分一致、フレーズ一致、完全一致となり、広告タイプに一致するタイプがない場合は値なしです。 |
+| **[!UICONTROL 広告タイプ （AMO ID）]** | 提供される広告のタイプ。通常は「テキスト広告」です。 |
+| **[!UICONTROL 広告タイトル （AMO ID）]** | 広告で使用されるタイトルオブジェクト。 |
+| **[!UICONTROL 広告説明（AMO ID）]** | 広告で使用される広告の説明オブジェクト。 |
+| **[!UICONTROL 広告ディスプレイ URL （AMO ID）]** | 広告で使用される広告のディスプレイ URL オブジェクト。 |
+| **[!UICONTROL 広告宛先 URL （AMO ID）]** | 広告に割り当てられたランディングページの URL または最終 URL。 |
+| **[!UICONTROL ネットワーク （AMO ID）]** | 広告が掲載されているネットワーク。Advertising Analytics では、この値は常に「Search」です。 |
+| **[!UICONTROL プレースメント （AMO ID）]** | 管理されている配置の Web サイト（コンテンツネットワーク向け）。このディメンションは管理されているプレースメントのみによって使用されます。 |
+| **[!UICONTROL 製品ターゲット （AMO ID）]** | PLA 広告で使用される製品の名前（購入した実際の製品ではありません）。 |
+| **[!UICONTROL 最適化（AMO ID）]** | Advertising Analytics では使用しません。Advertising Cloud のお客様のみが使用します。 |
+| **[!UICONTROL デバイス （AMO ID）]** | 現在は使用しません。広告のターゲットのデバイスタイプ（モバイル、デスクトップなど）を示すための、将来の潜在的な製品の改良用のプレースホルダーです（訪問者の実際のデバイスではありません）。 |
 
 ### 指標
 
@@ -105,8 +85,8 @@ Advertising Analyticsは、次のディメンションと指標をAnalysis Works
 >
 >AMO ID がランディングページに設定されると設定される、AMO ID インスタンス指標があります（クリックスルーなど）。この指標は、ランディングページヒットによってリアルタイムにキャプチャされ、同じランディングページに設定されている他のディメンションとともに内訳を示すために使用できます。
 
-| 指標名 | 定義 |
-|--- |--- |
-| AMO インプレッション数 | 検索エンジンでレポートされる広告インプレッション数。 |
-| AMO クリック数 | 検索エンジンでレポートされる広告のクリック数。 |
-| AMO コスト | 検索エンジンでレポートされる、キーワード／広告ごとに支払われたコスト。 |
+| Metric name | 定義 |
+| --- | --- |
+| **[!UICONTROL AMO インプレッション数]** | 検索エンジンでレポートされる広告インプレッション数。 |
+| **[!UICONTROL AMO クリック数]** | 検索エンジンでレポートされる広告のクリック数。 |
+| **[!UICONTROL AMO コスト]** | 検索エンジンでレポートされる、キーワード／広告ごとに支払われたコスト。 |

@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspace テンプレートとReport Builderでのレポートの詳細です。
+description: Analysis Workspace テンプレートとReport Builderでのレポートに関する詳細です。
 title: Adobe Analytics での広告データのレポート
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 49%
 
 ## 有料検索レポート {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6&rbrace;Advertising Analytics：有料検索 **からアクセスできます。**
+このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6}Advertising Analytics：有料検索 ]**からアクセスできます。**[!UICONTROL 
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 49%
 | 表／ビジュアライゼーション | 説明 |
 |--- |--- |
 | 広告のトレンド | AMO インプレッション数、AMO クリック数、AMO コストの毎日のトレンド。 |
-| 広告プラットフォーム | 2 つの最上位プラットフォーム（Google、Bing）のコストを示すドーナツグラフ。 |
+| 広告プラットフォーム | 上位 2 つのプラットフォーム（Google広告、Microsoft Advertising）のコストのドーナツグラフ。 |
 | 広告プラットフォームの合計 | 最上位プラットフォームの AMO インプレッション数、AMO クリック数、AMO コスト、AMO 平均順位、AMO 平均品質スコアです。 |
 | アカウント | コストの積み重ね面グラフ。 |
 | アカウントの合計 | 関連する指標による上位のアカウント内訳を示す自由形式の表。 |

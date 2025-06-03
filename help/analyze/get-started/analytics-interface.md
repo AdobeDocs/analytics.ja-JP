@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。 | [トラフィック管理の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=ja) |
    | サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=ja) |
    | ログ | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ja) |
-   | Advertising Analytics | すべての Google および Bing 有料検索データを並べて表示するように Adobe Analytics を設定します。 | [Advertising Analytics の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=ja) |
+   | Advertising Analytics | Adobe Analyticsを設定して、すべてのGoogle Ads とMicrosoft Advertising有料検索データを並べて表示します。 | [Advertising Analytics の設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=ja) |
    | データフィード | データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 | [Analytics データフィードの概要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) |
    | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。 | [IP アドレスで除外](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ja) |
    | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja) |
@@ -136,7 +136,7 @@ Analysis Workspace の概要について詳しくは、[Analysis Workspace の�
 
 | 画像内の場所 | 名前と機能 |
 |---------|----------|
-| A | **左端のパネル：** Analysis Workspace にパネル、ビジュアライゼーションおよびコンポーネントを追加するためのタブが含まれます。また、データ要素を開くために使用する「データ要素」アイコンも含まれます。 |
+| A | **左端のパネル：** Analysis Workspace にパネル、ビジュアライゼーションおよびコンポーネントを追加するためのタブが含まれます。また、データ辞書を開くために使用する「データ辞書」アイコンも含まれます。 |
 | B | **左パネル：**&#x200B;左端のパネルで選択したタブに応じて、この領域には個々のパネル、ビジュアライゼーションまたはコンポーネントが含まれます。 |
 | C | **キャンバス：**&#x200B;これは、左パネルからコンテンツをドラッグしてプロジェクトを作成する主な領域です。パネル、ビジュアライゼーションおよびコンポーネントをキャンバスに追加すると、プロジェクトは動的に更新されます。 |
 | D | **レポートスイートのドロップダウンメニュー：** Analysis Workspace の各パネルでは、レポートスイートのドロップダウンメニューを使用して、データソースとして使用するレポートスイートを選択できます。 |

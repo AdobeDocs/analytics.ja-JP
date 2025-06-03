@@ -3,17 +3,17 @@ description: Advertising Analytics に関する問題をトラブルシューテ
 title: Advertising Analytics のトラブルシューティング
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 # Advertising Analytics のトラブルシューティング
 
 * [ 「マッピング」セクションにレポートスイートが表示されません ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Google AdWords アカウントの認証時にエラーが表示されます。](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Google広告アカウントの認証時にエラーが発生します…](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 「マッピング」セクションにレポートスイートが表示されません。 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -38,7 +38,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-## Google AdWords アカウントの認証時にエラーが表示されます。 {#section_C99EA9A1946E4908B36778A331142B84}
+## Google Ads アカウントの認証時にエラーが表示されます。 {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ ht-degree: 50%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>電子メールアカウント（AdWords Manager アカウントにもリンクされている）を使用した Google AdWords の認証を実行できません。 </p> </td> 
-   <td colname="col2"> <p>同じ AdWords アカウントにリンクされている別の電子メールアカウントを使用して認証をおこなってください。 </p> </td> 
+   <td colname="col1"> <p>Google Ads Manager アカウントにもリンクされているメールアカウントを使用したGoogle Ads の認証は機能しません。 </p> </td> 
+   <td colname="col2"> <p>認証用に同じGoogle Ads アカウントにリンクされている別のメールを使用してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
