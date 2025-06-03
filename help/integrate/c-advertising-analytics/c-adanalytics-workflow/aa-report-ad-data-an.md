@@ -20,7 +20,7 @@ ht-degree: 46%
 
 ## 有料検索レポート {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6}Advertising Analytics：有料検索 ]**からアクセスできます。**[!UICONTROL 
+このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6&rbrace;Advertising Analytics：有料検索 **からアクセスできます。**
 
 >[!NOTE]
 >

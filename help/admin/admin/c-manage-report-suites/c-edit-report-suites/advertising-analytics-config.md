@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Adobe Analyticsを設定して、すべてのGoogle Ads とMicrosoft Advertising有料検索データを並べて表示することができます。
 
-**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/]**9}Advertising Analytics設定**[!UICONTROL 
+**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**`<select report suite>`**/**[!UICONTROL 設定を編集]**/**9&rbrace;Advertising Analytics設定**
 
 Adobe Analytics内で次のデータを取得できます。
 
