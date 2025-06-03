@@ -4,9 +4,9 @@ title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="製品の互換性"
->abstract="使用可能な一部のセグメント条件は、すべてのAdobe Analytics ツールと互換性があるわけではありません。このリストには、セグメントと互換性のあるツールが示されています。 セグメントにすべてのAdobe Analytics ツールとの互換性を持たせるには、条件を編集します。"
+>abstract="使用可能な一部のセグメント条件は、すべての Adobe Analytics ツールと互換性がありません。このリストには、セグメントと互換性のあるツールが示されています。セグメントにすべての Adobe Analytics ツールとの互換性を持たせるには、条件を編集します。"
 
 <!-- markdownlint-disable MD034 -->
 

@@ -4,7 +4,7 @@ title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
 ht-degree: 100%
 
