@@ -4,10 +4,10 @@ keywords: データフィード;ジョブ;指標;列の前;列の後;ボット;�
 title: 計算指標
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->通常、Adobe Analytics から除外されたヒットは、データフィードに含まれます。除外されたヒットを、生データに関するクエリから削除する場合には、`exclude_hit = 0` を使用します。データフィードには、データソースのデータも含まれます。データソースを除外する場合は、`hit_source = 5,7,8,9` を使用してすべての行を除外します。
+>通常はAnalysis Workspaceから除外されるヒットが、データフィードに含まれます。 次の条件を関連するクエリに追加することを検討してください。
+>
+>* **`exclude_hit`**:Analysis Workspaceには、`exclude_hit = 0` の場所にあるデータのみが含まれます。
+>* **`customer_perspective`**：モバイルバックグラウンドヒットを含む仮想レポートスイートを使用しない限り、Analysis Workspaceには `customer_perspective = 0` のデータのみが含まれます。
+>* **`hit_source`**：データソースのデータには、生データとAnalysis Workspaceの違いが含まれている場合があります。 データソースからのヒットを除外する場合は、`hit_source = 5,7,8,9` の条件を満たすすべての行を除外します。
 
 ## ページビュー数
 
@@ -36,9 +40,9 @@ ht-degree: 95%
 >
 >インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。オプションですが、訪問をカウントする際には `visit_start_time_gmt` を使用して、その訪問がカウントされるようにします。
 
-## 訪問者
+## 訪問者数
 
-ユニーク訪問者（カスタム訪問者 ID、Experience Cloud ID サービスなど）を識別するためにアドビが使用するすべての方法はすべて最終的に、`post_visid_high` と `post_visid_low` の値として計算されます。これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
+Adobeがユニーク訪問者の特定に使用するすべての手段（カスタム訪問者 ID、Experience Cloud ID サービスなど）は、最終的に `post_visid_high` と `post_visid_low` の値として計算されます。 これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。
