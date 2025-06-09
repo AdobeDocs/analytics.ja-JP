@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5026'
 ht-degree: 100%
 
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="シーリング"
->abstract="指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、CEILING(Revenue) という数式を使用して、売上高を直近のドル値（$570）に切り上げます。"
+>abstract="指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 で、通貨の小数点以下を売上高のレポートに含めない場合は、CEILING(Revenue) という数式を使用して、売上高を最も近いドル値（$570）に切り上げます。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL CEILING(metric)]**
 
-[!BADGE 行]{type="Neutral"} 指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、CEILING(Revenue) という数式を使用して、売上高を直近のドル値（$570）に切り上げます。
+[!BADGE 行]{type="Neutral"} 指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 で、通貨の小数点以下を売上高のレポートに含めない場合は、CEILING(Revenue) という数式を使用して、売上高を最も近いドル値（$570）に切り上げます。
 
 | 引数 | 説明 |
 |---|---|
@@ -309,13 +309,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="余弦"
->abstract="指定された角度の余弦を返します。 角度が度単位の場合は、角度に PI()/180 で乗算します。"
+>abstract="指定された角度の余弦を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE 行]{type="Neutral"} 指定された角度の余弦を返します。角度が度単位の場合は、角度に PI()/180 で乗算します。
+[!BADGE 行]{type="Neutral"} 指定された角度の余弦を返します。角度の単位が「度」の場合は、角度に PI()/180 で乗算します。
 
 | 引数 | 説明 |
 |---|---|
@@ -1348,14 +1348,14 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-sin"
 >title="正弦"
->abstract="指定された角度の正弦を返します。角度が度単位の場合は、角度に PI()/180 で乗算します。"
+>abstract="指定された角度の正弦を返します。角度の単位が「度」の場合は、角度に PI()/180 で乗算します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL SINE(metric)]**
 
 
-[!BADGE 行]{type="Neutral"} 指定された角度の正弦を返します。角度が度単位の場合は、角度に PI()/180 で乗算します。
+[!BADGE 行]{type="Neutral"} 指定された角度の正弦を返します。角度の単位が「度」の場合は、角度に PI()/180 で乗算します。
 
 
 | 引数 | 説明 |
@@ -1440,13 +1440,13 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="正接"
->abstract="指定された角度の正接を返します。 角度が度単位の場合は、角度に PI()/180 で乗算します。"
+>abstract="指定された角度の正接を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-指定された角度の正接を返します。 角度が度単位の場合は、角度に PI()/180 で乗算します。
+指定された角度の正接を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。
 
 | 引数 | 説明 |
 |---|---|
