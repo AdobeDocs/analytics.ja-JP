@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ Google Ads とMicrosoft Advertisingのアカウント ID を見つける方法�
 
 ![Google広告マネージャーアカウント ](assets/google-account.png)
 
-## MicrosoftAdvertising（Bing） {#microsoft}
+## Microsoft 広告（Bing） {#microsoft}
 
 >[!NOTE]
 >
@@ -37,17 +37,17 @@ Google Ads とMicrosoft Advertisingのアカウント ID を見つける方法�
 
 **[!UICONTROL アカウント ID]** と **[!UICONTROL マネージャーアカウント ID]** の両方が必要です。
 
-- **[!UICONTROL アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL アカウント設定]**/**[!UICONTROL アカウント ID]** にあります。 [!UICONTROL &#x200B; アカウント番号 &#x200B;] ではなく、[!UICONTROL &#x200B; アカウント ID] を使用していることを確認してください。
-- **[!UICONTROL 管理者アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL 管理者アカウント設定]**/**[!UICONTROL 管理者アカウント ID]** の下にあります。 [!UICONTROL &#x200B; 管理者アカウント番号 &#x200B;] ではなく [!UICONTROL &#x200B; 管理者アカウント ID] を使用していることを確認してください。
+- **[!UICONTROL アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL アカウント設定]**/**[!UICONTROL アカウント ID]** にあります。 [!UICONTROL  アカウント番号 ] ではなく、[!UICONTROL  アカウント ID] を使用していることを確認してください。
+- **[!UICONTROL 管理者アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL 管理者アカウント設定]**/**[!UICONTROL 管理者アカウント ID]** の下にあります。 [!UICONTROL  管理者アカウント番号 ] ではなく [!UICONTROL  管理者アカウント ID] を使用していることを確認してください。
 
 ![Microsoft Advertisingのナビゲーション ](assets/bing-id.png)
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="アカウント ID"
->abstract="「アカウント ID」は、Microsoft Advertising インターフェイスにある数値です。 設定/アカウント設定/アカウント ID に移動すると、アカウントを見つけることができます。"
+>abstract="「アカウント ID」は、Microsoft 広告インターフェイスにある数値です。設定／アカウント設定／アカウント ID に移動すると、アカウントを見つけることができます。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="Manager account ID"
->abstract="「管理者アカウント ID」は、Microsoft Advertising インターフェイスにある数値です。 この場所を特定するには、設定/マネージャーアカウント設定/マネージャーアカウント ID に移動します。"
+>title="マネージャーアカウント ID"
+>abstract="「マネージャーアカウント ID」は、Microsoft 広告インターフェイスにある数値です。設定／マネージャーアカウント設定／マネージャーアカウント ID に移動すると、アカウントを見つけることができます。"
