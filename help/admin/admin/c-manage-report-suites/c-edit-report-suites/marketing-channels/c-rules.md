@@ -4,7 +4,7 @@ description: マーケティングチャネルの処理ルールは、訪問者�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -82,7 +82,7 @@ ht-degree: 91%
 | リファラーが内部 URL フィルターに一致する | 管理ツールのレポートスイートで定義されている内部 URL フィルターに一致するページ URL からのアクセス。 |
 | リファラーが内部 URL フィルターに一致しない | 管理ツールにあるレポートスイートで定義されたとおり、参照 URL が内部 URL フィルターに一致しません。この設定を「ページ URL」および「存在する」と共に使用して包括的ルールを設定することで、レポートの「チャネルが識別されませんでした」セクションに到達する訪問をなくすことができます。 |
 | 内部 URL フィルターに一致するヒットを無視する | （リファラーに対して）外部参照サイトからのヒットのみをトラッキングします。内部トラフィックを含める場合以外、通常はこの設定を有効にしておきます。 |
-| 訪問の最初のページ | アドビのレポートで検出された訪問の最初のページ。 |
+| 訪問の最初のヒットです | Adobe レポートで検出された訪問の最初のヒット。 |
 | ページ | [ページ](/help/components/dimensions/page.md)ディメンション。 |
 | ページドメイン | `products.example.com` など、訪問者が到着したページのドメイン。 |
 | ページドメインとパス | ドメインとパス（例：`products.example.com/mens/pants/overview.html`）。 |
