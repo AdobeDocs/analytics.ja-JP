@@ -3,9 +3,9 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 683e204b1cb316b9474dd22194b377ade1d23cf4
+source-git-commit: d2f87c771ec2d5ab671cd8f022a2bd2e23a51ccb
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '951'
 ht-degree: 45%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 45%
 | **変更されたアトリビューションモデルダイアログ** | アトリビューションモデルダイアログで、コンテナと期間を別々に定義できるようになりました。 |  | 18,2025年6月 |
 | **顧客属性 UI へのナビゲーションを更新しました** | 顧客属性ユーザーインターフェイスに、Adobe Experience Cloudのアプリセレクターから直接アクセスできるようになりました。 |  | 未定 |
 | **ストリーミングメディア：スケジュールデータのサポート** | 過去のライブストリーミングメディアコンテンツの予定データをアップロードして、より簡単かつ正確に視聴者を追跡できるようになりました。 スケジュールデータのアップロードでサポートされるライブコンテンツの例を以下に示します。<ul><li>FAST （無料広告に対応した TV）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul>スケジュールデータをアップロードすると、アップロードファイルで指定した時間内に実行された個々のプログラムの視聴者データを追跡できます。 特定のトピックやプログラムセグメントの視聴者データを収集することもできます。 これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。<p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に関連付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに関連付けることはできませんでした。 詳細情報 |  | 2025年6月25日（PT） |
-| **Chrome プリレンダリングのサポート** | Chromeがページを事前レンダリングする際の、データ収集ライブラリの動作を制御します。 （ドキュメントへのリンクを添付） |  | 2025年6月30日（PT） |
 
 ## Adobe Analytics の修正点
 
@@ -51,7 +50,7 @@ ht-degree: 45%
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **レガシー Report Builder** | 2025年6月18日（PT） | 従来のReport Builder アドインは、2026 年 6 月に廃止されます。 すべてのユーザーは、従来のワークブックから [ ニューReport Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview) へのアップグレードを開始する必要があります。 新しいReport Builderは、Adobe AnalyticsとCustomer Journey Analyticsの両方のお客様が利用できます。 [ ほぼ同等の機能 ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/convert-workbooks#unsupported) に加えて、多くの新しい便利な機能と UI の強化があります。 アップグレードプロセスを容易にするために、新しいReport Builderには、ブックの簡単な変換機能が含まれています。 新しいReport Builderは、Microsoft ストアを通じてアドインとしてのみ使用できます。 多くの組織では、ユーザーがアドインを使用できるように、内部の承認プロセスが必要です。 このプロセスには時間を割いて今すぐ組織との連携を開始し、EOL 日までにワークブックをアップグレードするのに十分な時間を確保してください。 |
+| **レガシー Report Builder** | 2025年6月18日（PT） | 従来のReport Builder アドインは、2026 年 6 月に廃止されます。 すべてのユーザーは、従来のワークブックから [ ニューReport Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview) へのアップグレードを開始する必要があります。 新しいReport Builderは、Adobe AnalyticsとCustomer Journey Analyticsの両方のお客様が利用できます。 [ ほぼ同等の機能 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks#unsupported) に加えて、多くの新しい便利な機能と UI の強化があります。 アップグレードプロセスを容易にするために、新しいReport Builderには、ブックの簡単な変換機能が含まれています。 新しいReport Builderは、Microsoft ストアを通じてアドインとしてのみ使用できます。 多くの組織では、ユーザーがアドインを使用できるように、内部の承認プロセスが必要です。 このプロセスには時間を割いて今すぐ組織との連携を開始し、EOL 日までにワークブックをアップグレードするのに十分な時間を確保してください。 |
 | **レガシードメインまたはレガシー SSO 経由のアクセス** | 2025年4月10日（PT） | アドビでは、セキュリティを強化し、ログインエクスペリエンスを効率化するために、ユーザーの Adobe Analytics へのアクセス方法を更新する予定です。この取り組みの一環として、`my.omniture.com` を含むレガシードメインまたはレガシー SSO 経由のアクセスは、**2026年1月2日（PT）**&#x200B;に完全に廃止されます。この日以降、レガシーログイン資格情報とレガシー SSO は機能しなくなります。すべてのユーザーは、Adobe Experience Cloud ID を使用して `experience.adobe.com` 経由でログインする必要があります。Experience Cloud ID に関するサポートが必要な場合は、組織の Adobe Analytics 管理者または[アドビカスタマーケア](https://helpx.adobe.com/jp/contact.html)にお問い合わせください。 |
 | **Adobe I/O OAuth サーバー間資格情報への移行** | 2025年1月17日（PT） | Adobe I/O JWT 資格情報を使用している Adobe Analytics API および Livestream のお客様は、**2025年6月30日（PT）**&#x200B;までに Adobe I/O OAuth サーバー間資格情報に移行する必要があります。Adobe I/O では、2024年5月1日（PT）以降、新しい JWT 資格情報を作成できなくなります。 JWT を使用しているお客様は、新しい OAuth サーバー間資格情報を作成するか、既存の JWT 資格情報を OAuth サーバー間資格情報に移行する必要があります。 また、お客様が新しい OAuth サーバー間資格情報を使用するには、クライアントアプリケーションを更新する必要もあります。 <ul><li>[サービスアカウント（JWT）資格情報からの移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration)</li><li>[OAuth を使用した新旧のアプリケーションの実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)<li>[新しい OAuth サーバー間資格情報の使用](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation)</li><li>[よくある質問（FAQ）](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs)</li></ul> |
 | **Adobe Analytics API （バージョン 1.4）** | 2024年7月17日（PT） | **2026年8月12日（PT）**&#x200B;に、次の Analytics Legacy API サービスはサポート終了となり、シャットダウンされ、これらのサービスを使用して作成された現在の統合は機能を停止します。<ul><li>Adobe Analytics API（バージョン 1.4）</li><li>Adobe Analytics WSSE 認証</li></ul><p>Adobe Analytics API（バージョン 1.4）を使用する統合は [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があり、WSSE 統合は [Adobe Developer Console](https://developer.adobe.com/console) の OAuth ベースの認証プロトコルに移行する必要があります。</p><p>よくある質問への回答と詳細なガイダンスについては、[Adobe Analytics 1.4 API EOL FAQ](/help/admin/c-admin-api/c-admin-14-api-eol.md) を参照してください。</p> |
