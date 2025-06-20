@@ -28,7 +28,7 @@ ht-degree: 67%
 >abstract="このセグメントのデータとデータビューのデータを比較します。プレビューの割合は、**過去 90 日間**&#x200B;のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
 
 
-**[!UICONTROL セグメントビルダー]** ダイアログでは、新しいセグメントの作成や既存のセグメントの編集を行うことができます。 ダイアログのタイトルは、**[!UICONTROL セグメント]** マネージャーから作成または管理するセグメントの場合、**&#x200B;** 新規セグメント [[!UICONTROL &#x200B; または &#x200B;] セグメントを編集 ](/help/components/segmentation/segmentation-workflow/seg-manage.md) になります。
+**[!UICONTROL セグメントビルダー]** ダイアログでは、新しいセグメントの作成や既存のセグメントの編集を行うことができます。 ダイアログのタイトルは、**[!UICONTROL セグメント]** マネージャーから作成または管理するセグメントの場合、**** 新規セグメント [[!UICONTROL  または ] セグメントを編集 ](/help/components/segmentation/segmentation-workflow/seg-manage.md) になります。
 
 >[!BEGINTABS]
 
@@ -47,7 +47,7 @@ ht-degree: 67%
    | 要素 | 説明 |
    | --- | --- |
    | **[!UICONTROL レポートスイート]** | セグメントに対するレポートスイートを選択できます。 |
-   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトでのみ表示され、セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。 **[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** を有効にして、その設定を変更します。 この情報ボックスは、[ クイックセグメント ](seg-quick.md) インターフェイスから **[!UICONTROL ビルダーを開く]** を使用して [!UICONTROL &#x200B; クイックセグメント &#x200B;] を作成し、クイックセグメント情報を通常のセグメントに切り替えた場合にのみ表示されます。 |
+   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトでのみ表示され、セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。 **[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** を有効にして、その設定を変更します。 この情報ボックスは、[ クイックセグメント ](seg-quick.md) インターフェイスから **[!UICONTROL ビルダーを開く]** を使用して [!UICONTROL  クイックセグメント ] を作成し、クイックセグメント情報を通常のセグメントに切り替えた場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | セグメントに名前を付けます（例：`Last month mobile visitors`）。 |
    | **[!UICONTROL 説明]** | セグメントの説明（例：`Segment to define the mobile customers for the last month`）を指定します。 |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
@@ -215,7 +215,7 @@ There are several ways to access the Segment Builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.

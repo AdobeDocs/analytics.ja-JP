@@ -24,7 +24,7 @@ ht-degree: 77%
      | 指標タイプ | 定義 |
      |---|---|
      | **[!UICONTROL 標準]** | 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Visits]** は、その特定の行項目の注文を受け取り、その特定の行項目の訪問回数で割ります。 |
-     | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![ 除算 ](/help/assets/icons/Divide.svg) ![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 訪問総数]** は、特定の行項目への訪問だけでなく、すべての訪問に対する注文数の割合を表示します。 この例では、計算指標の **[!UICONTROL イベント]**&#x200B;**訪問回数 ![ 指標に対して ](/help/assets/icons/Event.svg) 総計** を指定すると、自動的に ![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 訪問回数の合計]** に変わります。 |
+     | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![ 除算 ](/help/assets/icons/Divide.svg) ![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 訪問総数]** は、特定の行項目への訪問だけでなく、すべての訪問に対する注文数の割合を表示します。 この例では、計算指標の **[!UICONTROL イベント]****[!UICONTROL 訪問回数 ![ 指標に対して ](/help/assets/icons/Event.svg) 総計]** を指定すると、自動的に ![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 訪問回数の合計]** に変わります。 |
 
    * 「**[!UICONTROL アトリビューション]**」を指定します。
 
