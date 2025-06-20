@@ -25,4 +25,4 @@ ht-degree: 24%
 1. アクションバーの「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Unapprove]**」を選択します。
 
 
-セグメントリストを承認済みセグメントでセグメント化できます。 **[!UICONTROL セグメント]****[!UICONTROL セグメント ![ パネルから ](/help/assets/icons/Filter.svg) その他のセグメント]** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。
+セグメントリストを承認済みセグメントでセグメント化できます。 **[!UICONTROL セグメント]**&#x200B;**セグメント ![ パネルから ](/help/assets/icons/Filter.svg) その他のセグメント** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。

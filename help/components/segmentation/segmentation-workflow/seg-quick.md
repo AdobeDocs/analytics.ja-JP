@@ -57,11 +57,11 @@ ht-degree: 23%
 クイックセグメントを管理するには、特定の **[!UICONTROL クイックセグメント]** にポインタを合わせます。
 
 * ![ 編集 ](/help/assets/icons/Edit.svg) を選択して [ クイックセグメントビルダー ](#quick-segment-builder) を開き、クイックセグメントを編集します。
-* ![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択して、ポップアップを開きます。 ポップアップにセグメントに関する情報が表示されます。 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]**」を選択できます。セグメントをコンポーネントパネルの ![ セグメント ](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]** コンポーネントリストに追加するには、次の手順を実行します。 **[!UICONTROL クイックセグメントを保存]** ダイアログが表示され、セグメントの名前を指定するように求められます。 「**[!UICONTROL 保存]**」を選択して続行します。[!UICONTROL  クイックセグメント ] が **[!UICONTROL セグメント]** に変わります。 [ クイックセグメントビルダー ](#quick-segment-builder) を使用してセグメントを編集することはできません。 代わりに、[ セグメントビルダー ](seg-build.md) を使用して、セグメントを通常のセグメントとして編集する必要があります。
+* ![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択して、ポップアップを開きます。 ポップアップにセグメントに関する情報が表示されます。 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]**」を選択できます。セグメントをコンポーネントパネルの ![ セグメント ](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]** コンポーネントリストに追加するには、次の手順を実行します。 **[!UICONTROL クイックセグメントを保存]** ダイアログが表示され、セグメントの名前を指定するように求められます。 「**[!UICONTROL 保存]**」を選択して続行します。[!UICONTROL &#x200B; クイックセグメント &#x200B;] が **[!UICONTROL セグメント]** に変わります。 [ クイックセグメントビルダー ](#quick-segment-builder) を使用してセグメントを編集することはできません。 代わりに、[ セグメントビルダー ](seg-build.md) を使用して、セグメントを通常のセグメントとして編集する必要があります。
 
 ## クイックセグメントビルダー
 
-クイックセグメントビルダーの例については、以下を参照してください。 この例では、`Interaction Channel equals Website AND Online Orders is greater than 1` という名前のクイックセグメントに対してビルダーが開かれています。 上部のクイックセグメントは、[!UICONTROL  平均注文値ダッシュボード ] パネルと、内のすべてのビジュアライゼーションに適用されます。
+クイックセグメントビルダーの例については、以下を参照してください。 この例では、`Interaction Channel equals Website AND Online Orders is greater than 1` という名前のクイックセグメントに対してビルダーが開かれています。 上部のクイックセグメントは、[!UICONTROL &#x200B; 平均注文値ダッシュボード &#x200B;] パネルと、内のすべてのビジュアライゼーションに適用されます。
 
 ![クイックセグメントビルダー](assets/quick-segment-builder.png)
 

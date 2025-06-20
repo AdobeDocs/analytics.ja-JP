@@ -18,4 +18,4 @@ ht-degree: 9%
 
 * 「![StarOutline](/help/assets/icons/StarOutline.svg)」を選択して計算指標の使用を許可するか、「![Star](/help/assets/icons/Star.svg)」を選択して計算指標の使用を許可しない。
 
-計算指標のリストをお気に入りでフィルタリングできます。 **[!UICONTROL フィルター]** **[!UICONTROL フィルター ![ パネルから ](/help/assets/icons/Filter.svg) その他のフィルター]** を選択し、「**[!UICONTROL お気に入り]**」を選択します。 詳しくは、[ 計算指標のリストのフィルタリング ](cm-filter.md) を参照してください。
+計算指標のリストをお気に入りでフィルタリングできます。 **[!UICONTROL フィルター]** **フィルター ![ パネルから ](/help/assets/icons/Filter.svg) その他のフィルター** を選択し、「**[!UICONTROL お気に入り]**」を選択します。 詳しくは、[ 計算指標のリストのフィルタリング ](cm-filter.md) を参照してください。

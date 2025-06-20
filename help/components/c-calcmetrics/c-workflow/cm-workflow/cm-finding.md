@@ -14,4 +14,4 @@ ht-degree: 30%
 
 他のタイプのコンポーネントを探すのと同じ方法で、Analysis Workspace内の指標を探すことができます。
 
-コンポーネントをすばやく見つける方法について詳しくは、[ コンポーネントの概要 [ のコンポーネントリストの検索、フィルタリング ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#search-filter-and-sort-the-component-list) 並べ替え ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照してください。
+コンポーネントをすばやく見つける方法について詳しくは、[&#128279;](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) コンポーネントの概要 [ のコンポーネントリストの検索、フィルタリング ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#search-filter-and-sort-the-component-list) 並べ替え  を参照してください。

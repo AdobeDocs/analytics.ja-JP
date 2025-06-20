@@ -18,4 +18,4 @@ ht-degree: 22%
 
 * 「![ 星形 ](/help/assets/icons/StarOutline.svg)」を選択してセグメントの選択を解除するか、「![ 星形 ](/help/assets/icons/Star.svg)」を選択してセグメントの選択を解除します。
 
-セグメントのリストをお気に入りで並べ替えることができます。 ![ セグメント ]****[!UICONTROL  セグメント ](/help/assets/icons/Filter.svg) パネルから **[!UICONTROL その他のセグメント]** を選択し、**[!UICONTROL お気に入り]** を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。
+セグメントのリストをお気に入りで並べ替えることができます。 [ セグメント ]&#x200B;**&#x200B;**![[!UICONTROL &#x200B; セグメント &#x200B;]](/help/assets/icons/Filter.svg) パネルから **[!UICONTROL その他のセグメント]** を選択し、**[!UICONTROL お気に入り]** を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。

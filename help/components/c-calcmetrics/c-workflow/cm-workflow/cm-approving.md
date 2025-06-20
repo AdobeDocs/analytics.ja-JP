@@ -25,5 +25,5 @@ ht-degree: 21%
 1. アクションバーの「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Unapprove]**」を選択します。
 
 
-承認済みの計算指標を使用して、計算指標のリストをフィルタリングできます。 **[!UICONTROL フィルター]** **[!UICONTROL フィルター ![ パネルから ](/help/assets/icons/Filter.svg) その他のフィルター]** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ 計算指標のリストのフィルタリング ](cm-filter.md) を参照してください。
+承認済みの計算指標を使用して、計算指標のリストをフィルタリングできます。 **[!UICONTROL フィルター]** **フィルター ![ パネルから ](/help/assets/icons/Filter.svg) その他のフィルター** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ 計算指標のリストのフィルタリング ](cm-filter.md) を参照してください。
 
