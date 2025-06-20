@@ -3,37 +3,87 @@ description: セグメントマネージャでは、セグメントにタグを�
 title: セグメントのタグ設定
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 9%
 
 ---
 
 # セグメントのタグ設定
 
-セグメントマネージャでは、セグメントにタグを付けて管理できます。
+[ セグメントマネージャー ](seg-manage.md) では、タグを使用してセグメントを整理できます。 管理者はすべてのセグメントにタグを付けることができます。 管理者以外のユーザーは、自分が作成したセグメントまたは共有されているセグメントにのみタグを付けることができます。
 
-すべてのユーザーがセグメントにタグを付けることができます。セグメントには 1 つ以上のタグを適用できます。ただし、自分が所有しているまたは自分が共有していたセグメントに対するタグのみを表示できます。どのような種類のタグを作成する必要がありますか。次に、便利なタグのいくつかを示します。
+1 つ以上のセグメントにタグを付けるには：
 
-* ソーシャルマーケティング、モバイルマーケティングなど、**チーム名**&#x200B;に基づくタグ。
-* **プロジェクト**&#x200B;タグ（分析タグ）：入口ページ分析など。
-* **カテゴリ**&#x200B;タグ：メンズ、地域。
-* **ワークフロー**&#x200B;タグ：承認済み、（特定のビジネスユニット向けの）キュレーション。
+1. [ セグメントマネージャー ](seg-manage.md) で、タグ付けするセグメントを 1 つ以上選択します。
+1. アクションバーから、「![ ラベル ](/help/assets/icons/Labels.svg) **[!UICONTROL タグ]**」を選択します。
+1. **[!UICONTROL セグメントをタグ付け]** ダイアログで、次の手順を実行します。
 
-1. セグメントマネージャで、タグを付けるセグメントの横にあるチェックボックスを選択します。セグメント管理ツールバーが表示されます。
+   ![ セグメントをタグダイアログ ](assets/segments-tag.png)
 
-   ![](assets/segment_mgmt_toolbar.png)
+   1. （オプション） ![ 検索 ](/help/assets/icons/Search.svg) を使用して、タグのリストを検索および制限します。
 
-1. 「**[!UICONTROL タグ]**」をクリックし、次のいずれかの操作を行います。
+   2. タグのリストに基づく：
 
-   * 既存のタグから選択するか、
-   * 新しいタグを追加して、**[!UICONTROL Enter]** キーを押します。
+      * リストから 1 つ以上の既存のタグを選択する。または
+      * 新しいタグを入力し、**[!UICONTROL Enter]** キーを押します。 繰り返して、複数の新しいタグを追加します。
 
-     ![](assets/tagging_ui.png)
+1. 「**[!UICONTROL 保存]**」を選択して、セグメントのタグを保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-1. 「**[!UICONTROL タグ]**」を再度クリックしてセグメントにタグを付けます。
+保存すると、タグは [!UICONTROL  セグメントビルダー ] で選択したセグメントの「[ タグ ](seg-build.md)」フィールドにリストされます。
 
-これで、タグが「タグ」列に表示されます（右上のギアアイコンをクリックして列を管理します）。
 
-また、**[!UICONTROL フィルター]**／**[!UICONTROL タグ]**&#x200B;に移動すると、タグをフィルタリングできます。
+## 候補
+
+以下に、に基づいてタグを整理する推奨事項を示します。
+
+* **チーム**：ソーシャルマーケティング、モバイルマーケティングなど。
+
+* **プロジェクト**：例：入口ページ分析。
+
+* **カテゴリ**:. 例えば、男性、女性、子供。
+
+* **Geography**：例：米国、カリフォルニア州。
+
+* **ワークフロー**：例：承認を受ける、キュレーション済み
+
+
+<!--
+In the [Segment manager](seg-manage.md), you can use tags to organize segments. Administrators can tag all segments. Non administroators can tags only the segments they create or have been shared with them.
+
+To tag one or more segments:
+
+1. In the [Segment manager](seg-manage.md), select one or more of the segments you want to tag.
+1. From the action bar, select ![Labels](/help/assets/icons/Labels.svg) **[!UICONTROL Tag]**.
+1. In the **[!UICONTROL Tag Segments]** dialog:
+   
+   ![Tag Segments dialog](assets/tag-filter-dialog.png)
+
+   1. (optionally) use ![Search](/help/assets/icons/Search.svg) to search for and limit the list of tags.
+
+   2. Based on the list of tags:
+   
+      * select one or more existing tags from the list, or
+      * enter a new tag and press **[!UICONTROL ENTER]**. Repeat to add more than one new tag.
+
+1. Select **[!UICONTROL Save]** to save the tags for the segment. Select **[!UICONTROL Cancel]** to cancel.
+
+Once saved, the tags are listed in the [!UICONTROL Tag] field for the selected segments in the [Segment builder](seg-builder.md). 
+
+
+## Suggestions
+
+Below are some suggestions to organize tags based on:
+
+* **Team**: For example, Social Marketing, Mobile Marketing.
+    
+* **Project**: For example, Entry-page analysis.
+    
+* **Category**:. For example, Men, Women, Kids.
+
+* **Geography**: For example: United States, California.
+    
+* **Workflow**: For example: To be approved,  Curated
+
+-->

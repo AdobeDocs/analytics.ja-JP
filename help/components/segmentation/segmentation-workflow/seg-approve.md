@@ -3,31 +3,26 @@ description: セグメントマネージャでは、アプリケーションの�
 title: セグメントの承認
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '135'
+ht-degree: 24%
 
 ---
 
 # セグメントの承認
 
-セグメントマネージャー内で、ワークフローを設定できます。このワークフローには、様々なアプリケーションレベル、特定の部門またはグループのセグメントを承認する処理、レポートポリシーと一致する処理が含まれます。
+[ セグメントマネージャー ](seg-manage.md) では、セグメントの承認と未承認を行うことができます。 管理者のみがセグメントを承認できます。
 
->[!NOTE]
->
->管理者は、[ データ要素でのコンポーネントエントリの編集 ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) で説明しているように、データ要素からセグメント（および他のコンポーネント）を承認することもできます。
->
->データ要素で承認されたセグメントは、セグメントマネージャーに反映されます。 同様に、セグメントマネージャーで承認された指標は、データ要素に反映されます。
+セグメントを承認するには：
 
-次に、セグメントに承認フラグを設定する方法を示します。
+1. [ セグメントマネージャー ](seg-manage.md) で、承認するセグメントを 1 つ以上選択します。
+1. アクションバーの「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Approve]**」を選択します。 承認されたセグメントには ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) が付きます。
 
-1. セグメントマネージャで、セグメントタイトルの左側にあるチェックボックスを選択します。
-1. セグメント管理タスクバーの「**[!UICONTROL 承認]**」をクリックします。
-1. 承認済みセグメントを組織で共有することを検討します。
-1. 「**[!UICONTROL OK]**」をクリックします。
-1. リスト内のセグメントの横に承認アイコンがあることに注意します。
+セグメントの承認を取り消すには：
 
-   ![](assets/seg_approved.png)
+1. [ セグメントマネージャー ](seg-manage.md) で、承認を取り消す 1 つ以上のセグメントを選択します。
+1. アクションバーの「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Unapprove]**」を選択します。
 
-1. また、「**[!UICONTROL 未承認]**」をクリックすると、承認済みセグメントを未承認にすることもできます。
+
+セグメントリストを承認済みセグメントでセグメント化できます。 **[!UICONTROL セグメント]****[!UICONTROL セグメント ![ パネルから ](/help/assets/icons/Filter.svg) その他のセグメント]** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。

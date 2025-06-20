@@ -3,14 +3,53 @@ description: 詳細
 title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 77%
 
 ---
 
 # 指標タイプとアトリビューション {#metric-type-attribution}
+
+計算指標定義で指標の指標タイプと[アトリビューションモデル](#attribution-models)を設定できます。
+
+1. 指標コンポーネントで「![設定](/help/assets/icons/Setting.svg)」を選択します。
+1. ポップアップダイアログで以下を行います。
+
+   ![指標タイプとアトリビューション](assets/cm-type-alloc.png)
+
+   * 「**[!UICONTROL 指標タイプ]**」を指定します。
+
+     | 指標タイプ | 定義 |
+     |---|---|
+     | **[!UICONTROL 標準]** | 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Visits]** は、その特定の行項目の注文を受け取り、その特定の行項目の訪問回数で割ります。 |
+     | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![ 除算 ](/help/assets/icons/Divide.svg) ![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 訪問総数]** は、特定の行項目への訪問だけでなく、すべての訪問に対する注文数の割合を表示します。 この例では、計算指標の **[!UICONTROL イベント]****[!UICONTROL 訪問回数 ![ 指標に対して ](/help/assets/icons/Event.svg) 総計]** を指定すると、自動的に ![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 訪問回数の合計]** に変わります。 |
+
+   * 「**[!UICONTROL アトリビューション]**」を指定します。
+
+      1. 以下のいずれかを実行できます。
+
+         * 30 日間のルックバックウィンドウを持つデフォルトの列アトリビューションモデル（ラストタッチ）を使用する場合は、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を無効にします。
+         * 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を有効にします。**[!UICONTROL 列アトリビューションモデル]**&#x200B;ダイアログで以下を行います。
+
+            * 「**[!UICONTROL アトリビューションモデル]**」から [ モデル ](#attribution-models) を選択します。
+            * **[!UICONTROL コンテナ]** オプションから [ コンテナ ](#container) を選択します。
+            * **[!UICONTROL ルックバックウィンドウ]** オプションから [ ルックバックウィンドウ ](#lookback-window) を選択します。 **[!UICONTROL カスタム時間]** を選択した場合は、期間を **[!UICONTROL 分]** 最大 **[!UICONTROL 四半期]** で定義できます。
+
+      1. デフォルト以外のアトリビューションモデルを適用するには、「**[!UICONTROL 適用]**」を選択します。キャンセルするには、「キャンセル」を選択します。
+
+     デフォルト以外のアトリビューションモデルを既に定義してある場合は、「**[!UICONTROL 編集]**」を選択して、選択項目を変更します。
+
+アトリビューションモデル、コンテナおよびルックバックウィンドウの使用例については、[ 例 ](#example) を参照してください。
+
+
+## アトリビューションモデル {#attribution-models}
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="デフォルト以外のアトリビューションモデルを使用"
+>abstract="選択した指標に対してデフォルト以外のアトリビューションモデルを有効にします。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -92,49 +131,66 @@ ht-degree: 100%
 >title="アルゴリズム"
 >abstract="クレジットは、統計的アルゴリズムに基づいて動的に決定されます。"
 
+{{attribution-models-details}}
+
+
+## コンテナ {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="コンテナ"
 >abstract="コンテナを選択して、アトリビューションに必要な範囲を設定します。"
 
+{{attribution-container}}
+
+
+## ルックバックウィンドウ {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="ルックバックウィンドウ"
 >abstract="この設定により、各コンバージョンに適用されるデータアトリビューションの期間が決まります。"
 
-[計算指標を作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)する際に、指標タイプとアトリビューションモデルを指定できます。
+{{attribution-lookback-window}}
 
-## 指標タイプ
+## 例
 
-計算指標を作成する際に、指標タイプを指定するには：
+{{attribution-example}}
 
-1. 選択するタイプの指標の横にある歯車アイコンを選択します。
 
-   ![](assets/cm_type_alloc.png)
+<!--
+When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
-1. 次のオプションから選択します。
+## Metric type
 
-   | 指標タイプ | 定義 |
+To specify the metric type when building a calculated metric:
+
+1. Select the gear icon next to the metric whose type you want to select.
+
+   ![](assets/cm-type-alloc.png) 
+
+1. Choose from the following options:
+
+   |  Metric Type  | Definition  |
    |---|---|
-   | 標準 | これらの指標は、標準の [!DNL Analytics] レポートで使用される指標と同じです。1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。例えば、[購入回数]／[訪問回数]の場合、特定の行項目の購入回数を特定の行項目の訪問回数で割ります。 |
-   | 総計 | 各行項目のレポート期間の総計を使用します。1 つの総計指標で構成される数式は、各行項目で同じ合計数を表示します。総計指標は、サイト合計データと比較する計算指標を作成する場合に役立ちます。例えば、[購入回数]／[合計訪問回数]は、特定の行項目への訪問回数だけでなく、サイトへのすべての訪問回数に対する購入回数の割合を示します。 |
+   |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+   |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## 線形配分の仕組み
+## How linear allocation works
 
-[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)は、計算指標における配分モデルを評価する方法です。
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
-デフォルト以外のアトリビューションモデルとサポートされるルックバックウィンドウの完全なリストについて詳しくは、[アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md)を参照してください。
+For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
-次の例では、レポートで機能する線形配分を使用した計算指標を示します。
+The following example illustrates how calculated metrics with linear allocations work in reporting: 
 
-| | ヒット 1 | ヒット 2 | ヒット 3 | ヒット 4 | ヒット 5 | ヒット 6 | ヒット 7 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 送信データ | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| ラストタッチ eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| ファーストタッチ eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| prop 例 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
-この例では、ヒット 7 で $10 の購入が行われる前に、値 A、B、C がヒット 1、3、4、6 の変数に送信されました。2 番目の行では、ラストタッチでの訪問がベースとなり、ヒット全体に値が持続されています。3 番目の行では、ファーストタッチでの訪問が持続されていることがわかります。最後の行には、持続性のない prop に記録されるデータの内容が示されています。
+In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
+-->

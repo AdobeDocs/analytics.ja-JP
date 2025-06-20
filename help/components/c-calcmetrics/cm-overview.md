@@ -4,9 +4,9 @@ keywords: 計算指標;高度な計算指標
 title: 計算指標および高度な計算指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '552'
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -41,10 +41,9 @@ ht-degree: 100%
 * [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]をまたいで指標を作成します。
 * 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
 
-
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -54,14 +53,7 @@ ht-degree: 100%
 * （高度な計算指標のみ）データをわかりやすく記述するための統計関数を組み込む。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
 
->[!BEGINSHADEBOX]
-
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/37945?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
-
->[!ENDSHADEBOX]
-
-
-## 制限事項 {#section_CB878B02451541D68A68B508D4DBD19A}
+## 制限事項
 
 一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
 
@@ -71,13 +63,28 @@ ht-degree: 100%
 * [!UICONTROL セグメント]
 * [!DNL Analytics] for [!DNL Target]
 
-## ツール {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-ここでは、[!UICONTROL 計算指標]ツールの概要を簡単に示します。
+>[!BEGINSHADEBOX]
 
-| ツール | 機能 |
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}を参照してください。
+
+>[!ENDSHADEBOX]
+
+<!--
+
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
+
+|Tool|Capabilities|
 |--- |--- |
-| 計算指標ビルダー | <ul><li>高度な配分モデルを使用した計算指標および高度な計算指標を作成する。</li><li>指標の数式にセグメントをインラインで追加する</li><li>同じレポート内のセグメントを比較する。例えば、各地域における訪問者と海外での訪問者を比較します。</li><li>統計関数を使用する</li><li>指標の詳細な説明を指定する（指標の用途や指標を使用する（または使用しない）場所を示します）</li><li>新しい指標に定義をコピーする</li><li>インラインで指標をプレビューする</li><li>指標の両極性を設定する。これは、指定されたカスタムイベント（指標）が発生した場合に、それが良いか悪いかを示します</li><li>指標にタグ付けする</li></ul> |
-| 計算指標マネージャー | <ul><li>他のユーザーと指標を共有する&lt;/li<li>指標を承認して管理する</li><li>ユーザーが検索しやすいように指標を管理（タグ付け）する</li><li>指標を削除する</li><li>指標の名前を変更する</li></ul> |
-| 指標セレクターパネル | このパネルを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、並べ替え順序を変更することもできます（オプション：アルファベット順、推奨順、頻繁に使用した順、最近使用した順）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標のみを表示できます。この指標セレクターにアクセスするには、レポートの左側の指標アイコンをクリックします。 |
-| 計算指標の API | Adobe Analytics 2.0 API セットの一部。 |
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+|Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
+|Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
+|API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->

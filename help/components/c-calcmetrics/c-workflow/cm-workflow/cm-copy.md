@@ -3,23 +3,22 @@ description: 計算指標マネージャーで計算指標をコピーする方�
 title: 計算指標をコピー
 feature: Calculated Metrics
 exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 6%
 
 ---
 
+
 # 計算指標をコピー
 
-新しい計算指標を作成する場合、作成する計算指標に近い既存の計算指標をコピーし、コピーしたバージョンを変更すると簡単な場合があります。
+新しい計算指標を作成する際に、最初から開始する必要はありません。 開始する適切な定義が既にある既存の計算指標をコピーし、コピーしたバージョンを変更できます。
 
-計算指標マネージャーで計算指標をコピーするには：
+[ 計算指標マネージャー ](cm-manager.md) で計算指標をコピーするには：
 
-1. Adobe Analyticsで、「**[!UICONTROL コンポーネント]**」タブを選択し、「**[!UICONTROL 計算指標]**」を選択します。
+1. [ 計算指標マネージャー ](cm-manager.md) で、コピーする計算指標を 1 つ以上選択します。
+1. アクションバーから「![ コピー ](/help/assets/icons/Copy.svg)**[!UICONTROL コピー]**」を選択します。
 
-1. 計算指標マネージャーで、コピーする計算指標を選択します。
+新しい計算指標は、同じ名前とサフィックスの `(Copy)` で作成されます。
 
-   計算指標管理ツールバーが表示されます。
-
-1. 「**[!UICONTROL コピー]**」を選択します。

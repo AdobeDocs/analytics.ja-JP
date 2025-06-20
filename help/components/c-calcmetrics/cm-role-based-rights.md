@@ -3,7 +3,7 @@ description: 計算指標の権限は、管理者レベルのユーザーと管�
 title: 計算指標：役割ベースの権限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 81%

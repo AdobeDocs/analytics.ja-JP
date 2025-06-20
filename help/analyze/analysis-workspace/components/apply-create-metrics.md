@@ -4,10 +4,10 @@ title: Analysis Workspace の指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 25%
 
 ---
 
@@ -21,15 +21,12 @@ ht-degree: 30%
 
 * **標準指標**：プロジェクトで使用するほとんどの指標は標準指標です。例には、[ページビュー数](/help/components/metrics/page-views.md)、[収益](/help/components/metrics/revenue.md)または[カスタムイベント](/help/components/metrics/custom-events.md)が含まれます。詳しくは、コンポーネントユーザーガイドの[指標の概要](/help/components/metrics/overview.md)を参照してください。
 
-  ![標準指標](assets/standard-metric.png)
+* **計算指標**![ 計算ツール ](/help/assets/icons/Calculator.svg)：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/c-calcmetrics/cm-overview.md)を参照してください。
 
-* **計算指標**：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/c-calcmetrics/cm-overview.md)を参照してください。
+* **計算指標テンプレート**![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：計算指標と同様に動作するAdobe定義の指標です。 これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
 
-  ![計算指標](assets/calculated-metric.png)
+指標が承認されているかどうか ![ 承認済みアイコン ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) を確認できます。 指標に関する詳細が必要な場合は、指標の上にマウスポインターを置いて、「![ 情報アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」を選択します。 詳しくは、[ コンポーネント情報 ](use-components-in-workspace.md#component-info) を参照してください。
 
-* **計算指標テンプレート**：計算指標と同様に動作するアドビ定義の指標です。これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
-
-  ![計算指標テンプレート](assets/calculated-metric-template.png)
 
 ## Analysis Workspace での指標の使用
 
@@ -38,7 +35,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328566?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +43,13 @@ ht-degree: 30%
 
 計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。
 
+
 計算指標を作成する方法はいくつかあります。 選択した方法によって、計算指標をすべてのプロジェクトのコンポーネントリストから使用できるか、計算指標が作成されたプロジェクトでのみ使用できるかが決まります。
 
 ### すべてのプロジェクトの計算指標を作成
 
-計算指標ビルダーを使用して、計算指標を作成できます。 この方法で作成した場合、計算指標はコンポーネントリストで使用できるので、組織全体のプロジェクトで使用できます。
+[ 計算指標ビルダー ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を使用して、[ 計算指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) できます。 この方法で作成すると、計算指標をコンポーネントリストで使用したり、組織全体のプロジェクトで使用したりできます。
 
-計算指標ビルダーへのアクセス方法について詳しくは、[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を参照してください。
 
 ### 単一プロジェクトの計算指標の作成
 
@@ -100,6 +97,7 @@ ht-degree: 30%
 
 [計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
+
 ## 様々なアトリビューションモデルとの指標の比較
 
 アトリビューションモデルを別のアトリビューションモデルとすばやく比較するには、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
@@ -115,7 +113,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 累積平均 ](https://video.tv.adobe.com/v/35215?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 累積平均 ](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

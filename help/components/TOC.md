@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 96%
 
 ---
 
@@ -180,24 +180,26 @@ ht-degree: 100%
    + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
    + セグメント化ワークフロー {#segmentation-workflow}
-      + [セグメントワークフローの概要](segmentation/segmentation-workflow/seg-workflow.md)
+      + [概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
+      + [セグメントの作成](segmentation/segmentation-workflow/seg-create.md)
       + [セグメントの構築](segmentation/segmentation-workflow/seg-build.md)
-      + [順次セグメントの構築](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [セグメントのタグ設定](segmentation/segmentation-workflow/seg-tag.md)
-      + [セグメントの承認](segmentation/segmentation-workflow/seg-approve.md)
+      + [クイックセグメント](segmentation/segmentation-workflow/seg-quick.md)
+      + [順次セグメント](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [セグメントの共有](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Experience Cloud へのセグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
-      + [セグメントの選択と適用](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [セグメントのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [セグメントのタグ設定](segmentation/segmentation-workflow/seg-tag.md)
+      + [セグメントのリストのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
       + [セグメントのお気に入りへの登録](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [セグメントの承認](segmentation/segmentation-workflow/seg-approve.md)
       + [セグメントの削除](segmentation/segmentation-workflow/seg-delete.md)
       + [セグメントのコピー](segmentation/segmentation-workflow/seg-copy.md)
       + [セグメントの管理](segmentation/segmentation-workflow/seg-manage.md)
+      + [Experience Cloud へのセグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
+      + [セグメントの選択と適用](segmentation/segmentation-workflow/t-seg-apply.md)
    + セグメントの参照 {#segment-reference}
-      + [セグメントの比較演算子](segmentation/seg-reference/seg-operators.md)
+      + [演算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
-      + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
+      + [セグメント権限（役割別）](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
    + [レガシーセグメントの管理に関する FAQ](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [「訪問あたりのページビュー数」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [「注文支援」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [「パーティシペーション」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [シンプルな指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [より複雑な指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [パーティシペーション指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

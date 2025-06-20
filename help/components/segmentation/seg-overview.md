@@ -3,10 +3,10 @@ description: セグメントを使用すると、特性や web サイトでの�
 title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 99%
 
 ---
 
@@ -242,7 +242,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -281,7 +281,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/segmentation/seg-reference/seg-rights.md)
+管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[ セグメント権限（役割別） ](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

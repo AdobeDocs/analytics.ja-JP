@@ -1,35 +1,49 @@
 ---
-description: セグメントレールからレポートに 1 つ以上のセグメントを適用する方法について説明します。
-title: セグメントの選択と適用
+description: セグメントを使用したレポートの作成方法。
+title: セグメントの使用
 feature: Segmentation
+role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
-# セグメントの選択と適用
+# セグメントの使用
 
-セグメントレールからレポートに 1 つ以上のセグメントを適用する方法について説明します。
+Analysis Workspace全体でセグメントを使用するには、コンポーネントパネルの **[!UICONTROL セグメント]** から 1 つ以上のセグメントをドラッグして、次の場所にドロップします。
 
-1. セグメントを適用するレポートを表示します。例えば、[!UICONTROL ページレポート]を表示します。
-1. レポートの上部にある「**[!UICONTROL セグメントを表示]**」をクリックします。セグメントレールが開きます。
+* パネル内のすべてのビジュアライゼーションをセグメント化するAnalysis Workspaceの [ パネル ](/help/analyze/analysis-workspace/c-panels/panels.md)。
+* ディメンションを置き換えるAnalysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) のヘッダー行
+* Analysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の行で、分類を開始します。
+* Analysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の列で、列の追加や置換、フィルターの開始を行います。
+* ビジュアライゼーションの設定パネルまたはセグメントをドロップできるパネル。 例えば、[ セグメント比較 ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) パネルまたは [ 主要指標 ](/help/analyze/analysis-workspace/visualizations/key-metric.md) 概要ビジュアライゼーションで次の操作を行います
+* セグメント定義にセグメントを含めるために、[ セグメントの定義ビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder) を選択します。
+* 計算指標の定義にセグメントを含めるように、[ 計算指標の定義ビルダー ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder) を設定します。
+
+<!--
+How to apply one or more segments to a report from the segment rail.
+
+1. Bring up the report to which you want to apply a segment, for example the [!UICONTROL Pages Report].
+1. Click **[!UICONTROL Show Segments]** above the report. The segment rail opens.
 
    ![](assets/segment_rail.png)
 
-1. 1 つ以上のセグメントの横にあるチェックボックスを選択するか、「**[!UICONTROL セグメントを検索]**」を使用して適切なセグメントを見つけます。
+1. Mark the checkbox next to one or more of the segments or **[!UICONTROL Search Segments]** to find the right segment.
 
    >[!NOTE]
    >
-   >1 つのレポートに複数のセグメントを適用できます（これはセグメントの積み重ねと呼ばれます）。複数のセグメントを適用すると、各セグメントの条件が「and」演算子で結合され、結合された条件が適用されます。積み重ねることができるセグメントの数に制限はありません。
+   >You can apply more than one segment to a report (this is called segment stacking). When multiple segments are applied, the criteria in each segment is combined using an 'and' operator and then applied. There is no limit to how many segments you can stack.
 
    >[!NOTE]
    >
-   >セグメント名の横にある情報アイコン（i）をクリックすると、主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認できます。
+   >Clicking the Information icon (i) next to the segment name lets you preview the key metrics to see whether you have a valid segment and how broad the segment is.
 
-1. 「**[!UICONTROL (専用)`<report suite name>`]**」チェックボックスを選択して、レポートスイートでフィルタリングできます。この方法を使用すると、該当するレポートスイートに最後に保存されたセグメントのみが表示されます。
-1. 「**[!UICONTROL セグメントを適用]**」をクリックします。レポートが更新されます。適用されるセグメントがレポートの上部に表示されます。
+1. You can filter by report suite by selecting the **[!UICONTROL (Only) `<report suite name>`]** check box. This will show only those segments that were last saved in that report suite.
+1. Click **[!UICONTROL Apply Segment]** and the report will refresh. The segment or segments that are applied now display at the top of the report:
 
    ![](assets/applied_segments.png)
+
+-->
