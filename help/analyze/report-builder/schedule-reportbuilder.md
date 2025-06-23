@@ -28,7 +28,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ワークブックのスケジュール ](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ワークブックのスケジュール ](https://video.tv.adobe.com/v/3417506?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
