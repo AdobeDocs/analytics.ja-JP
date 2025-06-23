@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1476'
 ht-degree: 56%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 56%
 次の目的の一部またはすべてに使用するクラウドアカウントを設定できます。
 
 * [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
-* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用してレポートをエクスポートしています
+* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
 * [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
 
 Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事で説明しているアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加して設定し、[ クラウドの読み込みと書き出しの場所の設定 ](/help/components/locations/configure-import-locations.md) で説明しているアカウント内の場所（アカウント内のフォルダーなど）を追加して設定します。
@@ -49,7 +50,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。 この名前は、場所の作成時に表示されます |
+   | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。 この名前は、場所を作成する際に表示されます。 |
    | [!UICONTROL **場所アカウントの説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
    | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>アカウントを共有する際は、次の点に注意してください。</p><ul><li>共有しているアカウントの共有を解除することはできません。</li><li>共有アカウントは、そのアカウントの所有者のみが編集できます。</li><li>共有アカウントの場所は誰でも作成できます。</li></ul> |
    | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[ ユーザーがアカウントを作成できるかどうかを設定 ](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明されているように、ユーザーが作成できるアカウントタイプを制限できます。 この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
@@ -70,7 +71,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -98,7 +99,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++メール
 
@@ -128,15 +129,15 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **従来のアカウントタイプ**
 
-   これらの従来のアカウントタイプは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
    +++FTP
 
-   データフィードデータは、Adobeまたは顧客がホストする FTP ロケーションに配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
+   データフィードデータは、Adobeまたは顧客がホストする FTP の場所に配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
 
    | フィールド | 関数 |
    |---------|----------|
@@ -147,13 +148,13 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    >
    >Cn-north-1 地域はサポートされていません。
 
-   +++
++++
 
    +++Azure Blob
 
@@ -198,7 +199,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    >
    >データウェアハウス宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
 
-   +++
++++
 
 1. 「[!UICONTROL **保存**]」を選択します。
 

@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 場所マネージャー
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,8 @@ ht-degree: 1%
 場所マネージャーを使用すると、アカウントと場所を表示、作成、編集または削除できます。 これらは、次のいずれかの目的で使用できます。
 
 * [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
-* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用してレポートをエクスポートしています
+* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
 * [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
 
 ## 場所の表示、フィルター、検索
@@ -71,9 +72,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->場所が削除された場合、その削除された場所に関連付けられているデータフィードファイル、Data Warehouseレポートまたは分類セットスキーマは、次回使用される際に失敗します。
+>場所が削除された場合、削除された場所に関連付けられているデータフィードファイル、Data Warehouse レポートまたは分類セットスキーマは、次回使用される際に失敗します。
 >
->場所を削除する場合は、機能する場所を使用するために、[ データフィードを編集 ](/help/export/analytics-data-feed/create-feed.md)、[ 分類レポート ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [Data Warehouseセットスキーマ ](/help/components/classifications/sets/manage/schema.md) を編集する必要があります。
+>場所を削除する場合は、機能する場所を使用するために、[ データフィードを編集 ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse レポート ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) および [ 分類セットスキーマを編集 ](/help/components/classifications/sets/manage/schema.md) する必要があります。
 
 場所を削除できるのは、その場所を作成したユーザーまたはシステム管理者のみです。
 
@@ -171,9 +172,9 @@ Adobe Analyticsの Locations Manager で場所を削除するには：
 
 * [ 新しいアカウントの作成 ](/help/components/locations/configure-import-accounts.md) の場合。
 
-* [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し、[ 分類 ](/help/components/classifications/sets/overview.md) を使用したレポートの書き出し、または [Data Warehouseセット ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したスキーマの読み込みの際に使用するアカウントを選択する場合。
+* [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートの書き出し、または [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマの読み込みの際に使用するアカウントを選択する場合。
 
-この節で説明するようにアカウントタイプを制限すると、制限したタイプのアカウントはユーザーに表示されなくなります。 つまり、そのタイプの新しいアカウントは作成できず、そのタイプの既存のアカウントは、データフィード、分類またはData Warehouseセットを作成する際には使用できません。
+この節で説明するようにアカウントタイプを制限すると、制限したタイプのアカウントはユーザーに表示されなくなります。 つまり、そのタイプの新しいアカウントは作成できず、そのタイプの既存のアカウントは、データフィード、Data Warehouseまたは分類セットを作成する際には使用できません。
 
 ただし、スケジュールされた書き出し用に設定された既存のアカウントを使用しないようにする場合は、それらを削除する必要があります。
 
@@ -205,9 +206,9 @@ Adobe Analyticsの Locations Manager で場所を削除するには：
 
    少なくとも 1 つのアカウントタイプを選択する必要があります。
 
-   * [!UICONTROL **Amazon S3 ロール ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google クラウドプラットフォーム**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 
@@ -215,7 +216,7 @@ Adobe Analyticsの Locations Manager で場所を削除するには：
 
    * [!UICONTROL **電子メール**]
 
-   * 従来のアカウントタイプ（[!UICONTROL **Amazon S3**]、&lbrace;Azure **[!UICONTROL **、&lbrace;FTP **]、** SFTP [!UICONTROL **など**]）
+   * 従来のアカウントタイプ（[!UICONTROL **Amazon S3**]、{Azure **][!UICONTROL **、{FTP **]、[!UICONTROL ** SFTP [!UICONTROL **など**]）
 
 1. 「[!UICONTROL **保存**]」を選択します。
 

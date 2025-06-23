@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: クラウドの読み込み場所と書き出し場所の設定
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1697'
 ht-degree: 31%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 31%
 [ クラウドアカウントを設定 ](/help/components/locations/configure-import-accounts.md) した後は、そのアカウントで場所を設定できます。 次のいずれかの目的に対して、1 つの場所を使用できます（1 つの場所を複数の目的に関連付けることはできません）。
 
 * [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
-* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用してレポートをエクスポートしています
+* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
 * [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
 
 Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、[ クラウドの読み込みと書き出しのアカウントの設定 ](/help/components/locations/configure-import-accounts.md) に従ってアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加および設定し、そのアカウント内の場所を追加および設定します（詳しくは、この記事を参照）。
@@ -54,7 +55,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **名前**] | 場所の名前。 |
    | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-   | [!UICONTROL **での使用**] | この場所を [!UICONTROL **データフィード**]、[!UICONTROL **分類、または[!UICONTROL ** Data Warehouseセット **]のいずれで使用す**] かを選択します。 <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、分類セットまたはData Warehouseセットにも使用できません。</li><li>ある場所内でファイルの競合が発生しないようにするには、その場所を使用した後で「[!UICONTROL **次の値で使用**]」フィールドの値を変更しないでください。</li><li>メールアカウントの場所を作成している場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 データフィードと分類セットでは、メールの場所はサポートされていません。</li></ul> |
+   | [!UICONTROL **での使用**] | この場所を [!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、{ 分類セット **]または[!UICONTROL ** 6}Report Builder ]**のいずれで使用するかを選択します。**[!UICONTROL  <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>ある場所内でファイルの競合が発生しないようにするには、その場所を使用した後で「[!UICONTROL **次の値で使用**]」フィールドの値を変更しないでください。</li><li>メールアカウントの場所を作成している場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 データフィードと分類セットでは、メールの場所はサポートされていません。</li></ul> |
    | [!UICONTROL **組織内のすべてのユーザーが場所を利用できるようにする**] | 組織内の他のユーザーが場所を使用できるようにするには、このオプションを有効にします。<p>場所を共有する際は、次の点に注意してください。</p><ul><li>共有する場所の共有を解除することはできません。</li><li>共有場所は、その場所の所有者のみが編集できます。</li><li>場所を共有できるのは、その場所が関連付けられているアカウントも共有されている場合のみです。</li></ul> |
    | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[ クラウドへのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) を参照してください。 |
 
@@ -92,7 +93,7 @@ Google Cloud Platform の場所を設定するには、次の情報を指定し�
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **バケット**] | Adobe Analytics データを送信する GCP アカウント内のバケット。 Adobeが指定したプリンシパルに、このバケットにファイルをアップロードする権限を付与していることを確認してください。 |
+   | [!UICONTROL **バケット**] | Adobe Analytics データを送信する GCP アカウント内のバケット。 Adobeが提供するプリンシパルに、このバケットにファイルをアップロードするための権限を付与していることを確認してください。 |
    | [!UICONTROL **プレフィックス**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
    {style="table-layout:auto"}
@@ -171,15 +172,15 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （電子メールの場所は、[ 分類 ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または [Data Warehouseセット ](/help/components/classifications/sets/overview.md) ではサポートされていません）。
+   [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （メールの場所は、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md) または [ 分類セット ](/help/components/classifications/sets/overview.md) ではサポートされていません）。
 
 ### 従来のアカウントタイプ
 
-これらの従来のアカウントタイプは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) および [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
 +++FTP
 
-データフィードデータは、Adobeまたは顧客がホストする FTP ロケーションに配信できます。 ディレクトリの指定パスフィールドを使用して、フィードファイルをフォルダーに配置します。
+データフィードデータは、Adobeまたは顧客がホストする FTP の場所に配信できます。 ディレクトリの指定パスフィールドを使用して、フィードファイルをフォルダーに配置します。
 
 | フィールド | 関数 |
 |---------|----------|
