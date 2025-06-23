@@ -55,7 +55,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **名前**] | 場所の名前。 |
    | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-   | [!UICONTROL **での使用**] | この場所を [!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、{ 分類セット **]または[!UICONTROL ** 6}Report Builder ]**のいずれで使用するかを選択します。**[!UICONTROL  <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>ある場所内でファイルの競合が発生しないようにするには、その場所を使用した後で「[!UICONTROL **次の値で使用**]」フィールドの値を変更しないでください。</li><li>メールアカウントの場所を作成している場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 データフィードと分類セットでは、メールの場所はサポートされていません。</li></ul> |
+   | [!UICONTROL **での使用**] | この場所を [!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、{ 分類セット **または[!UICONTROL ** 6}Report Builder &#x200B;]**のいずれで使用するかを選択します。** <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>ある場所内でファイルの競合が発生しないようにするには、その場所を使用した後で「[!UICONTROL **次の値で使用**]」フィールドの値を変更しないでください。</li><li>メールアカウントの場所を作成している場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 データフィードと分類セットでは、メールの場所はサポートされていません。</li></ul> |
    | [!UICONTROL **組織内のすべてのユーザーが場所を利用できるようにする**] | 組織内の他のユーザーが場所を使用できるようにするには、このオプションを有効にします。<p>場所を共有する際は、次の点に注意してください。</p><ul><li>共有する場所の共有を解除することはできません。</li><li>共有場所は、その場所の所有者のみが編集できます。</li><li>場所を共有できるのは、その場所が関連付けられているアカウントも共有されている場合のみです。</li></ul> |
    | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[ クラウドへのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) を参照してください。 |
 
@@ -176,7 +176,7 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 ### 従来のアカウントタイプ
 
-これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[&#128279;](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
 +++FTP
 

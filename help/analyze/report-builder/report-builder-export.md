@@ -51,7 +51,7 @@ Report Builderからレポートを書き出すには：
 
 1. まだ行っていない場合は、[クラウドの書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従って、書き出しのアカウントと場所を設定します。
 
-1. 書き出すデータを含む Excel スプレッドシートで、右側の ]**0}Adobe Report Builder} パネルを開きます。**[!UICONTROL 
+1. 書き出すデータを含む Excel スプレッドシートで、右側の **0&rbrace;Adobe Report Builder&rbrace; パネルを開きます。**
 
 1. [!UICONTROL **スケジュール**] を選択します。
 
