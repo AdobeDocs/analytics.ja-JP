@@ -1,10 +1,10 @@
 ---
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 70%
@@ -17,9 +17,9 @@ ht-degree: 70%
 
 `getVisitDuration` プラグインは、訪問者がその時点までサイトに滞在した時間を分単位で追跡します。この時点までのサイトの累積時間を追跡する場合や、アクティビティの実行に要する時間を追跡する場合は、このプラグインを使用することをお勧めします。このプラグインは、イベント間の時間を追跡しません。この機能が必要な場合は、[`getTimeBetweenEvents`](gettimebetweenevents.md) プラグインを使用します。
 
-## Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDK拡張機能を使用したプラグインのインストール
 
-Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
@@ -31,13 +31,13 @@ Adobeでは、Web SDK で最も一般的に使用されるプラグインを使�
    * データ要素：`getVisitDuration`
 1. 変更を保存してデータ要素に公開します。
 
-## Web SDK を手動で実装するプラグインのインストール
+## Web SDKを手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
+このプラグインは、web SDKの手動実装内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

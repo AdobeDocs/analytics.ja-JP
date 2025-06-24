@@ -1,10 +1,10 @@
 ---
 title: bufferRequests
 description: ページを直ちにアンロードするブラウザーに対するリンクトラッキングリクエストのキャプチャの信頼性を高めます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -27,12 +27,12 @@ ht-degree: 6%
 
 * 宛先リンクは、同じドメインとサブドメインに存在する必要があります。 バッファーされたリクエストは、ドメインとサブドメインの両方が同じAdobe Analytics実装を持っている場合でも、両方のドメインで機能しません。 また、この制限により、バッファーされたリクエストを使用して離脱リンクを追跡することはできません。
 * 宛先リンクは、現在のページと同じプロトコルを使用する必要があります。 HTTP と HTTPS の間でバッファーされた要求を送信することはできません。
-* バッファ・リクエストは、最初に `bufferRequests()` を呼び出さずに `t()` または `tl()` を呼び出すか、ブラウザまたはタブが閉じられるまで保存されます。 Adobeに送信する前にブラウザ・セッションが終了すると、未送信のバッファ・リクエストは永久に失われます。
+* バッファ・リクエストは、最初に `bufferRequests()` を呼び出さずに `t()` または `tl()` を呼び出すか、ブラウザまたはタブが閉じられるまで保存されます。 Adobeに送信する前にブラウザーセッションが終了した場合、未送信のバッファリクエストは恒久的に失われます。
 * ブラウザーが [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) または [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) をサポートしていない場合、警告がブラウザーコンソールに出力され、AppMeasurementは `t()` メソッドを使用してイメージリクエストを直ちに送信しようとします。
 
-## Web SDK のバッファー済みリクエスト
+## Web SDKのバッファされたリクエスト
 
-Web SDK は現在、リクエストをバッファーする機能を提供していません。
+Web SDKには、現在、リクエストをバッファリングする機能はありません。
 
 ## Adobe Analytics拡張機能を使用したバッファーされたリクエスト
 
@@ -40,7 +40,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementの s.bufferRequests （）と Analytics 拡張機能のカスタムコードエディター
 
-`t()` または `tl()` を呼び出す前に、`bufferRequests()` メソッドを呼び出します。 `bufferRequests()` が呼び出されると、後続のトラッキングコールは、Adobeデータ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
+`t()` または `tl()` を呼び出す前に、`bufferRequests()` メソッドを呼び出します。 `bufferRequests()` が呼び出されると、以降のトラッキングコールは、Adobe データ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
 
 ```js
 // Instantiate the tracking object

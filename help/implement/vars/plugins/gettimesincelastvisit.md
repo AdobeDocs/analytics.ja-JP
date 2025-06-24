@@ -1,10 +1,10 @@
 ---
 title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 role: Admin, Developer
-source-git-commit: 2b48ea372a5e0d8589f09d2209373bd4c47be578
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 72%
@@ -19,7 +19,7 @@ ht-degree: 72%
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
-Adobeでは、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
@@ -37,7 +37,7 @@ Adobeでは、web SDKで最も一般的に使用されるプラグインを使�
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

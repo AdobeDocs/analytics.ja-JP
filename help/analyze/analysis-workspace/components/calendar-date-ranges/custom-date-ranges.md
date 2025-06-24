@@ -2,11 +2,11 @@
 description: Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

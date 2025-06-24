@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 84%
@@ -17,13 +17,13 @@ ht-degree: 84%
 
 `getPercentPageViewed` プラグインは訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。ページの高さが小さい場合や、スクロール動作を測定したくない場合は、このプラグインは不要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

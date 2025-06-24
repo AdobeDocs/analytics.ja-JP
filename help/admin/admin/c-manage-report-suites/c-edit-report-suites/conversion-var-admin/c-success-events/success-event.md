@@ -2,10 +2,10 @@
 description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、その購入イベントは成功イベントと見なすことができます。
 keywords: イベント
 title: 成功イベントの概要
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 54%
@@ -16,7 +16,7 @@ ht-degree: 54%
 
 成功イベント（コンバージョンイベントまたはカスタムイベントとも呼ばれます）は、トラッキングが可能なアクションです。成功イベントはお客様によって定義されます。例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
 
-成功イベントの概要ビデオについては、Analytics チュートリアルガイドの [ コンバージョンイベントの概要 ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) を参照してください。
+成功イベントの概要ビデオについては、Analytics チュートリアルガイドの [ コンバージョンイベントの概要 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) を参照してください。
 
 ## 成功イベントの例
 

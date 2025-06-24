@@ -2,8 +2,8 @@
 title: イベントの影響を受けたデータの取得
 description: 計算指標を使用して、イベントの影響を受けるトレンドデータを修正します。
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-feature: Event, Calculated Metrics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share, Calculated Metrics
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 3%
@@ -30,7 +30,7 @@ ht-degree: 3%
 
    ![ セグメントビルダー ](assets/event_segment_builder.png)
 
-6. 「影響を受けた日数 **コンテナの右上にある「** 追加 **[!UICONTROL をクリックし、「静的な数値]** をクリックします。 [ イベントの影響を受ける日付を以前の範囲と比較する ](compare-dates.md) で説明されているように、静的な数値をデータのオフセットに対する割合に設定します。 この例では、オフセットは 25%、つまり 1.25 です。
+6. 「影響を受けた日数 ]**コンテナの右上にある「**[!UICONTROL  追加 **[!UICONTROL をクリックし、「静的な数値]** をクリックします。 [ イベントの影響を受ける日付を以前の範囲と比較する ](compare-dates.md) で説明されているように、静的な数値をデータのオフセットに対する割合に設定します。 この例では、オフセットは 25%、つまり 1.25 です。
 
    ![ 静的な数値 ](assets/event_static_number.png)
 

@@ -1,10 +1,10 @@
 ---
 title: rfl
 description: 区切り文字で区切られた文字列から特定の値を削除します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 93%
@@ -22,13 +22,13 @@ ht-degree: 93%
 * 削除する値が存在する場合は、削除する値を除くすべての値を変数に保持します。
 * 削除する値が存在しない場合は、元の文字列をそのまま保持します。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

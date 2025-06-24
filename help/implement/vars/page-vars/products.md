@@ -1,10 +1,10 @@
 ---
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -19,11 +19,11 @@ ht-degree: 67%
 >
 >この変数が、[`events`](events/events-overview.md) 変数のないヒットで設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切なイベントを設定していることを確認します。
 
-## Web SDK を使用した製品
+## Web SDKを使用した製品
 
 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、製品は次の変数にマッピングされます。
 
-* カテゴリは `xdm.productListItems[].productCategories[].categoryID` にマッピングされます。 `productCategories[]` 配列の最初の項目を使用します。 `lineItemId` も正しくマッピングされますが、Adobeでは標準の XDM であ `categoryID` ことをお勧めします。 両方の XDM フィールドが存在する場合は、`lineItemId` が優先されます。
+* カテゴリは `xdm.productListItems[].productCategories[].categoryID` にマッピングされます。 `productCategories[]` 配列の最初の項目を使用します。 `lineItemId` も正しくマッピングされますが、Adobeでは標準 XDM なので `categoryID` を使用することをお勧めします。 両方の XDM フィールドが存在する場合は、`lineItemId` が優先されます。
 * 製品は `xdm.productListItems[].SKU` または `xdm.productListItems[].name` にマップされています。 両方の XDM フィールドが存在する場合は、`xdm.productListItems[].SKU` が使用されます。
 * 数量は `xdm.productListItems[].quantity` にマッピングされます。
 * 価格は `xdm.productListItems[].priceTotal` にマッピングされます。
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、products 変数では次 `data.__adobe.analytics.products`AppMeasurement構文を使用します。 このフィールドを設定すると、XDM オブジェクトで設定された商品は上書きされ、Adobe Analyticsには送信されません。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、products 変数は次のAppMeasurement構文 `data.__adobe.analytics.products` 使用します。 このフィールドを設定すると、XDM オブジェクトで設定された商品は上書きされ、Adobe Analyticsには送信されません。
 
 ```json
 {

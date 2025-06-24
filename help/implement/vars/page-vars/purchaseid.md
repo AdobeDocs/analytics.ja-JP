@@ -1,10 +1,10 @@
 ---
 title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 73%
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 購入 ID はすべての訪問者に適用され、37 か月後に有効期限が切れます。 ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
-## Web SDK を使用した購入 ID
+## Web SDKを使用した購入 ID
 
 購入 ID は、次の変数にマッピングされます。
 
@@ -34,12 +34,12 @@ ht-degree: 73%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
-6. 「[!UICONTROL &#x200B; 購入 ID]」セクションを見つけます。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
+6. 「[!UICONTROL  購入 ID]」セクションを見つけます。
 
 購入 ID は値またはデータ要素に設定できます。 別の Analytics 変数から値をコピーすることもできます。
 
-## AppMeasurementの s.purchaseID と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.purchaseID
 
 `s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 

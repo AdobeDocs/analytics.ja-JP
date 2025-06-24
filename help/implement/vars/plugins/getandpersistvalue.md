@@ -1,10 +1,10 @@
 ---
 title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -15,11 +15,11 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform Data Collection 内のAdobe Analytics拡張機能の [!UICONTROL &#x200B; ストレージ期間 &#x200B;] 機能と同様の役割を果たします。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、Analytics 拡張機能の [!UICONTROL &#x200B; ストレージ期間 &#x200B;] 機能で十分な場合は必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、組み込みの eVar の永続性はこのプラグインを使用する必要はありません。
+`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform Data Collection 内のAdobe Analytics拡張機能の [!UICONTROL  ストレージ期間 ] 機能と同様の役割を果たします。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、Analytics 拡張機能の [!UICONTROL  ストレージ期間 ] 機能で十分な場合は必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、組み込みの eVar の永続性はこのプラグインを使用する必要はありません。
 
-## Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDK拡張機能を使用したプラグインのインストール
 
-Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
@@ -32,13 +32,13 @@ Adobeでは、Web SDK で最も一般的に使用されるプラグインを使�
 1. 必要なパラメーターを右側に設定します。
 1. 変更を保存してデータ要素に公開します。
 
-## Web SDK を手動で実装するプラグインのインストール
+## Web SDKを手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
+このプラグインは、web SDKの手動実装内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

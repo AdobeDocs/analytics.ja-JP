@@ -1,10 +1,10 @@
 ---
 title: Util.getQueryParam
 description: クエリ文字列パラメーターの値を返します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -15,14 +15,14 @@ ht-degree: 79%
 
 ブラウザー URL のクエリ文字列パラメーターには、Analytics の重要なデータが含まれることがよくあります。クエリ文字列からデータを取得するには、`Util.getQueryParam()` メソッドを使用します。
 
-## Adobe Analytics拡張機能と Web SDK 拡張機能を使用して、クエリ文字列パラメーターデータを取得します
+## Adobe Analytics拡張機能と Web SDK拡張機能を使用してクエリ文字列パラメーターデータを取得する
 
 データ要素に値を設定することで、クエリ文字列パラメーターデータを取得できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Core]** に設定し、「[!UICONTROL &#x200B; データ要素タイプ &#x200B;]」を **[!UICONTROL クエリ文字列パラメーター]** に設定します。
+4. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Core]** に設定し、「[!UICONTROL  データ要素タイプ ]」を **[!UICONTROL クエリ文字列パラメーター]** に設定します。
 5. テキストフィールドにクエリ文字列パラメーターを入力します。
 
 クエリ文字列パラメーター値は、データ要素に格納されます。その後、ルールでデータ要素を参照して、必要な変数を割り当てることができます。

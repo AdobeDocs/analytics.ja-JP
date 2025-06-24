@@ -1,10 +1,10 @@
 ---
 title: データ収集クエリパラメーター
 description: イメージリクエストで使用されるすべてのクエリ文字列パラメーターのリストです。
-feature: Validation
+feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%

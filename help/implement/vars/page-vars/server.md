@@ -1,10 +1,10 @@
 ---
 title: サーバー
 description: 「サーバー」ディメンションを設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 `server` 変数は通常、サイトのホスト名を保存します。これは、複数のドメインのデータを含むレポートスイートで一般的に使用されます。機能的には prop と同じです。
 
-## Web SDK を使用したサーバー
+## Web SDKを使用したサーバー
 
 サーバーは次の変数にマッピングされます。
 
@@ -30,7 +30,7 @@ ht-degree: 74%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL サーバー]セクションを探します。
 
 サーバーは任意の文字列値またはデータ要素に設定できます。

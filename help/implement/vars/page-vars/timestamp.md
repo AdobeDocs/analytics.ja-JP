@@ -1,10 +1,10 @@
 ---
 title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 81%
@@ -19,15 +19,15 @@ ht-degree: 81%
 >
 > レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
 
-## Web SDK を使用したタイムスタンプ
+## Web SDKを使用したタイムスタンプ
 
-タイムスタンプは、XDM フィールド `xdm.timestamp` で [Adobe Analyticsにマッピング ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=ja) されます。 このフィールドは Unix 時間のみをサポートします。
+タイムスタンプは、XDM フィールド `xdm.timestamp` で [Adobe Analyticsにマッピング ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) されます。 このフィールドは Unix 時間のみをサポートします。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementー内の s.timestamp と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.timestamp
 
 `s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式には、秒単位の [ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) および [Unix 時間 ](https://ja.wikipedia.org/wiki/UNIX時間) が含まれます。
 

@@ -1,10 +1,10 @@
 ---
 description: EU Cookie コンプライアンス規則によって促されたサーバーサイド転送の機能強化について説明します。
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%
@@ -30,7 +30,7 @@ ht-degree: 55%
 | 実装方法 | 手順 |
 |--- |--- |
 | Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
-| AppMeasurement | <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> メモ：ターゲットマーケティングに同意しない場合は、contextdataAppMeasurementを定義して 1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| AppMeasurement | コンテキストデータ変数の定義をAppMeasurement.js ファイルに追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> メモ：ターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
 ## レポート（任意） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

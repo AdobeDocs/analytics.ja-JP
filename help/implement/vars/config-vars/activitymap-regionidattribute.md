@@ -1,26 +1,27 @@
 ---
 title: ActivityMap.regionIDAttribute
-description: Activity Mapが検索する属性を変更して、リージョンを決定します。
-feature: Variables
+description: リージョンを決定するためにActivity Mapが検索する属性を変更します。
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 # ActivityMap.regionIDAttribute
 
-`ActivityMap.regionIDAttribute` 変数を使用すると、[Activity Map地域 ](/help/components/dimensions/activity-map-region.md) ディメンションを決定する際にActivity Mapが検索する属性を変更できます。 `id` 属性がActivity Mapリージョンに対して役に立たない構造になっているサイトの場合は、この変数を設定して別の属性を調べることができます。
+`ActivityMap.regionIDAttribute` 変数を使用すると、[Activity Map Region](/help/components/dimensions/activity-map-region.md) ディメンションを決定する際にActivity Mapが検索する属性を変更できます。 Activity Map リージョンで `id` 属性があまり役に立たない構造になっているサイトの場合は、この変数を設定して別の属性を調べることができます。
 
-## Web SDK 拡張機能の地域 ID 属性
+## Web SDK拡張機能の地域 ID 属性
 
 **[!UICONTROL クリックデータ収集を有効にする]** が有効な場合、**[!UICONTROL フィルタークリックプロパティ]** コールバックコードブロックを使用します。 このコードブロック内で、`content.clickedElement` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
 
 ## Web SDK JavaScript ライブラリの地域 ID 属性
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内で、`clickedElement` の値を確認し、収集した領域のロジックをカスタマイズできます。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内で、`clickedElement` の値を確認し、収集した領域のロジックをカスタマイズできます。
 
 ```js
 alloy("configure", {
@@ -41,7 +42,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementを使用した s.ActivityMap.regionIDAttribute
 
-`s.ActivityMap.regionIDAttribute` 変数は、[Activity Map地域 ](/help/components/dimensions/activity-map-region.md) ディメンションを特定する属性を表す文字列です。 この変数は、デフォルトで `id` に設定されます。 この変数を変更すると、Activity Mapは `id` 属性を検索しなくなり、領域を特定するための他の条件（セマンティック要素など）を検索します。
+`s.ActivityMap.regionIDAttribute` 変数は、[Activity Map Region](/help/components/dimensions/activity-map-region.md) ディメンションを決定する属性を表す文字列です。 この変数は、デフォルトで `id` に設定されます。 この変数を変更すると、Activity Mapでは `id` 属性は検索されなくなりますが、リージョンを特定するための他の条件（セマンティック要素など）は検索されます。
 
 ```html
 <script>

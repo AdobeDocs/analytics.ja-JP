@@ -1,10 +1,10 @@
 ---
 description: サーバーサイド転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
 title: サーバーサイド転送のデータとコードのリファレンス
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 97%
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ja)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
+接頭辞 `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ja)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
 
 | パラメーター | 説明 |
 |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 ## 顧客定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
+接頭辞 `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
 
 | シグナル | 説明 |
 | --- |--- |

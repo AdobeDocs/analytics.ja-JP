@@ -1,10 +1,10 @@
 ---
 title: inList
 description: 値が別の文字区切り値に含まれているかどうかを確認します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 `inList` プラグインを使用すると、区切り文字列または JavaScript 配列オブジェクト内に値が既に存在するかどうかを確認できます。その他のプラグインの中には、`inList`プラグインの動作が依存するものもあります。このプラグインは、部分文字列と一致しない JavaScript `indexOf()` メソッドよりも明確な利点を提供します。例えば、このプラグインを使用して `"event2"` のチェックをおこなった場合、`"event25"` を含む文字列とは一致しません。区切り文字付きの文字列や配列の値を確認する必要がない場合や、独自の `indexOf()` ロジックを使用する場合は、このプラグインは不要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

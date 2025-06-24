@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,15 +15,15 @@ ht-degree: 68%
 
 {{plug-in}}
 
-`cleanStr` プラグインは、HTML タグ文字、余分なホワイトスペース、タブ、改行／キャリッジリターンなど、不要な文字をすべて文字列から削除または置換します。また、左右の一重引用符を一重引用符（`'`）で置き換えます。 Adobeでは、Adobe Experience Platform データ収集の「テキストをクリーン」機能が変数値から不要な文字を削除する実装のニーズを満たさない場合に、このプラグインを使用することをお勧めします。 このプラグインは、収集したデータに不要な文字が含まれていない場合や、Adobe Experience Platform データ収集の「テキストをクリーン」機能で十分な場合は必要ありません。
+`cleanStr` プラグインは、HTML タグ文字、余分なホワイトスペース、タブ、改行／キャリッジリターンなど、不要な文字をすべて文字列から削除または置換します。また、左右の一重引用符を一重引用符（`'`）で置き換えます。 Adobe Adobe Experience Platform データ収集の「テキストをクリーン」機能が変数値から不要な文字を削除する実装のニーズを満たさない場合は、このプラグインを使用することをお勧めします。 このプラグインは、収集したデータに不要な文字が含まれていない場合や、Adobe Experience Platform データ収集の「テキストをクリーン」機能で十分な場合は必要ありません。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

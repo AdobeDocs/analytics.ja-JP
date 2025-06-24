@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: リンクトラッキングディメンションでクエリ文字列を保持できます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,7 +25,7 @@ AppMeasurement は、デフォルトで、リンクトラッキング URL から
 >
 > この変数は、リンクトラッキング以外のディメンションには影響しません。カスタムリンク、離脱リンク、ダウンロードリンクのみが影響されます。
 
-## Web SDK を使用してリンククエリ文字列を処理します
+## Web SDKを使用してリンククエリ文字列を処理します
 
 クエリ文字列は、XDM フィールド `web.webInteraction.URL` からは削除されません。 この XDM フィールドからクエリ文字列を削除する場合は、`onBeforeEventSend` を使用して編集できます。
 

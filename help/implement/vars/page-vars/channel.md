@@ -1,10 +1,10 @@
 ---
 title: チャネル
 description: 「サイトセクション」ディメンションを設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 `channel` 変数は、通常、特定のページが存在するサイトのセクションを格納します。サイトで最も人気のあるグループを判断すると役立ちます。この変数は、「サイトセクション」ディメンションを入力します。
 
-## Web SDK を使用したチャネル
+## Web SDKを使用したチャネル
 
 チャネルは、次の変数にマッピングされます。
 
@@ -30,7 +30,7 @@ ht-degree: 75%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL チャネル]セクションを見つけます。
 
 channel は任意の文字列値またはデータ要素に設定できます。

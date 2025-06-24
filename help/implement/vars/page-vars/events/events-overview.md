@@ -1,10 +1,10 @@
 ---
 title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >イベントが `productListItems` に設定され（例えば、`productListItems._experience.analytics.event1.value`）、そのイベントがまだこのフィールドにない場合、そのイベントは、このフィールドに自動的に追加されます。
 
-[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、すべてのイベントで `data.__adobe.analytics.events` を使用します。次のAppMeasurement文字列構文に従います。 このフィールドを設定すると、XDM オブジェクトで設定されたイベントが上書きされ、Adobe Analyticsに送信されません。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、すべてのイベントでAppMeasurement文字列構文に従って `data.__adobe.analytics.events` が使用されます。 このフィールドを設定すると、XDM オブジェクトで設定されたイベントが上書きされ、Adobe Analyticsに送信されません。
 
 ## Adobe Analytics 拡張機能を使用したイベント
 
@@ -48,7 +48,7 @@ ht-degree: 85%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL イベント]セクションを見つけます。
 
 次の機能が利用できます。
@@ -62,7 +62,7 @@ ht-degree: 85%
 
 `s.events` 変数は、ヒットに含めるイベントのコンマ区切りリストを含む文字列です。この変数を使用すると、最大 64k バイトを格納でき、実質的にはヒットの必要な数だけイベントを発生させることができます。 有効な設定値は以下のとおりです。
 
-* `event1`～`event1000`：カスタムイベントを設定します。組織の[ソリューションデザインドキュメント](../../../prepare/solution-design.md)に各イベントの使用方法を記録します。使用可能なイベントの数は、組織の Analytics 契約によって異なります。レガシー契約以外の組織のほとんどは、1,000 件のカスタムイベントを利用できます。使用できるカスタムイベントの数が不明な場合は、Adobeアカウントチームにお問い合わせください。
+* `event1`～`event1000`：カスタムイベントを設定します。組織の[ソリューションデザインドキュメント](../../../prepare/solution-design.md)に各イベントの使用方法を記録します。使用可能なイベントの数は、組織の Analytics 契約によって異なります。レガシー契約以外の組織のほとんどは、1,000 件のカスタムイベントを利用できます。使用できるカスタムイベントの数が不明な場合は、Adobe アカウントチームにお問い合わせください。
 * `purchase`：「[注文件数](/help/components/metrics/orders.md)」指標を 1 増分し、`products` 変数に設定された値を使用して「[単位](/help/components/metrics/units.md)」と「[売上高](/help/components/metrics/revenue.md)」を計算します。詳しくは、[購入イベント](event-purchase.md)を参照してください。
 * `prodView`：「[製品表示回数](/help/components/metrics/product-views.md)」指標を増分します。
 * `scOpen`：「[買い物かご](/help/components/metrics/carts.md)」指標を増分します。

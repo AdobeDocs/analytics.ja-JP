@@ -1,11 +1,11 @@
 ---
 title: eVar（マーチャンダイジング変数）
 description: 個々の製品に関連付けられるカスタム変数。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 90%
@@ -87,7 +87,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上記の例のオブジェクトは、Adobe Analytics に `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` として送信されることになります。
 
-[**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、eVarマーチャンダイジングは `data.__adobe.analytics.eVar1` – 次 `data.__adobe.analytics.eVar250`AppMeasurement構文を使用します。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、eVar マーチャンダイジングは次のAppMeasurement構文の `data.__adobe.analytics.eVar1` を使用 `data.__adobe.analytics.eVar250` ます。
 
 ## コンバージョン変数の構文を使用した実装
 

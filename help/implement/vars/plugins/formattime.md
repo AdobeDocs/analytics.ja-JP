@@ -1,10 +1,10 @@
 ---
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 88%
@@ -17,13 +17,13 @@ ht-degree: 88%
 
 `formatTime` プラグインを使用すると、任意の秒数を、目的のベンチマーク値に丸めてグループ形式で表示できます。秒単位で時間値を取得し、バケット形式（分、日、週など）に変換する場合は、このプラグインを使用することをお勧めします。秒単位の値を時間で丸める場合は、このプラグインは不要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

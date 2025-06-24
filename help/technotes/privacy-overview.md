@@ -2,18 +2,18 @@
 description: Adobe Analytics が収集するデータの概要とプライバシーに関する他の考慮事項です。
 keywords: プライバシー
 title: プライバシーの概要
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # プライバシーの概要
 
-アドビは、お客様の組織が適用される法律や規制に準拠できるように支援します。詳しくは、[Adobe Experience Cloud プライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html){target=_blank}を参照してください。Adobe Analytics とお客様の組織との間では、アドビが「データ処理者」として機能し、お客様は「データ管理者」（または適用されるプライバシーおよびデータ保護法に基づく同等の者）となります。アドビのソリューションの実装方法はお客様の組織が独占的に管理するので、アドビの製品とサービスの使用方法を開示するかどうかは、お客様の組織に委ねられています。Adobe Analytics を使用する際、お客様の組織は、独自のプライバシーポリシー、アドビとのサービス契約および適用されるすべての法律を遵守する責任があります。
+アドビは、お客様の組織が適用される法律や規制に準拠できるように支援します。詳しくは、[Adobe Experience Cloudのプライバシー ](https://www.adobe.com/jp/privacy/experience-cloud.html){target=_blank} を参照してください。 Adobe Analytics とお客様の組織との間では、アドビが「データ処理者」として機能し、お客様は「データ管理者」（または適用されるプライバシーおよびデータ保護法に基づく同等の者）となります。アドビのソリューションの実装方法はお客様の組織が独占的に管理するので、アドビの製品とサービスの使用方法を開示するかどうかは、お客様の組織に委ねられています。Adobe Analytics を使用する際、お客様の組織は、独自のプライバシーポリシー、アドビとのサービス契約および適用されるすべての法律を遵守する責任があります。
 
 アドビでは、次の包括的な概念に従うことを強くお勧めします。
 
@@ -53,4 +53,4 @@ Adobe Analytics は、次のタイプのデータを収集できます。
 
 ## データ処理の場所
 
-アドビでは、Adobe Analytics の 3 つのデータ処理場所を維持します。これらの Sites では、生データを受け取り、データストレージやレポート取得に最適化されたレポートスイートに処理します。これらのデータ処理の場所は、現在、米国（オレゴン）、英国（ロンドン）、シンガポールにあります。詳しくは、[Adobe Analytics のセキュリティ概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}を参照してください。
+アドビでは、Adobe Analytics の 3 つのデータ処理場所を維持します。これらの Sites では、生データを受け取り、データストレージやレポート取得に最適化されたレポートスイートに処理します。これらのデータ処理の場所は、現在、米国（オレゴン）、英国（ロンドン）、シンガポールにあります。詳しくは、[Adobe Analytics セキュリティの概要 ](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} を参照してください。

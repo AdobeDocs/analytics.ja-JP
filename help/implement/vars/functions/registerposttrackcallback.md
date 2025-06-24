@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -25,11 +25,11 @@ ht-degree: 73%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Web SDK 拡張機能を使用したPost トラックコールバック
+## Web SDK拡張機能を使用したポストトラックコールバック
 
 準備中
 
-## Web SDK を手動で実装するPost トラックコールバック
+## Web SDKを手動で実装するポストトラックコールバック
 
 Adobeにデータが正常に送信された後に関数を登録するイベントを送信する際に、JavaScript Promise を使用できます。
 
@@ -41,13 +41,13 @@ alloy("sendEvent",{
 });
 ```
 
-詳しくは、Web SDK ドキュメントの [ イベントからの応答の処理 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#handling-responses-from-events) を参照してください。
+詳しくは、Web SDK ドキュメントの [ イベントからの応答の処理 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) を参照してください。
 
-## Adobe Analytics拡張機能を使用したPost-track コールバックの登録
+## Adobe Analytics拡張機能を使用したポストトラックコールバックの登録
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの s.registerPostTrackCallback と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.registerPostTrackCallback
 
 `s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、画像リクエストが正常に送信された直後に実行されます。
 

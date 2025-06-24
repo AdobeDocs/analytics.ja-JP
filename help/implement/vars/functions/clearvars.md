@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: インスタンスオブジェクトから値をクリアします。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,9 +30,9 @@ ht-degree: 67%
 * `zip`
 * `campaign`
 
-## Web SDK を使用した変数のクリア
+## Web SDKを使用した変数のクリア
 
-Web SDK を使用してAdobeにデータを送信すると、すべての XDM データが自動的にクリアされます。
+Web SDKを使用してAdobeにデータを送信すると、すべての XDM データが自動的に消去されます。
 
 ## Adobe Analytics拡張機能を使用した変数のクリア
 
@@ -42,7 +42,7 @@ Web SDK を使用してAdobeにデータを送信すると、すべての XDM �
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数をクリア &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数をクリア ] に設定します。
 
 ## AppMeasurementの s.clearVars （）と Analytics 拡張機能のカスタムコードエディター
 

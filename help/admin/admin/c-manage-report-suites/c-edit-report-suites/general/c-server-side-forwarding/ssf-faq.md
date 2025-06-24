@@ -1,10 +1,10 @@
 ---
 description: サーバー側転送の特徴、機能、問題に関するよくある質問です。
 title: サーバー側転送の FAQ
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%

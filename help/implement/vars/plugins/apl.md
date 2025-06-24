@@ -1,10 +1,10 @@
 ---
 title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
@@ -23,13 +23,13 @@ ht-degree: 90%
 
 区切り文字付きの値の文字列を含む既存の変数に新しい値を追加する場合は、このプラグインを使用することをお勧めします。区切り文字付きの値を含む変数に文字列を連結する場合は、このプラグインは不要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -139,7 +139,7 @@ s.list3 = apl(s.list3,"value1");
 
 * 古いバージョンのプラグインを使用した `apl` 呼び出しの互換性の問題を修正しました。
 * サイズを小さくするためにコンソールの警告を削除しました。
-* `inList 2.1` を追加しました。
+*  `inList 2.1` を追加しました。
 
 ### 3.1（2018 年 4 月 22 日（PT））
 

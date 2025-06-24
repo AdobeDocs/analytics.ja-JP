@@ -1,10 +1,10 @@
 ---
 title: useLinkTrackSessionStorage
 description: リンクトラッキングデータを、cookie ではなくセッションストレージに格納します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 86%
@@ -26,15 +26,15 @@ ht-degree: 86%
 
 AppMeasurement は、ヒットをアドビに送信した後で、セッションストレージのリンクトラッキングデータを削除します。また、ブラウザータブを閉じると自動的に期限切れになります。
 
-## Web SDK を使用したリンクトラッキングセッションストレージの使用
+## Web SDKを使用したリンクトラッキングセッションストレージの使用
 
-Web SDK はこの機能をサポートしていません。
+Web SDKはこの機能をサポートしていません。
 
 ## Adobe Analytics拡張機能を使用したリンクトラッキングセッションストレージの使用
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの s.useLinkTrackSessionStorage と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.useLinkTrackSessionStorage
 
 この `s.useLinkTrackSessionStorage` 変数は、AppMeasurement が、セッションストレージを `s_sq` cookie ではなく、リンクトラッキングデータに使用するかどうかを決定するブール値です。デフォルト値は `false` です。AppMeasurement でリンクトラッキングと Activity Map に、`s_sq` cookie の代わりにセッションストレージを使用する場合は、この変数を `true` に設定します。
 

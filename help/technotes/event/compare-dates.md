@@ -2,8 +2,8 @@
 title: イベントの影響を受ける日付を以前の範囲と比較
 description: 以前のトレンドと比較して、実装の問題や停止などのイベントの影響を学びます。
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%

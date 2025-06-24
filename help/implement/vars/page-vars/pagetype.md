@@ -1,10 +1,10 @@
 ---
 title: pageType
 description: 現在のページが 404 エラーであるかどうかを調べます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 75%

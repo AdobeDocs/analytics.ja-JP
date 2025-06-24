@@ -1,10 +1,10 @@
 ---
 title: 購入イベント
 description: 購入イベントを使用して、「注文件数」、「数量」および「売上高」指標のデータを収集します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >売上高に数量フィールドを掛けることはありません。例えば、`s.products="Womens;Socks;5;4.50"` は売上高に$22.50 を渡さず、$4.50 を渡します。実装が、リストされている数量の合計売上高を渡していることを確認してください。 例：`s.products="Womens;Socks;5;22.50"`。
 
-## Web SDK を使用した購入イベントの設定
+## Web SDKを使用した購入イベントの設定
 
 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、購入イベントは次の XDM フィールドを使用します。
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 }
 ```
 
-[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、購入イベントはAppMeasurement文字列構文に従って `data.__adobe.analytics.events` を使用します。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、購入イベントは、AppMeasurement文字列構文に従って `data.__adobe.analytics.events` を使用します。
 
 ```json
 {
@@ -65,12 +65,12 @@ ht-degree: 70%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
-6. 「[!UICONTROL &#x200B; イベント &#x200B;]」セクションを見つけ、[!UICONTROL &#x200B; イベント &#x200B;] ドロップダウンリストを [!UICONTROL &#x200B; 購入 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
+6. 「[!UICONTROL  イベント ]」セクションを見つけ、[!UICONTROL  イベント ] ドロップダウンリストを [!UICONTROL  購入 ] に設定します。
 
 `products` や `purchaseID` など、その他の依存変数には、Adobe Experience Platform Data Collection 内の Analytics 拡張機能の専用フィールドはありません。 これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
 
-## AppMeasurementと Analytics 拡張機能のカスタムコードエディターで購入イベントを設定します
+## Analytics およびAppMeasurement拡張機能のカスタムコードエディターで購入イベントを設定します
 
 購入イベントは、イベント変数の一部として設定される文字列です。
 

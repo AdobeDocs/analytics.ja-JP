@@ -1,10 +1,10 @@
 ---
 title: prop
 description: 実装で使用できるカスタム変数。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -38,7 +38,7 @@ Prop は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL Props] セクションを見つけます。
 
 Prop 値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
@@ -67,7 +67,7 @@ s.prop1 = "Example custom value";
 
 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、リスト prop は `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` ～ `xdm._experience.analytics.customDimensions.listProps.prop75.values[]` にマッピングされます。 Web SDK は、レポートスイート設定にリストされた正しい区切り文字を自動的に使用します。XDM フィールドで区切り文字を設定すると（例えば、`xdm._experience.analytics.customDimensions.props.prop1.delimiter`）、レポートスイート設定から自動的に取得された区切り文字が上書きされ、リスト prop 文字列の間違った解析につながる可能性があります。
 
-[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、list prop は標準 prop と同じフィールドを使用し、AppMeasurementの構文に従います。
+[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、リスト prop は、標準 prop と同じフィールドを使用し、AppMeasurement構文に従います。
 
 ### Adobe Analytics 拡張機能および AppMeasurement を使用したリスト prop の設定
 

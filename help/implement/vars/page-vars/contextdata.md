@@ -1,10 +1,10 @@
 ---
 title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a8fe70381fbe04f3c57d221045a28d89e854ff54
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 68%
@@ -54,7 +54,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * 有効なコンテキストデータ変数には、英数字、アンダースコアおよびピリオドのみが含まれます。ハイフンなどの他の文字を含める場合、処理ルールでのデータ収集は保証されません。
-* コンテキストデータ変数を `"a."` で開始しないでください。このプレフィックスはアドビが予約して使用します。例えば、`s.contextData["a.InstallEvent"]` を使用しないでください。
+* コンテキストデータ変数を `"a."` で開始しないでください。この接頭辞はアドビが予約して使用します。例えば、`s.contextData["a.InstallEvent"]` を使用しないでください。
 * コンテキストデータ変数では、大文字と小文字が区別されません。`s.contextData["example"]` 変数と `s.contextData["EXAMPLE"]` 変数は同じです。
 * 1 つのキーに複数の値を含めることはできません。 複数値変数にコンテキストデータ変数を使用する場合は、すべての値を区切り文字（通常はコンマ）を使用して連結し、処理ルールを使用して [ リスト prop](prop.md#list-props) または [ リスト変数 ](list.md) に渡します。
 

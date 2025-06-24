@@ -1,10 +1,10 @@
 ---
 title: Numbers Suite
 description: 他の JavaScript 変数で使用する数値を生成および操作します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 89%
@@ -21,13 +21,13 @@ Numbers Suite は一連の JavaScript 関数です。これには、次のプラ
 * **`randomNumber`**：特定の桁数で乱数を生成します。このプラグインは、サードパーティタグを導入し、キャッシュバスティングの乱数が必要な場合に役立ちます。
 * **`twoDecimals`**：数字を小数点以下 2 桁に丸めます。このプラグインは通貨の目的で役立ち、数値を有効な通貨値に丸めることができます。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

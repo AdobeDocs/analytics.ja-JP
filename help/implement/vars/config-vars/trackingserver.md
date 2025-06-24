@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 52%
@@ -19,24 +19,24 @@ ht-degree: 52%
 >
 > この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
-## Web SDK 拡張機能を使用したEdge ドメイン
+## Web SDK拡張機能を使用したEdge ドメイン
 
-Web SDK は、[!UICONTROL Edge ドメイン &#x200B;] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK 拡張機能を設定する際に、目的の 0&rbrace;Edge ドメイン &rbrace; 値を設定できます。
+Web SDKでは、[!UICONTROL Edge ドメイン ] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の ]0}Edge ドメイン } 値を設定できます。[!UICONTROL 
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
 1. 目的の「**[!UICONTROL Edge ドメイン]**」テキストフィールドを設定します。
 
-詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK 拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
+詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
 
 >[!TIP]
 >
->AppMeasurementまたは Analytics 拡張機能の実装から Web SDK に移行する場合、このフィールドには `trackingServerSecure` （または `trackingServer`）に含まれるものと同じ値を使用できます。
+>AppMeasurementまたは Analytics 拡張機能の実装から Web SDKに移行する場合、このフィールドには `trackingServerSecure` （または `trackingServer`）に含まれるのと同じ値を使用できます。
 
-## Web SDK を手動で実装するEdge ドメイン
+## Web SDKを手動で実装するEdge ドメイン
 
-[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用して SDK を設定します。 フィールドは、データの送信先のドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用したSDKの設定 フィールドは、データの送信先のドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -61,11 +61,11 @@ alloy("configure", {
 
 ## `trackingServer` の値を決定する際の考慮事項
 
-Adobeのトラッキングサーバードメイン（`adobedc.net` など）を使用するか、特別なプロセスを経て、CNAME 実装とも呼ばれる、サイトドメイン（`data.mydomain.com` など）に一致するトラッキングサーバーを設定するかを選択できます。 サイトドメインに一致するトラッキングサーバーを使用すると、実装の他の側面に応じていくつかの利点があります。 トラッキングサーバーが現在のページのドメインと一致しない場合、AppMeasurementで設定された Cookie はサードパーティとして設定される必要があります。 ブラウザーがサードパーティ cookie をサポートしていない場合、この不一致によって特定の Analytics 機能が妨げられる可能性があります。
+Adobeのトラッキングサーバードメイン（`adobedc.net` など）を使用するか、特別なプロセスを経て、CNAME 実装とも呼ばれる、サイトドメイン（`data.mydomain.com` など）に一致するトラッキングサーバーを設定するかを選択できます。 サイトドメインに一致するトラッキングサーバーを使用すると、実装の他の側面に応じていくつかの利点があります。 トラッキングサーバーが現在のページのドメインと一致しない場合、AppMeasurementで設定された cookie はサードパーティとして設定される必要があります。 ブラウザーがサードパーティ cookie をサポートしていない場合、この不一致によって特定の Analytics 機能が妨げられる可能性があります。
 
 - 識別情報の設定：Experience Cloud ID サービスを使用している場合、トラッキングサーバーは Cookie の設定方法に影響を与えません。 ただし、Analytics の従来の識別子（別名 `s_vi` cookie）を使用していて、収集サーバーが現在のドメインと一致しない場合は、cookie をサードパーティとして設定する必要があります。 この場合、サードパーティ Cookie がブラウザーでブロックされていると、Analytics は、標準の `s_vi` Cookie ではなく、ファーストパーティ フォールバック ID （`s_fid`）を設定します。
 - 内部リンクでは、リンクトラッキングは機能しません。
-- 内部リンクに対しては、Activity Mapは機能しません。
+- Activity Mapは内部リンクでは機能しません。
 - cookie の確認。
 
 ### ファーストパーティ Cookie

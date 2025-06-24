@@ -1,10 +1,10 @@
 ---
 title: pt
 description: 変数のリストで関数を実行します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 88%
@@ -17,13 +17,13 @@ ht-degree: 88%
 
 `pt` プラグインは、Analytics 変数のリストで関数またはメソッドを実行します。例えば、[`clearVars`](../functions/clearvars.md) 関数を毎回手動で呼び出すことなく、複数の変数に対して選択的に実行できます。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

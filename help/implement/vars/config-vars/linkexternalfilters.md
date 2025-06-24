@@ -1,10 +1,10 @@
 ---
 title: linkExternalFilters
 description: linkExternalFilters 変数の使用は離脱リンクの自動トラッキングに役立ちます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -40,7 +40,7 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 常に外部と見なすフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurementーの s.linkExternalFilters と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.linkExternalFilters
 
 `s.linkExternalFilters` 変数は、離脱リンクと見なすフィルター（ドメインなど）を含む文字列です。複数のドメインは、スペースなしのコンマで区切ります。
 

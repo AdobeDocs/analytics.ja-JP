@@ -1,10 +1,10 @@
 ---
 title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 89%
@@ -38,7 +38,7 @@ Adobeは、最大 25 か月間、すべてのトランザクション ID 値（�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. 「[!UICONTROL トランザクション ID]」セクションを探します。
 
 トランザクション ID は、データ要素を含む任意の文字列値に設定できます。

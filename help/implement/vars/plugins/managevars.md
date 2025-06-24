@@ -1,13 +1,13 @@
 ---
 title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 88%
 
 `manageVars` プラグインを使用すると、複数の Analytics 変数の値を一度に操作できます。また、値を小文字に設定したり、複数の変数値から不要な文字を同時に削除したりすることもできます。複数の変数の値を一度にクリーンアップする場合は、このプラグインを使用することをお勧めします。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -95,7 +95,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-上記のすべての変数の値を小文字に変換します。これに対する唯一の例外は、一部のイベント変数です。イベント変数（scAdd、scCheckout など）では大文字と小文字が区別され、大文字を小文字にすることはできません。
+上記のすべての変数の値を小文字に変換します。一部のイベント（scAdd、scCheckout など）では大文字と小文字が区別され、小文字を区別してはならないので、唯一の例外は events 変数です
 
 ### 例 2
 
@@ -141,7 +141,7 @@ manageVars("cleanStr");
 * 値の先頭と末尾にある空白を削除します。
 * 左右の一重引用符を一重引用符で置き換えます（`'`）
 * タブ文字、改行文字、キャリッジリターン文字をスペースに置き換えます。
-* すべての 2 つ以上のスペースを1 つのスペースに置き換えます。
+* すべての二重（または三重等）スペースを単一のスペースに置き換えます
 
 ## バージョン履歴
 

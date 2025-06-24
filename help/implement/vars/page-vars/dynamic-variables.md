@@ -1,10 +1,10 @@
 ---
 title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 78%
@@ -19,13 +19,13 @@ ht-degree: 78%
 
 動的変数は、イメージリクエスト内のクエリ文字列パラメーターまたは HTTP ヘッダーをサポートします。参照可能なパラメーターの完全なリストについては、[データ収集クエリーパラメーター](../../validate/query-parameters.md)を参照してください。参照可能な HTTP 要求フィールドの完全なリストについては、Wikipedia の [Standard request fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)（英語）を参照してください。
 
-動的変数のプレフィックスが認識されると、レポートスイートのクエリ文字列または HTTP ヘッダー値が自動的にコピーされます。このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
+動的変数の接頭辞が認識されると、レポートスイートのクエリ文字列または HTTP ヘッダー値が自動的にコピーされます。このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
 
 >[!TIP]
 >
 > 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
 
-## Web SDK を使用した動的変数
+## Web SDKを使用した動的変数
 
 データストリームマッピングを使用して、単一の XDM フィールドから複数の Analytics 変数にデータを送信します。
 
@@ -33,7 +33,7 @@ ht-degree: 78%
 1. 左側のパネルで **[!UICONTROL データストリーム]** をクリックします。
 1. 目的のデータストリームをクリックします。
 1. 右側の **[!UICONTROL マッピングを編集]** をクリックします。
-1. 目的の [!UICONTROL Source フィールド &#x200B;] を目的の [!UICONTROL &#x200B; ターゲットフィールド &#x200B;] にマッピングします。 1 つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
+1. 目的の [!UICONTROL Source フィールド ] を目的の [!UICONTROL  ターゲットフィールド ] にマッピングします。 1 つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
 
 ## Adobe Analytics拡張機能を使用した動的変数
 
@@ -43,14 +43,14 @@ ht-degree: 78%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. 目的のディメンション項目を見つけます。
 
-テキストフィールドに動的変数のプレフィックスを配置し、参照するクエリ文字列パラメーターまたは HTTP ヘッダーを指定します。デフォルトでは、動的変数のプレフィックスは `D=` です。
+テキストフィールドに動的変数の接頭辞を配置し、参照するクエリ文字列パラメーターまたは HTTP ヘッダーを指定します。デフォルトでは、動的変数の接頭辞は `D=` です。
 
 ## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの動的変数
 
-動的変数は、他の変数に割り当てられるテキスト文字列です。動的変数のデフォルトのプレフィックスは `D=` です。動的変数では大文字と小文字が区別されます。
+動的変数は、他の変数に割り当てられるテキスト文字列です。動的変数のデフォルトの接頭辞は `D=` です。動的変数では大文字と小文字が区別されます。
 
 ```js
 // Copy eVar1 into eVar2. The query string parameter of eVar1 is v1.

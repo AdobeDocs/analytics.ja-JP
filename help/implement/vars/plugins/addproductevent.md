@@ -1,10 +1,10 @@
 ---
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 86%
@@ -17,13 +17,13 @@ ht-degree: 86%
 
 `addProductEvent` プラグインは、数値イベントまたは通貨イベントを [`products`](../page-vars/products.md) 変数に追加します。製品文字列の形式を気にせずに数値イベントや通貨イベントを `products` 変数に追加する場合は、このプラグインを使用することをお勧めします。このプラグインは、`products` 変数で数値イベントや通貨イベントを使用しない場合は不要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

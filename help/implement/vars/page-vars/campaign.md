@@ -1,10 +1,10 @@
 ---
 title: キャンペーン
 description: 「トラッキングコード」ディメンションを設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 67%
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 この変数は、[ トラッキングコード ](/help/components/dimensions/tracking-code.md) ディメンションを設定します。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列から値を取得します。 ただし、組織はこの変数の設定方法を正確に決定しています。
 
-## Web SDK を使用したキャンペーン
+## Web SDKを使用したキャンペーン
 
 Campaign は、次の変数にマッピングされます。
 
@@ -32,7 +32,7 @@ Campaign は、次の変数にマッピングされます。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL キャンペーン]セクションを見つけます。
 
 キャンペーンは、値またはクエリ文字列パラメーターに設定できます。

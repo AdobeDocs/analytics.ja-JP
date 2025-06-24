@@ -1,10 +1,10 @@
 ---
 title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 91%
@@ -17,13 +17,13 @@ ht-degree: 91%
 
 `getTimeBetweenEvents` プラグインを使用すると、買い物かごやカスタムイベントを含む、2 つの Analytics イベントの間の時間を追跡できます。これは、チェックアウトプロセスの完了に要する時間や、時間を測定する他のプロセスを追跡する場合に役立ちます。このプラグインは、時間を測定する必要があるコンバージョンプロセスがない場合には、必要ありません。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

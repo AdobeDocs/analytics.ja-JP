@@ -1,10 +1,10 @@
 ---
 title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 74%
@@ -17,9 +17,9 @@ ht-degree: 74%
 
 `getNewRepeat` プラグインを使用すると、サイトへの訪問者が新しい訪問者か、再訪問者かを希望の日数以内に判断できます。カスタム日数を使用して訪問者を「新規」として識別する場合は、このプラグインを使用することをお勧めします。Analysis Workspace の新規訪問者ディメンションと再訪問者ディメンションが組織のニーズを満たしている場合、このプラグインは不要です。
 
-## Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDK拡張機能を使用したプラグインのインストール
 
-Adobeでは、Web SDK で最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
@@ -32,13 +32,13 @@ Adobeでは、Web SDK で最も一般的に使用されるプラグインを使�
 1. `daysBeforeReset` パラメーターを右側に設定します。
 1. 変更を保存してデータ要素に公開します。
 
-## Web SDK を手動で実装するプラグインのインストール
+## Web SDKを手動で実装するプラグインのインストール
 
-このプラグインは、Web SDK の手動実装内での使用はまだサポートされていません。
+このプラグインは、web SDKの手動実装内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

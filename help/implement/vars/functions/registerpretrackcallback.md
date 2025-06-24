@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -25,19 +25,19 @@ ht-degree: 55%
 >
 > `registerPreTrackCallback` と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Web SDK 拡張機能を使用したコールバックのプレトラック
+## Web SDK拡張機能を使用したコールバックのプレトラック
 
-Web SDK は、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、データが送信される直前に実行する関数を登録できます。
+Web SDKは、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、データが送信される直前に実行する関数を登録できます。
 
 1. AdobeID 資格情報を使用して [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) UI にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
-1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
-## Web SDK を手動で実装するコールバックのプレトラック
+## Web SDKを手動で実装するコールバックのプレトラック
 
-Web SDK は、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、`doPlugins` と同様に、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally) を参照してください。
+Web SDKは、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、`doPlugins` と同様に、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -52,7 +52,7 @@ alloy("configure", {
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの s.registerPreTrackCallback と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、イメージリクエストの送信直前に実行されます。
 

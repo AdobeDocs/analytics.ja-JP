@@ -1,10 +1,10 @@
 ---
 title: forceOffline
 description: AppMeasurement のオンライン状態を手動で設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%
@@ -21,9 +21,9 @@ ht-degree: 80%
 
 AppMeasurement は、デバイスのオンライン状態を自動的に検出します。`forceOffline()` メソッドを使用すると、AppMeasurement に対して、デバイスがオフラインの場合と同じようにヒットが処理されるように強制できます。このメソッドは引数を取らず、値を返しません。AppMeasurement でオンライン状態を上書きするのが目的です。
 
-## Web SDK を使用したオフラインの強制
+## Web SDKを使用してオフラインを強制
 
-Web SDK はオフライントラッキングをサポートしていません。
+Web SDKはオフライントラッキングをサポートしていません。
 
 ## Adobe Analytics拡張機能を使用してオフラインを強制
 

@@ -1,10 +1,10 @@
 ---
 title: 設定変数
 description: 設定変数を使用して、データの収集方法を決定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 65%
@@ -17,11 +17,11 @@ ht-degree: 65%
 
 ## 設定変数の設定
 
-Web SDK 拡張機能または Analytics 拡張機能を使用した実装では、通常、設定変数は拡張機能の設定にあります。
+Web SDK拡張機能または Analytics 拡張機能を使用した実装では、通常、設定変数は拡張機能の設定にあります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブをクリックしてから、拡張機能の下の「[!UICONTROL &#x200B; 設定 &#x200B;]」をクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブをクリックしてから、拡張機能の下の「[!UICONTROL  設定 ]」をクリックします。
 
 `AppMeasurement.js` を使用した JavaScript 実装では、通常、設定変数は JS ファイルの先頭に設定されます。
 

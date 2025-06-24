@@ -1,10 +1,10 @@
 ---
 title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 89%
@@ -17,13 +17,13 @@ ht-degree: 89%
 
 `getTimeToComplete` プラグインは、ユーザーがサイト上でプロセスを完了するまでの時間を追跡します。「時計」は、`start` アクションが呼び出されると開始し、`stop` アクションが呼び出されると終了します。サイトに完了までに時間がかかるワークフローがあり、訪問者が完了するまでにかかる時間を知りたい場合は、このプラグインを使用することをお勧めします。精度は最高でも 1 秒なので、サイト上のワークフローが短時間（3 秒未満）しかかからない場合は、このプラグインを使用する必要はありません。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

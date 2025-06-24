@@ -1,10 +1,10 @@
 ---
 title: addProductEvar
 description: マーチャンダイジング eVar を products 変数に追加します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 87%
@@ -21,13 +21,13 @@ ht-degree: 87%
 >
 > このプラグインは、製品エントリに既に存在する eVar を置き換えません。このプラグインを使用して設定した値のみが追加されます。その製品に既に存在する eVar を追加する場合は注意が必要です。
 
-## Web SDK または Web SDK 拡張機能を使用したプラグインのインストール
+## Web SDKまたは Web SDK拡張機能を使用してプラグインをインストールします
 
-このプラグインは、Web SDK 内での使用はまだサポートされていません。
+このプラグインは、web SDK内での使用はまだサポートされていません。
 
 ## Adobe Analytics拡張機能を使用してプラグインをインストールします
 
-Adobeでは、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。

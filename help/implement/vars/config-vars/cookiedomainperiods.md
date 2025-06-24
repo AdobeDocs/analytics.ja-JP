@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
 description: （非推奨） Web サイトのトップレベルドメインにピリオドが含まれている場合に、AppMeasurementが Cookie を保存する場所を決定するのに役立ちます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 >
 >該当するライブラリが Cookie を設定するドメインを自動的に検出するので、この変数は何もしません。
 
-`cookieDomainPeriods` 変数は、トップレベルドメインに余分な期間が含まれていることを示すことで、AppMeasurementが Analytics Cookie を設定する場所を決定するのに役立ちました。 この変数を使用すると、AppMeasurementはトップレベルドメインに余分な時間を格納し、Cookie を正しい場所に設定できました。 Web サイトのトップレベルドメインに追加の期間が含まれていない場合、この変数は不要です。
+`cookieDomainPeriods` 変数は、トップレベルドメインに余分な期間が含まれていることを示すことで、AppMeasurementが Analytics Cookie を設定する場所を決定するのに役立ちました。 この変数を使用すると、AppMeasurementは、トップレベルドメインに余分な期間を格納し、Cookie を正しい場所に設定できました。 Web サイトのトップレベルドメインに追加の期間が含まれていない場合、この変数は不要です。
 
 * `example.co.uk` や `www.example.co.jp` などのドメインの場合、この変数を `"3"` に設定します。
 * `example.nsw.gov.au` などのドメインの場合、この変数を `"4"` に設定します。
@@ -32,11 +32,11 @@ ht-degree: 18%
 >
 > この変数ではサブドメインは考慮しません。例えば、サンプル URL `store.toys.example.com` では `cookieDomainPeriods` を設定しないでください。AppMeasurementは、多くのサブドメインを持つ URL であっても、Cookie が `example.com` に保存されることを認識します。
 
-AppMeasurement v2.26.x 以降での実装の場合、正しい cookie ドメインを自動的に判断するには、[`s_ac`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) cookie が使用されます。 ライブラリは最初に、2 つのドメインピリオドを含む cookie を書き込もうとします。 この cookie の設定に失敗した場合は、成功するまでドメインピリオドを含めて再試行します。 この cookie は設定後すぐに削除されます。
+AppMeasurement v2.26.x 以降への実装の場合、正しい cookie ドメインを自動的に判断するには、[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie を使用します。 ライブラリは最初に、2 つのドメインピリオドを含む cookie を書き込もうとします。 この cookie の設定に失敗した場合は、成功するまでドメインピリオドを含めて再試行します。 この cookie は設定後すぐに削除されます。
 
-## Web SDK を使用した cookie ドメインピリオド
+## Web SDKを使用した cookie ドメインピリオド
 
-Web SDK は、Cookie を設定する適切なドメインを自動的に決定します。
+Web SDKは、Cookie を設定する適切なドメインを自動的に判断します。
 
 ## Adobe Analytics拡張機能を使用した cookie ドメインピリオド
 

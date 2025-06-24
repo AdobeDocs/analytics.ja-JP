@@ -1,10 +1,10 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) または [`trackExternalLinks`](../config-vars/trackexternallinks.md) が有効な場合、AppMeasurement は自動的に `tl()` メソッドを呼び出して、ダウンロードリンクと離脱リンクトラッキングデータを送信します。組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動で `tl()` メソッドを呼び出すことができます。カスタムリンクは手動でのみ追跡できます。
 
-## Web SDK を使用したリンクトラッキング
+## Web SDKを使用したリンクトラッキング
 
-Web SDK は、ページビューコールとリンクトラッキングコールを区別しません。どちらも `sendEvent` コマンドを使用します。
+Web SDKでは、ページビューコールとリンクトラッキングコールを区別しません。どちらも `sendEvent` コマンドを使用します。
 
 XDM オブジェクトを使用し、Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに次が含まれていることを確認します。
 
@@ -68,8 +68,8 @@ Adobe Analytics拡張機能には、リンクトラッキングコールを設�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL &#x200B; アクション &#x200B;] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL &#x200B; アクションタイプ &#x200B;] を **[!UICONTROL ビーコンを送信]** に設定します。
+1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
+1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL ビーコンを送信]** に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics 拡張機能では、オプションの引数を設定できません。
@@ -175,7 +175,7 @@ function trackClickInteraction(name){
 ```
 
 >[!NOTE]
->`tl()` メソッドを間接的に呼び出すと、Activity Mapオーバーレイレポートの利便性が低下する可能性があります。 関数をリンク要素に登録するには、各リンクをクリックする必要があります。 ただし、WorkspaceのActivity Map寸法は同じように追跡されます。
+>`tl()` メソッドを間接的に呼び出すと、Activity Map オーバーレイレポートの利便性が低下する可能性があります。 関数をリンク要素に登録するには、各リンクをクリックする必要があります。 ただし、WorkspaceのActivity Map寸法も同じようにトラッキングされます。
 
 ### 重複リンクの追跡を避けます
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### Activity Mapで `tl()` メソッドを使用します
+### Activity Mapでの `tl()` メソッドの使用
 
-`tl()` メソッドを使用して、カスタム要素を追跡したり、動的コンテンツのオーバーレイレンダリングを設定したりできます。 `linkName` パラメーターは、[Activity Mapリンク ](/help/components/dimensions/activity-map-link.md) ディメンションの設定にも使用されます。
+`tl()` メソッドを使用して、カスタム要素を追跡したり、動的コンテンツのオーバーレイレンダリングを設定したりできます。 `linkName` パラメーターは、[Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンションの設定にも使用されます。
 
-`tl()` メソッドがHTML要素のクリックイベントから直接呼び出されると、Activity Mapでは、web ページが読み込まれるときにその要素のオーバーレイを表示できます。 次に例を示します。
+`tl()` メソッドがHTML要素のクリックイベントから直接呼び出されると、Activity Mapでは、web ページが読み込まれるときにその要素のオーバーレイを表示できます。 例：
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-HTML要素のクリック時のイベントから直接 `tl()` メソッドが呼び出されない場合、Activity Mapでは、その要素がクリックされた後にのみオーバーレイを表示できます。 次に例を示します。
+`tl()` メソッドがHTML要素のクリックイベントから直接呼び出されない場合、Activity Mapでは、その要素がクリックされた場合にのみ、オーバーレイを表示できます。 例：
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

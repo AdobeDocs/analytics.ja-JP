@@ -1,26 +1,27 @@
 ---
 title: ActivityMap.regionExclusions
-description: Activity Mapデータを地域でフィルタリングします。
+description: 地域でActivity Map データをフィルタリングします。
 role: Admin, Developer
-feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+feature: Appmeasurement Implementation
+exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # ActivityMap.regionExclusions
 
-`ActivityMap.regionExclusions` 変数を使用すると、[Activity Map地域 ](/help/components/dimensions/activity-map-region.md) ディメンションで収集されたディメンション項目に基づいて、Activity Mapデータを選択的にフィルタリングまたは除外できます。
+`ActivityMap.regionExclusions` 変数を使用すると、[Activity Map リージョン ](/help/components/dimensions/activity-map-region.md) ディメンションで収集されたディメンション項目に基づいて、Activity Map データを選択的にフィルタリングまたは除外できます。
 
-## Web SDK 拡張機能の地域除外
+## Web SDK拡張機能の地域除外
 
 **[!UICONTROL クリックデータ収集を有効にする]** が有効な場合、**[!UICONTROL フィルタークリックプロパティ]** コールバックコードブロックを使用します。 このコードブロック内で、`content.linkRegion` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
 
 ## Web SDK JavaScript ライブラリの地域の除外
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内では、`linkRegion` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内では、`linkRegion` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
 
 ```js
 alloy("configure", {
@@ -40,9 +41,9 @@ alloy("configure", {
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## s.ActivityMap.regionExclusions （AppMeasurementを使用）
+## AppMeasurementを使用した s.ActivityMap.regionExclusions
 
-`s.ActivityMap.regionExclusions` 変数は、Activity Mapトラッキングから除外するコンマ区切りのフレーズを含む文字列です。 いずれかのフレーズが [Activity Map地域 ](/help/components/dimensions/activity-map-region.md) ディメンションで収集された値と一致する場合、すべてのActivity Mapデータがヒットから削除されます。
+`s.ActivityMap.regionExclusions` 変数は、Activity Mapのトラッキングから除外する、コンマ区切りのフレーズを含む文字列です。 いずれかのフレーズが [Activity Map リージョン ](/help/components/dimensions/activity-map-region.md) ディメンションで収集された値と一致する場合、すべてのActivity Map データがヒットから削除されます。
 
 ```html
 <script>

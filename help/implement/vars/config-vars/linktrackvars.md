@@ -1,10 +1,10 @@
 ---
 title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 62%
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Web SDK を使用して、XDM イベントに含める変数を決定します
+## Web SDKを使用して、XDM イベントに含める変数を決定します
 
-Web SDK は、リンクトラッキングコールの特定のフィールドを除外しません。 ただし、`onBeforeEventSend` コールバックを使用して、データがAdobeに送信される前に目的のフィールドをクリアまたは設定できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally) を参照してください。
+Web SDKは、リンクトラッキングコールの特定のフィールドを除外しません。 ただし、`onBeforeEventSend` コールバックを使用して、データがAdobeに送信される前に目的のフィールドをクリアまたは設定できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したリンクトラッキング呼び出しの変数
 
@@ -29,7 +29,7 @@ Web SDK は、リンクトラッキングコールの特定のフィールドを
 >
 >カスタムコードエディターを使用して変数を設定する場合は、カスタムコードを使用して `linkTrackVars` にも変数を含める必要があります。
 
-## AppMeasurementーおよび Analytics 拡張機能のカスタムコードエディターの s.linkTrackVars
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.linkTrackVars
 
 `s.linkTrackVars` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含める変数のコンマ区切りリストを含む文字列です。リンクトラッキングヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
 

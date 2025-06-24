@@ -1,10 +1,10 @@
 ---
 description: トラフィック管理では、予想されるトラフィック量の変化を指定できます。
 title: トラフィックの管理
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 4%

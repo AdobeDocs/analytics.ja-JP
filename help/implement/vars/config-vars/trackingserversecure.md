@@ -1,10 +1,10 @@
 ---
 title: trackingServerSecure
 description: HTTPS ページでイメージリクエストが送信される場所を決定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 66%
@@ -19,24 +19,24 @@ ht-degree: 66%
 >
 > この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
-## Web SDK 拡張機能を使用したEdge ドメイン
+## Web SDK拡張機能を使用したEdge ドメイン
 
-Web SDK は、[!UICONTROL Edge ドメイン &#x200B;] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK 拡張機能を設定する際に、目的の 0&rbrace;Edge ドメイン &rbrace; 値を設定できます。
+Web SDKでは、[!UICONTROL Edge ドメイン ] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の ]0}Edge ドメイン } 値を設定できます。[!UICONTROL 
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
 1. 目的の「**[!UICONTROL Edge ドメイン]**」テキストフィールドを設定します。
 
-詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK 拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
+詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
 
 >[!TIP]
 >
->AppMeasurementまたは Analytics 拡張機能の実装から Web SDK に移行する場合、このフィールドには `trackingServerSecure` （または `trackingServer`）に含まれるものと同じ値を使用できます。
+>AppMeasurementまたは Analytics 拡張機能の実装から Web SDKに移行する場合、このフィールドには `trackingServerSecure` （または `trackingServer`）に含まれるのと同じ値を使用できます。
 
-## Web SDK を手動で実装するEdge ドメイン
+## Web SDKを手動で実装するEdge ドメイン
 
-[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用して SDK を設定します。 フィールドは、データの送信先のドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja) を使用したSDKの設定 フィールドは、データの送信先のドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -55,7 +55,7 @@ alloy("configure", {
 
 このフィールドを空白のままにすると、[`trackingServer`](trackingserver.md) 変数の値がデフォルトになります。
 
-## AppMeasurementの s.trackingServerSecure と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.trackingServerSecure
 
 `s.trackingServerSecure` 変数は、イメージリクエストを送信する場所を含む文字列です。ほとんどの場合、これはサイトのサブドメインです。ブラウザーの最新のプライバシープラクティスによって、一般的なサードパーティ Cookie の信頼性が低下しています。この変数が空白の場合、`s.trackingServer` 変数の値が使用されます。
 

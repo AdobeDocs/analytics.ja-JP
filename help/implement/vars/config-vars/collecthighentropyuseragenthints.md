@@ -2,9 +2,9 @@
 title: collectHighEntropyUserAgentHints
 description: collectHighEntropyUserAgentHints 変数を使用して、Chromium ブラウザー（Google Chrome や Microsoft Edge など）から高エントロピーヒントをアドビがリクエストするかどうかを決定します。
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-feature: Variables
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 100%

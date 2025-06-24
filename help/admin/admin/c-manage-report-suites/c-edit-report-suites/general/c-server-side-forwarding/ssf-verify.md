@@ -2,10 +2,10 @@
 description: サーバーサイド転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。これらの手順では、サーバーサイド転送が適切に有効になっていることを示す指標を示しています。
 solution: Analytics
 title: サーバーサイド転送の実装の確認方法
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%

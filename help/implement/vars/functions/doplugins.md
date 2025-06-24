@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -20,19 +20,19 @@ ht-degree: 63%
 
 `doPlugins` 変数を使用してプラグインコードを呼び出し、イメージリクエストがコンパイルされてアドビに送信される直前に、最終的な変数値を設定します。
 
-## Web SDK 拡張機能を使用した、イベント前に送信コールバックコードでの使用
+## Web SDK拡張機能を使用した、On Before Event Send コールバックコードの使用
 
-Web SDK は、`doPlugins` の代わりに、同様の機能を持つ `onBeforeEventSend` を使用します。
+Web SDKでは、`doPlugins` の代わりに、同様の機能を持つ `onBeforeEventSend` を使用します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
-1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL イベント送信前に編集コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
 ## Web SDK`onBeforeEventSend` 手動による実装を使用
 
-Web SDK は、`doPlugins` の代わりに、同様の機能を持つ `onBeforeEventSend` を使用します。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally) を参照してください。
+Web SDKでは、`doPlugins` の代わりに、同様の機能を持つ `onBeforeEventSend` を使用します。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"

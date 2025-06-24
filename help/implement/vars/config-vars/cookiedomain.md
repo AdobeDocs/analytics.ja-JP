@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
 description: （廃止） Cookie を設定するドメインを決定するのに役立ちます。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -25,9 +25,9 @@ ht-degree: 77%
 
 `cookieDomain` 変数を使用する実装はごく少数で、その代わりに、[`cookieDomainPeriods`](cookiedomainperiods.md) のような代替変数を使用できます。
 
-## Web SDK を使用した Cookie ドメイン
+## Web SDKを使用した Cookie ドメイン
 
-Web SDK は、この変数を使用せずに正しい cookie ストレージドメインを決定できます。
+Web SDKは、この変数を使用せずに正しい cookie ストレージドメインを判断できます。
 
 ## Adobe Analytics拡張機能を使用した cookie ドメイン
 

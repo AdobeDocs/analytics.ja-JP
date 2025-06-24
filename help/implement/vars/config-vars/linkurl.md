@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: AppMeasurement がリンクトラッキングコールで使用する、自動生成されたリンク URL を上書きします。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 Analysis Workspaceには、この変数についてレポートするディメンションはありません。 [ データフィード ](/help/export/analytics-data-feed/data-feed-overview.md) の `page_event_var1` 列に入力されます。
 
-## Web SDK を使用した URL のリンク
+## Web SDKを使用した URL のリンク
 
 リンク URL は、次の変数にマッピングされます。
 
@@ -28,7 +28,7 @@ Analysis Workspaceには、この変数についてレポートするディメ�
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの s.linkURL と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.linkURL
 
 `s.linkURL` 変数は、リンクがクリックされたときのブラウザー URL を含む文字列です。この変数は、レポートで使用できるディメンションを入力しません。
 
