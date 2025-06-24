@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # クラウドの宛先に書き出してワークブックをスケジュールする
 
@@ -33,15 +33,7 @@ Report Builderからクラウドにワークブックを書き出す場合は、
 
 1. [Report Builderからのレポートのエクスポート](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Report Builderからのレポートのエクスポート {#export-from-report-builder}
+## Report Builderからのレポートのエクスポート
 
 >[!NOTE]
 >
@@ -51,7 +43,7 @@ Report Builderからレポートを書き出すには：
 
 1. まだ行っていない場合は、[クラウドの書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従って、書き出しのアカウントと場所を設定します。
 
-1. 書き出すデータを含む Excel スプレッドシートで、右側の **0&rbrace;Adobe Report Builder&rbrace; パネルを開きます。**
+1. 書き出すデータを含む Excel スプレッドシートで、右側の ]**0}Adobe Report Builder} パネルを開きます。**[!UICONTROL 
 
 1. [!UICONTROL **スケジュール**] を選択します。
 
@@ -92,7 +84,7 @@ Report Builderからレポートを書き出すには：
 
    Report Builder ハブの下部に確認トーストが表示され、スケジュールされたワークブックが「ワークブック」タブにリストされます。
 
-## クラウドへの書き出しのメリット {#advantages}
+## クラウドへの書き出しのメリット
 
 Adobe Analytics データを Cloud に書き出すと、次の操作を実行できます。
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## スケジュールされたワークブックの管理
 
 既にスケジュールされたワークブックの管理について詳しくは、「[ スケジュールされたワークブックの管理 ](/help/analyze/report-builder/manage-schedules-reportbuilder.md)」を参照してください。
-
