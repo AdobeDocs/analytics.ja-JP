@@ -21,11 +21,11 @@ ht-degree: 52%
 
 ## Web SDK拡張機能を使用したEdge ドメイン
 
-Web SDKでは、[!UICONTROL Edge ドメイン ] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の ]0}Edge ドメイン } 値を設定できます。[!UICONTROL 
+Web SDKでは、[!UICONTROL Edge ドメイン &#x200B;] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の 0&rbrace;Edge ドメイン &rbrace; 値を設定できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
 1. 目的の「**[!UICONTROL Edge ドメイン]**」テキストフィールドを設定します。
 
 詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。

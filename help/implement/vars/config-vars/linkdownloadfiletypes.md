@@ -32,16 +32,16 @@ ht-degree: 55%
 
 ## Web SDK拡張機能を使用したリンク修飾子のダウンロード
 
-[!UICONTROL  ダウンロードリンク修飾子 ] テキストフィールドでは、正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
+[!UICONTROL &#x200B; ダウンロードリンク修飾子 &#x200B;] テキストフィールドでは、正規表現を使用して、クリックされたリンクがダウンロードリンクに該当するかどうかを判断します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定]** ボタンをクリックします。[!UICONTROL 
-1. [!UICONTROL  データ収集 ] の下の **[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]」の下にある「設定** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] の下の **[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
 
 ## Web SDKを手動で実装するリンク修飾子をダウンロードします
 
-[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking) を使用して ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)SDKを [ 設定」します。 このフィールドでは、クリックされた URL に対して正規表現を使用して、有効なダウンロードリンクかどうかを判断します。 `downloadLinkQualifier` が定義されていない場合、デフォルト値は `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` に設定されます。
+[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking) を使用して [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja)SDKを  設定」します。 このフィールドでは、クリックされた URL に対して正規表現を使用して、有効なダウンロードリンクかどうかを判断します。 `downloadLinkQualifier` が定義されていない場合、デフォルト値は `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$` に設定されます。
 
 ```json
 alloy("configure", {

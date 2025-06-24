@@ -19,7 +19,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->リスト変数は、[ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) の [!UICONTROL  最大値 ] 設定に基づいて、訪問者ごとの最新の値を格納します。 最大 250 個の値がサポートされます。 [!UICONTROL  最大値 ] 設定で許可されている一意の値よりも多くの一意の値がある場合、最も古い値は指標に関連付けられません。
+>リスト変数は、[ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) の [!UICONTROL &#x200B; 最大値 &#x200B;] 設定に基づいて、訪問者ごとの最新の値を格納します。 最大 250 個の値がサポートされます。 [!UICONTROL &#x200B; 最大値 &#x200B;] 設定で許可されている一意の値よりも多くの一意の値がある場合、最も古い値は指標に関連付けられません。
 
 ## レポートスイート設定でのリスト変数の設定
 
