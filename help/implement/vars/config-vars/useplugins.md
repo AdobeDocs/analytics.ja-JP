@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ## Web SDKを使用した `onBeforeEventSend` コールバックの使用
 
-Web SDKには、データがAdobeに送信される前に追加のロジックの実行を処理するブール値がありませんが、`onBeforeEventSend` コールバックを登録してデータを変更できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
+Web SDKには、データがAdobeに送信される前に追加のロジックの実行を処理するブール値がありませんが、`onBeforeEventSend` コールバックを登録してデータを変更できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したプラグインの使用
 

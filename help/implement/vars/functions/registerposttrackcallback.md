@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-詳しくは、Web SDK ドキュメントの [ イベントからの応答の処理 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) を参照してください。
+詳しくは、Web SDK ドキュメントの [ イベントからの応答の処理 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#handling-responses-from-events) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したポストトラックコールバックの登録
 
