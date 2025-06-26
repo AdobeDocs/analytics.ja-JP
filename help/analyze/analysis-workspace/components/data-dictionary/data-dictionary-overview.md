@@ -31,7 +31,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace用データディクショナリ ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspace用データディクショナリ ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
