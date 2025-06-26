@@ -24,13 +24,13 @@ Workspace でフォルダーの名前を変更するには：
 * [プロジェクトリスト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)で、名前を変更するフォルダーを選択します。
 
    1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)の使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 名前を変更]**」を選択するか、青色のアクションバーを選択します。
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 * 名前を変更するフォルダー内。
 
    1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーの名前を変更]**」を選択します。
 
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 
 ## フォルダーの移動

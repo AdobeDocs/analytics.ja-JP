@@ -22,7 +22,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトをキュレーション ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトをキュレーション ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +35,7 @@ ht-degree: 65%
 1. （任意）他のコンポーネントを追加するには、共有するコンポーネントを左側のパネルからデータビューの **[!UICONTROL コンポーネントをキュレーション]** ドロップゾーンにドラッグします。
 1. 「**[!UICONTROL 完了]**」を選択します。
 
-キュレーションは、「[!UICONTROL  キュレーションおよび共有 ]」を選択して、**[!UICONTROL 共有]** メニューから適用することもできます。 このオプションは、プロジェクト内で使用されているコンポーネントに合わせて、プロジェクトを自動的にキュレーションします。上記の手順に従って、追加のコンポーネントを追加できます。
+キュレーションは、「[!UICONTROL &#x200B; キュレーションおよび共有 &#x200B;]」を選択して、**[!UICONTROL 共有]** メニューから適用することもできます。 このオプションは、プロジェクト内で使用されているコンポーネントに合わせて、プロジェクトを自動的にキュレーションします。上記の手順に従って、追加のコンポーネントを追加できます。
 
 ![](assets/curation-field.png)
 
