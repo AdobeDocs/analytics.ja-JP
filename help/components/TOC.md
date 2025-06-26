@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '773'
 ht-degree: 96%
 
 ---
@@ -188,30 +188,30 @@ ht-degree: 96%
       + [順次セグメント](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [セグメントの共有](segmentation/segmentation-workflow/t-seg-share.md)
       + [セグメントのタグ設定](segmentation/segmentation-workflow/seg-tag.md)
-      + [セグメントのリストのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [セグメントリストのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
       + [セグメントのお気に入りへの登録](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [セグメントの承認](segmentation/segmentation-workflow/seg-approve.md)
       + [セグメントの削除](segmentation/segmentation-workflow/seg-delete.md)
       + [セグメントのコピー](segmentation/segmentation-workflow/seg-copy.md)
       + [セグメントの管理](segmentation/segmentation-workflow/seg-manage.md)
       + [Experience Cloud へのセグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
-      + [セグメントの選択と適用](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [セグメントの使用](segmentation/segmentation-workflow/t-seg-apply.md)
    + セグメントの参照 {#segment-reference}
       + [演算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
       + [セグメント権限（役割別）](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
-   + [レガシーセグメントの管理に関する FAQ](segmentation/seg-transition.md)
+   + [レガシーセグメントに関するよくある質問](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
-   + [計算指標および高度な計算指標](c-calcmetrics/cm-overview.md)
+   + [概要](c-calcmetrics/cm-overview.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
-      + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [シンプルな指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [より複雑な指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [シンプルな計算指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [より複雑な計算指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [パーティシペーション指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,12 +224,12 @@ ht-degree: 96%
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [計算指標をコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [計算指標マネージャー](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [計算指標の管理](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 指標リファレンス {#calcmetrics-reference}
-      + [リファレンス：基本的な関数](c-calcmetrics/cm-reference/cm-functions.md)
-      + [リファレンス：高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [基本関数](c-calcmetrics/cm-reference/cm-functions.md)
+      + [高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
-      + [計算指標：役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
+      + [役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
       + [デフォルトの計算指標](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 仮想レポートスイート {#virtual-report-suites}

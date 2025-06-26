@@ -3,16 +3,14 @@ title: Analytics コンポーネントガイド
 description: Adobe Analytics が提供する様々なコンポーネントについて説明します。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Analytics コンポーネントガイド
-
-![バナー](../../assets/doc_banner_components.png)
 
 Analytics コンポーネントは、データの分析を微調整したり、活用したりするのに役立ちます。コンポーネントには、以下が含まれます。
 
@@ -46,7 +44,7 @@ Analytics コンポーネントは、データの分析を微調整したり、�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

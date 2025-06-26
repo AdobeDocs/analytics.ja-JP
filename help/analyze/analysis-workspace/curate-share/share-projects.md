@@ -5,10 +5,10 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 98%
+source-wordcount: '1975'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトを共有 ](https://video.tv.adobe.com/v/40032?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
    または
 
-   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択します。
+   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**を選択します。
 未保存の変更がある場合は、まずプロジェクトを保存するように求められます。
 
    共有プロジェクトダイアログボックスが表示されます。ダイアログボックスの「[!UICONTROL **リンクで共有**]」と「[!UICONTROL **設定**]」セクションは、単一のプロジェクトを共有する場合にのみ表示されます。
@@ -115,7 +115,7 @@ ht-degree: 98%
 
 * リンクを使用する受信者は、プロジェクトにアクセスする前に Adobe Analytics にログインする必要があります。
 
-* 役割を割り当てられていないにもかかわらず、プロジェクトへの[リンク](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja)を受け取った受信者は、デフォルトで役割を割り当てられます。管理者は&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL コピーを編集]**&#x200B;の役割を受け取ります。
+* 受信者に役割が割り当てられていないがプロジェクトへの [ 共有可能なリンク ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja) を受け取った場合、そのユーザーはデフォルトで役割に配置されます。 管理者は&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL コピーを編集]**&#x200B;の役割を受け取ります。
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 
@@ -132,7 +132,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Experience Cloud 認証を要求"
->abstract="組織は、ユーザーがこのリンクを使用するために Experience Cloud にログインするよう要求します。"
+>abstract="組織でこのリンクを使用するには、ユーザーが Experience Cloud にログインする必要があります。"
 
 Adobe Analytics にアクセスできないユーザーに Analysis Workspace プロジェクトへの[読み取り専用アクセス権](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)を付与できます。このようなユーザーには以下が含まれます。
 
@@ -157,7 +157,7 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3452450?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/327498?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

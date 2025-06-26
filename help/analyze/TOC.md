@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -27,17 +27,16 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace の概要](analysis-workspace/home.md)
    + プロジェクト {#build-workspace-project}
-      + [プロジェクトの概要](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
-      + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
+      + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
+      + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
       + [プロジェクトの目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace のフォルダー {#workspace-folders}
-         + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [フォルダーの概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [フォルダーを削除](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [プロジェクトの追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [新しいプロジェクトの保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [フォルダーの管理](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [フォルダーへのプロジェクトの追加または移動](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [セグメントの作成](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [クイックセグメント](analysis-workspace/components/segments/quick-segments.md)
       + カレンダーと日付範囲 {#calendar-date-ranges}
-         + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [日付範囲の作成](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [データ範囲の管理](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + データ辞書 {#data-dictionary}
          + [データ辞書の概要](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [データ辞書でのコンポーネント情報の表示](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 98%
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーション、共有、スケジュール {#curate-share}
-      + [共有メニュー](analysis-workspace/curate-share/send-schedule-files.md)
+      + [概要](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
       + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
-      + [表示専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
+      + [読み取り専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}

@@ -4,83 +4,108 @@ description: 様々なタイプのアトリビューションによってディ�
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '94'
+ht-degree: 45%
 
 ---
 
-# アトリビューションモデルとルックバックウィンドウ
+# アトリビューションモデル、コンテナおよびルックバックウィンドウ
 
-Adobe Analytics でのアトリビューションの概念は、次の 2 つの要素で構成されます。
+Adobe Analyticsのアトリビューションの概念には、次の 3 つのコンポーネントが含まれます。
 
 * **アトリビューションモデル：**&#x200B;モデルは、グループ内のヒット数に対するコンバージョンの分布を記述しています。例：ファーストタッチやラストタッチ。
-* **アトリビューションルックバックウィンドウ：**&#x200B;ルックバックウィンドウは、モデルごとにどのヒットグループを考慮するかを記述しています。例：訪問や訪問者。
+* **コンテナ**：コンテナは、アトリビューションの範囲や、各モデルのヒットをグループ化する方法を定義します。
+* **アトリビューション ルックバックウィンドウ：** ルックバックウィンドウには、選択したモデルのルックバックする日数が記述されます。
+
 
 ## アトリビューションモデル
 
-| UI アイコン | アトリビューションモデル | 定義 | 使用するタイミング |
-| --- | --- | --- | --- |
-| ![ラストタッチ](assets/last_touch1.png) | ラストタッチ | コンバージョンの直前に発生したタッチポイントに 100％のクレジットが与えられます。 | 最も基本的で一般的なアトリビューションモデルです。このモデルは、検討サイクルが短いコンバージョンでよく使用されます。ラストタッチは、一般に、検索マーケティングの管理や内部検索キーワードの分析を担当するチームに使用されます。 |
-| ![ファーストタッチ](assets/first_touch.png) | ファーストタッチ | アトリビューションのルックバックウィンドウで最初に確認されたタッチポイントに 100％のクレジットが与えられます。 | これはよく使用されるアトリビューションモデルで、ブランド知名度の向上や顧客獲得の促進を目的とするマーケティングチャネルの分析に役に立ちます。ディスプレイマーケティングまたはソーシャルマーケティングチームによく使用されますが、オンサイト製品レコメンデーションの有効性の評価にも役に立ちます。 |
-| ![同じタッチ](assets/same_touch.png) | 同じタッチ | コンバージョンが発生したヒットに 100％のクレジットが与えられます。コンバージョンと同じヒットでタッチポイントが発生しない場合、「なし」の下にグループ化されます。 | これは、コンバージョンの発生時にすぐに提供されたコンテンツやユーザーエクスペリエンスを評価する場合に役に立つモデルです。製品またはデザインチームでは、よくこのモデルを使用して、コンバージョンが発生したページの有効性を評価します。 |
-| ![線形](assets/linear.png) | 線形 | コンバージョンにつながるすべてのタッチポイントに対して、同等のクレジットが与えられます。 | 長い検討サイクルのコンバージョンや、より頻繁な顧客エンゲージメントが必要なユーザーエクスペリエンスを持つコンバージョンに役に立ちます。モバイルアプリ通知の有効性を評価するチームや、サブスクリプションベースの製品を扱うチームによく使用されます。 |
-| ![U 字形](assets/u_shaped.png) | U 字形 | 最初のインタラクションに 40％のクレジット、最後のインタラクションに 40％のクレジットが与えられ、残りの 20％がその間のタッチポイントに割り振られます。タッチポイントが 1 つのコンバージョンの場合、100％のクレジットが与えられます。タッチポイントが 2 つのコンバージョンの場合、両方に 50％のクレジットが与えられます。 | コンバージョンが発生したインタラクションや成立したインタラクションを重視しつつ、途中の支援インタラクションも把握したいユーザーにとって優れたモデルです。U 字形アトリビューションは一般的に、よりバランスの取れたアプローチを取り、コンバージョンを発見したチャネル（ファインダー）やコンバージョンを成立させたチャネル（クローザー）に多くのクレジットを与えようと考えているチームに使用されます。 |
-| ![J 字形](assets/j_shaped.png) | J 字形 | 最後のインタラクションに 60％のクレジット、最初のインタラクションに 20％のクレジットが与えられ、残りの 20％がその間のタッチポイントに割り振られます。タッチポイントが 1 つのコンバージョンの場合、100％のクレジットが与えられます。タッチポイントが 2 つのコンバージョンの場合、最後のインタラクションに 75％のクレジットが与えられ、最初のインタラクションに 25％のクレジットが与えられます。 | このモデルは、ファインダーとクローザーに優先順位を付け、成立インタラクションに重点を置くユーザーに最適です。J 字形アトリビューションは、よりバランスの取れたアプローチを取り、コンバージョンを成立させたチャネル（クローザー）に多くのクレジットを与えようと考えているチームで頻繁に使用されます。 |
-| ![逆 J 字形](assets/inverse_j.png) | 逆 J 形 | 最初のタッチポイントに 60％のクレジット、最後のタッチポイントに 20％のクレジットが与えられ、残りの 20％がその間のタッチポイントに割り振られます。タッチポイントが 1 つのコンバージョンの場合、100％のクレジットが与えられます。タッチポイントが 2 つのコンバージョンの場合、最初のインタラクションに 75％のクレジット、最後のインタラクションに 25％のクレジットが与えられます。 | このモデルは、ファインダーとクローザーに優先順位を付け、発見インタラクションに重点を置くユーザーに最適です。逆 J 形アトリビューションは、よりバランスの取れたアプローチを取り、コンバージョンを開始したチャネル（ファインダー）に多くのクレジットを与えようと考えているチームで使用されます。 |
-| ![カスタム](assets/custom.png) | カスタム | ファーストタッチポイント、ラストタッチポイントおよびその間の任意のタッチポイントに与える重みを指定できます。指定された値は、入力したカスタムの数値の合計が 100 にならなくても、100％に正規化されます。タッチポイントが 1 つのコンバージョンの場合、100％のクレジットが与えられます。タッチポイントが 2 つのインタラクションの場合、中間のパラメーターは無視されます。ファーストタッチポイントとラストタッチポイントは 100％に正規化され、それに応じてクレジットが割り当てられます。 | このモデルは、アトリビューションモデルを完全に制御し、他のアトリビューションモデルで満たされない特定のニーズを持つユーザーに最適です。 |
-| ![タイムディケイ](assets/time_decay.png) | タイムディケイ | カスタムの半減期パラメーター（デフォルトは 7 日）で指定される指数関数的減衰に従います。各チャネルの重みは、タッチポイントの開始から最終的なコンバージョンまでの経過時間によって異なります。クレジットの決定に使用される式は `2^(-t/halflife)` です。ここで、`t` は、タッチポイントからコンバージョンまでの時間を表します。その後、すべてのタッチポイントが 100％に正規化されます。 | 事前に日付が決まっているイベントに対してビデオ広告やマーケティングを定期的に実行するチームに最適です。マーケティングイベント後、コンバージョン発生までの期間が長くなるほど、クレジットが少なくなります。 |
-| ![パーティシペーション](assets/participation.png) | パーティシペーション | 一意のタッチポイントすべてに 100％のクレジットが与えられます。コンバージョンの合計数は、他のアトリビューションモデルよりも大きくなります。パーティシペーションは、複数回閲覧されたチャネルの重複を排除します。 | 特定のインタラクションにさらされる頻度が高い顧客を把握するのに最適です。メディア組織は、このモデルを頻繁に使用してコンテンツの速度を計算します。小売業者は、よく、このモデルを使用して、サイトのどの部分がコンバージョンに重要かを把握しています。 |
-| ![アルゴリズム](assets/algorithmic.png) | [アルゴリズム](algorithmic.md) | 統計的手法を使用して、選択した指標の最適なクレジット配分を動的に決定します。 | お客様にビジネスに適したアトリビューションモデルを選択する際には、推測や発見的方法の使用を回避するのに役立ちます。 |
+{{attribution-models-details}}
+
+
+## コンテナ
+
+{{attribution-container}}
+
 
 ## ルックバックウィンドウ
 
-ルックバックウィンドウは、タッチポイントを含めるようにコンバージョンをルックバックする期間です。最初のインタラクションにより多くのクレジットが与えられるアトリビューションモデルでは、異なるルックバックウィンドウを表示する場合に、より大きな違いを確認できます。
-
-* **訪問のルックバックウィンドウ：**&#x200B;コンバージョンが発生した訪問の最初にさかのぼります。訪問のルックバックウィンドウは、訪問の範囲を超えて確認できないので、狭くなっています。訪問のルックバックウィンドウは、仮想レポートスイートで変更された訪問の定義を考慮します。
-
-* **訪問者のルックバックウィンドウ：**&#x200B;現在の日付範囲の月の 1 日までのすべての訪問を調べます。訪問者のルックバックウィンドウは多数の訪問に広がっているので、広範囲になることがあります。訪問者のルックバックでは、レポートの日付範囲の月の初めからすべての値が考慮されます。例えば、レポートの日付範囲が 9 月 15 日から 9 月 30 日までの場合、訪問者のルックバックの日付範囲は 9 月 1 日から 9 月 30 日になります。
-
-* **カスタムルックバックウィンドウ**：アトリビューションウィンドウを、レポートの日付範囲を超えて、最大 90 日まで拡張できます。カスタムルックバックウィンドウは、レポート期間内の各コンバージョンで評価されます。例えば、2 月 20 日に発生するコンバージョンの場合、10 日のルックバックウィンドウは、アトリビューションモデルの 2 月 10 日から 2 月 20 日までのすべてのディメンションタッチポイントを評価します。
-
->[!BEGINSHADEBOX]
-
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ カスタムルックバックウィンドウ ](https://video.tv.adobe.com/v/40040?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
+{{attribution-lookback-window}}
 
 
 ## 例
 
-次の例をご覧ください。
+{{attribution-example}}
 
-1. 9 月 15 日に、訪問者が有料検索広告を通じてサイトに訪れ、その後退出します。
-2. 9 月 18 日には、訪問者は友人から得たソーシャルメディアリンクを通じて再びサイトにアクセスします。訪問者は買い物かごに複数の品目を追加しますが、何も購入しません。
-3. 9 月 24 日に、マーケティングチームはこれらのユーザーに対し、買い物かご内の一部の品目に対するクーポンが記載されたメールを送信します。ユーザーはクーポンを適用しますが、他の複数のサイトを訪問して、利用可能なクーポンがあるかどうかを確認します。ディスプレイ広告で別の広告を見つけ、最終的に 50 ドルで購入します。
 
-ルックバックウィンドウとアトリビューションモデルに応じて、チャネルは異なるクレジットを受け取ります。次に、主な例を示します。
+<!--
+## Attribution models
 
-* **ファーストタッチ**&#x200B;と&#x200B;**訪問のルックバックウィンドウ**&#x200B;を使用して、アトリビューションは 3 回目の訪問のみを確認します。電子メールとディスプレイ広告では、電子メールが先だったので、50 ドルの購入に対して 100％のクレジットが電子メールに与えられます。
-* **ファーストタッチ**&#x200B;と&#x200B;**訪問者のルックバックウィンドウ**&#x200B;を使用して、アトリビューションは 3 回の訪問すべてを確認します。有料検索が最初なので、50 ドルの購入に対して 100％のクレジットが与えられます。
-* **線形**&#x200B;および&#x200B;**訪問のルックバックウィンドウ**&#x200B;を使用して、電子メールとディスプレイ広告でクレジットが分割されます。これらのチャネルはどちらも 25 ドルのクレジットを受け取ります。
-* **線形**&#x200B;と&#x200B;**訪問者のルックバックウィンドウ**&#x200B;を使用して、有料検索、ソーシャル、電子メールおよびディスプレイ広告でクレジットが分割されます。各チャネルは、この購入に対して 12.50 ドルのクレジットを受け取ります。
-* **J 字型**&#x200B;と&#x200B;**訪問者のルックバックウィンドウ**&#x200B;を使用して、有料検索、ソーシャル、電子メールおよびディスプレイ広告でクレジットが分割されます。
-   * 60％のクレジット（30 ドル）がディスプレイ広告に与えられます。
-   * 20％のクレジット（10 ドル）が有料検索に与えられます。
-   * 残りの 20％はソーシャルと電子メールの間で分割され、それぞれに 5 ドルが与えられます。
-* **タイムディケイ**&#x200B;と&#x200B;**訪問者のルックバックウィンドウ**&#x200B;を使用して、有料検索、ソーシャル、電子メールおよびディスプレイ広告でクレジットが分割されます。デフォルトである 7 日間の半減期を使用する場合：
-   * ディスプレイ広告のタッチポイントとコンバージョンの間のギャップが 0 日間。`2^(-0/7) = 1`
-   * 電子メールのタッチポイントとコンバージョンの間のギャップが 0 日間。`2^(-0/7) = 1`
-   * ソーシャルのタッチポイントとコンバージョンの間のギャップが 6 日間。`2^(-6/7) = 0.552`
-   * 有料検索のタッチポイントとコンバージョンの間のギャップが 9 日間。`2^(-9/7) = 0.41`
-   * これらの値を正規化すると、次の結果になります。
-      * ディスプレイ広告：33.8％、16.88 ドル
-      * 電子メール：33.8％、16.88 ドル
-      * ソーシャル：18.6％、9.32 ドル
-      * 有料検索：13.8％、6.92 ドル
-* **パーティシペーション** と **訪問者ルックバックウィンドウ** を使用すると、$50 全体が有料検索、ソーシャル、メール、ディスプレイに関連付けられます。 売上高をランクレポートではなくトレンドレポートとして表示する場合、訪問者が特定のマーケティングチャネルにタッチした各日に 50 ドルが表示されます。
+| UI icon | Attribution model | Definition | When to use |
+| --- | --- | --- | --- |
+| ![Last Touch](assets/last_touch1.png) | Last Touch | Gives 100% credit to the touch point occurring most recently before conversion. | The most basic and common attribution model. It is frequently used for conversions with a short consideration cycle. Last Touch is commonly used by teams managing search marketing or analyzing internal search keywords. |
+| ![First Touch](assets/first_touch.png) | First Touch | Gives 100% credit to the touch point first seen in the attribution lookback window. | Another common attribution model useful for analyzing marketing channels intended to drive brand awareness or customer acquisition. It is frequently used by display or social marketing teams, but is also great for assessing onsite product recommendation effectiveness. |
+| ![Same Touch](assets/same_touch.png) | Same Touch | Gives 100% credit to the very hit where the conversion occurred. If a touch point does not happen on the same hit as a conversion, It is bucketed under "None". | A helpful model when evaluating the content or user experience that was presented immediately at the time of conversion. Product or design teams often use this model to assess the effectiveness of a page where conversion happens. |
+| ![Linear](assets/linear.png) | Linear | Gives equal credit to every touch point seen leading up to a conversion. | Useful for conversions with longer consideration cycles or user experiences that need more frequent customer engagement. It is often used by teams measuring mobile app notification effectiveness or with subscription-based products. |
+| ![U-Shaped](assets/u_shaped.png) | U-Shaped | Gives 40% credit to the first interaction, 40% credit to the last interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 50% credit is given to both. | A great model for those who value interactions that introduced or closed a conversion, but still want to recognize assisting interactions. U-Shaped attribution is commonly used by teams who take a more balanced approach but want to give more credit to channels that found or closed a conversion. |
+| ![J-Shaped](assets/j_shaped.png) | J-Shaped | Gives 60% credit to the last interaction, 20% credit to the first interaction, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the last interaction, and 25% credit is given to the first. | This model is great for those who prioritize finders and closers, but want to focus on closing interactions. J-Shaped attribution is frequently used by teams who take a more balanced approach and want to give more credit to channels that closed a conversion. |
+| ![Inverse J-Shaped](assets/inverse_j.png) | Inverse J | Gives 60% credit to the first touch point, 20% credit to the last touch point, and divides the remaining 20% to any touch points in between. For conversions with a single touch point, 100% credit is given. For conversions with two touch points, 75% credit is given to the first interaction, and 25% credit is given to the last. | This model is ideal for those who prioritize finders and closers, but want to focus on finding interactions. Inverse J attribution is used by teams who take a more balanced approach and want to give more credit to channels that initiated a conversion. |
+| ![Custom](assets/custom.png) | Custom | Allows you to specify the weights you want to give to first touch points, last touch points, and any touch points in between. Values specified are normalized to 100% even if the custom numbers entered do not add to 100. For conversions with a single touch point, 100% credit is given. For interactions with two touch points, the middle parameter is ignored. The first and last touch points are then normalized to 100%, and credit is assigned accordingly. | This model is perfect for those who want full control over their attribution model and have specific needs that other attribution models do not fulfill. |
+| ![Time Decay](assets/time_decay.png) | Time-Decay | Follows an exponential decay with a custom half-life parameter, where the default is 7 days. The weight of each channel depends on the amount of time that passed between the touch point initiation and the eventual conversion. The formula used to determine credit is `2^(-t/halflife)`, where `t` is the amount of time between a touch point and a conversion. All touch points are then normalized to 100%. | Great for teams who regularly run video advertising or who market against events with a predetermined date. The longer a conversion happens after a marketing event, the less credit is given. |
+| ![Participation](assets/participation.png) | Participation | Gives 100% credit to all unique touch points. The total number of conversions is inflated compared to other attribution models. Participation deduplicates channels that are seen multiple times. | Excellent for understanding how often customers are exposed to a given interaction. Media organizations frequently use this model to calculate content velocity. Retail organizations often use this model to understand which parts of their site are critical to conversion. |
+| ![Algorithmic](assets/algorithmic.png) | [Algorithmic](algorithmic.md) |  Uses statistical techniques to dynamically determine the optimal allocation of credit for the selected metric. | Useful to help avoid guesswork or heuristics when choosing the right attribution model for your business.  |
+
+## Lookback windows
+
+A lookback window is the amount of time a conversion should look back to include touch points. Attribution models that give more credit to first interactions see larger differences when viewing different lookback windows.
+
+* **Visit lookback window:** Looks back up to the beginning of a the visit where a conversion happened. Visit lookback windows are narrow, as they don't look beyond the visit. Visit lookback windows respect the modified visit definition in virtual report suites.
+
+* **Visitor lookback window:** Looks at all visits back up to the 1st of the month of the current date range. Visitor lookback windows are wide, as they can span many visits. Visitor lookback considers all values from the beginning of the month of the report's date range. For example, if the report date range is September 15 - September 30, the visitor lookback date range includes September 1 - September 30.
+
+* **Custom lookback window:** Allows you to expand the attribution window beyond the reporting date range, up to a maximum of 90 days. Custom lookback windows are evaluated on each conversion in the reporting period. For example, for a conversion occurring on February 20, a lookback window of 10 days would evaluate all dimension touchpoints from February 10 - February 20 in the attribution model.
+
+>[!BEGINSHADEBOX]
+  
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
+  
+>[!ENDSHADEBOX]
+
+
+## Example
+
+Consider the following example:
+
+1. On September 15, a visitor arrives to your site through a paid search advertisement, then leaves.
+2. On September 18, the visitor arrives to your site again through a social media link they got from a friend. They add several items to their cart, but do not purchase anything.
+3. On September 24, your marketing team sends them an email with a coupon for some of the items in their cart. They apply the coupon, but visit several other sites to see if any other coupons are available. They find another through a display ad, then ultimately make a purchase for $50.
+
+Depending on your lookback window and attribution model, channels receive different credit. The following are some notable examples:
+
+* Using **first touch** and a **visit lookback window**, attribution looks at only the third visit. Between email and display, email was first, so email gets 100% credit for the $50 purchase.
+* Using **first touch** and a **visitor lookback window**, attribution looks at all three visits. Paid search was first, so it gets 100% credit for the $50 purchase.
+* Using **linear** and a **visit lookback window**, credit is divided between email and display. Both of these channels each get $25 credit.
+* Using **linear** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Each channel gets $12.50 credit for this purchase.
+* Using **J-shaped** and a **visitor lookback window**, credit is divided between paid search, social, email, and display.
+  * 60% credit is given to display, for $30.
+  * 20% credit is given to paid search, for $10.
+  * The remaining 20% is divided between social and email, giving $5 to each.
+* Using **Time Decay** and a **visitor lookback window**, credit is divided between paid search, social, email, and display. Using the default 7-day half-life:
+  * Gap of 0 days between display touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 0 days between email touch point and conversion. `2^(-0/7) = 1`
+  * Gap of 6 days between social touch point and conversion. `2^(-6/7) = 0.552`
+  * Gap of 9 days between paid search touch point and conversion. `2^(-9/7) = 0.41`
+  * Normalizing these values results in the following:
+    * Display: 33.8%, getting $16.88
+    * Email: 33.8% getting $16.88
+    * Social: 18.6%, getting $9.32
+    * Paid Search: 13.8%, getting $6.92
+* Using **Participation** and a **visitor lookback window**, the full $50 is attributed to paid search, social, email, and display. If you view revenue as a trended report instead of a ranked report, you would see the $50 on each respective day that the visitor touched a given marketing channel.
 
 >[!TIP]
 >
->、クレジットが複数のチャネルに属する場合は、注文やカスタムイベントなどの他のコンバージョンイベントも分割されます。例えば、2 つのチャネルが線形アトリビューションモデルを使用してカスタムイベントに貢献する場合、両方のチャネルにカスタムイベントの 0.5 が与えられます。これらのイベントの小数は、すべての訪問で合計され、レポートに最も近い整数に丸められます。
+>Other conversion events, such as orders or custom events, are also divided if credit belongs to more than one channel. For example, if two channels contribute to a custom event using a Linear attribution model, both channels get 0.5 of the custom event. These event fractions are summed across all visits, then rounded to the nearest integer for reporting.
+
+-->

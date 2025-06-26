@@ -1,10 +1,10 @@
 ---
 description: Adobe Analytics で Adobe Campaign Standard のレポートを有効にする方法を学ぶ
 title: Adobe Campaign Standard レポートを Adobe Analytics に統合する方法？
-feature: Campaign Integration
+feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%

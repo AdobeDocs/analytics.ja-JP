@@ -5,56 +5,116 @@ title: プロジェクトのスケジュール
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 32%
 
 ---
 
-# プロジェクトのスケジュール
+# 他のユーザーへのファイルの送信
 
-Workspace の&#x200B;**共有**&#x200B;メニューから、選択した受信者にメールで Analysis Workspace プロジェクトを送信できます。ファイルは CSV 形式または PDF 形式で送信できます。スケジュール済みプロジェクトを共有したら、スケジュール済みプロジェクトマネージャを使用して、スケジュール設定を編集し、頻度、受信者リストまたはファイルタイプを変更できます。
+Adobe Analytics レポートをファイルとして、選択したユーザーにメールで送信できます。 アドホックでファイルを送信することも、スケジュールに従ってファイルを送信するように設定することもできます。ファイルは CSV 形式または PDF 形式で送信できます。
 
-## ファイルを今すぐ送信
+プロジェクトに適用されたタグは、書き出しに自動的に適用されます。
 
-電子メールで受信者に直ちにファイルを送信するには、以下を実行します。
+[ 書き出しの概要 ](/help/export/home.md) に示すように、Adobe Analytics データを書き出すその他の方法も使用できます。
 
-1. **[!UICONTROL 共有]／[!UICONTROL ファイルを書き出し]**&#x200B;をクリックします。
+![ファイルを送信](assets/send-file.png)
+
+## ファイルを送信
+
+メールで受信者にファイルを送信するには、次の手順に従います。
+
+1. **[!UICONTROL 共有 ]/[!UICONTROL  ファイルを送信]** を選択します。
 1. 次のいずれかのファイルタイプを指定します。
    * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
    * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
-1. （任意）メールに含まれる、受信ファイルについての説明を追加します。
-1. 受信者またはグループを追加します。電子メールアドレスを入力することもできます。
-1. 「**[!UICONTROL 今すぐ送信]**」をクリックします。
-1. （任意）「**[!UICONTROL スケジュールオプションを表示する]** 」をクリックして、配信スケジュールを指定します。
+1. （任意） **[!UICONTROL 説明]** を使用して、メールに含める説明を追加します。
+1. 受信者またはグループを追加します。メールアドレスを入力することもできます。
+1. （任意） **[!UICONTROL スケジュールオプションを表示]** を選択して [ ファイルの書き出しをスケジュール ](#schedule-file-export) します。
+1. **[!UICONTROL 今すぐ送信]** をクリックします。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-![ファイルを今すぐ送信](assets/send-file-now.png)
 
-## ファイルをスケジュールに従って送信
+## ファイルの書き出しをスケジュール {#schedule}
 
-定期的なスケジュールでファイルを電子メールで受信者に送信するには、以下を実行します。
+受信者にメールでスケジュールに従ってファイルを送信するには
 
-1. **[!UICONTROL 共有]／[!UICONTROL ファイルの書き出しをスケジュール]**&#x200B;をクリックします。
-1. ファイルタイプ（CSV または PDF）を指定します。
-1. （任意）電子メールに含まれる、受信ファイルについての説明を追加します。
-1. 受信者またはグループを追加します。電子メールアドレスを入力することもできます。
-1. 入力時に「開始」と「終了」を変更して、スケジュールを配信する範囲を指定します。終了日は、スケジュールの作成日または変更日から 1 年以内に設定する必要があります。
-1. 配信頻度を指定します。頻度ごとに異なるカスタマイズが可能です。
-1. 「**[!UICONTROL 送信スケジュール]**」をクリックします。
+1. **[!UICONTROL 共有 ]/[!UICONTROL  ファイル書き出しをスケジュール]** を選択します。
+1. 次のいずれかのファイルタイプを指定します。
+   * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
+   * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
+1. （任意） **[!UICONTROL 説明]** を使用して、メールに含める説明を追加します。
+1. 受信者またはグループを追加します。メールアドレスを入力することもできます。
+1. （Healthcare Shield のお客様のみ）パスワードを入力して [ 予定レポートをパスワードで保護 ](#password-protect-a-new-scheduled-project) ます。
+1. **[!UICONTROL スケジュールオプションを表示]** が選択されていることを確認します。
+1. **[!UICONTROL 頻度]** を選択します。 次のいずれかを選択できます。
+
+   | 頻度 | オプション |
+   |---|---|
+   | **[!UICONTROL 1 時間ごとに送信]** | **[!UICONTROL 時間数ごとに送信]** の値を入力します。 |
+   | **[!UICONTROL 毎日送信]** | **[!UICONTROL 1 日の頻度]**:**[!UICONTROL 毎日送信]**、**[!UICONTROL 平日ごとに送信]**、または **[!UICONTROL カスタム頻度]** を選択します。<br/> 「カスタム頻度 **[!UICONTROL を選択した場合は、]** 日数ごとに送信 **[!UICONTROL の値を入力し]** す。 |
+   | **[!UICONTROL 毎週送信]** | **[!UICONTROL 週数ごとに送信]** の値を入力します。 **[!UICONTROL 曜日]** を選択します。 |
+   | **[!UICONTROL 毎月曜日に送信]** | **[!UICONTROL 曜日]** と **[!UICONTROL 週]** を選択します。 |
+   | **[!UICONTROL 毎月日ごとに送信]** | **[!UICONTROL その月のこの日に送信]** から値を選択します。 |
+   | **[!UICONTROL 毎年、その月の日ごとに送信]** | 「**[!UICONTROL 曜日]**」を選択し、「**[!UICONTROL 週]**」を選択して、「**[!UICONTROL 月]**」を選択します。 |
+   | **[!UICONTROL 特定の日付で毎年送信]** | **[!UICONTROL 月]** を選択し、**[!UICONTROL その月のこの日に送信]** から値を選択します。 |
+
+1. 開始日を **[!UICONTROL 開始日]** に入力します。 または、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから開始日を選択します。
+
+1. 終了日を **[!UICONTROL 終了日]** に入力します。 または、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから終了日を選択します。
+1. 「**[!UICONTROL スケジュールに従って送信]**」を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+
+
+## スケジュール済みプロジェクトマネージャー {#manager}
+
+スケジュールされたAnalysis Workspace プロジェクトは、**[!UICONTROL コンポーネント]**/**[!UICONTROL スケジュールされたプロジェクト]** を使用して、メインインターフェイスから管理できます。 詳しくは、[スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md)を参照してください。
+
+<!--
+# Schedule projects
+
+From the Workspace **Share menu**, you can send Analysis Workspace projects using email to selected recipients. Files can be sent in CSV or PDF format. After you share scheduled projects, you can edit the schedule settings to modify the frequency, receipient list, or file type using the Scheduled Projects manager.
+
+## Send file now
+
+To send a file immediately to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Export file]**.
+1. Specify the file type:
+   * [!UICONTROL **CSV**]: Choose this option if you want plain-text data.
+   * [!UICONTROL **PDF**]: Choose this option if you want the downloaded file to contain all the displayed (visible) tables and visualizations in the project.
+1. (Optional) Add a description to include in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Click **[!UICONTROL Send Now]**.
+1. (Optional) Click **[!UICONTROL Show scheduling options]** to specify a delivery schedule.
+
+![Send file now](assets/send-file-now.png)
+
+## Send file on schedule
+
+To send a file on a recurring schedule to recipients via email:
+
+1. Click **[!UICONTROL Share] > [!UICONTROL Schedule file export]**.
+1. Specify the file type (CSV or PDF).
+1. (Optional) Add a description that will be included in the email to explain the file being received. 
+1. Add recipients or groups. Email addresses can also be entered. 
+1. Specify the range the schedule should be delivered over by modifying Starting on and Ending on inputs. The end date must be within a year from the day the schedule is created or modified.
+1. Specify the delivery frequency. Each frequency allows for different customizations. 
+1. Click **[!UICONTROL Send on schedule]**.
 
 ![](assets/send-on-schedule.png)
 
-## スケジュール済みプロジェクトの管理
+## Manage scheduled projects
 
-スケジュールされたプロジェクトを管理する場合、定期的なプロジェクトスケジュールを編集および削除できます。
+When you manage scheduled projects, you can edit and delete recurring project schedules:
 
-* ファイルタイプ（.csv または PDF）を変更
-* プロジェクトの説明を更新
-* 受信者を追加または削除
-* 頻度を変更
+*  Change the file type (.csv or PDF)
+*  Update the project description
+*  Add or remove recipients
+*  Change the frequency
 
 
-スケジュールされた Analysis Workspace プロジェクトは、**Analytics／コンポーネント／スケジュールされたプロジェクト**&#x200B;で管理できます。
+Scheduled Analysis Workspace projects can be managed under **Analytics > Components > Scheduled Projects**.
 
-詳しくは、[スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md)を参照してください。
+For more information, see [Scheduled projects](/help/components/scheduled-projects-manager.md)
+-->

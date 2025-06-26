@@ -3,7 +3,7 @@ description: 管理者と非管理者のセグメントを使用した比較グ�
 title: セグメント権限（役割別）
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%
@@ -20,5 +20,3 @@ ht-degree: 1%
 | セグメントマネージャーでのセグメントの表示 | 組織全体のすべてのセグメント | 所有セグメントまたは共有セグメントのみ |
 | セグメントの管理 | 任意のユーザーから任意のセグメントを表示、編集、削除、承認できます | 編集または削除できるのは、独自のセグメントのみです。 セグメントを承認できません。 |
 | セグメントの共有 | 会社全体、ユーザーグループまたは個人と共有できます | 個人とのみ共有できます |
-
-{style="table-layout:auto"}

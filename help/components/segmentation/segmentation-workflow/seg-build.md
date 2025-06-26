@@ -1,12 +1,12 @@
 ---
-description: セグメントビルダーのキャンバスに指標ディメンション、セグメントおよびイベントをドラッグ＆ドロップすることで、コンテナ階層の論理、ルールおよび演算子に基づいて訪問者をセグメント化します。この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
+description: セグメントビルダーは、コンテナ階層ロジック、ルールおよび演算子に基づいて、指標ディメンション、セグメントおよびイベントをセグメント訪問者にドラッグ&ドロップするキャンバスです。 この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
 title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f12a3609e026057fc8a17776953883a727dc7489
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 67%
 >abstract="このセグメントのデータとデータビューのデータを比較します。プレビューの割合は、**過去 90 日間**&#x200B;のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
 
 
-**[!UICONTROL セグメントビルダー]** ダイアログでは、新しいセグメントの作成や既存のセグメントの編集を行うことができます。 ダイアログのタイトルは、**[!UICONTROL セグメント]** マネージャーから作成または管理するセグメントの場合、**&#x200B;** 新規セグメント [[!UICONTROL &#x200B; または &#x200B;] セグメントを編集 ](/help/components/segmentation/segmentation-workflow/seg-manage.md) になります。
+**[!UICONTROL セグメントビルダー]** ダイアログでは、新しいセグメントの作成や既存のセグメントの編集を行うことができます。 ダイアログのタイトルは、**[!UICONTROL セグメント]** マネージャーから作成または管理するセグメントの場合、**** 新規セグメント [[!UICONTROL  または ] セグメントを編集 ](/help/components/segmentation/segmentation-workflow/seg-manage.md) になります。
 
 >[!BEGINTABS]
 
@@ -47,7 +47,7 @@ ht-degree: 67%
    | 要素 | 説明 |
    | --- | --- |
    | **[!UICONTROL レポートスイート]** | セグメントに対するレポートスイートを選択できます。 |
-   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトでのみ表示され、セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。 **[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** を有効にして、その設定を変更します。 この情報ボックスは、[ クイックセグメント ](seg-quick.md) インターフェイスから **[!UICONTROL ビルダーを開く]** を使用して [!UICONTROL &#x200B; クイックセグメント &#x200B;] を作成し、クイックセグメント情報を通常のセグメントに切り替えた場合にのみ表示されます。 |
+   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトでのみ表示され、セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。 **[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** を有効にして、その設定を変更します。 この情報ボックスは、[ クイックセグメント ](seg-quick.md) インターフェイスから **[!UICONTROL ビルダーを開く]** を使用して [!UICONTROL  クイックセグメント ] を作成し、クイックセグメント情報を通常のセグメントに切り替えた場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | セグメントに名前を付けます（例：`Last month mobile visitors`）。 |
    | **[!UICONTROL 説明]** | セグメントの説明（例：`Segment to define the mobile customers for the last month`）を指定します。 |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
@@ -209,13 +209,13 @@ ht-degree: 67%
 
 <!--
 
-The [!UICONTROL Segment Builder] lets you build simple or complex segments that identify visitor attributes and actions across visits and page hits. It provides a canvas to drag and drop metric dimensions, events, or other segments in order to segment visitors based on hierarchy logic, rules, and operators.
+The [!UICONTROL Segment builder] lets you build simple or complex segments that identify visitor attributes and actions across visits and page hits. It provides a canvas to drag and drop metric dimensions, events, or other segments in order to segment visitors based on hierarchy logic, rules, and operators.
 
-There are several ways to access the Segment Builder:
+There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -266,7 +266,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Report suite selector]**: Lets you select the report suite that this segment will be saved under. You can still utilize the segment in all report suites.
 1. **[!UICONTROL Segment Preview]**: Lets you preview the key metrics to see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see if you apply this segment. Shows 3 concentric circles and a list to show the number and percentage of matches for [!UICONTROL Hits], [!UICONTROL Visits], and [!UICONTROL Visitors] for a segment run against a data set. This chart is updated immediately after you create or make changes to your segment definition.
 1. **[!UICONTROL Product Compatibility]**: Provides a list of which Adobe Analytics products (Analysis Workspace, Data Warehouse) with which the segment you created is compatible. Most segments are compatible with all products. However, not all operators and dimensions are compatible with all Analytics products, especially [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). This chart is updated immediately after you make changes to your segment definition.
-1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
+1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment manager where you can manage the segment.
 
 
 ## Build segments {#build-segments}
@@ -284,7 +284,7 @@ You can add rule definitions and containers to define your segments.
 1. Under **[!UICONTROL Tags]**, [tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) the container by selecting an existing tag or creating a new one.
 1. Click **[!UICONTROL Save]** to save the segment.
 
-You are now taken to the [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), where you can tag, share, and manage your segment in multiple ways.
+You are now taken to the [Segment manager](/help/components/segmentation/segmentation-workflow/seg-manage.md), where you can tag, share, and manage your segment in multiple ways.
 
 ## Add containers {#section_1C38F15703B44474B0718CEF06639EFD}
 
@@ -345,7 +345,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 >
 >When stacking two segments, they are by default joined by an AND statement. This cannot be changed to an OR statement.
 
-1. Go to the Segment Builder.
+1. Go to the Segment builder.
 1. Provide a title and description for the segment.
 
    Step Result 1. Click **[!UICONTROL Show Segments]** to bring up the list of segments in the left navigation.

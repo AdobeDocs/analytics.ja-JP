@@ -3,7 +3,7 @@ title: マーケティングチャネル FAQ
 description: マーケティングチャネルに関するよくある質問（FAQ）です。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%

@@ -5,36 +5,32 @@ title: 表示専用プロジェクト
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 96%
+source-wordcount: '297'
+ht-degree: 53%
 
 ---
 
-# 表示専用プロジェクト
+# 読み取り専用プロジェクト
 
-[プロジェクト共有ワークフロー](/help/analyze/analysis-workspace/curate-share/share-projects.md)を使用して、受信者に「表示のみ」としてプロジェクトを共有できます。「Can View」役割に配置された受信者は、より限定的なプロジェクト体験を受け取るようになります。組織のデータ構造、Analysis Workspace または Adobe Analytics 全般に慣れていないユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用してもらいたい場合には、この方法が適しているかもしれません。
+[ 共有機能 ](share-projects.md) を使用して、受信者に読み取り専用としてプロジェクトを共有できます。 **[!UICONTROL 読み取り専用]** の役割に配置された受信者には、プロジェクトエクスペリエンスが制限されます。
 
-パネルカレンダーの日付範囲は、表示専用プロジェクトでも編集できます。
+組織のデータ構造、Analysis Workspace または Adobe Analytics 全般に慣れていないユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用してもらいたい場合には、この方法が適しているかもしれません。
 
-![](assets/view-only-project.png)
+![ 読み取り専用として共有 ](assets/read-only-project-sender.png)
 
+読み取り専用受信者に対するインタラクションは制限されています。
 
->[!BEGINSHADEBOX]
-
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 表示専用プロジェクト ](https://video.tv.adobe.com/v/40056?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
-
+![ 読み取り専用受信済みとして共有 ](assets/read-only-project-receiver.png)
 
 ## 無効な操作
 
 表示のみのプロジェクトで無効になる操作には、次のものが含まれます。
 
-* 左側のレールを非表示にする
-* レポートスイート
-* フリーフォームフィルター
+* 非表示の左パネル
+* パネルカレンダーの日付範囲メモ：受信者にカレンダーコントロールを付与する場合は、[ 日付範囲を含むドロップダウンセグメント ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja) にを追加します。
+* フリーフォームセグメント化
 * 表示可能な行のフリーフォーム数
 * フリーフォーム行、列またはビジュアライゼーションの設定
 * パネルセグメント
@@ -47,7 +43,14 @@ ht-degree: 96%
 
 | 面グラフ | 有効な操作 |
 | --- | --- |
-| フリーフォームテーブル | <ul><li>ページネーションと並べ替え</li><li>ホバリング</li><li>リンクされたビジュアライゼーションを更新するセルの選択</li><li>右クリックしてビジュアライゼーションリンクを取得</li><li>右クリックしてクリップボードにコピー</li></ul> |
-| ビジュアライゼーション | <ul><li>クリックして凡例のオン／オフを切り替え</li><li>ホバリング</li><li>右クリックしてビジュアライゼーションリンクを取得</li><li>折りたたみ／展開</li><li>フロー — フローノードを展開</li><li>マップ — ズーム</li></ul> |
-| パネル | <ul><li>インタラクティブなドロップダウンフィルター</li><li>右クリックしてパネルリンクを取得</li><li>折りたたみ／展開</li></ul> |
+| フリーフォームテーブル | <ul><li>ページネーションと並べ替え</li><li>ホバリング</li><li>リンクされたビジュアライゼーションを更新するセル選択</li><li>コンテキストメニュー/ ビジュアライゼーションリンクを取得から</li><li>コンテキストメニュー/ クリップボードにコピーから</li></ul> |
+| ビジュアライゼーション | <ul><li>クリックして凡例のオン／オフを切り替え</li><li>ホバリング</li><li>コンテキストメニュー/ ビジュアライゼーションリンクを取得から</li><li>折りたたみ／展開</li><li>フロー — フローノードを展開</li><li>マップ — ズーム</li></ul> |
+| パネル | <ul><li>インタラクティブなドロップダウンセグメント</li><li>コンテキストメニュー/ パネルリンクを取得から</li><li>折りたたみ／展開</li></ul> |
 | プロジェクト | <ul><li>すべての情報アイコンの検査</li><li>プロジェクトメニュー — 新規、開く、ランディングページとして設定、更新、CSV／PDF をダウンロード、限られたプロジェクト情報および設定</li><li>共有メニュー — プロジェクトリンクを取得、今すぐファイルを送信</li><li>ヘルプメニュー — 「ヒント」および「デバッガー」オプション以外のすべてのアクション</li></ul> |
+
+
+## すべてのユーザーとエクスペリエンスを共有
+
+[ 任意のユーザーと共有 ](share-projects.md#share-a-project-with-anyone-no-login-required) を使用してプロジェクトを選択した場合、リンクの受信者は、プロジェクトを表示するだけで、プロジェクトを操作することはできません。
+
+![ 任意のユーザーと共有 ](assets/share-with-anyone-receiver.png)

@@ -4,58 +4,51 @@ keywords: 計算指標;高度な計算指標
 title: 計算指標および高度な計算指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 36%
 
 ---
 
-# 計算指標および高度な計算指標
+# 計算指標の概要
 
-計算指標および高度な計算指標は、既存の指標から作成できるカスタム指標です。
+既存の指標から作成できる計算指標とカスタム指標。
 
-計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
+計算指標を使用すると、指標の作成、管理、キュレーションを非常に柔軟に行うことができます。 計算指標を使用すると、マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。
 
-* Adobe [!DNL Analytics] Foundation：計算指標
-* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標 + 高度な計算指標
-* [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
-* [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
+計算指標は各 [!DNL Analytics] パッケージで使用できますが、Experience CloudのAdobe Analytics Foundation パックは、[ 形式タイプ （小数、時間、%、通貨） ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)、[ 配分の変化（デフォルト、線形、パーティシペーションなど）を含む、基本的な計算指標に制限されます](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、[ 指標タイプ（標準、合計） ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、および [ 基本演算子 ](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) （加算、減算、乗算、除算）。
 
-次に、計算指標と高度な計算指標の機能比較を示します。
 
-| ビルダーのオプション | 計算指標 | 高度な計算指標 |
-|---|---|---|
-| [形式のタイプ（小数、時間、割合、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | ○ | ○ |
-| [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
-| [指標のタイプ（標準、合計）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
-| 基本的な演算子（可算、減算、乗算、除算） | ○ | ○ |
-| [セグメントの適用](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | × | ○ |
-| [基本的な関数（カウント、絶対値、平均など）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | × | ○ |
-| [高度な関数（回帰、if/then、t スコアなど）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | × | ○ |
+詳しくは、[Adobe Analytics製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-analytics.html) を参照してください。
+
+<!--
+Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
+
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Basic operators (add, subtract, multiply, divide)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | ![StopCircle](/help/assets/icons/StopCircle.svg)  | Yes  |
+| [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
+| [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
+
+-->
 
 ## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 次のことが可能です。
 
-* [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]をまたいで指標を作成します。
-* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらの指標はセグメントに基づいているので、時系列で表示できます。
+* [2}Analysis Workspace](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)、[!UICONTROL Report Builder]、{ 異常値検出 ]、{ 貢献度分析 [!UICONTROL  の ][!UICONTROL  指標を作成 ] します。[!UICONTROL 
+* 実装を変更せずに、レポート実行時に導出される [ セグメント化された指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) します。 例えば、これが最初のセッションであるユーザーの数を使用して、*新規訪問者* の指標を作成できます。
 
->[!BEGINSHADEBOX]
+* 複数のレポートスイートをまたいで [ 指標を共有 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) します。 つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
-
->[!ENDSHADEBOX]
-
-* レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標のセグメント。例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
-
-* （高度な計算指標のみ）データをわかりやすく記述するための統計関数を組み込む。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
-
+* [ 統計関数を組み込む ](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) と、データをより詳細に説明できます。 例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
 
 ## 制限事項
 
-一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
+一部の [!DNL Analytics] 機能では、計算指標を使用できません。
 
 * [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
@@ -66,13 +59,13 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/37945?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -88,3 +81,10 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
 
 -->
+
+>[!MORELIKETHIS]
+>
+>[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>>[指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[関数の使用 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>

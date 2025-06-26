@@ -3,45 +3,49 @@ description: セグメントに関する問題のトラブルシューティン�
 title: セグメント化のトラブルシューティング
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 99%
+source-wordcount: '166'
+ht-degree: 50%
 
 ---
 
 # セグメント化のトラブルシューティング
 
-## エラー：「このセグメント内に互換性のない要素があります」  {#incompatible}
+<!-- Looks like this is not part anymore of the current UI.
 
-このエラーは、Data Warehouse と互換性のない要素が含まれているセグメントを Data Warehouse フォルダーに保存しようとしたときに発生します。このエラーを解決するには、次のいずれかを実行します。
+## Error: "Incompatible elements in this segment" {#incompatible}
 
-* セグメントを別のフォルダーに保存する。
-* セグメント内の互換性のない部分を削除または変更する。
+This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
+
+* Save the segment in a different folder 
+* Remove or change the incompatible portions of the segment.
+
+-->
 
 ## セグメントからデータがまったく返されないのはなぜですか。 {#no-data}
 
 考えられる理由は次のとおりです。
 
-* 逆ネスト - 例えば、訪問者コンテナを訪問コンテナの下にネストしている場合など。
+* 逆ネスト – 例えば、![User](/help/assets/icons/User.svg)**[!UICONTROL Visitor]** コンテナを ![Visit](/help/assets/icons/Visit.svg)**[!UICONTROL Visit]** コンテナの下にネストします。
 * レポートがセグメントをサポートしていない。
 * セグメント基準に一致するデータがない。
 
-## 作成済みのセグメントがセグメントマネージャに表示されないのはなぜですか。 {#invisible}
+## 作成したセグメントがセグメントマネージャーに表示されないのはなぜですか？ {#invisible}
 
 考えられる理由は次のとおりです。
 
-* Data Warehouse でのみ使用可能で、セグメントマネージャでは使用できないディメンションがある。
+* 一部のディメンションはData Warehouseでのみ使用でき、セグメントマネージャーでは使用できません。
 * セグメントが特定のレポートスイートに対してのみチェックされている。
 * 共有セグメントが別のユーザーによって削除されている。
-* データセンターまたはブラウザーキャッシュの問題により、セグメントの読み込みができなかった。
+* データセンターまたはブラウザーのキャッシュの問題が原因で、セグメントを読み込めませんでした。
 * セグメントが保存されていない。
 * IP アドレスがユーザー側でブロックされている。
 
-## セグメントを適用後に表示されるページデータが正しくないように見えるのはなぜですか。 {#page-data}
+## セグメントを適用した後に表示されるデータが間違っているように見えるのはなぜですか？ {#page-data}
 
 考えられる理由は次のとおりです。
 
-* 必要な結果に対してルール／演算子が正しくない。
-* セグメントに対するコンテナの適用が正しくない。
+* ルールまたは演算子が、必要な結果に対して正しくありません。
+* セグメントでのコンテナの誤った使用。
 * セグメントに使用するトラフィック変数が適切に設定されていないか、期限切れになっている。

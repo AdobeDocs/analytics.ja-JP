@@ -1,12 +1,12 @@
 ---
-description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
+description: セグメントビルダーで作成され、セグメントマネージャーで管理される、セグメントの推奨ワークフローについて説明します。
 title: セグメントワークフローの概要
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 55%
 | 3 | [セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md) | すべての Analytics 機能で使用するセグメントを作成および編集します。 THEN 演算子を使用してセグメントを作成する方法については、<br/>[ 順次セグメントの作成 ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) を参照してください。 |
 | 4 | [セグメントのタグ設定](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 整理および共有が容易に行えるようにセグメントにタグを付けます。簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。 |
 | 5 | [セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md) | セグメントを正当なセグメントとして承認します。 |
-| 6 | [ セグメントの使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | セグメントコンポーネントから、レポートにセグメントを直接適用できます。 |
+| 6 | [ セグメントの使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | セグメントコンポーネントからレポートに直接セグメントを適用できます。 |
 | 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他の Analytics ツールの特定の閲覧者とセグメントを共有します。また、Adobe Target および Adobe Experience Cloud と共有することもできます。 |
 | 8 | [セグメントのフィルタリング](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。 |
 | 9 | [ セグメントをお気に入りとしてマーク ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。 |

@@ -1,16 +1,16 @@
 ---
 description: 計算指標の権限は、管理者レベルのユーザーと管理者以外のユーザーとで異なります。
-title: 計算指標：役割ベースの権限
+title: 役割ベースの権限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 81%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
-# 計算指標：役割ベースの権限
+# 役割ベースの権限
 
 計算指標の権限は、管理者レベルのユーザーと管理者以外のユーザーとで異なります。
 

@@ -3,10 +3,10 @@ description: マーケティングチャネルレポートを実行し、制限�
 title: マーケティングチャネルの権限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c5573b7252a4113355cc4b96d467fde2c86ba28f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 91%
 
 ---
 
@@ -28,4 +28,5 @@ ht-degree: 100%
 | Analytics ツール | Analysis Workspace アクセス | Analysis Workspace へのアクセスを許可します。Workspace でマーケティングチャネルディメンションを使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスのいずれかに属している必要があります。 |
 | Analytics ツール | Reports and Analytics アクセス | Reports and Analytics へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループまたは Analysis Workspace アクセス（推奨）に属している必要があります。 |
 
-Admin Console での製品プロファイルおよび Adobe Analytics の権限について詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)を参照してください。
+製品プロファイルとAdmin ConsoleのAdobe Analytics権限について詳しくは、[Adobe Analyticsの製品プロファイル ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja) を参照してください。
+

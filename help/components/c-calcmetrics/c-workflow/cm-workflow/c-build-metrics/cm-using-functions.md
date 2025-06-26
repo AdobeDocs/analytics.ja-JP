@@ -3,10 +3,10 @@ description: 関数を使用すると、データをフィルタリングした�
 title: 関数の使用
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 77%
+source-wordcount: '58'
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->計算指標の数式に関数を追加する場合は、指標またはセグメントをドラッグする前に、必ず関数を適用してください。
+>計算指標の式に関数を含める場合、指標やセグメントをドラッグする前に、必ず関数を適用します。
 
 <!-- OUTDATED VIDEO 
 Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.

@@ -3,14 +3,14 @@ description: セグメントをオーディエンスライブラリ、Target お
 title: Experience Cloudへのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 63%
+source-wordcount: '1363'
+ht-degree: 58%
 
 ---
 
-# Experience Cloud へのセグメントの公開 {#publish-segments}
+# セグメントの公開 {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -23,14 +23,14 @@ ht-degree: 63%
 >abstract="オーディエンスライブラリで作成されたセグメントは即座に利用でき、Analytics の更新には依存しません。"
 
 
-Adobe Analytics セグメントをExperience Cloudに公開すると、そのセグメントを [!DNL Audience Manager] や、Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] などの他のアクティベーションチャネルでマーケティングアクティビティに使用できます。
+Adobe Analytics セグメントをExperience Cloudに公開できるので、そのセグメントを [!DNL Audience Manager] や、Adobeの [!DNL Advertising Cloud]、[!DNL Target]、[!DNL Campaign] などの他のアクティベーションチャネルでマーケティングアクティビティに使用できます。
 
 Analytics セグメントは、8 時間以内にExperience Cloudに公開できます。 これらのセグメントを使用して、Audience Manager 内のオーディエンスを、すべてのダウンストリームの宛先でアクティブ化します。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの公開 ](https://video.tv.adobe.com/v/37008?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの公開 ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 * **レポートスイートの制限**：レポートスイートごとに最大 75 個のセグメントを公開できます。この制限は適用されます。既に 75 個のセグメントが公開されている場合、公開を取り消してセグメント数が 75 個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
 * **メンバーシップの制限**：Adobe Analytics から [!DNL Experience Cloud] に共有するオーディエンスの個別メンバーの数が 2,000 万を超えてはなりません。
 * **データプライバシー**：オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。オーディエンス共有がプライバシーに与える影響をすべて理解するには、[Adobe Experience Cloud](https://www.adobe.com/jp/privacy/experience-cloud.html) のプライバシーを確認します。
-* **[!DNL Adobe Analytics] と[!DNL Audience Manager]** のセグメント間の違い [&#128279;](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ja) について詳しくは、Analytics とAudience Managerのセグメントについてを参照してください。
+* **[!DNL Adobe Analytics] と[!DNL Audience Manager]** のセグメント間の違い ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=ja) について詳しくは、[Analytics とAudience Managerのセグメントについてを参照してください。
 
 ## セグメント公開タイムライン
 
@@ -63,12 +63,12 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 >[!NOTE]
 >週に 1 回、すべてのデータは、前週に取り込まれていない差分や不一致を考慮して完全に同期されます。
 
-## [!UICONTROL セグメントビルダー]でのセグメントの公開
+## [!UICONTROL  セグメントビルダー ] でのセグメントの公開
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
    ![Experience Cloud の公開](assets/publish-ec.png)
-1. セグメントのタイトルと説明を入力します。 これらのフィールドは保存する前に必要です。
+1. セグメントのタイトルと説明を入力します。 これらのフィールドは、セグメントを保存する前に必要です。
 1. 「**[!UICONTROL Experience Cloudの公開]**」セクションで、「**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート* 用）]**」オプションを選択します。
 
    >[!IMPORTANT]
@@ -79,14 +79,17 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 | 要素 | 説明 |
 |---|---|
 | **[!UICONTROL このセグメントをExperience Cloudに公開する（*レポートスイート* 用）]** | このオプションを有効にすると、セグメントタイトルと定義（広告プラットフォームで頻繁に使用されるシェルオーディエンス）がExperience Cloudと即座に共有され、セグメントメンバーシップが 4 時間ごとに評価されて共有されます。 <br>そのオーディエンスが [!DNL Target] のアクティビティと関連付けられている場合、[!DNL Analytics] は、その Experience Cloud および [!DNL Target] オーディエンスの対象となる訪問者の ID の送信を開始します。その時点で、オーディエンス名と対応するデータがExperience Cloudの [!DNL Audience Library] ページに表示され始めます。</br> |
-| **[!UICONTROL オーディエンス作成期間]** | 選択した時間枠を使用して、周期的なカレンダーベースでオーディエンスが作成されます。例えば、「過去 30 日間」（デフォルト）には、今日の日付（セグメントが作成された元の日付からではない）から過去 30 日間にオーディエンス資格を持っていた訪問者が含まれます。 |
+| **[!UICONTROL オーディエンス作成期間]** | 選択した時間枠を使用して、周期的なカレンダーベースでオーディエンスが作成されます。例えば、**[!UICONTROL 過去 30 日間]** （デフォルト）には、今日の日付（セグメントが作成された元の日付ではない）から過去 30 日間にオーディエンスに選定された訪問者が含まれます。 |
 | **[!UICONTROL オーディエンスライブラリに作成]** | 作成および公開したセグメントは、Experience Cloudの [!DNL Audience Library] ページで、待ち時間なしで使用可能にすることができます。 Analytics の更新には依存しません。これらのセグメントは、公開済みの 75 個のセグメントの制限に対してはカウントされません。 |
 | **[!UICONTROL x / 75 個公開済み]** | Experience Cloudに公開したセグメントの数を表示します。 リンクをクリックすると、公開済みのセグメントと、関連するレポートスイートおよび所有者のリストが表示されます。 |
 | **[!UICONTROL 保存]** | このセグメントを保存します。 |
 
 ## セグメントの非公開または削除
 
-Experience Cloudに公開されているセグメントを削除するには、まずセグメントを非公開にする必要があります。 セグメントを非公開にするには、公開するために使用したチェックボックスの&#x200B;**チェックを解除**&#x200B;します。
+>[!CAUTION]
+>
+>Experience Cloudに公開されているセグメントを削除するには、まずセグメントを非公開にする必要があります。 セグメントを非公開にするには、**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート*）]** の選択を解除します。
+
 
 >[!NOTE]
 >
@@ -100,9 +103,7 @@ Experience Cloudに公開されているセグメントを削除するには、�
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
 
-1. **[!UICONTROL 公開済み]** 列を表示します。 **[!UICONTROL はい]** この列は、セグメントがExperience Cloudに公開されたことを示します。 **[!UICONTROL いいえ]** は、ないことを示します。
-
-   ![公開ステータス](assets/publish-status.png)
+1. **[!UICONTROL 公開済み]** 列を表示します。 **[!UICONTROL はい]** この列は、セグメントがExperience Cloudに公開されていることを示します。 **[!UICONTROL いいえ]** は、セグメントが公開されていないことを示します。
 
 ## [!DNL Audience Manager] UUID の取得
 
@@ -133,7 +134,7 @@ Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
+ブラウザーのAdobe Audience Manager UUID は、[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際にデフォルトで使用されます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 

@@ -4,10 +4,10 @@ title: データ辞書の表示
 feature: Components
 role: User, Admin
 exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
-source-git-commit: 1e1f90f1ba290365b8ae9c8914e38f9c2f339b3f
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 1. 表示するコンポーネントを含む Analysis Workspace プロジェクトに移動します。
 
-1. Analysis Workspace の左側のパネルにある「[!UICONTROL **データ辞書**]」アイコンを選択します（データ辞書にアクセスする別の方法については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)の「データ辞書へのアクセス」を参照してください）。
+1. Analysis Workspace の左側のパネルにある「[!UICONTROL **データ辞書**]」アイコンを選択します（データ要素にアクセスする別の方法については、[ データ要素へのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary) を参照してください）。
 
    データ辞書ウィンドウが表示されます。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    | [!UICONTROL **お気に入り**] | お気に入りのリストにあるコンポーネントのみを表示します。お気に入りのリストにコンポーネントを追加する方法については、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。 |
    | [!UICONTROL **ディメンション**] | ディメンションであるコンポーネントのみを表示します（このオプションは、最初にデータ辞書にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
    | [!UICONTROL **指標**] | 指標であるコンポーネントのみを表示します（このオプションは、最初にデータ辞書にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
-   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します（このオプションは、最初にデータ辞書にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。<!--this is Filters in Customer Journey Analytics--> |
+   | [!UICONTROL **セグメント**] | セグメントであるコンポーネントのみを表示します（このオプションは、最初にデータ辞書にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
    | [!UICONTROL **日付範囲**] | 日付範囲であるコンポーネントのみを表示します（このオプションは、最初にデータ辞書にアクセスした際に「[!UICONTROL **クイックフィルター**]」タブでも使用できます）。 |
    | [!UICONTROL **すべてを表示**] | すべてのコンポーネントの表示。 このオプションは、管理者のみが使用できます。 |
    | [!UICONTROL **未承認**] | 管理者が承認済みとしてまだマークしていないコンポーネントのみを表示します。レビューと承認が必要なコンポーネントを管理者が識別する際に役立ちます。このオプションは、管理者のみが使用できます。 |

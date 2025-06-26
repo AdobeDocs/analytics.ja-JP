@@ -1,12 +1,12 @@
 ---
-description: セグメントマネージャでは、セグメントにタグを付けて管理できます。
+description: セグメントマネージャーでは、セグメントにタグを付けると、セグメントを整理できます。
 title: セグメントのタグ設定
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 1. 「**[!UICONTROL 保存]**」を選択して、セグメントのタグを保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-保存すると、タグは [!UICONTROL &#x200B; セグメントビルダー &#x200B;] で選択したセグメントの「[ タグ ](seg-build.md)」フィールドにリストされます。
+保存すると、タグは [!UICONTROL  セグメントビルダー ] で選択したセグメントの「[ タグ ](seg-build.md)」フィールドにリストされます。
 
 
 ## 候補

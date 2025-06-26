@@ -4,23 +4,23 @@ keywords: セグメント化：セグメント
 title: セグメントコンテナ
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
 
 # セグメントコンテナ
 
-セグメントは、訪問者をその属性やサイトでのインタラクションに基づいて選別するフィルター条件を設定します。セグメントに条件を設定するには、訪問者をその特性やナビゲーションの特徴に基づいて選別するフィルタールールを設定します。訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。セグメントビルダーは、これらのサブセットを作成するためのシンプルなアーキテクチャで、訪問者／訪問／ヒットコンテナの順にネストされた階層的なコンテナとしてルールを適用します。
+セグメントは、訪問者をその属性やサイトでのインタラクションに基づいて選別するフィルター条件を設定します。セグメントに条件を設定するには、訪問者をその特性やナビゲーションの特徴に基づいて選別するフィルタールールを設定します。訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。セグメントビルダーは、これらのサブセットを作成し、ネストされた階層的な訪問者、訪問またはヒット コンテナとしてルールを適用するためのシンプルなアーキテクチャを提供します。
 
-セグメントビルダーで使用されるコンテナアーキテクチャは以下を定義します。
+[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) で使用されるコンテナアーキテクチャによって、次が定義されます。
 
-- ![訪問者](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL 訪問者]**&#x200B;は最も外側のコンテナとして、複数の訪問とページビューにわたる訪問者固有の包括的なデータを含んでいます。
-- ![訪問](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) ネストされた&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定できます。
-- ![イベント](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) ネストされた&#x200B;**[!UICONTROL ヒット]**&#x200B;コンテナを使用すると、個々のページビューに基づいて訪問者情報を分類できます。
+- 最も外側のコンテナとして ![User](/help/assets/icons/User.svg)**[!UICONTROL Visitor]** を使用し、訪問およびページビューをまたいで訪問者に固有の包括的なデータを含めます。
+- ![訪問](/help/assets/icons/Visit.svg) ネストされた&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定できます。
+- ![WebPage](/help/assets/icons/WebPage.svg) ネストされた **[!UICONTROL ヒット]** コンテナを使用すると、訪問者情報を個々のページビューに基づいて分類できます。
 
 各コンテナでは、訪問者の履歴全体で訪問別に分類されたインタラクションのレポートを作成したり、個々のヒットを分類したりできます。
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントコンテナ ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -148,7 +148,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> ヒット数</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> ヒット数</td>
 </tr>
 
 <tr>

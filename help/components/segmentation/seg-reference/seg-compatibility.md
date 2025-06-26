@@ -1,12 +1,12 @@
 ---
-description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します。
+description: セグメントビルダーで作成されたすべてのセグメントがData Warehouseと互換性があるわけではありません。 サポートされる機能を次の表に示します。
 title: Data Warehouse セグメントの互換性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 80%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>ディメンション</b> </td> 
-   <td>セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; Analytics でのみサポートされます。 
+   <td>ディメンションをセグメントビルダーの「<span class="uicontrol"> Definitions</span>」フィールドにドラッグ&amp;ドロップして、製品の互換性を確認します。 例えば、次のディメンションは、Analysis Workspace、Reports &amp; Analytics でのみサポートされます。 
     <ul> 
      <li>入口サーバー </li> 
      <li>入口カテゴリ </li> 
      <li>エントリ日 </li> 
      <li>すべての検索ページのランク </li> 
     </ul> </td> 
-   <td> セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Data Warehouse でのみサポートされます。 
+   <td> ディメンションをセグメントビルダーの「<span class="uicontrol"> Definitions</span>」フィールドにドラッグ&amp;ドロップして、製品の互換性を確認します。 例えば、次のディメンションは、Data Warehouse でのみサポートされます。 
     <ul> 
      <li>IP アドレス </li> 
      <li>ページ URL </li> 
@@ -99,4 +99,4 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-*メモ：Data Warehouse では、`AND/OR` を使用する場合に、`exclusion` または `without` コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B` として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み**&#x200B;**この特性を除外する**）Data Warehouse でサポートされます。*
+*メモ：Data Warehouse では、`AND/OR` を使用する場合に、`exclusion` または `without` コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B` として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み****この特性を除外する**）Data Warehouse でサポートされます。*

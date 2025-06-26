@@ -4,10 +4,10 @@ title: コンポーネントの説明の追加
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,15 @@ Analytics 管理者は、レポートスイート内または Analysis Workspace
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://video.tv.adobe.com/v/39720?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 
-## （データ辞書を使用した）Analysis Workspace のコンポーネントへの説明の追加 {#add-descriptions}
+## データ要素でのコンポーネントへの説明の追加 {#add-descriptions}
 
-Analysis Workspace のデータ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。これには、Analytics 管理者が Analysis Workspace 内にコンポーネントの説明を直接追加する機能が含まれます。
+Analysis Workspace のデータ辞書は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。これには、Analytics 管理者が Analysis Workspace 内にコンポーネントの説明を直接追加する機能が含まれます。
 
 データ辞書にコンポーネントの説明を追加する方法については、[データ辞書でのコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)を参照してください。
 

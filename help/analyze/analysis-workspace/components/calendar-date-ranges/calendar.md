@@ -4,98 +4,169 @@ title: カレンダーと日付範囲の概要
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# カレンダーと日付範囲の概要 {#date-range}
 
-<!-- markdownlint-disable MD034 -->
+# 日付範囲の概要
+
+Workspace プロジェクトでは、通常、パネル内の[カレンダー](/help/analyze/analysis-workspace/c-panels/panels.md#calendar)を使用して、そのパネルのビジュアライゼーションの日付範囲を指定します。
+
+日付範囲コンポーネントを使用すると、パネルのカレンダー設定を定義したり上書きしたりできます。
+
+
+## 日付範囲の使用
+
+日付範囲コンポーネントを使用して、パネルのカレンダーを再定義できます。
+
+または、フリーフォームテーブルの日付範囲を指標またはディメンションとして使用できます。
+
+![日付範囲の使用法](assets/date-ranges-usage.png)
+
+- **指標**&#x200B;例えば、特定の指標について 2 つの異なる月のディメンションを比較します。
+- **ディメンション**&#x200B;日付範囲ディメンションについて、様々なディメンション項目の指標を比較します。
+
+>[!NOTE]
+>
+>フリーフォームテーブルで日付範囲を使用すると、日付範囲がそのフリーフォームテーブルが属するパネルに指定されたカレンダーよりも優先されます。
+>
+
+日付範囲は、[任意のコンポーネントを使用する](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)場合と同様に使用します。![カレンダー](/help/assets/icons/Calendar.svg)、**[!UICONTROL 日付範囲]**&#x200B;コンポーネントパネルから日付範囲をドラッグして、コンポーネントを次の場所にドロップします。
+
+- **[!UICONTROL カレンダー]**：現在のカレンダー設定を日付範囲で![切り替えて](/help/assets/icons/Switch.svg)、**[!UICONTROL 置き換え]**&#x200B;ます。
+- **指標列ヘッダー**：指標を![切り替えて](/help/assets/icons/Switch.svg)、**[!UICONTROL 置き換え]**&#x200B;たり、日付範囲を指標として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**したり、日付範囲コンポーネントを使用して指標を![フィルター](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;フィルター&#x200B;]**したりできます。
+- **ディメンション列ヘッダー**：現在のディメンションを![切り替え](/help/assets/icons/Switch.svg)て、**[!UICONTROL 置き換え]**&#x200B;ます。新しいディメンションは&#x200B;**[!UICONTROL 日付範囲]**&#x200B;になりました。ディメンションが日付範囲になると、追加の日付範囲をディメンション項目として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**できます。
+- **ディメンション項目**：特定のディメンション項目を日付範囲別に![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 分類]**&#x200B;します。
+
+また、フリーフォームテーブルのビジュアライゼーションで、日付範囲列を直接追加することもできます。
+
+1. 指標列で、コンテキストメニューから次の項目を選択します。
+
+   - **[!UICONTROL 期間列を追加]**&#x200B;現在のカレンダーに基づく候補オプションを選択することも、[カスタムの日付範囲](#custom-date-ranges)を作成することもできます。
+   - **[!UICONTROL 期間を比較]**&#x200B;現在のカレンダーに基づく候補オプションを選択することも、[カスタムの日付範囲](#custom-date-ranges)を作成することもできます。
+
+1. 選択した内容に応じて、追加の日付範囲列がフリーフォームテーブルに追加されます。
+
+## デフォルトの日付範囲
+
+Analysis Workspace には、多数のデフォルトの日付範囲が用意されています。
+
+
+| 日 | 週 | 月 | 四半期 | 年 |
+|---|---|---|---|---|
+| Today | 今週 | 今月 | 今四半期 | 今年 |
+| 昨日 | 今週 (今日を除く) | 今月 (今日を除く) | 今四半期 (今日を除く) | 今年 (今日を除く) |
+| 2 日前 | 2 週間前 | 2 か月前 |   |  |
+| 3 日前 | 3 週間前 | 3 か月前 |  | |
+| 過去 7 日間 | 先週 | 先月 | 前四半期 | 昨年 |
+| 過去 14 日間 | 過去 2 週間 | 過去 2 か月間 | 過去 4 四半期 | |
+| 過去 30 日間 | 過去 3 週間 | 過去 3 か月間 | | |
+| 過去 60 日間 | 過去 4 週間 | 過去 6 か月間 | | |
+| 過去 90 日間 | 過去 12 週間 | 過去 12 か月間 | | |
+| 過去 7 日間 | 過去 52 週間 | 過去 13 か月間 | | |
+| 過去 14 日間 | | | | |
+| 過去 30 日間 | | | | |
+| 過去 90 日間 | | | | |
+
+<table style="table-layout:fixed">
+
+## カスタム日付範囲
+
+独自のカスタム日付範囲を作成できます。日付範囲の作成に使用できる様々なオプションについて詳しくは、[日付範囲の作成](create.md)を参照してください。その後、[日付範囲ビルダー](create.md#date-range-builder)で日付範囲を作成、変更および保存します。
+
+日付範囲を管理するには、[日付範囲マネージャー](manage.md)を使用します。
+
+
+
+<!--
+# Calendar and date ranges overview {#date-range}
 
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
->title="終了時間"
->abstract="終了時間には常に 59 秒が含まれます。"
-
-<!-- markdownlint-enable MD034 -->
+>title="End time"
+>abstract="End times always include 59 seconds."
 
 
-カレンダーで、日付や日付範囲を指定したり、プリセットを選択したりできます。
+
+In the calendar, you can specify dates and date ranges, or select a preset.
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カレンダーと日付範囲の概要](https://video.tv.adobe.com/v/328257?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-カレンダーの選択はパネルレベルで適用されますが、すべてのパネルに適用するオプションがあります。Workspace で日付範囲をクリックすると、インターフェイスに現在のカレンダー月と、前のカレンダー月が表示されます。これらの 2 つのカレンダーを調整するには、それぞれの上隅にある右向き矢印と左向き矢印をクリックします。
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![カレンダー](assets/aw_calendar2.png){width="60%"}
+![Calendar](assets/aw_calendar2.png){width="60%"} 
 
-## 日付範囲の選択と適用 {#select-apply}
+## Select and apply date ranges {#select-apply}
 
-カレンダーの最初のクリックでは、日付範囲の選択を開始します。2 回目のクリックで日付範囲の選択が完了し、ハイライト表示されます。`Shift` キーが押された状態（または右クリックが使用された状態）の場合は、現在選択されている範囲に追加されます。
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
-日付（および時間ディメンション）を Workspace プロジェクトにドラッグすることもできます。特定の日、週、月、年または周期的な日付を選択できます。
+You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Analysis Workspace での日付範囲およびカレンダーの使用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=ja)（4:07）
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
-| 設定 | 説明 |
+| Setting | Description |
 |--- |--- |
-| 選択された期間 (日数) | 選択した日／週／月／年。 |
-| パネルカレンダーに関連する日付範囲コンポーネントを作成 | 無効にすると、テーブル、ビジュアライゼーションまたはパネルドロップゾーン内で使用される日付範囲コンポーネントによってパネルカレンダーが上書きされます。 <p>有効にすると、ビジュアライゼーションまたはパネルドロップゾーン内で使用される日付範囲コンポーネントは、パネルの日付範囲に関連付けられます。例えば、パネルの日付範囲が 11月1日～11月30日に設定され、フリーフォームテーブルで先週の日付範囲コンポーネントが使用されている場合、フリーフォームテーブル内の情報は 10月の最終週を参照します。 |
-| 日周期を使用 | 日周期を使用すると、レポートを実行したタイミングに基づいて、一定期間、将来や過去を確認する動的レポートを生成できます。例えば、（「作成日」フィールドに基づく）「先月」に発行されたすべての注文をレポートしたい場合、12 月にレポートを実行すると、11 月に発行された注文が表示されます。同じレポートを 1 月に実行すると、12 月に発行された注文が表示されます。<ul><li>**[!UICONTROL 日付のプレビュー]**：周期的なカレンダーに含まれる期間を示します。</li><li>**[!UICONTROL 開始]**：本日、今週、今月、今四半期、本年から選択できます。</li><li>**[!UICONTROL 終了]**：本日、今週、今月、今四半期、本年から選択できます。</li></ul>例を表示するには、[カスタム日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)を参照してください。<br>デフォルトで選択されています。 |
-| 日付範囲 | プリセット日付範囲を選択できます。最近の 30 日間がデフォルトです。**[!UICONTROL 今週／月／四半期／年（今日を除く）]** ：今日の日付の一部を含まない日付範囲から選択できます。 |
-| すべてのパネルに適用 | 現在のパネルだけでなくプロジェクト内の他のすべてのパネルで選択された日付の範囲を変更できます。 |
-| 適用 | 日付範囲をこのパネルにのみ適用します。 |
+|Selected Days|Selected days/weeks/months/years.|
+|Make date range components relative to panel calendar| If disabled, any date range components used within a table, visualization, or panel drop zone override the panel calendar. <p>If enabled, any date range components used within a table, visualization, or panel drop zone are in relation to the panel date range. For example, if the panel date range is set to November 1 through November 30, and a Last Week date range component is used in a freeform table, the information in the freeform table refers to the last week in October. |
+|Use rolling dates| Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul>To view an example, see [Custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selected by default.|
+|Date Range|Lets you pick a preset date range. Last 30 days is the default. **[!UICONTROL This week/month/quarter/year (excluding today)]** lets you choose from date ranges that do not include partial-day data from today.|
+|Apply to All Panels|Lets you not only change the selected date range for the current panel, but also for all other panels within the project.|
+|Apply|Applies the date range to this panel only.|
 
-## パネルを基準とする相対的な日付範囲について {#relative-panel-dates}
+## About relative panel date ranges {#relative-panel-dates}
 
-Workspace で作業している場合は、パネルカレンダーを基準とする相対的な日付範囲コンポーネントにすることができます。
-パネルを基準とする相対的な日付が効果を発揮する一般的なユースケースは、コンボグラフ、主要指標概要、フリーフォームテーブルの日付範囲の 3 つです。
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
-パネルを基準とする相対的な日付範囲を使用するには：
+To use relative panel date ranges
 
-1. 「**ワークスペース**」タブを選択します。
-1. 「**空のプロジェクト**」を選択します。
-1. 左側のパネルから、ディメンション、指標およびセグメントを追加します。
-1. パネルの日付範囲フィールドをクリックして、パネルを基準とする相対的な日付範囲の設定を切り替えます。
-1. 「**パネルカレンダーを基準とする相対的な日付範囲コンポーネントにする**」を選択します。
-   * パネルカレンダーを基準とする相対的な日付範囲コンポーネントにするためのオプションを選択します。
-相対的な日付を選択した場合、周期的な日付は、当日の日付ではなく、パネルカレンダーの開始日を基準とします。
-   * このオプションを選択しない場合、周期的な日付は当日の日付を基準とします。
+1. Select the **Workspace** tab.
+1. Select **Blank project**.
+1. Add dimensions, metrics, and segments from the left rail. 
+1. Click the panel date range field to toggle the relative panel date range setting.
+1. Select **Make date range components relative to panel calendar**.
+    * Select the option to make the date range components relative to the panel calendar.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    * If this option isn't selected, then rolling dates will be based on today's date.
 
-   ![パネルを基準とする相対的な日付](assets/relative-date-selected.png){width="60%"}
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
-1. 「**適用**」をクリックします。
-相対的な日付が右上に表示されます。
+1. Click **Apply**.
+    The relative dates are shown in the upper-right.
 
-   ![フリーフォームの相対的な日付](assets/relative-date-range1.png)
+    ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## パネルを基準とする相対的な日付範囲のガイドライン {#guidelines}
+## Guidelines for relative panel date ranges {#guidelines}
 
-パネルを基準とする相対的な日付範囲を使用する場合は、次のガイドラインを念頭に置いてください。
+Keep in mind the following guidelines when using relative panel date ranges.
 
-### 数式と相対的な日付範囲 {#formula-relative-dates}
+### Formulas and relative date ranges {#formula-relative-dates}
 
-相対的な日付を選択した場合は、すべての日付式で、パネルの開始日が開始点として使用されます。
+If you have relative dates selected, all date formulas will use the panel's start date as the starting point.
 
-### カスタムカレンダーと相対的な日付範囲 {#custom-calendar-formulas}
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
 
-週単位のカスタムカレンダーを使用し、月数や年数を追加すると、指定した期間の日のオフセットが数式で計算されます。このオフセットのため、実際の日付は異なる場合があります。数式により、カスタムカレンダーの同じ位置に入る日が選択されます。例えば、カスタムカレンダーの 3 週目の第 3 金曜日などです。
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
 
-### 周期的な日付とパネルを基準とする相対的な日付範囲を使用するセグメントについて {#segments-relative-dates}
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
-過去 7 日間や過去 2 週間などの周期的な日付のセグメントを作成または使用する場合、セグメントのプレビューをクリックすると、パネルの開始日ではなく&#x200B;*当日*&#x200B;から周期的な日付が開始されます。その結果、実際にセグメントをテーブルで使用すると、セグメントのプレビューが一致しなくなります。セグメントそのものではなく、プレビューが影響を受けます。
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
 
-## パネルの日付範囲とプレビューのガイドライン {#guidelines-panel-dates}
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
 
-* 2 月のリリース以降、コンポーネントとデータのプレビューは、過去 90 日間ではなく、パネルの日付範囲に基づきます。
-* 左側のパネルにリストされているすべてのコンポーネントは、パネルの日付範囲に基づいて使用可能になります。
-* グメントおよび計算指標ビルダーのすべての日付プレビューは、パネルの日付範囲に基づきます（関連付けられたパネルがないコンポーネントマネージャーからアクセスしない限り、過去 90 日間に基づきます）。
-* データプレビューでは、パネルの日付範囲に基づいて、データやコンポーネントが表示されます。
+* Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+* All components listed in the left rail will be available based on the panel date range. 
+* All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+* Any data previews will display data or components based on the panel date range.
+
+-->

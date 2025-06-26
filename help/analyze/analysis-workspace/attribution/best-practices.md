@@ -1,12 +1,12 @@
 ---
 title: アトリビューションのベストプラクティス
-description: アトリビューションモデルの決定に関するベストプラクティスは何ですか。
+description: アトリビューションモデルを決定するためのベストプラクティスは何ですか？
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 75%
 
 ---
 
@@ -14,12 +14,16 @@ ht-degree: 100%
 
 組織に適したアトリビューションモデルの選択は、多くの考慮事項に基づいて行います。この記事では、方法といくつかの一般的なベストプラクティスについて説明します。
 
-## 手順 1：探索的分析
+* [探索的分析](#exploratory-analysis)
+* [ルールベースの属性](#rule-base-attribution)
+* [アルゴリズムアトリビューションの使用](#use-algorithmic-attribution)
+
+## 探索的分析
 
 >[!NOTE]
 >この分析は、アトリビューションモデルを選択する前に行う必要があります。
 
-このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。コンバージョン指標に基づいて、 [データフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=ja) （生データ用）や Analysis Workspace などのツールを使用すると、
+このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。コンバージョン指標に基づいて、 [データフィード](https://experienceleague.adobe.com/ja/docs/analytics/export/analytics-data-feed/data-feed-overview) （生データ用）や Analysis Workspace などのツールを使用すると、
 
 * コンバージョンに至る前に様々なマーケティングチャネルに接触した顧客の数
 * これらの動作の割合／分布
@@ -35,23 +39,23 @@ ht-degree: 100%
 
 下部ファネル分析では、人物が既にブランドを知っていて、コンバージョンすることを求めていると仮定します。メール、プッシュ通知または Facebook 広告を使用します。
 
-## 手順 2：ルールベースのアトリビューション
+## ルールベース属性
 
 この手順の目的は、仮説を検証することです。
 
 **例 1**
 
-「ファーストタッチチャネルは、ラストタッチチャネルよりもコンバージョンに大きな影響を与える」という仮説を仮定します。
+「*ファーストタッチチャネルは、ラストタッチチャネルよりもコンバージョンに大きな影響を与える*」という仮説を仮定します。
 
-この場合、[「逆 J 字型」アトリビューションモデル](/help/analyze/analysis-workspace/attribution/models.md)を使用して、この仮説をテストします。このモデルでは、ファーストタッチポイントに対するクレジットの 60% が与えられます。
+この場合、[ 逆 J字型」アトリビューションモデルを使用して ](/help/analyze/analysis-workspace/attribution/models.md) この仮説をテストします。 このモデルでは、ファーストタッチポイントに対するクレジットの 60% が与えられます。
 
 **例 2**
 
-「当社の業界（旅行業など）では、顧客が商品の購入前に大量に調査するので、アトリビューションウィンドウは 30 日ではなく 60 日か 90 日です」という仮説を仮定します。
+*「特定の業界（旅行業など）では、顧客が商品を購入する前に多くの調査を行うので、アトリビューションウィンドウは 30 日ではなく 60 日か 90 日です。*」という仮説を仮定します。
 
-この場合、[ルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows)を 90 日に変更します。
+この場合、[ルックバックウィンドウ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)を 90 日に変更します。
 
-## 手順 3：アルゴリズムアトリビューションの使用
+## アルゴリズムアトリビューションの使用
 
 すべての質問に対して満足のいく回答を提供するアトリビューションモデルがまだない場合は、[アルゴリズムアトリビューション](/help/analyze/analysis-workspace/attribution/algorithmic.md)を使用できます。考えられる多数の仮説と組み合わせを検証することは非常に難しいので、アルゴリズムアトリビューションでは、組み込みアルゴリズムを使用して、ディメンション項目全体にクレジットを割り当てます。
 
@@ -59,4 +63,4 @@ ht-degree: 100%
 
 * Analysis Workspace だけに依存するのではなく、データサイエンティストのサービスを使用する必要性が生じる場合があります。
 * Adobe データフィードのように、生データを使用できます。
-* [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の使用を検討します。例えば、インプレッションデータを検討する場合などに有効です。
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討します。例えば、インプレッションデータを検討する場合などに有効です。

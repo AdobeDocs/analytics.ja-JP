@@ -4,10 +4,10 @@ title: 貢献度分析の実行
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 15%
 
 ---
 
@@ -15,60 +15,71 @@ ht-degree: 100%
 
 [貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。目的は、ユーザーが重点領域や追加分析の機会をより迅速に見つけられるように支援することです。
 
-## 貢献度分析の実行 {#run}
+>[!NOTE]
+>
+>貢献度分析は、毎日の精度を持つデータに対してのみサポートされます。
 
-プロジェクトで貢献度分析を呼び出すには、2 つの方法があります。
+貢献度分析を実行する手順は次のとおりです。
 
-* 毎日の精度のフリーフォームテーブルで、任意の行を右クリックして、「**[!UICONTROL 貢献度分析を実行]**」を選択します。異常値が表示されていない行でも実行できます。
+1. プロジェクトで貢献度分析を呼び出します。
 
-  >[!NOTE]
-  >
-  >貢献度分析は、現在、毎日の精度でのみサポートされています。
+   ![ 貢献度分析の実行 ](assets/run-contribution-analysis.png)
 
-  ![](assets/run_ca.png)
+   1. 折れ線グラフ ビジュアライゼーションで、毎日の精度を持つフリーフォームテーブルに基づいて、異常値データポイントを選択します。 ポップアップから、「**[!UICONTROL 分析]**」を選択します。
+   1. 毎日の精度を持つフリーフォームテーブルで、任意の行のコンテキストメニューから「**[!UICONTROL 貢献度分析を実行]**」を選択します。 異常値が表示されない行に対して分析を実行することもできます。
+   1. 毎日の精度を持つフリーフォームテーブルで、異常値を示す行に対して：
+      1. インジケーターの ◥ を選択します。
+      1. ![ アラート ](/help/assets/icons/Alert.svg)**[!UICONTROL 異常値検出]** ダイアログで、「**[!UICONTROL 貢献度分析を開く]**」を選択します。
 
-* 折れ線グラフでは、折れ線グラフの異常値データポイントの上にマウスポインターを置きます。表示される&#x200B;**[!UICONTROL 分析]**&#x200B;リンクをクリックします。
 
-  ![](assets/contribution-analysis.png)
 
-1. （任意）折れ線グラフまたはテーブルで「**[!UICONTROL 貢献度分析を実行]**」をクリックしたら、[ディメンションを除外](#exclude)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
+1. （任意）分析の範囲を狭める（その結果、スピードアップする）には、[ ディメンションを除く ](#exclude-dimensions) を使用します。
 
-1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
-1. 次に、Analysis Workspace によって、このプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。
+   ![ ディメンションの貢献度分析からの除外 ](assets/excluding-dimensions.png)
 
-   * その日の&#x200B;**訪問**&#x200B;数を表示するビジュアライゼーション。
-   * コンテキストに関する毎月の&#x200B;**訪問トレンドライン**。
-   * [貢献度スコア](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)で並べ替えられた、この異常値に貢献した&#x200B;**トップアイテム**。加えて、問題の指標と、サイズの観点から指標を文脈の中で捉えるためのユニーク訪問者指標。
+1. 「**[!UICONTROL 貢献度分析を実行]**」を選択します。
 
-   * [生成されたセグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)（トップアイテムクラスター）テーブルは、貢献度スコア、異常値の発生数、異常な指標に貢献する全体的な割合に基づいて、トップアイテムの関連性を識別します。これは、その後、オーディエンスセグメントとしてキャプチャされます（貢献度セグメント 1、貢献度セグメント 2 など）。「i」（情報）ボタンをクリックすると、構成する上位の項目を含む、各自動セグメントの定義が表示されます。
+1. 貢献度分析が処理されるまでお待ちください。 レポートスイートのサイズとディメンションの数によっては、処理に時間がかかる可能性があります。 貢献度分析は、ディメンションごとに上位 50,000 個の項目に対して分析を実行します。 残りの [ 貢献度分析トークン ](anomaly-detection.md#contribution-analysis-tokens) の数も通知されます。
 
-     ![](assets/auto_segment.png)
+   ![ 実行中の貢献度分析 ](assets/contribution-analysis-executing.png)
 
-1. 貢献度分析は、Analysis Workspace の一部なので、テーブルの右クリックメニューから数多くの機能を活用して、分析を一層意味のあるものにすることができます。例えば、次のような機能があります。
+1. Analysis Workspaceは、このプロジェクト内に直接新しい **[!UICONTROL 貢献度分析]** パネルを読み込みます。
 
-   * [各ディメンション項目を別のディメンションで分類する](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [1 つまたは複数の行のトレンドを示す](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [新しいビジュアライゼーションを追加する](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [アラートを作成する](/help/components/c-alerts/intellligent-alerts.md)
-   * [セグメントを作成したり比較したりする](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+   ![ 貢献度分析パネル ](assets/contribution-analysis.png)
+
+   * [ 数値概要 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション。
+   * 月別のトレンド [ 折れ線グラフ ](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーション。
+   * この異常値に貢献する上位の項目を [ 貢献度スコア ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) で並べ替えて表示する **** 上位の項目 [ フリーフォームテーブル ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)。 追加の列には、該当する指標と、コンテキストを提供する **[!UICONTROL ユニーク訪問者]** 指標が表示されます。
+
+   * **[!UICONTROL 生成されたセグメント（上位の項目クラスター）]**[ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) は、貢献度スコア、異常値の発生件数、および異常値指標に貢献した全体的な割合に基づいて、上位の項目の関連付けを識別します。 この関連付けは、次にオーディエンスセグメント（貢献度セグメント 1、貢献度セグメント 2 など）として取得されます。 「![ 情報 ](/help/assets/icons/Info.svg)」を選択すると、セグメントが構成されている上位の項目など、セグメントの定義が表示されます。
+
+
+1. 貢献度分析は現在、Analysis Workspaceの一部なので、フリーフォームテーブルのコンテキストメニューから多くの機能を利用して、分析をさらに有意義なものにすることができます。以下に例を示します。
+
+   * [ 各ディメンション項目を別のディメンションで分類 ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [1 つ以上の行のトレンド ](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [ 新しいビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+   * [ アラートの作成 ](/help/components/c-alerts/intellligent-alerts.md)
+   * [セグメントを作成または比較する。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
->貢献度分析およびそれにリンクされたインテリジェントアラートプロジェクトで、分析された異常値が青い点でハイライト表示されます。これにより、分析された異常値がより明確に示されます。
+>分析された異常値は、貢献度分析内で青い点でハイライト表示され、その異常値にリンクされたインテリジェントアラートプロジェクトが表示されます。 このハイライト表示により、分析された異常値がより明確に示されます。
 
-## ディメンションの貢献度分析からの除外 {#exclude}
 
-貢献度分析から一部のディメンションを除外したい場合があります。例えば、ブラウザーまたはハードウェア関連のディメンションは関係がなく、これらを削除することで分析を高速化したい場合です。
+## ディメンションを除外
 
-1. 「**[!UICONTROL 貢献度分析を実行]**」（または折れ線グラフの「**[!UICONTROL 分析]**」）をクリックすると、**[!UICONTROL 除外されたディメンション]**&#x200B;パネルが表示されます。
+一部のディメンションは、貢献度分析から除外することができます。 例えば、ブラウザーまたはハードウェア関連のディメンションは関係がなく、これらを削除することで分析を高速化したい場合です。
 
-1. 不要なディメンションを&#x200B;**[!UICONTROL 除外されたディメンション]**&#x200B;パネルにドラッグして、「**[!UICONTROL デフォルトとして設定]**」をクリックしてリストを保存します。または、「**[!UICONTROL すべてクリア]**」をクリックして、除外するディメンションを選択することからやり直します。
+除外されたディメンションを管理するには：
 
-   ![](assets/exclude_dimensions.png)
+* 不要なディメンションを **[!UICONTROL 除外されたディメンション]** パネルにドラッグしてから、「デフォルトとして設定 **[!UICONTROL をクリックしてリストを保存し]** す。
 
-1. 除外するディメンションを追加したら（または除外しないものを選択したら）、もう一度「**[!UICONTROL 貢献度分析を実行]**」をクリックします。
-1. 除外されたディメンションのリストを変更する必要がある場合はいつでも、ディメンションをダブルクリックすると、除外されたディメンションのリストが表示されます。
+* 「**[!UICONTROL すべてクリア]**」を選択してやり直します。
 
-   ![](assets/excluded-dimensions.png)
+* ![ ディメンション ](/help/assets/icons/Dimensions.svg) を選択してコンテキストメニューを表示し、![CrossSize400](/help/assets/icons/CrossSize400.svg) を使用して、選択した除外されたディメンションをリストから削除します。
 
-1. 不要なディメンションの隣にある x をクリックして削除し、「**[!UICONTROL デフォルトとして設定]**」をクリックしてリストを保存します。
+  ![](assets/excluded-dimensions-list.png)
+
+除外するディメンションを変更したら、もう一度 **[!UICONTROL 貢献度分析を実行]** を選択します。
+

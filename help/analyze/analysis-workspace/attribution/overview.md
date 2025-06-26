@@ -4,10 +4,10 @@ description: 成功イベントのクレジットを複数のディメンショ�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 91%
 
 一部のレポートでは、注文を有料検索に関連付けることが望まれるかもしれません。他のレポートでは、注文を「ソーシャル」に関連付けることが望まれるかもしれません。アトリビューションを使用すると、このレポートの側面を制御できます。Adobe Analytics Ultimate、Prime、Select、Foundation ですべての組織で利用できます。アドビとの契約のタイプが不明な場合は、組織のアドビのアカウントチームにお問い合わせください。
 
-## アトリビューションの価値
+## アトリビューションの値
 
 特定のカスタマージャーニーは、線形ではなく、予測不可能な場合も多くあります。各顧客は、それぞれのペースで進みます。多くの場合、ダブルバック、停止、再起動、または他の非線形動作に関与します。このような生物的なアクションにより、カスタマージャーニー全体を通したマーケティング活動の影響を把握することが難しくなっています。また、複数のチャネルのデータを結び付ける作業の妨げにもなります。
 
-![アトリビューションに関する問題](assets/attribution_iq_problem.png)
+<!--
+![Attribution problem](assets/attribution_iq_problem.png)
+-->
 
 Adobe Analytics を使用すると、以下が可能になるので、アトリビューションを強化できます。
 
@@ -51,32 +53,32 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューション ](https://video.tv.adobe.com/v/38408?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![ フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューション ](https://video.tv.adobe.com/v/41479?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![ 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューションパネルの使用 ](https://video.tv.adobe.com/v/38412?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションパネルの使用 ](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューションモデルの並列比較の追加 ](https://video.tv.adobe.com/v/327795?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションモデルの並列比較の追加 ](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## アトリビューションをサポートしない Adobe Analytics ツール
+## アトリビューションをサポートしないAdobe Analytics ツール
 
 Analytics 2.0 API をサポートしないすべてのツール（Report Builder など）は、アトリビューションをサポートしません。
