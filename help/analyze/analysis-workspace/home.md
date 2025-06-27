@@ -311,8 +311,8 @@ When you finish building out the project and it's gathering actionable insights,
 ## Additional resources {#resources}
 
 - The [Learning landing](/help/getting-started/landing.md#learning) page in Customer Journey Analytics. This page is  great way to become acquainted with Analysis Workspace. Especially the Learning Workspace Fundamental. This template walks you through common terminology and steps for building your first analysis in Workspace
-- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
-- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/en/docs/release-notes/experience-cloud/current) for updates about new features.
+- Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview).
+- See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/ja/docs/release-notes/experience-cloud/current) for updates about new features.
 
 
 
@@ -351,7 +351,7 @@ Following are some of the key features available in Analysis Workspace:
 
 **Panels** are used to organize your analysis within a project and can contain many tables & visualizations. Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. On the far left rail, select the top **[!UICONTROL Panels]** icon to see a full list of panels available.
 
-To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html).
+To learn more about panels, see [Panels overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja).
 
 ![](assets/build-panels.png)
 
@@ -359,7 +359,7 @@ To learn more about panels, see [Panels overview](https://experienceleague.adobe
 
 **Visualizations**, such as a bar or line chart, can be used to visually bring data to life. On the far left rail, select the middle **[!UICONTROL Visualizations]** icon to see the full list of visualizations available. 
 
-To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+To learn more about visualizations, see [Visualizations overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja).
 
 ![](assets/build-visualizations.png)
 
@@ -415,8 +415,8 @@ When you finish building out the project and it's gathering actionable insights,
 
 ## Additional resources {#resources}
 
-* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
-* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) for updates about new features.
+* Adobe offers hundreds of [Analytics video training tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ja).
+* See [Adobe Experience Cloud release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja#analytics) for updates about new features.
 * A great way to become acquainted with Analysis Workspace is through the Analysis Workspace Training Tutorial template. This template walks you through common terminology and steps for building your first analysis in Workspace. To begin the tutorial:
   1. On the [!UICONTROL **Workspace**] tab in Adobe Analytics, select **[!UICONTROL Learning]** on the left.
   1. Select **[!UICONTROL Open Tutorial]**.
