@@ -46,7 +46,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_現在、_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** で使用できるマップビジュアライゼーションはありません。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_現在、_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** で使用できるマップビジュアライゼーションはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 | 設定 | 説明 |
 |--- |--- |
 | **[!UICONTROL マップタイプ]** | |
-| **[!UICONTROL  バブル ] | バブルを使用してイベントのグラフを描画します。バブルチャートは、散布図と比例する面グラフの中間の複数変数のグラフです。この表示はデフォルトです。 |
-| [!UICONTROL  ヒートマップ ] | ヒートマップを使用してイベントのグラフを描画します。ヒートマップは、データのグラフィカル表示で、マトリックスに含まれる個々の値が色で表されます。 |
+| **[!UICONTROL &#x200B; バブル &#x200B;] | バブルを使用してイベントのグラフを描画します。バブルチャートは、散布図と比例する面グラフの中間の複数変数のグラフです。この表示はデフォルトです。 |
+| [!UICONTROL &#x200B; ヒートマップ &#x200B;] | ヒートマップを使用してイベントのグラフを描画します。ヒートマップは、データのグラフィカル表示で、マトリックスに含まれる個々の値が色で表されます。 |
 | **[!UICONTROL スタイル]** | |
 | [!UICONTROL カラーテーマ] | ヒートマップおよびバブルのカラースキームを表します。コーラル、赤、緑または青から選択できます。デフォルトはコーラルです。 |
 | [!UICONTROL マップスタイル] | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択できます。 |
