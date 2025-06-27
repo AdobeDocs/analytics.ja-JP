@@ -20,7 +20,7 @@ ht-degree: 90%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **ニューReport Builderでのセキュアなクラウド宛先のサポート** | Javascript Report Builder アドインで、次のクラウドストレージの宛先へのレポートの書き出しがサポートされるようになりました。<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前は、FTP とメールの宛先のみを使用できました。 セキュリティ上の問題により、FTP はサポートされなくなりました。</p><p>詳しくは、[ クラウド宛先への書き出しによるワークブックのスケジュール設定 ](/help/analyze/report-builder/report-builder-export.md) を参照してください。</p><p>これらの変更に加えて、Adobe Analyticsで場所を作成する際に、「次で使用」フィールドに、Report Builderで場所を使用するオプションが追加されました。詳しくは、[ クラウドの読み込み場所と書き出し場所の設定 ](/help/components/locations/configure-import-locations.md) を参照してください。</p> |  | 2025 年 6 月 19 日（Pt）（当初は 6 月 18 日（Pt）） |
+| **ニューReport Builderでのセキュアなクラウド宛先のサポート** | Javascript Report Builder アドインで、次のクラウドストレージの宛先へのレポートの書き出しがサポートされるようになりました。<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前は、FTP とメールの宛先のみを使用できました。 セキュリティ上の問題により、FTP はサポートされなくなりました。</p><p>詳しくは、[ クラウド宛先への書き出しによるワークブックのスケジュール設定 ](/help/analyze/report-builder/report-builder-export.md) を参照してください。</p><p>これらの変更に加えて、Adobe Analyticsで場所を作成する際に、「次で使用」フィールドに、Report Builderで場所を使用するオプションが追加されました。詳しくは、[ クラウドの読み込み場所と書き出し場所の設定 ](/help/components/locations/configure-import-locations.md) を参照してください。</p> |  | 2025年6月19日（PT）（当初は6月18日（PT）） |
 | **新しいプレビューエクスペリエンス** | セグメントや計算指標などをプレビューするために使用されるプレビューパネルでは、ドーナツビジュアライゼーションではなく、横棒グラフビジュアライゼーションが使用されるようになりました。 |  | 2025年6月18日（PT） |
 | **変更されたアトリビューションモデルダイアログ** | アトリビューションモデルダイアログでコンテナと期間を個別に定義できるようになりました。 |  | 2025年6月18日（PT） |
 | **顧客属性 UI へのナビゲーションを更新しました** | Adobe Experience Cloud のアプリセレクターから顧客属性ユーザーインターフェイスに直接アクセスできるようになりました。 |  | 未定 |

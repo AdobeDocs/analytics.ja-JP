@@ -39,7 +39,7 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 次のことが可能です。
 
-* [2&rbrace;Analysis Workspace](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)、[!UICONTROL Report Builder]、&lbrace; 異常値検出 、&lbrace; 貢献度分析 [!UICONTROL &#x200B; の &#x200B;][!UICONTROL &#x200B; 指標を作成 &#x200B;] します。
+* [2}Analysis Workspace](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)、[!UICONTROL Report Builder]、{ 異常値検出 ]、{ 貢献度分析 [!UICONTROL  の ][!UICONTROL  指標を作成 ] します。[!UICONTROL 
 * 実装を変更せずに、レポート実行時に導出される [ セグメント化された指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) します。 例えば、これが最初のセッションであるユーザーの数を使用して、*新規訪問者* の指標を作成できます。
 
 * 複数のレポートスイートをまたいで [ 指標を共有 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) します。 つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
@@ -50,7 +50,7 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 一部の [!DNL Analytics] 機能では、計算指標を使用できません。
 
-* [!UICONTROL Analysis Workspace &#x200B;][!UICONTROL のフォールアウト]
+* [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/37945?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[関数の使用 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[関数の使用 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

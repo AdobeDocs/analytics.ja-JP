@@ -7,7 +7,7 @@ user-guide-description: セグメント、計算指標、仮想レポートス�
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -183,7 +183,7 @@ ht-degree: 96%
       + [概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
       + [セグメントの作成](segmentation/segmentation-workflow/seg-create.md)
-      + [セグメントの構築](segmentation/segmentation-workflow/seg-build.md)
+      + [セグメントの作成](segmentation/segmentation-workflow/seg-build.md)
       + [クイックセグメント](segmentation/segmentation-workflow/seg-quick.md)
       + [順次セグメント](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [セグメントの共有](segmentation/segmentation-workflow/t-seg-share.md)
@@ -199,7 +199,7 @@ ht-degree: 96%
    + セグメントの参照 {#segment-reference}
       + [演算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
-      + [セグメント権限（役割別）](segmentation/seg-reference/seg-rights.md)
+      + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
    + [レガシーセグメントに関するよくある質問](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
