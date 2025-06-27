@@ -4,9 +4,9 @@ title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 77%
 
      | 指標タイプ | 定義 |
      |---|---|
-     | **[!UICONTROL 標準]** | 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![Event](/help/assets/icons/Event.svg) **[!UICONTROL Orders]** ![Divide](/help/assets/icons/Divide.svg) ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Visits]** は、その特定の行項目の注文を受け取り、その特定の行項目の訪問回数で割ります。 |
-     | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![ 除算 ](/help/assets/icons/Divide.svg) ![ イベント ](/help/assets/icons/Event.svg) **[!UICONTROL 訪問総数]** は、特定の行項目への訪問だけでなく、すべての訪問に対する注文数の割合を表示します。 この例では、計算指標の **[!UICONTROL イベント]**&#x200B;**訪問回数 ![ 指標に対して ](/help/assets/icons/Event.svg) 総計** を指定すると、自動的に ![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 訪問回数の合計]** に変わります。 |
+     | **[!UICONTROL 標準]** | 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![除算](/help/assets/icons/Divide.svg) ![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 訪問回数]**&#x200B;は、その特定の行項目の注文件数をその特定の行項目の訪問回数で除算します。 |
+     | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![除算](/help/assets/icons/Divide.svg) ![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 合計訪問回数]**&#x200B;は、特定の行項目に対する訪問回数だけでなく、すべての訪問回数に対する注文件数の割合を示します。この例では、計算指標で![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 訪問回数]**&#x200B;指標の&#x200B;**[!UICONTROL 総計]**&#x200B;を指定し、それが自動的に![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 合計訪問回数]**&#x200B;に変わります。 |
 
    * 「**[!UICONTROL アトリビューション]**」を指定します。
 
@@ -33,15 +33,15 @@ ht-degree: 77%
          * 30 日間のルックバックウィンドウを持つデフォルトの列アトリビューションモデル（ラストタッチ）を使用する場合は、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を無効にします。
          * 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を有効にします。**[!UICONTROL 列アトリビューションモデル]**&#x200B;ダイアログで以下を行います。
 
-            * 「**[!UICONTROL アトリビューションモデル]**」から [ モデル ](#attribution-models) を選択します。
-            * **[!UICONTROL コンテナ]** オプションから [ コンテナ ](#container) を選択します。
-            * **[!UICONTROL ルックバックウィンドウ]** オプションから [ ルックバックウィンドウ ](#lookback-window) を選択します。 **[!UICONTROL カスタム時間]** を選択した場合は、期間を **[!UICONTROL 分]** 最大 **[!UICONTROL 四半期]** で定義できます。
+            * [アトリビューションモデル](#attribution-models)から&#x200B;**[!UICONTROL モデル]**&#x200B;を選択します。
+            * 「**[!UICONTROL コンテナ]**」オプションから「[コンテナ](#container)」を選択します。
+            * 「**[!UICONTROL ルックバックウィンドウ]**」オプションから「[ルックバックウィンドウ](#lookback-window)」を選択します。「**[!UICONTROL カスタム時間]**」を選択した場合は、期間を「**[!UICONTROL 分]**」から「**[!UICONTROL 四半期]**」までの単位で定義できます。
 
       1. デフォルト以外のアトリビューションモデルを適用するには、「**[!UICONTROL 適用]**」を選択します。キャンセルするには、「キャンセル」を選択します。
 
      デフォルト以外のアトリビューションモデルを既に定義してある場合は、「**[!UICONTROL 編集]**」を選択して、選択項目を変更します。
 
-アトリビューションモデル、コンテナおよびルックバックウィンドウの使用例については、[ 例 ](#example) を参照してください。
+アトリビューションモデル、コンテナ、ルックバックウィンドウの使用例については、[例](#example)を参照してください。
 
 
 ## アトリビューションモデル {#attribution-models}

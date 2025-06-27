@@ -4,9 +4,9 @@ title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 
 計算指標ビルダーを使用して、計算指標を作成または編集できます。この方法で作成すると、コンポーネントリストで計算指標を使用できるようになります。このリストは、組織全体のプロジェクトで使用できます。または、[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)の[単一プロジェクトの計算指標の作成](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)の説明に従って、作成されたプロジェクトでのみ使用可能な計算指標をすばやく作成することもできます。
 
-[ 計算指標の作成 ](../cm-workflow.md) では、新しい計算指標の作成に使用できる様々なオプションについて説明します。
+[計算指標の作成](../cm-workflow.md)では、新しい計算指標の作成に使用できる様々なオプションについて説明します。
 
 ## 計算指標ビルダーのエリア
 
@@ -38,13 +38,13 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 
    | 要素 | 説明 |
    | --- | --- |
-   | **[!UICONTROL レポートスイート]** | 計算指標に対するレポートスイートを選択できます。  定義した計算指標は、選択したレポートスイートに基づいてWorkspace プロジェクトで使用できます。 |
+   | **[!UICONTROL レポートスイート]** | 計算指標のレポートスイートを選択できます。定義した計算指標は、選択したレポートスイートに基づいて、Workspace プロジェクトで使用できます。 |
    | **[!UICONTROL プロジェクトのみの指標]** | [単一プロジェクトの計算指標の作成](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)の説明に従って、単一プロジェクト用に作成された計算指標を編集すると、このダイアログの上部に情報ボックスが表示されます。 <p>この計算指標をすべてのプロジェクトで使用できるようにする場合は、「**[!UICONTROL この指標をすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**」オプションを選択します。</p> |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | 計算指標に名前を付けます（例：`Conversion Rate`）。 |
    | **[!UICONTROL 説明]** | セグメントの説明を入力します（例：`Calculated metric to define the conversion rate.`）。計算指標の数式は既に[!UICONTROL 概要]で自動的に使用できるので、数式を説明する必要はありません。 |
    | **[!UICONTROL 形式]** | 計算指標の形式を選択します。**[!UICONTROL 小数]**、**[!UICONTROL 時間]**、**[!UICONTROL 割合]**、**[!UICONTROL 通貨]**&#x200B;から選択できます。 |
    | **[!UICONTROL 小数点以下の桁数]** | 選択した形式の小数点以下の桁数を指定します。選択した形式が小数、通貨、割合である場合にのみ有効になります。 |
-   | **[!UICONTROL 上昇傾向を次の形式で表示]** | 計算指標の上昇傾向を ▲ **[!UICONTROL 良（緑）または ▼**&#x200B;[!UICONTROL &#x200B; 悪（赤） &#x200B;]&#x200B;**ど]** 表示するかを指定します。 |
+   | **[!UICONTROL 上昇傾向を次の形式で表示]** | 計算指標の上昇傾向を▲ **[!UICONTROL 良好（緑色）]**&#x200B;として表示するか、▼ **[!UICONTROL 不良（赤色）]**&#x200B;として表示するかを指定します。 |
    | **[!UICONTROL 通貨]** | 計算指標の通貨を指定します。選択した形式が通貨である場合にのみ有効になります。 |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、計算指標を整理します。入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
    | **[!UICONTROL プレビュー]** | プレビューは過去 90 日間をカバーしており、指標が正しく定義されているかどうかを判断するための手段となります。 |
@@ -53,7 +53,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 
 1. 計算指標の定義が正しいかどうかを確認するには、計算指標の結果の絶えず更新される&#x200B;**[!UICONTROL プレビュー]**&#x200B;を使用します。**[!UICONTROL プレビュー]**&#x200B;は過去 90 日間をカバーしており、計算指標の定義を継続的に評価します。
 
-   **[!UICONTROL 製品の互換性]** は、計算指標とAdobe Analytics機能の互換性を示します。 詳しくは、[ 指標の互換性 ](/help/components/c-calcmetrics/cm-compatibility.md) を参照してください。
+   **[!UICONTROL 製品の互換性]**&#x200B;は、計算指標と Adobe Analytics 機能の互換性を示します。詳しくは、[指標の互換性](/help/components/c-calcmetrics/cm-compatibility.md)を参照してください。
 
 1. 次のいずれかを選択します。
    * 計算指標を保存する場合は、「**[!UICONTROL 保存]**」。
@@ -124,21 +124,21 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 * ディメンションからセグメントコンテナを追加するには：
 
    1. コンポーネントパネルから ![ディメンション](/help/assets/icons/Dimensions.svg) **[!UICONTROL ディメンション]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL ここに指標、ディメンション、ディメンション項目、セグメント、関数をドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。コンポーネントバーの ![検索](/help/assets/icons/Search.svg) を使用して、特定のコンポーネントを検索できます。
-   1. **[!UICONTROL Dimensionからセグメントを作成]** ポップアップで、セグメントの条件を定義します。 演算子のリストから選択し、値を選択するか入力します。例えば、**[!UICONTROL 月]** **[!UICONTROL 次に等しい]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)`Sep 2024` などとなります。
+   1. **[!UICONTROL ディメンションからセグメントを作成]**&#x200B;ポップアップで、セグメントの条件を定義します。演算子のリストから選択し、値を選択するか入力します。例えば、**[!UICONTROL 月]** **[!UICONTROL 次に等しい]** ![ChevronDown](/help/assets/icons/ChevronDown.svg)`Sep 2024` などとなります。
    1. 「**[!UICONTROL 完了]**」を選択します。セグメントコンテナが&#x200B;**[!UICONTROL 定義]**&#x200B;に追加されます。
 
 
 * セグメントからセグメントコンテナを追加するには、以下を使用します。
 
    * コンポーネントパネルから ![セグメント化](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL ここに指標、ディメンション、ディメンション項目、フィルター、関数をドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。コンポーネントバーの ![検索](/help/assets/icons/Search.svg) を使用して、特定のセグメントを検索できます。
-セグメントの名前を使用すると、セグメントコンテナが&#x200B;**[!UICONTROL 定義]**&#x200B;に自動的に追加されます。
+セグメントの名前を使用すると、セグメントコンテナが**[!UICONTROL 定義]**&#x200B;に自動的に追加されます。
 
-   * ![ セグメント化 ](/help/assets/icons/Segmentation.svg)**[!UICONTROL セグメント]** コンポーネントをコンポーネントパネルから汎用コンテナにドラッグ&amp;ドロップします。 コンテナがセグメントコンテナに変更されます。
+   * コンポーネントパネルから![セグメント化](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]**&#x200B;コンポーネントを汎用コンテナにドラッグ＆ドロップします。コンテナがセグメントコンテナに変更されます。
 
    * コンテナ内から ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 追加]**&#x200B;を選択します。
 
-      1. **[!UICONTROL セグメント]** を選択します。 セグメントコンテナが&#x200B;**[!UICONTROL 定義]**&#x200B;に追加されます。
-      1. 新しいセグメントコンテナで、「[!UICONTROL *選択…*]」ドロップダウンメニューからセグメントを選択します。
+      1. 「**[!UICONTROL セグメント]**」を選択します。セグメントコンテナが&#x200B;**[!UICONTROL 定義]**&#x200B;に追加されます。
+      1. 新しいセグメントコンテナで、[!UICONTROL *選択…*]&#x200B;ドロップダウンメニューからセグメントを選択します。
 
   >[!TIP]
   >
@@ -150,7 +150,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 
 * セグメント名の横にある ![閉じる](/help/assets/icons/Close.svg) を選択します。
 
-詳細と例については、[ セグメント化指標 ](metrics-with-segments.md) を参照してください。
+詳細と例については、[セグメント化済み指標](metrics-with-segments.md)を参照してください。
 
 #### 関数コンテナ
 
@@ -164,7 +164,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 * コンテナ内から ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 追加]**&#x200B;を選択します。
 
    1. 「**[!UICONTROL 関数]**」を選択します。
-   1. コンテナで、「[!UICONTROL *選択…*]」ドロップダウンメニューから関数を選択します。
+   1. コンテナで、[!UICONTROL *選択…*]&#x200B;ドロップダウンメニューから関数を選択します。
 
 関数コンテナの名前は、関数コンポーネントの名前を取って付けられます。例：![関数](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**。![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択すると、機能の詳細を含むポップアップが表示されます。関数について詳しくは、「**[!UICONTROL 詳細情報]**」を選択してください。
 
@@ -186,7 +186,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 >[!MORELIKETHIS]
 >
 >[関数の使用](cm-using-functions.md)
->&#x200B;>[セグメント ](/help/components/segmentation/seg-overview.md)
+>>[セグメント](/help/components/segmentation/seg-overview.md)
 >
 
 
@@ -226,14 +226,14 @@ The following image and accompanying table explain some of the main areas and fe
 | 8 | **Definition:** This is where you drag in metrics/calculated metrics, segments, and/or functions to build the calculated metric. <ul><li>If you drag in a calculated metric, it will expand its metric definition automatically. </li> <li>You can nest definitions with containers. However, unlike segment containers, these containers function like a math expression and determine the order of operations. </li> </ul>  |
 | 9 | **Operator:** Divided by ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. |
 | 10 | **Preview:** Provides a quick read on any possible errors. The preview covers the last 90 days. This is a way of initially gauging whether you have selected the right components for your metric. An unexpected result would mean you need to take a second look at the metric definition.  |
-| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=ja"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
+| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
 | 12 | **Add:** For all types of calculated metrics, you can add containers and static numbers to the definition. For advanced calculated metrics, you can also add segments and functions. <ul><li>Containers function like a math expression and determine the order of operations. So anything in a container will get processed before the next operation.</li><li>Dragging a segment onto a container segments everything in that container. (Advanced calculated metrics only)</li><li>You can stack multiple segments in a container.</li></ul> |
 | 13 | **Gear icon (Metric Type, Attribution):** Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. |
 | 14 | **New:** Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) |
 | 15 | **Search Components:** This search bar lets you search for dimensions, metrics, segments (advanced calculated metrics only), and functions (advanced calculated metrics only). |
 | 16 | **List of Dimensions:** Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. "Page = Homepage", you can drag in Page and select Homepage directly from the Calculated Metric Builder.<p>This results in a much more streamlined workflow for creating segmented calculated metrics.</p> |
 | 17 | **List of Metrics:** Metrics come in 3 categories: <ul> <li>Standard metrics (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Calculated metrics ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Metrics templates ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - at the bottom of the list. </li> </ul> <p>When you hover over a metric, you can see the Info icon to the right of it: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicking this icon gives you the following information: </p><ul> <li>The formula of how it is calculated. </li><li>A preview trend of the metric. </li><li>An edit (pencil) icon <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li></ul> |
-| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=ja"  > More... </a> |
+| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> |
 | 19 | **List of Functions:** (Advanced calculated metrics only) Functions are divided into two lists: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. |
 | 20 | **Report Suite selector:** Lets you switch to a different report suite. |
 
