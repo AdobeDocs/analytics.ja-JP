@@ -1,14 +1,14 @@
 ---
-description: 行設定は、テーブルにドラッグしたコンポーネントによって異なります。
+description: 行の設定の使用方法と、Analysis Workspaceのフリーフォームテーブルにドラッグしたコンポーネントによって行の設定が異なる方法を説明します。
 title: 行設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://video.tv.adobe.com/v/328502/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -92,4 +92,4 @@ ht-degree: 100%
 
 ## 行の高さの変更
 
-プロジェクトの表示密度は、**[!UICONTROL コンパクト]**、**[!UICONTROL 快適]**、**[!UICONTROL 拡張]**&#x200B;に設定できます。[詳細情報](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
+プロジェクトの [ 表示密度 ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) を **[!UICONTROL コンパクト]**、**[!UICONTROL 快適]**、**[!UICONTROL 拡張]** に設定できます。

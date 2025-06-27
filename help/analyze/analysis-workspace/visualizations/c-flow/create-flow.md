@@ -1,13 +1,13 @@
 ---
-description: ワークスペースプロジェクトでフロービジュアライゼーションを使用します。
+description: Analysis Workspaceでフロービジュアライゼーションを設定する方法を説明します
 title: フロービジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="このフィールドは、最初のビルドでのみ設定できます。このフィールドを更新するには、「**[!UICONTROL リセット]**」を選択して、新しいフロービジュアライゼーションを作成します。"
 
 
+フロービジュアライゼーションは、web サイトやアプリ上の特定のコンバージョンイベントに起因するジャーニーを理解するのに役立ちます。 または、特定のコンバージョンイベントに至る。 ビジュアライゼーションは、ディメンション（およびディメンション項目）または指標を通過するパスをトレースします。
 
-フロービジュアライゼーションを使用すると、Web サイトやアプリ上の特定のコンバージョンイベントに由来する、またはそれに至るジャーニーを把握できます。ディメンション（およびディメンション項目）または指標を通過するパスをトレースします。
-
-フロービジュアライゼーションでは、目的のパスの開始または終了を設定したり、ディメンションまたはディメンション項目を流れるすべてのパスを分析したりできます。
-
+目的のパスの開始または終了を設定できます。 または、ディメンションまたはディメンション項目を流れるすべてのパスを分析します。
 ![新しいフロー UI](assets/new-flow.png)
 
 ## 使用
@@ -204,8 +202,8 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

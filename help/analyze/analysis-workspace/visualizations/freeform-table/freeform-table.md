@@ -1,17 +1,17 @@
 ---
-title: フリーフォームテーブル
-description: フリーフォームテーブルは、Workspace のデータ分析の基盤となっています。
+title: フリーフォームテーブルの概要
+description: Analysis Workspaceのデータ分析の基盤となるフリーフォームテーブルの使用方法について説明します。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
-# フリーフォームテーブル {#freeform-table-overview}
+# フリーフォームテーブルの概要 {#freeform-table-overview}
 
 
 <!-- markdownlint-disable MD034 -->
@@ -70,7 +70,7 @@ Analysis Workspace では、![テーブル](/help/assets/icons/Table.svg) **[!UI
 ### 列
 
 * 列内にコンポーネントを積み重ねて、フィルター適用済み指標やクロスタブ分析などを作成できます。
-* 各列の表示は、「[列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)」で調整できます。
+* 各列の表示は、[列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)で調整できます。
 * [コンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)からはいくつかのアクションを実行できます。メニューには、テーブルヘッダー、行または列のいずれを選択するかに応じて、異なるアクションが表示されます。
 
 
@@ -106,7 +106,7 @@ Analysis Workspace では、![テーブル](/help/assets/icons/Table.svg) **[!UI
 | **[!UICONTROL データ CSV をダウンロード]** | ビジュアライゼーションの表示データをローカルデバイスにすぐにダウンロードします。 |
 | **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
 | **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。[テキスト](../text.md)を参照してください。 |
-| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。共有リンクダイアログにリンクが表示されます。「コピー」を選択して、リンクをクリップボードにコピーします。 |
+| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。 共有リンクダイアログにリンクが表示されます。「コピー」を選択して、リンクをクリップボードにコピーします。 |
 | **[!UICONTROL やり直し]** | 現在のビジュアライゼーションの設定を削除し、ゼロから再設定できるようにします。 |
 
 
@@ -115,19 +115,19 @@ Analysis Workspace では、![テーブル](/help/assets/icons/Table.svg) **[!UI
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルビルダーの概要](https://video.tv.adobe.com/v/34710?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルビルダーの概要](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルフィルター](https://video.tv.adobe.com/v/327358?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルフィルター](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの合計](https://video.tv.adobe.com/v/34103?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの合計](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -135,8 +135,8 @@ Analysis Workspace では、![テーブル](/help/assets/icons/Table.svg) **[!UI
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

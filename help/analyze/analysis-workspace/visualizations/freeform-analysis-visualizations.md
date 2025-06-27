@@ -1,46 +1,77 @@
 ---
-description: ビジュアライゼーションでデータを視覚的に表示します。
+description: Analysis Workspaceで使用可能なビジュアライゼーションを使用してデータを視覚的に表す方法について説明します。
 keywords: Analysis Workspace
-title: ビジュアライゼーションの概要
+title: 視覚化の概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 99%
+source-wordcount: '1510'
+ht-degree: 97%
 
 ---
 
 # ビジュアライゼーションの概要
 
-ワークスペースは、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図など、データを視覚的に表現する様々なビジュアライゼーションを提供します。Adobe Analytics を使用すると、ほとんどのビジュアライゼーションタイプがなじみのあるものになります。しかし、Analysis Workspace にはビジュアライゼーション設定があり、インタラクティブ機能を備えた新しいまたは独自のビジュアライゼーションタイプを数多く揃えています。
+Workspace には、データを視覚的に表現できる様々なビジュアライゼーションが用意されています。棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図などがあります。
 
-## ビジュアライゼーションのタイプ
+## タイプ
 
 Analysis Workspace では、次のビジュアライゼーションタイプを利用できます。
 
-| ビジュアライゼーション名 | 説明 |
-| --- | --- |
-| [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md)<p>![面グラフアイコン](assets/Smock_GraphArea_18_N.svg)</p> | 折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
-| [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![棒グラフアイコン](assets/Smock_GraphBarVertical_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。 |
-| [ブレットグラフ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![ブレットアイコン ](assets/Smock_GraphBullet_18_N.svg)</p> | 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを示します。 |
-| [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![コホートテーブルアイコン](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。コホート分析は、リテンション、チャーン、または遅延の分析に役立ちます。 |
-| [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![ドーナツアイコン](assets/Smock_GraphDonut_18_N.svg)</p> | このビジュアライゼーションは、円グラフと同様に、データを全体の一部または断片として表示します。 |
-| [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![フォールアウトアイコン](assets/Smock_ConversionFunnel_18_N.svg)</p> | フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。最終的または正確なシーケンスに設定できます |
-| [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![フローアイコン](assets/flow-icon.png)</p> | web サイトおよびアプリを介して正確な顧客パスを表示します。 |
-| [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![フリーフォームテーブルアイコン](assets/Smock_ViewTable_18_N.svg)</p> | フリーフォームテーブルは、単なるデータテーブルではなく、インタラクティブなビジュアライゼーションです。これは、ワークスペースのデータ分析の基礎になります。 |
-| [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![ヒストグラムアイコン](assets/Smock_GraphHistogram_18_N.svg)</p> | ヒストグラムは、指標の量に基づいて、訪問者、訪問、またはヒットをバケットにまとめます。 |
-| [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![横棒グラフアイコン](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
-| [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![主要指標の概要アイコン](assets/key-metric-icon.png)</p> | 1 つの期間内での指標のトレンドを表示したり、2 つの期間にわたる指標のパフォーマンスを比較したりできます。 |
-| [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)<p>![折れ線グラフアイコン](assets/Smock_GraphTrend_18_N.svg)</p> | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
-| [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![マップアイコン](assets/map-icon.png)</p> | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
-| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散布図アイコン](assets/Smock_GraphScatter_18_N.svg)</p> | ディメンション項目と最大 3 つの指標の関係を表示します。 |
-| [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![数値の概要アイコン](assets/summary-number-icon.png)</p> | 選択したセルを 1 つの大きな数値として表示します。 |
-| [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![変更の概要アイコン](assets/summary-change-icon.png)</p> | 選択したセル間の変化を 1 つの大きい数値/パーセントで表示します。 |
-| [テキスト](/help/analyze/analysis-workspace/visualizations/text.md)<p>![テキストアイコン](assets/Smock_Text_18_N.svg)</p> | ユーザー定義のテキストをワークスペースに追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
-| [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![ツリーマップアイコン](assets/Smock_GraphTree_18_N.svg)</p> | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
-| [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![ベン図アイコン](assets/venn-icon.png)</p> | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
+
+| アイコン | 名前 | 説明 |
+| :---: | --- | ---| 
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md) | 面グラフのビジュアライゼーション。折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1 つ以上の指標の様々な値を表す縦棒グラフを含む棒グラフビジュアライゼーション。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [積み重ね棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1 つ以上の指標の様々な値を表す縦棒グラフを含む積み重ね棒グラフビジュアライゼーション。 |
+| ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [ブレット](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 関心のある値が他のパフォーマンス範囲（目標）とどのように比較または測定されるかを示すブレットグラフビジュアライゼーション。 |
+| ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | コホートビジュアライゼーションは、特定の期間にわたって共通の特性を持つ人物のグループです。コホートテーブルは、リテンション、チャーンまたは待ち時間の分析に役立ちます。 |
+| ![コンボ](/help/assets/icons/ComboChart.svg) | [コンボ](combo-charts.md) | コンボグラフを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく作成できます。 |
+| ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md) | ドーナツビジュアライゼーションは、円グラフと同様に、データを全体の一部またはセグメントとして表示します。 |
+| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | フォールアウトビジュアライゼーションは、事前に指定した一連のページ間で、ユーザーが離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。 |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | フロービジュアライゼーションは、web サイトおよびアプリの正確な顧客パスを表示します。 |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | フリーフォームテーブルビジュアライゼーションは、インタラクティブなビジュアライゼーションです。フリーフォームテーブルビジュアライゼーションは、Workspace でのデータ分析の基盤となります。 |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md) | ヒストグラムビジュアライゼーションは、指標の量に基づいて、ユーザー、訪問またはイベントをバケットにまとめます。 |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 横棒グラフビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [積み重ね横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 積み重ね横棒グラフビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 主要指標の概要ビジュアライゼーションは、折れ線グラフ、変更の概要および数値の概要のビジュアライゼーションを組み合わせます。 |
+| ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md) | 折れ線グラフビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
+| ![ グローブ ](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）の視覚的なマップを作成できます |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散布図ビジュアライゼーションは、ディメンション項目と最大 3 つの指標の関係を表示します。 |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [セクションヘッダー](section-header.md) | パネル内のセクションを識別して明確にします。 |
+| ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 変更の概要ビジュアライゼーションには、選択したセル間の変更が 1 つの大きな数値または割合として表示されます。 |
+| ![123](/help/assets/icons/123.svg)</p> | [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 数値の概要ビジュアライゼーションには、選択したセルが 1 つの大きな数値として表示されます。 |
+| ![テキスト](/help/assets/icons/Text.svg) | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | テキストビジュアライゼーションでは、ユーザー定義のテキストを Workspace に追加できます。パネルおよびビジュアライゼーションの説明の活用に加えて、分析とインサイトにコンテキストを追加するのに役立ちます。 |
+| ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | ツリーマップビジュアライゼーションには、階層（ツリー構造）データがネストされた長方形のセットとして表示されます。 |
+| ![タイプ](/help/assets/icons/TwoDots.svg) | [ベン図](/help/analyze/analysis-workspace/visualizations/venn.md) | ベン図ビジュアライゼーションは、円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
+
+<!--
+
+| Name| Icon | Description |
+| --- |:---: | ---|
+| [Area](/help/analyze/analysis-workspace/visualizations/area.md)|![Area icon](assets/Smock_GraphArea_18_N.svg)</p> | Like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. |
+| [Bar](/help/analyze/analysis-workspace/visualizations/bar.md)|![Bar icon](assets/Smock_GraphBarVertical_18_N.svg)</p> | Shows vertical bars representing various values across one or more metrics. |
+| [Bullet graph](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|![Bullet icon](assets/Smock_GraphBullet_18_N.svg)</p> | Shows how a value you are interested in compares to or measures against other performance ranges (goals). |
+| [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|![Cohort table icon](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful for retention, churn or latency analysis. |
+| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | ![Donut icon](assets/Smock_GraphDonut_18_N.svg)</p> | Similar to a pie chart, this visualization shows data as parts or segments of a whole. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | ![Fallout icon](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. Can be set to eventual or exact sequences |
+| [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | ![Flow icon](assets/flow-icon.png)</p> | Shows exact customer paths through your websites and apps. |
+| [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | ![Freeform table icon](assets/Smock_ViewTable_18_N.svg)</p> | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
+| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | ![Histogram icon](assets/Smock_GraphHistogram_18_N.svg)</p> | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
+| [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | ![Horizontal bar icon](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | ![Key metric icon](assets/key-metric-icon.png)</p> | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md) | ![Line icon](assets/Smock_GraphTrend_18_N.svg)</p> | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
+| [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | ![Map icon](assets/map-icon.png)</p> | Lets you build a visual map of any metric (including calculated metrics). |
+| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ![Scatterplot icon](assets/Smock_GraphScatter_18_N.svg)</p> | Shows the relationship between dimension items and up to three metrics. |
+| [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary number icon](assets/summary-number-icon.png)</p> | Shows the selected cell as 1 large number. |
+| [Summary change](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary change icon](assets/summary-change-icon.png)</p> | Shows the change between the selected cells as 1 large number/percent. |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | ![Text icon](assets/Smock_Text_18_N.svg)</p> | Lets you add user-defined text to your Workspace. Helpful for adding additional context to your analysis and insights, in addition to leveraging panel/visualization descriptions |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | ![Treemap icon](assets/Smock_GraphTree_18_N.svg)</p> | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | ![Venn icon](assets/venn-icon.png)</p> | Uses circles to depict the metric overlap of up to 3 segments. |
+
+-->
 
 ## パネルへのビジュアライゼーションの追加
 
@@ -186,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -203,6 +234,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41448/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

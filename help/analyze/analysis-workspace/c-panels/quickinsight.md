@@ -1,13 +1,13 @@
 ---
-description: クイックインサイトは、新しい Workspace ユーザー向けのツールで、データテーブルやビジュアライゼーションの作成をガイドします
+description: クイックインサイトパネルを使用して、Analysis Workspaceでデータテーブルとビジュアライゼーションを作成する方法を説明します。
 title: クイックインサイトパネル
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 * インサイトを促進できるディメンションと指標は何か。
 * アイテムをドラッグ＆ドロップする場所はどこか。
 * どこにフィルターを作成するか。
-* その他の機能
+* その他の機能。
 
 これらの疑問に答えるために、[!UICONTROL クイックインサイト]は、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
@@ -127,11 +127,11 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
    * **[!UICONTROL 分類基準]**&#x200B;を使用してディメンションを&#x200B;**[!UICONTROL 分析]**：ディメンションで最大 3 レベルの分類を使用して、必要なデータに掘り下げることができます。➊、➋、➌ を参照してください。
 
-   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍と➎ を参照してください。
+   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍ および ➎ を参照してください。
 
    * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。➏、➐、➑ を参照してください。
 
-   * 対象：日付範囲を指定できます。➒ を参照してください。
+   * 対象：日付範囲を指定できます。➒ を参照。
 
 ## 既知の制限事項
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326699/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

@@ -1,14 +1,14 @@
 ---
-description: Workspace プロジェクトでフロービジュアライゼーションを使用します。
+description: Analysis Workspaceでのフロービジュアライゼーションの使用方法を説明します。
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -35,23 +35,24 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!ENDSHADEBOX]
 
-フロー機能は、Web サイトおよびアプリの顧客パスを表示します。
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL フロー]**&#x200B;ビジュアライゼーションは、web サイトおよびアプリの顧客パスを表示します。
 
-次の操作が可能です。
+ビジュアライゼーションを使用すると、次のことができます。
 
-* Web サイトやアプリケーションでのカスタマージャーニーをビジュアライズする
-* 入口、特定のディメンション、出口など、指定したチェックポイントの前後で顧客がどこに移動するかを分析する
-* 選択したパスの特定のポイントを指定することで、セグメントを作成する
+* Web サイトやアプリケーションでのカスタマージャーニーを視覚化
+* 入口、特定のディメンション、出口など、指定したチェックポイントの前後で顧客がどこに移動するかを分析
+* 選択したパスの特定のポイントを指定することによりセグメントを作成。
+
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://video.tv.adobe.com/v/3410743?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## ディメンション間のフロー {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## ディメンション間のフロー
 
 [ディメンション間のフロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を表示できます。例えば、ページと部門を 1 つの図に組み合わせることができます。この場合、フローは、ホームページからメンズページを経て、靴部門に移動することが考えられます。
 
@@ -67,7 +68,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://video.tv.adobe.com/v/328265?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

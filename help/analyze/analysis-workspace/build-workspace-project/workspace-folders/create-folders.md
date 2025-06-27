@@ -1,13 +1,13 @@
 ---
-description: Workspace でフォルダーとサブフォルダーを作成する方法を学ぶ
+description: Analysis Workspaceでフォルダーとサブフォルダーを作成する方法を説明します。
 keywords: Analysis Workspace
 title: フォルダーの作成
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Workspace ランディングページのプロジェクトおよびフォルダ�
 
 1. **[!UICONTROL 新規フォルダーを作成]**&#x200B;ダイアログで、新しいフォルダーの名前を入力します。例：`Second Week Reports`。
 
-1. タグを選択するか、**[!UICONTROL タグ]**&#x200B;ドロップダウンから新しいタグを入力します。
+1. **[!UICONTROL タグ]** ドロップダウンメニューからタグを選択するか、新しいタグを入力します。
 
    ![新規フォルダーを作成](../assets/create-new-folder.png)
 

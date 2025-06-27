@@ -1,13 +1,13 @@
 ---
 title: セクションヘッダー
-description: Workspace プロジェクトにセクションヘッダーを挿入するビジュアライゼーション。
+description: セクションヘッダーを使用すると、Analysis Workspace プロジェクトにセクションヘッダーを挿入できます。
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 83%
 
 ---
 
@@ -34,12 +34,12 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ![セクションヘッダー](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 
-セクションヘッダーのテキストを変更するには、「**[!UICONTROL セクションヘッダー]**」を選択します。
+セクションヘッダーのテキストを変更するには、**[!UICONTROL セクションヘッダー]**&#x200B;を選択するだけです。
 
 
 >[!MORELIKETHIS]
 >
 >[パネルにビジュアライゼーションを追加する](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

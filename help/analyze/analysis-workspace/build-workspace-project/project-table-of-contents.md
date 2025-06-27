@@ -1,14 +1,14 @@
 ---
-description: プロジェクトで使用可能なプロジェクト目次に関する情報
+description: Analysis Workspaceのプロジェクトで目次を使用して、パネルやビジュアライゼーションにすばやくアクセスする方法を説明します。
 keywords: Analysis Workspace
-title: プロジェクトの目次
+title: 目次
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 94%
+source-wordcount: '209'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace では、プロジェクトの目次を表示できます。�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [目次の作成](https://video.tv.adobe.com/v/35210/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [目次の作成](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Analysis Workspace では、プロジェクトの目次を表示できます。�
 
 >[!MORELIKETHIS]
 >
->* [Adobe Analytics の新しい目次機能を使用したダッシュボードナビゲーションの簡素化](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=ja)
+>* [Adobe Analytics の新しい目次機能を使用したダッシュボードナビゲーションの簡素化](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
 
 
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/35210?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,13 @@
 ---
 title: プロジェクトを開く
-description: プロジェクトを開く方法を学ぶ
+description: Analysis Workspaceでプロジェクトを開く方法を説明します。
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+exl-id: 12c5f5a6-a90f-471a-91c3-0fd8c8b1d3a0
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 97%
+source-wordcount: '251'
+ht-degree: 96%
 
 ---
 

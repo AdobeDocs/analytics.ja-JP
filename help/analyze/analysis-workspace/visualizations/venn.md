@@ -1,14 +1,14 @@
 ---
-description: ベン図のビジュアライゼーションを使用すると、（コンポーネントから）最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できます。
+description: ベン図ビジュアライゼーションを使用すると、最大 3 つのセグメントと 1 つの指標をドラッグして、ベン図を作成できます。
 title: ベン
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 次に、フィルターにポインタを合わせると、パーセンテージなどについて、より多くのインサイトが得られます。
 
-[!UICONTROL ベン図]ビジュアライゼーションから[!UICONTROL フリーフォームテーブル]を生成するには、**[!UICONTROL ベン図]**&#x200B;のヘッダーの横にあるカラー付きの ![StatusOrange](/help/assets/icons/StatusOrange.svg) を選択し、「**[!UICONTROL データソースを表示]**」を選択します。[!UICONTROL ベン図]ビジュアライゼーションを作成するのに使用されたデータを含む&#x200B;**[!UICONTROL ベン図データ]**&#x200B;フリーフォームテーブルが表示されます。
+[!UICONTROL ベン図]ビジュアライゼーションから[!UICONTROL フリーフォームテーブル]を生成するには、**[!UICONTROL ベン図]**&#x200B;のヘッダーの横にあるカラー付きの ![StatusOrange](/help/assets/icons/StatusOrange.svg) を選択し、「**[!UICONTROL データソースを表示]**」を選択します。[!UICONTROL ベン図]ビジュアライゼーションを作成するために使用されたデータを含む&#x200B;**[!UICONTROL ベン図データ]**&#x200B;フリーフォームテーブルが表示されます。
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ベン図ビジュアライゼーション](https://video.tv.adobe.com/v/3417461/?quality=12&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ベン図ビジュアライゼーション](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

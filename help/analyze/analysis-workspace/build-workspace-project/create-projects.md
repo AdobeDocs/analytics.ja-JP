@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace でのプロジェクト作成の基本について説明します。
+description: Analysis Workspaceでプロジェクトを作成する方法を説明します。
 title: プロジェクトの作成
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 2bfc9c1d38957c997e78ee7d6a9550d173063109
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 91%
 
 ---
 
@@ -34,15 +34,15 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 * プロジェクトに[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)を追加します。例えば、 **[!DNL Example Panel]** は ➊ です。
 
 * パネルに[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を追加します。例：
-   * **[!DNL Line]**&#x200B;[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
-   * **[!DNL US States]**&#x200B;[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
+   * **[!DNL Line]**[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
+   * **[!DNL US States]**[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
 * ビジュアライゼーションに[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を追加します。例：
-   * **[!DNL US States]**&#x200B;[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
-   * **[!DNL Unique Visitors]**&#x200B;[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
-   * **[!DNL Average Revenue Per Order]**&#x200B;[&#x200B;計算指標](/help/components/c-calcmetrics/cm-overview.md)➏
-   * **[!DNL Visits from Mobile Devices]**&#x200B;[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
-   * **[!DNL Last Month]**&#x200B;[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
-   * **[!DNL Example]**&#x200B;[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
+   * **[!DNL US States]**[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
+   * **[!DNL Unique Visitors]**[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
+   * **[!DNL Average Revenue Per Order]**[&#x200B;計算指標](/help/components/c-calcmetrics/cm-overview.md)➏
+   * **[!DNL Visits from Mobile Devices]**[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
+   * **[!DNL Last Month]**[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
+   * **[!DNL Example]**[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
 
 
 ## プロジェクト情報および設定 {#project-info-settings}
@@ -130,7 +130,7 @@ The following sections describe how to create a project and start adding the key
 
 ## Add panels to the project {#panels}
 
-[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
 
 Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
 
@@ -148,7 +148,7 @@ To add a panel:
 
 ## Add visualizations to the project
 
-[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
+[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >

@@ -1,77 +1,71 @@
 ---
-description: ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
+description: フリーフォームテーブルまたはデータソースを対応するビジュアライゼーションに同期する方法を説明します。
 keywords: Analysis Workspace;ビジュアライゼーションのデータソースとの同期
-title: ビジュアライゼーションデータソースの管理
+title: データソースの管理
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 89%
 
 ---
 
-# ビジュアライゼーションデータソースの管理 {#manage-visualization-data-sources}
+# データソースの管理 {#manage-data-sources}
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection"
 >title="選択をロック"
 >abstract="この設定を有効にすると、ビジュアライゼーションがデータソースで選択した位置または選択した項目にロックされます。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="テーブルの表示"
 >abstract="「**[!UICONTROL テーブルを表示]**」を選択すると、元のデータソースとは別に、現在のビジュアライゼーション用の新しいデータソースが生成されます。"
 
-<!-- markdownlint-enable MD034 -->
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_showtable"
+>title="テーブルの表示"
+>abstract="「**[!UICONTROL テーブルを表示]**」を選択して、元のデータソースとは別に、現在のビジュアライゼーション用の新しいデータソースを生成します。"
 
-ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
 
-**ヒント：** タイトルの横の点の色で、どのビジュアライゼーションが関連しているかがわかります。色が一致していると、ビジュアライゼーションが同じデータソースに基づいていることを意味します。
+ビジュアライゼーションを同期すると、ビジュアライゼーションに対応するフリーフォームテーブルまたはデータソースを制御できます。
 
-データソースを管理すると、データソースを表示したり、選択をロックしたりできます。これらの設定は、新しいデータが入ってきた際にどのようにビジュアライゼーションを変更するか（または変更しないか）を決定します。
 
-1. データテーブルと [ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) を使用して [プロジェクトを作成](/help/analyze/analysis-workspace/home.md) します。
-1. データテーブルで、ビジュアライゼーションに関連付けたいセル（データソース）を選択します。
-1. ビジュアライゼーションでタイトルの横にある点をクリックすると、 **[!UICONTROL データソース]** ダイアログが表示されます。「**[!UICONTROL データソースを表示]**」または「**[!UICONTROL 選択をロック]**」を選択します。
+>[!TIP]
+>
+>ビジュアライゼーションのタイトルの横の ![StatusOrange](/help/assets/icons/StatusOrange.svg) の色で、どのビジュアライゼーションが関連しているかがわかります。色が一致していると、ビジュアライゼーションが同じデータソースに基づいていることを意味します。
+>
+
+データソースの表示/非表示を切り替えることができます。選択した位置または選択した項目に対して選択をロックすることもできます。これらの設定は、新しいデータが入ってきた際にどのようにビジュアライゼーションを変更するか（または変更しないか）を決定します。
+
+![次の節で説明するオプションを示したデータソースオプションダイアログ](assets/lock-selection.png)
+
+<!--
+**Tip:** You can tell which visualizations are related by the color of the dot next to the title. Matching colors mean that visualizations are based on the same data source.
+
+Managing a data source lets you show the data source or lock the selection. These settings determine how the visualization changes (or doesn't change) when new data comes in.
+
+1. [Create a project](/help/analyze/analysis-workspace/home.md) with a data table and a [visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. In the data table, select the cells (data source) you want to associate with the visualization.
+1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
    ![](assets/manage-data-source.png)
 
-   ビジュアライゼーションをテーブルセルに同期すると、新しい（非表示の）テーブルと、そのテーブルに同期したビジュアライゼーションのカラーコードが作成されます。
-
-## データソース設定
-
-
-
+   Synchronizing a visualization to a table cell creates a new (hidden) table and color-codes the synchronized visualization with that table.
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データソース設定](https://video.tv.adobe.com/v/328260?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
+-->
 
-| 要素 | 説明 |
-| --- | --- |
-| リンクされたビジュアライゼーション | フリーフォームテーブルまたはコホートテーブルに接続したビジュアライゼーションがある場合は、左上のドットをクリックすると、接続しているビジュアライゼーションのリストが開き、テーブルの表示／非表示を切り替える「表示」チェックボックスオプションも表示されます。ポインタを合わせるとリンクされたビジュアライゼーションがハイライト表示され、クリックするとそのビジュアライゼーションに移動します。 |
-| データソースを表示 | ビジュアライゼーションに対応するデータテーブルを表示したり（チェックボックスをオン）、非表示にしたり（チェックボックスをオフ）できます。 |
-| 選択をロック | この設定を有効にすると、ビジュアライゼーションを、対応するデータテーブルで現在選択されているデータにロックできます。チェックボックスをオンにすると、次のいずれかを選択できます。<ul><li>**選択した位置**：対応するデータテーブルで選択されている位置にビジュアライゼーションをロックした状態で固定するには、このオプションを選択します。これらの位置は、これらの位置の特定の項目が変更された場合でも、引き続き視覚化されます。例えば、上位 5 つのキャンペーン名が何であろうと、このビジュアライゼーションで上位 5 つのキャンペーン名を常に表示する場合は、このオプションを選択します。</li><li>**選択した項目**：対応するデータテーブルで現在選択されている特定の項目について、ビジュアライゼーションをロックした状態で維持するには、このオプションを選択します。これらの項目は、テーブル内の項目間のランキングが変更された場合でも、引き続き視覚化されます。例えば、このビジュアライゼーションで 5 つの特定のキャンペーン名を、キャンペーン名のランクにかかわらず表示する場合は、このオプションを選択します。</li></ul> |
-
-このアーキテクチャは、以前 Analysis Workspace にあった、ロックした選択が格納される非表示の複製テーブルを作成するアーキテクチャとは異なります。ここで、データソースは、ビジュアライゼーションの作成元となったテーブルを指しています。
-
-## 例となるユースケース
-
-* 概要のビジュアライゼーションを作成し、作成元となったテーブルのセルにそれをロックすることができます。「データソースを表示」をオンにすると、その情報がテーブルのどこから取得されたかが正確に表示されます。ソースデータはグレー表示されます。
-
-  ![](assets/data-source2.png)>
-* 次に示すように、同一のテーブルに含まれた異なるセルをソースにして、多数のビジュアライゼーションを追加できます。テーブルは上の例と同じですが、ソースとなるセル（および指標）は異なります。
-
-  ![](assets/data-source3.png)>
-* フリーフォームテーブルまたはコホートテーブルに接続されたビジュアライゼーションがあるかどうかを、左上のドット（データソース設定）をクリックすることで確認できます。ポインタを合わせるとリンクされたビジュアライゼーションがハイライト表示され、クリックするとそのビジュアライゼーションに移動します。
-
-  ![](assets/linked-visualizations.png)>
+| オプション | 説明 |
+|--- |--- |
+| **[!UICONTROL データソース]** | ドロップダウンメニューから、ビジュアライゼーションの基になるデータソースを選択します。 |
+| **[!UICONTROL リンクされたビジュアライゼーション]** | すべてのリンクされたビジュアライゼーションを一覧表示します。データソース（フリーフォームテーブル）に適用されます。 |
+| **[!UICONTROL データソースを表示]** | ビジュアライゼーションに対応するデータソース（フリーフォームテーブル）の表示と非表示を切り替えることができます。 |
+| **[!UICONTROL 選択をロック]** | このオプション選択すると、ビジュアライゼーション ![LockClosed](/help/assets/icons/LockClosed.svg) を、対応するデータテーブルで現在選択されているデータにロックできます。チェックボックスをオンにすると、次のいずれかを選択できます。  <ul><li>**選択された位置**：ビジュアライゼーションは、対応するデータテーブルで選択された&#x200B;**位置**&#x200B;でロックされます。これらの位置の特定の項目が変更された場合（例えば、並べ替えやフィルタリングが原因）でも、これらの位置は引き続き視覚化されます。例えば、このビジュアライゼーションのデータソースにリストされた上位 5 つのキャンペーン名を常に表示する場合は、このオプションを選択します。どのキャンペーン名が表示されても問題ありません。</li> <li>**選択された項目**：対応するデータテーブルで現在選択されている特定の&#x200B;**項目**&#x200B;に対して、ビジュアライゼーションがロックされます。これらの項目は、テーブル内の項目間のランキングが変更された場合でも、引き続き視覚化されます。例えば、このビジュアライゼーションのデータソースにリストされた同じ 5 つの特定のキャンペーン名を常に表示する場合は、このオプションを選択します。キャンペーン名の順位がどうであろうと関係ありません。</li></ul>接続されたデータテーブルに表示されなくなったデータに対してビジュアライゼーションがロックされている場合は、新しいテーブルを生成できます。「**[!UICONTROL テーブルを表示]**」を選択すると、元のデータソースとは別に、現在のビジュアライゼーション用の新しいデータソースが生成されます。 |

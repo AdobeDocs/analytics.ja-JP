@@ -1,14 +1,14 @@
 ---
-description: 線のビジュアライゼーションを使用して、トレンド（時間ベース）のデータセットを表現します
+description: 折れ線グラフのビジュアライゼーションを使用すると、トレンド（時間ベース）のデータセットを表現できます。
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!TIP]
 >
->トレンドラインは、本日（データの一部）や未来の日付を含まないデータに適用することをお勧めします。本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。
+>トレンドラインは、本日（データの一部）や未来の日付を含まないデータに適用することをお勧めします。本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。
 
 
 
@@ -61,13 +61,13 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 | **[!UICONTROL 対数]** | 最適な曲線を作成し、データの変化率が急速に増減し、次にレベルアウトする場合に便利です。対数近似曲線には、負の値と正の値を使用できます。数式：`y = a + b * log(x)` |
 | **[!UICONTROL 指数]** | 曲線を作成します。データが一貫して加速し上昇または下降する場合に便利です。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a + e^(b * x)` |
 | **[!UICONTROL 累乗]** | 曲線を作成します。これは、特定の速度で増加する測定値を比較するデータセットに便利です。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a * x^b` |
-| **[!UICONTROL 二次回帰]** | 放物線（上または下に凹面）のような形状のデータセットに最適なデータを検索します。数式：`y = a + b * x + c * x^2` |
-| **[!UICONTROL 移動平均]** | 平均値のセットに基づいて、滑らかなトレンドラインを作成します。移動平均は、ローリング平均とも呼ばれ、（選択する「[!UICONTROL 精度]」で決定される）特定数のデータポイントを使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。例えば、7 日の移動平均や 4 週間の移動平均があります。 |
+| **[!UICONTROL 二次方程式]** | 放物線（上または下に凹面）のような形状のデータセットに最適なデータを検索します。数式：`y = a + b * x + c * x^2` |
+| **[!UICONTROL 移動平均]** | 平均値のセットに基づいて、滑らかなトレンドラインを作成します。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「[!UICONTROL 精度]」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。例えば、7 日の移動平均や 4 週間の移動平均があります。 |
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

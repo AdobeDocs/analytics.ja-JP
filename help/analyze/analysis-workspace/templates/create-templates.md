@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace でのデフォルトレポートの使用方法の概要。
-title: レポートを使用
+description: Analysis Workspaceでテンプレートを作成および管理する方法について説明します。
+title: テンプレートの作成と管理
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. Analysis Workspace で、プロジェクトを目的の状態に作成します。
 
-1. [!UICONTROL **プロジェクト**]／**[!UICONTROL テンプレートとして保存…]** を選択します。
+1. [!UICONTROL **プロジェクト**]／**[!UICONTROL テンプレートとして保存]**&#x200B;を選択します。
 
    ![会社テンプレート](assets/company-template-save.png)
 
@@ -35,11 +35,11 @@ ht-degree: 100%
    | **[!UICONTROL 説明]** | テンプレートの使用目的を説明する短い説明を入力します。 |
    | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内の人物に通知する、短い説明を入力します。この説明は、テンプレートのプレビューページに表示されます。 |
    | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。**[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]**&#x200B;など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートが表示される場所と、組織テンプレートページからそのテンプレートにアクセスするユーザーに適用されるフィルターが決定します。</p> |
-   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。人物は、追加したタグによってテンプレートのリストをフィルタリングできます。 |
+   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。ここで追加したタグによって、ユーザーはテンプレートのリストをフィルタリングできます。 |
 
 1. 「[!UICONTROL **テンプレートとして保存**]」を選択します。
 
-ユーザーがテンプレートに基づいてプロジェクトを作成する方法について詳しくは、[テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)の[テンプレートに基づいたプロジェクトの作成](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template)を参照してください。
+ユーザーがテンプレートに基づいてプロジェクトを作成する方法については、[テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)の[テンプレートに基づくプロジェクトの作成](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template)を参照してください 。
 
 ## テンプレートの編集または削除
 
@@ -81,7 +81,7 @@ ht-degree: 100%
    | **[!UICONTROL 説明]** | テンプレートの使用目的を説明する短い説明を入力します。 |
    | **[!UICONTROL このテンプレートを使用する理由]** | このテンプレートの使用方法について組織内の人物に通知する、短い説明を入力します。この説明は、テンプレートのプレビューページに表示されます。 |
    | **[!UICONTROL ユースケース]** | このテンプレートに適用されるユースケースを選択します。**[!UICONTROL エンゲージメント]**、**[!UICONTROL コンバージョン]**、**[!UICONTROL オーディエンス]**、**[!UICONTROL 獲得]**&#x200B;など、複数のユースケースを選択できます。 <p>選択した項目によって、テンプレートが表示される場所と、組織テンプレートページからそのテンプレートにアクセスするユーザーに適用されるフィルターが決定します。</p> |
-   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。人物は、追加したタグによってテンプレートのリストをフィルタリングできます。 |
+   | **[!UICONTROL タグ]** | テンプレートに適用するタグを指定します。ここで追加したタグによって、ユーザーはテンプレートのリストをフィルタリングできます。 |
 
 1. 「[!UICONTROL **テンプレートとして保存**]」を選択します。
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 管理者は、会社テンプレートの名前変更、タグ付け、承認を行うことができます。
 
-1. Adobe Analytics で、「[!UICONTROL **ワークスペース**]」タブを選択し、左側のパネルで「**[!UICONTROL プロジェクト]**」タブを選択します。
+1. Adobe Analytics で、「[!UICONTROL **Workspace**]」タブを選択し、左側のパネルで「**[!UICONTROL プロジェクト]**」タブを選択します。
 
 1. フィルターアイコンを選択して、プロジェクトのリストをフィルタリングします。
 

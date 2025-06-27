@@ -1,18 +1,18 @@
 ---
-description: 自動保存、名前を付けて保存、テンプレートとして保存などの様々な保存オプションおよび以前のバージョンの開き方について説明します。
+description: Analysis Workspaceでプロジェクトを保存するための様々なオプションについて説明します。
 title: プロジェクトの保存
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 97%
+source-wordcount: '846'
+ht-degree: 95%
 
 ---
 
 
-# プロジェクトの保存 {#save-projects}
+# プロジェクトを保存 {#save-projects}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -43,7 +43,7 @@ Analysis Workspace のプロジェクトは、2 分ごとに自動で保存さ�
       * **[!UICONTROL 名前]**（必須）プロジェクトの名前。
       * **[!UICONTROL 説明]**&#x200B;プロジェクトの説明。
       * **[!UICONTROL タグ]**「[!UICONTROL *タグを検索*]」フィールドでタグを検索するか、**[!UICONTROL Enter]** キーを使用して新しいタグを追加します。
-      * **[!UICONTROL フォルダー]**&#x200B;[!UICONTROL *フォルダーを選択*] ドロップダウンメニューからフォルダーを選択します。 フォルダーを指定しない場合、プロジェクトは、新しいプロジェクトを作成した現在のフォルダーに保存されます。
+      * **[!UICONTROL フォルダー]**[!UICONTROL *フォルダーを選択*] ドロップダウンメニューからフォルダーを選択します。 フォルダーを指定しない場合、プロジェクトは、新しいプロジェクトを作成した現在のフォルダーに保存されます。
       * **[!UICONTROL バージョンメモ]***メモを追加*&#x200B;テキスト領域にバージョンメモを追加します。
 
    1. 「**[!UICONTROL 保存]**」を選択しプロジェクトを保存します。
@@ -80,7 +80,7 @@ Analysis Workspace のプロジェクトは、2 分ごとに自動で保存さ�
       * **[!UICONTROL 名前]**（必須）プロジェクトの名前。
       * **[!UICONTROL 説明]**&#x200B;プロジェクトの説明。
       * **[!UICONTROL タグ]**「[!UICONTROL *タグを検索*]」フィールドでタグを検索するか、**[!UICONTROL Enter]** キーを使用して新しいタグを追加します。
-      * **[!UICONTROL フォルダー]**&#x200B;[!UICONTROL *フォルダーを選択*] ドロップダウンメニューからフォルダーを選択します。 フォルダーを指定しない場合、プロジェクトは、新しいプロジェクトを作成した現在のフォルダーに保存されます。
+      * **[!UICONTROL フォルダー]**[!UICONTROL *フォルダーを選択*] ドロップダウンメニューからフォルダーを選択します。 フォルダーを指定しない場合、プロジェクトは、新しいプロジェクトを作成した現在のフォルダーに保存されます。
       * **[!UICONTROL バージョンメモ]***メモを追加*&#x200B;テキスト領域にバージョンメモを追加します。
 
    1. 「**[!UICONTROL 保存]**」を選択してプロジェクトを保存します。
@@ -89,7 +89,7 @@ Analysis Workspace のプロジェクトは、2 分ごとに自動で保存さ�
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 -->
 
 ## 自動保存
@@ -155,7 +155,7 @@ Analysis Workspace では、別のプロジェクトに切り替えたり、ブ�
 
 
 
-一度も保存されていない&#x200B;**新規**&#x200B;プロジェクトの場合、未保存の変更は復元できません。
+一度も保存されていない&#x200B;**新規**&#x200B;プロジェクトの場合、保存されていない変更は復元できません。
 
 
 <!-- Shouldn't this belong to another page?  Moved it to a new open projects page

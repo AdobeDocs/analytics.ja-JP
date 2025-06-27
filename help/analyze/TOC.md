@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 98%
+source-wordcount: '896'
+ht-degree: 97%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 98%
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
       + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
       + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
-      + [プロジェクトの目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
+      + [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace のフォルダー {#workspace-folders}
          + [フォルダーの概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [フォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [フォルダーの管理](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [フォルダーへのプロジェクトの追加または移動](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [プロジェクトの追加または移動](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [ホットキー](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
    + テンプレート {#templates}
@@ -75,62 +75,62 @@ ht-degree: 98%
          + [データ辞書でのコンポーネントエントリの編集](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [データ辞書の正常性の監視](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + ビジュアライゼーション {#visualizations}
-      + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
       + フリーフォームテーブル {#freeform-table}
-         + [フリーフォームテーブル](analysis-workspace/visualizations/freeform-table/freeform-table.md)
-         + [フリーフォームテーブルでディメンションのハイパーリンクを作成する](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [概要](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [ハイパーリンクを作成](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + 列および行の設定 {#column-row-settings}
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [フリーフォームテーブルのフィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [フィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
-         + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
-         + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [コホート分析の使用例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [概要](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
+         + [ユースケース](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + フォールアウト {#fallout}
-         + [フォールアウトの概要](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [フォールアウトビジュアライゼーションの設定](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [多次元フォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
-         + [フォールアウト分析でのセグメントの適用](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
+         + [概要](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [設定](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [ディメンション間のフォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [セグメントの適用](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + フロー {#flow}
-         + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
-         + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [概要](analysis-workspace/visualizations/c-flow/flow.md)
+         + [設定](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [面グラフおよび積み重ね面グラフ](analysis-workspace/visualizations/area.md)
       + [棒グラフおよび積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
-      + [ブレットグラフ](analysis-workspace/visualizations/bullet-graph.md)
-      + [複合グラフ](analysis-workspace/visualizations/combo-charts.md)
+      + [ブレット](analysis-workspace/visualizations/bullet-graph.md)
+      + [コンボ](analysis-workspace/visualizations/combo-charts.md)
       + [ドーナツ](analysis-workspace/visualizations/donut.md)
       + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
-      + [横棒グラフおよび積み重ね横棒グラフ](analysis-workspace/visualizations/horizontal-bar.md)
+      + [積み重ね横棒グラフ](analysis-workspace/visualizations/horizontal-bar.md)
       + [主要指標の概要](analysis-workspace/visualizations/key-metric.md)
       + [行](analysis-workspace/visualizations/line.md)
       + [マップ](analysis-workspace/visualizations/map-visualization.md)
       + [散布図](analysis-workspace/visualizations/scatterplot.md)
       + [セクションヘッダー](/help/analyze/analysis-workspace/visualizations/section-header.md)
-      + [数値の概要と変更概要](analysis-workspace/visualizations/summary-number-change.md)
+      + [数と変更の概要](analysis-workspace/visualizations/summary-number-change.md)
       + [テキスト](analysis-workspace/visualizations/text.md)
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
       + [ベン図](analysis-workspace/visualizations/venn.md)
    + パネル {#panels}
-      + [パネルの概要](analysis-workspace/c-panels/panels.md)
-      + [Analytics for Target（A4T）パネル](analysis-workspace/c-panels/a4t-panel.md)
-      + [アトリビューションパネル](analysis-workspace/c-panels/attribution.md)
-      + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + [メディア分平均オーディエンスパネル](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [メディアの同時視聴者パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [メディア再生滞在時間パネル](analysis-workspace/c-panels/media-playback-time-spent.md)
-      + [次または前の項目パネル](analysis-workspace/c-panels/next-previous.md)
-      + [ページの概要パネル](analysis-workspace/c-panels/page-summary.md)
-      + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
-      + セグメント比較パネル {#segment-comparison}
-         + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+      + [概要](analysis-workspace/c-panels/panels.md)
+      + [空白](analysis-workspace/c-panels/blank-panel.md)
+      + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
+      + [アトリビューション](analysis-workspace/c-panels/attribution.md)
+      + [フリーフォーム](analysis-workspace/c-panels/freeform-panel.md)
+      + [メディア分平均オーディエンス](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [メディア同時視聴者数](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [メディア再生滞在時間](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [次または前の項目](analysis-workspace/c-panels/next-previous.md)
+      + [ページの概要](analysis-workspace/c-panels/page-summary.md)
+      + [クイックインサイト](analysis-workspace/c-panels/quickinsight.md)
+      + セグメント比較 {#segment-comparison}
+         + [概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [ユースケース](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーション、共有、スケジュール {#curate-share}
       + [概要](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)

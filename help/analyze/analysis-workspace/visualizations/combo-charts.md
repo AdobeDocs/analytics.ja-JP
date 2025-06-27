@@ -1,17 +1,17 @@
 ---
-description: 先月や昨年などとの比較を行うといった、Analysis Workspace で比較データを簡単に視覚化できます。
-title: コンボグラフビジュアライゼーション
+description: 先月や昨年などとの比較を行うなど、Analysis Workspaceで比較データを視覚化する方法を説明します。
+title: コンボ
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
-# コンボグラフ {#combo}
+# 複合グラフ {#combo}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -99,6 +99,6 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

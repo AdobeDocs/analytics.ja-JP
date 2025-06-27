@@ -1,14 +1,14 @@
 ---
-description: Workspace プロジェクトで棒グラフビジュアライゼーションを使用します。
+description: Analysis Workspaceでの棒グラフおよび積み重ね棒グラフのビジュアライゼーションの使用方法を説明します。
 title: 棒グラフおよび積み重ね棒グラフ
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 
 この ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 棒グラフ]**&#x200B;ビジュアライゼーションでは、1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。
 
-![ページビュー数、訪問回数、エントリ、離脱を含む複数の指標を示す仮想棒グラフビジュアライゼーション。](assets/bar.png)
+![ページビュー数、訪問回数、エントリ数、離脱数などの複数の指標を示す仮想棒グラフビジュアライゼーション。](assets/bar.png)
 
 ビジュアライゼーション設定の精度ドロップダウンでは、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
 
@@ -56,13 +56,13 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 
 ![複数の指標を表示する積み重ね棒グラフ。](assets/bar-stacked.png)
 
-![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;の「**[!UICONTROL 100％積み重ね]**」オプションを使用して、グラフを 100％積み重ねビジュアライゼーションに変換します。
+![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;の「**[!UICONTROL 100％積み重ね]**」オプションを使用すると、グラフを 100％積み重ねビジュアライゼーションに変換できます。
 
 ![100％積み重ね棒グラフ。](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

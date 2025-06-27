@@ -1,19 +1,19 @@
 ---
-title: フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目
-description: テーブルの動的および静的ディメンション項目の操作方法。
+title: 動的および静的Dimension項目
+description: Analysis Workspaceのフリーフォームテーブルで動的ディメンション項目と静的ディメンション項目を使用する方法を説明します。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
 # 動的ディメンション項目と静的ディメンション項目
 
-フリーフォームテーブルでは、行と列に様々なコンポーネント値を含めることができます。これらの値は、作成する分析に応じて、動的（時間の経過と共に変更）または静的（時間と共に変更しない）にできます。
+フリーフォームテーブルでは、行と列に様々なコンポーネント値を含めることができます。 これらの値は、作成する分析に応じて、動的（時間の経過と共に変更）または静的（時間と共に変更しない）にできます。
 
 ## 動的ディメンション項目
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [静的行の並べ替え](https://video.tv.adobe.com/v/34707?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [静的行の並べ替え](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

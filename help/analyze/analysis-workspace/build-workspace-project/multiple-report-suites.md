@@ -1,13 +1,13 @@
 ---
 title: 複数のレポートスイート
-description: 複数のレポートスイートを含む Workspace でプロジェクトを作成する方法と理由を説明する
+description: 1 つのAnalysis Workspace プロジェクトで複数のレポートスイートを操作する方法を説明します。
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 75%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 複数のレポートスイート ](https://video.tv.adobe.com/v/37010?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 複数のレポートスイート ](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

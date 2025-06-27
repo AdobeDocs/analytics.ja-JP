@@ -1,21 +1,21 @@
 ---
-description: Workspace のフォルダーについて説明します
+description: Analysis Workspaceでフォルダー内のプロジェクトを整理する方法について説明します。
 keywords: Analysis Workspace
 title: フォルダーの概要
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # フォルダーの概要
 
-Adobe Analyticsのフォルダーは、「フォルダーとプロジェクトを表示 [ を選択すると、Workspace ランディングページで使用でき ](../freeform-overview.md#show-selector) す。
-
 Workspace のフォルダーを使用すると、プロジェクトの整理および分類に役立ちます。フォルダー機能を使用すると、フォルダーやサブフォルダーを作成してプロジェクトを管理できます。
+
+Adobe Analyticsのフォルダーは、「フォルダーとプロジェクトを表示 [ を選択すると、Workspace ランディングページで使用でき ](../freeform-overview.md#show-selector) す。
 
 Workspace には、会社フォルダーと個人用フォルダーの 2 種類のフォルダーがあります。共有された会社フォルダーを使用すると、管理者は、コンテンツを作成してすべての Workspace ユーザーと共有できます。
 

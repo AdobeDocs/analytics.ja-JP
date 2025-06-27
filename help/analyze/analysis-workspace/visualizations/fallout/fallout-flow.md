@@ -1,13 +1,13 @@
 ---
-description: Workspace プロジェクトでフォールアウトビジュアライゼーションを使用します。
+description: Analysis Workspaceでのフォールアウトビジュアライゼーションの使用方法を説明します。
 title: フォールアウトの概要
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!ENDSHADEBOX]
 
-フォールアウトビジュアライゼーションには、フォールアウトレポートを作成するためのより多くのオプションがあります。フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL フォールアウト]**&#x200B;ビジュアライゼーションは、事前に指定した一連のページ間で、ユーザーが離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。
 
 
 >[!BEGINSHADEBOX]
@@ -39,9 +39,11 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!ENDSHADEBOX]
 
 
+
+
 フォールアウトビジュアライゼーションでは、次の操作をおこなうことができます。
 
-* 同じレポートの異なる 2 つのセグメントを並べて比較する
+* 同じレポートの異なる 2 つのセグメントを並べて比較します。
 * ファネルステップ（タッチポイント）のドラッグ、ドロップ、整列。
 * 異なるディメンションおよび指標からの値を組み合わせる
 * 複数ディメンションのフォールアウトレポートの作成

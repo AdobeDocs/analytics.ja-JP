@@ -1,14 +1,14 @@
 ---
-description: 面グラフビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。
-title: 面グラフおよび積み重ね面グラフ
+description: 面グラフおよび積み重ね面グラフのビジュアライゼーションについて説明します。
+title: 面グラフおよび積み重ねグラフ
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -54,13 +54,13 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 
 ![前の系列の上に各系列を示す積み重ね面グラフ。](assets/area-stacked.png)
 
-![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;の「**[!UICONTROL 100％積み重ね]**」オプションを使用して、グラフを 100％積み重ねビジュアライゼーションに変換します。
+![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;の「**[!UICONTROL 100％積み重ね]**」オプションを使用すると、グラフを 100％積み重ねビジュアライゼーションに変換できます。
 
 ![100％積み重ねビジュアライゼーションを示する積み重ね面グラフ。](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace のフォールアウトでは、ディメンションと指標をファネルとワークフローのタッチポイントとして組み合わせることができます。これにより、調査するユーザーステップをより柔軟に定義できます。
-title: 多次元フォールアウト
+description: Analysis Workspaceのフォールアウトビジュアライゼーションを使用して、ファネルとワークフローのタッチポイントとしてディメンションと指標を組み合わせて一致させる方法を説明します。 調査するユーザーステップを柔軟に定義する方法を説明します。
+title: ディメンション間のフォールアウト
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 Analysis Workspaceのフォールアウトを使用すると、ファネルとワークフローのタッチポイントとしてディメンションと指標を組み合わせて一致させることができます。 フォールアウトを使用すると、調査するユーザーステップをより柔軟に定義できます。
 
+例えば、ページディメンションに加えて、他のディメンション項目（デバイス名ディメンションからの特定のデバイス名など）をフォールアウトビジュアライゼーションに追加できます。 ディメンションを組み合わせると、ページと特定のアクションが顧客のパスでどのように相互作用するかを視覚化できます。
+
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ マルチディメンションのフォールアウト ](https://video.tv.adobe.com/v/327467?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ マルチディメンションのフォールアウト ](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -1,14 +1,14 @@
 ---
-description: ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。
+description: ネストされた長方形のセットとして、（ツリー構造の）階層データを表示する方法を理解します。
 title: ツリーマップ
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 階層（ツリー構造）データを、ネストされた長方形のセットとして表示するには、![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL ツリーマップ]**&#x200B;ビジュアライゼーションを使用します。
 
-ツリーの各分岐が長方形で示され、これに、下位レベルの分岐を示す小さな長方形がタイル状に並べられます。
+ツリーの各分岐が長方形で示され、これに、下位レベルの分岐を示す小さな長方形がタイル状に並べられています。
 
 ![下位レベルの分岐を示す小さな長方形のタイルを表示するツリーマップの例。](assets/treemap.png)
 
@@ -40,7 +40,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://video.tv.adobe.com/v/3417454/?quality=12&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

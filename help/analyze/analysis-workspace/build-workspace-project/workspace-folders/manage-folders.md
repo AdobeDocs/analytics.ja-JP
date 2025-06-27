@@ -1,19 +1,19 @@
 ---
-description: Workspace でフォルダーを管理する方法について説明します。
+description: Analysis Workspaceでフォルダーを管理する方法を説明します。
 keywords: Analysis Workspace
 title: フォルダーの管理
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 86%
 
 ---
 
 # フォルダーの管理
 
-Workspace では、2 つの方法でフォルダーを管理できます。フォルダー内から、またはプロジェクトリストで選択した 1 つ以上のフォルダーから管理できます。フォルダーの管理には、フォルダーの名前変更、移動、削除が含まれます。
+Workspace では、2 つの方法でフォルダーを管理できます。フォルダー内から、またはプロジェクトリストで選択した 1 つ以上のフォルダーから管理できます。フォルダーの管理には、フォルダーの名前変更、移動または削除を行うオプションが含まれます。
 
 ## フォルダーの名前の変更
 
@@ -24,13 +24,13 @@ Workspace でフォルダーの名前を変更するには：
 * [プロジェクトリスト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)で、名前を変更するフォルダーを選択します。
 
    1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)の使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 名前を変更]**」を選択するか、青色のアクションバーを選択します。
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 * 名前を変更するフォルダー内。
 
    1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーの名前を変更]**」を選択します。
 
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 
 ## フォルダーの移動

@@ -1,26 +1,28 @@
 ---
-description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
+description: Analysis Workspaceで使用できるキーボードインタラクション、ショートカットキー、ポイント&クリックの動作の使用方法について説明します。
 keywords: Analysis Workspace
-title: ホットキー（ショートカット）
+title: ホットキー
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# ホットキー（ショートカット）
+# ホットキー
+
+Analysis Workspace では、シームレスなナビゲーション、分析、民主化を目的にホットキー（キーボードショートカット）を利用できます。
 
 キーボードでは、次の記号が使用される場合があります。
 
-- **[!UICONTROL **&#x200B; Shift キー&#x200B;**]&#x200B;**&#x200B;の代わりに &#x200B;**⇧**。
-- **[!UICONTROL **&#x200B; cmd &#x200B;**]&#x200B;**（コマンド）の代わりに &#x200B;**⌘**。
-- **[!UICONTROL **&#x200B; ctrl &#x200B;**]&#x200B;**（Control）の代わりに &#x200B;**⌃**。
-- **[!UICONTROL **&#x200B; opt &#x200B;**]&#x200B;**（Option）の代わりに &#x200B;**⌥**。
-- **[!UICONTROL **&#x200B; alt &#x200B;**]&#x200B;**（Alternate）の代わりに &#x200B;**⎇**。
+- **[!UICONTROL ** Shift キー&#x200B;**]**&#x200B;の代わりに **⇧**。
+- **[!UICONTROL ** cmd **]**（コマンド）の代わりに **⌘**。
+- **[!UICONTROL ** ctrl **]**（Control）の代わりに **⌃**。
+- **[!UICONTROL ** opt **]**（Option）の代わりに **⌥**。
+- **[!UICONTROL ** alt **]**（Alternate）の代わりに **⎇**。
 
 ## ナビゲーション操作
 
