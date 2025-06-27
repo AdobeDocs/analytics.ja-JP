@@ -40,7 +40,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://video.tv.adobe.com/v/3417454/?quality=12&captions=jpn){target=&#34;_blank&#34;}を参照してください。
 
 >[!ENDSHADEBOX]
 
