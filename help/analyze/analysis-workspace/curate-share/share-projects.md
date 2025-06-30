@@ -1,14 +1,14 @@
 ---
-description: Workspace でのプロジェクト共有とプロジェクトの役割
+description: Workspaceでプロジェクトとプロジェクトの役割を共有する方法について説明します
 keywords: Analysis Workspace の共有
 title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトを共有 ](https://video.tv.adobe.com/v/40032?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## 組織内の Analysis Workspace ユーザーおよびグループとの共有 {#Add}
+## 組織内のユーザーおよびグループと共有 {#Add}
 
 組織内の既存の Adobe Workspace ユーザーまたはグループとプロジェクトを共有できます。この節の説明どおりにプロジェクトを共有する場合、共有相手となるユーザーは、既に Adobe Analytics へのアクセス権を持っている必要があります。
 
@@ -82,8 +82,8 @@ ht-degree: 97%
 
    または
 
-   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択します。
-未保存の変更がある場合は、まずプロジェクトを保存するように求められます。
+   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**を選択します。
+保存されていない変更がある場合は、まずプロジェクトを保存するように求められます。
 
    共有プロジェクトダイアログボックスが表示されます。ダイアログボックスの「[!UICONTROL **リンクで共有**]」と「[!UICONTROL **設定**]」セクションは、単一のプロジェクトを共有する場合にのみ表示されます。
 
@@ -119,7 +119,7 @@ ht-degree: 97%
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 
-1. プロジェクトを保存します。未保存の変更がある場合は、リンクを共有する前にプロジェクトを保存するように求められます。
+1. プロジェクトを保存します。保存されていない変更がある場合は、リンクを共有する前にプロジェクトを保存するように求められます。
 
 1. **[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択したあと、「**[!UICONTROL リンクで共有]**」フィールドの横の「**[!UICONTROL コピー]**」を選択します。
 
@@ -157,7 +157,7 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3452450?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -168,7 +168,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 1. **[!UICONTROL 共有]**／**[!UICONTROL 任意のユーザーと共有]**&#x200B;をクリックします。
 
-   未保存の変更がある場合は、プロジェクトを保存するように求められます。
+   保存されていない変更がある場合は、プロジェクトを保存するように求められます。
 
    <!-- Add screen shot of new modal -->
 
@@ -212,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/327498?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

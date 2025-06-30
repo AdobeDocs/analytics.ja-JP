@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 97%
    + [Analysis Workspace の概要](analysis-workspace/home.md)
    + プロジェクト {#build-workspace-project}
       + [概要](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [プロジェクトをすばやく開始](analysis-workspace/build-workspace-project/starter-projects.md)
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
       + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
       + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 97%
          + [フォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [フォルダーの管理](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [プロジェクトの追加または移動](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [ホットキー](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 97%
          + [概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [ユースケース](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + プロジェクトのキュレーション、共有、スケジュール {#curate-share}
+   + プロジェクトのキュレーションと共有 {#curate-share}
       + [概要](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
       + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
       + [読み取り専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
-      + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
-      + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
+      + [プロジェクトのダウンロード](analysis-workspace/curate-share/download-send.md)
+      + [プロジェクトの送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)

@@ -1,19 +1,19 @@
 ---
-description: Analysis Workspaceのテンプレートを使用して、一般的なレポートシナリオに基づいてプロジェクトをすばやく作成する方法を説明します。
-title: テンプレート
+description: Analysis Workspaceのテンプレートを使用し、一般的なレポートシナリオに基づいてプロジェクトをすばやく開始する方法を説明します。
+title: プロジェクトをすばやく開始
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
-# テンプレート
+# プロジェクトをすばやく開始
 
-Analysis Workspaceのテンプレート（または会社テンプレート）を使用すると、最も一般的なレポートシナリオに関するクイックインサイトを得ることができます。
+関連する関連パネルとビジュアライゼーションを使用して、プロジェクトをすばやく開始できます。 それには、Analysis Workspaceのテンプレート（または会社テンプレート）を使用します。 テンプレートを使用すると、最も一般的なレポートシナリオに関するクイックインサイトを得ることができます。
 
 Adobe Analytics でのテンプレートの使用について詳しくは、次のリソースを参照してください。
 
