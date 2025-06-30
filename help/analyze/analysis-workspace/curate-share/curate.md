@@ -51,7 +51,7 @@ ht-degree: 60%
 
 ## 仮想レポートスイートキュレーション
 
-多数のプロジェクトに同時に適用できるように、レポートスイートレベルでキュレーションを適用する場合は、[仮想レポートスイート内のコンポーネントをキュレーション](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)できます。
+多数のプロジェクトに同時に適用できるように、レポートスイートレベルでキュレーションを適用する場合は、[仮想レポートスイート内のコンポーネントをキュレーション](https://experienceleague.adobe.com/ja/docs/analytics/components/virtual-report-suites/vrs-components)できます。
 
 >[!NOTE]
 >
