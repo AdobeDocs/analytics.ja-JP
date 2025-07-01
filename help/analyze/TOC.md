@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 96%
 
 ---
@@ -131,14 +131,14 @@ ht-degree: 96%
          + [概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [ユースケース](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + プロジェクトのキュレーションと共有 {#curate-share}
+   + キュレーションと共有 {#curate-share}
       + [概要](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
-      + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
+      + [共有可能なリンク](analysis-workspace/curate-share/shareable-links.md)
       + [読み取り専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
-      + [プロジェクトのダウンロード](analysis-workspace/curate-share/download-send.md)
-      + [プロジェクトの送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
+      + [ダウンロード](analysis-workspace/curate-share/download-send.md)
+      + [送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
