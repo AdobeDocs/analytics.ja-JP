@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="セグメント比較"
->abstract="すべてのデータポイントで 2 つのセグメントをすばやく比較して、関連する相違点を自動的に見つけます。"
+>abstract="2 つのセグメントをすべてのデータポイントですばやく比較して、関連する違いを自動的に見つけます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,21 +28,21 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="セグメント比較パネル"
->abstract="すべてのデータポイントで 2 つのセグメントをすばやく比較して、関連する相違点を自動的に見つけます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較する 2 番目のセグメント。これにより、最初のセグメントの逆である *Everyone Else* が自動的に入力されます。 必要に応じて、これを別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
+>abstract="2 つのセグメントをすべてのデータポイントですばやく比較して、関連する違いを自動的に見つけます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較対象となる 2 番目のセグメントで、*その他すべて* （最初のセグメントの逆）が自動的に入力されます。 必要に応じて、*その他の全員* を別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
-セグメント比較パネルは、[Segment IQ](../../segment-iq.md) のツールの一部で、無制限数のセグメント間で最も統計的に有意な違いを見つけます。この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。会社の KPI を推進するオーディエンスセグメントの主要な特性を自動的に発見し、セグメントがどの程度重なっているかを確認できます。
+セグメント比較パネルでは、無数のセグメント間の統計的に最も有意な差異を見つけることができます。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。会社の KPI を推進するオーディエンスセグメントの主な特徴を自動的に明らかにし、セグメントの重複を確認できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/37627?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +69,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 | 入力 | 説明 |
 | --- | --- |
 | **[!UICONTROL セグメントを追加]** | 比較するディメンションを選択します。 |
-| **[!UICONTROL 比較対象]** | 最初に選択したセグメントの比較に使用するディメンションを選択します。特定のセグメントを選択しない場合、デフォルトのセグメントである「**[!UICONTROL 他の全員]**」が使用されます。 |
+| **[!UICONTROL 比較対象]** | 最初に選択したセグメントの比較に使用するディメンションを選択します。 特定のセグメントを選択しない場合、デフォルトのセグメントである「**[!UICONTROL 他の全員]**」が使用されます。 |
 | **[!UICONTROL 詳細設定を表示／非表示]** | **[!UICONTROL 除外されたコンポーネント]**&#x200B;を設定するには「**[!UICONTROL 詳細設定を表示]**」を選択し、**[!UICONTROL 除外されたコンポーネント]**&#x200B;を非表示にするには「**[!UICONTROL 詳細設定を非表示]**」を選択します。 |
 | **[!UICONTROL 除外されたコンポーネント]** | 除外する&#x200B;**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**&#x200B;などを指定できるコンポーネント。<br><ul><li>1 つ以上のディメンション、指標またはセグメントをコンテナから&#x200B;**[!UICONTROL 除外されたコンポーネント]**&#x200B;コンテナにドラッグ＆ドロップします。</li><li>コンポーネントを削除するには、タイプ（**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**）を選択し、![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択してコンポーネントを削除します。すべてのコンポーネントを削除するには、「**[!UICONTROL すべてクリア]**」を選択します。</li><li>現在のディメンション、指標、セグメントの選択をデフォルトとして設定するには、「**[!UICONTROL デフォルトとして設定]**」を選択します。</li></ul> |
 
@@ -77,15 +77,15 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 ### パネル出力
 
-Adobe Analytics が目的のセグメント 2 つの分析を完了すると、出力パネルには、複数のビジュアライゼーションを通じて結果が表示されます。
+Adobe Analyticsが 2 つの目的のセグメントの分析を完了すると、出力パネルに複数のビジュアライゼーションを通じて結果が表示されます。
 
 ![パネル出力のセグメント比較](assets/segment-comparison-output.png)
 
 | ビジュアライゼーション | 説明 |
 |---|---|
 | **[!UICONTROL サイズと重複]** | 選択した各セグメントの比較サイズと、これらが互いにどの程度重複しているかを[ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)ビジュアライゼーションで示します。 |
-| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を示す[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション（単一ページ訪問回数の例の場合） |
-| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション（初回訪問回数の例の場合） |
+| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を表示する [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（単一ページ訪問数の例の場合） |
+| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（初回訪問の例の場合） |
 | **[!UICONTROL セグメントに対する上位の指標]** | 選択したセグメントに対する上位の指標を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
 | **[!UICONTROL セグメント別の経時的な指標]** | 選択したセグメントに対する経時的な指標を示す[折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション。 |
 | **[!UICONTROL セグメントに対する上位のディメンション項目]** | 選択したセグメントに対する混合ディメンション項目を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
