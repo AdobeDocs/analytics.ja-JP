@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace、Analytics ダッシュボード、R
 source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 96%
       + カレンダーと日付範囲 {#calendar-date-ranges}
          + [概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [日付範囲の作成](analysis-workspace/components/calendar-date-ranges/create.md)
-         + [データ範囲の管理](analysis-workspace/components/calendar-date-ranges/manage.md)
+         + [日付範囲の管理](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + データ辞書 {#data-dictionary}
@@ -172,8 +172,8 @@ ht-degree: 96%
    + [セグメントの操作](report-builder/work-with-segments.md)
    + [ディメンションのフィルタリング](report-builder/filter-dimensions.md)
    + [データブロックの管理](report-builder/manage-reportbuilder.md)
-   + [メールのワークブックのスケジュール](report-builder/schedule-reportbuilder.md)
-   + [クラウド書き出し用のワークブックのスケジュール](/help/analyze/report-builder/report-builder-export.md)
+   + [メールのワークブックのスケジュール設定](report-builder/schedule-reportbuilder.md)
+   + [クラウド書き出しのワークブックのスケジュール設定](/help/analyze/report-builder/report-builder-export.md)
    + [スケジュールされたワークブックの管理](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [制限付きラベル](report-builder/restricted-labels.md)
    + [Report Builder の設定](report-builder/report-builder-settings.md)
