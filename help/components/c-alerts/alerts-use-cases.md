@@ -1,35 +1,32 @@
 ---
-description: アラートの作成と管理のユースケース。
-title: アラート - ユースケース
+description: アラートの作成と管理のユースケースを確認します。
+title: アラートのユースケース
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# アラート - ユースケース
+# アラートのユースケース
 
-[アラートの作成](/help/components/c-alerts/alert-builder.md)で説明したように、アラートを作成できます。
+[アラートの作成](alert-builder.md)で説明したように、アラートを作成できます。
 
 次の節では、アラートを作成する際に考慮すべきユースケースの例を示します。
 
-## 2 つのセグメントで絞り込んだシンプルなアラートの作成 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## アラートをフィルター
 
-<!-- 
+セグメントを使用して、シンプルなアラートを作成できます。 例えば、モバイルアプリセッションを使用してホームページにアクセスする人のセッション数に関するアラートを定義します。
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## 複数のアラートを作成する代わりに（スタック）アラートを統合する {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## スタックアラート
 
-アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取ることがないようにします。
+複数のアラートを作成する代わりに、（スタック）アラートを統合できます。 アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取らないようにします。 以下の例では、いずれかの指標しきい値がトリガーされると、アラートが送信されます。
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

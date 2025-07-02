@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: ht
-source-wordcount: '6376'
-ht-degree: 100%
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+workflow-type: tm+mt
+source-wordcount: '6374'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 | ボットルールに関するドキュメントの改善 | [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>説明的にした記事のタイトルを更新</li><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加</li></ul> |
 | 新しいレポートの節 | [テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)と[会社テンプレートの作成](/help/analyze/analysis-workspace/templates/create-templates.md)に関する情報を含む、新しいレポートの節を追加しました。 |
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
-| 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
+| 「Attribution IQ」が「アトリビューション」に変更されました | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
 | Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](/help/analyze/activity-map/getting-started.md)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |
@@ -144,7 +144,7 @@ ht-degree: 100%
 | 内部 URL フィルター | 記事の内容を明確にし、改善するための節と段階的な手順を追加しました。[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
-| データ辞書 | <p>データ要素の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ要素に関する新しいドキュメントを追加しました。</p><p>[コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を、データ要素機能を説明するために更新しました。</p> |
+| データ辞書 | <p>データ辞書の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ辞書に関する新しいドキュメントを追加しました。</p><p>データ辞書機能を説明するために、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を更新しました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
 | **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
@@ -324,7 +324,7 @@ ht-degree: 100%
 | 2019年10月1日 | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |
 | 2019年9月28日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019年9月19日 | [論理グループコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=ja#logic-group-containers)について説明するようにセグメント化に関するドキュメントを改訂しました。 |
-| 2019年9月12日 | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
+| 2019年9月12日 | [ クロスデバイス分析 ](/help/components/cda/overview.md) に関する新しいドキュメント |
 | 2019年9月12日 | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |

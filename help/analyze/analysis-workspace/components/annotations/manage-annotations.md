@@ -1,13 +1,13 @@
 ---
 title: 注釈を管理
-description: ワークスペースでの注釈を管理する方法。
+description: Analysis Workspaceでの注釈の管理方法。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 89%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 89%
 
 ### フィルターパネル
 
-注釈は、左側のパネルの ➍ 「**[!UICONTROL フィルター]**」を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、フィルタリングを行う注釈の数が表示されます。「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
+注釈は、左側のパネルの **[!UICONTROL 「]** フィルター ➍」を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、フィルタリングを行う注釈の数が表示されます。「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
 
 フィルターリストをフィルタリングするには、次の手順に従います。
 

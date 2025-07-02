@@ -1,12 +1,12 @@
 ---
-description: 組織全体の予定レポートを表示および管理します。
-title: スケジュール済みプロジェクトマネージャー
+description: スケジュールされたプロジェクトを管理する方法を説明します。
+title: スケジュール済みプロジェクト
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 42%
+source-wordcount: '786'
+ht-degree: 41%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 42%
 
 ## フィルター
 
-フィルターパネル ➌ ールを使用して、スケジュールされたプロジェクト [ スケジュールされたプロジェクト リスト ](#scheduled-project-list) をフィルタリングできます。 フィルターパネルを表示または非表示にするには、![フィルター](/help/assets/icons/Filter.svg) を使用します。
+フィルターパネル [ ールを使用して、スケジュールされたプロジェクト ](#scheduled-project-list) スケジュールされたプロジェクト リスト ➌ をフィルタリングできます。 フィルターパネルを表示または非表示にするには、![フィルター](/help/assets/icons/Filter.svg) を使用します。
 
 フィルターパネルは、次のセクションで構成されています。
 

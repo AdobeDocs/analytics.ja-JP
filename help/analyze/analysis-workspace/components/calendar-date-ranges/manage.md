@@ -1,19 +1,20 @@
 ---
-title: 日付範囲を管理
-description: Analysis Workspace で日付範囲を共有、名前変更または削除します。
+title: データ範囲の管理
+description: Analysis Workspaceでの日付範囲の管理方法について説明します。
 feature: Date Ranges
 role: User
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
-# 日付範囲を管理
+# 日付範囲の管理
 
 
-一元的な [!UICONTROL &#x200B; 日付範囲 &#x200B;] 管理インターフェイスから、日付範囲の共有、フィルタリング、タグ付け、承認、コピー、共有、削除や、日付範囲をお気に入りとしてマークできます。 日付範囲を管理するには：
+一元的な [!UICONTROL  日付範囲 ] 管理インターフェイスから、日付範囲の共有、フィルタリング、タグ付け、承認、コピー、共有、削除や、日付範囲をお気に入りとしてマークできます。 日付範囲を管理するには：
 
 * メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、「**[!UICONTROL 日付範囲]**」を選択します。
 
@@ -63,7 +64,7 @@ ht-degree: 31%
 
 ### フィルターパネル
 
-左側のパネルの ➍ 「**[!UICONTROL フィルター]**」を使用して、日付範囲をフィルタリングできます。 フィルターパネルには、フィルターのタイプと、そのフィルターを適用する日付範囲の数が表示されます。 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
+左側のパネルの **[!UICONTROL 「]** フィルター ➍」を使用して、日付範囲をフィルタリングできます。 フィルターパネルには、フィルターのタイプと、そのフィルターを適用する日付範囲の数が表示されます。 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
 
 フィルターリストをフィルタリングするには、次の手順に従います。
 
@@ -91,7 +92,7 @@ ht-degree: 31%
 
 * Workspace プロジェクトでは、[コンポーネント情報](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)アイコンを使用します。
 
-* [[!UICONTROL &#x200B; 日付範囲 &#x200B;] リスト ](#date-ranges-list) で、日付範囲のタイトルを選択します。
+* [[!UICONTROL  日付範囲 ] リスト ](#date-ranges-list) で、日付範囲のタイトルを選択します。
 
 [ 日付範囲ビルダー ](create.md#date-range-builder) を使用して、日付範囲を編集します。
 

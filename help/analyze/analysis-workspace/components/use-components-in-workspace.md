@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace でプロジェクトを作成する方法について学ぶ
-title: Analysis Workspace でのコンポーネントの使用
+description: Analysis Workspaceのプロジェクトでコンポーネントを使用する方法を説明します
+title: Analysis Workspaceのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. 追加するコンポーネントまでスクロールするか、それを検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
-1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
+1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
 
 1. 詳しくは、次の節を参照してください。
 
@@ -67,7 +67,7 @@ Analysis Workspace でのディメンションの使用方法について詳し�
 
 Analysis Workspace のプロジェクトに指標を追加するには
 
-1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、Analysis Workspace のプロジェクトに指標を追加します。
+1. [ プロジェクトへのコンポーネントの追加 ](#add-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトに指標を追加し始めます。
 
 
 
@@ -96,24 +96,24 @@ Analysis Workspace では、次のいずれかの方法でセグメントを使�
 
 * パネルへのセグメントの追加
 パネルにセグメントを追加すると、そのセグメントはパネル内のすべてのコンテンツに適用されます。
-パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の [ドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
+パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
 
 * ビジュアライゼーションへのセグメントの追加
 フリーフォームテーブルの列にセグメントを追加すると、そのセグメントはテーブルの列内のすべてのコンテンツに適用されます。また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
 
 * コンポーネントでのセグメントの使用
-[計算指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[注釈](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)または[セグメント](/help/components/segmentation/segmentation-workflow/seg-build.md)などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
+[ 計算指標 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[ 注釈 ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
 
 
 ### プロジェクトへの日付範囲の追加
 
-[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)は、Analysis Workspace でのレポート時間枠を決定します。プロジェクト内の 1 つ以上のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）に適用できます。
+[ 日付範囲 ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) は、Analysis Workspaceでのレポート時間枠を決定します。 また、データ範囲は、プロジェクト内のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）にも適用できます。
 
 各パネルには、デフォルトで日付範囲が含まれています。パネルの日付範囲を更新するには、いくつかの方法があります。その方法の 1 つとして、左側のパネルから日付範囲コンポーネントをドラッグして、Analysis Workspace のパネルの日付範囲を更新します。
 
 1. 必要に応じて、[プロジェクトへのパネルの追加](#add-components-to-a-project)の説明に従って、Analysis Workspace のプロジェクトに日付範囲を追加します。
 
-1. 左側のパネルから日付範囲を次の場所にドラッグ＆ドロップします。
+1. 左側のパネルから日付範囲を次の場所にドラッグ&amp;ドロップします。
 
    * パネルの日付範囲を変更するための現在の日付範囲。
 
@@ -125,7 +125,7 @@ Analysis Workspace での日付範囲の使用方法と管理方法について�
 
 ## コンポーネント情報
 
-任意のコンポーネントにポインターを合わせると、![詳細情報](/help/assets/icons/InfoOutline.svg)が表示されます。選択すると、コンポーネントの追加情報がポップアップで表示されます。
+任意のコンポーネントにポインターを合わせると、![詳細情報](/help/assets/icons/InfoOutline.svg)が表示されます。![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択すると、コンポーネントに関する追加情報を含むポップアップが表示されます。
 
 ![コンポーネント情報](assets/component-info.png)
 

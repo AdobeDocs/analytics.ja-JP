@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 97%
+source-wordcount: '870'
+ht-degree: 96%
 
 ---
 
@@ -46,24 +46,24 @@ ht-degree: 97%
       + [テンプレートを使用](analysis-workspace/templates/use-templates.md)
       + [テンプレートの作成](analysis-workspace/templates/create-templates.md)
    + コンポーネント {#components}
-      + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
-      + [ワークスペースでのコンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
+      + [概要](analysis-workspace/components/analysis-workspace-components.md)
+      + [コンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
       + [コンポーネントの説明の追加](analysis-workspace/components/add-component-descriptions.md)
       + 注釈 {#annotations}
-         + [注釈の概要](analysis-workspace/components/annotations/overview.md)
+         + [概要](analysis-workspace/components/annotations/overview.md)
          + [注釈を作成](analysis-workspace/components/annotations/create-annotations.md)
          + [注釈を管理](analysis-workspace/components/annotations/manage-annotations.md)
          + [注釈を表示](analysis-workspace/components/annotations/view-annotations.md)
-         + [モバイル注釈](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [モバイルスコアカード注釈](analysis-workspace/components/annotations/mobile-annotations.md)
       + ディメンション {#dimensions}
          + [ディメンションのプレビュー](analysis-workspace/components/dimensions/view-dimensions.md)
          + [ディメンションの分類](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [時間分割ディメンション](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [指標](analysis-workspace/components/apply-create-metrics.md)
       + セグメント {#segments}
-         + [セグメントの作成](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [概要](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [クイックセグメント](analysis-workspace/components/segments/quick-segments.md)
-      + カレンダーと日付範囲 {#calendar-date-ranges}
+      + 日付範囲 {#calendar-date-ranges}
          + [概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [日付範囲の作成](analysis-workspace/components/calendar-date-ranges/create.md)
          + [日付範囲の管理](analysis-workspace/components/calendar-date-ranges/manage.md)
@@ -141,26 +141,26 @@ ht-degree: 97%
       + [送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
-      + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
+      + [モデル、コンテナ、ルックバックウィンドウ](analysis-workspace/attribution/models.md)
       + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
-      + [アトリビューションのベストプラクティス](analysis-workspace/attribution/best-practices.md)
+      + [ベストプラクティス](analysis-workspace/attribution/best-practices.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [Segment IQ](analysis-workspace/segment-iq.md)
+   + [ジャーニー管理](analysis-workspace/journey-iq.md)
+   + [セグメント比較](analysis-workspace/segment-iq.md)
    + 異常値検出 {#anomaly-detection}
-      + [異常値検出の概要](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Analysis Workspace での異常値の表示](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [概要](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [異常値を表示](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [異常値検出をオフにする](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [異常値検出で使用される統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
    + Workspace に関する FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace の制限](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [パフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [エラーとトラブルシューティング](analysis-workspace/workspace-faq/error-messages.md)
+      + [制限事項](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace のアクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [アクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder の概要](report-builder/rb-overview.md)
    + [Report Builder の設定](report-builder/report-builder-setup.md)

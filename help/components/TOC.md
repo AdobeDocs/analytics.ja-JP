@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '773'
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 100%
    + [セグメントについて](segmentation/seg-overview.md)
    + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
-   + セグメント化ワークフロー {#segmentation-workflow}
+   + ワークフロー {#segmentation-workflow}
       + [概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
       + [セグメントの作成](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 100%
       + [セグメントの管理](segmentation/segmentation-workflow/seg-manage.md)
       + [Experience Cloud へのセグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
       + [セグメントの使用](segmentation/segmentation-workflow/t-seg-apply.md)
-   + セグメントの参照 {#segment-reference}
+   + リファレンス {#segment-reference}
       + [演算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 100%
 + 計算指標 {#calculated-metrics}
    + [概要](c-calcmetrics/cm-overview.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
-   + 計算指標のワークフロー {#calcmetric-workflow}
+   + ワークフロー {#calcmetric-workflow}
       + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 100%
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [計算指標をコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [計算指標の管理](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 指標リファレンス {#calcmetrics-reference}
+   + リファレンス {#calcmetrics-reference}
       + [基本関数](c-calcmetrics/cm-reference/cm-functions.md)
       + [高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 100%
    + [A4T に関する考慮事項](vrs/vrs-a4t.md)
    + [仮想レポートスイートに関する FAQ](vrs/vrs-faq.md)
    + [仮想レポートスイートとグローバル／複数のスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
-   + 仮想レポートスイートのワークフロー {#vrs-workflow}
+   + ワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 100%
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [概要](c-alerts/intellligent-alerts.md)
-   + [作成](c-alerts/alert-builder.md)
-   + [管理](c-alerts/alert-manager.md)
+   + [アラートの作成](c-alerts/alert-builder.md)
+   + [アラートの管理](c-alerts/alert-manager.md)
    + [ユースケース](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類の概要](classifications/classifications-overview.md)

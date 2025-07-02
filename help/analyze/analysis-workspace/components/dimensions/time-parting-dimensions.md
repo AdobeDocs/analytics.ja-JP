@@ -1,13 +1,13 @@
 ---
-description: 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
+description: 時間分割ディメンションが収集したイベントのタイムスタンプを取得し、それをより意味のあるディメンション（時間帯や曜日など）に分類する方法について説明します。
 title: 時間分割ディメンション
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/41458?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

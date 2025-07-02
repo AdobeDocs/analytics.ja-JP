@@ -4,16 +4,16 @@ title: Analysis Workspace での異常値の表示
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# Analysis Workspace での異常値の表示
+# 異常値を表示
 
-異常値はテーブルまたは折れ線グラフで表示できます。
+Analysis Workspaceの異常値はテーブルまたは折れ線グラフで表示できます。
 
 ## テーブルの異常値の表示 {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ ht-degree: 57%
    各行の **色付きの縦線** は、期待値 ➋ 示します。 各行の **色付きの影付き領域** は、実際の値 ➊ 示します。 線（期待値）と影になっている部分（実際の値）の比較方法は、異常値があるかどうかを決定します。（観測された値は、[ 異常値検出で使用される統計的手法 ](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) に記載されている高度な統計的手法に基づいて異常と見なされます。）
 
 1. 行の右上隅にある「◥」を選択すると、異常値に関する詳細が表示されます。 これは、実際の値が期待値の上下にどの程度乖離しているかを（パーセントで）示します。
+1. [ 貢献度分析を開く ](run-contribution-analysis.md) を選択して、貢献度分析を開始します。
 
 ## 折れ線グラフの異常値の表示
 

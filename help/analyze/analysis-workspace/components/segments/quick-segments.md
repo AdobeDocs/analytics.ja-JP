@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace でクイックセグメントを使用します。
-title: クイックセグメント
+description: Analysis Workspaceでクイックセグメントを作成して使用する方法を説明します。
+title: クイック s=セグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 99%
+source-wordcount: '101'
+ht-degree: 74%
 
 ---
 
@@ -24,126 +24,133 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ クイックセグメント ](https://video.tv.adobe.com/v/345339?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ クイックセグメント ](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## クイックセグメントの作成
-
-Analysis Workspace の任意のユーザーがクイックセグメントを作成できます。
-
-クイックセグメントを作成するには、次の手順に従います。
-
-1. 次のいずれかの方法を選択して、クイックセグメントの作成を開始します。
-
-   * **アドホック（ドラッグ＆ドロップ）**：左側のパネルから、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグします。
-
-     ![ドロップゾーンへのセグメントのドロップ](assets/segment-dropzone.png)
-
-     セグメントの編集について詳しくは、[クイックセグメントの編集](#edit-quick-segments)を参照してください。
-
-     >[!NOTE]
-     >
-     > クイックセグメントアドホック（ドラッグ＆ドロップ）を作成する際は、次の点を考慮してください。
-     > * 計算指標、ディメンションおよびセグメントを作成できない指標のコンポーネントタイプはサポートされていません。
-     > * Analysis Workspace では、すべてのディメンションおよびイベントに対して、「存在する」ヒットセグメントを作成します。例：`Hit where eVar1 exists` または `Hit where event1 exists`。
-     > * 「未指定」または「なし」がセグメントドロップゾーンにドロップされると、セグメントで正しく扱えるように、自動的に「存在しない」セグメントに変換されます。
+>[!MORELIKETHIS]
+>
+>[ クイックセグメントの作成 ](/help/components/segmentation/segmentation-workflow/seg-quick.md)
 
 
-   * **セグメントアイコンの使用：**&#x200B;フリーフォームテーブルで、パネルヘッダー内の&#x200B;**セグメント**&#x200B;アイコンをクリックします。
+<!--
+## Create a quick segment
 
-     ![セグメントフィルター](assets/quick-seg1.png)
+Any user in Anlysis Workspace can create a quick segment.
 
-1. 次のいずれかの設定を調整します。
+To create a quick segment:
 
-   | 設定 | 説明 |
+1. Choose one of the following methods to begin creating the quick segment:
+
+   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the segment drop zone in the panel header.
+   
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+     
+     You can edit the segment as described in [Edit quick segments](#edit-quick-segments).
+
+      >[!NOTE]
+      >
+      > Consider the following when creating a quick segment ad hoc (drag-and-drop):
+      > * The following component types are not supported: calculated metrics and dimensions, as well as metrics from which you cannot build segments.
+      > * For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: `Hit where eVar1 exists` or `Hit where event1 exists`.
+      > * If "unspecified" or "none" is dropped in the segment drop zone, it is automatically converted to a "does not exist" segment so that it is treated correctly in segments.
+
+
+   * **Using the segment icon:** In a Freeform table, select the **Segment** icon in the panel header.
+
+     ![Segment filter](assets/quick-seg1.png)
+
+1. Adjust any of the following settings:
+
+   | Setting | Description |
    | --- | --- |
-   | [!UICONTROL 名前] | セグメントのデフォルト名は、セグメント内のルール名の組み合わせです。セグメントの名前を、わかりやすい名前に変更できます。 |
-   | [!UICONTROL 含む／除く] | セグメント定義にコンポーネントを含めるか除外することはできますが、両方に対応していません。 |
-   | [!UICONTROL ヒット／訪問／訪問者]コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ja#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL 訪問]コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、[!UICONTROL ヒット]コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。デフォルトのコンテナは [!UICONTROL &#x200B; ヒット]です。 |
-   | [!UICONTROL コンポーネント]（ディメンション／指標／日付範囲） | コンポーネント（ディメンション、指標、日付範囲、ディメンション値）を追加して、最大 3 つのルールを定義できます。適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、クイックセグメントビルダーが適切なコンポーネントを自動的に見つけます。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>データセットを左側のパネルからドラッグ＆ドロップします。</li></ul> |
-   | [!UICONTROL 演算子] | 標準演算子と[!UICONTROL 個別カウント]演算子を検索するには、ドロップダウンメニューを使用します。詳しくは、[セグメント演算子](/help/components/segmentation/seg-reference/seg-operators.md)を参照してください。 |
-   | プラス（+）記号 | 別のルールの追加 |
-   | AND／OR 修飾子 | 「AND」修飾子または「OR」修飾子をルールに追加できますが、1 つのセグメント定義で「AND」修飾子と「OR」修飾子を混在させることはできません。 |
-   | [!UICONTROL 適用] | このセグメントをパネルに適用します。セグメントにデータが含まれていない場合は、続行するかどうかを尋ねられます。 |
-   | [!UICONTROL ビルダーを開く] | セグメントビルダーを開きます。セグメントビルダーでセグメントを保存または適用すると、「クイックセグメント」とは見なされなくなります。これは、コンポーネントリストのセグメントライブラリの一部になります。 <p>コンポーネントをすべてのプロジェクトと左側のパネルで使用できるようにするには、「[!UICONTROL **このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加**]」するオプションを選択します。</p><p>詳しくは、この記事の「[クイックセグメントをコンポーネントリストセグメントとして保存](#save-a-quick-segment-as-a-component-list-segment)」の節を参照してください。</p><p>**メモ：**&#x200B;[Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) でセグメントの作成権限を持つユーザーのみが、セグメントビルダーを開くことができます。</p> |
-   | [!UICONTROL キャンセル] | このクイックセグメントをキャンセルします（適用しないでください）。 |
-   | [!UICONTROL 日付範囲] | バリデーターは、データ参照にパネルの日付範囲を使用します。ただし、クイックセグメントで適用した日付範囲は、パネルの上部にあるパネルの日付範囲より優先されます。 |
-   | プレビュー（右上） | 有効なセグメントがあるかどうか、およびセグメントの範囲を確認できます。このセグメントを適用した場合に予想されるデータセットの分類を表します。このセグメントにデータがないことを示す通知が表示される場合があります。この場合は、続行するか、セグメント定義を変更できます。 |
+   | [!UICONTROL Name] | The default name of a segment is a combination of the rule names in the segment. You can rename the segment to a more friendly name. |
+   | [!UICONTROL Include/exclude] | You can either include or exclude components in your segment definition, but not both. |
+   | [!UICONTROL Hit/Visit/Visitor] container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor's data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+   | [!UICONTROL Components] (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions, metrics, date ranges, or dimension values). There are 3 ways to find the right component:<ul><li>Start typing and the quick segment builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+   | [!UICONTROL Operator] | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. See [Segment operators](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Plus (+) sign | Add another rule |
+   | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
+   | [!UICONTROL Apply] | Apply this segment to the panel. If the segment contains no data, you are asked if you want to continue. |
+   | [!UICONTROL Open builder] | Opens the Segment Builder. After you save or apply the segment in the Segment Builder, it is no longer considered a "quick segment". It becomes part of the component-list segment library. <p>To make the component available across all of your projects and in the left rail, select the option [!UICONTROL **Make this segment available to all your projects and add it to your component list**].</p><p>For more information, see the section [Save a quick segment as a component-list segment](#save-a-quick-segment-as-a-component-list-segment) in this article.</p><p>**Note:** Only users with the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) can open the Segment Builder.</p> |
+   | [!UICONTROL Cancel] | Cancel this quick segment (don't apply it). |
+   | [!UICONTROL Date range] | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
+   | Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment. You might get a notice that indicates that this segment has no data. In this case, you can proceed or change the segment definition. |
 
-1. 「[!UICONTROL **適用**]」を選択して変更を保存します。
+1. Select [!UICONTROL **Apply**] to save your changes.
 
-## クイックセグメントの編集
+## Edit quick segments
 
-1. クイックセグメントにポインタを合わせ、**編集**&#x200B;アイコンを選択します。
+1. Hover over the quick segment and select the **Edit** icon.
 
-   ![アドホックフィルターを編集](assets/filter-adhoc-edit.png)
+   ![Edit ad hoc filter](assets/filter-adhoc-edit.png)
 
-1. セグメント定義やセグメント名を編集します。
+1. Edit the segment definition and/or the segment name.
 
-1. 「[!UICONTROL **適用**]」を選択します。
+1. Select [!UICONTROL **Apply**].
 
-## クイックセグメントをコンポーネントリストセグメントとして保存
+## Save a quick segments as a component-list segment
 
 >[!IMPORTANT]
 >
-> クイックセグメントを保存する際は、次の点を考慮してください。
+> Consider the following when saving a quick segment:
 > 
-> * クイックセグメントを保存するには、[Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) でセグメント作成の権限が必要です。
+> * To save a quick segment, you need the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
-> * セグメントを保存または適用した後は、クイックセグメントビルダーで編集できなくなります。代わりに、通常のセグメントビルダーを使用する必要があります。
+> * After you save or apply the segment, it can no longer be edited it in the quick segment builder. Instead, you must use the regular Segment Builder.
 
-クイックセグメントをコンポーネントリストセグメントとして保存できます。コンポーネントリストセグメントの利点は次のとおりです。
+You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* すべての Workspace プロジェクトでの利用可能性。
-* 順次セグメントだけでなく、より複雑なセグメントもサポートします。
+* Availablility across all your Workspace projects
+* Support more complex segments as well as sequential segments
 
-セグメントは、クイックセグメントビルダーから、または[!UICONTROL フィルタービルダー]から保存できます。
+You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].
 
-### クイックセグメントビルダーでの保存 {#save2}
+### Save in the quick segment builder {#save2}
 
-1. クイックセグメントを適用したら、該当するセグメントにポインタを合わせ、情報（「i」）アイコンを選択します。
-1. 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加]**」を選択します。
-1. （任意）セグメントの名前を変更します。
-1. 「**[!UICONTROL 保存]**」を選択します。
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Make available to all projects and add to your component list]**.
+1. (Optional) Rename the segment.
+1. Select **[!UICONTROL Save]**.
 
-   これで、左側のパネルのコンポーネントリストにセグメントが表示されます。また、セグメントのサイドバーは明るい青色から暗い青色に変わり、クイックセグメントビルダーで編集または開くことができなくなったことを示します。
+   The segment now appears in your component list in the left rail. Also, note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder.
 
-### セグメントビルダーでの保存 {#save3}
+### Save in the Segment Builder {#save3}
 
-1. クイックセグメントを適用したら、該当するセグメントにポインタを合わせ、情報（「i」）アイコンを選択します。
-1. 「**[!UICONTROL セグメントを保存]**」を選択します。
-1. （オプション）セグメント名を変更し、「[!UICONTROL **適用**]」を選択します。
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Save segment]**
+1. (Optional) Rename the segment, then select [!UICONTROL **Apply**].
 
-   Workspace に戻り、セグメントのサイドバーが明るい青色から暗い青色に変わり、クイックセグメントビルダーで編集または開くことができなくなったことを示します。保存すると、コンポーネントリストの一部になります。
+   Go back to Workspace and note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder. And by saving it, it becomes part of the component list.
 
-セグメントを適用したら、それをセグメントコンポーネントリストに追加して、すべてのプロジェクトで使用できるようにします。
+After you apply the segment, you can choose to add it to your segment component list and make it available to all your projects.
 
-1. 保存したセグメントにポインターを合わせ、鉛筆アイコンを選択します。
+1. Hover over the saved segment and select the pencil icon.
 
-1. 「[!UICONTROL **ビルダーを開く**]」を選択します。
+1. Select [!UICONTROL **Open builder**].
 
-1. セグメントビルダーの上部に、[!UICONTROL **プロジェクト専用セグメント**]&#x200B;ダイアログが表示されます。
+1. At the top of the Segment Builder, notice the [!UICONTROL **Project-only segment**] dialog:
 
-   ![プロジェクト専用セグメントダイアログ](assets/project-only-segment-dialog.png)
+   ![project-only segment dialog](assets/project-only-segment-dialog.png)
 
-1. 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]**」の横にあるチェックボックスを選択します。
+1. Select the checkbox next to **[!UICONTROL Make available to all your projects and add to your component list.]**
 
-1. 「**[!UICONTROL 保存]**」を選択します。
+1. Select **[!UICONTROL Save]**.
 
-   セグメントが、すべてのプロジェクトのセグメントコンポーネントリストに表示されます。
-また、組織内の他のユーザーと[セグメントを共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja#concept_4A9726927E7C44AFA260E2BB2721AFC6)することもできます。
+   The segment now appears in your segment component list for all your projects.
+   You can also [share the segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) with other people in your organization.
 
-## クイックセグメントの例
+## Quick segment example
 
-ディメンションと指標を組み合わせたセグメントの例を次に示します。
+The following example of a segment combines dimensions and metrics:
 
 ![](assets/quick-seg2.png)
 
-## 既知の問題
+## Known issue
 
-1. 2 つのエントリでクイックセグメントを作成して、Test1 として&#x200B;**[!UICONTROL 保存]**&#x200B;します。
-1. **[!UICONTROL 名前を付けて保存]**&#x200B;をクリックして、このクイックセグメントを Test2 として保存します。
-1. Test2 クイックセグメントを編集して、もう一度 Test2 として保存します。
-Test1 クイックセグメントが Test2 で変更されます。
+1. Create a quick segment with 2 entries and **[!UICONTROL Save]** it as Test1.
+1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
+1. Edit the Test2 quick segment and save it again as Test2. 
+   Notice that the Test1 quick segment gets modified by Test2.
+-->

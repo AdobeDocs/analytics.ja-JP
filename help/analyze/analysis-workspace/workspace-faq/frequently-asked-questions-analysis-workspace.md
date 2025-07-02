@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace の必要システム構成です。
+description: Analysis Workspace の必要システム構成について説明します。
 keywords: Analysis Workspace
 title: 管理要件
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---

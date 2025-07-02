@@ -1,26 +1,26 @@
 ---
-description: Analysis Workspace のディメンションおよびディメンション項目を分類します。
+description: Analysis Workspaceでディメンションとディメンション項目を分類する方法について説明します。
 keywords: Analysis Workspace
 title: ディメンションの分類
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: ed4d7bb2b3ba290da575ce18fa6ba62d6b2e9751
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 59%
+source-wordcount: '554'
+ht-degree: 56%
 
 ---
 
-# ワークスペースのディメンションの分類
+# ディメンションの分類
 
-特定のニーズに合わせて様々な方法でデータを分類でき、関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成できます。
+Analysis Workspaceでは、具体的なニーズに合わせて様々な方法でデータを分類できます。関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成できます。
 
 1. [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) で、選択した 1 つ以上の行のコンテキストメニューから、「**[!UICONTROL 分類]**![ 山形の右 ](/help/assets/icons/ChevronRight.svg)」を選択します。
 
    ![ 選択した項目からアラートを作成を示すステップ結果。](assets/breakdown.png)
 
-1. サブメニューから **[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]** または **[!UICONTROL 日付範囲]** を選択し、項目を選択します。 または、「**[!UICONTROL *検索&#x200B;*]**&#x200B;フィールドでコンポーネントを検索します。
+1. サブメニューから **[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]** または **[!UICONTROL 日付範囲]** を選択し、項目を選択します。 または、「**[!UICONTROL *検索&#x200B;*]**フィールドでコンポーネントを検索します。
 
 選択した期間で、ディメンション項目またはオーディエンスセグメントで指標を分類できます。より詳細なレベルまで、さらに詳しく調べることもできます。
 
@@ -52,7 +52,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis WorkspaceのDimension](https://video.tv.adobe.com/v/41372?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis WorkspaceのDimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -60,7 +60,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの分類 ](https://video.tv.adobe.com/v/327337?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの分類 ](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -68,7 +68,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ディメンションと指標の追加 ](https://video.tv.adobe.com/v/34734?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ディメンションと指標の追加 ](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +76,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ フリーフォームテーブルでのディメンションの操作 ](https://video.tv.adobe.com/v/328531?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フリーフォームテーブルでのディメンションの操作 ](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -84,7 +84,7 @@ ht-degree: 59%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの位置別分類 ](https://video.tv.adobe.com/v/327412?captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの位置別分類 ](https://video.tv.adobe.com/v/24033){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +128,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/34734?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,14 +136,14 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/328531?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/327412?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

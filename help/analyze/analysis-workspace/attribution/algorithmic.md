@@ -1,13 +1,13 @@
 ---
 title: アルゴリズムアトリビューション
-description: アルゴリズムアトリビューションモデルの詳細。
+description: アルゴリズムアトリビューションモデルの詳細を理解します。
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace のアルゴリズム[アトリビューションモデル](m
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アルゴリズムアトリビューション ](https://video.tv.adobe.com/v/40048?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アルゴリズムアトリビューション ](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

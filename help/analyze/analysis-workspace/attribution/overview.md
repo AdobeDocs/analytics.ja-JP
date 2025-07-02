@@ -1,13 +1,13 @@
 ---
 title: アトリビューションの概要
-description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念。
+description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念について説明します。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 89%
+source-wordcount: '489'
+ht-degree: 81%
 
 ---
 
@@ -53,32 +53,32 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューション ](https://video.tv.adobe.com/v/38408?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![ フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューション ](https://video.tv.adobe.com/v/41479?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![ 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューションパネルの使用 ](https://video.tv.adobe.com/v/38412?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションパネルの使用 ](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アトリビューションモデルの並列比較の追加 ](https://video.tv.adobe.com/v/327795?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションモデルの並列比較の追加 ](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 ## アトリビューションをサポートしないAdobe Analytics ツール
 
-Analytics 2.0 API をサポートしないすべてのツール（Report Builder など）は、アトリビューションをサポートしません。
+[ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) など、Analytics 2.0 API をサポートしないすべてのツールは、アトリビューションをサポートしません。

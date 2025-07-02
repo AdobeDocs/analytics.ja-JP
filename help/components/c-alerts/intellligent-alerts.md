@@ -1,12 +1,12 @@
 ---
-description: アラートを使用すると、通知をきめ細かく制御したり、異常値検出と統合したりできます。
+description: アラートを使用して、通知の詳細な制御や異常値検出との統合を可能にする方法を説明します。
 title: アラートの概要
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
