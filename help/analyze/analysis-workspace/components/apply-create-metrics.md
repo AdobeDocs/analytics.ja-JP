@@ -101,7 +101,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
    * [!UICONTROL **変化率**]：選択した 2 つの列の間の変化率を示す新しい列を作成します。
 
-[計算指標： 実装なしの指標](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)（3:42）
+[計算指標： 実装なしの指標](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)（3:42）
 
 
 ## 様々なアトリビューションモデルとの指標の比較

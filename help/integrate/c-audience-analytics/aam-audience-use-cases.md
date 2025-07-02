@@ -22,11 +22,11 @@ ht-degree: 59%
 
 ## 類似モデリング {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-マルチメディアパブリッシャーは、[ セグメント比較 ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) を使用してサードパーティオーディエンスを比較し、主な差別化特性を理解できます。 この比較は、ターゲティングに使用する価値の高いファーストパーティセグメントを作成するのに役立ちます。
+マルチメディアパブリッシャーは、[ セグメント比較 ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) を使用してサードパーティオーディエンスを比較し、主な差別化特性を理解できます。 この比較は、ターゲティングに使用する価値の高いファーストパーティセグメントを作成するのに役立ちます。
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 小売業者は、[連続セグメント](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
+B2B 小売業者は、[連続セグメント](https://experienceleague.adobe.com/ja/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
 
 ## デモグラフィックターゲティング {#section_F034DB721A06419283DBD29D4A1B444B}
 
