@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="データディクショナリ"
->abstract="データ要素は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。 <br/>Analytics 管理者は、データ要素内の各コンポーネントに関する情報を調整する責任があります。"
+>abstract="データ辞書はユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり理解を深めたりするのに役立ちます。<br/>Analytics 管理者は、データ辞書の各コンポーネントに関する情報を調整する責任があります。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace用データディクショナリ ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspace用データディクショナリ ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
