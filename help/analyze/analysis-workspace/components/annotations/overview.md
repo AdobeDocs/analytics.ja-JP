@@ -6,9 +6,9 @@ solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 注釈を使用すると、コンテキストデータのニュアンスとインサイトを組織内の他の関係者に効果的に伝えることができます。注釈を使用すると、カレンダーイベントを特定のディメンションや指標に関連付けることができます。日付や日付範囲に、既知のデータの問題、祝日、キャンペーン開始などの注釈を付けることで、次に、イベントをグラフィカルに表示し、キャンペーンやその他のイベントがサイトトラフィック、モバイルアプリの使用状況、収益、その他の指標に影響を与えているかどうかを確認できます。
 
-例えば、プロジェクトを組織と共有しているとします。ユニーク訪問者が顕著に減少した場合は、**訪問者数の減少** 注釈を作成し、レポートスイート全体に対してスコープを設定できます。 その日付を含んだレポートスイートをユーザーが表示すると、データと共に、プロジェクト内の注釈が表示されます。
+例えば、プロジェクトを組織と共有しているとします。ユニーク訪問者が大幅に減少した場合は、**訪問者減少**&#x200B;注釈を作成して、その注釈の範囲をレポートスイート全体に設定できます。その日付を含んだレポートスイートをユーザーが表示すると、データと共に、プロジェクト内の注釈が表示されます。
 
 ![注釈がハイライト表示された折れ線グラフ。](assets/annotation-example.png)
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ja).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

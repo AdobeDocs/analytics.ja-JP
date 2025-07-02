@@ -4,9 +4,9 @@ title: セグメントについて
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 セグメントは、[!UICONTROL 訪問者]、[!UICONTROL 訪問]および[!UICONTROL ヒット]の各レベル階層に基づき、ネストされたコンテナモデルを使用します。ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
-セグメントビルダーでセグメントを作成および保存したり、（[!UICONTROL Analysis Workspace] の）フォールアウトレポートからセグメントを生成したりできます。 また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。また、複数のセグメントをまとめて、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として使用することもできます。
+セグメントビルダーでセグメントを作成して保存することも、（[!UICONTROL Analysis Workspace]で）フォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。また、複数のセグメントをまとめて、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として使用することもできます。
 
 セグメントは次の項目を識別します。
 
@@ -34,7 +34,7 @@ ht-degree: 78%
 - 出口および入口に基づく訪問者 - Facebook、定義済みのランディングページ、参照ドメインからの訪問者。
 - カスタム変数に基づく訪問者 - フォームフィールド、定義済みのカテゴリ、顧客 ID。
 
-セグメントビルダーでオーディエンスセグメントを作成する場合は、コンテナ間の [!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して条件を定義します。
+セグメントビルダーでオーディエンスセグメントを作成するときに、コンテナ間で [!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して条件を定義します。
 
 <table style="table-layout:fixed; border: none;">
 
@@ -110,11 +110,11 @@ ht-degree: 78%
 
 - [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)できます。
 - セグメントが、レポートスイート全体で共通になりました。
-- [ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) を使用すると、セグメントを簡単に作成できます。
-- [ セグメントマネージャー ](/help/components/segmentation/segmentation-workflow/seg-manage.md) を使用すると、セグメントの共有、タグ付け、検証、承認などの機能を備えた [ ワークフロー ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) を設定できます。
+- [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)は、セグメント作成を簡素化します。
+- [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)を使用すると、セグメントの共有、タグ付け、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
 - フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-tag.md)して、セグメントを整理したり検索したりできます。
-- [ 順次セグメント ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) を作成できます。
-- [!UICONTROL ページビュー]コンテナは、ページビューだけにとどまらずあらゆる種類のデータをセグメント化するコンテナであることを示すために、名称が[!UICONTROL ヒット]コンテナに変更されています。例えば、リンクトラッキングコールや、Mobile SDK からのトラッキングアクションコールはすべて、ヒットコンテナに含まれるか除外されます。
+- [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
+- ページビューだけにとどまらずあらゆる種類のデータをセグメント化するコンテナであることを示すために、[!UICONTROL ページビュー]コンテナの名称が[!UICONTROL ヒット]コンテナに変更されました。例えば、リンクトラッキング呼び出しと、モバイル SDK からのトラックアクション呼び出しは、ヒットコンテナによって含まれたり、除外されたりします。
 
 ## Analysis Workspace のセグメント化
 
@@ -126,7 +126,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 ## アドビが提供するセグメント
 
-コンポーネントの左パネルには、作成者と会社が作成したセグメントと、初期設定で提供されているAdobe セグメントが表示されます。 **[!UICONTROL すべて表示]** をクリックすると、通常、これらのセグメントはリストの下部に表示され、![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) で識別されます。
+コンポーネント左側パネルには、ユーザーとその会社が作成したセグメントと、標準で提供されるアドビのセグメントが表示されます。「**[!UICONTROL すべて表示]**」をクリックすると、通常、これらのセグメントはリストの下部に表示され、![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) で識別されます。
 
 ## 順次セグメント {#sequential}
 
@@ -240,7 +240,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -265,7 +265,7 @@ Report Builder には、自分が所有するセグメントと自分が共有�
 
 +++ **セグメントマネージャーでは Analytics のセグメントをすべて管理できますか？**
 
-はい、すべてのセグメントをセグメントマネージャーで管理できます。 セグメントマネージャーには、所有者（セグメントを作成したユーザー）、共有ユーザー、管理者ユーザーに表示されるセグメントが表示されます。 セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
+はい。すべてのセグメントをセグメントマネージャーで管理できます。セグメントマネージャーには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
 
 管理者は、Analysis Workspace ユーザーインターフェイス内ですべてのセグメントを表示できます。
 
@@ -275,6 +275,6 @@ Report Builder では、自分が作成したセグメントまたは自分に�
 
 +++ **セグメントを削除できないのはなぜですか？**
 
-セグメントが [Experience Cloudに公開 ](/help/components/segmentation/segmentation-workflow/seg-workflow.md) された場合、セグメントを削除したり、セグメントを編集したりすることはできません。 ただし、セグメントをコピーして、コピーしたバージョンを編集することはできます。
+セグメントが [Experience Cloud に公開されている](/help/components/segmentation/segmentation-workflow/seg-workflow.md)場合には、そのセグメントを削除したり、編集したりすることはできません。ただし、そのセグメントをコピーして、そのコピーしたものを編集することはできます。
 
 +++

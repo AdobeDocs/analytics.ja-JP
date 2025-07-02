@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspaceのデータ要素を使用すると、Analysis Workspaceの様々なコンポーネント（使用目的、承認済み、重複など）をカタログ化して追跡できます。
+description: Analysis Workspace のデータ辞書を使用すると、Analysis Workspace の様々なコンポーネント（使用目的、承認済み、重複など）をカタログ化して追跡できます。
 title: データ辞書の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="データディクショナリ"
->abstract="データ辞書はユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり理解を深めたりするのに役立ちます。<br/>Analytics 管理者は、データ辞書の各コンポーネントに関する情報を調整する責任があります。"
+>abstract="データ辞書は、ユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり理解を深めたりするのに役立ちます。<br/>Analytics 管理者は、データ辞書内の各コンポーネントに関する情報を調整する責任があります。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace用データディクショナリ ](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のデータ辞書](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 データ辞書には、次の情報が含まれます。
 
-* コンポーネントの機能および使用目的。
+* コンポーネントの機能と使用目的。
 
 * 表示しているコンポーネントで通常使用されるコンポーネント。
 
-* 表示しているコンポーネントに類似したコンポーネント。
+* 表示しているコンポーネントに類似するコンポーネント。
 
-* コンポーネントがシステム管理者によって承認されているかどうか。
+* コンポーネントがシステム管理者によって承認済みであるかどうか。
 
 データ辞書へのアクセス方法と、データ辞書に含まれる情報について詳しくは、[データ辞書でのコンポーネント情報の表示](view-data-dictionary.md)を参照してください。
 
@@ -57,7 +57,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 データ辞書は、システム管理者が Analytics 環境内のコンポーネントを追跡し、キュレートするのに役立ちます。
 
-Analytics 管理者は、次の目的でデータ要素を使用できます。
+Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
 * 統合が必要な重複コンポーネントを識別します。
 
@@ -88,9 +88,9 @@ Analysis Workspace 内で、次のいずれかの方法でデータ辞書にア�
 
 ## データ辞書の更新とキュレーション
 
-Adobe Analytics管理者は、[ データ要素の正常性の監視 ](monitor-data-dictionary-health.md) で説明しているように、組織のデータ要素を正常に保持する責任があります。
+Adobe Analytics 管理者は、[データ辞書の正常性の監視](monitor-data-dictionary-health.md)で説明しているように、組織のデータ辞書を正常に保持する責任があります。
 
-このプロセスの一環として、Adobe Analytics管理者は、[ データ要素でのコンポーネントエントリの編集 ](edit-entries-data-dictionary.md) で説明しているように、データ要素内の各コンポーネントに関する情報を編集できます。
+このプロセスの一環として、Adobe Analytics 管理者は、[データ辞書でのコンポーネントエントリの編集](edit-entries-data-dictionary.md)で説明しているように、データ辞書内の各コンポーネントに関する情報を編集できます。
 
 ## データ辞書を移動、最小化または閉じる
 
