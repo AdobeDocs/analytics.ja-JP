@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspaceでフリーフォームテーブルをフィルタリングおよび並べ替える方法について説明します。
-title: テーブルのフィルタリングと並べ替え
+title: フィルターと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# フリーフォームテーブルのフィルタリングと並べ替え
+# フィルタリングと並べ替え
 
 Analysis Workspace のフリーフォームテーブルは、インタラクティブなデータ分析の基盤となります。そのため、何千行もの情報を含めることができます。データのフィルタリングと並べ替えは、最も重要な情報を効率的に表示するための重要な要素になる可能性があります。
 

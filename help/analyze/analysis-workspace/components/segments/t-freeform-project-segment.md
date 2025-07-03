@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspaceでセグメントを作成して使用する方法を説明します。
+description: Analysis WorkspaceとAdobe Analyticsでセグメントを作成して使用する方法を説明します。
 title: セグメント：概要
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---
@@ -27,21 +27,21 @@ ht-degree: 34%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/41393?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの検索と作成 ](https://video.tv.adobe.com/v/3416042?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの検索と作成 ](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントを適用するためのその他の方法 ](https://video.tv.adobe.com/v/34731?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントを適用するためのその他の方法 ](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

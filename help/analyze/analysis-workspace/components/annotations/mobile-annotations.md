@@ -1,21 +1,21 @@
 ---
-title: モバイル注釈
-description: モバイルスコアカードで注釈を表示する方法を説明します。
+title: モバイルスコアカードの注釈
+description: モバイルスコアカードに注釈を表示する方法を説明します。
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 86%
 
 ---
 
 
 # モバイルスコアカード注釈
 
-Workspace で作成される注釈は、モバイルスコアカードで表示できます。モバイルスコアカードの注釈を使用すると、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを共有できます。
+Analysis Workspaceで作成される注釈をモバイルスコアカードに表示できます。 モバイルスコアカードの注釈を使用すると、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを共有できます。
 
 
 ## モバイルスコアカードでの注釈の表示

@@ -4,14 +4,14 @@ title: Analysis Workspaceのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%
 
 ---
 
-# Analysis Workspace でのコンポーネントの使用
+# プロジェクトでのコンポーネントの使用
 
 コンポーネントは、Analysis Workspace において、あらゆるプロジェクトの実際のデータを作成します。コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
 

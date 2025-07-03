@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 96%
       + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
       + [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace のフォルダー {#workspace-folders}
-         + [フォルダーの概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [フォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [フォルダーの管理](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [プロジェクトの追加または移動](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 96%
       + [ホットキー](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
+      + [デバッガー](analysis-workspace/build-workspace-project/debugger.md)
    + テンプレート {#templates}
-      + [テンプレートを使用](analysis-workspace/templates/use-templates.md)
-      + [テンプレートの作成](analysis-workspace/templates/create-templates.md)
+      + [テンプレートの使用](analysis-workspace/templates/use-templates.md)
+      + [テンプレートの作成と管理](analysis-workspace/templates/create-templates.md)
    + コンポーネント {#components}
       + [概要](analysis-workspace/components/analysis-workspace-components.md)
       + [コンポーネントの使用](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 96%
          + [概要](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [面グラフおよび積み重ね面グラフ](analysis-workspace/visualizations/area.md)
-      + [棒グラフおよび積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
+      + [積み重ね面グラフ](analysis-workspace/visualizations/area.md)
+      + [積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
       + [ブレット](analysis-workspace/visualizations/bullet-graph.md)
       + [コンボ](analysis-workspace/visualizations/combo-charts.md)
       + [ドーナツ](analysis-workspace/visualizations/donut.md)

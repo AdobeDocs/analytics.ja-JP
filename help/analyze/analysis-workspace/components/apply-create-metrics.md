@@ -1,10 +1,10 @@
 ---
-description: 指標の概要とAdobe Analyticsでの指標の使用方法について説明します。
+description: 指標の概要と Analysis Workspace での指標の使用方法について説明します。
 title: 指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 21%
@@ -41,7 +41,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328566?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
    * [!UICONTROL **変化率**]：選択した 2 つの列の間の変化率を示す新しい列を作成します。
 
-[計算指標： 実装なしの指標](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)（3:42）
+[計算指標： 実装なしの指標](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)（3:42）
 
 
 ## 様々なアトリビューションモデルとの指標の比較
@@ -119,7 +119,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 累積平均 ](https://video.tv.adobe.com/v/35215?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 累積平均 ](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

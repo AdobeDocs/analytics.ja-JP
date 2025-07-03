@@ -1,12 +1,12 @@
 ---
-description: Analysis Workspaceでテンプレートを使用する方法を説明します。
+description: Analysis Workspaceのデフォルトテンプレートと、それらのデフォルトテンプレートの使用方法について説明します。
 title: テンプレートの使用
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '18669'
+source-wordcount: '18676'
 ht-degree: 99%
 
 ---

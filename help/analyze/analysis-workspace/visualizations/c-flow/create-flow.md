@@ -4,10 +4,10 @@ title: フロービジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 95%
    | **[!UICONTROL 最初／最後の発生件数に制限]** | パスを、ディメンション、項目、指標の、最初または最後の発生件数で始まるパスまたは終わるパスに制限します。詳しくは、[最初／最後の発生件数に制限](#example-scenario-for-limit-to-firstlast-occurrence)を参照してください。 |
    | **[!UICONTROL 列の数]** | フロー図で必要な列数最大 5 列まで指定できます。 |
    | **[!UICONTROL 列ごとに展開される項目数]** | 各列に必要な項目数1 列につき最大 10 個の展開項目を指定できます。 |
-   | **[!UICONTROL フローコンテナ]** | 「**[!UICONTROL セッション]**」と「**[!UICONTROL ユーザー]**」を切り替えて、パスを分析できます。これらの設定により、あるユーザーのエンゲージメントを（セッション全体にわたって）個人レベルで理解したり、分析を 1 回のセッションに制限したりできます。 |
+   | **[!UICONTROL フローコンテナ]** | **[!UICONTROL 訪問]** と **[!UICONTROL 訪問者]** を切り替えて、パスを分析できます。 これらの設定により、訪問者のエンゲージメントを（訪問全体にわたって）訪問者レベルで把握したり、分析を 1 回の訪問に制限したりできます。 |
 
    >[!IMPORTANT]
    >
@@ -183,27 +183,27 @@ ht-degree: 95%
 このオプションを使用する場合、次の点に注意してください。
 
 * **[!UICONTROL 最初 / 最後の発生に制限]**&#x200B;は、シリーズの最初または最後の発生のみをカウントします。**[!UICONTROL 次で始まる]**&#x200B;または&#x200B;**[!UICONTROL 次で終わる]**&#x200B;条件の他のすべての発生は、破棄されます。
-* **[!UICONTROL 次で始まる]**&#x200B;フローで使用していた場合、開始条件に一致する最初の発生のみが含まれます。
-次の例では、フロー内の各ステップにおける*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**すべて**&#x200B;の発生件数が含まれます。
+* **[!UICONTROL 次で始まる]**フローで使用していた場合、開始条件に一致する最初の発生のみが含まれます。
+次の例では、フロー内の各ステップにおける*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**すべて**の発生件数が含まれます。
   ![制限なし、最初](assets/limitofffirst.png)
 
-  次の例では、フローの各ステップにおける&#x200B;*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**最初**&#x200B;の発生件数のみが含まれます。
+  次の例では、フローの各ステップにおける&#x200B;*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**最初**の発生件数のみが含まれます。
   ![リント、開始](assets/limitonfirst.png)
-* **[!UICONTROL 次で終わる]**&#x200B;フローで使用していた場合、終了条件に一致する最後の発生のみが含まれます。
-次の例では、フロー内の各ステップにおける*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**すべて**&#x200B;の発生件数が含まれます。
+* **[!UICONTROL 次で終わる]**フローで使用していた場合、終了条件に一致する最後の発生のみが含まれます。
+次の例では、フロー内の各ステップにおける*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**すべて**の発生件数が含まれます。
   ![制限なし、最初](assets/limitofflast.png)
 
-  次の例では、フローの各ステップにおける&#x200B;*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**最後**&#x200B;の発生のみが含まれます。
+  次の例では、フローの各ステップにおける&#x200B;*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**最後**の発生のみが含まれます。
   ![リント、開始](assets/limitonlast.png)
-* 使用される系列は、コンテナに基づいて異なります。**[!UICONTROL ユーザー]**&#x200B;コンテナを使用している場合、一連のイベントは、セッションになります。**[!UICONTROL セッション]**&#x200B;コンテナを使用している場合、一連のイベントは、指定した日付範囲における特定のユーザーのすべてのイベントになります。
+* 使用される系列は、コンテナに基づいて異なります。**[!UICONTROL 訪問者]** コンテナを使用している場合、一連のイベントは訪問数です。 **[!UICONTROL 訪問者]** コンテナを使用している場合、一連のイベントは、指定された日付範囲での指定されたユーザーに対するすべてのヒットです。
 * 「**[!UICONTROL 最初／最後の発生に制限]**」オプションは、「**[!UICONTROL 次で始まる]**」または「**[!UICONTROL 次で終わる]**」フィールドで指標またはディメンション項目を使用している場合に、詳細設定で設定できます。
 
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

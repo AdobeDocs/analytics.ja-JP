@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
 workflow-type: tm+mt
-source-wordcount: '6374'
+source-wordcount: '6443'
 ht-degree: 99%
 
 ---
@@ -25,6 +25,11 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2025年7月** | |
+| デバッガー | Analysis Workspaceでプロジェクトデバッガーを有効、使用、無効にする方法に関する新しい記事を追加しました。 |
+| レビューと更新 | Analysis Workspace ドキュメントのレビューと更新。 該当する場合、ドキュメントはAnalysis WorkspaceのCustomer Journey Analytics ドキュメントと同期されるようになりました。 |
+| **2025年6月** | |
+| 新しいショートカットアクション | Analysis Workspace の新しいキーボードショートカットを使用すると、プロジェクトで上下に [Workspace パネルを移動](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions)できるようになりました。 |
 | **2025年3月** |  |
 | Analytics インベントリ | [Analytics インベントリ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/analytics-inventory)では、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。 |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |

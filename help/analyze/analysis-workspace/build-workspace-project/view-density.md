@@ -4,7 +4,7 @@ title: 表示密度
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 80%
@@ -66,7 +66,7 @@ To set the view density:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/40312?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

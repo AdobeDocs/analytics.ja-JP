@@ -4,10 +4,10 @@ title: 主要指標の概要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
    | **[!UICONTROL 指標]** | 調査の対象となる指標を選択します。すべての指標がサポートされています。 |
    | **[!UICONTROL プライマリ日付範囲]** | フリーフォームテーブルの現在の日付範囲。<p>データビューで使用可能な日付範囲から選択します。</p> <p>ビジュアライゼーションがあるパネルで使用されているのと同じ日付範囲を使用する場合は、「[!UICONTROL **パネルの日付範囲**]」を選択します。</p> |
    | **[!UICONTROL 比較日付範囲]** | プライマリ日付範囲の比較対象となる日付範囲。 |
-   | **[!UICONTROL フィルター（オプション）]** | この概要で関心のあるフィルター。 |
+   | **[!UICONTROL セグメント (オプション)]** | この概要で関心のあるセグメント。 |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ## ビジュアライゼーションの編集
 
-ビジュアライゼーションを作成した後でも、元の設定を編集できます。
+ビジュアライゼーションを作成したら、元の設定を編集できます。
 
-1. ビジュアライゼーションの右上隅（設定の歯車アイコンの横）にある鉛筆アイコンをクリックします。
+1. ビジュアライゼーションの右上隅にある「![ 編集 ](/help/assets/icons/Edit.svg)」を選択します。
 
-   ![ビジュアライゼーション編集アイコン](assets/edit-icon.png)
 
-   元の設定ビューに戻ります。
+   元の [ 設定ビュー ](#configure) に戻ります。
 
-1. 必要に応じて、指標、プライマリ日付範囲、比較日付範囲またはフィルターを変更します。
+1. 必要に応じて、指標、プライマリ日付範囲、比較日付範囲またはセグメントを変更します。
 
 >[!MORELIKETHIS]
 >
