@@ -54,12 +54,12 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フォールアウトビジュアライゼーションのセグメントの比較 ](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ フォールアウトビジュアライゼーションのセグメントの比較 ](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-1. 比較するセグメントを左側の [!UICONTROL  セグメント ] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
+1. 比較するセグメントを左側の [!UICONTROL &#x200B; セグメント &#x200B;] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
 1. 3 つのセグメントをビジュアライゼーションの上部にあるセグメント ドロップゾーンにドラッグします。
 
    ![](assets/segment-compare.png)
