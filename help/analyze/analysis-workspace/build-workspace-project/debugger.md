@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: プロジェクトデバッガー
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -54,7 +55,7 @@ ht-degree: 3%
 
    * **[!UICONTROL 要求タイムスタンプ]**
    * **[!UICONTROL 応答タイムスタンプ]**
-   * **[!UICONTROL クエスト時間]**
+   * **[!UICONTROL リクエスト時間]**
    * **[!UICONTROL キュー時間]**
    * **[!UICONTROL サーバー処理時間]**
    * **[!UICONTROL 参照時間]**
@@ -74,7 +75,7 @@ ht-degree: 3%
    * JSON (レスポンス)
    * cURL リクエスト
 
-1. ![cURL リクエスト ](/help/assets/icons/Copy.svg) の下の [!UICONTROL &#x200B; コピー &#x200B;] **&#x200B;**&#x200B;[!UICONTROL クリップボードにコピー]&#x200B;**&#x200B;**&#x200B;d を使用して、リクエストをクリップボードにコピーします。
+1. ![cURL リクエスト ](/help/assets/icons/Copy.svg) の下の **[!UICONTROL コピー]****[!UICONTROL クリップボードにコピー]** を使用して、リクエストをクリップボードにコピーします。
 1. **[!UICONTROL リクエスト]** または **[!UICONTROL 応答]** テキスト領域にポインタを合わせて、表示する ![ コピー ](/help/assets/icons/Copy.svg) **[!UICONTROL クリップボードにコピー]** を選択して、そのテキスト領域の内容（XML または JSON）をクリップボードにコピーします。
 
 1. コピーした情報や、Adobe サポートからAnalysis Workspace プロジェクトのビジュアライゼーションのトラブルシューティングをリクエストされた情報を交換します。
@@ -95,6 +96,3 @@ ht-degree: 3%
 1. Analysis Workspace プロジェクトメニューから **[!UICONTROL ヘルプ]**/**[!UICONTROL デバッガーを無効にする]** を選択します。
 1. **[!UICONTROL デバッガーを無効にする]** ダイアログで **[!UICONTROL OK]** を選択します。
 1. ブラウザーからページまたはサイトのリロードを求められたら、確定します。
-
-
-
