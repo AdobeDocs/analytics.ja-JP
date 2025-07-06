@@ -101,12 +101,12 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 | セクション | 環境設定 | オプション |
 | --- | --- | --- |
 | **表示** | | |
-|  | [表示密度](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 左パネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らして、画面に表示するコンテンツの量を選択します。 <ul><li>コンパクト</li><li>快適</li><li>拡張（デフォルト）</li></ul> |
+|  | [表示密度](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | 左パネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らして、画面に表示するコンテンツの量を選択します。 <ul><li>コンパクト</li><li>快適</li><li>拡張（デフォルト）</li></ul> |
 | | [カラーパレット](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Analysis Workspace で使用するビジュアライゼーションのカラーパレットを選択します。<ul><li>**カテゴリ順パレット**：Analysis Workspace の多くのビジュアライゼーションに適用されます。各カラーは、個別のカテゴリ値を表します。アドビが提供するオプションから選択するか、コンマ区切りの 16 進値で定義されたカスタムパレットを入力します。</li><li>**分岐パレット**：Analysis Workspace のコホートテーブルに適用されます。このパレットは、2 つの極値と中央のベースラインによる数値の意味を保持します。</li><li>**順次パレット**：頻度トレンド（積み重ね棒グラフ）のガイド付き分析に適用されます。このパレットは、明るいカラーから暗いカラーまでの数値の意味を保持します。</li></ul> |
 | **データ** | | |
-|  | [レポートスイート](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | テーブルとビジュアライゼーションがデータを導き出す場所を選択します。 <ul><li>最新（デフォルト）</li><li>リストから選択された特定のレポートスイート</li></ul> |
-|  | [カレンダー](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | 次のリストから選択します。 <ul><li>アドビが指定する範囲（デフォルトは今月）</li><li>カスタム定義範囲</li></ul> |
-|  | [パネルタイプ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>フリーフォーム（デフォルト）</li><li>空白</li><li>クイックインサイト</li></ul> |
+|  | [レポートスイート](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/panels) | テーブルとビジュアライゼーションがデータを導き出す場所を選択します。 <ul><li>最新（デフォルト）</li><li>リストから選択された特定のレポートスイート</li></ul> |
+|  | [カレンダー](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/panels) | 次のリストから選択します。 <ul><li>アドビが指定する範囲（デフォルトは今月）</li><li>カスタム定義範囲</li></ul> |
+|  | [パネルタイプ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>フリーフォーム（デフォルト）</li><li>空白</li><li>クイックインサイト</li></ul> |
 |  | 繰り返しインスタンスのカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。オフになっている場合は、単一ページビューとしてカウントされます。 <p>**メモ：** この設定は、特定の指標（単一ページ訪問数など）にのみ影響し、フロービジュアライゼーションやフォールアウトビジュアライゼーションには適用されません。</p> |
 |  | 数値の形式 | <ul><li>1,000.00（デフォルト）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 区切り記号 | <ul><li>コンマ（デフォルト）</li><li>セミコロン</li><li>コロン</li><li>パイプ</li><li>ピリオド</li><li>空白文字</li><li>タブ</li></ul> |
