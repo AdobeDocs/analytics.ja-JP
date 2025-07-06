@@ -1,16 +1,16 @@
 ---
-description: セグメントビルダーのキャンバスに指標ディメンション、セグメントおよびイベントをドラッグ＆ドロップすると、コンテナ階層の論理、ルールおよび演算子に基づいて訪問者がセグメント化されます。この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
-title: セグメントの作成
+description: 指標、ディメンション、セグメントおよびイベントのドラッグ&ドロップを使用したセグメントの作成方法を説明します。 訪問およびページヒットをまたいで訪問者の属性とアクションを特定する、単純または複雑なセグメントを作成および保存する方法を説明します。
+title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '2152'
-ht-degree: 100%
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 81%
 
 ---
 
-# セグメントビルダー {#segment-builder}
+# セグメントの作成 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="データのプレビュー"
->abstract="このセグメントのデータとデータビューのデータを比較します。プレビューの割合は、**過去 90 日間**&#x200B;のデータビューの合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
+>abstract="このセグメントのデータをレポートスイートのデータと比較します。 プレビューの割合は、**過去 90 日間** の合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
 
 
 **[!UICONTROL セグメントビルダー]**&#x200B;ダイアログは、新しいセグメントの作成または既存のセグメントの編集に使用します。ダイアログのタイトルは、[[!UICONTROL セグメント]マネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)から作成または管理するセグメントの場合、**[!UICONTROL 新しいセグメント]**&#x200B;または&#x200B;**[!UICONTROL セグメントを編集]**&#x200B;になります。
@@ -47,7 +47,7 @@ ht-degree: 100%
    | 要素 | 説明 |
    | --- | --- |
    | **[!UICONTROL レポートスイート]** | セグメントのレポートスイートを選択できます。 |
-   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトにのみ表示され、セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。この設定を変更するには、**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**&#x200B;を有効にします。この情報ボックスは、[クイックセグメント](seg-quick.md)を作成し、[!UICONTROL クイックセグメント]インターフェイスから&#x200B;**[!UICONTROL ビルダーを開く]**&#x200B;を使用してクイックセグメント情報を通常のセグメントに変換した場合にのみ表示されます。 |
+   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトでのみ表示されることを説明する情報ボックスです。 セグメントがコンポーネントリストに追加されないこと。 この設定を変更するには、**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**&#x200B;を有効にします。この情報ボックスは、[クイックセグメント](seg-quick.md)を作成し、[!UICONTROL クイックセグメント]インターフェイスから&#x200B;**[!UICONTROL ビルダーを開く]**&#x200B;を使用してクイックセグメント情報を通常のセグメントに変換した場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | セグメントに名前を付けます（例：`Last month mobile visitors`）。 |
    | **[!UICONTROL 説明]** | セグメントに説明を付けます（例：`Segment to define the mobile customers for the last month`）。 |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、セグメントを整理します。入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
@@ -170,7 +170,7 @@ ht-degree: 100%
 
 
 
-セグメントビルダーでディメンションを使用する際、このディメンションのアトリビューションモデルを指定するオプションがあります。選択したアトリビューションモデルによって、ディメンションコンポーネントに指定した条件に対して選定されるデータが決まります。
+セグメントビルダーでディメンションを使用する際、このディメンションのアトリビューションモデルを指定するオプションがあります。選択した属性モデルによって、データがディメンションコンポーネントに指定した条件に該当するかどうかが決まります。
 
 ディメンションコンポーネント内で ![設定](/help/assets/icons/Setting.svg) を選択し、ポップアップからアトリビューションモデルのいずれかを選択します。
 
@@ -185,7 +185,7 @@ ht-degree: 100%
 
 ### 例
 
-セグメント定義の一部として、条件「ページ名が女性に等しい」を指定しました。上記の例と同様です。他の 2 つのアトリビューションモデルを使用して、このセグメント定義を繰り返します。したがって、それぞれ独自のアトリビューションモデルを持つ 3 つのセグメントがあることになります。
+セグメント定義の一部として、条件「ページ名が女性に等しい」を指定しました。上記の例と同様です。他の 2 つのアトリビューションモデルを使用して、このセグメント定義を繰り返します。したがって、3 つのセグメントがあり、それぞれに独自のアトリビューションモデルがあります。
 
 * 女性ページ - アトリビューション - 繰り返し（デフォルト）
 * 女性ページ - アトリビューション - インスタンス
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## セグメントテンプレート {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-セグメントテンプレートは、「初回訪問」や「モバイルデバイスからの訪問」など、一般的なセグメントの使用例に対して提供されます。これらは、Workspace プロジェクトおよびセグメントビルダーで、新しいセグメントの構成要素として使用できます。
+セグメントテンプレートは、**[!UICONTROL 初回訪問]** または **[!UICONTROL モバイルデバイスからの訪問]** などの、一般的なセグメント化のユースケースに対して提供されます。 これらは、Workspace プロジェクトおよびセグメントビルダーで、新しいセグメントの構成要素として使用できます。
 
-テンプレートは、アドビの「A」ロゴで示されます。次に、テンプレートの例を示します。
+Adobe ロゴ ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) は、テンプレートを識別します。 使用可能なテンプレートのサンプルを以下に示します。
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,79 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
  <tbody> 
   <tr> 
    <td colname="col1"> 買い物かごを放棄 </td> 
-   <td colname="col2">商品を買い物かごに追加したが、何も注文しなかった訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。この順次セグメントのルールは <p> 「買い物かごへの追加数が null でない </p> <p>その場合 </p> <p>注文数が 0 に等しい」です。 </p> </td> 
+   <td colname="col2">商品を買い物かごに追加したが、何も注文しなかった訪問者のデータを表示します。セグメント定義では、コンテナは「訪問」です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 初回訪問回数 </td> 
-   <td colname="col2">最大 1 回訪問した訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>訪問回数が 1 と等しい </p> </td> 
+   <td colname="col2">最大 1 回訪問した訪問者のデータを表示します。セグメント定義では、コンテナは「訪問」です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購入者 </td> 
-   <td colname="col2">注文イベントに参加しなかった訪問者のデータを表示します。セグメント定義のコンテナは「訪問者」です。このセグメントでは除外ロジックを使用します。ルールは <p>「注文数が null でない」です。 </p> </td> 
+   <td colname="col2">注文イベントに参加していない訪問者のデータを表示します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 非直帰数（非バウンス） </td> 
-   <td colname="col2">複数のページを訪問した訪問者のデータを表示します。セグメント定義のコンテナは「訪問者」です。このセグメントでは除外ロジックを使用します。ルールは <p>「単一アクセスが null でない」です。 </p> </td> 
+   <td colname="col1"> 非単一ページ訪問（非バウンス） </td> 
+   <td colname="col2">2 回以上訪問した訪問者のデータを表示します。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 有料検索 </td> 
-   <td colname="col2">有料検索から訪問した訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「有料検索が 1」です。 </p> </td> 
+   <td colname="col2">有料検索で取得した訪問者のデータを表示します。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 購入者 </td> 
-   <td colname="col2">注文イベントを発生させた訪問者のデータを表示します。セグメント定義のコンテナは「訪問者」です。ルールは <p>「注文数が null でない」です。 </p> </td> 
+   <td colname="col2">注文イベントに参加した訪問者のデータを表示します。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 再来訪 </td> 
-   <td colname="col2">少なくとも 1 回訪問した訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「訪問回数が 1 より大きい」です。 </p> </td> 
+   <td colname="col2">少なくとも 1 回は訪問した訪問者からのデータの表示。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 単一ページ訪問数 </td> 
-   <td colname="col2"> 訪問時に複数のページビューを送信していても、単一のページ値を表示する訪問のデータを表示します。離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。セグメント定義のコンテナは「訪問」です。ルールは <p>単一ページ訪問が 1 です。 </p> </td> 
+   <td colname="col2"> 訪問時に複数のページビューを送信していても、単一のページ値を表示する訪問のデータを表示します。離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 閲覧された製品が買い物かごに追加されなかった </td> 
-   <td colname="col2">製品を閲覧したが、買い物かごに追加しなかった訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。この順次セグメントのルールは <p>「製品表示が null でない </p> <p>その場合 </p> <p> 買い物かごへの追加数が 0 に等しい」です。 </p> </td> 
+   <td colname="col2">製品を表示したが、買い物かごへの追加がなかった訪問者のデータを表示します。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> キャンペーンからの訪問回数 </td> 
-   <td colname="col2">キャンペーンから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「トラッキングコードが null でない」です。 </p> </td> 
+   <td colname="col2">キャンペーンによって参照された訪問者からのデータを表示します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> モバイルデバイスからの訪問 </td> 
-   <td colname="col2">モバイルデバイスを使用している訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>モバイルデバイスが null ではない。 </p> </td> 
+   <td colname="col2">モバイルデバイスを使用した訪問者からのデータの表示。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 自然検索からの訪問 </td> 
-   <td colname="col2">有料検索から訪問していない訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「有料検索が 0」です。 </p> </td> 
+   <td colname="col2">有料検索以外の訪問者からのデータを表示します。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> モバイルデバイス以外からの訪問回数 </td> 
-   <td colname="col2">モバイルデバイスを使用していない訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。このセグメントでは除外ロジックを使用します。ルールは <p>「モバイルデバイスタイプが携帯電話に等しい」 </p> <p>Or </p> <p>「モバイルデバイスタイプがタブレットに等しい」です。 </p> </td> 
+   <td colname="col2">モバイルデバイスを使用していない訪問者からのデータの表示。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 電話からの訪問回数 </td> 
-   <td colname="col2">電話を使用している訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「デバイスタイプが携帯電話に等しい」です。 </p> </td> 
+   <td colname="col2">電話を使用して、訪問者からのデータを表示します。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 検索エンジンからの訪問回数 </td> 
-   <td colname="col2">検索エンジンから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「リファラータイプが検索エンジンに等しい」です。 </p> </td> 
+   <td colname="col2">検索エンジンから参照された訪問者からのデータを表示します。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> ソーシャルサイトからの訪問件数 </td> 
-   <td colname="col2">ソーシャルサイトから参照された訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「リファラータイプがソーシャルネットワークに等しい」です。 </p> </td> 
+   <td colname="col2">ソーシャルサイトから参照された訪問者からのデータを表示します。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> タブレットからの訪問回数 </td> 
-   <td colname="col2">タブレットを使用している訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>「デバイスタイプがタブレットに等しい」です。 </p> </td> 
+   <td colname="col2">タブレットを使用して訪問者からのデータを表示します。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 訪問者 ID cookie を使用した訪問 </td> 
-   <td colname="col2">持続的 cookie が必要なサイトへの訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。ルールは <p>永続的な Cookie が 1 に等しい。 </p> </td> 
+   <td colname="col2">永続的な cookie が必要な場合は、サイトへの訪問者からデータを表示します。</td> 
   </tr> 
  </tbody> 
 </table>
+
+各セグメントの定義を表示するには、![InfoOutline](/help/assets/icons/InfoOutline.svg) を使用します。 例えば、**[!UICONTROL iOS]** テンプレートの場合：
+
+![Adobe テンプレートセグメントの定義 ](assets/adobe-template-definition.png)
