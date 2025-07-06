@@ -4,17 +4,17 @@ keywords: セグメント化：セグメント
 title: セグメントコンテナ
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # セグメントコンテナ
 
-セグメントは、訪問者をその属性やサイトでのインタラクションに基づいて選別するフィルター条件を設定します。セグメントに条件を設定するには、訪問者をその特性やナビゲーションの特徴に基づいて選別するフィルタールールを設定します。訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。セグメントビルダーは、これらのサブセットを作成し、ネストされた階層的な訪問者、訪問またはヒット コンテナとしてルールを適用するためのシンプルなアーキテクチャを提供します。
+セグメントは、訪問者の属性やサイトとのインタラクションに基づいて訪問者をフィルタリングするための条件を設定します。 セグメントに条件を設定するには、訪問者をその特性やナビゲーションの特徴に基づいて選別するフィルタールールを設定します。訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。セグメントビルダーは、これらのサブセットを作成し、ネストされた階層的な訪問者、訪問またはヒット コンテナとしてルールを適用するためのシンプルなアーキテクチャを提供します。
 
 [ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) で使用されるコンテナアーキテクチャによって、次が定義されます。
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,12 @@
 ---
-title: セグメントのベストプラクティス
-description: データを効率的に返す最適なセグメントを作成します。
+title: ベストプラクティス
+description: セグメント化のベストプラクティスを説明します。
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 62%
+source-wordcount: '303'
+ht-degree: 60%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 62%
 
 ## `Contains` 演算子は最後の手段としてのみ使用してください
 
-[**[!UICONTROL Contains &#x200B;]**&#x200B;演算子 ](/help/components/segmentation/seg-reference/seg-operators.md) は、すべての値のコンテンツ全体を分析する必要があるので、セグメント化で最も処理の負荷が高い機能の 1 つです。 必要な値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B; 次で始まる &#x200B;]**&#x200B;または&#x200B;**[!UICONTROL &#x200B; 次で終わる &#x200B;]**&#x200B;などの他の演算子の使用を検討してください。
+[**[!UICONTROL Contains ]**演算子 ](/help/components/segmentation/seg-reference/seg-operators.md) は、すべての値のコンテンツ全体を分析する必要があるので、セグメント化で最も処理の負荷が高い機能の 1 つです。 必要な値が文字列の先頭または末尾にある場合は、**[!UICONTROL  次で始まる ]**または**[!UICONTROL  次で終わる ]**などの他の演算子の使用を検討してください。
 
-セグメント内の **[!UICONTROL Contains]** 演算子が多数の結果を返した場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL リファラー]**&#x200B;**[!UICONTROL 次に等しい]**`"."` のセグメントを作成した場合、セグメントはすべての値のコンテンツを検索します。 代わりに、**[!UICONTROL Exists]** 演算子の使用を検討してください。
+セグメント内の **[!UICONTROL Contains]** 演算子が多数の結果を返した場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL リファラー]****[!UICONTROL 次に等しい]**`"."` のセグメントを作成した場合、セグメントはすべての値のコンテンツを検索します。 代わりに、**[!UICONTROL Exists]** 演算子の使用を検討してください。
 
 ## 分類を使用してディメンション項目をグループ化する
 

@@ -1,12 +1,12 @@
 ---
 description: Analysis Workspace プロジェクトからデータをダウンロードするための様々な方法について説明します。
-title: Analysis Workspace プロジェクトおよびデータのダウンロード
+title: プロジェクトとデータのダウンロード
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1064'
 ht-degree: 27%
 
 ---
@@ -39,13 +39,13 @@ Adobe Analytics データをエクスポートするその他の方法につい�
 1. **[!UICONTROL プロジェクト]**/**[!UICONTROL PDFをダウンロード]** を選択します。
 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Your download has been requested. お待ちください。]** が表示されます。
 
-1. ダウンロードの準備が整うとすぐに、メッセージ ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL *プロジェクト名 *を含む緑色のバーがPDFの準備が整います。]**&#x200B;が表示されます。
+1. ダウンロードの準備が整うとすぐに、メッセージ ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL *プロジェクト名 *を含む緑色のバーがPDFの準備が整います。]**が表示されます。
 「**[!UICONTROL ダウンロード]**」を選択して、PDFをダウンロードします。 PDFの表示方法やダウンロード方法は、PDF ドキュメントを処理するためのブラウザー設定によって異なります。
 
 
 プロジェクトを CSV ファイルとしてダウンロードするには：
 
-* **[!UICONTROL プロジェクト]**/**[!UICONTROL CSV をダウンロード]** を選択します。 プロジェクトは、ブラウザー設定の一部として設定されたダウンロードフォルダーに直接ダウンロードされます。 ファイル名は、例えば `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv` のように *プロジェクト名* - *レポートスイート名* - *日付* で構成されます。
+* **[!UICONTROL プロジェクト]**/**[!UICONTROL CSV をダウンロード]** を選択します。 プロジェクトは、ブラウザー設定の一部として設定されたダウンロードフォルダーに直接ダウンロードされます。 ファイル名は、例えば *のように* プロジェクト名 *-* レポートスイート名 *-* 日付 `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv` で構成されます。
 
 ## クリップボードにコピー {#copy-data}
 
@@ -108,8 +108,8 @@ Adobe Analytics データをエクスポートするその他の方法につい�
 
 ファイルがダウンロードされると、次の通知が表示されます。
 
-* 青い **[!UICONTROL _テーブル名 _-_Dimension _.csv がリクエストされています。_x _% 完了]**&#x200B;進行状況を示します。 ダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、「![CrossSize100](/help/assets/icons/CrossSize100.svg)」を選択します。この場合、ダウンロードはキャンセルされません。
-* 緑色の **[!UICONTROL _テーブル名 _-_Dimension _.csv がダウンロードされました]**&#x200B;ファイルのダウンロードが完了すると、完了通知が表示されます。 ファイルがブラウザーに設定されたダウンロードフォルダーにダウンロードされます。
+* 青い **[!UICONTROL _テーブル名 _-_Dimension _.csv がリクエストされています。_x _% 完了]**進行状況を示します。 ダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、「![CrossSize100](/help/assets/icons/CrossSize100.svg)」を選択します。この場合、ダウンロードはキャンセルされません。
+* 緑色の **[!UICONTROL _テーブル名 _-_Dimension _.csv がダウンロードされました]**ファイルのダウンロードが完了すると、完了通知が表示されます。 ファイルがブラウザーに設定されたダウンロードフォルダーにダウンロードされます。
 
 一度に複数のダウンロードをリクエストすると、前のダウンロードが完了するまで、追加の各ダウンロードはキューに入れられるという通知が届きます。
 
@@ -228,6 +228,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

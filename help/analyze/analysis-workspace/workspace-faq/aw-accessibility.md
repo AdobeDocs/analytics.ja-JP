@@ -4,10 +4,10 @@ title: Analysis Workspaceのアクセシビリティ
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 70d87e62441f8d5c3c6041721353a07432fef912
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '546'
+ht-degree: 91%
 
 ---
 
@@ -55,7 +55,7 @@ Customer Journey Analytics の主要な分析ツールである [!UICONTROL Anal
 
 ### キーボードショートカット（ホットキー）
 
-[!UICONTROL Analysis Workspace] は、シームレスなワークフローを実現する豊富な[キーボードショートカット](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)のセットを備えています。
+[!UICONTROL Analysis Workspace] には、よりシームレスなワークフローを実現するための豊富な [ キーボードショートカット（ホットキー） ](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) が用意されています。
 
 ## スクリーンリーダーとスクリーン拡大鏡のサポート
 
@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
 
 #### Navigation
 
@@ -160,7 +160,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html). 
 
 ## Required field validation in component builders 
 

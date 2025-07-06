@@ -1,17 +1,17 @@
 ---
-description: Adobe Analytics では、Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要な閲覧者セグメントを構築、管理、共有し、レポートに適用できます。
+description: Adobe Analyticsで Analytics 機能、Adobe Experience Cloud、Adobe Targetおよびその他の統合Adobe製品を使用して、焦点を当てた強力なオーディエンスセグメントを作成、管理、共有し、レポートに適用する方法を説明します。
 keywords: セグメント化：セグメント
-title: Analytics のセグメント化
+title: セグメント化の概要
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 80%
 
 ---
 
-# Analytics のセグメント化
+# セグメント化の概要
 
 Adobe Analytics では、Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要な閲覧者セグメントを構築、管理、共有し、レポートに適用できます。
 

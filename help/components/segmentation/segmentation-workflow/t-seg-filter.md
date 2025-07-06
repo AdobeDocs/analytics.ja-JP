@@ -1,22 +1,22 @@
 ---
-description: タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。
+description: タグ、所有者、その他のフィルターでセグメントをフィルタリングする方法を説明します。
 title: セグメントのフィルタリング
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 
-# セグメントのリストのフィルタリング
+# セグメントリストのフィルタリング
 
 セグメントのリストをフィルタリングできます。 セグメントにフィルターを使用すると、使用可能なセグメントを簡単に見つけたり、[ セグメントマネージャー ](seg-manage.md) からセグメントを管理したりできます。
 
 >[!NOTE]
 >
->セグメントのリストでは、[ セグメントマネージャー ](seg-manage.md#filters-list) の一部として [ セグメントリスト ](seg-manage.md) を参照しています。 ![ フィルター ](/help/assets/icons/Filter.svg) [ フィルターパネル ](seg-manage.md#filter-panel) を使用して、そのリストをフィルタリングできます。これは、同じ [ セグメントマネージャー ](seg-manage.md) の一部です。
+>セグメントのリストでは、[ セグメントマネージャー ](seg-manage.md#filters-list) の一部として [ セグメントリスト ](seg-manage.md) を参照しています。 ![ フィルター ](/help/assets/icons/Filter.svg)[ フィルターパネル ](seg-manage.md#filter-panel) を使用して、そのリストをフィルタリングできます。これは、同じ [ セグメントマネージャー ](seg-manage.md) の一部です。
 >
 
 

@@ -1,12 +1,12 @@
 ---
-description: タグ、レポートスイート、所有者、その他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。
+description: タグ、レポートスイート、所有者、その他のフィルターで計算指標をフィルタリングする方法を説明します。
 title: 計算指標のリストのフィルタリング
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 

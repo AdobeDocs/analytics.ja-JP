@@ -1,12 +1,12 @@
 ---
-description: フィルター適用済み指標と重み付け指標の例を示します。
+description: フィルター適用済み指標と重み付け指標の例について説明します。
 title: フィルター適用済み指標と重み付け指標
 feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 71%
+source-wordcount: '158'
+ht-degree: 63%
 
 ---
 

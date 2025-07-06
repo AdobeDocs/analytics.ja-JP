@@ -1,13 +1,13 @@
 ---
 title: 高度な関数
-description: これらの関数にアクセスするには、関数ドロップダウンリストの「詳細を表示」を選択します。
+description: 高度な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: ht
-source-wordcount: '5026'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '5020'
+ht-degree: 99%
 
 ---
 

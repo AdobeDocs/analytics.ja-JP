@@ -1,12 +1,12 @@
 ---
-description: セグメントマネージャー内で、ワークフローを設定できます。このワークフローには、様々なアプリケーションレベル、特定の部門またはグループのセグメントを承認する処理、レポートポリシーと一致する処理が含まれます。
+description: 管理者としてセグメントを承認する方法を説明します。
 title: セグメントの承認
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 1%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 2%
 1. アクションバーの「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL Unapprove]**」を選択します。
 
 
-セグメントリストを承認済みセグメントでセグメント化できます。 **[!UICONTROL セグメント]**&#x200B;**セグメント ![ パネルから ](/help/assets/icons/Filter.svg) その他のセグメント** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ セグメントリストのセグメント化 ](t-seg-filter.md) を参照してください。
+セグメントリストを承認済みセグメントでセグメント化できます。 **[!UICONTROL セグメント]**![ セグメント ](/help/assets/icons/Filter.svg) パネルから **[!UICONTROL その他のセグメント]** を選択し、「**[!UICONTROL 承認済み]**」を選択します。 詳しくは、[ セグメントのリストのフィルタリング ](t-seg-filter.md) を参照してください。

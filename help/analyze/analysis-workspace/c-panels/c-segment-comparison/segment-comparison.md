@@ -1,14 +1,14 @@
 ---
 title: セグメント比較パネルの概要
-description: Analysis Workspaceのセグメント比較パネルの使用方法を説明します。
+description: セグメント比較パネルを使用して、Analysis Workspaceのセグメントを比較する方法を説明します。
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 64%
+source-wordcount: '588'
+ht-degree: 63%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
-セグメント比較パネルでは、無数のセグメント間の統計的に最も有意な差異を見つけることができます。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。会社の KPI を推進するオーディエンスセグメントの主な特徴を自動的に明らかにし、セグメントの重複を確認できます。
+セグメント比較パネルでは、無数のセグメント間の統計的に最も有意な差異を見つけることができます。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。比較では、会社の KPI を推進しているオーディエンスセグメントの主な特性が自動的に明らかになり、セグメントの重複がどれくらい見えるかを確認できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/37627?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

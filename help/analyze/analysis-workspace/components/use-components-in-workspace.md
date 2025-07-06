@@ -1,10 +1,10 @@
 ---
 description: Analysis Workspaceのプロジェクトでコンポーネントを使用する方法を説明します
-title: Analysis Workspaceのコンポーネントの使用
+title: プロジェクトでのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%

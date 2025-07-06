@@ -3,10 +3,10 @@ title: アトリビューションのベストプラクティス
 description: 使用するアトリビューションモデルを決定するためのベストプラクティスを理解します。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 ### 上位ファネル分析
 
-上位ファネル分析は、ブランドや製品の認知度の作成に使用されるチャネルを分析します。例えば、ほとんどのテレビ広告の目標はブランド認知度の向上です。時間の経過と共にテレビ広告は忘れられてしまうので、 [「タイムディケイ」アトリビューションモデル](/help/analyze/analysis-workspace/attribution/models.md) を使用することもできます。
+上位ファネル分析は、ブランドや製品の認知度の作成に使用されるチャネルを分析します。例えば、ほとんどのテレビ広告の目標はブランド認知度の向上です。ユーザーは時間の経過と共にテレビ広告を忘れてしまうので、[ タイムディケイ アトリビューションモデル ](/help/analyze/analysis-workspace/attribution/models.md) を使用することができます。
 
 ### 下部ファネル分析
 
@@ -47,13 +47,13 @@ ht-degree: 74%
 
 「*ファーストタッチチャネルは、ラストタッチチャネルよりもコンバージョンに大きな影響を与える*」という仮説を仮定します。
 
-この場合、[ 逆 J字型」アトリビューションモデルを使用して ](/help/analyze/analysis-workspace/attribution/models.md) この仮説をテストします。 このモデルでは、ファーストタッチポイントに対するクレジットの 60% が与えられます。
+この場合、[ 逆 J字型アトリビューションモデル ](/help/analyze/analysis-workspace/attribution/models.md) を使用して、この仮説をテストします。 このモデルでは、ファーストタッチポイントに対するクレジットの 60% が与えられます。
 
 **例 2**
 
 *「特定の業界（旅行業など）では、顧客が商品を購入する前に多くの調査を行うので、アトリビューションウィンドウは 30 日ではなく 60 日か 90 日です。*」という仮説を仮定します。
 
-この場合、[ルックバックウィンドウ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/attribution/models)を 90 日に変更します。
+この場合、[ルックバックウィンドウ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)を 90 日に変更します。
 
 ## アルゴリズムアトリビューションの使用
 
@@ -63,4 +63,4 @@ ht-degree: 74%
 
 * Analysis Workspace だけに依存するのではなく、データサイエンティストのサービスを使用する必要性が生じる場合があります。
 * Adobe データフィードのように、生データを使用できます。
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討します。例えば、インプレッションデータを検討する場合などに有効です。
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討してください。例えば、インプレッションデータを検討する場合などに有効です。

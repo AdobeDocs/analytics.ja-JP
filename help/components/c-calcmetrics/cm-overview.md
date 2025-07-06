@@ -1,13 +1,13 @@
 ---
-description: 計算指標および高度な計算指標は、既存の指標から作成できるカスタム指標です。
-keywords: 計算指標;高度な計算指標
-title: 計算指標および高度な計算指標
+description: 既存の指標から作成できる計算指標について説明します。
+keywords: 計算指標
+title: 計算指標の概要
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 計算指標は、既存の指標から作成できるカスタム指標です。
 
-計算指標ツールを使用すると、指標を極めて柔軟に作成、管理およびキュレートできます。計算指標を使用すると、マーケター、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。
+計算指標は、既存の指標から作成できるカスタム指標です。計算指標では、実装を変更せずにデータを分析できるカスタム指標の作成、管理およびキュレーションを行う柔軟な方法を提供します。
 
 計算指標は各 [!DNL Analytics] パッケージで使用できますが、Experience Cloud の Adobe Analytics Foundation パックは、[形式タイプ （小数、時間、%、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)、[配分の変化（デフォルト、線形、パーティシペーションなど。）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、[指標タイプ（標準、合計）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)および[基本的な演算子](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators)（加算、減算、乗算、除算）を含む、基本的な計算指標に制限されます。
 
@@ -59,13 +59,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/37946?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/37945?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントのセグメント化計算指標](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

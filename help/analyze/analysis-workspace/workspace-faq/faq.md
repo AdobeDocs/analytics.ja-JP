@@ -1,13 +1,13 @@
 ---
-description: Workspace に関する FAQ
+description: Analysis Workspaceに関するよくある質問への回答を示します。
 title: よくある質問
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データは Analysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/34729?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}を参照してください。
 
 +++
 

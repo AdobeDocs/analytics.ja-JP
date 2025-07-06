@@ -1,17 +1,17 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限事項について説明します。
-title: Analysis Workspaceの既知の制限事項
+title: 既知の制限事項
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
-# Analysis Workspace の既知の制限
+# 既知の制限事項
 
 次に、Analysis Workspace とその関連コンポーネントに関する既知の制限を示します。
 
@@ -76,7 +76,7 @@ Here is a list of known limitations in Analysis Workspace and its related compon
 ## Components > Segments
 
 * Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) are a type of quick filter. They do not appear in the left rail of Workspace or the Segment component manager unless they are made public. For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Adhoc segments created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are a type of quick filter. They do not appear in the left rail of Workspace or the Segment component manager unless they are made public. For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Components > Calculated Metrics
 

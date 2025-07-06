@@ -1,12 +1,12 @@
 ---
-description: 詳細
+description: 指標タイプとアトリビューションについて説明します。
 title: 指標タイプとアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 

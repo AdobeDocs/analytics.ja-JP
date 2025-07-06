@@ -1,16 +1,16 @@
 ---
-description: 計算指標マネージャでは、セグメントにタグを付けて管理できます。
+description: 計算指標をタグ付けして、計算指標を整理する方法を説明します。
 title: 計算指標のタグ付け
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
-# 計算指標のタグ付け
+# 計算指標をタグ付け
 
 
 [ 計算指標マネージャー ](cm-manager.md) では、タグを使用して計算指標を整理できます。 管理者は、すべての計算指標にタグを付けることができます。 管理者以外のユーザーは、自分が作成または共有された計算指標にのみタグ付けできます。
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 1. 「**[!UICONTROL 保存]**」を選択して、計算指標のタグを保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-保存すると、タグは、[!UICONTROL &#x200B; 計算指標ビルダー &#x200B;] で選択した計算指標の [ タグ ](cm-tagging.md) フィールドにリストされます。
+保存すると、タグは、[!UICONTROL  計算指標ビルダー ] で選択した計算指標の [ タグ ](cm-tagging.md) フィールドにリストされます。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.

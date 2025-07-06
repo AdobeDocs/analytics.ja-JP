@@ -1,12 +1,12 @@
 ---
-description: 権限に応じて、セグメントを組織全体、グループまたは個々のユーザーと共有できます。
-title: セグメントの共有
+description: 組織全体、グループまたは個々のユーザーとセグメントを共有する方法について説明します。
+title: セグメントを共有
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 61%
+source-wordcount: '424'
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 61%
 * 管理者として、セグメントが特定のチームに対して適切なビジネス価値を提供すると判断される場合は、セグメントを特定の&#x200B;**[!UICONTROL グループ]**&#x200B;と共有します。このようなセグメントは正式に承認しないでください。
 * 管理者または個人ユーザーとして、セグメントを他の個人ユーザーと共有し、セグメントを綿密に調べて確認します。役に立たないと判断される場合は破棄できます。このようなセグメントは正式に承認しないでください。
 
-1. セグメントマネージャーで、共有するセグメントの横にあるチェックボックス ![&#128279;](/help/assets/icons/SelectBox.svg)SelectBox を選択します。
+1. セグメントマネージャーで、共有するセグメントの横にあるチェックボックス ![SelectBox](/help/assets/icons/SelectBox.svg) を選択します。
 1. 「![ 共有 ](/help/assets/icons/Share.svg) 共有」を選択します。
 1. **[!UICONTROL セグメントを共有]** ダイアログで、次の手順を実行します。
 

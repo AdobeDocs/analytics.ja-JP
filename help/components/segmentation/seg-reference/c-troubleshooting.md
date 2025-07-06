@@ -1,16 +1,18 @@
 ---
-description: セグメントに関する問題のトラブルシューティングと修正をおこないます。
-title: セグメント化のトラブルシューティング
+description: セグメントに関連する問題のトラブルシューティングおよび修正方法を説明します。
+title: トラブルシューティング
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# セグメント化のトラブルシューティング
+# トラブルシューティング
+
+この記事では、セグメントに関するよくある問題と、そのトラブルシューティング方法について説明します。
 
 <!-- Looks like this is not part anymore of the current UI.
 

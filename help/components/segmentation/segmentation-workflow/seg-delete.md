@@ -1,12 +1,12 @@
 ---
-description: セグメントを削除する前に検討する必要があるいくつかの事項を示します。
-title: セグメントの削除
+description: セグメントを削除する前に認識しておく必要がある考慮事項を理解します。
+title: セグメントを削除
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 39%
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,18 @@ ht-degree: 39%
 
 セグメントを削除する場合：
 
-* このセグメントが適用された予定レポートおよびダッシュボードは、引き続き正常に機能します。 例えば、セグメントやダッシュボードは、削除されたセグメントを引き続き使用します。
-* 同じ名前を持つセグメントを編集しても、配信レポートは更新されません。次に例を示します。異なるレポートスイートに同じ名前のセグメントが 2 つあるとします。
+* このセグメントが適用された予定レポートおよびダッシュボードは、引き続き正常に機能します。
+* スケジュール済みレポートは、同じ名前でセグメントを編集しても更新されません。
 
-  | セグメント名 | レポートスイート |
+<!--
+
+For example: Assume you have 2 segments with the same name in different report suites:
+
+  | Segment name | Report suite |
   |---|---|
-  | カリフォルニア州からの訪問件数 | mainprod |
-  | カリフォルニア州からの訪問件数 | maindev |
+  | Visits from California | mainprod |
+  | Visits from California | maindev |
 
-  [!UICONTROL mainprod] レポートスイートのセグメントを参照するブックマークがあります。 次に、セグメントが重複しているので、そのセグメントを削除します。 その後も、このブックマークは引き続き、削除されたセグメントの定義を参照します。ここで残っている方のセグメントのセグメント定義に手を加え、カタリナ島とメキシコのティフアナを含めるように変更しても、このブックマークに適用されているセグメントは変更されません。セグメントでは、古い定義が使用されます。 これを修正するには、新しい定義を参照するようにブックマークを更新します。ブックマーク、ダッシュボード、スケジュール済みレポートで、削除されたセグメントが使用されているかどうかわからない場合は、残りのセグメントの名前を変更して、ブックマークが残りのセグメントを使用しているかどうかを示すことができます。
+  You have a visualization that references the segment for the **[!UICONTROL mainprod]** report suite. Then you delete that segment because the segment is a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the remaining segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. The segment will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment to indicate whether the bookmark is using the remaining segment.
+
+-->

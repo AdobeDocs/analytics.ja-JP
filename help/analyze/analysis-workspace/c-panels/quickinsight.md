@@ -1,13 +1,13 @@
 ---
-description: クイックインサイトパネルを使用して、Analysis Workspaceでデータテーブルとビジュアライゼーションを作成する方法を説明します。
+description: クイックインサイトパネルを使用して、Analysis Workspaceでのフリーフォームテーブルおよびビジュアライゼーションの作成をガイドする方法を説明します。
 title: クイックインサイトパネル
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[クイックインサイトパネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[クイックインサイトパネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -38,9 +38,9 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 * インサイトを促進できるディメンションと指標は何か。
 * アイテムをドラッグ＆ドロップする場所はどこか。
 * どこにフィルターを作成するか。
-* その他の機能。
+* その他の機能
 
-これらの疑問に答えるために、[!UICONTROL クイックインサイト]は、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
+これらの質問に役立つように、[!UICONTROL  クイックインサイト ] では、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
 ![クイックインサイトパネル。](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 |---|---|
 | **[!UICONTROL ディメンション]** | ディメンションは、プロジェクトで表示、分類、比較できる指標データの説明または特性です。ディメンションは、ディメンション項目に分類される数以外の値および日付です。例えば、*ブラウザー*&#x200B;や&#x200B;*ページ*&#x200B;はディメンションです。 |
 | **[!UICONTROL ディメンション項目]** | ディメンション項目は、ディメンションの個々の値です。例えば、ブラウザーディメンションのディメンション項目は、*Chrome*、*Firefox*、*Edge* などです。 |
-| **[!UICONTROL 指標]** | 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、人物のアクティビティに関する量的な情報です。 |
+| **[!UICONTROL 指標]** | 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者のアクティビティに関する量的な情報です。 |
 | **[!UICONTROL ビジュアライゼーション]** | Workspace には、データを視覚的に表現する[様々なビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)が用意されています。棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図などがあります。 |
 | **[!UICONTROL ディメンションの分類]** | ディメンションの分類は、ディメンションを他のディメンションで分類する方法です。例えば、モバイルデバイスごとに米国の州を分類して、州ごとのモバイルデバイス訪問数を取得できます。または、モバイルデバイスをモバイルデバイスタイプ、地域、内部キャンペーンなどで分類することもできます。 |
-| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や web サイトでのインタラクションに基づいて人物のサブセットを特定できます。例えば、次のような条件に基づいて、[!UICONTROL 訪問者]フィルターを作成できます。 <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>離脱とエントリ：Facebook、定義済みランディングページ、参照ドメインの訪問者、または</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
+| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や Web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。例えば、次のような条件に基づいて、[!UICONTROL 訪問者]フィルターを作成できます。 <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>離脱とエントリ：Facebook、定義済みランディングページ、参照ドメインの訪問者、または</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
 
 ## 使用
 
@@ -94,7 +94,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 * 左パネルからコンポーネントをドラッグ＆ドロップします。
 * 構築ブロックフィールドの 1 つに入力を開始します。入力が見つかると、構築ブロックフィールドに使用可能な値が自動的に入力されます。
-* 構築ブロックドロップダウン（**[!UICONTROL 分析]**&#x200B;の `Country` など）を指定し、使用可能な値のリスト（![ChevronRight](/help/assets/icons/ChevronRight.svg) を使用）を使用して、使用する値（**[!UICONTROL 国コード]**&#x200B;など）を検索します。
+* 構築ブロックドロップダウン（例：**[!UICONTROL Analyze]** の **[!UICONTROL Country]**）を指定し、使用可能な値のリスト（![ChevronRight](/help/assets/icons/ChevronRight.svg) を使用）を使用して、使用する値（例：**[!UICONTROL 国コード]**）を検索します。
 
 すべての入力フィールドを消去するには、「**[!UICONTROL 消去]**」を選択します。
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326699/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

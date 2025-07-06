@@ -1,13 +1,13 @@
 ---
-description: 特定のディメンションの次または前のディメンション項目を表示する、次または前の項目パネルの使用方法を説明します。
+description: 特定のディメンションの次の項目または前の項目を表示する、次または前の項目パネルの使用方法を説明します。
 title: 次または前の項目パネル
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の次または前の項目パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[次または前の項目パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/next-previous)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の次または前の項目パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[次または前の項目パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/next-previous)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)�
 | **[!UICONTROL ディメンション]** | 次または前の項目を探索するディメンションを選択します。 |
 | **[!UICONTROL ディメンション項目]** | 次／前のお問い合わせの中心となる特定のディメンション項目を選択します。 |
 | **[!UICONTROL 方向]** | [!UICONTROL 次]または[!UICONTROL 前]のどちらのディメンション項目を検索するかを指定します。 |
-| **[!UICONTROL コンテナ]** | コンテナ、[!UICONTROL セッション]または[!UICONTROL ユーザー]（デフォルト）を選択して、お問い合わせの範囲を決定します。 |
+| **[!UICONTROL コンテナ]** | コンテナ **[!UICONTROL 訪問]** または **[!UICONTROL 訪問者]** （デフォルト）を選択して、問い合わせの範囲を決定します。 |
 
 {style="table-layout:auto"}
 

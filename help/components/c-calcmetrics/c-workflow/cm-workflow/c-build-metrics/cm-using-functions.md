@@ -1,12 +1,12 @@
 ---
-description: 関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
+description: 関数を使用して、データをフィルタリングおよび並べ替えたり、統計分析を実行したりする方法を説明します。
 title: 関数の使用
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 44%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 

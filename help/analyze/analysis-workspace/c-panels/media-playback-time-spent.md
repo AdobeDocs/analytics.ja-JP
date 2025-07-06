@@ -4,7 +4,7 @@ description: Analysis Workspaceのメディア再生滞在時間パネルを使�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のメディア再生滞在時間パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[メディア再生滞在時間パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のメディア再生滞在時間パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[メディア再生滞在時間パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 >[!NOTE]
 >
 >メディア分平均オーディエンスパネルは、Adobe Analytics 用ストリーミングメディアコレクションアドオンを購入したお客様のみが使用できます。
->&#x200B;>詳しくは、アドビ担当営業または販売店か、アドビアカウントチームにお問い合わせください。
+>>詳しくは、アドビ担当営業または販売店か、アドビアカウントチームにお問い合わせください。
 >
 
 **[!UICONTROL メディア再生滞在時間]**&#x200B;パネルを使用すると、同時実行のピークの詳細と分類および比較機能を使用して、経時的に再生を分析できます。
@@ -59,7 +59,7 @@ Analysis Workspace では、再生滞在時間は、特定の時点でのメデ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://video.tv.adobe.com/v/3446701?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -125,8 +125,8 @@ Analysis Workspace では、再生滞在時間は、特定の時点でのメデ�
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
->&#x200B;>[メディア同時視聴者数パネル](media-concurrent-viewers.md)
+>>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
+>>[メディア同時視聴者数パネル](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446701?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

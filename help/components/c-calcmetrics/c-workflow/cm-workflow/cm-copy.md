@@ -1,12 +1,12 @@
 ---
-description: 計算指標マネージャーで計算指標をコピーする方法について説明します
+description: 計算指標マネージャーで計算指標をコピーする方法を説明します。
 title: 計算指標をコピー
 feature: Calculated Metrics
 exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 

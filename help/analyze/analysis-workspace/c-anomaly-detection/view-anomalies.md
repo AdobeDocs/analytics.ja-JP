@@ -1,13 +1,13 @@
 ---
-description: 異常値はテーブルまたは折れ線グラフで表示できます。
-title: Analysis Workspace での異常値の表示
+description: Analysis Workspace内のデータの異常値を表示して分析する方法を理解します。
+title: 異常値を表示
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 

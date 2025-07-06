@@ -1,20 +1,21 @@
 ---
-title: アトリビューションに関する FAQ
+title: アトリビューションに関するよくある質問（Faq）
 description: アトリビューションに関するよくある質問への回答を示します。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# アトリビューションに関する FAQ
+# よくある質問
 
+ここでは、アトリビューションに関するよくある質問に対する回答を示します。
 
-+++## アトリビューションを使用する際の「なし」の行項目は何ですか？
++++## アトリビューションを使用する際の **[!UICONTROL なし]** 行項目は何ですか？
 
 「なし」行項目は、ルックバックウィンドウ内でタッチポイントなしで発生したすべてのコンバージョンを表す包括的な項目です。「なし」行項目となるコンバージョンの数を減らすには、ルックバック期間を長くしたカスタムルックバックウィンドウを使用してみてください。
 
@@ -44,12 +45,13 @@ ht-degree: 87%
 +++
 
 
-+++## 訪問、訪問者、カスタムアトリビューションのルックバックを使用する必要があるのはいつですか？
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-アトリビューションルックバックの選択は、ユースケースによって決まります。コンバージョンで一般的に 1 回の訪問より長い時間がかかる場合は、訪問者またはカスタムのルックバックをお勧めします。コンバージョンサイクルが長い場合、カスタムのルックバックウィンドウは、レポートウィンドウの前からデータを取り込むことができる唯一のタイプであるため、最適です。
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## アトリビューションを使用する場合、prop と eVar はどのように比較されますか？
 

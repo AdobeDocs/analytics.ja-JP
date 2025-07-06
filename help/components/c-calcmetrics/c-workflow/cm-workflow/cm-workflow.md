@@ -1,12 +1,12 @@
 ---
-description: 計算指標を作成するための手順について説明します。
-title: 計算指標のワークフロー
+description: 計算指標の作成方法を説明します。
+title: 計算指標の作成
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 31%
+source-wordcount: '366'
+ht-degree: 21%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 31%
 
 ![ 指標の作成方法 ](assets/create-metric.png)
 
-* **A**。メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL 計算指標]**」を選択します。 ![ 計算指標 ](/help/assets/icons/AddCircle.svg) マネージャー [&#128279;](cm-manager.md) から「[!UICONTROL AddCircle][!UICONTROL **[!UICONTROL Add]**]」を選択します。
-* **B**。Workspace プロジェクトの左側のコンポーネント パネルで、「![ イベント ](/help/assets/icons/Event.svg) **指標**」の「![ 追加 ](/help/assets/icons/Add.svg)」を選択します。
+* **A**。メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL 計算指標]**」を選択します。 ![ 計算指標 ](/help/assets/icons/AddCircle.svg) マネージャー [!UICONTROL **[!UICONTROL  から「]**]AddCircle[Add](cm-manager.md)」を選択します。
+* **B**。Workspace プロジェクトの左側のコンポーネント パネルで、「![ イベント ](/help/assets/icons/Add.svg) ![ 指標 ](/help/assets/icons/Event.svg)」の「**追加**」を選択します。
 * **C**。Workspace プロジェクトの指標列ヘッダーのコンテキストメニューで、「**[!UICONTROL 選択から指標を作成]**」を選択します。 サブメニューから、関数を選択するか、「**[!UICONTROL 計算指標ビルダーで開く]**」を選択できます。 <br/> 関数を選択すると、計算指標はプロジェクトのみの指標として定義されます。 後でこの指標を編集する際に、[ コンポーネント情報 ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) ポップアップを通じて、[ 計算指標ビルダー ](c-build-metrics/cm-build-metrics.md) に通知が表示されます。
 * **D**。Workspace プロジェクトで、メニューから **[!UICONTROL コンポーネント]** を選択し、**[!UICONTROL 指標を作成]** を選択します。
 * **E**. Workspace プロジェクトで、ショートカットキー **[!UICONTROL shift+cmd+c]** （macOS）または **[!UICONTROL shift+ctrl+c]** （Windows）を使用します。
@@ -33,7 +33,7 @@ ht-degree: 31%
 
 | ワークフロータスク | 説明 |
 | --- | --- |
-| 計算指標の計画 | 特に、正式に「承認」される指標については、広く使用される計算指標とその定義方法の概要を確認しておくことが重要です。 |
+| 計算指標の計画 | 特に、正式に承認される予定の指標については、どの計算指標が広く使用され、どのように定義されるかを概要で説明することは、計画を立てる上で理にかなっています。 |
 | 計算指標の [ 作成 ](c-build-metrics/cm-build-metrics.md) | [!DNL Analytics] コンポーネントで使用するために、計算指標と高度な計算指標を作成および編集します。計算指標の作成方法については、[例](c-build-metrics/cm-build-metrics.md)を参照してください。 |
 | [ タグ付け ](cm-tagging.md) 計算指標 | 整理および共有が容易に行えるように計算指標にタグを付けます。簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。 |
 | [ 承認 ](cm-approving.md) 計算指標 | 計算指標を正規の指標として承認します。 |

@@ -1,23 +1,23 @@
 ---
-title: アトリビューションモデル、コンテナおよびルックバックウィンドウ
-description: 様々なタイプのアトリビューションによってディメンション項目間でクレジットがどのように分割されますか。
+title: 属性コンポーネント
+description: アトリビューションを定義するコンポーネントについて説明します。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# アトリビューションモデル、コンテナおよびルックバックウィンドウ
+# 属性コンポーネント
 
 Adobe Analyticsのアトリビューションの概念には、次の 3 つのコンポーネントが含まれます。
 
-* **アトリビューションモデル：**&#x200B;モデルは、グループ内のヒット数に対するコンバージョンの分布を記述しています。例：ファーストタッチやラストタッチ。
-* **コンテナ**：コンテナは、アトリビューションの範囲や、各モデルのヒットをグループ化する方法を定義します。
-* **アトリビューション ルックバックウィンドウ：** ルックバックウィンドウには、選択したモデルのルックバックする日数が記述されます。
+* **アトリビューションモデル：** [ モデル ](#attribution-model) は、グループ内のヒットへのコンバージョンの分布を記述します。 例：ファーストタッチやラストタッチ。
+* **コンテナ**:[ コンテナ ](#container) は、属性の範囲や、各モデルのヒットをグループ化する方法を定義します。
+* **アトリビューション ルックバックウィンドウ：** [ ルックバックウィンドウ ](#lookback-window) は、選択したモデルのルックバックする日数を表します…
 
 
 ## アトリビューションモデル
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40040?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace内でデータの異常値をコンテキストに基づいて表示および分析する方法を理解します。
+description: Analysis Workspace でのデータ異常値検出について説明します。
 title: 異常値検出の概要
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 68%
+source-wordcount: '1295'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 異常値検出 ](https://video.tv.adobe.com/v/40728?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 異常値検出 ](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 * ビデオバッファーイベントの急増
 * ビデオの低ビットレートの下落
 
-異常値検出と[貢献度分析](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
+異常値検出と[貢献度分析](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
 
 Analysis Workspace の異常値検出アルゴリズムには以下が含まれています。
 
@@ -61,7 +61,7 @@ Analysis Workspace の異常値検出アルゴリズムには以下が含まれ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 貢献度分析 ](https://video.tv.adobe.com/v/40760?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 貢献度分析 ](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Analysis Workspace の異常値検出アルゴリズムには以下が含まれ�
 | アドビがトークンを導入した理由 | 貢献度分析は、Adobe Analytics の最も重要な機能の 1 つになりました。一部の Analytics 製品のようにディメンション数を 3 つに制限するのではなく、ごく限られた回数でも 1 か月に何度か完全な分析を行うことで、制限のない完全な貢献度分析のメリットを実感できます。 |
 | 貢献度分析のトークンはどのように機能しますか。 プロジェクトに既存の貢献度分析を実装するときもトークンが必要ですか。それとも、新しい貢献度分析を実行するときにのみ、トークンが必要ですか。 | 各ログイン会社（各ユーザーではなく）は、1 か月あたり定められた数のトークンを入手します。これらのトークンを使用して、Analysis Workspace 内で「完全な」貢献度分析を実行できます。新しい貢献度分析を生成するたびにトークンが 1 つ必要です。事前実行された貢献度分析をプロジェクトに実装するときは、トークンは不要です。 |
 | トークンを切らしていますが、さらに貢献度分析を実行したい場合はどうしますか。 | 別の Adobe Analytics 製品にアップグレードします。例えば、Standard（2 トークン／月）から Ultimate（20 トークン／月）にアップグレードします。これ以上トークンを購入することはできません。 既存のパッケージフレームワーク内でアップグレードする必要があります。 |
-| 貢献度分析へのアクセスを制限するには、どのようにしますか。 | デフォルトでは、管理者のみが貢献度分析を実行するアクセス権を持っています。ただし、管理者は [Adobe Admin Console](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-console/home) に権限グループを作成することで、他のユーザーにアクセス権を付与できます。貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与します。 この権限は、[!UICONTROL レポートスイートツール]の下で[!UICONTROL 貢献度分析]と呼ばれます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| 貢献度分析へのアクセスを制限するには、どのようにしますか。 | デフォルトでは、管理者のみが貢献度分析を実行するアクセス権を持っています。ただし、管理者は [Adobe Admin Console](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-console/home) に権限グループを作成することで、他のユーザーにアクセス権を付与できます。貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与します。 この権限は、[!UICONTROL レポートスイートツール]の下で[!UICONTROL 貢献度分析]と呼ばれます。[詳細情報](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | 1 か月あたり使用可能なトークン数は、どうすればわかりますか。また、当月に会社が使用したトークン数は、どうすればわかりますか。 | [!UICONTROL 管理者] ／ [!UICONTROL すべての管理者] ／ [!UICONTROL 会社設定ホーム] ／ [!UICONTROL 機能アクセスレベルを表示]に移動します。以下の下を見てください。<ul><li>貢献度分析：月使用トークンの数</li><li>貢献度分析：今月使用された使用トークンの数</li></ul> |
 
 ## 異常値検出と貢献度分析の権限

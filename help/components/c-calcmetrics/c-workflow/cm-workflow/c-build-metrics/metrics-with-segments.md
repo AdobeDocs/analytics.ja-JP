@@ -1,12 +1,12 @@
 ---
-description: 個々の指標でセグメント化を行うと、1 つのレポート内の指標を比較できます。
+description: 同じビジュアライゼーション内で指標を比較できる個々の指標でセグメント化する方法を説明します。
 title: セグメント化指標
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 ## 人気のあるページ
 
 1. Workspace プロジェクトから [ 計算指標を作成 ](../cm-workflow.md) し、`Germany` という名前を付けます。
-1. [ 計算指標ビルダー ](cm-build-metrics.md) 内から、`Germany` というタイトルの [ セグメントを作成 ](/help/components/segmentation/segmentation-workflow/seg-build.md) します。これは「国」フィールドを使用しています。
+1. [ 計算指標ビルダー ](cm-build-metrics.md) 内から、[ というタイトルの ](/help/components/segmentation/segmentation-workflow/seg-build.md) セグメントを作成 `Germany` します。これは「国」フィールドを使用しています。
 
    >[!TIP]
    >

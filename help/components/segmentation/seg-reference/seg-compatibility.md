@@ -1,12 +1,12 @@
 ---
-description: セグメントビルダーで作成されたすべてのセグメントがData Warehouseと互換性があるわけではありません。 サポートされる機能を次の表に示します。
+description: セグメントビルダーで作成されたすべてのセグメントがData Warehouseと互換性がない理由を理解します。 サポートされている関数について説明します。
 title: Data Warehouse セグメントの互換性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 80%
+source-wordcount: '343'
+ht-degree: 79%
 
 ---
 
@@ -99,4 +99,4 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-*メモ：Data Warehouse では、`AND/OR` を使用する場合に、`exclusion` または `without` コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B` として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み**&#x200B;**この特性を除外する**）Data Warehouse でサポートされます。*
+*メモ：Data Warehouse では、`AND/OR` を使用する場合に、`exclusion` または `without` コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B` として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み****この特性を除外する**）Data Warehouse でサポートされます。*

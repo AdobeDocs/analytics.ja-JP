@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 96%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 96%
       + [ベン図](analysis-workspace/visualizations/venn.md)
    + パネル {#panels}
       + [概要](analysis-workspace/c-panels/panels.md)
-      + [空白](analysis-workspace/c-panels/blank-panel.md)
+      + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
       + [アトリビューション](analysis-workspace/c-panels/attribution.md)
       + [フリーフォーム](analysis-workspace/c-panels/freeform-panel.md)
@@ -136,7 +136,7 @@ ht-degree: 96%
       + [概要](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
-      + [共有可能なリンク](analysis-workspace/curate-share/shareable-links.md)
+      + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
       + [読み取り専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [ダウンロード](analysis-workspace/curate-share/download-send.md)
       + [送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
@@ -145,13 +145,12 @@ ht-degree: 96%
       + [モデル、コンテナ、ルックバックウィンドウ](analysis-workspace/attribution/models.md)
       + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
       + [ベストプラクティス](analysis-workspace/attribution/best-practices.md)
-      + [FAQ](analysis-workspace/attribution/faq.md)
+      + [よくある質問](analysis-workspace/attribution/faq.md)
    + [ジャーニー管理](analysis-workspace/journey-iq.md)
    + [セグメント比較](analysis-workspace/segment-iq.md)
    + 異常値検出 {#anomaly-detection}
       + [概要](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [異常値を表示](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [異常値検出をオフにする](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
@@ -160,7 +159,7 @@ ht-degree: 96%
       + [パフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [エラーとトラブルシューティング](analysis-workspace/workspace-faq/error-messages.md)
       + [制限事項](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [管理要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [アクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder の概要](report-builder/rb-overview.md)

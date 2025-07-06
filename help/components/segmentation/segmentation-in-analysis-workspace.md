@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace のセグメント化機能について説明します。
-title: Analysis Workspace のセグメント機能
+description: Analysis Workspaceの高度なセグメント化機能について説明します。
+title: 高度な機能
 feature: Segmentation
 exl-id: d8bf7d36-32d7-4652-b744-7cc915d94b79
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 48%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
-# Analysis Workspace のセグメント機能
+# 高度な機能
 
-Analysis Workspaceでは [ セグメントの標準的な使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) の他に、次の機能を使用できます。
+Analysis Workspaceの [ セグメントの標準的な使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) に加えて、次の特定の機能を使用できます。
 
 * [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 

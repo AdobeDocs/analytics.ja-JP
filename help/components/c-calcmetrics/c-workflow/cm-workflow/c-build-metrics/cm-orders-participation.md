@@ -1,12 +1,12 @@
 ---
-description: 注文の促進を支援するマーケティングチャネルを示す指標の作成方法について説明します。これは、任意のディメンションや興味の成功イベントに適応させることができます。
-title: 注文支援指標
+description: 注文の促進に役立つマーケティングチャネルを示す指標の作成方法を説明します。
+title: より複雑な計算指標の作成
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 1. [ 指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) の説明に従って、計算指標の作成を開始します。
 
-1. 計算指標ビルダーで、指標に `Assisted Orders` などの名前を付けます。
+1. 計算指標ビルダーで、指標に `Assisted Online Orders` などの名前を付けます。
 
 1. **[!UICONTROL 指標]** コンポーネントから **[!UICONTROL オンライン注文]** 指標を選択し、指標を **[!UICONTROL 定義]** 領域にドラッグします。
 
@@ -41,4 +41,4 @@ ht-degree: 25%
 
 1. （任意） [ 計算指標の共有 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) の説明に従って、組織の他のユーザーと指標を共有します。
 
-これで、どのマーケティングチャネルが注文の促進を支援したかを簡単に示すことができます。または、フリーフォームテーブルで指標を右クリックして、テーブルから直接アトリビューションモデルを調整できます。
+これで、どのマーケティングチャネルが注文の促進を支援したかを簡単に示すことができます。または、フリーフォームテーブルから任意の指標を選択し、コンテキストメニューを使用して、テーブルから直接アトリビューションモデルを調整することもできます。

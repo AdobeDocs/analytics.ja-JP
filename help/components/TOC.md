@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -189,12 +189,12 @@ ht-degree: 100%
       + [セグメントの共有](segmentation/segmentation-workflow/t-seg-share.md)
       + [セグメントのタグ設定](segmentation/segmentation-workflow/seg-tag.md)
       + [セグメントリストのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [セグメントのお気に入りへの登録](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [セグメントをお気に入りとしてマーク](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [セグメントの承認](segmentation/segmentation-workflow/seg-approve.md)
       + [セグメントの削除](segmentation/segmentation-workflow/seg-delete.md)
       + [セグメントのコピー](segmentation/segmentation-workflow/seg-copy.md)
       + [セグメントの管理](segmentation/segmentation-workflow/seg-manage.md)
-      + [Experience Cloud へのセグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
+      + [セグメントの公開](segmentation/segmentation-workflow/seg-publish.md)
       + [セグメントの使用](segmentation/segmentation-workflow/t-seg-apply.md)
    + リファレンス {#segment-reference}
       + [演算子](segmentation/seg-reference/seg-operators.md)
@@ -210,17 +210,17 @@ ht-degree: 100%
       + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [単純な計算指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [より複雑な計算指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [パーティシペーション指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [簡単な例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [より複雑な例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [パーティシペーション指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [計算指標をタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [計算指標をフィルタリング](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [計算指標をお気に入りに登録](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [計算指標をお気に入りとしてマーク](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [計算指標をコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
