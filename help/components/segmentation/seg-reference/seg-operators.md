@@ -30,8 +30,8 @@ ht-degree: 45%
 
 例えば、「My cool product *というページ名があ* とします。
 
-* セグメントルール **[!UICONTROL ページ名]****[!UICONTROL matches]** は `* product` 上記のページ名と一致します。
-* ただし、ルール **[!UICONTROL ページ名]****[!UICONTROL matches]** は `My \* product` ページ名 *My * Product* にのみ一致します。
+* セグメントルール **[!UICONTROL ページ名]**&#x200B;**[!UICONTROL matches]** は `* product` 上記のページ名と一致します。
+* ただし、ルール **[!UICONTROL ページ名]**&#x200B;**[!UICONTROL matches]** は `My \* product` ページ名 *My * Product* にのみ一致します。
 
 ## 標準演算子
 
@@ -81,6 +81,6 @@ ht-degree: 45%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]

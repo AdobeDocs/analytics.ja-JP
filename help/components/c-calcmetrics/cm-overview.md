@@ -50,7 +50,7 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 一部の [!DNL Analytics] 機能では、計算指標を使用できません。
 
-* [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
+* [!UICONTROL Analysis Workspace &#x200B;][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->>[指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->>[関数の使用](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>&#x200B;>[指標の作成](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>&#x200B;>[関数の使用](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >
