@@ -302,4 +302,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [AA およびCJAでの順次ロジックの習得：THEN の概要 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [AA およびCJAでの順次ロジックの習得：THEN の概要 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=ja)
