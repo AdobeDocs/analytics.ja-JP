@@ -3,7 +3,7 @@ description: Analysis Workspaceでアラートを作成する方法を説明し�
 title: アラートの作成
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 69%
@@ -31,7 +31,7 @@ Adobe Analytics のアラートを使用すると、変更された割合や特�
 
 アラートを作成するには：
 
-1. アラートを作成するには、次のいずれかの方法を使用します。:
+1. アラートを作成するには、次のいずれかの方法を使用します。
 
    * Analysis Workspace でプロジェクトを開き、**[!UICONTROL コンポーネント]**／**[!UICONTROL アラートを作成]**&#x200B;を選択します。
    * Analysis Workspaceでプロジェクトを開き、ショートカットキー ***cmd + shift + a*** （macOS）または ***ctrl + shift + a*** （Windows）を使用します。
