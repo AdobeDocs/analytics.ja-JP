@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 91a17aa9ae7a0a6c6b7a1fd8d5ffe5d7d2efb294
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2025年6月リリース）
 
-**最終更新日**：2025年6月24日（PT）
+**最終更新日**：2025年7月7日（PT）
 
 このリリースノートは、2025年6月18日（PT）から 2025年7月15日（PT）のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **アルゴリズムを使用した Livestream TNT フィールド** | Livestream は、テクノロジーが最新で安定した状態を維持できるよう、更新中です。 その更新の一環として、TNT フィールドにアルゴリズムが含まれている場合は、TNT フィールドを Livestream 出力に組み込み始めます。 ただし、これには、以前サポートされていた要素（`campaignId`、`recipeId`、`trafficType`、`actionId`、`actionName`）のみが含まれます。 Livestream の TNT スキーマ全体は変更されません。 |   | 7,2025年7月 |
 | **新しい Report Builder での安全なクラウド宛先のサポート** | Javascript Report Builder アドインで、次のクラウドストレージ宛先へのレポートの書き出しがサポートされるようになりました。<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前は、FTP とメールの宛先のみが使用できました。セキュリティ上の懸念により、FTP はサポートされなくなりました。</p><p>詳しくは、[クラウド宛先への書き出しによるワークブックのスケジュール設定](/help/analyze/report-builder/report-builder-export.md)を参照してください。</p><p>これらの変更に加えて、Adobe Analytics で場所を作成する際に、「次で使用」フィールドに、Report Builder で場所を使用するオプションが追加されました。詳しくは、[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。</p> |  | 2025年6月19日（PT）（当初は6月18日（PT）） |
 | **新しいプレビューエクスペリエンス** | セグメントの作成時やデータビューの設定を行う際に使用するプレビューパネルでは、ドーナツビジュアライゼーションではなく、横棒グラフビジュアライゼーションが使用されるようになりました。 |  | 2025年6月18日（PT） |
 | **変更されたアトリビューションモデルダイアログ** | アトリビューションモデルダイアログでコンテナと期間を個別に定義できるようになりました。 |  | 2025年6月18日（PT） |
