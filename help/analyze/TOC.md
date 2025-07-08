@@ -7,7 +7,7 @@ user-guide-description: Analysis Workspace、Analytics ダッシュボード、R
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Analysis Workspace の概要](analysis-workspace/home.md)
    + プロジェクト {#build-workspace-project}
       + [概要](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [プロジェクトをすばやく開始](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [プロジェクトの迅速な開始](analysis-workspace/build-workspace-project/starter-projects.md)
       + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
       + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
       + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
