@@ -30,7 +30,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの公開 ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの公開 ](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 >[!NOTE]
 >週に 1 回、すべてのデータが完全に同期され、前週に取り込まれなかった差分や不一致が考慮されます。
 
-## [!UICONTROL  セグメントビルダー ] でのセグメントの公開
+## [!UICONTROL &#x200B; セグメントビルダー &#x200B;] でのセグメントの公開
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
@@ -134,7 +134,7 @@ Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL  更新 ]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL &#x200B; 更新 &#x200B;]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
