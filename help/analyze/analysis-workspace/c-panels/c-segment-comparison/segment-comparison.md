@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="セグメント比較"
->abstract="2 つのセグメントをすべてのデータポイントですばやく比較して、関連する違いを自動的に見つけます。"
+>abstract="すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い差異を自動的に見つけます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,12 +28,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="セグメント比較パネル"
->abstract="2 つのセグメントをすべてのデータポイントですばやく比較して、関連する違いを自動的に見つけます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較対象となる 2 番目のセグメントで、*その他すべて* （最初のセグメントの逆）が自動的に入力されます。 必要に応じて、*その他の全員* を別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
+>abstract="すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い差異を自動的に見つけます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較対象となる 2 番目のセグメントで、*その他すべて*（最初のセグメントの逆）が自動的に入力されます。必要に応じて、*その他すべて*&#x200B;を別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/37627?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
