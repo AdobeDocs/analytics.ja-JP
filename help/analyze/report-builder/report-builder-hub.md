@@ -1,15 +1,15 @@
 ---
-title: Adobe AnalyticsのReport Builderハブとは
+title: Adobe AnalyticsのReport Builder ハブとは
 description: Report Builder ハブコンポーネントについて説明します
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Report Builder ハブを使用して、データブロックの作成、更新、管理を行います。
 
-Report Builderハブには、「作成」、「管理」、「スケジュール」ボタン、「コマンド」パネル、「クイック編集」パネルが含まれています。
+Report Builder ハブには、「作成」、「管理」、「スケジュール」の各ボタン、「コマンド」パネル、「クイック編集」パネルが含まれています。
 
 <img src="./assets/hub51.png" alt="Report Builder ハブ"/>
 
@@ -25,10 +25,6 @@ Report Builderハブには、「作成」、「管理」、「スケジュール
 ## ボタンの作成、管理、スケジュール
 
 新しいデータブロックの作成、既存のデータブロックの管理、データブロックのスケジュール設定を行うには、「作成」、「管理」、「スケジュール」の各ボタンを使用します。
-
->[!NOTE]
->
->Adobe AnalyticsのこのバージョンのReport Builderに対応するワークブックのスケジュールはまだリリースされていませんが、2025 年初頭に利用可能になる予定です。 スケジュールを必要としないワークブックで、今すぐ開始できます。
 
 ## コマンドパネル
 
@@ -62,7 +58,7 @@ Report Builderハブには、「作成」、「管理」、「スケジュール
 
 レポートスイートを変更するには、ドロップダウンメニューから新しいレポートスイートを選択します。
 
-![ レポートスイートのドロップダウンメニューを表示するReport Builderハブ。](./assets/image16.png)
+![ レポートスイートのドロップダウンメニューを表示しているReport Builder ハブ。](./assets/image16.png)
 
 ### 日付範囲
 
