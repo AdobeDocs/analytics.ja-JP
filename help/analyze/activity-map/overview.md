@@ -17,7 +17,7 @@ Adobe Analytics Activity Map は、Adobe Analytics 内の機能で、web ペー�
 
 この節のドキュメントでは、Activity Mapのオーバーレイに焦点を当てています。 ただし、Activity Mapを使用する際に重要なその他の点は次のとおりです。
 
-* **レポートスイートの設定**：レポートスイートでは、Activity Mapが有効になっている必要があります。 レポートスイートの設定で [0}Activity Map レポート } を参照してください。](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+* **レポートスイートの設定**：レポートスイートでは、Activity Mapが有効になっている必要があります。 レポートスイートの設定で [0&rbrace;Activity Map レポート &rbrace; を参照してください。](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
 * **実装**：ほとんどのActivity Map レポートは、すぐに使用できます。 ただし、リンクトラッキングを最大限に活用するために、追加の実装が必要な web サイトもあります。 次の実装変数を使用できます。
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：クリックデータをリンク名でフィルタリングします。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：地域名でクリックデータをフィルタリングします。
