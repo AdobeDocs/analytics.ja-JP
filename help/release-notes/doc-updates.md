@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '6443'
+source-wordcount: '6466'
 ht-degree: 99%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年7月** | |
-| デバッガー | Analysis Workspaceでプロジェクトデバッガーを有効、使用、無効にする方法に関する新しい記事を追加しました。 |
-| レビューと更新 | Analysis Workspace ドキュメントのレビューと更新。 該当する場合、ドキュメントはAnalysis WorkspaceのCustomer Journey Analytics ドキュメントと同期されるようになりました。 |
+| デバッガー | Analysis Workspace でプロジェクトデバッガーを有効、使用、無効にする方法に関する新しい記事です。 |
+| フロービジュアライゼーションパフォーマンスの推奨事項 | 1 つのフロービジュアライゼーションで 10 個を超えるノードを展開すると、レポート時間に影響を与える可能性があるという情報を追加しました。 |
+| レビューと更新 | Analysis Workspace ドキュメントのレビューと更新です。必要に応じて、ドキュメントは Analysis Workspace の Customer Journey Analytics ドキュメントと同期されるようになりました。 |
 | **2025年6月** | |
 | 新しいショートカットアクション | Analysis Workspace の新しいキーボードショートカットを使用すると、プロジェクトで上下に [Workspace パネルを移動](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions)できるようになりました。 |
 | **2025年3月** |  |
@@ -98,7 +99,7 @@ ht-degree: 99%
 | ボットルールに関するドキュメントの改善 | [ボットルールの理解と設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>説明的にした記事のタイトルを更新</li><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順の追加</li><li>ボットルールをアップロードする際の CSV ファイル要件に関する詳細を追加</li></ul> |
 | 新しいレポートの節 | [テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)と[会社テンプレートの作成](/help/analyze/analysis-workspace/templates/create-templates.md)に関する情報を含む、新しいレポートの節を追加しました。 |
 | 異常値検出と貢献度分析に関するドキュメントの更新 | 異常値検出と貢献度分析に関するドキュメントは、以前、Virtual Analyst に関する節に記載していました。次の変更を行いました。 <ul><li>Virtual Analyst という用語はドキュメントから削除しました。</li><li>[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)に関する節は、Analysis Workspace の節のすぐ下に移動しました。</li><li>貢献度分析ドキュメントは、異常値検出ドキュメントに統合しました。</li></ul> |
-| 「Attribution IQ」が「アトリビューション」に変更されました | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
+| 「Attribution IQ」を「アトリビューション」に変更 | ドキュメント全体にわたって「Attribution IQ」のすべてのインスタンスを「[アトリビューション](/help/analyze/analysis-workspace/attribution/overview.md)」に変更しました。 |
 | **2023年11月** | |
 | Activity Map のアクティブ化／有効化に関するトピックの更新 | [Web SDK](/help/analyze/activity-map/getting-started.md)（手動および Adobe Experience Platform タグ拡張機能経由の両方）コンテンツを追加しました。 |
 | **2023年10月** | |
@@ -329,7 +330,7 @@ ht-degree: 99%
 | 2019年10月1日 | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |
 | 2019年9月28日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019年9月19日 | [論理グループコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=ja#logic-group-containers)について説明するようにセグメント化に関するドキュメントを改訂しました。 |
-| 2019年9月12日 | [ クロスデバイス分析 ](/help/components/cda/overview.md) に関する新しいドキュメント |
+| 2019年9月12日 | [クロスデバイス分析](/help/components/cda/overview.md)に関する新しいドキュメント |
 | 2019年9月12日 | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
