@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -45,7 +45,7 @@ ht-degree: 89%
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。『実装ユーザガイド』の「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
-* **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。[Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE) に置き換えられました。
+* **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。[Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE) に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
 * **データレイヤー：** [ データレイヤー ](/help/implement/prepare/data-layer.md) は、Analytics 実装で使用される変数値を格納したサイト上のJavaScript オブジェクトのフレームワークです。 Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
@@ -73,7 +73,7 @@ ht-degree: 89%
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
 * **マーケティングチャネル：** Adobe Analytics の機能の 1 つで、訪問者がサイトに到達した方法ごとにヒットを分類します。ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。コンポーネントユーザーガイドの「[マーケティングチャネルの概要](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
-* **モバイルアプリ：** **Adobe Analytics [!UICONTROL &#x200B; ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+* **モバイルアプリ：** **Adobe Analytics [!UICONTROL  ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 * **Mobile Services：** Adobe Experience Cloud 全体のモバイルアプリケーションのモバイルマーケティング機能を統合した、廃止されたアドビ製品により、アプリケーションに対するユーザーエンゲージメントを把握し、向上につなげることができます。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
@@ -84,7 +84,7 @@ ht-degree: 89%
 * **永続性：**&#x200B;コンバージョン変数の抽象概念で、変数値および個々のヒットで発生するイベントの関連付けを可能にします。「有効期限」も参照してください。
 * **プライマリサーバーコール：**&#x200B;イメージリクエストまたはヒットの別名。主に複数のスイートタグ付けおよび請求のコンテキストで使用されます。同じヒットが複数のレポートスイートに送信される場合、最初のレポートスイートはプライマリサーバーコール、それ以外はセカンダリサーバーコールとなります。このルールは、ページビューやリンクトラッキングを含むすべてのヒットタイプに適用されます。「セカンダリサーバーコール」も参照してください。
 * **処理ルール：**&#x200B;次を参照してください。
-   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)」を参照してください。
+   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)」を参照してください。
    * マーケティングチャネルの処理ルール。ヒットが属するマーケティングチャネルを決定する一連のルールです。管理ユーザーガイドの「[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)」を参照してください。
 * **Prop：**「トラフィック変数」を参照してください。
 * **ランクレポート：**&#x200B;通常、指標を含むディメンションに従うレポート形式を指します。このタイプのレポートでは、サイトで最も多く閲覧されたページなどの上位の項目を確認できます。「トレンドレポート」も参照してください。

@@ -4,7 +4,7 @@ description: ハッシュの競合とは何かと、どのようにレポート�
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Adobe Analyticsでは、ほとんどのディメンションに 32 ビットハ�
 ほとんどのハッシュの競合は、2 つの一般的でない値で発生しますが、レポートには意味のある影響はありません。 ハッシュが一般的で一般的でない値と競合した場合でも、結果は無視できます。 ただし、まれに 2 つの一般的な値でハッシュの競合が発生する場合は、その影響を明確に確認できます。 Adobeでは、レポートでの影響を軽減するために、次の操作をお勧めします。
 
 * **日付範囲の変更**：ハッシュテーブルは月ごとに変更されます。 日付範囲を別の月に変更すると、競合しない異なるハッシュが各値に与えられる可能性があります。
-* **一意の値の数を減らす**：実装を調整するか、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用して、ディメンションが収集する一意の値の数を減らすことができます。 例えば、ディメンションが URL を収集する場合、クエリ文字列またはプロトコルを取り除くことができます。
+* **一意の値の数を減らす**：実装を調整するか、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) を使用して、ディメンションが収集する一意の値の数を減らすことができます。 例えば、ディメンションが URL を収集する場合、クエリ文字列またはプロトコルを取り除くことができます。
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

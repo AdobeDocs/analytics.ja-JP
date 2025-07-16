@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -47,27 +47,13 @@ ht-degree: 100%
             + 有料検索検知 {#paid-search-detection}
                + [有料検索検知の概要](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [有料検索検知の設定](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + 処理ルール {#c-processing-rules}
-               + [処理ルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 処理ルール {#c-processing-rules-configuration}
-                  + [処理ルールの仕組み](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [処理ルールの作成](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [アクティブな処理ルールの表示](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [処理ルール履歴の表示](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [処理ルールの復元](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [他のレポートスイートへの処理ルールのコピー](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [処理ルールで使用可能なディメンション](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + 処理ルールの例 {#processing-rules-examples}
-                  + [処理ルールの例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [クエリ文字列パラメーターからのキャンペーン ID の入力](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [製品の概要ページからの「製品表示」イベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [カテゴリとページ名の連結によるサブカテゴリの追加](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [レポート内の値のクリーンアップ](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [クエリ文字列パラメーターを使用して内部検索用語を入力](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [コンテキストデータ変数の eVar へのコピー](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [コンテキストデータ変数を使用したイベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [ヒットからのイベントの削除](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [処理ルールのヒントとテクニック](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 処理ルール {#processing-rules}
+               + [概要](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [インターフェイス](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [履歴を表示](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [ルールのコピー](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [使用可能なディメンションと指標](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [ユースケース](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + ボットルール {#bot-removal}
                + [ボットの削除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [ボットルールの理解と設定](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
