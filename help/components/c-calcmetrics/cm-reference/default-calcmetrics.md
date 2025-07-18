@@ -3,10 +3,10 @@ description: アドビでは、ユーザーが使用できる様々な計算指�
 title: デフォルトの計算指標
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,13 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 >
 > * [計算指標](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=ja)の説明に従って、ストリーミングメディアコレクションのデフォルトの計算指標を追加する
 > * [計算指標と高度な計算指標](/help/components/c-calcmetrics/cm-overview.md)の説明に従って、既存の指標からカスタムの計算指標を作成する。
+>
+
+>[!TIP]
+>
+>[ データ要素 ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) を使用して、デフォルトの計算指標の定義と、その定義を構成する個々のコンポーネントについて詳しく調べます。
+>
+
 
 
 | 計算指標名 | 関数 | 数式 |
