@@ -4,10 +4,10 @@ title: ページの概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のページの概要パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のページの概要パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 | 入力 | 説明 |
 | --- | --- |
-| **[!UICONTROL ページ]** | 主要統計を探索するページのページディメンションを選択します。 |
+| **[!UICONTROL ページ]** | 主要統計を調べるページのページディメンションを選択します。 例えば、**[!UICONTROL home]** を指定して、ホームページの統計情報を調べます。 ドロップダウンメニューを使用してページを選択するか、（例：`home`）と入力してページをすばやく検索します。 |
 
 {style="table-layout:auto"}
 
