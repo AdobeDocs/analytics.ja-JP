@@ -3,10 +3,10 @@ title: リロード回数
 description: ページがリロードされた回数。
 feature: Metrics
 exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: c9b7c32adfb44a04ab792d12ca049106b3009710
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 74%
+source-wordcount: '132'
+ht-degree: 21%
 
 ---
 
@@ -16,4 +16,6 @@ ht-degree: 74%
 
 ## この指標の計算方法
 
-この指標は、[`Page`](../dimensions/page.md) ディメンションに前のヒットと同じ値が含まれるヒット数をカウントします。
+この指標は、[ ページ ](../dimensions/page.md) ディメンションに前のヒットと同じ値が含まれるヒット数をカウントします。
+
+リロードの概念は、レポートで使用するディメンションに関係なく、ページディメンションに適用されます。 例えば、[eVar1](../dimensions/evar.md) をディメンションとして使用し、リロードを指標として使用した場合、リロード中に各eVar値が存在した回数（2 つの連続したページ値）がテーブルに表示されます。 2 つの連続したeVar1 値が存在した回数は表示されません。

@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: afcf2b454bb0ffecb123661e6bcef126a3f16e17
 workflow-type: tm+mt
-source-wordcount: '6466'
+source-wordcount: '6487'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年7月** | |
+| 処理ルール | 処理ルールのドキュメントを完全に一新し、インターフェイスと現在のユースケースについて詳しく説明しました。 |
 | デバッガー | Analysis Workspace でプロジェクトデバッガーを有効、使用、無効にする方法に関する新しい記事です。 |
 | フロービジュアライゼーションパフォーマンスの推奨事項 | 1 つのフロービジュアライゼーションで 10 個を超えるノードを展開すると、レポート時間に影響を与える可能性があるという情報を追加しました。 |
 | レビューと更新 | Analysis Workspace ドキュメントのレビューと更新です。必要に応じて、ドキュメントは Analysis Workspace の Customer Journey Analytics ドキュメントと同期されるようになりました。 |
