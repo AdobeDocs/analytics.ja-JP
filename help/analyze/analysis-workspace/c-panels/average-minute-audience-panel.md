@@ -4,10 +4,10 @@ description: Analysis Workspaceのメディア分平均オーディエンスパ�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、**Customer Journey Analytics** のメディア分平均オーディエンスパネルについて説明します。<br/>この記事の **Adobe Analytics** バージョンについて詳しくは、[メディア分平均オーディエンスパネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)を参照してください。*
+_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _**のメディア分平均オーディエンスパネルに関する情報を提供します**_。<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**メディア分平均オーディエンスパネル** を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Analysis Workspace では、分平均オーディエンスは次の情報を提�
 
    | オプション | 説明 |
    |---------|------------|
-   | **[!UICONTROL 精度]** | デフォルトの精度は [!UICONTROL **5 分**]&#x200B;ですが、選択された期間の範囲内で、時系列の分母として使用される任意の精度を選択できます。例えば、精度を 5 分にして午後 12:00～12:30 に設定した場合、30 分間全体の分平均オーディエンスと、5 分間ごとの分平均オーディエンスを含んだ 6 つの行が返されます。これらの行は、時系列グラフのデータポイントとして使用されます。 |
+   | **[!UICONTROL 精度]** | デフォルトの精度は [!UICONTROL **5 分**]&#x200B;ですが、選択された期間の範囲内で、時系列の分母として使用される任意の精度を選択できます。例えば、精度を 5 分にして午後 12:00～12:30 を選択すると、30 分間全体の分平均オーディエンスと、5 分間ごとの分平均オーディエンスを含んだ 6 つの行が返されます。 これらの行は、時系列グラフのデータポイントとして使用されます。 |
    | [!UICONTROL **コンテンツのフィルター基準（オプション）**] | 目的とする表示やデータの構造によって特定のコンテンツをフィルタリングする方法を選択します。 <ul>[!UICONTROL **番組、シーズン、エピソード**]：使用可能な番組がドロップダウンに表示され、検索を使用してフィルタリングできます（または、左の列から番組名をドラッグ＆ドロップします）。 そこで選択を終了して、番組のすべてのシーズンを表示するか、個々のシーズン、次に個々のエピソードでフィルタリングできます。この設定では、選択した期間の番組、シーズンまたはエピソードのデータを表示します。</li><li>[!UICONTROL **カスタムディメンション**]：番組名がカスタムディメンションの下にある場合は、ディメンション（オプション）ドロップダウンで検索するか、左列の検索を使用して見つけることができます。ディメンション項目は、その選択に基づいて自動的に入力され、エピソードとして扱われます。</li><li>[!UICONTROL **なし**]：選択した項目の分平均オーディエンスデータを持つすべてのビデオ名が表示されます（このオプションはデフォルトで選択されています）。</li></ul> |
 
 1. [カスタム期間の詳細設定](#custom-time-period-advanced-settings)に進んで、詳細設定を指定します。
@@ -187,8 +187,8 @@ Analysis Workspace では、分平均オーディエンスは次の情報を提�
 >[!MORELIKETHIS]
 >
 > [パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [メディア同時視聴者数パネル](media-concurrent-viewers.md)
-> &#x200B;> [メディア再生滞在時間パネル](media-playback-time-spent.md)
+> > [メディア同時視聴者数パネル](media-concurrent-viewers.md)
+> > [メディア再生滞在時間パネル](media-playback-time-spent.md)
 >
 
 
