@@ -3,16 +3,16 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
+source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 84%
+source-wordcount: '652'
+ht-degree: 77%
 
 ---
 
 # 最新のAdobe Analytics リリースノート（2025 年 7 月リリース）
 
-**最終更新日**：2025年7月16日（PT）
+**最終更新日**：2025年7月30日（PT）
 
 これらのリリースノートは、2025 年 7 月 7 日から 8 月 15 日までのリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **アルゴリズムを使用した Livestream TNT フィールド** | Livestream は、テクノロジーが最新で安定した状態を維持できるよう更新中です。その更新の一環として、TNT フィールドにアルゴリズムが含まれている場合は、TNT フィールドを Livestream 出力に組み込み始めます。ただし、これには、以前サポートされていた要素（`campaignId`、`recipeId`、`trafficType`、`actionId`、`actionName`）のみが含まれます。Livestream の TNT スキーマ全体は変更されません。 |   | 2025年7月7日（PT） |
-| **顧客属性 UI へのナビゲーションを更新しました** | Adobe Experience Cloud のアプリセレクターから顧客属性ユーザーインターフェイスに直接アクセスできるようになりました。 | 2025年7月1日（PT） | 未定 |
+| **顧客属性 UI へのナビゲーションを更新しました** | 顧客属性ユーザーインターフェイスに、Adobe Experience Cloudのアプリセレクターから直接アクセスできるようになりました。 **[!UICONTROL People]**/[!UICONTROL  顧客属性 ] に移動するのではなく、ドロップダウンメニューから [!UICONTROL  顧客属性 ] を選択して、ブックマークを更新してください。  この更新には、UI にいくつかの改善が含まれています。 | 2025年7月1日（PT） | 2025年7月31日（PT） |
 
 ## Adobe Analytics の修正点
 
