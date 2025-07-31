@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 99%
 
 ---
 
@@ -142,6 +142,7 @@ ht-degree: 100%
    + [Experience Edge の概要](aep-edge/overview.md)
    + [データオブジェクト変数のマッピング](aep-edge/data-var-mapping.md)
    + [XDM オブジェクト変数のマッピング](aep-edge/xdm-var-mapping.md)
+   + [Edge Network イベントタイプ](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK の概要](aep-edge/web-sdk/overview.md)
       + [タグを使用した Web SDK への移行](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)

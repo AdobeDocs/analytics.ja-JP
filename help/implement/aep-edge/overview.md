@@ -4,51 +4,75 @@ description: Adobe Analytics における Experience Platform の XDM データ�
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 73%
+source-wordcount: '476'
+ht-degree: 17%
 
 ---
 
 # Adobe Experience Platform Edge Network を使用した Adobe Analytics の実装
 
-Adobe Experience Platform Edge Network を使用すると、複数の製品宛てのデータを一元的な場所に送信できます。Edge Network は、適切な情報を目的の製品に転送します。この概念を使用すると、特に複数のデータソリューションにまたがる実装作業を統合できます。
-
-アドビでは、Edge Network にデータを送信する 3 つの主な方法を提供しています。
-
-* **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Web SDK 拡張機能を使用して Edge にデータを送信します。
-* **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：Adobe Experience Platform のデータ収集で、Mobile SDK 拡張機能を使用して Edge にデータを送信します。
-* **[Adobe Experience Platform Edge Network API](api/overview.md)**: API を使用して、Edge Networkに直接データを送信します。
+Adobe Experience Platform Edge Network を使用すると、複数の製品宛てのデータを一元的な場所に送信できます。Edge Network は、適切な情報を目的の製品に転送します。この概念を使用すると、特に複数のデータソリューションにまたがる実装作業を統合できます。 Adobe Analyticsは、Edge Networkを使用してにデータを送信できる製品の 1 つです。
 
 ## Adobe Analytics が Edge Network データを処理する方法
 
-Adobe Experience Platform Edge Network に送信されるデータは、次の 2 つの形式に従うことができます。
+Adobe Experience Platform Edge Networkに送信されるデータは、**XDM オブジェクト**、**データオブジェクト**、**コンテキストデータ** の 3 つの形式に従うことができます。 データストリームがAdobe Analyticsにデータを転送すると、Adobe Analyticsが処理できる形式に変換されます。
 
-* XDM オブジェクト：[XDM（エクスペリエンスデータモデル）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に基づくスキーマに準拠します。XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。イベントが Adobe Analytics に到達すると、イベントは Adobe Analytics が処理できる形式に変換されます。
-* データオブジェクト： Adobe Analytics にマッピングされた特定のフィールドを使用して、Edge Network にデータを送信します。Edge Network は、これらのフィールドの存在を検出し、スキーマに準拠する必要なく、Adobe Analytics に転送します。
+## `xdm` オブジェクト
 
-Edge Networkでは、次のロジックを使用して、Adobe Analyticsのページビューとリンクイベントを判断します。
+[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) （エクスペリエンスデータモデル）に基づいて作成したスキーマに準拠する。 XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。Adobe Analyticsに特有の事前定義済みスキーマを使用する場合は、[Adobe Analytics ExperienceEvent スキーマフィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) をスキーマに追加できます。 追加したら、Web SDKの `xdm` オブジェクトを使用してこのスキーマにデータを入力し、レポートスイートにデータを送信できます。 データがEdge Networkに到達すると、XDM オブジェクトがAdobe Analyticsで認識できる形式に変換されます。
 
-| XDM ペイロードには次のものが含まれます。 | Adobe Analytics... |
-|---|---|
-| `xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.URL` and no `xdm.web.webInteraction.type` | ペイロードを&#x200B;**ページビュー**&#x200B;とみなします |
-| `xdm.eventType = web.webPageDetails.pageViews` | ペイロードを&#x200B;**ページビュー**&#x200B;とみなします |
-| `xdm.web.webInteraction.type` and (`xdm.web.webInteraction.name` or `xdm.web.webInteraction.url`) | ペイロードを&#x200B;**リンクイベント**&#x200B;とみなします |
-| `xdm.web.webInteraction.type` and (`xdm.web.webPageDetails.name` or `xdm.web.webPageDetails.url`) | ペイロードを **リンクイベント** とみなします <br/>`xdm.web.webPageDetails.name` および `xdm.web.webPageDetails.URL` も `null` に設定します |
-| no `xdm.web.webInteraction.type` and (no `xdm.webPageDetails.name` and no `xdm.web.webPageDetails.URL`) | ペイロードをドロップし、データを無視します |
+XDM フィールドの完全なリファレンスと、それらがAdobe Analytics変数にマッピングされる方法については、[Analytics への XDM オブジェクト変数のマッピング ](xdm-var-mapping.md) を参照してください。
 
-{style="table-layout:auto"}
+>[!TIP]
+>
+>今後 [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) に移行する予定がある場合、Adobeでは、Adobe Analytics スキーマフィールドグループの使用を推奨しています。 代わりに、Adobeでは [ 独自のスキーマを作成 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) し、データストリームマッピングを使用して目的の Analytics 変数を設定することをお勧めします。 Customer Journey Analyticsへの移行を行う準備が整っても、この方法では prop と eVar のスキーマに固定されることはありません。
 
-ページビュー数とリンククリック数の違いに加えて、特定のイベントを A4T として分類するか破棄するかを決定する次のロジックが用意されています。
+## `data` オブジェクト
 
-| XDM ペイロードには次のものが含まれます。 | Adobe Analytics... |
-| --- | --- |
-| `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`、<br/>`xdm.eventType = decisioning.propositionFetch`、`xdm._experience.decisioning` | は、ペイロードを **A4T** 呼び出しとみなします。 |
-| `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`、<br/>`xdm.eventType = decisioning.propositionFetch` で `xdm._experience.decisioning` なし | ペイロードをドロップし、データを無視します |
-| `xdm.eventType = click` または `xdm.eventType = decisioning.propositionInteract` と `xdm._experience.decisioning` で `web.webInteraction.type` なし | は、ペイロードを **A4T** 呼び出しとみなします。 |
-| `xdm.eventType = click` または `xdm.eventType = decisioning.propositionInteract`、`xdm._experience.decisioning` および `web.webInteraction.type` なし | ペイロードをドロップし、データを無視します。 |
+`xdm` オブジェクトを使用する代わりに、`data` オブジェクトを使用することもできます。 このデータオブジェクトは、現在AppMeasurementを使用している実装に向けられているので、web SDKへのアップグレードがはるかに容易になります。 Edge Networkは、スキーマに準拠する必要なく、Adobe Analyticsに固有のフィールドの存在を検出します。
 
-{style="table-layout:auto"}
+データオブジェクトフィールドの詳細およびAdobe Analytics変数へのマッピング方法については、[Analytics へのデータオブジェクト変数のマッピング ](data-var-mapping.md) を参照してください。
 
-詳しくは、[Adobe Analytics ExperienceEvent フル拡張スキーマフィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=ja)を参照してください。
+## コンテキストデータ変数
+
+任意の形式でEdge Networkにデータを送信します。 `xdm` または `data` のオブジェクトフィールドに自動的にマッピングされないフィールドは、Adobe Analyticsに転送される際に [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) として含まれます。 次に、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) を使用して、目的のフィールドをそれぞれの Analytics 変数にマッピングする必要があります。
+
+例えば、次のようなカスタム XDM スキーマがあるとします。
+
+```json
+{
+  "xdm": {
+    "key": "value",
+    "animal": {
+      "species": "Raven",
+      "size": "13 inches"
+    },
+    "array": [
+      "v0",
+      "v1",
+      "v2"
+    ],
+    "objectArray":[{
+      "ad1": "300x200",
+      "ad2": "60x240",
+      "ad3": "600x50"
+    }]
+  }
+}
+```
+
+その後、これらのフィールドは、処理ルールインターフェイスで使用できるコンテキストデータキーになります。
+
+```javascript
+a.x.key // value
+a.x.animal.species // Raven
+a.x.animal.size // 13 inches
+a.x.array.0 // v0
+a.x.array.1 // v1
+a.x.array.2 // v2
+a.x.objectarray.0.ad1 // 300x200
+a.x.objectarray.1.ad2 // 60x240
+a.x.objectarray.2.ad3 // 600x50
+```
