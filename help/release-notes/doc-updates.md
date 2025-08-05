@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: afcf2b454bb0ffecb123661e6bcef126a3f16e17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6487'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

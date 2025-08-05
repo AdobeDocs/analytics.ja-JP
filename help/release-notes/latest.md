@@ -4,9 +4,9 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **アルゴリズムを使用した Livestream TNT フィールド** | Livestream は、テクノロジーが最新で安定した状態を維持できるよう更新中です。その更新の一環として、TNT フィールドにアルゴリズムが含まれている場合は、TNT フィールドを Livestream 出力に組み込み始めます。ただし、これには、以前サポートされていた要素（`campaignId`、`recipeId`、`trafficType`、`actionId`、`actionName`）のみが含まれます。Livestream の TNT スキーマ全体は変更されません。 |   | 2025年7月7日（PT） |
-| **顧客属性 UI へのナビゲーションを更新しました** | 顧客属性ユーザーインターフェイスに、Adobe Experience Cloudのアプリセレクターから直接アクセスできるようになりました。 **[!UICONTROL People]**/[!UICONTROL &#x200B; 顧客属性 &#x200B;] に移動するのではなく、ドロップダウンメニューから [!UICONTROL &#x200B; 顧客属性 &#x200B;] を選択して、ブックマークを更新してください。  この更新には、UI にいくつかの改善が含まれています。 | 2025年7月1日（PT） | 2025年7月31日（PT） |
+| **顧客属性 UI へのナビゲーションを更新しました** | Adobe Experience Cloud のアプリセレクターから顧客属性ユーザーインターフェイスに直接アクセスできるようになりました。（[!UICONTROL 人]／[!UICONTROL 顧客属性]に移動するのではなく）ドロップダウンメニューから&#x200B;**[!UICONTROL 顧客属性]**&#x200B;を選択して、ブックマークを更新してください。この更新では、UI にいくつかの改善が含まれています。 | 2025年7月1日（PT） | 2025年7月31日（PT） |
 
 ## Adobe Analytics の修正点
 

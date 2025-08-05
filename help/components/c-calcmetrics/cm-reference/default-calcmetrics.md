@@ -4,9 +4,9 @@ title: デフォルトの計算指標
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 
 >[!TIP]
 >
->[ データ要素 ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) を使用して、デフォルトの計算指標の定義と、その定義を構成する個々のコンポーネントについて詳しく調べます。
+>[データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)を使用して、デフォルトの計算指標の定義と、その定義を構成する個々のコンポーネントについて詳しく調べます。
 >
 
 
