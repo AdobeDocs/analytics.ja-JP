@@ -5,9 +5,9 @@ user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
 source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
