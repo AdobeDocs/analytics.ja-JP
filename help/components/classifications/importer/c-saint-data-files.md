@@ -3,7 +3,7 @@ description: インポーターを使用すると、分類データを Analytics
 title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # 分類データファイル（レガシー）
+
+{{classification-importer-deprecation}}
 
 インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常におこなうために、インポートでは指定のファイル形式を使用する必要があります。
 
@@ -112,7 +114,7 @@ ht-degree: 90%
 
 ### サブ分類見出し
 
-例えば、`Campaigns^Owner` は、`Campaign Owner` 値を含んだ列の列見出しです。 同様に、`Creative Elements^Size` は `Creative Elements` 分類の `Size` のサブ分類を含んだ列の列見出しです。
+例えば、`Campaigns^Owner` は、`Campaign Owner` 値を含んだ列の列見出しです。 同様に、`Creative Elements^Size` は `Size` 分類の `Creative Elements` のサブ分類を含んだ列の列見出しです。
 
 ## 分類のトラブルシューティング
 

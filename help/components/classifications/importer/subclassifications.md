@@ -3,14 +3,16 @@ description: Adobe Analytics では、単一レベルの分類モデルと複数
 title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # 下位分類
+
+{{classification-importer-deprecation}}
 
 Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
 

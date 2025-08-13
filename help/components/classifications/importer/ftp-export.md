@@ -3,7 +3,7 @@ title: FTP を使用した分類データのエクスポート
 description: FTP エクスポートは、複数のレポートスイートからのデータのダウンロードや、50,000 行を超えるデータセットファイルのダウンロードなど、データセットのダウンロードをより柔軟に実行できます
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # FTP エクスポート （レガシー）
+
+{{classification-importer-deprecation}}
 
 この FTP オプションによって、データセットをより柔軟にダウンロードできます。例えば、複数のレポートスイートのデータをダウンロードしたり、50,000 を超えるデータ行のあるデータセットファイルをダウンロードしたりできます。FTP を使用して分類データをダウンロードする前に、FTP アカウントを作成します。
 

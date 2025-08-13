@@ -3,7 +3,7 @@ description: 分類ルールを設定すると、分類されていない語句�
 title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # 分類ルール（レガシー）
+
+{{classification-rulebuilder-deprecation}}
 
 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 
@@ -23,7 +25,7 @@ ht-degree: 89%
 * **メール** および **ディスプレイ広告**： メールキャンペーンに対するディスプレイ広告キャンペーンのパフォーマンスを確認できるように、個々のディスプレイ広告キャンペーンをグループ化する分類ルールを作成します。
 
 * **トラッキングコード**：トラッキングコードの文字列から派生するキー値を分類するための分類ルールを作成し、定義した特定の条件と照合します。
-* **検索用語**: [ 正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) とワイルドカードを使用して、検索用語の分類を簡略化します。 例えば、検索用語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
+* **検索用語**: [ 正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) とワイルドカードを使用して、検索用語の分類を簡略化します。 例えば、検索語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
 
 例えば、メールキャンペーン ID が次のトラッキングコードを持つとします。
 
@@ -57,7 +59,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL &#x200B; グループ権限 &#x200B;] を指定します。
+* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL  グループ権限 ] を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -133,7 +135,7 @@ about_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
+| 正規表現 | &amp;Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
 
 **構文**
 

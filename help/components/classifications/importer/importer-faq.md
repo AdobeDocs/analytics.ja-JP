@@ -3,7 +3,7 @@ title: 分類 FAQ
 description: 分類の使用に関するよくある質問（FAQ）です。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 87%
@@ -11,6 +11,8 @@ ht-degree: 87%
 ---
 
 # 分類インポーターに関するよくある質問
+
+{{classification-importer-deprecation}}
 
 分類インポーターの使用に関するよくある質問です。
 

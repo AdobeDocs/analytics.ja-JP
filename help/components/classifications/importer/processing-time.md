@@ -3,7 +3,7 @@ title: 分類インポーターの処理時間
 description: アドビが分類ファイルを処理する時間枠と、処理時間を最小限に抑える方法について理解します。
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 分類インポーターの処理時間
+
+{{classification-importer-deprecation}}
 
 分類ファイルの処理時間は、ファイルのサイズと、ファイル処理の合計数によって異なります。分類は通常 24 時間以内で済みます。ただし、Adobe Analytics を使用する組織全体で分類が多く使用されている場合は、ファイルの長さが 24 時間を超える可能性があります。ホリデーシーズンの前の数か月には大量の分類の使用が見込まれます。
 

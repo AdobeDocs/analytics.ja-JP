@@ -3,7 +3,7 @@ description: インポーターを使用して、分類を Adobe Analytics に�
 title: 分類インポーター - 概要
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 92%
@@ -11,6 +11,8 @@ ht-degree: 92%
 ---
 
 # 分類インポーターの概要（レガシー）
+
+{{classification-importer-deprecation}}
 
 インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。
 

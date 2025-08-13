@@ -3,7 +3,7 @@ description: 分類データを削除する方法について手順を説明し�
 title: 分類データの削除
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # 分類データの削除
+
+{{classification-importer-deprecation}}
 
 アップロード後に分類データを削除する必要が生じる場合があります。削除する対象に応じて、`~empty~` または `~deletekey~` のいずれかを使用します。
 
