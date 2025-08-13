@@ -3,39 +3,41 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
-workflow-type: ht
-source-wordcount: '652'
-ht-degree: 100%
+source-git-commit: 07d6b4e096d239d4940f438c5eca46f496a18131
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 42%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2025年7月リリース）
+# 最新のAdobe Analytics リリースノート（2025 年 8 月リリース）
 
-**最終更新日**：2025年7月30日（PT）
+**最終更新日**：2025年8月13日（PT）
 
-このリリースノートは、2025年7月7日（PT）から 2025年8月15日（PT）のリリース期間を対象としています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+これらのリリースノートは、2025 年 8 月 13 日（PT）から 9 月 16 日（PT）までのリリース期間に対応しています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **アルゴリズムを使用した Livestream TNT フィールド** | Livestream は、テクノロジーが最新で安定した状態を維持できるよう更新中です。その更新の一環として、TNT フィールドにアルゴリズムが含まれている場合は、TNT フィールドを Livestream 出力に組み込み始めます。ただし、これには、以前サポートされていた要素（`campaignId`、`recipeId`、`trafficType`、`actionId`、`actionName`）のみが含まれます。Livestream の TNT スキーマ全体は変更されません。 |   | 2025年7月7日（PT） |
-| **顧客属性 UI へのナビゲーションを更新しました** | Adobe Experience Cloud のアプリセレクターから顧客属性ユーザーインターフェイスに直接アクセスできるようになりました。（[!UICONTROL 人]／[!UICONTROL 顧客属性]に移動するのではなく）ドロップダウンメニューから&#x200B;**[!UICONTROL 顧客属性]**&#x200B;を選択して、ブックマークを更新してください。この更新では、UI にいくつかの改善が含まれています。 | 2025年7月1日（PT） | 2025年7月31日（PT） |
+| **新しいリファラータイプのディメンション項目を使用した AI トラフィックの分析** | 10 月に、AI ツールからのトラフィックを分析するのに役立つ新しいリファラータイプ ディメンション項目が使用可能になります。 <p>この新しいリファラータイプのディメンション項目（会話型 AI ツールと呼ばれます）では、主要な AI ツールの参照領域をグループ化して、グループ全体のトレンドを調べることができます。 この新しいカテゴリ内の参照ドメインの初期リストには、以下が含まれます（ただし、これに限定されるものではありません）。</p><ul><li>chatgpt.com</li><li>claude.ai</li><li>m365.cloud.microsoft</li><li>grok.com</li><li>gemini.google.com</li><li>perplexity.ai</li></ul><p>新しいディメンション項目は、Analysis Workspace、Report Builder、Data Warehouse、データフィードなど、すべてのAdobe Analytics関連ツールで使用できるようになります。</p><p>この新しいディメンション項目を使用する場合は、次の点に注意してください。</p><ul><li>検索エンジンの「AI モード」で提供される結果から来たリファラートラフィックと、従来の検索結果からのクリックスルーから来たリファラートラフィックを区別できない場合があります。</li><li>新しい対話型 AI ツール ディメンション項目は、トラフィックが最も多い主要プロバイダーに焦点を当てています。 新しいトレンドにより、主要な AI ツールプロバイダーと類似したドメインを持つ偽装サイトの数が増加していることがわかります。 これは、個人やグループが独自の AI ツールを簡単に作成し、インターネット上でホストできるためです。 これは急速に進化しているスペースなので、人気のサイトが含まれていない場合は、Adobe サポートチームにお問い合わせください。</li><li>新しい対話型 AI ツールディメンション項目を含むリファラータイプ ディメンションは、Adobe Analyticsで処理されるデータでのみ使用できます。 </li></ul><p>（ドキュメントへのリンクを添付。）</p> |   | 2025年10月 |
+| **PDF としてダウンロードしたプロジェクトは、ワークステーションにダウンロードされます** | プロジェクトを as a PDFとしてダウンロードすると、PDFがワークステーションのダウンロードフォルダーにダウンロードされます。 <p>以前は、プロジェクトを as a PDFとしてダウンロードすると、PDFが一意の URL で新しいブラウザータブに表示されていました。</p><p>詳しくは、[ プロジェクトとデータのダウンロード ](/help/analyze/analysis-workspace/curate-share/download-send.md) を参照してください</p> |  | 2025年8月25日（PT） |
+| **削除されたプロジェクトは URL からすぐに使用できなくなり、スケジュールされた配信から削除されます** | 削除されたプロジェクトはスケジュールされた配信から直ちに削除され、URL からアクセスできなくなります。<p>以前は、プロジェクトはスケジュールされた配信に含まれ、削除後 60 日間 URL でアクセスできていました。</p><p>プロジェクトの削除について詳しくは、[ プロジェクトの概要 ](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) を参照してください。</p> | | 2025 年 8 月末 |
+| **ストリーミングメディア：ストリーミングメディアデータをAdobe Experience Platformに収集するための更新された XDM フィールド** | ストリーミングメディアデータを Adobe Experience Platform に収集する際、ストリーミングメディアパラメーターのドキュメントの「XDM フィールドパス」の見出しの下に表示されている XDM フィールドパスは使用できなくなりました。代わりに、2025 年 5 月 9 日（PT）より前にストリーミングメディアデータを Platform に収集するように Analytics ソースコネクタを実装したお客様は、ストリーミングメディアパラメーターに関するドキュメントの「XDM フィールドパスのレポート」の見出しで示されているように、既存の設定を mediaReporting フィールドパスに移行する必要があります。<p> これらのフィールドパスは次のページにあり、「非推奨」としてマークされています。[ オーディオおよびビデオパラメーター ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/audio-video-parameters)、[ 広告パラメーター ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/ad-parameters)、[ チャプターパラメーター ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/chapter-parameters)、[ プレーヤーステートパラメーター ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/player-state-parameters) および [ 品質パラメーター ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/quality-parameters)。 （2025 年 5 月 9 日（PT）以降に Analytics ソースコネクタを実装し、mediaReporting XDM パスのみを既に使用している顧客の場合は、アクションは必要ありません。）</p><p>非推奨（廃止予定）の XDM フィールドパスのデータ取り込みは、2025 年 10 月末まで継続されます。 その後、非推奨フィールドパスは完全に削除され、Adobe Experience Platform スキーマ UI に表示されなくなります。データは、mediaReporting フィールドパスを使用してのみ送信されます。</p><p>詳しくは、[ 更新された XDM ストリーミングメディアフィールドへの Analytics Source Connector 実装の移行 ](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields) を参照してください。</p><p>移行サポートについては、Adobe Consulting サービスまたはアカウントチームにお問い合わせください。 </p> |  | 2025年10月 |
 
 ## Adobe Analytics の修正点
 
-**Activity Map**：AN-360987
-**Analysis Workspace**：AN-378094、AN-380979、AN-382908、AN-387652、
-**分類**：AN-382412、AN-383157、AN-384616、AN-384803、AN-385933、AN-387320、AN-387351、AN-387832、AN-387833、AN-387839、AN-387915、
-**データ収集**：AN-387661
-**データフィード**：AN-375172、AN-384369、AN-387859、AN-387952、AN-388155、
-**Platform**：AN-382813、AN-386627、AN-386815
-**プライバシー**：AN-384390
-**Report Builder**：AN-388035
-**レポート**：AN-380441
-**予定レポート**：AN-378280、AN-378331
-**セグメント比較**：AN-368766
+**Activity Map**: AN-389205; AN-384186
+**Analysis Workspace**: AN-390102; AN-389066; AN-388841; AN-388687; AN-388478; AN-387089; AN-387044; AN-384560; AN-379213; AN-351639
+**分類**: AN-390442; AN-390385; AN-389953; AN-389703; AN-389321; AN-389116; AN-388833; AN-388717; AN-387987; AN-383329
+**データ収集**: AN-389320
+**データフィードおよびData Warehouse**:AN-389702; AN-388136; AN-387779; AN-384369; AN-383075; AN-380307
+**プライバシー**:
+**Report Builder**: AN-389336; AN-382775
+**レポート**: AN-390398
+**予定レポート**:
+**セグメント比較**:
+**その他**: AN-388180; AN-383164; AN-366532
 
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
