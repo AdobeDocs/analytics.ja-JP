@@ -1,22 +1,22 @@
 ---
-title: ストリーミングメディア品質指標
-description: レポートスイートの [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にするときに使用できる指標です。
+title: ストリーミングメディアサービス品質指標
+description: レポートスイートの [!UICONTROL  メディア品質 ] を有効にするときに使用できる指標です。
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
 
-# ストリーミングメディア品質指標
+# ストリーミングメディアサービス品質指標
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディア品質ディメンション ](../dimensions/sm-quality.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディアサービス品質ディメンション ](../dimensions/sm-quality.md) を参照してください。*
 
-ストリーミングメディア品質指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービス品質指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア品質]** を有効にすると、次の指標を使用できます。
+**[!UICONTROL メディアレポート]** の [ メディア品質 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次の指標を使用できます。
 
 | Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |
@@ -31,4 +31,4 @@ ht-degree: 1%
 | ドロップフレームの影響を受けたストリーム | 再生セッション中にフレームがドロップされた場合にトリガーを設定するブール値。 | メディアのクローズ | `a.media.qoe.droppedFrames` |
 | エラーの影響を受けたストリーム | 再生セッション中にビデオでエラーが発生した場合にトリガーにするブール値。 | メディアのクローズ | `a.media.qoe.error` |
 | エラーイベント | 再生セッション中に発生したエラーの合計数を表す整数。 | メディアのクローズ | `a.media.qoe.errorCount` |
-| 開始時間 | ビデオの開始に要した時間（ミリ秒単位）。 Adobeは、この値を秒単位に変換して保存します。 | メディアのクローズ | `a.media.qoe.timeToStart` |
+| 開始時間 | ビデオの開始に要した時間（ミリ秒単位）。 Adobeは、この値を秒単位で変換して保存します。 | メディアのクローズ | `a.media.qoe.timeToStart` |

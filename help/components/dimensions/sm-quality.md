@@ -1,24 +1,24 @@
 ---
-title: ストリーミングメディア品質ディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能なディメンション。
+title: ストリーミングメディアサービス品質ディメンション
+description: レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# ストリーミングメディア品質ディメンション
+# ストリーミングメディアサービス品質ディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディア品質指標 ](../metrics/sm-quality.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディアサービス品質指標 ](../metrics/sm-quality.md) を参照してください。*
 
-ストリーミングメディア品質ディメンションは、訪問者が消費するコンテンツの品質に関するレポートを提供します。 これらのディメンションを使用するには、[!UICONTROL Adobeのストリーミングメディアコレクション &#x200B;] が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービス品質ディメンションは、訪問者が消費するコンテンツの品質に関するレポートを提供します。 これらのディメンションを使用するには、[!UICONTROL Adobe Analytics for Streaming Media Ad-on] が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア品質]** を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の [ メディア品質 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
 
-| Dimension名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
+| ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |
 | 平均ビットレート | 平均ビットレート（100 KBPS バケット間隔）。 これは、特定の再生セッションの再生時間に関するすべてのビットレート値の加重平均として計算されます。 | メディアのクローズ | `a.media.qoe.bitrateAverageBucket` |
 | ビットレートの変更 | 再生セッション中に発生したビットレート変更の数。 | メディアのクローズ | `a.media.qoe.bitrateChangeCount` |

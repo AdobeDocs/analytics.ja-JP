@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 66%
 | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
 | **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
-| **`java_enabled`** | [[!UICONTROL Java 有効 &#x200B;]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
+| **`java_enabled`** | [[!UICONTROL Java 有効 ]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | **`javascript`** | `j_jscript` に基づく、JavaScript バージョンのルックアップ ID。 `javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 訪問者の言語を表す数値 ID。 `languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
@@ -150,7 +150,7 @@ ht-degree: 66%
 | **`os`** | 訪問者のオペレーティングシステムを表す数値 ID。 `user_agent` 列に基づきます。`operating_system.tsv` 標準検索と `operating_system_type.tsv` [動的検索](dynamic-lookups.md)のキー値。 | int unsigned |
 | **`page_event`** | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
 | **`page_event_var1`** | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
-| **`page_event_var2`** | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定した場合）。 `page_event` の値に応じて [ カスタムリンク ](/help/components/dimensions/custom-link.md)、[ ダウンロードリンク ](/help/components/dimensions/download-link.md) または [ 離脱リンク ](/help/components/dimensions/exit-link.md) を設定します。 | varchar(100) |
+| **`page_event_var2`** | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定した場合）。 [ の値に応じて ](/help/components/dimensions/custom-link.md) カスタムリンク [、](/help/components/dimensions/download-link.md) ダウンロードリンク [ または ](/help/components/dimensions/exit-link.md) 離脱リンク `page_event` を設定します。 | varchar(100) |
 | **`page_type`** | [ ページが見つかりません ](/help/components/dimensions/pages-not-found.md) ディメンション。通常、404 ページに使用されます。 | char(20) |
 | **`page_url`** | ヒットの URL。`post_page_url` は、リンクトラッキングのイメージリクエスト（[`tl()`](/help/implement/vars/functions/tl-method.md)）では削除され、データタイプ「varchar （255）」を使用します。 | テキスト |
 | **`pagename`** | 「[ ページ ](/help/components/dimensions/page.md)」ディメンション。 [`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
@@ -193,50 +193,50 @@ ht-degree: 66%
 | **`va_finder_id`** | [ ファーストタッチチャネル ](/help/components/dimensions/first-touch-channel.md) ディメンションを識別する数値 ID。 この ID のルックアップは、マーケティングチャネルマネージャーで確認できます。 | tinyint unsigned |
 | **`va_instance_event`** | マーケティングチャネル [ インスタンス ](/help/components/metrics/instances.md) を識別するフラグ。 | tinyint unsigned |
 | **`va_new_engagement`** | マーケティングチャネル [ 新規エンゲージメント ](/help/components/metrics/new-engagements.md) を識別するフラグ。 | tinyint unsigned |
-| **`video`** | [ コンテンツ ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoad`** | 「[ 広告 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videoadinpod`** | [ ポッド位置の広告 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoadlength`** | [ 広告の長さ（可変） ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | 整数 |
-| **`videoadload`** | [ 広告の読み込み ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoadname`** | [ 広告名（変数） ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoadplayername`** | 「[ 広告プレーヤー名 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videoadpod`** | [ 広告ポッド ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoadvertiser`** | [ 広告主 ](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudioalbum`** | [ アルバム ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudioartist`** | [ アーティスト ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudioauthor`** | [ オーサー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudiolabel`** | [ ラベル ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudiopublisher`** | [ パブリッシャー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoaudiostation`** | [ ステーション ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videocampaign`** | [ キャンペーン ID](/help/components/dimensions/sm-ads.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videochannel`** | [ コンテンツチャネル ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videochapter`** | [ チャプター ](/help/components/dimensions/sm-chapters.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videocontenttype`** | [ コンテンツタイプ ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videodaypart`** | [ 日部分 ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoepisode`** | [ エピソード ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアディメンション。 | varchar(255) |
-| **`videofeedtype`** | 「[ メディアフィードのタイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videogenre`** | [ ジャンル ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 このディメンションでは、コンマで区切られた同じヒットで複数の値を使用できます。 | テキスト |
-| **`videolength`** | 「[ コンテンツの長さ（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | 整数 |
-| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoname`** | [ コンテンツ名（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videonetwork`** | [ ネットワーク ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videopath`** | [ メディアパス ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(100) |
-| **`videoplayername`** | 「[ コンテンツプレーヤー名 ](/help/components/dimensions/sm-core.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videotime`** | ストリーミングメディア指標 [ コンテンツ視聴時間 ](/help/components/metrics/sm-core.md)。 | 整数 |
-| **`videoqoebitrateaverageevar`** | [ 平均ビットレート ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoqoebitratechangecountevar`** | [ ビットレート変更 ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoqoebuffercountevar`** | [ バッファーイベント ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoqoebuffertimeevar`** | [ ストリーミングメディアの合計バッファー時間 ](/help/components/dimensions/sm-quality.md) ディメンション。 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | 「[ ドロップフレーム ](/help/components/dimensions/sm-quality.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videoqoeerrorcountevar`** | [ エラー ](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoqoeextneralerrors`** | [ 外部エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
-| **`videoqoeplayersdkerrors`** | [Player SDK エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディア ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
-| **`videoqoetimetostartevar`** | [ ストリーミングメディアの開始時間 ](/help/components/dimensions/sm-quality.md) ディメンション。 | varchar(255) |
-| **`videoseason`** | [ シーズン ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videosegment`** | [ コンテンツセグメント ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
-| **`videoshow`** | 「ストリーミングメディア [ 表示 ](/help/components/dimensions/sm-video-metadata.md)」ディメンション。 | varchar(255) |
-| **`videoshowtype`** | 「[ 表示タイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディア」ディメンション。 | varchar(255) |
-| **`videostreamtype`** | [ ストリームタイプ ](/help/components/dimensions/sm-core.md) ストリーミングメディア ディメンション。 | varchar(255) |
+| **`video`** | [ コンテンツ ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoad`** | [Ad](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoadinpod`** | [ ポッド位置の広告 ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoadlength`** | [ 広告の長さ（変数） ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | 整数 |
+| **`videoadload`** | [ 広告の読み込み ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoadname`** | [ 広告名（変数） ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoadplayername`** | ストリーミングメディアサービスの「[ 広告プレーヤー名 ](/help/components/dimensions/sm-ads.md)」ディメンション。 | varchar(255) |
+| **`videoadpod`** | [ 広告ポッド ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoadvertiser`** | [ 広告主 ](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudioalbum`** | [ アルバム ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudioartist`** | [ アーティスト ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudioauthor`** | [ オーサー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudiolabel`** | [ ラベル ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudiopublisher`** | [ パブリッシャー ](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoaudiostation`** | [Station](/help/components/dimensions/sm-audio-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videocampaign`** | [ キャンペーン ID](/help/components/dimensions/sm-ads.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videochannel`** | [ コンテンツチャネル ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videochapter`** | [ チャプター ](/help/components/dimensions/sm-chapters.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videocontenttype`** | [ コンテンツタイプ ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videodaypart`** | [ 日分割 ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoepisode`** | [ エピソード ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videofeedtype`** | [ メディアフィードのタイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videogenre`** | [ ジャンル ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 このディメンションでは、コンマで区切られた同じヒットで複数の値を使用できます。 | テキスト |
+| **`videolength`** | [ コンテンツの長さ（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | 整数 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md) streaming media services ディメンション。 | varchar(255) |
+| **`videoname`** | [ コンテンツ名（変数） ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videonetwork`** | [ ネットワーク ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videopath`** | [ メディアパス ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(100) |
+| **`videoplayername`** | [ コンテンツプレーヤー名 ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videotime`** | ストリーミングメディアサービスの [ コンテンツ視聴時間 ](/help/components/metrics/sm-core.md) 指標。 | 整数 |
+| **`videoqoebitrateaverageevar`** | [ 平均ビットレート ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [ ビットレートの変更 ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoebuffercountevar`** | [ バッファーイベント ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoebuffertimeevar`** | [ 合計バッファー時間 ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | [ ドロップフレーム ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoeerrorcountevar`** | [ エラー ](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoqoeextneralerrors`** | [ 外部エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
+| **`videoqoeplayersdkerrors`** | [Player SDK エラー ID](/help/components/dimensions/sm-quality.md) ストリーミングメディアサービス ディメンション。 このディメンションでは、同じヒットに複数の値を含めることができます。 | テキスト |
+| **`videoqoetimetostartevar`** | ストリーミングメディアサービスの [ 開始時間 ](/help/components/dimensions/sm-quality.md) ディメンション。 | varchar(255) |
+| **`videoseason`** | [ シーズン ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videosegment`** | [ コンテンツセグメント ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videoshow`** | ストリーミングメディアサービスを [ 表示 ](/help/components/dimensions/sm-video-metadata.md) ディメンション。 | varchar(255) |
+| **`videoshowtype`** | [ 表示タイプ ](/help/components/dimensions/sm-video-metadata.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`videostreamtype`** | [ ストリームタイプ ](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
 | **`visid_high`** | `visid_low` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_low`** | `visid_high` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_new`** | ヒットに新しく生成された訪問者 ID が含まれるかどうかを決定するフラグ。 | char(1) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM オブジェクト変数のマッピング ](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[データオブジェクト変数マッピング ](/help/implement/aep-edge/data-var-mapping.md)
+>>[データオブジェクト変数マッピング ](/help/implement/aep-edge/data-var-mapping.md)

@@ -1,22 +1,22 @@
 ---
 title: ストリーミングメディアチャプターディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能なディメンション。
+description: レポートスイートに対して [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 13%
 
 ---
 
-# ストリーミングメディアチャプターディメンション
+# ストリーミングメディアサービスチャプターディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[ ストリーミングメディアチャプター指標 ](../metrics/sm-chapters.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディアチャプター ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[ ストリーミングメディアサービスのチャプター指標 ](../metrics/sm-chapters.md) を参照してください。*
 
-ストリーミングメディアチャプターディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービスチャプターディメンションは、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の下の **[!UICONTROL メディアチャプター]** を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の下の [ メディアチャプター ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

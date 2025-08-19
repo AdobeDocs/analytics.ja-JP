@@ -3,9 +3,9 @@ title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 60%
 >
 >カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有の値です。
 
-## Analysis WorkspaceでサポートされるDimension
+## Analysis Workspaceでサポートされるディメンション
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |---|---|
@@ -101,7 +101,7 @@ ht-degree: 60%
 | [ ブラウザーの高さ – バケット化 ](browser-height.md) | `browserheightbucketed` |
 | [ ブラウザーの幅 – バケット化 ](browser-width.md) | `browserwidthbucketed` |
 | [日](day.md) | `daterangeday` |
-| [日付](day-of-month.md) | `timepartdayofmonth` |
+| [月間通算日](day-of-month.md) | `timepartdayofmonth` |
 | [曜日](day-of-week.md) | `dayofweek` |
 | [曜日](day-of-week.md) | `timepartdayofweek` |
 | [年間通算日](day-of-year.md) | `timepartdayofyear` |
@@ -118,7 +118,7 @@ ht-degree: 60%
 | [ ヒットの深度 ](hit-depth.md) | `hitdepth` |
 | [ヒットタイプ](hit-type.md) | `hittype` |
 | [時間](hour.md) | `daterangehour` |
-| [時刻](hour-of-day.md) | `timeparthourofday` |
+| [時間帯](hour-of-day.md) | `timeparthourofday` |
 | [ マーケティングチャネルの詳細 ](marketing-detail.md) | `marketingchanneldetail` |
 | [分](minute.md) | `daterangeminute` |
 | [ モバイルの最大ブックマーク長 ](mobile-dimensions.md) | `mobilebookmarklength` |
@@ -130,7 +130,7 @@ ht-degree: 60%
 | [Mobile Net プロトコル ](mobile-dimensions.md) | `mobilenetprotocols` |
 | [ モバイルプッシュ通知 ](mobile-dimensions.md) | `mobilepushtotalk` |
 | [月](month.md) | `daterangemonth` |
-| [ 月 ](month-of-year.md) | `timepartmonthofyear` |
+| [年間通算月](month-of-year.md) | `timepartmonthofyear` |
 | [オペレーティングシステムの種類](operating-system-types.md) | `operatingsystemgroup` |
 | [有料検索](paid-search.md) | `paidsearch` |
 | [ 永続的な Cookie のサポート ](persistent-cookie-support.md) | `persistentcookie` |
@@ -157,7 +157,7 @@ ht-degree: 60%
 
 ## Analysis Workspaceでサポートされるコンテンツ対応のディメンション
 
-### ビデオ（ストリーミングメディアコレクション）
+### ビデオ（ストリーミングメディアサービス）
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
@@ -209,7 +209,7 @@ ht-degree: 60%
 
 ### Adobe Social
 
-Adobe Socialは廃止されました。
+Adobe Social は廃止されました。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
@@ -279,9 +279,9 @@ Adobe Socialは廃止されました。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
-| [Activity Mapリンク （地域別） ](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Activity Map リンク （地域別） ](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Activity Map地域 ](activity-map-region.md) | `clickmapregion` |
-| [Activity Mapリンク ](activity-map-link.md) | `clickmaplink` |
+| [Activity Map リンク ](activity-map-link.md) | `clickmaplink` |
 | [Activity Mapページ ](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 統合

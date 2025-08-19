@@ -1,22 +1,22 @@
 ---
-title: ストリーミングメディア広告指標
-description: レポートスイートの [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用できる指標です。
+title: ストリーミングメディアサービスと指標
+description: レポートスイートの [!UICONTROL  メディア広告 ] を有効にした場合に使用できる指標です。
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 5%
 
 ---
 
-# ストリーミングメディア広告指標
+# ストリーミングメディアサービスと指標
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディア広告ディメンション ](../dimensions/sm-ads.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディアサービス広告ディメンション ](../dimensions/sm-ads.md) を参照してください。*
 
-ストリーミングメディア広告指標は、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービスと指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL メディア広告]** を有効にすると、次の指標を使用できます。
+**[!UICONTROL メディアレポート]** の [ メディア広告 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次の指標を使用できます。
 
 | Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

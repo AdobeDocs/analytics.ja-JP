@@ -1,20 +1,20 @@
 ---
-title: ストリーミングメディアオーディオメタデータのディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; オーディオメタデータ &#x200B;] を有効にすると、使用可能な寸法になります。
+title: ストリーミングメディアサービスのオーディオメタデータのディメンション
+description: レポートスイートに対して [!UICONTROL  オーディオメタデータ ] を有効にすると、使用可能な寸法になります。
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '148'
 ht-degree: 8%
 
 ---
 
-# ストリーミングメディアオーディオメタデータのディメンション
+# ストリーミングメディアサービスのオーディオメタデータのディメンション
 
-ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービスとディメンションは、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) で **[!UICONTROL オーディオメタデータ]** を有効にすると、次の寸法を使用できます。
+**[!UICONTROL メディアレポート]** で [ オーディオメタデータ ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次の寸法を使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

@@ -1,22 +1,22 @@
 ---
-title: ストリーミングメディアビデオのメタデータディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; ビデオメタデータ &#x200B;] を有効にすると、使用可能なディメンションになります。
+title: ストリーミングメディアサービスのビデオメタデータのディメンション
+description: レポートスイートに対して [!UICONTROL  ビデオメタデータ ] を有効にすると、使用可能なディメンションになります。
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 6%
 
 ---
 
-# ストリーミングメディアビデオのメタデータディメンション
+# ストリーミングメディアサービスのビデオメタデータのディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; ビデオメタデータ &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[ ストリーミングメディアビデオメタデータ指標 ](../metrics/sm-video-metadata.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  ビデオメタデータ ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[ ストリーミングメディアサービスのビデオメタデータ指標 ](../metrics/sm-video-metadata.md) を参照してください。*
 
-ストリーミングメディア広告ディメンションは、ストリーミングメディアコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobeのストリーミングメディアコレクション]** が必要です。 詳しくは、Adobeアカウントチームにお問い合わせください。
+ストリーミングメディアサービスとディメンションは、ストリーミングメディアサービスコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-[ メディアレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) の **[!UICONTROL ビデオメタデータ]** を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の [ ビデオメタデータ ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

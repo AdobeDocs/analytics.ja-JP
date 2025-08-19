@@ -4,10 +4,10 @@ description: Analysis Workspaceのメディア同時閲覧者パネルを使用�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 98%
+source-wordcount: '1241'
+ht-degree: 95%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->メディア分平均オーディエンスパネルは、Adobe Analytics 用ストリーミングメディアコレクションアドオンを購入したお客様のみが使用できます。
+>メディア分平均オーディエンスパネルは、Adobe Analytics for Streaming Media アドオンを購入したお客様のみが利用できます。
 >
 >詳しくは、アドビ担当営業または販売店か、アドビアカウントチームにお問い合わせください。
 >
@@ -56,7 +56,7 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/342838?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 
 1. **[!UICONTROL メディア同時視聴者数]**&#x200B;パネルを作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
-1. ストリーミングメディアコレクションから設定されたコンポーネントを含むパネルのデータビューを選択します。
+1. ストリーミングメディア用 Adobe Analytics アドオンから設定されたコンポーネントを含むパネルのデータビューを選択していることを確認してください。
 
 1. パネルの[入力](#panel-input)を指定します。
 
@@ -131,8 +131,8 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[メディア再生滞在時間パネル](media-playback-time-spent.md)
->&#x200B;>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
+>>[メディア再生滞在時間パネル](media-playback-time-spent.md)
+>>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342838/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

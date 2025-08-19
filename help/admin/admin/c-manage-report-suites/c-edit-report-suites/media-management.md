@@ -4,7 +4,7 @@ title: メディア管理
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 23%
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 * [!UICONTROL **メディアレポート**]
 
-  これらのチェックボックスを使用して、ストリーミングメディアコレクションに固有のディメンションと指標を有効にします。
+  これらのチェックボックスを使用して、ストリーミングメディアサービス固有のディメンションと指標を有効にします。
 
    * [メディアコアディメンション](/help/components/dimensions/sm-core.md)
    * [メディアコア指標](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ ht-degree: 23%
 
 * [!UICONTROL **メディアの分類**]
 
-  ストリーミングメディアコレクションのディメンションに固有の分類は、[!UICONTROL &#x200B; メディア分類 &#x200B;] ページで使用できます。 コンバージョン変数で使用可能な [ コンバージョン分類 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) と同様に動作します。 [!UICONTROL &#x200B; メディアレポート &#x200B;] の下で特定のコンポーネントを有効にすると、分類ディメンションが自動的に作成されます。 このインターフェイスを使用して、独自の分類ディメンションを作成したり、分類データをアップロードしたりできます。
+  ストリーミングメディアサービスディメンションに固有の分類は、[!UICONTROL  メディア分類 ] ページで使用できます。 コンバージョン変数で使用可能な [ コンバージョン分類 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) と同様に動作します。 [!UICONTROL  メディアレポート ] の下で特定のコンポーネントを有効にすると、分類ディメンションが自動的に作成されます。 このインターフェイスを使用して、独自の分類ディメンションを作成したり、分類データをアップロードしたりできます。
 
-ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、[ ストリーミングメディアコレクションガイド ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) を参照してください。
+ストリーミングメディアデータをAdobe Analyticsに組み込む方法について詳しくは、[Adobe streaming media services の概要 ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview) を参照してください。

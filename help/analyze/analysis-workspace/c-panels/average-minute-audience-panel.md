@@ -4,10 +4,10 @@ description: Analysis Workspaceのメディア分平均オーディエンスパ�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: c9299befa63868ce0450af9c63132738474e2371
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 95%
+source-wordcount: '1822'
+ht-degree: 92%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _&#x200B;**のメディア分平均オーディエンスパネルに関する情報を提供します**&#x200B;_。<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**メディア分平均オーディエンスパネル** を参照してください。_
+_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _**のメディア分平均オーディエンスパネルに関する情報を提供します**_。<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**メディア分平均オーディエンスパネル** を参照してください。_
 
 >[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->**[!UICONTROL メディア分平均オーディエンス]**&#x200B;パネルは、Adobe Analytics 用ストリーミングメディアコレクションを購入したお客様のみが使用できます。
+>**[!UICONTROL メディア分平均オーディエンス]** パネルは、Adobe Analytics for Streaming Media アドオンを購入したお客様のみが利用できます。
 >
 >詳しくは、アドビ担当営業または販売店か、アドビアカウントチームにお問い合わせください。
 >
@@ -67,7 +67,7 @@ Analysis Workspace では、分平均オーディエンスは次の情報を提�
 
 1. **[!UICONTROL メディア分平均オーディエンス]**&#x200B;パネルを作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
-1. ストリーミングメディアコレクションから設定されたコンポーネントを含むパネルのデータビューを選択します。
+1. ストリーミングメディア用 Adobe Analytics アドオンから設定されたコンポーネントを含むパネルのデータビューを選択していることを確認してください。
 
 1. パネルの[入力](#panel-input)を指定します。
 
@@ -187,8 +187,8 @@ Analysis Workspace では、分平均オーディエンスは次の情報を提�
 >[!MORELIKETHIS]
 >
 > [パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [メディア同時視聴者数パネル](media-concurrent-viewers.md)
-> &#x200B;> [メディア再生滞在時間パネル](media-playback-time-spent.md)
+> > [メディア同時視聴者数パネル](media-concurrent-viewers.md)
+> > [メディア再生滞在時間パネル](media-playback-time-spent.md)
 >
 
 
