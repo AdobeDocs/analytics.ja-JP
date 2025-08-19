@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6505'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年8月** | |
-| 非推奨の警告 | [ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-builder.md) および [ 分類インポーター ](/help/components/classifications/importer/c-working-with-saint.md) セクションの記事に非推奨の警告を追加しました。 |
+| 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
 | **2025年7月** | |
 | 処理ルール | 処理ルールのドキュメントを完全に一新し、インターフェイスと現在のユースケースについて詳しく説明しました。 |
 | デバッガー | Analysis Workspace でプロジェクトデバッガーを有効、使用、無効にする方法に関する新しい記事です。 |
