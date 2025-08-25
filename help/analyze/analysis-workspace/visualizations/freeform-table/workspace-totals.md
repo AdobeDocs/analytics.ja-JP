@@ -4,10 +4,10 @@ title: 合計
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 81%
+source-wordcount: '496'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 
 ![総計とテーブルの合計をハイライト表示するフリーフォームテーブル。](assets/total-row.png)
 
-* **[!UICONTROL テーブル合計]** ➊ – この合計は、通常、[!UICONTROL &#x200B; 総計 &#x200B;] と等しいか、またはそのサブセットです。 合計には、「[!UICONTROL なしを含む]」オプションを含む、フリーフォームテーブル内で適用された任意のテーブルフィルターが反映されます。
+* **[!UICONTROL テーブル合計]** ➊ – この合計は、通常、[!UICONTROL  総計 ] と等しいか、またはそのサブセットです。 合計には、「[!UICONTROL なしを含む]」オプションを含む、フリーフォームテーブル内で適用された任意のテーブルフィルターが反映されます。
 * **[!UICONTROL 総計]** （**[!UICONTROL 範囲外]** *数値*） ➋ – この合計は、収集されたすべてのイベントを表します。 フィルターがパネルレベルまたはフリーフォームテーブル内で適用されると、この合計は、フィルター条件に一致するすべてのイベントを反映するように調整されます。
 
 
@@ -33,7 +33,7 @@ ht-degree: 81%
 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 列設定]** には、「**[!UICONTROL 合計を表示]**」と「**[!UICONTROL 総計を表示]**」のオプションがあります。これらの設定をオフにすると、合計がテーブルから削除されます。これは、合計が意味をなさない場合に行う必要があります。
 
 
-[静的行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)の合計は動作が異なり、![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 行設定]**&#x200B;を使用して制御されます。
+[ 静的行 ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) を含むフリーフォームテーブルでは、合計の動作が異なります。 およびは、![ 設定 ](/help/assets/icons/Setting.svg) **[!UICONTROL 行設定]** を使用して制御されます。
 
 | オプション | 説明 |
 |---|---|

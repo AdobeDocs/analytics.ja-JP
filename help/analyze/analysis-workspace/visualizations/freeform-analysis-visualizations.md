@@ -5,10 +5,10 @@ title: 視覚化の概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 94%
+source-wordcount: '1707'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 | アイコン | 名前 | 説明 |
 | :---: | --- | ---| 
-| ![GraphArea](/help/assets/icons/GraphArea.svg) | [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md) | 面グラフのビジュアライゼーション。折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md) | 面グラフのビジュアライゼーション。折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の積集合により表現される領域を視覚化する場合は、面グラフを使用します。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1 つ以上の指標の様々な値を表す縦棒グラフを含む棒グラフビジュアライゼーション。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [積み重ね棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1 つ以上の指標の様々な値を表す縦棒グラフを含む積み重ね棒グラフビジュアライゼーション。 |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [ブレット](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 関心のある値が他のパフォーマンス範囲（目標）とどのように比較または測定されるかを示すブレットグラフビジュアライゼーション。 |
@@ -93,6 +93,21 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
    * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。次に、サブメニューからビジュアライゼーションを選択します。テーブル内の現在の選択に基づいて、Workspace は提供するビジュアライゼーションを決定し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
+[ 棒グラフ ](line.md) ビジュアライゼーションの [ 折れ線グラフ ](bar.md) などのシンプルなビジュアライゼーションを追加する場合、そのビジュアライゼーションは最も近いフリーフォームテーブルをデータソースとして使用します。 ビジュアライゼーションの [ データソース ](#data-source) はいつでも変更できます。
+
+## ビジュアライゼーションの管理
+
+ビジュアライゼーションの上にマウスポインターを置くか、ビジュアライゼーションを選択すると、ビジュアライゼーションを管理できます。
+
+![ ビジュアライゼーションを管理 ](assets/manage-visualization.png)
+
+* ビジュアライゼーションを折りたたむには、「![ 山形記号 ](/help/assets/icons/ChevronDown.svg)」を選択します。
+* 折りたたまれたビジュアライゼーションを表示するには、「![ 山形の左 ](/help/assets/icons/ChevronLeft.svg)」を選択します。
+* ビジュアライゼーションを削除するには、「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択します。 取り消すには、**[!UICONTROL 編集]** > **[!UICONTROL 取り消し]** （**[!UICONTROL *cmd+z *]**を選択します |**[!UICONTROL * ctrl+z *]**）。
+* ビジュアライゼーションをデフォルトの高さに戻すには、![ImageResize](/help/assets/icons/Resize.svg) を選択します。
+* パネル内でビジュアライゼーションを移動するには、![ 移動 ](/help/assets/icons/Move.svg) が表示されている場合（通常はヘッダーにカーソルを合わせたとき）は常に、ビジュアライゼーションをドラッグ&amp;ドロップします。
+
+
 ## 凡例
 
 ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーションでシリーズを表示／非表示にすることができます。これは、視覚化するデータを簡素化する場合に役立ちます。
@@ -110,6 +125,20 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 1. **[!UICONTROL Enter]** キーを押して保存します。
 
 
+## 設定
+
+各ビジュアライゼーションには、独自の設定があります。ビジュアライゼーション設定にアクセスするには、ビジュアライゼーションヘッダーで ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]** を選択して、ポップアップを表示します。
+
+ビジュアライゼーションに応じて、次を設定できます
+
+* 「[**[!UICONTROL データソース]**](#data-source)」タブを介したビジュアライゼーションのデータのソースの詳細。
+* 「[**[!UICONTROL 設定]**](#settings-1)」タブを介したビジュアライゼーションの設定。
+
+![ビジュアライゼーション設定](assets/visualization-settings.png)
+
+### データソース
+
+ビジュアライゼーションに対応するデータソースと、このデータソース内の項目または位置を制御できます。詳しくは、[データソースの管理](t-sync-visualization.md)を参照してください。
 
 ### 設定
 
@@ -217,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
@@ -234,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41448/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->
