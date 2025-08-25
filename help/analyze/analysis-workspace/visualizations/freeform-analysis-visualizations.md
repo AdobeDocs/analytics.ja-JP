@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41448/?quality=12&captions=jpn)
 
 -->
