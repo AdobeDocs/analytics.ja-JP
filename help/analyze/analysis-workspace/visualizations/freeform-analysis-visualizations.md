@@ -103,7 +103,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 * ビジュアライゼーションを折りたたむには、「![ 山形記号 ](/help/assets/icons/ChevronDown.svg)」を選択します。
 * 折りたたまれたビジュアライゼーションを表示するには、「![ 山形の左 ](/help/assets/icons/ChevronLeft.svg)」を選択します。
-* ビジュアライゼーションを削除するには、「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択します。 取り消すには、**[!UICONTROL 編集]** > **[!UICONTROL 取り消し]** （**[!UICONTROL *cmd+z *]**を選択します |**[!UICONTROL * ctrl+z *]**）。
+* ビジュアライゼーションを削除するには、「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択します。 取り消すには、**[!UICONTROL 編集]** > **[!UICONTROL 取り消し]** （**[!UICONTROL *cmd+z *]**&#x200B;を選択します |**[!UICONTROL * ctrl+z *]**）。
 * ビジュアライゼーションをデフォルトの高さに戻すには、![ImageResize](/help/assets/icons/Resize.svg) を選択します。
 * パネル内でビジュアライゼーションを移動するには、![ 移動 ](/help/assets/icons/Move.svg) が表示されている場合（通常はヘッダーにカーソルを合わせたとき）は常に、ビジュアライゼーションをドラッグ&amp;ドロップします。
 
