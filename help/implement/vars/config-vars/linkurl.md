@@ -4,18 +4,18 @@ description: AppMeasurement がリンクトラッキングコールで使用す�
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 65%
+source-wordcount: '190'
+ht-degree: 37%
 
 ---
 
 # linkURL
 
-リンクトラッキングコールがアドビに送信されるたびに、データ収集サーバーは URL を自動的に検出します。`linkURL` 変数は、検出された URL を上書きするために使用します。
+リンクトラッキングコールがAdobeに送信されるたびに、AppMeasurementはクリックされた URL を検出します。 この URL は、ダウンロードリンクや離脱リンクなど、リンクタイプを判断するのに役立ちます。 `linkURL` 変数は、検出された URL を上書きするために使用します。
 
-Analysis Workspaceには、この変数についてレポートするディメンションはありません。 [ データフィード ](/help/export/analytics-data-feed/data-feed-overview.md) の `page_event_var1` 列に入力されます。
+Analysis Workspaceには、この変数についてレポートするディメンションはありません。 `page_event_var1` データフィード [ の ](/help/export/analytics-data-feed/data-feed-overview.md) 列に入力されます。 クリックされたリンクの URL をトラッキングする場合、Adobeでは [Prop](../page-vars/prop.md) などのカスタム変数を使用することをお勧めします。
 
 ## Web SDKを使用した URL のリンク
 
@@ -30,7 +30,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.linkURL
 
-`s.linkURL` 変数は、リンクがクリックされたときのブラウザー URL を含む文字列です。この変数は、レポートで使用できるディメンションを入力しません。
+`s.linkURL` 変数は、クリックされたリンクの完全な URL を含む文字列です。 この変数は、レポートで使用できるディメンションを入力しません。
 
 ```js
 s.linkURL = "https://example.com";
