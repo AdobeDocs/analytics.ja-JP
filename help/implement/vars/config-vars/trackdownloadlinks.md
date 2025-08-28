@@ -19,12 +19,12 @@ ht-degree: 50%
 
 ## Web SDK拡張機能を使用したクリック収集の有効化または無効化
 
-Web SDKを設定する際は、「[!UICONTROL  クリックデータ収集を有効にする ]」チェックボックスを使用します。 このチェックボックスでは、離脱リンクとダウンロードリンクの両方を処理します。
+Web SDKを設定する際は、「[!UICONTROL &#x200B; クリックデータ収集を有効にする &#x200B;]」チェックボックスを使用します。 このチェックボックスでは、離脱リンクとダウンロードリンクの両方を処理します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「{4 **[!UICONTROL Adobe Experience Platform Web SDK]**」の下にある「設定 [!UICONTROL  ボタンをクリックします。]
-1. [!UICONTROL  データ収集 ] で、「**[!UICONTROL クリックデータ収集を有効にする]**」チェックボックスをクリックします。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「&lbrace;4 **[!UICONTROL Adobe Experience Platform Web SDK]**」の下にある「設定 [!UICONTROL &#x200B; ボタンをクリックします。]
+1. [!UICONTROL &#x200B; データ収集 &#x200B;] で、「**[!UICONTROL クリックデータ収集を有効にする]**」チェックボックスをクリックします。
 
 ## Web SDKを手動で実装して、クリックコレクションを有効または無効にします
 
