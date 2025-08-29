@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6506'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
 * [!UICONTROL Customer Journey Analytics] について詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)を参照してください。
-* Adobe ストリーミングメディアサービスについて詳しくは、[Analytics でのオーディオとビデオの測定 ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) を参照してください。
+* ストリーミングメディアサービスについて詳しくは、[Analytics でのオーディオとビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## ドキュメントの主な更新の詳細
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 | データフィードの管理に関するドキュメントを更新しました。 | [データフィードの管理](/help/export/analytics-data-feed/df-manage-feeds.md)の情報を更新して、明確化しました。 <p>更新内容は次のとおりです。</p><ul><li>情報を簡単にスキャンして使用できるように、様々なタスクに対して個別のセクションを作成しました。</li><li>再アクティブ化されたライブフィードの動作の変更に関する情報を追加しました。これらの変更は現在、限定提供となっており、まだすべてのお客様が利用できるわけではありません。</li><li>データフィードを削除する前に、そのステータスがアクティブである必要があることを示す情報を追加しました。</li> |
 | 一般的なエラーメッセージを更新しました。 | [一般的なエラーメッセージ](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)に対するマイナーな更新を行いました。 |
 | **2024年6月** | |
-| ストリーミングメディアサービス機能を参照する製品名を更新しました | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」と「ストリーミングメディアコレクション」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
+| ストリーミングメディアサービスの機能を参照する製品名を更新しました。 | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」と「ストリーミングメディアコレクション」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
 | アラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。これらの更新には、[アラートの作成](/help/components/c-alerts/alert-builder.md)、[アラートの管理](/help/components/c-alerts/alert-manager.md)、[概要情報](/help/components/c-alerts/intellligent-alerts.md)に関する情報が含まれます。 |
 | 非推奨`cookieDomainPeriods` | AppMeasurement が Cookie を設定する適切なドメインを自動的に検出するようになったので、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 変数は非推奨（廃止予定）になりました。 |
 | Data Connectors ドキュメントの廃止 | Data Connectors のサポート終了ページを[販売終了した製品](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-connectors)に移動しました。 |
