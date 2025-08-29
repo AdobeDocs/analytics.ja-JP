@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: ht
-source-wordcount: '6506'
-ht-degree: 100%
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+workflow-type: tm+mt
+source-wordcount: '6520'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年8月** | |
+| データフィード名は一意である必要があります | [ データフィード名は一意である必要がある ](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) 理由を明確にしました。 |
 | 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
 | **2025年7月** | |
 | 処理ルール | 処理ルールのドキュメントを完全に一新し、インターフェイスと現在のユースケースについて詳しく説明しました。 |
