@@ -35,7 +35,7 @@ Activity Map拡張機能を使用すると、web サイトにオーバーレイ�
 * **標準/ライブビュー**：標準ビューとライブビューを切り替えます。
    * 標準ビュー：履歴データに基づいてオーバーレイを表示します。
    * ライブビュー：ライブデータに基づいてオーバーレイを表示します。 日付セレクターが、ライブデータの精度を変更できるドロップダウンメニューに変わります。
-* **指標セレクター**：オーバーレイでレポートする指標を変更できます。 ライブ表示を選択している場合は、[!UICONTROL  リンククリック数 ] のみ使用できます。
+* **指標セレクター**：オーバーレイでレポートする指標を変更できます。 ライブ表示を選択している場合は、[!UICONTROL &#x200B; リンククリック数 &#x200B;] のみ使用できます。
 * **セグメントセレクター**:[ セグメント ](/help/components/segmentation/seg-overview.md) を選択し、オーバーレイ内のデータのサブセットを表示できます。 セグメントは、ライブ表示では使用できません。
 * **オーバーレイビジュアライゼーションタイプ**：オーバーレイでリンクのランキングを視覚化する方法を変更できます。
    * **[!UICONTROL バブル]**：トップリンクには、レポート期間中の数値ランクを示す緑のバブルが表示されます。 バブルの色は [ 設定 ](settings.md) で変更できます。
@@ -70,7 +70,7 @@ Activity Map拡張機能を使用すると、web サイトにオーバーレイ�
 * **レポートタイプ**：下部パネルを切り替えて、**[!UICONTROL ページ上のリンク]** レポートまたは **[!UICONTROL ページの詳細]** レポートを表示します。
 * **[!UICONTROL ページ名]**：現在の [ ページ ](/help/components/dimensions/page.md) ディメンション名。
 * **[!UICONTROL 検索]**：入力したテキストに一致するリンク名のみを表示するように、レポートをフィルタリングします。
-* **[!UICONTROL ダウンロード]**：レポートを CSV に書き出します。 [!UICONTROL  ページ上のリンク ] レポート、[!UICONTROL  ページ ] レポートおよび [!UICONTROL  ページフロー ] レポートを同じダウンロードファイルに含めることができます。
+* **[!UICONTROL ダウンロード]**：レポートを CSV に書き出します。 [!UICONTROL &#x200B; ページ上のリンク &#x200B;] レポート、[!UICONTROL &#x200B; ページ &#x200B;] レポートおよび [!UICONTROL &#x200B; ページフロー &#x200B;] レポートを同じダウンロードファイルに含めることができます。
 * **[!UICONTROL レポートのドッキング位置を変更]**：このパネルの位置を切り替えて、ブラウザーウィンドウの下部または上部に表示します。
 * **[!UICONTROL レポートを閉じる]**：このパネルを閉じます。 上部パネルの **[!UICONTROL ページの詳細を切り替え]** ボタン（目のアイコン）を使用して、パネルを再度開くことができます。
 
@@ -85,14 +85,14 @@ Activity Map拡張機能を使用すると、web サイトにオーバーレイ�
 **[!UICONTROL ページの詳細]** レポートでは、現在のページに焦点を当て、[ ページ ](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) ディメンションを使用して [ フロー ](/help/components/dimensions/page.md) ビジュアライゼーションを表示します。 現在のページの次の指標が左側に表示されます。
 
 * 合計 [ ページビュー数 ](/help/components/metrics/page-views.md)
-* 全ページビューの [!UICONTROL  %]
+* 全ページビューの [!UICONTROL &#x200B; %]
 * [ 入口 ](/help/components/metrics/entries.md) 数
 * [ 出口 ](/help/components/metrics/exits.md) 数
 * [直帰数](/help/components/metrics/single-page-visits.md)
-* [!UICONTROL  ページへの平均クリック数 ]
+* [!UICONTROL &#x200B; ページへの平均クリック数 &#x200B;]
 * 平均 [ ページでの滞在時間 ](/help/components/metrics/time-spent.md)
 * [ リロード ](/help/components/metrics/reloads.md) 数
 * [バウンス率](/help/components/metrics/bounce-rate.md)
-* [!UICONTROL  リンククリック数 ]
+* [!UICONTROL &#x200B; リンククリック数 &#x200B;]
 
 ![ページの詳細](../assets/page-details.png)

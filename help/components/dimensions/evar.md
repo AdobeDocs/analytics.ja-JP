@@ -16,7 +16,7 @@ ht-degree: 77%
 
 eVar はカスタム [ ディメンション ](overview.md) で、好きなように使用できます。 [ ソリューションデザインドキュメント ](/help/implement/prepare/solution-design.md) がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。
 
-デフォルトでは、eVar は設定されたヒットを超えても保持されます。 Adobeのアーキテクチャに対するeVarの永続性に関する詳細については、以下の [eVar の仕組み ](#how-evars-work) および [eVar と指標の結び付け方法 ](#how-evars-tie-to-metrics) の節を参照してください。 [ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) の [!UICONTROL  コンバージョン変数 ] で、その有効期限と配分を有効化、無効化またはカスタマイズできます。 次の画像は、コンバージョン変数インターフェイスでのeVar定義の例を示しています。
+デフォルトでは、eVar は設定されたヒットを超えても保持されます。 Adobeのアーキテクチャに対するeVarの永続性に関する詳細については、以下の [eVar の仕組み ](#how-evars-work) および [eVar と指標の結び付け方法 ](#how-evars-tie-to-metrics) の節を参照してください。 [ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) の [!UICONTROL &#x200B; コンバージョン変数 &#x200B;] で、その有効期限と配分を有効化、無効化またはカスタマイズできます。 次の画像は、コンバージョン変数インターフェイスでのeVar定義の例を示しています。
 
 ![eVar の例](assets/evars-sample.png)
 
