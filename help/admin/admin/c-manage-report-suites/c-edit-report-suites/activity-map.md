@@ -1,33 +1,32 @@
 ---
-description: Adobe Analytics で Activity Map データを表示できます
-title: Adobe Analytics での Activity Map データの表示
+description: Activity Mapがデータを収集できるように、ディメンションを有効にします。
+title: Activity Map レポート
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
-# Adobe Analytics での Activity Map データの表示
+# Activity Map レポート
 
-Analytics で Activity Map レポートを有効にするための管理者の手順です。
+[Activity Map](/help/analyze/activity-map/overview.md) で使用するディメンションを有効にできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**`<select report suite>`**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map レポート]**
+**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/レポートスイートを選択/**[!UICONTROL 設定を編集]**/**[!UICONTROL Activity Map]**/**[!UICONTROL Activity Map レポート]**
 
-Activity Map（旧称 ClickMap）から提供されるユーザーアクティビティ情報を収集できます。この統合により、
+この節では、Activity Mapで使用するディメンションの有効化に焦点を当てています。 オーバーレイ、実装変数、ディメンションについて詳しくは [](/help/analyze/activity-map/overview.md)Activity Mapの概要 } を参照してください。
 
-* Analytics でのレポートの作成が可能になります。
-* **[!UICONTROL すべてのレポートを表示]**／**[!UICONTROL Activity Map：]**&#x200B;に以下の新しいレポートが追加されます。
+「**[!UICONTROL Activity Map レポートを有効にする]** ボタンを選択すると、次のディメンションが作成されます。
 
-  | レポート | 説明 |
-  |---|---|
-  | Activity Map ページ | リンクがクリックされたページのリストを表示します。 |
-  | Activity Map 地域 | Web サイト全体で収集されたすべてのリンク領域のリストを表示します。1 つの領域が複数のページに表示される場合は、そのすべてのページにまたがって指標が集計されます。 |
-  | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
-  | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
+* [[!UICONTROL Activity Map リンク ]](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
+* [[!UICONTROL Activity Map地域 ]](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
+* [[!UICONTROL Activity Mapページ ]](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
+* [[!UICONTROL Activity Map リンク （リージョン別） ]](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
 
-レポートにデータが入力されるようにするには、[Activity Map のドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja)を参照して、導入手順をご確認ください。
+有効にすると、実装がこれらのディメンションにデータを送信し始め、[Analysis Workspace](/help/analyze/analysis-workspace/home.md) および [ ブラウザー拡張機能のオーバーレイ ](/help/analyze/activity-map/overlay/overview.md) で使用できるようになります。
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>レポートスイートに対してActivity Mapを有効にすると、そのレポートスイートは永続的に有効になりますが、今後、無効にする方法はありません。

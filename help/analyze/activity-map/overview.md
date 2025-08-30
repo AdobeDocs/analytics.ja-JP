@@ -4,10 +4,10 @@ title: Activity Map の概要
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Adobe Analytics Activity Map は、Adobe Analytics 内の機能で、web ページやモバイルアプリに対するユーザーエンゲージメントを視覚的に表現します。マーケターやアナリストは、クリックやスクロール動作などのユーザーインタラクションを追跡および分析できます。 Activity Mapは、Web ページ上で最も人気のある要素を示すヒートマップとオーバーレイレポートを生成し、デジタルエクスペリエンスの最適化に役立ちます。
 
-この節のドキュメントでは、Activity Mapのオーバーレイに焦点を当てています。 ただし、Activity Mapを使用する際に重要なその他の点は次のとおりです。
+Activity Map as a の概念は、次のいくつかの重要なコンポーネントで構成されています。
 
-* **レポートスイートの設定**：レポートスイートでは、Activity Mapが有効になっている必要があります。 レポートスイートの設定で [0&rbrace;Activity Map レポート &rbrace; を参照してください。](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+* **レポートスイートの設定**：レポートスイートを使用するには、事前にActivity Mapを有効にする必要があります。 レポートスイートの設定で [0}Activity Map レポート } を参照してください。](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
 * **実装**：ほとんどのActivity Map レポートは、すぐに使用できます。 ただし、リンクトラッキングを最大限に活用するために、追加の実装が必要な web サイトもあります。 次の実装変数を使用できます。
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：クリックデータをリンク名でフィルタリングします。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：地域名でクリックデータをフィルタリングします。
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): 「Activity Map リージョン」ディメンションを移入する属性を変更します。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md):Activity Map リンクディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md):Activity Map地域ディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
+* **オーバーレイ**:web サイト上にオーバーレイされたクリックデータを表示できるブラウザー拡張機能。 詳しくは、[Activity Map拡張機能インターフェイス ](overlay/overview.md) を参照してください。
 * **寸法**：オーバーレイ拡張機能に加えて、Activity MapにはAnalysis Workspaceで使用できる寸法がいくつか用意されています。
    * [Activity Map リンク ](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
    * [Activity Map地域 ](/help/components/dimensions/activity-map-region.md): クリックされた地域名。

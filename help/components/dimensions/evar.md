@@ -3,10 +3,10 @@ title: eVar（ディメンション）
 description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 82%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 82%
 
 *このヘルプページでは、eVar が[ディメンション](overview.md)としてどのように機能するかについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。詳しくは、[Dimensionの概要 ](overview.md) を参照してください。
+eVar はカスタム [ ディメンション ](overview.md) で、好きなように使用できます。 [ ソリューションデザインドキュメント ](/help/implement/prepare/solution-design.md) がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。
 
-デフォルトでは、eVar は設定されたヒットを超えても保持されます。 Adobeのアーキテクチャに対してeVarの永続性がどのように機能するかについて詳しくは、以下の [eVar の仕組み ](#how-evars-work) および [eVar と指標の結び付け方法 ](#how-evars-tie-to-metrics) の節を参照してください。 [!UICONTROL レポートスイート設定]の[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)で、その有効期限と配分をカスタマイズできます。次の画像は、コンバージョン変数インターフェイスでのeVar定義の例を示しています。
+デフォルトでは、eVar は設定されたヒットを超えても保持されます。 Adobeのアーキテクチャに対するeVarの永続性に関する詳細については、以下の [eVar の仕組み ](#how-evars-work) および [eVar と指標の結び付け方法 ](#how-evars-tie-to-metrics) の節を参照してください。 [ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) の [!UICONTROL  コンバージョン変数 ] で、その有効期限と配分を有効化、無効化またはカスタマイズできます。 次の画像は、コンバージョン変数インターフェイスでのeVar定義の例を示しています。
 
 ![eVar の例](assets/evars-sample.png)
 
