@@ -23,13 +23,13 @@ Adobe Experience Platform Edge Networkに送信されるデータは、**XDM オ
 
 ## `xdm` オブジェクト
 
-[XDM](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) （エクスペリエンスデータモデル）に基づいて作成したスキーマに準拠する。 XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。Adobe Analyticsに特有の事前定義済みスキーマを使用する場合は、[Adobe Analytics ExperienceEvent スキーマフィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) をスキーマに追加できます。 追加したら、Web SDKの `xdm` オブジェクトを使用してこのスキーマにデータを入力し、レポートスイートにデータを送信できます。 データがEdge Networkに到達すると、XDM オブジェクトがAdobe Analyticsで認識できる形式に変換されます。
+[XDM](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) （エクスペリエンスデータモデル）に基づいて作成したスキーマに準拠する。 XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。Adobe Analyticsに特有の事前定義済みスキーマを使用する場合は、[Adobe Analytics ExperienceEvent スキーマフィールドグループ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) をスキーマに追加できます。 追加したら、Web SDKの `xdm` オブジェクトを使用してこのスキーマにデータを入力し、レポートスイートにデータを送信できます。 データがEdge Networkに到達すると、XDM オブジェクトがAdobe Analyticsで認識できる形式に変換されます。
 
 XDM フィールドの完全なリファレンスと、それらがAdobe Analytics変数にマッピングされる方法については、[Analytics への XDM オブジェクト変数のマッピング ](xdm-var-mapping.md) を参照してください。
 
 >[!TIP]
 >
->今後 [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) に移行する予定がある場合、Adobeでは、Adobe Analytics スキーマフィールドグループの使用を推奨しています。 代わりに、Adobeでは [ 独自のスキーマを作成 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) し、データストリームマッピングを使用して目的の Analytics 変数を設定することをお勧めします。 Customer Journey Analyticsへの移行を行う準備が整っても、この方法では prop と eVar のスキーマに固定されることはありません。
+>今後 [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) に移行する予定がある場合、Adobeでは、Adobe Analytics スキーマフィールドグループの使用を推奨しています。 代わりに、Adobeでは [ 独自のスキーマを作成 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) し、データストリームマッピングを使用して目的の Analytics 変数を設定することをお勧めします。 Customer Journey Analyticsへの移行を行う準備が整っても、この方法では prop と eVar のスキーマに固定されることはありません。
 
 ## `data` オブジェクト
 
