@@ -3,10 +3,10 @@ title: Adobe Analytics マーケティングチャネルの実装に関するベ
 description: Attribution と Customer Journey Analytics でのマーケティングチャネルの使用に関するベストプラクティスの更新
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -28,15 +28,19 @@ ht-degree: 97%
 
 * 「マーケティングチャネル」と「マーケティングチャネルの詳細」ディメンションの設定では、各マーケティングチャネルインスタンスに対応する、評価対象タッチポイントを設定します。
 * 指標分析の場合、組織は 1 つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
-* デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution 指標モデルは、ルックバックウィンドウの管理を強化し、[アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja#analysis-workspace)をはじめとする多様な手法を提供します。
+* デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution 指標モデルは、ルックバックウィンドウの管理を強化し、[アルゴリズムアトリビューション](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace)をはじめとする多様な手法を提供します。
 
 ## ベストプラクティス #2：「直接」および「セッション更新」チャネル定義がない
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデルで使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。この場合、ファーストタッチ/ラストタッチの[分類を作成](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution 結果を生成します。
+組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。この場合、Adobeでは、ファーストタッチ/ラストタッチの [ 分類を作成 ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。 分類されたディメンションを使用すると、これらのチャネルが設定されていない場合と同様のアトリビューション結果が得られます。
 
 ![](assets/direct-session-refresh.png)
+
+これらのチャネルを無効にして、マーケティングチャネルの処理ルールを削除すると、結果が分類アプローチとは少し異なります。 値 `None` は、マーケティングチャネルの処理ルールに一致しなかった訪問を表します。 チャネルに一致する訪問がチャネルに一致する訪問の後に続く場合は、違いが表示される可能性があります。
+
+どちらの場合でも、カスタムアトリビューションモデルを使用して、ルックバックウィンドウとアトリビューションモデルを適用できます。
 
 ## ベストプラクティス #3：すべてのチャネルに対してラストタッチチャネルの上書きを有効にする
 
