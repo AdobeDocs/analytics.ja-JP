@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 処理ルールを使用して、コンテキストデータ変数を prop と eVar にマッピングする ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 処理ルールを使用して、コンテキストデータ変数を prop と eVar にマッピングする ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
