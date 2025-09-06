@@ -20,7 +20,7 @@ ht-degree: 21%
 
 処理ルールは、値を [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) から [Prop](/help/components/dimensions/prop.md) および [eVars](/help/components/dimensions/evar.md) に移動するために使用されます。 処理ルールがないと、Analytics にレポートが出力されないため、コンテキストデータ変数は無意味となります。
 
-[!UICONTROL  コンテキスト変数 ] リストには、過去 30 日間にレポートスイートに送信されたすべての変数が含まれています。 コンテキストデータ変数名がわかっているが、現在のレポートスイートに送信していない場合は、手動で追加できます。
+[!UICONTROL &#x200B; コンテキスト変数 &#x200B;] リストには、過去 30 日間にレポートスイートに送信されたすべての変数が含まれています。 コンテキストデータ変数名がわかっているが、現在のレポートスイートに送信していない場合は、手動で追加できます。
 
 ![ 処理ルールへのコンテキストデータ変数の手動追加 ](assets/add-context-variable.png)
 
@@ -28,7 +28,7 @@ ht-degree: 21%
 
 | ルールセット |値 |
 |条件 | `search_term` （コンテキストデータ）が設定されています |
-| アクション | [!UICONTROL  値を上書き ]eVar3 と `search_term` （コンテキストデータ） |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;]eVar3 と `search_term` （コンテキストデータ） |
 
 ![ コンテキストデータ変数の使用を示す処理ルールインターフェイスのスクリーンショット ](assets/set-context-data.png)
 
@@ -37,9 +37,9 @@ ht-degree: 21%
 次の例では、様々なコンテキストデータ変数を複数の変数に設定します。 1 つのアクションには、条件ステートメントも含まれます。
 
 | ルールセット |値 |
-| アクション | [!UICONTROL  値を上書き ]eVar55 と `spa.billing_customer_name` （コンテキストデータ） |
-| アクション | [!UICONTROL  値を上書き ]`testhierarchy` （コンテキストデータ）が設定されている場合、Prop7`testhierarchy` 値を上書き |
-| アクション | [!UICONTROL  値を上書き ]eVar8 と `spa.ims_org` （コンテキストデータ） |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;]eVar55 と `spa.billing_customer_name` （コンテキストデータ） |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;]`testhierarchy` （コンテキストデータ）が設定されている場合、Prop7`testhierarchy` 値を上書き |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;]eVar8 と `spa.ims_org` （コンテキストデータ） |
 
 ![ 条件付きで値を設定する方法を示す処理ルールインターフェイスのスクリーンショット ](assets/add-conditional.png)
 
@@ -49,7 +49,7 @@ ht-degree: 21%
 
 処理ルールは、[ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) に基づいてイベントをトリガー設定できます。
 
-[!UICONTROL  コンテキスト変数 ] リストには、過去 30 日間にレポートスイートに送信されたすべての変数が含まれています。 コンテキストデータ変数名がわかっているが、現在のレポートスイートに送信していない場合は、手動で追加できます。
+[!UICONTROL &#x200B; コンテキスト変数 &#x200B;] リストには、過去 30 日間にレポートスイートに送信されたすべての変数が含まれています。 コンテキストデータ変数名がわかっているが、現在のレポートスイートに送信していない場合は、手動で追加できます。
 
 ![ 処理ルールへのコンテキストデータ変数の手動追加 ](assets/add-context-variable.png)
 
@@ -58,7 +58,7 @@ ht-degree: 21%
 | ルールセット | 値 |
 | --- | --- |
 | 条件 | `search_term` （コンテキストデータ）が設定されています |
-| アクション | [!UICONTROL  イベントを設定 ] Event1 から [!UICONTROL  カスタム値 ] `1` |
+| アクション | [!UICONTROL &#x200B; イベントを設定 &#x200B;] Event1 から [!UICONTROL &#x200B; カスタム値 &#x200B;] `1` |
 
 ![ イベントを設定する方法を示す処理ルールインターフェイスのスクリーンショット ](assets/processing_rule_set_event.png)
 
@@ -73,14 +73,14 @@ ht-degree: 21%
 | ルールセット | 値 |
 | --- | --- |
 | 条件 | キャンペーンが設定されていません |
-| アクション | [!UICONTROL  値を上書き ] [!UICONTROL  クエリ文字列パラメーターを使用した Campaign] `cpid` |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;] [!UICONTROL &#x200B; クエリ文字列パラメーターを使用した Campaign] `cpid` |
 
 ![ 条件付きキャンペーンロジックを示す処理ルールインターフェイスのスクリーンショット ](assets/set-campaign-conditionally.png)
 
 | ルールセット | 値 |
 | --- | --- |
-| 条件 | [!UICONTROL  クエリ文字列パラメーター ] `q` [!UICONTROL  が設定されています ] |
-| アクション | [!UICONTROL  値を上書き ] [!UICONTROL  クエリ文字列パラメーター ] を含む内部検索用語 `q` |
+| 条件 | [!UICONTROL &#x200B; クエリ文字列パラメーター &#x200B;] `q` [!UICONTROL &#x200B; が設定されています &#x200B;] |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;] [!UICONTROL &#x200B; クエリ文字列パラメーター &#x200B;] を含む内部検索用語 `q` |
 
 ![ 内部検索用語ロジックを示す処理ルールインターフェイスのスクリーンショット ](assets/populate-internal-search-terms.png)
 
@@ -92,8 +92,8 @@ ht-degree: 21%
 
 | ルールセット | 値 |
 | --- | --- |
-| 条件 | [!UICONTROL  ページ名 ] が「製品の概要」に等しい場合 |
-| アクション | [!UICONTROL  イベント ][!UICONTROL  製品表示 ] を [!UICONTROL  カスタム値 ] `1` に設定 |
+| 条件 | [!UICONTROL &#x200B; ページ名 &#x200B;] が「製品の概要」に等しい場合 |
+| アクション | [!UICONTROL &#x200B; イベント &#x200B;][!UICONTROL &#x200B; 製品表示 &#x200B;] を [!UICONTROL &#x200B; カスタム値 &#x200B;] `1` に設定 |
 
 ![ イベントセットを条件付きで表示する処理ルールインターフェイスのスクリーンショット ](assets/set-product-view-event.png)
 
@@ -106,7 +106,7 @@ ht-degree: 21%
 | ルールセット | 値 |
 | --- | --- |
 | 条件 | なし（常に実行） |
-| アクション | [!UICONTROL  値を上書き ] eVar1 と [!UICONTROL  連結値 ] カテゴリ + ページ名 |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;] eVar1 と [!UICONTROL &#x200B; 連結値 &#x200B;] カテゴリ + ページ名 |
 
 ![ 連結された値を示す処理ルールインターフェイスのスクリーンショット ](assets/add-subcategory-using-concat.png)
 
@@ -120,8 +120,8 @@ Adobeでは、不要な上書きを避けるために、可能な限り制限の
 
 | ルールセット | 値 |
 | --- | --- |
-| 条件 | prop1[!UICONTROL  次で始まる ] 「[!DNL Shoping]」の場合 |
-| アクション | [!UICONTROL  値を上書き ] Prop1 を [!UICONTROL  カスタム値 ] 「[!DNL Shopping]」で上書き |
+| 条件 | prop1[!UICONTROL &#x200B; 次で始まる &#x200B;] 「[!DNL Shoping]」の場合 |
+| アクション | [!UICONTROL &#x200B; 値を上書き &#x200B;] Prop1 を [!UICONTROL &#x200B; カスタム値 &#x200B;] 「[!DNL Shopping]」で上書き |
 
 ![ タイプミスを修正する方法を示す処理ルールインターフェイスのスクリーンショット ](assets/clean-up-values-in-report.png)
 
@@ -133,7 +133,7 @@ Adobeでは、不要な上書きを避けるために、可能な限り制限の
 
 | ルールセット |値 |
 |条件 |なし（常に実行） |
-| アクション | [!UICONTROL  イベントを設定 ] Event1 を [!UICONTROL  カスタム値 ] `0` に |
+| アクション | [!UICONTROL &#x200B; イベントを設定 &#x200B;] Event1 を [!UICONTROL &#x200B; カスタム値 &#x200B;] `0` に |
 
 ![ イベントを削除するようを示す処理ルールインターフェイスのスクリーンショット ](assets/remove_event.png)
 

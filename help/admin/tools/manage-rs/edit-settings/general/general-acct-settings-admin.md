@@ -22,7 +22,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 一般的なアカウント設定の指定 ](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 一般的なアカウント設定の指定 ](https://video.tv.adobe.com/v/332330/?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

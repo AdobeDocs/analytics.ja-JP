@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >合理化された新しい [Report Builder](/help/analyze/report-builder/rb-overview.md) は 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
->>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](/help/analyze/report-builder/convert-workbooks.md) できます。
+>&#x200B;>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](/help/analyze/report-builder/convert-workbooks.md) できます。
 
-## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
+## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >

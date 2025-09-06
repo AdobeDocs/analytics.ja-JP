@@ -12,7 +12,7 @@ ht-degree: 21%
 
 # 音声分析指標
 
-[!UICONTROL  アプリケーションレポート ] で [[!UICONTROL  音声およびチャットボット ]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) を有効にすると、次の指標（および [ ディメンション ](../dimensions/voice-dimensions.md)）が作成されます。 [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) を使用して、値を `1` （該当する場合は複数）に設定できます。 レポートスイートの設定で有効にすると、音声分析指標を関連するコンテキストデータ変数にマッピングする [ 処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) が自動的に作成されます。
+[!UICONTROL &#x200B; アプリケーションレポート &#x200B;] で [[!UICONTROL &#x200B; 音声およびチャットボット &#x200B;]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md) を有効にすると、次の指標（および [ ディメンション ](../dimensions/voice-dimensions.md)）が作成されます。 [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) を使用して、値を `1` （該当する場合は複数）に設定できます。 レポートスイートの設定で有効にすると、音声分析指標を関連するコンテキストデータ変数にマッピングする [ 処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) が自動的に作成されます。
 
 | Metric name | 説明 | コンテキストデータ変数 |
 | --- | --- | --- |

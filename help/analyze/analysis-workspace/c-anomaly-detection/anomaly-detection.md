@@ -18,7 +18,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 異常値検出 ](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 異常値検出 ](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Analysis Workspace の異常値検出アルゴリズムには以下が含まれ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 貢献度分析 ](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 貢献度分析 ](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3" colsep="1"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>毎日の精度のみ </p> </td> 
    <td colname="col3"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>○ </p> </td> 
    <td colname="col3"> <p>1 ヶ月あたり 10 トークン </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>○ </p> </td> 
    <td colname="col3"> <p>1 ヶ月あたり 20 トークン </p> </td> 
   </tr> 
