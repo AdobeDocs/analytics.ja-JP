@@ -41,7 +41,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトを共有 ](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトを共有 ](https://video.tv.adobe.com/v/40032?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 任意のユーザーとリンクを共有 ](https://video.tv.adobe.com/v/3452450?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 埋め込みコンポーネントの共有 ](https://video.tv.adobe.com/v/327498?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
