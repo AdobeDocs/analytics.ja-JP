@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 97%
+source-wordcount: '761'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] コンポーネントガイド {#components}
 
 + [Analytics コンポーネントガイド](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
++ [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
 + ディメンション {#dimensions}
    + [ディメンションの概要](dimensions/overview.md)
    + [ディメンションの互換性](dimensions/compatibility.md)
@@ -173,7 +173,7 @@ ht-degree: 97%
    + [単位](metrics/units.md)
    + [音声指標](metrics/voice-metrics.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
-   + [訪問数](metrics/visits.md)
+   + [訪問回数](metrics/visits.md)
 + セグメント化 {#segmentation}
    + [Analytics のセグメント化](segmentation/seg-home.md)
    + [セグメントについて](segmentation/seg-overview.md)
@@ -189,7 +189,7 @@ ht-degree: 97%
       + [セグメントの共有](segmentation/segmentation-workflow/t-seg-share.md)
       + [セグメントのタグ設定](segmentation/segmentation-workflow/seg-tag.md)
       + [セグメントリストのフィルタリング](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [セグメントをお気に入りとしてマーク](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [セグメントのお気に入りへの登録](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [セグメントの承認](segmentation/segmentation-workflow/seg-approve.md)
       + [セグメントの削除](segmentation/segmentation-workflow/seg-delete.md)
       + [セグメントのコピー](segmentation/segmentation-workflow/seg-copy.md)
@@ -204,34 +204,34 @@ ht-degree: 97%
    + [レガシーセグメント FAQ](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
-   + [概要](c-calcmetrics/cm-overview.md)
-   + [ハウツービデオ](c-calcmetrics/cm-videos.md)
+   + [概要](calculated-metrics/cm-overview.md)
+   + [ハウツービデオ](calculated-metrics/cm-videos.md)
    + ワークフロー {#calcmetric-workflow}
-      + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [計算指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [簡単な例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [より複雑な例](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [パーティシペーション指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [計算指標をタグ付け](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [計算指標をフィルタリング](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [計算指標をお気に入りとしてマーク](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [計算指標をコピー](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [計算指標の管理](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [計算指標の作成](calculated-metrics/workflow/cm-workflow.md)
+      + [指標の検索](calculated-metrics/workflow/cm-finding.md)
+      + [計算指標の作成](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [シンプルな例](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [より複雑な例](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [指標タイプとアトリビューション](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [パーティシペーション指標](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [セグメント化指標](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [セグメントの積み重ねと置き換え](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [フィルター適用済み指標と重み付け指標](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [関数の使用](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [計算指標をタグ付け](calculated-metrics/workflow/cm-tagging.md)
+      + [計算指標をフィルタリング](calculated-metrics/workflow/cm-filter.md)
+      + [計算指標のお気に入りへの登録](calculated-metrics/workflow/cm-favorite.md)
+      + [計算指標の承認](calculated-metrics/workflow/cm-approving.md)
+      + [計算指標の共有](calculated-metrics/workflow/cm-sharing.md)
+      + [計算指標をコピー](calculated-metrics/workflow/cm-copy.md)
+      + [計算指標の管理](calculated-metrics/workflow/cm-manager.md)
    + リファレンス {#calcmetrics-reference}
-      + [基本関数](c-calcmetrics/cm-reference/cm-functions.md)
-      + [高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [指標の互換性](c-calcmetrics/cm-compatibility.md)
-      + [役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
-      + [計算指標の合計](c-calcmetrics/cm-totals.md)
-      + [デフォルトの計算指標](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [基本関数](calculated-metrics/cm-reference/cm-functions.md)
+      + [高度な関数](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [指標の互換性](calculated-metrics/cm-compatibility.md)
+      + [役割ベースの権限](calculated-metrics/cm-role-based-rights.md)
+      + [計算指標の合計](calculated-metrics/cm-totals.md)
+      + [デフォルトの計算指標](calculated-metrics/cm-reference/default-calcmetrics.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
    + [仮想レポートスイート - コンポーネントのキュレーション](vrs/vrs-components.md)
@@ -255,14 +255,15 @@ ht-degree: 97%
    + [仮想レポートスイートを特定の日付に制限](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
-   + [概要](c-alerts/intellligent-alerts.md)
-   + [アラートの作成](c-alerts/alert-builder.md)
-   + [アラートの管理](c-alerts/alert-manager.md)
-   + [ユースケース](c-alerts/alerts-use-cases.md)
+   + [概要](alerts/alerts-overview.md)
+   + [アラートの作成](alerts/alert-builder.md)
+   + [アラートの管理](alerts/alert-manager.md)
+   + [ユースケース](alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類の概要](classifications/classifications-overview.md)
    + 分類セット {#sets}
       + [概要](classifications/sets/overview.md)
+      + [データファイル](classifications/sets/data-files.md)
       + 分類セットの管理 {#manage}
          + [分類セットマネージャー](classifications/sets/manage/set-manager.md)
          + [分類セットを作成](classifications/sets/manage/create.md)
