@@ -3,7 +3,7 @@ description: Analysis Workspaceでセグメントを使用する方法につい�
 title: セグメントの使用
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Analysis Workspace全体でセグメントを使用するには、コンポー�
 * Analysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の列で、列の追加や置換、フィルターの開始を行います。
 * ビジュアライゼーションの設定パネルまたはセグメントをドロップできるパネル。 例えば、[ セグメント比較 ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) パネルまたは [ 主要指標 ](/help/analyze/analysis-workspace/visualizations/key-metric.md) 概要ビジュアライゼーションで次の操作を行います
 * セグメント定義にセグメントを含めるために、[ セグメントの定義ビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder) を選択します。
-* 計算指標の定義にセグメントを含めるように、[ 計算指標の定義ビルダー ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder) を設定します。
+* 計算指標の定義にセグメントを含めるように、[ 計算指標の定義ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder) を設定します。
 
 <!--
 How to apply one or more segments to a report from the segment rail.

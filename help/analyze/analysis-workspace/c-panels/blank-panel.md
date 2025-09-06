@@ -4,9 +4,9 @@ title: 空のパネル
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: c9299befa63868ce0450af9c63132738474e2371
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の空白のパネルについて説明します。この記事の _<br/>_CustomerJourneyAnalytics[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/blank-panel)Customer Journey Analytics_ 版については、![ 空白パネル ](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**&#x200B;** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の空白のパネルについて説明します。この記事の _<br/>_CustomerJourneyAnalytics[ ](/help/analyze/analysis-workspace/c-panels/blank-panel.md)Customer Journey Analytics_ 版については、![ 空白パネル ](/help/assets/icons/CustomerJourneyAnalytics.svg)_**** を参照してください。_
 
 >[!ENDSHADEBOX]
 

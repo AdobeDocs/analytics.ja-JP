@@ -4,9 +4,9 @@ description: トラッキング防止対策が、Adobe Analytics によって設
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 ## ブラウザーでの cookie の使用制限
 
 >[!NOTE]
->[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、ハッシュ化されたログイン ID などのユーザー ID（使用可能な場合）を使用して、Cookie をつなぎ合わせることができます。
+>[クロスデバイス分析](/help/components/cda/overview.md#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、ハッシュ化されたログイン ID などのユーザー ID（使用可能な場合）を使用して、Cookie をつなぎ合わせることができます。
 
 ### サードパーティ cookie の制限
 
@@ -178,4 +178,4 @@ ITP トラッキング防止の影響を受けているビジネスは、レポ�
 >[!MORELIKETHIS]
 >
 >[ブラウザーの cookie 制限の影響を軽減するオプション](cookieless.md)
->[Apple の新しい App Tracking Transparency Framework が Adobe Analytics に及ぼす影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ja)
+>>[Apple の新しい App Tracking Transparency Framework が Adobe Analytics に及ぼす影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ja)

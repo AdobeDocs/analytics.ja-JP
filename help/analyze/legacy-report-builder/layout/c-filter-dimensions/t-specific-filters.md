@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -22,11 +22,11 @@ ht-degree: 91%
 
 **特定のフィルターを作成するには**
 
-1. リクエストを作成または編集して、[!UICONTROL リクエストウィザード：ステップ 2] に進みます。
+1.  リクエストを作成または編集して、[!UICONTROL リクエストウィザード：ステップ 2] に進みます。
 
-   ![ オプション別にフィルターを示すスクリーンショット：アプリケーション、ユーザーおよびプロジェクト。](/help/admin/admin/assets/filter.png)
+   ![ オプション別にフィルターを示すスクリーンショット：アプリケーション、ユーザーおよびプロジェクト。](/help/admin/tools/assets/filter.png)
 
-1. [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの横にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
+1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの横にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 
 1. **[!UICONTROL 特定]** を有効にします。
 

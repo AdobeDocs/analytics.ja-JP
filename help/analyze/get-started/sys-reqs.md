@@ -3,9 +3,9 @@ title: Adobe Analytics の必要システム構成
 description: Adobe Analytics を使用するための必要システム構成です。
 feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics を使用するには、以下が必要です。
 
 * サポートされているブラウザー
 
-  Adobe Analytics へのアクセス権がある各ユーザーは、サポートされているブラウザーを使用する必要があります。詳しくは、[Adobe Analytics の必要システム構成](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=ja)を参照してください。
+  Adobe Analytics へのアクセス権がある各ユーザーは、サポートされているブラウザーを使用する必要があります。詳しくは、[Adobe Analytics の必要システム構成](/help/analyze/get-started/sys-reqs.md)を参照してください。
 
 ## 必要システム構成
 

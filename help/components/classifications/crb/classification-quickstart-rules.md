@@ -3,9 +3,9 @@ description: 分類ルールを設定すると、分類されていない語句�
 title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1970'
 ht-degree: 89%
 
 ---
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >[!UICONTROL ルールビルダー]は数値 2 分類をサポートしていません。
 
 ## ルールに関する重要な情報
-
-* [ 管理ツール ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja) の分類について、[!UICONTROL &#x200B; グループ権限 &#x200B;] を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -135,7 +133,7 @@ about_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
+| 正規表現 | &amp;Hat;(.+）\:（.+)\:(.+)$ | キャンペーンの日付 | $3 |
 
 **構文**
 

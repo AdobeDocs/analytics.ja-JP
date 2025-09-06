@@ -3,7 +3,7 @@ title: 他のプラットフォームでよく使用される指標の互換性�
 description: Google Analytics に詳しいユーザー向けに、一般的なレポートの指標データを取り込む方法をわかりやすく説明します。
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 7. 「保存」をクリックして、ワークスペースに戻ります。
 8. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
+   [計算指標](/help/components/calculated-metrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
 **平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。[訪問ごとの滞在時間](/help/components/metrics/time-spent-per-visit.md)の指標について詳しくは、コンポーネントユーザガイドを参照してください。
 

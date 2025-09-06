@@ -4,18 +4,18 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードとData Warehouseを使用してデータの出力を取得する方法について説明します。
-source-git-commit: 9131c9ffbcf409620a67b36637367af22733b909
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 95%
+source-wordcount: '255'
+ht-degree: 93%
 
 ---
 
 
 # Adobe Analytics エクスポートガイド {#export}
 
-+ [Analytics エクスポートガイド](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
++ [Analytics 書き出しガイド](home.md)
++ [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
 + Analytics データフィード {#analytics-data-feed}
    + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
    + [データフィードの作成](analytics-data-feed/create-feed.md)
@@ -73,6 +73,4 @@ ht-degree: 95%
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP サーバーへの Data Warehouse リクエストの送信](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace ダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)
-+ [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview)
++ [Adobe Analytics API ](https://developer.adobe.com/analytics-apis/docs/2.0/)

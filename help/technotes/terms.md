@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -16,16 +16,16 @@ ht-degree: 89%
 
 * **Activity Map：**&#x200B;サイト内でクリック数の最も多いリンクを示すブラウザープラグイン。『分析ユーザガイド』の「[Activity Map](/help/analyze/activity-map/overview.md)」を参照してください。
 * **Admin Console：**&#x200B;次を参照してください。
-   * 従来の管理ツール。Adobe Analytics のレポートスイート設定を管理します。以前のバージョンの Adobe Analytics では、ユーザー権限もここで管理されていました。『管理ユーザガイド』の「[管理ツール](/help/admin/admin/c-admin-tools.md)」を参照してください。
+   * 従来の管理ツール。Adobe Analytics のレポートスイート設定を管理します。以前のバージョンの Adobe Analytics では、ユーザー権限もここで管理されていました。『管理ユーザガイド』の「[管理ツール](/help/admin/tools/c-admin-tools.md)」を参照してください。
    * Adobe Admin Console。製品へのアクセス権がプロビジョニングされ、ユーザー権限が管理されます。『管理ユーザガイド』の「[Admin Console](/help/admin/admin-console/home.md)」を参照してください。
-* **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」を参照してください。
+* **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」を参照してください。
 * **Analysis Workspace：**&#x200B;堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Analytics ツールガイドの [Analysis Workspaceの概要 ](/help/analyze/analysis-workspace/home.md) を参照してください。
 * **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。Analytics ツールガイドの [ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) を参照してください。
 * **AppMeasurement：**&#x200B;データの収集とアドビへの送信に使用するコードライブラリ。『実装ユーザガイド』の「[ホームページ](/help/implement/home.md)」を参照してください。
 * **ASI スロット：**&#x200B;現在は使用されていません。以前のバージョンの Adobe Analytics では、ASI スロットにセグメント化されたデータを表示するための一時的なレポートスイートコンテナが用意されていました。現在のバージョンの Adobe Analytics では、セグメントを任意のレポートに即座に適用できます。
 * **分類：**&#x200B;ディメンションを別のディメンションのコンテキスト内に表示できます。Analytics ツールガイドの [ 分類ディメンション ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
 * **バウンス：**&#x200B;単一のヒットで構成される訪問。『コンポーネントユーザガイド』の「[バウンス](/help/components/metrics/bounces.md)」を参照してください。「単一アクセス」も参照してください。
-* **計算指標：**&#x200B;レポートで使用する既存の指標、統計関数および数式を組み合わせることができます。『コンポーネントユーザガイド』の「[計算指標](/help/components/c-calcmetrics/cm-overview.md)」を参照してください。
+* **計算指標：**&#x200B;レポートで使用する既存の指標、統計関数および数式を組み合わせることができます。『コンポーネントユーザガイド』の「[計算指標](/help/components/calculated-metrics/cm-overview.md)」を参照してください。
 * **キャンペーン：**&#x200B;次を参照してください。
    * キャンペーン変数。トラッキングコードディメンションを入力します。『実装ユーザガイド』の「[キャンペーン](../implement/vars/page-vars/campaign.md)」を参照してください。
    * トラッキングコードディメンションのデフォルトの分類。すべてのレポートスイートに対して自動的に作成されます。
@@ -56,7 +56,7 @@ ht-degree: 89%
 * **イベントのシリアル化：**&#x200B;重複イベントの収集を防ぐための措置を実装するプロセス。『実装ユーザガイド』の「[イベントのシリアル化](../implement/vars/page-vars/events/event-serialization.md)」を参照してください。
 * **eVar：**「コンバージョン変数」を参照してください。
 * **イベント：**「成功イベント」を参照してください。
-* **有効期限：**&#x200B;コンバージョン変数のコンテキストで、値がバックエンドで保持される期間。永続性により、イベントをイベントのヒット前に変数値に関連付けることができます。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」を参照してください。
+* **有効期限：**&#x200B;コンバージョン変数のコンテキストで、値がバックエンドで保持される期間。永続性により、イベントをイベントのヒット前に変数値に関連付けることができます。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」を参照してください。
 * **フロー：** Analysis Workspace のビジュアライゼーションの 1 つで、サイト上におけるユーザーの経路を示します。Analytics ツールガイドの [ フロービジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) を参照してください。
 * **グローバルレポートスイート：**&#x200B;複数のサイトからヒットを収集するレポートスイートに指定された非公式の用語です。
 * **H コード：** AppMeasurement の旧名称です。以前のバージョンの Adobe Analytics では、コードバージョンは H.27.5、H.26 などの「H バージョン」で定義されていました。
@@ -73,7 +73,7 @@ ht-degree: 89%
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
 * **マーケティングチャネル：** Adobe Analytics の機能の 1 つで、訪問者がサイトに到達した方法ごとにヒットを分類します。ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。コンポーネントユーザーガイドの「[マーケティングチャネルの概要](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
-* **モバイルアプリ：** **Adobe Analytics [!UICONTROL &#x200B; ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+* **モバイルアプリ：** **Adobe Analytics [!UICONTROL  ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 * **Mobile Services：** Adobe Experience Cloud 全体のモバイルアプリケーションのモバイルマーケティング機能を統合した、廃止されたアドビ製品により、アプリケーションに対するユーザーエンゲージメントを把握し、向上につなげることができます。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
@@ -84,11 +84,11 @@ ht-degree: 89%
 * **永続性：**&#x200B;コンバージョン変数の抽象概念で、変数値および個々のヒットで発生するイベントの関連付けを可能にします。「有効期限」も参照してください。
 * **プライマリサーバーコール：**&#x200B;イメージリクエストまたはヒットの別名。主に複数のスイートタグ付けおよび請求のコンテキストで使用されます。同じヒットが複数のレポートスイートに送信される場合、最初のレポートスイートはプライマリサーバーコール、それ以外はセカンダリサーバーコールとなります。このルールは、ページビューやリンクトラッキングを含むすべてのヒットタイプに適用されます。「セカンダリサーバーコール」も参照してください。
 * **処理ルール：**&#x200B;次を参照してください。
-   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)」を参照してください。
-   * マーケティングチャネルの処理ルール。ヒットが属するマーケティングチャネルを決定する一連のルールです。管理ユーザーガイドの「[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)」を参照してください。
+   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)」を参照してください。
+   * マーケティングチャネルの処理ルール。ヒットが属するマーケティングチャネルを決定する一連のルールです。管理ユーザーガイドの「[マーケティングチャネルの処理ルール](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)」を参照してください。
 * **Prop：**「トラフィック変数」を参照してください。
 * **ランクレポート：**&#x200B;通常、指標を含むディメンションに従うレポート形式を指します。このタイプのレポートでは、サイトで最も多く閲覧されたページなどの上位の項目を確認できます。「トレンドレポート」も参照してください。
-* **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
+* **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)」を参照してください。
 * **Report Builder:** JavaScript [Report Builder](/help/analyze/report-builder/rb-overview.md) アドインを使用すると、Adobe Analytics データからカスタマイズされたリクエストを作成できます。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
 * **Reports &amp; Analytics:** このツールは [ 提供終了 ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja) となりました。

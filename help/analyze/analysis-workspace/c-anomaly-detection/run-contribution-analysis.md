@@ -4,7 +4,7 @@ title: 貢献度分析の実行
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 14%
@@ -49,9 +49,9 @@ ht-degree: 14%
 
    * [ 数値概要 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション。
    * 月別のトレンド [ 折れ線グラフ ](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーション。
-   * この異常値に貢献する上位の項目を **[!UICONTROL 貢献度スコア]** で並べ替えて表示する [&#128279;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 上位の項目 [ フリーフォームテーブル ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)。 追加の列には、該当する指標と、コンテキストを提供する **[!UICONTROL ユニーク訪問者]** 指標が表示されます。
+   * この異常値に貢献する上位の項目を **[!UICONTROL 貢献度スコア]** で並べ替えて表示する [](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 上位の項目 [ フリーフォームテーブル ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)。 追加の列には、該当する指標と、コンテキストを提供する **[!UICONTROL ユニーク訪問者]** 指標が表示されます。
 
-   * **[!UICONTROL 生成されたセグメント（上位の項目クラスター）]**&#x200B;[ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) は、貢献度スコア、異常値の発生件数、および異常値指標に貢献した全体的な割合に基づいて、上位の項目の関連付けを識別します。 この関連付けは、次にオーディエンスセグメント（貢献度セグメント 1、貢献度セグメント 2 など）として取得されます。 「![ 情報 ](/help/assets/icons/Info.svg)」を選択すると、セグメントが構成されている上位の項目など、セグメントの定義が表示されます。
+   * **[!UICONTROL 生成されたセグメント（上位の項目クラスター）]**[ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) は、貢献度スコア、異常値の発生件数、および異常値指標に貢献した全体的な割合に基づいて、上位の項目の関連付けを識別します。 この関連付けは、次にオーディエンスセグメント（貢献度セグメント 1、貢献度セグメント 2 など）として取得されます。 「![ 情報 ](/help/assets/icons/Info.svg)」を選択すると、セグメントが構成されている上位の項目など、セグメントの定義が表示されます。
 
 
 1. 貢献度分析は現在、Analysis Workspaceの一部なので、フリーフォームテーブルのコンテキストメニューから多くの機能を利用して、分析をさらに有意義なものにすることができます。以下に例を示します。
@@ -59,7 +59,7 @@ ht-degree: 14%
    * [ 各ディメンション項目を別のディメンションで分類 ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [1 つ以上の行のトレンド ](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [ 新しいビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [ アラートの作成 ](/help/components/c-alerts/intellligent-alerts.md)
+   * [ アラートの作成 ](/help/components/alerts/alerts-overview.md)
    * [セグメントを作成または比較する。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

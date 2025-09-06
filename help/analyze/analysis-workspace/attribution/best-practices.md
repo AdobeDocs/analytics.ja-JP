@@ -3,9 +3,9 @@ title: アトリビューションのベストプラクティス
 description: 使用するアトリビューションモデルを決定するためのベストプラクティスを理解します。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '420'
 ht-degree: 66%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 66%
 >[!NOTE]
 >この分析は、アトリビューションモデルを選択する前に行う必要があります。
 
-このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。コンバージョン指標に基づいて、 [データフィード](https://experienceleague.adobe.com/ja/docs/analytics/export/analytics-data-feed/data-feed-overview) （生データ用）や Analysis Workspace などのツールを使用すると、
+このフェーズでは、最初に顧客の行動を把握し、コンバージョン指標を定義します。コンバージョン指標に基づいて、 [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) （生データ用）や Analysis Workspace などのツールを使用すると、
 
 * コンバージョンに至る前に様々なマーケティングチャネルに接触した顧客の数
 * これらの動作の割合／分布
@@ -53,14 +53,14 @@ ht-degree: 66%
 
 *「特定の業界（旅行業など）では、顧客が商品を購入する前に多くの調査を行うので、アトリビューションウィンドウは 30 日ではなく 60 日か 90 日です。*」という仮説を仮定します。
 
-この場合、[ルックバックウィンドウ](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/attribution/models)を 90 日に変更します。
+この場合、[ルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md)を 90 日に変更します。
 
 ## アルゴリズムアトリビューションの使用
 
-すべての質問に対して満足のいく回答を提供するアトリビューションモデルがまだない場合は、[アルゴリズムアトリビューション](/help/analyze/analysis-workspace/attribution/algorithmic.md)を使用できます。考えられる多数の仮説と組み合わせを検証することは非常に難しいので、アルゴリズムアトリビューションでは、組み込みアルゴリズムを使用して、ディメンション項目全体にクレジットを割り当てます。
+すべての質問に対して満足のいく回答を提供するアトリビューションモデルがまだない場合は、[アルゴリズムアトリビューション](/help/analyze/analysis-workspace/attribution/algorithmic.md)を使用できます。考えられる多数の仮説と組み合わせを検証することは非常に難しいので、アルゴリズムアトリビューションでは、ビルトインのアルゴリズムを使用して、ディメンション項目全体にクレジットを割り当てます。
 
 ## その他の考慮事項
 
 * Analysis Workspace だけに依存するのではなく、データサイエンティストのサービスを使用する必要性が生じる場合があります。
 * Adobe データフィードのように、生データを使用できます。
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討してください。例えば、インプレッションデータを検討する場合などに有効です。
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討してください。例えば、インプレッションデータを検討する場合などに有効です。

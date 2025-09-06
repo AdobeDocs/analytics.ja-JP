@@ -4,18 +4,18 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
-workflow-type: ht
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # Adobe Analytics 実装ガイド {#implementation}
 
-+ [Adobe Analytics の実装](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
++ [Analytics 実装ガイド](home.md)
++ [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
 + [AppMeasurement リリースノート](appmeasurement-updates.md)
 + Analytics 変数、関数およびメソッド {#vars}
    + [概要](vars/overview.md)

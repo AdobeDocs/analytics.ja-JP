@@ -4,7 +4,7 @@ description: Adobe Analytics における Experience Platform の XDM データ�
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 16%
@@ -23,13 +23,13 @@ Adobe Experience Platform Edge Networkに送信されるデータは、**XDM オ
 
 ## `xdm` オブジェクト
 
-[XDM](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) （エクスペリエンスデータモデル）に基づいて作成したスキーマに準拠する。 XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。Adobe Analyticsに特有の事前定義済みスキーマを使用する場合は、[Adobe Analytics ExperienceEvent スキーマフィールドグループ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) をスキーマに追加できます。 追加したら、Web SDKの `xdm` オブジェクトを使用してこのスキーマにデータを入力し、レポートスイートにデータを送信できます。 データがEdge Networkに到達すると、XDM オブジェクトがAdobe Analyticsで認識できる形式に変換されます。
+[XDM](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) （エクスペリエンスデータモデル）に基づいて作成したスキーマに準拠する。 XDM では、どのフィールドをイベントの一部として定義するかを柔軟に指定できます。Adobe Analyticsに特有の事前定義済みスキーマを使用する場合は、[Adobe Analytics ExperienceEvent スキーマフィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) をスキーマに追加できます。 追加したら、Web SDKの `xdm` オブジェクトを使用してこのスキーマにデータを入力し、レポートスイートにデータを送信できます。 データがEdge Networkに到達すると、XDM オブジェクトがAdobe Analyticsで認識できる形式に変換されます。
 
 XDM フィールドの完全なリファレンスと、それらがAdobe Analytics変数にマッピングされる方法については、[Analytics への XDM オブジェクト変数のマッピング ](xdm-var-mapping.md) を参照してください。
 
 >[!TIP]
 >
->今後 [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) に移行する予定がある場合、Adobeでは、Adobe Analytics スキーマフィールドグループの使用を推奨しています。 代わりに、Adobeでは [ 独自のスキーマを作成 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) し、データストリームマッピングを使用して目的の Analytics 変数を設定することをお勧めします。 Customer Journey Analyticsへの移行を行う準備が整っても、この方法では prop と eVar のスキーマに固定されることはありません。
+>今後 [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) に移行する予定がある場合、Adobeでは、Adobe Analytics スキーマフィールドグループの使用を推奨しています。 代わりに、Adobeでは [ 独自のスキーマを作成 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) し、データストリームマッピングを使用して目的の Analytics 変数を設定することをお勧めします。 Customer Journey Analyticsへの移行を行う準備が整っても、この方法では prop と eVar のスキーマに固定されることはありません。
 
 ## `data` オブジェクト
 
@@ -39,7 +39,7 @@ XDM フィールドの完全なリファレンスと、それらがAdobe Analyti
 
 ## コンテキストデータ変数
 
-任意の形式でEdge Networkにデータを送信します。 `xdm` または `data` のオブジェクトフィールドに自動的にマッピングされないフィールドは、Adobe Analyticsに転送される際に [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) として含まれます。 次に、[ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) を使用して、目的のフィールドをそれぞれの Analytics 変数にマッピングする必要があります。
+任意の形式でEdge Networkにデータを送信します。 `xdm` または `data` のオブジェクトフィールドに自動的にマッピングされないフィールドは、Adobe Analyticsに転送される際に [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) として含まれます。 次に、[ 処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) を使用して、目的のフィールドをそれぞれの Analytics 変数にマッピングする必要があります。
 
 例えば、次のようなカスタム XDM スキーマがあるとします。
 

@@ -3,7 +3,7 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 79%
@@ -21,12 +21,12 @@ ht-degree: 79%
 * `zip` 変数を使用して郵便番号を直接設定します。または
 * ジオロケーションデータから取り込むように設定します。
 
-「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
+「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
 
 地域 zip を含むオプションを使用する場合：
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL &#x200B; ジオルックアップ &#x200B;] を有効にします。
+* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

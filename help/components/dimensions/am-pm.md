@@ -3,16 +3,16 @@ title: 午前／午後
 description: ヒットが午前中に発生したか、午後 2 時間に発生したかを判定します。
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 86%
+source-wordcount: '121'
+ht-degree: 64%
 
 ---
 
 # 午前／午後
 
-「AM/PM」 [ ディメンション ](overview.md) は、ヒットが午前または午後の時間に発生したかどうかを示すインサイトを提供します。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)に基づいています。
+「AM/PM」 [ ディメンション ](overview.md) は、ヒットが午前または午後の時間に発生したかどうかをinsightします。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションへのデータ入力
 
@@ -20,4 +20,4 @@ ht-degree: 86%
 
 ## ディメンション項目
 
-このディメンションには、常に `"AM"` と `"PM"` の 2 つのディメンション項目が含まれます。`"AM"` ディメンション項目は、午前 12:00 ～ 11:59 のすべてのヒットに適用され、`"PM"` ディメンション項目は、午後 12:00 ～ 11:59 のすべてのヒットに適用されます。
+このディメンションには、常に `"AM"` と `"PM"` の 2 つのディメンション項目が含まれます。ディメンション項目 `"AM"` は午前 12:00 から午前 11:59 までのすべてのヒットに適用され、ディメンション項目 `"PM"` は午後 12:00 から午後 11:59 までのすべてのヒットに適用されます。

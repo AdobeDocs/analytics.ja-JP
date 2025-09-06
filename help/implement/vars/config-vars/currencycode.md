@@ -4,7 +4,7 @@ description: e コマースサイトの場合、ページで扱う通貨を設�
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 98%
@@ -15,9 +15,9 @@ ht-degree: 98%
 
 コマースを使用するサイトでは、売上高と通貨が Analytics の重要な部分です。多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨が使用されます。`currencyCode` 変数を使用して、売上高が正しい通貨になっていることを確認します。
 
-通貨換算では、各ヒットで次のロジックが使用されます。以下の手順は、[`products`](../page-vars/products.md) 変数を設定した収益値と、レポートスイート設定の[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)で「通貨」としてリストされているすべてのイベントに適用されます。
+通貨換算では、各ヒットで次のロジックが使用されます。以下の手順は、[`products`](../page-vars/products.md) 変数を設定した収益値と、レポートスイート設定の[成功イベント](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)で「通貨」としてリストされているすべてのイベントに適用されます。
 
-* `currencyCode` が定義されていない場合、アドビはすべての通貨の値がレポートスイートの通貨であると見なします。レポートスイートの通貨を表示するには、レポートスイートの設定で[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)を参照してください。
+* `currencyCode` が定義されていない場合、アドビはすべての通貨の値がレポートスイートの通貨であると見なします。レポートスイートの通貨を表示するには、レポートスイートの設定で[一般的なアカウント設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)を参照してください。
 * `currencyCode` が定義され、レポートスイートの通貨と一致する場合、通貨換算は適用されません。
 * `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。レポートスイートに保存される値はすべて、レポートスイートの通貨で表されます。
 * `currencyCode` が無効な値に設定されている場合、**ヒット全体が破棄され、データが失われます。**&#x200B;使用する際は、この変数が正しく定義されていることを必ず確認してください。

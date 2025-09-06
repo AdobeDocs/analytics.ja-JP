@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,17 +18,17 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > この記事では、Web サイトにAdobe Analyticsを実装する **Adobe Analyticsのお客様に** Web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
-> **Adobe Analyticsを実装した web サイトにアクセス** していて、オプトアウトする場合 **<span style="color:red">この記事は該当しません</span>**。 AdobeでのAdobeの使用方法を制御するには、[ プライバシーの選択肢 ](https://www.adobe.com/jp/privacy/opt-out.html) を参照してください。
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> **Adobe Analyticsを実装した web サイトにアクセス** していて、オプトアウトする場合 **<span style="color:red">この記事は該当しません</span>**。 Adobeでの情報の使用方法を制御するには、[Adobeのプライバシーの選択肢 ](https://www.adobe.com/jp/privacy/opt-out.html) を参照してください。
 
-Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeは、Web サイトへの訪問者に、分析中の訪問者の情報をオプトアウトする手段を提供します。
+Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeでは、Web サイトの訪問者に、分析中の情報をオプトアウトする手段を提供できます。
 
-オプトアウトリンクを使用すると、web サイトの訪問者が、Analytics のレポートからデータを省略できます。 これらのリンクはAppMeasurement実装に限定されています。Adobeでは、代わりに [Adobe Experience Cloud オプトインサービスを使用することをお勧め ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) ます。 オプトインサービスはより堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で機能します。
+オプトアウトリンクを使用すると、web サイトの訪問者が、Analytics のレポートからデータを省略できます。 これらのリンクは、AppMeasurement実装に限定されます。Adobeでは、代わりに [Adobe Experience Cloud オプトインサービスを使用することをお勧め ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja) ます。 オプトインサービスはより堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で機能します。
 
-訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーがトラッキングされないようにし、オプトアウト cookie が設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
+訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーがトラッキングされないことを選択し、オプトアウト cookie が設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
 >[!TIP]
 >
-> また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)を参照してください。
+> また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md)を参照してください。
 
 ## オプトアウト URL
 
@@ -44,7 +44,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
    1. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)を使用して、以下を実行します。
+* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
    1. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
    1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
@@ -58,7 +58,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 クエリ文字列を使用してこのページに自動的に読み込むことができる設定があります。
 
-### 地域
+### ロケール
 
 `locale` クエリ文字列パラメーターを含めて、オプトアウトページの言語を自動的に切り替えます。このクエリ文字列パラメーターに、次のいずれかの値を割り当てます。
 

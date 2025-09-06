@@ -4,9 +4,9 @@ title: Adobe Campaign Standard レポートを Adobe Analytics に統合する�
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 この統合を設定する方法について詳しくは、[Adobe Campaign のドキュメント](https://helpx.adobe.com/jp/campaign/standard/integrating/using/about-campaign-analytics-integration.html)を参照してください。
 
 >[!IMPORTANT]
->この記事は Adobe Campaign **Standard** レポートにのみに当てはまります。Adobe Campaign **Classic** レポートの追加については、[こちら](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=ja)を参照してください。
+>この記事は Adobe Campaign **Standard** レポートにのみに当てはまります。Adobe Campaign **Classic** レポートの追加については、[こちら](/help/integrate/analytics-to-campaign-classic.md)を参照してください。
 
 Adobe Analytics と Adobe Campaign Standard の統合によって行われること：
 

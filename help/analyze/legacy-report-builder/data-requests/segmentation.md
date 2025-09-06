@@ -4,9 +4,9 @@ title: セグメントの管理（Report Builder）
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '957'
 ht-degree: 74%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
 
-Report Builderには、リクエストウィザードの手順 1 でセグメント化パネルが用意されており、セグメントを作成し管理できます。
+Report Builderには、リクエストウィザードの手順 1 でセグメント化パネルが用意されており、セグメントを作成および管理できます。
 
 ![ セグメントを追加、編集またはクリアするためのセグメントオプションを示し、コントロール、フィルターおよび更新アイコンをハイライト表示したスクリーンショット。](assets/seg_dialog.png)
 
@@ -25,10 +25,10 @@ Report Builderには、リクエストウィザードの手順 1 でセグメン
 
 >[!NOTE]
 >
->Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builderセッションはアクティブなままです。 ブラウザーを Internet Explorer 以外に変更することはできません。
+>Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder セッションはアクティブなままです。 ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)」を参照してください。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](/help/components/segmentation/seg-home.md)」を参照してください。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
@@ -45,7 +45,7 @@ Report Builderには、リクエストウィザードの手順 1 でセグメン
 
    ![ 選択されたコンテナオプションおよび使用可能なコンテナオプションでのコンテキスト内セグメントの作成を示すスクリーンショット。](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
+   コンテナについて詳しくは、[セグメント化ガイド](/help/components/segmentation/seg-home.md)を参照してください。
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
@@ -54,7 +54,7 @@ Report Builderには、リクエストウィザードの手順 1 でセグメン
 
 ## セグメントの検索および適用 {#search}
 
-Reports &amp; Analytics （現在は提供終了）、Report BuilderまたはData Warehouseで作成されたすべてのセグメントがこのセグメントリストに表示されます。 リストを更新するには、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) をクリックします。
+Reports &amp; Analytics （現在は提供終了）、Report Builder、Data Warehouseで作成されたすべてのセグメントがこのセグメントリストに表示されます。 リストを更新するには、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) をクリックします。
 
 リクエストに 1 つ以上のセグメントを適用できます。これには順次セグメントも含まれます。
 
@@ -66,7 +66,7 @@ Reports &amp; Analytics （現在は提供終了）、Report BuilderまたはDat
 
 >[!NOTE]
 >
->管理者であっても管理者以外であっても、Report Builderでは、自分が所有しているセグメントと自分に共有されているセグメントのみを表示できます。
+>管理者でも管理者以外でも、Report Builderでは、自分が所有しているセグメントと自分に共有されているセグメントのみを表示できます。
 
 ## セグメントのフィルタリング {#filter}
 

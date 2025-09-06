@@ -4,9 +4,9 @@ description: ヒットのタイムスタンプを手動で設定します。
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## Web SDKを使用したタイムスタンプ
 
-タイムスタンプは、XDM フィールド `xdm.timestamp` で [Adobe Analyticsにマッピング ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=ja) されます。 このフィールドは Unix 時間のみをサポートします。
+タイムスタンプは、XDM フィールド [ で ](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analyticsにマッピング `xdm.timestamp` されます。 このフィールドは Unix 時間のみをサポートします。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 

@@ -4,7 +4,7 @@ description: Adobe Experience Platform Edge Network API を使用して、Adobe 
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 36%
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 通常、Experience Platform Edge Network API を使用して、クライアントサイドではなくサーバーサイドでデータを収集します。また、IoT デバイス、セットトップボックス、デスクトップアプリケーションなどのデバイスからデータを収集する場合も同様です。 その後、そのデータをEdge ネットワークとAdobe Analyticsなどのサービスに送信します。
 
-また、機密データを安全に収集し、ネットワーク全体で認証する必要がある場合は、Edge Network API を検討してください。 詳しくは、[ 認証 ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=ja) を参照してください。
+また、機密データを安全に収集し、ネットワーク全体で認証する必要がある場合は、Edge Network API を検討してください。 詳しくは、[ 認証 ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) を参照してください。
 
 実装タスクの大まかな概要：
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 <tr>
 <td>1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
@@ -47,8 +47,8 @@ ht-degree: 36%
 
 <tr>
 <td>4</td>
-<td>単一イベントデータおよびバッチイベントデータ収集 API を使用して </b> データ収集を実装およびテスト <b> ます。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja"> 単一イベントデータ収集 </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ja"> バッチイベントデータ収集 </a>
+<td>単一イベントデータおよびバッチイベントデータ収集 API を使用して <b> データ収集を実装およびテスト </b> ます。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja"> 単一イベントデータ収集 </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html"> バッチイベントデータ収集 </a>
 </tr>
 
 <td>5</td>

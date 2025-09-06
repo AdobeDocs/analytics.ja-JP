@@ -4,7 +4,7 @@ keywords: 欠落データ;遅延
 title: データの可用性と遅延
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Adobe Experience Cloud の一部の機能には、標準の処理時間に加え
 
 遅延の防止や回復時間の短縮を実現するいくつかの方法があります。
 
-* **予想されるトラフィックスパイクをアドビに通知する**：サイトへのすべてのトラフィックスパイクを予測することは不可能ですが、トラフィックが大幅に増加すると予想される場合があります。例としては、特に大きな成果を挙げたホリデーシーズンや、大規模なキャンペーンの展開直後などがあります。そのような場合、予想されるトラフィックの上昇についてアドビに通知を送る仕組みがあり、Adobe では該当するレポートスイートに追加のプロセシング用リソースを割り振ることができます。アドビにトラフィックの上昇を通知する方法について詳しくは、管理ユーザーガイドの「[トラフィックスパイクのスケジュール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)」を参照してください。
+* **予想されるトラフィックスパイクをアドビに通知する**：サイトへのすべてのトラフィックスパイクを予測することは不可能ですが、トラフィックが大幅に増加すると予想される場合があります。例としては、特に大きな成果を挙げたホリデーシーズンや、大規模なキャンペーンの展開直後などがあります。そのような場合、予想されるトラフィックの上昇についてアドビに通知を送る仕組みがあり、Adobe では該当するレポートスイートに追加のプロセシング用リソースを割り振ることができます。アドビにトラフィックの上昇を通知する方法について詳しくは、管理ユーザーガイドの「[トラフィックスパイクのスケジュール](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)」を参照してください。
 * **新しい機能をアクティブ化する際に処理負荷について考慮する：**&#x200B;一部の機能は他の機能より処理の負荷が大きくなります。レポートスイートで有効にされている機能が多いほど、遅延から回復するのが遅くなります。レポートスイートで機能を有効にする際、次のような場合には処理するデータ量が増えることを念頭に置きます。
 
    * 同じページに 20 を超えるイベントを実装する
@@ -50,7 +50,7 @@ Adobe Experience Cloud の一部の機能には、標準の処理時間に加え
    * 製品変数に 20 を超える値がある
    * イベントのシリアル化
 
-* IAB ボットフィルタリングを有効にする：[ボットフィルタリング](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)は、ボットやクローラーがレポートスイートを頻繁に訪問する場合に遅延を大幅に削減できます。[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) が更新し管理する IAB ボットリストを使用することが推奨されています。ユーザーは独自のボットルールをカスタマイズして、IAB のボットリストを補完できます。
+* IAB ボットフィルタリングを有効にする：[ボットフィルタリング](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)は、ボットやクローラーがレポートスイートを頻繁に訪問する場合に遅延を大幅に削減できます。[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) が更新し管理する IAB ボットリストを使用することが推奨されています。ユーザーは独自のボットルールをカスタマイズして、IAB のボットリストを補完できます。
 
 ## 遅延の対処法
 

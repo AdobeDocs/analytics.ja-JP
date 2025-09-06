@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 74%
@@ -18,13 +18,13 @@ ht-degree: 74%
 
 ディメンションに対して、フィルターを設定できます。フィルターによって、表示されるディメンションのデータが絞り込まれます。フィルターは、ピボットレイアウトまたはカスタムレイアウトで適用できます。ピボットレイアウトからディメンションフィルターを設定する際は、さらにセルから表示エントリ数を指定できます。
 
-選択したフィルターフォームは、Report Builderリクエストで選択された要素と指標に基づいて入力されます。
+選択したフィルターフォームは、Report Builder リクエストで選択された要素と指標に基づいて入力されます。
 
 ## フィルターの定義 - 値と特殊文字 {#section_15840216A4044C40974945FAA435AD93}
 
 **[!UICONTROL 最頻使用フィルター]**／**[!UICONTROL フィルターを定義]**&#x200B;パネルのフィルターについての情報です。
 
-![ アプリケーション、ユーザーおよびプロジェクトでフィルターするためのオプションを含んだフィルターを定義ダイアログを示すスクリーンショット。](/help/admin/admin/assets/filter.png)
+![ アプリケーション、ユーザーおよびプロジェクトでフィルターするためのオプションを含んだフィルターを定義ダイアログを示すスクリーンショット。](/help/admin/tools/assets/filter.png)
 
 次の表に、フィルターの例とフィルターについての情報を示します。
 
@@ -60,7 +60,7 @@ ht-degree: 74%
    <td colname="col1"> <p>いずれの語句も含まない </p> </td> 
    <td colname="col02"> <p>指定した値を含まないデータをすべて抽出します。 </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>d e f<span class="term"> 一致しますが </span> c d e f</span><span class="term"> 一致しません。 </p> </td> 
+   <td colname="col3"> <p>d e f<span class="term"> 一致しますが </span> c d e f<span class="term"></span> 一致しません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>このフレーズを含まない </p> </td> 
@@ -75,7 +75,7 @@ ht-degree: 74%
    <td colname="col3"> <p> <span class="term"> abc</span> のみが抽出されます。ほかのものは一切抽出される。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>等しくない </p> </td> 
+   <td colname="col1"> <p>次と等しくない </p> </td> 
    <td colname="col02"> <p>指定した値と一致しないデータをすべて抽出します。 </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
    <td colname="col3"> <p><span class="term"> a</span> と一致しません。 </p> <p><span class="term"> a b c</span> は抽出される。 </p> <p><span class="term"> abc</span> は抽出される。 </p> </td> 

@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics のユースケース
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics では、web サイトのトラフィックを分析するため
 
 * [フロー分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [高度なセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)
+* [高度なセグメント化](/help/components/segmentation/seg-home.md)
 
 
 ## マーケティング分析
@@ -33,9 +33,7 @@ Adobe Analytics は、顧客が自社のブランドを操作する場所、顧�
 
 これらのマーケティング機能を提供する Adobe Analytics の主な機能を以下に示します。
 
-* [マルチチャネルデータ収集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=ja)
-
-* [オフラインデータ統合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ja)
+* [オフラインデータ統合](/help/import/data-sources/overview.md)
 
 * [Analysis Workspace での Ad Hoc Analysis](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ Adobe Analytics は、顧客が自社のブランドを操作する場所、顧�
 
 * [貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [アラート](/help/components/c-alerts/intellligent-alerts.md)
+* [アラート](/help/components/alerts/alerts-overview.md)

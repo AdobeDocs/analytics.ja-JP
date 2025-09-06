@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Adobe Analytics ツールガイド {#analyze}
 
 + [Analytics ツールガイド](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
++ [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
 + Adobe Analytics の基本を学ぶ {#admin-overview}
    + [Analytics の概要](get-started/analytics-overview.md)
    + [基本を学ぶ（役割別）](get-started/get-started-by-role.md)
@@ -55,7 +55,7 @@ ht-degree: 98%
          + [注釈を作成](analysis-workspace/components/annotations/create-annotations.md)
          + [注釈を管理](analysis-workspace/components/annotations/manage-annotations.md)
          + [注釈を表示](analysis-workspace/components/annotations/view-annotations.md)
-         + [モバイルスコアカード注釈](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [モバイルスコアカードの注釈](analysis-workspace/components/annotations/mobile-annotations.md)
       + ディメンション {#dimensions}
          + [ディメンションのプレビュー](analysis-workspace/components/dimensions/view-dimensions.md)
          + [ディメンションの分類](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -142,7 +142,7 @@ ht-degree: 98%
       + [送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
-      + [モデル、コンテナ、ルックバックウィンドウ](analysis-workspace/attribution/models.md)
+      + [モデル, コンテナ, ルックバックウィンドウ](analysis-workspace/attribution/models.md)
       + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
       + [ベストプラクティス](analysis-workspace/attribution/best-practices.md)
       + [よくある質問](analysis-workspace/attribution/faq.md)
@@ -151,7 +151,7 @@ ht-degree: 98%
    + 異常値検出 {#anomaly-detection}
       + [概要](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [異常値を表示](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [貢献度分析の実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [貢献度分析を実行](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [統計的手法](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
    + Workspace に関する FAQ {#workspace-faq}

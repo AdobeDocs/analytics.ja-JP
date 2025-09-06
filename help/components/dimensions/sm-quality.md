@@ -1,9 +1,9 @@
 ---
 title: ストリーミングメディアサービス品質ディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能なディメンション。
+description: レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # ストリーミングメディアサービス品質ディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディアサービス品質指標 ](../metrics/sm-quality.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディア品質 ] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディアサービス品質指標 ](../metrics/sm-quality.md) を参照してください。*
 
 ストリーミングメディアサービス品質ディメンションは、訪問者が消費するコンテンツの品質に関するレポートを提供します。 これらのディメンションを使用するには、[!UICONTROL Adobe Analytics for Streaming Media Ad-on] が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [ メディア品質 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の [ メディア品質 ](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

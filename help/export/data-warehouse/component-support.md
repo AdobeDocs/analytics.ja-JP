@@ -3,7 +3,7 @@ title: Data Warehouseでのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -67,7 +67,7 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
-* パーティシペーション指標（[ 「パーティシペーション」指標の作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md) で説明）
+* パーティシペーション指標（[ 「パーティシペーション」指標の作成 ](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) で説明）
 
 ### 異なる方法でサポートされるディメンション（非標準の日付形式）
 

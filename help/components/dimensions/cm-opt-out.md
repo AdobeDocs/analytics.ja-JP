@@ -3,7 +3,7 @@ title: 同意管理のオプトアウト
 description: 訪問者がオプトアウトしたプライバシー設定を確認します。
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 93%
@@ -28,6 +28,6 @@ ht-degree: 93%
 
 ディメンション項目には、次の 3 つの値が含まれます。
 
-* **`SSF`**：訪問者が[サーバーサイド転送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)をオプトアウトした。このディメンション項目は、コンテキストデータ変数 `cm.ssf` が `1` に等しい場合に存在します。詳しくは、Audience Manager ユーザーガイドの[データプライバシーの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ja)を参照してください。ヒットは、Adobe Audience Manager に転送されません。
+* **`SSF`**：訪問者が[サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)をオプトアウトした。このディメンション項目は、コンテキストデータ変数 `cm.ssf` が `1` に等しい場合に存在します。詳しくは、Audience Manager ユーザーガイドの[データプライバシーの概要](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ja)を参照してください。ヒットは、Adobe Audience Manager に転送されません。
 * **`DMP`**：訪問者がデータ管理プラットフォームへの共有をオプトアウトした。このディメンション項目は、コンテキストデータ変数 `opt.dmp` が `N` に等しい場合に存在します。`SSF` と同様に、ヒットは、Adobe Audience Manager に転送されません。
 * **`SELL`**：訪問者がサードパーティへのデータの共有や販売をオプトアウトした。このディメンションは、コンテキストデータ変数 `opt.sell` が `N` に等しい場合に存在します。

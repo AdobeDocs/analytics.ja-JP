@@ -4,10 +4,10 @@ title: セグメント：概要
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 43%
 
 ---
 
@@ -20,28 +20,28 @@ ht-degree: 34%
 | --- | --- | --- | --- |
 | コンポーネントリストセグメント | 方法 [ セグメントの作成 ](/help/components/segmentation/segmentation-workflow/seg-create.md) を参照してください。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
 | クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | （ドラッグ&amp;ドロップで）アドホックな単一ルールセグメントに使用したり、（セグメントアイコンをクリックして）複数のルールを追加または編集したりできます |
-| 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
-| 仮想レポートスイートベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | 仮想レポートスイート定義内でのセグメントの適用 |
+| 計算指標ベースのセグメント | [計算指標ビルダー](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
+| 仮想レポートスイートベースのセグメント | [仮想レポートスイートビルダー](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 個々の仮想レポートスイートに適用 | 仮想レポートスイート定義内でのセグメントの適用 |
 
 ## ビデオ
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/41393?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの検索と作成 ](https://video.tv.adobe.com/v/3416042?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの検索と作成 ](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントを適用するためのその他の方法 ](https://video.tv.adobe.com/v/34731?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントを適用するためのその他の方法 ](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 セグメント比較は、次の機能で構成されます。
 
-* [ セグメント比較パネル：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)2 つのセグメントをパネルにドラッグして、統計的に有意な差異と 2 つのオーディエンス間の重複を示す包括的なレポートを表示できます。
+* [セグメント比較パネル：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)2 つのセグメントをパネルにドラッグし、2 つのオーディエンス間の統計的に有意な違いと重複を示す包括的なレポートを表示できます。
 * [フォールアウトでのセグメントの比較：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)フォールアウトビジュアライゼーションのコンテキストで、異なるオーディエンスを相互に比較する方法を確認します。
 
 

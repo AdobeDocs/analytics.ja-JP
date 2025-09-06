@@ -3,16 +3,16 @@ title: 有料検索指標のインポート
 description: データソースを使用して有料検索指標（Google Ads、Microsoft Advertisingなど）をトラッキングするようにAdobe Analyticsを設定する手順です。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
 
 # [!UICONTROL データソース]を使用した[!UICONTROL 有料検索]指標のインポート
 
-多くのマーケティング組織にとって、有料検索は、新規顧客にリーチしつつ既存顧客を維持するための最も有益で信頼性の高い方法の 1 つです。Adobe Analyticsの [!UICONTROL &#x200B; データソース &#x200B;] 機能を使用すると、Google Ads などのデジタル広告プラットフォームから高度な有料検索データを簡単にインポートできます。 そのデータを、オンサイト行動データや顧客属性データと共に、他のマーケティングデータと統合して、組織の有料検索の取り組みに対するより優れたインサイトを得ることができます。
+多くのマーケティング組織にとって、有料検索は、新規顧客にリーチしつつ既存顧客を維持するための最も有益で信頼性の高い方法の 1 つです。Adobe Analyticsの [!UICONTROL  データソース ] 機能を使用すると、Google Ads などのデジタル広告プラットフォームから高度な有料検索データを簡単にインポートできます。 そのデータを、オンサイト行動データや顧客属性データと共に、他のマーケティングデータと統合して、組織の有料検索の取り組みに対するより優れたインサイトを得ることができます。
 
 これらの手順では、広告との統合を設定して、キーワードデータとともに、インプレッション数、クリック数、クリック単価などの指標をインポートする方法を示します。
 
@@ -66,7 +66,7 @@ ht-degree: 90%
 1. 「**[!UICONTROL 次へ]**」をクリックして、データソースに名前を付けます。この名前は、データソースマネージャーに表示されます。
 1. サービス使用許諾契約に同意し、「**[!UICONTROL 次へ]**」をクリックします。
 1. 「[!UICONTROL インプレッション数]」、「[!UICONTROL クリック数]」および「[!UICONTROL 合計コスト]」の 3 つの標準指標を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-1. 次に、この新しいデータソースを [ 成功イベント ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) で作成したカスタムイベントに「マッピング」します。
+1. 次に、この新しいデータソースを [ 成功イベント ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) で作成したカスタムイベントに「マッピング」します。
 
    ![マッピング](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ f. トラッキングコード、インプレッション数、クリック数�
 
 計算指標の追加は、クリック課金の決定を行う際に役立ちます。
 
-例えば、次の[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja#calculated-metrics)を追加できます。
+例えば、次の[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics)を追加できます。
 
 | 名前 | 数式 | 指標タイプ | 説明 |
 | --- | --- | --- | --- |

@@ -4,9 +4,9 @@ description: 1 つのAnalysis Workspace プロジェクトで複数のレポー�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 複数のレポートスイート ](https://video.tv.adobe.com/v/37010?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 複数のレポートスイート ](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. （任意）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
-   * セグメントの作成場所：[ セグメントビルダー ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)。
-   * 計算指標が作成される場所：[ 計算指標ビルダー ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)。
-   * アラートの作成場所：[ アラートビルダー ](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=ja)。
+   * セグメントの作成場所：[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+   * 計算指標が作成される場所：[ 計算指標ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
+   * アラートの作成場所：[ アラートビルダー ](/help/components/alerts/alert-builder.md)。

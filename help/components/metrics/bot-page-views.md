@@ -3,7 +3,7 @@ title: ボットページビュー数
 description: ボットルールに一致したページビューの数。
 feature: Metrics
 exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # ボットページビュー数
 
-「ボットページビュー数 [ 指標 ](overview.md) は、「ボットルール [ に一致したページヒット数を表示 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) ます。
+「ボットページビュー数 [ 指標 ](overview.md) は、「ボットルール [ に一致したページヒット数を表示 ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) ます。
 
 ボットレポートは残りのレポートスイートデータから分離されているので、この指標は次のディメンションでのみ機能します。
 

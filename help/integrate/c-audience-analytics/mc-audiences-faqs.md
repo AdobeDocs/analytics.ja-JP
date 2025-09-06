@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 31%
 
 ---
@@ -19,7 +19,7 @@ Audience Analytics を実装するときによくある質問への回答です�
 
 +++ Analytics データに個人を特定できる情報（PII）があるかどうかを確認するにはどうすればよいですか？ もしそうなら私はどうすればいいの？
 
-prop やデータにメールやアドレスなどのデータが含まれている場合は、収集中にeVarをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=ja) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
+prop またはeVarにメールやアドレスなどがある場合は、収集時にデータをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする ](/help/admin/tools/exclude-ip.md) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
 
 +++
 
@@ -105,7 +105,7 @@ Adobe Audience Managerの Analytics に関する情報をすべて入手でき�
 
 +++
 
-+++ Analytics レポートに「オーディエンス制限に達しました」と表示されるのはなぜですか？ （メモ：また、Audience ID = -1 および `::max_audiences_exceeded::` としてもData Warehouseで表示されます）
++++ Analytics レポートに「オーディエンス制限に達しました」と表示されるのはなぜですか？ （メモ：また、Data Warehouseでは「Audience ID = -1」および「`::max_audiences_exceeded::`」としても表示されます）
 
 デフォルトでは、Adobe Audience ManagerのAudience Analytics統合により、訪問者が該当するすべてのセグメントがヒットごとに Analytics に送信されます。 訪問者が 1 回のヒットで 150 を超えるAdobe Audience Manager セグメントに属している場合、最近選定された **150 個のセグメント** が Analytics に送信され、残りのリストは切り捨てられます。 セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。
 
@@ -135,7 +135,7 @@ Adobe Audience Managerの Analytics に関する情報をすべて入手でき�
 
 Experience Cloud 組織にマップされているスイートのみを有効にできます。
 
-このトピックに関するその他の FAQ については、[サーバーサイド転送 FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)を参照してください。
+このトピックに関するその他の FAQ については、[サーバーサイド転送 FAQ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)を参照してください。
 
 +++
 

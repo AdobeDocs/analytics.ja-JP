@@ -4,9 +4,9 @@ title: Analytics For Target パネル
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 97%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の Analytics for Target パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** で様々なユーザーエクスペリエンス、マーケティングまたはメッセージングのバリエーションを比較する方法について詳しくは、[実験パネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の Analytics for Target パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** で様々なユーザーエクスペリエンス、マーケティングまたはメッセージングのバリエーションを比較する方法について詳しくは、[実験パネル](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Analytics for Target パネルを使用すると、Analysis Workspace で Adobe 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target パネル](https://video.tv.adobe.com/v/326710?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target パネル](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -85,12 +85,12 @@ Analytics for Target パネルは、豊富なデータとビジュアライゼ�
 | **[!UICONTROL 成功指標]** | 入力パネルで選択された成功指標。 |
 | **[!UICONTROL コンバージョン率]** | 成功指標 / 標準化指標。 |
 | **[!UICONTROL 上昇率]** | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。メモ：上昇率は、ターゲットエクスペリエンスに対して&#x200B;*ロックされた指標*&#x200B;です。分類したり、他のディメンションで使用したりすることはできません。 |
-| **[!UICONTROL 上昇率（下限）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる最低の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)の Excel ファイルを参照してください。 |
-| **[!UICONTROL 上昇率（中間点）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる中間点の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)の Excel ファイルを参照してください。 |
-| **[!UICONTROL 上昇率（上限）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる最高の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)の Excel ファイルを参照してください。 |
-| **[!UICONTROL 信頼性]** | 学生 t テストは信頼性レベルを計算します。これは、テストを再度実行した場合に結果が重複する可能性を示しています。75%／85%／95%という固定の条件付き書式が指標に適用されました。この形式設定は、必要に応じて列設定の下でカスタマイズできます。注 ：信頼性は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=ja)の Excel ファイルを参照してください。 |
+| **[!UICONTROL 上昇率（下限）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる最低の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)の Excel ファイルを参照してください。 |
+| **[!UICONTROL 上昇率（中間点）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる中間点の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)の Excel ファイルを参照してください。 |
+| **[!UICONTROL 上昇率（上限）]** | この値は、95％の信頼区間において、バリアントエクスペリエンスがコントロールに対して持ちうる最高の上昇率を表します。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)の Excel ファイルを参照してください。 |
+| **[!UICONTROL 信頼性]** | 学生 t テストは信頼性レベルを計算します。これは、テストを再度実行した場合に結果が重複する可能性を示しています。75%／85%／95%という固定の条件付き書式が指標に適用されました。この形式設定は、必要に応じて列設定の下でカスタマイズできます。注 ：信頼性は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。<br>詳しくは、[統計計算](https://experienceleague.adobe.com/ja/docs/target/using/reports/statistical-methodology/statistical-calculations)および[完全信頼性計算ツール](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)の Excel ファイルを参照してください。 |
 
-Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations)を追加して分析を続行できます。セグメントは、パネルレベルでもフリーフォームテーブル内でも適用できます。なお、フリーフォームテーブル内に追加する場合は、上昇率と信頼性の計算を維持するため、テーブル全体にオーバーレイする必要があります。 現時点では、列レベルのセグメントはサポートされていません。
+Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を追加して分析を続行できます。セグメントは、パネルレベルでもフリーフォームテーブル内でも適用できます。なお、フリーフォームテーブル内に追加する場合は、上昇率と信頼性の計算を維持するため、テーブル全体にオーバーレイする必要があります。 現時点では、列レベルのセグメントはサポートされていません。
 
 パネルを再設定および再作成するには、![編集](/help/assets/icons/Edit.svg) を使用します。
 

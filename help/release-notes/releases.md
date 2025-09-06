@@ -3,8 +3,8 @@ description: Adobe Analytics の継続的な機能リリース戦略を説明
 title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: ht
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Adobe Analytics リリースは、機能のデプロイメントに向けて、�
 
 ## リリース方法
 
-[!UICONTROL Analysis Workspace] では、機能フラグ（「トグル」とも呼ばれます）を使用して新機能の表示/非表示を制御し、完全リリース前の制御スケールテストを行うことができます。このリリース戦略には、次のフェーズが含まれます。
+[!UICONTROL Analysis Workspace] では、機能フラグ（「切替スイッチ」とも呼ばれます）を使用して新機能の表示/非表示を制御し、完全リリース前の制御スケールテストを行うことができます。このリリース戦略には、次のフェーズが含まれます。
 
 * **制限付きテスト**：段階的なリリースは、アドビの内部ユーザーによるテストで始まります。その後、少数の顧客アカウントのグループに公開して、機能が顧客のニーズと期待に応えているかどうかを確認します。
 
@@ -41,4 +41,4 @@ Adobe Analytics リリースは、機能のデプロイメントに向けて、�
 | 質問 | 回答 |
 | --- | --- |
 | 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](/help/analyze/labs.md) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします。 |
-| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの詳細の表示は、 [機能アクセスレベル](/help/admin/admin/company/feature-access-levels.md) で確認できます。 |
+| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの詳細の表示は、 [機能アクセスレベル](/help/admin/tools/company/feature-access-levels.md) で確認できます。 |

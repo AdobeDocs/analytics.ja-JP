@@ -4,9 +4,9 @@ short-description: アナリスト、エンドユーザーや管理者向けの�
 title: Adobe Analytics の概要
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Adobe Analytics の基本については、この *Adobe Analytics の概要 - �
 >[!ENDSHADEBOX]
 
 
-使用するツールに関する質問については、[使用する Adobe Analytics ツールの検討](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=ja)を参照してください。
+使用するツールに関する質問については、[使用する Adobe Analytics ツールの検討](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
 ## Customer Journey Analytics でさらに前進
 

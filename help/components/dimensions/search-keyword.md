@@ -3,7 +3,7 @@ title: 検索キーワード
 description: 訪問者がサイトに到達する際に使用した検索キーワード。
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 * 参照ドメインは、アドビによって有効な[検索エンジン](search-engine.md)として認識されます。
 * 参照 URL にキーワードクエリ文字列パラメーターが存在する。キーワードクエリ文字列が存在し、値が含まれない場合、そのキーワード文字列はディメンション項目 `"Keyword unavailable"` の下にグループ化されます。
 
-有料検索と自然検索を区別したい場合は、[有料検索検知](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)が必要です。検索キーワードには、複数のディメンションを使用できます。
+有料検索と自然検索を区別したい場合は、[有料検索検知](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)が必要です。検索キーワードには、複数のディメンションを使用できます。
 
 * **検索キーワード**：有料か自然かに関係なく、サイトに到達するために使用された検索キーワード。
 * **検索キーワード — 有料**：サイトに到達するために使用された検索キーワードで、有料検索検知と一致するもの。
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、アドビ内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
+このディメンションは、アドビ内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
 
 ## ディメンション項目
 

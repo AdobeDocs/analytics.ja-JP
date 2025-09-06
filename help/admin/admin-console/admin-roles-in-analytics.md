@@ -4,7 +4,7 @@ description: Adobe Analytics の使用開始、一般的な役割タイプ、UI 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 96%
@@ -72,7 +72,7 @@ Experience Platform のデータ収集の製品管理者アクセスは、Analyt
 
 ## 次の手順
 
-[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
+[レポートスイートの作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
 
 [Analytics タグプロパティの作成](/help/implement/launch/create-analytics-property.md)：データ収集の管理者をツールにログインさせてプロパティを作成し、サイトに実装します
 

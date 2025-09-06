@@ -5,10 +5,10 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ Web ページトラフィックをリアルタイムで表示し、ページビ�
 * 任意のカスタムイベント、買い物かごイベントまたはインスタンスを使用できます。
 * 最大 20 時間の履歴データとリアルタイムデータを表示できます。
 
-リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=ja)を使用します。
+リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を使用します。
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; リアルタイムレポート &#x200B;] は、以前にリリースした [ 現在のデータを含める ](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=ja) （データの最新性）機能とは異なります。これにより、データが最終処理される前に表示されるので、標準レポートの待ち時間が短縮されます。
+>[!UICONTROL  リアルタイムレポート ] は、以前にリリースした [ 現在のデータを含める ](/help/analyze/legacy-report-builder/options.md) （データの最新性）機能とは異なります。これにより、データが最終処理される前に表示されるので、標準レポートの待ち時間が短縮されます。

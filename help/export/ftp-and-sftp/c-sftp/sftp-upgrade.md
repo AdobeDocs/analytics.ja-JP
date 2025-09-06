@@ -3,9 +3,9 @@ title: SFTP サービスのアップグレード - FAQ
 description: 予定されている SFTP サービスのアップグレードに関するよくある質問（FAQ）です。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 100%
 
 次の機能には、SFTP を使用して Adobe Analytics にデータをアップロードするオプションが用意されています。
 
-* [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)
+* [分類](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
 * [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja)
 
-* [データフィード](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=ja)
+* [データフィード](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [データソース](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=ja)
+* [データソース](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse が配信したレポート](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=ja)
+* [Data Warehouse が配信するレポート](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* さらに、 [エンジニアリングサービス](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=ja) を通じて作成された一部のカスタム実装では、アドビとのデータ交換に SFTP を使用する場合があります。
+* さらに、 [エンジニアリングサービス](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md) を通じて作成された一部のカスタム実装では、アドビとのデータ交換に SFTP を使用する場合があります。
 
 ## このアップデートには、具体的にはどのような変更が含まれていますか？
 

@@ -4,10 +4,10 @@ title: フリーフォームパネル
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 84%
+source-wordcount: '124'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のフリーフォームパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[フリーフォームパネル](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のフリーフォームパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[フリーフォームパネル](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Analytics コンポーネントガイド](/help/components/home.md)
->&#x200B;>[フリーフォームテーブルビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics コンポーネントガイド](/help/components/home.md)
+>>[フリーフォームテーブルビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

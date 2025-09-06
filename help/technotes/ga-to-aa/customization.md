@@ -3,7 +3,7 @@ title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -68,8 +68,8 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 4. 計算指標に適切な数式を追加したら、「保存」をクリックしてワークスペースに戻ります。
 5. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
+   [計算指標](/help/components/calculated-metrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
 ## カスタムアラート
 
-アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、『コンポーネントユーザガイド』の [ アラートの概要 ](/help/components/c-alerts/intellligent-alerts.md) を参照してください。
+アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、『コンポーネントユーザガイド』の [ アラートの概要 ](/help/components/alerts/alerts-overview.md) を参照してください。

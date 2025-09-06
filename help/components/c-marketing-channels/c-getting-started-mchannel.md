@@ -3,10 +3,10 @@ title: マーケティングチャネル使用の手引き
 description: マーケティングチャネルのワークフロー、自動セットアップ、および複数のレポートスイートにテンプレートレポートスイート設定を適用する方法について説明します。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >アトリビューションと Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 >
->Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
+>Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
 
 マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネルの処理ルールをカスタマイズできます。
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 追跡するチャネルを定義したら、**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;でこれらのチャネルを有効にします。
 
-前提条件と概念情報については、[チャネルとルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)を参照してください。
+前提条件と概念情報については、[チャネルとルール](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)を参照してください。
 
-手順については、「[マーケティングチャネルの追加](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)」を参照してください。
+手順については、「[マーケティングチャネルの追加](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 [!UICONTROL マーケティングチャネルマネージャー]ページでチャネルを作成したら、ルールを設定して、チャネルからデータを取得しレポートできるようにします。
 
-[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)を参照してください。
+[マーケティングチャネルの処理ルール](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)を参照してください。
 
 チャネルが自動セットアップで作成された場合は、これらのチャネルのルールが定義されています。ニーズに合わせてこれらのルールを変更します。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >管理ツールでチャネル設定アプリケーションにアクセスすると、[!UICONTROL マーケティングチャネル：自動セットアップ]ページが自動的に表示されます詳しくは、[マーケティングチャネルマネージャ－](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)を参照してください。このページは、レポートスイートに既にマーケティングチャネルが含まれている場合には表示されません。マーケティングチャネルのない別のレポートスイートを選択しない限り、再度このページにアクセスすることはできません。
+   >管理ツールでチャネル設定アプリケーションにアクセスすると、[!UICONTROL マーケティングチャネル：自動セットアップ]ページが自動的に表示されます（[ マーケティングチャネルマネージャー ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) を参照）。このページは、レポートスイートに 1 つ以上のマーケティングチャネルが含まれている場合は表示されません。 マーケティングチャネルのない別のレポートスイートを選択しない限り、再度このページにアクセスすることはできません。
 
 1. 作成するチャネルが選択されていることを確認します。
 
@@ -88,12 +88,12 @@ ht-degree: 100%
 >ルールセットを適用する前に、テンプレートからチャネルを適用してください。この手順を実行する際、チャネルは全レポートスイート間で同一にする必要があります。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. **[!UICONTROL Report Suite Manager]** ページで、テンプレートレポートスイートと、1 つ以上の対象レポートスイートを選択します。
+1. **[!UICONTROL Report Suite Manager]** ページで、テンプレートレポートスイートと、1 つ以上のターゲットレポートスイートを選択します。
 1. **[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルマネージャー]**&#x200B;をクリックします。
 1. **[!UICONTROL マスターレポートスイートの選択]**&#x200B;ページで、テンプレートレポートスイートを選択します。
 1. 「**[!UICONTROL すべて保存]**」をクリックします。
 1. テンプレートから複数のレポートスイートにルールを適用します。
    1. [!UICONTROL Report Suite Manager] ページに戻ります。
-   1. テンプレートレポートスイートと、1 つ以上の対象レポートスイートを選択します。
+   1. テンプレートレポートスイートと、1 つ以上のターゲットレポートスイートを選択します。
    1. **[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの処理ルール]**&#x200B;の順にクリックします。
    1. 「**[!UICONTROL 保存]**」をクリックします。この手順で「保存」ボタンが無効になっている場合は、いずれかのルールを展開して有効にします。

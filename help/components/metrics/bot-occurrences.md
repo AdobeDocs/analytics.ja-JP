@@ -3,7 +3,7 @@ title: ボットの発生件数
 description: ボットルールに一致したヒットの数。
 feature: Metrics
 exl-id: 94cbbee4-8455-48b1-b804-534ed8fccdc9
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # ボットの発生件数
 
-「ボットの発生件数 [ 指標 ](overview.md) は、[ ボットルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) に一致したヒット数を表示します。
+「ボットの発生件数 [ 指標 ](overview.md) は、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) に一致したヒット数を表示します。
 
 ボットレポートは残りのレポートスイートデータから分離されているので、この指標は次のディメンションでのみ機能します。
 

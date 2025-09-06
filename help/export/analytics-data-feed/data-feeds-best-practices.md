@@ -4,7 +4,7 @@ keywords: データフィード、ベストプラクティス、トラフィッ�
 title: ベストプラクティスおよび一般情報
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 データフィードの処理および配信に関するベストプラクティスをいくつか示します。
 
-* 事前に予想されるトラフィックスパイクにつきましては Adobe Anaytics のインターフェイスより Adobe へご連絡ください。遅延は、データフィードの処理時間に直接影響します。詳しくは、管理ユーザーガイドの「[トラフィックスパイクのスケジュール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)」を参照してください。
+* 事前に予想されるトラフィックスパイクにつきましては Adobe Anaytics のインターフェイスより Adobe へご連絡ください。遅延は、データフィードの処理時間に直接影響します。詳しくは、管理ユーザーガイドの「[トラフィックスパイクのスケジュール](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)」を参照してください。
 
 * データフィードには、アドビとの契約に明示的に記載されていない限り、サービスレベル契約は含まれません。フィードは通常、レポートウィンドウの経過後数時間以内に配信されますが、12 時間以上かかる場合があります。
 

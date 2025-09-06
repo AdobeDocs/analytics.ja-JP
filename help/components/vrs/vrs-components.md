@@ -3,9 +3,9 @@ description: 仮想レポートスイートをキュレートして、Analysis W
 title: 仮想レポートスイートコンポーネントのキュレーション
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://video.tv.adobe.com/v/3425530?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Component curation](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ Analysis Workspace でコンポーネント名の横にある情報アイコン�
 
 ## Workspace の動作 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Analysis Workspace のキュレーションについて詳しくは、[プロジェクトのキュレーションおよび共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja)を参照してください。
+Analysis Workspace のキュレーションについて詳しくは、[プロジェクトのキュレーションおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。

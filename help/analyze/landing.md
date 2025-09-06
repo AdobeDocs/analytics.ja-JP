@@ -4,9 +4,9 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://video.tv.adobe.com/v/346465/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,8 @@ Adobe Analytics のランディングページは、プロジェクト、テン�
 | 環境設定を編集 | [!UICONTROL チュートリアルを表示]して、[ユーザー環境設定を編集](/help/analyze/analysis-workspace/user-preferences.md)できます。 |
 | [!UICONTROL 新規作成] | Workspace プロジェクトやモバイルスコアカードを作成したり、会社テンプレートを開いたりできるプロジェクトモーダルを開きます。 |
 | [!UICONTROL 表示を減らす<br> さらに表示] | バナーの表示／非表示を切り替えます。![トップバナー](assets/top-banner.png) |
-| [!UICONTROL ワークスペースプロジェクト] | デザインおよび作成用の空の [Workspace プロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja)を作成します。 |
-| [!UICONTROL モバイルスコアカード] | デザインおよび作成用の空の[モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)を作成します。 |
+| [!UICONTROL ワークスペースプロジェクト] | デザインおよび作成用の空の [Workspace プロジェクト](/help/analyze/analysis-workspace/home.md)を作成します。 |
+| [!UICONTROL モバイルスコアカード] | デザインおよび作成用の空の[モバイルスコアカード](/help/analyze/mobile-app/curator.md)を作成します。 |
 | [!UICONTROL トレーニングチュートリアルを開く] | ステップバイステップのチュートリアルで新しいスタータープロジェクトの作成プロセスをガイドする Workspace トレーニングチュートリアルを開きます。 |
 | [!UICONTROL リリースノートを開く] | 最新の Adobe Experience Cloud リリースノートの Adobe Analytics セクションを開きます。 |
 | フィルターアイコン | タグ、レポートスイート、所有者、タイプおよびその他のフィルター（自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングできます |
@@ -84,7 +84,7 @@ Adobe Analytics のランディングページは、プロジェクト、テン�
 | [!UICONTROL お気に入り] | フィルターとして使用できるお気に入りのプロジェクトまたはフォルダーの横に星を追加します。 |
 | [!UICONTROL 名前] | プロジェクトの名前を識別します。 |
 | ピンアイコン | 項目をピン留めすると、リストの上部に常に表示されますが、順番を植えまたは下に移動させることで順番を再調整できます。省略記号オプションメニューを使用して、リストの&#x200B;**上へ移動**&#x200B;または&#x200B;**下へ移動**&#x200B;を選択します。 |
-| 情報 (i) アイコン | プロジェクトに関する情報（タイプ、プロジェクトの役割、所有者、説明および共有相手）を表示します。また、このプロジェクトを[編集または複製](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)できるユーザーも示します。 |
+| 情報 (i) アイコン | プロジェクトに関する情報（タイプ、プロジェクトの役割、所有者、説明および共有相手）を表示します。また、このプロジェクトを[編集または複製](/help/analyze/analysis-workspace/curate-share/share-projects.md)できるユーザーも示します。 |
 | 省略記号（...） | 実行できるプロジェクト管理アクション（**削除**、**共有**、**名前を変更**、**コピー**、**ピン留めを解除**、**上へ移動**、**下へ移動**、**タグ**、**承認**、**CSV を書き出し**&#x200B;および&#x200B;**移動**）を表示します。リストされたすべてのアクションを実行する権限がない可能性があります。 |
 | 表示：フォルダーとプロジェクトまたはすべてのプロジェクト | テーブルの表示設定を変更して、フォルダー組織に従ってフォルダーおよびプロジェクトを表示するか、**または**&#x200B;未整理のリストのすべてのプロジェクトを表示します。 |
 | &lt;（戻るボタン） | Workspace プロジェクトまたはレポートの最新のランディングページ設定に戻ります。ランディングページを離れた時点でのページ設定は、戻った際にも保持されます。 |
@@ -93,7 +93,7 @@ Adobe Analytics のランディングページは、プロジェクト、テン�
 
 Adobe Analytics でのテンプレートの使用について詳しくは、次のリソースを参照してください。
 
-* [テンプレートを使用](/help/analyze/analysis-workspace/templates/use-templates.md)
+* [テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)
 
 * [テンプレートの作成と管理](/help/analyze/analysis-workspace/templates/create-templates.md)
 
@@ -133,4 +133,4 @@ Adobe Analytics の学習ページを使用して、Adobe Analytics の初級、
 | ベータ版プログラム UI での作業内容は、実稼動用の[!UICONTROL ワークスペース]エクスペリエンスに引き継がれますか。 | はい、ベータ版で行った作業はすべて古い／現在の[!UICONTROL ワークスペース]エクスペリエンスに引き継がれます。 |
 | 以前の Reports &amp; Analytics のお気に入りは引き継がれますか？ | いいえ、引き継がれません。ただし、[!UICONTROL ワークスペース]プロジェクトのお気に入りは引き継がれます。 |
 | ピン留めできるプロジェクトに最大数はありますか？ | いいえ。固定できるプロジェクトの数に制限はありません。 |
-| 管理者は、このランディングページをユーザーに指定できますか？ | いいえ。管理者は、ユーザーの代わりにランディングページを指定することはできません。個々のユーザーは、自分で切り替えをオンにする必要があります。 |
+| 管理者は、このランディングページをユーザーに指定できますか？ | いいえ。管理者は、ユーザーの代わりにランディングページを指定することはできません。個々のユーザーは、自分で切替スイッチをオンにする必要があります。 |

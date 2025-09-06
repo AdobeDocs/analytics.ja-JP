@@ -4,7 +4,7 @@ description: データソースに関するよくある質問です。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ ht-degree: 7%
 +++データソースからアップロードされたデータは、処理ルールなどの追加処理を通じて実行されますか。
 いいえ。データソースを通じてアップロードされたデータ :
 
-* [ 処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) を通過しない
-* [ マーケティングチャネルの処理ルール ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) を通過しない
+* [ 処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) を通過しない
+* [ マーケティングチャネルの処理ルール ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) を通過しない
 * [VISTA ルールを経由しない ](/help/technotes/vista.md)
 +++
 

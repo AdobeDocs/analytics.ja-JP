@@ -3,7 +3,7 @@ title: ストリーミングメディアサービスのコアディメンショ�
 description: レポートスイートの [!UICONTROL Media Core] を有効にするときに使用できるディメンションです。
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ストリーミングメディアサービスのコアディメンションは、ストリーミングメディアサービスライブラリを通じて収集されたデータに対して基本的なレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [Media Core](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の [Media Core](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

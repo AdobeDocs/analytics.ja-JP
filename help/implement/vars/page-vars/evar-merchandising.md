@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '573'
 ht-degree: 90%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 *このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとしてどのように機能するかについては、コンポーネントユーザガイドの [eVar（マーチャンダイジングディメンション）](/help/components/dimensions/evar-merchandising.md)を参照してください。*
 
-マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。
+マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
-実装で eVar を使用する前に、必ず、レポートスイートの設定で eVar を目的の構文に設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)を参照してください。
+実装で eVar を使用する前に、必ず、レポートスイートの設定で eVar を目的の構文に設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
 >[!WARNING]
 >

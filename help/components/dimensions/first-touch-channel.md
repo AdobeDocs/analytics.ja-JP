@@ -3,7 +3,7 @@ title: ファーストタッチチャネル
 description: 訪問者のエンゲージメント期限内で最初のマーケティングチャネル。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 91%
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[マーケティングチャネルマネージャー](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)で定義したチャネル名を直接参照します。
+このディメンションは、[マーケティングチャネルマネージャー](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)で定義したチャネル名を直接参照します。
 
 アドビのデータ収集サーバーに送信されるすべてのヒットは、レポートスイートのマーケティングチャネルの処理ルールを通じて実行されます。各ルールを数値順に繰り返し処理し、一致が見つかると、そのマーケティングチャネルがヒットに結び付けます。ファーストタッチチャネルは、訪問者が訪問者関与期間（デフォルトでは 30 日）を超えてサイトを訪問しない限り維持されます。
 

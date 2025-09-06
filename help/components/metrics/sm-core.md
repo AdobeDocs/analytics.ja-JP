@@ -3,7 +3,7 @@ title: ストリーミングメディアサービスのコア指標
 description: レポートスイートの [!UICONTROL Media Core] を有効にするときに使用できる指標です。
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ストリーミングメディアサービスのコア指標は、ストリーミングメディアサービス収集ライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [Media Core](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次の指標を使用できます。
+**[!UICONTROL メディアレポート]** の [Media Core](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
 
 | Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

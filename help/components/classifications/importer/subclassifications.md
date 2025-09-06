@@ -3,7 +3,7 @@ description: Adobe Analytics では、単一レベルの分類モデルと複数
 title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 >[!NOTE]
 >
->下位分類は、分類の分類を作成する機能を指します。 ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[ 分類階層 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)」を参照してください。
+>下位分類は、分類の分類を作成する機能を指します。 ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[ 分類階層 ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)」を参照してください。
 
 次に例を示します。
 
@@ -62,7 +62,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 ## 例
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 74%
@@ -19,15 +19,15 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->リスト変数は、[ レポートスイート設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) の [!UICONTROL &#x200B; 最大値 &#x200B;] 設定に基づいて、訪問者ごとの最新の値を格納します。 最大 250 個の値がサポートされます。 [!UICONTROL &#x200B; 最大値 &#x200B;] 設定で許可されている一意の値よりも多くの一意の値がある場合、最も古い値は指標に関連付けられません。
+>リスト変数は、[!UICONTROL  レポートスイート設定 ] の [ 最大値 ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) 設定に基づいて、訪問者ごとの最新の値を格納します。 最大 250 個の値がサポートされます。 [!UICONTROL  最大値 ] 設定で許可されている一意の値よりも多くの一意の値がある場合、最も古い値は指標に関連付けられません。
 
 ## レポートスイート設定でのリスト変数の設定
 
-実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、管理者ガイドの[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)を参照してください。この手順は、すべての実装方法に適用されます。
+実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、管理者ガイドの[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)を参照してください。この手順は、すべての実装方法に適用されます。
 
 ## Web SDK を使用したリスト変数
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、リスト変数は `xdm._experience.analytics.customDimensions.lists.list1.list[]` ～ `xdm._experience.analytics.customDimensions.lists.list3.list[]` の XDM フィールドを使用します。 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。Adobe データ収集サーバーは、[ レポートスイートの設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) で設定された正しい区切り文字を自動的に検出して含めます。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、リスト変数は `xdm._experience.analytics.customDimensions.lists.list1.list[]` ～ `xdm._experience.analytics.customDimensions.lists.list3.list[]` の XDM フィールドを使用します。 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。Adobe データ収集サーバーは、[ レポートスイートの設定 ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) で設定された正しい区切り文字を自動的に検出して含めます。
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >Adobe XDM スキーマには、各 `list[]` 配列の `value` オブジェクトに加えて `key` オブジェクトが含まれています。アドビは、データを Adobe Analytics に送信するときにこれらの `key` オブジェクトを使用しません。
 
-[**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、リスト変数は次のAppMeasurement構文 `data.__adobe.analytics.list1` 使用 `data.adobe.analytics.list3` ます。 [ レポートスイートの設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) で設定された正しい区切り文字を使用していることを確認します。
+[**data object**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、リスト変数は次のAppMeasurement構文 `data.__adobe.analytics.list1` 使用 `data.adobe.analytics.list3` ます。 [ レポートスイートの設定 ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md) で設定された正しい区切り文字を使用していることを確認します。
 
 ```json
 "data": {
@@ -77,7 +77,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.list1～s.list3
 
-各リスト変数は、組織固有のカスタム値を含む文字列です。この変数には最大バイト数はありませんが、個々の値の上限は 255 バイトです。 使用する区切り文字は、[レポートスイート設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)で変数を設定する際に決定されます。複数の項目を区切る場合は、スペースを使用しないでください。
+各リスト変数は、組織固有のカスタム値を含む文字列です。この変数には最大バイト数はありませんが、個々の値の上限は 255 バイトです。 使用する区切り文字は、[レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で変数を設定する際に決定されます。複数の項目を区切る場合は、スペースを使用しないでください。
 
 ```js
 // A list variable configured with a comma as a delimiter

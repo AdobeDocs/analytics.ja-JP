@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspaceのプロジェクトでコンポーネントを使用する方法を説明します
+description: Analysis Workspace のプロジェクトでのコンポーネントの使用方法について説明します。
 title: プロジェクトでのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 80%
 
 ### プロジェクトへのディメンションの追加
 
-[ ディメンション ](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/c-calcmetrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
+[ ディメンション ](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
 
 1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、まず、Analysis Workspace のプロジェクトにディメンションを追加します。
 
@@ -102,7 +102,7 @@ Analysis Workspace では、次のいずれかの方法でセグメントを使�
 フリーフォームテーブルの列にセグメントを追加すると、そのセグメントはテーブルの列内のすべてのコンテンツに適用されます。また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
 
 * コンポーネントでのセグメントの使用
-[ 計算指標 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[ 注釈 ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
+[ 計算指標 ](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[ 注釈 ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
 
 
 ### プロジェクトへの日付範囲の追加
@@ -244,7 +244,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

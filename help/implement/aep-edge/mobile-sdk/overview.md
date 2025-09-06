@@ -4,7 +4,7 @@ description: Adobe Experience Platform データ収集の Mobile SDK 拡張機�
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 <tr>
 <td>1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
@@ -45,7 +45,7 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 
 <td>3</td>
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。このサービスは、Adobe Analytics にデータを送信するかどうかと、どのように送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
@@ -95,7 +95,7 @@ Adobe Experience Platform Mobile SDK は、モバイルアプリでの Adobe Exp
 <tr>
 <td>1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>

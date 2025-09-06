@@ -4,9 +4,9 @@ title: 計算指標
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -21,13 +21,13 @@ Report Builder 5.2 以降では、Adobe Analyticsの計算指標をサポート�
 >
 >既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.1 を使用しているユーザーと共有した場合、計算指標は共有先で表示されません。
 
-新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja)ガイドを参照してください。
+新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](/help/components/calculated-metrics/cm-overview.md)ガイドを参照してください。
 
 リクエストウィザードのステップ 2 では、計算指標へのフィルター設定と計算指標の適用ができます。
 
 ## 計算指標をフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
-**フィルター** フィルターアイコンをクリックして計算指標をフィルタリングします。![ アプリケーション、ユーザー、プロジェクトの各フィールドを示すフィルターオプションのスクリーンショット。](/help/admin/admin/assets/filter.png)
+**フィルター** フィルターアイコンをクリックして計算指標をフィルタリングします。![ アプリケーション、ユーザー、プロジェクトの各フィールドを示すフィルターオプションのスクリーンショット。](/help/admin/tools/assets/filter.png)
 
 アドバンスフィルターダイアログに、標準指標と計算指標の両方が入力されます。
 

@@ -3,7 +3,7 @@ title: Adobe Analytics の VISTA ルール
 description: VISTA ルールとその機能の詳細について説明します。
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ VISTA ルールは、データ収集と処理の間で適用できるカスタ�
 VISTA ルールの一般的なユースケースには、例えば、次のものがあります。
 
 * レポートスイート間で Analytics ヒットをコピーする（オプションで、コピーしたレポートスイートにデータを変更する）
-* [IP による除外](/help/admin/admin/exclude-ip.md)で提供されるユースケースを超えるカスタム IP 除外
+* [IP による除外](/help/admin/tools/exclude-ip.md)で提供されるユースケースを超えるカスタム IP 除外
 * 任意の変数値を条件付きまたはグローバルに変更する
 * 変数値を他の変数に複製する
 * 変数値に影響を及ぼす可能性のあるファイルを Adobe FTP サイトにアップロードする
 
-VISTA ルールの多くのユースケースは、[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)、[ボットルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)または[仮想レポートスイート](/help/components/vrs/vrs-about.md)で既に提供されているか、Adobe Analytics 実装を更新するだけで提供されます。アドビでは、VISTA ルールは最後の手段としてのみ使用することをお勧めします。
+VISTA ルールの多くのユースケースは、[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)、[ボットルール](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)または[仮想レポートスイート](/help/components/vrs/vrs-about.md)で既に提供されているか、Adobe Analytics 実装を更新するだけで提供されます。アドビでは、VISTA ルールは最後の手段としてのみ使用することをお勧めします。
 
 >[!IMPORTANT]
 >

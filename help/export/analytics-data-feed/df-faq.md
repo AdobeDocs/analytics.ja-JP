@@ -4,9 +4,9 @@ keywords: データフィード;ジョブ;pre列;post列;大文字と小文字�
 title: データフィードに関する FAQ
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Adobe Analytics では、ほとんどの変数は、レポートの目的で、�
 
 ## ボットは管理コンソールのボットルールによってフィルタリングされ、データフィードに含まれますか。 {#bots}
 
-データフィードには、[Admin Console ボットルール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=ja)でフィルタリングされたボットは含まれません。
+データフィードには、[Admin Console ボットルール](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)でフィルタリングされたボットは含まれません。
 
 ## `event_list` または `post_event_list` データフィード列に複数の `000` 値が表示されるのはなぜですか。 {#values}
 

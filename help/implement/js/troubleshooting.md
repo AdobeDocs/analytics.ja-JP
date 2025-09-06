@@ -4,7 +4,7 @@ description: JavaScript 実装の一般的な問題とトラブルシューテ�
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ s.pageName = "        Home Page";
 多くの変数に長い値を設定する実装では、イメージリクエストが切り捨てられる場合があります。Internet Explorer など、一部の古いブラウザーでは、イメージリクエスト URL に 2083 文字の制限が設けられています。組織が非常に長いイメージリクエストを扱う場合は、次の操作を試してください。
 
 * **Experience Cloud ID サービスの使用**：AppMeasurement ライブラリ 1.4.1 以降では、イメージリクエストが長すぎる場合、送信に自動的に HTTP POST を使用します。このメソッドを使用して送信されるデータは、長さに関係なく切り捨てられません。詳しくは、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。
-* **処理ルールの使用**：[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)では、変数間で値をコピーできます。この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。次に例を示します。
+* **処理ルールの使用**：[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)では、変数間で値をコピーできます。この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。次に例を示します。
 
   常に実行：<br>prop1 の値を eVar1 で上書き<br>eVar2 の値を eVar1 で上書き<br>prop2 の値を eVar1 で上書き<br>
 

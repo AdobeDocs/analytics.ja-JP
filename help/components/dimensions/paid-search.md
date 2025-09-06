@@ -3,7 +3,7 @@ title: 有料検索
 description: 指標と有料検索および自然検索を区別します。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 ## このディメンションへのデータ入力
 
-このディメンションが正しく機能するための唯一の要件は、レポートスイートの設定で[有料検索検知](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)を正しく設定することです。有料検索検知が正しく設定され、レポートスイートにデータが含まれている場合、このディメンションは常に機能します。
+このディメンションが正しく機能するための唯一の要件は、レポートスイートの設定で[有料検索検知](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)を正しく設定することです。有料検索検知が正しく設定され、レポートスイートにデータが含まれている場合、このディメンションは常に機能します。
 
 ## ディメンション項目
 

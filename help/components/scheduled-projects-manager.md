@@ -3,7 +3,7 @@ description: スケジュールされたプロジェクトを管理する方法�
 title: スケジュール済みプロジェクト
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ ht-degree: 41%
 | **[!UICONTROL 頻度]** | このスケジュールプロジェクトを 1 人または複数の受信者に送信する頻度。 |
 | **[!UICONTROL 実行時刻]** | このスケジュールされたプロジェクトが送信される時刻。 |
 | **[!UICONTROL クエリ数]** | このプロジェクトに対するクエリの数。 |
-| **[!UICONTROL 最長の日付範囲]** | スケジュールされたプロジェクトに定義されている最長の日付範囲。 この値は、パフォーマンスの問題の調査に関連する可能性があります。 詳しくは、[ レポートアクティビティマネージャー ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) を参照してください。 |
-| **[!UICONTROL クエリ数]** | スケジュールされたプロジェクトで実行されたクエリの数。 この値は、パフォーマンスの問題の調査に関連する可能性があります。 詳しくは、[ レポートアクティビティマネージャー ](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) を参照してください。 |
+| **[!UICONTROL 最長の日付範囲]** | スケジュールされたプロジェクトに定義されている最長の日付範囲。 この値は、パフォーマンスの問題の調査に関連する可能性があります。 詳しくは、[ レポートアクティビティマネージャー ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) を参照してください。 |
+| **[!UICONTROL クエリ数]** | スケジュールされたプロジェクトで実行されたクエリの数。 この値は、パフォーマンスの問題の調査に関連する可能性があります。 詳しくは、[ レポートアクティビティマネージャー ](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) を参照してください。 |
 
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を使用して、表示する列を構成できます。

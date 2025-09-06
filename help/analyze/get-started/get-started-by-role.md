@@ -3,9 +3,9 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: 管理者、アナリスト、エンドユーザーおよび開発者向けの基本を学ぶ
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1672'
 ht-degree: 99%
 
 ---
@@ -48,13 +48,13 @@ Adobe Analytics を使用すると、複数のチャネルタイプからデー�
 
 * その他（新しくサポートされるチャネルは定期的に追加されます）
 
-選択した[実装方法](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)によって、収集できるデータのタイプが決定します。
+選択した[実装方法](/help/implement/home.md)によって、収集できるデータのタイプが決定します。
 
 ### Adobe Analytics の実装
 
 Adobe Analytics を web サイトやモバイルアプリに実装する場合は、様々な実装方法を使用できます。
 
-使用可能な各方法について詳しくは、[Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=ja)を参照してください。
+使用可能な各方法について詳しくは、[Adobe Analytics の実装](/help/implement/home.md)を参照してください。
 
 | | 実装方法 |
 |---------|---------|
@@ -69,17 +69,17 @@ Analytics 管理者は、組織内のユーザーが Adobe Analytics を使用�
 
 | タスク | 使用目的 | 詳細情報 |
 |---------|----------|---------|
-| 管理者の役割の定義 | Adobe Analytics は、様々なタイプの管理者をサポートします。 | [Adobe Analytics の管理者の役割](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=ja) |
+| 管理者の役割の定義 | Adobe Analytics は、様々なタイプの管理者をサポートします。 | [Adobe Analytics の管理者の役割](/help/admin/admin-console/admin-roles-in-analytics.md) |
 | 権限を定義 | Analytics 管理者は、Admin Console で Adobe Analytics、レポートスイートツールおよび Analytics ツールの製品プロファイルを割り当てる必要があります。 | [Admin Console での Analytics 権限](/help/admin/admin-console/permissions/analytics-tools.md) |
-| レポートスイートの設定とカンパニー設定の定義 | レポートスイートは、Adobe Analytics がレポートの生成に使用するデータのサイロです。<p>また、管理者は、[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja)を設定して、データをさらにセグメント化することもできます。</p> | <ul><li>[レポートスイートを作成](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=ja)</li><li>[カンパニー設定の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=ja)</li></ul> |
-| データの読み込み | Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に読み込むことができます。 | [データソースの概要](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=ja) |
-| 分類を使用してデータを仕分ける | 分類を使用すると、データを仕分けて変数を有効に活用できるので、より多くのコンテンツを 1 つの変数に含めることができます。 | [分類の概要](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-overview.html?lang=ja) |
-| コンポーネントの管理 | 各コンポーネントタイプのデータ辞書と管理領域を使用して、Analytics の実装で使用可能なコンポーネントと組織で承認されるコンポーネントを定義します。<p>コンポーネントが組織内で効果的に使用されていることを確認するには、これを継続的なアクティビティにする必要があります。 </p> | <ul><li>[データ辞書の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=ja)</li><li>[計算指標マネージャー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=ja)</li><li>[セグメントを管理](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=ja)</li><li>[Analysis Workspace でカスタム日付範囲を作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja)</li></ul> |
-| 異常値の検出 | 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。 | [異常値検出の概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja) |
-| 貢献度分析 | 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。 | [貢献度分析のトークン - 概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Analytics のセグメント化 | Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要なオーディエンスセグメントを作成、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja) |
-| Audience Manager へオーディエンスを公開 | Adobe Audience Manager は、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを作成するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) |
-| 統合 | Adobe Analytics では、他のアプリケーションからの情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ja">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja"> ストリーミングメディアサービス </a></li> | [Analytics の統合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=ja) |
+| レポートスイートの設定とカンパニー設定の定義 | レポートスイートは、Adobe Analytics がレポートの生成に使用するデータのサイロです。<p>また、管理者は、[仮想レポートスイート](/help/components/vrs/vrs-about.md)を設定して、データをさらにセグメント化することもできます。</p> | <ul><li>[レポートスイートを作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[カンパニー設定の概要](/help/admin/tools/company/c-company-settings.md)</li></ul> |
+| データの読み込み | Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に読み込むことができます。 | [データソースの概要](/help/import/data-sources/overview.md) |
+| 分類を使用してデータを仕分ける | 分類を使用すると、データを仕分けて変数を有効に活用できるので、より多くのコンテンツを 1 つの変数に含めることができます。 | [分類の概要](/help/components/classifications/classifications-overview.md) |
+| コンポーネントの管理 | 各コンポーネントタイプのデータ辞書と管理領域を使用して、Analytics の実装で使用可能なコンポーネントと組織で承認されるコンポーネントを定義します。<p>コンポーネントが組織内で効果的に使用されていることを確認するには、これを継続的なアクティビティにする必要があります。 </p> | <ul><li>[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[セグメントを管理](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Analysis Workspace でカスタム日付範囲を作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
+| 異常値の検出 | 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| 貢献度分析 | 貢献度分析は、データ内の隠れたパターンを発見し、統計的異常を説明するとともに、集約されたオーディエンスセグメント全体で選択された指標における予期せぬ顧客行動、範囲外値、急激な上昇や下降の背後にある相関関係を特定します。 | [貢献度分析のトークン - 概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
+| Analytics のセグメント化 | Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要なオーディエンスセグメントを作成、管理、共有し、レポートに適用できます。 | [Analytics のセグメント化](/help/components/segmentation/seg-home.md) |
+| Audience Manager へオーディエンスを公開 | Adobe Audience Manager は、ファーストパーティ、セカンドパーティ（パートナー）、サードパーティのデータ統合から一意のオーディエンスプロファイルを作成するのに役立つ強力なデータ管理プラットフォームです。 | [Audience Analytics の概要](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
+| 統合 | Adobe Analytics では、他のアプリケーションからの情報を表示できます。 <p>一般的な統合を以下に示します。</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja"> ストリーミングメディアサービス </a></li> | [Analytics の統合](/help/integrate/home.md) |
 
 {style="table-layout:auto"}
 
@@ -91,9 +91,9 @@ Analytics 管理者は、Analytics 環境の重要な側面の監視に役立つ
 
 | タスク | 使用目的 | 詳細情報 |
 |---------|----------|---------|
-| レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=ja) |
-| サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=ja) |
-| ログファイル | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=ja) |
+| レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
+| サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](/help/admin/tools/server-call-usage/overage-overview.md) |
+| ログファイル | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}
 
@@ -109,10 +109,10 @@ Adobe Analytics と Analysis Workspace の機能を最大限に活用するた�
 | アトリビューション | アナリストは、Analysis Workspace の様々なアトリビューションモデルとルックバックウィンドウを使用して、ディメンション項目で成功イベントのクレジットを取得する方法をカスタマイズできます。<p>線形アトリビューションモデルでは、コンバージョンに至るまでのすべてのタッチポイントに同等のクレジットが与えられますが、ファーストタッチでは最初のタッチポイントに完全なクレジットが与えられます。統計的手法を使用してクレジットの最適な配分を動的に決定するアルゴリズムモデルなど、他にも多くのアトリビューションモデルが使用可能です。 </p> | [アトリビューションモデルとルックバックウィンドウ](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常値の検出 | Analysis Workspace の統計的モデリングでは、指標を分析し、値の下限、上限および予想される範囲を決定することで、データ内の予期しないトレンドを自動的に検出します。予期しないスパイクまたは下落が発生した場合にレポートします。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 貢献度分析 | Analysis Workspace を使用して、データ内の非表示パターンを発見して統計的な異常値を明らかにし、予期しない顧客のアクション、範囲外の値、オーディエンスセグメント全体の指標の突然のスパイクや下落の背後にある相関関係を特定します。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)の[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| アラート | データの異常値と、単一のアラートで複数の指標をキャプチャする「積み重ね」アラートに基づいてアラートを作成および管理します。 | [アラートの概要](/help/components/c-alerts/intellligent-alerts.md) |
-| データの書き出し | Data Warehouse とデータフィードを使用すると、Google Cloud Platform、Azure RBAC、Azure SAS、Amazon S3 などの様々なクラウドの宛先にデータを書き出すことができます。 | [Analytics 書き出しガイド](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=ja) |
-| Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=ja) |
-| Report Builder | Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder](https://experienceleague.adobe.com/ja/docs/analytics/analyze/report-builder/rb-overview) |
+| アラート | データの異常値と、単一のアラートで複数の指標をキャプチャする「積み重ね」アラートに基づいてアラートを作成および管理します。 | [アラートの概要](/help/components/alerts/alerts-overview.md) |
+| データの書き出し | Data Warehouse とデータフィードを使用すると、Google Cloud Platform、Azure RBAC、Azure SAS、Amazon S3 などの様々なクラウドの宛先にデータを書き出すことができます。 | [Analytics 書き出しガイド](/help/export/home.md) |
+| Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
+| Report Builder | Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
 
 <!-- * Realtime reporting? -->
 

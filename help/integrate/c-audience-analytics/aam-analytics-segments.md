@@ -3,9 +3,9 @@ description: Analytics と Audience Manager ではセグメントが使用され
 title: Analytics と Audience Manager のセグメントについて
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -16,7 +16,7 @@ Analytics と Audience Manager ではセグメントが使用されます。た�
 
 ## Audience Manager セグメント {#aam-segments}
 
-Audience Managerセグメントは、論理ルールで結合された一連の定義済み特性の対象となる訪問者（ユーザー ID）のグループです。 訪問者（ユーザー ID）が Audience Manager セグメントの一部であるかどうかを判別する 4 つの条件があります。
+Audience Manager セグメントは、論理ルールで結合された一連の定義済み特性の対象となる訪問者（ユーザー ID）のグループです。 訪問者（ユーザー ID）が Audience Manager セグメントの一部であるかどうかを判別する 4 つの条件があります。
 
 * セグメント自体に設定されているルール、および各セグメントを形成する特性。これらのルールは、ユーザー ID がセグメントに認定されるために満たす必要のある条件を定義します。
 * アルゴリズムモデリング。特定のセグメントに認定されているユーザーは、アルゴリズムモデリングと分析に基づいて別のセグメントにも認定される場合があります。
@@ -45,4 +45,4 @@ Analytics セグメントは、レポート内のデータのフィルタリン�
 
   逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。Adobe Audience Managerでは、その訪問者は、日付範囲に関係なく、「購入者」セグメントに含まれます。 Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
 
-詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
+詳しくは、[Analytics セグメントガイド](/help/components/segmentation/seg-home.md)を参照してください。

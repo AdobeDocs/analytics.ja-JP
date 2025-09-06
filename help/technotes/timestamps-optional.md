@@ -5,9 +5,9 @@ title: タイムスタンプオプション
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optio
 >
 >タイムスタンプオプションは、今後テンプレートから作成されるすべての新しいレポートスイートのデフォルト設定になります。既存のレポートスイートからコピーした新しいレポートスイートは、元のものから設定を継承します。
 
-その他の設定情報について詳しくは、 [タイムスタンプオプション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ja) を参照してください。
+その他の設定情報について詳しくは、 [タイムスタンプオプション](/help/technotes/timestamps-optional.md) を参照してください。
 
 ## タイムスタンプオプション：タイムスタンプのあるデータとないデータを統合します {#integrate}
 

@@ -3,8 +3,8 @@ description: 必要システム構成と、Analysis Workspace、Report Builder�
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -20,21 +20,21 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developer の資格情報でログインします。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **データの精度** | 集計 | 集計 | 集計 | ヒット | 集計 |
-| **Experience Cloud ID（ECID）が使用可能** | × | × | ○ | ○ | × |
-| **タイムスタンプが使用可能** | × | × | × | ○ | × |
-| **処理レベル** | 完全処理 | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全処理 | 完全処理 | 完全処理 |
-| **管理ボットフィルタデータを含む** <br> [詳細情報](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | × | ○（個別のボットレポート） | × | × | × |
-| **トラフィックが少ない（ユニークが超過しました）** <br> [詳細情報](/help/technotes/low-traffic.md) | ○ | ○ | × | × | ○ |
+| **Experience Cloud ID（ECID）が使用可能** | いいえ | × | ○ | はい | いいえ |
+| **タイムスタンプが使用可能** | いいえ | × | × | ○ | いいえ |
+| **処理レベル** | 完全処理 | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | 完全処理 | 完全処理 | 完全処理 |
+| **管理ボットフィルタデータを含む** <br> [詳細情報](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | × | ○（個別のボットレポート） | いいえ | × | いいえ |
+| **トラフィックが少ない（ユニークが超過しました）** <br> [詳細情報](/help/technotes/low-traffic.md) | はい | はい | × | × | はい |
 | **表示される行数制限（ページ分割前）** | 400 | 50000 | 制限なし | 制限なし | 50000 |
-| **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | ○ | × | ○ | × | ○ |
+| **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | はい | いいえ | ○ | いいえ | はい |
 | **分類の数** | 制限なし | ～ 2 | 制限なし | 制限なし | 制限なし（複数のクエリに対して実行） |
-| **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | ○ | ○ | ○（[制限あり](/help/components/segmentation/seg-reference/seg-compatibility.md)） | × | ○ |
-| **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | ○（Attribution あり） | ○ | × | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
-| **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | ○ | ○ | ○ | ○ — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
-| **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | ○ | × | × | × |
-| **アトリビューション** | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | 制限あり | × | × | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | × |
-| **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | × | × | × | ○ - 仮想レポートスイートのみ |
-| **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | ○ | × | × | × |
-| **配信予定** | ○ | ○ | ○ | ○ | × |
+| **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | はい | はい | ○（[制限あり](/help/components/segmentation/seg-reference/seg-compatibility.md)） | いいえ | はい |
+| **計算指標** <br> [詳細情報](/help/components/calculated-metrics/cm-overview.md) | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | ○（Attribution あり） | はい | いいえ | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
+| **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | はい | はい | はい | ○ — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
+| **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | はい | × | × | いいえ |
+| **アトリビューション** | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | 制限あり | いいえ | いいえ | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | × |
+| **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | いいえ | × | いいえ | ○ - 仮想レポートスイートのみ |
+| **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | はい | × | × | いいえ |
+| **配信予定** | はい | はい | はい | はい | いいえ |
 | **配信先** | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
-| **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | ○ | × | × | × | ○ |
+| **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | はい | × | × | × | はい |

@@ -1,9 +1,9 @@
 ---
 title: ストリーミングメディアサービスとディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用可能なディメンション。
+description: レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用可能なディメンション。
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 15%
@@ -12,11 +12,11 @@ ht-degree: 15%
 
 # ストリーミングメディアサービスとディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディア広告指標 ](../metrics/sm-ads.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL  メディア広告 ] を有効にした場合に使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[ ストリーミングメディア広告指標 ](../metrics/sm-ads.md) を参照してください。*
 
 ストリーミングメディアサービスとディメンションは、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [ メディア広告 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md) を有効にすると、次のディメンションを使用できます。
+**[!UICONTROL メディアレポート]** の [ メディア広告 ](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
 
 | ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 |
 | --- | --- | --- | --- |

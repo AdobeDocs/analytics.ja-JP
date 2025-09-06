@@ -3,7 +3,7 @@ description: 分類ルールビルダーで下位分類を使用します。
 title: 下位分類とルールビルダー
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ ht-degree: 66%
 
    例：
 
-   ![ステップ情報](/help/admin/admin/assets/sub_class_create.png)
+   ![ステップ情報](/help/admin/tools/assets/sub_class_create.png)
 
 1. [ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-builder.md) で、元のトラッキングコードからサブ分類キーを分類します。
 
@@ -63,7 +63,7 @@ ht-degree: 66%
 
    例：
 
-   | キー | チャネル | 幅広いキャンペーンコード | 幅広いキャンペーンコード&Hat;キャンペーンタイプ | 幅広いキャンペーンコード&Hat;キャンペーンディレクター | ： |
+   | キー | チャネル | 幅広いキャンペーンコード | 幅広いキャンペーンコード&amp;Hat;キャンペーンタイプ | 幅広いキャンペーンコード&amp;Hat;キャンペーンディレクター | ： |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | ブランド | Suzanne |  |
    | &#42; |  | 222 | ブランド | Frank |  |

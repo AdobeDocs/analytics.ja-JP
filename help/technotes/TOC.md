@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 100%
 # Analytics テクニカルノート {#technotes}
 
 + [Analytics テクニカルノート](home.md)
-+ Adobe Analytics for Google Analytics ユーザー {#ga-to-aa}
++ [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
++ Google Analytics ユーザー向けAdobe Analytics {#ga-to-aa}
    + [Adobe Analytics for Google Analytics ユーザーヘルプ](ga-to-aa/home.md)
    + [アカウントとレポートスイート](ga-to-aa/accounts.md)
    + [レポート表示のカスタマイズ](ga-to-aa/customization.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [低トラフィック値](low-traffic.md)
 + [Mobile Services の処理ルールの Adobe Analytics への移行](migrate-mobile.md)
 + [複数通貨のサポート](multicurrency.md)
-+ [プライバシーの概要](privacy-overview.md)
++ プライバシー {#privacy}
+   + [プライバシーの概要](privacy/privacy-overview.md)
+   + [プライバシーワークフロー](privacy/privacy-workflow.md)
+   + [Analytics と GDPR](privacy/gdpr.md)
+   + [Analytics と CCPA](privacy/ccpa.md)
+   + [Analytics および CNIL の同意除外](privacy/cnil-consent-exemption.md)
+   + [プライバシーの FAQ](privacy/faq.md)
 + [処理順序](processing-order.md)
 + [プログレッシブ Web アプリケーション](pwa.md)
 + [リダイレクトとエイリアス](redirects.md)

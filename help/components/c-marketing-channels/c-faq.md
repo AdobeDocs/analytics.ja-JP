@@ -3,7 +3,7 @@ title: マーケティングチャネル FAQ
 description: マーケティングチャネルに関するよくある質問（FAQ）です。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >アトリビューションと Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 >
->Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
+>Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
 
 マーケティングチャネルに関するよくある質問（FAQ）です。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ![](assets/int-channel3.png)
 
-交点ではファーストタッチチャネルとラストタッチが等しいく、これはテーブルの対角線です。「直接」および「セッション更新」の両方がラストタッチクレジットを取得するのは、それらがファーストタッチチャネルでもある場合のみです。これは、他の永続的なチャネル（ハイライト表示された行）からクレジットを取得できないためです。
+ファーストタッチとラストタッチが一致する交点は、テーブルの対角線部分に位置します。「直接」および「セッション更新」の両方がラストタッチクレジットを取得するのは、それらがファーストタッチチャネルでもある場合のみです。これは、他の永続的なチャネル（ハイライト表示された行）からクレジットを取得できないためです。
 
 ## チャネルが識別されない理由 {#no-channel-identified}
 

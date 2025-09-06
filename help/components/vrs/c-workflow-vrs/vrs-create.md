@@ -4,9 +4,9 @@ keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '674'
 ht-degree: 62%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 訪問定義の調整 ](https://video.tv.adobe.com/v/3428475?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 訪問定義の調整 ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,9 +65,9 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-仮想レポートスイートのキュレーションについて詳しくは、「[ 仮想レポートスイートコンポーネントのキュレーション ](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ja#virtual-report-suites)」を参照してください。
+仮想レポートスイートのキュレーションについて詳しくは、「[ 仮想レポートスイートコンポーネントのキュレーション ](/help/components/vrs/vrs-components.md)」を参照してください。
 
-1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を [!UICONTROL &#x200B; 含まれるコンポーネント &#x200B;] セクションにドラッグします。
+1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を [!UICONTROL  含まれるコンポーネント ] セクションにドラッグします。
 
 1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 

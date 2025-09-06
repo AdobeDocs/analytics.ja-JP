@@ -4,10 +4,10 @@ title: 指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 * **標準指標**：プロジェクトで使用するほとんどの指標は標準指標です。例には、[ページビュー数](/help/components/metrics/page-views.md)、[収益](/help/components/metrics/revenue.md)または[カスタムイベント](/help/components/metrics/custom-events.md)が含まれます。詳しくは、コンポーネントユーザーガイドの[指標の概要](/help/components/metrics/overview.md)を参照してください。
 
-* **計算指標**![ 計算ツール ](/help/assets/icons/Calculator.svg)：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/c-calcmetrics/cm-overview.md)を参照してください。
+* **計算指標**![ 計算ツール ](/help/assets/icons/Calculator.svg)：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/calculated-metrics/cm-overview.md)を参照してください。
 
 * **計算指標テンプレート**![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：計算指標と同様に動作するAdobe定義の指標です。 これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
 
@@ -41,7 +41,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328566?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 ### すべてのプロジェクトの計算指標を作成
 
-[ 計算指標ビルダー ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) を使用して、[ 計算指標を作成 ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) できます。 この方法で作成すると、計算指標をコンポーネントリストで使用したり、組織全体のプロジェクトで使用したりできます。
+[ 計算指標ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) を使用して、[ 計算指標を作成 ](/help/components/calculated-metrics/workflow/cm-workflow.md) できます。 この方法で作成すると、計算指標をコンポーネントリストで使用したり、組織全体のプロジェクトで使用したりできます。
 
 
 ### 単一プロジェクトの計算指標の作成
@@ -79,15 +79,15 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
    1 つの列を選択した場合、次のオプションを使用できます。
 
-   * [!UICONTROL **平均**]：列のディメンション要素のセットの平均値を表示する新しい列を作成します。 列の値には [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean) 関数を使用します。
+   * [!UICONTROL **平均**]：列のディメンション要素のセットの平均値を表示する新しい列を作成します。 列の値には [Mean](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean) 関数を使用します。
 
-   * [!UICONTROL **中央値**]：列のディメンション要素セットの中央値を表示する新しい列を作成します。 列の値には [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median) 関数を使用します。
+   * [!UICONTROL **中央値**]：列のディメンション要素セットの中央値を表示する新しい列を作成します。 列の値には [Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median) 関数を使用します。
 
-   * [!UICONTROL **列の最大値**]：列のディメンション要素のセットの中の最大値を表示する新しい列を作成します。 列の値には、[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum) 関数を使用します。
+   * [!UICONTROL **列の最大値**]：列のディメンション要素のセットの中の最大値を表示する新しい列を作成します。 列の値には、[Column Maximum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum) 関数を使用します。
 
-   * [!UICONTROL **列の最小値**]：列のディメンション要素のセットの最小値を表示する新しい列を作成します。 列の値には、[Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum) 関数を使用します。
+   * [!UICONTROL **列の最小値**]：列のディメンション要素のセットの最小値を表示する新しい列を作成します。 列の値には、[Column Minimum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum) 関数を使用します。
 
-   * [!UICONTROL **列の合計**]：列内の（1 つのディメンションのすべての要素の）指標の数値をすべて加算する新しい列を作成します。 列の値には [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum) 関数を使用します。
+   * [!UICONTROL **列の合計**]：列内の（1 つのディメンションのすべての要素の）指標の数値をすべて加算する新しい列を作成します。 列の値には [Column Sum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum) 関数を使用します。
 
    2 つの列を選択した場合は、次のオプションを使用できます。
 
@@ -101,7 +101,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
    * [!UICONTROL **変化率**]：選択した 2 つの列の間の変化率を示す新しい列を作成します。
 
-[計算指標： 実装なしの指標](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics)（3:42）
+[ 計算指標：実装なしの指標 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
 
 
 ## 様々なアトリビューションモデルとの指標の比較
@@ -119,7 +119,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 累積平均 ](https://video.tv.adobe.com/v/35215?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 累積平均 ](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

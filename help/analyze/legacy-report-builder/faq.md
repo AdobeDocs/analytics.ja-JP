@@ -4,9 +4,9 @@ title: Report Builder の FAQ
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ Report Builder では、次の制限までワークブックをサポートし�
 
 ## Report Builder へのアクセス権があるかどうかを確認するにはどうすればよいですか？ {#access}
 
-Adobe Analytics 管理者から Report Builder アクセス権を付与されている必要があります。管理者は、[Adobe Admin Console](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-console/home) で製品プロファイルを設定します。管理者にアクセス権の付与を依頼します。
+Adobe Analytics 管理者から Report Builder アクセス権を付与されている必要があります。管理者は、[Adobe Admin Console](/help/admin/admin-console/home.md) で製品プロファイルを設定します。管理者にアクセス権の付与を依頼します。

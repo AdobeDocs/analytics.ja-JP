@@ -4,10 +4,10 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 86%
+source-wordcount: '2729'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 86%
 
 リリース日：**2024 年 8 月 12 日**
 
-* `writeSecureCookies` が有効になっている場合、`s_ac` cookie は `secure` フラグを使用して書き込まれるようになりました。
+* `s_ac` が有効になっている場合、`secure` cookie は `writeSecureCookies` フラグを使用して書き込まれるようになりました。
 * ライブラリがインラインで埋め込まれる際の初期化エラーを修正しました。
 * `localStorage` または `sessionStorage` が無効になっている場合のエラーを修正しました。
-* `collectHighEntropyUserAgentHints` が有効になっている場合、高エントロピーの User-Agent ヒントがリンクトラッキング呼び出し（`tl`）に含まれるようになりました。
+* `tl` が有効になっている場合、高エントロピーの User-Agent ヒントがリンクトラッキング呼び出し（`collectHighEntropyUserAgentHints`）に含まれるようになりました。
 
 ## バージョン 2.26.0
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、『管理者ユーザーガイド』の [ プライバシーレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、『管理者ユーザーガイド』の [ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。
 
 ## バージョン 2.22.1
 
@@ -301,7 +301,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 更新日：**2016 年 8 月 5 日**
 
-* リクエストの接続が [!DNL AppMeasurement] によって途中で切断される問題を修正しました。（AN-126448）
+* リクエストの接続が [!DNL AppMeasurement] によって途中で終了する問題を修正しました。（AN-126448）
 
 >[!IMPORTANT]
 >
@@ -313,7 +313,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 * 訪問者 API 1.6.0 を同梱しました。
 * [!DNL AppMeasurement] が訪問者 API の不適切な不明化されたメソッドを呼び出してしまう問題を修正しました。（AN-126006）
-* 「属性は v:image でのみ有効です」という [!DNL JavaScript] エラーが発生する問題を修正しました。（AN-124009）
+* 「属性は v[!DNL JavaScript] でのみ有効です」という :image エラーが発生する問題を修正しました。 （AN-124009）
 
 ## バージョン 1.6.1
 

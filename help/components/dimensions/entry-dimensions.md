@@ -4,7 +4,7 @@ description: 入口ディメンションとその使用をリストします。
 keywords: 入口ページ、入口サイトセクション、入口サーバー、入口カスタムインサイト
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 *このヘルプページでは、エントリが [ ディメンション ](overview.md) としてどのように機能するかについて説明します。 入口が指標として機能する方法について詳しくは、[入口](../metrics/entries.md)指標を参照してください。*
 
-入口ディメンションは [ 訪問ベース ](../metrics/visits.md) です。 これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
+入口ディメンションは [ 訪問ベース ](../metrics/visits.md) です。 これらは、最初のディメンション項目を記録し、その訪問の全期間保持します。入口ディメンションは、レポートスイート設定の「[トラフィック変数](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)」でパスが有効になっているすべての変数で使用できます。
 
 >[!TIP]
 >訪問で表示された最初の値ではなく、訪問の最初のヒットに基づいてデータを表示する場合は、[ セグメント ](/help/components/segmentation/seg-overview.md) を使用できます。 [ ヒットの深さ ](hit-depth.md) が 1 に等しいヒットコンテナを使用してから、目的の変数でそのセグメントを使用します。

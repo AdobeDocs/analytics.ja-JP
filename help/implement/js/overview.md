@@ -1,23 +1,23 @@
 ---
-title: JavaScriptのAppMeasurementを使用したAdobe Analyticsの実装
+title: JavaScript用AppMeasurementでAdobe Analyticsを実装
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 42%
 
 ---
 
-# JavaScriptのAppMeasurementを使用したAdobe Analyticsの実装
+# JavaScript用AppMeasurementでAdobe Analyticsを実装
 
 JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
 実装タスクの大まかな概要：
 
-![JavaScript 用のAppMeasurementを使用してAdobe分析を実装する方法については、この節で説明します。](../assets/appmeasurement-annotated.png)
+![ この節で説明するように、JavaScript 用AppMeasurementでAdobe Analytics を実装する方法 ](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,11 +26,11 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>1</td><td><b> レポートスイートを定義 </b> したことを確認します。</td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td>1</td><td><b> レポートスイートを定義 </b> したことを確認します。</td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurementに必要なJavaScript コードを Code Manager からダウンロードします </b>。 ファイルを解凍します。</td><td><a href="../../admin/admin/code-manager-admin.md">コードマネージャー</a></td>
+<td>2</td><td><b>AppMeasurementに必要なJavaScript コードを Code Manager からダウンロードします </b>。 ファイルを解凍します。</td><td><a href="../../admin/tools/code-manager-admin.md">コードマネージャー</a></td>
 </tr>
 
 <tr>
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b> すべてのページ変数が定義されている場合、<code>t()</code> メソッドを使用してデータをAdobeに送信します </b>。
+<td>6</td><td><b> すべてのページ変数が定義されている場合、<code>t()</code> メソッドを使用してAdobeにデータを送信します </b>。
 
 ```js
 s.t();

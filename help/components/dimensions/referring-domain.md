@@ -3,7 +3,7 @@ title: 参照ドメイン
 description: 訪問者がクリックスルーしてサイトにアクセスする前に閲覧していた最も重要なドメイン。
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 97%
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->このディメンションを使用するには、レポートスイートの[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を設定する必要があります。内部 URL フィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
+>このディメンションを使用するには、レポートスイートの[内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)を設定する必要があります。内部 URL フィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
 同じレポートに、Analysis Workspace と Data Warehouse で異なる結果が表示されます。Analysis Workspace は、内部 URL フィルターに一致する値を除き、個々のページの参照ドメインをレポートします。Data Warehouse は、訪問の最初の参照ドメインのみをレポートし、内部 URL フィルターを無視します。
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 このディメンションには、Analytics インターフェイスでの設定とイメージリクエストでのデータが必要です。
 
 * 実装内で、このディメンションはイメージリクエストの[`r`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `document.referrer` 変数を使用してこのデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、イメージリクエストに `r` クエリ文字列パラメーターを必ず含めてください。
-* Analytics のインターフェイス内で、レポートスイートの[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) を設定する必要があります。内部 URL フィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
+* Analytics のインターフェイス内で、レポートスイートの[内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) を設定する必要があります。内部 URL フィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
 1 回の訪問での参照ドメインは維持されます。訪問者が 1 回の訪問中に別のドメインのリンクを離れたりクリックしたりした場合、新しい値が更新され、残りの訪問で維持されます。元の値のみを表示したい場合は、「[オリジナルの参照ドメイン](original-referring-domain.md)」を参照してください。
 

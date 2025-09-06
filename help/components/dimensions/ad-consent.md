@@ -3,7 +3,7 @@ title: 広告プラットフォームの同意
 description: サードパーティの広告プロバイダーに対する広告の同意の設定を参照してください。
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 「Ad Platform の同意 [ ディメンション ](overview.md) には、Google、Meta などのサードパーティ広告プロバイダーにデータを送信するために同意が収集されるかどうかが表示されます。
 
-現在、このディメンションは、Googleでのみ使用されています。 欧州のプライバシー規制であるデジタル市場法（DMA）により、Googleは、自社のサーバーに送信され、欧州で収集されるデータには、同意が収集されるかどうかを示す必要があることを求めています。 一部の Analytics のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertising経由でGoogleに送信しています。
+現在、このディメンションは、Googleでのみ使用されています。 欧州のプライバシー規制であるデジタル市場法（DMA）により、Googleは、自社のサーバーに送信され、欧州で収集されるデータには、同意が収集されるかどうかを示す必要があることを求めています。 一部の Analytics のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertisingを介してGoogleに送信しています。
 
 将来的には、このディメンションを使用して、他のサードパーティ広告プロバイダーの追加の同意情報のエンコーディングをサポートすることができます。
 
@@ -52,10 +52,10 @@ contextData.['adConsent'] = "YN..."
 収集された広告同意データを使用できます。
 
 * データフィード：広告の同意データは、`dataprivacydmaconsent` [ 列 ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を使用して利用できます。
-* Data Warehouseレポート：広告の同意データは、**[!UICONTROL Ad Platform の同意]** ディメンションを使用して利用できます。
+* Data Warehouse レポート：広告の同意データは、**[!UICONTROL Ad Platform の同意]** ディメンションを使用して利用できます。
 
 このコンテキストデータ変数を実装するためのロジックは、組織が決定します。 値は、設定されたヒットを超えて保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
 
-広告データをAdobe Advertising経由でAdobe AnalyticsからGoogleにコンバージョンイベントとして送信する場合は、Adobe Advertisingチームに相談して統合を支援してください。
+広告データをAdobe AnalyticsからAdobe Advertisingを介してコンバージョンイベントとしてGoogleに送信する場合は、Adobe Advertising チームに相談して統合を支援してください。
 
-詳しくは、[ プライバシーレポート ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) を参照してください。
+詳しくは、[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。

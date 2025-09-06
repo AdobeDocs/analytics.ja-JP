@@ -4,7 +4,7 @@ title: 複数のスイートタグ付けの実装
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # 複数のスイートタグ付けの実装
 
-[複数のスイートタグ付け](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)を使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
+[複数のスイートタグ付け](/help/admin/tools/manage-rs/rollup-report-suite.md)を使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
 
 複数のスイートタグ付けを実装するには、eb ページやアプリのトラッキングコードに、グローバルレポートスイートのレポートスイート ID（RSID）と、該当する子レポートスイートの RSID を含める必要があります。
 
@@ -37,4 +37,4 @@ ht-degree: 93%
 
 多くの場合、複数のスイートタグ付けの代わりに仮想レポートスイートを使用することがベストプラクティスですが、ビジネスニーズに応じて組織に最適なレポートスイートアプローチを決定する必要があります。
 
-仮想レポートスイートが最適なアプローチかどうかを理解するには、 [仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md) を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については [&#128279;](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) 仮想レポートスイートと，複数のスイートタグ付けの比較」も参照してください。
+仮想レポートスイートが最適なアプローチかどうかを理解するには、 [仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md) を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については [](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) 仮想レポートスイートと，複数のスイートタグ付けの比較」も参照してください。

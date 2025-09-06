@@ -4,9 +4,9 @@ description: Analysis Workspaceで注釈を作成する方法を説明します�
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '861'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 デフォルトでは、管理者のみが注釈を作成できます。ユーザーには、他のコンポーネント（セグメント、計算指標など）と同様に、注釈を表示する権限があります。
 
 
-ただし、管理者は、[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ja) を介してユーザーに[!UICONTROL 注釈の作成]権限（Analytics ツール）を付与できます。
+ただし、管理者は、[Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) を介してユーザーに[!UICONTROL 注釈の作成]権限（Analytics ツール）を付与できます。
 
 注釈は、次の方法で作成できます。
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 * **D**。Workspace プロジェクトで、メニューから「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL 注釈を作成]**」を選択します。
 * **E**。Workspace プロジェクトで、ショートカット **[!UICONTROL Ctrl + Shift + O キー]**（Windows）または **[!UICONTROL Shift + Command + O キー]**（macOS）を使用します。
 
-注釈を定義するには、[[!UICONTROL &#x200B; 注釈ビルダー &#x200B;]](#annotation-builder) を使用します。
+注釈を定義するには、[[!UICONTROL  注釈ビルダー ]](#annotation-builder) を使用します。
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 93%
 
    | 要素 | 説明 |
    | --- | --- |
-   | **[!UICONTROL レポートスイート]** | 注釈に使用するレポートスイートを選択できます。 定義した注釈は、選択したレポートスイートに基づいて、Workspace プロジェクトで注釈として使用できます。 この選択は、「すべてのレポートスイートに適用 [!UICONTROL &#x200B; を有効にしたときに無効 &#x200B;] なります。 |
+   | **[!UICONTROL レポートスイート]** | 注釈に使用するレポートスイートを選択できます。 定義した注釈は、選択したレポートスイートに基づいて、Workspace プロジェクトで注釈として使用できます。 この選択は、「すべてのレポートスイートに適用 [!UICONTROL  を有効にしたときに無効 ] なります。 |
    | **[!UICONTROL プロジェクトのみの注釈]** | 作成する注釈が作業中の Workspace プロジェクトにのみ表示されることを説明する情報ボックス。「**[!UICONTROL この注釈をすべてのプロジェクトで使用できるようにする]**」を有効にして、注釈をすべてのプロジェクトで表示します。この情報ボックスは、Workspace プロジェクト内から注釈を作成する場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | 注釈に名前を付けます（例：`Needs further investigation`）。 |
    | **[!UICONTROL 説明]** | 注釈に説明を付けます（例：`We never expected such a fluctuation in numbers.`）。 |

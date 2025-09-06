@@ -4,16 +4,16 @@ description: タグと Analytics 拡張機能を使用した Adobe Analytics の
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
 # Analytics 拡張機能を使用した Adobe Analytics の実装
 
-Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeが現在推奨するのは、Adobe Experience Platformの [ タグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用する方法です。
+Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeでは、現在、Adobe Experience Platformで [ タグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用することをお勧めします。
 
 Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
@@ -34,7 +34,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 <tr>
 <td> 1</td>
 <td><b>レポートスイートを定義</b>したことを確認します。</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td><a href="../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 <tr>
 <td>3</td>
-<td><b><b>タグプロパティを作成します</b>。プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
+<td><b><b> タグプロパティの作成 </b>。 プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
 <td><a href="../launch/create-analytics-property.md">Adobe Analytics タグプロパティの作成</a></td>
 </tr>
 
@@ -65,7 +65,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 <tr>
 <td>6</td> 
 <td><b>検証して実稼動環境に公開します</b>。タグプロパティを web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ja#embed-code"> 埋め込みコード </a><br/><a href="./validate-publish-prod.md"> 開発実装の検証と実稼動環境への公開 </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code"> 埋め込みコード </a><br/><a href="./validate-publish-prod.md"> 開発実装の検証と実稼動環境への公開 </a></td>
 </tr>
 
 </table>

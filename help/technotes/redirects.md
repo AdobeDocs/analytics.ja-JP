@@ -4,7 +4,7 @@ keywords: Analytics の実装
 title: リダイレクトとエイリアス
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ ht-degree: 99%
 リダイレクトを使用すると、ブラウザーで実際の参照 URL を空白にすることができます。次のシナリオについて検討してください。
 
 1. ユーザーがブラウザーで `https://www.google.com` を参照し、検索フィールドに「*discount airline tickets*」と入力して、「**[!UICONTROL 検索]**」ボタンをクリックします。
-1. ブラウザーウィンドウのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。また、ブラウザーには、いずれかのドメイン名へのリンク （[!DNL https://www.flytohawaiiforfree.com/]） が記載された検索結果を含むページが表示されます。この「*バニティ*」ドメインは、ユーザーを `https://www.example.com/` にリダイレクトするように設定されます。
-1. ユーザーがリンク `https://www.flytohawaiiforfree.com/` をクリックすると、サーバーによってメインサイト `https://www.example.com` にリダイレクトされます。このリダイレクトが発生すると、ブラウザーが参照 URL をクリアするので、[!DNL Analytics] のデータ収集にとって重要なデータが失われます。したがって、[!DNL Analytics] レポートで使用されるオリジナルの検索情報（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!UICONTROL 検索キーワード]など）が失われます。
+1. ブラウザーウィンドウのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。また、ブラウザーには、いずれかのドメイン名へのリンク （[!DNL https://www.flytohawaii.example/]） が記載された検索結果を含むページが表示されます。この「*バニティ*」ドメインは、ユーザーを `https://www.example.com/` にリダイレクトするように設定されます。
+1. ユーザーがリンク `https://www.flytohawaii.example/` をクリックすると、サーバーによってメインサイト `https://www.example.com` にリダイレクトされます。このリダイレクトが発生すると、ブラウザーが参照 URL をクリアするので、[!DNL Analytics] のデータ収集にとって重要なデータが失われます。したがって、[!DNL Analytics] レポートで使用されるオリジナルの検索情報（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!UICONTROL 検索キーワード]など）が失われます。
 
 ## リダイレクトの実装 {#implement}
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ## リファラーに優先する JavaScript コードの設定 {#override}
 
-以下のコードスニペットには、*`s_referrer`* と *`s_pageURL`* という 2 つの JavaScript 変数が含まれています。このコードは、リダイレクトの最終的なランディングページに配置します。
+以下のコードスニペットには、`s.referrer` と `s.pageURL` という 2 つの JavaScript 変数が含まれています。このコードは、リダイレクトの最終的なランディングページに配置します。
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ if(tempVar)
 したがって、「discount airline tickets」のシナリオで示される問題を修正するには、最終バージョンのランディングページに次のコードを含める必要があります。
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Adobe Debugger によるリファラーの確認 {#verify}
@@ -135,8 +135,8 @@ s.pageURL="https://www.flytohawaiiforfree.com"
   </tr> 
   <tr> 
    <td> <p>ページ URL </p> </td> 
-   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p><span class="varname"> pageURL</span> 変数を使用している場合、この値は DigitalPulse Debugger に表示されます。 </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p><span class="varname"> pageURL</span> 変数を使用している場合、この値は DigitalPulse Debugger に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>最終的なランディングページ URL </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

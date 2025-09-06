@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
@@ -26,7 +26,7 @@ Analysis Workspaceでは、Adobe Audience Manager セグメントは 2 つのデ
 
 ## セグメント比較 {#compare}
 
-[セグメント比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ja)は、2 つのセグメントの統計的に最も重要な違いを検出します。オーディエンスデータは、セグメント比較で 2 つの方法（1：比較する 2 つのセグメントとして、2：「上位ディメンション項目」テーブルの項目として）で使用できます。
+[セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)は、2 つのセグメントの統計的に最も重要な違いを検出します。オーディエンスデータは、セグメント比較で 2 つの方法（1：比較する 2 つのセグメントとして、2：「上位ディメンション項目」テーブルの項目として）で使用できます。
 
 1. **[!UICONTROL Workspace]** に移動して、左パネルから「**[!UICONTROL セグメント比較]**」パネルを選択します。
 
@@ -43,21 +43,21 @@ Analysis Workspaceでは、Adobe Audience Manager セグメントは 2 つのデ
 
 ## Analysis Workspace でのカスタマージャーニー（フロー） {#flow}
 
-Adobe Audience Manager セグメントデータは、ヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。Analysis Workspace で[フロー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ja)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
+Adobe Audience Manager セグメントデータは、ヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。Analysis Workspace で[フロー](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
 
 1. **[!UICONTROL Workspace]** に移動して、左パネルから「**[!UICONTROL フロー]**」ビジュアライゼーションを選択します。
 
 1. [!UICONTROL オーディエンス名]ディメンションをフロービルダーにドラッグします。
 1. 「**[!UICONTROL 作成]**」をクリックします。
-1. （任意）：ほかのディメンションをフロービジュアライゼーションにドラッグして、[ディメンション間フロー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=ja)を作成します。
+1. （任意）：ほかのディメンションをフロービジュアライゼーションにドラッグして、[ディメンション間フロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を作成します。
 
 ![](assets/flow-aamaudiences.png)
 
-オーディエンスは[フォールアウトのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ja)で使用することもできます。
+オーディエンスは[フォールアウトのビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)で使用することもできます。
 
 ## Analysis Workspace でのベン図のビジュアライゼーション {#venn}
 
-[ベン図のビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=ja)には、最大 3 つのセグメントの重複が表示されます。
+[ベン図のビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/venn.md)には、最大 3 つのセグメントの重複が表示されます。
 
 1. **[!UICONTROL Workspace]** に移動して、左パネルから「**[!UICONTROL ベン図]**」ビジュアライゼーションを選択します。
 

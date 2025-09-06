@@ -4,7 +4,7 @@ description: オンラインヒットから保存された値を使用して、�
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->トランザクション ID データソースを使用する前に、まず目的のレポートスイートの [ 一般的なアカウント設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) で有効にする必要があります。
+>トランザクション ID データソースを使用する前に、まず目的のレポートスイートの [ 一般的なアカウント設定 ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) で有効にする必要があります。
 
 ## 仕組み
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 * [初回購入までの日数](/help/components/dimensions/days-before-first-purchase.md)
 * [前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* eVar と同様に動作する [ レポートスイートの設定 ](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) で有効になっている機能固有のディメンション。 プロパティと同様に動作するフィーチャ固有の寸法は含まれません。
+* eVar と同様に動作する [ レポートスイートの設定 ](/help/admin/tools/manage-rs/report-suites-admin.md) で有効になっている機能固有のディメンション。 プロパティと同様に動作するフィーチャ固有の寸法は含まれません。
 * [リスト変数](/help/implement/vars/page-vars/list.md)
 * [マーケティングチャネル](/help/components/dimensions/marketing-channel.md)
 * [マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md)

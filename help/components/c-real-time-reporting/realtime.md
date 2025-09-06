@@ -4,7 +4,7 @@ title: リアルタイムレポートの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートを設定するには、[ リアルタイムレポートの設定 ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) を参照してください。
+>リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートを設定するには、[ リアルタイムレポートの設定 ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md) を参照してください。
 
 ## リアルタイムレポートへのアクセス
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 リアルタイムレポートを使用すると、自分のサイトの傾向とその理由を把握できます。この機能を使用すると、マーケティング担当者はマーケティングコンテンツとキャンペーンの結果にすばやく対応し、その結果を自発的に管理できます。レポートされるリアルタイムデータは 2 分未満のもので、1 分ごとに自動更新されます。
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 ダッシュボードには Adobe Analytics の高頻度指標とサイト分析が含まれており、動的なニュースおよび小売業用 Web サイトのトラフィックとページビューの傾向を視覚的にレポートします。リアルタイムレポートでは、数秒間の収集で分刻みのデータ傾向を把握できます。この機能では、コンテンツのリアルタイムクロス集計と追跡およびいくつかのコンバージョンを使用して、収集したデータを自動更新 UI にストリームします。
 
