@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
-user-guide-description: データフィードとData Warehouseを使用してデータの出力を取得する方法について説明します。
+user-guide-description: データフィードとデータウェアハウスを使用してデータの出力を取得する方法について説明します。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 

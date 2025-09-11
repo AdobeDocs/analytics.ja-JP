@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年8月** | |
-| データフィード名は一意である必要があります | [ データフィード名は一意である必要がある ](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) 理由を明確にしました。 |
+| データフィード名は一意にする必要がある | [データフィード名は一意にする必要がある](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)理由を明確にしました。 |
 | 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
 | **2025年7月** | |
 | 処理ルール | 処理ルールのドキュメントを完全に一新し、インターフェイスと現在のユースケースについて詳しく説明しました。 |
