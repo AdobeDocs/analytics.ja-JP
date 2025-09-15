@@ -135,7 +135,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    **従来のアカウントタイプ**
 
-   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[ を使用してデータを書き出す場合にのみ使用できます。 ](/help/export/data-warehouse/create-request/t-dw-create-request.md)[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[ を使用してデータを書き出す場合にのみ使用できます。 ](/help/export/data-warehouse/create-request/t-dw-create-request.md) [ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
    +++FTP
 
