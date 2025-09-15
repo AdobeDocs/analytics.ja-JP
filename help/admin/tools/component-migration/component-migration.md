@@ -3,10 +3,10 @@ description: Adobe AnalyticsからCustomer Journey Analyticsにコンポーネ�
 title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 5%
+source-wordcount: '1641'
+ht-degree: 4%
 
 ---
 
@@ -35,43 +35,57 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 プロジェクトをAdobe Analyticsに移行する前に、プロジェクトの移行について詳しくは、[Customer Journey AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 ](/help/admin/tools/component-migration/prepare-component-migration.md) を参照してください。
 
-さらに、Analytics 管理者が使用できるツールを使用して [0&rbrace;Adobe Analytics インベントリを実行します。](/help/admin/tools/analytics-inventory.md)
+さらに、Analytics 管理者が使用できるツールを使用して [0}Adobe Analytics インベントリを実行します。](/help/admin/tools/analytics-inventory.md)
 
 ## Adobe Analytics プロジェクトのCustomer Journey Analyticsへの移行
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >この節で説明しているように、Customer Journey Analyticsにプロジェクトを移行する前に、プロジェクトの移行について詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントやプロジェクトの移行の準備 ](/help/admin/tools/component-migration/prepare-component-migration.md) を参照してください。
 >
->**マッピングするディメンションまたは指標は、このプロジェクトと、移行を実行しているユーザーに関係なく、IMS 組織全体で移行される今後のすべてのプロジェクトの両方で永続的です。 これらのマッピングは、カスタマーケアに連絡しない限り、変更したり取り消したりすることはできません。**
+>**マッピングしたディメンションまたは指標は、移行を実行しているユーザーに関係なく、このプロジェクトおよび IMS 組織全体の今後のすべてのプロジェクトに適用されます。 これらのマッピングは、今後のプロジェクトの移行時に更新できます。**
 
 1. Adobe Analytics で、「[!UICONTROL **管理者**]」タブを選択し、「[!UICONTROL **すべての管理者**]」を選択します。
 
 1. [!UICONTROL **データ設定と収集**] の下で [!UICONTROL **コンポーネントの移行**] を選択します。
 
-1. 移行するプロジェクトを見つけます。 プロジェクトリストのフィルタリング、並べ替え、検索を行うことができます。
+1. 移行する各プロジェクトを見つけます。 プロジェクトリストのフィルタリング、並べ替え、検索を行うことができます。
 
    デフォルトでは、自分と共有されているプロジェクトのみが表示されます。 組織内のすべてのプロジェクトを表示するには、「**フィルター**」アイコンを選択し、「[!UICONTROL **その他のフィルター**]」を展開して、「[!UICONTROL **すべて表示**]」を選択します。 （プロジェクトリストのフィルタリング、並べ替え、検索について詳しくは、「[ プロジェクトのリストのフィルタリング、並べ替え、検索 ](#filter-sort-and-search-the-list-of-projects)」を参照してください。
 
-1. 移行するプロジェクトにマウスポインターを置き、**移行** アイコン ![ プロジェクトを移行 ](assets/migrate.svg) を選択します。
+1. （条件付き）複数のプロジェクトを一度に移行するには、移行する各プロジェクトの左側にあるチェックボックスをオンにし、「[!UICONTROL **Customer Journey Analyticsに移行**]」を選択します。
 
-   または
+   複数のプロジェクトを移行する際は、次の点を考慮してください。
 
-   移行するプロジェクトを選択し、「[!UICONTROL **Customer Journey Analyticsに移行**]」を選択します。
+   * 一度に移行するプロジェクトを最大 20 個選択できます。
 
-   一度に選択できるプロジェクトは 1 つだけです。
+   * 移行ステータスは、移行中のすべてのプロジェクトで同じである必要があります。
+
+     例えば、移行ステータスが **[!UICONTROL 開始されていません]** の移行するプロジェクトを 1 つ選択した場合、移行ステータスが **[!UICONTROL 失敗]** の別のプロジェクトを選択することはできません。
+
+   * 移行中のすべてのプロジェクトに同じプロジェクト所有者を指定する必要があります。
+
+   * ディメンションと指標は、移行中のすべてのプロジェクトで同じデータビューにマッピングする必要があります。
 
    [!UICONTROL **project_name をCustomer Journey Analyticsに移行**] ダイアログボックスが表示されます。
 
    <!-- add screenshot -->
 
-1. 「[!UICONTROL **プロジェクト所有者**]」フィールドに、Customer Journey Analyticsでプロジェクトの所有者として設定するユーザーの名前を入力し始め、ドロップダウンメニューで名前を選択します。
+1. （条件付き） 1 つのプロジェクトを移行するには、移行するプロジェクトの上にマウスポインターを置き、**移行** アイコン ![ プロジェクトを移行 ](assets/migrate.svg) を選択します。
 
-   指定した所有者には、プロジェクトに対する完全な管理権限があります。 所有者は、Customer Journey Analyticsの管理者である必要があります。 後の手順で、プロジェクトの所有権を変更できます。
+   [!UICONTROL **project_name をCustomer Journey Analyticsに移行**] ダイアログボックスが表示されます。
+
+   <!-- add screenshot -->
+
+1. 「[!UICONTROL **プロジェクト所有者**]」フィールドに、Customer Journey Analyticsで移行されるプロジェクトの所有者として設定するユーザーの名前を入力し始め、ドロップダウンメニューでユーザーの名前を選択します。
+
+   指定した所有者には、移行されたプロジェクトに対する完全な管理権限があります。 所有者は、Customer Journey Analyticsの管理者である必要があります。 後の手順でプロジェクトの所有権を変更できます。
 
 1. 「[!UICONTROL **レポートスイートのスキーマのマッピング**]」セクションで、レポートスイートを選択します。
 
 1. [!UICONTROL **データビュー**] ドロップダウンメニューで、プロジェクトとコンポーネントを移行するCustomer Journey Analytics データビューを選択します。
+
+   複数のプロジェクトを移行する場合、移行中のすべてのプロジェクトは、単一のデータビューマッピングに結合されます。
 
 1. [!UICONTROL **スキーマをマッピング**] を選択します。
 
@@ -117,19 +131,19 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
    Adobe Analytics レポートスイート内のすべてのディメンションと指標がCustomer Journey Analytics レポートスイート内のディメンションまたは指標にマッピングされると、「![ レポートスイートのスキーマをマッピング ](assets/report-suite-check.png)」セクションで、レポートスイート名の横に緑色のチェックマーク [!UICONTROL **チェックマーク**] が表示されます。
 
-1. （条件付き）移行中のプロジェクトに複数のレポートスイートが含まれている場合は、「レポートスイートのスキーマのマッピング [!UICONTROL **セクションで別のレポートスイートを選択してから、手順 6**] ら手順 10 を繰り返します。<!-- double-check that the step numbers are still correct -->
+1. （条件付き）移行中のプロジェクトに複数のレポートスイートが含まれている場合、「レポートスイートのスキーマのマッピング [!UICONTROL **セクションで別のレポートスイートを選択してから、手順 6**] ら手順 10 を繰り返します。<!-- double-check that the step numbers are still correct -->
 
 1. 「[!UICONTROL **移行**]」を選択します。
 
    >[!WARNING]
    >
-   >   「[!UICONTROL **移行**]」を選択すると、画面に警告メッセージが表示されます。 続行する前に、マッピングしたディメンションや指標は、このプロジェクトと、組織全体を通じて移行される今後のプロジェクトの両方で永続的なものであることを理解してください。 続行した場合、作成したマッピングは変更できません。
+   >「[!UICONTROL **移行**]」を選択すると、画面に警告メッセージが表示されます。 続行する前に、マッピングしたディメンションまたは指標は、移行を実行しているユーザーに関係なく、このプロジェクトおよび IMS 組織全体の今後のすべてのプロジェクトに適用されることを理解してください。 これらのマッピングは、今後のプロジェクトの移行時に更新できます。
 
    移行が完了すると、[!UICONTROL **移行ステータス**] ページに移行内容の概要が表示されます。
 
    移行が失敗した場合、詳しくは、以下の [ 失敗した移行の再試行 ](#retry-a-failed-migration) の節を参照してください。
 
-1. （任意）プロジェクトが移行されたら、プロジェクトの所有権をCustomer Journey Analytics内の任意のユーザーに転送できます。 詳しくは、『Customer Journey Analytics ガイド』の [ アセットの転送 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) を参照してください。
+1. （任意）プロジェクトが移行されたら、そのプロジェクトの所有権をCustomer Journey Analytics内の任意のユーザーに譲渡できます。 詳しくは、『Customer Journey Analytics ガイド』の [ アセットの転送 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) を参照してください。
 
 ## 失敗した移行の再試行
 
