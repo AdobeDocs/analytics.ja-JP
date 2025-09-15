@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -63,6 +63,8 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    +++Amazon S3 Role ARN
 
+   **メモ：** データフィードとData WarehouseでAmazon S3 を使用する場合、SSE-S3 暗号化のみがサポートされます。
+
    Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
 
    | フィールド | 機能 |
@@ -99,7 +101,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
@@ -109,13 +111,13 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
    | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
+   | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
    {style="table-layout:auto"}
 
    +++
 
-   +++メール
+   +++電子メール
 
    >[!NOTE]
    >
@@ -133,7 +135,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    **従来のアカウントタイプ**
 
-   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[&#128279;](/help/export/data-warehouse/create-request/t-dw-create-request.md) を使用してデータを書き出す場合にのみ使用できます。 [ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[ を使用してデータを書き出す場合にのみ使用できます。 ](/help/export/data-warehouse/create-request/t-dw-create-request.md)[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
    +++FTP
 
@@ -191,7 +193,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    +++
 
-   +++Azure Blob
+   +++Azure BLOB
 
    Data Warehouse は、Azure Blob 宛先をサポートします。 コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
 

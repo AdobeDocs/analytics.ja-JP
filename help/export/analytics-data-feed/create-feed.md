@@ -3,9 +3,9 @@ title: データフィードの作成
 description: データフィードを作成する方法と、Adobeに提供するファイル情報について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 53%
    フィードは Amazon S3 バケットに直接送信できます。この宛先タイプに必要なのは、Amazon S3 アカウントと場所（バケット）のみです。
 
    Adobe Analyticsでは、クロスアカウント認証を使用して、Adobe AnalyticsからAmazon S3 インスタンスの指定場所にファイルをアップロードします。
+
+   データフィードでAmazon S3 を使用する場合、SSE-S3 暗号化のみがサポートされます。
 
    Amazon S3 バケットをデータフィードの宛先として設定するには：
 
