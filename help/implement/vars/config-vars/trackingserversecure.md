@@ -19,11 +19,11 @@ ht-degree: 13%
 
 ## Web SDK拡張機能を使用したEdge ドメイン
 
-Web SDKでは、[!UICONTROL Edge ドメイン ] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の [!UICONTROL 0}Edge ドメイン } 値を設定できます。]
+Web SDKでは、[!UICONTROL Edge ドメイン &#x200B;] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理します。 Web SDK拡張機能を設定する際に、目的の [!UICONTROL 0&rbrace;Edge ドメイン &rbrace; 値を設定できます。]
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティを選択します。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「**[!UICONTROL Adobe Experience Platform Web SDK]**」の下にある「設定 [!UICONTROL  ボタンを選択し ] す。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「**[!UICONTROL Adobe Experience Platform Web SDK]**」の下にある「設定 [!UICONTROL &#x200B; ボタンを選択し &#x200B;] す。
 1. 目的の「**[!UICONTROL Edge ドメイン]**」テキストフィールドを設定します。
 
 詳しくは、Web SDK ドキュメントの [Adobe Experience Platform Web SDK拡張機能の設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=ja) を参照してください。
@@ -48,10 +48,10 @@ alloy("configure", {
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティを選択します。
-1. 「[!UICONTROL  拡張機能 ]」タブに移動し、「Adobe Analytics」の下にある **[!UICONTROL 設定]** ボタンを選択します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「Adobe Analytics」の下にある **[!UICONTROL 設定]** ボタンを選択します。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL SSL トラッキングサーバー]」フィールドが表示されます。
 
-このフィールドを空白のままにした場合、デフォルトで [!UICONTROL  トラッキングサーバー ] の値になります。 [!UICONTROL SSL トラッキングサーバー ] と [!UICONTROL  トラッキングサーバー ] の両方が空の場合、デフォルトでは `[rsid].data.adobedc.net` になります。
+このフィールドを空白のままにした場合、デフォルトで [!UICONTROL &#x200B; トラッキングサーバー &#x200B;] の値になります。 [!UICONTROL SSL トラッキングサーバー &#x200B;] と [!UICONTROL &#x200B; トラッキングサーバー &#x200B;] の両方が空の場合、デフォルトでは `[rsid].data.adobedc.net` になります。
 
 ## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.trackingServerSecure
 
