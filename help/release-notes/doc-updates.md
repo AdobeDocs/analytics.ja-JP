@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -328,7 +328,7 @@ ht-degree: 99%
 | 2019年11月21日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) の新しいドキュメントセット。 |
 | 2019年11月21日 | [Audience Analytics ワークフローの FAQ](/help/integrate/c-audience-analytics/mc-audiences-faqs.md) を更新し、LiveStream での可用性を示しました。 |
 | 2019年10月25日 | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
-| 2019年10月10日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[ 詳細情報 ](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/> さらに、「**[!UICONTROL 列の設定]**」に、「**[!UICONTROL 合計を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
+| 2019年10月10日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細情報](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>さらに、**[!UICONTROL 列設定]**&#x200B;に「**[!UICONTROL 合計を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、書き出された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
 | 2019年10月10日（PT） | ワークスペースでは、「未指定 (なし)」を簡単に削除できる機能がレポートフィルターのオプションとして追加されました。 |
 | 2019年10月10日（PT） | ワークスペースでは、紫色の精度コンポーネント（分、時間、日、週、月、四半期、年）は非推奨（廃止予定）となりました。紫色の時間コンポーネントを以前使用したことがある場合、**何も行う必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 | 2019年10月1日 | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |

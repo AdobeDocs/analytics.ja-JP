@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # よくある質問
 
-+++Analysis Workspace を使用するための前提条件を教えてください。
++++Analysis Workspace を使用する前提条件を教えてください。
 [Adobe Analytics 拡張機能を使用して Adobe Analytics にデータを送信](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、有効な実装が必要です。このツールを使用する前に、組織がアドビにデータを送信することを確認します。従来の手動実装など、他の実装も機能します。
 +++
 
@@ -45,7 +45,7 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データは Analysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/34729?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}を参照してください。
 
 +++
 
@@ -55,13 +55,13 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++
 
-+++指標をドラッグすると、「無効なデータ」と表示されます。 この問題を解決するにはどうすればよいですか？
++++指標をドラッグすると、「無効なデータ」と表示されます。この問題を解決するにはどうすればよいですか？
 
 無効なデータとは、レポートで使用されるディメンションと指標の組み合わせを使用してデータを返せないことを意味します。例えば、2 つの指標を重ね合わせて表示する方法がない場合、その方法ではデータとして返すことはできません。代わりに、指標を並べて配置します。
 
 +++
 
-+++指標をドラッグすると、実際のデータが表示されず、ゼロのみが表示されます。 この問題をトラブルシューティングするにはどうすればよいですか？
++++指標をドラッグすると、実際のデータが表示されず、ゼロのみが表示されます。この問題をトラブルシューティングするにはどうすればよいですか？
 
 ワークスペースレポートを正常に作成したのにデータがないという場合は、次の点を確認してください。
 
@@ -73,6 +73,6 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++
 
-+++読み取り専用ユーザーの場合、Analysis Workspaceでどのようなアクションを実行できますか？
++++読み取り専用ユーザーとして、Analysis Workspace でどのようなアクションを実行できますか？
 プロジェクトを読み取り専用として共有する際、すべての編集機能が完全に無効になり、受信者はドロップダウンメニューを変更して、定義済みの方法でパネルにフィルターを適用することしかできません。
 +++

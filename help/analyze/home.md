@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Analytics の機能とその使用方法について詳しくは、[Analyt
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

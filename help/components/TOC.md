@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
 source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

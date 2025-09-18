@@ -5,9 +5,9 @@ user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 + [Analytics テクニカルノート](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
-+ Google Analytics ユーザー向けAdobe Analytics {#ga-to-aa}
++ Adobe Analytics for Google Analytics ユーザー {#ga-to-aa}
    + [Adobe Analytics for Google Analytics ユーザーヘルプ](ga-to-aa/home.md)
    + [アカウントとレポートスイート](ga-to-aa/accounts.md)
    + [レポート表示のカスタマイズ](ga-to-aa/customization.md)
@@ -55,7 +55,7 @@ ht-degree: 91%
    + [プライバシーワークフロー](privacy/privacy-workflow.md)
    + [Analytics と GDPR](privacy/gdpr.md)
    + [Analytics と CCPA](privacy/ccpa.md)
-   + [Analytics および CNIL の同意除外](privacy/cnil-consent-exemption.md)
+   + [Analytics と CNIL 同意除外](privacy/cnil-consent-exemption.md)
    + [プライバシーの FAQ](privacy/faq.md)
 + [処理順序](processing-order.md)
 + [プログレッシブ Web アプリケーション](pwa.md)

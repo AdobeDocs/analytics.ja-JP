@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

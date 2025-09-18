@@ -5,9 +5,9 @@ user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager や Advertising Cloud など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 + [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics の概要](c-audience-analytics/mc-audiences-aam.md)
-   + Audience Analytics ワークフロー {#audience-analytics-workflow}
+   + Audience Analytics のワークフロー {#audience-analytics-workflow}
       + [ワークフローの概要](c-audience-analytics/c-workflow/audiences-workflow.md)
       + [Analytics の宛先の作成 - Adobe Audience Manager ガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
