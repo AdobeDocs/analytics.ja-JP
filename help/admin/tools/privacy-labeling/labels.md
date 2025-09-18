@@ -4,9 +4,9 @@ title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3760'
+source-wordcount: '3758'
 ht-degree: 100%
 
 ---
@@ -128,7 +128,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 
 >[!CAUTION]
 >
->名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
+>名前空間 `visitorId` と `customVisitorId` は、Analytics のレガシートラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
 ## 変数のタイプとそれぞれが対応しているデータプライバシーラベル {#variable-types}
 

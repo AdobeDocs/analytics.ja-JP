@@ -3,10 +3,10 @@ title: ユニーク訪問者
 description: ユニーク訪問者 ID の数。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 95%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 ## 日別、週別、月別、四半期別、年別のユニーク訪問者
 
-Analysis Workspace は、レポートの精度に基づいてユニーク訪問者を処理します。例えば、[日](../dimensions/day.md)ディメンションを使用すると、各ディメンション項目の日別ユニーク訪問者が表示されます。ただし、レポートの合計に対しては、フリーフォームテーブルの日付範囲で重複が排除されます。
+Analysis Workspace は、レポートの精度に基づいてユニーク訪問者を処理します。例えば、[日](../dimensions/day.md)ディメンションを使用すると、各ディメンション項目の日別ユニーク訪問者が表示されます。ただし、レポートの合計に対しては、フリーフォームテーブルの日付範囲で重複したユニーク訪問者が排除されます。
 
 ## この指標の計算方法
 
-この指標は、特定のディメンション項目に対する一意の訪問者 ID の数をカウントします。一意の訪問者を識別する方法はいくつかあるので、複数の高度なメカニズムを使用して一意の訪問者を識別します。次の表に、訪問者の識別方法と優先度を示します。ヒットによっては、複数の訪問者識別方法を持つ場合があります。 この場合は、優先度の高い方法を使用します。
+この指標は、特定のディメンション項目に対するユニーク訪問者 ID の数をカウントします。ユニーク訪問者を識別する方法はいくつかあるので、複数の高度なメカニズムを使用してユニーク訪問者を識別します。次の表に、訪問者の識別方法と優先度を示します。ヒットによっては、複数の訪問者識別方法を持つ場合があります。 この場合は、優先度の高い方法を使用します。
 
 | 使用順序 | クエリパラメーター（収集方法） | 以下の場合に表示される |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
 | 2 | `aid` | 訪問者に既存の [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) Cookie があります。訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) Cookie があります。[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用した実装に設定します。 |
+| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) Cookie があります。[Adobe Experience Cloud ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
 | 4 | `fid` | 訪問者に既存の [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
-| 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーが cookie を受け入れない場合に一意の訪問者を識別することです。 |
+| 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーが cookie を受け入れない場合にユニーク訪問者を識別することです。 |
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Analysis Workspace は、レポートの精度に基づいてユニーク訪問�
 
 ## ユニーク訪問者数に影響する動作
 
-一意の訪問者識別子は、通常、ブラウザーの Cookie に保存されます。新しいユニーク訪問者は、次のいずれかの操作を実行するとカウントされます。
+ユニーク訪問者識別子は、通常、ブラウザーの Cookie に保存されます。新しいユニーク訪問者は、次のいずれかの操作を実行するとカウントされます。
 
 * キャッシュをクリアする（どの時点でも）
 * 同じコンピューターで別のブラウザーを開く -ブラウザーごとにユニーク訪問者が 1 回カウントされます。

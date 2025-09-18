@@ -4,7 +4,7 @@ description: ページを直ちにアンロードするブラウザーに対す�
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->バッファーされた要求のタイムスタンプは、データが送信されたページと共有されます。 バッファされた要求が記録される正確な秒数でより正確な情報が必要な場合は、要求をバッファする前に [`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、「タイムスタンプ [ オプション ](/help/technotes/timestamps-optional.md) が有効になっていることを確認します。有効になっていなければ、タイムスタンプが付いたすべてのヒットが完全に失われます。
+>バッファーされた要求のタイムスタンプは、データが送信されたページと共有されます。 バッファされた要求が記録される正確な秒数でより正確な情報が必要な場合は、要求をバッファする前に [`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、「タイムスタンプ [ オプション ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) が有効になっていることを確認します。有効になっていなければ、タイムスタンプが付いたすべてのヒットが完全に失われます。
 
 ## 制限事項
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 * 宛先リンクは、同じドメインとサブドメインに存在する必要があります。 バッファーされたリクエストは、ドメインとサブドメインの両方が同じAdobe Analytics実装を持っている場合でも、両方のドメインで機能しません。 また、この制限により、バッファーされたリクエストを使用して離脱リンクを追跡することはできません。
 * 宛先リンクは、現在のページと同じプロトコルを使用する必要があります。 HTTP と HTTPS の間でバッファーされた要求を送信することはできません。
-* バッファ・リクエストは、最初に `bufferRequests()` を呼び出さずに `t()` または `tl()` を呼び出すか、ブラウザまたはタブが閉じられるまで保存されます。 Adobeに送信する前にブラウザーセッションが終了した場合、未送信のバッファリクエストは恒久的に失われます。
+* バッファ・リクエストは、最初に `t()` を呼び出さずに `tl()` または `bufferRequests()` を呼び出すか、ブラウザまたはタブが閉じられるまで保存されます。 Adobeに送信する前にブラウザーセッションが終了した場合、未送信のバッファリクエストは恒久的に失われます。
 * ブラウザーが [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) または [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) をサポートしていない場合、警告がブラウザーコンソールに出力され、AppMeasurementは `t()` メソッドを使用してイメージリクエストを直ちに送信しようとします。
 
 ## Web SDKのバッファされたリクエスト
@@ -40,7 +40,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementの s.bufferRequests （）と Analytics 拡張機能のカスタムコードエディター
 
-`t()` または `tl()` を呼び出す前に、`bufferRequests()` メソッドを呼び出します。 `bufferRequests()` が呼び出されると、以降のトラッキングコールは、Adobe データ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
+`bufferRequests()` または `t()` を呼び出す前に、`tl()` メソッドを呼び出します。 `bufferRequests()` が呼び出されると、以降のトラッキングコールは、Adobe データ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
 
 ```js
 // Instantiate the tracking object

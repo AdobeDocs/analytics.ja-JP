@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: ht
-source-wordcount: '6461'
-ht-degree: 100%
+source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+workflow-type: tm+mt
+source-wordcount: '6482'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2025年9月** | |
+| 訪問者の識別の向上 | AppMeasurementでの [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) の目的と変数の [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 定に重点を置き、訪問者の特定に関するベストプラクティスを明確にしました。 |
 | **2025年8月** | |
 | データフィード名は一意にする必要がある | [データフィード名は一意にする必要がある](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)理由を明確にしました。 |
 | 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
@@ -338,7 +340,7 @@ ht-degree: 100%
 | 2019年9月12日 | [計算指標の合計](/help/components/calculated-metrics/cm-totals.md)ドキュメントの更新。 |
 | 2019年8月28日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |
 | 2019年8月8日 | [計算指標の合計](/help/components/calculated-metrics/cm-totals.md)に関する新しい記事を追加しました。 |
-| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-optional.md)について明確化しました。 |
+| 2019年8月8日 | [タイムスタンプが有効なセッションデータ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md)について明確化しました。 |
 | 2019年8月8日 | Workspace では、静的ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
 | 2019年8月2日 | [Analytics 用語集](/help/technotes/terms.md)を大幅に更新しました。 |
 | 2019年7月22日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
