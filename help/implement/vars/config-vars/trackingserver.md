@@ -19,6 +19,6 @@ ht-degree: 13%
 
 `trackingServer` 変数は、HTTP 経由でAppMeasurementからAdobeにデータを送信する際に使用するドメインを決定します。 この変数が正しく定義されていないと、実装でデータが失われる可能性があります。
 
-[Adobe Experience Cloud ID サービス ](https://experienceleague.adobe.com/en/docs/id-service/using/home) より前は、この変数もサードパーティ Cookie が設定された場所を特定していました。 Adobeでは、可能な限り、すべての実装で ID サービスを使用することを強くお勧めします。
+[Adobe Experience Cloud ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home) より前は、この変数もサードパーティ Cookie が設定された場所を特定していました。 Adobeでは、可能な限り、すべての実装で ID サービスを使用することを強くお勧めします。
 
 `trackingServer` が設定されていない場合、AppMeasurementは [`trackingServerSecure`](trackingserversecure.md) をフォールバックとして使用します。 古い実装の多くは `trackingServerSecure` を設定せず、`trackingServer` をセキュリティで保護されたページへのフォールバックとして使用しています。 HTTPS の普及に伴い、Adobeでは可能な限り `trackingServerSecure` を使用することをお勧めします。
