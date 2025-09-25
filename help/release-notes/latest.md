@@ -4,39 +4,39 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e1ae808920490f7d7c0611e45606a3f82b61ccdb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2025 年 9 月リリース）
+# 現在の Adobe Analytics リリースノート（2025年9月リリース）
 
 **最終更新日**：2025年9月11日（PT）
 
-これらのリリースノートは、2025 年 9 月から 10 月上旬のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+このリリースノートは、2025年9月～10月上旬（PT）のリリース期間を対象としています。Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **プロジェクトとコンポーネントをCustomer Journey Analyticsに移行する際の改善点** | プロジェクトとコンポーネントをAdobe AnalyticsからCustomer Journey Analyticsに移行する際に、次の改善が利用できるようになりました。<ul><li>複数のプロジェクトを一度に移行します。<p>一度に 20 件までプロジェクトを移行できます。</p><p>以前は、一度に 1 つのプロジェクトしか移行できませんでした。</p></li><li>以前のプロジェクト移行で既にマッピングされているディメンションと指標のマッピングを更新します。<p>以前に以前の移行で同じディメンションと指標がマッピングされていた場合でも、プロジェクトを移行するたびに、これらのマッピングを更新できるようになりました。</p><p>以前は、選択したマッピングは、今後のすべてのプロジェクト移行に対して永続的でした。</p></li><li>プロジェクト数が多い組織のパフォーマンスが向上しました。</li></ul><p>詳しくは、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行 ](/help/admin/tools/component-migration/component-migration.md) を参照してください。</p> | 2025年9月15日（PT） | 2025年9月18日（PT） |
+| **プロジェクトとコンポーネントを Customer Journey Analytics に移行する際の改善点** | プロジェクトとコンポーネントを Adobe Analytics から Customer Journey Analytics に移行する際に、次の改善が利用できるようになりました。<ul><li>複数のプロジェクトを一度に移行します。<p>一度に 20 件までプロジェクトを移行できます。</p><p>以前は、一度に 1 つのプロジェクトしか移行できませんでした。</p></li><li>以前のプロジェクト移行で既にマッピングされているディメンションと指標のマッピングを更新します。<p>以前の移行で同じディメンションと指標がマッピングされていた場合でも、プロジェクトを移行するたびに、これらのマッピングを更新できるようになりました。</p><p>以前は、選択したマッピングは、今後のすべてのプロジェクト移行に対して永続的に適用されていました。</p></li><li>プロジェクト数が多い組織のパフォーマンスが向上しました。</li></ul><p>詳しくは、[Adobe Analytics から Customer Journey Analytics へのコンポーネントとプロジェクトの移行](/help/admin/tools/component-migration/component-migration.md)を参照してください。</p> | 2025年9月15日（PT） | 2025年9月18日（PT） |
 | **新しいリファラータイプのディメンション項目を使用した AI トラフィックの分析** | 10月より、AI ツールからのトラフィックを分析するのに役立つ、新しいリファラータイプのディメンション項目が使用可能になります。 <p>この新しいリファラータイプのディメンション項目（会話型 AI ツールと呼ばれます）では、主要な AI ツールの参照ドメインをグループ化して、グループ全体のトレンドを調べることができます。この新しいカテゴリ内の参照ドメインの初期リストには、以下が含まれます（ただし、これに限定されるものではありません）。</p><ul><li>chatgpt.com</li><li>claude.ai</li><li>m365.cloud.microsoft</li><li>grok.com</li><li>gemini.google.com</li><li>perplexity.ai</li></ul><p>新しいディメンション項目は、Analysis Workspace、Report Builder、Data Warehouse、データフィードなど、すべての Adobe Analytics 関連ツールで使用できるようになります。</p><p>この新しいディメンション項目を使用する場合は、次の点に注意してください。</p><ul><li>検索エンジンの「AI モード」で表示される検索結果から来るリファラートラフィックと、従来の検索結果からのクリックスルーから来るリファラートラフィックを区別できない場合があります。</li><li>新しい会話型 AI ツール ディメンション項目は、トラフィックが最も多い大手プロバイダーに焦点を当てています。新たな傾向として、大手 AI ツールプロバイダーのドメインに類似したドメインを持つ、偽装サイトの数が増加していることが明らかになっています。増加の背景にあるのは、個人やグループが独自の AI ツールを簡単に作成し、インターネット上でホストできるようになったことです。これは急速に進化しているスペースであるため、人気のサイトが含まれていない場合は、アドビサポートチームにお問い合わせください。</li><li>新しい会話型 AI ツールディメンション項目を含むリファラータイプのディメンションは、Adobe Analytics で処理されるデータでのみ使用できます。 </li></ul><p>（ドキュメントへのリンクを添付。）</p> |   | 2025年10月 |
 | **ストリーミングメディアサービス：Adobe Experience Platform にストリーミングメディアデータを収集する XDM フィールドを更新しました** | ストリーミングメディアデータを Adobe Experience Platform に収集する際は、ストリーミングメディアパラメーターに関するドキュメントの「XDM フィールドパス」の見出しの下に表示されている XDM フィールドパスは使用しないでください。2025年5月9日（PT）より前に Analytics ソースコネクタを実装し、ストリーミングメディアデータを Platform に収集しているお客様は、ストリーミングメディアパラメーターに関するドキュメントの「XDM フィールドパスのレポート」の見出しの下に示されているように、既存の設定を mediaReporting フィールドパスに移行する必要があります。<p> これらのフィールドパスは、[オーディオおよびビデオパラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/audio-video-parameters)、[広告パラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/ad-parameters)、[チャプターパラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/chapter-parameters)、[プレーヤー状態パラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/player-state-parameters)および[品質パラメーター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/variables/quality-parameters)のページに表示されますが、「廃止」としてマークされています。（2025年5月9日（PT）以降に Analytics ソースコネクターを実装し、既に mediaReporting XDM パスのみを使用しているお客様は、アクションは必要ありません。）</p><p>廃止された XDM フィールドパスでのデータ取り込みは、2025年10月末まで継続されます。その後、廃止されたフィールドは完全に廃止され、Adobe Experience Platform スキーマ UI に表示されなくなります。データは mediaReporting フィールドを使用してのみ送信されるようになります。</p><p>詳しくは、[更新された XDM ストリーミングメディアフィールドへの Analytics ソースコネクタの実装の移行](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/xdm-updates/updated-xdm-fields)を参照してください。</p><p>移行のサポートについては、Adobe Consulting サービスまたはアカウントチームにお問い合わせください。 </p> |  | 2025年10月 |
 
 ## Adobe Analytics の修正点
 
-**Activity Map**:
-**Analysis Workspace**: AN-386791、AN-380838、AN-389373、AN-390851、AN-391593、AN-391404、AN-393064、AN-379337
-**分類**:AN-391364、AN-393014、AN-393882、AN-394346、AN-394333、AN-390201
-**データ収集**: AN-388127
-**データフィードとData Warehouse**:AN-391243
-**プライバシー**:
-**Report Builder**: AN-387741、AN-386777、AN-388720、AN-389343
-**レポート**:AN-392863、AN-371871、AN-393640、AN-391334
-**予定レポート**:AN-391150、AN-390474
-**セグメント比較**:
-**その他**: AN-387858, AN-393985, AN-393287
+**Activity Map**：
+**Analysis Workspace**：AN-386791、AN-380838、AN-389373、AN-390851、AN-391593、AN-391404、AN-393064、AN-379337
+**分類**：AN-391364、AN-393014、AN-393882、AN-394346、AN-394333、AN-390201
+**データ収集**：AN-388127
+**データフィードとデータウェアハウス**：AN-391243
+**プライバシー**：
+**Report Builder**：AN-387741、AN-386777、AN-388720、AN-389343
+**レポート**：AN-392863、AN-371871、AN-393640、AN-391334
+**スケジュールされたレポート**：AN-391150、AN-390474
+**セグメント比較**：
+**その他**：AN-387858, AN-393985, AN-393287
 
 
 ## 提供終了（EOL）に関する注意事項 {#eol}
