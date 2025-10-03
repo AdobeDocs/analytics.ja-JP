@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年9月** | |
-| 訪問者の識別の向上 | AppMeasurementでの [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) の目的と変数の [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 定に重点を置き、訪問者の特定に関するベストプラクティスを明確にしました。 |
+| 訪問者の識別の改善 | AppMeasurement の [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
 | **2025年8月** | |
 | データフィード名は一意にする必要がある | [データフィード名は一意にする必要がある](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)理由を明確にしました。 |
 | 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
