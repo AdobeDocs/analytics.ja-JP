@@ -18,17 +18,17 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-![Analysis Workspaceの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイック計算指標 &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+![Analysis Workspaceの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイック計算指標 &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=ja){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 指標ビルダー &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 指標ビルダー &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=ja){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmented metrics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=ja){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 実装なしの指標 &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Functions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Functions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=ja){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 計算指標を管理 &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 計算指標を管理 &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=ja){target="_blank"}
 
 
 >[!ENDSHADEBOX]

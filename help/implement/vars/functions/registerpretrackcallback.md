@@ -37,7 +37,7 @@ Web SDKは、データがコンパイルされた後、データがAdobeに送�
 
 ## Web SDKを手動で実装するコールバックのプレトラック
 
-Web SDKは、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、`doPlugins` と同様に、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの [&#x200B; イベントのグローバルな変更 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
+Web SDKは、データがコンパイルされた後、データがAdobeに送信される前に関数をフックすることはできません。 ただし、`onBeforeEventSend` を使用して、`doPlugins` と同様に、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの [&#x200B; イベントのグローバルな変更 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally) を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"

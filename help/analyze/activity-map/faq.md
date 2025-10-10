@@ -138,7 +138,7 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 Activity Mapを無効にする方法は、実装の種類によって異なります。
 
 * **Web SDK拡張機能**：拡張機能の設定で、「**[!UICONTROL 内部リンククリック数を収集]**」、「**[!UICONTROL 外部リンククリック数を収集]**」および「**[!UICONTROL ダウンロードリンクのクリック数を収集]**」チェックボックスをオフにします。
-* **Web SDK JavaScript ライブラリ**:[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) を `false` に設定します。
+* **Web SDK JavaScript ライブラリ**:[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) を `false` に設定します。
 * **Analytics 拡張機能**：拡張機能の設定で、「Activity Mapを使用 **[!UICONTROL というラベルの付いたボックスをオフに]** ます。
 * **AppMeasurement**: `AppMeasurement.js` 内のActivity Map モジュールを削除またはコメントアウトするか、空の本文でモジュール関数呼び出しを上書きします：
 

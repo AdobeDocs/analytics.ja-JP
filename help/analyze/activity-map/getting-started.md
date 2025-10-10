@@ -48,7 +48,7 @@ Activity Mapのデータ収集には、**[!UICONTROL Adobe Experience Platform W
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
 
-詳しくは [Web SDK タグ拡張機能の設定 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) を参照してください。
+詳しくは [Web SDK タグ拡張機能の設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) を参照してください。
 
 +++
 
@@ -56,7 +56,7 @@ Activity Mapのデータ収集には、**[!UICONTROL Adobe Experience Platform W
 
 Activity Mapのデータ収集には、Web SDK JavaScript ライブラリ v2.20 以降が必要です。 ライブラリのバージョンが v2.15 以下の場合、サポートは制限されます。 これらの以前のバージョンのライブラリでは、Activity Mapのデータが、残りのデータとは別のイベントに送信されます。 この追加のイベントにより、Adobe AnalyticsまたはAdobe Experience Platformに送信するヒット数が増加します。
 
-Activity Map データの自動収集を処理す [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)Web SDK設定変数。 明示的に無効にしない限り、このモードはデフォルトで有効になっています。
+Activity Map データの自動収集を処理す [`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)Web SDK設定変数。 明示的に無効にしない限り、このモードはデフォルトで有効になっています。
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ alloy("configure", {
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
 
-詳しくは、[Adobe Analytics拡張機能の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) を参照してください。
+詳しくは、[Adobe Analytics拡張機能の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview) を参照してください。
 
 +++
 

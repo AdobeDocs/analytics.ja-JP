@@ -61,9 +61,9 @@ Adobe Experience Platform Data Collection にデータストリームを作成�
 
 +++**3.Web SDKを設定する**
 
-Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンドを使用して、前の手順で作成したデータストリームを指すように実装を設定します。 `configure` コマンドは、ライブラリのインストールコードと一緒に含めることができるように、すべてのページで設定する必要があります。
+Web SDK [`configure`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) コマンドを使用して、前の手順で作成したデータストリームを指すように実装を設定します。 `configure` コマンドは、ライブラリのインストールコードと一緒に含めることができるように、すべてのページで設定する必要があります。
 
-Web SDK [`datastreamId` コマンド内で &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId` および &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure` プロパティを使用します。
+Web SDK [`datastreamId` コマンド内で &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId` および &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/orgid)`configure` プロパティを使用します。
 
 * `datastreamId` を、前の手順で取得したデータストリーム ID に設定します。
 * 組織の IMS 組織に `orgId` を設定します。
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-組織の実装要件に応じて、[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) コマンドで他のプロパティをオプションで設定できます。
+組織の実装要件に応じて、[`configure`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) コマンドで他のプロパティをオプションで設定できます。
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Web SDKを使用するためのメソッド呼び出しを更新します**
 
-[`s.t()`](../../vars/functions/t-method.md) および [`s.tl()`](../../vars/functions/tl-method.md) を呼び出すすべてのインスタンスを更新し、[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) コマンドで置き換えます。 考慮すべきシナリオは次の 3 つです。
+[`s.t()`](../../vars/functions/t-method.md) および [`s.tl()`](../../vars/functions/tl-method.md) を呼び出すすべてのインスタンスを更新し、[`sendEvent`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendevent/overview) コマンドで置き換えます。 考慮すべきシナリオは次の 3 つです。
 
 * **ページビュートラッキング**：ページビュートラッキング呼び出しを Web SDK `sendEvent` コマンドに置き換えます。
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自動リンクトラッキング**:[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 設定プロパティは、デフォルトで有効になっています。 Adobe Analyticsにデータを送信するための適切なリンクトラッキング変数が自動的に設定されます。 自動リンクトラッキングを無効にする場合は、`false`[`configure` コマンド内でこのプロパティを &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) に設定します。
+* **自動リンクトラッキング**:[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 設定プロパティは、デフォルトで有効になっています。 Adobe Analyticsにデータを送信するための適切なリンクトラッキング変数が自動的に設定されます。 自動リンクトラッキングを無効にする場合は、`false`[`configure` コマンド内でこのプロパティを &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/overview) に設定します。
 
 * **手動のリンクトラッキング**:web SDKには、pageview 呼び出しと非 pageview 呼び出しの間に別のコマンドはありません。 ペイロードオブジェクト内でその区別をしてください。
 

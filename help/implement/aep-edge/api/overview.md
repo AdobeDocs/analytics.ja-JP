@@ -48,7 +48,7 @@ ht-degree: 36%
 <tr>
 <td>4</td>
 <td>単一イベントデータおよびバッチイベントデータ収集 API を使用して <b> データ収集を実装およびテスト </b> ます。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja"> 単一イベントデータ収集 </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html"> バッチイベントデータ収集 </a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja"> 単一イベントデータ収集 </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=ja"> バッチイベントデータ収集 </a>
 </tr>
 
 <td>5</td>

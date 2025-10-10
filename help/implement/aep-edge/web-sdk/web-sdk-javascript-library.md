@@ -66,7 +66,7 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 <tr>
 <td> 4</td>
 <td><b>事前ビルドスタンドアロンバージョンをインストールします</b>。CDN のライブラリ（<code>alloy.js</code>）をページで直接参照するか、ダウンロードして独自のインフラストラクチャにホストすることができます。または、NPM パッケージを使用することもできます。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM パッケージの使用</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=ja">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=ja">NPM パッケージの使用</a></td>
 </tr>
 
 <tr>
@@ -77,20 +77,20 @@ Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを�
 
 <td>6</td>
 <td>データストリームに <b>Adobe Analytics サービス</b>を追加します。このサービスは、データをAdobe Analyticsに送信するかどうかと、どのように送信するか、および具体的にどのレポートスイートに送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Web SDK を設定</b>します。手順 4 でインストールしたライブラリが、データストリーム ID （以前のエッジ設定 ID （<code>datastreamId</code>））、組織 ID （<code>orgId</code>）、その他の使用可能なオプションで適切に設定されていることを確認します。 変数が適切にマッピングされていることを確認します。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピングの設定 </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=ja">Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピングの設定 </a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>コマンドを実行</b>したり、<b>イベントを追跡</b>したりします。Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントの追跡を開始できます。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">イベントの送信</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=ja">イベントの送信</a></td>
 </tr>
 
 <tr>
