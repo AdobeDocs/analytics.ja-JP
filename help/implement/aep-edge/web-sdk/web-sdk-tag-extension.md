@@ -72,13 +72,13 @@ Web SDK拡張機能を使用してAdobe Analyticsにデータを送信する場�
 <tr>
 <td>5</td> 
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。 このサービスは、データをAdobe Analyticsに送信するかどうかと、どのように送信するか、および具体的にどのレポートスイートに送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b> タグプロパティの作成 </b>。 プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=ja#for-web">Web 用のタグプロパティの作成または設定</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Web 用のタグプロパティの作成または設定</a></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@ Web SDK拡張機能を使用してAdobe Analyticsにデータを送信する場�
 <tr>
 <td>8</td>
 <td><b>反復し、検証して実稼動環境に公開します</b>。タグプロパティを web サイトページに含めるためのコードを埋め込みます。 次に、データ要素、ルールなどを使用して、実装をカスタマイズします。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=ja#embed-code"> 埋め込みコード </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja"> 公開の概要 </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code"> 埋め込みコード </a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja"> 公開の概要 </a></td>
 </tr>
 
 </table>

@@ -6,7 +6,7 @@ exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 77%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 ディメンションは、通常文字列値を含む、Adobe Analytics の変数です。一般的なディメンションには、[ページ](page.md)、[参照ドメイン](referring-domain.md)、[eVar](evar.md) があります。一方、[指標](../metrics/overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
 
-例えば、**[!UICONTROL ページ]** ディメンションを **[!UICONTROL 訪問回数]** 指標と組み合わせると、最も訪問回数の多いページを示すランクレポートが得られます。
+例えば、**[!UICONTROL ページ]**&#x200B;ディメンションと&#x200B;**[!UICONTROL 訪問回数]**&#x200B;指標を組み合わせると、最も訪問されたページを示すランクレポートが表示されます。
 
 | ページ | 訪問回数 |
 | --- | ---: |

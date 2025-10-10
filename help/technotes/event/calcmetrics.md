@@ -6,7 +6,7 @@ feature: Curate and Share, Calculated Metrics
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 3%
 4. 上記の両方のセグメントを定義キャンバスにドラッグします。 それらの間の演算子を `+` に変更して、合計を求めます。
 5. 両方のセグメント内に目的の指標を追加します。 例えば、「訪問回数」指標を使用できます。
 
-   ![ セグメントビルダー ](assets/event_segment_builder.png)
+   ![セグメントビルダー](assets/event_segment_builder.png)
 
-6. 「影響を受けた日数 **コンテナの右上にある「** 追加 **[!UICONTROL をクリックし、「静的な数値]** をクリックします。 [ イベントの影響を受ける日付を以前の範囲と比較する ](compare-dates.md) で説明されているように、静的な数値をデータのオフセットに対する割合に設定します。 この例では、オフセットは 25%、つまり 1.25 です。
+6. 「影響を受けた日数 **[!UICONTROL コンテナの右上にある「]** 追加 **[!UICONTROL をクリックし、「静的な数値]** をクリックします。 [ イベントの影響を受ける日付を以前の範囲と比較する ](compare-dates.md) で説明されているように、静的な数値をデータのオフセットに対する割合に設定します。 この例では、オフセットは 25%、つまり 1.25 です。
 
    ![ 静的な数値 ](assets/event_static_number.png)
 

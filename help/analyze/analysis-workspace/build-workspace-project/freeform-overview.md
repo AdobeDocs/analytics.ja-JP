@@ -27,7 +27,7 @@ Adobe Analyticsのプロジェクトにアクセスするには、「**[!UICONTR
 
 * 左側のパネルの表示／非表示を切り替えて、**[!UICONTROL プロジェクト]**&#x200B;と&#x200B;**[!UICONTROL 学習]**&#x200B;から選択できるようにするには、「![パネル](/help/assets/icons/Rail.svg)」を選択します。
 * タイトルにはプロジェクトが表示され、オプションで選択したフォルダーへのパスが追加されます。[!UICONTROL プロジェクト]／**[!UICONTROL 会社フォルダー]**&#x200B;などです。個々のサブフォルダー部分を選択すると、特定のフォルダーに直接移動することができます。
-* [**[!UICONTROL &#x200B; 空のプロジェクト &#x200B;]**](create-projects.md)、[**[!UICONTROL &#x200B; 空のモバイルスコアカード &#x200B;]**](/help/analyze/mobile-app/create-scorecard.md)、**[!UICONTROL ドキュメントを開く]** および **[!UICONTROL リリースノートを開く]** のタイルを表示するには、![ 山形ダウン ](/help/assets/icons/ChevronDown.svg)**[!UICONTROL さらに表示]** を選択します。 タイルで領域を非表示にするには、![ChevronDown](/help/assets/icons/ChevronDown.svg)、**[!UICONTROL 表示を減らす]**&#x200B;の順に選択します。
+* [**[!UICONTROL  空のプロジェクト ]**](create-projects.md)、[**[!UICONTROL  空のモバイルスコアカード ]**](/help/analyze/mobile-app/create-scorecard.md)、**[!UICONTROL ドキュメントを開く]** および **[!UICONTROL リリースノートを開く]** のタイルを表示するには、![ 山形ダウン ](/help/assets/icons/ChevronDown.svg)**[!UICONTROL さらに表示]** を選択します。 タイルで領域を非表示にするには、![ChevronDown](/help/assets/icons/ChevronDown.svg)、**[!UICONTROL 表示を減らす]**&#x200B;の順に選択します。
 * 表示する内容に応じて、[表示セレクター](#show-selector)を使用して、環境設定を編集し、**[!UICONTROL プロジェクト]**&#x200B;に表示されている現在のフォルダーに対するアクションを実行できます。
 
   | アクション | 説明 |
@@ -83,7 +83,7 @@ Adobe Analyticsのプロジェクトにアクセスするには、「**[!UICONTR
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *個を選択済み]** | 選択したプロジェクトとフォルダーを選択解除し、青色のアクションバーを削除します。 |
 | ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 1 つ以上のプロジェクトまたはフォルダーを削除します。確認メッセージが表示されます。 <p>削除するプロジェクト：</p><ul><li>復元することはできない</li><li>プロジェクトリストから削除される</li><li>URL でアクセスできなくなりました</li><li>スケジュールされた配信に含まれなくなりました（以前にスケジュールされた配信用に設定されていた場合）<br/>スケジュールされた配信について詳しくは、[スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md)を参照してください。  </p> |
 | ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | プロジェクトを共有します。詳しくは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)を参照してください。 |
-| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | プロジェクトの名前を変更します。**[!UICONTROL 名前変更：*プロジェクト名ダイアログ&#x200B;*]**&#x200B;を開きます。新しい名前を入力し、「**[!UICONTROL 保存&#x200B;]**」を選択します。 |
+| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | プロジェクトの名前を変更します。**[!UICONTROL 名前変更：*プロジェクト名ダイアログ&#x200B;*]**を開きます。新しい名前を入力し、「**[!UICONTROL 保存&#x200B;]**」を選択します。 |
 | ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 1 つ以上のプロジェクトをコピーします。プロジェクトには同じ名前とサフィックスの `(Copy)` が付けられます。 |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL ピン留め]**&#x200B;または&#x200B;**[!UICONTROL ピン留め解除]** | 1 つ以上のプロジェクトまたはフォルダーをピン留めまたはピン留め解除します。ピン留めしたプロジェクトとフォルダーはリストの上部に表示され、指定した並べ替え順序は無視されます。 |
 | ![ArrowUp](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL 上へ移動]** | ピン留めしたプロジェクトまたはフォルダーをプロジェクトリスト内で上に移動します。 |
@@ -100,7 +100,7 @@ Adobe Analyticsのプロジェクトにアクセスするには、「**[!UICONTR
 
 **[!UICONTROL 表示]**&#x200B;セレクター➌を使用して、プロジェクトインターフェイスのルックアンドフィールを切り替えることができます。**[!UICONTROL 表示]**&#x200B;セレクターでは、[タイトル領域](#title-area)で使用できるオプションと、[プロジェクトリスト](#project-list)に表示される列を定義します。
 
-* [タイトル領域](#title-area)で使用可能なオプションを変更するには、「**[!UICONTROL すべてのプロジェクトを]**&#x200B;**[!UICONTROL 表示]**」または「**[!UICONTROL フォルダーとプロジェクトを]**&#x200B;**[!UICONTROL 表示]**」を選択します。
+* [タイトル領域](#title-area)で使用可能なオプションを変更するには、「**[!UICONTROL すべてのプロジェクトを]****[!UICONTROL 表示]**」または「**[!UICONTROL フォルダーとプロジェクトを]****[!UICONTROL 表示]**」を選択します。
 
 * [プロジェクトリスト](#project-list)に表示する列を定義するには、![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を選択し、**[!UICONTROL テーブルをカスタマイズ]**&#x200B;ダイアログから列を選択または選択解除します。 「**[!UICONTROL 適用]**」を選択して、カスタマイズを適用します。列について詳しくは、[プロジェクトリスト](#project-list)を参照してください。
 
@@ -172,7 +172,7 @@ Here is a video on how to build a Workspace project:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/3416041?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Build a Workspace project](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -188,7 +188,7 @@ The Projects page contains the following information:
 | [Edit preferences](/help/analyze/analysis-workspace/user-preferences.md) | Manage settings for Analysis Workspace and its related components for all new projects or panels that you create.  |
 | [Create folder](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)  | Add a new folder or subfolder to the list of projects and folders. |
 | [Create project](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)  | Start a new project from scratch or from a report.  |
-|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
+|  Show more  | This selection reveals options for creating a blank project or mobile scorecard, [viewing training tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction), or [viewing release notes](/help/release-notes/latest.md).  |
 | ![Show filters](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | To show or hide filters. You can filter on tags, report suite, owners, type (project, folder, mobile scorecard), and other filters. | 
 | ![Search](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | Use the search field to search for folders, Workspace projects or mobile scorecards. |
 | Show Folders & Projects| Choose whether to show the folder structure of projects. For more information, see [About Folders in Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
@@ -246,7 +246,7 @@ Within a project, the menu provides options for managing your project, adding co
 |  Insert  | Insert new panels or visualizations from this menu. You can also insert new panels and visualizations from the left rail.  |
 |  [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)  | Create new segment, calculated metric, date range, or alert components from your project. You can also create new components from the left rail. If your component definitions have recently changed, Refresh Components retrieves the latest definitions. |
 |  [Share](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md)  | Curate, share and schedule PDF/CSV projects to recipients in your organization.  |
-|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).  |
+|  Help  | Access help documentation, videos, and the Analytics [Experience League community](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community). Manage the visibility of Workspace tips as well as the [debugger](https://developer.adobe.com/analytics-apis/docs/2.0/). Find details about Workspace and factors that impact project [performance](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).  |
 |  Share button or Owner  | If you are in an Own or Edit for the project, the Share button in the top-right gives you one-click access to manage your project recipients. If you are in a Duplicate or View role for the project, you see the project owner's name. |
 
 ### Project Info & Settings {#info-settings}
@@ -309,7 +309,7 @@ Here is a video on using the right-click menu in Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/327456?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using the context menu](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -23,7 +23,7 @@ VBA マクロを実行する前に、最新バージョンのReport Builderを�
 >
 >セキュリティ上の理由から、マクロを含むブックをスケジュールすることはできません。
 
-Adobeでは、3 つのReport BuilderAPI メソッドをサポートしています。
+Adobeでは、3 つのReport Builder API メソッドをサポートしています。
 
 ## `RefreshAllReportBuilderRequests()`
 

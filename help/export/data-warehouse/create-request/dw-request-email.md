@@ -1,6 +1,6 @@
 ---
 description: Data Warehouse リクエストの作成方法について手順を説明します。
-title: Data Warehouseリクエストのレポートオプションの設定
+title: Data Warehouse リクエストのレポートオプションの設定
 feature: Data Warehouse
 exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
@@ -10,19 +10,19 @@ ht-degree: 38%
 
 ---
 
-# Data Warehouseリクエストの通知メールの設定
+# Data Warehouse リクエストの通知メールの設定
 
 Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報は、リクエストの通知メールを設定する方法を示しています。
 
 リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-Data Warehouseリクエストの通知メールを設定するには：
+Data Warehouse リクエストの通知メールを設定するには：
 
 1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-1. 新しいData Warehouseリクエスト ページで、「[!UICONTROL **通知メール**]」タブを選択します。
+1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **通知メール**]」タブを選択します。
 
    ![レポートの宛先タブ](assets/dw-notification-email.png)
 
@@ -35,6 +35,6 @@ Data Warehouseリクエストの通知メールを設定するには：
 
    {style="table-layout:auto"}
 
-1. [!UICONTROL **リクエストを保存**] を選択して、Data Warehouseレポートリクエストを保存します。
+1. [!UICONTROL **リクエストを保存**] を選択して、Data Warehouse レポートリクエストを保存します。
 
    設定したアカウントと場所にデータを書き出せるようになりました。

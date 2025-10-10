@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 変数はリンクの一意の ID を提供します。これは、[Activity Map](/help/analyze/activity-map/overview.md) のレポートをより正確にするために使用します。頻繁に変更されるリンクがページ上にある場合は、`s_objectID` 変数を使用して一意のリンクの場所を Activity Map に知らせ、必要に応じてデータを正しくグループ化できます。
 
-Activity Mapの精度が組織にとって重要な場合、Adobeでは、サイト上のリンクの `onClick` イベントに `s_objectID` 変数を含めることをお勧めします。
+Activity Mapの精度が組織にとって重要な場合、Adobeでは、サイト上のリンクの `s_objectID` イベントに `onClick` 変数を含めることをお勧めします。
 
 ## Adobe Analytics拡張機能を使用したオブジェクト ID
 

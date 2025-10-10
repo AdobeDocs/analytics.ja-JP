@@ -13,14 +13,14 @@ ht-degree: 16%
 # セグメントの管理
 
 
-中央の [ セグメント ](t-seg-share.md) 管理インターフェイスから、[ 共有 ](t-seg-filter.md)、[ セグメント ](seg-tag.md)、[ タグ ](seg-approve.md)、[ 承認 ](seg-copy.md)、名前変更、[ コピー ](t-seg-favorite.md)、セグメントの削除、書き出し、およびセグメントを [!UICONTROL &#x200B; お気に入りとしてマークできます &#x200B;]。 セグメントを管理するには：
+中央の [ セグメント ](t-seg-share.md) 管理インターフェイスから、[ 共有 ](t-seg-filter.md)、[ セグメント ](seg-tag.md)、[ タグ ](seg-approve.md)、[ 承認 ](seg-copy.md)、名前変更、[ コピー ](t-seg-favorite.md)、セグメントの削除、書き出し、およびセグメントを [!UICONTROL  お気に入りとしてマークできます ]。 セグメントを管理するには：
 
 * メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、**[!UICONTROL セグメント]** を選択します。
 
 
 >[!NOTE]
 >
->特定のWorkspace プロジェクト内で作成したクイックセグメントは、すべてのプロジェクトでセグメントを使用できるように設定しない限り、[!UICONTROL &#x200B; セグメント &#x200B;] マネージャーに表示されません。
+>特定のWorkspace プロジェクト内で作成したクイックセグメントは、すべてのプロジェクトでセグメントを使用できるように設定しない限り、[!UICONTROL  セグメント ] マネージャーに表示されません。
 >
 
 ## セグメントマネージャー
@@ -53,7 +53,7 @@ ht-degree: 16%
 | アクション | 説明 |
 |---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | [ セグメントビルダー ](seg-build.md) を使用して、別のセグメントを追加します。 |
-| ![検索](/help/assets/icons/Search.svg) [!UICONTROL *タイトルで検索*] | リストでセグメントが選択されていない場合、この検索フィールドを使用してセグメントを検索します。 |
+| ![検索](/help/assets/icons/Search.svg)[!UICONTROL *タイトルで検索*] | リストでセグメントが選択されていない場合、この検索フィールドを使用してセグメントを検索します。 |
 | ![ラベル](/help/assets/icons/Label.svg)、**[!UICONTROL タグ]** | 選択したセグメントにタグ付けします。 **[!UICONTROL セグメントをタグ付け]** ダイアログで、選択したセグメントのタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントのタグを保存します。 詳しくは、[ セグメントのタグ付け ](seg-tag.md) を参照してください。 |
 | ![共有](/help/assets/icons/ShareAlt.svg)、**[!UICONTROL 共有]** | 選択したセグメントの共有 **[!UICONTROL セグメントを共有]** ダイアログでは、![ 検索 ](/help/assets/icons/Search.svg)*個人またはグループを検索* または **[!UICONTROL 組織]** または **[!UICONTROL グループ]** を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントの共有の詳細を保存します。 詳しくは、[ セグメントの共有 ](t-seg-share.md) を参照してください。 |
 | ![削除](/help/assets/icons/Delete.svg)、**[!UICONTROL 削除]** | 選択したセグメントを削除します。 確認メッセージが表示されます。 |
@@ -68,7 +68,7 @@ ht-degree: 16%
 
 ### フィルターパネル
 
-セグメントのリストは、左のパネル ![ ージの ](/help/assets/icons/Filter.svg) フィルター **&#x200B;**&#x200B;フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターを適用するセグメントの数が表示されます。 ![ フィルター ](/help/assets/icons/Filter.svg) を選択して、フィルターパネルの表示を切り替えます。
+セグメントのリストは、左のパネル ![ ージの ](/help/assets/icons/Filter.svg) フィルター **** フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターを適用するセグメントの数が表示されます。 ![ フィルター ](/help/assets/icons/Filter.svg) を選択して、フィルターパネルの表示を切り替えます。
 
 詳しくは、[ セグメントのリストのフィルタリング ](t-seg-filter.md) を参照してください。
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=ja) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspaceのデータ要素を使用すると、Analysis Workspaceの様々なコンポーネント（使用目的、承認済み、重複など）をカタログ化して追跡できます。
+description: Analysis Workspace のデータ辞書を使用すると、Analysis Workspace の様々なコンポーネント（使用目的、承認済み、重複など）をカタログ化して追跡できます。
 title: データ辞書でのエントリの編集
 feature: Components
 role: Admin
@@ -7,7 +7,7 @@ exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 

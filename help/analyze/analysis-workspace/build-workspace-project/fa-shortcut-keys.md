@@ -16,13 +16,13 @@ ht-degree: 89%
 
 Analysis Workspace では、シームレスなナビゲーション、分析、民主化を目的にホットキー（キーボードショートカット）を利用できます。
 
-キーボードでは、次の記号が使用される場合があります。
+キーボードでは、次のシンボルが使用される場合があります。
 
-- **[!UICONTROL **&#x200B; Shift キー&#x200B;**]&#x200B;**&#x200B;の代わりに &#x200B;**⇧**。
-- **[!UICONTROL **&#x200B; cmd &#x200B;**]&#x200B;**（コマンド）の代わりに &#x200B;**⌘**。
-- **[!UICONTROL **&#x200B; ctrl &#x200B;**]&#x200B;**（Control）の代わりに &#x200B;**⌃**。
-- **[!UICONTROL **&#x200B; opt &#x200B;**]&#x200B;**（Option）の代わりに &#x200B;**⌥**。
-- **[!UICONTROL **&#x200B; alt &#x200B;**]&#x200B;**（Alternate）の代わりに &#x200B;**⎇**。
+- **[!UICONTROL ** Shift キー&#x200B;**]**&#x200B;の代わりに **⇧**。
+- **[!UICONTROL ** cmd **]**（コマンド）の代わりに **⌘**。
+- **[!UICONTROL ** ctrl **]**（Control）の代わりに **⌃**。
+- **[!UICONTROL ** opt **]**（Option）の代わりに **⌥**。
+- **[!UICONTROL ** alt **]**（Alternate）の代わりに **⎇**。
 
 ## ナビゲーション操作
 

@@ -23,7 +23,7 @@ ht-degree: 47%
 | 4 | [セグメントのタグ設定](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 整理および共有が容易に行えるようにセグメントにタグを付けます。簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。 |
 | 5 | [セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md) | セグメントを正当なセグメントとして承認します。 |
 | 6 | [ セグメントの使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | セグメントコンポーネントからレポートに直接セグメントを適用できます。 |
-| 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他の Analytics ツールの特定の閲覧者とセグメントを共有します。また、Adobe Target および Adobe Experience Cloud と共有することもできます。 |
+| 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他の Analytics ツールの特定のオーディエンスとセグメントを共有します。また、Adobe Target および Adobe Experience Cloud と共有することもできます。 |
 | 8 | [セグメントのフィルタリング](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。 |
 | 9 | [ セグメントをお気に入りとしてマーク ](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。 |
 

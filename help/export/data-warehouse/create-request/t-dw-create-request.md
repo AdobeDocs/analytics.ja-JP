@@ -6,7 +6,7 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -16,19 +16,19 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
 ## リクエストの作成を開始
 
-1. Adobe Analyticsで、「**[!UICONTROL ツール]**/**[!UICONTROL Data Warehouse]**」を選択します。
+1. Adobe Analytics で、**[!UICONTROL ツール]**／**[!UICONTROL データウェアハウス]**&#x200B;を選択します。
 
 1. [!UICONTROL **Data Warehouse**] ページで、「[!UICONTROL **追加**]」を選択します。
 
    ![ リクエストを追加するボタン ](assets/dw-add-request.png)
 
-   新しいData Warehouseリクエスト ページが表示されます。
+   新しいData Warehouse リクエスト ページが表示されます。
 
    ![ 「一般設定」タブ ](assets/dw-general-settings.png)
 
 ## リクエストの完了
 
-Data Warehouseリクエストを作成する際には、様々なタブを使用できます。 各タブの様々な設定オプションについて詳しくは、次の記事を参照してください。
+Data Warehouse リクエストを作成する際には、様々なタブを使用できます。 各タブの様々な設定オプションについて詳しくは、次の記事を参照してください。
 
 * [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
 

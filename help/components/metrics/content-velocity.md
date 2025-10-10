@@ -12,13 +12,13 @@ ht-degree: 19%
 
 # コンテンツベロシティ
 
-「コンテンツベロシティ」の計算指標は、ディメンション（通常は [[!UICONTROL &#x200B; ページ &#x200B;]](/help/components/dimensions/page.md)）が web サイトやアプリに時間を費やしているユーザーに対してどのように貢献しているかを測定するのに役立ちます。
+「コンテンツベロシティ」の計算指標は、ディメンション（通常は [[!UICONTROL  ページ ]](/help/components/dimensions/page.md)）が web サイトやアプリに時間を費やしているユーザーに対してどのように貢献しているかを測定するのに役立ちます。
 
 この指標は、[ ページビュー数 ](/help/analyze/analysis-workspace/attribution/models.md) 指標の [ パーティシペーション アトリビューション ](page-views.md) を計算の一部として使用します。 訪問パーティシペーションを使用すると、ページがヒットするたびに、同じ訪問中に以前ヒットしたすべてのページにも、ページビューのクレジットが与えられます。 この式は、通常、訪問中にページがヒットする時間が早いほど、受け取るクレジットが多くなることを意味します。 （「[ ページビュー（パーティシペーション）」を参照 詳しくは、|訪問）または「訪問 ](#page-views-participation--visit-or-visit-participation) 参加」を参照してください。）
 
 ## 計算
 
-「コンテンツベロシティ」はデフォルトの計算済み [ 指標 ](overview.md) であり、`Visits` で割った式 `Page views (Visit participation)` 使用します。
+「コンテンツベロシティ」はデフォルトの計算済み [ 指標 ](overview.md) であり、`Page views (Visit participation)` で割った式 `Visits` 使用します。
 
 ![](assets/cont-velo-1.png)
 

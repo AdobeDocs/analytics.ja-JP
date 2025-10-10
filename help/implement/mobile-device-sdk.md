@@ -22,5 +22,5 @@ ht-degree: 37%
 
 >[!CAUTION]
 >
->バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、[Adobe Mobile Services の提供終了に関する FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=ja) を参照してください。
+>バージョン 4 の Mobile SDK のサポートは 2021年8月31日（PT）に終了しました。詳しくは、[Adobe Mobile Services の提供終了に関する FAQ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) を参照してください。
 

@@ -14,13 +14,13 @@ ht-degree: 8%
 
 # Activity Map リンク
 
-「Activity Mapリンク」 [ ディメンション ](overview.md) には、クリックされた最も人気のあるリンクが表示されます。 このディメンションを使用すると、リンクがクリックされた場所に関係なく、サイト上のどのリンクが最も使用されているかを比較できます。
+「Activity Map リンク」 [ ディメンション ](overview.md) には、クリックされた最も人気のあるリンクが表示されます。 このディメンションを使用すると、リンクがクリックされた場所に関係なく、サイト上のどのリンクが最も使用されているかを比較できます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)`c.a.activitymap.link` からデータを取得します。 実装で [ 変数を使用している場合 ](/help/analyze/activity-map/overview.md) このコンテキストActivity Mapは、リンクがクリックされると、データを自動的に収集します。
+このディメンションは、[ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)`c.a.activitymap.link` からデータを取得します。 実装で [Activity Map](/help/analyze/activity-map/overview.md) を使用している場合、リンクがクリックされると、このコンテキストデータ変数が自動的にデータを収集します。
 
-クリックされた特定のリンクに対して、Activity Mapは（順に）以下を検索します。
+クリックされた特定のリンクに対して、Activity Mapは以下を（順に）検索します。
 
 1. `s_objectID` 変数
 1. リンクの内部テキスト

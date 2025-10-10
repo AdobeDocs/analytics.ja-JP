@@ -1,5 +1,5 @@
 ---
-title: Adobe AnalyticsでReport Builderのデータ範囲を選択する方法
+title: Adobe AnalyticsのReport Builderでデータ範囲を選択する方法
 description: Adobe AnalyticsのReport Builderでカレンダー、相対日付およびカスタム式を使用する方法について説明します
 role: User
 feature: Report Builder
@@ -36,7 +36,7 @@ ht-degree: 88%
 
 選択した日付範囲の今日を除外するオプションもあります。
 
-![ カレンダーを選択し、「今日を除外」を選択したReport Builderのクイック編集ペイン。](./assets/image17.png)
+![ カレンダーを選択し、「今日を除外」を選択したReport Builder クイック編集ペイン。](./assets/image17.png)
 
 ## カレンダーの使用
 
@@ -62,7 +62,7 @@ ht-degree: 88%
 
 日付範囲を逆の順序で設定するには、終了日を最初にクリックしてから、開始日をクリックします。
 
-![ 選択したカレンダー、終了日、および開始日を示すReport Builderの日付範囲ペイン。](./assets/image18.png)
+![ 選択したカレンダー、終了日、および開始日を表示するReport Builder日付範囲ペイン。](./assets/image18.png)
 
 ### プリセットドロップダウンメニュー
 
@@ -76,7 +76,7 @@ ht-degree: 88%
 
 1. 開始日または終了日、あるいはその両方の相対式を選択します。
 
-   ![ 「相対日付を使用」が選択され、相対式が表示されているReport Builderの日付範囲ペイン。](./assets/image19.png)
+   ![ 「相対日付を使用」が選択され、ローリング式が表示されているReport Builder日付範囲ペイン。](./assets/image19.png)
 
    **開始時** - 日、週、月、四半期、年の始めを選択できます。
 
@@ -90,7 +90,7 @@ ht-degree: 88%
 
 1. 相対日付から日数、週数、月数、四半期数または年数を加算または減算します。
 
-   ![ 現在の日付と選択した 14 日を表示するReport Builderの日付範囲ペイン。](./assets/image21.png)
+   ![ 現在の日付を示すReport Builderの日付範囲ペイン +選択した 14 日。](./assets/image21.png)
 
 1. 「次へ」をクリックして、データ範囲を定義します。
 

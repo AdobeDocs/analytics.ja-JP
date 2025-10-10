@@ -26,12 +26,12 @@ ht-degree: 48%
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. サイトに実装するタグプロパティをクリックします。
 3. **[!UICONTROL ホスト]** をクリックしてから、**[!UICONTROL ホストを追加]** をクリックします。
-4. `"Adobe managed"` という名前を付け、「タイプ」ドロップダウンリストで **[!UICONTROL Adobeによって管理]** を選択します。 「保存」をクリックします。
+4. `"Adobe managed"` という名前を付け、「タイプ」ドロップダウンリストで **[!UICONTROL Adobeによる管理]** を選択します。 「保存」をクリックします。
 5. **[!UICONTROL 環境]** に移動し、「**[!UICONTROL 環境を追加]**」をクリックします。
-6. **[!UICONTROL Development]** を選択して `"Dev Environment"` という名前を付け、ドロップダウン・リストからAdobeが管理するホストを選択します。 「**[!UICONTROL 保存]**」をクリックします。
+6. 「**[!UICONTROL 開発]**」を選択して `"Dev Environment"` という名前を付け、ドロップダウンリストからAdobeで管理されるホストを選択します。 「**[!UICONTROL 保存]**」をクリックします。
 7. Web インストール手順を示すモーダルウィンドウが表示されます。 後でこのウィンドウに戻ります。ここでは「**[!UICONTROL 閉じる]**」をクリックします。
-8. 「**[!UICONTROL Add Environment]**」をクリックし、「**[!UICONTROL Staging]**」を選択して `"Staging Environment"` という名前を付け、Adobeが管理するホストを選択します。 **[!UICONTROL 作成]** をクリックして、インストール手順のモーダルウィンドウを閉じます。
-9. **[!UICONTROL Add Environment]** を再度クリックし、「**[!UICONTROL Production]**」を選択し、`"Production Environment"` という名前を付けて、Adobeが管理するホストを選択します。 **[!UICONTROL 作成]** をクリックして、インストール手順のモーダルウィンドウを閉じます。
+8. 「**[!UICONTROL 環境を追加]**」をクリックし、「**[!UICONTROL ステージング]**」を選択して `"Staging Environment"` という名前を付け、Adobeで管理されるホストを選択します。 **[!UICONTROL 作成]** をクリックして、インストール手順のモーダルウィンドウを閉じます。
+9. **[!UICONTROL 環境を追加]** を再度クリックし、「**[!UICONTROL 実稼動]**」を選択して `"Production Environment"` という名前を付け、Adobeで管理されるホストを選択します。 **[!UICONTROL 作成]** をクリックして、インストール手順のモーダルウィンドウを閉じます。
 
 ## 開発用ライブラリの構築
 

@@ -1,5 +1,5 @@
 ---
-description: Data Warehouseリクエストの表示、複製、再優先順位付けの方法を説明します。
+description: Data Warehouse リクエストの表示、複製、再優先順位付けの方法を説明します。
 title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909

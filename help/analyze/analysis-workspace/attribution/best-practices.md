@@ -63,4 +63,4 @@ ht-degree: 66%
 
 * Analysis Workspace だけに依存するのではなく、データサイエンティストのサービスを使用する必要性が生じる場合があります。
 * Adobe データフィードのように、生データを使用できます。
-* [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討してください。例えば、インプレッションデータを検討する場合などに有効です。
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview) の使用を検討してください。例えば、インプレッションデータを検討する場合などに有効です。

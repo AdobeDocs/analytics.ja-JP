@@ -74,14 +74,14 @@ ht-degree: 73%
 | **[!UICONTROL トレンドタッチポイント]** | 折れ線グラフのタッチポイントのトレンドデータを、一部の事前に作成された異常値検出データと共に表示します。 |
 | **[!UICONTROL トレンドタッチポイント（%）]** | 合計フォールアウト数の割合のトレンドを追跡します。 |
 | **[!UICONTROL すべてのタッチポイント（%）のトレンドを追跡]** | フォールアウトのすべてのタッチポイントの割合（**[!UICONTROL すべての人物]**&#x200B;が含まれている場合はこれを除く）のトレンドを同じグラフに表示します。 |
-| **[!UICONTROL このタッチポイントでフォールスルーを分類]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。これにより、ディメンションを表示するフリーフォームテーブルを作成します。テーブルの寸法やその他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールスルー：すべての訪問者/ページがホームのいずれかと等しく]**、ディメンションとして **[!UICONTROL ページ]** を含み、**[!UICONTROL プロジェクトのみのクイックセグメント]**&#x200B;[ フォールスルー：すべての訪問者/ページがホームのいずれかと等しい ](/help/components/segmentation/segmentation-workflow/seg-quick.md) でセグメント化された **[!UICONTROL ユニーク訪問者]** を含むテーブルがあります。 セグメントを調べて、フォールスルーセグメントの決定方法を理解します。 |
-| **[!UICONTROL このタッチポイントでフォールアウトを分類]** | funnelを通過しなかった訪問者が選択したステップの直後に取った行動を確認します。 これにより、ディメンションを表示するフリーフォームテーブルを作成します。テーブルの寸法やその他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがホームのいずれかと等しく]**、ディメンションとして **[!UICONTROL ページ]** を含み、**[!UICONTROL プロジェクトのみのクイックセグメント]**&#x200B;[ フォールスルー：すべての訪問者/ページがホームのいずれかと等しい ](/help/components/segmentation/segmentation-workflow/seg-quick.md) ユニーク訪問者 **[!UICONTROL をセグメント化したテーブルは]** 指標として次のようになります。 セグメントを調べて、フォールアウトセグメントの決定方法を理解します。 |
+| **[!UICONTROL このタッチポイントでフォールスルーを分類]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。これにより、ディメンションを表示するフリーフォームテーブルを作成します。テーブルの寸法やその他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールスルー：すべての訪問者/ページがホームのいずれかと等しく]**、ディメンションとして **[!UICONTROL ページ]** を含み、**[!UICONTROL プロジェクトのみのクイックセグメント]**[ フォールスルー：すべての訪問者/ページがホームのいずれかと等しい ](/help/components/segmentation/segmentation-workflow/seg-quick.md) でセグメント化された **[!UICONTROL ユニーク訪問者]** を含むテーブルがあります。 セグメントを調べて、フォールスルーセグメントの決定方法を理解します。 |
+| **[!UICONTROL このタッチポイントでフォールアウトを分類]** | funnelを通過しなかった訪問者が選択したステップの直後に取った行動を確認します。 これにより、ディメンションを表示するフリーフォームテーブルを作成します。テーブルの寸法やその他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがホームのいずれかと等しく]**、ディメンションとして **[!UICONTROL ページ]** を含み、**[!UICONTROL プロジェクトのみのクイックセグメント]**[ フォールスルー：すべての訪問者/ページがホームのいずれかと等しい ](/help/components/segmentation/segmentation-workflow/seg-quick.md) ユニーク訪問者 **[!UICONTROL をセグメント化したテーブルは]** 指標として次のようになります。 セグメントを調べて、フォールアウトセグメントの決定方法を理解します。 |
 | **[!UICONTROL タッチポイントからセグメントを作成]** | 選択したタッチポイントから新しいセグメントを作成します。 |
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

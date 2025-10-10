@@ -4,7 +4,7 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/30746?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

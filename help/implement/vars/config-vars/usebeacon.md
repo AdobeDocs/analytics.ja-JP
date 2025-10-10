@@ -29,9 +29,9 @@ Action Configuration 内の **[!UICONTROL Document will unload]** チェック�
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; ルール &#x200B;]」タブに移動し、目的のルールをクリックします。
-1. [!UICONTROL &#x200B; アクション &#x200B;] で、目的のアクションをクリックするか、「**+」** イコンをクリックして新しいアクションを追加します。
-1. [!UICONTROL &#x200B; 拡張機能 &#x200B;] ドロップダウンリストを **[!UICONTROL Adobe Experience Platform Web SDK]** に、[!UICONTROL &#x200B; アクションタイプ &#x200B;] を **[!UICONTROL イベントを送信]** に設定します
+1. 「[!UICONTROL  ルール ]」タブに移動し、目的のルールをクリックします。
+1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックして新しいアクションを追加します。
+1. [!UICONTROL  拡張機能 ] ドロップダウンリストを **[!UICONTROL Adobe Experience Platform Web SDK]** に、[!UICONTROL  アクションタイプ ] を **[!UICONTROL イベントを送信]** に設定します
 1. 右側のチェックボックス **[!UICONTROL ドキュメントをアンロードします]** をクリックします。
 
 このチェックボックスをオンにすると、データは sendBeacon API を使用してAdobeに送信されます。 デフォルトでは選択解除されています。
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-詳しくは、Web SDK ドキュメントの [sendBeacon API の使用 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#using-the-sendbeacon-api) を参照してください。
+詳しくは、Web SDK ドキュメントの [sendBeacon API の使用 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したビーコンの使用
 

@@ -16,14 +16,14 @@ ht-degree: 3%
 
 **[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/レポートスイートを選択/**[!UICONTROL 設定を編集]**/**[!UICONTROL Activity Map]**/**[!UICONTROL Activity Map レポート]**
 
-この節では、Activity Mapで使用するディメンションの有効化に焦点を当てています。 オーバーレイ、実装変数、ディメンションについて詳しくは [&#128279;](/help/analyze/activity-map/overview.md)Activity Mapの概要 &rbrace; を参照してください。
+この節では、Activity Mapで使用するディメンションの有効化に焦点を当てています。 オーバーレイ、実装変数、ディメンションについて詳しくは [](/help/analyze/activity-map/overview.md)Activity Mapの概要 } を参照してください。
 
 「**[!UICONTROL Activity Map レポートを有効にする]** ボタンを選択すると、次のディメンションが作成されます。
 
-* [[!UICONTROL Activity Map リンク &#x200B;]](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
-* [[!UICONTROL Activity Map地域 &#x200B;]](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
-* [[!UICONTROL Activity Mapページ &#x200B;]](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
-* [[!UICONTROL Activity Map リンク （リージョン別） &#x200B;]](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
+* [[!UICONTROL Activity Map リンク ]](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
+* [[!UICONTROL Activity Map地域 ]](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
+* [[!UICONTROL Activity Mapページ ]](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
+* [[!UICONTROL Activity Map リンク （リージョン別） ]](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
 
 有効にすると、実装がこれらのディメンションにデータを送信し始め、[Analysis Workspace](/help/analyze/analysis-workspace/home.md) および [ ブラウザー拡張機能のオーバーレイ ](/help/analyze/activity-map/overlay/overview.md) で使用できるようになります。
 

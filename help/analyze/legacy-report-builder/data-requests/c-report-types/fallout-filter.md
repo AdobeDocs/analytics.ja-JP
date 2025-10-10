@@ -23,7 +23,7 @@ ht-degree: 80%
 1. 適切なレポートスイートを選択します。
 1. 左側のツリービューで、**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL ページのフォールアウト]**&#x200B;を選択します。
 
-   ![Report Builderディレクトリの Windows ツリービューを示すスクリーンショット。 ページフォールアウトが選択されている。](assets/page_fallout.png)
+   ![Report Builder ディレクトリの Windows ツリービューを示すスクリーンショット。 ページフォールアウトが選択されている。](assets/page_fallout.png)
 
 1. 適切な[日付範囲](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)を設定します。
 1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -37,7 +37,7 @@ ht-degree: 80%
 1. セルの範囲またはリストのいずれから選択するかを決定します。
 1. リストから選択する場合は、「**[!UICONTROL 追加]**」をクリックしてチェックポイントを選択し、フォールアウトパスに追加します。3 ～ 8 件のチェックポイントを定義できます（利用可能な要素は、「**[!UICONTROL その他]**」をクリックすると検索できます）。
 
-   フィルターの絞り込みについて詳しくは、「[ フィルターDimension](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)」を参照してください。
+   フィルターの絞り込みについて詳しくは、[ ディメンションのフィルター ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md) を参照してください。
 
 1. 左の列から選択してオレンジ色の矢印をクリックして、**[!UICONTROL 使用可能な要素]** を右に移動します。
 1. 「**[!UICONTROL OK]**」を 3 回クリックして、「**[!UICONTROL 完了]**」をクリックします。

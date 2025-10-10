@@ -1,6 +1,6 @@
 ---
-description: 管理者がユーザーのData Warehouseレポートアクセスを有効にする方法に関する手順を説明します。
-title: Data Warehouseー権限の管理
+description: 管理者がユーザーのData Warehouse レポートへのアクセスを有効にする方法に関する手順を説明します。
+title: Data Warehouseの権限の管理
 feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333

@@ -1,6 +1,6 @@
 ---
 description: セル範囲に標準および制限付き書式を適用する方法を説明します。
-title: Report Builderで日付をフォーマットする方法
+title: Report Builderでの日付の書式設定方法
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 {{legacy-arb}}
 
-Excel のフォーマット/セル（Ctrl+1）機能で使用可能な標準のセルのフォーマットの選択肢に加えて、Report Builderを使用してセル範囲に制限付きのフォーマットを適用できます。 それらの書式設定に使用できるオプションは、選択した指標によって異なります。
+Excel のフォーマット/セル（Ctrl+1）機能で使用できる標準のセルのフォーマット設定の選択肢に加えて、Report Builderでは、セル範囲に対して制限付きのフォーマットを適用できます。 それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 
 行ラベルグリッドに[ディメンションを追加](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)した後、「**[!UICONTROL 書式]**」をクリックします。
 

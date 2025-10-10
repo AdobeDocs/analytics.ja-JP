@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/38124?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/3445767?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3413789?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3420562?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -375,7 +375,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
-1. リンクをコピーして、メール、ドキュメントまたは IM アプリに貼り付けます。
+1. リンクをコピーして、メール、ドキュメントまたは IM アプリにペーストします。
 
    受信者がデスクトップアプリまたはブラウザーを使用してリンクを開くと、モバイルスコアカードプロジェクトが Workspace で開きます。
 

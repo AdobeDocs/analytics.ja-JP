@@ -6,7 +6,7 @@ solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 

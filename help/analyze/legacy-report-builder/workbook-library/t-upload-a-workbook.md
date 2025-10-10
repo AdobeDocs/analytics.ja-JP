@@ -1,5 +1,5 @@
 ---
-description: 共有するReport Builderの Excel ワークブックをアップロードする方法について説明します。
+description: 共有するReport Builder Excel ワークブックをアップロードする方法について説明します。
 title: ワークブックのアップロード方法
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
@@ -22,7 +22,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Report Builderリクエストのあるワークブックのみをアップロードできます。 また、Report Builder レポートは、Report Builder レポートを使用しないユーザーにも配信できます（ユーザーはデータを確認するためにログインする必要はありません）。
+>Report Builder リクエストのあるワークブックのみをアップロードできます。 また、Report Builder レポートは、Report Builder レポートを使用しないユーザーにも配信できます（ユーザーはデータを確認するためにログインする必要はありません）。
 
 1. リクエストを作成し、実行します。
 1. レポートを保存したら、「**[!UICONTROL 共有]**」をクリックします。

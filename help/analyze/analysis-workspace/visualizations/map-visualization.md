@@ -46,7 +46,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の [&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/map) CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**Map** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**Map** を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のマップビジュアライゼーション](https://video.tv.adobe.com/v/41505/?quality=12&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のマップビジュアライゼーション](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 | 設定 | 説明 |
 |--- |--- |
 | **[!UICONTROL マップタイプ]** | |
-| **[!UICONTROL &#x200B; バブル &#x200B;] | バブルを使用してイベントのグラフを描画します。バブルチャートは、散布図と比例する面グラフの中間の複数変数のグラフです。この表示はデフォルトです。 |
-| [!UICONTROL &#x200B; ヒートマップ &#x200B;] | ヒートマップを使用してイベントのグラフを描画します。ヒートマップは、データのグラフィカル表示で、マトリックスに含まれる個々の値が色で表されます。 |
+| **[!UICONTROL  バブル ] | バブルを使用してイベントのグラフを描画します。バブルチャートは、散布図と比例する面グラフの中間の複数変数のグラフです。この表示はデフォルトです。 |
+| [!UICONTROL  ヒートマップ ] | ヒートマップを使用してイベントのグラフを描画します。ヒートマップは、データのグラフィカル表示で、マトリックスに含まれる個々の値が色で表されます。 |
 | **[!UICONTROL スタイル]** | |
 | [!UICONTROL カラーテーマ] | ヒートマップおよびバブルのカラースキームを表します。コーラル、赤、緑または青から選択できます。デフォルトはコーラルです。 |
 | [!UICONTROL マップスタイル] | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択できます。 |
@@ -132,7 +132,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35203/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

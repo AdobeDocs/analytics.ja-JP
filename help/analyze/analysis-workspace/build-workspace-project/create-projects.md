@@ -34,15 +34,15 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 * プロジェクトに[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)を追加します。例えば、 **[!DNL Example Panel]** は ➊ です。
 
 * パネルに[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を追加します。例：
-   * **[!DNL Line]**&#x200B;[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
-   * **[!DNL US States]**&#x200B;[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
+   * **[!DNL Line]**[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
+   * **[!DNL US States]**[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
 * ビジュアライゼーションに[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を追加します。例：
-   * **[!DNL US States]**&#x200B;[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
-   * **[!DNL Unique Visitors]**&#x200B;[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
-   * **[!DNL Average Revenue Per Order]**&#x200B;[&#x200B;計算指標](/help/components/calculated-metrics/cm-overview.md)➏
-   * **[!DNL Visits from Mobile Devices]**&#x200B;[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
-   * **[!DNL Last Month]**&#x200B;[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
-   * **[!DNL Example]**&#x200B;[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
+   * **[!DNL US States]**[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
+   * **[!DNL Unique Visitors]**[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
+   * **[!DNL Average Revenue Per Order]**[&#x200B;計算指標](/help/components/calculated-metrics/cm-overview.md)➏
+   * **[!DNL Visits from Mobile Devices]**[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
+   * **[!DNL Last Month]**[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
+   * **[!DNL Example]**[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
 
 
 ## プロジェクト情報および設定 {#project-info-settings}

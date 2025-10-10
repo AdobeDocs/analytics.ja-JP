@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://video.tv.adobe.com/v/3425530?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Component curation](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

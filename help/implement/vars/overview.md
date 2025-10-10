@@ -27,7 +27,7 @@ Adobe Analytics は様々な方法で実装できます。各ページには、W
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 変数の設定 ](https://video.tv.adobe.com/v/31406?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 変数の設定 ](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

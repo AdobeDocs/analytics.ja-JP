@@ -4,7 +4,7 @@ title: 仮想レポートスイートの概要
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 | 機能 | 仮想レポートスイート | マルチスイートタグ付け |
 |--- |--- |--- |
-| リアルタイムまたは「現在のデータ」のレポーティング | × | ○ |
+| リアルタイムまたは「現在のデータ」のレポーティング | × | はい |
 | すべての Analytics ツール（Analysis Workspace、Report Builder など）で機能 | はい。**メモ：**[!UICONTROL Analytics]／[!UICONTROL コンポーネント]／[!UICONTROL 仮想レポートスイート]でのみ、仮想レポートスイートとして編集および識別できます。ただし、他のツール内でも、レポートスイートのドロップダウンで選択することは可能です。<p>**重要**：レポート期間処理と変数のカスタマイズを備えた仮想レポートスイートは、Adobe Report Builder では現在サポートされていません。 | ○ |
 | データのアップロード（分類、データフィードなどを使用） | × | ○ |
 | DL レポート、ブックマーク、ダッシュボード、ターゲット、アラート、セグメント、計算指標などの作成： | ○ | ○ |

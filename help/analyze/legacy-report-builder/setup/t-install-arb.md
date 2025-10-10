@@ -18,7 +18,7 @@ ht-degree: 54%
 
 Report Builder をインストールするには：
 
-1. **[Adobe Experience Cloud](https://experience.adobe.com/)**/**[!UICONTROL Analytics]**/**[!UICONTROL ツール]**/7&rbrace;Report Builder **[!UICONTROL をクリックします。]**
+1. **[Adobe Experience Cloud](https://experience.adobe.com/)**/**[!UICONTROL Analytics]**/**[!UICONTROL ツール]**/7}Report Builder **[!UICONTROL をクリックします。]**
 1. 「**[!UICONTROL 今すぐダウンロード]**」をクリックし、（インストールされている MS Excel バージョンに応じて）32 ビットバージョンまたは 64 ビットバージョンをダウンロードします。
 1. ダウンロードしたインストーラーを開いて実行します。
 1. ウィザードに従いインストールを完了します。

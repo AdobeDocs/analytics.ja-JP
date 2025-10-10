@@ -26,7 +26,7 @@ Adobe AnalyticsのActivity Mapは、次の 4 つの主な要素で構成され�
 
 **[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/レポートスイートを選択/**[!UICONTROL 設定を編集]**/**[!UICONTROL Activity Map]**/**[!UICONTROL Activity Map レポート]**/**[!UICONTROL Activity Map レポートを有効にする]**
 
-Activity Map レポートを有効にすると、複数のバックエンド予約変数が作成されます。 詳しくは、『Adobe Analytics管理ガイド』の [0&rbrace;Activity Map レポート &rbrace; を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
+Activity Map レポートを有効にすると、複数のバックエンド予約変数が作成されます。 詳しくは、『Adobe Analytics管理ガイド』の [0}Activity Map レポート } を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
 
 ## コードのインストール
 
@@ -43,12 +43,12 @@ Activity Mapのデータ収集には、**[!UICONTROL Adobe Experience Platform W
 1. 左側のナビゲーションメニューで **[!UICONTROL タグ]** を選択します。
 1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューで **[!UICONTROL 拡張機能]** を選択します。
-1. インストールされている拡張機能のリストで **[!UICONTROL 0&rbrace;Adobe Experience Platform Web SDK&rbrace; を選択し、右側の]** 設定 **[!UICONTROL を選択します。]**
-1. [!UICONTROL &#x200B; データ収集 &#x200B;] というラベルの付いたセクションを見つけ、チェックボックス **[!UICONTROL クリックデータ収集を有効にする]** が有効になっていることを確認します。
+1. インストールされている拡張機能のリストで **[!UICONTROL 0}Adobe Experience Platform Web SDK} を選択し、右側の]** 設定 **[!UICONTROL を選択します。]**
+1. [!UICONTROL  データ収集 ] というラベルの付いたセクションを見つけ、チェックボックス **[!UICONTROL クリックデータ収集を有効にする]** が有効になっていることを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
 
-詳しくは [Web SDK タグ拡張機能の設定 ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) を参照してください。
+詳しくは [Web SDK タグ拡張機能の設定 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) を参照してください。
 
 +++
 
@@ -56,7 +56,7 @@ Activity Mapのデータ収集には、**[!UICONTROL Adobe Experience Platform W
 
 Activity Mapのデータ収集には、Web SDK JavaScript ライブラリ v2.20 以降が必要です。 ライブラリのバージョンが v2.15 以下の場合、サポートは制限されます。 これらの以前のバージョンのライブラリでは、Activity Mapのデータが、残りのデータとは別のイベントに送信されます。 この追加のイベントにより、Adobe AnalyticsまたはAdobe Experience Platformに送信するヒット数が増加します。
 
-Activity Map データの自動収集を処理す [`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)Web SDK設定変数。 明示的に無効にしない限り、このモードはデフォルトで有効になっています。
+Activity Map データの自動収集を処理す [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)Web SDK設定変数。 明示的に無効にしない限り、このモードはデフォルトで有効になっています。
 
 ```js
 alloy("configure", {
@@ -77,12 +77,12 @@ alloy("configure", {
 1. 左側のナビゲーションメニューで **[!UICONTROL タグ]** を選択します。
 1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューで **[!UICONTROL 拡張機能]** を選択します。
-1. インストールされている拡張機能のリストで **[!UICONTROL 0&rbrace;Adobe Analytics&rbrace; を選択し、右側の]** 設定 **[!UICONTROL を選択します。]**
+1. インストールされている拡張機能のリストで **[!UICONTROL 0}Adobe Analytics} を選択し、右側の]** 設定 **[!UICONTROL を選択します。]**
 1. 「Activity Mapを使用 **[!UICONTROL チェックボックスが有効になってい]** ことを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 必要に応じて、変更をライブラリにビルドし、変更を実稼動環境に公開します。
 
-詳しくは、[Adobe Analytics拡張機能の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview) を参照してください。
+詳しくは、[Adobe Analytics拡張機能の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) を参照してください。
 
 +++
 
@@ -100,10 +100,10 @@ Activity Map モジュールは、Activity Mapのデータ収集を処理し、�
 
 レポートスイートと実装の両方でActivity Mapが有効になっている場合、Analysis Workspaceで次のディメンションの使用を開始できます。
 
-* [[!UICONTROL Activity Map リンク &#x200B;]](/help/components/dimensions/activity-map-link.md)
-* [[!UICONTROL Activity Map地域 &#x200B;]](/help/components/dimensions/activity-map-region.md)
-* [[!UICONTROL Activity Mapページ &#x200B;]](/help/components/dimensions/activity-map-page.md)
-* [[!UICONTROL Activity Map リンク （地域別） &#x200B;]](/help/components/dimensions/activity-map-link-by-region.md)
+* [[!UICONTROL Activity Map リンク ]](/help/components/dimensions/activity-map-link.md)
+* [[!UICONTROL Activity Map地域 ]](/help/components/dimensions/activity-map-region.md)
+* [[!UICONTROL Activity Mapページ ]](/help/components/dimensions/activity-map-page.md)
+* [[!UICONTROL Activity Map リンク （地域別） ]](/help/components/dimensions/activity-map-link-by-region.md)
 
 ## ブラウザー拡張機能またはアドオンのダウンロードとインストール
 

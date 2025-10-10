@@ -10,19 +10,19 @@ ht-degree: 33%
 
 ---
 
-# Data Warehouseリクエストのスケジュールオプションの設定
+# Data Warehouse リクエストのスケジュールオプションの設定
 
 Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報では、リクエストのスケジュールオプションを設定する方法について説明します。
 
 リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-Data Warehouseリクエストのスケジュールオプションを設定するには：
+Data Warehouse リクエストのスケジュールオプションを設定するには：
 
 1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-1. 新しいData Warehouseリクエスト ページで、「[!UICONTROL **スケジュールオプション**] タブを選択します。
+1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **スケジュールオプション**] タブを選択します。
 
    ![ 「レポートの宛先」タブ ](assets/dw-scheduling-options.png) <!-- update screenshot -->
 
@@ -39,4 +39,4 @@ Data Warehouseリクエストのスケジュールオプションを設定する
 
    {style="table-layout:auto"}
 
-1. Data Warehouseリクエストの設定を「[!UICONTROL **通知メール**]」タブで続けます。 詳しくは、[Data Warehouseリクエストの通知メールの設定 ](/help/export/data-warehouse/create-request/dw-request-email.md) を参照してください。
+1. Data Warehouse リクエストの設定を「[!UICONTROL **通知メール**]」タブで続けます。 詳しくは、[Data Warehouse リクエストの通知メールの設定 ](/help/export/data-warehouse/create-request/dw-request-email.md) を参照してください。

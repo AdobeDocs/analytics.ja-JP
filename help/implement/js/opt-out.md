@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > この記事では、Web サイトにAdobe Analyticsを実装する **Adobe Analyticsのお客様に** Web サイトのユーザーにオプトアウトリンクを提供する方法を説明します。 <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> **Adobe Analyticsを実装した web サイトにアクセス** していて、オプトアウトする場合 **<span style="color:red">この記事は該当しません</span>**。 Adobeでの情報の使用方法を制御するには、[Adobeのプライバシーの選択肢 ](https://www.adobe.com/jp/privacy/opt-out.html) を参照してください。
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> **Adobe Analyticsを実装した web サイトにアクセス** していて、オプトアウトする場合 **<span style="color:red">この記事は該当しません</span>**。 Adobeでの情報の使用方法を制御するには、[Adobeのプライバシーの選択肢 ](https://www.adobe.com/jp/privacy/opt-out.html) を参照してください。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeでは、Web サイトの訪問者に、分析中の情報をオプトアウトする手段を提供できます。
 
@@ -44,7 +44,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
    1. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)を使用して、以下を実行します。
+* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
    1. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
    1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。

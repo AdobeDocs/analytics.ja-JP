@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace で日付範囲を指定するには、カレンダーとデータ範囲を使用します。
+description: カレンダーとデータ範囲を使用して、Analysis Workspace で日付範囲を指定します。
 title: 日付範囲の概要
 feature: Date Ranges
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ Workspace プロジェクトでは、通常、パネル内の[カレンダー](/
 日付範囲は、[任意のコンポーネントを使用する](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)場合と同様に使用します。![カレンダー](/help/assets/icons/Calendar.svg)、**[!UICONTROL 日付範囲]**&#x200B;コンポーネントパネルから日付範囲をドラッグして、コンポーネントを次の場所にドロップします。
 
 - **[!UICONTROL カレンダー]**：現在のカレンダー設定を日付範囲で![切り替えて](/help/assets/icons/Switch.svg)、**[!UICONTROL 置き換え]**&#x200B;ます。
-- **指標列ヘッダー**：指標を![切り替えて](/help/assets/icons/Switch.svg)、**[!UICONTROL 置き換え]**&#x200B;たり、日付範囲を指標として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**&#x200B;したり、日付範囲コンポーネントを使用して指標を![フィルター](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;フィルター&#x200B;]**&#x200B;したりできます。
-- **ディメンション列ヘッダー**：現在のディメンションを![切り替え](/help/assets/icons/Switch.svg)て、**[!UICONTROL 置き換え]**&#x200B;ます。新しいディメンションは&#x200B;**[!UICONTROL 日付範囲]**&#x200B;になりました。ディメンションが日付範囲になると、追加の日付範囲をディメンション項目として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**&#x200B;できます。
+- **指標列ヘッダー**：指標を![切り替えて](/help/assets/icons/Switch.svg)、**[!UICONTROL 置き換え]**&#x200B;たり、日付範囲を指標として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**したり、日付範囲コンポーネントを使用して指標を![フィルター](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;フィルター&#x200B;]**したりできます。
+- **ディメンション列ヘッダー**：現在のディメンションを![切り替え](/help/assets/icons/Switch.svg)て、**[!UICONTROL 置き換え]**&#x200B;ます。新しいディメンションは&#x200B;**[!UICONTROL 日付範囲]**&#x200B;になりました。ディメンションが日付範囲になると、追加の日付範囲をディメンション項目として![追加](/help/assets/icons/Add.svg)**[!UICONTROL 追加&#x200B;]**できます。
 - **ディメンション項目**：特定のディメンション項目を日付範囲別に![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 分類]**&#x200B;します。
 
 また、フリーフォームテーブルのビジュアライゼーションで、日付範囲列を直接追加することもできます。
@@ -97,7 +97,7 @@ In the calendar, you can specify dates and date ranges, or select a preset.
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/328257?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=ja) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

@@ -18,7 +18,7 @@ Analysis Workspace のアルゴリズム[アトリビューションモデル](m
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ アルゴリズムアトリビューション ](https://video.tv.adobe.com/v/40048?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アルゴリズムアトリビューション ](https://video.tv.adobe.com/v/36205?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

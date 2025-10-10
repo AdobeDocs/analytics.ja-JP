@@ -1,5 +1,5 @@
 ---
-description: システムの推奨事項とReport Builderの前提条件について説明します。
+description: Report Builderのシステム推奨事項と前提条件について説明します。
 title: Report Builderの必要システム構成について
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder

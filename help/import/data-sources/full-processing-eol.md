@@ -19,13 +19,13 @@ ht-degree: 4%
 
 ## フル処理データソースと Bulk data insertion API の主な違い
 
-* Bulk data insertion を使用すると、複数のファイルを送信して並列処理できます。 訪問者グループは、訪問者の継続性とeVarアトリビューションを確保します。
+* Bulk data insertion を使用すると、複数のファイルを送信して並列処理できます。 訪問者グループは、訪問者の継続性とeVar アトリビューションを確保します。
 * Bulk data insertion には、データ検証機能とエラー処理機能があり、ヒットデータの送信に関する管理作業の一部が削除されます。
 * Bulk data insertion は、複数の訪問者 ID 識別方法をサポートします。
 * Bulk data insertion には、訪問者 ID 列、`pageName` （または同等のリンク）、`reportSuiteID`、`timestamp`、`userAgent` など、いくつかの追加の必須フィールドがあります。
 * 訪問者の継続性とアトリビューションを確保するために、Bulk data insertion では、ファイル内の行を時系列順に並べ替える必要があります。 ファイル全体での訪問者アクティビティの順序については、 [訪問者グループ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) を参照してください。
 * Bulk data insertion では、.csv ファイルを.gzip 形式で圧縮する必要があります。
-* BDIA では、`date` の代わりに `timestamp` を使用します。
+* BDIA では、`timestamp` の代わりに `date` を使用します。
 
 ## BDIA とフル処理データソースの変数比較
 
@@ -33,8 +33,8 @@ Bulk データ挿入には、以前はフル処理のデータソースでは使
 
 * **`aamlh`**:Adobe Audience Managerの場所のヒント。
 * **`contextData.key`**: [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)。
-* **`customerID`**:Experience CloudID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja) 変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion` および `wow64` が含まれます。
+* **`customerID`**:Experience Cloud ID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion` および `wow64` が含まれます。
 * **`ipaddress`**：訪問者の IP アドレス。
 * **`language`**: [ 言語 ](/help/components/dimensions/language.md) ディメンション。
 * **`list1`** - **`list3`**: [ リスト変数 ](/help/implement/vars/page-vars/list.md)。
@@ -48,4 +48,4 @@ Bulk データ挿入には、以前はフル処理のデータソースでは使
 
 * **`charSet`**:[`charSet`](/help/implement/vars/config-vars/charset.md) 変数。 Bulk data insertion は、UTF-8 のみをサポートします。
 * **`timezone`**：訪問者のタイムゾーンオフセット（GMT からの時間単位）。
-* **`clickAction`**、**`clickActionType`**、**`clickContext`**、**`clickContextType`**、**`clickSourceID`**、**`clickTag`**:Activity Mapデータ収集で使用される変数。
+* **`clickAction`**、**`clickActionType`**、**`clickContext`**、**`clickContextType`**、**`clickSourceID`**、**`clickTag`**:Activity Map データ収集で使用される変数。

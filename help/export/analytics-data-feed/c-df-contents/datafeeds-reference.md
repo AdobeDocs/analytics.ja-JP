@@ -92,7 +92,7 @@ ht-degree: 66%
 | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
 | **`ipv6`** | 圧縮された IPv6 アドレス（使用可能な場合）。`ip` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ip` は空白になります。 | varchar(40) |
 | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
-| **`java_enabled`** | [[!UICONTROL Java 有効 &#x200B;]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
+| **`java_enabled`** | [[!UICONTROL Java 有効 ]](/help/components/dimensions/java-enabled.md)。 <br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | **`javascript`** | `j_jscript` に基づく、JavaScript バージョンのルックアップ ID。 `javascript_version`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`language`** | 訪問者の言語を表す数値 ID。 `languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM オブジェクト変数のマッピング ](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[データオブジェクト変数マッピング ](/help/implement/aep-edge/data-var-mapping.md)
+>>[データオブジェクト変数マッピング ](/help/implement/aep-edge/data-var-mapping.md)

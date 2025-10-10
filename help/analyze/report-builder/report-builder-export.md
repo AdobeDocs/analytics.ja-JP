@@ -9,7 +9,7 @@ exl-id: 5829482b-3a5e-416b-9c82-404face30b29
 source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -43,7 +43,7 @@ Report Builderからレポートを書き出すには：
 
 1. まだ行っていない場合は、[クラウドの書き出しアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従って、書き出しのアカウントと場所を設定します。
 
-1. 書き出すデータを含む Excel スプレッドシートで、右側の **0&rbrace;Adobe Report Builder&rbrace; パネルを開きます。**
+1. 書き出すデータを含む Excel スプレッドシートで、右側の **[!UICONTROL 0}Adobe Report Builder} パネルを開きます。]**
 
 1. [!UICONTROL **スケジュール**] を選択します。
 

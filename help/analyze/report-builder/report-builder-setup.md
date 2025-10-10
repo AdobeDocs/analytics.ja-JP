@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -75,7 +76,7 @@ IT またはセキュリティチームに連絡して、Report Builder アド�
 
 Report Builder アドインをインストールすると、Report Builder アイコンが Excel の「ホーム」タブのリボンに表示されます。Excel リボンの「ホーム」タブに「Report Builder」アイコンが表示されます。
 
-![Excel のReport Builderアイコン ](./assets/rb_app_icon.png)
+![Excel の「Report Builder」アイコン ](./assets/rb_app_icon.png)
 
 ## Report Builder へのログイン
 
@@ -87,7 +88,7 @@ Report Builder アドインをインストールすると、Report Builder ア�
 
 1. Adobe Report Builder ツールバーで、「**[!UICONTROL ログイン]**」をクリックします。
 
-   ![ 「Report Builderログイン」ボタンをクリックします。](./assets/rb_login.png)
+   ![ 「Report Builderへのログイン」ボタンをクリックします。](./assets/rb_login.png)
 
 1. Adobe Experience ID アカウント情報を入力します。アカウント情報は、Adobe Analyticsの資格情報と一致する必要があります。
 

@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/342838?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[メディア再生滞在時間パネル](media-playback-time-spent.md)
->&#x200B;>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
+>>[メディア再生滞在時間パネル](media-playback-time-spent.md)
+>>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342838/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

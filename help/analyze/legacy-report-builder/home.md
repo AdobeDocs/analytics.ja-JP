@@ -1,5 +1,5 @@
 ---
-title: Adobe Analyticsの従来のReport Builderについて
+title: 従来のReport Builder for Adobe Analyticsについて
 description: Report Builder を使用して、Adobe Analytics のデータを Microsoft Excel に直接取り込む方法について説明します。
 feature: Workspace Basics
 role: User, Admin

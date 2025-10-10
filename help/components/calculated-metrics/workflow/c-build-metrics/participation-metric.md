@@ -18,9 +18,9 @@ ht-degree: 2%
 次の手順では、パーティシペーション指標の作成方法を示します。
 
 1. [ 計算指標を作成 ](../cm-workflow.md) し、[ 計算指標ビルダー ](cm-build-metrics.md) で、指標に `Orders (Visit Participation)` などの名前を付けます。
-1. 成功イベントを含む指標（例：[!DNL Online Orders]）を [!UICONTROL **[!UICONTROL &#x200B; 定義 &#x200B;]**] 領域にドラッグします。
+1. 成功イベントを含む指標（例：[!DNL Online Orders]）を [!UICONTROL **[!UICONTROL  定義 ]**] 領域にドラッグします。
 1. 指標の ![ 歯車 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) を選択します。
-1. 表示されるポップアップで、**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]** を選択して [ パーティシペーション ](m-metric-type-alloc.md#attribution-models) に対するそのイベントの **[!UICONTROL アトリビューションモデル]** を定義し、**[!UICONTROL コンテナ]** に対して [!UICONTROL &#x200B; 訪問 &#x200B;] を選択します。 「**[!UICONTROL 適用]**」を選択して確定します。
+1. 表示されるポップアップで、**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]** を選択して [ パーティシペーション ](m-metric-type-alloc.md#attribution-models) に対するそのイベントの **[!UICONTROL アトリビューションモデル]** を定義し、**[!UICONTROL コンテナ]** に対して [!UICONTROL  訪問 ] を選択します。 「**[!UICONTROL 適用]**」を選択して確定します。
 
 
    ![ モデルとしてパーティシペーションが選択され、コンテナに対して訪問が選択されていることを示す列アトリビューションモデルのポップアップ ](assets/participation-setup.png)

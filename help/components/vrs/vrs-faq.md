@@ -5,7 +5,7 @@ title: 仮想レポートスイートに関する FAQ
 feature: VRS
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
 

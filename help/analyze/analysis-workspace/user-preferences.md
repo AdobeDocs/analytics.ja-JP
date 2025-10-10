@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3456'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/3429996/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

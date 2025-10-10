@@ -4,7 +4,7 @@ description: Adobe Analytics が提供する様々なコンポーネントにつ
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Analytics コンポーネントは、データの分析を微調整したり、�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の棒グラフおよび積み重ね棒グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[棒グラフおよび積み重ね棒グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bar)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の棒グラフおよび積み重ね棒グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[棒グラフおよび積み重ね棒グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bar)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -63,6 +63,6 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

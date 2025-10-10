@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データは Analysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/34729?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}を参照してください。
 
 +++
 

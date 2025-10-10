@@ -21,7 +21,7 @@ Web SDK拡張機能または Analytics 拡張機能を使用した実装では�
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブをクリックしてから、拡張機能の下の「[!UICONTROL &#x200B; 設定 &#x200B;]」をクリックします。
+1. 「[!UICONTROL  拡張機能 ]」タブをクリックしてから、拡張機能の下の「[!UICONTROL  設定 ]」をクリックします。
 
 `AppMeasurement.js` を使用した JavaScript 実装では、通常、設定変数は JS ファイルの先頭に設定されます。
 

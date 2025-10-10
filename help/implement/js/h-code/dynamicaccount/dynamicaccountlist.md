@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
-> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAppMeasurementライブラリやAdobe Experience Platform Data Collection ではサポートされていません。
+> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAppMeasurement ライブラリやAdobe Experience Platform Data Collection ではサポートされていません。
 
 `s.dynamicAccountList` 変数は、`s_account` の値を動的に決定します。`dynamicAccountSelection` を `true` に設定すると、`dynamicAccountMatch` 変数が `dynamicAccountList` と比較されます。一致が見つかった場合は、一致するレポートスイート ID が使用されます。
 

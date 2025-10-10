@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスプレーヤーの状態トラッキング指標
-description: レポートスイートに対して [!UICONTROL &#x200B; プレーヤーステートトラッキング &#x200B;] を有効にすると使用可能な指標です。
+description: レポートスイートに対して [!UICONTROL  プレーヤーステートトラッキング ] を有効にすると使用可能な指標です。
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e

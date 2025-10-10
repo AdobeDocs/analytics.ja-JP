@@ -42,7 +42,7 @@ Web SDKを使用してAdobeにデータを送信すると、すべての XDM デ
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数をクリア &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数をクリア ] に設定します。
 
 ## AppMeasurementの s.clearVars （）と Analytics 拡張機能のカスタムコードエディター
 

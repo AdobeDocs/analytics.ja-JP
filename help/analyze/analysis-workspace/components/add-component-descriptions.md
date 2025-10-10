@@ -31,7 +31,7 @@ Analytics 管理者は、レポートスイート内またはAnalysis Workspace�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://video.tv.adobe.com/v/39720?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Analysis Workspace のデータ辞書は、ユーザーと管理者の両方が 
 >[!MORELIKETHIS]
 >
 >[ レポートコンポーネントの設定 ](/help/components/vrs/vrs-components.md)
->&#x200B;>[データ要素コンポーネントエントリ ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[データ要素コンポーネントエントリ ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

@@ -43,7 +43,7 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  </tbody> 
 </table>
 
-Adobe Audience Managerのリアルタイムセグメント母集団と、Audience Analyticsレポート内で使用されるExperience CloudID を持つ Analytics 訪問者は、最も似ています。 ただし短期間の場合は、いくつかの要因により、若干の相違があります。関係する要因は次のとおりです。
+Adobe Audience Managerのリアルタイムセグメント母集団と、Audience Analytics レポート内で使用されるExperience Cloud ID を持つ Analytics 訪問者は、最も似ています。 ただし短期間の場合は、いくつかの要因により、若干の相違があります。関係する要因は次のとおりです。
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

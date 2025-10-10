@@ -1,6 +1,6 @@
 ---
 title: Adobe AnalyticsのReport Builderでのセグメントの使用方法
-description: Adobe AnalyticsのReport Builderでセグメントを使用する方法について説明します
+description: Report Builder for Adobe Analyticsでのセグメントの使用方法について説明します
 role: User
 feature: Report Builder
 type: Documentation
@@ -61,11 +61,11 @@ ht-degree: 4%
 
    セグメントを追加すると、選択範囲内のすべてのデータブロックにセグメントが適用されます。
 
-1. セグメントを削除するには、「**[!UICONTROL 適用されたセグメント**」リストのセグメントの右側にある削除アイコン &#x200B;]&#x200B;**x** をクリックします。
+1. セグメントを削除するには、「**適用されたセグメント**」リストのセグメントの右側にある削除アイコン **[!UICONTROL x]** をクリックします。
 
 1. 「**[!UICONTROL 適用]**」をクリックし、変更を保存してハブパネルに戻ります。
 
-   Report Builderは、適用されたセグメントの変更を確認するメッセージを表示します。
+   Report Builderに、適用されたセグメントの変更を確認するメッセージが表示されます。
 
 ### セグメントの置換
 

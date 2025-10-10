@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -72,5 +73,3 @@ ht-degree: 3%
    * ![AlertRed](/help/assets/icons/AlertRed.svg) は、エラーが発生したことを示します。
 
 または、選択した 1 つ以上のワークブックの ![ 履歴 ](/help/assets/icons/History.svg) を **[!UICONTROL ワークブック]** タブで選択できます。 このアクションは、選択によってフィルタリングされたリストを含む **[!UICONTROL 履歴]** タブを表示します。 ![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択してフィルターを削除します。
-
-

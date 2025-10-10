@@ -4,7 +4,7 @@ description: このガイドでは、特定の分析ツールやコンポーネ�
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Analytics の主な機能には、次のものが含まれます。
 
 ## その他の Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

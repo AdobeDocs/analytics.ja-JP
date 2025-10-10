@@ -1,6 +1,6 @@
 ---
 description: Data Warehouse リクエストの作成方法について手順を説明します。
-title: Data Warehouseリクエストに関するレポートの作成
+title: Data Warehouse リクエストのレポートの作成
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
@@ -10,31 +10,31 @@ ht-degree: 42%
 
 ---
 
-# Data Warehouseリクエストに関するレポートの作成
+# Data Warehouse リクエストのレポートの作成
 
 Data Warehouse を作成する際には、様々な設定オプションを使用できます。次の情報は、リクエストのレポートを作成する方法を説明しています。
 
 リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-Data Warehouseリクエストのレポートを作成するには：
+Data Warehouse リクエストのレポートを作成するには：
 
 1. まだ作成していない場合は、**[!UICONTROL ツール]**／**[!UICONTROL Data Warehouse]**／[!UICONTROL **追加**]&#x200B;を選択して、Adobe Analytics でリクエストの作成を開始します。
 
    詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-1. 新しいData Warehouseリクエスト ページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
+1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
 
    ![ 「レポートを作成」タブ ](assets/build-report.png)
 
-1. 左上隅で、Data Warehouseレポートの作成時に使用するレポートスイートを選択します。
+1. 左上隅で、Data Warehouse レポートの作成時に使用するレポートスイートを選択します。
 
    セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。互換性のないセグメントを含む仮想レポートスイートを選択すると、エラーが表示されます。
 
-   セグメント内でサポートされる関数の一覧については、[Data Warehouseのセグメントの互換性 ](/help/components/segmentation/seg-reference/seg-compatibility.md) を参照してください。
+   セグメント内でサポートされる関数のリストについては、[Data Warehouse セグメントの互換性 ](/help/components/segmentation/seg-reference/seg-compatibility.md) を参照してください。
 
-1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouseリクエストに含めるデータが決まります。
+1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouse リクエストに含めるデータが決まります。
 
-1. 「[!UICONTROL **レポートの宛先**] タブでData Warehouseリクエストの設定を続けます。 詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。
+1. 「[!UICONTROL **レポートの宛先**]」タブで、Data Warehouse リクエストの設定を続けます。 詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。
 
 <!--
 

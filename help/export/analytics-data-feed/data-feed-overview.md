@@ -36,7 +36,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ データフィードインターフェイスの操作 ](https://video.tv.adobe.com/v/3428564?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィードインターフェイスの操作 ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ データフィード ID を見つける ](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィード ID を見つける ](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]

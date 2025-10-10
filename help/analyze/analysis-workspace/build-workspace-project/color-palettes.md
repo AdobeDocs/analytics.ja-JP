@@ -7,7 +7,7 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -71,7 +71,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/328266?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

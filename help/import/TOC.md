@@ -5,7 +5,7 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: 一括またはリアルタイムで、外部のソースから Adobe Analytics にデータを取り込みます。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 

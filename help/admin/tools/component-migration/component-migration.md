@@ -35,7 +35,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 
 プロジェクトをAdobe Analyticsに移行する前に、プロジェクトの移行について詳しくは、[Customer Journey AnalyticsからCustomer Journey Analyticsへのコンポーネントおよびプロジェクトの移行の準備 ](/help/admin/tools/component-migration/prepare-component-migration.md) を参照してください。
 
-さらに、Analytics 管理者が使用できるツールを使用して [0&rbrace;Adobe Analytics インベントリを実行します。](/help/admin/tools/analytics-inventory.md)
+さらに、Analytics 管理者が使用できるツールを使用して [0}Adobe Analytics インベントリを実行します。](/help/admin/tools/analytics-inventory.md)
 
 ## Adobe Analytics プロジェクトのCustomer Journey Analyticsへの移行
 

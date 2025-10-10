@@ -6,7 +6,7 @@ exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 
    ![コンテキスト変数](assets/context-var.png)
 
-1. Experience Cloudとして、Adobe Analyticsに切り替え、Mobile Services で表示していたのと同じモバイルレポートスイートにいることを確認します。
+1. Experience Cloudで、Adobe Analyticsに切り替え、Mobile Services で表示していたのと同じモバイルレポートスイートにいることを確認します。
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 処理ルール]**&#x200B;に移動します。
 1. 「**[!UICONTROL Add Rule]**」をクリックします。
 1. 条件を無視して、Mobile Services に存在するのと同じコンテキスト変数の追加に進みます。

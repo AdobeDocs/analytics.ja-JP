@@ -32,7 +32,7 @@ ht-degree: 5%
 
 1. 「**[!UICONTROL 保存]**」を選択して、計算指標のタグを保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-保存すると、タグは、[!UICONTROL &#x200B; 計算指標ビルダー &#x200B;] で選択した計算指標の [ タグ ](cm-tagging.md) フィールドにリストされます。
+保存すると、タグは、[!UICONTROL  計算指標ビルダー ] で選択した計算指標の [ タグ ](cm-tagging.md) フィールドにリストされます。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.

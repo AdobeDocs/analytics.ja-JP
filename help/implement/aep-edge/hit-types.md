@@ -43,4 +43,4 @@ Edge Networkでは、次のロジックを使用して、Adobe Analyticsのペ�
 | `xdm.eventType = click` または `xdm.eventType = decisioning.propositionInteract` と `xdm._experience.decisioning` で `web.webInteraction.type` なし | は、ペイロードを **A4T** 呼び出しとみなします。 |
 | `xdm.eventType = click` または `xdm.eventType = decisioning.propositionInteract`、`xdm._experience.decisioning` および `web.webInteraction.type` なし | ペイロードをドロップし、データを無視します。 |
 
-詳しくは、[Adobe Analytics ExperienceEvent フル拡張スキーマフィールドグループ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)を参照してください。
+詳しくは、[Adobe Analytics ExperienceEvent フル拡張スキーマフィールドグループ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)を参照してください。

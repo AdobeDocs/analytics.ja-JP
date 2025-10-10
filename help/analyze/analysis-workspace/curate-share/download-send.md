@@ -117,8 +117,8 @@ Adobe Analytics データをエクスポートするその他の方法につい�
 
 ファイルがダウンロードされると、次の通知が表示されます。
 
-* 青い **[!UICONTROL _テーブル名 _-_Dimension _.csv がリクエストされています。_x _% 完了]**&#x200B;進行状況を示します。 ダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、「![CrossSize100](/help/assets/icons/CrossSize100.svg)」を選択します。この場合、ダウンロードはキャンセルされません。
-* 緑色の **[!UICONTROL _テーブル名 _-_Dimension _.csv がダウンロードされました]**&#x200B;ファイルのダウンロードが完了すると、完了通知が表示されます。 ファイルがブラウザーに設定されたダウンロードフォルダーにダウンロードされます。
+* 青い **[!UICONTROL _テーブル名 _-_Dimension _.csv がリクエストされています。_x _% 完了]**進行状況を示します。 ダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、「![CrossSize100](/help/assets/icons/CrossSize100.svg)」を選択します。この場合、ダウンロードはキャンセルされません。
+* 緑色の **[!UICONTROL _テーブル名 _-_Dimension _.csv がダウンロードされました]**ファイルのダウンロードが完了すると、完了通知が表示されます。 ファイルがブラウザーに設定されたダウンロードフォルダーにダウンロードされます。
 
 一度に複数のダウンロードをリクエストすると、前のダウンロードが完了するまで、追加の各ダウンロードはキューに入れられるという通知が届きます。
 
@@ -237,6 +237,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスのオーディオメタデータのディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; オーディオメタデータ &#x200B;] を有効にすると、使用可能な寸法になります。
+description: レポートスイートに対して [!UICONTROL  オーディオメタデータ ] を有効にすると、使用可能な寸法になります。
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e

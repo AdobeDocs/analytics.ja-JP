@@ -14,15 +14,15 @@ ht-degree: 35%
 
 一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。このリストの範囲を使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。
 
-Adobe Analyticsで使用される IP アドレスは、China Performance Optimization アドオンパッケージを除き、すべて [Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/ip-addresses) の一部です。
+Adobe Analyticsで使用される IP アドレスは、China Performance Optimization アドオンパッケージを除き、すべて [Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses) の一部です。
 
 ## 中国のパフォーマンス最適化 IP アドレス
 
-China Performance Optimization アドオンパッケージは、中国国内の訪問者のAppMeasurementデータ収集パフォーマンスを向上させる有料サービスです。 この機能の使用方法について詳しくは、Adobeアカウントチームにお問い合わせください。
+China Performance Optimization アドオンパッケージは、中国国内の訪問者に対するAppMeasurementのデータ収集パフォーマンスを向上させる、追加の有料サービスです。 この機能の使用方法について詳しくは、Adobe アカウントチームにお問い合わせください。
 
 >[!IMPORTANT]
 >
->中国の RDC は、Web SDK データ収集には使用できません。 これらのサーバは、AppMeasurement ライブラリにのみ適用されます。
+>中国の RDC は、web SDKのデータ収集には使用できません。 これらのサーバーは、AppMeasurement ライブラリにのみ適用されます。
 
 中国の地域データ収集サーバーは、次の IP アドレスを使用します。
 
@@ -36,6 +36,6 @@ China Performance Optimization アドオンパッケージは、中国国内の�
 
 >[!MORELIKETHIS]
 >
->[Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/ip-addresses)
+>[Adobe Experience Cloudで使用される IP アドレス ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Adobe Analyticsが使用するドメイン ](domains.md)

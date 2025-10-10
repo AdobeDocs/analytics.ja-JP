@@ -22,7 +22,7 @@ Cookie を読み取るには、データ要素の値を設定します。
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Core]** に設定し、「[!UICONTROL &#x200B; データ要素タイプ &#x200B;] を **[!UICONTROL Cookie]** に設定します。
+4. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Core]** に設定し、「[!UICONTROL  データ要素タイプ ] を **[!UICONTROL Cookie]** に設定します。
 5. テキストフィールドに Cookie 名を入力します。
 
 Cookie の値は、データ要素に格納されます。その後、ルールでデータ要素を参照して、必要な変数を割り当てることができます。

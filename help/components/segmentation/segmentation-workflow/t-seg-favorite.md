@@ -6,11 +6,11 @@ exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# セグメントをお気に入りとしてマーク
+# セグメントのお気に入りへの登録
 
 セグメントをお気に入りとしてマークできます。 セグメントをお気に入りとしてマークすると、セグメントを整理するのに役立ちます。 すべてのユーザーがセグメントを好んで使用できます。
 

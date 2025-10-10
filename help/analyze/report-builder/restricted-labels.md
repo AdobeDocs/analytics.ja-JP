@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 49%
@@ -26,7 +27,7 @@ Experience Platformで使用されるデータセットに関して作成され�
 
 ## Report Builder の制限付きデータの表示
 
-Adobe Analyticsでは、次の 2 つのAdobe定義ポリシーが表示され、レポート、ダウンロードおよび共有に影響します。
+Adobe Analyticsでは、次の 2 つのAdobeで定義されるポリシーが表示され、レポート、ダウンロードおよび共有に影響します。
 
 * Analytics の適用ポリシー
 * ダウンロードの適用ポリシー

@@ -56,7 +56,7 @@ ht-degree: 36%
 
      場所の設定について詳しくは、[ クラウドのインポートとエクスポートの場所の設定 ](/help/components/locations/configure-import-locations.md) を参照してください。
 
-   * **[!UICONTROL 区切り文字]**：アップロードされたファイルの列区切り文字。 オプションには、[!UICONTROL &#x200B; コンマ &#x200B;]、[!UICONTROL &#x200B; セミコロン &#x200B;]、[!UICONTROL &#x200B; コロン &#x200B;]、[!UICONTROL &#x200B; 縦棒 &#x200B;]、[!UICONTROL &#x200B; スペース &#x200B;]、[!UICONTROL &#x200B; スラッシュ &#x200B;]、[!UICONTROL &#x200B; バックスラッシュ &#x200B;]、[!UICONTROL &#x200B; ダッシュ &#x200B;]、[!UICONTROL &#x200B; アンダースコア &#x200B;] があります。
+   * **[!UICONTROL 区切り文字]**：アップロードされたファイルの列区切り文字。 オプションには、[!UICONTROL  コンマ ]、[!UICONTROL  セミコロン ]、[!UICONTROL  コロン ]、[!UICONTROL  縦棒 ]、[!UICONTROL  スペース ]、[!UICONTROL  スラッシュ ]、[!UICONTROL  バックスラッシュ ]、[!UICONTROL  ダッシュ ]、[!UICONTROL  アンダースコア ] があります。
 
    * **[!UICONTROL エンコーディング]**：ファイルのエンコーディングを決定するドロップダウンリスト。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
 

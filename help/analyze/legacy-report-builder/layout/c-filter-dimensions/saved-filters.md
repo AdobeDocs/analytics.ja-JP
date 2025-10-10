@@ -1,5 +1,5 @@
 ---
-description: フィルターやその他のパラメーターをReport Builderに保存し、他のワークシートやワークブックで使用できます。 これらのパラメーターは Analytics に保存され、他のコンピューター上の他のReport Builderーユーザーが使用できるようにします。
+description: Report Builderにフィルターやその他のパラメーターを保存し、それらを他のワークシートやワークブックで使用できます。 これらのパラメーターは Analytics に保存され、他のコンピューター上の他のReport Builder ユーザーが使用できるようになります。
 title: 保存済みフィルター
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 {{legacy-arb}}
 
-フィルターやその他のパラメーターをReport Builderに保存し、他のワークシートやワークブックで使用できます。 これらのパラメーターは Analytics に保存され、他のコンピューター上の他のReport Builderーユーザーが使用できるようにします。
+Report Builderにフィルターやその他のパラメーターを保存し、それらを他のワークシートやワークブックで使用できます。 これらのパラメーターは Analytics に保存され、他のコンピューター上の他のReport Builder ユーザーが使用できるようになります。
 
 フィルターを作成するときには、「[!UICONTROL ページを選択]」フォームでフィルターを保存します。この手順の例については、[ 特定のフィルター ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md) を参照してください。
 

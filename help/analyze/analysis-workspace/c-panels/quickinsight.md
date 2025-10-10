@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/quickinsight.md)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**クイックインサイトパネル** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/quickinsight.md)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**クイックインサイトパネル** を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 * どこにフィルターを作成するか。
 * その他の機能
 
-これらの質問に役立つように、[!UICONTROL &#x200B; クイックインサイト &#x200B;] では、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
+これらの質問に役立つように、[!UICONTROL  クイックインサイト ] では、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
 ![クイックインサイトパネル。](assets/popular-tag.png)
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326699/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

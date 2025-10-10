@@ -1,6 +1,6 @@
 ---
 title: Adobe Analyticsへのデータオブジェクト変数のマッピング
-description: Edgeが Analytics 変数に自動的にマッピングするExperience Platformデータオブジェクトフィールドを表示します。
+description: Experience Platform Edgeが Analytics 変数に自動的にマッピングするデータオブジェクトフィールドを表示します。
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
@@ -13,15 +13,15 @@ ht-degree: 2%
 
 # Adobe Analyticsへのデータオブジェクト変数のマッピング
 
-次の表に、Adobe Experience PlatformEdge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクト変数を示します。 これらのデータオブジェクトフィールドのパスを使用する場合、データをAdobe Analyticsに送信するために追加の設定は必要ありません。
+次の表に、Adobe Experience Platform Edge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクト変数を示します。 これらのデータオブジェクトフィールドのパスを使用する場合、データをAdobe Analyticsに送信するために追加の設定は必要ありません。
 
-今後Customer Journey Analyticsを使用する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装方法を使用すると、XDM スキーマに準拠せずに、web SDK を使用してAdobeにデータを送信できます。 組織でAdobe Experience Platformにデータを送信する準備が整ったら、[ データストリームマッピング ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping) を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定できます。
+今後Customer Journey Analyticsを使用する予定がある場合は、これらのフィールドの使用をお勧めします。 この実装方法を使用すると、XDM スキーマに準拠せずに、web SDKを使用してAdobeにデータを送信できます。 組織でAdobe Experience Platformにデータを送信する準備が整ったら、[ データストリームマッピング ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定できます。
 
 ## 値の優先度
 
 このテーブル内のほとんどのデータオブジェクトフィールドは、[ マッピングされた XDM フィールド ](xdm-var-mapping.md) と一致します。 特定のデータオブジェクトフィールドとそれぞれの XDM フィールドの両方を設定した場合、データオブジェクトフィールドが優先されます。 例えば、フィールド `data.__adobe.analytics.events` が存在する場合は、イベント関連のすべての XDM オブジェクトフィールドが上書きされます。
 
-一部のデータオブジェクトフィールドでは、短縮形の値としてそれぞれの [ クエリパラメーター値 ](../validate/query-parameters.md) もサポートしています。 標準のデータオブジェクトフィールドと短縮形のデータオブジェクトフィールドは、一意の変数に対してそれぞれが存在する限り、区別なく使用することができます。 標準データオブジェクトフィールドと、それぞれの短縮形データオブジェクトフィールドの両方を同時に設定しないでください。 Adobeでは、どのフィールドが優先されるかを保証することはできません。
+一部のデータオブジェクトフィールドでは、短縮形の値としてそれぞれの [ クエリパラメーター値 ](../validate/query-parameters.md) もサポートしています。 標準のデータオブジェクトフィールドと短縮形のデータオブジェクトフィールドは、一意の変数に対してそれぞれが存在する限り、区別なく使用することができます。 標準データオブジェクトフィールドと、それぞれの短縮形データオブジェクトフィールドの両方を同時に設定しないでください。 Adobeでは、どのフィールドが優先されるかは保証できません。
 
 ## データオブジェクトフィールドのマッピング
 

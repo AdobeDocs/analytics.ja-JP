@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspaceの要件について説明します。
+description: Analysis Workspace の要件について説明します。
 keywords: Analysis Workspace
 title: 要件
 feature: Workspace Basics
@@ -8,13 +8,13 @@ exl-id: 89737128-8a99-4f63-8409-9b97af723bce
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # 要件
 
-Analysis Workspaceを実行するための要件を以下に示します。
+Analysis Workspace の実行要件を以下に示します。
 
 | 要件 | 説明 |
 |--- |--- |

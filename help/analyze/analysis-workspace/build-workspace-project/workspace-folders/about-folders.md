@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspaceでフォルダー内のプロジェクトを整理する方法について説明します。
+description: Analysis Workspace でプロジェクトをフォルダーに整理する方法について説明します。
 keywords: Analysis Workspace
 title: フォルダーの概要
 feature: Workspace Basics
@@ -7,7 +7,7 @@ exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 

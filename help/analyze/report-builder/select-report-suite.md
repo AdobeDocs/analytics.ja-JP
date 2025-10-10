@@ -5,14 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
 
 ---
 
-# レポートスイートを選択します
+# レポートスイートを選択
 
 ドロップダウンリストからレポートスイートを選択するか、セルからレポートスイートを選択すると、新しいレポートスイートでデータブロックが自動的に更新されます。
 

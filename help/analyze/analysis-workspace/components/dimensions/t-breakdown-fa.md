@@ -20,7 +20,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
    ![ 選択した項目からアラートを作成を示すステップ結果。](assets/breakdown.png)
 
-1. サブメニューから **[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]** または **[!UICONTROL 日付範囲]** を選択し、項目を選択します。 または、「**[!UICONTROL *検索&#x200B;*]**&#x200B;フィールドでコンポーネントを検索します。
+1. サブメニューから **[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]** または **[!UICONTROL 日付範囲]** を選択し、項目を選択します。 または、「**[!UICONTROL *検索&#x200B;*]**フィールドでコンポーネントを検索します。
 
 選択した期間で、ディメンション項目またはオーディエンスセグメントで指標を分類できます。より詳細なレベルまで、さらに詳しく調べることもできます。
 
@@ -52,7 +52,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis WorkspaceのDimension](https://video.tv.adobe.com/v/41372?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis WorkspaceのDimension](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -60,7 +60,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの分類 ](https://video.tv.adobe.com/v/327337?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの分類 ](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -68,7 +68,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ディメンションと指標の追加 ](https://video.tv.adobe.com/v/34734?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ディメンションと指標の追加 ](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +76,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ フリーフォームテーブルでのディメンションの操作 ](https://video.tv.adobe.com/v/328531?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ フリーフォームテーブルでのディメンションの操作 ](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -84,7 +84,7 @@ Analysis Workspaceでは、具体的なニーズに合わせて様々な方法�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの位置別分類 ](https://video.tv.adobe.com/v/327412?captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensionの位置別分類 ](https://video.tv.adobe.com/v/24033){target="_blank"} を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +128,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/34734?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,14 +136,14 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/328531?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/327412?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

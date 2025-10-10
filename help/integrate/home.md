@@ -4,7 +4,7 @@ description: 他の場所のデータを Adobe Analytics に統合する方法�
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
 source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 向け Analytics](https://video.tv.adobe.com/v/327665?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 向け Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

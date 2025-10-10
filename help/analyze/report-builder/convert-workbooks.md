@@ -1,5 +1,5 @@
 ---
-title: 従来のReport Builderワークブックをデータブロックに変換する方法
+title: 従来のReport Builder ワークブックをデータブロックに変換する方法
 description: レガシーリクエストをデータブロックに変換する方法を説明します
 role: User
 feature: Report Builder
@@ -9,13 +9,13 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# 従来のReport Builderワークブックのデータブロックへの変換
+# 従来のReport Builder ワークブックのデータブロックへの変換
 
-新しいReport Builderテクノロジーへの移行の一環として、現在の従来のワークブックを Javascript ベースのワークブックにすばやく変換できます。
+新しいReport Builder テクノロジーへの移行の一環として、現在の従来のワークブックを Javascript ベースのワークブックにすばやく変換できます。
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446183?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL ログイン]** をクリックし、Report Builderにログインします。
 
-1. Report Builder アドインは、このブックに [ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) 要求が含まれているかどうかを検出します。
+1. Report Builder アドインは、このワークブックに [ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) リクエストが含まれているかどうかを検出します。
 
    ![ ワークブックのアップグレードを促すメッセージ ](assets/upgrade_workbook.png)
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 これで [ データブロックを管理 ](/help/analyze/report-builder/manage-reportbuilder.md) できます。
 
 
-## 新しいReport Builderではサポートされていない従来のReport Builder機能 {#unsupported}
+## 新しい Report Builder でサポートされていないレガシー Report Builder 機能 {#unsupported}
 
-従来のReport Builderの機能と新しいReport Builderアドインの機能を比較すると、一部の従来の機能は使用できなくなります。
+レガシー Report Builder の機能と新しい Report Builder アドインの機能を比較すると、一部のレガシー機能は使用できなくなっています。
 
 - リアルタイムリクエスト
 
-- パス/フォールアウトレポート
+- パス／フォールアウトレポート
 
 - 予定レポートの FTP オプション
 
-- 訪問者指標。 レポート結果が完全には一致しない場合でも、`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly` および `visitorsyearly` の指標はすべて「ユニーク訪問者」に変換されます。 これは、`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly` および `mobilevisitorsyearly` にも適用されます。
+- 訪問者指標。レポート結果が完全に一致しない場合でも、`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly` および `visitorsyearly` の指標はすべて「ユニーク訪問者」に変換されます。これは、`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly` および `mobilevisitorsyearly` にも適用されます。
 
 ## 変換後のワークブックのスケジュール {#schedule}
 

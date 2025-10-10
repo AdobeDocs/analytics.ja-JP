@@ -6,7 +6,7 @@ feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ![日付範囲例](assets/date-range-example.png)
 
-+++
++++ 
 
 <!--
 

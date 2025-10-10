@@ -75,7 +75,7 @@ ht-degree: 3%
    * JSON (レスポンス)
    * cURL リクエスト
 
-1. ![cURL リクエスト ](/help/assets/icons/Copy.svg) の下の **[!UICONTROL コピー]**&#x200B;**[!UICONTROL クリップボードにコピー]** を使用して、リクエストをクリップボードにコピーします。
+1. ![cURL リクエスト ](/help/assets/icons/Copy.svg) の下の **[!UICONTROL コピー]****[!UICONTROL クリップボードにコピー]** を使用して、リクエストをクリップボードにコピーします。
 1. **[!UICONTROL リクエスト]** または **[!UICONTROL 応答]** テキスト領域にポインタを合わせて、表示する ![ コピー ](/help/assets/icons/Copy.svg) **[!UICONTROL クリップボードにコピー]** を選択して、そのテキスト領域の内容（XML または JSON）をクリップボードにコピーします。
 
 1. コピーした情報や、Adobe サポートからAnalysis Workspace プロジェクトのビジュアライゼーションのトラブルシューティングをリクエストされた情報を交換します。

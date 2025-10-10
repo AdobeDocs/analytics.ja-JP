@@ -20,7 +20,7 @@ Adobe Analyticsでは、様々なタイプのセグメントを作成できま�
 
 ![ セグメントの作成方法 ](assets/create-segment.png)
 
-* **A**。メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL セグメント]**」を選択します。 ![ セグメント ](/help/assets/icons/AddCircle.svg) マネージャー [!UICONTROL **[!UICONTROL &#x200B; から「]**]AddCircle[Add](seg-manage.md)」を選択します。
+* **A**。メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL セグメント]**」を選択します。 ![ セグメント ](/help/assets/icons/AddCircle.svg) マネージャー [!UICONTROL **[!UICONTROL  から「]**]AddCircle[Add](seg-manage.md)」を選択します。
 * **B**。Workspace プロジェクトで、左側のパネルのコンポーネントから、「![ セグメント ](/help/assets/icons/Add.svg)![ セグメント ](/help/assets/icons/Segmentation.svg) に **追加** を選択します。
 * **C**。Workspace プロジェクトで、ビジュアライゼーションのコンテキストメニューから「**[!UICONTROL 選択からセグメントを作成]**」を選択します。
 * **D**。Workspace プロジェクトで、メニューから **[!UICONTROL コンポーネント]** を選択し、**[!UICONTROL セグメントを作成]** を選択します。

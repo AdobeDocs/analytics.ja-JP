@@ -21,7 +21,7 @@ ht-degree: 11%
 
 ## Web SDK JavaScript ライブラリの地域 ID 属性
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内で、`clickedElement` の値を確認し、収集した領域のロジックをカスタマイズできます。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`filterClickDetails` オブジェクトで `clickCollection` コールバックを使用します。 このコールバック内で、`clickedElement` の値を確認し、収集した領域のロジックをカスタマイズできます。
 
 ```js
 alloy("configure", {

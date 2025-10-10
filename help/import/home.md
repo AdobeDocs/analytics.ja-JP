@@ -4,7 +4,7 @@ description: このガイドでは、データソースとデータ挿入 API �
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

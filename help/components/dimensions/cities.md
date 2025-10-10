@@ -16,10 +16,10 @@ ht-degree: 73%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは [Digital Element](https://www.digitalelement.com/) と提携して、IP アドレスと市区町村の検索を管理しています。
+このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは、[Digital Element](https://www.digitalelement.com/) と提携して、IP アドレスと市区町村の検索を管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK 実装の場合は、[ データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) 時に [!UICONTROL &#x200B; ジオルックアップ &#x200B;] を有効にします。
+* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

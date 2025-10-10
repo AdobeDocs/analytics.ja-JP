@@ -1,5 +1,5 @@
 ---
-description: Experience Cloudログインアカウントを使用してReport Builderにログインする方法を説明します。
+description: Experience Cloudのログインアカウントを使用してReport Builderにログインする方法について説明します。
 title: Report Builderへのログイン方法
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
@@ -18,25 +18,25 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Report Builder バージョン 5.6.47 以降では、Experience Cloud ログインのみがサポートされ、Site Catalyst シングル サインオンや標準ログインなどの従来のログインはサポートされていません。 **2021 年 7 月 22 日（PT）までに、すべてのReport BuilderユーザーはReport Builderアドインをバージョン 5.6.47 以降にアップデートする必要があります。これにはログインプロセスの重要なアップデートが含まれます。**
+>Report Builder バージョン 5.6.47 以降では、Experience Cloud ログインのみがサポートされ、Site Catalyst シングルサインオンや標準ログインなどの従来のログインはサポートされていません。 **2021 年 7 月 22 日（PT）までに、すべてのReport Builder ユーザーはReport Builder アドインをバージョン 5.6.47 以降にアップデートする必要があります。これにはログインプロセスへの重要なアップデートが含まれます。**
 
-Report Builderにログインするには、Experience Cloudのログインアカウントを使用します。
+Report Builderにログインするには、Experience Cloud ログインアカウントを使用します。
 
 ## Adobe Experience Cloudにログインします {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloudログインでは、Enterprise ID（メールおよびパスワード）を使用してAdobe Experience Cloudにログインできます。
+Experience Cloud ログインでは、Enterprise ID（メールおよびパスワード）を使用してAdobe Experience Cloudにログインできます。
 
-**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise IDについて詳しくは、「[ 会社または学校のアカウントへのログイン ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis)」を参照してください。
+**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise IDについて詳しくは、[ 会社または学校のアカウントへのログイン ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis) を参照してください。
 
 ![Adobe Experience Cloudを使用してログインする場合と使用せずにログインする場合のオプションを示すAdobe ID ログインウィンドウを示すスクリーンショット ](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->Experience Cloudログインはセッションベースで、トークンは 30 日後に有効期限が切れます。
+>Experience Cloudのログインはセッションベースで、トークンは 30 日後に有効期限が切れます。
 
 ## Report Builder へのログイン
 
-Report Builderにサインインするには
+Report Builderにログインするには
 
 1. Excel で、「**[!UICONTROL アドイン]**」をクリックします。
 1. **[!UICONTROL ログイン]** をクリックします。 また、次の方法を使用して署名することもできます。

@@ -8,7 +8,7 @@ exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 24%
 
 次の例では、**[!UICONTROL 相対日付]** のカスタム式を有効にする方法を示します。
 
-1. [!UICONTROL &#x200B; リクエストウィザード：手順 1] で **[!UICONTROL プリセットされた日付]** の代わりに **[!UICONTROL 相対日付]** を選択します。
+1. [!UICONTROL  リクエストウィザード：手順 1] で **[!UICONTROL プリセットされた日付]** の代わりに **[!UICONTROL 相対日付]** を選択します。
 
    ![ 相対日付が選択されていることを示すスクリーンショット。](assets/rolldates1.png)
 

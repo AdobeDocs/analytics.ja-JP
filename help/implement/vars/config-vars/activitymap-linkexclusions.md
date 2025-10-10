@@ -21,7 +21,7 @@ ht-degree: 12%
 
 ## Web SDK JavaScript ライブラリのリンクの除外
 
-[`clickCollectionEnabled`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`clickCollection` オブジェクトで `filterClickDetails` コールバックを使用します。 このコールバック内では、`linkName` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
+[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) が有効な場合は、`filterClickDetails` オブジェクトで `clickCollection` コールバックを使用します。 このコールバック内では、`linkName` の値を確認し、値を変更するか、リンクトラッキングデータの収集を破棄できます。
 
 ```js
 alloy("configure", {
@@ -47,7 +47,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementを使用した s.ActivityMap.linkExclusions
 
-`s.ActivityMap.linkExclusions` 変数は、Activity Mapのトラッキングから除外するフレーズのコンマ区切り値を含む文字列です。 いずれかのフレーズが [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンションで収集された値と一致する場合、すべてのActivity Map データがヒットから削除されます。 この変数は、`linkUrl` ではなく `linkName` を参照することに注意してください。
+`s.ActivityMap.linkExclusions` 変数は、Activity Mapのトラッキングから除外するフレーズのコンマ区切り値を含む文字列です。 いずれかのフレーズが [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンションで収集された値と一致する場合、すべてのActivity Map データがヒットから削除されます。 この変数は、`linkName` ではなく `linkUrl` を参照することに注意してください。
 
 ```html
 <script>

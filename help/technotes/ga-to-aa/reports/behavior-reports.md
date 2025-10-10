@@ -71,7 +71,7 @@ Adobe Analytics と Google Analytics でこのレポートを使用するには�
 
 サイト検索レポートでは、訪問者がサイトの内部検索機能をどのように利用しているかに関するインサイトを獲得できます。
 
-Adobe Analytics と Google Analytics でこのレポートを使用するには、追加の実装が必要です。アドビでは、導入コンサルタントに依頼して、このデータが Analysis Workspace に対して正しく設定されていることを確認することをお勧めします。通常、内部検索キーワードはクエリ文字列パラメーターから抽出され、レポート用に eVar に配置されます。
+Adobe Analytics と Google Analytics でこのレポートを使用するには、追加の実装が必要です。アドビでは、導入コンサルタントに依頼して、このデータが Analysis Workspace に対して正しく設定されていることを確認することをお勧めします。通常、内部検索語はクエリ文字列パラメーターから抽出され、レポート用に eVar に配置されます。
 
 ## イベントレポート
 
@@ -87,4 +87,4 @@ Adobe Analytics と Google Analytics でこのレポートを使用するには�
 
 ## 発行者レポート
 
-Google では Google Ad Manager との接続を要件としていますが、アドビでは、Adobe Advertising Cloud と呼ばれる、インサイトを提供する専用製品を提供しています。この製品の使用に興味がある場合は、Adobeアカウントチームにお問い合わせください。
+Google では Google Ad Manager との接続を要件としていますが、アドビでは、Adobe Advertising Cloud と呼ばれる、インサイトを提供する専用製品を提供しています。この製品の使用に興味がある場合は、Adobe アカウントチームにお問い合わせください。

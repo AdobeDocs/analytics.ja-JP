@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のフリーフォームパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[フリーフォームパネル](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のフリーフォームパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[フリーフォームパネル](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Analytics コンポーネントガイド](/help/components/home.md)
->&#x200B;>[フリーフォームテーブルビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics コンポーネントガイド](/help/components/home.md)
+>>[フリーフォームテーブルビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

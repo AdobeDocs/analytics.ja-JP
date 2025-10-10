@@ -6,8 +6,8 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 98%
+source-wordcount: '1256'
+ht-degree: 97%
 
 ---
 
@@ -93,9 +93,9 @@ Cache-Control: no-cache
 
 **Google：**:「わかりました。何時に来てもらいますか？」
 
-**消費者：** 「午後 8 時半」
+**消費者：** 「8:30pm」
 
-**Google**：「了解しました。午後 8 時半までに運転手が到着します」
+**Google:** 「申し分ありません、ドライバーは 8 時までになります :30pm」
 
 セッションは、状況を把握し、デジタルアシスタントをより自然にするために、より詳細な情報を収集するのに役立ちます。会話に Analytics を導入する場合は、新規セッションを開始する際にやることが 2 つあります。
 

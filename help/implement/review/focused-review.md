@@ -24,7 +24,7 @@ ht-degree: 68%
 時間をかけてコードを更新すると、意図しない影響が生じる可能性があります。[上位 5 件の KPI](/help/implement/review/define-kpis.md) に関連付けられているすべての指標とディメンションが、引き続き正しく機能していることを確認する必要があります。これは web サイトのリリース直後に行うことが理想です。過去数か月間行っていない場合は、（今すぐ *実施し* ください。 次に手順を示します。
 
 * ダッシュボードを作成して、これらの重要な指標と変数の時間別トレンドビューを確認します（または、各指標に対して [ アラート ](/help/components/alerts/alerts-overview.md) を設定します）。 その後、1 ～ 2 日監視し、期待するデータが取得され、データが正しいことを確認します。 変曲点を探します。重要な問題を直ちに修正できるよう備えてください。不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを調べて理由を見つけます。
-* [Analytics ヘルスダッシュボード](https://express.adobe.com/page/tnNQGNlfzta3b/)を再実行して、KPI 指標および変数の幅広いトレンドを監視します。
+*  [Analytics ヘルスダッシュボード](https://express.adobe.com/page/tnNQGNlfzta3b/)を再実行して、KPI 指標および変数の幅広いトレンドを監視します。
 
 *指標と変数が正しく機能していることを確認する方法について詳しくは、Adobe Analytics チャンピオンの Sarah Owen による[これらのヒント](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=ja)を参照してください。*
 
@@ -47,7 +47,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 実装の確認 ](https://video.tv.adobe.com/v/3440170?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 実装の確認 ](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

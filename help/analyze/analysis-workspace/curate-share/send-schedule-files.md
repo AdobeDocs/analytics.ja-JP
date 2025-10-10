@@ -24,4 +24,4 @@ Analysis Workspaceの **[!UICONTROL 共有]** メニューを使用するか、�
 | **[!UICONTROL 任意のユーザーと共有]** | Adobe Analytics へのアクセス権を持たないユーザーに、Analysis Workspace プロジェクトへの読み取り専用アクセス権を付与します。[詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL ファイルを送信]** | プロジェクトを CSV または PDF 形式で、指定した受信者にすぐに送信します。[詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | **[!UICONTROL ファイルの書き出しをスケジュール]** | プロジェクトを CSV または PDF 形式でスケジュールに従って指定した受信者に送信します。[詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
-| **[!UICONTROL CSV としてダウンロード &#x200B;]**<br/>**[!UICONTROL PDFとしてダウンロード]** | プロジェクトをPDFの CSV としてダウンロードします。 [詳細情報](download-send.md)。 |
+| **[!UICONTROL CSV としてダウンロード ]**<br/>**[!UICONTROL PDFとしてダウンロード]** | プロジェクトをPDFの CSV としてダウンロードします。 [詳細情報](download-send.md)。 |

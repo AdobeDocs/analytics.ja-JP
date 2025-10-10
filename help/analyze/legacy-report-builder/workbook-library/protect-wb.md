@@ -20,7 +20,7 @@ ht-degree: 69%
 
 アナリストは、ワークブックをロックすることによって、組織内の他のユーザーがワークブックリクエストを変更できないように保護できます。ただし、他のユーザーはワークブックのデータを更新することは可能です。
 
-ブックが編集されないようにするには、Report Builderツールバー（![](assets/locked_icon.png)）の **[!UICONTROL ロック]** をクリックします。
+ブックが編集されないようにするには、Report Builderのツールバーにある **[!UICONTROL ロック]** をクリックします（![](assets/locked_icon.png)）。
 
 ブックの保護を解除するには、[**[!UICONTROL ロック解除]**] （![](assets/unlocked_icon.png)）をクリックします。
 

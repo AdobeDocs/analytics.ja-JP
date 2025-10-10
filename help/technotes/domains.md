@@ -12,7 +12,7 @@ ht-degree: 13%
 
 # Adobe Analyticsが使用するドメイン
 
-一部のファイアウォール設定は、Adobe Analyticsが製品インターフェイスに使用するドメインをブロックします。 このドメインのリストを使用して組織のネットワーク設定を変更し、組織内からの製品アクセスを許可できます。 Adobeは、最適なエクスペリエンスを得るために、組織のファイアウォールを通じてこれらのドメインを許可することをお勧めします。
+一部のファイアウォール設定は、Adobe Analyticsが製品インターフェイスに使用するドメインをブロックします。 このドメインのリストを使用して組織のネットワーク設定を変更し、組織内からの製品アクセスを許可できます。 Adobeは、最適なエクスペリエンスを実現するために、組織のファイアウォールを通じてこれらのドメインを許可することをお勧めします。
 
 | 技術 | ドメイン |
 | --- | --- |
@@ -29,10 +29,10 @@ ht-degree: 13%
 
 ## Adobe Experience Cloud ドメイン
 
-上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains) を参照してください。
+上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) を参照してください。
 
 >[!MORELIKETHIS]
 >
 >[Adobe Analyticsで使用される IP アドレス ](ip-addresses.md)
 >
->[Adobe Experience Cloudが使用するドメイン ](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains)
+>[Adobe Experience Cloudが使用するドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
