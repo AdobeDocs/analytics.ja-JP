@@ -12,14 +12,14 @@ ht-degree: 58%
 
 # ブラウザー
 
-「[!UICONTROL  ブラウザー ]」 [ ディメンション ](overview.md) は、ヒットを送信するブラウザーの名前とバージョンをレポートします。 このディメンションは、訪問者が最も一般的に使用するブラウザーを測定する場合に役立ちます。 サイトの新しいバージョンをテストする場合、このディメンションのトップブラウザーでテストを実行し、品質管理の取り組みを最大限に活かすことができます。
+「[!UICONTROL &#x200B; ブラウザー &#x200B;]」 [&#x200B; ディメンション &#x200B;](overview.md) は、ヒットを送信するブラウザーの名前とバージョンをレポートします。 このディメンションは、訪問者が最も一般的に使用するブラウザーを測定する場合に役立ちます。 サイトの新しいバージョンをテストする場合、このディメンションのトップブラウザーでテストを実行し、品質管理の取り組みを最大限に活かすことができます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。Adobeは [DeviceAtlas](https://deviceatlas.com/) と提携し、ユーザーエージェントとブラウザー間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、「データストリームの設定 [!UICONTROL  時に ] デバイス検索 [ を有効に ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
+* Web SDK実装の場合、「データストリームの設定 [!UICONTROL &#x200B; 時に &#x200B;] デバイス検索 [&#x200B; を有効に &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
 
 ## ディメンション項目
 

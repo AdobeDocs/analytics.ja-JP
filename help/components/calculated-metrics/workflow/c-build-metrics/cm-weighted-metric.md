@@ -18,7 +18,7 @@ ht-degree: 63%
 
 このシンプルなフィルター適用済み指標は、訪問回数が 100 回を超えているページのみのバウンス率を示します。
 
-![ フィルターバウンス率 ](assets/filtered-bounce-rate.png){zoomable="yes"}
+![&#x200B; フィルターバウンス率 &#x200B;](assets/filtered-bounce-rate.png){zoomable="yes"}
 
 この数式は、一貫した時間の範囲に依存することに注意してください。レポートを 1 日だけ実行する場合は、訪問回数が 20 回を超えるページも対象とした方がよいでしょう。レポートを 1 ヶ月間実行する場合は、訪問回数がさらに多い場合に対応したフィルターが必要になる可能性があります。
 
@@ -26,7 +26,7 @@ ht-degree: 63%
 
 このフィルターは、訪問数で並べ替えた場合の、ページの上位 30% のバウンス率を表示します。
 
-![ フィルターバウンス率（百分率を使用 ](assets/filtered-bounce-rate-with-percentile.png){zoomable="yes"}
+![&#x200B; フィルターバウンス率（百分率を使用 &#x200B;](assets/filtered-bounce-rate-with-percentile.png){zoomable="yes"}
 
 ## 重み付けバウンス率
 

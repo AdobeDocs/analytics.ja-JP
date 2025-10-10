@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->バッファーされた要求のタイムスタンプは、データが送信されたページと共有されます。 バッファされた要求が記録される正確な秒数でより正確な情報が必要な場合は、要求をバッファする前に [`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、「タイムスタンプ [ オプション ](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) が有効になっていることを確認します。有効になっていなければ、タイムスタンプが付いたすべてのヒットが完全に失われます。
+>バッファーされた要求のタイムスタンプは、データが送信されたページと共有されます。 バッファされた要求が記録される正確な秒数でより正確な情報が必要な場合は、要求をバッファする前に [`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、「タイムスタンプ [&#x200B; オプション &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) が有効になっていることを確認します。有効になっていなければ、タイムスタンプが付いたすべてのヒットが完全に失われます。
 
 ## 制限事項
 

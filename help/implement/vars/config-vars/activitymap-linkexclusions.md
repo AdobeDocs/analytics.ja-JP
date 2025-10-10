@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # ActivityMap.linkExclusions
 
-`ActivityMap.linkExclusions` 変数を使用すると、[Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンション内のテキストに基づいて、Activity Map データを選択的にフィルタリングまたは除外できます。
+`ActivityMap.linkExclusions` 変数を使用すると、[Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンション内のテキストに基づいて、Activity Map データを選択的にフィルタリングまたは除外できます。
 
 ## Web SDK拡張機能でのリンクの除外
 
@@ -47,7 +47,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementを使用した s.ActivityMap.linkExclusions
 
-`s.ActivityMap.linkExclusions` 変数は、Activity Mapのトラッキングから除外するフレーズのコンマ区切り値を含む文字列です。 いずれかのフレーズが [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンションで収集された値と一致する場合、すべてのActivity Map データがヒットから削除されます。 この変数は、`linkName` ではなく `linkUrl` を参照することに注意してください。
+`s.ActivityMap.linkExclusions` 変数は、Activity Mapのトラッキングから除外するフレーズのコンマ区切り値を含む文字列です。 いずれかのフレーズが [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンションで収集された値と一致する場合、すべてのActivity Map データがヒットから削除されます。 この変数は、`linkName` ではなく `linkUrl` を参照することに注意してください。
 
 ```html
 <script>

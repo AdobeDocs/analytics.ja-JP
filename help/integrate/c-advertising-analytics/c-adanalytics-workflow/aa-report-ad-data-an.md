@@ -20,11 +20,11 @@ ht-degree: 46%
 
 ## 有料検索レポート {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6}Advertising Analytics：有料検索 **[!UICONTROL からアクセスできます。]**
+このレポートを使用すると、検索エンジン統合を実装しているすべてのユーザーが Analytics 内の検索エンジンデータにアクセスできます。 **[!UICONTROL Workspace]**/**[!UICONTROL レポート]**/**[!UICONTROL 獲得]**/6&rbrace;Advertising Analytics：有料検索 **[!UICONTROL からアクセスできます。]**
 
 >[!NOTE]
 >
->有料検索レポートは、Advertising アカウントを実装していない場合でも、すべてのお客様に表示されます。 プロビジョニングされていない会社の有料検索レポートを開こうとすると、検索エンジンアカウントを設定していないというエラーメッセージが表示されます。 **[!UICONTROL 今すぐ設定]** を選択すると、[Advertising アカウントの設定 ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 画面が表示されます。
+>有料検索レポートは、Advertising アカウントを実装していない場合でも、すべてのお客様に表示されます。 プロビジョニングされていない会社の有料検索レポートを開こうとすると、検索エンジンアカウントを設定していないというエラーメッセージが表示されます。 **[!UICONTROL 今すぐ設定]** を選択すると、[Advertising アカウントの設定 &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 画面が表示されます。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Experience Cloud ID を持つ訪問者
 
-「Experience Cloud ID を持つ訪問者 [ 指標 ](overview.md) は、[Experience Cloud ID サービスを使用してAdobeが識別したユニーク訪問者の数を示し ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) す。 この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
+「Experience Cloud ID を持つ訪問者 [&#x200B; 指標 &#x200B;](overview.md) は、[Experience Cloud ID サービスを使用してAdobeが識別したユニーク訪問者の数を示し &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) す。 この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
 
 >[!NOTE]
 >

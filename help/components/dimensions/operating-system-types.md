@@ -12,14 +12,14 @@ ht-degree: 53%
 
 # オペレーティングシステムの種類
 
-「オペレーティングシステムの種類」 [ ディメンション ](overview.md) は、特定のバージョンに関係なく、訪問者が使用した包括的な OS を表示します。 このディメンションは、特定のオペレーティングシステムとバージョンだけでなく、どのような一般的な OS プラットフォームを訪問者が使用するかを理解するのに役立ちます。
+「オペレーティングシステムの種類」 [&#x200B; ディメンション &#x200B;](overview.md) は、特定のバージョンに関係なく、訪問者が使用した包括的な OS を表示します。 このディメンションは、特定のオペレーティングシステムとバージョンだけでなく、どのような一般的な OS プラットフォームを訪問者が使用するかを理解するのに役立ちます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。Adobeは [DeviceAtlas](https://deviceatlas.com/) と提携して、ユーザーエージェントとオペレーティングシステムのタイプ間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、「データストリームの設定 [!UICONTROL  時に ] デバイス検索 [ を有効に ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
+* Web SDK実装の場合、「データストリームの設定 [!UICONTROL &#x200B; 時に &#x200B;] デバイス検索 [&#x200B; を有効に &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
 
 ## ディメンション項目
 

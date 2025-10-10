@@ -27,8 +27,8 @@ Prop は、好きなだけ使用できるカスタム変数です。prop は、�
 
 prop は、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md):`xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - リスト prop は、[ 別のフィールドのセット ](#list-props-web-sdk) で指定されます。
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md):`data.__adobe.analytics.prop1`～`data.__adobe.analytics.prop75`、または `data.__adobe.analytics.c1`～`data.__adobe.analytics.c75` - リスト prop がこれらのフィールドに含まれます。
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md):`xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - リスト prop は、[&#x200B; 別のフィールドのセット &#x200B;](#list-props-web-sdk) で指定されます。
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md):`data.__adobe.analytics.prop1`～`data.__adobe.analytics.prop75`、または `data.__adobe.analytics.c1`～`data.__adobe.analytics.c75` - リスト prop がこれらのフィールドに含まれます。
 
 ## Adobe Analytics 拡張機能を使用した prop
 
@@ -38,7 +38,7 @@ Prop は、Analytics 拡張機能の設定時（グローバル変数）また�
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
+5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
 6. [!UICONTROL Props] セクションを見つけます。
 
 Prop 値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。

@@ -31,7 +31,7 @@ ht-degree: 82%
 
 1. 追加するコンポーネントまでスクロールするか、それを検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
-1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
+1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要 &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
 
 1. 詳しくは、次の節を参照してください。
 
@@ -45,7 +45,7 @@ ht-degree: 82%
 
 ### プロジェクトへのディメンションの追加
 
-[ ディメンション ](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
+[&#x200B; ディメンション &#x200B;](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
 
 1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、まず、Analysis Workspace のプロジェクトにディメンションを追加します。
 
@@ -67,7 +67,7 @@ Analysis Workspace でのディメンションの使用方法について詳し�
 
 Analysis Workspace のプロジェクトに指標を追加するには
 
-1. [ プロジェクトへのコンポーネントの追加 ](#add-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトに指標を追加し始めます。
+1. [&#x200B; プロジェクトへのコンポーネントの追加 &#x200B;](#add-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトに指標を追加し始めます。
 
 
 
@@ -96,18 +96,18 @@ Analysis Workspace では、次のいずれかの方法でセグメントを使�
 
 * パネルへのセグメントの追加
 パネルにセグメントを追加すると、そのセグメントはパネル内のすべてのコンテンツに適用されます。
-パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要 ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
+パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要 &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
 
 * ビジュアライゼーションへのセグメントの追加
 フリーフォームテーブルの列にセグメントを追加すると、そのセグメントはテーブルの列内のすべてのコンテンツに適用されます。また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
 
 * コンポーネントでのセグメントの使用
-[ 計算指標 ](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[ 注釈 ](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
+[&#x200B; 計算指標 &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[&#x200B; 注釈 &#x200B;](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [&#x200B; セグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
 
 
 ### プロジェクトへの日付範囲の追加
 
-[ 日付範囲 ](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) は、Analysis Workspaceでのレポート時間枠を決定します。 また、データ範囲は、プロジェクト内のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）にも適用できます。
+[&#x200B; 日付範囲 &#x200B;](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) は、Analysis Workspaceでのレポート時間枠を決定します。 また、データ範囲は、プロジェクト内のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）にも適用できます。
 
 各パネルには、デフォルトで日付範囲が含まれています。パネルの日付範囲を更新するには、いくつかの方法があります。その方法の 1 つとして、左側のパネルから日付範囲コンポーネントをドラッグして、Analysis Workspace のパネルの日付範囲を更新します。
 
@@ -132,7 +132,7 @@ Analysis Workspace での日付範囲の使用方法と管理方法について�
 アクセス制御に基づいて、次の操作を実行できます。
 
 * コンポーネントの ![ブックマーク](/help/assets/icons/Bookmark.svg) [!UICONTROL データディクショナリ]定義にアクセスします。
-* コンポーネントが定義されている ![ 編集 ](/help/assets/icons/Edit.svg) コンポーネントビルダーにアクセスします。
+* コンポーネントが定義されている ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg) コンポーネントビルダーにアクセスします。
 
 
 

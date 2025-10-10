@@ -13,11 +13,11 @@ ht-degree: 4%
 
 # ページイベント参照
 
-`page_event` 値に基づいてヒットのタイプを判断する参照テーブル。 [ データ列リファレンス ](datafeeds-reference.md) に記載されているように、`page_event` 列と `post_page_event` 列は tinyint unsigned です。
+`page_event` 値に基づいてヒットのタイプを判断する参照テーブル。 [&#x200B; データ列リファレンス &#x200B;](datafeeds-reference.md) に記載されているように、`page_event` 列と `post_page_event` 列は tinyint unsigned です。
 
 * AppMeasurementと web SDKのページビュー呼び出しの実装について [`t()`](/help/implement/vars/functions/t-method.md) しくは、「ページビュー呼び出しの実装」を参照してください。
 * AppMeasurementと Web SDKのリンクトラッキングコールの実装について理解するには、[`tl()`](/help/implement/vars/functions/tl-method.md) を参照してください。
-* Adobe Analyticsで XDM ペイロードをページイベントタイプに変換する方法については、[Adobe Experience Platform Edge Networkを使用したAdobe Analyticsの実装 ](/help/implement/aep-edge/overview.md) を参照してください。
+* Adobe Analyticsで XDM ペイロードをページイベントタイプに変換する方法については、[Adobe Experience Platform Edge Networkを使用したAdobe Analyticsの実装 &#x200B;](/help/implement/aep-edge/overview.md) を参照してください。
 
 | `page_event` の値 | `post_page_event` の値 | 説明 |
 | --- | --- | --- |

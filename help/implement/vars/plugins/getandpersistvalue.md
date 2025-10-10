@@ -15,7 +15,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform Data Collection 内のAdobe Analytics拡張機能の [!UICONTROL  ストレージ期間 ] 機能と同様の役割を果たします。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、Analytics 拡張機能の [!UICONTROL  ストレージ期間 ] 機能で十分な場合は必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、ビルトインの eVar の永続性はこのプラグインを使用する必要はありません。
+`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform Data Collection 内のAdobe Analytics拡張機能の [!UICONTROL &#x200B; ストレージ期間 &#x200B;] 機能と同様の役割を果たします。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、Analytics 拡張機能の [!UICONTROL &#x200B; ストレージ期間 &#x200B;] 機能で十分な場合は必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、ビルトインの eVar の永続性はこのプラグインを使用する必要はありません。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 

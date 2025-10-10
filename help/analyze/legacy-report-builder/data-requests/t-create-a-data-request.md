@@ -37,4 +37,4 @@ ht-degree: 97%
 
    ステップ 2 で使用可能な[ディメンション](/help/analyze/report-builder/filter-dimensions.md)は、ステップ 1 で選択したベースレポート、およびレポートスイートの設定によって異なります。相関関係（コリレーション）または下位関係（サブリレーション）が有効化された項目、または[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで選択したオリジナルレポートのタイプが分類されている場合は分類された項目が使用可能です。ディメンションをクロス集計するには、ステップ 2 で複数のディメンションを追加します。
 
-   詳しくは、[ 指標およびディメンションの追加 ](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) を参照してください。
+   詳しくは、[&#x200B; 指標およびディメンションの追加 &#x200B;](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) を参照してください。

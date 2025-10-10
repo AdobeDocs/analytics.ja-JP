@@ -12,7 +12,7 @@ ht-degree: 64%
 
 # 午前／午後
 
-「AM/PM」 [ ディメンション ](overview.md) は、ヒットが午前または午後の時間に発生したかどうかをinsightします。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)に基づいています。
+「AM/PM」 [&#x200B; ディメンション &#x200B;](overview.md) は、ヒットが午前または午後の時間に発生したかどうかをinsightします。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションへのデータ入力
 

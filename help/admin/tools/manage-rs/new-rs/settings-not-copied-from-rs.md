@@ -16,8 +16,8 @@ ht-degree: 38%
 
 以下の設定は、テンプレートまたは重複したレポートスイートからコピーされません。
 
-* [ 分類 ](/help/components/classifications/classifications-overview.md) データ（分類構造がコピーされます）
+* [&#x200B; 分類 &#x200B;](/help/components/classifications/classifications-overview.md) データ（分類構造がコピーされます）
 * [トランザクション ID ストレージ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* [ 階層 ](/help/components/dimensions/hierarchy.md) ラベル
-* トラフィック変数の [ パス ](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
+* [&#x200B; 階層 &#x200B;](/help/components/dimensions/hierarchy.md) ラベル
+* トラフィック変数の [&#x200B; パス &#x200B;](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
 * [VISTA ルール](/help/technotes/vista.md)

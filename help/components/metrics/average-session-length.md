@@ -12,8 +12,8 @@ ht-degree: 29%
 
 # 平均セッション時間（モバイル）
 
-「平均セッション長（モバイル）」 [ 指標 ](overview.md) は、ディメンション項目あたりの特定のディメンション項目の平均滞在時間を示します。 この指標は、モバイルSDK固有のコンポーネントを計算の一部として使用する点を除き、[[!UICONTROL  訪問あたりの滞在時間（秒） ]](time-spent-per-visit.md) 指標に似ています。
+「平均セッション長（モバイル）」 [&#x200B; 指標 &#x200B;](overview.md) は、ディメンション項目あたりの特定のディメンション項目の平均滞在時間を示します。 この指標は、モバイルSDK固有のコンポーネントを計算の一部として使用する点を除き、[[!UICONTROL &#x200B; 訪問あたりの滞在時間（秒） &#x200B;]](time-spent-per-visit.md) 指標に似ています。
 
 ## この指標の計算方法
 
-この指標は、[ ライフサイクル指標 ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) を使用して計算さ `'Total Session length' / ('Launches' - 'First launches'` ます。
+この指標は、[&#x200B; ライフサイクル指標 &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) を使用して計算さ `'Total Session length' / ('Launches' - 'First launches'` ます。

@@ -31,7 +31,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 >
 > 2023年1月の時点で、Mac および Windows オペレーティング システムの一部のバージョンがユーザーエージェントで正しく表示されず、高エントロピーのクライアントヒントでは正しく表示されます。詳しくは、[オペレーティングシステム](/help/components/dimensions/operating-systems.md)を参照してください。
 
-Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [ サーバーサイド転送 ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [&#x200B; サーバーサイド転送 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 ## よくある質問
 
@@ -159,6 +159,6 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++**Adobe Audience Manager サーバーサイド転送はクライアントヒントをサポートしますか？** 
 
-はい。クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 なお、Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [ サーバーサイド転送 ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+はい。クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 なお、Adobe Audience Managerでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Managerへの [&#x200B; サーバーサイド転送 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 +++

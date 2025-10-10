@@ -39,7 +39,7 @@ ht-degree: 48%
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. サイトに実装するタグプロパティをクリックします。
-3. **[!UICONTROL 公開フロー]** タブをクリックしてから、「**[!UICONTROL ライブラリを追加]** をクリックします。 このページについて詳しくは、タグドキュメントの [ 公開の概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja) を参照してください。
+3. **[!UICONTROL 公開フロー]** タブをクリックしてから、「**[!UICONTROL ライブラリを追加]** をクリックします。 このページについて詳しくは、タグドキュメントの [&#x200B; 公開の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ja) を参照してください。
 4. ライブラリに「`'Initial changes'`」という名前を付け、開発環境を選択します。
 5. 「**[!UICONTROL 変更されたリソースをすべて追加]**」をクリックすると、Adobe Analytics、ID サービス、コアが自動的に一覧表示されます。
 6. 「**[!UICONTROL 保存]**」をクリックします。

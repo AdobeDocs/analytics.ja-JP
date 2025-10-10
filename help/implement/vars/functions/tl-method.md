@@ -68,8 +68,8 @@ Adobe Analytics拡張機能には、リンクトラッキングコールを設�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL  アクション ] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
-1. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL  アクションタイプ ] を **[!UICONTROL ビーコンを送信]** に設定します。
+1. [!UICONTROL &#x200B; アクション &#x200B;] で、目的のアクションをクリックするか、「**+」** イコンをクリックしてアクションを追加します。
+1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストを **[!UICONTROL Adobe Analytics]** に、「[!UICONTROL &#x200B; アクションタイプ &#x200B;] を **[!UICONTROL ビーコンを送信]** に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics 拡張機能では、オプションの引数を設定できません。
@@ -202,7 +202,7 @@ function linkCode(obj) {
 
 ### Activity Mapでの `tl()` メソッドの使用
 
-`tl()` メソッドを使用して、カスタム要素を追跡したり、動的コンテンツのオーバーレイレンダリングを設定したりできます。 `linkName` パラメーターは、[Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンションの設定にも使用されます。
+`tl()` メソッドを使用して、カスタム要素を追跡したり、動的コンテンツのオーバーレイレンダリングを設定したりできます。 `linkName` パラメーターは、[Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンションの設定にも使用されます。
 
 `tl()` メソッドがHTML要素のクリックイベントから直接呼び出されると、Activity Mapでは、web ページが読み込まれるときにその要素のオーバーレイを表示できます。 例：
 

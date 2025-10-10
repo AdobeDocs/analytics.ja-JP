@@ -24,7 +24,7 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 継承された実装プレイブックを使用 ](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 継承された実装プレイブックを使用 &#x200B;](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

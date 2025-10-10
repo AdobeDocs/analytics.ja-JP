@@ -24,13 +24,13 @@ Data Warehouse リクエストのレポートを作成するには：
 
 1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
 
-   ![ 「レポートを作成」タブ ](assets/build-report.png)
+   ![&#x200B; 「レポートを作成」タブ &#x200B;](assets/build-report.png)
 
 1. 左上隅で、Data Warehouse レポートの作成時に使用するレポートスイートを選択します。
 
    セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。互換性のないセグメントを含む仮想レポートスイートを選択すると、エラーが表示されます。
 
-   セグメント内でサポートされる関数のリストについては、[Data Warehouse セグメントの互換性 ](/help/components/segmentation/seg-reference/seg-compatibility.md) を参照してください。
+   セグメント内でサポートされる関数のリストについては、[Data Warehouse セグメントの互換性 &#x200B;](/help/components/segmentation/seg-reference/seg-compatibility.md) を参照してください。
 
 1. 任意のセグメント、指標およびディメンションをビルダーにドラッグします。 作成するレポートによって、Data Warehouse リクエストに含めるデータが決まります。
 

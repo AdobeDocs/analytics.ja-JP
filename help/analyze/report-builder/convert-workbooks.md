@@ -24,21 +24,21 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 
-1. [ 次の手順に従って ](/help/analyze/report-builder/report-builder-setup.md)、新しいReport Builderを設定します。
+1. [&#x200B; 次の手順に従って &#x200B;](/help/analyze/report-builder/report-builder-setup.md)、新しいReport Builderを設定します。
 
 1. Excel を開き、右上の「Adobe Report Builder」アイコンをクリックします。
 
 1. **[!UICONTROL ログイン]** をクリックし、Report Builderにログインします。
 
-1. Report Builder アドインは、このワークブックに [ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) リクエストが含まれているかどうかを検出します。
+1. Report Builder アドインは、このワークブックに [&#x200B; 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) リクエストが含まれているかどうかを検出します。
 
-   ![ ワークブックのアップグレードを促すメッセージ ](assets/upgrade_workbook.png)
+   ![&#x200B; ワークブックのアップグレードを促すメッセージ &#x200B;](assets/upgrade_workbook.png)
 
 1. レガシーリクエストが 1 つ以上見つかった場合は、「**[!UICONTROL アップグレード]**」をクリックして、ワークブックをアップグレードします。
 
@@ -49,17 +49,17 @@ ht-degree: 22%
 
 1. アップグレードすると、ブックが変更されたことを知らせる警告が表示されます。 また、続行する前に、従来のワークブックのバックアップを作成することも推奨されます。
 
-   ![ アップグレードの警告 ](assets/upgrade_warning.png)
+   ![&#x200B; アップグレードの警告 &#x200B;](assets/upgrade_warning.png)
 
 1. **[!UICONTROL 続行]** をクリックして、アップグレードを続行します。
 
    アップグレードが正常に完了すると、次の完了通知が表示されます。
 
-   ![ アップグレード完了 ](assets/upgrade_complete.png)
+   ![&#x200B; アップグレード完了 &#x200B;](assets/upgrade_complete.png)
 
 1. （任意）「**[!UICONTROL アップグレードレポートをダウンロード]**」をクリックします。 このレポートには、アップグレードされた各データブロックのステータスが含まれています。
 
-これで [ データブロックを管理 ](/help/analyze/report-builder/manage-reportbuilder.md) できます。
+これで [&#x200B; データブロックを管理 &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) できます。
 
 
 ## 新しい Report Builder でサポートされていないレガシー Report Builder 機能 {#unsupported}
@@ -76,4 +76,4 @@ ht-degree: 22%
 
 ## 変換後のワークブックのスケジュール {#schedule}
 
-スケジュールに関する記事の [ 変換後のワークブックをスケジュール設定する ](/help/analyze/report-builder/schedule-reportbuilder.md) を参照してください。
+スケジュールに関する記事の [&#x200B; 変換後のワークブックをスケジュール設定する &#x200B;](/help/analyze/report-builder/schedule-reportbuilder.md) を参照してください。

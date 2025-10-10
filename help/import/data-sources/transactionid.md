@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->トランザクション ID データソースを使用する前に、まず目的のレポートスイートの [ 一般的なアカウント設定 ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) で有効にする必要があります。
+>トランザクション ID データソースを使用する前に、まず目的のレポートスイートの [&#x200B; 一般的なアカウント設定 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) で有効にする必要があります。
 
 ## 仕組み
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 * [初回購入までの日数](/help/components/dimensions/days-before-first-purchase.md)
 * [前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* eVar と同様に動作する [ レポートスイートの設定 ](/help/admin/tools/manage-rs/report-suites-admin.md) で有効になっている機能固有のディメンション。 プロパティと同様に動作するフィーチャ固有の寸法は含まれません。
+* eVar と同様に動作する [&#x200B; レポートスイートの設定 &#x200B;](/help/admin/tools/manage-rs/report-suites-admin.md) で有効になっている機能固有のディメンション。 プロパティと同様に動作するフィーチャ固有の寸法は含まれません。
 * [リスト変数](/help/implement/vars/page-vars/list.md)
 * [マーケティングチャネル](/help/components/dimensions/marketing-channel.md)
 * [マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md)
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->指標（[ 注文 ](/help/components/metrics/orders.md) または [ カスタムイベント ](/help/components/metrics/custom-events.md) など）は「スナップショット」には含まれません。
+>指標（[&#x200B; 注文 &#x200B;](/help/components/metrics/orders.md) または [&#x200B; カスタムイベント &#x200B;](/help/components/metrics/custom-events.md) など）は「スナップショット」には含まれません。
 
 一致するトランザクション ID を含むデータソースを介してオフラインヒットをアップロードすると、「スナップショット」内で使用可能なすべてのディメンションがデータソース行に自動的に追加されます。 特定のディメンションがオンラインヒットとオフラインヒットの両方に存在する場合は、オフラインヒットの値が使用されます。
 

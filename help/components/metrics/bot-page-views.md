@@ -12,13 +12,13 @@ ht-degree: 11%
 
 # ボットページビュー数
 
-「ボットページビュー数 [ 指標 ](overview.md) は、「ボットルール [ に一致したページヒット数を表示 ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) ます。
+「ボットページビュー数 [&#x200B; 指標 &#x200B;](overview.md) は、「ボットルール [&#x200B; に一致したページヒット数を表示 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) ます。
 
 ボットレポートは残りのレポートスイートデータから分離されているので、この指標は次のディメンションでのみ機能します。
 
 * [ボット名](../dimensions/bot-name.md)
 * [ページ](../dimensions/page.md)
-* 時間ベースのディメンション（例：[ 日 ](../dimensions/day.md)、[ 週 ](../dimensions/week.md)、[ 月 ](../dimensions/month.md)）
+* 時間ベースのディメンション（例：[&#x200B; 日 &#x200B;](../dimensions/day.md)、[&#x200B; 週 &#x200B;](../dimensions/week.md)、[&#x200B; 月 &#x200B;](../dimensions/month.md)）
 
 この指標で他のディメンションを使用しても、データは返されません。
 

@@ -12,14 +12,14 @@ ht-degree: 60%
 
 # 国
 
-「国」 [ ディメンション ](overview.md) は、ヒットの発生元の国をレポートします。 このディメンションは、サイトの訪問時に最も人気のある国の訪問者の出身を判断するのに役立ちます。このデータを使用して、これらの国のマーケティング活動に集中したり、主要言語が異なる国でサイトエクスペリエンスが最適であることを確認したりできます。
+「国」 [&#x200B; ディメンション &#x200B;](overview.md) は、ヒットの発生元の国をレポートします。 このディメンションは、サイトの訪問時に最も人気のある国の訪問者の出身を判断するのに役立ちます。このデータを使用して、これらの国のマーケティング活動に集中したり、主要言語が異なる国でサイトエクスペリエンスが最適であることを確認したりできます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは、[Digital Element](https://www.digitalelement.com/) と提携して、IP アドレスと国の間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

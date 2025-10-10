@@ -22,7 +22,7 @@ ht-degree: 59%
 
 ## 類似モデリング {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-マルチメディアパブリッシャーは、[ セグメント比較 ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) を使用してサードパーティオーディエンスを比較し、主な差別化特性を理解できます。 この比較は、ターゲティングに使用する価値の高いファーストパーティセグメントを作成するのに役立ちます。
+マルチメディアパブリッシャーは、[&#x200B; セグメント比較 &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) を使用してサードパーティオーディエンスを比較し、主な差別化特性を理解できます。 この比較は、ターゲティングに使用する価値の高いファーストパーティセグメントを作成するのに役立ちます。
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 

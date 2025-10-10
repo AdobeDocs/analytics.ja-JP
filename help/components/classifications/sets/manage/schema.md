@@ -16,7 +16,7 @@ ht-degree: 36%
 
 **[!UICONTROL コンポーネント]**/**[!UICONTROL 分類セット]**/**[!UICONTROL セット]**/目的の分類セット名/**[!UICONTROL スキーマ]** をクリックします。
 
-![ 分類セットスキーマ UI](../../assets/classification-set-schema.png)
+![&#x200B; 分類セットスキーマ UI](../../assets/classification-set-schema.png)
 
 次のボタンを使用できます。
 
@@ -26,7 +26,7 @@ ht-degree: 36%
    * **[!UICONTROL リスト区切り]**：正しいリスト区切り文字を選択します。 ダウンロードしたファイルまたはテンプレートファイルを使用する場合は、ここの[!UICONTROL リスト区切り文字]がファイルのダウンロード時の[!UICONTROL リスト区切り文字]と一致していることを確認してください。
    * **[!UICONTROL 適用]**：アップロードした分類データを分類セットに保存します。
 
-  ![ 分類セットのアップロード ](../../assets/classification-set-upload.png)
+  ![&#x200B; 分類セットのアップロード &#x200B;](../../assets/classification-set-upload.png)
 
 * **[!UICONTROL ダウンロード]**：キー値とその分類列をダウンロードします。
    * **[!UICONTROL 行]**：ダウンロードファイルに含める行の最大数。
@@ -37,26 +37,26 @@ ht-degree: 36%
    * **[!UICONTROL ファイル形式]**：ダウンロードファイルのファイル形式を決定するドロップダウンリスト。 オプションには、[!UICONTROL JSON]、[!UICONTROL コンマ区切り値]および [!UICONTROL Excel タブ区切り値]があります。
    * **[!UICONTROL ファイルのエンコーディング]**：ファイルのエンコーディングを決定するドロップダウンリスト。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
 
-  ![ 分類セットのダウンロード ](../../assets/classification-set-download.png)
+  ![&#x200B; 分類セットのダウンロード &#x200B;](../../assets/classification-set-download.png)
 
 * **[!UICONTROL テンプレート]**：テンプレートファイルをダウンロードします。このファイルは、分類データやキー値が含まれていないことを除けば、[!UICONTROL ダウンロード]ボタンに似ています。
    * **[!UICONTROL ファイル形式]**：テンプレートファイルのファイル形式を決定するドロップダウンリスト。 オプションには、[!UICONTROL コンマ区切り値]および [!UICONTROL Excel タブ区切り値]があります。
    * **[!UICONTROL ファイルのエンコーディング]**：ファイルのエンコーディングを決定するドロップダウンリスト。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
    * **[!UICONTROL リスト区切り文字]**：各行の分類列を区切るリスト区切り文字を決定するドロップダウンリスト。
 
-  ![ 分類セットテンプレート ](../../assets/classification-set-template.png)
+  ![&#x200B; 分類セットテンプレート &#x200B;](../../assets/classification-set-template.png)
 
-* **[!UICONTROL ジョブ履歴]**:[ ジョブマネージャー ](../job-manager.md) に移動するためのショートカットリンク。この分類セットのジョブのみが表示されます。
+* **[!UICONTROL ジョブ履歴]**:[&#x200B; ジョブマネージャー &#x200B;](../job-manager.md) に移動するためのショートカットリンク。この分類セットのジョブのみが表示されます。
 * **[!UICONTROL 自動化]**：外部ストレージの場所からデータを自動的に取り込みます。
    * **[!UICONTROL 場所アカウント]**：組織が設定した既存の場所アカウントを示すドロップダウンリスト。 組織で場所アカウントをまだ設定していない場合は、「[!UICONTROL **新しいアカウントを作成**]」を選択して設定できます。
 
-     場所アカウントの設定について詳しくは、[ クラウドのインポートおよびエクスポートアカウントの設定 ](/help/components/locations/configure-import-accounts.md) を参照してください。
+     場所アカウントの設定について詳しくは、[&#x200B; クラウドのインポートおよびエクスポートアカウントの設定 &#x200B;](/help/components/locations/configure-import-accounts.md) を参照してください。
 
    * **[!UICONTROL 場所]**：組織が設定した既存の場所を示すドロップダウンリスト。 組織でまだ場所を設定していない場合は、「[!UICONTROL **新しい場所を作成**]」を選択して場所を設定できます。
 
-     場所の設定について詳しくは、[ クラウドのインポートとエクスポートの場所の設定 ](/help/components/locations/configure-import-locations.md) を参照してください。
+     場所の設定について詳しくは、[&#x200B; クラウドのインポートとエクスポートの場所の設定 &#x200B;](/help/components/locations/configure-import-locations.md) を参照してください。
 
-   * **[!UICONTROL 区切り文字]**：アップロードされたファイルの列区切り文字。 オプションには、[!UICONTROL  コンマ ]、[!UICONTROL  セミコロン ]、[!UICONTROL  コロン ]、[!UICONTROL  縦棒 ]、[!UICONTROL  スペース ]、[!UICONTROL  スラッシュ ]、[!UICONTROL  バックスラッシュ ]、[!UICONTROL  ダッシュ ]、[!UICONTROL  アンダースコア ] があります。
+   * **[!UICONTROL 区切り文字]**：アップロードされたファイルの列区切り文字。 オプションには、[!UICONTROL &#x200B; コンマ &#x200B;]、[!UICONTROL &#x200B; セミコロン &#x200B;]、[!UICONTROL &#x200B; コロン &#x200B;]、[!UICONTROL &#x200B; 縦棒 &#x200B;]、[!UICONTROL &#x200B; スペース &#x200B;]、[!UICONTROL &#x200B; スラッシュ &#x200B;]、[!UICONTROL &#x200B; バックスラッシュ &#x200B;]、[!UICONTROL &#x200B; ダッシュ &#x200B;]、[!UICONTROL &#x200B; アンダースコア &#x200B;] があります。
 
    * **[!UICONTROL エンコーディング]**：ファイルのエンコーディングを決定するドロップダウンリスト。 オプションには、[!UICONTROL UTF-8] および [!UICONTROL Latin1] があります。UTF-8 をお勧めします。
 
@@ -64,7 +64,7 @@ ht-degree: 36%
 
 * **ルックアップを追加**：ルックアップテーブルは分類の分類です。 変数自体ではなく、分類値に関するメタデータです。 例えば、製品変数が「カラーコード」の分類を持つ場合があります。 「カラー名」のルックアップテーブルを「カラーコード」に添付して、カラーの内容を説明する場合があります。
 
-  ![ 参照テーブルを添付 ](../../assets/lookup.png)
+  ![&#x200B; 参照テーブルを添付 &#x200B;](../../assets/lookup.png)
 
 * **名前を変更**：分類の名前を変更できます。
 

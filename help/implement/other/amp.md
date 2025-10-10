@@ -79,11 +79,11 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-`<amp-analytics>` タグは、AMP が認識しているデータ値を提供できるように、変数の置き換えをサポートしています。 詳しくは、GitHub の [`amp-analytics` でサポートされている ](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) 変数を参照してください。
+`<amp-analytics>` タグは、AMP が認識しているデータ値を提供できるように、変数の置き換えをサポートしています。 詳しくは、GitHub の [`amp-analytics` でサポートされている &#x200B;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) 変数を参照してください。
 
 >[!NOTE]
 >
->この方法を使用してAdobeに送信されるイメージリクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータが含まれていません。 この情報をヒットに含める場合は、イメージリクエストクエリ文字列の一部に含めてください。 イメージリクエストクエリパラメーターとそれに関連する変数の完全なリストについては、[ データ収集クエリパラメーター ](../validate/query-parameters.md) を参照してください。
+>この方法を使用してAdobeに送信されるイメージリクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータが含まれていません。 この情報をヒットに含める場合は、イメージリクエストクエリ文字列の一部に含めてください。 イメージリクエストクエリパラメーターとそれに関連する変数の完全なリストについては、[&#x200B; データ収集クエリパラメーター &#x200B;](../validate/query-parameters.md) を参照してください。
 
 アドビは、ビルトインの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。この訪問者 ID は、Adobe Analyticsで設定された他の ID に対して一意です。 訪問者がコンテンツを取得した CDN ごとに異なるユニーク訪問者がカウントされるので、ユニーク訪問者数を増やす可能性があります。 AMP によるユニーク訪問者の識別方法の違いにより、AMP ページには別のレポートスイートを使用することを強くお勧めします。 Adobe Experience Cloud ID サービスはサポートされていません。
 

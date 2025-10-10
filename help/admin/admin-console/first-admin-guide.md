@@ -33,4 +33,4 @@ Adobe Analytics で任意のユーザーに役割を割り当てる前に、1 �
 
 最初の管理者が組織にプロビジョニングされたら、最初の管理者は、その後、他の主要な役割を持つ組織内のユーザーをプロビジョニングできます。
 
-組織内のユーザーにAdobe Analyticsの主要な役割をプロビジョニングする方法については、[Adobe Analyticsの管理者の役割 ](/help/admin/admin-console/admin-roles-in-analytics.md) を参照してください。
+組織内のユーザーにAdobe Analyticsの主要な役割をプロビジョニングする方法については、[Adobe Analyticsの管理者の役割 &#x200B;](/help/admin/admin-console/admin-roles-in-analytics.md) を参照してください。

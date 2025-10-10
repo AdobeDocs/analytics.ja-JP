@@ -19,7 +19,7 @@ ht-degree: 62%
 
 ## Web SDKを使用して、XDM イベントに含める変数を決定します
 
-Web SDKは、リンクトラッキングコールの特定のフィールドを除外しません。 ただし、`onBeforeEventSend` コールバックを使用して、データがAdobeに送信される前に目的のフィールドをクリアまたは設定できます。 詳しくは、Web SDK ドキュメントの [ イベントのグローバルな変更 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
+Web SDKは、リンクトラッキングコールの特定のフィールドを除外しません。 ただし、`onBeforeEventSend` コールバックを使用して、データがAdobeに送信される前に目的のフィールドをクリアまたは設定できます。 詳しくは、Web SDK ドキュメントの [&#x200B; イベントのグローバルな変更 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) を参照してください。
 
 ## Adobe Analytics拡張機能を使用したリンクトラッキング呼び出しの変数
 

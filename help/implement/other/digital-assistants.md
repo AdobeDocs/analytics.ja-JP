@@ -167,7 +167,7 @@ Cache-Control: no-cache
 セグメントを作成する際に、先頭と末尾のコロンが役立ちます。例えば、`:Audio:` 機能を持つすべてのヒットを表示します。
 
 * Amazon Alexa を使用する [Amazon 機能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
-* Google でのアクションを使用する[ Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
+* Google でのアクションを使用する[&#x200B; Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
 
 ## 例
 

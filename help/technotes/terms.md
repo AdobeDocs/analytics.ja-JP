@@ -19,11 +19,11 @@ ht-degree: 89%
    * 従来の管理ツール。Adobe Analytics のレポートスイート設定を管理します。以前のバージョンの Adobe Analytics では、ユーザー権限もここで管理されていました。『管理ユーザガイド』の「[管理ツール](/help/admin/tools/c-admin-tools.md)」を参照してください。
    * Adobe Admin Console。製品へのアクセス権がプロビジョニングされ、ユーザー権限が管理されます。『管理ユーザガイド』の「[Admin Console](/help/admin/admin-console/home.md)」を参照してください。
 * **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」を参照してください。
-* **Analysis Workspace：**&#x200B;堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Analytics ツールガイドの [Analysis Workspaceの概要 ](/help/analyze/analysis-workspace/home.md) を参照してください。
-* **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。Analytics ツールガイドの [ 異常値検出 ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) を参照してください。
+* **Analysis Workspace：**&#x200B;堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Analytics ツールガイドの [Analysis Workspaceの概要 &#x200B;](/help/analyze/analysis-workspace/home.md) を参照してください。
+* **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。Analytics ツールガイドの [&#x200B; 異常値検出 &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) を参照してください。
 * **AppMeasurement：**&#x200B;データの収集とアドビへの送信に使用するコードライブラリ。『実装ユーザガイド』の「[ホームページ](/help/implement/home.md)」を参照してください。
 * **ASI スロット：**&#x200B;現在は使用されていません。以前のバージョンの Adobe Analytics では、ASI スロットにセグメント化されたデータを表示するための一時的なレポートスイートコンテナが用意されていました。現在のバージョンの Adobe Analytics では、セグメントを任意のレポートに即座に適用できます。
-* **分類：**&#x200B;ディメンションを別のディメンションのコンテキスト内に表示できます。Analytics ツールガイドの [ 分類ディメンション ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
+* **分類：**&#x200B;ディメンションを別のディメンションのコンテキスト内に表示できます。Analytics ツールガイドの [&#x200B; 分類ディメンション &#x200B;](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
 * **バウンス：**&#x200B;単一のヒットで構成される訪問。『コンポーネントユーザガイド』の「[バウンス](/help/components/metrics/bounces.md)」を参照してください。「単一アクセス」も参照してください。
 * **計算指標：**&#x200B;レポートで使用する既存の指標、統計関数および数式を組み合わせることができます。『コンポーネントユーザガイド』の「[計算指標](/help/components/calculated-metrics/cm-overview.md)」を参照してください。
 * **キャンペーン：**&#x200B;次を参照してください。
@@ -36,28 +36,28 @@ ht-degree: 89%
 * **分類**：Adobe Analytics の機能の 1 つで、ディメンション項目のグループ化を可能にします。『コンポーネントユーザガイド』の「[分類](/help/components/classifications/classifications-overview.md)」を参照してください。
 * **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。この道具は廃止され、Activity Mapに置き換えられた。
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
-* **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とはAnalytics ツールガイドのを ](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 照してください。
+* **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。『分析ユーザガイド』の「[コホート分析とはAnalytics ツールガイドのを &#x200B;](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。
-* **コンポーネント：** Analysis Workspaceのコンポーネントは、プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメント、日付範囲、アラートおよび計算指標で構成されています。 Analytics ツールガイドの [ コンポーネントの概要 ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照してください。
+* **コンポーネント：** Analysis Workspaceのコンポーネントは、プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメント、日付範囲、アラートおよび計算指標で構成されています。 Analytics ツールガイドの [&#x200B; コンポーネントの概要 &#x200B;](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) を参照してください。
 * **コンテキストデータ変数：**&#x200B;処理ルールでのみ使用される一時変数。コンテキストデータ変数をコンバージョン変数またはトラフィック変数にコピーするように処理ルールを設定していない場合、コンテキストデータ変数は恒久的に失われます。『実装ユーザガイド』の「[コンテキストデータ変数](../implement/vars/page-vars/contextdata.md)」を参照してください。
 * **コンバージョン変数：** eVar とも呼ばれています。カスタム値を格納し、変数値が期限切れになるまで保持します。『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar.md) ディメンションを参照してください。
-* **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。Analytics ツールガイドの [ 分類ディメンション ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
+* **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。Analytics ツールガイドの [&#x200B; 分類ディメンション &#x200B;](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。『実装ユーザガイド』の「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
 * **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
 * **Data Connectors:** サードパーティによるAdobe Analyticsへのデータのアップロードを自動化できる、非推奨の開発ソリューションです。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。[Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE) に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
-* **データレイヤー：** [ データレイヤー ](/help/implement/prepare/data-layer.md) は、Analytics 実装で使用される変数値を格納したサイト上のJavaScript オブジェクトのフレームワークです。 Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
+* **データレイヤー：** [&#x200B; データレイヤー &#x200B;](/help/implement/prepare/data-layer.md) は、Analytics 実装で使用される変数値を格納したサイト上のJavaScript オブジェクトのフレームワークです。 Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。通常、ファイルは FTP サイトから取得されます。『インポートユーザガイド』の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。『エクスポートユーザガイド』の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。
-* **Data Workbench:** 複数のチャネルにわたるオンラインとオフラインの両方の顧客インタラクションからデータを収集、処理、分析、視覚化するために設計された [ 廃止 ](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-workbench) 分析ツールです。
+* **Data Workbench:** 複数のチャネルにわたるオンラインとオフラインの両方の顧客インタラクションからデータを収集、処理、分析、視覚化するために設計された [&#x200B; 廃止 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-workbench) 分析ツールです。
 * **Dimension:** ディメンションは、性別、月、年齢、ロイヤルティ、モニターの解像度など、数値以外の値および日付です。 その他の例としては、ページ名、トラッキングコード、参照ドメインなどがあります。 通常、指標と組み合わせて表示されます。
 * **Dimensionの分類：** 各ディメンションは、より詳細なレベルに分類できます。 例えば、「月」ディメンションは、1 月、2 月、3 月などに分類できます。
 * **イベントのシリアル化：**&#x200B;重複イベントの収集を防ぐための措置を実装するプロセス。『実装ユーザガイド』の「[イベントのシリアル化](../implement/vars/page-vars/events/event-serialization.md)」を参照してください。
 * **eVar：**「コンバージョン変数」を参照してください。
 * **イベント：**「成功イベント」を参照してください。
 * **有効期限：**&#x200B;コンバージョン変数のコンテキストで、値がバックエンドで保持される期間。永続性により、イベントをイベントのヒット前に変数値に関連付けることができます。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」を参照してください。
-* **フロー：** Analysis Workspace のビジュアライゼーションの 1 つで、サイト上におけるユーザーの経路を示します。Analytics ツールガイドの [ フロービジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) を参照してください。
+* **フロー：** Analysis Workspace のビジュアライゼーションの 1 つで、サイト上におけるユーザーの経路を示します。Analytics ツールガイドの [&#x200B; フロービジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) を参照してください。
 * **グローバルレポートスイート：**&#x200B;複数のサイトからヒットを収集するレポートスイートに指定された非公式の用語です。
 * **H コード：** AppMeasurement の旧名称です。以前のバージョンの Adobe Analytics では、コードバージョンは H.27.5、H.26 などの「H バージョン」で定義されていました。
 * **ヒット：**&#x200B;アドビのデータ収集サーバーに送信される単一のイメージリクエスト。ページビューとカスタムリンクはどちらもヒットと呼ばれます。
@@ -73,7 +73,7 @@ ht-degree: 89%
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
 * **マーケティングチャネル：** Adobe Analytics の機能の 1 つで、訪問者がサイトに到達した方法ごとにヒットを分類します。ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。コンポーネントユーザーガイドの「[マーケティングチャネルの概要](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
-* **モバイルアプリ：** **Adobe Analytics [!UICONTROL  ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+* **モバイルアプリ：** **Adobe Analytics [!UICONTROL &#x200B; ダッシュボード]** とも呼ばれ、モバイルアプリを使用すると、直感的なスコアカードにモバイルアクセスできます。 スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 * **Mobile Services：** Adobe Experience Cloud 全体のモバイルアプリケーションのモバイルマーケティング機能を統合した、廃止されたアドビ製品により、アプリケーションに対するユーザーエンゲージメントを把握し、向上につなげることができます。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)」を参照してください。
 * **Report Builder:** JavaScript [Report Builder](/help/analyze/report-builder/rb-overview.md) アドインを使用すると、Adobe Analytics データからカスタマイズされたリクエストを作成できます。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
-* **Reports &amp; Analytics:** このツールは [ 提供終了 ](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja) となりました。
+* **Reports &amp; Analytics:** このツールは [&#x200B; 提供終了 &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=ja) となりました。
 * **周期的日付範囲：**&#x200B;時間が経過すると変化する相対的な日付範囲。例えば、過去 7 日間のデータを示すレポートは、周期的日付範囲と見なすことができます。「静的日付範囲」も参照してください。
 * **RSID：**&#x200B;レポートスイート ID の略称です。レポートスイートには名前とレポートスイート ID の両方が指定されます。
 * **s.t()：**&#x200B;ページビューのイメージリクエストを送信する AppMeasurement ライブラリ内の関数の名前。一部の AppMeasurement ライブラリでは、代わりに `s.track()` が使用されます。実装ユーザーガイドの「[t](../implement/vars/functions/t-method.md)」を参照してください。
@@ -105,7 +105,7 @@ ht-degree: 89%
 * **単一アクセス：**&#x200B;ディメンションに一意の値が 1 つのみ取り込まれた場合の訪問。一意の値が 1 つのみであれば、訪問に複数のヒットを含めることができます。『コンポーネントユーザガイド』の[単一アクセス](/help/components/metrics/single-access.md)指標を参照してください。「バウンス」も参照してください。
 * **SiteCatalyst：**&#x200B;現在はこの用語は使用されていません。Adobe Analytics の旧名称です。
 * **ソリューションデザインドキュメント：**&#x200B;ソリューションデザインリファレンス、または SDR とも呼ばれます。組織が管理する内部ドキュメントで、カスタム変数の使用方法と、カスタム変数の入力に使用されるロジックの詳細が記載されています。『実装ユーザガイド』の「[ソリューションデザインドキュメントの作成](/help/implement/prepare/solution-design.md)」を参照してください。
-* **下位関係：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、下位関係によってコンバージョン変数を分類する機能が付与されていました。Analytics ツールガイドの [ 分類ディメンション ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
+* **下位関係：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、下位関係によってコンバージョン変数を分類する機能が付与されていました。Analytics ツールガイドの [&#x200B; 分類ディメンション &#x200B;](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) を参照してください。
 * **成功イベント：**&#x200B;追跡されたユーザーアクション。組織は、追跡するイベントと、追跡に使用する成功イベント変数を決定します。コンポーネントユーザーガイドの「[カスタムイベント](/help/components/metrics/custom-events.md)」を参照してください。
 * **サポート対象ユーザー：**「カスタマーサポート委任者」を参照してください。
 * **トラフィック変数：** prop とも呼ばれています。単一のヒットに対するカスタム値が格納されます。以前のバージョンの Adobe Analytics では、prop に固有の値が割り当てられていましたが、アップデートによってカスタムトラフィック変数がほとんど不要になりました。多くの場合、カスタムコンバージョン変数（eVar）の使用をお勧めします。『コンポーネントユーザガイド』の [Prop](/help/components/dimensions/prop.md) ディメンションを参照してください。

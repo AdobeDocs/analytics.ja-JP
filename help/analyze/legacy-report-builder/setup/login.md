@@ -26,9 +26,9 @@ Report Builderにログインするには、Experience Cloud ログインアカ�
 
 Experience Cloud ログインでは、Enterprise ID（メールおよびパスワード）を使用してAdobe Experience Cloudにログインできます。
 
-**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise IDについて詳しくは、[ 会社または学校のアカウントへのログイン ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis) を参照してください。
+**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise IDについて詳しくは、[&#x200B; 会社または学校のアカウントへのログイン &#x200B;](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis) を参照してください。
 
-![Adobe Experience Cloudを使用してログインする場合と使用せずにログインする場合のオプションを示すAdobe ID ログインウィンドウを示すスクリーンショット ](assets/adobe_id_login.png)
+![Adobe Experience Cloudを使用してログインする場合と使用せずにログインする場合のオプションを示すAdobe ID ログインウィンドウを示すスクリーンショット &#x200B;](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Report Builderにログインするには
 1. **[!UICONTROL ログイン]** をクリックします。 また、次の方法を使用して署名することもできます。
 
    * 「**[!UICONTROL 作成]**」をクリックします。
-   * リクエストマネージャーでリクエストを選択し、「追加 **[!UICONTROL または]** 管理 **[!UICONTROL をクリック]** ます。 詳しくは、[ リクエストマネージャーでのリクエストの選択 ](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md) を参照してください
+   * リクエストマネージャーでリクエストを選択し、「追加 **[!UICONTROL または]** 管理 **[!UICONTROL をクリック]** ます。 詳しくは、[&#x200B; リクエストマネージャーでのリクエストの選択 &#x200B;](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md) を参照してください
    * Excel でリクエストをダブルクリックします。
 
 1. 「[!UICONTROL ログイン]」ページのフィールドにデータを入力し、「**[!UICONTROL OK]**」をクリックします。

@@ -45,6 +45,6 @@ ht-degree: 76%
 
    **自動アウトラインを実行：** Report Builderから返される日付をリスト表示からツリー表示に変換します。
 
-   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。[ リクエストに名前を付ける ](/help/analyze/legacy-report-builder/layout/name-a-request.md) を参照してください。
+   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。[&#x200B; リクエストに名前を付ける &#x200B;](/help/analyze/legacy-report-builder/layout/name-a-request.md) を参照してください。
 
 1. 「**[!UICONTROL OK]**」をクリックします。

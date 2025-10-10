@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # プライバシーレポート
 
-プライバシーレポートを使用すると、[ 同意管理のオプトイン ](/help/components/dimensions/cm-opt-in.md)、[ 同意管理のオプトアウト ](/help/components/dimensions/cm-opt-out.md) および [Ad Platform の同意 ](/help/components//dimensions/ad-consent.md) ディメンションをレポートで使用できます。
+プライバシーレポートを使用すると、[&#x200B; 同意管理のオプトイン &#x200B;](/help/components/dimensions/cm-opt-in.md)、[&#x200B; 同意管理のオプトアウト &#x200B;](/help/components/dimensions/cm-opt-out.md) および [Ad Platform の同意 &#x200B;](/help/components//dimensions/ad-consent.md) ディメンションをレポートで使用できます。
 
 >[!NOTE]
 >

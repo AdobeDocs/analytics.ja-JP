@@ -24,14 +24,14 @@ Analytics 管理者は、レポートスイート内またはAnalysis Workspace�
 1. **[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL レポートスイート]** を選択します。
 1. コンポーネントの説明を指定するレポートスイートをレポートスイートマネージャーで選択します。
 1. **[!UICONTROL 設定を編集]**/**[!UICONTROL コンバージョン]**/**[!UICONTROL コンバージョン変数]** を選択します。
-1. 「![ 追加 ](/help/assets/icons/Add.svg)」を選択して、コンバージョン変数の詳細を表示します。
+1. 「![&#x200B; 追加 &#x200B;](/help/assets/icons/Add.svg)」を選択して、コンバージョン変数の詳細を表示します。
 1. 「**[!UICONTROL 説明]**」のチェックボックスをオンにして、説明を追加します。
 1. 説明を追加する他の変数について、手順 4 と 5 を繰り返します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Add component descriptions](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -46,6 +46,6 @@ Analysis Workspace のデータ辞書は、ユーザーと管理者の両方が 
 
 >[!MORELIKETHIS]
 >
->[ レポートコンポーネントの設定 ](/help/components/vrs/vrs-components.md)
->>[データ要素コンポーネントエントリ ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>[&#x200B; レポートコンポーネントの設定 &#x200B;](/help/components/vrs/vrs-components.md)
+>&#x200B;>[データ要素コンポーネントエントリ &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

@@ -21,7 +21,7 @@ Analytics を使用して、FTP ベースのデータソースを作成および
 
 [!UICONTROL データソースの管理]ウィンドウでは、データソースを検索し、FTP 情報のリンクを選択できます。[!UICONTROL データソースをアクティブにする]ウィンドウの「[!UICONTROL アップロード／FTP 情報]」セクションに、FTP ログイン情報が表示されます。
 
-FTP の制限とデータ保持については、「[FTP の制限とデータ保持 ](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
+FTP の制限とデータ保持については、「[FTP の制限とデータ保持 &#x200B;](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
 
 ## 分類およびデータソースのアップロードに必要な .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
 

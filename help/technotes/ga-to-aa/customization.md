@@ -72,4 +72,4 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 
 ## カスタムアラート
 
-アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、『コンポーネントユーザガイド』の [ アラートの概要 ](/help/components/alerts/alerts-overview.md) を参照してください。
+アラートは、Adobe Analytics と Google Analytics の両方で利用できます。Adobe Analytics では、ヘッダーナビゲーションメニューから&#x200B;*[!UICONTROL コンポーネント]*／*[!UICONTROL アラート]*&#x200B;に移動します。詳しくは、『コンポーネントユーザガイド』の [&#x200B; アラートの概要 &#x200B;](/help/components/alerts/alerts-overview.md) を参照してください。

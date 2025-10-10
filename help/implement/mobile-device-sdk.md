@@ -15,8 +15,8 @@ ht-degree: 37%
 
 モバイルデバイスに Analytics を実装するには、Adobe Experience Platform Mobile SDKを使用します。
 
-* Adobe Analyticsに固有の情報について詳しくは、[Adobe Experience Platform Mobile SDKを使用したAdobe Analyticsの実装 ](aep-edge/mobile-sdk/overview.md) を参照してください。
-* SDK をダウンロードしてインストールするには、[Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/home/) を参照してください。
+* Adobe Analyticsに固有の情報について詳しくは、[Adobe Experience Platform Mobile SDKを使用したAdobe Analyticsの実装 &#x200B;](aep-edge/mobile-sdk/overview.md) を参照してください。
+* SDK をダウンロードしてインストールするには、[Mobile SDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/home/) を参照してください。
 
 ## バージョン 4 モバイル SDK
 

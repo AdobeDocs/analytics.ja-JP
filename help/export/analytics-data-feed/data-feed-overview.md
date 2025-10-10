@@ -31,12 +31,12 @@ ht-degree: 79%
 * [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md)：データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
-* [ データフィードの内容 ](c-df-contents/datafeeds-contents.md)：圧縮ファイル <!-- Is this still the output users can download from the destination? I aske Jun. --> ージ内の内容を理解する
+* [&#x200B; データフィードの内容 &#x200B;](c-df-contents/datafeeds-contents.md)：圧縮ファイル <!-- Is this still the output users can download from the destination? I aske Jun. --> ージ内の内容を理解する
 * [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト.
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィードインターフェイスの操作 ](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィードインターフェイスの操作 &#x200B;](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ データフィード ID を見つける ](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィード ID を見つける &#x200B;](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]

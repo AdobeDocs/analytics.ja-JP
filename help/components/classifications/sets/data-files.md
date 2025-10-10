@@ -16,7 +16,7 @@ ht-degree: 1%
 
 これらの仕様に従ってファイルが適切にフォーマットされたら、分類セットインターフェイスまたは API を使用してアップロードできます。 アップロード手順について詳しくは、以下を参照してください。
 
-* **ブラウザーアップロード**: [ スキーマ ](manage/schema.md) を参照してください
+* **ブラウザーアップロード**: [&#x200B; スキーマ &#x200B;](manage/schema.md) を参照してください
 * **API アップロード**: [Analytics Classifications API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) を参照してください
 
 分類セットは、次のファイル形式をサポートしています。

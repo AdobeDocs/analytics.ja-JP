@@ -20,4 +20,4 @@ ht-degree: 58%
 
 [!UICONTROL リクエストウィザード：ステップ 2] のフォーム上の、[!UICONTROL ピボットレイアウト]または[!UICONTROL カスタムレイアウト]の出力で「**[!UICONTROL 表示（または非表示）]**」をクリックします。
 
-![ 指標ヘッダーの非表示/表示アイコンを示すスクリーンショット。](assets/hide_show_header.png)
+![&#x200B; 指標ヘッダーの非表示/表示アイコンを示すスクリーンショット。](assets/hide_show_header.png)

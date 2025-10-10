@@ -33,7 +33,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _**のメディア分平均オーディエンスパネルに関する情報を提供します**_。<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**メディア分平均オーディエンスパネル** を参照してください。_
+_この記事は、_ AdobeAnalytics![&#x200B; &#x200B;](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _&#x200B;**のメディア分平均オーディエンスパネルに関する情報を提供します**&#x200B;_。<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**メディア分平均オーディエンスパネル** を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -187,8 +187,8 @@ Analysis Workspace では、分平均オーディエンスは次の情報を提�
 >[!MORELIKETHIS]
 >
 > [パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [メディア同時視聴者数パネル](media-concurrent-viewers.md)
-> > [メディア再生滞在時間パネル](media-playback-time-spent.md)
+> &#x200B;> [メディア同時視聴者数パネル](media-concurrent-viewers.md)
+> &#x200B;> [メディア再生滞在時間パネル](media-playback-time-spent.md)
 >
 
 

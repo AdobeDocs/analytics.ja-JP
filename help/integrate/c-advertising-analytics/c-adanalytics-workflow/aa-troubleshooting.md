@@ -12,12 +12,12 @@ ht-degree: 18%
 
 # Advertising Analytics のトラブルシューティング
 
-* [ 「マッピング」セクションにレポートスイートが表示されません ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [&#x200B; 「マッピング」セクションにレポートスイートが表示されません &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Google広告アカウントの認証時にエラーが発生します…](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 「マッピング」セクションにレポートスイートが表示されません。 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-[ 新しいAdvertising アカウントを設定 ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) しようとして、レポートスイートが「**[!UICONTROL マッピングされたレポートスイート]**」ドロップダウンリストに表示されません。 2 つの理由が考えられます。
+[&#x200B; 新しいAdvertising アカウントを設定 &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) しようとして、レポートスイートが「**[!UICONTROL マッピングされたレポートスイート]**」ドロップダウンリストに表示されません。 2 つの理由が考えられます。
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

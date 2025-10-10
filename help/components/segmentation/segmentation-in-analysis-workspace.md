@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 高度な機能
 
-Analysis Workspaceの [ セグメントの標準的な使用 ](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) に加えて、次の特定の機能を使用できます。
+Analysis Workspaceの [&#x200B; セグメントの標準的な使用 &#x200B;](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) に加えて、次の特定の機能を使用できます。
 
 * [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
@@ -20,4 +20,4 @@ Analysis Workspaceの [ セグメントの標準的な使用 ](/help/components/
 
 >[!MORELIKETHIS]
 >
->[ セグメントの使用 ](segmentation-workflow/t-seg-apply.md)
+>[&#x200B; セグメントの使用 &#x200B;](segmentation-workflow/t-seg-apply.md)

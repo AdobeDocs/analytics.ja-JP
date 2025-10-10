@@ -53,32 +53,32 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![&#x200B; フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![ 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューション ](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![&#x200B; 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションパネルの使用 ](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションパネルの使用 &#x200B;](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アトリビューションモデルの並列比較の追加 ](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションモデルの並列比較の追加 &#x200B;](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 ## アトリビューションをサポートしないAdobe Analytics ツール
 
-[ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) など、Analytics 2.0 API をサポートしないすべてのツールは、アトリビューションをサポートしません。
+[&#x200B; 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) など、Analytics 2.0 API をサポートしないすべてのツールは、アトリビューションをサポートしません。

@@ -32,12 +32,12 @@ ht-degree: 4%
 Bulk データ挿入には、以前はフル処理のデータソースでは使用できなかった次の変数が導入されました。
 
 * **`aamlh`**:Adobe Audience Managerの場所のヒント。
-* **`contextData.key`**: [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)。
+* **`contextData.key`**: [&#x200B; コンテキストデータ変数 &#x200B;](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**:Experience Cloud ID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
 * **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) 変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion` および `wow64` が含まれます。
 * **`ipaddress`**：訪問者の IP アドレス。
-* **`language`**: [ 言語 ](/help/components/dimensions/language.md) ディメンション。
-* **`list1`** - **`list3`**: [ リスト変数 ](/help/implement/vars/page-vars/list.md)。
+* **`language`**: [&#x200B; 言語 &#x200B;](/help/components/dimensions/language.md) ディメンション。
+* **`list1`** - **`list3`**: [&#x200B; リスト変数 &#x200B;](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：訪問者のExperience Cloud ID。
 * **`tnta`**: [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja) 統合で使用される Target データペイロード。
 * **`trackingServer`**:[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数。

@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # Analytics 拡張機能を使用した Adobe Analytics の実装
 
-Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeでは、現在、Adobe Experience Platformで [ タグ ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用することをお勧めします。
+Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeでは、現在、Adobe Experience Platformで [&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用することをお勧めします。
 
 Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
@@ -23,7 +23,7 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 
 
-![ この節で説明しているように、Analytics 拡張機能ワークフローを使用してAdobe Analyticsを実装する方法 ](../assets/analytics-extension-annotated.png)
+![&#x200B; この節で説明しているように、Analytics 拡張機能ワークフローを使用してAdobe Analyticsを実装する方法 &#x200B;](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

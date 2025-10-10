@@ -12,7 +12,7 @@ ht-degree: 79%
 
 # 郵便番号
 
-「郵便番号」 [ ディメンション ](overview.md) は、訪問者の郵便番号をレポートします。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [&#x200B; ディメンション &#x200B;](overview.md) は、訪問者の郵便番号をレポートします。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 
@@ -26,7 +26,7 @@ ht-degree: 79%
 地域 zip を含むオプションを使用する場合：
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

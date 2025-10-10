@@ -18,7 +18,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 >[!NOTE]
 >
->下位分類は、分類の分類を作成する機能を指します。 ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[ 分類階層 ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)」を参照してください。
+>下位分類は、分類の分類を作成する機能を指します。 ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[&#x200B; 分類階層 &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)」を参照してください。
 
 次に例を示します。
 

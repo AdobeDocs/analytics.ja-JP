@@ -12,14 +12,14 @@ ht-degree: 73%
 
 # 市区町村
 
-「市区町村 [ ディメンション ](overview.md) は、ヒットの元となった市区町村をレポートします。 このディメンションは、サイトの訪問時に最も人気のある訪問者の出所を判断するのに役立ちます。このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
+「市区町村 [&#x200B; ディメンション &#x200B;](overview.md) は、ヒットの元となった市区町村をレポートします。 このディメンションは、サイトの訪問時に最も人気のある訪問者の出所を判断するのに役立ちます。このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは、[Digital Element](https://www.digitalelement.com/) と提携して、IP アドレスと市区町村の検索を管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

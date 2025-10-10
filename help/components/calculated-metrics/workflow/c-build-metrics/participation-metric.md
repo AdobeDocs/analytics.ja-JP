@@ -17,13 +17,13 @@ ht-degree: 2%
 
 次の手順では、パーティシペーション指標の作成方法を示します。
 
-1. [ 計算指標を作成 ](../cm-workflow.md) し、[ 計算指標ビルダー ](cm-build-metrics.md) で、指標に `Orders (Visit Participation)` などの名前を付けます。
-1. 成功イベントを含む指標（例：[!DNL Online Orders]）を [!UICONTROL **[!UICONTROL  定義 ]**] 領域にドラッグします。
-1. 指標の ![ 歯車 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) を選択します。
-1. 表示されるポップアップで、**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]** を選択して [ パーティシペーション ](m-metric-type-alloc.md#attribution-models) に対するそのイベントの **[!UICONTROL アトリビューションモデル]** を定義し、**[!UICONTROL コンテナ]** に対して [!UICONTROL  訪問 ] を選択します。 「**[!UICONTROL 適用]**」を選択して確定します。
+1. [&#x200B; 計算指標を作成 &#x200B;](../cm-workflow.md) し、[&#x200B; 計算指標ビルダー &#x200B;](cm-build-metrics.md) で、指標に `Orders (Visit Participation)` などの名前を付けます。
+1. 成功イベントを含む指標（例：[!DNL Online Orders]）を [!UICONTROL **[!UICONTROL &#x200B; 定義 &#x200B;]**] 領域にドラッグします。
+1. 指標の ![&#x200B; 歯車 &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) を選択します。
+1. 表示されるポップアップで、**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]** を選択して [&#x200B; パーティシペーション &#x200B;](m-metric-type-alloc.md#attribution-models) に対するそのイベントの **[!UICONTROL アトリビューションモデル]** を定義し、**[!UICONTROL コンテナ]** に対して [!UICONTROL &#x200B; 訪問 &#x200B;] を選択します。 「**[!UICONTROL 適用]**」を選択して確定します。
 
 
-   ![ モデルとしてパーティシペーションが選択され、コンテナに対して訪問が選択されていることを示す列アトリビューションモデルのポップアップ ](assets/participation-setup.png)
+   ![&#x200B; モデルとしてパーティシペーションが選択され、コンテナに対して訪問が選択されていることを示す列アトリビューションモデルのポップアップ &#x200B;](assets/participation-setup.png)
 
    **（分割|訪問回数|30 日間）** 指標コンポーネント名に追加されます。
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 1. 「[!UICONTROL **保存**]」を選択して、指標を保存します。
 1. レポートで計算指標を使用します。 例えば、レポート内の計算 [!DNL Orders (Session Participation)] 指標を使用して、どの顧客層が注文を含むセッションに貢献（または参加）したかを示します。
 
-   ![ 顧客の階層と注文を示すフリーフォームテーブル。](assets/participation-pages-customer-tier.png)
+   ![&#x200B; 顧客の階層と注文を示すフリーフォームテーブル。](assets/participation-pages-customer-tier.png)
 
 
 <!--

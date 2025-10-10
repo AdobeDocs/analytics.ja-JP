@@ -14,22 +14,22 @@ ht-degree: 50%
 
 # 読み取り専用プロジェクト
 
-[ 共有機能 ](share-projects.md) を使用して、受信者に読み取り専用としてプロジェクトを共有できます。 **[!UICONTROL 読み取り専用]** の役割に配置された受信者には、プロジェクトエクスペリエンスが制限されます。
+[&#x200B; 共有機能 &#x200B;](share-projects.md) を使用して、受信者に読み取り専用としてプロジェクトを共有できます。 **[!UICONTROL 読み取り専用]** の役割に配置された受信者には、プロジェクトエクスペリエンスが制限されます。
 
 組織のデータ構造、Analysis Workspace または Adobe Analytics 全般に慣れていないユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用してもらいたい場合には、この方法が適しているかもしれません。
 
-![ 読み取り専用として共有 ](assets/read-only-project-sender.png)
+![&#x200B; 読み取り専用として共有 &#x200B;](assets/read-only-project-sender.png)
 
 読み取り専用受信者に対するインタラクションは制限されています。
 
-![ 読み取り専用受信済みとして共有 ](assets/read-only-project-receiver.png)
+![&#x200B; 読み取り専用受信済みとして共有 &#x200B;](assets/read-only-project-receiver.png)
 
 ## 無効な操作
 
 表示のみのプロジェクトで無効になる操作には、次のものが含まれます。
 
 * 非表示の左パネル
-* パネルカレンダーの日付範囲メモ：受信者にカレンダーコントロールを付与する場合は、[ 日付範囲を含むドロップダウンセグメント ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja) にを追加します。
+* パネルカレンダーの日付範囲メモ：受信者にカレンダーコントロールを付与する場合は、[&#x200B; 日付範囲を含むドロップダウンセグメント &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja) にを追加します。
 * フリーフォームセグメント化
 * 表示可能な行のフリーフォーム数
 * フリーフォーム行、列またはビジュアライゼーションの設定
@@ -51,6 +51,6 @@ ht-degree: 50%
 
 ## すべてのユーザーとエクスペリエンスを共有
 
-[ 任意のユーザーと共有 ](share-projects.md#share-a-project-with-anyone-no-login-required) を使用してプロジェクトを選択した場合、リンクの受信者は、プロジェクトを表示するだけで、プロジェクトを操作することはできません。
+[&#x200B; 任意のユーザーと共有 &#x200B;](share-projects.md#share-a-project-with-anyone-no-login-required) を使用してプロジェクトを選択した場合、リンクの受信者は、プロジェクトを表示するだけで、プロジェクトを操作することはできません。
 
-![ 任意のユーザーと共有 ](assets/share-with-anyone-receiver.png)
+![&#x200B; 任意のユーザーと共有 &#x200B;](assets/share-with-anyone-receiver.png)

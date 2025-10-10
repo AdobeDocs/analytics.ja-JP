@@ -71,7 +71,7 @@ ht-degree: 85%
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、『管理者ユーザーガイド』の [ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。詳しくは、『管理者ユーザーガイド』の [&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。
 
 ## バージョン 2.22.1
 
@@ -424,7 +424,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
   >[!IMPORTANT]
   >
-  >[!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[ を解決するメソッド）の代わりに POST メソッドを使用する ](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
+  >[!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[&#x200B; を解決するメソッド）の代わりに POST メソッドを使用する &#x200B;](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 

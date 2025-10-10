@@ -12,22 +12,22 @@ ht-degree: 29%
 
 # セグメントリストのフィルタリング
 
-セグメントのリストをフィルタリングできます。 セグメントにフィルターを使用すると、使用可能なセグメントを簡単に見つけたり、[ セグメントマネージャー ](seg-manage.md) からセグメントを管理したりできます。
+セグメントのリストをフィルタリングできます。 セグメントにフィルターを使用すると、使用可能なセグメントを簡単に見つけたり、[&#x200B; セグメントマネージャー &#x200B;](seg-manage.md) からセグメントを管理したりできます。
 
 >[!NOTE]
 >
->セグメントのリストでは、[ セグメントマネージャー ](seg-manage.md#filters-list) の一部として [ セグメントリスト ](seg-manage.md) を参照しています。 ![ フィルター ](/help/assets/icons/Filter.svg)[ フィルターパネル ](seg-manage.md#filter-panel) を使用して、そのリストをフィルタリングできます。これは、同じ [ セグメントマネージャー ](seg-manage.md) の一部です。
+>セグメントのリストでは、[&#x200B; セグメントマネージャー &#x200B;](seg-manage.md#filters-list) の一部として [&#x200B; セグメントリスト &#x200B;](seg-manage.md) を参照しています。 ![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg) [&#x200B; フィルターパネル &#x200B;](seg-manage.md#filter-panel) を使用して、そのリストをフィルタリングできます。これは、同じ [&#x200B; セグメントマネージャー &#x200B;](seg-manage.md) の一部です。
 >
 
 
 セグメントのリストをフィルタリングするには：
 
 1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
-1. 使用可能ないずれかの [ フィルターセクション ](#filter-sections) からフィルターを選択します。
+1. 使用可能ないずれかの [&#x200B; フィルターセクション &#x200B;](#filter-sections) からフィルターを選択します。
 
    >[!INFO]
    >
-   >*項目* [ フィルターリスト ](seg-manage.md#segment-list) に表示されるフィルター項目を参照します。
+   >*項目* [&#x200B; フィルターリスト &#x200B;](seg-manage.md#segment-list) に表示されるフィルター項目を参照します。
    > 
 
 ## フィルターセクション
@@ -51,4 +51,4 @@ ht-degree: 29%
 {{otherfiltersfiltersection}}
 
 
-[ フィルターリスト ](seg-manage.md#segment-list) は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](seg-manage.md#active-filter-bar)で確認できます。
+[&#x200B; フィルターリスト &#x200B;](seg-manage.md#segment-list) は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](seg-manage.md#active-filter-bar)で確認できます。

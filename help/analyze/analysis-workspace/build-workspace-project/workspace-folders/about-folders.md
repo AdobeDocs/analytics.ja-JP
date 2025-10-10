@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Workspace のフォルダーを使用すると、プロジェクトの整理および分類に役立ちます。フォルダー機能を使用すると、フォルダーやサブフォルダーを作成してプロジェクトを管理できます。
 
-Adobe Analyticsのフォルダーは、「フォルダーとプロジェクトを表示 [ を選択すると、Workspace ランディングページで使用でき ](../freeform-overview.md#show-selector) す。
+Adobe Analyticsのフォルダーは、「フォルダーとプロジェクトを表示 [&#x200B; を選択すると、Workspace ランディングページで使用でき &#x200B;](../freeform-overview.md#show-selector) す。
 
 Workspace には、会社フォルダーと個人用フォルダーの 2 種類のフォルダーがあります。共有された会社フォルダーを使用すると、管理者は、コンテンツを作成してすべての Workspace ユーザーと共有できます。
 

@@ -12,14 +12,14 @@ ht-degree: 64%
 
 # 米国 DMA
 
-「米国 DMA[ ディメンション ](overview.md) は、訪問者の指定市場領域（DMA）を報告します。 これは、[Nielsen 社](https://www.nielsen.com/dma-regions/)がまとめたメディア市場に基づいています。
+「米国 DMA[&#x200B; ディメンション &#x200B;](overview.md) は、訪問者の指定市場領域（DMA）を報告します。 これは、[Nielsen 社](https://www.nielsen.com/dma-regions/)がまとめたメディア市場に基づいています。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは Nielsen と提携して、IP アドレスと DMA の間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

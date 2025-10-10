@@ -14,7 +14,7 @@ ht-degree: 20%
 
 関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
 
-すべての関数の一覧については、[ 基本関数 ](/help/components/calculated-metrics/cm-reference/cm-functions.md) および [ 高度な関数 ](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md) を参照してください。
+すべての関数の一覧については、[&#x200B; 基本関数 &#x200B;](/help/components/calculated-metrics/cm-reference/cm-functions.md) および [&#x200B; 高度な関数 &#x200B;](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md) を参照してください。
 
 >[!NOTE]
 >

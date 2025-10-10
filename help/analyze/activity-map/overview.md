@@ -17,19 +17,19 @@ Adobe Analytics Activity Map は、Adobe Analytics 内の機能で、web ペー�
 
 Activity Map as a の概念は、次のいくつかの重要なコンポーネントで構成されています。
 
-* **レポートスイートの設定**：レポートスイートを使用するには、事前にActivity Mapを有効にする必要があります。 レポートスイートの設定で [0}Activity Map レポート } を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
+* **レポートスイートの設定**：レポートスイートを使用するには、事前にActivity Mapを有効にする必要があります。 レポートスイートの設定で [0&rbrace;Activity Map レポート &rbrace; を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
 * **実装**：ほとんどのActivity Map レポートは、すぐに使用できます。 ただし、リンクトラッキングを最大限に活用するために、追加の実装が必要な web サイトもあります。 次の実装変数を使用できます。
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：クリックデータをリンク名でフィルタリングします。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：地域名でクリックデータをフィルタリングします。
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): 「Activity Map リージョン」ディメンションを移入する属性を変更します。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md):Activity Map リンクディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md):Activity Map地域ディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
-* **オーバーレイ**:web サイト上にオーバーレイされたクリックデータを表示できるブラウザー拡張機能。 詳しくは、[Activity Map拡張機能インターフェイス ](overlay/overview.md) を参照してください。
+* **オーバーレイ**:web サイト上にオーバーレイされたクリックデータを表示できるブラウザー拡張機能。 詳しくは、[Activity Map拡張機能インターフェイス &#x200B;](overlay/overview.md) を参照してください。
 * **寸法**：オーバーレイ拡張機能に加えて、Activity MapにはAnalysis Workspaceで使用できる寸法がいくつか用意されています。
-   * [Activity Map リンク ](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
-   * [Activity Map地域 ](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
-   * [Activity Mapページ ](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
-   * [Activity Map リンク （リージョン別） ](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
+   * [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
+   * [Activity Map地域 &#x200B;](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
+   * [Activity Mapページ &#x200B;](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
+   * [Activity Map リンク （リージョン別） &#x200B;](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
 
 ## 機能とメリット
 

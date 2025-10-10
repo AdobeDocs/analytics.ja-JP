@@ -16,7 +16,7 @@ ht-degree: 97%
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／［目的の分類セット名］／**[!UICONTROL 設定]**&#x200B;を選択します。
 
-![ 分類セット設定 ](../../assets/classification-set-settings.png)
+![&#x200B; 分類セット設定 &#x200B;](../../assets/classification-set-settings.png)
 
 このタブでは、次のフィールドを使用できます。
 

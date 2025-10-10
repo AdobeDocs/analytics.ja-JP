@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 訪問定義の調整 ](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 訪問定義の調整 &#x200B;](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -65,9 +65,9 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-仮想レポートスイートのキュレーションについて詳しくは、「[ 仮想レポートスイートコンポーネントのキュレーション ](/help/components/vrs/vrs-components.md)」を参照してください。
+仮想レポートスイートのキュレーションについて詳しくは、「[&#x200B; 仮想レポートスイートコンポーネントのキュレーション &#x200B;](/help/components/vrs/vrs-components.md)」を参照してください。
 
-1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を [!UICONTROL  含まれるコンポーネント ] セクションにドラッグします。
+1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を [!UICONTROL &#x200B; 含まれるコンポーネント &#x200B;] セクションにドラッグします。
 
 1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 

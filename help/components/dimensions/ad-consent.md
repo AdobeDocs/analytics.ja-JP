@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 広告プラットフォームの同意
 
-「Ad Platform の同意 [ ディメンション ](overview.md) には、GoogleやMetaなどのサードパーティの広告プロバイダーにデータを送信するために同意が収集されるかどうかが表示されます。
+「Ad Platform の同意 [&#x200B; ディメンション &#x200B;](overview.md) には、GoogleやMetaなどのサードパーティの広告プロバイダーにデータを送信するために同意が収集されるかどうかが表示されます。
 
 現在、このディメンションは、Googleでのみ使用されています。 欧州のプライバシー規制であるデジタル市場法（DMA）により、Googleは、自社のサーバーに送信され、欧州で収集されるデータには、同意が収集されるかどうかを示す必要があることを求めています。 一部の Analytics のお客様は、イベントデータをコンバージョンイベントとしてAdobe Advertisingを介してGoogleに送信しています。
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、次の [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md) からデータを収集します
+このディメンションは、次の [&#x200B; コンテキストデータ変数 &#x200B;](/help/implement/vars/page-vars/contextdata.md) からデータを収集します
 
 * `contextData.['adConsent']`
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 * `ad_user_data` （最初の文字）と
 * `ad_personalization` （2 番目の文字）。
 
-詳しくは、[Google Ads API リファレンスの同意 ](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) を参照してください。
+詳しくは、[Google Ads API リファレンスの同意 &#x200B;](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) を参照してください。
 
 これらの各フィールドに指定可能な値は次のとおりです。
 
@@ -51,11 +51,11 @@ contextData.['adConsent'] = "YN..."
 
 収集された広告同意データを使用できます。
 
-* データフィード：広告の同意データは、`dataprivacydmaconsent` [ 列 ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を使用して利用できます。
+* データフィード：広告の同意データは、`dataprivacydmaconsent` [&#x200B; 列 &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を使用して利用できます。
 * Data Warehouse レポート：広告の同意データは、**[!UICONTROL Ad Platform の同意]** ディメンションを使用して利用できます。
 
 このコンテキストデータ変数を実装するためのロジックは、組織が決定します。 値は、設定されたヒットを超えて保持されないので、各ページでコンテキストデータ変数を設定する必要があります。
 
 広告データをAdobe AnalyticsからAdobe Advertisingを介してコンバージョンイベントとしてGoogleに送信する場合は、Adobe Advertising チームに相談して統合を支援してください。
 
-詳しくは、[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。
+詳しくは、[&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) を参照してください。

@@ -31,7 +31,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 この変数に関数を割り当てます。
 
 * クリックされたHTML要素を受け取り、
-* 文字列値を返します。 この文字列値は、[Activity Map地域 ](/help/components/dimensions/activity-map-region.md) ディメンションで使用される最後の値です。
+* 文字列値を返します。 この文字列値は、[Activity Map地域 &#x200B;](/help/components/dimensions/activity-map-region.md) ディメンションで使用される最後の値です。
 
 戻り値が [falsy](https://developer.mozilla.org/ja-JP/docs/Glossary/Falsy) の場合、Activity Mapのコンテキストデータ変数はすべてクリアされ、リンクデータはトラッキングされません。
 

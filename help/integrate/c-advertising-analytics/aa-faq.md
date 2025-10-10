@@ -68,7 +68,7 @@ Advertising AnalyticsはAdobe Analytics管理者のみが使用できますが�
 
 +++ Advertising Analyticsへのアクセス方法
 
-Adobe Analyticsにログインした後、[!UICONTROL  管理者 ] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
+Adobe Analyticsにログインした後、[!UICONTROL &#x200B; 管理者 &#x200B;] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
 
 +++
 
@@ -105,7 +105,7 @@ Advertising Analyticsは、一連のカスタム API を利用して、Adobe Adv
 
 +++ Advertising Analytics アカウントを特定のレポートスイートにマッピングしようとしていますが、レポートスイートモーダルでは使用できません。 なぜですか？ 
 
-レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートを [Advertising Analytics レポート用にプロビジョニング ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) する必要があります
+レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートを [Advertising Analytics レポート用にプロビジョニング &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) する必要があります
 これは、管理者/レポートスイート/`[select report suite]` 定/設定を編集/Advertising Analytics設定からアクセスできる別の管理者ページを通じて行います。
 
 +++

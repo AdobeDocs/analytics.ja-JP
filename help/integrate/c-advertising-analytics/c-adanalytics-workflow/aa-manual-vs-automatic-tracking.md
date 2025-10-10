@@ -22,11 +22,11 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-[!UICONTROL  自動 ] と [!UICONTROL  手動 ] の 2 つのトラッキングモードがサポートされています。
+[!UICONTROL &#x200B; 自動 &#x200B;] と [!UICONTROL &#x200B; 手動 &#x200B;] の 2 つのトラッキングモードがサポートされています。
 
-## [!UICONTROL  自動 ] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL &#x200B; 自動 &#x200B;] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL  自動 ] トラッキング機能を使用すると、Advertising Cloud エンジンは、検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
+[!UICONTROL &#x200B; 自動 &#x200B;] トラッキング機能を使用すると、Advertising Cloud エンジンは、検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
 
 そのため、アカウント設定を保存する前に、「**[!UICONTROL 自動]**」を選択する際に確認チェックボックスをオンにする必要があります。
 
@@ -49,7 +49,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL  トラッキング ]」セクションのアカウント画面から取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -98,7 +98,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -106,7 +106,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![ トラッキングコードパラメーターの追加 ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![&#x200B; トラッキングコードパラメーターの追加 &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL 形式によるトラッキングコードの例：
 

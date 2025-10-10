@@ -20,9 +20,9 @@ ht-degree: 94%
 
 リアルタイムレポート設定ページにアクセスするには（管理者権限が必要です）：
 
-1. Adobe Analytics上部のナビゲーションバーで **[!UICONTROL 0}Workspace} をクリックします。]**
+1. Adobe Analytics上部のナビゲーションバーで **[!UICONTROL 0&rbrace;Workspace&rbrace; をクリックします。]**
 1. 左側のナビゲーションバーから **[!UICONTROL レポート]** を選択します。
-1. 「**[!UICONTROL Enagement]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Real-Time]**」を選択します。 また、リアルタイムで ![ 検索 ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 検索することもできます。
+1. 「**[!UICONTROL Enagement]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Real-Time]**」を選択します。 また、リアルタイムで ![&#x200B; 検索 &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 検索することもできます。
 1. レポートスイートでリアルタイムが有効になっていない場合は、レポートスイートを設定するためのリンクを含むメッセージが表示されます。
 
 アドビでは、最大 3 つのリアルタイムレポートで同時にデータを収集できます。リアルタイムでのデータ収集を開始する前に、各レポートを設定する必要があります。

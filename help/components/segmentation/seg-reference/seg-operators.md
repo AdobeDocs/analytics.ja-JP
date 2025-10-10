@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # セグメントの比較演算子
 
-セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。 演算子には、[ 標準 ](#standard-operators)、[Data Warehouse](#data-warehouse-operators)、[ 個別カウント ](#distinct-count-operators) の 3 つのカテゴリがあります。
+セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。 演算子には、[&#x200B; 標準 &#x200B;](#standard-operators)、[Data Warehouse](#data-warehouse-operators)、[&#x200B; 個別カウント &#x200B;](#distinct-count-operators) の 3 つのカテゴリがあります。
 
 選択する演算子に応じて、次の操作を行います。
 
@@ -22,7 +22,7 @@ ht-degree: 45%
 
 **[!UICONTROL equals]** などの使用可能な値を検証する演算子の値を入力したときに、その値がコンポーネントで使用可能な値と一致しない場合は、![AlertRed](/help/assets/icons/AlertRed.svg) アイコンが表示されます。 ドロップダウンメニューから値を選択するか、**[!UICONTROL _Enter_]** キーを押して値を入力できます。
 
-![ セグメントが次に等しい ](assets/segment-operator-equals.png)
+![&#x200B; セグメントが次に等しい &#x200B;](assets/segment-operator-equals.png)
 
 ## ワイルドカード
 
@@ -30,8 +30,8 @@ ht-degree: 45%
 
 例えば、「My cool product *というページ名があ* とします。
 
-* セグメントルール **[!UICONTROL ページ名]****[!UICONTROL matches]** は `* product` 上記のページ名と一致します。
-* ただし、ルール **[!UICONTROL ページ名]****[!UICONTROL matches]** は `My \* product` ページ名 *My * Product* にのみ一致します。
+* セグメントルール **[!UICONTROL ページ名]**&#x200B;**[!UICONTROL matches]** は `* product` 上記のページ名と一致します。
+* ただし、ルール **[!UICONTROL ページ名]**&#x200B;**[!UICONTROL matches]** は `My \* product` ページ名 *My * Product* にのみ一致します。
 
 ## 標準演算子
 
@@ -51,8 +51,8 @@ ht-degree: 45%
 | **[!UICONTROL 次の語句で始まらない]** | 入力された文字列値で始まらない項目をすべて返します。 これは、**[!UICONTROL 次で始まる]** 演算子の逆です。 |
 | **[!UICONTROL 次の語句で終わる]** | 文字列値が入力された状態で終了する項目を返します。 |
 | **[!UICONTROL 次の語句で終わらない]** | 入力された文字列値で終わらない項目をすべて返します。 これは、**[!UICONTROL 次で終わる]** 演算子の逆です。 |
-| **[!UICONTROL 一致する]** | 指定された数字または文字列の値に基づいて完全に一致する項目を返します。Adobe AnalyticsおよびCustomer Journey Analyticsの **[!UICONTROL matches]** 句では大文字と小文字が区別されます。 **メモ**:[ ワイルドカード ](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用してください。 「グロビング」の例：<ul><li>`a*e` は、`ae`、`abcde`、`adobe`、`a whole sentence` と一致します。</li><li>`adob*` は、`adobe`、`adobe analytics`、 `adobo recipe` と一致します。</li><li>`*dobe` は、`dobe`、`adobe`、`cute little dobe` と一致します。</li></ul> |
-| **[!UICONTROL 一致しない]** | 入力された値の完全一致を含まない項目をすべて返します。メモ：[ ワイルドカード ](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用してください。 |
+| **[!UICONTROL 一致する]** | 指定された数字または文字列の値に基づいて完全に一致する項目を返します。Adobe AnalyticsおよびCustomer Journey Analyticsの **[!UICONTROL matches]** 句では大文字と小文字が区別されます。 **メモ**:[&#x200B; ワイルドカード &#x200B;](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用してください。 「グロビング」の例：<ul><li>`a*e` は、`ae`、`abcde`、`adobe`、`a whole sentence` と一致します。</li><li>`adob*` は、`adobe`、`adobe analytics`、 `adobo recipe` と一致します。</li><li>`*dobe` は、`dobe`、`adobe`、`cute little dobe` と一致します。</li></ul> |
+| **[!UICONTROL 一致しない]** | 入力された値の完全一致を含まない項目をすべて返します。メモ：[&#x200B; ワイルドカード &#x200B;](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用してください。 |
 | **[!UICONTROL 存在する]** | 存在する項目の数を返します。例えば、**[!UICONTROL exist]** 演算子を使用して **[!UICONTROL Pages Not Found]** ディメンションを評価した場合、存在するエラーページの数が返されます。 |
 | **[!UICONTROL 存在しない]** | 存在しないすべての項目を返します。例えば、「**[!UICONTROL 存在しない]**」演算子を使用して「**[!UICONTROL ページが見つかりません]**」ディメンションを評価すると、このエラーページが存在しなかったページの数が返されます。 |
 
@@ -81,6 +81,6 @@ ht-degree: 45%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Distinct dimension counts](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]

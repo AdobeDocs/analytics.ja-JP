@@ -27,8 +27,8 @@ ht-degree: 10%
 
 | 属性 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
-| **ページ URL** | 読み取り+書き込み | 「[ ページ URL](/help/components/dimensions/page-url.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページ URL の値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
-| **ページ名** | 読み取り+書き込み | 「[ ページ ](/help/components/dimensions/page.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページの値を再挿入した場合、このヒットは [ ページイベント ](/help/components/metrics/page-views.md) ではなく [ ページビュー ](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
+| **ページ URL** | 読み取り+書き込み | 「[&#x200B; ページ URL](/help/components/dimensions/page-url.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページ URL の値を再挿入した場合、このヒットは [&#x200B; ページイベント &#x200B;](/help/components/metrics/page-views.md) ではなく [&#x200B; ページビュー &#x200B;](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
+| **ページ名** | 読み取り+書き込み | 「[&#x200B; ページ &#x200B;](/help/components/dimensions/page.md)」ディメンション。 リンクトラッキングヒットは、処理ルールに到達する前にこのディメンションを削除します。 処理ルールを使用してページの値を再挿入した場合、このヒットは [&#x200B; ページイベント &#x200B;](/help/components/metrics/page-views.md) ではなく [&#x200B; ページビュー &#x200B;](/help/components/metrics/page-events.md) と見なされます。 Adobeでは、ページディメンションを変更する前に、そのディメンションの値を確認することをお勧めします。 |
 | **レポートスイート ID** | 読み取り専用 | 処理ルールが実行されるレポートスイート。 VISTA ルールを使用する場合など、AppMeasurementを通じて最初に送信されたレポートスイートとは異なる場合があります。 |
 | **AppMeasurement コードのバージョン** | 読み取り専用 | イメージリクエストの生成に使用されるAppMeasurement ライブラリのバージョン。 |
 | **IP アドレス** | 読み取り専用 | 訪問者の IP アドレス。 |
@@ -50,10 +50,10 @@ ht-degree: 10%
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
 | **eVar 1-250** | 読み取り+書き込み | [eVar](/help/components/dimensions/evar.md) ディメンション。 |
-| **Campaign** | 読み取り+書き込み | 「[ トラッキングコード ](/help/components/dimensions/tracking-code.md)」ディメンション。 |
+| **Campaign** | 読み取り+書き込み | 「[&#x200B; トラッキングコード &#x200B;](/help/components/dimensions/tracking-code.md)」ディメンション。 |
 | **購入 ID** | 読み取り+書き込み | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 実装変数。 |
 | **都道府県** | 読み取り+書き込み | （廃止） [`state`](/help/implement/vars/page-vars/state.md) 実装変数。 |
-| **郵便番号** | 読み取り+書き込み | 「[ 郵便番号 ](/help/components/dimensions/zip-code.md)」ディメンション。 |
+| **郵便番号** | 読み取り+書き込み | 「[&#x200B; 郵便番号 &#x200B;](/help/components/dimensions/zip-code.md)」ディメンション。 |
 | **通貨コード** | 読み取り+書き込み | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 実装変数。 重要：この変数を無効な値に設定すると、ヒットは破棄されます。 |
 | **トランザクション ID** | 読み取り+書き込み | [`transactionID`](/help/import/data-sources/transactionid.md) 実装変数。 |
 
@@ -65,13 +65,13 @@ ht-degree: 10%
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
 | **Prop 1-75** | 読み取り+書き込み | [Prop](/help/components/dimensions/prop.md) ディメンション。 |
-| **階層 1～5** | 読み取り+書き込み | （廃止） [ 階層 ](/help/components/dimensions/hierarchy.md) ディメンション。 |
+| **階層 1～5** | 読み取り+書き込み | （廃止） [&#x200B; 階層 &#x200B;](/help/components/dimensions/hierarchy.md) ディメンション。 |
 | **サーバー** | 読み取り+書き込み | 「[サーバー](/help/components/dimensions/server.md)」ディメンション。 |
-| **チャネル** | 読み取り+書き込み | [ サイトセクション ](/help/components/dimensions/site-section.md) ディメンション。 |
+| **チャネル** | 読み取り+書き込み | [&#x200B; サイトセクション &#x200B;](/help/components/dimensions/site-section.md) ディメンション。 |
 
 ## コンテキスト変数
 
-このレポートスイートが過去 30 日間に表示したすべての [ コンテキストデータ変数 ](/help/implement/vars/page-vars/contextdata.md)。 使用例については、[ 処理ルールの使用例 ](pr-use-cases.md) を参照してください。
+このレポートスイートが過去 30 日間に表示したすべての [&#x200B; コンテキストデータ変数 &#x200B;](/help/implement/vars/page-vars/contextdata.md)。 使用例については、[&#x200B; 処理ルールの使用例 &#x200B;](pr-use-cases.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -83,11 +83,11 @@ ht-degree: 10%
 
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
-| **注文件数** | 書き込みのみ | [ 注文 ](/help/components/metrics/orders.md) 指標。 |
-| **買い物かご** | 書き込みのみ | [ 買い物かご ](/help/components/metrics/carts.md) 指標。 |
-| **買い物かご表示** | 書き込みのみ | [ 買い物かご表示 ](/help/components/metrics/cart-views.md) 指標。 |
-| **チェックアウト** | 書き込みのみ | 「[ チェックアウト ](/help/components/metrics/checkouts.md)」指標。 |
-| **買い物かごへの追加** | 書き込みのみ | [ 買い物かごへの追加 ](/help/components/metrics/cart-additions.md) 指標。 |
-| **買い物かごからの削除** | 書き込みのみ | 「[ 買い物かごからの削除 ](/help/components/metrics/cart-removals.md) 指標。 |
-| **イベント 1～1000** | 書き込みのみ | [ カスタムイベント ](/help/components/metrics/custom-events.md)。 |
-| **製品表示** | 書き込みのみ | [ 製品表示 ](/help/components/metrics/product-views.md) 指標。 |
+| **注文件数** | 書き込みのみ | [&#x200B; 注文 &#x200B;](/help/components/metrics/orders.md) 指標。 |
+| **買い物かご** | 書き込みのみ | [&#x200B; 買い物かご &#x200B;](/help/components/metrics/carts.md) 指標。 |
+| **買い物かご表示** | 書き込みのみ | [&#x200B; 買い物かご表示 &#x200B;](/help/components/metrics/cart-views.md) 指標。 |
+| **チェックアウト** | 書き込みのみ | 「[&#x200B; チェックアウト &#x200B;](/help/components/metrics/checkouts.md)」指標。 |
+| **買い物かごへの追加** | 書き込みのみ | [&#x200B; 買い物かごへの追加 &#x200B;](/help/components/metrics/cart-additions.md) 指標。 |
+| **買い物かごからの削除** | 書き込みのみ | 「[&#x200B; 買い物かごからの削除 &#x200B;](/help/components/metrics/cart-removals.md) 指標。 |
+| **イベント 1～1000** | 書き込みのみ | [&#x200B; カスタムイベント &#x200B;](/help/components/metrics/custom-events.md)。 |
+| **製品表示** | 書き込みのみ | [&#x200B; 製品表示 &#x200B;](/help/components/metrics/product-views.md) 指標。 |

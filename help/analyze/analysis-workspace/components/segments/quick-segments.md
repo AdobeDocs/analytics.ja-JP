@@ -24,14 +24,14 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ クイックセグメント ](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイックセグメント &#x200B;](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[ クイックセグメントの作成 ](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
+>[&#x200B; クイックセグメントの作成 &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--

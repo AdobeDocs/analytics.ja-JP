@@ -14,7 +14,7 @@ ht-degree: 89%
 
 {{classification-rulebuilder-deprecation}}
 
-*このページでは、[ 分類ルールビルダー ](classification-rule-builder.md) の一部としての分類ルールセットについて説明します。 Adobe Analytics内のデータを分類する現在の方法については、[ 分類セット ](../sets/overview.md) を参照してください。*
+*このページでは、[&#x200B; 分類ルールビルダー &#x200B;](classification-rule-builder.md) の一部としての分類ルールセットについて説明します。 Adobe Analytics内のデータを分類する現在の方法については、[&#x200B; 分類セット &#x200B;](../sets/overview.md) を参照してください。*
 
 ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
 
@@ -78,6 +78,6 @@ ht-degree: 89%
 
    レポートスイートと変数リストには、ログインしている会社のすべてのレポートスイートで利用できるすべての分類された変数が入力されます。レポートスイート内の 1 つの変数が所属することのできるルールセットは、1 つのみです。
 
-   詳しくは、*`Variable`* 分類ルールビルダー [ ページの定義の ](/help/components/classifications/crb/classification-rule-definitions.md) を参照してください。
+   詳しくは、*`Variable`* 分類ルールビルダー [&#x200B; ページの定義の &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) を参照してください。
 1. 使用するレポートスイートおよび変数を指定して、「**[!UICONTROL 保存]**」をクリックします。
 1. 引き続き、[分類ルールの追加](/help/components/classifications/crb/classification-rule-set.md)をおこないます。

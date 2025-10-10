@@ -13,9 +13,9 @@ ht-degree: 16%
 
 この実装パスには、Adobe Experience Platform Data Collection のタグを使用した新しい web SDKのインストールが含まれます。 その他の実装パスについては、次の別のページで説明しています。
 
-* [Web SDK JavaScript ライブラリ ](web-sdk-javascript-library.md):Web SDK JavaScript ライブラリ（`alloy.js`）を使用した新規の Web SDK インストール。 Web SDKのタグ拡張機能のアプローチ（このページ）と似ていますが、タグ UI を使用する代わりに自分で実装を管理する点が異なります。 これには、XDM スキーマに含める一般的な Analytics 変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
-* [Analytics 拡張機能を web SDK拡張機能に ](analytics-extension-to-web-sdk.md):Adobe Analytics タグ拡張機能から Web SDK タグ拡張機能にスムーズかつ系統的なアプローチで移行します。 このアプローチにより、Customer Journey AnalyticsなどのAdobe Experience Platform サービスを使用する準備が整うまで XDM を使用する必要がなくなります。 データをAdobeに送信するには、`data` オブジェクトの代わりに `xdm` オブジェクトを使用します。
-* [AppMeasurementから Web SDK JavaScript ライブラリへ ](appmeasurement-to-web-sdk.md): タグを使用しない点を除き、Web SDKへの移行をスムーズかつ計画的に行います。 代わりに、手動でAdobe Analytics データ収集ライブラリ（`AppMeasurement.js`）を削除し、web SDK JavaScript ライブラリ（`alloy.js`）に置き換えます。
+* [Web SDK JavaScript ライブラリ &#x200B;](web-sdk-javascript-library.md):Web SDK JavaScript ライブラリ（`alloy.js`）を使用した新規の Web SDK インストール。 Web SDKのタグ拡張機能のアプローチ（このページ）と似ていますが、タグ UI を使用する代わりに自分で実装を管理する点が異なります。 これには、XDM スキーマに含める一般的な Analytics 変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
+* [Analytics 拡張機能を web SDK拡張機能に &#x200B;](analytics-extension-to-web-sdk.md):Adobe Analytics タグ拡張機能から Web SDK タグ拡張機能にスムーズかつ系統的なアプローチで移行します。 このアプローチにより、Customer Journey AnalyticsなどのAdobe Experience Platform サービスを使用する準備が整うまで XDM を使用する必要がなくなります。 データをAdobeに送信するには、`data` オブジェクトの代わりに `xdm` オブジェクトを使用します。
+* [AppMeasurementから Web SDK JavaScript ライブラリへ &#x200B;](appmeasurement-to-web-sdk.md): タグを使用しない点を除き、Web SDKへの移行をスムーズかつ計画的に行います。 代わりに、手動でAdobe Analytics データ収集ライブラリ（`AppMeasurement.js`）を削除し、web SDK JavaScript ライブラリ（`alloy.js`）に置き換えます。
 
 ## この実装パスのメリットとデメリット
 
@@ -23,7 +23,7 @@ Web SDK拡張機能を使用してAdobe Analyticsにデータを送信する場�
 
 | メリット | デメリット |
 | --- | --- |
-| <ul><li>**最も直接的なアプローチ**：この実装パスは最も簡単で、通常は新しい web SDK実装に推奨されるパスです。 現在Adobe Analyticsの実装を心配する必要がない場合は、該当する Web SDK XDM フィールドに値を入力します。</li><li>**定義済みのスキーマ**：独自のスキーマが必要ない場合は、Adobe Analytics向けのスキーマを使用するだけです。 この概念は、Customer Journey Analyticsに向かう場合でも当てはまります。prop と eVar の概念はCustomer Journey Analyticsには当てはまりませんが、prop と eVar を単純なカスタムディメンションとして引き続き使用できます。</li><li>**開発者の操作なしでタグを管理**：タグを使用すると、開発者に実装のコード変更をリクエストせずに実装を管理できます。 開発者がタグローダースクリプトをインストールすると、データの収集方法を完全に制御できます。</li></ul> | <ul><li>**特定のスキーマを使用してにロック**：組織がCustomer Journey Analyticsに移行する場合、Adobe Analyticsのスキーマを引き続き使用するか、独自の組織のスキーマ（個別のデータセット）に移行するかを選択する必要があります。 Customer Journey Analyticsへの移行時にAdobe Analytics スキーマと個別のデータセットへの移行の両方を避けたい場合、Adobeでは次の 2 つの方法のいずれかを使用することをお勧めします。<ul><li>`data` オブジェクトの使用：`data` オブジェクトを使用すると、XDM スキーマに準拠せずにAdobe Analyticsにデータを送信できます。 組織のスキーマが作成されたら、データストリームマッピングを使用して、`data` のオブジェクトフィールドを XDM にマッピングできます。 [Analytics 拡張機能から Web SDK拡張機能 ](analytics-extension-to-web-sdk.md) および [AppMeasurementから Web SDK JavaScript ライブラリ ](appmeasurement-to-web-sdk.md) の両方がこの `data` オブジェクトを使用します。</li><li>Adobe Analyticsを完全にスキップする：Web SDKを実装している場合は、そのデータをAdobe Experience Platformのデータセットに送信して、Customer Journey Analyticsで使用できます。 任意のスキーマを使用できます。Adobe Analyticsは、このワークフローにはまったく関与しないので、Adobe Analytics ExperienceEvent フィールドグループは必要ありません。 この方法では、最低限の技術的負債しか発生しませんが、Adobe Analyticsは完全に全体像から外れています。</li></ul></ul> |
+| <ul><li>**最も直接的なアプローチ**：この実装パスは最も簡単で、通常は新しい web SDK実装に推奨されるパスです。 現在Adobe Analyticsの実装を心配する必要がない場合は、該当する Web SDK XDM フィールドに値を入力します。</li><li>**定義済みのスキーマ**：独自のスキーマが必要ない場合は、Adobe Analytics向けのスキーマを使用するだけです。 この概念は、Customer Journey Analyticsに向かう場合でも当てはまります。prop と eVar の概念はCustomer Journey Analyticsには当てはまりませんが、prop と eVar を単純なカスタムディメンションとして引き続き使用できます。</li><li>**開発者の操作なしでタグを管理**：タグを使用すると、開発者に実装のコード変更をリクエストせずに実装を管理できます。 開発者がタグローダースクリプトをインストールすると、データの収集方法を完全に制御できます。</li></ul> | <ul><li>**特定のスキーマを使用してにロック**：組織がCustomer Journey Analyticsに移行する場合、Adobe Analyticsのスキーマを引き続き使用するか、独自の組織のスキーマ（個別のデータセット）に移行するかを選択する必要があります。 Customer Journey Analyticsへの移行時にAdobe Analytics スキーマと個別のデータセットへの移行の両方を避けたい場合、Adobeでは次の 2 つの方法のいずれかを使用することをお勧めします。<ul><li>`data` オブジェクトの使用：`data` オブジェクトを使用すると、XDM スキーマに準拠せずにAdobe Analyticsにデータを送信できます。 組織のスキーマが作成されたら、データストリームマッピングを使用して、`data` のオブジェクトフィールドを XDM にマッピングできます。 [Analytics 拡張機能から Web SDK拡張機能 &#x200B;](analytics-extension-to-web-sdk.md) および [AppMeasurementから Web SDK JavaScript ライブラリ &#x200B;](appmeasurement-to-web-sdk.md) の両方がこの `data` オブジェクトを使用します。</li><li>Adobe Analyticsを完全にスキップする：Web SDKを実装している場合は、そのデータをAdobe Experience Platformのデータセットに送信して、Customer Journey Analyticsで使用できます。 任意のスキーマを使用できます。Adobe Analyticsは、このワークフローにはまったく関与しないので、Adobe Analytics ExperienceEvent フィールドグループは必要ありません。 この方法では、最低限の技術的負債しか発生しませんが、Adobe Analyticsは完全に全体像から外れています。</li></ul></ul> |
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Web SDK拡張機能を使用してAdobe Analyticsにデータを送信する場�
 
 実装タスクの大まかな概要：
 
-![ この節で説明しているように、Web SDK拡張機能ワークフローを使用してAdobe Analyticsを実装する方法 ](../../assets/websdk-extension-annotated.png)
+![&#x200B; この節で説明しているように、Web SDK拡張機能ワークフローを使用してAdobe Analyticsを実装する方法 &#x200B;](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

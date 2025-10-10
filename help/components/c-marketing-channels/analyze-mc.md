@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->アトリビューションとAdobe Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、[ 改訂されたベストプラクティス ](/help/components/c-marketing-channels/mchannel-best-practices.md) を公開しました。
+>アトリビューションとAdobe Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、[&#x200B; 改訂されたベストプラクティス &#x200B;](/help/components/c-marketing-channels/mchannel-best-practices.md) を公開しました。
 >
 >Analytics 管理者は、[マーケティングチャネルの管理](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)の説明に従って、組織のマーケティングチャネルを管理できます。
 
@@ -52,7 +52,7 @@ ht-degree: 90%
 
 ## アトリビューションモデルの適用
 
-[ アトリビューション ](/help/analyze/analysis-workspace/attribution/overview.md) を使用すると、様々なアトリビューションモデルを即座に適用できます。
+[&#x200B; アトリビューション &#x200B;](/help/analyze/analysis-workspace/attribution/overview.md) を使用すると、様々なアトリビューションモデルを即座に適用できます。
 
 ![](assets/mc-viz5.png)
 

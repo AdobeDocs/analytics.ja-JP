@@ -40,11 +40,11 @@ Report Builder リクエストを Power BI に発行した後にビジュアラ�
 >[!IMPORTANT]
 >
 >Report Builderでは、組織のリソースへのアクセスを許可するために管理者が必要です。 アクセス権が必要な場合は、管理者に権限の付与を依頼してください。
->> Microsoft管理者は、*Microsoft Azure*/**[!UICONTROL Azure Active Directory]**/**[!UICONTROL ユーザー設定許可オプション]** の下にある **[!UICONTROL ユーザーはアプリケーションを登録できる]** 設定を確認できます。 このオプションを **いいえ** に設定すると、管理者はこれらのタイプのアプリケーションを登録できます。
+>&#x200B;> Microsoft管理者は、*Microsoft Azure*/**[!UICONTROL Azure Active Directory]**/**[!UICONTROL ユーザー設定許可オプション]** の下にある **[!UICONTROL ユーザーはアプリケーションを登録できる]** 設定を確認できます。 このオプションを **いいえ** に設定すると、管理者はこれらのタイプのアプリケーションを登録できます。
 
-ユーザーは、自分の [Microsoft Power BI アカウント ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US) にログインしてアクセス権を付与できます。
+ユーザーは、自分の [Microsoft Power BI アカウント &#x200B;](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US) にログインしてアクセス権を付与できます。
 
-管理者は、自分の [ 管理者のMicrosoft Power BI アカウント ](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US) にログインして、すべてのユーザーにアクセス権を付与できます。
+管理者は、自分の [&#x200B; 管理者のMicrosoft Power BI アカウント &#x200B;](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US) にログインして、すべてのユーザーにアクセス権を付与できます。
 
 ## API 制限に到達しています
 

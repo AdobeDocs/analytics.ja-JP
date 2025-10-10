@@ -14,7 +14,7 @@ ht-degree: 70%
 
 Advertising Analyticsを使用すると、すべてのGoogle Ads とMicrosoft Advertisingの有料検索データをAdobe Analytics内に並べて表示できます。 以前は、Google広告またはMicrosoft Advertisingのデータは、Adobe Advertising Cloud （AMO）または各広告インターフェイスで表示する必要がありました。 インプレッション、クリックおよびコストデータを、検索エンジンと AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
 
-これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspaceの新しい [ 有料検索パフォーマンス ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) テンプレートにより、この分析を容易におこなうことができます。
+これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspaceの新しい [&#x200B; 有料検索パフォーマンス &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) テンプレートにより、この分析を容易におこなうことができます。
 
 ![](assets/aa_aw.png)
 
@@ -28,10 +28,10 @@ Advertising Analyticsを使用すると、すべてのGoogle Ads とMicrosoft Ad
 
 * Advertising Analytics は、Adobe Analytics [Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)、[Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html) SKU でのみ利用できます。
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
-* Advertising Analyticsへのアクセス権を持つには、Adobe Analytics管理者であるか、Advertising Analyticsへのアクセス権が [ 付与 ](/help/integrate/c-advertising-analytics/overview.md#permissions) されている製品プロファイルに属している必要があります。
-* Google Ads またはMicrosoft Advertisingの検索データを表示する任意のレポートスイートについて、[Advertising Analyticsのレポートスイートを有効にする ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) （**[!UICONTROL 管理者]**/**[!UICONTROL 設定を編集]**/6}Advertising Analytics Configuration **[!UICONTROL ）必要があります。]**
+* Advertising Analyticsへのアクセス権を持つには、Adobe Analytics管理者であるか、Advertising Analyticsへのアクセス権が [&#x200B; 付与 &#x200B;](/help/integrate/c-advertising-analytics/overview.md#permissions) されている製品プロファイルに属している必要があります。
+* Google Ads またはMicrosoft Advertisingの検索データを表示する任意のレポートスイートについて、[Advertising Analyticsのレポートスイートを有効にする &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) （**[!UICONTROL 管理者]**/**[!UICONTROL 設定を編集]**/6&rbrace;Advertising Analytics Configuration **[!UICONTROL ）必要があります。]**
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
-* Microsoft Advertisingの場合は、[[!UICONTROL  アカウント ID] と [!UICONTROL  管理者アカウント ID]](c-adanalytics-workflow/aa-locate-account-id.md) も必要です。
+* Microsoft Advertisingの場合は、[[!UICONTROL &#x200B; アカウント ID] と [!UICONTROL &#x200B; 管理者アカウント ID]](c-adanalytics-workflow/aa-locate-account-id.md) も必要です。
 
 ## Advertising Analytics の権限 {#permissions}
 
@@ -39,8 +39,8 @@ Analytics には、Analytics 管理者に自動的に付与される 2 つの権
 
 | 権限 | 定義 | Adobe Experience Cloud にログインしている場合の権限の付与 |
 | --- | --- | --- |
-| Advertising Analytics 管理 | ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4}Adobe Analytics[!UICONTROL /]Product Profile[!UICONTROL /]Permissions[!UICONTROL  タブ/]Analytics Tools[!UICONTROL /12}Advertising Analytics Management] にログインします。 |
-| Advertising Analytics 設定 | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4}Adobe Analytics[!UICONTROL /]Product Profile[!UICONTROL /]Permissions[!UICONTROL  タブ/]Analytics Tools[!UICONTROL /12}Advertising Analytics Configuration] にログインします。 |
+| Advertising Analytics 管理 | ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4&rbrace;Adobe Analytics[!UICONTROL /]Product Profile[!UICONTROL /]Permissions[!UICONTROL &#x200B; タブ/]Analytics Tools[!UICONTROL /12&rbrace;Advertising Analytics Management] にログインします。 |
+| Advertising Analytics 設定 | ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 | [adminconsole.adobe.com](https://adminconsole.adobe.com)/[!UICONTROL Products]/4&rbrace;Adobe Analytics[!UICONTROL /]Product Profile[!UICONTROL /]Permissions[!UICONTROL &#x200B; タブ/]Analytics Tools[!UICONTROL /12&rbrace;Advertising Analytics Configuration] にログインします。 |
 
 ## Advertising Analyticsのディメンションと指標 {#dimensions-metrics}
 

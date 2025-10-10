@@ -28,5 +28,5 @@ ht-degree: 91%
 | Analytics ツール | Analysis Workspace アクセス | Analysis Workspace へのアクセスを許可します。Workspace でマーケティングチャネルディメンションを使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスのいずれかに属している必要があります。 |
 | Analytics ツール | Reports and Analytics アクセス | Reports and Analytics へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループまたは Analysis Workspace アクセス（推奨）に属している必要があります。 |
 
-製品プロファイルとAdmin ConsoleのAdobe Analytics権限について詳しくは、[Adobe Analyticsの製品プロファイル ](/help/admin/admin-console/permissions/product-profile.md) を参照してください。
+製品プロファイルとAdmin ConsoleのAdobe Analytics権限について詳しくは、[Adobe Analyticsの製品プロファイル &#x200B;](/help/admin/admin-console/permissions/product-profile.md) を参照してください。
 

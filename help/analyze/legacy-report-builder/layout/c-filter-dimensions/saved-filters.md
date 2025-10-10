@@ -18,6 +18,6 @@ ht-degree: 14%
 
 Report Builderにフィルターやその他のパラメーターを保存し、それらを他のワークシートやワークブックで使用できます。 これらのパラメーターは Analytics に保存され、他のコンピューター上の他のReport Builder ユーザーが使用できるようになります。
 
-フィルターを作成するときには、「[!UICONTROL ページを選択]」フォームでフィルターを保存します。この手順の例については、[ 特定のフィルター ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md) を参照してください。
+フィルターを作成するときには、「[!UICONTROL ページを選択]」フォームでフィルターを保存します。この手順の例については、[&#x200B; 特定のフィルター &#x200B;](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md) を参照してください。
 
-![ ページを選択フォームのスクリーンショット、および一番人気、特定、保存済みのフィルターページのオプション ](assets/choose_page_saved.png)
+![&#x200B; ページを選択フォームのスクリーンショット、および一番人気、特定、保存済みのフィルターページのオプション &#x200B;](assets/choose_page_saved.png)

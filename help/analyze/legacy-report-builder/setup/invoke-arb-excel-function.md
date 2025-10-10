@@ -38,7 +38,7 @@ Report Builder関数を使用すると、Report Builder ユーザーインター
 
 Report Builder関数にアクセスするには、**[!UICONTROL 数式]**/**[!UICONTROL 関数の挿入]** に移動します。 検索フィールドを使用して関数を検索するか、カテゴリを選択してそのカテゴリ内の関数を一覧表示します。
 
-![ カテゴリリストが展開された関数を挿入ウィンドウを示すスクリーンショット。](assets/arb_functions.png)
+![&#x200B; カテゴリリストが展開された関数を挿入ウィンドウを示すスクリーンショット。](assets/arb_functions.png)
 
 ## 例 {#section_034311081C8D4D7AA9275C1435A087CD}
 
@@ -56,7 +56,7 @@ Report Builder関数にアクセスするには、**[!UICONTROL 数式]**/**[!UI
 1. コントロールを右クリックして、**[!UICONTROL マクロの割り当て]**&#x200B;を選択します。
 1. Report Builder関数の名前を入力します（パラメーターやかっこは使用しません）。
 
-![ マクロの割り当てウィンドウを示すスクリーンショット。](assets/assign_macro.png)
+![&#x200B; マクロの割り当てウィンドウを示すスクリーンショット。](assets/assign_macro.png)
 
 ## フォーマットコントロールを使用したReport Builder関数へのパラメーターの受け渡し {#section_ECCA1F4990D244619DFD79138064CEF0}
 
@@ -69,11 +69,11 @@ Report Builder関数にアクセスするには、**[!UICONTROL 数式]**/**[!UI
 
 1. コントロールを右クリックして、**[!UICONTROL コントロールの書式設定]**&#x200B;を選択します。
 
-   ![ 形式コントロールが選択されていることを示すスクリーンショット。](assets/format_control.png)
+   ![&#x200B; 形式コントロールが選択されていることを示すスクリーンショット。](assets/format_control.png)
 
 1. 「**[!UICONTROL 代替テキスト]**」タブをクリックします。
 
-   ![ 「代替テキスト」タブと「代替テキスト」フィールドを示すスクリーンショット。](assets/alt_text.png)
+   ![&#x200B; 「代替テキスト」タブと「代替テキスト」フィールドを示すスクリーンショット。](assets/alt_text.png)
 
 1. 「**[!UICONTROL 代替テキスト]**」に、更新するセルの範囲を入力します。
 1. **[!UICONTROL 数式]**/**[!UICONTROL 関数を挿入]**/**[!UICONTROL Report Builder.ReportBuilder.Bridge]** の下のAdobe パラメーターのリストを開きます。

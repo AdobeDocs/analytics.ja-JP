@@ -27,7 +27,7 @@ Adobe Analytics は様々な方法で実装できます。各ページには、W
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 変数の設定 ](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 変数の設定 &#x200B;](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Adobe Analytics は様々な方法で実装できます。各ページには、W
 Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
 1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、`adobeDataLayer.page.title` にページタイトルを入力するとします。 詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformのタグを使用する場合、このタスクは、間にデータ要素を使用することによって実行されます。 データ要素には、データレイヤーの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。 <br/> その後、データ要素を使用して Analytics 変数を設定できます。 例：`eVar4` はデータ要素 `Page Title` から値を取得します。 <br/> 詳しくは、[ データ要素 ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[ データレイヤーオブジェクトのデータ要素へのマッピング ](../launch/layer-to-elements.md)、および [ タグデータ要素の Analytics 変数へのマッピング ](../launch/elements-to-variable.md) を参照してください。
+2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformのタグを使用する場合、このタスクは、間にデータ要素を使用することによって実行されます。 データ要素には、データレイヤーの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。 <br/> その後、データ要素を使用して Analytics 変数を設定できます。 例：`eVar4` はデータ要素 `Page Title` から値を取得します。 <br/> 詳しくは、[&#x200B; データ要素 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[&#x200B; データレイヤーオブジェクトのデータ要素へのマッピング &#x200B;](../launch/layer-to-elements.md)、および [&#x200B; タグデータ要素の Analytics 変数へのマッピング &#x200B;](../launch/elements-to-variable.md) を参照してください。
 3. 最後に、トラッキング関数を呼び出します。 ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字

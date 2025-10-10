@@ -18,14 +18,14 @@ ht-degree: 69%
 
 スプレッドシートへの項目のマッピングを開始する前に、スプレッドシートが保護されていないことを確認してください。ワークシートの保護によってユーザーの操作が妨げられると、スプレッドシートでセルを選択できなくなります。まず、シートの保護を解除してから、セルのマッピングを追加してください。
 
-マッピングする領域とセルの数は、選択した指標、精度、日付範囲、設定したフィルターによって異なります。 例えば、[!UICONTROL  サイト指標 ]/[!UICONTROL  トラフィックレポート ] を選択し、[!UICONTROL  週 ] 精度を設定し、[!UICONTROL  過去 2 週間 ] の日付範囲を設定した場合、[!UICONTROL  リクエストウィザード：手順 2] で 3 つのセルをマッピングするように求められます（[!UICONTROL  カスタムレイアウト ] を使用する場合）。 リクエストは、1 週目のデータと 2 週目のデータを取得します。各データポイント値はページビューの値と等しくなります。 3 つ目のセルは行ヘッダーとなります。この行ヘッダーは、「[!UICONTROL フォーマットオプション]」を使用して設定できます。
+マッピングする領域とセルの数は、選択した指標、精度、日付範囲、設定したフィルターによって異なります。 例えば、[!UICONTROL &#x200B; サイト指標 &#x200B;]/[!UICONTROL &#x200B; トラフィックレポート &#x200B;] を選択し、[!UICONTROL &#x200B; 週 &#x200B;] 精度を設定し、[!UICONTROL &#x200B; 過去 2 週間 &#x200B;] の日付範囲を設定した場合、[!UICONTROL &#x200B; リクエストウィザード：手順 2] で 3 つのセルをマッピングするように求められます（[!UICONTROL &#x200B; カスタムレイアウト &#x200B;] を使用する場合）。 リクエストは、1 週目のデータと 2 週目のデータを取得します。各データポイント値はページビューの値と等しくなります。 3 つ目のセルは行ヘッダーとなります。この行ヘッダーは、「[!UICONTROL フォーマットオプション]」を使用して設定できます。
 
 互換性のない場所をスプレッドシートに誤ってマッピングすると、Report Builderでエラーが発生します。
 
 詳しくは、次の項を参照してください。
 
-* [セルの範囲の選択 ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [セル選択のテクニック ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [セルの範囲の選択 &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [セル選択のテクニック &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [マッピングの問題](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## セルの範囲の選択 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
@@ -34,7 +34,7 @@ ht-degree: 69%
 
 マッピングする項目の横にある **[!UICONTROL 範囲セレクター]** ![select_cell_icon.png](assets/select_cell_icon.png) をクリックします。
 
-* **範囲内のすべてのセル：**[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
+* **範囲内のすべてのセル：**&#x200B;[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
 * **範囲の最初のセル：**&#x200B;範囲の左上にあたるセルを選択します。その後、「[!UICONTROL 範囲の方向]」が表示されるので、そこで入力セルと出力セル（列または行）について、縦方向または横方向を指定します。Report Builderでセルを選択する場合は、このオプションを使用します。
 * **範囲の方向：**&#x200B;列または行としてセル範囲の方向を指定します。
 * **範囲の先頭のセルを選択：**&#x200B;セル参照を表示します。

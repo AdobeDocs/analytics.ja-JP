@@ -29,7 +29,7 @@ ht-degree: 80%
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. ウィザードの手順 2 の「**[!UICONTROL 行ラベル]**」で、「**[!UICONTROL チェックポイントの定義]**」リンクをクリックします（フォールアウトレポートでは、パターンが事前に適用されているパスレポートとは異なり、常にパス要素を定義する必要があります）。
 
-   ![ チェックポイントを定義リンクを示すスクリーンショット。](assets/define_checkpoints.png)
+   ![&#x200B; チェックポイントを定義リンクを示すスクリーンショット。](assets/define_checkpoints.png)
 
 1. 「**[!UICONTROL フィルター]**」オプションを選択します。
 
@@ -37,7 +37,7 @@ ht-degree: 80%
 1. セルの範囲またはリストのいずれから選択するかを決定します。
 1. リストから選択する場合は、「**[!UICONTROL 追加]**」をクリックしてチェックポイントを選択し、フォールアウトパスに追加します。3 ～ 8 件のチェックポイントを定義できます（利用可能な要素は、「**[!UICONTROL その他]**」をクリックすると検索できます）。
 
-   フィルターの絞り込みについて詳しくは、[ ディメンションのフィルター ](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md) を参照してください。
+   フィルターの絞り込みについて詳しくは、[&#x200B; ディメンションのフィルター &#x200B;](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md) を参照してください。
 
 1. 左の列から選択してオレンジ色の矢印をクリックして、**[!UICONTROL 使用可能な要素]** を右に移動します。
 1. 「**[!UICONTROL OK]**」を 3 回クリックして、「**[!UICONTROL 完了]**」をクリックします。

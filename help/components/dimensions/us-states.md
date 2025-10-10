@@ -12,14 +12,14 @@ ht-degree: 73%
 
 # 米国の州
 
-「US state」 [ ディメンション ](overview.md) は、米国における訪問者の州をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「US state」 [&#x200B; ディメンション &#x200B;](overview.md) は、米国における訪問者の州をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。Adobeは、[Digital Element](https://www.digitalelement.com/) と提携して、IP アドレスと国の間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL  データストリームを設定 ] する際に [ ジオルックアップ ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
 
 ## ディメンション項目
 

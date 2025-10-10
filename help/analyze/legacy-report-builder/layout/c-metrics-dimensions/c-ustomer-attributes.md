@@ -21,7 +21,7 @@ ht-degree: 83%
 
 * 指標として設定されている場合、VisAttr は指標と「ディメンション」の両方として公開されます。
 
-  ![ 指標およびディメンション顧客属性を示すスクリーンショット。](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![&#x200B; 指標およびディメンション顧客属性を示すスクリーンショット。](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * eVar と同様の分類（クロス集計）が可能です（どの項目も任意の項目で分類できます）。
 * VisAttr では eVar に追加可能なすべての指標がサポートされています。

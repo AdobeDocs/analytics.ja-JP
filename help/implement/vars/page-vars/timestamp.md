@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## Web SDKを使用したタイムスタンプ
 
-タイムスタンプは、XDM フィールド [ で ](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analyticsにマッピング `xdm.timestamp` されます。 このフィールドは Unix 時間のみをサポートします。
+タイムスタンプは、XDM フィールド [&#x200B; で &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md)Adobe Analyticsにマッピング `xdm.timestamp` されます。 このフィールドは Unix 時間のみをサポートします。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
@@ -29,7 +29,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.timestamp
 
-`s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式には、秒単位の [ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) および [Unix 時間 ](https://ja.wikipedia.org/wiki/UNIX時間) が含まれます。
+`s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式には、秒単位の [ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) および [Unix 時間 &#x200B;](https://ja.wikipedia.org/wiki/UNIX時間) が含まれます。
 
 ```js
 // Timestamp using ISO 8601

@@ -49,7 +49,7 @@ Adobe カスタマーケアでは、少数のディメンションに対して�
 
 >[!TIP]
 >
->[ キュレーション ](/help/analyze/analysis-workspace/curate-share/curate.md) の導入により、仮想レポートスイートごとに特定のディメンションまたは指標の名前を変更できます。
+>[&#x200B; キュレーション &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md) の導入により、仮想レポートスイートごとに特定のディメンションまたは指標の名前を変更できます。
 
 ### セグメントのニュアンス
 

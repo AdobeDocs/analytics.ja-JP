@@ -16,7 +16,7 @@ ht-degree: 90%
 
 次の手順に従って、データフィードジョブ管理にアクセスします。
 
-1. [experiencecloud.adobe.com ](https://experiencecloud.adobe.com)にログインします。
+1. [experiencecloud.adobe.com &#x200B;](https://experiencecloud.adobe.com)にログインします。
 2. 右上の 9 グリッドメニューをクリックし、「[!UICONTROL Analytics]」をクリックします。
 3. 上部のメニューで、[!UICONTROL 管理者]／[!UICONTROL データフィード]をクリックします。
 4. 上部近くにある「ジョブ」タブをクリックします。

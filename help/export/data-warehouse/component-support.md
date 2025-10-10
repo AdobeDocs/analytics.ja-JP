@@ -67,7 +67,7 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
-* パーティシペーション指標（[ 「パーティシペーション」指標の作成 ](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) で説明）
+* パーティシペーション指標（[&#x200B; 「パーティシペーション」指標の作成 &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) で説明）
 
 ### 異なる方法でサポートされるディメンション（非標準の日付形式）
 

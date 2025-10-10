@@ -17,7 +17,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 
 実装タスクの大まかな概要：
 
-![ この節で説明するように、JavaScript 用AppMeasurementでAdobe Analytics を実装する方法 ](../assets/appmeasurement-annotated.png)
+![&#x200B; この節で説明するように、JavaScript 用AppMeasurementでAdobe Analytics を実装する方法 &#x200B;](../assets/appmeasurement-annotated.png)
 
 <table>
 

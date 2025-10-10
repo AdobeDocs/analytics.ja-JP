@@ -19,11 +19,11 @@ ht-degree: 70%
 
 ## Web SDKを使用した動的変数のプレフィックス
 
-Web SDKでは、動的変数形式は使用されません。 代わりに、データストリームマッピングを使用して、1 つのSource フィールドを使用して複数のターゲットフィールドに値を入力できます。 詳しくは、[Web SDKを使用した動的変数 ](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) を参照してください。
+Web SDKでは、動的変数形式は使用されません。 代わりに、データストリームマッピングを使用して、1 つのSource フィールドを使用して複数のターゲットフィールドに値を入力できます。 詳しくは、[Web SDKを使用した動的変数 &#x200B;](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) を参照してください。
 
 スキーマに準拠せずにAdobe Analyticsに直接データを送信する場合は、次の変数を使用します。
 
-* [ データ オブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [&#x200B; データ オブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Adobe Analytics拡張機能を使用した動的変数プレフィックス
 

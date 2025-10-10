@@ -33,7 +33,7 @@ Adobe Analyticsで使用可能な管理タスクにジャンプするには、�
 
 このツールを使用して、ユーザーをプロビジョニングし、アクセス権限を変更します。
 
-Adobe IMSに移行されるすべての組織では、次のタスクはAdobe Admin Console で実行されます。 詳しくは、[Adobe Analyticsはじめての管理ガイド ](/help/admin/admin-console/first-admin-guide.md) を参照してください。 まだAdobe IMSに移行していない場合は、[Analytics ユーザーのAdobe Admin Consoleへの移行 ](/help/admin/tools/user-management/user-migration/c-migration-tool.md) を参照してください。
+Adobe IMSに移行されるすべての組織では、次のタスクはAdobe Admin Console で実行されます。 詳しくは、[Adobe Analyticsはじめての管理ガイド &#x200B;](/help/admin/admin-console/first-admin-guide.md) を参照してください。 まだAdobe IMSに移行していない場合は、[Analytics ユーザーのAdobe Admin Consoleへの移行 &#x200B;](/help/admin/tools/user-management/user-migration/c-migration-tool.md) を参照してください。
 
 
 

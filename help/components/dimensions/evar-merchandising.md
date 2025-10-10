@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジング eVar が [ ディメンション ](overview.md) として機能する方法について説明します。 マーチャンダイジング eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar（マーチャンダイジング変数） ](/help/implement/vars/page-vars/evar-merchandising.md) を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar が [&#x200B; ディメンション &#x200B;](overview.md) として機能する方法について説明します。 マーチャンダイジング eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar（マーチャンダイジング変数） &#x200B;](/help/implement/vars/page-vars/evar-merchandising.md) を参照してください。*
 
 マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)を参照してください。
 

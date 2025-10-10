@@ -131,7 +131,7 @@ ht-degree: 94%
 | 一致グループ | キャンペーン ID 内の位置を分類できるように、正規表現がどのようにキャンペーン ID 文字に一致するかを示します。 |
 | 一致結果 | 正規表現に一致する文字列の部分を表示します。 |
 
-[ 分類ルールの正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+[&#x200B; 分類ルールの正規表現 &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 ## テストページ {#section_EC926F97901C4E65901413F9683AA70A}
 

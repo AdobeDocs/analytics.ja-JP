@@ -20,17 +20,17 @@ ht-degree: 3%
 ## インテリジェント データ スムージングを実行
 
 1. Adobe Analytics ラボに移動します。
-   ![ ラボ ](assets/labs.png)
+   ![&#x200B; ラボ &#x200B;](assets/labs.png)
 1. Intelligent Data Smoothing プロトタイプを起動します。
-   ![ プロトタイプを起動 ](assets/intelligent-ds.png)
+   ![&#x200B; プロトタイプを起動 &#x200B;](assets/intelligent-ds.png)
 1. 分析する必要がある指標をフリーフォームテーブルに追加します。 プロトタイプは毎日の精度でのみ機能するので、テーブルのディメンションが日であることを確認してください。
    ![指標の追加](assets/add-metric.png)
 1. イベントの期間よりも広い日付範囲を選択しますが、イベントが含まれていることを確認してください。
    ![日付範囲](assets/date-range.png)
 1. フリーフォームテーブルの指標に対応する歯車アイコンをクリックします。
-   ![ 歯車アイコン ](assets/gear-icon.png)
-1. [!UICONTROL  データ設定 ] で、「[!UICONTROL  データスムージング ]」オプションを選択します。
-   ![ データスムージング ](assets/column-setting.png)
-1. イベントに対応する日付/日付範囲を選択し、「[!UICONTROL  適用 ]」をクリックします。
+   ![&#x200B; 歯車アイコン &#x200B;](assets/gear-icon.png)
+1. [!UICONTROL &#x200B; データ設定 &#x200B;] で、「[!UICONTROL &#x200B; データスムージング &#x200B;]」オプションを選択します。
+   ![&#x200B; データスムージング &#x200B;](assets/column-setting.png)
+1. イベントに対応する日付/日付範囲を選択し、「[!UICONTROL &#x200B; 適用 &#x200B;]」をクリックします。
 データのスムージング用のデータ範囲が、パネルに対して選択された日付範囲のサブセットであることを確認します。 テーブルとグラフの指標は、予測された値に置き換えられます。
-   ![ 予測値 ](assets/predictive-values.png)
+   ![&#x200B; 予測値 &#x200B;](assets/predictive-values.png)

@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## Web SDK を使用したイベント
 
-[XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、カスタムイベントでは次の XDM フィールドを使用します。
+[XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、カスタムイベントでは次の XDM フィールドを使用します。
 
 * カスタムイベント 1 ～ 100 は、`xdm._experience.analytics.event1to100.event1` ～ `xdm._experience.analytics.event1to100.event100` にマッピングされます。
 * カスタムイベント 101 ～ 200 は、`xdm._experience.analytics.event101to200.event100` ～ `xdm._experience.analytics.event101to200.event200` にマッピングされます。
@@ -48,7 +48,7 @@ ht-degree: 85%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
+5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
 6. [!UICONTROL イベント]セクションを見つけます。
 
 次の機能が利用できます。

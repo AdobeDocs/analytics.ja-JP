@@ -77,4 +77,4 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 
 * 獲得リンクについては、お客様のニーズを満たすためにアドビパートナーにご案内する場合があります。
 * プッシュメッセージングおよびアプリ内メッセージングは、Adobe Campaign Standard と Adobe Campaign Classic で利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 アドビアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
-* ロケーション機能については、すべてのAdobe Experience Platformのお客様に無料で提供される新しい [Adobe Experience Platform ロケーションサービス ](https://www.adobe.com/jp/experience-platform/location-service.html) を採用することをお勧めします。
+* ロケーション機能については、すべてのAdobe Experience Platformのお客様に無料で提供される新しい [Adobe Experience Platform ロケーションサービス &#x200B;](https://www.adobe.com/jp/experience-platform/location-service.html) を採用することをお勧めします。

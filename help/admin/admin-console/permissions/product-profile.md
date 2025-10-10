@@ -15,7 +15,7 @@ ht-degree: 65%
 
 製品プロファイルは、製品管理者が組織内のユーザーに割り当てることができる権限プリセットです。製品プロファイルを作成し、その製品プロファイルに Experience Cloud ユーザーを割り当てると、ユーザーは製品プロファイルに含まれる権限項目を継承します。
 
-製品プロファイルの作成とユーザーの割り当てを含む、製品プロファイルの概要については、Enterprise ユーザーガイドの [Enterprise ユーザーの製品プロファイルの管理 ](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html) を参照してください。
+製品プロファイルの作成とユーザーの割り当てを含む、製品プロファイルの概要については、Enterprise ユーザーガイドの [Enterprise ユーザーの製品プロファイルの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-product-profiles.html) を参照してください。
 
 ## 製品プロファイル管理者
 

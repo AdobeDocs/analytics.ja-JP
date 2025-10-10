@@ -103,7 +103,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](/help/admin/tools/manage-rs/report-suites-admin.md) |
    | Analytics ユーザーとアセット | ユーザーとアセットの管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](/help/admin/admin-console/home.md) |
    | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](/help/components/classifications/importer/c-working-with-saint.md) |
-   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー ](/help/components/classifications/crb/classification-rule-builder.md) |
+   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) |
    | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](/help/import/data-sources/manage.md) |
    | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](/help/admin/tools/code-manager-admin.md) |
    | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。 | [トラフィック管理の概要](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |

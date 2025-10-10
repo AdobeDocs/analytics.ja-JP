@@ -13,21 +13,21 @@ ht-degree: 16%
 # セグメントの管理
 
 
-中央の [ セグメント ](t-seg-share.md) 管理インターフェイスから、[ 共有 ](t-seg-filter.md)、[ セグメント ](seg-tag.md)、[ タグ ](seg-approve.md)、[ 承認 ](seg-copy.md)、名前変更、[ コピー ](t-seg-favorite.md)、セグメントの削除、書き出し、およびセグメントを [!UICONTROL  お気に入りとしてマークできます ]。 セグメントを管理するには：
+中央の [&#x200B; セグメント &#x200B;](t-seg-share.md) 管理インターフェイスから、[&#x200B; 共有 &#x200B;](t-seg-filter.md)、[&#x200B; セグメント &#x200B;](seg-tag.md)、[&#x200B; タグ &#x200B;](seg-approve.md)、[&#x200B; 承認 &#x200B;](seg-copy.md)、名前変更、[&#x200B; コピー &#x200B;](t-seg-favorite.md)、セグメントの削除、書き出し、およびセグメントを [!UICONTROL &#x200B; お気に入りとしてマークできます &#x200B;]。 セグメントを管理するには：
 
 * メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、**[!UICONTROL セグメント]** を選択します。
 
 
 >[!NOTE]
 >
->特定のWorkspace プロジェクト内で作成したクイックセグメントは、すべてのプロジェクトでセグメントを使用できるように設定しない限り、[!UICONTROL  セグメント ] マネージャーに表示されません。
+>特定のWorkspace プロジェクト内で作成したクイックセグメントは、すべてのプロジェクトでセグメントを使用できるように設定しない限り、[!UICONTROL &#x200B; セグメント &#x200B;] マネージャーに表示されません。
 >
 
 ## セグメントマネージャー
 
 セグメントマネージャーには次のインターフェイス要素があります。
 
-![ セグメントインターフェイス ](assets/segments-manager.png)
+![&#x200B; セグメントインターフェイス &#x200B;](assets/segments-manager.png)
 
 ### セグメントリスト
 
@@ -35,13 +35,13 @@ ht-degree: 16%
 
 | 列 | 説明 |
 | --- | --- | 
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | セグメントの ![ 星 ](/help/assets/icons/Star.svg) または ![ 星のアウトライン ](/help/assets/icons/StarOutline.svg) を優先するかどうかを選択します。 詳しくは、[ セグメントをお気に入りとしてマーク ](t-seg-favorite.md) を参照してください。 |
-| **[!UICONTROL タイトルと説明]** | セグメントを編集するには、タイトルリンクを選択して [ セグメントビルダー ](seg-build.md) を開きます。 共有セグメントは「![ 共有 ](/help/assets/icons/ShareAlt.svg)」で示されます。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | セグメントの ![&#x200B; 星 &#x200B;](/help/assets/icons/Star.svg) または ![&#x200B; 星のアウトライン &#x200B;](/help/assets/icons/StarOutline.svg) を優先するかどうかを選択します。 詳しくは、[&#x200B; セグメントをお気に入りとしてマーク &#x200B;](t-seg-favorite.md) を参照してください。 |
+| **[!UICONTROL タイトルと説明]** | セグメントを編集するには、タイトルリンクを選択して [&#x200B; セグメントビルダー &#x200B;](seg-build.md) を開きます。 共有セグメントは「![&#x200B; 共有 &#x200B;](/help/assets/icons/ShareAlt.svg)」で示されます。 |
 | **[!UICONTROL Report suitew]** | このセグメントが適用されるレポートスイート。 |
 | **[!UICONTROL 所有者]** | セグメントの所有者。 ユーザーには、自分が所有するセグメントまたは自分と共有されている注釈のみが表示されます。 |
 | **[!UICONTROL タグ]** | このセグメントのタグ。 |
-| **[!UICONTROL 共有先]** | セグメントを共有した個人またはグループの数。 選択して、**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログを開きます。詳しくは、[ セグメントの共有 ](t-seg-share.md) を参照してください。 |
-| **[!UICONTROL パブリッシュ済み]** | [ セグメントがExperience Cloudに公開される ](seg-publish.md) かどうか。 |
+| **[!UICONTROL 共有先]** | セグメントを共有した個人またはグループの数。 選択して、**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログを開きます。詳しくは、[&#x200B; セグメントの共有 &#x200B;](t-seg-share.md) を参照してください。 |
+| **[!UICONTROL パブリッシュ済み]** | [&#x200B; セグメントがExperience Cloudに公開される &#x200B;](seg-publish.md) かどうか。 |
 | **[!UICONTROL 変更日時]** | セグメントが最後に変更された日時。 |
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を使用して、表示する列を指定します。
@@ -52,13 +52,13 @@ ht-degree: 16%
 
 | アクション | 説明 |
 |---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | [ セグメントビルダー ](seg-build.md) を使用して、別のセグメントを追加します。 |
-| ![検索](/help/assets/icons/Search.svg)[!UICONTROL *タイトルで検索*] | リストでセグメントが選択されていない場合、この検索フィールドを使用してセグメントを検索します。 |
-| ![ラベル](/help/assets/icons/Label.svg)、**[!UICONTROL タグ]** | 選択したセグメントにタグ付けします。 **[!UICONTROL セグメントをタグ付け]** ダイアログで、選択したセグメントのタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントのタグを保存します。 詳しくは、[ セグメントのタグ付け ](seg-tag.md) を参照してください。 |
-| ![共有](/help/assets/icons/ShareAlt.svg)、**[!UICONTROL 共有]** | 選択したセグメントの共有 **[!UICONTROL セグメントを共有]** ダイアログでは、![ 検索 ](/help/assets/icons/Search.svg)*個人またはグループを検索* または **[!UICONTROL 組織]** または **[!UICONTROL グループ]** を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントの共有の詳細を保存します。 詳しくは、[ セグメントの共有 ](t-seg-share.md) を参照してください。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** | [&#x200B; セグメントビルダー &#x200B;](seg-build.md) を使用して、別のセグメントを追加します。 |
+| ![検索](/help/assets/icons/Search.svg) [!UICONTROL *タイトルで検索*] | リストでセグメントが選択されていない場合、この検索フィールドを使用してセグメントを検索します。 |
+| ![ラベル](/help/assets/icons/Label.svg)、**[!UICONTROL タグ]** | 選択したセグメントにタグ付けします。 **[!UICONTROL セグメントをタグ付け]** ダイアログで、選択したセグメントのタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントのタグを保存します。 詳しくは、[&#x200B; セグメントのタグ付け &#x200B;](seg-tag.md) を参照してください。 |
+| ![共有](/help/assets/icons/ShareAlt.svg)、**[!UICONTROL 共有]** | 選択したセグメントの共有 **[!UICONTROL セグメントを共有]** ダイアログでは、![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg)*個人またはグループを検索* または **[!UICONTROL 組織]** または **[!UICONTROL グループ]** を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択したセグメントの共有の詳細を保存します。 詳しくは、[&#x200B; セグメントの共有 &#x200B;](t-seg-share.md) を参照してください。 |
 | ![削除](/help/assets/icons/Delete.svg)、**[!UICONTROL 削除]** | 選択したセグメントを削除します。 確認メッセージが表示されます。 |
 | ![編集](/help/assets/icons/Edit.svg)**[!UICONTROL 名前を変更]** | 選択した 1 つのセグメントの名前を変更します。 選択した場合、セグメントの名前をインラインで変更できます。 |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 承認]** | 選択したセグメントを承認します。 詳しくは、[ セグメントの承認 ](seg-approve.md) を参照してください。 |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 承認]** | 選択したセグメントを承認します。 詳しくは、[&#x200B; セグメントの承認 &#x200B;](seg-approve.md) を参照してください。 |
 | ![コピー](/help/assets/icons/Copy.svg)**[!UICONTROL コピー]** | 選択したセグメントをコピーします。 同じ名前とサフィックス `(Copy)` を持つ新しいセグメントが作成されます。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV に書き出し]** | セグメントを `Segments List.csv` ファイルに書き出します。 |
 
@@ -68,9 +68,9 @@ ht-degree: 16%
 
 ### フィルターパネル
 
-セグメントのリストは、左のパネル ![ ージの ](/help/assets/icons/Filter.svg) フィルター **** フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターを適用するセグメントの数が表示されます。 ![ フィルター ](/help/assets/icons/Filter.svg) を選択して、フィルターパネルの表示を切り替えます。
+セグメントのリストは、左のパネル ![&#x200B; ージの &#x200B;](/help/assets/icons/Filter.svg) フィルター **&#x200B;**&#x200B;フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターを適用するセグメントの数が表示されます。 ![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg) を選択して、フィルターパネルの表示を切り替えます。
 
-詳しくは、[ セグメントのリストのフィルタリング ](t-seg-filter.md) を参照してください。
+詳しくは、[&#x200B; セグメントのリストのフィルタリング &#x200B;](t-seg-filter.md) を参照してください。
 
 
 <!--

@@ -19,7 +19,7 @@ Analytics 管理者は、特定のレポートスイートのデータ辞書で�
 
 1. 編集するコンポーネントを含む Analysis Workspace プロジェクトに移動します。
 
-1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します（データ要素にアクセスする別の方法については、[ データ要素へのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary) を参照してください）。
+1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します（データ要素にアクセスする別の方法については、[&#x200B; データ要素へのアクセス &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary) を参照してください）。
 
    データ辞書ウィンドウが表示されます。
 

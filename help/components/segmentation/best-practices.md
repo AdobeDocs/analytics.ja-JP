@@ -16,9 +16,9 @@ ht-degree: 60%
 
 ## `Contains` 演算子は最後の手段としてのみ使用してください
 
-[**[!UICONTROL Contains ]**演算子 ](/help/components/segmentation/seg-reference/seg-operators.md) は、すべての値のコンテンツ全体を分析する必要があるので、セグメント化で最も処理の負荷が高い機能の 1 つです。 必要な値が文字列の先頭または末尾にある場合は、**[!UICONTROL  次で始まる ]**または**[!UICONTROL  次で終わる ]**などの他の演算子の使用を検討してください。
+[**[!UICONTROL Contains &#x200B;]**&#x200B;演算子 &#x200B;](/help/components/segmentation/seg-reference/seg-operators.md) は、すべての値のコンテンツ全体を分析する必要があるので、セグメント化で最も処理の負荷が高い機能の 1 つです。 必要な値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B; 次で始まる &#x200B;]**&#x200B;または&#x200B;**[!UICONTROL &#x200B; 次で終わる &#x200B;]**&#x200B;などの他の演算子の使用を検討してください。
 
-セグメント内の **[!UICONTROL Contains]** 演算子が多数の結果を返した場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL リファラー]****[!UICONTROL 次に等しい]**`"."` のセグメントを作成した場合、セグメントはすべての値のコンテンツを検索します。 代わりに、**[!UICONTROL Exists]** 演算子の使用を検討してください。
+セグメント内の **[!UICONTROL Contains]** 演算子が多数の結果を返した場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL リファラー]**&#x200B;**[!UICONTROL 次に等しい]**`"."` のセグメントを作成した場合、セグメントはすべての値のコンテンツを検索します。 代わりに、**[!UICONTROL Exists]** 演算子の使用を検討してください。
 
 ## 分類を使用してディメンション項目をグループ化する
 

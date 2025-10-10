@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # prop
 
-*このヘルプページでは、prop が [ ディメンション ](overview.md) として機能する方法について説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
+*このヘルプページでは、prop が [&#x200B; ディメンション &#x200B;](overview.md) として機能する方法について説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
 
 prop は、好きなだけ使用できるカスタム変数です。prop は、設定されたヒットの後は保持されません。
 
@@ -30,7 +30,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。必ず、各 prop の目的と一般的なディメンション項目を [ ソリューションデザインドキュメント ](/help/implement/prepare/solution-design.md) に記録してください。
+prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。必ず、各 prop の目的と一般的なディメンション項目を [&#x200B; ソリューションデザインドキュメント &#x200B;](/help/implement/prepare/solution-design.md) に記録してください。
 
 ## 大文字と小文字の区別
 

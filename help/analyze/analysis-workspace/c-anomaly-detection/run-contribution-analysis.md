@@ -23,43 +23,43 @@ ht-degree: 14%
 
 1. プロジェクトで貢献度分析を呼び出します。
 
-   ![ 貢献度分析の実行 ](assets/run-contribution-analysis.png)
+   ![&#x200B; 貢献度分析の実行 &#x200B;](assets/run-contribution-analysis.png)
 
    1. 折れ線グラフ ビジュアライゼーションで、毎日の精度を持つフリーフォームテーブルに基づいて、異常値データポイントを選択します。 ポップアップから、「**[!UICONTROL 分析]**」を選択します。
    1. 毎日の精度を持つフリーフォームテーブルで、任意の行のコンテキストメニューから「**[!UICONTROL 貢献度分析を実行]**」を選択します。 異常値が表示されない行に対して分析を実行することもできます。
    1. 毎日の精度を持つフリーフォームテーブルで、異常値を示す行に対して：
       1. インジケーターの ◥ を選択します。
-      1. ![ アラート ](/help/assets/icons/Alert.svg)**[!UICONTROL 異常値検出]** ダイアログで、「**[!UICONTROL 貢献度分析を開く]**」を選択します。
+      1. ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg)**[!UICONTROL 異常値検出]** ダイアログで、「**[!UICONTROL 貢献度分析を開く]**」を選択します。
 
 
 
-1. （任意）分析の範囲を狭める（その結果、スピードアップする）には、[ ディメンションを除く ](#exclude-dimensions) を使用します。
+1. （任意）分析の範囲を狭める（その結果、スピードアップする）には、[&#x200B; ディメンションを除く &#x200B;](#exclude-dimensions) を使用します。
 
-   ![ ディメンションの貢献度分析からの除外 ](assets/excluding-dimensions.png)
+   ![&#x200B; ディメンションの貢献度分析からの除外 &#x200B;](assets/excluding-dimensions.png)
 
 1. 「**[!UICONTROL 貢献度分析を実行]**」を選択します。
 
-1. 貢献度分析が処理されるまでお待ちください。 レポートスイートのサイズとディメンションの数によっては、処理に時間がかかる可能性があります。 貢献度分析は、ディメンションごとに上位 50,000 個の項目に対して分析を実行します。 残りの [ 貢献度分析トークン ](anomaly-detection.md#contribution-analysis-tokens) の数も通知されます。
+1. 貢献度分析が処理されるまでお待ちください。 レポートスイートのサイズとディメンションの数によっては、処理に時間がかかる可能性があります。 貢献度分析は、ディメンションごとに上位 50,000 個の項目に対して分析を実行します。 残りの [&#x200B; 貢献度分析トークン &#x200B;](anomaly-detection.md#contribution-analysis-tokens) の数も通知されます。
 
-   ![ 実行中の貢献度分析 ](assets/contribution-analysis-executing.png)
+   ![&#x200B; 実行中の貢献度分析 &#x200B;](assets/contribution-analysis-executing.png)
 
 1. Analysis Workspaceは、このプロジェクト内に直接新しい **[!UICONTROL 貢献度分析]** パネルを読み込みます。
 
-   ![ 貢献度分析パネル ](assets/contribution-analysis.png)
+   ![&#x200B; 貢献度分析パネル &#x200B;](assets/contribution-analysis.png)
 
-   * [ 数値概要 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション。
-   * 月別のトレンド [ 折れ線グラフ ](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーション。
-   * この異常値に貢献する上位の項目を **[!UICONTROL 貢献度スコア]** で並べ替えて表示する [](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 上位の項目 [ フリーフォームテーブル ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)。 追加の列には、該当する指標と、コンテキストを提供する **[!UICONTROL ユニーク訪問者]** 指標が表示されます。
+   * [&#x200B; 数値概要 &#x200B;](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション。
+   * 月別のトレンド [&#x200B; 折れ線グラフ &#x200B;](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーション。
+   * この異常値に貢献する上位の項目を **[!UICONTROL 貢献度スコア]** で並べ替えて表示する [&#128279;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 上位の項目 [&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)。 追加の列には、該当する指標と、コンテキストを提供する **[!UICONTROL ユニーク訪問者]** 指標が表示されます。
 
-   * **[!UICONTROL 生成されたセグメント（上位の項目クラスター）]**[ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) は、貢献度スコア、異常値の発生件数、および異常値指標に貢献した全体的な割合に基づいて、上位の項目の関連付けを識別します。 この関連付けは、次にオーディエンスセグメント（貢献度セグメント 1、貢献度セグメント 2 など）として取得されます。 「![ 情報 ](/help/assets/icons/Info.svg)」を選択すると、セグメントが構成されている上位の項目など、セグメントの定義が表示されます。
+   * **[!UICONTROL 生成されたセグメント（上位の項目クラスター）]**&#x200B;[&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) は、貢献度スコア、異常値の発生件数、および異常値指標に貢献した全体的な割合に基づいて、上位の項目の関連付けを識別します。 この関連付けは、次にオーディエンスセグメント（貢献度セグメント 1、貢献度セグメント 2 など）として取得されます。 「![&#x200B; 情報 &#x200B;](/help/assets/icons/Info.svg)」を選択すると、セグメントが構成されている上位の項目など、セグメントの定義が表示されます。
 
 
 1. 貢献度分析は現在、Analysis Workspaceの一部なので、フリーフォームテーブルのコンテキストメニューから多くの機能を利用して、分析をさらに有意義なものにすることができます。以下に例を示します。
 
-   * [ 各ディメンション項目を別のディメンションで分類 ](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [1 つ以上の行のトレンド ](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [ 新しいビジュアライゼーションの追加 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [ アラートの作成 ](/help/components/alerts/alerts-overview.md)
+   * [&#x200B; 各ディメンション項目を別のディメンションで分類 &#x200B;](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [1 つ以上の行のトレンド &#x200B;](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [&#x200B; 新しいビジュアライゼーションの追加 &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+   * [&#x200B; アラートの作成 &#x200B;](/help/components/alerts/alerts-overview.md)
    * [セグメントを作成または比較する。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
@@ -77,7 +77,7 @@ ht-degree: 14%
 
 * 「**[!UICONTROL すべてクリア]**」を選択してやり直します。
 
-* ![ ディメンション ](/help/assets/icons/Dimensions.svg) を選択してコンテキストメニューを表示し、![CrossSize400](/help/assets/icons/CrossSize400.svg) を使用して、選択した除外されたディメンションをリストから削除します。
+* ![&#x200B; ディメンション &#x200B;](/help/assets/icons/Dimensions.svg) を選択してコンテキストメニューを表示し、![CrossSize400](/help/assets/icons/CrossSize400.svg) を使用して、選択した除外されたディメンションをリストから削除します。
 
   ![](assets/excluded-dimensions-list.png)
 

@@ -24,7 +24,7 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 | 標準 IAB ボットルール | 「**[!UICONTROL IAB ボットフィルタリングルールを有効にする]**」を選択すると、[IAB](https://www.iab.com/)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。ほとんどのお客様は、少なくともこのオプションを選択します。 |
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
-詳しくは、[ ボットルールの理解と設定 ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) を参照してください。
+詳しくは、[&#x200B; ボットルールの理解と設定 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) を参照してください。
 
 ## アドビツールを組み合わせて使用
 
@@ -63,7 +63,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
 * **ボットフラグ**: 「ボットフラグ」を顧客属性スキーマディメンションとして追加します。
 
-この.CSV ファイルを顧客属性インポートファイルとして使用し、この [ ブログ投稿 ](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) で説明しているように、レポートスイートを顧客属性に登録します。
+この.CSV ファイルを顧客属性インポートファイルとして使用し、この [&#x200B; ブログ投稿 &#x200B;](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers) で説明しているように、レポートスイートを顧客属性に登録します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
@@ -75,7 +75,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順 6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、次のように、このセグメントを使用して識別されたボットを除外する [ 仮想レポートスイート ](/help/components/vrs/vrs-about.md) を作成します。
+最後に、次のように、このセグメントを使用して識別されたボットを除外する [&#x200B; 仮想レポートスイート &#x200B;](/help/components/vrs/vrs-about.md) を作成します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-vrs.png)
 
@@ -87,7 +87,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 >[!MORELIKETHIS]
 >
->* [ より優れたボットブロック（パート 1）：基本 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [ より優れたボットブロック（パート 2）：ボットの識別と CIDR の活用 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [ ボットブロッキングの向上（パート 3）：ヒットガバナー ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [&#x200B; より優れたボットブロック（パート 1）：基本 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [&#x200B; より優れたボットブロック（パート 2）：ボットの識別と CIDR の活用 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [&#x200B; ボットブロッキングの向上（パート 3）：ヒットガバナー &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

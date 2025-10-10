@@ -53,4 +53,4 @@ ht-degree: 99%
 
 11 月 23 日（日）に開始する現在の週の開始日から 1 日間を引いた日付 = 11 月 22 日（土）
 
-ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます。（[ カスタムカレンダー ](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) を参照してください）。
+ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます。（[&#x200B; カスタムカレンダー &#x200B;](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) を参照してください）。

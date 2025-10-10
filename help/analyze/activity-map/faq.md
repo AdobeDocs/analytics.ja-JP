@@ -19,7 +19,7 @@ Activity Mapに関するよくある質問です。
 
 Activity Mapおよび関連するディメンションを使用する権限は、[Adobe Admin Console](/help/admin/admin-console/home.md) で処理されます。
 
-Activity Mapに必要な [ 権限項目 ](/help/admin/admin-console/permissions/product-profile.md) には、次のものが含まれます。
+Activity Mapに必要な [&#x200B; 権限項目 &#x200B;](/help/admin/admin-console/permissions/product-profile.md) には、次のものが含まれます。
 
 * **[!UICONTROL Analytics ツール]** > **[!UICONTROL Activity Map]**
 * **[!UICONTROL Analytics ツール]**/**[!UICONTROL セグメント公開]**
@@ -29,7 +29,7 @@ Activity Mapに必要な [ 権限項目 ](/help/admin/admin-console/permissions/
 * **[!UICONTROL ディメンション]** > **[!UICONTROL Activity Map リンク]**
 * **[!UICONTROL ディメンション]** > **[!UICONTROL Activity Mapページ]**
 
-詳しくは、[Analytics ツールの製品プロファイル権限 ](/help/admin/admin-console/permissions/analytics-tools.md) を参照してください。
+詳しくは、[Analytics ツールの製品プロファイル権限 &#x200B;](/help/admin/admin-console/permissions/analytics-tools.md) を参照してください。
 
 +++
 
@@ -45,7 +45,7 @@ Activity Mapは数秒ごとに web ページをスキャンし、変更を探し
 
 * Activity Map は、把握しているリンクの表示／非表示が変更されたかどうかを確認します。表示に変更が見つかった場合、そのリンクの「ページ上のリンク」の表の「現在の列」が、「[!UICONTROL 表示]」または「[!UICONTROL 非表示]」に更新されます。
 
-* ユーザーの操作によって新しいコンテンツが作成されると、AppMeasurementによってリンクとして特定された新しい要素が、[!UICONTROL  ページ上のリンク ] の表に追加されます。 Activity Map は、これらの新しいリンクを含む新しいデータリクエストを送信します。データリクエストが返されると、新しいリンクが [!UICONTROL  ページ上のリンク ] テーブルに表示されます。
+* ユーザーの操作によって新しいコンテンツが作成されると、AppMeasurementによってリンクとして特定された新しい要素が、[!UICONTROL &#x200B; ページ上のリンク &#x200B;] の表に追加されます。 Activity Map は、これらの新しいリンクを含む新しいデータリクエストを送信します。データリクエストが返されると、新しいリンクが [!UICONTROL &#x200B; ページ上のリンク &#x200B;] テーブルに表示されます。
 
 +++
 
@@ -112,7 +112,7 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 
 +++データフィードを使用してActivity Map データを書き出すことはできますか？
 
-はい。Activity Mapが使用する [ データフィード列 ](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) は次のとおりです。
+はい。Activity Mapが使用する [&#x200B; データフィード列 &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) は次のとおりです。
 
 * Activity Map リンク：`clickmaplink`
 * Activity Mapページ：`clickmappage`

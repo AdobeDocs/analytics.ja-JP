@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # ページ URL
 
-「ページ URL」 [ ディメンション ](overview.md) には、サイトの URL がリストされます。
+「ページ URL」 [&#x200B; ディメンション &#x200B;](overview.md) には、サイトの URL がリストされます。
 
 >[!IMPORTANT]
 >
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[ページビュー呼び出し（`t()`）](/help/implement/vars/functions/t-method.md) の [`g` および `-g` のクエリ文字列 ](/help/implement/validate/query-parameters.md) からデータを取得します。 [リンクトラッキング呼び出し（`tl()`）](/help/implement/vars/functions/tl-method.md) は、 `g` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
+このディメンションは、[ページビュー呼び出し（`t()`）](/help/implement/vars/functions/t-method.md) の [`g` および `-g` のクエリ文字列 &#x200B;](/help/implement/validate/query-parameters.md) からデータを取得します。 [リンクトラッキング呼び出し（`tl()`）](/help/implement/vars/functions/tl-method.md) は、 `g` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
 
 URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリ文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリ文字列パラメーターに保存されます。URL 内のプロトコルとクエリ文字列がこの変数に含まれます。
 

@@ -14,13 +14,13 @@ ht-degree: 1%
 
 Analysis Workspace全体でセグメントを使用するには、コンポーネントパネルの **[!UICONTROL セグメント]** から 1 つ以上のセグメントをドラッグして、次の場所にドロップします。
 
-* パネル内のすべてのビジュアライゼーションをセグメント化するAnalysis Workspaceの [ パネル ](/help/analyze/analysis-workspace/c-panels/panels.md)。
-* ディメンションを置き換えるAnalysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) のヘッダー行
-* Analysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の行で、分類を開始します。
-* Analysis Workspaceの [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の列で、列の追加や置換、フィルターの開始を行います。
-* ビジュアライゼーションの設定パネルまたはセグメントをドロップできるパネル。 例えば、[ セグメント比較 ](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) パネルまたは [ 主要指標 ](/help/analyze/analysis-workspace/visualizations/key-metric.md) 概要ビジュアライゼーションで次の操作を行います
-* セグメント定義にセグメントを含めるために、[ セグメントの定義ビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder) を選択します。
-* 計算指標の定義にセグメントを含めるように、[ 計算指標の定義ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder) を設定します。
+* パネル内のすべてのビジュアライゼーションをセグメント化するAnalysis Workspaceの [&#x200B; パネル &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md)。
+* ディメンションを置き換えるAnalysis Workspaceの [&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) のヘッダー行
+* Analysis Workspaceの [&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の行で、分類を開始します。
+* Analysis Workspaceの [&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) の列で、列の追加や置換、フィルターの開始を行います。
+* ビジュアライゼーションの設定パネルまたはセグメントをドロップできるパネル。 例えば、[&#x200B; セグメント比較 &#x200B;](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) パネルまたは [&#x200B; 主要指標 &#x200B;](/help/analyze/analysis-workspace/visualizations/key-metric.md) 概要ビジュアライゼーションで次の操作を行います
+* セグメント定義にセグメントを含めるために、[&#x200B; セグメントの定義ビルダー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder) を選択します。
+* 計算指標の定義にセグメントを含めるように、[&#x200B; 計算指標の定義ビルダー &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder) を設定します。
 
 <!--
 How to apply one or more segments to a report from the segment rail.

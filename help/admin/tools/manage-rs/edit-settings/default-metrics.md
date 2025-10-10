@@ -21,4 +21,4 @@ Analytics では、ユーザーが指標のカスタムセットを選択する�
 
 * [Analysis Workspace の指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)
 
-* [計算指標 ](/help/components/calculated-metrics/cm-overview.md)
+* [計算指標 &#x200B;](/help/components/calculated-metrics/cm-overview.md)

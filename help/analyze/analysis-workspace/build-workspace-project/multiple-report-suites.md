@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 複数のレポートスイート ](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 複数のレポートスイート &#x200B;](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. （任意）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
-   * セグメントの作成場所：[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md)。
-   * 計算指標が作成される場所：[ 計算指標ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
-   * アラートの作成場所：[ アラートビルダー ](/help/components/alerts/alert-builder.md)。
+   * セグメントの作成場所：[&#x200B; セグメントビルダー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+   * 計算指標が作成される場所：[&#x200B; 計算指標ビルダー &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
+   * アラートの作成場所：[&#x200B; アラートビルダー &#x200B;](/help/components/alerts/alert-builder.md)。

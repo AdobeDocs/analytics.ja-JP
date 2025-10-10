@@ -12,14 +12,14 @@ ht-degree: 52%
 
 # ドメイン
 
-「ドメイン [ ディメンション ](overview.md) は、訪問者がインターネットへのアクセスに使用するアクセスポイントをレポートします。
+「ドメイン [&#x200B; ディメンション &#x200B;](overview.md) は、訪問者がインターネットへのアクセスに使用するアクセスポイントをレポートします。
 
 ## このディメンションへのデータ入力
 
 アドビは、 [Digital Element](https://www.digitalelement.com/) と提携して、アクセスポイントのドメインを判断しています。 アクセスポイントドメインを判断する際には、DNS 逆引き参照を含むいくつかのメソッドを使用します。 設定は必要なく、入力する変数はありません。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、「データストリームの設定 [!UICONTROL  時に ] ネットワーク検索 [ を有効に ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
+* Web SDK実装の場合、「データストリームの設定 [!UICONTROL &#x200B; 時に &#x200B;] ネットワーク検索 [&#x200B; を有効に &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
 
 ## ディメンション項目
 

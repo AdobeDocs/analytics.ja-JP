@@ -12,14 +12,14 @@ ht-degree: 67%
 
 # ブラウザータイプ
 
-「ブラウザータイプ [ ディメンション ](overview.md) には、訪問者が使用するブラウザーを作成した組織が一覧表示されます。 このディメンションは、訪問者が使用するブラウザーを包括的に確認する場合に役立ちます。「ブラウザー」ディメンションに対する値を提供するのは、同じブラウザーの異なるバージョンが別々のディメンション項目としてリストされない点です。
+「ブラウザータイプ [&#x200B; ディメンション &#x200B;](overview.md) には、訪問者が使用するブラウザーを作成した組織が一覧表示されます。 このディメンションは、訪問者が使用するブラウザーを包括的に確認する場合に役立ちます。「ブラウザー」ディメンションに対する値を提供するのは、同じブラウザーの異なるバージョンが別々のディメンション項目としてリストされない点です。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。Adobeは [DeviceAtlas](https://deviceatlas.com/) と提携し、ユーザーエージェントとブラウザー間のルックアップを管理しています。
 
 * AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、「データストリームの設定 [!UICONTROL  時に ] デバイス検索 [ を有効に ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
+* Web SDK実装の場合、「データストリームの設定 [!UICONTROL &#x200B; 時に &#x200B;] デバイス検索 [&#x200B; を有効に &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) ます。
 
 ## ディメンション項目
 

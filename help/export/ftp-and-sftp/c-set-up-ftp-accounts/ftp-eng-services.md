@@ -17,7 +17,7 @@ ht-degree: 90%
 
 これらのエンゲージメントには、[!UICONTROL DB VISTA] やカスタムプロジェクトがあります。
 
-FTP の制限とデータ保持については、「[FTP の制限とデータ保持 ](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
+FTP の制限とデータ保持については、「[FTP の制限とデータ保持 &#x200B;](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
