@@ -66,7 +66,7 @@ To set the view density:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/40312?quality=12&learn=on&captions=jpn){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

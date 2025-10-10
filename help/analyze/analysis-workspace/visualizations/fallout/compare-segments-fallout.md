@@ -54,7 +54,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; フォールアウトビジュアライゼーションのセグメントの比較 &#x200B;](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; フォールアウトビジュアライゼーションのセグメントの比較 &#x200B;](https://video.tv.adobe.com/v/328262?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

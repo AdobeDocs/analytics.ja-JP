@@ -53,28 +53,28 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![&#x200B; フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![&#x200B; フリーフォームテーブルの VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/38408?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![&#x200B; 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![&#x200B; 計算指標での VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューション &#x200B;](https://video.tv.adobe.com/v/41479?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションパネルの使用 &#x200B;](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションパネルの使用 &#x200B;](https://video.tv.adobe.com/v/38412?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションモデルの並列比較の追加 &#x200B;](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アトリビューションモデルの並列比較の追加 &#x200B;](https://video.tv.adobe.com/v/327795?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

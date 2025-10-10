@@ -45,7 +45,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)、[ブレットグラフのビジュアライゼーション](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)、[ブレットグラフのビジュアライゼーション](https://video.tv.adobe.com/v/41510/?quality=12/?quality=12&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

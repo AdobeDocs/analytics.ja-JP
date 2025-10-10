@@ -37,7 +37,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ドーナツビジュアライゼーションの追加](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ドーナツビジュアライゼーションの追加](https://video.tv.adobe.com/v/3416776/?quality=12&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -19,7 +19,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツールの比較](https://video.tv.adobe.com/v/30746?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

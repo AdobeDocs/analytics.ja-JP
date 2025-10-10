@@ -111,7 +111,7 @@ insightでAnalysis Workspaceのパフォーマンスを確認するには：
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 生産性を向上させるためのヒント &#x200B;](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 生産性を向上させるためのヒント &#x200B;](https://video.tv.adobe.com/v/34728?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/38124?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/3445767?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3413789?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3420562?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

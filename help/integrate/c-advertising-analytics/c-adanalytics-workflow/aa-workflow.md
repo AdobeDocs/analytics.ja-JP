@@ -15,7 +15,7 @@ ht-degree: 41%
 Advertising Analyticsを設定するワークフローは、次の手順で構成されます。
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38422/?quality=12&captions=jpn)
 -->
 
 1. [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 対応レポートスイートの [!UICONTROL Advertising Analytics] レポートを有効にします。

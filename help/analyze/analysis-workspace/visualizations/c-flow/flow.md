@@ -47,7 +47,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://video.tv.adobe.com/v/3410743?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://video.tv.adobe.com/v/328265?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

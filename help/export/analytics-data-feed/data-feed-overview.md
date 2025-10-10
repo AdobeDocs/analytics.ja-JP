@@ -36,7 +36,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィードインターフェイスの操作 &#x200B;](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィードインターフェイスの操作 &#x200B;](https://video.tv.adobe.com/v/3428564?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
