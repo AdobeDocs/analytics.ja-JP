@@ -22,7 +22,7 @@ ht-degree: 0%
 
 スパークラインは、フリーフォームテーブルの指標列ヘッダーに表示されます。
 
-![ フリーフォームテーブルのスパークライン ](assets/table-sparkline.png)
+![&#x200B; フリーフォームテーブルのスパークライン &#x200B;](assets/table-sparkline.png)
 
 スパークラインには常に以下が含まれます。
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 * テーブルディメンションに適用される検索フィルター条件
 
-  詳しくは、「[ フィルターと並べ替え ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
+  詳しくは、「[&#x200B; フィルターと並べ替え &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
 
 ## 折れ線グラフのビジュアライゼーションを使用したトレンドデータの表示
 
-[ 折れ線グラフ ](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーションには、接続先のフリーフォームテーブルのデータが表示されます。
+[&#x200B; 折れ線グラフ &#x200B;](/help/analyze/analysis-workspace/visualizations/line.md) ビジュアライゼーションには、接続先のフリーフォームテーブルのデータが表示されます。
 
 ### 線のビジュアライゼーションのフリーフォームテーブルへの接続
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. ビジュアライゼーション名の横にある点を選択し、「**[!UICONTROL データソース]**」タブを選択した後、折れ線グラフビジュアライゼーションに接続するフリーフォームテーブルの名前を選択します。
 
-   ![ フリーフォームテーブルに接続された線のビジュアライゼーション ](assets/table-line-viz.png)
+   ![&#x200B; フリーフォームテーブルに接続された線のビジュアライゼーション &#x200B;](assets/table-line-viz.png)
 
 ### 折れ線グラフのビジュアライゼーションに含めるデータを選択
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 スパークライン セルを選択すると、セルが濃い灰色で表示されます。
 
-![ スパークラインを選択 ](assets/table-sparkline-selected.png)
+![&#x200B; スパークラインを選択 &#x200B;](assets/table-sparkline-selected.png)
 
 接続されたテーブルのスパークライン セルを選択した場合、線のビジュアライゼーションには次のものが含まれます。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 * テーブルディメンションに適用される検索フィルター条件
 
-  詳しくは、「[ フィルターと並べ替え ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
+  詳しくは、「[&#x200B; フィルターと並べ替え &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
 
 接続されたテーブルのスパークラインが選択されていない場合、折れ線グラフのビジュアライゼーションには次のものが含まれます。
 
@@ -70,10 +70,10 @@ ht-degree: 0%
 
 * テーブルディメンションに適用された検索フィルター条件は無視されます
 
-  詳しくは、「[ フィルターと並べ替え ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
+  詳しくは、「[&#x200B; フィルターと並べ替え &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)」を参照してください。
 
 
 ## 接続線のビジュアライゼーションにフィルター条件を含める
 
-フィルター条件が連結線のビジュアライゼーションに含まれるタイミングについて詳しくは、[ スパークラインと線のビジュアライゼーションのトレンドデータにフィルター条件を含める ](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations) を参照してください。
+フィルター条件が連結線のビジュアライゼーションに含まれるタイミングについて詳しくは、[&#x200B; スパークラインと線のビジュアライゼーションのトレンドデータにフィルター条件を含める &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations) を参照してください。
 
