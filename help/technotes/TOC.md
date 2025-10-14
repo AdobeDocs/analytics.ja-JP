@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
    + [データのサードパーティ製品との比較](ga-to-aa/compare-data.md)
++ [AI トラフィックの分析](/help/technotes/ai-traffic.md)
 + イベントの影響を受けるデータの分析 {#event}
    + [イベントの影響を受けるデータの分析の概要 ](event/overview.md)
    + [データの急増／急減のトラブルシューティング](event/spikes-drops.md)

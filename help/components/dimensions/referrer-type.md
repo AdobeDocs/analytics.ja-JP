@@ -3,16 +3,16 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
 # リファラータイプ
 
-「リファラータイプ」 [&#x200B; ディメンション &#x200B;](overview.md) は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [ ディメンション ](overview.md) は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
@@ -24,10 +24,34 @@ ht-degree: 96%
 
 * **手動入力／ブックマーク**：ヒットのリファラーデータが存在しません。
 * **検索エンジン**：このリファラーは、キーワードクエリ文字列を含む認識済みの検索エンジンから来ています。
+* **対話型 AI ツール**：リファラーは、認識されている対話型 AI ツールから取得しました。
 * **ソーシャルネットワーク**：リファラーデータは、アドビが認識するソーシャルネットワークに属していました。
 * **その他の Web サイト**：リファラーデータが、アドビが認識する検索エンジンまたはソーシャルネットワークに属していませんでした。
+* **JavaScriptなし**:JavaScriptが有効になっていないブラウザーからのリファラーです。
 * **ハードドライブ**：リファラーは、訪問者のハードドライブ上の Web ページのローカルコピーから発生しました。
 * **電子メール**：リファラーは、`imap://` または `mail://` のプロトコルを持つ URL から発生します。オンライン電子メールサービスは、通常は `https://` プロトコルを使用するので、含まれません。
+
+### 対話型 AI ツール
+
+以下のリストは、Adobeが使用する「対話型 AI ツール」ルックアップテーブルを参照します。 アドビは、このリストを Adobe Analytics のお客様に対して提供しています。アドビがこのリストにドメインを追加することを推奨する場合は、組織のサポート委任者がサポートにお問い合わせください。
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### SNS
 
