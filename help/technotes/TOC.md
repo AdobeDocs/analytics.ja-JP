@@ -33,7 +33,7 @@ ht-degree: 98%
    + [データのサードパーティ製品との比較](ga-to-aa/compare-data.md)
 + [AI トラフィックの分析](/help/technotes/ai-traffic.md)
 + イベントの影響を受けるデータの分析 {#event}
-   + [イベントの影響を受けるデータの分析の概要 ](event/overview.md)
+   + [イベントの影響を受けるデータの分析の概要 &#x200B;](event/overview.md)
    + [データの急増／急減のトラブルシューティング](event/spikes-drops.md)
    + [分析内の特定の日付を除外する](event/segments.md)
    + [日付を前の範囲と比較する](event/compare-dates.md)
