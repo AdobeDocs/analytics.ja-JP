@@ -5,10 +5,10 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 9035ea758a5e84812460c042685eae954303cc8a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の折れ線グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[折れ線グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/line)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の折れ線グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[折れ線グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/line)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 |---|---|
 | **[!UICONTROL 精度]** | 精度ドロップダウンから選択して、トレンドビジュアライゼーションを日別から週別、月別などに変更できます。データソーステーブルの精度も更新されます。 |
 | **[!UICONTROL 最小値を表示]** <br/>**[!UICONTROL 最大値を表示&#x200B;]** | 最小値と最大値のラベルをオーバーレイして、指標の最小値と最大値をハイライト表示できます。メモ：最小値と最大値は、ディメンション内のすべての値ではなく、ビジュアライゼーション内に表示されたデータポイントから得られます。<br/>![最小値と最大値のラベルを持つオーバーレイ。](assets/min-max-labels.png) |
-| **[!UICONTROL トレンドラインを表示]** | 回帰または移動平均トレンドラインを線系列に追加できます。トレンドラインは、データのパターンをより明確に表現するのに役立ちます。選択した場合、リストからモデルを選択します。使用可能なモデルの概要および説明について詳しくは、[モデル](#models)を参照してください。<br/>![線形トレンドライン](assets/show-linear-trendline.png)。 |
-
->[!TIP]
->
->トレンドラインは、本日（データの一部）や未来の日付を含まないデータに適用することをお勧めします。本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。
-
-
+| **[!UICONTROL トレンドラインを表示]** | 回帰または移動平均トレンドラインを線系列に追加できます。トレンドラインは、データのパターンをより明確に表現するのに役立ちます。選択した場合、リストからモデルを選択します。使用可能なモデルの概要および説明について詳しくは、[モデル](#models)を参照してください。<br/>![線形トレンドライン](assets/show-linear-trendline.png)。<p>**ヒント** トレンドラインは、今日（部分的なデータ）や将来の日付を含まないデータに適用することをお勧めします。 本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。</p> |
 
 ### モデル
 
@@ -67,7 +61,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

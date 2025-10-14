@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + フリーフォームテーブル {#freeform-table}
          + [概要](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [ハイパーリンクを作成](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [トレンドデータの表示](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [フィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + 列および行の設定 {#column-row-settings}
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [フィルタリングと並べ替え](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [概要](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
