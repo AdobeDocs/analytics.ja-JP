@@ -271,13 +271,13 @@ B で識別される条件を持つコンポーネントのシーケンス、お
 
 ![&#x200B; 論理グループとの最初の一致を使用した例 &#x200B;](assets/logicgroup-example-firstmatch.png)
 
-#### [!UICONTROL Exclude][!UICONTROL And]
+#### [!UICONTROL Exclude]&#x200B;[!UICONTROL And]
 
 あるページを訪問した訪問者が他のページのセットを明示的に訪問せず、さらに別のページを訪問した訪問者を特定します。 例えば、ホームページを訪問したものの、男性ページや女性ページにはアクセスせず、子供ページにはアクセスした訪問者などです。
 
 ![&#x200B; 論理グループの除外および &#x200B;](assets/logicgroup-exclude-and.png)
 
-#### [!UICONTROL Exclude][!UICONTROL Or]
+#### [!UICONTROL Exclude]&#x200B;[!UICONTROL Or]
 
 あるページを訪問した訪問者を特定し、一連のページのどのページにも明示的に訪問せず、さらに別のページにも訪問した訪問者を特定します。 例えば、ホームページを訪問したものの、男性および女性ページにはアクセスせず、子供ページにはアクセスした訪問者などです。
 

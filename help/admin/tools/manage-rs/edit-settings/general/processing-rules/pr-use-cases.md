@@ -95,7 +95,7 @@ ht-degree: 24%
 | ルールセット | 値 |
 | --- | --- |
 | 条件 | [!UICONTROL &#x200B; ページ名 &#x200B;] が「製品の概要」に等しい場合 |
-| アクション | [!UICONTROL &#x200B; イベント &#x200B;][!UICONTROL &#x200B; 製品表示 &#x200B;] を [!UICONTROL &#x200B; カスタム値 &#x200B;] `1` に設定 |
+| アクション | [!UICONTROL &#x200B; イベント &#x200B;]&#x200B;[!UICONTROL &#x200B; 製品表示 &#x200B;] を [!UICONTROL &#x200B; カスタム値 &#x200B;] `1` に設定 |
 
 ![&#x200B; イベントセットを条件付きで表示する処理ルールインターフェイスのスクリーンショット &#x200B;](assets/set-product-view-event.png)
 
