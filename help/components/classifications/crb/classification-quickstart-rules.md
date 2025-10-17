@@ -25,7 +25,7 @@ ht-degree: 57%
 * **メール** および **ディスプレイ広告**： メールキャンペーンに対するディスプレイ広告キャンペーンのパフォーマンスを確認できるように、個々のディスプレイ広告キャンペーンをグループ化する分類ルールを作成します。
 
 * **トラッキングコード**：トラッキングコードの文字列から派生したキー値を分類し、定義した特定の条件に一致させる分類ルールを作成します。
-* **検索用語**: [ 正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) とワイルドカードを使用して、検索用語の分類を簡略化します。 例えば、検索語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
+* **検索用語**: [&#x200B; 正規表現 &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) とワイルドカードを使用して、検索用語の分類を簡略化します。 例えば、検索語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
 
 例えば、メールキャンペーン ID が次のトラッキングコードを持つとします。
 
@@ -49,8 +49,8 @@ about_classification_rules.xml
 
  -->
 
-* [ 重要な規則等 ](/help/components/classifications/crb/classification-rule-builder.md)
-* [ ルールでキーが分類されないのはどのような場合ですか？](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; 重要な規則等 &#x200B;](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; ルールでキーが分類されないのはどのような場合ですか？](/help/components/classifications/crb/classification-rule-builder.md)
 * [ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
@@ -63,9 +63,9 @@ about_classification_rules.xml
 
 * **レポートスイート**：少なくとも 1 つのレポートスイートが選択されるまで、分類を選択できません。 ルールセットを作成して変数を割り当てるまで、レポートスイートを適用できません。
 
-  ルールセットをテストする場合、レポートのキー（分類される変数）を使用して、ルールセットによってどの程度影響を受けるかを確認します。 （[ キー ](/help/components/classifications/importer/c-saint-data-files.md) は、分類されている変数または分類アップロードテーブルの最初の列です。）
+  ルールセットをテストする場合、レポートのキー（分類される変数）を使用して、ルールセットによってどの程度影響を受けるかを確認します。 （[&#x200B; キー &#x200B;](/help/components/classifications/importer/c-saint-data-files.md) は、分類されている変数または分類アップロードテーブルの最初の列です。）
 
-* **ルールの優先度**：キーが同じ分類を設定した複数のルール（「[!UICONTROL  分類を設定 ]」列内）と一致する場合、分類に一致した最後のルールが使用されます。 [ ルール優先度について ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+* **ルールの優先度**：キーが同じ分類を設定した複数のルール（「[!UICONTROL &#x200B; 分類を設定 &#x200B;]」列内）と一致する場合、分類に一致した最後のルールが使用されます。 [&#x200B; ルール優先度について &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 * **ルール数の制限**：作成できるルール数に設定された制限はありません。 ただし、多数のルールがブラウザーのパフォーマンスに影響を与える可能性があります。
 * **処理**：ルールは、分類関連のトラフィックの量に応じて、頻繁に処理されます。
@@ -78,11 +78,11 @@ about_classification_rules.xml
 
 ルールをアクティブ化すると、既存の分類を上書きできます。 次の状況では、次の場合、分類ルールは [key](/help/components/classifications/importer/c-saint-data-files.md) （変数）を分類しません。
 
-* キーは既に分類済みで、「分類を上書き [ を選択していません ](/help/components/classifications/crb/classification-rule-definitions.md)。
+* キーは既に分類済みで、「分類を上書き [&#x200B; を選択していません &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md)。
 
-  ルールを [ 追加してアクティブ化 ](/help/components/classifications/crb/classification-quickstart-rules.md) するとき、および Data Connectors 統合をアクティブ化する際に、分類を上書きできます。 （データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
+  ルールを [&#x200B; 追加してアクティブ化 &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) するとき、および Data Connectors 統合をアクティブ化する際に、分類を上書きできます。 （データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
 
-* [ 分類を上書き ](/help/components/classifications/crb/classification-rule-definitions.md) を有効にした後でも、キーを上書きするときに指定した時間枠以降に、分類されたキーがデータに表示されない。
+* [&#x200B; 分類を上書き &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) を有効にした後でも、キーを上書きするときに指定した時間枠以降に、分類されたキーがデータに表示されない。
 * キーが分類されず、約 1 ヶ月前から始まる時間枠が経過した後もキーが [!DNL Adobe Analytics] に渡されない。
 
   >[!NOTE]
@@ -133,7 +133,7 @@ about_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &amp;Hat;(.+）\:（.+）\:（.+）$ | キャンペーン日 | $3 |
+| 正規表現 | &Hat;(.+）\:（.+）\:（.+）$ | キャンペーン日 | $3 |
 
 **構文**
 
@@ -255,7 +255,7 @@ c:d:yoyo
 
 ## ルールの優先度について
 
-キーが複数のルールと一致し、[!UICONTROL  分類の設定 ] 列に表示されているのと同じ分類列を設定する場合は、最後のルールが使用されます。 したがって、ルールセット内で最も重要な最後の項目をランク付けすることができます。
+キーが複数のルールと一致し、[!UICONTROL &#x200B; 分類の設定 &#x200B;] 列に表示されているのと同じ分類列を設定する場合は、最後のルールが使用されます。 したがって、ルールセット内で最も重要な最後の項目をランク付けすることができます。
 
 <!-- 
 
@@ -296,7 +296,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルールの推奨数は 500 ～ 1000 ですが、制限はありません。 ルールが 100 を超える場合は、[ 下位分類 ](/help/components/classifications/importer/subclassifications.md) を使用してルールセットを簡素化することを検討してください。
+>この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルールの推奨数は 500 ～ 1000 ですが、制限はありません。 ルールが 100 を超える場合は、[&#x200B; 下位分類 &#x200B;](/help/components/classifications/importer/subclassifications.md) を使用してルールセットを簡素化することを検討してください。
 
 分類ルールを追加または編集するには：
 
@@ -315,7 +315,7 @@ t_classification_rule.xml
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
    >
-   >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
+   >   （この前提条件については、 [&#x200B; 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
@@ -368,7 +368,7 @@ t_classifications_test_rule.xml
    * トラッキングコード
    * キーワードまたはフレーズを検索
 
-   正規表現のテストについて詳しくは、[ 分類ルールの正規表現 ](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
+   正規表現のテストについて詳しくは、[&#x200B; 分類ルールの正規表現 &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 1. 「**[!UICONTROL テストを実行]**」をクリックします。
 
    「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。
