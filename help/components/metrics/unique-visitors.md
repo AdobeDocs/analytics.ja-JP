@@ -22,4 +22,4 @@ Analysis Workspace は、レポートの精度に基づいてユニーク訪問�
 
 ## この指標の計算方法
 
-この指標は、特定のディメンション項目のユニーク訪問者 ID の数をカウントします。 Adobe Analyticsによるユニーク訪問者の識別方法について詳しくは、[ 訪問者特定の概要 ](/help/implement/id/overview.md) を参照してください。
+この指標は、特定のディメンション項目のユニーク訪問者 ID の数をカウントします。 Adobe Analyticsによるユニーク訪問者の識別方法について詳しくは、[&#x200B; 訪問者特定の概要 &#x200B;](/help/implement/id/overview.md) を参照してください。

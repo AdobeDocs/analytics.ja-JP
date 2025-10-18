@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025 年 10 月** | |
-| 追加の訪問者特定の改善 | [ 訪問者の識別 ](/help/implement/id/overview.md) の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨される方法の概要を説明しました。 |
+| 追加の訪問者特定の改善 | [&#x200B; 訪問者の識別 &#x200B;](/help/implement/id/overview.md) の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨される方法の概要を説明しました。 |
 | **2025年9月** | |
 | 訪問者の識別の改善 | AppMeasurement の [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
 | **2025年8月** | |
