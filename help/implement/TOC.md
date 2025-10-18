@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,14 @@ ht-degree: 100%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [モジュールの統合](vars/integrate.md)
++ 訪問者の識別 {#id}
+   + [概要](id/overview.md)
+   + [AppMeasurementの使用](id/appmeasurement.md)
+   + [Analytics 拡張機能の使用](id/analytics-extension.md)
+   + [Web SDK（Alloy）の使用](id/alloy.md)
+   + [Web SDK拡張機能の使用](id/web-sdk-extension.md)
+   + [訪問者 ID サービスへの移行](id/migration.md)
+   + [複数の実装タイプをまたいだ追跡](id/cross-type-implementation.md)
 + Adobe Analytics の実装準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
    + [実装方法の比較](prepare/comparison.md)
@@ -188,7 +196,6 @@ ht-degree: 100%
 + [Analytics のモバイルデバイスへの実装](mobile-device-sdk.md)
 + 実装のユースケース {#use-cases}
    + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
-   + [異なる実装タイプでのトラッキング](use-cases/cross-type-implementation.md)
    + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
 + 実装の検証 {#validate}
    + [レガシー Adobe Experience Cloud デバッガー](validate/debugger.md)

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+source-git-commit: 1aa23ebe6adf01798e172563993df107789520ae
 workflow-type: tm+mt
-source-wordcount: '6482'
-ht-degree: 100%
+source-wordcount: '6504'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2025 年 10 月** | |
+| 追加の訪問者特定の改善 | [ 訪問者の識別 ](/help/implement/id/overview.md) の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨される方法の概要を説明しました。 |
 | **2025年9月** | |
 | 訪問者の識別の改善 | AppMeasurement の [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
 | **2025年8月** | |
@@ -163,7 +165,7 @@ ht-degree: 100%
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。[パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
 | モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。Customer Journey Analytics の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
-| 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/use-cases/cross-type-implementation.md)の使用例を更新しました。 |
+| 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/id/cross-type-implementation.md)の使用例を更新しました。 |
 | **2023年1月** | |
 | テーブルのフィルタリングと並べ替え | [テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)に関する記事の内容を更新しました（手順の追加や使用可能なオプションの説明など）。この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)用の専用ページ。 |
@@ -356,6 +358,6 @@ ht-degree: 100%
 | 2019年3月14日 | 地域データ収集が大幅に更新されました。 |
 | 2019年2月7日 | [一般アカウント設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
-| 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます。（計算指標はサポートされません）。</li></ul> |
+| 2019年1月17日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションではなくチャーンを表示します。</li><li>遅延テーブル （インクルージョンイベントの前後の経過時間）を表示します。</li><li>コホートディメンションをカスタマイズ （時間だけでなく、eVarに基づいて訪問者をグループ化）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます。（計算指標はサポートされません）。</li></ul> |
 | 2019年1月17日 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
 | 2019年1月17日 | [Attribution での複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md)。Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、リスト prop、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace では、このような変数にヒットレベルで Attribution を適用できるようになりました。 |
