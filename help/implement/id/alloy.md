@@ -12,4 +12,4 @@ ht-degree: 0%
 
 Adobe Experience Platform Web SDK（`alloy.js`）は、Adobe Analyticsを含むすべてのAdobe Experience Cloud アプリケーションに対して、統合された最新のデータ収集アプローチを提供します。 ID データを拡張して、XDM の `identityMap` を使用してカスタム ID と複数の名前空間をサポートすることができます。 Adobeでは、高度なシナリオを実現するために、他の ID 管理オプションを使用して、Adobe Experience Cloud ID サービスを Analytics のプライマリ ID として使用することをお勧めします。
 
-組織で Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを送信する場合、訪問者の識別に必要な設定は最小限です。 訪問者 ID サービスは、ライブラリにネイティブにベイク処理されます。ただし、**[!UICONTROL コマンドで]** 0}Edge Domain} を設定する必要があります。 `configure`このフィールドを目的の値に設定すると、追加の設定を行わなくても訪問者の識別が機能します。
+組織で Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを送信する場合、訪問者の識別に必要な設定は最小限です。 訪問者 ID サービスは、ライブラリにネイティブにベイク処理されます。ただし、**[!UICONTROL コマンドで]** 0&rbrace;Edge Domain&rbrace; を設定する必要があります。 `configure`このフィールドを目的の値に設定すると、追加の設定を行わなくても訪問者の識別が機能します。
