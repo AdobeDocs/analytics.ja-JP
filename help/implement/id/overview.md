@@ -24,9 +24,9 @@ Adobeがヒットを受け取ると、次のチェックが順番に行われま
 | 使用する順序 | クエリパラメーター | 次の場合に存在 |
 |---|---|---|
 | **1<sup></sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
-| **2<sup> 目</sup>** | `aid` | 訪問者が既存の [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
-| **4<sup> 目</sup>** | `fid` | 訪問者が既存の [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている場合、または何らかの理由で `aid` と `mid` を設定できませんでした。 |
+| **2<sup> 目</sup>** | `aid` | 訪問者が既存の [`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 訪問者 ID サービスを実装しない、または実装する前に設定します。 |
+| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
+| **4<sup> 目</sup>** | `fid` | 訪問者が既存の [`s_fid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている場合、または何らかの理由で `aid` と `mid` を設定できませんでした。 |
 | **5<sup> 目</sup>** | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 訪問者のブラウザーが Cookie を受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 |
 
 ## ユニーク訪問者数に影響する動作
