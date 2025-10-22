@@ -19,7 +19,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/3428475?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
