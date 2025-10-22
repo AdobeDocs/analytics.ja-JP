@@ -25,11 +25,11 @@ Adobeがヒットを受け取ると、次のチェックが順番に行われま
 |---|---|---|
 | **1<sup></sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
 | **2<sup> 目</sup>** | `aid` | 訪問者が既存の [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
+| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
 | **4<sup> 目</sup>** | `fid` | 訪問者が既存の [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 何らかの理由で `aid` および `mid` を設定できない場合、AppMeasurementはフォールバック ID を自動生成します。 |
-| **5<sup> 目</sup>** | IP アドレス + ユーザーエージェント | 訪問者のブラウザーが Cookie を受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 ハッシュ化された訪問者 ID は、[IP の不明化 ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) の前に生成されます。 IP アドレスが使用できない場合は、他の IP 詳細（ゲートウェイ IP など）が代わりに使用されます。 |
+| **5<sup> 目</sup>** | IP アドレス + ユーザーエージェント | 訪問者のブラウザーが Cookie を受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 ハッシュ化された訪問者 ID は、[IP の不明化 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) の前に生成されます。 IP アドレスが使用できない場合は、他の IP 詳細（ゲートウェイ IP など）が代わりに使用されます。 |
 
-選択された訪問者 ID はハッシュ化され、サーバーサイドの識別子になります。 このサーバーサイド識別子は、`visid_high` データフィード `visid_low` で [ + ](/help/export/analytics-data-feed/data-feed-overview.md) として使用できます。
+選択された訪問者 ID はハッシュ化され、サーバーサイドの識別子になります。 このサーバーサイド識別子は、`visid_high` データフィード `visid_low` で [&#x200B; + &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md) として使用できます。
 
 ## ユニーク訪問者数に影響する動作
 
@@ -42,7 +42,7 @@ Adobeがヒットを受け取ると、次のチェックが順番に行われま
 * 様々なデバイスでサイトを訪問します。 ユニーク訪問者は、デバイスごとに 1 人とカウントされます。
 * 13 か月以上無操作状態が続いた後にサイトを訪問します。
 
-Customer Journey Analyticsで [ ステッチ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/stitching/overview) を使用し、複数のブラウザーまたは複数のデバイスを使用して同じ人物を識別することを検討してください。
+Customer Journey Analyticsで [&#x200B; ステッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/stitching/overview) を使用し、複数のブラウザーまたは複数のデバイスを使用して同じ人物を識別することを検討してください。
 
 ## ユニーク訪問者数に影響を与えない動作
 

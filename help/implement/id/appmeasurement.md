@@ -16,8 +16,8 @@ AppMeasurementは、Adobe Analyticsの従来のデータ収集用JavaScript ラ�
 
 次の準備が整っていることを確認します。
 
-* [AppMeasurementの最新バージョン ](https://github.com/adobe/appmeasurement) をダウンロードします。 ダウンロードしたライブラリには、`AppMeasurement.js` と `VisitorAPI.js` の両方が含まれています。
-* 開発 [ レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
+* [AppMeasurementの最新バージョン &#x200B;](https://github.com/adobe/appmeasurement) をダウンロードします。 ダウンロードしたライブラリには、`AppMeasurement.js` と `VisitorAPI.js` の両方が含まれています。
+* 開発 [&#x200B; レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の目的のエッジドメイン。
 * IMS 組織 ID :
    1. Adobe IDの資格情報を使用して [experience.adobe.com](https://experience.adobe.com) にログインします。
