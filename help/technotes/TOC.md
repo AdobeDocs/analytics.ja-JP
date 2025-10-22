@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '205'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
    + [データのサードパーティ製品との比較](ga-to-aa/compare-data.md)
 + [AI トラフィックの分析](/help/technotes/ai-traffic.md)
 + イベントの影響を受けるデータの分析 {#event}
-   + [イベントの影響を受けるデータの分析の概要 &#x200B;](event/overview.md)
+   + [イベントの影響を受けるデータの分析の概要](event/overview.md)
    + [データの急増／急減のトラブルシューティング](event/spikes-drops.md)
    + [分析内の特定の日付を除外する](event/segments.md)
    + [日付を前の範囲と比較する](event/compare-dates.md)
@@ -66,5 +66,4 @@ ht-degree: 98%
 + [ログインのトラブルシューティング](troubleshoot-login.md)
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
 + [未指定、その他および不明](unspecified.md)
-+ [訪問者の移行](visitor-migration.md)
 + [VISTA ルール](vista.md)

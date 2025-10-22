@@ -1,9 +1,9 @@
 ---
 title: AppMeasurementを使用した訪問者の識別
 description: AppMeasurementを使用してAdobe Analyticsを実装する場合に、訪問者を正しく識別する。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ AppMeasurementは、Adobe Analyticsの従来のデータ収集用JavaScript ラ�
 
 次の準備が整っていることを確認します。
 
-* [AppMeasurementの最新バージョン &#x200B;](https://github.com/adobe/appmeasurement) をダウンロードします。 ダウンロードしたライブラリには、`AppMeasurement.js` と `VisitorAPI.js` の両方が含まれています。
-* 開発 [&#x200B; レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
+* [AppMeasurementの最新バージョン ](https://github.com/adobe/appmeasurement) をダウンロードします。 ダウンロードしたライブラリには、`AppMeasurement.js` と `VisitorAPI.js` の両方が含まれています。
+* 開発 [ レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の目的のエッジドメイン。
 * IMS 組織 ID :
    1. Adobe IDの資格情報を使用して [experience.adobe.com](https://experience.adobe.com) にログインします。
@@ -64,9 +64,9 @@ AppMeasurementは、Adobe Analyticsの従来のデータ収集用JavaScript ラ�
 >
 >Adobeでは、この手法を使用して訪問者を特定することはお勧めしません。
 
-組織で訪問者 ID サービスを使用しない場合、AppMeasurementは独自の訪問者識別形式を使用します。 訪問者が初めてサイトに到達すると、ライブラリは [`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie をチェックします。 この cookie は、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPS の場合）または [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （HTTP の場合）に一致するドメインに設定されます。
+組織で訪問者 ID サービスを使用しない場合、AppMeasurementは独自の訪問者識別形式を使用します。 訪問者が初めてサイトに到達すると、ライブラリは [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie をチェックします。 この cookie は、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPS の場合）または [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （HTTP の場合）に一致するドメインに設定されます。
 
-* [Managed certificate program](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert) に参加する場合、トラッキングサーバーは通常、ファーストパーティドメインで、Cookie がファーストパーティ `s_vi` なっています。
+* [Managed certificate program](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) に参加する場合、トラッキングサーバーは通常、ファーストパーティドメインで、Cookie がファーストパーティ `s_vi` なっています。
 * 管理証明書プログラムに参加していない場合、トラッキングサーバーは通常、`adobedc.net`、`omtrdc.net`、`2o7.net` のサブドメインであり、`s_vi` cookie をサードパーティ cookie にします。 最新のブラウザープライバシー標準により、ほとんどのブラウザーでサードパーティ cookie が拒否されます。 拒否されると、AppMeasurementは代わりにファーストパーティ フォールバック cookie （`fid`）を設定しようとします。
 
 `trackingServerSecure` を正しく設定した場合、それ以上の訪問者識別測定は必要ありません。
@@ -82,7 +82,7 @@ AppMeasurementは、Adobe Analyticsの従来のデータ収集用JavaScript ラ�
 * 単一の訪問者としてカウントされるには、すべてのヒットに同じ `visitorID` 値が含まれている必要があります。
    * `visitorID` を省略したヒットは、自動的に別の訪問者識別方法を使用して、別の訪問者として扱います。
    * 以前のヒットと異なる `visitorID` 値を含むヒットは、別の訪問者として扱われます。
-   * Adobeでは、異なる訪問者 ID を使用してヒットをステッチする方法は提供されていません。
+   * Adobeでは、Adobe Analyticsで異なる訪問者 ID を使用してヒットをステッチする方法は提供されていません。
 * 共有オーディエンス、Analytics for Target および顧客属性は、`visitorID` を使用して識別された訪問者ではサポートされません。
 
 この変数を使用した実装手順については、[`visitorID`](/help/implement/vars/config-vars/visitorid.md) を参照してください。

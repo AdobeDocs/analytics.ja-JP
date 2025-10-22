@@ -1,10 +1,10 @@
 ---
 title: Adobe Analyticsでの訪問者の ID
 description: 最新のベストプラクティスを使用して、Adobe Analyticsで訪問者を特定する方法を説明します。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '572'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,17 @@ Adobe Analyticsの訪問者 ID は、次のコンポーネントで構成され�
 
 ## Adobe Analytics工程の ID 順序
 
-Adobeがヒットを受け取ると、次のチェックが順番に行われます。 指定されたプロパティが存在する場合、Adobeはヒットにその識別情報を使用します。 ヒットに複数の識別子が存在する場合は、最初のメソッドのみが使用されます。
+Adobeがヒットを受け取ると、次のチェックが順番に行われます。 指定されたプロパティが存在する場合、Adobeはヒットにその識別情報を使用します。 ヒットに複数の識別子が存在する場合は、最初のメソッドのみが使用されます。 なお、操作の順序は、Adobeが訪問者を識別するために推奨する順序を反映しません。
 
 | 使用する順序 | クエリパラメーター | 次の場合に存在 |
 |---|---|---|
 | **1<sup></sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
-| **2<sup> 目</sup>** | `aid` | 訪問者が既存の [`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
-| **4<sup> 目</sup>** | `fid` | 訪問者が既存の [`s_fid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている場合、または何らかの理由で `aid` と `mid` を設定できませんでした。 |
-| **5<sup> 目</sup>** | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 訪問者のブラウザーが Cookie を受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 |
+| **2<sup> 目</sup>** | `aid` | 訪問者が既存の [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 訪問者 ID サービスを実装しない、または実装する前に設定します。 |
+| **3<sup></sup>** | `mid` | 訪問者が既存の [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 [Adobe Experience Cloud ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用した実装に設定します。 Adobeでは、可能な限り、すべての実装に ID サービスを使用することをお勧めします。 |
+| **4<sup> 目</sup>** | `fid` | 訪問者が既存の [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie を持っている。 何らかの理由で `aid` および `mid` を設定できない場合、AppMeasurementはフォールバック ID を自動生成します。 |
+| **5<sup> 目</sup>** | IP アドレス + ユーザーエージェント | 訪問者のブラウザーが Cookie を受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 ハッシュ化された訪問者 ID は、[IP の不明化 ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) の前に生成されます。 IP アドレスが使用できない場合は、他の IP 詳細（ゲートウェイ IP など）が代わりに使用されます。 |
+
+選択された訪問者 ID はハッシュ化され、サーバーサイドの識別子になります。 このサーバーサイド識別子は、`visid_high` データフィード `visid_low` で [ + ](/help/export/analytics-data-feed/data-feed-overview.md) として使用できます。
 
 ## ユニーク訪問者数に影響する動作
 
@@ -40,7 +42,7 @@ Adobeがヒットを受け取ると、次のチェックが順番に行われま
 * 様々なデバイスでサイトを訪問します。 ユニーク訪問者は、デバイスごとに 1 人とカウントされます。
 * 13 か月以上無操作状態が続いた後にサイトを訪問します。
 
-Customer Journey Analyticsで [&#x200B; ステッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/stitching/overview) を使用し、複数のブラウザーまたは複数のデバイスを使用して同じ人物を識別することを検討してください。
+Customer Journey Analyticsで [ ステッチ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/stitching/overview) を使用し、複数のブラウザーまたは複数のデバイスを使用して同じ人物を識別することを検討してください。
 
 ## ユニーク訪問者数に影響を与えない動作
 
