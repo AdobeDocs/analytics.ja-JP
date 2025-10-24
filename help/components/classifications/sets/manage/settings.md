@@ -16,9 +16,9 @@ ht-degree: 2%
 
 **[!UICONTROL 分類セット]** マネージャーで、設定を編集する分類セットを選択します。
 
-必要に応じて、**[!UICONTROL 分類セット：]** 分類セットタイトル **[!UICONTROL ダイアログの _設定_]**タブで、以下の操作を行います。
+必要に応じて、**[!UICONTROL 分類セット：]** 分類セットタイトル **[!UICONTROL ダイアログの _設定_]**&#x200B;タブで、以下の操作を行います。
 
-![ 分類セット – 設定 ](assets/classification-sets-settings.png)
+![&#x200B; 分類セット – 設定 &#x200B;](assets/classification-sets-settings.png)
 
 1. **[!UICONTROL 名前]** を編集します。
 1. **[!UICONTROL 説明（オプション）]** を編集します。

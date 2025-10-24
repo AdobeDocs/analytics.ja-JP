@@ -18,7 +18,7 @@ ht-degree: 53%
 
 履歴データをAdobeに移植することにこだわる場合は、Adobe アカウントチームにお問い合わせください。 導入コンサルタントは貴社のご協力のもと、Google Analytics からデータを書き出し、アドビのデータ収集サーバーが取り込むことのできるデータソースに変換します。
 
-履歴データの移動には、[Customer Journey Analyticsを使用することをお勧めします。これにより ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) 任意のオムニチャネルデータソースを取り込むことができます。
+履歴データの移動には、[Customer Journey Analyticsを使用することをお勧めします。これにより &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) 任意のオムニチャネルデータソースを取り込むことができます。
 
 **多くのレポートで「セグメント化」ドロップダウンリストを使用しています。 [!UICONTROL Analysis Workspace] でドロップダウンを再度作成する方法を教えてください。**
 

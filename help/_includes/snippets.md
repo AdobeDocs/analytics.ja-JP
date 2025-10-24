@@ -12,13 +12,13 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >合理化された新しい [Report Builder](/help/analyze/report-builder/rb-overview.md) は 2024 年 10 月 16 日（PT）にリリースされました。 Mac、Windows および web ブラウザーでサポートされます。
->>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [ 変換 ](/help/analyze/report-builder/convert-workbooks.md) できます。
+>&#x200B;>この従来のReport Builder アドインバージョンは引き続き機能します。 従来のワークブックを新しいReport Builderに [&#x200B; 変換 &#x200B;](/help/analyze/report-builder/convert-workbooks.md) できます。
 
-## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
+## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024 年 1 月 17 日** をもって、Adobeは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは動作を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。詳しくは、[ テンプレートの使用 ](/help/analyze/analysis-workspace/templates/use-templates.md) を参照してください。
+>**2024 年 1 月 17 日** をもって、Adobeは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは動作を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。詳しくは、[&#x200B; テンプレートの使用 &#x200B;](/help/analyze/analysis-workspace/templates/use-templates.md) を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 >
@@ -87,7 +87,7 @@ ht-degree: 87%
 
 アトリビューションコンテナは、アトリビューションの目的の範囲を定義します。使用可能なオプションは次のとおりです。
 
-* **訪問**：訪問コンテナのスコープからのコンバージョンを確認します。 **[!UICONTROL 訪問]** を選択すると、[ アトリビューションルックバックウィンドウ ](#atribution-lookback-window) は自動的に **[!UICONTROL レポートウィンドウ]** に設定され、変更できません。
+* **訪問**：訪問コンテナのスコープからのコンバージョンを確認します。 **[!UICONTROL 訪問]** を選択すると、[&#x200B; アトリビューションルックバックウィンドウ &#x200B;](#atribution-lookback-window) は自動的に **[!UICONTROL レポートウィンドウ]** に設定され、変更できません。
 * **訪問者**：訪問者コンテナのスコープからのコンバージョンを確認します。
 
 ## アトリビューションルックバックウィンドウ {#attribution-lookback-window}
@@ -157,7 +157,7 @@ Customer Journey analytics の様々なビジュアライゼーションは、�
 
 | レポートスイート | 説明 |
 |---|---|
-| ![ 再投稿スイート ](/help/assets/filter-reportsuite.png){width="300"} | **[!UICONTROL レポートスイート]** セクションでは、レポートスイートをフィルタリングできます。 <ul><li>![ 検索 ](/help/assets/icons/Search.svg)*レポートスイートを検索* して、フィルタリングに使用できるレポートスイートを検索できます。</li><li>複数のレポートスイートを選択できます。 使用可能なレポートスイートは、フィルターパネルの他のセクションでの選択内容によって異なります。</li><li>数値は次の内容を示します。<ul><li>**（2）**：選択されたレポートスイートの数（1 つ以上のレポートスイートを選択している場合）。</li><li>**3︎⃣**：現在のフィルターによって生成されたアイテムで使用できるレポートスイートの数。</li><li>4︎⃣：特定のレポートスイートに関連付けられている項目の数。</li></ul></li></ul> |
+| ![&#x200B; 再投稿スイート &#x200B;](/help/assets/filter-reportsuite.png){width="300"} | **[!UICONTROL レポートスイート]** セクションでは、レポートスイートをフィルタリングできます。 <ul><li>![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg)*レポートスイートを検索* して、フィルタリングに使用できるレポートスイートを検索できます。</li><li>複数のレポートスイートを選択できます。 使用可能なレポートスイートは、フィルターパネルの他のセクションでの選択内容によって異なります。</li><li>数値は次の内容を示します。<ul><li>**（2）**：選択されたレポートスイートの数（1 つ以上のレポートスイートを選択している場合）。</li><li>**3︎⃣**：現在のフィルターによって生成されたアイテムで使用できるレポートスイートの数。</li><li>4︎⃣：特定のレポートスイートに関連付けられている項目の数。</li></ul></li></ul> |
 
 ## 有効ステータスのフィルターセクション {#enabledstatusfiltersection}
 
@@ -194,7 +194,7 @@ Customer Journey analytics の様々なビジュアライゼーションは、�
 
 >[!WARNING]
 >
->分類インポーターは非推奨（廃止予定）となり、**2026 年 8 月 31 日** 以降はアクセスできなくなります。 引き続き機能するには、[ 分類セット ](/help/components/classifications/sets/overview.md) エクスペリエンスに切り替えてください。
+>分類インポーターは非推奨（廃止予定）となり、**2026 年 8 月 31 日** 以降はアクセスできなくなります。 引き続き機能するには、[&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) エクスペリエンスに切り替えてください。
 >
 
 
@@ -203,6 +203,6 @@ Customer Journey analytics の様々なビジュアライゼーションは、�
 
 >[!WARNING]
 >
->分類ルールビルダーは非推奨となり、**2026 年 8 月 31 日** 以降はアクセスできなくなります。 引き続き機能させるには、利用可能になったら [ 分類セット ](/help/components/classifications/sets/overview.md) エクスペリエンスに切り替えてください。
+>分類ルールビルダーは非推奨となり、**2026 年 8 月 31 日** 以降はアクセスできなくなります。 引き続き機能させるには、利用可能になったら [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) エクスペリエンスに切り替えてください。
 >
 
