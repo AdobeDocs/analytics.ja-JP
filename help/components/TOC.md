@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + 分類セット {#sets}
       + [概要](classifications/sets/overview.md)
       + [データファイル](classifications/sets/data-files.md)
-      + 分類セットの管理 {#manage}
-         + [分類セットマネージャー](classifications/sets/manage/set-manager.md)
-         + [分類セットを作成](classifications/sets/manage/create.md)
-         + [分類セット設定](classifications/sets/manage/settings.md)
-         + [分類セットスキーマ](classifications/sets/manage/schema.md)
-         + [分類セットルール](classifications/sets/manage/rules.md)
-      + [分類セットジョブマネージャー](classifications/sets/job-manager.md)
-      + 分類セットの統合 {#consolidations}
-         + [統合マネージャー](classifications/sets/consolidations/manage.md)
-         + [統合プロセス](classifications/sets/consolidations/process.md)
+      + 分類セット {#manage}
+         + [管理](classifications/sets/manage/set-manager.md)
+         + [作成と編集](classifications/sets/manage/create.md)
+         + [設定](classifications/sets/manage/settings.md)
+         + [スキーマ](classifications/sets/manage/schema.md)
+         + [ルール](classifications/sets/manage/rules.md)
+      + [分類ジョブ](classifications/sets/job-manager.md)
+      + 分類の統合 {#consolidations}
+         + [管理](classifications/sets/consolidations/manage.md)
+         + [作成と編集](classifications/sets/consolidations/process.md)
    + 分類ルールビルダー（レガシー）{#classifications-rulebuilder}
       + [概要](classifications/crb/classification-rule-builder.md)
       + [分類ルールセット](classifications/crb/classification-rule-set.md)

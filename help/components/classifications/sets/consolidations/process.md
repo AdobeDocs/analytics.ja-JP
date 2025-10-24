@@ -1,50 +1,146 @@
 ---
-title: 分類セットの統合プロセス
-description: 分類セットを統合する完全なプロセス。
+title: 分類の統合の作成と編集
+description: 分類の統合を作成、検証、実行、承認およびキャンセルする方法について説明します。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '812'
+ht-degree: 2%
 
 ---
 
-# 分類セットの統合プロセス
+# 分類の統合の作成と編集
 
-分類の統合を使用すると、複数のデータセットから分類を取得し、それらを 1 つに結合できます。 このインタフェースを使用して、最初から最後まで分類セットの連結を作成します。 このインターフェイスは、従来の分類アーキテクチャから分類セットアーキテクチャに移行する組織にとって最も役立ちます。 分類セットアーキテクチャに既に存在するほとんどの組織は、通常、この統合ワークフローを使用する必要はありません。
+分類セットの統合を使用すると、複数のデータセットから分類を取得し、それらを 1 つに組み合わせることができます。 このインタフェースを使用して、最初から最後まで分類セットの連結を作成します。 このインターフェイスは、従来の分類から分類セットに移行する組織にとって最も役に立ちます。 分類セットを既に使用しているほとんどの組織では、この統合ワークフローを使用する必要はありません。
 
-## 作成
+## 統合の作成
 
-**[!UICONTROL コンポーネント]**/**[!UICONTROL 分類セット]**/**[!UICONTROL 連結]**/**[!UICONTROL 追加]**
+分類統合を作成するには、メイン Adobe Analytics インターフェイスで次の手順を実行します。
 
-連結を作成する場合、次のフィールドを使用できます。
+1. **[!UICONTROL コンポーネント]** メニューから **[!UICONTROL 分類セット]** を選択します。
+1. **[!UICONTROL 分類セット]** マネージャーで、「**[!UICONTROL 統合]**」タブを選択します。
+1. **[!UICONTROL 分類セット – 統合]** マネージャーで、「![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL New]**」を選択します。
+1. **[!UICONTROL 新規連結]** ダイアログで、
 
-* **[!UICONTROL 名前]**：統合の名前。
-* **[!UICONTROL 問題の通知]**：この統合の問題を通知するメールアドレスのコンマ区切りリスト。
-* **[!UICONTROL 一致するデータセット]**：すべての分類セットのドロップダウンリスト。
+   ![ 分類セット – 新規統合 ](assets/classifications-sets-consolidations-new.png)
+   1. **[!UICONTROL 名前]** を入力します。 例：`Consolidation Example`。
+   1. **[!UICONTROL 説明（オプション）]** を入力します。 例：`Example classification set`。
+   1. **[!UICONTROL 問題の通知]** に 1 つ以上のメールアドレス（コンマ区切り）を入力します。 問題に関するメール通知がこれらのユーザーに送信されます。
+   1. **[!UICONTROL 一致する分類セット]** ドロップダウンメニューから分類セットを選択します。
 
-分類セットを選択すると、2 つの列を持つテーブルが表示されます。
+      **[!UICONTROL Source分類セット]** の左側のリストには、選択した分類リストに類似しており、統合に使用できる分類セットが表示されます。
 
-* 右側の列には、統合するすべての分類セットが含まれています。 上記のドロップダウンリストを使用して選択した分類セットから開始します。
-* 左側の列には、最初に選択したデータセットと結合できるすべての分類セットが含まれています。 **統合の対象にするには、スキーマが完全に一致する必要があります**。 選択した分類セットと一致しないスキーマは、この左の列には表示されません。
+   1. 統合する分類セットを左側のリストから選択し、選択したセットを右側のリストの選択した ![ キー ](/help/assets/icons/Key.svg) **[!UICONTROL _分類セット_]** の下にドロップします。
 
-左側の使用可能な列から右側の統合列に目的の分類セットをドラッグします。 統合に名前を付け、2 つ以上の分類セットが右側の列に含まれたら、「**[!UICONTROL 保存して続行]**」をクリックします。
+      リスト内の個々の分類セットや選択した分類セットを移動できます。 また、![ キー ](/help/assets/icons/Key.svg) **[!UICONTROL _分類セット_]** を、ドラッグ&amp;ドロップで選択した分類セットに置き換えることもできます。
 
-## 検証
+   1. 「**[!UICONTROL 保存]**」を選択して、分類の統合を保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-統合を作成すると、ソースデータセットのリストが右側に表示されます。 「**[!UICONTROL 検証]**」ボタンを使用して、個々の分類セットがこの統合に対して有効であることを確認します。 ここで分類ステップを並べ替えると、分類値が一致しない場合の優先度を判断できます。 **リストの最上位の分類セットにより、他の分類セット内の一致しない値が上書きされます。**
+保存すると、分類の統合は自動的に検証され、統合されます。 この検証により、個々の分類セットがこの統合に対して有効であることが確認されます。 成功すると、分類統合リストのエントリにステータス **[!UICONTROL 検証済み]** が表示されます。
 
-## Run
+連結を作成した後、次の手順は次のとおりです。
 
-統合を検証したら、その統合を実行できます。 統合を実行すると、次のテーブル列を含む類似性レポートが表示されます。
+* 初期設定を変更した場合の分類の統合 [ 再検証 ](#re-validate) します。
+* [ 実行 ](#run) 分類統合。
+* [ 承認 ](#approve) 分類の統合。
 
-* **[!UICONTROL データセット名]**：分類セットの名前。
-* **[!UICONTROL 不一致]**：キー値がソース分類セットと一致しなかった行の割合。 不一致の割合が高い場合は、分類データが異なる可能性があります。 選択した分類セットに類似した分類データが含まれていることを確認してください。
-* **[!UICONTROL 不在]**：キー値がその分類セットには含まれているが、ソース分類セットには含まれていない行の割合。 存在しない行はすべて、統合された分類セットに追加されます。
 
-## 承認
 
-個々の分類セットを削除して統合分類セットに置き換える前の最後の呼び出し。 すべてが正しいことを検証してから、「**[!UICONTROL 承認]**」を選択します。
+<!--
+         
+  
 
-承認されると、統合された分類セットが作成されます。 ステータスは [!UICONTROL &#x200B; 完了 &#x200B;] に設定されているので、統合に対してこれ以上のアクションは必要ありません。
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]** > **[!UICONTROL Add]**
+
+The following fields are available when creating a consolidation:
+
+* **[!UICONTROL Name]**: The name of the consolidation.
+* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this consolidation.
+* **[!UICONTROL Dataset to match]**: A drop-down list of all classification sets.
+
+Once you select a classification set, a table with two columns appears:
+
+* The right column contains all classification sets that you want to consolidate. It starts with the classification set selected using the above drop-down list.
+* The left column contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
+
+Drag the desired classification sets from the available column on the left to the consolidation column on the right. Once the consolidation is given a name and two or more classification sets are in the right column, click **[!UICONTROL Save & Continue]**.
+
+-->
+
+## 統合の編集
+
+Adobe Analyticsのメインインターフェイスで分類の統合を編集するには：
+
+1. **[!UICONTROL コンポーネント]** メニューから **[!UICONTROL 分類セット]** を選択します。
+1. **[!UICONTROL 分類セット]** マネージャーで、「**[!UICONTROL 統合]**」タブを選択します。
+1. **[!UICONTROL 分類セット統合]** マネージャーで、次の操作を行います。
+   1. 分類統合のタイトルを選択します。 「統合：分類の統合」ダイアログが表示されます。 表示と使用可能なアクションは、統合の現在のステータスと、分類の統合を変更するオプションがまだあるかどうかによって異なります。
+
+      | 使用可能なアクション | 説明 |
+      |---|---|
+      | ![ キャンセル ](/help/assets/icons/Cancel.svg)**[!UICONTROL キャンセル]** | [ 統合のキャンセル ](#cancel)。 |
+      | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 再検証]** | [ 統合を再検証します ](#re-validate)。 |
+      | ![Play](/help/assets/icons/Play.svg) **[!UICONTROL Run]** | [ 連結を実行します ](#run)。 |
+      | ![ThumbUp](/help/assets/icons/ThumbUp.svg) **[!UICONTROL Approve]** | [ 統合を承認 ](#approve) します。 |
+
+
+
+### 再検証
+
+分類の統合を再検証するには、「統合：分類の統合」ダイアログを使用します。 ![ アラート ](/help/assets/icons/Alert.svg) は、統合の再構成が必要な、統合に関する問題に関する追加情報を提供します。
+
+![ 分類セット – 統合の再検証 ](assets/classifications-sets-consolidations-validated.png)
+
+分類統合を再検証するには、次の手順に従います。
+
+1. 連結を作成した場合と同じドラッグ・アンド・ドロップ・インタフェースを使用して、連結を再構成します。
+1. ![ チェックマーク ](/help/assets/icons/Checkmark.svg)**[!UICONTROL 再検証]** を選択します。 検証により、個々の分類セットがこの統合に対して有効であることが確認されます。 成功すると、トーストメッセージ「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 検証のために統合が正常に送信されました！]**」が表示されます。
+1. ![CrossSize400](/help/assets/icons/CrossSize400.svg) を選択して、ダイアログを閉じます。 または、「![ 再生 ](/help/assets/icons/Play.svg) 実行」を選択して連結を実行するか、「![ キャンセル ](/help/assets/icons/Cancel.svg) キャンセル」を選択して分類をキャンセルします。
+
+
+
+<!--
+Once you have created a consolidation, a list of source datasets appears on the right. The **[!UICONTROL Validate]** button makes sure that each individual classification set is valid for this consolidation. You can reorder the classification steps here to determine priority in cases of mismatched classification values. **The highest classification set in the list overwrites any mismatched values in other classification sets.**
+
+-->
+
+### 実行
+
+分類統合が正常に検証されたら、統合を実行できます。
+
+分類連結を実行する手順は、次のとおりです。
+
+1. 「![ 再生 ](/help/assets/icons/Play.svg)**[!UICONTROL 実行]**」を選択します。 トーストメッセージ ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)**[!UICONTROL 処理のために統合が正常に送信されました！]** が表示されます。
+1. ![CrossSize400](/help/assets/icons/CrossSize400.svg) を選択して、ダイアログを閉じます。
+
+
+### 承認
+
+分類統合が正常に実行されると、統合ステータスは **[!UICONTROL 承認待ち]** になります。 分類統合を承認すると、個々の分類セットが統合分類セットに置き換えられ、個々の分類セットが削除されます。
+
+![ 分類セット – 統合が承認待ち ](assets/classifications-sets-consolidations-waitingforapproval.png)
+
+分類セットの連結を承認する手順は、次のとおりです。
+
+1. **[!UICONTROL 類似性レポート]** を使用して、統合を確認します。 このレポートには、次の列を含むテーブルが表示されます。
+
+   * **[!UICONTROL 分類セット名]**：分類セットの名前。
+   * **[!UICONTROL 不一致]**：キー値がソース分類セットと一致しない行の割合。 ミスマッチの割合が高い場合、ミスマッチは、分類データが異なすぎることを示している可能性があります。 選択した分類セットに類似した分類データが含まれていることを確認してください。
+   * **[!UICONTROL 存在しない]**：キー値が ![ キー ](/help/assets/icons/Key.svg) 分類セットに含まれ、ソース分類セットには含まれない行の割合。 存在しない行はすべて、統合された分類セットに追加されます。
+
+1. 分類の統合を承認する準備ができている場合は、「![ チェックマーク ](/help/assets/icons/Checkmark.svg)**[!UICONTROL 承認]**」を選択します。 **[!UICONTROL 統合を承認しますか？確認]** 求めるダイアログ。 「**[!UICONTROL 承認]**」を選択して、連結を承認します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+
+承認されると、統合された分類セットが作成されます。 ステータスが **[!UICONTROL 完了]** に設定されます。
+
+
+### キャンセル
+
+承認前に分類の統合をキャンセルできます。
+
+分類連結を取り消す手順は、次のとおりです。
+
+1. 「**[!UICONTROL キャンセル]**」を選択します。
+
+   連結が取り消された後は、連結を再開できません。
+1. 「**[!UICONTROL 連結の取消し]**」を選択して、連結を取り消します。 「**[!UICONTROL 戻る]** を選択して、キャンセルを元に戻します。

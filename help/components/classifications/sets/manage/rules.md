@@ -1,51 +1,60 @@
 ---
 title: 分類セットルール
-description: 個々の分類セットのルールを表示および編集します。
+description: 分類セットのルールを表示および編集する方法について説明します。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 # 分類セットルール
 
-分類セットルールを使用すると、変数の設定値に基づいて値を自動的に分類できます。 これらのルールは、分類セットのすべてのサブスクリプションのすべての受信変数値に適用されます。
+>[!IMPORTANT]
+>
+>分類セットは、まだルールをサポートしていません。 従来のルールビルダー機能が使用できなくなる前に、ルール機能が分類セットインターフェイスに追加されます。
+>>分類にルールが必要な場合は、引き続き [ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-builder.md) を使用します。
 
-**[!UICONTROL コンポーネント]**/**[!UICONTROL 分類セット]**/**[!UICONTROL セット]**/目的の分類セット名/**[!UICONTROL ルール]** をクリックします。
 
-![&#x200B; 分類セットルール UI](../../assets/csets-rules.png)
+<!--
+Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
-## ルール設定
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-ルールのセット全体に適用される設定。
+![classification set rules UI](../../assets/csets-rules.png)
 
-* **[!UICONTROL ルールの上書き]**：分類値が存在する場合の、すべてのルールの動作を決定します。
-   * **[!UICONTROL すべての値に適用]**：ルールが一致する場合、常に分類値を上書きします。
-   * **[!UICONTROL 未設定の値にのみ適用]**：ルールが一致する場合、分類値が空白の場合にのみ書き込みます。 分類の値が存在する場合は、何もしません。
-* **[!UICONTROL ルックバックウィンドウ]**：このルールがアクティブ化されると、すべてのルールが、ここで設定されたルックバックウィンドウ内で見られるすべての一意の値に対して実行されます。
+## Rule settings
 
-## ルール
+Settings that apply to the entire set of rules.
 
-一意の値ごとに実行されるルールのリスト。
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
+  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
+* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
 
-* **[!UICONTROL 検索]**：一致条件でルールをフィルタリングできる検索ボックス。
-* **[!UICONTROL ルールを追加]**：ルールテーブルに空白行を追加します。
-* **[!UICONTROL ルールセットをテスト]**：ルールを検証できるテスト UI を起動します。 左側では、手動でキー値を入力したり、分類ファイルをドラッグ&amp;ドロップしてテストする値を多数読み込んだりできます。 右側の表には、ルール・セットがアクティブ化された場合の分類済み値の初期結果が表示されます。 このインターフェイスは検証専用なので、値は分類されません。
+## Rules
 
-目的のルールの横にあるチェックボックスをクリックして、1 つ以上のルールを選択します。 ルールを選択すると、次のオプションが表示されます。
+A list of rules that run for each unique value.
 
-* **[!UICONTROL 削除]**：ルールテーブルから行を削除します。
-* **[!UICONTROL 複製]**：選択した行をルールテーブルの新しい行にコピーします。
+* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
+* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
-## ルールテーブル
+Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 
-ルールテーブルは、マッチング条件と分類アクションの 2 つの主要な部分に垂直に分かれています。 各行（個々のルール）には、一致する条件と分類アクションが含まれています。
+* **[!UICONTROL Delete]**: Deletes the row from the rule table.
+* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-* **ルール番号**：ルールは、ルールテーブルを設定するのと同じ順序で実行されます。 [!UICONTROL &#x200B; ルールの上書き &#x200B;] が [!UICONTROL &#x200B; すべての値に適用 &#x200B;] に設定されている場合、最後の一致ルールにより、同じ分類ディメンションの以前のルールが上書きされます。 [!UICONTROL &#x200B; ルールの上書き &#x200B;] が [!UICONTROL &#x200B; 未設定の値にのみ適用 &#x200B;] に設定されている場合、分類値を設定する最初のルールが適用されます。
-* **[!UICONTROL ルールタイプを選択]**：ルールの条件。 オプションには、「[!UICONTROL &#x200B; 次を含む &#x200B;]」、「[!UICONTROL &#x200B; 次で終わる &#x200B;]」、「[!UICONTROL &#x200B; 正規表現 &#x200B;]」、「[!UICONTROL &#x200B; 正規表現 &#x200B;]」、「[!UICONTROL &#x200B; 次で始まる &#x200B;] があります。
-* **[!UICONTROL 一致条件を入力]**：一致するテキスト文字列。 ルールタイプとして [!UICONTROL &#x200B; 正規表現 &#x200B;] を選択すると、オーバーレイが表示され、値の入力、正規表現のテスト、サンプル構文の提供を行うことができます。
-* **[!UICONTROL 分類を設定]**：値を割り当てる分類ディメンションを設定するドロップダウンリスト。 有効なオプションには、[&#x200B; スキーマ &#x200B;](schema.md) の要素が含まれます。
-* **[!UICONTROL To]**：分類された値を設定するテキスト文字列。 ルールタイプが [!UICONTROL &#x200B; 正規表現 &#x200B;] の場合、テキストと一致グループの組み合わせを含めることができます。
+## Rule table
+
+The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+
+* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
+* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
+* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
+* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
+* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+
+-->
