@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # 分類セットの作成と編集
 
-分類セットマネージャーから分類セットを [ 作成 ](#create-a-classification-set) および [ 編集 ](#edit-a-classification-set) します。
+分類セットマネージャーから分類セットを [&#x200B; 作成 &#x200B;](#create-a-classification-set) および [&#x200B; 編集 &#x200B;](#edit-a-classification-set) します。
 
 ## 分類セットを作成
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 1. ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]** を選択します。
 1. **[!UICONTROL 新しい分類セットを追加]** ダイアログで、次の手順を実行します。
 
-   ![ 分類セット – 新しい分類セットを追加 ](assets/classifications-sets-new.png)
+   ![&#x200B; 分類セット – 新しい分類セットを追加 &#x200B;](assets/classifications-sets-new.png)
 
    1. **[!UICONTROL 名前]** を入力します。 例：`Classification Set Example`。
    1. **[!UICONTROL 説明（オプション）]** を入力します。 例：`Example classification set`。
@@ -36,11 +36,11 @@ ht-degree: 3%
 
         **[!UICONTROL レポートスイート]** と、別の分類セットに既に存在する **[!UICONTROL キーDimension]** の組み合わせを追加すると、その組み合わせの下に赤いメッセージが表示されます。
 次のことができます。
-         * **[!UICONTROL 既存に追加]** を選択して他の分類セットを開き、その他の分類セットの [ スキーマに分類を追加 ](schema.md) します。
+         * **[!UICONTROL 既存に追加]** を選択して他の分類セットを開き、その他の分類セットの [&#x200B; スキーマに分類を追加 &#x200B;](schema.md) します。
          * **[!UICONTROL レポートスイート]** と **[!UICONTROL キーDimension]** を、既に別の分類セットを購読していない組み合わせに変更します。
       * **[!UICONTROL ルックアップ]**。 一般に子またはサブ分類と呼ばれる、ルックアップテーブルはプライマリ分類の分類です。 ルックアップは、元のディメンションではなく、分類値に関するメタデータです。 例えば、*製品* ディメンションは、*カラーコード* という主要分類を持つ場合があります。 次に、*カラー名* の参照テーブルを *カラーコード* に添付して、各カラーコードを説明できます。
 1. 「**[!UICONTROL 保存]**」を選択して、分類セットを保存します。 「**[!UICONTROL キャンセル]**」を選択して、定義をキャンセルします。
-1. 分類セットのスキーマを定義するには、新しく作成した分類セットを **[!UICONTROL 分類セット]** マネージャーから選択して [ 分類セットを編集 ](#edit-a-classification-set) します。
+1. 分類セットのスキーマを定義するには、新しく作成した分類セットを **[!UICONTROL 分類セット]** マネージャーから選択して [&#x200B; 分類セットを編集 &#x200B;](#edit-a-classification-set) します。
 
 
 ## 分類セットを編集
@@ -50,7 +50,7 @@ ht-degree: 3%
 1. Adobe Analyticsの上部メニューバーで **[!UICONTROL コンポーネント]** を選択し、**[!UICONTROL 分類セット]** を選択します。
 1. **[!UICONTROL 分類セット]** で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. 分類セットの名前を選択します。
-1. **[!UICONTROL 分類セット：_分類セット名_]**ダイアログで、分類セットの [ 設定 ](settings.md) と [ スキーマ ](schema.md) を定義できます。
+1. **[!UICONTROL 分類セット：_分類セット名_]**&#x200B;ダイアログで、分類セットの [&#x200B; 設定 &#x200B;](settings.md) と [&#x200B; スキーマ &#x200B;](schema.md) を定義できます。
 1. 完了したら、「**[!UICONTROL 保存]** を選択して変更を保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 
