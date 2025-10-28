@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: 662019f091208c63ea2e0ee613b3d639ed6bfe36
 workflow-type: tm+mt
 source-wordcount: '6529'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年10月** | |
-| 分類セット | 分類セットに関するドキュメントを更新しました。 |
+| 分類セット | [ 分類セット ](/help/components/classifications/sets/overview.md) ドキュメントを更新しました。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映するように追加を更新しました。 |
 | 訪問者の識別に関する追加の改善 | [訪問者の識別](/help/implement/id/overview.md)の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨方法の概要を説明しました。 |
 | **2025年9月** | |
