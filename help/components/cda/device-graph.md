@@ -33,7 +33,7 @@ ht-degree: 55%
 >
 
 * 「[概要](overview.md)」ページに表示されるすべての前提条件。
-* 組織は、[Adobe Experience Platform ID サービスのプライベートグラフ &#x200B;](https://business.adobe.com/products/experience-platform/identity-service.html) を使用する必要があります。 『 ID サービスユーザガイド』の [&#x200B; ホームページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja) も参照してください。
+* 組織は、[Adobe Experience Platform ID サービスのプライベートグラフ &#x200B;](https://business.adobe.com/jp/products/experience-platform/identity-service.html) を使用する必要があります。 『 ID サービスユーザガイド』の [&#x200B; ホームページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja) も参照してください。
 * 実装では、最新バージョンのExperience Cloud ID サービス（ECID）を使用する必要があります。 ID サービスユーザーガイドの [&#x200B; ホームページ &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を参照してください。 Adobe Experience Platformの [&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用するほとんどの実装では、既に ID サービスがデプロイされている可能性があります。
 * 実装ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは、実装は常にこの `setCustomerIDs` 関数（または相当する SDK）を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。ID サービスユーザーガイドの「[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ja)」を参照してください。
 
