@@ -16,7 +16,7 @@ ht-degree: 0%
 データソースに関するよくある質問です。
 
 +++データソースを使用するコストはどれくらいですか？
-データソースには料金は発生せず、サーバーコールの使用状況にもカウントされません。 [ フル処理データソース ](full-processing-eol.md) 廃止前のサーバーコールに対してカウントされます。
+データソースには料金は発生せず、サーバーコールの使用状況にもカウントされません。 [&#x200B; フル処理データソース &#x200B;](full-processing-eol.md) 廃止前のサーバーコールに対してカウントされます。
 +++
 
 +++データソースは、eVar のアトリビューションと有効期限にどのような影響を与えますか。
@@ -24,15 +24,15 @@ ht-degree: 0%
 +++
 
 +++データソースは、ページビュー、訪問回数、ユニーク訪問者などの指標にどのような影響を与えますか？
-データソースを通じてアップロードされたデータは、[ ページビュー数 ](/help/components/metrics/page-views.md)、[ 訪問回数 ](/help/components/metrics/visits.md)、または [ ユニーク訪問者 ](/help/components/metrics/unique-visitors.md) には影響しません。 影響を受けるデフォルトの指標は [ 回数 ](/help/components/metrics/occurrences.md) のみです。
+データソースを通じてアップロードされたデータは、[&#x200B; ページビュー数 &#x200B;](/help/components/metrics/page-views.md)、[&#x200B; 訪問回数 &#x200B;](/help/components/metrics/visits.md)、または [&#x200B; ユニーク訪問者 &#x200B;](/help/components/metrics/unique-visitors.md) には影響しません。 影響を受けるデフォルトの指標は [&#x200B; 回数 &#x200B;](/help/components/metrics/occurrences.md) のみです。
 +++
 
 +++データソースからアップロードされたデータは、処理ルールなどの追加処理を通じて実行されますか。
 いいえ。データソースを通じてアップロードされたデータ :
 
-* [ 処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) を通過しない
-* [ マーケティングチャネルの処理ルール ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) を通過しない
-* [VISTA ルールを経由しない ](/help/technotes/vista.md)
+* [&#x200B; 処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) を通過しない
+* [&#x200B; マーケティングチャネルの処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) を通過しない
+* [VISTA ルールを経由しない &#x200B;](/help/technotes/vista.md)
 +++
 
 +++データソースを使用して読み込まれたデータを削除できますか？
@@ -52,7 +52,7 @@ ht-degree: 0%
 +++
 
 +++データソースファイルに追加できる列は何個ですか？
-データ ソース ファイルに含める列の数は、すべての列が有効な場合に任意に指定できます。 有効な変数名または列名のリストについては、[ ファイル形式 ](file-format.md) を参照してください。
+データ ソース ファイルに含める列の数は、すべての列が有効な場合に任意に指定できます。 有効な変数名または列名のリストについては、[&#x200B; ファイル形式 &#x200B;](file-format.md) を参照してください。
 +++
 
 +++Adobeが提供する FTP の場所を使用せずにデータソースを使用することはできますか？

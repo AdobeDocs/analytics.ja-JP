@@ -13,17 +13,17 @@ ht-degree: 3%
 
 # マーケティングチャネルの処理ルール
 
-_このページは、ヒットにマーケティングチャネルを割り当てる処理ルールを参照します。 データの収集方法を調整できる機能については、[ 処理ルール ](../general/processing-rules/pr-overview.md) を参照してください。_
+_このページは、ヒットにマーケティングチャネルを割り当てる処理ルールを参照します。 データの収集方法を調整できる機能については、[&#x200B; 処理ルール &#x200B;](../general/processing-rules/pr-overview.md) を参照してください。_
 
-マーケティングチャネルの処理ルールを使用すると、[ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md) および [ マーケティングチャネルの詳細 ](/help/components/dimensions/marketing-detail.md) ディメンションの値を決定するロジックを作成できます。 [ マーケティングチャネルマネージャー ](c-channels.md) を使用して使用するマーケティングチャネルを決定し、処理ルールを使用して各チャネルの設定方法を決定します。
+マーケティングチャネルの処理ルールを使用すると、[&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md) および [&#x200B; マーケティングチャネルの詳細 &#x200B;](/help/components/dimensions/marketing-detail.md) ディメンションの値を決定するロジックを作成できます。 [&#x200B; マーケティングチャネルマネージャー &#x200B;](c-channels.md) を使用して使用するマーケティングチャネルを決定し、処理ルールを使用して各チャネルの設定方法を決定します。
 
-![ マーケティングチャネルバケット ](assets/buckets_2.png)
+![&#x200B; マーケティングチャネルバケット &#x200B;](assets/buckets_2.png)
 
 **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定編集]**/**[!UICONTROL マーケティングチャネル]**/**[!UICONTROL マーケティングチャネルの処理ルール]**
 
-[ 自動設定 ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) が実行されると、設定時に生成された各チャネルのルールが作成されます。
+[&#x200B; 自動設定 &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) が実行されると、設定時に生成された各チャネルのルールが作成されます。
 
-![ デフォルトのルール ](assets/marketing_channel_rules.png)
+![&#x200B; デフォルトのルール &#x200B;](assets/marketing_channel_rules.png)
 
 複数のルールを使用して、1 つのマーケティングチャネルを定義できます。 1 つのチャネルに複数のルールを使用すると、ルール条件に応じてチャネルの詳細を異なる方法で設定する場合に役立ちます。 複数の条件を使用して 1 つのルールを定義することもできます。
 
@@ -33,7 +33,7 @@ _このページは、ヒットにマーケティングチャネルを割り当�
 
 * **[!UICONTROL 次のいずれかまたはすべてが当てはまる場合]**:1 つのルールに複数の条件を追加した場合、チャネルおよび関連する値を設定するために、すべての条件を満たす必要があるか、いずれかの条件を満たす必要があるかを決定できます。
 * **ルール条件**：満たす必要がある 1 つ以上のルール条件を指定します。 通常は、マーケティングチャネルに適合するためにヒットが一致する必要があるディメンションを指定します。
-* **[!UICONTROL 次の操作を実行します]**：ルールの条件が一致したら、[ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md) （[!UICONTROL  チャネルを次として識別 ]）および [ マーケティングチャネルの詳細 ](/help/components/dimensions/marketing-detail.md) （[!UICONTROL  チャネルの値を設定 ]）を設定します。
+* **[!UICONTROL 次の操作を実行します]**：ルールの条件が一致したら、[&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md) （[!UICONTROL &#x200B; チャネルを次として識別 &#x200B;]）および [&#x200B; マーケティングチャネルの詳細 &#x200B;](/help/components/dimensions/marketing-detail.md) （[!UICONTROL &#x200B; チャネルの値を設定 &#x200B;]）を設定します。
 
 ## ルール条件
 
@@ -47,12 +47,12 @@ _このページは、ヒットにマーケティングチャネルを割り当�
 
 | Adobeが検出した条件 | 説明 |
 |---|---|
-| **[!UICONTROL 有料検索検知ルールに一致]** | ヒットは、認識された検索エンジンから発生し、一致した [ 有料検索検出ルール ](../general/paid-search-detection/paid-search-detection.md)。 |
+| **[!UICONTROL 有料検索検知ルールに一致]** | ヒットは、認識された検索エンジンから発生し、一致した [&#x200B; 有料検索検出ルール &#x200B;](../general/paid-search-detection/paid-search-detection.md)。 |
 | **[!UICONTROL 自然検索検知ルールに一致]** | ヒットが、認識された検索エンジンから発生し、有料検索検出ルールに一致しませんでした。 |
-| **[!UICONTROL リファラーが内部 URL フィルターと一致]** | ヒットには、「内部 URL フィルター [ に一致する ](/help/components/dimensions/referrer.md) リファラー [ が含まれてい ](../general/internal-url-filter-admin.md) す。 |
+| **[!UICONTROL リファラーが内部 URL フィルターと一致]** | ヒットには、「内部 URL フィルター [&#x200B; に一致する &#x200B;](/help/components/dimensions/referrer.md) リファラー [&#x200B; が含まれてい &#x200B;](../general/internal-url-filter-admin.md) す。 |
 | **[!UICONTROL リファラーが内部 URL フィルターに一致しません]** | ヒットに、内部 URL フィルターに一致しないリファラーが含まれていました。 |
 | **[!UICONTROL 訪問の最初のヒット]** | そのヒットは訪問の最初のものだった。 |
-| **[!UICONTROL リファラーはソーシャルネットワークです]** | [ リファラータイプ ](/help/components/dimensions/referrer-type.md) は「ソーシャルネットワーク」です。 |
+| **[!UICONTROL リファラーはソーシャルネットワークです]** | [&#x200B; リファラータイプ &#x200B;](/help/components/dimensions/referrer-type.md) は「ソーシャルネットワーク」です。 |
 | **[!UICONTROL リファラーはソーシャルネットワークではありません]** | リファラータイプは「ソーシャルネットワーク」ではありません。 |
 | **[!UICONTROL リファラーは対話型 AI]** | リファラータイプは「対話型 AI」です。 |
 | **[!UICONTROL リファラーは対話型 AI ではありません]** | リファラータイプは「対話型 AI」ではありません。 |
@@ -68,12 +68,12 @@ _このページは、ヒットにマーケティングチャネルを割り当�
 | **[!UICONTROL ページ URL]** | 完全なページ URL。 |
 | **[!UICONTROL クエリ文字列パラメーター]** | ページ URL の個々のクエリ文字列パラメーター。 ルール条件ごとに 1 つのクエリ文字列パラメーターを使用します。 ルールに複数のクエリ文字列パラメーターを含める場合は、複数のルール条件を使用します。 |
 | **[!UICONTROL リファラー]** | 「[リファラー](/help/components/dimensions/referrer.md)」ディメンション。 |
-| **[!UICONTROL 参照ドメイン]** | [ 参照ドメイン ](/help/components/dimensions/referring-domain.md) ディメンション。 |
+| **[!UICONTROL 参照ドメイン]** | [&#x200B; 参照ドメイン &#x200B;](/help/components/dimensions/referring-domain.md) ディメンション。 |
 | **[!UICONTROL 参照ドメインとパス]** | 参照ドメインとリファラーの URL パスの連結。 例えば、`www.example.com/products/id/12345` や `ad.example.com/foo` です。 |
 | **[!UICONTROL 参照パラメーター]** | リファラー内のクエリ文字列パラメーター。 |
 | **[!UICONTROL 参照ルートドメイン]** | 参照ルートドメイン。 |
-| **[!UICONTROL 検索エンジン]** | 「[ 検索エンジン ](/help/components/dimensions/search-engine.md)」ディメンション。 |
-| **[!UICONTROL 検索キーワード]** | 「[ 検索キーワード ](/help/components/dimensions/search-keyword.md)」ディメンション。 |
+| **[!UICONTROL 検索エンジン]** | 「[&#x200B; 検索エンジン &#x200B;](/help/components/dimensions/search-engine.md)」ディメンション。 |
+| **[!UICONTROL 検索キーワード]** | 「[&#x200B; 検索キーワード &#x200B;](/help/components/dimensions/search-keyword.md)」ディメンション。 |
 | **[!UICONTROL 検索エンジン +検索キーワード]** | 検索エンジンと検索キーワードの連結。 |
 | **[!UICONTROL AMO ID]** | Adobe AdvertisingとAdvertising Analyticsの統合で使用されるプライマリトラッキングコード。 これらの統合のいずれかが有効になっている場合は、トラッキングコードのプレフィックスを使用して、Advertising固有のチャネルを識別できます。 「AL」で始まる値は検索およびソーシャル用です。 「AC」で始まる値は表示用です。 AMO ID がマーケティングチャネルで使用される場合、クリック/コスト/インプレッション指標は正しいチャネルに関連付けることができます。 |
 | **[!UICONTROL AMO EF ID]** | Adobe Advertisingで使用されるセカンダリトラッキングコード。 データをAdvertisingに送り返すためのキーとして機能します。 これを使用すると、2 つの異なるマーケティングチャネルとして、表示クリックスルーと表示ビュースルーを識別できます。 これを行うには、「AMO EF ID」のマーケティングチャネルロジックが、ディスプレイクリックスルーの場合は `:d` で終わり、ディスプレイビュースルーの場合は「AMO EF ID」が `:i` で終わるように設定します。 表示を 2 つのチャネルに分割しない場合は、代わりに AMO ID ディメンションを使用します。 |
