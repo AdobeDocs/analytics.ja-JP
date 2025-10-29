@@ -3,7 +3,7 @@ title: Adobe Analytics でのデータの処理順序
 description: Adobe Analytics でデータを処理するコンポーネントとサービスの順序について説明します。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 90%
@@ -35,7 +35,7 @@ Adobe Analytics にデータを送信すると、必要に応じて次の機能�
 3. [**ボットルール**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)：標準またはカスタムのボットフィルタリングを適用すると、そのデータをレポートから除外できます。
 4. [**処理ルール**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)：組織がデータに適用したカスタムルール。[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)のそれぞれの変数へのマッピングが含まれます。
 5. **VISTA ルール**：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。既存の VISTA ルールについて詳しくは、Adobe アカウントチームにお問い合わせください。
-6. [**マーケティングチャネルの処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)：[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用すると、マーケティングチャネルの処理ルールで使用するデータを準備できます。
+6. [**マーケティングチャネルの処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)：[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用すると、マーケティングチャネルの処理ルールで使用するデータを準備できます。
 7. **ジオロケーションデータ**：IP アドレスのルックアップに依存するディメンション（[国](/help/components/dimensions/countries.md)ディメンションなど）が入力されます。
 8. [**IP の不明化**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：組織が生データの IP アドレスを不明化することを選択した場合、他のすべての処理機能が完了した後に行われます。
 

@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [マーチャンダイジング eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + マーケティングチャネル {#marketing-channels}
             + [マーケティングチャネルマネージャー](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [マーケティングチャネルの処理ルール](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [マーケティングチャネルの処理ルール](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [マーケティングチャネルの分類](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [マーケティングチャネルの有効期限](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + トラフィック管理 {#traffic-management}

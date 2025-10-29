@@ -3,7 +3,7 @@ title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # リファラータイプ
 
-「リファラータイプ」 [&#x200B; ディメンション &#x200B;](overview.md) は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [ ディメンション ](overview.md) は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
@@ -59,7 +59,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->このリストは、[マーケティングチャネルの処理ルール](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)のソーシャルネットワークのデフォルトリストとは異なります。
+>このリストは、[マーケティングチャネルの処理ルール](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)のソーシャルネットワークのデフォルトリストとは異なります。
 
 * `12seconds.tv`
 * `4travel.jp`
