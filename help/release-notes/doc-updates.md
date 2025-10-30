@@ -26,8 +26,8 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2025年10月** | |
-| 分類セット | [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) ドキュメントを更新しました。 |
-| アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映するように追加を更新しました。 |
+| 分類セット | [ 分類セット ](/help/components/classifications/sets/overview.md) ドキュメントを更新しました。 |
+| アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
 | 訪問者の識別に関する追加の改善 | [訪問者の識別](/help/implement/id/overview.md)の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨方法の概要を説明しました。 |
 | **2025年9月** | |
 | 訪問者の識別の改善 | AppMeasurement の [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
