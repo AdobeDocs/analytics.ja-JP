@@ -3,10 +3,10 @@ title: Adobe Analytics の VISTA ルール
 description: VISTA ルールとその機能の詳細について説明します。
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 81%
+source-wordcount: '354'
+ht-degree: 57%
 
 ---
 
@@ -26,7 +26,13 @@ VISTA ルールの多くのユースケースは、[処理ルール](/help/admin
 
 >[!IMPORTANT]
 >
->VISTA ルールを使用するには、所属する組織と Adobe Professional Services の間の有料契約が必要です。VISTA ルールを作成または更新する場合は、Adobe アカウントチームにお問い合わせください。
+>VISTA ルールの実装と設定には、お客様とAdobe Professional Servicesの間の有料契約が必要です。 VISTA ルールを作成または更新する場合は、Adobe アカウントチームにお問い合わせください。
+>
+>注意：
+>
+>* VISTA ルールの作成には、初期実装のみが含まれます。 継続的なメンテナンスや VISTA ルールの更新には、個別の有料エンゲージメントが必要です。
+>
+>* VISTA ルールは、データ内の特定の条件に依存します。 例えば、Adobe Analyticsの実装、収集するデータのタイプや文字列の長さ、DB VISTA に使用するテーブルの変更、または入力データパターンに対するその他の変更によって、VISTA ルールが期待どおりに機能しなくなる場合があります。 Adobeでは、VISTA ルールを定期的に確認して、更新または削除が必要かどうかを判断することをお勧めします。
 
 ## VISTA ルールの作成 {#create}
 

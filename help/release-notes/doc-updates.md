@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 662019f091208c63ea2e0ee613b3d639ed6bfe36
-workflow-type: ht
-source-wordcount: '6529'
-ht-degree: 100%
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
+workflow-type: tm+mt
+source-wordcount: '6543'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2025年11月** | |
+| VISTA ルールに関する重要な考慮事項 | [Vista ルール ](/help/technotes/vista.md) に関する重要な考慮事項を更新しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
