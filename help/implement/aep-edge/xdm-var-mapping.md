@@ -23,7 +23,7 @@ Customer Journey AnalyticsAdobeに移行する予定がある場合は、代わ�
 
 ## XDM オブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
 
 | XDM フィールドパス | Analytics の変数と説明 |
 | --- | --- |
