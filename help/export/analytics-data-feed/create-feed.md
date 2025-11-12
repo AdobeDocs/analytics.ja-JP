@@ -3,7 +3,7 @@ title: データフィードの作成
 description: データフィードを作成する方法と、Adobeに提供するファイル情報について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '4227'
 ht-degree: 51%
@@ -17,7 +17,7 @@ ht-degree: 51%
 * 生データファイルの送信先に関する情報
 * 各ファイルに含めるデータ
 
-データフィードを作成する前に、データフィードの基本を理解し、すべての前提条件を満たしていることを確認することが重要です。 詳しくは、[&#x200B; データフィードの概要 &#x200B;](data-feed-overview.md) を参照してください。
+データフィードを作成する前に、データフィードの基本を理解し、すべての前提条件を満たしていることを確認することが重要です。 詳しくは、[ データフィードの概要 ](data-feed-overview.md) を参照してください。
 
 ## データフィードの作成と設定 {#create-and-configure-data-feed}
 
@@ -44,7 +44,7 @@ ht-degree: 51%
 1. 上部のナビゲーションバーで、[!UICONTROL **管理者**]/[!UICONTROL **データフィード**] に移動します。
 1. 「[!UICONTROL **追加**]」を選択します。
 
-   ![&#x200B; データフィードを追加 &#x200B;](assets/datafeed-add.png)
+   ![ データフィードを追加 ](assets/datafeed-add.png)
 
    ページには、[!UICONTROL **フィード情報**]、[!UICONTROL **宛先**]、および [!UICONTROL **データ列定義**] の 3 つの主なカテゴリが表示されます。
 1. 「[!UICONTROL **フィード情報**]」セクションで、次のフィールドに入力します。
@@ -65,20 +65,20 @@ ht-degree: 51%
    >
    >レポートの宛先を設定する際には、次の点を考慮してください。
    >
-   >* レポートの宛先にはクラウドアカウントを使用することをお勧めします。 [&#x200B; 従来の FTP アカウントおよび SFTP アカウント &#x200B;](#legacy-destinations) を使用できますが、推奨されません。
+   >* レポートの宛先にはクラウドアカウントを使用することをお勧めします。 [ 従来の FTP アカウントおよび SFTP アカウント ](#legacy-destinations) を使用できますが、推奨されません。
    >* 以前に設定したクラウドアカウントは、データフィードに使用できます。 クラウドアカウントは、次のいずれかの方法で設定できます。
    >
    >   * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) のクラウドアカウントを設定する場合
    >   
-   >   * [Adobe Analytics分類データの読み込み &#x200B;](/help/components/locations/locations-manager.md) の場合（分類データの読み込み用に設定された場所は使用できません。）
+   >   * [Adobe Analytics分類データの読み込み ](/help/components/locations/locations-manager.md) の場合（分類データの読み込み用に設定された場所は使用できません。）
    >   
-   >   * 場所マネージャーから、[&#x200B; コンポーネント/場所 &#x200B;](/help/components/locations/configure-import-accounts.md)
+   >   * 場所マネージャーから、[ コンポーネント/場所 ](/help/components/locations/configure-import-accounts.md)
    >
    >* クラウドアカウントは Adobe Analytics ユーザーアカウントに関連付けられています。他のユーザーは、設定したクラウドアカウントを使用したり、表示したりできません。
    >
    >* 場所マネージャー（[コンポーネント／場所](/help/components/locations/configure-import-accounts.md)）から作成した任意の場所を編集できます。
 
-   ![&#x200B; データフィードの宛先ドロップダウンメニュー &#x200B;](assets/datafeed-destinations-dropdown.png)
+   ![ データフィードの宛先ドロップダウンメニュー ](assets/datafeed-destinations-dropdown.png)
 
    データフィードを作成する際は、次のいずれかの宛先タイプを使用します。 設定手順については、宛先のタイプを展開してください。 （追加の[従来の宛先](#legacy-destinations)も使用できますが、お勧めしません）。
 
@@ -92,7 +92,7 @@ ht-degree: 51%
 
    Amazon S3 バケットをデータフィードの宛先として設定するには：
 
-   1. [&#x200B; データフィードの作成と設定 &#x200B;](#create-and-configure-a-data-feed) の説明に従って、データフィードの作成を開始します。
+   1. [ データフィードの作成と設定 ](#create-and-configure-a-data-feed) の説明に従って、データフィードの作成を開始します。
 
    1. 「[!UICONTROL **宛先**]」セクションの「[!UICONTROL **タイプ**]」ドロップダウンメニューで、「[!UICONTROL **Amazon S3**]」を選択します。
 
@@ -152,7 +152,7 @@ ht-degree: 51%
 
          これで、指定したAmazon S3 の場所にデータを送信するように宛先が設定されました。
 
-      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[&#x200B; 場所マネージャー &#x200B;](/help/components/locations/locations-manager.md) で使用できます。
+      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
    +++
 
@@ -164,11 +164,11 @@ ht-degree: 51%
 
    1. Adobe Analyticsで認証に使用できる Azure アプリケーションをまだ作成していない場合は、作成し、アクセス制御（IAM）でアクセス権限を付与します。
 
-      詳しくは、[Azure Active Directory アプリケーションの作成方法に関するMicrosoft Azure のドキュメントを参照してください &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)。
+      詳しくは、[Azure Active Directory アプリケーションの作成方法に関するMicrosoft Azure のドキュメントを参照してください ](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)。
 
    1. Adobe Analytics Admin Console の「[!UICONTROL **宛先**]」セクションで、「[!UICONTROL **タイプ**]」ドロップダウンメニューの「[!UICONTROL **Azure RBAC**]」を選択します。
 
-      ![Azure RBAC の宛先 &#x200B;](assets/datafeed-destination-azurerbac.png)
+      ![Azure RBAC の宛先 ](assets/datafeed-destination-azurerbac.png)
 
    1. [!UICONTROL **場所を選択**] を選択します。
 
@@ -226,7 +226,7 @@ ht-degree: 51%
 
          これで、指定した Azure RBAC の場所にデータを送信するように宛先が設定されました。
 
-      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[&#x200B; 場所マネージャー &#x200B;](/help/components/locations/locations-manager.md) で使用できます。
+      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
    +++
 
@@ -238,11 +238,11 @@ ht-degree: 51%
 
    1. Adobe Analyticsで認証に使用できる Azure アプリケーションをまだ作成していない場合は、作成します。
 
-      詳しくは、[Azure Active Directory アプリケーションの作成方法に関するMicrosoft Azure のドキュメントを参照してください &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)。
+      詳しくは、[Azure Active Directory アプリケーションの作成方法に関するMicrosoft Azure のドキュメントを参照してください ](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)。
 
    1. Adobe Analytics Admin Console の「[!UICONTROL **宛先**]」セクションで、「[!UICONTROL **Azure SAS**]」を選択します。
 
-      ![Azure SAS 宛先 &#x200B;](assets/datafeed-destination-azuresas.png)
+      ![Azure SAS 宛先 ](assets/datafeed-destination-azuresas.png)
 
    1. [!UICONTROL **場所を選択**] を選択します。
 
@@ -280,7 +280,7 @@ ht-degree: 51%
          | [!UICONTROL **アカウントの説明**] | Azure SAS アカウントの説明。 この説明は、「アカウントを選択 [!UICONTROL **ドロップダウンフィールドに表示され**] す。任意の名前を指定できます。 |
          | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
          | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-         | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS URI へのパス。 Azure SAS を設定するには、Azure Key Vault を使用して SAS URI を秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。<p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p><p>または</p><p>アクセスポリシーを作成せずに直接アクセスロールを付与する場合は、[Azure Portal を使用して Azure ロールを割り当てる方法に関するMicrosoft Azure ドキュメントを参照してください &#x200B;](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 これにより、Key Vault URI にアクセスするためのアプリケーション ID の役割の割り当てが追加されます。 </p></li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` ビルトインの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure のビルトインの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul> |
+         | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault の SAS URI へのパス。 Azure SAS を設定するには、Azure Key Vault を使用して SAS URI を秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI の作成後：<ul><li>作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。<p>詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p><p>または</p><p>アクセスポリシーを作成せずに直接アクセスロールを付与する場合は、[Azure Portal を使用して Azure ロールを割り当てる方法に関するMicrosoft Azure ドキュメントを参照してください ](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 これにより、Key Vault URI にアクセスするためのアプリケーション ID の役割の割り当てが追加されます。 </p></li><li>Key Vault URI にアクセスするには、アプリケーション ID に `Key Vault Certificate User` ビルトインの役割が付与されていることを確認してください。</br><p>詳しくは、[Azure のビルトインの役割](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/built-in-roles)を参照してください。</p></li></ul> |
          | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。詳しくは、[Azure Key Vault からシークレットを設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
          | [!UICONTROL **シークレット**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
@@ -301,7 +301,7 @@ ht-degree: 51%
 
          これで、指定した Azure SAS の場所にデータを送信するように宛先が設定されました。
 
-      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[&#x200B; 場所マネージャー &#x200B;](/help/components/locations/locations-manager.md) で使用できます。
+      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
    +++
 
@@ -315,7 +315,7 @@ ht-degree: 51%
 
    1. Adobe Analytics Admin Console の「[!UICONTROL **宛先**]」セクションで、「[!UICONTROL **Google Cloud Platform**]」を選択します。
 
-      ![Google Cloud Platform の宛先 &#x200B;](assets/datafeed-destination-gcp.png)
+      ![Google Cloud Platform の宛先 ](assets/datafeed-destination-gcp.png)
 
    1. [!UICONTROL **場所を選択**] を選択します。
 
@@ -371,7 +371,7 @@ ht-degree: 51%
 
          これで、指定した GCP の場所にデータを送信するように宛先が設定されました。
 
-      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[&#x200B; 場所マネージャー &#x200B;](/help/components/locations/locations-manager.md) で使用できます。
+      1. （条件付き）作成したばかりの宛先（アカウントと場所）を管理する必要がある場合、[ 場所マネージャー ](/help/components/locations/locations-manager.md) で使用できます。
 
    +++
 
@@ -382,7 +382,7 @@ ht-degree: 51%
    | [!UICONTROL **エスケープ文字の削除**] | データを収集する場合、一部の文字（改行など）が問題の原因となる可能性があります。 フィードファイルからこれらの文字を削除する場合は、このチェックボックスをオンにします。 |
    | [!UICONTROL **圧縮フォーマット**] | 使用する圧縮のタイプ。 **Gzip** は、ファイルを `.tar.gz` 形式で出力します。 **Zip** は、ファイルを `.zip` 形式で出力します。 |
    | [!UICONTROL **パッケージの種類**] | ほとんどのデータフィードに対して、[!UICONTROL **複数のファイル**] を選択します。 このオプションは、データを非圧縮の 2 GB チャンクにページ化します。 （「[!UICONTROL **複数のファイル**]」オプションが選択されていて、レポートウィンドウの非圧縮データが 2GB 未満の場合、1 つのファイルが送信されます。） 「**単一ファイル**」を選択すると、`hit_data.tsv` ファイルが単一の、大規模になる可能性があるファイルに出力されます。 |
-   | [!UICONTROL **マニフェスト**] | フィード間隔でデータが収集されなかった場合に、Adobeが [&#x200B; マニフェストファイル &#x200B;](c-df-contents/datafeeds-contents.md#feed-manifest) を宛先に配信するかどうかを指定します。 **マニフェストファイル** を選択すると、データが収集されなかった場合に、次のようなマニフェストファイルが返されます。<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **マニフェスト**] | フィード間隔でデータが収集されなかった場合に、Adobeが [ マニフェストファイル ](c-df-contents/datafeeds-contents.md#feed-manifest) を宛先に配信するかどうかを指定します。 **マニフェストファイル** を選択すると、データが収集されなかった場合に、次のようなマニフェストファイルが返されます。<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **列テンプレート**] | Adobe多数のデータフィードを作成する場合は、列テンプレートを作成することをお勧めします。 列テンプレートを選択すると、指定した列が自動的にテンプレートに含まれます。また、アドビでは、デフォルトで複数のテンプレートを提供しています。 |
    | [!UICONTROL **使用可能な列**] | Adobe Analyticsで使用可能なすべてのデータ列。 「[!UICONTROL すべて追加]」をクリックして、データフィードにすべての列を含めます。 |
    | [!UICONTROL **含まれる列**] | データフィードに含める列。 データフィードからすべての列を削除するには、[!UICONTROL すべて削除]をクリックします。 |
@@ -392,13 +392,13 @@ ht-degree: 51%
 
    履歴データの処理は直ちに開始されます。 データの処理が 1 日完了すると、設定した宛先にファイルが送信されます。
 
-   データフィードにアクセスする方法と、その内容をより深く理解する方法については、[&#x200B; データフィードの内容 – 概要 &#x200B;](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md) を参照してください。
+   データフィードにアクセスする方法と、その内容をより深く理解する方法については、[ データフィードの内容 – 概要 ](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md) を参照してください。
 
 ## 従来の宛先
 
 >[!IMPORTANT]
 >
->この節で説明する宛先は従来のもので、お勧めしません。データフィードを作成する際は、代わりに、Amazon S3、Google Cloud Platform、Azure RBAC または Azure SAS のいずれかの宛先を使用します。 これらの各推奨宛先の詳細については、[&#x200B; データフィードの作成と設定 &#x200B;](#create-and-configure-a-data-feed) を参照してください。
+>この節で説明する宛先は従来のもので、お勧めしません。データフィードを作成する際は、代わりに、Amazon S3、Google Cloud Platform、Azure RBAC または Azure SAS のいずれかの宛先を使用します。 これらの各推奨宛先の詳細については、[ データフィードの作成と設定 ](#create-and-configure-a-data-feed) を参照してください。
 
 
 次の情報は、従来の各宛先の設定情報を示します。
@@ -430,7 +430,7 @@ ht-degree: 51%
 
   >[!NOTE]
   >
-  >Amazon S3 バケットにアップロードするたびに、[!DNL Analytics] は、バケットの所有者を、必要なポリシーがバケットに含まれているかどうかに関係なく、BucketOwnerFullControl ACL に追加します。 詳しくは、「[Amazon S3 データフィードの BucketOwnerFullControl 設定とは &#x200B;](df-faq.md#BucketOwnerFullControl)」を参照してください。
+  >Amazon S3 バケットにアップロードするたびに、[!DNL Analytics] は、バケットの所有者を、必要なポリシーがバケットに含まれているかどうかに関係なく、BucketOwnerFullControl ACL に追加します。 詳しくは、「[Amazon S3 データフィードの BucketOwnerFullControl 設定とは ](df-faq.md#BucketOwnerFullControl)」を参照してください。
 
 以下の 16 の標準 AWS 地域がサポートされます（必要に応じて適切な署名アルゴリズムを使用）。
 
