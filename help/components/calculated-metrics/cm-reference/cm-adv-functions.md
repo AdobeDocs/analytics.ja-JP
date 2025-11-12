@@ -4,10 +4,10 @@ description: 高度な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '5020'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 表関数と行関数
 
-表関数とは、表のどの行についても出力が同じになる関数です。行関数とは、表の各行で出力が異なる関数です。
+テーブル関数とは、テーブルの行ごとに出力が同じである関数です。 行関数とは、テーブルの行ごとに出力が異なる関数です。
 
 該当する場合および関連する場合、関数には、関数のタイプで注釈が付けられます。[!BADGE テーブル]{type="Neutral"}または[!BADGE 行]{type="Neutral"}
 
@@ -1474,9 +1474,9 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 | metric | z スコアを求める指標です |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
-z スコア 0（ゼロ）は、スコアが平均値と同じであることを意味します。z スコアは正と負のどちらにもなり得ます。平均値を上回るか下回るかを標準偏差の数で示します。
+z スコア 0（ゼロ）は、スコアが平均値と同じであることを意味します。Z スコアは正または負の値となり、平均より上または下であるかどうか、および標準偏差の数を示します。
 
-z スコアの式は次のようになります。
+Z スコアの計算式は次のとおりです。
 
 ![](assets/z_score.png)
 
@@ -1538,7 +1538,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Approximate Count Distinct (dimension)
 
-Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts. It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)

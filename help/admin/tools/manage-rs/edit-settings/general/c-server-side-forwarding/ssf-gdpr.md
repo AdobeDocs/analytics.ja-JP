@@ -4,10 +4,10 @@ title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 49%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 55%
 
 | 実装方法 | 手順 |
 |--- |--- |
-| Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
-| AppMeasurement | コンテキストデータ変数の定義をAppMeasurement.js ファイルに追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/> メモ：ターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf'] = '1'` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
+| AppMeasurement | コンテキストデータ変数の定義をAppMeasurement.js ファイルに追加します。<br/>`s.contextData['cm.ssf'] = '1'` <br/> メモ：ターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。 ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
 ## レポート（任意） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Adobe Analyticsを使用すると、同意に基づいたトラフィックの割合をレポートできます。その結果、サーバーサイド転送されたトラフィックと、同意に基づかずAdobe Audience Managerに転送されていないトラフィックの割合を比較できます。
 
-このタイプのレポートを設定するには、処理ルールを使用して、新しいコンテキスト変数をカスタムトラフィック変数（prop）にマッピングします。次に手順を示します。
+このタイプのレポートを設定するには、処理ルールを使用して、新しいコンテキスト変数をカスタムトラフィック変数（prop）にマッピングします。 これを行うには
 
 1. （前述のように）「cm.ssf」変数を実装します。
-1. [prop を有効にします。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. [prop を有効にします ](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)。
 1. 処理ルールを使用して、コンテキスト変数を prop にマッピングします。
 
    1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動し、レポートスイートを選択します。
