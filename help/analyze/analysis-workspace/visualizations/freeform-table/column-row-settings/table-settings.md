@@ -92,4 +92,4 @@ ht-degree: 96%
 
 ## 行の高さの変更
 
-プロジェクトの [ 表示密度 ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) を **[!UICONTROL コンパクト]**、**[!UICONTROL 快適]**、**[!UICONTROL 拡張]** に設定できます。
+プロジェクトの [&#x200B; 表示密度 &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) を **[!UICONTROL コンパクト]**、**[!UICONTROL 快適]**、**[!UICONTROL 拡張]** に設定できます。

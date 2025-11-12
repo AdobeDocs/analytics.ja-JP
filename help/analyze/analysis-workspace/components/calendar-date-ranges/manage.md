@@ -14,7 +14,7 @@ ht-degree: 29%
 # 日付範囲の管理
 
 
-一元的な [!UICONTROL  日付範囲 ] 管理インターフェイスから、日付範囲の共有、フィルタリング、タグ付け、承認、コピー、共有、削除や、日付範囲をお気に入りとしてマークできます。 日付範囲を管理するには：
+一元的な [!UICONTROL &#x200B; 日付範囲 &#x200B;] 管理インターフェイスから、日付範囲の共有、フィルタリング、タグ付け、承認、コピー、共有、削除や、日付範囲をお気に入りとしてマークできます。 日付範囲を管理するには：
 
 * メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、「**[!UICONTROL 日付範囲]**」を選択します。
 
@@ -23,7 +23,7 @@ ht-degree: 29%
 
 日付範囲マネージャーには、次のインターフェイス要素があります。
 
-![ 日付範囲インターフェイス ](assets/date-ranges-manager.png)
+![&#x200B; 日付範囲インターフェイス &#x200B;](assets/date-ranges-manager.png)
 
 ### 日付範囲リスト
 
@@ -31,8 +31,8 @@ ht-degree: 29%
 
 | 列 | 説明 |
 | --- | --- |
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | 日付範囲を ![ 星 ](/help/assets/icons/Star.svg) にするか、![ 星アウトライン ](/help/assets/icons/StarOutline.svg) にするかを選択します。 |
-| **[!UICONTROL タイトルと説明]** | タイトルと説明を編集するには、タイトルリンクを選択して [ 日付範囲ビルダー ](create.md#date-range-builder) を開きます。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 日付範囲を ![&#x200B; 星 &#x200B;](/help/assets/icons/Star.svg) にするか、![&#x200B; 星アウトライン &#x200B;](/help/assets/icons/StarOutline.svg) にするかを選択します。 |
+| **[!UICONTROL タイトルと説明]** | タイトルと説明を編集するには、タイトルリンクを選択して [&#x200B; 日付範囲ビルダー &#x200B;](create.md#date-range-builder) を開きます。 |
 | **[!UICONTROL 所有者]** | 日付範囲の所有者。 |
 | **[!UICONTROL タグ]** | この日付範囲のタグ。 |
 | **[!UICONTROL 共有先]** | 日付範囲を共有した個人またはグループ。 選択して、「**[!UICONTROL 日付範囲を共有]** ダイアログを開きます。 |
@@ -48,10 +48,10 @@ ht-degree: 29%
 
 | アイコン | アクション | 説明 |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [ 日付範囲ビルダー ](create.md#date-range-builder) を使用して、別の日付範囲を追加します。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [&#x200B; 日付範囲ビルダー &#x200B;](create.md#date-range-builder) を使用して、別の日付範囲を追加します。 |
 | ![検索](/help/assets/icons/Search.svg) | [!UICONTROL *タイトルで検索*] | リストで日付範囲が選択されていない場合、この検索フィールドを使用して日付範囲を検索します。 |
 | ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択した日付範囲にタグ付け。 **[!UICONTROL 日付範囲のタグ付け]** ダイアログで、選択した日付範囲のタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択した日付範囲のタグを保存します。 |
-| ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | 選択した日付範囲を共有します。 **[!UICONTROL 日付範囲を共有]** ダイアログでは、![ 検索 ](/help/assets/icons/Search.svg)*個人またはグループを検索* または **[!UICONTROL 組織]** または **[!UICONTROL グループ]** を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択した日付範囲の共有の詳細を保存します。 |
+| ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | 選択した日付範囲を共有します。 **[!UICONTROL 日付範囲を共有]** ダイアログでは、![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg)*個人またはグループを検索* または **[!UICONTROL 組織]** または **[!UICONTROL グループ]** を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択した日付範囲の共有の詳細を保存します。 |
 | ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択した日付範囲を削除します。 確認メッセージが表示されます。 |
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した 1 つの日付範囲の名前を変更します。 選択した場合、日付範囲の名前をインラインで変更できます。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 承認]** | 選択した日付範囲を承認します |
@@ -69,11 +69,11 @@ ht-degree: 29%
 フィルターリストをフィルタリングするには、次の手順に従います。
 
 1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
-1. 使用可能ないずれかの [ フィルターセクション ](#filter-sections) を使用して、日付範囲をフィルタリングできます。
+1. 使用可能ないずれかの [&#x200B; フィルターセクション &#x200B;](#filter-sections) を使用して、日付範囲をフィルタリングできます。
 
    >[!INFO]
    >
-   >*項目* [ 日付範囲リスト ](#date-ranges-list) に表示される日付範囲項目を参照します。
+   >*項目* [&#x200B; 日付範囲リスト &#x200B;](#date-ranges-list) に表示される日付範囲項目を参照します。
    > 
 
 #### フィルターセクション
@@ -83,7 +83,7 @@ ht-degree: 29%
 {{otherfiltersfiltersection}}
 
 
-[ 日付範囲リスト ](#date-ranges-list) は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](#active-filter-bar)で確認できます。
+[&#x200B; 日付範囲リスト &#x200B;](#date-ranges-list) は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](#active-filter-bar)で確認できます。
 
 
 ## 日付範囲を編集
@@ -92,9 +92,9 @@ ht-degree: 29%
 
 * Workspace プロジェクトでは、[コンポーネント情報](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)アイコンを使用します。
 
-* [[!UICONTROL  日付範囲 ] リスト ](#date-ranges-list) で、日付範囲のタイトルを選択します。
+* [[!UICONTROL &#x200B; 日付範囲 &#x200B;] リスト &#x200B;](#date-ranges-list) で、日付範囲のタイトルを選択します。
 
-[ 日付範囲ビルダー ](create.md#date-range-builder) を使用して、日付範囲を編集します。
+[&#x200B; 日付範囲ビルダー &#x200B;](create.md#date-range-builder) を使用して、日付範囲を編集します。
 
 
 

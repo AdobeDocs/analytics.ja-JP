@@ -42,7 +42,7 @@ ht-degree: 80%
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
 1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規]**」をクリックします。 基本スケジュール・ウィザードには、スケジュール・レポートの定義に使用するオプションが表示されます。
 
-   ![ 基本スケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
+   ![&#x200B; 基本スケジュールウィザードを示すスクリーンショット。](assets/simple-schedule-wizard.png)
 
 1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 
@@ -53,7 +53,7 @@ ht-degree: 80%
 | カスタマイズ | 日付形式をカスタマイズできます。 |
 | 設定値 | Outlook アドレス帳が表示されます（該当する場合）。 |
 | 送信先：電子メール | ワークブック受信者の電子メール。 |
-| Power BI | 詳しくは、[Microsoft Power BIへのワークブックの公開 ](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) を参照してください。 |
+| Power BI | 詳しくは、[Microsoft Power BIへのワークブックの公開 &#x200B;](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) を参照してください。 |
 | 件名 | ユーザー定義の説明。 |
 | スケジュール設定 | ワークブックを送信するタイミングを指定します（即時、毎時、毎日、毎月、毎年から選択できます）。 |
 
