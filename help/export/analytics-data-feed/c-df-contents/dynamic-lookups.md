@@ -3,10 +3,10 @@ title: 動的検索
 description: 動的検索の概要と有効化方法について説明します。 通信事業者、モバイル属性、オペレーティングシステムの種類が含まれます。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 1%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,16 @@ ht-degree: 1%
 * **モバイル属性**：各モバイルデバイスで追跡されるすべての機能を含む、`mobile_id` 列の追加コンテキストを提供します。 ファイル名は `mobile_attributes.tsv` です。
 * **オペレーティングシステムの種類**:`os` 列の代替コンテキストを提供します。 `operating_systems.tsv` と `operating_system_type.tsv` はどちらも `os` 列をキーとして使用しますが、`operating_system_type.tsv` のみが動的検索です。
 
-## 動的検索の有効化
+## 動的検索の有効化 {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="動的検索の有効化"
+>abstract="追加のルックアップファイルをデータフィードで受け取る場合は、このオプションを選択します。それ以外の場合、このオプションは使用できません。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。<ul><li>通信事業者名</li><li>モバイル属性</li><li>オペレーティングシステムの種類</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 前述の参照ファイルを受け取るには、次の前提条件をすべて満たす必要があります。
 
