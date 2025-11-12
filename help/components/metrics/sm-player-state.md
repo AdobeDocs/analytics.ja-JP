@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスプレーヤーの状態トラッキング指標
-description: レポートスイートに対して [!UICONTROL  プレーヤーステートトラッキング ] を有効にすると使用可能な指標です。
+description: レポートスイートに対して [!UICONTROL &#x200B; プレーヤーステートトラッキング &#x200B;] を有効にすると使用可能な指標です。
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
 source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ストリーミングメディアサービスプレーヤー状態トラッキング指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [ プレーヤーの状態のトラッキング ](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
+**[!UICONTROL メディアレポート]** の [&#x200B; プレーヤーの状態のトラッキング &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
 
 | Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
 | --- | --- | --- | --- | --- |

@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # ストリーミングメディアサービスのコア指標
 
-*このページでは、レポートスイートに対して [!UICONTROL Media Core] を有効にしたときに使用可能な指標について説明します。 使用可能なディメンションについては、[ ストリーミングメディアサービスのコアディメンション ](../dimensions/sm-core.md) を参照してください。*
+*このページでは、レポートスイートに対して [!UICONTROL Media Core] を有効にしたときに使用可能な指標について説明します。 使用可能なディメンションについては、[&#x200B; ストリーミングメディアサービスのコアディメンション &#x200B;](../dimensions/sm-core.md) を参照してください。*
 
 ストリーミングメディアサービスのコア指標は、ストリーミングメディアサービス収集ライブラリを介して収集されたデータに対して基本的なレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 | **[!UICONTROL 一時停止イベント]** | 再生セッション中に発生した一時停止の数。 | メディアのクローズ | `a.media.pauseCount` | `xdm.mediaReporting.`<br>`sessionDetails.pauseCount` |
 | **[!UICONTROL 合計一時停止時間]** | すべての一時停止イベントの合計時間（秒単位）。 | メディアのクローズ | `a.media.pauseTime` | `xdm.mediaReporting.`<br>`sessionDetails.pauseTime` |
 | **[!UICONTROL コンテンツ開始]** | メディアの最初のフレームが消費されます。 広告中またはバッファー中にユーザーが削除された場合、このイベントはトリガーになりません。 | メディアのクローズ | `a.media.play` | `xdm.mediaReporting.`<br>`sessionDetails.isPlayed` |
-| **[!UICONTROL 10% プログレスマーカー ]**<br>**[!UICONTROL 25% プログレスマーカー ]**<br>**[!UICONTROL 50% プログレスマーカー ]**<br>**[!UICONTROL 75% プログレスマーカー ]**<br>**[!UICONTROL 95% プログレスマーカー]** | 再生ヘッドは、長さに基づいてコンテンツの指示されたマーカーを通過する。 巻き戻しをシークした場合でも、各マーカーは 1 回だけカウントされます。 早送りシークの場合、スキップされたマーカーはカウントされません。 | メディアのクローズ | `a.media.progress10`<br>`a.media.progress25`<br>`a.media.progress50`<br>`a.media.progress75`<br>`a.media.progress95` | `xdm.mediaReporting.`<br>`sessionDetails.hasProgress10`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress25`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress50`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress75`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress95` |
+| **[!UICONTROL 10% プログレスマーカー &#x200B;]**<br>**[!UICONTROL 25% プログレスマーカー &#x200B;]**<br>**[!UICONTROL 50% プログレスマーカー &#x200B;]**<br>**[!UICONTROL 75% プログレスマーカー &#x200B;]**<br>**[!UICONTROL 95% プログレスマーカー]** | 再生ヘッドは、長さに基づいてコンテンツの指示されたマーカーを通過する。 巻き戻しをシークした場合でも、各マーカーは 1 回だけカウントされます。 早送りシークの場合、スキップされたマーカーはカウントされません。 | メディアのクローズ | `a.media.progress10`<br>`a.media.progress25`<br>`a.media.progress50`<br>`a.media.progress75`<br>`a.media.progress95` | `xdm.mediaReporting.`<br>`sessionDetails.hasProgress10`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress25`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress50`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress75`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress95` |
 | **[!UICONTROL コンテンツ再開]** | 30 分を超えるバッファー、一時停止、または停止期間の後にコンテンツが再開された場合にトリガーとなるブール値。 また、VideoInfo trackPlay でプレイヤーによって設定された場合のトリガー。 | メディアのクローズ | `a.media.resume` | `xdm.mediaCollection.`<br>`sessionDetails.hasResume`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasResume` |
 | **[!UICONTROL コンテンツセグメント表示]** | 表示されたセグメントの最初のフレームをトリガーにするブール値。 | メディアのクローズ | `a.media.segmentView` | `xdm.mediaReporting.`<br>`sessionDetails.`<br>`hasSegmentView` |
 | **[!UICONTROL メディア開始]** | メディアが最初に読み込まれたときにトリガーを付けるブール値です。 このイベントには、広告、バッファリング、エラーが含まれます。 | メディア開始 | `a.media.view` | `xdm.mediaReporting.`<br>`sessionDetails.isViewed` |
