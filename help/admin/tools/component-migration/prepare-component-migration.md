@@ -27,21 +27,21 @@ ht-degree: 6%
 
    * Adobe Analytics ソースコネクタを使用するには、次の操作が必要です。
 
-      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [&#x200B; データの取り込みと使用 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
 
    * WebSDK を使用するには、次の操作が必要です。
 
-      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Adobe Experience PlatformおよびCustomer Journey Analyticsに取り込むレポートスイートの設定 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Adobe Experience Platform Web SDKを使用したデータの取り込み &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [Adobe Experience Platform Web SDKを使用したデータの取り込み &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ja)
 
-1. 取り込んだデータを使用して [&#x200B; 接続 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) および [&#x200B; データビュー &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) を作成します。
+1. 取り込んだデータを使用して [&#x200B; 接続 &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ja) および [&#x200B; データビュー &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja) を作成します。
 
 1. Customer Journey Analyticsのユーザーが、データがマッピングされているデータビューにプロビジョニングされていることを確認します。
 
-   詳しくは、[Customer Journey Analytics アクセス制御の &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)Admin ConsoleのCustomer Journey Analytics権限 [&#x200B; を参照してくだ &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html) い。
+   詳しくは、[Customer Journey Analytics アクセス制御の &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja#customer-journey-analytics-permissions-in-admin-console)Admin ConsoleのCustomer Journey Analytics権限 [&#x200B; を参照してくだ &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja) い。
 
    「権限」タブは、Admin Consoleの各製品プロファイルの一部です。 特定の製品プロファイルにユーザーを追加できます。次に、特定のデータビューに権限を割り当て、製品プロファイルのユーザーが持つ権限を指定します。
 

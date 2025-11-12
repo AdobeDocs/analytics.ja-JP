@@ -16,7 +16,7 @@ ht-degree: 26%
 
 成功イベント（コンバージョンイベントまたはカスタムイベントとも呼ばれます）は、トラッキングが可能なアクションです。成功イベントはお客様によって定義されます。例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
 
-成功イベントの概要ビデオについては、Analytics チュートリアルガイドの [&#x200B; コンバージョンイベントの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) を参照してください。
+成功イベントの概要ビデオについては、Analytics チュートリアルガイドの [&#x200B; コンバージョンイベントの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) を参照してください。
 
 ## 成功イベントの例
 
