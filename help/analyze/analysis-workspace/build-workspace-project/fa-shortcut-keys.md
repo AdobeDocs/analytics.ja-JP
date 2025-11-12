@@ -5,7 +5,7 @@ title: ホットキー
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 
 キーボードでは、次のシンボルが使用される場合があります。
 
-- **[!UICONTROL **&#x200B; Shift キー&#x200B;**]&#x200B;**&#x200B;の代わりに &#x200B;**⇧**。
-- **[!UICONTROL **&#x200B; cmd &#x200B;**]&#x200B;**（コマンド）の代わりに &#x200B;**⌘**。
-- **[!UICONTROL **&#x200B; ctrl &#x200B;**]&#x200B;**（Control）の代わりに &#x200B;**⌃**。
-- **[!UICONTROL **&#x200B; opt &#x200B;**]&#x200B;**（Option）の代わりに &#x200B;**⌥**。
-- **[!UICONTROL **&#x200B; alt &#x200B;**]&#x200B;**（Alternate）の代わりに &#x200B;**⎇**。
+- **[!UICONTROL ** Shift キー&#x200B;**]**&#x200B;の代わりに **⇧**。
+- **[!UICONTROL ** cmd **]**（コマンド）の代わりに **⌘**。
+- **[!UICONTROL ** ctrl **]**（Control）の代わりに **⌃**。
+- **[!UICONTROL ** opt **]**（Option）の代わりに **⌥**。
+- **[!UICONTROL ** alt **]**（Alternate）の代わりに **⎇**。
 
 ## ナビゲーション操作
 
 | アクション | ショートカット Mac | ショートカット Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 新規プロジェクトを作成 | **[!UICONTROL *Cmd + Shift + P キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + P キー&#x200B;*]** |
 | 既存のプロジェクトを開く | **[!UICONTROL *Cmd + O キー&#x200B;*]** | **[!UICONTROL *Ctrl + O キー&#x200B;*]** |
 | パネルウィンドウに移動 | **[!UICONTROL *Opt + Shift + 1 キー&#x200B;*]** | **[!UICONTROL *Alt + Shift + 1 キー&#x200B;*]** |
@@ -41,7 +41,7 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 ## 分析の操作
 
 | アクション | ショートカット Mac | ショートカット Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 左パネルを検索 | **[!UICONTROL *Cmd + / キー&#x200B;*]** | **[!UICONTROL *Ctrl + / キー&#x200B;*]** |
 | アラートを作成 | **[!UICONTROL *Cmd + Shift + A キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + A キー&#x200B;*]** |
 | 計算指標を作成 | **[!UICONTROL *Cmd + Shift + C キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + C キー&#x200B;*]** |
@@ -58,7 +58,7 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 ## 追加パネルとビジュアライゼーションのアクション
 
 | アクション | ショートカット Mac | ショートカット Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 新しいアトリビューションパネル | **[!UICONTROL *Opt + E キー&#x200B;*]** | **[!UICONTROL *Alt + E キー&#x200B;*]** |
 | 新しい空のパネル | **[!UICONTROL *Opt + B キー&#x200B;*]** | **[!UICONTROL *Alt + B キー&#x200B;*]** |
 | 新しいフリーフォームパネル | **[!UICONTROL *Opt + A キー&#x200B;*]** | **[!UICONTROL *Alt + A キー&#x200B;*]** |
@@ -71,14 +71,14 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 ## パネルを移動アクション
 
 | アクション | ショートカット Mac | ショートカット Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | パネルを上に移動 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl +上&#x200B;*]** |
 | パネルを下に移動 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt+ctrl+down *]** |
 
 ## 民主化行動
 
 | アクション | ショートカット Mac | ショートカット Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | プロジェクトを保存 | **[!UICONTROL *Cmd + S キー&#x200B;*]** | **[!UICONTROL *Ctrl + S キー&#x200B;*]** |
 | プロジェクトに名前を付けて保存 | **[!UICONTROL *Cmd + Shift + S キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + S キー&#x200B;*]** |
 | テンプレートとして保存 | **[!UICONTROL *Opt + T キー&#x200B;*]** | **[!UICONTROL *Alt + T キー&#x200B;*]** |

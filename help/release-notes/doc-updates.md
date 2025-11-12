@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '6565'
 ht-degree: 99%
@@ -27,7 +27,7 @@ ht-degree: 99%
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
+| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [ データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |

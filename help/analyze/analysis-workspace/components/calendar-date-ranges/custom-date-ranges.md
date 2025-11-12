@@ -5,7 +5,7 @@ title: カスタム日付範囲の例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -57,16 +57,16 @@ To create a custom date range:
 
  1. In the Date range builder, specify the following information:
     
-    |Option | Description | 
+    |Option | Description |
     |---------|----------|
     | [!UICONTROL **Title**] | The title of the date range as it will appear when users select it in Analysis Workspace. |
-    | [!UICONTROL **Description**] | A description for the date range. | 
-    | [!UICONTROL **Tags**] | Any tags you want to apply to the date range. | 
-    | [!UICONTROL **Date Range**] | Lets you pick a custom date range. By default, the last 30 days are selected. | 
-    | [!UICONTROL **Preset**] | Choose from a list of preset date ranges, such as [!UICONTROL **Yesterday**], [!UICONTROL **Last 7 days**], [!UICONTROL **Last 30 days**], and so forth. | 
-    | [!UICONTROL **Start time**] | The time of day that the date range begins. | 
-    | [!UICONTROL **End time**] | The time of day that the date range ends. | 
-    | [!UICONTROL **Use rolling dates**] | Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul><br>Selected by default. | 
+    | [!UICONTROL **Description**] | A description for the date range. |
+    | [!UICONTROL **Tags**] | Any tags you want to apply to the date range. |
+    | [!UICONTROL **Date Range**] | Lets you pick a custom date range. By default, the last 30 days are selected. |
+    | [!UICONTROL **Preset**] | Choose from a list of preset date ranges, such as [!UICONTROL **Yesterday**], [!UICONTROL **Last 7 days**], [!UICONTROL **Last 30 days**], and so forth. |
+    | [!UICONTROL **Start time**] | The time of day that the date range begins. |
+    | [!UICONTROL **End time**] | The time of day that the date range ends. |
+    | [!UICONTROL **Use rolling dates**] | Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul><br>Selected by default. |
 
  1. Select [!UICONTROL **Save**]. 
 

@@ -3,7 +3,7 @@ description: ディメンション、指標、セグメントおよび関数を�
 title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Adobe Analytics には、ディメンション、指標、セグメントおよ�
 >[!MORELIKETHIS]
 >
 >[関数の使用](cm-using-functions.md)
->>[セグメント](/help/components/segmentation/seg-overview.md)
+>[セグメント](/help/components/segmentation/seg-overview.md)
 >
 
 

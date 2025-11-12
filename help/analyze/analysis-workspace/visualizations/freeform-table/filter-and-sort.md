@@ -4,7 +4,7 @@ title: フィルターと並べ替え
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 3daac356a1d3f90572ab8b627dfeedfc6575cbbc
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 72%
@@ -96,7 +96,7 @@ Note: this option does not seem to work. AN-338422
 
 スパークラインに加えて、接続線のビジュアライゼーションに含めるフィルター条件を設定できます。 （デフォルトでは、フィルター条件は折れ線グラフのビジュアライゼーションに含まれていません。 折れ線グラフビジュアライゼーションには、接続されたテーブルで選択された行のデータが表示されます。 行が選択されていない場合、接続されたテーブルの最初のディメンションのデータのみが表示されます）。
 
-スパークラインと折れ線グラフのビジュアライゼーションについて詳しくは、[&#x200B; フリーフォームテーブルのトレンドデータの表示 &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md) を参照してください。
+スパークラインと折れ線グラフのビジュアライゼーションについて詳しくは、[ フリーフォームテーブルのトレンドデータの表示 ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md) を参照してください。
 
 #### フィルター条件を含む折れ線グラフのビジュアライゼーションの設定
 
@@ -104,13 +104,13 @@ Note: this option does not seem to work. AN-338422
 
    スパークライン セルを選択すると、濃い灰色で表示されます。 これは、接続線のビジュアライゼーションにフィルター条件が含まれていることを示します。 フィルター条件は、列のセグメントとして適用されます。<!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   ![&#x200B; スパークラインを選択 &#x200B;](assets/table-sparkline-selected.png)
+   ![ スパークラインを選択 ](assets/table-sparkline-selected.png)
 
 #### 列の合計が不正確な可能性がある場合について
 
 次のシナリオでは、列の合計が正確でない可能性があります。
 
-* 左側の列と [&#x200B; 列の合計は行の合計として計算される &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) で静的コンポーネントが使用される場合
+* 左側の列と [ 列の合計は行の合計として計算される ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) で静的コンポーネントが使用される場合
 
   このシナリオでは、行アイテムに重複するデータが含まれていると、列の合計が不正確になります。
 

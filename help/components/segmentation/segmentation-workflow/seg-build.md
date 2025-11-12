@@ -3,10 +3,10 @@ description: 指標、ディメンション、セグメントおよびイベン�
 title: セグメントの作成
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -375,12 +375,12 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 買い物かごを放棄 </td> 
-   <td colname="col2">商品を買い物かごに追加したが、何も注文しなかった訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。 </td> 
+   <td colname="col1"> カートを放棄 </td> 
+   <td colname="col2">買い物かごにアイテムを追加したが注文しなかった訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 初回訪問回数 </td> 
-   <td colname="col2">最大 1 回訪問した訪問者のデータを表示します。セグメント定義のコンテナは「訪問」です。 </p> </td> 
+   <td colname="col2">最大 1 回 [1] 回の訪問を行った訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購入者 </td> 
@@ -404,7 +404,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 単一ページ訪問数 </td> 
-   <td colname="col2"> 訪問時に複数のページビューを送信していても、単一のページ値を表示する訪問のデータを表示します。離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
+   <td colname="col2"> その訪問中に複数のページビューを送信した場合でも、単一のページ値が表示された訪問からのデータを表示します。 離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 閲覧された製品が買い物かごに追加されなかった </td> 

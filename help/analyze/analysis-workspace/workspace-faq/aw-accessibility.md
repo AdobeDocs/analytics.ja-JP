@@ -4,7 +4,7 @@ title: Analysis Workspace のアクセシビリティ
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
@@ -124,7 +124,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 | Shortcut | Action |
 | --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] | 
+| `[Alt + Shift + 1 / 2 / 3]` | Jump to different rails: [!UICONTROL Panels], [!UICONTROL Visualizations], or [!UICONTROL Components] |
 | `[Alt + Left / Right]` | Navigate between panels |
 | `[Alt + M]` | Collapse/expand all panels |
 | `[Alt + Ctrl + M]` | Collapse/expand active panel |

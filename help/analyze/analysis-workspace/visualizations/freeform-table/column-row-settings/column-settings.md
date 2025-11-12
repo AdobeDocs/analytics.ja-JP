@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://video.tv.adobe.com/v/328502/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 | **[!UICONTROL 合計を表示]** | 列のクライアントサイドの合計を表示します。この合計では、セッションやユーザーなどの指標を重複排除することは&#x200B;**ありません**。 |
 | **[!UICONTROL 総計を表示]** | 列のサーバーサイドの合計を表示します。総計では、セッションやユーザーなどの指標を重複排除します。 |
 | **[!UICONTROL スパークラインを表示]** | 列見出しに折れ線グラフを表示します。 |
-| **[!UICONTROL 数値]** | セルに指標の数値を表示／非表示にするかどうかを決定します。例えば、指標がページビュー数の場合、数値は行項目のページ表示回数になります。 |
+| **[!UICONTROL 数値]** | セルに指標の数値を表示／非表示にするかどうかを決定します。例えば、指標がページビュー数の場合、数値はその行項目のページビュー数になります。 |
 | **[!UICONTROL 割合]** | セルに指標の割合の値を表示／非表示にするかどうかを決定します。例えば、指標がページビュー数の場合、割合の値は行項目のページ表示回数を列の合計ページ表示回数で割った数になります。メモ：100％を超える割合は、正確であることが保証されます。キャップを 1,000％に移動すると、列の幅が大きくなりすぎるのを防ぐことができます。 |
 | **[!UICONTROL 異常値を表示]** | この列の値に対して異常値検出を実行するかどうかを決定します。 |
 | **[!UICONTROL 予測を表示]** | この列に予測値を表示するかどうかを決定します。 |
@@ -58,7 +58,7 @@ ht-degree: 98%
 | 条件付き書式オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL 割合制限を使用]** | 絶対値ではなくパーセンテージに基づいて制限範囲を変更します。割合制限範囲は、割合にのみ基づく指標（バウンス率など）と、カウントと割合を持つ指標（ページビュー数など）に対して機能します。 |
-| **[!UICONTROL 自動生成]** | データに基づいて自動的に上限／中間／下限を計算する。上限は、この列の最大値です。下限は最小値であり、中間点は上限と下限の平均値です。 |
+| **[!UICONTROL 自動生成]** | データに基づいて自動的に上限／中間／下限を計算する。上限はこの列の最大値です。 下限は下限で、中間点は上限と下限の平均です。 |
 | **[!UICONTROL カスタム]** | **[!UICONTROL 上限]**、**[!UICONTROL 中間点]**、**[!UICONTROL 下限]**&#x200B;を手動で割り当てます。制限により、列の値が良好、平均、不良になるタイミングを柔軟に決定できます。 |
 | **[!UICONTROL 条件付き書式パレット]** | 事前設定済みのカラーセットをセルに適用します。選択した 4 つの使用可能なカラースキームに応じて、高い値、中間値、低い値に異なるカラーが割り当てられます。<br>テーブルのディメンションを置き換えると、条件付き書式の制限がリセットされます。指標を置き換えると、その列の制限が再計算されます（指標が X 軸、ディメンションが Y 軸で示される場合）。 |
 
@@ -101,7 +101,7 @@ Analysis Workspace の指標にデフォルト以外のアトリビューショ�
 
 2. **[!UICONTROL 列アトリビューションモデル]**&#x200B;で、「**[!UICONTROL モデル]**」と「**[!UICONTROL ルックバックウィンドウ]**」を選択します。ルックバックウィンドウでは、各コンバージョンに適用されるデータアトリビューションのウィンドウを決定します。
 
-   ![「線形」が選択されていることを示す「列アトリビューションモデル」オプション。 &#x200B;](assets/attribution-select.png)
+   ![「線形」が選択されていることを示す「列アトリビューションモデル」オプション。 ](assets/attribution-select.png)
 
 
 ### アトリビューションモデル
@@ -130,7 +130,7 @@ Analysis Workspace の指標にデフォルト以外のアトリビューショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的列](https://video.tv.adobe.com/v/38416?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的列](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

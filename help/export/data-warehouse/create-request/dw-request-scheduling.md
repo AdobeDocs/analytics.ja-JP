@@ -3,7 +3,7 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 33%
@@ -24,7 +24,7 @@ Data Warehouse リクエストのスケジュールオプションを設定す�
 
 1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **スケジュールオプション**] タブを選択します。
 
-   ![&#x200B; 「レポートの宛先」タブ &#x200B;](assets/dw-scheduling-options.png) <!-- update screenshot -->
+   ![ 「レポートの宛先」タブ ](assets/dw-scheduling-options.png) <!-- update screenshot -->
 
 1. 以下のフィールドに入力します。
 
@@ -39,4 +39,4 @@ Data Warehouse リクエストのスケジュールオプションを設定す�
 
    {style="table-layout:auto"}
 
-1. Data Warehouse リクエストの設定を「[!UICONTROL **通知メール**]」タブで続けます。 詳しくは、[Data Warehouse リクエストの通知メールの設定 &#x200B;](/help/export/data-warehouse/create-request/dw-request-email.md) を参照してください。
+1. Data Warehouse リクエストの設定を「[!UICONTROL **通知メール**]」タブで続けます。 詳しくは、[Data Warehouse リクエストの通知メールの設定 ](/help/export/data-warehouse/create-request/dw-request-email.md) を参照してください。

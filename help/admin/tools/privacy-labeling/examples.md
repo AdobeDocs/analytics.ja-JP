@@ -4,10 +4,10 @@ title: ラベル設定の例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 100%
 
 ## ヒットデータのサンプル {#hit}
 
-以下のヒットデータがあるとします。
+次のヒットデータがあるとします。
 
-* 最初の行に各変数のラベルが含まれている。
-* 2 番目の行は変数の名前である。ID ラベルがある場合は、割り当てられた名前空間が括弧内に含まれている。
-* ヒットデータは 3 番目の行から開始する。
+* 最初の行には、各変数のラベルが含まれます。
+* 2 行目には変数の名前が表示されます。 ID ラベルが付いている場合は、括弧内に割り当てられた名前空間が含まれます。
+* ヒットデータは 3 行目から始まります。
 
 | ラベル | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **（xyz）** |
-| ヒットデータ | Mary | 77 | A | M | X |
-| | Mary | 88 | B | いいえ | Y |
-| | Mary | 99 | C | O | Z |
+| ヒットデータ | メアリー | 77 | A | M | X |
+| | メアリー | 88 | B | いいえ | Y |
+| | メアリー | 99 | C | O | Z |
 | | John | 77 | D | P | W |
 | | John | 88 | E | いいえ | U |
 | | John | 44 | F | Q | V |
 | | John | 55 | G | R | X |
-| | Alice | 66 | A | いいえ | Z |
+| | アリス | 66 | A | いいえ | Z |
 
 ## アクセスリクエストのサンプル {#access}
 
@@ -42,12 +42,13 @@ ht-degree: 100%
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API の値</th>
-    <th rowspan="2">返される<br/>概要<br/>ファイルタイプ</th>
+    <th>返される<br/>概要<br/>ファイルタイプ</th>
     <th colspan="5" style="text-align:center">概要アクセスファイルのデータ</th>
   </tr>
   <tr>
     <th>名前空間／ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>訪問者 ID</th>
     <th>MyEvar1</th>
@@ -61,7 +62,7 @@ ht-degree: 100%
     <td>存在しない</td>
     <td>77</td>
     <td>存在しない</td>
-    <td>M、P</td>
+    <td>雄、雄</td>
     <td>X、W</td>
   </tr>
   <tr>
@@ -71,14 +72,14 @@ ht-degree: 100%
     <td>存在しない</td>
     <td>77</td>
     <td>存在しない</td>
-    <td>M、P</td>
+    <td>雄、雄</td>
     <td>X、W</td>
   </tr>
   <tr>
     <td>user=Mary</td>
     <td>false</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -88,7 +89,7 @@ ht-degree: 100%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -100,13 +101,13 @@ ht-degree: 100%
     <td>77、88</td>
     <td>A、B、C</td>
     <td>N、P</td>
-    <td>U、W</td>
+    <td>U, W</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -138,7 +139,7 @@ ht-degree: 100%
     <td>55、77</td>
     <td>存在しない</td>
     <td>M、P、R</td>
-    <td>W、X</td>
+    <td>西経、西経</td>
   </tr>
 </table>
 
@@ -160,21 +161,21 @@ cookie ID が使用されている場合、`expandIDs` の設定は出力に影�
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>88</td>
     <td>B</td>
     <td>いいえ</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
@@ -209,7 +210,7 @@ cookie ID が使用されている場合、`expandIDs` の設定は出力に影�
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -282,7 +283,7 @@ cookie ID が使用されている場合、`expandIDs` の設定は出力に影�
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -355,7 +356,7 @@ cookie ID が使用されている場合、`expandIDs` の設定は出力に影�
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>

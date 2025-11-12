@@ -3,10 +3,10 @@ description: Data Warehouse リクエストの作成方法について手順を�
 title: Data Warehouse リクエストのレポートオプションの設定
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 22%
+ht-degree: 17%
 
 ---
 
@@ -24,7 +24,7 @@ Data Warehouse リクエストのレポートオプションを設定するに�
 
 1. 新しいData Warehouse リクエスト ページで、「[!UICONTROL **レポートオプション**]」タブを選択します。
 
-   ![&#x200B; 「レポートの宛先」タブ &#x200B;](assets/dw-report-options.png) <!-- update screenshot to include Sort by metrics -->
+   ![ 「レポートの宛先」タブ ](assets/dw-report-options.png) <!-- update screenshot to include Sort by metrics -->
 
 1. 以下のフィールドに入力します。
 
@@ -34,14 +34,14 @@ Data Warehouse リクエストのレポートオプションを設定するに�
    | [!UICONTROL **レポートの日付範囲をファイル名に追加**] | レポート ファイル名に日付範囲を追加します。 <p>例えば、2024 年 5 月 1 日から 2024 年 5 月 7 日までのデータをリクエストした場合、ファイル名には 20240501 ～ 20240507 の日付範囲が含まれます。</p> |
    | [!UICONTROL **CSV**] | レポートを CSV ファイル形式で配信して、スプレッドシートでデータを表示します。 |
    | [!UICONTROL **Tableau （TDE）**] | Tableau Data Extract （TDE）ファイル形式でレポートを配信します。Tableau 内で追加データのデータやレイヤーを視覚化するために使用できます。 |
-   | [!UICONTROL **レポートを圧縮ファイル（ZIP）として送信**] | レポートを圧縮（ZIP）ファイル形式で配信します。 メールを [&#x200B; レポートの宛先 &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) として使用する場合は、このオプションを有効にすることをお勧めします。 |
+   | [!UICONTROL **レポートを圧縮ファイル（ZIP）として送信**] | レポートを圧縮（ZIP）ファイル形式で配信します。 メールを [ レポートの宛先 ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) として使用する場合は、このオプションを有効にすることをお勧めします。 |
    | [!UICONTROL **すべての行を返す**] | 有効にすると、すべての行がレポートに含まれます。 含める行数を指定するには、このオプションを無効にします。 |
    | [!UICONTROL **報告書コメントの冒頭**] | レポートに含めるコメントを追加します。 レポートの先頭にコメントが表示されます。 |
-   | [!UICONTROL **指標で並べ替え**] | Data Warehouseで、降順の指標値で並べ替えられた、ランク付けされた分類レポートを提供します。 指標で並べ替えると、Data Warehouse レポートが解釈しやすくなり、他の Analytics 分類レポート表示と比較しやすくなります。<p>詳しくは、[&#x200B; 指標で並べ替え &#x200B;](/help/export/data-warehouse/sorting-by-metric.md) を参照してください。</p> |
+   | [!UICONTROL **指標で並べ替え**] | Data Warehouseで、降順の指標値で並べ替えられた、ランク付けされた分類レポートを提供します。 指標で並べ替えると、Data Warehouse レポートが解釈しやすくなり、これらのレポートを他の Analytics 分類レポートビューと比較しやすくなります。<p>詳しくは、[ 指標で並べ替え ](/help/export/data-warehouse/sorting-by-metric.md) を参照してください。</p> |
    | [!UICONTROL **マニフェストファイルの送信**] | レポートに含まれるファイルに関するメタデータを含みます。<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **デジタル署名ファイルの送信**] | ファイルがAdobeからのものであり、変更されていないことを、レポートの受信者が確認できるようにします。 |
    | [!UICONTROL **レポートにデータがない場合、空のファイルを送信する**] | レポートにデータが含まれていない場合でも、レポートを送信します。 |
 
    {style="table-layout:auto"}
 
-1. 「[!UICONTROL **スケジュールオプション**]」タブで、Data Warehouse リクエストの設定を続けます。 詳しくは、[Data Warehouse リクエストのスケジュールオプションの設定 &#x200B;](/help/export/data-warehouse/create-request/dw-request-scheduling.md) を参照してください。
+1. 「[!UICONTROL **スケジュールオプション**]」タブで、Data Warehouse リクエストの設定を続けます。 詳しくは、[Data Warehouse リクエストのスケジュールオプションの設定 ](/help/export/data-warehouse/create-request/dw-request-scheduling.md) を参照してください。

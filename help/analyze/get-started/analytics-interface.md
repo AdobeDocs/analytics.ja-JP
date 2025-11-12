@@ -3,10 +3,10 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1973'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -103,15 +103,15 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](/help/admin/tools/manage-rs/report-suites-admin.md) |
    | Analytics ユーザーとアセット | ユーザーとアセットの管理は Adobe Admin Console に移動しました。Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](/help/admin/admin-console/home.md) |
    | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](/help/components/classifications/importer/c-working-with-saint.md) |
-   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) |
+   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー ](/help/components/classifications/crb/classification-rule-builder.md) |
    | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](/help/import/data-sources/manage.md) |
    | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](/help/admin/tools/code-manager-admin.md) |
-   | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。 | [トラフィック管理の概要](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
+   | トラフィック管理 | 「トラフィック管理」ページでは、予想されるトラフィック量の変化を指定できます。 これらの設定により、Adobeは適切なリソースを割り当てて、トラフィックをタイムリーに追跡および処理できるようにします。 | [トラフィック管理の概要](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
    | サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](/help/admin/tools/server-call-usage/overage-overview.md) |
    | ログ | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](/help/admin/tools/logs.md) |
    | Advertising Analytics | Adobe Analyticsを設定して、すべてのGoogle Ads とMicrosoft Advertising有料検索データを並べて表示します。 | [Advertising Analytics の設定](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | データフィード | データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 | [Analytics データフィードの概要](/help/export/analytics-data-feed/data-feed-overview.md) |
-   | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。 | [IP アドレスで除外](/help/admin/tools/exclude-ip.md) |
+   | IP で除外 | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。データを除外すると、IP アドレスデータが除外されるので、レポートの精度が向上します。 さらに、レポートデータをゆがめる可能性のあるサービス拒否やその他の悪意のあるイベントからデータを削除できます。 除外を設定するか、ファイアウォールを使用することができます。 | [IP アドレスで除外](/help/admin/tools/exclude-ip.md) |
    | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
    | データガバナンスプライバシーのラベル付け | レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。 | [プライバシーラベリング](/help/admin/tools/privacy-labeling/labeling-overview.md) |
    | 会社設定ホーム | カンパニー設定ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。 | [会社設定の概要](/help/admin/tools/company/c-company-settings.md) |

@@ -3,10 +3,10 @@ description: アラートの管理方法について説明します。
 title: アラートの管理
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 22%
 # アラートの管理
 
 
-一元的な [!UICONTROL &#x200B; アラート &#x200B;] 管理インターフェイスから、アラートのフィルタリング、タグ付け、削除、名前変更、コピー、有効化、無効化、更新および書き出しを行うことができます。 アラートを管理するには、以下の手順に従います。
+一元的な [!UICONTROL  アラート ] 管理インターフェイスから、アラートのフィルタリング、タグ付け、削除、名前変更、コピー、有効化、無効化、更新および書き出しを行うことができます。 アラートを管理するには：
 
 * メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、「**[!UICONTROL アラート]**」を選択します。
 
-アラートマネージャーは、[&#x200B; セグメントマネージャー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md) および [&#x200B; 計算指標マネージャー &#x200B;](/help/components/calculated-metrics/workflow/cm-manager.md) のような構造になっています。
+アラートマネージャーは、[ セグメントマネージャー ](/help/components/segmentation/segmentation-workflow/seg-manage.md) および [ 計算指標マネージャー ](/help/components/calculated-metrics/workflow/cm-manager.md) のような構造になっています。
 
 
 ## アラートマネージャー
@@ -33,8 +33,8 @@ ht-degree: 22%
 
 | 列 | 説明 |
 |---|---|
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | アラートを ![&#x200B; 星 &#x200B;](/help/assets/icons/Star.svg) または ![&#x200B; 星アウトライン &#x200B;](/help/assets/icons/StarOutline.svg) に優先するかどうかを選択します。 |
-| **[!UICONTROL タイトルと説明]** | アラートを編集するには、タイトルリンクを選択して [&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を開きます。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | アラートを ![ 星 ](/help/assets/icons/Star.svg) または ![ 星アウトライン ](/help/assets/icons/StarOutline.svg) に優先するかどうかを選択します。 |
+| **[!UICONTROL タイトルと説明]** | アラートを編集するには、タイトルリンクを選択して [ アラートビルダー ](alert-builder.md#alert-builder) を開きます。 |
 | **[!UICONTROL タイプ]** | アラートのタイプ（Adobe Analytics データアラートまたはサーバーコールの使用状況アラート）。 |
 | **[!UICONTROL 有効]** | このアラートは有効または無効です。 |
 | **[!UICONTROL レポートスイート]** | このアラートが適用されるレポートスイート。 |
@@ -57,7 +57,7 @@ When "Last used" column is added, add this information as the description: Shows
 
 | アイコン | アクション | 説明 |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を使用して、別のアラートを追加します。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [ アラートビルダー ](alert-builder.md#alert-builder) を使用して、別のアラートを追加します。 |
 | ![検索](/help/assets/icons/Search.svg) | [!UICONTROL *タイトルで検索*] | リストでアラートが選択されていない場合は、この検索フィールドを使用してアラートを検索します。 |
 | ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択したアラートにタグを付けます。 **[!UICONTROL タグアラート]** ダイアログで、選択したアラートのタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択したアラートのタグを保存します。 |
 | ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択したアラートを削除します。 確認メッセージが表示されます。 |
@@ -75,10 +75,10 @@ When "Last used" column is added, add this information as the description: Shows
 
 ### フィルターパネル
 
-アラートのリストは、左のパネル ![&#x200B; ージの &#x200B;](/help/assets/icons/Filter.svg) フィルター **&#x200B;**&#x200B;フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターに従うアラートの数が表示されます。
+アラートのリストは、左のパネル ![ ージの ](/help/assets/icons/Filter.svg) フィルター **** フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターに従うアラートの数が表示されます。
 
 
-1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。アラート リスト用にスペースが必要な場合は、もう一度 ![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg) を選択してパネルを閉じることができます。
+1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。アラート リスト用にスペースが必要な場合は、もう一度 ![ フィルター ](/help/assets/icons/Filter.svg) を選択してパネルを閉じることができます。
 1. 使用可能ないずれかのフィルターセクションからフィルターを選択します。
 
 
@@ -117,9 +117,9 @@ When "Last used" column is added, add this information as the description: Shows
 
 アラートを編集できます
 
-* [[!UICONTROL &#x200B; アラート &#x200B;] リスト &#x200B;](#alerts-list) で、アラートのタイトルを選択します。
+* [[!UICONTROL  アラート ] リスト ](#alerts-list) で、アラートのタイトルを選択します。
 
-アラートを編集するには、[&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を使用します。
+アラートを編集するには、[ アラートビルダー ](alert-builder.md#alert-builder) を使用します。
 
 ## アラートのトラブルシューティング
 
@@ -178,10 +178,10 @@ To manage existing alerts in the Alerts manager:
 
 1. In the action bar, select any of the following options:
 
-   | Action | Function | 
+   | Action | Function |
    |---------|----------|
-   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
-   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. |
+   | [!UICONTROL **Delete**] | Deletes the alert. |
    | [!UICONTROL **Rename**] | Renames the alert. |
    | [!UICONTROL **Approve**] | Mark the alert as Approved. |
    | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
@@ -230,7 +230,7 @@ To configure the visible columns in the Alerts manager:
    | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
    | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
    | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
-   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Enabled | Shows whether the alert is currently enabled or disabled. |
    | Report suite | Indicates in which report suite the alert was last saved.  |
    | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
    | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
