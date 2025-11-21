@@ -179,7 +179,7 @@ ht-degree: 0%
          + [動的アカウントの概要](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
-         + [dynamicAccountSelection ](js/h-code/dynamicaccount/dynamicaccountselection.md)
+         + [dynamicAccountSelection &#x200B;](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
    + レガシークロスデバイス特定 {#xdevice-visid}
       + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
