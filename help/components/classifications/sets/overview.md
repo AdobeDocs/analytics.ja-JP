@@ -111,7 +111,7 @@ Adobe Analytics インターフェイスの **[!UICONTROL コンポーネント]
 
 * 処理時間を短縮しました（72 時間から 24 時間に短縮）。
 * 分類を管理するための再設計されたユーザーインターフェイス。
-* 分類データ用の [Adobe Analytics ソースコネクタ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications) を介してAdobe Experience Platformで分類データを使用するオプション。
+* 分類データ用の [Adobe Analytics ソースコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/classifications) を介してAdobe Experience Platformで分類データを使用するオプション。
 
 分類セットでリリースされたバックエンドアーキテクチャには、次のようないくつかの変更も含まれています。
 
