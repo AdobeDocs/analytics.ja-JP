@@ -3,14 +3,23 @@ title: 到着が遅れたヒット
 description: データフィードでの、到着が遅れたヒットの処理方法について説明します。
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# 到着が遅れたヒット
+# 到着が遅れたヒット {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="到着が遅れたヒットを許可"
+>abstract="このオプションを選択して、データフィードジョブがデータの処理を完了した後に到着したデータを、設定されたレポート頻度（毎日、毎時、または 15 分ごと）内に含めます。 このオプションを有効にすると、データフィードでデータが処理されるたびに、到達した遅延ヒットが調べられ、次に送信されるデータフィードファイルにバッチ処理されます。"
+
+<!-- markdownlint-enable MD034 -->
 
 データフィードジョブが指定された時刻に処理を完了した後（タイムスタンプ付きのヒットやデータソースを通してなど）に、履歴データが到着することがあります。到着が遅れたヒットは、データフィードにこのデータを含めるのに役立つ、アドビが提供するバックエンドのカスタマイズ設定です。
 
