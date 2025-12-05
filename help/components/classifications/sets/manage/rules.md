@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >分類セットは、まだルールをサポートしていません。 従来のルールビルダー機能が使用できなくなる前に、ルール機能が分類セットインターフェイスに追加されます。
->分類にルールが必要な場合は、引き続き [ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-builder.md) を使用します。
+>分類にルールが必要な場合は、引き続き [&#x200B; 分類ルールビルダー &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) を使用します。
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
