@@ -4,9 +4,9 @@ title: Activity Map の概要
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -17,19 +17,19 @@ Adobe Analytics Activity Map は、Adobe Analytics 内の機能で、web ペー�
 
 Activity Map as a の概念は、次のいくつかの重要なコンポーネントで構成されています。
 
-* **レポートスイートの設定**：レポートスイートを使用するには、事前にActivity Mapを有効にする必要があります。 レポートスイートの設定で [0&rbrace;Activity Map レポート &rbrace; を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
+* **レポートスイートの設定**：レポートスイートを使用するには、事前にActivity Mapを有効にする必要があります。 レポートスイートの設定で [0}Activity Map レポート } を参照してください。](/help/admin/tools/manage-rs/edit-settings/activity-map.md)
 * **実装**：ほとんどのActivity Map レポートは、すぐに使用できます。 ただし、リンクトラッキングを最大限に活用するために、追加の実装が必要な web サイトもあります。 次の実装変数を使用できます。
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：クリックデータをリンク名でフィルタリングします。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：地域名でクリックデータをフィルタリングします。
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): 「Activity Map リージョン」ディメンションを移入する属性を変更します。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md):Activity Map リンクディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md):Activity Map地域ディメンションの入力にActivity Mapが使用するロジックをカスタマイズします。
-* **オーバーレイ**:web サイト上にオーバーレイされたクリックデータを表示できるブラウザー拡張機能。 詳しくは、[Activity Map拡張機能インターフェイス &#x200B;](overlay/overview.md) を参照してください。
+* **オーバーレイ**:web サイト上にオーバーレイされたクリックデータを表示できるブラウザー拡張機能。 詳しくは、[Activity Map拡張機能インターフェイス ](overlay/overview.md) を参照してください。 この機能は、Web SDK実装では使用できません。
 * **寸法**：オーバーレイ拡張機能に加えて、Activity MapにはAnalysis Workspaceで使用できる寸法がいくつか用意されています。
-   * [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
-   * [Activity Map地域 &#x200B;](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
-   * [Activity Mapページ &#x200B;](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
-   * [Activity Map リンク （リージョン別） &#x200B;](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
+   * [Activity Map リンク ](/help/components/dimensions/activity-map-link.md): クリックされたリンク名。
+   * [Activity Map地域 ](/help/components/dimensions/activity-map-region.md): クリックされた地域名。
+   * [Activity Mapページ ](/help/components/dimensions/activity-map-page.md): リンクがクリックされた時点でのページ名。
+   * [Activity Map リンク （リージョン別） ](/help/components/dimensions/activity-map-link-by-region.md): Activity Map リンクとActivity Map リージョンを連結した値。
 
 ## 機能とメリット
 
@@ -37,7 +37,7 @@ Activity Map as a の概念は、次のいくつかの重要なコンポーネ�
 
 * **ヒートマップ**:Activity Mapは、Web ページの最もクリックされた領域やインタラクションのある領域を表示するヒートマップを生成します。 ヒートマップでは、色分けを使用してエンゲージメントレベルを表すことで、ホットスポットを特定し、影響の大きい領域への注目を優先させることができます。 この情報は、call-to-actionのボタン、リンク、フォームまたはその他のインタラクティブな要素を最適化する際に役立ちます。
 
-* **オーバーレイレポート**:Activity Mapのオーバーレイレポートは、web ページ上の特定の要素に対する詳細なクリック指標を提供します。 個々の要素のクリックスルー率とエンゲージメントレベルを把握することで、デザインとコンテンツ戦略を微調整して、ユーザーエクスペリエンスを強化できます。
+* **オーバーレイレポート**:Activity Mapのオーバーレイレポートは、web ページ上の特定の要素に対する詳細なクリック指標を提供します。 個々の要素のクリックスルー率とエンゲージメントレベルを把握することで、デザインとコンテンツ戦略を微調整して、ユーザーエクスペリエンスを強化できます。 この機能は、Web SDK実装では使用できません。
 
 * **セグメント分析**：トラフィックソース、人口統計、ペルソナなど、様々なセグメントに基づいて、ユーザーの行動を分析できます。 データをセグメント化することで、貴重なインサイトを特定のユーザーグループに明らかにし、パーソナライズされたエクスペリエンスやターゲットを絞ったマーケティング戦略を可能にすることができます。
 
