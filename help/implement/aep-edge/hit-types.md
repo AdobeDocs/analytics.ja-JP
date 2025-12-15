@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # Adobe AnalyticsのEdge Network イベントタイプ
 
-Adobe Analyticsでは、AppMeasurementで呼び出す関数に応じてヒットの処理が異なります。 例えば、[`s.t`](/help/implement/vars/functions/t-method.md) と [`s.tl`](/help/implement/vars/functions/tl-method.md) は、特定のディメンションを含めるか除外し、増分 [&#x200B; ページビュー &#x200B;](/help/components/metrics/page-views.md) を異なる方法で行います。 Adobe Experience Platformには、[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview) コマンドのみが含まれます。 [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm) または [`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data) ペイロード内の特定のプロパティによって、そのデータがAdobe Analyticsでどのように解釈されるかが決まります。
+Adobe Analyticsでは、AppMeasurementで呼び出す関数に応じてヒットの処理が異なります。 例えば、[`s.t`](/help/implement/vars/functions/t-method.md) と [`s.tl`](/help/implement/vars/functions/tl-method.md) は、特定のディメンションを含めるか除外し、増分 [&#x200B; ページビュー &#x200B;](/help/components/metrics/page-views.md) を異なる方法で行います。 Adobe Experience Platformには、[`sendEvent`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendevent/overview) コマンドのみが含まれます。 [`xdm`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendevent/xdm) または [`data`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendevent/data) ペイロード内の特定のプロパティによって、そのデータがAdobe Analyticsでどのように解釈されるかが決まります。
 
 Edge Networkでは、次のロジックを使用して、Adobe Analytics[&#x200B; ページビュー &#x200B;](/help/components/metrics/page-views.md) および [&#x200B; リンクイベント &#x200B;](/help/components/metrics/page-events.md) を判断します。
 
@@ -29,7 +29,7 @@ Edge Networkでは、次のロジックを使用して、Adobe Analytics[&#x200B
 
 >[!TIP]
 >
->ペイロード内の XDM フィールド名では大文字と小文字が区別されます（例：`webPageDetails.URL`）。 `xdm.eventType` フィールドは、受け入れ可能な独自の値セットを持つ文字列値であり、これらの値の大文字と小文字は、XDM フィールド名と一致しない場合があります。 使用できる値については、`eventType`XDM ExperienceEvent クラス [&#x200B; の &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType) フィールドを参照してください。
+>ペイロード内の XDM フィールド名では大文字と小文字が区別されます（例：`webPageDetails.URL`）。 `xdm.eventType` フィールドは、受け入れ可能な独自の値セットを持つ文字列値であり、これらの値の大文字と小文字は、XDM フィールド名と一致しない場合があります。 使用できる値については、`eventType`XDM ExperienceEvent クラス [&#x200B; の &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/classes/experienceevent#eventType) フィールドを参照してください。
 
 +++`xdm` フィールドを使用した最小限のページビュー
 
@@ -193,4 +193,4 @@ Edge Networkでは、次のロジックを使用して、Adobe Analytics[&#x200B
 
 +++
 
-詳しくは、[Adobe Analytics ExperienceEvent フル拡張スキーマフィールドグループ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)を参照してください。
+詳しくは、[Adobe Analytics ExperienceEvent フル拡張スキーマフィールドグループ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)を参照してください。
