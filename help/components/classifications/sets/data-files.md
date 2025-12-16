@@ -3,9 +3,9 @@ description: 分類セットがサポートする様々なファイル形式に�
 title: 分類セットファイル形式
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 これらの仕様に従ってファイルが適切にフォーマットされたら、分類セットインターフェイスまたは API を使用してデータをアップロードできます。 アップロード手順について詳しくは、以下を参照してください。
 
-* **ブラウザーのアップロード**：分類セットについては、[&#x200B; スキーマ &#x200B;](manage/schema.md#upload) インターフェイスの [&#x200B; アップロード &#x200B;](manage/schema.md) を参照してください。
+* **ブラウザーのアップロード**：分類セットについては、[ スキーマ ](manage/schema.md#upload) インターフェイスの [ アップロード ](manage/schema.md) を参照してください。
 * **API アップロード**：詳しくは、[Analytics Classifications API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) を参照してください
 
 分類セットは、次のファイル形式をサポートしています。
 
 * **JSON**：構造化データを含むJavaScript Object Notation ファイル
 * **CSV**：コンマ区切り値ファイル
-* **TSV/TAB**：タブ区切り値ファイル
+* **TSV または TAB**：タブ区切り値ファイル
 
 ## 一般的なファイル要件
 
@@ -39,7 +39,7 @@ JSON ファイル形式は、JSON 行（JSONL）の規則に従います。 フ�
 
 >[!NOTE]
 >
->JSON 行は次の規則に従いますが、すべてのアップロードに `.json` ファイル拡張子を使用します。 `.jsonl` 拡張機能を使用すると、エラーが発生する場合があります。
+>JSON 行の規則に従っても、すべてのアップロードには `.json` ファイル拡張子を使用します。 `.jsonl` 拡張機能を使用すると、エラーが発生する場合があります。
 
 ### JSON 構造
 
@@ -48,7 +48,7 @@ JSON ファイル形式は、JSON 行（JSONL）の規則に従います。 フ�
 * `key` （必須）：分類レコードの一意の ID
 * `data` （更新に必要）：分類列名とその値を含むオブジェクト
 * `action` （任意）：実行するアクション。 次の値がサポートされています。
-   * `update` （デフォルト）
+   * `update` （アクションが指定されていない場合のデフォルトのアクション）
    * `delete-field`
    * `delete-key`
 * `enc` （任意）：データエンコーディングの仕様。 次の値がサポートされています。
@@ -57,32 +57,6 @@ JSON ファイル形式は、JSON 行（JSONL）の規則に従います。 フ�
 
 すべての JSON フィールド名（`key`、`data`、`action`、`enc`）は大文字と小文字が区別され、小文字にする必要があります。
 
-### JSON の例
-
-**基本更新レコード：**
-
-```json
-{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
-```
-
-**指定されたエンコーディングで更新：**
-
-```json
-{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
-```
-
-**特定のフィールドを削除：**
-
-```json
-{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
-```
-
-**キー全体を削除：**
-
-```json
-{"key": "product999", "action": "delete-key"}
-```
-
 ### JSON 検証ルール
 
 * `key` フィールドは必須です。null または空白にすることはできません。
@@ -90,6 +64,35 @@ JSON ファイル形式は、JSON 行（JSONL）の規則に従います。 フ�
 * `delete-field` アクションの場合、削除するフィールドが `data` フィールドに含まれている必要があります。
 * `delete-key` のアクションの場合、「`data`」フィールドは存在できません。
 * サポートされているエンコーディング値は、大文字と小文字を区別せず、標準の文字セット名を含みます。
+
+### JSON の例
+
+JSON ファイル内の JSON レコードの例。
+
+#### 基本更新レコード
+
+```json
+{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
+```
+
+#### 指定されたエンコーディングで更新
+
+```json
+{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
+```
+
+#### 特定のフィールドの削除
+
+```json
+{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
+```
+
+#### キー全体を削除
+
+```json
+{"key": "product999", "action": "delete-key"}
+```
+
 
 +++
 
@@ -104,32 +107,6 @@ CSV （Comma-Separated Values）ファイルでは、分類データフィール
 * **区切り文字**：フィールドはコンマで区切られます
 * **引用符**：コンマ、引用符、改行を含むフィールドは、二重引用符で囲む必要があります
 
-### CSV サンプル
-
-**基本分類データ：**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Basketball Shoes",Brand A,Sports,89.99
-product456,"Running Shoes",Brand B,Sports,79.99
-product789,"Winter Jacket",Brand C,Clothing,149.99
-```
-
-**キー全体を削除：**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product999,~deletekey~,,,
-```
-
-**特定のフィールドを削除する（更新と混在）:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Updated Product Name",Brand A,Sports,89.99
-product456,,~empty~,~empty~,79.99
-```
-
 ### CSV 形式ルール
 
 * コンマを含むフィールドは、二重引用符で囲む必要があります。
@@ -138,11 +115,39 @@ product456,,~empty~,~empty~,79.99
 * フィールドの先頭と末尾のスペースは、自動的に削除されます。
 * 引用されたフィールド内の特殊文字（タブ、改行）は保持されます。
 
-**削除操作：**
+### CSV の削除操作
 
 * 任意のフィールドで `~deletekey~` を使用すると、キー全体とそのすべての分類データを削除できます
 * 特定のフィールドの `~empty~` を使用して、それらの分類値のみを削除します（他のフィールドはそのまま残します）
 * `~empty~` を使用する場合、同じファイル内の削除と更新を混在させることができます
+
+### CSV サンプル
+
+CSV ファイル内の CSV レコードの例。
+
+#### 基本分類データ
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Basketball Shoes",Brand A,Sports,89.99
+product456,"Running Shoes",Brand B,Sports,79.99
+product789,"Winter Jacket",Brand C,Clothing,149.99
+```
+
+#### キー全体を削除
+
+```csv
+Key,Product Name,Brand,Category,Price
+product999,~deletekey~,,,
+```
+
+#### 特定のフィールドの削除（更新と混在）
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Updated Product Name",Brand A,Sports,89.99
+product456,,~empty~,~empty~,79.99
+```
 
 +++
 
@@ -157,9 +162,25 @@ TSV （タブ区切り値）および TAB ファイルでは、タブ文字を�
 * **区切り文字**：フィールドはタブ文字（`\t`）で区切られます。
 * **引用符**：通常、引用符は必要ありませんが、一部の実装では引用符で囲まれたフィールドをサポートしています。
 
+### TSV およびタブ形式ルール
+
+* フィールドは、単一のタブ文字で区切られます。
+* 空のフィールド（連続するタブ）は null 値を表します。
+* 特別な引用は通常必要ありません。
+* 先頭と末尾のスペースは保持されます。
+* フィールド内の改行文字は避ける必要があります。
+
+### TSV およびタブ削除操作
+
+* 任意のフィールドで `~deletekey~` を使用すると、キー全体とそのすべての分類データを削除できます。
+* 特定のフィールドの `~empty~` を使用して、それらの分類値のみを削除します（他のフィールドはそのまま残します）。
+* `~empty~` を使用する場合、同じファイル内で削除と更新を混在させることができます。
+
 ### TSV と TAB の例
 
-**基本分類データ：**
+TSV または TAB ファイル内の TSV または TAB 区切りレコードの例。
+
+#### 基本分類データ
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -168,14 +189,14 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**キー全体を削除：**
+#### キー全体を削除
 
 ```tsv
 Key    Product Name    Brand    Category    Price
 product999    ~deletekey~            
 ```
 
-**特定のフィールドを削除する（更新と混在）:**
+#### 特定のフィールドの削除（更新と混在）
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -183,30 +204,26 @@ product123    Updated Product Name    Brand A    Sports    89.99
 product456        ~empty~    ~empty~    79.99
 ```
 
-### TSV/タブ形式ルール
-
-* フィールドは、単一のタブ文字で区切られます。
-* 空のフィールド（連続するタブ）は null 値を表します。
-* 特別な引用は通常必要ありません。
-* 先頭と末尾のスペースは保持されます。
-* フィールド内の改行文字は避ける必要があります。
-
-**削除操作：**
-
-* 任意のフィールドで `~deletekey~` を使用すると、キー全体とそのすべての分類データを削除できます。
-* 特定のフィールドの `~empty~` を使用して、それらの分類値のみを削除します（他のフィールドはそのまま残します）。
-* `~empty~` を使用する場合、同じファイル内で削除と更新を混在させることができます。
-
 +++
 
 ## エラー処理
 
-アップロードに関するよくある問題と解決策：
+ファイルをアップロードする際の一般的な問題と解決策：
 
 ### 一般的なファイル形式エラー
 
 * **無効なファイル形式**：ファイル拡張子がコンテンツ形式（`.json`、`.csv`、`.tsv` または `.tab`）と一致することを確認します。
 * **不明なヘッダー**：列名は、分類セットスキーマと一致する必要があります（すべての形式に適用）。
+
+### JSON 固有のエラー
+
+* **キーは必須フィールドです**：すべての JSON レコードには、空でない `"key"` フィールドを含める必要があります（小文字、大文字と小文字を区別）。
+* **action=update を使用する場合、データは必須フィールドです**:JSON の更新アクションには、`"data"` フィールドを含める必要があります。
+* **action=delete-field を使用する場合、データは必須フィールドです**:JSON の delete-field アクションでは、削除するフィールドを `"data"` フィールドで指定する必要があります。
+* **action=delete-key を使用する場合、データは存在しません**: JSON の delete-key アクションに `"data"` フィールドを含めることはできません。
+* **サポートされていないエンコーディング**:`"enc"` フィールドで、サポートされているエンコーディング値（`utf8`、`UTF8`、`latin1`、`LATIN1`）のみを使用します。
+* **無効な JSON 構文**:JSON ファイルが JSONL 規則に従って正しくフォーマットされていることを確認してください。 また、一般的な JSON 形式、引用符の欠落、コンマ、角括弧なども確認します。
+
 
 ### CSV および TSV 固有のエラー
 
@@ -217,14 +234,6 @@ product456        ~empty~    ~empty~    79.99
 * **列数がヘッダーと一致しませんでした**：各 CSV または TSV データ行には、ヘッダー行と同じ数のフィールドが必要です。
 * **「形式が正しくないドキュメント**:CSV 引用、TSV ファイルでの適切なタブ分離などを確認してください。
 
-### JSON 固有のエラー
-
-* **キーは必須フィールドです**：すべての JSON レコードには、空でない `"key"` フィールドを含める必要があります（小文字、大文字と小文字を区別）。
-* **action=update を使用する場合、データは必須フィールドです**:JSON の更新アクションには、`"data"` フィールドを含める必要があります。
-* **action=delete-field を使用する場合、データは必須フィールドです**:JSON の delete-field アクションでは、削除するフィールドを `"data"` フィールドで指定する必要があります。
-* **action=delete-key を使用する場合、データは存在しません**: JSON の delete-key アクションに `"data"` フィールドを含めることはできません。
-* **サポートされていないエンコーディング**:`"enc"` フィールドで、サポートされているエンコーディング値（`utf8`、`UTF8`、`latin1`、`LATIN1`）のみを使用します。
-* **無効な JSON 構文**:JSON ファイルが JSONL 規則に従って正しくフォーマットされていることを確認してください。 また、一般的な JSON 形式、引用符の欠落、コンマ、角括弧なども確認します。
 
 ### サイズ制限エラー
 

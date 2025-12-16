@@ -3,10 +3,10 @@ title: 分類セットの作成
 description: 分類セットを作成する際に使用できるフィールドと説明について学習します。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
          * 「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択して、**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;の組み合わせを削除します。
 
-        別の分類セットに既に存在する&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**の組み合わせを追加すると、その組み合わせの下に赤いメッセージが表示されます。
+        **[!UICONTROL レポートスイート]** と、別の分類セットに既に存在する **[!UICONTROL キーDimension]** の組み合わせを追加すると、赤いメッセージが表示されます。
 次の対応ができます。
          * 「**[!UICONTROL 既存に追加]**」を選択して他の分類セットを開き、その他の分類セットの[スキーマに分類を追加](schema.md)します。
          * **[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;を、既に別の分類セットに登録されていない組み合わせに変更します。
