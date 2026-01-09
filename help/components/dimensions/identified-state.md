@@ -1,18 +1,18 @@
 ---
 title: 特定された状態
-description: デバイスグラフによる認識を決定するフラグ。
+description: ステッチの認識を決定するフラグ。
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 89%
+source-wordcount: '109'
+ht-degree: 83%
 
 ---
 
 # 特定された状態
 
-「識別済みの状態」 [&#x200B; ディメンション &#x200B;](overview.md) は、[&#x200B; クロスデバイス分析 &#x200B;](../cda/overview.md) 仮想レポートスイートに固有です。 レポートの実行時点で、ヒットがシステムによって識別（ステッチ）されているかどうかをレポートします。このディメンションは、CDA によるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
+「識別済みの状態」 [ ディメンション ](overview.md) は、[ クロスデバイス分析 ](../cda/overview.md) 仮想レポートスイートに固有です。 レポートの実行時点で、ヒットがシステムによって識別（ステッチ）されているかどうかをレポートします。このディメンションは、CDA によるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
 
 ## このディメンションへのデータ入力
 

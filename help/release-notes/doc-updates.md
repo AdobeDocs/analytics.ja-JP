@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 0c34f756c72f3c07637370fb19b531301a508d19
 workflow-type: tm+mt
-source-wordcount: '6565'
+source-wordcount: '6581'
 ht-degree: 99%
 
 ---
@@ -21,13 +21,20 @@ ht-degree: 99%
 
 ## ドキュメントの主な更新の詳細
 
+### 2026 {#year2026}
+
+| 機能 | 説明 |
+| --- | --- |
+| **2026年1月** | |
+| デバイスグラフ | [ 廃止されたデバイスグラフ機能 ](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
+
 ### 2025年 {#year2025}
 
 | 機能 | 説明 |
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
+| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [ データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
@@ -194,7 +201,7 @@ ht-degree: 99%
 | VISTA | [VISTA ルール](/help/technotes/vista.md)の基本を説明する新しいページ。 |
 | **2022年9月** | |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
-| 新しくなったプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
+| アップデートされたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
 | 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
