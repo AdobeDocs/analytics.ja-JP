@@ -22,14 +22,14 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ プロジェクトをキュレーション ](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; プロジェクトをキュレーション &#x200B;](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 ## プロジェクトキュレーションの適用
 
-1. **[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**をクリックします。
+1. **[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**&#x200B;をクリックします。
 プロジェクトで使用されるコンポーネントが自動的に追加されます。プロジェクトに複数のレポートスイートがある場合、プロジェクト内の各レポートスイートのキュレートドロップターゲットが表示されます。
 1. （任意）他のコンポーネントを追加するには、共有するコンポーネントを左側のパネルからレポートスイートの **[!UICONTROL コンポーネントをキュレーション]** ドロップゾーンにドラッグします。
 1. 「**[!UICONTROL 完了]**」を選択します。
