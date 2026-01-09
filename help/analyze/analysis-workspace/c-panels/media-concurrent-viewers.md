@@ -4,7 +4,7 @@ description: Analysis Workspaceのメディア同時閲覧者パネルを使用�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 95%
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のメディア同時視聴者数パネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[メディア同時視聴者数パネル](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -49,14 +49,14 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 
 **[!UICONTROL メディア同時視聴者数]**&#x200B;パネルを使用すると、同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析できます。
 
-同時視聴者数を分析して、ピーク同時実行が発生した場所や離脱が発生した場所を把握し、コンテンツと視聴者関与の質に関する貴重なインサイトを得ることができます。また、容量や規模のトラブルシューティングや計画にも役立ちます。
+同時閲覧者数を分析して、ピーク同時実行が発生した場所や離脱が発生した場所を把握し、コンテンツと閲覧者エンゲージメントの質に関する貴重なインサイトを得ることができます。また、容量や規模のトラブルシューティングや計画にも役立ちます。
 
 Analysis Workspace では、同時視聴者数指標は、セッション数にかかわらず、特定の時点におけるメディアストリームを視聴しているユニークユーザー数です。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/342838?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア同時視聴者数パネル](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 
 1. **[!UICONTROL メディア同時視聴者数]**&#x200B;パネルを作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
-1. ストリーミングメディア用 Adobe Analytics アドオンから設定されたコンポーネントを含むパネルのデータビューを選択していることを確認してください。
+1. Adobe Analytics for Streaming Media アドオンから設定されたコンポーネントを含むパネルのレポートスイートを選択していることを確認してください。
 
 1. パネルの[入力](#panel-input)を指定します。
 
@@ -131,8 +131,8 @@ Analysis Workspace では、同時視聴者数指標は、セッション数に�
 >[!MORELIKETHIS]
 >
 >[パネルの作成](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[メディア再生滞在時間パネル](media-playback-time-spent.md)
->&#x200B;>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
+>[メディア再生滞在時間パネル](media-playback-time-spent.md)
+>[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342838/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

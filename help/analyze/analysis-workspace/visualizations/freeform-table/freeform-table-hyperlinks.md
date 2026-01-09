@@ -4,10 +4,10 @@ description: Analysis Workspaceのフリーフォームテーブルでディメ�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks for dimension](https://video.tv.adobe.com/v/3445780?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Hyperlinks for dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 作成したハイパーリンクは、Analysis Workspace プロジェクト内のフリーフォームテーブルに保存されます。別のテーブルまたは別のプロジェクトで同じディメンションまたはディメンション項目を使用する際、ハイパーリンクは保持されません。
 
-* フリーフォームテーブルのデータビューを変更した場合、テーブル内のディメンションまたはディメンション項目に対して作成したハイパーリンクは引き続き使用できます。この機能は、ディメンションがデータビューにまだ存在していることを前提としています。
+* フリーフォームテーブルのレポートスイートを変更した場合でも、テーブル内のディメンションまたはディメンション項目に対して作成されたハイパーリンクを使用できます。 この機能では、ディメンションがレポートスイートにまだ存在することを前提としています。
 
 * ハイパーリンクを作成する際に、URL の有効性は確認されません。また、
 

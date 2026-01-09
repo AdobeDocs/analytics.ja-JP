@@ -4,10 +4,10 @@ title: 主要指標の概要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の主要指標の概要ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[主要指標の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の主要指標の概要ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[主要指標の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
    | オプション | 説明 |
    | --- | --- |
    | **[!UICONTROL 指標]** | 調査の対象となる指標を選択します。すべての指標がサポートされています。 |
-   | **[!UICONTROL プライマリ日付範囲]** | フリーフォームテーブルの現在の日付範囲。<p>データビューで使用可能な日付範囲から選択します。</p> <p>ビジュアライゼーションがあるパネルで使用されているのと同じ日付範囲を使用する場合は、「[!UICONTROL **パネルの日付範囲**]」を選択します。</p> |
+   | **[!UICONTROL プライマリ日付範囲]** | フリーフォームテーブルの現在の日付範囲。<p>レポートスイートで使用可能な任意の日付範囲から選択します。</p> <p>ビジュアライゼーションがあるパネルで使用されているのと同じ日付範囲を使用する場合は、「[!UICONTROL **パネルの日付範囲**]」を選択します。</p> |
    | **[!UICONTROL 比較日付範囲]** | プライマリ日付範囲の比較対象となる日付範囲。 |
    | **[!UICONTROL セグメント (オプション)]** | この概要で関心のあるセグメント。 |
 
@@ -116,16 +116,16 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ビジュアライゼーションを作成したら、元の設定を編集できます。
 
-1. ビジュアライゼーションの右上隅にある「![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)」を選択します。
+1. ビジュアライゼーションの右上隅にある「![ 編集 ](/help/assets/icons/Edit.svg)」を選択します。
 
 
-   元の [&#x200B; 設定ビュー &#x200B;](#configure) に戻ります。
+   元の [ 設定ビュー ](#configure) に戻ります。
 
 1. 必要に応じて、指標、プライマリ日付範囲、比較日付範囲またはセグメントを変更します。
 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

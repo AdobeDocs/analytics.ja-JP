@@ -4,10 +4,10 @@ title: データ辞書の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -65,11 +65,11 @@ Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
 * まだ承認されていないコンポーネントを識別します。
 
-* コンポーネントの説明を Analysis Workspace で直接更新します。データ辞書のコンポーネントの説明に対して行われた更新は、データビューに反映されます。
+* コンポーネントの説明を Analysis Workspace で直接更新します。データ要素のコンポーネントの説明に対して行われた更新は、レポートスイートに反映されます。
 
-  同様に、データビューのコンポーネントの説明に対して行われた更新は、Analysis Workspace に反映されます。
+  同様に、レポートスイートのコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
 
-  コンポーネントの説明を Analysis Workspace またはデータビューに追加する方法について詳しくは、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
+  コンポーネントの説明をAnalysis Workspaceまたはレポートスイートに追加する方法について詳しくは、[ コンポーネントの説明の追加 ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) を参照してください。
 
 ## データ辞書へのアクセス
 

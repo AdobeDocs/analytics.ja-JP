@@ -4,10 +4,10 @@ description: ユーザー向けに一般環境設定とプロジェクト環境�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '3456'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/3429996/?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="デフォルトのテーブル指標"
->abstract="フリーフォームテーブルに使用するデフォルトの指標を選択します。選択したデータビューに選択したデフォルトの指標が含まれていない場合、テーブルは自動的に別のプライマリ指標に切り替わります。"
+>abstract="フリーフォームテーブルに使用するデフォルトの指標を選択します。選択したレポートスイートに選択したデフォルト指標が含まれていない場合、テーブルは自動的に別のプライマリ指標に切り替わります。"
 
 
 Analysis Workspace で作成するすべての新しいプロジェクトについて、フリーフォームテーブルの環境設定をカスタマイズできます。これらの環境設定へのアクセス方法について詳しくは、[環境設定の更新](#update-preferences)を参照してください。

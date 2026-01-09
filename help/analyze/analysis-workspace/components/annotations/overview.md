@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * 注釈が作成されるプロジェクト（デフォルト）またはすべてのプロジェクト。
 
-* 注釈が作成されるデータビュー（デフォルト）、またはすべてのデータビュー。
+* 注釈が作成されるレポートスイート（デフォルト）またはすべてのレポートスイート。
 
 注釈の作成に使用できる様々なオプションについて詳しくは、[注釈の作成](create-annotations.md)を参照してください。その後、[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を作成、変更および保存します。
 
