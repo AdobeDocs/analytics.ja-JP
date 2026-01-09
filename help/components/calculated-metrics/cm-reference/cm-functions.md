@@ -93,7 +93,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**Revenue** = *Column Maximum**（Revenue*）, 1, 0）などの **IF** ステートメントを使用して、分類で最もパフォーマンスの高い項目をハイライト表示します。
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**Revenue** = *Column Maximum&#x200B;**（Revenue*）, 1, 0）などの &#x200B;** IF** ステートメントを使用して、分類で最もパフォーマンスの高い項目をハイライト表示します。
 >
 
 ## 列の最小値 {#column-minimum}
@@ -123,7 +123,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**収益** = *列最小**（収益*）、1、0）などの **IF** ステートメントを使用して、分類でパフォーマンスの低い項目をハイライト表示します。
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**収益** = *列最小&#x200B;**（収益*）、1、0）などの &#x200B;** IF** ステートメントを使用して、分類でパフォーマンスの低い項目をハイライト表示します。
 >
 
 
