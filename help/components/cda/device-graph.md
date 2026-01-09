@@ -4,45 +4,17 @@ description: デバイスグラフを使用してデータをステッチする�
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
+source-git-commit: 3716f39ac89a9b922b4f43121ecadab82b571f9b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 55%
+source-wordcount: '45'
+ht-degree: 35%
 
 ---
 
 
 # デバイスグラフ
 
-{{available-existing-customers}}
-
 >[!WARNING]
 >
->クロスデバイス分析内のデバイスグラフは、**2025 年 12 月 31 日** に利用できなくなります。 現在のデバイスグラフが有効な仮想レポートスイートを、[&#x200B; フィールドベースの方法 &#x200B;](/help/components/cda/field-based-stitching.md) に切り替えてください。
+>クロスデバイス分析内のデバイスグラフは、[ 廃止 ](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) され、**2025 年 12 月 31 日** をもって使用できなくなりました。 現在のデバイスグラフが有効な仮想レポートスイートを、[ フィールドベースの方法 ](/help/components/cda/field-based-stitching.md) に切り替えてください。
 >
-
-クロスデバイス分析では、プライベートグラフを使用してデータをつなぎ合わせることができます。 プライベートグラフは、組織に固有の、ハッシュ化されたデバイス ID のリポジトリです。 CDA は、デバイスグラフと定期的に通信し、デバイスを相互にリンクします。
-
-## デバイスグラフに固有の前提条件
-
-デバイスグラフ方式を使用してクロスデバイス分析を実装する場合は、次の手順が必要です。組織内のチームやAdobe アカウントチームと協力して、次のすべてを確実に満たすようにします。
-
->[!WARNING]
->
->すべての前提条件を満たしていない場合、クロスデバイス分析を有効にできないか、データを結び付ける際に結果の質が低下する可能性があります。
->
-
-* 「[概要](overview.md)」ページに表示されるすべての前提条件。
-* 組織は、[Adobe Experience Platform ID サービスのプライベートグラフ &#x200B;](https://business.adobe.com/jp/products/experience-platform/identity-service.html) を使用する必要があります。 『 ID サービスユーザガイド』の [&#x200B; ホームページ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja) も参照してください。
-* 実装では、最新バージョンのExperience Cloud ID サービス（ECID）を使用する必要があります。 ID サービスユーザーガイドの [&#x200B; ホームページ &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を参照してください。 Adobe Experience Platformの [&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) を使用するほとんどの実装では、既に ID サービスがデプロイされている可能性があります。
-* 実装ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは、実装は常にこの `setCustomerIDs` 関数（または相当する SDK）を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。ID サービスユーザーガイドの「[`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ja)」を参照してください。
-
-## デバイスグラフに固有の制限
-
-* 従来の Analytics ID はサポートされていません。Experience Cloud ID を持つ訪問者のみを関連付けます。
-* 組織がプライベートグラフを使用している場合、新しいデバイスを結び付けるのに最大 24 時間かかります。
-* サードパーティのデバイスグラフはサポートされていません。
-
-## 次の手順
-
-組織がすべての要件を満たし、制限事項を理解したら、[クロスデバイス分析の設定](setup.md)を開始できます。
