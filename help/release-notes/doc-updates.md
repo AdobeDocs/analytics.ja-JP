@@ -26,7 +26,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年1月** | |
-| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 

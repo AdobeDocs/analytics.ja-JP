@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->クロスデバイス分析内のデバイスグラフは [&#x200B; 非推奨 &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) となり、**2025 年 12 月 31 日** に利用できなくなります。 現在のデバイスグラフが有効な仮想レポートスイートを、[&#x200B; フィールドベースの方法 &#x200B;](/help/components/cda/field-based-stitching.md) に切り替えてください。
+>クロスデバイス分析内のデバイスグラフは [&#x200B; 非推奨 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) となり、**2025 年 12 月 31 日** に利用できなくなります。 現在のデバイスグラフが有効な仮想レポートスイートを、[&#x200B; フィールドベースの方法 &#x200B;](/help/components/cda/field-based-stitching.md) に切り替えてください。
 >
 
 
@@ -55,7 +55,7 @@ CDA を使用すると、次のような質問に答えることができます�
 * Adobe Analytics レポートスイートを複数の組織 ID にマッピングすることはできません。クロスデバイス分析は特定のレポートスイート内のデバイスを結び付けるので、クロスデバイス分析を使用して複数の組織 ID をまたいでデータを結び付けることはできません。
 * クロスデバイス分析では、複数の依存コンポーネントを持つ複雑な処理パイプラインを使用します。 このパイプラインは、ベース Analytics レポートワークフローと並行して実行されます。 元のレポートスイートとクロスデバイス分析仮想レポートスイートの間の合計ヒット数に対して、約 1% のデータが一致しないことが予想されます。
 * クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。例えば、現在マーケティングチャネル変数をサポートしていません。これらの制限について詳しくは、 [仮想レポートスイート](/help/components/vrs/vrs-about.md) と [レポートの時間処理](/help/components/vrs/vrs-report-time-processing.md) を参照してください。
-* プライベートグラフでは、Experience CloudとAdobe Analyticsで使用されている [&#x200B; 顧客属性 &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) 機能で使用される ID 同期と同じ ID 同期を活用します。 ただし、クロスデバイス分析仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。 つまり、顧客属性ベースのディメンションは、クロスデバイス分析仮想レポートスイートでは使用できません。
+* プライベートグラフでは、Experience CloudとAdobe Analyticsで使用されている [&#x200B; 顧客属性 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes) 機能で使用される ID 同期と同じ ID 同期を活用します。 ただし、クロスデバイス分析仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。 つまり、顧客属性ベースのディメンションは、クロスデバイス分析仮想レポートスイートでは使用できません。
 * 現在、クロスデバイス分析は A4T と互換性がありません。
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * Adobeによるクロスデバイス分析のステッチプロセスのアクティブなモニタリングは、実稼動レポートスイートにのみ制限されます。
