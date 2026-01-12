@@ -182,7 +182,7 @@ Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-[Adobe Experience League](https://experienceleague.adobe.com/?lang=ja) へのオンボードで、成功に役立つ [ ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics)、[ チュートリアル ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview) などにアクセスできます。
+[Adobe Experience League](https://experienceleague.adobe.com/?lang=ja) へのオンボードで、成功に役立つ [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics)、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview) などにアクセスできます。
 
 
 ## Adobe Admin Console
@@ -201,7 +201,7 @@ Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Adobe Experience League へのオンボードにより [ サポートケースを作成、アクティブなケースと過去のケースをレビュー ](https://experienceleague.adobe.com/home#support) できます。
+Adobe Experience League へのオンボードにより [&#x200B; サポートケースを作成、アクティブなケースと過去のケースをレビュー &#x200B;](https://experienceleague.adobe.com/home#support) できます。
 
 
 ## Adobe Analytics
@@ -214,7 +214,7 @@ Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセ�
 
 Adobe Analyticsとそのサポートプラットフォームへのオンボーディングを完了したら、理解を深め、スキルを向上させるために、次のリソースの調査を検討してください。
 
-1. [Adobe Analyticsの概要 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [ レポートスイートの理解と作成 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analyticsの概要 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [&#x200B; レポートスイートの理解と作成 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics)
-4. [Adobe Analyticsのチュートリアルとビデオ ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)
+4. [Adobe Analyticsのチュートリアルとビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)
