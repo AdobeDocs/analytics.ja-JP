@@ -4,7 +4,7 @@ description: サイト上の指標の重複を除外するのに役立ちます�
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -37,7 +37,7 @@ ht-degree: 83%
 
 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、イベントのシリアル化には、目的のイベントの XDM フィールド `id` が使用されます。 完全な XDM パスは、シリアル化するイベントによって異なります。
 
-例えば、買い物かごへの追加指標をシリアル化したい場合、`xdm.commerce.productListAdds.id` を目的のシリアル化値に設定します。 カスタムイベント 20 をシリアル化したい場合、`xdm._experience.analytics.event1to100.event20` を目的のシリアル化値に設定します。
+例えば、買い物かごへの追加指標をシリアル化したい場合、`xdm.commerce.productListAdds.id` を目的のシリアル化値に設定します。 カスタムイベント 20 をシリアル化したい場合、`xdm._experience.analytics.event1to100.event20.id` を目的のシリアル化値に設定します。
 
 [**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、イベントのシリアル化には、AppMeasurementの文字列構文に従って `data.__adobe.analytics.events` が使用されます。
 
@@ -49,7 +49,7 @@ ht-degree: 83%
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を [!UICONTROL &#x200B; 変数を設定 &#x200B;] に設定します。
+5. 「[!UICONTROL  拡張機能 ]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL  アクションタイプ ]」を [!UICONTROL  変数を設定 ] に設定します。
 6. [!UICONTROL イベント]セクションを探します。各イベントには「[!UICONTROL Event ID]」フィールドが含まれます。
 
 有効な値は、20 バイトまでの英数字です。20 バイトを超える値を入力すると、最初の 20 バイトに切り捨てられます。
