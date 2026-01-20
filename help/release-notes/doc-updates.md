@@ -26,14 +26,14 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年1月** | |
-| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
 | 機能 | 説明 |
 | --- | --- |
 | **2026年1月** | |
-| ユーザーの環境設定：数値フォーマット | **[!UICONTROL ユーザー環境設定]** の **[!UICONTROL プロジェクトと分析]**/**[!UICONTROL データ]** セクションで、数値の形式を定義できなくなりました。 数値の形式は、ログインしたユーザーに対して [&#x200B; 設定されているデフォルト言語 &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) によって自動的に決定されます。 |
+| ユーザーの環境設定：数値フォーマット | **[!UICONTROL ユーザー環境設定]** の **[!UICONTROL プロジェクトと分析]**/**[!UICONTROL データ]** セクションで、数値の形式を定義できなくなりました。 数値の形式は、ログインしたユーザーに対して [&#x200B; 設定されているデフォルト言語 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/browser-language) によって自動的に決定されます。 |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
 | 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
