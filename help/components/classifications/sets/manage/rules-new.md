@@ -1,337 +1,59 @@
 ---
 title: 分類セットルール
-description: 分類セットルールを使用して、分類データのルールを定義する方法を説明します。
+description: 分類セットのルールを表示および編集する方法について説明します。
+exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-hide: true
-hidefromtoc: true
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: dec46ddc2cc370d03749f13eab432656ef7bddee
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 11%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
-
 # 分類セットルール
 
-ルールを使用すると、主要なディメンションが絶えず変化するシナリオで自動分類をサポートできます。 アップロードまたは自動化を通じた分類の更新が面倒なプロセスになる、または新しいディメンション値の適切な分類が遅れる。 例えば、内部キャンペーン、トラッキングコード、製品 SKU などです。 ディメンションには、値から分類データを派生できるように、1 つ以上のルールを適用できる値が含まれている必要があります。
+>[!IMPORTANT]
+>
+>分類セットは、まだルールをサポートしていません。 従来のルールビルダー機能が使用できなくなる前に、ルール機能が分類セットインターフェイスに追加されます。
+>分類にルールが必要な場合は、引き続き [ 分類ルールビルダー ](/help/components/classifications/crb/classification-rule-builder.md) を使用します。
 
-ルールは分類セットのコンテキスト内で定義します。 このコンテキストは、分類セットを購読しているすべてのレポートスイートとキーディメンションの組み合わせに対して（アクティブ化されると）ルールが適用されることを意味します。 この実装は、従来の分類ルールビルダーの動作方法とは多少異なります。 分類ルールビルダーで、1 つ以上のルールをルールセットの一部として個別に定義してから、ルールセットを 1 つ以上のレポートスイートに関連付けます。 新しいインターフェイスでは、分類セット内のルールはルールセットとも呼ばれます。 ただし、ルールセットは、他の分類セット属性を設定する場合と同じインターフェイス内で定義されます。
+<!--
+Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-分類セットのルールセットを定義するには：
+![classification set rules UI](../../assets/csets-rules.png)
 
-1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
-1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
-1. **[!UICONTROL 分類セット]** マネージャーで、ルールを定義する分類セットを選択します。
-1. **[!UICONTROL 分類セット：_分類セット名_]**&#x200B;ダイアログで、「**[!UICONTROL ルール]**」タブを選択します。
+## Rule settings
 
-   * 分類セットに初めて **[!UICONTROL ルール]** インターフェイスにアクセスする場合、またはこれまで従来のルールビルダーインターフェイスを引き続き使用することにした場合は、開始方法を選択できるダイアログが表示されます。
+Settings that apply to the entire set of rules.
 
-     ![&#x200B; ルールの移行 &#x200B;](assets/rules-migration.png)
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
+  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
+* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
+   * If you access the **[!UICONTROL Rules]** interface for the first time for a classification set, or decided so far to continue to use the legacy rules builder interface, you are presented with a dialog that allows you to select how to get started. 
 
-     次のオプションがあります。
+     ![Rules migration](assets/rules-migration.png)
+  
+     The options are:
 
-      * **既存のルールを移行** します。 現在の分類ルールを読み込んで、新しいインターフェイスでこれらのルールの使用を続行します。 既存のルールは保持され、新しい形式に変換されます。
-         * 「**[!UICONTROL ルールを移行]**」を選択して続行します。
-         * **[!UICONTROL 移行を確認]** ダイアログで、移行の影響を確認します。
-            * **[!UICONTROL ルールを移行]** を選択して、移行を確定します。 移行が完了したら、[&#x200B; ルールセットインターフェイス &#x200B;](#rule-set-interface) を使用して新しいルールを作成し、既存の移行済みルールを編集します。
-            * 「**[!UICONTROL キャンセル]**」を選択して移行をキャンセルします
+## Rules
 
-      * **新たに開始**。 新しいルールビルダーを使用して、ゼロから新しい分類ルールを作成します。 分類ロジックを再設計する場合や、新しい分類ルールを使用して新たに開始する場合は、このオプションを選択します。
-         * **[!UICONTROL 新しいルールを作成]** を選択して続行します。
-         * **[!UICONTROL 新規開始を確認]** ダイアログで、新規開始の影響を読みます。
-            * **[!UICONTROL 新しく開始]** を選択して新しい開始を確定し、既存のルールを破棄します。 [&#x200B; ルールセットインターフェイス &#x200B;](#rule-set-interface) を使用して、新しいルールを作成します。
-            * 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+A list of rules that run for each unique value.
 
+* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
+* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
-      * **従来のインターフェイスを使用** します。 以前のルールビルダーインターフェイスを引き続き使用します。 新しいエクスペリエンスへの移行は、準備が整ったらいつでも実行できます。
-         * **[!UICONTROL 従来のインターフェイスに移動]** を選択して続行します。 従来の **[!UICONTROL 分類ルールビルダー]** インターフェイスに移動します。
+Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 
-   * 既にルールを移行している場合や、分類セットに対して新しいルールを作成した場合は、最終的にルールセットインターフェイスに直接移動します。
+* **[!UICONTROL Delete]**: Deletes the row from the rule table.
+* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
+## Rule table
 
+The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
 
-## ルールセットインターフェイス {#rule-set-interface}
 
->[!CONTEXTUALHELP]
->id="classificationsets_rules_samplekeys"
->title="サンプルキー"
->abstract="ルールセットをテストするためのテストキーを入力または貼り付けます。 各行は個別のキー値です。 「**[!UICONTROL ルールセットをテスト]**」を選択して、結果を含むダイアログを表示します。"
-
-
-ルールを作成または編集するには、ルールセットインターフェイスを使用します。
-
-![&#x200B; ルールセットインターフェイス &#x200B;](assets/rulesets-ui.png)
-
-| | 名前 | 説明 |
-|---|---|---|
-| 1 | **[!UICONTROL 関数]** | 「**[!UICONTROL 関数]**」領域を使用して、関数を選択し、ルールセットビルダーにドラッグ&amp;ドロップします。 |
-| 2 | **ルールセットビルダー** | ルールセットを作成するには、1 つ以上のルールを使用します。 ルールは関数の実装であり、常に 1 つの関数にのみ関連付けられます。 1 つの関数に複数の演算子を含めることができます。 ルールを作成するには、関数をルールセットビルダーにドラッグ&amp;ドロップします。 関数タイプは、ルールのインターフェイスを定義します。 <br/> 詳しくは、[&#x200B; ルールインターフェイス &#x200B;](#rule-interface) を参照してください。<br/> 関数は、任意の場所に挿入できます。また、関数を順番に実行して、分類の最終的な値を決定します。<br/> すべて折りたたむ **[!UICONTROL を使用してすべてのルールを折りたたむ]** と、**[!UICONTROL すべて展開する]** を使用してすべてのルールを展開します。 |
-| 3 | **[!UICONTROL ステータス]** | ルールセットのステータスと最終変更日を表示します。 <br/> 「**[!UICONTROL アクティブ化]**」を選択して、ルールセットをアクティブ化します。 <br/> 「**[!UICONTROL 無効化]**」を選択して、ルールセットを無効化します。 |
-| 4 | **[!UICONTROL ルックバック]** | ルールセットのルックバックウィンドウを指定します。<br/> ドロップダウンメニューからオプションを選択します（1 か月から 6 か月）。<br/> 「**[!UICONTROL ルックバックを実行]**」を選択し、選択したルックバック期間を使用してルックバックを実行します。 |
-| 5 | **[!UICONTROL テストオプション]** | サンプルキーディメンション値を使用して、分類をテストします。 <ul><li>**[!UICONTROL サンプルキー]** テキスト領域に値を追加または貼り付けます。<br/>**[!UICONTROL サンプルキーを保存]** をチェックして、ルールセットインターフェイスの様々な使用方法にわたってサンプルキーが保持されるようにします。</li><li>「**[!UICONTROL ルールセットをテスト]**」を選択して、ルールセットをテストします。</li></ul> |
-
-
-## ルールインターフェイス
-
-ルールインターフェイスのルールセット内で個々のルールを定義します。 インターフェイスは、次の要素で構成されます。
-
-![&#x200B; ルールインターフェイス &#x200B;](assets/rule-ui.png)
-
-| | 説明 |
-|---|---|
-| 1 | 選択した関数の名前と、その関数に対して入力された入力。 |
-| 2 | 選択した関数の入力。 入力は、選択した関数によって異なります。 例えば、**[!UICONTROL 正規表現]** 関数の場合、入力は正規表現です。 **[!UICONTROL Split]** 関数の場合、入力はトークンです。 特定の関数に適切な入力を入力します。 例えば、内部キャンペーンコードで 3 つの分類を識別する正規表現の `^(.+)\:(.+)\:(.+)$` です。 |
-| 3 | 各操作は、特定の分類を値に設定します。 <br/> 分類を設定 **&#x200B;**&#x200B;ドロップダウンメニューから分類を選択し、「**[!UICONTROL から]** の値を入力します。 リストから操作を削除するには <br/>![CrossSize400](/help/assets/icons/CrossSize400.svg) を使用します。 |
-| 4 | 「![&#x200B; 追加 &#x200B;](/help/assets/icons/Add.svg)**[!UICONTROL 追加操作]**」を選択して、関数に操作を追加します。 |
-| 5 | ![ChevronDown](/help/assets/icons2/ChevronDown.svg) を選択して、ルールを折りたたみます。 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg) を選択して、ルールを展開します。<br/>![CrossSize400](/help/assets/icons/CrossSize400.svg) を選択して、ルールを削除します。 |
-
-## 関数リファレンス
-
-サポートされている各関数について、必要な入力とサンプルのユースケースに関する詳細を以下で確認します。
-
-
-### 次で始まる…
-
-キーディメンションの出発点となる特定の値に基づいて分類を設定します。
-
-+++ 詳細 
-
-#### 必要な入力
-
-**[!UICONTROL 次で始まる]** の値を入力します。 例：`em`。
-
-#### ユースケース
-
-キーディメンション内部キャンペーンの値が `Email` で始まる場合に **[!UICONTROL チャネル]** 分類の値として `em` を割り当てるルールを定義します（例：`em:FY2025:Summer Sale`）。
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 次で始まる &#x200B;](assets/rule-startswith.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – テスト結果で始まる &#x200B;](assets/rule-startswith-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-
-### 次で終わる…
-
-キーディメンションの末尾が次の値である特定の値に基づいて分類を設定します。
-
-+++ 詳細 
-
-#### 必要な入力
-
-**[!UICONTROL 次で終わる]** の値を入力します。 例：`2025`。
-
-#### ユースケース
-
-キーディメンション内部キャンペーンの値に `2025` が含まれている場合（例：**[!UICONTROL ）、]** を `2025` 年 `em:Summer Sale:FY2025` 分類の値として割り当てるルールを定義します。
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 次で終わる &#x200B;](assets/rule-endswith.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – テスト結果で終わる &#x200B;](assets/rule-endswith-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-### 含む…
-
-キーディメンションに含まれる特定の値に基づいて分類を設定します。
-
-+++ 詳細 
-
-#### 必要な入力
-
-**[!UICONTROL 次を含む]** の値を入力します。 例：`Winter`。
-
-#### ユースケース
-
-キーディメンション内部キャンペーンの値に `Winter Sale` が含まれる場合（例：**[!UICONTROL ）に、]** を `Winter` タイプ `fb:Winter:FY2024` 分類の値として割り当てるルールを定義します。
-
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 次を含む &#x200B;](assets/rule-contains.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – 結果を含む &#x200B;](assets/rule-contains-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-### 抽出される: 
-
-キーディメンション値に一致する特定の値に基づいて分類を設定します。
-
-+++ 詳細 
-
-#### 必要な入力
-
-**[!UICONTROL 一致]** の値を入力します。 例：`em:Summer:2025`。
-
-#### ユースケース
-
-`Email` を値として **[!UICONTROL チャネル]** 分類に、`Summer Sale` を値として **[!UICONTROL タイプ]** 分類に、`2025` を **[!UICONTROL 年]** 分類に割り当てるルールを定義する必要があります。 ただし、キーディメンション「内部キャンペーン」の値が「`em:Summer:2025`」と一致する場合に限ります。
-
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 一致 &#x200B;](assets/rule-matches.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – 一致 &#x200B;](assets/rule-matches-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-### 正規表現
-
-キーディメンション値に適用される正規表現に基づいて 1 つ以上の分類を設定します。
-
-+++ 詳細 
-
-#### 必要な入力
-
-**[!UICONTROL 正規表現]** の値を入力します。 例：`^(.+)\:(.+)\:FY(.+)$`。
-
-#### ユースケース
-
-正規表現 **[!UICONTROL を適用し、キーディメンション Internal Campaign の値に一致グループ]**&#x200B;**[!UICONTROL 、]** および **[!UICONTROL ）を使用して、]** Channel`^(.+)\:(.+)\:FY(.+)$`、`$1`Type）および `$2`Year`$3` 分類に値を割り当てるルールを定義する必要があります。
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 正規表現 &#x200B;](assets/rule-regex.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – 正規表現テストの結果 &#x200B;](assets/rule-regex-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-### Split
-
-トークンに基づいてキーディメンション値を 1 つ以上の分類に分割します。
-
-+++ 詳細
-
-#### 必要な入力
-
-**[!UICONTROL 分割]** の値を入力します。 例：`:`。
-
-#### ユースケース
-
-キーディメンションの内部キャンペーンの値を、**[!UICONTROL ースの]** トークン **[!UICONTROL に基づいて]** チャネル **[!UICONTROL 、]** タイプ `:` および **[!UICONTROL 年]** 分類に分割するルールを定義する必要があります。
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 分割 &#x200B;](assets/rule-split.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – 分割テストの結果 &#x200B;](assets/rule-split-test.png)
-
->[!ENDTABS]
-
-+++
-
-
-#### 参照テーブル {#section_0211DCB1760042099CCD3ED7A665D716}
-
-| 正規表現 | 説明 |
-|---|---|
-| `(?ms)` | 複数行の入力に対して正規表現全体を一致させます。これにより、`.` のワイルドカードを任意の改行文字に一致させることができます |
-| `(?i)` | 大文字と小文字を区別しないようにするには、正規表現全体を一致させます |
-| `[abc]` | a、b または c の 1 文字 |
-| `[^abc]` | a、b、c 以外の 1 文字 |
-| `[a-z]` | a ～ z の範囲内の 1 文字 |
-| `[a-zA-Z]` | a ～ z または A ～ Z の範囲内の 1 文字 |
-| `^` | 行の開始（行の開始に一致） |
-| `$` | 行の末尾（または末尾の改行の前）に一致する |
-| `\A` | 文字列の開始 |
-| `\z` | 文字列の末尾 |
-| `.` | 任意の文字の一致（改行を除く） |
-| `\s` | 空白文字 |
-| `\S` | 空白以外の文字 |
-| `\d` | 数字 |
-| `\D` | 数字以外 |
-| `\w` | 任意の単語（文字、数字、アンダースコア） |
-| `\W` | 任意の単語以外の文字 |
-| `\b` | 任意の単語境界 |
-| `(...)` | 囲まれている内容をすべてキャプチャ |
-| `(a\b)` | a または b |
-| `a?` | 0 または 1 個の a |
-| `a*` | 0 個以上の a |
-| `a+` | 1 つ以上の a |
-| `a{3}` | 3 個の a |
-| `a{3,}` | 3 個以上の a |
-| `a{3,6}` | 3 ～ 6 個の a |
-
-
-
-## ルールの優先度
-
-最後のルールは、次の場合に分類の値を決定します。
-
-* キーディメンション値は複数のルールと一致します。
-* このルールセットには、同じ **[!UICONTROL 分類を設定]** 操作を持つルールが含まれています。
-
-したがって、最も重要な **[!UICONTROL 分類を設定]** 操作を、ルールセットの最後のルールの一部としてランク付けする必要があります。
-
-同じ **[!UICONTROL 分類を設定]** 操作を共有しない複数のルールを作成する場合、処理順序は関係ありません。
-
-
-### 例
-
-検索文字列をキーディメンションとして使用して、ユーザーがチーム、汎用タイプまたはプレーヤーを検索する方法を分類 **[!UICONTROL タイプ]** で分類する場合。 例えば、このルールセットを使用すると、次のようになります。
-
-+++ 詳細
-
-
->[!BEGINTABS]
-
->[!TAB  ルール ]
-
-![&#x200B; ルール – 優先度 &#x200B;](assets/rule-priority.png)
-
->[!TAB  テストの結果 ]
-
-![&#x200B; ルール – 優先度テスト結果 &#x200B;](assets/rule-priority-test.png)
-
->[!ENDTABS]
-
-+++ 
-
+-->
