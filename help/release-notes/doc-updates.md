@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 58098a24e826161bbd7aadb98abe050fd944791e
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '6639'
 ht-degree: 98%
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* [!UICONTROL Customer Journey Analytics&rbrace; について詳しくは &#x200B;]2&rbrace;Customer Journey Analytics[&#x200B; を参照してください。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)
+* [!UICONTROL Customer Journey Analytics} について詳しくは ]2}Customer Journey Analytics[ を参照してください。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)
 * ストリーミングメディアサービスについて詳しくは、[Analytics でのオーディオとビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## ドキュメントの主な更新の詳細
@@ -26,9 +26,9 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年1月** | |
-| 分類セットルールビルダー | [&#x200B; 分類セットのルールビルダー機能 &#x200B;](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
-| ユーザーの環境設定：数値フォーマット | **[!UICONTROL ユーザー環境設定]** の **[!UICONTROL プロジェクトと分析]**/**[!UICONTROL データ]** セクションで、数値の形式を定義できなくなりました。 数値の形式は、ログインしたユーザーに対して [&#x200B; 設定されているデフォルト言語 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/browser-language) によって自動的に決定されます。 |
-| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| 分類セットルールビルダー | [ 分類セットのルールビルダー機能 ](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
+| ユーザーの環境設定：数値フォーマット | **[!UICONTROL ユーザー環境設定]** の **[!UICONTROL プロジェクトと分析]**/**[!UICONTROL データ]** セクションで、数値の形式を定義できなくなりました。 数値の形式は、ログインしたユーザーに対して [ 設定されているデフォルト言語 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) によって自動的に決定されます。 |
+| デバイスグラフ | [ 廃止されたデバイスグラフ機能 ](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
+| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [ データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
@@ -60,7 +60,7 @@ ht-degree: 98%
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/tools/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
-| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[&#x200B; ページ変数 &#x200B;](/help/implement/vars/page-vars/transactionid.md) および [&#x200B; データソース &#x200B;](/help/import/data-sources/transactionid.md) を参照してください。 |
+| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[ ページ変数 ](/help/implement/vars/page-vars/transactionid.md) および [ データソース ](/help/import/data-sources/transactionid.md) を参照してください。 |
 | Livestream API - クライアント実装 | Livestream データを使用するには、[Livestream クライアント実装](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)を使用します。 |
 | Classifications API の更新 | [サーバーから個々の分類フィールドまたはキーを削除](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)できるようになりました。これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。 |
 | **2025年1月** |  |
@@ -98,7 +98,7 @@ ht-degree: 98%
 | Adobe Analytics から Customer Journey Analytics へのアップグレードに関する新しいドキュメント | Adobe Analytics から Customer Journey Analytics にアップグレードする組織の場合、組織の現在の Adobe Analytics 実装と長期目標に基づいて、複数のアップグレードオプションと多くの考慮事項があることに留意する必要があります。<p>次の内容に対する理解を深めるのに役立つ、新しいドキュメントリソースが利用できるようになりました。</p><ul><li>存在する様々なアップグレードパス</li><li>組織の現在の Adobe Analytics 実装に基づいて利用可能なアップグレードパス</li><li>各アップグレードパスのメリットとデメリット</li><li>各アップグレードパスの段階的なガイダンス</li><li>履歴データの処理に関する考慮事項</li><li>その他</li></ul><p>[詳しくは、Customer Journey Analytics へのアップグレードを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | カスタム日付範囲に関するドキュメントを更新 | 現在の製品の機能とデザインに一致させるために、[カスタム日付範囲の作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)に関連するスクリーンショットと手順を更新しました。 |
 | **2024年4月** | |
-| 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/manage/set-manager.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
+| 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/set-manager.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました。 | クラウドアカウントタイプの説明に関する[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の折りたたみ可能な節を削除しました。 |
 | **2024年3月** | |
 | AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数ドキュメントへの参照と更新が含まれます。 |
@@ -253,7 +253,7 @@ ht-degree: 98%
 | 2021年7月15日 | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を更新しました |
-| 2021年6月3日 | [&#x200B; データフィードの実装 &#x200B;](/help/export/analytics-data-feed/create-feed.md) と [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl) について詳しく説明するためのドキュメントを更新しました。 |
+| 2021年6月3日 | [ データフィードの実装 ](/help/export/analytics-data-feed/create-feed.md) と [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl) について詳しく説明するためのドキュメントを更新しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](/help/components/dimensions/evar.md)に関するドキュメントを更新しました。 |
 | 2021年5月13日 | [Data Warehouse API リクエスト](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)を更新しました。「Hours」をサポートするようになりました。 |
 | **2021年3月** | |
