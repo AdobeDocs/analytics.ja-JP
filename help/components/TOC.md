@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -272,8 +272,8 @@ ht-degree: 99%
          + [ルール](classifications/sets/manage/rules.md)
       + [分類ジョブ](classifications/sets/job-manager.md)
       + 分類の統合 {#consolidations}
-         + [管理](classifications/sets/consolidations/manage.md)
          + [作成と編集](classifications/sets/consolidations/process.md)
+         + [管理](classifications/sets/consolidations/manage.md)
    + 従来の分類 {#legacy-classifications}
       + 分類ルールビルダー {#classifications-rulebuilder}
          + [概要](classifications/crb/classification-rule-builder.md)
