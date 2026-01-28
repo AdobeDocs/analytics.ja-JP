@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
+source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -310,4 +310,3 @@ ht-degree: 99%
    + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
    + [マーケティングチャネルに関する FAQ と例](c-marketing-channels/c-faq.md)
-
