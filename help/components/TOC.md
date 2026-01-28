@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + 従来の分類 {#legacy-classifications}
       + 分類ルールビルダー {#classifications-rulebuilder}
          + [概要](classifications/crb/classification-rule-builder.md)
-         + [分類ルールセット](classifications/crb/classification-rule-set.md)
-         + [分類ルール](classifications/crb/classification-quickstart-rules.md)
-         + [分類ルール定義](classifications/crb/classification-rule-definitions.md)
-         + [下位分類とルールビルダー](classifications/crb/subclassification-rule-builder.md)
+         + [ルールセット](classifications/crb/classification-rule-set.md)
+         + [ルール](classifications/crb/classification-quickstart-rules.md)
+         + [ルールの定義](classifications/crb/classification-rule-definitions.md)
+         + [下位分類](classifications/crb/subclassification-rule-builder.md)
       + 分類インポーター {#classifications-importer}
-         + [分類インポーターの概要](classifications/importer/c-working-with-saint.md)
-         + [分類データファイル](classifications/importer/c-saint-data-files.md)
+         + [概要](classifications/importer/c-working-with-saint.md)
+         + [データファイル](classifications/importer/c-saint-data-files.md)
          + [分類データの削除](classifications/importer/t-delete-classification-data.md)
-         + [分類テンプレート](classifications/importer/c-download-saint-data.md)
+         + [テンプレート](classifications/importer/c-download-saint-data.md)
          + [ブラウザーインポート](classifications/importer/browser-import.md)
          + [ブラウザーエクスポート](classifications/importer/browser-export.md)
          + [FTP インポート](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
    + [マーケティングチャネルに関する FAQ と例](c-marketing-channels/c-faq.md)
+
