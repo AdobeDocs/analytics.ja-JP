@@ -96,7 +96,7 @@ Note: this option does not seem to work. AN-338422
 
 スパークラインに加えて、接続線のビジュアライゼーションに含めるフィルター条件を設定できます。 （デフォルトでは、フィルター条件は折れ線グラフのビジュアライゼーションに含まれていません。 折れ線グラフビジュアライゼーションには、接続されたテーブルで選択された行のデータが表示されます。 行が選択されていない場合、接続されたテーブルの最初のディメンションのデータのみが表示されます）。
 
-スパークラインと折れ線グラフのビジュアライゼーションについて詳しくは、[ フリーフォームテーブルのトレンドデータの表示 ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md) を参照してください。
+スパークラインと折れ線グラフのビジュアライゼーションについて詳しくは、[&#x200B; フリーフォームテーブルのトレンドデータの表示 &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md) を参照してください。
 
 #### フィルター条件を含む折れ線グラフのビジュアライゼーションの設定
 
@@ -104,13 +104,13 @@ Note: this option does not seem to work. AN-338422
 
    スパークライン セルを選択すると、濃い灰色で表示されます。 これは、接続線のビジュアライゼーションにフィルター条件が含まれていることを示します。 フィルター条件は、列のセグメントとして適用されます。<!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   ![ スパークラインを選択 ](assets/table-sparkline-selected.png)
+   ![&#x200B; スパークラインを選択 &#x200B;](assets/table-sparkline-selected.png)
 
 #### 列の合計が不正確な可能性がある場合について
 
 次のシナリオでは、列の合計が正確でない可能性があります。
 
-* 左側の列と [ 列の合計は行の合計として計算される ](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) で静的コンポーネントが使用される場合
+* 左側の列と [&#x200B; 列の合計は行の合計として計算される &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) で静的コンポーネントが使用される場合
 
   このシナリオでは、行アイテムに重複するデータが含まれていると、列の合計が不正確になります。
 
@@ -137,17 +137,17 @@ Analysis Workspaceでは、次の種類の列でフリーフォームテーブ�
 
 ## 1 つの列でテーブルを並べ替え
 
-この節で説明するように 1 列のデータを並べ替えると、テーブルに適用されている [ 詳細な並べ替え ](#sort-tables-by-multiple-columns-advanced-sorting) は削除されます。
+この節で説明するように 1 列のデータを並べ替えると、テーブルに適用されている [&#x200B; 詳細な並べ替え &#x200B;](#sort-tables-by-multiple-columns-advanced-sorting) は削除されます。
 
 テーブルのデータを 1 つの列で並べ替えるには：
 
-1. 並べ替える列のヘッダーにマウスを移動し、表示された **並べ替え** アイコン ![ 並べ替え ](/help/assets/icons/SortOrderDown.svg) を選択します。
+1. 並べ替える列のヘッダーにマウスを移動し、表示された **並べ替え** アイコン ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderDown.svg) を選択します。
 
-   ![ 並べ替えドロップダウンメニュー ](assets/sort-dropdown-menu.png)
+   ![&#x200B; 並べ替えドロップダウンメニュー &#x200B;](assets/sort-dropdown-menu.png)
 
 1. **[!UICONTROL 昇順]** または **[!UICONTROL 降順]** を選択します。
 
-   並べ替えが列に適用されている場合、並べ替えアイコンは表示されたままになります。 矢印は、データの並べ替え方法（昇順の場合は ![ 並べ替え ](/help/assets/icons/SortOrderUp.svg)、降順の場合は ![ 並べ替え ](/help/assets/icons/SortOrderDown.svg)）を示します。
+   並べ替えが列に適用されている場合、並べ替えアイコンは表示されたままになります。 矢印は、データの並べ替え方法（昇順の場合は ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderUp.svg)、降順の場合は ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderDown.svg)）を示します。
 
 ## 複数の列でテーブルを並べ替える（詳細な並べ替え）
 
@@ -157,23 +157,23 @@ Analysis Workspaceでは、次の種類の列でフリーフォームテーブ�
 
 テーブルのデータを複数の列で並べ替えるには：
 
-1. 並べ替える列のヘッダーにマウスを移動し、表示された **並べ替え** アイコン ![ 並べ替え ](/help/assets/icons/SortOrderDown.svg) を選択します。
+1. 並べ替える列のヘッダーにマウスを移動し、表示された **並べ替え** アイコン ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderDown.svg) を選択します。
 
-   ![ 並べ替えドロップダウンメニュー ](assets/sort-dropdown-menu.png)
+   ![&#x200B; 並べ替えドロップダウンメニュー &#x200B;](assets/sort-dropdown-menu.png)
 
 1. **[!UICONTROL 詳細な並べ替え]** を選択します。
 
-   ![ 詳細な並べ替えダイアログ ](assets/sort-advanced-dialog.png)
+   ![&#x200B; 詳細な並べ替えダイアログ &#x200B;](assets/sort-advanced-dialog.png)
 
 1. 詳細な並べ替えダイアログで、次のいずれかの操作を行います。
 
    * 「**[!UICONTROL 並べ替え列を追加]** ボタンを選択して、まだ並べ替えられていない列を追加します。
 
-   * **削除** アイコン ![ 削除 ](/help/assets/icons/Close.svg) を選択して、ソートする必要がなくなった列を削除します。
+   * **削除** アイコン ![&#x200B; 削除 &#x200B;](/help/assets/icons/Close.svg) を選択して、ソートする必要がなくなった列を削除します。
 
    * リスト内の列を上下にドラッグして、並べ替えの優先度を調整します。
 
-     詳細については、「[ 優先度を並べ替える ](#sort-priority)」を参照してください。
+     詳細については、「[&#x200B; 優先度を並べ替える &#x200B;](#sort-priority)」を参照してください。
 
    * ドロップダウンメニューで **[!UICONTROL 昇順]** または **[!UICONTROL 降順]** を選択して、並べ替え値を変更します。
 
@@ -181,13 +181,13 @@ Analysis Workspaceでは、次の種類の列でフリーフォームテーブ�
 
 1. 「**[!UICONTROL 適用]**」を選択します。
 
-並べ替えが列に適用されている場合、並べ替えアイコンは表示されたままになります。 矢印は、データの並べ替え方法（昇順の場合は ![ 並べ替え ](/help/assets/icons/SortOrderUp.svg)、降順の場合は ![ 並べ替え ](/help/assets/icons/SortOrderDown.svg)）を示します。
+並べ替えが列に適用されている場合、並べ替えアイコンは表示されたままになります。 矢印は、データの並べ替え方法（昇順の場合は ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderUp.svg)、降順の場合は ![&#x200B; 並べ替え &#x200B;](/help/assets/icons/SortOrderDown.svg)）を示します。
 
-![ マルチソートの例 ](assets/dimensions-multiple-sort.png)
+![&#x200B; マルチソートの例 &#x200B;](assets/dimensions-multiple-sort.png)
 
 ### 並べ替えの優先度
 
-複数の列のデータを並べ替える場合、各列に割り当てた優先度に従ってデータが並べ替えられます。 優先度番号は、ソートアイコン ![ ソート優先度アイコン ](assets/sort-priority-icon.png) の横に表示されます。
+複数の列のデータを並べ替える場合、各列に割り当てた優先度に従ってデータが並べ替えられます。 優先度番号は、ソートアイコン ![&#x200B; ソート優先度アイコン &#x200B;](assets/sort-priority-icon.png) の横に表示されます。
 
 プライマリの優先順位の列は主な順序を決定し、セカンダリの優先順位の列は行が 1 次の列に同じ値を持つ場合の順序を決定し、3 次の優先順位の列は 1 次と 2 次の列に同じ値を持つ場合の順序を決定します。
 
@@ -212,4 +212,4 @@ Analysis Workspaceでは、次の種類の列でフリーフォームテーブ�
 
 各列に並べ替えの優先度を割り当てることで、テーブルでのデータの表示方法を正確に制御できます。 この例では、情報を日、ページビュー、訪問回数、最後にコンテンツベロシティで並べ替えています。
 
-![ マルチソートの例 ](assets/dimensions-multiple-sort.png)
+![&#x200B; マルチソートの例 &#x200B;](assets/dimensions-multiple-sort.png)
