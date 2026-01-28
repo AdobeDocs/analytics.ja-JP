@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 99%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -284,7 +284,7 @@ ht-degree: 99%
       + 分類インポーター {#classifications-importer}
          + [概要](classifications/importer/c-working-with-saint.md)
          + [データファイル](classifications/importer/c-saint-data-files.md)
-         + [分類データの削除](classifications/importer/t-delete-classification-data.md)
+         + [データを削除](classifications/importer/t-delete-classification-data.md)
          + [テンプレート](classifications/importer/c-download-saint-data.md)
          + [ブラウザーインポート](classifications/importer/browser-import.md)
          + [ブラウザーエクスポート](classifications/importer/browser-export.md)
