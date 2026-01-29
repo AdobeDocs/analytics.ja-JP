@@ -20,11 +20,11 @@ ht-degree: 26%
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. **[!UICONTROL 分類セット]** マネージャーで、スキーマを編集する分類セットを選択します。
-1. **[!UICONTROL 分類セット：_分類セット_]**ダイアログで、「**[!UICONTROL 設定]**」タブを選択します。
+1. **[!UICONTROL 分類セット：_分類セット_]**&#x200B;ダイアログで、「**[!UICONTROL 設定]**」タブを選択します。
 
-1. **[!UICONTROL 分類セット：_分類セット_]**ダイアログで、必要に応じて次の操作を行います。
+1. **[!UICONTROL 分類セット：_分類セット_]**&#x200B;ダイアログで、必要に応じて次の操作を行います。
 
-   ![ 分類セット – 設定 ](assets/classification-sets-settings.png)
+   ![&#x200B; 分類セット – 設定 &#x200B;](assets/classification-sets-settings.png)
 
    1. **[!UICONTROL 名前]** を編集します。
    1. **[!UICONTROL 説明（オプション）]** を編集します。
@@ -34,6 +34,6 @@ ht-degree: 26%
       * 1 つの分類セットに対して複数の&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL ディメンション]**&#x200B;の組み合わせを定義できます。
       * 「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択して、**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;の組み合わせを削除します。
 
-      詳しくは [ 分類セットの作成 ](/help/components/classifications/sets/manage-sets.md) を参照してください。
+      詳しくは [&#x200B; 分類セットの作成 &#x200B;](/help/components/classifications/sets/manage-sets.md) を参照してください。
 
    1. 「**[!UICONTROL 保存]**」を選択して、設定を保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
