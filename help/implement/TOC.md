@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -148,8 +148,8 @@ ht-degree: 0%
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
 + Experience Platform Edge を使用した Analytics の実装 {#aep-edge}
    + [Experience Edge の概要](aep-edge/overview.md)
-   + [データオブジェクト変数のマッピング](aep-edge/data-var-mapping.md)
-   + [XDM オブジェクト変数のマッピング](aep-edge/xdm-var-mapping.md)
+   + [データオブジェクトフィールドのマッピング](aep-edge/data-var-mapping.md)
+   + [XDM オブジェクトフィールドのマッピング](aep-edge/xdm-var-mapping.md)
    + [Edge Network イベントタイプ](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK の概要](aep-edge/web-sdk/overview.md)
@@ -179,7 +179,7 @@ ht-degree: 0%
          + [動的アカウントの概要](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
-         + [dynamicAccountSelection &#x200B;](js/h-code/dynamicaccount/dynamicaccountselection.md)
+         + [dynamicAccountSelection ](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
    + レガシークロスデバイス特定 {#xdevice-visid}
       + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
