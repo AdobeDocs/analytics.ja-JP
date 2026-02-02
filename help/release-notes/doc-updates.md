@@ -16,7 +16,7 @@ ht-degree: 98%
 
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* [!UICONTROL Customer Journey Analytics} について詳しくは ]2}Customer Journey Analytics[ を参照してください。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)
+* [!UICONTROL Customer Journey Analytics&rbrace; について詳しくは &#x200B;]2&rbrace;Customer Journey Analytics[&#x200B; を参照してください。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)
 * ストリーミングメディアサービスについて詳しくは、[Analytics でのオーディオとビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## ドキュメントの主な更新の詳細
@@ -26,8 +26,8 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年1月** | |
-| 分類セットルールビルダー | [ 分類セットのルールビルダー機能 ](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
-| デバイスグラフ | [ 廃止されたデバイスグラフ機能 ](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| 分類セットルールビルダー | [&#x200B; 分類セットのルールビルダー機能 &#x200B;](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
+| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [ データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
+| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
@@ -59,7 +59,7 @@ ht-degree: 98%
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/tools/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
-| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[ ページ変数 ](/help/implement/vars/page-vars/transactionid.md) および [ データソース ](/help/import/data-sources/transactionid.md) を参照してください。 |
+| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[&#x200B; ページ変数 &#x200B;](/help/implement/vars/page-vars/transactionid.md) および [&#x200B; データソース &#x200B;](/help/import/data-sources/transactionid.md) を参照してください。 |
 | Livestream API - クライアント実装 | Livestream データを使用するには、[Livestream クライアント実装](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)を使用します。 |
 | Classifications API の更新 | [サーバーから個々の分類フィールドまたはキーを削除](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)できるようになりました。これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。 |
 | **2025年1月** |  |
@@ -252,7 +252,7 @@ ht-degree: 98%
 | 2021年7月15日 | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を更新しました |
-| 2021年6月3日 | [ データフィードの実装 ](/help/export/analytics-data-feed/create-feed.md) と [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl) について詳しく説明するためのドキュメントを更新しました。 |
+| 2021年6月3日 | [&#x200B; データフィードの実装 &#x200B;](/help/export/analytics-data-feed/create-feed.md) と [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl) について詳しく説明するためのドキュメントを更新しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](/help/components/dimensions/evar.md)に関するドキュメントを更新しました。 |
 | 2021年5月13日 | [Data Warehouse API リクエスト](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)を更新しました。「Hours」をサポートするようになりました。 |
 | **2021年3月** | |
