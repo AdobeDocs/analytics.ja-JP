@@ -27,7 +27,7 @@ ht-degree: 98%
 | --- | --- |
 | **2026年1月** | |
 | 分類セットルールビルダー | [&#x200B; 分類セットのルールビルダー機能 &#x200B;](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
-| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
