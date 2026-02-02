@@ -76,7 +76,7 @@ Adobe Analytics用のReport BuilderはMicrosoft Excel アドインです。 ア�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder の概要](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder の概要](https://video.tv.adobe.com/v/3452581?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

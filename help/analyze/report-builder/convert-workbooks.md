@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446183?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
