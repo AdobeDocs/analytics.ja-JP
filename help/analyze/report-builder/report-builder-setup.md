@@ -1,21 +1,21 @@
 ---
-title: Adobe AnalyticsでReport Builderを設定する方法
-description: Adobe AnalyticsでReport Builderを設定する方法について説明します
+title: Report Builderの設定
+description: Adobe AnalyticsでReport Builderを設定する方法について説明します。
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '497'
+ht-degree: 67%
 
 ---
 
 # Report Builder の設定
 
-Excel のアドインメニューを使用して、Report Builderにすばやくアクセスできます。
+この記事では、Microsoft Excel でReport Builder for Adobe Analyticsを使用するための要件の概要を説明します。 アドインのインストール方法とセットアップ方法について説明します。
 
 ## 要件
 
@@ -72,11 +72,11 @@ Report Builder アドインをダウンロードしてインストールする�
 
 IT またはセキュリティチームに連絡して、Report Builder アドインの承認をリクエストします。承認されたら、Office アドインダイアログで、「管理者による管理」タブを選択します。
 
-![Office アドインダイアログの「管理者による管理」タブ &#x200B;](./assets/image1.png)
+![Office アドインダイアログの「管理者による管理」タブ ](./assets/image1.png)
 
 Report Builder アドインをインストールすると、Report Builder アイコンが Excel の「ホーム」タブのリボンに表示されます。Excel リボンの「ホーム」タブに「Report Builder」アイコンが表示されます。
 
-![Excel の「Report Builder」アイコン &#x200B;](./assets/rb_app_icon.png)
+![Excel の「Report Builder」アイコン ](./assets/rb_app_icon.png)
 
 ## Report Builder へのログイン
 
@@ -88,11 +88,11 @@ Report Builder アドインをインストールすると、Report Builder ア�
 
 1. Adobe Report Builder ツールバーで、「**[!UICONTROL ログイン]**」をクリックします。
 
-   ![&#x200B; 「Report Builderへのログイン」ボタンをクリックします。](./assets/rb_login.png)
+   ![ 「Report Builderへのログイン」ボタンをクリックします。](./assets/rb_login.png)
 
 1. Adobe Experience ID アカウント情報を入力します。アカウント情報は、Adobe Analyticsの資格情報と一致する必要があります。
 
-   ![&#x200B; ログインアイコンと組織。](./assets/image4.png)
+   ![ ログインアイコンと組織。](./assets/image4.png)
 
 ログインすると、パネルの上部にログインアイコンと組織が表示されます
 
@@ -104,7 +104,7 @@ Report Builder アドインをインストールすると、Report Builder ア�
 
 1. 使用可能な組織のリストから組織を選択します。自身がアクセス権を持っている組織のみが表示されます。
 
-   ![&#x200B; アクセスできる組織のリスト &#x200B;](./assets/image5.png)
+   ![ アクセスできる組織のリスト ](./assets/image5.png)
 
 ## ログアウト
 
@@ -114,6 +114,6 @@ Report Builder アドインをインストールすると、Report Builder ア�
 
 1. アバターアイコンをクリックして、ユーザープロファイルを表示します。
 
-   ![&#x200B; ユーザープロファイルのアバターと「ログアウト」ボタン &#x200B;](./assets/image6.png)
+   ![ ユーザープロファイルのアバターと「ログアウト」ボタン ](./assets/image6.png)
 
 1. 「**ログアウト**」をクリックします。

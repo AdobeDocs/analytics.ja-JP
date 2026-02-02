@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [メールのワークブックのスケジュール設定](report-builder/schedule-reportbuilder.md)
    + [クラウド書き出しのワークブックのスケジュール設定](/help/analyze/report-builder/report-builder-export.md)
    + [スケジュールされたワークブックの管理](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [制限付きラベル](report-builder/restricted-labels.md)
    + [Report Builder の設定](report-builder/report-builder-settings.md)
 + レガシー Report Builder {#legacy-report-builder}
    + [レガシー Adobe Report Builder ヘルプ](legacy-report-builder/home.md)
