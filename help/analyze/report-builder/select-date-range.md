@@ -28,15 +28,15 @@ ht-degree: 46%
 
 ### 日付範囲
 
-日付範囲フィールドには、データブロックリクエストに応じた現在の日付範囲が表示されます。 日付を直接入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を指定できます。
+日付範囲フィールドには、データブロックリクエストに応じた現在の日付範囲が表示されます。 日付を直接入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を指定できます。
 
-![ 日付範囲カレンダー ](assets/date-range-calendar.png){zoomable="yes"}
+![&#x200B; 日付範囲カレンダー &#x200B;](assets/date-range-calendar.png){zoomable="yes"}
 
 ### プリセット
 
 プリセット ドロップダウンメニューを使用して、プリセットを選択します。 また、テキストを入力してプリセットを検索することもできます。
 
-![ 日付範囲のプリセット ](assets/date-range-presets.png){zoomable="yes"}
+![&#x200B; 日付範囲のプリセット &#x200B;](assets/date-range-presets.png){zoomable="yes"}
 
 プリセットドロップダウンメニューには、標準のプリセット日付範囲と、保存したレポートスイートまたは共有したレポートスイートの日付範囲コンポーネントが含まれています。
 
@@ -44,7 +44,7 @@ ht-degree: 46%
 
 相対日付を定義する手順は、次のとおりです。
 
-![ 相対日付 ](assets/date-range-rolling-date.png){zoomable="yes"}
+![&#x200B; 相対日付 &#x200B;](assets/date-range-rolling-date.png){zoomable="yes"}
 
 1. **[!UICONTROL 相対日付を使用]** を選択して、相対日付の定義のロジックを定義します。 角括弧で囲まれたテキスト（例：**[!UICONTROL 固定開始 – 日周期]**）を選択して、パネルを拡張し、**[!UICONTROL 開始]** と **[!UICONTROL 終了]** の詳細を指定できます。
 
@@ -66,7 +66,7 @@ ht-degree: 46%
 
 「カスタム式」オプションを使用すると、カスタム式を作成するか、数式を入力して日付範囲を変更できます。
 
-![ 日付範囲のカスタム式 ](assets/date-range-custom-expression.png){zoomable="yes"}
+![&#x200B; 日付範囲のカスタム式 &#x200B;](assets/date-range-custom-expression.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 相対日付を使用]**」を選択します。
 
@@ -74,15 +74,15 @@ ht-degree: 46%
 
    **[!UICONTROL カスタム式の使用]** を選択すると、標準の相対日付範囲コントロールは無効になります。
 
-1. [ カスタム式 ](#create-a-custom-expression) を入力します。
+1. [&#x200B; カスタム式 &#x200B;](#create-a-custom-expression) を入力します。
 
 1. **[!UICONTROL 日付プレビュー]** を使用して、結果の日付範囲を確認します。
 
 #### カスタム式の作成
 
-1. [ 日付参照 ](#date-references) を入力します。
+1. [&#x200B; 日付参照 &#x200B;](#date-references) を入力します。
 
-1. オプションの [ 日付演算子 ](#date-operators) を追加して、日付を過去または未来に移動します。
+1. オプションの [&#x200B; 日付演算子 &#x200B;](#date-operators) を追加して、日付を過去または未来に移動します。
 
 `tm-11m-1d` など、複数の演算子を含むカスタム式を入力できます。
 
@@ -130,7 +130,7 @@ ht-degree: 46%
 
 日付範囲は、ワークシートのセルで指定できます。「**[!UICONTROL セルからの日付範囲]**」オプションを使用して、選択したセルからデータブロックの開始日と終了日を選択します。 「**[!UICONTROL セルから]**」オプションを選択すると、パネルに **[!UICONTROL 開始]** フィールドと **[!UICONTROL 終了]** フィールドが表示されます。これらのフィールドで、セルの場所を入力したり、![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) を使用して現在選択されているセルを選択したりできます。
 
-![ セル シート 1!H4 からシート 1!I4 を選択 ](./assets/date-range-from-cell.png){zoomable="yes"}
+![&#x200B; セル シート 1!H4 からシート 1!I4 を選択 &#x200B;](./assets/date-range-from-cell.png){zoomable="yes"}
 
 
 ## 今日を除外

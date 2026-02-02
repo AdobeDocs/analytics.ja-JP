@@ -32,7 +32,7 @@ Adobe Analytics用のReport BuilderはMicrosoft Excel アドインです。 ア�
 
 ## レガシー Report Builder
 
-このReport Builderは、[ 従来のReport Builder アドイン ](/help/analyze/legacy-report-builder/home.md) に代わるものであり、いくつかの利点があります。
+このReport Builderは、[&#x200B; 従来のReport Builder アドイン &#x200B;](/help/analyze/legacy-report-builder/home.md) に代わるものであり、いくつかの利点があります。
 
 - データブロックの柔軟性の向上など、データブロックの作成と管理のワークフローが改善され、Excel でより迅速かつ簡単にインサイトの検索が可能
 - クロスプラットフォーム：PC、Mac、Excel Online がサポートされるようになったので、Report Builder を使用するための VM へのログインが不要
@@ -52,7 +52,7 @@ Adobe Analytics用のReport BuilderはMicrosoft Excel アドインです。 ア�
 
 ### 従来のReport Builder機能はサポートされていません
 
-このReport Builderでは、一部の [ 従来のReport Builderの機能はサポートされていません ](convert-workbooks.md#legacy-report-builder-features-not-supported)。
+このReport Builderでは、一部の [&#x200B; 従来のReport Builderの機能はサポートされていません &#x200B;](convert-workbooks.md#legacy-report-builder-features-not-supported)。
 
 
 ## 一般的なユースケース

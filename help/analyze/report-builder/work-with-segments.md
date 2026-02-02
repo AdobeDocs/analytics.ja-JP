@@ -29,13 +29,13 @@ ht-degree: 6%
 
 * または：
 
-   1. ![ テーブル ](/help/assets/icons/MoreSmall.svg) ペインで特定の指標の **[!UICONTROL その他の小]** を選択し、**[!UICONTROL 指標をフィルター]** を選択します。
+   1. ![&#x200B; テーブル &#x200B;](/help/assets/icons/MoreSmall.svg) ペインで特定の指標の **[!UICONTROL その他の小]** を選択し、**[!UICONTROL 指標をフィルター]** を選択します。
 
-      ![ 指標を表示する「セグメント」タブ ](./assets/filter-metric.png){zoomable="yes"}
+      ![&#x200B; 指標を表示する「セグメント」タブ &#x200B;](./assets/filter-metric.png){zoomable="yes"}
 
    1. **[!UICONTROL セグメント]** ドロップダウンメニューから 1 つ以上のセグメントを選択します。 セグメントが **[!UICONTROL 適用されたセグメント]** リストに追加されます。
 
-      ![ 適用されたセグメント ](assets/segments-applied.png)
+      ![&#x200B; 適用されたセグメント &#x200B;](assets/segments-applied.png)
    1. 「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、「**[!UICONTROL 適用されたセグメント]** リストからセグメントを削除します。 または、「**[!UICONTROL すべてクリア]**」を選択して、「適用されたセグメント **[!UICONTROL リストからすべてのセグメントを削除し]** す。
    1. 「**[!UICONTROL 適用]**」を選択します。
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 1. 1 つまたは複数のデータブロックからセルの範囲を選択します。
 
-1. **[!UICONTROL セグメント]** リンクを選択して、**[!UICONTROL クイック編集]****[!UICONTROL セグメント]** パネルを起動します。
+1. **[!UICONTROL セグメント]** リンクを選択して、**[!UICONTROL クイック編集]**&#x200B;**[!UICONTROL セグメント]** パネルを起動します。
 
 
 ### セグメントの追加または削除
@@ -72,7 +72,7 @@ Report Builderに、適用されたセグメントの変更を確認するメッ
 
 既存のセグメントを別のセグメントで置き換えて、データのセグメント化方法を変更できます。
 
-1. **[!UICONTROL クイック編集]****[!UICONTROL セグメント パネルの]** 置換 **[!UICONTROL タブを選択し]** す。
+1. **[!UICONTROL クイック編集]**&#x200B;**[!UICONTROL セグメント パネルの]** 置換 **[!UICONTROL タブを選択し]** す。
 
 1. **検索リスト** 検索フィールドを使用して、特定のセグメントを検索します。
 
@@ -90,11 +90,11 @@ Report Builderは、置換を反映するようにセグメントのリストを
 
 セルからセグメントを適用するには：
 
-1. [ 新しいデータブロックを作成 ](create-a-data-block.md#create-a-data-block) するか、既存のデータブロックを編集します。
+1. [&#x200B; 新しいデータブロックを作成 &#x200B;](create-a-data-block.md#create-a-data-block) するか、既存のデータブロックを編集します。
 1. 「**[!UICONTROL セグメント]**」タブを選択してセグメントを定義します。
 1. ![DataViewSelector](/help/assets/icons/DataViewSelector.svg) を選択します。
 
-   ![ セルからセグメントを選択 ](assets/select-segment-from-cell.png){zoomable="yes"}
+   ![&#x200B; セルからセグメントを選択 &#x200B;](assets/select-segment-from-cell.png){zoomable="yes"}
 
 1. データブロックでセグメントを参照するセルを選択します。
 
@@ -104,7 +104,7 @@ Report Builderは、置換を反映するようにセグメントのリストを
 
 1. **セグメント** タブから、新しく作成した参照セルセグメントをデータブロックに追加します。
 
-   ![ テーブルに追加されたシート 1!J1 （すべてのデータ）セグメントを示す「セグメント」タブ ](assets/segment-from-cell-applied.png){zoomable="yes"}
+   ![&#x200B; テーブルに追加されたシート 1!J1 （すべてのデータ）セグメントを示す「セグメント」タブ &#x200B;](assets/segment-from-cell-applied.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 完了]**」を選択します。
 
@@ -116,7 +116,7 @@ Report Builderは、置換を反映するようにセグメントのリストを
 
 1. **[!UICONTROL クイック編集]** メニューの **[!UICONTROL セルからのセグメント]** の下のリンクを選択します。
 
-   ![Sheet1!J1 を示すセル リンクからのセグメント （すべてのデータ） ](assets/select-segment-from-cell-in-sheet.png){zoomable="yes"}
+   ![Sheet1!J1 を示すセル リンクからのセグメント （すべてのデータ） &#x200B;](assets/select-segment-from-cell-in-sheet.png){zoomable="yes"}
 
 1. ドロップダウンリストからセグメントを選択します。
 

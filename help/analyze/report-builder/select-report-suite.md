@@ -28,19 +28,19 @@ ht-degree: 1%
 
 セルからレポートスイートを選択するには、まずデータブロックを作成し、データブロック外のセルに複数のレポートスイートを割り当てます。 次に、**[!UICONTROL セルからのレポートスイート]** パネルを使用して、様々なレポートスイートのデータブロックを更新します。
 
-1. データブロックを作成します。 データブロックの作成について詳しくは、[ データブロックの作成 ](/help/analyze/report-builder/create-a-data-block.md) を参照してください。
+1. データブロックを作成します。 データブロックの作成について詳しくは、[&#x200B; データブロックの作成 &#x200B;](/help/analyze/report-builder/create-a-data-block.md) を参照してください。
 
-1. ![ レポートスイート ](/help/assets/icons/DataViewSelector.svg) で **[!UICONTROL データビューセレクター]** を選択します。
+1. ![&#x200B; レポートスイート &#x200B;](/help/assets/icons/DataViewSelector.svg) で **[!UICONTROL データビューセレクター]** を選択します。
 
 1. データブロック外で ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) を使用してセルを選択します。
 
 1. ドラッグ&amp;ドロップを使用して、**[!UICONTROL セルからレポートスイートに追加するレポートスイートを選択]** から 1 つ以上のレポートスイートを追加します。 または、レポートスイートをダブルクリックして、「含まれるレポートスイート **[!UICONTROL リストにレポートスイートを追加]** ることもできます。
 
-   * ![ 検索 ](/help/assets/icons/Search.svg)**[!UICONTROL _レポートスイートを選択_]** を使用して、レポートスイートを検索できます。
+   * ![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg)**[!UICONTROL _レポートスイートを選択_]** を使用して、レポートスイートを検索できます。
    * ![MoreSmall](/help/assets/icons/MoreSmall.svg) を使用してコンテキストメニューを開き、「レポートスイートを含む **[!UICONTROL リストでレポートスイートを上下に移動でき]** す。
-   * ![ 含まれるレポートスイート ](/help/assets/icons/CrossSize75.svg) リストからレポートスイートを削除するには、**[!UICONTROL CrossSize75]** を使用します。
+   * ![&#x200B; 含まれるレポートスイート &#x200B;](/help/assets/icons/CrossSize75.svg) リストからレポートスイートを削除するには、**[!UICONTROL CrossSize75]** を使用します。
 
-   ![ セルからレポートスイートを選択 ](assets/dataviews-from-a-cell.png){zoomable="yes"}
+   ![&#x200B; セルからレポートスイートを選択 &#x200B;](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 適用]**」を選択して、選択したレポートスイートを選択したセルに適用します。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 1. Report Builder ハブで、「**[!UICONTROL クイック編集]**」の「セルからのレポートスイート **[!UICONTROL リンク]** を選択します。
 1. **[!UICONTROL レポートスイート]** ドロップダウンメニューからレポートスイートを選択します。
 
-   ![ セルからレポートスイートを変更 ](assets/change-data-view-from-cell.png){zoomable="yes"}
+   ![&#x200B; セルからレポートスイートを変更 &#x200B;](assets/change-data-view-from-cell.png){zoomable="yes"}
 1. オプションとして、「**[!UICONTROL 変更時にデータブロックを更新]**」を選択します。
 
 1. 「**[!UICONTROL 適用]**」を選択します。Report Builderは、選択したレポートスイートに基づいてデータブロックを更新します。
