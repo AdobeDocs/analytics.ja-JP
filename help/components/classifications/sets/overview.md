@@ -3,9 +3,9 @@ title: 分類セットの概要
 description: 分類セットを使用して分類データを管理する方法について説明します。分類セットと従来の分類との違いを理解します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ Adobe Analytics インターフェイスの&#x200B;**[!UICONTROL コンポーネ
 >[!IMPORTANT]
 >
 >分類セットのパフォーマンスは、主に、データを含む一意のキー値の数に依存します。一意の値が多数含まれる変数がある場合は注意してください。特に、複数のレポートスイートやディメンションのこのような変数を 1 つの分類セットに組み合わせる場合は注意してください。
-
-## 制限事項
-
-* 分類セットは、まだルールをサポートしていません。[従来のルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)機能が使用できなくなる前に、分類セットインターフェイスにルール機能が追加されます。
-* 従来の分類ルールと設定は、分類セットに移行されません。従来の分類機能が使用できなくなる前に、分類セットインターフェイスに移行ユーティリティが追加されます。
