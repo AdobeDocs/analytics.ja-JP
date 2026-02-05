@@ -5,9 +5,9 @@ user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードとデータウェアハウスを使用してデータの出力を取得する方法について説明します。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
@@ -73,4 +73,4 @@ ht-degree: 0%
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP サーバーへの Data Warehouse リクエストの送信](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [Adobe Analytics API ](https://developer.adobe.com/analytics-apis/docs/2.0/)

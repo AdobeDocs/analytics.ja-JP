@@ -5,9 +5,9 @@ title: 計算指標
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->通常はAnalysis Workspaceから除外されるヒットが、データフィードに含まれます。 次の条件を関連するクエリに追加することを検討してください。
+>通常、Analysis Workspace から除外されたヒットは、データフィードに含まれます。関連する場合は、次の条件をクエリに追加することを考慮してください。
 >
->* **`exclude_hit`**:Analysis Workspaceには、`exclude_hit = 0` の場所にあるデータのみが含まれます。
->* **`customer_perspective`**：モバイルバックグラウンドヒットを含む仮想レポートスイートを使用しない限り、Analysis Workspaceには `customer_perspective = 0` のデータのみが含まれます。
->* **`hit_source`**：データソースのデータには、生データとAnalysis Workspaceの違いが含まれている場合があります。 データソースからのヒットを除外する場合は、`hit_source = 5,7,8,9` の条件を満たすすべての行を除外します。
+>* **`exclude_hit`**：Analysis Workspace には、`exclude_hit = 0` のデータのみが含まれます。
+>* **`customer_perspective`**：モバイルバックグラウンドヒットを含む仮想レポートスイートを使用しない限り、Analysis Workspace には `customer_perspective = 0` のデータのみが含まれます。
+>* **`hit_source`**：データソースのデータには、生データと Analysis Workspace の違いが含まれている可能性があります。データソースからヒットを除外する場合は、`hit_source = 5,7,8,9` のすべての行を除外します。
 
 ## ページビュー数
 
@@ -31,18 +31,18 @@ ht-degree: 76%
 
 1. 合計行数をカウントします。
 
-## 訪問数
+## 訪問回数
 
 1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
 1. 一意の値の数をカウントします。
 
 >[!TIP]
 >
->インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。オプションですが、訪問をカウントする際には `visit_start_time_gmt` を使用して、その訪問がカウントされるようにします。
+>インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。オプションですが、訪問をカウントする際には `visit_start_time_gmt` を使用して、これらの訪問が確実にカウントされるようにします。
 
 ## 訪問者数
 
-Adobeがユニーク訪問者の特定に使用するすべての手段（カスタム訪問者 ID、Experience Cloud ID サービスなど）は、最終的に `post_visid_high` と `post_visid_low` の値として計算されます。 これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
+アドビがユニーク訪問者を識別するために使用するすべての方法（カスタム訪問者 ID、Experience Cloud ID サービスなど）は、最終的に `post_visid_high` と `post_visid_low` の値として計算されます。これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。

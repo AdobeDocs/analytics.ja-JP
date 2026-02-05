@@ -6,9 +6,9 @@ feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ Analytics には、Analytics データを収集するための変数が多数用
 
 ## 変数と実装メソッド
 
-Adobe Analytics は様々な方法で実装できます。各ページには、Web SDKの使用方法、Adobe Analytics拡張機能の使用方法、AppMeasurement for JavaScriptの使用方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用した変数の実装方法に関する節があります。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 変数の設定 &#x200B;](https://video.tv.adobe.com/v/31406?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [変数の設定](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -36,9 +36,9 @@ Adobe Analytics は様々な方法で実装できます。各ページには、W
 
 Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
-1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、`adobeDataLayer.page.title` にページタイトルを入力するとします。 詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platformのタグを使用する場合、このタスクは、間にデータ要素を使用することによって実行されます。 データ要素には、データレイヤーの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。 <br/> その後、データ要素を使用して Analytics 変数を設定できます。 例：`eVar4` はデータ要素 `Page Title` から値を取得します。 <br/> 詳しくは、[&#x200B; データ要素 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[&#x200B; データレイヤーオブジェクトのデータ要素へのマッピング &#x200B;](../launch/layer-to-elements.md)、および [&#x200B; タグデータ要素の Analytics 変数へのマッピング &#x200B;](../launch/elements-to-variable.md) を参照してください。
-3. 最後に、トラッキング関数を呼び出します。 ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
+1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、`adobeDataLayer.page.title` にページタイトルを入力します。詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
+2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platform でタグを使用する場合、このタスクは、中間のデータ要素を使用して実行されます。 データ要素には、データレイヤーからの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。<br/>次に、データ要素を使用して Analytics 変数にデータを入力できます。例えば、`eVar4` は、データ要素 `Page Title` から値を取得します。<br/>詳しくは、[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[データレイヤーオブジェクトのデータ要素へのマッピング](../launch/layer-to-elements.md)、[タグデータ要素の Analytics 変数へのマッピング](../launch/elements-to-variable.md)を参照してください
+3. 最後に、トラッキング関数を呼び出します。ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字
 

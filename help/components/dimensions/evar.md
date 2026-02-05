@@ -4,9 +4,9 @@ description: レポートで使用できるカスタムディメンションで�
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 77%
 
 *このヘルプページでは、eVar が[ディメンション](overview.md)としてどのように機能するかについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar はカスタム [&#x200B; ディメンション &#x200B;](overview.md) で、好きなように使用できます。 [&#x200B; ソリューションデザインドキュメント &#x200B;](/help/implement/prepare/solution-design.md) がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。
+eVar は、好きなだけ使用できるカスタム[ディメンション](overview.md)です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。
 
-デフォルトでは、eVar は設定されたヒットを超えても保持されます。 Adobeのアーキテクチャに対するeVarの永続性に関する詳細については、以下の [eVar の仕組み &#x200B;](#how-evars-work) および [eVar と指標の結び付け方法 &#x200B;](#how-evars-tie-to-metrics) の節を参照してください。 [&#x200B; レポートスイート設定 &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) の [!UICONTROL &#x200B; コンバージョン変数 &#x200B;] で、その有効期限と配分を有効化、無効化またはカスタマイズできます。 次の画像は、コンバージョン変数インターフェイスでのeVar定義の例を示しています。
+デフォルトでは、eVar は設定されたヒットを超えても保持されます。アドビのアーキテクチャ上での eVar の永続性が機能する仕組みについて詳しくは、以下の [eVar のしくみ](#how-evars-work)および [eVar と指標の関連付け](#how-evars-tie-to-metrics)の節を参照してください。[!UICONTROL レポートスイート設定]の[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)で、その有効期限と配分を有効、無効またはカスタマイズできます。次の画像では、コンバージョン変数インターフェイスでの eVar 定義の例を示します。
 
 ![eVar の例](assets/evars-sample.png)
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-レポートで使用される（大文字と小文字の）区別は、特定のカレンダー月に送信する最初の値に基づきます。 ケースは、レポートウィンドウとその間に最初に収集されたeVar値のケースによって異なる場合があります。
+レポートで使用される（大文字と小文字の）区別は、特定のカレンダー月に送信する最初の値に基づきます。レポートウィンドウとその間に最初に収集された eVar 値のケースに応じて、ケースが変更する場合があります。
 
 ## eVar にデータを入力する
 
@@ -45,7 +45,7 @@ Adobe Analytics にデータを送信すると、データ収集サーバーで�
 
 ### eVar と指標の関連付け
 
-成功イベントと eVar は、多くの場合、別々の時間に定義されます。 この `post_evar` 列では、eVar 値をイベントに結び付け、レポート内のデータを表示できます。訪問の例：
+成功イベントと eVar は、様々な時間で頻繁に定義されます。この `post_evar` 列では、eVar 値をイベントに結び付け、レポート内のデータを表示できます。訪問の例：
 
 1. 訪問者が貴社のホームページ上のサイトに到達します。
 2. サイト内検索で「cats」を検索します。導入では、内部検索に eVar1 を使用します。
@@ -78,10 +78,10 @@ Adobe Analytics のツール（Analysis Workspace など）の動作は、収集
 
 Analysis Workspace は、次のロジックを使用してこのレポートを取り込みます。
 
-* すべての `event_list` 値を調べて、それらの中に `purchase` を含むすべての行を選択します。
-* これらの行のうち、`post_evar1` の値を表示します。
+* すべての `event_list` 値を調べ、`purchase` 値を含むすべての行を選択します。
+* これらの行の中から、`post_evar1` 値を表示します。
 
-結果のレポートでは、左側の `post_evar1` に含まれる様々な値と、その値に起因する注文数が右側に表示されます。
+結果のレポートでは、左側に `post_evar1` に含まれる様々な値が表示され、右側にその値に起因する注文数が表示されます。
 
 ### 配分と有効期限の重要性
 

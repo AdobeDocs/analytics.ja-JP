@@ -1,23 +1,23 @@
 ---
-title: JavaScript用AppMeasurementでAdobe Analyticsを実装
-description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
+title: JavaScript 版 AppMeasurement を使用した Adobe Analytics の実装
+description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法について説明します。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# JavaScript用AppMeasurementでAdobe Analyticsを実装
+# JavaScript 版 AppMeasurement を使用した Adobe Analytics の実装
 
 JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
 実装タスクの大まかな概要：
 
-![&#x200B; この節で説明するように、JavaScript 用AppMeasurementでAdobe Analytics を実装する方法 &#x200B;](../assets/appmeasurement-annotated.png)
+![JavaScript 版 AppMeasurement を使用した Adobe Analytics の実装について詳しくは、この節を参照してください。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>1</td><td><b> レポートスイートを定義 </b> したことを確認します。</td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
+<td>1</td><td><b>レポートスイートを定義</b>したことを確認します</td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">レポートスイートマネージャー</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>AppMeasurementに必要なJavaScript コードを Code Manager からダウンロードします </b>。 ファイルを解凍します。</td><td><a href="../../admin/tools/code-manager-admin.md">コードマネージャー</a></td>
+<td>2</td><td>Code Manager から <b>AppMeasurement に必要な JavaScript コードをダウンロード</b>します。ファイルを ZIP 解凍します。</td><td><a href="../../admin/tools/code-manager-admin.md">Code Manager</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Web サイトのテンプレートファイルに <code>AppMeasurement.js</code> を追加します </b>。 このコードには、Adobeにデータを送信するために必要なライブラリが含まれています。
+<td>3</td><td><b><code>AppMeasurement.js</code> を web サイトのテンプレートファイルに追加します</b>。このコードには、アドビへのデータの送信に必要なライブラリが含まれています。
 
 ```html
 <head>
@@ -47,7 +47,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
 </tr>
 
 <tr>
-<td>4</td><td><b><code>AppMeasurement.js</code></b> 内で設定変数を定義します。 Analytics オブジェクトがインスタンス化されると、これらの変数によって、データ収集設定が正しいことが確認されます。
+<td>4</td><td><b><code>AppMeasurement.js</code></b> で設定変数を定義します。Analytics オブジェクトがインスタンス化されるとき、これらの変数はデータ収集の設定が正しいことを確認します。
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b> サイトのページコード内でページレベル変数を定義します </b>。 これらの変数は、Adobeに送信される特定のディメンションと指標を決定します。
+<td>5</td><td><b>サイトのページコード内でページレベルの変数を定義します</b>。これらの変数は、アドビに送信される特定のディメンションと指標を決定します。
 
 ```js
 s.pageName = "Example page";
@@ -74,13 +74,13 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b> すべてのページ変数が定義されている場合、<code>t()</code> メソッドを使用してAdobeにデータを送信します </b>。
+<td>6</td><td>すべてのページ変数が定義されている場合は、<b><code>t()</code> メソッドを使用してデータをアドビに送信します</b>。
 
 ```js
 s.t();
 ```
 
-</td><td><a href="../vars/functions/t-method.md">t （） メソッド</a></td>
+</td><td><a href="../vars/functions/t-method.md">t() メソッド</a></td>
 </tr>
 
 <tr>

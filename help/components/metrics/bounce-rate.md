@@ -4,7 +4,7 @@ description: 入口に対するヒットが 1 つだけある訪問の割合。
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 source-git-commit: ff3e9059d41f6365b850839a1f01c5747dcb9112
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 

@@ -1,12 +1,12 @@
 ---
 title: ディメンションの概要
-description: ディメンションの概要とAdobe Analyticsでの使用方法を説明します。
+description: ディメンションの概要と Adobe Analytics での使用方法について説明します。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
 source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `adobeDataLayer.page.title` です。
 1. **Adobe Experience Platform データ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**：この手順は、組織の実装方法によって次のように異なります。
-   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。目的のデータレイヤーマッピングを決定するには、[Analytics XDM 変数のマッピング &#x200B;](../aep-edge/xdm-var-mapping.md) を参照してください。
+   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。目的のデータレイヤーマッピングを決定するには、[Analytics XDM 変数のマッピング](../aep-edge/xdm-var-mapping.md)を参照してください。
    * **Analytics 拡張機能を使用する場合**：Adobe Experience Platform データ収集のタグにデータ要素を作成して、目的のデータレイヤーオブジェクトに割り当てます。次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
 
 ## 仕様

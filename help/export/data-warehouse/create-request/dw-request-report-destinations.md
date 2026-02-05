@@ -4,9 +4,9 @@ title: Data Warehouse リクエストのレポートの宛先を設定する
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
    >
    >システム管理者の場合、「[!UICONTROL **すべての宛先を表示**]」オプションを使用できます。組織内のユーザーが作成したすべてのアカウントと場所にアクセスする場合は、このオプションを有効にします。
 
-   1. [!UICONTROL **アカウント**] ドロップダウンメニューからアカウントを選択します。
+   1. [!UICONTROL **アカウント**]&#x200B;ドロップダウンメニューからアカウントを選択します。
 
       Adobe Analytics の次の領域のいずれかで設定したクラウドアカウントを使用できます。
 
@@ -66,26 +66,26 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
 1. （条件付き）Adobe Analytics で既に設定されているクラウドアカウントへのアクセス権がない場合は、次のいずれかのアカウントを設定できます。
 
-   1. [!UICONTROL **アカウント**] ドロップダウンメニューを選択し、「[!UICONTROL **アカウントを追加**]」を選択します。
+   1. [!UICONTROL **アカウント**]&#x200B;ドロップダウンメニューを選択し、「[!UICONTROL **アカウントを追加**]」を選択します。
 
    1. アカウントを追加ダイアログボックスで、次の情報を指定します。
 
       | フィールド | 関数 |
       |---------|----------|
-      | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。 この名前は、場所を作成する際に表示されます。 |
+      | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。この名前は、場所を作成する際に表示されます。 |
       | [!UICONTROL **場所アカウントの説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-      | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>アカウントを共有する際は、次の点に注意してください。</p><ul><li>共有しているアカウントの共有を解除することはできません。</li><li>共有アカウントは、そのアカウントの所有者のみが編集できます。</li><li>共有アカウントの場所は誰でも作成できます。</li></ul> |
-      | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定 &#x200B;](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明されているように、ユーザーが作成できるアカウントタイプを制限できます。 この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
+      | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>セグメントを共有する際は、次の点を考慮してください。</p><ul><li>共有したアカウントは、共有解除できません。</li><li>共有したアカウントは、アカウントの所有者のみが編集できます。</li><li>誰でも共有したアカウントの場所を作成できます。</li></ul> |
+      | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーが作成できるアカウントタイプを制限できます。この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
 
-   1. 「[!UICONTROL **アカウントのプロパティ**]」セクションで、選択したアカウントタイプに固有の情報を指定します。
+   1. 「[!UICONTROL **アカウントプロパティ**]」セクションで、選択したアカウントタイプに固有の情報を指定します。
 
-      設定手順については、選択した [!UICONTROL **アカウントタイプ**] に対応する以下の節を展開してください。 （追加の従来のアカウントタイプも使用できますが、推奨されません。）
+      設定手順については、選択した&#x200B;[!UICONTROL **アカウントタイプ**]&#x200B;に対応する以下の節を展開します。（追加の従来のアカウントタイプも使用できますが、お勧めしません）。
 
-      **アカウントの種類**
+      **アカウントタイプ**
 
       +++Amazon S3 Role ARN
 
-      **注意：** Amazon S3 をData Warehouseで使用する場合、SSE-S3 暗号化のみがサポートされます。
+      **メモ：** Data Warehouse で Amazon S3 を使用する際、SSE-S3 暗号化のみがサポートされます。
 
       Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
 
@@ -117,8 +117,8 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
       |---------|----------|
       | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
       | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-      | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンをシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault の URI が作成されたら、Key Vault にアクセスポリシーを追加して、作成した Azure アプリケーションに権限を付与します。 詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p><p>または</p><p>アクセスポリシーを作成せずに直接アクセスロールを付与する場合は、[Azure Portal を使用して Azure ロールを割り当てる方法に関するMicrosoft Azure ドキュメントを参照してください &#x200B;](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 これにより、Key Vault URI にアクセスするためのアプリケーション ID の役割の割り当てが追加されます。 </p> |
-      | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。 Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
+      | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p><p>または</p><p>アクセスポリシーを作成せずにアクセスの役割を直接付与する場合は、[Azure portal を使用して Azure の役割を割り当てる方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/role-based-access-control/role-assignments-portal)を参照してください。これにより、Key Vault URI にアクセスするアプリケーション ID の役割の割り当てが追加されます。 </p> |
+      | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵名。Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
       | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
       {style="table-layout:auto"}
@@ -139,11 +139,11 @@ Data Warehouse を作成する際には、様々な設定オプションを使�
 
       +++
 
-      +++電子メール
+      +++メール
 
       >[!NOTE]
       >
-      >電子メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) でのみ使用できます。 （メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) ではサポートされていません）。
+      >メールアカウントは、[データフィード](/help/export/analytics-data-feed/create-feed.md)でのみ使用できます。（メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または[分類セット](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
       Azure RBAC アカウントを設定するには、次の情報を指定します。
 

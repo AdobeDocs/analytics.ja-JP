@@ -4,7 +4,7 @@ title: セグメント
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -108,8 +108,8 @@ ht-degree: 100%
 
 このタイプのセグメントは、[!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して結合された特性に基づいてデータセットをフィルタリングします。
 
-- [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)できます。
-- セグメントが、レポートスイート全体で共通になりました。
+- [1 つのレポートまたはプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)できます。
+- セグメントは、すべてのレポートスイートに共通です。
 - [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)は、セグメント作成を簡素化します。
 - [セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)を使用すると、セグメントの共有、タグ付け、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
 - フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-tag.md)して、セグメントを整理したり検索したりできます。
@@ -130,7 +130,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 ## 順次セグメント {#sequential}
 
-順次セグメントでは、サイト間でのナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションのセグメントを提供できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
+順次セグメントでは、サイトをまたいだナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションをセグメント化できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
 
 | 訪問 1 | 訪問 2 | 訪問 3 |
 |---|---|---|
@@ -240,7 +240,7 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/3429100?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -249,9 +249,9 @@ Analysis Workspace には、次の追加機能が含まれます。
 
 +++ **セグメントの使用、作成および管理に必要な権限と許可**
 
-デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](/help/admin/admin-console/home.md)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
+デフォルトでは、すべてのユーザーが個人用セグメントを作成および編集できます。ただし、管理者は、[セグメントを作成する権限](/help/admin/admin-console/home.md)を付与するユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[セグメントに対する役割別の権限](/help/components/segmentation/seg-reference/seg-rights.md)
+管理者は、任意のセグメントを編集し、グループや組織内のすべてのユーザーとセグメントを共有できます。[セグメントに対する役割別の権限](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

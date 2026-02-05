@@ -1,13 +1,13 @@
 ---
-description: データフィードを使用してAdobe Analyticsから生データを取得する方法を説明します。 データフィードを使用するための前提条件を確認します。次に何を行うかを説明します。
-keywords: クリックストリーム、データフィード、データフィード、データフィード
+description: データフィードを使用して Adobe Analytics から生データを取得する方法について説明します。データフィードを使用するための前提条件と次に行うべきことについて説明します。
+keywords: クリックストリーム;データフィード;データフィード;データフィード
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 79%
 * [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md)：データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
-* [&#x200B; データフィードの内容 &#x200B;](c-df-contents/datafeeds-contents.md)：圧縮ファイル <!-- Is this still the output users can download from the destination? I aske Jun. --> ージ内の内容を理解する
-* [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト.
+* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について<!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト。
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィードインターフェイスの操作 &#x200B;](https://video.tv.adobe.com/v/3428564?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィードインターフェイスの操作](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィード ID を見つける &#x200B;](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]

@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
 ht-degree: 100%
 

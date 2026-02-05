@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 67%
 >
 >この変数が、[`events`](events/events-overview.md) 変数のないヒットで設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切なイベントを設定していることを確認します。
 
-## Web SDKを使用した製品
+## Web SDK を使用した製品
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md) を使用する場合、製品は次の変数にマッピングされます。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、製品は次の変数にマッピングされます。
 
-* カテゴリは `xdm.productListItems[].productCategories[].categoryID` にマッピングされます。 `productCategories[]` 配列の最初の項目を使用します。 `lineItemId` も正しくマッピングされますが、Adobeでは標準 XDM なので `categoryID` を使用することをお勧めします。 両方の XDM フィールドが存在する場合は、`lineItemId` が優先されます。
-* 製品は `xdm.productListItems[].SKU` または `xdm.productListItems[].name` にマップされています。 両方の XDM フィールドが存在する場合は、`xdm.productListItems[].SKU` が使用されます。
-* 数量は `xdm.productListItems[].quantity` にマッピングされます。
+* カテゴリは `xdm.productListItems[].productCategories[].categoryID` にマッピングされます。`productCategories[]` 配列の最初の項目を使用します。`lineItemId` も正しくマッピングされますが、アドビでは標準 XDM なので `categoryID` をお勧めします。両方の XDM フィールドが存在する場合、`lineItemId` が優先されます。
+* 製品は `xdm.productListItems[].SKU` または `xdm.productListItems[].name` にマッピングされます。 両方の XDM フィールドが存在する場合、`xdm.productListItems[].SKU` が使用されます。
+* 量は `xdm.productListItems[].quantity` にマッピングされます。
 * 価格は `xdm.productListItems[].priceTotal` にマッピングされます。
-* マーチャンダイジング eVar は、商品にバインドするeVarに応じて、`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` から `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250` にマッピングされます。
-* マーチャンダイジングイベントは、製品にバインドするイベントに応じて、`xdm.productListItems[]._experience.analytics.event1to100.event1.value`～`xdm.productListItems._experience.analytics.event901to1000.event1000.value` にマッピングされます。 これらのフィールドのいずれかにイベントを設定すると、Adobe Analyticsに送信される [event](events/events-overview.md) 文字列に自動的に含まれます。
+* マーチャンダイジング eVar は、製品にバインドする eVar に応じて、`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` から `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250` にマッピングされます。
+* マーチャンダイジングイベントは、製品にバインドするイベントに応じて、`xdm.productListItems[]._experience.analytics.event1to100.event1.value` から `xdm.productListItems._experience.analytics.event901to1000.event1000.value` にマッピングされます。これらのフィールドのいずれかにイベントを設定すると、このイベントは Adobe Analytics に送信される[イベント](events/events-overview.md)文字列に自動的に含まれます。
 
 ```json
 {
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-[**data オブジェクト**](/help/implement/aep-edge/data-var-mapping.md) を使用する場合、products 変数は次のAppMeasurement構文 `data.__adobe.analytics.products` 使用します。 このフィールドを設定すると、XDM オブジェクトで設定された商品は上書きされ、Adobe Analyticsには送信されません。
+[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、製品変数では、AppMeasurement 構文に従って、`data.__adobe.analytics.products` を使用します。このフィールドを設定した場合、XDM オブジェクトに設定されている製品が上書きされ、Adobe Analytics に送信されません。
 
 ```json
 {
@@ -67,9 +67,9 @@ ht-degree: 67%
 }
 ```
 
-## Adobe Analytics拡張機能を使用した製品
+## Adobe Analytics 拡張機能を使用した製品
 
-Adobe Experience Platform Data Collection には、この変数を設定する専用のフィールドはありませんが、サードパーティ拡張機能が複数存在しています。
+Adobe Experience Platform データ収集にはこの変数を設定するための専用フィールドがありません。ただし、複数のサードパーティ拡張機能が存在しているので役立ちます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
@@ -78,11 +78,11 @@ Adobe Experience Platform Data Collection には、この変数を設定する�
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurementおよび Analytics 拡張機能のカスタムコードエディターの s.products
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.products
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。文字列内の各フィールドをセミコロン（`;`）で区切ります。
 
-* **カテゴリ** （任意）：製品のカテゴリです。 このフィールドの最大長は 100 バイトです。
+* **カテゴリ**（任意）：製品カテゴリ。このフィールドの最大長は 100 バイトです。
 * **製品名**（必須）：製品の名前。このフィールドの最大長は 100 バイトです。
 * **量**（任意）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **価格**（任意）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
@@ -94,7 +94,7 @@ Adobe Experience Platform Data Collection には、この変数を設定する�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products` 文字列全体の最大長は 64k バイトです。 各製品は文字列内でコンマ（`,`）で区切ります。
+この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products` 文字列全体の最大長は 64K バイトです。各製品は文字列内でコンマ（`,`）で区切ります。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
