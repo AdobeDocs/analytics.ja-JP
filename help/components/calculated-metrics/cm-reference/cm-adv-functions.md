@@ -4,9 +4,9 @@ description: 高度な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 98%
 
 ---
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | metric | 丸める指標です |
 
 
-## 信頼性 {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="信頼性"
->abstract="[Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476) の説明に従って、WASKR メソッドを使用して任意の時間で有効な信頼度を計算します。"
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![効果](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-[Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476) の説明に従って、WASKR メソッドを使用して任意の時間で有効な信頼度を計算します。
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-信頼性は、特定のバリアントがコントロールバリアントと同じであるという証拠がどの程度あるかを示す確率測度です。信頼性が高いほど、コントロールバリアントおよびコントロールバリアント以外のパフォーマンスが等しいという仮定に対する証拠が少ないことを示します。
-
-| 引数 | 説明 |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | テストが実行される基準（人物、セッションまたはイベント）。 |
-| success-metric | ユーザーがバリアントと比較する指標。 |
-| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
-| significance-threshold | この関数のしきい値は、デフォルトの 95%に設定されています。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## 信頼（下限） {#confidence-lower}
@@ -728,25 +728,24 @@ CDF-Z(-3) ? 0.0013499
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## 上昇率（#lift）
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="上昇率"
->abstract="制御値と比較した比率の上昇率。"
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| 引数 | 説明 |
+| Argument | Description |
 | --- | --- |
-| normalizing-container | テストが実行される基準（人物、セッションまたはイベント）。 |
-| success-metric | ユーザーがバリアントと比較する指標。 |
-| control | 実験におけるその他すべてのバリアントと比較されるバリアント。コントロールバリアントディメンション項目の名前を入力します。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## 線形回帰：相関係数 {#linear-regression-correlation-coefficient}
 
