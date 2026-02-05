@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: クラウドのインポートおよびエクスポートアカウントの設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 55%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -17,25 +17,25 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->アカウントを作成および編集する際は、次の点に注意してください。 <ul><li>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定 &#x200B;](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明しているように、ユーザーによるアカウントの作成を制限できます。 この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>アカウントを作成および編集する際は、次の点に注意してください。 <ul><li>システム管理者は、[ ユーザーがアカウントを作成できるかどうかを設定 ](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明しているように、ユーザーによるアカウントの作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
 次の目的の一部またはすべてに使用するクラウドアカウントを設定できます。
 
-* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
+* [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
-* [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
+* [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
 
-Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事で説明しているアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加して設定し、[&#x200B; クラウドの読み込みと書き出しの場所の設定 &#x200B;](/help/components/locations/configure-import-locations.md) で説明しているアカウント内の場所（アカウント内のフォルダーなど）を追加して設定します。
+Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事で説明しているアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加して設定し、[ クラウドの読み込みと書き出しの場所の設定 ](/help/components/locations/configure-import-locations.md) で説明しているアカウント内の場所（アカウント内のフォルダーなど）を追加して設定します。
 
-既存のアカウントの表示および削除方法について詳しくは、[&#x200B; ロケーションマネージャー &#x200B;](/help/components/locations/locations-manager.md) を参照してください。
+既存のアカウントの表示および削除方法について詳しくは、[ ロケーションマネージャー ](/help/components/locations/locations-manager.md) を参照してください。
 
-クラウドのインポートまたはエクスポートアカウントを設定するには：
+## アカウントページからアカウントの作成または編集を開始
 
 1. Adobe Analyticsで、[!UICONTROL **コンポーネント**]/[!UICONTROL **場所**] を選択します。
 1. [!UICONTROL Locations] ページで、「[!UICONTROL **Location アカウント**]」タブを選択します。
 1. （条件付き）システム管理者の場合、「[!UICONTROL **すべてのユーザーのアカウントを表示**]」オプションを有効にすると、組織内のすべてのユーザーが作成したアカウントを表示できます。
-   ![&#x200B; すべてのユーザーのアカウントを表示 &#x200B;](assets/accounts-all-users.png)
+   ![ すべてのユーザーのアカウントを表示 ](assets/accounts-all-users.png)
 1. 新しいアカウントを作成するには、「[!UICONTROL **アカウントを追加**]」を選択します。
 
    [!UICONTROL **場所アカウントの詳細**] ダイアログが表示されます。
@@ -46,20 +46,26 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    [!UICONTROL **アカウントを追加**] ダイアログが表示されます。
 
+1. [ 場所アカウントの設定 ](#configure-a-location-account) を続行します。
+
+## 場所アカウントの設定
+
+クラウドの作成または編集開始後にアカウントのインポートまたはエクスポートを設定するには：
+
 1. 次の情報を指定します。
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。 この名前は、場所を作成する際に表示されます。 |
+   | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。この名前は、場所を作成する際に表示されます。 |
    | [!UICONTROL **場所アカウントの説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-   | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>アカウントを共有する際は、次の点に注意してください。</p><ul><li>共有しているアカウントの共有を解除することはできません。</li><li>共有アカウントは、そのアカウントの所有者のみが編集できます。</li><li>共有アカウントの場所は誰でも作成できます。</li></ul> |
-   | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定 &#x200B;](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明されているように、ユーザーが作成できるアカウントタイプを制限できます。 この節で説明するようにアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
+   | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>セグメントを共有する際は、次の点を考慮してください。</p><ul><li>共有したアカウントは、共有解除できません。</li><li>共有したアカウントは、アカウントの所有者のみが編集できます。</li><li>誰でも共有したアカウントの場所を作成できます。</li></ul> |
+   | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーが作成できるアカウントタイプを制限できます。この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
 
-1. 「[!UICONTROL **アカウントのプロパティ**]」セクションで、選択したアカウントタイプに固有の情報を指定します。
+1. 「[!UICONTROL **アカウントプロパティ**]」セクションで、選択したアカウントタイプに固有の情報を指定します。
 
-   設定手順については、選択した [!UICONTROL **アカウントタイプ**] に対応する以下の節を展開してください。 （追加の従来のアカウントタイプも使用できますが、推奨されません。）
+   設定手順については、選択した&#x200B;[!UICONTROL **アカウントタイプ**]&#x200B;に対応する以下の節を展開します。（追加の従来のアカウントタイプも使用できますが、お勧めしません）。
 
-   **アカウントの種類**
+   **アカウントタイプ**
 
    +++Amazon S3 Role ARN
 
@@ -95,8 +101,8 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
    | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。詳しくは、[Microsoft ID プラットフォームにアプリケーションを登録する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンをシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault の URI が作成されたら、Key Vault にアクセスポリシーを追加して、作成した Azure アプリケーションに権限を付与します。 詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
-   | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。 Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
+   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
+   | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵名。Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
    | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
    {style="table-layout:auto"}
@@ -121,7 +127,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    >[!NOTE]
    >
-   >電子メール アカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) でのみ使用できます。 （メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md)）ではサポートされていません）。
+   >電子メール アカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) でのみ使用できます。 （メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) または [ 分類セット ](/help/components/classifications/sets/overview.md)）ではサポートされていません）。
 
    Azure RBAC アカウントを設定するには、次の情報を指定します。
 
@@ -135,11 +141,11 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    **従来のアカウントタイプ**
 
-   これらの従来のアカウントタイプは、{ データフィード [&#x200B; および &#x200B;](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[&#x200B; を使用してデータを書き出す場合にのみ使用できます。 &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[ を使用してデータを書き出す場合にのみ使用できます。 ](/help/export/data-warehouse/create-request/t-dw-create-request.md)[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
    +++FTP
 
-   データフィードデータは、Adobeまたは顧客がホストする FTP の場所に配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
+   データフィードのデータは、アドビまたは顧客のホストする FTP の場所に配信できます。FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
 
    | フィールド | 関数 |
    |---------|----------|
@@ -154,7 +160,14 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    +++SFTP
 
-   データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
+   データフィードの SFTP サポートを利用できます。これには、SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。 フィードの作成時に、適切な公開キーをダウンロードできます。
+
+   データフィード用の RSA または DSA 公開鍵をダウンロードする場合は、次のいずれかの操作を行います。
+
+   * ダウンロードした公開鍵ファイルの名前を `authorized_keys` に変更し、SFTP サーバー上の `.ssh` フォルダーにファイルをアップロードします。
+
+   * 既存の `authorized_keys` ファイルに他のキーが含まれている場合は、Adobeから提供されたキーを既存の `authorized_keys` ファイルに追加し、既存のキーを上書きしないようにしてください。
+
 
    +++
 
@@ -205,4 +218,4 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. 引き続き [&#x200B; クラウドのインポートとエクスポートの場所を設定 &#x200B;](/help/components/locations/configure-import-locations.md) します。
+1. 引き続き [ クラウドのインポートとエクスポートの場所を設定 ](/help/components/locations/configure-import-locations.md) します。
