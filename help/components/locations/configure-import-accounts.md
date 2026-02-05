@@ -17,25 +17,25 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->アカウントを作成および編集する際は、次の点に注意してください。 <ul><li>システム管理者は、[ ユーザーがアカウントを作成できるかどうかを設定 ](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明しているように、ユーザーによるアカウントの作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>アカウントを作成および編集する際は、次の点に注意してください。 <ul><li>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定 &#x200B;](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts) で説明しているように、ユーザーによるアカウントの作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
 次の目的の一部またはすべてに使用するクラウドアカウントを設定できます。
 
-* [ データフィード ](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
+* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
-* [ 分類セット ](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
+* [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
 
-Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事で説明しているアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加して設定し、[ クラウドの読み込みと書き出しの場所の設定 ](/help/components/locations/configure-import-locations.md) で説明しているアカウント内の場所（アカウント内のフォルダーなど）を追加して設定します。
+Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、この記事で説明しているアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加して設定し、[&#x200B; クラウドの読み込みと書き出しの場所の設定 &#x200B;](/help/components/locations/configure-import-locations.md) で説明しているアカウント内の場所（アカウント内のフォルダーなど）を追加して設定します。
 
-既存のアカウントの表示および削除方法について詳しくは、[ ロケーションマネージャー ](/help/components/locations/locations-manager.md) を参照してください。
+既存のアカウントの表示および削除方法について詳しくは、[&#x200B; ロケーションマネージャー &#x200B;](/help/components/locations/locations-manager.md) を参照してください。
 
 ## アカウントページからアカウントの作成または編集を開始
 
 1. Adobe Analyticsで、[!UICONTROL **コンポーネント**]/[!UICONTROL **場所**] を選択します。
 1. [!UICONTROL Locations] ページで、「[!UICONTROL **Location アカウント**]」タブを選択します。
 1. （条件付き）システム管理者の場合、「[!UICONTROL **すべてのユーザーのアカウントを表示**]」オプションを有効にすると、組織内のすべてのユーザーが作成したアカウントを表示できます。
-   ![ すべてのユーザーのアカウントを表示 ](assets/accounts-all-users.png)
+   ![&#x200B; すべてのユーザーのアカウントを表示 &#x200B;](assets/accounts-all-users.png)
 1. 新しいアカウントを作成するには、「[!UICONTROL **アカウントを追加**]」を選択します。
 
    [!UICONTROL **場所アカウントの詳細**] ダイアログが表示されます。
@@ -46,7 +46,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    [!UICONTROL **アカウントを追加**] ダイアログが表示されます。
 
-1. [ 場所アカウントの設定 ](#configure-a-location-account) を続行します。
+1. [&#x200B; 場所アカウントの設定 &#x200B;](#configure-a-location-account) を続行します。
 
 ## 場所アカウントの設定
 
@@ -127,7 +127,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    >[!NOTE]
    >
-   >電子メール アカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) でのみ使用できます。 （メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md) または [ 分類セット ](/help/components/classifications/sets/overview.md)）ではサポートされていません）。
+   >電子メール アカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) でのみ使用できます。 （メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md)）ではサポートされていません）。
 
    Azure RBAC アカウントを設定するには、次の情報を指定します。
 
@@ -141,7 +141,7 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
    **従来のアカウントタイプ**
 
-   これらの従来のアカウントタイプは、{ データフィード [ および ](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[ を使用してデータを書き出す場合にのみ使用できます。 ](/help/export/data-warehouse/create-request/t-dw-create-request.md)[ 分類セット ](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+   これらの従来のアカウントタイプは、{ データフィード [&#x200B; および &#x200B;](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[&#x200B; を使用してデータを書き出す場合にのみ使用できます。 &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
 
    +++FTP
 
@@ -218,4 +218,4 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. 引き続き [ クラウドのインポートとエクスポートの場所を設定 ](/help/components/locations/configure-import-locations.md) します。
+1. 引き続き [&#x200B; クラウドのインポートとエクスポートの場所を設定 &#x200B;](/help/components/locations/configure-import-locations.md) します。
