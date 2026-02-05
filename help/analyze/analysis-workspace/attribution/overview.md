@@ -53,28 +53,28 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルでのアトリビューション](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルでのアトリビューション](https://video.tv.adobe.com/v/38408?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標でのアトリビューション](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算指標でのアトリビューション](https://video.tv.adobe.com/v/41479?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [アトリビューションパネルの使用](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [アトリビューションパネルの使用](https://video.tv.adobe.com/v/38412?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [アトリビューションモデルの並列比較の追加](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [アトリビューションモデルの並列比較の追加](https://video.tv.adobe.com/v/327795?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
