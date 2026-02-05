@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >ほとんどの列には、`post_` という接頭辞が付く類似の列が含まれています。post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
 
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
