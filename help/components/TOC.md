@@ -7,7 +7,7 @@ user-guide-description: セグメント、計算指標、仮想レポートス�
 source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -284,7 +284,7 @@ ht-degree: 98%
       + 分類インポーター {#classifications-importer}
          + [概要](classifications/importer/c-working-with-saint.md)
          + [データファイル](classifications/importer/c-saint-data-files.md)
-         + [データを削除](classifications/importer/t-delete-classification-data.md)
+         + [データの削除](classifications/importer/t-delete-classification-data.md)
          + [テンプレート](classifications/importer/c-download-saint-data.md)
          + [ブラウザーインポート](classifications/importer/browser-import.md)
          + [ブラウザーエクスポート](classifications/importer/browser-export.md)

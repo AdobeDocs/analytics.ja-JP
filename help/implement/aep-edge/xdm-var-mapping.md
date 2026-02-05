@@ -19,11 +19,11 @@ ht-degree: 94%
 
 ## 値の優先度
 
-このテーブル内のほとんどの XDM オブジェクトフィールドは、[&#x200B; マッピングされたデータオブジェクトフィールド &#x200B;](data-var-mapping.md) に対応しています。 Adobe Analyticsの取り込み時に、値は最初に XDM から Analytics 変数にマッピングされます。 認識されたデータオブジェクトフィールドはマッピングされ、同じ Analytics 変数にマッピングされると、以前に設定された値が上書きされます。 例えば、`data.__adobe.analytics.events` が存在する場合、XDM から派生するイベントのセット全体が置き換えられます。イベントは両方のソースで組み合わされません。
+このテーブル内のほとんどの XDM オブジェクトフィールドは、[ マッピングされたデータオブジェクトフィールド ](data-var-mapping.md) に対応しています。 Adobe Analyticsの取り込み時に、値は最初に XDM から Analytics 変数にマッピングされます。 認識されたデータオブジェクトフィールドはマッピングされ、同じ Analytics 変数にマッピングされると、以前に設定された値が上書きされます。 例えば、`data.__adobe.analytics.events` が存在する場合、XDM から派生するイベントのセット全体が置き換えられます。イベントは両方のソースで組み合わされません。
 
 ## XDM オブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
 
 | XDM フィールドパス | Analytics の変数と説明 |
 | --- | --- |
