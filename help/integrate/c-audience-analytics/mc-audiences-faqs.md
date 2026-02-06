@@ -19,7 +19,7 @@ Audience Analytics を実装するときによくある質問への回答です�
 
 +++ Analytics データに個人を特定できる情報（PII）があるかどうかを確認するにはどうすればよいですか？ もしそうなら私はどうすればいいの？
 
-prop またはeVarにメールやアドレスなどがある場合は、収集時にデータをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする ](/help/admin/tools/exclude-ip.md) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
+prop またはeVarにメールやアドレスなどがある場合は、収集時にデータをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする &#x200B;](/help/admin/tools/exclude-ip.md) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
 
 +++
 
@@ -37,7 +37,7 @@ prop またはeVarにメールやアドレスなどがある場合は、収集�
 
 +++ Audience Managerで Analytics の宛先を作成するにはどうすればよいですか？
 
-[Adobe Audience Managerでの Analytics の宛先の設定」を参照してください ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
+[Adobe Audience Managerでの Analytics の宛先の設定」を参照してください &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
 
 +++
 
@@ -143,13 +143,13 @@ Experience Cloud 組織にマップされているスイートのみを有効に
 
 +++ Audience Managerと Analytics でセグメント訪問者カウントが異なるのはなぜですか？
 
-[ 訪問者数の違い ](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md) を参照してください。
+[&#x200B; 訪問者数の違い &#x200B;](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md) を参照してください。
 
 +++
 
 +++ Adobe Audience Managerの「オーディエンス」と Analytics の「セグメント」の違いは何ですか？
 
-[Analytics とAudience Managerのセグメントについて ](/help/integrate/c-audience-analytics/aam-analytics-segments.md) を参照してください。 Adobe Audience Manager オーディエンスは、Analytics で使用される「ディメンション」コンポーネントとして送信および共有されます。 これらは、セグメントビルダーのセグメントとしては表示されません（例：セグメントの作成に使用できるディメンション）。
+[Analytics とAudience Managerのセグメントについて &#x200B;](/help/integrate/c-audience-analytics/aam-analytics-segments.md) を参照してください。 Adobe Audience Manager オーディエンスは、Analytics で使用される「ディメンション」コンポーネントとして送信および共有されます。 これらは、セグメントビルダーのセグメントとしては表示されません（例：セグメントの作成に使用できるディメンション）。
 
 +++
 
