@@ -26,7 +26,7 @@ AMO のお客様は、既存の Analytics と AMO の統合を活用でき、Ad 
 
 Advertising AnalyticsはAdobe Analyticsで使用できます
 
-* [ 選択 ](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)
+* [&#x200B; 選択 &#x200B;](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)
 
 * [Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)
 
@@ -68,7 +68,7 @@ Advertising AnalyticsはAdobe Analytics管理者のみが使用できますが�
 
 +++ Advertising Analyticsへのアクセス方法
 
-Adobe Analyticsにログインした後、[!UICONTROL  管理者 ] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
+Adobe Analyticsにログインした後、[!UICONTROL &#x200B; 管理者 &#x200B;] に移動します。 次に、[!UICONTROL Advertising Analytics] を選択して、検索エンジンアカウントを追加します。
 
 +++
 
@@ -99,15 +99,15 @@ Advertising Analyticsは、一連のカスタム API を利用して、Adobe Adv
 
 +++ アカウントの様々なステータスインジケーターにはどのような定義がありますか（保留中、アクティブ、一時停止など）? これらのステータス指標のそれぞれは、各検索エンジンアカウントのライフサイクルステージを識別します。 
 
-* [!UICONTROL  保留中 ]
-* [!UICONTROL  一時停止 ] は、アカウントが以前に設定されたが、非アクティブな状態になっていることを意味します。
-* [!UICONTROL  アクティブ ] は、アカウントが完全に設定され、検索データを取り込んでいることを意味します。
+* [!UICONTROL &#x200B; 保留中 &#x200B;]
+* [!UICONTROL &#x200B; 一時停止 &#x200B;] は、アカウントが以前に設定されたが、非アクティブな状態になっていることを意味します。
+* [!UICONTROL &#x200B; アクティブ &#x200B;] は、アカウントが完全に設定され、検索データを取り込んでいることを意味します。
 
 +++
 
 +++ Advertising Analytics アカウントを特定のレポートスイートにマッピングしようとしていますが、レポートスイートモーダルでは使用できません。 なぜですか？ 
 
-レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートを [Advertising Analytics レポート用にプロビジョニング ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) する必要があります
+レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートを [Advertising Analytics レポート用にプロビジョニング &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) する必要があります
 これは、管理者/レポートスイート/`[select report suite]` 定/設定を編集/Advertising Analytics設定からアクセスできる別の管理者ページを通じて行います。
 
 +++
