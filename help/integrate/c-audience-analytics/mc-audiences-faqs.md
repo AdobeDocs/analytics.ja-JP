@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 31%
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ Audience Analytics を実装するときによくある質問への回答です�
 
 +++ Analytics データに個人を特定できる情報（PII）があるかどうかを確認するにはどうすればよいですか？ もしそうなら私はどうすればいいの？
 
-prop またはeVarにメールやアドレスなどがある場合は、収集時にデータをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする &#x200B;](/help/admin/tools/exclude-ip.md) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
+prop またはeVarにメールやアドレスなどがある場合は、収集時にデータをハッシュ化することを検討します。 国が IP アドレスを PII と見なす場合は、[IP の不明化を有効にする ](/help/admin/tools/exclude-ip.md) を選択します。 Analytics 管理者に問い合わせて、収集しているものを確認します。 法務部門に問い合わせて、PII と見なされる項目を確認します。
 
 +++
 
@@ -29,7 +29,7 @@ prop またはeVarにメールやアドレスなどがある場合は、収集�
 
 * Analytics で共有されるセグメントを MCA ディメンションと共有して、Experience Cloudに戻すことはできますか？
 
-* これらの目的で使用するビジネスインテリジェンス（BI）システムに（データフィードなどを介して）エクスポートしますか。
+* これらの目的で使用されるBusiness Intelligence（BI）システムに（データフィードなどを介して）書き出していますか？
 
 +++
 
@@ -37,31 +37,31 @@ prop またはeVarにメールやアドレスなどがある場合は、収集�
 
 +++ Audience Managerで Analytics の宛先を作成するにはどうすればよいですか？
 
-[Adobe Audience Managerでの Analytics の宛先の設定」を参照してください &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
+[Adobe Audience Managerでの Analytics の宛先の設定」を参照してください ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
 
 +++
 
 +++ Analytics の宛先を作成して保存した後、選択したレポートスイートにデータが表示されるまで、どのくらい時間がかかりますか？
 
-レポートスイートに新しいデータが入力されるまでに数時間かかることがあります。
+レポートスイートに新しいデータが入力されるまでに数時間かかる場合があります。
 
 +++
 
 +++ 新しい Analytics の宛先を作成しましたが、使用可能なセグメントの「宛先マッピング」セクションに表示されません。 その宛先はどこに行ったのですか、それとも見つけるにはどうすればよいですか？
 
-**[!UICONTROL セグメントマッピング]** で「**[!UICONTROL 現在および将来のすべてのセグメントを自動的にマッピング]**」オプションを選択すると、Analytics の宛先がセグメントの「宛先マッピング」セクションに表示されなくなります。 これを防ぐには、自動オプションの代わりに「**[!UICONTROL Manually map segments]**」を選択します。
+**[!UICONTROL セグメントマッピング]** で「**[!UICONTROL 現在および将来のすべてのセグメントを自動的にマッピング]**」オプションを選択すると、Analytics の宛先がセグメントの「宛先マッピング」セクションに表示されなくなります。 これを防ぐには、「自動」オプションの代わりに **[!UICONTROL 手動でセグメントをマッピング]** を選択します。
 
 +++
 
-Adobe Audience Managerの Analytics に関する情報をすべて入手できますか？
++++ Adobe Audience Managerの Analytics に関する情報をすべて入手できますか？
 
-いいえ。Audience Manager オーディエンスの有効化中または有効化後、およびセグメント認定中／認定後にサイトを訪問するユーザーに関連するデータのみ提供されます。
+いいえ。Audience Manager Audiences の実施中または実施後、およびセグメントの選定中/後にサイトを訪問したユーザーに関するデータのみです。
 
 +++
 
 +++ セグメントごとの合計アドレス可能なオーディエンスを提供できますか？
 
-いいえ。セグメント認定中または認定後にサイトを訪れた、そのセグメントの訪問者数が提供されます。
+そうではありません。 セグメントの選定中または選定後にサイトにアクセスした、そのセグメントの訪問者の数が表示されます。
 
 +++
 
@@ -73,11 +73,11 @@ Adobe Audience Managerの Analytics に関する情報をすべて入手でき�
 
 +++ レポートスイートに個人データが含まれているものと含まれていないレポートスイートがある場合はどうすればよいですか？&lt;
 
-ヒント：2 つの宛先を作成します。個人データレポートスイートを 1 つの宛先に追加し、個人データ以外のレポートスイートを別の宛先に追加します。
+ヒント：2 つの宛先を作成する – 一方の宛先に個人データレポートスイートを、もう一方の宛先に非個人データレポートスイートを追加します。
 
 +++
 
-## Analytics 固有のよくある質問（FAQ） {#aa-specific}
+## Analytics 固有の FAQ {#aa-specific}
 
 +++ この統合は、Analytics でディメンションまたはセグメントとして表示されますか。
 
@@ -113,13 +113,13 @@ Adobe Audience Managerの Analytics に関する情報をすべて入手でき�
 
 * オプション 1：統合を標準の状態で引き続き機能させ、特定の訪問者に対して最近選定された 150 個のセグメントを送信する。
 
-* オプション 2:Adobe Audience Managerで、統合に関するビジネスに最も重要な 150 のセグメントを選択します。 Adobe Audience Managerは、これら 150 個のセグメントに対してのみ訪問者をチェックします。 この手法の欠点は、すべての訪問者に対してこの 150 セグメントしか受け取れないことです。一方、1 の手法の場合、統合にはヒットごとの特性があるので、セグメントを無制限に送信できます。
+* オプション 2:Adobe Audience Managerで、統合に関するビジネスに最も重要な 150 のセグメントを選択します。 Adobe Audience Managerは、これら 150 個のセグメントに対してのみ訪問者をチェックします。 このアプローチの欠点は、すべての訪問者で 150 個のセグメントしか受け取れないことです。 一方、オプション 1 のアプローチでは、統合のヒットごとの特性により、無制限のセグメントを配信できます。
 
 +++
 
 +++ この統合では、追加のサーバーコールに対して Analytics に請求されますか？
 
-いいえ。Adobe Audience Manager Audiences は、サーバーサイドで Analytics ヒットに組み込まれます。 これは、Analytics（プライマリまたはセカンダリ）への追加のサーバーコールとなりません。
+いいえ。Adobe Audience Manager Audiences は、サーバーサイドで Analytics ヒットに組み込まれます。 これには、Analytics （プライマリまたはセカンダリ）への追加のサーバーコールは含まれません。
 
 +++
 
@@ -143,13 +143,13 @@ Experience Cloud 組織にマップされているスイートのみを有効に
 
 +++ Audience Managerと Analytics でセグメント訪問者カウントが異なるのはなぜですか？
 
-[&#x200B; 訪問者数の違い &#x200B;](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md) を参照してください。
+[ 訪問者数の違い ](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md) を参照してください。
 
 +++
 
 +++ Adobe Audience Managerの「オーディエンス」と Analytics の「セグメント」の違いは何ですか？
 
-[Analytics とAudience Managerのセグメントについて &#x200B;](/help/integrate/c-audience-analytics/aam-analytics-segments.md) を参照してください。 Adobe Audience Manager オーディエンスは、Analytics で使用される「ディメンション」コンポーネントとして送信および共有されます。 これらは、セグメントビルダーのセグメントとしては表示されません（例：セグメントの作成に使用できるディメンション）。
+[Analytics とAudience Managerのセグメントについて ](/help/integrate/c-audience-analytics/aam-analytics-segments.md) を参照してください。 Adobe Audience Manager オーディエンスは、Analytics で使用される「ディメンション」コンポーネントとして送信および共有されます。 これらは、セグメントビルダーのセグメントとしては表示されません（例：セグメントの作成に使用できるディメンション）。
 
 +++
 
@@ -161,6 +161,6 @@ Experience Cloud 組織にマップされているスイートのみを有効に
 
 +++ 古いベータ版やコンサルティングプラグイン cookie の宛先など、この問題に対する従来のアプローチはどうですか？
 
-新しい統合を実装して古い宛先を削除することを推奨します。
+新しい統合を実装し、古い宛先を削除することをお勧めします。
 
 +++
