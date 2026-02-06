@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 従来のReport Builder ワークブックの変換
 
-新しいReport Builder機能への移行の一環として、現在の従来のReport Builder ベースのワークブック（従来のワークブック）を、新しいReport Builder[ データブロック ](create-a-data-block.md) 機能を使用するようにすばやく変換できます。
+新しいReport Builder機能への移行の一環として、現在の従来のReport Builder ベースのワークブック（従来のワークブック）を、新しいReport Builder[&#x200B; データブロック &#x200B;](create-a-data-block.md) 機能を使用するようにすばやく変換できます。
 
 >[!IMPORTANT]
 >
@@ -24,48 +24,48 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->従来のワークブックを変換するには、まず [ 新しいReport Builderを設定する ](/help/analyze/report-builder/report-builder-setup.md) 必要があります。
+>従来のワークブックを変換するには、まず [&#x200B; 新しいReport Builderを設定する &#x200B;](/help/analyze/report-builder/report-builder-setup.md) 必要があります。
 
 
 ## 従来のワークブックを開く
 
 従来のワークブックを開くには、次の操作を実行します。
 
-* **[!UICONTROL Report Builder ハブ]** の「[ スケジュール ](report-builder-hub.md)」タブから、スケジュールされた従来のワークブックを開きます。 これは、スケジュールされたレガシーワークブックで推奨される方法です。 変換後の従来のワークブックをスケジュールする [ と、すぐに従来のワークブックに関連付けられたスケジュールを使用するオプションが ](#schedule-a-converted-legacy-workbook) きます。
+* **[!UICONTROL Report Builder ハブ]** の「[&#x200B; スケジュール &#x200B;](report-builder-hub.md)」タブから、スケジュールされた従来のワークブックを開きます。 これは、スケジュールされたレガシーワークブックで推奨される方法です。 変換後の従来のワークブックをスケジュールする [&#x200B; と、すぐに従来のワークブックに関連付けられたスケジュールを使用するオプションが &#x200B;](#schedule-a-converted-legacy-workbook) きます。
 
    1. Excel を開き、Excel のリボンバーから ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** を選択します。
 
    1. **[!UICONTROL ログイン]** を選択し、Report Builderにログインします。
 
-   1. **[!UICONTROL 2}Report Builderハブ]** で「[ スケジュール」を選択します。](report-builder-hub.md)
+   1. **[!UICONTROL 2&rbrace;Report Builderハブ]** で「[&#x200B; スケジュール」を選択します。](report-builder-hub.md)
    1. 「**[!UICONTROL レガシー]** タブを選択します。 このタブには、従来のReport Builderでスケジュールされたワークブックが表示されます。
 
-      ![ 従来のワークフロー ](assets/upgrade-legacy-schedule.png)
+      ![&#x200B; 従来のワークフロー &#x200B;](assets/upgrade-legacy-schedule.png)
 
-   1. リストから変換するスケジュール済みワークブックの「![SelectBox](/help/assets/icons/SelectBox.svg)」を選択し、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。 ワークブックがダウンロードされ、Excel の新しいウィンドウで開きます。 [ 従来のReport Builder ワークブックを変換 ](#convert-a--workbook) できるようになりました。
+   1. リストから変換するスケジュール済みワークブックの「![SelectBox](/help/assets/icons/SelectBox.svg)」を選択し、「![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)」を選択します。 ワークブックがダウンロードされ、Excel の新しいウィンドウで開きます。 [&#x200B; 従来のReport Builder ワークブックを変換 &#x200B;](#convert-a--workbook) できるようになりました。
 
 
 * 従来のワークブックをローカルコンピューターまたはネットワークから直接開きます。 この方法を使用する場合、従来のブックに関連付けられている可能性のあるスケジュールを使用することはできません。 <br/> 従来のワークブックを Excel で開いた場合：
 
    1. Excel のリボンバーから ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** を選択します。
    1. **[!UICONTROL ログイン]** を選択し、Report Builderにログインします。
-   1. 次に [ 従来のワークブックを変換 ](#convert-a-workbook) します。
+   1. 次に [&#x200B; 従来のワークブックを変換 &#x200B;](#convert-a-workbook) します。
 
 
 ## 従来のワークブックの変換
 
 従来のワークブックを変換するには：
 
-1. 従来のワークブックを開くと、新しいReport Builderは、このワークブックに [ 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) リクエストが含まれているかどうかを検出します。
+1. 従来のワークブックを開くと、新しいReport Builderは、このワークブックに [&#x200B; 従来のReport Builder](/help/analyze/legacy-report-builder/home.md) リクエストが含まれているかどうかを検出します。
 
-   ![ ワークブックのアップグレードを促すメッセージ ](assets/upgrade-workbook.png){zoomable="yes"}
+   ![&#x200B; ワークブックのアップグレードを促すメッセージ &#x200B;](assets/upgrade-workbook.png){zoomable="yes"}
 
 1. 従来のリクエストが 1 つ以上見つかった場合は、「ワークブックをアップグレード **[!UICONTROL ダイアログで]** アップグレード **[!UICONTROL をクリックして、ワークブックをアップグレ]** ドします。
 
@@ -76,21 +76,21 @@ ht-degree: 0%
 
 1. アップグレードすると、ブックの変更を知らせる **[!UICONTROL 警告]** ダイアログが表示されます。 また、続行する前に、従来のワークブックのバックアップを作成することも推奨されます。
 
-   ![ アップグレードの警告 ](assets/upgrade-warning.png){zoomable="yes"}
+   ![&#x200B; アップグレードの警告 &#x200B;](assets/upgrade-warning.png){zoomable="yes"}
 
 1. **[!UICONTROL 続行]** をクリックして、アップグレードを続行します。
 
    アップグレードが正常に完了すると、「ワークブックのアップグレードが完了しました **[!UICONTROL 通知が表示され]** す。
 
-   ![ アップグレード完了 ](assets/upgrade-complete.png)
+   ![&#x200B; アップグレード完了 &#x200B;](assets/upgrade-complete.png)
 
    * 「**[!UICONTROL 閉じる]**」を選択して通知を閉じ、新しいReport Builderの更新されたリクエストを含むワークブックで作業を続けます。
 
    * **[!UICONTROL アップグレードレポートをダウンロード]** を選択して、アップグレードの結果を示す新しい Excel ワークブックをダウンロードして開きます。 例については、以下を参照してください。
 
-     ![Excel Report Builder アップグレード レポート ブック ](assets/upgrade-report.png)
+     ![Excel Report Builder アップグレード レポート ブック &#x200B;](assets/upgrade-report.png)
 
-ワークブック内の [ データブロックを管理 ](/help/analyze/report-builder/manage-reportbuilder.md) できるようになりました。 これらのデータブロックは、アップグレードの結果であり、従来のReport Builder リクエストを置き換えます。
+ワークブック内の [&#x200B; データブロックを管理 &#x200B;](/help/analyze/report-builder/manage-reportbuilder.md) できるようになりました。 これらのデータブロックは、アップグレードの結果であり、従来のReport Builder リクエストを置き換えます。
 
 
 ## 変換後の従来のワークブックのスケジュール
@@ -104,9 +104,9 @@ Report Builder ハブの「**[!UICONTROL スケジュール]**」タブからダ
 
 1. 従来のワークブックのスケジュールの詳細をデフォルトのスケジュール設定として使用するように勧められます。
 
-   ![ 従来のワークブックスケジュールを移行 ](assets/upgrade-legacy-schedule-convert.png)
+   ![&#x200B; 従来のワークブックスケジュールを移行 &#x200B;](assets/upgrade-legacy-schedule-convert.png)
 
-   * 従来のスケジュールの詳細を使用するには、「**[!UICONTROL 使用]**」を選択します。 スケジュールの詳細は、「ワークブックを送信 [ インターフェイスで事前入力され ](schedule-reportbuilder.md#schedule-a-workbook) す。
+   * 従来のスケジュールの詳細を使用するには、「**[!UICONTROL 使用]**」を選択します。 スケジュールの詳細は、「ワークブックを送信 [&#x200B; インターフェイスで事前入力され &#x200B;](schedule-reportbuilder.md#schedule-a-workbook) す。
    * 従来のスケジュールの詳細を使用しない場合は、「**[!UICONTROL 使用しない]**」を選択します。
    * 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
