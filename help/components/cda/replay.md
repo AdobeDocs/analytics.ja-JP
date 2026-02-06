@@ -4,7 +4,7 @@ description: クロスデバイス分析の「再生」の概念の理解
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 ## 表の例
 
-次の表に、（[&#x200B; フィールドベースのステッチ &#x200B;](field-based-stitching.md) で一意の人数を計算する方法を示します。
+次の表に、（[ フィールドベースのステッチ ](field-based-stitching.md) で一意の人数を計算する方法を示します。
 
 ### ライブステッチ
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 *収集された日に表示されるデータ：*
 
 | タイムスタンプ | ECID | eVar1 または CustomerID | ヒットの説明 | フィールドベースのステッチを使用した人物指標（累積） |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob が未認証のデスクトップコンピューターを使用している | `1`（246） |
 | `2` | `246` | `Bob` | Bob がデスクトップでログインする | `2`（246、Bob） |
 | `3` | `3579` | - | Bob が未認証のモバイルデバイスを使用している | `3`（246、Bob、3579） |
