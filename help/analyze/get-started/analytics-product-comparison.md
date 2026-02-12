@@ -3,10 +3,10 @@ description: 必要システム構成と、Analysis Workspace、Report Builder�
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ ht-degree: 100%
 | **配信予定** | はい | はい | はい | はい | いいえ |
 | **配信先** | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
 | **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | はい | × | × | × | はい |
+| **地域および技術レポート** | ○ <p>POST フィールドではなく中間値を使用します。 訪問のファーストヒットロジックは、`post_cust_hit_time_gmt` ではなく `visit_page_num=1` に基づいています。 IP が訪問中に変更された場合、ヒットが順不同で到着した場合、月の境界を超えて訪問した場合は、結果が他のツールとは異なる場合があります。</p> | ○ <p>POST フィールドではなく中間値を使用します。 訪問のファーストヒットロジックは、`post_cust_hit_time_gmt` ではなく `visit_page_num=1` に基づいています。 IP が訪問中に変更された場合、ヒットが順不同で到着した場合、月の境界を超えて訪問した場合は、結果が他のツールとは異なる場合があります。</p> | ○ <p>POST 値と `visit_page_num=1` を使用して、訪問の最初のヒットを判断します。 これらのディメンションについて、訪問のすべてのヒットに最初のヒットの値を適用します。</p> | ○ <p>POST 値と `visit_page_num=1` を使用して、訪問の最初のヒットを判断します。 これらのディメンションについて、訪問のすべてのヒットに最初のヒットの値を適用します。</p> | ○ <p>POST フィールドではなく中間値を使用します。 訪問のファーストヒットロジックは、`post_cust_hit_time_gmt` ではなく `visit_page_num=1` に基づいています。 IP が訪問中に変更された場合、ヒットが順不同で到着した場合、月の境界を超えて訪問した場合は、結果が他のツールとは異なる場合があります。</p> |
