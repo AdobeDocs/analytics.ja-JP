@@ -4,9 +4,9 @@ description: 基本的な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**Revenue** = *Column Maximum&#x200B;**（Revenue*）, 1, 0）などの &#x200B;** IF** ステートメントを使用して、分類で最もパフォーマンスの高い項目をハイライト表示します。
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**Revenue** = *Column Maximum**（Revenue*）, 1, 0）などの **IF** ステートメントを使用して、分類で最もパフォーマンスの高い項目をハイライト表示します。
 >
 
 ## 列の最小値 {#column-minimum}
@@ -123,7 +123,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->[IF](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**収益** = *列最小&#x200B;**（収益*）、1、0）などの &#x200B;** IF** ステートメントを使用して、分類でパフォーマンスの低い項目をハイライト表示します。
+>[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) （**収益** = *列最小**（収益*）、1、0）などの **IF** ステートメントを使用して、分類でパフォーマンスの低い項目をハイライト表示します。
 >
 
 
@@ -205,9 +205,9 @@ ht-degree: 49%
 |---|---|
 | 指標 | 底 e に適用される指数です。 |
 
-**ユースケース**：数値または指標を、値の二乗や指数成長係数の適用など、指定されたべき乗に引き上げます。 これは、成長の傾向をモデリングする場合や、指標を指数関数的に拡大縮小する場合に役立ちます。
+**ユースケース**:*e* を指定された数値または指標の累乗に上げます。 これは、成長の傾向をモデリングする場合や、指標を指数関数的に拡大縮小する場合に役立ちます。
 
-**計算指標ビルダーで**：指標およびべき乗値と共に **指数** を使用します。 例：**Exponent** （*Visits*, 2）は、*Visits* 指標を二乗します。
+**計算指標ビルダー内**：指標で **指数** を使用します。 例：**Exponent** （*Visits*）は、*e* を *Visits* 指標の累乗に上げます。
 
 >[!TIP]
 >
