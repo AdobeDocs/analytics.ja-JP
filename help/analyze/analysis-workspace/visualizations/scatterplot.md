@@ -3,10 +3,10 @@ title: 散布図
 description: Analysis Workspaceで散布図ビジュアライゼーションを作成および解釈して、ディメンション項目と最大 3 つの指標の間の関係を分析する方法を説明します。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 63%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -42,14 +42,14 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散布図ビジュアライゼーション](https://video.tv.adobe.com/v/3417455/?captions=jpn&quality=12){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散布図ビジュアライゼーション](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->散布図で [ 凡例を表示するように設定 ] （/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings すると、凡例は、データソースに含まれる（選択された）ディメンション項目の数が制限されている場合にのみ表示されます。
+>散布図で [ 凡例を表示するように設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) する場合、凡例は、データソースに含まれる（選択された）ディメンション項目の数が制限されている場合にのみ表示されます。
 
 
 >[!MORELIKETHIS]
