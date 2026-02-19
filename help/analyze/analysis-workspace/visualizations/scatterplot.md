@@ -24,7 +24,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!NOTE]
 >
->散布図で [ 凡例を表示するように設定 ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) する場合、凡例は、データソースに含まれる（選択された）ディメンション項目の数が制限されている場合にのみ表示されます。
+>散布図で [&#x200B; 凡例を表示するように設定 &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) する場合、凡例は、データソースに含まれる（選択された）ディメンション項目の数が制限されている場合にのみ表示されます。
 
 
 >[!MORELIKETHIS]
