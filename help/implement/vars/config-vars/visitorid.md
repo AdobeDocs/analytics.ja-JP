@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # visitorID
 
-Adobeでは、複数の異なる方法を使用して、サイト上の [ 訪問者を識別 ](../../id/overview.md) します。 **`visitorID` 変数は、訪問者識別のその他すべての方法を上書きします。**
+Adobeでは、複数の異なる方法を使用して、サイト上の [&#x200B; 訪問者を識別 &#x200B;](../../id/overview.md) します。 **`visitorID` 変数は、訪問者識別のその他すべての方法を上書きします。**
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ ID の優先順位と ID を混在させて訪問者数を増やす理由につ�
 
 >[!CAUTION]
 >
->カスタム訪問者 ID の値が無効な場合、データが正しくなくなり、レポートのパフォーマンスが低下する可能性があります。 この変数にデフォルトまたはプレースホルダー値（`"0"` や `"NULL"` など）が含まれている場合、Adobeはこれらのヒットを同じ訪問者であるかのように処理します。 この状況では、誤ったデータが発生し、人為的に訪問者の数が少なくなり、訪問者レベルのセグメントが期待どおりに機能しません。 また、カスタム訪問者 ID の実装が誤っていると、処理サーバーに大きな負荷がかかり、[ 待ち時間 ](/help/technotes/latency.md) が増え、レポートのパフォーマンスが低下する可能性があります。
+>カスタム訪問者 ID の値が無効な場合、データが正しくなくなり、レポートのパフォーマンスが低下する可能性があります。 この変数にデフォルトまたはプレースホルダー値（`"0"` や `"NULL"` など）が含まれている場合、Adobeはこれらのヒットを同じ訪問者であるかのように処理します。 この状況では、誤ったデータが発生し、人為的に訪問者の数が少なくなり、訪問者レベルのセグメントが期待どおりに機能しません。 また、カスタム訪問者 ID の実装が誤っていると、処理サーバーに大きな負荷がかかり、[&#x200B; 待ち時間 &#x200B;](/help/technotes/latency.md) が増え、レポートのパフォーマンスが低下する可能性があります。
 
 ## Adobe Analytics拡張機能を使用した訪問者 ID
 
@@ -43,7 +43,7 @@ ID の優先順位と ID を混在させて訪問者数を増やす理由につ�
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティを選択します。
-3. 「[!UICONTROL  拡張機能 ]」タブに移動し、「Adobe Analytics」の下にある **[!UICONTROL 設定]** ボタンを選択します。
+3. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」タブに移動し、「Adobe Analytics」の下にある **[!UICONTROL 設定]** ボタンを選択します。
 4. 「[!UICONTROL Cookies]」アコーディオンを展開し、「[!UICONTROL 訪問者 ID]」フィールドを表示します。
 
 このフィールドを、カスタム訪問者 ID を含むデータ要素に割り当てます。**すべての訪問者に対して、このフィールドを単一の静的な値に設定しないでください。** 訪問者ごとに解決され、すべてのヒットにわたって一定であるデータ要素を使用します。
@@ -58,4 +58,4 @@ s.visitorID = "abc123";
 
 ## Web SDKを使用した訪問者 ID
 
-Adobe Experience Platform Edge Networkでは、XDM の [ID マップ ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) を使用して複数の識別子を指定できます。 ID マップ内の各 ID は、異なる名前空間を持ちます。 [ データストリーム設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics) の一部として、訪問者 ID に使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値でイベントを送信した場合、Analytics で訪問者 ID として自動的に使用されます。
+Adobe Experience Platform Edge Networkでは、XDM の [ID マップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) を使用して複数の識別子を指定できます。 ID マップ内の各 ID は、異なる名前空間を持ちます。 [&#x200B; データストリーム設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics) の一部として、訪問者 ID に使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値でイベントを送信した場合、Analytics で訪問者 ID として自動的に使用されます。
