@@ -53,7 +53,7 @@ ht-degree: 37%
 
 
 
-1. 比較するセグメントを左側の [!UICONTROL  セグメント ] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
+1. 比較するセグメントを左側の [!UICONTROL &#x200B; セグメント &#x200B;] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
 1. 3 つのセグメントをビジュアライゼーションの上部にあるセグメント ドロップゾーンにドラッグします。
 
    ![](assets/segment-compare.png)

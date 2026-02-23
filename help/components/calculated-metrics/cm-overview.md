@@ -50,7 +50,7 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 一部の [!DNL Analytics] 機能では、計算指標を使用できません。
 
-* [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
+* [!UICONTROL Analysis Workspace &#x200B;]&#x200B;[!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL セグメント]

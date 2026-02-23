@@ -40,7 +40,7 @@ Audience Analyticsの統合には、次のような主なメリットがあり�
 ![](assets/mc-aud-dataflow.png)
 
 1. 訪問者がデジタルプロパティにアクセスするたびに、ヒットが収集され、Analytics に送信されます。
-1. [ サーバーサイド転送 ](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用すると、Analytics が受け取る各ヒットがリアルタイムでAdobe Audience Managerに自動的に送信されます。
+1. [&#x200B; サーバーサイド転送 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用すると、Analytics が受け取る各ヒットがリアルタイムでAdobe Audience Managerに自動的に送信されます。
 1. Audience Analytics統合を通じて、ヒットごとに、訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、セグメント ID のリストが Analytics に返されて、リアルタイムに処理されます。
 
 Adobe Audience Manager セグメントは同じヒットに基づいて挿入されるので、訪問者に関してAdobe Audience Managerで利用できるすべてのデータが欠落することなく、そのヒットの最新の状態に保つことができます。 プラグインは現在のヒットではなく、次のヒットの際にのみこれらのセグメントを使用可能にできるので、これはAppMeasurement プラグインよりも優れています。

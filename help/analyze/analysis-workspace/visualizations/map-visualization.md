@@ -46,7 +46,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**Map** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**Map** を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -98,9 +98,9 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
       * *パーセント*&#x200B;タイプの指標では、クラスタリングでパーセンテージがまとめて平均化されます。
       * 緑/赤のカラースキーム：ポジティブ/ネガティブ
 
-   * **回転**[!UICONTROL Ctrl] キーを押しながらマップを移動して、2D または 3D でマップを回転します。
+   * **回転**&#x200B;[!UICONTROL Ctrl] キーを押しながらマップを移動して、2D または 3D でマップを回転します。
 
-   * 以下に説明する **設定** を使用して、ヒートマップなどの別のビューに [ 切り替え ](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) ます。 既定の設定は、通り名記号ビューです。
+   * 以下に説明する **設定** を使用して、ヒートマップなどの別のビューに [&#x200B; 切り替え &#x200B;](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) ます。 既定の設定は、通り名記号ビューです。
 
 1. **保存** すべてのマップ設定（座標、ズーム、回転）を保存するプロジェクトです。
 1. ビジュアライゼーションの下にあるフリーフォームテーブルには、左側のパネルから場所のディメンションと指標をドラッグしてデータを入力できます。
@@ -119,8 +119,8 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 | 設定 | 説明 |
 |--- |--- |
 | **[!UICONTROL マップタイプ]** | |
-| **[!UICONTROL  バブル ] | バブルを使用してイベントをプロットします。 バブル チャートは、散布図と比例面グラフの間のクロスである多変数グラフです。 この表示はデフォルトです。 |
-| [!UICONTROL  ヒートマップ ] | ヒートマップを使用してイベントをプロットします。 ヒートマップは、マトリックスに含まれる個々の値が色で表される、データのグラフィカルな表現です。 |
+| **[!UICONTROL &#x200B; バブル &#x200B;] | バブルを使用してイベントをプロットします。 バブル チャートは、散布図と比例面グラフの間のクロスである多変数グラフです。 この表示はデフォルトです。 |
+| [!UICONTROL &#x200B; ヒートマップ &#x200B;] | ヒートマップを使用してイベントをプロットします。 ヒートマップは、マトリックスに含まれる個々の値が色で表される、データのグラフィカルな表現です。 |
 | **[!UICONTROL スタイル]** | |
 | [!UICONTROL カラーテーマ] | ヒートマップと気泡のカラースキームを表示します。 あなたはサンゴ、レッズ、緑またはブルースの中から選ぶことができます。 デフォルトはコーラルです。 |
 | [!UICONTROL マップスタイル] | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択できます。 |

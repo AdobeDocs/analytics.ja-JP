@@ -18,7 +18,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Time-parting dimensions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time-parting dimensions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->時間分割ディメンションは、Analysis Workspace でのみ使用できます。他の Analytics ソリューションで時間分割ディメンションを使用するには、[getTimeParting プラグイン ](/help/implement/vars/plugins/gettimeparting.md) を実装します。
+>時間分割ディメンションは、Analysis Workspace でのみ使用できます。他の Analytics ソリューションで時間分割ディメンションを使用するには、[getTimeParting プラグイン &#x200B;](/help/implement/vars/plugins/gettimeparting.md) を実装します。
 
 Analysis Workspaceの時間分割ディメンションには、次のものが含まれます。
 

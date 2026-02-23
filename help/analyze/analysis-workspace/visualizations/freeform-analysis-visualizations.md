@@ -38,7 +38,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [積み重ね横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 積み重ね横棒グラフビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 主要指標の概要ビジュアライゼーションは、折れ線グラフ、変更の概要および数値の概要のビジュアライゼーションを組み合わせます。 |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md) | 折れ線グラフビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、X 軸で時間を表します。 |
-| ![ グローブ ](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）の視覚的なマップを作成できます |
+| ![&#x200B; グローブ &#x200B;](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）の視覚的なマップを作成できます |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散布図ビジュアライゼーションは、ディメンション項目と最大 3 つの指標の関係を表示します。 |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [セクションヘッダー](section-header.md) | パネル内のセクションを識別して明確にします。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 変更の概要ビジュアライゼーションには、選択したセル間の変更が 1 つの大きな数値または割合として表示されます。 |
@@ -93,19 +93,19 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
    * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。次に、サブメニューからビジュアライゼーションを選択します。テーブル内の現在の選択に基づいて、Workspace は提供するビジュアライゼーションを決定し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
-[ 棒グラフ ](line.md) ビジュアライゼーションの [ 折れ線グラフ ](bar.md) などのシンプルなビジュアライゼーションを追加する場合、そのビジュアライゼーションは最も近いフリーフォームテーブルをデータソースとして使用します。 ビジュアライゼーションの [ データソース ](#data-source) はいつでも変更できます。
+[&#x200B; 棒グラフ &#x200B;](line.md) ビジュアライゼーションの [&#x200B; 折れ線グラフ &#x200B;](bar.md) などのシンプルなビジュアライゼーションを追加する場合、そのビジュアライゼーションは最も近いフリーフォームテーブルをデータソースとして使用します。 ビジュアライゼーションの [&#x200B; データソース &#x200B;](#data-source) はいつでも変更できます。
 
 ## ビジュアライゼーションの管理
 
 ビジュアライゼーションの上にマウスポインターを置くか、ビジュアライゼーションを選択すると、ビジュアライゼーションを管理できます。
 
-![ ビジュアライゼーションを管理 ](assets/manage-visualization.png)
+![&#x200B; ビジュアライゼーションを管理 &#x200B;](assets/manage-visualization.png)
 
-* ビジュアライゼーションを折りたたむには、「![ 山形記号 ](/help/assets/icons/ChevronDown.svg)」を選択します。
-* 折りたたまれたビジュアライゼーションを表示するには、「![ 山形の左 ](/help/assets/icons/ChevronLeft.svg)」を選択します。
+* ビジュアライゼーションを折りたたむには、「![&#x200B; 山形記号 &#x200B;](/help/assets/icons/ChevronDown.svg)」を選択します。
+* 折りたたまれたビジュアライゼーションを表示するには、「![&#x200B; 山形の左 &#x200B;](/help/assets/icons/ChevronLeft.svg)」を選択します。
 * ビジュアライゼーションを削除するには、「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択します。 元に戻すには、**[!UICONTROL 編集]**／**[!UICONTROL 元に戻す]**（**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**）を選択します。
 * ビジュアライゼーションをデフォルトの高さに戻すには、![ImageResize](/help/assets/icons/Resize.svg) を選択します。
-* パネル内でビジュアライゼーションを移動するには、![ 移動 ](/help/assets/icons/Move.svg) が表示されている場合（通常はヘッダーにカーソルを合わせたとき）は常に、ビジュアライゼーションをドラッグ&amp;ドロップします。
+* パネル内でビジュアライゼーションを移動するには、![&#x200B; 移動 &#x200B;](/help/assets/icons/Move.svg) が表示されている場合（通常はヘッダーにカーソルを合わせたとき）は常に、ビジュアライゼーションをドラッグ&amp;ドロップします。
 
 
 ## 凡例
@@ -178,11 +178,11 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションをプロジェクト内の別の場所または完全に別のプロジェクトにペースト（「挿入」）します。 |
-| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに [ データをコピー ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) します。 |
-| **[!UICONTROL クリップボードに選択範囲をコピー]** | ビジュアライゼーションからクリップボードに [ 選択範囲をコピー ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) します。 |
-| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | ビジュアライゼーションの [ ディメンション項目を ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) 最大 50,000 まで）ローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
+| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに [&#x200B; データをコピー &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) します。 |
+| **[!UICONTROL クリップボードに選択範囲をコピー]** | ビジュアライゼーションからクリップボードに [&#x200B; 選択範囲をコピー &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard) します。 |
+| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | ビジュアライゼーションの [&#x200B; ディメンション項目を &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) 最大 50,000 まで）ローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
 | **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、プロジェクト内の別の場所または完全に別のプロジェクトにビジュアライゼーションを挿入できるようにします。 |
-| **[!UICONTROL データ CSV をダウンロード]** | ビジュアライゼーションの [ 表示されたデータをローカルデバイスにダウンロード ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) します。 |
+| **[!UICONTROL データ CSV をダウンロード]** | ビジュアライゼーションの [&#x200B; 表示されたデータをローカルデバイスにダウンロード &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv) します。 |
 | **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
 | **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。[テキスト](text.md)を参照してください。 |
 | **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。 共有リンクダイアログにリンクが表示されます。「コピー」を選択して、リンクをクリップボードにコピーします。 |

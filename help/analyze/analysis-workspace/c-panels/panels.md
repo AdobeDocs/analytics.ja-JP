@@ -91,7 +91,7 @@ ht-degree: 99%
 
 ## レポートスイート
 
-各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**の![データ名](/help/assets/icons/Data.svg)で識別されます。
+各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**&#x200B;の![データ名](/help/assets/icons/Data.svg)で識別されます。
 
 新しいパネルを作成する場合、デフォルトのレポートスイートは、Analysis Workspace プロジェクトで最後に作業したパネルのレポートスイートに基づいています。
 
