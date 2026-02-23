@@ -212,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 埋め込みコンポーネントの共有 &#x200B;](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 埋め込みコンポーネントの共有 &#x200B;](https://video.tv.adobe.com/v/327498?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
