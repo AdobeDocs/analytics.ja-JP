@@ -4,10 +4,10 @@ title: セグメント：概要
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 43%
+source-wordcount: '307'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 43%
 
 | セグメントタイプ | ここで、 | 適用対象となる場所 | 使用するタイミング |
 | --- | --- | --- | --- |
-| コンポーネントリストセグメント | 方法 [&#x200B; セグメントの作成 &#x200B;](/help/components/segmentation/segmentation-workflow/seg-create.md) を参照してください。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
+| コンポーネントリストセグメント | 方法 [ セグメントの作成 ](/help/components/segmentation/segmentation-workflow/seg-create.md) を参照してください。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
 | クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | （ドラッグ&amp;ドロップで）アドホックな単一ルールセグメントに使用したり、（セグメントアイコンをクリックして）複数のルールを追加または編集したりできます |
 | 計算指標ベースのセグメント | [計算指標ビルダー](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
 | 仮想レポートスイートベースのセグメント | [仮想レポートスイートビルダー](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 個々の仮想レポートスイートに適用 | 仮想レポートスイート定義内でのセグメントの適用 |
@@ -27,21 +27,21 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのセグメントの使用 &#x200B;](https://video.tv.adobe.com/v/41393?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Analysis Workspaceでのセグメントの使用 ](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントの検索と作成 &#x200B;](https://video.tv.adobe.com/v/3416042?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの検索と作成 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントでの日付範囲のローリング &#x200B;](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントでの日付範囲のローリング ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -51,12 +51,12 @@ ht-degree: 43%
 Analysis Workspace では、様々なタイプのセグメントを作成できます。
 
 * [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [&#x200B; セグメントビルダー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-create.md) で作成し、[&#x200B; セグメントマネージャー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) に追加される [&#x200B; 標準セグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md)
+* [ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-create.md) で作成し、[ セグメントマネージャー ](/help/components/segmentation/segmentation-workflow/seg-build.md) に追加される [ 標準セグメント ](/help/components/segmentation/segmentation-workflow/seg-manage.md)
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントを適用するためのその他の方法 &#x200B;](https://video.tv.adobe.com/v/34731?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントを適用するためのその他の方法 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -73,4 +73,4 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 >[!MORELIKETHIS]
 >
->セグメント化の概要と、Adobe Analytics全体でセグメントを作成、作成、管理する方法については、[&#x200B; セグメント化の概要 &#x200B;](/help/components/segmentation/seg-overview.md) を参照してください。
+>セグメント化の概要と、Adobe Analytics全体でセグメントを作成、作成、管理する方法については、[ セグメント化の概要 ](/help/components/segmentation/seg-overview.md) を参照してください。

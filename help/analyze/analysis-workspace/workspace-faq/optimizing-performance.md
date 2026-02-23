@@ -4,10 +4,10 @@ title: Analysis Workspace のパフォーマンスの最適化
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
-source-wordcount: '2489'
-ht-degree: 100%
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+workflow-type: tm+mt
+source-wordcount: '2490'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ Analysis Workspace のパフォーマンスについてのインサイトを得�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [生産性を向上させるためのヒント](https://video.tv.adobe.com/v/34728?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [生産性を向上させるためのヒント](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

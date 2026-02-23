@@ -4,10 +4,10 @@ description: Adobe Analytics の主要な分析ツールである  Analysis Work
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
-workflow-type: ht
-source-wordcount: '1383'
-ht-degree: 100%
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+workflow-type: tm+mt
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace では、分析をすばやく作成してインサイトを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace の概要](https://video.tv.adobe.com/v/35774/?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace の概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

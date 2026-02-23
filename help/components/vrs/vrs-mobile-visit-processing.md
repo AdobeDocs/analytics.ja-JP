@@ -3,9 +3,9 @@ description: 仮想レポートスイートのコンテキスト対応セッシ�
 title: コンテキスト対応セッション
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1578'
 ht-degree: 22%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Context-aware sessions](https://video.tv.adobe.com/v/3428475?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Context-aware sessions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -113,7 +113,7 @@ Adobe Analytics データ収集プロセスでは、お客様の視点を指定�
 
 ![](assets/nogoodexample4.jpg)
 
-バックグラウンド訪問は訪問と見なされませんが、訪問の有効期間が設定された eVar の値は同じ「バックグラウンド訪問」で発生した他のバックグラウンドヒットにも引き継がれます。
+バックグラウンド訪問は訪問と見なされませんが、訪問の有効期限が設定された eVar の値は同じ「バックグラウンド訪問」で発生した他のバックグラウンドヒットにも引き継がれます。
 
 例 5：一連のフォアグラウンドヒットが発生した後に複数のバックグラウンドヒットが連続して発生した場合、（タイムアウト設定によって異なりますが）それらのバックグラウンドヒットにより訪問タイムアウト期間を越えて 1 つの訪問が継続されることがあります。例えば、*t1* と *t2* の合計が仮想レポートスイート訪問タイムアウトよりも大きく、個別にはタイムアウトよりも小さい場合、訪問は引き続き、両方のバックグラウンドヒットを含むように拡張されます。
 

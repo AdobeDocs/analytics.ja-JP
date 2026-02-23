@@ -3,9 +3,9 @@ description: オーディエンスライブラリ、Target およびAudience Man
 title: セグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 47%
 
 ---
@@ -30,7 +30,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントの公開 &#x200B;](https://video.tv.adobe.com/v/37008?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ セグメントの公開 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 ## 前提条件
 
-* このセグメントの保存先のレポートスイートで [Experience Cloudが有効 &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) になっていることを確認します。 そうでない場合、Experience Cloudに公開することはできません。
+* このセグメントの保存先のレポートスイートで [Experience Cloudが有効 ](/help/components/segmentation/segmentation-workflow/seg-publish.md) になっていることを確認します。 そうでない場合、Experience Cloudに公開することはできません。
 * 組織が Experience Cloud ID を使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
 
@@ -50,7 +50,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 * **レポートスイートの制限**：レポートスイートごとに最大 75 個のセグメントを公開できます。この制限は適用されます。既に 75 個のセグメントが公開されている場合、公開を取り消してセグメント数が 75 個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
 * **メンバーシップの制限**：Adobe Analytics から [!DNL Experience Cloud] に共有するオーディエンスの個別メンバーの数が 2,000 万を超えてはなりません。
 * **データプライバシー**：オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。訪問者は、未認証および認証状態でサイトを閲覧できる場合があります。 訪問者が認証されていない場合に発生するアクションによって、訪問者がオーディエンスに含まれる可能性があります。 オーディエンス共有がプライバシーに与える影響をすべて理解するには、[Adobe Experience Cloud](https://www.adobe.com/jp/privacy/experience-cloud.html) のプライバシーを確認します。
-* **[!DNL Adobe Analytics] と[!DNL Audience Manager]** のセグメント間の違い [&#x200B; について詳しくは、](/help/integrate/c-audience-analytics/aam-analytics-segments.md)Analytics とAudience Managerのセグメントについてを参照してください。
+* **[!DNL Adobe Analytics] と[!DNL Audience Manager]** のセグメント間の違い [ について詳しくは、](/help/integrate/c-audience-analytics/aam-analytics-segments.md)Analytics とAudience Managerのセグメントについてを参照してください。
 
 ## セグメント公開タイムライン
 
@@ -63,7 +63,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 >[!NOTE]
 >週に 1 回、すべてのデータが完全に同期され、前週に取り込まれなかった差分や不一致が考慮されます。
 
-## [!UICONTROL &#x200B; セグメントビルダー &#x200B;] でのセグメントの公開
+## [!UICONTROL  セグメントビルダー ] でのセグメントの公開
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]**/**[!UICONTROL セグメント]** に移動します。
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
@@ -127,14 +127,14 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
 1. ページを読み込み、アプリケーション／Cookie を確認します。Adobe Audience Manager UUID は、サードパーティで設定する必要があります
-Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/reference/demdex-calls)）。 フィールド demdex はAdobe Audience Managerの UUID セットです
+Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 フィールド demdex はAdobe Audience Managerの UUID セットです
 ブラウザーで（以下の例では `35721780439475290181087231320657663953`）。
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL &#x200B; 更新 &#x200B;]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL  訪問者プロファイルビューア ] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL  更新 ]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
@@ -158,4 +158,4 @@ Adobe Targetで：
 1. **[!UICONTROL オーディエンス]** を選択します。
 1. **[!UICONTROL Audiences]** ページで、[!DNL Experience Cloud] からのオーディエンスを探します。これらのオーディエンスは、[!DNL Target] アクティビティで使用できます。
 
-   ![&#x200B; ターゲットオーディエンス &#x200B;](assets/target-audiences.png)
+   ![ ターゲットオーディエンス ](assets/target-audiences.png)

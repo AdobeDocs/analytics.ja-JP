@@ -4,9 +4,9 @@ keywords: セグメント化：セグメント
 title: セグメントコンテナ
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3564'
 ht-degree: 68%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 68%
 
 セグメントは、訪問者の属性やサイトとのインタラクションに基づいて訪問者をフィルタリングするための条件を設定します。 セグメントに条件を設定するには、訪問者特性やナビゲーション特性に基づいて訪問者をフィルタリングするルールを設定します。 訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。セグメントビルダーは、これらのサブセットを作成し、ネストされた階層的な訪問者、訪問またはヒット コンテナとしてルールを適用するためのシンプルなアーキテクチャを提供します。
 
-[&#x200B; セグメントビルダー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) で使用されるコンテナアーキテクチャによって、次が定義されます。
+[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) で使用されるコンテナアーキテクチャによって、次が定義されます。
 
 - 最も外側のコンテナとして ![User](/help/assets/icons/User.svg)**[!UICONTROL Visitor]** を使用し、訪問およびページビューをまたいで訪問者に固有の包括的なデータを含めます。
 - ![訪問](/help/assets/icons/Visit.svg) ネストされた&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定できます。
@@ -47,7 +47,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://video.tv.adobe.com/v/3429100?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -394,7 +394,7 @@ Country = United States + Order = True
 
 - **ページが「ウィンターコート」ページと等しい訪問コンテナ**：訪問者コンテナレベルのページレポートには、「ウィンターアパレル」ページのビューを含む、訪問のすべてのページビューが表示されます。 ページがセグメントルールと一致する場合、その訪問に関連付けられたすべてのページビューがレポートに含まれます。
 - **ページが「ホーム」ページに等しいコンテナに訪問します**。このセグメントを含むページレポートでは、2 回目の訪問では訪問者は「ホーム」ページを表示しなかったので、最初の訪問のデータのみが表示されます。
-- **ページが「Winter Apparel」（冬物衣料）に等しい訪問者コンテナ**：このセグメントによるページレポートには、両方の訪問からのすべてのデータが抽出されます。これは、両方の訪問で訪問者が冬物衣料ページを閲覧したからです。
+- **ページが「Winter Apparel」（冬物衣料）に等しい訪問者コンテナ**：このセグメントによるページレポートには、両方の訪問からのすべてのデータが取得されます。これは、両方の訪問で訪問者が冬物衣料ページを閲覧したからです。
 
 ### ページビューよりも少ないヒット数を識別するセグメントコンテナ
 

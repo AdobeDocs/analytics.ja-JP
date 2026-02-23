@@ -3,10 +3,10 @@ description: トラッキングタイプは、Adobe Analytics実装が検索エ�
 title: トラッキングタイプ
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 29%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/38404/?quality=12&captions=jpn)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
-[!UICONTROL &#x200B; 自動 &#x200B;] と [!UICONTROL &#x200B; 手動 &#x200B;] の 2 つのトラッキングモードがサポートされています。
+[!UICONTROL  自動 ] と [!UICONTROL  手動 ] の 2 つのトラッキングモードがサポートされています。
 
-## [!UICONTROL &#x200B; 自動 &#x200B;] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL  自動 ] トラッキング {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL &#x200B; 自動 &#x200B;] トラッキング機能を使用すると、Advertising Cloud エンジンは、検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
+[!UICONTROL  自動 ] トラッキング機能を使用すると、Advertising Cloud エンジンは、検索エンジンデータの処理方法を決定できます。 自動トラッキングはよりシンプルなアプローチですが、最適な統合データセットにならない場合があります。
 
 そのため、アカウント設定を保存する前に、「**[!UICONTROL 自動]**」を選択する際に確認チェックボックスをオンにする必要があります。
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動トラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -49,7 +49,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションのアカウント画面から取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「[!UICONTROL  トラッキング ]」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -98,7 +98,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。特定のアカウント ID 文字列は、「トラッキング」セクションのアカウント画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -106,7 +106,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![&#x200B; トラッキングコードパラメーターの追加 &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![ トラッキングコードパラメーターの追加 ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL 形式によるトラッキングコードの例：
 

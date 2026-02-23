@@ -4,10 +4,10 @@ title: 時間分割ディメンション
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 74%
+source-wordcount: '239'
+ht-degree: 20%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time-parting dimensions](https://video.tv.adobe.com/v/41458?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Time-parting dimensions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-時間分割ディメンションは、レポートスイートまたは仮想レポートスイートのタイムゾーンに基づいています。これらのディメンションは Analysis Workspace で使用でき、以下の問いへの回答を得られます。
+時間分割ディメンションは、レポートスイートまたは仮想レポートスイートのタイムゾーンに基づいています。 これらのディメンションは、Analysis Workspaceで使用でき、次の質問に答えるのに役立ちます。
 
-* 長い期間を対象にすると、訪問者がサイトまたはアプリに最もよくアクセスする時間帯はどれか。
-* サイトまたはアプリでコンバージョンが増加する曜日または時間帯はあるか。
-* 平日の売上と比較すると、週末の売上はどうか。
-* 特定のマーケティングキャンペーンでコンバージョンが高いのは午前中か、それとも午後か。
+* 大きな日付範囲において、訪問者がサイトやアプリにアクセスする最も人気のある時間帯を教えてください。
+* サイトやアプリでのコンバージョンが高い曜日や時間はありますか？
+* 週末の売り上げと平日の売り上げはどのように比較されますか。
+* 特定のマーケティングキャンペーンは、午前中と午後のどちらでより高いコンバージョンを生成しますか？
 
 >[!NOTE]
 >
->時間分割ディメンションは、Analysis Workspace でのみ使用できます。時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](/help/implement/vars/plugins/gettimeparting.md)を実装します。
+>時間分割ディメンションは、Analysis Workspace でのみ使用できます。他の Analytics ソリューションで時間分割ディメンションを使用するには、[getTimeParting プラグイン ](/help/implement/vars/plugins/gettimeparting.md) を実装します。
 
-Analysis Workspace の時間分割ディメンションに含まれるものを以下に示します。
+Analysis Workspaceの時間分割ディメンションには、次のものが含まれます。
 
 | ディメンション | 値の例 |
 | --- | --- |
 | 時刻 | 0 ～ 23 |
 | 午前／午後 | 午前、午後 |
 | 曜日 | 月曜日、火曜日、水曜日、木曜日、金曜日、土曜日、日曜日 |
-| 平日 / 週末 | 週末、平日 |
+| 週末/平日 | 週末、平日 |
 | 日付 | 1 ～ 31 |
 | 月 | 1 月 ～ 12 月 |
 | 年間通算日 | 1 ～ 366 |

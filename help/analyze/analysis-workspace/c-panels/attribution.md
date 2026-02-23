@@ -4,7 +4,7 @@ description: Analysis Workspaceのアトリビューションパネルを使用�
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 94%
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のアトリビューションパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[アトリビューションパネル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のアトリビューションパネルについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[アトリビューションパネル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
    ![選択した複数のディメンションと指標を表示するアトリビューションパネルウィンドウ。](assets/attribution-panel.png)
 
-1. 比較に使用する 1 つ以上の [&#x200B; アトリビューションモデル &#x200B;](#attribution-models)**[!UICONTROL 含まれるモデル]**、[&#x200B; コンテナ &#x200B;](#container) の **[!UICONTROL コンテナ]**、および [&#x200B; ルックバックウィンドウ &#x200B;](#lookback-window) の **[!UICONTROL ルックバックウィンドウ]** を選択します。
+1. 比較に使用する 1 つ以上の [ アトリビューションモデル ](#attribution-models)**[!UICONTROL 含まれるモデル]**、[ コンテナ ](#container) の **[!UICONTROL コンテナ]**、および [ ルックバックウィンドウ ](#lookback-window) の **[!UICONTROL ルックバックウィンドウ]** を選択します。
 
 1. 「**[!UICONTROL 作成]**」を選択して、パネル内のビジュアライゼーションを作成します。
 
@@ -86,7 +86,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 * **重なり図**：上位 3 つのディメンション項目と、それらが共同でコンバージョンに関わる頻度を示すベン図ビジュアライゼーション。例えば、バブルの重複部分のサイズは、両方のディメンション項目にユーザーが接触したときにコンバージョンが発生した頻度を示します。隣接したフリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。
 * **パフォーマンスの詳細**：最大 3 つのアトリビューションモデルを視覚的に比較する散布図ビジュアライゼーション。
 * **トレンドパフォーマンス**：最上位ディメンション項目の属性コンバージョンのトレンドを表示します。 隣接したフリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。
-* **フロー**：ユーザーのジャーニー全体を通して、どのチャネルが最もよく使用されているか、およびその順番を確認できます。
+* **フロー**：ユーザーのジャーニー全体を通して、どのチャネルが最もよく使用されているか、およびその順序を確認できます。
 
 ## アトリビューションモデル
 
@@ -114,7 +114,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/38412/?quality=12&captions=jpn)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

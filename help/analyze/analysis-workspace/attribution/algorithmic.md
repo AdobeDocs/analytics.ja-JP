@@ -4,9 +4,9 @@ description: アルゴリズムアトリビューションモデルの詳細を�
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 42%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace のアルゴリズム[アトリビューションモデル](m
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; アルゴリズムアトリビューション &#x200B;](https://video.tv.adobe.com/v/40048?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ アルゴリズムアトリビューション ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

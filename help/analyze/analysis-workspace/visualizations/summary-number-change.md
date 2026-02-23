@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 93%
+source-wordcount: '509'
+ht-degree: 63%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_この記事は、_ AdobeAnalytics![&#x200B; &#x200B;](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _&#x200B;**の数値概要と変更概要のビジュアライゼーションについて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**数値概要と変更概要** を参照してください。_
+_この記事は、_ AdobeAnalytics![ ](/help/assets/icons/AdobeAnalytics.svg)Adobe Analytics _**の数値概要と変更概要のビジュアライゼーションについて説明します**。_<br/>_この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_**数値概要と変更概要** を参照してください。_
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数値の概要と変更の概要ビジュアライゼーション](https://video.tv.adobe.com/v/3417462/?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [数値の概要と変更の概要ビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -39,10 +39,10 @@ _この記事は、_ AdobeAnalytics![&#x200B; &#x200B;](/help/assets/icons/Adobe
 
 ![要約](/help/assets/icons/123.svg) **[!UICONTROL 数値の概要]**&#x200B;ビジュアライゼーションを使用して、プロジェクト内の重要な多数の数値をハイライト表示します。このビジュアライゼーションは、関連付けられたデータソースを使用して、次のように動作します。
 
-* セルが選択されていない場合、列の合計が選択されます。
-* 1 つのセルが選択されている場合、そのセルの概要が表示されます。
-* 2 つ以上のセルが選択されている場合、選択された最初のセルについて表示されます。
-* 列が選択されている場合、列に含まれている先頭のセルの値が選択されます。
+* セルが選択されていない場合に列の合計を選択します。
+* 1 つのセルが選択されている場合は、そのセルの概要が表示されます。
+* 複数のセルが選択されている場合は、最初に選択されたセルが表示されます。
+* 列が選択されている場合は、列の最初のセル値が選択されます。
 
 ![数値の概要ビジュアライゼーション](asses/../assets/summary-number.png)
 
@@ -73,12 +73,12 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 このビジュアライゼーションは、次のように動作します。
 
-* セルが選択されていない場合、列に含まれている最初の 2 つのセル値が比較されます。
-* 1 つのセルが選択されている場合、0 が表示されます。これは、そのセル値自体との比較がおこなわれるからです。
-* 2 つのセルが選択されている場合、最初に選択したセルが分子、2 番目のセルが分母として処理されます。
-* 3 つ以上のセルが選択されている場合、最初の 2 つのセルのみが比較の対象になります。
-* 一定範囲のセルが選択されている場合、選択された範囲内の最初と最後のセルが比較されます。
-* 列が選択されている場合、先頭の値がそれ自体と比較されます。その結果、変更は 0 と表示されます。
+* セルが選択されていない場合は、列内の最初の 2 つのセル値が比較されます。
+* 1 つのセルが選択されている場合は、そのセルの値と比較されるため、0 と表示されます。
+* 2 つのセルが選択されている場合、最初に選択されたセルが分子、2 番目のセルが分母と見なされます。
+* 3 つ以上のセルを選択すると、最初の 2 つのセルのみが比較の対象になります。
+* セルの範囲が選択されている場合は、その範囲で最初のセルと最後に選択されているセルが比較されます。
+* 列が選択されている場合は、最初の値がそれ自体と比較され、0 の変化が示されます。
 
 
 ![2 つの数値間の差分を示す変更の概要ビジュアライゼーション](assets/summary-change.png)
@@ -95,6 +95,6 @@ The green and red color of the Summary Change can be controlled through [custom 
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -4,10 +4,10 @@ title: ディメンション間のフォールアウト
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -18,22 +18,16 @@ Analysis Workspaceのフォールアウトを使用すると、ファネルと�
 
 例えば、ページディメンションに加えて、他のディメンション項目（デバイス名ディメンションからの特定のデバイス名など）をフォールアウトビジュアライゼーションに追加できます。 ディメンションを組み合わせると、ページと特定のアクションが顧客のパスでどのように相互作用するかを視覚化できます。
 
->[!BEGINSHADEBOX]
-
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; マルチディメンションのフォールアウト &#x200B;](https://video.tv.adobe.com/v/327467?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
-
 例えば、ページディメンションに加えて、他のディメンション項目（デバイス名ディメンションからの特定のデバイス名など）をフォールアウトビジュアライゼーションに追加できます。 ディメンションを組み合わせると、ページと特定のアクションが顧客のパスでどのように相互作用するかを視覚化できます。
 
-![&#x200B; タッチポイントとして複数のディメンションが表示されている全訪問ビュー。](assets/fallout-otherdimension.png)
+![ タッチポイントとして複数のディメンションが表示されている全訪問ビュー。](assets/fallout-otherdimension.png)
 
-フォールアウトは動的に更新され、複数のディメンションにわたるフォールアウトを表示できます。
+フォールアウトは動的に更新され、複数のディメンションにわたってフォールアウトを確認できます。
 
 指標を追加することもできます。 例えば、コール指標を追加して、コールが存在し、コールセンターに連絡しているユーザーのパスのみを表示できます。
 
-![&#x200B; 追加された指標を示すすべての訪問ビュー：「共有写真」。](assets/fallout-metrics.png)
+![ 追加された指標を示すすべての訪問ビュー：「共有写真」。](assets/fallout-metrics.png)
 
 ディメンションと指標を組み合わせることができます。 既存のディメンションまたは指標の上に別のディメンションまたは指標をドラッグします。 例えば、iPhoneを所有し、コールセンターに連絡した人物のフォールアウトを理解できます。
 
-![&#x200B; 追加されたアクション名（共有および共有された写真指標）を示すすべての訪問ビュー。](assets/fallout-combined.png)
+![ 追加されたアクション名（共有および共有された写真指標）を示すすべての訪問ビュー。](assets/fallout-combined.png)

@@ -4,10 +4,10 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2228'
-ht-degree: 100%
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ドロップダウンセグメント](https://video.tv.adobe.com/v/327487?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ドロップダウンセグメント](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -201,7 +201,7 @@ ht-degree: 100%
 ドロップダウンセグメントには、次のコンテキストメニューオプションがあります。
 
 * **[!UICONTROL ドロップダウンを削除]**：パネルからドロップダウンセグメントを削除します。
-* **[!UICONTROL ラベルを削除]**：ドロップダウンセグメントの上にあるテキストを削除します。ラベルを変更するには、ラベルの上にポインタを合わせて、「![ドロップダウンセグメントのラベルを編集](/help/assets/icons/Edit.svg)」を選択します。
+* **[!UICONTROL ラベルを削除]**：ドロップダウンセグメントの上に表示されるテキストを削除します。ラベルを変更するには、ラベルの上にポインタを合わせて、「![ドロップダウンセグメントのラベルを編集](/help/assets/icons/Edit.svg)」を選択します。
 * **[!UICONTROL ラベルを追加]**：プロジェクトにドロップダウンセグメントを追加すると、ラベルが自動的にコンポーネント名に設定されます。ラベルを削除した場合は、このオプションを使用して再度追加できます。
 * **[!UICONTROL 選択を要求]**：パネルにセグメントが設定されている必要があります。
 
@@ -348,7 +348,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ja) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

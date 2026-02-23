@@ -4,10 +4,10 @@ title: モバイルスコアカードの作成と共有
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2528'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://video.tv.adobe.com/v/38124?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://video.tv.adobe.com/v/3445767?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -155,7 +155,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ![ドーナツグラフのビジュアライゼーション](assets/donut-viz.png)
 
-### [!UICONTROL 行]
+### [!UICONTROL 折れ線グラフ]
 
 行のビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。線グラフは、時間の経過に伴うディメンションを表示しますが、あらゆるビジュアライゼーションで機能します。この例では、製品カテゴリディメンションを視覚化しています。
 
@@ -206,7 +206,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://video.tv.adobe.com/v/3413789?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://video.tv.adobe.com/v/3420562?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

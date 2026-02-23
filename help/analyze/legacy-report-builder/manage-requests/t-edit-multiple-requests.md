@@ -5,10 +5,10 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 90%
+ht-degree: 58%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 同時に複数のリクエストを編集し、レポートスイート、精度や日付範囲を変更することができます。
 
-同時に複数のリクエストを編集し、レポートスイート、セグメント、精度、および日付範囲を変更することができます。例えば、すべてのリクエストのレポートスイートが同じになるようにレポートのパラメーターを更新できます。また、同じ単位数を維持すれば、日別のレポートを週別、月別のレポートに変換できます。現在のワークシート用、またはスプレッドシートのすべてのワークシート用に複数のリクエストを編集できます。
+同時に複数のリクエストを編集し、レポートスイート、セグメント、精度、および日付範囲を変更することができます。例えば、すべてのリクエストが同じレポートスイートまたはセグメントに基づくようにレポートのパラメーターを更新したり、同じ期間数を保持していれば、日別レポートを週別または月別レポートに変換したりできます。 現在のワークシートまたはスプレッドシートのすべてのワークシートについて、複数の要求を編集できます。
 
 **複数のリクエストを編集するには**
 
@@ -36,7 +36,7 @@ ht-degree: 90%
    * **レポートスイート：**&#x200B;レポートスイート別にリクエストの表示をグループ化します。
    * **セグメント別**：セグメント名に基づいてリクエストをグループ化します。
 
-      * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。セグメントを追加するには、「**[!UICONTROL グループの編集]**」をクリックして、[!UICONTROL グループの編集]パネルからセグメントを選択します。
+      * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。 セグメントを追加するには、「**[!UICONTROL グループを編集]**」をクリックし、「[!UICONTROL  グループを編集 ] パネルでセグメントを選択します。
 
    * **指標別：**「[複数のリクエストにわたる指標の編集](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md)」を参照してください。
 
@@ -49,4 +49,4 @@ ht-degree: 90%
 
 次に、プロセスを示すビデオを示します。
 
-https://video.tv.adobe.com/v/40102/?quality=12&captions=jpn
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

@@ -5,9 +5,9 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 3324d04af41b5de1e42c6ec3958e17fc0fadd0df
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 74%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://video.tv.adobe.com/v/37627?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -84,8 +84,8 @@ Adobe Analyticsが 2 つの目的のセグメントの分析を完了すると�
 | ビジュアライゼーション | 説明 |
 |---|---|
 | **[!UICONTROL サイズと重複]** | 選択した各セグメントの比較サイズと、これらが互いにどの程度重複しているかを[ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)ビジュアライゼーションで示します。 |
-| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を表示する [&#x200B; 概要番号 &#x200B;](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（単一ページ訪問数の例の場合） |
-| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す [&#x200B; 概要番号 &#x200B;](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（初回訪問の例の場合） |
+| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を表示する [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（単一ページ訪問数の例の場合） |
+| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す [ 概要番号 ](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（初回訪問の例の場合） |
 | **[!UICONTROL セグメントに対する上位の指標]** | 選択したセグメントに対する上位の指標を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
 | **[!UICONTROL セグメント別の経時的な指標]** | 選択したセグメントに対する経時的な指標を示す[折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション。 |
 | **[!UICONTROL セグメントに対する上位のディメンション項目]** | 選択したセグメントに対する混合ディメンション項目を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |

@@ -4,9 +4,9 @@ title: 指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '849'
 ht-degree: 20%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 指標は、Analysis Workspace内で柔軟に使用できます。 指標を空のフリーフォームテーブルにドラッグすると、プロジェクトの日付期間にわたるその指標のトレンドを確認できます。 また、ディメンションが存在する場合に指標をドラッグすると、その指標と各ディメンション項目との比較を確認できます。 指標を既存の指標ヘッダーの上にドラッグすると指標が置き換えられ、指標をヘッダーの横にドラッグすると両方の指標を並べて表示できます。
 
-Analysis Workspaceに指標やその他のタイプのコンポーネントを追加する方法について詳しくは、[Analysis Workspaceでのコンポーネントの使用 &#x200B;](use-components-in-workspace.md) を参照してください。
+Analysis Workspaceに指標やその他のタイプのコンポーネントを追加する方法について詳しくは、[Analysis Workspaceでのコンポーネントの使用 ](use-components-in-workspace.md) を参照してください。
 
 ## 指標のタイプ
 
@@ -27,21 +27,21 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 * **標準指標**：プロジェクトで使用するほとんどの指標は標準指標です。例には、[ページビュー数](/help/components/metrics/page-views.md)、[収益](/help/components/metrics/revenue.md)または[カスタムイベント](/help/components/metrics/custom-events.md)が含まれます。詳しくは、コンポーネントユーザーガイドの[指標の概要](/help/components/metrics/overview.md)を参照してください。
 
-* **計算指標**![&#x200B; 計算ツール &#x200B;](/help/assets/icons/Calculator.svg)：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/calculated-metrics/cm-overview.md)を参照してください。
+* **計算指標**![ 計算ツール ](/help/assets/icons/Calculator.svg)：標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標です。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/calculated-metrics/cm-overview.md)を参照してください。
 
 * **計算指標テンプレート**![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：計算指標と同様に動作するAdobe定義の指標です。 これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
 
-指標が承認されているかどうか ![&#x200B; 承認済みアイコン &#x200B;](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) を確認できます。 指標に関する詳細が必要な場合は、指標の上にマウスポインターを置いて、「![&#x200B; 情報アイコン &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」を選択します。 詳しくは、[&#x200B; コンポーネント情報 &#x200B;](use-components-in-workspace.md#component-info) を参照してください。
+指標が承認されているかどうか ![ 承認済みアイコン ](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) を確認できます。 指標に関する詳細が必要な場合は、指標の上にマウスポインターを置いて、「![ 情報アイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)」を選択します。 詳しくは、[ コンポーネント情報 ](use-components-in-workspace.md#component-info) を参照してください。
 
 
 ## Analysis Workspace での指標の使用
 
-指標は、Analysis Workspace 内で様々な方法で使用できます。 Analysis Workspaceに指標やその他のタイプのコンポーネントを追加する方法について詳しくは、[Analysis Workspaceでのコンポーネントの使用 &#x200B;](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) を参照してください。
+指標は、Analysis Workspace 内で様々な方法で使用できます。 Analysis Workspaceに指標やその他のタイプのコンポーネントを追加する方法について詳しくは、[Analysis Workspaceでのコンポーネントの使用 ](/help/analyze/analysis-workspace/components/use-components-in-workspace.md) を参照してください。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328566?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[Use metrics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 ### すべてのプロジェクトの計算指標を作成
 
-[&#x200B; 計算指標ビルダー &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) を使用して、[&#x200B; 計算指標を作成 &#x200B;](/help/components/calculated-metrics/workflow/cm-workflow.md) できます。 この方法で作成すると、計算指標をコンポーネントリストで使用したり、組織全体のプロジェクトで使用したりできます。
+[ 計算指標ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) を使用して、[ 計算指標を作成 ](/help/components/calculated-metrics/workflow/cm-workflow.md) できます。 この方法で作成すると、計算指標をコンポーネントリストで使用したり、組織全体のプロジェクトで使用したりできます。
 
 
 ### 単一プロジェクトの計算指標の作成
@@ -73,7 +73,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 1. 「**[!UICONTROL 選択から指標を作成]**」を選択します
 
-   ![&#x200B; 選択範囲から作成を強調表示したWorkspace パネル &#x200B;](assets/create-metric-from-selection.png)
+   ![ 選択範囲から作成を強調表示したWorkspace パネル ](assets/create-metric-from-selection.png)
 
 1. このプロジェクトにのみ計算指標を作成するには、使用可能なオプションから選択します。
 
@@ -101,7 +101,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
    * [!UICONTROL **変化率**]：選択した 2 つの列の間の変化率を示す新しい列を作成します。
 
-[&#x200B; 計算指標：実装なしの指標 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
+[ 計算指標：実装なしの指標 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
 
 
 ## 様々なアトリビューションモデルとの指標の比較
@@ -119,7 +119,7 @@ Analysis Workspaceに指標やその他のタイプのコンポーネントを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 累積平均 &#x200B;](https://video.tv.adobe.com/v/35215?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 累積平均 ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

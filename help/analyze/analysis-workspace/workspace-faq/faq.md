@@ -4,10 +4,10 @@ title: よくある質問
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 88%
 
 ---
 
@@ -29,12 +29,12 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 [複数のレポートスイート](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md)のデータを使用して、Analysis Workspace でプロジェクトを作成できるようになりました。
 +++
 
-+++Analysis Workspace はどのようにして実装しますか。
-特別な実装は必要ありません。Analysis Workspace は、Analytics Standard または Premium を使用しているすべての企業で利用できます。ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）のほか、プロジェクトのキュレーションおよび共有には標準アクセス権限が適用されます。詳しくは、 [管理およびアクセス要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md) を参照してください。
++++Analysis Workspaceの実装方法
+特別な実装は必要ありません。Analysis Workspaceは、Analytics Standard または Premium のすべての企業が利用できます。 ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）へのアクセスやプロジェクトのキュレーションおよび共有には、標準の権限が適用されます。 詳しくは、 [管理およびアクセス要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md) を参照してください。
 +++
 
-+++Data Warehouse で Analysis Workspace を使用できますか。
-Analysis Workspace は、一括データエクスポートにはお勧めしません。これは、ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。
++++Data WarehouseにAnalysis Workspaceを使用できますか？
+Analysis Workspaceは一括データ書き出しにはお勧めしません。 ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。
 +++
 
 +++Analysis Workspace のパフォーマンスを最適化するにはどうすればよいですか。
@@ -45,13 +45,13 @@ Analysis Workspace は、一括データエクスポートにはお勧めしま�
 
 +++データは Analysis Workspace プロジェクトにどのように取り込まれますか？
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://video.tv.adobe.com/v/34729?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace へのデータ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"}を参照してください。
 
 +++
 
 +++Workspace の使用状況を追跡するにはどうすればよいですか？
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ログトラッキング](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ログトラッキング](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"}を参照してください。
 
 +++
 

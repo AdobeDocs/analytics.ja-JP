@@ -5,10 +5,10 @@ title: フォールアウト分析でのセグメントの適用
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 37%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 42%
 
    ![](assets/fallout-createsegment.png)
 
-   セグメントビルダーが開き、選択したタッチポイントに合致する、事前に作成された順次セグメントで事前設定されます。
+   セグメントビルダーが開き、選択したタッチポイントに一致する事前定義済みの順次セグメントがあらかじめ入力されています。
 
    ![](assets/fallout-definesegment.png)
 
-1. セグメントにタイトルと説明を入力して、保存します。
+1. セグメントにタイトルと説明を入力して保存します。
 
    これで、希望する任意のプロジェクトでこのセグメントを使用できます。
 
@@ -52,14 +52,8 @@ ht-degree: 42%
 フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。 （以下のビデオでは、最大 3 つのセグメントを比較できますが、これは誤りです。）
 
 
->[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; フォールアウトビジュアライゼーションのセグメントの比較 &#x200B;](https://video.tv.adobe.com/v/328262?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
-
->[!ENDSHADEBOX]
-
-
-1. 比較するセグメントを左側の [!UICONTROL &#x200B; セグメント &#x200B;] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
+1. 比較するセグメントを左側の [!UICONTROL  セグメント ] パネルから選択します。 この例では、**[!UICONTROL iOSと]** Android **[!UICONTROL の 2 つのセグメントが選択されてい]** す。
 1. 3 つのセグメントをビジュアライゼーションの上部にあるセグメント ドロップゾーンにドラッグします。
 
    ![](assets/segment-compare.png)

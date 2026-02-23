@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 100%
+source-wordcount: '1461'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics のランディングページでは、[!DNL Analysis Workspace]
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://video.tv.adobe.com/v/346465/?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ Adobe Analytics のランディングページは、プロジェクト、テン�
 | 選択ボックス | 1 つまたは複数のプロジェクトを選択して、実行可能なプロジェクト管理アクションを表示します（**削除**、**共有**、**名前を変更**、**コピー**、**ピン留めを解除**、**上へ移動**、**下へ移動**、**タグ**、**承認**、**CSV を書き出し**&#x200B;および&#x200B;**移動**）。リストされたすべてのアクションを実行する権限がない可能性があります。 |
 | [!UICONTROL お気に入り] | フィルターとして使用できるお気に入りのプロジェクトまたはフォルダーの横に星を追加します。 |
 | [!UICONTROL 名前] | プロジェクトの名前を識別します。 |
-| ピンアイコン | 項目をピン留めすると、リストの上部に常に表示されますが、順番を植えまたは下に移動させることで順番を再調整できます。省略記号オプションメニューを使用して、リストの&#x200B;**上へ移動**&#x200B;または&#x200B;**下へ移動**&#x200B;を選択します。 |
+| ピンアイコン | 項目をピン留めすると、リストの上部に常に表示されますが、順序を上または下に移動させることで再調整できます。省略記号オプションメニューを使用して、リストの&#x200B;**上へ移動**&#x200B;または&#x200B;**下へ移動**&#x200B;を選択します。 |
 | 情報 (i) アイコン | プロジェクトに関する情報（タイプ、プロジェクトの役割、所有者、説明および共有相手）を表示します。また、このプロジェクトを[編集または複製](/help/analyze/analysis-workspace/curate-share/share-projects.md)できるユーザーも示します。 |
 | 省略記号（...） | 実行できるプロジェクト管理アクション（**削除**、**共有**、**名前を変更**、**コピー**、**ピン留めを解除**、**上へ移動**、**下へ移動**、**タグ**、**承認**、**CSV を書き出し**&#x200B;および&#x200B;**移動**）を表示します。リストされたすべてのアクションを実行する権限がない可能性があります。 |
 | 表示：フォルダーとプロジェクトまたはすべてのプロジェクト | テーブルの表示設定を変更して、フォルダー組織に従ってフォルダーおよびプロジェクトを表示するか、**または**&#x200B;未整理のリストのすべてのプロジェクトを表示します。 |

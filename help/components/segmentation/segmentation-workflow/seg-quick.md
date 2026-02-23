@@ -4,9 +4,9 @@ title: クイックセグメント
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1178'
 ht-degree: 21%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 21%
 # クイックセグメント
 
 
-クイックセグメントを使用すると、（セグメントビルダー [&#x200B; でセグメントを作成しなくても、Workspace プロジェクト内のデータをすばやく調査でき &#x200B;](seg-create.md) す。
+クイックセグメントを使用すると、（セグメントビルダー [ でセグメントを作成しなくても、Workspace プロジェクト内のデータをすばやく調査でき ](seg-create.md) す。
 
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のクイックセグメント](https://video.tv.adobe.com/v/345339/?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のクイックセグメント](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -38,17 +38,17 @@ ht-degree: 21%
 
 クイックセグメントを作成するには、次の手順に従います。
 
-* パネルの上部にある「![SegmentAdd](/help/assets/icons/FilterAdd.svg)」を選択します。 <br/> 次に、[&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) でセグメントを直接編集します。
-* コンポーネントパネルからパネルヘッダーのセグメントドロップゾーンにコンポーネントをドラッグします。 ドロップしたら、セグメントにポインタを合わせて「![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)」を選択し、「クイックセグメントビルダー [&#x200B; でセグメントを編集 &#x200B;](#quick-segment-builder) ます。
+* パネルの上部にある「![SegmentAdd](/help/assets/icons/FilterAdd.svg)」を選択します。 <br/> 次に、[ クイックセグメントビルダー ](#quick-segment-builder) でセグメントを直接編集します。
+* コンポーネントパネルからパネルヘッダーのセグメントドロップゾーンにコンポーネントをドラッグします。 ドロップしたら、セグメントにポインタを合わせて「![ 編集 ](/help/assets/icons/Edit.svg)」を選択し、「クイックセグメントビルダー [ でセグメントを編集 ](#quick-segment-builder) ます。
 
 ドラッグ&amp;ドロップを使用してクイックセグメントを作成する場合、次の点に注意してください。
 
 * すべてのコンポーネントタイプがサポートされているわけではありません。計算指標はサポートされておらず、セグメントを作成できるディメンションと指標のみがサポートされています。
-* ディメンションおよび指標コンポーネントの場合、[&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) は自動的に **[!UICONTROL exists]** 条件を作成します。 例えば、「市区町村 **[!UICONTROL をドラッグ&amp;ドロップすると、条件]**&#x200B;**[!UICONTROL 市区町村]**&#x200B;**[!UICONTROL exists]** が作成されます。
-* ディメンション値の場合、[&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) は自動的に **[!UICONTROL 次と等しい]** 条件を作成します。 例えば、**[!UICONTROL 市区町村]** ディメンション項目から **[!UICONTROL アムステルダム]** をドラッグ&amp;ドロップすると、条件 **[!UICONTROL 市区町村]** **[!UICONTROL 等しい]** `Amsterdam` が作成されます。
-* **[!UICONTROL 未指定]** または **[!UICONTROL なし]** をドラッグ&amp;ドロップすると、[&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) は自動的に **[!UICONTROL 存在しない]** 条件を作成します。
+* ディメンションおよび指標コンポーネントの場合、[ クイックセグメントビルダー ](#quick-segment-builder) は自動的に **[!UICONTROL exists]** 条件を作成します。 例えば、「市区町村 **[!UICONTROL をドラッグ&amp;ドロップすると、条件]****[!UICONTROL 市区町村]****[!UICONTROL exists]** が作成されます。
+* ディメンション値の場合、[ クイックセグメントビルダー ](#quick-segment-builder) は自動的に **[!UICONTROL 次と等しい]** 条件を作成します。 例えば、**[!UICONTROL 市区町村]** ディメンション項目から **[!UICONTROL アムステルダム]** をドラッグ&amp;ドロップすると、条件 **[!UICONTROL 市区町村]** **[!UICONTROL 等しい]** `Amsterdam` が作成されます。
+* **[!UICONTROL 未指定]** または **[!UICONTROL なし]** をドラッグ&amp;ドロップすると、[ クイックセグメントビルダー ](#quick-segment-builder) は自動的に **[!UICONTROL 存在しない]** 条件を作成します。
 
-作成したクイックセグメントは、パネルの上部に表示されます。 クイックセグメントには、薄い水色の左側のバーがあります。 [&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) を使用してクイックセグメントが編集モードになると、クイックセグメントの背景が明るい青になります。
+作成したクイックセグメントは、パネルの上部に表示されます。 クイックセグメントには、薄い水色の左側のバーがあります。 [ クイックセグメントビルダー ](#quick-segment-builder) を使用してクイックセグメントが編集モードになると、クイックセグメントの背景が明るい青になります。
 
 パネルで作成したクイックセグメントの結果が、パネルに含まれるすべてのビジュアライゼーションに（AND ロジックを使用して）適用されます。
 
@@ -57,8 +57,8 @@ ht-degree: 21%
 
 クイックセグメントを管理するには、特定の **[!UICONTROL クイックセグメント]** にポインタを合わせます。
 
-* ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg) を選択して [&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) を開き、クイックセグメントを編集します。
-* ![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択して、ポップアップを開きます。 ポップアップにセグメントに関する情報が表示されます。 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]**」を選択できます。セグメントをコンポーネントパネルの ![&#x200B; セグメント &#x200B;](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]** コンポーネントリストに追加するには、次の手順を実行します。 **[!UICONTROL クイックセグメントを保存]** ダイアログが表示され、セグメントの名前を指定するように求められます。 「**[!UICONTROL 保存]**」を選択して続行します。[!UICONTROL &#x200B; クイックセグメント &#x200B;] が **[!UICONTROL セグメント]** に変わります。 [&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) を使用してセグメントを編集することはできません。 代わりに、[&#x200B; セグメントビルダー &#x200B;](seg-build.md) を使用して、セグメントを通常のセグメントとして編集する必要があります。
+* ![ 編集 ](/help/assets/icons/Edit.svg) を選択して [ クイックセグメントビルダー ](#quick-segment-builder) を開き、クイックセグメントを編集します。
+* ![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択して、ポップアップを開きます。 ポップアップにセグメントに関する情報が表示されます。 「**[!UICONTROL すべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]**」を選択できます。セグメントをコンポーネントパネルの ![ セグメント ](/help/assets/icons/Segmentation.svg) **[!UICONTROL セグメント]** コンポーネントリストに追加するには、次の手順を実行します。 **[!UICONTROL クイックセグメントを保存]** ダイアログが表示され、セグメントの名前を指定するように求められます。 「**[!UICONTROL 保存]**」を選択して続行します。[!UICONTROL  クイックセグメント ] が **[!UICONTROL セグメント]** に変わります。 [ クイックセグメントビルダー ](#quick-segment-builder) を使用してセグメントを編集することはできません。 代わりに、[ セグメントビルダー ](seg-build.md) を使用して、セグメントを通常のセグメントとして編集する必要があります。
 
 ## クイックセグメントビルダー
 
@@ -75,9 +75,9 @@ ht-degree: 21%
 | 要素 | 説明 |
 |---|---|
 | **[!UICONTROL 名前]** | 名前は、クイックセグメント定義から自動的に派生します。 |
-| **[!UICONTROL 人物]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![アラート](/help/assets/icons/Alert.svg) | クイックセグメントから生成されたデータの視覚的なプレビュー。 棒グラフとパーセンテージは、全体的なデータがクイックセグメントの結果の一部である程度のinsightを提供します。 ![&#x200B; アラート &#x200B;](/help/assets/icons/AlertRed.svg) は、クイックセグメントがデータを返さないことを示します。 |
-| **[!UICONTROL 含む]**<br/>**[!UICONTROL 除外]** | ドロップダウン ![&#x200B; 山形ドロップダウン &#x200B;](/help/assets/icons/ChevronDown.svg) から、クイックセグメントの結果をパネルのデータに含めるか除外するかを選択します。 |
-| **[!UICONTROL イベント]**<br/>**[!UICONTROL セッション]**<br/>**[!UICONTROL ユーザー]** | クイックセグメントの範囲をドロップダウンメニュー ![&#x200B; 山形 &#x200B;](/help/assets/icons/ChevronDown.svg) から選択します。 |
+| **[!UICONTROL 人物]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![アラート](/help/assets/icons/Alert.svg) | クイックセグメントから生成されたデータの視覚的なプレビュー。 棒グラフとパーセンテージは、全体的なデータがクイックセグメントの結果の一部である程度のinsightを提供します。 ![ アラート ](/help/assets/icons/AlertRed.svg) は、クイックセグメントがデータを返さないことを示します。 |
+| **[!UICONTROL 含む]**<br/>**[!UICONTROL 除外]** | ドロップダウン ![ 山形ドロップダウン ](/help/assets/icons/ChevronDown.svg) から、クイックセグメントの結果をパネルのデータに含めるか除外するかを選択します。 |
+| **[!UICONTROL イベント]**<br/>**[!UICONTROL セッション]**<br/>**[!UICONTROL ユーザー]** | クイックセグメントの範囲をドロップダウンメニュー ![ 山形 ](/help/assets/icons/ChevronDown.svg) から選択します。 |
 
 ### 条件領域
 
@@ -85,7 +85,7 @@ ht-degree: 21%
 
 | 要素 | 説明 |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL &#x200B; 指標 &#x200B;]**<br/>**[!UICONTROL &#x200B; 日付範囲]** | ドロップダウンメニュー ![&#x200B; 山形ダウン &#x200B;](/help/assets/icons/ChevronDown.svg) から、ディメンション、指標、または日付範囲の条件を指定するかどうかを選択します。 |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL  指標 ]**<br/>**[!UICONTROL  日付範囲]** | ドロップダウンメニュー ![ 山形ダウン ](/help/assets/icons/ChevronDown.svg) から、ディメンション、指標、または日付範囲の条件を指定するかどうかを選択します。 |
 | **[!UICONTROL *コンポーネント&#x200B;*]** | 条件のコンポーネントフィールド。 コンポーネントを&#x200B;[!UICONTROL *入力して追加*]&#x200B;したり、リストからコンポーネントを選択したり、コンポーネントパネルからコンポーネントをドラッグ＆ドロップしたりすることができます。条件のコンポーネントフィールドにドロップできるのは、類似のコンポーネントのみです。例えば、ディメンション条件では、コンポーネントパネルからディメンションコンポーネントのみをドロップできます。<br/>また、既存のコンポーネントをドラッグ＆ドロップして置き換えることもできます。<br/>コンポーネントフィールドからコンポーネントを削除するには、![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択します。 |
 | **[!UICONTROL *演算子&#x200B;*]** | コンポーネントの演算子。詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。ディメンションと指標でのみ使用できます。 |
 | **[!UICONTROL *value *]** | 条件の値。選択した演算子に応じて、リストから値を選択するか、値を入力します。 |
@@ -95,10 +95,10 @@ ht-degree: 21%
 
 | ボタン | 説明 |
 |---|---|
-| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 複数の条件を定義した場合にのみ使用できます。条件の間で、ドロップダウンメニューから ![&#x200B; 山形ロップダウン &#x200B;](/help/assets/icons/ChevronDown.svg) を選択します。 選択によって、クイックセグメントのブール論理が決まります。 条件が 3 つある場合は、ロジックを混在させることはできません。ブール論理は **[!UICONTROL AND]** または **[!UICONTROL OR]** のいずれかです。 |
+| **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 複数の条件を定義した場合にのみ使用できます。条件の間で、ドロップダウンメニューから ![ 山形ロップダウン ](/help/assets/icons/ChevronDown.svg) を選択します。 選択によって、クイックセグメントのブール論理が決まります。 条件が 3 つある場合は、ロジックを混在させることはできません。ブール論理は **[!UICONTROL AND]** または **[!UICONTROL OR]** のいずれかです。 |
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | クイックセグメントに別の条件を追加します。 このボタンは、クイックセグメントに対して 1 つまたは 2 つの条件を定義した場合にのみ使用できます。 |
 | **[!UICONTROL 適用]** | クイックセグメントに変更を適用します。 |
-| **[!UICONTROL ビルダーを開く]** | 「**[!UICONTROL よろしいですか？」という確認メッセージが表示されます。]**&#x200B;ダイアログを開きます。「**[!UICONTROL OK]**」を選択すると、[&#x200B; クイックセグメントビルダー &#x200B;](#quick-segment-builder) でセグメントを変更できなくなります。クイックセグメントの名前は **[!UICONTROL セグメント]** に変更され、濃い青の薄い左側のバーが表示されます。<br/> 通常の [&#x200B; セグメントビルダー &#x200B;](seg-build.md)**[!UICONTROL が開き、「このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** というオプションが表示されます。 <ul><li>このオプションを選択して「**[!UICONTROL 適用]**」を選択すると、セグメントはコンポーネントパネルの ![&#x200B; セグメント &#x200B;](/help/assets/icons/Segmentation.svg)**[!UICONTROL セグメント]** コンポーネントリストに追加されます。</li><li>このオプションを選択せずに **[!UICONTROL 適用]** を選択すると、セグメントは、Workspace プロジェクトのみのセグメントのままになります。</li></ul> |
+| **[!UICONTROL ビルダーを開く]** | 「**[!UICONTROL よろしいですか？」という確認メッセージが表示されます。]**&#x200B;ダイアログを開きます。「**[!UICONTROL OK]**」を選択すると、[ クイックセグメントビルダー ](#quick-segment-builder) でセグメントを変更できなくなります。クイックセグメントの名前は **[!UICONTROL セグメント]** に変更され、濃い青の薄い左側のバーが表示されます。<br/> 通常の [ セグメントビルダー ](seg-build.md)**[!UICONTROL が開き、「このセグメントをすべてのプロジェクトで使用できるようにして、コンポーネントリストに追加する]** というオプションが表示されます。 <ul><li>このオプションを選択して「**[!UICONTROL 適用]**」を選択すると、セグメントはコンポーネントパネルの ![ セグメント ](/help/assets/icons/Segmentation.svg)**[!UICONTROL セグメント]** コンポーネントリストに追加されます。</li><li>このオプションを選択せずに **[!UICONTROL 適用]** を選択すると、セグメントは、Workspace プロジェクトのみのセグメントのままになります。</li></ul> |
 | **[!UICONTROL キャンセル]** | クイックセグメントの作成または編集をキャンセルする場合に選択します。 |
 
 ## クイックセグメントとセグメント
@@ -108,4 +108,4 @@ ht-degree: 21%
 セグメントには、クイックセグメントと比較して次の利点があります。
 
 * セグメントは、すべてのWorkspace プロジェクトで使用できます
-* セグメントは、ネストされた階層 [&#x200B; コンテナ &#x200B;](../seg-containers.md) およびシーケンス（[&#x200B; 順次セグメント &#x200B;](seg-sequential-build.md) を使用して、より複雑さをサポートします。
+* セグメントは、ネストされた階層 [ コンテナ ](../seg-containers.md) およびシーケンス（[ 順次セグメント ](seg-sequential-build.md) を使用して、より複雑さをサポートします。

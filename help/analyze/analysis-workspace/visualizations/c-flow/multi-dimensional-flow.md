@@ -5,9 +5,9 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '334'
 ht-degree: 96%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 96%
 
 ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
 
+<!-- 
+
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ディメンション間のフロー](https://video.tv.adobe.com/v/327472?quality=12&learn=on&captions=jpn){target="_blank"}を参照してください。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+-->
 
 この記事では、モバイルアプリのインタラクションおよびイベントと、キャンペーンで web 訪問を推進する方法という 2 つのユースケースに対して、このフローを使用する方法について説明します。
 

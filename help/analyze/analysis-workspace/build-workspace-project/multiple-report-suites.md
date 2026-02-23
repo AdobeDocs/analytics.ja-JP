@@ -4,9 +4,9 @@ description: 1 つのAnalysis Workspace プロジェクトで複数のレポー�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 複数のレポートスイート &#x200B;](https://video.tv.adobe.com/v/37010?quality=12&learn=on&captions=jpn){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 複数のレポートスイート ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. （任意）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
-   * セグメントの作成場所：[&#x200B; セグメントビルダー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md)。
-   * 計算指標が作成される場所：[&#x200B; 計算指標ビルダー &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
-   * アラートの作成場所：[&#x200B; アラートビルダー &#x200B;](/help/components/alerts/alert-builder.md)。
+   * セグメントの作成場所：[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+   * 計算指標が作成される場所：[ 計算指標ビルダー ](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
+   * アラートの作成場所：[ アラートビルダー ](/help/components/alerts/alert-builder.md)。

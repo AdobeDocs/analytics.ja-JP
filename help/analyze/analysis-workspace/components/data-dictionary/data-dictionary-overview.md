@@ -4,9 +4,9 @@ title: データ辞書の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 90%
 
 ---
@@ -31,7 +31,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のデータ辞書](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のデータ辞書](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +69,7 @@ Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
   同様に、レポートスイートのコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
 
-  コンポーネントの説明をAnalysis Workspaceまたはレポートスイートに追加する方法について詳しくは、[&#x200B; コンポーネントの説明の追加 &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md) を参照してください。
+  コンポーネントの説明をAnalysis Workspaceまたはレポートスイートに追加する方法について詳しくは、[ コンポーネントの説明の追加 ](/help/analyze/analysis-workspace/components/add-component-descriptions.md) を参照してください。
 
 ## データ辞書へのアクセス
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
