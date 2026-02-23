@@ -31,7 +31,7 @@ Analytics 管理者は、データ辞書の各コンポーネントに関する�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のデータ辞書](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}を参照してください。
+デモビデオについて詳しくは、 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のデータ辞書](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

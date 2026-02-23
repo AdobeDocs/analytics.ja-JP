@@ -47,7 +47,7 @@ ht-degree: 68%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントコンテナ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

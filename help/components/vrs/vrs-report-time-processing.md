@@ -43,7 +43,7 @@ Analytics のデータ処理中、データはデータ収集パイプライン�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; イベントで新しい訪問を開始 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; イベントで新しい訪問を開始 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 

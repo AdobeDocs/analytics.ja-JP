@@ -27,4 +27,4 @@ ht-degree: 99%
 
 Adobe Analytics での管理者の追加方法を説明する次のビデオデモをご覧ください。
 
-[Adobe Analytics での管理者の追加](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Adobe Analytics での管理者の追加](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

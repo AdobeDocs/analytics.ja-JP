@@ -30,7 +30,7 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントの公開 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントの公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -127,14 +127,14 @@ Analytics セグメントは、8 時間以内にExperience Cloudに公開でき�
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
 1. ページを読み込み、アプリケーション／Cookie を確認します。Adobe Audience Manager UUID は、サードパーティで設定する必要があります
-Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 フィールド demdex はAdobe Audience Managerの UUID セットです
+Demdex cookie （以下の例では [adobe.demdex.net](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/reference/demdex-calls)）。 フィールド demdex はAdobe Audience Managerの UUID セットです
 ブラウザーで（以下の例では `35721780439475290181087231320657663953`）。
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL &#x200B; 更新 &#x200B;]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL &#x200B; 訪問者プロファイルビューア &#x200B;] が読み込まれる際、デフォルトでは、ブラウザーのAdobe Audience Manager UUID が設定されます。 他のユーザーの特性適合を確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL &#x200B; 更新 &#x200B;]」をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
