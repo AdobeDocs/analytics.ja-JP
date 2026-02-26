@@ -156,14 +156,14 @@ ht-degree: 5%
 >id="classificationsets_schema_automate_locationaccount"
 >title="場所のアカウント"
 >abstract="分類データのインポートをサポートするアカウントタイプの場所アカウントのリスト。 **[!UICONTROL 新しいアカウント]** を選択して、新しい場所アカウントを作成します。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="クラウドのインポートおよびエクスポートアカウントの設定"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=ja" text="クラウドのインポートおよびエクスポートアカウントの設定"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="場所"
 >abstract="分類データのインポートをサポートする、選択した場所アカウントでの場所のリスト。 **[!UICONTROL 新しい場所]** を選択して、新しい場所を作成します。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="クラウドの読み込み場所と書き出し場所の設定"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=ja" text="クラウドの読み込み場所と書き出し場所の設定"
 
 クラウドアカウントとクラウドの場所を設定および使用することで、分類データの取り込みを自動化できます。
 
