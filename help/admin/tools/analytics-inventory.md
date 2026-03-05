@@ -112,7 +112,7 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
    | 発生件数 (過去 90 日間) | 「発生件数」指標は、特定のディメンションが設定または持続されたヒット数を示します。過去 90 日間にこのレポートスイートが受け取ったヒット数 |
    | 指標 | このレポートスイートで定義されている指標の数 |
    | ディメンション | このレポートスイートで定義されているディメンションの数 |
-   | Analytics for Target (A4T) は有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) に対して有効になっていますか？ |
+   | Analytics for Target (A4T) は有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [Analytics for Target](https://experienceleague.adobe.com/ja/docs/target/using/integrate/a4t/a4t) に対して有効になっていますか？ |
    | マーケティングチャネルは有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [&#x200B; マーケティングチャネル &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) に対して有効になっていますか？ |
    | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
    | カレンダータイプ | [ デフォルトでは非表示 ] 詳細については、「[&#x200B; カスタムカレンダー &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)」を参照してください |

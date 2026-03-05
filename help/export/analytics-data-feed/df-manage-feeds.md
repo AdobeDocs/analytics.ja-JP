@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィード管理 &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィード管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
