@@ -28,7 +28,7 @@ ht-degree: 93%
 * **D**。Workspace プロジェクトで、メニューから「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL 注釈を作成]**」を選択します。
 * **E**。Workspace プロジェクトで、ショートカット **[!UICONTROL Ctrl + Shift + O キー]**（Windows）または **[!UICONTROL Shift + Command + O キー]**（macOS）を使用します。
 
-注釈を定義するには、[[!UICONTROL &#x200B; 注釈ビルダー &#x200B;]](#annotation-builder) を使用します。
+注釈を定義するには、[[!UICONTROL  注釈ビルダー ]](#annotation-builder) を使用します。
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 93%
 
    | 要素 | 説明 |
    | --- | --- |
-   | **[!UICONTROL レポートスイート]** | 注釈に使用するレポートスイートを選択できます。 定義した注釈は、選択したレポートスイートに基づいて、Workspace プロジェクトで注釈として使用できます。 この選択は、「すべてのレポートスイートに適用 [!UICONTROL &#x200B; を有効にしたときに無効 &#x200B;] なります。 |
+   | **[!UICONTROL レポートスイート]** | 注釈に使用するレポートスイートを選択できます。 定義した注釈は、選択したレポートスイートに基づいて、Workspace プロジェクトで注釈として使用できます。 この選択は、「すべてのレポートスイートに適用 [!UICONTROL  を有効にしたときに無効 ] なります。 |
    | **[!UICONTROL プロジェクトのみの注釈]** | 作成する注釈が作業中の Workspace プロジェクトにのみ表示されることを説明する情報ボックス。「**[!UICONTROL この注釈をすべてのプロジェクトで使用できるようにする]**」を有効にして、注釈をすべてのプロジェクトで表示します。この情報ボックスは、Workspace プロジェクト内から注釈を作成する場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | 注釈に名前を付けます（例：`Needs further investigation`）。 |
    | **[!UICONTROL 説明]** | 注釈に説明を付けます（例：`We never expected such a fluctuation in numbers.`）。 |
