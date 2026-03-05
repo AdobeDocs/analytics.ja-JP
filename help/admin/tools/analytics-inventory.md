@@ -50,7 +50,7 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 1. メイン画面には、Adobe Analytics環境の包括的なインベントリが表示されます。
 
-   ![ メインインベントリ画面 ](assets/an_inventory.png)
+   ![&#x200B; メインインベントリ画面 &#x200B;](assets/an_inventory.png)
 
    特に、この画面には次の内容が表示されます。
 
@@ -103,7 +103,7 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 1. レポートスイートを分析するには、**[!UICONTROL データ設定と収集]**/**[!UICONTROL レポートスイート]** に移動し、「**[!UICONTROL 分析]**」をクリックします。
 
-   ![ レポートスイートのリスト ](assets/an_inv_rs.png)
+   ![&#x200B; レポートスイートのリスト &#x200B;](assets/an_inv_rs.png)
 
    | 要素 | 説明 |
    | --- | --- |
@@ -113,9 +113,9 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
    | 指標 | このレポートスイートで定義されている指標の数 |
    | ディメンション | このレポートスイートで定義されているディメンションの数 |
    | Analytics for Target (A4T) は有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) に対して有効になっていますか？ |
-   | マーケティングチャネルは有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [ マーケティングチャネル ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) に対して有効になっていますか？ |
+   | マーケティングチャネルは有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [&#x200B; マーケティングチャネル &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) に対して有効になっていますか？ |
    | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
-   | カレンダータイプ | [ デフォルトでは非表示 ] 詳細については、「[ カスタムカレンダー ](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)」を参照してください |
+   | カレンダータイプ | [ デフォルトでは非表示 ] 詳細については、「[&#x200B; カスタムカレンダー &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)」を参照してください |
 
 #### ディメンションの分析
 
@@ -192,7 +192,7 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 ## コンポーネントの移行
 
-[ コンポーネントの移行 ](/help/admin/tools/component-migration/component-migration.md) を使用して、Adobe Analytics管理者は、Analytics プロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+[&#x200B; コンポーネントの移行 &#x200B;](/help/admin/tools/component-migration/component-migration.md) を使用して、Adobe Analytics管理者は、Analytics プロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
 
 移行プロセスには、次が含まれます。
 
