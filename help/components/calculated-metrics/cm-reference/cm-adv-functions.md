@@ -4,10 +4,10 @@ description: 高度な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
+source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
 workflow-type: tm+mt
-source-wordcount: '4807'
-ht-degree: 98%
+source-wordcount: '4799'
+ht-degree: 97%
 
 ---
 
@@ -433,14 +433,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指数回帰：相関係数"
->abstract="指数回帰：Y = a exp(X) + b。相関係数を返します。"
+>abstract="指数回帰：Y = b * exp （aX）。 相関係数を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE テーブル]{type="Neutral"} 指数回帰：Y = a exp(X) + b。相関係数を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 相関係数を返します。
 
 
 | 引数 | 説明 |
@@ -456,14 +456,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指数回帰：予測 Y"
->abstract="指数回帰：Y = a exp(X) + b。Y を返します。"
+>abstract="指数回帰：Y = b * exp （aX）。 Y を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE 行]{type="Neutral"} 指数回帰：Y = a exp(X) + b。Y を返します。
+[!BADGE Row]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 Y を返します。
 
 
 | 引数 | 説明 |
@@ -480,14 +480,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指数回帰：切片"
->abstract="指数回帰：Y = a exp(X) + b。b を返します。"
+>abstract="指数回帰：Y = b * exp （aX）。 b を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE テーブル]{type="Neutral"} 指数回帰：Y = a exp(X) + b。b を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -503,14 +503,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指数回帰：傾き"
->abstract="指数回帰：Y = a exp(X) + b。a を返します。"
+>abstract="指数回帰：Y = b * exp （aX）。 a を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE テーブル]{type="Neutral"} 指数回帰：Y = a exp(X) + b。a を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 a を返します。
 
 
 | 引数 | 説明 |
