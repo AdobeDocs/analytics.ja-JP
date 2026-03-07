@@ -440,7 +440,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 相関係数を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 相関係数を返します。
 
 
 | 引数 | 説明 |
@@ -487,7 +487,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 b を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -510,7 +510,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 a を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 a を返します。
 
 
 | 引数 | 説明 |
