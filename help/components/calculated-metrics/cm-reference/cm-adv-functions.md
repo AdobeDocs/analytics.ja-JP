@@ -4,7 +4,7 @@ description: 高度な計算指標関数について説明します。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
 ht-degree: 97%
@@ -228,7 +228,8 @@ CDF-Z(-3) ? 0.0013499
 | metric | 丸める指標です |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -249,7 +250,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -397,7 +397,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!NOTE]
 >
 >この関数は、ユーザーごとの売上高などのレート指標では機能しません。この関数は、最後の N の売上高を合計し、最後の N のユーザーを合計して除算するのではなく、レートを平均します。<br/>代わりに、[**[!UICONTROL CUMULATIVE(revenue)]**](#cumulative) ![除算](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIVE(person)]**](#cumulative) を使用します。
->
 
 
 ## 等号 {#equal}
@@ -440,7 +439,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 相関係数を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 相関係数を返します。
 
 
 | 引数 | 説明 |
@@ -487,7 +486,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 b を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -510,7 +509,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE &#x200B; 表 &#x200B;]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 a を返します。
+[!BADGE  表 ]{type="Neutral"} 指数回帰：Y = b * exp （aX）。 a を返します。
 
 
 | 引数 | 説明 |
@@ -728,7 +727,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 

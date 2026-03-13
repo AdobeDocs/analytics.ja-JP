@@ -4,7 +4,7 @@ title: グローバルレポートスイート
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -31,9 +31,10 @@ ht-degree: 95%
 
   仮想レポートスイートを使用するには、グローバルレポートスイートを実装してからデータを解析し、特定のセグメントが適用され、特定のグループ権限を持つ仮想レポートスイートを作成します。仮想レポートスイートは、仮想レポートスイートマネージャー（[!UICONTROL コンポーネント]／[!UICONTROL 仮想レポートスイート]）で作成できます。詳しくは、[仮想レポートスイートのワークフロー](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)を参照してください。
 
-マルチスイートタグ付けの代わりに仮想レポートスイートを使用することは、多くの場合、ベストプラクティスですが、仮想レポートスイートにはいくつかの制限があります。ビジネスニーズに最適なレポートスイートのアプローチを決定するには、[仮想レポートスイートとマルチスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。仮想レポートスイートとマルチスイートタグ付け機能の詳細な比較については、[&#x200B; 仮想レポートスイートとマルチスイートタグ付けの比較 &#x200B;](/help/components/vrs/vrs-about.md) を参照してください。
+マルチスイートタグ付けの代わりに仮想レポートスイートを使用することは、多くの場合、ベストプラクティスですが、仮想レポートスイートにはいくつかの制限があります。ビジネスニーズに最適なレポートスイートのアプローチを決定するには、[仮想レポートスイートとマルチスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。仮想レポートスイートとマルチスイートタグ付け機能の詳細な比較については、[ 仮想レポートスイートとマルチスイートタグ付けの比較 ](/help/components/vrs/vrs-about.md) を参照してください。
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -73,4 +74,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->

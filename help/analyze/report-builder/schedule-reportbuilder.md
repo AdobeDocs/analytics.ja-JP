@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: cbf448d668df0fc7795b3b5f385bd3d362dc492e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 26%
@@ -17,7 +17,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->この節で説明するように、メールで共有するワークブックのスケジュールを設定する以外に、[&#x200B; クラウド宛先への書き出しのワークブックのスケジュール設定 &#x200B;](/help/analyze/report-builder/report-builder-export.md) で説明するように、クラウド宛先に書き出すワークブックのスケジュールを設定できます。
+>この節で説明するように、メールで共有するワークブックのスケジュールを設定する以外に、[ クラウド宛先への書き出しのワークブックのスケジュール設定 ](/help/analyze/report-builder/report-builder-export.md) で説明するように、クラウド宛先に書き出すワークブックのスケジュールを設定できます。
 
 ワークブックを保存して分析を完了した後、スケジュール機能を使用してチームの他のユーザーとワークブックを簡単に共有できます。スケジュール機能を使用すると、ワークブック内のデータを自動的に更新するスケジュールを作成し、指定した日時、指定したオーディエンスに Excel ワークブックの.xlsx ファイルをメールの添付ファイルとして送信できます。スケジュールを設定すると、受信者には、自動的かつ定期的にアップデートが送られます。また、スケジュール機能を使用して、自動更新のスケジュールを設定せずに、ワークブックを 1 回送信することもできます。
 
@@ -28,7 +28,7 @@ ht-degree: 26%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ワークブックのスケジュール &#x200B;](https://video.tv.adobe.com/v/3417506?captions=jpn&quality=12&learn=on){target="_blank"} を参照してください。
+デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ ワークブックのスケジュール ](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -39,11 +39,11 @@ ht-degree: 26%
 
 1. Report Builderハブで「**[!UICONTROL スケジュール]**」を選択してスケジュールを作成し、Excel ファイル（.xlsx）を個人またはグループに自動的に配布できるようにします。
 
-   ![&#x200B; 「スケジュール」ボタンを選択して、スケジュールを作成します。](./assets/schedule.png){zoomable="yes"}
+   ![ 「スケジュール」ボタンを選択して、スケジュールを作成します。](./assets/schedule.png){zoomable="yes"}
 
-1. **[!UICONTROL ワークブックのスケジュール]** または ![&#x200B; 追加 &#x200B;](/help/assets/icons/Add.svg) を選択して、新しいスケジュールワークブックを作成します。
+1. **[!UICONTROL ワークブックのスケジュール]** または ![ 追加 ](/help/assets/icons/Add.svg) を選択して、新しいスケジュールワークブックを作成します。
 
-   ![&#x200B; ワークブックスケジュールウィンドウ。](./assets/schedule-workbook.png){zoomable="yes"}
+   ![ ワークブックスケジュールウィンドウ。](./assets/schedule-workbook.png){zoomable="yes"}
 
    スケジュールウィンドウには、ブック名やブックの最終変更日など、ブックに関する事前定義済みの情報が表示されます。
 
@@ -51,7 +51,7 @@ ht-degree: 26%
 
 「**[!UICONTROL ファイル]**」セクションでは、ファイルの種類、名前、およびファイルを保護するためのパスワードの詳細を指定します。
 
-![&#x200B; スケジュールペイン。](./assets/schedule-pane.png){zoomable="yes"}
+![ スケジュールペイン。](./assets/schedule-pane.png){zoomable="yes"}
 
 1. 現在のブックがまだ選択されていない場合は、![TableSelect](/help/assets/icons/TableSelect.svg) を使用して選択します。
 
@@ -74,7 +74,8 @@ ht-degree: 26%
    * **[!UICONTROL ISO 日付形式]**：ファイル名に `YYYY-MM-DD` が追加されます。
    * **[!UICONTROL ISO 日付形式+ タイムスタンプ]**：ファイル名に `YYYY-MM-DD_HH-MM-SS` が追加されます。
 
-<!-- Does no longer seem to be an option? 
+<!--
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
@@ -89,7 +90,7 @@ ht-degree: 26%
 
 「**[!UICONTROL メール]**」セクションで、メールの受信者、件名、説明を指定します。
 
-![&#x200B; スケジュールのメール設定 &#x200B;](assets/schedule-email.png){zoomable="yes"}
+![ スケジュールのメール設定 ](assets/schedule-email.png){zoomable="yes"}
 
 1. **受信者**&#x200B;を入力します。組織で認識されるユーザーの名前を入力できます。 または、組織外の人物のメールアドレスを入力できます。
 
@@ -102,13 +103,13 @@ ht-degree: 26%
 
 「**[!UICONTROL スケジュール]**」セクションでは、ワークブックと共にメールを受信者に送信するスケジュールを定義できます。
 
-![&#x200B; スケジュールの定義 &#x200B;](assets/schedule-enable.png){zoomable="yes"}
+![ スケジュールの定義 ](assets/schedule-enable.png){zoomable="yes"}
 
 1. **[!UICONTROL スケジュールオプションを表示]** を選択して、スケジュールを定義します。
 
-1. 開始日を **[!UICONTROL 開始日]** に入力します。 または、「![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから開始日を選択します。
+1. 開始日を **[!UICONTROL 開始日]** に入力します。 または、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから開始日を選択します。
 
-1. 終了日を **[!UICONTROL 終了日]** に入力します。 または、「![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから終了日を選択します。
+1. 終了日を **[!UICONTROL 終了日]** に入力します。 または、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから終了日を選択します。
 
 1. **[!UICONTROL 頻度]** を選択します。 選択した頻度に応じて、追加のオプションがあります。 次の表を参照してください。
 
@@ -135,5 +136,5 @@ ht-degree: 26%
 
 ## 従来のスケジュール済みワークブックの管理
 
-既にスケジュールされたレガシーワークブックの管理については、「[&#x200B; スケジュールされたワークブックの変換 &#x200B;](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook)」を参照してください。
+既にスケジュールされたレガシーワークブックの管理については、「[ スケジュールされたワークブックの変換 ](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook)」を参照してください。
 

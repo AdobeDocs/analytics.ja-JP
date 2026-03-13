@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: プロジェクトの削除
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 7%
@@ -14,11 +14,12 @@ ht-degree: 7%
 # プロジェクトを削除
 
 
-Analysis Workspaceからプロジェクトを削除する方法については、[&#x200B; プロジェクトの管理のアクション &#x200B;](../freeform-overview.md#actions) を参照してください。
+Analysis Workspaceからプロジェクトを削除する方法については、[ プロジェクトの管理のアクション ](../freeform-overview.md#actions) を参照してください。
 
 
 
-<!-- Is this article still needed; not in the TOC anymore
+<!--
+Is this article still needed; not in the TOC anymore
 
 
 # Delete projects
