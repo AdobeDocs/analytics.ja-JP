@@ -37,15 +37,15 @@ ht-degree: 5%
 
    * アイコンにカーソルを合わせると、スケジュールされたブックのステータスが表示されます。
 
-   * 検索フィールド ![ 検索 ](/help/assets/icons/Search.svg) で、スケジュールされた特定のワークブックを検索します。
+   * 検索フィールド ![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg) で、スケジュールされた特定のワークブックを検索します。
 
    * 列アイコン ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を選択して、表示する列を定義します。
 
-   * フィルターアイコン ![ フィルターアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) を選択し、「[!UICONTROL **すべて表示**] を選択して、特定の組織でスケジュールされたすべてのワークブックを表示します。
+   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) を選択し、「[!UICONTROL **すべて表示**] を選択して、特定の組織でスケジュールされたすべてのワークブックを表示します。
 
 1. 1 つ以上のワークブックを選択します。
 
-   ![ 選択したワークブックのスケジュール ](assets/scheduled-workbooks-selected.png){zoomable="yes"}
+   ![&#x200B; 選択したワークブックのスケジュール &#x200B;](assets/scheduled-workbooks-selected.png){zoomable="yes"}
 
    次のオプションがあります。
 
@@ -54,7 +54,7 @@ ht-degree: 5%
    | ![編集](/help/assets/icons/Edit.svg) | 選択したブックのスケジュールを編集します。 |
    | ![履歴](/help/assets/icons/History.svg) | 選択したワークブックの履歴を表示します。 |
    | ![一時停止](/help/assets/icons/Pause.svg) | 選択したワークブックのスケジュールを一時停止します。 |
-   | ![ 再生 ](/help/assets/icons/Play.svg) | 選択したワークブックのスケジュールを再開します。 |
+   | ![&#x200B; 再生 &#x200B;](/help/assets/icons/Play.svg) | 選択したワークブックのスケジュールを再開します。 |
    | ![ダウンロード](/help/assets/icons/Download.svg) | 選択したブックを新しいブックにダウンロードします。 |
    | ![削除](/help/assets/icons/Delete.svg) | 選択したブックのスケジュールを削除します。 |
 
@@ -67,9 +67,9 @@ ht-degree: 5%
 
 1. 「**[!UICONTROL 履歴]**」タブを選択します。 スケジュールされたすべてのワークブックのリストが表示されます。
 
-   ![ スケジュール済み履歴 ](assets/scheduled-workbooks-history.png){zoomable="yes"}
+   ![&#x200B; スケジュール済み履歴 &#x200B;](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
-   リスト内の特定のワークブックを検索するには、![ 検索 ](/help/assets/icons/Search.svg) を使用します。
+   リスト内の特定のワークブックを検索するには、![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg) を使用します。
 表示する列を定義するには、![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を使用します。
 
    **[!UICONTROL 履歴]** タブでは、スケジュールされた各タスクのステータスを確認できます。 個別の行に、スケジュールされた各タスクのステータス変更が記載されます。
