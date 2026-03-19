@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising指標
 
-これらの指標は、「[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 統合を有効にすると自動的に作成されます。 詳しくは、Adobe Advertising ドキュメントの [Analysis Workspaceの ](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)Adobe Advertising指標」を参照してください。
+これらの指標は、「[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 統合を有効にすると自動的に作成されます。 詳しくは、Adobe Advertising ドキュメントの [Analysis Workspaceの &#x200B;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)Adobe Advertising指標」を参照してください。
 
 | 指標 | 説明 |
 | --- | --- |
