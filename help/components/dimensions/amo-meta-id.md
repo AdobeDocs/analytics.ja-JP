@@ -11,7 +11,7 @@ ht-degree: 10%
 
 # AMO Meta 広告クリック ID
 
-**[!UICONTROL AMO Meta広告クリック ID]** は、Adobe Advertising統合で使用される広告クリック識別子です。 [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) 統合を有効にすると、ディメンションが自動的に作成されます。 主に、人間が読み取れるレポートディメンションではなく、生のトラッキング識別子として役立ちます。
+**[!UICONTROL AMO Meta広告クリック ID]** は、Adobe Advertising統合で使用される広告クリック識別子です。 [Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview) 統合を有効にすると、ディメンションが自動的に作成されます。 主に、人間が読み取れるレポートディメンションではなく、生のトラッキング識別子として役立ちます。
 
 ## このディメンションへのデータ入力
 
