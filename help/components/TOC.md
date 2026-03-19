@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
    + [Activity Map 地域](dimensions/activity-map-region.md)
    + [広告プラットフォームの同意](dimensions/ad-consent.md)
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
+   + [AMO ID](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO Meta 広告クリック ID](dimensions/amo-meta-id.md)
    + [午前／午後](dimensions/am-pm.md)
    + [ボット名](dimensions/bot-name.md)
    + [ブラウザーの高さ](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 99%
    + [郵便番号](dimensions/zip-code.md)
 + 指標 {#metrics}
    + [指標の概要](metrics/overview.md)
-   + [繰り返しインスタンスのカウント](metrics/count-repeat-instances.md)
+   + [Advertising指標](metrics/amo-metrics.md)
    + [平均ページの深度](metrics/average-page-depth.md)
    + [平均訪問別ページビュー数](metrics/average-page-views-per-visit.md)
    + [セッションの平均長さ](metrics/average-session-length.md)
