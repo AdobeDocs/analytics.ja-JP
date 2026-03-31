@@ -34,7 +34,7 @@ ht-degree: 97%
 | 地域および技術レポートの使用に関する情報を追加しました | 様々なAnalytics製品[の記事で、地域および技術レポート &#x200B;](/help/analyze/get-started/analytics-product-comparison.md)を使用する際の違いに関する情報を追加しました。 |
 | **2026年1月** | |
 | 分類セットのルールビルダー | 分類セット [機能の新しい](/help/components/classifications/sets/manage/rules.md) ルールビルダー機能に関するドキュメント。 |
-| デバイスグラフ | [廃止されたデバイスグラフ機能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)への参照を削除しました。 |
+| デバイスグラフ | [廃止されたデバイスグラフ機能](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph)への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
