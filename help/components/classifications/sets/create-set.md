@@ -41,7 +41,7 @@ ht-degree: 73%
 
    * 「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択して、**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;の組み合わせを削除します。
 
-   別の分類セットに既に存在する&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーDimension]**の組み合わせを追加すると、赤い色のメッセージが表示されます。
+   別の分類セットに既に存在する&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーDimension]**&#x200B;の組み合わせを追加すると、赤い色のメッセージが表示されます。
 次の対応ができます。
    * 「**[!UICONTROL 既存に追加]**」を選択して他の分類セットを開き、その他の分類セットの[スキーマに分類を追加](manage/schema.md)します。
    * **[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;を、既に別の分類セットに登録されていない組み合わせに変更します。
@@ -57,5 +57,5 @@ ht-degree: 73%
 1. Adobe Analytics の上部メニューバーで「**[!UICONTROL コンポーネント]**」、「**[!UICONTROL 分類セット]**」の順に選択します。
 1. 「**[!UICONTROL 分類セット]**」で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. 分類セットの名前を選択します。
-1. **[!UICONTROL 分類セット：_分類セット名_]**ダイアログで、分類セットの[設定](manage/settings.md)と[スキーマ](manage/schema.md)を定義できます。
+1. **[!UICONTROL 分類セット：_分類セット名_]**&#x200B;ダイアログで、分類セットの[設定](manage/settings.md)と[スキーマ](manage/schema.md)を定義できます。
 1. 完了したら、「**[!UICONTROL 保存]**」を選択して変更を保存します。「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。

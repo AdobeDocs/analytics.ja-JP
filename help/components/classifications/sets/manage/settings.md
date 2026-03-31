@@ -19,7 +19,7 @@ ht-degree: 17%
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. **[!UICONTROL 分類セット]** マネージャーで、スキーマを編集する分類セットを選択します。
-1. **[!UICONTROL 分類セット : _分類セット_]**ダイアログで、「**[!UICONTROL 設定]**」タブを選択して設定を編集します。
+1. **[!UICONTROL 分類セット : _分類セット_]**&#x200B;ダイアログで、「**[!UICONTROL 設定]**」タブを選択して設定を編集します。
 
    ![分類セット – 設定](assets/classification-sets-settings.png)
 
