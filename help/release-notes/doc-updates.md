@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
 workflow-type: tm+mt
-source-wordcount: '6679'
+source-wordcount: '6700'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* [!UICONTROL Customer Journey Analytics&rbrace; について詳しくは &#x200B;]2&rbrace;Customer Journey Analytics[&#x200B; を参照してください。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)
+* [!UICONTROL Customer Journey Analytics]について詳しくは、[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)を参照してください。
 * ストリーミングメディアサービスについて詳しくは、[Analytics でのオーディオとビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## ドキュメントの主な更新の詳細
@@ -26,14 +26,15 @@ ht-degree: 97%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年3月** | |
-| 新しいレポートスイートの IP の不明化に対するデフォルトオプションを特定しました | **IP アドレスの削除** が新しいレポートスイートのデフォルトの [IP 不明化オプション &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) であることを示す情報を追加しました。 |
-| 処理順序の全面見直し | [Adobe Analyticsでの処理順序 &#x200B;](/help/technotes/processing-order.md) が大幅に改善されました。 |
-| Adobe Advertisingの統合 | [AMO ID](/help/components/dimensions/amo-id.md) など、Adobe Advertising統合のディメンションと指標の追加。 |
+| パネルの分割 | 新しい[分類](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)機能をサポートするために、パネル [の](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel) ドロップゾーンに関するドキュメントを再構築しました。 |
+| 新しいレポートスイートのIP難読化のデフォルトオプションを特定しました | **IP アドレスを削除**&#x200B;が、新しいレポートスイート [のデフォルトの](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)IP難読化オプションであることを示す情報を追加しました。 |
+| 処理順序の見直し | Adobe Analyticsでの[処理順序](/help/technotes/processing-order.md)の大幅な改善。 |
+| Adobe Advertisingとの連携 | [AMO ID](/help/components/dimensions/amo-id.md)を含む、Adobe Advertising統合ディメンションと指標の追加。 |
 | **2026年2月** |  |
-| 地域および技術レポートの使用に関する情報を追加しました | [&#x200B; 様々な Analytics 製品をまたいだ）地域レポートと技術レポートを使用する場合の違いに関する情報を追加し &#x200B;](/help/analyze/get-started/analytics-product-comparison.md) した。 |
+| 地域および技術レポートの使用に関する情報を追加しました | 様々なAnalytics製品[の記事で、地域および技術レポート ](/help/analyze/get-started/analytics-product-comparison.md)を使用する際の違いに関する情報を追加しました。 |
 | **2026年1月** | |
-| 分類セットルールビルダー | [&#x200B; 分類セットのルールビルダー機能 &#x200B;](/help/components/classifications/sets/manage/rules.md) の新機能に関するドキュメント。 |
-| デバイスグラフ | [&#x200B; 廃止されたデバイスグラフ機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph) への参照を削除しました。 |
+| 分類セットのルールビルダー | 分類セット [機能の新しい](/help/components/classifications/sets/manage/rules.md) ルールビルダー機能に関するドキュメント。 |
+| デバイスグラフ | [廃止されたデバイスグラフ機能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
@@ -41,7 +42,7 @@ ht-degree: 97%
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 対話型 AI ツールにデータ列 ID を追加しました | 対話型 AI ツールの [&#x200B; データ列参照 ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) を ref_type 列に追加しました。 |
+| 会話型AI ツールのデータ列IDを追加しました | ref_type列に会話型AI ツールの[ データ列参照ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
@@ -65,7 +66,7 @@ ht-degree: 97%
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/tools/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
-| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[&#x200B; ページ変数 &#x200B;](/help/implement/vars/page-vars/transactionid.md) および [&#x200B; データソース &#x200B;](/help/import/data-sources/transactionid.md) を参照してください。 |
+| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。[ ページ変数](/help/implement/vars/page-vars/transactionid.md)および[ データソース ](/help/import/data-sources/transactionid.md)を参照してください。 |
 | Livestream API - クライアント実装 | Livestream データを使用するには、[Livestream クライアント実装](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)を使用します。 |
 | Classifications API の更新 | [サーバーから個々の分類フィールドまたはキーを削除](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)できるようになりました。これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。 |
 | **2025年1月** |  |
@@ -250,7 +251,7 @@ ht-degree: 97%
 | 2021年8月18日 | トップレベルの構造を改訂し、1 つの [ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja) に統合しました。 |
 | 2021年8月18日 | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
 | 2021年8月18日 | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md) に関する新しいトピック |
-| 2021年8月5日 | 繰り返しインスタンスのカウントに関する新しいトピック。 |
+| 2021年8月5日 | 新しいトピック : リピートインスタンス数。 |
 | 2021年8月5日 | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](/help/components/classifications/importer/c-download-saint-data.md)、[ブラウザーインポート](/help/components/classifications/importer/browser-import.md) および [ブラウザーエクスポート](/help/components/classifications/importer/browser-export.md) に関する分類ドキュメントを更新しました。 |
 | 2021年8月2日 | [Adobe Experience Platform Launch](/help/implement/launch/overview.md) のリブランディングを反映するように複数のページを更新しました |
 | **2021年7月** |  |
@@ -258,7 +259,7 @@ ht-degree: 97%
 | 2021年7月15日 | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を更新しました |
-| 2021年6月3日 | [&#x200B; データフィードの実装 &#x200B;](/help/export/analytics-data-feed/create-feed.md) と [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl) について詳しく説明するためのドキュメントを更新しました。 |
+| 2021年6月3日 | ドキュメントを更新して、[ データフィード実装](/help/export/analytics-data-feed/create-feed.md)と[BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl)の説明を改善しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](/help/components/dimensions/evar.md)に関するドキュメントを更新しました。 |
 | 2021年5月13日 | [Data Warehouse API リクエスト](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)を更新しました。「Hours」をサポートするようになりました。 |
 | **2021年3月** | |

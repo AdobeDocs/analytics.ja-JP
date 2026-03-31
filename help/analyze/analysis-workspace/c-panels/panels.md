@@ -1,13 +1,13 @@
 ---
-description: パネルと Analysis Workspace でのパネルの使用方法について説明します。
-title: パネルの概要
+description: Analysis Workspaceのパネルを使用してレポートを整理し、データのフィルタリングや分類をおこない、データ範囲を定義する方法について説明します。
+title: Analysis Workspaceのパネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 99%
+source-wordcount: '2729'
+ht-degree: 42%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 99%
 | [次または前の項目](next-previous.md) | ユーザーが移動する次のページまたは前のページを表示します。 |
 | [クイックインサイト](quickinsight.md) | フリーフォームテーブルとそれに伴うビジュアライゼーションを素早く作成し、インサイトを迅速に分析して取得します。 |
 | [ページの概要](page-summary.md) | 特定のページに関する主要な統計を探索します。 |
-| [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | すべてのデータポイントで 2 つのセグメントをすばやく比較して、関連する相違点を自動的に見つけます。 |
+| [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い差異を自動的に見つけます。 |
 
 
 分析を開始するには、[!UICONTROL クイックインサイト]パネル、[!UICONTROL 空白]パネル、[!UICONTROL フリーフォーム]パネルが最適です。一方、[!UICONTROL アトリビューション]は、より高度な分析に適しています。キャンバスの下部に ![AddCircle](/help/assets/icons/AddCircle.svg) が表示されるので、いつでも空白のパネルを追加できます。
@@ -55,11 +55,11 @@ ht-degree: 99%
 
   ![使用可能なビジュアライゼーションを示すポップアップ](assets/blank-panel.png)
 
-  | ..を選択 | ...を作成するには |
+  | 選択... | ...を作成するには |
   |---|---|
   | ![テーブル](/help/assets/icons/Table.svg) | [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
   | ![折れ線グラフ](/help/assets/icons/GraphTrend.svg) | [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md) |
-  | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [棒グラフ](/help//analyze/analysis-workspace/visualizations/bar.md) |
+  | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![テキスト](/help/assets/icons/Text.svg) | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) |
   | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
@@ -85,21 +85,21 @@ ht-degree: 99%
 
 * パネルを折りたたむには、![下向き山形記号](/help/assets/icons/ChevronDown.svg) を選択します。
 * 折りたたまれたパネルを表示するには、![左向き山形記号](/help/assets/icons/ChevronLeft.svg) を選択します。
-* パネルを削除するには、![クロスサイズ400](/help/assets/icons/CrossSize200.svg) を選択します。元に戻すには、**[!UICONTROL 編集]**／**[!UICONTROL 元に戻す]**（**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**）を選択します。
-* パネルを移動するには、![移動](/help/assets/icons/Move.svg) が表示されているとき（通常はヘッダーにポインタを合わせているとき）に、パネルをドラッグ＆ドロップします。
+* パネルを削除するには、![CrossSize200](/help/assets/icons/CrossSize200.svg)を選択します。 取り消すには、**[!UICONTROL 編集]** > **[!UICONTROL 取り消し]** （**[!UICONTROL *cmd *+*z *]**|**[!UICONTROL * ctrl *+* z *]**）を選択します。
+* パネルを移動するには、![Move](/help/assets/icons/Move.svg)が表示されるたびにパネルをドラッグ&amp;ドロップします（通常はヘッダーにカーソルを合わせると）。
 
 
 ## レポートスイート
 
-各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**&#x200B;の![データ名](/help/assets/icons/Data.svg)で識別されます。
+各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**の![データ名](/help/assets/icons/Data.svg)で識別されます。
 
 新しいパネルを作成する場合、デフォルトのレポートスイートは、Analysis Workspace プロジェクトで最後に作業したパネルのレポートスイートに基づいています。
 
 プロジェクト内では、分析のユースケースに応じて、1 つまたは[複数のレポートスイート](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md)を使用できます。
 
-レポートスイートのリストは、関連性に基づいて並べ替えられます。これらの関連性は、現在のユーザーがスイートを使用した最近のタイミングと頻度、および組織内でスイートを使用した頻度に基づき、アドビによって定義されます。
+レポートスイートのリストは、関連性に基づいてソートされます。Adobeでは、現在のユーザーがスイートを使用した回数と頻度に基づいて定義されます。 組織内でスイートが使用される頻度です。
 
-![](assets/panel-report-suite.png)
+![ パネルのレポートスイートドロップダウンメニュー](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
@@ -130,16 +130,16 @@ ht-degree: 99%
 1. オプションで、「**[!UICONTROL 詳細設定を表示]**」を選択して、次の操作を行います。
 
    * デフォルトの `12:00 AM`（`0:00`）と `11:59 PM`（`23:59`）以外の&#x200B;**[!UICONTROL 開始時間]**&#x200B;と&#x200B;**[!UICONTROL 終了時間]**&#x200B;を指定します。終了時間には常に 59 秒が含まれます。日付範囲が何日にもわたる場合、開始時間は日付範囲の最初の日、終了時間は日付範囲の最終日に適用されます。**[!UICONTROL 日時の値をリセット]**&#x200B;を使用して、開始時間と終了時間をデフォルトにリセットします。
-   * **[!UICONTROL パネルカレンダーを基準とした日付範囲コンポーネントの作成]**&#x200B;無効にした場合、パネルで使用される日付範囲コンポーネントは現在の時刻を基準とします。有効にした場合、パネルで使用される日付範囲コンポーネントがパネルカレンダーに関連付けられます。
-   * **[!UICONTROL 相対日付の使用]**&#x200B;有効にした場合、現在の日付と時間の進行状況に応じて、プリセットされた日付範囲（**[!UICONTROL 過去 7 日間]**&#x200B;など）が動的に更新されます。無効にすると、そのようなプリセットは適用されると更新されません。
+   * **[!UICONTROL パネルカレンダーを基準とした日付範囲コンポーネントの作成]**&#x200B;無効にした場合、パネルで使用される日付範囲コンポーネントは現在の時間に関連します。 有効にすると、パネルで使用される日付範囲コンポーネントは、パネルカレンダーに関連します。
+   * **[!UICONTROL 相対日付の使用]**&#x200B;有効にすると、**[!UICONTROL 過去7日間]**&#x200B;などの事前設定された日付範囲が、現在の日付と時刻の進行状況に合わせて動的に更新されます。 無効にすると、そのようなプリセットは適用されると更新されません。
 
      ![周期的な日付](assets/calendar-rolling.png)
 
-     角括弧で囲まれたテキスト（例：**[!UICONTROL 固定開始 - 日周期]**）を選択して、パネルを拡張し、**[!UICONTROL 開始]**&#x200B;と&#x200B;**[!UICONTROL 終了]**&#x200B;の詳細を指定できます。
+     括弧内のテキストを選択して（例：**[!UICONTROL 固定開始 – ローリング日]**）、パネルを拡張し、**[!UICONTROL 開始]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;の詳細を指定できます。
 
       1. 「**[!UICONTROL 開始日]**」、「**[!UICONTROL 終了日]**」または「**[!UICONTROL 固定日]**」を選択します。
       1. 「**[!UICONTROL 開始日]**」または「**[!UICONTROL 終了日]**」を選択すると、完全な式を作成できます。例：**[!UICONTROL End of]** **[!UICONTROL current year]** **[!UICONTROL plus]** `1` **[!UICONTROL day]**。式の個々の部分に適した値を選択します。
-         * 現在の値を選択します。例：**[!UICONTROL current year]**。
+         * 現在の値を選択します。例：**[!UICONTROL 現在の年]**。
          * 追加の計算の値を選択します。例：**[!UICONTROL plus]**。
          * 追加の計算を指定した場合は、値を指定します。例：`1`。
          * 追加の計算を指定した場合は、計算に使用する期間を選択します。例：**[!UICONTROL day]**。
@@ -150,85 +150,151 @@ ht-degree: 99%
 「**[!UICONTROL すべてのパネルに適用]**」を選択すると、Workspace プロジェクトのすべてのパネルに日付範囲が適用されます。
 
 
+
 ## ドロップゾーン {#dropzone}
 
-パネルドロップゾーンを使用すると、パネル内のすべてのテーブルおよびビジュアライゼーションにセグメントおよびドロップダウンセグメントを適用できます。1 つのパネルに 1 つまたは複数のセグメントを適用できます。
+「**[!UICONTROL _データをフィルタリングまたは分割するコンポーネントをドロップ_]**」というラベルの付いたパネルドロップゾーンを使用すると、パネルのデータをフィルタリングまたは分割できます。 データのフィルタリングや分類に使用するセグメントや分類は、パネル内のすべてのフリーフォームテーブルとビジュアライゼーションに適用されます。
+
+セグメントと分類を利用して、管理された方法でデータを操作できます。 例えば、モバイルデバイスタイプのセグメントドロップダウンメニューを追加して、「タブレット」、「携帯電話」、「デスクトップ」を選択してパネルをフィルタリングできます。
+
+また、多くのプロジェクトを1つに統合するために、セグメントを使用することもできます。 例えば、同じプロジェクトの異なるバージョンを持ち、それぞれの国セグメントが適用されている場合、すべてのバージョンを1つのプロジェクトに統合し、国セグメントドロップダウンメニューを追加できます。
+
+下の図は、ドロップゾーンにコンポーネントを追加する際に生じる（クイック）セグメントまたは分類の様々なバリエーションを示しています。
+
+![ パネルのゾーンをドロップ ](assets/panel-drop-zone.png)
+
+### 追加または置換
+
+セグメントまたは分類を追加または置換するには：
+
+1. コンポーネントパネルから1つ以上のコンポーネントを選択します。 ⇧+![Select](/help/assets/icons/Select.svg)または^+![Select](/help/assets/icons/Select.svg)を使用して、複数のコンポーネントを選択します。
+1. 選択範囲をドロップゾーンにドラッグし、**[!UICONTROL _コンポーネントをドロップしてデータをフィルタリングまたは分類_]** ❶するか、ドロップゾーンの近くに既に配置されている既存のコンポーネントの上に配置します。
+1. ![追加](/help/assets/icons/Add.svg) **[!UICONTROL 追加（「shift」を押してドロップダウンを作成）]**&#x200B;または![切り替え](/help/assets/icons/Switch.svg) **[!UICONTROL 置換（「shift」を押してドロップダウンに追加）]**&#x200B;が表示される場合、2つのオプションがあります。
+
+   ![ ドロップゾーンを追加または置換](assets/add-or-replace-to-drop-zone.png)
+
+   * 選択範囲をドロップして、次のコンポーネントを作成します。
+      * [をドロップした任意のセグメントコンポーネントの](#segment) セグメント ❷。
+      * [をドロップしたセグメント以外のコンポーネント（日付範囲、指標、ディメンション、ディメンション項目）の](#quick-segment) クイックセグメント ❸。
+   * **を押しながら選択範囲**&#x200B;をドロップし（シフト）、次のコンポ⇧ネントを作成します。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択したセグメント ❹に対するフィルタリング対象のアイテム。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した日付範囲❺でフィルタリングする項目。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した指標に対してフィルターを適用する項目❻が含まれています。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンション *個のアイテム*&#x200B;に対してフィルタリングまたは分類するアイテムが❼に含まれています。
+      * 動的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンションに対してフィルタリングまたは分類する項目が含まれています（❽）。
+
 
 ### セグメント
 
-パネルのドロップゾーンに左パネルからセグメントをドラッグ＆ドロップして、パネルのセグメント化を開始します。このプロセスを繰り返して、パネルにセグメントを追加します。セグメントは、パネルの上部に並んで表示されます。
+ドロップしたセグメントコンポーネントは、パネルのセグメント化に使用されます。 セグメントを使用して、パネルのデータとビジュアライゼーションに関するセグメント化されたインサイトを取得します。
 
-![左パネルには、パネルのドロップゾーンにドラッグされた使用可能な指標とモバイル顧客指標が表示されます。](assets/segment-filter.png)
+### クイックセグメント
 
-#### クイックセグメント
+ドロップされた非セグメントコンポーネント（ディメンション、ディメンション項目、指標、日付範囲）は、パネルをセグメント化するための[ クイックセグメント ](#quick-segment)を定義します。 [ セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-quick.md)を使用せずにクイックセグメントを作成するには、セグメント以外のコンポーネントを使用します。 この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義され、デフォルトで&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;というラベルが付けられます。
 
-セグメント以外のコンポーネントをドロップゾーンに直接ドラッグしてクイックセグメントを作成することもできるので、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)への移行にかかる時間と手間を省くことができます。この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義されます。この定義は、セグメント名の横にある「![編集](/help/assets/icons/Edit.svg)」を選択すると、すばやく変更できます。
+または、![FilterAdd](/help/assets/icons/FilterAdd.svg)を使用して、クイックセグメントを作成することもできます。
 
-<!-- For more information, see [Quick segments](/help/components/segmentation/). -->
+クイックセグメントを作成および管理する方法については、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
 
-![公開されてドロップゾーンにドロップされるアドホックセグメント。](assets/adhoc-segment-filter.png)
 
-### ドロップダウンセグメント
+### ドロップダウンメニュー
+
+保持している間に作成されるドロップダウンメニューで⇧次の操作を実行できます。
+
+* アイテムの[static](#static)または[dynamic](#dynamic) リストが含まれます。
+* [ パネルのフィルター](#filter)または[ パネルの分割](#breakdown)を行います。
+
+
+#### 静的
+
+選択したディメンション *項目*、指標、セグメント、日付範囲の静的ドロップダウンメニューが作成されます。 静的ドロップダウンメニューの項目は、ドロップした選択したコンポーネントに基づいています。また、コンポーネントを追加または置換しても項目は変更されません。
+
+
+#### 動的
+
+動的ドロップダウンメニューは、ディメンションコンポーネントをドロップした場合にのみ作成されます。 動的なドロップダウンメニューは、ラベルの一部として![FilterRefresh](/help/assets/icons/FilterRefresh.svg)で示されます。
+
+動的ドロップダウンメニューで使用できる項目は、次の項目に基づいています。
+
+* パネルのドロップゾーン内の他のドロップダウンメニュー、セグメントおよびクイックセグメントで選択した項目から得られるデータ
+* パネルのレポート範囲内で使用可能なデータ。
+
+例えば、国ディメンションと都市ディメンションを使用して、2つの動的ドロップダウンメニューを追加できます。 **[!UICONTROL 国]** ドロップダウンメニューから国を選択すると、**[!UICONTROL 都市]** ドロップダウンメニューが動的に調整され、選択した国内の都市のみが表示されます。 追加の静的ドロップダウンメニューがある場合、これらのドロップダウンメニューで選択した項目は、動的ドロップダウンメニューで使用可能な項目にも影響します。 動的ドロップダウンメニューで選択された項目は、静的ドロップダウンメニューで使用できる項目には影響しません。
+
+
+#### パネルのフィルター
+
+**⇧を保持している間に**&#x200B;をドロップした指標、セグメントまたは日付範囲のコンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューでは、ドロップされたコンポーネントで使用可能な項目に基づいてパネルをフィルタリングできます。
+
+*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューを使用すると、ドロップされたディメンション項目（[静的](#static) セグメントドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic) セグメントドロップダウンメニュー）に使用できる項目に基づいてパネルをフィルタリングできます。 セグメントを使用してフィルタリングするようにドロップダウンメニューを明示的に設定するには：
+
+* ![分類](/help/assets/icons/Breakdown.svg)を選択し、コンポーネント ![のコンテキストメニューから](/help/assets/icons/Filter.svg) フィルター❾を選択します。
+
+
+#### パネルの分割
+
+*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 代わりに、ドロップダウンメニューを分類するように設定できます。 ドロップダウンメニューを明示的に設定して、分類を使用して分類するには、次の手順を実行します。
+
+* ![ フィルター](/help/assets/icons/Filter.svg)を選択し、コンポーネント ![のコンテキストメニューから](/help/assets/icons/Breakdown.svg)分類❾を選択します。
+
+>[!IMPORTANT]
+>
+>分類は、ディメンションとディメンション項目にのみ使用でき、セグメント、日付範囲、指標には使用できません。
+>
+
+
+
+#### セグメントと内訳
+
+次のシナリオでは、（セグメントを使用して）パネルをフィルタリングする代わりに、パネルを分割することを検討してください。
+
+* パネル内でアトリビューション対応の指標を使用している場合、セグメントはアトリビューション対応の指標をクリアすることがよくあります。 分類は、パネルのデータを取得するために実行されるクエリ内の別のポイントに適用されます。 その結果、分類はこれらの属性対応指標を明確にしません。
+
+  例として、**[!UICONTROL Luma：製品カテゴリ]** **[!UICONTROL フィルター]** ![女性](/help/assets/icons/Filter.svg) セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に基づく属性と、**[!UICONTROL Luma：製品カテゴリ]** ![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 女性]**&#x200B;分類の違いを参照してください。
+
+  ![属性ベースの指標：フィルターと分類](assets/attribute-filter-breakdown.png)
+
+* 分類ドロップダウンメニュー内でサブイベントレベルのディメンションを使用している場合、分類はそのサブイベントレベルで実行されます。 セグメントドロップダウンメニュー内のセグメントは、イベントレベルで実行されます。
+
+  例として、**[!UICONTROL Luma：製品サブカテゴリ]** **[!UICONTROL フィルター]** ![Tops](/help/assets/icons/Filter.svg) セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標と、**[!UICONTROL Luma：製品サブカテゴリ]** ![内訳](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]**&#x200B;内訳の違いを参照してください。 分類は、サブイベントレベルでクエリを明示的に実行し、セグメントはイベントレベルでクエリを実行します。
+
+  ![ サブイベントベースの指標：フィルターと分類](assets/sub-event-filter-breakdown.png)
+
+### 管理
+
+ドロップゾーンのコンポーネントは、次のように管理できます。
+
+| パネルドロップゾーンで何をすべきか… | 方法… |
+|---|---|
+| セグメントまたはクイックセグメントを削除するには、次の手順を実行します。 | コンポーネント内の![CrossSize300](/help/assets/icons/CrossSize300.svg)を選択します。 |
+| ドロップダウンメニューから選択した項目を削除するには、次の手順を実行します。 | 項目内の![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択します。 |
+| 選択したすべての項目をドロップダウンメニューから削除するには、次の手順を実行します。 | ドロップダウンメニューで「![CrossSize200](/help/assets/icons/CrossSize200.svg)」を選択します。 |
+| 任意のコンポーネントのラベルを編集します。 | コンポーネントのラベルにカーソルを合わせ、![編集](/help/assets/icons/Edit.svg)を選択します。 |
+| 任意のコンポーネントのラベルを削除します。 | コンポーネントのラベルにカーソルを合わせ、コンポーネントのコンテキストメニューから「**[!UICONTROL ラベルを削除]**」を選択します。 |
+| ドロップゾーンからコンポーネントを削除するには、次の手順を実行します。 | コンポーネントのコンテキストメニューから&#x200B;**[!UICONTROL ドロップダウンを削除]**&#x200B;を選択します。 |
+| 必要な情報を確認することができます。 | コンポーネント内にマウスポインターを置き、![情報](/help/assets/icons/Info.svg)を選択して、コンポーネントに関する情報を含むデータ要素を開きます。 |
+| ドロップダウンメニューを定義するコンポーネントに関する情報を取得します。 | ドロップダウンメニュー内にマウスポインターを置き、![InfoOutline](/help/assets/icons/InfoOutline.svg)を選択して、コンポーネントに関する情報を含むデータディクショナリを開きます。 |
+| クイックセグメントを編集するには、次の手順に従います。 | クイックセグメント内にマウスポインターを置き、![編集](/help/assets/icons/Edit.svg)を選択します。 詳しくは、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。 |
+| ドロップダウンメニューの選択を要求するには | コンポーネントのコンテキストメニューから「**[!UICONTROL 選択を要求]**」を選択します。 |
+| ドロップダウンメニューにフィルターを許可しない。 | コンポーネントのコンテキストメニューから「**[!UICONTROL フィルターを許可しない]**」を選択します。 |
+| すべてのコンポーネントをリセットし、ドロップダウンメニューのすべての選択項目をクリアします。 | 「**[!UICONTROL すべてをリセット]**」を選択します。 |
+
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ドロップダウンセグメント](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのフィルターの使用](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
+>[!BEGINSHADEBOX]
 
-#### 静的ドロップダウンセグメント
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的ドロップダウンメニュー](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}を参照してください。
 
-静的ドロップダウンセグメントを使用すると、制御された方法でデータを操作できます。例えば、モバイルデバイスタイプにドロップダウンセグメントを追加すして、タブレット、携帯電話、デスクトップ別にパネルをセグメント化できます。
+{{videocja}}
 
-静的ドロップダウンセグメントを使用して、多くのプロジェクトを 1 つに統合することもできます。例えば、同じプロジェクトに異なる国セグメントが適用された複数のバージョンがある場合、すべてのバージョンを 1 つのプロジェクトに統合して「国」ドロップダウンセグメントを追加できます。
+>[!ENDSHADEBOX]
 
-![マーケットチャネル「ダイレクト」フィルターがハイライト表示された静的ドロップダウンセグメント。](assets/dropdown-filter-intro.png)
-
-##### 静的ドロップダウンセグメントの作成
-
-* ディメンション項目を使用したドロップダウンセグメントの場合は、左パネルから 1 つのディメンションを選択し、⇧（*Shift*）キーを押したまま、パネルのドロップゾーンにドロップします。この操作により、そのディメンションに関連付けられたすべてのディメンション項目を選択できる、ドロップダウンセグメントが作成されます。
-
-  または、ディメンションに関連付けられた特定のディメンション項目のみをドロップダウンセグメントに含める場合は、左パネルで、目的のディメンションの横にある右矢印アイコンを選択します。このアクションにより、使用可能なすべてのディメンション項目が表示されます。⇧ キーを押しながら![選択](/help/assets/icons/Select.svg)（*Shift* キーを押しながら&#x200B;*選択*）または ^ キーを押しながら![選択](/help/assets/icons/Select.svg)（*Ctrl* キーを押しながら&#x200B;*選択*）を使用して、このリストから複数のディメンション項目を選択し、⇧ キーを&#x200B;**押しながら**、それらをパネルのドロップゾーンにドロップします。
-
-* 単一のコンポーネントタイプ（ディメンションのみ、セグメントのみ、指標のみなど）を使用するドロップダウンセグメントの場合は、⇧ キーを押しながら![選択](/help/assets/icons/Select.svg)、または ^ を押しながら![選択](/help/assets/icons/Select.svg)を使用して、左パネルから同じタイプの複数の項目を選択します。次に、⇧ キーを&#x200B;**押しながら**、項目をパネルのドロップゾーンにドロップします。
-
-  選択したコンポーネントを使用して、1 つのドロップダウンセグメントが作成されます。
-
-* コンポーネントタイプの組み合わせ（2 つの指標と 3 つのセグメントなど）を使用するドロップダウンセグメントの場合は、⇧ キーを押しながら![選択](/help/assets/icons/Select.svg)、または ^ キーを押しながら![選択](/help/assets/icons/Select.svg)を使用して、複数のコンポーネントを選択します。⇧ キーを&#x200B;**押しながら**、選択内容をパネルのドロップゾーンにドロップします。このコンテキストでは、すべてのコンポーネントタイプは個別のドロップダウンセグメントとして扱われます。例えば、指標とディメンション項目の両方を選択範囲に含める場合、2 つの異なるドロップダウンセグメントが作成されます。1 つのドロップダウンセグメントにはディメンション項目、もう 1 つには指標が含まれます。
-
-ドロップダウンセグメントには、次のコンテキストメニューオプションがあります。
-
-* **[!UICONTROL ドロップダウンを削除]**：パネルからドロップダウンセグメントを削除します。
-* **[!UICONTROL ラベルを削除]**：ドロップダウンセグメントの上に表示されるテキストを削除します。ラベルを変更するには、ラベルの上にポインタを合わせて、「![ドロップダウンセグメントのラベルを編集](/help/assets/icons/Edit.svg)」を選択します。
-* **[!UICONTROL ラベルを追加]**：プロジェクトにドロップダウンセグメントを追加すると、ラベルが自動的にコンポーネント名に設定されます。ラベルを削除した場合は、このオプションを使用して再度追加できます。
-* **[!UICONTROL 選択を要求]**：パネルにセグメントが設定されている必要があります。
-
-##### 静的ドロップダウンセグメントの使用
-
-ユーザーは、次のいずれかの方法でドロップダウンセグメントメニューを使用して、パネルをセグメント化できます。
-
-* ドロップダウンセグメントからセグメントを選択して、1 つのセグメントをパネルに適用します。
-
-* ドロップダウンセグメントから複数のセグメントを選択して、パネルに複数のセグメントを適用します。パネルがセグメント化され、選択したセグメントのいずれかが含まれます。
-
-
-#### 動的ドロップダウンセグメント
-
-動的ドロップダウンセグメントを使用すると、パネルのレポート範囲内のデータと他のドロップダウンセグメントの値に基づいて、使用可能な値を決定できます。例えば、国ディメンションと市区町村ディメンションを使用して、2 つの動的なドロップダウンを作成できます。**[!UICONTROL 国]**&#x200B;ドロップダウンリストから国を選択すると、**[!UICONTROL 市区町村]**&#x200B;ドロップダウンリストが動的に調整され、その国内の市区町村のみが表示されます。
-
-これと同じ概念がすべてのディメンションに適用され、パネルの日付範囲内に表示されるディメンション項目と選択したセグメントのみが表示されます。静的ドロップダウンセグメントで選択したディメンション項目は、動的ドロップダウンセグメントで使用できる値に影響します。ただし、その逆は成り立ちません。動的ドロップダウンセグメントで選択したディメンション項目は、静的ドロップダウンセグメントで使用可能な値には影響しません。
-
-将来収集される特定のディメンション項目が予想される場合は、ディメンション項目を手動で選択できます。また、動的ドロップダウンセグメントをクリアして、値が含まれないようにすることもできます。それにより、他の動的ドロップダウンセグメントにより多くの値を含めることができます。「**[!UICONTROL すべてをリセット]**」を選択すると、そのパネルのすべてのドロップダウンセグメントから選択内容をクリアできます。
-
-動的ドロップダウンセグメントを作成するには：
-
-* ⇧ キーを&#x200B;**押しながら**、1 つのディメンションをパネルのドロップゾーンにドラッグ＆ドロップします。
-
-動的ドロップダウンセグメントは、指標、セグメントまたは日付範囲では使用できないことに注意してください。
-
-動的ドロップダウンセグメントには、静的ドロップダウンセグメントと同じコンテキストメニューオプションがあります。
 
 
 ## コンテキストメニュー
@@ -243,7 +309,7 @@ ht-degree: 99%
 | --- | --- |
 | **[!UICONTROL コピーしたパネルを挿入]** | コピーしたパネルをプロジェクト内の別の場所または別のプロジェクトにペーストできます。 |
 | **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションをプロジェクト内の別の場所または別のプロジェクトにペーストできます。 |
-| **[!UICONTROL レポートスイートをすべてのパネルに適用]** | このパネルのレポートスイートをプロジェクト内の他のすべてのパネルに適用します。 |
+| **[!UICONTROL レポートスイートをすべてのパネルに適用]** | このパネルのレポートスイートを、プロジェクト内の他のすべてのパネルに適用します。 |
 | **[!UICONTROL パネルをコピー]** | パネルをコピーして、プロジェクト内の別の場所または別のプロジェクトに挿入できます。 |
 | **[!UICONTROL パネルを複製]** | 現在のパネルの完全な複製を作成して、修正できます。 |
 | **[!UICONTROL すべてのパネルを折りたたむ]** | すべてのプロジェクトパネルを折りたたみます。 |
@@ -258,143 +324,3 @@ ht-degree: 99%
 一部のパネル（[!UICONTROL アトリビューション]、[!UICONTROL 実験]、[!UICONTROL メディア分平均オーディエンス]など）には、ビジュアライゼーションの構築を支援する設定ダイアログがあります。パネルの上部にある「![編集](/help/assets/icons/Edit.svg)」を使用して、設定にアクセスして変更します。
 
 ![パネルの設定](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
-
-<!--
-## Panel types
-
-The following panel types are available in Analysis Workspace:
-
-| Panel name | Description |
-| --- | --- |
-| [Blank panel](blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
-| [Quick Insights panel](quickinsight.md) | Quickly build a freeform table and an accompanying visualization in order to analyze and uncover insights faster. |
-| [Analytics for Target panel](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
-| [Attribution panel](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
-| [Freeform panel](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
-| [Media Average Minute Audience panel](average-minute-audience-panel.md) | Analyze average minute audience over time, with details on peak views and the ability to break down and compare. |
-| [Media Concurrent Viewers panel](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
-| [Media Playback Timespent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
-| [Segment Comparison panel](c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
-
-![](assets/panel-overview.png)
-
-[!UICONTROL Quick Insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] and [!UICONTROL Segment Comparison] lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
-
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
-
-## Report suite {#report-suite}
-
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
-
-The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
-
-![](assets/panel-report-suite.png)
-
-## Calendar {#calendar}
-
-The panel calendar controls the reporting range for tables and visualizations within a panel.
-
->[!NOTE]
->If a (purple) date range component is used within a table, visualization or panel drop zone, it overrides the panel calendar.
-
-![](assets/panel-calendar.png)
-
-You can apply a minute-level date range under the advanced settings of your panel calendar. If you are reporting on a date range that spans many days, start time applies to the first day and end time applies to the last day in your range.
-
-## Drop zone {#dropzone}
-
-The panel drop zone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. 
-
-### Segment filters
-
-Drag and drop any segments from the left rail into the panel drop zone to begin filtering your panel. Repeat this process to add additional filters to the panel. Filters appear side by side at the top of the panel.
-
-![Filter](assets/segment-filter.png)
-
-### Ad hoc segment filters
-
-Non-segment components can also be dragged directly into the drop zone to create ad hoc segments, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
-
-Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
-
-For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-### Static drop-down segments
-
-Static drop-down segments enable you to interact with the data in a controlled way. For example, you can add a drop-down segment for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone, or Desktop.
-
-Static drop-down segments can also be used to consolidate many projects into one. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down segment.
-
-![](assets/dropdown-filter-intro.png)
-
-#### Create static drop-down segments
-
-* For drop-down segments using dimension items, select a single dimension from the left rail and drop it into the panel dropzone **while holding `[Shift]`**. This creates a drop-down segment with all the dimension items that are associated with that dimension. 
-
-  Or, if you want the drop-down segment to include only specific dimension items that are associated with a dimension, click the right arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding** `[Shift]`.
-
-* For drop-down segments using a single component type (for example, only dimensions, or only segments, or only metrics), select multiple items of the same type in the left rail using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
-
-  A single drop-down segment is created with components that you selected.
-
-* For drop-down segments using a mix of component types (such as 2 metrics and 3 filters), select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**. In this context, all component types are treated as separate drop-down segments. For example, if you include both metrics and dimension items in your selection, two separate drop-down segments are created: one drop-down segments includes dimension items, and the other includes metrics.
-
-  ![The Panel window with the Mobile Customer segment field available to drop a static drop-down segment. ](assets/create-dropdown.png)
-
-Right-clicking a drop-down segment provides the following options:
-
-* **[!UICONTROL Delete drop-down]**: Removes the drop-down segment from the panel. 
-* **[!UICONTROL Delete label]**: Remove the text above a drop-down segment. To modify the label, select the pencil icon.
-* **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
-* **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
-
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ja) to learn more about how to add drop-down filters to your project.
-
-#### Use static drop-down segments
-
-Use the drop-down segments menu in any of the following ways in order to filter the panel:
-     
-* Apply a single segment to the panel by selecting the segment from the drop-down menu.
-
-* Apply multiple segments to the panel by selecting more than one segment from the drop-down menu. The panel is filtered to include any of the selected segments. 
-
-  To remove a segment from the list, select it again in the drop-down menu.
-
-  ![Select multiple segments](assets/dropdown-filter-multiselect.png)
-
-### Dynamic drop-down segments
-
-Dynamic drop-down segments allow you to determine available values based on data within the panel's reporting range and values in other drop-down segments. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
-
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected segments are visible. Dimension items selected in static drop-down segments affect available values in dynamic drop-down segments. However, the inverse is not true; Dimension items selected in dynamic drop-down segments do not affect available values in static drop-down segments.
-
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down segment so that it does not contain a value, allowing other dynamic drop-down segments to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down segments for that panel.
-
-To create a dynamic drop-down segment:
-
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down segments are not available for metrics, segments, or date ranges.
-* Right-click a drop-down segment and select **[!UICONTROL Delete dropdown]** to delete it.
-
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
-
-## Right-click menu {#right-click}
-
-Additional functionality for a panel is available by right-clicking on the panel header.
-
-![Right-click menu](assets/right-click-menu.png)
-
-The following settings are available:
-
-| Setting | Description |
-| --- | --- |
-| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a different project.|
-| Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a different project.|
-| Apply Report Suite to all panels | Lets you apply the active panel report suite to all panels in the project.|
-| Duplicate Panel | Makes an exact duplicate of the current panel, which you can then modify. |
-| Collapse/Expand all Panels | Collapses and expands all project panels. |
-| Collapse/Expand all Visualizations in Panel | Collapses and expands all visualizations in the current panel. |
-| Edit Description | Add (or edit) a text description for the panel. |
-| Get Panel Link | Lets you direct someone to a specific panel within a project. When the link is clicked, the recipient will be required to login before being directed to the exact panel linked to. |
-
--->
