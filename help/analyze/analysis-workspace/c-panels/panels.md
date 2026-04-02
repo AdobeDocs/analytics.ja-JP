@@ -4,9 +4,9 @@ title: Analysis Workspaceのパネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
+source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
 workflow-type: tm+mt
-source-wordcount: '2729'
+source-wordcount: '2769'
 ht-degree: 42%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 42%
 
 ## レポートスイート
 
-各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**&#x200B;の![データ名](/help/assets/icons/Data.svg)で識別されます。
+各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**の![データ名](/help/assets/icons/Data.svg)で識別されます。
 
 新しいパネルを作成する場合、デフォルトのレポートスイートは、Analysis Workspace プロジェクトで最後に作業したパネルのレポートスイートに基づいています。
 
@@ -99,7 +99,7 @@ ht-degree: 42%
 
 レポートスイートのリストは、関連性に基づいてソートされます。Adobeでは、現在のユーザーがスイートを使用した回数と頻度に基づいて定義されます。 組織内でスイートが使用される頻度です。
 
-![&#x200B; パネルのレポートスイートドロップダウンメニュー](assets/panel-report-suite.png)
+![ パネルのレポートスイートドロップダウンメニュー](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ ht-degree: 42%
 
 下の図は、ドロップゾーンにコンポーネントを追加する際に生じる（クイック）セグメントまたは分類の様々なバリエーションを示しています。
 
-![&#x200B; パネルのゾーンをドロップ &#x200B;](assets/panel-drop-zone.png)
+![ パネルのゾーンをドロップ ](assets/panel-drop-zone.png)
 
 ### 追加または置換
 
@@ -171,17 +171,17 @@ ht-degree: 42%
 1. 選択範囲をドロップゾーンにドラッグし、**[!UICONTROL _コンポーネントをドロップしてデータをフィルタリングまたは分類_]** ❶するか、ドロップゾーンの近くに既に配置されている既存のコンポーネントの上に配置します。
 1. ![追加](/help/assets/icons/Add.svg) **[!UICONTROL 追加（「shift」を押してドロップダウンを作成）]**&#x200B;または![切り替え](/help/assets/icons/Switch.svg) **[!UICONTROL 置換（「shift」を押してドロップダウンに追加）]**&#x200B;が表示される場合、2つのオプションがあります。
 
-   ![&#x200B; ドロップゾーンを追加または置換](assets/add-or-replace-to-drop-zone.png)
+   ![ ドロップゾーンを追加または置換](assets/add-or-replace-to-drop-zone.png)
 
    * 選択範囲をドロップして、次のコンポーネントを作成します。
       * [をドロップした任意のセグメントコンポーネントの](#segment) セグメント ❷。
       * [をドロップしたセグメント以外のコンポーネント（日付範囲、指標、ディメンション、ディメンション項目）の](#quick-segment) クイックセグメント ❸。
    * **を押しながら選択範囲**&#x200B;をドロップし（シフト）、次のコンポ⇧ネントを作成します。
-      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択したセグメント ❹に対するフィルタリング対象のアイテム。
-      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択した日付範囲❺でフィルタリングする項目。
-      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択した指標に対してフィルターを適用する項目❻が含まれています。
-      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)または分類[&#x200B; ドロップダウンメニュー](#drop-down-menu)で、選択したディメンション *個のアイテム*&#x200B;に対してフィルタリングまたは分類するアイテムが❼に含まれています。
-      * 動的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)または分類[&#x200B; ドロップダウンメニュー](#drop-down-menu)で、選択したディメンションに対してフィルタリングまたは分類する項目が含まれています（❽）。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択したセグメント ❹に対するフィルタリング対象のアイテム。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した日付範囲❺でフィルタリングする項目。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した指標に対してフィルターを適用する項目❻が含まれています。
+      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンション *個のアイテム*&#x200B;に対してフィルタリングまたは分類するアイテムが❼に含まれています。
+      * 動的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンションに対してフィルタリングまたは分類する項目が含まれています（❽）。
 
 
 ### セグメント
@@ -190,11 +190,11 @@ ht-degree: 42%
 
 ### クイックセグメント
 
-ドロップされた非セグメントコンポーネント（ディメンション、ディメンション項目、指標、日付範囲）は、パネルをセグメント化するための[&#x200B; クイックセグメント &#x200B;](#quick-segment)を定義します。 [&#x200B; セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-quick.md)を使用せずにクイックセグメントを作成するには、セグメント以外のコンポーネントを使用します。 この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義され、デフォルトで&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;というラベルが付けられます。
+ドロップされた非セグメントコンポーネント（ディメンション、ディメンション項目、指標、日付範囲）は、パネルをセグメント化するための[ クイックセグメント ](#quick-segment)を定義します。 [ セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-quick.md)を使用せずにクイックセグメントを作成するには、セグメント以外のコンポーネントを使用します。 この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義され、デフォルトで&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;というラベルが付けられます。
 
 または、![FilterAdd](/help/assets/icons/FilterAdd.svg)を使用して、クイックセグメントを作成することもできます。
 
-クイックセグメントを作成および管理する方法については、[&#x200B; クイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
+クイックセグメントを作成および管理する方法については、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
 
 
 ### ドロップダウンメニュー
@@ -202,7 +202,7 @@ ht-degree: 42%
 保持している間に作成されるドロップダウンメニューで⇧次の操作を実行できます。
 
 * アイテムの[static](#static)または[dynamic](#dynamic) リストが含まれます。
-* [&#x200B; パネルのフィルター](#filter)または[&#x200B; パネルの分割](#breakdown)を行います。
+* [ パネルのフィルター](#filter)または[ パネルの分割](#breakdown)を行います。
 
 
 #### 静的
@@ -226,16 +226,16 @@ ht-degree: 42%
 
 **⇧を保持している間に**&#x200B;をドロップした指標、セグメントまたは日付範囲のコンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューでは、ドロップされたコンポーネントで使用可能な項目に基づいてパネルをフィルタリングできます。
 
-*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューを使用すると、ドロップされたディメンション項目（[静的](#static) セグメントドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic) セグメントドロップダウンメニュー）に使用できる項目に基づいてパネルをフィルタリングできます。 セグメントを使用してフィルタリングするようにドロップダウンメニューを明示的に設定するには：
+*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューを使用すると、ドロップされたディメンション項目（[静的](#static) セグメントドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic) セグメントドロップダウンメニュー）に使用できる項目に基づいてパネルをフィルタリングできます。 セグメントを使用してパネルをフィルタリングするようにドロップダウンメニューを明示的に設定するには：
 
-* ![分類](/help/assets/icons/Breakdown.svg)を選択し、コンポーネント ![のコンテキストメニューから](/help/assets/icons/Filter.svg) フィルター❾を選択します。
+* ![分類](/help/assets/icons/Breakdown.svg)を選択し、![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL セグメント]** | **[!UICONTROL コンポーネント]**&#x200B;のコンテキストメニューからパネル ❾内のデータをフィルタリングします。
 
 
 #### パネルの分割
 
-*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 代わりに、ドロップダウンメニューを分類するように設定できます。 ドロップダウンメニューを明示的に設定して、分類を使用して分類するには、次の手順を実行します。
+*⇧を保持している間に*&#x200B;をドロップした&#x200B;**ディメンション** コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 ドロップダウンメニューを設定して、ドロップされたディメンション項目（[静的](#static)分類ドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic)分類ドロップダウンメニュー）に使用できる項目に基づいてパネルを分類できます。 ドロップダウンメニューを明示的に設定して、分類を使用してパネルを分割するには、次の手順を実行します。
 
-* ![&#x200B; フィルター](/help/assets/icons/Filter.svg)を選択し、コンポーネント ![のコンテキストメニューから](/help/assets/icons/Breakdown.svg)分類❾を選択します。
+* ![ フィルター](/help/assets/icons/Filter.svg)を選択し、![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 分類]** | **[!UICONTROL コンポーネント]**&#x200B;のコンテキストメニューからパネル ❾のデータを分類します。
 
 >[!IMPORTANT]
 >
@@ -258,7 +258,7 @@ ht-degree: 42%
 
   例として、**[!UICONTROL Luma：製品サブカテゴリ]** **[!UICONTROL フィルター]** ![Tops](/help/assets/icons/Filter.svg) セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標と、**[!UICONTROL Luma：製品サブカテゴリ]** ![内訳](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]**&#x200B;内訳の違いを参照してください。 分類は、サブイベントレベルでクエリを明示的に実行し、セグメントはイベントレベルでクエリを実行します。
 
-  ![&#x200B; サブイベントベースの指標：フィルターと分類](assets/sub-event-filter-breakdown.png)
+  ![ サブイベントベースの指標：フィルターと分類](assets/sub-event-filter-breakdown.png)
 
 ### 管理
 
@@ -274,7 +274,7 @@ ht-degree: 42%
 | ドロップゾーンからコンポーネントを削除するには、次の手順を実行します。 | コンポーネントのコンテキストメニューから&#x200B;**[!UICONTROL ドロップダウンを削除]**&#x200B;を選択します。 |
 | 必要な情報を確認することができます。 | コンポーネント内にマウスポインターを置き、![情報](/help/assets/icons/Info.svg)を選択して、コンポーネントに関する情報を含むデータ要素を開きます。 |
 | ドロップダウンメニューを定義するコンポーネントに関する情報を取得します。 | ドロップダウンメニュー内にマウスポインターを置き、![InfoOutline](/help/assets/icons/InfoOutline.svg)を選択して、コンポーネントに関する情報を含むデータディクショナリを開きます。 |
-| クイックセグメントを編集するには、次の手順に従います。 | クイックセグメント内にマウスポインターを置き、![編集](/help/assets/icons/Edit.svg)を選択します。 詳しくは、[&#x200B; クイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。 |
+| クイックセグメントを編集するには、次の手順に従います。 | クイックセグメント内にマウスポインターを置き、![編集](/help/assets/icons/Edit.svg)を選択します。 詳しくは、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。 |
 | ドロップダウンメニューの選択を要求するには | コンポーネントのコンテキストメニューから「**[!UICONTROL 選択を要求]**」を選択します。 |
 | ドロップダウンメニューにフィルターを許可しない。 | コンポーネントのコンテキストメニューから「**[!UICONTROL フィルターを許可しない]**」を選択します。 |
 | すべてのコンポーネントをリセットし、ドロップダウンメニューのすべての選択項目をクリアします。 | 「**[!UICONTROL すべてをリセット]**」を選択します。 |
@@ -283,13 +283,13 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのフィルターの使用](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspaceでのフィルターの使用](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的ドロップダウンメニュー](https://experienceleague.adobe.com/ja/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的ドロップダウンメニュー](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}を参照してください。
 
 {{videocja}}
 
