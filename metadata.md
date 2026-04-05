@@ -2,22 +2,24 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
+landing-page-name: analytics
+landing-page-breadcrumb-title: Analytics
 git-repo: https://github.com/AdobeDocs/analytics.ja-JP
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d876f191b2b10dd29b50fae53235e194e29ed1d1
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
 
 
-# 社内用のメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリー内にあるユーザーガイドの TOC.md ファイルにパススルーされる、リポジトリーレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。 任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
 | メタデータ | 説明 |
 |--- |--- |
