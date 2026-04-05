@@ -20,9 +20,9 @@ ht-degree: 9%
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. **[!UICONTROL 分類セット]** マネージャーで、スキーマを編集する分類セットを選択します。
-1. **[!UICONTROL 分類セット : _分類セット名_]**ダイアログで、「**[!UICONTROL スキーマ]**」タブを選択します。 このタブは、次のインターフェイス要素で構成されます。
+1. **[!UICONTROL 分類セット : _分類セット名_]**&#x200B;ダイアログで、「**[!UICONTROL スキーマ]**」タブを選択します。 このタブは、次のインターフェイス要素で構成されます。
 
-   ![分類セット – スキーマ ](assets/classification-sets-schema.png)
+   ![分類セット – スキーマ &#x200B;](assets/classification-sets-schema.png)
 
    * [分類リスト](#classification-list)
    * [検索](#search)
@@ -51,11 +51,11 @@ ht-degree: 9%
 | アイコン | アクション | 説明 |
 |---|---|---|
 | ![追加](/help/assets/icons/Add.svg) | **[!UICONTROL 追加]** | [分類](#add)をリストに追加します。 |
-| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL アップロード]** | [JSON、CSV、TSV、またはTAB ファイルをアップロード ](#upload)。 |
-| ![ダウンロード](/help/assets/icons/Download.svg) | **[!UICONTROL ダウンロード]** | [分類データをダウンロード ](#download)。 |
-| ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL テンプレート]** | [分類データ用のテンプレート ](#template)をダウンロードします。 |
+| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL アップロード]** | [JSON、CSV、TSV、またはTAB ファイルをアップロード &#x200B;](#upload)。 |
+| ![ダウンロード](/help/assets/icons/Download.svg) | **[!UICONTROL ダウンロード]** | [分類データをダウンロード &#x200B;](#download)。 |
+| ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL テンプレート]** | [分類データ用のテンプレート &#x200B;](#template)をダウンロードします。 |
 | ![履歴](/help/assets/icons/History.svg) | **[!UICONTROL ジョブ履歴]** | 選択した分類セット用にフィルタリングされた[分類セットジョブマネージャー](/help/components/classifications/sets/job-manager.md)を表示します。 |
-| ![歯車](/help/assets/icons/Gear.svg) | **[!UICONTROL 自動化]** | [ クラウドの場所を使用して、分類データ ](#automate)の取り込みを自動化します。 |
+| ![歯車](/help/assets/icons/Gear.svg) | **[!UICONTROL 自動化]** | [&#x200B; クラウドの場所を使用して、分類データ &#x200B;](#automate)の取り込みを自動化します。 |
 
 
 ### 追加
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 ![分類セット – スキーマに分類を追加](assets/classification-sets-schema-add-classification.png)
 
-**[!UICONTROL 分類セット名&#x200B;_の新しい分類を追加ダイアログで、_]**分類名&#x200B;**[!UICONTROL を入力し、]**追加&#x200B;**[!UICONTROL を選択します。]**分類がリストに追加されます。
+**[!UICONTROL 分類セット名&#x200B;_の新しい分類を追加ダイアログで、_]**&#x200B;分類名&#x200B;**[!UICONTROL を入力し、]**&#x200B;追加&#x200B;**[!UICONTROL を選択します。]**&#x200B;分類がリストに追加されます。
 
 
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 分類データを分類のスキーマに読み込むには、![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**&#x200B;を選択します。
 
 
-![分類セット – スキーマによるファイルのアップロード ](assets/classification-sets-schema-upload-file.png)
+![分類セット – スキーマによるファイルのアップロード &#x200B;](assets/classification-sets-schema-upload-file.png)
 
 1. **[!UICONTROL 新しい分類を追加]** ダイアログ：
 
@@ -82,7 +82,7 @@ ht-degree: 9%
 
    ファイルの内容の&#x200B;**[!UICONTROL スキーマプレビュー]**&#x200B;が表示されます。 プレビューには、ファイルのデータ列が表示されます。 列のサイズを変更するには、![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg)を選択し、**[!UICONTROL 列のサイズ変更]**&#x200B;を選択します。 列のサイズを変更できるハンドルが表示されます。
 
-   列の分類セットで分類が定義されていない場合、アラート ![ アラート ](/help/assets/icons/Alert.svg)が表示されます。 このアラートは、分類が既存の分類スキーマセットに存在せず、読み込み時に作成されることを説明します。
+   列の分類セットで分類が定義されていない場合、アラート ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg)が表示されます。 このアラートは、分類が既存の分類スキーマセットに存在せず、読み込み時に作成されることを説明します。
 
 1. 競合に関するデータを&#x200B;**[!UICONTROL 上書きを選択しますか？現在の分類データを新しく読み込まれたデータで上書きする場合は、]**。 例：
 
@@ -93,33 +93,33 @@ ht-degree: 9%
 
 1. 「**[!UICONTROL 適用]**」を選択します。既存のスキーマセットに分類として列が存在しない場合は、アラートが表示されます。 アップロードを確認すると、これらの列は新しい分類として追加されます。
 
-   ![分類セット – 分類アラートのアップロード ](assets/classification-sets-schema-upload-file-preview-alert.png)
+   ![分類セット – 分類アラートのアップロード &#x200B;](assets/classification-sets-schema-upload-file-preview-alert.png)
 
    「**[!UICONTROL アップロードの確認]**」を選択して、アップロードを確認します。 「**[!UICONTROL アップロードをキャンセル]**」を選択して、アップロードをキャンセルします。
 
 
 ### ダウンロード
 
-分類データをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg) **[!UICONTROL ダウンロード]**&#x200B;を選択します。
+分類データをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL ダウンロード]**&#x200B;を選択します。
 
-![分類セット – スキーマのダウンロード分類データ ](assets/classification-sets-schema-download-file.png)
+![分類セット – スキーマのダウンロード分類データ &#x200B;](assets/classification-sets-schema-download-file.png)
 
 **[!UICONTROL 分類セット名&#x200B;_のデータをダウンロード ダイアログで次の操作を行います。_]**
 
 1. ダウンロードする&#x200B;**[!UICONTROL 行]**&#x200B;の数を入力します。 例：`10000`。
-1. 分類データの行をダウンロードする期間を選択するには、**[!UICONTROL 受信した行を]**&#x200B;の間でダウンロードするための開始データと終了データを入力します。 または、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して、カレンダーのポップアップを使用して期間を選択します。
+1. 分類データの行をダウンロードする期間を選択するには、**[!UICONTROL 受信した行を]**&#x200B;の間でダウンロードするための開始データと終了データを入力します。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して、カレンダーのポップアップを使用して期間を選択します。
 1. 返すデータを選択するには、**[!UICONTROL 返されるデータ]**&#x200B;からオプションを選択します。
 
    * **[!UICONTROL すべての値]**&#x200B;は、現在の分類データのすべての値を返します。
    * **[!UICONTROL 空の列]**&#x200B;は、既存の分類データのキー値を持つ列を返します。 値が存在しない分類データの値を持たない列を返します。
    * **[!UICONTROL すべての列が空です]**&#x200B;は、既存の分類データの値を持つキー列を返します。 分類データの値を持たない列があります。
-1. ダウンロードした分類データの[ ファイル形式](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイル形式]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ダウンロードした分類データの[&#x200B; ファイル形式](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイル形式]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL JSON]**。
    * **[!UICONTROL コンマ区切り値]** （CSV）。
    * **[!UICONTROL タブ区切りの値]** （TSVまたはTAB）。
 
-1. ファイルのダウンロード時に[ ファイルエンコーディング ](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL Latin-1]**。
@@ -132,16 +132,16 @@ ht-degree: 9%
 
 分類データのテンプレートをダウンロードするには、![DocumentFragment](/help/assets/icons/DocumentFragment.svg) **[!UICONTROL Template]**&#x200B;を選択します。
 
-![分類セット スキーマ – テンプレートのダウンロード ](assets/classification-sets-schema-download-template.png)
+![分類セット スキーマ – テンプレートのダウンロード &#x200B;](assets/classification-sets-schema-download-template.png)
 
-**[!UICONTROL 分類セット名&#x200B;_ダイアログの_]**ダウンロードテンプレートで：
+**[!UICONTROL 分類セット名&#x200B;_ダイアログの_]**&#x200B;ダウンロードテンプレートで：
 
-1. ダウンロードした分類データの[ ファイル形式](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイル形式]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ダウンロードした分類データの[&#x200B; ファイル形式](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイル形式]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL コンマ区切り値]**。
    * **[!UICONTROL Excel タブ区切り値]**。
 
-1. ファイルのダウンロード時に[ ファイルエンコーディング ](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL Latin-1]**。
@@ -200,20 +200,20 @@ ht-degree: 9%
    * **[!UICONTROL 縦棒|]**
    * **[!UICONTROL スペース]**
    * **[!UICONTROL タブ]**
-1. ファイルのダウンロード時に[ ファイルエンコーディング ](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイルエンコーディング]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイルエンコーディング]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL Latin-1]**。
 
 1. 取り込みジョブの完了をユーザーに通知するには、取り込みジョブの完了時に通知する電子メール **[!UICONTROL 件の電子メールアドレスをコンマで区切って入力します（コンマで区切ります）]**。
 1. 「**[!UICONTROL 検証]**」を選択します。 クラウドの場所への接続が検証されます。
-1. 検証が成功すると、![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 場所の検証が成功したことを示すトーストメッセージが表示されます。 クラウドストレージへの接続が検証されました。]**<br/> クラウド接続への接続を作成した場合は、**[!UICONTROL &#x200B;保存&#x200B;]**を選択します。 それ以外は、**[!UICONTROL &#x200B;更新&#x200B;]**を選択してください。 または、**[!UICONTROL  キャンセル ]**を選択して、クラウドの場所の設定をキャンセルします。
+1. 検証が成功すると、![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 場所の検証が成功したことを示すトーストメッセージが表示されます。 クラウドストレージへの接続が検証されました。]**<br/> クラウド接続への接続を作成した場合は、**[!UICONTROL &#x200B;保存&#x200B;]**&#x200B;を選択します。 それ以外は、**[!UICONTROL &#x200B;更新&#x200B;]**&#x200B;を選択してください。 または、**[!UICONTROL &#x200B; キャンセル &#x200B;]**&#x200B;を選択して、クラウドの場所の設定をキャンセルします。
 
 クラウドの場所にファイルをアップロードすると、15分以内にファイルが検出され、インポートジョブとして送信されます。 その読み込みジョブの結果は、[分類ジョブマネージャー](/help/components/classifications/sets/job-manager.md)に報告されます。 取り込みジョブの完了を通知するためにユーザーのリストに追加された場合は、メールメッセージも受信します。
 
 例：
 
-![分類セット – ジョブ検証メール ](assets/job-failed-validation.png){width="400"}
+![分類セット – ジョブ検証メール &#x200B;](assets/job-failed-validation.png){width="400"}
 
 
 ## アクションバー
@@ -223,6 +223,6 @@ ht-degree: 9%
 | アイコン | アクション | 説明 |
 |---|---|---|
 | ![参照](/help/assets/icons/Browse.svg) | **[!UICONTROL ルックアップの追加]** | 分類セットをルックアップ（サブクラス分け）として追加します。<br/>**[!UICONTROL 添付ルックアップ]** テーブルで： <ol><li>「**[!UICONTROL 分類名]**」ドロップダウンメニューから検索分類を選択します。</li><li>「**[!UICONTROL 追加]**」を選択します。</li></ol>検索分類が分類に追加され、内部IDを使用して&#x200B;**[!UICONTROL 分類基準]**&#x200B;列に一覧表示されます。 |
-| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL ルックアップの削除]** | 参照として分類セットを削除します。 参照を分類から完全に削除するには、**[!UICONTROL 分類セット _を_分類&#x200B;_確認ダイアログから削除で_]**削除&#x200B;**[!UICONTROL を選択します。]** |
-| ![名前変更](/help/assets/icons/Rename.svg) | **[!UICONTROL 名前変更]** | 分類の&#x200B;**[!UICONTROL 分類名]**&#x200B;の名前変更。 **[!UICONTROL 名前変更：_分類名_]**ダイアログで、新しい名前を入力し、**[!UICONTROL 名前変更]**を選択します。 |
-| ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 分類を削除します。 **[!UICONTROL 分類名&#x200B;_を削除_]**ダイアログが表示されます。 分類を削除するには、**[!UICONTROL 削除]**を選択します。 |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL ルックアップの削除]** | 参照として分類セットを削除します。 参照を分類から完全に削除するには、**[!UICONTROL 分類セット _を_分類&#x200B;_確認ダイアログから削除で_]**&#x200B;削除&#x200B;**[!UICONTROL を選択します。]** |
+| ![名前変更](/help/assets/icons/Rename.svg) | **[!UICONTROL 名前変更]** | 分類の&#x200B;**[!UICONTROL 分類名]**&#x200B;の名前変更。 **[!UICONTROL 名前変更：_分類名_]**&#x200B;ダイアログで、新しい名前を入力し、**[!UICONTROL 名前変更]**&#x200B;を選択します。 |
+| ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 分類を削除します。 **[!UICONTROL 分類名&#x200B;_を削除_]**&#x200B;ダイアログが表示されます。 分類を削除するには、**[!UICONTROL 削除]**&#x200B;を選択します。 |
