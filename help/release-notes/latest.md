@@ -3,10 +3,10 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
+source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 60%
+source-wordcount: '1041'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 60%
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Mapの機能強化**<br/> Activity Mapには、次の機能強化が含まれています。</p><ul><li>Adobe AnalyticsのWeb SDK実装でのActivity Map オーバーレイ拡張機能のサポート。</li><li>WebSDK トラッキングのサポート（トラッキングがAnalyticsに送信される場合）。</li><li>ユーザーインターフェイス全体でスタイルを更新しました。</li></ul><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年4月 |
 | **Adobe Analytics用MCP サーバー** <br/>MCP （Model Context Protocol）を使用して、Adobe Analyticsを既存のエージェント型ワークフローに関連付けることができるようになりました。 自然言語を使ってレポートやインサイトをリクエストできます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年4月末 |
 | **ストリーミングメディアサービス：スケジュールのデータをサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュール済みデータをアップロードして、視聴者をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（無料広告サポート TV）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、[スケジュールデータをアップロードしてライブコンテンツを追跡する](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)を参照してください。</p> | 2025年10月29日（PT） | 2026年上半期<p>（当初は 2025年10月29日（PT）にリリースされる予定でした）</p> |
 | **追加のAPI日付範囲の書式設定**<br/> Analytics 2.0 API レポート要求で日付範囲を指定するために、2つの新しい形式がサポートされるようになりました。 これには、日付式と混合形式が含まれます。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026年3月 |
