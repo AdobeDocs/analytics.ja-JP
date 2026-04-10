@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。Adobeでは、web サイトへの訪問者に対して、分析中の情報をオプトアウトする手段を提供できます。
 
-オプトアウトリンクは、web サイトへの訪問者に対して、Analytics レポートからデータを省略できるようにする方法です。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、代わりに[Adobe Experience Cloud オプトインサービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を使用することをお勧めします。 オプトインサービスは、より堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で動作します。
+オプトアウトリンクは、web サイトへの訪問者に対して、Analytics レポートからデータを省略できるようにする方法です。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、代わりに[Adobe Experience Cloud オプトインサービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を使用することをお勧めします。 オプトインサービスは、より堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe Experience Cloud製品で動作します。
 
 訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーがトラッキングを行わないことを選択し、オプトアウト Cookieが設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
