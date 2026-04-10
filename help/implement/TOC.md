@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
-   + [オプトアウトリンクの実装](js/opt-out.md)
+   + {hide-from-toc}[オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
    + [H コードからの移行](js/migrate-from-hcode.md)
    + H コード {#h-code}
