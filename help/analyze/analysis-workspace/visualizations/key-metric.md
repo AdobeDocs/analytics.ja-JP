@@ -116,10 +116,10 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ビジュアライゼーションを作成したら、元の設定を編集できます。
 
-1. ビジュアライゼーションの右上隅にある「![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)」を選択します。
+1. ビジュアライゼーションの右上隅にある「![編集](/help/assets/icons/Edit.svg)」を選択します。
 
 
-   元の [&#x200B; 設定ビュー &#x200B;](#configure) に戻ります。
+   これで、元の[設定ビュー](#configure)に戻りました。
 
 1. 必要に応じて、指標、プライマリ日付範囲、比較日付範囲またはセグメントを変更します。
 

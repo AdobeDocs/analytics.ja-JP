@@ -1,5 +1,5 @@
 ---
-description: Google広告とMicrosoft Advertisingのアカウント ID を見つける手順。
+description: Google AdsおよびMicrosoft Advertisingのアカウント IDの確認に役立つ手順。
 title: アカウント ID の見つけ方
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
@@ -12,35 +12,35 @@ ht-degree: 20%
 
 # アカウント ID の見つけ方 {#locate-your-account-ids}
 
-Google Ads とMicrosoft Advertisingのアカウント ID を見つける方法を説明します。
+Google AdsおよびMicrosoft Advertisingのアカウント IDを見つける方法について説明します。
 
 ## Google広告（AdWords） {#google}
 
 >[!IMPORTANT]
 >
->Google Ads では、次の 2 種類のアカウントを使用します。
+>Google Adsでは、次の2種類のアカウントを使用します。
 >
->- MCC （My Client Center）アカウント
->- 標準アカウント。
+>- MCC （My Client Center） アカウント
+>- 標準アカウント：
 >
->このAdobe Analyticsとの統合には、MCC アカウントログインではなく **標準アカウントログインを使用する必要があります**。 その理由は、MCC アカウントは、1 回のログインで複数のGoogle Ads アカウントにアクセスできる「umbrella」アカウントとして機能するのに対し、Standard アカウントログインでは、1 回のログインで 1 つのアカウントにのみアクセスできるためです。 Googleは、1 つのメールを 5 つのアカウントにリンクして管理することをサポートしていますが、Advertising Analyticsはまだこの機能をサポートしていません。 1 つのメールは、1 つのGoogle Ads アカウントにのみリンクできます。
+>Adobe Analyticsとの統合を行うには、MCC アカウントのログインではなく、標準アカウントのログイン **を使用する必要があります。** その理由は、MCC アカウントが1回のログインで複数のGoogle Ads アカウントにアクセスできる「傘」アカウントとして機能するのに対し、Standard アカウントのログインでは、1回のログインにつき1つのアカウントにしかアクセスできないためです。 Googleでは、1つの電子メールを5つのアカウントにリンクすることはサポートされていますが、Advertising Analyticsではまだこの機能をサポートしていません。 1つのメールは、1つのGoogle Ads アカウントにのみリンクできます。
 
-右上のアカウントアイコンをクリックして、Google Ads のアカウント番号（顧客 ID）を表示します。
+右上のアカウントアイコンをクリックして、Google Adsのアカウント番号（お客様ID）を表示します。
 
-![Google広告マネージャーアカウント &#x200B;](assets/google-account.png)
+![Google Ads Manager アカウント &#x200B;](assets/google-account.png)
 
 ## Microsoft 広告（Bing） {#microsoft}
 
 >[!NOTE]
 >
->Microsoft Advertising（旧称 Bing）アカウントでGoogleの読み込み機能を使用している場合は、必ず正しいトラッキング文字列を更新してください。 トラッキング文字列が、Google バージョンから正しいMicrosoft Advertising トラッキング文字列に自動的に更新されず、結果として未指定のデータになる場合があります。 詳しくは、Microsoft Advertising ヘルプの [Google Ads から読み込まれる内容 &#x200B;](https://help.ads.microsoft.com/apex/index/3/jp/50851/) を参照してください。
+>Microsoft Advertising（旧Bing）アカウントでGoogleの読み込み機能を使用している場合は、必ず正しいトラッキング文字列を更新してください。 トラッキング文字列は、Google バージョンから正しいMicrosoft Advertising トラッキング文字列に自動的に更新されないため、データが不特定になる可能性があります。 詳しくは、Microsoft Advertising ヘルプの[Google Adsから読み込まれるもの](https://help.ads.microsoft.com/apex/index/3/jp/50851/)を参照してください。
 
-**[!UICONTROL アカウント ID]** と **[!UICONTROL マネージャーアカウント ID]** の両方が必要です。
+**[!UICONTROL アカウント ID]**&#x200B;と&#x200B;**[!UICONTROL マネージャーのアカウント ID]**&#x200B;はどちらも必要です。
 
-- **[!UICONTROL アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL アカウント設定]**/**[!UICONTROL アカウント ID]** にあります。 [!UICONTROL &#x200B; アカウント番号 &#x200B;] ではなく、[!UICONTROL &#x200B; アカウント ID] を使用していることを確認してください。
-- **[!UICONTROL 管理者アカウント ID]** は、**[!UICONTROL 設定]**/**[!UICONTROL 管理者アカウント設定]**/**[!UICONTROL 管理者アカウント ID]** の下にあります。 [!UICONTROL &#x200B; 管理者アカウント番号 &#x200B;] ではなく [!UICONTROL &#x200B; 管理者アカウント ID] を使用していることを確認してください。
+- **[!UICONTROL アカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL アカウント設定]** > **[!UICONTROL アカウント ID]**&#x200B;の下にあります。 [!UICONTROL &#x200B; アカウント番号]ではなく、[!UICONTROL &#x200B; アカウント ID]を使用していることを確認してください。
+- **[!UICONTROL マネージャーアカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL マネージャーアカウント設定]** > **[!UICONTROL マネージャーアカウント ID]**&#x200B;の下にあります。 [!UICONTROL &#x200B; マネージャーアカウント番号]ではなく、[!UICONTROL &#x200B; マネージャーアカウント ID]を使用していることを確認してください。
 
-![Microsoft Advertisingのナビゲーション &#x200B;](assets/bing-id.png)
+![Microsoft Advertising ナビゲーション &#x200B;](assets/bing-id.png)
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"

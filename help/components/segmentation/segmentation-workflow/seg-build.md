@@ -376,11 +376,11 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
  <tbody> 
   <tr> 
    <td colname="col1"> カートを放棄 </td> 
-   <td colname="col2">買い物かごにアイテムを追加したが注文しなかった訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </td> 
+   <td colname="col2">カートに商品を追加したものの、何も注文しなかった訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 初回訪問回数 </td> 
-   <td colname="col2">最大 1 回 [1] 回の訪問を行った訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </p> </td> 
+   <td colname="col2">最大1 [1]回訪問した訪問者のデータを表示します。 セグメント定義のコンテナは「訪問」です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購入者 </td> 
@@ -404,7 +404,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 単一ページ訪問数 </td> 
-   <td colname="col2"> その訪問中に複数のページビューを送信した場合でも、単一のページ値が表示された訪問からのデータを表示します。 離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
+   <td colname="col2"> 単一ページ値が表示される訪問時のデータを表示します。ただし、訪問時に複数のページビューを送信する場合があります。 離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 閲覧された製品が買い物かごに追加されなかった </td> 

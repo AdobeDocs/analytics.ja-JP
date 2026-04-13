@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspaceでのフロービジュアライゼーションの使用方法を説明します。
+description: Analysis Workspaceのフロービジュアライゼーションの使用方法を説明します。
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
@@ -56,7 +56,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 [ディメンション間のフロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を表示できます。例えば、ページと部門を 1 つの図に組み合わせることができます。この場合、フローは、ホームページからメンズページを経て、靴部門に移動することが考えられます。
 
-各列に異なるディメンションが表示される場合があります。 ディメンションをドラッグし、ドロップゾーンにドロップして、そのディメンションを図に追加します。
+各列に異なるディメンションを表示することができます。 ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションをダイアグラムに追加します。
 
 >[!MORELIKETHIS]
 >

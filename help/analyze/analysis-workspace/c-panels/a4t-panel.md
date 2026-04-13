@@ -1,5 +1,5 @@
 ---
-description: Analytics for Target パネルを使用して、Analysis WorkspaceでのAdobe Targetのアクティビティとエクスペリエンスを分析する方法を説明します。
+description: Analytics for Target パネルを使用して、Analysis WorkspaceでAdobe Target アクティビティとエクスペリエンスを分析する方法について説明します。
 title: Analytics For Target パネル
 feature: Panels
 role: User, Admin

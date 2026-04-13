@@ -20,13 +20,13 @@ ht-degree: 93%
 
 コントリビューションの方法は、誰がどのような変更をコントリビューションするかに応じて異なります。
 
-### 軽微な変更
+### マイナーな変更
 
-軽微な変更をコントリビューションする場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub UI を使用して更新を行います。詳しくは、一般的[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
+軽微な更新をコントリビューションする場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub UI を使用して更新を行います。詳しくは、一般的[アドビドキュメントのコントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
 このリポジトリー内のドキュメントやコード例に対して提案される軽微な変更や補足説明には、アドビの利用規約が適用されます。
 
-### コミュニティメンバーによる大幅な変更または新しい記事
+### コミュニティメンバーによる大きな変更または新規記事
 
 アドビコミュニティのメンバーが新しい記事を作成したり、大幅な変更をコントリビューションしたりする場合は、Git リポジトリーの「Issues」タブを使用してイシューを送信し、ドキュメントチームとのやり取りを開始してください。計画に同意したら、アドビ従業員と協力し、公開リポジトリーと非公開リポジトリー内の作業結果を組み合わせて新しいコンテンツを取り込むのを手伝う必要があります。
 
@@ -34,7 +34,7 @@ ht-degree: 93%
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### アドビ従業員による大幅な変更
+### アドビの従業員による大きな変更
 
 技術的な記事に貢献することまたは技術的な記事を執筆することが仕事である Adobe Experience Cloud ソリューションのテクニカルライター、プログラムマネージャー、製品チームの開発者は、プライベートリポジトリ（[https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)）を使用する必要があります。<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -46,7 +46,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ## Markdown を使用してトピックをフォーマットする方法
 
-このリポジトリ内のすべての記事は、GitHub 固有の Markdown を使用します。 Markdown に詳しくない場合は、 [基本的な記述および書式設定構文](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) GitHub ドキュメントの
+このリポジトリ内のすべての記事では、GitHubのマークダウンを使用しています。 Markdownに慣れていない場合は、GitHub Docsの[基本的な書き込みと書式設定](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)を参照してください。
 
 ## ラベル
 

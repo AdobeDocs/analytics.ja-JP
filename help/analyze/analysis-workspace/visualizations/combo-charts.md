@@ -1,5 +1,5 @@
 ---
-description: 先月や昨年などとの比較を行うなど、Analysis Workspaceで比較データを視覚化する方法を説明します。
+description: 先月、昨年などの比較を構築するなど、Analysis Workspaceで比較データを視覚化する方法について説明します。
 title: コンボ
 feature: Visualizations
 role: User, Admin
@@ -99,6 +99,6 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 >[!MORELIKETHIS]
 >
 >[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -65,11 +65,11 @@ Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
 * まだ承認されていないコンポーネントを識別します。
 
-* コンポーネントの説明を Analysis Workspace で直接更新します。データ要素のコンポーネントの説明に対して行われた更新は、レポートスイートに反映されます。
+* コンポーネントの説明を Analysis Workspace で直接更新します。データディクショナリ内のコンポーネント説明に対して行われた更新は、レポートスイートに反映されます。
 
-  同様に、レポートスイートのコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
+  同様に、レポートスイート内のコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
 
-  コンポーネントの説明をAnalysis Workspaceまたはレポートスイートに追加する方法について詳しくは、[&#x200B; コンポーネントの説明の追加 &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md) を参照してください。
+  Analysis Workspaceまたはレポートスイートでのコンポーネント説明の追加について詳しくは、[&#x200B; コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
 
 ## データ辞書へのアクセス
 

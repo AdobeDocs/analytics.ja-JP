@@ -1,6 +1,6 @@
 ---
 title: セグメント比較パネルの概要
-description: セグメント比較パネルを使用して、Analysis Workspaceのセグメントを比較する方法を説明します。
+description: Analysis Workspaceのセグメント比較パネルを使用して、セグメントを比較する方法を説明します。
 keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
@@ -37,7 +37,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 >[!ENDSHADEBOX]
 
-セグメント比較パネルでは、無数のセグメント間の統計的に最も有意な差異を見つけることができます。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。比較では、会社の KPI を推進しているオーディエンスセグメントの主な特性が自動的に明らかになり、セグメントの重複がどれくらい見えるかを確認できます。
+セグメント比較パネルでは、無制限の数のセグメント間の統計的に最も有意性の大きい差異を検出します。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。比較により、自社の主要業績評価指標（KPI）を左右する重要なオーディエンスセグメントの特徴が自動的に見つかり、どの程度のセグメントが重複しているのかを確認できます。
 
 
 >[!BEGINSHADEBOX]
@@ -77,15 +77,15 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 ### パネル出力
 
-Adobe Analyticsが 2 つの目的のセグメントの分析を完了すると、出力パネルに複数のビジュアライゼーションを通じて結果が表示されます。
+Adobe Analyticsが2つの目的のセグメントの分析を完了すると、出力パネルに複数のビジュアライゼーションが表示されます。
 
 ![パネル出力のセグメント比較](assets/segment-comparison-output.png)
 
 | ビジュアライゼーション | 説明 |
 |---|---|
 | **[!UICONTROL サイズと重複]** | 選択した各セグメントの比較サイズと、これらが互いにどの程度重複しているかを[ベン図](/help/analyze/analysis-workspace/visualizations/venn.md)ビジュアライゼーションで示します。 |
-| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を表示する [&#x200B; 概要番号 &#x200B;](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（単一ページ訪問数の例の場合） |
-| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2 番目のセグメントのユニーク訪問者を示す [&#x200B; 概要番号 &#x200B;](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) ビジュアライゼーション（初回訪問の例の場合） |
+| **[!UICONTROL 最初のセグメントのユニーク訪問者]** | 最初のセグメントのユニーク訪問者を示す[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)のビジュアライゼーション（単一ページ訪問の例） |
+| **[!UICONTROL 2 番目のセグメントのユニーク訪問者]** | 2番目のセグメントの一意の訪問者を示す[概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)のビジュアライゼーション（初回訪問の例） |
 | **[!UICONTROL セグメントに対する上位の指標]** | 選択したセグメントに対する上位の指標を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
 | **[!UICONTROL セグメント別の経時的な指標]** | 選択したセグメントに対する経時的な指標を示す[折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション。 |
 | **[!UICONTROL セグメントに対する上位のディメンション項目]** | 選択したセグメントに対する混合ディメンション項目を示す[フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |

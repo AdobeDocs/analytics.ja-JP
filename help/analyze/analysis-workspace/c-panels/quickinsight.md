@@ -1,5 +1,5 @@
 ---
-description: クイックインサイトパネルを使用して、Analysis Workspaceでのフリーフォームテーブルおよびビジュアライゼーションの作成をガイドする方法を説明します。
+description: クイックインサイトパネルを使用して、Analysis Workspaceでフリーフォームテーブルとビジュアライゼーションを作成する方法を説明します。
 title: クイックインサイトパネル
 feature: Panels
 role: User, Admin
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の [CustomerJourneyAnalytics](/help/analyze/analysis-workspace/c-panels/quickinsight.md)_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) 版については、_&#x200B;**クイックインサイトパネル** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**クイックインサイトパネル**&#x200B;を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 * どこにフィルターを作成するか。
 * その他の機能
 
-これらの質問に役立つように、[!UICONTROL &#x200B; クイックインサイト &#x200B;] では、会社が最もよく使用するディメンション、指標、セグメントおよび日付範囲を表示するアルゴリズムを活用します。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
+これらの質問を解決するために、[!UICONTROL &#x200B; クイックインサイト &#x200B;]では、最も人気のあるディメンション、指標、セグメント、日付範囲を示すアルゴリズムを利用しています。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
 ![クイックインサイトパネル。](assets/popular-tag.png)
 
@@ -94,7 +94,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 * 左パネルからコンポーネントをドラッグ＆ドロップします。
 * 構築ブロックフィールドの 1 つに入力を開始します。入力が見つかると、構築ブロックフィールドに使用可能な値が自動的に入力されます。
-* 構築ブロックドロップダウン（例：**[!UICONTROL Analyze]** の **[!UICONTROL Country]**）を指定し、使用可能な値のリスト（![ChevronRight](/help/assets/icons/ChevronRight.svg) を使用）を使用して、使用する値（例：**[!UICONTROL 国コード]**）を検索します。
+* 構築ブロックのドロップダウン（**[!UICONTROL Analyze]**&#x200B;の&#x200B;**[!UICONTROL Country]**&#x200B;など）を指定し、使用する値（![Country code](/help/assets/icons/ChevronRight.svg)など）に対して可能な値（**[!UICONTROL ChevronRight]**&#x200B;を使用）のリストを検索します。
 
 すべての入力フィールドを消去するには、「**[!UICONTROL 消去]**」を選択します。
 
@@ -125,13 +125,13 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
   ![クイックインサイトビルダー結果](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 分類基準]**&#x200B;を使用してディメンションを&#x200B;**[!UICONTROL 分析]**：ディメンションで最大 3 レベルの分類を使用して、必要なデータに掘り下げることができます。➊、➋、➌ を参照してください。
+   * **[!UICONTROL 分類基準]**&#x200B;を使用してディメンションを&#x200B;**[!UICONTROL 分析]**：ディメンションで最大 3 レベルの分類を使用して、必要なデータに掘り下げることができます。➊、➋、➌を参照してください。
 
-   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍ および ➎ を参照してください。
+   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍および➎を参照してください。
 
-   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。➏、➐、➑ を参照してください。
+   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。➏、➐、➑を参照してください。
 
-   * 対象：日付範囲を指定できます。➒ を参照。
+   * 対象：日付範囲を指定できます。➒を参照してください。
 
 ## 既知の制限事項
 

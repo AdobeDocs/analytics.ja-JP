@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspaceでの箇条書きビジュアライゼーションの使用方法を説明します。 箇条書きのビジュアライゼーションを使用すると、他のパフォーマンス範囲（目標）との比較または測定を行うことができます。
+description: Analysis Workspaceの箇条書きビジュアライゼーションの使用方法を説明します。 箇条書きビジュアライゼーションを使用すると、他のパフォーマンス範囲（目標）と比較したり、測定したりできます。
 title: ブレット
 feature: Visualizations
 role: User, Admin

@@ -1,6 +1,6 @@
 ---
-description: ビジュアライゼーションの出発点として空のパネルを作成する方法を説明します。
-title: 空のパネル
+description: 任意のビジュアライゼーションの出発点として空白パネルを作成する方法を説明します。
+title: 空白パネル
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の空白のパネルについて説明します。この記事の _<br/>_CustomerJourneyAnalytics[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)Customer Journey Analytics_ 版については、![&#x200B; 空白パネル &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**&#x200B;** を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の空白のパネルについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**空白パネル**&#x200B;を参照してください。_
 
 >[!ENDSHADEBOX]
 
