@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
