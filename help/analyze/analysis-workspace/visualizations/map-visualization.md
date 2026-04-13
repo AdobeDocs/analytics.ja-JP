@@ -46,7 +46,7 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_**Map**&#x200B;を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のマップビジュアライゼーションについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**Map**&#x200B;を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 |--- |--- |
 | **[!UICONTROL マップタイプ]** | |
 | **[!UICONTROL 吹き出し] | バブルを使用してイベントをプロットします。 バブルチャートとは、散布図とプロポーショナルエリアチャートの間のクロス図である多変数グラフです。 この表示はデフォルトです。 |
-| [!UICONTROL  ヒートマップ ] | ヒートマップを使用してイベントをプロットします。 ヒートマップとは、マトリックスに含まれる個々の値が色で表されるデータのグラフィック表現です。 |
+| [!UICONTROL &#x200B; ヒートマップ &#x200B;] | ヒートマップを使用してイベントをプロットします。 ヒートマップとは、マトリックスに含まれる個々の値が色で表されるデータのグラフィック表現です。 |
 | **[!UICONTROL スタイル]** | |
 | [!UICONTROL カラーテーマ] | ヒートマップと泡のカラースキームを表示します。 Coral、Reds、Greens、Bluesから選択できます。 デフォルトはコーラルです。 |
 | [!UICONTROL マップスタイル] | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択できます。 |

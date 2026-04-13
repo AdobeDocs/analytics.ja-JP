@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の面グラフおよび積み重ね面グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[面グラフおよび積み重ね面グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/area)を参照してください。_
+_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の面グラフおよび積み重ね面グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[面グラフおよび積み重ね面グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/area)を参照してください。_
 
 >[!ENDSHADEBOX]
 

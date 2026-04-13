@@ -16,7 +16,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;の概要番号と概要変更のビジュアライゼーションについて説明します。_<br/>_この記事の[ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_**概要番号と概要変更**&#x200B;を参照してください。_
+_この記事では、_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;の概要番号と概要変更のビジュアライゼーションについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**概要番号と概要変更**&#x200B;を参照してください。_
 
 >[!ENDSHADEBOX]
 
