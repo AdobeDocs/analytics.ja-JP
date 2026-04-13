@@ -1,5 +1,5 @@
 ---
-description: ユーザー定義のテキストをAnalysis Workspace プロジェクトに追加する方法を説明します。
+description: Analysis Workspace プロジェクトにユーザー定義テキストを追加する方法を説明します。
 title: テキスト
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のテキストビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[テキスト](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/text)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のテキストビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[テキスト](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/text)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -56,10 +56,10 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ## 画像を追加 {#images}
 
-プロジェクトに画像を追加するには、メニューで ![&#x200B; 画像 &#x200B;](/help/assets/icons/Image.svg) を選択し、**[!UICONTROL 画像 URL]** に画像 URL （例：`https://www.adobe.com/uploads/2018/06/Adobe.png`）を指定して、**[!UICONTROL 保存]** を選択します。
+プロジェクトに画像を追加するには、メニューで![画像](/help/assets/icons/Image.svg)を選択し、**[!UICONTROL 画像URL]** （例：`https://www.adobe.com/uploads/2018/06/Adobe.png`）に画像URLを指定して、**[!UICONTROL 保存]**&#x200B;を選択します。
 
 画像 URL は、`https`で始まる、`.png`、`.jpeg`、`.jpg`、または`.gif`の形式で、公開アクセス可能である必要があります。 静的な画像とアニメーション画像がサポートされます。
 
-画像のドラッグ&amp;ドロップ挿入はサポートされていません。
+画像のドラッグ&amp;ドロップ挿入はサポートされていないことに注意してください。
 
 ![画像アイコンが選択されたテキストオプション。](assets/image.png)

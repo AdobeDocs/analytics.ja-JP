@@ -1,6 +1,6 @@
 ---
 title: 散布図
-description: Analysis Workspaceで散布図ビジュアライゼーションを作成および解釈して、ディメンション項目と最大 3 つの指標の間の関係を分析する方法を説明します。
+description: Analysis Workspaceで散布図を作成および解釈し、ディメンション項目と3つの指標の間の関係を分析する方法について説明します。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
@@ -24,12 +24,12 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の散布図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[散布図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
-![GraphScatter](/help/assets/icons/GraphScatter.svg)**[!UICONTROL Scatter]** ビジュアライゼーションは、データ内の異なる指標間の相関関係とパターンを特定するのに役立ちます。 ビジュアライゼーションには、ディメンション項目と最大 3 つの指標との関係が表示されます。 ビジュアライゼーションには 3 つのコンポーネントが必要で、最大 4 つのコンポーネントの視覚化をサポートします。
+![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** ビジュアライゼーションは、データ内の異なる指標間の相関関係とパターンを特定するのに役立ちます。 ビジュアライゼーションには、ディメンション項目と3つまでの指標の関係が表示されます。 ビジュアライゼーションには 3 つのコンポーネントが必要で、最大 4 つのコンポーネントの視覚化をサポートします。
 
 * 行コンポーネント（通常はディメンション）は、グラフ上の各ポイントを表します。それぞれの行が、異なる色のドットで表示されます。
 * 一番左の列（通常は指標）には、Y 軸（垂直方向）上の点の位置が描画されます。
@@ -42,14 +42,14 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散布図ビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [散布図ビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->散布図で [&#x200B; 凡例を表示するように設定 &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) する場合、凡例は、データソースに含まれる（選択された）ディメンション項目の数が制限されている場合にのみ表示されます。
+>散布図で表示するように凡例を[設定すると、](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)は、データソースに限られた数の（選択した）ディメンション項目が含まれている場合にのみ表示されます。
 
 
 >[!MORELIKETHIS]

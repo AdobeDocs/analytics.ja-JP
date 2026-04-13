@@ -1,6 +1,6 @@
 ---
-title: 日付範囲の作成
-description: Analysis Workspaceで使用できる日付範囲の作成方法を説明します。
+title: 日付範囲を作成
+description: Analysis Workspaceで使用できる日付範囲の作成方法について説明します。
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
@@ -53,7 +53,7 @@ Should we really mention API here. If so, we can do it all over the place in the
 
 1. この日付範囲の&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定します。例：**[!UICONTROL Quarterly]**。
 1. オプションで、「**[!UICONTROL 説明]**」を指定します。
-1. 1 つ以上の **[!UICONTROL タグ]** を作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。|
+1. 1つ以上の&#x200B;**[!UICONTROL タグ]**&#x200B;を作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。|
 1. 最初に開始日を選択し、次に終了日を選択して、「**[!UICONTROL 日付範囲]**」を選択します。
 または、**[!UICONTROL プリセットを選択]**&#x200B;ドロップダウンメニューから「[!UICONTROL *プリセット*]」を選択できます。
 

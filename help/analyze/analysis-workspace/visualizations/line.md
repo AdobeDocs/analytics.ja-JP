@@ -1,5 +1,5 @@
 ---
-description: 折れ線グラフ ビジュアライゼーションを使用すると、トレンド（時間ベース）のデータセットを視覚化できます。
+description: 折れ線グラフの視覚化を使用して、トレンド（時間ベース）データセットを視覚化します。
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の折れ線グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[折れ線グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/line)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** の折れ線グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[折れ線グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/line)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 |---|---|
 | **[!UICONTROL 精度]** | 精度ドロップダウンから選択して、トレンドビジュアライゼーションを日別から週別、月別などに変更できます。データソーステーブルの精度も更新されます。 |
 | **[!UICONTROL 最小値を表示]** <br/>**[!UICONTROL 最大値を表示&#x200B;]** | 最小値と最大値のラベルをオーバーレイして、指標の最小値と最大値をハイライト表示できます。メモ：最小値と最大値は、ディメンション内のすべての値ではなく、ビジュアライゼーション内に表示されたデータポイントから得られます。<br/>![最小値と最大値のラベルを持つオーバーレイ。](assets/min-max-labels.png) |
-| **[!UICONTROL トレンドラインを表示]** | 回帰または移動平均トレンドラインを線系列に追加できます。トレンドラインは、データのパターンをより明確に表現するのに役立ちます。選択した場合、リストからモデルを選択します。使用可能なモデルの概要および説明について詳しくは、[モデル](#models)を参照してください。<br/>![線形トレンドライン](assets/show-linear-trendline.png)。<p>**ヒント** トレンドラインは、今日（部分的なデータ）や将来の日付を含まないデータに適用することをお勧めします。 本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。</p> |
+| **[!UICONTROL トレンドラインを表示]** | 回帰または移動平均トレンドラインを線系列に追加できます。トレンドラインは、データのパターンをより明確に表現するのに役立ちます。選択した場合、リストからモデルを選択します。使用可能なモデルの概要および説明について詳しくは、[モデル](#models)を参照してください。<br/>![線形トレンドライン](assets/show-linear-trendline.png)。<p>**ヒント**&#x200B;現在（部分的なデータ）または将来の日付を含まないデータには、トレンドラインを適用することをお勧めします。 本日または未来の日付は、トレンドラインをゆがめます。ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日のゆがみを防ぎます。 ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択して、**[!UICONTROL 列設定]**／**[!UICONTROL ゼロを値なしで解釈]**&#x200B;を有効にします。</p> |
 
 ### モデル
 

@@ -1,6 +1,6 @@
 ---
-description: ページの概要パネルを使用して、選択したページの概要情報を表示する方法を説明します。
-title: ページの概要パネル
+description: ページ概要パネルを使用して、選択したページの概要情報を表示する方法を説明します。
+title: ページ概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のページの概要パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のページの概要パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** には同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 | 入力 | 説明 |
 | --- | --- |
-| **[!UICONTROL ページ]** | 主要統計を調べるページのページディメンションを選択します。 例えば、**[!UICONTROL home]** を指定して、ホームページの統計情報を調べます。 ドロップダウンメニューを使用してページを選択するか、（例：`home`）と入力してページをすばやく検索します。 |
+| **[!UICONTROL ページ]** | 主要な統計情報を検索するページのディメンションを選択します。 例えば、**[!UICONTROL home]**&#x200B;は、ホームページの統計情報を検索します。 ドロップダウンメニューを使用してページを選択するか、入力を開始します（例：`home`）。ページをすばやく検索できます。 |
 
 {style="table-layout:auto"}
 

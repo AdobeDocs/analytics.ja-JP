@@ -22,43 +22,43 @@ ht-degree: 19%
 
 <!-- markdownlint-enable MD034 -->
 
-Analytics Inventory は、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics環境の包括的な概要を提供します。 この情報は、Customer Journey Analytics へのアップグレードの準備を開始する際に特に役立ちます。
+Adobe Analytics インベントリでは、プロジェクト数、コンポーネント数、レポートスイート数、ユーザー数など、Adobe Adobe Analytics環境の包括的な全体像を把握できます。 この情報は、Customer Journey Analytics へのアップグレードの準備を開始する際に特に役立ちます。
 
-Analytics インベントリの目的は、次の質問に答えるのに役立つことです。
+Adobe Analyticsのインベントリの目的は、次の質問に答えることです。
 
-* 組織にとって、移行が必要なアセット（レポートスイート、セグメント、ユーザー、ワークスペースプロジェクトなど）はどれか、そして移行しなくてもよいアセットはどれか。
+* 組織では、どのアセット（レポートスイート、セグメント、ユーザー、ワークスペースプロジェクトなど）を移行する必要がありますか？どのアセットを残しておけばよいですか？
 
 * 移行する必要があるアセットを決定したら、次の手順を実行します。
 
-   * このアップグレードの前にアセットのクリーンアップを実行する必要がありますか。
+   * このアップグレードの前に、アセットのクリーンアップを行う必要がありますか？
 
-   * プロセスの一環としてアセットの統合を行う必要がありますか？
+   * プロセスの一環として、アセットの統合を行う必要がありますか？
 
-   * アップグレードシーケンスはアセットに対して何にする必要がありますか？
+   * アセットのアップグレードシーケンスを教えてください。
 
-   * 最初または最後にアップグレードするレポートスイートは？
+   * 最初または最後にアップグレードするレポートスイートはどれですか？
 
 ## 権限
 
-Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-roles-in-analytics.md) のAdobe Analytics製品管理者権限を持つユーザーが使用できます。
+Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-roles-in-analytics.md)のAdobe Analytics製品管理者権限を持つユーザーが利用できます。
 
 ## Analytics インベントリへのアクセス
 
-1. **[!UICONTROL 管理者]** メニューの **[!UICONTROL Analytics インベントリ]** をクリックします。 または、**[!UICONTROL すべての管理者]**/**[!UICONTROL Analytics インベントリ]** に移動します。
+1. **[!UICONTROL 管理者]** メニューの&#x200B;**[!UICONTROL 分析インベントリ]**&#x200B;をクリックします。 または、**[!UICONTROL All admin]** > **[!UICONTROL Analytics Inventory]**&#x200B;に移動します。
 
 ![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 1. メイン画面には、Adobe Analytics環境の包括的なインベントリが表示されます。
 
-   ![&#x200B; メインインベントリ画面 &#x200B;](assets/an_inventory.png)
+   ![ メインの在庫画面](assets/an_inventory.png)
 
-   特に、この画面には次の内容が表示されます。
+   具体的には、次の画面が表示されます。
 
-   * この組織の下でアクティブなAnalysis Workspaceおよびモバイルスコアカードプロジェクトの、すべてのユーザーにわたる合計数。
-   * すべてのユーザーをまたいで、この組織の下でアクティブなセグメントと計算指標の合計数。
-   * 定義されたベースレポートスイートの合計数。 仮想レポートスイートは含まれません。
-   * Media Analytics 機能がアクティブな場合は、どのモードで実行するか。
-   * この組織で定義されたユーザーの合計数。
+   * この組織でアクティブなAnalysis WorkspaceおよびMobile Scorecard プロジェクトの合計数です。すべてのユーザーを対象としています。
+   * この組織でアクティブなセグメントと計算指標の合計数が、すべてのユーザーで表示されます。
+   * 定義された基本レポートスイートの合計数です。 仮想レポートスイートは含まれません。
+   * メディア分析機能がアクティブな場合は、その場合は、どのモードでアクティブにするかを指定します。
+   * この組織で定義されたユーザーの合計数です。
 
 
 ## コンポーネント {#components}
@@ -72,7 +72,7 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 <!-- markdownlint-enable MD034 -->
 
-この最初のリリースでは、Workspace プロジェクト、セグメントおよび計算指標の概要在庫数を確認できます。 今後のリリースでは、これらのコンポーネントを分析できるようになります。
+この最初のリリースでは、Workspace プロジェクト、セグメント、計算指標の概要インベントリ番号を確認できます。 以降のリリースでは、これらのコンポーネントを分析できます。
 
 ## データの設定と収集 {#data-config}
 
@@ -87,95 +87,95 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 ### レポートスイート
 
-レポートスイート表示には、組織の下で定義されたすべてのレポートスイートが表示されます。 次の質問に答えることができます。
+レポートスイートビューには、組織で定義されているすべてのレポートスイートが表示されます。 次のような質問に答えることができます。
 
-* 過去 90 日間に最もヒットしたレポートスイートはどれですか。
-* 過去 90 日間にヒットがなかったレポートスイートは何ですか。
-* 最大数のディメンションが定義されているレポートスイートはどれですか？
-* 最も多くの指標が定義されているレポートスイートはどれですか？
+* 過去90日間に最も多くのヒット数を獲得したレポートスイートは何ですか？
+* 過去90日間にヒットしなかったレポートスイートはどれですか？
+* ディメンションの数が最も多く定義されているレポートスイートはどれですか？
+* 指標の数が最も多く定義されているレポートスイートは何ですか？
 
-これらの質問に対する回答は、どのレポートスイートが移行の最適な候補であるかについての優れたアイデアを提供します。
+これらの質問に対する回答は、どのレポートスイートが移行に最適な候補であるかについての良いアイデアを提供します。
 
 >[!NOTE]
 >
->この表は、一度に 1 つのセル値をゆっくりと入力します。
+>このテーブルは、1つにつき1つのセル値をゆっくりと入力します。
 
 
-1. レポートスイートを分析するには、**[!UICONTROL データ設定と収集]**/**[!UICONTROL レポートスイート]** に移動し、「**[!UICONTROL 分析]**」をクリックします。
+1. レポートスイートを分析するには、**[!UICONTROL データ設定とコレクション]**/**[!UICONTROL レポートスイート]**&#x200B;に移動し、**[!UICONTROL 分析]**&#x200B;をクリックします。
 
-   ![&#x200B; レポートスイートのリスト &#x200B;](assets/an_inv_rs.png)
+   ![ レポートスイートのリスト ](assets/an_inv_rs.png)
 
    | 要素 | 説明 |
    | --- | --- |
    | 名前 | レポートスイートの名前 |
-   | ID | レポートスイート ID （rsid）。 英数字のみを含めることができる一意の ID を指定します。 この ID は、作成後に変更することはできません。 Adobeによって設定される必須の ID プレフィックスも変更できません。 |
-   | 発生件数 (過去 90 日間) | 「発生件数」指標は、特定のディメンションが設定または持続されたヒット数を示します。過去 90 日間にこのレポートスイートが受け取ったヒット数 |
+   | ID | レポートスイート ID （rsid）。 英数字のみを含むことができる一意のIDを指定します。 このIDは、作成後に変更できません。 Adobeは必要なID プレフィックスを設定します。このプレフィックスも変更できません。 |
+   | 発生件数 (過去 90 日間) | 「発生件数」指標は、特定のディメンションが設定または持続されたヒット数を示します。過去90日間に、このレポートスイートは何件のヒットを受け取りましたか？ |
    | 指標 | このレポートスイートで定義されている指標の数 |
-   | ディメンション | このレポートスイートで定義されているディメンションの数 |
-   | Analytics for Target (A4T) は有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [Analytics for Target](https://experienceleague.adobe.com/ja/docs/target/using/integrate/a4t/a4t) に対して有効になっていますか？ |
-   | マーケティングチャネルは有効になっています | [ デフォルトでは非表示 ] このレポートスイートは [&#x200B; マーケティングチャネル &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md) に対して有効になっていますか？ |
-   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
-   | カレンダータイプ | [ デフォルトでは非表示 ] 詳細については、「[&#x200B; カスタムカレンダー &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)」を参照してください |
+   | ディメンション | このレポートスイートで定義されるディメンションの数は？ |
+   | Analytics for Target (A4T) は有効になっています | [ デフォルトで非表示]このレポートスイートは[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)で有効になっていますか？ |
+   | マーケティングチャネルは有効になっています | [ デフォルトで非表示]このレポートスイートは[ マーケティングチャネル ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に対して有効になっていますか？ |
+   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの[Adobe Analytics Source コネクタでレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source コネクタを使用してCustomer Journey Analyticsに移行できますか？ |
+   | カレンダータイプ | [ デフォルトで非表示]詳しくは、[ カスタムカレンダー](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)を参照してください |
 
 #### ディメンションの分析
 
-この画面には、特定のレポートスイートに定義されたすべてのディメンションの詳細が表示されます。 このビューでは、次の質問に答えることができます。
+この画面では、特定のレポートスイートに対して定義されたすべてのディメンションの詳細が表示されます。 このビューでは、次の質問に答えることができます。
 
-* このレポートスイートに対して有効なディメンションは何ですか？
-* このディメンションの過去 90 日間の上位 10 個のディメンション項目は何ですか？
+* このレポートスイートで有効なディメンションは何ですか？
+* このディメンションの過去90日間の上位10個のディメンション項目は何ですか？
 
-1. レポートスイートページで **[!UICONTROL ディメンション]** リンクをクリックします。
+1. レポートスイートページの「**[!UICONTROL ディメンション]**」リンクをクリックします。
 
    | 要素 | 説明 |
    | --- | --- |
-   | 名前 | ディメンションの名前 |
+   | 名前 | ディメンション名 |
    | ID | ディメンション ID。 |
-   | タイプ | ディメンションのタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、顧客、日付またはAdobe製品固有のディメンション（AEM、オーディエンス、Adobe Campaign、モバイルアプリなど）があります。 |
+   | タイプ | ディメンションのタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、このディメンションは、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
+   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ [に対する](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
 
-1. CJAに移行する意味のあるディメンションを判断します。
+1. CJAに移行する際に意味のあるディメンションを決定します。
 
 
 #### 指標の分析
 
-この画面には、特定のレポートスイート用に定義されたすべての指標の詳細が表示されます。 このビューでは、次の質問に答えることができます。
+この画面では、特定のレポートスイートに定義されているすべての指標の詳細が表示されます。 このビューでは、次の質問に答えることができます。
 
-* このレポートスイートに対して有効になっている指標は何ですか？
-* 過去 90 日間の上位 10 個の指標は何ですか？
+* このレポートスイートで有効な指標は何ですか？
+* 過去90日間の上位10個の指標は何ですか？
 
-1. レポートスイートページの **[!UICONTROL 指標]** リンクをクリックします。
+1. レポートスイートページの「**[!UICONTROL 指標]**」リンクをクリックします。
 
 
    | 要素 | 説明 |
    | --- | --- |
    | 名前 | 指標の名前 |
-   | ID | 指標 ID。 |
-   | タイプ | 指標のタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、顧客、日付またはAdobe製品固有のディメンション（AEM、オーディエンス、Adobe Campaign、モバイルアプリなど）があります。 |
+   | ID | 指標ID。 |
+   | タイプ | 指標のタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformの [Adobe Analytics Source Connector for report suite data](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics) に対して有効になっていますか？ つまり、この指標は、Analytics Source Connector を使用してCustomer Journey Analyticsに移行できますか。 |
+   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ [に対する](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
 
-1. CJAに移行する意味のある指標を判断します。
+1. CJAに移行する際に意味のある指標を決定します。
 
 ### CSV に書き出し
 
-1. レポートスイート、ディメンション、指標のリストを.csv ファイルに書き出すには、「**[!UICONTROL CSV に書き出し]**」をクリックします。
+1. レポートスイートまたはディメンションまたは指標のリストを.csv ファイルに書き出すには、「**[!UICONTROL CSVに書き出し]**」をクリックします。
 
 1. .csv ファイルがダウンロードフォルダーに表示されます。
 
-1. を開き、デバイスのスプレッドシートアプリケーションで保存します。
+1. デバイス上のスプレッドシートアプリケーションで開いて保存します。
 
 >[!NOTE]
 >
->除外された項目と列は、.csv ファイルに書き出されません。
+>フィルタリングされた項目と列は、.csv ファイルには書き出されません。
 
 
-### フィルター、検索、並べ替え、移動
+### フィルター、検索、並べ替え
 
 * テーブルを検索できます。
-* 左側のパネルで、フィルターアイコンをクリックして、「タイプ」でフィルタリングします。 または、「**[!UICONTROL フィルターを非表示]**」をクリックします。
-* すべての列を昇順/降順で並べ替えることができます（単一の列の並べ替えのみ）。
-* パンくずリスト内の項目をクリックすると、別の画面に移動できます。
+* 左側のパネルで、フィルターアイコンをクリックして「タイプ」でフィルタリングします。 または、**[!UICONTROL フィルターを非表示]**&#x200B;をクリックします。
+* すべての列を昇順/降順で並べ替えることができます（単一列の並べ替えのみ）。
+* パンくずリストの項目をクリックすると、別の画面に移動できます。
 
 ## ユーザー管理 {#user-management}
 
@@ -188,11 +188,11 @@ Analytics Inventory は、[Adobe Admin Console](/help/admin/admin-console/admin-
 
 <!-- markdownlint-enable MD034 -->
 
-ユーザー管理は、Analytics インベントリの今後のリリースで使用できるようになります。
+ユーザー管理は、Analytics インベントリの後のリリースで使用できるようになります。
 
 ## コンポーネントの移行
 
-[&#x200B; コンポーネントの移行 &#x200B;](/help/admin/tools/component-migration/component-migration.md) を使用して、Adobe Analytics管理者は、Analytics プロジェクトとそれに関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+[ コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)を使用すると、Adobe Analytics管理者はAnalytics プロジェクトおよび関連するコンポーネントをCustomer Journey Analyticsに移行できます。
 
 移行プロセスには、次が含まれます。
 

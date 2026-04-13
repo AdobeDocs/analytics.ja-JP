@@ -1,5 +1,5 @@
 ---
-description: ベン図ビジュアライゼーションを使用すると、最大 3 つのセグメントと 1 つの指標をドラッグして、ベン図を作成できます。
+description: ベン図を作成するには、ベンのビジュアライゼーションを使用して、最大3つのセグメントと1つの指標をドラッグします。
 title: ベン
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
@@ -26,7 +26,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のベン図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[ベン図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/venn)を参照してください。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のベン図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[ベン図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/venn)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!NOTE]
 >
->Analysis Workspaceでは、面積に比例するベン図を使用します。 2 つの寸法で表される 3 つ以上の円を持つベン図は、常に完全な比率で描画できるわけではありません。
+>Analysis Workspaceでは、エリア比例のベン図を使用します。 2次元で表される3つ以上の円を持つベン図は、常に完全な縦横比で描くことはできません。
 > 
->Workspaceは、最も近い近似ベン図を作成しようとしますが、結果は必ずしも視覚的に正確でない場合があります。
+>Workspaceは最も近いベンを作成しようとしますが、結果は必ずしも視覚的に正確ではありません。
 
 ![3 つのフィルターを含むベン図ビジュアライゼーション。](assets/venn.png)
 
@@ -54,7 +54,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ベン図ビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ベン図ビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
