@@ -1,51 +1,51 @@
 ---
-description: 分類データをアップロードできるクラウドインポートアカウントおよび場所を設定します
+description: 分類データをアップロードできるクラウド インポート アカウントと場所を設定します
 keywords: Analysis Workspace
-title: クラウドの読み込み場所と書き出し場所の設定
+title: クラウドの読み込み場所および書き出し場所の設定
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
 
 ---
 
-# クラウドの読み込み場所と書き出し場所の設定
+# クラウドの読み込み場所および書き出し場所の設定
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
 >[!NOTE]
 >
->場所を作成および編集する際は、次の点を考慮してください。<ul><li>システム管理者は、[&#x200B; ユーザーが場所を作成できるかどうかを設定 &#x200B;](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations) で説明しているように、ユーザーが場所を作成できないように制限できます。 この節で説明するように場所を作成できない場合は、システム管理者にお問い合わせください。</li><li>場所は、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>場所を作成および編集する場合は、次の点を考慮してください。<ul><li>システム管理者は、[&#x200B; ユーザーが場所を作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations)で説明しているように、場所の作成をユーザーに制限できます。 この節の説明に従って場所を作成できない場合は、システム管理者にお問い合わせください。</li><li>場所は、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
-[&#x200B; クラウドアカウントを設定 &#x200B;](/help/components/locations/configure-import-accounts.md) した後は、そのアカウントで場所を設定できます。 次のいずれかの目的に対して、1 つの場所を使用できます（1 つの場所を複数の目的に関連付けることはできません）。
+[&#x200B; クラウドアカウントを設定](/help/components/locations/configure-import-accounts.md)した後、そのアカウントの場所を設定できます。 1つの場所は、次のいずれかの目的で使用できます（1つの場所を複数の目的に関連付けることはできません）。
 
-* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) を使用したファイルの書き出し
-* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用したレポートのエクスポート
-* [Report Builder](/help/analyze/report-builder/report-builder-export.md) を使用する場合のファイルのエクスポート
-* [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用したスキーマのインポート
+* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
+* [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用したレポートのエクスポート
+* [Report Builder](/help/analyze/report-builder/report-builder-export.md)の使用時にファイルをエクスポートする
+* [分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
 
-Cloud アカウントにアクセスするために必要な情報をAdobe Analyticsに入力する必要があります。 このプロセスでは、[&#x200B; クラウドの読み込みと書き出しのアカウントの設定 &#x200B;](/help/components/locations/configure-import-accounts.md) に従ってアカウント（Amazon S3 ロール ARN、Google Cloud Platform など）を追加および設定し、そのアカウント内の場所を追加および設定します（詳しくは、この記事を参照）。
+クラウドアカウントにアクセスするには、必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスは、[Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md)で説明されているように、アカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、そのアカウント内の場所を追加および設定することから構成されます（この記事を参照）。
 
-既存の場所の表示および削除方法について詳しくは、[&#x200B; 場所マネージャー &#x200B;](/help/components/locations/locations-manager.md) を参照してください。
+既存の場所を表示および削除する方法について詳しくは、[場所マネージャー](/help/components/locations/locations-manager.md)を参照してください。
 
 ## 場所の作成または編集を開始
 
-1. Adobe Analyticsで、[!UICONTROL **コンポーネント**]/[!UICONTROL **場所**] を選択します。
+1. Adobe Analyticsで、[!UICONTROL **コンポーネント**]/[!UICONTROL **場所**]&#x200B;を選択します。
 
-1. [!UICONTROL Locations] ページで、「[!UICONTROL **Locations**]」タブを選択します。
+1. [!UICONTROL 場所] ページで、「[!UICONTROL **場所**]」タブを選択します。
 
-1. （条件付き）システム管理者の場合は、「[!UICONTROL **すべてのユーザーの場所を表示**] オプションを有効にして、組織内のすべてのユーザーが作成した場所を表示できます。
-   ![&#x200B; すべてのユーザーの場所を表示 &#x200B;](assets/locations-all-users.png)
+1. （条件付き）システム管理者の場合は、[!UICONTROL **すべてのユーザーの場所を表示**] オプションを有効にして、組織内のすべてのユーザーが作成した場所を表示できます。
+   ![すべてのユーザーの場所を表示](assets/locations-all-users.png)
 
-1. 新しい場所を追加するには、「[!UICONTROL **場所を追加**]」を選択します。 （アカウントをまだ追加していない場合は、[&#x200B; クラウドのアカウントのインポートとエクスポートの設定 &#x200B;](/help/components/locations/configure-import-accounts.md) の説明に従ってアカウントを追加します。）
+1. 新しい場所を追加するには、[!UICONTROL **場所を追加**]&#x200B;を選択します。 （まだアカウントを追加していない場合は、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従ってアカウントを追加します。）
 
    [!UICONTROL **場所を追加**] ダイアログが表示されます
 
    または
 
-   既存の場所を編集するには、場所名の横の「。..」メニューを選択し、「[!UICONTROL **編集**]」を選択します。
+   既存の場所を編集するには、場所名の横にある3点メニューを選択し、[!UICONTROL **編集**]&#x200B;を選択します。
 
    [!UICONTROL **場所の詳細**] ダイアログが表示されます。
 
@@ -55,67 +55,67 @@ Cloud アカウントにアクセスするために必要な情報をAdobe Analy
    |---------|----------|
    | [!UICONTROL **名前**] | 場所の名前。 |
    | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-   | [!UICONTROL **での使用**] | この場所を [!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、{ 分類セット [!UICONTROL **または**] 6}Report Builder **[!UICONTROL のいずれで使用するかを選択します。]** <p>選択を行う場合は、次の点に注意してください。</p><ul><li>1 つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>ある場所内でファイルの競合が発生しないようにするには、その場所を使用した後で「[!UICONTROL **次の値で使用**]」フィールドの値を変更しないでください。</li><li>メールアカウントの場所を作成している場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 データフィードと分類セットでは、メールの場所はサポートされていません。</li></ul> |
-   | [!UICONTROL **組織内のすべてのユーザーが場所を利用できるようにする**] | 組織内の他のユーザーが場所を使用できるようにするには、このオプションを有効にします。<p>場所を共有する際は、次の点に注意してください。</p><ul><li>共有する場所の共有を解除することはできません。</li><li>共有場所は、その場所の所有者のみが編集できます。</li><li>場所を共有できるのは、その場所が関連付けられているアカウントも共有されている場合のみです。</li></ul> |
-   | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[&#x200B; クラウドへのインポートおよびエクスポートアカウントの設定 &#x200B;](/help/components/locations/configure-import-accounts.md) を参照してください。 |
+   | [!UICONTROL **&#x200B;**]&#x200B;で使用 | この場所を&#x200B;[!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、[!UICONTROL **分類セット**]&#x200B;または&#x200B;**[!UICONTROL Report Builder]**&#x200B;で使用するかどうかを選択します。 <p>選択を行う際には、次の点に注意してください。</p><ul><li>1つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>場所の中でファイルの競合を避けるには、場所を使用した後で&#x200B;[!UICONTROL **使用**] フィールドの値を変更しないでください。</li><li>電子メールアカウントの場所を作成する場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 メールの場所は、データフィードと分類セットではサポートされていません。</li></ul> |
+   | [!UICONTROL **組織内のすべてのユーザーが場所を利用できるようにします**] | このオプションを有効にすると、組織内の他のユーザーがこの場所を使用できるようになります。<p>場所を共有する場合は、次の点を考慮してください。</p><ul><li>共有している場所は共有を解除できません。</li><li>共有場所は、場所の所有者のみが編集できます。</li><li>場所を共有できるのは、場所が関連付けられているアカウントも共有されている場合のみです。</li></ul> |
+   | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。 |
 
-1. 場所を設定するためのフォームに入力するには、[&#x200B; 場所の設定 &#x200B;](#configure-a-location) に進みます。 「[!UICONTROL **場所アカウント**]」フィールドで選択したアカウントタイプに対応するセクションの情報を使用します。 （追加の従来のアカウントタイプも使用できますが、お勧めしません）。
+1. 場所を設定するためのフォームを完了するには、[場所を設定](#configure-a-location)に進みます。 「[!UICONTROL **場所アカウント**]」フィールドで選択したアカウントタイプに対応するセクションの情報を使用します。 （追加の従来のアカウントタイプも使用できますが、お勧めしません）。
 
 ## 場所の設定
 
 ### Amazon S3 Role ARN
 
-Amazon S3 ロール ARN の場所を設定するには、次の情報を指定します。
+Amazon S3 ロール ARNの場所を設定するには、次の情報を指定します。
 
-1. 上記のように [&#x200B; 場所の作成または編集を開始します &#x200B;](#begin-creating-or-editing-a-location)。
+1. [前述のように、場所の作成または編集を開始します](#begin-creating-or-editing-a-location)。
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **バケット**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>Adobeから提供されたユーザー ARN に、このバケットにファイルをアップロードするための `S3:PutObject` 権限があることを確認します。 </p><p>バケット名は、特定の命名規則を満たす必要があります。例えば、3〜63 文字までの長さで、小文字、数字、ドット（.）、ハイフン（-）のみで構成でき、先頭と末尾は文字または数字にする必要があります。[命名規則の完全なリストについて詳しくは、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **バケット**] | Adobe Analytics データを送信する Amazon S3 アカウント内のバケット。 <p>このバケットにファイルをアップロードするには、Adobeから提供されたユーザーARNに`S3:PutObject`権限があることを確認してください。 </p><p>バケット名は、特定の命名規則を満たす必要があります。例えば、3〜63 文字までの長さで、小文字、数字、ドット（.）、ハイフン（-）のみで構成でき、先頭と末尾は文字または数字にする必要があります。[命名規則の完全なリストについて詳しくは、AWS ドキュメントを参照してください](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **接頭辞**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
    {style="table-layout:auto"}
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   設定したアカウントと場所から、または設定したアカウントと場所にデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用します。 データを読み込むには、[&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
 
-   読み込まれたデータは、読み込まれた後、クラウドの宛先から削除されません。
+   インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
    >[!NOTE]
    >
-   >   以前に [FTP を使用して分類を読み込む &#x200B;](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) をAdobe Analyticsに使用していた場合は、FIN ファイルをアップロードする必要がありました。 この FIN ファイルは、クラウドアカウントから読み込む場合は必要ありません。
+   >   以前に[FTPを使用して分類](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)をAdobe Analyticsに読み込んだ場合は、FIN ファイルをアップロードする必要がありました。 クラウドアカウントから読み込む場合、このFIN ファイルは必要ありません。
 
 
 ### Google Cloud Platform
 
 Google Cloud Platform の場所を設定するには、次の情報を指定します。
 
-1. 上記のように [&#x200B; 場所の作成または編集を開始します &#x200B;](#begin-creating-or-editing-a-location)。
+1. [前述のように、場所の作成または編集を開始します](#begin-creating-or-editing-a-location)。
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **バケット**] | Adobe Analytics データを送信する GCP アカウント内のバケット。 Adobeが提供するプリンシパルに、このバケットにファイルをアップロードするための権限を付与していることを確認してください。 |
+   | [!UICONTROL **バケット**] | Adobe Analytics データを送信するGCP アカウント内のバケット。 Adobeが提供するプリンシパルに対して、このバケットにファイルをアップロードする権限が付与されていることを確認します。 |
    | [!UICONTROL **接頭辞**] | データを配置するバケット内のフォルダー。フォルダー名を指定し、名前の後にバックスラッシュを追加してフォルダーを作成します。例：folder_name/ |
 
    {style="table-layout:auto"}
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   設定したアカウントと場所から、または設定したアカウントと場所にデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用します。 データを読み込むには、[&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
 
-   読み込まれたデータは、読み込まれた後、クラウドの宛先から削除されません。
+   インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
    >[!NOTE]
    >
-   >   以前に [FTP を使用して分類を読み込む &#x200B;](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) をAdobe Analyticsに使用していた場合は、FIN ファイルをアップロードする必要がありました。 この FIN ファイルは、クラウドアカウントから読み込む場合は必要ありません。
+   >   以前に[FTPを使用して分類](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)をAdobe Analyticsに読み込んだ場合は、FIN ファイルをアップロードする必要がありました。 クラウドアカウントから読み込む場合、このFIN ファイルは必要ありません。
 
 
 ### Azure SAS
 
 Azure SAS の場所を設定するには、次の情報を指定します。
 
-1. 上記のように [&#x200B; 場所の作成または編集を開始します &#x200B;](#begin-creating-or-editing-a-location)。
+1. [前述のように、場所の作成または編集を開始します](#begin-creating-or-editing-a-location)。
 
    | フィールド | 関数 |
    |---------|----------|
@@ -126,20 +126,20 @@ Azure SAS の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   設定したアカウントと場所から、または設定したアカウントと場所にデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用します。 データを読み込むには、[&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
 
-   読み込まれたデータは、読み込まれた後、クラウドの宛先から削除されません。
+   インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
    >[!NOTE]
    >
-   >   以前に [FTP を使用して分類を読み込む &#x200B;](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) をAdobe Analyticsに使用していた場合は、FIN ファイルをアップロードする必要がありました。 この FIN ファイルは、クラウドアカウントから読み込む場合は必要ありません。
+   >   以前に[FTPを使用して分類](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)をAdobe Analyticsに読み込んだ場合は、FIN ファイルをアップロードする必要がありました。 クラウドアカウントから読み込む場合、このFIN ファイルは必要ありません。
 
 
 ### Azure RBAC
 
 Azure RBAC の場所を設定するには、次の情報を指定します。
 
-1. 上記のように [&#x200B; 場所の作成または編集を開始します &#x200B;](#begin-creating-or-editing-a-location)。
+1. [前述のように、場所の作成または編集を開始します](#begin-creating-or-editing-a-location)。
 
    | フィールド | 関数 |
    |---------|----------|
@@ -151,42 +151,42 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   設定したアカウントと場所から、または設定したアカウントと場所にデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) または [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) を使用します。 データを読み込むには、[&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
 
-   読み込まれたデータは、読み込まれた後、クラウドの宛先から削除されません。
+   インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
    >[!NOTE]
    >
-   >   以前に [FTP を使用して分類を読み込む &#x200B;](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) をAdobe Analyticsに使用していた場合は、FIN ファイルをアップロードする必要がありました。 この FIN ファイルは、クラウドアカウントから読み込む場合は必要ありません。
+   >   以前に[FTPを使用して分類](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md)をAdobe Analyticsに読み込んだ場合は、FIN ファイルをアップロードする必要がありました。 クラウドアカウントから読み込む場合、このFIN ファイルは必要ありません。
 
 ### 電子メール
 
 メールの場所を設定するには、次の情報を指定します。
 
-1. 上記のように [&#x200B; 場所の作成または編集を開始します &#x200B;](#begin-creating-or-editing-a-location)。
+1. [前述のように、場所の作成または編集を開始します](#begin-creating-or-editing-a-location)。
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **件名**] | 電子メールメッセージの件名。 |
-   | [!UICONTROL **メモ**] | 電子メールメッセージのコンテンツ。 |
+   | [!UICONTROL **件名**] | メールメッセージの件名。 |
+   | [!UICONTROL **メモ**] | メールメッセージの内容。 |
 
    {style="table-layout:auto"}
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md) を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （メールの場所は、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md) または [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/overview.md) ではサポートされていません）。
+   [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （メールの場所は、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)、または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
 ### 従来のアカウントタイプ
 
-これらの従来のアカウントタイプは、{ データフィード [&#x200B; および &#x200B;](/help/export/analytics-data-feed/create-feed.md)2}Data Warehouse[&#x200B; を使用してデータを書き出す場合にのみ使用できます。 &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md) [&#x200B; 分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md) を使用してデータをインポートする場合、これらのオプションは使用できません。
+これらの従来のアカウントタイプは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
 
 +++FTP
 
-データフィードのデータは、アドビまたは顧客のホストする FTP の場所に配信できます。ディレクトリの指定パスフィールドを使用して、フィードファイルをフォルダーに配置します。
+データフィードのデータは、アドビまたは顧客のホストする FTP の場所に配信できます。ディレクトリを指定する「パス」フィールドを使用して、フィードファイルをフォルダーに配置します。
 
 | フィールド | 関数 |
 |---------|----------|
-| [!UICONTROL **ディレクトリパス**] | FTP サーバー上のディレクトリのパスを入力します。 フォルダーは既に存在する必要があります。指定したパスが存在しない場合、フィードはエラーをスローします。 </br> 例：`/folder_name/folder_name`。 |
+| [!UICONTROL **ディレクトリパス**] | FTP サーバー上のディレクトリへのパスを入力します。 フォルダーは既に存在する必要があります。指定したパスが存在しない場合、フィードはエラーをスローします。 </br>例：`/folder_name/folder_name`。 |
 
 {style="table-layout:auto"}
 
@@ -194,11 +194,11 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 +++SFTP
 
-データフィードデータは、Adobeまたは顧客がホストする SFTP の場所に配信できます。 宛先サイトには、有効な RSA または DSA 公開キーが含まれている必要があります。 フィードの作成時に、適切な公開キーをダウンロードできます。
+データフィードデータは、Adobeまたはお客様がホストするSFTPの場所に配信できます。 宛先サイトには、有効なRSAまたはDSA公開鍵が含まれている必要があります。 フィードの作成時に、適切な公開キーをダウンロードできます。
 
 | フィールド | 関数 |
 |---------|----------|
-| [!UICONTROL **ディレクトリパス**] | FTP サーバー上のディレクトリのパスを入力します。 フォルダーは既に存在する必要があります。指定したパスが存在しない場合、フィードはエラーをスローします。 </br> 例：`/folder_name/folder_name`。 |
+| [!UICONTROL **ディレクトリパス**] | FTP サーバー上のディレクトリへのパスを入力します。 フォルダーは既に存在する必要があります。指定したパスが存在しない場合、フィードはエラーをスローします。 </br>例：`/folder_name/folder_name`。 |
 
 {style="table-layout:auto"}
 
@@ -241,7 +241,7 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 +++Azure BLOB
 
-データウェアハウスは Azure BLOB の宛先をサポートしています。コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
+データウェアハウスはAzure Blobの宛先をサポートしています。 コンテナ、アカウント、およびキーが必要です。Azureは、保存中のデータを自動的に暗号化します。 データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
 
 >[!NOTE]
 >
