@@ -4,43 +4,52 @@ keywords: ftp;sftp
 title: SFTP を使用したアドビの FTP アカウントへの接続
 feature: FTP Export
 exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
-source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
+source-git-commit: 26ae4edacbc3591d4d3358afe009bf7831d45efb
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 58%
+source-wordcount: '212'
+ht-degree: 39%
 
 ---
 
-# SFTP を使用した FTP アカウントへの接続
+# SFTPでFTP アカウントに接続する
 
-FTP を使用した安全な転送を設定するには：
+FTPによるセキュアな転送を設定するには：
 
 1. （条件付き）Adobe FTP サーバーとの安全な転送を設定する場合：
 
-   1. アドビがホストする FTP アカウントを要求します（50 MB の割り当て）。
+   1. AdobeでホストされているFTP アカウント（50 MBのクォータ）をリクエストします。
 
-   1. RSA 公開鍵/秘密鍵を作成します。
+   1. 公開鍵/秘密鍵を作成します。
 
-      * Linux 環境では、次を実行します。
+      * Linux環境で、以下を実行します。
 
         ```
-        ssh-keygen -t rsa
+        ssh-keygen -t ed25519 -C "your-comment-or-email"
         ```
 
-      * Windows 環境では、puttyGen を使用します。
+        ポリシーでed25519の使用が許可されていない場合は、次を実行します。
 
-1. （条件付き）独自の FTP ロケーションでのセキュア転送を設定する場合は、SFTP ホスト、ユーザー名、および有効な RSA または DSA 公開鍵を含む宛先サイトが必要です。 フィードの作成時に、適切な公開キーをダウンロードできます。
+        ```
+        ssh-keygen -t rsa -b 4096 -C "your-comment-or-email"
+        ```
 
-1. [!DNL authorized_keys]（拡張子なし）という名前のファイルを作成します。
+        **注：**&#x200B;これは通常、新しいFIPS 186-5で最初にサポートされるed25519がFIPS 186-4で動作するお客様に適用されます。
 
-1. 公開鍵の内容を [!DNL authorized_keys] にコピーします。
+      * Windows環境では、puttyGenを使用します。
 
-1. [!DNL authorized_keys] を FTP アカウントにアップロードします。
+1. （条件付き）独自のFTP ロケーションでセキュアな転送を設定する場合は、有効なRSAまたはed25519公開鍵を含むSFTP ホスト、ユーザー名、宛先サイトが必要です。 フィードの作成時に、適切な公開キーをダウンロードできます。
+
+1. [!DNL `authorized_keys`]（拡張子なし）という名前のファイルを作成します。
+
+1. 公開鍵の内容を [!DNL `authorized_keys`] にコピーします。
+
+1. [!DNL `authorized_keys`] を FTP アカウントにアップロードします。
 
    * アドビの FTP アカウントに接続します。
    * [!DNL .ssh] ディレクトリを作成します（存在しない場合）。
-   * [!DNL authorized_keys] ファイルを [!DNL .ssh] ディレクトリにアップロードします。
+   * [!DNL `authorized_keys`] ファイルを [!DNL .ssh] ディレクトリにアップロードします。
 
 1. SFTP を使用して FTP アカウントにログインし、接続をテストします。
 
-詳しくは、[パスワードなしでの SFTP 経由でのアドビへの接続](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)を参照してください。
+詳しくは、[ パスワードなしでSFTP経由でAdobeに接続する](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)を参照してください。
+
