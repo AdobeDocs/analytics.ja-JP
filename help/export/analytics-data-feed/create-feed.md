@@ -63,14 +63,14 @@ ht-degree: 32%
 
    ページが次のカテゴリで表示されます：[!UICONTROL **詳細**]、[!UICONTROL **データ形式**]、[!UICONTROL **データ構造**]、[!UICONTROL **スケジュール**]、および&#x200B;[!UICONTROL **宛先**]。
 
-   ![新しいデータフィードのページ ](assets/data-feed-new.png)
+   ![新しいデータフィードのページ &#x200B;](assets/data-feed-new.png)
 
 1. 「[!UICONTROL **詳細**]」セクションで、次のフィールドに入力します。
 
    | フィールド | 関数 |
    |---------|----------|
    | [!UICONTROL **名前**] | データフィードの名前。名前は、選択したレポートスイート内で一意である必要があり、最大255文字まで指定できます。 [詳細情報](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **タグ**] | 任意のタグをデータフィードに適用して分類を容易にします。 「[ フィルター」の説明に従ってタグでフィルターを実行し、](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) データフィードの管理[でデータフィードのリスト ](/help/export/analytics-data-feed/df-manage-feeds.md)を検索できます。 |
+   | [!UICONTROL **タグ**] | 任意のタグをデータフィードに適用して分類を容易にします。 「[&#x200B; フィルター」の説明に従ってタグでフィルターを実行し、](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds) データフィードの管理[でデータフィードのリスト &#x200B;](/help/export/analytics-data-feed/df-manage-feeds.md)を検索できます。 |
    | [!UICONTROL **説明**] | データフィードの説明を指定します。 追加した説明は、データフィードの編集時に表示されます。 |
 
 1. 「[!UICONTROL **データ形式**]」セクションで、次の情報を指定します。
@@ -82,7 +82,7 @@ ht-degree: 32%
    | [!UICONTROL **マニフェスト**] | データフィードの配信ごとにマニフェストファイルを含めるかどうかを選択します。 <p>次のオプションから選択できます。</p><ul><li>**[!UICONTROL マニフェストファイル]**: データフィードに含まれる各ファイルの情報が含まれます。</li><li>**[!UICONTROL ファイルを完了（レガシー）]**: データフィードが正常に完了したことを示します。 その他の情報は含まれていません。 このオプションは、このオプションを再処理する必要がある既存のフィードに適しています。 単一のパッケージでデータフィードデータを送信する場合にのみ使用できます。 </li><li>**[!UICONTROL なし]**: ファイルが含まれていません</li></ul> |
    | [!UICONTROL **データがない場合でもマニフェストを送信**] | フィード間隔でデータが収集されなかった場合に、アドビが[マニフェストファイル](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)を宛先に配信するかどうかを決定します。**マニフェストファイル**&#x200B;を選択すると、データが収集されないときに、次のようなマニフェストファイルが表示されます。<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **オペレーティングシステム文字列の置換**] | データを収集する際に、一部の文字（新しい行など）が問題を引き起こす可能性があります。 フィード ファイルからこれらの文字を削除するには、このオプションを選択します。<p>このオプションは、顧客データに埋め込まれた次の文字列シーケンスを検出し、スペースに置き換えます。</p> <ul><li>**Windows:** CRLF、CR、またはTAB</li><li>**MacとLinux:** \n、\r、または\t</li></ul> |
-   | [!UICONTROL **動的検索を有効にする**] | 動的ルックアップを使用すると、他の方法では利用できないデータフィード内の追加のルックアップファイルを受信できます。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。<ul><li> **通信事業者名**</li><li>**モバイル属性**</li><li>**オペレーティング システムの種類**</li></ul><p>詳しくは、[動的ルックアップ ](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)を参照してください。</p> |
+   | [!UICONTROL **動的検索を有効にする**] | 動的ルックアップを使用すると、他の方法では利用できないデータフィード内の追加のルックアップファイルを受信できます。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。<ul><li> **通信事業者名**</li><li>**モバイル属性**</li><li>**オペレーティング システムの種類**</li></ul><p>詳しくは、[動的ルックアップ &#x200B;](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)を参照してください。</p> |
    | **到着遅延のヒットを許可** | 過去データは、タイムスタンプ付きのヒットやデータソースなど、データフィードのジョブが特定の時間または日の処理を完了した後に取得できます。<p>設定したレポート頻度（通常は日単位または時間単位）内でデータフィードジョブがデータ処理を完了した後に到着したデータも含める場合は、このオプションを選択します。このオプションを有効にすると、データフィードは、データを処理するたびに、到着が遅れたヒットを調べ、送信される次のデータフィードファイルでバッチ処理します。</p><p>詳しくは、[着信遅延](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)を参照してください。</p> |
    | **ルックバックウィンドウ** （遅延着弾の場合） | このオプションは、「**[!UICONTROL 遅延ヒットを許可]**」オプションが有効になっている場合に表示されます。 ルックバックウィンドウを選択して、含まれるレイトヒットの時間枠を制限します。 遅延時間にかかわらず、すべての遅延時間を許可する場合は、**[!UICONTROL 無制限]**&#x200B;を選択します。 **[!UICONTROL 1時間]**、**[!UICONTROL 2時間]**、**[!UICONTROL 1週間]**、**[!UICONTROL 2週間]**&#x200B;などのプリセット間隔を選択できます。 または、**[!UICONTROL カスタムルックバックウィンドウ]**&#x200B;を選択し、**[!UICONTROL カスタムルックバック]** フィールドで、最大26,280時間のルックバックウィンドウを指定します。 |
 
@@ -100,7 +100,7 @@ ht-degree: 32%
 
 1. （オプション）現在作成しているデータフィードに基づく列テンプレートを作成するには、**[!UICONTROL テンプレートとして保存]**&#x200B;を選択し、テンプレートの名前を指定してから、**[!UICONTROL 保存]**&#x200B;を選択します。 このオプションは、同じ列を含む追加のデータフィードを作成する場合に便利です。
 
-   ![ データフィードの作成中に列テンプレートを作成](assets/data-feed-template-create2.png)
+   ![&#x200B; データフィードの作成中に列テンプレートを作成](assets/data-feed-template-create2.png)
 
 1. （オプション）含まれる列のリストを.csv形式でダウンロードするには、**[!UICONTROL 列をダウンロード]**&#x200B;を選択します。 このオプションは、列数が多いデータフィードに便利です。
 
@@ -137,8 +137,8 @@ ht-degree: 32%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **アカウント**] | 次のいずれかの操作を行います。<ul><li>**既存のアカウントを使用：** 「**[!UICONTROL アカウント]**」フィールドの横にあるドロップダウンメニューを選択します。 または、アカウント名の入力を開始し、ドロップダウンメニューから選択します。 <p>アカウントは、設定した場合、または自分が所属する組織と共有されている場合にのみ利用できます。</p></li><li>**新しいアカウントを作成します：** 「**[!UICONTROL アカウント]**」フィールドの下にある「**[!UICONTROL 新しい]**&#x200B;を追加」を選択します。 アカウントの設定方法について詳しくは、[ クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md#configure-a-location-account)の[場所アカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。</li></ul> |
-   | [!UICONTROL **場所**] | 次のいずれかの操作を行います。<ul><li>**既存の場所を使用：** 「**[!UICONTROL 場所]**」フィールドの横にあるドロップダウンメニューを選択します。 または、場所の名前を入力し、ドロップダウンメニューから選択します。</li><li>**新しい場所を作成：**&#x200B;選択&#x200B;**[!UICONTROL 場所]** フィールドの下に&#x200B;**[!UICONTROL 新しい]**&#x200B;を追加します。 場所の設定方法について詳しくは、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md#configure-a-location)の[場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。</li></ul> |
+   | [!UICONTROL **アカウント**] | 次のいずれかの操作を行います。<ul><li>**既存のアカウントを使用：** 「**[!UICONTROL アカウント]**」フィールドの横にあるドロップダウンメニューを選択します。 または、アカウント名の入力を開始し、ドロップダウンメニューから選択します。 <p>アカウントは、設定した場合、または自分が所属する組織と共有されている場合にのみ利用できます。</p></li><li>**新しいアカウントを作成します：** 「**[!UICONTROL アカウント]**」フィールドの下にある「**[!UICONTROL 新しい]**&#x200B;を追加」を選択します。 アカウントの設定方法について詳しくは、[&#x200B; クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md#configure-a-location-account)の[場所アカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。</li></ul> |
+   | [!UICONTROL **場所**] | 次のいずれかの操作を行います。<ul><li>**既存の場所を使用：** 「**[!UICONTROL 場所]**」フィールドの横にあるドロップダウンメニューを選択します。 または、場所の名前を入力し、ドロップダウンメニューから選択します。</li><li>**新しい場所を作成：**&#x200B;選択&#x200B;**[!UICONTROL 場所]** フィールドの下に&#x200B;**[!UICONTROL 新しい]**&#x200B;を追加します。 場所の設定方法について詳しくは、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md#configure-a-location)の[場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。</li></ul> |
    | [!UICONTROL **完了時に通知**] | データフィードが正常に送信されるか、送信に失敗した後に通知を配信する1つ以上のメールアドレスを指定します。 複数のメールアドレスはコンマで区切る必要があります。 |
 
 1. 「**[!UICONTROL 保存]**」を選択します。

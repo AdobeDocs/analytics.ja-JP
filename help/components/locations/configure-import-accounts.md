@@ -17,16 +17,16 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->アカウントを作成および編集する際には、次の点を考慮してください。 <ul><li>システム管理者は、[ ユーザーがアカウントを作成できるかどうかを設定する](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーのアカウント作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>アカウントを作成および編集する際には、次の点を考慮してください。 <ul><li>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定する](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーのアカウント作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
 次のいずれかの目的または目的のすべてで使用されるクラウドアカウントを設定できます。
 
-* [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
+* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md)の使用時にファイルをエクスポートする
-* [分類セット ](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
+* [分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
 
-クラウドアカウントにアクセスするために必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスでは、この記事で説明されているようにアカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、そのアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します。
+クラウドアカウントにアクセスするために必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスでは、この記事で説明されているようにアカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、そのアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します。
 
 既存のアカウントを表示および削除する方法について詳しくは、[Locations manager](/help/components/locations/locations-manager.md)を参照してください。
 
@@ -127,7 +127,7 @@ ht-degree: 66%
 
    >[!NOTE]
    >
-   >メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)でのみ使用できます。 （メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)または[分類セット ](/help/components/classifications/sets/overview.md)ではサポートされていません）。
+   >メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)でのみ使用できます。 （メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
    Azure RBAC アカウントを設定するには、次の情報を指定します。
 
@@ -141,7 +141,7 @@ ht-degree: 66%
 
    **レガシーアカウントの種類**
 
-   これらの従来のアカウントタイプは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット ](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
+   これらの従来のアカウントタイプは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
 
    +++FTP
 
@@ -223,4 +223,4 @@ ht-degree: 66%
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. [ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を続行します。
+1. [&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を続行します。

@@ -51,5 +51,5 @@ FTPによるセキュアな転送を設定するには：
 
 1. SFTP を使用して FTP アカウントにログインし、接続をテストします。
 
-詳しくは、[ パスワードなしでSFTP経由でAdobeに接続する](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)を参照してください。
+詳しくは、[&#x200B; パスワードなしでSFTP経由でAdobeに接続する](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)を参照してください。
 
