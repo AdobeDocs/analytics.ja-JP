@@ -18,7 +18,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | Analytics ツールの権限の項目 | 説明 |
 |----|----|
 | [!UICONTROL Activity Map] | ツール／Activity Map へのアクセスを許可します。Activity Map拡張機能を使用することもできます。 |
-| [!UICONTROL 管理ツール UI アクセス ] | 未使用 |
+| [!UICONTROL 管理ツール UI アクセス &#x200B;] | 未使用 |
 | [!UICONTROL Advertising Analytics 管理] | 管理者/すべての管理者/Advertising Analyticsへのアクセス権を付与します。 |
 | [!UICONTROL Analysis Workspace：テンプレートとして保存] | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
 | [!UICONTROL 注釈の作成] | 注釈を作成する機能を付与します。 |
@@ -26,10 +26,10 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL ブランド提携] | 未使用 |
 | [!UICONTROL コードマネージャー] | 管理者/すべての管理者/コードマネージャーへのアクセス権を付与します。 |
 | [!UICONTROL コードマネージャー - Web サービス] | 1.4 API を使用して Code Manager へのアクセスを許可します。 |
-| [!UICONTROL 会社設定UI アクセス ] | 未使用 |
-| [!UICONTROL  コンポーネントの移行] | 管理者/すべての管理者/コンポーネントの移行へのアクセス権を付与します。 |
+| [!UICONTROL 会社設定UI アクセス &#x200B;] | 未使用 |
+| [!UICONTROL &#x200B; コンポーネントの移行] | 管理者/すべての管理者/コンポーネントの移行へのアクセス権を付与します。 |
 | [!UICONTROL 現在のデータ] | 未使用 |
-| [!UICONTROL  データガバナンスとプライバシーのラベル付けUI アクセス ] | 管理者/データガバナンスプライバシーのラベル付けにアクセス権を付与します。 |
+| [!UICONTROL &#x200B; データガバナンスとプライバシーのラベル付けUI アクセス &#x200B;] | 管理者/データガバナンスプライバシーのラベル付けにアクセス権を付与します。 |
 | [!UICONTROL Excel ライセンスユーザー] | 未使用 |
 | [!UICONTROL レポートスイートを非表示] | 管理者／すべての管理者／会社設定／レポートスイートを非表示へのアクセス権を付与します。レポートスイートへのアクセス権に関係なく、組織内の任意のレポートスイートを非表示にする機能を付与します。 |
 | [!UICONTROL 統合 (作成)] | 未使用 |
@@ -39,12 +39,12 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL レガシー Report Builder] | Microsoft Excelで従来のReport Builder アドオンを使用して認証できるようにします。 |
 | [!UICONTROL ログ] | 管理者／すべての管理者／ログへのアクセス権を付与します。 |
 | [!UICONTROL ログ - Web サービス] | 1.4 API を介したプルログへのアクセスを許可します。 |
-| [!UICONTROL MCP アクセス ] | [Adobe Analytics MCP サーバー](https://developer.adobe.com/analytics-mcp/docs/aa/)を使用するためのアクセス権を付与します。 このツールを使用するには、製品管理者を含むすべてのユーザーに対して、この権限項目が必要です。 |
+| [!UICONTROL MCP アクセス &#x200B;] | [Adobe Analytics MCP サーバー](https://developer.adobe.com/analytics-mcp/docs/aa/)を使用するためのアクセス権を付与します。 このツールを使用するには、製品管理者を含むすべてのユーザーに対して、この権限項目が必要です。 |
 | [!UICONTROL モバイルアプリ管理者] | 未使用 |
 | [!UICONTROL 保留中のアクション] | 管理者／すべての管理者／会社設定／保留中のアクションへのアクセス権を付与します。 |
 | [!UICONTROL 環境設定] | 未使用 |
-| [!UICONTROL  レポートスイート管理者UI アクセス ] | 管理者/レポートスイートへのアクセス権を付与しますが、設定の編集やレポートスイートの作成は許可しません。 [ レポートスイートツール ](report-suite-tools.md)の権限項目を使用して、ユーザーがレポートスイートの設定を編集できるようにします。 |
-| [!UICONTROL Reporting Activity Manager UI アクセス ] | 管理者/レポートアクティビティマネージャーへのアクセス権を付与します。 |
+| [!UICONTROL &#x200B; レポートスイート管理者UI アクセス &#x200B;] | 管理者/レポートスイートへのアクセス権を付与しますが、設定の編集やレポートスイートの作成は許可しません。 [&#x200B; レポートスイートツール &#x200B;](report-suite-tools.md)の権限項目を使用して、ユーザーがレポートスイートの設定を編集できるようにします。 |
+| [!UICONTROL Reporting Activity Manager UI アクセス &#x200B;] | 管理者/レポートアクティビティマネージャーへのアクセス権を付与します。 |
 | [!UICONTROL Reports &amp; Analytics アクセス] | 未使用 |
 | [!UICONTROL セキュリティ] | 管理者／すべての管理者／会社設定／セキュリティマネージャーへのアクセス権を付与します。 |
 | [!UICONTROL セグメントの作成] | すべての Analytics 機能でセグメントを作成および共有する機能を付与します。 |
@@ -55,4 +55,4 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL トラフィック管理] | 管理者／すべての管理者／トラフィック管理へのアクセス権を付与します。 |
 | [!UICONTROL Web サービスへのアクセス] | サードパーティサイトとの認証や API 呼び出しの送信を含め、API を使用する機能を許可します。 |
 | [!UICONTROL Web サービス] | 管理者／すべての管理者／会社設定／Web サービスへのアクセス権を付与します。 |
-| [!UICONTROL Workspace プロジェクト アクセス ] | Analysis Workspace へのアクセスを許可します。**Adobe Analyticsを使用するには、この権限項目が必要です。** |
+| [!UICONTROL Workspace プロジェクト アクセス &#x200B;] | Analysis Workspace へのアクセスを許可します。**Adobe Analyticsを使用するには、この権限項目が必要です。** |
