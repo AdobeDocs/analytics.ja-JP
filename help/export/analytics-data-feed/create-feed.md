@@ -3,7 +3,7 @@ title: データフィードの作成
 description: データフィードの作成方法と、アドビに提供するファイル情報について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 32%
@@ -120,7 +120,7 @@ ht-degree: 32%
    >
    >レポートの宛先を設定する際には、次の点を考慮してください。
    >
-   >* Adobeでは、レポートの宛先にクラウドアカウントを使用することをお勧めします。 [従来の FTP および SFTP アカウント](#legacy-destinations)を使用することはできますが、推奨していません。
+   >* Adobeでは、レポートの宛先にクラウドアカウントを使用することをお勧めします。 [従来の FTP および SFTP アカウント](/help/components/locations/configure-import-accounts.md)を使用することはできますが、推奨していません。
    >* 以前に設定したクラウドアカウントはすべて、データフィードに使用できます。 クラウドアカウントは、次のいずれかの方法で設定できます。
    >
    >   * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) のクラウドアカウントを設定する場合
