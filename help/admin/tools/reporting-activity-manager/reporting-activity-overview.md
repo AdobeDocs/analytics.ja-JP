@@ -4,16 +4,14 @@ title: レポートアクティビティマネージャーの概要
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # レポートアクティビティマネージャーの概要
-
-[!UICONTROL レポートアクティビティマネージャー]は、管理者が使用できます。
 
 組織でレポートのピーク時にレポートのパフォーマンスが低下した場合、レポートアクティビティマネージャーを使用すると、アドビカスタマー ケアの対応なしで、処理能力の問題を自己診断して修正できます。単一のインターフェイス内でレポートキューを簡単に管理でき、即座に処理してユーザーエクスペリエンスを向上させることができます。
 
