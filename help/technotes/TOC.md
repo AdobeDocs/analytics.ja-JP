@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 0%
 + [プログレッシブ Web アプリケーション](pwa.md)
 + [リダイレクトとエイリアス](redirects.md)
 + [セキュリティリソース](security.md)
++ [FTPとSFTPのセキュリティ](sftp-password-rotation.md)
 + [使用される用語（用語集）](terms.md)
 + [ログインのトラブルシューティング](troubleshoot-login.md)
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
