@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: ht
-source-wordcount: '491'
+source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
+workflow-type: tm+mt
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -160,4 +160,3 @@ ht-degree: 100%
          + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](tools/user-management/user-migration/migrate-enterprise.md)
          + [従来のログインの無効化](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [移行の影響を受ける API](tools/user-management/user-migration/developer.md)
-+ [管理 API](https://developer.adobe.com/analytics-apis/docs/2.0/)
