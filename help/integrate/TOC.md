@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
-user-guide-description: Audience Manager や Advertising Cloud など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+user-guide-description: Audience ManagerやAdvertisingなどの他のAdobe Experience Cloudソリューションとの統合を構成できます。
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '150'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Advertising Cloud 向け Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ja)
++ [Advertising用Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ja)
 + [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
 + [Adobe Analytics での Adobe Campaign レポート](adobe-campaign.md)
 + [Adobe Analytics データと Adobe Campaign Classic の統合](analytics-to-campaign-classic.md)

@@ -3,25 +3,25 @@ title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 99%
+source-wordcount: '167'
+ht-degree: 72%
 
 ---
 
 # Analytics の統合
 
-このガイドでは、Audience Manager、Advertising Cloud、Target など、複数の Adobe Experience Cloud ソリューションの統合に重点を置いています。以下のようなものがあります。
+このガイドでは、Audience Manager、Advertising、Targetなど、複数のAdobe Experience Cloud ソリューションの統合に焦点を当てます。 以下のようなものがあります。
 
 * **Audience Analytics：** Adobe Audience Manager を Adobe Analytics と統合します。
 * **Advertising Analytics：**&#x200B;有料検索データを Adobe Analytics データと並べて確認します。
-* **Advertising Cloud DSP 向け Analytics：** Adobe Analytics と Adobe Advertising Cloud を統合して、各製品の機能を拡張および強化します。
+* **Analytics for Advertising DSP:**&#x200B;は、Adobe AnalyticsとAdobe Advertisingを統合して、各製品の機能を拡張および強化します。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 向け Analytics](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

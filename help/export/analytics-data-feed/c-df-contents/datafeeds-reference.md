@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 92%
 >
 >ほとんどの列には、`post_` という接頭辞が付く類似の列が含まれています。post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
 
-| 投稿 | 列名 | 列の説明 | データタイプ |
+| Post | 列名 | 列の説明 | データタイプ |
 | ---: | :--- | --- | --- |
 | | **`accept_language`** | イメージリクエストの Accept-Language HTTP ヘッダーで指定されている受け入れ可能なすべての言語のリスト。 | char(20) |
 | **`post_`** | **`adload`** | メディア広告の読み込み | varchar(255) |
 | **`post_`** | **`aemassetid`** | 一連の Adobe Experience Manager Assets のアセット ID（GUID）に対応する複数値の変数。インプレッションイベントを増分します。 | text |
 | **`post_`** | **`aemassetsource`** | アセットイベントのソースを識別します。Adobe Experience Manager で使用されます。 | varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | Adobe Experience Manager アセットのアセット ID。クリックイベントを増分します。 | varchar(255) |
-| **`post_`** | **`amo_cid`** | [AMO ID](/help/components/dimensions/amo-id.md) ディメンションは、Adobe Advertising統合で使用されます。 | varchar(255) |
-| **`post_`** | **`amo_ef_id`** | [AMO EF ID](/help/components/dimensions/amo-ef-id.md) ディメンションは、Adobe Advertising統合で使用されます。 | varchar(255) |
+| **`post_`** | **`amo_cid`** | Adobe Advertising統合で使用される[AMO ID](/help/components/dimensions/amo-id.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`amo_ef_id`** | Adobe Advertising統合で使用される[AMO EF ID](/help/components/dimensions/amo-ef-id.md) ディメンション。 | varchar(255) |
 | | **`browser`** | ブラウザーを表す数値 ID。 `browser.tsv` ルックアップテーブルを参照します。 | int unsigned |
 | **`post_`** | **`browser_height`** | 「[ブラウザーの高さ](/help/components/dimensions/browser-height.md)」ディメンション。 | smallint unsigned |
 | **`post_`** | **`browser_width`** | [ブラウザーの幅](/help/components/dimensions/browser-width.md) | smallint unsigned |
@@ -45,18 +45,18 @@ ht-degree: 92%
 | **`post_`** | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンション。 | varchar(100) |
 | | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | text |
 | | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | text |
-| **`post_`** | **`clickmaplink`** | [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンション。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | [Activity Map リンク （地域別 &#x200B;](/help/components/dimensions/activity-map-link-by-region.md) ディメンション。 | varchar(255) |
-| **`post_`** | **`clickmappage`** | [Activity Mapページ &#x200B;](/help/components/dimensions/activity-map-page.md) ディメンション。 | varchar(255) |
-| **`post_`** | **`clickmapregion`** | [Activity Map地域 &#x200B;](/help/components/dimensions/activity-map-region.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`clickmaplink`** | [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | リージョン [ ディメンション別](/help/components/dimensions/activity-map-link-by-region.md)Activity Map リンク。 | varchar(255) |
+| **`post_`** | **`clickmappage`** | [Activity Map ページ ](/help/components/dimensions/activity-map-page.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`clickmapregion`** | [Activity Map地域](/help/components/dimensions/activity-map-region.md) ディメンション。 | varchar(255) |
 | | **`code_ver`** | イメージリクエストのコンパイルと送信に使用される API またはクライアント SDK のバージョン。 | char(16) |
 | | **`color`** | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
-| | **`connection_type`** | [&#x200B; 接続タイプ &#x200B;](/help/components/dimensions/connection-type.md) ディメンションを表す数値 ID。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
+| | **`connection_type`** | [接続タイプ ](/help/components/dimensions/connection-type.md) ディメンションを表す数値ID。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | **`post_`** | **`cookies`** | 「[cookie サポート](/help/components/dimensions/cookie-support.md)」ディメンション。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | | **`country`** | 訪問者の国を表す数値 ID。`country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`post_`** | **`currency`** | 取引で使用された通貨のコード。[`currencyCode`](/help/implement/vars/config-vars/currencycode.md) を使用して設定します。 | char(8) |
 | | **`ct_connect_type`** | `connection_type` 列と関連しています。よく使用される値は LAN/Wi-Fi、Mobile Carrier、Modem です。 | char(20) |
-| | **`curr_factor`** | 通貨の小数点以下の桁数を指定します。 通貨換算に使用されます。 例えば、USD では小数点以下 2 桁が使用されるので、この列の値は `2` になります。 | tinyint |
+| | **`curr_factor`** | Determines the currency decimal place. Used for currency conversion. 例えば、USD では小数点以下 2 桁が使用されるので、この列の値は `2` になります。 | tinyint |
 | | **`curr_rate`** | 取引が発生した際の為替レート。アドビは、XE と提携して、当日の為替レートを判定します。 | decimal(24,12) |
 | **`post_`** | **`customer_perspective`** | ヒットがモバイルバックグラウンドヒットかどうかを判定します。詳しくは、[コンテキスト対応セッション](/help/components/vrs/vrs-mobile-visit-processing.md)を参照してください。 | tinyint unsigned |
 | **`post_`** | **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されたタイムスタンプ（UNIX® 時間に基づく）。 | int |
@@ -70,10 +70,10 @@ ht-degree: 92%
 | | **`duplicated_from`** | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットがどのレポートスイートからコピーされたかを示します。 | varchar(40) |
 | | **`duplicate_events`** | 重複としてカウントされた各イベントを一覧表示します。 | varchar(255) |
 | | **`duplicate_purchase`** | このヒットの購入イベントが重複しているので無視されるかどうかを判定するフラグ。 | tinyint unsigned |
-| **`post_`** | **`ef_id`** | Adobe Advertising統合で使用される EF ID。 | varchar(255) |
+| **`post_`** | **`ef_id`** | Adobe Advertising統合で使用されるEF ID。 | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | カスタム変数 1 ～ 250。「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有の[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)を参照してください。 | varchar(255) |
-| **`post_`** | **`event_list`** | ヒット時にトリガーされたイベントを表す数値 ID のコンマ区切りリスト。コマースイベントと [&#x200B; カスタムイベント 1 ～ 1000](/help/components/metrics/custom-events.md) の両方が含まれます。 `event.tsv` ルックアップを使用します。 | text |
-| | **`exclude_hit`** | ヒットがレポートから除外されるかどうかを判定するフラグ。 除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
+| **`post_`** | **`event_list`** | ヒット時にトリガーされたイベントを表す数値 ID のコンマ区切りリスト。コマースイベントと[ カスタムイベント 1 ～ 1000](/help/components/metrics/custom-events.md)の両方が含まれます。 `event.tsv` ルックアップを使用します。 | text |
+| | **`exclude_hit`** | ヒットがレポートから除外されるかどうかを判定するフラグ。 除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16: Analytics ヒットと一致しないAdobe Advertising ヒット | tinyint unsigned |
 | | **`first_hit_pagename`** | 「[入口ページのオリジナル](/help/components/dimensions/entry-dimensions.md)」ディメンション。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | | **`first_hit_page_url`** | 訪問者の本当に最初の URL。 | varchar(255) |
 | | **`first_hit_referrer`** | 訪問者の本当に最初の参照 URL。 | varchar(255) |
@@ -87,7 +87,7 @@ ht-degree: 92%
 | | **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック「 `zip`」を参照してください。 | varchar(16) |
 | | **`hitid_high`** | `hitid_low` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | | **`hitid_low`** | `hitid_high` と共に使用し、ヒットを識別します。 | bigint unsigned |
-| | **`hit_source`** | ヒットソース。ヒットソース 1 および 2 は請求されます。 <br>1：タイムスタンプのない標準画像リクエスト <br>2：タイムスタンプのある標準画像リクエスト <br>3：タイムスタンプのあるライブデータソースアップロード <br>4：未使用 <br>5：一般的なデータソースアップロード <br>6：使用されなくなった、フル処理のデータソースアップロード <br>7:TransactionID データソースのアップロード <br>8：使用されなくなった、Adobe Advertising データソースの以前のバージョン <br>9：使用されなくなった、Adobe Social 概要指標 <br>10:Audience Manager サーバーサイド転送が使用された | tinyint unsigned |
+| | **`hit_source`** | ヒットソース。ヒットソース 1と2は請求されます。 <br>1: タイムスタンプのない標準的な画像リクエスト <br>2: タイムスタンプ付きの標準的な画像リクエスト <br>3: タイムスタンプ付きのライブデータソースアップロード <br>4：未使用<br>5：汎用データソースアップロード <br>6：未使用、処理中データソースアップロード <br>7: TransactionID データソースのアップロード <br>8：未使用、以前のバージョンのAdobe Advertising データソース <br>9：未使用、Adobe Social サマリーメトリクス <br>10: Audience Manager サーバーサイド転送が使用 | tinyint unsigned |
 | | **`hit_time_gmt`** | ヒットを受信したアドビデータ収集サーバーのタイムスタンプ（UNIX® 時間に基づく）。 | int |
 | | **`hourly_visitor`** | ヒットが新しい時間別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
 | | **`ip`** | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。`ipv6` とは相互排他的です。難読化されていない IP アドレスがこの列に含まれている場合、`ipv6` は空白になります。 | char(20) |
@@ -97,7 +97,7 @@ ht-degree: 92%
 | | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | | **`language`** | 訪問者の言語を表す数値 ID。`languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
-| | **`last_purchase_num`** | 「[&#x200B; 顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンション。 訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
+| | **`last_purchase_num`** | 「[ 顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンション。 訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
 | | **`last_purchase_time_gmt`** | 「[[!UICONTROL 前回購入からの日数]](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。前回行った購入のタイムスタンプ（UNIX® 時間）。初回の購入やこれまでに購入を行っていない訪問者の場合、この値は `0` になります。 | int |
 | | **`latlon1`** | ロケーション（半径 10 km 以内） | varchar(255) |
 | | **`latlon23`** | ロケーション（半径 100 m 以内） | varchar(255) |
@@ -155,7 +155,7 @@ ht-degree: 92%
 | **`post_`** | **`page_event_var1`** | リンクトラッキングのイメージリクエストでのみ使用されます。 ダウンロードリンク、離脱リンクまたはクリックされたカスタムリンクの URL。 | text |
 | **`post_`** | **`page_event_var2`** | リンクトラッキングのイメージリクエストでのみ使用されます。 リンクのカスタム名（指定した場合）。[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[離脱リンク](/help/components/dimensions/exit-link.md)を設定します（`page_event` の値によって異なります）。 | varchar(100) |
 | **`post_`** | **`page_type`** | 「[ページが見つかりません](/help/components/dimensions/pages-not-found.md)」ディメンション。通常、404 ページに使用されます。 | char(20) |
-| **`post_`** | **`page_url`** | **`page_url`**：ヒットの URL。 テキストのデータタイプを使用します。<br>**`post_page_url`**: リンクトラッキング イメージリクエスト（[`tl()`](/help/implement/vars/functions/tl-method.md)）では削除されました。 varchar （255）のデータ型を使用します。 | text<br>varchar （255） |
+| **`post_`** | **`page_url`** | **`page_url`**: ヒットのURL。 テキストのデータタイプを使用します。<br>**`post_page_url`**: リンクトラッキング画像要求（[`tl()`](/help/implement/vars/functions/tl-method.md)）の対象から外されました。 varchar （255）のデータタイプを使用します。 | text<br>varchar （255） |
 | | **`paid_search`** | ヒットが有料検索の検出に一致するかどうかを判定するフラグ。 | tinyint unsigned |
 | **`post_`** | **`persistent_cookie`** | 「[永続的な cookie のサポート](/help/components/dimensions/persistent-cookie-support.md)」ディメンションで使用されます。各ヒット後に破棄されない Cookie を訪問者がサポートしているかどうかを示します。 | char(1) |
 | **`post_`** | **`pointofinterest`** | Mobile Services 目標地点の名前 | varchar(255) |
@@ -166,7 +166,7 @@ ht-degree: 92%
 | | **`quarterly_visitor`** | ヒットが新しい四半期別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
 | **`post_`** | **`referrer`** | 「[リファラー](/help/components/dimensions/referrer.md)」ディメンション。`referrer` のデータ型は varchar(255)、`post_referrer` のデータ型は varchar(244) です。 | varchar （255） <br>varchar （244） |
 | | **`ref_domain`** | 「[参照ドメイン](/help/components/dimensions/referring-domain.md)」ディメンション。`referrer` 列に基づきます。 | varchar(100) |
-| | **`ref_type`** | ヒットのリファラルのタイプを表す数値 ID。「[リファラータイプ](/help/components/dimensions/referrer-type.md)」ディメンションで使用されます。<br>1：サイト内 <br>2：その他の Web サイト <br>3：検索エンジン <br>4：ハードドライブ <br>5:USENET<br>6：型指定/ブックマーク（リファラーなし） <br>7：電子メール <br>8:JavaScriptなし <br>9：ソーシャルネットワーク <br>10：対話型 AI ツール | tinyint unsigned |
+| | **`ref_type`** | ヒットのリファラルのタイプを表す数値 ID。「[リファラータイプ](/help/components/dimensions/referrer-type.md)」ディメンションで使用されます。<br>1: サイト内<br>2：その他のweb サイト <br>3：検索エンジン <br>4：ハードドライブ <br>5:USENET<br>6：入力/ブックマーク済み（リファラーなし） <br>7：電子メール <br>8：いいえJavaScript<br>9：ソーシャルネットワーク <br>10：対話型AI ツール | tinyint unsigned |
 | | **`resolution`** | モニターの解像度を表す数値 ID。「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションで使用されます。`resolution.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
 | **`post_`** | **`search_engine`** | サイトに訪問者を誘導した検索エンジンを表す数値 ID。「[検索エンジン](/help/components/dimensions/search-engine.md)」ディメンションで使用されます。 `search_engines.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | | **`search_page_num`** | 「[すべての検索ページのランク](/help/components/dimensions/all-search-page-rank.md)」ディメンションで使用されます。ユーザーがクリックスルーしてサイトに到達する前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
@@ -178,8 +178,8 @@ ht-degree: 92%
 | **`post_`** | **`tnt`** | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | text |
 | **`post_`** | **`tnt_action`** | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | text |
 | | **`tnt_instances`** | Adobe Target 統合で使用されます。Target インスタンス変数。 | text |
-| **`post_`** | **`transactionid`** | 様々なデータポイントをデータソースから後でアップロードできる一意の識別子。 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | text |
-| | **`truncated_hit`** | イメージリクエストが切り捨てられた（部分的なヒットを受信した）ことを示すフラグ。 <br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
+| **`post_`** | **`transactionid`** | 後でデータソースを通じて様々なデータポイントをアップロードできる、一意のID。 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | text |
+| | **`truncated_hit`** | A flag indicating that the image request was truncated (a partial hit was received). <br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
 | **`post_`** | **`t_time_info`** | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | | **`userid`** | 未使用。レポートスイート ID の数値 ID。代わりに、`username` を使用してください。 | int unsigned |
 | | **`username`** | ヒットのレポートスイート ID。 | char(40) |
@@ -195,7 +195,7 @@ ht-degree: 92%
 | **`post_`** | **`video`** | 「[コンテンツ](/help/components/dimensions/sm-core.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoad`** | 「[広告](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoadinpod`** | 「[ポッド位置の広告](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadlength`** | 「[広告の長さ（変数）](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | integer |
+| **`post_`** | **`videoadlength`** | 「[広告の長さ（変数）](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | 整数 |
 | **`post_`** | **`videoadname`** | 「[広告名（変数）](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoadplayername`** | 「[広告プレーヤー名](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoadpod`** | 「[広告ポッド](/help/components/dimensions/sm-ads.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
@@ -231,7 +231,7 @@ ht-degree: 92%
 | **`post_`** | **`videoqoetimetostartevar`** | 「[開始時間](/help/components/dimensions/sm-quality.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoseason`** | 「[シーズン](/help/components/dimensions/sm-video-metadata.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videosegment`** | 「[コンテンツセグメント](/help/components/dimensions/sm-core.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [&#x200B; メディアセッション ID](/help/components/dimensions/sm-core.md) ストリーミングメディアサービス ディメンション。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [ メディアセッション ID](/help/components/dimensions/sm-core.md) ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoshow`** | 「[表示](/help/components/dimensions/sm-video-metadata.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoshowtype`** | 「[表示タイプ](/help/components/dimensions/sm-video-metadata.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | | **`videostreamtype`** | 「[ストリームタイプ](/help/components/dimensions/sm-core.md)」ストリーミングメディアサービスディメンション。 | varchar(255) |
@@ -240,15 +240,15 @@ ht-degree: 92%
 | | **`visid_new`** | ヒットに新しく生成された訪問者 ID が含まれているかどうかを判定するフラグ。 | char(1) |
 | | **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻の UNIX® 時間でのタイムスタンプを示します。 | int |
 | **`post_`** | **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`：カスタム訪問者 ID または不明／該当なし<br>`1`：IP およびユーザーエージェントのフォールバック<br>`2`：HTTP モバイル加入者ヘッダー<br>`3`：従来の cookie 値（`s_vi`）<br>`4`：フォールバック cookie の値（`s_fid`）<br>`5`：ID サービス | tinyint unsigned |
-| **`post_`** | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンション。この列では、Adobeで使用されるバックエンドロジックに対応するために、varchar （244）という非標準の文字制限を使用します。 後処理列は `**post_keywords**` ではなく `**post_visit_keywords**` です。 | varchar(244) |
+| **`post_`** | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンション。この列では、Adobeで使用されるバックエンドロジックに対応するために、varchar （244）という非標準の文字制限を使用します。 後処理列は`**post_keywords**`ではなく`**post_visit_keywords**`です。 | varchar(244) |
 | | **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンション。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
 | | **`visit_page_num`** | 「[ヒット深度](/help/components/dimensions/hit-depth.md)」ディメンション。 訪問者が生成するヒットごとに 1 ずつ増加します。各訪問をリセットします。 | int unsigned |
 | | **`visit_referrer`** | 訪問の最初のリファラー。 | varchar(255) |
 | | **`visit_ref_domain`** | `visit_referrer` 列に基づきます。訪問の最初の参照ドメイン。 | varchar(100) |
 | | **`visit_ref_type`** | 訪問の最初のリファラーのリファラータイプを表す数値 ID。`referrer_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | | **`visit_search_engine`** | 訪問の最初の検索エンジンを表す数値 ID。`search_engines.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
-| | **`visit_start_pagename`** | 訪問の最初のヒットの [&#x200B; ページ &#x200B;](/help/components/dimensions/page.md)。 | varchar(100) |
-| | **`visit_start_page_url`** | 訪問の最初のヒットの URL。 | varchar(255) |
+| | **`visit_start_pagename`** | [Page](/help/components/dimensions/page.md) of the first hit of the visit. | varchar(100) |
+| | **`visit_start_page_url`** | URL of the first hit of the visit. | varchar(255) |
 | | **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | | **`weekly_visitor`** | ヒットが新しい週別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
 | | **`yearly_visitor`** | ヒットが新しい年別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
@@ -258,7 +258,7 @@ ht-degree: 92%
 
 次の列のリストは、未使用、廃止、またはレポートに値が含まれません。これらの列の一部は廃止された機能に関連付けられていますが、他の列は新機能やより堅牢な機能により不要になりました。これらの列のほとんどにはデータが含まれていません。まだデータが含まれている可能性のある列は、現在のデータ収集ライブラリではサポートされておらず、Analysis Workspace で使用できるディメンションではありません。
 
-| 投稿 | 列名 |
+| Post | 列名 |
 | ---: | :--- |
 | `post_` | `adclassificationcreative` |
 | | `click_action` |
