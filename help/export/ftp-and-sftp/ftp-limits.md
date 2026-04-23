@@ -1,19 +1,19 @@
 ---
-description: アドビのすべての FTP アカウントでは、最大で 2 GB（または 63 ファイル）のデータを保存できます。これらの FTP アカウントでは、ファイルは 90 日間保持されます。
+description: すべてのAdobe FTP アカウントには、2 GB （または63 ファイル）のデータストレージ制限があります。 これらの FTP アカウントでは、ファイルは 90 日間保持されます。
 keywords: ftp;sftp
-title: FTP の制限とデータ保持期間
+title: FTPおよびSFTPの制限とデータ保持
 feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
-source-git-commit: 0cbabeff05ea3ecc685160e3333c17aeff83dc4a
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 56%
 
 ---
 
-# FTP の制限とデータ保持期間
+# FTPおよびSFTPの制限とデータ保持
 
-アドビのすべての FTP アカウントでは、最大で 100 GB のデータを保存できます。これらの FTP アカウントでは、ファイルは 90 日間保持されます。
+すべてのAdobe FTPおよびSFTP アカウントには、データストレージの制限が100 GBです。 これらの FTP アカウントでは、ファイルは 90 日間保持されます。
 
 ## 同時接続の制限
 
