@@ -1,14 +1,15 @@
 ---
 title: 分類セットスキーマ
-description: 個々の分類セットのスキーマを表示および編集する方法について説明します。
+description: Adobe Analyticsで分類セットのスキーマを表示および編集する方法について説明します。 クラウドの場所を使用して、分類データを追加、アップロード、ダウンロード、自動化します。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1618'
 ht-degree: 9%
 
 ---
+
 
 # 分類セットスキーマ
 
@@ -36,7 +37,7 @@ ht-degree: 9%
 | 列 | 説明 |
 |---|---|
 | **[!UICONTROL 分類名]** | 分類に指定した名前。 |
-| **[!UICONTROL ID名]** | 分類のシステムによる派生名。 この名前は読み取り専用の値で、ID名を使用できます |
+| **[!UICONTROL ID名]** | 分類の名前を生成しました。 この名前は読み取り専用の値で、ID名を使用できます。 |
 | **[!UICONTROL 分類者：]** | 使用する場合は、この分類の分類に使用する検索分類セットへのリンクを指定します。 |
 
 
@@ -65,8 +66,6 @@ ht-degree: 9%
 ![分類セット – スキーマに分類を追加](assets/classification-sets-schema-add-classification.png)
 
 **[!UICONTROL 分類セット名&#x200B;_の新しい分類を追加ダイアログで、_]**&#x200B;分類名&#x200B;**[!UICONTROL を入力し、]**&#x200B;追加&#x200B;**[!UICONTROL を選択します。]**&#x200B;分類がリストに追加されます。
-
-
 
 ### アップロード
 
@@ -141,7 +140,7 @@ ht-degree: 9%
    * **[!UICONTROL コンマ区切り値]**。
    * **[!UICONTROL Excel タブ区切り値]**。
 
-1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイルエンコーディング]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL Latin-1]**。
@@ -204,7 +203,7 @@ ht-degree: 9%
    * **[!UICONTROL Latin-1]**。
 
 1. 取り込みジョブの完了をユーザーに通知するには、取り込みジョブの完了時に通知する電子メール **[!UICONTROL 件の電子メールアドレスをコンマで区切って入力します（コンマで区切ります）]**。
-1. 「**[!UICONTROL 検証]**」を選択します。 クラウドの場所への接続が検証されます。検証が成功すると、トーストメッセージに「![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 場所の検証が成功しました」と表示されます。 クラウドストレージへの接続が検証されました。]**<br/> クラウド接続への接続を作成した場合は、**[!UICONTROL &#x200B;保存&#x200B;]**&#x200B;を選択します。 それ以外は、**[!UICONTROL &#x200B;更新&#x200B;]**&#x200B;を選択してください。 または、**[!UICONTROL &#x200B; キャンセル &#x200B;]**&#x200B;を選択して、クラウドの場所の設定をキャンセルします。
+1. 「**[!UICONTROL 検証]**」を選択します。 クラウドの場所への接続が検証されます。 検証が成功すると、トーストメッセージが表示され、![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successfulと表示されます。 クラウドストレージへの接続が検証されました。]**<br/> クラウド接続への接続を作成した場合は、**[!UICONTROL &#x200B;保存&#x200B;]**&#x200B;を選択します。 それ以外は、**[!UICONTROL &#x200B;更新&#x200B;]**&#x200B;を選択してください。 または、**[!UICONTROL &#x200B; キャンセル &#x200B;]**&#x200B;を選択して、クラウドの場所の設定をキャンセルします。
 
 クラウドの場所にファイルをアップロードすると、15分以内にファイルが検出され、インポートジョブとして送信されます。 その読み込みジョブの結果は、[分類ジョブマネージャー](/help/components/classifications/sets/job-manager.md)に報告されます。 取り込みジョブの完了を通知するためにユーザーのリストに追加された場合は、メールメッセージも受信します。
 
