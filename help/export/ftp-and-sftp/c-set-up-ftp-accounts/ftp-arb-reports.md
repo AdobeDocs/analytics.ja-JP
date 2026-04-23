@@ -15,6 +15,6 @@ ht-degree: 48%
 
 Microsoft Excel 用の Adobe Report Builder アドオンを使用すると、Web 分析データからカスタマイズレポートを作成し、Excel ワークシートに挿入できます。
 
-リクエストは、ワークシート内のセルを動的に参照でき、データの表示方法を更新およびカスタマイズできます。 FTPまたはSFTPの場合は、ホストが外部で使用可能であることを確認する必要があります。 [!UICONTROL Report Builder]が配信したレポートについて詳しくは、[Report Builder ヘルプ ](/help/analyze/report-builder/rb-overview.md)を参照してください。
+リクエストは、ワークシート内のセルを動的に参照でき、データの表示方法を更新およびカスタマイズできます。 FTPまたはSFTPの場合は、ホストが外部で使用可能であることを確認する必要があります。 [!UICONTROL Report Builder]が配信したレポートについて詳しくは、[Report Builder ヘルプ &#x200B;](/help/analyze/report-builder/rb-overview.md)を参照してください。
 
 FTPまたはSFTPの制限とデータ保持について詳しくは、[FTPおよびSFTPの制限とデータ保持](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
