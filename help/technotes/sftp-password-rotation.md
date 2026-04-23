@@ -32,7 +32,7 @@ ht-degree: 3%
 >FTPとSFTPは従来の宛先タイプです。 この記事で説明したように、FTP アカウントをSFTPにアップグレードしてSFTP パスワードをローテーションするのではなく、Adobeでは、最新のクラウド宛先タイプ（Amazon S3、Google Cloud Platform、Azureなど）に移行することをお勧めします。 これらのクラウドの宛先は、より高いレベルのセキュリティを提供します。 詳しくは、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](https://experienceleague.adobe.com/ja/docs/analytics/components/locations/configure-import-accounts)を参照してください。
 >
 >* **FTP アカウントとSFTP アカウントが分類専用で使用されている場合は、分類セットに移行します。**
->お使いのFTP アカウントまたはSFTP アカウントがClassifications専用に使用されている場合は、この記事で説明されているように、FTP アカウントをSFTPにアップグレードしてSFTP パスワードをローテーションするのではなく、**Classifications インポーター**&#x200B;から&#x200B;**Classification セット**&#x200B;に移行する必要があります。 分類インポーターは廃止され、2026年8月31日&#x200B;**以降はアクセスできなくなります。**&#x200B;詳しくは、[分類セットの概要](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview)を参照してください。
+>お使いのFTP アカウントまたはSFTP アカウントがClassifications専用に使用されている場合は、この記事で説明されているように、FTP アカウントをSFTPにアップグレードしてSFTP パスワードをローテーションするのではなく、**Classifications インポーター**&#x200B;から&#x200B;**Classification セット**&#x200B;に移行する必要があります。 分類インポーターは廃止され、2026年8月31日&#x200B;**以降はアクセスできなくなります。**&#x200B;詳しくは、[分類セットの概要](https://experienceleague.adobe.com/ja/docs/analytics/components/classifications/sets/overview)を参照してください。
 
 ## 前提条件
 
