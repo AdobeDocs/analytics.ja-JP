@@ -4,20 +4,20 @@ keywords: ftp;sftp
 title: FTP を使用した Engineering Services エンゲージメント
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# FTP を使用した Engineering Services エンゲージメント
+# FTPまたはSFTPによるエンジニアリングサービスのエンゲージメント
 
-多くの Adobe Engineering Services エンゲージメントではデータの交換を行いますが、その際に FTP が必要になります。
+多くのAdobe エンジニアリングサービスでは、データの交換が必要となるため、FTPやSFTPが頻繁に必要になります。
 
-これらのエンゲージメントには、[!UICONTROL DB VISTA] やカスタムプロジェクトがあります。
+これらのエンゲージメントには、[!UICONTROL DB VISTA]およびカスタムプロジェクトが含まれます。
 
-FTP の制限とデータ保持については、「[FTP の制限とデータ保持 &#x200B;](/help/export/ftp-and-sftp/ftp-limits.md)」を参照してください。
+FTP制限とデータ保持について詳しくは、[FTP制限とデータ保持](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
