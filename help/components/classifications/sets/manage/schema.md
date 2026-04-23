@@ -3,9 +3,9 @@ title: 分類セットスキーマ
 description: 個々の分類セットのスキーマを表示および編集する方法について説明します。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 9%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 9%
    * **[!UICONTROL コンマ区切り値]** （CSV）。
    * **[!UICONTROL タブ区切りの値]** （TSVまたはTAB）。
 
-1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、2. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、「ファイルのエンコーディング」ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
+1. ファイルのダウンロード時に[&#x200B; ファイルエンコーディング &#x200B;](/help/components/classifications/sets/data-files.md#general-file-requirements)を選択するには、**[!UICONTROL ファイルエンコーディング]** ドロップダウンメニューからオプションを選択します。 オプションは次のとおりです。
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL Latin-1]**。
