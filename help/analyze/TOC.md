@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -141,7 +142,7 @@ ht-degree: 100%
       + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
       + [読み取り専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [ダウンロード](analysis-workspace/curate-share/download-send.md)
-      + [送信とスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
+      + [送信およびスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + アトリビューション {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [モデル, コンテナ, ルックバックウィンドウ](analysis-workspace/attribution/models.md)
@@ -174,8 +175,8 @@ ht-degree: 100%
    + [セグメントの操作](report-builder/work-with-segments.md)
    + [ディメンションのフィルタリング](report-builder/filter-dimensions.md)
    + [データブロックの管理](report-builder/manage-reportbuilder.md)
-   + [メールのワークブックのスケジュール設定](report-builder/schedule-reportbuilder.md)
-   + [クラウド書き出しのワークブックのスケジュール設定](/help/analyze/report-builder/report-builder-export.md)
+   + [メール用ワークブックのスケジュール設定](report-builder/schedule-reportbuilder.md)
+   + [クラウド書き出し用ワークブックのスケジュール設定](/help/analyze/report-builder/report-builder-export.md)
    + [スケジュールされたワークブックの管理](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Report Builder の設定](report-builder/report-builder-settings.md)
 + レガシー Report Builder {#legacy-report-builder}
