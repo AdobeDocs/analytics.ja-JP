@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '545'
+ht-degree: 20%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
->title="データフィードの履歴"
->abstract="このページから、特定のデータフィードのデータフィードのジョブのリストを表示できます。 リクエスト IDまたはリクエスト期間の開始日でジョブを検索します。 各ジョブに関する情報は、使用可能な列に表示されます。 同じデータを使用してジョブを再送信したり、再送信する前にジョブのソースデータを再処理したりすることもできます。"
+>title="データフィードジョブ履歴"
+>abstract="このページでは、特定のデータフィードのデータフィードジョブのリストを表示できます。 リクエスト ID またはリクエスト期間の開始日でジョブを検索します。 使用可能な列には、各ジョブに関する情報が表示されます。 同じデータでジョブを再送信したり、ジョブのソースデータを再送信前に再処理することもできます。"
 
 <!-- markdownlint-enable MD034 -->
 
