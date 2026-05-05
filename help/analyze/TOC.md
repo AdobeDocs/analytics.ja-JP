@@ -106,7 +106,7 @@ ht-degree: 99%
       + ジャーニーキャンバス {#journey-canvas}
          + {hide-from-toc}[概要](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
          + {hide-from-toc}[設定](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
-         + {hide-from-toc}[ トラブルシューティング ](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
+         + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [積み重ね面グラフ](analysis-workspace/visualizations/area.md)
       + [積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
       + [ブレット](analysis-workspace/visualizations/bullet-graph.md)
