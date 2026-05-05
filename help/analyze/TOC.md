@@ -5,10 +5,10 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 index: true
-source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
+source-git-commit: 24c05a7f323198716486519e2de6ef70fa19fc10
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -103,6 +103,10 @@ ht-degree: 100%
          + [概要](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
+      + ジャーニーキャンバス {#journey-canvas}
+         + {hide-from-toc}[概要](analysis-workspace/visualizations/journey-canvas/journey-canvas.md)
+         + {hide-from-toc}[設定](analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)
+         + {hide-from-toc}[&#x200B; トラブルシューティング &#x200B;](analysis-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting.md)
       + [積み重ね面グラフ](analysis-workspace/visualizations/area.md)
       + [積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
       + [ブレット](analysis-workspace/visualizations/bullet-graph.md)
