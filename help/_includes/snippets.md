@@ -14,11 +14,11 @@ ht-degree: 98%
 >新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。
 >このレガシー Report Builder アドインバージョンは、引き続き機能します。 新しい Report Builder に[レガシーワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)できます。
 
-## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
+## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[ テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
+>**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[&#x200B; テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。 このお知らせでは、提供終了プロセスについて説明します。
 >
