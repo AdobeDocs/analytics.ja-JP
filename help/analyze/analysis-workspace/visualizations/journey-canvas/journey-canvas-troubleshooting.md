@@ -4,7 +4,7 @@ title: ジャーニーキャンバスのトラブルシューティング
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -19,7 +19,9 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 >[!ENDSHADEBOX]
 
-ジャーニーキャンバスのビジュアライゼーションを使用すると、ユーザーやお客様に提供するジャーニーを分析し、深いインサイトを得ることができます。
+{{release-limited-testing}}
+
+ジャーニーキャンバスビジュアライゼーションを使用すると、ユーザーやお客様に提供するジャーニーを分析し、深いインサイトを得ることができます。
 
 ジャーニーキャンバスについて詳しくは、[ジャーニーキャンバスの概要](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)および[ジャーニーキャンバスビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)を参照してください。
 

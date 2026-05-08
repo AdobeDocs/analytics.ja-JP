@@ -4,7 +4,7 @@ title: ジャーニーキャンバスの概要
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
@@ -54,6 +54,8 @@ ht-degree: 88%
 _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) [Adobe Analytics_ _&#x200B;**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 ジャーニーキャンバスビジュアライゼーションを使用すると、ユーザーやお客様に提供するジャーニーを分析し、深いインサイトを得ることができます。 ジャーニーを定義し、ジャーニーの途中で離脱した顧客や離脱した顧客を把握できます。
 
