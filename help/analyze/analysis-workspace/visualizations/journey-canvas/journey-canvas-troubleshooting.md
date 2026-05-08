@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) [Adobe Analytics_ _&#x200B;**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)を参照してください。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) [Adobe Analytics_ _&#x200B;**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)を参照してください。
 
 >[!ENDSHADEBOX]
 
