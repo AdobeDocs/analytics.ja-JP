@@ -69,7 +69,7 @@ Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
   同様に、レポートスイート内のコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
 
-  Analysis Workspaceまたはレポートスイートでのコンポーネント説明の追加について詳しくは、[ コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
+  Analysis Workspaceまたはレポートスイートでのコンポーネント説明の追加について詳しくは、[&#x200B; コンポーネント説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)を参照してください。
 
 ## データ辞書へのアクセス
 

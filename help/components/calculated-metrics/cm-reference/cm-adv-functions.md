@@ -879,7 +879,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
+[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -901,7 +901,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
+[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -947,7 +947,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
+[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
 
 | 引数 | 説明 |
 |---|---|

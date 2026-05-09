@@ -26,7 +26,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_&#x200B;の空白パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[空白パネル ](/help/analyze/analysis-workspace/c-panels/blank-panel.md)を参照してください。_
+_この記事では、_&#x200B;の空白パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについては、[空白パネル &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 

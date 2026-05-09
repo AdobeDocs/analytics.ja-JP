@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ データフィード管理](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データフィード管理](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -39,27 +39,27 @@ ht-degree: 18%
 
    アクセス権のあるすべてのレポートスイートのデータフィードが表示されます。 または、フィードが設定されていない場合、ページに「**[!UICONTROL データフィードを作成]**」ボタンが表示されます。
 
-   ![ データフィードマネージャー](assets/data-feed-manager.png)
+   ![&#x200B; データフィードマネージャー](assets/data-feed-manager.png)
 
 ## データフィードの作成
 
-「**[!UICONTROL データフィードを作成]**」ボタンを使用すると、新しいフィードを作成できます。 詳しくは、[ データフィードの作成](create-feed.md)を参照してください。
+「**[!UICONTROL データフィードを作成]**」ボタンを使用すると、新しいフィードを作成できます。 詳しくは、[&#x200B; データフィードの作成](create-feed.md)を参照してください。
 
 ## データフィードの編集
 
 1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
 
-1. 編集するデータフィードを探します。 データフィードを検索するには、[ フィルターを実行して、データフィードのリストを検索します](#filter-and-search-the-list-of-data-feeds)。
+1. 編集するデータフィードを探します。 データフィードを検索するには、[&#x200B; フィルターを実行して、データフィードのリストを検索します](#filter-and-search-the-list-of-data-feeds)。
 
 1. [!UICONTROL **フィード名**]&#x200B;列でデータフィードを選択します。
 
 1. データフィードに変更を加えます。
 
-   データフィードのオプションについて詳しくは、[ データフィードの作成](/help/export/analytics-data-feed/create-feed.md)の[ データフィードの作成と設定](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)を参照してください。
+   データフィードのオプションについて詳しくは、[&#x200B; データフィードの作成](/help/export/analytics-data-feed/create-feed.md)の[&#x200B; データフィードの作成と設定](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)を参照してください。
 
    編集中のデータフィードの&#x200B;[!UICONTROL **宛先**] セクションを更新する場合、[!UICONTROL **アカウント**]&#x200B;と&#x200B;[!UICONTROL **場所**] ドロップダウンフィールドで、新しいデータフィードに使用する別のアカウントと場所を選択できます。
 
-   アカウントと場所は、[ クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md)および[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
+   アカウントと場所は、[&#x200B; クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md)および[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
 
    以前のバージョンのdata feeds managerでは、FTP、SFTP、S3、Azure blobの宛先を作成できました。 これらの以前のバージョンのデータフィード マネージャーで作成された宛先は、編集またはコピーできません。
 
@@ -87,7 +87,7 @@ ht-degree: 18%
 
 1. （オプション）特定のデータフィードのジョブ履歴を表示するには、データフィードの横にあるチェックボックスを選択し、[!UICONTROL **ジョブ履歴**]&#x200B;を選択します。
 
-   詳しくは、[ データフィードのジョブの管理](df-manage-jobs.md)を参照してください。
+   詳しくは、[&#x200B; データフィードのジョブの管理](df-manage-jobs.md)を参照してください。
 
 ## データフィードのコピー
 
@@ -95,11 +95,11 @@ ht-degree: 18%
 
 1. コピーするデータフィードの横にあるチェックボックスを選択し、[!UICONTROL **コピー**]&#x200B;を選択します。
 
-   これにより、現在のフィードのすべての設定を含む新しいフィード ](create-feed.md)を[作成できます。 複数のデータフィードが選択されている場合、コピーするオプションは表示されません。
+   これにより、現在のフィードのすべての設定を含む新しいフィード [&#128279;](create-feed.md)を作成できます。 複数のデータフィードが選択されている場合、コピーするオプションは表示されません。
 
    コピー中のデータフィードの&#x200B;[!UICONTROL **宛先**] セクションを更新する場合、[!UICONTROL **アカウント**]&#x200B;と&#x200B;[!UICONTROL **場所**] ドロップダウンフィールドで、新しいデータフィードに使用する別のアカウントと場所を選択できます。
 
-   アカウントと場所は、[ クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md)および[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
+   アカウントと場所は、[&#x200B; クラウドの読み込みと書き出しのアカウントの設定](/help/components/locations/configure-import-accounts.md)および[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)の説明に従って編集できます。 アカウントまたは場所を編集すると、そのアカウントまたは場所に関連付けられているすべての項目に影響します。
 
    以前のバージョンのdata feeds managerでは、FTP、SFTP、S3、Azure blobの宛先を作成できました。 これらの以前のバージョンのデータフィード マネージャーで作成された宛先は、編集またはコピーできません。
 
@@ -107,7 +107,7 @@ ht-degree: 18%
 
 データフィードを一時停止すると、フィードの処理が停止し、ステータスが&#x200B;**[!UICONTROL 非アクティブ]**&#x200B;に設定されます。
 
-フィードを一時停止した後にフィードを再アクティブ化すると、フィードを一時停止した時点のデータは、バックフィルフィードでは処理されますが、ライブフィードでは処理されません。 詳しくは、[ データフィードの有効化](#activate-a-data-feed)を参照してください。
+フィードを一時停止した後にフィードを再アクティブ化すると、フィードを一時停止した時点のデータは、バックフィルフィードでは処理されますが、ライブフィードでは処理されません。 詳しくは、[&#x200B; データフィードの有効化](#activate-a-data-feed)を参照してください。
 
 データフィードを一時停止するには：
 
@@ -153,7 +153,7 @@ ht-degree: 18%
 
 表の表示列を調整するには、次の手順に従います。
 
-1. 右上の列アイコン ![列アイコン ](assets/customize-columns-icon.png)を選択します。
+1. 右上の列アイコン ![列アイコン &#x200B;](assets/customize-columns-icon.png)を選択します。
 
 1. 表をカスタマイズ ダイアログで、表示する各列を選択し、非表示にする各列の選択を解除します。
 
@@ -173,7 +173,7 @@ ht-degree: 18%
       * 削除済み：フィードが削除されます。
       * 完了：フィードの処理が完了しました。 完成したフィードは、編集、保留、またはキャンセルできます。
       * 保留中：フィードが作成されましたが、まだアクティブではありません。 フィードは短い移行時間、この状態のままになります。
-      * 非アクティブ：「一時停止中」または「保留中」の状態と同じです。 非アクティブなフィードが再アクティブ化された場合のバックフィルフィードとライブフィードの処理について詳しくは、[ データフィードのアクティブ化](#activate-a-data-feed)を参照してください。
+      * 非アクティブ：「一時停止中」または「保留中」の状態と同じです。 非アクティブなフィードが再アクティブ化された場合のバックフィルフィードとライブフィードの処理について詳しくは、[&#x200B; データフィードのアクティブ化](#activate-a-data-feed)を参照してください。
    * **最終変更日**: フィードが最後に変更された日付。 日付と時刻は、GMT オフセットを含むレポートスイートのタイムゾーンに表示されます。
    * **開始日**：このフィードの最初のジョブの日付。 日付と時刻は、GMT オフセットを含むレポートスイートのタイムゾーンに表示されます。
    * **終了日**：このフィードの最後のジョブの日付。 進行中のデータフィードに終了日がありません。

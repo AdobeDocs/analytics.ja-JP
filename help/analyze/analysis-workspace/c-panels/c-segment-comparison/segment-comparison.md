@@ -33,7 +33,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_&#x200B;のセグメント比較パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![ ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
+_この記事では、_&#x200B;のセグメント比較パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![&#x200B; &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 

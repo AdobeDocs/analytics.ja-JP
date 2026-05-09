@@ -50,7 +50,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 1. メイン画面には、Adobe Analytics環境の包括的なインベントリが表示されます。
 
-   ![ メインの在庫画面](assets/an_inventory.png)
+   ![&#x200B; メインの在庫画面](assets/an_inventory.png)
 
    具体的には、次の画面が表示されます。
 
@@ -103,7 +103,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 1. レポートスイートを分析するには、**[!UICONTROL データ設定とコレクション]**/**[!UICONTROL レポートスイート]**&#x200B;に移動し、**[!UICONTROL 分析]**&#x200B;をクリックします。
 
-   ![ レポートスイートのリスト ](assets/an_inv_rs.png)
+   ![&#x200B; レポートスイートのリスト &#x200B;](assets/an_inv_rs.png)
 
    | 要素 | 説明 |
    | --- | --- |
@@ -113,9 +113,9 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | 指標 | このレポートスイートで定義されている指標の数 |
    | ディメンション | このレポートスイートで定義されるディメンションの数は？ |
    | Analytics for Target (A4T) は有効になっています | [ デフォルトで非表示]このレポートスイートは[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)で有効になっていますか？ |
-   | マーケティングチャネルは有効になっています | [ デフォルトで非表示]このレポートスイートは[ マーケティングチャネル ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に対して有効になっていますか？ |
-   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの[Adobe Analytics Source コネクタでレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source コネクタを使用してCustomer Journey Analyticsに移行できますか？ |
-   | カレンダータイプ | [ デフォルトで非表示]詳しくは、[ カスタムカレンダー](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)を参照してください |
+   | マーケティングチャネルは有効になっています | [ デフォルトで非表示]このレポートスイートは[&#x200B; マーケティングチャネル &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に対して有効になっていますか？ |
+   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの[Adobe Analytics Source コネクタでレポートスイートデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source コネクタを使用してCustomer Journey Analyticsに移行できますか？ |
+   | カレンダータイプ | [ デフォルトで非表示]詳しくは、[&#x200B; カスタムカレンダー](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)を参照してください |
 
 #### ディメンションの分析
 
@@ -132,7 +132,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | ディメンション ID。 |
    | タイプ | ディメンションのタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対する[Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のあるディメンションを決定します。
 
@@ -153,7 +153,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | 指標ID。 |
    | タイプ | 指標のタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対する[Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のある指標を決定します。
 
@@ -192,7 +192,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 ## コンポーネントの移行
 
-[ コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)を使用すると、Adobe Analytics管理者はAnalytics プロジェクトおよび関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+[&#x200B; コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)を使用すると、Adobe Analytics管理者はAnalytics プロジェクトおよび関連するコンポーネントをCustomer Journey Analyticsに移行できます。
 
 移行プロセスには、次が含まれます。
 

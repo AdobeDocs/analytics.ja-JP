@@ -36,13 +36,13 @@ ht-degree: 13%
    1. 「**[!UICONTROL 問題を通知]**」に 1 つ以上のメールアドレス（コンマ区切り）を入力します。 問題に関するメール通知がこれらのユーザーに送信されます。
    1. 「**[!UICONTROL 分類セットの一致先]**」ドロップダウンメニューから分類セットを選択します。
 
-      左の&#x200B;**[!UICONTROL Source分類セット]**&#x200B;のリストには、選択した分類リストに類似した分類セットが入力され、統合に使用できます。 右側のリストには、選択した![ キー](/help/assets/icons/Key.svg)分類セットが自動的に入力されます。 このベースセットはスキーマ全体を定義し、結合の競合では常に優先されます。
+      左の&#x200B;**[!UICONTROL Source分類セット]**&#x200B;のリストには、選択した分類リストに類似した分類セットが入力され、統合に使用できます。 右側のリストには、選択した![&#x200B; キー](/help/assets/icons/Key.svg)分類セットが自動的に入力されます。 このベースセットはスキーマ全体を定義し、結合の競合では常に優先されます。
 
-   1. 左側のリストから統合する分類セットを選択し、選択した![ キー](/help/assets/icons/Key.svg) ベース **[!UICONTROL _分類セット_]**&#x200B;の下の右側のリストに選択したセットをドロップします。
+   1. 左側のリストから統合する分類セットを選択し、選択した![&#x200B; キー](/help/assets/icons/Key.svg) ベース **[!UICONTROL _分類セット_]**&#x200B;の下の右側のリストに選択したセットをドロップします。
 
       追加の分類セットは、連結を実行する際に昇順で連結されます。 キーが複数の追加セットに存在する場合、上位のランキング分類セットのキーの値が取得されます。 キーが![Key](/help/assets/icons/Key.svg)基本セットと追加セットの両方に存在する場合、基本セットの値が使用されます。
 
-      使用するキーの値を管理するには、リスト内の個々の分類セットと選択した分類セットをドラッグ&amp;ドロップで移動します。 また、![ キー](/help/assets/icons/Key.svg) **[!UICONTROL _分類セット_]**&#x200B;を、選択した分類セットにドラッグ&amp;ドロップで置き換えることもできます。
+      使用するキーの値を管理するには、リスト内の個々の分類セットと選択した分類セットをドラッグ&amp;ドロップで移動します。 また、![&#x200B; キー](/help/assets/icons/Key.svg) **[!UICONTROL _分類セット_]**&#x200B;を、選択した分類セットにドラッグ&amp;ドロップで置き換えることもできます。
 
    1. 分類の統合を保存するには、**[!UICONTROL 保存]**&#x200B;を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
@@ -73,28 +73,28 @@ ht-degree: 13%
 1. 「**[!UICONTROL コンポーネント]**」メニューから「**[!UICONTROL 分類セット]**」を選択します。
 1. **[!UICONTROL 分類セット]** マネージャーで、「**[!UICONTROL 統合]**」タブを選択します。
 1. **[!UICONTROL 分類セット統合]** マネージャーで：
-   1. 分類統合の名前を選択します。 **[!UICONTROL 統合：_分類統合名_]**ダイアログが表示されます。 外観と使用可能なアクションは、統合の現在のステータスと、分類の統合を変更するオプションがあるかどうかによって異なります。
+   1. 分類統合の名前を選択します。 **[!UICONTROL 統合：_分類統合名_]**&#x200B;ダイアログが表示されます。 外観と使用可能なアクションは、統合の現在のステータスと、分類の統合を変更するオプションがあるかどうかによって異なります。
 
       | 使用可能なアクション | 説明 |
       |---|---|
-      | ![ キャンセル ](/help/assets/icons/Cancel.svg) **[!UICONTROL キャンセル]** | [統合をキャンセル ](#cancel)。 |
-      | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 再検証]** | [統合の再検証](#re-validate)。 |
-      | ![ プレイ ](/help/assets/icons/Play.svg) **[!UICONTROL 実行]** | [統合を実行](#run)。 |
+      | ![&#x200B; キャンセル &#x200B;](/help/assets/icons/Cancel.svg) **[!UICONTROL キャンセル]** | [統合をキャンセル &#x200B;](#cancel)。 |
+      | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 再検証]** | [統合の再検証](#re-validate)。 |
+      | ![&#x200B; プレイ &#x200B;](/help/assets/icons/Play.svg) **[!UICONTROL 実行]** | [統合を実行](#run)。 |
       | ![ThumbUp](/help/assets/icons/ThumbUp.svg) **[!UICONTROL 承認]** | [統合を承認](#approve)。 |
 
 
 
 ### 再検証
 
-「統合：分類統合」ダイアログで、分類統合を再検証できます。 ![ アラート ](/help/assets/icons/Alert.svg)は、統合の再構成が必要な統合に関する問題について追加情報を提供する場合があります。
+「統合：分類統合」ダイアログで、分類統合を再検証できます。 ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg)は、統合の再構成が必要な統合に関する問題について追加情報を提供する場合があります。
 
 ![分類セット – 統合の再検証](assets/classifications-sets-consolidations-validated.png)
 
 分類統合を再検証するには、次の手順に従います。
 
 1. 統合の作成に使用したのと同じドラッグ&amp;ドロップのインターフェイスを使用して、統合を再構成します。
-1. ![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 再検証]**&#x200B;を選択します。 検証では、個々の分類セットがこの統合に対して有効であることを確認します。 成功すると、トーストメッセージが表示されます。![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 検証用の統合が正常に送信されました！]**
-1. ダイアログを閉じるには、![CrossSize400](/help/assets/icons/CrossSize400.svg)を選択します。 または、![再生](/help/assets/icons/Play.svg) **[!UICONTROL 実行]**&#x200B;を選択して統合を実行するか、![ キャンセル ](/help/assets/icons/Cancel.svg) **[!UICONTROL キャンセル]**&#x200B;して分類をキャンセルします。
+1. ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 再検証]**&#x200B;を選択します。 検証では、個々の分類セットがこの統合に対して有効であることを確認します。 成功すると、トーストメッセージが表示されます。![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 検証用の統合が正常に送信されました！]**
+1. ダイアログを閉じるには、![CrossSize400](/help/assets/icons/CrossSize400.svg)を選択します。 または、![再生](/help/assets/icons/Play.svg) **[!UICONTROL 実行]**&#x200B;を選択して統合を実行するか、![&#x200B; キャンセル &#x200B;](/help/assets/icons/Cancel.svg) **[!UICONTROL キャンセル]**&#x200B;して分類をキャンセルします。
 
 
 
@@ -127,7 +127,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
    * **[!UICONTROL Mismatch]**: キー値がソース分類セットと一致しない行の割合。 不一致の割合が高い場合、不一致は、分類データが異なりすぎることを示している可能性があります。 選択した分類セットに類似した分類データがあることを確認します。
    * **[!UICONTROL Absent]**: キー値が![Key](/help/assets/icons/Key.svg)分類セットに含まれ、ソース分類セットに含まれていない行の割合。 欠落しているすべての行が、統合された分類セットに追加されます。
 
-1. 分類を承認する準備ができたら、![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認]**&#x200B;を選択します。 **[!UICONTROL 統合を承認しますか？]** 確認を求めるダイアログが表示されます。 **[!UICONTROL 承認]**&#x200B;を選択して、統合を承認します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+1. 分類を承認する準備ができたら、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認]**&#x200B;を選択します。 **[!UICONTROL 統合を承認しますか？]** 確認を求めるダイアログが表示されます。 **[!UICONTROL 承認]**&#x200B;を選択して、統合を承認します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 承認されると、統合された分類セットが作成されます。 ステータスは&#x200B;**[!UICONTROL 完了]**&#x200B;に設定されています。
 

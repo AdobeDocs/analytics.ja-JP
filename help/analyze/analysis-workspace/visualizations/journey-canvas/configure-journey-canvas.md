@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版の[ジャーニーキャンバスのビジュアライゼーションの設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)を参照してください。_
+_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスのビジュアライゼーションの設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 1. 「[!UICONTROL **作成**]」を選択します。
 
-1. 「[ ビジュアライゼーション設定の設定](#configure-visualization-settings)」の説明に従って、ジャーニーを設定します。
+1. 「[&#x200B; ビジュアライゼーション設定の設定](#configure-visualization-settings)」の説明に従って、ジャーニーを設定します。
 
 ## ビジュアライゼーション設定の指定 {#configure-visualization-settings}
 
