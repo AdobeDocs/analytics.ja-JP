@@ -4,10 +4,10 @@ title: 空白パネル
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の空白のパネルについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**空白パネル**&#x200B;を参照してください。_
+_この記事では、_&#x200B;の空白パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[空白パネル ](/help/analyze/analysis-workspace/c-panels/blank-panel.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 **[!UICONTROL 空白のパネル]**&#x200B;を使用するには：
 
-1. **[!UICONTROL 空白のパネル]**&#x200B;を作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
+1. **[!UICONTROL 空白のパネル]**&#x200B;を作成します。 パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
    ![パネルの作成](assets/create-panel.png)
 
@@ -55,7 +55,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 次のことができます。
 
-* パネル&#x200B;**内**&#x200B;の「![AddCircle](/help/assets/icons/AddCircle.svg)」を選択して、別のビジュアライゼーションを追加します。ビジュアライゼーションを選択できるポップアップが表示されます。
+* パネル&#x200B;**内**&#x200B;の「![AddCircle](/help/assets/icons/AddCircle.svg)」を選択して、別のビジュアライゼーションを追加します。 ビジュアライゼーションを選択できるポップアップが表示されます。
 
   | ..を選択 | ...を作成するには |
   |---|---|

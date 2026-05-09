@@ -4,10 +4,10 @@ title: ページ概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="ページの概要パネル"
->abstract="いくつかの高レベルの指標と、特定のページ間の移動をすばやく確認します。<br/><br/>**パラメーター&#x200B;**<br/>**ページディメンション項目を追加**：コンポーネントパネルを開き、ページディメンションを見つけて、キャレットをクリックして展開し、ディメンション項目を表示します。  次に、詳しく知りたい特定のページをビルダーにドラッグ＆ドロップします。ディメンション項目をドラッグ＆ドロップすると、ページに関する主要な情報がレポートに自動的に入力されます。"
+>abstract="いくつかの高レベルの指標と、特定のページ間の移動をすばやく確認します。<br/><br/>**パラメーター&#x200B;**<br/>**ページディメンション項目を追加**：コンポーネントパネルを開き、ページディメンションを見つけて、キャレットをクリックして展開し、ディメンション項目を表示します。 次に、詳しく知りたい特定のページをビルダーにドラッグ＆ドロップします。 ディメンション項目をドラッグ＆ドロップすると、ページに関する主要な情報がレポートに自動的に入力されます。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のページの概要パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_&#x200B;のページ概要パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![ ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 **[!UICONTROL ページの概要]**&#x200B;パネルを使用するには：
 
-1. **[!UICONTROL ページの概要]**&#x200B;パネルを作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
+1. **[!UICONTROL ページの概要]**&#x200B;パネルを作成します。 パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
 1. パネルの[入力](#panel-input)を指定します。
 
@@ -56,8 +56,8 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 | アクセスポイント | 説明 |
 | --- | --- |
-| [!UICONTROL レポート] | <ul><li>パネルは既にプロジェクトにドロップされています。</li><li>左側のパネルが折りたたまれています。</li><li>ページディメンションのみがサポートされています。</li><li>デフォルト設定は既に適用されており、この場合は、[!UICONTROL ページ]ディメンションで最も多く訪問されたページです。この設定は変更できます。</li></ul> |
-| Workspace | 新しいプロジェクトを作成し、左側のパネルのパネルアイコンを選択します。[!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。ドロップダウンリストからディメンション項目を選択します。 |
+| [!UICONTROL レポート] | <ul><li>パネルは既にプロジェクトにドロップされています。</li><li>左側のパネルが折りたたまれています。</li><li>ページディメンションのみがサポートされています。</li><li>デフォルト設定は既に適用されており、この場合は、[!UICONTROL ページ]ディメンションで最も多く訪問されたページです。 この設定は変更できます。</li></ul> |
+| Workspace | 新しいプロジェクトを作成し、左側のパネルのパネルアイコンを選択します。 [!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。 ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。 ドロップダウンリストからディメンション項目を選択します。 |
 
 ### パネル入力 {#panel-input}
 
@@ -89,10 +89,10 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 | **[!UICONTROL すべてのページビューの割合]** | このページに送信されたすべてのページビューの割合を示す数値の概要。 |
 | **[!UICONTROL ページでの滞在時間]** | このページでの滞在時間を示す[横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)ビジュアライゼーション。 |
 | **[!UICONTROL 単一ページ訪問]** | このページが唯一の訪問ページだったページビューの数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 |
-| **[!UICONTROL リロード回数]** | 再読み込み中にディメンション項目が存在した回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。訪問者によるブラウザーの更新は、再読み込みをトリガーする最も一般的な方法です。 |
+| **[!UICONTROL リロード回数]** | 再読み込み中にディメンション項目が存在した回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 訪問者によるブラウザーの更新は、再読み込みをトリガーする最も一般的な方法です。 |
 | **[!UICONTROL 入口]** | 訪問の最初の値として特定のディメンション項目が取得された回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 |
 | **[!UICONTROL 出口]** | 訪問の最後の値として特定のディメンション項目が取得された回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 |
-| **[!UICONTROL フロー]** | 選択したページをフォーカルポイントとする[フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)ビジュアライゼーション。[フロー](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)ビジュアライゼーションと同様に、データをさらに詳しく調べることができます。 |
+| **[!UICONTROL フロー]** | 選択したページをフォーカルポイントとする[フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)ビジュアライゼーション。 [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)ビジュアライゼーションと同様に、データをさらに詳しく調べることができます。 |
 
 {style="table-layout:auto"}
 

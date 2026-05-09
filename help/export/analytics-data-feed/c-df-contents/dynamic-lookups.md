@@ -3,7 +3,7 @@ title: 動的検索
 description: 動的参照とは何か、およびそれらを有効にする方法について説明します。 キャリア、モバイル属性、およびオペレーティングシステムの種類が含まれます。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="動的ルックアップの有効化"
->abstract="追加のルックアップファイルをデータフィードで受け取る場合は、このオプションを選択します。それ以外の場合、このオプションは使用できません。この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。<ul><li>通信事業者名</li><li>モバイル属性</li><li>オペレーティングシステムの種類</li></ul>"
+>abstract="追加のルックアップファイルをデータフィードで受け取る場合は、このオプションを選択します。それ以外の場合、このオプションは使用できません。 この設定では、各データフィードファイルで次のルックアップテーブルを送信できます。<ul><li>通信事業者の名前</li><li>モバイル属性</li><li>オペレーティングシステムの種類</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

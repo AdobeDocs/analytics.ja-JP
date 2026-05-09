@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 83%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のテキストビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[テキスト](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/text)を参照してください。_
+_この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[Text](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/text)を参照してください。_
 
 >[!ENDSHADEBOX]
 
-次のことができます
-ユーザー定義のリッチテキストを ワークスペースプロジェクトに追加するには、![テキスト](/help/assets/icons/Text.svg)**[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを使用するか、ビジュアライゼーションとパネルの説明を使用します。
+次のことが可能です。
+ユーザー定義のリッチテキストを Workspace プロジェクトに追加するには、![テキスト](/help/assets/icons/Text.svg) **[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを使用するか、ビジュアライゼーションとパネルの説明を使用します。
 
 ## 使用
 
 テキストビジュアライゼーションは、次の方法で使用できます。
 
-1. ![テキスト](/help/assets/icons/Text.svg) **[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
+1. ![テキスト](/help/assets/icons/Text.svg) **[!UICONTROL テキスト]**&#x200B;ビジュアライゼーションを追加します。 [パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
 1. パネルまたはビジュアライゼーションで、コンテキストメニューから「**[!UICONTROL 説明を編集]**」を選択します。
 
@@ -50,7 +50,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ## ハイパーリンクの追加 {#hyperlinks}
 
-ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
+ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。 ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。 ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
 
 ![リンクアイコンをハイライト表示するテキストオプション。](assets/hyperlink.png)
 

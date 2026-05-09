@@ -4,10 +4,10 @@ title: コンボ
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のコンボビジュアライゼーションについて説明します。_
+_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** のコンボビジュアライゼーションについて説明します。_
 
-_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[コンボ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)を参照してください。_
+_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについて詳しくは、[コンボ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
-![コンボグラフ](/help/assets/icons/ComboChart.svg) **[!UICONTROL コンボ]**&#x200B;ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。折れ線グラフと棒グラフの組み合わせでデータの傾向を簡単に表示できます。
+![コンボグラフ](/help/assets/icons/ComboChart.svg) **[!UICONTROL コンボ]**&#x200B;ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。 折れ線グラフと棒グラフの組み合わせでデータの傾向を簡単に表示できます。
 
 [!UICONTROL コンボ]を使用すると、次の操作を実行できます。
 
@@ -50,7 +50,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 ## 使用
 
-1. ![コメント](/help/assets/icons/ComboChart.svg) [!UICONTROL コンボ]ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
+1. ![コメント](/help/assets/icons/ComboChart.svg) [!UICONTROL コンボ]ビジュアライゼーションを追加します。 [パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
 1. ドロップダウンリストから、X 軸のディメンションと Y 軸の指標を選択します。
 
@@ -59,7 +59,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
    | 折れ線比較タイプ | 定義 |
    | --- | --- |
    | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較です。例えば、この期間と 4 週間前の期間を比較します。 [!UICONTROL 時間比較]を選択した場合は、比較する期間についての補助的な選択を行います。<p>![選択された期間と期間のセカンダリ選択フィールドの折れ線比較。](assets/combo-time-period.png) |
-   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。[サポートされている関数](#supported-functions)のリストを参照してください。<p>![選択された関数と使用可能なサポートされている関数のリストを示す折れ線比較ドロップダウンメニュー。](assets/combo-functions.png) |
+   | **[!UICONTROL 関数]** | [!UICONTROL 平均]などの関数を比較に導入できます。 [サポートされている関数](#supported-functions)のリストを参照してください。<p>![選択された関数と使用可能なサポートされている関数のリストを示す折れ線比較ドロップダウンメニュー。](assets/combo-functions.png) |
    | **[!UICONTROL セカンダリ指標]** | 例えば、[!UICONTROL 売上高]を別の指標と比較できます。<p>![2 つの指標を比較したコンボグラフ。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
@@ -70,7 +70,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
    ![現在の期間を棒グラフで示し、比較期間を折れ線グラフで示したコンボグラフ](assets/combo-output.png)
 
-   現在の期間は、棒グラフで表示されます。比較期間は、折れ線グラフで表示されます。折れ線グラフのドットは、*バーベル*&#x200B;と呼ばれます。
+   現在の期間は、棒グラフで表示されます。 比較期間は、折れ線グラフで表示されます。 折れ線グラフのドットは、*バーベル*&#x200B;と呼ばれます。
 
 ## サポートされている関数
 
@@ -80,7 +80,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 | --- | --- |
 | **[!UICONTROL 列の合計値]** | （1 つのディメンションの複数の要素の）1 つの列内の指標のすべての数値を加算します。 |
 | **[!UICONTROL 累加平均]** | 最終 N 行の平均を返します。 |
-| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。中央値は、一連の数の中央にある数値です。数値の半分は中央値以上の値であり、残りの半分は中央値以下の値です。 |
+| **[!UICONTROL 中央値]** | 1 つの列の指標の中央値を返します。 中央値は、一連の数の中央にある数値です。 数値の半分は中央値以上の値であり、残りの半分は中央値以下の値です。 |
 | **[!UICONTROL 累積]** | N 行の累積合計です。 |
 | **[!UICONTROL 列の最大値]** | 指標列の一連のディメンション要素の中の最大値を返します。 |
 | **[!UICONTROL 平均値]** | 指標の算術平均（平均）を返します。 |
@@ -98,7 +98,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

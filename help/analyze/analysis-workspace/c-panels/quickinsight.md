@@ -4,10 +4,10 @@ title: クイックインサイトパネル
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 91%
+source-wordcount: '1157'
+ht-degree: 90%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のクイックインサイトパネルについて説明します。_<br/>_この記事の[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版については、_&#x200B;**クイックインサイトパネル**&#x200B;を参照してください。_
+_この記事では、_&#x200B;のクイックインサイトパネルについて説明します。![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[ クイックインサイトパネル ](/help/analyze/analysis-workspace/c-panels/quickinsight.md)を参照してください。_
 
 >[!ENDSHADEBOX]
 
 
-[!UICONTROL クイックインサイト]は、アナリスト以外のユーザーおよび [!UICONTROL Analysis Workspace] の新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。また、テーブルを自分で作ることなく、簡単な質問にすばやく答えたいと考える上級ユーザーにとっても優れたツールです。
+[!UICONTROL クイックインサイト]は、アナリスト以外のユーザーおよび [!UICONTROL Analysis Workspace] の新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。 また、テーブルを自分で作ることなく、簡単な質問にすばやく答えたいと考える上級ユーザーにとっても優れたツールです。
 
 この [!UICONTROL Analysis Workspace] を初めて使用するときは、次のような疑問が生じるかもしれません。
 
@@ -40,7 +40,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 * どこにフィルターを作成するか。
 * その他の機能
 
-これらの質問を解決するために、[!UICONTROL &#x200B; クイックインサイト &#x200B;]では、最も人気のあるディメンション、指標、セグメント、日付範囲を示すアルゴリズムを利用しています。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
+これらの質問を解決するために、[!UICONTROL  クイックインサイト ]では、最も人気のあるディメンション、指標、セグメント、日付範囲を示すアルゴリズムを利用しています。 このアルゴリズムは、[!UICONTROL Analysis Workspace] での会社のデータコンポーネント使用状況に基づいています。 実際、以下に示すように、ドロップダウンリストには、「[!UICONTROL 人気]」とタグ付けされたディメンション、指標およびセグメントが表示されます。
 
 ![クイックインサイトパネル。](assets/popular-tag.png)
 
@@ -53,24 +53,24 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 ## 基本的な主要用語
 
-次に、理解する必要がある基本用語の一部を示します。各データテーブルは、データストーリーを伝えるのに使用する 2 つ以上の構築ブロック（コンポーネント）で構成されています。
+次に、理解する必要がある基本用語の一部を示します。 各データテーブルは、データストーリーを伝えるのに使用する 2 つ以上の構築ブロック（コンポーネント）で構成されています。
 
 | 構築要素（コンポーネント） | 定義 |
 |---|---|
-| **[!UICONTROL ディメンション]** | ディメンションは、プロジェクトで表示、分類、比較できる指標データの説明または特性です。ディメンションは、ディメンション項目に分類される数以外の値および日付です。例えば、*ブラウザー*&#x200B;や&#x200B;*ページ*&#x200B;はディメンションです。 |
-| **[!UICONTROL ディメンション項目]** | ディメンション項目は、ディメンションの個々の値です。例えば、ブラウザーディメンションのディメンション項目は、*Chrome*、*Firefox*、*Edge* などです。 |
+| **[!UICONTROL ディメンション]** | ディメンションは、プロジェクトで表示、分類、比較できる指標データの説明または特性です。 ディメンションは、ディメンション項目に分類される数以外の値および日付です。 例えば、*ブラウザー*&#x200B;や&#x200B;*ページ*&#x200B;はディメンションです。 |
+| **[!UICONTROL ディメンション項目]** | ディメンション項目は、ディメンションの個々の値です。 例えば、ブラウザーディメンションのディメンション項目は、*Chrome*、*Firefox*、*Edge* などです。 |
 | **[!UICONTROL 指標]** | 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者のアクティビティに関する量的な情報です。 |
-| **[!UICONTROL ビジュアライゼーション]** | Workspace には、データを視覚的に表現する[様々なビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)が用意されています。棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図などがあります。 |
-| **[!UICONTROL ディメンションの分類]** | ディメンションの分類は、ディメンションを他のディメンションで分類する方法です。例えば、モバイルデバイスごとに米国の州を分類して、州ごとのモバイルデバイス訪問数を取得できます。または、モバイルデバイスをモバイルデバイスタイプ、地域、内部キャンペーンなどで分類することもできます。 |
-| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や Web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。例えば、次のような条件に基づいて、[!UICONTROL 訪問者]フィルターを作成できます。 <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>離脱とエントリ：Facebook、定義済みランディングページ、参照ドメインの訪問者、または</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
+| **[!UICONTROL ビジュアライゼーション]** | Workspace には、データを視覚的に表現する[様々なビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)が用意されています。 棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図などがあります。 |
+| **[!UICONTROL ディメンションの分類]** | ディメンションの分類は、ディメンションを他のディメンションで分類する方法です。 例えば、モバイルデバイスごとに米国の州を分類して、州ごとのモバイルデバイス訪問数を取得できます。 または、モバイルデバイスをモバイルデバイスタイプ、地域、内部キャンペーンなどで分類することもできます。 |
+| **[!UICONTROL セグメント]** | セグメントを使用すると、特性や Web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。 例えば、次のような条件に基づいて、[!UICONTROL 訪問者]フィルターを作成できます。 <li>属性：ブラウザータイプ、デバイス、訪問回数、国、性別、または</li><li>インタラクション：キャンペーン、キーワード検索、検索エンジン、または</li><li>離脱とエントリ：Facebook、定義済みランディングページ、参照ドメインの訪問者、または</li><li> カスタム変数：フォームフィールド、定義済みのカテゴリ、顧客 ID。 |
 
 ## 使用
 
 **[!UICONTROL クイックインサイト]**&#x200B;パネルを使用するには：
 
-1. **[!UICONTROL クイックインサイト]**&#x200B;パネルを作成します。パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
+1. **[!UICONTROL クイックインサイト]**&#x200B;パネルを作成します。 パネルの作成方法について詳しくは、[パネルの作成](panels.md#create-a-panel)を参照してください。
 
-1. **[!UICONTROL クイックインサイト]**&#x200B;パネルを初めて使用する際には、いくつかの基本を説明している短い[!UICONTROL チュートリアル概要]を参照することをお勧めします。クイックインサイトパネルのタイトルの横にある「![HelpOutline](/help/assets/icons/HelpOutline.svg)」を選択し、ポップアップから「**[!UICONTROL チュートリアル概要]**」を選択します。
+1. **[!UICONTROL クイックインサイト]**&#x200B;パネルを初めて使用する際には、いくつかの基本を説明している短い[!UICONTROL チュートリアル概要]を参照することをお勧めします。 クイックインサイトパネルのタイトルの横にある「![HelpOutline](/help/assets/icons/HelpOutline.svg)」を選択し、ポップアップから「**[!UICONTROL チュートリアル概要]**」を選択します。
 
 1. パネルの[入力](#panel-input)を指定します。
 
@@ -93,8 +93,8 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 構築ブロックは、次の 3 つの方法で指定できます。
 
 * 左パネルからコンポーネントをドラッグ＆ドロップします。
-* 構築ブロックフィールドの 1 つに入力を開始します。入力が見つかると、構築ブロックフィールドに使用可能な値が自動的に入力されます。
-* 構築ブロックのドロップダウン（**[!UICONTROL Analyze]**&#x200B;の&#x200B;**[!UICONTROL Country]**&#x200B;など）を指定し、使用する値（![Country code](/help/assets/icons/ChevronRight.svg)など）に対して可能な値（**[!UICONTROL ChevronRight]**&#x200B;を使用）のリストを検索します。
+* 構築ブロックフィールドの 1 つに入力を開始します。 入力が見つかると、構築ブロックフィールドに使用可能な値が自動的に入力されます。
+* 構築ブロックのドロップダウン（**[!UICONTROL Analyze]**&#x200B;の&#x200B;**[!UICONTROL Country]**&#x200B;など）を指定し、使用する値（**[!UICONTROL Country code]**&#x200B;など）に対して可能な値（![ChevronRight](/help/assets/icons/ChevronRight.svg)を使用）のリストを検索します。
 
 すべての入力フィールドを消去するには、「**[!UICONTROL 消去]**」を選択します。
 
@@ -107,7 +107,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
    * [!UICONTROL 過去 12 か月間]の[!UICONTROL 検索エンジン]からの[!UICONTROL 訪問数]でセグメント化された、ディメンション（[!UICONTROL 国サイト]）と指標（[!UICONTROL 訪問数]）を含むフリーフォームテーブル。
 
-   * 付属のビジュアライゼーション（この場合は[棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)）。生成されるビジュアライゼーションは、テーブルに追加したデータのタイプに基づいています。時間ベースのデータ（日別／月別の[!UICONTROL 訪問回数]など）は、デフォルトで[!UICONTROL 折れ線]グラフになります。時間ベースでないデータ（[!UICONTROL デバイス]ごとの[!UICONTROL 訪問回数]）は、デフォルトで[!UICONTROL 棒グラフ]になります。ビジュアライゼーションのタイプを変更するには、ビジュアライゼーションのタイプの横にあるドロップダウン矢印をクリックします。
+   * 付属のビジュアライゼーション（この場合は[棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)）。 生成されるビジュアライゼーションは、テーブルに追加したデータのタイプに基づいています。 時間ベースのデータ（日別／月別の[!UICONTROL 訪問回数]など）は、デフォルトで[!UICONTROL 折れ線]グラフになります。 時間ベースでないデータ（[!UICONTROL デバイス]ごとの[!UICONTROL 訪問回数]）は、デフォルトで[!UICONTROL 棒グラフ]になります。 ビジュアライゼーションのタイプを変更するには、ビジュアライゼーションのタイプの横にあるドロップダウン矢印をクリックします。
 
 1. 後述の[その他のヒント](#more-tips)の説明に従って、さらに絞り込みを追加してみてください。
 
@@ -117,7 +117,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
 他の便利なヒントは、[!UICONTROL クイックインサイトビルダー]に表示されます。ヒントの中には、最後のアクションに応じて表示されるものもあります。
 
-* 最初に、**[!UICONTROL その他のヒント]**&#x200B;チュートリアルを完了します。このチュートリアルは、少なくとも 1 つのディメンションと 1 つの指標を持つプロジェクトを作成してから 24 時間後に表示されます。クイックインサイトパネルのタイトルの横にある「![HelpOutline](/help/assets/icons/HelpOutline.svg)」を選択し、ポップアップから「**[!UICONTROL その他のヒント]**」を選択します。
+* 最初に、**[!UICONTROL その他のヒント]**&#x200B;チュートリアルを完了します。 このチュートリアルは、少なくとも 1 つのディメンションと 1 つの指標を持つプロジェクトを作成してから 24 時間後に表示されます。 クイックインサイトパネルのタイトルの横にある「![HelpOutline](/help/assets/icons/HelpOutline.svg)」を選択し、ポップアップから「**[!UICONTROL その他のヒント]**」を選択します。
 
   ![ヘルプアイコンを選択すると表示されるクイックインサイトパネル通知。](assets/qibuilder4.png)
 
@@ -125,17 +125,17 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 
   ![クイックインサイトビルダー結果](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 分類基準]**&#x200B;を使用してディメンションを&#x200B;**[!UICONTROL 分析]**：ディメンションで最大 3 レベルの分類を使用して、必要なデータに掘り下げることができます。➊、➋、➌を参照してください。
+   * **[!UICONTROL 分類基準]**&#x200B;を使用してディメンションを&#x200B;**[!UICONTROL 分析]**：ディメンションで最大 3 レベルの分類を使用して、必要なデータに掘り下げることができます。 ➊、➋、➌を参照してください。
 
-   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。➍および➎を参照してください。
+   * **[!UICONTROL 条件]**&#x200B;付きで指標を追加：指標は最大 2 つ追加できます。 ➍および➎を参照してください。
 
-   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。➏、➐、➑を参照してください。
+   * **[!UICONTROL フィルター条件]**：さらに最大 2 つのセグメントを追加できます。 例えば、「予約」をセグメントとして追加し、そのセグメントを、比較対象の「頻繁に予約する人」セグメントおよび「初めて利用する人」セグメントと組み合わせます。 ➏、➐、➑を参照してください。
 
-   * 対象：日付範囲を指定できます。➒を参照してください。
+   * 対象：日付範囲を指定できます。 ➒を参照してください。
 
 ## 既知の制限事項
 
-テーブル内で直接編集しようとすると、[!UICONTROL クイックインサイト]パネルが同期されなくなります。パネルの右上にある「**[!UICONTROL 再同期ビルダー]**」を選択して、以前の[!UICONTROL クイックインサイト]設定に復元します。
+テーブル内で直接編集しようとすると、[!UICONTROL クイックインサイト]パネルが同期されなくなります。 パネルの右上にある「**[!UICONTROL 再同期ビルダー]**」を選択して、以前の[!UICONTROL クイックインサイト]設定に復元します。
 
 何かを直接テーブルに追加する前に、次の警告が表示されます。
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

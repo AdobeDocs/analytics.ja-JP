@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のツリーマップビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[ツリーマップ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/treemap)を参照してください。_
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[ ツリーマップ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/treemap)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>__
 
 >[!ENDSHADEBOX]
 
@@ -35,19 +35,19 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 ![下位レベルの分岐を示す小さな長方形のタイルを表示するツリーマップの例。](assets/treemap.png)
 
-ツリーマップを使用すると、他の方法では検出が困難なパターンを確認できます。ディメンションのカラーとサイズを使用すると、ディメンションが相関している仕組みや、特定のディメンションが特に関連しているかどうかを確認できます。ツリーマップの 2 つ目のメリットは、構造上、ツリーマップがスペースを効率的に使用できることです。
+ツリーマップを使用すると、他の方法では検出が困難なパターンを確認できます。 ディメンションのカラーとサイズを使用すると、ディメンションが相関している仕組みや、特定のディメンションが特に関連しているかどうかを確認できます。 ツリーマップの 2 つ目のメリットは、構造上、ツリーマップがスペースを効率的に使用できることです。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ツリーマップビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

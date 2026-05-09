@@ -4,10 +4,10 @@ title: 主要指標の概要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 95%
+source-wordcount: '961'
+ht-degree: 92%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="主要指標の概要"
->abstract="折れ線グラフ、変更概要グラフおよび数値の概要グラフを組み合わせたビジュアライゼーションを作成します。このビジュアライゼーションを使用すると、2 つの期間での重要な指標のトレンドを比較できます。"
+>abstract="折れ線グラフ、変更概要グラフおよび数値の概要グラフを組み合わせたビジュアライゼーションを作成します。 このビジュアライゼーションを使用すると、2 つの期間での重要な指標のトレンドを比較できます。"
 
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の主要指標の概要ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[主要指標の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)を参照してください。_
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[主要指標の概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_&#x200B;この記事の主要指標の概要&#x200B;_この記事の概要を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 主要指標の概要]**&#x200B;ビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間にわたる指標のパフォーマンスを比較することもできます。次のような複数のビジュアライゼーションが 1 つのビジュアライゼーションに統合されるメリットがあります。
+![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL 主要指標の概要]**&#x200B;ビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。 また、2 つの期間にわたる指標のパフォーマンスを比較することもできます。 次のような複数のビジュアライゼーションが 1 つのビジュアライゼーションに統合されるメリットがあります。
 
 * プライマリ日付範囲と比較日付範囲での指標のトレンドを表示する&#x200B;**[!UICONTROL 折れ線グラフ]**&#x200B;ビジュアライゼーション
 
@@ -54,7 +54,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
    | オプション | 説明 |
    | --- | --- |
-   | **[!UICONTROL 指標]** | 調査の対象となる指標を選択します。すべての指標がサポートされています。 |
+   | **[!UICONTROL 指標]** | 調査の対象となる指標を選択します。 すべての指標がサポートされています。 |
    | **[!UICONTROL プライマリ日付範囲]** | フリーフォームテーブルの現在の日付範囲。<p>レポートスイートで使用可能な任意の日付範囲から選択します。</p> <p>ビジュアライゼーションがあるパネルで使用されているのと同じ日付範囲を使用する場合は、「[!UICONTROL **パネルの日付範囲**]」を選択します。</p> |
    | **[!UICONTROL 比較日付範囲]** | プライマリ日付範囲の比較対象となる日付範囲。 |
    | **[!UICONTROL セグメント (オプション)]** | この概要で関心のあるセグメント。 |
@@ -66,7 +66,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
    >「[!UICONTROL **プライマリ日付範囲**]」フィールドが&#x200B;[!UICONTROL **パネル日付範囲**]&#x200B;に設定されている場合、選択した&#x200B;**[!UICONTROL 比較日付範囲]**&#x200B;オプションがプライマリ日付範囲に対して相対的であるか固定であるかに応じて、**[!UICONTROL 比較日付範囲]**&#x200B;が自動的に更新されます。
    >
    >* **相対的**：「**[!UICONTROL 比較日付範囲]**」フィールドがプライマリ日付範囲に相対的なオプション（[!UICONTROL **前日**]、[!UICONTROL **先週の同じ日**]、[!UICONTROL **4 週間前の同じ日**]&#x200B;など）に設定されている場合、「[!UICONTROL **プライマリ日付範囲**]」フィールドを更新すると、**[!UICONTROL 比較日付範囲]**&#x200B;はパネル日付範囲の直後の期間に自動的に更新されます。
-   >* **固定：**「[!UICONTROL **比較日付範囲**]」フィールドが固定日付範囲（**2023年2月3日（PT）**&#x200B;など）に設定されている場合、「[!UICONTROL **プライマリ日付範囲**]」フィールドまたはパネル日付範囲に行われた変更は&#x200B;[!UICONTROL **比較日付範囲**]&#x200B;に影響しません。ただし、パネル日付範囲を更新すると、[!UICONTROL **プライマリ日付範囲**]&#x200B;が自動的に更新されます。
+   >* **固定：**「[!UICONTROL **比較日付範囲**]」フィールドが固定日付範囲（**2023年2月3日（PT）**&#x200B;など）に設定されている場合、「[!UICONTROL **プライマリ日付範囲**]」フィールドまたはパネル日付範囲に行われた変更は&#x200B;[!UICONTROL **比較日付範囲**]&#x200B;に影響しません。 ただし、パネル日付範囲を更新すると、[!UICONTROL **プライマリ日付範囲**]&#x200B;が自動的に更新されます。
 
 1. 「**[!UICONTROL 作成]**」を選択します。
 
@@ -91,7 +91,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
    元の設定ダイアログに戻ります。
 
-1. 必要に応じて設定を変更します。現在の設定をリセットするには、「**[!UICONTROL リセット]**」を選択します。「**[!UICONTROL 作成]**」を選択して、ビジュアライゼーションを再作成します。
+1. 必要に応じて設定を変更します。 現在の設定をリセットするには、「**[!UICONTROL リセット]**」を選択します。 「**[!UICONTROL 作成]**」を選択して、ビジュアライゼーションを再作成します。
 
 ## 設定
 
@@ -110,7 +110,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 | **[!UICONTROL 比較率とトレンドラインを表示]** | 比較データを表示または非表示にします。 非表示の場合、比較折れ線グラフと変更概要オブジェクトの両方が非表示になります。 |
 | **[!UICONTROL 合計数を表示]** | 数値概要を表示または非表示 |
 | **[!UICONTROL 生の差異を表示]** | プライマリ日付範囲とセカンダリ日付範囲の指標の合計値の生の差異を表示または非表示 |
-| **[!UICONTROL 値を短縮]** | 数値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。選択した場合、短縮の量を定義する数値を入力します。次に例を示します。<br/><table><tr><td>**元の値**</td><td>**短縮**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、1 に設定</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、2 に設定</td><td align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、2 に設定</td><td align="right">$12.011M</td></tr><tr><td>$12,011,141.25</td><td>選択、3 に設定</td><td align="right">$12.011M</td></tr></table> |
+| **[!UICONTROL 値を短縮]** | 数値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。 選択した場合、短縮の量を定義する数値を入力します。 次に例を示します。<br/><table><tr><td>**元の値**</td><td>**短縮**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、1 に設定</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、2 に設定</td><td align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、2 に設定</td><td align="right">$12.011M</td></tr><tr><td>$12,011,141.25</td><td>選択、3 に設定</td><td align="right">$12.011M</td></tr></table> |
 
 ## ビジュアライゼーションの編集
 
@@ -125,7 +125,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 
