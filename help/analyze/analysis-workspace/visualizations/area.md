@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** の面グラフおよび積み重ね面グラフビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[面グラフおよび積み重ね面グラフ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/area)を参照してください。_
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[&#x200B; エリアとエリアの積み重ね](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/area)を参照してください。![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**。_<br/>_この記事の__
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 面グラフ]**&#x200B;ビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の積集合により表現される領域を視覚化する場合は、面グラフを追加します。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 面グラフ]**&#x200B;ビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。 指標が複数あり、2 個以上の指標の積集合により表現される領域を視覚化する場合は、面グラフを追加します。
 
 ![複数の指標を表示する面グラフビジュアライゼーション](assets/area.png)
 
@@ -60,7 +60,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

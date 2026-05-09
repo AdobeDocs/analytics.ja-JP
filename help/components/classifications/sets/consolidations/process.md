@@ -3,9 +3,9 @@ title: 分類統合の作成と編集
 description: 分類の統合を作成、検証、実行、承認およびキャンセルする方法について説明します。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '998'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分類セット優先度"
->abstract="![キー](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg)*分類セット*&#x200B;は基本分類セットで、スキーマ全体を定義します。結合の競合が発生した場合は、このセットが優先されます。その他の分類セットは、上から順に適用されます。"
+>abstract="![キー](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg)*分類セット*&#x200B;は基本分類セットで、スキーマ全体を定義します。結合の競合が発生した場合は、このセットが優先されます。 その他の分類セットは、上から順に適用されます。"
 
 
 分類の統合を作成するには、メインのAdobe Analytics インターフェイスで次の操作を行います。
@@ -31,9 +31,9 @@ ht-degree: 13%
 1. **[!UICONTROL 新規統合]** ダイアログで，
 
    ![分類セット – 新しい統合](assets/classifications-sets-consolidations-new.png)
-   1. **[!UICONTROL 名前]**&#x200B;を入力します。例：`Consolidation Example`。
-   1. **[!UICONTROL 説明（オプション）]**&#x200B;を入力します。例：`Example classification set`。
-   1. 「**[!UICONTROL 問題を通知]**」に 1 つ以上のメールアドレス（コンマ区切り）を入力します。問題に関するメール通知がこれらのユーザーに送信されます。
+   1. **[!UICONTROL 名前]**&#x200B;を入力します。 例：`Consolidation Example`。
+   1. **[!UICONTROL 説明（オプション）]**&#x200B;を入力します。 例：`Example classification set`。
+   1. 「**[!UICONTROL 問題を通知]**」に 1 つ以上のメールアドレス（コンマ区切り）を入力します。 問題に関するメール通知がこれらのユーザーに送信されます。
    1. 「**[!UICONTROL 分類セットの一致先]**」ドロップダウンメニューから分類セットを選択します。
 
       左の&#x200B;**[!UICONTROL Source分類セット]**&#x200B;のリストには、選択した分類リストに類似した分類セットが入力され、統合に使用できます。 右側のリストには、選択した![&#x200B; キー](/help/assets/icons/Key.svg)分類セットが自動的に入力されます。 このベースセットはスキーマ全体を定義し、結合の競合では常に優先されます。
@@ -127,7 +127,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
    * **[!UICONTROL Mismatch]**: キー値がソース分類セットと一致しない行の割合。 不一致の割合が高い場合、不一致は、分類データが異なりすぎることを示している可能性があります。 選択した分類セットに類似した分類データがあることを確認します。
    * **[!UICONTROL Absent]**: キー値が![Key](/help/assets/icons/Key.svg)分類セットに含まれ、ソース分類セットに含まれていない行の割合。 欠落しているすべての行が、統合された分類セットに追加されます。
 
-1. 分類を承認する準備ができたら、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認]**&#x200B;を選択します。 **[!UICONTROL 統合を承認しますか？]** ダイアログで確認を求めるメッセージが表示されます。 **[!UICONTROL 承認]**&#x200B;を選択して、統合を承認します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+1. 分類を承認する準備ができたら、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認]**&#x200B;を選択します。 **[!UICONTROL 統合を承認しますか？]** 確認を求めるダイアログが表示されます。 **[!UICONTROL 承認]**&#x200B;を選択して、統合を承認します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 承認されると、統合された分類セットが作成されます。 ステータスは&#x200B;**[!UICONTROL 完了]**&#x200B;に設定されています。
 

@@ -4,10 +4,10 @@ title: データ辞書の概要
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 90%
+source-wordcount: '582'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="データディクショナリ"
->abstract="データ辞書は、ユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり理解を深めたりするのに役立ちます。<br/>Analytics 管理者は、データ辞書内の各コンポーネントに関する情報を調整する責任があります。"
+>abstract="データ辞書は、ユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり理解を深めたりするのに役立ちます。 <br/>Analytics 管理者は、データ辞書内の各コンポーネントに関する情報を調整する責任があります。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ Analytics 管理者は、次の目的でデータ辞書を使用できます。
 
 * まだ承認されていないコンポーネントを識別します。
 
-* コンポーネントの説明を Analysis Workspace で直接更新します。データディクショナリ内のコンポーネント説明に対して行われた更新は、レポートスイートに反映されます。
+* コンポーネントの説明を Analysis Workspace で直接更新します。 データディクショナリ内のコンポーネント説明に対して行われた更新は、レポートスイートに反映されます。
 
   同様に、レポートスイート内のコンポーネントの説明に対して行われた更新は、Analysis Workspaceに反映されます。
 

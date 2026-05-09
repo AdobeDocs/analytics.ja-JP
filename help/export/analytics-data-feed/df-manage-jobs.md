@@ -3,7 +3,7 @@ title: データフィードジョブの管理
 description: データフィードで個々のジョブを管理する方法について説明します。 インターフェイスを移動し、フィルターと検索を使用して、列定義を検索します。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 20%

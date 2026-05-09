@@ -3,7 +3,7 @@ title: データフィードの管理
 description: データフィードのインターフェイスを操作する方法を説明します。 データフィードを作成、編集、表示する方法を説明します。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 18%

@@ -5,10 +5,10 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 74%
+source-wordcount: '601'
+ht-degree: 65%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="セグメント比較パネル"
->abstract="すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い差異を自動的に見つけます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較対象となる 2 番目のセグメントで、*その他すべて*（最初のセグメントの逆）が自動的に入力されます。必要に応じて、*その他すべて*&#x200B;を別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
+>abstract="すべてのデータポイントで2つのセグメントをすばやく比較して、関連する相違点を自動的に見つけることができます。<br/><br/>**パラメーター&#x200B;**<br/>**セグメントを追加**：分析する最初のセグメント。<br/>**比較対象**：比較対象となる 2 番目のセグメントで、*その他すべて*（最初のセグメントの逆）が自動的に入力されます。 必要に応じて、*その他すべて*&#x200B;を別のセグメントに置き換えることができます。<br/>**詳細設定**：セグメント比較で分析するコンポーネントを除外する機能。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のセグメント比較パネルについて説明します。_<br/>__![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** には同等のパネルはありません。_
+_この記事では、_&#x200B;のセグメント比較パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![&#x200B; &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
-セグメント比較パネルでは、無制限の数のセグメント間の統計的に最も有意性の大きい差異を検出します。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。比較により、自社の主要業績評価指標（KPI）を左右する重要なオーディエンスセグメントの特徴が自動的に見つかり、どの程度のセグメントが重複しているのかを確認できます。
+セグメント比較パネルでは、無制限の数のセグメント間の統計的に最も有意性の大きい差異を検出します。 この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。 比較により、自社の主要業績評価指標（KPI）を左右する重要なオーディエンスセグメントの特徴が自動的に見つかり、どの程度のセグメントが重複しているのかを確認できます。
 
 
 >[!BEGINSHADEBOX]
@@ -71,7 +71,7 @@ _この記事では、_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg
 | **[!UICONTROL セグメントを追加]** | 比較するディメンションを選択します。 |
 | **[!UICONTROL 比較対象]** | 最初に選択したセグメントの比較に使用するディメンションを選択します。 特定のセグメントを選択しない場合、デフォルトのセグメントである「**[!UICONTROL 他の全員]**」が使用されます。 |
 | **[!UICONTROL 詳細設定を表示／非表示]** | **[!UICONTROL 除外されたコンポーネント]**&#x200B;を設定するには「**[!UICONTROL 詳細設定を表示]**」を選択し、**[!UICONTROL 除外されたコンポーネント]**&#x200B;を非表示にするには「**[!UICONTROL 詳細設定を非表示]**」を選択します。 |
-| **[!UICONTROL 除外されたコンポーネント]** | 除外する&#x200B;**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**&#x200B;などを指定できるコンポーネント。<br><ul><li>1 つ以上のディメンション、指標またはセグメントをコンテナから&#x200B;**[!UICONTROL 除外されたコンポーネント]**&#x200B;コンテナにドラッグ＆ドロップします。</li><li>コンポーネントを削除するには、タイプ（**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**）を選択し、![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択してコンポーネントを削除します。すべてのコンポーネントを削除するには、「**[!UICONTROL すべてクリア]**」を選択します。</li><li>現在のディメンション、指標、セグメントの選択をデフォルトとして設定するには、「**[!UICONTROL デフォルトとして設定]**」を選択します。</li></ul> |
+| **[!UICONTROL 除外されたコンポーネント]** | 除外する&#x200B;**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**&#x200B;などを指定できるコンポーネント。<br><ul><li>1 つ以上のディメンション、指標またはセグメントをコンテナから&#x200B;**[!UICONTROL 除外されたコンポーネント]**&#x200B;コンテナにドラッグ＆ドロップします。</li><li>コンポーネントを削除するには、タイプ（**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**&#x200B;または&#x200B;**[!UICONTROL セグメント]**）を選択し、![CrossSize75](/help/assets/icons/CrossSize75.svg) を選択してコンポーネントを削除します。 すべてのコンポーネントを削除するには、「**[!UICONTROL すべてクリア]**」を選択します。</li><li>現在のディメンション、指標、セグメントの選択をデフォルトとして設定するには、「**[!UICONTROL デフォルトとして設定]**」を選択します。</li></ul> |
 
 「**[!UICONTROL 作成]**」を選択して、パネルを作成します。
 

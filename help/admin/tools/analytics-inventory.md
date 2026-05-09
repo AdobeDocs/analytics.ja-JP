@@ -4,10 +4,10 @@ title: Analytics インベントリ
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 19%
+source-wordcount: '1224'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Analytics インベントリ"
->abstract="このページでは、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics 環境の包括的な概要について説明します。この情報は、Customer Journey Analytics へのアップグレードの準備を開始する際に特に役立ちます。"
+>abstract="このページでは、プロジェクトとコンポーネントの数、レポートスイート、ユーザーなど、Adobe Analytics 環境の包括的な概要について説明します。 この情報は、Customer Journey Analytics へのアップグレードの準備を開始する際に特に役立ちます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +68,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-components"
 >title="コンポーネント"
->abstract="このセクションには、Adobe Analytics 環境に存在するプロジェクト、セグメント、計算指標の数が表示されます。プロジェクトとコンポーネントは、Customer Journey Analytics に移行できます。"
+>abstract="このセクションには、Adobe Analytics 環境に存在するプロジェクト、セグメント、計算指標の数が表示されます。 プロジェクトとコンポーネントは、Customer Journey Analytics に移行できます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,8 +108,8 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | 要素 | 説明 |
    | --- | --- |
    | 名前 | レポートスイートの名前 |
-   | ID | レポートスイート ID （rsid）。 英数字のみを含むことができる一意のIDを指定します。 このIDは、作成後に変更できません。 Adobeは必要なID プレフィックスを設定します。このプレフィックスも変更できません。 |
-   | 発生件数 (過去 90 日間) | 「発生件数」指標は、特定のディメンションが設定または持続されたヒット数を示します。過去90日間に、このレポートスイートは何件のヒットを受け取りましたか？ |
+   | ID | レポートスイート ID （rsid）。 英数字のみを含むことができる一意のIDを指定します。 このIDは、作成後に変更できません。 アドビによって設定される必須の ID 接頭辞も変更できません。 |
+   | 発生件数 (過去 90 日間) | 「発生件数」指標は、特定のディメンションが設定または持続されたヒット数を示します。 過去90日間に、このレポートスイートは何件のヒットを受け取りましたか？ |
    | 指標 | このレポートスイートで定義されている指標の数 |
    | ディメンション | このレポートスイートで定義されるディメンションの数は？ |
    | Analytics for Target (A4T) は有効になっています | [ デフォルトで非表示]このレポートスイートは[Analytics for Target](https://experienceleague.adobe.com/ja/docs/target/using/integrate/a4t/a4t)で有効になっていますか？ |
@@ -132,7 +132,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | ディメンション ID。 |
    | タイプ | ディメンションのタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ [に対する](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のあるディメンションを決定します。
 
@@ -153,7 +153,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | 指標ID。 |
    | タイプ | 指標のタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ [に対する](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のある指標を決定します。
 

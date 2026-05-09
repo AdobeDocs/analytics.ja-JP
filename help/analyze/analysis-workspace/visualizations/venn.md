@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 70%
+source-wordcount: '230'
+ht-degree: 55%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** のベン図ビジュアライゼーションについて説明します。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについて詳しくは、[ベン図](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/venn)を参照してください。_
+_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_<br/>_でベンのビジュアライゼーションについて説明します。この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについては、[Venn](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/venn)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _この記事では、_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) 
 
 次に、フィルターにポインタを合わせると、パーセンテージなどについて、より多くのインサイトが得られます。
 
-[!UICONTROL ベン図]ビジュアライゼーションから[!UICONTROL フリーフォームテーブル]を生成するには、**[!UICONTROL ベン図]**&#x200B;のヘッダーの横にあるカラー付きの ![StatusOrange](/help/assets/icons/StatusOrange.svg) を選択し、「**[!UICONTROL データソースを表示]**」を選択します。[!UICONTROL ベン図]ビジュアライゼーションを作成するために使用されたデータを含む&#x200B;**[!UICONTROL ベン図データ]**&#x200B;フリーフォームテーブルが表示されます。
+[!UICONTROL ベン図]ビジュアライゼーションから[!UICONTROL フリーフォームテーブル]を生成するには、**[!UICONTROL ベン図]**&#x200B;のヘッダーの横にあるカラー付きの ![StatusOrange](/help/assets/icons/StatusOrange.svg) を選択し、「**[!UICONTROL データソースを表示]**」を選択します。 [!UICONTROL ベン図]ビジュアライゼーションを作成するために使用されたデータを含む&#x200B;**[!UICONTROL ベン図データ]**&#x200B;フリーフォームテーブルが表示されます。
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -61,7 +61,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

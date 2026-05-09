@@ -4,7 +4,7 @@ title: ジャーニーキャンバスの概要
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
