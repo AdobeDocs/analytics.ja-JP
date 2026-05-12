@@ -1,44 +1,59 @@
 ---
 title: ストリーミングメディアサービスとディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用可能なディメンション。
+description: レポートスイートで[!UICONTROL &#x200B; メディア広告]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/5d5RQ-2dkRD-R5U0iVyApP7WdCH2O1Rsk-qlPLYJm9c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 4%
+source-wordcount: 353
+ht-degree: 2%
 
 ---
 
 # ストリーミングメディアサービスとディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[&#x200B; ストリーミングメディア広告指標 &#x200B;](../metrics/sm-ads.md) を参照してください。*
+ストリーミングメディアサービスとディメンションは、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらのディメンションには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスとディメンションは、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらのディメンションを使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Media Ads]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の [&#x200B; メディア広告 &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
+次のディメンションを使用できます。
 
-| ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 広告]** | 広告の一意の ID。 | 広告開始、広告終了 | `a.media.ad.`<br>`name` | `xdm.mediaCollection.`<br>`advertisingDetails.name`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.name` |
-| **[!UICONTROL 広告名（変数）]** | 広告のわかりやすい名前。 類似の目的を提供する、「[!UICONTROL &#x200B; 広告名 &#x200B;]」という名前の分類ディメンションも使用できます。 このディメンションと分類は、2 つの異なるディメンションとして扱われます。 | 広告開始、広告終了 | `a.media.ad.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`advertisingDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.friendlyName` |
-| **[!UICONTROL 広告プレーヤー名]** | 広告をレンダリングするプレーヤーの名前。 | 広告開始、広告終了 | `a.media.ad.`<br>`playerName` | `xdm.mediaCollection.`<br>`advertisingDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.playerName` |
-| **[!UICONTROL 広告の長さ（可変）]** | ビデオ広告の長さ（秒）。 | 広告開始、広告終了 | `a.media.ad.`<br>`length` | `xdm.mediaCollection.`<br>`advertisingDetails.length`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.length` |
-| **[!UICONTROL 広告ポッド]** | 広告ポッドの一意の ID。 | 広告開始、広告終了 | `a.media.ad.`<br>`pod` | |
-| **[!UICONTROL ポッド位置の広告]** | 親広告ブレーク内の広告のインデックス位置（0 インデックス）。 | 広告開始、広告終了 | `a.media.ad.`<br>`podPosition` | `xdm.mediaCollection.`<br>`advertisingDetails.podPosition`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.podPosition` |
-| **[!UICONTROL 広告主]** | 広告で取り上げた会社またはブランド。 | 広告開始、広告終了 | `a.media.ad.`<br>`advertiser` | `xdm.mediaCollection.`<br>`advertisingDetails.advertiser`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.advertiser` |
-| **[!UICONTROL キャンペーン ID]** | 広告キャンペーンの ID | 広告開始、広告終了 | `a.media.ad.`<br>`campaign` | `xdm.mediaCollection.`<br>`advertisingDetails.campaignID`<br><br>`xdm.mediaReporting.`<br>`advertisingDetails.campaignID` |
+* [[!UICONTROL Ad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL &#x200B; ポッド位置の広告]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL 広告の長さ（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL 広告名（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL &#x200B; プレイヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL 広告ポッド &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL 広告主]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL キャンペーン ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
-上記のディメンションに加えて、Adobeでは、次の分類ディメンションが自動的に作成されます。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
+上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
-| 分類名 | 親ディメンション | 説明 |
-| --- | --- | --- |
-| **[!UICONTROL アセット ID]** | [[!UICONTROL コンテンツ]](sm-core.md) | メディアアセットのコンテンツの一意の ID。 例としては、TV シリーズのエピソード識別子、映画のアセット識別子、ライブイベント識別子などがあります。 これらの ID は、通常、EIDR、TMS/Gracenote、Rovi などのメタデータ認証局、または他の独自のシステムや社内システムから取得します。 |
-| **[!UICONTROL コンテンツ評価]** | [[!UICONTROL コンテンツ]](sm-core.md) | テレビの保護者のガイドラインで定義されている評価。 |
-| **[!UICONTROL 初回放送日]** | [[!UICONTROL コンテンツ]](sm-core.md) | コンテンツがテレビで最初に放送された日付。 この分類ディメンションは文字列なので、あらゆる日付形式を使用できます。 Adobeでは、`YYYY-MM-DD` などの一貫した日付形式を使用することをお勧めします。 |
-| **[!UICONTROL 初回デジタル日]** | [[!UICONTROL コンテンツ]](sm-core.md) | コンテンツが任意のデジタルチャネルまたはプラットフォームで最初に放送された日付。 この分類ディメンションは文字列なので、あらゆる日付形式を使用できます。 Adobeでは、`YYYY-MM-DD` などの一貫した日付形式を使用することをお勧めします。 |
-| **[!UICONTROL 広告長さ]** | [!UICONTROL &#x200B; 広告 &#x200B;] | ビデオ広告の長さ（秒）。 |
-| **[!UICONTROL 広告名]** | [!UICONTROL &#x200B; 広告 &#x200B;] | 広告のわかりやすい名前。 「[!UICONTROL &#x200B; 広告名（変数） &#x200B;]」と同等の分類です。 |
-| **[!UICONTROL Creative ID]** | [!UICONTROL &#x200B; 広告 &#x200B;] | 広告クリエイティブの ID。 |
-| **[!UICONTROL ポッド名]** | [!UICONTROL &#x200B; 広告ポッド &#x200B;] | 広告ポッドのわかりやすい名前。 |
-| **[!UICONTROL ポッドの位置]** | [!UICONTROL &#x200B; 広告ポッド &#x200B;] | コンテンツ内の広告ブレークのオフセット （秒単位）。 |
+| 分類名 | 親ディメンション |
+| --- | --- |
+| [[!UICONTROL &#x200B; アセット ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL &#x200B; コンテンツの評価]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 最初のエア日]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 最初のデジタル日付]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 広告の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Ad] |
+| [[!UICONTROL 広告名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Ad] |
+| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Ad] |
+| [[!UICONTROL &#x200B; ポッド名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 広告ポッド &#x200B;] |
+| [[!UICONTROL &#x200B; ポッドの位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 広告ポッド &#x200B;] |
+
+対応する指標については、[&#x200B; ストリーミングメディアサービスと指標](../metrics/sm-ads.md)を参照してください。

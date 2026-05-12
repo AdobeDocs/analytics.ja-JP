@@ -1,33 +1,46 @@
 ---
-title: ストリーミングメディアサービスのビデオメタデータのディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; ビデオメタデータ &#x200B;] を有効にすると、使用可能なディメンションになります。
+title: ストリーミングメディアサービス動画メタデータディメンション
+description: レポートスイートで[!UICONTROL &#x200B; ビデオメタデータ &#x200B;]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Xgz-L8hPTQCfW6n-OEaw7u-8qNEGaXGVZTg3IBRbfKw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 3%
+source-wordcount: 197
+ht-degree: 0%
 
 ---
 
-# ストリーミングメディアサービスのビデオメタデータのディメンション
+# ストリーミングメディアサービス動画メタデータディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; ビデオメタデータ &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[&#x200B; ストリーミングメディアサービスのビデオメタデータ指標 &#x200B;](../metrics/sm-video-metadata.md) を参照してください。*
+ストリーミングメディアサービス ビデオメタデータディメンションは、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらのディメンションには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスとディメンションは、ストリーミングメディアサービスコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらのディメンションを使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Video Metadata]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の [&#x200B; ビデオメタデータ &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
+次のディメンションを使用できます。
 
-| ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 広告読み込み]** | 読み込まれた広告のタイプ。 | | `a.media.adLoad` | `xdm.mediaCollection.`<br>`sessionDetails.adLoad` |
-| **[!UICONTROL 日分割]** | コンテンツが放送または再生された時間。 任意の文字列値がサポートされています。 | メディア開始、メディア終了 | `a.media.dayPart` | `xdm.mediaCollection.`<br>`sessionDetails.dayPart`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.dayPart` |
-| **[!UICONTROL エピソード]** | エピソード番号。 | メディア開始、メディア終了 | `a.media.episode` | `xdm.mediaCollection.`<br>`sessionDetails.episode`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.episode` |
-| **[!UICONTROL メディアフィードのタイプ]** | フィードのタイプ。 | メディア開始、メディア終了 | `a.media.feed` | `xdm.mediaCollection.`<br>`sessionDetails.feed`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.feed` |
-| **[!UICONTROL ジャンル]** | コンテンツプロデューサーによって定義されたコンテンツのタイプまたはグループ。 このディメンションでは、コンマで区切られた複数の値がサポートされています。 | メディア開始、メディア終了 | `a.media.genre` | `xdm.mediaCollection.`<br>`sessionDetails.genre`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.genreList` |
-| **[!UICONTROL MVPD]** | Adobe認証で提供されるMVPD。 | メディア開始、メディア終了 | `a.media.pass.mvpd` | `xdm.mediaCollection.`<br>`sessionDetails.mvpd`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.mvpd` |
-| **[!UICONTROL ネットワーク]** | ネットワーク名またはチャネル名。 | メディア開始、メディア終了 | `a.media.network` | `xdm.mediaCollection.`<br>`sessionDetails.network`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.network` |
-| **[!UICONTROL シーズン]** | 番組が属するシーズン番号。 | メディア開始、メディア終了 | `a.media.season` | `xdm.mediaCollection.`<br>`sessionDetails.season`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.season` |
-| **[!UICONTROL 表示]** | プログラムまたはシリーズの名前。 | メディア開始、メディア終了 | `a.media.show` | `xdm.mediaCollection.`<br>`sessionDetails.show`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.show` |
-| **[!UICONTROL 表示タイプ]** | コンテンツのタイプを表す整数。<br>`0`：完全なエピソード <br>`1`：プレビューまたは予告編 <br>`2`：クリップ <br>`3`：その他 | メディア開始、メディア終了 | `a.media.type` | `xdm.mediaCollection.`<br>`sessionDetails.showType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.showType` |
+* [!UICONTROL 広告が読み込まれます]
+* [[!UICONTROL 日パート &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL &#x200B; エピソード &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL &#x200B; メディアフィードの種類]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL &#x200B; ジャンル &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL ネットワーク]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL &#x200B; シーズン &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 表示]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL &#x200B; タイプを表示]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
 
+対応する指標については、[&#x200B; ストリーミングメディアサービスのビデオメタデータ指標](../metrics/sm-video-metadata.md)を参照してください。

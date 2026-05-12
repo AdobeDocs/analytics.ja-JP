@@ -1,33 +1,47 @@
 ---
-title: ストリーミングメディアチャプターディメンション
-description: レポートスイートに対して [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能なディメンション。
+title: ストリーミングメディアサービスの章ディメンション
+description: レポートスイートで[!UICONTROL &#x200B; メディアチャプター]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/AfI1gvM3quhjC1zV6oRKx86vS-aLDIRNtuw1vEhuK4A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: 192
+ht-degree: 1%
 
 ---
 
-# ストリーミングメディアサービスチャプターディメンション
+# ストリーミングメディアサービスの章ディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能なディメンションについて説明します。 使用可能な指標については、[&#x200B; ストリーミングメディアサービスのチャプター指標 &#x200B;](../metrics/sm-chapters.md) を参照してください。*
+ストリーミングメディアサービスの章ディメンションは、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらのディメンションには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスチャプターディメンションは、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらのディメンションを使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Media Chapters]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の下の [&#x200B; メディアチャプター &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
+次のディメンションを使用できます。
 
-| ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 第]** 章 | 自動生成されたチャプター ID。 | チャプタークローズ | `a.media.chapter.name` | `xdm.mediaReporting.`<br>`chapterDetails.ID` |
+* [[!UICONTROL 章]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
 
-上記のディメンションに加えて、Adobeでは、次の分類ディメンションが自動的に作成されます。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
+上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
-| 分類名 | 親ディメンション | 説明 |
-| --- | --- | --- |
-| **[!UICONTROL 作成者]** | [[!UICONTROL コンテンツ]](sm-core.md) | コンテンツの作成者。 |
-| **[!UICONTROL チャプター長]** | [!UICONTROL &#x200B; 第 &#x200B;] 章 | チャプターの長さ（秒）。 |
-| **[!UICONTROL チャプター名]** | [!UICONTROL &#x200B; 第 &#x200B;] 章 | チャプターのわかりやすい名前。 |
-| **[!UICONTROL チャプターオフセット]** | [!UICONTROL &#x200B; 第 &#x200B;] 章 | 開始時からのコンテンツ内のチャプターのオフセット （秒）。 |
-| **[!UICONTROL チャプター位置]** | [!UICONTROL &#x200B; 第 &#x200B;] 章 | コンテンツ内のチャプターのインデックス位置。 |
+| 分類名 | 親ディメンション |
+| --- | --- |
+| [[!UICONTROL 発信元]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 章の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章] |
+| [[!UICONTROL 章名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章] |
+| [[!UICONTROL 章のオフセット &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章] |
+| [[!UICONTROL 章の位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章] |
+
+対応する指標については、[&#x200B; ストリーミングメディアサービスの章の指標](../metrics/sm-chapters.md)を参照してください。
