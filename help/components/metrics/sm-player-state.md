@@ -1,35 +1,40 @@
 ---
-title: ストリーミングメディアサービスプレーヤーの状態トラッキング指標
-description: レポートスイートに対して [!UICONTROL &#x200B; プレーヤーステートトラッキング &#x200B;] を有効にすると使用可能な指標です。
+title: ストリーミングメディアサービスプレーヤーの状態追跡指標
+description: レポートスイートで[!UICONTROL Player State Tracking]を有効にすると、使用可能な指標が表示されます。
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 2%
+source-wordcount: 333
+ht-degree: 0%
 
 ---
 
-# ストリーミングメディアサービスプレーヤーの状態トラッキング指標
+# ストリーミングメディアサービスプレーヤーの状態追跡指標
 
-ストリーミングメディアサービスプレーヤー状態トラッキング指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+ストリーミングメディアサービスプレーヤーの状態追跡指標は、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらの指標には、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-**[!UICONTROL メディアレポート]** の [&#x200B; プレーヤーの状態のトラッキング &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
+これらの指標を使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Player State Tracking]**&#x200B;を有効にします。
 
-| Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL クローズドキャプションの影響を受けるストリーム]** | 再生セッション中に 1 つ以上のクローズドキャプション状態が発生した場合にトリガーされます。 | メディアのクローズ | `a.media.states.`<br>`closedcaptioning.set` | `mediaReporting.`<br>`states.[*].isSet` |
-| **[!UICONTROL クローズドキャプションのカウント]** | ビデオがクローズドキャプション状態になった回数。 | メディアのクローズ | `a.media.states.`<br>`closedcaptioning.count` | `xdm.mediaReporting.`<br>`states.[*].count` |
-| **[!UICONTROL クローズドキャプションの合計期間]** | ビデオがクローズドキャプション状態であった時間（秒）。 | メディアのクローズ | `a.media.states.`<br>`closedcaptioning.time` | `xdm.mediaReporting.`<br>`states.[*].time` |
-| **[!UICONTROL フルスクリーンの影響を受けるストリーム]** | 再生セッション中にフルスクリーン状態が少なくとも 1 つ発生した場合にトリガーされます。 | メディアのクローズ | `a.media.states.`<br>`fullscreen.set` | `xdm.mediaReporting.`<br>`states.[*].isSet` |
-| **[!UICONTROL 全画面表示カウント]** | ビデオがフルスクリーン状態になった回数。 | メディアのクローズ | `a.media.states.`<br>`fullscreen.count` | `xdm.mediaReporting.`<br>`states.[*].count` |
-| **[!UICONTROL 全画面表示の合計時間]** | ビデオが全画面状態だった時間（秒）。 | メディアのクローズ | `a.media.states.`<br>`fullscreen.time` | `xdm.mediaReporting.`<br>`states.[*].time` |
-| **[!UICONTROL フォーカス中のの影響を受けるストリーム]** | 再生セッション中に 1 つ以上のフォーカス中状態が発生した場合にトリガーされます。 | メディアのクローズ | `a.media.states.`<br>`infocus.set` | `mediaReporting.`<br>`states.[*].isSet` |
-| **[!UICONTROL インフォーカスのカウント]** | ビデオがフォーカス中状態になった回数。 | メディアのクローズ | `a.media.states.`<br>`infocus.count` | `xdm.mediaReporting.`<br>`states.[*].count` |
-| **[!UICONTROL フォーカス中合計時間]** | ビデオがフォーカス中状態だった時間（秒）。 | メディアのクローズ | `a.media.states.`<br>`infocus.time` | `xdm.mediaReporting.`<br>`states.[*].time` |
-| **[!UICONTROL ミュートの影響を受けるストリーム]** | 再生セッション中に少なくとも 1 つのミュート状態が発生した場合にトリガーされます。 | メディアのクローズ | `a.media.states.`<br>`mute.set` | `xdm.mediaReporting.`<br>`states.[*].isSet` |
-| **[!UICONTROL カウントをミュート]** | ビデオがミュート状態になった回数。 | メディアのクローズ | `a.media.states.`<br>`mute.count` | `xdm.mediaReporting.`<br>`states.[*].count` |
-| **[!UICONTROL 合計時間をミュート]** | ビデオがミュート状態であった時間（秒）。 | メディアのクローズ | `a.media.states.`<br>`mute.time` | `xdm.mediaReporting.`<br>`states.[*].time` |
-| **[!UICONTROL ピクチャーインピクチャーの影響を受けるストリーム]** | 再生セッション中に 1 つ以上のピクチャーインピクチャー状態が発生した場合にトリガーされます。 | メディアのクローズ | `a.media.states.`<br>`pictureinpicture.set` | `mediaReporting.states.`<br>`[*].isSet` |
-| **[!UICONTROL ピクチャーインピクチャーのカウント]** | ビデオがピクチャーインピクチャー状態になった回数。 | メディアのクローズ | `a.media.states.`<br>`pictureinpicture.count` | `xdm.mediaReporting.`<br>`states.[*].count` |
-| **[!UICONTROL ピクチャーインピクチャーの合計時間]** | ビデオがピクチャーインピクチャー状態であった時間（秒）。 | メディアのクローズ | `a.media.states.`<br>`pictureinpicture.time` | `xdm.mediaReporting.`<br>`states.[*].time` |
+次の指標を使用できます。
+
+* [クローズドキャプションの影響を受ける[!UICONTROL  ストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
+* [[!UICONTROL  クローズドキャプション数]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-count)
+* [[!UICONTROL  クローズドキャプションの合計期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-total-duration)
+* [フルスクリーンの影響を受ける[!UICONTROL  ストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
+* [[!UICONTROL 全画面数]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-count)
+* [[!UICONTROL 全画面表示の合計期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-total-duration)
+* [フォーカスの影響を受ける[!UICONTROL  ストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-streams-impacted)
+* [[!UICONTROL  フォーカス数]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-count)
+* [[!UICONTROL  フォーカス合計期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-total-duration)
+* [ミュート ]の影響を受ける[!UICONTROL  ストリーム](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/mute-streams-impacted)
+* [[!UICONTROL 分数]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/mute-count)
+* [[!UICONTROL 合計期間]分](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/mute-total-duration)
+* [[!UICONTROL  ピクチャインピクチャの影響を受けるストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/picture-in-picture-streams-impacted)
+* [[!UICONTROL  ピクチャインピクチャ数]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/picture-in-picture-count)
+* [[!UICONTROL  ピクチャの合計期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/picture-in-picture-total-duration)

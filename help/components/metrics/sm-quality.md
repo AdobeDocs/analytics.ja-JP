@@ -1,34 +1,40 @@
 ---
-title: ストリーミングメディアサービス品質指標
-description: レポートスイートの [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にするときに使用できる指標です。
+title: ストリーミングメディアサービスの品質指標
+description: レポートスイートで[!UICONTROL  メディア品質]を有効にすると、使用可能な指標が表示されます。
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/TsYeXNoVMxw2S8DqHGxkPk-7MrxXhBSG-b7b4J0TOOQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 2%
+source-wordcount: 258
+ht-degree: 0%
 
 ---
 
-# ストリーミングメディアサービス品質指標
+# ストリーミングメディアサービスの品質指標
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア品質 &#x200B;] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[&#x200B; ストリーミングメディアサービス品質ディメンション &#x200B;](../dimensions/sm-quality.md) を参照してください。*
+ストリーミングメディアサービス品質指標は、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらの指標には、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービス品質指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらの指標を使用するには、レポートスイートで[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)の下の&#x200B;**[!UICONTROL Media Quality]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の [&#x200B; メディア品質 &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
+次の指標を使用できます。
 
-| Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 平均ビットレート]** | 再生セッションの再生時間に対するすべてのビットレート値の加重平均。 | メディアのクローズ | `a.media.qoe.`<br>`bitrateAverage` | `xdm.mediaReporting.`<br>`qoeDataDetails.bitrateAverage` |
-| **[!UICONTROL ビットレート変更の影響を受けたストリーム]** | 再生セッション中にビットレートが 1 回以上変更された場合にトリガーとなるブール値。 | メディアのクローズ | `a.media.qoe.`<br>`bitrateChange` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasBitrateChangeImpactedStreams` |
-| **[!UICONTROL ビットレートの変更]** | ビットレートが変更された回数。 | メディアのクローズ | `a.media.qoe.`<br>`bitrateChangeCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`bitrateChangeCount`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bitrateChangeCount` |
-| **[!UICONTROL バッファーの影響を受けたストリーム]** | ビデオが少なくとも 1 回はバッファステートに入った場合にトリガーにするブール値です。 | メディアのクローズ | `a.media.qoe.`<br>`buffer` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasBufferImpactedStreams` |
-| **[!UICONTROL バッファーイベント]** | 再生セッション中にビデオがバッファリングされた回数。 | メディアのクローズ | `a.media.qoe.`<br>`bufferCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.bufferCount` |
-| **[!UICONTROL 合計バッファー時間]** | ビデオがすべてのバッファーイベントでバッファリングに費やした時間（秒単位）。 | メディアのクローズ | `a.media.qoe.`<br>`bufferTime` | `xdm.mediaReporting.`<br>`qoeDataDetails.bufferTime` |
-| **[!UICONTROL 開始前にドロップ]** | ビデオのメインコンテンツが開始される前にユーザーが終了した場合にトリガーにするブール値です。 | メディアのクローズ | `a.media.qoe.`<br>`dropBeforeStart` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`isDroppedBeforeStart` |
-| **[!UICONTROL ドロップフレーム]** | 再生セッション中にドロップされたフレームの合計数を表す整数。 | メディアのクローズ | `a.media.qoe.`<br>`droppedFrameCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.droppedFrames`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.droppedFrames` |
-| **[!UICONTROL ドロップフレームの影響を受けたストリーム]** | 再生セッション中にフレームがドロップされた場合にトリガーを設定するブール値。 | メディアのクローズ | `a.media.qoe.`<br>`droppedFrames` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasDroppedFrameImpactedStreams` |
-| **[!UICONTROL エラーの影響を受けたストリーム]** | 再生セッション中にビデオでエラーが発生した場合にトリガーにするブール値。 | メディアのクローズ | `a.media.qoe.`<br>`error` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasErrorImpactedStreams` |
-| **[!UICONTROL エラーイベント]** | 再生セッション中に発生したエラーの合計数を表す整数。 | メディアのクローズ | `a.media.qoe.`<br>`errorCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.errorCount` |
-| **[!UICONTROL 開始時間]** | ビデオの開始に要した時間（ミリ秒単位）。 Adobeは、この値を秒単位で変換して保存します。 | メディアのクローズ | `a.media.qoe.`<br>`timeToStart` | `xdm.mediaCollection.`<br>`qoeDataDetails.timeToStart`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.timeToStart` |
+* [[!UICONTROL 平均ビットレート ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL  ビットレートの変更が影響を受けるストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL  ビットレートの変更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL 影響を受けるストリームのバッファー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL  バッファーイベント ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL 開始する前にドロップします]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL  フレームをドロップ ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL  ドロップされたフレームの影響を受けるストリーム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL 影響を受けるストリームのエラー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL  エラーイベント ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+
+対応するディメンションについては、[ ストリーミングメディアサービス品質ディメンション ](../dimensions/sm-quality.md)を参照してください。

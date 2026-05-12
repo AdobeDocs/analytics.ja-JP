@@ -1,25 +1,31 @@
 ---
-title: ストリーミングメディアサービスのチャプター指標
-description: レポートスイートの [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能な指標です。
+title: ストリーミングメディアサービスの章指標
+description: レポートスイートで[!UICONTROL  メディアチャプター]を有効にすると、使用可能な指標が表示されます。
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/RE2A8dWALCgLL1J3t-kR62wOarFsFIGFgh9Pb-E2-Iw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: 125
+ht-degree: 0%
 
 ---
 
-# ストリーミングメディアサービスのチャプター指標
+# ストリーミングメディアサービスの章指標
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディアチャプター &#x200B;] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[&#x200B; ストリーミングメディアサービスのチャプターディメンション &#x200B;](../dimensions/sm-chapters.md) を参照してください。*
+ストリーミングメディアサービスの章の指標は、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらの指標には、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスのチャプター指標は、ストリーミングメディアサービスコレクションライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらの指標を使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Media Chapters]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の下の [&#x200B; メディアチャプター &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
+次の指標を使用できます。
 
-| Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL チャプター完了]** | チャプターが完了したときにトリガーを立てるブール値。 | チャプタークローズ | `a.media.chapter.complete` | `xdm.mediaReporting.`<br>`chapterDetails.isCompleted` |
-| **[!UICONTROL チャプター開始]** | チャプター開始時をトリガーにするブール値。 | チャプター開始 | `a.media.chapter.view` | `xdm.mediaReporting.`<br>`chapterDetails.isStarted` |
-| **[!UICONTROL チャプターに費やした時間]** | チャプターに費やした時間（秒）。 | チャプタークローズ | `a.media.chapter.timePlayed` | `xdm.mediaReporting.`<br>`chapterDetails.timePlayed` |
+* [[!UICONTROL 章完了]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL 章開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL 章の滞在時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+
+対応するディメンションについては、[ ストリーミングメディアサービスの章ディメンション ](../dimensions/sm-chapters.md)を参照してください。

@@ -1,26 +1,32 @@
 ---
 title: ストリーミングメディアサービスと指標
-description: レポートスイートの [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用できる指標です。
+description: レポートスイートで[!UICONTROL  メディア広告]を有効にすると、使用可能な指標が表示されます。
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/I4CXBdLXx-dS1lZAVSfno-rbEkLKWxNccLwP58HSNzk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 6%
+source-wordcount: 140
+ht-degree: 0%
 
 ---
 
 # ストリーミングメディアサービスと指標
 
-*このページでは、レポートスイートに対して [!UICONTROL &#x200B; メディア広告 &#x200B;] を有効にした場合に使用可能な指標について説明します。 使用可能なディメンションについては、[&#x200B; ストリーミングメディアサービス広告ディメンション &#x200B;](../dimensions/sm-ads.md) を参照してください。*
+ストリーミングメディアサービスと指標は、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する追加のレポート機能を提供します。 これらの指標には、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスと指標は、ストリーミングメディアサービスライブラリを介したデータ収集に対する追加のレポート機能を提供します。 これらの指標を使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらの指標を使用するには、レポートスイートで[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)の下の&#x200B;**[!UICONTROL Media Ads]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の [&#x200B; メディア広告 &#x200B;](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次の指標を使用できます。
+次の指標を使用できます。
 
-| Metric name | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 広告完了]** | ビデオ広告が完了したときにトリガーされます。 | 広告終了 | `a.media.ad.complete` | `xdm.mediaReporting.`<br>`advertisingDetails.isCompleted` |
-| **[!UICONTROL 広告開始]** | ビデオ広告の開始時にトリガーされます。 | 広告開始 | `a.media.ad.view` | `xdm.mediaReporting.`<br>`advertisingDetails.isStarted` |
-| **[!UICONTROL 広告視聴時間]** | 広告の視聴に費やした合計時間（秒）。 | 広告終了 | `a.media.ad.timePlayed` | `xdm.mediaReporting.`<br>`advertisingDetails.timePlayed` |
-| **[!UICONTROL メディアに費やした時間]** | すべての「[!UICONTROL &#x200B; 再生 &#x200B;]」イベント（メインコンテンツと広告コンテンツの両方）のイベント時間を秒単位で合計します。 | メディアのクローズ | `a.media.totalTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.totalTimePlayed` |
+* [[!UICONTROL 広告が完了しました]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL 広告開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL 広告に費やした時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL  メディア滞在時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+
+対応するディメンションについては、[ ストリーミングメディアサービスとディメンション ](../dimensions/sm-ads.md)を参照してください。

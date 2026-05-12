@@ -1,39 +1,45 @@
 ---
-title: ストリーミングメディアサービスのコアディメンション
-description: レポートスイートの [!UICONTROL Media Core] を有効にするときに使用できるディメンションです。
+title: ストリーミングメディアサービスコアディメンション
+description: レポートスイートで[!UICONTROL Media Core]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 7%
+source-wordcount: 275
+ht-degree: 1%
 
 ---
 
-# ストリーミングメディアサービスのコアディメンション
+# ストリーミングメディアサービスコアディメンション
 
-*このページでは、レポートスイートに対して [!UICONTROL Media Core] を有効にしたときに使用できるディメンションについて説明します。 使用可能な指標について詳しくは、[&#x200B; ストリーミングメディアサービスのコア指標 &#x200B;](../metrics/sm-core.md) を参照してください。*
+ストリーミングメディアサービス コアディメンションは、ストリーミングメディア収集ライブラリを通じて収集されたデータに対する基本的なレポート機能を提供します。 これらのディメンションには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]**&#x200B;が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
 
-ストリーミングメディアサービスのコアディメンションは、ストリーミングメディアサービスライブラリを通じて収集されたデータに対して基本的なレポート機能を提供します。 これらのディメンションを使用するには、**[!UICONTROL Adobe Analytics for Streaming Media アドオン]** が必要です。 詳しくは、Adobe アカウントチームにお問い合わせください。
+これらのディメンションを使用するには、レポートスイートの[[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md)で&#x200B;**[!UICONTROL Media Core]**&#x200B;を有効にします。
 
-**[!UICONTROL メディアレポート]** の [Media Core](/help/admin/tools/manage-rs/edit-settings/media-management.md) を有効にすると、次のディメンションを使用できます。
+次のディメンションを使用できます。
 
-| ディメンション名 | 説明 | 次を使用して送信 | コンテキストデータ変数 | XDM フィールド |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL コンテンツ]** | コンテンツのコンテンツ ID。 | メディア開始、メディア終了 | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL コンテンツチャネル]** | コンテンツが再生される配信ステーションまたはチャネル。 任意の文字列値が有効です。 | メディア開始、メディア終了 | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL コンテンツの長さ（可変）]** | 消費されるコンテンツの最大長（またはデュレーション） （秒単位）。 このディメンションは、「[!UICONTROL &#x200B; 分平均オーディエンス &#x200B;]」を含む複数の指標に対して必要です。 このディメンションが設定されていない場合、依存指標は使用できません。<br><br> 同様の目的を提供する、「[!UICONTROL &#x200B; ビデオの長さ &#x200B;]」という名前の分類ディメンションも使用できます。 このディメンションと分類は、2 つの異なるディメンションとして扱われます。 | メディア開始、メディア終了 | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL コンテンツ名（変数）]** | コンテンツのわかりやすい名前。 同様の目的を提供する、「[!UICONTROL &#x200B; ビデオ名 &#x200B;]」という分類も使用できます。 このディメンションと分類は、2 つの異なるディメンションとして扱われます。 | メディア開始、メディア終了 | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL コンテンツプレーヤー名]** | コンテンツプレイヤーの名前。 | メディア開始、メディア終了 | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL コンテンツセグメント]** | 表示されたコンテンツの部分を表す間隔（分）。 セグメントは、再生セッション中の再生ヘッドの値の最小値および最大値として計算されます。 | メディアのクローズ | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL コンテンツタイプ]** | コンテンツのタイプ。 有効な値には、`song`、`podcast`、`audiobook`、`radio`、`VoD`、`Live`、`Linear`、`UGC`、`DVoD`、カスタム値などがあります。 | メディア開始、メディア終了 | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL メディアパス]** | 訪問者がコンテンツに到達するまでにかかったパス。 | メディア開始 | `a.media.path` | |
-| **[!UICONTROL メディアセッション ID]** | 個々の再生に固有のコンテンツストリームのインスタンスを識別します。 | メディア開始、メディア終了 | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL ストリームタイプ]** | ストリームタイプ。 有効な値には、`audio` および `video` などがあります。 | メディア開始、メディア終了 | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL コンテンツ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL  コンテンツチャネル ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL  コンテンツの長さ（変数） ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL  コンテンツ名（変数） ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL  コンテンツプレーヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL  コンテンツセグメント ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL  コンテンツの種類]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL  メディアパス ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL  メディアセッション ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL  ストリームタイプ ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
-上記のディメンションに加えて、Adobeでは、次の分類ディメンションが自動的に作成されます。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
+上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
-| 分類名 | 親ディメンション | 説明 |
-| --- | --- | --- |
-| **[!UICONTROL ビデオ長]** | [!UICONTROL コンテンツ] | 消費されるコンテンツの最大長（またはデュレーション） （秒単位）。 コンテンツの長さに依存する指標ではこの分類を使用できません。この分類を使用して「[!UICONTROL &#x200B; 分平均オーディエンス &#x200B;]」などの指標を取得するには、計算指標を作成する必要があります。 |
-| **[!UICONTROL ビデオ名]** | [!UICONTROL コンテンツ] | コンテンツのわかりやすい名前。 「[!UICONTROL &#x200B; コンテンツ名（変数） &#x200B;]」の分類同等です。 |
+| 分類名 | 親ディメンション |
+| --- | --- |
+| [[!UICONTROL  ビデオの長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL コンテンツ] |
+| [[!UICONTROL  ビデオ名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL コンテンツ] |
+
+対応する指標については、[ ストリーミングメディアサービスのコア指標](../metrics/sm-core.md)を参照してください。
