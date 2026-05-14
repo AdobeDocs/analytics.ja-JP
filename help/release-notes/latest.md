@@ -4,10 +4,23 @@ description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: 1365
@@ -27,7 +40,7 @@ ht-degree: 61%
 | ----------- | ---------- | ---- |
 | **Adobe Analytics用MCP サーバー** <br/>Analytics MCP （Model Context Protocol）サーバーを使用すると、サポートされているMCP クライアントをAdobe Analyticsに接続できます。 接続が完了すると、MCP クライアントは、製品固有のツールを呼び出して、データの取得、クエリの実行、またはLLMまたはエージェント型ワークフローの一部としてサポートされている操作を実行できます。 詳しくは、[Analytics MCP サーバー](https://developer.adobe.com/analytics-mcp/docs/)を参照してください。<p>ベータ期間中にこれらのMCP サーバーを使用した場合は、ベータ版と実稼動エンドポイントの間に異なるURLがあることに注意してください。 ベータ期間中に作成されたエージェント型ワークフローが、5月31日より前に実稼動エンドポイントを使用するように更新されていることを確認します。</p> | | 2026年5月5日（PT） |
 | **Adobe Analyticsのジャーニーキャンバス** <br/> ユーザーキャンバスは、Analysis Workspaceのビジュアライゼーションです。ジャーニーがジャーニーをどのように進んでいるか、離脱するかを分析することで、定義されたユーザージャーニーに関する詳細なインサイトを得ることができます。 ジャーニーに含まれるイベント、ディメンション項目、セグメントの任意の組み合わせを表す、ノードと矢印の柔軟なグラフを作成できます。 ノードをキャンバスにドラッグしたり、ジャーニーのイベントや条件を並べ替えたりすると、データが更新されます。<p>ジャーニーキャンバスは、以前はCustomer Journey Analyticsでのみ使用できました。</p><p>Adobe Analyticsのジャーニーキャンバスについて詳しくは、[ジャーニーキャンバスの概要](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)を参照してください。 </p><p>Adobe Analyticsでジャーニーキャンバスのビジュアライゼーションを作成する方法については、[ジャーニーキャンバスの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)を参照してください。</p> | 2026年5月18日（PT） | 2026年6月5日（PT） |
-| **アトリビューションモデル API レポートガイド** <br/>新しいAdobe Analytics 2.0 API アトリビューションモデルレポートガイドが利用可能です。 このガイドでは、Dimension API レポートにアトリビューションモデルオブジェクトデータを含める方法について説明します。<p>詳しくは、[Dimension API アトリビューションモデル ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)を参照してください。</p> | | 2026年5月 |
+| **アトリビューションモデル API レポートガイド** <br/>新しいAdobe Analytics 2.0 API アトリビューションモデルレポートガイドが利用可能です。 このガイドでは、Dimension API レポートにアトリビューションモデルオブジェクトデータを含める方法について説明します。<p>詳しくは、[Dimension API アトリビューションモデル &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)を参照してください。</p> | | 2026年5月 |
 | **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（無料広告サポート TV）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、[スケジュールデータをアップロードしてライブコンテンツを追跡する](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)を参照してください。</p> | 2025年10月29日（PT） | 2026年上半期<p>（当初は 2025年10月29日（PT）にリリースされる予定でした）</p> |
 
 {style="table-layout:auto"}
