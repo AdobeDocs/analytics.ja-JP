@@ -2,9 +2,8 @@
 description: Analysis Workspace でジャーニーキャンバスを使用する方法について説明します。
 title: ジャーニーキャンバスの概要
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
