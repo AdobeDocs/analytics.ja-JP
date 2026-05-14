@@ -2,9 +2,8 @@
 description: Analysis Workspaceのジャーニーキャンバスのビジュアライゼーションを使用して、ユーザージャーニー、フォールアウト、マルチパスのコンバージョンを分析する方法を説明します。
 title: ジャーニーキャンバスのトラブルシューティング
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -15,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) [Adobe Analytics_ _&#x200B;**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)を参照してください。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) ![Adobe Analytics_ _**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)を参照してください。[
 
 >[!ENDSHADEBOX]
 
