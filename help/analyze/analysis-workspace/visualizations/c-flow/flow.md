@@ -5,10 +5,15 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/G-DKqcAi8FY0wuIw67vThLnZ0iHUr4Do8YHPI67CFaM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 57%
+source-wordcount: 334
+ht-degree: 73%
 
 ---
 
@@ -24,14 +29,14 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="フロー"
->abstract="1つのタッチポイントから次のタッチポイントへの訪問または訪問者のフローを分析します。<br/><br/>**パラメーター&#x200B;**<br/>**で始まる**：ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントが発生した後に発生した上位のタッチポイントを表示します。<br/>**含む**：選択したコンポーネントが発生する前と後に発生した上位のタッチポイントを表示します。<br/>**次で終了**：ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントよりも前に発生する上位のタッチポイントを確認します。<br/>**パスディメンション**：選択したコンポーネントに続くパスや選択したコンポーネントから来るパスとして使用するディメンションを追加します。"
+>abstract="1 つのタッチポイントから次のタッチポイントへの訪問または訪問者のフローを分析します。<br/><br/>**パラメーター&#x200B;**<br/>**：**&#x200B;ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントよりも後に発生する上位のタッチポイントを確認します。<br/>**次を含む**：ディメンションまたはディメンション項目を追加して、選択したコンポーネントの発生前後に発生する上位のタッチポイントを確認します。<br/>**次で終了**：ディメンション、ディメンション項目または指標を追加して、選択したコンポーネントよりも前に発生する上位のタッチポイントを確認します。<br/>**パスディメンション**：選択したコンポーネントに続くパスや選択したコンポーネントから来るパスとして使用するディメンションを追加します。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについては、[Flow](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)を参照してください。_
+_この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[Flow](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +52,7 @@ _この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/Ado
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +73,7 @@ _この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/Ado
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フロービジュアライゼーションの追加機能](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

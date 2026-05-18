@@ -7,7 +7,7 @@ role: User
 source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '4863'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -432,7 +432,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指数回帰：相関係数"
->abstract="指数回帰：Y = b * exp （aX）。 相関係数を返します。"
+>abstract="指数回帰：Y = b * exp(aX)。 相関係数を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -455,7 +455,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指数回帰：予測 Y"
->abstract="指数回帰：Y = b * exp （aX）。 Y を返します。"
+>abstract="指数回帰：Y = b * exp(aX)。 Y を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -479,7 +479,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指数回帰：切片"
->abstract="指数回帰：Y = b * exp （aX）。 b を返します。"
+>abstract="指数回帰：Y = b * exp(aX)。 b を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -502,7 +502,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指数回帰：傾き"
->abstract="指数回帰：Y = b * exp （aX）。 a を返します。"
+>abstract="指数回帰：Y = b * exp(aX)。 a を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -879,7 +879,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -901,7 +901,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -947,7 +947,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
 
 | 引数 | 説明 |
 |---|---|
