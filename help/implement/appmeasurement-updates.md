@@ -5,35 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 2843
-ht-degree: 73%
+source-wordcount: 2885
+ht-degree: 58%
 
 ---
 
@@ -97,7 +77,7 @@ ht-degree: 73%
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
 
 ## バージョン 2.22.1
 
@@ -192,12 +172,12 @@ ht-degree: 73%
 
 リリース日：**2018 年 9 月 20 日**
 
-このリリースでは、[!DNL AppMeasurement] ライブラリがすべての接続タイプに対して Cookie を適切に送信するようになります。
+このリリースでは、AppMeasurement ライブラリがすべてのコネクションタイプに対してCookieを正しく送信するようになります。
 
-* [!DNL AppMeasurement] は、POST 中の Cookie の送信をブロックします。 （AN-165538）
+* AppMeasurementは、POST中のCookie送信をブロックします。 （AN-165538）
 * XDomainRequest のドロップをサポートします。 （AN-165733）
-* [!DNL AppMeasurement] のデフォルトの Cookie の有効期間を 5 年から 2 年に短縮します。 （AN-158572）
-* コードマネージャー（[!DNL AppMeasurement]）からメディアモジュールを削除します。（AN-166590）
+* AppMeasurementのデフォルトのCookieの有効期間を5年から2年に短縮。 （AN-158572）
+* Code Manager （AppMeasurement）からMedia Moduleを削除します（AN-166590）
 
 ## バージョン 2.9.0
 
@@ -205,9 +185,9 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->[!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。 関連付けられたコードライブラリ（[!DNL at.js]、[!DNL AppMeasurement.js]、など）が更新された場合は常に訪問者 API を最新バージョンにアップグレードすることをお勧めします。
+>Experience Cloud ID サービスを使用しているお客様には、Visitor API 3.0以降が必要です。 関連付けられたコードライブラリ（`at.js`、`AppMeasurement.js`、など）が更新された場合は常に訪問者 API を最新バージョンにアップグレードすることをお勧めします。
 
-* [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。 （AN-151483）
+* 更新された訪問者インターフェイスを使用してIDを要求するようにAppMeasurementを更新しました。 （AN-151483）
 * リンクトラッキングをオフにした後、リンクトラッキング Cookieが書き込まれたままになる問題を修正しました。 （AN-156332）
 * `registerPreTrackCallback` および `registerPostTrackCallback` が複数回呼び出されるとコールバック関数シグネチャが壊れていた問題を修正しました。 （AN-158566）
 
@@ -215,9 +195,9 @@ ht-degree: 73%
 
 リリース日&#x200B;**：2018 年 4 月 13 日**
 
-* [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。 （AN-151483）
+* 更新された訪問者インターフェイスを使用してIDを要求するようにAppMeasurementを更新します。 （AN-151483）
 * リンクトラッキング Cookieは、リンクトラッキングがオフになると書き込み続けます。 （AN-156332）
-* [!DNL AppMeasurement] のデフォルトの Cookie の有効期間を 5 年から 2 年に短縮します。 （AN-158572）
+* AppMeasurementのデフォルトのCookieの有効期間を5年から2年に短縮。 （AN-158572）
 
 ## バージョン 2.8.1
 
@@ -231,9 +211,9 @@ ht-degree: 73%
 
 訪問者 API 3.1.0（AN-159524）を再びバンドルします。これには、ホットフィックス（CORE-11390、CORE-10634）が含まれます。
 
-* [!DNL AppMeasurement] v2.8 に VAPI v3.1 をバンドルします。 （AN-158353）
+* VAPI v3.1とAppMeasurement v2.8をバンドルします。 （AN-158353）
 * 共有を促進するために、データ収集エンドポイントをリファクタリングビルドしました。 （AN-156647）
-* [!DNL AppMeasurement] に要求の往復時間指標を追加しました。 （AN-158343）
+* AppMeasurementにリクエストラウンドトリッピングタイミング指標を追加します。 （AN-158343）
 
 ## バージョン 2.7.0
 
@@ -247,13 +227,13 @@ ht-degree: 73%
 
 リリース日： **2017 年 11 月 10 日**
 
-s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]アカウントの組み合わせを設定されないことがあった問題を修正しました。 （AN-152153）
+s_glが呼び出されたときに、AppMeasurement ライブラリが正しいアカウントの組み合わせを常に設定しない問題を修正しました。 （AN-152153）
 
 ## バージョン 2.5.0
 
 リリース日：**2017 年 9 月 22 日**
 
-* [!DNL dil.js 6.12]（[!DNL Audience Manager] モジュール）を同梱しました。
+* `dil.js` 6.12 （Audience Manager モジュール）を含める
 * 訪問者 API 2.5.0 を同梱しました。
 
 ## バージョン 2.4.0
@@ -274,7 +254,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2017 年 6 月 9 日**
 
-* 複数の [!DNL AppMeasurement] インスタンス化順序のサポートが追加されました。 （AN-138237）
+* 複数のAppMeasurement インスタンス化順序のサポートを追加しました。 （AN-138237）
 * バージョン 2.2.0の訪問者APIを含めます。 （AN-144042）
 
 ## バージョン 2.1.0
@@ -307,39 +287,39 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 更新日：**2016 年 11 月 12 日**
 
 * 訪問者 API 1.10.1 が含まれています。
-* [!DNL Audience Manager] モジュールを Demdex 統合ライブラリ（DIL） 6.6 に更新しました。 （AN-132065）
+* Demdex Integration Library （DIL） 6.6でAudience Manager モジュールを更新します。 （AN-132065）
 * Visitor API 1.9.0 を同梱しました。 （AN-132072）
-* [!DNL AppMeasurement] [!DNL Audience Manager]モジュールが DIL 6.5 と追加設定で更新されました。（AN-129411）
+* AppMeasurement 6.5とその他の設定を使用したDIL Audience Manager モジュールの更新（AN-129411）
 * 訪問者 API 1.8.0 が同梱されました。（AN-129887）
 
 ## バージョン 1.6.4
 
 更新日：**2016 年 8 月 19 日**
 
-* [!DNL AppMeasurement] が更新され、AMCV cookie を読み書きするようになりました。 （AN-127098）
+* AMCV Cookieの読み取りと書き込みを行うAppMeasurementを更新しました。 （AN-127098）
 * Visitor API 1.7.0 を同梱しました。
 
 >[!NOTE]
 >
->[!DNL JavaScript] バージョン 1.6.3 について次のリリースノートも参照してください。Experience Cloud ID サービスの更新された要件が記載されています。
+>Experience Cloud ID サービスの更新された要件を含む、JavaScript バージョン 1.6.3の次のリリースノートも参照してください。
 
 ## バージョン 1.6.3
 
 更新日：**2016 年 8 月 5 日**
 
-* リクエストの接続が [!DNL AppMeasurement] によって途中で終了する問題を修正しました。 （AN-126448）
+* AppMeasurementがリクエスト接続を早期に終了する問題を修正しました。 （AN-126448）
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。 Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、AppMeasurement バージョン 1.6.3 以降を使用してください。
+>Experience Cloud ID サービス *のバージョン 1.6.0には、JavaScript バージョン 1.6.3以降の* AppMeasurementが必要です。 Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、AppMeasurement バージョン 1.6.3 以降を使用してください。
 
 ## バージョン 1.6.2
 
 リリース日：**2016 年 7 月 21 日**
 
 * 訪問者 API 1.6.0 を同梱しました。
-* [!DNL AppMeasurement] が訪問者 API の不適切な不明化されたメソッドを呼び出してしまう問題を修正しました。 （AN-126006）
-* [!DNL JavaScript] エラーの原因となる問題を修正しました：「属性はv:imageでのみ有効です」。 （AN-124009）
+* AppMeasurementがVisitor APIで間違った難読化メソッドを呼び出す問題を修正しました。 （AN-126006）
+* JavaScript エラーの原因となる問題を修正しました：「属性はv:imageでのみ有効です」。 （AN-124009）
 
 ## バージョン 1.6.1
 
@@ -352,8 +332,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2016 年 4 月 22 日**
 
-* [!DNL AppMeasurement] の Activity Map モジュールが、[!DNL AppMeasurement] 標準モジュールに統合され、1 つの [!DNL .js] ファイルだけを参照するだけで済むようになりました。 さらに、Activity Map トラッキングはデフォルトでアクティブ化されています。 （AN-112689）
-* [!DNL AppMeasurement] 内で、*`pageURLRest`* が最後になるよう、クエリ文字列変数の並び順で発生していた切り捨て問題を修正しました。 （AN-114647）
+* AppMeasurement Activity Map モジュールはAppMeasurement標準モジュールに統合されているため、1つの`.js` ファイルを参照するだけで済みます。 さらに、Activity Map トラッキングはデフォルトでアクティブ化されています。 （AN-112689）
+* AppMeasurementのクエリ文字列変数の順序で発生する切り捨ての問題を修正し、*`pageURLRest`*&#x200B;が最後になるようにしました。 （AN-114647）
 
 ## バージョン 1.5.4
 
@@ -366,7 +346,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2016 年 1 月 22 日**
 
-* トラッキングコールに POST が使用されている場合の [!DNL Audience Manager] モジュールの処理を修正しました。 （AN-115381）
+* POSTが呼び出しのトラッキングに使用される場合のAudience Manager モジュールの処理を修正しました。 （AN-115381）
 * ページ URL の残り（「-g」）をトラッキングリクエストクエリ文字列の最後に移動しました。 （AN-114647）
 
 ## バージョン 1.5.2
@@ -381,7 +361,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2015 年 9 月 17 日**
 
 * Visitor API 1.5.2 を同梱しました。
-* Adobe Audience Manager DIL 6.2を使用するための[!DNL Audience Manager] モジュールを更新しました。VisitorAPI.jsからgetCustomer IDを取得し、/event呼び出しでそれらをAdobe Audience Managerに渡します。 （AN-104978）
+* Audience Manager モジュールを更新して、Adobe Audience Manager DIL 6.2 - VisitorAPI.jsからgetCustomer IDを使用し、/event呼び出しでそれらをAdobe Audience Managerに渡しました。 （AN-104978）
 
 ## バージョン 1.5
 
@@ -402,7 +382,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 >[!NOTE]
 >
->**既知の問題**：「訪問者 API／[!DNL AppMeasurement] [!DNL Audience Manager]モジュールの統合」では、IE6-9 で `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html` の 2 つの宛先パブリッシング iFrame リクエストがおこなわれます。 正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
+>**既知の問題**: Visitor APIとAppMeasurement Audience Manager Moduleの統合では、IE6-9で行われた2つの宛先公開iFrame リクエストがあります：`//fast.<subdomain>.demdex.net/dest5.html`と`//fast.<subdomain>.demdex.net/dest4.html`。 正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
 
 ## バージョン 1.4.4
 
@@ -450,7 +430,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
   >[!IMPORTANT]
   >
-  >[!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[&#x200B; を解決するメソッド）の代わりに POST メソッドを使用する &#x200B;](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
+  >Analytics呼び出しでAppMeasurementの`GET` メソッドの代わりに`POST` メソッドを使用する場合（IE](/help/implement/js/troubleshooting.md)で[切り捨てられたURLを解決するメソッド）、CX Enterpriseの最新の訪問者ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
@@ -468,20 +448,20 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2014 年 6 月 20 日**
 
-* 訪問者関連の API フィールド（従来の [!DNL Analytics] 訪問者 ID など）の done および waiting フラグの取り扱いでエラーが生じる問題を修正しました。
+* エラーの原因となっていた従来のAnalytics訪問者IDなどの訪問者API フィールドの完了フラグと待機フラグの処理を修正しました。
 * 訪問者 ID サービス 1.3 の新機能がサポートされました。
 
 ## バージョン 1.3.1
 
 リリース日：**2014 年 5 月 23 日**
 
-* [!DNL JavaScript] 版 [!DNL AppMeasurement] の `s_gi` 関数が、H コードの `s_gi` を使用して作成されたインスタンスを正しく検索できない問題を修正しました。 この問題は、[!DNL JavaScript] 版 [!DNL AppMeasurement] および H コードが同じページの別のインスタンスで存在し、インスタンスの検索にレポートスイートで `s_gi` が使用されているデュアルタグ実装にのみ影響します。
+* JavaScript `s_gi`のAppMeasurement関数で、H コード `s_gi`を使用して作成されたインスタンスが正しく見つかりませんでした。 この問題は、JavaScript用AppMeasurementとH コードが別々のインスタンスを持つ同じページにあり、`s_gi`がレポートスイートでインスタンスを検索するために使用されていた一部のデュアルタグ実装にのみ影響を与えることに注意してください。
 
 ## バージョン 1.3
 
 リリース日：**2014 年 4 月 18 日**
 
-* [Experience Cloud 訪問者 ID サービスのサポート](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。
+* [CX Enterprise Visitor ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)のサポート。
 
 ## バージョン 1.2.4
 
@@ -499,7 +479,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2014 年 2 月 7 日**
 
-* [!DNL Audience Manager] の DIL モジュールとの互換性の問題を修正しました。 [!DNL Audience Manager] ユーザーは、DIL モジュールのバージョン 4.8 にアップデートする必要もあります。
+* Audience Manager DIL モジュールの互換性の問題を修正しました。 Audience Managerのお客様は、DIL モジュールのバージョン 4.8にアップデートする必要があります。
 
 ## バージョン 1.2.1
 
@@ -531,7 +511,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 8 月 16 日**
 
 * Adobe Tag Management を使用したデプロイメントのサポートを追加しました。
-* 階層変数が [!DNL AppMeasurement] オブジェクトで設定されない問題を修正しました。
+* AppMeasurement オブジェクトに階層変数が設定されない問題を修正しました。
 
 ## バージョン 1.0.2
 
@@ -549,7 +529,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2013 年 5 月 24 日**
 
-新しい [!DNL JavaScript] 版 [!DNL AppMeasurement] ライブラリがコードマネージャーで使用できるようになりました。 このライブラリは [!DNL s_code.js] と同じ機能を提供しますが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
+新しいJavaScript AppMeasurement ライブラリがCode Managerで使用できるようになりました。 このライブラリは `s_code.js` と同じ機能を提供しますが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
 
 * H.25 コードと比較して 3 倍～7 倍も高速
 * わずか 21K の非圧縮コード、8K の gzip 圧縮コード（H.25 コードでは、33K もの非圧縮コード、13K の gzip 圧縮コード）。

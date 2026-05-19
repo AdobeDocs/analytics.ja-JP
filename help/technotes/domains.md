@@ -1,18 +1,23 @@
 ---
-title: Adobe Analyticsが使用するドメイン
-description: Adobe Analyticsを使用して最適なエクスペリエンスを得るには、組織のファイアウォールを通過してこれらのドメインを許可します。
+title: Adobe Analyticsで使用されるドメイン
+description: Adobe Analyticsを利用して、最適なエクスペリエンスを実現するために、組織のファイアウォールを通じてこれらのドメインを許可します。
 feature: Data Configuration and Collection
 exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
-source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
+TQID: https://experienceleague.adobe.com/y5UXvG8gVAw4fp-Hep-nNHixMQydt-xjr5MGNbp0SQk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 13%
+source-wordcount: 159
+ht-degree: 9%
 
 ---
 
-# Adobe Analyticsが使用するドメイン
+# Adobe Analyticsで使用されるドメイン
 
-一部のファイアウォール設定は、Adobe Analyticsが製品インターフェイスに使用するドメインをブロックします。 このドメインのリストを使用して組織のネットワーク設定を変更し、組織内からの製品アクセスを許可できます。 Adobeは、最適なエクスペリエンスを実現するために、組織のファイアウォールを通じてこれらのドメインを許可することをお勧めします。
+一部のファイアウォール設定では、Adobe Analyticsが製品インターフェイスに依存するドメインをブロックします。 このドメインのリストを使用して、組織のネットワーク設定を変更し、組織内から製品にアクセスできるようにすることができます。 Adobeでは、最適なエクスペリエンスを実現するために、組織のファイアウォールを通じてこれらのドメインを許可することをお勧めします。
 
 | 技術 | ドメイン |
 | --- | --- |
@@ -23,16 +28,16 @@ ht-degree: 13%
 | Gainsight | `esp.aptrinsic.com`、`esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Microsoft® Azure Blob Storage | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft® Azure CDN | `aauicdnva7.azureedge.net` |
+| Microsoft®Azure CDN | `aauicdnva7.azureedge.net` |
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud ドメイン
+## Adobe CX Enterprise ドメイン
 
-上記のドメインに加えて、Adobe Experience Cloudでは、データ収集とレポートの書き出しに複数のドメインを使用します。 このドメインのリストについては、[Adobe Experience Cloudで使用されるドメイン &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains) を参照してください。
+Adobe CX Enterpriseでは、上記のドメインに加えて、データの収集とレポートのエクスポートに複数のドメインを利用しています。 このドメインのリストについては、[CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)で使用されるドメインを参照してください。
 
 >[!MORELIKETHIS]
 >
->[Adobe Analyticsで使用される IP アドレス &#x200B;](ip-addresses.md)
+>Adobe Analyticsで使用される[IP アドレス ](ip-addresses.md)
 >
->[Adobe Experience Cloudが使用するドメイン &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/domains)
+>CX Enterpriseで使用されている[ ドメイン ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

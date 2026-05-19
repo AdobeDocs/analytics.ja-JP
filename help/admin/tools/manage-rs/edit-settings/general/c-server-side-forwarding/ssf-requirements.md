@@ -1,20 +1,25 @@
 ---
-description: サーバー側転送を実装するには、次の Experience Cloud ソリューション、サービス、コードの要件を満たす必要があります。この要件の説明には、コードのバージョンを確認するための手順と最新のコードライブラリの入手先も含まれています。
+description: サーバーサイド転送を実装するには、これらのCX Enterprise ソリューション、サービス、コード要件を満たす必要があります。 これらの要件には、コードバージョンの確認方法と最新のコードライブラリの取得先に関する手順も含まれています。
 solution: Analytics
 title: サーバー側転送の要件
 feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: 325
+ht-degree: 52%
 
 ---
 
 # サーバー側転送の要件
 
-サーバー側転送を実装するには、次の Experience Cloud ソリューション、サービス、コードの要件を満たす必要があります。この要件の説明には、コードのバージョンを確認するための手順と最新のコードライブラリの入手先も含まれています。
+サーバーサイド転送を実装するには、これらのCX Enterprise ソリューション、サービス、コード要件を満たす必要があります。 これらの要件には、コードバージョンの確認方法と最新のコードライブラリの取得先に関する手順も含まれています。
 
 ## ソリューションの要件
 
@@ -22,11 +27,11 @@ ht-degree: 100%
 
 ## サービスの要件
 
-サーバー側転送には、[ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)が必要です。ID サービスは、Experience Cloud のすべてのソリューションにわたってサイトの訪問者を識別する、普遍的な ID を提供します。サーバー側転送が動作するためには、事前に ID サービスを実装する必要があります。
+サーバー側転送には、[ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)が必要です。 Identity Serviceは、CX Enterpriseのあらゆるソリューションをまたいでサイト訪問者を識別するユニバーサル IDを提供します。 サーバー側転送が動作するためには、事前に ID サービスを実装する必要があります。
 
 ## コードバージョン
 
-サーバー側転送には、以下に示すコードライブラリのバージョン 1.5（またはそれ以降）が必要です。ベストプラクティスとして、必要な最小バージョンではなく最新のバージョンを使用することをお勧めします。
+サーバーサイド転送には、以下に示すコードライブラリのバージョン 1.5 （またはそれ以降）が必要です。 ベストプラクティスとして、これらの必須の最小値ではなく、最新バージョンを使用することをお勧めします。
 
 * `AppMeasurement.js`
 * `AppMeasurement_Module_AudienceManagement.js`
@@ -34,7 +39,7 @@ ht-degree: 100%
 
 ### コードライブラリバージョンの確認
 
-AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。`AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。`AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
+AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。 `AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。 `AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
 
-* `AppMeasurement.js`：[Adobe Debugger](/help/implement/validate/debugger.md) は、`Version of Code | JS-1.5.1` という形式で AppMeasurement バージョンを返します。他のツールでは異なるラベルが使用される場合がありますが、その値は常に `JS-X.X.X` というパターンに従います。ここで、`X` はバージョン番号です。
-* `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。訪問者 ID サービスが `d_visid_ver: 1.5.5` という形式で表示されます。バージョン 1.5.2 より前の訪問者 API コードにはバージョン番号が含まれていません。監視の結果としてバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードする必要があります）。
+* `AppMeasurement.js`：[Adobe Debugger](/help/implement/validate/debugger.md) は、`Version of Code | JS-1.5.1` という形式で AppMeasurement バージョンを返します。 他のツールでは異なるラベルが使用される場合がありますが、その値は常に `JS-X.X.X` というパターンに従います。ここで、`X` はバージョン番号です。
+* `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。 訪問者 ID サービスが `d_visid_ver: 1.5.5` という形式で表示されます。 バージョン 1.5.2より古い訪問者API コードには、バージョン番号が含まれていませんでした。 監視結果にバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードが必要です）。

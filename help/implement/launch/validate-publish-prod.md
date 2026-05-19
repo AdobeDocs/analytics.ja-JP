@@ -1,13 +1,18 @@
 ---
 title: 開発実装の検証と実稼動環境への公開
-description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
+description: Adobe Experience Platform のタグを使用して、Adobe Analytics を本番環境にデプロイする方法を説明します。
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: 635
+ht-degree: 65%
 
 ---
 
@@ -19,47 +24,47 @@ ht-degree: 72%
 
 [Analytics 実装を開発環境にデプロイする](deploy-dev.md)：このページの手順をおこなうには、Analytics 実装を開発環境に公開する必要があります。
 
-## Experience Cloud デバッガーを使用した開発環境の実装の検証
+## CX Enterprise デバッガーを使用して開発実装を検証する
 
-Experience Cloud Debugger は、ページ上に存在するすべてのExperience Cloud タグを表示する拡張機能です。
+CX Enterprise debuggerは、ページに存在するすべてのCX Enterprise タグを表示する拡張機能です。
 
-1. [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または Firefox の拡張機能をインストールします。
+1. [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)またはFirefoxの拡張機能をインストールします。
 2. タグを実装した開発用 web サイトに移動します。
-3. ブラウザーでAdobe Experience Cloud デバッガーアイコンをクリックします。
-4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよびAdobe Experience Cloud訪問者 ID サービス内にコンテンツが表示されます。
+3. ブラウザーでAdobe CX Enterprise debugger アイコンをクリックします。
+4. すべてが適切に実装されている場合は、Adobe Analytics、タグ、Adobe Experience Cloud Visitor ID サービス内にコンテンツが表示されます。
 
 ## ステージング／実稼動環境に開発環境の実装をデプロイする
 
-データが表示されることを検証したら、実装をサイトのライブバージョンにプッシュできます。
+データが表示されていることを検証したら、実装をサイトのライブバージョンにプッシュできます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 公開]**」タブをクリックし、開発列でライブラリを探します。
-1. ライブラリのドロップダウンリストをクリックし、「**[!UICONTROL 承認用に送信]**」を選択します。 モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
-1. ライブラリのドロップダウンリスト（「送信済み」列に表示）を再度クリックし、「**[!UICONTROL ステージング用にビルド]**」を選択します。
+1. ライブラリのドロップダウンリストをクリックし、**[!UICONTROL 承認用に送信]**&#x200B;を選択します。 モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
+1. ライブラリのドロップダウンリスト（現在は「送信済み」列）をもう一度クリックし、**[!UICONTROL ステージング用にビルド]**&#x200B;を選択します。
 1. しばらくすると、ライブラリの黄色のライトが緑色に変わり、ビルドが正常に完了したことを示します。
-1. ライブラリのドロップダウンリストを再度クリックし、「**[!UICONTROL 公開の承認]**」を選択します。
-1. ライブラリのドロップダウンリスト（「承認済み [!UICONTROL &#x200B; 列に表示された状態 &#x200B;] を再度クリックし、「**[!UICONTROL 実稼動用にビルドおよび公開]**」を選択します。
-1. 「環境」タブに移動し、「**[!UICONTROL 実稼動環境]**」をクリックします。
-1. 実稼動用インストールコードをコピーして、Web サイトの所有者に提供します。 サイトの実稼動環境にこのコードを実装するように要求します。
+1. ライブラリのドロップダウンリストをもう一度クリックし、**[!UICONTROL 公開用に承認]**&#x200B;を選択します。
+1. ライブラリのドロップダウンリスト（[!UICONTROL Approved]列）をもう一度クリックし、**[!UICONTROL Build and Publish to Production]**&#x200B;を選択します。
+1. 「環境」タブに移動し、「**[!UICONTROL 本番環境]**」をクリックします。
+1. 実稼動インストールコードをコピーし、web サイトの所有者に提供します。 サイトの本番環境にこのコードを実装するように要求します。
 
 ## 実稼動環境の実装を検証します。
 
 本番用サイトのデータが表示されていることを確認し、Adobe Analytics の正式なデータ収集を開始します。
 
-1. Web サイトの所有者がタグコードを実稼動にプッシュしたことを確認したら、Chrome で web サイトのホームページに移動し、[!UICONTROL Adobe Experience Cloud Debugger]を開きます。
-2. すべてが機能している場合は、開発環境でのテストと類似したデータが表示されます。この時点で、サイト上のデータを収集するようになっており、レポートへの Adobe Analytics の使用を開始できます。
+1. web サイトの所有者からタグコードを実稼動環境にプッシュしたことを確認したら、Chromeでweb サイトのホームページに移動し、Adobe CX Enterprise debuggerを開きます。
+2. すべてが機能している場合は、開発環境でのテストと類似したデータが表示されます。 この時点で、サイト上のデータを収集するようになっており、レポートへの Adobe Analytics の使用を開始できます。
 
 ## トラブルシューティング
 
 **デバッガーにデータが表示されません。**
 
-サイトにアクセスしている間に、ブラウザーのデベロッパーコンソール（通常は F12）を開きます。ページのソースコードを見て、次の条件が満たされていることを確認します。
+サイトにアクセスしている間に、ブラウザーのデベロッパーコンソール（通常は F12）を開きます。 ページのソースコードを見て、次の条件が満たされていることを確認します。
 
-* コンソールに JavaScript エラーはありません。組織の Web サイトの所有者と協力して、すべての JS エラーが解決されていることを確認します。
+* コンソールに JavaScript エラーはありません。 組織の Web サイトの所有者と協力して、すべての JS エラーが解決されていることを確認します。
 * ヘッダーコードが正しく実装されている：ヘッダーコードが `<head>` タグ内にあり、ファイルが存在することを確認してください。
-* AppMeasurement ライブラリが存在します：JS ソースに直接移動し、JS ファイルにコードが含まれていることを確認します。表示されない場合は、各環境が作成され、それぞれの環境にライブラリが公開されていることを確認します。
-* 拡張機能の干渉：広告ブロッカーなど、一部の拡張機能では、イメージリクエストの実行を防ぐことができます。 データがAdobeに送信されない可能性のある拡張機能を無効にします。
+* AppMeasurement ライブラリが存在します：JS ソースに直接移動し、JS ファイルにコードが含まれていることを確認します。 表示されない場合は、各環境が作成され、それぞれの環境にライブラリが公開されていることを確認します。
+* 拡張機能の干渉：広告ブロッカーなどの一部の拡張機能は、画像リクエストの実行を妨げる可能性があります。 Adobeへのデータ送信を停止する可能性がある拡張機能を無効にします。
 
 ## 次の手順
 

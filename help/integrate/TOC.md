@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
-user-guide-description: Audience ManagerやAdvertisingなどの他のAdobe Experience Cloudソリューションとの統合を構成できます。
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+user-guide-description: Audience ManagerやAdvertisingなどの他のAdobe CX エンタープライズソリューションとの統合を設定します。
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
    + [Audience Analytics の概要](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics のワークフロー {#audience-analytics-workflow}
       + [ワークフローの概要](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics の宛先の作成 - Adobe Audience Manager ガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
+      + [Analyticsの宛先の作成 – Adobe Audience Manager ガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
@@ -38,8 +38,8 @@ ht-degree: 88%
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Advertising用Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ja)
-+ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
++ [Adobe Analytics for Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=ja)
++ [Target用Adobe Analytics - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
 + [Adobe Analytics での Adobe Campaign レポート](adobe-campaign.md)
 + [Adobe Analytics データと Adobe Campaign Classic の統合](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)

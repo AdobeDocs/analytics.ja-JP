@@ -6,38 +6,12 @@ title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -58,7 +32,7 @@ ht-degree: 78%
 >
 >ほとんどの列には、`post_` という接頭辞が付く類似の列が含まれています。 post 列には、サーバーサイドロジック、処理ルール、VISTA ルールの適用後の値が格納されます。 ほとんどの場合、post 列を使用することをお勧めします。 詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で確認できます。
 
 | Post | 列名 | 列の説明 | データタイプ |
 | ---: | :--- | --- | --- |
@@ -77,14 +51,14 @@ ht-degree: 78%
 | **`post_`** | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンション。 | varchar(100) |
 | | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | text |
 | | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | text |
-| **`post_`** | **`clickmaplink`** | [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンション。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | リージョン [&#128279;](/help/components/dimensions/activity-map-link-by-region.md) ディメンション別Activity Map リンク。 | varchar(255) |
-| **`post_`** | **`clickmappage`** | [Activity Map ページ &#x200B;](/help/components/dimensions/activity-map-page.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`clickmaplink`** | [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンション。 | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | リージョン ](/help/components/dimensions/activity-map-link-by-region.md) ディメンション別[Activity Map リンク。 | varchar(255) |
+| **`post_`** | **`clickmappage`** | [Activity Map ページ ](/help/components/dimensions/activity-map-page.md) ディメンション。 | varchar(255) |
 | **`post_`** | **`clickmapregion`** | [Activity Map地域](/help/components/dimensions/activity-map-region.md) ディメンション。 | varchar(255) |
 | | **`code_ver`** | イメージリクエストのコンパイルと送信に使用される API またはクライアント SDK のバージョン。 | char(16) |
 | | **`color`** | `c_color` 列の値に基づいく色深度 ID。 `color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
-| | **`connection_type`** | [接続タイプ &#x200B;](/help/components/dimensions/connection-type.md) ディメンションを表す数値ID。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
-| **`post_`** | **`cookies`** | [Cookie サポート &#x200B;](/help/components/dimensions/cookie-support.md) ディメンション。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
+| | **`connection_type`** | [接続タイプ ](/help/components/dimensions/connection-type.md) ディメンションを表す数値ID。 `connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
+| **`post_`** | **`cookies`** | [Cookie サポート ](/help/components/dimensions/cookie-support.md) ディメンション。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | | **`country`** | 訪問者の国を表す数値 ID。 `country.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | **`post_`** | **`currency`** | 取引で使用された通貨のコード。 [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) を使用して設定します。 | char(8) |
 | | **`ct_connect_type`** | `connection_type` 列と関連しています。 よく使用される値は LAN/Wi-Fi、Mobile Carrier、Modem です。 | char(20) |
@@ -104,7 +78,7 @@ ht-degree: 78%
 | | **`duplicate_purchase`** | このヒットの購入イベントが重複しているので無視されるかどうかを判定するフラグ。 | tinyint unsigned |
 | **`post_`** | **`ef_id`** | Adobe Advertising統合で使用されるEF ID。 | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | カスタム変数 1 ～ 250。 「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。 eVar の使用方法は組織ごとに異なります。 組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有の[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)を参照してください。 | varchar(255) |
-| **`post_`** | **`event_list`** | ヒット時にトリガーされたイベントを表す数値 ID のコンマ区切りリスト。 コマースイベントと[&#x200B; カスタムイベント 1 ～ 1000](/help/components/metrics/custom-events.md)の両方が含まれます。 `event.tsv` ルックアップを使用します。 | text |
+| **`post_`** | **`event_list`** | ヒット時にトリガーされたイベントを表す数値 ID のコンマ区切りリスト。 コマースイベントと[ カスタムイベント 1 ～ 1000](/help/components/metrics/custom-events.md)の両方が含まれます。 `event.tsv` ルックアップを使用します。 | text |
 | | **`exclude_hit`** | ヒットがレポートから除外されるかどうかを判定するフラグ。 `visit_num`列は、除外されたヒットに対して増分されません。<br>1：未使用。 スクラップされた機能の一部です。<br>2：使用されていません。 スクラップされた機能の一部です。<br>3：使用されなくなりました。 ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。 別のアカウント固有の除外。<br>9：使用されていません。 スクラップされた機能の一部です。<br>10：無効な通貨コード <br>11: タイムスタンプのみのレポートスイートでタイムスタンプが欠落しているヒット、またはタイムスタンプ以外のレポートスイートでタイムスタンプが含まれているヒット <br>12：未使用。 スクラップされた機能の一部です。<br>13：使用されていません。 スクラップされた機能の一部です。<br>14:Analytics ヒットと一致しないターゲットヒット <br>15：現在使用されていません。<br>16:Analytics ヒットと一致しないAdobe Advertising ヒット | tinyint unsigned |
 | | **`first_hit_pagename`** | 「[入口ページのオリジナル](/help/components/dimensions/entry-dimensions.md)」ディメンション。 訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | | **`first_hit_page_url`** | 訪問者の本当に最初の URL。 | varchar(255) |
@@ -116,7 +90,7 @@ ht-degree: 78%
 | | **`geo_country`** | ヒットが発生した国の略称（IP アドレスに基づく）。 [国](/help/components/dimensions/countries.md)ディメンションで使用します。 | char(4) |
 | | **`geo_dma`** | ヒットが発生したデモグラフィック地域の数値 ID（IP アドレスに基づく）。 「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
 | | **`geo_region`** | ヒットが発生した州または地域の名前（IP アドレスに基づく）。 「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
-| | **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。 関連トピック「 `zip`」を参照してください。 | varchar(16) |
+| | **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック 「`zip`」を参照してください。 | varchar(16) |
 | | **`hitid_high`** | `hitid_low` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | | **`hitid_low`** | `hitid_high` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | | **`hit_source`** | ヒットソース。 ヒットソース 1と2は請求されます。 <br>1: タイムスタンプのない標準的な画像リクエスト <br>2: タイムスタンプ付きの標準的な画像リクエスト <br>3: タイムスタンプ付きのライブデータソースアップロード <br>4：未使用<br>5：汎用データソースアップロード <br>6：未使用、処理中データソースアップロード <br>7: TransactionID データソースのアップロード <br>8：未使用、以前のバージョンのAdobe Advertising データソース <br>9：未使用、Adobe Social サマリーメトリクス <br>10: Audience Manager サーバーサイド転送が使用 | tinyint unsigned |
@@ -129,12 +103,12 @@ ht-degree: 78%
 | | **`j_jscript`** | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | | **`language`** | 訪問者の言語を表す数値 ID。 `languages.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | | **`last_hit_time_gmt`** | 前回のヒットのタイムスタンプ（UNIX® 時間）。 「[[!UICONTROL 最終訪問からの日数]](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
-| | **`last_purchase_num`** | 「[&#x200B; 顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンション。 訪問者がこれまでに行った購入の回数。 <br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
+| | **`last_purchase_num`** | 「[ 顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンション。 訪問者がこれまでに行った購入の回数。 <br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
 | | **`last_purchase_time_gmt`** | 「[[!UICONTROL 前回購入からの日数]](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。 前回行った購入のタイムスタンプ（UNIX® 時間）。 初回の購入やこれまでに購入を行っていない訪問者の場合、この値は `0` になります。 | int |
 | | **`latlon1`** | ロケーション（半径 10 km 以内） | varchar(255) |
 | | **`latlon23`** | ロケーション（半径 100 m 以内） | varchar(255) |
 | | **`latlon45`** | ロケーション（半径 1 m 以内） | varchar(255) |
-| | **`mcvisid`** | Experience Cloud 訪問者 ID。 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise Visitor ID。 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 訪問者が属している Audience Manager セグメント ID のリスト。 `post_mc_audiences` 列の区切り文字が `--**--` に変更されます。 | text |
 | **`post_`** | **`mobileaction`** | モバイルアクション。 モバイル実装で `trackAction` が呼び出されると、自動的に収集されます。 アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | モバイルアプリケーション ID。 アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]` | varchar(255) |
@@ -263,7 +237,7 @@ ht-degree: 78%
 | **`post_`** | **`videoqoetimetostartevar`** | 「[開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoseason`** | 「[シーズン](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videosegment`** | 「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [&#x200B; メディアセッション ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [ メディアセッション ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoshow`** | 「[表示](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`videoshowtype`** | 「[表示タイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | | **`videostreamtype`** | 「[ストリームタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
@@ -279,12 +253,12 @@ ht-degree: 78%
 | | **`visit_ref_domain`** | `visit_referrer` 列に基づきます。 訪問の最初の参照ドメイン。 | varchar(100) |
 | | **`visit_ref_type`** | 訪問の最初のリファラーのリファラータイプを表す数値 ID。 `referrer_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | | **`visit_search_engine`** | 訪問の最初の検索エンジンを表す数値 ID。 `search_engines.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
-| | **`visit_start_pagename`** | 訪問の最初のヒットの[&#x200B; ページ &#x200B;](/help/components/dimensions/page.md)。 | varchar(100) |
+| | **`visit_start_pagename`** | 訪問の最初のヒットの[ ページ ](/help/components/dimensions/page.md)。 | varchar(100) |
 | | **`visit_start_page_url`** | 訪問の最初のヒットのURL。 | varchar(255) |
 | | **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | | **`weekly_visitor`** | ヒットが新しい週別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
 | | **`yearly_visitor`** | ヒットが新しい年別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
-| **`post_`** | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック「 `geo_zip`」を参照してください。 | varchar(50) |
+| **`post_`** | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック 「`geo_zip`」を参照してください。 | varchar(50) |
 
 ## 未使用または廃止された列
 
@@ -300,7 +274,7 @@ ht-degree: 78%
 | | `click_sourceid` |
 | | `click_tag` |
 | | `dataprivacydmaconsent` |
-| `post_` | `hier1`～`hier5` |
+| `post_` | `hier1` - `hier5` |
 | | `homepage` |
 | | `ip2` |
 | | `mobileacquisitionclicks` |

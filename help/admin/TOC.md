@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
-user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
+user-guide-description: CX Enterprise Admin Consoleでのユーザーと製品の管理、レポートスイートの設定など、Analyticsの管理タスクについて説明します。
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 95%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 100%
       + [従来のユーザーアカウント、アセットおよび有効期限の管理](tools/user-management/users-assets.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](tools/user-management/user-migration/c-migration-tool.md)
-         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](tools/user-management/user-migration/t-migrate-users.md)
-         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](tools/user-management/user-migration/migrate-enterprise.md)
+         + [Adobe ID 用に Analytics ユーザーアカウントを移行する](tools/user-management/user-migration/t-migrate-users.md)
+         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行](tools/user-management/user-migration/migrate-enterprise.md)
          + [従来のログインの無効化](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [移行の影響を受ける API](tools/user-management/user-migration/developer.md)
