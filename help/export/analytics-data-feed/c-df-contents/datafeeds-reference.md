@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -116,7 +116,7 @@ ht-degree: 78%
 | | **`geo_country`** | ヒットが発生した国の略称（IP アドレスに基づく）。 [国](/help/components/dimensions/countries.md)ディメンションで使用します。 | char(4) |
 | | **`geo_dma`** | ヒットが発生したデモグラフィック地域の数値 ID（IP アドレスに基づく）。 「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
 | | **`geo_region`** | ヒットが発生した州または地域の名前（IP アドレスに基づく）。 「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
-| | **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。 関連トピック「 `zip`」を参照してください。 | varchar(16) |
+| | **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック 「`zip`」を参照してください。 | varchar(16) |
 | | **`hitid_high`** | `hitid_low` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | | **`hitid_low`** | `hitid_high` と共に使用し、ヒットを識別します。 | bigint unsigned |
 | | **`hit_source`** | ヒットソース。 ヒットソース 1と2は請求されます。 <br>1: タイムスタンプのない標準的な画像リクエスト <br>2: タイムスタンプ付きの標準的な画像リクエスト <br>3: タイムスタンプ付きのライブデータソースアップロード <br>4：未使用<br>5：汎用データソースアップロード <br>6：未使用、処理中データソースアップロード <br>7: TransactionID データソースのアップロード <br>8：未使用、以前のバージョンのAdobe Advertising データソース <br>9：未使用、Adobe Social サマリーメトリクス <br>10: Audience Manager サーバーサイド転送が使用 | tinyint unsigned |
@@ -134,7 +134,7 @@ ht-degree: 78%
 | | **`latlon1`** | ロケーション（半径 10 km 以内） | varchar(255) |
 | | **`latlon23`** | ロケーション（半径 100 m 以内） | varchar(255) |
 | | **`latlon45`** | ロケーション（半径 1 m 以内） | varchar(255) |
-| | **`mcvisid`** | Experience Cloud 訪問者 ID。 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise Visitor ID。 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 訪問者が属している Audience Manager セグメント ID のリスト。 `post_mc_audiences` 列の区切り文字が `--**--` に変更されます。 | text |
 | **`post_`** | **`mobileaction`** | モバイルアクション。 モバイル実装で `trackAction` が呼び出されると、自動的に収集されます。 アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | モバイルアプリケーション ID。 アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]` | varchar(255) |
@@ -284,7 +284,7 @@ ht-degree: 78%
 | | **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX® 時間）。 | int |
 | | **`weekly_visitor`** | ヒットが新しい週別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
 | | **`yearly_visitor`** | ヒットが新しい年別訪問者であるかどうかを判定するフラグ。 | tinyint unsigned |
-| **`post_`** | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック「 `geo_zip`」を参照してください。 | varchar(50) |
+| **`post_`** | **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。 関連トピック 「`geo_zip`」を参照してください。 | varchar(50) |
 
 ## 未使用または廃止された列
 
@@ -300,7 +300,7 @@ ht-degree: 78%
 | | `click_sourceid` |
 | | `click_tag` |
 | | `dataprivacydmaconsent` |
-| `post_` | `hier1`～`hier5` |
+| `post_` | `hier1` - `hier5` |
 | | `homepage` |
 | | `ip2` |
 | | `mobileacquisitionclicks` |

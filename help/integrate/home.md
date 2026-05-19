@@ -3,16 +3,26 @@ title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/C7KEHvXqzmtw8K-yPQ8Mp-nz-5oht37MYk33Wjj1be0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 72%
+source-wordcount: 218
+ht-degree: 65%
 
 ---
 
 # Analytics の統合
 
-このガイドでは、Audience Manager、Advertising、Targetなど、複数のAdobe Experience Cloud ソリューションの統合に焦点を当てます。 以下のようなものがあります。
+このガイドでは、Audience Manager、Advertising、Targetなど、複数のAdobe CX Enterprise ソリューションの統合に焦点を当てます。 以下のようなものがあります。
 
 * **Audience Analytics：** Adobe Audience Manager を Adobe Analytics と統合します。
 * **Advertising Analytics：**&#x200B;有料検索データを Adobe Analytics データと並べて確認します。
@@ -50,6 +60,6 @@ ht-degree: 72%
 ## 主な Analytics リソース
 
 * [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
-* [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
-* [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
+* [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

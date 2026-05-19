@@ -1,60 +1,75 @@
 ---
-description: Adobe Audience Manager（Adobe Audience Manager）は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティのデータ統合から独自のオーディエンスプロファイルを作成するのに役立つ、強力なデータ管理プラットフォームです。 広告主の場合、これらのオーディエンスプロファイルは、あらゆるデジタルチャネルにわたって使用する最も価値のあるセグメントを定義するのに役立ちます。
-solution: Experience Cloud
+description: Adobe Audience Manager（Adobe Audience Manager）は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティデータの統合から、独自のオーディエンスプロファイルを構築するのに役立つ強力なデータ管理基盤です。 広告主にとって、これらのオーディエンスプロファイルは、あらゆるデジタルチャネルで使用すべき最も価値のあるセグメントを定義するのに役立ちます。
+solution: Analytics
 title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 9%
+source-wordcount: 522
+ht-degree: 11%
 
 ---
 
 # Audience Analytics の概要
 
-Adobe Audience Manager（Adobe Audience Manager）は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティのデータ統合から独自のオーディエンスプロファイルを作成するのに役立つ、強力なデータ管理プラットフォームです。 広告主の場合、これらのオーディエンスプロファイルは、あらゆるデジタルチャネルにわたって使用する最も価値のあるセグメントを定義するのに役立ちます。
+Adobe Audience Manager（Adobe Audience Manager）は、ファーストパーティ、セカンドパーティ/パートナー、サードパーティデータの統合から、独自のオーディエンスプロファイルを構築するのに役立つ強力なデータ管理基盤です。 広告主にとって、これらのオーディエンスプロファイルは、あらゆるデジタルチャネルで使用すべき最も価値のあるセグメントを定義するのに役立ちます。
 
-Audience Analyticsの統合を導入すると、人口統計情報（性別や収入レベルなど）、心理統計情報（興味や趣味など）、CRM データ、広告インプレッションデータなどのAdobe Audience Manager オーディエンスデータを任意の Analytics ワークフローに組み込むことができます。
+Audience Analyticsとの連携により、デモグラフィック情報（性別や収入レベルなど）、サイコグラフィック情報（興味や趣味など）、CRM データ、広告インプレッションデータなどのAdobe Audience Managerのオーディエンスデータを任意のAnalytics ワークフローに組み込むことができます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
-## 主なメリット  {#benefits}
+## 主なメリット {#benefits}
 
-Audience Analyticsの統合には、次のような主なメリットがあります。
+Audience Analyticsとの連携には、次の主な利点があります。
 
-* Data Management Platform （DMP）と Analytics エンジンの製品化された統合としては、マーケットプレイスで初めてです。
-* セグメントは、Adobe Audience Managerから Analytics にリアルタイムで共有され、オーディエンスの検出、セグメント化および最適化を知らせます。
-* すべてのAdobe Audience Manager セグメントはデフォルトで共有され、Analytics で顧客プロファイルが完全に強化されます。
-* ソリューション管理者は、最小限のコード変更で、ユーザーインターフェイスを通じて統合を有効にできます。
-* Audience Manager データ書き出しのコントロールに準拠したセグメントのみが共有されます。
+* これは、DMP（Data Management Platform）と分析エンジンの間で、市場で初めて製品レベルで連携したものです。
+* セグメントは、Adobe Audience ManagerからAdobe Analyticsにリアルタイムで共有され、オーディエンスの発見、セグメンテーション、最適化に活用されます。
+* あらゆるAdobe Audience Managerセグメントは、デフォルトで共有されており、Analyticsで顧客プロファイルを完全に強化します。
+* ソリューション管理者は、コードの変更を最小限に抑えながら、ユーザーインターフェイスを通じた統合を実現できます。
+* Audience Manager データ書き出し制御に準拠するセグメントのみが共有されます。
 
 ## Audience Analyticsの仕組み {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
-1. 訪問者がデジタルプロパティにアクセスするたびに、ヒットが収集され、Analytics に送信されます。
-1. [&#x200B; サーバーサイド転送 &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) を使用すると、Analytics が受け取る各ヒットがリアルタイムでAdobe Audience Managerに自動的に送信されます。
-1. Audience Analytics統合を通じて、ヒットごとに、訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、セグメント ID のリストが Analytics に返されて、リアルタイムに処理されます。
+1. 訪問者がデジタルプロパティにアクセスするたびに、ヒット数が収集され、Analyticsに送信されます。
+1. [&#x200B; サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を使用すると、Analyticsが受け取る各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
+1. Audience Analyticsとの統合により、ヒットごとに訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、セグメント IDのリストがAnalyticsに返され、リアルタイムで処理されます。
 
-Adobe Audience Manager セグメントは同じヒットに基づいて挿入されるので、訪問者に関してAdobe Audience Managerで利用できるすべてのデータが欠落することなく、そのヒットの最新の状態に保つことができます。 プラグインは現在のヒットではなく、次のヒットの際にのみこれらのセグメントを使用可能にできるので、これはAppMeasurement プラグインよりも優れています。
+Adobe Audience Managerのセグメントは同じヒット単位で挿入されるため、Adobe Audience Managerで使用可能な訪問者に関するデータを見逃すことなく、そのヒットに関する最新の情報を確認することができます。 これはAppMeasurement プラグインよりも優れています。プラグインでは、これらのセグメントを（現在のヒットではなく）次のヒットでのみ使用できます。
 
-さらに、Analytics レポートで英数字の ID を確認する必要がないように、Adobe Audience Managerのセグメント ID がわかりやすい名前に自動的に分類されます。
+また、Adobe Audience Manager セグメント IDは、Analytics レポートで英数字IDを確認する必要がないように、わかりやすい名前に自動的に分類されます。
 
 ## 前提条件 {#prerequisites}
 
 次の前提条件が満たされていることを確認します。
 
-* Audience ManagerとAdobe Analyticsの両方のお客様です。
+* あなたはAudience ManagerとAdobe Analyticsの両方のお客様です。
 * あなたはAudience Manager管理者です。
 * ID サービス v1.5 以降を使用している。
-* Adobe Audience ManagerおよびAdobe Analytics レポートスイートが、同じExperience Cloud組織にマッピングされている。
+* Adobe Audience ManagerとAdobe Analyticsのレポートスイートは、同じCX Enterprise組織にマッピングされます。
 * [サーバー側転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。

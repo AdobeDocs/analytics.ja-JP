@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: '7326'
 ht-degree: 95%
 
 ---
@@ -321,7 +321,7 @@ ht-degree: 95%
 | 2020年4月28日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020年4月16日 | 空白の状態から[!UICONTROL フリーフォームテーブル]を自動的に作成する方法に関するドキュメント。 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。 空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。 また、空の[!UICONTROL フリーフォームテーブル]にドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も改善されました。 |
 | **2020年3月** |  |
-| 2020年3月12日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
+| 2020年3月12日 | [CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)に更新を追加しました。 |
 | 2020年3月12日 | CDA のステッチ待機時間のアップデート。 |
 | 2020年3月12日 | ワークスペースでの複数のレポートスイートのサポート. 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。 [詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 2020年3月12日 | ワークスペースのテンプレートトレーニングチュートリアル。 この新しい標準テンプレートでは、ワークスペースで最初の分析を作成するための一般的な用語と手順を順に説明します。 これは、「新規プロジェクト」モーダルの標準テンプレートとして利用可能であり、リストに他のプロジェクトがない新規ユーザーのために現在用意されているサンプルプロジェクトの代わりになるものです。 [詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードとデータウェアハウスを使用してデータの出力を取得する方法について説明します。
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 99%
    + [データフィードジョブの管理](analytics-data-feed/df-manage-jobs.md)
    + データフィードの内容 {#data-feed-contents}
       + [データフィードの内容についての概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
-      + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
+      + [指標の計算](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [動的検索](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [マーチャンダイジング eVar 参照](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [後期ヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [データフィードに関する FAQ](analytics-data-feed/df-faq.md)
    + [データフィードのベストプラクティス](analytics-data-feed/data-feeds-best-practices.md)
    + [データフィードのトラブルシューティング](analytics-data-feed/troubleshooting.md)
@@ -51,7 +51,7 @@ ht-degree: 99%
    + [Data Warehouse でサポートされるコンポーネント](data-warehouse/component-support.md)
    + [Data Warehouse のベストプラクティス](data-warehouse/data-warehouse-bp.md)
 + FTP と SFTP {#ftp-and-sftp}
-   + [Adobe Experience Cloud での FTP および SFTP の使用](ftp-and-sftp/ftp-overview.md)
+   + [Adobe CX EnterpriseでのFTPおよびSFTPの使用](ftp-and-sftp/ftp-overview.md)
    + アドビがホストする FTP アカウントの設定 {#set-up-ftp-accounts}
       + [FTP アカウントの設定 - 概要](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分類](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
@@ -73,4 +73,4 @@ ht-degree: 99%
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP サーバーへの Data Warehouse リクエストの送信](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ADOBE ANALYTICS API](https://developer.adobe.com/analytics-apis/docs/2.0/)

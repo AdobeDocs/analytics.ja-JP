@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
-   + {hide-from-toc}[オプトアウトリンクの実装](js/opt-out.md)
+   + {hide-from-toc}[&#x200B; オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
    + [H コードからの移行](js/migrate-from-hcode.md)
    + H コード {#h-code}
@@ -179,7 +179,7 @@ ht-degree: 100%
          + [動的アカウントの概要](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
-         + [dynamicAccountSelection ](js/h-code/dynamicaccount/dynamicaccountselection.md)
+         + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
    + レガシークロスデバイス特定 {#xdevice-visid}
       + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
@@ -198,7 +198,7 @@ ht-degree: 100%
    + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
    + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
 + 実装の検証 {#validate}
-   + [レガシー Adobe Experience Cloud デバッガー](validate/debugger.md)
+   + [レガシーデバッガー](validate/debugger.md)
    + [データ収集クエリーパラメーター](validate/query-parameters.md)
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)

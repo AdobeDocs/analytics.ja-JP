@@ -1,48 +1,60 @@
 ---
-description: リダイレクトとは、ユーザーの介入なしでブラウザーを新しい場所に転送することです。リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
+description: ユーザー操作なしで、ブラウザーを新しい場所にリダイレクトします。 リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
 keywords: Analytics の実装
 title: リダイレクトとエイリアス
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 73%
 
 ---
 
 # リダイレクトとエイリアス
 
-リダイレクトとは、ユーザーの介入なしでブラウザーを新しい場所に転送することです。リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
+ユーザー操作なしで、ブラウザーを新しい場所にリダイレクトします。 リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
 
 ## リダイレクトとエイリアス {#aliases}
 
-リダイレクトとは、ユーザーの介入なしでブラウザーを新しい場所に転送することです。リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
+ユーザー操作なしで、ブラウザーを新しい場所にリダイレクトします。 リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
 
-リダイレクトにはユーザーの介入が不要なので、多くの場合、実行の際にユーザーに通知されることはありません。リダイレクトがおこなわれたかどうかを判断する唯一の方法は、ブラウザーのアドレスバーを確認することです。アドレスバーには、ブラウザーが最初に要求したリンクとは異なる URL が表示されます。
+リダイレクトはユーザーの操作を必要としないため、リダイレクトはユーザーに気づかれることなく実行されることがよくあります。 リダイレクトが発生したことを示す唯一のものは、ブラウザーのアドレスバーです。 アドレスバーには、ブラウザーが最初に要求したリンクとは異なるURLが表示されます。
 
-リダイレクトのタイプは 2 つのみですが、実装方法は様々です。例えば、ユーザーがブラウザーの転送先として指定した Web ページに、ブラウザーを別の URL にリダイレクトするスクリプトや特殊な HTML コードが含まれている場合は、クライアントサイドのリダイレクトをおこなうことができます。サーバーサイドのスクリプトがページに含まれている場合や、ユーザーを別の URL に転送するように Web サーバーが設定されている場合は、サーバーサイドのリダイレクトをおこなうことができます。
+リダイレクトには2種類しかありませんが、多くの方法で実装できます。 例えば、クライアント側のリダイレクトは、ユーザーがブラウザーを指定したweb ページに、ブラウザーを別のURLにリダイレクトするスクリプトまたは特殊なHTML コードが含まれている場合に発生する可能性があります。 サーバーサイドリダイレクトは、ページにサーバーサイドスクリプトが含まれているか、web サーバーがユーザーを別のURLに誘導するように設定されているために発生する可能性があります。
 
 ## Analytics とリダイレクト {#aa-redirects}
 
-[!DNL Analytics] では、一部のデータをブラウザーから収集し、特定のブラウザープロパティを使用します。これらのプロパティのうちの 2 つである「参照 URL」（リファラー）と「現在の URL」は、サーバーサイドのリダイレクトによって変更できます。ブラウザーは、ある URL が要求されたにもかかわらず別の URL が返されたことを認識しているので、参照 URL をクリアします。結果として参照 URL は空白になり、[!DNL Analytics] では、ページのリファラーが存在しないと報告される場合があります。
+[!DNL Analytics] では、一部のデータをブラウザーから収集し、特定のブラウザープロパティを使用します。 これらのプロパティのうち、「参照URL」（または「リファラー」）と「現在のURL」の2つは、サーバーサイドのリダイレクトで変更できます。 ブラウザーは、1つのURLがリクエストされたが、別のURLが返されたことを認識しているため、参照URLをクリアします。 結果として参照 URL は空白になり、[!DNL Analytics] では、ページのリファラーが存在しないと報告される場合があります。
 
 ## 例：リダイレクトを使用しない場合のブラウザーでの表示 {#browse-without}
 
 次に示す仮定のシナリオについて検討してください。このシナリオでは、ユーザーがリダイレクトされることはありません。
 
 1. ユーザーがブラウザーで `www.google.com` を参照し、検索フィールドに「discount airline tickets」と入力して、「**[!UICONTROL 検索]**」ボタンをクリックします。
-1. サイト [!DNL https://www.example.com/] へのリンクを含む検索結果がブラウザーに表示されます。検索結果が表示された後、ブラウザーのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。
-1. ユーザーが仮想サイト [!DNL https://www.example.com/] へのリンクをクリックします。ユーザーがこのリンクをクリックして Web サイト [!DNL example.com] を参照すると、[!DNL Analytics] では JavaScript を使用して参照 URL（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）および現在の URL（`https://www.example.com/`）を収集します。
+1. サイト [!DNL https://www.example.com/] へのリンクを含む検索結果がブラウザーに表示されます。 検索結果が表示された後、ブラウザーのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。 検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。
+1. ユーザーが仮想サイト [!DNL https://www.example.com/] へのリンクをクリックします。 ユーザーがこのリンクをクリックして Web サイト [!DNL example.com] を参照すると、[!DNL Analytics] では JavaScript を使用して参照 URL（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）および現在の URL（`https://www.example.com/`）を収集します。
 1. [!DNL Analytics] は、この処理で収集した情報を様々なレポート（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!DNL Search Keywords]）で報告します。
 
 ## 例：リダイレクトを使用する場合のブラウザーでの表示 {#browse-with}
 
-リダイレクトを使用すると、ブラウザーで実際の参照 URL を空白にすることができます。次のシナリオについて検討してください。
+リダイレクトにより、ブラウザーで真の参照URLが空白になる場合があります。 次のシナリオについて検討してください。
 
 1. ユーザーがブラウザーで `https://www.google.com` を参照し、検索フィールドに「*discount airline tickets*」と入力して、「**[!UICONTROL 検索]**」ボタンをクリックします。
-1. ブラウザーウィンドウのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。また、ブラウザーには、いずれかのドメイン名へのリンク （[!DNL https://www.flytohawaii.example/]） が記載された検索結果を含むページが表示されます。この「*バニティ*」ドメインは、ユーザーを `https://www.example.com/` にリダイレクトするように設定されます。
-1. ユーザーがリンク `https://www.flytohawaii.example/` をクリックすると、サーバーによってメインサイト `https://www.example.com` にリダイレクトされます。このリダイレクトが発生すると、ブラウザーが参照 URL をクリアするので、[!DNL Analytics] のデータ収集にとって重要なデータが失われます。したがって、[!DNL Analytics] レポートで使用されるオリジナルの検索情報（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!UICONTROL 検索キーワード]など）が失われます。
+1. ブラウザーウィンドウのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。 検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。 また、ブラウザーには、いずれかのドメイン名へのリンク （[!DNL https://www.flytohawaii.example/]） が記載された検索結果を含むページが表示されます。 この「*バニティ*」ドメインは、ユーザーを `https://www.example.com/` にリダイレクトするように設定されます。
+1. ユーザーがリンク `https://www.flytohawaii.example/` をクリックすると、サーバーによってメインサイト `https://www.example.com` にリダイレクトされます。 このリダイレクトが発生すると、ブラウザーが参照 URL をクリアするので、[!DNL Analytics] のデータ収集にとって重要なデータが失われます。 したがって、[!DNL Analytics] レポートで使用されるオリジナルの検索情報（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!UICONTROL 検索キーワード]など）が失われます。
 
 ## リダイレクトの実装 {#implement}
 
@@ -52,7 +64,7 @@ ht-degree: 99%
 
 ## リファラーに優先する JavaScript コードの設定 {#override}
 
-以下のコードスニペットには、`s.referrer` と `s.pageURL` という 2 つの JavaScript 変数が含まれています。このコードは、リダイレクトの最終的なランディングページに配置します。
+以下のコードスニペットには、`s.referrer` と `s.pageURL` という 2 つの JavaScript 変数が含まれています。 このコードは、リダイレクトの最終的なランディングページに配置します。
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -68,11 +80,11 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->ページで 1 回だけ *`s.referrer`* を設定します。トラッキングコールごとに、またはトラッキングされるリンククリックごとに複数回設定すると、リファラーおよび関連するディメンション（検索エンジンとキーワードなど）が二重カウントされる原因になります。
+>ページで 1 回だけ *`s.referrer`* を設定します。 トラッキングコールごとに、またはトラッキングされるリンククリックごとに複数回設定すると、リファラーおよび関連するディメンション（検索エンジンとキーワードなど）が二重カウントされる原因になります。
 
 ## getQueryParam を使用したリダイレクト {#getqueryparam}
 
-[!UICONTROL getQueryParam] を使用すると [!DNL Analytics] 変数にクエリ文字列の値を容易に設定できますが、クエリ文字列が空の場合に正規のリファラーが上書きされないように、一時変数と共にそのプラグインを導入する必要があります。[!UICONTROL getQueryParam] を使用する最善の方法は、次の擬似コードで説明するとおりに、[!UICONTROL getValue] プラグインと組み合わせることです。
+[!UICONTROL getQueryParam] を使用すると [!DNL Analytics] 変数にクエリ文字列の値を容易に設定できますが、クエリ文字列が空の場合に正規のリファラーが上書きされないように、一時変数と共にそのプラグインを導入する必要があります。 [!UICONTROL getQueryParam] を使用する最善の方法は、次の擬似コードで説明するとおりに、[!UICONTROL getValue] プラグインと組み合わせることです。
 
 ```js
 // AppMeasurement 1.x 
@@ -90,13 +102,13 @@ if(tempVar)
 
 ## リダイレクトのメカニズムの変更 {#modify}
 
-ブラウザーによって参照元 URL が取り除かれるので、リダイレクトをおこなうメカニズム（Web サーバー、サーバーサイドのコード、クライアントサイドのコードなど）で、オリジナルリファラーの情報が渡されるように設定する必要があります。エイリアスリンクの URL も記録したい場合、この URL も最終的なランディングページに渡す必要があります。*`s_pageURL`* 変数を使用して、現在の URL を上書きします。
+ブラウザーは参照URLを取り除くため、リダイレクトを処理するメカニズム（web サーバー、サーバーサイドコード、クライアントサイドコードなど）を設定して、元のリファラー情報を渡す必要があります。 エイリアスリンク URLも記録する場合は、これを最終的なランディングページにも渡す必要があります。 現在のURLを上書きするには、*`s_pageURL`*&#x200B;変数を使用します。
 
 リダイレクトの実装には多くの方法があるので、Web オペレーショングループやオンライン広告パートナーと協力して、貴社の Web サイトでリダイレクトが実行されるメカニズムを特定する必要があります。
 
 ## オリジナルリファラーの取り込み {#original}
 
-通常、[!DNL Analytics] はブラウザーの [!UICONTROL document.referrer] プロパティから参照元 URL を取得し、[!UICONTROL document.location] プロパティから現在の URL を取得します。*`referrer`* および *`pageURL`* 変数に値を渡すことで、デフォルトの処理を上書きできます。referrer 変数に値を渡すと、[!UICONTROL document.referrer] プロパティのリファラー情報を無視し、指定した別の値を使用するよう [!DNL Analytics] に指示することになります。
+通常、[!DNL Analytics] はブラウザーの [!UICONTROL document.referrer] プロパティから参照元 URL を取得し、[!UICONTROL document.location] プロパティから現在の URL を取得します。 *`referrer`* および *`pageURL`* 変数に値を渡すことで、デフォルトの処理を上書きできます。 referrer 変数に値を渡すと、[!UICONTROL document.referrer] プロパティのリファラー情報を無視し、指定した別の値を使用するよう [!DNL Analytics] に指示することになります。
 
 したがって、「discount airline tickets」のシナリオで示される問題を修正するには、最終バージョンのランディングページに次のコードを含める必要があります。
 
@@ -117,14 +129,14 @@ s.pageURL="https://www.flytohawaii.example"
 
 リファラー、発信元 URL（*`s_server`*）およびキャンペーン変数が取り込まれていることを確認するために、テストを実行します。
 
-[Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)では、これらの変数が次のパラメーターで表されます。
+これらの変数は、[CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)で次のパラメーターとして表されます。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
    <th class="entry"> <b>URL またはクエリ文字列の値</b> </th> 
-   <th class="entry"> <b>DigitalPulse Debugger に表示される値</b> </th> 
+   <th class="entry"> DigitalPulse Debuggerに表示されている<b>値</b> </th> 
   </tr> 
  </thead>
  <tbody> 
