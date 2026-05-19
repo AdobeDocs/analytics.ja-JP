@@ -5,10 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 942
@@ -26,7 +33,7 @@ ht-degree: 65%
 * ほとんどのAdobe Analytics リクエストの「type」フィールドには、「analytics」の値が含まれています。
 * Analyticsが各レポートスイートの関連する名前空間変数で検索するIDを含む「値」フィールド。
 
-詳しくは、[CX Enterprise Data Privacy API ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[ リスト ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
+詳しくは、[CX Enterprise Data Privacy API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
 
 ## Cookie ID
 

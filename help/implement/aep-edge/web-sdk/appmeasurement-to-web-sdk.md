@@ -3,9 +3,15 @@ title: AppMeasurementからWeb SDKへの移行
 description: Adobe Analyticsの実装をAppMeasurement JavaScript ライブラリからWeb SDK JavaScript ライブラリに更新します。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
 TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 1434
@@ -18,7 +24,7 @@ ht-degree: 9%
 この実装パスには、AppMeasurementの実装からWeb SDK JavaScript ライブラリの実装に移行するための体系的な移行アプローチが含まれます。 その他の実装パスについては、別のページで説明しています。
 
 * [Analytics拡張機能からWeb SDK拡張機能](analytics-extension-to-web-sdk.md): Adobe Analytics タグ拡張機能からWeb SDK タグ拡張機能に移動するには、スムーズで体系的なアプローチを採用してください。 このアプローチにより、Customer Journey AnalyticsなどのAdobe Experience Platformサービスを利用する準備が整うまでXDMを使用する必要がなくなります。 Adobeにデータを送信するには、`xdm` オブジェクトの代わりに`data` オブジェクトを使用します。
-* [Web SDK JavaScript ライブラリ ](web-sdk-javascript-library.md): Web SDK JavaScript ライブラリ （`alloy.js`）を使用した新しいWeb SDK インストール。 タグ UIを使用する代わりに、実装を自分で管理します。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
+* [Web SDK JavaScript ライブラリ &#x200B;](web-sdk-javascript-library.md): Web SDK JavaScript ライブラリ （`alloy.js`）を使用した新しいWeb SDK インストール。 タグ UIを使用する代わりに、実装を自分で管理します。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
 * [Web SDK タグ拡張機能](web-sdk-tag-extension.md): Adobe Experience Platform Data Collectionのタグを使用して実装を管理する新しいWeb SDK インストール。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
 
 ## この実装パスの利点と欠点
@@ -27,7 +33,7 @@ ht-degree: 9%
 
 | メリット | デメリット |
 | --- | --- |
-| <ul><li>**既存の実装を使用**：このアプローチには実装の変更が必要ですが、完全に新しい実装をゼロから行う必要はありません。 実装ロジックの変更を最小限に抑えながら、既存のデータレイヤーとコードを使用できます。</li><li>**スキーマは必要ありません**: Web SDKに移行するこの段階では、XDM スキーマは必要ありません。 代わりに、`data` オブジェクトを設定して、データをAdobe Analyticsに直接送信できます。 Web SDKへの移行が完了したら、組織のスキーマを作成し、データストリームマッピングを使用して該当するXDM フィールドに入力できます。 移行プロセスのこの段階でスキーマが必要な場合、Adobe Analytics XDM スキーマの使用が強制されます。 このスキーマを使用すると、組織が将来、独自のスキーマを使用することがより困難になります。</li></ul> | <ul><li>**実装の変更には開発者の操作が必要です**: Web SDKの実装を変更する場合は、開発チームと協力してサイトのコードを編集する必要があります。 Web SDK タグ拡張機能](analytics-extension-to-web-sdk.md)に[移行するアプローチは、この欠点を回避します。</li><li>**実装の技術的負債**：このアプローチでは、既存の実装の変更された形式を使用するため、実装ロジックを追跡したり、必要に応じて将来の変更を実行したりすることが困難になる可能性があります。</li><li>**Platform にデータを送信するにはマッピングが必要**：組織で Customer Journey Analytics を使用する準備が整ったら、Adobe Experience Platform のデータセットにデータを送信する必要があります。 このアクションでは、`data` オブジェクトのすべてのフィールドが、XDM スキーマフィールドに割り当てるデータストリームマッピングツールのエントリである必要があります。 このワークフローではマッピングを 1 回行うだけで済み、実装を変更する必要ありません。 ただし、これは、XDM オブジェクトでデータを送信する際には必要ない追加の手順です。</li></ul> |
+| <ul><li>**既存の実装を使用**：このアプローチには実装の変更が必要ですが、完全に新しい実装をゼロから行う必要はありません。 実装ロジックの変更を最小限に抑えながら、既存のデータレイヤーとコードを使用できます。</li><li>**スキーマは必要ありません**: Web SDKに移行するこの段階では、XDM スキーマは必要ありません。 代わりに、`data` オブジェクトを設定して、データをAdobe Analyticsに直接送信できます。 Web SDKへの移行が完了したら、組織のスキーマを作成し、データストリームマッピングを使用して該当するXDM フィールドに入力できます。 移行プロセスのこの段階でスキーマが必要な場合、Adobe Analytics XDM スキーマの使用が強制されます。 このスキーマを使用すると、組織が将来、独自のスキーマを使用することがより困難になります。</li></ul> | <ul><li>**実装の変更には開発者の操作が必要です**: Web SDKの実装を変更する場合は、開発チームと協力してサイトのコードを編集する必要があります。 Web SDK タグ拡張機能[&#128279;](analytics-extension-to-web-sdk.md)に移行するアプローチは、この欠点を回避します。</li><li>**実装の技術的負債**：このアプローチでは、既存の実装の変更された形式を使用するため、実装ロジックを追跡したり、必要に応じて将来の変更を実行したりすることが困難になる可能性があります。</li><li>**Platform にデータを送信するにはマッピングが必要**：組織で Customer Journey Analytics を使用する準備が整ったら、Adobe Experience Platform のデータセットにデータを送信する必要があります。 このアクションでは、`data` オブジェクトのすべてのフィールドが、XDM スキーマフィールドに割り当てるデータストリームマッピングツールのエントリである必要があります。 このワークフローではマッピングを 1 回行うだけで済み、実装を変更する必要ありません。 ただし、これは、XDM オブジェクトでデータを送信する際には必要ない追加の手順です。</li></ul> |
 
 Adobeでは、次のシナリオでこの実装パスに従うことをお勧めします。
 
@@ -59,7 +65,7 @@ Adobe Experience Platform Data Collectionでデータストリームを作成し
 
 +++**2. Web SDK JavaScript ライブラリのインストール**
 
-メソッド呼び出しを使用できるように、最新バージョンの`alloy.js`を参照してください。 使用する詳細とコードブロックについては、[JavaScript ライブラリを使用したWeb SDKのインストール ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/install/library)を参照してください。
+メソッド呼び出しを使用できるように、最新バージョンの`alloy.js`を参照してください。 使用する詳細とコードブロックについては、[JavaScript ライブラリを使用したWeb SDKのインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/install/library)を参照してください。
 
 +++
 
@@ -85,7 +91,7 @@ alloy("configure", {
 
 +++**4. JSON ペイロードを使用するようにコードロジックを更新します**
 
-Analyticsの実装を変更して、`AppMeasurement.js`または`s` オブジェクトに依存しないようにします。 代わりに、変数を正しい形式のJavaScript オブジェクトに設定し、Adobeに送信するとJSON オブジェクトに変換します。 サイトに[ データレイヤー](../../prepare/data-layer.md)を設定すると、同じ値を引き続き参照できるため、値を設定する際に非常に役立ちます。
+Analyticsの実装を変更して、`AppMeasurement.js`または`s` オブジェクトに依存しないようにします。 代わりに、変数を正しい形式のJavaScript オブジェクトに設定し、Adobeに送信するとJSON オブジェクトに変換します。 サイトに[&#x200B; データレイヤー](../../prepare/data-layer.md)を設定すると、同じ値を引き続き参照できるため、値を設定する際に非常に役立ちます。
 
 Adobe Analyticsにデータを送信するには、Web SDK ペイロードで、このオブジェクト内で設定されているすべての分析変数で`data.__adobe.analytics`を使用する必要があります。 このオブジェクト内の変数は、AppMeasurement変数と同じ名前と形式を共有します。 例えば、`products`変数を設定する場合は、XDMと同様に個々のオブジェクトに分割しないでください。 代わりに、`s.products`変数を設定する場合は、文字列として正確に含めます。
 

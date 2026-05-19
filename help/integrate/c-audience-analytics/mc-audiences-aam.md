@@ -5,10 +5,20 @@ title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 TQID: https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
 source-wordcount: 522
@@ -45,7 +55,7 @@ Audience Analyticsとの連携には、次の主な利点があります。
 ![](assets/mc-aud-dataflow.png)
 
 1. 訪問者がデジタルプロパティにアクセスするたびに、ヒット数が収集され、Analyticsに送信されます。
-1. [ サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を使用すると、Analyticsが受け取る各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
+1. [&#x200B; サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を使用すると、Analyticsが受け取る各ヒットは、リアルタイムで自動的にAdobe Audience Managerに送信されます。
 1. Audience Analyticsとの統合により、ヒットごとに訪問者のオーディエンスメンバーシップがAdobe Audience Managerで検索され、セグメント IDのリストがAnalyticsに返され、リアルタイムで処理されます。
 
 Adobe Audience Managerのセグメントは同じヒット単位で挿入されるため、Adobe Audience Managerで使用可能な訪問者に関するデータを見逃すことなく、そのヒットに関する最新の情報を確認することができます。 これはAppMeasurement プラグインよりも優れています。プラグインでは、これらのセグメントを（現在のヒットではなく）次のヒットでのみ使用できます。

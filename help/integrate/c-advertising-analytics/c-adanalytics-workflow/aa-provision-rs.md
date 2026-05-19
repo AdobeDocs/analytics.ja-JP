@@ -4,10 +4,15 @@ title: Advertising Analytics 用のレポートスイートの有効化
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 TQID: https://experienceleague.adobe.com/sGEXiz2RiDhf9p-2df76o-XxBERTKPB-O-rZeIb4BBI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
 source-wordcount: 268
@@ -32,7 +37,7 @@ AnalyticsでAdvertising Analyticsの検索データを表示するには、Adver
 
    | 設定 | 定義 |
    |--- |--- |
-   | **[!UICONTROL 配分]** | 次の範囲で選択：<br/> **[!UICONTROL 元の値（最初）]**：表示された最初の値は、その変数の後続の値に関係なく、完全な割り当てのクレジットを取得します。 <br/>**[!UICONTROL 直近（最後） ]**：最後に表示された値は、その前に実行された変数に関係なく、成功イベントに対する完全な割り当てクレジットを取得します。 |
+   | **[!UICONTROL 配分]** | 次の範囲で選択：<br/> **[!UICONTROL 元の値（最初）]**：表示された最初の値は、その変数の後続の値に関係なく、完全な割り当てのクレジットを取得します。 <br/>**[!UICONTROL 直近（最後） &#x200B;]**：最後に表示された値は、その前に実行された変数に関係なく、成功イベントに対する完全な割り当てクレジットを取得します。 |
    | **[!UICONTROL 有効期限]** | EVarの値が期限切れになるまでの期間またはイベントを指定できます（つまり、サクセスイベントのクレジットを受け取ることができなくなります）。  eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」値がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
 1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回）または「**[!UICONTROL Advertising Analytics レポートを更新]**」（後回）をクリックします。 これで、レポートスイートでAdvertising Analytics検索データを受け取る準備が整いました。 これで、[Advertising アカウントを作成する準備が整いました](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。
