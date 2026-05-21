@@ -38,7 +38,7 @@ ht-degree: 78%
 
 ## データオブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)で確認できます。 AppMeasurement 変数と同様に、すべてのデータオブジェクトフィールドでは大文字と小文字が区別されます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/implement/aep-edge/data-var-mapping.md)で確認できます。 AppMeasurement 変数と同様に、すべてのデータオブジェクトフィールドでは大文字と小文字が区別されます。
 
 | データオブジェクトフィールドのパス | Analytics の変数と説明 |
 | --- | --- |

@@ -31,7 +31,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; シーケンシャルセグメンテーション &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; シーケンシャルセグメンテーション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -314,4 +314,4 @@ An example of a complex sequential segment if you want to find the visitors that
 
 >[!MORELIKETHIS]
 >
-> * [AAおよびCJAでのシーケンシャルロジックの習得：THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)の概要
+> * [AAおよびCJAでのシーケンシャルロジックの習得：THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=ja)の概要
