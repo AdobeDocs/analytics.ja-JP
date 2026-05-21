@@ -4,9 +4,14 @@ title: 既知の制限事項
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/LyEGQ6cujNFJLknmiTqwNpj0iRKnimoZzTUbokSpIzE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 309
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 ## テーブル
 
 * 日付範囲または指標がテーブルの行として使用されている場合は、日付比較列を追加できません。
-* セグメントをテーブルの行として使用すると、「選択から指標を作成」が無効になります。また、「選択から指標を作成」は、日付順の列には適用しないでください。
+* セグメントをテーブルの行として使用すると、「選択から指標を作成」が無効になります。 また、「選択から指標を作成」は、日付順の列には適用しないでください。
 * 分類行の条件付き書式では、カスタム範囲を使用することはできません。
 * 行の値を合計して合計を計算する設定が適用されている場合は、テーブルの合計行をトレンド表示できません（通常は静的な行項目で使用されます）。
 
@@ -31,13 +36,13 @@ ht-degree: 100%
 ## セグメント
 
 * 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL イベント]、[!UICONTROL ユーザー]など）。
-* [パネルのドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md)で作成されたアドホックセグメントは、クイックセグメントのタイプです。公開されない限り、Workspace の左パネルまたはセグメントマネージャーには表示されません。詳しくは、[クイックセグメント](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
+* [パネルのドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md)で作成されたアドホックセグメントは、クイックセグメントのタイプです。 公開されない限り、Workspace の左パネルまたはセグメントマネージャーには表示されません。 詳しくは、[クイックセグメント](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
 
 ## 計算指標
 
-* 計算指標は、一部のビジュアライゼーションでは使用できません。詳しくは、[ビジュアライゼーション](#visualizations)を参照してください。
+* 計算指標は、一部のビジュアライゼーションでは使用できません。 詳しくは、[ビジュアライゼーション](#visualizations)を参照してください。
 * 計算指標自体に別々のアトリビューションモデルを含めることができるので、[!UICONTROL アトリビューションパネル]で計算指標を使用できません。
-* 計算指標が Workspace から作成される場合（[!UICONTROL コンポーネント／セグメント]から作成される場合とは異なり）、使用できないコンポーネントや演算子があります。例：[!UICONTROL IP アドレス]。
+* 計算指標が Workspace から作成される場合（[!UICONTROL コンポーネント／セグメント]から作成される場合とは異なり）、使用できないコンポーネントや演算子があります。 例：[!UICONTROL IP アドレス]。
 
 ## 日付範囲
 
@@ -46,7 +51,7 @@ ht-degree: 100%
 
 ## レポート設定
 
-* 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 桁区切り記号]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り記号]）のみが使用されます。
+* 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。 Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 桁区切り記号]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り記号]）のみが使用されます。
 
 
 

@@ -4,34 +4,41 @@ title: プロジェクトでのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 82%
+source-wordcount: 954
+ht-degree: 77%
 
 ---
 
 # プロジェクトでのコンポーネントの使用
 
-コンポーネントは、Analysis Workspace において、あらゆるプロジェクトの実際のデータを作成します。コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
+コンポーネントは、Analysis Workspace において、あらゆるプロジェクトの実際のデータを作成します。 コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。 コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
 
 追加できるコンポーネントのタイプについて詳しくは、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。
 
 >[!TIP]
 >
->各コンポーネントの詳細については、![InfoOutline](/help/assets/icons/InfoOutline.svg) を使用してください。詳しくは、[コンポーネント情報](#component-info)を参照してください。
+>各コンポーネントの詳細については、![InfoOutline](/help/assets/icons/InfoOutline.svg) を使用してください。 詳しくは、[コンポーネント情報](#component-info)を参照してください。
 
 ## プロジェクトへのコンポーネントの追加
 
 1. [Analysis Workspace で新しいプロジェクトを作成します](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。
 
-1. Analysis Workspace のプロジェクトに[パネルを追加](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)するか、[ビジュアライゼーションを追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)します。空のプロジェクトにコンポーネントを追加すると、フリーフォームテーブルビジュアライゼーションが作成されます。
+1. Analysis Workspace のプロジェクトに[パネルを追加](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)するか、[ビジュアライゼーションを追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)します。 空のプロジェクトにコンポーネントを追加すると、フリーフォームテーブルビジュアライゼーションが作成されます。
 
-1. ボタンパネルから「![キュレート](/help/assets/icons/Curate.svg) **[!UICONTROL コンポーネント]**」を選択します。左側のパネルに、使用可能なすべてのコンポーネントが表示されます。詳しくは、[インターフェイス](/help/analyze/analysis-workspace/home.md#interface)を参照してください。
+1. ボタンパネルから「![キュレート](/help/assets/icons/Curate.svg) **[!UICONTROL コンポーネント]**」を選択します。 左側のパネルに、使用可能なすべてのコンポーネントが表示されます。 詳しくは、[インターフェイス](/help/analyze/analysis-workspace/home.md#interface)を参照してください。
 
 1. 追加するコンポーネントまでスクロールするか、それを検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
-1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要 &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
+1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。 このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。
+パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
 
 1. 詳しくは、次の節を参照してください。
 
@@ -45,7 +52,7 @@ ht-degree: 82%
 
 ### プロジェクトへのディメンションの追加
 
-[&#x200B; ディメンション &#x200B;](/help/components/dimensions/overview.md) は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
+[ ディメンション ](/help/components/dimensions/overview.md)は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。 基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
 
 1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、まず、Analysis Workspace のプロジェクトにディメンションを追加します。
 
@@ -57,17 +64,17 @@ ht-degree: 82%
 
    * [プロジェクトへのセグメントの追加](#add-filters-to-a-project)の説明に従って、左側のパネルから 1 つ以上のディメンションをセグメントドロップゾーンにドラッグして、クイックセグメントを作成します。
 
-1. オプションで、Analysis Workspace 内のディメンションおよびディメンション項目を他のコンポーネントを使って分類できます。詳しくは、[Workspace でのディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。
+1. オプションで、Analysis Workspace 内のディメンションおよびディメンション項目を他のコンポーネントを使って分類できます。 詳しくは、[Workspace でのディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。
 
 Analysis Workspace でのディメンションの使用方法について詳しくは、[ディメンションのプレビュー](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)、[ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)および[時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)を参照してください。
 
 ### プロジェクトへの指標の追加
 
-指標を使用すると、Analysis Workspace でデータポイントを数量化できます。これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
+指標を使用すると、Analysis Workspace でデータポイントを数量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
 
 Analysis Workspace のプロジェクトに指標を追加するには
 
-1. [&#x200B; プロジェクトへのコンポーネントの追加 &#x200B;](#add-components-to-a-project) の説明に従って、Analysis Workspaceでプロジェクトに指標を追加し始めます。
+1. [ プロジェクトにコンポーネントを追加](#add-components-to-a-project)の説明に従って、Analysis Workspaceでプロジェクトに指標を追加します。
 
 
 
@@ -95,44 +102,44 @@ Analysis Workspace のプロジェクトに指標を追加するには
 Analysis Workspace では、次のいずれかの方法でセグメントを使用できます。
 
 * パネルへのセグメントの追加
-パネルにセグメントを追加すると、そのセグメントはパネル内のすべてのコンテンツに適用されます。
-パネル上のセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要 &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) の [&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md) を参照してください。
+パネルにセグメントを追加すると、セグメントはパネル内のすべてのコンテンツに適用されます。
+パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
 
 * ビジュアライゼーションへのセグメントの追加
-フリーフォームテーブルの列にセグメントを追加すると、そのセグメントはテーブルの列内のすべてのコンテンツに適用されます。また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
+フリーフォームテーブルの列にセグメントを追加すると、セグメントはテーブル列内のすべてのコンテンツに適用されます。 また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
 
 * コンポーネントでのセグメントの使用
-[&#x200B; 計算指標 &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[&#x200B; 注釈 &#x200B;](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) または [&#x200B; セグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md) などのコンポーネントを定義する場合、セグメントを定義の一部として使用できます。
+[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[注釈](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)、さらには[ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md)などのコンポーネントを定義する場合、定義の一部としてセグメントを使用できます。
 
 
 ### プロジェクトへの日付範囲の追加
 
-[&#x200B; 日付範囲 &#x200B;](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) は、Analysis Workspaceでのレポート時間枠を決定します。 また、データ範囲は、プロジェクト内のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）にも適用できます。
+[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)は、Analysis Workspaceのレポート期間を決定します。 また、データ範囲は、プロジェクト内のパネルや、一部のビジュアライゼーション（フリーフォームテーブルなど）にも適用できます。
 
-各パネルには、デフォルトで日付範囲が含まれています。パネルの日付範囲を更新するには、いくつかの方法があります。その方法の 1 つとして、左側のパネルから日付範囲コンポーネントをドラッグして、Analysis Workspace のパネルの日付範囲を更新します。
+各パネルには、デフォルトで日付範囲が含まれています。 パネルの日付範囲を更新するには、いくつかの方法があります。 その方法の 1 つとして、左側のパネルから日付範囲コンポーネントをドラッグして、Analysis Workspace のパネルの日付範囲を更新します。
 
 1. 必要に応じて、[プロジェクトへのパネルの追加](#add-components-to-a-project)の説明に従って、Analysis Workspace のプロジェクトに日付範囲を追加します。
 
-1. 左側のパネルから日付範囲を次の場所にドラッグ&amp;ドロップします。
+1. 次の場所の左側のパネルから日付範囲をドラッグ&amp;ドロップします。
 
    * パネルの日付範囲を変更するための現在の日付範囲。
 
      ![日付範囲をドロップ](assets/add-date-range.gif)
 
-   * フリーフォームテーブルビジュアライゼーションの指標またはディメンション。詳しくは、[日付範囲の使用](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges)を参照してください。
+   * フリーフォームテーブルビジュアライゼーションの指標またはディメンション。 詳しくは、[日付範囲の使用](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges)を参照してください。
 
 Analysis Workspace での日付範囲の使用方法と管理方法について詳しくは、[日付範囲の概要](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。
 
 ## コンポーネント情報
 
-任意のコンポーネントにポインターを合わせると、![詳細情報](/help/assets/icons/InfoOutline.svg)が表示されます。![InfoOutline](/help/assets/icons/InfoOutline.svg) を選択すると、コンポーネントに関する追加情報を含むポップアップが表示されます。
+任意のコンポーネントにポインターを合わせると、![詳細情報](/help/assets/icons/InfoOutline.svg)が表示されます。 ![InfoOutline](/help/assets/icons/InfoOutline.svg)を選択すると、コンポーネントに関する追加情報が表示されるポップアップが表示されます。
 
 ![コンポーネント情報](assets/component-info.png)
 
 アクセス制御に基づいて、次の操作を実行できます。
 
 * コンポーネントの ![ブックマーク](/help/assets/icons/Bookmark.svg) [!UICONTROL データディクショナリ]定義にアクセスします。
-* コンポーネントが定義されている ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg) コンポーネントビルダーにアクセスします。
+* コンポーネントが定義されている![編集](/help/assets/icons/Edit.svg) コンポーネントビルダーにアクセスします。
 
 
 

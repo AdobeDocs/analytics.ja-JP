@@ -4,10 +4,13 @@ keywords: ftp;sftp
 title: SFTP サーバーへの Data Warehouse リクエストの送信
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+TQID: https://experienceleague.adobe.com/nBerOKEbILwAK5OyayVgdBPN8vq24kk-DXY6XMT50wg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: 258
+ht-degree: 78%
 
 ---
 
@@ -19,9 +22,9 @@ ht-degree: 100%
 
 * Data Warehouse レポートをリクエストする場合、ポート 22 のみを使用する。
 * アドビの `authorized_keys` ファイルが、ログインに使用したユーザーのルートディレクトリ内の `.ssh` ディレクトリにある。
-* 接続先が `ftp.omniture.com` ではないこと。アドビの内部サーバー間では、SFTP プロトコルはサポートされていません。
-* 接続先で、1 要素（PKI）認証がサポートされていること。2 要素のチャレンジがある場合、レポートの配信は失敗します。サーバーが二要素認証を試行するように設定されていないことを確認してください。Adobe Analytics では、ログインに鍵のみを使用し、その他のものは使用しません。
-* アドビでは、SSHv2 暗号化をサポートしています。SSHv2 が使用できない場合は、SSHv1 を使用します（RSA 鍵のみ）。
+* 接続先が `ftp.omniture.com` ではないこと。 Adobeの内部サーバー間のSFTP プロトコルはサポートされていません。
+* 宛先は、一要素（PKI）認証をサポートしています。 2要素の課題がある場合、レポートの配信は失敗します。 サーバーが二要素認証を試行するように設定されていないことを確認してください。 Adobe Analyticsでは、キーのみが必要であり、ログインには他の何も使用されません。
+* AdobeはSSHv2暗号化をサポートしており、SSHv1にフォールバックします（RSA キーのみ）。
 
 Data Warehouse リクエストを SFTP 経由で正常に送信するには：
 

@@ -4,9 +4,13 @@ description: URL のクエリ文字列パラメーターの値を抽出します
 feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/tOnM8riIh4sIxv7To1XbHreisuudElDqONBcZouvk0k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 803
 ht-degree: 73%
 
 ---
@@ -15,32 +19,32 @@ ht-degree: 73%
 
 {{plug-in}}
 
-`getQueryParam` プラグインを使用すると、URL に含まれるクエリ文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索語や他のクエリ文字列パラメーターを抽出する場合にも役立ちます。
+`getQueryParam` プラグインを使用すると、URL に含まれるクエリ文字列パラメーターの値を抽出できます。 これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。 また、検索語や他のクエリ文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリ文字列パラメーターのみが必要な場合、Adobeでは、Web SDKやAdobe Analytics拡張機能を使用した URL パラメーター機能、またはAppMeasurementに含まれる [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドの使用をお勧めします。
+このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。 単純なクエリ文字列パラメーターのみが必要な場合は、Adobeでは、Web SDK、Adobe Analytics拡張機能、またはAppMeasurementに含まれる[`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドを使用してURL パラメーター機能を使用することをお勧めします。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
-Adobeには、web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
+Adobeには、Web SDKで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 左側の **[!UICONTROL タグ]** をクリックしてから、目的のタグプロパティをクリックします。
-1. 左側の **[!UICONTROL 拡張機能]** をクリックしてから、「**[!UICONTROL カタログ]**」タブをクリックします
-1. **[!UICONTROL Common Web SDK Plugins]** 拡張機能を見つけてインストールします。
-1. 左側の **[!UICONTROL データ要素]** をクリックしてから、目的のデータ要素をクリックします。
-1. 次の設定で、目的のデータ要素名を設定します。
-   * 拡張機能：Common Web SDK Plugins
+1. 左側の「**[!UICONTROL タグ]**」をクリックし、目的のタグプロパティをクリックします。
+1. 左側の&#x200B;**[!UICONTROL 拡張機能]**&#x200B;をクリックし、**[!UICONTROL カタログ]** タブをクリックします
+1. **[!UICONTROL Common Web SDK Plugins]**&#x200B;拡張機能を探してインストールします。
+1. 左側の&#x200B;**[!UICONTROL データ要素]**&#x200B;をクリックし、目的のデータ要素をクリックします。
+1. 次の設定で、必要なデータ要素名を設定します。
+   * 拡張機能：共通のWeb SDK プラグイン
    * データ要素：`getQueryParam`
-1. 必要なパラメーターを右側に設定します。
-1. 変更を保存してデータ要素に公開します。
+1. 右側の目的のパラメータを設定します。
+1. データ要素に変更を保存して公開します。
 
 ## Web SDKを手動で実装するプラグインのインストール
 
-このプラグインは、web SDKの手動実装内での使用はまだサポートされていません。
+このプラグインは、Web SDKの手動実装内での使用に対してはまだサポートされていません。
 
-## Adobe Analytics拡張機能を使用してプラグインをインストールします
+## Adobe Analytics拡張機能を使用したプラグインのインストール
 
-Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能があります。
+Adobeには、Adobe Analyticsで最も一般的に使用されるプラグインを使用できる拡張機能が用意されています。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
@@ -76,9 +80,9 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 `getQueryParam` 関数は次の引数を使用します。
 
-* **`qsp`**（必須）：URL 内で検索するクエリ文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
-* **`de`**（任意）：複数のクエリ文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
-* **`url`**（任意）：クエリ文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
+* **`qsp`**（必須）：URL 内で検索するクエリ文字列パラメーターのコンマ区切りリストです。 大文字と小文字は区別されません。
+* **`de`**（任意）：複数のクエリ文字列パラメーターが一致する場合に使用する区切り文字です。 デフォルトでは空の文字列です。
+* **`url`**（任意）：クエリ文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。 デフォルト値は `window.location` です。
 
 この関数を呼び出すと、上記の引数と URL に応じた値が返されます。
 
@@ -136,7 +140,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0（2021年3月19日）
 
 * コンテキストデータとしてバージョン番号を追加しました。
-* `pt` プラグインへの依存関係を削除しました。
+* `pt` プラグインの依存関係を削除しました。
 
 ### 3.3（2019 年 9 月 24 日（PT））
 

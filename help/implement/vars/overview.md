@@ -5,24 +5,28 @@ keywords: appmeasurement、変数、vars、設定、ページ、実装
 feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/J3bg65cq6Qjbv-Y-2sBaTmVHHniMpwudiM-YOM8VAhk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 417
 ht-degree: 100%
 
 ---
 
 # 変数、関数、メソッド、プラグインの概要
 
-Analytics には、Analytics データを収集するための変数が多数用意されています。この節の変数は、いくつかに分かれています。
+Analytics には、Analytics データを収集するための変数が多数用意されています。 この節の変数は、いくつかに分かれています。
 
-* **ページ変数**&#x200B;は、通常、レポートで直接使用される値です。一般的なページ変数には、`props`、`eVars`、`events` が含まれます。
-* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。通常、設定変数はディメンション項目を設定しません。
-* **関数とメソッド**&#x200B;は、参照時に特定のタスクを実行するコードの一部です。一般的な関数には、`t()`、`tl()`、`clearVars()` があります。
+* **ページ変数**&#x200B;は、通常、レポートで直接使用される値です。 一般的なページ変数には、`props`、`eVars`、`events` が含まれます。
+* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。 一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。 通常、設定変数はディメンション項目を設定しません。
+* **関数とメソッド**&#x200B;は、参照時に特定のタスクを実行するコードの一部です。 一般的な関数には、`t()`、`tl()`、`clearVars()` があります。
 
 ## 変数と実装メソッド
 
-Adobe Analytics は様々な方法で実装できます。各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用した変数の実装方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。 各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用した変数の実装方法に関する節があります。
 
 
 >[!BEGINSHADEBOX]
@@ -34,11 +38,11 @@ Adobe Analytics は様々な方法で実装できます。各ページには、W
 
 ## 演算の順序
 
-Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
+Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。 これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
-1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。例えば、`adobeDataLayer.page.title` にページタイトルを入力します。詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。<br/>Adobe Experience Platform でタグを使用する場合、このタスクは、中間のデータ要素を使用して実行されます。 データ要素には、データレイヤーからの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。<br/>次に、データ要素を使用して Analytics 変数にデータを入力できます。例えば、`eVar4` は、データ要素 `Page Title` から値を取得します。<br/>詳しくは、[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[データレイヤーオブジェクトのデータ要素へのマッピング](../launch/layer-to-elements.md)、[タグデータ要素の Analytics 変数へのマッピング](../launch/elements-to-variable.md)を参照してください
-3. 最後に、トラッキング関数を呼び出します。ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
+1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。 例えば、`adobeDataLayer.page.title` にページタイトルを入力します。 詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
+2. データレイヤーを使用して Analytics 変数を入力します。 <br/>Adobe Experience Platform でタグを使用する場合、このタスクは、中間のデータ要素を使用して実行されます。 データ要素には、データレイヤーからの値が入力されます。 例えば、データ要素 `Page Title` は、データレイヤー変数 `adobeDataLayer.page.title` から値を取得します。 <br/>次に、データ要素を使用して Analytics 変数にデータを入力できます。 例えば、`eVar4` は、データ要素 `Page Title` から値を取得します。 <br/>詳しくは、[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)、[データレイヤーオブジェクトのデータ要素へのマッピング](../launch/layer-to-elements.md)、[タグデータ要素の Analytics 変数へのマッピング](../launch/elements-to-variable.md)を参照してください
+3. 最後に、トラッキング関数を呼び出します。 ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。 トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字
 
@@ -49,4 +53,4 @@ Adobe Analytics によって公開された AppMeasurement ライブラリは、
 * 改行（`0x0A`）
 * HTML タグ（例：`<b></b>`、`&#153`）
 
-一部の変数には、追加の制限や構文上の要件があります。例えば、[`products`](page-vars/products.md) 変数は製品とカテゴリを区切るためにセミコロンとコンマを予約します。
+一部の変数には、追加の制限や構文上の要件があります。 例えば、[`products`](page-vars/products.md) 変数は製品とカテゴリを区切るためにセミコロンとコンマを予約します。

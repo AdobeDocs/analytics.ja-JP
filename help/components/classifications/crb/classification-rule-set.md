@@ -1,28 +1,33 @@
 ---
-description: ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
+description: ルールセットは、特定の変数の分類ルールのグループです。 変数をルールセットに適用します。 1つの変数に複数のルールセットを作成する場合は、各ルールセットを複数のレポートスイートに適用する必要があります。
 title: 分類ルールセット
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: 407
+ht-degree: 49%
 
 ---
 
-# 分類ルールセット（レガシー）
+# 分類ルールセット （レガシー）
 
 {{classification-rulebuilder-deprecation}}
 
-*このページでは、[&#x200B; 分類ルールビルダー &#x200B;](classification-rule-builder.md) の一部としての分類ルールセットについて説明します。 Adobe Analytics内のデータを分類する現在の方法については、[&#x200B; 分類セット &#x200B;](../sets/overview.md) を参照してください。*
+*このページでは、[分類ルールビルダー](classification-rule-builder.md)の一部として、分類ルールセットについて説明します。 Adobe Analyticsのデータを分類する現在の方法については、[分類セット ](../sets/overview.md)を参照してください。*
 
-ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
+ルールセットは、特定の変数の分類ルールのグループです。 変数をルールセットに適用します。 1つの変数に複数のルールセットを作成する場合は、各ルールセットを複数のレポートスイートに適用する必要があります。
 
 ## 分類ルールビルダーページ {#section_C60B0888C76D49C596EF19F11808B718}
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
 
-[!UICONTROL 分類ルールビルダー]には、次のフィールドとオプションがあります。
+次のフィールドとオプションは、[!UICONTROL 分類ルールビルダー]で利用できます。
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -33,7 +38,7 @@ ht-degree: 89%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="/help/components/classifications/crb/classification-rule-set.md"  >ルールセットを追加</a>      </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/classifications/crb/classification-rule-set.md"  >ルールセットを追加</a> </p> </td> 
    <td colname="col2"> <p>ルールセットを作成します。 </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +47,7 @@ ht-degree: 89%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ステータス </p> </td> 
-   <td colname="col2"> ルールセットのアクティビティステータス（ドラフト、アクティブなど）を表示します。アクティブなルールは毎日処理され、通常、分類データの調査は月に 1 回行われます。ルールでは、自動的に新しい値がチェックされ、分類がアップロードされます。 </td> 
+   <td colname="col2"> 「ドラフト」や「アクティブ」など、ルールセットのアクティビティステータスを表示します。 アクティブなルールは日次で処理され、通常は1か月さかのぼって分類データを調査します。 ルールは新しい値を自動的にチェックし、分類をアップロードします。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>最後の変更 </p> </td> 
@@ -63,7 +68,7 @@ ht-degree: 89%
 
    変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ[!UICONTROL 新しいルールセット]パネルに表示されます。
 
-   変数の分類を作成するには、**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL トラフィック]**／**[!UICONTROL トラフィック分類]**（または&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョンの分類]**）を使用します。次に、変数を選択し、「**[!UICONTROL 分類の追加]**」をクリックします。
+   変数の分類を作成するには、**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL トラフィック]**／**[!UICONTROL トラフィック分類]**（または&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョンの分類]**）を使用します。 次に、変数を選択し、「**[!UICONTROL 分類の追加]**」をクリックします。
 
 1. ルールセットを作成するには、**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**／**[!UICONTROL ルールセットを追加]**&#x200B;をクリックします。
 
@@ -76,8 +81,8 @@ ht-degree: 89%
 
 1. 「**[!UICONTROL レポートスイートと変数を選択]**」をクリックします。
 
-   レポートスイートと変数リストには、ログインしている会社のすべてのレポートスイートで利用できるすべての分類された変数が入力されます。レポートスイート内の 1 つの変数が所属することのできるルールセットは、1 つのみです。
+   レポートスイートと変数リストには、ログイン会社のすべてのレポートスイートで使用可能なすべての分類された変数が入力されます。 レポートスイート内の1つの変数は、1つのルールセットにのみ属することができます。
 
-   詳しくは、*`Variable`* 分類ルールビルダー [&#x200B; ページの定義の &#x200B;](/help/components/classifications/crb/classification-rule-definitions.md) を参照してください。
+   詳しくは、[分類ルールビルダー](/help/components/classifications/crb/classification-rule-definitions.md) ページの定義の&#x200B;*`Variable`*&#x200B;を参照してください。
 1. 使用するレポートスイートおよび変数を指定して、「**[!UICONTROL 保存]**」をクリックします。
 1. 引き続き、[分類ルールの追加](/help/components/classifications/crb/classification-rule-set.md)をおこないます。

@@ -1,14 +1,18 @@
 ---
 title: Report Builder ハブ
-description: Report Builder ハブについて説明します。
+description: Report Builderハブについて詳しく見る。
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/cjmpTOapngB6Rwd4QvdCZVTXfRjZAXFz4yfWLw2wvCA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 535
 ht-degree: 22%
 
 ---
@@ -16,20 +20,20 @@ ht-degree: 22%
 # Report Builder ハブ
 
 
-Report Builder ハブは、Excel のリボン バーから ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** を選択すると、Excel ブック内に表示される右側のウィンドウです。
+Report Builder ハブは、Excel リボン バーから![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;を選択すると、Excel ブック内に表示される右側のペインです。
 
 Report Builder ハブを使用して、データブロックの作成、更新、管理を行います。
 
-Report Builder ハブには、![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL Create]**、![TableManage](/help/assets/icons/TableManage.svg)**[!UICONTROL Manage]**、![Calendar](/help/assets/icons/Calendar.svg)**[!UICONTROL Schedule]** ボタン、**[!UICONTROL Commands]** パネル、**[!UICONTROL Quick Edit]** パネルが含まれています。
+Report Builder ハブには、![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**、![TableManage](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]**&#x200B;および![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL スケジュール]** ボタン、**[!UICONTROL コマンド]** パネル、および&#x200B;**[!UICONTROL クイック編集]** パネルが含まれています。
 
-![Report Builder ハブ &#x200B;](assets/hub51.png){zoomable="yes"}
+![Report Builder ハブ ](assets/hub51.png){zoomable="yes"}
 
 
 選択
 
-* ![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL Create]** して [&#x200B; 新しいデータブロックを作成 &#x200B;](create-a-data-block.md) します。
-* ![TableManage](/help/assets/icons/TableManage.svg)**[!UICONTROL Manage]** 既存のデータブロックを [&#x200B; 管理 &#x200B;](manage-reportbuilder.md) します。
-* ![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) **[!UICONTROL スケジュール]**&#x200B;[&#x200B; ワークブックをメールで送信するスケジュールを管理 &#x200B;](schedule-reportbuilder.md) します。
+* ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]** ～ [新しいデータブロックを作成](create-a-data-block.md)。
+* ![TableManage](/help/assets/icons/TableManage.svg) **[!UICONTROL Manage]** ～ [既存のデータブロックを管理](manage-reportbuilder.md)。
+* ![ カレンダー](/help/assets/icons/Calendar.svg) **[!UICONTROL スケジュール]** ～ [電子メールでワークブックを送信するスケジュールを管理](schedule-reportbuilder.md)。
 
 ## コマンドパネル
 
@@ -37,42 +41,42 @@ Report Builder ハブには、![AddCircle](/help/assets/icons/AddCircle.svg)**[!
 
 | コマンド | 使用条件... | 目的 |
 |------|------------------|--------|
-| ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)**[!UICONTROL データブロックを編集]** | 選択したセル範囲が、1 つのデータブロックのみの一部である。 | データブロックの編集に使用します。 |
-| ![&#x200B; 更新 &#x200B;](/help/assets/icons/Refresh.svg) **[!UICONTROL データブロックを更新]** | 選択範囲に少なくとも 1 つのデータブロックが含まれている。コマンドは、選択範囲内のデータブロックのみを更新します。 | を使用して、1 つ以上のデータブロックを更新します。 |
-| ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)**[!UICONTROL すべてのデータブロックを更新]** | ワークブックには、1 つ以上のデータブロックが含まれています。 | ワークブック内のすべてのデータブロックを更新するために使用します |
-| ![&#x200B; ワークブックを送信 &#x200B;](/help/assets/icons/Send.svg)**[!UICONTROL 送信]** | ワークブックには、1 つ以上のデータブロックが含まれています。 | を使用して [&#x200B; ワークブックをファイルとして電子メールで送信 &#x200B;](schedule-reportbuilder.md) します。 |
-| ![&#x200B; コピー &#x200B;](/help/assets/icons/Copy.svg)**[!UICONTROL データブロックをコピー]** | 選択したセルまたはセル範囲は、1 つ以上のデータブロックの一部です。 | データブロックのコピーに使用します。 |
-| ![&#x200B; 切り取り &#x200B;](/help/assets/icons/Cut.svg)**[!UICONTROL データブロックを切り取り]** | 選択したセルまたはセル範囲は、1 つ以上のデータブロックの一部です。 | データブロックの切り取りに使用します。 |
-| ![&#x200B; 削除 &#x200B;](/help/assets/icons/Delete.svg)**[!UICONTROL データブロックを削除]** | 選択したセル範囲が、1 つのデータブロックのみの一部である。 | データブロックの削除に使用 |
+| ![編集](/help/assets/icons/Edit.svg) **[!UICONTROL データブロックを編集]** | 選択したセル範囲が、1 つのデータブロックのみの一部である。 | を使用してデータブロックを編集します。 |
+| ![更新](/help/assets/icons/Refresh.svg) **[!UICONTROL データブロックを更新]** | 選択範囲に少なくとも 1 つのデータブロックが含まれている。 このコマンドは、選択範囲のデータブロックのみを更新します。 | を使用して、1つ以上のデータブロックを更新します。 |
+| ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg) **[!UICONTROL すべてのデータブロックを更新]** | ワークブックには、1 つ以上のデータブロックが含まれています。 | を使用して、ブック内のすべてのデータブロックを更新します |
+| ![Send](/help/assets/icons/Send.svg) **[!UICONTROL ワークブックを送信]** | ワークブックには、1 つ以上のデータブロックが含まれています。 | を使用すると、ワークブックを電子メール ](schedule-reportbuilder.md)でファイルとして送信できます。[ |
+| ![ コピー](/help/assets/icons/Copy.svg) **[!UICONTROL データブロックをコピー]** | 選択したセルまたはセル範囲は、1 つ以上のデータブロックの一部です。 | を使用して、データブロックをコピーします。 |
+| ![ カット ](/help/assets/icons/Cut.svg) **[!UICONTROL データブロックをカット]** | 選択したセルまたはセル範囲は、1 つ以上のデータブロックの一部です。 | データブロックをカットする場合に使用します。 |
+| ![削除](/help/assets/icons/Delete.svg) **[!UICONTROL データブロックを削除]** | 選択したセル範囲が、1 つのデータブロックのみの一部である。 | データブロックの削除に使用 |
 
 ## クイック編集パネル
 
-スプレッドシートで 1 つ以上のデータブロックを選択すると、Report Builderに **[!UICONTROL クイック編集]** パネルが表示されます。 **[!UICONTROL クイック編集]** パネルを使用して、1 つ以上のデータブロックのパラメーターを同時に変更できます。
+スプレッドシートで1つ以上のデータブロックを選択すると、Report Builderに&#x200B;**[!UICONTROL クイック編集]** パネルが表示されます。 **[!UICONTROL クイック編集]** パネルを使用すると、1つ以上のデータブロック内のパラメーターを同時に変更できます。
 
-「**[!UICONTROL クイック編集]**」セクションを使用して行った変更は、選択したすべてのデータブロックに適用されます。
+**[!UICONTROL クイック編集]** セクションを使用する際に行った変更は、選択したすべてのデータブロックに適用されます。
 
 ### レポートスイート
 
-データブロックは、選択したレポートスイートからデータを取り込みます。 ワークシートで複数のデータブロックが選択されていて、それらが同じレポートスイートからデータを取り込まない場合、「**レポートスイート**」リンクに **[!UICONTROL _複数_]** と表示されます。
+データブロックは、選択したレポートスイートからデータを取得します。 ワークシートで複数のデータブロックが選択されていて、同じレポートスイートからデータを取得しない場合、**レポートスイート** リンクに&#x200B;**[!UICONTROL _Multiple_]**&#x200B;と表示されます。
 
-レポートスイートを変更すると、選択範囲内のすべてのデータブロックに新しいレポートスイートが採用されます。 データブロック内のコンポーネントは、ID に基づいて新しいレポートスイートと照合されます。 コンポーネントがデータブロック内に見つからない場合、そのコンポーネントは削除され、**[!UICONTROL 無効な値]** または特定のコンポーネントに対して ![AlertRed](/help/assets/icons/AlertRed.svg) が表示されます。
+レポートスイートを変更すると、選択範囲のすべてのデータブロックで新しいレポートスイートが採用されます。 データブロック内のコンポーネントは、IDに基づいて新しいレポートスイートと照合されます。 データブロック内にコンポーネントが見つからない場合、そのコンポーネントは削除され、**[!UICONTROL 無効な値]**&#x200B;に置き換えられるか、特定のコンポーネントに![AlertRed](/help/assets/icons/AlertRed.svg)が表示されます。
 
-レポートスイートを変更するには、「**[!UICONTROL レポートスイート]**」ドロップダウンメニューから新しいレポートスイートを選択します。
+レポートスイートを変更するには、**[!UICONTROL レポートスイート]** ドロップダウンメニューから新しいレポートスイートを選択します。
 
 
 ### 日付範囲
 
-**日付範囲**&#x200B;は、選択したデータブロックの日付範囲を表示します。複数の日付範囲を持つ複数のデータブロックが選択されている場合、「**[!UICONTROL 日付範囲]**」リンクに「**[!UICONTROL _複数_]**」と表示されます。
+**日付範囲**&#x200B;は、選択したデータブロックの日付範囲を表示します。 複数の日付範囲を持つ複数のデータブロックが選択されている場合、**[!UICONTROL 日付範囲]** リンクには&#x200B;**[!UICONTROL _複数_]**&#x200B;が表示されます。
 
 ### セグメント
 
-**セグメント** リンクには、選択したデータブロックで使用されているセグメントの概要リストが表示されます。 複数のセグメントが適用された状態で複数のデータブロックが選択されている場合、「**セグメント**」リンクに **[!UICONTROL _複数_]** と表示されます。
+**セグメント** リンクには、選択したデータブロックで使用されているセグメントの概要リストが表示されます。 複数のセグメントを適用して複数のデータブロックを選択した場合、**セグメント** リンクには&#x200B;**[!UICONTROL _複数_]**&#x200B;が表示されます。
 
 >[!MORELIKETHIS]
 >
->[レポートスイートの選択](select-report-suite.md)
->[日付範囲を選択 &#x200B;](select-date-range.md)
->[フィルターの操作 &#x200B;](work-with-segments.md)
+>[ レポートスイートを選択](select-report-suite.md)
+>[日付範囲の選択](select-date-range.md)
+>[フィルターの操作](work-with-segments.md)
 >
 
 <!--

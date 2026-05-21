@@ -3,9 +3,13 @@ title: データフィードジョブの管理
 description: データフィードで個々のジョブを管理する方法について説明します。 インターフェイスを移動し、フィルターと検索を使用して、列定義を検索します。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/gbbWfT4BTiEfr41Og6ICrB5qfQVJGUmaZaf85ZcB6ww
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 20%
 
 ---
@@ -39,13 +43,13 @@ ht-degree: 20%
 
    アクセス権のあるすべてのレポートスイートのデータフィードが表示されます。 または、フィードが設定されていない場合、ページに「**[!UICONTROL データフィードを作成]**」ボタンが表示されます。
 
-   ![&#x200B; データフィードマネージャー](assets/data-feed-manager.png)
+   ![ データフィードマネージャー](assets/data-feed-manager.png)
 
 1. 表示するジョブを含むデータフィードの横にあるチェックボックスをオンにし、[!UICONTROL **ジョブ履歴**]&#x200B;を選択します。
 
    データフィードのジョブ履歴が表示され、使用可能な列に各ジョブに関する情報が表示されます。
 
-1. （オプション）テーブル内の表示列を調整するには、右上の列アイコン ![列アイコン &#x200B;](assets/customize-columns-icon.png)を選択し、テーブルをカスタマイズ ダイアログで、表示する各列を選択し、非表示にする各列の選択を解除します。
+1. （オプション）テーブル内の表示列を調整するには、右上の列アイコン ![列アイコン ](assets/customize-columns-icon.png)を選択し、テーブルをカスタマイズ ダイアログで、表示する各列を選択し、非表示にする各列の選択を解除します。
 
    次の列を表示できます。
 
@@ -69,7 +73,7 @@ ht-degree: 20%
 
 ## データフィードのジョブの再送信
 
-データフィードジョブを再送信すると、ファイルが最初に送信されたときと同じデータと処理でデータフィードファイルが再度送信されます。 または、[&#x200B; データフィードジョブを再処理することもできます](#reprocess-data-feed-jobs)。
+データフィードジョブを再送信すると、ファイルが最初に送信されたときと同じデータと処理でデータフィードファイルが再度送信されます。 または、[ データフィードジョブを再処理することもできます](#reprocess-data-feed-jobs)。
 
 1つ以上のデータフィードのジョブを再送信するには：
 
@@ -81,11 +85,11 @@ ht-degree: 20%
 
 1. 1つ以上のデータフィードジョブの横にあるチェックボックスを選択し、**[!UICONTROL 再送信]**&#x200B;を選択します。<!-- What does the status need to be? Error, ... -->
 
-   ![&#x200B; データフィードの再処理ジョブ &#x200B;](assets/data-feed-job-resend.png)
+   ![ データフィードの再処理ジョブ ](assets/data-feed-job-resend.png)
 
 ## データフィードのジョブの再処理
 
-データフィードジョブを再処理すると、データフィードジョブのソースデータが再処理され、再処理されたデータとともに再送信されます。 または、[&#x200B; データフィードジョブを再送信することもできます](#resend-data-feed-jobs)。
+データフィードジョブを再処理すると、データフィードジョブのソースデータが再処理され、再処理されたデータとともに再送信されます。 または、[ データフィードジョブを再送信することもできます](#resend-data-feed-jobs)。
 
 1つ以上のデータフィードのジョブを再処理するには：
 
@@ -97,4 +101,4 @@ ht-degree: 20%
 
 1. 1つ以上のデータフィードジョブの横にあるチェックボックスを選択し、**[!UICONTROL 再処理]**&#x200B;を選択します。<!-- What does the status need to be? Error, ... -->
 
-   ![&#x200B; データフィードの再処理ジョブ &#x200B;](assets/data-feed-job-reprocess.png)
+   ![ データフィードの再処理ジョブ ](assets/data-feed-job-reprocess.png)

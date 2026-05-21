@@ -3,16 +3,19 @@ title: post_product_list の マーチャンダイジング eVar インスタン
 description: データフィードの post_product_list 列で、各参照値のマーチャンダイジング eVar インスタンスを見つけます。
 feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+TQID: https://experienceleague.adobe.com/oFCnqcz4u7zjk1RHRXlAhXeYUT35nCtyp3GTsLr2M4I
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 100%
 
 ---
 
 # post_product_list の マーチャンダイジング eVar インスタンス参照
 
-データフィードでは、[post_product_list](datafeeds-reference.md) 列にマーチャンダイジング eVar インスタンスが含まれる場合があります。各 eVar は数値で表されます。
+データフィードでは、[post_product_list](datafeeds-reference.md) 列にマーチャンダイジング eVar インスタンスが含まれる場合があります。 各 eVar は数値で表されます。
 
 post_product_list のマーチャンダイジング eVar インスタンス参照は、データフィードの event_list 参照列とは異なります。
 

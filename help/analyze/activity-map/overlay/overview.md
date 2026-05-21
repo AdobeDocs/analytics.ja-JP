@@ -1,98 +1,103 @@
 ---
-description: Activity Map拡張機能とそのインターフェイスの操作方法について説明します。
+description: Activity Map拡張機能とそのインターフェイスのナビゲーション方法について説明します。
 title: Activity Map拡張機能インターフェイス
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+TQID: https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: 681
+ht-degree: 2%
 
 ---
 
 # Activity Map拡張機能インターフェイス
 
-Activity Map拡張機能を使用すると、web サイトにオーバーレイされたクリックデータを表示できます。 次のページ（web ストアへのリンクを含む）に移動して、拡張機能をダウンロードできます。
+Activity Mapの拡張機能を使用すると、web サイト上に重ねられたクリックデータを表示できます。 拡張機能をダウンロードするには、次のページに移動します。このページには、web ストアへのリンクが表示されます。
 
-**[!UICONTROL ツール]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Mapのダウンロード]**
+**[!UICONTROL ツール]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map をダウンロード]**
 
-インストールが完了して有効になると、インターフェイスは、次のいくつかの部分で構成されます。
+インストールして有効にすると、インターフェイスはいくつかの部分で構成されます。
 
 * 拡張機能とレポートを設定できる上部パネル
 * 一番人気のあるリンクを表示するオーバーレイ
-* 最頻使用リンクの指標を表示する下部パネル
+* 最も人気のあるリンクの指標を表示する下部パネル
 
-## 上部パネル
+## トップパネル
 
-上部のパネルには、Activity Map オーバーレイの基本的なコントロールが含まれています。
+上部パネルには、Activity Map オーバーレイの基本的なコントロールが含まれています。
 
-![&#x200B; オーバーレイ &#x200B;](../assets/overlay.png)
+![ オーバーレイ ](../assets/overlay.png)
 
-次の設定があります。
+次の設定が用意されています。
 
 * **標準/ライブビュー**：標準ビューとライブビューを切り替えます。
    * 標準ビュー：履歴データに基づいてオーバーレイを表示します。
-   * ライブビュー：ライブデータに基づいてオーバーレイを表示します。 日付セレクターが、ライブデータの精度を変更できるドロップダウンメニューに変わります。
-* **指標セレクター**：オーバーレイでレポートする指標を変更できます。 ライブ表示を選択している場合は、[!UICONTROL &#x200B; リンククリック数 &#x200B;] のみ使用できます。
-* **セグメントセレクター**:[&#x200B; セグメント &#x200B;](/help/components/segmentation/seg-overview.md) を選択し、オーバーレイ内のデータのサブセットを表示できます。 セグメントは、ライブ表示では使用できません。
-* **オーバーレイビジュアライゼーションタイプ**：オーバーレイでリンクのランキングを視覚化する方法を変更できます。
-   * **[!UICONTROL バブル]**：トップリンクには、レポート期間中の数値ランクを示す緑のバブルが表示されます。 バブルの色は [&#x200B; 設定 &#x200B;](settings.md) で変更できます。
-   * **[!UICONTROL グラデーション]**：上部のリンクが赤の透明色で網掛けに表示されます。 最も人気のあるリンクは最も暗い赤です。 グラデーションカラーは [&#x200B; 設定 &#x200B;](settings.md) で変更できます。
-   * **[!UICONTROL オフ]**：リンクオーバーレイを無効にします。
-* **日付セレクター**：レポート期間を変更できます。
+   * ライブビュー：ライブデータに基づいてオーバーレイを表示します。 日付セレクターは、ライブデータの精度を変更できるドロップダウンメニューに変わります。
+* **指標セレクター**: オーバーレイがレポートする指標を変更できます。 ライブビューを選択している場合は、[!UICONTROL  リンククリック ]のみが使用できます。
+* **セグメントセレクター**: [ セグメント ](/help/components/segmentation/seg-overview.md)を選択し、オーバーレイ内のデータのサブセットを表示できます。 セグメントはライブビューでは使用できません。
+* **オーバーレイ ビジュアライゼーションの種類**: オーバーレイでリンクのランキングを表示する方法を変更できます。
+   * **[!UICONTROL バブル]**：上位リンクには、レポート期間中の数値ランクを示す緑のバブルが表示されます。 バブルの色は[設定](settings.md)で変更できます。
+   * **[!UICONTROL グラデーション]**：上のリンクが透明な赤で網掛けされて表示されます。 最も人気のあるリンクは最も暗い赤です。 グラデーションカラーは、[設定](settings.md)で変更できます。
+   * **[!UICONTROL オフ]**: リンクオーバーレイを無効にします。
+* **日付セレクター**: レポート期間を変更できます。
 
 このパネルのヘッダーには、次の設定が含まれます。
 
-* **上部パネルを展開/折りたたむ**：上部パネルの設定を水平方向または垂直方向に表示するように切り替えます（二重矢印アイコン）。
-* **[!UICONTROL ページ詳細を切り替え]**：下部パネル（目のアイコン）の表示と非表示を切り替えます。
-* **[!UICONTROL 設定を表示]**：変更可能な設定のメニューが開きます（歯車アイコン）。
-   * **[!UICONTROL 設定]**：拡張機能の [&#x200B; 設定 &#x200B;](settings.md) を開きます。
-   * **[!UICONTROL ヘルプ]**:Experience Leagueのドキュメントを開きます（このページ）。
-   * **[!UICONTROL Adobe コミュニティ]**: [Experience League コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja) を開きます。
+* **トップパネルを展開/折りたたむ**：トップパネルを切り替えて、設定を水平方向または垂直方向（二重矢印アイコン）に表示します。
+* **[!UICONTROL ページの詳細を切り替え]**：下部パネル（目のアイコン）の表示と非表示を切り替えます。
+* **[!UICONTROL 設定を表示]**：変更できる設定（歯車アイコン）のメニューを開きます：
+   * **[!UICONTROL 設定]**：拡張機能の[設定](settings.md)を開きます。
+   * **[!UICONTROL ヘルプ]**: Experience Leagueへのドキュメントを開きます（このページ）。
+   * **[!UICONTROL Adobe コミュニティ]**: [Experience League コミュニティ ](https://experienceleaguecommunities.adobe.com/?profile.language=ja)を開きます。
    * **[!UICONTROL バージョン情報]**：拡張機能のバージョンを表示します。
-   * **[!UICONTROL ログアウト]**：拡張機能からログアウトし、再度ログインする必要があります。
-* **[!UICONTROL Activity Mapを終了]**：拡張機能のすべてのオーバーレイを閉じます（「X」アイコン）。
+   * **[!UICONTROL ログアウト]**：拡張機能からログアウトするため、再度ログインする必要があります。
+* **[!UICONTROL Activity Mapを終了]**：拡張機能（X アイコン）のすべてのオーバーレイを閉じます。
 
 ## ページオーバーレイ
 
-ページオーバーレイには、レポート期間中にクリックされた最も人気のあるリンクの場所を示すオーバーレイとサイトコンテンツが含まれています。 これらのリンクオーバーレイは、上部パネルの **[!UICONTROL オーバーレイビジュアライゼーションタイプ]** でバブルまたはグラデーションとして表示されるように設定できます。
+ページオーバーレイには、レポート期間中にクリックされた最も人気のあるリンクの場所を示すオーバーレイ付きのサイトコンテンツが含まれます。 これらのリンクオーバーレイを、上部パネルの&#x200B;**[!UICONTROL オーバーレイビジュアライゼーションタイプ]**&#x200B;でバブルまたはグラデーションとして表示するように設定できます。
 
 バブルまたはグラデーションをクリックすると、その特定のリンクの詳細を表示できます。
 
-![&#x200B; リンクバブル &#x200B;](../assets/link-bubble.png)
+![ バブルをリンク ](../assets/link-bubble.png)
 
 ## 下部パネル
 
-下部のパネルには、オーバーレイに表示されたリンクの集計ビューが表示されます。
+下部のパネルには、オーバーレイに表示されるリンクの集計表示が表示されます。
 
-* **レポートタイプ**：下部パネルを切り替えて、**[!UICONTROL ページ上のリンク]** レポートまたは **[!UICONTROL ページの詳細]** レポートを表示します。
-* **[!UICONTROL ページ名]**：現在の [&#x200B; ページ &#x200B;](/help/components/dimensions/page.md) ディメンション名。
-* **[!UICONTROL 検索]**：入力したテキストに一致するリンク名のみを表示するように、レポートをフィルタリングします。
-* **[!UICONTROL ダウンロード]**：レポートを CSV に書き出します。 [!UICONTROL &#x200B; ページ上のリンク &#x200B;] レポート、[!UICONTROL &#x200B; ページ &#x200B;] レポートおよび [!UICONTROL &#x200B; ページフロー &#x200B;] レポートを同じダウンロードファイルに含めることができます。
-* **[!UICONTROL レポートのドッキング位置を変更]**：このパネルの位置を切り替えて、ブラウザーウィンドウの下部または上部に表示します。
-* **[!UICONTROL レポートを閉じる]**：このパネルを閉じます。 上部パネルの **[!UICONTROL ページの詳細を切り替え]** ボタン（目のアイコン）を使用して、パネルを再度開くことができます。
+* **レポートタイプ**：一番下のパネルを切り替えて、**[!UICONTROL ページのリンク]** レポートまたは&#x200B;**[!UICONTROL ページの詳細]** レポートを表示します。
+* **[!UICONTROL ページ名]**：現在の[ ページ ](/help/components/dimensions/page.md) ディメンション名。
+* **[!UICONTROL 検索]**：入力したテキストに一致するリンク名のみを表示するようにレポートをフィルター処理します。
+* **[!UICONTROL ダウンロード]**: レポートをCSVに書き出します。 [!UICONTROL  ページのリンク ] レポート、[!UICONTROL  ページ ] レポート、および[!UICONTROL  ページフロー] レポートを同じダウンロードファイルに含めることができます。
+* **[!UICONTROL レポートのドッキング位置を変更]**：このパネルの位置をブラウザーウィンドウの下部または上部に表示するように切り替えます。
+* **[!UICONTROL レポートを閉じる]**：このパネルを閉じます。 上部パネル（目のアイコン）の「**[!UICONTROL ページの詳細を切り替え]**」ボタンを使用して、パネルを再度開くことができます。
 
-**[!UICONTROL ページ上のリンク]** レポートは、次の設定を含む基本的なワークスペースレポートを表示します。
+**[!UICONTROL ページ上のリンク]** レポートには、次の設定を含む基本的なワークスペースレポートが表示されます。
 
-* [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンション
-* [&#x200B; 発生件数 &#x200B;](/help/components/metrics/occurrences.md) 指標（「**[!UICONTROL リンククリック数]** というラベルが付いています）
-* セグメントとして適用される現在の [&#x200B; ページ &#x200B;](/help/components/dimensions/page.md) 値
+* [Activity Map リンク ](/help/components/dimensions/activity-map-link.md) ディメンション
+* [発生回数](/help/components/metrics/occurrences.md)指標（**[!UICONTROL リンククリック]**&#x200B;というラベル付き）
+* セグメントとして適用された現在の[ ページ ](/help/components/dimensions/page.md)値
 
-![&#x200B; ページパネル上のリンク &#x200B;](../assets/links-on-page.png)
+![ ページパネル上のリンク ](../assets/links-on-page.png)
 
-**[!UICONTROL ページの詳細]** レポートでは、現在のページに焦点を当て、[&#x200B; ページ &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) ディメンションを使用して [&#x200B; フロー &#x200B;](/help/components/dimensions/page.md) ビジュアライゼーションを表示します。 現在のページの次の指標が左側に表示されます。
+**[!UICONTROL ページの詳細]** レポートには、[ ページ ](/help/components/dimensions/page.md) ディメンションを使用して、現在のページに焦点を当てた[ フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)のビジュアライゼーションが表示されます。 現在のページの次の指標が左側に表示されます。
 
-* 合計 [&#x200B; ページビュー数 &#x200B;](/help/components/metrics/page-views.md)
-* 全ページビューの [!UICONTROL &#x200B; %]
-* [&#x200B; 入口 &#x200B;](/help/components/metrics/entries.md) 数
-* [&#x200B; 出口 &#x200B;](/help/components/metrics/exits.md) 数
+* 合計[ ページビュー](/help/components/metrics/page-views.md)
+* すべてのページビューの[!UICONTROL %]
+* [ エントリ ](/help/components/metrics/entries.md)件
+* [終了](/help/components/metrics/exits.md) カウント
 * [直帰数](/help/components/metrics/single-page-visits.md)
-* [!UICONTROL &#x200B; ページへの平均クリック数 &#x200B;]
-* 平均 [&#x200B; ページでの滞在時間 &#x200B;](/help/components/metrics/time-spent.md)
-* [&#x200B; リロード &#x200B;](/help/components/metrics/reloads.md) 数
+* [!UICONTROL 平均クリック数]
+* 平均[ ページに費やした時間](/help/components/metrics/time-spent.md)
+* [再読み込み回数](/help/components/metrics/reloads.md)
 * [バウンス率](/help/components/metrics/bounce-rate.md)
-* [!UICONTROL &#x200B; リンククリック数 &#x200B;]
+* [!UICONTROL  リンククリック ]
 
 ![ページの詳細](../assets/page-details.png)

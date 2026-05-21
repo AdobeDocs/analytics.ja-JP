@@ -3,16 +3,21 @@ title: 特定された状態
 description: ステッチの認識を決定するフラグ。
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/JUBtgXBDboIgX0xbvuflF5q-oEwqHx4vKvJd0Y5XMLY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 83%
+source-wordcount: 111
+ht-degree: 82%
 
 ---
 
 # 特定された状態
 
-「識別済みの状態」 [&#x200B; ディメンション &#x200B;](overview.md) は、[&#x200B; クロスデバイス分析 &#x200B;](../cda/overview.md) 仮想レポートスイートに固有です。 レポートの実行時点で、ヒットがシステムによって識別（ステッチ）されているかどうかをレポートします。このディメンションは、CDA によるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
+「識別済み状態」 [ ディメンション ](overview.md)は、[ クロスデバイス分析](../cda/overview.md)仮想レポートスイートに固有です。 レポートの実行時点で、ヒットがシステムによって識別（ステッチ）されているかどうかをレポートします。 このディメンションは、CDA によるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
 
 ## このディメンションへのデータ入力
 
