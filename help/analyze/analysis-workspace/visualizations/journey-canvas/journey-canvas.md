@@ -3,7 +3,7 @@ description: Analysis Workspace でジャーニーキャンバスを使用する
 title: ジャーニーキャンバスの概要
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
@@ -15,31 +15,19 @@ ht-degree: 88%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_button"
+>id="aa_journeycanvas_button"
 >title="ジャーニーキャンバス"
 >abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスを持つジャーニーに使用します。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_panel"
+>id="aa_journeycanvas_panel"
 >title="ジャーニーキャンバス"
 >abstract="人物が定義されたジャーニーを通過またはフォールアウトする仕組みを分析します。 イベント、ディメンション項目およびセグメントの任意の組み合わせを表すノードと矢印の柔軟なグラフを作成して、ユーザージャーニーの分析を作成します。 キャンバス上のノードをドラッグして、ジャーニーのイベントと条件を並べ替えます。 これを行うと、それに応じてデータが更新されます。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="ジャーニーキャンバス"
 >abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスを持つジャーニーに使用します。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -50,7 +38,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版について、_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg) [Adobe Analytics_ _&#x200B;**ジャーニー**<br/><br/>_ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;_。_&#x200B;この記事のジャーニーキャンバスの概要&#x200B;<br/><br/>_について説明します。
 
 >[!ENDSHADEBOX]
 
