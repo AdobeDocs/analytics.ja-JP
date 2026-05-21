@@ -1,25 +1,38 @@
 ---
-title: Adobe Analyticsのオンボード
-description: Adobe Analytics デジタルエクスペリエンスのオンボーディングシリーズへようこそ。 お客様とお客様の組織の成功を支援するために、Adobe Analyticsをサポートする主要なAdobe プラットフォームへのオンボード。
+title: Adobe Analytics オンボーディング
+description: Adobe Analytics デジタルエクスペリエンス オンボーディングシリーズへようこそ！ Adobe Analytics をサポートする主要な Adobe プラットフォームをオンボードして、お客様と組織の成功を支援します。
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 9%
+source-wordcount: 573
+ht-degree: 15%
 
 ---
 
-# Adobe Analyticsのオンボード
+# Adobe Analytics オンボーディング
 
-Adobe Analytics デジタルエクスペリエンスのオンボーディングシリーズへようこそ。
+Adobe Analytics デジタルエクスペリエンス オンボーディングシリーズへようこそ！
 
-Adobe Analytics を使用すると、組織はデータを収集し、デジタル顧客インタラクションから実用的なインサイトを取得できます。詳細な分析、用途の広いレポート、予測インテリジェンスを使用することで、組織はより良い顧客体験を構築するために必要なインサイトを得ることができます。
+Adobe Analytics を使用すると、組織はデータを収集し、デジタル顧客インタラクションから実用的なインサイトを取得できます。 詳細な分析、多彩なレポート、予測インテリジェンスを利用して、より優れた顧客体験を構築するために必要なインサイトを獲得できます。
 
-Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセスをオンボーディングすることから始まります。 以下のリソースを利用すると、オンボーディングを合理化し、自分自身と組織がAdobe Analyticsで成功しやすくなります。
+Adobe Analyticsへのジャーニーは、適切な構成とユーザーアクセスをオンボーディングすることから始まります。 Adobe Analyticsを利用すれば、オンボーディングを合理化し、ビジネスを成功に導くことができます。
 
-次のビデオを視聴して、ユーザー向けAdobe Admin Consoleからのオンボーディングジャーニーと、ドキュメントとサポートを目的とした Adobe Experience League へのアクセス設定、そして最後にAdobe Analytics自体を完了してください。
+次のビデオを参照して、ユーザーおよびアクセス設定のAdobe Admin ConsoleからAdobe Experience Leagueへのオンボーディングジャーニーを完了し、ドキュメントおよびサポート、そして最後にAdobe Analytics自体を確認してください。
 
 <!--
 CARDS
@@ -77,7 +90,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-experience-league" target="_blank" rel="referrer" title="Adobe Experience League">Adobe Experience League</a>
                     </p>
-                    <p class="is-size-6">Adobe Experience League へのオンボーディングで、成功に役立つドキュメント、チュートリアルなどにアクセスできます。</p>
+                    <p class="is-size-6">Adobe Experience Leagueに登録すると、ドキュメントやチュートリアルなどにアクセスし、ビジネスを成功に導くことができます。</p>
                 </div>
                 <a href="#adobe-experience-league" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オンボード </span>
@@ -100,7 +113,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console">Adobe Admin Console</a>
                     </p>
-                    <p class="is-size-6">Adobe Admin Consoleへのオンボードによる組織の製品使用権限の管理 ユーザーアクセスを追加、削除、変更します。</p>
+                    <p class="is-size-6">Adobe Admin Consoleにオンボーディングして、組織の製品使用権限を管理します。 ユーザーアクセス権を追加、削除、変更します。</p>
                 </div>
                 <a href="#adobe-admin-console" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オンボード </span>
@@ -123,7 +136,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Adobe Admin Console User Management">Adobe Admin Console User Management</a>
                     </p>
-                    <p class="is-size-6">Adobe Admin Console User Management へのオンボードによるユーザー、グループ、プロファイルの管理 製品の役割をユーザーまたはグループに割り当てる方法について説明します。</p>
+                    <p class="is-size-6">Adobe Admin Console User Managementにオンボーディングして、ユーザー、グループ、プロファイルを管理します。 ユーザーまたはグループに製品の役割を割り当てる方法について説明します。</p>
                 </div>
                 <a href="#admin-console-user-management" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オンボード </span>
@@ -135,8 +148,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="#raise-a-support-case" title="サポートケースを発行する" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="サポートケースを発行する"
+                    <a href="#raise-a-support-case" title="サポートケースを作成" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476787/?format=jpeg&nocache=1763486440891" alt="サポートケースを作成"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -144,9 +157,9 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#raise-a-support-case" target="_blank" rel="referrer" title="サポートケースを発行する"> サポートケースの提起 </a>
+                        <a href="#raise-a-support-case" target="_blank" rel="referrer" title="サポートケースを作成"> サポートケースを作成</a>
                     </p>
-                    <p class="is-size-6">Adobe Experience League へのオンボードでサポートケースを提起し、アクティブなケースと過去のケースを確認します。</p>
+                    <p class="is-size-6">Adobe Experience Leagueにオンボーディングしてサポートケースを立ち上げ、アクティブなユースケースと過去のユースケースを確認します。</p>
                 </div>
                 <a href="#raise-a-support-case" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オンボード </span>
@@ -169,7 +182,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="#adobe-analytics" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
                     </p>
-                    <p class="is-size-6">Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセスをオンボーディングすることから始まります。 以下のリソースを利用すると、オンボーディングを合理化し、自分自身と組織がAdobe Analyticsで成功しやすくなります。</p>
+                    <p class="is-size-6">Adobe Analyticsへのジャーニーは、適切な構成とユーザーアクセスをオンボーディングすることから始まります。 Adobe Analyticsを利用すれば、オンボーディングを合理化し、ビジネスを成功に導くことができます。</p>
                 </div>
                 <a href="#adobe-analytics" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オンボード </span>
@@ -185,39 +198,39 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476885/?captions=jpn&learn=on&enablevpops)
 
-[Adobe Experience League](https://experienceleague.adobe.com/ja?lang=ja) へのオンボードで、成功に役立つ [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics)、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview) などにアクセスできます。
+[Adobe Experience League](https://experienceleague.adobe.com/ja?lang=ja)にオンボーディングして、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics)、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)などにアクセスし、成功を支援します。
 
 
 ## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-[Adobe Admin Console](https://adminconsole.adobe.com/jp) へのオンボードによる組織の製品使用権限の管理 ユーザーアクセスを追加、削除、変更します。
+[Adobe Admin Console](https://adminconsole.adobe.com/jp)にオンボーディングして、組織の製品の使用権限を管理します。 ユーザーアクセス権を追加、削除、変更します。
 
 ## Adobe Admin Console User Management
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-[Adobe Admin Console User Management](https://adminconsole.adobe.com/redirect@AdobeOrg/users) へのオンボードによるユーザー、グループ、プロファイルの管理 製品の役割をユーザーまたはグループに割り当てる方法について説明します。
+[Adobe Admin Console User Management](https://adminconsole.adobe.com/redirect@AdobeOrg/users)にオンボーディングして、ユーザー、グループ、プロファイルを管理します。 ユーザーまたはグループに製品の役割を割り当てる方法について説明します。
 
-## サポートケースを発行する
+## サポートケースを作成
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Adobe Experience League へのオンボードにより [&#x200B; サポートケースを作成、アクティブなケースと過去のケースをレビュー &#x200B;](https://experienceleague.adobe.com/home?lang=ja#support) できます。
+Adobe Experience Leagueにオンボーディングして[&#x200B; サポートケースを立ち上げ、アクティブなケースと過去のケースを確認](https://experienceleague.adobe.com/home?lang=ja#support)します。
 
 
 ## Adobe Analytics
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476772/?learn=on&enablevpops)
 
-Adobe Analyticsのジャーニーは、適切な設定とユーザーアクセスをオンボーディングすることから始まります。 以下のリソースを利用すると、オンボーディングを合理化し、自分自身と組織がAdobe Analyticsで成功しやすくなります。
+Adobe Analyticsへのジャーニーは、適切な構成とユーザーアクセスをオンボーディングすることから始まります。 Adobe Analyticsを利用すれば、オンボーディングを合理化し、ビジネスを成功に導くことができます。
 
 ## 次の手順
 
-Adobe Analyticsとそのサポートプラットフォームへのオンボーディングを完了したら、理解を深め、スキルを向上させるために、次のリソースの調査を検討してください。
+Adobe Adobe Analyticsとそのサポートプラットフォームへのオンボーディングが完了したら、次のリソースを活用してスキルを向上させ、理解を深めることができます。
 
-1. [Adobe Analyticsの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [&#x200B; レポートスイートの理解と作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analyticsの概要](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [レポートスイートの理解と作成](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics)
-4. [Adobe Analyticsのチュートリアルとビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)
+4. [Adobe Analyticsのチュートリアルとビデオ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)

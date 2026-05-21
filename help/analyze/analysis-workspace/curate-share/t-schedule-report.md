@@ -1,78 +1,88 @@
 ---
-description: Analysis Workspace プロジェクトを直接またはスケジュールに従ってメール配信で送信する方法について説明します。
+description: Analysis Workspace プロジェクトを直接またはスケジュールに従ってメール配信する方法について説明します。
 keywords: Analysis Workspace
 title: プロジェクトの送信とスケジュール
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
+TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 25%
+source-wordcount: 502
+ht-degree: 26%
 
 ---
 
 # プロジェクトの送信とスケジュール
 
-Adobe Analytics プロジェクトをファイルとして、選択したユーザーにメールで送信できます。 アドホックでファイルを送信することも、スケジュールに従って送信するようにファイルを設定することもできます。
+選択したユーザーに電子メールでAdobe Analytics プロジェクトをファイルとして送信できます。 ファイルを一時的に送信したり、スケジュールに従って送信するようにファイルを設定したりできます。
 
-ファイルを送信する際は、次の点を考慮してください。
+ファイルを送信する際には、次の点に注意してください。
 
 * ファイルは CSV 形式または PDF 形式で送信できます。
 
 * プロジェクトに適用されたタグは、書き出しに自動的に適用されます。
 
-[&#x200B; 書き出しの概要 &#x200B;](/help/export/home.md) に示すように、Adobe Analytics データを書き出すその他の方法も使用できます。
+Adobe Analytics データを書き出す他の方法も使用できます（[書き出しの概要](/help/export/home.md)を参照）。
 
 ![ファイルを送信](assets/send-file.png)
 
 ## ファイルを送信
 
-メールで受信者にアドホック形式のファイルを送信するには：
+受信者にアドホックのファイルを電子メールで送信するには：
 
-1. **[!UICONTROL 共有 &#x200B;]/[!UICONTROL &#x200B; ファイルを送信]** を選択します。
+1. **[!UICONTROL 共有] / [!UICONTROL &#x200B; ファイルを送信]**&#x200B;を選択します。
 1. 次のいずれかのファイルタイプを指定します。
    * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
    * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
-1. （任意） **[!UICONTROL 説明]** を使用して、メールに含める説明を追加します。
-1. 受信者またはグループを追加します。メールアドレスを入力することもできます。
-1. （任意） **[!UICONTROL スケジュールオプションを表示]** を選択して [&#x200B; ファイルの書き出しをスケジュール &#x200B;](#schedule-file-export) します。
-1. **[!UICONTROL 今すぐ送信]** をクリックします。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+1. （オプション） **[!UICONTROL 説明]**&#x200B;を使用して、メールに含める説明を追加します。
+1. 受信者またはグループを追加します。 メールアドレスも入力できます。
+1. （オプション）「**[!UICONTROL スケジュール設定オプションを表示]**」から「[&#x200B; ファイルの書き出しをスケジュール &#x200B;](#schedule-file-export)」を選択します。
+1. 「**[!UICONTROL 今すぐ送信]**」をクリックします。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 
 ## ファイルの書き出しをスケジュール {#schedule}
 
-メールで受信者にスケジュールに従ってファイルを送信するには：
+スケジュール上のファイルを受信者に電子メールで送信するには：
 
-1. **[!UICONTROL 共有 &#x200B;]/[!UICONTROL &#x200B; ファイル書き出しをスケジュール]** を選択します。
+1. **[!UICONTROL 共有]/[!UICONTROL &#x200B; ファイルの書き出しをスケジュール]**&#x200B;を選択します。
 1. 次のいずれかのファイルタイプを指定します。
    * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
    * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
-1. （任意） **[!UICONTROL 説明]** を使用して、メールに含める説明を追加します。
-1. 受信者またはグループを追加します。メールアドレスを入力することもできます。
-1. （Healthcare Shield のお客様のみ）パスワードを入力して [&#x200B; 予定レポートをパスワードで保護 &#x200B;](#password-protect-a-new-scheduled-project) ます。
-1. **[!UICONTROL スケジュールオプションを表示]** が選択されていることを確認します。
-1. **[!UICONTROL 頻度]** を選択します。 次のいずれかを選択できます。
+1. （オプション） **[!UICONTROL 説明]**&#x200B;を使用して、メールに含める説明を追加します。
+1. 受信者またはグループを追加します。 メールアドレスも入力できます。
+1. （Healthcare Shieldのお客様のみ）スケジュール済みレポートをパスワードで保護する[にパスワードを提供します](#password-protect-a-new-scheduled-project)。
+1. **[!UICONTROL スケジュール設定オプションを表示]**&#x200B;が選択されていることを確認します。
+1. **[!UICONTROL 頻度]**&#x200B;を選択します。 次のいずれかを選択できます。
 
    | 頻度 | オプション |
    |---|---|
-   | **[!UICONTROL 1 時間ごとに送信]** | **[!UICONTROL 時間数ごとに送信]** の値を入力します。 |
-   | **[!UICONTROL 毎日送信]** | **[!UICONTROL 1 日の頻度]**:**[!UICONTROL 毎日送信]**、**[!UICONTROL 平日ごとに送信]**、または **[!UICONTROL カスタム頻度]** を選択します。<br/> 「カスタム頻度 **[!UICONTROL を選択した場合は、]** 日数ごとに送信 **[!UICONTROL の値を入力し]** す。 |
-   | **[!UICONTROL 毎週送信]** | **[!UICONTROL 週数ごとに送信]** の値を入力します。 **[!UICONTROL 曜日]** を選択します。 |
-   | **[!UICONTROL 毎月曜日に送信]** | **[!UICONTROL 曜日]** と **[!UICONTROL 週]** を選択します。 |
-   | **[!UICONTROL 毎月日ごとに送信]** | **[!UICONTROL その月のこの日に送信]** から値を選択します。 |
-   | **[!UICONTROL 毎年、その月の日ごとに送信]** | 「**[!UICONTROL 曜日]**」を選択し、「**[!UICONTROL 週]**」を選択して、「**[!UICONTROL 月]**」を選択します。 |
-   | **[!UICONTROL 特定の日付で毎年送信]** | **[!UICONTROL 月]** を選択し、**[!UICONTROL その月のこの日に送信]** から値を選択します。 |
+   | **[!UICONTROL 1時間ごとに送信]** | **[!UICONTROL 時間ごとに送信]**&#x200B;する値を入力してください。 |
+   | **[!UICONTROL 毎日送信]** | **[!UICONTROL 毎日の頻度]**&#x200B;を選択：**[!UICONTROL 毎日の送信]**、**[!UICONTROL 毎週毎日の送信]**、または&#x200B;**[!UICONTROL カスタム頻度]**。<br/> 「**[!UICONTROL カスタム頻度]**」を選択した場合、**[!UICONTROL 日数ごとに送信]**&#x200B;の値を入力します。 |
+   | **[!UICONTROL 毎週送信]** | **[!UICONTROL 週ごとに送信]**&#x200B;する値を入力してください。 「**[!UICONTROL 週の日]**」を選択します。 |
+   | **[!UICONTROL 曜日ごとに月単位で送信]** | **[!UICONTROL 週の日]**&#x200B;と&#x200B;**[!UICONTROL 週の月]**&#x200B;を選択します。 |
+   | **[!UICONTROL 月ごとの月次送信]** | **[!UICONTROL 月のこの日に送信]**&#x200B;から値を選択します。 |
+   | **[!UICONTROL 月の日付ごとに毎年送信]** | **[!UICONTROL 週の日]**&#x200B;を選択し、**[!UICONTROL 月]**&#x200B;を選択し、**[!UICONTROL 年の月]**&#x200B;を選択します。 |
+   | **[!UICONTROL 特定の日付ごとに毎年送信]** | **[!UICONTROL 年の月]**&#x200B;を選択し、**[!UICONTROL 月のこの日に送信]**&#x200B;から値を選択します。 |
 
-1. 開始日を **[!UICONTROL 開始日]** に入力します。 または、「![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから開始日を選択します。
+1. **[!UICONTROL 開始日を]**&#x200B;から入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから開始日を選択します。
 
-1. 終了日を **[!UICONTROL 終了日]** に入力します。 または、「![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg)」を選択して、カレンダーから終了日を選択します。
-1. 「**[!UICONTROL スケジュールに従って送信]**」を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+1. 終了日を&#x200B;**&#x200B;**&#x200B;に入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから終了日を選択します。
+1. 「**[!UICONTROL スケジュールに送信]**」を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 
 ## スケジュール済みプロジェクトマネージャー {#manager}
 
-スケジュールされたAnalysis Workspace プロジェクトは、**[!UICONTROL コンポーネント]**/**[!UICONTROL スケジュールされたプロジェクト]** を使用して、メインインターフェイスから管理できます。 詳しくは、[スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md)を参照してください。
+スケジュールされたAnalysis Workspace プロジェクトは、**[!UICONTROL コンポーネント]**/**[!UICONTROL スケジュールされたプロジェクト]**&#x200B;を使用して、メイン インターフェイスから管理できます。 詳しくは、[スケジュール済みプロジェクト](/help/components/scheduled-projects-manager.md)を参照してください。
 
 <!--
 # Schedule projects

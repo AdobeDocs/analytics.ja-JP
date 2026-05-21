@@ -1,37 +1,57 @@
 ---
-description: 仮想レポートスイートをキュレートして、Analysis Workspace内のコンポーネントを含めたり除外したりできます。
+description: Analysis Workspaceでは、バーチャルレポートスイートをキュレーションして、コンポーネントを含めたり除外したりできます。
 title: 仮想レポートスイートコンポーネントのキュレーション
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/j86dD5Yzd6GIoQOzhHsU8YbShQiODtbU8aCdM3UxRMg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 40%
+source-wordcount: 434
+ht-degree: 38%
 
 ---
 
 # 仮想レポートスイートコンポーネントのキュレーション
 
-仮想レポートスイートをキュレートして、Analysis Workspace内のコンポーネントを含めたり除外したりできます。
+Analysis Workspaceでは、バーチャルレポートスイートをキュレーションして、コンポーネントを含めたり除外したりできます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Component curation](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; コンポーネントキュレーション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイートで、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[&#x200B; 更新されたキュレーションエクスペリエンス &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md) を使用すると、表示するコンポーネントをより詳細に制御できます。
+>キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイートで、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。 以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。 [更新されたキュレーションエクスペリエンス &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md)を使用すると、表示されるコンポーネントをより細かく制御できます。
 
 コンポーネントのキュレーションを有効にするには、次の手順に従います。
 
-1. **[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL 仮想レポートスイート]**/**[!UICONTROL 新しい仮想レポートスイートの作成]** に移動します。
+1. **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL 仮想レポートスイート]** > **[!UICONTROL 新しい仮想レポートスイートを作成]**&#x200B;に移動します。
 1. **[!UICONTROL 設定]**&#x200B;を定義したら、「**[!UICONTROL コンポーネント]**」タブをクリックします。
 
-1. 「**[!UICONTROL 仮想レポートスイートコンポーネントのカスタマイズを有効にする]**」チェックボックスを選択します。
+1. チェックボックス **[!UICONTROL 仮想レポートスイートコンポーネントのカスタマイズを有効にする]**&#x200B;を選択します。
 
    ![](assets/vrs-enable.png)
 
@@ -44,7 +64,7 @@ ht-degree: 40%
    >* [!UICONTROL Activity Map]
    >* Analytics レポート API
 
-   オンにすると、仮想レポートスイートに含めるコンポーネントを追加できます。それには、該当するコンポーネントを「除外されたコンポーネント」列から「含まれるコンポーネント」列にドラッグします。 含めたり除外したりできるコンポーネントは次のとおりです。
+   チェックを入れたら、該当するコンポーネントを「除外されたコンポーネント」列から「含まれたコンポーネント」列にドラッグすることで、仮想レポートスイートに含めるコンポーネントを追加できます。 含めるコンポーネントと除外できるコンポーネントは次のとおりです。
 
    * ディメンション
    * 指標
@@ -53,7 +73,7 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   >キュレートされたコンポーネント（セグメント、計算指標、日付範囲）を&#x200B;*共有*&#x200B;する必要はありません。共有されていなくても、仮想レポートスイート用にキュレートされている場合は、Analysis Workspace で常に表示されます。
+   >キュレートされたコンポーネント（セグメント、計算指標、日付範囲）を&#x200B;*共有*&#x200B;する必要はありません。 共有されていなくても、仮想レポートスイート用にキュレートされている場合は、Analysis Workspace で常に表示されます。
 
 1. コンポーネントにフィルターを適用するかコンポーネントの検索を実行して「**[!UICONTROL すべてを追加]**」をクリックすると、選択されたすべてのコンポーネントが「含む」列に追加されます。
 
@@ -61,17 +81,17 @@ ht-degree: 40%
 
 ## コンポーネントの名前の変更 {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-仮想レポートスイートに固有の、含まれるコンポーネントの表示名を変更できます。 例えば、仮想レポートスイートにページ名を含め、よりモバイルに適したコンテキストに名前を変更する場合は、アプリScreensに変更できます。 この仮想レポートスイートが使用されるたびに、新しい名前がAnalysis Workspaceに表示されます。
+仮想レポートスイートに固有の、含まれるコンポーネントの表示名を変更できます。 例えば、バーチャルレポートスイートにページ名を含めたいが、よりモバイルフレンドリーなコンテキストに名前を変更したい場合は、App Screensに変更できます。 新しい名前は、このバーチャルレポートスイートを使用するたびにAnalysis Workspaceに表示されます。
 
 ![](assets/vrs-rename-component.png)
 
-Analysis Workspaceで、含まれているコンポーネントの情報アイコンをクリックして、名前を変更したコンポーネントの元の名前を表示します。
+Analysis Workspaceで、含まれているコンポーネントの情報アイコンをクリックすると、名前が変更されたコンポーネントの元の名前が表示されます。
 
 ![](assets/vrs-aw-renamed.png)
 
 ## コンポーネントグループ {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-コンポーネントグループを使用すると、仮想レポートスイートに一括でコンポーネントを追加できます。 例えば、モバイルアプリ分析に固有のデフォルトコンポーネントセットを読み込む場合は、モバイルアプリ グループを選択します。 対応するディメンションと指標のセット（名前は変更済み）が、仮想レポートスイートの「含まれる」リストに自動的に追加されます。
+コンポーネントグループを使用して、仮想レポートスイートにコンポーネントを一括追加します。 例えば、モバイルアプリ分析に固有のデフォルトのコンポーネントセットを読み込む場合は、モバイルアプリグループを選択します。 対応するディメンションと指標のセット（既に名前が変更されています）が、仮想レポートスイートの「含まれる」リストに自動的に追加されます。
 
 ![](assets/vrs-comp-grp.png)
 

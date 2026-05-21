@@ -1,43 +1,53 @@
 ---
 title: ActivityMap.link
-description: クリックされたリンクをActivity Mapが収集する方法をカスタマイズします。
+description: Activity Mapがクリックされたリンクを収集する方法をカスタマイズします。
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/BfvVQ2QOXfd91kd3Aah02cz0GvibPo8v-8nThdqFckA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 9%
+source-wordcount: 308
+ht-degree: 10%
 
 ---
 
 # ActivityMap.link
 
-`ActivityMap.link` 変数を使用すると、Activity Mapがリンク値の設定に使用するロジックを上書きできます。 この変数は、[`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md) が提供するものよりも詳細に制御したい領域で役立ちます。
+`ActivityMap.link`変数を使用すると、Activity Mapがリンク値の設定に使用するロジックを上書きできます。 この変数は、[`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md)が提供するものよりも詳細に制御したい領域で便利です。
 
 >[!CAUTION]
->この変数は、Activity Map ロジックを完全にオーバーライドします。 ここでオーバーライド関数を設定して誤った値を返すと、Activity MapのディメンションとActivity Mapのオーバーレイでデータ収集の問題が発生する可能性があります。
+>この変数は、Activity Map ロジックを完全に上書きします。 ここでオーバーライド関数を設定して誤った値を返すと、Activity Map ディメンションとActivity Map オーバーレイでデータ収集の問題が発生する可能性があります。
 
 ## Web SDKを使用したリンク値の上書き
 
-コールバック [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) 使用して、Web SDKのペイロードを変更したり、データの送信を中止したりできます。
+[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) コールバックを使用して、Web SDK ペイロードを変更したり、データの送信を中止したりできます。
 
-## Adobe Analytics拡張機能を使用したリンクのオーバーライド
+## Adobe Analytics拡張機能を使用したリンクオーバーライド
 
-Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの ActivityMap.link と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementのActivityMap.linkとAnalytics拡張機能のカスタムコードエディター
 
-この変数に関数を割り当てます。
+この変数に次の関数を割り当てます。
 
-* クリックされたHTML要素を受け取り、
-* 文字列値を返します。 この文字列値は、[Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンションに使用される最後の値です。
+* クリックされたHTML要素を受け取ります。
+* 文字列値を返します。 この文字列値は、[Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンションで使用される最終的な値です。
 
-戻り値が [falsy](https://developer.mozilla.org/ja-JP/docs/Glossary/Falsy) の場合、Activity Mapのコンテキストデータ変数はすべてクリアされ、リンクデータはトラッキングされません。
+戻り値が[falsy](https://developer.mozilla.org/ja-JP/docs/Glossary/Falsy)の場合、すべてのActivity Map コンテキストデータ変数がクリアされ、リンクデータは追跡されません。
 
 ## 例
 
-タグの title 属性のみ `<a>` 使用します。 title 属性が存在しない場合、リンクはトラッキングされません。
+`<a>` タグのtitle属性のみを使用してください。 title属性が存在しない場合、リンクは追跡されません。
 
 ```js
 s.ActivityMap.link = function(clickedElement) {
@@ -49,7 +59,7 @@ s.ActivityMap.link = function(clickedElement) {
 }
 ```
 
-手動で設定したリンク名を `s.tl` で返します（存在する場合）。それ以外の場合は、リンク URL を返します。
+`s.tl`に手動で設定したリンク名が存在する場合は返し、そうでない場合はリンク URLを返します。
 
 ```js
 s.ActivityMap.link = function(ele, linkName) {
@@ -62,7 +72,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-デフォルトのリンクロジックを完全に置き換える代わりに、条件によって変更することができます。
+デフォルトのリンクロジックを完全に置き換える代わりに、条件付きで変更することができます。
 
 ```html
 <script>
@@ -78,6 +88,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. `linkName` が渡された場合、メソッドは `tl()` によって呼び出されました。 渡され `tl()` 値を `linkName` として返します。
-2. Activity Mapによって呼び出される場合、`linkName` は渡されないので、link 要素を指定して `customFunction()` を呼び出します。 任意のカスタム関数を使用して、値を返すことができます。
-3. 上記の戻り値がいずれも返されない場合は、通常フォールバックとして収集されるリンク名を使用します。
+1. `linkName`が渡された場合、メソッドは`tl()`によって呼び出されました。 `tl()`さんが`linkName`として渡したものを返します。
+2. Activity Mapによって呼び出されると、`linkName`は渡されないので、`customFunction()`をlink要素で呼び出します。 値を返すカスタム関数を使用できます。
+3. 上記のいずれの戻り値も返さない場合は、通常フォールバックとして収集されるリンク名を使用します。

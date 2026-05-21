@@ -4,10 +4,21 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/fHIB-E9w4CRsmqGS8ZmXZVIdeV-SxcPNUPgzNUHgK74
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 76%
+source-wordcount: 117
+ht-degree: 66%
 
 ---
 
@@ -17,21 +28,21 @@ ht-degree: 76%
 
 クイックセグメントを作成する際は、次の点に注意してください。
 
-* クイックセグメントは、作成されたプロジェクトにのみ適用されます。他のプロジェクトでは使用できず、他のユーザーと共有できません。
+* クイックセグメントは、作成されたプロジェクトにのみ適用されます。 他のプロジェクトでは使用できず、他のユーザーと共有できません。
 * ルールは最大 3 つまで使用できます。
 * ネストされたコンテナや順次ルールはサポートされていません。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについては、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイックセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイックセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[&#x200B; クイックセグメントの作成 &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
+>[&#x200B; クイックセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--

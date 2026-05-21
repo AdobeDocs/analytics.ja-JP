@@ -3,10 +3,16 @@ title: Analytics 書き出しガイド
 description: このガイドでは、データフィードとData Warehouse を使用して、Adobe Analytics からデータを取得する方法を概説します。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/s9Izwb6M-vKB-1aH3l8nN-bS3KFmEA5CL8-YPn79gKA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 219
+ht-degree: 94%
 
 ---
 
@@ -14,10 +20,10 @@ ht-degree: 100%
 
 ![バナー](../../assets/doc_banner_export.png)
 
-このガイドでは、Adobe Analytics からデータを取得する方法の概要を説明します。以下のようなものがあります。
+このガイドでは、Adobe Analytics からデータを取得する方法の概要を説明します。 以下のようなものがあります。
 
-* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。各行は個別のヒットで、各列は変数です。データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
-* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行と任意の数の一意の値を許可します。データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
+* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。 各行は個別のヒットで、各列は変数です。 データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
+* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。 Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行と任意の数の一意の値を許可します。 データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
 
 >[!BEGINSHADEBOX]
 
@@ -39,6 +45,6 @@ ht-degree: 100%
 ## 主な Analytics リソース
 
 * [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
-* [Experience League に関する Adobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
-* [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
+* [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

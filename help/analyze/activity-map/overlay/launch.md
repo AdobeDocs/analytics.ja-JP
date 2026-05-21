@@ -4,10 +4,19 @@ title: Activity Map の起動
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: 5eca3d004fa46083ed15fe913163f10e63637c96
+TQID: https://experienceleague.adobe.com/l4XhcljAsgbfiCHl-txCF2xRqzmtKSnbepzAv9QFiV8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 40%
+source-wordcount: 121
+ht-degree: 38%
 
 ---
 
@@ -15,15 +24,15 @@ ht-degree: 40%
 
 正しいブラウザー／拡張機能が[インストールされている](../getting-started.md)場合は、web ページから直接 Activity Mapを起動できます。
 
-**Google Chrome** は、現在のバージョンのActivity Mapをサポートしている唯一のブラウザーです。 他のブラウザーのサポートが予定されています。
+**Google Chrome**&#x200B;は、現在のバージョンのActivity Mapをサポートしている唯一のブラウザーです。 他のブラウザーのサポートが予定されています。
 
 >[!IMPORTANT]
->拡張機能の最新バージョンがインストールされていることを確認します。 ブラウザー拡張機能ポリシーが変更されたので、以前のバージョンの拡張機能は機能しなくなりました。
+>最新バージョンの拡張機能がインストールされていることを確認します。 ブラウザー拡張機能ポリシーの変更により、以前のバージョンの拡張機能が機能しなくなります。
 
 ## Chrome での起動
 
 1. 右上の Chrome 拡張機能アイコンをクリックします。
 1. Activity Map をクリックします。
-1. 右上隅にログインポップアップが表示されます。
-1. ユーザー名、パスワード、組織を使用してログインします。
-1. 認証が完了すると、オーバーレイが右上に表示されます。
+1. サインインポップアップが右上隅に表示されます。
+1. ユーザー名、パスワード、組織でログインします。
+1. 認証されると、オーバーレイが右上に表示されます。

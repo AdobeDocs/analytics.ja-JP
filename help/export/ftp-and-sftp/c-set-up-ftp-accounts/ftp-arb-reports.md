@@ -4,10 +4,20 @@ keywords: ftp;sftp
 title: Report Builder が配信するレポート
 feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
-source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
+TQID: https://experienceleague.adobe.com/BedcLtaOC7xlFaDR2dqyXhiuycmbyfwaReNXw9XEGMw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 48%
+source-wordcount: 125
+ht-degree: 49%
 
 ---
 

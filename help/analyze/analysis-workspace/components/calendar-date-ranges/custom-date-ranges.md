@@ -5,9 +5,20 @@ title: カスタム日付範囲の例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/aE8L1czTiBKQG3MR-9aCxkBgO2qLp17K-n7Qmnjj-YM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: 118
 ht-degree: 100%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 100%
 
 +++ 詳細
 
-2 か月前を定義するカスタム日付範囲を定義する必要があります。いずれかのプリセットを使用します。
+2 か月前を定義するカスタム日付範囲を定義する必要があります。 いずれかのプリセットを使用します。
 
 ![最後の 2 か月前](assets/date-range-example-simple.png)
 
@@ -33,7 +44,7 @@ ht-degree: 100%
 
 +++ 詳細
 
-1 週間前の現在の日付から先週の同じ曜日の終わりまでの期間を定義する日付範囲を定義する必要があります。例えば、今日が 2024年9月11日水曜日の場合。2024年9月4日水曜日から 2024年9月7日土曜日までの日付範囲が必要です。
+1 週間前の現在の日付から先週の同じ曜日の終わりまでの期間を定義する日付範囲を定義する必要があります。 例えば、今日が 2024年9月11日水曜日の場合。 2024年9月4日水曜日から 2024年9月7日土曜日までの日付範囲が必要です。
 
 ![日付範囲例](assets/date-range-example.png)
 
