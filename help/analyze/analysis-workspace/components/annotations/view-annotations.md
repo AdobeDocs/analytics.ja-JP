@@ -1,27 +1,32 @@
 ---
 title: 注釈を表示
-description: Analysis Workspaceで注釈を表示する方法を説明します。
+description: Analysis Workspaceで注釈を表示する方法について説明します。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+TQID: https://experienceleague.adobe.com/ygnFKygSc1tTf-oH8qiMEBtGrMUZDhp3qxZCZr8okhc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 84%
+source-wordcount: 211
+ht-degree: 83%
 
 ---
 
 # 注釈を表示
 
-注釈の表示方法は、表示場所と、1 日または日付範囲に及ぶかどうかに応じて、わずかに異なります。
+注釈の表示場所と、1日または日付範囲のどちらに表示されるかによって、注釈の表示が少し異なります。
 
-## Workspaceで注釈を表示
+## Workspaceでの注釈の表示
 
 | ビジュアライゼーションの<br/>タイプ | 説明 |
 | --- | --- |
-| **折れ線グラフの&#x200B;**<br/>**1 日** | 折れ線グラフのビジュアライゼーションで「![注釈](/help/assets/icons/Annotate.svg)」を選択すると、注釈の詳細を含むポップアップが表示されます。<br/>![1 日に注釈](assets/annotation-single-day.png)<br/>：[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集するには、「![編集](/help/assets/icons/Edit.svg)」を選択します。注釈を削除するには、「![削除](/help/assets/icons/Delete.svg)」を選択します。 |
-| **折れ線グラフの&#x200B;**<br/>**日付範囲** | 「![AnnotateRange](/help/assets/icons/AnnotateRange.svg)」を選択すると、注釈の詳細を含むポップアップと、日付範囲を示す折れ線グラフが下部に表示されます。<br/>![注釈範囲](assets/annotation-range.png)：[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集するには、「![編集](/help/assets/icons/Edit.svg)」を選択します。注釈を削除するには、「![削除](/help/assets/icons/Delete.svg)」を選択します。 |
-| **フリーフォームテーブル** | フリーフォームテーブルでは、ビジュアライゼーションの右上にある注釈ボタンからすべての注釈にアクセスできます。「![注釈](/help/assets/icons/Annotate.svg)」を選択して、すべての注釈の（スクロールリスト）を表示します。<br/>![注釈テーブル](assets/annotations-table.png)<br/>：注釈ごとに、「![編集](/help/assets/icons/Edit.svg)」を選択して[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集し、「![削除](/help/assets/icons/Delete.svg)」を選択して注釈を削除できます。 |
+| **折れ線グラフの&#x200B;**<br/>**1 日** | 折れ線グラフのビジュアライゼーションで「![注釈](/help/assets/icons/Annotate.svg)」を選択すると、注釈の詳細を含むポップアップが表示されます。<br/>![1 日に注釈](assets/annotation-single-day.png)<br/>：[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集するには、「![編集](/help/assets/icons/Edit.svg)」を選択します。 注釈を削除するには、「![削除](/help/assets/icons/Delete.svg)」を選択します。 |
+| **折れ線グラフの&#x200B;**<br/>**日付範囲** | 「![AnnotateRange](/help/assets/icons/AnnotateRange.svg)」を選択すると、注釈の詳細を含むポップアップと、日付範囲を示す折れ線グラフが下部に表示されます。<br/>![注釈範囲](assets/annotation-range.png)：[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集するには、「![編集](/help/assets/icons/Edit.svg)」を選択します。 注釈を削除するには、「![削除](/help/assets/icons/Delete.svg)」を選択します。 |
+| **フリーフォームテーブル** | フリーフォームテーブルでは、ビジュアライゼーションの右上にある注釈ボタンからすべての注釈にアクセスできます。 「![注釈](/help/assets/icons/Annotate.svg)」を選択して、すべての注釈の（スクロールリスト）を表示します。<br/>![注釈テーブル](assets/annotations-table.png)<br/>：注釈ごとに、「![編集](/help/assets/icons/Edit.svg)」を選択して[注釈ビルダー](create-annotations.md#annotation-builder)で注釈を編集し、「![削除](/help/assets/icons/Delete.svg)」を選択して注釈を削除できます。 |
 
 {style="table-layout:auto"}
 

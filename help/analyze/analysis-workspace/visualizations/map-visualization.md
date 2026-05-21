@@ -5,9 +5,14 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/x5ln-HzjHf2kK-mmCJxoLHxbkzox7BpN2i-G5-oAsc8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: 727
 ht-degree: 60%
 
 ---
@@ -46,7 +51,7 @@ ht-degree: 60%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_<br/>_のマップビジュアライゼーションについて説明します。_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[Map](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/map)を参照してください。_
+_この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_<br/>_のマップビジュアライゼーションについて説明します。_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[Map](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +68,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のマップビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace のマップビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +103,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
       * *パーセント*&#x200B;タイプの指標では、クラスタリングでパーセンテージがまとめて平均化されます。
       * 緑/赤の配色：肯定的/否定的
 
-   * **Ctrl キーを押しながらマップを移動すると、マップを2Dまたは3Dで**&#x200B;回転できます。
+   * **Ctrl] キーを押しながらマップを移動すると、マップを2Dまたは3Dで**&#x200B;回転できます。[!UICONTROL 
 
    * **以下に説明する[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)を使用して、ヒートマップなどの別のビューに**&#x200B;切り替えます。 バブル表示がデフォルト設定であることに注意してください。
 
@@ -120,7 +125,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 |--- |--- |
 | **[!UICONTROL マップタイプ]** | |
 | **[!UICONTROL 吹き出し] | バブルを使用してイベントをプロットします。 バブルチャートとは、散布図とプロポーショナルエリアチャートの間のクロス図である多変数グラフです。 この表示はデフォルトです。 |
-| [!UICONTROL &#x200B; ヒートマップ &#x200B;] | ヒートマップを使用してイベントをプロットします。 ヒートマップとは、マトリックスに含まれる個々の値が色で表されるデータのグラフィック表現です。 |
+| [!UICONTROL  ヒートマップ ] | ヒートマップを使用してイベントをプロットします。 ヒートマップとは、マトリックスに含まれる個々の値が色で表されるデータのグラフィック表現です。 |
 | **[!UICONTROL スタイル]** | |
 | [!UICONTROL カラーテーマ] | ヒートマップと泡のカラースキームを表示します。 Coral、Reds、Greens、Bluesから選択できます。 デフォルトはコーラルです。 |
 | [!UICONTROL マップスタイル] | 「ベーシック」、「ストリート」、「ブライト」、「ライト」、「ダーク」、「サテライト」から選択できます。 |
@@ -132,7 +137,7 @@ Analysis Workspace の ![地球儀](/help/assets/icons/Globe.svg) **[!UICONTROL 
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

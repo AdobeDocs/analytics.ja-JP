@@ -3,30 +3,36 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 79%
+source-wordcount: 272
+ht-degree: 80%
 
 ---
 
 # 郵便番号
 
-「郵便番号」 [&#x200B; ディメンション &#x200B;](overview.md) は、訪問者の郵便番号をレポートします。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [ ディメンション ](overview.md)は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、データを入力する複数の方法が含まれている点で一意です。どちらかまたは両方を使用できます。
+このディメンションは、データを入力する複数の方法が含まれている点で一意です。 どちらかまたは両方を使用できます。
 
 * `zip` 変数を使用して郵便番号を直接設定します。または
-* ジオロケーションデータから取り込むように設定します。
+* 位置情報データから取得するように設定します。
 
 「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
 
-地域 zip を含むオプションを使用する場合：
+ジオ zipを含むオプションを使用する場合：
 
-* AppMeasurement実装の場合、このディメンションは初期設定の状態で動作します。
-* Web SDK実装の場合、[!UICONTROL &#x200B; データストリームを設定 &#x200B;] する際に [&#x200B; ジオルックアップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja) を有効にします。
+* AppMeasurementの実装では、このディメンションはそのまま機能します。
+* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 
@@ -111,7 +117,7 @@ ht-degree: 79%
 * スリランカ
 * スウェーデン
 * スイス
-* 台湾
+* 台湾地域
 * タイ
 * チュニジア
 * トルコ

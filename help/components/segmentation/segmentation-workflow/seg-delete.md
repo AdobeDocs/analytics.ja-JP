@@ -1,23 +1,28 @@
 ---
-description: セグメントを削除する前に認識しておく必要がある考慮事項を理解します。
-title: セグメントを削除
+description: セグメントを削除する前に認識しておく必要がある考慮事項について説明します。
+title: セグメントの削除
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/G1gycXvzM-mMdpElmelyD204Ts-C2uua5X4rJMM3JNQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: 63
 ht-degree: 3%
 
 ---
 
 # セグメントの削除
 
-この記事では、セグメントを削除する前に知っておくべきいくつかの考慮事項を示します。
+この記事では、セグメントを削除する前に認識しておく必要があるいくつかの考慮事項について説明します。
 
 セグメントを削除する場合：
 
-* このセグメントが適用された予定レポートおよびダッシュボードは、引き続き正常に機能します。
-* スケジュール済みレポートは、同じ名前でセグメントを編集しても更新されません。
+* このセグメントが適用されたスケジュール済みレポートとダッシュボードは、引き続き正常に動作します。
+* スケジュールされたレポートは、同じ名前のセグメントを編集しても更新されません。
 
 <!--
 

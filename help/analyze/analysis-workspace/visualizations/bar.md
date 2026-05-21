@@ -5,9 +5,14 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/lFF6NamOuRPCmNaVFEanAovkU9yp1VAh9IMorhQ6eWM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 76%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[&#x200B; バーとバーの積み重ね](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bar)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_ バーとバーの積み重ね&#x200B;_を参照してください。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[ バーとバーの積み重ね](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bar)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_ バーとバーの積み重ね&#x200B;_を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +67,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

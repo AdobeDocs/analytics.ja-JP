@@ -4,27 +4,31 @@ description: Analytics 変数にデータ要素を割り当てて、Analysis Wor
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/-eif71BEIQnPRQWSaXK5Wb5WL0rTROwRDDxzbUNL98I
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 448
 ht-degree: 96%
 
 ---
-
 
 # タグデータ要素の Analytics 変数へのマッピング
 
 タグデータ要素のリポジトリーを取得したら、それらを Analytics のディメンションに割り当てることができます。
 
-## 前提条件 
+## 前提条件
 
 [データレイヤーオブジェクトをデータ要素にマッピングする](layer-to-elements.md)：タグデータ要素について理解していること、操作するタグデータ要素が複数あることを確認します。
 
-[ソリューションデザインドキュメントを作成する](../prepare/solution-design.md)：整理された状態を維持するには、ソリューションデザインドキュメントが不可欠です。ソリューションデザインドキュメントに従うと、データ要素を Analytics 変数へと簡単に割り当てることができます。
+[ソリューションデザインドキュメントを作成する](../prepare/solution-design.md)：整理された状態を維持するには、ソリューションデザインドキュメントが不可欠です。 ソリューションデザインドキュメントに従うと、データ要素を Analytics 変数へと簡単に割り当てることができます。
 
 ## データ要素を Analytics 変数に割り当てる
 
-以下の手順に従った後にタグライブラリを公開すると、Analysis Workspace でカスタムディメンションを使用できます。Analytics 変数は、グローバルに設定することも、個々のルール内で設定することもできます。
+以下の手順に従った後にタグライブラリを公開すると、Analysis Workspace でカスタムディメンションを使用できます。 Analytics 変数は、グローバルに設定することも、個々のルール内で設定することもできます。
 
 ### グローバル変数の設定
 
@@ -37,20 +41,20 @@ ht-degree: 96%
 
 ### ルール内での変数の設定
 
-ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platform タグに関するドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ja)を参照してください。
+ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。 ルールで条件を定義します。 Adobe Experience Platform タグに関するドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ja)を参照してください。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブをクリックし、目的のルールをクリックします（または作成します）。
 1. 「[!UICONTROL アクション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
-1. 「[!UICONTROL &#x200B; 拡張機能 &#x200B;]」ドロップダウンリストをAdobe Analyticsに設定し、「[!UICONTROL &#x200B; アクションタイプ &#x200B;]」を「変数を設定」に設定します。
-1. 目的の Analytics 変数の右側にある![データ要素](assets/data-element.png)アイコンをクリックします。組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)には、使用する Analytics 変数が記載されています。
-1. モーダルウィンドウで目的のデータ要素を選択します。「[!UICONTROL 選択]」をクリックします。
-1. `%` 記号で囲まれたテキストフィールドに、データ要素名が追加されます。例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てると、文字列 `%Page name%` 表示されます。
+1. [!UICONTROL Extension] ドロップダウンリストをAdobe Analyticsに、[!UICONTROL Action Type]をSet Variablesに設定します。
+1. 目的の Analytics 変数の右側にある![データ要素](assets/data-element.png)アイコンをクリックします。 組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)には、使用する Analytics 変数が記載されています。
+1. モーダルウィンドウで目的のデータ要素を選択します。 「[!UICONTROL 選択]」をクリックします。
+1. `%` 記号で囲まれたテキストフィールドに、データ要素名が追加されます。 例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てると、文字列 `%Page name%` 表示されます。
 
 >[!TIP]
 >
-> 同じ変数内のデータ要素を連結できます。例えば、「Hostname」データ要素と「Pathname」データ要素がある場合、`%Hostname%%Pathname%` を使用して、両方を 1 つの変数に組み合わせることができます。
+>同じ変数内のデータ要素を連結できます。 例えば、「Hostname」データ要素と「Pathname」データ要素がある場合、`%Hostname%%Pathname%` を使用して、両方を 1 つの変数に組み合わせることができます。
 
 ## 次の手順
 

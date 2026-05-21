@@ -4,10 +4,16 @@ description: Adobe Analytics のデータ収集を改善するために、ブラ
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+TQID: https://experienceleague.adobe.com/f6gcSRLmsupsIVKYH-bF1T7vuVhoj9Ef8zVh3t6vU2Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 99%
+source-wordcount: 590
+ht-degree: 98%
 
 ---
 
@@ -15,27 +21,27 @@ ht-degree: 99%
 
 このドキュメントでは、主要なブラウザーが cookie に対するトラッキング防止対策を実装する際に、プロパティやソリューション間で永続的な訪問者の識別を保持するためのオプションについて説明します。
 
-Adobe Analytics は、ファーストパーティ cookie を利用して訪問者のオンサイトアクティビティを記録します。また、Analytics はサードパーティ cookie を利用して、自社の他のドメインでのアクティビティなど、訪問者のオフサイトアクティビティを把握します。サードパーティ cookie は多くのブラウザーでブロックされ、Chrome によるサポートの停止（現在は 2024年末に予定）によって、ほとんど利用できなくなります。ファーストパーティ cookie はすべてのブラウザーで許可されますが、Safari および他のブラウザーでは Apple の [ITP トラッキング防止](https://webkit.org/tracking-prevention)手段として、有効期限が制限されています。ブラウザー cookie に関する現在の制限について詳しくは、「[Adobe Analytics とブラウザーの cookie](cookies.md)」を参照してください。
+Adobe Analytics は、ファーストパーティ cookie を利用して訪問者のオンサイトアクティビティを記録します。 また、Analytics はサードパーティ cookie を利用して、自社の他のドメインでのアクティビティなど、訪問者のオフサイトアクティビティを把握します。 サードパーティ cookie は多くのブラウザーでブロックされ、Chrome によるサポートの停止（現在は 2024年末に予定）によって、ほとんど利用できなくなります。 ファーストパーティ cookie はすべてのブラウザーで許可されますが、Safari および他のブラウザーでは Apple の [ITP トラッキング防止](https://webkit.org/tracking-prevention)手段として、有効期限が制限されています。 ブラウザー cookie に関する現在の制限について詳しくは、「[Adobe Analytics とブラウザーの cookie](cookies.md)」を参照してください。
 
-これらのブラウザーの制限は、匿名のサードパーティトラッキングから、信頼するユーザーやブランド間での情報の明示的な共有への移行を反映しています。この移行をサポートするために、アドビは、ファーストパーティとの関係を通じて収集された永続的な識別子を含め、お客様が従来の cookie を補完する方法を提供します。
+これらのブラウザーの制限は、匿名のサードパーティトラッキングから、信頼するユーザーやブランド間での情報の明示的な共有への移行を反映しています。 この移行をサポートするために、アドビは、ファーストパーティとの関係を通じて収集された永続的な識別子を含め、お客様が従来の cookie を補完する方法を提供します。
 
 ## Customer Journey Analytics とクロスデバイス分析
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) と[クロスデバイス分析](/help/components/cda/overview.md)によって、cookie に加えて、ハッシュ化されたログインなどの永続的な識別子を含めることができます。これにより、デバイスをまたいだカスタマージャーニー、また、Customer Journey Analytics の場合はオンラインチャネルとオフラインチャネルをまたいだカスタマージャーニーを把握できます。
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) と[クロスデバイス分析](/help/components/cda/overview.md)によって、cookie に加えて、ハッシュ化されたログインなどの永続的な識別子を含めることができます。 これにより、デバイスをまたいだカスタマージャーニー、また、Customer Journey Analytics の場合はオンラインチャネルとオフラインチャネルをまたいだカスタマージャーニーを把握できます。
 
-* **Customer Journey Analytics** は Adobe Experience Platform を基に構築され、共通の顧客 ID に基づいて、Analysis Workspace でオンラインとオフラインのデータを組み合わせる柔軟性を提供します。任意の分析に使用する ID を指定し、Analysis Workspace でデータを調べることができます。Analytics Select、Prime および Ultimate のお客様は、これをアドオン製品として購入できます。
+* **Customer Journey Analytics** は Adobe Experience Platform を基に構築され、共通の顧客 ID に基づいて、Analysis Workspace でオンラインとオフラインのデータを組み合わせる柔軟性を提供します。 任意の分析に使用する ID を指定し、Analysis Workspace でデータを調べることができます。 Analytics Select、Prime および Ultimate のお客様は、これをアドオン製品として購入できます。
 
-* **クロスデバイス分析** は、従来の Adobe Analytics の機能強化で、訪問者に代替識別子を使用できるようになりました。この機能を使用すると、デバイス中心のビューからユーザー中心のビューに移動できます。クロスデバイス分析は、Analytics Ultimate のお客様が利用できます。
+* **クロスデバイス分析** は、従来の Adobe Analytics の機能強化で、訪問者に代替識別子を使用できるようになりました。 この機能を使用すると、デバイス中心のビューからユーザー中心のビューに移動できます。 クロスデバイス分析は、Analytics Ultimate のお客様が利用できます。
 
 ## サーバーサイドのデータ収集
 
 サーバーサイドの収集は、ブラウザーのメカニズムに依存して cookie を設定するのではなく、独自の識別子を提供する柔軟性を提供します。
 
-[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) または [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、[使用する Adobe Analytics ツール](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
+[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) または [Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) を使用して、Analytics サーバーサイドにデータを送信できます。 新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。 2 つの API の比較については、[使用する Adobe Analytics ツール](/help/analyze/get-started/which-analytics-tool.md)を参照してください。
 
 ## ファーストパーティデバイス ID（FPID）と Web SDK
 
-Adobe Experience Platform Web SDK を使用すると、アドビが生成した Experience Cloud ID（ECID）の代わりに、独自のデバイス識別子を設定および管理することを選択できます。これらは、ファーストパーティデバイス ID（FPID）と呼ばれます。詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ja)を参照してください。
+Adobe Experience Platform Web SDK を使用すると、アドビが生成した Experience Cloud ID（ECID）の代わりに、独自のデバイス識別子を設定および管理することを選択できます。 これらは、ファーストパーティデバイス ID（FPID）と呼ばれます。 詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ja)を参照してください。
 
 ## 詳細情報
 

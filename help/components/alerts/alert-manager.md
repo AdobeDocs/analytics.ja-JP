@@ -1,24 +1,29 @@
 ---
-description: アラートの管理方法について説明します。
+description: アラートの管理方法を説明します。
 title: アラートの管理
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/ch83E4k1pJ3CpnAn54buMAqFLAHCVMBC8HZkHvGRlmU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 599
 ht-degree: 21%
 
 ---
 
-
 # アラートの管理
 
 
-一元的な [!UICONTROL &#x200B; アラート &#x200B;] 管理インターフェイスから、アラートのフィルタリング、タグ付け、削除、名前変更、コピー、有効化、無効化、更新および書き出しを行うことができます。 アラートを管理するには：
+中央の[!UICONTROL  アラート ]管理インターフェイスからアラートをフィルタリング、タグ付け、削除、名前の変更、コピー、有効、無効、更新、エクスポートできます。 アラートを管理するには：
 
-* メインインターフェイスで **[!UICONTROL コンポーネント]** を選択し、「**[!UICONTROL アラート]**」を選択します。
+* メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL アラート]**」を選択します。
 
-アラートマネージャーは、[&#x200B; セグメントマネージャー &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md) および [&#x200B; 計算指標マネージャー &#x200B;](/help/components/calculated-metrics/workflow/cm-manager.md) のような構造になっています。
+アラートマネージャーは、[ セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)と[計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md)のような構造になっています。
 
 
 ## アラートマネージャー
@@ -29,18 +34,18 @@ ht-degree: 21%
 
 ### アラートリスト
 
-アラートリスト ➊ は、所有するすべてのアラート、すべてのプロジェクトを対象としたアラート、自分と共有されているアラートが表示されます。 リストには、次の列があります。
+アラート リスト ➊には、所有しているすべてのアラート、すべてのプロジェクトに対してスコープ付けされたアラート、および共有されたアラートが表示されます。 リストには、次の列があります。
 
 | 列 | 説明 |
 |---|---|
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | アラートを ![&#x200B; 星 &#x200B;](/help/assets/icons/Star.svg) または ![&#x200B; 星アウトライン &#x200B;](/help/assets/icons/StarOutline.svg) に優先するかどうかを選択します。 |
-| **[!UICONTROL タイトルと説明]** | アラートを編集するには、タイトルリンクを選択して [&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を開きます。 |
-| **[!UICONTROL タイプ]** | アラートのタイプ（Adobe Analytics データアラートまたはサーバーコールの使用状況アラート）。 |
-| **[!UICONTROL 有効]** | このアラートは有効または無効です。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | ![Star](/help/assets/icons/Star.svg)を優先するか、![StarOutline](/help/assets/icons/StarOutline.svg)をアラートから除外するかを選択します。 |
+| **[!UICONTROL タイトルと説明]** | アラートを編集するには、タイトルリンクを選択します。これにより、[ アラートビルダー](alert-builder.md#alert-builder)が開きます。 |
+| **[!UICONTROL タイプ]** | アラートの種類：Adobe Analytics データアラートまたはServer呼び出し使用状況アラート。 |
+| **[!UICONTROL 有効]** | アラートは有効または無効です。 |
 | **[!UICONTROL レポートスイート]** | このアラートが適用されるレポートスイート。 |
-| **[!UICONTROL 所有者]** | アラートの所有者。 管理者以外のユーザーには、自分が所有しているアラートまたは自分と共有されているアラートのみが表示されます。 |
+| **[!UICONTROL 所有者]** | アラートの所有者。 管理者以外のユーザーには、自分が所有するアラートまたは自分と共有されているアラートのみが表示されます。 |
 | **[!UICONTROL タグ]** | このアラートのタグ。 |
-| **[!UICONTROL 有効期限]** | アラートの有効期限が切れるように設定された日時。 |
+| **[!UICONTROL 有効期限]** | アラートの有効期限が切れるように設定されている日時。 |
 | **[!UICONTROL 変更日時]** | アラートが最後に変更された日時。 |
 
 <!-- 
@@ -53,33 +58,33 @@ When "Last used" column is added, add this information as the description: Shows
 
 ### アクションバー
 
-アクションバーの ➋ を使用して、アラートに対するアクションを実行できます。 アクションバーには、次のアクションが含まれます。
+アクション バー➋を使用して、アラートに対してアクションを実行できます。 アクションバーには、次のアクションが含まれます。
 
 | アイコン | アクション | 説明 |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を使用して、別のアラートを追加します。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [ アラートビルダー](alert-builder.md#alert-builder)を使用して、別のアラートを追加します。 |
 | ![検索](/help/assets/icons/Search.svg) | [!UICONTROL *タイトルで検索*] | リストでアラートが選択されていない場合は、この検索フィールドを使用してアラートを検索します。 |
-| ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択したアラートにタグを付けます。 **[!UICONTROL タグアラート]** ダイアログで、選択したアラートのタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択したアラートのタグを保存します。 |
+| ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択したアラートにタグを付けます。 **[!UICONTROL タグのアラート]** ダイアログで、選択したアラートのタグを選択または選択解除します。 選択したアラートのタグを保存するには、**[!UICONTROL 保存]**&#x200B;を選択します。 |
 | ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択したアラートを削除します。 確認メッセージが表示されます。 |
-| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した 1 つのアラートの名前を変更します。 選択した場合、アラートの名前をインラインで変更できます。 |
-| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択したアラートをコピーします。 同じ名前とサフィックスの `(Copy)` を持つ新しいアラートが作成されます。 |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Enable]** または **[!UICONTROL Disable]** | 選択したアラートを有効または無効にします。 |
-| ![更新](/help/assets/icons/Refresh.svg) | **[!UICONTROL 更新]** | アラートの有効期限日を更新します。有効期限は、元の有効期限に関係なく、このオプションを選択した日から 1 年間延長されます。 |
-| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | アラートを `Alerts List.csv` ファイルに書き出します。 |
+| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した1つのアラートの名前を変更します。 選択すると、アラートの名前をインラインで変更できます。 |
+| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択したアラートをコピーします。 新しいアラートが、同じ名前とサフィックス `(Copy)`で作成されます。 |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 有効]**&#x200B;または&#x200B;**[!UICONTROL 無効]** | 選択したアラートを有効または無効にします。 |
+| ![更新](/help/assets/icons/Refresh.svg) | **[!UICONTROL 更新]** | アラートの有効期限日を更新します。 有効期限は、元の有効期限に関係なく、このオプションを選択した日から1年間延長されます。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | アラートを`Alerts List.csv` ファイルにエクスポートします。 |
 
 
 ### アクティブなフィルターバー
 
-フィルターバー ➌ は、フィルターパネルからアラートのリスト（ある場合）に適用されたアクティブなフィルターが表示されます。 ![CrossSize75](/help/assets/icons/CrossSize75.svg) を使用すると、フィルターをすばやく削除できます。複数のフィルターを指定した場合は、「**[!UICONTROL すべて削除]**」を使用すると、すべてのフィルターを削除できます。
+フィルターバー➌には、フィルターパネルからアラートのリスト（存在する場合）に適用されたアクティブなフィルターが表示されます。 ![CrossSize75](/help/assets/icons/CrossSize75.svg) を使用すると、フィルターをすばやく削除できます。 複数のフィルターを指定した場合は、「**[!UICONTROL すべて削除]**」を使用すると、すべてのフィルターを削除できます。
 
 
 ### フィルターパネル
 
-アラートのリストは、左のパネル ![&#x200B; ージの &#x200B;](/help/assets/icons/Filter.svg) フィルター **&#x200B;**&#x200B;フィルター ➍ を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターに従うアラートの数が表示されます。
+![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルター]**&#x200B;左側のパネル ➍を使用して、アラートのリストをフィルターできます。 フィルターパネルには、フィルターのタイプと、特定のフィルターを適用するアラートの数が表示されます。
 
 
-1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。アラート リスト用にスペースが必要な場合は、もう一度 ![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg) を選択してパネルを閉じることができます。
-1. 使用可能ないずれかのフィルターセクションからフィルターを選択します。
+1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。 アラートリストの空き容量が必要な場合は、![ フィルター](/help/assets/icons/Filter.svg)をもう一度選択してパネルを閉じることができます。
+1. 使用可能なフィルターセクションからフィルターを選択します。
 
 
 #### タグフィルターセクション
@@ -113,17 +118,17 @@ When "Last used" column is added, add this information as the description: Shows
 
 
 
-## アラートの編集
+## アラートを編集
 
-アラートを編集できます
+アラートは
 
-* [[!UICONTROL &#x200B; アラート &#x200B;] リスト &#x200B;](#alerts-list) で、アラートのタイトルを選択します。
+* [[!UICONTROL  アラート ] リスト ](#alerts-list)で、アラートのタイトルを選択します。
 
-アラートを編集するには、[&#x200B; アラートビルダー &#x200B;](alert-builder.md#alert-builder) を使用します。
+[ アラートビルダー](alert-builder.md#alert-builder)を使用して、アラートを編集します。
 
 ## アラートのトラブルシューティング
 
-アラートの問題をトラブルシューティングする際には、Adobe サポートに JID （ジョブインスタンス ID）番号を伝えます。 JID 番号は、受信するアラートメール通知の下部にあります。
+アラートに関する問題のトラブルシューティングを行う場合は、JID （Job Instance ID）番号をAdobe サポートに提供します。 JID番号は、受信したアラートメール通知の下部にあります。
 
 ![アラートメール](assets/alerts-email.PNG)
 
