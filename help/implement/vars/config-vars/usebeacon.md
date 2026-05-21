@@ -5,10 +5,17 @@ feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/-drQZhKcoWzWfwcbFKms2xV2eunuNYIjkm4AWTmD-Pg
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 406
@@ -34,8 +41,8 @@ ht-degree: 60%
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL  ルール ]」タブに移動し、目的のルールをクリックします。
-1. [!UICONTROL  アクション ]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックして新しいアクションを追加します。
+1. 「[!UICONTROL &#x200B; ルール &#x200B;]」タブに移動し、目的のルールをクリックします。
+1. [!UICONTROL &#x200B; アクション &#x200B;]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックして新しいアクションを追加します。
 1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;に、[!UICONTROL Action Type]を&#x200B;**[!UICONTROL Send event]**&#x200B;に設定します
 1. 右側の「**[!UICONTROL ドキュメントがアンロードされます]**」チェックボックスをクリックします。
 

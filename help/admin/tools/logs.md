@@ -5,11 +5,25 @@ feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 role: Admin
 TQID: https://experienceleague.adobe.com/TsWKmf74-b1RhjP0CSGZatLrGN39xDylj9tbFZg5R-Y
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: c6a85389-fb1b-4b26-96ea-08f17fed0c9fid: e44bec7e-8653-4d5b-b53e-60b1ae7c3475id: e499b847-6dc4-408a-9f0b-70d35ce9b711id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+  - id: e44bec7e-8653-4d5b-b53e-60b1ae7c3475
+  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 595
@@ -29,7 +43,7 @@ ht-degree: 28%
 
 ## 使用状況とアクセスログ {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
-[!UICONTROL 使用状況とアクセス ログ ]を使用すると、レポートの使用状況をユーザーアカウントレベルで評価できます。 例えば、Analysis Workspaceで開く、作成、更新、共有解除、削除アクションを追跡します。 これにより、誰がどれくらいの頻度で Workspace を使用しているのかを調べられるようになりました。
+[!UICONTROL 使用状況とアクセス ログ &#x200B;]を使用すると、レポートの使用状況をユーザーアカウントレベルで評価できます。 例えば、Analysis Workspaceで開く、作成、更新、共有解除、削除アクションを追跡します。 これにより、誰がどれくらいの頻度で Workspace を使用しているのかを調べられるようになりました。
 
 | 要素 | 説明 |
 |---|---|
@@ -39,7 +53,7 @@ ht-degree: 28%
 | レポートスイート | 特定のレポートスイート IDでログをフィルタリングします。 |
 | イベントタイプ | イベントタイプでログをフィルタリングします。 ドロップダウンリストからイベントタイプを選択します。 以下のイベントタイプの完全なリストを参照してください。 |
 | イベント | イベントの説明の単語またはフレーズでログをフィルタリングします。 |
-| レポートのダウンロード | [!UICONTROL 使用状況とアクセス ログ ]の内容をタブ区切りファイルに書き出します。 |
+| レポートのダウンロード | [!UICONTROL 使用状況とアクセス ログ &#x200B;]の内容をタブ区切りファイルに書き出します。 |
 
 ### イベントタイプ
 
@@ -79,7 +93,7 @@ ht-degree: 28%
 
 レポートスイートの変更ログには、管理者以外のレポートスイートに対して行われた変更が表示されます。
 
-[!UICONTROL 管理ツール ]の外部からレポートスイートを変更できるツールには、次のものが含まれます。
+[!UICONTROL 管理ツール &#x200B;]の外部からレポートスイートを変更できるツールには、次のものが含まれます。
 
 * Web ブラウザーで行われた分類のアップロード（FTP経由で行われた分類のアップロードは、変更ログには含まれません）
 * 以前のバージョンで行われた変更。
@@ -92,4 +106,4 @@ ht-degree: 28%
 | ログイン | ユーザー名でログをフィルタリングします。 |
 | IP | IP アドレスでログをフィルタリングします。 |
 | イベント | イベントの説明の単語またはフレーズでログをフィルタリングします。 |
-| レポートのダウンロード | [!UICONTROL 使用状況とアクセス ログ ]の内容をタブ区切りファイルに書き出します。 |
+| レポートのダウンロード | [!UICONTROL 使用状況とアクセス ログ &#x200B;]の内容をタブ区切りファイルに書き出します。 |

@@ -4,11 +4,20 @@ description: 時刻を数値で表します。日付は関係ありません。
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 362
@@ -18,7 +27,7 @@ ht-degree: 82%
 
 # 時刻
 
-「時間」ディメンション [1}は、任意の日の時間をディメンション項目としてレポートします。 ](overview.md)例えば、1 月 1 日から 1 月 7 日にまたがるレポートがある場合、各日の最初の時刻は、同じディメンション項目にグループ化されます。 このレポートは、時刻別にレポートを分類するが、ディメンション項目として静的な日数を必要としない場合に役立ちます。 このディメンションは、選択した日付範囲でロールするので、予定レポートのディメンションとして特に役立ちます。
+「時間」ディメンション [1&rbrace;は、任意の日の時間をディメンション項目としてレポートします。 &#x200B;](overview.md)例えば、1 月 1 日から 1 月 7 日にまたがるレポートがある場合、各日の最初の時刻は、同じディメンション項目にグループ化されます。 このレポートは、時刻別にレポートを分類するが、ディメンション項目として静的な日数を必要としない場合に役立ちます。 このディメンションは、選択した日付範囲でロールするので、予定レポートのディメンションとして特に役立ちます。
 
 このディメンションは、訪問者のローカルタイムゾーンではなく、レポートスイートのタイムゾーンに基づいています。 例えば、レポートスイートが山岳部時間で、カリフォルニア州の訪問者が太平洋時間の午前10:00時にサイトを訪問した場合、`11:00 AM` ディメンション項目の下のヒットグループ。 ローカル訪問者の時間を記録するディメンションが必要な場合、 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) プラグインの使用をお勧めします。
 

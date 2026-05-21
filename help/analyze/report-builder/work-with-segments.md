@@ -7,9 +7,14 @@ type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
 TQID: https://experienceleague.adobe.com/oY3qEglLOmMH-VdZuq0190iQxG6FHUWBRUGTAI9LvMw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 641
@@ -35,7 +40,7 @@ ht-degree: 6%
 
    1. **[!UICONTROL テーブル]** ペインの特定の指標に対して![MoreSmall](/help/assets/icons/MoreSmall.svg)を選択し、**[!UICONTROL フィルター指標]**&#x200B;を選択します。
 
-      指標を表示する「![ セグメント」タブ。](./assets/filter-metric.png){zoomable="yes"}
+      指標を表示する「![&#x200B; セグメント」タブ。](./assets/filter-metric.png){zoomable="yes"}
 
    1. 「**[!UICONTROL セグメント]**」ドロップダウンメニューから1つ以上のセグメントを選択します。 セグメントは、**[!UICONTROL 適用されたセグメント]** リストに追加されます。
 
@@ -98,7 +103,7 @@ Report Builderは、置き換えを反映するためにセグメントのリス
 1. セグメントを定義するには、「**[!UICONTROL セグメント]**」タブを選択します。
 1. ![DataViewSelector](/help/assets/icons/DataViewSelector.svg)を選択します。
 
-   ![ セルからセグメントを選択](assets/select-segment-from-cell.png){zoomable="yes"}
+   ![&#x200B; セルからセグメントを選択](assets/select-segment-from-cell.png){zoomable="yes"}
 
 1. データブロックがセグメントを参照するセルを選択します。
 
@@ -108,7 +113,7 @@ Report Builderは、置き換えを反映するためにセグメントのリス
 
 1. 「**セグメント**」タブから、新しく作成した参照セルセグメントをデータブロックに追加します。
 
-   Sheet1!J1 （All Data） セグメントがテーブルに追加されたことを示す![ セグメント タブ。](assets/segment-from-cell-applied.png){zoomable="yes"}
+   Sheet1!J1 （All Data） セグメントがテーブルに追加されたことを示す![&#x200B; セグメント タブ。](assets/segment-from-cell-applied.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 完了]**」を選択します。
 
@@ -120,7 +125,7 @@ Report Builderは、置き換えを反映するためにセグメントのリス
 
 1. 「**[!UICONTROL クイック編集]**」メニューの「**[!UICONTROL セルからのセグメント]**」の下にあるリンクを選択します。
 
-   Sheet1!J1 （All Data） ](assets/select-segment-from-cell-in-sheet.png){zoomable="yes"}を示すセル リンクからの![ セグメント
+   Sheet1!J1 （All Data） ![&#128279;](assets/select-segment-from-cell-in-sheet.png){zoomable="yes"}を示すセル リンクからの セグメント
 
 1. ドロップダウンメニューからセグメントを選択します。
 

@@ -5,11 +5,17 @@ exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
 TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 546
@@ -49,8 +55,8 @@ ht-degree: 7%
 | --- | --- |
 | [カテゴリ](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [ マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [&#x200B; マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [製品](/help/components/dimensions/product.md) | `Product` |
 | [トラッキングコード](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [トランザクション ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -95,4 +101,4 @@ Dimension データにセミコロン （`;`）を含めることはできませ
 
 ## 次の手順
 
-[ ファイルのアップロード ](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。
+[&#x200B; ファイルのアップロード &#x200B;](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。

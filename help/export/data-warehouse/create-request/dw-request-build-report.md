@@ -4,9 +4,13 @@ title: Data Warehouse リクエストのレポートの作成
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 TQID: https://experienceleague.adobe.com/9ZPqEsJ8Dg-raXva9DfJxPHde3Teb3vFf1IeEcHTC3o
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 233
@@ -28,7 +32,7 @@ Data Warehouse リクエストのレポートを作成するには：
 
 1. 新規Data Warehouse リクエストページで、「[!UICONTROL **レポートを作成**]」タブを選択します。
 
-   ![ レポート タブを作成](assets/build-report.png)
+   ![&#x200B; レポート タブを作成](assets/build-report.png)
 
 1. 左上隅で、Data Warehouse レポートの作成時に使用するレポートスイートを選択します。
 

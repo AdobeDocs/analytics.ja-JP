@@ -4,10 +4,15 @@ title: 計算指標のタグ付け
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
 TQID: https://experienceleague.adobe.com/GcufWZx6B2e-vv8MFhMsaW34nqfr2XdEK1bQ931HzRk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 170
@@ -23,10 +28,10 @@ ht-degree: 4%
 1つ以上の計算指標にタグを付けるには：
 
 1. [計算指標マネージャー](cm-manager.md)で、タグ付けする1つ以上の計算指標を選択します。
-1. アクションバーから、![ ラベル ](/help/assets/icons/Labels.svg) **[!UICONTROL タグ]**&#x200B;を選択します。
+1. アクションバーから、![&#x200B; ラベル &#x200B;](/help/assets/icons/Labels.svg) **[!UICONTROL タグ]**&#x200B;を選択します。
 1. **[!UICONTROL 計算指標のタグ付け]** ダイアログで
 
-   ![計算指標のタグ付けダイアログ ](assets/tag-calculated-metric-dialog.png)
+   ![計算指標のタグ付けダイアログ &#x200B;](assets/tag-calculated-metric-dialog.png)
 
    1. （オプション）タグのリストを検索して制限するには、![検索](/help/assets/icons/Search.svg)を使用します。
 
@@ -37,7 +42,7 @@ ht-degree: 4%
 
 1. 計算指標のタグを保存するには、**[!UICONTROL 保存]**&#x200B;を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-保存すると、タグは、[計算指標ビルダー](cm-tagging.md)で選択した計算指標の[!UICONTROL  タグ ] フィールドに一覧表示されます。
+保存すると、タグは、[計算指標ビルダー](cm-tagging.md)で選択した計算指標の[!UICONTROL &#x200B; タグ &#x200B;] フィールドに一覧表示されます。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.

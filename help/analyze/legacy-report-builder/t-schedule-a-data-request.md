@@ -6,11 +6,20 @@ feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 TQID: https://experienceleague.adobe.com/CPg94k8G-tLWRvgdYHLz1UP2p1gJ7ad1g39rFtMWAG4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 972
@@ -48,7 +57,7 @@ ht-degree: 76%
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
 1. 「**[!UICONTROL スケジュール済みレポート]**」タブで、**[!UICONTROL 新規]**&#x200B;をクリックします。 「基本スケジュール設定」ウィザードには、スケジュール済みレポートの定義に使用するオプションが表示されます。
 
-   基本的なスケジュール設定ウィザードを示す![ スクリーンショット。](assets/simple-schedule-wizard.png)
+   基本的なスケジュール設定ウィザードを示す![&#x200B; スクリーンショット。](assets/simple-schedule-wizard.png)
 
 1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 

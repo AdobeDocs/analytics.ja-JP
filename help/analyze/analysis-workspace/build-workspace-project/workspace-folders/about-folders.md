@@ -5,11 +5,18 @@ title: フォルダーの概要
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 TQID: https://experienceleague.adobe.com/CcYc0ESlXGw0wbjrTS4T0--BmK5GC3CJ2nEokQnkmqI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 421
@@ -21,7 +28,7 @@ ht-degree: 95%
 
 Workspace のフォルダーを使用すると、プロジェクトの整理および分類に役立ちます。 フォルダー機能を使用すると、フォルダーやサブフォルダーを作成してプロジェクトを管理できます。
 
-Adobe Analyticsのフォルダーは、[ フォルダーとプロジェクトを表示](../freeform-overview.md#show-selector)に選択した場合、Workspace ランディングページで利用できます。
+Adobe Analyticsのフォルダーは、[&#x200B; フォルダーとプロジェクトを表示](../freeform-overview.md#show-selector)に選択した場合、Workspace ランディングページで利用できます。
 
 Workspace には、会社フォルダーと個人用フォルダーの 2 種類のフォルダーがあります。 共有された会社フォルダーを使用すると、管理者は、コンテンツを作成してすべての Workspace ユーザーと共有できます。
 

@@ -5,9 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/4NlOgI1maQuMHenSZHUnc7ESvlbst09v4CmOMlBbfEE
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 279
@@ -27,7 +33,7 @@ Web SDKでは、動的変数の書式設定は使用されません。 代わり
 
 スキーマに準拠せずにAdobe Analyticsに直接データを送信する場合、次の変数が使用されます。
 
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Adobe Analytics拡張機能を使用した動的変数のプレフィックス
 

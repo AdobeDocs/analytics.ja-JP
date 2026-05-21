@@ -5,10 +5,19 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 898
@@ -85,7 +94,7 @@ ht-degree: 30%
 
 * ビジュアライゼーションのタッチポイントにカーソルを合わせ、**[!UICONTROL クリックして分析]**&#x200B;を選択します。
 
-  ![ カーソルを合わせるとコンテキストメニューにアクセス ](assets/fallout-tooltip-analyze.png)
+  ![&#x200B; カーソルを合わせるとコンテキストメニューにアクセス &#x200B;](assets/fallout-tooltip-analyze.png)
 
 * ビジュアライゼーションのタッチポイントを右クリックします。
 
@@ -100,13 +109,13 @@ ht-degree: 30%
 | **[!UICONTROL トレンドタッチポイント]** | 折れ線グラフのタッチポイントのトレンドデータを、一部の事前に作成された異常値検出データと共に表示します。 |
 | **[!UICONTROL トレンドタッチポイント（%）]** | 合計フォールアウト数の割合のトレンドを追跡します。 |
 | **[!UICONTROL すべてのタッチポイント（%）のトレンドを追跡]** | フォールアウト内のすべてのタッチポイントの割合（含まれる場合は&#x200B;**[!UICONTROL すべての訪問者]**&#x200B;を除く）を同じグラフでトレンド表示します。 |
-| **[!UICONTROL このタッチポイントでの分類フォールスルー]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL Fallthrough:All Visitors > Pageというラベルが付いたテーブルは、ディメンションとして**[!UICONTROL  Page ]**を含み、[ プロジェクトのみのクイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された**[!UICONTROL  Unique Visitors ]**を含み、**[!UICONTROL  Fallthrough:All Visitors > Pageは、指標としてhome ]**のいずれかに相当します。]**&#x200B;セグメントを調べて、フォールスルーセグメントがどのように決定されるかを理解します。 |
-| **[!UICONTROL このタッチポイントでの分類フォールアウト]** | 選択したステップの直後にfunnelを通過しなかった訪問者を表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがhome]**&#x200B;のいずれかと等しく、ディメンションとして&#x200B;**[!UICONTROL Page]**&#x200B;を含み、[ プロジェクトのみのクイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された&#x200B;**[!UICONTROL ユニーク訪問者]**&#x200B;を含むテーブル **[!UICONTROL フォールスルー：すべての訪問者/ページがhome]** セグメントのいずれかと指標として等しい。 セグメントを調べて、フォールアウトセグメントがどのように決定されるかを理解します。 |
+| **[!UICONTROL このタッチポイントでの分類フォールスルー]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**Fallthrough:All Visitors > Pageというラベルが付いたテーブルは、ディメンションとして**&#x200B;[!UICONTROL &#x200B; Page &#x200B;]&#x200B;**を含み、[&#x200B; プロジェクトのみのクイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された**&#x200B;[!UICONTROL &#x200B; Unique Visitors &#x200B;]&#x200B;**を含み、**&#x200B;[!UICONTROL &#x200B; Fallthrough:All Visitors > Pageは、指標としてhome &#x200B;]&#x200B;**のいずれかに相当します。**&#x200B;セグメントを調べて、フォールスルーセグメントがどのように決定されるかを理解します。 |
+| **[!UICONTROL このタッチポイントでの分類フォールアウト]** | 選択したステップの直後にfunnelを通過しなかった訪問者を表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがhome]**&#x200B;のいずれかと等しく、ディメンションとして&#x200B;**[!UICONTROL Page]**&#x200B;を含み、[&#x200B; プロジェクトのみのクイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された&#x200B;**[!UICONTROL ユニーク訪問者]**&#x200B;を含むテーブル **[!UICONTROL フォールスルー：すべての訪問者/ページがhome]** セグメントのいずれかと指標として等しい。 セグメントを調べて、フォールアウトセグメントがどのように決定されるかを理解します。 |
 | **[!UICONTROL タッチポイントからセグメントを作成]** | 選択したタッチポイントから新しいセグメントを作成します。 |
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

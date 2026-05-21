@@ -4,10 +4,15 @@ title: 演算子
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1213
@@ -17,7 +22,7 @@ ht-degree: 32%
 
 # セグメントの比較演算子
 
-セグメントビルダーでは、選択した演算子を使用して値を比較および制約できます。 演算子には、[標準](#standard-operators)、[Data Warehouse](#data-warehouse-operators)、[個別カウント ](#distinct-count-operators)の3つのカテゴリがあります。
+セグメントビルダーでは、選択した演算子を使用して値を比較および制約できます。 演算子には、[標準](#standard-operators)、[Data Warehouse](#data-warehouse-operators)、[個別カウント &#x200B;](#distinct-count-operators)の3つのカテゴリがあります。
 
 選択した演算子に応じて、次の操作を行います。
 
@@ -27,7 +32,7 @@ ht-degree: 32%
 
 使用可能な値を検証する演算子（**[!UICONTROL 等しい]**&#x200B;など）の値を入力し、その値がコンポーネントで使用可能な値と一致しない場合、![AlertRed](/help/assets/icons/AlertRed.svg) アイコンが表示されます。 ドロップダウンメニューから値を選択するか、**[!UICONTROL _Enter_]**&#x200B;を押して値を入力します。
 
-![ セグメントが](assets/segment-operator-equals.png)に等しい
+![&#x200B; セグメントが](assets/segment-operator-equals.png)に等しい
 
 ## ワイルドカード
 
@@ -53,11 +58,11 @@ ht-degree: 32%
 | **[!UICONTROL には]**&#x200B;のいずれかが含まれます | サブストリングと比較して、結合または独立して識別された複数の値を含む項目を返します。 例えば、この演算子を使用して`Search Results`と入力すると、*検索結果*、*検索結果*、*検索*、*結果*&#x200B;と一致します。 これは、*検索*&#x200B;または&#x200B;*結果*&#x200B;が一緒に、または個別に見つかった場合に一致します。 この演算子の入力フィールドは、スペースで区切られます（100 語）。 |
 | **[!UICONTROL には]**&#x200B;のいずれも含まれていません | サブストリングに基づいて項目を識別し、これらのサブストリングを含まない値を返します。 複数の結合値または値を個別に識別できます。 例えば、**[!UICONTROL ページ名]** ディメンションに`Search Results`と入力すると、*検索結果* s、*検索結果*、*検索*、*結果*&#x200B;に一致し、*検索*&#x200B;または&#x200B;*結果*&#x200B;が同時にまたは個別に検索されます。 次に、これらのサブ文字列を含む項目が除外されます。 この演算子の入力フィールドは、スペースで区切られます（100 語）。 |
 | **[!UICONTROL が]**&#x200B;で始まります | 入力された文字列値で始まる項目を返します。 |
-| **[!UICONTROL が]**&#x200B;で始まりません | 入力された文字列値で始まらないすべての項目を返します。 これは、]**演算子で始まる**[!UICONTROL &#x200B;の逆です。 |
+| **[!UICONTROL が]**&#x200B;で始まりません | 入力された文字列値で始まらないすべての項目を返します。 これは、**演算子で始まる**&#x200B;の逆です。 |
 | **[!UICONTROL は]**&#x200B;で終わります | 文字列値で終わる項目を返します。 |
 | **[!UICONTROL が]**&#x200B;で終わりません | 入力された文字列値で終わらないすべての項目を返します。 これは&#x200B;**[!UICONTROL の逆で、]**&#x200B;演算子で終わります。 |
-| **[!UICONTROL 一致]** | 指定された数字または文字列の値に基づいて完全に一致する項目を返します。 **[!UICONTROL matches]**&#x200B;句では、Adobe AnalyticsとCustomer Journey Analyticsで大文字と小文字が区別されます。 **メモ**: [ ワイルドカード ](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用します。 「グロビング」の例：<ul><li>`a*e` は、`ae`、`abcde`、`adobe`、`a whole sentence` と一致します。</li><li>`adob*` は、`adobe`、`adobe analytics`、`adobo recipe` と一致します。</li><li>`*dobe` は、`dobe`、`adobe`、`cute little dobe` と一致します。</li></ul> |
-| **[!UICONTROL が]**&#x200B;と一致しません | 入力された値の完全一致を含まない項目をすべて返します。 注意：[ ワイルドカード ](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用します。 |
+| **[!UICONTROL 一致]** | 指定された数字または文字列の値に基づいて完全に一致する項目を返します。 **[!UICONTROL matches]**&#x200B;句では、Adobe AnalyticsとCustomer Journey Analyticsで大文字と小文字が区別されます。 **メモ**: [&#x200B; ワイルドカード &#x200B;](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用します。 「グロビング」の例：<ul><li>`a*e` は、`ae`、`abcde`、`adobe`、`a whole sentence` と一致します。</li><li>`adob*` は、`adobe`、`adobe analytics`、`adobo recipe` と一致します。</li><li>`*dobe` は、`dobe`、`adobe`、`cute little dobe` と一致します。</li></ul> |
+| **[!UICONTROL が]**&#x200B;と一致しません | 入力された値の完全一致を含まない項目をすべて返します。 注意：[&#x200B; ワイルドカード &#x200B;](#wildcards) （グロビング）機能を使用する場合は、この演算子を使用します。 |
 | **[!UICONTROL 存在]** | 存在する項目の数を返します。 例えば、**[!UICONTROL exist]**&#x200B;演算子を使用して&#x200B;**[!UICONTROL Pages Not Found]** ディメンションを評価すると、存在するエラーページの数が返されます。 |
 | **[!UICONTROL が存在しません]** | 存在しないすべての項目を返します。 例えば、**[!UICONTROL が存在しない]**&#x200B;演算子を使用して&#x200B;**[!UICONTROL ページが見つかりません]** ディメンションを評価する場合、このエラーページが存在しないページの数が返されます。 |
 

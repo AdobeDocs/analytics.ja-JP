@@ -5,11 +5,18 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -49,7 +56,7 @@ ht-degree: 1%
 * **その他のアクション**：条件が存在する場合、このセクションは「[!UICONTROL その他の場合は次の]」と表示されます。 上記の条件が`false`と評価される場合、このセクションに記載されているすべてのアクションが実行される可能性があります。 このセクションは、値の上書き、値の削除、イベントの設定などの機能を含め、上記と同じルールアクションに従います。
 * **理由**: ルールをリクエストしたレコードとその依存関係を示します。 処理ルールロジックには影響しませんが、ルールが存在する理由を追跡するのに役立ちます。
 
-このインターフェイスで使用できる変数の包括的なリストについては、[処理ルール ](pr-variables.md)で使用できるディメンションと指標を参照してください。
+このインターフェイスで使用できる変数の包括的なリストについては、[処理ルール &#x200B;](pr-variables.md)で使用できるディメンションと指標を参照してください。
 
 * 「読み取り」を許可する変数は、条件で使用できます。
 * 「書き込み」を許可する変数は、アクションで使用できます。

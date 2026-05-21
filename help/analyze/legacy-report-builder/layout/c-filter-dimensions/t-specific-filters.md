@@ -6,9 +6,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 TQID: https://experienceleague.adobe.com/yNIeTJwwWtjXkbi47lX1Ve-Rbz6lF1PazD4YxxXa0Ac
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 336
@@ -28,13 +33,13 @@ ht-degree: 46%
 
 1. リクエストを作成または編集して、[!UICONTROL リクエストウィザード：ステップ 2] に進みます。
 
-   ![ フィルターのオプション（アプリケーション、ユーザー、プロジェクト）を示すスクリーンショット。](/help/admin/tools/assets/filter.png)
+   ![&#x200B; フィルターのオプション（アプリケーション、ユーザー、プロジェクト）を示すスクリーンショット。](/help/admin/tools/assets/filter.png)
 
 1. [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの横にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 
 1. **[!UICONTROL Specific]**&#x200B;を有効にします。
 
-   特定のオプションが選択されたページを選択ダイアログの![ スクリーンショット。](assets/choose_page_specific01.png)
+   特定のオプションが選択されたページを選択ダイアログの![&#x200B; スクリーンショット。](assets/choose_page_specific01.png)
 
 1. 次のいずれかの特定のオプションを有効にします。
 

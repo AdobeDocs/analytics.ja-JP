@@ -5,10 +5,20 @@ title: 場所マネージャー
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
 TQID: https://experienceleague.adobe.com/h1mgdT-o4pJHt8qk3WlIovLoOubAygCh36497nYYG10
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1495
@@ -20,10 +30,10 @@ ht-degree: 1%
 
 場所マネージャーを使用すると、アカウントと場所を表示、作成、編集、または削除できます。 これらは、次のいずれかの目的に使用できます。
 
-* [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
+* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md)の使用時にファイルをエクスポートする
-* [分類セット ](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
+* [分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
 
 ## 場所の表示、フィルター、検索
 
@@ -47,7 +57,7 @@ ht-degree: 1%
 
 ## 場所マネージャーでの列の設定
 
-次の列は、場所マネージャーで使用できます。 テーブルに表示される列をカスタマイズするには、**テーブルをカスタマイズ** アイコン ![ テーブルをカスタマイズ アイコン ](assets/customize-table-icon.png)を選択します。
+次の列は、場所マネージャーで使用できます。 テーブルに表示される列をカスタマイズするには、**テーブルをカスタマイズ** アイコン ![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](assets/customize-table-icon.png)を選択します。
 
 * **[!UICONTROL 場所の名前]**：場所の名前。 場所の名前の横にある3点メニューを選択して、[場所を編集](/help/components/locations/configure-import-locations.md)するか、場所を削除します。
 * **[!UICONTROL 場所の種類]**：場所に関連付けられているアカウントの種類。
@@ -63,7 +73,7 @@ ht-degree: 1%
 
 ### 場所の作成
 
-場所の作成方法について詳しくは、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。
+場所の作成方法について詳しくは、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。
 
 <!-- Do I need to add some steps here about how to create a location and then assign that location to be used with DF, DW, or Classifications sets? Need to hear back from Ron and team whether we are including this functionality -->
 
@@ -71,7 +81,7 @@ ht-degree: 1%
 
 場所は、作成したユーザーまたはシステム管理者のみが編集できます。
 
-場所の編集方法について詳しくは、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。
+場所の編集方法について詳しくは、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を参照してください。
 
 ### 場所の削除
 
@@ -79,7 +89,7 @@ ht-degree: 1%
 >
 >場所が削除されると、削除された場所に関連付けられているデータフィードファイル、Data Warehouse レポート、または分類セットスキーマは、次回の使用時に失敗します。
 >
->場所を削除する場合、機能する場所を使用するには、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse レポート ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)および[分類セット スキーマ ](/help/components/classifications/sets/manage/schema.md)を編集する必要があります。
+>場所を削除する場合、機能する場所を使用するには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse レポート &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)および[分類セット スキーマ &#x200B;](/help/components/classifications/sets/manage/schema.md)を編集する必要があります。
 
 場所は、その場所を作成したユーザーまたはシステム管理者のみが削除できます。
 
@@ -97,17 +107,17 @@ Adobe AnalyticsのLocations Managerで場所を削除するには：
 
 ### アカウントの作成
 
-アカウントの作成方法について詳しくは、[ クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。
+アカウントの作成方法について詳しくは、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。
 
 ### アカウントの編集
 
 アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。
 
-アカウントの編集方法について詳しくは、[ クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。
+アカウントの編集方法について詳しくは、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。
 
 ### アカウントキーの表示
 
-アカウントを作成すると、そのアカウントに関連付けられているアカウントキーを表示できます。 この情報は、最初に[ アカウントを設定したときにクラウドプロバイダーでアカウントの設定を完了しなかった場合に表示する必要がある場合があります](/help/components/locations/configure-import-accounts.md)。
+アカウントを作成すると、そのアカウントに関連付けられているアカウントキーを表示できます。 この情報は、最初に[&#x200B; アカウントを設定したときにクラウドプロバイダーでアカウントの設定を完了しなかった場合に表示する必要がある場合があります](/help/components/locations/configure-import-accounts.md)。
 
 書き出しアカウントに関連付けられているキーを表示するには：
 
@@ -137,13 +147,13 @@ Adobe AnalyticsのLocations Managerで場所を削除するには：
 
 システム管理者は、ユーザーによるアカウントと場所の作成を制限したり、ユーザーが作成および使用できるアカウントの種類を制限したりできます。
 
-![管理者設定タブ ](assets/locations-admin-settings.png)
+![管理者設定タブ &#x200B;](assets/locations-admin-settings.png)
 
 ### ユーザーがアカウントを作成および編集できるかどうかを設定します
 
 デフォルトでは、組織内のすべてのユーザーは、Adobe Analytics環境で作成したアカウントを作成および編集できます（[configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md)を参照）。
 
-アカウントの作成をユーザーに制限できます。 この操作を行うと、ユーザーは既に作成したアカウントを引き続き使用できますが、編集することはできません。 [ アカウントの削除](#delete-an-account)の説明に従って、ユーザーが作成したアカウントを削除できます。
+アカウントの作成をユーザーに制限できます。 この操作を行うと、ユーザーは既に作成したアカウントを引き続き使用できますが、編集することはできません。 [&#x200B; アカウントの削除](#delete-an-account)の説明に従って、ユーザーが作成したアカウントを削除できます。
 
 アカウントの作成と編集を全ユーザーに制限するには、次の手順を実行します。
 
@@ -153,11 +163,11 @@ Adobe AnalyticsのLocations Managerで場所を削除するには：
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. （オプション） [ アカウントの削除](#delete-an-account)で説明しているように、ユーザーが作成したアカウントのうち、ユーザーが使用しないアカウントを削除します。
+1. （オプション） [&#x200B; アカウントの削除](#delete-an-account)で説明しているように、ユーザーが作成したアカウントのうち、ユーザーが使用しないアカウントを削除します。
 
 ### ユーザーが場所を作成および編集できるかどうかを設定します
 
-デフォルトでは、組織内のすべてのユーザーは、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、Adobe Analytics環境で作成した場所を作成および編集できます。
+デフォルトでは、組織内のすべてのユーザーは、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、Adobe Analytics環境で作成した場所を作成および編集できます。
 
 場所の作成をユーザーに制限できます。 この操作を行うと、ユーザーは作成済みの場所を引き続き使用できますが、編集することはできません。 [場所の削除](#delete-a-location)の説明に従って、ユーザーが作成した場所を削除できます。
 
@@ -177,7 +187,7 @@ Adobe AnalyticsのLocations Managerで場所を削除するには：
 
 * [新規アカウントの作成時](/help/components/locations/configure-import-accounts.md)。
 
-* [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用してファイルを書き出す場合、レポートを[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用して書き出す場合、または[分類セット ](/help/components/classifications/sets/overview.md)を使用してスキーマを読み込む場合に使用するアカウントを選択します。
+* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用してファイルを書き出す場合、レポートを[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用して書き出す場合、または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用してスキーマを読み込む場合に使用するアカウントを選択します。
 
 この節で説明するようにアカウントタイプを制限すると、制限するアカウントタイプのアカウントはユーザーには表示されなくなります。 つまり、そのタイプの新しいアカウントは作成できず、そのタイプの既存のアカウントは、データフィード、Data Warehouse、または分類セットの作成時に使用できません。
 
@@ -189,15 +199,15 @@ Adobe AnalyticsのLocations Managerで場所を削除するには：
 
 スケジュールが、制限するタイプのアカウントにデータを送信するように既に設定されている場合、アカウントタイプを制限した後もスケジュールは実行され続け、データは引き続きアカウントに送信されます。  例えば、データフィードが、制限したアカウントタイプにデータを送信するようにスケジュールされている場合、スケジュールは引き続き実行されます。
 
-特定のタイプのアカウントがスケジュールされた書き出しで使用されないように確認する必要がある場合は、[ アカウントタイプを制限](#limit-the-account-types-that-are-available-to-users)する前にアカウントを削除できます。
+特定のタイプのアカウントがスケジュールされた書き出しで使用されないように確認する必要がある場合は、[&#x200B; アカウントタイプを制限](#limit-the-account-types-that-are-available-to-users)する前にアカウントを削除できます。
 
 アカウントを削除するには：
 
 1. スケジュールされた書き出しに使用されている、制限するアカウントタイプのアカウントを探します。
 
-1. 「[ アカウントを削除](#delete-an-account)」の説明に従って、アカウントを削除します。
+1. 「[&#x200B; アカウントを削除](#delete-an-account)」の説明に従って、アカウントを削除します。
 
-1. 次のセクションに進みます。[ ユーザーが利用できるアカウントタイプを制限します](#limit-the-account-types-that-are-available-to-users)。
+1. 次のセクションに進みます。[&#x200B; ユーザーが利用できるアカウントタイプを制限します](#limit-the-account-types-that-are-available-to-users)。
 
 #### ユーザーが利用できるアカウントタイプを制限する
 

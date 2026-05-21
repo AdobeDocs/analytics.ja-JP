@@ -5,9 +5,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 598
@@ -36,7 +42,7 @@ ht-degree: 13%
 1. Excel で 1 つ以上のリクエストを選択し、右クリックして「**[!UICONTROL 指標を編集]**」を選択します。 （または、**[!UICONTROL 管理]**／**[!UICONTROL 複数を編集]**／`<choose metric>`／**[!UICONTROL グループの編集]**&#x200B;を選択して、変更するリクエストのグループを選択します。）
 1. 「[!UICONTROL 指標を追加]」を選択して、追加する指標を選択します。
 
-   「リクエストを編集、指標を追加」オプションが選択されていることを示す![ スクリーンショット。](assets/add_metric.png)
+   「リクエストを編集、指標を追加」オプションが選択されていることを示す![&#x200B; スクリーンショット。](assets/add_metric.png)
 
 1. 実際のデータを確認するには、リクエストを更新します。 オフラインデータは、データを更新するまで表示されます。
 
@@ -59,7 +65,7 @@ ht-degree: 13%
 
 1. 「**[!UICONTROL 指標を置換]**」を選択します。
 
-   「指標を置換」が選択されたグループ編集画面の![ スクリーンショット。](assets/replace_metric.png)
+   「指標を置換」が選択されたグループ編集画面の![&#x200B; スクリーンショット。](assets/replace_metric.png)
 
 1. 置換する指標と置換指標を選択します。
 1. リクエストを更新します。 オフラインデータは、データを更新するまで表示されます。
@@ -77,7 +83,7 @@ ht-degree: 13%
 
 1. 「**[!UICONTROL 指標を削除]**」を選択します。
 
-   「グループを編集」および「指標を削除」オプションが選択されていることを示す![ スクリーンショット。](assets/remove_metric.png)
+   「グループを編集」および「指標を削除」オプションが選択されていることを示す![&#x200B; スクリーンショット。](assets/remove_metric.png)
 
 1. リクエストから削除する1つ以上の指標を選択します。
 1. リクエストを更新します。 更新するまで、オフラインデータが表示されます。

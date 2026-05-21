@@ -6,9 +6,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 TQID: https://experienceleague.adobe.com/s6Q9D3KoMLw0-95kydXM0IyO-NjaSNF6hKcHK25KMH0
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 281
@@ -28,7 +33,7 @@ ht-degree: 12%
 
 次の例は、**[!UICONTROL 日付]**&#x200B;のカスタム式を有効にする方法を示しています。
 
-1. [!UICONTROL  リクエストウィザード：ステップ 1]で、**[!UICONTROL プリセット日]**&#x200B;を使用する代わりに、**[!UICONTROL ローリング日]**&#x200B;を選択します。
+1. [!UICONTROL &#x200B; リクエストウィザード：ステップ 1]で、**[!UICONTROL プリセット日]**&#x200B;を使用する代わりに、**[!UICONTROL ローリング日]**&#x200B;を選択します。
 
    ![回転日を選択したスクリーンショット。](assets/rolldates1.png)
 
@@ -43,6 +48,6 @@ ht-degree: 12%
 
 1. **[!UICONTROL 式をカスタマイズ]**&#x200B;を有効にします。 **[!UICONTROL 日付]**&#x200B;の下でオプションを選択すると、カスタム日付式の構文を簡単に確認できます。
 
-   「式をカスタマイズ」が選択されたことを示す![ スクリーンショット。](assets/rolldatesfor5.png)
+   「式をカスタマイズ」が選択されたことを示す![&#x200B; スクリーンショット。](assets/rolldatesfor5.png)
 
    詳細オプションを使用して、カスタム日付式を組み合わせることができます。 例えば、年の最初から先月末までのデータを表示する場合は、次のように入力できます。`From: cy` `To: cm-1d`。 ウィザードでは、これらの日付は1/1/2020-1/31/2020と表示されます。

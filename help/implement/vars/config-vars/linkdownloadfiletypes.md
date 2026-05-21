@@ -5,9 +5,16 @@ feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/xe-ClVo-348u2ash9QODi2hIdGrVv6sIeN739EfPZ7c
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 419
@@ -36,12 +43,12 @@ ht-degree: 57%
 
 ## Web SDK拡張機能を使用したリンク修飾子のダウンロード
 
-「[!UICONTROL  ダウンロードリンク修飾子]」テキストフィールドでは、クリックされたリンクがダウンロードリンクとして認定されるかどうかを判断するために正規表現を使用します。
+「[!UICONTROL &#x200B; ダウンロードリンク修飾子]」テキストフィールドでは、クリックされたリンクがダウンロードリンクとして認定されるかどうかを判断するために正規表現を使用します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. [!UICONTROL 拡張機能] タブに移動し、[!UICONTROL Adobe Experience Platform Web SDK]の下にある&#x200B;**[!UICONTROL Configure]** ボタンをクリックします。
-1. [!UICONTROL  データ収集]で、**[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
+1. [!UICONTROL &#x200B; データ収集]で、**[!UICONTROL ダウンロードリンク修飾子]** テキストフィールドに目的の値を設定します。
 
 ## Web SDKを手動で実装するリンク修飾子のダウンロード
 

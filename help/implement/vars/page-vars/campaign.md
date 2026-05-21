@@ -5,9 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/01o3kclFhTclLelfDNUPI0zNTQO0X-ijCQ37RtrGsvA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 244
@@ -19,14 +25,14 @@ ht-degree: 74%
 
 `campaign` 変数は、サイトでのトラッキングコードの収集専用です。 以前のバージョンの Adobe Analytics では、ほとんどのディメンションの分類として使用できる特別な処理がおこなわれていました。 現在のバージョンの Adobe Analytics では、eVar と同じ動作をします。
 
-この変数は、[ トラッキングコード ](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
+この変数は、[&#x200B; トラッキングコード &#x200B;](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
 
 ## Web SDKを使用したキャンペーン
 
 Campaignは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
 
 ## Adobe Analytics拡張機能を使用したキャンペーン
 

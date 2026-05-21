@@ -5,11 +5,26 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2858
@@ -97,7 +112,7 @@ ht-degree: 40%
 
 ## レポートスイート
 
-各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**の![データ名](/help/assets/icons/Data.svg)で識別されます。
+各パネルは、[レポートスイート](/help/admin/tools/manage-rs/report-suites-admin.md)に関連付けられており、パネルの右上にあるドロップダウンメニューの&#x200B;**[!UICONTROL *レポートスイート&#x200B;*]**&#x200B;の![データ名](/help/assets/icons/Data.svg)で識別されます。
 
 新しいパネルを作成する場合、デフォルトのレポートスイートは、Analysis Workspace プロジェクトで最後に作業したパネルのレポートスイートに基づいています。
 
@@ -105,7 +120,7 @@ ht-degree: 40%
 
 レポートスイートのリストは、関連性に基づいてソートされます。Adobeでは、現在のユーザーがスイートを使用した回数と頻度に基づいて定義されます。 組織内でスイートが使用される頻度です。
 
-![ パネルのレポートスイートドロップダウンメニュー](assets/panel-report-suite.png)
+![&#x200B; パネルのレポートスイートドロップダウンメニュー](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
@@ -167,7 +182,7 @@ ht-degree: 40%
 
 下の図は、ドロップゾーンにコンポーネントを追加する際に生じる（クイック）セグメントまたは分類の様々なバリエーションを示しています。
 
-![ パネルのゾーンをドロップ ](assets/panel-drop-zone.png)
+![&#x200B; パネルのゾーンをドロップ &#x200B;](assets/panel-drop-zone.png)
 
 ### 追加または置換
 
@@ -177,17 +192,17 @@ ht-degree: 40%
 1. 選択範囲をドロップゾーンにドラッグし、**[!UICONTROL _コンポーネントをドロップしてデータをフィルタリングまたは分類_]** ❶するか、ドロップゾーンの近くに既に配置されている既存のコンポーネントの上に配置します。
 1. ![追加](/help/assets/icons/Add.svg) **[!UICONTROL 追加（「shift」を押してドロップダウンを作成）]**&#x200B;または![切り替え](/help/assets/icons/Switch.svg) **[!UICONTROL 置換（「shift」を押してドロップダウンに追加）]**&#x200B;が表示される場合、2つのオプションがあります。
 
-   ![ ドロップゾーンを追加または置換](assets/add-or-replace-to-drop-zone.png)
+   ![&#x200B; ドロップゾーンを追加または置換](assets/add-or-replace-to-drop-zone.png)
 
    * 選択範囲をドロップして、次のコンポーネントを作成します。
-      * ❷をドロップした任意のセグメントコンポーネントの[ セグメント ](#segment)。
-      * ❸をドロップしたセグメント以外のコンポーネント（日付範囲、指標、ディメンション、ディメンション項目）の[ クイックセグメント ](#quick-segment)。
+      * ❷をドロップした任意のセグメントコンポーネントの[&#x200B; セグメント &#x200B;](#segment)。
+      * ❸をドロップしたセグメント以外のコンポーネント（日付範囲、指標、ディメンション、ディメンション項目）の[&#x200B; クイックセグメント &#x200B;](#quick-segment)。
    * **を押しながら選択範囲**&#x200B;をドロップし（シフト）、次のコンポ⇧ネントを作成します。
-      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択したセグメント ❹に対するフィルタリング対象のアイテム。
-      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した日付範囲❺でフィルタリングする項目。
-      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)と、選択した指標に対してフィルターを適用する項目❻が含まれています。
-      * 静的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンション *個のアイテム*&#x200B;に対してフィルタリングまたは分類するアイテムが❼に含まれています。
-      * 動的セグメント [ ドロップダウンメニュー](#drop-down-menu)または分類[ ドロップダウンメニュー](#drop-down-menu)で、選択したディメンションに対してフィルタリングまたは分類する項目が含まれています（❽）。
+      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択したセグメント ❹に対するフィルタリング対象のアイテム。
+      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択した日付範囲❺でフィルタリングする項目。
+      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)と、選択した指標に対してフィルターを適用する項目❻が含まれています。
+      * 静的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)または分類[&#x200B; ドロップダウンメニュー](#drop-down-menu)で、選択したディメンション *個のアイテム*&#x200B;に対してフィルタリングまたは分類するアイテムが❼に含まれています。
+      * 動的セグメント [&#x200B; ドロップダウンメニュー](#drop-down-menu)または分類[&#x200B; ドロップダウンメニュー](#drop-down-menu)で、選択したディメンションに対してフィルタリングまたは分類する項目が含まれています（❽）。
 
 
 ### セグメント
@@ -196,11 +211,11 @@ ht-degree: 40%
 
 ### クイックセグメント
 
-ドロップされた非セグメントコンポーネント（ディメンション、ディメンション項目、指標、日付範囲）は、パネルをセグメント化するための[ クイックセグメント ](#quick-segment)を定義します。 [ セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-quick.md)を使用せずにクイックセグメントを作成するには、セグメント以外のコンポーネントを使用します。 この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義され、デフォルトで&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;というラベルが付けられます。
+ドロップされた非セグメントコンポーネント（ディメンション、ディメンション項目、指標、日付範囲）は、パネルをセグメント化するための[&#x200B; クイックセグメント &#x200B;](#quick-segment)を定義します。 [&#x200B; セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-quick.md)を使用せずにクイックセグメントを作成するには、セグメント以外のコンポーネントを使用します。 この方法で作成されたセグメントは、イベントレベルのセグメントとして自動的に定義され、デフォルトで&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;というラベルが付けられます。
 
 または、![FilterAdd](/help/assets/icons/FilterAdd.svg)を使用して、クイックセグメントを作成することもできます。
 
-クイックセグメントを作成および管理する方法については、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
+クイックセグメントを作成および管理する方法については、[&#x200B; クイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。
 
 
 ### ドロップダウンメニュー
@@ -208,7 +223,7 @@ ht-degree: 40%
 保持している間に作成されるドロップダウンメニューで⇧次の操作を実行できます。
 
 * アイテムの[static](#static)または[dynamic](#dynamic) リストが含まれます。
-* [ パネルのフィルター](#filter)または[ パネルの分割](#breakdown)を行います。
+* [&#x200B; パネルのフィルター](#filter)または[&#x200B; パネルの分割](#breakdown)を行います。
 
 
 #### 静的
@@ -234,14 +249,14 @@ ht-degree: 40%
 
 **⇧を保持している間に**&#x200B;をドロップした&#x200B;*ディメンション* コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 このドロップダウンメニューを使用すると、ドロップされたディメンション項目（[静的](#static) セグメントドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic) セグメントドロップダウンメニュー）に使用できる項目に基づいてパネルをフィルタリングできます。 セグメントを使用してパネルをフィルタリングするようにドロップダウンメニューを明示的に設定するには：
 
-* ![分類](/help/assets/icons/Breakdown.svg)を選択し、![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL セグメント]** | **[!UICONTROL コンポーネント ❾のコンテキストメニューからパネル]**&#x200B;内のデータをフィルタリングします。
+* ![分類](/help/assets/icons/Breakdown.svg)を選択し、![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL セグメント]** | **[!UICONTROL コンポーネント ❾のコンテキストメニューからパネル]**&#x200B;内のデータをフィルタリングします。
 
 
 #### パネルの分割
 
 **⇧を保持している間に**&#x200B;をドロップした&#x200B;*ディメンション* コンポーネントの場合、セグメントドロップダウンメニューが作成されます。 ドロップダウンメニューを設定して、ドロップされたディメンション項目（[静的](#static)分類ドロップダウンメニュー）またはディメンションコンポーネント（[動的](#dynamic)分類ドロップダウンメニュー）に使用できる項目に基づいてパネルを分類できます。 ドロップダウンメニューを明示的に設定して、分類を使用してパネルを分割するには、次の手順を実行します。
 
-* ![ フィルター](/help/assets/icons/Filter.svg)を選択し、![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 分類]** | **[!UICONTROL コンポーネント ❾のコンテキストメニューからパネル]**&#x200B;のデータを分類します。
+* ![&#x200B; フィルター](/help/assets/icons/Filter.svg)を選択し、![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 分類]** | **[!UICONTROL コンポーネント ❾のコンテキストメニューからパネル]**&#x200B;のデータを分類します。
 
 >[!IMPORTANT]
 >
@@ -256,15 +271,15 @@ ht-degree: 40%
 
 * パネル内でアトリビューション対応の指標を使用している場合、セグメントはアトリビューション対応の指標をクリアすることがよくあります。 分類は、パネルのデータを取得するために実行されるクエリ内の別のポイントに適用されます。 その結果、分類はこれらの属性対応指標を明確にしません。
 
-  例として、**[!UICONTROL Luma：製品カテゴリ]** ![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL 女性]** セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に基づく属性と、**[!UICONTROL Luma：製品カテゴリ]** ![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 女性]**&#x200B;分類の違いを参照してください。
+  例として、**[!UICONTROL Luma：製品カテゴリ]** ![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL 女性]** セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に基づく属性と、**[!UICONTROL Luma：製品カテゴリ]** ![分類](/help/assets/icons/Breakdown.svg) **[!UICONTROL 女性]**&#x200B;分類の違いを参照してください。
 
   ![属性ベースの指標：フィルターと分類](assets/attribute-filter-breakdown.png)
 
 * 分類ドロップダウンメニュー内でサブイベントレベルのディメンションを使用している場合、分類はそのサブイベントレベルで実行されます。 セグメントドロップダウンメニュー内のセグメントは、イベントレベルで実行されます。
 
-  例として、**[!UICONTROL Luma：製品サブカテゴリ]** ![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標と、**[!UICONTROL Luma：製品サブカテゴリ]** ![内訳](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]**&#x200B;内訳の違いを参照してください。 分類は、サブイベントレベルでクエリを明示的に実行し、セグメントはイベントレベルでクエリを実行します。
+  例として、**[!UICONTROL Luma：製品サブカテゴリ]** ![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** セグメントを使用する場合の&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標と、**[!UICONTROL Luma：製品サブカテゴリ]** ![内訳](/help/assets/icons/Breakdown.svg) **[!UICONTROL Tops]**&#x200B;内訳の違いを参照してください。 分類は、サブイベントレベルでクエリを明示的に実行し、セグメントはイベントレベルでクエリを実行します。
 
-  ![ サブイベントベースの指標：フィルターと分類](assets/sub-event-filter-breakdown.png)
+  ![&#x200B; サブイベントベースの指標：フィルターと分類](assets/sub-event-filter-breakdown.png)
 
 ### 管理
 
@@ -280,7 +295,7 @@ ht-degree: 40%
 | ドロップゾーンからコンポーネントを削除するには、次の手順を実行します。 | コンポーネントのコンテキストメニューから&#x200B;**[!UICONTROL ドロップダウンを削除]**&#x200B;を選択します。 |
 | 必要な情報を確認することができます。 | コンポーネント内にマウスポインターを置き、![情報](/help/assets/icons/Info.svg)を選択して、コンポーネントに関する情報を含むデータ要素を開きます。 |
 | ドロップダウンメニューを定義するコンポーネントに関する情報を取得します。 | ドロップダウンメニュー内にマウスポインターを置き、![InfoOutline](/help/assets/icons/InfoOutline.svg)を選択して、コンポーネントに関する情報を含むデータディクショナリを開きます。 |
-| クイックセグメントを編集するには、次の手順に従います。 | クイックセグメント内にマウスポインターを置き、![編集](/help/assets/icons/Edit.svg)を選択します。 詳しくは、[ クイックセグメント ](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。 |
+| クイックセグメントを編集するには、次の手順に従います。 | クイックセグメント内にマウスポインターを置き、![編集](/help/assets/icons/Edit.svg)を選択します。 詳しくは、[&#x200B; クイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)を参照してください。 |
 | ドロップダウンメニューの選択を要求するには | コンポーネントのコンテキストメニューから「**[!UICONTROL 選択を要求]**」を選択します。 |
 | ドロップダウンメニューにフィルターを許可しない。 | コンポーネントのコンテキストメニューから「**[!UICONTROL フィルターを許可しない]**」を選択します。 |
 | すべてのコンポーネントをリセットし、ドロップダウンメニューのすべての選択項目をクリアします。 | 「**[!UICONTROL すべてをリセット]**」を選択します。 |

@@ -4,11 +4,20 @@ description: ダウンロードリンクの名前。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 TQID: https://experienceleague.adobe.com/vok8Znalf6GBA1N0Z9GE1d31QpaUmD-d0bOsHB2Wehc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
 workflow-type: tm+mt
 source-wordcount: 242
@@ -18,7 +27,7 @@ ht-degree: 28%
 
 # ダウンロードリンク
 
-「ダウンロードリンク」 [ ディメンション ](overview.md)は、サイトに実装されたダウンロードリンクの名前を報告します。 このディメンションは、次のようなダウンロードリンクに関する訪問者の動作を詳しく知りたい場合に役立ちます。
+「ダウンロードリンク」 [&#x200B; ディメンション &#x200B;](overview.md)は、サイトに実装されたダウンロードリンクの名前を報告します。 このディメンションは、次のようなダウンロードリンクに関する訪問者の動作を詳しく知りたい場合に役立ちます。
 
 * サイトから最も頻繁にダウンロードされるファイル。
 * 特定の期間に特定のファイルをより頻繁にダウンロードするかどうか。

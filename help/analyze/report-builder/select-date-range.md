@@ -7,9 +7,13 @@ type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 TQID: https://experienceleague.adobe.com/n7cZLIgBxk1kGdKdaQSlTubfN5VI9jCLLb7xr9DTd9M
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 859
@@ -32,7 +36,7 @@ ht-degree: 49%
 
 ### 日付範囲
 
-日付範囲フィールドには、データブロックリクエストの現在の日付範囲が表示されます。 日付を直接入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を指定できます。
+日付範囲フィールドには、データブロックリクエストの現在の日付範囲が表示されます。 日付を直接入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を指定できます。
 
 ![日付範囲カレンダー](assets/date-range-calendar.png){zoomable="yes"}
 
@@ -40,7 +44,7 @@ ht-degree: 49%
 
 プリセット ドロップダウンメニューを使用して、プリセットを選択します。 テキストを入力してプリセットを検索することもできます。
 
-![日付範囲プリセット ](assets/date-range-presets.png){zoomable="yes"}
+![日付範囲プリセット &#x200B;](assets/date-range-presets.png){zoomable="yes"}
 
 プリセットドロップダウンメニューには、保存したレポートスイートまたは共有されたレポートスイートのプリセット日付範囲と日付範囲コンポーネントの標準セットが含まれます。
 
@@ -78,7 +82,7 @@ ht-degree: 49%
 
    **[!UICONTROL カスタム式を使用]**&#x200B;を選択すると、標準のローリング日付範囲コントロールが無効になります。
 
-1. [ カスタム式](#create-a-custom-expression)を入力します。
+1. [&#x200B; カスタム式](#create-a-custom-expression)を入力します。
 
 1. 結果の日付範囲を確認するには、**[!UICONTROL 日付プレビュー]**&#x200B;を使用します。
 
@@ -134,7 +138,7 @@ ht-degree: 49%
 
 日付範囲は、ワークシートのセルで指定できます。 「**[!UICONTROL セルからの日付範囲]**」オプションを使用して、選択したセルからデータブロックの開始日と終了日を選択します。 「**[!UICONTROL セルから]**」オプションを選択すると、パネルに&#x200B;**[!UICONTROL セルから]**&#x200B;と&#x200B;**[!UICONTROL から]**&#x200B;のフィールドが表示され、セルの場所を入力するか、![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)を使用して現在の選択したセルを選択できます。
 
-![ セル シート 1!H4からシート 1!I4](./assets/date-range-from-cell.png){zoomable="yes"}に選択
+![&#x200B; セル シート 1!H4からシート 1!I4](./assets/date-range-from-cell.png){zoomable="yes"}に選択
 
 
 ## 今日を除外

@@ -6,10 +6,17 @@ feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 TQID: https://experienceleague.adobe.com/0UMDDWbeilsUp-yB-tzMVcWkGfUXtf4lh2ciaAg4AEk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 276
@@ -25,7 +32,7 @@ ht-degree: 31%
 
 * Windows アプリケーションを使用して大規模な作業をおこなう場合のベストプラクティスとして、Adobeでは、ワークシートで予期しないリクエストの損失を防ぐために、リクエストを頻繁かつ定期的にスプレッドシートに保存することをお勧めします。
 * ブックに名前を付ける際は、作業履歴を保持できるように、ファイル名にバージョン番号を使用することを検討してください。 例えば、最初のワークブックには [!DNL web_forecast_01_01.xlsx] のような名前を付けます。
-* レポートを既に保存している場合、レポートを2回保存すると、[!UICONTROL  テンプレートを保存] フォームが表示されません。 レポートにリクエストが含まれていない場合、このダイアログボックスは表示されません。 代わりに、標準のExcel [!UICONTROL 別名で保存] フォームが表示されます。
+* レポートを既に保存している場合、レポートを2回保存すると、[!UICONTROL &#x200B; テンプレートを保存] フォームが表示されません。 レポートにリクエストが含まれていない場合、このダイアログボックスは表示されません。 代わりに、標準のExcel [!UICONTROL 別名で保存] フォームが表示されます。
 
 ## ファイル名と場所 {#section_2406629E9B644CE08430826948977D5D}
 

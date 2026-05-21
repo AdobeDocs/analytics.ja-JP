@@ -6,9 +6,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 TQID: https://experienceleague.adobe.com/cgDjTqGH0KzSrpg66sRfF8Kf81Q-WDwSWJ-OBvJK8DM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 503
@@ -42,7 +47,7 @@ Report Builder関数を使用して、Report Builder ユーザーインターフ
 
 Report Builder関数にアクセスするには、**[!UICONTROL 数式]** > **[!UICONTROL 関数を挿入]**&#x200B;に移動します。 検索フィールドを使用して関数を検索するか、カテゴリを選択してそのカテゴリ内の関数を一覧表示します。
 
-カテゴリ リストを展開した挿入関数ウィンドウを示す![ スクリーンショット。](assets/arb_functions.png)
+カテゴリ リストを展開した挿入関数ウィンドウを示す![&#x200B; スクリーンショット。](assets/arb_functions.png)
 
 ## 例 {#section_034311081C8D4D7AA9275C1435A087CD}
 
@@ -60,7 +65,7 @@ Report Builder関数にアクセスするには、**[!UICONTROL 数式]** > **[!
 1. コントロールを右クリックし、**[!UICONTROL マクロの割り当て]**&#x200B;を選択します。
 1. Report Builder関数名を入力します（パラメーターや括弧はありません）。
 
-マクロを割り当てウィンドウを表示する![ スクリーンショット。](assets/assign_macro.png)
+マクロを割り当てウィンドウを表示する![&#x200B; スクリーンショット。](assets/assign_macro.png)
 
 ## 書式コントロールを使用してReport Builder関数にパラメーターを渡す {#section_ECCA1F4990D244619DFD79138064CEF0}
 
@@ -73,11 +78,11 @@ Report Builder関数にアクセスするには、**[!UICONTROL 数式]** > **[!
 
 1. コントロールを右クリックして、**[!UICONTROL コントロールの書式設定]**&#x200B;を選択します。
 
-   形式コントロールが選択されていることを示す![ スクリーンショット。](assets/format_control.png)
+   形式コントロールが選択されていることを示す![&#x200B; スクリーンショット。](assets/format_control.png)
 
 1. 「**[!UICONTROL 代替テキスト]**」タブをクリックします。
 
-   代替テキスト タブと代替テキスト：フィールドを示す![ スクリーンショット。](assets/alt_text.png)
+   代替テキスト タブと代替テキスト：フィールドを示す![&#x200B; スクリーンショット。](assets/alt_text.png)
 
 1. **[!UICONTROL 代替テキスト]**&#x200B;で、更新するセル範囲を入力します。
 1. **[!UICONTROL 数式]** > **[!UICONTROL 関数を挿入]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**&#x200B;の下にあるReport Builder パラメーターのリストを開きます。

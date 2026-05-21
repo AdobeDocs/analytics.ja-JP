@@ -6,9 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 TQID: https://experienceleague.adobe.com/n9LlAH6wZ87xQTOO7SLYSpKudcHxuqqielFv6hJXAYw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 415
@@ -35,7 +41,7 @@ ht-degree: 49%
    | セグメント | セグメントパラメーターを表示します。 |
    | データ最新性 | 直近いつまでのデータが含まれているかを表示します。 例：データ最新性：ページビュー数（1.5時間前）、出口数（30分前）。現在のデータ処理について詳しくは、[オプション](/help/analyze/legacy-report-builder/options.md)を参照してください。 |
 
-   表示順序に関して、[!UICONTROL 行ラベル ] グリッド （手順2の）に項目が含まれている場合、その項目は最初にリクエストに表示されます。 そうでない場合は、[!UICONTROL 列ラベル ] グリッドにある最初の項目が使用されます。 行または列の項目が存在しない場合、[!UICONTROL 指標] グリッドの最初の項目が表示されます。
+   表示順序に関して、[!UICONTROL 行ラベル &#x200B;] グリッド （手順2の）に項目が含まれている場合、その項目は最初にリクエストに表示されます。 そうでない場合は、[!UICONTROL 列ラベル &#x200B;] グリッドにある最初の項目が使用されます。 行または列の項目が存在しない場合、[!UICONTROL 指標] グリッドの最初の項目が表示されます。
 
    **行と列のヘッダーを表示：**&#x200B;項目を表示する行と列を追加します。
 
@@ -49,6 +55,6 @@ ht-degree: 49%
 
    **自動アウトラインの実行：** Report Builderが返した日付をリスト ビューからツリービューに変換します。
 
-   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。 この名前は、[!UICONTROL  リクエストマネージャー]の[!UICONTROL  レポート ]名として表示されます。 「[ リクエストに名前を付ける](/help/analyze/legacy-report-builder/layout/name-a-request.md)」を参照してください。
+   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。 この名前は、[!UICONTROL &#x200B; リクエストマネージャー]の[!UICONTROL &#x200B; レポート &#x200B;]名として表示されます。 「[&#x200B; リクエストに名前を付ける](/help/analyze/legacy-report-builder/layout/name-a-request.md)」を参照してください。
 
 1. 「**[!UICONTROL OK]**」をクリックします。

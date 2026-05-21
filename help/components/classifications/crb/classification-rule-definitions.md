@@ -4,10 +4,16 @@ title: 分類ルール - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 861
@@ -136,7 +142,7 @@ ht-degree: 57%
 | 一致グループ | 正規表現がキャンペーン IDの文字にどのように対応するかを示します。これにより、キャンペーン ID内の位置を分類できます。 |
 | 一致結果 | 正規表現と一致する文字列の部分を表示します。 |
 
-分類ルール ](/help/components/classifications/crb/classification-quickstart-rules.md)の[正規表現を参照してください。
+分類ルール [&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)の正規表現を参照してください。
 
 ## テストページ {#section_EC926F97901C4E65901413F9683AA70A}
 

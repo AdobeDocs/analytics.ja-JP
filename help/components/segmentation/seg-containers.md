@@ -5,11 +5,19 @@ title: セグメントコンテナ
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 3545
@@ -21,9 +29,9 @@ ht-degree: 68%
 
 セグメントは、訪問者の属性やサイトとのインタラクションにもとづいて、訪問者をフィルタリングするための条件を設定します。 セグメントの条件を設定するには、訪問者の特性やナビゲーション特性に基づいて訪問者をフィルタリングするルールを設定します。 訪問者データをさらに分類するには、各訪問者の特定の訪問やページビューヒットに基づくフィルターを適用します。 セグメントビルダーは、これらのサブセットを作成し、ネストされた階層の訪問者、訪問、またはヒットコンテナとしてルールを適用するためのシンプルなアーキテクチャを提供します。
 
-[ セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)で使用されるコンテナアーキテクチャでは、次の項目が定義されます。
+[&#x200B; セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)で使用されるコンテナアーキテクチャでは、次の項目が定義されます。
 
-- ![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;が最も外側のコンテナとなり、訪問とページビューをまたいで訪問者に固有の包括的なデータが含まれます。
+- ![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;が最も外側のコンテナとなり、訪問とページビューをまたいで訪問者に固有の包括的なデータが含まれます。
 - ![訪問](/help/assets/icons/Visit.svg) ネストされた&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定できます。
 - ![WebPage](/help/assets/icons/WebPage.svg) ネストされた&#x200B;**[!UICONTROL ヒット]** コンテナを使用すると、個々のページビューに基づいて訪問者情報を分類できます。
 
