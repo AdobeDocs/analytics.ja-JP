@@ -1,19 +1,31 @@
 ---
-title: 注釈を管理
-description: Analysis Workspaceで注釈を管理する方法を説明します。
+title: 注釈の管理
+description: Analysis Workspaceで注釈を管理する方法について説明します。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/eBokOX3-Zn7bzy8FYdAO-iEGQOCmAtJ4H57hvCLjawc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 766
 ht-degree: 88%
 
 ---
 
 # 注釈を管理
 
-一元的な[!UICONTROL 注釈]管理インターフェイスから、共有、フィルター、タグ付け、承認、コピー、削除および注釈をお気に入りとしてマークできます。注釈を管理するには、以下の手順に従います。
+一元的な[!UICONTROL 注釈]管理インターフェイスから、共有、フィルター、タグ付け、承認、コピー、削除および注釈をお気に入りとしてマークできます。 注釈を管理するには、以下の手順に従います。
 
 * メインインターフェイスで「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL 注釈]**」を選択します。
 
@@ -31,17 +43,17 @@ ht-degree: 88%
 
 ### 注釈リスト
 
-注釈リスト ➊ には、所有するすべての注釈、すべてのプロジェクトを対象とした注釈、自分と共有されている注釈が表示されます。 リストには、次の列があります。
+注釈リスト ➊には、所有しているすべての注釈、すべてのプロジェクトに対してスコープが設定されている注釈、および共有されている注釈が表示されます。 リストには、次の列があります。
 
 | 列 | 説明 |
 | --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 注釈「![星](/help/assets/icons/Star.svg)」を優先するか、「![StarOutline](/help/assets/icons/StarOutline.svg)」を優先しないかを選択します。 |
-| **[!UICONTROL タイトルと説明]** | 注釈ビルダーで提供されます。タイトルと説明を編集するには、タイトルリンクを選択して[注釈ビルダー](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)を開きます。共有注釈には、「![共有](/help/assets/icons/ShareAlt.svg)」と表示されます。 |
+| **[!UICONTROL タイトルと説明]** | 注釈ビルダーで提供されます。 タイトルと説明を編集するには、タイトルリンクを選択して[注釈ビルダー](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)を開きます。 共有注釈には、「![共有](/help/assets/icons/ShareAlt.svg)」と表示されます。 |
 | **[!UICONTROL レポートスイート]** | この注釈が適用されるレポートスイート。 |
-| **[!UICONTROL 所有者]** | 注釈の所有者。ユーザーには、自分が所有している注釈または自分と共有されている注釈のみが表示されます。 |
+| **[!UICONTROL 所有者]** | 注釈の所有者。 ユーザーには、自分が所有している注釈または自分と共有されている注釈のみが表示されます。 |
 | **[!UICONTROL 適用された日付範囲]** | この注釈が適用される日付または日付範囲。 |
 | **[!UICONTROL タグ]** | この注釈のタグ。 |
-| **[!UICONTROL 共有先]** | 注釈を共有した個人またはグループ。選択して、**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログを開きます。 |
+| **[!UICONTROL 共有先]** | 注釈を共有した個人またはグループ。 選択して、**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログを開きます。 |
 | **[!UICONTROL 変更日時]** | 注釈が最後に変更された日時を表示します。 |
 
 {style="table-layout:auto"}
@@ -50,30 +62,30 @@ ht-degree: 88%
 
 ### アクションバー
 
-注釈に対するアクションは、アクションバーの ➋ を使用して実行できます。 アクションバーには、次のアクションが含まれます。
+アクション バー➋を使用して注釈に対してアクションを実行できます。 アクションバーには、次のアクションが含まれます。
 
 | アイコン | アクション | 説明 |
 |:--:|---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 追加]** | [注釈ビルダー](create-annotations.md#annotation-builder)を使用して、別の注釈を追加します。 |
 | ![検索](/help/assets/icons/Search.svg) | [!UICONTROL *タイトルで検索*] | リストで注釈が選択されていない場合は、この検索フィールドを使用して注釈を検索します。 |
-| ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択した注釈にタグを付けます。**[!UICONTROL タグコンポーネント]**&#x200B;ダイアログで、選択した注釈のタグを選択または選択解除します。「**[!UICONTROL 保存]**」を選択して、選択した注釈のタグを保存します。 |
-| ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | 選択した注釈を共有します。**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログでは、「![検索](/help/assets/icons/Search.svg)「」、「*個人またはグループを検索*」、または「**[!UICONTROL 組織]**」または「**[!UICONTROL グループ]**」を選択できます。「**[!UICONTROL 保存]**」を選択して、選択した注釈の共有の詳細を保存します。詳しくは、[注釈の共有](#share-annotations)を参照してください。 |
-| ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択した注釈を削除します。確認メッセージが表示されます。 |
-| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した 1 つの注釈の名前を変更します。選択すると、注釈の名前をインラインで変更できます。 |
-| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した注釈をコピーします。同じ名前とサフィックスを持つ新しい注釈が作成されます（コピー） |
+| ![ラベル](/help/assets/icons/Label.svg) | **[!UICONTROL タグ]** | 選択した注釈にタグを付けます。 **[!UICONTROL タグコンポーネント]**&#x200B;ダイアログで、選択した注釈のタグを選択または選択解除します。 「**[!UICONTROL 保存]**」を選択して、選択した注釈のタグを保存します。 |
+| ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | 選択した注釈を共有します。 **[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログでは、「![検索](/help/assets/icons/Search.svg)「」、「*個人またはグループを検索*」、または「**[!UICONTROL 組織]**」または「**[!UICONTROL グループ]**」を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択した注釈の共有の詳細を保存します。 詳しくは、[注釈の共有](#share-annotations)を参照してください。 |
+| ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択した注釈を削除します。 確認メッセージが表示されます。 |
+| ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した 1 つの注釈の名前を変更します。 選択すると、注釈の名前をインラインで変更できます。 |
+| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した注釈をコピーします。 同じ名前とサフィックスを持つ新しい注釈が作成されます（コピー） |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | 注釈を `Annotations List.csv` ファイルに書き出します。 |
 
 ### アクティブなフィルターバー
 
-フィルターバーの ➌ には、アクティブなフィルター（存在する場合）が表示されます。 ![CrossSize75](/help/assets/icons/CrossSize75.svg) を使用すると、フィルターをすばやく削除できます。複数のフィルターを指定した場合は、「**[!UICONTROL すべて削除]**」を使用すると、すべてのフィルターを削除できます。
+フィルターバー➌には、アクティブなフィルター（ある場合）が表示されます。 ![CrossSize75](/help/assets/icons/CrossSize75.svg) を使用すると、フィルターをすばやく削除できます。 複数のフィルターを指定した場合は、「**[!UICONTROL すべて削除]**」を使用すると、すべてのフィルターを削除できます。
 
 ### フィルターパネル
 
-注釈は、左側のパネルの **[!UICONTROL 「]** フィルター ➍」を使用してフィルタリングできます。 フィルターパネルには、フィルターのタイプと、フィルタリングを行う注釈の数が表示されます。「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
+注釈は、**[!UICONTROL フィルター]**&#x200B;左側のパネル ➍を使用してフィルターできます。 フィルターパネルには、フィルターのタイプと、フィルタリングを行う注釈の数が表示されます。 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
 
 フィルターリストをフィルタリングするには、次の手順に従います。
 
-1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
+1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。 フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
 1. 使用可能な任意の[フィルターセクション](#filter-sections)を使用して、注釈をフィルタリングできます。
 
    >[!INFO]
@@ -90,7 +102,7 @@ ht-degree: 88%
 {{otherfiltersfiltersection}}
 
 
-[注釈リスト](manage-annotations.md#annotations-list)は、フィルター設定に基づいて自動的に更新されます。設定済みのフィルターは、[アクティブなフィルターバー](manage-annotations.md#active-filter-bar)で確認できます。
+[注釈リスト](manage-annotations.md#annotations-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](manage-annotations.md#active-filter-bar)で確認できます。
 
 
 ## 注釈を編集
@@ -107,14 +119,14 @@ ht-degree: 88%
 
 注釈を共有する場合や、自分と共有されている注釈を操作する場合は、次が適用されます。
 
-* 他のユーザーと共有するプロジェクト内のプロジェクト専用の注釈は、それらのユーザーに対して表示されます。ユーザーは、これらのプロジェクト専用の注釈を編集または削除できません。
+* 他のユーザーと共有するプロジェクト内のプロジェクト専用の注釈は、それらのユーザーに対して表示されます。 ユーザーは、これらのプロジェクト専用の注釈を編集または削除できません。
 * 注釈を保存してその注釈をユーザーと直接共有する場合、そのユーザーは、管理者権限を持っている場合にのみ、注釈を編集および削除できます。
 
-* プロジェクトが共有されている場合、そのプロジェクトで作成された注釈は、そのプロジェクトでのみ表示されます。注釈が直接共有されている場合、その注釈は、その注釈を表示できるすべてのプロジェクトに表示されます。
+* プロジェクトが共有されている場合、そのプロジェクトで作成された注釈は、そのプロジェクトでのみ表示されます。 注釈が直接共有されている場合、その注釈は、その注釈を表示できるすべてのプロジェクトに表示されます。
 
 ## 注釈とタイムゾーン
 
-すべての注釈は、タイムスタンプと共に作成されますが、「時間」や「タイムゾーン」の情報は含まれません。レポート時には、パネル用に設定されたレポートスイートのタイムゾーンが使用されます。
+すべての注釈は、タイムスタンプと共に作成されますが、「時間」や「タイムゾーン」の情報は含まれません。 レポート時には、パネル用に設定されたレポートスイートのタイムゾーンが使用されます。
 
 
 <!--

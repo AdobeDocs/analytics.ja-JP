@@ -1,34 +1,48 @@
 ---
-title: Data Warehouseでのコンポーネントのサポート
+title: Data Warehouseのコンポーネントサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 45%
+source-wordcount: 580
+ht-degree: 47%
 
 ---
 
 # Data Warehouse でのコンポーネントのサポート
 
-Data Warehouse アーキテクチャの独自の処理により、Adobe Analyticsの他の機能では通常使用できない一部のコンポーネントが可能になります。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。このページを使用して、何が使用でき、何が使用できないかを把握してください。
+Data Warehouse アーキテクチャの独自の処理により、Adobe Analyticsの他の機能では通常は利用できない一部のコンポーネントを使用できます。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。 このページを使用して、何が使用でき、何が使用できないかを把握してください。
 
 ## Data Warehouse 固有のコンポーネント
 
-Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用できる一部のディメンションと指標は使用できません。
+Data Warehouseで使用できるディメンションや指標の中には、Adobe Analyticsの他の機能を使用する場合には使用できないものもあります。
 
 ### 排他的にサポートされるディメンション
 
-* **Experience Cloud ID**: Experience Cloud ID サービス（ECID）を使用する実装の場合、19 桁に埋められた 2 つの連結された 64 ビット数で構成される 128 ビットの数です。
-* **ページ URL**：ヒットが発生したページ URL。
-* **購入 ID**：購入の一意の ID。purchaseID 変数を使用して設定されます。
-* **訪問者 ID**：訪問者の一意の ID を提供します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+* **Experience Cloud ID**: Experience Cloud ID サービス （ECID）を使用する実装の場合、2つの連結された64 ビット番号で構成される128 ビット番号が19桁にパディングされます。
+* **ページ URL**: ヒットが発生したページ URL。
+* **購入ID**：購入の一意のID。購入ID変数を使用して設定します。
+* **訪問者ID**：訪問者の一意のIDを指定します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。 詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ### 排他的にサポートされる指標
 
-* **訪問数**：この指標は、Data Warehouseのコンテキストでは、非永続的な cookie 訪問を除外します。
-* **訪問回数 – すべての訪問者数**:Data Warehouseのコンテキストにおけるこの指標は、Adobe Analytics内の他のツールにおける訪問回数指標とより緊密に同等です。
+* **訪問数**：この指標は、Data Warehouseのコンテキストでは、非永続的なCookie訪問を除外します。
+* **訪問回数 – すべての訪問者**: Data Warehouseに関連するこの指標は、Adobe Analytics内の他のツールの訪問回数の指標とほぼ同じです。
 
 ## Data Warehouse でサポートされないコンポーネント
 
@@ -36,7 +50,7 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
 
 >[!NOTE]
 >
->Data Warehouse でディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントもサポートされません。セグメントを作成または編集する際は、必ず製品の互換性を確認してください。
+>Data Warehouse でディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントもサポートされません。 セグメントを作成または編集する際は、必ず製品の互換性を確認してください。
 
 ### サポートされていないディメンション
 
@@ -67,9 +81,9 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
    * リロード回数
    * 単一アクセス
    * 滞在時間指標
-* パーティシペーション指標（[&#x200B; 「パーティシペーション」指標の作成 &#x200B;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) で説明）
+* 参加指標（[参加指標の作成](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)で説明）
 
-### 異なる方法でサポートされるディメンション（非標準の日付形式）
+### 別の方法でサポートされているディメンション（標準以外の日付形式）
 
 次の時間ベースのディメンションがサポートされています。
 
@@ -81,32 +95,32 @@ Adobe Analyticsで他の機能を使用する場合、Data Warehouseで使用で
 * 時間
 * 分
 
-ただし、これらのディメンションを使用する場合、日付の出力は非標準です。
+ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。
 
-Data Warehouseで日付の出力を計算する際は、次の点を考慮してください。
+Data Warehouseで日付の出力を計算する場合は、次の点を考慮してください。
 
-* 日付次元は次のフォーマットで表示されます：`1YYMMDDHHMM`
+* 日付ディメンションは次の形式で表示されます：`1YYMMDDHHMM`
 
-* 年（YY）が 1900 でオフセットされます。 つまり、日付フィールドの最初の 3 つの値に `1900` を追加します。
+* 年（YY）は1900でオフセットされます。 つまり、日付フィールドの最初の3つの値に`1900`を追加します。
 
-  例えば、Data Warehouseの「日付範囲（週）」フィールドの値が `1250901` の場合、1900 から 125 を加算すると、2025 年になります。
+  例えば、Data Warehouseの「日付範囲の週」フィールドの値が`1250901`の場合、1900を125に加算し、2025年になります。
 
-* すべての月はゼロベースで、1 月は 00 で、2 月は 01 で表されます。その他は次のとおりです。
+* すべての月はゼロベースで、1月は00、2月は01などで、次のように表されます。
 
-   * 00:1 月
-   * 01:2 月
-   * 02: 3 月
-   * 03:4 月
-   * 04: 5 月
-   * 05: 6 月
-   * 06:7 月
-   * 07:8 月
-   * 08:9 月
-   * 09: 10 月
-   * 10 日：11 月
-   * 11:12 月
+   * 00: 1月
+   * 01:2月
+   * 02:3月
+   * 03: 4月
+   * 04: 5月
+   * 05: 6月
+   * 06: 7月
+   * 07: 8月
+   * 08:9月
+   * 09: 10月
+   * 10日：11月
+   * 11日：12月
 
-  例えば、Data Warehouseの「日付範囲（週）」フィールドの値が `1250901` の場合、月は 09 （10 月を示す）として表されます。
+  例えば、Data Warehouseの「日付範囲の週」フィールドの値が`1250901`の場合、月は09として表され、10月を示します。
 
 
 

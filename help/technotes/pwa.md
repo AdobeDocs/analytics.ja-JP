@@ -4,9 +4,21 @@ description: Adobe Analytics 用プログレッシブ Web アプリ
 role: User, Admin
 feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/IKf2D1AqfbD6qurNczyJWaZIOzQyOTURfJFSJNDucnU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 279
 ht-degree: 100%
 
 ---
@@ -17,17 +29,17 @@ ht-degree: 100%
 
 ## はじめに
 
-PWA は、Web サイトにネイティブアプリケーションエクスペリエンスやオフライン機能を提供できます。通常、PWA には、service worker、キャッシングプロビジョニング、およびマニフェストファイルが含まれます。これらはすべて、読み込み時間の短縮、ナビゲーションの簡素化、レスポンシブな動作に役立ちます。
+PWA は、Web サイトにネイティブアプリケーションエクスペリエンスやオフライン機能を提供できます。 通常、PWA には、service worker、キャッシングプロビジョニング、およびマニフェストファイルが含まれます。これらはすべて、読み込み時間の短縮、ナビゲーションの簡素化、レスポンシブな動作に役立ちます。
 
-Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analytics には既にオフライントラッキング機能が含まれているため、PWA を使用すると、このビルトインの機能を従来の web サイトよりも簡単に活用できます。
+Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。 PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。 実際、Analytics には既にオフライントラッキング機能が含まれているため、PWA を使用すると、このビルトインの機能を従来の web サイトよりも簡単に活用できます。
 
 ## PWA Analytics データの取得
 
-[!UICONTROL Analytics] を使用して PWA データを収集および分析するために構成を変更する必要はありません。[!UICONTROL Analytics] は、従来の Web サイトに対してと同じ機能や特徴をすべて自動的に提供します。
+[!UICONTROL Analytics] を使用して PWA データを収集および分析するために構成を変更する必要はありません。 [!UICONTROL Analytics] は、従来の Web サイトに対してと同じ機能や特徴をすべて自動的に提供します。
 
 ## オフライントラッキングの追加による PWA 有効性の向上
 
-Adobe Analytics の[オフライントラッキング機能](/help/implement/vars/config-vars/trackoffline.md)を使用して、PWA の効果を高めることができます。デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
+Adobe Analytics の[オフライントラッキング機能](/help/implement/vars/config-vars/trackoffline.md)を使用して、PWA の効果を高めることができます。 デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。
 
 例えば、次の AppMeasurement.js ファイルでは、プロパティが `CONFIG SECTION` の最後に追加されています。
 

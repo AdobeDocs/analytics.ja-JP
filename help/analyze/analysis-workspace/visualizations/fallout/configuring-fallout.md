@@ -4,26 +4,40 @@ title: フォールアウトビジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 121fac9958dc34be513a23d5c3ad76d5f0e6b665
+TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 898
 ht-degree: 30%
 
 ---
 
 # フォールアウトビジュアライゼーションの設定
 
-**タッチポイント**&#x200B;を指定して、複数ディメンションのフォールアウトシーケンスを作成できます。 多くの場合、タッチポイントはサイト上のページです。 ただし、顧客接点はページに限定されません。 例えば、単位、ユニークユーザー、再来訪などのイベントを追加できます。また、カテゴリ、ブラウザーの種類、内部検索キーワードなどのディメンションを追加することもできます。
+**タッチポイント**&#x200B;を指定して、複数ディメンションのフォールアウトシーケンスを作成できます。 多くの場合、タッチポイントはサイト上のページです。 ただし、顧客接点はページに限定されません。 例えば、単位、ユニークユーザー、再来訪などのイベントを追加できます。 また、カテゴリ、ブラウザーの種類、内部検索キーワードなどのディメンションを追加することもできます。
 
-タッチポイント内にセグメントを追加することもできます。 例えば、iOSやAndroidなどのセグメントを比較することができます。 目的のセグメントをフォールアウトの上部にドラッグすると、これらのセグメントに関する情報がフォールアウトレポートに追加されます。これらのセグメントのみを表示したい場合、「すべての訪問」ベースラインを削除できます。
+タッチポイント内にセグメントを追加することもできます。 例えば、iOSやAndroidなどのセグメントを比較することができます。 目的のセグメントをフォールアウトの上部にドラッグすると、これらのセグメントに関する情報がフォールアウトレポートに追加されます。 これらのセグメントのみを表示したい場合、「すべての訪問」ベースラインを削除できます。
 
 フォールアウトビジュアライゼーションでは、追加できるタッチポイントの数や使用できるコンポーネントの数に制限はありません。
 
-ディメンション、指標およびセグメントに対してパスを設定できます。例えば、あるページで`shoes, shirt`を閲覧し、次のページで`shirt, socks`を閲覧しているとします。 靴の次の製品フローレポートは、シャツではなく、シャツと靴下になります。
+ディメンション、指標およびセグメントに対してパスを設定できます。 例えば、あるページで`shoes, shirt`を閲覧し、次のページで`shirt, socks`を閲覧しているとします。 靴の次の製品フローレポートは、シャツではなく、シャツと靴下になります。
 
 ## 使用
 
-1. ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL フォールアウト]**&#x200B;ビジュアライゼーションを追加します。[パネルへのビジュアライゼーションの追加](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
+1. ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL フォールアウト]**&#x200B;ビジュアライゼーションを追加します。 [パネルへのビジュアライゼーションの追加](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
 1. コンポーネントを&#x200B;**[!UICONTROL タッチポイントを追加]** ドロップダウンメニューにドラッグします。
 
@@ -36,7 +50,7 @@ ht-degree: 30%
 
 1. シーケンスが完成するまでタッチポイントの追加を続けます。
 
-   バーのグレー部分にある、円で囲まれた数字は、（そのポイントへの合計フォールアウトではなく）タッチポイント間のフォールアウトを表しています。バーの緑色の部分にある丸で囲まれた数値は、前のタッチポイントから現在のタッチポイントへの成功したフォールスルーを示しています。
+   バーのグレー部分にある、円で囲まれた数字は、（そのポイントへの合計フォールアウトではなく）タッチポイント間のフォールアウトを表しています。 バーの緑色の部分にある丸で囲まれた数値は、前のタッチポイントから現在のタッチポイントへの成功したフォールスルーを示しています。
 
    ![フォールアウトビジュアライゼーション](assets/fallout-visualization.png)
 
@@ -95,13 +109,13 @@ ht-degree: 30%
 | **[!UICONTROL トレンドタッチポイント]** | 折れ線グラフのタッチポイントのトレンドデータを、一部の事前に作成された異常値検出データと共に表示します。 |
 | **[!UICONTROL トレンドタッチポイント（%）]** | 合計フォールアウト数の割合のトレンドを追跡します。 |
 | **[!UICONTROL すべてのタッチポイント（%）のトレンドを追跡]** | フォールアウト内のすべてのタッチポイントの割合（含まれる場合は&#x200B;**[!UICONTROL すべての訪問者]**&#x200B;を除く）を同じグラフでトレンド表示します。 |
-| **[!UICONTROL このタッチポイントでの分類フォールスルー]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL Fallthrough:All Visitors > Pageというラベルが付いたテーブルは、ディメンションとして]** Page **[!UICONTROL を含み、]** プロジェクトのみのクイックセグメント **[!UICONTROL によってセグメント化された]** Unique Visitors[を含み、](/help/components/segmentation/segmentation-workflow/seg-quick.md)Fallthrough:All Visitors > Pageは、指標としてhome **[!UICONTROL のいずれかに相当します。]**&#x200B;セグメントを調べて、フォールスルーセグメントがどのように決定されるかを理解します。 |
-| **[!UICONTROL このタッチポイントでの分類フォールアウト]** | 選択したステップの直後にfunnelを通過しなかった訪問者を表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがhome]**&#x200B;のいずれかと等しく、ディメンションとして&#x200B;**[!UICONTROL Page]**&#x200B;を含み、**[!UICONTROL プロジェクトのみのクイックセグメント]**&#x200B;によってセグメント化された[&#x200B; ユニーク訪問者](/help/components/segmentation/segmentation-workflow/seg-quick.md)を含むテーブル **[!UICONTROL フォールスルー：すべての訪問者/ページがhome]** セグメントのいずれかと指標として等しい。 セグメントを調べて、フォールアウトセグメントがどのように決定されるかを理解します。 |
+| **[!UICONTROL このタッチポイントでの分類フォールスルー]** | 訪問者が次のタッチポイントに進んだ場合に、2 つのタッチポイント（このタッチポイントと次のタッチポイント）間で何をしたかを表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**Fallthrough:All Visitors > Pageというラベルが付いたテーブルは、ディメンションとして**&#x200B;[!UICONTROL &#x200B; Page &#x200B;]&#x200B;**を含み、[&#x200B; プロジェクトのみのクイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された**&#x200B;[!UICONTROL &#x200B; Unique Visitors &#x200B;]&#x200B;**を含み、**&#x200B;[!UICONTROL &#x200B; Fallthrough:All Visitors > Pageは、指標としてhome &#x200B;]&#x200B;**のいずれかに相当します。**&#x200B;セグメントを調べて、フォールスルーセグメントがどのように決定されるかを理解します。 |
+| **[!UICONTROL このタッチポイントでの分類フォールアウト]** | 選択したステップの直後にfunnelを通過しなかった訪問者を表示します。 このオプションを選択すると、寸法を表示するフリーフォームテーブルが作成されます。 ディメンションとテーブルの他の要素を置き換えることができます。 例えば、**[!UICONTROL フォールアウト：すべての訪問者/ページがhome]**&#x200B;のいずれかと等しく、ディメンションとして&#x200B;**[!UICONTROL Page]**&#x200B;を含み、[&#x200B; プロジェクトのみのクイックセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-quick.md)によってセグメント化された&#x200B;**[!UICONTROL ユニーク訪問者]**&#x200B;を含むテーブル **[!UICONTROL フォールスルー：すべての訪問者/ページがhome]** セグメントのいずれかと指標として等しい。 セグメントを調べて、フォールアウトセグメントがどのように決定されるかを理解します。 |
 | **[!UICONTROL タッチポイントからセグメントを作成]** | 選択したタッチポイントから新しいセグメントを作成します。 |
 
 >[!MORELIKETHIS]
 >
->[パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -4,9 +4,15 @@ keywords: ftp;sftp
 title: FTPおよびSFTP アカウントとデータの削除
 feature: FTP Export
 exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
-source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
+TQID: https://experienceleague.adobe.com/7x8bYAZmZ4Bn-7Sbpf7wGFfOQbkxRQ2CsUcXUgVDTPQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 237
 ht-degree: 8%
 
 ---

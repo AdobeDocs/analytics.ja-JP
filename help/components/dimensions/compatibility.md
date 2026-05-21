@@ -3,10 +3,30 @@ title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 53%
+source-wordcount: 905
+ht-degree: 54%
 
 ---
 
@@ -16,7 +36,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有の値です。
+>カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション項目は、個々のレポートスイートに固有の値です。
 
 ## Analysis Workspaceでサポートされるディメンション
 
@@ -148,7 +168,7 @@ ht-degree: 53%
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
-| ACTIVITY MAP XY | `clickmapxy` |
+| Activity Map XY | `clickmapxy` |
 | メディアセッション ID | `videosessionid` |
 | Nielsen アクセス方法 | `nielsenaccmethod` |
 | Nielsen アプリ ID | `nielsenappid` |
@@ -165,7 +185,7 @@ ht-degree: 53%
 | [&#x200B; コンテンツセグメント &#x200B;](sm-core.md) | `videosegment` |
 | [&#x200B; コンテンツの種類](sm-core.md) | `videocontenttype` |
 | [広告プレイヤー名](sm-ads.md) | `videoadplayername` |
-| ポッド位置[の](sm-ads.md)広告 | `videoadinpod` |
+| ポッド位置[&#128279;](sm-ads.md)の広告 | `videoadinpod` |
 | [削除されたフレーム &#x200B;](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [エラー](sm-quality.md) | `videoqoeerrorcountevar` |
 | [平均ビットレート &#x200B;](sm-quality.md) | `videoqoebitrateaverageevar` |
@@ -213,7 +233,7 @@ Adobe Socialは引退しました。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
-| 条件 | `socialterm` |
+| キーワード | `socialterm` |
 | Social プラットフォーム／プロパティ | `socialcontentprovider` |
 | 発言者 | `socialauthor` |
 | 言語 | `sociallanguage` |
@@ -290,7 +310,7 @@ Adobe Socialは引退しました。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
-| Nielsen Ad Model | `nielsenadmodel` |
+| Nielsen 広告モデル | `nielsenadmodel` |
 | Nielsen セグメント C | `nielsensegmentc` |
 | Nielsen セグメント B | `nielsensegmentb` |
 | Nielsen セグメント A | `nielsensegmenta` |

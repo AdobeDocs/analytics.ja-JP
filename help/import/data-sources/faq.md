@@ -1,60 +1,71 @@
 ---
 title: データソース FAQ
-description: データソースに関するよくある質問です。
+description: データソースに関するよくある質問。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: 430
+ht-degree: 3%
 
 ---
 
 # データソース FAQ
 
-データソースに関するよくある質問です。
+データソースに関するよくある質問。
 
-+++データソースを使用するコストはどれくらいですか？
-データソースには料金は発生せず、サーバーコールの使用状況にもカウントされません。 [&#x200B; フル処理データソース &#x200B;](full-processing-eol.md) 廃止前のサーバーコールに対してカウントされます。
++++データソースの使用コスト？
+データソースには料金は発生せず、サーバーコールの使用にカウントされません。 [完全な処理データソース &#x200B;](full-processing-eol.md)は、退職前にサーバーコールにカウントされました。
 +++
 
-+++データソースは、eVar のアトリビューションと有効期限にどのような影響を与えますか。
-データソースには、アトリビューションや有効期限はありません。
++++データソースは、eVarのアトリビューションと有効期限にどのような影響を与えますか？
+データソースにはアトリビューションや有効期限はありません。
 +++
 
-+++データソースは、ページビュー、訪問回数、ユニーク訪問者などの指標にどのような影響を与えますか？
-データソースを通じてアップロードされたデータは、[&#x200B; ページビュー数 &#x200B;](/help/components/metrics/page-views.md)、[&#x200B; 訪問回数 &#x200B;](/help/components/metrics/visits.md)、または [&#x200B; ユニーク訪問者 &#x200B;](/help/components/metrics/unique-visitors.md) には影響しません。 影響を受けるデフォルトの指標は [&#x200B; 回数 &#x200B;](/help/components/metrics/occurrences.md) のみです。
++++データソースは、ページビュー数、訪問数、実訪問者数などの指標にどのような影響を与えますか？
+データソースを通じてアップロードされたデータは、[&#x200B; ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[&#x200B; ユニーク訪問者](/help/components/metrics/unique-visitors.md)には影響しません。 影響を与えるデフォルトの指標は[発生回数](/help/components/metrics/occurrences.md)のみです。
 +++
 
-+++データソースからアップロードされたデータは、処理ルールなどの追加処理を通じて実行されますか。
-いいえ。データソースを通じてアップロードされたデータ :
++++データソースを通じてアップロードされたデータは、処理ルールなどの追加の処理を通じて処理されますか？
+いいえ。 データソースを通じてアップロードされたデータ：
 
-* [&#x200B; 処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) を通過しない
-* [&#x200B; マーケティングチャネルの処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) を通過しない
-* [VISTA ルールを経由しない &#x200B;](/help/technotes/vista.md)
+* [処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を通過しません
+* [&#x200B; マーケティングチャネル処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を通過しません
+* [VISTA ルール &#x200B;](/help/technotes/vista.md)を実行しません
 +++
 
-+++データソースを使用して読み込まれたデータを削除できますか？
-はい。このデータは、[Data Repair API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) を使用して削除できます。 Adobeでは、データを削除する必要性を軽減するために、実稼動レポートスイートにアップロードする前にデータソースデータをテストレポートスイートにアップロードすることを強くお勧めします。
++++データソースを使用してインポートされたデータを削除できますか？
+はい。 このデータは、[&#x200B; データ修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)を使用して削除できます。 Adobeでは、データを削除する必要性を減らすために、データソースデータをテストレポートスイートにアップロードしてから、実稼動レポートスイートにアップロードすることを強くお勧めします。
 +++
 
-+++一度にインポートできるデータの量
-サイズが 50 MB を超えると一時停止し、合計が 50 MB を下回るまで再開されません。 FTP サイト上のすべてのファイルの合計サイズが 50 MB 未満であることを確認してください。
++++一度にどれだけのデータを読み込むことができますか？
+サイズが50 MBを超え、合計が50 MB未満になるまで処理が再開されない場合、処理は一時停止します。 FTP サイト上のすべてのファイルの合計サイズが50 MB未満であることを確認します。
 +++
 
-+++データソースからレポートに負の値を渡すとどうなりますか。
-それに応じて値が減少します。 組織によっては、データを修正するために負のデータソース値を使用します。 データソース値が負の場合、望ましくない場合や予期しない方法でレポートに影響を与える可能性があります。 Adobeでは、最後の手段として、データソースで負の値を使用することをお勧めします。
++++データソースを通じてレポートに負の値を渡すとどうなりますか？
+それに応じて値が減少します。 一部の組織では、データを修正するためにネガティブデータソースの値を使用しています。 負のデータソース値は、望ましくない可能性がある方法や予期しない方法でレポートに影響を与える可能性があります。 Adobeでは、最後の手段としてのみ、データソースで負の値を使用することをお勧めします。
 +++
 
-+++ファイル拡張子では大文字と小文字が区別されますか。
-はい。拡張子が `.TXT` または `.FIN` のファイルは処理されません。 ファイル拡張子がすべて小文字であることを確認します。
++++ファイル拡張子は大文字と小文字を区別しますか？
+はい。 拡張子が`.TXT`または`.FIN`のファイルは処理されません。 ファイル拡張子がすべて小文字であることを確認します。
 +++
 
-+++データソースファイルに追加できる列は何個ですか？
-データ ソース ファイルに含める列の数は、すべての列が有効な場合に任意に指定できます。 有効な変数名または列名のリストについては、[&#x200B; ファイル形式 &#x200B;](file-format.md) を参照してください。
++++データソースファイルに追加できる列の数は？
+すべての列が有効な場合は、必要な数の列をデータソースファイルに含めることができます。 有効な変数名/列名のリストについては、[&#x200B; ファイル形式](file-format.md)を参照してください。
 +++
 
-+++Adobeが提供する FTP の場所を使用せずにデータソースを使用することはできますか？
-[Data Sources API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/) を使用すると、API 呼び出しをAdobeに直接送信できます。 これらの API 呼び出しには、JSON オブジェクトペイロードでデータを送信できる `UploadData` メソッドが含まれています。
++++Adobeが提供するFTPの場所を使用せずにデータソースを使用できますか？
+[&#x200B; データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)を使用すると、API呼び出しをAdobeに直接送信できます。 これらのAPI呼び出しには`UploadData` メソッドが含まれており、JSON オブジェクトペイロードでデータを送信できます。
 +++

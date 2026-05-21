@@ -1,46 +1,58 @@
 ---
 title: bufferRequests
-description: ページを直ちにアンロードするブラウザーに対するリンクトラッキングリクエストのキャプチャの信頼性を高めます。
+description: ページをすぐにアンロードするブラウザーに対して、リンクトラッキングリクエストをキャプチャする信頼性を向上させます。
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
+TQID: https://experienceleague.adobe.com/HJdo1hCpisjHdOaTi8OP2tWSP2yAftEqfkCNXycFcrM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 6%
+source-wordcount: 474
+ht-degree: 7%
 
 ---
 
 # bufferRequests
 
-`bufferRequests()` メソッドを使用すると、イメージリクエストをAdobeに送信する代わりに、現在のページでキャッシュできます。 このメソッドのトリガーは、ブラウザーが [`navigator.sendBeacon()`](https://developer.mozilla.org/ja-JP/docs/Web/API/Navigator/sendBeacon) をサポートしていない場合や、ページの読み込み時に画像リクエストがキャンセルされる場合に便利です。 Safari などの多くのバージョンの WebKit ブラウザーは、リンクをクリックするとイメージリクエストを停止する動作を通常示します。 `bufferRequests()` の方法は、AppMeasurement v2.25.0 以降のすべてのバージョンで使用できます。
+`bufferRequests()` メソッドを使用すると、Adobeに画像リクエストを送信する代わりに、現在のページに画像リクエストをキャッシュできます。 このメソッドのトリガーは、ブラウザーが[`navigator.sendBeacon()`](https://developer.mozilla.org/ja-JP/docs/Web/API/Navigator/sendBeacon)をサポートしていない場合や、ページのアンロード時に画像要求をキャンセルする場合に便利です。 SafariなどのWebKit ブラウザーの多くのバージョンでは、一般的に、リンクをクリックすると画像リクエストを停止する動作が示されます。 `bufferRequests()` メソッドは、AppMeasurement v2.25.0以降のすべてのバージョンで使用できます。
 
-同じブラウザーセッション内の後続のページで [`t()`](t-method.md) または [`tl()`](tl-method.md) を呼び出し、そのページでまだ `bufferRequests()` が呼び出されていない場合、そのページのイメージリクエストに加えて、すべてのバッファーされたリクエストが送信されます。 バッファ・リクエストは正しい順序で送信されます。この順序では、現在のページのイメージ・リクエストが最後に送信されます。
+同じブラウザーセッションの後続ページで[`t()`](t-method.md)または[`tl()`](tl-method.md)を呼び出し、そのページで`bufferRequests()`がまだ呼び出されていない場合、そのページのイメージリクエストに加えてすべてのバッファリングされたリクエストが送信されます。 バッファリングされたリクエストは、現在のページの画像リクエストが最後に送信される正しい順序で送信されます。
 
 >[!TIP]
 >
->バッファーされた要求のタイムスタンプは、データが送信されたページと共有されます。 バッファされた要求が記録される正確な秒数でより正確な情報が必要な場合は、要求をバッファする前に [`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、「タイムスタンプ [&#x200B; オプション &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) が有効になっていることを確認します。有効になっていなければ、タイムスタンプが付いたすべてのヒットが完全に失われます。
+>バッファリングされたリクエストのタイムスタンプは、データが送信されるページと共有されます。 バッファリングされたリクエストが正確に2秒間に記録されるより高い精度が必要な場合は、リクエストのバッファリングの前に[`timestamp`](../page-vars/timestamp.md) ページ変数を設定できます。 この変数を使用する場合は、[&#x200B; タイムスタンプオプション &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md)が有効になっていることを確認してください。有効になっていない場合、すべてのタイムスタンプ付きヒットが完全に失われます。
 
 ## 制限事項
 
-`bufferRequests()` メソッドを呼び出す場合、次の制限事項に注意してください。 このメソッドでは [`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) を使用するので、次のように多くの同じ制限が適用されます。
+`bufferRequests()` メソッドを呼び出す場合は、次の制限事項に注意してください。 このメソッドは[`Window.sessionStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)を使用するため、同じ制限の多くが適用されます。
 
-* 宛先リンクは、同じドメインとサブドメインに存在する必要があります。 バッファーされたリクエストは、ドメインとサブドメインの両方が同じAdobe Analytics実装を持っている場合でも、両方のドメインで機能しません。 また、この制限により、バッファーされたリクエストを使用して離脱リンクを追跡することはできません。
-* 宛先リンクは、現在のページと同じプロトコルを使用する必要があります。 HTTP と HTTPS の間でバッファーされた要求を送信することはできません。
-* バッファ・リクエストは、最初に `t()` を呼び出さずに `tl()` または `bufferRequests()` を呼び出すか、ブラウザまたはタブが閉じられるまで保存されます。 Adobeに送信する前にブラウザーセッションが終了した場合、未送信のバッファリクエストは恒久的に失われます。
-* ブラウザーが [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) または [JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) をサポートしていない場合、警告がブラウザーコンソールに出力され、AppMeasurementは `t()` メソッドを使用してイメージリクエストを直ちに送信しようとします。
+* 宛先リンクは、同じドメインとサブドメインに存在する必要があります。 バッファリングされたリクエストは、同じAdobe Analytics実装を持っている場合でも、ドメインまたはサブドメイン間で機能しません。 この制限は、バッファリングされたリクエストを使用して終了リンクを追跡できないことを意味します。
+* 宛先リンクは、現在のページと同じプロトコルを使用する必要があります。 HTTPとHTTPSの間でバッファリングされたリクエストを送信することはできません。
+* バッファリングされた要求は、最初に`bufferRequests()`を呼び出さずに`t()`または`tl()`を呼び出すか、ブラウザーまたはタブが閉じられるまで保存されます。 そのデータをAdobeに送信する前にブラウザーセッションが終了すると、未送信のバッファリングされたリクエストは永続的に失われます。
+* ブラウザーが[Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)または[JSON API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)をサポートしていない場合、警告がブラウザーコンソールに出力され、AppMeasurementは`t()` メソッドを使用してイメージリクエストをすぐに送信しようとします。
 
-## Web SDKのバッファされたリクエスト
+## Web SDKでのバッファリングされたリクエスト
 
-Web SDKには、現在、リクエストをバッファリングする機能はありません。
+Web SDKは現在、リクエストをバッファリングする機能を提供していません。
 
-## Adobe Analytics拡張機能を使用したバッファーされたリクエスト
+## Adobe Analytics拡張機能を使用したバッファリング済みリクエスト
 
-Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementの s.bufferRequests （）と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurementのs.bufferRequests （）とAnalytics拡張機能のカスタムコードエディター
 
-`bufferRequests()` または `t()` を呼び出す前に、`tl()` メソッドを呼び出します。 `bufferRequests()` が呼び出されると、以降のトラッキングコールは、Adobe データ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
+`t()`または`tl()`を呼び出す前に、`bufferRequests()` メソッドを呼び出します。 `bufferRequests()`が呼び出されると、後続のトラッキング呼び出しは、Adobe データ収集サーバーに送信されるのではなく、セッションストレージに書き込まれます。
 
 ```js
 // Instantiate the tracking object

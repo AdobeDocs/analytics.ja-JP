@@ -1,21 +1,31 @@
 ---
-description: このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
+description: 検索方法ページでは、様々な検索方法レポートがサイト上のコンバージョン成功イベントに対するクレジットを受け取る方法を特定します。 例えば、検索エンジンが購入したサイトの訪問者を参照する場合、「検索方法」では、検索エンジンが紹介に対するクレジットを受け取る方法を指定します。
 title: 検索方法
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 48%
 
 ---
 
 # 検索方法
 
-このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
+検索方法ページでは、様々な検索方法レポートがサイト上のコンバージョン成功イベントに対するクレジットを受け取る方法を特定します。 例えば、検索エンジンが購入したサイトの訪問者を参照する場合、「検索方法」では、検索エンジンが紹介に対するクレジットを受け取る方法を指定します。
 
-**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定を編集]**/**[!UICONTROL コンバージョン]**/**[!UICONTROL 検索方法]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定の編集]** > **[!UICONTROL コンバージョン]** > **[!UICONTROL 検索方法]**
 
 ## 検索方法の説明 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -29,11 +39,11 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> 名前 </td> 
-   <td colname="col2"> 変更する検索方法 </td> 
+   <td colname="col2"> 修正する検索方法 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 配分 </td> 
-   <td colname="col2"> 参照用のクレジットを適用する方法を指定します。次の配分オプションがサポートされます。 <p> <span class="uicontrol">最新（最後）：</span>最後のリファラーに全クレジットを与えます。 </p> <p> <span class="uicontrol">元の値：</span>最初のリファラーに全クレジットを与えます。 </p> <p> <span class="uicontrol">線形：</span>すべてのリファラー間で等しく配分されます。 </p> </td> 
+   <td colname="col2"> 紹介に対するクレジットを適用する方法を指定します。 サポートされる配分オプションは次のとおりです。 <p> <span class="uicontrol">最新（最後）：</span>最後のリファラーに全クレジットを与えます。 </p> <p> <span class="uicontrol">元の値：</span>最初のリファラーに全クレジットを与えます。 </p> <p> <span class="uicontrol">線形：</span>すべてのリファラー間で等しく配分されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 有効期限 </td> 
@@ -56,4 +66,4 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->すべての検索方法は、その訪問が終了すると有効期限が切れます。「有効期限」を別のイベント（チェックアウトなど）に設定した場合、検索方法は訪問中にチェックアウトが発生した時点で有効期限が切れます。訪問中にチェックアウトが発生しなかった場合、検索方法はその訪問が終了すると有効期限が切れます。
+>すべての検索方法は、その訪問が終了すると有効期限が切れます。 別のイベント（買い物かごのチェックアウトなど）の後に有効期限を切ることを選択した場合、検索方法は、訪問中に買い物かごのチェックアウトが発生すると期限切れになります。 訪問中にカートのチェックアウトが発生しない場合でも、検索方法は訪問が終了したときに期限切れになります。

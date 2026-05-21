@@ -1,38 +1,48 @@
 ---
-description: 計算指標をタグ付けして、計算指標を整理する方法を説明します。
+description: 計算指標にタグを付けて計算指標を整理する方法について説明します。
 title: 計算指標のタグ付け
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/GcufWZx6B2e-vv8MFhMsaW34nqfr2XdEK1bQ931HzRk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 5%
+source-wordcount: 170
+ht-degree: 4%
 
 ---
 
 # 計算指標をタグ付け
 
 
-[&#x200B; 計算指標マネージャー &#x200B;](cm-manager.md) では、タグを使用して計算指標を整理できます。 管理者は、すべての計算指標にタグを付けることができます。 管理者以外のユーザーは、自分が作成または共有された計算指標にのみタグ付けできます。
+[計算指標マネージャー](cm-manager.md)では、タグを使用して計算指標を整理できます。 管理者は、すべての計算指標にタグを付けることができます。 管理者以外のユーザーは、作成した計算指標または共有された指標のみをタグ付けできます。
 
-1 つ以上の計算指標にタグを付けるには：
+1つ以上の計算指標にタグを付けるには：
 
-1. [&#x200B; 計算指標マネージャー &#x200B;](cm-manager.md) で、タグ付けする計算指標を 1 つ以上選択します。
-1. アクションバーから、「![&#x200B; ラベル &#x200B;](/help/assets/icons/Labels.svg) **[!UICONTROL タグ]**」を選択します。
-1. **[!UICONTROL 計算指標をタグ付け]** ダイアログで
+1. [計算指標マネージャー](cm-manager.md)で、タグ付けする1つ以上の計算指標を選択します。
+1. アクションバーから、![&#x200B; ラベル &#x200B;](/help/assets/icons/Labels.svg) **[!UICONTROL タグ]**&#x200B;を選択します。
+1. **[!UICONTROL 計算指標のタグ付け]** ダイアログで
 
-   ![&#x200B; 計算指標をタグ付けダイアログ &#x200B;](assets/tag-calculated-metric-dialog.png)
+   ![計算指標のタグ付けダイアログ &#x200B;](assets/tag-calculated-metric-dialog.png)
 
-   1. （オプション） ![&#x200B; 検索 &#x200B;](/help/assets/icons/Search.svg) を使用して、タグのリストを検索および制限します。
+   1. （オプション）タグのリストを検索して制限するには、![検索](/help/assets/icons/Search.svg)を使用します。
 
-   2. タグのリストに基づく：
+   2. タグのリストに基づいて、次の操作を行います。
 
-      * リストから 1 つ以上の既存のタグを選択する。または
-      * 新しいタグを入力し、**[!UICONTROL Enter]** キーを押します。 繰り返して、複数の新しいタグを追加します。
+      * リストから1つ以上の既存のタグを選択するか
+      * 新しいタグを入力し、**[!UICONTROL ENTER]**&#x200B;を押します。 これを繰り返して、複数の新しいタグを追加します。
 
-1. 「**[!UICONTROL 保存]**」を選択して、計算指標のタグを保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
+1. 計算指標のタグを保存するには、**[!UICONTROL 保存]**&#x200B;を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-保存すると、タグは、[!UICONTROL &#x200B; 計算指標ビルダー &#x200B;] で選択した計算指標の [&#x200B; タグ &#x200B;](cm-tagging.md) フィールドにリストされます。
+保存すると、タグは、[計算指標ビルダー](cm-tagging.md)で選択した計算指標の[!UICONTROL &#x200B; タグ &#x200B;] フィールドに一覧表示されます。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.

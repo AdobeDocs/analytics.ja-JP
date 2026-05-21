@@ -1,28 +1,39 @@
 ---
-description: タグ、レポートスイート、所有者、その他のフィルターで計算指標をフィルタリングする方法を説明します。
-title: 計算指標のリストのフィルタリング
+description: タグ、レポートスイート、所有者およびその他のフィルターによって計算指標をフィルタリングする方法について説明します。
+title: 計算指標のリストをフィルタリング
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/3amToaBS5eukMLQiJGzwEu2-bSIwZTEKFPXIQkWKN-s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: 141
 ht-degree: 27%
 
 ---
 
-# 計算指標のリストのフィルタリング
+# 計算指標のリストをフィルタリング
 
-計算指標のリストをフィルタリングできます。 計算指標に対してフィルターを使用すると、使用可能な計算指標を簡単に見つけたり、[&#x200B; 計算指標マネージャー &#x200B;](cm-manager.md) から計算指標を管理したりできます。
+計算指標のリストをフィルタリングできます。 計算指標にフィルターを使用すると、使用可能な計算指標を簡単に検索し、[計算指標マネージャー](cm-manager.md)から計算指標を管理できます。
 
 
 計算指標のリストをフィルタリングするには：
 
-1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
-1. 使用可能ないずれかの [&#x200B; フィルターセクション &#x200B;](#filter-sections) からフィルターを選択します。
+1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。 フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
+1. 使用可能な[&#x200B; フィルターセクション &#x200B;](#filter-sections)からフィルターを選択します。
 
    >[!INFO]
    >
-   >*項目* [&#x200B; 計算指標リスト &#x200B;](cm-manager.md#filters-list) に表示されるフィルター項目を参照します。
+   >*項目*&#x200B;は、[計算指標リスト &#x200B;](cm-manager.md#filters-list)に表示されるフィルター項目を参照します。
    > 
 
 ## フィルターセクション
@@ -33,7 +44,7 @@ ht-degree: 27%
 {{otherfiltersfiltersection}}
 
 
-[&#x200B; 計算指標リスト &#x200B;](cm-manager.md#filters-list) は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](cm-manager.md#active-filter-bar)で確認できます。
+[計算指標リスト &#x200B;](cm-manager.md#filters-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](cm-manager.md#active-filter-bar)で確認できます。
 
 
 

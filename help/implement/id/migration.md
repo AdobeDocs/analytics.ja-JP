@@ -1,41 +1,56 @@
 ---
-title: Adobe Analyticsの訪問者 ID サービス移行に関する考慮事項
-description: Adobe Analyticsと訪問者 ID サービスのインターフェイスの概要です。
-source-git-commit: f682f9c8533536e9b33f320f2a420055c6f4e397
+title: Adobe Analyticsの訪問者ID サービスの移行に関する考慮事項
+description: Adobe AnalyticsとVisitor ID サービスのインターフェイスの概要。
+exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
+TQID: https://experienceleague.adobe.com/NnZ-Vv2M5cWkfekbVX1B-dFesdtxy50fMdTlwPYviYQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 671
 ht-degree: 0%
 
 ---
 
-# Adobe Analyticsの訪問者 ID サービス移行に関する考慮事項
+# Adobe Analyticsの訪問者ID サービスの移行に関する考慮事項
 
-組織が、既存の Analytics 実装を使用して訪問者 ID サービスへの移行を計画している場合は、考慮すべき重要なトピックがいくつかあります。 これらの考慮事項を使用すると、訪問者 ID の整合性を維持し、既存の Analytics 実装が存在する場合に ID サービスがどのように動作するかを把握できます。
+既存のAnalytics実装を使用して訪問者ID サービスに移行する場合は、考慮すべき重要なトピックがいくつかあります。 これらの考慮事項により、訪問者IDの整合性を維持し、既存のAnalytics実装の存在下でID サービスがどのように動作するかを理解できます。
 
 >[!TIP]
 >
->ここでは、既存のAppMeasurementまたは Analytics 拡張機能の実装にのみ適用され、訪問者 ID サービスの追加または Web SDKの実装へのアップグレードを行います。 つまり、実装では従来の Analytics ID （`aid`）を使用し、Experience Cloud ID （`mid`）の使用に向かって進んでいます。 すべての web SDK実装では、デフォルトで既にExperience Cloud ID （`mid`）が使用されています。
+>このページは、既存のAppMeasurementまたはAnalytics拡張機能の実装にのみ適用され、訪問者ID サービスを追加するか、Web SDKの実装にアップグレードしています。 言い換えれば、実装では従来のAnalytics ID （`aid`）を使用し、Experience Cloud ID （`mid`）を使用する方向に進んでいます。 すべてのWeb SDKの実装では、デフォルトで既にExperience Cloud ID （`mid`）が使用されています。
 
-## 訪問者 ID サービスと従来の Analytics 訪問者 Cookie のインターフェイス
+## 訪問者ID サービスと従来のAnalytics訪問者Cookieのインターフェイス
 
-AppMeasurementには訪問者を識別する独自の方法があるので、組織が訪問者 ID サービスをデプロイすると、一部の訪問者は従来の Analytics Cookie を使用する場合があります。 様々な状況下で訪問者がどのように識別されるかを次に示します。
+AppMeasurementには訪問者を識別する独自のメソッドがあるため、組織が訪問者ID サービスをデプロイする際に、一部の訪問者に従来のAnalytics Cookieが使用される場合があります。 次のリストは、様々な状況で訪問者がどのように識別されるかを示しています。
 
-* **訪問者 Cookie がありません**:ID サービスがExperience Cloud ID （`mid`）を割り当てます。
-* **`s_vi` Cookie が存在する**:ID サービスは、Experience Cloud ID （`aid`）に加えて、既存の従来の Analytics ID （`AMCV`）を `mid` Cookie に書き込みます。 `aid` は [&#x200B; 操作の順序 &#x200B;](overview.md) が上位にあるので、`AMCV` の Cookie の有効期限が切れるかクリアされるまで、従来の Analytics ID が訪問者 ID になります。 猶予期間が有効になっている場合、ID サービスは応答に `mid` と `aid` の両方を含めます。
-* **フォールバック cookie が存在する**:ID サービスは、フォールバック cookie （`fid`）を `AMCV` cookie に書き込みません。 代わりに、訪問者は、新規訪問者であるかのようにExperience Cloud ID （`mid`）を受け取ります。
+* **訪問者Cookieがありません**: ID サービスはExperience Cloud ID （`mid`）を割り当てます。
+* **`s_vi` Cookieが存在します**: ID サービスは、既存のAnalytics ID （`aid`）を、Experience Cloud ID （`mid`）に加えて`AMCV` Cookieに書き込みます。 `aid`は[操作の順序](overview.md)で上位に表示されるため、従来のAnalytics IDは、`AMCV` Cookieが期限切れになるか消去されるまで、訪問者IDになります。 猶予期間が有効になっている場合、ID サービスは応答に`mid`と`aid`の両方を含めます。
+* **フォールバッククッキーが存在します**: ID サービスは、フォールバッククッキー（`fid`）を`AMCV` Cookieに書き込みません。 代わりに、新規の訪問者であるかのように、Experience Cloud ID （`mid`）が表示されます。
 
-## 訪問者 ID サービスの猶予期間
+## 訪問者ID サービス猶予期間
 
-同じレポートスイートにデータを送信する実装が複数あり、一部の実装でのみ訪問者 ID サービスを実装できる場合、Adobeでは猶予期間を設定することをお勧めします。 例えば、サイトのサポートセクションが別のタグ付けソリューションで管理されている場合、訪問者 ID サービスをサポートセクションの前のサイトの残りの部分にデプロイすることができます。 猶予期間がないと、サポートセクションを表示する新規訪問者に従来の Analytics 訪問者 ID が与えられるので、2 人の異なる訪問者がカウントされます。 猶予期間が設定されている場合、訪問者 ID サービスはExperience Cloud ID （`mid`）と従来の Analytics 訪問者 ID （`aid`）の両方を発行するので、ID サービスのないサイトの領域で訪問者の識別の一貫性が保たれます。
+同じレポートスイートにデータを送信する複数の実装があり、一部の実装にのみVisitor ID サービスを実装できる場合は、Adobeでは猶予期間を設定することをお勧めします。 例えば、サイトのサポートセクションが別のタグ付けソリューションによって管理されている場合、サポートセクションの前に訪問者ID サービスがサイトの他の部分にデプロイされている可能性があります。 猶予期間がない場合、サポートセクションを表示する新規訪問者には従来のAnalytics訪問者IDが付与され、2人の個別の訪問者がカウントされます。 猶予期間が設定されると、訪問者ID サービスはExperience Cloud ID （`mid`）と従来のAnalytics訪問者ID （`aid`）の両方を発行し、ID サービスのないサイトの領域が訪問者を識別する一貫性を維持できるようにします。
 
-サイトのすべてのエリアにわたって訪問者 ID サービスのデプロイメントを調整する場合は、猶予期間は必要ありません。 猶予期間を設定するには、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html) にお問い合わせください。 猶予期間は最大 180 日間設定でき、更新できます。 Adobeでは、ID サービスを使用するようにプロパティ全体が設定されたら、猶予期間を停止することをお勧めします。
+サイトのすべての領域をまたいで訪問者ID サービスのデプロイメントを調整する場合は、猶予期間は必要ありません。 猶予期間を設定するには、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)にお問い合わせください。 猶予期間は最大180日間まで設定でき、更新できます。 Adobeでは、プロパティ全体でID サービスを使用するように設定した後、猶予期間を終了することをお勧めします。
 
-## クロスドメイントラッキング
+## クロスドメインにわたる追跡
 
-一部の従来の Analytics 訪問者 ID 実装では、「わかりやすいサードパーティ Cookie」を使用する場合があります。このような場合、2 つのドメインが `data.example.com` のような共通のドメインで同じ訪問者 Cookie を共有します。 フレンドリ Cookie は依然としてサードパーティ Cookie なので、多くの最新のブラウザーはそれらを拒否し、Analytics が訪問者の識別にフォールバック ID （`fid`）に依存する原因となります。 ID サービスに移行すると、すべてのドメインがファーストパーティコンテキストで `AMCV` Cookie を設定できるようになり、訪問者 ID を保持する能力が向上します。
+一部のレガシーAnalytics訪問者ID実装では、「フレンドリーなサードパーティ Cookie」を使用する場合があります。この場合、2つのドメインが`data.example.com`のような共通ドメインで同じ訪問者Cookieを共有します。 フレンドリーなサードパーティ Cookieは引き続きサードパーティ Cookieであるため、多くの最新のブラウザーでは拒否され、Analyticsは訪問者の識別にフォールバック ID （`fid`）に依存します。 ID サービスに移行すると、すべてのドメインがファーストパーティのコンテキストで`AMCV` Cookieを設定できるようになり、訪問者IDを保持する実行可能性が高まります。
 
-訪問者 ID サービスは、クロスドメイントラッキング用のサードパーティ Cookie （[`demdex` Cookie](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/cookies)）を設定しようとしますが、多くの場合、最新のブラウザーによって拒否されます。 [`appendVisitorIDsTo`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/appendvisitorid) メソッドを使用して、所有するドメイン間で訪問者のExperience Cloud ID （`mid`）を渡すことを検討してください。
+訪問者ID サービスは、クロスドメインのトラッキング用にサードパーティ Cookie （[`demdex` Cookie](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/cookies)）を設定しようとしますが、多くの場合、最新のブラウザーによって拒否されます。 所有しているドメイン間で訪問者のExperience Cloud ID （`mid`）を渡すために、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/appendvisitorid) メソッドの使用を検討してください。
 
 ## サーバーサイドトラッキング
 
-[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getmcvid) を呼び出してExperience Cloud ID （`mid`）を取得し、[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) を呼び出して従来の Analytics ID （`aid`）を取得できます。 Adobeでは、訪問者特定ロジックを保持するために、両方のを確認することをお勧めします。
+[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getmcvid)を呼び出してExperience Cloud ID （`mid`）を取得し、[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)を呼び出して従来のAnalytics ID （`aid`）を取得できます。 Adobeでは、訪問者識別ロジックを保持するために、両方を確認することをお勧めします。
