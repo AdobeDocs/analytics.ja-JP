@@ -4,11 +4,17 @@ description: 一意のデバイスの数。
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 TQID: https://experienceleague.adobe.com/7KUpaGPuFGBHTXj8L4MKnjOsi1YQtA8KUCIXSa-NtXc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 266
@@ -18,7 +24,7 @@ ht-degree: 73%
 
 # 一意のデバイス
 
-「一意のデバイス」指標[指標](overview.md)は、一意の未識別のデバイスと一意の仮想デバイスの数をカウントする[ クロスデバイス分析](../cda/overview.md)指標です。 未識別のデバイスとは、匿名のヒットを生成したデバイスのことです。 一意の仮想デバイスとは、デバイスごとに識別される個別のユーザーです。
+「一意のデバイス」指標[指標](overview.md)は、一意の未識別のデバイスと一意の仮想デバイスの数をカウントする[&#x200B; クロスデバイス分析](../cda/overview.md)指標です。 未識別のデバイスとは、匿名のヒットを生成したデバイスのことです。 一意の仮想デバイスとは、デバイスごとに識別される個別のユーザーです。
 
 ## この指標の計算方法
 

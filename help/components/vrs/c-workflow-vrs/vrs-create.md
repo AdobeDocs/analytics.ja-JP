@@ -5,10 +5,19 @@ title: 仮想レポートスイートの作成
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 697
@@ -70,9 +79,9 @@ ht-degree: 41%
 ![](assets/components.png)
 
 1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-仮想レポートスイートのキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション ](/help/components/vrs/vrs-components.md)を参照してください。
+仮想レポートスイートのキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション &#x200B;](/help/components/vrs/vrs-components.md)を参照してください。
 
-1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、日付範囲）を、[!UICONTROL 含まれるコンポーネント ] セクションにドラッグします。
+1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、日付範囲）を、[!UICONTROL 含まれるコンポーネント &#x200B;] セクションにドラッグします。
 
 1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 

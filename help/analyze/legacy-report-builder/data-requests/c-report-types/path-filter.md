@@ -5,9 +5,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 427
@@ -35,11 +40,11 @@ ht-degree: 57%
 
 1. ウィザードの手順 2 の「**[!UICONTROL 行ラベル]**」で、「**[!UICONTROL 上位 1 ～ 10（パターン適用）]**」リンクをクリックします。 パスレポートに、デフォルトでパターンが適用されます。
 
-   既定のパス パターンを示す![ スクリーンショット。](assets/site_section_path_2.png)
+   既定のパス パターンを示す![&#x200B; スクリーンショット。](assets/site_section_path_2.png)
 
 1. 「**[!UICONTROL フィルター]**」オプションを選択します。
 
-   フィルターオプションを強調表示する![ スクリーンショット。](assets/filter_option.png)
+   フィルターオプションを強調表示する![&#x200B; スクリーンショット。](assets/filter_option.png)
 
 1. **[!UICONTROL 「サイトセクションのパス」のパスパターンを定義]**&#x200B;ダイアログボックスで、次の項目を指定できます。
    * 最初のレポートの開始ランク。
@@ -62,19 +67,19 @@ ht-degree: 57%
 
 1. 上記の手順から続けて、パターンを選択します。 例えば、**[!UICONTROL Exited Site Pattern]**&#x200B;を選択します。
 
-   選択したパターンを強調表示する![ スクリーンショット。](assets/exited_site_pattern.png)
+   選択したパターンを強調表示する![&#x200B; スクリーンショット。](assets/exited_site_pattern.png)
 
 1. ユーザーが終了する前に従うサイトセクションのパスを定義します。 「**[!UICONTROL 特定アイテム：0 個選択されました]**」をクリックします。 このパスを定義するには、既存のリクエストを編集する場合は、セルの範囲から選択するか、セクションのリストから選択します。
 
 1. 過去のリクエストのセルの範囲から選択するには、「**[!UICONTROL セル範囲から選択]**」を選択して、セルセレクターアイコンをクリックします。 次に、レポートからセルを選択します。
 
-   ![ セル範囲またはリストから選択するオプションを示すスクリーンショット。](assets/choose_site_section_paths.png)
+   ![&#x200B; セル範囲またはリストから選択するオプションを示すスクリーンショット。](assets/choose_site_section_paths.png)
 
 1. サイトセクションのリストから選択するには、「**[!UICONTROL リストから選択]**」を選択して、「**[!UICONTROL 追加]**」をクリックします。
 
 1. 「**[!UICONTROL 使用可能な要素]**」列から要素を選択し、オレンジ色の矢印をクリックして、「**[!UICONTROL 選択された要素]**」列に要素を移動します。 「**[!UICONTROL OK]**」をクリックします。
 
-   使用可能な要素と選択した要素を示す![ スクリーンショット。](assets/move_site_section_elements.png)
+   使用可能な要素と選択した要素を示す![&#x200B; スクリーンショット。](assets/move_site_section_elements.png)
 
 1. 作成したパターンを保存するには、「**[!UICONTROL 保存]**」をクリックします。
 

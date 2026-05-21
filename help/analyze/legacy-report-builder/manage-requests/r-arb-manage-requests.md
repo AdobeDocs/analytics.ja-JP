@@ -6,10 +6,17 @@ feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 563
@@ -25,7 +32,7 @@ ht-degree: 26%
 
 ## 概要 {#section_75C288C945FA4781A4EDF806711A5660}
 
-[!UICONTROL  リクエストマネージャー]には、すべてのシートまたはアクティブなワークブックの1枚のシートに対して作成したすべてのリクエストのステータスの詳細が表示されます。 また、リクエストを追加、編集、更新、削除することもできます。 これらの関数は、通常、以前のリクエストを含むExcel スプレッドシートで使用可能なセルを右クリックすると、[!UICONTROL  リクエストウィザード ]および[!UICONTROL  リクエストマネージャー]に関連付けられます。
+[!UICONTROL &#x200B; リクエストマネージャー]には、すべてのシートまたはアクティブなワークブックの1枚のシートに対して作成したすべてのリクエストのステータスの詳細が表示されます。 また、リクエストを追加、編集、更新、削除することもできます。 これらの関数は、通常、以前のリクエストを含むExcel スプレッドシートで使用可能なセルを右クリックすると、[!UICONTROL &#x200B; リクエストウィザード &#x200B;]および[!UICONTROL &#x200B; リクエストマネージャー]に関連付けられます。
 
 Report Builder ツールバーの&#x200B;**[!UICONTROL 管理]** ![](assets/edit_request.gif)をクリックすると、[!UICONTROL Request Manager]が表示されます。
 

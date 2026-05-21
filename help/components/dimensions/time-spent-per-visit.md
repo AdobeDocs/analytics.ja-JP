@@ -4,10 +4,16 @@ description: 訪問に費やした合計時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 TQID: https://experienceleague.adobe.com/jtBAAq-Pe0PyCQJPwvzwnK9eLv14CxTvrVQP4lvWy7k
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 304
@@ -17,7 +23,7 @@ ht-degree: 91%
 
 # 訪問別滞在時間
 
-*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[ ディメンション ](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
+*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
 
 「訪問別滞在時間」ディメンションは、訪問者が訪問全体で滞在した時間を記録します。 次の手順を使用して計算を測定します。
 

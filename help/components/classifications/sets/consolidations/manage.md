@@ -4,10 +4,15 @@ description: 1つ以上の分類セットを単一の分類セットに統合す
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
 TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 597
@@ -45,7 +50,7 @@ ht-degree: 5%
 |---|---|
 | **[!UICONTROL 統合名]** | 分類セット統合の名前。 |
 | **[!UICONTROL 現在のジョブ]** | 分類セット統合に関連付けられているジョブ。 |
-| **[!UICONTROL ステータス]** | 分類セット統合のステータス。 可能な値は次のとおりです。**[!UICONTROL 作成済み]**、**[!UICONTROL キャンセル済み]**、**[!UICONTROL キャンセル]**、**[!UICONTROL 検証中]**、**[!UICONTROL 検証失敗]**、**[!UICONTROL 検証済み]**、**[!UICONTROL 比較中]**、**[!UICONTROL 比較失敗]**、**[!UICONTROL 統合]**、**[!UICONTROL 送信済み]**、**[!UICONTROL 統合に失敗]**、****、**[!UICONTROL 承認待ち]**、**[!UICONTROL 最終処理]**、**[!UICONTROL 失敗]**、**[!UICONTROL 完了]**。**** |
+| **[!UICONTROL ステータス]** | 分類セット統合のステータス。 可能な値は次のとおりです。**[!UICONTROL 作成済み]**、**[!UICONTROL キャンセル済み]**、**[!UICONTROL キャンセル]**、**[!UICONTROL 検証中]**、**[!UICONTROL 検証失敗]**、**[!UICONTROL 検証済み]**、**[!UICONTROL 比較中]**、**[!UICONTROL 比較失敗]**、**[!UICONTROL 統合]**、**[!UICONTROL 送信済み]**、**[!UICONTROL 統合に失敗]**、**&#x200B;**、**[!UICONTROL 承認待ち]**、**[!UICONTROL 最終処理]**、**[!UICONTROL 失敗]**、**[!UICONTROL 完了]**。**&#x200B;** |
 | **[!UICONTROL 作成時間]** | 分類セット統合の作成時間。 |
 | **[!UICONTROL 完了時間]** | 分類統合の完了時間。 |
 
@@ -76,18 +81,18 @@ ht-degree: 5%
 | アイコン | アクション | 説明 |
 |---|---|---|
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 編集]** | [分類セットの統合を編集](process.md#edit-a-consolidation) |
-| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL 表示]** | 分類セット統合の詳細を表示します。 ステータスに応じて、統合を[承認](process.md#approve)または[ キャンセル ](process.md#cancel)できます。 |
+| ![ViewDetail](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL 表示]** | 分類セット統合の詳細を表示します。 ステータスに応じて、統合を[承認](process.md#approve)または[&#x200B; キャンセル &#x200B;](process.md#cancel)できます。 |
 
 
 ### フィルターパネル
 
-![ フィルター](/help/assets/icons/Filter.svg)を選択すると、分類の統合リストをフィルターできるフィルターパネル ➍が表示されます。 次の条件でフィルタリングできます。
+![&#x200B; フィルター](/help/assets/icons/Filter.svg)を選択すると、分類の統合リストをフィルターできるフィルターパネル ➍が表示されます。 次の条件でフィルタリングできます。
 
 * **[!UICONTROL ステータス]**。 使用可能な値の1つを選択して、ステータスに関する分類統合リストをフィルタリングします。 |
 * **[!UICONTROL 完了時間]**。 使用可能な値の1つを選択して、完了時間に分類の統合リストをフィルタリングします。
 * **[!UICONTROL 作成時間]**。 使用可能な値の1つを選択して、完了時間に分類の統合リストをフィルタリングします。
 
 
-「![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルターを非表示]**」を選択して、フィルターパネルを非表示にします。
+「![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルターを非表示]**」を選択して、フィルターパネルを非表示にします。
 
 フィルターパネルに表示されるフィルターは、プリロードされた分類統合のオプションを反映していることに注意してください。

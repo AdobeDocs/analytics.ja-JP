@@ -4,11 +4,18 @@ description: Attribution と Customer Journey Analytics でのマーケティン
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 669
@@ -40,7 +47,7 @@ ht-degree: 78%
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデルで使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。 この場合、Adobeでは、ファーストタッチ/ラストタッチ用の分類](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)を[作成し、ダイレクトチャネルとセッションリフレッシュチャネルを未分類のままにすることをお勧めします。 分類されたディメンションでは、これらのチャネルが設定されなかった場合と同様のアトリビューション結果が得られます。
+組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。 この場合、Adobeでは、ファーストタッチ/ラストタッチ用の分類[&#128279;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)を作成し、ダイレクトチャネルとセッションリフレッシュチャネルを未分類のままにすることをお勧めします。 分類されたディメンションでは、これらのチャネルが設定されなかった場合と同様のアトリビューション結果が得られます。
 
 ![](assets/direct-session-refresh.png)
 

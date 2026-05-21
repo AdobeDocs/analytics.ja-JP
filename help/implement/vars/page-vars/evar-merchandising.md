@@ -6,9 +6,14 @@ exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/JqGAROITuNweukfIg2t-OLC4Pf-8qb0XINZNAvi3xZs
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 573
@@ -115,7 +120,7 @@ s.products = ";Canary";
 
 ### Web SDK を使用したコンバージョン変数構文
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[ イベント ](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 

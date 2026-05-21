@@ -5,10 +5,18 @@ role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
 TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 573
@@ -190,7 +198,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-[Adobe Experience League](https://experienceleague.adobe.com/?lang=ja)にオンボーディングして、[ ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics)、[ チュートリアル ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)などにアクセスし、成功を支援します。
+[Adobe Experience League](https://experienceleague.adobe.com/?lang=ja)にオンボーディングして、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics)、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)などにアクセスし、成功を支援します。
 
 
 ## Adobe Admin Console
@@ -209,7 +217,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Adobe Experience Leagueにオンボーディングして[ サポートケースを立ち上げ、アクティブなケースと過去のケースを確認](https://experienceleague.adobe.com/home#support)します。
+Adobe Experience Leagueにオンボーディングして[&#x200B; サポートケースを立ち上げ、アクティブなケースと過去のケースを確認](https://experienceleague.adobe.com/home#support)します。
 
 
 ## Adobe Analytics

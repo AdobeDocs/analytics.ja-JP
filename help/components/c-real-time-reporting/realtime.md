@@ -5,11 +5,23 @@ topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 TQID: https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -23,7 +35,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->リアルタイムレポートでは、追加の実装やタギングは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[ リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
+>リアルタイムレポートでは、追加の実装やタギングは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[&#x200B; リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
 
 ## リアルタイムのレポートにアクセス
 
@@ -57,7 +69,7 @@ ht-degree: 19%
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較します。
 
-永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[ リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
+永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[&#x200B; リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
 
 リアルタイムレポートの設定と表示は、「すべてのレポートアクセス」および「詳細レポート」権限グループの管理者またはユーザーに制限されます。 ただし、Real-Timeでは権限が尊重されます。 例えば、収益を表示する権限がない場合、収益データを含むリアルタイムのレポートを表示することはできません。
 

@@ -4,11 +4,21 @@ description: Adobe Analyticsで有料検索の指標（Google Ads、Microsoft Ad
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -18,7 +28,7 @@ ht-degree: 77%
 
 # [!UICONTROL データソース]を使用した[!UICONTROL 有料検索]指標のインポート
 
-多くのマーケティング組織にとって、有料検索は、新規顧客にリーチしつつ既存顧客を維持するための最も有益で信頼性の高い方法の 1 つです。 Adobe Analyticsの[!UICONTROL  データソース ]機能を使用すると、Google Adsなどのデジタル広告プラットフォームから高度な有料検索データを簡単にインポートできます。 そのデータを、オンサイト行動データや顧客属性データと共に、他のマーケティングデータと統合して、組織の有料検索の取り組みに対するより優れたインサイトを得ることができます。
+多くのマーケティング組織にとって、有料検索は、新規顧客にリーチしつつ既存顧客を維持するための最も有益で信頼性の高い方法の 1 つです。 Adobe Analyticsの[!UICONTROL &#x200B; データソース &#x200B;]機能を使用すると、Google Adsなどのデジタル広告プラットフォームから高度な有料検索データを簡単にインポートできます。 そのデータを、オンサイト行動データや顧客属性データと共に、他のマーケティングデータと統合して、組織の有料検索の取り組みに対するより優れたインサイトを得ることができます。
 
 これらの手順では、広告との統合を設定してキーワードデータや、インプレッション数、クリック数、クリック単価などの指標を読み込む方法を説明します。
 
@@ -72,7 +82,7 @@ ht-degree: 77%
 1. 「**[!UICONTROL 次へ]**」をクリックして、データソースに名前を付けます。 この名前は、データソースマネージャーに表示されます。
 1. サービス使用許諾契約に同意し、「**[!UICONTROL 次へ]**」をクリックします。
 1. 「[!UICONTROL インプレッション数]」、「[!UICONTROL クリック数]」および「[!UICONTROL 合計コスト]」の 3 つの標準指標を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-1. この新しいデータソースを、[成功イベント ](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)で作成したカスタムイベントに「マッピング」します。
+1. この新しいデータソースを、[成功イベント &#x200B;](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)で作成したカスタムイベントに「マッピング」します。
 
    ![マッピング](assets/data-source-mapping.png)
 
@@ -106,8 +116,8 @@ Google Ads、Microsoft Advertising、その他のPPC アカウントの場合は
 1. 上部にある余分な行を削除します。
 1. トラッキングコードを宛先URLから分離するには：
 a. すべての列のデータをコピーして貼り付けます。
-b. **[!UICONTROL データ/テキストから列]**をクリックします。
-c. ウィザードの手順1で、**[!UICONTROL 区切り]**&#x200B;が選択されていることを確認し、**[!UICONTROL 次へ]**をクリックします。
+b. **[!UICONTROL データ/テキストから列]**&#x200B;をクリックします。
+c. ウィザードの手順1で、**[!UICONTROL 区切り]**&#x200B;が選択されていることを確認し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 d. ウィザードの手順2で、URLの作成方法に応じて区切り文字を指定します（または？）。 または &amp;）に応じて区切り文字を指定し、「**[!UICONTROL 次へ]**」をクリックします。
 e. ウィザードの手順3で、データをプレビューし、列の1つが「trackingcodename=trackingcode」であることを確認します。 変数を追加する場合は、（&amp; を区切り文字として使用して）これらの手順を繰り返します。
 f. トラッキングコード、インプレッション数、クリック数、コスト以外のすべての列を削除します。 「日付」という新しい列を追加し、日付 :: トラッキングコード :: インプレッション数 :: クリック数 :: コストの順序で列を整理します。

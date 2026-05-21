@@ -6,9 +6,14 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 TQID: https://experienceleague.adobe.com/yY1Sl6vEWRb-62SzM5e5qxt5lZPHeg-LU5ZiUNb5z8Q
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 451
@@ -28,7 +33,7 @@ ht-degree: 28%
 
 **[!UICONTROL 最も人気のあるフィルター]** / **[!UICONTROL フィルターを定義]** パネルのフィルターに関する情報。
 
-アプリケーション、ユーザー、およびプロジェクトでフィルターを適用するオプションを含むフィルターを定義ダイアログを表示する![ スクリーンショット。](/help/admin/tools/assets/filter.png)
+アプリケーション、ユーザー、およびプロジェクトでフィルターを適用するオプションを含むフィルターを定義ダイアログを表示する![&#x200B; スクリーンショット。](/help/admin/tools/assets/filter.png)
 
 次の表に、フィルターに関する例と情報を示します。
 
