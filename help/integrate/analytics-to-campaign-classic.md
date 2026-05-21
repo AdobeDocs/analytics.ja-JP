@@ -23,4 +23,4 @@ ht-degree: 52%
 
 # Adobe Analytics と Campaign Classic を統合
 
-Adobe Analytics データのCampaign Classicへの統合について詳しくは、[Adobe Analytics Connectorのプロビジョニング &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning)を参照してください。
+Adobe Analytics データのCampaign Classicへの統合について詳しくは、[Adobe Analytics Connectorのプロビジョニング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning)を参照してください。

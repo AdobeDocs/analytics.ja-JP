@@ -69,4 +69,4 @@ s.visitorID = "abc123";
 
 ## Web SDKを使用した訪問者ID
 
-Adobe Experience Platform Edge Networkでは、XDMの[ID マップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [&#x200B; データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。
+Adobe Experience Platform Edge Networkでは、XDMの[ID マップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=ja#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [&#x200B; データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。
