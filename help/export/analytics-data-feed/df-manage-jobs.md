@@ -3,19 +3,21 @@ title: データフィードジョブの管理
 description: データフィードで個々のジョブを管理する方法について説明します。 インターフェイスを移動し、フィルターと検索を使用して、列定義を検索します。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-TQID: https://experienceleague.adobe.com/gbbWfT4BTiEfr41Og6ICrB5qfQVJGUmaZaf85ZcB6ww
+TQID: 'https://experienceleague.adobe.com/4ACex-y-w3ppGhC1tRX8qH4WeU1NT9ubcJBlhSh9sY0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -82,7 +84,7 @@ ht-degree: 20%
 
 1つ以上のデータフィードのジョブを再送信するには：
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 再送信するジョブを含むデータフィードの横にあるチェックボックスをオンにし、[!UICONTROL **ジョブ履歴**]&#x200B;を選択します。
 
@@ -98,7 +100,7 @@ ht-degree: 20%
 
 1つ以上のデータフィードのジョブを再処理するには：
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 再処理するジョブを含むデータフィードの横にあるチェックボックスをオンにし、[!UICONTROL **ジョブ履歴**]&#x200B;を選択します。
 

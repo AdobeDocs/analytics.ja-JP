@@ -4,20 +4,22 @@ description: Adobe Analytics デジタルエクスペリエンス オンボー�
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+TQID: 'https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
 ht-degree: 15%

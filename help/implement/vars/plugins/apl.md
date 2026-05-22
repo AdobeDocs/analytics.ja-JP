@@ -4,11 +4,14 @@ description: 複数の値をサポートする変数に値を追加します。
 feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0
+TQID: 'https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -17,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 718
 ht-degree: 89%

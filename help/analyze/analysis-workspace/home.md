@@ -4,7 +4,8 @@ description: Adobe Analytics の主要な分析ツールである  Analysis Work
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+autotag-review: '2026-05-22T09:19:57.382Z'
+TQID: 'https://experienceleague.adobe.com/O1TMjrV56s5v-x3waE7oKGog18sasEjo06eYiquAWjI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -22,8 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 96%

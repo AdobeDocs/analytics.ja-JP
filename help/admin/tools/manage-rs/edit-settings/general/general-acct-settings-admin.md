@@ -4,12 +4,14 @@ title: 一般的なアカウント設定
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-TQID: https://experienceleague.adobe.com/1HGpY4lstZB6baXYggrD4xni1SWbYTDLa2fqYw11yd4
+TQID: 'https://experienceleague.adobe.com/1HGpY4lstZB6baXYggrD4xni1SWbYTDLa2fqYw11yd4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -17,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 53%

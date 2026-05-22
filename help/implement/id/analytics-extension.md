@@ -2,9 +2,13 @@
 title: Adobe Analytics タグ拡張機能を使用した訪問者特定
 description: Adobe Analytics タグ拡張機能を実装する際に、訪問者を正しく識別する。
 exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
-TQID: https://experienceleague.adobe.com/bdm2phkscnH9bSiQqK9K--ySTLguGaf-WLgEc3TL6H8
+TQID: 'https://experienceleague.adobe.com/i38Vo-39aUwJOp3HoS-bb2jqwSSV0oqeR0lkjOJqcgs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -13,7 +17,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 2%

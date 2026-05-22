@@ -5,7 +5,7 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 567
 ht-degree: 2%

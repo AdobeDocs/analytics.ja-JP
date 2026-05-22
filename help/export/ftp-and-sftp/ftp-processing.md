@@ -4,15 +4,19 @@ keywords: ftp;sftp
 title: FTPとSFTPの処理時間
 feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
-TQID: https://experienceleague.adobe.com/1WAyztrlwOU0ZZQWuuJPZE2wzvBAJcRas6FwDGQ7gF8
+TQID: 'https://experienceleague.adobe.com/5CSMyy-mQ7jRv1p6IgMUTw6fuDKDW15e-mYE5TbouQ0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 38%

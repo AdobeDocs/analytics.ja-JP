@@ -3,9 +3,21 @@ title: データフィードの作成
 description: データフィードの作成方法と、アドビに提供するファイル情報について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: 2151
 ht-degree: 32%
 
 ---

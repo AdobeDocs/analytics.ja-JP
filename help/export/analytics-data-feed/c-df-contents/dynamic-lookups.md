@@ -3,13 +3,17 @@ title: 動的検索
 description: 動的参照とは何か、およびそれらを有効にする方法について説明します。 キャリア、モバイル属性、およびオペレーティングシステムの種類が含まれます。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-TQID: https://experienceleague.adobe.com/hKuBXw8dX419msIgSjvd3Dl5uE4rJS6nouIbR18RmVo
+TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
 ht-degree: 20%

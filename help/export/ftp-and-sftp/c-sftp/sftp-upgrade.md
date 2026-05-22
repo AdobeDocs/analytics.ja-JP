@@ -3,19 +3,22 @@ title: SFTP サービスのアップグレード - FAQ
 description: 予定されている SFTP サービスのアップグレードに関するよくある質問（FAQ）です。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-TQID: https://experienceleague.adobe.com/HKI-iOTx-gHbsmL8BJszgs5e5nlflk67s64eqs2dd-k
+TQID: 'https://experienceleague.adobe.com/HKI-iOTx-gHbsmL8BJszgs5e5nlflk67s64eqs2dd-k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 95%

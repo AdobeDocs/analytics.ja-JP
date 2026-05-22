@@ -3,7 +3,7 @@ title: ストリーミングメディアサービスのコア指標
 description: レポートスイートで[!UICONTROL Media Core]を有効にすると、使用可能な指標が表示されます。
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-TQID: https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg
+TQID: 'https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -13,7 +13,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 252
 ht-degree: 1%

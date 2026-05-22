@@ -1,32 +1,42 @@
 ---
-description: データフィードを使用して Adobe Analytics から生データを取得する方法について説明します。データフィードを使用するための前提条件と次に行うべきことについて説明します。
+description: データフィードを使用して Adobe Analytics から生データを取得する方法について説明します。 データフィードを使用するための前提条件と次に行うべきことについて説明します。
 keywords: クリックストリーム;データフィード;データフィード;データフィード
 title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 99%
+source-wordcount: 335
+ht-degree: 95%
 
 ---
 
 # Analytics データフィードの概要
 
-データフィードは、Adobe Analytics から生データを取得するための強力な方法です。この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。データは、各時間の終了時に時間単位のバッチで、または毎日の終わりに日単位のバッチで配信されます。
+データフィードは、Adobe Analytics から生データを取得するための強力な方法です。 この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 データは、各時間の終了時に時間単位のバッチで、または毎日の終わりに日単位のバッチで配信されます。
 
 ## 前提条件
 
 データフィードを使用する前に、次の要件をすべて満たしていることを確認してください。
 
-* アドビのデータ収集サーバーにデータを送信する実装。実装ユーザーガイドの[実装の検証と公開](/help/implement/launch/validate-publish-prod.md)を参照してください。
+* アドビのデータ収集サーバーにデータを送信する実装。 実装ユーザーガイドの[実装の検証と公開](/help/implement/launch/validate-publish-prod.md)を参照してください。
 * アカウントが Analytics 製品管理者であるか、アカウントがデータフィードへのアクセス権を持つ製品プロファイルに属している。
 * Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS で設定されたバケット。
 * （レガシー：レガシー FTP および SFTP の宛先タイプにのみ必要）FTP サイトと資格情報が手元にある（FTP 資格情報は組織が提供）。
 
 ## 次の手順
 
-以下のリソースは、データフィードを取得する基本的なワークフローを理解するのに役立ちます。基本的なワークフローを理解したら、組織内のチームと協力して、生データをデータベースに保存または取り込むことができます。
+以下のリソースは、データフィードを取得する基本的なワークフローを理解するのに役立ちます。 基本的なワークフローを理解したら、組織内のチームと協力して、生データをデータベースに保存または取り込むことができます。
 
 * [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md)：データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細

@@ -4,16 +4,18 @@ title: 有料検索検知の設定
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 role: Admin
-TQID: https://experienceleague.adobe.com/lyUBkk1p4mB0-pJbMx2YACWdUIo-FEx-b2UJyOZ4eq8
+TQID: 'https://experienceleague.adobe.com/lyUBkk1p4mB0-pJbMx2YACWdUIo-FEx-b2UJyOZ4eq8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 74
 ht-degree: 100%

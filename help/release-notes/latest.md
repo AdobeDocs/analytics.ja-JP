@@ -3,7 +3,7 @@ title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-TQID: https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8
+TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -12,6 +12,9 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -21,7 +24,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2be38df3df510c4e460497be8c085ed2a26b4760
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1365
 ht-degree: 60%

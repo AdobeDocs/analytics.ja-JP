@@ -4,15 +4,17 @@ title: ブレット
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
+TQID: 'https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 295
 ht-degree: 77%

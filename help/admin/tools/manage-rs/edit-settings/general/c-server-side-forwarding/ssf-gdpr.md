@@ -4,9 +4,14 @@ title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c354699e-6555-4397-8706-1a9a89984069
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
@@ -16,7 +21,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 588
 ht-degree: 42%

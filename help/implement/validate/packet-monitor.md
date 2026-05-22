@@ -5,11 +5,13 @@ keywords: パケットスニファー、http ステータス、200、302、charl
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y
+TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
@@ -19,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 679
 ht-degree: 67%

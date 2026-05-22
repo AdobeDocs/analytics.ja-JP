@@ -4,11 +4,13 @@ solution: Analytics
 title: Audience Analytics の概要
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-TQID: https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI
+TQID: 'https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -19,7 +21,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 522
 ht-degree: 11%

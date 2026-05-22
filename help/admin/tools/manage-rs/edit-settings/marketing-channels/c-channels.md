@@ -5,15 +5,21 @@ title: マーケティングチャネルの管理
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-TQID: https://experienceleague.adobe.com/o-l-xrW6JQDjwjD5SZU-ZIX6sgo3unB5byiFnn1xyug
+TQID: 'https://experienceleague.adobe.com/iA1x22LASs8YEFNmh1lgy0cr6pggrW9kI9Qd-S2JlvI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 746
 ht-degree: 66%

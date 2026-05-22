@@ -3,17 +3,19 @@ title: データフィードの管理
 description: データフィードのインターフェイスを操作する方法を説明します。 データフィードを作成、編集、表示する方法を説明します。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-TQID: https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -54,9 +56,9 @@ ht-degree: 18%
 
 ## データフィードの編集
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
-1. 編集するデータフィードを探します。 データフィードを検索するには、[&#x200B; フィルターを実行して、データフィードのリストを検索します](#filter-and-search-the-list-of-data-feeds)。
+1. 編集するデータフィードを見つけます。 データフィードを見つけるには、[データフィードのリストをフィルタリングして検索](#filter-and-search-the-list-of-data-feeds)できます。
 
 1. [!UICONTROL **フィード名**]&#x200B;列でデータフィードを選択します。
 
@@ -74,7 +76,7 @@ ht-degree: 18%
 
 ## データフィードのリストをフィルタリングして検索します
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 検索やフィルターを使用して、特定のフィードを見つけます。
 
@@ -88,7 +90,7 @@ ht-degree: 18%
 
 ## データフィードのジョブの表示
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 「[!UICONTROL **ジョブ**]」タブを選択して、各フィードが作成する個々のジョブを表示します。
 
@@ -98,7 +100,7 @@ ht-degree: 18%
 
 ## データフィードのコピー
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. コピーするデータフィードの横にあるチェックボックスを選択し、[!UICONTROL **コピー**]&#x200B;を選択します。
 
@@ -118,7 +120,7 @@ ht-degree: 18%
 
 データフィードを一時停止するには：
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 一時停止するデータフィードの横にあるチェックボックスを選択し、[!UICONTROL **一時停止**]&#x200B;を選択します。
 
@@ -134,7 +136,7 @@ ht-degree: 18%
 
 データフィードをアクティベートするには：
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. アクティブ化する非アクティブなデータフィードの横にあるチェックボックスを選択し、[!UICONTROL **アクティブ化**]&#x200B;を選択します。
 
@@ -144,7 +146,7 @@ ht-degree: 18%
 
 データフィードを削除するには：
 
-1. Adobe Analyticsで、[!UICONTROL **管理者**] > [!UICONTROL **データフィード**]&#x200B;を選択します。
+1. Adobe Analytics で、[!UICONTROL **管理者**]／[!UICONTROL **データフィード**]&#x200B;を選択します。
 
 1. 削除するデータフィードの横にあるチェックボックスを選択し、[!UICONTROL **削除**]&#x200B;を選択します。
 

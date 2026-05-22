@@ -2,16 +2,20 @@
 title: Web SDK JavaScript ライブラリを使用した訪問者特定
 description: Web SDK JavaScript ライブラリを実装する際に、訪問者を正しく識別する。
 exl-id: e650d6b1-6e29-4a9c-98dd-8482f50968d1
-TQID: https://experienceleague.adobe.com/R6O--qqR7SzlArrIDFCWunUEAduzmAS2Skm6BKyREnw
+TQID: 'https://experienceleague.adobe.com/k9u260HKJg6hhs7REAQ3-uE4pHvrUPBv6x8yLjZ5tvc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 2%

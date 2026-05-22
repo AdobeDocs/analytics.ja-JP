@@ -4,17 +4,19 @@ title: Analytics ユーザーとアセットの管理
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-TQID: https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0
+TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 455
 ht-degree: 9%

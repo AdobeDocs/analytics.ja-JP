@@ -3,19 +3,22 @@ title: Analytics 読み込みガイド
 description: このガイドでは、データソースとデータ挿入 API を使用して Analytics にデータを取得する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-TQID: https://experienceleague.adobe.com/umLLEQAAmvcloxJ8HF-eWfdkZac5PHya0jKeUA8TSv4
+TQID: 'https://experienceleague.adobe.com/umLLEQAAmvcloxJ8HF-eWfdkZac5PHya0jKeUA8TSv4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 179
 ht-degree: 93%
