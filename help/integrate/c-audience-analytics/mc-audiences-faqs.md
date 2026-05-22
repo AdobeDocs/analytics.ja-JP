@@ -4,9 +4,13 @@ solution: Analytics
 title: Audience Analytics に関するよくある質問（FAQ）
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: 1120
 ht-degree: 14%
 
 ---

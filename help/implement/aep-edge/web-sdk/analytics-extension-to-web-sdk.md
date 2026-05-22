@@ -2,17 +2,13 @@
 title: Adobe Analytics タグ拡張機能からWeb SDK タグ拡張機能への移行
 description: Web SDK拡張機能を使用するには、Adobe Experience Platform Data Collection タグに対するAnalyticsの実装を更新します。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1731
 ht-degree: 7%
@@ -23,9 +19,9 @@ ht-degree: 7%
 
 この実装パスでは、Adobe Analytics タグ拡張機能からWeb SDK タグ拡張機能に移行するための体系的な移行アプローチを行います。 その他の実装パスについては、別のページで説明しています。
 
-* [AppMeasurementからWeb SDKへのJavaScript ライブラリ &#x200B;](appmeasurement-to-web-sdk.md): タグを使用しない場合を除き、Web SDKにスムーズかつ計画的に移行するアプローチです。 代わりに、Adobe Analytics データ収集ライブラリ （`AppMeasurement.js`）を手動で削除し、Web SDK JavaScript ライブラリ （`alloy.js`）に置き換えます。
+* [AppMeasurementからWeb SDKへのJavaScript ライブラリ ](appmeasurement-to-web-sdk.md): タグを使用しない場合を除き、Web SDKにスムーズかつ計画的に移行するアプローチです。 代わりに、Adobe Analytics データ収集ライブラリ （`AppMeasurement.js`）を手動で削除し、Web SDK JavaScript ライブラリ （`alloy.js`）に置き換えます。
 * [Web SDK タグ拡張機能](web-sdk-tag-extension.md): Adobe Experience Platform Data Collectionのタグを使用して実装を管理する新しいWeb SDK インストール。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
-* [Web SDK JavaScript ライブラリ &#x200B;](web-sdk-javascript-library.md): Web SDK JavaScript ライブラリ （`alloy.js`）を使用した新しいWeb SDK インストール。 タグ UIを使用する代わりに、実装を自分で管理します。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
+* [Web SDK JavaScript ライブラリ ](web-sdk-javascript-library.md): Web SDK JavaScript ライブラリ （`alloy.js`）を使用した新しいWeb SDK インストール。 タグ UIを使用する代わりに、実装を自分で管理します。 XDM スキーマに含める一般的なAnalytics変数を含むAdobe Analytics ExperienceEvent フィールドグループが必要です。
 
 ## この実装パスの利点と欠点
 
@@ -77,7 +73,7 @@ Adobe Experience Platform Data Collectionでデータストリームを作成し
 
 1. 拡張機能の設定が表示されます。 「データストリーム」セクションを探し、前の手順で作成したデータストリームを選択します。
 
-   ![&#x200B; データストリームの選択](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![ データストリームの選択](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. 「**[!UICONTROL 保存]**」を選択します。
 
@@ -94,14 +90,14 @@ Adobe Experience Platform Data Collectionでデータストリームを作成し
 1. データ要素に次の設定を指定します。
    * [!UICONTROL 名前]: 「データレイヤー」や「データオブジェクト」など、必要なものをすべて選択します
    * [!UICONTROL 拡張機能]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL &#x200B; データ要素タイプ &#x200B;]: [!UICONTROL 変数]
+   * [!UICONTROL  データ要素タイプ ]: [!UICONTROL 変数]
    * チェックボックスをそのまま使用できます
 1. 右側で、次の設定を選択します。
-   * プロパティ ラジオ ボタン：[!UICONTROL &#x200B; データ &#x200B;]
+   * プロパティ ラジオ ボタン：[!UICONTROL  データ ]
    * 解決策：[!UICONTROL Adobe Analytics]
 1. 「**[!UICONTROL 保存]**」を選択します。
 
-![&#x200B; データ要素の作成](assets/create-data-element.png) {style="border:1px solid lightslategray"}
+![ データ要素の作成](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 タグプロパティには、各ルールの更新に必要なあらゆる情報が含まれています。
 
@@ -115,9 +111,9 @@ Adobe Experience Platform Data Collectionでデータストリームを作成し
 1. 編集するルールを選択します。
 1. アクション **[!UICONTROL Adobe Analytics - Set Variables]**&#x200B;を選択します
 1. このルール内で設定されたすべてのAnalytics変数を記録します。 ドロップダウンメニューに設定された変数とカスタムコード内に設定された変数の両方を含めます。
-1. [!UICONTROL &#x200B; アクション設定]を次の設定に変更します。
+1. [!UICONTROL  アクション設定]を次の設定に変更します。
    * [!UICONTROL 拡張機能]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL &#x200B; アクションの種類]：変数を更新
+   * [!UICONTROL  アクションの種類]：変数を更新
 1. 右側のドロップダウンでデータオブジェクトが選択されていることを確認します。
 1. Analytics変数を、Analytics拡張機能で設定した値と同じ値に設定します。
    * タグインターフェイス内で設定された変数は、同じ値に直接変換できます。
@@ -126,16 +122,16 @@ Adobe Experience Platform Data Collectionでデータストリームを作成し
 1. Web SDK拡張機能を使用してすべてのルールロジックをレプリケートしたら、**[!UICONTROL 変更を保持]**&#x200B;を選択します。
 1. Adobe Analytics拡張機能を使用して値を設定するアクション設定ごとに、これらの手順を繰り返します。 この手順には、タグインターフェイスを使用して設定された変数と、カスタムコードを使用して設定された変数の両方が含まれます。 カスタムコードブロックは、どこでも`s` オブジェクトを参照することはできません。
 
-上記の手順は、値を設定するルールにのみ適用されます。 次の手順は、[!UICONTROL &#x200B; アクション設定] [!UICONTROL 送信ビーコン &#x200B;]を使用するすべてのアクションを置き換えます。
+上記の手順は、値を設定するルールにのみ適用されます。 次の手順は、[!UICONTROL  アクション設定] [!UICONTROL 送信ビーコン ]を使用するすべてのアクションを置き換えます。
 
 1. ビーコンを送信するルールを選択します。
 1. 「**[!UICONTROL Adobe Analytics - ビーコンを送信]**」アクションを選択します。
-1. 右側（[`s.t()`](../../vars/functions/t-method.md)または[`s.tl()`](../../vars/functions/tl-method.md)）の[!UICONTROL &#x200B; トラッキング &#x200B;] ラジオボタンの現在の値に注意してください。
-1. [!UICONTROL &#x200B; アクション設定]を次の設定に変更します。
+1. 右側（[`s.t()`](../../vars/functions/t-method.md)または[`s.tl()`](../../vars/functions/tl-method.md)）の[!UICONTROL  トラッキング ] ラジオボタンの現在の値に注意してください。
+1. [!UICONTROL  アクション設定]を次の設定に変更します。
    * [!UICONTROL 拡張機能]: [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL &#x200B; アクションの種類]: [!UICONTROL &#x200B; イベントの送信]
+   * [!UICONTROL  アクションの種類]: [!UICONTROL  イベントの送信]
 1. 右側で、アクション設定を次のように変更します。
-   * [!UICONTROL &#x200B; タイプ &#x200B;]: `s.t()`の場合、**[!UICONTROL Web Web Web ページの詳細ページビュー]**&#x200B;を使用します。 `s.tl()`の場合、**[!UICONTROL Web Web Web インタラクション リンク クリック]**&#x200B;を使用します。 [`s.tl()`](../../vars/functions/tl-method.md)を使用する場合は、データオブジェクトに次のフィールドも含める必要があります。 これらのフィールドは、[!UICONTROL 変数の更新] アクション設定を実行する際の[!UICONTROL 追加プロパティ &#x200B;]に一覧表示されます。
+   * [!UICONTROL  タイプ ]: `s.t()`の場合、**[!UICONTROL Web Web Web ページの詳細ページビュー]**&#x200B;を使用します。 `s.tl()`の場合、**[!UICONTROL Web Web Web インタラクション リンク クリック]**&#x200B;を使用します。 [`s.tl()`](../../vars/functions/tl-method.md)を使用する場合は、データオブジェクトに次のフィールドも含める必要があります。 これらのフィールドは、[!UICONTROL 変数の更新] アクション設定を実行する際の[!UICONTROL 追加プロパティ ]に一覧表示されます。
       * [リンク名](../../vars/functions/tl-method.md)
       * [リンクタイプ](../../vars/functions/tl-method.md)
       * [リンク URL](../../vars/config-vars/linkurl.md)

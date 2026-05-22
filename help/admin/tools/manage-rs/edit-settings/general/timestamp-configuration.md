@@ -5,19 +5,13 @@ feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 role: Admin
-TQID: https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 6%
@@ -26,7 +20,7 @@ ht-degree: 6%
 
 # タイムスタンプ設定
 
-&#39;[!UICONTROL &#x200B; タイムスタンプ設定]&#39;管理ページでは、1つ以上のレポートスイートに対して&#x200B;**[!UICONTROL タイムスタンプオプション]**&#x200B;を有効にできます。 この設定を使用すると、タイムスタンプ付きデータと非タイムスタンプ付きデータの両方を1つのレポートスイートに結合できます。
+&#39;[!UICONTROL  タイムスタンプ設定]&#39;管理ページでは、1つ以上のレポートスイートに対して&#x200B;**[!UICONTROL タイムスタンプオプション]**&#x200B;を有効にできます。 この設定を使用すると、タイムスタンプ付きデータと非タイムスタンプ付きデータの両方を1つのレポートスイートに結合できます。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL レポートスイート]** > **[!UICONTROL 設定を編集]** > **[!UICONTROL 一般]** > **[!UICONTROL タイムスタンプはオプション]**&#x200B;です
 
@@ -38,7 +32,7 @@ ht-degree: 6%
 * **タイムスタンプが必要です（`visitorID`の設定はサポートされていません）**
 * **タイムスタンプ オプション （`visitorID`の設定はサポートされていますが、タイムスタンプ付きヒットではサポートされていません）**
 
-このテキストの下に、「**[!UICONTROL 選択したレポートスイートをタイムスタンプに変換する」オプション]**」というラベルのチェックボックスがあります。 このチェックボックスを選択し、**[!UICONTROL 保存]**&#x200B;を選択すると、選択したレポートスイートに[!UICONTROL &#x200B; タイムスタンプオプション &#x200B;]が有効になります。
+このテキストの下に、「**[!UICONTROL 選択したレポートスイートをタイムスタンプに変換する」オプション]**」というラベルのチェックボックスがあります。 このチェックボックスを選択し、**[!UICONTROL 保存]**&#x200B;を選択すると、選択したレポートスイートに[!UICONTROL  タイムスタンプオプション ]が有効になります。
 
 ## タイムスタンプは許可されていません
 
@@ -52,7 +46,7 @@ ht-degree: 6%
 
 ## タイムスタンプオプション
 
-&#39;[!UICONTROL &#x200B; タイムスタンプオプション &#x200B;]&#39;設定を使用すると、[`timestamp`](/help/implement/vars/page-vars/timestamp.md)変数の有無にかかわらず、複数のレポートスイート間で統合とレポートを行うことができます。 [!UICONTROL &#x200B; タイムスタンプオプション &#x200B;]の理想的な使用例には、次のものが含まれます。
+&#39;[!UICONTROL  タイムスタンプオプション ]&#39;設定を使用すると、[`timestamp`](/help/implement/vars/page-vars/timestamp.md)変数の有無にかかわらず、複数のレポートスイート間で統合とレポートを行うことができます。 [!UICONTROL  タイムスタンプオプション ]の理想的な使用例には、次のものが含まれます。
 
 * 同じグローバルレポートスイート内のタイムスタンプ付きデータと非タイムスタンプ付きデータを混在させる
 * モバイルアプリからグローバルレポートスイートへのタイムスタンプ付きデータの送信
@@ -62,6 +56,6 @@ ht-degree: 6%
 
 >[!WARNING]
 >
->[!UICONTROL &#x200B; タイムスタンプオプション &#x200B;]を使用する場合は、タイムスタンプ付きデータに[`visitorID`](/help/implement/vars/config-vars/visitorid.md)を設定しないでください。 このアクションにより、注文外のデータが発生し、時間の計算（滞在時間など）、アトリビューション、訪問数/訪問数、パスレポートに悪影響を与える可能性があります。
+>[!UICONTROL  タイムスタンプオプション ]を使用する場合は、タイムスタンプ付きデータに[`visitorID`](/help/implement/vars/config-vars/visitorid.md)を設定しないでください。 このアクションにより、注文外のデータが発生し、時間の計算（滞在時間など）、アトリビューション、訪問数/訪問数、パスレポートに悪影響を与える可能性があります。
 
-[!UICONTROL &#x200B; タイムスタンプオプション &#x200B;]を有効にすると、このインターフェイスで無効にすることはできません。 別のタイムスタンプ設定に戻す場合は、Adobe カスタマーケアにお問い合わせください。
+[!UICONTROL  タイムスタンプオプション ]を有効にすると、このインターフェイスで無効にすることはできません。 別のタイムスタンプ設定に戻す場合は、Adobe カスタマーケアにお問い合わせください。

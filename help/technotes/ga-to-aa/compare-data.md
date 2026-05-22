@@ -3,17 +3,13 @@ title: Adobe Analytics データのサードパーティ製品との比較
 description: Adobe Analytics のデータを他の Analytics ソリューションで収集されたデータと直接比較する場合のオプションを理解します。
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-TQID: https://experienceleague.adobe.com/I-zMxnrvOOk3NUjeQFbcrIq0nAPO6AAaO0eznskChgQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/I-zMxnrvOOk3NUjeQFbcrIq0nAPO6AAaO0eznskChgQ'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a60fda7a-bb0b-4eb6-b9fe-77558cbee1fa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 259
 ht-degree: 88%

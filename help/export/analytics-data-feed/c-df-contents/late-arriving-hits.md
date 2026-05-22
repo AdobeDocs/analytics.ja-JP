@@ -3,15 +3,13 @@ title: 後期ヒット
 description: データフィードで遅延ヒットを扱う方法を説明します。
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-TQID: https://experienceleague.adobe.com/eNLHiK8xI-O-E7UDfIkxEfFB0oAQoum6lTXH7OFQJ3c
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/oB9bBU9KV8O1-IRM20QWBFhQXt1mykn28KITDRTsWqc'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 317
 ht-degree: 48%
@@ -44,4 +42,4 @@ ht-degree: 48%
 * 遅延ヒットが有効になっている場合、異なる日のデータがデータフィードに頻繁に表示されます。 データフィードの取り込みに使用するプラットフォームが、同じファイル内の別の日のデータに対応できることを確認します。
 * データフィードファイルが再処理された場合、再処理が最初の5日以内に行われた場合、元のファイルに含まれていた遅延ヒットは、再処理されたファイルに含まれます。 5日経過すると、再処理されたファイルには到着が遅れたヒットは含まれません。
 
-「[&#x200B; データフィードの作成](/help/export/analytics-data-feed/create-feed.md)」で説明されているように、「**[!UICONTROL 遅延到着ヒットを許可]**」オプションを有効にすることで、データフィードの作成または編集時に遅延到着ヒットを有効にすることができます。
+「[ データフィードの作成](/help/export/analytics-data-feed/create-feed.md)」で説明されているように、「**[!UICONTROL 遅延到着ヒットを許可]**」オプションを有効にすることで、データフィードの作成または編集時に遅延到着ヒットを有効にすることができます。

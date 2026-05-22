@@ -3,9 +3,14 @@ description: Analytics インターフェイスに関する情報や、管理者
 title: Analytics インターフェイスについて
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: 1993
 ht-degree: 93%
 
 ---
@@ -103,7 +108,7 @@ Adobe Analytics インターフェイスは、Analysis Workspace でのプロジ
    | レポートスイート | レポートスイートでのデータの処理方法を制御するルールを定義できます。 | [レポートスイートマネージャー](/help/admin/tools/manage-rs/report-suites-admin.md) |
    | Analytics ユーザーとアセット | ユーザーとアセットの管理は Adobe Admin Console に移動しました。 Adobe Admin Console を使用して、Adobe Analytics ユーザーのユーザー権限の管理を開始します。 | [Admin Console での Adobe Analytics](/help/admin/admin-console/home.md) |
    | 分類インポーター | インポーターを使用して、分類を Adobe Analytics にアップロードします。 インポートの前に、更新用にデータをエクスポートすることもできます。 | [分類インポーターの概要](/help/components/classifications/importer/c-working-with-saint.md) |
-   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー &#x200B;](/help/components/classifications/crb/classification-rule-builder.md) |
+   | 分類ルールビルダー | トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベースの分類を作成し、複数のレポートスイートに適用することができます。 | [分類ルールビルダーのワークフロー ](/help/components/classifications/crb/classification-rule-builder.md) |
    | データソース | データソースマネージャーを使用して、データソースの作成、編集、非アクティブ化を行います。 また、このインターフェイスを使用して、データソースの FTP の場所にアップロードされたファイルのステータスを追跡することもできます。 | [データソースの管理](/help/import/data-sources/manage.md) |
    | コードマネージャー | コードマネージャーを使用すると、web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。 | [コードマネージャー](/help/admin/tools/code-manager-admin.md) |
    | トラフィック管理 | トラフィック管理ページでは、予想されるトラフィック量の変更を指定できます。 これらの設定により、Adobeで適切なリソースを割り当てて、トラフィックをタイムリーに追跡および処理できるようになります。 | [トラフィック管理の概要](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
