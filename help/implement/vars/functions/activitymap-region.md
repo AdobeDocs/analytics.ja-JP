@@ -34,7 +34,7 @@ ht-degree: 15%
 
 ## Web SDKを使用したリージョン値の上書き
 
-[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) コールバックを使用して、Web SDK ペイロードを変更したり、データの送信を中止したりできます。
+[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) コールバックを使用して、Web SDK ペイロードを変更したり、データの送信を中止したりできます。
 
 ## Adobe Analytics拡張機能を使用したリージョンオーバーライド
 

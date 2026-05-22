@@ -46,7 +46,7 @@ Web SDKでは、`doPlugins`の代わりに、同様の機能を持つ`onBeforeEv
 
 ## `onBeforeEventSend`を使用してWeb SDKを手動で実装
 
-Web SDKでは、`doPlugins`の代わりに、同様の機能を持つ`onBeforeEventSend`を使用します。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
+Web SDKでは、`doPlugins`の代わりに、同様の機能を持つ`onBeforeEventSend`を使用します。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally)」を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -50,7 +50,7 @@ ht-degree: 8%
 * **`aamlh`**: Adobe Audience Managerの場所ヒント。
 * **`contextData.key`**: [&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**: Experience Cloud ID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
-* **`hints`**: [&#x200B; クライアントヒント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`および`wow64`が含まれます。
+* **`hints`**: [&#x200B; クライアントヒント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`および`wow64`が含まれます。
 * **`ipaddress`**：訪問者のIP アドレス。
 * **`language`**: [言語](/help/components/dimensions/language.md) ディメンション。
 * **`list1`** - **`list3`**: [変数のリスト &#x200B;](/help/implement/vars/page-vars/list.md)。

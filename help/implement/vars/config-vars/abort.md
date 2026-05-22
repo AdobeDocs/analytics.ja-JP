@@ -46,7 +46,7 @@ return false;
 
 ## Web SDKを手動で実装するイベントの送信をキャンセル
 
-`onBeforeEventSend` コールバックを使用して、`false`を返します。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
+`onBeforeEventSend` コールバックを使用して、`false`を返します。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally)」を参照してください。
 
 ```js
 alloy("configure"), {

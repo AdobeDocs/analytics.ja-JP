@@ -25,7 +25,7 @@ ht-degree: 3%
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;は、Adobe Advertising統合で使用される連結されたIDのコレクションです。 このディメンションに保存された値は、Analytics レポートで使用するために、人間が判読可能な個別の分類ディメンションに自動的に整理されます。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。
+**[!UICONTROL AMO ID]**&#x200B;は、Adobe Advertising統合で使用される連結されたIDのコレクションです。 このディメンションに保存された値は、Analytics レポートで使用するために、人間が判読可能な個別の分類ディメンションに自動的に整理されます。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。
 
 ## このディメンションへのデータ入力
 
@@ -147,7 +147,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分類
 
-Advertising[&#128279;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)のAnalytics統合を有効にすると、次の分類が自動的に作成されます。 分類値は、統合によって自動的に維持されます。
+Advertising[&#128279;](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)のAnalytics統合を有効にすると、次の分類が自動的に作成されます。 分類値は、統合によって自動的に維持されます。
 
 | 分類 | 説明 | DSP | 検索，<br> ソーシャル，&amp;<br>Commerce |
 | --- | --- | :---: | :---: |
