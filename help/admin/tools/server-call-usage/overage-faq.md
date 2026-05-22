@@ -5,11 +5,18 @@ feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 role: Admin
 TQID: 'https://experienceleague.adobe.com/kDnDNyFa4VGOiT-2a7UeygM4qTKX8BZDByzRqFjOT5c'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: c9d85838-8d05-4bc7-9f18-30ec779251bc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 701

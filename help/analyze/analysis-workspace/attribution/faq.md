@@ -5,10 +5,16 @@ feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1210
@@ -116,7 +122,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 トランザクション ID データソースは、他のヒットと同様に処理されます。 トランザクション ID データソースでは、従来のレポートで通常使用される特別な処理を使用しません。 つまり、レポート時間処理を使用する場合、トランザクション ID ヒットには、トランザクション ID ヒットのタイムスタンプ付近に発生するヒットから伝播されるeVar値が含まれます。 値は、元のトランザクションの時間付近で発生したヒットから反映されません。
 
-可能な場合、アトリビューションは、永続値ではなく、データソース内のイベント内で送信されるMID列の値に依存します。 アトリビューションモデルは、データソースの MID 列値にその場で適用されます。 例えば、[ ラストタッチアトリビューション ](models.md)を使用する場合、モデルは指標の各インスタンスから始まります。 モデルがMID列で観察された最後の値に達するまで、ヒットで順次逆方向に歩きます。
+可能な場合、アトリビューションは、永続値ではなく、データソース内のイベント内で送信されるMID列の値に依存します。 アトリビューションモデルは、データソースの MID 列値にその場で適用されます。 例えば、[&#x200B; ラストタッチアトリビューション &#x200B;](models.md)を使用する場合、モデルは指標の各インスタンスから始まります。 モデルがMID列で観察された最後の値に達するまで、ヒットで順次逆方向に歩きます。
 
 不可能な場合、アトリビューションは評価のためにデータソースの&#x200B;*前のレコード*&#x200B;のMID値を使用します。 AA が順不同のデータをサポートしていないことを考慮すると、この以前のレコードはタイムスタンプによって順序付けされていない可能性があります。
 

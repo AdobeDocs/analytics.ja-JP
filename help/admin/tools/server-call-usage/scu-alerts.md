@@ -5,11 +5,16 @@ feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
 TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
 source-wordcount: 517
@@ -21,7 +26,7 @@ ht-degree: 44%
 
 アラートをセットアップすると、請求会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 
-サーバーコール使用状況アラートは、[ アラート ](/help/components/alerts/alert-manager.md) ユーザーインターフェイスの一部です。
+サーバーコール使用状況アラートは、[&#x200B; アラート &#x200B;](/help/components/alerts/alert-manager.md) ユーザーインターフェイスの一部です。
 
 **1 つのデフォルトアラート**&#x200B;があらかじめ設定されており、サーバーコール使用状況の機能を利用できるあらゆるログイン会社内で表示されます。 以下の条件のいずれかが満たされた場合、このアラートはログイン会社の管理者全員に宛てた通知をトリガーします。
 
@@ -81,6 +86,6 @@ ht-degree: 44%
    | 承認 | アラートを承認して「公式」にします。 |
    | 有効/無効 | デフォルトのアラートも含め、すべてのアラートを有効または無効にできます。 |
    | 更新 | 1つ以上のアラートを選択すると、更新できます。 これにより、元の有効期限に関係なく、[!UICONTROL 更新]がクリックされた日から1年に有効期限が延長されます。 |
-   | CSV に書き出し | [使用状況レポートのダウンロード ](/help/admin/tools/server-call-usage/report-suite-usage.md)を参照してください |
+   | CSV に書き出し | [使用状況レポートのダウンロード &#x200B;](/help/admin/tools/server-call-usage/report-suite-usage.md)を参照してください |
 
    {style="table-layout:auto"}

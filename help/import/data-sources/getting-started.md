@@ -5,11 +5,19 @@ exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/ekoyQHdhFXTc4bbOReIbGc-CKnhA3--laugeI91RvnU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 678
@@ -29,7 +37,7 @@ ht-degree: 1%
 1. **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**&#x200B;に移動します。
 1. 右上のドロップダウンリストを使用して、開発レポートスイートを選択します。
 1. 左上の「**[!UICONTROL 作成]**」ボタンをクリックします。
-1. [!UICONTROL  カテゴリを選択]で「[!UICONTROL 汎用]」を選択し、[!UICONTROL  タイプを選択]で「[!UICONTROL 汎用データSource （概要データのみ） ]」を選択します。
+1. [!UICONTROL &#x200B; カテゴリを選択]で「[!UICONTROL 汎用]」を選択し、[!UICONTROL &#x200B; タイプを選択]で「[!UICONTROL 汎用データSource （概要データのみ） &#x200B;]」を選択します。
 1. 「**[!UICONTROL アクティブにする]**」をクリックします。 ポップアップウィンドウが開き、[!UICONTROL Data Source Activation Wizard]が表示されます。
    1. 手順1：データソースに名前を付け、「免責事項」チェックボックスをクリックします。
    1. 手順2：この手順は、以前のバージョンのAdobe Analyticsでより多く使用されていました。 チェックボックスをクリックし、その横のテキストフィールドに任意の値を入力します。
@@ -62,7 +70,7 @@ ht-degree: 1%
 
 1. ファイルを保存します。 必要に応じて、別のファイル名をオプションで指定できます。 ファイルが保存されたら、テキストエディターを閉じることができます。
 1. Windows エクスプローラー、Finder、または選択したFTP クライアントで、[ftp://ftp.omniture.com](ftp://ftp.omniture.com)に移動します。
-1. ログイン資格情報の入力を求められた場合は、データソース作成ウィザードの最後の手順で指定したユーザー名とパスワードを使用します。 [!UICONTROL  データソース ]に移動し、作成したデータソースの横にある&#x200B;**[!UICONTROL FTP情報]**&#x200B;をクリックして、もう一度参照できます。
+1. ログイン資格情報の入力を求められた場合は、データソース作成ウィザードの最後の手順で指定したユーザー名とパスワードを使用します。 [!UICONTROL &#x200B; データソース &#x200B;]に移動し、作成したデータソースの横にある&#x200B;**[!UICONTROL FTP情報]**&#x200B;をクリックして、もう一度参照できます。
 1. 認証が完了したら、編集したファイルを認証済みFTP ウィンドウにドラッグします。
 1. FTP ウィンドウ以外の任意の場所に空のテキストファイルを作成します。 1つの例外を除いて、FTP サイトにアップロードしたデータソースファイルと同じファイル名を指定します。 `.txt` ファイル形式の代わりに、`.fin` ファイル形式を指定してください。 オペレーティングシステムの設定で、ファイルタイプの表示と変更が可能になっていることを確認してください。
 1. 空の`.fin` ファイルをデータソースファイルと同じFTPの場所にドラッグします。 `.fin` ファイルが存在すると、データソースファイルが完全にアップロードされ、取り込む準備ができていることをAdobeに伝えます。
@@ -71,8 +79,8 @@ ht-degree: 1%
 1. Analysis Workspaceに移動し、プロジェクトを作成します。
 1. EVar1をディメンションとしてワークスペースキャンバスにドラッグし、イベント 1を指標としてドラッグします。 Workspaceの日付範囲に、データソースで指定した日付が含まれていることを確認します。
 
-   ![ レポート例](assets/success-report.png)
+   ![&#x200B; レポート例](assets/success-report.png)
 
 ## 次の手順
 
-[ ファイル形式](file-format.md)：組織に合わせたデータソースファイルの作成について詳しく説明します。
+[&#x200B; ファイル形式](file-format.md)：組織に合わせたデータソースファイルの作成について詳しく説明します。

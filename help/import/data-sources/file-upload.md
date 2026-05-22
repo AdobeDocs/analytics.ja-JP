@@ -5,11 +5,16 @@ exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vKIGKArWqdtTSAGhU9kLtonCGyyQtC60UnNle4b5E6A'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 367
@@ -21,7 +26,7 @@ ht-degree: 1%
 
 データソースファイルをAdobeに送信するには、一般的な認証済みFTP ワークフローを使用します。 Windows エクスプローラー、Finder、または専用のFTP クライアントを使用して、目的のファイルをAdobeのFTPの場所にアップロードできます。
 
-[ データソースマネージャー](manage.md)でFTP資格情報を探します。 各データソースには、**[!UICONTROL FTP情報]**&#x200B;へのリンクがあります。 各FTPの場所は、その特定のデータソース専用です。複数のデータソースに同じFTPの場所を使用することはできません。
+[&#x200B; データソースマネージャー](manage.md)でFTP資格情報を探します。 各データソースには、**[!UICONTROL FTP情報]**&#x200B;へのリンクがあります。 各FTPの場所は、その特定のデータソース専用です。複数のデータソースに同じFTPの場所を使用することはできません。
 
 セキュリティ上の理由から、30日以上アクティビティがないFTPの場所は無効になっています。
 

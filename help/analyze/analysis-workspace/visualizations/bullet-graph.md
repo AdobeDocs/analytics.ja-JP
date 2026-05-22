@@ -5,10 +5,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 TQID: 'https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 295
@@ -38,7 +43,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_<br/>_で箇条書きビジュアライゼーションについて説明します。この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[箇条書き](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)を参照してください。_
+_この記事では、_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_<br/>_で箇条書きビジュアライゼーションについて説明します。この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについては、[箇条書き](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -61,11 +66,11 @@ _この記事では、_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg
 
 | 設定 | 説明 |
 |---|---|
-| **[!UICONTROL ブレットオプション]** | [!UICONTROL ブレット]ビジュアライゼーションで、**[!UICONTROL 高い目標]**、**[!UICONTROL 中程度の目標]**、**[!UICONTROL 低い目標]**&#x200B;の値を指定します。 <br/>**[!UICONTROL 高い目標&#x200B;]**は、目指している主な目標です。**[!UICONTROL &#x200B;低い目標&#x200B;]**と**[!UICONTROL &#x200B;中程度の目標&#x200B;]**では、高い目標を下回る範囲を作成します。 メモ：「**[!UICONTROL &#x200B;割合&#x200B;]**」オプションが選択されている場合は、目標を整数で入力します。 目標が 20％の場合は `20` となります。 |
+| **[!UICONTROL ブレットオプション]** | [!UICONTROL ブレット]ビジュアライゼーションで、**[!UICONTROL 高い目標]**、**[!UICONTROL 中程度の目標]**、**[!UICONTROL 低い目標]**&#x200B;の値を指定します。 <br/>**[!UICONTROL 高い目標&#x200B;]**&#x200B;は、目指している主な目標です。**[!UICONTROL &#x200B;低い目標&#x200B;]**&#x200B;と&#x200B;**[!UICONTROL &#x200B;中程度の目標&#x200B;]**&#x200B;では、高い目標を下回る範囲を作成します。 メモ：「**[!UICONTROL &#x200B;割合&#x200B;]**」オプションが選択されている場合は、目標を整数で入力します。 目標が 20％の場合は `20` となります。 |
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

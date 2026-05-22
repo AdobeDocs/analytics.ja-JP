@@ -5,11 +5,21 @@ feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 TQID: 'https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: ec140990-1570-4311-94d4-2d6b38511bbe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1699
@@ -29,7 +39,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Networkでは、ボットからのヒットを識別するようにラベル付けする[ ボット検出サービス ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ja)を提供しています。 Adobe Analyticsで使用されるボット検出プロセスは個別であり、Edge Networkを介して取得されるデータに含まれるボットスコアを参照しません。 ただし、2つのシステムで同じIAB ボットリストを使用します。
+>Adobe Experience Platform Edge Networkでは、ボットからのヒットを識別するようにラベル付けする[&#x200B; ボット検出サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=ja)を提供しています。 Adobe Analyticsで使用されるボット検出プロセスは個別であり、Edge Networkを介して取得されるデータに含まれるボットスコアを参照しません。 ただし、2つのシステムで同じIAB ボットリストを使用します。
 
 ## ボットルールの更新またはアップロード
 
@@ -40,7 +50,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ボットルールの設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ボットルールの設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -57,15 +67,15 @@ ht-degree: 42%
 
      少なくともこのオプションを選択することをお勧めします。
 
-     詳細については、以下の「[標準IAB ボットルール ](#standard-iab-bot-rules)」の節を参照してください。
+     詳細については、以下の「[標準IAB ボットルール &#x200B;](#standard-iab-bot-rules)」の節を参照してください。
 
    * [!UICONTROL **ルールを追加**]&#x200B;を選択して、ユーザーエージェント、IP アドレス、またはIP範囲に基づいてカスタムボットルールを定義および追加します。
 
-     詳細については、以下の「[ カスタムボットルール ](#custom-bot-rules)」の節を参照してください。
+     詳細については、以下の「[&#x200B; カスタムボットルール &#x200B;](#custom-bot-rules)」の節を参照してください。
 
    * [!UICONTROL **インポートするCSV ボットファイルを選択**]&#x200B;領域の横にある&#x200B;[!UICONTROL **ファイルを選択**]&#x200B;し、ボットルールを定義するCSV ファイルを選択します。
 
-     詳細については、以下の「[ ボットルールをアップロード ](#upload-bot-rules)」の節を参照してください。
+     詳細については、以下の「[&#x200B; ボットルールをアップロード &#x200B;](#upload-bot-rules)」の節を参照してください。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
@@ -77,7 +87,7 @@ ht-degree: 42%
 
 アドビは詳細な IAB ボットリストをお客様に提供できませんが、ボットレポートを使用して、サイトにアクセスしたボットのリストを表示できます。 ボットを IAB リストに送信するには、[IAB](https://www.iab.com) にアクセスします。
 
-レポートスイートで標準IAB ボットルールを有効にする方法について詳しくは、[ ボットルールの更新またはアップロード ](#update-or-upload-bot-rules)を参照してください。
+レポートスイートで標準IAB ボットルールを有効にする方法について詳しくは、[&#x200B; ボットルールの更新またはアップロード &#x200B;](#update-or-upload-bot-rules)を参照してください。
 
 ## カスタムボットルール
 
@@ -85,7 +95,7 @@ ht-degree: 42%
 >
 >：ユーザーインターフェイスでは 500 個のルールを手動で定義することが可能です。 この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
 
-カスタムボットルールを使用すると、定義したトラフィックベースの条件をフィルタリングできます。 レポートスイートでカスタムボットルールを有効にするプロセスを開始するには、[ ボットルールの更新またはアップロード ](#update-or-upload-bot-rules)を参照してください。
+カスタムボットルールを使用すると、定義したトラフィックベースの条件をフィルタリングできます。 レポートスイートでカスタムボットルールを有効にするプロセスを開始するには、[&#x200B; ボットルールの更新またはアップロード &#x200B;](#update-or-upload-bot-rules)を参照してください。
 
 カスタムボットルールは、次の条件タイプを使用して定義されます。
 
@@ -126,7 +136,7 @@ ht-degree: 42%
 
 ボットルールを一括インポートするには、ルールを定義するCSV ファイルをアップロードします。
 
-1. ボットルールをレポートスイートにアップロードするプロセスを開始するには、[ ボットルールの更新またはアップロード ](#update-or-upload-bot-rules)を参照してください。
+1. ボットルールをレポートスイートにアップロードするプロセスを開始するには、[&#x200B; ボットルールの更新またはアップロード &#x200B;](#update-or-upload-bot-rules)を参照してください。
 
 1. スプレッドシートの1行目に、表示される順序で、次の列を含むCSV ファイルを作成します。
 

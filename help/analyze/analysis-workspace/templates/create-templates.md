@@ -5,9 +5,14 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 TQID: 'https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-subfeature_v2: id: afb76b85-c4c7-4167-959c-8c31401f54be
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+subfeature_v2:
+  - id: afb76b85-c4c7-4167-959c-8c31401f54be
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 726
