@@ -10,7 +10,8 @@ type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 autotag-review: '2026-05-19T13:22:46.838Z'
 source-git-commit: 291a462d8d3a82144a5f70934e793a8eb2f64ab1
 workflow-type: tm+mt
