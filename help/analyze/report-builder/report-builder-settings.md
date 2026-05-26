@@ -7,10 +7,15 @@ type: Documentation
 solution: Analytics
 exl-id: d158ad45-d467-4355-b091-f015bde7a243
 TQID: https://experienceleague.adobe.com/aHEmYs37KDXtaoAbFiI6WBCvmdhN0RrMWDl-CeEotKw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
@@ -27,7 +32,7 @@ Report Builder 設定を変更するには
 
 1. **設定** アイコンを選択します。
 
-1. オフライン モードを無効にする[有効にする](#off-line-mode)、[言語を選択](#language)または[ トラブルシューティングを有効にする](#troubleshooting)に変更を加えます。
+1. オフライン モードを無効にする[有効にする](#off-line-mode)、[言語を選択](#language)または[&#x200B; トラブルシューティングを有効にする](#troubleshooting)に変更を加えます。
 
 1. 「**[!UICONTROL 適用]**」を選択します。
 
