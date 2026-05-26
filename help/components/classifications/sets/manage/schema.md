@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 10%
@@ -26,7 +26,6 @@ ht-degree: 10%
 スキーマは、分類セット用に定義したキー次元に適用する分類のリストです。 例えば、製品をキーディメンションとして定義し、このフィールドに製品SKUが含まれている場合、スキーマを使用して製品名、色、サイズなどの分類を追加します。
 
 分類セットのスキーマを編集するには：
-
 
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
