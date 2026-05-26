@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="プライマリコンポーネントを共有"
->abstract="このオプションを選択すると、プライマリコンポーネントは、複製されたコンポーネント（所有者とコンポーネントが共有されている人の両方）にアクセスできるすべてのユーザーと共有されます。 これらのユーザーは、今後のプロジェクトのコンポーネントリストからプライマリコンポーネントを選択できます。 ただし、統合された重複したコンポーネントの所有者であっても、コンポーネントを編集することはできません。 <br/>このオプションは、プライマリコンポーネントがセグメント、計算指標、または日付範囲である場合にのみ使用できます。 指標とディメンションは、すべてのユーザーが常に利用できます。"
+>abstract="このオプションを選択すると、プライマリコンポーネントは、複製コンポーネントにアクセスできるすべてのユーザー（所有者と、コンポーネントが共有されているすべてのユーザー）と共有されます。 その後、これらのユーザーは、今後のプロジェクトのコンポーネントリストからプライマリコンポーネントを選択できます。 ただし、統合された重複コンポーネントの所有者であっても、コンポーネントを編集できません。 <br/>このオプションは、プライマリコンポーネントがセグメント、計算指標または日付範囲である場合にのみ使用できます。 指標とディメンションは、すべてのユーザーが常に使用できます。
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -40,7 +40,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_delete_duplicates"
 >title="置き換えられた重複を削除"
->abstract="このオプションを選択すると、統合された重複は使用できなくなります。 重複を引き続き使用したい場合は、このオプションの選択を解除します。"
+>abstract="このオプションを選択すると、統合された重複は使用できなくなります。 重複を引き続き使用する場合は、このオプションの選択を解除します。"
 
 <!-- markdownlint-enable MD034 -->
 

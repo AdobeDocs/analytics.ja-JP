@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスを持つジャーニーに使用します。"
+>abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスを持つジャーニーに使用します。"
+>abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
