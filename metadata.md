@@ -2,20 +2,17 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 usetq: true
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
-git-repo: https://github.com/AdobeDocs/analytics.ja-JP
+git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 autotag-review: '2026-05-19T13:22:46.838Z'
-source-git-commit: 9299541960fcaaddbd8c3fba655338a6e9cc4b70
+source-git-commit: 291a462d8d3a82144a5f70934e793a8eb2f64ab1
 workflow-type: tm+mt
 source-wordcount: 124
 ht-degree: 96%
