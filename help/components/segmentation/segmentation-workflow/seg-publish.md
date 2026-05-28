@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 29%
@@ -84,7 +84,7 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
    ![CX Enterpriseを公開](assets/publish-ec.png)
 1. セグメントのタイトルと説明を入力します。 セグメントを保存する前に、これらのフィールドが必須です。
-1. 「**[!UICONTROL CX エンタープライズ公開]**」セクションで、「**[!UICONTROL このセグメントをCX エンタープライズに公開する」（*レポートスイート*の場合）]** オプションを選択します。
+1. 「**[!UICONTROL Experience Cloud公開]**」セクションで、「**[!UICONTROL このセグメントをExperience Cloudに公開する」（*レポートスイート*の場合）]** オプションを選択します。
 
    >[!IMPORTANT]
    >
