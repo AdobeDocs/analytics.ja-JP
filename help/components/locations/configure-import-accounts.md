@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: 1764
 ht-degree: 69%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 69%
 
    +++Amazon S3 Role ARN
 
-   **メモ：** データフィードとData WarehouseでAmazon S3を使用する場合、SSE-S3暗号化のみがサポートされます。
+   **メモ：** データフィード、Data Warehouse、および分類でAmazon S3を使用する場合、SSE-S3暗号化のみがサポートされます。
 
    Amazon S3 Role ARN アカウントを設定するには、次の情報を指定します。
 
@@ -139,7 +139,7 @@ ht-degree: 69%
 
    +++
 
-   +++メール
+   +++電子メール
 
    >[!NOTE]
    >
