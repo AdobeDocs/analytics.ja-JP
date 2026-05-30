@@ -35,14 +35,14 @@ ht-degree: 0%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL 平均ビットレート &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
-* [[!UICONTROL &#x200B; ビットレートの変更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
-* [[!UICONTROL &#x200B; バッファーイベント &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
-* [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
-* [[!UICONTROL &#x200B; フレームをドロップ &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
-* [[!UICONTROL エラー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
-* [[!UICONTROL 外部エラーID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
-* [[!UICONTROL Player SDK エラーID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
-* [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
+* [[!UICONTROL 平均ビットレート &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL &#x200B; ビットレートの変更]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL &#x200B; バッファーイベント &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
+* [[!UICONTROL &#x200B; フレームをドロップ &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL エラー]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/errors)
+* [[!UICONTROL 外部エラーID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/external-error-ids)
+* [[!UICONTROL Player SDK エラーID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
+* [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/time-to-start)
 
 対応する指標については、[&#x200B; ストリーミングメディアサービスの品質指標](../metrics/sm-quality.md)を参照してください。

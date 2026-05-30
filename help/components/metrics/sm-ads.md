@@ -32,9 +32,9 @@ ht-degree: 0%
 
 次の指標を使用できます。
 
-* [[!UICONTROL 広告が完了しました]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL 広告開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL 広告に費やした時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL &#x200B; メディア滞在時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL 広告が完了しました]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL 広告開始]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL 広告に費やした時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL &#x200B; メディア滞在時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 対応するディメンションについては、[&#x200B; ストリーミングメディアサービスとディメンション &#x200B;](../dimensions/sm-ads.md)を参照してください。

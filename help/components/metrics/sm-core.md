@@ -28,17 +28,17 @@ ht-degree: 1%
 
 次の指標を使用できます。
 
-* [[!UICONTROL 分平均オーディエンス]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-minute-audience)
-* [[!UICONTROL &#x200B; コンテンツ完了]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)
-* [[!UICONTROL 影響を受けるストリームを一時停止]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
-* [[!UICONTROL &#x200B; イベントを一時停止]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)
-* [[!UICONTROL 合計一時停止期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)
-* [[!UICONTROL &#x200B; コンテンツ開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
-* [[!UICONTROL 進行状況マーカー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
-* [[!UICONTROL &#x200B; コンテンツが再開]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
-* [[!UICONTROL &#x200B; コンテンツセグメントビュー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
-* [[!UICONTROL &#x200B; メディア開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
-* [[!UICONTROL &#x200B; コンテンツに費やした時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
-* [[!UICONTROL &#x200B; ユニーク再生時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
+* [[!UICONTROL 分平均オーディエンス]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/average-minute-audience)
+* [[!UICONTROL &#x200B; コンテンツ完了]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-completes)
+* [[!UICONTROL 影響を受けるストリームを一時停止]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
+* [[!UICONTROL &#x200B; イベントを一時停止]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/pause-events)
+* [[!UICONTROL 合計一時停止期間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/total-pause-duration)
+* [[!UICONTROL &#x200B; コンテンツ開始]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-starts)
+* [[!UICONTROL 進行状況マーカー]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)
+* [[!UICONTROL &#x200B; コンテンツが再開]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-resumes)
+* [[!UICONTROL &#x200B; コンテンツセグメントビュー]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL &#x200B; メディア開始]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/media-starts)
+* [[!UICONTROL &#x200B; コンテンツに費やした時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL &#x200B; ユニーク再生時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/unique-time-played)
 
 対応するディメンションについては、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](../dimensions/sm-core.md)を参照してください。

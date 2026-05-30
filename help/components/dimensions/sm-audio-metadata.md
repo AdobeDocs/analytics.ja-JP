@@ -32,9 +32,9 @@ ht-degree: 1%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL &#x200B; アルバム &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL &#x200B; アーティスト &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL 作成者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL ラベル]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL 発行者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL 駅]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL &#x200B; アルバム &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL &#x200B; アーティスト &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL 作成者]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL ラベル]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL 発行者]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL 駅]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/station)
