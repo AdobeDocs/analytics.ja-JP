@@ -33,27 +33,27 @@ ht-degree: 2%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL Ad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL &#x200B; ポッド位置の広告]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
-* [[!UICONTROL 広告の長さ（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
-* [[!UICONTROL 広告名（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
-* [[!UICONTROL &#x200B; プレイヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
-* [[!UICONTROL 広告ポッド &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
-* [[!UICONTROL 広告主]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
-* [[!UICONTROL キャンペーン ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
+* [[!UICONTROL Ad]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad)
+* [[!UICONTROL &#x200B; ポッド位置の広告]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL 広告の長さ（変数） &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL 広告名（変数） &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL &#x200B; プレイヤー名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL 広告ポッド &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL 広告主]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/advertiser)
+* [[!UICONTROL キャンペーン ID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
 上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
 | 分類名 | 親ディメンション |
 | --- | --- |
-| [[!UICONTROL &#x200B; アセット ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL &#x200B; コンテンツの評価]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL 最初のエア日]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL 最初のデジタル日付]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL 広告の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Ad] |
-| [[!UICONTROL 広告名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Ad] |
-| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Ad] |
-| [[!UICONTROL &#x200B; ポッド名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 広告ポッド &#x200B;] |
-| [[!UICONTROL &#x200B; ポッドの位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 広告ポッド &#x200B;] |
+| [[!UICONTROL &#x200B; アセット ID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL &#x200B; コンテンツの評価]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 最初のエア日]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 最初のデジタル日付]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 広告の長さ]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Ad] |
+| [[!UICONTROL 広告名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Ad] |
+| [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Ad] |
+| [[!UICONTROL &#x200B; ポッド名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 広告ポッド &#x200B;] |
+| [[!UICONTROL &#x200B; ポッドの位置]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 広告ポッド &#x200B;] |
 
 対応する指標については、[&#x200B; ストリーミングメディアサービスと指標](../metrics/sm-ads.md)を参照してください。

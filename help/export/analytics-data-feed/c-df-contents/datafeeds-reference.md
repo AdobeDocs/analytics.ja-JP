@@ -224,49 +224,49 @@ ht-degree: 78%
 | | **`va_finder_id`** | 「[ファーストタッチチャネル](/help/components/dimensions/first-touch-channel.md)」ディメンションを識別する数値 ID。 この ID のルックアップは、マーケティングチャネルマネージャーで確認できます。 | tinyint unsigned |
 | | **`va_instance_event`** | マーケティングチャネル[インスタンス](/help/components/metrics/instances.md)を識別するフラグ。 | tinyint unsigned |
 | | **`va_new_engagement`** | マーケティングチャネル[新規エンゲージメント](/help/components/metrics/new-engagements.md)を識別するフラグ。 | tinyint unsigned |
-| **`post_`** | **`video`** | 「[コンテンツ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoad`** | 「[広告](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadinpod`** | 「[ポッド位置の広告](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadlength`** | 「[広告の長さ（変数）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)」ストリーミングメディアサービスディメンション。 | 整数 |
-| **`post_`** | **`videoadname`** | 「[広告名（変数）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadplayername`** | 「[広告プレーヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadpod`** | 「[広告ポッド](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | 「[広告主](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudioalbum`** | 「[アルバム](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudioartist`** | 「[アーティスト](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudioauthor`** | 「[オーサー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudiolabel`** | 「[ラベル](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudiopublisher`** | 「[パブリッシャー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoaudiostation`** | 「[ステーション](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videocampaign`** | 「[キャンペーン ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videochannel`** | 「[コンテンツチャネル](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videochapter`** | 「[チャプター](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videocontenttype`** | 「[コンテンツタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videodaypart`** | 「[日分割](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoepisode`** | 「[エピソード](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videofeedtype`** | 「[メディアフィードのタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videogenre`** | 「[ジャンル](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)」ストリーミングメディアサービスディメンション。 このディメンションでは、コンマで区切られた複数の値が同じヒットに許可されます。 | text |
-| **`post_`** | **`videolength`** | 「[コンテンツの長さ（変数）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)」ストリーミングメディアサービスディメンション。 | 整数 |
-| **`post_`** | **`videomvpd`** | 「[MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoname`** | 「[コンテンツ名（変数）](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videonetwork`** | 「[ネットワーク](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videopath`** | 「[メディアパス](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)」ストリーミングメディアサービスディメンション。 | varchar(100) |
-| **`post_`** | **`videoplayername`** | 「[コンテンツプレーヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | 「[平均ビットレート](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | 「[ビットレートの変更](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | 「[バッファーイベント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | 「[合計バッファー時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | 「[ドロップフレーム](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | 「[エラー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videoqoeextneralerrors`** | 「[外部エラー ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)」ストリーミングメディアサービスディメンション。 このディメンションでは、複数の値が同じヒットに許可されます。 | text |
-| **`post_`** | **`videoqoeplayersdkerrors`** | 「[プレーヤー SDK エラー ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)」ストリーミングメディアサービスディメンション。 このディメンションでは、複数の値が同じヒットに許可されます。 | text |
-| **`post_`** | **`videoqoetimetostartevar`** | 「[開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoseason`** | 「[シーズン](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videosegment`** | 「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [&#x200B; メディアセッション ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoshow`** | 「[表示](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| **`post_`** | **`videoshowtype`** | 「[表示タイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
-| | **`videostreamtype`** | 「[ストリームタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`video`** | 「[コンテンツ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoad`** | 「[広告](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoadinpod`** | 「[ポッド位置の広告](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoadlength`** | 「[広告の長さ（変数）](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-length)」ストリーミングメディアサービスディメンション。 | 整数 |
+| **`post_`** | **`videoadname`** | 「[広告名（変数）](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoadplayername`** | 「[広告プレーヤー名](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-player-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoadpod`** | 「[広告ポッド](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-pod)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | 「[広告主](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/advertiser)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudioalbum`** | 「[アルバム](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/album)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudioartist`** | 「[アーティスト](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/artist)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudioauthor`** | 「[オーサー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/author)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudiolabel`** | 「[ラベル](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/label)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudiopublisher`** | 「[パブリッシャー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/publisher)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoaudiostation`** | 「[ステーション](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/station)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videocampaign`** | 「[キャンペーン ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/campaign-id)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videochannel`** | 「[コンテンツチャネル](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-channel)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videochapter`** | 「[チャプター](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videocontenttype`** | 「[コンテンツタイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videodaypart`** | 「[日分割](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/day-part)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoepisode`** | 「[エピソード](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/episode)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videofeedtype`** | 「[メディアフィードのタイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-feed-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videogenre`** | 「[ジャンル](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/genre)」ストリーミングメディアサービスディメンション。 このディメンションでは、コンマで区切られた複数の値が同じヒットに許可されます。 | text |
+| **`post_`** | **`videolength`** | 「[コンテンツの長さ（変数）](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-length)」ストリーミングメディアサービスディメンション。 | 整数 |
+| **`post_`** | **`videomvpd`** | 「[MVPD](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/mvpd)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoname`** | 「[コンテンツ名（変数）](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videonetwork`** | 「[ネットワーク](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/network)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videopath`** | 「[メディアパス](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-path)」ストリーミングメディアサービスディメンション。 | varchar(100) |
+| **`post_`** | **`videoplayername`** | 「[コンテンツプレーヤー名](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-player-name)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | 「[平均ビットレート](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/average-bitrate)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | 「[ビットレートの変更](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/bitrate-changes)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | 「[バッファーイベント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/buffer-events)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | 「[合計バッファー時間](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | 「[ドロップフレーム](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/dropped-frames)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | 「[エラー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/errors)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videoqoeextneralerrors`** | 「[外部エラー ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/external-error-ids)」ストリーミングメディアサービスディメンション。 このディメンションでは、複数の値が同じヒットに許可されます。 | text |
+| **`post_`** | **`videoqoeplayersdkerrors`** | 「[プレーヤー SDK エラー ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)」ストリーミングメディアサービスディメンション。 このディメンションでは、複数の値が同じヒットに許可されます。 | text |
+| **`post_`** | **`videoqoetimetostartevar`** | 「[開始時間](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/time-to-start)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoseason`** | 「[シーズン](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/season)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videosegment`** | 「[コンテンツセグメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-segment)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [&#x200B; メディアセッション ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-session-id) ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoshow`** | 「[表示](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| **`post_`** | **`videoshowtype`** | 「[表示タイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
+| | **`videostreamtype`** | 「[ストリームタイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/stream-type)」ストリーミングメディアサービスディメンション。 | varchar(255) |
 | **`post_`** | **`visid_high`** | `visid_low` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`post_`** | **`visid_low`** | `visid_high` と共に使用し、訪問者を一意に識別します。 | bigint unsigned |
 | | **`visid_new`** | ヒットに新しく生成された訪問者 ID が含まれているかどうかを判定するフラグ。 | char(1) |

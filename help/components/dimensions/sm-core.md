@@ -31,22 +31,22 @@ ht-degree: 1%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL コンテンツ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL &#x200B; コンテンツチャネル &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
-* [[!UICONTROL &#x200B; コンテンツの長さ（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
-* [[!UICONTROL &#x200B; コンテンツ名（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
-* [[!UICONTROL &#x200B; コンテンツプレーヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL &#x200B; コンテンツセグメント &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL &#x200B; コンテンツの種類]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
-* [[!UICONTROL &#x200B; メディアパス &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
-* [[!UICONTROL &#x200B; メディアセッション ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL &#x200B; ストリームタイプ &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL コンテンツ]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL &#x200B; コンテンツチャネル &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL &#x200B; コンテンツの長さ（変数） &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL &#x200B; コンテンツ名（変数） &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL &#x200B; コンテンツプレーヤー名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL &#x200B; コンテンツセグメント &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL &#x200B; コンテンツの種類]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL &#x200B; メディアパス &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL &#x200B; メディアセッション ID]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL &#x200B; ストリームタイプ &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
 | 分類名 | 親ディメンション |
 | --- | --- |
-| [[!UICONTROL &#x200B; ビデオの長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL コンテンツ] |
-| [[!UICONTROL &#x200B; ビデオ名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL コンテンツ] |
+| [[!UICONTROL &#x200B; ビデオの長さ]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL コンテンツ] |
+| [[!UICONTROL &#x200B; ビデオ名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL コンテンツ] |
 
 対応する指標については、[&#x200B; ストリーミングメディアサービスのコア指標](../metrics/sm-core.md)を参照してください。

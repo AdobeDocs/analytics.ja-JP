@@ -33,14 +33,14 @@ ht-degree: 0%
 次のディメンションを使用できます。
 
 * [!UICONTROL 広告が読み込まれます]
-* [[!UICONTROL 日パート &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL &#x200B; エピソード &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL &#x200B; メディアフィードの種類]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL &#x200B; ジャンル &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL ネットワーク]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL &#x200B; シーズン &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL 表示]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL &#x200B; タイプを表示]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL 日パート &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL &#x200B; エピソード &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL &#x200B; メディアフィードの種類]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL &#x200B; ジャンル &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL ネットワーク]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL &#x200B; シーズン &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 表示]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL &#x200B; タイプを表示]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show-type)
 
 対応する指標については、[&#x200B; ストリーミングメディアサービスのビデオメタデータ指標](../metrics/sm-video-metadata.md)を参照してください。

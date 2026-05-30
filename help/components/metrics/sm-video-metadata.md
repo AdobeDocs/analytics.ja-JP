@@ -32,6 +32,6 @@ ht-degree: 1%
 
 次の指標を使用できます。
 
-* [[!UICONTROL 認証済み]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+* [[!UICONTROL 認証済み]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/authorized)
 
 対応するディメンションについては、[&#x200B; ストリーミングメディアサービスのビデオメタデータディメンション &#x200B;](../dimensions/sm-video-metadata.md)を参照してください。

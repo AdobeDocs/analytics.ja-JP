@@ -31,8 +31,8 @@ ht-degree: 0%
 
 次の指標を使用できます。
 
-* [[!UICONTROL 章完了]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL 章開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
-* [[!UICONTROL 章の滞在時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+* [[!UICONTROL 章完了]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL 章開始]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL 章の滞在時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 対応するディメンションについては、[&#x200B; ストリーミングメディアサービスの章ディメンション &#x200B;](../dimensions/sm-chapters.md)を参照してください。
