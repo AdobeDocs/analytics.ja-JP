@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="CX エンタープライズ公開"
->abstract="オーディエンスをオーディエンスライブラリに公開して、Targetやその他のCX エンタープライズソリューションのマーケティング活動にオーディエンスを使用することができます。"
+>title="CX Enterprise の公開"
+>abstract="オーディエンスをオーディエンスライブラリに公開し、Target やその他の CX Enterprise ソリューションのマーケティングアクティビティに使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"

@@ -25,7 +25,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: 2046
 ht-degree: 88%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 88%
 
    または
 
-   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択します。
+   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**&#x200B;を選択します。
 保存されていない変更がある場合は、まずプロジェクトを保存するように求められます。
 
    共有プロジェクトダイアログボックスが表示されます。 ダイアログボックスの「[!UICONTROL **リンクで共有**]」と「[!UICONTROL **設定**]」セクションは、単一のプロジェクトを共有する場合にのみ表示されます。
@@ -149,8 +149,8 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="CX Enterprise認証が必要"
->abstract="組織では、このリンクを使用するには、ユーザーがCX Enterpriseにログインする必要があります。"
+>title="CX Enterprise 認証が必要"
+>abstract="ユーザーがこのリンクを使用するには、組織から CX Enterprise にログインするよう求められます。"
 
 Adobe Analytics にアクセスできないユーザーに Analysis Workspace プロジェクトへの[読み取り専用アクセス権](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)を付与できます。 このようなユーザーには以下が含まれます。
 
