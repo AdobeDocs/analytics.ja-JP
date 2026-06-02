@@ -11,7 +11,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->Report Builderは、2026年6月に提供終了となります。 2026年7月1日（PT）をもって、従来のReport Builderを使用してスケジュールされたワークブックは配信されなくなります。 <ul><li>2026年8月12日（PT）までに、従来のReport Builderから新しいReport Builderにワークブックを移行する必要があります。 詳しくは、[従来のワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)を参照してください。</li><li>Adobe Analytics 1.4 APIの提供終了に伴い、従来のReport Builder アドインはダウンロードできなくなります。</li><li>2026年8月12日以降、移行が必要なワークブックをお持ちのお客様は、元のワークブックを入手するために、カスタマーサポートにお問い合わせください。 これらのワークブックは、[従来のワークブックの変換](/help/analyze/report-builder/convert-workbooks.md)に記載されているように移行する必要があります。</li></ul> 新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。 FTP サーバーおよびPower BIへのスケジュールされた書き出しは、Report Builderではサポートされなくなりました。 従来のReport Builderでこれらの機能を使用しているお客様は、Report Builderでの書き出しに[ クラウドの宛先](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)を使用する必要があります。
+>Report Builderは、2026年6月に提供終了となります。 2026年7月1日（PT）をもって、従来のReport Builderを使用してスケジュールされたワークブックは配信されなくなります。 <ul><li>2026年8月12日（PT）までに、従来のReport Builderから新しいReport Builderにワークブックを移行する必要があります。 詳しくは、[従来のワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)を参照してください。</li><li>Adobe Analytics 1.4 APIの提供終了に伴い、従来のReport Builder アドインはダウンロードできなくなります。</li><li>2026年8月12日以降、移行が必要なワークブックをお持ちのお客様は、元のワークブックを入手するために、カスタマーサポートにお問い合わせください。 これらのワークブックは、[従来のワークブックの変換](/help/analyze/report-builder/convert-workbooks.md)に記載されているように移行する必要があります。</li></ul> 新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。 FTP サーバーおよびPower BIへのスケジュールされた書き出しは、Report Builderではサポートされなくなりました。 従来のReport Builderでこれらの機能を使用しているお客様は、Report Builderでの書き出しに[&#x200B; クラウドの宛先](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)を使用する必要があります。
 
 
 ## レガシー Report Builder {#legacy-arb-old}
@@ -21,11 +21,11 @@ ht-degree: 93%
 >新しく合理化された[Report Builder](/help/analyze/report-builder/rb-overview.md)は、2024年10月16日（PT）から利用できます。このReport Builderは、macOS、Windows、およびweb ブラウザーでサポートされており、Adobe AnalyticsおよびCustomer Journey Analyticsで使用できます。
 >この従来のReport Builder アドイン版は引き続き機能します。[従来のブックを](/help/analyze/report-builder/convert-workbooks.md)新しいReport Builderに変換できます。
 
-## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
+## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[ テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
+>**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[&#x200B; テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。 このお知らせでは、提供終了プロセスについて説明します。
 >
