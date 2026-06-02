@@ -1,18 +1,25 @@
 ---
-source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 98%
+source-wordcount: '3188'
+ht-degree: 93%
 
 ---
 # スニペット
 
-## レガシー Report Builder {#legacy-arb}
+## レガシーReport BuilderのEOL {#legacy-arb}
+
+>[!WARNING]
+>
+>Report Builderは、2026年6月に提供終了となります。 2026年7月1日（PT）をもって、従来のReport Builderを使用してスケジュールされたワークブックは配信されなくなります。 <ul><li>2026年8月12日（PT）までに、従来のReport Builderから新しいReport Builderにワークブックを移行する必要があります。 詳しくは、[従来のワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)を参照してください。</li><li>Adobe Analytics 1.4 APIの提供終了に伴い、従来のReport Builder アドインはダウンロードできなくなります。</li><li>2026年8月12日以降、移行が必要なワークブックをお持ちのお客様は、元のワークブックを入手するために、カスタマーサポートにお問い合わせください。 これらのワークブックは、[従来のワークブックの変換](/help/analyze/report-builder/convert-workbooks.md)に記載されているように移行する必要があります。</li></ul> 新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。 FTP サーバーおよびPower BIへのスケジュールされた書き出しは、Report Builderではサポートされなくなりました。 従来のReport Builderでこれらの機能を使用しているお客様は、Report Builderでの書き出しに[&#x200B; クラウドの宛先](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)を使用する必要があります。
+
+
+## レガシー Report Builder {#legacy-arb-old}
 
 >[!IMPORTANT]
 >
->新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。
->このレガシー Report Builder アドインバージョンは、引き続き機能します。 新しい Report Builder に[レガシーワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)できます。
+>新しく合理化された[Report Builder](/help/analyze/report-builder/rb-overview.md)は、2024年10月16日（PT）から利用できます。このReport Builderは、macOS、Windows、およびweb ブラウザーでサポートされており、Adobe AnalyticsおよびCustomer Journey Analyticsで使用できます。
+>この従来のReport Builder アドイン版は引き続き機能します。[従来のブックを](/help/analyze/report-builder/convert-workbooks.md)新しいReport Builderに変換できます。
 
 ## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
 
