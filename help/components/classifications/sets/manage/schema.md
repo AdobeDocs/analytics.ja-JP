@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 10%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 10%
 | 列 | 説明 |
 |---|---|
 | **[!UICONTROL 分類名]** | 分類に指定した名前。 |
-| **[!UICONTROL ID名]** | 分類の名前を生成しました。 この名前は読み取り専用の値で、ID名を使用できます。 |
+| **[!UICONTROL ID名]** | 分類の名前を生成しました。 この名前は読み取り専用の値で、最初の分類名から派生します。 ID名は、分類を保持するために内部で使用され、レポート可能なディメンションのIDとして機能し、変更できません。 |
 | **[!UICONTROL 分類者：]** | 使用する場合は、この分類の分類に使用する検索分類セットへのリンクを指定します。 |
 
 
