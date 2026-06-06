@@ -32,7 +32,7 @@ ht-degree: 0%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL 広告が読み込まれます]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
+* [[!UICONTROL 広告が読み込まれます]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/ad-load-type)
 * [[!UICONTROL 日パート &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/day-part)
 * [[!UICONTROL &#x200B; エピソード &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL &#x200B; メディアフィードの種類]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-feed-type)
