@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: ht
-source-wordcount: '221'
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,6 @@ ht-degree: 100%
 
 + [Analytics テクニカルノート](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/ja/docs/analytics/release-notes/latest)
-+ Adobe Analytics for Google Analytics ユーザー {#ga-to-aa}
-   + [Adobe Analytics for Google Analytics ユーザーヘルプ](ga-to-aa/home.md)
-   + [アカウントとレポートスイート](ga-to-aa/accounts.md)
-   + [レポート表示のカスタマイズ](ga-to-aa/customization.md)
-   + Google Analytics レポート {#reports}
-      + [Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](ga-to-aa/reports/create-report.md)
-      + [他の Analytics プラットフォームで使用される一般的な指標](ga-to-aa/reports/common-metrics.md)
-      + [リアルタイム](ga-to-aa/reports/realtime-reports.md)
-      + [オーディエンス](ga-to-aa/reports/audience-reports.md)
-      + [獲得](ga-to-aa/reports/acquisition-reports.md)
-      + [動作](ga-to-aa/reports/behavior-reports.md)
-      + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
-   + [よくある質問](ga-to-aa/faq.md)
-   + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
-   + [データのサードパーティ製品との比較](ga-to-aa/compare-data.md)
 + [AI トラフィックの分析](/help/technotes/ai-traffic.md)
 + イベントの影響を受けるデータの分析 {#event}
    + [イベントの影響を受けるデータの分析の概要](event/overview.md)
