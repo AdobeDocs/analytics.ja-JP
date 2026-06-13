@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
 source-wordcount: 7326
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -322,7 +322,7 @@ ht-degree: 95%
 | 2020年10月23日 | Adobe Analytics ダッシュボードのドキュメントに機能強化を追加しました。 ワークスペースのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
 | **2020年9月** | |
 | 2020年9月17日 | [単一のディメンションに対して 50,000 個の項目をダウンロード](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items)：セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。 これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| 2020年9月17日 | [折れ線グラフのビジュアライゼーションの強化](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。 これは、[!UICONTROL 折れ線グラフ]のビジュアライゼーションがコンパクトな場合に特に便利です。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。 「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| 2020年9月17日 | [折れ線グラフのビジュアライゼーションの強化](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。 これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。 「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 2020年9月17日 | ワークスペースの新しい日付範囲：5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 | 2020年9月17日 | [ワークスペースのメディア同時ビューアパネル](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)に関する新しいドキュメント |
 | **2020年8月** | |
@@ -355,7 +355,7 @@ ht-degree: 95%
 | 2020年2月27日 | [Adobe Analytics Labs](/help/analyze/labs.md) に関するドキュメントを追加しました。 |
 | 2020年2月25日 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 変数を追加しました。 |
 | 2020年2月20日 | クロスデバイス間分析を使用する組織向けの新しいワークスペーステンプレート. このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。 CDA を使用するレポートスイートが必要です。 詳しくは、 [クロスデバイス分析の設定](/help/components/cda/setup.md) を参照してください。 |
-| 2020年2月20日 | ワークスペースの新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
+| 2020年2月20日 | ワークスペースの新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
 | 2020年2月20日 | ワークスペースの機能強化： <ul><li>パネルまたはビジュアライゼーションを ワークスペースにドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | 2020年2月20日 | ワークスペースデバッガーがヘルプメニューに追加され、ワークスペースリクエストのデバッグがよりシームレスに有効化できるようになりました。 [詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020年2月18日 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 変数を追加しました。 |
@@ -398,7 +398,7 @@ ht-degree: 95%
 | 2019年7月18日 | ワークスペースの左側のパネルに、_過去 18 か月の項目を表示_&#x200B;するためのオプションが追加されました。 以前は、ルックバック期間は最大 6 か月でした。 これにより、昨年のページやキャンペーンとの比較が簡単になります（最大 18 か月前）。 |
 | 2019年7月18日 | Analysis Workspace に追加された、[Magento：マーケティングとコマース](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)という新しいワークスペーステンプレートに関するドキュメント。 Magento e コマースのお客様向けに特別に設計されたものですが、小売業者のお客様は独自のインサイトを業務に役立てることができます。 |
 | 2019年6月13日 | ワークスペースの左側のパネルの検索に、新しい事前設定済みのフィルターを追加しました。 今日の表示（ディメンション、指標、承認済みなど）以外にも、計算指標、顧客属性、eVar、小道具、ビデオなどの新しいフィルターが追加され、必要なコンポーネントを簡単に見つけることができるようになりました。 |
-| 2019年6月4日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
+| 2019年6月4日 | 新しいガイドのタイトルは、「Transitioning from a third-party analytics platform to Adobe Analytics（サードパーティ分析プラットフォームからへの移行）」。 |
 | 2019年5月31日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
 | 2019年5月9日 | フロービジュアライゼーション設定に新しい設定を追加しました：繰り返しインスタンスを含める。 [フロー設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)を参照 |
 | 2019年4月11日 | ワークスペースの最適化のベストプラクティスに関する機能強化：パフォーマンスの最適化 |

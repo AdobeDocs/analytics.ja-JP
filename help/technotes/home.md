@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 440
 ht-degree: 97%
 
 ---
@@ -49,11 +49,6 @@ Adobe Analytics の主な機能には、次のものが含まれます。
 * レポート：プラットフォームは、予定レポート、アドホックレポート、カスタマイズ可能なダッシュボードなど、様々なレポートオプションを備えています。これにより、企業は関係者とインサイトを共有し、データに基づく意思決定で共同作業できます。
 
 要約すると、Adobe Analytics は、企業がデジタルマーケティング活動を測定、分析、最適化するために必要なツールを備えた、強力な web 分析ソリューションです。 リアルタイムデータ、高度な分析、アトリビューションモデリングにより、企業はデジタル変換を推進し、ROI を向上させるデータに基づく意思決定を行うことができます。
-
-
-## 主要なテクニカルノート記事
-
-* [サードパーティの分析プラットフォームから Adobe Analytics への移行](ga-to-aa/home.md)
 
 ## その他の Analytics ユーザーガイド
 
