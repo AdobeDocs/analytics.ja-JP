@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
-source-wordcount: 7326
+source-wordcount: 7375
 ht-degree: 94%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 94%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2026年6月** | |
+| GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
 | ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](/help/components/dimensions/sm-core.md)および[&#x200B; ストリーミングメディアサービスコアメトリクス &#x200B;](/help/components/metrics/sm-core.md)が含まれます。 |
 | **2026年3月** | |
