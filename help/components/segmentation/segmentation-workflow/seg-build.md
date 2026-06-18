@@ -16,14 +16,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1869
 ht-degree: 94%
 
 ---
 
-# セグメントの作成 {#build-segments}
+# セグメントの作成
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -69,7 +69,7 @@ ht-degree: 94%
    {style="table-layout:auto"}
 
 1. セグメント定義が正しいかどうかを確認するには、右上にあるセグメントの結果の一貫して更新されるプレビューを使用します。
-1. セグメントをCX Enterpriseに公開するには、「**[!UICONTROL このセグメントをExperience Cloudに公開する」（*レポートスイート*の場合）]**&#x200B;を選択します。 詳しくは、[CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)を参照してください。
+1. セグメントをCX Enterpriseに公開するには、**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート*の場合）]**&#x200B;を選択します。 詳しくは、[CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)を参照してください。
 1. 次のいずれかを選択します。
    * 「**[!UICONTROL 保存]**」を選択して、セグメントを保存します。
    * 「**[!UICONTROL 名前を付けて保存]**」を選択して、セグメントのコピーを保存します。
@@ -282,7 +282,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment manager where you can manage the segment.
 
 
-## Build segments {#build-segments}
+## Build segments
 
 1. Simply drag a Dimension, Segment, or Metric Event from the left pane to the [!UICONTROL Definitions] field.
 
