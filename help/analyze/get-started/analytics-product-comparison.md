@@ -27,7 +27,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 67%
@@ -52,7 +52,7 @@ ht-degree: 67%
 | **表示される行数制限（ページ分割前）** | 400 | 50000 | 制限なし | 制限なし | 50000 |
 | **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | はい | いいえ | はい | いいえ |
 | **分類の数** | 制限なし | ～ 2 | 制限なし | 制限なし | 制限なし（複数のクエリに対して実行） |
-| **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | はい | はい | ○（[制限あり](/help/components/segmentation/seg-reference/seg-compatibility.md)） | いいえ | はい |
+| **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | はい | はい | ○（[制限あり](/help/export/data-warehouse/segment-compatibility.md)） | いいえ | はい |
 | **計算指標** <br> [詳細情報](/help/components/calculated-metrics/cm-overview.md) | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | ○（Attribution あり） | はい | いいえ | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
 | **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | はい | はい | はい | ○ — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | はい | いいえ | いいえ | いいえ |

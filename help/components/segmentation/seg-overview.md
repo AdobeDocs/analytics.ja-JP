@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 94%
+source-wordcount: 1052
+ht-degree: 89%
 
 ---
 
@@ -144,6 +144,10 @@ Analysis Workspace には、次の追加機能が含まれます。
 - [セグメントを比較](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)できます。
 - フリーフォームテーブルのビジュアライゼーションでディメンションとしてセグメントを使用します。
 - [フォールアウト分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)でセグメントを使用できます。
+
+## Data Warehouseとの互換性
+
+セグメント機能のすべてがData Warehouseと互換性があるわけではありません。 特定のセグメント構造とディメンションはサポートされておらず、それらを使用するセグメントはData Warehouse リクエストの作成時に表示されません。 サポートされている機能とサポートされていない機能の完全な一覧については、[Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を参照してください。
 
 ## アドビが提供するセグメント
 

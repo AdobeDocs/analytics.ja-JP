@@ -11,10 +11,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 36%
+source-wordcount: 251
+ht-degree: 33%
 
 ---
 
@@ -38,9 +38,11 @@ Data Warehouse リクエストのレポートを作成するには：
 
    セグメントビルダーで作成したすべてのセグメントがData Warehouseと互換性があるわけではありません。 互換性のないセグメントを含む仮想レポートスイートを選択すると、エラーが表示されます。
 
-   セグメント内でサポートされている関数の一覧については、[Data Warehouse セグメントの互換性](/help/components/segmentation/seg-reference/seg-compatibility.md)を参照してください。
+   Data Warehouse セグメント内でサポートされているセグメント構造とディメンションについては、[Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を参照してください。
 
 1. セグメント、指標、ディメンションをビルダーにドラッグします。 作成したレポートによって、Data Warehouse リクエストに含まれるデータが決まります。
+
+   リクエストで使用可能なディメンションと指標については、[Data Warehouseでのコンポーネントサポート &#x200B;](/help/export/data-warehouse/component-support.md)を参照してください。
 
 1. 引き続き、[!UICONTROL **レポートの宛先**] タブでData Warehouse リクエストの設定を行います。 詳しくは、[Data Warehouse リクエストに対するレポートの宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を参照してください。
 

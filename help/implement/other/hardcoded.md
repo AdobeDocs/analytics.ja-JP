@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 ```
 
 * `https://` はプロトコルを指定します。 イメージリクエストで使用されるプロトコルと、サイトの残りの部分で使用されるプロトコルとを一致させます。
-* `example.data.adobedc.net` は、[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数に含まれる値です。
+* `example.data.adobedc.net` は、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 変数に含まれる値です。
 * `/b/ss/` は、すべてのイメージリクエストに含まれます。 これは、アドビのデータ収集サーバーに保存される画像のファイル構造の一部です。
 * `examplersid` は、データの送信先のレポートスイート ID です。 複数のレポートスイートの場合、ID をコンマで区切り、スペースは使用しません（`examplersid1,examplersid2` など）。
 * `/1/` はヒットソースです。 詳しくは、『エクスポートユーザーガイド』の [データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) で `hit_source` を参照してください。 訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。

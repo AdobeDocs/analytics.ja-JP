@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 385
 ht-degree: 79%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 79%
 >これらの手順に従うには、`s_code.js` のコピーが既存する必要があります。 アドビでは、Code Manager で H コードをダウンロードするオプションを提供しなくなりました。
 
 1. **コア JS ファイル変数の更新**：`s_code.js` ファイルを編集し、次の変数が更新されていることを確認します。
-   * `s_account` には、データの送信先のレポートスイート ID が含まれます。 詳しくは、
-   * `s.trackingServer` には、Cookie が保存されている場所が含まれます。 [trackingServer](../../vars/config-vars/trackingserver.md) を参照してください。
+   * `s_account` には、データの送信先のレポートスイート ID が含まれます。
+   * `s.trackingServerSecure` には、Cookie が保存されている場所が含まれます。
 1. **サイトで `s_code.js` ファイルをホストします**：このファイルは、通常、Web サーバー上で他のスクリプトと共に存在します。
 1. **すべてのページで `s_code.js` を参照します**：すべての個々のページでコア JavaScript ファイルが呼び出されていることを確認します。呼び出しは、HTML `<body>` タグ内（`<head>` タグではなく）で実行します。
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +64,21 @@ ht-degree: 15%
 | --- | --- | --- |
 | **eVar 1-250** | 読み取り+書き込み | 「[eVar](/help/components/dimensions/evar.md)」ディメンション。 |
 | **Campaign** | 読み取り+書き込み | 「[トラッキングコード](/help/components/dimensions/tracking-code.md)」ディメンション。 |
-| **購入ID** | 読み取り+書き込み | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 実装変数。 |
-| **都道府県** | 読み取り+書き込み | （廃止）実装変数[`state`](/help/implement/vars/page-vars/state.md)です。 |
+| **購入ID** | 読み取り+書き込み | [購入ID](/help/components/dimensions/purchase-id.md) ディメンション。 |
+| **都道府県** | 読み取り+書き込み | （廃止） [訪問者の状態](/help/components/dimensions/overview.md#retired-dimensions) ディメンション。 |
 | **郵便番号** | 読み取り+書き込み | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンション。 |
 | **通貨コード** | 読み取り+書き込み | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 実装変数。 重要：この変数を無効な値に設定すると、ヒットは破棄されます。 |
 | **トランザクション ID** | 読み取り+書き込み | [`transactionID`](/help/import/data-sources/transactionid.md) 実装変数。 |
 
 >[!NOTE]
->Adobeでは、処理ルールを使用して[`products`](/help/implement/vars/page-vars/products.md)実装変数を設定することはできません。
+>Adobeでは、処理ルールを使用して[Product](/help/components/dimensions/product.md) ディメンションを設定することはできません。
 
 ## トラフィック変数
 
 | 変数 | 読み取り/書き込みステータス | 説明 |
 | --- | --- | --- |
 | **プロップ 1-75** | 読み取り+書き込み | 「[Prop](/help/components/dimensions/prop.md)」ディメンション。 |
-| **階層1-5** | 読み取り+書き込み | （廃止） [階層](/help/components/dimensions/hierarchy.md) ディメンション。 |
+| **階層1-5** | 読み取り+書き込み | （廃止） [階層](/help/components/dimensions/overview.md#retired-dimensions) ディメンション。 |
 | **サーバー** | 読み取り+書き込み | 「[サーバー](/help/components/dimensions/server.md)」ディメンション。 |
 | **チャネル** | 読み取り+書き込み | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンション。 |
 

@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 8%
@@ -51,12 +51,12 @@ ht-degree: 8%
 * **`contextData.key`**: [&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**: Experience Cloud ID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
 * **`hints`**: [&#x200B; クライアントヒント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`および`wow64`が含まれます。
-* **`ipaddress`**：訪問者のIP アドレス。
+* **`ipaddress`**: [IP アドレス &#x200B;](/help/components/dimensions/ip-address.md) ディメンション。
 * **`language`**: [言語](/help/components/dimensions/language.md) ディメンション。
 * **`list1`** - **`list3`**: [変数のリスト &#x200B;](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：訪問者のExperience Cloud ID。
 * **`tnta`**: Target [&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合のAnalyticsで使用されるTarget データペイロード。
-* **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)変数。
+* **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)変数。
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md)変数。
 * **`userAgent`**: デバイスのユーザーエージェント文字列。
 

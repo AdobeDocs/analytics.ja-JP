@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 96%
+source-wordcount: 410
+ht-degree: 79%
 
 ---
 
@@ -53,3 +53,9 @@ ht-degree: 96%
 4. 実装を検証し、発行します。
 
 多くの組織では、[`doPlugins`](../functions/doplugins.md) 関数を使用してプラグインを呼び出します。 この関数は必須ではありませんが、アドビでは、関数の使用をベストプラクティスと見なしています。 イメージリクエストをコンパイルして送信する直前に AppMeasurement がこの関数を呼び出します。これは、いくつかのプラグインが他の Analytics 変数に依存しているので理想的です。
+
+## 廃止されたプラグイン
+
+次のプラグインは廃止されました。 レガシー実装で発生した場合は、参考用にここに文書化されています。
+
+* **`getPageLoadTime`**: JavaScript パフォーマンスオブジェクトを使用してページを完全に読み込むまでにかかる時間を測定しました。 このコードは[`PerformanceTiming`](https://developer.mozilla.org/ja/docs/Web/API/PerformanceTiming) インターフェイスに依存しているため、サポートされなくなりました。ほとんどの最新のブラウザーでは非推奨です。 直接の置き換えはなく、インストール手順とプラグインコードは使用できなくなりました。

@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
-ht-degree: 94%
+source-wordcount: 7391
+ht-degree: 93%
 
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 94%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年6月** | |
+| クエリ文字列参照の更新 | [&#x200B; データ収集クエリパラメーター](/help/implement/validate/query-parameters.md)に大幅なリビジョンがあります。 |
+| Data Warehouseのセグメント | [Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を更新しました。 |
 | GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
 | ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](/help/components/dimensions/sm-core.md)および[&#x200B; ストリーミングメディアサービスコアメトリクス &#x200B;](/help/components/metrics/sm-core.md)が含まれます。 |
@@ -78,7 +80,7 @@ ht-degree: 94%
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
 | 訪問者の識別に関する追加の改善 | [訪問者の識別](/help/implement/id/overview.md)の節を追加し、すべての実装タイプをまたいで訪問者を識別するための推奨方法の概要を説明しました。 |
 | **2025年9月** | |
-| 訪問者の識別の改善 | AppMeasurement の [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
+| 訪問者の識別の改善 | AppMeasurement の `trackingServer` と [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) の変数の目的に焦点を当て、訪問者の識別に関するベストプラクティスを明確にしました。 |
 | **2025年8月** | |
 | データフィード名は一意にする必要がある | [データフィード名は一意にする必要がある](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)理由を明確にしました。 |
 | 廃止の警告 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)および[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)の節の記事に廃止の警告を追加しました。 |
@@ -92,7 +94,7 @@ ht-degree: 94%
 | **2025年3月** |  |
 | Analytics インベントリ | [Analytics インベントリ](/help/admin/tools/analytics-inventory.md)では、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。 |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
-| Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>[Data Warehouse でのコンポーネントのサポート](/help/export/data-warehouse/component-support.md)の[異なる方法でサポートされるディメンション（非標準の日付形式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)を参照してください。</p> |
+| Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)の コンポーネントサポートの[非標準の日付書式設定](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)のディメンションを参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/tools/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。 フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
@@ -124,7 +126,7 @@ ht-degree: 94%
 | **2024年6月** | |
 | ストリーミングメディアサービスの機能を参照する製品名を更新しました。 | ストリーミングメディアデータを収集して Analysis Workspace に表示するストリーミングメディア機能のセットを参照する際に、「メディア分析」と「ストリーミングメディア」のインスタンスを「ストリーミングメディアコレクションアドオン」と「ストリーミングメディアコレクション」という名前に置き換えました。 <p>これらの更新は、Adobe Analytics のドキュメントと[ストリーミングメディアコレクションのドキュメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)の全体で利用できます。</p> |
 | アラートに関するドキュメントの改善 | アラートに関するドキュメントを更新および改善しました。 これらの更新には、[アラートの作成](/help/components/alerts/alert-builder.md)、[アラートの管理](/help/components/alerts/alert-manager.md)、[概要情報](/help/components/alerts/alerts-overview.md)に関する情報が含まれます。 |
-| 非推奨`cookieDomainPeriods` | AppMeasurement が Cookie を設定する適切なドメインを自動的に検出するようになったので、[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 変数は非推奨（廃止予定）になりました。 |
+| 非推奨`cookieDomainPeriods` | AppMeasurement が Cookie を設定する適切なドメインを自動的に検出するようになったので、[`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 変数は非推奨（廃止予定）になりました。 |
 | Data Connectors ドキュメントの廃止 | Data Connectors のサポート終了ページを[販売終了した製品](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-connectors)に移動しました。 |
 | **2024年5月** | |
 | データフィードとデータウェアハウスで Google Cloud Platform の組織ポリシー制約を使用する際に必要な情報 | [データフィード](/help/export/analytics-data-feed/create-feed.md)と[データウェアハウス](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)のドキュメントに、アドビ所有の Google Cloud Platform 組織 ID を追加しました。 <p>この情報は、Google Cloud Platform で[組織ポリシーの制約](https://cloud.google.com/storage/docs/org-policy-constraints)を使用している組織にのみ必要です。</p> |
@@ -137,7 +139,7 @@ ht-degree: 94%
 | 分類セットの「所有者」に関連するドキュメントを削除しました。 | 「所有者」フィルターと列を[分類セットマネージャー](/help/components/classifications/sets/manage-sets.md)から削除し、「所有者」フィールドを[分類セット設定](/help/components/classifications/sets/manage/settings.md)から削除しました。 <p>ドキュメントを更新し、このフィルター、列、フィールドを削除しました。</p> |
 | クラウドの読み込み場所と書き出し場所の設定に関するドキュメントの折りたたみ可能な節を削除しました。 | クラウドアカウントタイプの説明に関する[クラウドの読み込み場所と書き出し場所の設定](/help/components/locations/configure-import-locations.md)の折りたたみ可能な節を削除しました。 |
 | **2024年3月** | |
-| AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定変数ドキュメントへの参照と更新が含まれます。 |
+| AppMeasurement のアップデート | AppMeasurement アップデート v2.26.0 の[リリースノート](/help/implement/appmeasurement-updates.md)。<br/>[`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 設定変数ドキュメントへの参照と更新が含まれます。 |
 | 「使用場所」列に関する使用状況情報は、2023年9月以降のみ使用可能です。 | [プロジェクトのランディングページ](/help/analyze/landing.md)の&#x200B;**使用場所**&#x200B;列に関する使用状況情報は、2023年9月までしか遡らないことを明確にしました。 |
 | **2024年2月** | |
 | Data Warehouse リクエストの管理に関する情報の更新 | デフォルトでは、ユーザーは [Data Warehouse リクエストを管理](/help/export/data-warehouse/data-warehouse-requests-manage.md)する際に自分が作成したリクエストのみを表示できることを明確にしました。 |

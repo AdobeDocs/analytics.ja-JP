@@ -1,6 +1,6 @@
 ---
 title: Data Warehouseのコンポーネントサポート
-description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
+description: Data Warehouse リクエストを作成するときに使用できるディメンションと指標、使用できないディメンションと指標、異なる動作について説明します。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
@@ -17,117 +17,81 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 580
-ht-degree: 47%
+source-wordcount: 362
+ht-degree: 11%
 
 ---
 
 # Data Warehouse でのコンポーネントのサポート
 
-Data Warehouse アーキテクチャの独自の処理により、Adobe Analyticsの他の機能では通常は利用できない一部のコンポーネントを使用できます。 独自のアーキテクチャにより、一部のコンポーネントはレポートやセグメントでは使用できません。 このページを使用して、何が使用でき、何が使用できないかを把握してください。
+このページでは、Data Warehouse リクエストを作成する際に使用できるディメンションと指標について説明します。 セクションには、使用可能なコンポーネント、使用できないコンポーネント、他のAdobe Analytics ツールとは異なる動作が含まれます。
 
-## Data Warehouse 固有のコンポーネント
+## Data Warehouse専用のディメンション
 
-Data Warehouseで使用できるディメンションや指標の中には、Adobe Analyticsの他の機能を使用する場合には使用できないものもあります。
+次のディメンションはData Warehouseで使用できますが、他のAdobe Analytics機能では使用できません。
 
-### 排他的にサポートされるディメンション
+* [[!UICONTROL Experience Cloud訪問者ID]](/help/components/dimensions/experience-cloud-visitor-id.md)
+* [[!UICONTROL IP アドレス &#x200B;]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL ページ URL]](/help/components/dimensions/page-url.md)
+* [[!UICONTROL 購入ID]](/help/components/dimensions/purchase-id.md)
+* [[!UICONTROL 訪問者 ID]](/help/components/dimensions/visitor-id.md)
 
-* **Experience Cloud ID**: Experience Cloud ID サービス （ECID）を使用する実装の場合、2つの連結された64 ビット番号で構成される128 ビット番号が19桁にパディングされます。
-* **ページ URL**: ヒットが発生したページ URL。
-* **購入ID**：購入の一意のID。購入ID変数を使用して設定します。
-* **訪問者ID**：訪問者の一意のIDを指定します。 この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。 詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+## サポートされていないディメンション
 
-### 排他的にサポートされる指標
+次のディメンションは、Data Warehouse レポートまたはセグメントでは使用できません。
 
-* **訪問数**：この指標は、Data Warehouseのコンテキストでは、非永続的なCookie訪問を除外します。
-* **訪問回数 – すべての訪問者**: Data Warehouseに関連するこの指標は、Adobe Analytics内の他のツールの訪問回数の指標とほぼ同じです。
+* [[!UICONTROL 午前／午後]](/help/components/dimensions/am-pm.md)
+* [[!UICONTROL 入口ページ &#x200B;]](/help/components/dimensions/entry-dimensions.md)および[[!UICONTROL 入口ページ元]](/help/components/dimensions/entry-dimensions.md)を除くすべての入口ディメンション（許可されている）
+* [[!UICONTROL 終了ページ &#x200B;]](/help/components/dimensions/exit-dimensions.md)および[[!UICONTROL 終了リンク &#x200B;]](/help/components/dimensions/exit-link.md)を除くすべての終了ディメンション（許可されている）
+* [[!UICONTROL &#x200B; ヒット深度]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL 再来訪頻度]](/help/components/dimensions/return-frequency.md)
+* [[!UICONTROL イベント前の時間]](/help/components/dimensions/time-prior-to-event.md)
+* [[!UICONTROL &#x200B; ページ滞在時間 – バケット化]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL 訪問当たりの滞在時間 – バケット化]](/help/components/dimensions/time-spent-per-visit.md)
+* [[!UICONTROL すべての検索ページのランク &#x200B;]](/help/components/dimensions/all-search-page-rank.md)
+* [[!UICONTROL 階層]](/help/components/dimensions/overview.md#retired-dimensions)変数
+* [[!UICONTROL ヒットタイプ]](/help/components/dimensions/hit-type.md)
+* [[!UICONTROL 有料検索]](/help/components/dimensions/paid-search.md)
+* [[!UICONTROL 直帰数]](/help/components/dimensions/single-page-visits.md)
+* [[!UICONTROL &#x200B; オプトアウトのトラッキング理由]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL 米国]](/help/components/dimensions/us-states.md)
 
-## Data Warehouse でサポートされないコンポーネント
+一部のディメンションはData Warehouse リクエストで使用できますが、セグメント内では使用できません。 詳しくは、[Data Warehouse セグメントの互換性](segment-compatibility.md)を参照してください。
 
-一部のディメンションおよび指標は、Data Warehouse でサポートされていません。
+## 非標準の日付書式設定を含むディメンション
 
->[!NOTE]
->
->Data Warehouse でディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントもサポートされません。 セグメントを作成または編集する際は、必ず製品の互換性を確認してください。
+次の時間ベースのディメンションはData Warehouse レポートでサポートされていますが、出力では非標準のフォーマットが使用されています。
 
-### サポートされていないディメンション
+* [[!UICONTROL 年]](/help/components/dimensions/year.md)
+* [[!UICONTROL 四半期]](/help/components/dimensions/quarter.md)
+* [[!UICONTROL 月]](/help/components/dimensions/month.md)
+* [[!UICONTROL 週]](/help/components/dimensions/week.md)
+* [[!UICONTROL 日]](/help/components/dimensions/day.md)
+* [[!UICONTROL 時間]](/help/components/dimensions/hour.md)
+* [[!UICONTROL 分]](/help/components/dimensions/minute.md)
 
-* 午前／午後
-* 一部のパスベースのディメンション。例：
-   * 「すべての入口」ディメンション（「入口ページ」を除く）
-   * 「すべての出口」ディメンション（「出口ページ」と「離脱リンク」を除く）
-   * ヒットの深さ
-   * 再来訪頻度
-   * イベント前の時間
-   * ページでの滞在時間 - グループ
-   * 訪問別滞在時間 - グループ
-* すべての検索ページのランク
-* 階層変数
-* ヒットタイプ
-* エラーページ（ディメンションとして使用可能：セグメント化ではサポートされていません）。
-* 有料検索
-* 単一ページ訪問数
-* トラッキングオプトアウト理由
-* 米国の州
+日付の値は次の形式で出力されます：`1YYMMDDHHMM`
 
-### サポートされない指標
+* **年（YY）**: 1900でオフセットされました。 最初の3桁に`1900`を追加します。 例えば、`125` =年&#x200B;**2025**&#x200B;とします。
+* **月**: ゼロ ベース。 1月= `00`、2月= `01`、...、12月= `11`。
 
-* 一部のパスベースの指標。例：
-   * バウンス
-   * 入口
-   * 出口
-   * リロード回数
-   * 単一アクセス
-   * 滞在時間指標
-* 参加指標（[参加指標の作成](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)で説明）
+例えば、「日付範囲週」フィールドに`1260901`が表示されている場合、年は1900 + 126 = **2026**、月は09 = **10月**&#x200B;です。
 
-### 別の方法でサポートされているディメンション（標準以外の日付形式）
+## Data Warehouseでの指標の定義の違い
 
-次の時間ベースのディメンションがサポートされています。
+* **[[!UICONTROL 訪問回数]](/help/components/metrics/visits.md)**：他のAdobe Analytics ツールの訪問指標とは異なり、永続的でないCookie訪問回数を除外します。
+* **[[!UICONTROL 訪問回数 – すべての訪問者]](/help/components/metrics/visits.md)**：永続的ではないCookieを持つ訪問者を含むすべての訪問者をカウントし、Adobe Analyticsの他の場所で使用されている標準の[!UICONTROL 訪問回数]指標に近い値にします。
 
-* 年
-* 四半期
-* 月
-* 週
-* 日
-* 時間
-* 分
+## サポートされない指標
 
-ただし、これらのディメンションを使用する場合、日付の出力は標準ではありません。
+次の指標は、Data Warehouseでは使用できません。
 
-Data Warehouseで日付の出力を計算する場合は、次の点を考慮してください。
-
-* 日付ディメンションは次の形式で表示されます：`1YYMMDDHHMM`
-
-* 年（YY）は1900でオフセットされます。 つまり、日付フィールドの最初の3つの値に`1900`を追加します。
-
-  例えば、Data Warehouseの「日付範囲の週」フィールドの値が`1250901`の場合、1900を125に加算し、2025年になります。
-
-* すべての月はゼロベースで、1月は00、2月は01などで、次のように表されます。
-
-   * 00: 1月
-   * 01:2月
-   * 02:3月
-   * 03: 4月
-   * 04: 5月
-   * 05: 6月
-   * 06: 7月
-   * 07: 8月
-   * 08:9月
-   * 09: 10月
-   * 10日：11月
-   * 11日：12月
-
-  例えば、Data Warehouseの「日付範囲の週」フィールドの値が`1250901`の場合、月は09として表され、10月を示します。
-
-
-
-
-## Data Warehouseのディメンションとしてのセグメント
-
-Data Warehouse でディメンションとしてセグメントを使用すると、レポートから`"0"` または `"1"` を含む列が返されます。
-
-* **`"0"`**：ディメンション項目がセグメントの条件を満たしていません。
-* **`"1"`**：ディメンション項目がセグメントの条件を満たしています。
+* [[!UICONTROL &#x200B; バウンス &#x200B;]](/help/components/metrics/bounces.md)
+* [[!UICONTROL 入口]](/help/components/metrics/entries.md)
+* [[!UICONTROL 出口]](/help/components/metrics/exits.md)
+* [[!UICONTROL リロード回数]](/help/components/metrics/reloads.md)
+* [[!UICONTROL 単一アクセス &#x200B;]](/help/components/metrics/single-access.md)
+* 任意の[[!UICONTROL 滞在時間]](/help/components/metrics/time-spent.md)指標
+* [参加](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) アトリビューションモデルを使用するすべての指標

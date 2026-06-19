@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 830
-ht-degree: 17%
+source-wordcount: 862
+ht-degree: 16%
 
 ---
 
@@ -31,7 +31,11 @@ ht-degree: 17%
 
 `trackingServerSecure`変数は、AppMeasurementがHTTPS経由でAdobeにデータを送信するために使用するドメインを決定します。 この変数が正しく定義されていないと、実装でデータが失われる可能性があります。
 
-[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)以前は、この変数はサードパーティ Cookieの設定場所も決定していました。 Adobeでは、可能な限り、すべての実装でID サービスを使用することを強くお勧めします。
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables)はこの変数の廃止されたバリアントです。 HTTP経由で送信されるデータのドメインを指定しました。HTTPSが普及している場合は、代わりに`trackingServerSecure`を使用してください。 `s.trackingServerSecure`が空白の場合、AppMeasurementは`s.trackingServer`値にフォールバックします。
+
+[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)の前に、この変数はサードパーティ Cookieの設定場所も決定しました。 Adobeでは、可能な限り、すべての実装でID サービスを使用することを強くお勧めします。
 
 ## Web SDK拡張機能を使用したEdge ドメイン
 
@@ -108,9 +112,9 @@ Adobeでは、組織全体の一貫性を保つために、この情報を[&#x20
 
 ## 訪問者ID サービスを使用しない場合の影響
 
-Adobeでは、すべての実装で[Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 ID サービスは、いくつかの異なる方法で実装できます。
+Adobeでは、すべての実装で[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 ID サービスは、いくつかの異なる方法で実装できます。
 
-* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用Experience Cloud ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
+* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics向けExperience Cloud ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
 * Adobe Analytics タグ拡張機能を使用する実装では、[Adobe Experience Cloud ID サービスタグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用します。 追加設定は不要です。
 * 任意の形式のWeb SDK （`alloy.js`またはWeb SDK タグ拡張機能）を使用する実装では、ID サービスがネイティブにベイク処理されています。 `edgeDomain`値の設定以外の設定は必要ありません。
 

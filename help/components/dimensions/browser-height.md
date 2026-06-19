@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 273
-ht-degree: 87%
+source-wordcount: 295
+ht-degree: 81%
 
 ---
 
@@ -36,6 +36,10 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 ```
 
 ブラウザーの高さにはブラウザーのナビゲーションや境界線が含まれないので、ブラウザーの高さは常に画面の高さ以下になります。
+
+>[!NOTE]
+>
+>Data Warehouseでは、値を定義済みのバケットにグループ化する代わりに、正確なピクセル高さをレポートする&#39;[!UICONTROL &#x200B; ブラウザーの高さ – 詳細]&#39;ディメンションも提供されています。
 
 ## このディメンションへのデータ入力
 

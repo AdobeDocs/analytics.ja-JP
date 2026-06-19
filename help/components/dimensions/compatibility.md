@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 54%
@@ -136,7 +136,7 @@ ht-degree: 54%
 | [&#x200B; サーバーを終了](exit-dimensions.md) | `exitserver` |
 | [&#x200B; サイトセクションを終了](exit-dimensions.md) | `exitsitesections` |
 | [&#x200B; ヒット深度](hit-depth.md) | `hitdepth` |
-| [ヒットタイプ](hit-type.md) | `hittype` |
+| [ヒットタイプ](hit-type.md) | `customerperspective` |
 | [時間](hour.md) | `daterangehour` |
 | [時間帯](hour-of-day.md) | `timeparthourofday` |
 | [&#x200B; マーケティングチャネルの詳細](marketing-detail.md) | `marketingchanneldetail` |
