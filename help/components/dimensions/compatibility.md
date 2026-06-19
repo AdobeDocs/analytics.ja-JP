@@ -4,26 +4,12 @@ description: Analytics のディメンションおよびレポートに関する
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 54%
@@ -32,7 +18,7 @@ ht-degree: 54%
 
 # Analytics のディメンションの互換性
 
-このページには、それぞれのAnalytics機能でサポートされている[&#x200B; ディメンション &#x200B;](overview.md)が一覧表示されます。
+このページには、それぞれのAnalytics機能でサポートされている[ ディメンション ](overview.md)が一覧表示されます。
 
 >[!NOTE]
 >
@@ -50,45 +36,45 @@ ht-degree: 54%
 | [市区町村](cities.md) | `geocity` |
 | [画面の色](color-depth.md) | `colordepth` |
 | [接続のタイプ](connection-type.md) | `connectiontype` |
-| [Cookie サポート &#x200B;](cookie-support.md) | `cookie` |
+| [Cookie サポート ](cookie-support.md) | `cookie` |
 | [国](countries.md) | `geocountry` |
 | [顧客の忠誠度](customer-loyalty.md) | `customerloyalty` |
-| [&#x200B; カスタムコンバージョン変数](evar.md) | `evar1`, `evar2`, etc. |
+| [ カスタムコンバージョン変数](evar.md) | `evar1`, `evar2`, etc. |
 | [Custom Insight Vars](prop.md) | `prop1`, `prop2`, etc. |
 | [カスタムリンク](custom-link.md) | `customlink` |
 | [初回購入までの日数](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
 | [前回購入からの日数](days-since-last-purchase.md) | `dayssincelastpurchase` |
 | [ドメイン](domain.md) | `filtereddomain` |
-| [&#x200B; ダウンロードリンク &#x200B;](download-link.md) | `downloadlink` |
-| [入口ページ &#x200B;](entry-dimensions.md) | `entrypage` |
-| [入口ページのオリジナル &#x200B;](entry-dimensions.md) | `entrypageoriginal` |
-| [&#x200B; リンクを終了](exit-link.md) | `exitlink` |
-| [&#x200B; ファーストタッチチャネル &#x200B;](first-touch-channel.md) | `firsttouchchannel` |
-| [&#x200B; ファーストタッチチャネルの詳細](first-touch-detail.md) | `firsttouchchanneldetail` |
+| [ ダウンロードリンク ](download-link.md) | `downloadlink` |
+| [入口ページ ](entry-dimensions.md) | `entrypage` |
+| [入口ページのオリジナル ](entry-dimensions.md) | `entrypageoriginal` |
+| [ リンクを終了](exit-link.md) | `exitlink` |
+| [ ファーストタッチチャネル ](first-touch-channel.md) | `firsttouchchannel` |
+| [ ファーストタッチチャネルの詳細](first-touch-detail.md) | `firsttouchchanneldetail` |
 | [Java 有効](java-enabled.md) | `javaenabled` |
 | [言語](language.md) | `language` |
-| [最後のタッチチャネル &#x200B;](last-touch-channel.md) | `lasttouchchannel` |
-| [&#x200B; ラストタッチチャネルの詳細](last-touch-detail.md) | `lasttouchchanneldetail` |
+| [最後のタッチチャネル ](last-touch-channel.md) | `lasttouchchannel` |
+| [ ラストタッチチャネルの詳細](last-touch-detail.md) | `lasttouchchanneldetail` |
 | リスト変数 | `listvariables` |
-| [&#x200B; マーケティングチャネル &#x200B;](marketing-channel.md) | `marketingchannel` |
-| [&#x200B; モバイルオーディオサポート &#x200B;](mobile-dimensions.md) | `mobileaudiosupport` |
+| [ マーケティングチャネル ](marketing-channel.md) | `marketingchannel` |
+| [ モバイルオーディオサポート ](mobile-dimensions.md) | `mobileaudiosupport` |
 | [携帯電話会社](mobile-dimensions.md) | `mobilecarrier` |
-| [&#x200B; モバイル色深度](mobile-dimensions.md) | `mobilecolordepth` |
-| [&#x200B; モバイル Cookie サポート &#x200B;](mobile-dimensions.md) | `mobilecookiesupport` |
-| [&#x200B; モバイルデバイス &#x200B;](mobile-dimensions.md) | `mobiledevicename` |
-| [&#x200B; モバイルデバイスタイプ &#x200B;](mobile-dimensions.md) | `mobiledevicetype` |
-| [&#x200B; モバイルのメールの最大長](mobile-dimensions.md) | `mobileemaillength` |
-| [&#x200B; モバイル画像サポート &#x200B;](mobile-dimensions.md) | `mobileimagesupport` |
-| [&#x200B; モバイルメーカー](mobile-dimensions.md) | `mobilemanufacturer` |
-| [&#x200B; モバイル オペレーティング システム （非推奨） &#x200B;](mobile-dimensions.md) | `mobileos` |
-| [&#x200B; モバイル画面の高さ](mobile-dimensions.md) | `mobilescreenheight` |
-| [&#x200B; モバイル画面サイズ &#x200B;](mobile-dimensions.md) | `mobilescreensize` |
-| [&#x200B; モバイル画面の幅](mobile-dimensions.md) | `mobilescreenwidth` |
-| [&#x200B; モバイル最大ブラウザーURL長](mobile-dimensions.md) | `mobileurllength` |
-| [&#x200B; モバイルビデオのサポート &#x200B;](mobile-dimensions.md) | `mobilevideosupport` |
+| [ モバイル色深度](mobile-dimensions.md) | `mobilecolordepth` |
+| [ モバイル Cookie サポート ](mobile-dimensions.md) | `mobilecookiesupport` |
+| [ モバイルデバイス ](mobile-dimensions.md) | `mobiledevicename` |
+| [ モバイルデバイスタイプ ](mobile-dimensions.md) | `mobiledevicetype` |
+| [ モバイルのメールの最大長](mobile-dimensions.md) | `mobileemaillength` |
+| [ モバイル画像サポート ](mobile-dimensions.md) | `mobileimagesupport` |
+| [ モバイルメーカー](mobile-dimensions.md) | `mobilemanufacturer` |
+| [ モバイル オペレーティング システム （非推奨） ](mobile-dimensions.md) | `mobileos` |
+| [ モバイル画面の高さ](mobile-dimensions.md) | `mobilescreenheight` |
+| [ モバイル画面サイズ ](mobile-dimensions.md) | `mobilescreensize` |
+| [ モバイル画面の幅](mobile-dimensions.md) | `mobilescreenwidth` |
+| [ モバイル最大ブラウザーURL長](mobile-dimensions.md) | `mobileurllength` |
+| [ モバイルビデオのサポート ](mobile-dimensions.md) | `mobilevideosupport` |
 | [画面の解像度](monitor-resolution.md) | `monitorresolution` |
 | [オペレーティングシステム](operating-systems.md) | `operatingsystem` |
-| [元の参照ドメイン &#x200B;](original-referring-domain.md) | `referringdomainoriginal` |
+| [元の参照ドメイン ](original-referring-domain.md) | `referringdomainoriginal` |
 | [ページ](page.md) | `page` |
 | [エラーページ (404)](pages-not-found.md) | `pagesnotfound` |
 | [製品](product.md) | `product` |
@@ -100,14 +86,14 @@ ht-degree: 54%
 | SC-TnT | `tntbase` |
 | [検索エンジン](search-engine.md) | `searchengine` |
 | [検索キーワード](search-keyword.md) | `searchenginekeyword` |
-| [検索エンジン – ナチュラル &#x200B;](search-engine.md) | `searchenginenatural` |
+| [検索エンジン – ナチュラル ](search-engine.md) | `searchenginenatural` |
 | [検索エンジン – 有料](search-engine.md) | `searchenginepaid` |
-| [検索キーワード – ナチュラル &#x200B;](search-keyword.md) | `searchenginenaturalkeyword` |
+| [検索キーワード – ナチュラル ](search-keyword.md) | `searchenginenaturalkeyword` |
 | [検索キーワード – 有料](search-keyword.md) | `searchenginepaidkeyword` |
-| [すべての検索ページのランク &#x200B;](all-search-page-rank.md) | `searchenginepagerank` |
+| [すべての検索ページのランク ](all-search-page-rank.md) | `searchenginepagerank` |
 | [サーバー](server.md) | `server` |
 | [直帰数](single-page-visits.md) | `singlepagevisits` |
-| [&#x200B; サイトセクション &#x200B;](site-section.md) | `sitesections` |
+| [ サイトセクション ](site-section.md) | `sitesections` |
 | [1訪問あたりの滞在時間 – 詳細](time-spent-per-visit.md) | `sitetime` |
 | [トラッキングコード](tracking-code.md) | `campaign` |
 | [米国 DMA](us-dma.md) | `geodma` |
@@ -118,48 +104,48 @@ ht-degree: 54%
 | [訪問回数](visit-number.md) | `visitnumber` |
 | [郵便番号](zip-code.md) | `zip` |
 | [AM / PM](am-pm.md) | `timepartampm` |
-| [&#x200B; ブラウザーの高さ – バケット化](browser-height.md) | `browserheightbucketed` |
-| [&#x200B; ブラウザー幅 – バケット化](browser-width.md) | `browserwidthbucketed` |
+| [ ブラウザーの高さ – バケット化](browser-height.md) | `browserheightbucketed` |
+| [ ブラウザー幅 – バケット化](browser-width.md) | `browserwidthbucketed` |
 | [日](day.md) | `daterangeday` |
 | [月間通算日](day-of-month.md) | `timepartdayofmonth` |
 | [曜日](day-of-week.md) | `dayofweek` |
 | [曜日](day-of-week.md) | `timepartdayofweek` |
 | [年間通算日](day-of-year.md) | `timepartdayofyear` |
 | [最終訪問からの日数](days-since-last-visit.md) | `dayssincelastvisit` |
-| [&#x200B; カスタムインサイトの入力](entry-dimensions.md) | `entryprops` |
-| [&#x200B; エントリリスト変数](entry-dimensions.md) | `entrylistvariables` |
-| [&#x200B; エントリサーバー](entry-dimensions.md) | `entryserver` |
-| [入口サイトセクション &#x200B;](entry-dimensions.md) | `entrysitesections` |
-| [&#x200B; カスタムインサイトを終了](exit-dimensions.md) | `exitprops` |
-| [&#x200B; リスト変数を終了](exit-dimensions.md) | `exitlistvariables` |
-| [&#x200B; ページを終了](exit-dimensions.md) | `exitpage` |
-| [&#x200B; サーバーを終了](exit-dimensions.md) | `exitserver` |
-| [&#x200B; サイトセクションを終了](exit-dimensions.md) | `exitsitesections` |
-| [&#x200B; ヒット深度](hit-depth.md) | `hitdepth` |
-| [ヒットタイプ](hit-type.md) | `hittype` |
+| [ カスタムインサイトの入力](entry-dimensions.md) | `entryprops` |
+| [ エントリリスト変数](entry-dimensions.md) | `entrylistvariables` |
+| [ エントリサーバー](entry-dimensions.md) | `entryserver` |
+| [入口サイトセクション ](entry-dimensions.md) | `entrysitesections` |
+| [ カスタムインサイトを終了](exit-dimensions.md) | `exitprops` |
+| [ リスト変数を終了](exit-dimensions.md) | `exitlistvariables` |
+| [ ページを終了](exit-dimensions.md) | `exitpage` |
+| [ サーバーを終了](exit-dimensions.md) | `exitserver` |
+| [ サイトセクションを終了](exit-dimensions.md) | `exitsitesections` |
+| [ ヒット深度](hit-depth.md) | `hitdepth` |
+| [ヒットタイプ](hit-type.md) | `customerperspective` |
 | [時間](hour.md) | `daterangehour` |
 | [時間帯](hour-of-day.md) | `timeparthourofday` |
-| [&#x200B; マーケティングチャネルの詳細](marketing-detail.md) | `marketingchanneldetail` |
+| [ マーケティングチャネルの詳細](marketing-detail.md) | `marketingchanneldetail` |
 | [分](minute.md) | `daterangeminute` |
-| [&#x200B; モバイル最大ブックマーク長](mobile-dimensions.md) | `mobilebookmarklength` |
-| [&#x200B; モバイルデバイス番号](mobile-dimensions.md) | `mobiledevicenumber` |
-| [&#x200B; モバイル DRM](mobile-dimensions.md) | `mobiledrm` |
-| [&#x200B; モバイル インフォメーション サービス &#x200B;](mobile-dimensions.md) | `mobileinformationservices` |
-| [&#x200B; モバイル Java VM](mobile-dimensions.md) | `mobilejavavm` |
-| [&#x200B; モバイルメールの装飾](mobile-dimensions.md) | `mobilemaildecoration` |
-| [&#x200B; モバイルネットプロトコル &#x200B;](mobile-dimensions.md) | `mobilenetprotocols` |
-| [&#x200B; モバイルプッシュ通知](mobile-dimensions.md) | `mobilepushtotalk` |
+| [ モバイル最大ブックマーク長](mobile-dimensions.md) | `mobilebookmarklength` |
+| [ モバイルデバイス番号](mobile-dimensions.md) | `mobiledevicenumber` |
+| [ モバイル DRM](mobile-dimensions.md) | `mobiledrm` |
+| [ モバイル インフォメーション サービス ](mobile-dimensions.md) | `mobileinformationservices` |
+| [ モバイル Java VM](mobile-dimensions.md) | `mobilejavavm` |
+| [ モバイルメールの装飾](mobile-dimensions.md) | `mobilemaildecoration` |
+| [ モバイルネットプロトコル ](mobile-dimensions.md) | `mobilenetprotocols` |
+| [ モバイルプッシュ通知](mobile-dimensions.md) | `mobilepushtotalk` |
 | [月](month.md) | `daterangemonth` |
 | [年間通算月](month-of-year.md) | `timepartmonthofyear` |
 | [オペレーティングシステムの種類](operating-system-types.md) | `operatingsystemgroup` |
 | [有料検索](paid-search.md) | `paidsearch` |
-| [永続的なCookie サポート &#x200B;](persistent-cookie-support.md) | `persistentcookie` |
+| [永続的なCookie サポート ](persistent-cookie-support.md) | `persistentcookie` |
 | [四半期](quarter.md) | `daterangequarter` |
 | [四半期](quarter-of-year.md) | `timepartquarterofyear` |
 | 調査 | `surveybase` |
-| [&#x200B; ページ滞在時間 – バケット化](time-spent-on-page.md) | `averagepagetime` |
-| [&#x200B; ページ滞在時間 – 詳細](time-spent-on-page.md) | `pagetimeseconds` |
-| [&#x200B; オプトアウトのトラッキング理由](tracking-opt-out-reason.md) | `optoutreason` |
+| [ ページ滞在時間 – バケット化](time-spent-on-page.md) | `averagepagetime` |
+| [ ページ滞在時間 – 詳細](time-spent-on-page.md) | `pagetimeseconds` |
+| [ オプトアウトのトラッキング理由](tracking-opt-out-reason.md) | `optoutreason` |
 | [平日/週末](weekday-weekend.md) | `timepartweekdayweekend` |
 | [週](week.md) | `daterangeweek` |
 | [年](year.md) | `daterangeyear` |
@@ -182,49 +168,49 @@ ht-degree: 54%
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | [コンテンツ](sm-core.md) | `video` |
-| [&#x200B; コンテンツセグメント &#x200B;](sm-core.md) | `videosegment` |
-| [&#x200B; コンテンツの種類](sm-core.md) | `videocontenttype` |
+| [ コンテンツセグメント ](sm-core.md) | `videosegment` |
+| [ コンテンツの種類](sm-core.md) | `videocontenttype` |
 | [広告プレイヤー名](sm-ads.md) | `videoadplayername` |
-| ポッド位置[&#128279;](sm-ads.md)の広告 | `videoadinpod` |
-| [削除されたフレーム &#x200B;](sm-quality.md) | `videoqoedroppedframecountevar` |
+| ポッド位置](sm-ads.md)の[広告 | `videoadinpod` |
+| [削除されたフレーム ](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [エラー](sm-quality.md) | `videoqoeerrorcountevar` |
-| [平均ビットレート &#x200B;](sm-quality.md) | `videoqoebitrateaverageevar` |
-| [&#x200B; ビットレートの変更](sm-quality.md) | `videoqoebitratechangecountevar` |
+| [平均ビットレート ](sm-quality.md) | `videoqoebitrateaverageevar` |
+| [ ビットレートの変更](sm-quality.md) | `videoqoebitratechangecountevar` |
 | [合計バッファー期間](sm-quality.md) | `videoqoebuffertimeevar` |
-| [&#x200B; バッファーイベント &#x200B;](sm-quality.md) | `videoqoebuffercountevar` |
+| [ バッファーイベント ](sm-quality.md) | `videoqoebuffercountevar` |
 | [開始までの時間](sm-quality.md) | `videoqoetimetostartevar` |
-| [広告ポッド &#x200B;](sm-ads.md) | `videoadpod` |
-| [&#x200B; メディアパス &#x200B;](sm-core.md) | `videopath` |
+| [広告ポッド ](sm-ads.md) | `videoadpod` |
+| [ メディアパス ](sm-core.md) | `videopath` |
 | [Ad](sm-ads.md) | `videoad` |
-| [&#x200B; コンテンツプレーヤー名](sm-core.md) | `videoplayername` |
-| [&#x200B; コンテンツチャネル &#x200B;](sm-core.md) | `videochannel` |
+| [ コンテンツプレーヤー名](sm-core.md) | `videoplayername` |
+| [ コンテンツチャネル ](sm-core.md) | `videochannel` |
 | [章](sm-chapters.md) | `videochapter` |
-| [&#x200B; コンテンツ名（変数） &#x200B;](sm-core.md) | `videoname` |
-| [&#x200B; コンテンツの長さ（変数） &#x200B;](sm-core.md) | `videolength` |
-| [広告名（変数） &#x200B;](sm-ads.md) | `videoadname` |
-| [広告の長さ（変数） &#x200B;](sm-ads.md) | `videoadlength` |
+| [ コンテンツ名（変数） ](sm-core.md) | `videoname` |
+| [ コンテンツの長さ（変数） ](sm-core.md) | `videolength` |
+| [広告名（変数） ](sm-ads.md) | `videoadname` |
+| [広告の長さ（変数） ](sm-ads.md) | `videoadlength` |
 | [表示](sm-video-metadata.md) | `videoshow` |
-| [&#x200B; シーズン &#x200B;](sm-video-metadata.md) | `videoseason` |
-| [&#x200B; エピソード &#x200B;](sm-video-metadata.md) | `videoepisode` |
+| [ シーズン ](sm-video-metadata.md) | `videoseason` |
+| [ エピソード ](sm-video-metadata.md) | `videoepisode` |
 | [ネットワーク](sm-video-metadata.md) | `videonetwork` |
-| [&#x200B; タイプを表示](sm-video-metadata.md) | `videoshowtype` |
+| [ タイプを表示](sm-video-metadata.md) | `videoshowtype` |
 | [広告読み込み](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [日パート &#x200B;](sm-video-metadata.md) | `videodaypart` |
+| [日パート ](sm-video-metadata.md) | `videodaypart` |
 | [広告主](sm-ads.md) | `videoadadvertiser` |
 | [キャンペーン ID](sm-ads.md) | `videoadcampaign` |
-| [&#x200B; ジャンル &#x200B;](sm-video-metadata.md) | `videogenre` |
-| [&#x200B; ストリームタイプ &#x200B;](sm-core.md) | `videostreamtype` |
+| [ ジャンル ](sm-video-metadata.md) | `videogenre` |
+| [ ストリームタイプ ](sm-core.md) | `videostreamtype` |
 | [Player SDK エラーID](sm-quality.md) | `videoqoeplayersdkerrors` |
 | [外部エラーID](sm-quality.md) | `videoqoeextneralerrors` |
-| [&#x200B; メディアフィードの種類](sm-video-metadata.md) | `videofeedtype` |
-| [&#x200B; エントリメディアパス &#x200B;](entry-dimensions.md) | `entryvideopath` |
-| [&#x200B; メディアパスを終了](exit-dimensions.md) | `exitvideopath` |
-| [&#x200B; エントリジャンル &#x200B;](entry-dimensions.md) | `entryvideogenre` |
-| [&#x200B; ジャンルを終了](exit-dimensions.md) | `exitvideogenre` |
+| [ メディアフィードの種類](sm-video-metadata.md) | `videofeedtype` |
+| [ エントリメディアパス ](entry-dimensions.md) | `entryvideopath` |
+| [ メディアパスを終了](exit-dimensions.md) | `exitvideopath` |
+| [ エントリジャンル ](entry-dimensions.md) | `entryvideogenre` |
+| [ ジャンルを終了](exit-dimensions.md) | `exitvideogenre` |
 | [Entry Player SDK エラーID](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
-| [&#x200B; プレイヤーの終了SDK エラーID](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
-| [&#x200B; エントリ外部エラーID](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [ プレイヤーの終了SDK エラーID](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [ エントリ外部エラーID](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
 | [外部エラーIDを終了](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
@@ -256,37 +242,37 @@ Adobe Socialは引退しました。
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | [初回起動日](lifecycle-dimensions.md) | `mobileinstalldate` |
-| [&#x200B; アプリ ID](lifecycle-dimensions.md) | `mobileappid` |
+| [ アプリ ID](lifecycle-dimensions.md) | `mobileappid` |
 | [起動回数](lifecycle-dimensions.md) | `mobilelaunchnumber` |
 | [初回使用からの日数](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
 | [前回使用からの日数](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
-| [時間帯（SDK） &#x200B;](lifecycle-dimensions.md) | `mobilehourofday` |
-| [曜日（SDK） &#x200B;](lifecycle-dimensions.md) | `mobiledayofweek` |
-| [&#x200B; オペレーティングシステム （SDK） &#x200B;](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [時間帯（SDK） ](lifecycle-dimensions.md) | `mobilehourofday` |
+| [曜日（SDK） ](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [ オペレーティングシステム （SDK） ](lifecycle-dimensions.md) | `mobileosenvironment` |
 | [前回アップグレードからの日数](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
 | [前回アップグレードからの起動回数](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
-| [&#x200B; デバイス名（SDK） &#x200B;](lifecycle-dimensions.md) | `mobiledevice` |
-| [&#x200B; オペレーティングシステムのバージョン（SDK） &#x200B;](lifecycle-dimensions.md) | `mobileosversion` |
-| [&#x200B; ビーコン メジャー](lifecycle-dimensions.md) | `mobilebeaconmajor` |
-| [&#x200B; ビーコン マイナー](lifecycle-dimensions.md) | `mobilebeaconminor` |
-| [&#x200B; ビーコン UUID](lifecycle-dimensions.md) | `mobilebeaconuuid` |
-| [&#x200B; ビーコン近接](lifecycle-dimensions.md) | `mobilebeaconproximity` |
+| [ デバイス名（SDK） ](lifecycle-dimensions.md) | `mobiledevice` |
+| [ オペレーティングシステムのバージョン（SDK） ](lifecycle-dimensions.md) | `mobileosversion` |
+| [ ビーコン メジャー](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [ ビーコン マイナー](lifecycle-dimensions.md) | `mobilebeaconminor` |
+| [ ビーコン UUID](lifecycle-dimensions.md) | `mobilebeaconuuid` |
+| [ ビーコン近接](lifecycle-dimensions.md) | `mobilebeaconproximity` |
 | [ロケーション（半径 10 km 以内）](lifecycle-dimensions.md) | `latlon1` |
 | [ロケーション（半径 100 m 以内）](lifecycle-dimensions.md) | `latlon23` |
 | [ロケーション（半径 1 m 以内）](lifecycle-dimensions.md) | `latlon45` |
 | [目標点名](lifecycle-dimensions.md) | `pointofinterest` |
 | [目標地点の中心までの距離](lifecycle-dimensions.md) | `pointofinterestdistance` |
 | [場所の精度](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
-| [&#x200B; カテゴリを配置](lifecycle-dimensions.md) | `mobileplacecategory` |
-| [&#x200B; プレース ID](lifecycle-dimensions.md) | `mobileplaceid` |
-| [&#x200B; エントリビーコンのメジャー](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
-| [&#x200B; ビーコン メジャーを終了](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
-| [&#x200B; エントリ ビーコン マイナー](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [ カテゴリを配置](lifecycle-dimensions.md) | `mobileplacecategory` |
+| [ プレース ID](lifecycle-dimensions.md) | `mobileplaceid` |
+| [ エントリビーコンのメジャー](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
+| [ ビーコン メジャーを終了](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
+| [ エントリ ビーコン マイナー](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
 | [小ビーコンを終了](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
-| [&#x200B; エントリビーコン UUID](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
-| [&#x200B; ビーコン UUIDを終了](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
-| [&#x200B; エントリビーコン近接](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
-| [&#x200B; ビーコン近接を終了](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
+| [ エントリビーコン UUID](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
+| [ ビーコン UUIDを終了](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [ エントリビーコン近接](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [ ビーコン近接を終了](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising
 

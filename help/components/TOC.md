@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 98%
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
    + [AMO ID](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO Meta 広告クリック ID](dimensions/amo-meta-id.md)
+   + [AMO Meta Ads クリック ID](dimensions/amo-meta-id.md)
    + [午前／午後](dimensions/am-pm.md)
    + [ボット名](dimensions/bot-name.md)
    + [ブラウザーの高さ](dimensions/browser-height.md)
@@ -59,14 +59,15 @@ ht-degree: 98%
    + [eVar（マーチャンダイジング）](dimensions/evar-merchandising.md)
    + [出口ディメンション](dimensions/exit-dimensions.md)
    + [離脱リンク](dimensions/exit-link.md)
+   + [Experience Cloud の訪問者 ID](dimensions/experience-cloud-visitor-id.md)
    + [ファーストタッチチャネル](dimensions/first-touch-channel.md)
    + [ファーストタッチチャネルの詳細](dimensions/first-touch-detail.md)
-   + [階層](dimensions/hierarchy.md)
    + [ヒットの深さ](dimensions/hit-depth.md)
    + [ヒットタイプ](dimensions/hit-type.md)
    + [時刻](dimensions/hour-of-day.md)
    + [時間](dimensions/hour.md)
    + [特定された状態](dimensions/identified-state.md)
+   + [IP アドレス](dimensions/ip-address.md)
    + [Java 有効](dimensions/java-enabled.md)
    + [言語](dimensions/language.md)
    + [ラストタッチチャネル](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 98%
    + [永続的な cookie のサポート](dimensions/persistent-cookie-support.md)
    + [製品](dimensions/product.md)
    + [prop](dimensions/prop.md)
+   + [購入 ID](dimensions/purchase-id.md)
    + [四半期](dimensions/quarter-of-year.md)
    + [四半期](dimensions/quarter.md)
    + [リファラータイプ](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 98%
    + [音声ディメンション](dimensions/voice-dimensions.md)
    + [訪問の深度](dimensions/visit-depth.md)
    + [訪問数](dimensions/visit-number.md)
+   + [訪問者 ID](dimensions/visitor-id.md)
    + [週](dimensions/week.md)
    + [平日／週末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [セグメントの使用](segmentation/segmentation-workflow/t-seg-apply.md)
    + リファレンス {#segment-reference}
       + [演算子](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse セグメントの互換性](segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
    + [レガシーセグメント FAQ](segmentation/seg-transition.md)

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '462'
 ht-degree: 98%
 
 ---
@@ -22,19 +22,15 @@ ht-degree: 98%
    + 設定変数 {#config-vars}
       + [設定変数の概要](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
-      + [account](vars/config-vars/account.md)
       + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
       + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
       + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
-      + [cookieDomain](vars/config-vars/cookiedomain.md)
-      + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
       + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
-      + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
@@ -46,21 +42,19 @@ ht-degree: 98%
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
       + [trackDownloadLinks](vars/config-vars/trackdownloadlinks.md)
       + [trackExternalLinks](vars/config-vars/trackexternallinks.md)
-      + [trackingServer](vars/config-vars/trackingserver.md)
       + [trackingServerSecure](vars/config-vars/trackingserversecure.md)
-      + [trackInlineStats](vars/config-vars/trackinlinestats.md)
       + [trackOffline](vars/config-vars/trackoffline.md)
       + [useBeacon](vars/config-vars/usebeacon.md)
       + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
       + [usePlugins](vars/config-vars/useplugins.md)
       + [visitorID](vars/config-vars/visitorid.md)
-      + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + ページ変数 {#page-vars}
       + [ページ変数の概要](vars/page-vars/page-variables.md)
       + [キャンペーン](vars/page-vars/campaign.md)
       + [チャネル](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
+      + [customerPerspective](vars/page-vars/customerperspective.md)
       + [動的変数](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + [eVar（マーチャンダイジング）](vars/page-vars/evar-merchandising.md)
@@ -68,7 +62,6 @@ ht-degree: 98%
          + [イベントの概要](vars/page-vars/events/events-overview.md)
          + [購入イベント](vars/page-vars/events/event-purchase.md)
          + [イベントのシリアル化](vars/page-vars/events/event-serialization.md)
-      + [hier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
@@ -79,7 +72,6 @@ ht-degree: 98%
       + [リファラー](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [サーバー](vars/page-vars/server.md)
-      + [都道府県](vars/page-vars/state.md)
       + [タイムスタンプ](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [郵便番号](vars/page-vars/zip.md)
@@ -111,7 +103,6 @@ ht-degree: 98%
       + [getAndPersistValue](vars/plugins/getandpersistvalue.md)
       + [getGeoCoordinates](vars/plugins/getgeocoordinates.md)
       + [getNewRepeat](vars/plugins/getnewrepeat.md)
-      + [getPageLoadTime](vars/plugins/getpageloadtime.md)
       + [getPageName](vars/plugins/getpagename.md)
       + [getPercentPageViewed](vars/plugins/getpercentpageviewed.md)
       + [getPreviousValue](vars/plugins/getpreviousvalue.md)
@@ -170,7 +161,7 @@ ht-degree: 98%
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
-   + {hide-from-toc}[&#x200B; オプトアウトリンクの実装](js/opt-out.md)
+   + {hide-from-toc}[ オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
    + [H コードからの移行](js/migrate-from-hcode.md)
    + H コード {#h-code}

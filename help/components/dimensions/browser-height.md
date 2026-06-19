@@ -4,30 +4,21 @@ description: ソース画像の高さをピクセルで指定します。
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 TQID: https://experienceleague.adobe.com/-MSFtBJDaiG0yYL6ZdpzbPY80uFJbdxB0gyBtKAkFzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 273
-ht-degree: 87%
+source-wordcount: 295
+ht-degree: 81%
 
 ---
 
 # ブラウザーの高さ
 
-「ブラウザーの高さ – バケット化された」ディメンション [&#x200B; ディメンション &#x200B;](overview.md)には、ブラウザーのウィンドウの高さが表示され、定義済みのグループに分類されます。 このディメンションは、訪問者がサイト上で「折りたたむ」場所を把握したい場合に役立ちます。 折りたたみの位置を把握することで、コンテンツを表示用に最適化できます。
+「ブラウザーの高さ – バケット化された」ディメンション [ ディメンション ](overview.md)には、ブラウザーのウィンドウの高さが表示され、定義済みのグループに分類されます。 このディメンションは、訪問者がサイト上で「折りたたむ」場所を把握したい場合に役立ちます。 折りたたみの位置を把握することで、コンテンツを表示用に最適化できます。
 
 画面の高さとは異なります。 ブラウザーの高さは、表示可能なブラウザスペース内のピクセル数です。画面の高さは、モニター全体の高さ（ピクセル単位）です。 ご使用のマシン上でこれら 2 つの変数の違いを確認したい場合は、ブラウザーコンソールを開き（ほとんどのブラウザーでは F12）、次のコードをコピーしてコンソールに貼り付けます。
 
@@ -36,6 +27,10 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 ```
 
 ブラウザーの高さにはブラウザーのナビゲーションや境界線が含まれないので、ブラウザーの高さは常に画面の高さ以下になります。
+
+>[!NOTE]
+>
+>Data Warehouseでは、値を定義済みのバケットにグループ化する代わりに、正確なピクセル高さをレポートする&#39;[!UICONTROL  ブラウザーの高さ – 詳細]&#39;ディメンションも提供されています。
 
 ## このディメンションへのデータ入力
 
