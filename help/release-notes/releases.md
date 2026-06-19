@@ -4,10 +4,16 @@ title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 TQID: 'https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: ht
 source-wordcount: 395
