@@ -184,7 +184,7 @@ ht-degree: 97%
    + [セグメントについて](segmentation/seg-overview.md)
    + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
-   + {hide-from-toc}[ サブヒット分析](segmentation/sub-hit.md)
+   + {hide-from-toc}[&#x200B; サブヒット分析](segmentation/sub-hit.md)
    + ワークフロー {#segmentation-workflow}
       + [概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
