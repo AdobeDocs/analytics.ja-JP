@@ -3,11 +3,9 @@ title: サブヒット分析
 description: サブヒット分析を使用して、Adobe Analyticsのヒット内の個々の商品をフィルタリングし、商品レポートでアトリビューションの裁ち落としを排除する方法について説明します。
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -28,17 +26,17 @@ Adobe Analyticsでは、[Products変数](/help/components/dimensions/product.md)
 
 オンラインの売上は、男性カテゴリからのみ測定できます。 サブヒット分析を使用しない場合、男性のセグメントを適用すると、男性カテゴリを持つ製品が少なくとも1つ含まれている注文（ヒット）の各製品からの収益が含まれます。 サブヒット分析では、フィルターを製品レベルにスコーピングし、男性カテゴリの製品に対してのみ収益を返します。
 
-また、「男性」カテゴリを除く他のすべてのカテゴリからオンライン売上を測定することもできます。
+また、「男性」カテゴリを除くすべてのカテゴリからオンラインの売上を測定することもできます。
 
 >[!BEGINTABS]
 
->[!TAB 分析をヒット]
+>[!TAB 分析]をヒット
 
-セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL ヒット]** コンテナで&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL 等しい]** **男性**&#x200B;を&#x200B;**[!UICONTROL 含める]**&#x200B;に指定します。
+セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL ヒット]** コンテナで&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL 等しい]** ]**男性**[!UICONTROL &#x200B;を&#x200B;**[!UICONTROL 含める]**&#x200B;に指定します。
 
-製品カテゴリの男性![&#128279;](./assets/product-category-segmentation-hits.png)のヒットレベルに関するセグメントを表示する パネル
+製品カテゴリの男性](./assets/product-category-segmentation-hits.png)のヒットレベルに関するセグメントを表示する![ パネル
 
-その結果、少なくとも1つの&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、これらの注文の他の製品からの収益は&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に含まれます。
+その結果、少なくとも1つの&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、これらの注文の他の製品からの収益は&#x200B;**[!UICONTROL オンライン収益]**指標に含まれます。
 カテゴリについて報告すると、**[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;の他のすべての値が、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;の製品を含む注文の一部として報告されます。
 
 >[!TAB  サブヒット分析]
@@ -47,7 +45,7 @@ Adobe Analyticsでは、[Products変数](/help/components/dimensions/product.md)
 
 ![製品カテゴリ Men](./assets/product-category-segmentation-sub-hits.png)のサブヒットレベルに関するセグメンテーションを示すパネル
 
-その結果、少なくとも&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;に属する製品の収益のみが&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に含まれます。
+その結果、少なくとも&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;に属する製品の収益のみが&#x200B;**[!UICONTROL オンライン収益]**指標に含まれます。
 カテゴリについて報告する場合、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;のみが報告されます。
 
 >[!TAB  サブヒット分析（除外） ]
