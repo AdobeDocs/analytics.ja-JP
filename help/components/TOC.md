@@ -4,13 +4,12 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 98%
+source-wordcount: '777'
+ht-degree: 97%
 
 ---
-
 
 # [!DNL Adobe Analytics] コンポーネントガイド {#components}
 
@@ -185,6 +184,7 @@ ht-degree: 98%
    + [セグメントについて](segmentation/seg-overview.md)
    + [セグメントコンテナについて](segmentation/seg-containers.md)
    + [Analysis Workspace のセグメント機能](segmentation/segmentation-in-analysis-workspace.md)
+   + {hide-from-toc}[ サブヒット分析](segmentation/sub-hit.md)
    + ワークフロー {#segmentation-workflow}
       + [概要](segmentation/segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](segmentation/segmentation-workflow/seg-plan.md)
