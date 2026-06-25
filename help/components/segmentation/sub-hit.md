@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -28,7 +28,7 @@ Adobe Analyticsでは、[Products変数](/help/components/dimensions/product.md)
 
 オンラインの売上は、男性カテゴリからのみ測定できます。 サブヒット分析を使用しない場合、男性のセグメントを適用すると、男性カテゴリを持つ製品が少なくとも1つ含まれている注文（ヒット）の各製品からの収益が含まれます。 サブヒット分析では、フィルターを製品レベルにスコーピングし、男性カテゴリの製品に対してのみ収益を返します。
 
-また、「男性」カテゴリを除く他のすべてのカテゴリからオンライン売上を測定することもできます。
+また、「男性」カテゴリを除くすべてのカテゴリからオンラインの売上を測定することもできます。
 
 >[!BEGINTABS]
 
