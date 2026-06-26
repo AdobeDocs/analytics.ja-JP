@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -86,3 +86,4 @@ Adobe Analyticsのサブヒット分析では、**[!UICONTROL Products]**&#x200B
 ヒストグラムのビジュアライゼーションには、新しいサブヒットコンテナ ドロップダウンメニューが含まれます。 これにより、商品レベルで指標値をバケット化できます。 たとえば、ヒットごと、というよりも注文ごとに商品の出現件数を数えます。
 
 ヒストグラムは、サブヒット コンテナの選択を必要とする唯一のビジュアライゼーションです。 その他のすべてのパネルとビジュアライゼーションは、追加の設定なしでサブヒット分析データで動作します。
+
