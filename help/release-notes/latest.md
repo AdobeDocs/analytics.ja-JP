@@ -2,6 +2,7 @@
 title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,24 +25,27 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2026年6月）
+# 最新のAdobe Analytics リリースノート（2026年7月）
 
-**最終更新**: 2026年6月25日（PT）
+**最終更新**: 2026年7月8日
 
-これらのリリースノートは、2026年6月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+これらのリリースノートは、2026年7月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analyticsのジャーニーキャンバス** <br/>ジャーニーキャンバスは、Analysis Workspace 内のビジュアライゼーションで、ユーザーがジャーニーをどのように進めたり、そこから離脱したりするかを分析することで、定義済みのジャーニーに関する深いインサイトを得ることができます。 これにより、ジャーニーに含まれるイベント、ディメンション項目およびセグメントの任意の組み合わせを表すノードと矢印の柔軟なグラフを作成できます。 キャンバス上のノードをドラッグするか、ジャーニーのイベントと条件を並べ替えると、データが更新されます。<p>ジャーニーキャンバスは、以前は Customer Journey Analytics でのみ使用できました。</p><p>Adobe Analytics のジャーニーキャンバスの詳細について詳しくは、[ジャーニーキャンバスの概要](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)を参照してください。 </p><p>Adobe Analytics のジャーニーキャンバスビジュアライゼーションの作成方法について詳しくは、[ジャーニーキャンバスの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)を参照してください。</p> | 2026年5月18日（PT） | 2026年6月5日（PT） |
+| **サブヒット分析** <br/> サブヒット分析では、ヒットレベルよりも詳細なレベルで製品データを分析できます。 ヒット全体をフィルタリングするのではなく、ヒット内の個々の商品をセグメント化できます。 例えば、同じ注文で購入された他のすべての商品を含めずに、特定の商品カテゴリーでセグメンテーションすることができます。 | 7月8日（PT） | 2026年7月末 |
+| **AA 2.0 API検索機能ガイド** <br/>検索機能を使用して[&#x200B; レポートでディメンション項目のサブセットを返す](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日（PT） |
+| **AA APIを使用した定期的なレポートの自動作成** <br/>新しい指標を使用して、データパイプラインの定期的な自動的なAnalytics レポートを[&#x200B; レポート API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)のスケジュールに設定します。 | | 2026年7月1日（PT） |
+| **AA**&#x200B;の新しい拡張パラメーター<br/>新しいDimension API拡張パラメーターを使用して、割り当てタイプ、有効期限、データタイプ、マーチャンダイジングのeVar設定フィールドを取得します。 <p>詳しくは、[API リファレンス &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)および[&#x200B; ディメンションエンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)を参照してください。</p> | | 2026年7月1日（PT） |
 
 ### Adobe Analytics の修正点
 
