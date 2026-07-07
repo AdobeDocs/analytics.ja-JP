@@ -5,7 +5,7 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 index: true
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
@@ -311,3 +311,4 @@ ht-degree: 100%
    + [ダッシュボードを使用するエグゼクティブの設定](mobile-app/set-up-execs.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
 + [ラボ](labs.md)
+
