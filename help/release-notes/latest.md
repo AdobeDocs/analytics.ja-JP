@@ -2,7 +2,6 @@
 title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
+source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
 workflow-type: tm+mt
-source-wordcount: 998
-ht-degree: 56%
+source-wordcount: 890
+ht-degree: 63%
 
 ---
 
@@ -42,25 +41,25 @@ ht-degree: 56%
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **サブヒット分析** <br/> サブヒット分析では、ヒットレベルよりも詳細なレベルで製品データを分析できます。 ヒット全体をフィルタリングするのではなく、ヒット内の個々の商品をセグメント化できます。 例えば、同じ注文で購入された他のすべての商品を含めずに、特定の商品カテゴリーでセグメンテーションすることができます。 | 7月8日（PT） | 2026年7月末 |
-| **AA 2.0 API検索機能ガイド** <br/>検索機能を使用して[&#x200B; レポートでディメンション項目のサブセットを返す](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日（PT） |
-| **AA APIを使用した定期的なレポートの自動作成** <br/>新しい指標を使用して、データパイプラインの定期的な自動的なAnalytics レポートを[&#x200B; レポート API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)のスケジュールに設定します。 | | 2026年7月1日（PT） |
-| **AA**&#x200B;の新しい拡張パラメーター<br/>新しいDimension API拡張パラメーターを使用して、割り当てタイプ、有効期限、データタイプ、マーチャンダイジングのeVar設定フィールドを取得します。 <p>詳しくは、[API リファレンス &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)および[&#x200B; ディメンションエンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)を参照してください。</p> | | 2026年7月1日（PT） |
+| **サブヒット分析** <br/> サブヒット分析では、ヒットレベルよりも詳細なレベルで製品データを分析できます。 ヒット全体をフィルタリングするのではなく、ヒット内の個々の商品をセグメント化できます。 <p>例えば、同じ注文で購入された他の商品をすべて含めずに、特定の商品カテゴリーでセグメンテーションできます。</p><p>詳しくは、[&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)を参照してください。</p> | 7月8日（PT） | 2026年7月末 |
+| **AA 2.0 API検索機能ガイド** <br/>検索機能を使用して[&#x200B; レポートでディメンション項目のサブセットを返す](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。<p>詳しくは、Adobe Developerのレポートエンドポイントガイドの[検索機能](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)を参照してください。 | | 2026年7月1日（PT） |
+| **AA APIを使用した定期的なレポートの自動作成** <br/>Report APIを使用して、スケジュールに従って新しい指標を使用したデータパイプラインの定期的な自動Adobe Analytics レポートを設定します。 <p>詳しくは、Adobe Developerの[繰り返しAnalytics レポートの自動化エンドポイント ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)を参照してください。</p> | | 2026年7月1日（PT） |
+| **AA**&#x200B;の新しい拡張パラメーター<br/>新しいDimension API拡張パラメーターを使用して、割り当てタイプ、有効期限、データタイプ、マーチャンダイジングのeVar設定フィールドを取得します。 <p>詳しくは、Adobe Developerの[API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)および[Dimensions エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)を参照してください。</p> | | 2026年7月1日（PT） |
 
 ### Adobe Analytics の修正点
 
 **Activity Map**：
-**Analysis Workspace**: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525 451477 451262 451161 450772 449890 443594 434416, AN-, AN-, AN-, AN-, AN – できるようになります
-**分類**: AN-457122, AN-455828, AN-455515, AN-455501, AN-454540, AN-454466, AN-454410, AN-454251, AN-454166, AN-453180, AN-452547, AN-451812, AN-451181, AN-448974, AN-448567, AN-444098, AN-443336
-**データフィードとData Warehouse**:N-457045、AN-456993、AN-456945、AN-456455、AN-456015、AN-455709、AN-454359、AN-451546
-**移行**: AN-453136、AN-451330
-**書き出し**: AN-452006
-**Report Builder**: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184 445794 445354 442819, AN – 動詞，AN – 動詞
-**レポート**: AN-423516、AN-454517、AN-453982、AN-451822、AN-451259、AN-451215、AN-447692
-**レポートスイート**: AN-455684、AN-455684、AN-454975、AN-430988
-**スケジュール済みレポート**: AN-451980、AN-451882、AN-450715
+**Analysis Workspace**: AN-449890、AN-457527、AN-451161、AN-459034、AN-458071、AN-458398
+**分類**: AN-453318、AN-456739、AN-455828、AN-455270、AN-460272、AN-459367、AN-459239、AN-458418、AN-458417
+**データフィードとData Warehouse**:AN-456945、AN-460700
+**移行**：
+**書き出し**：
+**Report Builder**:AN-457533、AN-453683
+**レポート**: AN-447692、AN-451259、AN-455713
+**レポートスイート**：
+**スケジュール済みレポート**: AN-450715
 **セグメント化**：
-**その他**: AN-454140、AN-453937、AN-453825、AN-452296、AN-451783、AN-451781、AN-451243、AN-450974、AN-449726、AN-448964、AN-388832
+**その他**: AN-453982、AN-455771
 
 ### 提供終了（EOL）に関する注意事項 {#eol}
 
