@@ -78,5 +78,5 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルへのビジュアライゼーションの追加ビジュアライゼーション設定ビジュアライゼーションコンテキストメニューヒストグラムを使用して予期しないデータ値を識別する](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[&#x200B; パネルへのビジュアライゼーションの追加ビジュアライゼーション設定ビジュアライゼーションコンテキストメニューヒストグラムを使用して予期しないデータ値を識別する](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ja)
 
