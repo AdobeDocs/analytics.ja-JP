@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 94%
+source-wordcount: 2004
+ht-degree: 85%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 94%
 定義のタイプと範囲を設定できます。
 
 1. 定義のタイプを指定するには、この作成にインクルード定義または除外定義を含めるかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
-1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;ドロップダウンメニューから、定義の範囲を「**[!UICONTROL ヒット数]**」、「**[!UICONTROL 訪問回数]**」、「**[!UICONTROL 訪問者数]**」のいずれにするかを選択します。
+1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
 
 これらの設定は、後で常に変更できます。
 
@@ -96,7 +96,9 @@ ht-degree: 94%
 
 コンポーネントを追加するには、次の手順に従います。
 
-1. コンポーネントパネルからコンポーネントを&#x200B;**[!UICONTROL ここに指標、セグメント、ディメンションをドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。 コンポーネントバーの ![検索](/help/assets/icons/Search.svg) を使用して、特定のコンポーネントを検索できます。
+1. コンポーネントパネルからコンポーネントを&#x200B;**[!UICONTROL ここに指標、セグメント、ディメンションをドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。
+   * コンポーネントバーで![検索](/help/assets/icons/Search.svg)を使用して、特定のコンポーネントを検索できます。
+   * コンポーネントバーの![&#x200B; フィルター](/help/assets/icons/Filter.svg)を使用して、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![&#x200B; データディメンション &#x200B;](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![&#x200B; イベント &#x200B;](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![&#128279;](/help/assets/icons/Layer.svg)&#x200B; セグメント **![[!UICONTROL カレンダー]](/help/assets/icons/Calendar.svg)日付**&#x200B;[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]&#x200B;**、および&#x200B; レイヤー**&#x200B;[!UICONTROL &#x200B;製品&#x200B;]&#x200B;**コンポーネント。 &#x200B;![](/help/assets/icons/Segmentation.svg)&rbrack;**&lbrack;![&#x200B; ラベル &#x200B;](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
 1. コンポーネントの詳細を指定します。 例えば、「**[!UICONTROL 値を選択]**」から値を選択します。 または値を入力します。 1 つ以上の値を指定できる内容と方法は、コンポーネントと演算子によって異なります。
 1. オプションで、デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
@@ -121,7 +123,7 @@ ht-degree: 94%
 * 別のコンポーネントをコンテナに追加するには、コンポーネントパネルからコンテナにコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
 * 別のコンポーネントをコンテナの外側に追加するには、コンテナの外側、メイン定義コンテナの内側にあるコンポーネントパネルからコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
 * コンテナ内のコンポーネント間、コンテナ間またはコンテナとコンポーネント間のロジックを変更するには、適切な「**[!UICONTROL および]**」、「**[!UICONTROL または]**」、「**[!UICONTROL 次に]**」を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
-* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット数]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問回数]**&#x200B;または![ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者数]**&#x200B;を選択します。
+* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
 
 コンテナ内の ![設定](/help/assets/icons/Setting.svg) は、次のアクションに使用できます。
 
@@ -133,6 +135,9 @@ ht-degree: 94%
 | **[!UICONTROL コンテナに名前を付ける]** | コンテナの名前をデフォルトの説明から変更します。 テキストフィールドに名前を入力します。 入力しない場合、デフォルトの説明が使用されます。 |
 | **[!UICONTROL コンテナを削除]** | 定義からコンテナを削除します。 |
 
+製品ディメンションまたは指標をセグメントビルダーにドラッグすると、システムは&#x200B;**[!UICONTROL 製品]** コンテナを自動的に選択し、デフォルトの&#x200B;**[!UICONTROL ヒット]** コンテナを使用しません。 この動作により、ヒット全体ではなく、個々の製品に対してセグメントの範囲が維持されます。
+
+製品レベルとヒットレベルの両方のコンポーネントを単一のセグメントルールにドラッグすると、システムは、最も高い（最小の）共有コンテナである&#x200B;**[!UICONTROL ヒット]** コンテナを使用します。 セグメントルールに含まれるすべてのコンポーネントが製品レベルの場合、**[!UICONTROL 製品]** コンテナが使用されます。
 
 ## 日付範囲
 

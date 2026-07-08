@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ ht-degree: 19%
 | 要素 | 説明 |
 |---|---|
 | **[!UICONTROL 名前]** | 名前は、クイックセグメント定義から自動的に取得されます。 |
-| **[!UICONTROL 人物]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![アラート](/help/assets/icons/Alert.svg) | クイックセグメントから得られるデータのプレビュービジュアル。 全体のデータがクイックセグメントの結果にどの程度含まれているかを示す棒グラフとパーセンテージがinsightに表示されます。 ![&#x200B; アラート &#x200B;](/help/assets/icons/AlertRed.svg)は、クイックセグメントがデータを返さないことを示します。 |
+| **[!UICONTROL _指標_]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg) | クイックセグメントから得られる指標データのプレビュービジュアル。 全体のデータがクイックセグメントの結果にどの程度含まれているかを示す棒グラフとパーセンテージがinsightに表示されます。 ![&#x200B; アラート &#x200B;](/help/assets/icons/AlertRed.svg)は、クイックセグメントがデータを返さないことを示します。 |
 | **[!UICONTROL 含む]**<br/>**[!UICONTROL 除外]** | ドロップダウン ![ChevronDown](/help/assets/icons/ChevronDown.svg)から、クイックセグメントの結果をパネルのデータに含めるか除外するかを選択します。 |
-| **[!UICONTROL イベント]**<br/>**[!UICONTROL セッション]**<br/>**[!UICONTROL ユーザー]** | ドロップダウンメニュー![ChevronDown](/help/assets/icons/ChevronDown.svg)から、クイックセグメントの範囲を選択します。 |
+| **[!UICONTROL イベント &#x200B;]**<br/>**[!UICONTROL &#x200B; セッション &#x200B;]**<br/>**[!UICONTROL 人物]**<br/>**[!UICONTROL 製品]** | ドロップダウンメニュー![ChevronDown](/help/assets/icons/ChevronDown.svg)から、クイックセグメントの範囲を選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用します。<ul><li>製品ディメンションまたは製品指標をクイックセグメントパネルにドラッグすると、**[!UICONTROL 製品]** コンテナが自動的に選択され、デフォルトの&#x200B;**[!UICONTROL ヒット]** コンテナは使用されません。 この動作により、ヒット全体ではなく、個々の製品に対してセグメントの範囲が維持されます。</li><li>製品レベルとヒットレベルの両方のコンポーネントを単一のセグメントルールにドラッグすると、システムは、最も高い（最小の）共有コンテナである&#x200B;**[!UICONTROL ヒット]** コンテナを使用します。 セグメントルールに含まれるすべてのコンポーネントが製品レベルの場合、**[!UICONTROL 製品]** コンテナが使用されます。</li></ul> |
 
 ### 条件領域
 
