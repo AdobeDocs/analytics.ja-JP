@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 4%
 | **[!UICONTROL ステータス]** | 分類ジョブのステータス。 可能な値は、**[!UICONTROL 作成済み]**、**[!UICONTROL キュー]**、**[!UICONTROL 検証済み]**、**[!UICONTROL 検証失敗]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理失敗]**、**[!UICONTROL 完了]**、または&#x200B;**[!UICONTROL 進行状況]**&#x200B;です。 表示されている場合は、アラート ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg)にカーソルを合わせると、追加情報が表示されます。 |
 | **[!UICONTROL ファイル名]** | 分類ジョブの一部として、ファイルの読み込みまたは書き出しに使用する名前または機能を識別します。 使用可能な値： <ul><li>*値なし*</li><li>分類ジョブの一部として処理されるファイルの名前。</li><li>**[!UICONTROL SAINT エクスポート]**: ジョブは[従来の分類インターフェイス &#x200B;](/help/components/classifications/importer/c-working-with-saint.md)からのエクスポートです。</li><li>_タイムスタンプ&#x200B;_&#x200B;**の_分類セット _の**&#x200B;書き出し：ジョブは[&#x200B; スキーマ &#x200B;](manage/schema.md#download) インターフェイスからのダウンロードです。</li></ul> |
 | **[!UICONTROL ジョブの種類]** | 分類ジョブのタイプ。 使用可能な値は、**[!UICONTROL Import]**&#x200B;または&#x200B;**[!UICONTROL Export]**&#x200B;です。 |
-| **[!UICONTROL ソース]** | 分類ジョブのソース。 使用可能な値は、**[!UICONTROL Web API]**、**[!UICONTROL Direct API Upload]**、**[!UICONTROL Adobe]**、**[!UICONTROL SAINT]**&#x200B;または&#x200B;**[!UICONTROL 不明]**&#x200B;です。 |
+| **[!UICONTROL ソース]** | 分類ジョブのソース。 使用可能なソースについて詳しくは、[&#x200B; フィルターパネル &#x200B;](#filter-panel)を参照してください。 |
 | **[!UICONTROL 変更行]** | 分類ジョブが変更した変更済み行の数。 |
 | **[!UICONTROL 合計行]** | 分類ジョブが処理した合計行数。 |
 | **[!UICONTROL 完了時間]** | 分類ジョブの完了時間。 |
@@ -88,6 +88,21 @@ ht-degree: 4%
 * **[!UICONTROL ステータス]**。 使用可能な値の1つを選択して、ステータスに関する分類ジョブ・リストをフィルタリングします。
 * **[!UICONTROL ジョブの種類]** 使用可能な値の1つを選択して、ジョブタイプの分類ジョブリストをフィルタリングします。
 * **[!UICONTROL Source]**。 可能な値の1つを選択して、ソースの分類ジョブリストをフィルタリングします。
+
+  **[!UICONTROL Source]**&#x200B;に使用できる値は次のとおりです。
+
+  | ソース | 説明 |
+  |---|---|
+  | **[!UICONTROL Adobe]** | 内部プロセスの一部としてAdobeによって作成されたジョブ。 たとえば、統合です。 |
+  | **[!UICONTROL バックエンド]** | 非推奨のFTP インポートプロセスによって作成されたジョブ。 |
+  | **[!UICONTROL クラウド取得]** | クラウドの場所から分類データを読み込んだ結果であるジョブ。 |
+  | **[!UICONTROL 直接API エクスポート]** | Adobe Analytics 2.0 APIを使用して分類データを書き出した結果であるジョブ。 |
+  | **[!UICONTROL 直接API アップロード]** | Adobe Analytics 2.0 APIを使用して分類データをアップロードした結果のジョブ。 |
+  | **[!UICONTROL 再公開]** | 再公開の結果であるジョブ。 |
+  | **[!UICONTROL ルールベースの分類]** | ルールベースの分類の結果であるジョブ。 |
+  | **[!UICONTROL 聖人]** | 従来のルールベースの分類の結果であるジョブ。 |
+  | **[!UICONTROL Web API]** | Web APIを使用して分類データをエクスポートまたはアップロードした結果であるジョブ。 |
+  | **[!UICONTROL 不明]** | ソースが不明なジョブ。 |
 
 
 「![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルターを非表示]**」を選択して、フィルターパネルを非表示にします。
