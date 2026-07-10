@@ -5,27 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
+source-wordcount: 2341
 ht-degree: 61%
 
 ---
@@ -68,7 +55,7 @@ Analytics データ内の様々な ID を収集している場合でも、デー
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ja">（従来の）Analytics Cookie</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/ja/docs/id-service/using/home">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
     </ul> </td> 
    <td colname="col2"> <p>これらのCookieは、デバイス、より具体的にはデバイスのユーザーのブラウザーを識別します。 共通ログインが使用される共有デバイスの場合、このIDはデバイスのすべてのユーザーに適用されます。 アドビは、データプライバシー要求でこうした Cookie を使用できるように、Web サイトに挿入して Cookie を収集するための<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統合 JavaScript</a> を作成しました。 </p> <p>Adobe Analytics のモバイル SDK のユーザーも Experience Cloud ID（ECID）を持っています。 SDK には、この ID を読み取るための API 呼び出しがあるので、アプリを拡張してデータプライバシー要求用にこの ID を収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。 その結果、法務チームと相談しながら、データプライバシーリクエストで許容可能な ID として使用することをサポートしないことにする場合があります。 または、これらの ID を使用する場合に、ごく限られた量のデータのみを返すように選択したり、削除リクエストに対してのみデータを受け入れるように選択したりできます。 </p> <p>これらのCookieには、変更できないID-DEVICE ラベル（I2およびDEL-DEVICE ラベル）があります。 デフォルトのAdobe Analytics設定では、デバイスの種類、OS、ブラウザーなどの一般的な情報に加えて、これらのIDを使用する際にweb サイトにアクセスした日時が返されます。 ただし、データプライバシー要求でこれらの ID を利用する場合は、以下で説明するように、ACC-ALL ラベルを追加または削除して、データプライバシーアクセス要求で返されるようにしたいフィールドを設定できます。 </p> <p>レポートスイートがログインを必要とするモバイルアプリに対応している場合、デバイスの Experience Cloud ID が特定のユーザーに対応しているかどうかを判断することもできます。 その場合、訪問したページ名、閲覧した製品名など、より多くのフィールドに ACC-ALL ラベルを付ける必要があります。 </p> </td> 
   </tr> 

@@ -5,25 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +25,7 @@ ht-degree: 16%
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables)はこの変数の廃止されたバリアントです。 HTTP経由で送信されるデータのドメインを指定しました。HTTPSが普及している場合は、代わりに`trackingServerSecure`を使用してください。 `s.trackingServerSecure`が空白の場合、AppMeasurementは`s.trackingServer`値にフォールバックします。
 
-[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)の前に、この変数はサードパーティ Cookieの設定場所も決定しました。 Adobeでは、可能な限り、すべての実装でID サービスを使用することを強くお勧めします。
+[Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home) （`VisitorAPI.js`）より前は、この変数によってサードパーティ Cookieが設定された場所も決まりました。 Adobeでは、可能な限り、すべての実装でVisitor ID サービスを使用することを強くお勧めします。
 
 ## Web SDK拡張機能を使用したEdge ドメイン
 
@@ -54,7 +44,7 @@ Web SDKでは、[!UICONTROL Edge domain]を使用して、Tracking ServerとSecu
 
 ## Web SDKを手動で実装するEdge ドメイン
 
-[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -71,7 +61,7 @@ alloy("configure", {
 1. 「[!UICONTROL Extensions]」タブに移動し、「**[!UICONTROL Configure]**」ボタンをAdobe Analyticsの下から選択します。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL SSL トラッキングサーバー]」フィールドが表示されます。
 
-このフィールドが空白のままの場合、デフォルトの値は[!UICONTROL &#x200B; トラッキングサーバー]です。 [!UICONTROL SSL トラッキングサーバー]と[!UICONTROL &#x200B; トラッキングサーバー]の両方が空白の場合、デフォルトは`[rsid].data.adobedc.net`になります。
+このフィールドが空白のままの場合、デフォルトの値は[!UICONTROL  トラッキングサーバー]です。 [!UICONTROL SSL トラッキングサーバー]と[!UICONTROL  トラッキングサーバー]の両方が空白の場合、デフォルトは`[rsid].data.adobedc.net`になります。
 
 ## AppMeasurementおよびAnalytics拡張機能のカスタムコードエディターのs.trackingServerSecure
 
@@ -89,8 +79,8 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure` （または`edgeDomain`）に使用する値は、いくつかの要因によって異なります。
 
-* [Adobeが管理する証明書プログラム &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)への参加
-* [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が実装され、正しく設定されている場合
+* [Adobeが管理する証明書プログラム ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)への参加
+* [Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が実装され、正しく設定されている場合
 
 **Adobeが管理する証明書プログラム**&#x200B;に参加している場合は、証明書の設定時に選択した1st パーティドメインに値を設定します。 通常、この値は組織が所有するサブドメインです。 例えば、`data.example.com` のように設定します。 組織内のCNAME レコードは、そのデータをAdobeにリダイレクトします。
 
@@ -108,17 +98,17 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 古い実装では、`sc.omtrdc.net`や`2o7.net`などの値を持っている場合があります。 これらは主に Adobe Analytics の以前のバージョンで使用されていましたが、現在も有効です。
 
-Adobeでは、組織全体の一貫性を保つために、この情報を[&#x200B; ソリューション設計ドキュメント &#x200B;](../../prepare/solution-design.md)に保管することを強くお勧めします。
+Adobeでは、組織全体の一貫性を保つために、この情報を[ ソリューション設計ドキュメント ](../../prepare/solution-design.md)に保管することを強くお勧めします。
 
-## 訪問者ID サービスを使用しない場合の影響
+## 訪問者ID サービスまたはExperience Platform ID サービスを使用しない場合の影響
 
-Adobeでは、すべての実装で[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 ID サービスは、いくつかの異なる方法で実装できます。
+Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
-* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics向けExperience Cloud ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
-* Adobe Analytics タグ拡張機能を使用する実装では、[Adobe Experience Cloud ID サービスタグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用します。 追加設定は不要です。
-* 任意の形式のWeb SDK （`alloy.js`またはWeb SDK タグ拡張機能）を使用する実装では、ID サービスがネイティブにベイク処理されています。 `edgeDomain`値の設定以外の設定は必要ありません。
+* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)を参照してください。
+* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス ] タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
+* 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Experience Platform ID サービスが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 
-**実装でID サービスを使用しない場合**&#x200B;は、実装に対して次の影響を考慮してください。
+**実装でECID**&#x200B;を使用しない場合は、実装に対する次の影響を考慮してください。
 
-* ID サービスを使用しない場合、`trackingServerSecure`はCookieの場所を決定します。 この変数をサードパーティのドメインに設定すると、ほとんどのモダンなブラウザーがサードパーティのCookieを拒否するため、AppMeasurementではフォールバッククッキーを使用する必要があります。
+* 訪問者ID サービスまたはExperience Platform ID サービスを使用していない場合、`trackingServerSecure`はCookieの場所を判断します。 この変数をサードパーティのドメインに設定すると、ほとんどのモダンなブラウザーがサードパーティのCookieを拒否するため、AppMeasurementではフォールバッククッキーを使用する必要があります。
 * 内部リンクトラッキングとActivity Mapの信頼性が低い場合があります。

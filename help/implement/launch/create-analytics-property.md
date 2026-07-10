@@ -5,22 +5,15 @@ feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2cZHjGRwvLZPL-jmGLOQpgSXr5Rib8nMeqFWj2cCKAA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -30,7 +23,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 
 ## 前提条件
 
-[&#x200B; レポートスイートを作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md):Analytics データを収集するためのサイロを作成します。
+[ レポートスイートを作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md):Analytics データを収集するためのサイロを作成します。
 
 ## タグプロパティを作成し、重要な拡張機能をインストール
 
@@ -42,7 +35,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
 1. 「**[!UICONTROL 拡張機能]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
 1. 「Experience Cloud ID サービス」を見つけ、「**[!UICONTROL インストール]**」をクリックします。
-1. CX Enterprise Organization IDを含むすべての設定は、既に入力されている必要があります。 「**[!UICONTROL 保存]**」をクリックします。
+1. IMS組織IDを含むすべての設定は、既に入力されている必要があります。 「**[!UICONTROL 保存]**」をクリックします。
 1. 拡張機能カタログに戻り、Adobe Analytics を探して「**[!UICONTROL インストール]**」をクリックします。
 
 詳しくは、[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)の完全なドキュメントを参照してください。

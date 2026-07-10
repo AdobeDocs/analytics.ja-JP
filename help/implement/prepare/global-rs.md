@@ -5,32 +5,15 @@ feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 96%
+source-wordcount: 885
+ht-degree: 95%
 
 ---
 
@@ -67,7 +50,7 @@ ht-degree: 96%
    >任意のカスタム変数がドメイン間で同様に使用されていることを確認します。 サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータレイヤーがあり、データ収集を簡略化できることを確認します。 データレイヤーを使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
 1. Adobe Experience Platform でタグを使用して Analytics を実装します。 サイトごとに異なるデータ要素が必要になる場合があります。 各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。 [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
-1. [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
+1. [Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
@@ -80,5 +63,4 @@ ht-degree: 96%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
->[ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[ マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)
