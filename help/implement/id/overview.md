@@ -41,9 +41,9 @@ Adobeがヒットを受け取ると、次のチェックが順番に行われま
 | 使用順序 | クエリパラメーター | 以下の場合に表示される |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
-| **2<sup>および</sup>** | `aid` | 訪問者には既存の[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieがあります。 訪問者ID サービスを実装していない、または実装する前に実装を設定します。 |
-| **3<sup>rd</sup>** | `mid` | [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用するAppMeasurement ベースの実装（Analytics タグ拡張機能を含む）の場合、訪問者には既存の[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)または`AMCV` Cookieがあります。 Web SDK ベースの実装の場合、訪問者には既存の[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk)または`AMCV` Cookieがあります。 Adobeでは、可能な限り、すべての実装でECIDを使用することをお勧めします。 |
-| **4<sup>番目</sup>** | `fid` | 訪問者には既存の[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieがあります。 AppMeasurementは、何らかの理由で`aid`と`mid`を設定できない場合、フォールバック IDを自動的に生成します。 |
+| **2<sup>および</sup>** | `aid` | 訪問者には既存の[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieがあります。 訪問者ID サービスを実装していない、または実装する前に実装を設定します。 |
+| **3<sup>rd</sup>** | `mid` | [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用するAppMeasurement ベースの実装（Analytics タグ拡張機能を含む）の場合、訪問者には既存の[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics)または`AMCV` Cookieがあります。 Web SDK ベースの実装の場合、訪問者には既存の[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/web-sdk)または`AMCV` Cookieがあります。 Adobeでは、可能な限り、すべての実装でECIDを使用することをお勧めします。 |
+| **4<sup>番目</sup>** | `fid` | 訪問者には既存の[`s_fid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieがあります。 AppMeasurementは、何らかの理由で`aid`と`mid`を設定できない場合、フォールバック IDを自動的に生成します。 |
 | **5<sup>番目</sup>** | IP アドレス + ユーザーエージェント | 訪問者のブラウザーがCookieを受け入れない場合に、ユニーク訪問者を識別するための最後の手段として使用されます。 ハッシュ化された訪問者IDは、[IP難読化](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)の前に生成されます。 IP アドレスが使用できない場合は、代わりに他のIPの詳細（ゲートウェイ IPなど）が使用されます。 |
 
 選択した訪問者IDはハッシュ化され、サーバーサイドの識別子になります。 このサーバーサイド IDは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md)の`visid_high` + `visid_low`で利用できます。

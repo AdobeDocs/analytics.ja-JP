@@ -73,8 +73,8 @@ ITP ポリシーは頻繁に進化しています。 最新のポリシーにつ
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
 * Adobe Experience Cloud の訪問者 ID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
-* CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)
-* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
+* CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics)
+* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 
 #### Safari の Analytics への ITP の影響
 

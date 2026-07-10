@@ -35,7 +35,7 @@ ht-degree: 25%
 
 ## この指標の計算方法
 
-この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie に基づく）を使用して識別された個人のみが含まれます。
+この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) cookie に基づく）を使用して識別された個人のみが含まれます。
 
 ## ECID設定のデバッグ
 
