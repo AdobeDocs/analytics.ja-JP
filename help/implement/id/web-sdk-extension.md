@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 197
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Adobe Experience Platform Data CollectionのWeb SDK タグ拡張機能を使用すると、タグ管理インターフェイスを使用してWeb SDKを実装できます。 クロスドメイン IDの共有や訪問者プロファイルの移行などの高度なシナリオは、拡張ルールやアクションを通じて簡単に設定できます。 Web SDKを利用すれば、実装の将来性を確保し、Customer Journey Analyticsへのシームレスなアップグレードを実現できます。
 
-ID データを拡張して、XDMの`identityMap`を使用してカスタム IDと複数の名前空間をサポートできます。 Adobeでは、Analyticsの主要なIDとしてAdobe Experience Cloud ID サービスを使用し、高度なシナリオには他のID管理オプションを使用することをお勧めします。
+ID データを拡張して、XDMの[`identityMap`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/identity-map)を使用してカスタム IDと複数の名前空間をサポートできます。 Adobeでは、高度なシナリオに他のID管理オプションを使用して、Analyticsのプライマリ IDとしてECIDを使用することをお勧めします。
 
 訪問者ID サービスはタグ拡張機能にネイティブに組み込まれているため、**[!UICONTROL Edge ドメイン]**&#x200B;を目的の値に設定する必要があるだけです。 このフィールドが正しく設定されている場合、訪問者の識別は追加の設定なしで機能します。
 

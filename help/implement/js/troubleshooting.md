@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 93%
+source-wordcount: 686
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ s.pageName = "        Home Page";
 
 多くの変数に長い値を設定する実装では、イメージリクエストが切り捨てられる場合があります。 Internet Explorer など、一部の古いブラウザーでは、イメージリクエスト URL に 2083 文字の制限が設けられています。 組織が非常に長いイメージリクエストを扱う場合は、次の操作を試してください。
 
-* **Experience Cloud ID サービスの使用**：AppMeasurement ライブラリ 1.4.1 以降では、イメージリクエストが長すぎる場合、送信に自動的に HTTP POST を使用します。 このメソッドを使用して送信されるデータは、長さに関係なく切り捨てられません。 詳しくは、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。
+* **最新バージョンのAppMeasurementを使用**: AppMeasurement ライブラリ 1.4.1以降では、画像リクエストが長すぎる場合にHTTP POSTを使用して画像リクエストを自動送信します。 このメソッドを使用して送信されるデータは、長さに関係なく切り捨てられません。
 * **処理ルールの使用**：[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)では、変数間で値をコピーできます。 この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。 次に例を示します。
 
   常に実行：<br>

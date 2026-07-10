@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 198
 ht-degree: 2%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 2%
 
 Adobe Experience Platform Web SDK JavaScript ライブラリ （`alloy.js`）は、Adobe Analyticsを含むすべてのAdobe CX Enterprise アプリケーションに対して、最新の統合型データ収集アプローチを提供します。 ほとんどのユーザーは通常[Web SDK タグ拡張機能](web-sdk-extension.md)を実装しますが、Web SDK JavaScript ライブラリを単独で使用することも、サードパーティのタグ管理システム内で使用することもできます。 最新バージョンのライブラリをダウンロードするには、GitHubの[Alloy](https://github.com/adobe/alloy)を参照してください。
 
-ID データを拡張して、XDMの`identityMap`を使用してカスタム IDと複数の名前空間をサポートできます。 Adobeでは、Analyticsの主要なIDとしてAdobe Experience Cloud ID サービスを使用し、高度なシナリオには他のID管理オプションを使用することをお勧めします。
+ID データを拡張して、XDMの[`identityMap`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/identity-map)を使用してカスタム IDと複数の名前空間をサポートできます。 Adobeでは、高度なシナリオに他のID管理オプションを使用して、Analyticsのプライマリ IDとしてECIDを使用することをお勧めします。
 
-Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを送信する場合、訪問者の識別には最小限の設定が必要です。 訪問者ID サービスは、ライブラリにネイティブにベイク処理されます。ただし、`configure` コマンドで&#x200B;**[!UICONTROL Edge Domain]**&#x200B;を設定する必要があります。 このフィールドが目的の値に設定されている場合、訪問者の識別は追加の設定なしで機能します。
+Web SDK JavaScript ライブラリを使用してAdobe Analyticsにデータを送信する場合、訪問者の識別には最小限の設定が必要です。 Experience Platform Identity Serviceはライブラリにネイティブに組み込まれていますが、`configure` コマンドで&#x200B;**[!UICONTROL Edge Domain]**&#x200B;を設定する必要があります。 このフィールドが目的の値に設定されている場合、訪問者の識別は追加の設定なしで機能します。

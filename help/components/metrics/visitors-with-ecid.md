@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud ID を持つ訪問者
-description: Adobe Experience Cloud ID サービスを使用しているユニーク訪問者の数です。
+description: ECIDを使用するユニーク訪問者の数。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
@@ -18,39 +18,39 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 76%
+source-wordcount: 384
+ht-degree: 25%
 
 ---
 
 # Experience Cloud ID を持つ訪問者
 
-「Experience Cloud IDを持つ訪問者」の[指標](overview.md)は、[Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用してAdobeによって識別された一意の訪問者の数を示します。 この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。 訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
+&#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
 
 >[!NOTE]
 >
->この指標は、Adobe TargetやAdobe Audience Managerなど、複数のCX Enterprise サービスを使用する場合のデバッグに特に重要です。 CX Enterprise製品間で共有されるセグメントには、Experience Cloud IDのない訪問者は含まれません。
+>この指標は、Adobe TargetやAdobe Audience Managerなど、複数のCX Enterprise サービスを使用する場合のデバッグに特に重要です。 CX Enterprise製品で共有されるセグメントには、ECIDのない訪問者は含まれません。
 
 ## この指標の計算方法
 
-この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) cookie に基づく）を使用して識別された個人のみが含まれます。
+この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) cookie に基づく）を使用して識別された個人のみが含まれます。
 
-## Experience Cloud ID 設定のデバッグ
+## ECID設定のデバッグ
 
-「Experience Cloud IDを持つ訪問者」指標は、CX Enterprise統合のトラブルシューティングや、ID サービスがデプロイされていないサイトの領域の特定に役立ちます。
+Experience Cloud IDを持つ&#39;[!UICONTROL 訪問者]&#39;指標は、CX Enterprise統合のトラブルシューティングや、訪問者ID サービスまたはExperience Platform ID サービスがデプロイされていないサイトの領域の特定に役立ちます。
 
-「Experience Cloud ID を持つ訪問者」をユニーク訪問者と並べてドラッグして比較します。
+「[!UICONTROL Experience Cloud IDを持つ訪問者]」を並べてドラッグし、ユニーク訪問者と比較します。
 
 ![ユニーク訪問者の比較](assets/metric-mcvid1.png)
 
-この例では、各ページのユニーク訪問者が Experience Cloud ID での訪問者と同じ数になっていることに注意してください。 ただし、ユニーク訪問者の合計数は Experience Cloud ID での訪問者の合計数より大きくなっています。 ID サービスが設定されていないページを調べる[計算指標](../calculated-metrics/cm-overview.md)を作成できます。 次の定義を使用できます。
+この例では、各ページにExperience Cloud ID&#39;を持つ&#39;[!UICONTROL 訪問者と同じ数の&#39;[!UICONTROL &#x200B; ユニーク訪問者]&#39;があることに注意してください。 ただし、&#39;[!UICONTROL &#x200B; ユニーク訪問者]&#39;の合計数は、Experience Cloud ID]&#39;を持つ&#39;訪問者の合計数を超えています。 [計算指標](../calculated-metrics/cm-overview.md)を作成して、次の定義を使用して、ECIDを使用していないページを調べることができます。
 
 ![計算指標の定義](assets/metric-mcvid2.png)
 
-この計算指標をレポートに追加することで、MCID を持たない訪問者の数が最も多いページがひとめでわかるように、ページレポートをソートすることができます。
+計算された指標をレポートに追加することで、ページレポートを並べ替えて、ECIDを持たない訪問者の数が最も多いページを表示できます。
 
-![ID サービスを使用しないページ](assets/metric-mcvid3.png)
+ECIDのない![&#x200B; ページ &#x200B;](assets/metric-mcvid3.png)
 
-「製品クイックビュー」ディメンション項目は、ID サービスでは正しく実装されないことに注意してください。 組織内の適切なチームと協力して、これらのページを可能な限り早く更新できます。 [ブラウザーのタイプ](../dimensions/browser-type.md)、[サイトセクション](../dimensions/site-section.md)、[eVar](../dimensions/evar.md) など、あらゆるタイプのディメンションを使用して、類似したレポートを作成できます。
+「製品クイックビュー」ディメンション項目がECIDで正しく実装されていないことに注意してください。 組織内の適切なチームと協力して、これらのページを可能な限り早く更新できます。 [ブラウザーのタイプ](../dimensions/browser-type.md)、[サイトセクション](../dimensions/site-section.md)、[eVar](../dimensions/evar.md) など、あらゆるタイプのディメンションを使用して、類似したレポートを作成できます。

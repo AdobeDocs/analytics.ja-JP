@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: 106
 ht-degree: 21%
 
 ---
 
 # Experience Cloud の訪問者 ID
 
-「Experience Cloud訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者にExperience Cloud ID （ECID）を提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
+「Experience Cloud訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 ## このディメンションへのデータ入力
 
-このディメンションには、Experience Cloud ID サービス（ECID）を使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+このディメンションには、訪問者ID サービス（VisitorAPI）またはExperience Platform ID サービスを使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ## ディメンション項目
 

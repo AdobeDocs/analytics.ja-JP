@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 98%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 98%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
-   + レガシークロスデバイス特定 {#xdevice-visid}
-      + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
-      + [変数の持続性](js/xdevice-visid/variable-persistence.md)
-      + [訪問の例](js/xdevice-visid/visit-example.md)
-      + [レガシークロスデバイス FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)

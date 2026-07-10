@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 93%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 93%
 | **2026年5月** | |
 | ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](/help/components/dimensions/sm-core.md)および[&#x200B; ストリーミングメディアサービスコアメトリクス &#x200B;](/help/components/metrics/sm-core.md)が含まれます。 |
 | **2026年3月** | |
-| パネルの分割 | 新しい[分類](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)機能をサポートするために、パネル [&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)の ドロップゾーンに関するドキュメントを再構築しました。 |
+| パネルの分類 | 新しい[分類](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)機能にサポートするために、[パネルのドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)に関するドキュメントを再構築しました。 |
 | 新しいレポートスイートのIP難読化のデフォルトオプションを特定しました | **IP アドレスを削除**&#x200B;が、新しいレポートスイート [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)のデフォルトのIP難読化オプションであることを示す情報を追加しました。 |
 | 処理順序の見直し | Adobe Analyticsでの[処理順序](/help/technotes/processing-order.md)の大幅な改善。 |
 | Adobe Advertisingとの連携 | [AMO ID](/help/components/dimensions/amo-id.md)を含む、Adobe Advertising統合ディメンションと指標の追加。 |
@@ -217,7 +217,7 @@ ht-degree: 93%
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。 [パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
 | モバイルスコアカード | 比較日付範囲の表示／非表示を切り替える方法について説明する新しい節をドキュメントに追加しました。 Customer Journey Analytics の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
-| 実装タイプでのトラッキング | Experience Cloud ID サービスに対応するために、[異なる実装タイプでのトラッキング](../implement/id/cross-type-implementation.md)の使用例を更新しました。 |
+| 実装タイプでのトラッキング | 訪問者ID サービスに対応するために、様々な実装タイプ [&#128279;](../implement/id/cross-type-implementation.md)をまたいでユースケース 追跡を更新しました。 |
 | **2023年1月** | |
 | テーブルのフィルタリングと並べ替え | [テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)に関する記事の内容を更新しました（手順の追加や使用可能なオプションの説明など）。 この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)用の専用ページ。 |

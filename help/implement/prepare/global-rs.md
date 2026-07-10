@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 96%
+source-wordcount: 885
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 96%
    >任意のカスタム変数がドメイン間で同様に使用されていることを確認します。 サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータレイヤーがあり、データ収集を簡略化できることを確認します。 データレイヤーを使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
 1. Adobe Experience Platform でタグを使用して Analytics を実装します。 サイトごとに異なるデータ要素が必要になる場合があります。 各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。 [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
-1. [Adobe Experience Cloud ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
+1. [Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
@@ -80,5 +80,4 @@ ht-degree: 96%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
->[ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[&#x200B; マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)

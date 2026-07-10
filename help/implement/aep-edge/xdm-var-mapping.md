@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1955
-ht-degree: 76%
+source-wordcount: 1973
+ht-degree: 75%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 76%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれの [prop](/help/components/dimensions/prop.md) ディメンションを設定します。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | それぞれの[カスタムイベント](/help/components/metrics/custom-events.md)指標に[イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を適用します。 各イベント ID は、それに対応する 100 グループの親に存在します。 例えば、`event678` にシリアル化を適用するには、`xdm._experience.analytics.event601to700.event678.id` を使用します。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれの[カスタムイベント](/help/components/metrics/custom-events.md)指標を必要な量だけ増分します。 各イベントは、それに対応する 100 グループの親に存在します。 例えば、`event567` のフィールドは `xdm._experience.analytics.event501to600.event567.value` です。 |
-| `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud ID サービスの ID](https://experienceleague.adobe.com/ja/docs/id-service/using/home)。 |
+| `xdm.identityMap.ECID[0].id` | [Adobe Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用して収集されたECID。 |
 | `xdm.marketing.trackingCode` | [トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンションを設定します。 |
 | `xdm.media.mediaTimed.completes.value` | ストリーミングメディアサービス指標「[コンテンツ完了](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-completes)」。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |

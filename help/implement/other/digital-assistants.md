@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -87,11 +87,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## ユーザー／訪問者の識別
+## 訪問者の識別
 
-Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。 ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。 ほとんどの場合、この値を一意の ID として渡すことができます。 一部のプラットフォームでは、100 文字を超える識別子を返すことができます。 このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
+Adobe Analyticsは[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、時間を超えてインタラクションを同じ人物に結び付けます。 ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。 ほとんどの場合、この値を一意の ID として渡すことができます。 一部のプラットフォームでは、100 文字を超える識別子を返すことができます。 このような場合、Adobeでは、MD5やSHA1などの標準のハッシュアルゴリズムを使用して、一意のIDを固定長の値にハッシュすることをお勧めします。
 
-様々なデバイス（例えば、Web アシスタントとデジタルアシスタント）で ECID をマッピングする場合、ID サービスを使用すると最も大きな価値が得られます。 モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。 ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
+訪問者ID サービスを使用すると、異なるデバイス（webからデジタルアシスタントなど）間でECIDをマッピングする際に最も価値を提供します。 モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。 ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

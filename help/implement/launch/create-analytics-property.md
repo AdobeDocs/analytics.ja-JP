@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
 1. 「**[!UICONTROL 拡張機能]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
 1. 「Experience Cloud ID サービス」を見つけ、「**[!UICONTROL インストール]**」をクリックします。
-1. CX Enterprise Organization IDを含むすべての設定は、既に入力されている必要があります。 「**[!UICONTROL 保存]**」をクリックします。
+1. IMS組織IDを含むすべての設定は、既に入力されている必要があります。 「**[!UICONTROL 保存]**」をクリックします。
 1. 拡張機能カタログに戻り、Adobe Analytics を探して「**[!UICONTROL インストール]**」をクリックします。
 
 詳しくは、[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)の完全なドキュメントを参照してください。

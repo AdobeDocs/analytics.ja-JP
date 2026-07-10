@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 ## 訪問者数
 
-Adobeが一意の訪問者を識別するために使用するすべてのメソッド（カスタム訪問者ID、Experience Cloud ID サービスなど） すべてが最終的に`post_visid_high`と`post_visid_low`の値として計算されます。 これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。 アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
+Adobeが一意の訪問者（カスタム訪問者ID、ECIDなど）を識別するために使用するすべてのメソッド すべてが最終的に`post_visid_high`と`post_visid_low`の値として計算されます。 これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。 アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。

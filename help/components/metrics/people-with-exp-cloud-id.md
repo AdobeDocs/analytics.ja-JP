@@ -13,20 +13,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 85%
+source-wordcount: 151
+ht-degree: 58%
 
 ---
 
 # Experience Cloud ID を持つ個人
 
-「Experience Cloud ID を持つユーザー」は[クロスデバイス分析](../cda/overview.md)指標で、[Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用してアドビが識別した[ユーザー](people.md)の数を示します。
+「Experience Cloud IDを持つユーザー」は、[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用してAdobeによって識別された[&#x200B; ユーザー](people.md)の数を示す[&#x200B; クロスデバイス分析](../cda/overview.md)指標です。
 
 ## この指標の計算方法
 
-各[&#x200B; ユーザー](people.md) （識別または未識別）を考慮すると、ヒットに`mid`個のクエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) Cookieに基づく）が含まれている場合、この[指標](overview.md)は増加します。
+各[&#x200B; ユーザー](people.md) （識別または未識別）を考慮すると、ヒットに`mid`個のクエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieに基づく）が含まれている場合、この[指標](overview.md)は増加します。
 
 計算指標 `[People with ECID] ÷ [People]` を作成し、ID サービスを使用してサイトへの訪問者の割合を取得できます。
 

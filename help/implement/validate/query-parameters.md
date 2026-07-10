@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 44%
 
 | パラメーター | Analytics 実装変数 | 説明 |
 | --- | --- | --- |
-| `aamlh` | なし | Audience Managerの場所のヒント。 Experience Cloud ID サービスを介したAudience Manager IDの同期に使用される地域データセンターを識別します。 |
-| `aamb` | なし | Audience Manager blob. Experience Cloud ID サービスを介したID同期中に渡されたエンコードされたAudience Manager プロファイルデータ。 |
+| `aamlh` | なし | Audience Managerの場所のヒント。 Visitor ID サービスを使用したAudience Manager IDの同期に使用される地域データセンターを識別します。 |
+| `aamb` | なし | Audience Manager blob. Visitor ID サービスを介したID同期中にエンコードされたAudience Manager プロファイルデータが渡されました。 |
 | `aid` | なし | `s_vi` Cookieに保存されている従来のAnalytics訪問者ID。 最新の実装では、`mid` パラメーターに置き換えられています。 |
 | `AQB` | なし | イメージリクエストクエリ文字列の開始を示します。 |
 | `AQE` | なし | イメージリクエストの終了を示します。これは、リクエストが切り捨てられていないことを表しています。 |
@@ -71,7 +71,7 @@ ht-degree: 44%
 | `lat` | なし | **使用されていません。** 自由度： 従来のモバイル SDKの実装で設定されます。現在のモバイルの実装では、データストリームを介して位置情報が送信されます。 |
 | `lon` | なし | **使用されていません。** 経度： 従来のモバイル SDKの実装で設定されます。現在のモバイルの実装では、データストリームを介して位置情報が送信されます。 |
 | `lrt` | なし | 最後のリクエストが往復する時間である「最後のリクエストタイミング」（ミリ秒）。 シングルページアプリケーション（SPA）など、1つのページから複数のリクエストが送信された場合にのみ送信されます。 |
-| `mcorgid` | なし | Experience Cloud ID サービスに対する組織を識別するExperience Cloud組織ID。 |
+| `mcorgid` | なし | 訪問者ID サービスに対する組織を識別するIMS組織ID。 |
 | `mid` | なし | [[!UICONTROL Experience Cloud訪問者ID]](/help/components/dimensions/experience-cloud-visitor-id.md) ディメンションで使用されます。 |
 | `ms_a` | なし | トラッキング対象のストリーミングメディアがビデオではなくオーディオの場合、Media SDKで`1`に設定されます。 |
 | `ndh` | なし | AppMeasurementによって生成されるすべての画像リクエストに追加されます。 ハードコードされたリクエストでは通常は省略されるので、ヒットがAppMeasurementから来たことを示します。 |

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ Adobeでは、サイト上の訪問者を[識別](../../id/overview.md)するた
 
 >[!IMPORTANT]
 >
->この変数の使用はお勧めしません。 代わりに、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用してください。
+>この変数の使用はお勧めしません。 代わりに[Adobe Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用してください。
 
 ## Analyticsでの`visitorID`の使用方法
 
