@@ -5,11 +5,19 @@ feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
@@ -81,7 +89,7 @@ Cache-Control: no-cache
 
 ## 訪問者の識別
 
-Adobe Analyticsは[Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、時間を超えてインタラクションを同じ人物に結び付けます。 ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。 ほとんどの場合、この値を一意の ID として渡すことができます。 一部のプラットフォームでは、100 文字を超える識別子を返すことができます。 このような場合、Adobeでは、MD5やSHA1などの標準のハッシュアルゴリズムを使用して、一意のIDを固定長の値にハッシュすることをお勧めします。
+Adobe Analyticsは[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、時間を超えてインタラクションを同じ人物に結び付けます。 ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。 ほとんどの場合、この値を一意の ID として渡すことができます。 一部のプラットフォームでは、100 文字を超える識別子を返すことができます。 このような場合、Adobeでは、MD5やSHA1などの標準のハッシュアルゴリズムを使用して、一意のIDを固定長の値にハッシュすることをお勧めします。
 
 訪問者ID サービスを使用すると、異なるデバイス（webからデジタルアシスタントなど）間でECIDをマッピングする際に最も価値を提供します。 モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。 ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
 
@@ -173,7 +181,7 @@ Cache-Control: no-cache
 セグメントを作成する際に、先頭と末尾のコロンが役立ちます。 例えば、`:Audio:` 機能を持つすべてのヒットを表示します。
 
 * Amazon Alexa を使用する [Amazon 機能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
-* Google でのアクションを使用する[ Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
+* Google でのアクションを使用する[&#x200B; Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
 
 ## 例
 

@@ -5,11 +5,19 @@ feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
@@ -64,4 +72,4 @@ s.visitorID = "abc123";
 
 ## Web SDKを使用した訪問者ID
 
-Adobe Experience Platform Edge Networkでは、XDMの[ID マップ ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [ データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。
+Adobe Experience Platform Edge Networkでは、XDMの[ID マップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [&#x200B; データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。

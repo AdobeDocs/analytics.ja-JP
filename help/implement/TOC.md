@@ -161,7 +161,7 @@ ht-degree: 98%
    + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
-   + {hide-from-toc}[ オプトアウトリンクの実装](js/opt-out.md)
+   + {hide-from-toc}[&#x200B; オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
    + [H コードからの移行](js/migrate-from-hcode.md)
    + H コード {#h-code}
