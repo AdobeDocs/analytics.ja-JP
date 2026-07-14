@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 59%
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
 | **サブヒット分析** <br/> サブヒット分析では、ヒットレベルよりも詳細なレベルで製品データを分析できます。 ヒット全体をフィルタリングするのではなく、ヒット内の個々の商品をセグメント化できます。 <p>例えば、同じ注文で購入された他の商品をすべて含めずに、特定の商品カテゴリーでセグメンテーションできます。</p><p>詳しくは、[&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)を参照してください。</p> | 7月8日（PT） | 2026年7月末 |
-| **Activity Map拡張機能：Web SDKのサポートとUIの更新** <br/>Web SDKのAdobe Analyticsの実装では、Activity Map オーバーレイ拡張機能を使用して、web サイトにオーバーレイされたクリックデータを表示できるようになりました。<p>以前は、Activity Map オーバーレイ拡張機能はAppMeasurementの実装でのみ使用できました。</p> <p>Web SDKのサポートに加えて、Activity Map オーバーレイ拡張機能には、更新されたルックアンドフィールも含まれています。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年7月末 |
+| **Activity Map拡張機能：UIの更新** <br/>Activity Map オーバーレイ拡張機能のルックアンドフィールが更新され、今後の機能強化をサポートする基本的な機能強化も含まれています。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年7月末 |
 | **AA 2.0 API検索機能ガイド** <br/>検索機能を使用して[&#x200B; レポートでディメンション項目のサブセットを返す](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。<p>詳しくは、Adobe Developerのレポートエンドポイントガイドの[検索機能](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)を参照してください。 | | 2026年7月1日（PT） |
 | **AA APIを使用した定期的なレポートの自動作成** <br/>Report APIを使用して、スケジュールに従って新しい指標を使用したデータパイプラインの定期的な自動Adobe Analytics レポートを設定します。 <p>詳しくは、Adobe Developerの[繰り返しAnalytics レポートの自動化エンドポイント ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)を参照してください。</p> | | 2026年7月1日（PT） |
 | **AA**&#x200B;の新しい拡張パラメーター<br/>新しいDimension API拡張パラメーターを使用して、割り当てタイプ、有効期限、データタイプ、マーチャンダイジングのeVar設定フィールドを取得します。 <p>詳しくは、Adobe Developerの[API Reference](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)および[Dimensions エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)を参照してください。</p> | | 2026年7月1日（PT） |
