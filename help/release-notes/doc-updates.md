@@ -54,7 +54,7 @@ ht-degree: 93%
 | **2026年6月** | |
 | クエリ文字列参照の更新 | [&#x200B; データ収集クエリパラメーター](/help/implement/validate/query-parameters.md)に大幅なリビジョンがあります。 |
 | Data Warehouseのセグメント | [Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を更新しました。 |
-| GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
+| GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
 | ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](/help/components/dimensions/sm-core.md)および[&#x200B; ストリーミングメディアサービスコアメトリクス &#x200B;](/help/components/metrics/sm-core.md)が含まれます。 |
 | **2026年3月** | |
