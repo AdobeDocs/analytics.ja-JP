@@ -3,10 +3,10 @@ description: Analysis Workspace でジャーニーキャンバスを使用する
 title: ジャーニーキャンバスの概要
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,10 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 [&#x200B; ノードは、](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)を「最終パス」として接続しています。つまり、訪問者は、2つのノード間で発生するイベントに関係なく、最終的に1つのノードから他のノードに移動する限りカウントされます。 ユーザーがパスに沿って移動するために割り当てられた時間は、コンテナの設定によって決まります。
 
 ![ジャーニーキャンバス](assets/journey-canvas.png)
+
+## アクセス要件
+
+Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)および[Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)のお客様は、ジャーニーキャンバスを利用できます。
 
 ## 主な特長
 
