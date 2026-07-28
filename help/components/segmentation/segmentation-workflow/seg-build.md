@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 85%
+source-wordcount: 1963
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="製品の互換性"
->abstract="使用可能なセグメント条件の中には、すべての Adobe Analytics ツールと互換性がないものがわずかながらあります。 このリストには、セグメントと互換性があるツールが示されています。 セグメントにすべての Adobe Analytics ツールとの互換性を持たせるには、条件を編集します。"
+>abstract="一部のセグメント条件は、特定のAdobe Analytics ツールと互換性がありません。 互換性のあるツールはこのリストに示されています。 基準を編集して互換性を確保。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="データのプレビュー"
->abstract="このセグメントのデータとレポートスイートのデータを比較します。 プレビューの割合は、**過去 90 日間**&#x200B;の接続の合計数に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中の可能性があります。"
+>abstract="セグメントデータとレポートスイートデータを比較します。 プレビューの割合は、**過去90日間**&#x200B;に基づいています。<br><br/> プレビューが読み込まれていない場合、接続がバックフィルされています。"
 
 
 **[!UICONTROL セグメントビルダー]**&#x200B;ダイアログは、新しいセグメントの作成または既存のセグメントの編集に使用します。 ダイアログのタイトルは、[[!UICONTROL セグメント]マネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)から作成または管理するセグメントの場合、**[!UICONTROL 新しいセグメント]**&#x200B;または&#x200B;**[!UICONTROL セグメントを編集]**&#x200B;になります。
@@ -83,7 +83,7 @@ ht-degree: 85%
 
 定義のタイプと範囲を設定できます。
 
-1. 定義のタイプを指定するには、この作成にインクルード定義または除外定義を含めるかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
+1. 定義のタイプを指定するには、包含または除外の定義を作成するかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
 1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
 
 これらの設定は、後で常に変更できます。
@@ -122,7 +122,7 @@ ht-degree: 85%
 * 既存のコンポーネントをコンテナに追加するには、コンテナにコンポーネントをドラッグ＆ドロップします。
 * 別のコンポーネントをコンテナに追加するには、コンポーネントパネルからコンテナにコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
 * 別のコンポーネントをコンテナの外側に追加するには、コンテナの外側、メイン定義コンテナの内側にあるコンポーネントパネルからコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
-* コンテナ内のコンポーネント間、コンテナ間またはコンテナとコンポーネント間のロジックを変更するには、適切な「**[!UICONTROL および]**」、「**[!UICONTROL または]**」、「**[!UICONTROL 次に]**」を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
+* コンポーネント、コンテナ、またはその組み合わせのロジックを変更するには、適切な&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**&#x200B;を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
 * コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
 
 コンテナ内の ![設定](/help/assets/icons/Setting.svg) は、次のアクションに使用できます。
@@ -141,7 +141,7 @@ ht-degree: 85%
 
 ## 日付範囲
 
-周期的な日付範囲を含むセグメントを作成できます。 このようにして、進行中のキャンペーンやイベントに関する質問に回答できます。 例えば、*過去 60 日間にオンラインで購入したすべてのユーザー*&#x200B;を含むセグメントを作成できます。
+周期的な日付範囲を含むセグメントを作成できます。 このようにして、進行中のキャンペーンやイベントに関する質問に回答できます。 例えば、*過去60日間にオンラインで購入したすべてのユーザー*&#x200B;を含むセグメントを作成できます。
 
 ![周期的な日付範囲を使用したセグメント](assets/segment-rolling-date-range.png)
 
@@ -157,11 +157,11 @@ ht-degree: 85%
 
 セグメントを使用して、セグメントを作成できます。 セグメント内でセグメントを使用すると、セグメントを最適化して複雑さを軽減できます。
 
-インタラクションチャネル（5）と米国の州（50）の組み合わせでセグメント化するとします。 デバイスタイプ（携帯電話とタブレット）と米国の州の一意の組み合わせごとに 250 個のセグメントを作成できます。 カリフォルニア州のタブレットユーザーを取得するには、250 個のセグメントのいずれかを使用します。
+インタラクションチャネル（5）と米国のステート（50）の組み合わせでセグメント化するシナリオを考えてみましょう。 デバイスタイプ（携帯電話とタブレット）と米国の州の一意の組み合わせごとに 250 個のセグメントを作成できます。 カリフォルニア州のタブレットユーザーを取得するには、次の250のセグメントのいずれかを使用します。
 
 ![カルフォルニア州とタブレットのシンプルなセグメント](assets/segment-ca-tablet-single.png)
 
-または、米国の州用に 50 個のセグメント、可能なインタラクションチャネル用に 5 個の合計 55 個のセグメントを定義することもできます。 次に、セグメントを積み重ねて、同じ結果を取得します。 カリフォルニア州のモバイルアプリユーザーを取得するには、次の 2 つのセグメントを積み重ねます。
+または、55のセグメントを定義します。米国の州では50のセグメント、考えられるインタラクションチャネルでは5のセグメントです。 同じ結果を得るには、セグメントをスタックします。 カリフォルニア州のモバイルアプリユーザーを獲得するには、次の2つのセグメントをスタックします。
 
 ![CA とタブレットの積み重ねセグメント](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +188,7 @@ ht-degree: 85%
 
 
 
-セグメントビルダーでディメンションを使用する際、このディメンションのアトリビューションモデルを指定するオプションがあります。 選択したアトリビューションモデルによって、ディメンションコンポーネントに指定した条件に対して選定されるデータが決まります。
+セグメントビルダーでディメンションを使用する場合、そのディメンションのアトリビューションモデルを指定するオプションがあります。 選択したアトリビューションモデルによって、ディメンションコンポーネントに指定した条件に対して選定されるデータが決まります。
 
 ディメンションコンポーネント内で ![設定](/help/assets/icons/Setting.svg) を選択し、ポップアップからアトリビューションモデルのいずれかを選択します。
 
@@ -196,7 +196,7 @@ ht-degree: 85%
 |---|---|
 | **[!UICONTROL 繰り返しモデル（デフォルト）]** | ディメンションにインスタンスと永続化された値を含めると、選定が決まります。 |
 | **[!UICONTROL インスタンス]** | ディメンションにインスタンス値のみを含めると、選定が決まります。 |
-| **[!UICONTROL 繰り返さないインスタンス]** | ディメンションに一意のインスタンス（繰り返さない）値を含めると、選定が決まります。 |
+| **[!UICONTROL 繰り返さないインスタンス]** | ディメンションに一意のインスタンス（繰り返さない）値を含めると、選定が決まります。 繰り返し以外のインスタンスは、繰り返しインスタンスが除外されたときにフローに適用されるモデルです。 |
 
 
 ![セグメント作成時のディメンションのアトリビューションモデル](assets/segment-dimension-attribution.png)
@@ -213,16 +213,11 @@ ht-degree: 85%
 次の表に、各アトリビューションモデルについて、この条件で選定 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) される受信イベントを示します。
 
 
-| 女性ページ - アトリビューション - <br/>*アトリビューションモデル* | イベント 1：<br/>ページ名が<br/>女性と等しい | イベント 2：<br/>ページ名が<br/>男性と等しい | イベント 3：<br/>ページ名が<br/>女性と等しい | イベント 4：<br/>ページ名が<br/>女性と等しい<br/>（永続化） | イベント 5：<br/>ページ名が<br/>チェックアウトと等しい | イベント 6：<br/>ページ名が<br/>女性と等しい | イベント 7：<br/>ページ名が<br/>ホームと等しい |
+| 女性ページ - アトリビューション - <br/>*アトリビューションモデル* | イベント 1：<br/>ページ名が<br/>女性と等しい | イベント 2：<br/>ページ名が<br/>男性と等しい | イベント 3：<br/>ページ名が<br/>女性と等しい | イベント 4：<br/>ページ名が<br/>女性と等しい<br/>（永続化） | イベント 5：<br/>ページ名が<br/>チェックアウトと等しい | イベント 6：<br/>ページ名が<br/>女性と等しい | イベント 7:<br/> ページ名が<br/>女性（明示的に設定） |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 繰り返し（デフォルト） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) |
-| インスタンス | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) |
+| 繰り返し（デフォルト） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| インスタンス | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 繰り返さないインスタンス | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) | ![削除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![削除](/help/assets/icons/Remove.svg) |
-
-3 つのセグメントを使用したイベントに関するレポートの例を次に示します。
-
-![アトリビューションモデルの結果をセグメント化](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -380,7 +375,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## セグメントテンプレート {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-セグメントテンプレートは、**[!UICONTROL 初回訪問回数]**&#x200B;や&#x200B;**[!UICONTROL モバイルデバイスからの訪問回数]**&#x200B;など、一般的なセグメントのユースケースに対して提供されます。 これらは、Workspace プロジェクトおよびセグメントビルダーで、新しいセグメントの構成要素として使用できます。
+セグメントテンプレートは、**[!UICONTROL 初回訪問回数]**&#x200B;や&#x200B;**[!UICONTROL モバイルデバイスからの訪問回数]**&#x200B;など、一般的なセグメントのユースケースに対して提供されます。 Workspace プロジェクトとセグメントビルダーで、新しいセグメントの構成要素として使用できます。
 
 アドビのロゴ ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) で、テンプレートを識別します。 使用可能なテンプレートのサンプルを以下に示します。
 
