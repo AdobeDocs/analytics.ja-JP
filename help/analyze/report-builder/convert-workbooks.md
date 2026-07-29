@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # 従来のReport Builder ワークブックの変換
 
-Report Builderは、2026年6月に提供終了となります。 ブックを従来のReport Builderから新しいReport Builderに移行する必要があります。 新しいReport Builderでは、従来のReport Builderで作成したワークブックをすばやく移行できます。
+Report Builderは、2026年6月に提供終了となります。 ブックを従来のReport Builderから新しいReport Builderに移行します。 新しいReport Builderでは、従来のReport Builderで作成したワークブックを迅速に移行する便利な方法が提供されます。
 
 >[!IMPORTANT]
 >
->各ワークブックを複製し、レガシーワークブックを変換する前に1つのバージョンの名前を変更します。 これにより、必要に応じて、元のレガシーブックのコピーを常に保持できます。
+>各ワークブックを複製し、レガシーワークブックを変換する前に1つのバージョンの名前を変更します。 これにより、必要に応じて、常に元のレガシーブックのコピーを保持できます。
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +56,23 @@ Report Builderは、2026年6月に提供終了となります。 ブックを従
 
 * [Report Builder ハブ &#x200B;](report-builder-hub.md)の「**[!UICONTROL スケジュール]**」タブから、スケジュールされたレガシーブックを開きます。 このアクションは、スケジュールされたレガシーワークブックに適した方法です。 レガシーワークブックに関連付けられているスケジュールを使用するオプションは、[変換されたレガシーワークブックをスケジュール &#x200B;](#schedule-a-converted-legacy-workbook)するとすぐに使用できます。
 
-   1. [!DNL Excel]を開き、[!DNL Excel] リボン バーから![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;を選択します。
+  1. [!DNL Excel]を開き、[!DNL Excel] リボン バーから![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;を選択します。
 
-   1. 「**[!UICONTROL ログイン]**」を選択し、Report Builderにログインします。
+  1. 「**[!UICONTROL ログイン]**」を選択し、Report Builderにログインします。
 
-   1. [Report Builder ハブ &#x200B;](report-builder-hub.md)で「**[!UICONTROL スケジュール]**」を選択します。
-   1. 「**[!UICONTROL レガシー]**」タブを選択します。 このタブには、作成した従来のReport Builder ベースのスケジュールされたワークブックが一覧表示されます。
+  1. [Report Builder ハブ &#x200B;](report-builder-hub.md)で「**[!UICONTROL スケジュール]**」を選択します。
+  1. 「**[!UICONTROL レガシー]**」タブを選択します。 このタブには、作成した従来のReport Builder ベースのスケジュールされたワークブックが一覧表示されます。
 
-      ![&#x200B; レガシーワークフロー](assets/upgrade-legacy-schedule.png)
+     ![&#x200B; レガシーワークフロー](assets/upgrade-legacy-schedule.png)
 
-   1. リストから変換するスケジュール済みワークブックを![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。 ワークブックがダウンロードされ、[!DNL Excel]の新しいウィンドウで開きます。 従来のReport Builder ブックを[変換できるようになりました](#convert-a--workbook)。
+  1. リストから変換するスケジュール済みワークブックを![SelectBox](/help/assets/icons/SelectBox.svg)を選択し、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。 ワークブックがダウンロードされ、新しい[!DNL Excel] ウィンドウで開きます。 従来のReport Builder ブックを[変換できるようになりました](#convert-a--workbook)。
 
 
-* ローカルコンピューターまたはネットワークからレガシーブックを直接開きます。 この方法を使用する場合、従来のワークブックに関連付けられている可能性のあるスケジュールは使用できません。 <br/> レガシーブックが[!DNL Excel]で開いているとき：
+* ローカルコンピューターまたはネットワークからレガシーブックを直接開きます。 この方法を使用する場合、従来のワークブックに関連付けられているスケジュールは提供されません。 <br/> レガシーブックが[!DNL Excel]で開いているとき：
 
-   1. [!DNL Excel]のリボン バーから![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;を選択します。
-   1. 「**[!UICONTROL ログイン]**」を選択し、Report Builderにログインします。
-   1. 次に、[従来のワークブックを変換](#convert-a-workbook)します。
+  1. [!DNL Excel]のリボン バーから![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**&#x200B;を選択します。
+  1. 「**[!UICONTROL ログイン]**」を選択し、Report Builderにログインします。
+  1. 次に、[従来のワークブックを変換](#convert-a-workbook)します。
 
 
 ## レガシーワークブックの変換
@@ -116,17 +116,17 @@ Report Builder ハブの「**[!UICONTROL スケジュール]**」タブからダ
 1. 変換されたレガシーワークブックをレガシースケジュールでスケジュールするには：
 
    * Report Builder ハブから「**[!UICONTROL ブックを送信]**」を選択するか、または
-   * Report Builderの「**[!UICONTROL スケジュール]**」タブにある「**[!UICONTROL ワークブック]**」タブから「**[!UICONTROL ワークブックをスケジュール]**」を選択します。
+   * 「Report Builder **[!UICONTROL スケジュール]**」タブの「**[!UICONTROL ワークブック]**」タブから「**[!UICONTROL ワークブックをスケジュール]**」を選択します。
 
 1. 従来のワークブックのスケジュールの詳細をデフォルトのスケジュール設定として使用できます。
 
    [!DNL Excel] Report Builderの従来のスケジュール設定オプション ![&#128279;](assets/upgrade-legacy-schedule-convert.png)の スクリーンショット
 
    * **[!UICONTROL 使用]**&#x200B;を選択して、従来のスケジュールの詳細を使用します。 スケジュールの詳細は、[&#x200B; ワークブックを送信](schedule-reportbuilder.md#schedule-a-workbook) インターフェイスに事前入力されます。
-   * レガシースケジュールの詳細を使用しない場合は、**[!UICONTROL 使用しない]**&#x200B;を選択します。
+   * レガシースケジュールの詳細の使用を避けるには、**[!UICONTROL 使用しない]**&#x200B;を選択します。
    * 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
-   今後このワークブックにレガシースケジュールの詳細を使用しない場合は、**[!UICONTROL 今後の使用からレガシーメタデータを削除]**&#x200B;を選択します。
+   今後このブックにレガシースケジュールの詳細を使用しない場合は、**[!UICONTROL 今後の使用からレガシーメタデータを削除]**&#x200B;を選択します。
 
 
 ## 従来のReport Builderからの移行
@@ -141,24 +141,25 @@ Report Builder ハブの「**[!UICONTROL スケジュール]**」タブからダ
 
 * **スケジュール済みレポートの[!DNL Power BI]へのワークブックの公開** オプション。 レポートを[!DNL Power BI]にスケジュールするオプションは使用できなくなりました。
 
-* **訪問者指標**。 次の指標は、変換されたレガシーワークブック内の&#x200B;*ユニーク訪問者*&#x200B;に変換されます。ただし、レポート結果が`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`、および`visitorsyearly`と完全に一致しない場合があります。 この変換は、`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`および`mobilevisitorsyearly`にも適用されます。
+* **訪問者指標**。 次の指標は、変換されたレガシーワークブック内の&#x200B;*ユニーク訪問者*&#x200B;に変換されます。ただし、レポート結果が完全に一致するとは限りません：`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`、および`visitorsyearly`。 この変換は、`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`および`mobilevisitorsyearly`にも適用されます。
 
+* **粒度**: Report Builderには、従来のReport Builderのような粒度に対する特別なオプションはありません。 レポートに詳細レベルを適用するには、リクエストで日付ディメンションを使用します。
 * **自動再認証**。 新しい[!DNL Excel] ファイルを開く場合は、明示的に再認証する必要があります。 この再認証は、[!DNL Office Add-ins]機能のセキュリティ機能です。
 
 * **データブロックのグループを含むワークシートをコピー**。 複数のデータブロックを含むワークシートのコピーをサポートするには：
 
-   1. コピーする[!DNL Excel] ワークブックの「ワークシート」タブを選択します。
-   1. タブのコンテキストメニューから、**[!UICONTROL 移動またはコピー…]**&#x200B;を選択します
-   1. **[!UICONTROL 移動またはコピー]** ダイアログで、次の操作を行います。
-      1. コピー先のワークシートを選択します。
-      1. **[!UICONTROL コピーの作成]**&#x200B;を有効にしてください。
-      1. **[!UICONTROL OK]**&#x200B;を選択します。
-   1. ソースワークシートから：
-      1. すべてのデータブロックを含むセル範囲を選択します。
-      1. [Report Builder ハブ &#x200B;](/help/analyze/report-builder/report-builder-hub.md)から![&#x200B; コピー](/help/assets/icons/Copy.svg) **[!UICONTROL データブロック]**&#x200B;を選択します。
-   1. 宛先ワークシートで、次の操作を行います。
-      1. コピーしたセル範囲をペーストするセルを選択します。
-      1. [Report Builder ハブ &#x200B;](/help/analyze/report-builder/report-builder-hub.md)から「![貼り付け](/help/assets/icons/Paste.svg) **[!UICONTROL データブロックを貼り付け]**」を選択します。
+  1. コピーする[!DNL Excel] ワークブックの「ワークシート」タブを選択します。
+  1. タブのコンテキストメニューから、**[!UICONTROL 移動またはコピー…]**&#x200B;を選択します
+  1. **[!UICONTROL 移動またはコピー]** ダイアログで、次の操作を行います。
+     1. コピー先のワークシートを選択します。
+     1. **[!UICONTROL コピーの作成]**&#x200B;を有効にしてください。
+     1. **[!UICONTROL OK]**&#x200B;を選択します。
+  1. ソースワークシートから：
+     1. すべてのデータブロックを含むセル範囲を選択します。
+     1. [Report Builder ハブ &#x200B;](/help/analyze/report-builder/report-builder-hub.md)から![&#x200B; コピー](/help/assets/icons/Copy.svg) **[!UICONTROL データブロック]**&#x200B;を選択します。
+  1. 宛先ワークシートで、次の操作を行います。
+     1. コピーしたセル範囲をペーストするセルを選択します。
+     1. [Report Builder ハブ &#x200B;](/help/analyze/report-builder/report-builder-hub.md)から「![貼り付け](/help/assets/icons/Paste.svg) **[!UICONTROL データブロックを貼り付け]**」を選択します。
 
 * **日付範囲**。 Report Builderでは、以前のReport Builderの日付範囲の行ラベルに適用されている日付範囲の書式設定オプション **[!UICONTROL 開始期間と終了期間を]**&#x200B;として表示するオプションは移行されません。
 
