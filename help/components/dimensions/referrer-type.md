@@ -4,10 +4,18 @@ description: 訪問者がどこから来たかに応じたリファラーのタ�
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
 workflow-type: tm+mt
 source-wordcount: 502
@@ -17,7 +25,7 @@ ht-degree: 88%
 
 # リファラータイプ
 
-「リファラータイプ」 [ ディメンション ](overview.md)は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
