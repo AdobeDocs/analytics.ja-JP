@@ -54,7 +54,7 @@ Web SDKでは、[!UICONTROL Edge domain]を使用して、Tracking ServerとSecu
 
 ## Web SDKを手動で実装するEdge ドメイン
 
-[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -89,7 +89,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure` （または`edgeDomain`）に使用する値は、いくつかの要因によって異なります。
 
-* [Adobeが管理する証明書プログラム &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)への参加
+* [Adobeが管理する証明書プログラム &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)への参加
 * [Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が実装され、正しく設定されている場合
 
 **Adobeが管理する証明書プログラム**&#x200B;に参加している場合は、証明書の設定時に選択した1st パーティドメインに値を設定します。 通常、この値は組織が所有するサブドメインです。 例えば、`data.example.com` のように設定します。 組織内のCNAME レコードは、そのデータをAdobeにリダイレクトします。
@@ -114,8 +114,8 @@ Adobeでは、組織全体の一貫性を保つために、この情報を[&#x20
 
 Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
-* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)を参照してください。
-* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
+* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
+* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
 * 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Experience Platform ID サービスが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 
 **実装でECID**&#x200B;を使用しない場合は、実装に対する次の影響を考慮してください。
