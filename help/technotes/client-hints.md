@@ -5,20 +5,10 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1283
@@ -28,7 +18,7 @@ ht-degree: 78%
 
 # クライアントヒントの概要とよくある質問
 
-クライアントヒントは、ユーザーのデバイスに関する個々の情報です。 それらは、Google Chrome や Microsoft Edge などの Chromium ブラウザーによって提供されます。 これらのブラウザーでは、クライアントヒントは User-Agent をデバイス情報のソースとして徐々に置き換えます。 Adobe Analytics は、User-Agent に加えてクライアントヒントを使用してデバイス情報を決定するように、デバイス検索プロセスをアップデートします。
+クライアントヒントは、ユーザーのデバイスに関する個々の情報です。 それらは、Google Chrome や Microsoft Edge などの Chromium ブラウザーによって提供されます。 これらのブラウザーでは、クライアントヒントは User-Agent をデバイス情報のソースとして徐々に置き換えます。 Adobe Analytics は、User-Agent に加えてクライアントヒントを使用してデバイス情報を判別できるように、デバイス検索プロセスをアップデートします。
 
 ## 低エントロピーと高エントロピーのクライアントヒント
 
@@ -42,7 +32,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 クライアントヒントは、2023年3月2日（PT）にAnalytics デバイスのルックアッププロセスに組み込まれました。 この変更は、AppMeasurementとWeb SDKの両方の実装に適用されます。
 
-Adobe Audience Managerでは、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
+Adobe Audience Managerでは、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への[ サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
 
 ## よくある質問
 
@@ -88,13 +78,13 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 * 低エントロピーのヒントは、リクエストヘッダーで収集されます。
 * 高エントロピーのヒントは、JavaScript で収集され、クエリ文字列パラメーター値で渡されます。 クエリ文字列パラメーターは、画像リクエストで`h.`をプレフィックスとして使用します。 ブラウザーのメジャーバージョンが低いエントロピーヒントとしてキャプチャされるため、現在fullVersionListは収集されません。
 
-高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターで渡されます
+高エントロピーヒントは、JavaScript 呼び出しで収集され、クエリパラメーターを介して渡されます
 
 +++
 
 +++**Analytics のデバイスレポートに何か変更はありますか？**
 
-レポートに使用できるデバイスフィールドに変更はありません。 これらのフィールドに対して取り込まれるデータは、クライアントヒントの収集を設定するフィールドと方法によって異なる場合があります。
+レポートに使用できるデバイスフィールドに変更はありません。 これらのフィールドで取り込まれるデータは、どのフィールドでクライアントヒントの収集をどのように設定しているかによって変わる場合があります。
 
 +++
 
@@ -118,7 +108,7 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++**Analytics はどのような方法でユーザーエージェントに依存しますか？**
 
-レポートのデバイス情報は、ユーザーエージェントから派生されます。 ユーザーエージェントとクライアントヒントの両方が使用できる場合に、その両方を使用するようにプロセスを更新しました。
+レポートのデバイス情報は、User-Agent から派生されます。 User-Agent と client hints の両方が使用できる場合に、その両方を使用するようにプロセスを更新しました。
 
 フォールバック ID（[s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=ja)）は、ユーザーエージェントおよび IP アドレスから派生されます。 この ID は、cookie を設定できない場合にのみ使用されるので、一般的には使用されていません
 
@@ -126,7 +116,7 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++**高エントロピーのヒントに格納された値から派生する Analytics レポートフィールドはどれですか？**
 
-これは、User-Agent のうち Google によって「凍結」される部分が増えるにつれて、徐々に変化します。 最初に直接影響を受けるフィールドは、オペレーティングシステムのバージョンが含まれる「Operating System」です。User-Agent ヒントの「凍結」に関する Google の公開タイムラインによれば、2022年10月下旬から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、 User-Agent のオペレーティングシステムバージョンが不正確になる場合があります。
+これは、User-Agent のうち Google によって「凍結」される部分が増えるにつれて、徐々に変更されます。 最初に直接影響を受けるフィールドは、オペレーティングシステムのバージョンが含まれる「Operating System」です。User-Agent ヒントの「凍結」に関する Google の公開タイムラインによれば、2022年10月下旬から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、 User-Agent のオペレーティングシステムバージョンが不正確になる場合があります。
 
 User-Agent の他の部分がフリーズするタイミングについては、[Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。
 
@@ -170,7 +160,7 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++**Adobe Audience Manager サーバーサイド転送はクライアントヒントをサポートしますか？** 
 
-はい。 クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 Adobe Audience Managerでは、完全な機能を保持するために、高エントロピーヒントを収集する必要があります。 Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
+はい。 クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 Adobe Audience Managerでは、完全な機能を保持するために、高エントロピーヒントを収集する必要があります。 Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への[ サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
 
 +++
 
