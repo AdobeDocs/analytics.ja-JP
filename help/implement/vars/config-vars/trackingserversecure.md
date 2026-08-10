@@ -29,7 +29,7 @@ ht-degree: 15%
 
 # trackingServerSecure
 
-`trackingServerSecure`変数は、AppMeasurementがHTTPS経由でAdobeにデータを送信するために使用するドメインを決定します。 この変数が正しく定義されていないと、実装でデータが失われる可能性があります。
+`trackingServerSecure`変数は、AppMeasurementがHTTPS経由でAdobeにデータを送信するために使用するドメインを決定します。 この変数が正しく定義されていないと、実装でデータ損失が発生する可能性があります。
 
 >[!NOTE]
 >
