@@ -6,11 +6,19 @@ feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 TQID: https://experienceleague.adobe.com/yeU4gugMR2nSKwjo4LuX79spXIaD4UtuaTQ52bZwGrU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 676
@@ -24,14 +32,14 @@ ht-degree: 21%
 
 アイテムをスプレッドシートにマッピングする前に、スプレッドシートが保護されていないことを確認してください。 ワークシートの保護スキームによってユーザーのアクションが防止されている場合、スプレッドシートでセルを選択することはできません。 まず、シートの保護を解除してから、セルマッピングを追加します。
 
-マップする領域とセルの数は、選択した指標、粒度、日付範囲、設定したフィルターによって異なります。 例えば、[!UICONTROL  サイト指標] > [!UICONTROL  トラフィックレポート ]を選択し、[!UICONTROL 週]の精度を設定し、[!UICONTROL 過去2週間]の日付範囲を設定すると、[!UICONTROL  リクエストウィザードで3つのセル（[!UICONTROL  カスタムレイアウト ]を使用する場合）をマッピングするよう求められます。手順2]。 リクエストは、週1のデータと週2のデータを取得します。各データポイントの値はページビューの値に等しくなります。 3番目のセルは行見出しとして機能し、[!UICONTROL 書式オプション ]を使用して設定できます。
+マップする領域とセルの数は、選択した指標、粒度、日付範囲、設定したフィルターによって異なります。 例えば、[!UICONTROL &#x200B; サイト指標] > [!UICONTROL &#x200B; トラフィックレポート &#x200B;]を選択し、[!UICONTROL 週]の精度を設定し、[!UICONTROL 過去2週間]の日付範囲を設定すると、[!UICONTROL &#x200B; リクエストウィザードで3つのセル（[!UICONTROL &#x200B; カスタムレイアウト &#x200B;]を使用する場合）をマッピングするよう求められます。手順2]。 リクエストは、週1のデータと週2のデータを取得します。各データポイントの値はページビューの値に等しくなります。 3番目のセルは行見出しとして機能し、[!UICONTROL 書式オプション &#x200B;]を使用して設定できます。
 
 スプレッドシート上の互換性のない場所を誤ってマッピングすると、Report Builderでエラーが発生します。
 
 詳しくは、次の節を参照してください。
 
-* [セルの範囲の選択 ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [セル選択のテクニック ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [セルの範囲の選択 &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [セル選択のテクニック &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [マッピング時の問題](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## セルの範囲を選択 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
@@ -40,7 +48,7 @@ ht-degree: 21%
 
 マップするアイテムの横にある&#x200B;**[!UICONTROL 範囲セレクター]** ![select_cell_icon.png](assets/select_cell_icon.png)をクリックします。
 
-* **範囲内のすべてのセル：**[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
+* **範囲内のすべてのセル：**&#x200B;[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
 * **範囲の最初のセル：**&#x200B;範囲の左上にあたるセルを選択します。その後、「[!UICONTROL 範囲の方向]」が表示されるので、そこで入力セルと出力セル（列または行）について、縦方向または横方向を指定します。 Report Builderでセルを選択するには、このオプションを使用します。
 * **範囲の方向：**&#x200B;列または行としてセル範囲の方向を指定します。
 * **範囲の先頭のセルを選択：**&#x200B;セル参照を表示します。
@@ -61,7 +69,7 @@ ht-degree: 21%
 
 ![](assets/map4.png)
 
-セルを選択したら、[!UICONTROL 範囲選択] フォームの&#x200B;**[!UICONTROL 範囲セレクター]**&#x200B;をもう一度クリックして、[!UICONTROL  リクエストウィザードに戻ります。手順2]。
+セルを選択したら、[!UICONTROL 範囲選択] フォームの&#x200B;**[!UICONTROL 範囲セレクター]**&#x200B;をもう一度クリックして、[!UICONTROL &#x200B; リクエストウィザードに戻ります。手順2]。
 
 ## マッピングの問題のトラブルシューティング{#section_CC1BCF841291447EB3A994EB08F3A099}
 
@@ -76,6 +84,6 @@ ht-degree: 21%
 
 リクエストが埋め込まれた領域をテストするには、次の操作を行います。
 
-* [!UICONTROL  リクエストマネージャー]を起動し、テーブルに記載されている個々のリクエストをクリックします。 リクエストをクリックすると、リクエストがマッピングされているスプレッドシートのセルがハイライト表示されます。
-* 新しいマッピングに使用するスプレッドシートでセルを選択し、[!UICONTROL  シートから]をクリックします。 [!UICONTROL 要求マネージャー]は、選択したセルと交差する出力項目を持つリスト内の要求を選択します。 リクエストが選択されていない場合は、セルを使用できます。
-* スプレッドシートでセルを選択し、コンテキストメニューで右クリックして、[!UICONTROL  リクエストを編集]できるかどうかを確認します。 その場合、これらのセルに関連付けられたリクエストがあります。
+* [!UICONTROL &#x200B; リクエストマネージャー]を起動し、テーブルに記載されている個々のリクエストをクリックします。 リクエストをクリックすると、リクエストがマッピングされているスプレッドシートのセルがハイライト表示されます。
+* 新しいマッピングに使用するスプレッドシートでセルを選択し、[!UICONTROL &#x200B; シートから]をクリックします。 [!UICONTROL 要求マネージャー]は、選択したセルと交差する出力項目を持つリスト内の要求を選択します。 リクエストが選択されていない場合は、セルを使用できます。
+* スプレッドシートでセルを選択し、コンテキストメニューで右クリックして、[!UICONTROL &#x200B; リクエストを編集]できるかどうかを確認します。 その場合、これらのセルに関連付けられたリクエストがあります。

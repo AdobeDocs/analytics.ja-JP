@@ -4,7 +4,8 @@ title: トラフィック増加に対して必要なリードタイム
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 328

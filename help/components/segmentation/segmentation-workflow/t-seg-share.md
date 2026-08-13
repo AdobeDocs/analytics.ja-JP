@@ -4,10 +4,15 @@ title: セグメントを共有
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 TQID: https://experienceleague.adobe.com/6NHInvDefCx7jcszRiGERN2FadCAC3QIUqgCw9pnoII
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 431
@@ -53,7 +58,7 @@ ht-degree: 41%
 
 ここでは、セグメントを共有する必要がある場合と、セグメントを共有する必要があるユーザーについて、いくつかのベストプラクティスを紹介します。
 
-* 管理者は、組織内の誰もがセグメントを使いやすいと確信している場合にのみ、すべてのユーザーとセグメントを共有します。 また、これらのセグメントに対する好みを考慮することもできます。 詳しくは、[ セグメントをお気に入りにマーク ](t-seg-favorite.md)するを参照してください。
+* 管理者は、組織内の誰もがセグメントを使いやすいと確信している場合にのみ、すべてのユーザーとセグメントを共有します。 また、これらのセグメントに対する好みを考慮することもできます。 詳しくは、[&#x200B; セグメントをお気に入りにマーク &#x200B;](t-seg-favorite.md)するを参照してください。
 
 * 管理者は、特定のセグメントがそのセグメントのユーザー部分にビジネス価値を提供する場合、そのセグメントを特定のグループと共有します。
 

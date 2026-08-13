@@ -5,11 +5,23 @@ feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -56,7 +68,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 1. メイン画面には、Adobe Analytics環境の包括的なインベントリが表示されます。
 
-   ![ メインの在庫画面](assets/an_inventory.png)
+   ![&#x200B; メインの在庫画面](assets/an_inventory.png)
 
    具体的には、次の画面が表示されます。
 
@@ -109,7 +121,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 1. レポートスイートを分析するには、**[!UICONTROL データ設定とコレクション]**/**[!UICONTROL レポートスイート]**&#x200B;に移動し、**[!UICONTROL 分析]**&#x200B;をクリックします。
 
-   ![ レポートスイートのリスト ](assets/an_inv_rs.png)
+   ![&#x200B; レポートスイートのリスト &#x200B;](assets/an_inv_rs.png)
 
    | 要素 | 説明 |
    | --- | --- |
@@ -119,9 +131,9 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | 指標 | このレポートスイートで定義されている指標の数 |
    | ディメンション | このレポートスイートで定義されるディメンションの数は？ |
    | Analytics for Target (A4T) は有効になっています | [ デフォルトで非表示]このレポートスイートは[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)で有効になっていますか？ |
-   | マーケティングチャネルは有効になっています | [ デフォルトで非表示]このレポートスイートは[ マーケティングチャネル ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に対して有効になっていますか？ |
-   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの[Adobe Analytics Source コネクタでレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source コネクタを使用してCustomer Journey Analyticsに移行できますか？ |
-   | カレンダータイプ | [ デフォルトで非表示]詳しくは、[ カスタムカレンダー](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)を参照してください |
+   | マーケティングチャネルは有効になっています | [ デフォルトで非表示]このレポートスイートは[&#x200B; マーケティングチャネル &#x200B;](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に対して有効になっていますか？ |
+   | ソースコネクタは有効になっています | このレポートスイートは、Adobe Experience Platformの[Adobe Analytics Source コネクタでレポートスイートデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対して有効になっていますか？ つまり、このレポートスイートは、Analytics Source コネクタを使用してCustomer Journey Analyticsに移行できますか？ |
+   | カレンダータイプ | [ デフォルトで非表示]詳しくは、[&#x200B; カスタムカレンダー](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md)を参照してください |
 
 #### ディメンションの分析
 
@@ -138,7 +150,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | ディメンション ID。 |
    | タイプ | ディメンションのタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対する[Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | このディメンションは、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、このディメンションをCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のあるディメンションを決定します。
 
@@ -159,7 +171,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
    | ID | 指標ID。 |
    | タイプ | 指標のタイプ。 使用可能な値には、コンバージョン、トラフィック、ナビゲーション、トラフィックソース、お客様、日付、またはAEM、Audience、Adobe Campaign、モバイルアプリなどのAdobe製品固有のディメンションが含まれます。 |
    | 説明 | すべてのディメンションに説明があるわけではありません。 |
-   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対する[Adobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
+   | ソースコネクタは有効になっています | この指標は、Adobe Experience Platformのレポートスイートデータ [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/adobe-applications/analytics)に対するAdobe Analytics Source コネクタに対して有効になっていますか？ つまり、Analytics Source コネクタを使用して、この指標をCustomer Journey Analyticsに移行できますか？ |
 
 1. CJAに移行する際に意味のある指標を決定します。
 
@@ -198,7 +210,7 @@ Analytics Inventoryは、[Adobe Admin Console](/help/admin/admin-console/admin-r
 
 ## コンポーネントの移行
 
-[ コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)を使用すると、Adobe Analytics管理者はAnalytics プロジェクトおよび関連するコンポーネントをCustomer Journey Analyticsに移行できます。
+[&#x200B; コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)を使用すると、Adobe Analytics管理者はAnalytics プロジェクトおよび関連するコンポーネントをCustomer Journey Analyticsに移行できます。
 
 移行プロセスには、次が含まれます。
 

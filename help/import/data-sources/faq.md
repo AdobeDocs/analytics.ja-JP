@@ -5,11 +5,19 @@ exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 430
@@ -22,7 +30,7 @@ ht-degree: 3%
 データソースに関するよくある質問。
 
 +++データソースの使用コスト？
-データソースには料金は発生せず、サーバーコールの使用にカウントされません。 [完全な処理データソース ](full-processing-eol.md)は、退職前にサーバーコールにカウントされました。
+データソースには料金は発生せず、サーバーコールの使用にカウントされません。 [完全な処理データソース &#x200B;](full-processing-eol.md)は、退職前にサーバーコールにカウントされました。
 +++
 
 +++データソースは、eVarのアトリビューションと有効期限にどのような影響を与えますか？
@@ -30,19 +38,19 @@ ht-degree: 3%
 +++
 
 +++データソースは、ページビュー数、訪問数、実訪問者数などの指標にどのような影響を与えますか？
-データソースを通じてアップロードされたデータは、[ ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[ ユニーク訪問者](/help/components/metrics/unique-visitors.md)には影響しません。 影響を与えるデフォルトの指標は[発生回数](/help/components/metrics/occurrences.md)のみです。
+データソースを通じてアップロードされたデータは、[&#x200B; ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[&#x200B; ユニーク訪問者](/help/components/metrics/unique-visitors.md)には影響しません。 影響を与えるデフォルトの指標は[発生回数](/help/components/metrics/occurrences.md)のみです。
 +++
 
 +++データソースを通じてアップロードされたデータは、処理ルールなどの追加の処理を通じて処理されますか？
 いいえ。 データソースを通じてアップロードされたデータ：
 
-* [処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を通過しません
-* [ マーケティングチャネル処理ルール ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を通過しません
-* [VISTA ルール ](/help/technotes/vista.md)を実行しません
+* [処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を通過しません
+* [&#x200B; マーケティングチャネル処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を通過しません
+* [VISTA ルール &#x200B;](/help/technotes/vista.md)を実行しません
 +++
 
 +++データソースを使用してインポートされたデータを削除できますか？
-はい。 このデータは、[ データ修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)を使用して削除できます。 Adobeでは、データを削除する必要性を減らすために、データソースデータをテストレポートスイートにアップロードしてから、実稼動レポートスイートにアップロードすることを強くお勧めします。
+はい。 このデータは、[&#x200B; データ修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)を使用して削除できます。 Adobeでは、データを削除する必要性を減らすために、データソースデータをテストレポートスイートにアップロードしてから、実稼動レポートスイートにアップロードすることを強くお勧めします。
 +++
 
 +++一度にどれだけのデータを読み込むことができますか？
@@ -58,9 +66,9 @@ ht-degree: 3%
 +++
 
 +++データソースファイルに追加できる列の数は？
-すべての列が有効な場合は、必要な数の列をデータソースファイルに含めることができます。 有効な変数名/列名のリストについては、[ ファイル形式](file-format.md)を参照してください。
+すべての列が有効な場合は、必要な数の列をデータソースファイルに含めることができます。 有効な変数名/列名のリストについては、[&#x200B; ファイル形式](file-format.md)を参照してください。
 +++
 
 +++Adobeが提供するFTPの場所を使用せずにデータソースを使用できますか？
-[ データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)を使用すると、API呼び出しをAdobeに直接送信できます。 これらのAPI呼び出しには`UploadData` メソッドが含まれており、JSON オブジェクトペイロードでデータを送信できます。
+[&#x200B; データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)を使用すると、API呼び出しをAdobeに直接送信できます。 これらのAPI呼び出しには`UploadData` メソッドが含まれており、JSON オブジェクトペイロードでデータを送信できます。
 +++

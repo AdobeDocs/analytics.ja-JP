@@ -5,11 +5,20 @@ exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/AOl1PUYf4TL0FrYB8eHL-JLiWvz6ixJYKUPpIZEFqj8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 327
@@ -33,8 +42,8 @@ Adobeには、一般にふたつの種類のデータソースがあります。
 
 **フル処理データソース**&#x200B;は、2021年3月25日をもってデータソースタイプとして提供されなくなりました。 詳しくは、[提供終了のお知らせ](full-processing-eol.md)を参照してください。
 
-Adobeでは、[ データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)も提供しています。これにより、商品UIやFTPの場所を使用せずにデータソースを作成し、データをアップロードできます。
+Adobeでは、[&#x200B; データソース API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)も提供しています。これにより、商品UIやFTPの場所を使用せずにデータソースを作成し、データをアップロードできます。
 
 ## 次の手順
 
-[ データソースの概要](getting-started.md)：開発レポートスイートにシンプルなデータソースをアップロードします。
+[&#x200B; データソースの概要](getting-started.md)：開発レポートスイートにシンプルなデータソースをアップロードします。
