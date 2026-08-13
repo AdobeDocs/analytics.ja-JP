@@ -4,19 +4,11 @@ description: 分類の使用に関するよくある質問（FAQ）です。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 TQID: https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 420
@@ -30,7 +22,7 @@ ht-degree: 86%
 
 分類インポーターの使用に関するよくある質問です。
 
-## ディメンション項目「0」の分類方法を教えてください。
+## ディメンション項目「0」をどのように分類すればよいですか。
 
 キー値または分類値がゼロ（`0`）の分類ファイルをアップロードすると、エラーが発生します。 ゼロのみを含むすべての値（`00`、 `000`など）が含まれます。 この問題を解決する方法はいくつかあります。
 
@@ -46,7 +38,7 @@ ht-degree: 86%
 
 できます。*ただし、その場合、各ディメンション項目は課金対象のサーバー呼び出しとしてカウントされます。*
 
-* 既に存在するディメンション項目には、特別な費用は発生しません。
+* 既に存在するディメンション項目には、追加のコストは発生しません。
 * 分類ルールビルダーを使用しても存在しない項目は分類されないので、追加のコストは発生しません。
 
 ## 特殊文字を含む値を分類する方法を教えてください。

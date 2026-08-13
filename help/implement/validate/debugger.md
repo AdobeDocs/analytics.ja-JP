@@ -5,19 +5,10 @@ feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 681
@@ -29,15 +20,15 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->このデバッグツールはメンテナンスされなくなりました。 Adobeでは、代わりに[Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用することをお勧めします。
+>このデバッグツールは、既にメンテナンスが終了しています。 Adobeでは、代わりに[Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用することをお勧めします。
 
-[!UICONTROL Legacy Debugger]は、ほとんどのAdobe CX Enterprise サービスのタグを検査します。 デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。 この情報を使用して、組織の導入のトラブルシューティングや検証をおこなうことができます。
+[!UICONTROL Legacy Debugger]は、ほとんどのAdobe CX Enterprise サービスのタグを検査します。 デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。 この情報を使用して、組織の実装のトラブルシューティングや検証をおこなうことができます。
 
 ## レガシーデバッガーのインストール
 
 JavaScript ブックマークレットを作成してデバッガーをインストールします。
 
-### 手順 1：ブックマークレットコードのコピー
+### 手順 1：ブックマークレットコードをコピー
 
 次のコードをクリップボードにコピーします。
 
@@ -45,9 +36,9 @@ JavaScript ブックマークレットを作成してデバッガーをインス
 javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
 ```
 
-### 手順 2：ブックマークレットコードのブックマークへの貼り付け
+### 手順 2：ブックマークレットコードをブックマークに貼り付ける
 
-ブックマークの処理方法はブラウザーごとに異なりますが、概念は同じです。 ブックマークは、目的の名前と URL としてブックマークレットコードを使用して作成されます。
+ブックマークの処理方法はブラウザーごとに異なりますが、概念は同じです。 ブックマークは、目的の名前を付け、URL にブックマークレットコードを指定して作成します。
 
 #### Chrome
 
@@ -81,7 +72,7 @@ Safari ではブックマークレットを手動で作成することはでき�
 
 1. 右上の共有アイコンをクリックすると、ブックマークモーダルウィンドウが開きます。
 2. ブックマークに「従来のデバッガー」という名前を付け、目的の場所に保存します。
-3. ブックマーク／ブックマークの編集をクリックし、新しく作成したブックマークを見つけます。
+3. ブックマーク／ブックマークを編集をクリックし、新しく作成したブックマークを見つけます。
 4. 右クリックして、「アドレスを編集」を選択し、コードスニペットをテキストフィールドに貼り付けます。
 
 ## レガシーデバッガーの使用
@@ -96,7 +87,7 @@ Safari ではブックマークレットを手動で作成することはでき�
 
 * **[!UICONTROL 表示されたExperience Cloud製品]**：各CX Enterprise製品のイメージリクエストを表示または非表示にします。
 * **[!UICONTROL URL デコード]**: URLは、レポートに表示される内容に一致するように画像リクエストをデコードします。 このチェックボックスはオンのままにすることをお勧めします。
-* **[!UICONTROL 自動更新]**：数秒ごとにポップアップを自動的に更新して、ページ上のその他の画像リクエストを確認します。 デバッガーでコンテンツをコピー／ペーストする必要がある場合は、自動更新を無効にして、選択を維持します。
+* **[!UICONTROL 自動更新]**：数秒ごとにポップアップを自動的に更新して、ページ上のその他の画像リクエストを確認します。 デバッガーでコンテンツをコピー＆ペーストする必要がある場合は、自動更新を無効にして、選択内容を保持できるようにします。
 * **[!UICONTROL わかりやすい形式]**：画像リクエスト内の役に立つラベルと生のクエリ文字列の表示形式を切り替えます。 詳しくは、[データ収集クエリーのパラメーター](query-parameters.md)を参照してください。
 
 デバッガーのデフォルトの表示オプションを保存するには、右上隅の「Adobe Debugger」リンクを右クリックし、リンクアドレスをコピーします。 現在のデバッガーのブックマークレットを編集し、更新したコードスニペットを「URL」フィールドに貼り付けます。

@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/f2r9jWtF5HgCP6jUKg3YnLFxNwx1DiUBI-2Nquy5-K0'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
 source-wordcount: 304
@@ -65,7 +57,7 @@ s.timestamp = new Date().toISOString();
 
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。
-* 曜日と年間通算日はサポートされません。
+* 週日付と通し日付はサポートされません。
 * 日付は標準形式と拡張形式のどちらでも指定できます。 例えば、`2026-01-01T00:00:00Z` と `20260101T000000Z` は両方とも有効です。
 * 分数と秒は技術的に有効ですが、分数は無視されます。 Adobe Analyticsは、2番目の精度でのみタイムスタンプをサポートします。 ミリ秒レベルの精度が企業にとって優先事項である場合は、Customer Journey Analyticsの利用を検討してください。
 * タイムゾーンは、標準形式と拡張形式でサポートされています。

@@ -4,21 +4,11 @@ description: このガイドでは、特定の分析ツールやコンポーネ�
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
 TQID: https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
 source-wordcount: 440
@@ -32,13 +22,13 @@ ht-degree: 97%
 
 Adobe Analytics は、企業がデジタルマーケティング活動を測定、分析、最適化できるようにする web 分析ソリューションです。 これは、web サイトとモバイルアプリのパフォーマンス、顧客の行動、マーケティングキャンペーンの効果に関するリアルタイムのインサイトを提供するクラウドベースのプラットフォームです。
 
-プラットフォームは、web やモバイルアプリのデータ、サードパーティのデータ、オフラインデータ、CRM データなど、様々なデータソースを使用して、複数のチャネルにわたる顧客インタラクションの完全なビューを提供します。 Adobe Analytics は、企業がデータに基づいた意思決定を行い、デジタル変換を推進できる様々な機能を備えています。
+プラットフォームは、web やモバイルアプリのデータ、サードパーティのデータ、オフラインデータ、CRM データなど、様々なデータソースを使用して、複数のチャネルにわたる顧客インタラクションの完全なビューを提供します。 Adobe Analytics は、企業がデータドリブンな意思決定を行い、デジタルトランスフォーメーションを推進できるようにする、様々な機能を備えています。
 
 Adobe Analytics の主な機能には、次のものが含まれます。
 
 * リアルタイムデータ：Adobe Analytics は、顧客の行動に関するリアルタイムのインサイトを提供し、企業が顧客の好みやマーケットトレンドの変化に迅速に対応できるようにします。
 
-* セグメント：プラットフォームを使用すると、企業は人口統計、行動、場所、その他の要因によって顧客ベースをセグメント化できるので、機会を特定し、パーソナライズされたマーケティングキャンペーンを用いて特定の顧客グループをターゲットにすることが容易になります。
+* セグメント：プラットフォームを使用すると、企業は人口統計、行動、場所、その他の要因によって顧客ベースをセグメント化できるため、機会を特定し、パーソナライズされたマーケティングキャンペーンで特定の顧客グループをターゲティングしやすくなります。
 
 * データのビジュアライゼーション：Adobe Analytics は、様々なデータ視覚化ツールを備えています。最も顕著なのは、Analysis Workspace および Analytics ダッシュボードのチャートとグラフです。これらのツールを使用すると、複雑なデータセットを簡単に解釈し、トレンドを特定できます。
 
@@ -46,9 +36,9 @@ Adobe Analytics の主な機能には、次のものが含まれます。
 
 * アトリビューション：Adobe Analytics には、企業が様々なチャネルやタッチポイントでのマーケティングキャンペーンの影響を理解するのに役立つアトリビューションモデリングツールが含まれており、マーケティング費用を最適化し、ROI を向上させることができます。
 
-* レポート：プラットフォームは、予定レポート、アドホックレポート、カスタマイズ可能なダッシュボードなど、様々なレポートオプションを備えています。これにより、企業は関係者とインサイトを共有し、データに基づく意思決定で共同作業できます。
+* レポート：プラットフォームは、スケジュールレポート、アドホックレポート、カスタマイズ可能なダッシュボードなど、様々なレポートオプションを備えています。これにより、企業は関係者とインサイトを共有し、データドリブンな意思決定で共同作業できます。
 
-要約すると、Adobe Analytics は、企業がデジタルマーケティング活動を測定、分析、最適化するために必要なツールを備えた、強力な web 分析ソリューションです。 リアルタイムデータ、高度な分析、アトリビューションモデリングにより、企業はデジタル変換を推進し、ROI を向上させるデータに基づく意思決定を行うことができます。
+要約すると、Adobe Analytics は、企業がデジタルマーケティング活動を測定、分析、最適化するために必要なツールを備えた、強力な web 分析ソリューションです。 リアルタイムデータ、高度な分析、アトリビューションモデリングにより、企業はデジタルトランスフォーメーションを推進し、ROI を向上させるデータドリブンな意思決定を行うことができます。
 
 ## その他の Analytics ユーザーガイド
 
@@ -56,7 +46,7 @@ Adobe Analytics の主な機能には、次のものが含まれます。
 
 ## その他の Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

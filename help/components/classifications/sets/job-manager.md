@@ -4,17 +4,10 @@ description: 分類セットから生成された現在および完了した分�
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
 source-wordcount: 781
@@ -49,14 +42,14 @@ ht-degree: 4%
 | **[!UICONTROL ジョブ ID]** | 分類ジョブの識別子。 |
 | **[!UICONTROL 分類セット]** | 分類ジョブに関連付けられている分類セット。 |
 | **[!UICONTROL サイズ]** | 分類ジョブの一部としてエクスポートまたはインポートされたファイルのサイズ。 |
-| **[!UICONTROL ステータス]** | 分類ジョブのステータス。 可能な値は、**[!UICONTROL 作成済み]**、**[!UICONTROL キュー]**、**[!UICONTROL 検証済み]**、**[!UICONTROL 検証失敗]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理失敗]**、**[!UICONTROL 完了]**、または&#x200B;**[!UICONTROL 進行状況]**&#x200B;です。 表示されている場合は、アラート ![&#x200B; アラート &#x200B;](/help/assets/icons/Alert.svg)にカーソルを合わせると、追加情報が表示されます。 |
-| **[!UICONTROL ファイル名]** | 分類ジョブの一部として、ファイルの読み込みまたは書き出しに使用する名前または機能を識別します。 使用可能な値： <ul><li>*値なし*</li><li>分類ジョブの一部として処理されるファイルの名前。</li><li>**[!UICONTROL SAINT エクスポート]**: ジョブは[従来の分類インターフェイス &#x200B;](/help/components/classifications/importer/c-working-with-saint.md)からのエクスポートです。</li><li>_タイムスタンプ&#x200B;_&#x200B;**の_分類セット _の**&#x200B;書き出し：ジョブは[&#x200B; スキーマ &#x200B;](manage/schema.md#download) インターフェイスからのダウンロードです。</li></ul> |
+| **[!UICONTROL ステータス]** | 分類ジョブのステータス。 可能な値は、**[!UICONTROL 作成済み]**、**[!UICONTROL キュー]**、**[!UICONTROL 検証済み]**、**[!UICONTROL 検証失敗]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理中]**、**[!UICONTROL 処理失敗]**、**[!UICONTROL 完了]**、または&#x200B;**[!UICONTROL 進行状況]**&#x200B;です。 表示されている場合は、アラート ![ アラート ](/help/assets/icons/Alert.svg)にカーソルを合わせると、追加情報が表示されます。 |
+| **[!UICONTROL ファイル名]** | 分類ジョブの一部として、ファイルの読み込みまたは書き出しに使用する名前または機能を識別します。 使用可能な値： <ul><li>*値なし*</li><li>分類ジョブの一部として処理されるファイルの名前。</li><li>**[!UICONTROL SAINT エクスポート]**: ジョブは[従来の分類インターフェイス ](/help/components/classifications/importer/c-working-with-saint.md)からのエクスポートです。</li><li>_タイムスタンプ&#x200B;_]**の_分類セット _の**[!UICONTROL 書き出し：ジョブは[ スキーマ ](manage/schema.md#download) インターフェイスからのダウンロードです。</li></ul> |
 | **[!UICONTROL ジョブの種類]** | 分類ジョブのタイプ。 使用可能な値は、**[!UICONTROL Import]**&#x200B;または&#x200B;**[!UICONTROL Export]**&#x200B;です。 |
-| **[!UICONTROL ソース]** | 分類ジョブのソース。 使用可能なソースについて詳しくは、[&#x200B; フィルターパネル &#x200B;](#filter-panel)を参照してください。 |
+| **[!UICONTROL ソース]** | 分類ジョブのソース。 使用可能なソースについて詳しくは、[ フィルターパネル ](#filter-panel)を参照してください。 |
 | **[!UICONTROL 変更行]** | 分類ジョブが変更した変更済み行の数。 |
 | **[!UICONTROL 合計行]** | 分類ジョブが処理した合計行数。 |
 | **[!UICONTROL 完了時間]** | 分類ジョブの完了時間。 |
-| **[!UICONTROL ファイルのダウンロード]** | ![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を使用して、分類ジョブに関連付けられているファイル（テンプレートまたはデータ）をダウンロードします。 |
+| **[!UICONTROL ファイルのダウンロード]** | ![ ダウンロード ](/help/assets/icons/Download.svg)を使用して、分類ジョブに関連付けられているファイル（テンプレートまたはデータ）をダウンロードします。 |
 
 分類ジョブリストの列のサイズを変更するには、次の操作を行います。
 
@@ -81,7 +74,7 @@ ht-degree: 4%
 
 ### フィルターパネル
 
-![&#x200B; フィルター](/help/assets/icons/Filter.svg)を選択すると、分類ジョブリストをフィルターできるフィルターパネル ➌が表示されます。 次の条件でフィルタリングできます。
+![ フィルター](/help/assets/icons/Filter.svg)を選択すると、分類ジョブリストをフィルターできるフィルターパネル ➌が表示されます。 次の条件でフィルタリングできます。
 
 * **[!UICONTROL 分類セット]**。 分類ジョブリストをフィルタリングするには、1つ以上の分類セットを選択します。
 * **[!UICONTROL 完了時間]**。 使用可能な値の1つを選択して、完了時間に分類ジョブ リストをフィルタリングします。
@@ -105,6 +98,6 @@ ht-degree: 4%
   | **[!UICONTROL 不明]** | ソースが不明なジョブ。 |
 
 
-「![&#x200B; フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルターを非表示]**」を選択して、フィルターパネルを非表示にします。
+「![ フィルター](/help/assets/icons/Filter.svg) **[!UICONTROL フィルターを非表示]**」を選択して、フィルターパネルを非表示にします。
 
 フィルターパネルに表示されるフィルターは、プリロードされた分類ジョブのオプションを反映しています。

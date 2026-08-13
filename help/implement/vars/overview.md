@@ -6,19 +6,11 @@ feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Jyw64eX30vu3tLyimiM5A-t9aTqkAZE0wrsd4i0BCmc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 417
@@ -28,15 +20,15 @@ ht-degree: 100%
 
 # 変数、関数、メソッド、プラグインの概要
 
-Analytics には、Analytics データを収集するための変数が多数用意されています。 この節の変数は、いくつかに分かれています。
+Analytics には、Analytics データを収集するための変数が多数用意されています。 このセクションの変数は、いくつかのセクションに分割されています。
 
 * **ページ変数**&#x200B;は、通常、レポートで直接使用される値です。 一般的なページ変数には、`props`、`eVars`、`events` が含まれます。
-* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。 一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。 通常、設定変数はディメンション項目を設定しません。
+* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。 一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。 通常、コンフィグ変数によってディメンション項目が入力されることはありません。
 * **関数とメソッド**&#x200B;は、参照時に特定のタスクを実行するコードの一部です。 一般的な関数には、`t()`、`tl()`、`clearVars()` があります。
 
-## 変数と実装メソッド
+## 変数と実装方法
 
-Adobe Analytics は様々な方法で実装できます。 各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用した変数の実装方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。 各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用して変数を実装する方法に関するセクションがあります。
 
 
 >[!BEGINSHADEBOX]

@@ -6,18 +6,11 @@ exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
 role: Developer
 autotag-review: '2026-05-22T08:06:40.936Z'
 TQID: 'https://experienceleague.adobe.com/M0MNFZRcHpPwxL-ZtTky67DHDr1A0fL-peaGKicXgIM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 373
@@ -35,7 +28,7 @@ Adobe Analytics は、通常、ページの再読み込みに依存して、Anal
 
 ## インタラクションとヒットタイプの決定
 
-通常、AJAX を使用するページは再読み込みされないので、ユーザーがサイトでおこなう操作は複数あります。 Adobe Analytics を実装する場合は、ページビュー数とリンクトラッキングコールとを必ず区別してください。 ユーザーがサイトで取ることのできるインタラクションごとに、次の質問を考慮します。
+通常、AJAX を使用するページは再読み込みされないので、ユーザーがサイトでおこなう操作は複数あります。 Adobe Analytics を実装する場合は、ページビューとリンクトラッキング呼び出しとを必ず区別してください。 ユーザーがサイトで取ることのできるインタラクションごとに、次の質問を考慮します。
 
 *ユーザーがサイトを操作すると、そのインタラクションは新しいページと見なすのに十分な量のコンテンツをページ上で変更するか。*
 
@@ -46,9 +39,9 @@ Adobe Analytics は、通常、ページの再読み込みに依存して、Anal
 >
 >すべてのインタラクションまたはクリックを記録する必要はありません。 追跡に最も重要なアクションを慎重に検討し、それに応じてデータをアドビに送信します。
 
-## 各ページの変数のクリア
+## 各ページでの変数のクリア
 
-AJAX を使用するページは再読み込みされないので、変数値が保持されます。 したがって、変数値がヒット間で不適切に保持されないように、特別な調整が必要です。 アドビでは、変数値を簡単にクリアする [`clearVars`](../vars/functions/clearvars.md) 関数を提供しています。 各ヒットをアドビに送信した後、および次のヒットに対して変数値を設定する前に、この関数を必ず使用してください。
+AJAX を使用するページではページがリロードされないため、変数値が保持されます。 したがって、変数値がヒット間で不適切に保持されないように、特別な調整が必要です。 アドビでは、変数値を簡単にクリアする [`clearVars`](../vars/functions/clearvars.md) 関数を提供しています。 各ヒットをアドビに送信した後、および次のヒットに対して変数値を設定する前に、この関数を必ず使用してください。
 
 >[!TIP]
 >

@@ -5,24 +5,15 @@ role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
 TQID: 'https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 15%
+source-wordcount: 784
+ht-degree: 11%
 
 ---
 
@@ -44,7 +35,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476885/?captions=jpn&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -82,7 +73,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476885/?captions=jpn&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -198,9 +189,9 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476885/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-[Adobe Experience League](https://experienceleague.adobe.com/ja?lang=ja)にオンボーディングして、[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics)、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)などにアクセスし、成功を支援します。
+[Adobe Experience League](https://experienceleague.adobe.com/?lang=ja)にオンボーディングして、[ ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics)、[ チュートリアル ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)などにアクセスし、成功を支援します。
 
 
 ## Adobe Admin Console
@@ -219,7 +210,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Adobe Experience Leagueにオンボーディングして[&#x200B; サポートケースを立ち上げ、アクティブなケースと過去のケースを確認](https://experienceleague.adobe.com/home?lang=ja#support)します。
+Adobe Experience Leagueにオンボーディングして[ サポートケースを立ち上げ、アクティブなケースと過去のケースを確認](https://experienceleague.adobe.com/home#support)します。
 
 
 ## Adobe Analytics
@@ -232,7 +223,7 @@ Adobe Analyticsへのジャーニーは、適切な構成とユーザーアク�
 
 Adobe Adobe Analyticsとそのサポートプラットフォームへのオンボーディングが完了したら、次のリソースを活用してスキルを向上させ、理解を深めることができます。
 
-1. [Adobe Analyticsの概要](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [レポートスイートの理解と作成](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analyticsの概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [レポートスイートの理解と作成](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics)
 4. [Adobe Analyticsのチュートリアルとビデオ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)

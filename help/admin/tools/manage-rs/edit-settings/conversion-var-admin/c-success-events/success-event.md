@@ -1,32 +1,16 @@
 ---
-description: 成功イベントとは、追跡できるアクションです。 成功イベントはお客様によって定義されます。 例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
+description: 成功イベントとは、追跡できるアクションです。 成功イベントが何であるかは、ユーザー自身が定義します。 例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
 keywords: イベント
 title: 成功イベントの概要
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 TQID: https://experienceleague.adobe.com/wOWG6t9fsrfkd4FE-BNkwIrPW6DEGxBKDc2XItyRaoc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 962
@@ -36,9 +20,9 @@ ht-degree: 25%
 
 # 成功イベント
 
-成功イベント（コンバージョンイベントまたはカスタムイベントとも呼ばれます）は、トラッキングが可能なアクションです。 成功イベントはお客様によって定義されます。 例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
+成功イベント（コンバージョンイベントまたはカスタムイベントとも呼ばれます）は、トラッキングが可能なアクションです。 成功イベントが何であるかは、ユーザー自身が定義します。 例えば、訪問者がある品目を購入した場合、その購入イベントは成功イベントと見なすことができます。
 
-成功イベントの概要については、Analytics チュートリアルガイドの[&#x200B; コンバージョンイベントの概要](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)を参照してください。
+成功イベントの概要については、Analytics チュートリアルガイドの[ コンバージョンイベントの概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)を参照してください。
 
 ## 成功イベント例
 
@@ -104,12 +88,12 @@ ht-degree: 25%
    | オプション | 関数 |
    |---------|----------|
    | [!UICONTROL **訪問当たり1回のレコード**] | 特定のイベントを訪問者のセッションに関連付けます。 同じ訪問内の特定のイベントに対する、以降のカウントは無視されます。 この種のイベントのシリアル化では、実装の変更は必要ありません。 |
-   | [!UICONTROL **イベント ID**]&#x200B;を使用 | 特定のイベントをカスタム IDに関連付けます。 イベント ID が同じ特定のイベントに対する以降のカウントは無視されます。 このタイプのイベントシリアル化では、値の重複を除外するために、ヒットのカスタム ID が必要です。 実装ユーザーガイドの「[イベント ID のシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)」を参照してください。 |
+   | [!UICONTROL **イベント ID**]&#x200B;を使用 | 特定のイベントをカスタム IDに関連付けます。 イベント ID が同じ特定のイベントに対する以降のカウントは無視されます。 このタイプのイベントのシリアル化では、値の重複を除外するために、ヒット内のカスタム ID が必要です。 実装ユーザーガイドの「[イベント ID のシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)」を参照してください。 |
 
 1. [!UICONTROL **参加**]&#x200B;列で、チェックボックスを選択し、参加を有効にするか無効にするかを選択します。 有効にすると、訪問中のすべてのディメンション項目に完全なアトリビューションクレジットが付与されます。
 
    >[!NOTE]
    >
-   >パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。 100 を超える場合は、[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)ビルダーでパーティシペーション指標を作成できます。
+   >最大 100 件のカスタムイベントに対してパーティシペーションを有効にすることができます。 100 を超える場合は、[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)ビルダーでパーティシペーション指標を作成できます。
 
 1. 「**[!UICONTROL 保存]**」を選択します。

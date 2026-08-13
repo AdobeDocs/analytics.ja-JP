@@ -4,17 +4,10 @@ description: 組織のファイアウォールで、アドビから派生する 
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 TQID: https://experienceleague.adobe.com/-4XZdprTBXpIaFnHeXBQsAr5YoZMW4ocnZRY50bHGUs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 204
@@ -26,7 +19,7 @@ ht-degree: 32%
 
 一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。 このリストの範囲を使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。
 
-Adobe Analyticsで使用されるすべてのIP アドレスは、China Performance Optimization アドオンパッケージを除き、CX Enterprise[&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/ip-addresses)で使用されるIP アドレスの一部です。
+Adobe Analyticsで使用されるすべてのIP アドレスは、China Performance Optimization アドオンパッケージを除き、CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)で使用される[IP アドレスの一部です。
 
 ## 中国パフォーマンス最適化IP アドレス
 
@@ -48,6 +41,6 @@ China Performance Optimization アドオンパッケージは、中国国内の�
 
 >[!MORELIKETHIS]
 >
->CX Enterprise[&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/ip-addresses)によって使用されるIP アドレス
+>CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)によって使用される[IP アドレス
 >
->Adobe Analyticsで使用されている[&#x200B; ドメイン &#x200B;](domains.md)
+>Adobe Analyticsで使用されている[ ドメイン ](domains.md)

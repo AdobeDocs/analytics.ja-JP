@@ -5,15 +5,10 @@ title: Analytics データフィードの概要
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 335
@@ -23,7 +18,7 @@ ht-degree: 95%
 
 # Analytics データフィードの概要
 
-データフィードは、Adobe Analytics から生データを取得するための強力な方法です。 この生データは、アドビ以外の他のプラットフォームで使用し、組織の裁量で使用できます。 データは、各時間の終了時に時間単位のバッチで、または毎日の終わりに日単位のバッチで配信されます。
+データフィードは、Adobe Analytics から生データを取得するための強力な方法です。 この生データは、アドビ以外のプラットフォームで、組織の裁量により自由に利用できます。 データは、各時間の終了時に 1 時間ごとのバッチで、または各日の終了時に 1 日ごとのバッチで配信されます。
 
 ## 前提条件
 
@@ -54,6 +49,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]

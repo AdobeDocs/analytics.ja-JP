@@ -5,14 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 TQID: https://experienceleague.adobe.com/I1Lw6gp33QByF6J9SZRgTdn30CpdhJH3yWZ5XwOkBqc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 603
@@ -33,7 +28,7 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->インタラクティブコントロールが動作するためには、Report Builder v5.0 以降がインストールされている必要があります。 >
+>インタラクティブコントロールを機能させるには、Report Builder v5.0 がインストールされている必要があります。 >
 >* WindowsでMicrosoft Excelを実行しているにもかかわらず、Report Builderの下位バージョンを実行している場合、またはReport Builderがインストールされていない場合：インタラクティブコントロールの値を変更できますが、関連するリクエストを更新したり、リクエストの関連パラメーターを更新したりすることはできません。
 >* Mac で Excel を実行している場合は、コントロールで値を変更すると、「マクロ &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; が見つかりません」というメッセージが表示されます。
 >
@@ -47,13 +42,13 @@ ht-degree: 27%
 1. リクエストウィザードの手順 1 で、例えば&#x200B;**[!UICONTROL ページ]**&#x200B;レポートを選択します。
 1. 「**[!UICONTROL 一般的に使用される日付]**」ドロップダウンの横にある「**[!UICONTROL コントロール設定]**」アイコンをクリックします。
 
-   ![&#x200B; リクエストウィザードのスクリーンショット ステップ 1 コントロール設定アイコンを強調表示します。](assets/date_range_control.png)
+   ![ リクエストウィザードのスクリーンショット ステップ 1 コントロール設定アイコンを強調表示します。](assets/date_range_control.png)
 
 1. コントロール設定ダイアログで、インタラクティブ コントロールに表示するすべての日付範囲アイテムを選択します。 さらに、コントロールの左上のセルの場所を指定します。
 
-   選択した日付範囲アイテムと左上のセルの場所を示す![&#x200B; スクリーンショット。](assets/control_settings.png)
+   選択した日付範囲アイテムと左上のセルの場所を示す![ スクリーンショット。](assets/control_settings.png)
 
-1. 「リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ」オプションも指定します。
+1. 「アイテム選択時にリンクされたリクエストを自動的に更新する」のオプションがあることに注意してください。
 
    * オンにすると、このコントロールを使用するすべてのリクエストが更新されます。
    * オンになっていない場合、関連するリクエストパラメーターは更新されますが、リクエストは更新されません。
@@ -62,7 +57,7 @@ ht-degree: 27%
 
 1. 日付範囲を変更できるようになり、リクエストはその日付範囲で更新されます。
 
-   選択した日付範囲を示す![&#x200B; スクリーンショット。](assets/date_range_control_interactive.png)
+   選択した日付範囲を示す![ スクリーンショット。](assets/date_range_control_interactive.png)
 
 1. リクエストをコピーして右クリックし、次の2つの貼り付けリクエストオプションのいずれかを使用することもできます。
 
@@ -72,7 +67,7 @@ ht-degree: 27%
 
      >[!NOTE]
      >
-     >Microsoft Excel の通常の切り取り／コピー／貼り付け機能も使用できます。 Report Builder は貼り付けによって追加されたコントロールを自動的に認識します。
+     >Microsoft Excel のネイティブな切り取り／コピー／貼り付け機能も使用できます。 Report Builder は貼り付けによって追加されたコントロールを自動的に認識します。
 
 ## インタラクティブなセグメントコントロールの実装 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -80,12 +75,12 @@ ht-degree: 27%
 
 1. リクエストウィザードの手順1で、**[!UICONTROL セグメント]** ドロップダウンリストの横にある「セグメント制御設定」アイコンを選択します。
 
-   ![&#x200B; セグメント管理設定アイコンのスクリーンショット。](assets/segment_interactive_1.png)
+   ![ セグメント管理設定アイコンのスクリーンショット。](assets/segment_interactive_1.png)
 
 1. セグメント制御設定ダイアログで、ドロップダウンに含めるセグメントを選択します。 さらに、コントロールの左上のセルの場所を指定します。
 
-   選択したセグメントとセルの場所を含むセグメント管理設定を示す![&#x200B; スクリーンショット。](assets/segment_drop_down_properties.png)
+   選択したセグメントとセルの場所を含むセグメント管理設定を示す![ スクリーンショット。](assets/segment_drop_down_properties.png)
 
 1. 新しいインタラクティブ コントロールがワークブックに表示されます。
 
-   新しいインタラクティブ コントロールが選択されたことを示す![&#x200B; スクリーンショット。](assets/segment_interactive_3.png)
+   新しいインタラクティブ コントロールが選択されたことを示す![ スクリーンショット。](assets/segment_interactive_3.png)

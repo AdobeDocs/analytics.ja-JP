@@ -4,15 +4,10 @@ description: Adobe Analytics にログインできない場合の手順です。
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 607
@@ -30,17 +25,17 @@ Adobe Analytics は、複数の認証方法を使用してログインします�
 
 **定期的に Analytics にアクセスし、ログインの問題がランダムに発生し始めた場合、ブラウザーの Cookie とキャッシュを消去すると、ほとんどの問題が解決します。**
 
-場合によっては、可用性の問題がログイン機能に影響を与える可能性があります。 未解決のインシデントがないか [status.adobe.com](https://status.adobe.com/ja-jp) を確認してください。 それ以外の場合は、組織の認証方法に応じた適切なセクションを使用します。
+場合によっては、可用性の問題がログイン機能に影響を与える可能性があります。 未解決のインシデントがないか [status.adobe.com](https://status.adobe.com) を確認してください。 それ以外の場合は、組織の認証方法に応じた適切なセクションを使用します。
 
 ## Adobe ID
 
 CX Enterpriseを使用してAdobe Analyticsにログインする際の問題をトラブルシューティングします。
 
-1. [Adobe CX Enterprise](https://experience.adobe.com)に移動します。 このサイトにアクセスできない場合、このドメインがファイアウォールを通過することが組織によって許可されていない可能性があります。 組織の IT チームに依頼して、許可してもらいます。 IT部門に役立つ情報については、[Adobe Analyticsで使用されるIP アドレス &#x200B;](/help/technotes/ip-addresses.md)を参照してください。
+1. [Adobe CX Enterprise](https://experience.adobe.com)に移動します。 このサイトにアクセスできない場合、このドメインがファイアウォールを通過することが組織によって許可されていない可能性があります。 組織の IT チームに依頼して、許可してもらいます。 IT部門に役立つ情報については、[Adobe Analyticsで使用されるIP アドレス ](/help/technotes/ip-addresses.md)を参照してください。
 
-2. Adobe ID を使用した認証：「**[!UICONTROL Adobe ID でサインイン]**」をクリックします。 ログインできない場合は、メールアドレスが正しく入力されていることを再確認してください。 それ以外の場合は、「**[!UICONTROL パスワードのリセット]**」をクリックし、画面の指示に従って Adobe ID パスワードをリセットします。
+2. Adobe ID を使用した認証：「**[!UICONTROL Adobe ID でサインイン]**」をクリックします。 ログインできない場合は、メールが正しく入力されていることを再確認してください。 それ以外の場合は、「**[!UICONTROL パスワードのリセット]**」をクリックし、画面の指示に従って Adobe ID パスワードをリセットします。
 
-3. 認証後の Analytics へのアクセス：右上の 9 グリッドアイコンをクリックしてから、「Analytics」をクリックします。 このオプションがない場合、またはグレー表示されている場合は、組織内の製品管理者に問い合わせて、Analytics へアクセスする適切な権限を持っていることを確認してください。
+3. 認証後に Adobe Analytics にアクセスするには、右上の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。 このオプションがない場合、またはグレー表示されている場合は、組織内の製品管理者に確認してもらい、Adobe Analytics へのアクセスに必要な権限を持っていることを確認してください。
 
 ## 従来の Analytics ID
 
@@ -80,4 +75,4 @@ CX Enterpriseを使用してAdobe Analyticsにログインする際の問題を�
 * この問題は、ネットワーク上の別のマシンで発生しますか、それとも複数のマシンで発生しますか？
 * モバイルデータ接続、ライブラリ、ホームネットワークなど、別のネットワークを使用してログインしてみてください。 問題はネットワーク全体に存在しますか？
 
-問題が貴社のネットワーク内で隔離されている場合は、組織の IT チームと協力して問題を解決します。 1 つのネットワークに限定されない場合は、アドビのサポートにお問い合わせください。
+問題が貴社のネットワーク内で隔離されている場合は、組織の IT チームと協力して問題を解決します。 1 つのネットワークに限定されない場合は、アドビカスタマーケアにお問い合わせください。

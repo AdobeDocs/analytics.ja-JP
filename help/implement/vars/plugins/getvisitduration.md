@@ -1,23 +1,15 @@
 ---
 title: getVisitDuration
-description: 訪問者がサイトに来訪した時間を追跡します。
+description: 訪問者がこれまでにサイト上に滞在していた時間の長さを追跡します。
 feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/OUw5EZxg9Fs6byMdgMx2K6legXrrQtSJJahvvGnfcQ8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 581
@@ -29,7 +21,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getVisitDuration` プラグインは、訪問者がその時点までサイトに滞在した時間を分単位で追跡します。 この時点までのサイトの累積時間を追跡する場合や、アクティビティの実行に要する時間を追跡する場合は、このプラグインを使用することをお勧めします。 このプラグインは、イベント間の時間を追跡しません。この機能が必要な場合は、[`getTimeBetweenEvents`](gettimebetweenevents.md) プラグインを使用します。
+`getVisitDuration` プラグインは、訪問者がその時点までサイトに滞在した時間を分単位で追跡します。 この時点までのサイト上での累積滞在時間を追跡する場合や、アクティビティの実行に要する時間を追跡する場合は、このプラグインを使用することをお勧めします。 このプラグインは、イベント間の時間を追跡しません。この機能が必要な場合は、[`getTimeBetweenEvents`](gettimebetweenevents.md) プラグインを使用します。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
@@ -59,10 +51,10 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * Action Type：Initialize getVisitDuration
+   * アクションタイプ：getVisitDuration を初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
@@ -73,7 +65,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール

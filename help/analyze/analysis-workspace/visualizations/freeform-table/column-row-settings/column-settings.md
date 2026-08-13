@@ -6,24 +6,11 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 908
@@ -38,7 +25,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [フリーフォームテーブルの行と列の設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -56,11 +43,11 @@ ht-degree: 87%
 | **[!UICONTROL 総計を表示]** | 列のサーバーサイドの合計を表示します。 総計では、セッションやユーザーなどの指標を重複排除します。 |
 | **[!UICONTROL スパークラインを表示]** | 列見出しに折れ線グラフを表示します。 |
 | **[!UICONTROL 数値]** | セルに指標の数値を表示／非表示にするかどうかを決定します。 例えば、指標がページビューの場合、数値は行項目のページビュー数です。 |
-| **[!UICONTROL Percent]** | セルに指標の割合の値を表示／非表示にするかどうかを決定します。 例えば、指標がページビュー数の場合、割合の値は行項目のページ表示回数を列の合計ページ表示回数で割った数になります。  メモ：100％を超える割合は、正確であることが保証されます。 キャップを 1,000％に移動すると、列の幅が大きくなりすぎるのを防ぐことができます。 |
+| **[!UICONTROL Percent]** | セルに指標の割合の値を表示／非表示にするかどうかを決定します。 例えば、指標がページビューの場合、割合の値は行項目のページビュー数を、その列の合計ページビュー数で割った値になります。  メモ：正確性を保つため、100％を超えるパーセンテージが表示される場合があります。 キャップを 1,000％に移動すると、列の幅が大きくなりすぎるのを防ぐことができます。 |
 | **[!UICONTROL 異常値を表示]** | この列の値に対して異常値検出を実行するかどうかを決定します。 |
 | **[!UICONTROL 予測を表示]** | この列に予測値を表示するかどうかを決定します。 |
 | **[!UICONTROL ヘッダーテキストを折り返し]** | ヘッダーを読みやすく、またテーブルを共有しやすくするため、フリーフォームテーブルでヘッダーテキストを折り返します。 折り返しは、PDF レンダリングや名前の長い指標に役立ちます。 デフォルトで有効です。 |
-| **[!UICONTROL ゼロを値なしとして解釈]** | 値が 0 のセルについて、0 と空白のどちらを表示するかを決定します。 この解釈は、月の各日のデータを確認する際、一部の日が将来の日付である場合に役立ちます。  将来の日付に、0 の代わりに空白のセルが表示されます。 グラフにも、この設定が適用されます（つまり、グラフには値が 0 の折れ線や棒は表示されません）。 |
+| **[!UICONTROL ゼロを値なしとして解釈]** | 値が 0 のセルについて、0 と空白のどちらを表示するかを決定します。 この解釈は、月の各日のデータを確認する際、一部の日が将来の日付である場合に役立ちます。  将来の日付については、0 を表示する代わりに空白のセルが表示されます。 グラフにも、この設定が適用されます（つまり、グラフには値が 0 の折れ線や棒は表示されません）。 |
 | **[!UICONTROL 背景]** | セルのすべての書式（棒グラフや条件付き書式など）をセルに表示／非表示にするかどうかを決定します。 |
 | **[!UICONTROL 棒グラフ]** | 列の合計に相対的なセルの値を示す横棒グラフを表示します。 |
 | **[!UICONTROL 条件付き書式]** | 条件付き書式を使用します。 次の[節](#conditional-formatting)を参照してください。 |
@@ -76,7 +63,7 @@ ht-degree: 87%
 | 条件付き書式オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL 割合制限を使用]** | 絶対値ではなくパーセンテージに基づいて制限範囲を変更します。 割合制限範囲は、割合にのみ基づく指標（バウンス率など）と、カウントと割合を持つ指標（ページビュー数など）に対して機能します。 |
-| **[!UICONTROL 自動生成]** | データに基づいて自動的に上限／中間／下限を計算する。 上限は、この列の最大値です。 下限は最も低く、中点は上限と下限の平均です。 |
+| **[!UICONTROL 自動生成]** | データに基づいて自動的に上限／中間／下限を計算します。 上限は、この列の最大値です。 下限は最も低く、中点は上限と下限の平均です。 |
 | **[!UICONTROL カスタム]** | **[!UICONTROL 上限]**、**[!UICONTROL 中間点]**、**[!UICONTROL 下限]**&#x200B;を手動で割り当てます。 制限により、列の値が良好、平均、不良になるタイミングを柔軟に決定できます。 |
 | **[!UICONTROL 条件付き書式パレット]** | 事前設定済みのカラーセットをセルに適用します。 選択した4つのカラースキームのどれに応じて、高い値、中点の値、低い値に異なるカラーが割り当てられます。<br> テーブル内のディメンションを置き換えると、条件付き書式設定の制限がリセットされます。 指標を置き換えると、その列の制限が再計算されます（指標が X 軸、ディメンションが Y 軸で示される場合）。 |
 
@@ -119,7 +106,7 @@ Analysis Workspace の指標にデフォルト以外のアトリビューショ�
 
 2. **[!UICONTROL 列アトリビューションモデル]**&#x200B;で、「**[!UICONTROL モデル]**」と「**[!UICONTROL ルックバックウィンドウ]**」を選択します。 ルックバックウィンドウでは、各コンバージョンに適用されるデータアトリビューションのウィンドウを決定します。
 
-   ![「線形」が選択されていることを示す「列アトリビューションモデル」オプション。 &#x200B;](assets/attribution-select.png)
+   ![「線形」が選択されていることを示す「列アトリビューションモデル」オプション。 ](assets/attribution-select.png)
 
 
 ### アトリビューションモデル
@@ -148,7 +135,7 @@ Analysis Workspace の指標にデフォルト以外のアトリビューショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的列](https://video.tv.adobe.com/v/38416?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動的列](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

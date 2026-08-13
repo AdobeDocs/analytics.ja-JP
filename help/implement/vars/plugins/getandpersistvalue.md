@@ -1,23 +1,15 @@
 ---
 title: getAndPersistValue
-description: 後でいつでも取得できる値を格納します。
+description: 後でいつでも取得できる値を保存します。
 feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/mofGb9F4bP7uHIBulSDfMlNzss4Uafl3yQF17oEyhqo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 716
@@ -29,7 +21,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。 これは、Adobe Experience Platform Data Collection内のAdobe Analytics拡張機能の[!UICONTROL &#x200B; ストレージ期間]機能と同様の役割を果たします。 変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。 Analytics拡張機能の[!UICONTROL &#x200B; ストレージ期間]機能で十分な場合、このプラグインは必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。 eVar はアドビがサーバーサイドで保持するので、ビルトインの eVar の永続性はこのプラグインを使用する必要はありません。
+`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。 これは、Adobe Experience Platform Data Collection内のAdobe Analytics拡張機能の[!UICONTROL  ストレージ期間]機能と同様の役割を果たします。 変数を設定した後の後続のヒットで Analytics 変数を自動的に同じ値に保持したい場合は、このプラグインを使用することをお勧めします。 Analytics拡張機能の[!UICONTROL  ストレージ期間]機能で十分な場合、このプラグインは必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。 eVar はアドビによってサーバーサイドで永続化されるため、ビルトインの eVar の永続性にはこのプラグインを使用する必要はありません。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
@@ -60,7 +52,7 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
    * Action Type：Initialize getAndPersistValue
@@ -74,7 +66,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール

@@ -5,19 +5,11 @@ feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 784
@@ -38,7 +30,7 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 | 標準 IAB ボットルール | 「**[!UICONTROL IAB ボットフィルタリングルールを有効にする]**」を選択すると、[IAB](https://www.iab.com/)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。 ほとんどのお客様は、少なくともこのオプションを選択します。 |
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
-詳細については、[&#x200B; ボットルールの理解と設定](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を参照してください。
+詳細については、[ ボットルールの理解と設定](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を参照してください。
 
 ## アドビツールを組み合わせて使用
 
@@ -77,7 +69,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
 * **ボットフラグ**：顧客属性スキーマディメンションとして「ボットフラグ」を追加します。
 
-この.CSV ファイルを顧客属性のインポート ファイルとして使用し、この[&#x200B; ブログ記事](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)で説明されているように、レポートスイートを顧客属性に登録します。
+この.CSV ファイルを顧客属性のインポート ファイルとして使用し、この[ ブログ記事](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)で説明されているように、レポートスイートを顧客属性に登録します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
@@ -89,7 +81,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、このセグメントを使用して識別されたボットを除外する[仮想レポートスイート &#x200B;](/help/components/vrs/vrs-about.md)を作成します。
+最後に、このセグメントを使用して識別されたボットを除外する[仮想レポートスイート ](/help/components/vrs/vrs-about.md)を作成します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-vrs.png)
 
@@ -101,7 +93,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 >[!MORELIKETHIS]
 >
->* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=ja)
->* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=ja)
->* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=ja)
+>* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

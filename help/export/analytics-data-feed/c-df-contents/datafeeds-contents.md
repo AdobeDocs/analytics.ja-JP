@@ -1,22 +1,16 @@
 ---
 description: このセクションでは、データフィード配信に含まれるファイルについて説明します。
-keywords: データフィード、ジョブ、コンテンツ、マニフェスト、ファイル、参照、ヒットデータ、配信コンテンツ
+keywords: データフィード、ジョブ、コンテンツ、マニフェスト、ファイル、ルックアップ、ヒットデータ、配信コンテンツ
 subtopic: data feeds
 title: データフィードの内容 - 概要
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1004
@@ -87,7 +81,7 @@ Datafeed-Manifest-Version: 1.0
 
 `column_headers.tsv` と `event_list.tsv` はそのデータフィードとレポートスイートに固有のファイルです。 それ以外のファイル（`browser.tsv` など）は汎用ファイルです。
 
-参照ファイルは次の書式の名前を持つ 1 つのファイルに圧縮されて配信されます。
+ルックアップファイルは、次の形式の名前が付いた zip ファイルにまとめて圧縮されて配信されます。
 
 ```text
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
@@ -110,7 +104,7 @@ Datafeed-Manifest-Version: 1.0
 
 ## ヒットデータファイル
 
-ヒットデータは `hit_data.tsv` ファイルで提供されます。 このファイルのデータ量は、配信形式（時間単位または日単位、 1 つまたは複数のファイル）によって決まります。 このファイルには、ヒットデータのみが含まれます。 列ヘッダーは、ルックアップファイルとは別に提供されます。 このファイルの各行には、1 つのサーバー呼び出しが含まれます。
+ヒットデータは `hit_data.tsv` ファイルで提供されます。 このファイルのデータ量は、配信形式（時間単位または日単位、 1 つまたは複数のファイル）によって決まります。 このファイルには、ヒットデータのみが含まれます。 列ヘッダーは、ルックアップファイルとは別に提供されます。 このファイルの各行には、1 つのサーバーコールが含まれます。
 
 アドビから配信されるファイルは、設定したデータフィードの種類によって異なります。 すべてのファイルは ISO-8859-1 を使用してエンコードされます。
 
@@ -123,7 +117,7 @@ Datafeed-Manifest-Version: 1.0
 
 ### 日別、単一ファイル
 
-1 日分のデータを収集した後、圧縮データファイルが 1 つ以上とマニフェストファイル 1 つを受け取ります。 データファイルの名前は次のようになります。
+1 日分のデータが収集された後、圧縮データファイル 1 つとマニフェストファイル 1 つが届きます。 データファイルの名前は次のようになります。
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
@@ -139,7 +133,7 @@ Datafeed-Manifest-Version: 1.0
 
 ### 時間別、単一ファイル
 
-1 時間分のデータを収集した後、圧縮データファイルが 1 つ以上とマニフェストファイル 1 つが届きます。 データファイルの名前は次のようになります。
+1 時間のデータが収集された後、圧縮データファイル 1 つとマニフェストファイル 1 つが届きます。 データファイルの名前は次のようになります。
 
 `[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 

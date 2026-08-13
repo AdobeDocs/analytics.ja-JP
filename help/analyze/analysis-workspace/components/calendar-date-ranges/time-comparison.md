@@ -5,18 +5,10 @@ feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
 source-wordcount: 804
@@ -52,7 +44,7 @@ Analysis Workspaceの日付比較では、日付範囲を含む任意の列を�
    |---|---|
    | **[!UICONTROL この日付範囲の前の *x* 週／月／四半期／年]** | この日付範囲の直前の選択した日付範囲と比較します。 |
    | **[!UICONTROL この日付範囲の前年のこれらの x 週／月／四半期／年]** | 1 年前の同じ日付範囲と比較します。 |
-   | **[!UICONTROL この日付範囲のカスタム日付範囲]** | カスタム日付範囲を定義できます。 |
+   | **[!UICONTROL この日付範囲のカスタム日付範囲]** | カスタム日付範囲を定義します。 |
 
    >[!NOTE]
    >
@@ -92,9 +84,9 @@ Analysis Workspaceの日付比較では、日付範囲を含む任意の列を�
 
 1. また、各列で並べ替えて、並べ替えに使用した列に基づいて日付の順序を変更することもできます。
 
-## 列の日付が同じ行で始まるように整列
+## 列の日付が同じ行で開始するように整列
 
-各列の日付をすべて同じ行から始まるように整列できます。
+各列の日付をすべて同じ行から開始するように整列できます。
 
 例えば、前週（2024年10月5日までの期間）と前週の日次の比較を実行します。 デフォルトでは、左側の列は9月22日から始まり、右側の列は9月29日から始まります。
 
@@ -120,7 +112,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

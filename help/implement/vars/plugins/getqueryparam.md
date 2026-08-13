@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/R5uYQzbQiyGuvM9ng4Eux7pNdPoecJl4rLQ5L18seak'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 803
@@ -31,7 +23,7 @@ ht-degree: 73%
 
 `getQueryParam` プラグインを使用すると、URL に含まれるクエリ文字列パラメーターの値を抽出できます。 これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。 また、検索語や他のクエリ文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリ文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。 単純なクエリ文字列パラメーターのみが必要な場合は、Adobeでは、Web SDK、Adobe Analytics拡張機能、またはAppMeasurementに含まれる[`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドを使用してURL パラメーター機能を使用することをお勧めします。
+このプラグインは、ハッシュを含む複雑な URL や、複数のクエリ文字列パラメーターを含む URL を解析する際に、堅牢な機能を提供します。 単純なクエリ文字列パラメーターのみが必要な場合は、Adobeでは、Web SDK、Adobe Analytics拡張機能、またはAppMeasurementに含まれる[`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドを使用してURL パラメーター機能を使用することをお勧めします。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
@@ -62,7 +54,7 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
    * Action Type：Initialize getQueryParam
@@ -76,7 +68,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ```js
@@ -145,7 +137,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 4.0.1（2021 年 3 月 26 日（PT））
 
-* クエリーパラメーターがクエリ文字列に存在しない場合、「」の代わりに undefined が返される問題を更新しました。
+* クエリパラメーターがクエリ文字列に存在しない場合に、空文字列（&quot;&quot;）ではなく undefined が返されていた問題を修正しました。
 
 ### 4.0（2021年3月19日）
 
@@ -168,7 +160,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 * ポイントリリース（再コンパイル、コードサイズの縮小）。
 * ヘルパー関数の名前を読みやすくするために、`findParameterValue` および `getParameterValue` に変更しました。
-* URL ハッシュに含まれるパラメーターを見つけるための引数を追加する必要がなくなりました。
+* URL のハッシュに含まれるパラメーターを見つけるための引数を追加する必要がなくなりました。
 
 ### 2.5（2016 年 1 月 8 日（PT））
 
@@ -180,11 +172,11 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 
 ### 2.3
 
-* トラッキングコードの後にハッシュが存在する場合にのみプラグインが機能するという回帰問題を修正しました。
+* トラッキングコードの後にハッシュが存在する場合にのみプラグインが機能するという回帰イシューを修正しました。
 
 ### 2.2
 
-* 戻り値からハッシュ文字（およびその後のすべて）を削除するようになりました。
+* 戻り値からハッシュ記号（およびその後のすべて）を削除するようになりました。
 
 ### 2.1
 

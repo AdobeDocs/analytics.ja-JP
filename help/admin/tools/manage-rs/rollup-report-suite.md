@@ -5,17 +5,11 @@ feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
 TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 413
@@ -37,7 +31,7 @@ ht-degree: 94%
 
   マルチスイートタグ付けを使用するには、子レポートスイートと、子から得られるすべてのデータを含んだグローバルレポートスイートを実装します。 web ページやアプリのトラッキングコードには、グローバルレポートスイートのレポートスイート ID（RSID）と、該当する子レポートスイートの RSID が含まれます。<!-- Wording/be more specific? And include any links? -->
 
-  イメージリクエストの各レポートスイートに対して、個別のサーバーコールが実行されます。 子レポートスイートへのコールはセカンダリコールです。
+  イメージリクエストでは、各レポートスイートごとに個別のサーバーコールが実行されます。 子レポートスイートへのサーバーコールは、セカンダリサーバーコールです。
 
 * **仮想レポートスイート**：[仮想レポートスイート](/help/components/vrs/vrs-about.md)は、グローバルレポートスイートで収集され、指定のユーザーグループが使用できる、指定のセグメントに関するクエリです。 仮想レポートスイートでは、マルチスイートタグ付けを使用せずに、様々なエンドユーザーのレポート要素をキュレートできるので、セカンダリサーバーコールを回避できます。
 

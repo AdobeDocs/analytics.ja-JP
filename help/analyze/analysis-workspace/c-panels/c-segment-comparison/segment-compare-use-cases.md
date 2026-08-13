@@ -6,23 +6,11 @@ feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 TQID: https://experienceleague.adobe.com/RSrhYA6EYk3UhFqMQ1FJVHzqA7RFIqdvSyvatTF0goE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074cid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
 source-wordcount: 859
@@ -30,7 +18,7 @@ ht-degree: 13%
 
 ---
 
-# セグメント比較の使用例
+# セグメント比較のユースケース
 
 セグメント比較パネルは、Analysis Workspaceで広く使用されている機能です。 顧客は、パネルを使用する際に、インサイトを活用するための新しい方法をしばしば発見します。 次のような一般的なユースケースを紹介します
 
@@ -60,7 +48,7 @@ ht-degree: 13%
 {style="table-layout:fixed"}
 
 
-## 使用例 3：ニュースサイトの訪問者と他のサイトセクションの訪問者の比較
+## ユースケース 3：ニュースサイトの訪問者と他のサイトセクションの訪問者の比較
 
 > *「ニュースセクションへの訪問者がビデオ広告を視聴する可能性が2倍高いことがわかったため、そのセクションにビデオオプションを追加しました。 ビデオ広告の閲覧数が7%増加しました！&quot;*
 
@@ -73,7 +61,7 @@ ht-degree: 13%
 {style="table-layout:fixed"}
 
 
-## 使用例 4：有料検索からの訪問者と他の全員の比較
+## ユースケース 4：有料検索からの訪問者と他の全員の比較
 
 > *&quot;検索エンジンからサイトにアクセスした訪問者は、他のユーザーよりも3倍高いアップセル率を示しました。 その結果、特定のキーワードへの支出が増加し、アップセルが56%増加しました。&quot;*
 
@@ -86,7 +74,7 @@ ht-degree: 13%
 {style="table-layout:fixed"}
 
 
-## 使用例 5：Fitbit の購入者と他の全員の比較
+## ユースケース 5：Fitbit の購入者と他の全員の比較
 
 > *「Fitbitを購入する人々は、他の人々よりも「在庫切れ」のメッセージを受け取る可能性が6倍高いことがわかりました。 だから、あなたはすぐに多くのFitbitを注文し、在庫切れを回避しました！&quot;*
 

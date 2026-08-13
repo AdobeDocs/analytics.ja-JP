@@ -7,16 +7,10 @@ type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
 TQID: https://experienceleague.adobe.com/a7cYk3fdAL90KUUllMaAmlhqrNPSboBmOoQ9gaPbDWg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 564
@@ -44,9 +38,9 @@ Report Builder Adobe Analytics版は、次のオペレーティングシステ�
 
   すべてのWindows デスクトップ [!DNL Excel] ユーザーは、アドインを使用するためにMicrosoft Edge Webview2をインストールする必要があります。 コントローラーをインストールするには：
 
-   1. <https://aka.ms/webview2installer> にアクセスします。
-   1. Evergreen スタンドアロンインストーラーを選択してダウンロードします。
-   1. インストールプロンプトに従います。
+  1. <https://aka.ms/webview2installer> にアクセスします。
+  1. Evergreen スタンドアロンインストーラーを選択してダウンロードします。
+  1. インストールプロンプトに従います。
 
 ### Web Office
 
@@ -85,11 +79,11 @@ Report Builder アドインをダウンロードしてインストールする�
 
   ![Office アドインダイアログの「管理者管理」タブ。](./assets/image1.png)
 
-- または、[&#x200B; マニフェストファイル &#x200B;](https://reportbuilder.an.adobe.com/manifest.xml)を手動で取得し、独自のIT インフラストラクチャ上でファイルをホストすることもできます。 <br/>Microsoft ストアから提供されていないExcel マニフェスト ファイルをインストールする方法については、Microsoft Office [&#x200B; オンライン ドキュメント &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)に従ってください。
+- または、[ マニフェストファイル ](https://reportbuilder.an.adobe.com/manifest.xml)を手動で取得し、独自のIT インフラストラクチャ上でファイルをホストすることもできます。 <br/>Microsoft ストアから提供されていないExcel マニフェスト ファイルをインストールする方法については、Microsoft Office [ オンライン ドキュメント ](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish)に従ってください。
 
 Report Builder アドインをインストールすると、「ホーム」タブの下の[!DNL Excel] リボンにReport Builder アイコンが表示されます。
 
-![ExcelのReport Builder アイコン &#x200B;](/help/analyze/report-builder/assets/rb_app_icon.png)
+![ExcelのReport Builder アイコン ](/help/analyze/report-builder/assets/rb_app_icon.png)
 
 ## Report Builder へのログイン
 
@@ -105,7 +99,7 @@ Report Builder アドインをインストールすると、「ホーム」タ�
 
 1. Adobe Experience ID アカウント情報を入力します。 アカウント情報は、Adobe Analyticsの資格情報と一致している必要があります。
 
-   ![&#x200B; ログインアイコンと組織。](/help/analyze/report-builder/assets/image4.png)
+   ![ ログインアイコンと組織。](/help/analyze/report-builder/assets/image4.png)
 
 ログインすると、ログインアイコンと組織がパネルの上部に表示されます
 
@@ -117,7 +111,7 @@ Report Builder アドインをインストールすると、「ホーム」タ�
 
 1. 使用可能な組織のリストから組織を選択します。 自身がアクセス権を持っている組織のみが表示されます。
 
-   ![&#x200B; アクセスできる組織のリスト。](/help/analyze/report-builder/assets/image5.png)
+   ![ アクセスできる組織のリスト。](/help/analyze/report-builder/assets/image5.png)
 
 ## ログアウト
 
@@ -127,6 +121,6 @@ Report Builder アドインをインストールすると、「ホーム」タ�
 
 1. アバターアイコンをクリックして、ユーザープロファイルを表示します。
 
-   ![&#x200B; ユーザープロファイルのアバターとログアウトボタン。](/help/analyze/report-builder/assets/image6.png)
+   ![ ユーザープロファイルのアバターとログアウトボタン。](/help/analyze/report-builder/assets/image6.png)
 
 1. 「**ログアウト**」をクリックします。

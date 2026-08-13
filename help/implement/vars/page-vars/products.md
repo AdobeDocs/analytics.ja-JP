@@ -5,20 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 663
@@ -89,11 +80,11 @@ Adobe Experience Platform データ収集にはこの変数を設定するため
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
-4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
+4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が表示されます。
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.products
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターにおける s.products
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。 文字列内の各フィールドをセミコロン（`;`）で区切ります。
 
@@ -118,7 +109,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->製品名、カテゴリ、マーチャンダイジング eVar の値から、セミコロン、コンマ、およびパイプをすべて取り除きます。 製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。 この誤った解析は、製品文字列の残りの部分をスローし、ディメンションやレポートに誤ったデータが含まれる原因となります。
+>製品名、カテゴリ、マーチャンダイジング eVar の値から、セミコロン、コンマ、およびパイプをすべて取り除きます。 製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。 この誤った解析によって製品文字列の残りの部分が乱れ、ディメンションやレポートに誤ったデータが含まれる原因となります。
 
 ## 例
 

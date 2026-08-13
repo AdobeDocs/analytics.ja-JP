@@ -5,16 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
 TQID: https://experienceleague.adobe.com/AOjXIFy8Vdjzay-aka5rFhLZIyvwlvF-PGOr1iycypw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1621
@@ -38,7 +32,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ディメンションのハイパーリンク &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ディメンションのハイパーリンク ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -55,8 +49,8 @@ ht-degree: 96%
 
 * ハイパーリンクを作成する際に、URL の有効性は確認されません。 また、
 
-   * 無効な URL を持つハイパーリンクを作成するか、
-   * URL 値を持たないディメンション項目を参照するハイパーリンクを作成すると（ディメンション項目を直接参照するか、`$value` 変数または `$breakdown` 変数を使用する）、
+  * 無効な URL を持つハイパーリンクを作成するか、
+  * URL 値を持たないディメンション項目を参照するハイパーリンクを作成すると（ディメンション項目を直接参照するか、`$value` 変数または `$breakdown` 変数を使用する）、
 
   次に、ハイパーリンクをクリックしたユーザーには、URL が無効であることを示すエラーメッセージが表示されます。
 
@@ -70,23 +64,23 @@ ht-degree: 96%
 
    * **単一のディメンション項目のハイパーリンクを作成：**&#x200B;ハイパーリンクを作成するテーブル内のディメンション項目を右クリックし、「[!UICONTROL **ハイパーリンクを作成**]」を選択します。
 
-      1. ディメンション項目のコンテキストメニューを開きます。
-      1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを作成**]」を選択します。
+     1. ディメンション項目のコンテキストメニューを開きます。
+     1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを作成**]」を選択します。
 
-         [!UICONTROL **ハイパーリンクを作成**]&#x200B;ダイアログが表示されます。 ハイパーリンクを作成するディメンション項目の名前がダイアログに表示されます。
+        [!UICONTROL **ハイパーリンクを作成**]&#x200B;ダイアログが表示されます。 ハイパーリンクを作成するディメンション項目の名前がダイアログに表示されます。
 
-         ![1 つの項目のハイパーリンクを作成ダイアログ](assets/hyperlink-dialog-single.png)
+        ![1 つの項目のハイパーリンクを作成ダイアログ](assets/hyperlink-dialog-single.png)
 
    * **ディメンション列内のすべてのディメンション項目にハイパーリンクを作成：**&#x200B;ディメンション列ヘッダーのディメンション名を右クリックし、「[!UICONTROL **すべてのディメンション項目にハイパーリンクを作成**]」を選択します。
 
-      1. ディメンション列ヘッダーからコンテキストメニューを開きます。
-      1. コンテキストメニューから「[!UICONTROL **すべてのディメンション項目のハイパーリンクを作成**]」を選択します。
+     1. ディメンション列ヘッダーからコンテキストメニューを開きます。
+     1. コンテキストメニューから「[!UICONTROL **すべてのディメンション項目のハイパーリンクを作成**]」を選択します。
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         [!UICONTROL **すべてのディメンション項目のハイパーリンクを作成**]&#x200B;ダイアログが表示されます。 ハイパーリンクを作成するディメンションの名前がダイアログに表示されます。
+        [!UICONTROL **すべてのディメンション項目のハイパーリンクを作成**]&#x200B;ダイアログが表示されます。 ハイパーリンクを作成するディメンションの名前がダイアログに表示されます。
 
-         ![ハイパーリンクを作成ダイアログ](assets/hyperlink-dialog-multiple.png)
+        ![ハイパーリンクを作成ダイアログ](assets/hyperlink-dialog-multiple.png)
 
 1. 次のオプションから選択します。
 
@@ -105,7 +99,7 @@ ht-degree: 96%
      | フィールド | 説明 |
      |---------|----------|
      | [!UICONTROL **カスタム URL**] | ハイパーリンクに使用するカスタム URL を指定します。 URL は、完全修飾 URL として入力する必要があります。 例：<https://www.example.com><p>作成するカスタム URL は、静的または動的にすることができます。</p> <ul><li>**静的 URL：**&#x200B;すべてのディメンション項目を同じ URL にリンクする際は、単一のディメンション項目またはすべてのディメンション項目に対して静的 URL を指定できます。 例：`https://wiki.internal.example.com/page_name#item_definition`</p></li><li>**動的 URL：**&#x200B;複数のディメンション項目や、ディメンション列内のすべてのディメンション項目に対して一意のハイパーリンクを作成する場合は、動的 URL を作成できます。<p>カスタム URL を動的にするには、ディメンションの値または分類ディメンションの値に基づいて URL を変更する変数を URL に含めます。</p><p>変数を使用する際、URL で有効でない文字（スペースなど）を含むディメンション項目は、URL エンコードされます。</p><p>使用できる変数は次のとおりです（**メモ**：これらの変数は同じ URL 内で使用できますが、別々に使用する方が一般的です）。</p> <ul><li>**`$value`：**&#x200B;指定した URL にディメンション項目の値を挿入できます。 <p>フリーフォームテーブル内のすべてのページ名ディメンション項目にハイパーリンクを作成するとします。各ディメンション項目の値は、web ページの URL の一部です。 この場合、各ディメンション項目に対して動的に調整される単一のカスタム URL を作成できます。 <br/>例：`https://example.com/browse/product#\$value`</p><p>値が「ProductY」および「ProductZ」のページ名ディメンション項目にこのカスタム URL を適用すると、生成されるハイパーリンクは <br/>`https://example.com/browse/product#ProductY` および <br/>`https://example.com/browse/product#ProductZ` のようになります </p><p>![ハイパーリンクで値を使用](assets/table-hyperlinks-vaule.png)</p><p>**ヒント**：カスタム URL フィールドに `$value` 変数のみを追加することは、URL の作成時に「[!UICONTROL **ディメンション項目の値を使用**]」オプションを選択することと同じです。</p></li><li>**`$breakdown`：**&#x200B;指定した URL に分類ディメンション項目の値を挿入できます。 `$breakdown` を使用すると、レポートでわかりやすい名前のディメンション（製品名ディメンションなど）を使用できます。 次に、わかりやすくない可能性のある分類ディメンション（製品 ID やページ URL ディメンションなど）に基づいてハイパーリンクを生成します。<p>分類ディメンションを参照する際、特定のディメンション項目に対して分類項目が 1 つのみあるのが最も一般的です。 特定のディメンション項目に複数の分類項目がある場合、最初の分類項目の値が URL で使用されます。 分類項目が一覧表示されていない場合、URL は無効です。 テーブルに適用されているのと同じ並べ替え順序が分類項目に適用されます。</p><p>以下の「[!UICONTROL **分類ディメンション**]」フィールドで分類ディメンションを指定します。</p> <p>以下の「[!UICONTROL **分類ディメンション**]」フィールドの説明に従って、シナリオ例を考慮します。</p></li></ul> |
-     | [!UICONTROL **分類ディメンション（オプション）**] | 使用する分類ディメンションの名前の入力を開始し、ドロップダウンリストから選択します。 <p>このフィールドで分類ディメンションを選択した場合は、「[!UICONTROL **カスタム URL**]」フィールドで指定した URL で `$breakdown` 変数を使用して参照する必要があります。</p><p>フリーフォームテーブル内のすべての製品名ディメンション項目にハイパーリンクを作成するとします。 各製品名ディメンション項目には、製品 ID ディメンションの分類が含まれています。</p></p>この場合、製品 ID 分類ディメンションの値を使用して、ユーザーを製品ページに誘導する各製品名ディメンションのハイパーリンクを作成できます。 </p><p>「[!UICONTROL **カスタム URL**]」フィールドで指定したカスタム URL の末尾に `$breakdown` 変数を追加します。 次に例を示します。</p><p>`https://example.com/browse/product/$breakdown`</p>製品名ディメンション項目（値が「ProductY」および「ProductZ」の分類ディメンション項目を持つ）にこのカスタム URL を適用すると、生成されるハイパーリンクは <br/>`https://example.com/browse/product/ProductY` および <br/>`https://example.com/browse/product/ProductZ` のようになります</p><p>次に、「[!UICONTROL **分類ディメンション**]」フィールドで製品 ID ディメンションを選択します </p><p>![ハイパーリンクで分類を使用](assets/table-hyperlinks-breakdown.png)</p> |
+     | [!UICONTROL **分類ディメンション（オプション）**] | 使用する分類ディメンションの名前の入力を開始し、ドロップダウンリストから選択します。 <p>このフィールドで分類ディメンションを選択した場合は、「[!UICONTROL **カスタム URL**]」フィールドで指定した URL で `$breakdown` 変数を使用して参照する必要があります。</p><p>フリーフォームテーブル内のすべての製品名ディメンション項目にハイパーリンクを作成するとします。 各製品名ディメンション項目には、製品 ID ディメンションの分類が含まれています。</p></p>この場合、製品 ID 分類ディメンションの値を使用して、ユーザーを製品ページに誘導するハイパーリンクを各製品名ディメンションに対して作成できます。 </p><p>「[!UICONTROL **カスタム URL**]」フィールドで指定したカスタム URL の末尾に `$breakdown` 変数を追加します。 例：</p><p>`https://example.com/browse/product/$breakdown`</p>製品名ディメンション項目（値が「ProductY」および「ProductZ」の分類ディメンション項目を持つ）にこのカスタム URL を適用すると、生成されるハイパーリンクは <br/>`https://example.com/browse/product/ProductY` および <br/>`https://example.com/browse/product/ProductZ` のようになります</p><p>次に、「[!UICONTROL **分類ディメンション**]」フィールドで製品 ID ディメンションを選択します </p><p>![ハイパーリンクで分類を使用](assets/table-hyperlinks-breakdown.png)</p> |
 
 1. 「[!UICONTROL **作成**]」を選択します。
 
@@ -123,15 +117,15 @@ ht-degree: 96%
 
    * **単一のディメンション項目のハイパーリンクを編集：**
 
-      1. ディメンション項目のコンテキストメニューを開きます。
-      1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを編集**]」を選択します。
+     1. ディメンション項目のコンテキストメニューを開きます。
+     1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを編集**]」を選択します。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **ディメンション列内のすべてのディメンション項目のハイパーリンクを編集：**
 
-      1. ディメンション列ヘッダーからコンテキストメニューを開きます。
-      1. コンテキストメニューから「**[!UICONTROL すべてのディメンション項目のハイパーリンクを編集]**」を選択します。
+     1. ディメンション列ヘッダーからコンテキストメニューを開きます。
+     1. コンテキストメニューから「**[!UICONTROL すべてのディメンション項目のハイパーリンクを編集]**」を選択します。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +151,14 @@ ht-degree: 96%
 
    * **単一のディメンション項目からハイパーリンクを削除：**
 
-      1. ディメンション項目のコンテキストメニューを開きます。
-      1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを削除**]」を選択します。
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. ディメンション項目のコンテキストメニューを開きます。
+     1. コンテキストメニューから「[!UICONTROL **ハイパーリンクを削除**]」を選択します。
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **ディメンション列内のすべてのディメンション項目からハイパーリンクを削除：**
 
-      1. ディメンション列ヘッダーからコンテキストメニューを開きます。
-      1. コンテキストメニューから「**[!UICONTROL すべてのディメンション項目のハイパーリンクを削除]**」を選択します。
+     1. ディメンション列ヘッダーからコンテキストメニューを開きます。
+     1. コンテキストメニューから「**[!UICONTROL すべてのディメンション項目のハイパーリンクを削除]**」を選択します。
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

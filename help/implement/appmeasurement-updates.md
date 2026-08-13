@@ -5,31 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 2880
@@ -97,13 +77,13 @@ ht-degree: 56%
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
 
 ## バージョン 2.22.1
 
 リリース日：**2021 年 8 月 17 日**
 
-* オプトアウトを使用している顧客は、リンクのトラッキング時に、サーバーサイド転送のオプトアウトパラメーターが適用されないことを確認した可能性があります。 このリリースの修正では、リンクのトラッキング時にオプトアウトフラグが存在する場合、オプトアウトフラグが送信される問題を修正しました。
+* オプトアウトを使用している顧客は、リンクのトラッキング時に、サーバーサイド転送のオプトアウトパラメーターが適用されないことを確認した可能性があります。 このリリースの修正により、リンクのトラッキング時にオプトアウトフラグが存在する場合は、そのフラグが送信されるようになりました。
 
 ## バージョン 2.22.0
 
@@ -148,7 +128,7 @@ ht-degree: 56%
 
 * [!UICONTROL AppMeasurement] による離脱リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。 ヒットが `sendBeacon` を使用して、ページがアンロードされた場合、リクエストは完了します。 ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクにとって非常に役立ちます。 （AN-175142）
 * ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。 （AN-175142）
-* Audience Manager モジュールを DIL 9.3 に更新しました。 （AN-182704）
+* Audience Management モジュールを DIL 9.3 に更新しました。 （AN-182704）
 * スクロールリーチのトラッキングをオン／オフするための `s.ActivityMap.trackScrollReach` の設定が追加されました。 （AN-182754）
 * AppMeasurement がアップグレードされ、訪問者 ID サービス 4.4.0 を使用するようになりました。 （AN-182912）
 
@@ -156,7 +136,7 @@ ht-degree: 56%
 
 リリース日：**2019 年 7 月 15 日**
 
-* ActivityMap 拡張機能に ActivityMap スクロールリーチトラッキングが追加されました。（AN-172949）
+* Activity Map 拡張機能に Activity Map のスクロールリーチトラッキングが追加されました。（AN-172949）
 * AppMeasurement に DIL 9.2 が追加されました（AN-182472）
 
 ## バージョン 2.14.0
@@ -223,7 +203,7 @@ ht-degree: 56%
 
 リリース日：**2018 年 3 月 30 日**
 
-訪問者 API 3.1.0（AN-159524）を再びバンドルします。これには、ホットフィックス（CORE-11390、CORE-10634）が含まれます。
+Visitor API 3.1.0（AN-159524）を再バンドルしました。このバンドルには、ホットフィックス（CORE-11390、CORE-10634）が含まれます。
 
 ## バージョン 2.8.0
 
@@ -232,7 +212,7 @@ ht-degree: 56%
 訪問者 API 3.1.0（AN-159524）を再びバンドルします。これには、ホットフィックス（CORE-11390、CORE-10634）が含まれます。
 
 * VAPI v3.1とAppMeasurement v2.8をバンドルします。 （AN-158353）
-* 共有を促進するために、データ収集エンドポイントをリファクタリングビルドしました。 （AN-156647）
+* 共有を促進するために、データ収集エンドポイントの構築処理をリファクタリングしました。 （AN-156647）
 * AppMeasurementにリクエストラウンドトリッピングタイミング指標を追加します。 （AN-158343）
 
 ## バージョン 2.7.0
@@ -408,7 +388,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 リリース日：**2015 年 4 月 17 日**
 
-* ライフサイクル指標を含むカスタムコンテキストデータ変数を含めることができるようになりました。
+* ライフサイクル指標にカスタムコンテキストデータ変数を含めることができるようになりました。
 * `trackBeacon` 呼び出しと `clearCurrentBeacon` 呼び出しを PhoneGap で使用できるようになりました。
 * `trackLight` 呼び出し後にライトサーバーコールのプロファイル ID をクリアするように若干の修正をおこないました。
 
@@ -450,7 +430,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
   >[!IMPORTANT]
   >
-  >Analytics呼び出しでAppMeasurementの`GET` メソッドの代わりに`POST` メソッドを使用する場合（IE[&#128279;](/help/implement/js/troubleshooting.md)で切り捨てられたURLを解決するメソッド）、CX Enterpriseの最新の訪問者ID サービス実装を使用する必要があります。
+  >Analytics呼び出しでAppMeasurementの`GET` メソッドの代わりに`POST` メソッドを使用する場合（IE](/help/implement/js/troubleshooting.md)で[切り捨てられたURLを解決するメソッド）、CX Enterpriseの最新の訪問者ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
@@ -458,11 +438,11 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 * バージョン 15 ではプラグインのレポートは存在しないため、ブラウザープラグインの追跡（`p` クエリーパラメーター）は削除されました。
 * ダウンロード用 zip に **[!UICONTROL AudienceManagement]** モジュールが追加されました。
-* 追加された eVar（76～250）およびイベント（101～1000）のサポートが追加されました。
+* 追加の eVar（76～250）およびイベント（101～1000）をサポートしました。
 
 >[!NOTE]
 >
->H コードは、追加の eVar およびイベントをサポートしていません。
+>H-Code は、追加の eVar およびイベントをサポートしていません。
 
 ## バージョン 1.3.2
 
@@ -481,7 +461,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 リリース日：**2014 年 4 月 18 日**
 
-* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)のサポート。
+* [訪問者ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)のサポート。
 
 ## バージョン 1.2.4
 
@@ -505,7 +485,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 リリース日：**2013 年 11 月 16 日**
 
-* ハートビートビデオ測定に使用するページイベントを修正しました。
+* Heartbeat ビデオ測定に使用されるページイベントを修正しました。
 
 ## バージョン 1.2
 
@@ -516,7 +496,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 ## バージョン 1.1.1
 
-* 「opera:」で始まるリンクについて（「opera:」は他のブラザーの「about:」および「chrome:」と同じ）、リンクトラッキング呼び出しが Opera ブラウザーから送信されませんでした。
+* 「opera:」で始まるリンクについて（「opera:」は他のブラウザーの「about:」や「chrome:」と同様）、Opera ブラウザーからリンクトラッキング呼び出しが送信されないようにしました。
 * Accessible Video and Communications Act に準拠するために、すべての画像オブジェクトに `alt=""` が追加されました。
 
 ## バージョン 1.1
@@ -537,13 +517,13 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 リリース日：**2013 年 7 月 18 日**
 
-* 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。 以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
+* 自動リンクトラッキングでハッシュ／フラグメントが無視されるようになりました。 以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
 
   ```js
   <a href="index.htm#anchor.pdf">Test Link</a>
   ```
 
-  現在はハッシュ／フラグメントが無視されるので、ファイル名の拡張子が一致する場合にのみリンクが追跡されます。
+  現在はハッシュ／フラグメントが無視されるので、ファイル名の拡張子が一致する場合にのみリンクがトラッキングされます。
 
 ## バージョン 1.0.1
 
@@ -551,7 +531,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 新しいJavaScript AppMeasurement ライブラリがCode Managerで使用できるようになりました。 このライブラリは `s_code.js` と同じ機能を提供しますが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
 
-* H.25 コードと比較して 3 倍～7 倍も高速
-* わずか 21K の非圧縮コード、8K の gzip 圧縮コード（H.25 コードでは、33K もの非圧縮コード、13K の gzip 圧縮コード）。
-* クエリーパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行をネイティブサポート。
+* H.25 コードと比較して 3 倍～7 倍も高速になりました。
+* 非圧縮時はわずか 21K、gzip 圧縮時は 8K（H.25 コードは非圧縮時 33K、gzip 圧縮時 13K）です。
+* クエリパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行をネイティブにサポートしています。
 * モバイルサイトで使用できるほどの小型で高速、完全なデスクトップ webで使用できるほどの堅牢性を備えており、あらゆるweb環境で単一のライブラリを活用できます。

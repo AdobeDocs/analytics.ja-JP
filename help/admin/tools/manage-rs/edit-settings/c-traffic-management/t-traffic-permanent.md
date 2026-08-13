@@ -1,20 +1,15 @@
 ---
 description: 「永続的なトラフィック」セクションでは、予想されるトラフィックレベルを変更できるため、Adobeは新しいトラフィックレベルを処理するためにリソースを再割り当てできます。
-title: 恒常的なトラフィック増加の指定
+title: 恒常的なトラフィック増加を指定する
 feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 TQID: 'https://experienceleague.adobe.com/rG7MvWBCPQulpbjqU9x11TfLW8nFUX-cFii-ya1gCWU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 169
@@ -22,13 +17,13 @@ ht-degree: 87%
 
 ---
 
-# 恒常的なトラフィック増加の指定
+# 恒常的なトラフィック増加を指定する
 
 新しいトラフィックレベルを処理するためのリソースをアドビが再割り当てできるよう、予想されるトラフィックレベルを変更できます。 （または、リソースを一時的に再割り当てする場合は、[トラフィックスパイクをスケジュール](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)できます。）
 
 {{$include /help/_includes/traffic-lead-time.md}}
 
-## 恒常的なトラフィック増加の指定
+## 恒常的なトラフィック増加を指定する
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックして、レポートスイートマネージャーを開きます。
 1. レポートスイートを選択します。
@@ -40,4 +35,4 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >恒常的なトラフィックの増加をスケジュールする場合、必要に応じてアドビから連絡できるように、ユーザーの連絡先情報に電話番号を含めてください。
+   >恒常的なトラフィック増加をスケジュールする場合、必要に応じてアドビから連絡できるように、ユーザー連絡先情報に電話番号を含めてください。

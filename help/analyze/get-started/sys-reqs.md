@@ -4,16 +4,10 @@ description: Adobe Analytics を使用するための必要システム構成で
 feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 TQID: 'https://experienceleague.adobe.com/g1vx8w5-xediBUnktEPyZyV6iBFHd-thXhbuBdSYBYw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 193
@@ -23,7 +17,7 @@ ht-degree: 100%
 
 # Adobe Analytics の必要システム構成と前提条件
 
-Adobe Analytics を管理者として実装する前や、アナリストまたはエンドユーザーとして使用する前に、まず次の前提条件と必要システム構成を理解しておく必要があります。
+Adobe Analytics を管理者として実装する前や、アナリストまたはユーザーとして使用する前に、まず次の前提条件と必要システム構成を理解しておく必要があります。
 
 ## Adobe Analytics を使用するための前提条件
 
@@ -41,7 +35,7 @@ Adobe Analytics を使用するには、以下が必要です。
 
 ほとんどの Adobe Analytics ソリューションは、ブラウザーで実行されます。 次の情報は、ブラウザーとクライアントの両方のソリューションの必要システム構成を示します。
 
-### ブラウザーベースソリューションの必要システム構成
+### ブラウザーベースのソリューションの必要システム構成
 
 Analysis Workspace を含む、ほとんどの Adobe Analytics ソリューションはブラウザーベースです。 したがって、Adobe Analytics を使用するための最も重要な要件は、最新の Web ブラウザーです。 アドビは、次のブラウザーの最新の安定したバージョンをサポートしています。
 
@@ -50,7 +44,7 @@ Analysis Workspace を含む、ほとんどの Adobe Analytics ソリューシ�
 * Mozilla Firefox
 * Apple Safari
 
-### ブラウザーベース以外のソリューションの必要システム構成
+### 非ブラウザーソリューションの必要システム構成
 
 そのソリューションの必要システム構成については、リンクされたソリューションのページを参照してください。
 

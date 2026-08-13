@@ -4,18 +4,10 @@ title: セグメントの作成
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
 source-wordcount: 1963
@@ -60,7 +52,7 @@ ht-degree: 73%
    | 要素 | 説明 |
    | --- | --- |
    | **[!UICONTROL レポートスイート]** | セグメントのレポートスイートを選択できます。 |
-   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトにのみ表示され、 セグメントがコンポーネントリストに追加されないことを説明する情報ボックス。 この設定を変更するには、**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**&#x200B;を有効にします。 この情報ボックスは、[クイックセグメント](seg-quick.md)を作成し、[!UICONTROL クイックセグメント]インターフェイスから&#x200B;**[!UICONTROL ビルダーを開く]**&#x200B;を使用してクイックセグメント情報を通常のセグメントに変換した場合にのみ表示されます。 |
+   | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトにのみ表示されることを説明する情報ボックスです。 また、そのセグメントはコンポーネントリストに追加されません。 この設定を変更するには、**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**&#x200B;を有効にします。 この情報ボックスは、[クイックセグメント](seg-quick.md)を作成し、[!UICONTROL クイックセグメント]インターフェイスから&#x200B;**[!UICONTROL ビルダーを開く]**&#x200B;を使用してクイックセグメント情報を通常のセグメントに変換した場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | セグメントに名前を付けます（例：`Last month mobile visitors`）。 |
    | **[!UICONTROL 説明]** | セグメントに説明を付けます（例：`Segment to define the mobile customers for the last month`）。 |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。 または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。 「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
@@ -68,7 +60,7 @@ ht-degree: 73%
 
    {style="table-layout:auto"}
 
-1. セグメント定義が正しいかどうかを確認するには、右上にあるセグメントの結果の一貫して更新されるプレビューを使用します。
+1. セグメント定義が正しいかどうかを確認するには、右上にあるセグメント結果の常に更新されるプレビューを使用します。
 1. セグメントをCX Enterpriseに公開するには、**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート*の場合）]**&#x200B;を選択します。 詳しくは、[CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)を参照してください。
 1. 次のいずれかを選択します。
    * 「**[!UICONTROL 保存]**」を選択して、セグメントを保存します。
@@ -79,14 +71,14 @@ ht-degree: 73%
 
 ## 定義ビルダー
 
-セグメント定義を作成するには、定義ビルダーを使用します。 この作成では、コンポーネント、コンテナ、演算子およびロジックを使用します。
+セグメント定義を作成するには、セグメントビルダーを使用します。 この作成では、コンポーネント、コンテナ、演算子およびロジックを使用します。
 
 定義のタイプと範囲を設定できます。
 
 1. 定義のタイプを指定するには、包含または除外の定義を作成するかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
-1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
+1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [ サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
 
-これらの設定は、後で常に変更できます。
+これらの設定は、いつでも後から変更できます。
 
 ### コンポーネント
 
@@ -98,7 +90,7 @@ ht-degree: 73%
 
 1. コンポーネントパネルからコンポーネントを&#x200B;**[!UICONTROL ここに指標、セグメント、ディメンションをドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。
    * コンポーネントバーで![検索](/help/assets/icons/Search.svg)を使用して、特定のコンポーネントを検索できます。
-   * コンポーネントバーの![&#x200B; フィルター](/help/assets/icons/Filter.svg)を使用して、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![&#x200B; データディメンション &#x200B;](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![&#x200B; イベント &#x200B;](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![&#128279;](/help/assets/icons/Layer.svg)&#x200B; セグメント **![[!UICONTROL カレンダー]](/help/assets/icons/Calendar.svg)日付**&#x200B;[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]&#x200B;**、および&#x200B; レイヤー**&#x200B;[!UICONTROL &#x200B;製品&#x200B;]&#x200B;**コンポーネント。 &#x200B;![](/help/assets/icons/Segmentation.svg)&rbrack;**&lbrack;![&#x200B; ラベル &#x200B;](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
+   * コンポーネントバーの![ フィルター](/help/assets/icons/Filter.svg)を使用して、![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![ データディメンション ](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![ セグメント **[!UICONTROL カレンダー](/help/assets/icons/Calendar.svg)日付**[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]**、および![ レイヤー](/help/assets/icons/Layer.svg)**[!UICONTROL &#x200B;製品&#x200B;]**コンポーネント。 ](/help/assets/icons/Segmentation.svg)]**![![ ラベル ](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
 1. コンポーネントの詳細を指定します。 例えば、「**[!UICONTROL 値を選択]**」から値を選択します。 または値を入力します。 1 つ以上の値を指定できる内容と方法は、コンポーネントと演算子によって異なります。
 1. オプションで、デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
@@ -121,9 +113,9 @@ ht-degree: 73%
 * コンテナを追加するには、![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]** から「**[!UICONTROL コンテナを追加]**」を選択します。
 * 既存のコンポーネントをコンテナに追加するには、コンテナにコンポーネントをドラッグ＆ドロップします。
 * 別のコンポーネントをコンテナに追加するには、コンポーネントパネルからコンテナにコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
-* 別のコンポーネントをコンテナの外側に追加するには、コンテナの外側、メイン定義コンテナの内側にあるコンポーネントパネルからコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
+* 別のコンポーネントをコンテナの外側に追加するには、コンポーネントパネルからコンポーネントをドラッグ＆ドロップし、コンテナの外側でメイン定義コンテナの内側に配置します。 青色の挿入線をガイドとして使用します。
 * コンポーネント、コンテナ、またはその組み合わせのロジックを変更するには、適切な&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**&#x200B;を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
-* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
+* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
 
 コンテナ内の ![設定](/help/assets/icons/Setting.svg) は、次のアクションに使用できます。
 
@@ -148,7 +140,7 @@ ht-degree: 73%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントでの周期的な日付範囲](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントでの周期的な日付範囲](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +163,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="繰り返し"
->abstract="ディメンションのインスタンスと持続値を含みます。"
+>abstract="ディメンションのインスタンスと永続化された値を含みます。"
 
 
 >[!CONTEXTUALHELP]
@@ -183,18 +175,18 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="繰り返さないインスタンス"
->abstract="ディメンション固有の（繰り返さない）インスタンスを含みます。"
+>abstract="ディメンションの一意の（重複しない）インスタンスを含みます。"
 
 
 
 
-セグメントビルダーでディメンションを使用する場合、そのディメンションのアトリビューションモデルを指定するオプションがあります。 選択したアトリビューションモデルによって、ディメンションコンポーネントに指定した条件に対して選定されるデータが決まります。
+セグメントビルダーでディメンションを使用する場合、そのディメンションのアトリビューションモデルを指定するオプションがあります。 選択したアトリビューションモデルによって、ディメンションコンポーネントに指定した条件に該当するデータが決まります。
 
 ディメンションコンポーネント内で ![設定](/help/assets/icons/Setting.svg) を選択し、ポップアップからアトリビューションモデルのいずれかを選択します。
 
 | モデル | 説明 |
 |---|---|
-| **[!UICONTROL 繰り返しモデル（デフォルト）]** | ディメンションにインスタンスと永続化された値を含めると、選定が決まります。 |
+| **[!UICONTROL 繰り返しモデル（デフォルト）]** | 選定を判断するために、ディメンションにインスタンスと永続化された値を含めます。 |
 | **[!UICONTROL インスタンス]** | ディメンションにインスタンス値のみを含めると、選定が決まります。 |
 | **[!UICONTROL 繰り返さないインスタンス]** | ディメンションに一意のインスタンス（繰り返さない）値を含めると、選定が決まります。 繰り返し以外のインスタンスは、繰り返しインスタンスが除外されたときにフローに適用されるモデルです。 |
 
@@ -203,7 +195,7 @@ ht-degree: 73%
 
 ### 例
 
-セグメント定義の一部として、条件「ページ名が女性に等しい」を指定しました。 上記の例と同様です。 他の 2 つのアトリビューションモデルを使用して、このセグメント定義を繰り返します。 したがって、それぞれ独自のアトリビューションモデルを持つ 3 つのセグメントがあることになります。
+セグメント定義の一部として、「ページ名が「Women」と等しい」という条件を指定しました。 上記の例と同様です。 他の 2 つのアトリビューションモデルを使用して、このセグメント定義を繰り返します。 したがって、それぞれ独自のアトリビューションモデルを持つ 3 つのセグメントがあることになります。
 
 * 女性ページ - アトリビューション - 繰り返し（デフォルト）
 * 女性ページ - アトリビューション - インスタンス
@@ -271,7 +263,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +324,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -400,7 +392,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
    <td colname="col2">注文イベントに参加しなかった訪問者のデータを表示します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 単一ページ訪問数以外（非バウンス） </td> 
+   <td colname="col1"> 単一ページではない訪問（非バウンス） </td> 
    <td colname="col2">複数回訪問した訪問者のデータを表示します。</p> </td> 
   </tr> 
   <tr> 
@@ -417,7 +409,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
   </tr> 
   <tr> 
    <td colname="col1"> 単一ページ訪問数 </td> 
-   <td colname="col2"> 単一ページ値が表示される訪問時のデータを表示します。ただし、訪問時に複数のページビューを送信する場合があります。 離脱リンクイベントを持つ単一ページ訪問数がセグメントに含まれます。  </td> 
+   <td colname="col2"> 単一ページ値が表示される訪問時のデータを表示します。ただし、訪問時に複数のページビューを送信する場合があります。 離脱リンクイベントを持つ単一ページ訪問はセグメントに含まれます。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 閲覧された製品が買い物かごに追加されなかった </td> 
@@ -436,7 +428,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
    <td colname="col2">有料検索以外からの訪問者のデータを表示します。  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> モバイルデバイス以外からの訪問回数 </td> 
+   <td colname="col1"> モバイルデバイス以外からの訪問 </td> 
    <td colname="col2">モバイルデバイスを使用していない訪問者のデータを表示します。 </td> 
   </tr> 
   <tr> 

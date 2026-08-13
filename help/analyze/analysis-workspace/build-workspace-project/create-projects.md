@@ -5,22 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 TQID: https://experienceleague.adobe.com/5VXsU74Wcu66eMdDI5kdj2iW9KxUayx1hI7RMpYgT-E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 408
@@ -51,15 +39,15 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 * プロジェクトに[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)を追加します。 例えば、 **[!DNL Example Panel]** は ➊ です。
 
 * パネルに[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を追加します。 例：
-   * **[!DNL Line]**&#x200B;[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
-   * **[!DNL US States]**&#x200B;[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
+  * **[!DNL Line]**[&#x200B;折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション➋
+  * **[!DNL US States]**[&#x200B;フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)ビジュアライゼーション➌
 * ビジュアライゼーションに[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を追加します。 例：
-   * **[!DNL US States]**&#x200B;[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
-   * **[!DNL Unique Visitors]**&#x200B;[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
-   * **[!DNL Average Revenue Per Order]**&#x200B;[&#x200B;計算指標](/help/components/calculated-metrics/cm-overview.md)➏
-   * **[!DNL Visits from Mobile Devices]**&#x200B;[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
-   * **[!DNL Last Month]**&#x200B;[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
-   * **[!DNL Example]**&#x200B;[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
+  * **[!DNL US States]**[&#x200B;ディメンション](/help/components/dimensions/overview.md)➍
+  * **[!DNL Unique Visitors]**[&#x200B;指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)➎
+  * **[!DNL Average Revenue Per Order]**[&#x200B;計算指標](/help/components/calculated-metrics/cm-overview.md)➏
+  * **[!DNL Visits from Mobile Devices]**[&#x200B;セグメント](/help/components/segmentation/seg-overview.md)➐
+  * **[!DNL Last Month]**[&#x200B;日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)➑
+  * **[!DNL Example]**[&#x200B;注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)➒
 
 
 ## プロジェクト情報および設定 {#project-info-settings}
@@ -78,10 +66,10 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 >[!CONTEXTUALHELP]
 >id="workspace_project_commenting"
 >title="コメントを許可"
->abstract="有効にすると、Analysis Workspace でプロジェクトの右側のパネルにコメント領域が表示されます。"
+>abstract="有効にすると、Analysis Workspace のプロジェクトの右側のパネルにコメント領域が表示されます。"
 
 
-プロジェクト設定は、現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
+プロジェクト設定では、現在アクティブなプロジェクトに関するプロジェクトレベルの情報が提供されます。
 
 ![プロジェクト情報および設定ウィンドウ](./assets/projectinfo.png)。
 
@@ -94,9 +82,9 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | プロジェクトに適用されているタグを一覧表示して、分類を容易にします。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。 説明をダブルクリックして編集できます。 |
-| 繰り返しインスタンスをカウント | レポート内でレポートインスタンスがカウントされるかどうかを指定します。 メモ：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
+| 繰り返しインスタンスをカウント | レポート内で繰り返しインスタンスがカウントされるかどうかを指定します。 メモ：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
 | 注釈を表示 | このプロジェクトに対して注釈を表示するかどうかを指定します。 |
-| [プロジェクトカラーパレット](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Workspace で使用する分類カラーパレットを変更するには、色弱のユーザー向け用に最適化されている既定のパレットを選択するか、カスタムパレットを指定します。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
+| [プロジェクトカラーパレット](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Workspace で使用する分類カラーパレットは、色弱のユーザー向けに最適化された既定のパレットを選択するか、カスタムパレットを指定することで変更できます。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 左パネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
 

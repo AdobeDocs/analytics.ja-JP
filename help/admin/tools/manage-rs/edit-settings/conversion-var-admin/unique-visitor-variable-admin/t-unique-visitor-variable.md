@@ -1,21 +1,15 @@
 ---
-description: 訪問者の識別子を含んでいる eVar を指定する方法について手順を説明します。
+description: どの eVar に訪問者の識別子を含めるかを指定する方法についての手順を説明します。
 title: ユニーク訪問者変数の指定
 feature: Admin Tools
 role: Admin
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 TQID: 'https://experienceleague.adobe.com/xg4QZogSX-9wozDGiiSMV3svACmdXqHISmaHY9XVg2w'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bceid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 101
@@ -27,9 +21,9 @@ ht-degree: 100%
 
 どの eVar に訪問者識別子を含めるかを指定できます。
 
-この変数は、eVar を指定してユニーク訪問者 ID を格納します。 この変数を使用すると、独自の一意の ID を使って顧客のアクティビティを報告できます。
+この変数は、eVar を指定してユニーク訪問者 ID を格納します。 この変数を使用すると、独自の一意の ID を使用して顧客のアクティビティをレポートできます。
 
-どの eVar に訪問者識別子を含めるかを指定するには：
+どの eVar に訪問者の識別子を含めるかを指定するには：
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. レポートスイートを選択します。

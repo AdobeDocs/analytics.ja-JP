@@ -5,18 +5,10 @@ feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 TQID: https://experienceleague.adobe.com/qik-sXUm4ldjmWLyjowFcz0EVYDWU9ex0dyPsE-BiRU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1207
@@ -24,21 +16,21 @@ ht-degree: 90%
 
 ---
 
-# データ辞書でのコンポーネントエントリの編集
+# データ辞書でコンポーネントエントリを編集
 
 Analytics 管理者は、特定のレポートスイートのデータ辞書でのコンポーネントエントリを編集できます。 変更内容は、レポートスイートのすべてのユーザーに表示されます。
 
-データ辞書でのコンポーネントを編集するには：
+データ辞書内のコンポーネントを編集するには：
 
 1. 編集するコンポーネントを含む Analysis Workspace プロジェクトに移動します。
 
-1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します （データディクショナリへのアクセス方法については、[&#x200B; データディクショナリへのアクセス &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
+1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します （データディクショナリへのアクセス方法については、[ データディクショナリへのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
 
    データ辞書ウィンドウが表示されます。
 
    ![データ辞書の管理者表示](assets/data-dictionary-admin.png)
 
-1. ドロップダウンメニューで正しいレポートスイートが選択されます。 デフォルトでは、既に存在するレポートスイートが表示されます。
+1. ドロップダウンメニューで正しいレポートスイートが選択されていることを確認します。 デフォルトでは、現在使用中のレポートスイートが表示されます。
 
 1. （オプション）検索フィールドに、編集するコンポーネントの名前を入力します。
 
@@ -83,9 +75,9 @@ Analytics 管理者は、特定のレポートスイートのデータ辞書で�
    |---------|----------|
    | **[!UICONTROL 承認済み]** | <p>コンポーネントが管理者にレビューおよび承認されたことを示します。</p><p>コンポーネントが承認されたら、管理者は「**承認済み**」ボタンを選択して承認を削除できます。</p> |
    | **[!UICONTROL 承認が必要です]** | <p>コンポーネントがまだ管理者にレビューおよび承認されていないことを示します。</p><p>管理者には、「**[!UICONTROL 承認]**」オプションが表示されます。 このオプションを選択すると、ユーザーに対してコンポーネントが「承認済み」としてマークされます。</p> |
-   | **[!UICONTROL 説明]** | コンポーネントの意図された機能について説明します （この情報は、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)で説明しているように、Analytics 管理者が追加します）。 |
-   | **[!UICONTROL 次でよく使用される]** | <p>表示しているコンポーネントと最も一緒に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。 表示するアクセス権を持つコンポーネントのみを表示します。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
-   | **[!UICONTROL 類似]** | <p>表示しているコンポーネントと同様の名前を持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するアクセス権を持つコンポーネントのみを表示します。</p><p>レポートスイート内の重複するコンポーネントもすべてここに表示されます。 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを特定して削除する必要があります。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**メモ：**&#x200B;現在、「**類似**」セクションには、ユーザー作成のコンポーネントのみが含まれており、アドビ提供のコンポーネントは含まれていません。 アドビ提供のコンポーネントは、今後のリリースで追加される予定です。</p> |
+   | **[!UICONTROL 説明]** | コンポーネントの意図された機能について説明します。 （この情報は、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)で説明しているように、Analytics 管理者が追加します）。 |
+   | **[!UICONTROL 次でよく使用される]** | <p>表示中のコンポーネントと最も一緒に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。 表示するアクセス権を持つコンポーネントのみを表示します。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
+   | **[!UICONTROL 類似]** | <p>表示中のコンポーネントと同様の名前を持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>レポートスイート内の重複するコンポーネントもすべてここに表示されます。 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを特定して削除する必要があります。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**メモ：**&#x200B;現在、「**類似**」セクションには、ユーザー作成のコンポーネントのみが含まれており、アドビ提供のコンポーネントは含まれていません。 アドビ提供のコンポーネントは、今後のリリースで追加される予定です。</p> |
    | **[!UICONTROL タグ]** | コンポーネントに適用されているすべてのタグを表示します。 管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
    | **[!UICONTROL コンポーネントの種類]** | ディメンション、指標、セグメント、または日付範囲のいずれかであるコンポーネントのタイプをリストします。 |
    | **[!UICONTROL 作成者]** | コンポーネントを作成したユーザーの名前を表示します。 |

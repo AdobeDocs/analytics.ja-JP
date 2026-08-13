@@ -1,23 +1,15 @@
 ---
 title: 動的変数
-description: イメージリクエストの長さを増やさずに変数をコピーします。
+description: イメージリクエストの長さを増やすことなく変数をコピーします。
 feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 444
@@ -27,13 +19,13 @@ ht-degree: 82%
 
 # 動的変数
 
-動的変数を使用すると、イメージリクエストの長さを増やすことなく、変数間で値をコピーできます。 複数の変数で同じデータを取り込む場合に便利です。
+動的変数を使用すると、イメージリクエストの長さを増やすことなく、ある変数から別の変数へ値をコピーできます。 複数の変数で同じデータを取り込む場合に便利です。
 
-以前のバージョンの Analytics では、データが切り捨てられるのを防ぐために、イメージリクエストの長さが重要でした。 AppMeasurement の改善により、イメージリクエストのクエリ文字列を大幅に長くすることができるので、通常、動的変数は不要です。
+以前のバージョンの Analytics では、データが切り捨てられるのを防ぐために、イメージリクエストの長さが重要でした。 AppMeasurement の改善により、イメージリクエストのクエリ文字列を以前よりもはるかに長くできるようになったため、通常は動的変数を使用する必要はありません。
 
 動的変数は、イメージリクエスト内のクエリ文字列パラメーターまたは HTTP ヘッダーをサポートします。 参照可能なパラメーターの完全なリストについては、[データ収集クエリーパラメーター](../../validate/query-parameters.md)を参照してください。 参照可能な HTTP 要求フィールドの完全なリストについては、Wikipedia の [Standard request fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)（英語）を参照してください。
 
-動的変数の接頭辞が認識されると、レポートスイートのクエリ文字列または HTTP ヘッダー値が自動的にコピーされます。 このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
+アドビが動的変数の接頭辞を認識すると、レポートスイート内のクエリ文字列または HTTP ヘッダーの値が自動的にコピーされます。 このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
 
 >[!TIP]
 >
@@ -47,11 +39,11 @@ ht-degree: 82%
 1. 左側のパネルで「**[!UICONTROL データストリーム]**」をクリックします。
 1. 目的のデータストリームをクリックします。
 1. 右側の「**[!UICONTROL マッピングを編集]**」をクリックします。
-1. 目的の[!UICONTROL Source フィールド &#x200B;]を目的の[!UICONTROL &#x200B; ターゲットフィールド &#x200B;]にマッピングします。 1つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
+1. 目的の[!UICONTROL Source フィールド ]を目的の[!UICONTROL  ターゲットフィールド ]にマッピングします。 1つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
 
 ## Adobe Analytics拡張機能を使用した動的変数
 
-動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。 ディメンションこう項目は、通常、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定されます。
+動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。 ディメンション項目は、通常、Analytics 拡張機能の設定時（グローバル変数）やルール内で設定されます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
@@ -80,4 +72,4 @@ s.eVar1 = "D=g";
 
 >[!NOTE]
 >
->動的変数は、実装のデバッグ時に文字列として表示されます。 値は、アドビのデータ収集サーバーによってサーバー側でコピーされます。
+>動的変数は、実装のデバッグ時に文字列として表示されます。 値は、アドビのデータ収集サーバーによってサーバーサイドでコピーされます。

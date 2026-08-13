@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Vnia0RzQf6S5-gbgwIlM0WOiSgm2ZOzL24pvIKNgMl4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 271
@@ -31,7 +23,7 @@ AppMeasurement によって設定される Cookie の有効期限は通常 2 年
 
 >[!NOTE]
 >
->この変数は、ユニーク訪問者数と属性に影響を与えます。 この変数を設定する場合は注意が必要です。
+>この変数は、ユニーク訪問者数とアトリビューションに影響を与えます。 この変数を設定する場合は注意が必要です。
 
 ## Web SDKを使用したCookieの有効期間
 
@@ -42,7 +34,7 @@ Web SDKでは、設定したCookieの有効期間に対するカスタマイズ�
 Cookie Lifetimeは、Adobe Analytics拡張機能を設定する際の[!UICONTROL Cookie] アコーディオンの下にあるドロップダウンリストです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL Cookie]」アコーディオンを展開すると、「[!UICONTROL Cookie Lifetime]」ドロップダウンリストが表示されます。
 

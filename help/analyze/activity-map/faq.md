@@ -5,20 +5,11 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 TQID: 'https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1123
@@ -60,7 +51,7 @@ Activity Mapは、数秒ごとにweb ページをスキャンし、変化を探�
 
 * Activity Map は、把握しているリンクの表示／非表示が変更されたかどうかを確認します。 表示に変更が見つかった場合、そのリンクの「ページ上のリンク」の表の「現在の列」が、「[!UICONTROL 表示]」または「[!UICONTROL 非表示]」に更新されます。
 
-* ユーザーによる操作で新しいコンテンツが作成されると、AppMeasurementがリンクとして判断した新しい要素が[!UICONTROL &#x200B; ページ上のリンク &#x200B;] テーブルに追加されます。 Activity Map は、これらの新しいリンクを含む新しいデータリクエストを送信します。 データリクエストが返されると、新しいリンクが[!UICONTROL &#x200B; ページ上のリンク &#x200B;] テーブルに表示されます。
+* ユーザーによる操作で新しいコンテンツが作成されると、AppMeasurementがリンクとして判断した新しい要素が[!UICONTROL  ページ上のリンク ] テーブルに追加されます。 Activity Map は、これらの新しいリンクを含む新しいデータリクエストを送信します。 データリクエストが返されると、新しいリンクが[!UICONTROL  ページ上のリンク ] テーブルに表示されます。
 
 +++
 
@@ -72,7 +63,7 @@ Activity Mapは、数秒ごとにweb ページをスキャンし、変化を探�
 
 +++Activity Map はどのブラウザーとバージョンをサポートしていますか？
 
-Activity Mapでは、ほとんどのブラウザーの最新バージョンがサポートされています。
+Activity Map では、ほとんどのブラウザーの最新バージョンがサポートされています。
 
 +++
 
@@ -127,7 +118,7 @@ Activity Map では、2 秒ごとにチェックをおこない、web ページ�
 
 +++データフィードを通じてActivity Map データを書き出すことはできますか？
 
-はい。 Activity Mapが使用する[&#x200B; データフィード列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)は次のとおりです。
+はい。 Activity Mapが使用する[ データフィード列](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)は次のとおりです。
 
 * Activity Map リンク：`clickmaplink`
 * Activity Map ページ：`clickmappage`

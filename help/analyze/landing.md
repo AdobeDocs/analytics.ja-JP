@@ -5,23 +5,10 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -39,11 +26,11 @@ Adobe Analytics ランディングページには、次のサブタブが含ま�
 
 **[!UICONTROL 学習]**：実践的なビデオツアー、チュートリアル、ドキュメントへのリンクが含まれています。
 
-![AA ランディングページ左パネル &#x200B;](assets/aa-landing-page-left-rail.png)
+![AA ランディングページ左パネル ](assets/aa-landing-page-left-rail.png)
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics ランディングページ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +73,7 @@ Adobe Analyticsのプロジェクトにアクセスするには：
 | [!UICONTROL **所有者**] | プロジェクトを作成した人物を識別します。 |
 | [!UICONTROL **共有先**] | プロジェクトの現在の共有先を表示します。 |
 | [!UICONTROL **最終変更日時**] | プロジェクトが最後に変更された日時。 |
-| [!UICONTROL **前回開いた日時**] | 現在プロジェクトページを表示しているユーザーが、プロジェクトが最後に開いた日付を識別します。 |
+| [!UICONTROL **前回開いた日時**] | 現在、「プロジェクト」ページを表示しているユーザーが、そのプロジェクトを最後に開いた日付を示します。 |
 | [!UICONTROL **前回の使用**] | 組織内のユーザーがプロジェクトを最後に開いた日時を示すことで、プロジェクトが組織内のユーザーにとって有用かどうかを判断するのに役立ちます。<p>この列を表示する際は、次の点を考慮してください。</p><ul><li>使用状況に関する情報は、2023年9月より提供されます。</li><li>この列は、システム管理者のみが使用できます。</li></ul> |
 | [!UICONTROL **プロジェクト ID**] | プロジェクトのデバッグに使用できます。 |
 | [!UICONTROL **最長の日付範囲**] | 日付範囲を長くすると、プロジェクトの複雑さが増し、処理や読み込みにかかる時間が長くなる場合があります。 |
@@ -144,9 +131,9 @@ Adobe Analyticsの学習ページを使用して、Adobe Analyticsの初級、�
 * **コンテンツをフィルタリング：**&#x200B;左側のパネルの「フィルター」アイコンを使用すると、学習コンテンツをエクスペリエンスレベル（初級、中級、上級）およびコンテンツタイプ（ドキュメント、ビデオ、ツアーとチュートリアル）ごとにフィルタリングできます。
 * **進行状況を追跡：**&#x200B;コンテンツを選択すると、「**[!UICONTROL 表示済み]**」タグが表示されます。 このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。 「**[!UICONTROL 表示済み]**」タグを選択して、コンテンツの一部から削除できます。
 * **追加コンテンツを表示：**&#x200B;ビデオの表示中に「**[!UICONTROL 詳細情報]**」ボタンを選択すると、Experience League の関連ドキュメントコンテンツが表示されます。 または、学習ページから次のオプションのいずれかを選択して追加コンテンツを表示します。
-   * **[!UICONTROL YouTube を訪問]：** Analysis Workspace の完全な YouTube プレイリストを表示します。
-   * [!UICONTROL **Experience League を訪問**]：Experience League で Adobe Analytics ドキュメントの完全なスイートを表示します。
-* **新規ユーザー向けの基礎：**&#x200B;新規ユーザーには、[!UICONTROL Workspace の基本]ツアーをお勧めします。 このツアーでは、Workspace に直接移動し、最も一般的なアクションを順を追って説明します。 このツアーは、パネルヘッダーのツールチップポップオーバーを使用して、Workspace で任意の時間に再度開始することもできます。
+  * **[!UICONTROL YouTube を訪問]：** Analysis Workspace の完全な YouTube プレイリストを表示します。
+  * [!UICONTROL **Experience League を訪問**]：Experience League で Adobe Analytics ドキュメントの完全なスイートを表示します。
+* **新規ユーザー向けの基礎：**&#x200B;新規ユーザーには、[!UICONTROL Workspace の基本]ツアーをお勧めします。 このツアーでは、Workspace に直接移動し、最も一般的なアクションを順を追って説明します。 このツアーは、パネルヘッダーのツールチップポップオーバーを使用して、Workspace 内でいつでも再度開始できます。
 
 ## ランディングページの設定 {#set-landing}
 
@@ -164,5 +151,5 @@ Adobe Analyticsの学習ページを使用して、Adobe Analyticsの初級、�
 | [!UICONTROL ワークスペース]にあったテンプレートはどこにありますか。 | これらのテンプレートは、「[!UICONTROL テンプレート]」タブの下にグループ化されています。 |
 | ベータ版プログラム UI での作業内容は、実稼動用の[!UICONTROL ワークスペース]エクスペリエンスに引き継がれますか。 | はい、ベータ版で行った作業はすべて古い／現在の[!UICONTROL ワークスペース]エクスペリエンスに引き継がれます。 |
 | 以前の Reports &amp; Analytics のお気に入りは引き継がれますか？ | いいえ、引き継がれません。 ただし、[!UICONTROL ワークスペース]プロジェクトのお気に入りは引き継がれます。 |
-| ピン留めできるプロジェクトに最大数はありますか？ | いいえ。固定できるプロジェクトの数に制限はありません。 |
+| ピン留めできるプロジェクトに最大数はありますか？ | いいえ。ピン留めできるプロジェクトの数に制限はありません。 |
 | 管理者は、このランディングページをユーザーに指定できますか？ | いいえ。管理者は、ユーザーの代わりにランディングページを指定することはできません。 個々のユーザーは、自分で切替スイッチをオンにする必要があります。 |

@@ -1,27 +1,18 @@
 ---
-title: メディア再生滞在時間パネル
+title: メディア再生に費やした時間パネル
 description: Analysis Workspaceのメディア再生滞在時間パネルの使用方法と操作方法について説明します。
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 TQID: https://experienceleague.adobe.com/Zv10pLom7fLV8lQvzkzxtxb-uERQzxA8baXBseCKqiE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1192
+source-wordcount: 1197
 ht-degree: 84%
 
 ---
@@ -33,7 +24,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_button"
 >title="メディア再生滞在時間"
->abstract="様々なレベルの精度でビデオ消費の推移を分析するためのパネルを作成し、分類して比較できます。"
+>abstract="様々なレベルの精度でビデオ消費の推移を分析するためのパネルを作成し、分類および比較することができます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,15 +32,15 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
->title="メディア再生滞在時間"
->abstract="ビデオ消費の推移を分析し、様々な精度を選択して、分類および比較します。<br/><br/>**精度**：同時視聴者数を表示する期間を選択します。<br/>**パネル概要数値（オプション）**：各行の日付または時間の詳細と共に概要の数値を表示するオプション。 最大値は、ピーク時の再生に費やした時間の詳細を示します。 最小値は、トラフの詳細を示します。 合計には、再生に費やした合計時間の詳細が表示されます。<br/>**系列の分類（オプション）**：セグメント、ディメンション、ディメンション項目または日付範囲でビジュアライゼーションを分類できます。 一度に 10 行まで表示できます。 分類は 1 つのレベルに制限されます。<br/>**時間形式**：ビジュアライゼーションの時間形式を時間または分で表示するオプション。"
+>title="メディア再生に費やした時間"
+>abstract="ビデオ消費の推移を分析し、様々な精度を選択して、分類および比較します。<br/><br/>**精度**：同時視聴者数を表示する期間を選択します。<br/>**パネル概要数値（オプション）**：各行の日付または時間の詳細と共に概要の数値を表示するオプション。 最大値では、ピーク時の再生に費やした時間の詳細が表示されます。 最小値では、トラフの詳細が表示されます。 合計には、再生に費やした合計時間の詳細が表示されます。<br/>**系列の分類（オプション）**：セグメント、ディメンション、ディメンション項目または日付範囲でビジュアライゼーションを分類できます。 一度に 10 行まで表示できます。 分類は 1 つのレベルに制限されます。<br/>**時間形式**：ビジュアライゼーションの時間形式を時間または分で表示するオプション。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の&#x200B;_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**&#x200B;**&#x200B;_<br/>_ メディア再生滞在時間パネル [&#128279;](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)を参照してください メディア再生滞在時間パネル _）。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の&#x200B;_Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_****_<br/>_ メディア再生滞在時間パネル ](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)を参照してください[ メディア再生滞在時間パネル _）。![
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +66,7 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -100,17 +91,17 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 |---|---|
 | パネルの日付範囲 | パネルの日付範囲のデフォルトは「今日」です。 一度に 1 日または複数の月を表示するように編集できます。<br>この視覚化は、1440 行のデータに制限されています（例えば、分レベルの粒度で 24 時間）。 日付範囲と精度の組み合わせの結果が 1440 行を超える場合、精度は日付範囲全体に対応するように自動的に更新されます。 |
 | 精度 | 精度のデフォルトは分単位です。<br>このビジュアライゼーションは、1,440行のデータに制限されています（例えば、分単位の精度で24時間）。 日付範囲と精度の組み合わせの結果が 1440 行を超える場合、精度は日付範囲全体に対応するように自動的に更新されます。 |
-| パネルの要約数値 | 再生滞在時間の日時の詳細を表示するには、概要番号を使用できます。 最大値は、ピーク同時実行性の詳細を示します。 最小値は、トラフの詳細を示します。 合計値は、選択範囲に費やした合計再生滞在時間を加算したものです。 パネルのデフォルトでは、最大値のみが表示されますが、最小値、合計値、またはこれら 3 つの組み合わせを表示するように変更できます。<br>分類を使用している場合は、それぞれの概要番号が表示されます。 |
+| パネルの要約数値 | 再生に費やした時間の日付または時間の詳細を確認するために、要約値の数値が利用できます。 最大値は、ピーク同時実行性の詳細を示します。 最小値は、トラフの詳細を示します。 合計値は、選択範囲に費やした合計再生滞在時間を加算したものです。 パネルのデフォルトでは、最大値のみが表示されますが、最小値、合計値、またはこれら 3 つの組み合わせを表示するように変更できます。<br>分類を使用している場合は、それぞれの概要番号が表示されます。 |
 | シリーズの分類 | オプションとして、フィルター、ディメンション、ディメンション項目または日付範囲でビジュアライゼーションを分類できます。<p>- 一度に 10 行まで表示できます。 分類は 1 つのレベルに制限されます。</p><p>- ディメンションをドラッグすると、選択したパネルの日付範囲に基づいて、上位のディメンション項目が自動的に選択されます。</p>- 日付範囲を比較するには、2 つ以上の日付範囲をシリーズ分類フィルターにドラッグします。 |
 | 時刻の形式 | 再生滞在時間は、`Hours:Minutes:Seconds`（デフォルト）または `Minutes`（整数で表示され、四捨五入されます）で表示できます。 |
-| 日付順の表示 | 少なくとも 2 つの日付範囲フィルターをシリーズ分類として配置した場合は、オーバーレイ（デフォルト）または順次を選択するオプションが表示されます。 オーバーレイでは、共通の X 軸の開始を持つ線が並行して表示され、順次では、特定の X 軸の開始を持つ線が表示されます。 データ行が上に来た場合（例えば、フィルター1が午後8:44で終わり、フィルター2が午後8:45で始まる場合）、行は順番に表示されます。 |
+| 日付順の表示 | 少なくとも 2 つの日付範囲フィルターをシリーズ分類として配置した場合は、オーバーレイ（デフォルト）または順次を選択できます。 オーバーレイでは、共通の X 軸の開始を持つ線が並行して表示され、順次では、特定の X 軸の開始を持つ線が表示されます。 データ行が上に来た場合（例えば、フィルター1が午後8:44で終わり、フィルター2が午後8:45で始まる場合）、行は順番に表示されます。 |
 
 
 ![メディア再生滞在時間のデフォルトビュー。](assets/mpts_default_view.png)
 
 ### パネル出力
 
-メディア再生滞在時間パネルは、折れ線グラフと概要番号を返し、再生滞在時間の最大値、最小値および合計（あるいはその両方）の詳細が含まれます。 パネルの上部に、選択したパネル設定を示すサマリー行が表示されます。
+メディア再生に費やした時間パネルは、折れ線グラフとサマリー数値を返し、再生に費やした時間の最大値、最小値および合計（またはいずれか）の詳細が含まれます。 パネルの上部に、選択したパネル設定を示すサマリー行が表示されます。
 
 ![メディア再生滞在時間パネルを編集](/help/assets/icons/Edit.svg) を選択すると、いつでもパネルを編集および再作成できます。
 
@@ -132,7 +123,7 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 |---|---|
 | フリーフォームテーブルはどこにありますか？ データソースの確認方法を教えてください。 | <p></p><p>このビューでは、フリーフォームテーブルは使用できません。 データソースをダウンロードするには、折れ線グラフのコンテキストメニューで、CSV ファイルをダウンロードするためのオプションを選択します。</p> |
 | <p>精度が変更されたのはなぜですか？</p> | <p>この視覚化は、1440 行のデータに制限されています（例えば、分レベルの粒度で 24 時間）。 日付範囲と精度の組み合わせの結果が 1440 行を超える場合、精度は日付範囲全体に対応するように自動的に更新されます。</p><p></p><p>大きい日付範囲から小さい日付範囲に変更する場合、日付範囲が変更されると、精度は許容できる最小の詳細に更新されます。 より高い精度を表示するには、パネルを編集して再作成します。</p> |
-| <p></p><p>ビデオ名、フィルター、コンテンツタイプなどを比較するにはどうすればよいですか？</p> | <p>単一のビジュアライゼーション内でこれらを比較するには、フィルター、ディメンションまたはシリーズ分類フィルター内の特定のディメンション項目をドラッグします。</p><p></p><p>ビューの分類は 10 個に制限されています。 10 を超える表示を行うには、複数のパネルを使用する必要があります。</p> |
+| <p></p><p>ビデオ名、フィルター、コンテンツタイプなどを比較するにはどうすればよいですか？</p> | <p>単一のビジュアライゼーション内でこれらを比較するには、フィルター、ディメンション、またはシリーズ分類フィルター内の特定のディメンション項目をドラッグします。</p><p></p><p>ビューの分類は 10 個に制限されています。 10 を超える表示を行うには、複数のパネルを使用する必要があります。</p> |
 | 日付範囲の比較方法を教えてください。 | 単一のビジュアライゼーション内の日付範囲を比較するには、2 つ以上の日付範囲をドラッグして、シリーズの分類を使用します。 これらの日付範囲は、パネルの日付範囲より優先されます。 |
 | ビジュアライゼーションのタイプを変更する方法を教えてください。 | <p></p><p>このパネルでは、時系列の線のビジュアライゼーションのみが可能です。</p> |
 | 異常値検出を実行できますか？ | <p></p><p>いいえ。 このパネルでは異常値検出は利用できません。</p> |
@@ -140,7 +131,7 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルを作成](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[ パネルを作成](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
 >[メディア同時視聴者数パネル](media-concurrent-viewers.md)
 >
@@ -162,7 +153,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

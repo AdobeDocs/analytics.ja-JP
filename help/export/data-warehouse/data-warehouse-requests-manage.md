@@ -5,16 +5,10 @@ feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1150
@@ -32,11 +26,11 @@ ht-degree: 99%
 
 デフォルトでは、ユーザーが自分のリクエストを組織内の他のユーザーに表示することを選択しない限り、（[データウェアハウスリクエストの一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)の説明に従って）自分が作成したリクエストのみを表示できます。 システム管理者は、すべてのリクエストを表示できます。
 
-データウェアハウスリクエストを表示するには、次の手順に従います。
+Data Warehouse リクエストを表示するには：
 
 1. Adobe Analytics で、[!UICONTROL **ツール**]／[!UICONTROL **データウェアハウス**]&#x200B;を選択します。
 
-   データウェアハウスページには、作成したすべてのリクエストが表示されます。 データは各列に表示されます。 表示する[列を設定](#configure-columns)できます。
+   Data Warehouse ページには、作成したすべてのリクエストが表示されます。 データは各列に表示されます。 表示する[列を設定](#configure-columns)できます。
 
    <!-- add screenshot of main page -->
 
@@ -46,7 +40,7 @@ ht-degree: 99%
 
    * リクエストの処理を開始したタイミング
 
-   * レート制限：組織で実行中のデータウェアハウスリクエストが多すぎます。 他のデータリクエストが完了するまで、リクエストは一時停止されます。
+   * レート制限：組織で実行中の Data Warehouse リクエストが多すぎます。 他のデータリクエストが完了するまで、リクエストは一時停止されます。
 
 ## リクエストの編集
 
@@ -62,7 +56,7 @@ ht-degree: 99%
 
 1. Adobe Analytics で、[!UICONTROL **ツール**]／[!UICONTROL **データウェアハウス**]&#x200B;を選択します。
 
-1. データウェアハウスページで、編集するリクエストを選択します。
+1. Data Warehouse ページで、編集するリクエストを選択します。
 
    ![リクエストの管理](assets/dw-manage-request.png)
 
@@ -76,7 +70,7 @@ ht-degree: 99%
 
 ## リクエストの履歴の表示
 
-作成したデータウェアハウスリクエストの履歴を表示できます。
+作成した Data Warehouse リクエストの履歴を表示できます。
 
 1. Adobe Analytics で、[!UICONTROL **ツール**]／[!UICONTROL **データウェアハウス**]&#x200B;を選択します。
 
@@ -103,8 +97,8 @@ ht-degree: 99%
    | [!UICONTROL **ステータス**] | レポート配信のステータス。 表示される可能性のあるステータスは次のとおりです。<ul><li>[!UICONTROL **作成済み**]：レポートは作成されましたが、まだ処理されていません。</li><li>[!UICONTROL **保留中**]：レポートは処理待ちの状態です。</li><li>[!UICONTROL **処理中**]：レポートは現在処理中です。</li><li>[!UICONTROL **完了済み**]：レポートが完了し、使用可能になりました。</li><li>[!UICONTROL **スケジュール済み**]：レポートはスケジュールされていますが、まだ開始されていません。</li><li>[!UICONTROL **キャンセル済み**]：レポートはユーザーによってキャンセルされました。</li><li>[!UICONTROL **エラー – 処理中**：]レポートでエラーが発生し、処理できませんでした。</li><li>[!UICONTROL **エラー- 送信失敗**]：レポートは正常に生成されましたが、配信できませんでした。 [宛先の設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を確認してから、レポートを再送信します。</li></ul>。 |
    | [!UICONTROL **開始**] | レポートに含まれる時間枠全体の開始日。<p>これは、レポートスイートのタイムゾーンで表示されます。</p> |
    | [!UICONTROL **終了**] | レポートに含まれる時間枠全体の終了日。 <p>これは、レポートスイートのタイムゾーンで表示されます。</p> |
-   | [!UICONTROL **従来のリクエスト ID**] | 従来のデータウェアハウスインターフェイスでレポートの識別に使用される ID。 この ID は、アドビカスタマーケアに問い合わせる際に必要になる可能性があります。 |
-   | [!UICONTROL **レポート ID**] | 現在のデータウェアハウスインターフェイスでレポートの識別に使用される ID。 この ID は、アドビカスタマーケアに問い合わせる際に必要になる可能性があります。 |
+   | [!UICONTROL **従来のリクエスト ID**] | 従来の Data Warehouse インターフェイスでレポートの識別に使用される ID。 この ID は、Adobe Customer Care に連絡する際に必要になる場合があります。 |
+   | [!UICONTROL **レポート ID**] | 現在の Data Warehouse インターフェイスでレポートの識別に使用される ID。 この ID は、アドビカスタマーケアに問い合わせる際に必要になる可能性があります。 |
 
 
 1. レポート配信を選択し、次のいずれかのオプションを選択します。
@@ -122,13 +116,13 @@ ht-degree: 99%
 
 1. Adobe Analytics で、[!UICONTROL **ツール**]／[!UICONTROL **データウェアハウス**]&#x200B;を選択します。
 
-1. データウェアハウスページで、コピーするリクエストを選択します。
+1. Data Warehouse ページで、コピーするリクエストを選択します。
 
    ![リクエストの管理](assets/dw-manage-request.png)
 
 1. 「[!UICONTROL **コピー**]」を選択します。
 
-   データウェアハウスリクエストをコピーページが表示されます。 すべての設定オプションは、元のリクエストからコピーされます。
+   「Data Warehouse リクエストのコピー」ページが表示されます。 すべての設定オプションは、元のリクエストからコピーされます。
 
 1. リクエストに関連する設定オプションを更新します。
 
@@ -144,7 +138,7 @@ ht-degree: 99%
 
 1. Adobe Analytics で、[!UICONTROL **ツール**]／[!UICONTROL **データウェアハウス**]&#x200B;を選択します。
 
-1. データウェアハウスページで、編集するリクエストを選択します。
+1. Data Warehouse ページで、編集するリクエストを選択します。
 
    ![リクエストの管理](assets/dw-manage-request.png)
 
@@ -172,9 +166,9 @@ ht-degree: 99%
 
    {style="table-layout:auto"}
 
-1. 表示する列が選択されていることを確認します。 選択した列はデータウェアハウスページに表示され、関連情報が表示されます。
+1. 表示する列が選択されていることを確認します。 選択した列は Data Warehouse ページに表示され、関連する情報が表示されます。
 
-## リクエストのフィルタリングと並べ替え
+## リクエストのフィルターと並べ替え
 
 1. データウェアハウスページの左側のパネルにある&#x200B;**フィルター**&#x200B;アイコンを選択します。
 
@@ -184,6 +178,6 @@ ht-degree: 99%
 
 ## リクエストの検索
 
-1. データウェアハウスページの上部にある検索フィールドで、表示するリクエスト名を指定します。
+1. Data Warehouse ページ上部の検索フィールドで、表示するリクエスト名を指定します。
 
    リクエストは入力中にフィルタリングされます。

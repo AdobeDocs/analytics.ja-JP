@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/oZd0u-66AFoK0544-3VQOnqe8fo20qXMibSqKE60kqA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -25,11 +17,11 @@ ht-degree: 93%
 
 ---
 
-# アドビプラグイン：rfl（Remove From List）
+# Adobe プラグイン：rfl（リストから削除）
 
 {{plug-in}}
 
-`rfl` プラグインを使用すると、区切られた文字列（例：[`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) など）から値を「安全に」削除することができます。 このプラグインは、区切り文字を気にせずに、区切り文字列から特定の値を削除する場合に便利です。 その他のプラグインの一部は、正しく実行するために、このコードに依存しています。 一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
+`rfl` プラグインを使用すると、区切られた文字列（例：[`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) など）から値を「安全に」削除することができます。 このプラグインは、区切りを気にせずに、区切り文字で区切られた文字列から特定の値を削除する場合に便利です。 その他のプラグインの多くは、このコードに依存して正しく実行されます。 一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
 プラグインでは次のロジックを使用します。
 
@@ -50,7 +42,7 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
    * Action Type：Initialize RFP（Remove From List）
@@ -64,7 +56,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -427,7 +419,7 @@ s.events = "event22,event23,event24";
 
 ### 2.01（2019 年 9 月 17 日（PT））
 
-* デフォルトの区切り文字値に関するマイナーなバグ修正。
+* デフォルトの区切り値に関するマイナーなバグ修正。
 
 ### 2.0（2018 年 4 月 16 日（PT））
 

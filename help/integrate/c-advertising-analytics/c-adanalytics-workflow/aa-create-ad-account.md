@@ -4,28 +4,19 @@ description: この記事では、新しい広告アカウントを作成し、�
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 TQID: 'https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1ccid: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 661
 ht-degree: 13%
 
 ---
 
-# 広告アカウントの設定
+# 広告アカウントを設定
 
 Adobe Analytics管理者は、新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイート（1 : 1、1：多、多：多）にマッピングできます。
 
@@ -48,14 +39,14 @@ Adobe Analytics管理者は、新しい広告アカウントを作成し、複�
    | --- | --- |
    | **[!UICONTROL タイプ]** | 選択肢は2つあります。**[!UICONTROL Google Adwords]**&#x200B;と&#x200B;**[!UICONTROL Bing Ads]**。 注：Yahoo Geminiは2019年3月31日にMicrosoftに吸収されました。 その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。 |
    | アカウント名 | このアカウント名は、自分に合った任意の名前に設定できます。  アカウント名は、UIに表示されるアカウントのわかりやすい名前です。 |
-   | OAuth トークン | **注意**: OAuthはアクセス委任のためのオープンスタンダードであり、一般的にweb サイトまたはアプリケーションにweb サイト上の情報へのアクセス権を付与する方法として使用されますが、パスワードは提供されません。 サードパーティ URL （efrontier.com）にルーティングされることに注意してください。 Adobeでは、Adobe Media Managerを使用して、3つの検索エンジンのOAuth認証プロセスを強化しています。 Internet Explorer 11以前を使用している場合、3つの検索エンジンのいずれかでOauth トークンを取得できません。 他の web ブラウザーを使用してください。<p>「**[!UICONTROL トークンを取得]**」を選択して、OAuth2認証プロセスを開始します。 資格情報を使用してGoogle AdsまたはMicrosoft Advertisingの検索アカウントにログインするように求められます。 選択したプロセスによって、少し異なります。 <ul><li>Google Ads:Google アカウント IDを指定します</li><li>Microsoft Advertising：アカウント IDとManager アカウント IDを指定します。</li></ul>これらのIDについて詳しくは、[&#x200B; アカウント IDを探す](aa-locate-account-id.md)を参照してください。 正常にログインすると、「**[!UICONTROL OAuth のトークン]**」フィールドに「**[!UICONTROL 取得済み]**」が表示されます。 |
+   | OAuth トークン | **注意**: OAuthはアクセス委任のためのオープンスタンダードであり、一般的にweb サイトまたはアプリケーションにweb サイト上の情報へのアクセス権を付与する方法として使用されますが、パスワードは提供されません。 サードパーティ URL （efrontier.com）にルーティングされることに注意してください。 Adobeでは、Adobe Media Managerを使用して、3つの検索エンジンのOAuth認証プロセスを強化しています。 Internet Explorer 11以前を使用している場合、3つの検索エンジンのいずれかでOauth トークンを取得できません。 他の web ブラウザーを使用してください。<p>「**[!UICONTROL トークンを取得]**」を選択して、OAuth2認証プロセスを開始します。 資格情報を使用してGoogle AdsまたはMicrosoft Advertisingの検索アカウントにログインするように求められます。 選択したプロセスによって、少し異なります。 <ul><li>Google Ads:Google アカウント IDを指定します</li><li>Microsoft Advertising：アカウント IDとManager アカウント IDを指定します。</li></ul>これらのIDについて詳しくは、[ アカウント IDを探す](aa-locate-account-id.md)を参照してください。 正常にログインすると、「**[!UICONTROL OAuth のトークン]**」フィールドに「**[!UICONTROL 取得済み]**」が表示されます。 |
 
 1. 「**[!UICONTROL トラッキング]**」セクションでは、Adobe Analyticsの実装を使用してデータをトラッキングする方法に関する情報を提供します。 トラッキングは、Adobe Analytics データを検索エンジンデータで適切に拡張するために必要な手順です。
 次のガイドラインに従って、**[!UICONTROL トラッキング設定]**&#x200B;を入力します。
 
    | 設定 | 説明 |
    | --- | --- |
-   | タイプ | <ul><li>**自動**: Adobe Advertising エンジンが、トラッキングパラメーターをトラッキングテンプレートや宛先URLに追加する方法を決定できます。 [!UICONTROL 自動タイプトラッキング &#x200B;]は最も単純なアプローチですが、最も統合されたデータセットにはつながらない可能性があります。<br>**重要：**&#x200B;検索エンジンアカウントを[!UICONTROL 自動タイプトラッキング &#x200B;]で設定するには、次の操作を実行する必要があります。<ul><li>`s_kwcid` パラメーターと値が、追加するアカウントのアカウント トラッキング テンプレートまたはランディングページ URLに追加されます。 パラメーターと値は、URLの最後に挿入されます。 Web サーバーがURLの最後に特定の`key=value` ペアを必要とする場合、追加のアクションが必要になる場合があります。 または、URL内の新しい`key=value` ペアをサポートするための更新が必要です。 **メモ**：このパラメーターを[&#x200B; コンテンツセキュリティポリシー](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/csp)に追加する必要があるかどうかについて詳しく説明します。</li><li>加えて、キーワードを `s_kwcid` 値の一部としてランディング URL に追加できます。 キーワードに特殊文字または記号が含まれる場合は、Web サーバーがその文字をサポートできることを確認してください。 一般的な特殊文字の例は`+`です。これは、「Broad Match Modified」キーワードで使用されます。</li></ul></li><li>**手動**：検索エンジンのトラッキングテンプレートや宛先URLにトラッキングパラメーターを追加する方法を管理できます。 [各検索エンジンについては手動トラッキングの例を参照してください](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | タイプ | <ul><li>**自動**: Adobe Advertising エンジンが、トラッキングパラメーターをトラッキングテンプレートや宛先URLに追加する方法を決定できます。 [!UICONTROL 自動タイプトラッキング ]は最も単純なアプローチですが、最も統合されたデータセットにはつながらない可能性があります。<br>**重要：**&#x200B;検索エンジンアカウントを[!UICONTROL 自動タイプトラッキング ]で設定するには、次の操作を実行する必要があります。<ul><li>`s_kwcid` パラメーターと値が、追加するアカウントのアカウント トラッキング テンプレートまたはランディングページ URLに追加されます。 パラメーターと値は、URLの最後に挿入されます。 Web サーバーがURLの最後に特定の`key=value` ペアを必要とする場合、追加のアクションが必要になる場合があります。 または、URL内の新しい`key=value` ペアをサポートするための更新が必要です。 **メモ**：このパラメーターを[ コンテンツセキュリティポリシー](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)に追加する必要があるかどうかについて詳しく説明します。</li><li>加えて、キーワードを `s_kwcid` 値の一部としてランディング URL に追加できます。 キーワードに特殊文字または記号が含まれる場合は、Web サーバーがその文字をサポートできることを確認してください。 一般的な特殊文字の例は`+`です。これは、「Broad Match Modified」キーワードで使用されます。</li></ul></li><li>**手動**：検索エンジンのトラッキングテンプレートや宛先URLにトラッキングパラメーターを追加する方法を管理できます。 [各検索エンジンについては手動トラッキングの例を参照してください](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 「**[!UICONTROL 保存]**」を選択します。
 1. 免責事項には、注意事項のリストが表示されます。 この契約書を読み、理解していることを確認してください。 チェックボックスを選択し、**[!UICONTROL OK]**&#x200B;を選択します。

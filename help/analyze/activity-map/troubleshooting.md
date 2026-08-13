@@ -5,26 +5,15 @@ feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +36,8 @@ Activity Map ディメンションのデータが表示されない場合は、�
 * **AppMeasurement バージョン**: Activity Mapはv1.6以降でサポートされています。 最新の安定したバージョンのAppMeasurementにアップグレードすると、多くのエッジケースの問題が解決されます。
 * **Activity Map モジュール**: `AppMeasurement_Module_Activity_Map` モジュールが`AppMeasurement.js` ファイルに存在するかどうかを確認します。 実装でAdobe Experience Platformを使用してデータを収集する場合は、**[!UICONTROL リンクトラッキング]**&#x200B;でAnalytics拡張機能を設定する際に、**[!UICONTROL ClickMapを有効にする]**&#x200B;がオンになっていることを確認してください。
 * **`s_sq` Cookie**: Activity Mapは、データ収集の`s_sq` Cookieに依存しています。
-   * `cookieDomainPeriods`変数が正しく設定されていることを確認してください。特に、`*.co.uk`や`*.co.jp`などの地域ドメインの場合に確認してください。
-   * `linkInternalFilters`変数が目的の値に設定されていることを確認してください。 クリックしたリンクが内部フィルターと一致しない場合、Activity Mapはそれを離脱リンクとみなし、データを収集しません。
+  * `cookieDomainPeriods`変数が正しく設定されていることを確認してください。特に、`*.co.uk`や`*.co.jp`などの地域ドメインの場合に確認してください。
+  * `linkInternalFilters`変数が目的の値に設定されていることを確認してください。 クリックしたリンクが内部フィルターと一致しない場合、Activity Mapはそれを離脱リンクとみなし、データを収集しません。
 * **Activity Map オーバーレイが実行中**: Activity Map オーバーレイが有効になっている場合、AppMeasurementはweb ページのクリックデータをトラッキングしません。
 
 Activity Map の使用と互換性のないブラウザーのパラメーターを示します。 Adobeでは、これらの設定を無効にすることをお勧めします。
@@ -78,7 +67,7 @@ Activity Map の使用と互換性のないブラウザーのパラメーター�
 
 **検証**
 
-Developer Console の「ネットワーク」タブを使用た操作呼び出し：
+Developer Console の「ネットワーク」タブを使用した Interact 呼び出し：
 
 1. サイトに開発用 Launch スクリプトを読み込みます。
 1. 要素のクリック時に、「ネットワーク」タブで「/ee」を検索します。

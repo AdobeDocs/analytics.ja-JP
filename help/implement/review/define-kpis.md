@@ -5,20 +5,14 @@ feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 role: Admin, Leader
 TQID: https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -29,11 +23,11 @@ ht-degree: 72%
 
 ## &#x200B;1. ビジネス目標の把握
 
-ビジネスの目標を理解することから開始します。ビジネスにとって最も重要な 5 つの KPI を選択できます。 これらの KPI には、売上高などの指標や、1 回の訪問あたりの売上高などの計算指標を使用でき、指標に変数を含めることもできます。 無作為に作成したKPIを他社や業界標準からコピーしないでください。ビジネス目標に適合しない可能性が高くなります。
+ビジネスの目標を理解することから開始します。ビジネスにとって最も重要な 5 つの KPI を選択できます。 これらの KPI には、売上高などの指標や、訪問あたりの売上高などの計算指標を含めることができ、指標に変数を含めることもできます。 無作為に作成したKPIを他社や業界標準からコピーしないでください。ビジネス目標に適合しない可能性が高くなります。
 
 ## &#x200B;2. クリティカルな質問
 
-考えてみてください。仮に自社の CEO がある島から移動できなくなり、ビジネスの健全性について CEO に伝えられることが 5 つだけだとした場合、何を伝えるでしょうか？ ページの平均滞在時間が1:30だと言っても、彼女の役には立ちません。 ただし、1 回の訪問あたりの平均売上高が 2 ドルで、訪問回数が 200 万回だったと伝えた場合は、ビジネスの成功を示す正確な指標を伝えることができます。
+考えてみてください。仮に自社の CEO がある島から移動できなくなり、ビジネスの健全性について CEO に伝えられることが 5 つだけだとした場合、何を伝えるでしょうか？ ページの平均滞在時間が1時30分と言っても、彼女の役には立ちません。 ただし、1 回の訪問あたりの平均売上高が 2 ドルで、訪問回数が 200 万回だったと伝えた場合は、ビジネスの成功を示す正確な指標を伝えることができます。
 
 ## &#x200B;3. KPIとは何か、何でないかを覚えておいてください
 

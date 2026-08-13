@@ -4,19 +4,11 @@ description: 訪問に費やした合計時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 TQID: 'https://experienceleague.adobe.com/jtBAAq-Pe0PyCQJPwvzwnK9eLv14CxTvrVQP4lvWy7k'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 304
@@ -26,15 +18,15 @@ ht-degree: 91%
 
 # 訪問別滞在時間
 
-*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
+*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[ ディメンション ](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
 
-「訪問別滞在時間」ディメンションは、訪問者が訪問全体で滞在した時間を記録します。 次の手順を使用して計算を測定します。
+「訪問別滞在時間」ディメンションは、訪問者が訪問全体で滞在した時間を記録します。 次の手順で値を測定します。
 
 1. 訪問の最初のヒットのタイムスタンプを調べます。
 2. このヒットを、訪問の最後のヒットのタイムスタンプと比較します。
 3. この 2 つのヒット間の経過時間が、滞在時間に寄与します。
 
-これらのディメンションは、訪問者がサイトと一般にどの程度の時間やり取りを行うかを把握する場合に役立ちます。
+これらのディメンションは、訪問者が一般的にサイトとどの程度の時間やり取りを行うかを把握する場合に役立ちます。
 
 >[!TIP]
 >
@@ -50,9 +42,9 @@ ht-degree: 91%
 
 ## ディメンション項目
 
-訪問の滞在時間に対して複数のディメンションが存在します。
+訪問別滞在時間には、複数のディメンションが存在します。
 
-* **訪問の滞在時間 — グループ**：時間がグループ化されます。 ディメンション項目の範囲は `"Less than 1 minute"` ～ `"More than 15 hours"` です。 通常、訪問は 12 時間を超えません。ただし、タイムスタンプ付きのヒットまたはデータソースを使用している場合、訪問回数は 12 時間を超える可能性があります。
+* **訪問の滞在時間 — グループ**：時間がグループ化されます。 ディメンション項目の範囲は `"Less than 1 minute"` ～ `"More than 15 hours"` です。 通常、訪問は 12 時間を超えません。ただし、タイムスタンプ付きのヒットまたはデータソースを使用している場合、訪問の継続時間が 12 時間を超える可能性があります。
 * **訪問の滞在時間 — 詳細**：各秒数は、一意のディメンション項目です。 このディメンションはData Warehouseでは使用できません。
 
 滞在時間の一般情報について詳しくは、[滞在時間の概要](../metrics/time-spent.md)を参照してください。

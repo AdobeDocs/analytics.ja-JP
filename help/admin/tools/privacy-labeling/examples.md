@@ -1,23 +1,15 @@
 ---
-description: ヒットデータ、アクセス要求、削除要求のデータラベル付けの方法の例を示します
+description: ヒットデータ、アクセスリクエスト、削除リクエストのデータにラベルを付ける方法の例を示します
 title: ラベル設定の例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 734
@@ -49,15 +41,15 @@ ht-degree: 84%
 
 ## アクセスリクエストのサンプル {#access}
 
-アクセスリクエストを送信すると、データ主体に返すことができる 2 つのファイルが届きます。 1 つは CSV ファイルで、データ主体に関する受信した各ヒットを記録した 1 つの行と、適切なアクセスラベルが付いた各変数の列が含まれます。 もう 1 つのファイルは HTML の概要ファイルで、各変数と、その変数に対してデータ主体で表示されたすべての一意の値と、各一意の値が表示された回数が一覧で示されます。
+アクセスリクエストを送信すると、データ主体に返すことができる 2 つのファイルが届きます。 1 つは CSV ファイルで、データ主体に対して受信した各ヒットごとに 1 行が含まれ、各変数には適切なアクセスラベル付きの列が用意されています。 もう 1 つのファイルは HTML の概要ファイルで、各変数を一覧表示し、その変数についてデータ主体に対して確認されたすべての一意の値と、各一意の値が確認された回数を続けて表示します。
 
-この例では、概要ファイルには、次の表に示す値が含まれます。 リクエストは、デバイスファイルのみ、ユーザーファイルのみ、またはその両方を返す可能性があります。 2 つの概要ファイルが返されるのは、ユーザー ID を使用し、`expandIds` が true の場合のみです。
+この例では、概要ファイルには、次のテーブルに示す値が含まれます。 リクエストでは、デバイスファイルのみ、ユーザーファイルのみ、またはその両方が返される場合があります。 2 つの概要ファイルが返されるのは、ユーザー ID を使用し、`expandIds` が true の場合のみです。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API の値</th>
     <th>返される<br/>概要<br/>ファイルタイプ</th>
-    <th colspan="5" style="text-align:center">概要アクセスファイルのデータ</th>
+    <th colspan="5" style="text-align:center">概要アクセスファイル内のデータ</th>
   </tr>
   <tr>
     <th>名前空間／ID</th>
@@ -161,7 +153,7 @@ cookie ID が使用されている場合、`expandIDs` の設定は出力に影�
 
 ## 削除リクエストのサンプル {#delete}
 
-表の最初の行にある API の値を使用した削除要求の場合、ヒットの表は以下のように更新されます。
+テーブルの最初の行にある API の値を使用した削除リクエストの場合、ヒットテーブルは次のような状態に更新されます。
 
 <table>
   <tr>

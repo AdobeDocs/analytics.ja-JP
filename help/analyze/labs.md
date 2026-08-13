@@ -5,20 +5,11 @@ feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 436
@@ -28,13 +19,13 @@ ht-degree: 100%
 
 # [!UICONTROL ラボ]ユーザーガイド
 
-[!UICONTROL ラボ]を使用すると、初期段階のアイデアのプロトタイピングを高速化できます。 お客様の注力により、透過的に開発を促進するツールとプロセスを組み合わせたものです。 新しいテクノロジーとの連携、価値ある洞察の発見、将来の機能の開発と優先事項への影響を可能にします。 ラボを使用すると、Adobe Analytics の革新的な機能に早期にアクセスし、自社のビジネス事例やデータの中で将来の機能を評価できます。
+[!UICONTROL ラボ]を使用すると、初期段階のアイデアのプロトタイピングを高速化できます。 顧客志向で、透明性を保ちながら開発を加速するツールとプロセスを組み合わせたものです。 新しいテクノロジーとの連携、価値ある洞察の発見、将来の機能の開発と優先事項への影響を可能にします。 Labs を使用すると、Adobe Analytics の革新的な機能に早期にアクセスし、自社のビジネスユースケースやデータのコンテキストで今後の機能を評価できます。
 
 ## 要件
 
 [!UICONTROL ラボ]は、すべての管理者に対して自動的に有効になります。 他のチームメンバーは、製品管理者に問い合わせてアクセス権を要求する必要があります。
 
-まだ開示していない場合は、該当する守秘義務契約および利用条件のフォームを読んで署名します。
+まだ行っていない場合は、該当する守秘義務契約および利用条件のフォームを読んで署名します。
 
 ## [!UICONTROL ラボ]ポータルへのアクセス
 

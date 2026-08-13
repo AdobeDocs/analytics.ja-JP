@@ -1,23 +1,15 @@
 ---
-description: Adobe Analytics サーバーコールの使用機能の概要です。
+description: Adobe Analytics サーバーコール使用機能の概要
 title: サーバーコールの使用状況の概要
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
 source-wordcount: 887
@@ -55,7 +47,7 @@ Adobe Analytics server call usageは、ブラウザーとモバイルサーバ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>サーバーコール </p> </td> 
-   <td colname="col2"> <p>「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。 最も一般的なタイプのサーバーコールはページビューです。 ページビューでは、訪問者が Web サイトのページを閲覧し、アドビ向けのサーバーコールが生成されます。アドビでは、情報が収集されて処理され、レポート指標に含まれます。 </p> <p>離脱リンクやファイルのダウンロードなど他のタイプのサーバーコールでは、データが処理のためにアドビに送信されますが、新規ページビューとしては記録されません。 ページビューを「除外」した場合でも（例えば、設定したIP アドレス範囲によってレポートから除外された場合）、Adobeで受信および処理されても、レポートには表示されないため、サーバーコールになります。 </p> <p><b>プライマリサーバーコール </b>: web サイトの訪問者ブラウザーまたはData Insertion APIから直接受信したリクエスト。 プライマリヒット（ページビュー）、プライマリカスタムイベント、プライマリダウンロードイベント、プライマリ終了イベントが含まれます。 </p> <p><b>セカンダリサーバーコール </b>：マルチスイートタグによって作成された、またはVISTA ルールによってコピー/移動されたプライマリサーバーコールのコピー。 セカンダリサーバーコールがVISTA ルールによって別のレポートスイートに移動（コピーされない）場合、累積されたセカンダリコールはプライマリサーバーコールから差し引かれます。 </p> <p><b> モバイルプライマリサーバーコール </b> </p> <p>いずれかの Mobile SDK から直接受け取ったリクエスト。 これには、trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease が含まれます。</p> <p><b> モバイルセカンダリサーバーコール </b> </p> <p>複数のスイートのタグによって作成されたか、Vista ルールによってコピー／移動されたプライマリサーバーコールのコピーです。 セカンダリサーバーコールがVISTA ルールによって別のレポートスイートに移動（コピーされない）場合、累積されたセカンダリコールはプライマリサーバーコールから差し引かれます。 </p> <p>注意：契約上、モバイルサーバーコール（プライマリまたはセカンダリ）しか使用できない場合、Web 限定の使用量もモバイル限定の使用量もモバイル限定コミットメントの分としてカウントされます。 </p> </td> 
+   <td colname="col2"> <p>「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。 最も一般的なタイプのサーバーコールはページビューです。 ページビューでは、訪問者が Web サイトのページを閲覧し、アドビ向けのサーバーコールが生成されます。アドビでは、情報が収集されて処理され、レポート指標に含まれます。 </p> <p>離脱リンクやファイルのダウンロードなど他のタイプのサーバーコールでは、データが処理のためにアドビに送信されますが、新規ページビューとしては記録されません。 ページビューを「除外」した場合でも（例えば、設定したIP アドレス範囲によってレポートから除外された場合）、Adobeで受信および処理されても、レポートには表示されないため、サーバーコールになります。 </p> <p><b>プライマリサーバーコール </b>: web サイトの訪問者ブラウザーまたはData Insertion APIから直接受信したリクエスト。 プライマリヒット（ページビュー）、プライマリカスタムイベント、プライマリダウンロードイベント、プライマリ終了イベントが含まれます。 </p> <p><b>セカンダリサーバーコール </b>：マルチスイートタグによって作成された、またはVISTA ルールによってコピー/移動されたプライマリサーバーコールのコピー。 セカンダリサーバーコールがVISTA ルールによって別のレポートスイートに移動（コピーされない）場合、累積されたセカンダリコールはプライマリサーバーコールから差し引かれます。 </p> <p><b> モバイルプライマリサーバーコール </b> </p> <p>いずれかの Mobile SDK から直接受け取ったリクエスト。 これには、trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease が含まれます。</p> <p><b> モバイルセカンダリサーバーコール </b> </p> <p>複数スイートのタグによって作成された、または VISTA ルールによってコピー／移動されたプライマリサーバーコールのコピーです。 セカンダリサーバーコールがVISTA ルールによって別のレポートスイートに移動（コピーされない）場合、累積されたセカンダリコールはプライマリサーバーコールから差し引かれます。 </p> <p>注意：契約上、モバイルサーバーコール（プライマリまたはセカンダリ）しか使用できない場合、Web 限定の使用量もモバイル限定の使用量もモバイル限定コミットメントの分としてカウントされます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>請求会社（請求ID） </p> </td> 

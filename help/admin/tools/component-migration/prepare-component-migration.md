@@ -4,21 +4,11 @@ title: Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネン�
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1005
@@ -43,21 +33,21 @@ ht-degree: 8%
 
    * Adobe Analytics ソースコネクタを使用するには、次の操作が必要です。
 
-      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [データの収集と活用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
+     1. [データの収集と活用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
 
    * WebSDKを使用するには、次のことが必要です。
 
-      1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Adobe Experience Platform Web SDKを介したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ja)
+     1. [Adobe Experience Platform Web SDKを介したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 取り込んだデータを使用して、[接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ja)と[&#x200B; データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)を作成します。
+1. 取り込んだデータを使用して、[接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html)と[ データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)を作成します。
 
 1. Customer Journey Analyticsのユーザーが、データをマッピングするデータビューにプロビジョニングされていることを確認します。
 
-   詳しくは、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja)のAdmin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja#customer-journey-analytics-permissions-in-admin-console)のCustomer Journey Analytics権限を参照してください。
+   詳しくは、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)のAdmin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)の[Customer Journey Analytics権限を参照してください。
 
    「権限」タブは、Admin Consoleの各製品プロファイルの一部です。 特定の製品プロファイルにユーザーを追加できます。 次に、特定のデータビューに権限を割り当て、製品プロファイル内のユーザーがどの権限を持っているかを指定します。
 
@@ -77,9 +67,9 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 |  | 移行済み |
 |---------|---------|
-| **[所有者](/help/components/calculated-metrics/workflow/cm-manager.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[所有者](/help/components/calculated-metrics/workflow/cm-manager.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
-| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
 | **[属性（ディメンション上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
 
@@ -89,23 +79,23 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 |  | 移行済み |
 |---------|----------|
-| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[ディメンション](/help/components/dimensions/overview.md)** | 自動または手動でマッピングされた![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[指標](/help/components/metrics/overview.md)** | 自動または手動でマッピングされた![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)移行を行うユーザーによって定義されました |
+| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ディメンション](/help/components/dimensions/overview.md)** | 自動または手動でマッピングされた![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[指標](/help/components/metrics/overview.md)** | 自動または手動でマッピングされた![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)移行を行うユーザーによって定義されました |
 | **[キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)** | いいえ |
 | **[共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | いいえ |
 | **[注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)** | いいえ |
 | **[フォルダー構造](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | いいえ |
-| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 | **[タグ](/help/analyze/landing.md)** | いいえ |
 | **[お気に入り](/help/analyze/landing.md)** | いいえ |
 | **[スケジュール](/help/components/scheduled-projects-manager.md)** | いいえ |
-| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 

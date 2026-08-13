@@ -5,15 +5,10 @@ title: 分類
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 TQID: 'https://experienceleague.adobe.com/s6IsPVTe5aCHFiKUULLzcqOLaZ24LWqdVtDiIeu7hfs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 449
@@ -25,7 +20,7 @@ ht-degree: 77%
 
 分類 FTP オプションは、複数のレポートスイートへのデータアップロード機能や、50,000 行を超えるデータセットのアップロード機能など、大規模な分類データセットを柔軟にアップロードできる機能を備えています。
 
-システムでこれらのファイルを読み込むのに必要な時間は、多くの要素に応じて異なります。 アップロードしたファイルが FTP サーバー上に 3 日以上残っている場合は、組織のサポート対象ユーザーがアドビのサポートに連絡してください。
+システムでこれらのファイルを読み込むのに必要な時間は、多くの要素に応じて異なります。 アップロードしたファイルが FTP サーバー上に 3 日以上残っている場合は、組織のサポート対象ユーザーと連携して、アドビカスタマーケアに連絡してください。
 
 読み込みが成功すると、書き出しには適切な変更が即時に反映されますが、Analytics のデータが変更されるには、ブラウザーによる読み込みの場合は最大 4 時間、FTP による読み込みの場合は最大 24 時間かかります。
 
