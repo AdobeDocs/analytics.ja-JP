@@ -49,8 +49,8 @@ AppMeasurementには、訪問者を識別する独自のレガシーメソッド
 
 一部のレガシーAnalytics訪問者ID実装では、「フレンドリーなサードパーティ Cookie」を使用する場合があります。この場合、2つのドメインが`data.example.com`のような共通ドメインで同じ訪問者Cookieを共有します。 フレンドリーなサードパーティ Cookieは引き続きサードパーティ Cookieであるため、多くの最新のブラウザーでは拒否され、Analyticsは訪問者の識別にフォールバック ID （`fid`）に依存します。 訪問者ID サービスに移行すると、すべてのドメインがファーストパーティのコンテキストで`AMCV` Cookieを設定できるようになり、訪問者IDを保持する実行可能性が高まります。
 
-訪問者ID サービスは、クロスドメインのトラッキング用にサードパーティ Cookie （[`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)）を設定しようとしますが、多くの場合、最新のブラウザーによって拒否されます。 所有しているドメイン間で訪問者のECID （`mid`）を渡すために、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) メソッドの使用を検討してください。
+訪問者ID サービスは、クロスドメインのトラッキング用にサードパーティ Cookie （[`demdex` Cookie](https://experienceleague.adobe.com/ja/docs/id-service/using/intro/cookies)）を設定しようとしますが、多くの場合、最新のブラウザーによって拒否されます。 所有しているドメイン間で訪問者のECID （`mid`）を渡すために、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/appendvisitorid) メソッドの使用を検討してください。
 
 ## サーバーサイドトラッキング
 
-[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)を呼び出してECID （`mid`）を取得し、[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)を呼び出して従来のAnalytics ID （`aid`）を取得できます。 Adobeでは、訪問者識別ロジックを保持するために、両方を確認することをお勧めします。
+[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getmcvid)を呼び出してECID （`mid`）を取得し、[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)を呼び出して従来のAnalytics ID （`aid`）を取得できます。 Adobeでは、訪問者識別ロジックを保持するために、両方を確認することをお勧めします。

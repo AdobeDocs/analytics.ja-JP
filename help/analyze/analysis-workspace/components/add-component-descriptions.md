@@ -46,7 +46,7 @@ Analytics管理者は、レポートスイート内で、またはAnalysis Works
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; コンポーネントの説明を追加](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; コンポーネントの説明を追加](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -60,7 +60,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [指標を使用](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [指標を使用](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +120,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
    * [!UICONTROL **変化率**]：選択した2つの列の変化率を示す新しい列を作成します。
 
-[計算指標：実装なしの指標](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
+[計算指標：実装なしの指標](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
 
 
 ## 異なるアトリビューションモデル間で指標を比較
@@ -138,7 +138,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [累積平均](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [累積平均](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

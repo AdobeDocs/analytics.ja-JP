@@ -36,7 +36,7 @@ Analysis Workspace 内で、コンテキストに応じてデータの異常値�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [異常値検出](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [異常値検出](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -79,7 +79,7 @@ Analysis Workspace の異常値検出アルゴリズムには、次の機能が�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [貢献度分析](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [貢献度分析](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -137,17 +137,17 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3" colsep="1"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/jp/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>毎日の精度のみ </p> </td> 
    <td colname="col3"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/jp/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>はい </p> </td> 
    <td colname="col3"> <p>1 か月あたり 10 トークン </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/jp/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>はい </p> </td> 
    <td colname="col3"> <p>1 か月あたり 20 トークン </p> </td> 
   </tr> 

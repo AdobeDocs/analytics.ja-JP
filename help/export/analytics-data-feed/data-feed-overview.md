@@ -54,6 +54,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]

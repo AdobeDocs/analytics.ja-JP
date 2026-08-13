@@ -49,7 +49,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の&#x200B;_Media Average minute audience panel[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_。<br/>_Media Average minute audience panelを参照してください。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の&#x200B;_Media Average minute audience panel[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)を参照してください。_![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_。<br/>_Media Average minute audience panelを参照してください。
 
 >[!ENDSHADEBOX]
 

@@ -82,7 +82,7 @@ Web SDK JavaScript ライブラリを使用してデータをAdobe Analyticsに�
 <tr>
 <td> 4</td>
 <td><b>事前ビルドスタンドアロンバージョンをインストールします</b>。 CDN のライブラリ（<code>alloy.js</code>）をページで直接参照するか、ダウンロードして独自のインフラストラクチャにホストすることができます。 または、NPM パッケージを使用することもできます。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">NPM パッケージの使用</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=ja">事前ビルドスタンドアロンバージョンのインストール</a>および<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=ja">NPM パッケージの使用</a></td>
 </tr>
 
 <tr>
@@ -93,20 +93,20 @@ Web SDK JavaScript ライブラリを使用してデータをAdobe Analyticsに�
 
 <td>6</td>
 <td>データストリームに <b>Adobe Analytics サービスを追加します</b>。 このサービスは、Adobe Analyticsにデータを送信するかどうか、どのように送信するか、どのレポートスイートに送信するかを制御します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#analytics">データストリームへの Adobe Analytics サービスの追加</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Web SDK を設定</b>します。 手順4でインストールしたライブラリが、データストリーム ID （旧称エッジ設定ID （<code>datastreamId</code>）、組織ID （<code>orgId</code>）、およびその他の使用可能なオプションで正しく設定されていることを確認します。 変数の適切なマッピングを確保する： </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Web SDKの設定</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピング </a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=ja">Web SDKの設定</a><br/><a href="../xdm-var-mapping.md">XDM オブジェクト変数マッピング </a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>コマンドを実行</b>したり、<b>イベントを追跡</b>したりします。 Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントのトラッキングを開始できます。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">イベントを送信</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=ja">イベントを送信</a></td>
 </tr>
 
 <tr>
