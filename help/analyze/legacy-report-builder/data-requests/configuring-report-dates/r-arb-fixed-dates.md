@@ -1,5 +1,5 @@
 ---
-description: Report Builder における固定日付の定義です。
+description: Report Builder における固定日付の定義
 title: リクエストウィザードの定義 - 固定日付
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 feature: Report Builder
@@ -25,7 +25,7 @@ ht-degree: 26%
 
 {{legacy-arb}}
 
-Report Builder における固定日付の定義です。
+Report Builder における固定日付の定義
 
 | フィールド | 定義 |
 |--- |--- |

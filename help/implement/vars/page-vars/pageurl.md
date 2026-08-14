@@ -1,6 +1,6 @@
 ---
 title: pageURL
-description: 自動的に収集されたページの URL をサイトで上書きします。
+description: サイトで自動収集されるページ URL を上書きします。
 feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
@@ -33,7 +33,7 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 >[!NOTE]
 >
->この変数は、Analysis Workspace では使用できないディメンションで、 Data Warehouse およびデータフィードでのみ使用できます。 さらに、アドビのデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)画像リクエストからこのディメンションを除外します。 ページ URL を Analysis Workspace のディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、ヒットごとに `pageURL`eVar[&#128279;](evar.md) に  変数を渡すことを検討してください。
+>この変数は、Analysis Workspace では使用できるディメンションではありません。 Data Warehouse およびデータフィードでのみ使用できます。 さらに、アドビのデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)画像リクエストからこのディメンションを除外します。 ページ URL を Analysis Workspace のディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、ヒットごとに `pageURL`eVar[&#128279;](evar.md) に  変数を渡すことを検討してください。
 
 ## Web SDKを使用したページ URL
 
@@ -63,7 +63,7 @@ Adobe Experience Platform Data CollectionのAnalytics拡張機能は、ページ
 s.pageURL = "https://example.com";
 ```
 
-ページ URL をレポートのディメンションとして使用する場合は、実装で次の使用を検討してください。
+ページ URL をレポートのディメンションとして使用したい場合は、実装で次のコードの使用を検討してください。
 
 ```js
 // Set eVar1 to page URL without protocol or query strings

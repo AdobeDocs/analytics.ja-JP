@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse リクエストの作成方法について手順を説明します。
+description: Data Warehouse リクエストの作成方法を説明する手順。
 title: Data Warehouse リクエストのレポートオプションの設定
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 # Data Warehouse リクエストのレポートオプションの設定
 
-Data Warehouse を作成する際には、様々な設定オプションを使用できます。 次の情報では、リクエストのレポートオプションを設定する方法について説明します。
+Data Warehouse リクエストを作成する際には、様々な設定オプションを使用できます。 次の情報では、リクエストのレポートオプションを設定する方法について説明します。
 
 リクエストの作成を開始する方法と、その他の重要な設定オプションへのリンクについて詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 

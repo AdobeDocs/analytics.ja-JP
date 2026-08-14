@@ -1,6 +1,6 @@
 ---
 title: People
-description: 一意の個人（通常複数のデバイスを持つ人）の数。
+description: ユニークな個人（通常は複数のデバイスを持つ人）の数。
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 TQID: https://experienceleague.adobe.com/wakgq--xWCQqF-CONFhD9A-UK8m4insevQO-YafphQ0
@@ -30,4 +30,4 @@ ht-degree: 44%
 
 「人物」指標[&#128279;](overview.md)1&rbrace;は、[&#x200B; クロスデバイス分析](../cda/overview.md)仮想レポートスイートに固有です。 &#x200B;レポートで特定された個人の合計と、個人に属していると識別されていないデバイスの数を表します。
 
-ある訪問者が訪問中と識別された場合、その訪問者は、再生が実行されるまで、2 人としてカウントされる可能性があります（未識別のユーザー 1 人と識別済みユーザー 1 人）。 [再生](/help/components/cda/replay.md)は、レポートウィンドウ、再生頻度および成功率に応じて、この二重カウントを減らします。 詳しくは、[一意のデバイス](unique-devices.md)を参照してください。
+ある訪問者が訪問の途中で識別された場合、その訪問者は 2 人としてカウントされる可能性があります（未識別の個人 1 人と識別済みの個人 1 人）。 [再生](/help/components/cda/replay.md)は、レポートウィンドウ、再生頻度および成功率に応じて、この二重カウントを減らします。 詳しくは、[一意のデバイス](unique-devices.md)を参照してください。

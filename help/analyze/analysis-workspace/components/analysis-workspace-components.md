@@ -1,6 +1,6 @@
 ---
 title: コンポーネントの概要
-description: Adobe Analytics オファーのコンポーネントの詳細と、Analysis Workspace でのコンポーネントの使用方法について説明します。
+description: Adobe Analytics で利用できるコンポーネントと、Analysis Workspace でコンポーネントを使用する方法について学びます。
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 # コンポーネントの概要
 
-コンポーネントは、ビジュアライゼーション（フリーフォームテーブルなど）で使用したり、レポート機能を補完したりできる Adobe Analytics の機能です。
+コンポーネントは、Adobe Analytics の機能であり、ビジュアライゼーション（「フリーフォームテーブル」など）で使用したり、レポート機能を補完したりできます。
 
 Adobe Analytics のメインインターフェイスからコンポーネントを管理するには、次の手順に従います。
 
@@ -104,7 +104,7 @@ Analysis Workspace の左パネルにあるコンポーネントリストを検�
 
 2. 検索フィールドに、プロジェクトで使用するコンポーネントの名前を入力します。
 
-   コンポーネントのタイプは、カラーとアイコンで識別されます。 **ディメンション** ![ディメンションアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) はオレンジ色、**セグメント** ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) は青色、**日付範囲** ![日付範囲アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) は紫色、**指標** ![指標アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) は緑色です。<br/>アドビアイコン（![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)）は、計算指標テンプレートまたはセグメントテンプレートのいずれかを示します。 電卓アイコン（![電卓アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)）は、組織の管理者が作成した計算指標を示します。
+   コンポーネントのタイプは、色とアイコンで識別されます。 **ディメンション** ![ディメンションアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) はオレンジ色、**セグメント** ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) は青色、**日付範囲** ![日付範囲アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) は紫色、**指標** ![指標アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) は緑色です。<br/>アドビアイコン（![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)）は、計算指標テンプレートまたはセグメントテンプレートのいずれかを示します。 電卓アイコン（![電卓アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)）は、組織の管理者が作成した計算指標を示します。
 
 3. ドロップダウンメニューからコンポーネントを選択します。
 

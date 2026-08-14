@@ -29,7 +29,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="workspace_text_button"
 >title="テキスト"
->abstract="ユーザー定義のリッチテキストビジュアライゼーションをプロジェクトに追加します。"
+>abstract="ユーザーが定義したリッチテキストのビジュアライゼーションをプロジェクトに追加します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -52,7 +52,7 @@ _この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/Ado
 
    説明の編集が完了したら ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) を選択し、キャンセルするには ![CloseCircle](/help/assets/icons/CloseCircle.svg) を選択します。
 
-テキストの書式設定の変更、ハイパーリンクの追加、画像の追加を行うことができます。
+テキストの書式設定を変更したり、ハイパーリンクや画像を追加したりできます。
 
 ## 書式設定の調整 {#format}
 
@@ -62,7 +62,7 @@ _この記事では、この記事の_ ![Adobe Analytics](/help/assets/icons/Ado
 
 ## ハイパーリンクの追加 {#hyperlinks}
 
-ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。 ハイパーリンクを使用すると、プロジェクトの受信者にさらに支援を提供できます。 ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
+ハイパーリンクを追加するには、テキストをハイライト表示し、メニューで ![リンク](/help/assets/icons/Link.svg) を選択します。 ハイパーリンクを使用すると、プロジェクトの受信者に対して、さらに詳しい情報やサポートを提供できます。 ハイパーリンクは、外部 web サイト、ドキュメントページ、[Workspace プロジェクト、パネル、ビジュアライゼーション](/help/analyze/analysis-workspace/curate-share/shareable-links.md)などにリンクできます。
 
 ![リンクアイコンをハイライト表示するテキストオプション。](assets/hyperlink.png)
 

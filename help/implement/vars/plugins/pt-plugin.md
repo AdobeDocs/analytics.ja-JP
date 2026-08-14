@@ -1,6 +1,6 @@
 ---
 title: pt
-description: 変数のリストで関数を実行します。
+description: 変数のリストに対して関数を実行します。
 feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
@@ -45,10 +45,10 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * Action Type：Initialize pt
+   * アクションタイプ：pt を初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
@@ -59,7 +59,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -88,7 +88,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 例 1
 
-次のコードは getQueryParam プラグインの一部です。  URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。  また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切る必要があります。 parameterKey は、プラグインがクエリ文字列から抽出しようとしているクエリ文字列パラメーターを参照します。
+次のコードは getQueryParam プラグインの一部です。  URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。  また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切って分割する必要があります。 parameterKey は、プラグインがクエリ文字列から抽出しようとしているクエリ文字列パラメーターを参照します。
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
@@ -115,13 +115,13 @@ for(var i = 0; i < parametersLength; i++)
 
 ### 2.01（2019 年 9 月 24 日（PT））
 
-* 全体的なサイズを小さくするためにコードを少し変更しました。
+* 全体的なサイズを小さくするためのコードの軽微な変更。
 
-### 2.0（2018 年 4 月 17 日（PT））
+### 2.0（2018年4月17日（PT））
 
 * ポイントリリース（再コンパイル、コードサイズの縮小）。
 * H コードと AppMeasurement の両方のサポートを追加しました。
 
-### 1.0（2013 年 9 月 23 日（PT））
+### 1.0（2013年9月23日（PT））
 
 * 初回リリース。

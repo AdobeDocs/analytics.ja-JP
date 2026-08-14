@@ -1,6 +1,6 @@
 ---
 title: Power BI 用 Adobe Analytics コンテンツパック
-description: Adobe Analytics コンテンツパックと、事前定義済み Power BI ダッシュボードとレポートについて説明します。
+description: Adobe Analytics コンテンツパックと、事前定義済み Power BI ダッシュボードおよびレポートについて説明します。
 feature: Report Builder
 role: User, Admin
 exl-id: 835b24e2-0959-4aab-83c0-ba89badfc294

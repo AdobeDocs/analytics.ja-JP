@@ -23,7 +23,7 @@ ht-degree: 64%
 
 ---
 
-# Report Builder の Visual Basic マクロ
+# Report Builder における Visual Basic マクロ
 
 {{legacy-arb}}
 
@@ -73,7 +73,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-`RefreshAllReportBuilderRequestsInCellsRange()` マクロは、セル出力が指定した範囲のセルと交差するすべての Report Builder リクエストを最新の情報に更新します。 次の使用例は、作業中のブック内の「Data」ワークシートで `B1:B54` の範囲を指すセル範囲を指定します。 範囲式は、サポートされる Excel 範囲式をすべてサポートしています。
+`RefreshAllReportBuilderRequestsInCellsRange()` マクロは、セル出力が指定した範囲のセルと交差するすべての Report Builder リクエストを最新の情報に更新します。 次の使用例は、作業中のブック内の「Data」ワークシートで `B1:B54` の範囲を指すセル範囲を指定します。 この範囲の式は、サポートされているすべての Excel 範囲の式をサポートしています。
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()

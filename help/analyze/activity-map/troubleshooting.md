@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ Activity Map ディメンションのデータが表示されない場合は、�
 * **AppMeasurement バージョン**: Activity Mapはv1.6以降でサポートされています。 最新の安定したバージョンのAppMeasurementにアップグレードすると、多くのエッジケースの問題が解決されます。
 * **Activity Map モジュール**: `AppMeasurement_Module_Activity_Map` モジュールが`AppMeasurement.js` ファイルに存在するかどうかを確認します。 実装でAdobe Experience Platformを使用してデータを収集する場合は、**[!UICONTROL リンクトラッキング]**&#x200B;でAnalytics拡張機能を設定する際に、**[!UICONTROL ClickMapを有効にする]**&#x200B;がオンになっていることを確認してください。
 * **`s_sq` Cookie**: Activity Mapは、データ収集の`s_sq` Cookieに依存しています。
-   * `cookieDomainPeriods`変数が正しく設定されていることを確認してください。特に、`*.co.uk`や`*.co.jp`などの地域ドメインの場合に確認してください。
-   * `linkInternalFilters`変数が目的の値に設定されていることを確認してください。 クリックしたリンクが内部フィルターと一致しない場合、Activity Mapはそれを離脱リンクとみなし、データを収集しません。
+  * `cookieDomainPeriods`変数が正しく設定されていることを確認してください。特に、`*.co.uk`や`*.co.jp`などの地域ドメインの場合に確認してください。
+  * `linkInternalFilters`変数が目的の値に設定されていることを確認してください。 クリックしたリンクが内部フィルターと一致しない場合、Activity Mapはそれを離脱リンクとみなし、データを収集しません。
 * **Activity Map オーバーレイが実行中**: Activity Map オーバーレイが有効になっている場合、AppMeasurementはweb ページのクリックデータをトラッキングしません。
 
 Activity Map の使用と互換性のないブラウザーのパラメーターを示します。 Adobeでは、これらの設定を無効にすることをお勧めします。
@@ -78,7 +78,7 @@ Activity Map の使用と互換性のないブラウザーのパラメーター�
 
 **検証**
 
-Developer Console の「ネットワーク」タブを使用た操作呼び出し：
+Developer Console の「ネットワーク」タブを使用した Interact 呼び出し：
 
 1. サイトに開発用 Launch スクリプトを読み込みます。
 1. 要素のクリック時に、「ネットワーク」タブで「/ee」を検索します。

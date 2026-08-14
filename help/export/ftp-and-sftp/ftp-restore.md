@@ -1,5 +1,5 @@
 ---
-description: FTP アカウントから削除されたデータは、いかなる場合でもアドビで復元することはできません。
+description: FTP アカウントから削除されたデータは、アドビで復元することはできません。
 keywords: ftp;sftp
 title: 削除されたFTPまたはSFTP アカウントとデータを復元する
 feature: FTP Export

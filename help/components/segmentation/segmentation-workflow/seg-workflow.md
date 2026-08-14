@@ -31,7 +31,7 @@ ht-degree: 33%
 | 2 | [セグメントの作成](seg-create.md) | 新しいセグメントを作成するには、様々なオプションを使用できます。 |
 | 3 | [セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md) | あらゆる分析機能で使用するセグメントを構築し、編集します。 THEN演算子を使用してセグメントを作成する方法については、<br/> シーケンシャルセグメントを作成[を参照してください。](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) |
 | 4 | [セグメントのタグ設定](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 整理および共有が容易に行えるようにセグメントにタグを付けます。 簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。 |
-| 5 | [セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md) | セグメントを正当なセグメントとして承認します。 |
+| 5 | [セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md) | セグメントを標準的なセグメントにするために承認します。 |
 | 6 | [&#x200B; セグメントを使用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | セグメントコンポーネントのセグメントをレポートに直接適用できます。 |
 | 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他の分析ツールや、Adobe TargetおよびAdobe CX Enterpriseで、セグメントを対象とするオーディエンスと共有できます。 |
 | 8 | [セグメントのフィルタリング](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。 |

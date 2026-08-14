@@ -1,5 +1,5 @@
 ---
-description: Report Builder 5.2は、Adobe Analytics Unified Calculated Metricsをサポートしています。 これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
+description: Report Builder 5.2は、Adobe Analytics Unified Calculated Metricsをサポートしています。 その他の機能強化として、すべての計算指標にグローバル ID が付与され、特定のレポートスイートのみに制限されることはなくなりました。
 title: 計算指標
 feature: Report Builder
 role: User, Admin
@@ -31,7 +31,7 @@ Report Builder 5.2以降では、Adobe Analytics計算指標をサポートし�
 
 >[!NOTE]
 >
->既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。 Report Builder 5.2を使用すると、これらの従来の指標IDは新しいグローバル IDに変換されます。 Report Builder 5.1 を使用しているユーザーと共有した場合、計算指標は共有先で表示されません。
+>既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。 Report Builder 5.2を使用すると、これらの従来の指標IDは新しいグローバル IDに変換されます。 このワークブックを Report Builder v5.1 以前のバージョンを使用しているユーザーと共有した場合、そのユーザーは計算指標を表示できません。
 
 新しい計算指標ビルダーとマネージャーを使用して計算指標を作成および管理する方法について詳しくは、[計算指標](/help/components/calculated-metrics/cm-overview.md) ガイドを参照してください。
 

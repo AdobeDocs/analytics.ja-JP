@@ -1,6 +1,6 @@
 ---
-title: Analytics 拡張機能を使用した Adobe Analytics の実装
-description: タグと Analytics 拡張機能を使用した Adobe Analytics の実装方法について説明します
+title: Analytics 拡張機能を使用して Adobe Analytics を実装
+description: タグと Analytics 拡張機能を使用した Adobe Analytics の実装方法を学びます
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
@@ -25,11 +25,11 @@ ht-degree: 69%
 
 ---
 
-# Analytics 拡張機能を使用した Adobe Analytics の実装
+# Analytics 拡張機能を使用して Adobe Analytics を実装
 
 Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。 Adobeの現在のお勧めメソッドは、Adobe Experience Platformの[&#x200B; タグ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を通じて使用できます。
 
-Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。 アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。 これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
+Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。 アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入にも対応します。 これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
 アクティブなAdobe CX Enterprise契約を持つすべてのお客様は、タグを使用できます。 アクセス権があるかどうかわからない場合は、組織のCX Enterprise システム管理者にお問い合わせください。
 

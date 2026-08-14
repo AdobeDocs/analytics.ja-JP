@@ -25,7 +25,7 @@ ht-degree: 28%
 
 {{legacy-arb}}
 
-行ラベル グリッドに追加するディメンションをフィルタリングできます。 フィルターは、リクエストによって返されるデータを絞り込み、ピボットまたはカスタムレイアウトから適用できます。 ピボットレイアウトからディメンションフィルターを設定する際は、さらにセルから表示エントリ数を指定できます。
+行ラベル グリッドに追加するディメンションをフィルタリングできます。 フィルターは、リクエストによって返されるデータを絞り込み、ピボットまたはカスタムレイアウトから適用できます。 ピボットレイアウトからディメンションフィルターを設定する際は、さらにセルからのエントリ数を指定できます。
 
 選択したフィルターフォームは、Report Builder リクエストで選択した要素と指標に基づいて入力されます。
 
@@ -90,13 +90,13 @@ ht-degree: 28%
    <td colname="col3"> <p><span class="term"> a</span>と一致しません。 </p> <p><span class="term"> a b c</span> は抽出される。 </p> <p><span class="term"> abc</span> は抽出される。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>次の語句で始まる </p> </td> 
+   <td colname="col1"> <p>が次で始まる </p> </td> 
    <td colname="col02"> <p>特定の値で始まる結果を返します。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
    <td colname="col3"> <p><span class="term"> abcd</span>に一致しますが、<span class="term"> 1abc</span>には一致しません </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>次の語句で終わる </p> </td> 
+   <td colname="col1"> <p>が次で終わる </p> </td> 
    <td colname="col02"> <p>特定の値で終わる結果を返します。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
    <td colname="col3"> <p><span class="term"> wxyz</span>に一致しますが、<span class="term"> wxyz0</span>には一致しません </p> </td> 

@@ -44,9 +44,9 @@ Report Builder Adobe Analytics版は、次のオペレーティングシステ�
 
   すべてのWindows デスクトップ [!DNL Excel] ユーザーは、アドインを使用するためにMicrosoft Edge Webview2をインストールする必要があります。 コントローラーをインストールするには：
 
-   1. <https://aka.ms/webview2installer> にアクセスします。
-   1. Evergreen スタンドアロンインストーラーを選択してダウンロードします。
-   1. インストールプロンプトに従います。
+  1. <https://aka.ms/webview2installer> にアクセスします。
+  1. Evergreen スタンドアロンインストーラーを選択してダウンロードします。
+  1. インストールプロンプトに従います。
 
 ### Web Office
 

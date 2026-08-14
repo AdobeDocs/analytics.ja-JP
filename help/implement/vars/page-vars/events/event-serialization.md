@@ -1,6 +1,6 @@
 ---
 title: イベントのシリアル化
-description: サイト上の指標の重複を除外するのに役立ちます。
+description: サイトの指標の重複を除外するのに役立ちます。
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
@@ -34,7 +34,7 @@ ht-degree: 87%
 >
 >データソースはイベントのシリアル化または重複排除をサポートしていません。
 
-## イベントシリアル化の設定
+## イベントのシリアル化を設定する
 
 まず、レポートスイートの設定で、イベントの[!UICONTROL 個別イベントの記録]を[!UICONTROL イベント ID を使用]に設定する必要があります。 詳しくは、『管理者ユーザーガイド』の[成功イベント](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)を参照してください。
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 >
 >[`purchase`](event-purchase.md) イベントの重複を排除する場合は、代わりに [`purchaseID`](../purchaseid.md) 変数を使用します。
 
-## Web SDK を使用したイベント ID の使用
+## Web SDK を使用してイベント ID を使用する
 
 [**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、イベントのシリアル化では、目的のイベントのXDM フィールド `id`が使用されます。 完全な XDM パスは、シリアル化するイベントによって異なります。
 
@@ -58,7 +58,7 @@ ht-degree: 87%
 
 ## Adobe Analytics 拡張機能を使用したイベント ID の使用
 
-イベント ID フィールドは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
+イベント ID フィールドは、Analytics 拡張機能の設定時（グローバル変数）に設定することも、ルール内のアクションとして設定することもできます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
@@ -69,7 +69,7 @@ ht-degree: 87%
 
 有効な値は、20 バイトまでの英数字です。 20 バイトを超える値を入力すると、最初の 20 バイトに切り捨てられます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターのイベント ID の使用
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターでイベント ID を使用する
 
 イベントシリアル化は `s.events` 変数の一部です。 文字列内にコロンを使用して、各イベントに ID を割り当てます。
 

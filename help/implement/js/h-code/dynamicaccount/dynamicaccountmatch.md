@@ -1,6 +1,6 @@
 ---
 title: dynamicAccountMatch
-description: dynamicAccountMatch 変数は、動的アカウントで表示する値を決定します。
+description: dynamicAccountMatch 変数は、動的アカウントで参照する値を決定します。
 feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
 role: Developer

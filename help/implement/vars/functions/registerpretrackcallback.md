@@ -1,6 +1,6 @@
 ---
 title: registerPreTrackCallback
-description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
+description: アドビにヒットを送信する前にコールバック関数を作成します。
 feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer

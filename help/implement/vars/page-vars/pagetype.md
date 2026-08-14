@@ -33,18 +33,18 @@ ht-degree: 75%
 >
 >この変数は、エラーのないページに設定しないでください。
 
-## Web SDK を使用したページタイプ
+## Web SDK を使用した pageType
 
 チャネルは次の変数にマッピングされます。
 
 * [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` – このXDM フィールドはブール値です。エラーページとしてフラグを立てるには`true`に設定し、エラーページでない場合は`false`に設定します。
 * [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` – このデータオブジェクトフィールドは文字列です。フラグを設定するには、`"errorPage"`に設定します。
 
-## Adobe Analytics 拡張機能を使用したページタイプ
+## Adobe Analytics 拡張機能を使用した pageType
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement の s.pageType と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurement の s.pageType と Adobe Analytics 拡張機能のカスタムコードエディター
 
 `s.pageType` 変数は文字列で、唯一の有効な値は `errorPage` です。 この変数は、404 ページなど、サイトの任意のエラーページでこの値に設定します。
 

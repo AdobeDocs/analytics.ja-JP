@@ -22,7 +22,7 @@ ht-degree: 20%
 
 # 関数の使用
 
-関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
+関数を使用すると、データをフィルターして並べ替え、統計的な分析を行うことができます。
 
 すべての関数のリストについては、[基本関数](/help/components/calculated-metrics/cm-reference/cm-functions.md)および[詳細関数](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)を参照してください。
 

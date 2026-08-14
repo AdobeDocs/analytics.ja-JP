@@ -45,7 +45,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementのs.linkURLとAnalytics拡張機能のカスタムコードエディター
 
-`s.linkURL`変数は、クリックしたリンクの完全なURLを含む文字列です。 この変数は、レポートで使用できるディメンションを入力しません。
+`s.linkURL`変数は、クリックしたリンクの完全なURLを含む文字列です。 この変数は、レポートで使用できるいずれのディメンションにも値を設定しません。
 
 ```js
 s.linkURL = "https://example.com";

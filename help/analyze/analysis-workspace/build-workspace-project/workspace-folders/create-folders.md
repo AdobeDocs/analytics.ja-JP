@@ -29,7 +29,7 @@ Workspace ランディングページのプロジェクトおよびフォルダ�
 
 ## 新規フォルダーを作成
 
-新しいプロジェクトを作成するには、次の手順に従います。
+新しいフォルダーを作成するには、次の手順に従います。
 
 1. 「[フォルダーとプロジェクトを表示](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector)」が選択されていることを確認します。
 

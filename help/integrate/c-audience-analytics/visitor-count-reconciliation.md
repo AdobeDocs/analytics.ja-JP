@@ -51,12 +51,12 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics:Experience Cloud IDを持つ訪問者 </p> </td> 
-   <td colname="col3"> <p>レポート ウィンドウでプロパティに到達したExperience Cloud IDを持つ一意の訪問者の数を表示します。 </p> </td> 
+   <td colname="col3"> <p>レポートウィンドウ中にプロパティに到達したExperience Cloud IDを持つユニーク訪問者の数を表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Audience Manager Audience Analytics レポート内で使用されるExperience Cloud IDを持つReal-time Segment PopulationとAnalytics Visitorsは、最も類似しています。 しかしながら、短期的に見ると、いくつかの要因によって、それらの間に若干の相違が生じるであろう。 その要因は、次のとおりです。
+Audience Analytics レポート内でExperience Cloud IDを使用するAdobe Audience Manager リアルタイムのセグメント母集団とAnalytics訪問者は、最も類似しています。 しかしながら、短期的に見ると、いくつかの要因によって、それらの間に若干の相違が生じるであろう。 その要因は、次のとおりです。
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
@@ -79,7 +79,7 @@ Adobe Audience Manager Audience Analytics レポート内で使用されるExper
   </tr> 
   <tr> 
    <td colname="col1"> <p>150 セグメントの制限 </p> </td> 
-   <td colname="col2"> <p>いいえ </p> </td> 
+   <td colname="col2"> <p>× </p> </td> 
    <td colname="col3"> <p>はい – Analyticsのカウントは、150 セグメントの統合制限によって最大5%の影響を受ける可能性があります。 切り捨てが発生した場合、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示されます。 </p> </td> 
   </tr> 
  </tbody> 

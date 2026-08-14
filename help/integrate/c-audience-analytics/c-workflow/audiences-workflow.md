@@ -1,5 +1,5 @@
 ---
-description: オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
+description: オーディエンスデータをプロビジョニング、共有および使用する方法。
 solution: Analytics
 title: Audience Analytics ワークフローの概要
 feature: Audience Analytics
@@ -22,9 +22,9 @@ ht-degree: 52%
 
 ---
 
-# Audience Analytics ワークフローの概要
+# Audience Analytics - AAM セグメントの Analytics への統合ワークフローの概要
 
-オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
+オーディエンスデータをプロビジョニング、共有および使用する方法。
 
 | 手順 # | タスクの説明 | メモ |
 |--- |--- |--- |

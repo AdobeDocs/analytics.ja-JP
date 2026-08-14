@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: 628
 ht-degree: 95%
 
 ---
@@ -65,7 +65,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 1. ![コメント](/help/assets/icons/ComboChart.svg) [!UICONTROL コンボ]ビジュアライゼーションを追加します。 [パネルへのビジュアライゼーションの追加](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)を参照してください。
 
-1. ドロップダウンリストから、X 軸のディメンションと Y 軸の指標を選択します。
+1. ドロップダウンメニューから、X 軸のディメンションと Y 軸の指標を選択します。
 
 1. 使用する[!UICONTROL 折れ線比較]のタイプを選択します。
 
@@ -79,7 +79,7 @@ _この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourney
 
 1. 「**[!UICONTROL 作成]**」を選択します。
 
-   出力は、例えば次のようになります。
+   出力は次のようになります。
 
    ![現在の期間を棒グラフで示し、比較期間を折れ線グラフで示したコンボグラフ](assets/combo-output.png)
 

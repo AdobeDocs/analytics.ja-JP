@@ -1,5 +1,5 @@
 ---
-title: タグデータ要素の Analytics 変数へのマッピング
+title: タグのデータ要素を Analytics 変数にマッピングする
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 ---
 
-# タグデータ要素の Analytics 変数へのマッピング
+# タグのデータ要素を Analytics 変数にマッピングする
 
-タグデータ要素のリポジトリーを取得したら、それらを Analytics のディメンションに割り当てることができます。
+タグのデータ要素のリポジトリが用意できたら、それらを Analytics のディメンションに割り当てることができます。
 
 ## 前提条件
 

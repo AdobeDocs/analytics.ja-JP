@@ -100,7 +100,7 @@ Web SDK拡張機能を使用してAdobe Analyticsにデータを送信する方�
 <tr>
 <td>7</td> 
 <td>タグプロパティに <b>Web SDK 拡張機能をインストールして設定します</b>。 手順 4 で設定したデータストリームにデータを送信するように Web SDK 拡張機能を設定します。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ja">Adobe Experience Platform Web SDK 拡張機能の概要</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=ja">Adobe Experience Platform Web SDK 拡張の概要</a></td>
 </tr>
 
 <tr>

@@ -1,6 +1,6 @@
 ---
 title: trackExternalLinks
-description: 離脱リンクの自動リンクトラッキングを有効または無効にします。
+description: 出口リンクに対する自動リンクトラッキングを有効または無効にします。
 feature: Appmeasurement Implementation
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 role: Admin, Developer
@@ -29,7 +29,7 @@ ht-degree: 59%
 
 アドビでは、各離脱リンクに対して [`tl()`](../functions/tl-method.md) メソッドを手動で設定せずに離脱リンクを追跡するための機能を提供しています。 離脱リンクに自動リンクトラッキングを使用する場合は、この変数を有効にします。
 
-有効な場合、AppMeasurement はクリックされたリンク URL を [`linkInternalFilters`](linkinternalfilters.md) および [`linkExternalFilters`](linkexternalfilters.md) の値と比較します。 一致が見つかった場合、離脱リンクトラッキングコールが自動的に実行されます。
+有効な場合、AppMeasurement はクリックされたリンク URL を [`linkInternalFilters`](linkinternalfilters.md) および [`linkExternalFilters`](linkexternalfilters.md) の値と比較します。 一致が見つかった場合、離脱リンクのトラッキング用の呼び出しが自動的に実行されます。
 
 ## Web SDK拡張機能を使用したクリック収集の有効化または無効化
 
@@ -55,7 +55,7 @@ alloy("configure", {
 「アウトバウンドリンクトラッキング」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるチェックボックスです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のタグプロパティをクリックします。
+2. 対象のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンクトラッキング]」チェックボックスが表示されます。
 

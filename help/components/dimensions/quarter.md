@@ -1,6 +1,6 @@
 ---
 title: 四半期
-description: 指標が発生した四半期。
+description: 指標が発生した四半期を示します。
 feature: Dimensions
 exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
 TQID: https://experienceleague.adobe.com/uKfzD1fZ3q1p6Np0C3QcWDgJMKMqvRa2NEVzCorRafY
@@ -34,4 +34,4 @@ ht-degree: 89%
 
 ## ディメンション項目
 
-ディメンション項目には、指定した日付の 3 ヶ月の四半期と年が含まれます。
+ディメンション項目には、指定した日付の 3 か月の四半期と年が含まれます。

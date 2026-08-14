@@ -1,5 +1,5 @@
 ---
-description: 仮想レポートスイートの実装を計画するために必要な手順の概要です。
+description: 仮想レポートスイートをプランし、実装するために必要な手順の概要です。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートのワークフロー
 feature: VRS
@@ -23,7 +23,7 @@ ht-degree: 51%
 
 # 仮想レポートスイートのワークフロー
 
-仮想レポートスイートの実装を計画するために必要な手順の概要です。
+仮想レポートスイートをプランし、実装するために必要な手順の概要です。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)仮想レポートスイートの戦略を策定します。
 

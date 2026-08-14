@@ -33,7 +33,7 @@ ht-degree: 45%
 
 リクエストウィザードで指標とディメンションを追加する：ステップ 2 リクエスト内のデータのAnalytics レイアウトを定義します。 Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 
-指標は数値です。 指標は、[!UICONTROL ページビュー数]、[!UICONTROL 訪問者プロファイル]、[!UICONTROL クリックスルー数]、[!UICONTROL リロード回数]、[!UICONTROL 平均滞在時間]、[!UICONTROL 日付]、[!UICONTROL 数量]など、Web サイト上のアクティビティに関する定量情報から構成されます。 Analytics の次の標準的なグループに従い、Report Builder は指標を複数のグループに分類しています。
+指標は数値です。 指標は、[!UICONTROL ページビュー数]、[!UICONTROL 訪問者プロファイル]、[!UICONTROL クリックスルー数]、[!UICONTROL リロード回数]、[!UICONTROL 平均滞在時間]、[!UICONTROL 日付]、[!UICONTROL 数量]など、Web サイト上のアクティビティに関する定量情報から構成されます。 Report Builder は、Analytics の標準的なグループ分けに従って、指標を複数のグループに分類します。
 
 * 標準トラフィック：指定した行項目に基づく指標を表示します。 例えば、ページレポートでは、訪問数の指標にその特定のページへの訪問数が表示されます。
 * 標準Commerce：売上、注文、チェックアウトなどの指標

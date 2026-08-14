@@ -38,11 +38,11 @@ AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScript�
 * 開発[&#x200B; レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)の目的のエッジ ドメイン。
 * IMS組織ID:
-   1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
-   1. CX Enterprise インターフェイスの任意の場所で、`[Cmd]` + `[I]` （iOS）または`[Ctrl]` + `[I]` （Windows）を押します。
-   1. **[!UICONTROL ユーザーデータデバッガー]**&#x200B;が表示されます。 「**[!UICONTROL 割り当てられた組織]**」タブを選択します。
-   1. 目的のIMS組織を展開します。
-   1. **[!UICONTROL ID]** フィールドを探します。
+  1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
+  1. CX Enterprise インターフェイスの任意の場所で、`[Cmd]` + `[I]` （iOS）または`[Ctrl]` + `[I]` （Windows）を押します。
+  1. **[!UICONTROL ユーザーデータデバッガー]**&#x200B;が表示されます。 「**[!UICONTROL 割り当てられた組織]**」タブを選択します。
+  1. 目的のIMS組織を展開します。
+  1. **[!UICONTROL ID]** フィールドを探します。
 
 上記のリソースが揃えば、次の基本的な例ページには、Adobe Analyticsにデータを送信するために必要な最小限の呼び出しが含まれています。
 
@@ -98,9 +98,9 @@ AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScript�
 [`visitorID`](/help/implement/vars/config-vars/visitorid.md)変数を使用すると、組織は訪問者を特定するための完全な独立した制御を実行できます。 `visitorID`を使用する場合は、次の制限事項に注意してください。
 
 * すべてのヒットには、1人の訪問者としてカウントするために同じ`visitorID`値が含まれている必要があります。
-   * `visitorID`を省略したヒットは、別の訪問者識別方法を自動的に使用し、別の訪問者として扱います。
-   * 以前のヒットとは異なる`visitorID`値を含むヒットは、別の訪問者として扱われます。
-   * Adobeでは、Adobe Analyticsで異なる訪問者IDを使用してヒットを合成する方法は提供されていません。
+  * `visitorID`を省略したヒットは、別の訪問者識別方法を自動的に使用し、別の訪問者として扱います。
+  * 以前のヒットとは異なる`visitorID`値を含むヒットは、別の訪問者として扱われます。
+  * Adobeでは、Adobe Analyticsで異なる訪問者IDを使用してヒットを合成する方法は提供されていません。
 * 共有オーディエンス、Analytics for Targetおよび顧客属性は、`visitorID`を使用して識別された訪問者ではサポートされていません。
 
 この変数を使用した実装手順については、[`visitorID`](/help/implement/vars/config-vars/visitorid.md)を参照してください。

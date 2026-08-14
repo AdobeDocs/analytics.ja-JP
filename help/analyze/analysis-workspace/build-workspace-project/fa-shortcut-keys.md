@@ -70,7 +70,7 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 | 元に戻す | **[!UICONTROL *Cmd + Z キー&#x200B;*]** | **[!UICONTROL *Ctrl + Z キー&#x200B;*]** |
 | コンポーネントを更新 | **[!UICONTROL *Opt + Shift + R キー&#x200B;*]** | **[!UICONTROL *Alt + Shift + R キー&#x200B;*]** |
 | プロジェクトを更新 | **[!UICONTROL *Opt + R キー&#x200B;*]** | **[!UICONTROL *Alt + R キー&#x200B;*]** |
-| ランディングページとして設定 | **[!UICONTROL *Cmd + Shift + L キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + L キー&#x200B;*]** |
+| ランディングページに設定 | **[!UICONTROL *Cmd + Shift + L キー&#x200B;*]** | **[!UICONTROL *Ctrl + Shift + L キー&#x200B;*]** |
 
 ## 追加パネルとビジュアライゼーションのアクション
 

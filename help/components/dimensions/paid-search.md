@@ -1,6 +1,6 @@
 ---
 title: 有料検索
-description: 指標と有料検索および自然検索を区別します。
+description: 有料検索と自然検索の指標を区別します。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 TQID: https://experienceleague.adobe.com/s9jhjGeXaOCo-Wz-Jyof951NZdRWfz-9tjrVrjHvTS0

@@ -89,11 +89,11 @@ Adobe Experience Platform データ収集にはこの変数を設定するため
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
-4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
+4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が表示されます。
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.products
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターにおける s.products
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。 文字列内の各フィールドをセミコロン（`;`）で区切ります。
 
@@ -118,7 +118,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->製品名、カテゴリ、マーチャンダイジング eVar の値から、セミコロン、コンマ、およびパイプをすべて取り除きます。 製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。 この誤った解析は、製品文字列の残りの部分をスローし、ディメンションやレポートに誤ったデータが含まれる原因となります。
+>製品名、カテゴリ、マーチャンダイジング eVar の値から、セミコロン、コンマ、およびパイプをすべて取り除きます。 製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。 この誤った解析によって製品文字列の残りの部分が乱れ、ディメンションやレポートに誤ったデータが含まれる原因となります。
 
 ## 例
 

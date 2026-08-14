@@ -1,6 +1,6 @@
 ---
 title: ヒットの深さ
-description: 訪問へのヒット数。
+description: 訪問内のヒット数。
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 TQID: https://experienceleague.adobe.com/dH1ItdXZTw9vcqvej3VOQDM-J9FFA38f4bq8HTJbKMo
@@ -27,7 +27,7 @@ ht-degree: 74%
 
 # ヒットの深さ
 
-「ヒットの深さ」の[&#x200B; ディメンション &#x200B;](overview.md)は、特定のヒットが訪問するまでの距離をレポートします。 このディメンションは、訪問者がサイト上でアクションを実行する訪問までの距離を把握するのに役立ちます。 ヒットの深さは、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）およびリンクトラッキングヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）を含むすべてのタイプのヒットをカウントします。
+「ヒットの深さ」の[&#x200B; ディメンション &#x200B;](overview.md)は、特定のヒットが訪問するまでの距離をレポートします。 このディメンションは、訪問者がサイト上でアクションを実行するのが訪問のどの時点かを把握するのに役立ちます。 ヒットの深さは、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）およびリンクトラッキングヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）を含むすべてのタイプのヒットをカウントします。
 
 ## このディメンションへのデータ入力
 

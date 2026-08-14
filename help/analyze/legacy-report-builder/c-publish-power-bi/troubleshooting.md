@@ -1,5 +1,5 @@
 ---
-description: Report Builder を Power BI で使用する際の一般的な問題。
+description: Report Builder を Power BI で使用する際の一般的なレポートの問題。
 title: Power BI 統合のトラブルシューティング
 feature: Report Builder
 role: User, Admin
@@ -20,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: 385
 ht-degree: 27%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 27%
 
 {{legacy-arb}}
 
-Report Builder を Power BI で使用する際の一般的な問題を調べ、解決します。
+Report Builder を Power BI で使用する際の一般的なレポートの問題を調べ、解決します。
 
-## Power BI への発行の失敗
+## Power BI への公開の失敗
 
 Power BIの公開を必要とするスケジュール済みワークブックは、Power BI サービスの稼働開始に依存します。 公開できない主な理由は次の2つです。
 
@@ -44,7 +44,7 @@ Report Builderのスケジュールされた各タスクは、スケジュール
 * 2回目の失敗の後、メッセージは表示されません。
 * 3回目の試行が失敗すると、「このブックをPower BIに公開できませんでした」というメッセージが表示されます。
 
-## Power BI のビジュアライゼーションの破損
+## Power BI のビジュアルが正しく表示されない場合
 
 Report Builder リクエストをPower BIに公開した後、ビジュアライゼーションが破損する主な理由は次のとおりです。
 

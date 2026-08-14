@@ -89,7 +89,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics管理者で、移行前のメールを受け取りました。 最初に何をすればよいですか？ </p> </td> 
-   <td colname="col2"> <p>Adobe IDがあり、<a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>にアクセスできることを確認します。 </p> <p>アクセスできない場合は、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください （まず、Analytics 管理者を適切な組織に招待できるシステム管理者または製品管理者に連絡してください）。 </p> </td> 
+   <td colname="col2"> <p>Adobe IDがあり、<a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>にアクセスできることを確認します。 </p> <p>アクセスできない場合は、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください （まず、適切な組織にあなたを招待できるシステム管理者または製品管理者に連絡してください）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AEMとAdobe Analyticsの統合 </p> </td> 
@@ -145,7 +145,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
     </ul> <p>移行を迅速化するには、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html"> Adobe カスタマーケア </a>のAdobe アカウントチームに連絡し、より早い開始日のリクエストを送信してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Analytics 管理者ですが、Adobe Admin Console へのアクセス権がありません。 Adobe Admin Console へのアクセス権を付与できるのは誰ですか。 </p> </td> 
+   <td colname="col1"> <p> Analytics 管理者ですが、Adobe Admin Console へのアクセス権がありません。 Adobe Admin Console へのアクセスを得るには、誰に連絡すればよいですか。 </p> </td> 
    <td colname="col2"> <p>組織の Adobe Admin Console へのアクセス権を持つシステム管理者または製品管理者であれば、アクセス権を付与できます。 組織内で誰が Admin Console の管理者権限を持っているかわからない場合は、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>にお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
@@ -278,7 +278,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
 
 >[!IMPORTANT]
 >
->移行中に問題になる可能性があるので、必ず以下の事項を確認してください。
+>移行中に該当する可能性のある、次の問題点を確認してください。
 
 <table id="table_88E2FA03D5F241B79AB54D12F64B51DA"> 
  <thead> 
@@ -290,7 +290,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
  <tbody> 
   <tr> 
    <td colname="col1"> <p>別名でログイン </p> </td> 
-   <td colname="col2"> <p> Adobe Admin Console への移行を行っている管理者は、「このユーザーとしてログイン」機能を使用して Adobe Admin Console に移行済みの管理者以外のユーザーアカウントにアクセスすることができなくなります。 この機能は廃止されました。 </p> </td> 
+   <td colname="col2"> <p> Adobe Admin Console への移行を行っている管理者は、「別名でログイン」機能を使用して Adobe Admin Console に移行済みの管理者以外のユーザーアカウントにアクセスできなくなります。 この機能は廃止されました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザーの有効期限とアセットの転送 </p> </td> 
@@ -306,7 +306,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス資格情報 </p> </td> 
-   <td colname="col2"> <p> ユーザーの web サービス資格情報（および共有暗号鍵）は、Adobe Admin Console では使用できません。「Analytics ユーザーおよびアセット」セクションで特定のユーザーをクリックして、アクセスすることができます。 </p> </td> 
+   <td colname="col2"> <p> ユーザーの web サービス資格情報（および共有シークレット）は Adobe Admin Console では使用できません。「Analytics ユーザーおよびアセット」セクションで特定のユーザーをクリックして参照できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>シングルサインオン </p> </td> 
@@ -322,7 +322,7 @@ Adobe Admin Console を使用するメリットには、次のようなものが
   </tr> 
   <tr> 
    <td colname="col1"> <p>一括メール </p> </td> 
-   <td colname="col2"> <p>ユーザーへの一括メールは、Analytics 管理ツールおよび Adobe Admin Console のどちらでもサポートされなくなります。 顧客は、ユーザーの電子メールアドレスを Adobe Admin Console から一括して書き出し、希望する電子メールクライアントを使用してメールを送信できます。 </p> </td> 
+   <td colname="col2"> <p>ユーザーへの一括メールは、Analytics 管理ツールおよび Adobe Admin Console のどちらでもサポートされなくなります。 顧客は、ユーザーのメールアドレスを Adobe Admin Console から一括書き出しし、希望するメールクライアントを使用してメールを送信できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

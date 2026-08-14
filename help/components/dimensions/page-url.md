@@ -39,7 +39,7 @@ URL が 255 バイトを超える場合があります。 AppMeasurement は、�
 
 AppMeasurement は、ページの URL に基づいてこのデータを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。
 
-## eVar への URL の入力
+## URL を使用して eVar を設定する
 
 eVar を連結された文字列 `window.location.hostname + window.location.pathname` に設定することをお勧めします。 この文字列は、プロトコル、クエリ文字列、アンカータグを省略するので、通常、`window.location.href` 文字列よりも適切に動作します。
 

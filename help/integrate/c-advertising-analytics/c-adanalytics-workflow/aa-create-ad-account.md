@@ -20,12 +20,12 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 661
 ht-degree: 13%
 
 ---
 
-# 広告アカウントの設定
+# 広告アカウントを設定
 
 Adobe Analytics管理者は、新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイート（1 : 1、1：多、多：多）にマッピングできます。
 

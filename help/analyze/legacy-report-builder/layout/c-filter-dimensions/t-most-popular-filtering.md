@@ -1,5 +1,5 @@
 ---
-description: Boolean ロジックと AND／OR 検索式を使用して設定する、ランキングおよび条件フィルター。
+description: Boolean ロジックと AND／OR 検索式を使用して設定する、ランキングおよび条件フィルターです。
 title: 最頻使用フィルター
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder

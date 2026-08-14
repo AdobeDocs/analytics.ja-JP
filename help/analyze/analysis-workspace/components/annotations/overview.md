@@ -1,6 +1,6 @@
 ---
 title: 注釈の概要
-description: Analysis Workspace で注釈を使用する方法について説明します。
+description: Analysis Workspace での注釈の使用方法
 role: User, Admin
 solution: Analytics
 feature: Annotations

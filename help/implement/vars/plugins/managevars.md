@@ -45,10 +45,10 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * Action Type：Initialize manageVars
+   * アクションタイプ：manageVars を初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
@@ -59,7 +59,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -78,23 +78,23 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 `manageVars` 関数は次の引数を使用します。
 
 * **`cb`**（必須、文字列）：プラグインが Analytics 変数の操作に使用するコールバック関数の名前です。 `cleanStr` のようなアドビの関数または独自のカスタム関数を使用できます。
-* **`l`**（オプション、文字列）：操作する Analytics 変数のコンマ区切りリストです。 未設定の場合はデフォルトですべての Adobe Analytics 変数に設定され、次の変数が含まれます。
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * すべての prop
-   * すべての eVar
-   * すべての階層変数
-   * すべてのリスト変数
-   * すべてのコンテキストデータ変数
+* **`l`**（オプション、文字列）：操作する Analytics 変数のコンマ区切りリストです。 未設定の場合は、デフォルトで Adobe Analytics のすべての変数が対象となり、次の変数が含まれます。
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * すべての prop
+  * すべての eVar
+  * すべての階層変数
+  * すべてのリスト変数
+  * すべてのコンテキストデータ変数
 * **`Il`**（オプション、ブール値）：`l` 引数で宣言された変数のリストを含める代わりに&#x200B;*除外*&#x200B;する場合には `false` に設定します。 デフォルト値は `true` です。
 
 この関数を呼び出すと、何も返されません。 代わりに、目的のコールバック関数に基づいて Analytics 変数の値を変更します。
@@ -163,12 +163,12 @@ manageVars("cleanStr");
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.1（2019 年 1 月 14 日（PT））
+### 2.1（2019年1月14日（PT））
 
 * Internet Explorer 11 ブラウザーのバグ修正。
 * `s.cleanStr` が通常の `cleanStr` 関数を使用するように変更しました。
 
-### 2.0（2018 年 5 月 7 日（PT））
+### 2.0（2018年5月7日（PT））
 
 * ポイントリリース（プラグインの完全な再分析と書き換えを含む）
 * `cleanStr` コールバック関数を追加しました。

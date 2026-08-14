@@ -63,7 +63,7 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurementのs.registerPostTrackCallbackとAnalytics拡張機能のカスタムコードエディター
 
-`s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。 ネストされた関数は、画像リクエストが正常に送信された直後に実行されます。
+`s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。 ネストされた関数は、イメージリクエストが正常に送信された直後に実行されます。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});

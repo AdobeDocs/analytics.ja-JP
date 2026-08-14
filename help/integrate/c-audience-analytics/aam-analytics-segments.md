@@ -20,7 +20,7 @@ ht-degree: 12%
 
 ---
 
-# Analytics と Audience Manager のセグメントについて
+# Adobe Analytics と Adobe Audience Manager のセグメントを理解する
 
 Adobe AnalyticsとAudience Managerはどちらもセグメントを利用しています。 ただし、Analytics セグメントは、Audience Manager セグメントとまったく同じではありません。 これらの違いは、AnalyticsとAudience Manager レポートに表示される不一致に一因します。 そのため、両方のソリューションでセグメントを扱う際には、これらの違いを理解し、実践することが重要です。
 
@@ -41,7 +41,7 @@ Analyticsでは、Audience Manager セグメントはオーディエンスとし
 
 ## Analytics セグメント {#analytics-segments}
 
-Analytics セグメントは、レポート内のデータをフィルタリングするメカニズムです。 フィルタリングは、Audience Manager のように訪問者レベルのみではなく、訪問者、訪問またはヒットのレベルでおこなうことができます。 Analytics セグメントとAudience Manager セグメントを比較する際に考慮すべき重要な要素がいくつかあります。
+Analytics セグメントは、レポート内のデータをフィルタリングするメカニズムです。 フィルタリングは、Audience Manager のように訪問者レベルのみに限定されず、訪問者、訪問、またはヒットのレベルでおこなうことができます。 Analytics セグメントとAudience Manager セグメントを比較する際に考慮すべき重要な要素がいくつかあります。
 
 * Adobe Analyticsのセグメントは、Audience Managerのセグメントとは異なるデータセットを使用します。 データの収集時に、Analyticsは、Audience Managerで使用できないデータに対して様々な後処理ステップを適用します。 後処理には、eVarの永続性、処理ルール、ルックアップ（位置情報、モバイルデバイス）、VISTAなど、様々な要素が含まれます。 Audience Managerは、サーバーサイド転送（またはDIL）を通じて前処理されたデータを受け取ります。
 

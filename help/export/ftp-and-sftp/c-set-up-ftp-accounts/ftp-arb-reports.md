@@ -1,5 +1,5 @@
 ---
-description: Microsoft Excel 用の Adobe Report Builder アドオンを使用すると、Web 分析データからカスタマイズレポートを作成し、Excel ワークシートに挿入できます。
+description: Microsoft Excel 用の Adobe Report Builder アドオンを使用すると、web 分析データからカスタマイズしたリクエストを作成し、Excel ワークシートに挿入できます。
 keywords: ftp;sftp
 title: Report Builder が配信するレポート
 feature: FTP Export
@@ -23,7 +23,7 @@ ht-degree: 49%
 
 # Report Builder が配信するレポート
 
-Microsoft Excel 用の Adobe Report Builder アドオンを使用すると、Web 分析データからカスタマイズレポートを作成し、Excel ワークシートに挿入できます。
+Microsoft Excel 用の Adobe Report Builder アドオンを使用すると、web 分析データからカスタマイズしたリクエストを作成し、Excel ワークシートに挿入できます。
 
 リクエストは、ワークシート内のセルを動的に参照でき、データの表示方法を更新およびカスタマイズできます。 FTPまたはSFTPの場合は、ホストが外部で使用可能であることを確認する必要があります。 [!UICONTROL Report Builder]が配信したレポートについて詳しくは、[Report Builder ヘルプ &#x200B;](/help/analyze/report-builder/rb-overview.md)を参照してください。
 

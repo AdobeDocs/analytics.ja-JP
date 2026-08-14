@@ -1,6 +1,6 @@
 ---
 title: linkDownloadFileTypes
-description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を決定します。
+description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を指定します。
 feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
@@ -37,7 +37,7 @@ ht-degree: 57%
 >
 >* ページ読み込み時に自動的に開始するファイルダウンロード
 >* リダイレクト後にトリガーするダウンロード
->* 右クリックして「ターゲットに名前を付けて保存…」を選択します
+>* 右クリックして「ターゲットに名前を付けて保存…」を選択
 >* JavaScript を使用するリンク（`javascript:openLink()` など）
 >
 >これらのダウンロードタイプでは、[`link tracking`](../functions/tl-method.md)呼び出しを手動で送信できます。
@@ -68,7 +68,7 @@ alloy("configure", {
 「ダウンロード拡張子」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にある、さらに追加するフィールドを含むファイル拡張子のリストです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のタグプロパティをクリックします。
+2. 対象のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「**[!UICONTROL ダウンロード拡張子]**」フィールドが表示されます。
 

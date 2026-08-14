@@ -1,7 +1,7 @@
 ---
 description: 分類データをアップロードできるクラウド インポート アカウントと場所を設定します
 keywords: Analysis Workspace
-title: クラウドの読み込みアカウントおよび書き出しアカウントの設定
+title: クラウド読み込みアカウントおよびクラウド書き出しアカウントを設定
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
@@ -75,7 +75,7 @@ ht-degree: 69%
    | [!UICONTROL **場所アカウント名**] | 場所アカウントの名前。 この名前は、場所を作成する際に表示されます。 |
    | [!UICONTROL **場所アカウントの説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
    | [!UICONTROL **組織内のすべてのユーザーがアカウントを使用できるようにする**] | 組織内の他のユーザーがアカウントを使用できるようにするには、このオプションを有効にします。<p>セグメントを共有する際は、次の点を考慮してください。</p><ul><li>共有したアカウントは、共有解除できません。</li><li>共有したアカウントは、アカウントの所有者のみが編集できます。</li><li>誰でも共有したアカウントの場所を作成できます。</li></ul> |
-   | [!UICONTROL **アカウントタイプ**] | クラウドのアカウントタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーが作成できるアカウントタイプを制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
+   | [!UICONTROL **アカウントタイプ**] | クラウドアカウントのタイプを選択します。 アカウントタイプごとに 1 つのアカウントを作成し、そのアカウント内で必要に応じて複数の場所を使用することをお勧めします。<p>システム管理者は、[ユーザーがアカウントを作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーが作成できるアカウントタイプを制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</p> |
 
 1. 「[!UICONTROL **アカウントプロパティ**]」セクションで、選択したアカウントタイプに固有の情報を指定します。
 
@@ -91,7 +91,7 @@ ht-degree: 69%
 
    | フィールド | 関数 |
    |---------|----------|
-   | [!UICONTROL **役割 ARN**] | アドビが Amazon S3 アカウントへのアクセス権を取得するために使用できる役割 ARN（Amazon リソースネーム）を指定する必要があります。 これを行うには、ソースアカウントの IAM 権限ポリシーを作成し、そのポリシーをユーザーに関連付けてから、宛先アカウントの役割を作成します。 詳しくは、[この AWS ドキュメント](https://repost.aws/ja/knowledge-center/cross-account-access-iam)を参照してください。 |
+   | [!UICONTROL **役割 ARN**] | アドビが Amazon S3 アカウントへのアクセス権を取得するために使用できるロール ARN（Amazon リソースネーム）を指定する必要があります。 これを行うには、ソースアカウントの IAM 権限ポリシーを作成し、そのポリシーをユーザーに関連付けてから、宛先アカウントの役割を作成します。 詳しくは、[この AWS ドキュメント](https://repost.aws/ja/knowledge-center/cross-account-access-iam)を参照してください。 |
 
    {style="table-layout:auto"}
 
@@ -117,8 +117,8 @@ ht-degree: 69%
    |---------|----------|
    | [!UICONTROL **アプリケーション ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。 詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
    | [!UICONTROL **テナント ID**] | 作成した Azure アプリケーションからこの ID をコピーします。 Microsoft Azure では、この情報はアプリケーション内の「**概要**」タブにあります。 詳しくは、[Microsoft ID プラットフォームでのアプリケーションの登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
-   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。  Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンを秘密鍵として保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。 詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
-   | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault に秘密鍵を追加する際に作成した秘密鍵名。 Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。 詳しくは、[Azure Key Vault からシークレットを設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
+   | [!UICONTROL **Key Vault URI**] | <p>Azure Key Vault 内の SAS トークンへのパス。  Azure SAS を設定するには、Azure Key Vault を使用して SAS トークンをシークレットとして保存する必要があります。 詳しくは、[Azure Key Vault で秘密鍵を設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。</p><p>Key Vault URI を作成したら、作成した Azure アプリケーションに権限を付与するために、Key Vault にアクセスポリシーを追加します。 詳しくは、[Key Vault アクセスポリシーの割り当て方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/general/assign-access-policy?tabs=azure-portal)を参照してください。</p> |
+   | [!UICONTROL **Key Vault シークレット名**] | Azure Key Vault にシークレットを追加する際に作成したシークレット名。 Microsoft Azure では、この情報は、作成した Key Vault の **Key Vault** 設定ページにあります。 詳しくは、[Azure Key Vault からシークレットを設定および取得する方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/azure/key-vault/secrets/quick-create-portal?source=recommendations)を参照してください。 |
    | [!UICONTROL **場所アカウントの秘密鍵**] | 作成した Azure アプリケーションからシークレットをコピーします。 Microsoft Azure では、この情報はアプリケーション内の「**証明書とシークレット**」タブにあります。 詳しくは、[Microsoft ID プラットフォームでのアプリケーション登録方法に関する Microsoft Azure ドキュメント](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app)を参照してください。 |
 
    {style="table-layout:auto"}
@@ -166,7 +166,7 @@ ht-degree: 69%
    >データはプレーンテキストでインターネット上を流れるので、FTPは使用しないでください。
 
 
-   データフィードのデータは、アドビまたは顧客のホストする FTP の場所に配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。
+   データフィードは、アドビまたは顧客がホストする FTP ロケーションに配信できます。 FTP ホスト、ユーザー名、パスワードが必要です。
 
    | フィールド | 関数 |
    |---------|----------|

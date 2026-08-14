@@ -34,7 +34,7 @@ ht-degree: 9%
 | [!UICONTROL ユーザー ID] | Adobe Analyticsへのログインに使用するユーザーID。 |
 | [!UICONTROL 名前] | ユーザーの名前。 |
 | [!UICONTROL 移行ステータス &#x200B;] | レガシーユーザーアカウントからEnterprise IDまたはAdobe IDへの移行のステータス。  ステータスは、「未開始」、「キュー」または「移行」にできます。 |
-| [!UICONTROL 電子メール] | ユーザのメール。 |
+| [!UICONTROL 電子メール] | ユーザーのメールです。 |
 | [!UICONTROL 従来のログイン &#x200B;] | 有効または無効にできるレガシーログインのステータス。 |
 | [!UICONTROL 作成日] | Adobe Analyticsでユーザーアカウントが作成された時点。 |
 | [!UICONTROL 最後のAnalytics アクセス &#x200B;] | Adobe Analyticsへのユーザーアカウントの最新アクセスのタイムスタンプ， |

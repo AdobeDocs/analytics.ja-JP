@@ -1,5 +1,5 @@
 ---
-description: Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
+description: Report Builder で公開されたアセットを Power BI Desktop に取り込む方法について説明します。
 title: Power BI Desktop への発行済みアセットの取り込み
 feature: Report Builder
 role: User, Admin
@@ -23,11 +23,11 @@ ht-degree: 60%
 
 ---
 
-# Power BI Desktop への発行済みアセットの取り込み
+# 公開済みアセットを Power BI Desktop に取り込む
 
 {{legacy-arb}}
 
-Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
+Report Builder で公開されたアセットを Power BI Desktop に取り込む方法について説明します。
 
 ## 前提条件 {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}
 

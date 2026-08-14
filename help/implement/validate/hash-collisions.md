@@ -1,6 +1,6 @@
 ---
 title: ハッシュの競合
-description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
+description: ハッシュの競合とは何か、またそれがどのように現れるかを説明します。
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer

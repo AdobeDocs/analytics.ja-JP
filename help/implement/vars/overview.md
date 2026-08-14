@@ -28,15 +28,15 @@ ht-degree: 100%
 
 # 変数、関数、メソッド、プラグインの概要
 
-Analytics には、Analytics データを収集するための変数が多数用意されています。 この節の変数は、いくつかに分かれています。
+Analytics には、Analytics データを収集するための変数が多数用意されています。 このセクションの変数は、いくつかのセクションに分割されています。
 
 * **ページ変数**&#x200B;は、通常、レポートで直接使用される値です。 一般的なページ変数には、`props`、`eVars`、`events` が含まれます。
-* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。 一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。 通常、設定変数はディメンション項目を設定しません。
+* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。 一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。 通常、コンフィグ変数によってディメンション項目が入力されることはありません。
 * **関数とメソッド**&#x200B;は、参照時に特定のタスクを実行するコードの一部です。 一般的な関数には、`t()`、`tl()`、`clearVars()` があります。
 
-## 変数と実装メソッド
+## 変数と実装方法
 
-Adobe Analytics は様々な方法で実装できます。 各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用した変数の実装方法に関する節があります。
+Adobe Analytics は様々な方法で実装できます。 各ページには、Web SDK、Adobe Analytics 拡張機能、JavaScript 用 AppMeasurement を使用して変数を実装する方法に関するセクションがあります。
 
 
 >[!BEGINSHADEBOX]

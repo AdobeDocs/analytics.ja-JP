@@ -31,7 +31,7 @@ AppMeasurement によって設定される Cookie の有効期限は通常 2 年
 
 >[!NOTE]
 >
->この変数は、ユニーク訪問者数と属性に影響を与えます。 この変数を設定する場合は注意が必要です。
+>この変数は、ユニーク訪問者数とアトリビューションに影響を与えます。 この変数を設定する場合は注意が必要です。
 
 ## Web SDKを使用したCookieの有効期間
 
@@ -42,7 +42,7 @@ Web SDKでは、設定したCookieの有効期間に対するカスタマイズ�
 Cookie Lifetimeは、Adobe Analytics拡張機能を設定する際の[!UICONTROL Cookie] アコーディオンの下にあるドロップダウンリストです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL Cookie]」アコーディオンを展開すると、「[!UICONTROL Cookie Lifetime]」ドロップダウンリストが表示されます。
 

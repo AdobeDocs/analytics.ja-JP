@@ -1,5 +1,5 @@
 ---
-title: 直帰数（指標）
+title: 単一ページ訪問（指標）
 description: 訪問で、「ページ」ディメンション項目が変更されなかった回数。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf

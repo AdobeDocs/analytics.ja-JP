@@ -1,6 +1,6 @@
 ---
-title: 直帰数（ディメンション）
-description: 訪問が 1 つのページで構成されていることを示すフラグ。
+title: 単一ページ訪問（ディメンション）
+description: 訪問が単一ページで構成されていることを示すフラグ。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 TQID: https://experienceleague.adobe.com/mMxxlVpQi7IsSuxSZGijnvWeoqCa-ybf8otPRDf6AyQ
@@ -38,4 +38,4 @@ ht-degree: 91%
 
 ## ディメンション項目
 
-唯一のディメンション項目は `"Enabled"` です。 1 回の訪問が 1 つのページで構成されている場合、ヒットはこの値に設定されます。 その他のヒットはすべてこのレポートから除外されます。
+唯一のディメンション項目は `"Enabled"` です。 1 回の訪問が単一ページで構成されている場合、ヒットはこの値に設定されます。 その他のヒットはすべてこのレポートから除外されます。

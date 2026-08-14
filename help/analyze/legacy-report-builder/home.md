@@ -26,7 +26,7 @@ ht-degree: 90%
 
 {{legacy-arb}}
 
-Adobe Report Builder は Microsoft Excel のアドインです。 Adobe Analytics データ（Excel ワークシートに挿入可能）からカスタムリクエストを作成できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+Adobe Report Builder は Microsoft Excel のアドインです。 Adobe Analytics データからカスタムリクエストを作成し、Excel ワークシートに挿入できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
 ## よく読まれるヘルプトピック
 
@@ -38,5 +38,5 @@ Adobe Report Builder は Microsoft Excel のアドインです。 Adobe Analytic
 
 ## よくある質問とトラブルシューティング
 
-* [データリクエストの作成方法](data-requests/t-create-a-data-request.md)
+* [データリクエストを作成するにはどうすればよいですか。](data-requests/t-create-a-data-request.md)
 * [Report Builder のトラブルシューティングとベストプラクティス](troubleshoot.md)

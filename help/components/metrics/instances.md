@@ -1,6 +1,6 @@
 ---
 title: インスタンス
-description: 変数が設定された（持続的でない）ヒット数。
+description: 変数が設定され（持続されなかった）ヒット数。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 TQID: https://experienceleague.adobe.com/a6Ycw6CVzeSKuOCHezQtLNIZZo6vbkVneVWO0C2QfxQ
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 # インスタンス
 
-「インスタンス」 [指標](overview.md)は、イメージリクエストでディメンションが明示的に定義された回数を示します。 [eVars](../dimensions/evar.md)などのディメンションには、設定されたヒットを超えたディメンション項目が保持されるものもあります。 この指標は、その値が持続するヒットなしでディメンション項目が設定された回数を確認する必要がある場合に役立ちます。
+「インスタンス」 [指標](overview.md)は、イメージリクエストでディメンションが明示的に定義された回数を示します。 [eVars](../dimensions/evar.md)などのディメンションには、設定されたヒットを超えたディメンション項目が保持されるものもあります。 この指標は、値が持続したヒットを含めずに、ディメンション項目が設定された回数を確認したい場合に役立ちます。
 
 ## この指標の計算方法
 
@@ -37,4 +37,4 @@ Workspaceでレポートを表示すると、1つのeVar1 インスタンスと6
 ## 類似の指標と比較
 
 * **インスタンスと[発生回数](occurrences.md)**：ディメンション項目が保持されるヒットはインスタンスに含まれません。 発生回数は、ディメンション項目が設定または保持されたヒット数です。
-* **インスタンス対[&#x200B; ページビュー](page-views.md)**: インスタンスには、ページビュートラッキング呼び出し（[`t()`](/help/implement/vars/functions/t-method.md)）、リンクトラッキング呼び出し（[`tl()`](/help/implement/vars/functions/tl-method.md)）、概要[&#x200B; データソース &#x200B;](/help/import/data-sources/overview.md)からのデータなど、すべてのヒットタイプが含まれます。 ページビュー数指標には、リンクトラッキングコールおよび概要データソースを除く、ページビュートラッキングコールのみが含まれます。
+* **インスタンス対[&#x200B; ページビュー](page-views.md)**: インスタンスには、ページビュートラッキング呼び出し（[`t()`](/help/implement/vars/functions/t-method.md)）、リンクトラッキング呼び出し（[`tl()`](/help/implement/vars/functions/tl-method.md)）、概要[&#x200B; データソース &#x200B;](/help/import/data-sources/overview.md)からのデータなど、すべてのヒットタイプが含まれます。 ページビュー指標には、リンクトラッキングコールおよび概要データソースを除く、ページビュートラッキングコールのみが含まれます。

@@ -1,5 +1,5 @@
 ---
-description: アドビの FTP ポリシーにより、90 日間連続で使用されなかった FTP アカウントについては、アカウントへのアクセスが自動的に無効になります。
+description: アドビの FTP ポリシーにより、90 日間連続で使用されなかった FTP アカウントへのアクセスは自動的に無効になります。
 keywords: ftp;sftp
 title: FTPおよびSFTP アカウントとデータの削除
 feature: FTP Export

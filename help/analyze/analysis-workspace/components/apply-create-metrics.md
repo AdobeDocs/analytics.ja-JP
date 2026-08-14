@@ -25,16 +25,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: 919
 ht-degree: 19%
 
 ---
 
 # 指標
 
-指標を使用すると、Analysis Workspace でデータポイントを数量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
+指標を使用すると、Analysis Workspace 内のデータを定量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
 
-## Analysis Workspace での指標の使用
+## Analysis Workspace で指標を使用する
 
 Analysis Workspaceでは、指標を柔軟に使用できます。 指標を空のフリーフォームテーブルにドラッグすると、指標がプロジェクトの日付期間にわたってトレンド表示されます。 ディメンションが存在する場合は、指標をドラッグして、その指標が各ディメンション項目とどのように比較されるかを確認することもできます。 既存の指標ヘッダーの上に指標をドラッグすると、その指標に置き換わり、ヘッダーの横にある指標をドラッグすると、両方の指標を並べて表示できます。
 
@@ -46,7 +46,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
 * **標準指標**：プロジェクトで使用するほとんどの指標は標準指標です。 例には、[ページビュー数](/help/components/metrics/page-views.md)、[収益](/help/components/metrics/revenue.md)または[カスタムイベント](/help/components/metrics/custom-events.md)が含まれます。 詳しくは、コンポーネントユーザーガイドの[指標の概要](/help/components/metrics/overview.md)を参照してください。
 
-* **計算指標** ![電卓](/help/assets/icons/Calculator.svg)：標準指標、静的数値、またはアルゴリズム関数に基づくユーザー定義の指標。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに電卓アイコンが表示されます。 詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/calculated-metrics/cm-overview.md)を参照してください。
+* **計算指標** ![電卓](/help/assets/icons/Calculator.svg)：標準指標、静的数値、またはアルゴリズム関数に基づくユーザー定義の指標。 ユーザー定義の計算指標は、使用可能なコンポーネントのリストに電卓アイコンが表示されます。 詳しくは、コンポーネントユーザーガイドの[計算指標の概要](/help/components/calculated-metrics/cm-overview.md)を参照してください。
 
 * **計算指標テンプレート** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：計算指標と同様に動作するAdobe定義の指標。 これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。 計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
 
@@ -123,7 +123,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 [計算指標：実装なしの指標](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) （3:42）
 
 
-## 様々なアトリビューションモデルとの指標の比較
+## 異なるアトリビューションモデル間で指標を比較
 
 あるアトリビューションモデルを別のアトリビューションモデルにすばやく比較するには、指標を右クリックし、**[!UICONTROL アトリビューションモデルを比較]**&#x200B;を選択します。
 

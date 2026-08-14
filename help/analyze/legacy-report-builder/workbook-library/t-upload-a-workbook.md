@@ -28,7 +28,7 @@ ht-degree: 41%
 
 {{legacy-arb}}
 
-共有する Report Builder の Excel ワークブックをアップロードします。
+共有したい Report Builder の Excel ワークブックをアップロードします。
 
 [!UICONTROL Workbook Library]を使用すると、共有するReport Builder Excel ブックをアップロードできます。 また、共有されているワークブックをダウンロードして編集することもできます。 ExcelClientからReport Builderに移行する場合は、ExcelClient リポジトリからブックをダウンロードし、Report Builder リポジトリにアップロードすることをお勧めします。
 

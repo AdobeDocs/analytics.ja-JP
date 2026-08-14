@@ -1,6 +1,6 @@
 ---
 title: 言語
-description: ブラウザーの優先言語設定。
+description: ブラウザーの優先言語設定
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 TQID: https://experienceleague.adobe.com/KC8nBiwUbQaE8Wi5OVKdjwP-sTijGYYMBK74M-TnOFs

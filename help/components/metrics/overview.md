@@ -1,6 +1,6 @@
 ---
 title: 指標の概要
-description: 時間の経過に伴うディメンション項目またはデータの表示量。
+description: 時間の経過に伴うディメンション項目またはデータの量を表示できます。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 TQID: https://experienceleague.adobe.com/d4AaKy6UqmWzMkjOglYEWGr7WxlMqD8-R8YwAef2Nrc
@@ -42,7 +42,7 @@ ht-degree: 100%
 特定の指標のヘルプページが見つからない場合は、[カスタムイベント](custom-events.md)または[計算指標](../calculated-metrics/cm-overview.md)のいずれかである可能性があります。
 
 * 指標がカスタムイベントの場合は、組織内の Analytics 管理者に問い合わせる、またはレポートスイートの[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)を参照してください。
-* 指標が計算指標の場合は、情報アイコンをクリックして数式を決定します。
+* 指標が計算指標の場合は、情報アイコンをクリックしてその数式を確認します。
 
 ## 指標の説明の追加
 

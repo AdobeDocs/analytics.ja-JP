@@ -24,7 +24,7 @@ ht-degree: 81%
 
 # フォルダーの管理
 
-Workspace では、2 つの方法でフォルダーを管理できます。 フォルダー内から、またはプロジェクトリストで選択した 1 つ以上のフォルダーから管理できます。 管理フォルダーには、フォルダーの名前を変更、移動、削除するオプションが含まれています。
+Workspace では、フォルダーを 2 つの方法で管理できます。 フォルダー内から、またはプロジェクトリストで選択した 1 つ以上のフォルダーから管理できます。 管理フォルダーには、フォルダーの名前を変更、移動、削除するオプションが含まれています。
 
 ## フォルダーの名前の変更
 
@@ -34,14 +34,14 @@ Workspace でフォルダーの名前を変更するには：
 
 * [プロジェクトリスト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)で、名前を変更するフォルダーを選択します。
 
-   1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)の使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 名前を変更]**」を選択するか、青色のアクションバーを選択します。
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+  1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)の使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 名前を変更]**」を選択するか、青色のアクションバーを選択します。
+  1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 * 名前を変更するフォルダー内。
 
-   1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーの名前を変更]**」を選択します。
+  1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーの名前を変更]**」を選択します。
 
-   1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
+  1. **[!UICONTROL 名前を変更：*フォルダー名&#x200B;*]**&#x200B;ダイアログで、新しい名前を入力して、「**[!UICONTROL 保存&#x200B;]**」を選択します。
 
 
 ## フォルダーの移動
@@ -52,18 +52,18 @@ Workspace でフォルダーを移動するには：
 
 * [プロジェクトリスト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)で、移動するフォルダーを選択します。
 
-   1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)から使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 移動先]**」を選択するか、青色のアクションバーを選択します。
-   1. **[!UICONTROL フォルダーを選択]** ダイアログで、**[!UICONTROL フォルダー]** ドロップダウンメニューからフォルダーを選択して、フォルダーをに移動します。
+  1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)から使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 移動先]**」を選択するか、青色のアクションバーを選択します。
+  1. **[!UICONTROL フォルダーを選択]** ダイアログで、**[!UICONTROL フォルダー]** ドロップダウンメニューからフォルダーを選択して、フォルダーをに移動します。
 
-   1. 「**[!UICONTROL 移動]**」を選択します。
+  1. 「**[!UICONTROL 移動]**」を選択します。
 
 * 移動するフォルダー内。
 
-   1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーを移動]**」を選択します。
+  1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーを移動]**」を選択します。
 
-   1. **[!UICONTROL フォルダーを選択]** ダイアログで、**[!UICONTROL フォルダー]** ドロップダウンメニューからフォルダーを選択して、フォルダーをに移動します。
+  1. **[!UICONTROL フォルダーを選択]** ダイアログで、**[!UICONTROL フォルダー]** ドロップダウンメニューからフォルダーを選択して、フォルダーをに移動します。
 
-   1. 「**[!UICONTROL 移動]**」を選択します。
+  1. 「**[!UICONTROL 移動]**」を選択します。
 
 
 ## フォルダーの削除
@@ -79,15 +79,15 @@ Workspace でフォルダーを削除するには：
 
 * [プロジェクトリスト](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)で、削除する 1 つ以上のフォルダーを選択します。
 
-   1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)から使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 削除]**」を選択するか、青色のアクションバーを選択します。
+  1. 選択したフォルダーのコンテキストメニュー![詳細](/help/assets/icons/More.svg)から使用可能な[アクション](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)から「**[!UICONTROL 削除]**」を選択するか、青色のアクションバーを選択します。
 
-   1. 「**[!UICONTROL 本当ですか？]**」で、 ダイアログで、**[!UICONTROL OK]**&#x200B;を選択してフォルダーを削除します。
+  1. 「**[!UICONTROL 本当ですか？]**」で、 ダイアログで、**[!UICONTROL OK]**&#x200B;を選択してフォルダーを削除します。
 
 * 削除するフォルダー内。
 
-   1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーを削除]**」を選択します。
+  1. [タイトル領域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)の![詳細](/help/assets/icons/More.svg)から「**[!UICONTROL フォルダーを削除]**」を選択します。
 
-   1. **[!UICONTROL 削除&#x200B;*name* フォルダーで？]** ダイアログで、**[!UICONTROL OK]**&#x200B;を選択します。
+  1. **[!UICONTROL 削除&#x200B;*name* フォルダーで？]** ダイアログで、**[!UICONTROL OK]**&#x200B;を選択します。
 
 
 <!-- 

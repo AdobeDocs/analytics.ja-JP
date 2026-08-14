@@ -16,8 +16,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 295
-ht-degree: 77%
+source-wordcount: 305
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="workspace_bullet_button"
 >title="ブレット"
->abstract="箇条書きグラフのビジュアライゼーションを作成して、指標がパフォーマンス範囲（目標）とどのように比較または測定されるかを示します。"
+>abstract="ブレットグラフのビジュアライゼーションを作成し、指標がパフォーマンス範囲（目標）とどのように比較または測定されるかを表示します。"
 
 <!-- markdownlint-enable MD034 -->
 

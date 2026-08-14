@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ ht-degree: 76%
 
 ## ディメンション項目
 
-ディメンション項目には、レポートの日付範囲内の指定した分が日付と共に含まれます。 `HH:MM YYYY-MM-DD` という形式で記述します。 `00:00`で始まるDimension項目は、その日の午前0時に相当し、`23:59`で始まる値はその日の午後11:59に相当します。
+ディメンション項目には、レポートの日付範囲内の指定した分が日付と共に含まれます。 `HH:MM YYYY-MM-DD` という形式で記述します。 `00:00`で始まるDimension項目は、その日の午前0時に相当し、`23:59`で始まる値はその日の午後11時59分に相当します。

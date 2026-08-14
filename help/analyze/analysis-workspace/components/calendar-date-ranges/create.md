@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 542
 ht-degree: 94%
 
 ---
@@ -70,18 +70,18 @@ Should we really mention API here. If so, we can do it all over the place in the
 1. オプションで、「**[!UICONTROL 詳細設定を表示]**」を選択して、次の操作を行います。
 
    * デフォルトの `12:00 AM`（`0:00`）と `11:59 PM`（`23:59`）以外の&#x200B;**[!UICONTROL 開始時間]**&#x200B;と&#x200B;**[!UICONTROL 終了時間]**&#x200B;を指定します。 終了時間には常に 59 秒が含まれます。 日付範囲が何日にもわたる場合、開始時間は日付範囲の最初の日、終了時間は日付範囲の最終日に適用されます。 **[!UICONTROL 日時の値をリセット]**&#x200B;を使用して、開始時間と終了時間をデフォルトにリセットします。
-   * **[!UICONTROL 相対日付の使用]** 有効にした場合、現在の日付と時間の進行状況に応じて、プリセットされた日付範囲（**[!UICONTROL 過去 7 日間]**&#x200B;など）が動的に更新されます。 無効にすると、そのようなプリセットは適用されると更新されません。
+   * **[!UICONTROL 相対日付の使用]** 有効にした場合、現在の日付と時間の進行状況に応じて、プリセットされた日付範囲（**[!UICONTROL 過去 7 日間]**&#x200B;など）が動的に更新されます。 無効にすると、そのようなプリセットは一度適用されると、それ以降更新されません。
 
      角括弧で囲まれたテキスト（例：**[!UICONTROL 固定開始 - 日周期]**）を選択して、パネルを拡張し、**[!UICONTROL 開始]**&#x200B;と&#x200B;**[!UICONTROL 終了]**&#x200B;の詳細を指定できます。
 
      ![周期的な日付](assets/rolliing-dates.png)
 
-      1. 「**[!UICONTROL 開始日]**」、「**[!UICONTROL 終了日]**」または「**[!UICONTROL 固定日]**」を選択します。
-      1. 「**[!UICONTROL 開始日]**」または「**[!UICONTROL 終了日]**」を選択すると、完全な式を作成できます。 例：**[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**。 式の個々の部分に適した値を選択します。
-         * 現在の値を選択します。 例：**[!UICONTROL current quarter]**。
-         * 追加の計算の値を選択します。 例：**[!UICONTROL minus]**。
-         * 追加の計算を指定した場合は、値を指定します。 例：`20`。
-         * 追加の計算を指定した場合は、計算に使用する期間を選択します。 例：**[!UICONTROL days]**。
+     1. 「**[!UICONTROL 開始日]**」、「**[!UICONTROL 終了日]**」または「**[!UICONTROL 固定日]**」を選択します。
+     1. 「**[!UICONTROL 開始日]**」または「**[!UICONTROL 終了日]**」を選択すると、完全な式を作成できます。 例：**[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**。 式の個々の部分に適した値を選択します。
+        * 現在の値を選択します。 例：**[!UICONTROL current quarter]**。
+        * 追加の計算の値を選択します。 例：**[!UICONTROL minus]**。
+        * 追加の計算を指定した場合は、値を指定します。 例：`20`。
+        * 追加の計算を指定した場合は、計算に使用する期間を選択してください。 例：**[!UICONTROL days]**。
 
      周期的な日付の計算の詳細を非表示にするには、「**[!UICONTROL 詳細を非表示]**」を選択します。
 

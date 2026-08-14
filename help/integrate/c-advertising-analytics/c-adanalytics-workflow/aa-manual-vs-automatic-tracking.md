@@ -123,7 +123,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 ![&#x200B; トラッキングコードパラメーターを追加](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
-様々な最終 URL 形式によるトラッキングコードの例：
+様々な最終 URL サフィックス形式によるトラッキングコードの例：
 
 **{lpurl}**
 

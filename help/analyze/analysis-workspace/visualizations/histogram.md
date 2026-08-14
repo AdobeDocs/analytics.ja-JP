@@ -27,7 +27,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="workspace_histogram_button"
 >title="ヒストグラム"
->abstract="数値データの分布を範囲のグループに表す、ヒストグラムのビジュアライゼーションを作成します。"
+>abstract="数値データの分布を、範囲ごとのグループとして表すヒストグラムビジュアライゼーションを作成します。"
 
 
 >[!BEGINSHADEBOX]
@@ -78,5 +78,8 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルへのビジュアライゼーションの追加ビジュアライゼーション設定ビジュアライゼーションコンテキストメニューヒストグラムを使用して予期しないデータ値を識別する](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ja)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[ヒストグラムを使用して予期しないデータ値を識別する](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=ja)
 

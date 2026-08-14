@@ -22,13 +22,13 @@ ht-degree: 66%
 
 # 既存の Adobe Analytics の実装を担当する
 
-Adobe Analytics の実装を以前の技術担当者から引き継いでいますか？ 継承された実践プレイブックは、新しいテクニカルオーナーとして既存の実装を担当するのに役立ちます。 ダウンロード可能なスプレッドシートでは、既存の実装を引き継ぐ際に、最初の 10 週間でおこなう必要がある検出、監査、ドキュメント化のアクティビティについて説明します。
+Adobe Analytics の実装を以前のテクニカル所有者から引き継いでいますか？ Inherited Implementation Playbook は、新しいテクニカル所有者として既存の実装を担当するのに役立ちます。 ダウンロード可能なスプレッドシートでは、既存の実装を引き継ぐ際に、最初の 10 週間でおこなうべき調査、監査、ドキュメント化のアクティビティについて説明します。
 
 **[継承された実装プレイブック](assets/adobe_analytics_inherited_implementation_playbook.xlsx)をダウンロードします。**
 
 ![プレイブック](assets/inherited-impl-playbook.png)
 
-テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。 SarahはAdobe Analytics Championで、継承された実装プレイブックを使用して既存の実装を管理する方法についてアイデアを紹介します。
+テクニカル所有者である Sarah Owen が紹介する、次のヒントをご確認ください。 SarahはAdobe Analytics Championで、継承された実装プレイブックを使用して既存の実装を管理する方法についてアイデアを紹介します。
 
 
 >[!BEGINSHADEBOX]

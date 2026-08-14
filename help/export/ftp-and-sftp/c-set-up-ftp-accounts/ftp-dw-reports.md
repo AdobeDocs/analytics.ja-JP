@@ -1,5 +1,5 @@
 ---
-description: Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
+description: Data Warehouse を使用すると、独自の質問に基づいて、生のデータから高度なデータの関連性を表示するレポートをリクエストできます。
 keywords: ftp;sftp
 title: Data Warehouse が配信するレポート
 feature: FTP Export
@@ -28,7 +28,7 @@ ht-degree: 30%
 >
 >次の情報は、FTPおよびSFTPの宛先タイプに関連しています。 FTP と SFTP は、従来の宛先タイプです。 データウェアハウスレポートを設定する際には、より安全なクラウド宛先タイプを使用する必要があります。 Data Warehouse レポートのクラウド宛先タイプの設定について詳しくは、[Data Warehouse リクエストの作成](/help/export/data-warehouse/create-request/t-dw-create-request.md)を参照してください。
 
-Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
+Data Warehouse を使用すると、独自の質問に基づいて、生のデータから高度なデータの関連性を表示するレポートをリクエストできます。
 
 この場合のFTP配信は、[!UICONTROL 詳細配信オプション &#x200B;]設定の一部として利用できます。 FTPを使用するには、既存の内部FTP アカウントまたはAdobe FTP アカウントが必要です。 Adobeは、データウェアハウスインターフェイスを通じてFTP アカウントを自動的に設定しません。 FTP配信は、ファイルサイズと処理中のレポート数に応じて、即座に実行する必要があります。
 

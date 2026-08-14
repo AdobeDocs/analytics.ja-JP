@@ -1,5 +1,5 @@
 ---
-description: Activity Map を web ページから直接起動します。
+description: Activity Map をお使いの web ページから直接起動します。
 title: Activity Map の起動
 feature: Activity Map
 role: User, Admin

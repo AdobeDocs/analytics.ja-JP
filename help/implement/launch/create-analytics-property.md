@@ -1,5 +1,5 @@
 ---
-title: タグの Analytics プロパティの作成
+title: タグで Analytics のプロパティを作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
@@ -39,7 +39,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。 「**[!UICONTROL 保存]**」をクリックします。
-1. 新しく作成したタグプロパティをクリックして、設定を入力します。
+1. 新しく作成したタグプロパティをクリックして、設定画面を開きます。
 1. 「**[!UICONTROL 拡張機能]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
 1. 「Experience Cloud ID サービス」を見つけ、「**[!UICONTROL インストール]**」をクリックします。
 1. IMS組織IDを含むすべての設定は、既に入力されている必要があります。 「**[!UICONTROL 保存]**」をクリックします。
@@ -63,7 +63,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 
      >[!NOTE]
      >
-     >この値は、開始を支援するための例として提供されます。 データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+     >この値は、使い始める際の参考となる例です。 データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
    * 保存期間：なし
 1. 「**[!UICONTROL 保存]**」をクリックします。
@@ -77,7 +77,7 @@ Adobe Experience Platformのタグを利用すれば、web サイト（Analytics
 1. 「**[!UICONTROL ルール]**」タブをクリックしてから、**[!UICONTROL ルールを追加]**&#x200B;をクリックします。 `Global Rule` という名前を付けます。
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。
    * 拡張機能：Core
-   * イベントタイプ：読み込まれたライブラリ（ページ上部）
+   * イベントタイプ：Library Loaded (Page Top)
    * 名前：Core - 読み込まれたライブラリ（ページ上部）
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. 「**[!UICONTROL アクション]**」で、「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。

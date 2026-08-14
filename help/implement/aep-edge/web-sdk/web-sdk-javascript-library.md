@@ -104,7 +104,7 @@ Web SDK JavaScript ライブラリを使用してデータをAdobe Analyticsに�
 
 <tr>
 <td>8</td>
-<td><b>コマンドを実行</b>したり、<b>イベントを追跡</b>したりします。 Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントの追跡を開始できます。
+<td><b>コマンドを実行</b>したり、<b>イベントを追跡</b>したりします。 Web ページにベースコードが実装されたら、SDK を使用してコマンドの実行とイベントのトラッキングを開始できます。
 </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=ja">イベントを送信</a></td>
 </tr>

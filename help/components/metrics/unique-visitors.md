@@ -1,6 +1,6 @@
 ---
 title: ユニーク訪問者
-description: ユニーク訪問者 ID の数。
+description: 一意の訪問者 ID の数。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 TQID: https://experienceleague.adobe.com/A0NvwoGPFLuS4e857eH-nMgmzAmz0EuGVQVDNBgiN4A
@@ -36,4 +36,4 @@ Analysis Workspace は、レポートの精度に基づいてユニーク訪問�
 
 ## この指標の計算方法
 
-この指標は、特定のディメンション項目に対するユニーク訪問者 ID の数をカウントします。 Adobe Analytics がユニーク訪問者を識別する方法について詳しくは、[訪問者の識別の概要](/help/implement/id/overview.md)を参照してください。
+この指標は、特定のディメンション項目に対する一意の訪問者 ID の数をカウントします。 Adobe Analytics がユニーク訪問者を識別する方法について詳しくは、[訪問者の識別の概要](/help/implement/id/overview.md)を参照してください。

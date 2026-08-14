@@ -1,6 +1,6 @@
 ---
 title: 四半期
-description: 年の四半期を数値で表します。年は関係ありません。
+description: 年の四半期を、年に関係なく数値で表します。
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 TQID: https://experienceleague.adobe.com/a41aEgQ2NkPzWzcn59JfOd8LgL3vmhr1y11lsIwHpjI

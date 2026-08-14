@@ -1,6 +1,6 @@
 ---
 title: 月
-description: 指標が発生した月。
+description: 指標が発生した月
 feature: Dimensions
 exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 TQID: https://experienceleague.adobe.com/wLCMW-pAsREGJV84IBPuae75Rwz6dWhL8TyxedyeH-U
