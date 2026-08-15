@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 46%
 | ----------- | ---------- | ---- |
 | **Activity Map拡張機能：UIの更新** <br/>Activity Map オーバーレイ拡張機能のルックアンドフィールが更新され、今後の機能強化をサポートする基本的な機能強化も含まれています。<p>Activity Map オーバーレイ拡張機能について詳しくは、[Activity Map拡張機能インターフェイス &#x200B;](/help/analyze/activity-map/overlay/overview.md)を参照してください。</p> | | 2026年8月5日（PT）<p>（当初は7月末予定）</p> |
 | **ジャーニーキャンバスの機能強化**<br>&#x200B;次のジャーニーキャンバスの機能強化を利用できるようになりました。<ul><li>ジャーニーと過去の期間の比較。 現在のジャーニーを、4週間前、2四半期前、1年前、またはカスタム日付範囲と比較します。</li><li>選択したノードの場合、ジャーニーの任意のポイントで、選択したノードの後に来る最上位のディメンション項目を表示します。 選択したノードが分析の重要なイベントであり、その後のユーザーの行動を確認する場合に使用します。<p>以前は、選択したノードの前または後に表示できるのは、上位の即時ノードのみでした。 </p></li><li>ノード間の矢印の形状とスタイルを変更します。 ノード間で矢印をドラッグして矢印の形状（曲率）を変更し、矢印を右クリックして、スタイルをソリッド、破線、点線、点線、アニメーションのいずれかに変更します。</li></ul><p></p>詳しくは、[ジャーニーキャンバスビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)を参照してください。 | | 2026年8月18日（PT） |
+| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。 <p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
 | **Analytics API マーケティングチャネルのリファレンス**<br/> Analytics 2.0 API マーケティングチャネルのリファレンスを使用して、Adobe Analytics マーケティングチャネルの情報を取得します。 [Analytics API マーケティングチャネルのリファレンス &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)を参照してください。 | | 2026年8月1日（PT） |
 | **Analytics API マーケティングチャネルのエンドポイントガイド**<br/> Adobe Analytics 2.0 API マーケティングチャネルのエンドポイントガイドでは、エンドポイントを使用するための手順と例を提供します。 「[Analytics API マーケティングチャネル エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)」を参照してください。 | | 2026年8月1日（PT） |
 | **Analytics 1.4 API EOLのお客様に関するFAQ**<br/> Analytics 1.4 API EOLのお客様に関するFAQでは、1.4 APIから離脱するお客様を支援するために、最近の2.0 API開発に関する情報を提供しています。 | | 2026年8月10日（PT） |
