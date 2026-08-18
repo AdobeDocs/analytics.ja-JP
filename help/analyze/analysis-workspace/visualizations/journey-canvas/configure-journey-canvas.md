@@ -14,7 +14,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版の[ジャーニーキャンバスのビジュアライゼーションの設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)を参照してください。_
+_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスのビジュアライゼーションの設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 1. 「[!UICONTROL **作成**]」を選択します。
 
-1. 「[ ビジュアライゼーション設定の設定](#configure-visualization-settings)」の説明に従って、ジャーニーを設定します。
+1. 「[&#x200B; ビジュアライゼーション設定の設定](#configure-visualization-settings)」の説明に従って、ジャーニーを設定します。
 
 ## ビジュアライゼーション設定の指定 {#configure-visualization-settings}
 
@@ -117,7 +117,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
    | [!UICONTROL **矢印の設定**] | ジャーニーキャンバスのノード間に表示される矢印は、カスタムラベルと値を表示するように設定できます。 <p>![矢印の設定](assets/journey-canvas-arrow-settings.png)</p><p>_ラベル_&#x200B;は、[矢印のラベルを追加または更新する](#add-or-update-a-label-on-an-arrow)の説明に従って、ジャーニーキャンバス内に追加できるカスタム名です。</li></ol><p>_値_&#x200B;は、矢印上に表示される数値とパーセンテージで、ジャーニーのあるノードから次のノードに移動した人物またはセッションを示します （つまり、特定のステップでジャーニーから離脱しなかった人物） </p><p>次のオプションがあります。</p><ul><li>[!UICONTROL **ラベルなし**]: ジャーニーの矢印にラベルが表示されません。</br> このオプションは、ジャーニーがで変更された場合にのみ使用できます </li><li>[!UICONTROL **ラベルのみ**]：ラベルはジャーニーの矢印に表示されます。</li></ul> |
    | [!UICONTROL **を**]&#x200B;と比較 | 現在のジャーニーデータと過去の期間の比較に使用される日付範囲。 比較のために次の日付範囲のいずれかを選択できます。<ul><li>**[!UICONTROL 4週間前]**</li><li>**[!UICONTROL 2四半期前]**</li><li>**[!UICONTROL 1年前]**</li><li>**[!UICONTROL カスタム日付範囲]**</li></ul><p>比較日付範囲を選択すると、ジャーニー内の各ノードには、プライマリ指標に基づいて、現在の日付範囲と選択した比較日付範囲の変化率が表示されます。 これにより、以前の期間と比較してジャーニーのパフォーマンスが向上しているか、または低下しているかを特定できます。</p> |
    | [!UICONTROL **フォールアウトを表示**] | フォールアウトデータは、ジャーニーの各ノードからフォールアウトしたパーセンテージと数を示します。 フォールアウトデータは、ジャーニーのコンテナ設定に関連付けられた指標に基づいています。プライマリ指標やセカンダリ指標に基づいていません。 <p>![フォールアウト](assets/journey-canvas-fallout.png)</p><p>デフォルトでは、コンテナは&#x200B;_ユーザー_&#x200B;なので、フォールアウトデータに使用される指標は&#x200B;_人物_&#x200B;です。 コンテナを&#x200B;_セッション_&#x200B;に変更した場合、フォールアウトデータに使用される指標は&#x200B;_セッション_&#x200B;などです。</p><p>例えば、コンテナ設定として&#x200B;_ユーザー_&#x200B;を使用すると、フォールアウトには、ジャーニーの各ノードですぐ次のノードのいずれにも到達しなかった人物のパーセンテージと数が表示されます。 サイト上で他のアクションを実行した可能性がありますが、その直後のどのノードでも定義された条件を満たしていませんでした。</p> <p>ジャーニーキャンバスコンテナ設定について詳しくは、[ジャーニーキャンバスビジュアライゼーションの作成の開始](#begin-building-a-journey-canvas-visualization)を参照してください。 |
-   | **コントロール** | カンバスの右上隅では、次のコントロールを使用できます。<ul><li>**画面に合わせる** ![画面に合わせるアイコン](assets/fill-screen-icon.png)：現在のズームとパンの設定を調整して、完全なビジュアライゼーションを画面いっぱいに表示します。</li><li>**整理** ![整理アイコン ](assets/organize.svg): ノードを再配置して、交差する矢印を最小限に抑え、ノード接続に基づいて間隔を最適化します。 </li><li>**ズームイン** ![ズームインアイコン](assets/zoom-in-icon.png)：ビジュアライゼーションの特定の領域を拡大します。<p>また、トラックパッドをピンチするなど、マウスコントロールを使用することもできます。</li><li>**ズームアウト** ![ズームアウトアイコン](assets/zoom-out-icon.png)：ビジュアライゼーションを縮小して、キャンバスの領域を広くします。<p>また、トラックパッドをピンチするなど、マウスコントロールを使用することもできます。</p></li></ul><p>ズームインまたはズームアウトした後にキャンバスでパンするには、マウスをクリックして目的の場所までドラッグします。</p> |
+   | **コントロール** | カンバスの右上隅では、次のコントロールを使用できます。<ul><li>**画面に合わせる** ![画面に合わせるアイコン](assets/fill-screen-icon.png)：現在のズームとパンの設定を調整して、完全なビジュアライゼーションを画面いっぱいに表示します。</li><li>**整理** ![整理アイコン &#x200B;](assets/organize.svg): ノードを再配置して、交差する矢印を最小限に抑え、ノード接続に基づいて間隔を最適化します。 </li><li>**ズームイン** ![ズームインアイコン](assets/zoom-in-icon.png)：ビジュアライゼーションの特定の領域を拡大します。<p>また、トラックパッドをピンチするなど、マウスコントロールを使用することもできます。</li><li>**ズームアウト** ![ズームアウトアイコン](assets/zoom-out-icon.png)：ビジュアライゼーションを縮小して、キャンバスの領域を広くします。<p>また、トラックパッドをピンチするなど、マウスコントロールを使用することもできます。</p></li></ul><p>ズームインまたはズームアウトした後にキャンバスでパンするには、マウスをクリックして目的の場所までドラッグします。</p> |
 
 1. [ノードの追加](#add-nodes)に進みます。
 
