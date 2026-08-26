@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 1%
 
 * **JSON**：構造化データを含むJavaScript Object Notation ファイル
 * **CSV**: コンマ区切りの値ファイル
-* **TSVまたはTAB**: タブ区切りの値ファイル
+* **TSV**: タブ区切りの値ファイル
+* **TAB**: `.tab`拡張子のタブ区切り値ファイル （ブラウザーのアップロードのみ。APIではサポートされていません）
 
 ## 一般的なファイル要件
 
@@ -167,6 +168,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ TSVおよびTAB形式の詳細
+
+>[!NOTE]
+>
+>拡張子が`.tab`のファイルは、ブラウザーでのアップロードでのみサポートされています。 ファイルの内容がタブ区切りであっても、[分類API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)は`.tab` ファイルの種類を受け入れません。 API アップロードの場合は、代わりに`.tsv`拡張機能（または`.json`または`.csv`）を使用してください。
 
 TSV （タブ区切り値）およびTAB ファイルは、分類データフィールドを区切るためにタブ文字を使用します。
 
