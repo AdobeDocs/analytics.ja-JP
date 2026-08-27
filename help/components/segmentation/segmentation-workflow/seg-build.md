@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 73%
+source-wordcount: 2082
+ht-degree: 69%
 
 ---
 
@@ -100,7 +100,18 @@ ht-degree: 73%
    * コンポーネントバーで![検索](/help/assets/icons/Search.svg)を使用して、特定のコンポーネントを検索できます。
    * コンポーネントバーの![&#x200B; フィルター](/help/assets/icons/Filter.svg)を使用して、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![&#x200B; データディメンション &#x200B;](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![&#x200B; イベント &#x200B;](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![&#128279;](/help/assets/icons/Layer.svg)&#x200B; セグメント **![[!UICONTROL カレンダー]](/help/assets/icons/Calendar.svg)日付**&#x200B;[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]&#x200B;**、および&#x200B; レイヤー**&#x200B;[!UICONTROL &#x200B;製品&#x200B;]&#x200B;**コンポーネント。 &#x200B;![](/help/assets/icons/Segmentation.svg)&rbrack;**&lbrack;![&#x200B; ラベル &#x200B;](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
 1. コンポーネントの詳細を指定します。 例えば、「**[!UICONTROL 値を選択]**」から値を選択します。 または値を入力します。 1 つ以上の値を指定できる内容と方法は、コンポーネントと演算子によって異なります。
-1. オプションで、デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
+
+1. （オプション）レポート日付範囲&#x200B;**に結果を**&#x200B;制限するオプションを有効にします。
+
+   セグメントに日付範囲コンポーネントが含まれている場合、Workspace レポートのデータは、レポート日付範囲を超えて拡張される可能性があります。
+
+   セグメントに含まれる日付コンポーネントに関係なく、レポートの日付範囲に結果を制限するには、このオプションを有効にします。
+
+   このオプションは、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから&#x200B;[!UICONTROL **人物**]&#x200B;が定義のスコープ（コンテナ）として選択されている場合にのみ表示されます。
+
+   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース &#x200B;](/help/release-notes/releases.md)を参照してください。
+
+1. （オプション）デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
 コンポーネントを編集するには：
 
