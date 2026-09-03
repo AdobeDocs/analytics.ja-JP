@@ -32,17 +32,17 @@ ht-degree: 0%
 
 次の指標を使用できます。
 
-* [[!UICONTROL 平均ビットレート &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
-* [[!UICONTROL &#x200B; ビットレートの変更が影響を受けるストリーム &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
-* [[!UICONTROL &#x200B; ビットレートの変更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
-* [[!UICONTROL 影響を受けるストリームのバッファー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
-* [[!UICONTROL &#x200B; バッファーイベント &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
-* [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
-* [[!UICONTROL 開始する前にドロップします]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
-* [[!UICONTROL &#x200B; フレームをドロップ &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
-* [[!UICONTROL &#x200B; ドロップされたフレームの影響を受けるストリーム &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL 影響を受けるストリームのエラー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
-* [[!UICONTROL &#x200B; エラーイベント &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
-* [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+* [[!UICONTROL 平均ビットレート &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL &#x200B; ビットレートの変更が影響を受けるストリーム &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL &#x200B; ビットレートの変更]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL 影響を受けるストリームのバッファー]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL &#x200B; バッファーイベント &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL 開始する前にドロップします]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL &#x200B; フレームをドロップ &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL &#x200B; ドロップされたフレームの影響を受けるストリーム &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL 影響を受けるストリームのエラー]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL &#x200B; エラーイベント &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/time-to-start)
 
 対応するディメンションについては、[&#x200B; ストリーミングメディアサービス品質ディメンション &#x200B;](../dimensions/sm-quality.md)を参照してください。

@@ -36,7 +36,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -64,7 +64,7 @@ ht-degree: 65%
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
 * [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -32,16 +32,16 @@ ht-degree: 1%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL 章]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
+* [[!UICONTROL 章]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter)
 
 上記のディメンションに加えて、Adobeは次の分類ディメンションを自動的に作成します。 これらのディメンションを使用するレポートを表示するには、分類データをアップロードする必要があります。
 
 | 分類名 | 親ディメンション |
 | --- | --- |
-| [[!UICONTROL 発信元]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL 章の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章] |
-| [[!UICONTROL 章名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章] |
-| [[!UICONTROL 章のオフセット &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章] |
-| [[!UICONTROL 章の位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章] |
+| [[!UICONTROL 発信元]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL 章の長さ]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章] |
+| [[!UICONTROL 章名]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章] |
+| [[!UICONTROL 章のオフセット &#x200B;]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章] |
+| [[!UICONTROL 章の位置]](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章] |
 
 対応する指標については、[&#x200B; ストリーミングメディアサービスの章の指標](../metrics/sm-chapters.md)を参照してください。

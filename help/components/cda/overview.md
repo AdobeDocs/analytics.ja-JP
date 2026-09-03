@@ -32,7 +32,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->クロスデバイス分析内のデバイスグラフは[非推奨](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)となり、**2025年12月31日**&#x200B;に使用できなくなります。 現在のデバイスグラフで有効になっている仮想レポートスイートを[&#x200B; フィールドベースのメソッド &#x200B;](/help/components/cda/field-based-stitching.md)に切り替えてください。
+>クロスデバイス分析内のデバイスグラフは[非推奨](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph)となり、**2025年12月31日**&#x200B;に使用できなくなります。 現在のデバイスグラフで有効になっている仮想レポートスイートを[&#x200B; フィールドベースのメソッド &#x200B;](/help/components/cda/field-based-stitching.md)に切り替えてください。
 >
 
 

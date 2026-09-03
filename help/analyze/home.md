@@ -55,7 +55,7 @@ Adobe Analytics の機能とその使用方法について詳しくは、[Analyt
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
 * [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ## この指標の計算方法
 
-各[&#x200B; ユーザー](people.md) （識別または未識別）を考慮すると、ヒットに`mid`個のクエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieに基づく）が含まれている場合、この[指標](overview.md)は増加します。
+各[&#x200B; ユーザー](people.md) （識別または未識別）を考慮すると、ヒットに`mid`個のクエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieに基づく）が含まれている場合、この[指標](overview.md)は増加します。
 
 計算指標 `[People with ECID] ÷ [People]` を作成し、ID サービスを使用してサイトへの訪問者の割合を取得できます。
 

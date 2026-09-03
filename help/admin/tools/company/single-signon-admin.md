@@ -27,4 +27,4 @@ ht-degree: 28%
 
 Adobe CX Enterpriseのシングルサインオンは、Admin Consoleを通じて実装されます。
 
-ヘルプの[管理者ユーザーガイド](https://www.adobe.com/go/analytics_sso_en)を参照してください。
+ヘルプの[管理者ユーザーガイド](https://www.adobe.com/go/analytics_sso_jp)を参照してください。

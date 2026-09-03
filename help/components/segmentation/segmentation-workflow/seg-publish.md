@@ -45,7 +45,7 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントを公開](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントを公開](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -142,14 +142,14 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
 1. ページを読み込み、アプリケーション／Cookie を確認します。 Adobe Audience ManagerのUUIDは、サードパーティの
-Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)以下の例）。 フィールドのdemdexはAdobe Audience Manager UUID セットです
+Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/reference/demdex-calls)以下の例）。 フィールドのdemdexはAdobe Audience Manager UUID セットです
 ブラウザー（`35721780439475290181087231320657663953`以下の例）。
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL 訪問者プロファイルビューア &#x200B;]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL 訪問者プロファイルビューア &#x200B;]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## Adobe Audience Managerのセグメント特性を見る
 

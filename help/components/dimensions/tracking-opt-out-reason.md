@@ -30,13 +30,13 @@ ht-degree: 11%
 
 *このページは、特定のレポートスイート設定を有効にすることで、潜在的なデータへの影響を確認できる[&#x200B; ディメンション &#x200B;](overview.md)を指します。 [Adobe Experience Cloud ID オプトインサービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)とは関係ありません。*
 
-「トラッキングのオプトアウト理由」ディメンションは、プライバシー設定を有効にした場合に除外されるデータのプレビューとして機能します。 このディメンションは、主に、レポートスイート設定で[&#x200B; プライバシー設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)を有効にした場合に、実装が悪影響を受けるかどうかを判断するために使用されます。
+「トラッキングのオプトアウト理由」ディメンションは、プライバシー設定を有効にした場合に除外されるデータのプレビューとして機能します。 このディメンションは、主に、レポートスイート設定で[&#x200B; プライバシー設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=ja)を有効にした場合に、実装が悪影響を受けるかどうかを判断するために使用されます。
 
 プライバシー設定がまだ有効になっていない場合、一般的な実装では、このディメンションの下にレポートスイート全体のトラフィックの1%以下が表示されます。 全トラフィックの1%を超える割合では、AppMeasurementがファーストパーティ Cookieを設定できない潜在的な実装上の問題が考えられます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[&#x200B; プライバシー設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)をまだ有効にしていないすべての実装に対して、標準搭載で機能します。 デスクトップとモバイルの両方のブラウザーのすべてのCookie **設定をブロックした** ユーザーの削除が既に有効になっている場合、このディメンションにはデータは含まれません。
+このディメンションは、[&#x200B; プライバシー設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=ja)をまだ有効にしていないすべての実装に対して、標準搭載で機能します。 デスクトップとモバイルの両方のブラウザーのすべてのCookie **設定をブロックした** ユーザーの削除が既に有効になっている場合、このディメンションにはデータは含まれません。
 
 ## ディメンション項目
 

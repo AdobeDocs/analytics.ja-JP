@@ -59,7 +59,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; プロジェクトの共有](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; プロジェクトの共有](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -175,7 +175,7 @@ Adobe Analytics にアクセスできないユーザーに Analysis Workspace �
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [誰とでもリンクを共有](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [誰とでもリンクを共有](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

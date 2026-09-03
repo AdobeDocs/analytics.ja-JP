@@ -22,7 +22,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;は、Adobe Advertising統合で使用される広告クリック IDです。 これは、Adobe Advertisingが、アクティビティをオンラインクリックや広告露出と、訪問者レベルで関連付けるために使用する一意のトークンです。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。
+**[!UICONTROL AMO EF ID]**&#x200B;は、Adobe Advertising統合で使用される広告クリック IDです。 これは、Adobe Advertisingが、アクティビティをオンラインクリックや広告露出と、訪問者レベルで関連付けるために使用する一意のトークンです。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。
 
 ## このディメンションへのデータ入力
 
