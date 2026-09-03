@@ -1,6 +1,6 @@
 ---
 title: 月
-description: 月を数値で表します。年は関係ありません。
+description: 年に関係なく、月を数値で表します。
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
 TQID: https://experienceleague.adobe.com/W62Cro1mGRZnEY-v1ilx9Dw1Xu0qR4t-KSVkOpG8RGY

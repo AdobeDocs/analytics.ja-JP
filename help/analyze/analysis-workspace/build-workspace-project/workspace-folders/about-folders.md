@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace でプロジェクトをフォルダーに整理する方法について説明します。
+description: Analysis Workspace で、プロジェクトをフォルダーに整理する方法について説明します。
 keywords: Analysis Workspace
 title: フォルダーの概要
 feature: Workspace Basics
@@ -30,7 +30,7 @@ Workspace のフォルダーを使用すると、プロジェクトの整理お�
 
 Adobe Analyticsのフォルダーは、[&#x200B; フォルダーとプロジェクトを表示](../freeform-overview.md#show-selector)に選択した場合、Workspace ランディングページで利用できます。
 
-Workspace には、会社フォルダーと個人用フォルダーの 2 種類のフォルダーがあります。 共有された会社フォルダーを使用すると、管理者は、コンテンツを作成してすべての Workspace ユーザーと共有できます。
+Workspace には、会社フォルダーと個人用フォルダーの 2 種類のフォルダーがあります。 共有された会社フォルダーを使用すると、管理者はコンテンツを作成してすべての Workspace ユーザーと共有できます。
 
 「[フォルダーとプロジェクトを表示](../freeform-overview.md#show-selector)」を選択すると、プロジェクトホームページに、会社フォルダーおよび作成した個人用フォルダーと共に、プロジェクトの一覧が表示されます。 それ以外の場合は、プロジェクトの一覧のみが表示されます。
 
@@ -45,7 +45,7 @@ Workspace にログインすると、会社フォルダーがプロジェクト�
 
 ### 管理者オプション
 
-管理者には、会社フォルダーに対する特別な権限が割り当てられています。 例えば、管理者のみ、会社フォルダー内のフォルダーやプロジェクトを追加または削除できます。 管理者アクセス制御を持たないユーザーは、会社フォルダーの内容を表示できます。
+管理者には、会社フォルダーに対する特別な権限が割り当てられています。 例えば、会社フォルダー内のフォルダーやプロジェクトを追加または削除できるのは管理者のみです。 管理者アクセス制御を持たないユーザーは、会社フォルダーの内容を表示できます。
 
 <!--
 ![The Projects page showing the admin options.](/help/analyze/analysis-workspace/build-workspace-project/assets/admin-options.png)

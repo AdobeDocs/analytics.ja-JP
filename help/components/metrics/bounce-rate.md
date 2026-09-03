@@ -1,6 +1,6 @@
 ---
 title: バウンス率
-description: 入口に対するヒットが 1 つだけある訪問の割合。
+description: 1 ヒットのみの訪問数を、エントリ数で割った比率。
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 TQID: https://experienceleague.adobe.com/TRE4By1InQuDG5bT91f5KQB1izFvM2m3HKS2Lw2v9ds

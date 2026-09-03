@@ -1,6 +1,6 @@
 ---
 description: Power BI に Analytics データを手動でインポートするには、次の手順に従います。
-title: Power BI への手動データインポート
+title: Power BI へ手動でデータを取り込む
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
@@ -20,7 +20,7 @@ ht-degree: 66%
 
 ---
 
-# Power BI への手動データインポート
+# Power BI へ手動でデータを取り込む
 
 {{legacy-arb}}
 

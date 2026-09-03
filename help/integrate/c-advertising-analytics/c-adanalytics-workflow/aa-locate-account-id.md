@@ -56,9 +56,9 @@ Google AdsおよびMicrosoft Advertisingのアカウント IDを見つける方�
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="アカウント ID"
->abstract="「アカウント ID」は、Microsoft 広告インターフェイスにある数値です。 設定／アカウント設定／アカウント ID に移動すると、アカウントを見つけることができます。"
+>abstract="「アカウント ID」は、Microsoft 広告インターフェイスにある数値です。 設定／アカウント設定／アカウント ID に移動すると、「アカウント ID」を確認できます。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
 >title="マネージャーアカウント ID"
->abstract="「マネージャーアカウント ID」は、Microsoft 広告インターフェイスにある数値です。 設定／マネージャーアカウント設定／マネージャーアカウント ID に移動すると、アカウントを見つけることができます。"
+>abstract="「マネージャーアカウント ID」は、Microsoft 広告インターフェイスにある数値です。 設定／マネージャーアカウント設定／マネージャーアカウント ID に移動すると、「マネージャーアカウント ID」を確認できます。"

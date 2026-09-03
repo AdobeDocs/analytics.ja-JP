@@ -29,15 +29,15 @@ ht-degree: 96%
 
 *このヘルプページでは、eVar の実装方法について説明します。 eVar がディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドの [eVar](/help/components/dimensions/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。 [ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。 デフォルトでは、eVar は設定されたヒットを超えても保持されます。 レポートスイート設定の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
+eVar は、任意の用途で使用できるカスタム変数です。 [ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。 デフォルトでは、eVar は設定されたヒットを超えても保持されます。 レポートスイート設定の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
 
 使用可能な eVar の数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-## レポートスイート設定での eVar の設定
+## レポートスイート設定で eVar を設定する
 
 実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。 詳しくは、管理者ガイドの[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
-## Web SDK を使用した eVar
+## Web SDK を使用する eVar
 
 eVarは次の変数にマッピングされます。
 
@@ -67,7 +67,7 @@ s.eVar1 = "Example custom value";
 
 ## カウンター eVar
 
-eVar 値には通常、文字列値が含まれます。 ただし、eVar にカウンターを代わりに含めるように設定できます。 例えば、購入前におこなわれた内部検索の数をカウントするとします。 テキスト値を設定する代わりに、次の構文を使用します。
+eVar 値には通常、文字列値が含まれます。 ただし、eVar に値の代わりにカウンターを含めるように設定することもできます。 例えば、購入前に行われた内部検索の数をカウントするとします。 テキスト値を設定する代わりに、次の構文を使用します。
 
 ```js
 // Increment a counter eVar by 1

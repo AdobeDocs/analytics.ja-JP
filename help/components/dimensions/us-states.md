@@ -1,6 +1,6 @@
 ---
 title: 米国の州
-description: 訪問者の米国の州。
+description: 訪問者がいる米国の州を示します。
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 TQID: https://experienceleague.adobe.com/YLZIz1-J-LVvases2X1AgNxQR1eTtqoeDoxFVCg2MV4

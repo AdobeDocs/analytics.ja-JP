@@ -1,5 +1,5 @@
 ---
-description: 概要番号および変更ビジュアライゼーションを使用して、プロジェクト内の重要なデータポイントを表示します。
+description: サマリー数および変化量のビジュアライゼーションを使用して、プロジェクト内の重要なデータポイントを表示します。
 title: 概要番号と概要変更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
@@ -20,12 +20,12 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 546
 ht-degree: 61%
 
 ---
 
-# 数と変更の概要
+# サマリー数と変化量
 
 >[!BEGINSHADEBOX]
 
@@ -59,7 +59,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 ![数値の概要ビジュアライゼーション](asses/../assets/summary-number.png)
 
-ビジュアライゼーション設定の一部として、特定の数値の概要オプションを使用できます。
+ビジュアライゼーション設定の一部として、固有のサマリー数オプションを使用できます。
 
 | オプション | 定義 |
 |--- |--- |
@@ -73,7 +73,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 >[!CONTEXTUALHELP]
 >id="workspace_summarychange_button"
 >title="変更の概要"
->abstract="2 つの数値間の差分（変化）を表示するビジュアライゼーションの作成"
+>abstract="2 つの数値間の差分（変化量）を表示するビジュアライゼーションを作成します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -101,9 +101,9 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 | オプション | 定義 |
 |--- |--- |
-| **[!UICONTROL 変化率を表示]** | 2 つの数値間の変化率を表示します。 |
-| **[!UICONTROL 生の差異を表示]** | 2 つの数値間の生の差異を表示します。 また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
-| **[!UICONTROL 値を短縮]** | 変更した値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。 選択した場合、短縮の量を定義する数値を入力します。 次に例を示します。<br/><table><tr><td>**元の値**</td><td>**短縮の値**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`0` に設定</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> 選択済み、`1` に設定</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`2` に設定</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`3` に設定</td><td align="right">$12.011M</td></tr></table> |
+| **[!UICONTROL 変化率を表示]** | 2 つの数値間の変更率を表示します。 |
+| **[!UICONTROL 生の差異を表示]** | 2 つの数値間の差分を表示します。 また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
+| **[!UICONTROL 値を短縮]** | 変更した値をインテリジェントに短縮するには、「**[!UICONTROL 値を短縮]**」を選択します。 選択した場合は、省略の度合いを指定する数値を入力します。 次に例を示します。<br/><table><tr><td>**元の値**</td><td>**短縮の値**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選択</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`0` に設定</td><td align="right">$12M</td></tr><tr><td>$12,011,141.25</td><td> 選択済み、`1` に設定</td><td  align="right">$12.0M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`2` に設定</td><td align="right">$12.01M</td></tr><tr><td>$12,011,141.25</td><td>選択済み、`3` に設定</td><td align="right">$12.011M</td></tr></table> |
 
 >[!MORELIKETHIS]
 >

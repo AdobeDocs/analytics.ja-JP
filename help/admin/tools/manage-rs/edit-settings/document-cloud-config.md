@@ -1,6 +1,6 @@
 ---
 description: Adobe AnalyticsでDocument Cloud データを表示できます
-title: Document Cloud レポートの設定
+title: Document Cloud レポート機能の設定
 feature: Admin Tools
 exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
 TQID: 'https://experienceleague.adobe.com/2X5YQxmTsMYdnwSWVL4EMr1K1aV9UM6FRMHa2P--Xuc'
@@ -26,7 +26,7 @@ ht-degree: 28%
 
 ---
 
-# Document Cloud レポートの設定
+# Document Cloud レポート機能の設定
 
 PDF固有のディメンションと指標をAdobe Analyticsで使用できるように設定できます。
 

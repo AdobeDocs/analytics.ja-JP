@@ -1,6 +1,6 @@
 ---
 description: 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
-title: Adobe ID 用に Analytics ユーザーアカウントを移行する
+title: Adobe ID 用 Analytics ユーザーアカウントの移行
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin

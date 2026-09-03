@@ -1,6 +1,6 @@
 ---
-description: Analytics で AEM Assets レポートを有効にするための管理者の手順です。
-title: Adobe Analytics で AEM Assets を報告する方法
+description: Analytics で AEM Assets のレポート機能を有効にするための管理者向け手順です。
+title: Adobe Analytics で AEM Assets をレポートする方法
 feature: Report Suite Settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 role: Admin
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 # AEM Assets レポート
 
-Analytics で AEM Assets レポートを有効にするための管理者の手順です。
+Analytics で AEM Assets のレポート機能を有効にするための管理者向け手順です。
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**`<select report suite>`**／**[!UICONTROL 設定を編集]**／**[!UICONTROL AEM]**／**[!UICONTROL AEM Assets レポート]**
 

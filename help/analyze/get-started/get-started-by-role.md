@@ -106,9 +106,9 @@ Analytics 管理者は、組織内のユーザーが Adobe Analytics を使用�
 |---------|----------|---------|
 | 管理者の役割の定義 | Adobe Analytics は、様々なタイプの管理者をサポートします。 | [Adobe Analytics の管理者の役割](/help/admin/admin-console/admin-roles-in-analytics.md) |
 | 権限を定義 | Analytics 管理者は、Admin Console で Adobe Analytics、レポートスイートツールおよび Analytics ツールの製品プロファイルを割り当てる必要があります。 | [Admin Console での Analytics 権限](/help/admin/admin-console/permissions/analytics-tools.md) |
-| レポートスイートの設定とカンパニー設定の定義 | レポートスイートは、Adobe Analytics がレポートの生成に使用するデータのサイロです。<p>また、管理者は、[仮想レポートスイート](/help/components/vrs/vrs-about.md)を設定して、データをさらにセグメント化することもできます。</p> | <ul><li>[レポートスイートを作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[カンパニー設定の概要](/help/admin/tools/company/c-company-settings.md)</li></ul> |
+| レポートスイートを設定し、会社の設定を定義 | レポートスイートは、Adobe Analytics がレポートの生成に使用するデータのサイロです。<p>また、管理者は、[仮想レポートスイート](/help/components/vrs/vrs-about.md)を設定して、データをさらにセグメント化することもできます。</p> | <ul><li>[レポートスイートを作成](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[カンパニー設定の概要](/help/admin/tools/company/c-company-settings.md)</li></ul> |
 | データの読み込み | Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に読み込むことができます。 | [データソースの概要](/help/import/data-sources/overview.md) |
-| 分類を使用してデータを仕分ける | 分類を使用すると、データを仕分けて変数を有効に活用できるので、より多くのコンテンツを 1 つの変数に含めることができます。 | [分類の概要](/help/components/classifications/classifications-overview.md) |
+| 分類を使用してデータを分類する | 分類を使用すると、データを仕分けて変数を有効に活用できるので、より多くのコンテンツを 1 つの変数に含めることができます。 | [分類の概要](/help/components/classifications/classifications-overview.md) |
 | コンポーネントの管理 | 各コンポーネントタイプのデータ辞書と管理領域を使用して、Analytics の実装で使用可能なコンポーネントと組織で承認されるコンポーネントを定義します。<p>コンポーネントが組織内で効果的に使用されていることを確認するには、これを継続的なアクティビティにする必要があります。 </p> | <ul><li>[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[セグメントを管理](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Analysis Workspace でカスタム日付範囲を作成](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | 異常値の検出 | 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 貢献度分析 | 貢献度分析は、データ内の隠れたパターンを発見し、統計的異常を説明するとともに、集約されたオーディエンスセグメント全体で選択された指標における予期せぬ顧客行動、範囲外値、急激な上昇や下降の背後にある相関関係を特定します。 | [貢献度分析のトークン - 概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
@@ -127,7 +127,7 @@ Analytics 管理者は、Analytics 環境の重要な側面の監視に役立つ
 | タスク | 使用目的 | 詳細情報 |
 |---------|----------|---------|
 | レポートアクティビティマネージャー | レポートアクティビティマネージャーでは、組織内の各レポートスイートのレポート処理能力を確認できます。 レポートの使用状況を詳細に把握し、ピーク時のレポート作成時の処理能力に関する問題を簡単に診断および修正できます。 | [レポートアクティビティマネージャー](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
-| サーバーコールの使用状況 | 「ヒット」または「イメージリクエスト」とも呼ばれます。処理するデータをアドビのサーバーに送信するインスタンスです。 サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。 超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](/help/admin/tools/server-call-usage/overage-overview.md) |
+| サーバーコールの使用状況 | サーバーコールは、「ヒット」または「イメージリクエスト」とも呼ばれ、処理するデータをアドビのサーバーに送信するインスタンスです。 サーバーコールの使用状況ダッシュボードを使用して、サーバーコールの使用状況データを追跡し、契約上の制限と比較できます。 超過を防ぐためにアラートを設定できます。 | [サーバーコールの使用状況の概要](/help/admin/tools/server-call-usage/overage-overview.md) |
 | ログファイル | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。 | [ログ](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}
@@ -146,14 +146,14 @@ Adobe Analytics と Analysis Workspace の機能を最大限に活用するた�
 | 貢献度分析 | Analysis Workspace を使用して、データ内の非表示パターンを発見して統計的な異常値を明らかにし、予期しない顧客のアクション、範囲外の値、オーディエンスセグメント全体の指標の突然のスパイクや下落の背後にある相関関係を特定します。 | [異常値検出の概要](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)の[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | アラート | データの異常値と、単一のアラートで複数の指標をキャプチャする「積み重ね」アラートに基づいてアラートを作成および管理します。 | [アラートの概要](/help/components/alerts/alerts-overview.md) |
 | データの書き出し | Data Warehouse とデータフィードを使用すると、Google Cloud Platform、Azure RBAC、Azure SAS、Amazon S3 などの様々なクラウドの宛先にデータを書き出すことができます。 | [Analytics 書き出しガイド](/help/export/home.md) |
-| Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
+| Activity Map | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランキングし、web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。<p>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
 | Report Builder | Report Builder は Microsoft Excel のアドインです。 Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
 
 <!-- * Realtime reporting? -->
 
 ## エンドユーザー向けの基本を学ぶ
 
-プロフェッショナルなアナリストではないエンドユーザーは、組織内のアナリストと連携して Adobe Analytics と Analysis Workspace の機能を最大限に活用できます。または、顧客に関する実用的なインサイトを取得するために、Analytics Workspace の基本を学ぶこともできます。
+プロフェッショナルなアナリストではないエンドユーザーは、組織内のアナリストと連携して Adobe Analytics と Analysis Workspace の機能を最大限に活用できます。または、顧客に関する実用的なインサイトを取得するために、Analysis Workspace の基本を学ぶこともできます。
 
 ### アナリストとの連携
 

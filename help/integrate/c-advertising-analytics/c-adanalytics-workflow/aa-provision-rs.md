@@ -1,6 +1,6 @@
 ---
 description: Advertising Analyticsで使用するCX Enterprise マッピング済みレポートスイートを設定します。
-title: Advertising Analytics 用のレポートスイートの有効化
+title: Advertising Analytics 用レポートスイートを有効にする
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 TQID: 'https://experienceleague.adobe.com/sGEXiz2RiDhf9p-2df76o-XxBERTKPB-O-rZeIb4BBI'
@@ -23,7 +23,7 @@ ht-degree: 18%
 
 ---
 
-# Advertising Analytics 用のレポートスイートの有効化
+# Advertising Analytics 用レポートスイートを有効にする
 
 AnalyticsでAdvertising Analyticsの検索データを表示するには、Advertising Analytics レポート用にCX Enterpriseでマッピングされた各レポートスイートを設定する必要があります。
 

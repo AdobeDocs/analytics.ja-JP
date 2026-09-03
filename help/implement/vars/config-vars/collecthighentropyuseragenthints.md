@@ -40,7 +40,7 @@ Adobe Analytics は高エントロピーのクライアントヒントを使用�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/@adobepm/data-collection) にログインします。
 1. 目的の[!UICONTROL タグプロパティ]をクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」をクリックします。
-1. [!UICONTROL 一般]アコーディオンをを展開して、「[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]」チェックボックスを表示します。 デフォルトでは選択解除されています。
+1. [!UICONTROL 一般]アコーディオンをを展開して、「[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]」チェックボックスを表示します。 デフォルトではオフになっています。
 
 ## AppMeasurement の collectHighEntropyUserAgentHints
 

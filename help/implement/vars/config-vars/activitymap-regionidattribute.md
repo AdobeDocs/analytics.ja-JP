@@ -52,7 +52,7 @@ alloy("configure", {
 
 ## Adobe Analytics拡張機能を使用したRegion ID属性
 
-Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics 拡張機能には、この変数を使用するための専用フィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurementを使用したs.ActivityMap.regionIDAttribute
 

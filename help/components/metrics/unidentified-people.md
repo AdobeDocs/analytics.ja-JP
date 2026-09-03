@@ -1,6 +1,6 @@
 ---
 title: 特定されていないユーザー
-description: クロスデバイス分析で識別されなかった訪問者の数。
+description: Adobe Analytics のクロスデバイス分析で識別されなかった訪問者の数。
 feature: Metrics
 exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
 TQID: https://experienceleague.adobe.com/v4YTDn-JKZ-zAneIGDGfc3S-xZOuVWT5UAvQwg4IWVo

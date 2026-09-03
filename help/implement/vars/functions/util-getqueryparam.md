@@ -31,7 +31,7 @@ ht-degree: 79%
 
 ## Adobe Analytics拡張機能とWeb SDK拡張機能を使用したクエリ文字列パラメーターデータの取得
 
-データ要素に値を設定することで、クエリ文字列パラメーターデータを取得できます。
+データ要素に値を設定することで、クエリ文字列パラメーターのデータを取得できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。

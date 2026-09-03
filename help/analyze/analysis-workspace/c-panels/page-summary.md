@@ -70,7 +70,7 @@ _この記事では、_&#x200B;のページ概要パネルについて説明し�
 | アクセスポイント | 説明 |
 | --- | --- |
 | [!UICONTROL レポート] | <ul><li>パネルは既にプロジェクトにドロップされています。</li><li>左側のパネルが折りたたまれています。</li><li>ページディメンションのみがサポートされています。</li><li>デフォルト設定は既に適用されており、この場合は、[!UICONTROL ページ]ディメンションで最も多く訪問されたページです。 この設定は変更できます。</li></ul> |
-| Workspace | 新しいプロジェクトを作成し、左側のパネルのパネルアイコンを選択します。 [!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。 ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。 ドロップダウンリストからディメンション項目を選択します。 |
+| Workspace | 新しいプロジェクトを作成し、左側のパネルにあるパネルアイコンを選択します。 [!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。 ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。 ドロップダウンリストからディメンション項目を選択します。 |
 
 ### パネル入力 {#panel-input}
 
@@ -99,7 +99,7 @@ _この記事では、_&#x200B;のページ概要パネルについて説明し�
 | **[!UICONTROL ページビュー] - 4 週間前** | 先月のこのページのページビュー数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション。 |
 | **[!UICONTROL ページビュー] - 52 週間前** | 過去 1 年間のこのページのページビュー数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション。 |
 | **[!UICONTROL トレンド]** | 今月、4 週間前、52 週間前のページビューのトレンド[折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション。 |
-| **[!UICONTROL すべてのページビューの割合]** | このページに送信されたすべてのページビューの割合を示す数値の概要。 |
+| **[!UICONTROL すべてのページビューの割合]** | このページへのすべてのページビューの割合を示すサマリー数です。 |
 | **[!UICONTROL ページでの滞在時間]** | このページでの滞在時間を示す[横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)ビジュアライゼーション。 |
 | **[!UICONTROL 単一ページ訪問]** | このページが唯一の訪問ページだったページビューの数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 |
 | **[!UICONTROL リロード回数]** | 再読み込み中にディメンション項目が存在した回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 訪問者によるブラウザーの更新は、再読み込みをトリガーする最も一般的な方法です。 |

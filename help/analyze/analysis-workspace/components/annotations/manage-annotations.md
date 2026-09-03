@@ -72,7 +72,7 @@ ht-degree: 88%
 | ![共有](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共有]** | 選択した注釈を共有します。 **[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログでは、「![検索](/help/assets/icons/Search.svg)「」、「*個人またはグループを検索*」、または「**[!UICONTROL 組織]**」または「**[!UICONTROL グループ]**」を選択できます。 「**[!UICONTROL 保存]**」を選択して、選択した注釈の共有の詳細を保存します。 詳しくは、[注釈の共有](#share-annotations)を参照してください。 |
 | ![削除](/help/assets/icons/Delete.svg) | **[!UICONTROL 削除]** | 選択した注釈を削除します。 確認メッセージが表示されます。 |
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した 1 つの注釈の名前を変更します。 選択すると、注釈の名前をインラインで変更できます。 |
-| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した注釈をコピーします。 同じ名前とサフィックスを持つ新しい注釈が作成されます（コピー） |
+| ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した注釈をコピーします。 同じ名前を使用し、サフィックス（コピー）が付いた新しい注釈が作成されます |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | 注釈を `Annotations List.csv` ファイルに書き出します。 |
 
 ### アクティブなフィルターバー
@@ -81,7 +81,7 @@ ht-degree: 88%
 
 ### フィルターパネル
 
-注釈は、**[!UICONTROL フィルター]**&#x200B;左側のパネル ➍を使用してフィルターできます。 フィルターパネルには、フィルターのタイプと、フィルタリングを行う注釈の数が表示されます。 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
+注釈は、**[!UICONTROL フィルター]**&#x200B;左側のパネル ➍を使用してフィルターできます。 フィルターパネルには、フィルターのタイプと、そのフィルターに一致する注釈の数が表示されます。 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルの表示を切り替えます。
 
 フィルターリストをフィルタリングするには、次の手順に従います。
 

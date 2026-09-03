@@ -27,11 +27,11 @@ ht-degree: 95%
 
 AppMeasurement 変数は、子 iframe と親 iframe の両方から参照できます。 AppMeasurement ライブラリが存在する場所と同じ場所にすべての変数を定義する必要があります。 次の例では、iframe の内外に基本的な AppMeasurement 変数およびメソッドを設定する方法を説明します。
 
-Adobe Experience Platform のタグを使用する場合は、トラッカーオブジェクトがグローバルにアクセスできることを確認します。 [Adobe Analytics 拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)を参照してください。
+Adobe Experience Platform でタグを使用する場合は、トラッカー オブジェクトがグローバルにアクセス可能であることを確認します。 [Adobe Analytics 拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)を参照してください。
 
 >[!CAUTION]
 >
->親ページと iframe の両方に AppMeasurement ライブラリを含めないでください。 これをおこなうと、複数の画像リクエストが送信される、レポートが水増しされる、課金対象のサーバー呼び出しが増加するなどのリスクが生じます。
+>親ページと iframe の両方に AppMeasurement ライブラリを含めないでください。 これをおこなうと、複数のイメージリクエストが送信される、レポートが水増しされる、課金対象のサーバーコールが増加するなどのリスクが生じます。
 
 ## iframe 内にある AppMeasurement へのアクセス
 
@@ -77,7 +77,7 @@ window.top.postMessage("Example page view call","https://example.com");
 
 ## 制限事項
 
-* 他の JavaScript コードと同様、iFrames はドメインとプロトコルが一致する場合にのみ通信できます。 これらの例は、iframe コンテンツが親とは異なるドメインに存在する場合は機能しません。
+* 他の JavaScript コードと同様、iframe はドメインとプロトコルが一致する場合にのみ通信できます。 これらの例は、iframe コンテンツが親とは異なるドメインに存在する場合は機能しません。
 * AppMeasurement が iframe 内に存在する場合、[`referrer`](../vars/page-vars/referrer.md) 変数は、実際の参照 URL ではなく親 URL に設定されます。 `referrer` 変数を手動で設定すると、この問題を解決できます。
 * [Adobe CX Enterprise debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)は、iframe内でトリガーされたイメージリクエストを認識しません。
 * Activity Map には、iframe 内でクリックされたリンクのヒートマップは表示されません。 代わりに、iframe 全体がハイライト表示されます。

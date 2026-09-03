@@ -33,13 +33,13 @@ ht-degree: 96%
 
 該当する場合および関連する場合、関数には、関数のタイプで注釈が付けられます。[!BADGE テーブル]{type="Neutral"}または[!BADGE 行]{type="Neutral"}
 
-## ゼロを含むパラメーターとは
+## include-zeros パラメーターとは何を意味しますか？
 
 このパラメーターは、計算にゼロを含むかどうかを示します。 ゼロは&#x200B;*何もない*&#x200B;ことを意味する場合もあれば、重要な意味を持つ場合もあります。
 
-例えば、売上高の指標がある場合に、ページビュー数の指標をレポートに追加すると、すべてゼロの売上高の行が突然表示されます。 その追加の指標が **[MEAN](cm-functions.md#mean)**（平均値）、**[ROW MINIMUM](cm-functions.md#row-min)**（行の最小値）、**[QUARTILE](cm-functions.md#quartile)**（四分位数）および売上高列にあるその他の計算に影響を与えることは避けるべきです。 この場合は、`include-zeros` パラメーターを確認します。
+例えば、売上高の指標がある状態でレポートにページビュー指標を追加すると、売上高の行がゼロの行も含めて突然増加します。 その追加の指標が **[MEAN](cm-functions.md#mean)**（平均値）、**[ROW MINIMUM](cm-functions.md#row-min)**（行の最小値）、**[QUARTILE](cm-functions.md#quartile)**（四分位数）および売上高列にあるその他の計算に影響を与えることは避けるべきです。 この場合は、`include-zeros` パラメーターを確認します。
 
-別のシナリオとして、2 つの目標指標があり、一方の指標の平均または最小値が高くなるのは、一部の行がゼロであるためです。  その場合、パラメーターにゼロを含めるかどうかを確認しないことを選択できます。
+別のシナリオとして、関心のある指標が 2 つあり、一方の指標の平均または最小値が、一部の行がゼロであるために高くなる場合があります。  その場合は、ゼロを含めるための `include-zeros` パラメーターにチェックを付けないこともできます。
 
 
 ## And {#and}
@@ -69,23 +69,23 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-count-distinct-metric"
 >title="個別の概算カウント"
->abstract="選択したディメンションのディメンション項目の個別の概算カウントを返します。"
+>abstract="選択したディメンション項目について、重複を除いた概算の件数を返します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL APPROXIMATE COUNT DISTINCT(dimension)]**
 
 
-選択したディメンションのディメンション項目の個別の概算カウントを返します。
+選択したディメンション項目について、重複を除いた概算の件数を返します。
 
 
 | 引数 | 説明 |
 |---|---|
-| ディメンション | 項目の個別の概算カウントを計算するディメンションです |
+| ディメンション | 項目の重複を除いた概算件数を計算したいディメンションです。 |
 
 ### 例
 
-この関数の一般的なユースケースは、顧客の近似数を取得する場合です。
+この関数は、顧客数のおおよその値を取得したい場合によく使用されます。
 
 
 
@@ -96,14 +96,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-acos"
 >title="逆余弦"
->abstract="指標の逆余弦（余弦の逆数）を返します。 逆余弦は、余弦が数値である角度です。 返される角度は、0（ゼロ）から pi までの範囲のラジアンで指定されます。 結果をラジアンから度に変換する場合は、180/PI() で乗算します。"
+>abstract="指標の逆余弦（余弦の逆三角関数）を返します。 逆余弦とは、余弦がある数値となる角度です。 返される角度は、0（ゼロ）から pi までの範囲のラジアンで指定されます。 結果をラジアンから度に変換する場合は、180/PI() で乗算します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL ARC COSINE(metric)]**
 
 
-[!BADGE 行]{type="Neutral"} 指標の逆余弦（余弦の逆数）を返します。 逆余弦は、余弦が数値である角度です。 返される角度は、0（ゼロ）から pi までの範囲のラジアンで指定されます。 結果をラジアンから度に変換する場合は、180/PI() で乗算します。
+[!BADGE 行]{type="Neutral"} 指標の逆余弦（余弦の逆数）を返します。 逆余弦とは、余弦がある数値となる角度です。 返される角度は、0（ゼロ）から pi までの範囲のラジアンで指定されます。 結果をラジアンから度に変換する場合は、180/PI() で乗算します。
 
 
 | 引数 | 説明 |
@@ -119,14 +119,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-asin"
 >title="逆正弦"
->abstract="数値の逆正弦 （正弦の逆数）を返します。 逆正弦は、正弦が数値である角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正弦を度で表すには、結果に 180/PI() で乗算します。"
+>abstract="数値の逆正弦（正弦の逆関数）を返します。 逆正弦とは、正弦の値がその数値となる角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正弦を「度」で表すには、結果に 180/PI() を掛けます"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL ARC SINE(metric)]**
 
 
-[!BADGE 行]{type="Neutral"} 数値の逆正弦 （正弦の逆数）を返します。 逆正弦は、正弦が数値である角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正弦を度で表すには、結果に 180/PI() で乗算します。
+[!BADGE 行]{type="Neutral"} 数値の逆正弦 （正弦の逆数）を返します。 逆正弦とは、正弦の値がその数値となる角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正弦を「度」で表すには、結果に 180/PI() を掛けます。
 
 
 | 引数 | 説明 |
@@ -142,19 +142,19 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="functions-atan"
 >title="逆正接"
->abstract="数値の逆正接（正接の逆数）を返します。 逆正接は、正接が数値である角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正接を度で表すには、結果に 180/PI() で乗算します。"
+>abstract="数値の逆正接（正接の逆関数）を返します。 逆正接は、正接がその数値となる角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正接を「度」で表すには、結果に 180/PI() を掛けます。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL ARC TANGENT(metric)]**
 
 
-[!BADGE 行]{type="Neutral"} 数値の逆正接（正接の逆数）を返します。 逆正接は、正接が数値である角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正接を度で表すには、結果に 180/PI() で乗算します。
+[!BADGE 行]{type="Neutral"} 数値の逆正接（正接の逆数）を返します。 逆正接は、正接がその数値となる角度です。 返される角度は、-pi/2 から pi/2 までの範囲のラジアンで指定されます。 逆正接を「度」で表すには、結果に 180/PI() を掛けます。
 
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | -1～1 で求める角度の正接です |
+| 指標 | 求める角度の正接（-1～1 の範囲） |
 
 
 
@@ -175,7 +175,7 @@ ht-degree: 96%
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | student t 分布の累積分布関数を求める指標です |
+| 指標 | student t 分布の累積分布関数を求めるための指標です。 |
 | number | student t 分布の累積分布関数の自由度です |
 
 ### 例
@@ -206,7 +206,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 標準正規分布の累積分布関数を求める指標です |
+| 指標 | 標準正規分布の累積分布関数を計算する対象となる指標です |
 
 ### 例
 
@@ -319,13 +319,13 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-cos"
 >title="余弦"
->abstract="指定された角度の余弦を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。"
+>abstract="指定された角度の余弦を返します。 角度の単位が「度」の場合は、その角度に PI()/180 を掛けます。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL COSINE(metric)]**
 
-[!BADGE 行]{type="Neutral"} 指定された角度の余弦を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。
+[!BADGE 行]{type="Neutral"} 指定された角度の余弦を返します。 角度の単位が「度」の場合は、その角度に PI()/180 を掛けます。
 
 | 引数 | 説明 |
 |---|---|
@@ -351,7 +351,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 立方根の計算を求める指標 |
+| 指標 | 立方根を計算する対象となる指標 |
 
 
 
@@ -372,8 +372,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 | --- | --- |
-| number | 合計を返す最終 N 行の値です。 N &lt;= 0 の場合、前のすべての行を使用します。 |
-| metric | 累積合計を求める指標です。 |
+| number | 合計を返す対象となる、最後の N 行です。 N &lt;= 0 の場合、前のすべての行を使用します。 |
+| metric | 累積合計を求めたい指標です。 |
 
 ### 例
 
@@ -391,18 +391,18 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="累積（平均）"
->abstract="列 x の最後の n 個の要素の平均を返します。 n > 0 の場合は、最後の n 要素または x を合計します。 n &lt; 0 の場合は、前の要素を合計します。"
+>abstract="列 x の最後の n 個の要素の平均を返します。 n > 0 の場合は、列 x の最後の n 個の要素を合計します。 n &lt; 0 の場合は、前の要素を合計します。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIVE AVERAGE(number, metric)]**
 
-列 x の最後の n 個の要素の平均を返します。 n > 0 の場合は、最後の n 要素または x を合計します。 n &lt; 0 の場合は、前の要素を合計します。
+列 x の最後の n 個の要素の平均を返します。 n > 0 の場合は、列 x の最後の n 個の要素を合計します。 n &lt; 0 の場合は、前の要素を合計します。
 
 | 引数 | 説明 |
 | --- | --- |
-| number | 平均を返す最終 N 行の値です。 N &lt;= 0 の場合、前のすべての行を使用します。 |
-| metric | 累積平均を求める指標です。 |
+| number | 平均を返す最後の N 行です。 N &lt;= 0 の場合、前のすべての行を使用します。 |
+| metric | 累積平均を求めたい指標です。 |
 
 >[!NOTE]
 >
@@ -454,8 +454,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 ## 指数回帰：予測 Y {#exponential-regression-predicted-y}
@@ -477,7 +477,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 非依存データとして指定する指標です。 |
+| metric_X | 独立データとして指定する指標です。 |
 | metric_Y | 依存データとして指定する指標です。 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
@@ -500,8 +500,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -524,8 +524,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -536,7 +536,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="下限"
->abstract="指定された値以下の最大の整数を返します。 例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、FLOOR(Revenue) という数式を使用して、売上高を直近のドル値（$569）に切り下げます。"
+>abstract="指定された値以下の最大の整数を返します。 例えば、製品価格が $569.34 であり、売上高の小数点以下をレポートしないようにする場合は、FLOOR(Revenue) という数式を使用して、売上高を直近のドル値（$569）に切り下げます。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -619,7 +619,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 双曲線余弦を求めるラジアンの角度です |
+| 指標 | 双曲線余弦を求めたいラジアン角です。 |
 
 
 
@@ -640,7 +640,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 双曲線正弦を求めるラジアンの角度です |
+| 指標 | 双曲線正弦を求めたいラジアン角です。 |
 
 
 ## 双曲線正接 {#hyperbolic-tangent}
@@ -660,7 +660,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 双曲線正接を求めるラジアンの角度です |
+| 指標 | 双曲線正接を求めたいラジアン角です。 |
 
 
 ## If {#if}
@@ -776,8 +776,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -801,8 +801,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -826,8 +826,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -849,8 +849,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -873,7 +873,7 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 基数 10 の対数を求める正の実数です。 |
+| 指標 | 基数 10 の対数を求める正の実数。 |
 
 
 ## 対数回帰：相関係数 {#log-regression-correlation-coefficient}
@@ -893,8 +893,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -915,13 +915,13 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
 
-## 対数回帰：予測 Y {#log-regression-predicted-y}
+## ログ回帰：予測 Y {#log-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -938,8 +938,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -961,8 +961,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1096,8 +1096,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1121,8 +1121,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1143,8 +1143,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1166,8 +1166,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1189,8 +1189,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 ## 二次回帰：切片 {#quadratic-regression-intercept}
@@ -1210,8 +1210,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1232,8 +1232,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1254,8 +1254,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1277,8 +1277,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | metric_Y とクロス集計する指標です |
-| metric_Y | metric_X とクロス集計する指標です |
+| metric_X | metric_Y と相関を取る指標 |
+| metric_Y | metric_X と相関を取る指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1299,8 +1299,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1321,8 +1321,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1343,8 +1343,8 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| metric_X | 依存データとして指定する指標です |
-| metric_Y | 非依存データとして指定する指標です。 |
+| metric_X | 依存データとして指定する指標 |
+| metric_Y | 独立データとして指定する指標 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1391,7 +1391,7 @@ Only available in CJA
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | t スコアを求める指標です |
+| 指標 | t スコアを求めたい指標です。 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 
@@ -1412,19 +1412,19 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | t 検定を行う指標です |
+| 指標 | T テストを実行したい指標です。 |
 | degrees | 自由度です |
-| すそ | t 検定を実行するために使用されるすその長さです。 |
+| すそ | T 検定を実行するために使用されるテールの長さです。 |
 
 ### 詳細
 
-署名は T-TEST(metric, degrees, tails) です。 その下には、単に ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)** を呼び出します。 この関数は、***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** を実行する **[Z-TEST](#z-test)** 関数に類似しています。
+構文は T-TEST(metric, degrees, tails) です。 その下には、単に ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)** を呼び出します。 この関数は、***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)** を実行する **[Z-TEST](#z-test)** 関数に類似しています。
 
 - ***m*** はすその数です。
 - ***n*** は自由度で、レポート全体に対して一定の数値にする必要があります。つまり、行単位で変更されません。
 - ***X*** は t 検定統計量です。一般的には指標に基づく数式（**[Z-SCORE](#z-score)** など）で、すべての行で評価されます。
 
-返される値は、指定された自由度とテール数において検定統計量 x が見られる確率です。
+返される値は、指定された自由度とテール数においてテスト統計量 x が見られる確率です。
 
 ### 例
 
@@ -1449,17 +1449,17 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 >[!CONTEXTUALHELP]
 >id="functions-tan"
 >title="正接"
->abstract="指定された角度の正接を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。"
+>abstract="指定された角度の正接を返します。 角度の単位が「度」の場合は、その角度に PI()/180 を掛けます。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL TANGENT(metric)]**
 
-指定された角度の正接を返します。 角度の単位が「度」の場合は、角度に PI()/180 で乗算します。
+指定された角度の正接を返します。 角度の単位が「度」の場合は、その角度に PI()/180 を掛けます。
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | 正接を求めるラジアンの角度です |
+| 指標 | 正接を求めるラジアン単位の角度を指定します。 |
 
 
 
@@ -1470,7 +1470,7 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 >[!CONTEXTUALHELP]
 >id="functions-z-score"
 >title="z スコア"
->abstract="平均値を標準偏差で割って求める偏差値です。"
+>abstract="平均からの偏差を標準偏差で割った値です。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1480,7 +1480,7 @@ t スコア x および自由度 n の t 検定（m-tailed）を実行します�
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | z スコアを求める指標です |
+| 指標 | z スコアを求める指標。 |
 | include_zeros | 計算にゼロ値を含めるかどうか |
 
 z スコア 0（ゼロ）は、スコアが平均値と同じであることを意味します。 Z スコアは正または負の値で、平均値を上回るか下回っているか、および標準偏差の数を示します。
@@ -1510,16 +1510,16 @@ Z スコアの式は次のとおりです。
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL Z-TEST(metric_tails)]**
 
-z スコア x の z 検定（n-tailed）を実行します。
+z スコア x の z 検定(n-tailed)を実行します。
 
 | 引数 | 説明 |
 |---|---|
-| 指標 | z 検定を行う指標です |
-| すそ | z 検定を行うために使用するすその長さです |
+| 指標 | Z テストを行う指標。 |
+| すそ | Z テストを行うために使用するテールの長さ。 |
 
 >[!NOTE]
 >
->値が正規分布されると仮定します。
+>値が正規分布に従うと仮定します。
 
 
 

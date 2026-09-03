@@ -60,7 +60,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 
       ![](/help/admin/tools/user-management/user-migration/assets/download-report.png)
 
-      Download Report リンクは、ユーザーを移行していない顧客にのみ表示されます。
+      「レポートをダウンロード」リンクは、ユーザーを移行していない顧客にのみ表示されます。
 
    1. *ユーザーを移行済みの場合は、* **[!UICONTROL Analytics]**／**[!UICONTROL Analytics ユーザーおよびアセット]**&#x200B;へ移動します。
 
@@ -94,7 +94,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
       >
       >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。 この手順は、Adobe Admin Consoleの既存のCX Enterprise ユーザー権限が上書きされるのを防ぐのに役立ち、移行するアカウントのリストを提供します。
 
-1. Adobe Admin Console から CSV テンプレートをダウンロード：
+1. Adobe Admin Console から CSV テンプレートをダウンロードします。
    1. 「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」、「**[!UICONTROL CSV テンプレートのダウンロード]**」の順にクリックします。
 
       ![ステップ情報](/help/admin/tools/user-management/user-migration/assets/add-users-csv.png)

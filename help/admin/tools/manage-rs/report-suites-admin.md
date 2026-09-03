@@ -1,5 +1,5 @@
 ---
-description: レポートスイートでは、選択した web サイト、web サイト群または web ページのサブセットに関する独立した完全なレポートが定義されます。
+description: レポートスイートは、選択した web サイト、web サイト群、または web ページのサブセットに関する完全かつ独立したレポートを定義します。
 title: レポートスイートマネージャー
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
@@ -23,7 +23,7 @@ ht-degree: 77%
 
 # レポートスイートマネージャー
 
-レポートスイートでは、次のいずれかのデータストアに関する完全な独立したレポートが定義されます。
+レポートスイートは、次のいずれかのデータストアに関する完全かつ独立したレポートを定義します。
 
 * 単一の web サイト（最も一般的）
 
@@ -57,7 +57,7 @@ Adobe Analytics ソリューションにログインしたら、使用するレ�
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> レポートスイートの選択</span> </td> 
-   <td colname="col2"> <p><span class="wintitle">Report Suite Manager</span> では、選択したレポートスイートが強調表示されます。 複数のレポートスイートを選択するには、<span class="uicontrol">Ctrl</span> キーまたは <span class="uicontrol">Shift</span> キーを押しながらクリックします。 </p> <p>選択したレポートスイートは、別のレポートスイートを選択するまで選択されています。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">Report Suite Manager</span> では、選択したレポートスイートが強調表示されます。 複数のレポートスイートを選択するには、<span class="uicontrol">Ctrl</span> キーまたは <span class="uicontrol">Shift</span> キーを押しながらクリックします。 </p> <p>選択したレポートスイートは、別のレポートスイートを選択するまで選択されたままになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ダウンロード</span> </td> 

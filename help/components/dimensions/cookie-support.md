@@ -1,6 +1,6 @@
 ---
 title: cookie サポート
-description: ブラウザーが cookie をサポートするかどうかを指定します。
+description: ブラウザーが cookie をサポートするかどうかを判別します。
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
 TQID: https://experienceleague.adobe.com/axOR-Ut8kkRSCTYPescoSCa44g25E8xxp4gg-yQlyYw
@@ -28,11 +28,11 @@ ht-degree: 92%
 
 # cookie サポート
 
-&#39;Cookie サポート&#39; [&#x200B; ディメンション &#x200B;](overview.md)は、ブラウザーが特定のヒットに対するCookieをサポートしているかどうかを報告します。 これは、cookie をサポートするブラウザーを使用する訪問者と cookie を意図的に無効にするブラウザーの割合を判断するのに役立ちます。
+&#39;Cookie サポート&#39; [&#x200B; ディメンション &#x200B;](overview.md)は、ブラウザーが特定のヒットに対するCookieをサポートしているかどうかを報告します。 これは、cookie をサポートするブラウザーを使用する訪問者と、cookie を意図的に無効にしている訪問者の割合を判断するのに役立ちます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`k`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 AppMeasurement は、`s_cc` という名前の cookie を設定しようとし、その cookie が存在するかどうかを検出します。 結果は、クエリ文字列パラメータの値 `Y`（ブラウザーが cookie をサポートし、有効にしている場合）または `N`（ブラウザーが cookie を無効にしている場合）です。 AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `k` クエリ文字列パラメーターを値 `Y` または `N` で含めてください。
+このディメンションは、イメージリクエストの[`k`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 AppMeasurement は、`s_cc` という名前の cookie を設定しようとし、その cookie が存在するかどうかを検出します。 結果は、クエリ文字列パラメータの値 `Y`（ブラウザーが cookie をサポートし、有効にしている場合）または `N`（ブラウザーが cookie を無効にしている場合）です。 AppMeasurement（Adobe Experience Platform のタグを介して使用する場合など）を使用している場合、このディメンションは追加設定なしでそのまま動作します。 AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `k` クエリ文字列パラメーターを値 `Y` または `N` で含めてください。
 
 ## ディメンション項目
 

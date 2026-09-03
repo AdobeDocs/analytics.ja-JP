@@ -1,6 +1,6 @@
 ---
 description: 指標タイプとアトリビューションについて説明します。
-title: 指標タイプとアトリビューション
+title: 指標の種類とアトリビューション
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 TQID: https://experienceleague.adobe.com/ZfZZhXUrpGIzpfmIatSmbRAy1UJ-B6dDmZDeC1YSMjU
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ---
 
-# 指標タイプとアトリビューション {#metric-type-attribution}
+# 指標の種類とアトリビューション {#metric-type-attribution}
 
 計算指標定義で指標の指標タイプと[アトリビューションモデル](#attribution-models)を設定できます。
 
@@ -37,21 +37,21 @@ ht-degree: 100%
 
      | 指標タイプ | 定義 |
      |---|---|
-     | **[!UICONTROL 標準]** | 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。 標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![除算](/help/assets/icons/Divide.svg) ![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 訪問回数]**&#x200B;は、その特定の行項目の注文件数をその特定の行項目の訪問回数で除算します。 |
+     | **[!UICONTROL 標準]** | 数式が 1 つの標準指標で構成されている場合、その計算指標は、対応する非計算指標と同じデータを表示します。 標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 <p>例えば、![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![除算](/help/assets/icons/Divide.svg) ![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 訪問回数]**&#x200B;は、その特定の行項目の注文件数をその特定の行項目の訪問回数で除算します。 |
      | **[!UICONTROL 総計]** | 各行項目のレポート期間の&#x200B;**[!UICONTROL 総計]**&#x200B;を使用します。 数式が 1 つの総計指標で構成される場合、計算指標は行項目ごとに同じ総計数を表示します。 総計指標は、合計データと比較する計算指標を作成する場合に役立ちます。 <p>例えば、![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 注文件数]** ![除算](/help/assets/icons/Divide.svg) ![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 合計訪問回数]**&#x200B;は、特定の行項目に対する訪問回数だけでなく、すべての訪問回数に対する注文件数の割合を示します。 この例では、計算指標で![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 訪問回数]**&#x200B;指標の&#x200B;**[!UICONTROL 総計]**&#x200B;を指定し、それが自動的に![イベント](/help/assets/icons/Event.svg) **[!UICONTROL 合計訪問回数]**&#x200B;に変わります。 |
 
    * 「**[!UICONTROL アトリビューション]**」を指定します。
 
-      1. 以下のいずれかを実行できます。
+     1. 以下のいずれかを実行できます。
 
-         * 30 日間のルックバックウィンドウを持つデフォルトの列アトリビューションモデル（ラストタッチ）を使用する場合は、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を無効にします。
-         * 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を有効にします。 **[!UICONTROL 列アトリビューションモデル]**&#x200B;ダイアログで以下を行います。
+        * 30 日間のルックバックウィンドウを持つデフォルトの列アトリビューションモデル（ラストタッチ）を使用する場合は、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を無効にします。
+        * 「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を有効にします。 **[!UICONTROL 列アトリビューションモデル]**&#x200B;ダイアログで以下を行います。
 
-            * [アトリビューションモデル](#attribution-models)から&#x200B;**[!UICONTROL モデル]**&#x200B;を選択します。
-            * 「**[!UICONTROL コンテナ]**」オプションから「[コンテナ](#container)」を選択します。
-            * 「**[!UICONTROL ルックバックウィンドウ]**」オプションから「[ルックバックウィンドウ](#lookback-window)」を選択します。 「**[!UICONTROL カスタム時間]**」を選択した場合は、期間を「**[!UICONTROL 分]**」から「**[!UICONTROL 四半期]**」までの単位で定義できます。
+          * [アトリビューションモデル](#attribution-models)から&#x200B;**[!UICONTROL モデル]**&#x200B;を選択します。
+          * 「**[!UICONTROL コンテナ]**」オプションから「[コンテナ](#container)」を選択します。
+          * 「**[!UICONTROL ルックバックウィンドウ]**」オプションから「[ルックバックウィンドウ](#lookback-window)」を選択します。 「**[!UICONTROL カスタム時間]**」を選択した場合は、期間を「**[!UICONTROL 分]**」から「**[!UICONTROL 四半期]**」までの単位で定義できます。
 
-      1. デフォルト以外のアトリビューションモデルを適用するには、「**[!UICONTROL 適用]**」を選択します。 キャンセルするには、「キャンセル」を選択します。
+     1. デフォルト以外のアトリビューションモデルを適用するには、「**[!UICONTROL 適用]**」を選択します。 キャンセルするには、「キャンセル」を選択します。
 
      デフォルト以外のアトリビューションモデルを既に定義してある場合は、「**[!UICONTROL 編集]**」を選択して、選択項目を変更します。
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_reversejshaped"
 >title="逆 J 形"
->abstract="最初のディメンション値に 60%、最後のディメンション値に 20%、中央の値に 20%のクレジットが配分されます。"
+>abstract="最初のディメンション値に 60％、最後のディメンション値に 20％、中央のディメンション値に 20％のクレジットが配分されます。"
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
@@ -153,7 +153,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="コンテナ"
->abstract="コンテナを選択して、アトリビューションに必要な範囲を設定します。"
+>abstract="コンテナを選択して、アトリビューションの目的の範囲を設定します。"
 
 {{attribution-container}}
 
@@ -163,7 +163,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="ルックバックウィンドウ"
->abstract="この設定により、各コンバージョンに適用されるデータアトリビューションの期間が決まります。"
+>abstract="この設定により、各コンバージョンに適用されるデータアトリビューションの期間が設定されます。"
 
 {{attribution-lookback-window}}
 

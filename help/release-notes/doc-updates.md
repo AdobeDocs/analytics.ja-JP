@@ -149,7 +149,7 @@ ht-degree: 93%
 | データウェアハウスとデータフィードで、Azure SAS と Azure RBAC にファイルをアップロードする権限要件を追加しました。 | Azure SAS と Azure RBAC にファイルをアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定をする](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | データウェアハウスとデータフィードで、ファイルを Amazon S3 と GCP バケットにアップロードする権限要件を追加しました。 | ファイルを Amazon S3 バケットと Google Cloud Platform バケットにアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定する](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | **2024年1月** | |
-| コンポーネントの移行は個々の IMS 組織に適用されます。 | [コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
+| コンポーネントの移行を個々の IMS 組織に適用 | [コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
 | 特定の情報は管理者のみが利用できることを明確化 | [計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md)および[セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で説明している「前回の使用」列と「使用場所」列は、システム管理者のみが使用できることを示す情報を追加しました。 |
 | メディア分平均オーディエンスに関するドキュメントの更新 | [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順を追加しました。</li></ul> |
 
@@ -212,7 +212,7 @@ ht-degree: 93%
 | 内部 URL フィルター | 記事のコンテンツを明確にし、改善するための節と段階的な手順を追加しました。 [内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
-| データ辞書 | <p>データ辞書の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ辞書に関する新しいドキュメントを追加しました。</p><p>データ辞書機能を説明するために、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を更新しました。</p> |
+| データ辞書 | <p>データ辞書の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[モニタリング](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ辞書に関する新しいドキュメントを追加しました。</p><p>データ辞書機能を説明するために、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を更新しました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
 | **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |

@@ -29,7 +29,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="workspace_blankpanel_button"
 >title="空のパネル"
->abstract="完全にカスタマイズされた分析を構築するのに作成できる選択したパネルまたはビジュアライゼーションを表示します。"
+>abstract="完全にカスタマイズされた分析を作成するために使用できるパネルやビジュアライゼーションの選択肢を表示します。"
 >additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Analysis Workspace のパネル"
 
 <!-- markdownlint-enable MD034 -->

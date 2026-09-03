@@ -1,5 +1,5 @@
 ---
-description: Advertising Analytics でアカウントを管理します。
+description: Advertising Analytics でのアカウント管理。
 title: 広告アカウントの管理
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
@@ -45,8 +45,8 @@ Advertising アカウントのインターフェイスにアクセスするに�
 - ![検索](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)検索フィールドを使用して広告アカウントを検索するには、次の手順を実行します。
 - テーブルでアクティブなアカウントを選択するには、**[!UICONTROL アクティブなアカウント]**&#x200B;を確認してください。
 - テーブルに表示する列を定義するには、![列設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)を選択します。 <br/> 「**[!UICONTROL テーブルをカスタマイズ]**」ダイアログ：
-   - 表示する列を選択します。
-   - 「**[!UICONTROL 適用]**」を選択します。
+  - 表示する列を選択します。
+  - 「**[!UICONTROL 適用]**」を選択します。
 
 1つ以上の広告アカウントを選択すると、選択したアカウントのステータスに基づく青いアクションバーにより、![編集](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 名前変更]**、![&#x200B; リフレッシュ &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL マップレポートスイート]**、![&#x200B; プレイ &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL アクティベート]**&#x200B;または![一時停止](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 広告アカウントを一時停止]**&#x200B;できます。
 

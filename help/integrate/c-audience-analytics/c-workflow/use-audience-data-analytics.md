@@ -1,5 +1,5 @@
 ---
-description: Analytics全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合セグメントは、Audiences IDとAudiences Nameと呼ばれる新しいAnalytics ディメンションであり、Analyticsが収集する他のディメンションと同じように使用できます。 データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。 現在、これらのディメンションは Data Workbench または Livestream では使用できません。 オーディエンスディメンションの活用方法の例としては、次のものがあります。
+description: Analytics全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合セグメントは、Audiences IDとAudiences Nameと呼ばれる新しいAnalytics ディメンションであり、Analyticsが収集する他のディメンションと同じように使用できます。 データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。 現在、これらのディメンションはデータワークベンチまたは Livestream では使用できません。 オーディエンスディメンションの活用方法の例としては、次のものがあります。
 solution: Analytics
 title: Analytics でのオーディエンスデータの使用
 feature: Audience Analytics
@@ -23,7 +23,7 @@ ht-degree: 47%
 
 # Analytics でのオーディエンスデータの使用
 
-Analytics全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合セグメントは、Audiences IDとAudiences Nameと呼ばれる新しいAnalytics ディメンションであり、Analyticsが収集する他のディメンションと同じように使用できます。 データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。 現在、これらのディメンションは Data Workbench または Livestream では使用できません。 オーディエンスディメンションの活用方法には、次のようなものがあります。
+Analytics全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合セグメントは、Audiences IDとAudiences Nameと呼ばれる新しいAnalytics ディメンションであり、Analyticsが収集する他のディメンションと同じように使用できます。 データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。 現在、これらのディメンションはデータワークベンチまたは Livestream では使用できません。 オーディエンスディメンションの活用方法には、次のようなものがあります。
 
 ## Analysis Workspace {#workspace}
 
@@ -51,9 +51,9 @@ Analysis Workspaceでは、Adobe Audience Manager セグメントは2つのデ�
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace でのカスタマージャーニー（フロー） {#flow}
+## Analysis Workspace のカスタマージャーニー（フロー） {#flow}
 
-Adobe Audience Manager セグメントデータは、ヒット単位でAnalyticsに渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。 Analysis Workspaceの[&#x200B; フロー](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を使用すると、訪問者がオーディエンス間で取るジャーニーを視覚化できます。
+Adobe Audience Manager セグメントデータは、ヒット単位でAnalyticsに渡され、その時点での訪問者のオーディエンスメンバーシップを表します。 これは、訪問者があるセグメント（例えば「認知」）に該当し、その後、より詳細なセグメント（例えば「検討」）の条件を満たす場合があることを意味します。 Analysis Workspaceの[&#x200B; フロー](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を使用すると、訪問者がオーディエンス間で取るジャーニーを視覚化できます。
 
 1. **[!UICONTROL Workspace]** に移動して、左パネルから「**[!UICONTROL フロー]**」ビジュアライゼーションを選択します。
 

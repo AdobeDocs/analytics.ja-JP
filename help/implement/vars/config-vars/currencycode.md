@@ -38,7 +38,7 @@ ht-degree: 96%
 * `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。 アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。 レポートスイートに保存される値はすべて、レポートスイートの通貨で表されます。
 * `currencyCode`が無効な値に設定されている場合、**ヒット全体が破棄され、データが失われます。** この変数が使用されるたびに正しく定義されていることを確認してください。
 
-この変数は、ヒット間で保持されません。 この変数が、売上高や通貨イベントを含むすべてのページで定義され、レポートスイートのデフォルト通貨と同じではないことを確認してください。
+この変数は、ヒット間で保持されません。 この変数が、売上高やレポートスイートのデフォルト通貨と異なる通貨イベントを含むすべてのページで定義されていることを確認してください。
 
 >[!NOTE]
 >
@@ -58,15 +58,15 @@ ht-degree: 96%
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。 カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## Adobe Experience Platform モバイル SDK の「通貨コード」
+## Adobe Experience Platform Mobile SDK における Currency Code
 
-Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
+Currency Code は、Adobe Analytics 拡張機能内のコンテキストデータ変数を通じて Adobe Experience Platform Mobile SDK に渡されます。
 
 1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
 1. Adobe Analytics 管理ツールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。

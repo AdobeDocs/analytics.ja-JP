@@ -1,5 +1,5 @@
 ---
-title: デジタルアシスタント向け Analytics
+title: デジタルアシスタント向け Analytics の実装
 description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
@@ -20,12 +20,12 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1286
 ht-degree: 73%
 
 ---
 
-# デジタルアシスタント向け Analytics
+# デジタルアシスタント向け Analytics の実装
 
 最近のクラウドコンピューティング、機械学習、自然言語処理の進化に伴い、デジタルアシスタントは日常生活の一部となっています。 消費者は自分のデバイスと会話し始め、デバイスが人間のような方法で理解し、対応することを期待しています。 プラットフォームが確立するにつれて、ブランドはこれらの現実的かつ本物のような方法で消費者にサービスを提供することができます。 例えば、消費者は次のように問い合わせることができます。
 
@@ -58,7 +58,7 @@ Adobe Analyticsを導入する最適な場所のひとつは、アプリです�
 
 ## 新規インストール
 
-一部のデジタルアシスタントでは、特に認証に関わる場合に、誰かがスキルをインストールすると通知を受け取ります。 「`a.InstallEvent=1`」コンテキストデータ変数を設定して Install イベントを送信することをお勧めします。 この機能を利用できないデジタルアシスタントもありますが、可能な場合はリテンションを確認するのに便利です。 次のコードのサンプルを使用すると、Install イベント、インストールの日、および AppID の値をコンテキストデータ変数に送信できます。
+一部のデジタルアシスタントでは、特に認証に関わる場合に、誰かがスキルをインストールすると通知を受け取ります。 「`a.InstallEvent=1`」コンテキストデータ変数を設定して Install イベントを送信することをお勧めします。 この機能を利用できないデジタルアシスタントもありますが、可能な場合はリテンションを確認するのに便利です。 次のコードサンプルでは、インストールイベント、インストール日、および AppID の値をコンテキストデータ変数に送信します。
 
 ```text
 GET
@@ -107,9 +107,9 @@ Cache-Control: no-cache
 
 **Google:**:「確かに、何時までにしますか？」
 
-**消費者：** &quot;8:30pm&quot;
+**消費者：** 「午後8時30分」
 
-**Google:** 「良さそうですね、運転手は8:30pmまでです」
+**Google:** 「良さそうですね、運転手は午後8時30分までです」
 
 セッションは、状況を把握し、デジタルアシスタントをより自然にするために、より詳細な情報を収集するのに役立ちます。 会話に Analytics を導入する場合は、新規セッションを開始する際にやることが 2 つあります。
 
@@ -128,7 +128,7 @@ Cache-Control: no-cache
 
 例えば、ユーザーが「Siri, Send John $20 for dinner last night from my banking app」と言った場合、その意図は&#x200B;*sendMoney*&#x200B;のようなものかもしれません。
 
-これらの各要求を eVar として送信することで、会話アプリの各目的に関するパスレポートを作成できます。 インテントがなくてもアプリがリクエストを処理できることを確認します。 変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
+これらの各リクエストを eVar として送信すしることで、会話アプリの各インテントに対するパスレポートを作成できます。 インテントがなくてもアプリがリクエストを処理できることを確認します。 変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -146,7 +146,7 @@ Cache-Control: no-cache
 
 ## パラメーター/スロット/エンティティ
 
-デジタルアシスタントは多くの場合、目的だけでなく、目的の詳細を示すキー／値ペアのセットも保持します。 これらはスロット、エンティティまたはパラメーターと呼ばれます。 以下に例を示します。「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」のパラメーターは次のようになります。
+デジタルアシスタントは多くの場合、インテントに加えて、そのインテントの詳細を示すキー／値ペアのセットも持ちます。 これらはスロット、エンティティまたはパラメーターと呼ばれます。 以下に例を示します。「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」のパラメーターは次のようになります。
 
 * 誰が=ジョン
 * 金額= 20
@@ -164,7 +164,7 @@ Cache-Control: no-cache
 
 デジタルアシスタントが、対処方法がわからない入力情報をアプリに送ることもあります。 以下に例を示します。「Siri、昨夜のディナー代として、ジョンにバンキングアプリから石炭 20 袋を送っておいて」
 
-この状況が発生した場合は、アプリに明確な説明を求めるように指示します。 さらに、発生したエラーのタイプを示す eVar と共に、アプリにエラー状態があることを示すデータをアドビに送信します。 入力情報に間違いがある場合のエラーと、アプリに問題が生じた場合のエラーを必ず含めます。
+この状況が発生した場合は、アプリにユーザーへ確認を求めさせます。 さらに、発生したエラーのタイプを示す eVar と共に、アプリにエラー状態があることを示すデータをアドビに送信します。 入力情報に間違いがある場合のエラーと、アプリに問題が生じた場合のエラーを必ず含めます。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
@@ -174,7 +174,7 @@ Cache-Control: no-cache
 
 ## デバイスの機能
 
-ほとんどのプラットフォームは、ユーザーが対話したデバイスを公開しませんが、デバイスの機能を公開します 例えば、オーディオ、スクリーン、ビデオなどです。この情報は、ユーザーとやり取りする際に使用できるコンテンツの種類を定義しているので、便利です。 デバイスの機能を測定する際は、それらをアルファベット順で連結する方法が最も効果的です。
+ほとんどのプラットフォームは、ユーザーが対話したデバイス自体は公開しませんが、そのデバイスの機能は公開されます。 例えば、オーディオ、スクリーン、ビデオなどです。この情報は、ユーザーとやり取りする際に使用できるコンテンツの種類を定義しているので、便利です。 デバイスの機能を測定する際は、それらをアルファベット順に連結するのが最も効果的です。
 
 例：`":Audio:Camera:Screen:Video:"`
 
@@ -191,6 +191,6 @@ Cache-Control: no-cache
 | Spoofify を起動して | 「了解、Spoofify を起動します」 | Play | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | 楽曲を変更して | 「了解、どの楽曲にしますか？」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | 「ベイビーシャーク」を再生して | 「了解、PinkFong の『ベイビーシャーク』を再生しています」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 再生リストを変更して | 「了解、どの再生リストにしますか？」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| お気に入りの曲の再生リストを再生して | 「了解、お気に入りの曲のプレイリストを再生中です」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 再生リストを変更して | 「わかりました。どのプレイリストにしますか？」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| お気に入りの曲のプレイリストを再生して | 「わかりました。お気に入りの曲のプレイリストを再生中です」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
 | 音楽を切って | 応答なし、音楽がオフ | Off | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |

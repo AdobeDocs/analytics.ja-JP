@@ -26,16 +26,16 @@ ht-degree: 41%
 
 # 実装方法の比較
 
-Adobe Analytics の各実装方法について、比較して説明します。 これらのテーブルを使用すると、組織がAdobeにデータを送信する最も理想的な方法を決定するのに役立ちます。 それぞれの列をクリックすると、詳細が表示されます。
+Adobe Analytics の各実装方法を相互に比較して確認できます。 これらのテーブルを使用すると、組織がAdobeにデータを送信する最も理想的な方法を決定するのに役立ちます。 それぞれの列をクリックすると、詳細が表示されます。
 
 ## Web
 
 | | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics 拡張機能](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK 拡張機能](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
 | 実装要件 | 各ページの`AppMeasurement.js`を参照し、変数を定義し、`s.t()`を使用してデータをAdobe Analyticsに送信します | 各ページでタグローダーを参照します。データ収集UIを使用して変数を定義し、Adobe Analyticsにデータを送信します | 各ページの`Alloy.js`を参照し、`alloy("sendEvent",{})`を使用してXDM オブジェクトを作成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信します | 各ページでタグローダーを参照し、Data Collection UIを使用してXDM オブジェクトを構成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信します |
-| データ宛先 | Adobe Analytics に直接送信 | Adobe Analytics に直接送信 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
+| データ宛先 | Adobe Analytics に直接送信 | Adobe Analytics に直接送信 | Adobe Experience Platform Edge に送信され、そこから Adobe Analytics にデータが転送されます。 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
 | 実装の調整が困難 | 実装の変更ごとに web サイトコードへのアクセスが必要 | Web サイトのコードを1回変更してローダータグをインストールします。それ以降のすべての実装の更新は、データ収集UIで行うことができます | 実装の変更ごとに web サイトコードへのアクセスが必要 | Web サイトのコードを1回変更してローダータグをインストールします。それ以降のすべての実装の更新は、データ収集UIで行うことができます |
-| A4T の処理方法 | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、別のヒットとして送信される | A4T 呼び出しは、別のヒットとして送信される |
+| A4T の処理方法 | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、アドビに送信されたヒットに含まれる | A4T 呼び出しは、別のヒットとして送信される | A4T 呼び出しは、別のヒットとして送信されます |
 | コンテキストデータ | `s.contextData`.を使用します。 | カスタムコードブロックで`s.contextData`を使用 | マッピングされていないすべてのフィールドは、自動的に`a.x.*`個のコンテキストデータ変数として送信されます。 | マッピングされていないすべてのフィールドは、自動的に`a.x.*`個のコンテキストデータ変数として送信されます。 |
 
 {style="table-layout:auto"}
@@ -50,9 +50,9 @@ Adobe Analytics の各実装方法について、比較して説明します。 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network API](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
 | 実装要件 | アプリでタグローダーを参照し、ダイレクト API呼び出しまたはData Collection UIのルールを使用してXDM オブジェクトを作成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信します | Edge Network APIを使用してXDM オブジェクトを作成し、Edge Networkを使用して目的のデータをAdobe Analyticsに送信します |
-| データ宛先 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
+| データ宛先 | Adobe Experience Platform Edge に送信され、そこから Adobe Analytics にデータが転送されます。 | Adobe Experience Platform Edge に送信し、それが Adobe Analytics にデータを転送 |
 | 実装の調整が困難 | 直接API呼び出しが行われるアプリコードの変更またはデータ収集UIの変更 | 実装が変更されるたびにアプリコードにアクセスする必要があります |
-| A4T の処理方法 | A4T 呼び出しは、別のヒットとして送信される | A4T 呼び出しは、別のヒットとして送信される |
+| A4T の処理方法 | A4T 呼び出しは、別のヒットとして送信されます | A4T 呼び出しは、別のヒットとして送信されます |
 | コンテキストデータ | マッピングされていないすべてのフィールドは、自動的に`a.x.*`個のコンテキストデータ変数として送信されます。 | マッピングされていないすべてのフィールドは、`a.x.*`個のコンテキストデータ変数として自動的に送信されます |
 
 {style="table-layout:auto"}

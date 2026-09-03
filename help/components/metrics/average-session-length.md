@@ -1,6 +1,6 @@
 ---
-title: 平均セッション時間（モバイル）
-description: モバイルデバイスの平均セッション長です。
+title: セッションの平均長さ（モバイル）
+description: モバイルデバイスにおけるセッションの平均長さです。
 feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 TQID: https://experienceleague.adobe.com/4TaQP7sH0pADpnwoQR-aqOpKqKvcuUXU1vmE3-ETOzM
@@ -20,7 +20,7 @@ ht-degree: 36%
 
 ---
 
-# 平均セッション時間（モバイル）
+# セッションの平均長さ（モバイル）
 
 「平均セッション長（モバイル）」 [指標](overview.md)は、ディメンション項目ごとに特定のディメンション項目が存在する平均時間を示します。 これは、[[!UICONTROL 訪問当たりの滞在時間（秒） &#x200B;]](time-spent-per-visit.md)指標と似ていますが、この指標では、計算の一部としてモバイル SDK固有のコンポーネントを使用します。
 

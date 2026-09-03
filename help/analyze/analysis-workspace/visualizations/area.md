@@ -19,8 +19,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 78%
+source-wordcount: 215
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 >[!ENDSHADEBOX]
 
-面グラフビジュアライゼーションには、標準および積み重ねオプションがあります。
+面グラフビジュアライゼーションには、標準表示と積み重ね表示のオプションがあります。
 
 ## 面グラフ {#area}
 
@@ -41,7 +41,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 >[!CONTEXTUALHELP]
 >id="workspace_area_button"
 >title="階層グラフ"
->abstract="複数の指標の積集合を表す、階層グラフのビジュアライゼーションを作成します。"
+>abstract="複数の指標の積集合を表す階層グラフのビジュアライゼーションを作成します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 >[!CONTEXTUALHELP]
 >id="workspace_areastacked_button"
 >title="積み重ね面グラフ"
->abstract="複数の指標の積み重ねを表す、階層グラフのビジュアライゼーションを作成します。"
+>abstract="複数の指標の積み重ねを表す階層グラフのビジュアライゼーションを作成します。"
 
 <!-- markdownlint-enable MD034 -->
 

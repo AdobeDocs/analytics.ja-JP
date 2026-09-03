@@ -1,6 +1,6 @@
 ---
-description: 管理者は、データ辞書の正常性を監視する責任があります。 これには、コンポーネントがデータを収集しているか、承認されているか、説明が含まれているか、重複がないかが含まれます。
-title: データ辞書の正常性の監視
+description: 管理者は、データ辞書の正常性をモニタリングする責任があります。 これには、コンポーネントがデータを収集しているか、承認されているか、説明が含まれているか、重複がないかが含まれます。
+title: データ辞書の正常性を監視
 feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
@@ -58,13 +58,13 @@ Analytics 管理者は、正常なデータ辞書を保持する責任があり�
 
 * 管理者によって承認されている
 
-## データ辞書の正常性の確認
+## データ辞書の正常性を確認
 
 データ辞書で正常性の問題を特定するには：
 
 1. Analysis Workspace プロジェクトを開きます。
 
-1. Analysis Workspace の左側にある「データ辞書」アイコンを選択します （データ辞書にアクセスする別の方法については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)の「データ辞書へのアクセス」を参照してください）。
+1. Analysis Workspace の左側にある「データ辞書」アイコンを選択します。 （データ辞書にアクセスする別の方法については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)の「データ辞書へのアクセス」を参照してください）。
 
    データ辞書ウィンドウが表示されます。
 

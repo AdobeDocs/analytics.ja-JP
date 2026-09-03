@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 387
 ht-degree: 6%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 6%
    ![&#x200B; スケジュール履歴](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    リスト内の特定のワークブックを検索するには、![検索](/help/assets/icons/Search.svg)を使用します。
-![ColumnSetting](/help/assets/icons/ColumnSetting.svg)を使用して、表示する列を定義します。
+   ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)を使用して、表示する列を定義します。
 
    「**[!UICONTROL 履歴]**」タブでは、スケジュールされた各タスクのステータスを確認できます。 スケジュールされた各タスクのステータスの変更を、別の行に文書化します。
 

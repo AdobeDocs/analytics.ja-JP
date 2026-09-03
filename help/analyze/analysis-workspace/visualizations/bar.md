@@ -19,8 +19,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 76%
+source-wordcount: 222
+ht-degree: 77%
 
 ---
 
@@ -32,7 +32,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 >[!ENDSHADEBOX]
 
-棒グラフビジュアライゼーションには、標準と積み重ね棒グラフのオプションがあります。
+棒グラフビジュアライゼーションには、標準と積み重ねのオプションがあります。
 
 ## 棒グラフ {#bar}
 

@@ -28,12 +28,12 @@ ht-degree: 88%
 
 * 権限
 
-   * [Adobe Analytics の製品プロファイル](/help/admin/admin-console/permissions/product-profile.md)
-   * [レポートスイートツールの製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Analytics ツールの製品プロファイル権限](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Adobe Analytics の製品プロファイル](/help/admin/admin-console/permissions/product-profile.md)
+  * [レポートスイートツールの製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Analytics ツールの製品プロファイル権限](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Adobe Analytics での管理者の追加
 
 Adobe Analytics での管理者の追加方法を説明する次のビデオデモをご覧ください。
 
-[Adobe Analytics での管理者の追加](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Adobe Analytics で管理者を追加する](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

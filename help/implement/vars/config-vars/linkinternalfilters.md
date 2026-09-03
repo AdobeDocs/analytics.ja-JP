@@ -29,7 +29,7 @@ ht-degree: 100%
 
 AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。 [`trackExternalLinks`](trackexternallinks.md)（AppMeasurement）または [`clickCollectionEnabled`](trackdownloadlinks.md)（Web SDK）が有効になっている場合、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。 [`linkExternalFilters`](linkexternalfilters.md) 変数と `linkInternalFilters` 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動トラッキングはブロックリストのように動作します。 リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは離脱リンクと見なされます。 この変数に対して URL 全体が調べられます。 [`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリ文字列も調べられます。
+この変数に値が含まれる場合、離脱リンクの自動トラッキングはブロックリストとして機能します。 リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは離脱リンクと見なされます。 この変数に対して URL 全体が調べられます。 [`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリ文字列も調べられます。
 
 `linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが離脱リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。 クリックされたリンクが離脱リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
@@ -45,16 +45,16 @@ Activity Map では、この変数を使用して、サイト内部のリンク�
 
 詳しくは、Web SDK ドキュメントの[自動リンクトラッキング](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=ja#automaticLinkTracking)を参照してください。
 
-## Adobe Analytics 拡張機能を使用したアウトバウンドリンク - 追跡しない
+## 外部リンク - Adobe Analytics 拡張機能を使用して追跡しない
 
 「追跡しない」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のタグプロパティをクリックします。
+2. 対象のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンク - 追跡しない]」フィールドが表示されます。
 
-離脱リンクとして追跡しないフィルターをこのフィールドに配置します。 複数のドメインは、スペースなしのコンマで区切ります。
+離脱リンクとして追跡しないフィルターをこのフィールドに入力します。 複数のドメインは、スペースなしのコンマで区切ります。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.linkInternalFilters
 

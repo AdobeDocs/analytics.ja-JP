@@ -52,7 +52,7 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 
 >[!NOTE]
 >
->Adobe Campaign（Classic と Standard）の動作は、8 時間の遅延に加えて 24 時間の遅延が発生する点が異なります。
+>Adobe Campaign（Classic と Standard）の動作は、8 時間の遅延に加えてさらに 24 時間の遅延が発生する点が異なります。
 
 ## 前提条件
 
@@ -62,7 +62,7 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 
 ## 注意点
 
-* **レポートスイートの制限**：レポートスイートごとに最大 75 個のセグメントを公開できます。 この制限は適用されます。 既に 75 個のセグメントが公開されている場合、公開を取り消してセグメント数が 75 個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
+* **レポートスイートの制限**：レポートスイートごとに最大 75 個のセグメントを公開できます。 この制限は適用されます。 既に 75 個のセグメントが公開されている場合、公開を取り消してセグメント数がしきい値である 75 個を下回るまで、追加のセグメントを公開することはできません。
 * **メンバーシップ制限**: Adobe AnalyticsからCX Enterpriseに共有されるオーディエンスは、2,000万人を超えることはできません。
 * **データプライバシー**：オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。 訪問者は、未認証の状態や認証された状態でサイトを閲覧できる可能性があります。 訪問者が未認証の場合に発生するアクションは、引き続き訪問者をオーディエンスに含めることができます。 [Adobe CX Enterprise privacy](https://www.adobe.com/jp/privacy/experience-cloud.html)を確認して、オーディエンス共有のプライバシーへの影響を完全に理解します。
 * [!DNL Adobe Analytics]とAudience Manager **のセグメント間の**&#x200B;相違点については、[AnalyticsとAudience Managerのセグメントの理解](/help/integrate/c-audience-analytics/aam-analytics-segments.md)を参照してください。
@@ -84,16 +84,16 @@ Adobe Analyticsのセグメントは、8時間以内にCX Enterpriseに公開で
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
    ![CX Enterpriseを公開](assets/publish-ec.png)
 1. セグメントのタイトルと説明を入力します。 セグメントを保存する前に、これらのフィールドが必須です。
-1. 「**[!UICONTROL Experience Cloud公開]**」セクションで、「**[!UICONTROL このセグメントをExperience Cloudに公開する」（*レポートスイート*の場合）]** オプションを選択します。
+1. 「**[!UICONTROL Experience Cloud パブリッシング]**」セクションで、「**[!UICONTROL このセグメントをExperience Cloudに公開する」（*レポートスイート*の場合）]** オプションを選択します。
 
    >[!IMPORTANT]
    >
-   >Adobe Analyticsの数値とAudience Managerの数値を比較する場合は、**[!UICONTROL 一意の訪問者]**&#x200B;ではなく、**[!UICONTROL データプレビュー]**&#x200B;で&#x200B;**[!UICONTROL Experience Cloud IDを持つ訪問者を必ず監視してください。]**
+   >Adobe Analyticsの数値とAudience Managerの数値を比較する場合は、**[!UICONTROL ユニーク訪問者]**&#x200B;ではなく、**[!UICONTROL データプレビュー]**&#x200B;で&#x200B;**[!UICONTROL Experience Cloud IDを持つ訪問者]**&#x200B;を監視してください。
    >
 
 | 要素 | 説明 |
 |---|---|
-| **[!UICONTROL このセグメントをExperience Cloudに公開します（*レポートスイート*の場合）]** | このオプションを有効にすると、セグメントのタイトルと定義がCX Enterpriseと瞬時に共有され、セグメントのメンバーシップが4時間ごとに評価され、共有されます。<br> 例えば、[!DNL Analytics]は、そのオーディエンスがTargetのアクティビティに関連付けられている場合、そのCX EnterpriseおよびTarget オーディエンスに適格な訪問者のIDの送信を開始します。 この時点で、CX Enterpriseの[!DNL Audience Library] ページにオーディエンス名と対応するデータが表示され始めます。</br> |
+| **[!UICONTROL このセグメントをExperience Cloudに公開します（*レポートスイート*用）]** | このオプションを有効にすると、セグメントのタイトルと定義がCX Enterpriseと瞬時に共有され、セグメントのメンバーシップが4時間ごとに評価され、共有されます。<br> 例えば、[!DNL Analytics]は、そのオーディエンスがTargetのアクティビティに関連付けられている場合、そのCX EnterpriseおよびTarget オーディエンスに適格な訪問者のIDの送信を開始します。 この時点で、CX Enterpriseの[!DNL Audience Library] ページにオーディエンス名と対応するデータが表示され始めます。</br> |
 | **[!UICONTROL オーディエンス作成期間]** | 選択した時間枠は、ローリングカレンダー単位でオーディエンスを作成するために使用されます。 例えば、**[!UICONTROL 過去30日間]** （デフォルト）には、今日の日付から過去30日間にオーディエンスに選定された訪問者が含まれます（セグメントが作成された当初の日付からではありません）。 |
 | **[!UICONTROL オーディエンスライブラリに作成]** | 作成して公開するセグメントは、CX Enterpriseの[!DNL Audience Library] ページで遅延なく利用できます。 Analytics の更新には依存しません。 これらのセグメントは、公開済みの 75 個のセグメントの制限に対してはカウントされません。 |
 | **[!UICONTROL x / 75 個公開済み]** | CX Enterpriseに公開したセグメントの数。 リンクをクリックすると、公開済みのセグメントと、関連するレポートスイートおよび所有者のリストが表示されます。 |
@@ -161,12 +161,12 @@ Adobe Audience Managerでは、AnalyticsがCX Enterpriseとセグメントを共
 
      ![Audience Manager の特性](assets/aam-traits.png)
 
-   * 1 つの特性セグメントが作成されます。 セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
+   * 1 つの特性から成るセグメントが作成されます。 そのセグメントは、セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
    * 特性の有効期限が 16 日に設定されました（以前は 2 日でした）。
 
 ## セグメントを [!DNL Adobe Target] で表示する
 
-**[!UICONTROL このセグメントをExperience Cloud]**&#x200B;に公開すると、セグメントをAdobe Targetのカスタムオーディエンスライブラリ内で利用できるようになります。 Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。 例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。
+**[!UICONTROL このセグメントをExperience Cloudに公開]**&#x200B;すると、セグメントをAdobe Targetのカスタムオーディエンスライブラリ内で利用できるようになります。 Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。 例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。
 
 Adobe Targetで：
 

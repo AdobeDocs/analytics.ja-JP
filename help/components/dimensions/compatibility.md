@@ -86,7 +86,7 @@ ht-degree: 54%
 | [&#x200B; モバイル画面の幅](mobile-dimensions.md) | `mobilescreenwidth` |
 | [&#x200B; モバイル最大ブラウザーURL長](mobile-dimensions.md) | `mobileurllength` |
 | [&#x200B; モバイルビデオのサポート &#x200B;](mobile-dimensions.md) | `mobilevideosupport` |
-| [画面の解像度](monitor-resolution.md) | `monitorresolution` |
+| [モニターの解像度](monitor-resolution.md) | `monitorresolution` |
 | [オペレーティングシステム](operating-systems.md) | `operatingsystem` |
 | [元の参照ドメイン &#x200B;](original-referring-domain.md) | `referringdomainoriginal` |
 | [ページ](page.md) | `page` |
@@ -243,9 +243,9 @@ Adobe Socialは引退しました。
 | 所有投稿 ID | `socialownedpostids` |
 | 所有ソーシャル定義 | `socialinteractiontype` |
 | 所有プロパティ ID | `socialownedpropertyid` |
-| 所有プロパティとアプリケーション | `socialownedpropertypropertyvsapp` |
+| 所有プロパティ対アプリケーション | `socialownedpropertypropertyvsapp` |
 | 所有プロパティ名 | `socialownedpropertyname` |
-| 所有定義プロパティと投稿 | `socialowneddefinitionpropertyvspost` |
+| 所有定義プロパティ対投稿 | `socialowneddefinitionpropertyvspost` |
 | 所有定義インサイトの種類 | `socialowneddefinitioninsighttype` |
 | 所有定義インサイト値 | `socialowneddefinitioninsightvalue` |
 | 所有定義指標 | `socialowneddefinitionmetric` |
@@ -308,24 +308,24 @@ Adobe Socialは引退しました。
 
 この統合を実装する方法について詳しくは、Adobe Exchangeの[Nielsen拡張機能](https://exchange.adobe.com/apps/ec/101361)を参照してください。
 
-| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
+| ディメンション名（Analytics UI に表示） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | Nielsen 広告モデル | `nielsenadmodel` |
 | Nielsen セグメント C | `nielsensegmentc` |
 | Nielsen セグメント B | `nielsensegmentb` |
 | Nielsen セグメント A | `nielsensegmenta` |
 | Nielsen コンテンツ ID | `nielsencontentid` |
-| Nielsen Asset / Program | `nielsenasset` |
+| Nielsen Asset / プログラム | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
 | Nielsen オプトアウト | `nielsenoptout` |
 | Nielsen クライアント ID + VCID | `nielsenclientidvcid` |
 | Nielsen クライアント ID | `nielsenclientid` |
 | 入口 Nielsen オプトアウト | `entrynielsenoptout` |
-| 出口 Nielsen オプトアウト | `exitnielsenoptout` |
-| 入口 Nielsen クライアント ID + VCID | `entrynielsenclientidvcid` |
-| 出口 Nielsen クライアント ID + VCID | `exitnielsenclientidvcid` |
-| 入口 Nielsen クライアント ID | `entrynielsenclientid` |
-| 出口 Nielsen クライアント ID | `exitnielsenclientid` |
+| Nielsen オプトアウトの離脱 | `exitnielsenoptout` |
+| Nielsen クライアント ID + VCID のエントリ | `entrynielsenclientidvcid` |
+| Nielsen クライアント ID + VCID の離脱 | `exitnielsenclientidvcid` |
+| Nielsen クライアント ID のエントリ | `entrynielsenclientid` |
+| Nielsen クライアント ID の離脱 | `exitnielsenclientid` |
 
 ### Adobe Experience Manager（AEM）
 

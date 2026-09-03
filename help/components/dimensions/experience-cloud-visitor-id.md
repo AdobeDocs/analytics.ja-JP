@@ -21,7 +21,7 @@ ht-degree: 21%
 
 ---
 
-# Experience Cloud の訪問者 ID
+# Experience Cloud 訪問者 ID
 
 「Experience Cloud訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
 

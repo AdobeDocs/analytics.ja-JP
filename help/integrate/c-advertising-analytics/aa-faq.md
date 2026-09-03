@@ -23,7 +23,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 10%
 
 ---
@@ -162,7 +162,7 @@ AMO IDは、そのページのヒットのランディングページ（訪問/�
 
 +++ google.comまたは&#x200B;*国のバージョン* （google.co.uk、google.it、google.fr、google.deなど）のみをキャプチャしますか？ 
 
-Ad Platform分類は、「Google Adwords」および「Bing Ads」という値をキャプチャします。 一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。 これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。
+Ad Platform分類は、「Google Adwords」および「Bing Ads」という値をキャプチャします。 一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。 これにより、フィルターを適用したりセグメント化したりできます（例：すべてのキャンペーンが countrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のみのデータが得られます）。
 
 +++
 

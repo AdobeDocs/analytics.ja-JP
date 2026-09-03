@@ -55,7 +55,7 @@ Adobe Analyticsを使用すると、同意に基づくトラフィックの量�
 
 このタイプのレポートを設定するには、処理ルールを使用して、新しいコンテキスト変数をカスタムトラフィック変数（prop）にマッピングします。 これを行うには
 
-1. （前述のように）「cm.ssf」変数を実装します。
+1. 前述のとおり、「cm.ssf」変数を実装します。
 1. [propを有効にします。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
 1. 処理ルールを使用して、コンテキスト変数を prop にマッピングします。
 

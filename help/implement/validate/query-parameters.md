@@ -44,20 +44,20 @@ ht-degree: 46%
 | `AQE` | なし | イメージリクエストの終了を示します。これは、リクエストが切り捨てられていないことを表しています。 |
 | `bh` | なし | ブラウザーの高さ（ピクセル単位）。 「[[!UICONTROL ブラウザーの高さ]](/help/components/dimensions/browser-height.md)」ディメンションで使用されます。 |
 | `bw` | なし | ブラウザーの幅（ピクセル単位）。 「[[!UICONTROL ブラウザーの幅]](/help/components/dimensions/browser-width.md)」ディメンションで使用されます。 |
-| `c` | なし | カラー画像画質（ビット単位）。 「[[!UICONTROL 色深度]](/help/components/dimensions/color-depth.md)」ディメンションで使用されます。 |
+| `c` | なし | カラー品質（ビット単位）。 「[[!UICONTROL 色深度]](/help/components/dimensions/color-depth.md)」ディメンションで使用されます。 |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | コンテキストデータ変数の開始を示します。 値を含みません。 |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | コンテキストデータ変数の終了を示します。 値を含みません。 |
 | `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [prop](/help/components/dimensions/prop.md)、またはカスタムトラフィック変数。 |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | ヒットで使用される通貨の種類。 |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/configuration-variables.md#retired-configuration-variables) | **使用されていません。** ドメイン内のピリオドの数。 |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | イメージリクエストの文字エンコーディング。 |
-| `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | 訪問者 Cookie の存続期間。 |
+| `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | 訪問者 Cookie の有効期間。 |
 | `ch` | [`channel`](../vars/page-vars/channel.md) | 「[[!UICONTROL サイトセクション]](/help/components/dimensions/site-section.md)」ディメンションで使用されます。 |
 | `cp` | [`customerPerspective`](../vars/page-vars/customerperspective.md) | アプリが前景または背景にあるときにモバイルアプリのヒットが発生したかどうかを指定します。 [[!UICONTROL &#x200B; ヒットタイプ &#x200B;]](/help/components/dimensions/hit-type.md) ディメンションで使用されます。 |
 | `ct` | なし | [[!UICONTROL 接続タイプ &#x200B;]](/help/components/dimensions/connection-type.md) ディメンションで使用されます。 |
 | `D` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) | 動的変数に使用する内容を示します。 |
 | `ev` | [`events`](../vars/page-vars/events/events-overview.md) | `events` パラメーターの短縮形。 |
-| `events` | [`events`](../vars/page-vars/events/events-overview.md) | ページ上のイベントのコンマ区切りリスト。 ほとんどの[指標](/help/components/metrics/overview.md)で使用されます。 |
+| `events` | [`events`](../vars/page-vars/events/events-overview.md) | ページ上のイベントのカンマ区切りリスト。 ほとんどの[指標](/help/components/metrics/overview.md)で使用されます。 |
 | `g` | [`pageURL`](../vars/page-vars/pageurl.md) | ページの現在の URL（最大 255 バイト）。 [[!UICONTROL ページ URL]](/help/components/dimensions/page-url.md) ディメンションで使用されます。 |
 | `-g` | [`pageURL`](../vars/page-vars/pageurl.md) | 255 バイトを超える URL は分割されます。 最初の 255 バイトが `g` パラメーターに、残りのすべてのバイトが `-g` パラメーターに表示されます。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` パラメーターの短縮形。 |

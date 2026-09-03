@@ -1,6 +1,6 @@
 ---
 description: Report Builderのローリング日付のフィールド定義。
-title: リクエストウィザードの定義 - 相対日付
+title: リクエストウィザードの定義 - ローリング日付
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
 role: User, Admin
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 ---
 
-# リクエストウィザードの定義 - 相対日付
+# リクエストウィザードの定義 - ローリング日付
 
 {{legacy-arb}}
 

@@ -31,7 +31,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分類セット優先度"
->abstract="![キー](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg)*分類セット*&#x200B;は基本分類セットで、スキーマ全体を定義します。結合の競合が発生した場合は、このセットが優先されます。 その他の分類セットは、上から順に適用されます。"
+>abstract="![キー](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg)*分類セット*&#x200B;は基本分類セットで、スキーマ全体を定義します。結合の競合が発生した場合は、このセットが優先されます。 その他の分類セットは、上位から下位へ順序どおりに適用されます。"
 
 
 分類の統合を作成するには、メインのAdobe Analytics インターフェイスで次の操作を行います。
@@ -44,7 +44,7 @@ ht-degree: 13%
    ![分類セット – 新しい統合](assets/classifications-sets-consolidations-new.png)
    1. **[!UICONTROL 名前]**&#x200B;を入力します。 例：`Consolidation Example`。
    1. **[!UICONTROL 説明（オプション）]**&#x200B;を入力します。 例：`Example classification set`。
-   1. 「**[!UICONTROL 問題を通知]**」に 1 つ以上のメールアドレス（コンマ区切り）を入力します。 問題に関するメール通知がこれらのユーザーに送信されます。
+   1. 「**[!UICONTROL 問題を通知]**」に 1 つ以上のメールアドレス（コンマ区切り）を入力します。 問題に関するメールがこれらのユーザーに送信されます。
    1. 「**[!UICONTROL 分類セットの一致先]**」ドロップダウンメニューから分類セットを選択します。
 
       左の&#x200B;**[!UICONTROL Source分類セット]**&#x200B;のリストには、選択した分類リストに類似した分類セットが入力され、統合に使用できます。 右側のリストには、選択した![&#x200B; キー](/help/assets/icons/Key.svg)分類セットが自動的に入力されます。 このベースセットはスキーマ全体を定義し、結合の競合では常に優先されます。
@@ -72,12 +72,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="不一致"
->abstract="統合された分類セット内の値がソース分類セットと一致しない場合のキーの不一致の割合。"
+>abstract="統合された分類セット内の値がソース分類セットと一致しない場合のキーの不一致の割合です。"
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="不在"
->abstract="統合された分類セット内には含まれるが、ソースの分類セットには含まれないキーの割合。"
+>abstract="統合された分類セット内には含まれるが、ソース分類セットには含まれないキーの割合です。"
 
 分類の統合を編集するには、メインのAdobe Analytics インターフェイスで次の操作を行います。
 

@@ -1,5 +1,5 @@
 ---
-description: eコマース web サイトの共通設定を定義します。
+description: e コマース web サイトの共通設定を定義します。
 title: コマース
 feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
@@ -24,7 +24,7 @@ ht-degree: 69%
 
 # コマース
 
-eコマース web サイトの共通設定を定義します。
+e コマース web サイトの共通設定を定義します。
 
 | コンバージョン変数 | タイプ | 下位関係 | 配分 | 有効期限 | `s_code` 変数 |
 |---|---|---|---|---|---|

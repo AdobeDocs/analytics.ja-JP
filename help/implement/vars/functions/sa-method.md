@@ -1,6 +1,6 @@
 ---
 title: sa
-description: いつでも実装のレポートスイートを変更できます。
+description: 実装内で、いつでもレポートスイートを変更できます。
 feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
@@ -65,7 +65,7 @@ alloy("configure", {
 
 ## Adobe Analytics拡張機能を使用したレポートスイートの変更
 
-インターフェイス内のレポートスイートを柔軟に変更する方法はありません。 Adobe Analytics 拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンの下でレポートスイートを設定できます。 ただし、ルールを使用してレポートスイートを変更または更新することはできません。 設定後にレポートスイートの値を更新する場合は、AppMeasurement 構文に従ってカスタムコードエディターを使用します。
+インターフェイス内のレポートスイートを柔軟に変更する方法はありません。 Adobe Analytics 拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンの下でレポートスイートを設定できます。 ただし、ルールを使用してレポートスイートを変更または更新することはできません。 レポートスイートの値が設定された後に更新する場合は、AppMeasurement 構文に従ってカスタムコードエディターを使用します。
 
 ## AppMeasurementのs.sa （）とAnalytics拡張機能のカスタムコードエディター
 

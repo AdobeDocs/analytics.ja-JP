@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
+>abstract="ユーザーが一連のタッチポイントをどのように通過するか、またはフォールアウトするかを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
+>abstract="ユーザーが一連のタッチポイントをどのように通過するか、またはフォールアウトするかを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -103,7 +103,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 #### フォールスルー
 
-* ジャーニを完了した（終了ノードに到着した）人物の数と割合
+* ジャーニーを完了した（終了ノードに到着した）人物の数と割合
 
 * ジャーニーの特定のノードに到達した人物の数と割合
 
@@ -117,7 +117,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 * ジャーニーの任意のノードに分類ディメンションを追加して、その特定のノードの追加データを表示します
 
-## ジャーニーキャンバス、フォールアウト、フローのいずれかのビジュアライゼーションの選択
+## ジャーニーキャンバス、フォールアウト、フローのいずれかのビジュアライゼーションを選択します
 
 ジャーニーキャンバスビジュアライゼーションは、[フォールアウトビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)や[フロービジュアライゼーション](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)と似ていますが、重要な違いがあります。
 
@@ -135,7 +135,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 * 事前定義済みのページのシーケンスを使用した、複数のエントリポイントとパスを持つ非線形ジャーニー。
 
-* 事前定義済みのジャーニーに基づく探索的、Ad Hoc Analysis。
+* 事前定義済みのジャーニーに基づく探索的なアドホック分析。
 
 * セッション、ユーザー、発生件数以外のプライマリ指標を必要とする分析。
 

@@ -1,6 +1,6 @@
 ---
 title: 平日／週末
-description: ヒットが平日または週末のどちらで発生したかを指定します。
+description: ヒットが平日（月曜～金曜）と週末（土曜～日曜）のどちらに発生したかを判別します。
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
 TQID: https://experienceleague.adobe.com/9TJv-49ub1zHsgEGtBeoJVoHhsBktlOr7QhmgLdLRSo

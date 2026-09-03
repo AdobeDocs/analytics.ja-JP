@@ -54,7 +54,7 @@ ht-degree: 89%
 
 ## Analytics オブジェクトの参照
 
-アドビに送信されるすべての変数は、Analytics オブジェクトを使用します。 ほとんどの実装では、`s` オブジェクトが使用されます。 参照に Analytics オブジェクトを含む変数を参照する場合は、必ず変数を参照してください。
+アドビに送信されるすべての変数は、Analytics オブジェクトを使用します。 ほとんどの実装では、`s` オブジェクトが使用されます。 変数を参照する際は、参照内に必ず Analytics オブジェクトを含めてください。
 
 例えば、`s.eVar1 = 'Value'` は有効ですが、`eVar1 = 'Value'` は無効です。
 
@@ -107,9 +107,9 @@ s.pageName = "        Home Page";
 * **処理ルールの使用**：[処理ルール](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)では、変数間で値をコピーできます。 この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。 次に例を示します。
 
   常に実行：<br>
-prop1の値をeVar1で上書き<br>
-EVar1でeVar2の値を上書き<br>
-prop2の値をeVar1<br>で上書き
+  prop1の値をeVar1で上書き<br>
+  EVar1でeVar2の値を上書き<br>
+  prop2の値をeVar1<br>で上書き
 
   次に、実装に eVar1 を設定します。
 

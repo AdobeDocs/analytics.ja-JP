@@ -1,5 +1,5 @@
 ---
-description: Advertising Analytics ワークフローの概要
+description: Advertising Analytics ワークフローの概要。
 title: ワークフローの概要
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 136
+source-wordcount: 137
 ht-degree: 42%
 
 ---
@@ -34,4 +34,4 @@ Advertising Analyticsの設定ワークフローは、次の手順で構成さ�
 1. [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 対応レポートスイートの [!UICONTROL Advertising Analytics] レポートを有効にします。
 2. [Advertising Analytics アカウントの設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Analytics 管理ツールで設定します。
 3. [Analytics での広告データのレポート](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). 検索データは、Adobe Analytics データセンターのタイムゾーンの午前6時頃（06:00）に検索エンジンから取得されます。 Adobe Advertising データが収集され、レポートスイートに挿入されます。 データをAnalyticsに挿入する一環としてレポートスイートのタイムゾーンに変換されます。 レポートは、Analysis Workspace（有料検索パフォーマンステンプレート）、Report Builder、およびAnalytics レポート APIで使用できます。
-4. [広告アカウントの管理](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). アカウントの状態をチェックして、アカウントを編集／一時停止できます。
+4. [広告アカウントの管理](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). アカウントのステータスを確認し、アカウントを編集／一時停止できます。

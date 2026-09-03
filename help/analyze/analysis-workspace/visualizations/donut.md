@@ -17,8 +17,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 61%
+source-wordcount: 161
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="workspace_donut_button"
 >title="ドーナツ"
->abstract="合計の割合を比較する場合は一般的に、項目数が少ないドーナツのビジュアライゼーションを使用します。"
+>abstract="合計に対する割合を比較するために、特に項目数が少ない場合に適したドーナツビジュアライゼーションを作成します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -41,7 +41,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 >[!ENDSHADEBOX]
 
 
-![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL ドーナツ]**&#x200B;ビジュアライゼーションは、円グラフと同様に、データを全体の一部またはフィルターとして表示します。 合計の割合を比較するとき、一般的に、項目数が少ない場合はドーナツビジュアライゼーションを使用します。
+![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL ドーナツ]**&#x200B;ビジュアライゼーションは、円グラフと同様に、データを全体の一部またはフィルターとして表示します。 合計に対する割合を比較する場合、特に項目数が少ないときには、ドーナツビジュアライゼーションが適しています。
 
 ![データを全体の一部またはフィルターとして表示するドーナツグラフ。](assets/donut.png)
 

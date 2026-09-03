@@ -43,7 +43,7 @@ ht-degree: 75%
 | --- | --- |
 | `xdm.application.isClose` | モバイルライフサイクル指標である[クラッシュ回数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)の定義に役立ちます。 |
 | `xdm.application.isInstall` | モバイルライフサイクル指標である[初回起動数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)を増やすタイミングを判断するのに役立ちます。 |
-| `xdm.application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。 有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。 モバイルライフサイクル指標である[クラッシュ回数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
+| `xdm.application.closeType` | クローズイベントがクラッシュであるかどうかを判断します。 有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。 モバイルライフサイクル指標である[クラッシュ回数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
 | `xdm.application.isInstall` | モバイルライフサイクル指標である[インストール数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | モバイルライフサイクル指標である[起動回数](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.name` | モバイルライフサイクルディメンションである[アプリ ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/) の設定に役立ちます。 |
@@ -68,9 +68,9 @@ ht-degree: 75%
 | `xdm.commerce.purchases.value` | 「[注文件数](/help/components/metrics/orders.md)」指標を増分します。 |
 | `xdm.device.model` | モバイルライフサイクルディメンションである[デバイス名](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.device.colorDepth` | 「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの設定に役立ちます。 |
-| `xdm.device.screenHeight` | 「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
-| `xdm.device.screenWidth` | 「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
-| `xdm.device.type` | モバイルデバイスのタイプ。 |
+| `xdm.device.screenHeight` | 「[モニターの解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
+| `xdm.device.screenWidth` | 「[モニターの解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
+| `xdm.device.type` | モバイルデバイスタイプ。 |
 | `xdm.environment.browserDetails.acceptLanguage` | [言語](/help/components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.browserDetails.cookiesEnabled` | [cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションを設定します。 有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
 | `xdm.environment.browserDetails.javaEnabled` | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションを設定します。 有効な値は `Y` (Java が有効) と `N` (Java が無効) です。 |
@@ -86,7 +86,7 @@ ht-degree: 75%
 | `xdm.environment.operatingSystemVersion` | モバイルライフサイクルディメンションである[オペレーティングシステムのバージョン](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)の設定に役立ちます。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれの [eVar](/help/components/dimensions/evar.md) ディメンションを設定します。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | それぞれの[階層](/help/components/dimensions/overview.md#retired-dimensions)ディメンションを設定します。 |
-| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | リスト prop の区切り文字の上書き。 区切り文字はレポートスイート設定の[トラフィック変数管理](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)から自動的に取得されるので、このフィールドの使用はお勧めしません。 このフィールドを使用すると、使用される区切り文字と Analytics が想定する区切り文字との間に不一致が発生する可能性があります。 |
+| `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | リスト prop の区切りの上書き。 区切り文字はレポートスイート設定の[トラフィック変数管理](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)から自動的に取得されるので、このフィールドの使用はお勧めしません。 このフィールドを使用すると、使用される区切りと Analytics が想定する区切りとの間に不一致が発生する可能性があります。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの[リスト prop](../vars/page-vars/prop.md#list-props) 値を含んだ文字列配列。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | それぞれの `value` 配列内のすべての `list[]` 文字列をそれぞれの[リスト変数](../vars/page-vars/list.md)に連結します。 区切り文字は、[レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で設定された値に基づいて自動的に選択されます。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれの [prop](/help/components/dimensions/prop.md) ディメンションを設定します。 |

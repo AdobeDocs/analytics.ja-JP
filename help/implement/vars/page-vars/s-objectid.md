@@ -1,6 +1,6 @@
 ---
 title: s_objectID
-description: Activity Map で、サイト上の一意のリンクを識別します。
+description: Activity Map がサイト上の一意のリンクを識別できるようにします。
 feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
@@ -66,9 +66,9 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 リンクが指す場所や、これらのリンクを変更する頻度に関係なく、Activity Map は、`s_objectID` の値に基づいてデータを集計します。
 
-### ページ上でリンクを別々に維持する
+### ページ上でリンクを区別する
 
-一部のサイトには、異なる場所の同じ場所を指すリンクがあります。 例えば、サイトのヘッダーとフッターの両方にあるホームページへのリンクを指定します。 これらのリンクは同じ URL なので、Activity Map はそのデータを集計します。 `s_objectID` 変数を使用して区切ることができます。
+一部のサイトでは、異なる場所に同じ場所を指すリンクが配置されています。 例えば、サイトのヘッダーとフッターの両方に配置されたホームページへのリンクなどがあります。 これらのリンクは同じ URL なので、Activity Map はそのデータを集計します。 `s_objectID` 変数を使用して区切ることができます。
 
 ```HTML
 <a href="index.html" onClick="s_objectID='Header home link';">Example link in Header</a>

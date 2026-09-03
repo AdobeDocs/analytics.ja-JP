@@ -37,7 +37,7 @@ ht-degree: 53%
 
 ## サービスの要件
 
-サーバー側転送には、[ID サービス](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が必要です。 Identity Serviceは、CX Enterpriseのあらゆるソリューションをまたいでサイト訪問者を識別するユニバーサル IDを提供します。 サーバー側転送が動作するためには、事前に ID サービスを実装する必要があります。
+サーバー側転送には、[ID サービス](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が必要です。 Identity Serviceは、CX Enterpriseのあらゆるソリューションをまたいでサイト訪問者を識別するユニバーサル IDを提供します。 サーバーサイド転送が動作するためには、事前に ID サービスを実装する必要があります。
 
 ## コードバージョン
 
@@ -47,7 +47,7 @@ ht-degree: 53%
 * `AppMeasurement_Module_AudienceManagement.js`
 * `VistorAPI.js`
 
-### コードライブラリバージョンの確認
+### コードライブラリのバージョンの確認
 
 AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。 `AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。 `AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
 

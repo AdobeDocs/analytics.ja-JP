@@ -30,7 +30,7 @@ ht-degree: 100%
 
 # 既知の制限事項
 
-次に、Analysis Workspace とその関連コンポーネントに関する既知の制限を示します。
+Analysis Workspace とその関連コンポーネントに関する既知の制限事項のリストです。
 
 ## テーブル
 

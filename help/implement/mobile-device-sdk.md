@@ -26,7 +26,7 @@ ht-degree: 45%
 
 ---
 
-# モバイルデバイス用 Analytics の実装
+# モバイルデバイス向け Adobe Analytics の実装
 
 モバイルデバイス用のAnalyticsを実装するには、Adobe Experience Platform Mobile SDKを使用します。
 

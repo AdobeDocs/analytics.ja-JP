@@ -28,7 +28,7 @@ ht-degree: 9%
 
 # 貢献度分析の実行
 
-[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。 目的は、ユーザーが重点領域や追加分析の機会をより迅速に見つけられるように支援することです。
+[貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。 目的は、ユーザーが焦点となる領域や追加の分析の機会を、通常よりもはるかに迅速に見つけられるよう支援することです。
 
 >[!NOTE]
 >

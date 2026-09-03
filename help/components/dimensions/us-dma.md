@@ -33,7 +33,7 @@ ht-degree: 65%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。 ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。 AdobeはNielsenと提携し、IP アドレスとDMAの間のルックアップを管理します。
+このディメンションは、Adobe 内部のルックアップルールを参照します。 ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。 AdobeはNielsenと提携して、IP アドレスとDMA間のルックアップを管理します。
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
 * Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。

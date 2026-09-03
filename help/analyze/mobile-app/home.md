@@ -32,13 +32,13 @@ ht-degree: 100%
 
 Adobe Analytics [!UICONTROL ダッシュボード]について詳しくは、次のリソースを参照してください。
 
-* [キュレーターリソース](/help/analyze/mobile-app/curator.md)：データのキュレーターが[!UICONTROL ダッシュボード]上のエグゼクティブユーザーのスコアカードを設定するのに役立ちます。 キュレーターは組織の管理者、または他の役割を持つ、スコアカードの設定を担当する人です。
+* [キュレーターリソース](/help/analyze/mobile-app/curator.md)：データのキュレーターが[!UICONTROL ダッシュボード]上のエグゼクティブユーザーのスコアカードを設定するのに役立ちます。 キュレーターになれるのは、組織の管理者、または他の役割を持つ、スコアカードの設定を担当する人です。
 
-   * [スコアカードの作成](/help/analyze/mobile-app/create-scorecard.md)
-   * [アプリのセットアップとアプリの使用に関するエグゼクティブのサポート](/help/analyze/mobile-app/set-up-execs.md)
-   * このキュレーション体験の概要ビデオを見るには、[Adobe Analytics ダッシュボードスコアカードビルダー](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=ja)を参照してください。
+  * [スコアカードの作成](/help/analyze/mobile-app/create-scorecard.md)
+  * [エグゼクティブによるアプリの設定とアプリの使用を支援します。](/help/analyze/mobile-app/set-up-execs.md)
+  * このキュレーション体験の概要ビデオを見るには、[Adobe Analytics ダッシュボードスコアカードビルダー](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=ja)を参照してください。
 
 
 * [エグゼクティブユーザークイックスタートガイド](/help/analyze/mobile-app/executive.md)：このガイドは、エグゼクティブユーザーが[!UICONTROL ダッシュボード]でスコアカードを読み、解釈するのに役立つように作成されています。 エグゼクティブユーザーは、自分のモバイルデバイスで、重要な概要データの幅広いレンダリングをすばやく簡単に表示できます。
 
-   * この情報に焦点を当てたビデオを見るには、[Adobe Analytics ダッシュボードのアプリ内エクスペリエンス](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=ja)を参照してください。
+  * この情報に焦点を当てたビデオを見るには、[Adobe Analytics ダッシュボードのアプリ内エクスペリエンス](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=ja)を参照してください。

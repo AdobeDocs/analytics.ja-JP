@@ -1,5 +1,5 @@
 ---
-description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
+description: 処理ルールはデータ収集を簡素化し、レポートに送信されるコンテンツを管理します。
 subtopic: Processing rules
 title: 処理ルールの概要
 feature: Processing Rules

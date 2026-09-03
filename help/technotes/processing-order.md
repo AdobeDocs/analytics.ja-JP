@@ -34,7 +34,7 @@ ht-degree: 37%
 
 ## アドビに送信する前のデータ
 
-データをアドビに送信する前に、次のいずれかのメソッドを使用すると、通常はクライアント側でコンパイルされます。
+データは、アドビに送信される前に、通常は次のいずれかのメソッドを使用してクライアントサイドでコンパイルされます。
 
 * **AppMeasurement**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データは Adobe Analytics に直接送信されます。
 * **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データはAdobe Experience Platform Edge Networkに送信されます。
@@ -87,7 +87,7 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 
 ## 処理後のデータの変更
 
-Adobe Analytics のデータは、ほとんどが永続的です。ただし、一部の機能では、選択的なデータの調整や削除が可能です。
+Adobe Analytics のデータは、ほとんどが変更されません。ただし、一部の機能によって、特定のデータを調整または削除できます。
 
 * [**Data repair API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：特定の列を編集するか、目的のデータ行を削除します。
 * [**データガバナンス**](/help/technotes/privacy/privacy-overview.md): データを完全に削除するためのプライバシー要求に対応します。

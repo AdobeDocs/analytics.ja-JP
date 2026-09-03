@@ -1,6 +1,6 @@
 ---
 description: 開始日および終了日の略語です。
-title: 開始日または終了日
+title: 個々の開始日または終了日
 uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
 role: User, Admin
@@ -21,7 +21,7 @@ ht-degree: 29%
 
 ---
 
-# 開始日または終了日
+# 個々の開始日または終了日
 
 {{legacy-arb}}
 

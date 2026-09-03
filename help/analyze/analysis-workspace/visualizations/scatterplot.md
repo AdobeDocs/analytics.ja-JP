@@ -17,8 +17,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 252
-ht-degree: 52%
+source-wordcount: 262
+ht-degree: 54%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="workspace_scatter_button"
 >title="散布図"
->abstract="ディメンション項目と最大 3 つの指標の関係を示す、散布図のビジュアライゼーションを作成します。"
+>abstract="ディメンション項目と最大 3 つの指標の関係を示す散布図ビジュアライゼーションを作成します。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +47,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 * 一番左の列（通常は指標）には、Y 軸（垂直方向）上の点の位置が描画されます。
 * 2 番目の列には、X 軸（水平方向）上の点の位置が描画されます。
 * 3 番目の列は、ドットの半径を決定します。
-* フリーフォームテーブルの後続の列は、散布図のビジュアライゼーションでは無視されます。
+* フリーフォームテーブルの後続の列は、散布図ビジュアライゼーションでは無視されます。
 
 ![複数のディメンション項目を表示する散布図の例](assets/scatter.png)
 

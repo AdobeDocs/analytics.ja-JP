@@ -29,8 +29,8 @@ ht-degree: 94%
 
 このガイドでは、Adobe Analytics からデータを取得する方法の概要を説明します。 以下のようなものがあります。
 
-* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。 各行は個別のヒットで、各列は変数です。 データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
-* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。 Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行と任意の数の一意の値を許可します。 データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
+* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。 各行は個別のヒットで、各列は変数です。 データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨されません。
+* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。 Data Warehouse は、異なる処理アーキテクチャを使用することで、任意の数の行と任意の数の一意の値を扱うことができます。 データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨されません。
 
 >[!BEGINSHADEBOX]
 

@@ -32,8 +32,8 @@ ht-degree: 85%
 
 * 以前の Analytics システムからの履歴データの取り込み
 
-* AppMeasurement を使用できないようにする内部分析収集システム。 ETL（抽出-変換-読み込み）プロセスを使用してデータをバッチファイルに取り込んだ後、BDIA を使用してそれらを Adobe Analytics にアップロードできます。
+* AppMeasurement の使用が現実的でない内部分析収集システム。 ETL（抽出-変換-読み込み）プロセスを使用してデータをバッチファイルに取り込んだ後、BDIA を使用してそれらを Adobe Analytics にアップロードできます。
 
 * インターネットへの断続的な接続のみ可能なデバイスからのデータ収集。 これらのデバイスは、接続が確立されるまでインタラクション内容を保存します。 その後、デバイスは BDIA を介して一度にデータをアップロードできます。
 
-データ挿入 API と[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
+データ挿入 API と[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイドコレクションの新しい実装に取り組む場合は、Bulk Data Insertion API を使用することをお勧めします。

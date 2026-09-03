@@ -45,10 +45,10 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * Action Type：Initialize getTimeToComplete
+   * アクションタイプ：getTimeToComplete を初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
@@ -59,7 +59,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -110,7 +110,7 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 3.1（2019年9月30日）
 
-* 最初の引数に「start」または「stop」の値を必要とするロジックを追加しました。  渡された他のすべての値は、プラグインの実行を停止します。
+* 最初の引数に &quot;start&quot; または &quot;stop&quot; の値を指定するロジックを追加しました。  渡された他のすべての値は、プラグインの実行を停止します。
 * `inList 2.0` プラグインを `inList 2.1` に更新しました。
 
 ### 3.0（2018年8月23日）
@@ -125,5 +125,5 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 ### 2.0（2016年6月21日）
 
 * `p_fo` プラグインへの依存を排除しました。
-* H コードおよび AppMeasurement との互換性を追加しました。
+* H-code および AppMeasurement との互換性を追加しました。
 * コンソールログを追加しました。

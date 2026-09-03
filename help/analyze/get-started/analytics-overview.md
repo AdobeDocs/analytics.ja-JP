@@ -1,5 +1,5 @@
 ---
-description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する一般的な概要情報です。
+description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する概要情報です。
 short-description: アナリスト、エンドユーザーや管理者向けの主な機能、一般的な使用例、最初の手順について説明します。
 title: Adobe Analytics の概要
 feature: Analytics Basics
@@ -53,7 +53,7 @@ Adobe Analytics の基本を学ぶには、次のリソースを使用します�
 
 ## ビデオの概要
 
-Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
+Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データの構築、デプロイ、収集、解釈のための基盤を提供し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
 
 
 >[!BEGINSHADEBOX]
@@ -67,7 +67,7 @@ Adobe Analytics の基本については、この *Adobe Analytics の概要 - �
 
 ## Customer Journey Analytics でさらに前進
 
-Customer Journey Analytics は、Adobe Experience Platform からのデータと共に Analysis Workspace の機能を使用できるアドビの次世代 Analytics ソリューションです。 数年分のデータを分類、フィルタリング、クエリ、視覚化でき、あらゆる種類のデータスキーマやデータの種類を保持できる Platform の機能と組み合わせることができます。
+Customer Journey Analytics は、Adobe Experience Platform のデータを使用して Analysis Workspace の機能を活用できる、アドビの次世代の分析ソリューションです。 数年分のデータを分割、フィルター、クエリ、視覚化でき、あらゆる種類のデータスキーマやデータタイプを保持できる Adobe Experience Platform の機能と組み合わせて利用できます。
 
 Adobe Analytics と比較した場合の Customer Journey Analytics の利点の一部を以下に示します。
 

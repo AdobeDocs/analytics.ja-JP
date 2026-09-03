@@ -30,7 +30,7 @@ ht-degree: 80%
 
 >[!TAB コンパクト]
 
-最も無駄なスペースをなくした表示です。
+最も凝縮されたビューです。
 
 ![コンパクトな表示密度](assets/view-density-compact.png)
 

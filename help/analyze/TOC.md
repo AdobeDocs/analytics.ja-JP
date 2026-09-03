@@ -219,7 +219,7 @@ ht-degree: 100%
       + カスタマイズされた日付式 {#customized-date-expressions}
         + [カスタマイズされた日付式 - 概要](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
         + [日付の略語](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
-        + [開始日または終了日](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
+        + [個々の開始日または終了日](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
         + [カスタマイズされた式を使用した日付範囲の例](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
         + [注意点](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
       + [セルからの日付の指定](legacy-report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)

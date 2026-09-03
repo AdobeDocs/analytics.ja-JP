@@ -45,7 +45,7 @@ Adobe Analytics の Activity Map は、次の 4 つの主な要素で構成さ�
 
 ## レポートスイート設定の有効化
 
-データの収集を開始する前に、レポートスイートで Activity Map レポートを有効にする必要があります。 実装により、Activity Map レポートが有効になっていない状態でレポートスイートに Activity Map データが送信された場合、Activity Map データはヒットに含まれません。
+データの収集を開始する前に、レポートスイートで Activity Map レポートを有効にする必要があります。 実装が Activity Map レポートが有効になっていないレポートスイートに Activity Map データを送信した場合、Activity Map データはヒットに含まれません。
 
 **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／レポートスイートを選択／**[!UICONTROL 設定を編集]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map レポート]**／**[!UICONTROL Activity Map レポートを有効にする]**
 
@@ -53,7 +53,7 @@ Activity Map レポートを有効にすると、複数のバックエンド予�
 
 ## コードのインストール
 
-Activity Map データをアドビに送信するには、実装を正しく設定する必要があります。 Adobe Analytics が Web SDK を使用して実装されている場合、オーバーレイブラウザー拡張機能は使用できません。
+Activity Map データをアドビに送信するには、実装を正しく設定する必要があります。 Adobe Analytics が Web SDK を使用して実装されている場合、オーバーレイ用ブラウザー拡張機能は使用できません。
 
 +++Web SDK タグ拡張機能
 
@@ -64,12 +64,12 @@ Activity Map のデータ収集には、**[!UICONTROL Adobe Experience Platform 
 1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
 1. クイックアクセスメニューまたは右上の製品セレクターで「**[!UICONTROL データ収集]**」を選択します。
 1. 左側のナビゲーションメニューの「**[!UICONTROL タグ]**」を選択します。
-1. 編集する目的のタグを選択します。
+1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューの「**[!UICONTROL 拡張機能]**」を選択します。
 1. インストールされている拡張機能のリストで「**[!UICONTROL Adobe Experience Platform Web SDK]**」を選択し、右側の「**[!UICONTROL 設定]**」を選択します。
 1. 「[!UICONTROL データ収集]」というラベルの付いたセクションを見つけて、「**[!UICONTROL クリックデータ収集を有効にする]**」チェックボックスがオンになっていることを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
-1. 必要に応じて、ライブラリに変更を作成し、実稼動環境に公開します。
+1. 必要に応じて、変更内容をライブラリにビルドし、本番環境に公開します。
 
 詳しくは、[Web SDK タグ拡張機能の設定](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)を参照してください。
 
@@ -98,12 +98,12 @@ alloy("configure", {
 1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
 1. クイックアクセスメニューまたは右上の製品セレクターで「**[!UICONTROL データ収集]**」を選択します。
 1. 左側のナビゲーションメニューの「**[!UICONTROL タグ]**」を選択します。
-1. 編集する目的のタグを選択します。
+1. 編集するタグを選択します。
 1. 左側のナビゲーションメニューの「**[!UICONTROL 拡張機能]**」を選択します。
 1. インストールされている拡張機能のリストで「**[!UICONTROL Adobe Analytics]**」を選択し、右側の「**[!UICONTROL 設定]**」を選択します。
 1. 「**[!UICONTROL Activity Map を使用]**」チェックボックスがオンになっていることを確認します。
 1. 「**[!UICONTROL 保存]**」を選択します。
-1. 必要に応じて、ライブラリに変更を作成し、実稼動環境に公開します。
+1. 必要に応じて、変更内容をライブラリにビルドし、本番環境に公開します。
 
 詳しくは、[Adobe Analytics 拡張機能の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/analytics/overview)を参照してください。
 
@@ -134,4 +134,4 @@ Analysis Workspace で使用できるディメンションに加えて、Activit
 
 **[!UICONTROL ツール]**／**[!UICONTROL Activity Map]**／**[!UICONTROL Activity Map をダウンロード]**
 
-このリンクをクリックすると、ブラウザーでサポートされている拡張機能またはアドオンの Marketplace に移動してインストールできます。 インストールが完了すると、ブラウザーの右上に拡張機能またはアドオンが表示され、ログインしてオーバーレイを有効にすることができます。
+このリンクをクリックすると、ブラウザーでサポートされている拡張機能またはアドオンのマーケットプレイスに移動してインストールできます。 インストールが完了すると、ブラウザーの右上に拡張機能またはアドオンが表示され、ログインしてオーバーレイを有効にすることができます。

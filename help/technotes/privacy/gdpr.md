@@ -41,7 +41,7 @@ ht-degree: 55%
 
 ![](assets/privacy_ready.png)
 
-## アドビによる GDPR データの処理方法
+## アドビにおける GDPR データの処理方法
 
 Adobe CX Enterpriseでは、企業のデータガバナンスインフラストラクチャと、消費者体験の構築と管理に使用するAdobeツールを結びつける統合ソリューションを提供します。 Adobe CX Enterpriseのデータガバナンス機能は、データガバナンスポリシーとデータ利用を結びつけることを可能にします。
 

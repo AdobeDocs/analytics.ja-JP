@@ -27,7 +27,7 @@ ht-degree: 86%
 
 # pageName
 
-`pageName` 変数は通常、特定のページの名前を保存します。 どの個々のページが一番人気かを判断するのに役立ちます。 この変数は、[ページ](/help/components/dimensions/page.md)ディメンションを設定します。
+`pageName` 変数は通常、特定のページの名前を保存します。 最も人気のある個々のページを判断すると役立ちます。 この変数は、[ページ](/help/components/dimensions/page.md)ディメンションを設定します。
 
 この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
 

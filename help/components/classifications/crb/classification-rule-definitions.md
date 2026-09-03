@@ -1,6 +1,6 @@
 ---
 description: 分類ルールビルダーのページ上のインターフェイス要素の定義です。
-title: 分類ルール - 定義
+title: 分類ルールの定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 861
+source-wordcount: 865
 ht-degree: 57%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 57%
 
 {{classification-rulebuilder-deprecation}}
 
-分類ルールビルダーのページ上のインターフェイス要素の定義です。
+分類ルールビルダーのページに表示されるインターフェイス要素の定義です。
 
 ## ルールページ
 
@@ -44,7 +44,7 @@ ht-degree: 57%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>レポートスイートと変数の選択 </p> </td> 
+   <td colname="col1"> <p>レポートスイートと変数を選択 </p> </td> 
    <td colname="col2"> <p><b>レポートスイート</b> </p> <p>ルールセットが適用されるレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットの作成時に適用できる変数は1つだけです。 1つの変数に複数のルールセットを作成する場合は、各ルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。 変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。 次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >トラフィック分類</a>および<a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ ht-degree: 57%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 非アクティブ化</span> </p> </td> 
-   <td colname="col2"> <p>ルールを編集およびテストできるように非アクティブ化します。 </p> </td> 
+   <td colname="col2"> <p>ルールを編集およびテストできるように、ルールを無効にします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数の設定 </p> </td> 
@@ -69,7 +69,7 @@ ht-degree: 57%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ルックバックウィンドウ </p> </td> 
-   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、そのルールの影響を受けるキーの既存の分類を上書きするかどうかを指定できます （指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p><span class="term">のルックバックウィンドウ </span>を指定しない場合、ルールは約1か月（月の現在の日付に応じて）振り返られます。 このオプションを有効にしない限り、既存の分類は上書きされません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。 これらのルールは、顧客が統合をアクティブ化すると表示されます。 <span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>ルール処理について詳しくは、<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、影響を受けるキーの既存の分類をそのルールで上書きするかどうかを指定できます。 （指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p><span class="term">のルックバックウィンドウ </span>を指定しない場合、ルールは約1か月（月の現在の日付に応じて）振り返られます。 このオプションを有効にしない限り、既存の分類は上書きされません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。 これらのルールは、顧客が統合をアクティブ化すると表示されます。 <span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>ルール処理について詳しくは、<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >ルールを追加</a> </td> 
@@ -89,7 +89,7 @@ ht-degree: 57%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">一致条件</span> </td> 
-   <td colname="col2"> ルールの条件を指定します。 </td> 
+   <td colname="col2"> ルールに適用する条件を指定します。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">分類アクション</span> </td> 
@@ -115,7 +115,7 @@ ht-degree: 57%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">分類を設定</span> </td> 
-   <td colname="col2"> 一致条件が満たされた場合に設定する分類列。 </td> 
+   <td colname="col2"> 一致条件が満たされた場合に設定したい分類列です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">設定値</span> </td> 

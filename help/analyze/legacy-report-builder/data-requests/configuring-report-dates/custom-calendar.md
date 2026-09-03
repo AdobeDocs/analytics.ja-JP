@@ -55,7 +55,7 @@ ht-degree: 15%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:1月には4週間、2月には5週間、3月には4週間など。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: 1月は4週間、2月は4週間、3月は5週間など。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: 1月は5週間、2月は5週間、3月は4週間など。 </li> 
-    </ul> <p>注意：このカレンダーオプションは、Analysis Workspace、Report Builder、Activity MapのすべてのAdobe Analytics ツールでサポートされています。 例外は Data Warehouse で、これはカスタムカレンダーをサポートしていません。 </p> </td> 
+    </ul> <p>注意：このカレンダーオプションは、Analysis Workspace、Report Builder、Activity MapのすべてのAdobe Analytics ツールでサポートされています。 例外は Data Warehouse で、カスタムカレンダーをサポートしていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

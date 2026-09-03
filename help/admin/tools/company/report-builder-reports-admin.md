@@ -1,5 +1,5 @@
 ---
-description: Report Builder ユーザーに割り当てられたライセンスを管理します。
+description: Report Builder ユーザーに割り当てられたライセンスの管理
 title: Report Builder レポート
 feature: Company Settings
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
@@ -26,6 +26,6 @@ ht-degree: 65%
 
 Report Builder ユーザーに割り当てられたライセンスを管理します。
 
-ユーザーに割り当てられた Report Builder ライセンスには、自動的に 10 件の予定タスクが割り当てられます。 このタスク数は調整し、割り当て直すことができます。 スケジュールされたタスクは、各ユーザーに対して使用可能なタスクの数を超えることはできません。 スケジュールが過剰なタスクは実行されません。
+ユーザーに割り当てられた Report Builder ライセンスには、自動的に 10 件のスケジュールされたタスクが割り当てられます。 このタスク数は調整し、割り当て直すことができます。 スケジュールされたタスクは、各ユーザーに対して使用可能なタスクの数を超えることはできません。 スケジュールが過剰なタスクは実行されません。
 
 [Adobe Admin Console](/help/admin/admin-console/home.md) で製品プロファイルを管理することにより、任意の [!DNL Adobe Analytics] ユーザーに Report Builder へのアクセスを許可することができます。
