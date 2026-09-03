@@ -4,11 +4,18 @@ title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 682
@@ -45,7 +52,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 **親の分類：**&#x200B;子の分類が関連付けられている分類は、すべて親の分類となります。 分類は、親分類と子分類の両方になる場合があります。 最上位レベルの親分類は、単一レベルの分類に対応します。
 
-**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。 子分類は、親の分類に関する追加情報を提供します。 例えば、[!UICONTROL  キャンペーン ]分類には、キャンペーン所有者の子分類がある場合があります。 [!UICONTROL 数値]分類は、分類レポートの指標としても機能します。
+**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。 子分類は、親の分類に関する追加情報を提供します。 例えば、[!UICONTROL &#x200B; キャンペーン &#x200B;]分類には、キャンペーン所有者の子分類がある場合があります。 [!UICONTROL 数値]分類は、分類レポートの指標としても機能します。
 
 親または子の各分類は、データファイル内の1つのデータ列を構成します。 次の命名形式を使用した子分類の列見出し。
 

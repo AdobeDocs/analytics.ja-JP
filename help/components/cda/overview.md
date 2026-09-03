@@ -5,11 +5,20 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 837
@@ -23,11 +32,11 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->クロスデバイス分析内のデバイスグラフは[非推奨](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)となり、**2025年12月31日**&#x200B;に使用できなくなります。 現在のデバイスグラフで有効になっている仮想レポートスイートを[ フィールドベースのメソッド ](/help/components/cda/field-based-stitching.md)に切り替えてください。
+>クロスデバイス分析内のデバイスグラフは[非推奨](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)となり、**2025年12月31日**&#x200B;に使用できなくなります。 現在のデバイスグラフで有効になっている仮想レポートスイートを[&#x200B; フィールドベースのメソッド &#x200B;](/help/components/cda/field-based-stitching.md)に切り替えてください。
 >
 
 
-クロスデバイス分析（CDA）は、分析をデバイス中心のビューからユーザー中心のビューに変換する機能です。 その結果、アナリストは、ブラウザー、デバイスまたはアプリをまたいだユーザーの行動を把握できます。 Adobeでは、デバイスをリンクする決定論的マッチングのみを使用する[ フィールドベースのステッチング ](field-based-stitching.md)がサポートされています。
+クロスデバイス分析（CDA）は、分析をデバイス中心のビューからユーザー中心のビューに変換する機能です。 その結果、アナリストは、ブラウザー、デバイスまたはアプリをまたいだユーザーの行動を把握できます。 Adobeでは、デバイスをリンクする決定論的マッチングのみを使用する[&#x200B; フィールドベースのステッチング &#x200B;](field-based-stitching.md)がサポートされています。
 フィールドベースのステッチングを使用すると、仮想レポートスイートでクロスデバイスのステッチングのベースとしてAnalytics変数を選択できます。
 
 
@@ -43,18 +52,18 @@ CDA を使用すると、次のような質問に答えることができます�
 
 
 
-クロスデバイス分析の機能と特徴について詳しくは、[ クロスデバイス分析Spark ページ ](https://express.adobe.com/page/8ZpjsX6Lp5XTM/)を参照してください。
+クロスデバイス分析の機能と特徴について詳しくは、[&#x200B; クロスデバイス分析Spark ページ &#x200B;](https://express.adobe.com/page/8ZpjsX6Lp5XTM/)を参照してください。
 
 ## 前提条件
 
-クロスデバイス分析を使用するには、[ フィールドベースのステッチング ](field-based-stitching.md)が必要です。
+クロスデバイス分析を使用するには、[&#x200B; フィールドベースのステッチング &#x200B;](field-based-stitching.md)が必要です。
 
 * 契約は、Adobe Analytics Ultimate を含めてアドビとの間で署名する必要があります。
 * CDA を有効にするレポートスイートを組織が選択します。 Adobeでは、複数のデバイス/ブラウザー/アプリのタイプからのデータを意味する、クロスデバイスデータを含むレポートスイートをお勧めします。 一部の組織では、この概念を「グローバル」レポートスイートと呼んでいますが、クロスデバイス分析は厳密に地理的な観点からグローバルである必要はありません。
 
 ## 制限事項
 
-クロスデバイス分析は画期的で堅牢な機能ですが、使用方法には制限があります。 [ フィールドベースのステッチ ](field-based-stitching.md)には、独自の制限もあります。
+クロスデバイス分析は画期的で堅牢な機能ですが、使用方法には制限があります。 [&#x200B; フィールドベースのステッチ &#x200B;](field-based-stitching.md)には、独自の制限もあります。
 
 * クロスデバイス分析は、Analysis Workspaceでのみ使用できます。
 * クロスデバイス分析は、複数のレポートスイート間では機能しません。また、複数のレポートスイートのデータを組み合わせることもできません。

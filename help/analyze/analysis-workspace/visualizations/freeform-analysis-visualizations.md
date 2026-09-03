@@ -6,11 +6,24 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1725
@@ -44,7 +57,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [積み重ね横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 積み重ね横棒グラフビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 主要指標の概要ビジュアライゼーションは、折れ線グラフ、変更の概要および数値の概要のビジュアライゼーションを組み合わせます。 |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md) | 折れ線グラフビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。 折れ線グラフは、X 軸で時間を表します。 |
-| ![ グローブ ](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | あらゆる指標（計算指標を含む）の視覚的なマップを構築できます |
+| ![&#x200B; グローブ &#x200B;](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | あらゆる指標（計算指標を含む）の視覚的なマップを構築できます |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散布図ビジュアライゼーションは、ディメンション項目と最大 3 つの指標の関係を表示します。 |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [セクションヘッダー](section-header.md) | パネル内のセクションを識別して明確にします。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 変更の概要ビジュアライゼーションには、選択したセル間の変更が 1 つの大きな数値または割合として表示されます。 |
@@ -99,13 +112,13 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
    * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。 次に、サブメニューからビジュアライゼーションを選択します。 テーブル内の現在の選択に基づいて、Workspace は提供するビジュアライゼーションを決定し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
-簡単なビジュアライゼーション（例：[棒](bar.md)の[行](line.md)）を追加すると、ビジュアライゼーションでは、最も近いフリーフォームテーブルがデータソースとして使用されます。 ビジュアライゼーションの[ データソース ](#data-source)はいつでも変更できます。
+簡単なビジュアライゼーション（例：[棒](bar.md)の[行](line.md)）を追加すると、ビジュアライゼーションでは、最も近いフリーフォームテーブルがデータソースとして使用されます。 ビジュアライゼーションの[&#x200B; データソース &#x200B;](#data-source)はいつでも変更できます。
 
 ## ビジュアライゼーションの管理
 
 ビジュアライゼーションにカーソルを合わせるか、ビジュアライゼーションを選択すると、ビジュアライゼーションを管理できます。
 
-![ ビジュアライゼーションの管理](assets/manage-visualization.png)
+![&#x200B; ビジュアライゼーションの管理](assets/manage-visualization.png)
 
 * ビジュアライゼーションを折りたたむには、![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。
 * 折りたたまれたビジュアライゼーションを表示するには、![ChevronLeft](/help/assets/icons/ChevronLeft.svg)を選択します。
@@ -184,11 +197,11 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションをプロジェクト内の別の場所または完全に別のプロジェクトにペースト（「挿入」）します。 |
-| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに[ データ ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をコピーします。 |
+| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに[&#x200B; データ &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をコピーします。 |
 | **[!UICONTROL クリップボードに選択範囲をコピー]** | [選択範囲](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をビジュアライゼーションからクリップボードにコピーします。 |
-| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | [ ビジュアライゼーションのディメンション項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最大50,000個）をローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
+| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | [&#x200B; ビジュアライゼーションのディメンション項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最大50,000個）をローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
 | **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、プロジェクト内の別の場所または完全に別のプロジェクトにビジュアライゼーションを挿入できるようにします。 |
-| **[!UICONTROL データ CSV をダウンロード]** | [ ビジュアライゼーションの表示データ ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)をローカルデバイスにダウンロードします。 |
+| **[!UICONTROL データ CSV をダウンロード]** | [&#x200B; ビジュアライゼーションの表示データ &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)をローカルデバイスにダウンロードします。 |
 | **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
 | **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。 [テキスト](text.md)を参照してください。 |
 | **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、他のユーザーとビジュアライゼーションを直接共有します。 共有リンクダイアログにリンクが表示されます。 「コピー」を選択して、リンクをクリップボードにコピーします。 |

@@ -6,11 +6,17 @@ feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 TQID: 'https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+  - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 174

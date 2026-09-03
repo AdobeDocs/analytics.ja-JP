@@ -6,11 +6,21 @@ feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 TQID: https://experienceleague.adobe.com/rYLxVYB1oDyfEk8gQyesTSRRPHid-6zJ8QaqFG2b0Kc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1745
@@ -26,7 +36,7 @@ Custom Insight コンバージョン変数（または eVar）は、サイト上
 
 ## コンバージョン変数（eVar）の概要
 
-コンバージョン変数の概要については、Analytics チュートリアルガイドの「[ コンバージョン変数の概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)」を参照してください。
+コンバージョン変数の概要については、Analytics チュートリアルガイドの「[&#x200B; コンバージョン変数の概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)」を参照してください。
 
 EVarが訪問者用の値に設定されると、Adobeは有効期限が切れるまでその値を自動的に記憶します。 eVar 値がアクティブなときに訪問者に対して発生したすべての成功イベントは、その eVar 値にカウントされます。
 
@@ -90,5 +100,5 @@ eVarは、文字列値を保持するために最もよく使用されますが�
    「**[!UICONTROL 新規追加]**」をクリックして、未使用の eVar をレポートスイートに追加します。
 1. 変更するコンバージョン変数フィールドを選択します。
 
-   [ コンバージョン変数 – 説明](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)を参照してください。 フィールドに直接入力できるフィールドもあります。 サポートされている値のドロップダウンリストから選択できます。
+   [&#x200B; コンバージョン変数 – 説明](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)を参照してください。 フィールドに直接入力できるフィールドもあります。 サポートされている値のドロップダウンリストから選択できます。
 1. 「**[!UICONTROL 保存]**」をクリックします。

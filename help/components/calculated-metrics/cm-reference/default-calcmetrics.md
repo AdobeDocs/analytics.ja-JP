@@ -4,11 +4,19 @@ title: デフォルトの計算指標
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 TQID: 'https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 779
@@ -51,7 +59,7 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 | コンテンツベロシティ | 新しいコンテンツがサイト上で作成および公開される速度と、そのコンテンツがユーザーエンゲージメントを生成する速度。 | `[Page Views] / [Visits]` |
 | コンバージョン率 | 購入など、目的のアクションを行った訪問者の割合。 | `[Orders] / [Visits]` |
 | エントリ率 | サイトの合計セッション数と比較した、特定のページでサイトに入った訪問者の割合。 | `[Entries] / [Visits]` |
-| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者数を 2 以下になるように 2 で割ります。 この計算指標は、クライアントサイド JavaScript（CNAME 実装を使用しない）を使用して Cookie が設定されていることを前提としています。 クライアントサイドのJavaScriptを使用してCookieを設定する実装は、ITP 2.1以降に影響を受けました。 詳しくは、[ インテリジェント トラッキング防止](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者数を 2 以下になるように 2 で割ります。 この計算指標は、クライアントサイド JavaScript（CNAME 実装を使用しない）を使用して Cookie が設定されていることを前提としています。 クライアントサイドのJavaScriptを使用してCookieを設定する実装は、ITP 2.1以降に影響を受けました。 詳しくは、[&#x200B; インテリジェント トラッキング防止](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID の適用範囲 | Experience Cloud ID を持つ訪問者の割合。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 離脱率 | 特定のページを閲覧した後にサイトを離れた訪問者の割合。 | `[Exits] / [Visits]` |
 | ITP 2.1 ユニーク訪問者 / ユニーク訪問者 | ITP 2.1 cookie 制限の影響を受けたブラウザーを使用しているユニーク訪問者の割合。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

@@ -5,11 +5,25 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c8add8f2-4250-4fd9-9cde-9707036c567did: e4f5f438-eabb-4c54-9133-b817e3d125f5id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 2104
@@ -52,7 +66,7 @@ Adobe のファーストパーティ cookie の有効期限は 7 日間になり
 * 2019 年 4 月（[ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)）：参照ドメインが（a）クロスサイトトラッキングに関与し、（b）最終 URL にクエリ文字列やフラグメント識別子が含まれていた場合、クライアントサイド cookie は広告のクリックに対して 24 時間に制限
 * 2020 年 11 月（[CNAME クローキングとバウンストラッキングの防御](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)）：ITP　の制限対象が CNAME 実装に拡張。
 
-ITP ポリシーは頻繁に進化しています。 最新のポリシーについては、Apple の『[Webkit でのトラッキング防止 ](https://webkit.org/tracking-prevention)』を参照してください。
+ITP ポリシーは頻繁に進化しています。 最新のポリシーについては、Apple の『[Webkit でのトラッキング防止 &#x200B;](https://webkit.org/tracking-prevention)』を参照してください。
 
 #### 影響を受けるアドビのファーストパーティ cookie は何ですか？
 
@@ -81,7 +95,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。 お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。 この cookie はドメイン間で永続的な識別子を提供し、セキュア（HTTPS）なコンテンツを可能にします。 詳しくは、[Cookieと訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。 お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。 この cookie はドメイン間で永続的な識別子を提供し、セキュア（HTTPS）なコンテンツを可能にします。 詳しくは、[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告のユースケース（リターゲティング広告を含む）に使用されます。 サードパーティ cookie を使用すると、所有する別のドメインに訪問者がアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -183,5 +197,5 @@ ITP トラッキング防止の影響を受けているビジネスは、レポ�
 
 >[!MORELIKETHIS]
 >
->[ ブラウザーのCookie制限の影響を軽減するオプション](cookieless.md)
+>[&#x200B; ブラウザーのCookie制限の影響を軽減するオプション](cookieless.md)
 >[Apple の新しい App Tracking Transparency Framework が Adobe Analytics に及ぼす影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ja)

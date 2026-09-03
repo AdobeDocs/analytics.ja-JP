@@ -5,11 +5,36 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e7d92df1-c5ba-4e93-85df-f83171b889beid: e9cb007b-c8b7-4975-bc81-11a788c535faid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
@@ -265,7 +290,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **トレーニングチュートリアル**] | Analysis Workspace の一般的な用語と、最初の分析を作成する手順を学びます。 |
 | [!UICONTROL **ページ**] | <!--duplicated in Engagement section--> 一番人気のあるページと人気のないページを特定します。 <p>**これにより**、オーディエンスのことや、オーディエンスが最も興味を持つ情報の種類をより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を実行できます。例えば、あまり多く閲覧されていないページの閲覧回数を増やすためにページのメタデータを調整したり、最も多く閲覧されたページのコンテンツの改善に時間を費やしたりできます。</p><p>このテンプレートでは、[ページディメンション](/help/components/dimensions/page.md)と[ページビュー指標](/help/components/metrics/page-views.md)を使用します。</p> |
@@ -490,7 +515,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **主要指標**] | <!--duplicated in Most popular section--> ページビュー指標、訪問指標、ユニーク訪問者指標を並べたレポートを表示します。 データは、一定期間にわたって表示され、前の期間と比較されます。 <p>**これにより**、これらの重要な指標を比較して、サイトのユニーク訪問者の数、ページへ訪問の数、セッションの数の全体像を知ることができます。</p><p>**学習内容に基づいて**、様々な操作を実行できます。例えば、特定の週または月にサイトを訪問した各ユーザーが閲覧したページの平均数や、1 年の特定の時間またはマーケティングキャンペーンを実行する前後の平均数の変化を評価できます。 </p><p>このテンプレートでは、[日ディメンション](/help/components/dimensions/day.md)、[ページビュー指標](/help/components/metrics/page-views.md)、[訪問指標](/help/components/metrics/visits.md)および[ユニーク訪問者指標](/help/components/metrics/unique-visitors.md)を使用します。</p> |
 | [!UICONTROL **ページビュー数**] | <!--duplicated in Most popular section-->ページビューの合計数を表示します。 データは、一定期間にわたって表示され、前の期間と比較されます。 <p>**これにより**、サイト上のトラフィックが時間の経過とともにどのように増加または減少するかを把握しやすくなります。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、最近ローンチされたマーケティングキャンペーンの有効性について、キャンペーンのローンチ前後のサイトトラフィックを比較することで評価できます。 または、前年の休日のトラフィックと比較することもできます。</p><p>このテンプレートでは、[日ディメンション](/help/components/dimensions/day.md)と[ページビュー指標](/help/components/metrics/page-views.md)を使用します。</p> |
@@ -618,7 +643,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **製品コンバージョンファネル**] | 買い物かご、チェックアウト、注文を表示するファネルビジュアライゼーションで製品コンバージョンを表示します。 また、コンバージョン率、売上高の平均、単位あたりの平均、注文数の平均も確認できます。<p>**これにより**、コンバージョンプロセス中に訪問者の進行状況や離脱が発生する仕組みをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、web サイトを改善してチェックアウトプロセスをよりスムーズにすることができます。</p> |
 | **製品** | トップセラーや最も多く閲覧された製品など、主要指標を推進している製品を表示します。 <p>**これにより**、どの製品が最も成功しているかをより深く理解できます。</p><p>**学習した内容に基づいて**、様々な操作を行うことができます。例えば、成功している製品に対する資金を増やしたり、成功していない製品に対する資金を減らしたりすることができます。</p><p>このテンプレートでは、注文数指標と製品ディメンションを使用します。 |
@@ -987,7 +1012,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **人物指標**] | ブランドとやり取りしているユーザーの数を表示します。 <p>**これにより**、サイトの使用状況のトレンドをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、サイトへの新規訪問者の生成における最近のマーケティング活動の効果を測定できます。</p> |
 | **訪問者プロファイル**／**場所の概要** | マップビジュアライゼーションで訪問者の場所の概要を表示します。<p>**これにより**、サイトを訪問している訪問者の場所をより深く理解できます。 </p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、最も興味が高く機会があると思われる場所にマーケティングリソースを集中させることができます。</p><!-- This template uses the --> |
@@ -1207,7 +1232,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **マーケティングチャネル**]／[!UICONTROL **チャネル概要レポート**] | カスタム属性を使用する場合、このテンプレートは、訪問者がサイトにどのように到達するかを示します。<p>**これにより**、最も効果的なマーケティングチャネルがどれかをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、効果的なマーケティングチャネルへの投資を増やしたり、効果的でないマーケティングチャネルから撤退したりすることができます。</p><p>このテンプレートでは、ID（変数とマーケティングチャネル）ディメンションと売上高指標を使用します。</p> |
 | [!UICONTROL **マーケティングチャネル**]／[!UICONTROL **ファーストタッチチャネル**] | 訪問者のエンゲージメント期間中（デフォルトでは 30 日間）に訪問者と一致した最初のマーケティングチャネルを表示します。 <p>**これにより**、サイトへの最初のトラフィックを推進するマーケティングチャネルがどれかをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、最も効果的な分野でのマーケティング活動に注力できます。</p><p>このテンプレートでは、ファーストタッチチャネルディメンションを使用します。</p> |
@@ -1272,7 +1297,7 @@ Analysis Workspace のテンプレート（または会社テンプレート）�
 
 次のテンプレートを表示できます。
 
-| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| テンプレート名 | このテンプレートを使用する理由 <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **携帯電話会社**] | 訪問者がサイトへのアクセスに使用するモバイルデバイスへの携帯電話ネットワーク接続を提供する通信会社を表示します。<p>**これにより**、どの携帯電話会社がユーザーベースの中で最も人気があるのかをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、スムーズなユーザーエクスペリエンスを確保することを目的に、さまざまな携帯電話会社のネットワーク能力に基づいてコンテンツ配信をカスタマイズできます。</p><p>このテンプレートでは、携帯電話会社ディメンションを使用します。</p> |
 | **デバイス** | 訪問者がサイトへのアクセスに使用するモバイルデバイスのメーカーとモデルを表示します。<p>**これにより**、どのモバイルデバイスがユーザーベースの中で最も人気があるのかをより深く理解できます。</p><p>**学習内容に基づいて**、様々な操作を行うことができます。例えば、最も一般的なモバイルデバイスに合わせてサイトのレンダリングを最適化できます。</p><p>このテンプレートでは、モバイルデバイス名ディメンションを使用します。</p> |

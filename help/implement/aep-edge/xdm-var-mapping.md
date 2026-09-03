@@ -5,11 +5,19 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/RQer9MEMvEkjecZ-0EkFyAQthPh7Vi9GmxtJcGGKDeI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1973
@@ -25,7 +33,7 @@ ht-degree: 75%
 
 ## 値の優先度
 
-このテーブルのほとんどのXDM オブジェクトフィールドは、[ マッピングされたデータオブジェクトフィールド ](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
+このテーブルのほとんどのXDM オブジェクトフィールドは、[&#x200B; マッピングされたデータオブジェクトフィールド &#x200B;](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
 
 ## XDM オブジェクトフィールドのマッピング
 
@@ -111,7 +119,7 @@ ht-degree: 75%
 | `xdm.mediaCollection.sessionDetails.network` | ストリーミングメディアサービスディメンション「[ネットワーク](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)」。 |
 | `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | ストリーミングメディアサービスディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」。 |
 | `xdm.mediaCollection.sessionDetails.playerName` | ストリーミングメディアサービスディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)」。 |
-| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [ ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [&#x200B; ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
 | `xdm.mediaCollection.sessionDetails.feed` | ストリーミングメディアサービスディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)」。 |
 | `xdm.mediaCollection.sessionDetails.streamFormat` | ストリーミングメディアサービスディメンション「[ストリーム形式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)」。 |
 | `xdm.media.mediaTimed.progress10.value` | ストリーミングメディアサービス指標「[10％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |

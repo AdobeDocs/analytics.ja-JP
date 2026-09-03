@@ -29,7 +29,7 @@ ht-degree: 3%
 
       1. 「**[!UICONTROL 適用]**」を選択します。
 
-      ![列属性モデル ](assets/complex-calculated-metric.png)
+      ![列属性モデル &#x200B;](assets/complex-calculated-metric.png)
 
 1. 計算指標を保存するには、**[!UICONTROL 保存]**&#x200B;を選択します。
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 1. Analysis Workspaceで、**[!UICONTROL マーケティングチャネル]** ディメンション、**[!UICONTROL オンラインオーダー]**、新しい&#x200B;**[!UICONTROL アシストオンラインオーダー]**&#x200B;指標を含むフリーフォームテーブルを作成します。
 
-   ![ マーケティングチャネル支援オンライン注文](assets/marketing-channel-assists.png)
+   ![&#x200B; マーケティングチャネル支援オンライン注文](assets/marketing-channel-assists.png)
 
 1. （オプション）計算指標の共有[計算指標の共有](/help/components/calculated-metrics/workflow/cm-sharing.md)の説明に従って、組織内の他のユーザーと指標を共有します。
 

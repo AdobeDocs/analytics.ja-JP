@@ -7,9 +7,14 @@ type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
 TQID: https://experienceleague.adobe.com/ABoNikHpWClofkV4y5i0z39aDZeWd5nmCz3tcVFoOMY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 519
@@ -19,7 +24,7 @@ ht-degree: 21%
 
 # データブロックの管理
 
-[!UICONTROL  データブロックマネージャー]を使用して、ブック内のすべてのデータブロックを表示および管理できます。 [!UICONTROL  データブロックマネージャー]には、特定のデータブロックを検索できる検索、フィルター、並べ替え機能が用意されています。 1 つまたは複数のデータブロックを選択した後、選択したデータブロックを編集、削除、または更新できます。
+[!UICONTROL &#x200B; データブロックマネージャー]を使用して、ブック内のすべてのデータブロックを表示および管理できます。 [!UICONTROL &#x200B; データブロックマネージャー]には、特定のデータブロックを検索できる検索、フィルター、並べ替え機能が用意されています。 1 つまたは複数のデータブロックを選択した後、選択したデータブロックを編集、削除、または更新できます。
 
 ## データブロックを表示
 
@@ -29,7 +34,7 @@ ht-degree: 21%
 
 **[!UICONTROL データブロックマネージャー]**&#x200B;には、ワークブック内に存在するすべてのデータブロックを含むテーブルが表示されます。
 
-![ ブック内に存在するすべてのデータブロックのリスト。](./assets/image52.png){zoomable="yes"}
+![&#x200B; ブック内に存在するすべてのデータブロックのリスト。](./assets/image52.png){zoomable="yes"}
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)を使用して、表示する列を選択できます。
 
@@ -53,15 +58,15 @@ ht-degree: 21%
 
 1. 更新するデータブロックを選択します。 最上位のチェックボックスを選択してすべてのデータブロックを選択するか、個々のデータブロックを選択できます。
 
-   ![鉛筆の編集アイコン ](./assets/image56.png){zoomable="yes"}
+   ![鉛筆の編集アイコン &#x200B;](./assets/image56.png){zoomable="yes"}
 
 1. ![編集](/help/assets/icons/Edit.svg)を選択して、**[!UICONTROL クイック編集]** ウィンドウを表示します。
 
-   ![ クイック編集ウィンドウ ](./assets/image58.png){zoomable="yes"}
+   ![&#x200B; クイック編集ウィンドウ &#x200B;](./assets/image58.png){zoomable="yes"}
 
 1. レポートスイート、日付範囲、またはセグメントを更新するリンクを選択します。 **[!UICONTROL クイック編集]** - **[!UICONTROL セグメント]**&#x200B;では、選択したデータブロックのセグメントを追加、削除、または更新できます。
 
-   ![ クイック編集ウィンドウの「セグメントを追加」フィールド ](./assets/image59.png){zoomable="yes"}
+   ![&#x200B; クイック編集ウィンドウの「セグメントを追加」フィールド &#x200B;](./assets/image59.png){zoomable="yes"}
 
 ## データブロックを更新
 
@@ -90,7 +95,7 @@ ht-degree: 21%
 
 グループ化を使用すると、セグメントなどの共通エレメントを変更するデータブロックをすばやく選択できます。
 
-![ シート別グループ リストを表示するデータ ブロック マネージャー。](./assets/group-data-blocks.png){zoomable="yes"}
+![&#x200B; シート別グループ リストを表示するデータ ブロック マネージャー。](./assets/group-data-blocks.png){zoomable="yes"}
 
 
 

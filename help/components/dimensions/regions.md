@@ -4,11 +4,20 @@ description: 訪問者の地域。
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 382
@@ -18,7 +27,7 @@ ht-degree: 87%
 
 # 地域
 
-「リージョン」 [ ディメンション ](overview.md)は、訪問者の地理的地域をレポートします。 国より小さく、市区町村より大きな地域です。 一部の国では、地域とは、州または都道府県を指します。 他の地域では、構成国、省、または大都市圏を指します。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「リージョン」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者の地理的地域をレポートします。 国より小さく、市区町村より大きな地域です。 一部の国では、地域とは、州または都道府県を指します。 他の地域では、構成国、省、または大都市圏を指します。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 

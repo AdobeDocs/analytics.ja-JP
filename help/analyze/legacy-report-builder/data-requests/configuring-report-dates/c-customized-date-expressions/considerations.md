@@ -6,10 +6,17 @@ feature: Report Builder
 role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 TQID: https://experienceleague.adobe.com/7PLNffmZnNnQ2X0HgnqYa8R3zWQvFPMSM8sbWocmxH4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 415
@@ -28,7 +35,7 @@ ht-degree: 38%
 
 データの可用性は、レポートの時間枠とレポート内のリクエストを更新する日付の両方に影響を受けるので、適切な日にレポートを実行して、必要な情報を抽出してください。 次の例では、これらの考慮事項の両方を示します。
 
-集計された精度を使用して[!UICONTROL  ページビュー]のリクエストを行うとします。 北米では、週は日曜日から始まります。 日曜日から土曜日までの期間（例えば、2008 年 11 月 23 日から 11 月 29 日）について更新されたレポートを取得するためには、日曜日（11 月 30 日）にその前週（11 月 23 日から 11 月 29 日）のレポートを実行（リクエストを更新）します。
+集計された精度を使用して[!UICONTROL &#x200B; ページビュー]のリクエストを行うとします。 北米では、週は日曜日から始まります。 日曜日から土曜日までの期間（例えば、2008 年 11 月 23 日から 11 月 29 日）について更新されたレポートを取得するためには、日曜日（11 月 30 日）にその前週（11 月 23 日から 11 月 29 日）のレポートを実行（リクエストを更新）します。
 
 次のカスタマイズされた式を使用します。
 
@@ -58,4 +65,4 @@ ht-degree: 38%
 
 11月23日（日）から1日を差し引いた今週の曜日=11月22日（土）
 
-ヨーロッパやその他の国では、週は日曜日ではなく月曜日に始まります。 この場合、カレンダーをカスタマイズして開始日を変更することができます。 （[ カスタムカレンダー](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)を参照）。
+ヨーロッパやその他の国では、週は日曜日ではなく月曜日に始まります。 この場合、カレンダーをカスタマイズして開始日を変更することができます。 （[&#x200B; カスタムカレンダー](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)を参照）。

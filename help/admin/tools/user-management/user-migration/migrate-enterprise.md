@@ -5,11 +5,16 @@ feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 769
@@ -46,7 +51,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 * リストを比較します（Adobe Admin Console でアカウントデータが上書きされるのを防ぐために、重複を探します）。
 * Enterprise ID または Federated ID ユーザーを使用して最終版 [!DNL .csv]（**[!UICONTROL Admin Console]**／**[!UICONTROL ユーザー]**&#x200B;から取得したもの）を Adobe Admin Console にアップロードします。
 
-既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[ ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
+既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[&#x200B; ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
 
 **ユーザーアカウントを移行するには**
 

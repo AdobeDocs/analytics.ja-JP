@@ -6,11 +6,21 @@ feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 TQID: 'https://experienceleague.adobe.com/fiWUPrFezgDFX-mx-ogHH1wXYgtUF9vAgLjay9z6vsU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 661
@@ -30,7 +40,7 @@ ht-degree: 3%
 
 処理ルールの主な使用例は、次のふたつです。
 
-* **コンテキストデータ変数実装ワークフローを使用**：実装で変数を直接設定する代わりに、[ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)を使用してキーと値のペアを設定できます。 例えば、次のように設定する代わりに、
+* **コンテキストデータ変数実装ワークフローを使用**：実装で変数を直接設定する代わりに、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)を使用してキーと値のペアを設定できます。 例えば、次のように設定する代わりに、
 
   ```js
   s.eVar1 = "Robert Munch";
@@ -50,11 +60,11 @@ ht-degree: 3%
 
   組織内の開発者と通信してプロパティにAnalyticsを実装する場合、コンテキストデータ変数を使用すると、通信プロセスが簡素化されます。 開発者は、各キーと値のペアを1回実装するだけで、Analytics管理者は、データが正しい実装変数に到達することを確認できます。
 
-* **収集されたデータを変更する**：このユースケースには、データ品質の一時的な修正や、実装のギャップを埋めるための支援など、幅広いアプリケーションがあります。 詳細と具体的な例については、[処理ルールのユースケース ](pr-use-cases.md)を参照してください。
+* **収集されたデータを変更する**：このユースケースには、データ品質の一時的な修正や、実装のギャップを埋めるための支援など、幅広いアプリケーションがあります。 詳細と具体的な例については、[処理ルールのユースケース &#x200B;](pr-use-cases.md)を参照してください。
 
 ## 権限
 
-製品管理者は、デフォルトで処理ルールにアクセスできます。 **[!UICONTROL 処理ルール]**&#x200B;の権限項目を含む製品プロファイルに処理ルールを含めることで、管理者以外のユーザーに処理ルールへのアクセス権を付与できます。 詳しくは、「[ レポートスイートツールの製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)」を参照してください。
+製品管理者は、デフォルトで処理ルールにアクセスできます。 **[!UICONTROL 処理ルール]**&#x200B;の権限項目を含む製品プロファイルに処理ルールを含めることで、管理者以外のユーザーに処理ルールへのアクセス権を付与できます。 詳しくは、「[&#x200B; レポートスイートツールの製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)」を参照してください。
 
 ## 処理ルールの作成または編集時の考慮事項
 
@@ -67,10 +77,10 @@ ht-degree: 3%
 * **エンコーディング**：ほぼすべての場合でUTF-8 エンコーディングに従います。
 * **大文字と小文字の区別**：処理ルールの文字列比較では、大文字と小文字が区別されません。 値を上書きするために使用する文字列値は、変数に直接入力するのと同じルールを使用します。
 * **単一のレポートスイート**：処理ルールを編集する場合、1つのレポートスイートにのみ適用されます。 レポートスイートマネージャーで複数のレポートスイートを選択すると、1つのレポートスイートを選択する必要があります。 目的の処理ルールを作成または編集したら、それらのルールを[他のレポートスイートにコピーできます](pr-copy.md)。
-* **データ除外なし**: データの除外は、処理ルールの意図された機能ではありません。 データ収集レベルで[`abort`](/help/implement/vars/config-vars/abort.md)を使用するか、データ収集後に[VISTA ルール ](/help/technotes/vista.md)を使用することを検討してください。
-* **使用可能な変数**：すべてのディメンションと指標が処理ルールで使用できるわけではありません。 サポートされている機能の完全なリストについては、[処理ルール ](pr-variables.md)で使用できるディメンションと指標を参照してください。
+* **データ除外なし**: データの除外は、処理ルールの意図された機能ではありません。 データ収集レベルで[`abort`](/help/implement/vars/config-vars/abort.md)を使用するか、データ収集後に[VISTA ルール &#x200B;](/help/technotes/vista.md)を使用することを検討してください。
+* **使用可能な変数**：すべてのディメンションと指標が処理ルールで使用できるわけではありません。 サポートされている機能の完全なリストについては、[処理ルール &#x200B;](pr-variables.md)で使用できるディメンションと指標を参照してください。
 * **許可されるルールの数**：各レポートスイートには最大150個のルールを含めることができます。 各ルールには最大30個の条件を含めることができます。
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [処理ルールを使用して、コンテキスト データ変数をpropとeVarにマッピング ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [処理ルールを使用して、コンテキスト データ変数をpropとeVarにマッピング &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
