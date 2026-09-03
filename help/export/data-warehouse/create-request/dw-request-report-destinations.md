@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -151,11 +151,11 @@ Data Warehouse リクエストを作成する際には、様々な設定オプ�
 
       +++
 
-      +++メール
+      +++電子メール
 
       >[!NOTE]
       >
-      >メールアカウントは、[データフィード](/help/export/analytics-data-feed/create-feed.md)でのみ使用できます。 （メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) または[分類セット](/help/components/classifications/sets/overview.md)ではサポートされていません）。
+      >メールアカウントは、Data Warehouseでのみ使用できます。 （メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
       Azure RBAC アカウントを設定するには、次の情報を指定します。
 
