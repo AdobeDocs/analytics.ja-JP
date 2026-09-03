@@ -1,23 +1,15 @@
 ---
-description: データウェアハウスと、カスタムレポートを作成して実行できるデータのフィルタリング方法について説明します。
+description: Data Warehouse と、カスタムレポートを作成して実行できるデータのフィルタリング方法について説明します。
 title: データウェアハウスの概要
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 TQID: https://experienceleague.adobe.com/Vkn9mWvBzaiIBf1KYIEUK8cRwTuzw41MT-v-thMBg38
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 285
@@ -27,11 +19,11 @@ ht-degree: 86%
 
 # データウェアハウスの概要
 
-データウェアハウスでは、Adobe Analytics データをコピーして保存したり、データをフィルタリングして実行できるカスタムレポートを作成したりできます。
+Data Warehouse では、Adobe Analytics データをコピーしてストレージ用に保存したり、データをフィルタリングして実行できるカスタムレポートを作成したりできます。
 
 ## レポートの概要
 
-データウェアハウスレポートでは、独自の質問に基づいて、生データからの詳細なデータ関係を表示できます。 1 つのリクエストに含めることができる行数に制限はありません（個別レポート、スケジュール済みレポート、ダウンロード済みレポートの場合)。
+Data Warehouse レポートでは、独自の質問に基づいて、生データからの詳細なデータ関係を表示できます。 1 つのリクエストに含めることができる行数に制限はありません（個別レポート、スケジュール済みレポート、ダウンロード済みレポートの場合)。
 
 >[!NOTE]
 >
@@ -43,7 +35,7 @@ ht-degree: 86%
 
 ## 配信の概要
 
-データウェアハウスレポートはメールで送信されるか、クラウドストレージプロバイダーに送信されます。処理には最大 72 時間かかる場合があります。 処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
+Data Warehouse レポートはメールで送信されるか、クラウドストレージプロバイダーに送信されます。処理には最大 72 時間かかる場合があります。 処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
 
 Data Warehouse は、サイズが 1 MB を超えるファイルを自動的に ZIP 圧縮します。 メールの添付ファイルの最大サイズは 10 MB です。
 

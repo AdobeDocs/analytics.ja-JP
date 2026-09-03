@@ -6,17 +6,10 @@ feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
 TQID: https://experienceleague.adobe.com/49kZ6LC9OMizQvqxE2PCq1LtqhUHtf5iKQUgpgqSmmE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 451
@@ -33,11 +26,11 @@ ht-degree: 9%
 * **[!UICONTROL Top Metrics]** テーブルでは、Mann-Whitney U テストが使用されます。
 * **[!UICONTROL 上位Dimension項目]**&#x200B;および&#x200B;**[!UICONTROL 上位セグメント]** テーブルでは、リスク差の比較が使用されます。
 
-## トップの指標の差異スコア
+## 上位指標の差異スコア
 
 上位の指標テーブルでは、セグメント比較ツールは2つのサンプル Mann-Whitney U テストを使用します。 このテストは、考慮された各セグメントに対する各指標の1次元確率分布を比較するために使用される非パラメトリック等式テストです。 指標テーブルの差スコアは、計算されたU統計量（2つのセグメントが特定の指標にどの程度の確率で異なるかを表す）からのp値と、観測された差の相対的な大きさを組み合わせたものです。 大きな差スコア（1に近い）は、特定の指標の相対的な差が大きいだけでなく、セグメントが異なるという高い統計的信頼性があることを意味します。
 
-## 上位のディメンション項目と上位のセグメントの差異スコア
+## 上位ディメンション項目と上位セグメントの差異スコア
 
 上位Dimension項目と上位セグメント差分テーブルの差分スコアを計算するには、相対リスク差分アルゴリズムを使用します（リスク比と同様ですが、比率ではなく差を使用します）。 リスク差は、選択された一方のセグメントのディメンション項目（またはセグメントとセグメントテーブルとの重なり）の累積発生率を他方から差し引いて計算される。 差が大きいスコア（1に近い）は、特定のディメンション項目または第3のセグメントが、選択したセグメントの一方では非常に目立ち、もう一方では目立っていないことを意味します。
 

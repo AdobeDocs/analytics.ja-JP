@@ -5,19 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 TQID: https://experienceleague.adobe.com/fnZHje0EEPxVHPI0PROI6P-FGmuXc6GlvoTDzRhqrr4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2614
@@ -34,12 +26,12 @@ ht-degree: 97%
 
 <!-- markdownlint-enable MD034 -->
 
-次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。 はじめに、Adobe Analytics ダッシュボードのスコアカードビルダーのビデオを視聴できます。
+次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けモバイルスコアカードの設定方法と表示方法を示しています。 はじめに、Adobe Analytics ダッシュボードのスコアカードビルダーに関するビデオを視聴できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [モバイルスコアカードビルダー](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +107,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 ![新しいスコアカード2](assets/new_score_card2.png)
 
-プライマリ日付を作成または変更するには、ドロップダウンを使用して使用可能な日付範囲から選択するか、日付コンポーネントを右側のレールからドロップゾーンにドラッグ＆ドロップします。
+プライマリ日付を作成または変更するには、ドロップダウンを使用して使用可能な日付範囲から選択するか、日付コンポーネントを右側のパネルからドロップゾーンにドラッグ＆ドロップします。
 
 ![新しいスコアカード3](assets/new_score_card3.png)
 
@@ -144,7 +136,7 @@ Adobe Analytics のスコアカードでは、次のように、エグゼクテ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ビジュアライゼーション](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +163,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ### [!UICONTROL 折れ線グラフ]
 
-行のビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。 線グラフは、時間の経過に伴うディメンションを表示しますが、あらゆるビジュアライゼーションで機能します。 この例では、製品カテゴリディメンションを視覚化しています。
+行のビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。 折れ線グラフは、時間の経過に伴うディメンションを表示しますが、あらゆるビジュアライゼーションで機能します。 この例では、製品カテゴリディメンションを視覚化しています。
 
 ![行のビジュアライゼーション](assets/line.png)
 
@@ -220,7 +212,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [カスタム詳細ビュー](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -231,7 +223,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ### スライドレイアウトを変更する
 
-スライドのレイアウトを変更して、最も重要な情報に焦点を当てます。 例えば、レイアウトを変更して、グラフのみを表示したり、テーブルのみを表示したりできます。 ススライドのレイアウトを変更するには、事前に設計された形式の 1 つを選択します。
+スライドのレイアウトを変更して、最も重要な情報に焦点を当てます。 例えば、レイアウトを変更して、グラフのみを表示したり、テーブルのみを表示したりできます。 スライドのレイアウトを変更するには、事前に設計された形式の 1 つを選択します。
 
 ![スライドのレイアウト](assets/layout.png)
 
@@ -243,7 +235,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 テキストを追加して、グラフに含まれる内容やデータに関するニュアンスなど、重要な情報を提供できます。
 
-詳細スライドにテキストを追加するには、`T` 記号が表示されるレイアウトを選択するか、左側のパネルからテキストビジュアライゼーションコンポーネントをドラッグ＆ドロップします。 新しいテキストビジュアライゼーションを追加する場合や、テキストを含むスライドレイアウトを選択する場合は、テキストエディターが自動的に開きます。 テキストエディターには、テキストの書式設定に使用できるすべての標準オプションが用意されています。 段落、見出しおよび小見出しなどのテキストスタイルを適用したり、太字や斜体のフォントを適用したりできます。 テキストの両端揃え、箇条書きと番号付きのリストの追加、およびリンクの追加を行うことができます。 編集が完了したら、テキストエディターの右上隅にある最小化ボタンを選択して、テキストエディターを閉じます。 既に追加したテキストを編集するには、鉛筆アイコンを選択して、テキストエディターを再度開きます。
+詳細スライドにテキストを追加するには、`T` 記号が表示されるレイアウトを選択するか、左側のパネルからテキストビジュアライゼーションコンポーネントをドラッグ＆ドロップします。 新しいテキストビジュアライゼーションを追加する場合や、テキストを含むスライドレイアウトを選択する場合は、テキストエディターが自動的に開きます。 テキストエディターには、テキストの書式設定に使用できる標準的なオプションが一通り用意されています。 段落、見出しおよび小見出しなどのテキストスタイルを適用したり、太字や斜体のフォントを適用したりできます。 テキストの両端揃え、箇条書きと番号付きのリストの追加、およびリンクの追加を行うことができます。 編集が完了したら、テキストエディターの右上隅にある最小化ボタンを選択して、テキストエディターをクローズします。 既に追加したテキストを編集するには、鉛筆アイコンを選択して、テキストエディターを再度開きます。
 
 ![スライドレイアウトの変更](assets/add-descriptive-text.png)
 
@@ -262,7 +254,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データストーリーの作成](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -369,7 +361,7 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
    * スコアカードの名前を指定します。
    * スコアカードの説明を指定します。
    * 関連するタグを追加します。
-   * スコアカード受信者を指定します。
+   * スコアカードの受信者を指定します。
 
 1. 「**[!UICONTROL 共有]**」をクリックします。
 

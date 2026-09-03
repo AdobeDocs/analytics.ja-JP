@@ -4,21 +4,10 @@ description: Adobe Analytics でデータを処理するコンポーネントと
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1106
@@ -34,7 +23,7 @@ ht-degree: 37%
 
 ## アドビに送信する前のデータ
 
-データをアドビに送信する前に、次のいずれかのメソッドを使用すると、通常はクライアント側でコンパイルされます。
+データは、アドビに送信される前に、通常は次のいずれかのメソッドを使用してクライアントサイドでコンパイルされます。
 
 * **AppMeasurement**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データは Adobe Analytics に直接送信されます。
 * **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データはAdobe Experience Platform Edge Networkに送信されます。
@@ -53,7 +42,7 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 1. [**IP除外**](/help/admin/tools/exclude-ip.md)：レポートから明示的に除外したIP アドレスは、この手順でフラグ付けされます。
 1. [**ボットルール**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)：標準またはカスタムのボットフィルタリングを適用すると、そのデータをレポートから除外できます。
 1. **ジオロケーションデータ**：IP アドレスのルックアップに依存するディメンション（[国](/help/components/dimensions/countries.md)ディメンションなど）が入力されます。
-1. [**処理ルール**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)：組織がデータに適用したカスタムルール。 [&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)をそれぞれのAnalytics変数にマッピングします。
+1. [**処理ルール**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)：組織がデータに適用したカスタムルール。 [ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)をそれぞれのAnalytics変数にマッピングします。
 1. [**VISTA ルール**](vista.md)：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。 VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。 通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。 既存のVISTA ルールについて詳しくは、Adobe アカウントチームにお問い合わせください。
 1. **通貨換算**: ヒットにレポートスイートの通貨とは異なる[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)が含まれている場合、該当する通貨変数は現在の為替レートを使用して換算されます。
 1. [**郵便番号**](/help/components/dimensions/zip-code.md): 「郵便番号」ディメンションは、レポートスイートの設定に基づいて入力されます。
@@ -77,8 +66,8 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 
 1. [**訪問+訪問者の定義**](/help/implement/id/overview.md): ヒットは、含まれている訪問者変数に基づいて識別されます。
 1. [**訪問数**](/help/components/dimensions/visit-number.md)：特定された訪問者の他の訪問に基づいて、訪問数が計算されます。
-1. **イベント重複排除**: ヒットに重複した[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)または[&#x200B; イベントのシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)が含まれている場合、それらのIDはチェックされ、それぞれフラグが立てられます。
-1. [**訪問レベルのマーケティングチャネル処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)：すべてのヒットはマーケティングチャネル処理ルールを通して実行され、ヒットが任意のルールと一致するかどうかをチャネルとチャネルの詳細が決定されます。 これらのルールは、Analysis Workspaceで使用可能な[&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md)および[&#x200B; マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) ディメンションに入力されます。
+1. **イベント重複排除**: ヒットに重複した[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)または[ イベントのシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)が含まれている場合、それらのIDはチェックされ、それぞれフラグが立てられます。
+1. [**訪問レベルのマーケティングチャネル処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)：すべてのヒットはマーケティングチャネル処理ルールを通して実行され、ヒットが任意のルールと一致するかどうかをチャネルとチャネルの詳細が決定されます。 これらのルールは、Analysis Workspaceで使用可能な[ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md)および[ マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) ディメンションに入力されます。
 1. **変数の永続性**：永続性を持つディメンション（[eVars](/help/components/dimensions/evar.md)など）の場合、この手順でその値が決定されます。 一般的に、ほとんどの`post`値はここで設定されます。
 1. **トランザクション ID**: ヒットに新しい[`transactionID`](/help/implement/vars/page-vars/transactionid.md)値が含まれている場合、サポートされているすべての値の「スナップショット」が保存されます。 データソースのアップロードに一致するトランザクション IDが含まれている場合、このスナップショットでサポートされているすべての値がそのデータソース行に含まれます。
 1. [**IP難読化（IPを削除）**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：レポートスイートがIP アドレスを完全に難読化するように設定されている場合、その難読化は、他のすべての処理が終了した後にここに適用されます。
@@ -87,7 +76,7 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 
 ## 処理後のデータの変更
 
-Adobe Analytics のデータは、ほとんどが永続的です。ただし、一部の機能では、選択的なデータの調整や削除が可能です。
+Adobe Analytics のデータは、ほとんどが変更されません。ただし、一部の機能によって、特定のデータを調整または削除できます。
 
 * [**Data repair API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：特定の列を編集するか、目的のデータ行を削除します。
 * [**データガバナンス**](/help/technotes/privacy/privacy-overview.md): データを完全に削除するためのプライバシー要求に対応します。

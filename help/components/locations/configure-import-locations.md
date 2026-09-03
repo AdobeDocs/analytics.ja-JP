@@ -5,21 +5,10 @@ title: クラウドの読み込み場所および書き出し場所の設定
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1769
@@ -33,14 +22,14 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->場所を作成および編集する場合は、次の点を考慮してください。<ul><li>システム管理者は、[&#x200B; ユーザーが場所を作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations)で説明しているように、場所の作成をユーザーに制限できます。 この節の説明に従って場所を作成できない場合は、システム管理者にお問い合わせください。</li><li>場所は、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>場所を作成および編集する場合は、次の点を考慮してください。<ul><li>システム管理者は、[ ユーザーが場所を作成できるかどうかを設定](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations)で説明しているように、場所の作成をユーザーに制限できます。 この節の説明に従って場所を作成できない場合は、システム管理者にお問い合わせください。</li><li>場所は、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
-[&#x200B; クラウドアカウントを設定](/help/components/locations/configure-import-accounts.md)した後、そのアカウントの場所を設定できます。 1つの場所は、次のいずれかの目的で使用できます（1つの場所を複数の目的に関連付けることはできません）。
+[ クラウドアカウントを設定](/help/components/locations/configure-import-accounts.md)した後、そのアカウントの場所を設定できます。 1つの場所は、次のいずれかの目的で使用できます（1つの場所を複数の目的に関連付けることはできません）。
 
-* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
+* [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md)の使用時にファイルをエクスポートする
-* [分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
+* [分類セット ](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
 
 クラウドアカウントにアクセスするには、必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスは、[Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md)で説明されているように、アカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、そのアカウント内の場所を追加および設定することから構成されます（この記事を参照）。
 
@@ -55,7 +44,7 @@ ht-degree: 38%
 1. （条件付き）システム管理者の場合は、[!UICONTROL **すべてのユーザーの場所を表示**] オプションを有効にして、組織内のすべてのユーザーが作成した場所を表示できます。
    ![すべてのユーザーの場所を表示](assets/locations-all-users.png)
 
-1. 新しい場所を追加するには、[!UICONTROL **場所を追加**]&#x200B;を選択します。 （まだアカウントを追加していない場合は、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従ってアカウントを追加します。）
+1. 新しい場所を追加するには、[!UICONTROL **場所を追加**]&#x200B;を選択します。 （まだアカウントを追加していない場合は、[ クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従ってアカウントを追加します。）
 
    [!UICONTROL **場所を追加**] ダイアログが表示されます
 
@@ -71,9 +60,9 @@ ht-degree: 38%
    |---------|----------|
    | [!UICONTROL **名前**] | 場所の名前。 |
    | [!UICONTROL **説明**] | 同じアカウントタイプの他のアカウントと区別するのに役立つ、アカウントの短い説明を入力します。 |
-   | [!UICONTROL **&#x200B;**]&#x200B;で使用 | この場所を&#x200B;[!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、[!UICONTROL **分類セット**]&#x200B;または&#x200B;**[!UICONTROL Report Builder]**&#x200B;で使用するかどうかを選択します。 <p>選択を行う際には、次の点に注意してください。</p><ul><li>1つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>場所の中でファイルの競合を避けるには、場所を使用した後で&#x200B;[!UICONTROL **使用**] フィールドの値を変更しないでください。</li><li>電子メールアカウントの場所を作成する場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 メールの場所は、データフィードと分類セットではサポートされていません。</li></ul> |
+   | [!UICONTROL ****]&#x200B;で使用 | この場所を&#x200B;[!UICONTROL **データフィード**]、[!UICONTROL **Data Warehouse**]、[!UICONTROL **分類セット**]&#x200B;または&#x200B;**[!UICONTROL Report Builder]**&#x200B;で使用するかどうかを選択します。 <p>選択を行う際には、次の点に注意してください。</p><ul><li>1つの場所を複数の目的に使用することはできません。 例えば、データフィードに使用される場所は、Data Warehouseまたは分類セットにも使用できません。</li><li>場所の中でファイルの競合を避けるには、場所を使用した後で&#x200B;[!UICONTROL **使用**] フィールドの値を変更しないでください。</li><li>電子メールアカウントの場所を作成する場合は、このフィールドで「[!UICONTROL **Data Warehouse**]」を選択します。 メールの場所は、データフィードと分類セットではサポートされていません。</li></ul> |
    | [!UICONTROL **組織内のすべてのユーザーが場所を利用できるようにします**] | このオプションを有効にすると、組織内の他のユーザーがこの場所を使用できるようになります。<p>場所を共有する場合は、次の点を考慮してください。</p><ul><li>共有している場所は共有を解除できません。</li><li>共有場所は、場所の所有者のみが編集できます。</li><li>場所を共有できるのは、場所が関連付けられているアカウントも共有されている場合のみです。</li></ul> |
-   | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。 |
+   | [!UICONTROL **場所アカウント**] | この場所を作成する場所アカウントを選択します。 アカウントの作成方法について詳しくは、[ クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)を参照してください。 |
 
 1. 場所を設定するためのフォームを完了するには、[場所を設定](#configure-a-location)に進みます。 「[!UICONTROL **場所アカウント**]」フィールドで選択したアカウントタイプに対応するセクションの情報を使用します。 （追加のレガシーアカウントタイプも使用できますが、お勧めしません）
 
@@ -94,7 +83,7 @@ Amazon S3 ロール ARNの場所を設定するには、次の情報を指定し
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット ](/help/components/classifications/sets/overview.md)を使用します。
 
    インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
@@ -118,7 +107,7 @@ Google Cloud Platform の場所を設定するには、次の情報を指定し�
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット ](/help/components/classifications/sets/overview.md)を使用します。
 
    インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
@@ -142,7 +131,7 @@ Azure SAS の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット ](/help/components/classifications/sets/overview.md)を使用します。
 
    インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
@@ -167,7 +156,7 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用します。
+   これで、設定したアカウントと場所との間でデータを読み込んだり書き出したりできるようになりました。 データを書き出すには、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、または[Report Builder](/help/analyze/report-builder/report-builder-export.md)を使用します。 データを読み込むには、[分類セット ](/help/components/classifications/sets/overview.md)を使用します。
 
    インポートしたデータは、インポート後にクラウドの宛先から削除されません。
 
@@ -190,11 +179,11 @@ Azure RBAC の場所を設定するには、次の情報を指定します。
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-   [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （メールの場所は、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)、または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)ではサポートされていません）。
+   [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用する際に設定したアカウントと場所にデータを書き出せるようになりました。 （メールの場所は、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)、または[分類セット ](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
 ### 従来のアカウントタイプ
 
-これらの従来のアカウントタイプは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
+これらの従来のアカウントタイプは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット ](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
 
 +++FTP
 

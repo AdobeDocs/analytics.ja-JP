@@ -4,18 +4,11 @@ description: Attribution と Customer Journey Analytics でのマーケティン
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 669
@@ -23,19 +16,19 @@ ht-degree: 78%
 
 ---
 
-# Attribution とマーケティングチャネルの連携 - ベストプラクティス
+# アトリビューションとマーケティングチャネル - ベストプラクティス
 
 [マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)は、Adobe Analytics の有益で強力な機能です。 マーケティングチャネルの実装に関する現在のガイダンスは、[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) も [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases) も存在しなかった頃に作成されています。
 
-マーケティングチャネル実装の将来性を確保をし、Attribution や Customer Journey Analytics との一貫性をレポートで確実に保つために、アドビでは更新された一連のベストプラクティスを発行しています。 既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。 マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
+マーケティングチャネルの実装を将来にわたって有効なものとし、アトリビューションおよび Customer Journey Analytics とのレポートの一貫性を確保するために、アドビでは更新された一連のベストプラクティスを公開しています。 既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。 マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
 
 マーケティングチャネルが初めて導入された際にあったディメンションはファーストタッチとラストタッチのみでした。 現在のバージョンのアトリビューションでは、明示的なファーストタッチディメンションとラストタッチディメンションは不要になりました。 アドビでは、汎用の「マーケティングチャネル」ディメンションと「マーケティングチャネルの詳細」ディメンションを提供し、それらを目的のアトリビューションモデルで使用できるようにしています。 これらの汎用ディメンションは、「ラストタッチチャネル」ディメンションと同じように動作しますが、異なるアトリビューションモデルでマーケティングチャネルを使用する際の混乱を防ぐために、異なるラベルが付けられています。
 
 マーケティングチャネルのディメンションは、（処理ルールで定義された）従来の訪問の定義に依存するので、仮想レポートスイートを使用して訪問の定義を変更することはできません。 これらの修正済みのプラクティスにより、アトリビューションとAdobe Analyticsで、明確で管理されたルックバックウィンドウを実現できます。
 
-## ベストプラクティス #1：制御された分析に Attribution を活用
+## ベストプラクティス #1：制御された分析にアトリビューションを活用する
 
-マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションではなく [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) を使用することをお勧めします。 他のベストプラクティスに従って、Attribution を使用した分析との一貫性と堅牢な制御を確保します。
+マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションではなく [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) を使用することをお勧めします。 他のベストプラクティスに従って、アトリビューションを使用した分析における一貫性と堅牢な制御を確保してください。
 
 ![](assets/attribution.png)
 
@@ -47,7 +40,7 @@ ht-degree: 78%
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデルで使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。 この場合、Adobeでは、ファーストタッチ/ラストタッチ用の分類[&#128279;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)を作成し、ダイレクトチャネルとセッションリフレッシュチャネルを未分類のままにすることをお勧めします。 分類されたディメンションでは、これらのチャネルが設定されなかった場合と同様のアトリビューション結果が得られます。
+組織で「直接」および「セッション更新」が既に設定されている場合は、どうすればよいでしょうか。 この場合、Adobeでは、ファーストタッチ/ラストタッチ用の分類](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)を[作成し、ダイレクトチャネルとセッションリフレッシュチャネルを未分類のままにすることをお勧めします。 分類されたディメンションでは、これらのチャネルが設定されなかった場合と同様のアトリビューション結果が得られます。
 
 ![](assets/direct-session-refresh.png)
 
@@ -61,12 +54,12 @@ Workspace のマーケティングチャネルディメンションで使用さ�
 
 ![](assets/override.png)
 
-## ベストプラクティス #4：訪問者エンゲージメント期間の最小化
+## ベストプラクティス #4：訪問者エンゲージメント期間を最小限に抑える
 
 訪問者エンゲージメント期間を最小である「1 日」に設定すると、値が持続する可能性を最小限に抑えることができます。 カスタムアトリビューションモデル（AIQ）では柔軟なルックバックウィンドウを許可するので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
 
 ![](assets/expiration.png)
 
-## ベストプラクティス #5：マーケティングチャネルの処理ルールは有効なチャネルに対してのみ存在する
+## ベストプラクティス #5：マーケティングチャネルの処理ルールは、有効なチャネルに対してのみ設定する
 
 無効なチャネルに対するマーケティングチャネルの処理ルールをすべて削除してください。 ルールは、有効として確認されているマーケティングチャネルに対してのみ存在する必要があります。

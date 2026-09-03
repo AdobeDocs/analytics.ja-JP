@@ -6,19 +6,11 @@ exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/BdChWcR9AJqLZ0KjOxSvFAjB8-58JmmGahrpvTyFeFI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
@@ -40,7 +32,7 @@ ht-degree: 90%
 >
 >マーチャンダイジング eVar を正しく設定しないと、変数の予期しない値やデータ損失が発生します。 お使いの実装に合わせて正しく設定されていることを確認します。
 
-## 製品の構文を使用した実装
+## 製品の構文を使用して実装する
 
 「製品の構文」が選択されている場合、マーチャンダイジングカテゴリーが `products` 変数に直接入力されるので、バインディングイベントを選択して設定する必要はありません。 これが推奨される方法であり、成功イベントが発生したときにその値を `products` に設定できない場合を除いて、この方法を使用してください。
 
@@ -103,7 +95,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、eVar マーチャンダイジングでは、AppMeasurementの構文に従って`data.__adobe.analytics.eVar1`～`data.__adobe.analytics.eVar250`が使用されます。
 
-## コンバージョン変数の構文を使用した実装
+## コンバージョン変数の構文を使用して実装する
 
 eVar 変数を `products` に設定できない場合、コンバージョン変数の構文を使用する必要があります変数。 このシナリオは一般的には、ページにマーチャンダイジングチャネルや検索方法のコンテキストがない場合です。 そのような場合、製品ページに到達する前にマーチャンダイジング変数を設定し、その値がバインディングイベントの発生時まで保持されるようにします。
 
@@ -125,7 +117,7 @@ s.products = ";Canary";
 
 ### Web SDK を使用したコンバージョン変数構文
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[ イベント ](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 
@@ -141,7 +133,7 @@ s.products = ";Canary";
 }
 ```
 
-製品文字列の入札イベントと値を設定します。
+バインディングイベントと製品文字列の値を設定します。
 
 ```json
 "commerce": {
@@ -170,7 +162,7 @@ s.products = ";Canary";
 }
 ```
 
-製品文字列の入札イベントと値を設定します。
+バインディングイベントと製品文字列の値を設定します。
 
 ```json
 "data": {

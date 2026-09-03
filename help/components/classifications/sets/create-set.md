@@ -4,17 +4,11 @@ description: プライマリおよびルックアップの分類タイプ、サ�
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
 TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 502
@@ -44,17 +38,17 @@ ht-degree: 73%
       * **[!UICONTROL 参照]**。 子の分類または下位分類と呼ばれることが多いルックアップテーブルは、プライマリ分類の分類です。 参照は、元のディメンションではなく、分類値に関するメタデータです。 例えば、*製品*&#x200B;ディメンションは、*カラーコード*&#x200B;というプライマリ分類を持つ場合があります。 次に、*カラー名*&#x200B;のルックアップテーブルを&#x200B;*カラーコード*&#x200B;に添付して、各カラーコードを説明できます。
 1. 「**[!UICONTROL ジョブ通知]**」セクションで、分類セットジョブの失敗または成功について通知するユーザーを選択します。
    * 失敗したユーザーに通知するには：
-      1. 失敗&#x200B;**の**&#x200B;通知を有効にします。
-      1. **[!UICONTROL メール受信者の失敗]**&#x200B;に、1つ以上のコンマ区切りメールアドレスを指定します。
+     1. 失敗&#x200B;]**の**[!UICONTROL &#x200B;通知を有効にします。
+     1. **[!UICONTROL メール受信者の失敗]**&#x200B;に、1つ以上のコンマ区切りメールアドレスを指定します。
    * 成功についてユーザーに通知するには：
-      1. **[!UICONTROL 成功の通知]**&#x200B;を有効にします。
-      1. **[!UICONTROL 成功メール受信者]**&#x200B;に1つ以上のコンマ区切りメールアドレスを指定します。
+     1. **[!UICONTROL 成功の通知]**&#x200B;を有効にします。
+     1. **[!UICONTROL 成功メール受信者]**&#x200B;に1つ以上のコンマ区切りメールアドレスを指定します。
 1. 「**[!UICONTROL サブスクリプション]**」セクションで、**[!UICONTROL プライマリ]**&#x200B;を選択した場合は、1つ以上の&#x200B;**[!UICONTROL サブスクリプション]**&#x200B;を入力します。  1 つの分類セットに対して複数の&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL ディメンション]**&#x200B;の組み合わせを定義できます。
 
    * 「![CrossSize400](/help/assets/icons/CrossSize400.svg)」を選択して、**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;の組み合わせを削除します。
 
-   別の分類セットに既に存在する&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーDimension]**&#x200B;の組み合わせを追加すると、赤い色のメッセージが表示されます。
-次の対応ができます。
+   別の分類セットに既に存在する&#x200B;**[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーDimension]**の組み合わせを追加すると、赤い色のメッセージが表示されます。
+   次の対応ができます。
    * 「**[!UICONTROL 既存に追加]**」を選択して他の分類セットを開き、その他の分類セットの[スキーマに分類を追加](manage/schema.md)します。
    * **[!UICONTROL レポートスイート]**&#x200B;と&#x200B;**[!UICONTROL キーディメンション]**&#x200B;を、既に別の分類セットに登録されていない組み合わせに変更します。
 1. 「**[!UICONTROL 保存]**」を選択して分類セットを保存します。 「**[!UICONTROL キャンセル]**」を選択して、定義をキャンセルします。
@@ -62,12 +56,12 @@ ht-degree: 73%
 分類セットのスキーマを定義するには、新しく作成した分類セットを&#x200B;**[!UICONTROL 分類セット]**&#x200B;マネージャーから選択して、[分類セットを編集](#edit-a-classification-set)します。
 
 
-## 分類セットの作成
+## 分類セットの編集
 
 分類セットを編集するには：
 
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. 分類セットの名前を選択します。
-1. **[!UICONTROL 分類セット：_分類セット名_]**&#x200B;ダイアログで、分類セットの[設定](manage/settings.md)と[スキーマ](manage/schema.md)を定義できます。
+1. **[!UICONTROL 分類セット：_分類セット名_]**ダイアログで、分類セットの[設定](manage/settings.md)と[スキーマ](manage/schema.md)を定義できます。
 1. 完了したら、「**[!UICONTROL 保存]**」を選択して変更を保存します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。

@@ -4,17 +4,11 @@ title: ジョブポータル
 feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 TQID: https://experienceleague.adobe.com/OVG4imjeOn6ZbW5BzTXVgGvmeNRF8soe1ODrKkIWBVk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 178
@@ -37,7 +31,7 @@ ht-degree: 64%
 | カスタムインサイト変数 | `s_code` 変数 |
 |---|---|
 | セキュリティあり／セキュリティなし | `prop1` |
-| トラフィックプロパティ 2 ～ 5 | `prop2, prop3, prop4, prop5` |
+| トラフィック プロパティ 2 ～ 5 | `prop2, prop3, prop4, prop5` |
 
 次の表に、標準コマースイベントのリストを示します。 これらのイベントの初期設定は、すべてのレポートスイートテンプレートで同じです。 n/Aのs_code変数を持つイベントは設定する必要がなく、自動的に提供されます。
 

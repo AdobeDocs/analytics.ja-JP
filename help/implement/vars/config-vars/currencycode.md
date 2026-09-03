@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 952
@@ -38,7 +28,7 @@ ht-degree: 96%
 * `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。 アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。 レポートスイートに保存される値はすべて、レポートスイートの通貨で表されます。
 * `currencyCode`が無効な値に設定されている場合、**ヒット全体が破棄され、データが失われます。** この変数が使用されるたびに正しく定義されていることを確認してください。
 
-この変数は、ヒット間で保持されません。 この変数が、売上高や通貨イベントを含むすべてのページで定義され、レポートスイートのデフォルト通貨と同じではないことを確認してください。
+この変数は、ヒット間で保持されません。 この変数が、売上高やレポートスイートのデフォルト通貨と異なる通貨イベントを含むすべてのページで定義されていることを確認してください。
 
 >[!NOTE]
 >
@@ -50,23 +40,23 @@ ht-degree: 96%
 
 通貨コードは、次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode`または`data.__adobe.analytics.cc`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode`または`data.__adobe.analytics.cc`
 
 ## Adobe Analytics 拡張機能を使用した通貨コード
 
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。 カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## Adobe Experience Platform モバイル SDK の「通貨コード」
+## Adobe Experience Platform Mobile SDK における Currency Code
 
-Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
+Currency Code は、Adobe Analytics 拡張機能内のコンテキストデータ変数を通じて Adobe Experience Platform Mobile SDK に渡されます。
 
 1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
 1. Adobe Analytics 管理ツールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。

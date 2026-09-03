@@ -5,23 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 857
@@ -73,8 +61,8 @@ ht-degree: 100%
 
 * 含めるイベントを選択できるドロップダウンリスト
 * シリアル化用のオプションのテキストフィールドです。 [イベントのシリアル化](event-serialization.md)を参照してください。
-* イベント値のオプションのテキストフィールドです。 通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。 例えば、ドロップダウンリストで `event1`を選択し、このフィールドに `10` を含めると、レポートで `event1` が 10 増えます。
-* 別のイベントを追加するボタン。 単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
+* イベント値のオプションのテキストフィールドです。 通貨イベントには通貨を、通貨以外のイベントには整数を含めることで、イベントを複数回インクリメントできます。 例えば、ドロップダウンリストで `event1`を選択し、このフィールドに `10` を含めると、レポートで `event1` が 10 増えます。
+* 別のイベントを追加するボタンです。 単一のルールに、無理のない範囲で好きなだけイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events
 
@@ -103,7 +91,7 @@ s.events = "event1,event13,purchase";
 
 ### カウンターイベントを複数回増分します
 
-必要に応じて、カスタムイベントを複数回カウントできます。 文字列内の目的のイベントに整数を割り当てます。 レポートスイート設定で作成されたイベントは、デフォルトでカウンターイベントです。
+必要に応じて、カスタムイベントを複数回カウントできます。 文字列内の目的のイベントに整数を割り当てます。 レポートスイートの設定で作成されたイベントは、デフォルトでカウンターイベントです。
 
 ```js
 // Count event1 ten times

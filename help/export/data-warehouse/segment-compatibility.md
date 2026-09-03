@@ -4,20 +4,11 @@ description: Data Warehouseで使用できるセグメント定義について�
 feature: Data Warehouse
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 456
@@ -38,17 +29,17 @@ ht-degree: 9%
 
 ## サポートされているコンポーネント
 
-セグメントは、適用されたリクエストと同じデータに対して評価されるので、**Data Warehouse リクエストでサポートされていないコンポーネントもセグメントでサポートされていません。** Data Warehouseがサポートしていないディメンションと指標の完全なリストについては、[Data Warehouseでのコンポーネントのサポート &#x200B;](component-support.md)を参照してください。
+セグメントは、適用されたリクエストと同じデータに対して評価されるので、**Data Warehouse リクエストでサポートされていないコンポーネントもセグメントでサポートされていません。** Data Warehouseがサポートしていないディメンションと指標の完全なリストについては、[Data Warehouseでのコンポーネントのサポート ](component-support.md)を参照してください。
 
-[&#x200B; コンポーネントサポート &#x200B;](component-support.md)に記載されているディメンションと指標に加えて、次のディメンションはData Warehouse *リクエスト*&#x200B;で使用できますが、**はセグメント定義**&#x200B;内で使用できません。
+[ コンポーネントサポート ](component-support.md)に記載されているディメンションと指標に加えて、次のディメンションはData Warehouse *リクエスト*&#x200B;で使用できますが、**はセグメント定義**&#x200B;内で使用できません。
 
 * [[!UICONTROL 月間通算日]](/help/components/dimensions/day-of-month.md)
 * [[!UICONTROL 曜日]](/help/components/dimensions/day-of-week.md)
 * [[!UICONTROL 年間通算日]](/help/components/dimensions/day-of-year.md)
 * [[!UICONTROL 時間帯]](/help/components/dimensions/hour-of-day.md)
-* [[!UICONTROL &#x200B; マーケティングチャネル &#x200B;]](/help/components/dimensions/marketing-channel.md) （代わりに[[!UICONTROL &#x200B; ラストタッチチャネル &#x200B;]](/help/components/dimensions/last-touch-channel.md)を使用）
+* [[!UICONTROL  マーケティングチャネル ]](/help/components/dimensions/marketing-channel.md) （代わりに[[!UICONTROL  ラストタッチチャネル ]](/help/components/dimensions/last-touch-channel.md)を使用）
 * [[!UICONTROL 年間通算月]](/help/components/dimensions/month-of-year.md)
-* [[!UICONTROL &#x200B; ページが見つかりません]](/help/components/dimensions/pages-not-found.md) （代わりに[[!UICONTROL &#x200B; ページタイプエラー]](/help/components/dimensions/pages-not-found.md)を使用）
+* [[!UICONTROL  ページが見つかりません]](/help/components/dimensions/pages-not-found.md) （代わりに[[!UICONTROL  ページタイプエラー]](/help/components/dimensions/pages-not-found.md)を使用）
 * [[!UICONTROL 四半期]](/help/components/dimensions/quarter-of-year.md)
 * [[!UICONTROL 平日／週末]](/help/components/dimensions/weekday-weekend.md)
 

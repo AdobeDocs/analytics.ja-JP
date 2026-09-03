@@ -5,20 +5,10 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1131
@@ -33,7 +23,7 @@ Analysis Workspace プロジェクトとデータをローカルデバイスに�
 * ダウンロードしたファイルにビジュアライゼーションを含める場合は、「PDF」オプションを選択します。
 * プレーンテキストデータが必要な場合は、「CSVとコピー済みデータ」オプションを選択します。
 
-Adobe Analytics データを書き出す他の方法については、[書き出しガイド &#x200B;](/help/export/home.md)を参照してください。
+Adobe Analytics データを書き出す他の方法については、[書き出しガイド ](/help/export/home.md)を参照してください。
 
 ## プロジェクトをPDFまたはCSV ファイルとしてダウンロード
 
@@ -45,8 +35,8 @@ PDFとしてプロジェクトをダウンロードする際は、次の点を�
 
 * プロジェクトがワークステーションにダウンロードされるまで、プロジェクトを離れないでください。 PDFをレンダリングするためにAdobe サーバー上でプロジェクトを再実行するため、ダウンロードには数分かかる場合があります。 ダウンロードのレンダリング中も、引き続きプロジェクトに変更を加えることができます。 PDFのレンダリングに5分以上かかる場合は、代わりに[PDF](../curate-share/send-schedule-files.md)に電子メールを送信するように求められます。
 * ダウンロードは、ページ番号が適用されない単一ページとしてレンダリングされます。
-* PDFには、Analysis Workspaceのブラウザーページに表示される内容が含まれています。 切り捨てられたコンテンツを避けるには、![&#x200B; サイズ変更](/help/assets/icons/Resize.svg)を選択して、カスタムサイズのビジュアライゼーションまたはパネルのサイズを自動的に変更します。
-* フリーフォームテーブル内の[&#x200B; ハイパーリンク &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)は、ダウンロードしたPDFでクリックできます。
+* PDFには、Analysis Workspaceのブラウザーページに表示される内容が含まれています。 切り捨てられたコンテンツを避けるには、![ サイズ変更](/help/assets/icons/Resize.svg)を選択して、カスタムサイズのビジュアライゼーションまたはパネルのサイズを自動的に変更します。
+* フリーフォームテーブル内の[ ハイパーリンク ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)は、ダウンロードしたPDFでクリックできます。
 
 プロジェクトをPDF ファイルとしてダウンロードするには：
 
@@ -115,7 +105,7 @@ Only relevant as soon as CJA supports Map visualization
 >
 > ディメンションが 50,000 項目を超える場合は、異なる並べ替え指標が適用されたファイルをダウンロードするか、セグメントを適用します。 例えば、あるダウンロードでは訪問回数の降順で並べ替え、2 回目のダウンロードでは訪問回数の昇順で並べ替えます。 この説明は、ロングテールの項目を取得するのに役立ちます。
 
-プロジェクト内で複数のタスクを使用できます。また、ダウンロードの処理中に、同じタブで新しい Workspace プロジェクトに移動することもできます。 新しいブラウザータブを開くと、ダウンロードは一時停止します。 Workspace を完全に終了するか、ブラウザータブを閉じると、ダウンロードはキャンセルされます。
+プロジェクト内で複数のタスクを同時に実行できます。また、ダウンロードの処理中に、同じタブで新しい Workspace プロジェクトに移動することもできます。 新しいブラウザータブを開くと、ダウンロードは一時停止します。 Workspace を完全に終了するか、ブラウザータブを閉じると、ダウンロードはキャンセルされます。
 
 
 ### ダウンロードした項目ファイル {#items-file}
@@ -132,7 +122,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ファイルがダウンロードされると、次の通知が表示されます。
 
-* 青い&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがリクエストされました。_x _%完了]**&#x200B;進行状況を示します。 いつでもダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択します。これにより、ダウンロードがキャンセルされません。
+* 青い&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがリクエストされました。_x _%完了]**進行状況を示します。 いつでもダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択します。これにより、ダウンロードがキャンセルされません。
 * ファイルのダウンロードが完了すると、緑色の&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがダウンロードされました]**。 ファイルは、ブラウザー用に設定されたダウンロードフォルダーにダウンロードされます。
 
 一度に複数のダウンロードをリクエストする場合、前のダウンロードが完了するまで、追加のダウンロードがキューに入れられるという通知が届きます。
@@ -142,9 +132,9 @@ Only relevant as soon as CJA supports Map visualization
 
 | 質問 | 回答 |
 | --- | --- |
-| ダウンロードしたPDFが1 ページのみなのはなぜですか？ | [PDFのダウンロード &#x200B;](#download-as-csv-or-pdf)機能では、ダウンロードしたPDFにページネーションを設定できません。 |
-| **[!UICONTROL 項目をCSV]**&#x200B;としてダウンロードするオプションを使用して、50,000件以上の項目を書き出せますか？ | 各ダウンロードには最大 50,000 個のディメンションアイテムを含めることができますが、テーブルの種類を変更してテールがより長いアイテムを取得したり、フィルターを適用して特定のアイテムをダウンロードしたりできます。 |
-| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | [!UICONTROL **クリップボードにデータをコピー**]&#x200B;または&#x200B;[!UICONTROL **クリップボードに選択範囲をコピー**]&#x200B;とは異なり、**[!UICONTROL ビジュアライゼーションをコピー]** コンテキストメニューオプションは書き出しオプションではありません。 このオプションを使用すると、Workspaceのある場所から別の場所に[&#x200B; ビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)または[&#x200B; パネル &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)をコピーできます。 例えば、同じプロジェクト内のパネル間の移動、または別のプロジェクト間の移動などです。 |
+| ダウンロードしたPDFが1 ページのみなのはなぜですか？ | [PDFのダウンロード ](#download-as-csv-or-pdf)機能では、ダウンロードしたPDFにページネーションを設定できません。 |
+| **[!UICONTROL 項目をCSV]**&#x200B;としてダウンロードするオプションを使用して、50,000件以上の項目を書き出せますか？ | 各ダウンロードには最大 50,000 個のディメンション項目を含めることができますが、テーブルの並べ替えを変更してテールがより長い項目を取得したり、フィルターを適用してより特定の項目をダウンロードしたりできます。 |
+| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | [!UICONTROL **クリップボードにデータをコピー**]&#x200B;または&#x200B;[!UICONTROL **クリップボードに選択範囲をコピー**]&#x200B;とは異なり、**[!UICONTROL ビジュアライゼーションをコピー]** コンテキストメニューオプションは書き出しオプションではありません。 このオプションを使用すると、Workspaceのある場所から別の場所に[ ビジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)または[ パネル ](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)をコピーできます。 例えば、同じプロジェクト内のパネル間の移動、または別のプロジェクト間の移動などです。 |
 
 
 
@@ -252,6 +242,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

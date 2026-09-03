@@ -5,18 +5,10 @@ feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 TQID: https://experienceleague.adobe.com/WI5opV6DcvJRF--HuX8PJcJd7G-3XU0-E0hWvvdlwmM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 642
@@ -47,7 +39,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_&#x200B;のページ概要パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![&#x200B; &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
+_この記事では、_&#x200B;のページ概要パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![ ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +62,7 @@ _この記事では、_&#x200B;のページ概要パネルについて説明し�
 | アクセスポイント | 説明 |
 | --- | --- |
 | [!UICONTROL レポート] | <ul><li>パネルは既にプロジェクトにドロップされています。</li><li>左側のパネルが折りたたまれています。</li><li>ページディメンションのみがサポートされています。</li><li>デフォルト設定は既に適用されており、この場合は、[!UICONTROL ページ]ディメンションで最も多く訪問されたページです。 この設定は変更できます。</li></ul> |
-| Workspace | 新しいプロジェクトを作成し、左側のパネルのパネルアイコンを選択します。 [!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。 ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。 ドロップダウンリストからディメンション項目を選択します。 |
+| Workspace | 新しいプロジェクトを作成し、左側のパネルにあるパネルアイコンを選択します。 [!UICONTROL ページの概要]パネルをフリーフォームテーブルの上にドラッグします。 ページの「[!UICONTROL ディメンション項目]」フィールドは空のままです。 ドロップダウンリストからディメンション項目を選択します。 |
 
 ### パネル入力 {#panel-input}
 
@@ -99,7 +91,7 @@ _この記事では、_&#x200B;のページ概要パネルについて説明し�
 | **[!UICONTROL ページビュー] - 4 週間前** | 先月のこのページのページビュー数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション。 |
 | **[!UICONTROL ページビュー] - 52 週間前** | 過去 1 年間のこのページのページビュー数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)ビジュアライゼーション。 |
 | **[!UICONTROL トレンド]** | 今月、4 週間前、52 週間前のページビューのトレンド[折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md)ビジュアライゼーション。 |
-| **[!UICONTROL すべてのページビューの割合]** | このページに送信されたすべてのページビューの割合を示す数値の概要。 |
+| **[!UICONTROL すべてのページビューの割合]** | このページへのすべてのページビューの割合を示すサマリー数です。 |
 | **[!UICONTROL ページでの滞在時間]** | このページでの滞在時間を示す[横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)ビジュアライゼーション。 |
 | **[!UICONTROL 単一ページ訪問]** | このページが唯一の訪問ページだったページビューの数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 |
 | **[!UICONTROL リロード回数]** | 再読み込み中にディメンション項目が存在した回数を示す[数値の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)。 訪問者によるブラウザーの更新は、再読み込みをトリガーする最も一般的な方法です。 |

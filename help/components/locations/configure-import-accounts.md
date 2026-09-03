@@ -5,21 +5,10 @@ title: クラウド読み込みアカウントおよびクラウド書き出し�
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
 source-wordcount: 1764
@@ -33,16 +22,16 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->アカウントを作成および編集する際には、次の点を考慮してください。 <ul><li>システム管理者は、[&#x200B; ユーザーがアカウントを作成できるかどうかを設定する](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーのアカウント作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
+>アカウントを作成および編集する際には、次の点を考慮してください。 <ul><li>システム管理者は、[ ユーザーがアカウントを作成できるかどうかを設定する](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)の説明に従って、ユーザーのアカウント作成を制限できます。 この節の説明に従ってアカウントを作成できない場合は、システム管理者にお問い合わせください。</li><li>アカウントは、作成したユーザーまたはシステム管理者のみが編集できます。</li></ul>
 
 次のいずれかの目的または目的のすべてで使用されるクラウドアカウントを設定できます。
 
-* [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
+* [ データフィード ](/help/export/analytics-data-feed/create-feed.md)を使用したファイルのエクスポート
 * [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)を使用したレポートのエクスポート
 * [Report Builder](/help/analyze/report-builder/report-builder-export.md)の使用時にファイルをエクスポートする
-* [分類セット &#x200B;](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
+* [分類セット ](/help/components/classifications/sets/overview.md)を使用したスキーマの読み込み
 
-クラウドアカウントにアクセスするために必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスでは、この記事で説明されているようにアカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、[&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、そのアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します。
+クラウドアカウントにアクセスするために必要な情報をAdobe Analyticsに設定する必要があります。 このプロセスでは、この記事で説明されているようにアカウント（Amazon S3 Role ARN、Google Cloud Platformなど）を追加および設定し、[ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)で説明されているように、そのアカウント内の場所（アカウント内のフォルダーなど）を追加および設定します。
 
 既存のアカウントを表示および削除する方法について詳しくは、[Locations manager](/help/components/locations/locations-manager.md)を参照してください。
 
@@ -143,7 +132,7 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)でのみ使用できます。 （メールアカウントは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)または[分類セット &#x200B;](/help/components/classifications/sets/overview.md)ではサポートされていません）。
+   >メールアカウントは、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)でのみ使用できます。 （メールアカウントは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)または[分類セット ](/help/components/classifications/sets/overview.md)ではサポートされていません）。
 
    Azure RBAC アカウントを設定するには、次の情報を指定します。
 
@@ -157,7 +146,7 @@ ht-degree: 69%
 
    **レガシーアカウントの種類**
 
-   これらの従来のアカウントタイプは、[&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット &#x200B;](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
+   これらの従来のアカウントタイプは、[ データフィード ](/help/export/analytics-data-feed/create-feed.md)および[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)を使用してデータを書き出す場合にのみ使用できます。 これらのオプションは、[分類セット ](/help/components/classifications/sets/manage/schema.md)を含むデータを読み込む場合は使用できません。
 
    +++FTP
 
@@ -239,4 +228,4 @@ ht-degree: 69%
 
 1. 「[!UICONTROL **保存**]」を選択します。
 
-1. [&#x200B; クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を続行します。
+1. [ クラウドの読み込みと書き出しの場所の設定](/help/components/locations/configure-import-locations.md)を続行します。

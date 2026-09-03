@@ -1,24 +1,15 @@
 ---
 title: s_objectID
-description: Activity Map で、サイト上の一意のリンクを識別します。
+description: Activity Map がサイト上の一意のリンクを識別できるようにします。
 feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/20feFPXM4DBWp41J8WDrCgZmcrfnrhYFHL46MnNRtxE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 390
@@ -66,9 +57,9 @@ Adobe Analytics 拡張機能には、この変数を使用する専用のフィ�
 
 リンクが指す場所や、これらのリンクを変更する頻度に関係なく、Activity Map は、`s_objectID` の値に基づいてデータを集計します。
 
-### ページ上でリンクを別々に維持する
+### ページ上でリンクを区別する
 
-一部のサイトには、異なる場所の同じ場所を指すリンクがあります。 例えば、サイトのヘッダーとフッターの両方にあるホームページへのリンクを指定します。 これらのリンクは同じ URL なので、Activity Map はそのデータを集計します。 `s_objectID` 変数を使用して区切ることができます。
+一部のサイトでは、異なる場所に同じ場所を指すリンクが配置されています。 例えば、サイトのヘッダーとフッターの両方に配置されたホームページへのリンクなどがあります。 これらのリンクは同じ URL なので、Activity Map はそのデータを集計します。 `s_objectID` 変数を使用して区切ることができます。
 
 ```HTML
 <a href="index.html" onClick="s_objectID='Header home link';">Example link in Header</a>

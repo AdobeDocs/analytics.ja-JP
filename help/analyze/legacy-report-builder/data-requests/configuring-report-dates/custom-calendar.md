@@ -5,14 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
 TQID: https://experienceleague.adobe.com/At3YiOPV0jx5WXwe-VvA05n3yIEmiAJIRzoOoeISeA4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 409
@@ -55,7 +50,7 @@ ht-degree: 15%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>:1月には4週間、2月には5週間、3月には4週間など。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: 1月は4週間、2月は4週間、3月は5週間など。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: 1月は5週間、2月は5週間、3月は4週間など。 </li> 
-    </ul> <p>注意：このカレンダーオプションは、Analysis Workspace、Report Builder、Activity MapのすべてのAdobe Analytics ツールでサポートされています。 例外は Data Warehouse で、これはカスタムカレンダーをサポートしていません。 </p> </td> 
+    </ul> <p>注意：このカレンダーオプションは、Analysis Workspace、Report Builder、Activity MapのすべてのAdobe Analytics ツールでサポートされています。 例外は Data Warehouse で、カスタムカレンダーをサポートしていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

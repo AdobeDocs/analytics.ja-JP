@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/7GS-wW0K3hh-uZ4fTi8yajH9wgFGBW-BQjT9m1mhXuU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 409
@@ -29,20 +21,20 @@ ht-degree: 96%
 
 *このヘルプページでは、eVar の実装方法について説明します。 eVar がディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドの [eVar](/help/components/dimensions/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。 [ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。 デフォルトでは、eVar は設定されたヒットを超えても保持されます。 レポートスイート設定の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
+eVar は、任意の用途で使用できるカスタム変数です。 [ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。 デフォルトでは、eVar は設定されたヒットを超えても保持されます。 レポートスイート設定の「[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
 
 使用可能な eVar の数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-## レポートスイート設定での eVar の設定
+## レポートスイート設定で eVar を設定する
 
 実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。 詳しくは、管理者ガイドの[コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
-## Web SDK を使用した eVar
+## Web SDK を使用する eVar
 
 eVarは次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ～ `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` ～ `data.__adobe.analytics.eVar250`、または`data.__adobe.analytics.v1` ～ `data.__adobe.analytics.v250`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ～ `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` ～ `data.__adobe.analytics.eVar250`、または`data.__adobe.analytics.v1` ～ `data.__adobe.analytics.v250`
 
 ## Adobe Analytics 拡張機能を使用した eVar
 
@@ -67,7 +59,7 @@ s.eVar1 = "Example custom value";
 
 ## カウンター eVar
 
-eVar 値には通常、文字列値が含まれます。 ただし、eVar にカウンターを代わりに含めるように設定できます。 例えば、購入前におこなわれた内部検索の数をカウントするとします。 テキスト値を設定する代わりに、次の構文を使用します。
+eVar 値には通常、文字列値が含まれます。 ただし、eVar に値の代わりにカウンターを含めるように設定することもできます。 例えば、購入前に行われた内部検索の数をカウントするとします。 テキスト値を設定する代わりに、次の構文を使用します。
 
 ```js
 // Increment a counter eVar by 1

@@ -1,24 +1,15 @@
 ---
 description: Microsoft Power BI で Report Builder を使用します。
-title: Power BI への発行 - 概要
+title: Power BI への公開 - 概要
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -26,13 +17,13 @@ ht-degree: 57%
 
 ---
 
-# Power BI への発行 - 概要
+# Power BI への公開 - 概要
 
 {{legacy-arb}}
 
 Microsoft Power BIは、データを分析してインサイトを共有するためのビジネス分析ダッシュボードです。 Adobe AnalyticsとPower BIの連携により、Microsoft Power BI内でReport Builder Analyticsのデータを視覚化し、組織全体で簡単に共有できます。
 
-これまで、アナリストは、メールまたは ftp を使用して Report Builder ワークブックの配信をスケジュールしていました。 それが、関係するビジネスユーザーが、様々なプラットフォームやデバイスからアクセス可能な web ベース環境で、正確かつ最新のデータに、Power BI アカウント内からアクセスできるようになりました。
+これまで、アナリストは、メールまたは ftp を使用して Report Builder ワークブックの配信をスケジュールしていました。 これにより、ビジネス関係者は、Power BI アカウント内から、様々なプラットフォームやデバイスからアクセス可能な web ベースの環境で、正確かつ最新のデータにアクセスできるようになりました。
 
 Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。 また、Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連性および機会を発見することもできます。
 
@@ -45,7 +36,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 ## ワークブックを Power BI に発行する {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-スケジュールされたワークブックは、Adobe Analytics のデータが取り込まれた、フォーマット済みの Excel スプレッドシートです。定期的なスケジュールで配信されます。
+スケジュールされたワークブックは、Adobe Analytics のデータが入力されたフォーマット済みの Excel スプレッドシートで、定期的なスケジュールで配信されます。
 
 **Report Builder でのワークブックの発行**
 
@@ -73,7 +64,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加できます。
 
-## ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## ワークブック内のすべてのフォーマット済みテーブルを Power BI のデータセットテーブルとして公開する {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
@@ -85,7 +76,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 **Report Builder でのフォーマット済みテーブルの発行**
 
-1. Report Builder で、ヘッダー行とそれに続くデータ行を含むデータテーブルを生成します。
+1. Report Builder で、ヘッダー行（ヘッダー）とそれに続くデータ行を含むテーブルを生成します。
 1. テーブルを選択し、[!UICONTROL ホーム]メニューから&#x200B;**[!UICONTROL テーブルとしてフォーマット]**&#x200B;を選択します。 テーブルにはデフォルトで名前（テーブル 1、テーブル 2 など）が付けられますが、[!UICONTROL デザイン]メニューで名前を変更できます。
 
 1. Report Builder ツールバーで、**[!UICONTROL スケジュール]**／**[!UICONTROL 新規作成]**&#x200B;をクリックします。
@@ -103,7 +94,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
    ![レポートの作成をハイライトした Power BI セットメニューを示すスクリーンショット。](assets/datasets-menu.png)
 
-1. 公開したデータセットを選択し、その横にある「[!UICONTROL &#x200B; レポートを作成]」アイコンをクリックします。 テーブルがフィールドとして表示されます。
+1. 公開したデータセットを選択し、その横にある「[!UICONTROL  レポートを作成]」アイコンをクリックします。 テーブルがフィールドとして表示されます。
 
    ![テーブルをフィールドとしてリストする選択した公開済みデータセットを示すスクリーンショット。](assets/formatted-tables.png)
 
@@ -111,13 +102,13 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
    ![関連する列を含む選択したテーブルを示すスクリーンショット。](assets/view-table-dataset.png)
 
-1. [!UICONTROL &#x200B; ビジュアライゼーション &#x200B;] メニューから、Power BIでテーブルをビジュアライズする方法を選択できます。 例えば、データを折れ線グラフとして表示できます。
+1. [!UICONTROL  ビジュアライゼーション ] メニューから、Power BIでテーブルをビジュアライズする方法を選択できます。 例えば、データを折れ線グラフとして表示できます。
 
    ![ビジュアライゼーションメニューとデータ線グラフを示すスクリーンショット。](assets/bi-line-graph.png)
 
 1. ここから、このデータセットテーブルのビジュアライゼーションを作成できます。
 
-## すべての Report Builder リクエストを Power BI データセットテーブルとして発行する {#section_0C26057C7DBB4068A643FDD688F6E463}
+## すべての Report Builder リクエストを Power BI データセット テーブルとして公開する {#section_0C26057C7DBB4068A643FDD688F6E463}
 
 すべてのリクエストをデータセットテーブルに変換し、その上にビジュアライゼーションを作成することができます。
 
@@ -135,19 +126,19 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 **Power BI でのリクエストデータの表示**
 
-スケジュールされた各Report Builder リクエストは、データセットのテーブルとして公開されます。 各リクエストテーブルは、リクエスト内のプライマリディメンションにちなんで名前が付けられ、[!UICONTROL &#x200B; レポートスイート &#x200B;]と[!UICONTROL &#x200B; セグメント &#x200B;]列があります。
+スケジュールされた各Report Builder リクエストは、データセットのテーブルとして公開されます。 各リクエストテーブルは、リクエスト内のプライマリディメンションにちなんで名前が付けられ、[!UICONTROL  レポートスイート ]と[!UICONTROL  セグメント ]列があります。
 
 1. Power BI で、**[!UICONTROL Workspace]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
-1. 公開したリクエストを選択し、その横にある「[!UICONTROL &#x200B; レポートを作成]」アイコンをクリックします。
+1. 公開したリクエストを選択し、その横にある「[!UICONTROL  レポートを作成]」アイコンをクリックします。
 
-   リクエストが[!UICONTROL &#x200B; フィールド &#x200B;] メニューにテーブルとして表示されることに注意してください。
+   リクエストが[!UICONTROL  フィールド ] メニューにテーブルとして表示されることに注意してください。
 
    ![選択したリクエストが 2 次元の単一ヘッダー行形式で公開されたことを示すスクリーンショット。](assets/published-requests.png)
 
    >[!NOTE]
    >
-   >ワークシートで Report Builder リクエストのレイアウトをどのように設定しても（ピボットレイアウト、カスタムレイアウト、一部の列を非表示）、リクエストは同じ 2 次元の単一ヘッダー行形式（日付、ディメンション、指標、レポートスイート、セグメント）で常に発行されます。
+   >ワークシートで Report Builder リクエストのレイアウトをどのように設定しても（ピボットレイアウト、カスタムレイアウト、一部の列を非表示）、Report Builder はリクエストを常に同じ 2 次元の単一のヘッダー行形式（日付、ディメンション、指標、レポートスイート、セグメント）で公開します。
 
 1. **[!UICONTROL Legend]**&#x200B;という名前の追加のテーブルがあることも確認してください。 Report Builderのコンテキストからリクエストを取り出すと、各リクエストが何を表しているかを覚えるのが難しい場合があります。 例えば、凡例テーブルの目的は、テーブル IDの下の各リクエストの名前を表示することです。 他の凡例の列を追加して、リクエストの全体像を把握することもできます。
 

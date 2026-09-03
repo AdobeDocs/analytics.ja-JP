@@ -1,21 +1,14 @@
 ---
-description: Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
+description: Report Builder で Adobe Analytics のセグメントを追加、編集、適用、フィルターする方法を説明します。
 title: セグメントの管理（Report Builder）
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 988
@@ -27,11 +20,11 @@ ht-degree: 24%
 
 {{legacy-arb}}
 
-Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
+Report Builder で Adobe Analytics のセグメントを追加、編集、適用、フィルターする方法を説明します。
 
 Report Builderでは、リクエストウィザードの手順1でセグメント化パネルを使用して、セグメントを作成および管理できます。
 
-![&#x200B; セグメントの追加、編集、クリアのセグメントオプションと、コントロール、フィルター、更新の各アイコンを示すスクリーンショット。](assets/seg_dialog.png)
+![ セグメントの追加、編集、クリアのセグメントオプションと、コントロール、フィルター、更新の各アイコンを示すスクリーンショット。](assets/seg_dialog.png)
 
 ## セグメントの追加または編集 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -46,7 +39,7 @@ Report Builderでは、リクエストウィザードの手順1でセグメン�
 
 >[!IMPORTANT]
 >
->セグメント一覧はキャッシュされるため、一覧を更新しないと新しく作成したセグメントは表示されません。
+>セグメントリストはキャッシュされるため、リストを更新しないと新しく作成したセグメントは表示されません。
 
 ## コンテキスト内セグメントの作成 {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +50,7 @@ Report Builderでは、リクエストウィザードの手順1でセグメン�
 
    ![選択された使用可能なコンテナオプションのコンテキスト内セグメントを作成を示すスクリーンショット。](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[&#x200B; セグメント化ガイド &#x200B;](/help/components/segmentation/seg-home.md)を参照してください。
+   コンテナについて詳しくは、[ セグメント化ガイド ](/help/components/segmentation/seg-home.md)を参照してください。
 
 1. セグメントビルダーUIがInternet Explorerで起動するようになりました。 セグメントビルダーUIは、コンテナと指定したフィルターで初期化されます。
 1. セグメントに名前と説明を追加したら、セグメントを保存します。
@@ -74,7 +67,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 1. 適用するセグメントのチェックボックスをオンにします。
 
-   選択したセグメントを表示する![&#x200B; スクリーンショット。](assets/seg_list.png)
+   選択したセグメントを表示する![ スクリーンショット。](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -82,14 +75,14 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 ## セグメントのフィルタリング {#filter}
 
-**フィルターアイコンをクリックして、** セグメントをフィルタリング：![&#x200B; フィルターアイコン &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**フィルターアイコンをクリックして、** セグメントをフィルタリング：![ フィルターアイコン ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 使用可能なフィルターは次のとおりです。
 
 | フィルター名 | 説明 |
 |---|---|
 | タグ | 特定のタグを持つセグメントをフィルタリングできます。 タグフィルターでは、AND演算子が使用されます。 2つのタグをオンにすると、右側のペインに&#x200B;**両方**&#x200B;のタグが付けられたセグメントが表示されます。 |
-| 所有者 | セグメントを所有者でフィルタリングできます。 所有者フィルターはOR演算子を使用することに注意してください。 2人の所有者を確認すると、右側のペインに&#x200B;**いずれかの**&#x200B;所有者が所有するセグメントが表示されます。 |
+| 所有者 | セグメントを所有者でフィルターできます。 所有者フィルターはOR演算子を使用することに注意してください。 2人の所有者を確認すると、右側のペインに&#x200B;**いずれかの**&#x200B;所有者が所有するセグメントが表示されます。 |
 | その他のフィルター> *レポートスイート名のみ* | Adobe Analyticsのセグメントビルダーで「Only *レポートスイート名*」フィルターを適用し、[!DNL Report Builder]に詳細フィルターを表示すると、選択したレポートスイートのセグメントのみが詳細フィルターに表示されます。 |
 | その他のフィルター／自分が所有 | 所有しているすべてのセグメントが表示されます。 |
 | その他のフィルター／自分と共有 | 他のユーザーが共有したすべてのセグメントが表示されます。 |
@@ -98,13 +91,13 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 ## ワークブックへのセグメントコントロールの追加 {#segment-control}
 
-セグメントコントロールを追加すると、リクエストウィザードに移動することなく、ワークブック内からセグメントを切り替えることができるようになります。
+セグメントコントロールを追加すると、リクエストウィザードを開かなくても、ワークブック内からセグメントを切り替えられるようになります。
 
 1. セグメント ドロップダウンの横にあるコントロール アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)をクリックします。
 
 1. セグメントコントロールに表示するすべてのセグメントを確認するか、**[!UICONTROL すべてを選択]**&#x200B;を確認します。
 
-   すべての設定を選択したコントロール設定ダイアログの![&#x200B; スクリーンショット。](assets/seg_control.png)
+   すべての設定を選択したコントロール設定ダイアログの![ スクリーンショット。](assets/seg_control.png)
 
 1. 項目の選択時にリンクされたリクエストを自動的に更新する&#x200B;**[!UICONTROL オプションに注意してください]**。
 
@@ -115,7 +108,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 1. **[!UICONTROL OK]**&#x200B;をクリックすると、セグメントコントロールが指定された場所に表示されます。
 
-   「セグメントを選択」フィールドのドロップダウンフィールドを示す![&#x200B; スクリーンショット。](assets/seg_control2.png)
+   「セグメントを選択」フィールドのドロップダウンフィールドを示す![ スクリーンショット。](assets/seg_control2.png)
 
 ## セグメントのリストを更新する {#refresh}
 

@@ -5,17 +5,11 @@ feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 539
@@ -45,20 +39,20 @@ Adobe Analyticsでは、ほとんどのディメンションに32 ビットハ�
 | 50,000 | 26% |
 | 100,000 | 71% |
 
-[誕生日パラドックス &#x200B;](https://en.wikipedia.org/wiki/Birthday_problem)と同様に、一意の値の数が増えるにつれて、ハッシュ衝突の可能性が大幅に増加します。 100万の一意の値では、そのディメンションに対して少なくとも100回のハッシュ衝突が発生している可能性があります。
+[誕生日パラドックス ](https://en.wikipedia.org/wiki/Birthday_problem)と同様に、一意の値の数が増えるにつれて、ハッシュ衝突の可能性が大幅に増加します。 100万の一意の値では、そのディメンションに対して少なくとも100回のハッシュ衝突が発生している可能性があります。
 
 ## ハッシュ衝突の緩和
 
 ハッシュ衝突を完全に排除することはできませんが、レポートへの影響を軽減することはできます。 ほとんどのハッシュ衝突は、2つの珍しい値で発生し、レポートに意味のある影響を与えません。 ハッシュが共通および非共通の値と衝突しても、結果は無視できます。 しかし、2つの一般的な値がハッシュ衝突を経験するまれなケースでは、その効果を明確に確認することができます。 Adobeでは、レポートでの効果を減らすために、次のことをお勧めします。
 
 * **日付範囲を変更**: ハッシュテーブルは毎月変更されます。 日付範囲を別の月にまたがるように変更すると、各値に衝突しない異なるハッシュが設定される場合があります。 通常、特定のレポートから目に見える異常値を除去する最も高速な方法です。
-* **一意の値の数を減らします**：実装を調整するか、[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用して、ディメンションが収集する一意の値の数を減らすことができます。 例えば、ディメンションでURLを収集した場合、クエリ文字列またはプロトコルを削除できます。
-* **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)または[&#x200B; データフィード](/help/export/analytics-data-feed/data-feed-overview.md)**：これらのツールはハッシュテーブルに依存しません。
-* **[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)**&#x200B;に移動：Customer Journey Analyticsにはハッシュレイヤーがなく、[&#x200B; ディメンションに基数制限がありません](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 ハッシュの衝突または[[!UICONTROL 低トラフィック &#x200B;]](/help/technotes/low-traffic.md)が頻繁にレポートに影響を与える場合は、この製品への移行を検討してください。
+* **一意の値の数を減らします**：実装を調整するか、[処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用して、ディメンションが収集する一意の値の数を減らすことができます。 例えば、ディメンションでURLを収集した場合、クエリ文字列またはプロトコルを削除できます。
+* **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)または[ データフィード](/help/export/analytics-data-feed/data-feed-overview.md)**：これらのツールはハッシュテーブルに依存しません。
+* **[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)**&#x200B;に移動：Customer Journey Analyticsにはハッシュレイヤーがなく、[ ディメンションに基数制限がありません](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 ハッシュの衝突または[[!UICONTROL 低トラフィック ]](/help/technotes/low-traffic.md)が頻繁にレポートに影響を与える場合は、この製品への移行を検討してください。
 
 >[!MORELIKETHIS]
 >
->* Adobe Analytics[&#128279;](/help/technotes/low-traffic.md)の[!UICONTROL Low-Traffic]値
+>* Adobe Analytics](/help/technotes/low-traffic.md)の[[!UICONTROL Low-Traffic]値
 >* [処理ルールの概要](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

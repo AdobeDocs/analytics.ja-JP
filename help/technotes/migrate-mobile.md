@@ -4,19 +4,11 @@ title: Mobile Services の処理ルールの Adobe Analytics への移行
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 701
@@ -28,7 +20,7 @@ ht-degree: 89%
 
 このドキュメントでは、Mobile Services UI で作成した追加の処理ルール（ライフサイクル指標を除く）を Adobe Analytics に移行する方法について説明します。
 
-処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。 例えば、「検索語」コンテキストデータ変数の値をコマース変数 eVar の値に配置し、ヒットするたびにその値を上書きすることができます。 処理ルールがないと、Analytics にレポートが出力されないため、コンテキストデータ変数は無意味となります。
+処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。 例えば、「検索語」コンテキストデータ変数の値をコマース変数 eVar の値に配置し、ヒットするたびにその値を上書きすることができます。 処理ルールがないと、コンテキストデータ変数は意味を持たず、Analytics のどのレポートにもデータが反映されません。
 
 このドキュメントでは、Analysis Workspace でのモバイル使用レポートの実行方法についても説明します。
 
@@ -55,7 +47,7 @@ ht-degree: 89%
 
 ## Analysis Workspace でのモバイル使用レポート
 
-Analysis Workspace には、モバイル指標とディメンション（レポートスイートが Mobile Services に対して有効になっている場合）に加えて、分析を促進するモバイルプロジェクトテンプレートがいくつか用意されています。
+レポートスイートが Mobile Services に対して有効になっている場合、モバイル指標とディメンションに加えて、Analysis Workspace には分析に役立つモバイルプロジェクトテンプレートがいくつか用意されています。
 
 * **[!UICONTROL メッセージング]**：アプリ内およびプッシュメッセージングのパフォーマンスに焦点を当てています。
 * **[!UICONTROL ロケーション]**： ロケーションデータを表示するマップを含みます。
@@ -87,8 +79,8 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 * アプリ内メッセージ
 * 目標地点管理
 
-有料機能として Mobile Services を利用している場合、他の内部ツールおよび外部ツールへの実行可能な移行パスはありません。
+有料機能として Mobile Services を利用している場合、他の内部ツールや外部ツールへの有効な移行パスはありません。
 
-* 獲得リンクについては、お客様のニーズを満たすためにアドビパートナーにご案内する場合があります。
-* プッシュメッセージングおよびアプリ内メッセージングは、Adobe Campaign Standard と Adobe Campaign Classic で利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 アドビアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
+* Acquisition Links については、お客様のニーズを満たすためにアドビパートナーにご案内する場合があります。
+* プッシュメッセージングおよびアプリ内メッセージングは、Adobe Campaign Standard と Adobe Campaign Classic で利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 アドビのアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
 * 位置情報機能については、Adobe Experience Platformのお客様は無料で利用できる新しい[Adobe Experience Platform Location Service](https://www.adobe.com/jp/experience-platform/location-service.html)を導入することをお勧めします。

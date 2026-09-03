@@ -1,20 +1,14 @@
 ---
-description: 管理者は、データ辞書の正常性を監視する責任があります。 これには、コンポーネントがデータを収集しているか、承認されているか、説明が含まれているか、重複がないかが含まれます。
-title: データ辞書の正常性の監視
+description: 管理者は、データ辞書の正常性をモニタリングする責任があります。 これには、コンポーネントがデータを収集しているか、承認されているか、説明が含まれているか、重複がないかが含まれます。
+title: データ辞書の正常性を監視
 feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
@@ -58,13 +52,13 @@ Analytics 管理者は、正常なデータ辞書を保持する責任があり�
 
 * 管理者によって承認されている
 
-## データ辞書の正常性の確認
+## データ辞書の正常性を確認
 
 データ辞書で正常性の問題を特定するには：
 
 1. Analysis Workspace プロジェクトを開きます。
 
-1. Analysis Workspace の左側にある「データ辞書」アイコンを選択します （データ辞書にアクセスする別の方法については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)の「データ辞書へのアクセス」を参照してください）。
+1. Analysis Workspace の左側にある「データ辞書」アイコンを選択します。 （データ辞書にアクセスする別の方法については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)の「データ辞書へのアクセス」を参照してください）。
 
    データ辞書ウィンドウが表示されます。
 

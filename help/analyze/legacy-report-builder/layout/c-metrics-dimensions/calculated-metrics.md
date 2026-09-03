@@ -5,17 +5,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 TQID: https://experienceleague.adobe.com/Ae-k-aIMg3n3kXYWFngOzYihtlexLCoD5CmnEN3afhI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 396
@@ -39,13 +32,13 @@ Report Builder 5.2以降では、Adobe Analytics計算指標をサポートし�
 
 ## 計算指標をフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
-**フィルター**&#x200B;は、フィルターアイコンをクリックして指標を計算しました：![&#x200B; アプリケーション、ユーザー、プロジェクトのフィールドを表示するフィルターオプションのスクリーンショット。](/help/admin/tools/assets/filter.png)
+**フィルター**&#x200B;は、フィルターアイコンをクリックして指標を計算しました：![ アプリケーション、ユーザー、プロジェクトのフィールドを表示するフィルターオプションのスクリーンショット。](/help/admin/tools/assets/filter.png)
 
 詳細フィルターダイアログには、標準の指標と計算された指標の両方が表示されます。
 
 使用可能なフィルターは次のとおりです。
 
-次の表に示す詳細フィルターのオプションを示す![&#x200B; スクリーンショット。](assets/advanced_filters.png)
+次の表に示す詳細フィルターのオプションを示す![ スクリーンショット。](assets/advanced_filters.png)
 
 | フィルター名 | 説明 |
 |---|---|
@@ -61,4 +54,4 @@ Report Builder 5.2以降では、Adobe Analytics計算指標をサポートし�
 
 フィルターを選択したら、**[!UICONTROL 適用]**&#x200B;をクリックしてリクエストに適用します。 選択した指標がレポートレイアウトに追加されました。
 
-![&#x200B; リクエストウィザードの手順2 - 「詳細フィルター」ウィンドウと適用されたレポート指標を指すサイト合計を示すスクリーンショット。](assets/filtering_for_metric.png)
+![ リクエストウィザードの手順2 - 「詳細フィルター」ウィンドウと適用されたレポート指標を指すサイト合計を示すスクリーンショット。](assets/filtering_for_metric.png)

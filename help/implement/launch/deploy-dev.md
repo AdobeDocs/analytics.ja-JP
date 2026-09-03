@@ -5,19 +5,11 @@ feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2wGsyulntC5-iSfcM9HEWXqBCAL-SUXWHM2r-4ylITg'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 603
@@ -47,9 +39,9 @@ ht-degree: 48%
 8. **[!UICONTROL Add Environment]**&#x200B;をクリックし、**[!UICONTROL Staging]**&#x200B;を選択して`"Staging Environment"`という名前を付け、次にAdobe Managed Hostを選択します。 「**[!UICONTROL Create]**」をクリックし、インストール手順モーダルウィンドウを閉じます。
 9. **[!UICONTROL Add Environment]**&#x200B;をもう一度クリックし、**[!UICONTROL Production]**&#x200B;を選択し、`"Production Environment"`という名前を付け、次にAdobe Managed Hostを選択します。 「**[!UICONTROL Create]**」をクリックし、インストール手順モーダルウィンドウを閉じます。
 
-## 開発用ライブラリの構築
+## 開発用ライブラリの作成
 
-ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。 ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するコードを公開できます。
+ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。 ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するためのコードを公開できます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. サイトに実装するタグプロパティをクリックします。
@@ -90,7 +82,7 @@ web サイトのコードを管理する場合は、各コードブロックを�
 
 **ビルドに失敗しました。**
 
-一般的な理由として、ステージングまたは実稼動環境にプッシュされた他のライブラリに要素が既に存在しているというものがあります。 ライブラリを最初に作成する場合は、変更後のリソースのみがライブラリに追加されていることを確認します。
+一般的な理由として、ステージングまたは本番環境にプッシュされた他のライブラリに要素が既に存在しているというものがあります。 ライブラリを最初に作成する場合は、変更後のリソースのみがライブラリに追加されていることを確認します。
 
 ## 次の手順
 

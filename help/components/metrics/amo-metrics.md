@@ -4,15 +4,9 @@ description: Adobe Advertisingとの統合を有効にするときに使用で�
 feature: Metrics
 exl-id: 28af6ca3-9050-446b-b58f-9cc387d48846
 TQID: 'https://experienceleague.adobe.com/mHk8YRAIUUamk5khaxBD3clSRoDFXpOkDYyFlxNuG1o'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 302
@@ -22,7 +16,7 @@ ht-degree: 0%
 
 # Adobe Advertising指標
 
-これらの指標は、[Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)統合を有効にするときに自動的に作成されます。 詳しくは、Adobe Advertising ドキュメントのAnalysis Workspace[&#128279;](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)のAdobe Advertising メトリクスを参照してください。
+これらの指標は、[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)統合を有効にするときに自動的に作成されます。 詳しくは、Adobe Advertising ドキュメントのAnalysis Workspace](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)の[Adobe Advertising メトリクスを参照してください。
 
 | 指標 | 説明 |
 | --- | --- |

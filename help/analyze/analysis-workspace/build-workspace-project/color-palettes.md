@@ -5,14 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 TQID: https://experienceleague.adobe.com/q3WEHCXHxvRLFYWfhS421NBtbzpIcFcHLbnCwMU900o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 216
@@ -32,17 +27,17 @@ ht-degree: 86%
 <!-- markdownlint-enable MD034 -->
 
 
-Workspace で使用するビジュアライゼーションカラーパレットを変更できます。 事前定義済みのカラーパレットを選択するか、会社のブランディングカラーに一致する独自のパレットを指定できます。 この機能は、Workspace のほとんどのビジュアライゼーションに影響しますが、変更概要、フリーフォームテーブルの条件付き書式およびマップビジュアライゼーションには影響 **しません**。
+Workspace で使用するビジュアライゼーションカラーパレットを変更できます。 事前定義されたカラーパレットを選択するか、会社のブランディングカラーに一致する独自のパレットを指定できます。 この機能は、Workspace のほとんどのビジュアライゼーションに影響しますが、変更概要、フリーフォームテーブルの条件付き書式およびマップビジュアライゼーションには影響 **しません**。
 
 >[!NOTE]
 >
->カラーパレットのサポートは、Internet Explorer 11 に対して有効ではありません。
+>カラーパレットは、Internet Explorer 11 ではサポートされていません。
 
 ![プロジェクト情報および設定ウィンドウ](assets/color-palette.png)。
 
 次の点に注意してください。
 
-* 6 色のプリセットカラーパレットから選択できます。 デフォルトのパレットと 2 番目にリストされているパレットはいずれも、コントラストが最適化されており、色覚に障害のあるユーザーが利用しやすいようになっています。
+* 6 つのプリセットカラーパレットから選択できます。 デフォルトのパレットと 2 番目にリストされているパレットはいずれも、コントラストが最適化されており、色覚に障害のあるユーザーが利用しやすいようになっています。
 * 他のパレットは、カラーの調和のために最適化されています。
 
 ## カラーパレットの変更：
@@ -80,7 +75,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/328266?captions=jpn&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

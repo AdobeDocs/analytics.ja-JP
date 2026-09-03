@@ -7,15 +7,10 @@ type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
 source-wordcount: 964
@@ -29,7 +24,7 @@ ht-degree: 23%
 
 1 つのワークブックに対して複数のスケジュールを作成できます。 例えば、チームには毎日ワークブックを送信し、管理者には週に 1 回送信するように、2 つの異なるスケジュールを作成できます。
 
-この節で説明するように、電子メールを通じて共有するためのワークブックのスケジュール設定に加えて、[&#x200B; クラウド宛先に書き出すためのワークブックのスケジュール &#x200B;](/help/analyze/report-builder/report-builder-export.md)で説明しているように、クラウド宛先に書き出すためのワークブックのスケジュール設定を設定できます。
+この節で説明するように、電子メールを通じて共有するためのワークブックのスケジュール設定に加えて、[ クラウド宛先に書き出すためのワークブックのスケジュール ](/help/analyze/report-builder/report-builder-export.md)で説明しているように、クラウド宛先に書き出すためのワークブックのスケジュール設定を設定できます。
 
 スケジュール機能を使用すると、ワークブックのパスワード保護を設定したり、以前にスケジュールされたワークブックのスケジュールを編集したりすることもできます。
 
@@ -39,7 +34,7 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ワークブックのスケジュール &#x200B;](https://video.tv.adobe.com/v/3417506?captions=jpn&quality=12&learn=on){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ワークブックのスケジュール ](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -50,11 +45,11 @@ ht-degree: 23%
 
 1. Report Builder ハブで「**[!UICONTROL スケジュール]**」を選択してスケジュールを作成し、ブック Excel ファイル （.xlsx）を個人またはグループに自動的に配布できるようにします。
 
-   ![&#x200B; スケジュール ボタンを選択してスケジュールを作成します。](./assets/schedule.png){zoomable="yes"}
+   ![ スケジュール ボタンを選択してスケジュールを作成します。](./assets/schedule.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ワークブックをスケジュール]**」または「![追加](/help/assets/icons/Add.svg)」を選択して、新しいスケジュール済みワークブックを作成します。
 
-   ![&#x200B; ワークブックのスケジュール ウィンドウ。](./assets/schedule-workbook.png){zoomable="yes"}
+   ![ ワークブックのスケジュール ウィンドウ。](./assets/schedule-workbook.png){zoomable="yes"}
 
    スケジュールウィンドウには、ワークブック名やワークブックの最終変更日付など、ワークブックに関する事前定義済みの情報が表示されます。
 
@@ -62,7 +57,7 @@ ht-degree: 23%
 
 「**[!UICONTROL ファイル]**」セクションでは、ファイルを保護するためのファイルの種類、名前、パスワードの詳細を指定します。
 
-![&#x200B; スケジュール ウィンドウ。](./assets/schedule-pane.png){zoomable="yes"}
+![ スケジュール ウィンドウ。](./assets/schedule-pane.png){zoomable="yes"}
 
 1. まだ選択されていない場合は、![TableSelect](/help/assets/icons/TableSelect.svg)を使用して現在のワークブックを選択します。
 
@@ -101,7 +96,7 @@ Does no longer seem to be an option?
 
 「**[!UICONTROL 電子メール]**」セクションでは、電子メールの受信者、件名、説明を指定します。
 
-![&#x200B; メール設定のスケジュール &#x200B;](assets/schedule-email.png){zoomable="yes"}
+![ メール設定のスケジュール ](assets/schedule-email.png){zoomable="yes"}
 
 1. **受信者**&#x200B;を入力します。 組織で認識されている人物の名前を入力できます。 または、組織外のユーザーのメールアドレスを入力することもできます。
 
@@ -114,13 +109,13 @@ Does no longer seem to be an option?
 
 「**[!UICONTROL スケジュール]**」セクションで、ワークブックを含むメールを受信者に送信するスケジュールを定義できます。
 
-![&#x200B; スケジュール定義](assets/schedule-enable.png){zoomable="yes"}
+![ スケジュール定義](assets/schedule-enable.png){zoomable="yes"}
 
 1. 「**[!UICONTROL スケジュール設定オプションを表示]**」を選択して、スケジュールを定義します。
 
-1. **[!UICONTROL 開始日を]**&#x200B;から入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから開始日を選択します。
+1. **[!UICONTROL 開始日を]**&#x200B;から入力してください。 または、![ カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから開始日を選択します。
 
-1. 終了日を&#x200B;**&#x200B;**&#x200B;に入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから終了日を選択します。
+1. 終了日を&#x200B;****&#x200B;に入力してください。 または、![ カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから終了日を選択します。
 
 1. **[!UICONTROL 頻度]**&#x200B;を選択します。 選択した頻度に応じて、追加のオプションがあります。 以下の表を参照してください。
 
@@ -147,5 +142,5 @@ Does no longer seem to be an option?
 
 ## 従来のスケジュールされたワークブックの管理
 
-既にスケジュールされている従来のワークブックの管理について詳しくは、[&#x200B; スケジュールされたワークブックの変換](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook)を参照してください。
+既にスケジュールされている従来のワークブックの管理について詳しくは、[ スケジュールされたワークブックの変換](/help/analyze/report-builder/convert-workbooks.md#schedule-a-converted-legacy-workbook)を参照してください。
 

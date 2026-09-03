@@ -5,15 +5,10 @@ feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 role: Admin
 TQID: https://experienceleague.adobe.com/q0Ji-KYZJS486CKtHaDttXs3coS5hSYQd-cArPK1mCU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 303
@@ -30,7 +25,7 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 ## Analytics 2.0 API
 
-Analytics 2.0 APIにアクセスするには、Analytics会社のグローバル会社IDが必要です。 グローバル企業IDは、[!UICONTROL API アクセス &#x200B;] セクションの上部にある&#x200B;**太字**&#x200B;で確認できます。 次に例を示します。「現在ログインしているAnalytics Companyのグローバル企業IDは&#x200B;**adobe1234**&#x200B;です。」
+Analytics 2.0 APIにアクセスするには、Analytics会社のグローバル会社IDが必要です。 グローバル企業IDは、[!UICONTROL API アクセス ] セクションの上部にある&#x200B;**太字**&#x200B;で確認できます。 次に例を示します。「現在ログインしているAnalytics Companyのグローバル企業IDは&#x200B;**adobe1234**&#x200B;です。」
 
 ## 従来の Web サービスを管理（非推奨）
 

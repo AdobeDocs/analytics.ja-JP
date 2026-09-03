@@ -4,23 +4,11 @@ description: レポートで使用できるカスタムディメンションで�
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 TQID: https://experienceleague.adobe.com/2WMG5X3GNmogf-9Bbapq78pjVg5ibQQw7Bgb0qNpF1E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 475
@@ -30,7 +18,7 @@ ht-degree: 93%
 
 # prop
 
-*このヘルプページでは、propが[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
+*このヘルプページでは、propが[ ディメンション ](overview.md)として機能する仕組みについて説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
 
 prop は、任意の用途に使用できるカスタム変数です。 prop は、設定されたヒットの後は保持されません。
 
@@ -48,7 +36,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。 各propおよび一般的なディメンション項目の目的を[&#x200B; ソリューション設計ドキュメント &#x200B;](/help/implement/prepare/solution-design.md)に記録してください。
+prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。 各propおよび一般的なディメンション項目の目的を[ ソリューション設計ドキュメント ](/help/implement/prepare/solution-design.md)に記録してください。
 
 ## 大文字と小文字の区別
 

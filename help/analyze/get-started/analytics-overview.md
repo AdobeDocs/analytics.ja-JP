@@ -1,31 +1,15 @@
 ---
-description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する一般的な概要情報です。
+description: Analytics インターフェイスに関する情報や、管理者、アナリスト、ユーザー、開発者向けの基本を学ぶ情報など、Adobe Analytics に関する概要情報です。
 short-description: アナリスト、エンドユーザーや管理者向けの主な機能、一般的な使用例、最初の手順について説明します。
 title: Adobe Analytics の概要
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 TQID: https://experienceleague.adobe.com/0Y6ECq4CFb15l5dZgeZZPGEquu-Iv-BROLjNz02ivhU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: af53ada8-1b7d-4929-ac91-ac971dd20ec7
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: af53ada8-1b7d-4929-ac91-ac971dd20ec7id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: e4f5f438-eabb-4c54-9133-b817e3d125f5id: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 471
@@ -53,7 +37,7 @@ Adobe Analytics の基本を学ぶには、次のリソースを使用します�
 
 ## ビデオの概要
 
-Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
+Adobe Analytics の基本については、この *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データの構築、デプロイ、収集、解釈のための基盤を提供し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
 
 
 >[!BEGINSHADEBOX]
@@ -67,7 +51,7 @@ Adobe Analytics の基本については、この *Adobe Analytics の概要 - �
 
 ## Customer Journey Analytics でさらに前進
 
-Customer Journey Analytics は、Adobe Experience Platform からのデータと共に Analysis Workspace の機能を使用できるアドビの次世代 Analytics ソリューションです。 数年分のデータを分類、フィルタリング、クエリ、視覚化でき、あらゆる種類のデータスキーマやデータの種類を保持できる Platform の機能と組み合わせることができます。
+Customer Journey Analytics は、Adobe Experience Platform のデータを使用して Analysis Workspace の機能を活用できる、アドビの次世代の分析ソリューションです。 数年分のデータを分割、フィルター、クエリ、視覚化でき、あらゆる種類のデータスキーマやデータタイプを保持できる Adobe Experience Platform の機能と組み合わせて利用できます。
 
 Adobe Analytics と比較した場合の Customer Journey Analytics の利点の一部を以下に示します。
 

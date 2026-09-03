@@ -5,17 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 569
@@ -31,14 +23,14 @@ Analytics ツールガイドには、次の Analytics ツールの製品機能�
 
 | ツール | 説明 |
 |-----------|----------------|
-| **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** | Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。 ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加を行い、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。 |
+| **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** | Analysis Workspace は分析をすばやく作成してインサイトを共有できる、柔軟なブラウザーツールです。 ドラッグ＆ドロップのインターフェイスを使用して、分析を作成し、データを生き生きと見せるビジュアライゼーションを追加し、データセットをキュレーションし、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。 |
 | **[Analytics ダッシュボード](/help/analyze/mobile-app/home.md)** | Analytics ダッシュボードとそのモバイルスコアカードを使用すると、エグゼクティブユーザーは、重要な概要データの幅広いレンダリングを自分のモバイルデバイスですばやく簡単に表示できます。 キュレーターは、モバイルスコアカードプロジェクトにビジュアライゼーションを追加し、エグゼクティブと共有します。  <br>スコアカードは、KPI をターゲットにして測定する方法を提供し、組織が目標を達成するためにどの程度取り組んでいるかを明確に示します。 |
-| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。 <br>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。 |
+| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランキングし、web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。 <br>Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。 |
 | **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | Microsoft Excel 用の新しい Report Builder アドインは、Mac、Windows、web ブラウザーでサポートされています。 Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 |
-| **[レガシー Report Builder](/help/analyze/legacy-report-builder/home.md)** | レガシー Report Builder は、Microsoft Excel 用のアドインで、Microsoft Windows でのみサポートされています。 Report Builder を使用すると、Excel ワークシートに挿入された Adobe Analytics データからカスタマイズしたリクエストを作成できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。 |
+| **[レガシー Report Builder](/help/analyze/legacy-report-builder/home.md)** | レガシー Report Builder は、Microsoft Excel 用のアドインで、Microsoft Windows でのみサポートされています。 Report Builder を使用すると、Adobe Analytics データに基づくカスタマイズしたリクエストを作成し、それを Excel ワークシートに挿入できます。 リクエストではワークシート内のセルを動的に参照でき、Report Builder によるデータの表示形式は更新およびカスタマイズが可能です。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Analytics API を使用すると、アドビのサーバーを直接呼び出し、ユーザーインターフェイスで実行できるほぼすべてのアクションを実行できます。 レポートを作成して、データに関する重要な質問を調べたり、インサイトを得たり、回答したりすることができます。 また、セグメントや計算指標の作成など、Adobe Analytics のコンポーネントを管理することもできます。 |
 
-Adobe Analytics の基本については、以下の *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データの作成、デプロイ、収集、解釈するための基盤を説明し、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようにします。
+Adobe Analytics の基本については、以下の *Adobe Analytics の概要 - スキルビルダーウェビナー*&#x200B;ビデオをご覧ください。 ビデオでは、データの取得方法、Adobe Analytics へのデータの送信方法、Adobe Analytics 内で使用できるビジュアライゼーション機能の基本について説明します。 ビデオでは、データを構築、デプロイ、収集、解釈するための基盤について説明します。これにより、収集したデータに基づいて実用的なインサイトとレコメンデーションを提供できるようになります。
 
 
 >[!BEGINSHADEBOX]
@@ -55,7 +47,7 @@ Adobe Analytics の機能とその使用方法について詳しくは、[Analyt
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

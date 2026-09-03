@@ -5,17 +5,10 @@ exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 autotag-review: '2026-05-22T11:15:33.108Z'
 TQID: 'https://experienceleague.adobe.com/JlCT4gMftATb0LzdgRWyACV0WyY7nnT-LkrUNYuzu7Q'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0id: f47edbe0-f963-46ff-a667-71011396f5f3id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 219
@@ -29,8 +22,8 @@ ht-degree: 94%
 
 このガイドでは、Adobe Analytics からデータを取得する方法の概要を説明します。 以下のようなものがあります。
 
-* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。 各行は個別のヒットで、各列は変数です。 データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
-* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。 Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行と任意の数の一意の値を許可します。 データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨していません。
+* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。 各行は個別のヒットで、各列は変数です。 データフィードは、通常、[クラウドの宛先](/help/export/analytics-data-feed/create-feed.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨されません。
+* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。 Data Warehouse は、異なる処理アーキテクチャを使用することで、任意の数の行と任意の数の一意の値を扱うことができます。 データウェアハウスリクエストは、通常、[クラウドの宛先](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)に送信されます。 従来の FTP および SFTP アカウントを使用することはできますが、推奨されません。
 
 >[!BEGINSHADEBOX]
 
@@ -51,7 +44,7 @@ ht-degree: 94%
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/ja?support-solution=Analytics#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience Leagueに関するAdobe Analytics コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
 * [Adobe Analyticsの業界トレンド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://landing.adobe.com/experience-league/)

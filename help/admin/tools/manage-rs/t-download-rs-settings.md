@@ -1,21 +1,15 @@
 ---
-description: 選択したレポートスイートのすべての設定を含む Excel ワークシートを生成する方法について手順を説明します。
-title: レポートスイートの設定のダウンロード
+description: 選択したレポートスイートのすべての設定を含む Excel スプレッドシートを生成する方法についての手順を説明します。
+title: レポートスイート設定をダウンロード
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 autotag-review: '2026-05-19T13:35:43.340Z'
 TQID: 'https://experienceleague.adobe.com/BbRHNbT2FVGCo5YZ0JfkvVT-hKwra-UcA06QB2krsC8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 125
@@ -23,9 +17,9 @@ ht-degree: 100%
 
 ---
 
-# レポートスイートの設定のダウンロード
+# レポートスイート設定をダウンロード
 
-選択したレポートスイートのすべての設定を含むタブ区切りファイルを生成するには：
+選択したレポートスイートのすべての設定を含むタブ区切りファイルを生成するには、次の手順を実行します。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 
@@ -35,8 +29,8 @@ ht-degree: 100%
 
    `Report Suite Data.tab` という名前のファイルがローカルコンピューターにダウンロードされます。
 
-このファイルは、タブ区切りファイルを処理できるテキストエディターで開くことができます。
+このファイルは、タブ区切りファイルを処理できるテキストエディタで開くことができます。
 
 >[!NOTE]
 >
->   Excel などのスプレッドシートプログラムでファイルを適切に開く場合は、その前にファイルを変更する必要があります。 最初の行には最初の列の値がないので、Excel などのプログラムでファイルを適切に読み込めません。
+>   Excel などのスプレッドシートプログラムでファイルを正しく開くには、その前にファイルを変更する必要があります。 最初の行には最初の列の値がないため、Excel などのプログラムではファイルを正しくインポートできません。

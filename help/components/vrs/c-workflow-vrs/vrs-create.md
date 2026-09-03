@@ -1,26 +1,17 @@
 ---
-description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
+description: 仮想レポートスイートの作成を開始する前に、次の点に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: 702
 ht-degree: 41%
 
 ---
@@ -49,7 +40,7 @@ ht-degree: 41%
 | タグ | タグを追加してレポートスイートを整理できます。 |
 | ソース | この仮想レポートスイートの基となるレポートスイートは、次の設定を継承します。 ほとんどのサービスレベルと機能（eVar設定、処理ルール、分類など）は継承されます。 仮想レポートスイートでこれらの継承された設定を変更するには、親レポートスイート（管理者/レポートスイート）を編集する必要があります。 |
 | タイムゾーン | タイムゾーンの選択はオプションです。 タイムゾーンを選択すると、仮想レポートスイートとともに保存されます。 タイムゾーンを選択していない場合は、親レポートスイートのタイムゾーンが使用されます。  仮想レポートスイートを編集すると、仮想レポートスイートと共に保存されたタイムゾーンがドロップダウンセレクターに表示されます。 タイムゾーンのサポートが追加される前に仮想レポートスイートが作成された場合、親レポートスイートのタイムゾーンがドロップダウンセレクターに表示されます。 |
-| セグメント | セグメントは、1 つだけ追加することも、積み重ねることもできます。   メモ：2 つのセグメントを積み重ねると、それらのセグメントが AND ステートメントで結合されます。 これを OR ステートメントに変更することはできません。 仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 |
+| セグメント | セグメントは、1 つだけ追加することも、積み重ねることもできます。   メモ：2 つのセグメントを積み重ねると、それらのセグメントは AND ステートメントで結合されます。 これを OR ステートメントに変更することはできません。 仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 |
 
 ## 訪問の定義
 
@@ -60,7 +51,7 @@ ht-degree: 41%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [訪問定義の調整](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [訪問定義の調整](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +60,7 @@ ht-degree: 41%
 | **訪問定義を設定** |  |
 | レポート時間処理を有効にする | レポート時間処理を使用して、デフォルトの訪問タイムアウト長を変更します。 これらの設定は非破壊的で、Analysis Workspaceでのみ適用されます。 [詳細情報](/help/components/vrs/vrs-report-time-processing.md) |
 | 訪問タイムアウト | 新しい訪問が自動的に開始されるまでのユニーク訪問者の非アクティブな量を定義します。 これは、訪問指標、訪問セグメントコンテナ、および訪問時に期限切れになるeVarに影響します。 |
-| イベントで新しい訪問を開始 | セッションがタイムアウトしているかどうかに関係なく、指定したイベントが発生したら、新しいセッションが開始されます。 |
+| イベント発生時に新しい訪問を開始する | セッションがタイムアウトしているかどうかに関係なく、指定したイベントが発生したら、新しいセッションが開始されます。 |
 | **モバイルアプリ訪問設定** | Adobe Mobile SDKによって収集されたモバイルアプリのヒットに対する訪問の定義方法を変更します。 これらの設定は非破壊的で、Analysis Workspaceでのみ適用されます。 |
 | バックグラウンドヒットで新しい訪問が開始されないようにする | バックグラウンドヒットで、新しい訪問が開始されないようにしたり、訪問回数およびユニーク訪問者指標が水増しされないようにします。 |
 | 各アプリの起動時に新しい訪問を開始 | アプリの起動が発生したら新しいセッションを開始します。 [詳細情報](/help/components/vrs/vrs-mobile-visit-processing.md) |
@@ -79,9 +70,9 @@ ht-degree: 41%
 ![](assets/components.png)
 
 1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-仮想レポートスイートのキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション &#x200B;](/help/components/vrs/vrs-components.md)を参照してください。
+仮想レポートスイートのキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション ](/help/components/vrs/vrs-components.md)を参照してください。
 
-1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、日付範囲）を、[!UICONTROL 含まれるコンポーネント &#x200B;] セクションにドラッグします。
+1. 仮想レポートスイートに含めるコンポーネント（ディメンション、指標、セグメント、日付範囲）を、[!UICONTROL 含まれるコンポーネント ] セクションにドラッグします。
 
 1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 

@@ -5,21 +5,11 @@ feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 583
@@ -29,14 +19,14 @@ ht-degree: 98%
 
 # キャンペーントラッキングワークフロー
 
-組織がマーケティング活動のパフォーマンスとクリックスルー率を追跡する場合は、次のプロセスを使用できます。 次の各手順には、以下の専用の節があり、詳細が記載されています。
+組織でマーケティング活動のパフォーマンスやクリックスルー率をトラッキングしたい場合は、次のプロセスを使用できます。 次の各手順には、以下の専用の節があり、詳細が記載されています。
 
 1. [トラッキングコード生成プロセスを確立](#establish-a-tracking-code-generation-process)
 1. [目的のトラッキングコードをメールに追加](#add-the-desired-tracking-code-to-the-email)
 1. [Adobe Analytics 実装を設定または調整し、トラッキングコードデータを含める](#include-campaign-variables-in-your-implementation)
 1. [Analysis Workspace でレポートを表示](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/jp/products/campaign/adobe-campaign.html) は、これらの各手順を簡素化し、マーケティング活動から最大限の価値を引き出すのに役立ちます。 詳しくは、アドビ担当営業または販売店にお問い合わせください。
+[Adobe Campaign](https://business.adobe.com/jp/products/campaign/adobe-campaign.html) は、これらの各手順を簡素化し、マーケティング活動から最大限の価値を引き出すのに役立ちます。 詳しくは、アドビセールス担当者にお問い合わせください。
 
 ## トラッキングコード生成プロセスを確立
 
@@ -46,7 +36,7 @@ ht-degree: 98%
 
 ## 目的のトラッキングコードを URL に追加
 
-目的のトラッキングコード値を取得したら、広告、ソーシャルメディア、メールなど、オンラインで投稿するリンクにその値を追加できます。 これらのトラッキングコードの追加は通常、リンクのクエリ文字列で行います。 使用するクエリ文字列パラメーターは、組織のトラッキング要件に応じて異なります。一般的なクエリ文字列パラメーターは、`cid`（キャンペーン ID の略）です。 Google Analytics も使用している一部の組織では、`utm_source`、`utm_medium` などの複数のキャンペーンクエリ文字列パラメーターを既に使用している場合があります。
+目的のトラッキングコード値を取得したら、広告、ソーシャルメディア、メールなど、オンラインに掲載する任意のリンクにその値を追加できます。 これらのトラッキングコードの追加は通常、リンクのクエリ文字列で行います。 使用するクエリ文字列パラメーターは、組織のトラッキング要件に応じて異なります。一般的なクエリ文字列パラメーターは、`cid`（キャンペーン ID の略）です。 Google Analytics も使用している一部の組織では、`utm_source`、`utm_medium` などの複数のキャンペーンクエリ文字列パラメーターを既に使用している場合があります。
 
 メール内のリンクにクエリ文字列を追加すると、次のようになります。
 

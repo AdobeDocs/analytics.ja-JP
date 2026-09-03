@@ -6,24 +6,11 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1725
@@ -49,7 +36,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | コホートビジュアライゼーションは、特定の期間にわたって共通の特性を持つ人物のグループです。 コホートテーブルは、リテンション、チャーンまたは待ち時間の分析に役立ちます。 |
 | ![コンボ](/help/assets/icons/ComboChart.svg) | [コンボ](combo-charts.md) | コンボグラフを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく作成できます。 |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md) | ドーナツビジュアライゼーションは、円グラフと同様に、データを全体の一部またはセグメントとして表示します。 |
-| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | フォールアウトビジュアライゼーションは、事前に指定した一連のページ間で、ユーザーが離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。 |
+| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | フォールアウトビジュアライゼーションは、事前に定義したページシーケンスにおいて、ユーザーが離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。 |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | フロービジュアライゼーションは、web サイトおよびアプリの正確な顧客パスを表示します。 |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | フリーフォームテーブルビジュアライゼーションは、インタラクティブなビジュアライゼーションです。 フリーフォームテーブルビジュアライゼーションは、Workspace でのデータ分析の基盤となります。 |
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md) | ヒストグラムビジュアライゼーションは、指標の量に基づいて、ユーザー、訪問またはイベントをバケットにまとめます。 |
@@ -57,7 +44,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [積み重ね横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 積み重ね横棒グラフビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 主要指標の概要ビジュアライゼーションは、折れ線グラフ、変更の概要および数値の概要のビジュアライゼーションを組み合わせます。 |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [折れ線グラフ](/help/analyze/analysis-workspace/visualizations/line.md) | 折れ線グラフビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。 折れ線グラフは、X 軸で時間を表します。 |
-| ![&#x200B; グローブ &#x200B;](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | あらゆる指標（計算指標を含む）の視覚的なマップを構築できます |
+| ![ グローブ ](/help/assets/icons/Globe.svg) | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | あらゆる指標（計算指標を含む）の視覚的なマップを構築できます |
 | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散布図ビジュアライゼーションは、ディメンション項目と最大 3 つの指標の関係を表示します。 |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [セクションヘッダー](section-header.md) | パネル内のセクションを識別して明確にします。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 変更の概要ビジュアライゼーションには、選択したセル間の変更が 1 つの大きな数値または割合として表示されます。 |
@@ -94,7 +81,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 ## パネルへのビジュアライゼーションの追加
 
-1. ビジュアライゼーションを追加する Analysis Workspace プロジェクトを開きます。
+1. Analysis Workspace で、ビジュアライゼーションを追加するプロジェクトを開きます。
 
 1. 次のいずれかの方法を使用して、ビジュアライゼーションを追加します。
 
@@ -112,13 +99,13 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
    * フリーフォームテーブルのコンテキストメニューから、「**[!UICONTROL 視覚化]**」を選択します。 次に、サブメニューからビジュアライゼーションを選択します。 テーブル内の現在の選択に基づいて、Workspace は提供するビジュアライゼーションを決定し、データを解釈してリクエストされたビジュアライゼーションを作成します。
 
-簡単なビジュアライゼーション（例：[棒](bar.md)の[行](line.md)）を追加すると、ビジュアライゼーションでは、最も近いフリーフォームテーブルがデータソースとして使用されます。 ビジュアライゼーションの[&#x200B; データソース &#x200B;](#data-source)はいつでも変更できます。
+簡単なビジュアライゼーション（例：[棒](bar.md)の[行](line.md)）を追加すると、ビジュアライゼーションでは、最も近いフリーフォームテーブルがデータソースとして使用されます。 ビジュアライゼーションの[ データソース ](#data-source)はいつでも変更できます。
 
 ## ビジュアライゼーションの管理
 
 ビジュアライゼーションにカーソルを合わせるか、ビジュアライゼーションを選択すると、ビジュアライゼーションを管理できます。
 
-![&#x200B; ビジュアライゼーションの管理](assets/manage-visualization.png)
+![ ビジュアライゼーションの管理](assets/manage-visualization.png)
 
 * ビジュアライゼーションを折りたたむには、![ChevronDown](/help/assets/icons/ChevronDown.svg)を選択します。
 * 折りたたまれたビジュアライゼーションを表示するには、![ChevronLeft](/help/assets/icons/ChevronLeft.svg)を選択します。
@@ -129,7 +116,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 ## 凡例
 
-ビジュアライゼーションの凡例を使用すると、ソーステーブルの日付をビジュアライゼーション内のプロットされたシリーズに関連付けることができます。 凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーションでシリーズを表示／非表示にすることができます。これは、視覚化するデータを簡素化する場合に役立ちます。
+ビジュアライゼーションの凡例を使用すると、ソーステーブル内のデータをビジュアライゼーション内のプロットされたシリーズに関連付けることができます。 凡例はインタラクティブです。凡例項目を選択して、ビジュアライゼーションでシリーズを表示／非表示にすることができます。これは、視覚化するデータを簡素化する場合に役立ちます。
 
 また、凡例ラベルの名前を変更して、図をより使いやすくすることができます。 メモ：凡例の編集は、ツリーマップ、ブレットグラフ、変更の概要／数値の概要、テキスト、フリーフォーム、ヒストグラム、コホート、またはフローのビジュアライゼーションには&#x200B;**適用されません**。
 
@@ -166,9 +153,9 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL ビジュアライゼーションのタイプ]** | データを視覚化するために使用するビジュアライゼーションのタイプを変更します。 |
-| **[!UICONTROL 精度]** | トレンドのビジュアライゼーションの時間の精度を変更します。 この変更は、データソーステーブルにも適用されます。 |
+| **[!UICONTROL 精度]** | トレンドビジュアライゼーションの時間粒度を変更します。 この変更は、データソーステーブルにも適用されます。 |
 | **[!UICONTROL 割合 (％)]** | 値を割合で表示します。 |
-| **[!UICONTROL 100％積み重ね]** | グラフを 100％積み重ねビジュアライゼーションに変換します。  面グラフ、棒グラフ、積み重ね横棒グラフのビジュアライゼーションにのみ適用できます。 |
+| **[!UICONTROL 100％積み重ね]** | グラフを 100％積み上げグラフのビジュアライゼーションに変換します。  面グラフ、棒グラフ、積み重ね横棒グラフのビジュアライゼーションにのみ適用できます。 |
 | **[!UICONTROL 凡例を表示]** | 凡例テキストを表示します。 |
 | **[!UICONTROL 項目数の上限を設定]** | ビジュアライゼーションで表示する項目の数を制限します。 選択した場合、最大項目数を定義します。 |
 | **[!UICONTROL 注釈を表示]** | このビジュアライゼーション用に作成された注釈を表示します。 |
@@ -178,7 +165,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | **[!UICONTROL X 軸を表示]** | ビジュアライゼーションに X 軸を表示します。 |
 | **[!UICONTROL Y 軸を表示]** | ビジュアライゼーションに Y 軸を表示します。 |
 | **[!UICONTROL 折れ線グラフにバーベルを表示]** | コンボグラフビジュアライゼーションの折れ線グラフビジュアライゼーションにバーベルを表示します。 |
-| **[!UICONTROL 正規化]** | 指標を均等な比率にします。 プロットされた指標の大きさが異なる場合、均等な比率が役立ちます。 |
+| **[!UICONTROL 正規化]** | 指標を均等な比率にします。 プロットされた指標の大きさが異なる場合は、「均等な比率」オプションが役立ちます。 |
 | **[!UICONTROL 異常値を表示]** | 異常値検出を表示することで、折れ線グラフおよびフリーフォームテーブルを強化します。 線のビジュアライゼーションでの異常値検出には、期待値（破線）と期待範囲（影付きの帯）が含まれます。 |
 | **[!UICONTROL 予測を表示]** | 予測値を表示することで、折れ線グラフおよびフリーフォームテーブルを強化します。 |
 | **[!UICONTROL 最小値を表示]** | ビジュアライゼーションに最小値を表示します。 |
@@ -197,14 +184,14 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | オプション | 説明 |
 | --- | --- |
 | **[!UICONTROL コピーしたビジュアライゼーションを挿入]** | コピーしたビジュアライゼーションをプロジェクト内の別の場所または完全に別のプロジェクトにペースト（「挿入」）します。 |
-| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに[&#x200B; データ &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をコピーします。 |
+| **[!UICONTROL クリップボードにデータをコピー]** | ビジュアライゼーションからクリップボードに[ データ ](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をコピーします。 |
 | **[!UICONTROL クリップボードに選択範囲をコピー]** | [選択範囲](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)をビジュアライゼーションからクリップボードにコピーします。 |
-| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | [&#x200B; ビジュアライゼーションのディメンション項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最大50,000個）をローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
+| **[!UICONTROL 項目を CSV（*ディメンション名*）としてダウンロード]** | [ ビジュアライゼーションのディメンション項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最大50,000個）をローカルデバイスにダウンロードします。 選択したディメンションの最大ディメンション項目数は 50,000 個です。 |
 | **[!UICONTROL ビジュアライゼーションをコピー]** | ビジュアライゼーションをコピーして、プロジェクト内の別の場所または完全に別のプロジェクトにビジュアライゼーションを挿入できるようにします。 |
-| **[!UICONTROL データ CSV をダウンロード]** | [&#x200B; ビジュアライゼーションの表示データ &#x200B;](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)をローカルデバイスにダウンロードします。 |
+| **[!UICONTROL データ CSV をダウンロード]** | [ ビジュアライゼーションの表示データ ](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)をローカルデバイスにダウンロードします。 |
 | **[!UICONTROL ビジュアライゼーションを複製]** | ビジュアライゼーションの完全な複製を作成します。 |
 | **[!UICONTROL 説明を編集]** | ビジュアライゼーションの説明テキストを追加（または編集）します。 [テキスト](text.md)を参照してください。 |
-| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、ビジュアライゼーションと直接共有します。 共有リンクダイアログにリンクが表示されます。 「コピー」を選択して、リンクをクリップボードにコピーします。 |
+| **[!UICONTROL ビジュアライゼーションリンクを取得]** | リンクをコピーして、他のユーザーとビジュアライゼーションを直接共有します。 共有リンクダイアログにリンクが表示されます。 「コピー」を選択して、リンクをクリップボードにコピーします。 |
 | **[!UICONTROL やり直し]** | 現在のビジュアライゼーションの設定を削除し、ゼロから再設定できるようにします。 |
 
 
@@ -216,6 +203,6 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 ## 視覚化
 
-どのビジュアライゼーションを選択すればよいかわからない場合は、フリーフォームテーブル行（ポインタを合わせると表示されます）にある ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覚化]**&#x200B;を選択します。 この選択は、ビジュアライゼーションを追加する最も速い方法です。 Analysis Workspace では、データに最適なビジュアライゼーションを学習に基づいて推測します。 例えば、1 行を選択した場合、トレンド[折れ線グラフ](line.md)が作成されます。 3 つのフィルター行を選択した場合は、[ベン図](venn.md)が作成されます。
+どのビジュアライゼーションを選択すればよいかわからない場合は、フリーフォームテーブル行（ポインタを合わせると表示されます）にある ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覚化]**&#x200B;を選択します。 このオプションは、ビジュアライゼーションを追加する最も速い方法です。 Analysis Workspace では、利用可能な情報に基づいて、データに最適なビジュアライゼーションを推測します。 例えば、1 行を選択した場合、トレンド[折れ線グラフ](line.md)が作成されます。 3 つのフィルター行を選択した場合は、[ベン図](venn.md)が作成されます。
 
 ![クイックビジュアライゼーション](assets/quick-viz.png)

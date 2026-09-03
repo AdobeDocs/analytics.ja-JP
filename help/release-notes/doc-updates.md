@@ -6,31 +6,10 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
 source-wordcount: 7421
@@ -52,23 +31,23 @@ ht-degree: 93%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年8月** | |
-| リファラータイプディメンションに新しい会話型AI ツールを追加しました | 「Referrer type」ディメンションに、Adobeが使用するルックアップテーブルに次の[会話型AI ツール &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が追加されるようになりました。<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
+| リファラータイプディメンションに新しい会話型AI ツールを追加しました | 「Referrer type」ディメンションに、Adobeが使用するルックアップテーブルに次の[会話型AI ツール ](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が追加されるようになりました。<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |
-| クエリ文字列参照の更新 | [&#x200B; データ収集クエリパラメーター](/help/implement/validate/query-parameters.md)に大幅なリビジョンがあります。 |
+| クエリ文字列参照の更新 | [ データ収集クエリパラメーター](/help/implement/validate/query-parameters.md)に大幅なリビジョンがあります。 |
 | Data Warehouseのセグメント | [Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を更新しました。 |
-| GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
+| GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
-| ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[&#x200B; ストリーミングメディアサービスコアディメンション &#x200B;](/help/components/dimensions/sm-core.md)および[&#x200B; ストリーミングメディアサービスコアメトリクス &#x200B;](/help/components/metrics/sm-core.md)が含まれます。 |
+| ストリーミングメディアのディメンションと指標 | ストリーミングメディアのドキュメントに大幅な更新を加えた。 例へのリンクには、[ ストリーミングメディアサービスコアディメンション ](/help/components/dimensions/sm-core.md)および[ ストリーミングメディアサービスコアメトリクス ](/help/components/metrics/sm-core.md)が含まれます。 |
 | **2026年3月** | |
 | パネルの分類 | 新しい[分類](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)機能にサポートするために、[パネルのドロップゾーン](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)に関するドキュメントを再構築しました。 |
-| 新しいレポートスイートのIP難読化のデフォルトオプションを特定しました | **IP アドレスを削除**&#x200B;が、新しいレポートスイート [&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)のデフォルトのIP難読化オプションであることを示す情報を追加しました。 |
+| 新しいレポートスイートのIP難読化のデフォルトオプションを特定しました | **IP アドレスを削除**&#x200B;が、新しいレポートスイート ](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)のデフォルトの[IP難読化オプションであることを示す情報を追加しました。 |
 | 処理順序の見直し | Adobe Analyticsでの[処理順序](/help/technotes/processing-order.md)の大幅な改善。 |
 | Adobe Advertisingとの連携 | [AMO ID](/help/components/dimensions/amo-id.md)を含む、Adobe Advertising統合ディメンションと指標の追加。 |
 | **2026年2月** |  |
-| 地域および技術レポートの使用に関する情報を追加しました | 様々なAnalytics製品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)の記事で、地域および技術レポート を使用する際の違いに関する情報を追加しました。 |
+| 地域および技術レポートの使用に関する情報を追加しました | 様々なAnalytics製品](/help/analyze/get-started/analytics-product-comparison.md)の記事で、地域および技術レポート [を使用する際の違いに関する情報を追加しました。 |
 | **2026年1月** | |
-| 分類セットのルールビルダー | 分類セット [&#128279;](/help/components/classifications/sets/manage/rules.md)機能の新しい ルールビルダー機能に関するドキュメント。 |
-| デバイスグラフ | [廃止されたデバイスグラフ機能](https://experienceleague.adobe.com/ja/docs/discontinued/using/device-graph)への参照を削除しました。 |
+| 分類セットのルールビルダー | 分類セット ](/help/components/classifications/sets/manage/rules.md)機能の新しい[ ルールビルダー機能に関するドキュメント。 |
+| デバイスグラフ | [廃止されたデバイスグラフ機能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)への参照を削除しました。 |
 
 ### 2025年 {#year2025}
 
@@ -76,7 +55,7 @@ ht-degree: 93%
 | --- | --- |
 | **2025年11月** | |
 | VISTA ルールに関する重要な考慮事項 | [Vista ルール](/help/technotes/vista.md)に関する重要な考慮事項を更新しました。 |
-| 会話型AI ツールのデータ列IDを追加しました | ref_type列に会話型AI ツールの[&#x200B; データ列参照ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を追加しました。 |
+| 会話型AI ツールのデータ列IDを追加しました | ref_type列に会話型AI ツールの[ データ列参照ID](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を追加しました。 |
 | **2025年10月** | |
 | 分類セット | [分類セット](/help/components/classifications/sets/overview.md)ドキュメントの更新。 |
 | アトリビューション設定 | モデル、コンテナ、ルックバックウィンドウの新しいアトリビューション設定オプションを反映する追加の更新。 |
@@ -96,11 +75,11 @@ ht-degree: 93%
 | **2025年3月** |  |
 | Analytics インベントリ | [Analytics インベントリ](/help/admin/tools/analytics-inventory.md)では、プロジェクトとコンポーネント、レポートスイート、ユーザーの数など、Adobe Analytics 環境の包括的な概要を提供します。 |
 | Customer Journey Analytics アップグレードガイド | Adobe Analytics から Customer Journey Analytics にアップグレードするための[ステップバイステップガイド](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=ja#recommended-upgrade-steps-for-most-organizations)を生成できます。 |
-| Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)の コンポーネントサポートの[非標準の日付書式設定](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)のディメンションを参照してください。</p> |
+| Data Warehouse の書き出しの日付形式を明確化しました | Data Warehouse の書き出しにおける時間ベースのディメンション値には、非標準の日付形式が使用されています。 Data Warehouse の書き出しから日付の値を解釈する方法を説明する情報を追加しました。 <p>Data Warehouse](/help/export/data-warehouse/component-support.md)の[ コンポーネントサポートの[非標準の日付書式設定](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)のディメンションを参照してください。</p> |
 | IP 除外に関する情報を更新しました | [IP 除外](/help/admin/tools/exclude-ip.md)が有効になるまでに最大 5 分かかることと、変更は新しいヒットにのみ適用されること（除外を設定する前に取得されたデータは影響を受けない）を説明する情報を追加しました。 <p>また、読みやすさを向上させるために、コンテンツのレイアウトも更新しました。</p> |
 | **2025年2月** |  |
 | データフィードの一時停止と再アクティブ化に関する情報の更新 | [データフィードの一時停止と再アクティブ化](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)を実行する際のライブフィードの動作を明確にしました。 フィードの一時停止から再アクティブ化を実行するまで、データ処理は行われません。 |
-| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。 transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。 [&#x200B; ページ変数](/help/implement/vars/page-vars/transactionid.md)および[&#x200B; データソース &#x200B;](/help/import/data-sources/transactionid.md)を参照してください。 |
+| トランザクション ID の保持期間の変更 | トランザクション ID の保持期間である 90 日は、25 か月に延長されました。 transactionID 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。 [ ページ変数](/help/implement/vars/page-vars/transactionid.md)および[ データソース ](/help/import/data-sources/transactionid.md)を参照してください。 |
 | Livestream API - クライアント実装 | Livestream データを使用するには、[Livestream クライアント実装](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)を使用します。 |
 | Classifications API の更新 | [サーバーから個々の分類フィールドまたはキーを削除](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)できるようになりました。 これにより、DELETE メソッドを使用して分類データセット全体を削除する代替手段が提供されます。 |
 | **2025年1月** |  |
@@ -149,7 +128,7 @@ ht-degree: 93%
 | データウェアハウスとデータフィードで、Azure SAS と Azure RBAC にファイルをアップロードする権限要件を追加しました。 | Azure SAS と Azure RBAC にファイルをアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定をする](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | データウェアハウスとデータフィードで、ファイルを Amazon S3 と GCP バケットにアップロードする権限要件を追加しました。 | ファイルを Amazon S3 バケットと Google Cloud Platform バケットにアップロードする正確な権限要件を追加しました。[データウェアハウスの宛先を設定する](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)場合や[データフィードの宛先を設定する](/help/export/analytics-data-feed/create-feed.md)場合に使用します。 |
 | **2024年1月** | |
-| コンポーネントの移行は個々の IMS 組織に適用されます。 | [コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
+| コンポーネントの移行を個々の IMS 組織に適用 | [コンポーネントの移行](/help/admin/tools/component-migration/component-migration.md)では IMS 組織間の移行がサポートされていないことを明確にしました。 |
 | 特定の情報は管理者のみが利用できることを明確化 | [計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md)および[セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で説明している「前回の使用」列と「使用場所」列は、システム管理者のみが使用できることを示す情報を追加しました。 |
 | メディア分平均オーディエンスに関するドキュメントの更新 | [メディア分平均オーディエンスパネル](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)の情報を更新して、明確化しました。<p>改善点を以下に示します。</p> <ul><li>情報の組織化の改善</li><li>タスクベースの情報を示す手順を追加しました。</li></ul> |
 
@@ -178,7 +157,7 @@ ht-degree: 93%
 | スケジュールされたプロジェクトの管理に関するコンテンツの移動 | Analytics コンポーネントガイドに[スケジュールされたプロジェクト](/help/components/scheduled-projects-manager.md)という新しい記事を作成しました。 このコンテンツは、以前は Analytics ツールガイドの[プロジェクトのスケジュール](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)という記事に記載されていました。 |
 | 実装方法の比較 | 様々な実装方法を比較するドキュメントを更新しました。 [詳細情報](../implement/prepare/comparison.md) |
 | データフィード用の SFTP を設定する際に、アドビカスタマーケアは不要であることを明記しました。 | [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)で、データフィード用の SFTP を設定するために、お客様がアドビカスタマーケアとのやり取りが不要であることを明記しました。 <p>また、SFTP は推奨されなくなり、データフィードを設定する際にはお客様はクラウドの宛先を使用する必要があるというメモも追加しました。</p> |
-| ストリーミングメディアコレクションのドキュメントの改善 | ストリーミングメディアコレクションのドキュメントに、次の改善を加えました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/overview)を更新しました。 また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)および [Analytics のみの実装](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)に固有の前提条件を追加しました。 また、[一般的な前提条件](https://experienceleague.adobe.com/ja/docs/media-analytics/using/getting-started/prereqs)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/ja/docs/media-analytics/using/getting-started/download-sdks)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/ja/docs/media-analytics/using/implementation/overview)領域の記事の内容と構成を合理化しました。 これには、Edge 実装と Analytics のみの実装に分類することも含まれます。</li><li>[トラッキング](https://experienceleague.adobe.com/ja/docs/media-analytics/using/tracking/track-core-overview)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
+| ストリーミングメディアコレクションのドキュメントの改善 | ストリーミングメディアコレクションのドキュメントに、次の改善を加えました。 <ul><li>明確さを改善し、Customer Journey Analytics に関連する情報を含めるために、[一般的な概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を更新しました。</li><li>Edge の実装と Analytics のみの実装を明確に区別するために、[実装の概要](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)を更新しました。 また、様々な実装方法を説明する図も含めました。</li><li>[Edge の実装](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)および [Analytics のみの実装](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)に固有の前提条件を追加しました。 また、[一般的な前提条件](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/prereqs)も更新しました。</li><li>[Media SDK、タグを使用した拡張機能、OTT SDK の取得](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/download-sdks)の記事にある表を更新し、*サポートされるソリューション*&#x200B;と&#x200B;*実装方法*&#x200B;の新しい列を追加しました。</li><li>ドキュメントの[実装](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)領域の記事の内容と構成を合理化しました。 これには、Edge 実装と Analytics のみの実装に分類することも含まれます。</li><li>[トラッキング](https://experienceleague.adobe.com/en/docs/media-analytics/using/tracking/track-core-overview)の下で必要のなかった余分な階層レベルを削除し、変更した URL のリダイレクトをこの節に追加しました。</li><ul> |
 | **2023年7月** | |
 | Adobe Experience Platform Edge Network API | [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) を使用して Adobe Analytics によるデータ収集を実装するタイミングと方法に関する、より包括的なドキュメントを追加しました。 例えば、デスクトップアプリケーション、IoT デバイス、セットトップボックスに Adobe Analytics を使用したデータ収集を実装します。 |
 | グローバル会社 ID | ログインしている Analytics 会社の[グローバル会社 ID を検索する方法](../admin/tools/company/web-services-admin.md)を文書化しました。 この ID は、Analytics 2.0 API で必要です。 |
@@ -212,14 +191,14 @@ ht-degree: 93%
 | 内部 URL フィルター | 記事のコンテンツを明確にし、改善するための節と段階的な手順を追加しました。 [内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)を参照してください。 |
 | モバイルスコアカードでのデータストーリーの作成 | [データストーリー](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)は、中心的なテーマや指標に基づいて作成された、サポート対象データポイント、ビジネスコンテキスト、関連指標のコレクションです。 |
 | デフォルトの計算指標 | [アドビが提供するデフォルトの計算指標](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)を説明するコンテンツを追加しました。 |
-| データ辞書 | <p>データ辞書の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ辞書に関する新しいドキュメントを追加しました。</p><p>データ辞書機能を説明するために、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を更新しました。</p> |
+| データ辞書 | <p>データ辞書の[概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[表示](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)、[モニタリング](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)など、データ辞書に関する新しいドキュメントを追加しました。</p><p>データ辞書機能を説明するために、[コンポーネントの説明の追加](/help/analyze/analysis-workspace/components/add-component-descriptions.md)の情報を更新しました。</p> |
 | プロジェクトのリンク共有（ログインは不要） | <p>Analysis Workspace へのアクセス権を持たないユーザーとプロジェクトの読み取り専用リンクを共有する方法を説明するために、既存のドキュメントを更新しました。</p> <p>ユーザードキュメントの更新内容には、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)と[共有可能なリンクの作成](/help/analyze/analysis-workspace/curate-share/shareable-links.md)が含まれています。</p> <p>[環境設定](/help/analyze/analysis-workspace/user-preferences.md)に管理者向けのオプションを追加しました。</p> |
 | **2023年2月** | |
 | 実装 | [Web およびモバイル用 Adobe Analytics の実装](../implement/home.md)方法に関する内容を更新しました。 |
 | Workspace のカレンダーと日付範囲 | 内容を更新して、相対的な日付範囲、数式計算の更新およびカレンダー UI の変更について説明しました。 [パネルを基準とする相対的な日付範囲について](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。 |
 | モバイルスコアカード | 比較日付範囲の表示／非表示の切り替え方法を説明する新しいドキュメントセクション。 Customer Journey Analytics の[比較日付範囲の表示](/help/analyze/mobile-app/create-scorecard.md)を参照してください。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) は完全に書き直され、現在 Adobe Developer で公開されています。 |
-| 実装タイプでのトラッキング | 訪問者ID サービスに対応するために、様々な実装タイプ [&#128279;](../implement/id/cross-type-implementation.md)をまたいでユースケース 追跡を更新しました。 |
+| 実装タイプでのトラッキング | 訪問者ID サービスに対応するために、様々な実装タイプ ](../implement/id/cross-type-implementation.md)をまたいでユースケース [追跡を更新しました。 |
 | **2023年1月** | |
 | テーブルのフィルタリングと並べ替え | [テーブルのフィルタリングと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)に関する記事の内容を更新しました（手順の追加や使用可能なオプションの説明など）。 この記事の名前を「テーブルのページネーション、フィルタリングおよび並べ替え」から変更しました。 |
 | フォルダー | [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)用の専用ページ。 |
@@ -293,7 +272,7 @@ ht-degree: 93%
 | 2021年7月15日 | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を更新しました |
-| 2021年6月3日 | ドキュメントを更新して、[&#x200B; データフィード実装](/help/export/analytics-data-feed/create-feed.md)と[BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl)の説明を改善しました。 |
+| 2021年6月3日 | ドキュメントを更新して、[ データフィード実装](/help/export/analytics-data-feed/create-feed.md)と[BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl)の説明を改善しました。 |
 | 2021年5月25日 | [レポートで eVar の大文字と小文字の区別](/help/components/dimensions/evar.md)に関するドキュメントを更新しました。 |
 | 2021年5月13日 | [Data Warehouse API リクエスト](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)を更新しました。 「Hours」をサポートするようになりました。 |
 | **2021年3月** | |

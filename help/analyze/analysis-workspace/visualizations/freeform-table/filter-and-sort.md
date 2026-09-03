@@ -5,17 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 TQID: 'https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1585
@@ -23,9 +16,9 @@ ht-degree: 51%
 
 ---
 
-# フリーフォームテーブルのフィルタリングと並べ替え
+# フリーフォームテーブルのフィルターと並べ替え
 
-Analysis Workspace のフリーフォームテーブルは、インタラクティブなデータ分析の基盤となります。 そのため、何千行もの情報を含めることができます。 データのフィルタリングと並べ替えは、最も重要な情報を効率的に表示するための重要な要素になる可能性があります。
+Analysis Workspace のフリーフォームテーブルは、インタラクティブなデータ分析の基盤となります。 そのため、何千行もの情報を含めることができます。 データのフィルターと並べ替えは、最も重要な情報を効率的に表示するうえで重要な役割を果たします。
 
 ## テーブルのフィルタリング
 
@@ -33,9 +26,9 @@ Analysis Workspace のフィルターは、最も重要な情報を表示する�
 
 >[!NOTE]
 >
-> この節で説明するように、フィルタリングできるのは動的ディメンション項目のみです。 静的ディメンション項目はフィルタリングできません。 詳しくは、[フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)を参照してください。
+> このセクションで説明するように、フィルタリングできるのは動的ディメンション項目のみです。 静的ディメンション項目はフィルタリングできません。 詳しくは、[フリーフォームテーブルの動的ディメンション項目と静的ディメンション項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)を参照してください。
 
-フリーフォームテーブルから行をフィルタリングするには、いくつかの方法を使用できます。
+フリーフォームテーブルの行をフィルタリングするには、いくつかの方法があります。
 
 * テーブルから特定の行を除外
 * テーブルにフィルターを適用
@@ -69,9 +62,9 @@ Note: this option does not seem to work. AN-338422
 -->
 
 
-### テーブルへのシンプルなフィルターまたは高度なフィルターの適用
+### テーブルにシンプルなフィルターまたは高度なフィルターを適用
 
-フリーフォームテーブルでデータをフィルタリングするには：
+フリーフォームテーブルでデータにフィルターを適用するには：
 
 1. フィルタリング対象のデータを含んだ列の上にポインタを合わせます。<!--only some types of columns show the filter... Which? Just Dimensions?-->
 
@@ -110,7 +103,7 @@ Note: this option does not seem to work. AN-338422
 
 スパークラインに加えて、接続されたラインのビジュアライゼーションに含めるフィルター条件を設定できます。 （デフォルトでは、フィルター条件は行のビジュアライゼーションに含まれません。 折れ線グラフは、接続されたテーブルで選択された行のデータを表示します。 行が選択されていない場合は、接続されたテーブルの最初のディメンションのデータのみが表示されます）。
 
-スパークラインと折れ線グラフの視覚化について詳しくは、[&#x200B; フリーフォームテーブルのトレンド データの表示](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)を参照してください。
+スパークラインと折れ線グラフの視覚化について詳しくは、[ フリーフォームテーブルのトレンド データの表示](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)を参照してください。
 
 #### フィルター条件を含める行のビジュアライゼーションの設定
 
@@ -118,7 +111,7 @@ Note: this option does not seem to work. AN-338422
 
    スパークラインセルを選択すると、濃いグレーで表示されます。 これは、フィルター条件が接続された行のビジュアライゼーションに含まれていることを示します。 フィルター条件は、列のセグメントとして適用されます。<!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   ![&#x200B; スパークラインが選択されました](assets/table-sparkline-selected.png)
+   ![ スパークラインが選択されました](assets/table-sparkline-selected.png)
 
 #### 列の合計が不正確になるタイミングを把握する
 
@@ -175,7 +168,7 @@ Analysis Workspaceでは、自由形式テーブルのデータを次の種類�
 
 1. 「**[!UICONTROL 高度な並べ替え]**」を選択します。
 
-   ![高度な並べ替えダイアログ &#x200B;](assets/sort-advanced-dialog.png)
+   ![高度な並べ替えダイアログ ](assets/sort-advanced-dialog.png)
 
 1. 詳細な並べ替えダイアログで、次のいずれかの操作を行います。
 
@@ -195,11 +188,11 @@ Analysis Workspaceでは、自由形式テーブルのデータを次の種類�
 
 並べ替えが列に適用される場合、並べ替えアイコンは表示されたままになります。 矢印は、データの並べ替え方法を示します（![昇順の場合は](/help/assets/icons/SortOrderUp.svg)、降順の場合は![並べ替え](/help/assets/icons/SortOrderDown.svg)）。
 
-![&#x200B; マルチソートの例](assets/dimensions-multiple-sort.png)
+![ マルチソートの例](assets/dimensions-multiple-sort.png)
 
 ### 並べ替えの優先順位
 
-複数の列でデータを並べ替える際、各列に割り当てた優先度に従ってデータが並べ替えられます。 優先度の番号付けは、並べ替えアイコン ![並べ替え優先度アイコン &#x200B;](assets/sort-priority-icon.png)の横に表示されます。
+複数の列でデータを並べ替える際、各列に割り当てた優先度に従ってデータが並べ替えられます。 優先度の番号付けは、並べ替えアイコン ![並べ替え優先度アイコン ](assets/sort-priority-icon.png)の横に表示されます。
 
 プライマリ優先順位付きの列がメインの順序を決定し、セカンダリ優先順位付きの列がプライマリ列とセカンダリ列で同じ値を持つ行の順序を決定します。プライマリ優先順位付きの列がプライマリ列とセカンダリ列で同じ値を持つ行の順序を決定します。
 
@@ -224,4 +217,4 @@ Analysis Workspaceでは、自由形式テーブルのデータを次の種類�
 
 各列に並べ替え優先順位を割り当てることで、テーブルでのデータの表示方法を正確に制御できます。 この例では、情報は最初に日別、次にページビュー別、次に訪問別、最後にコンテンツベロシティ別にソートされます。
 
-![&#x200B; マルチソートの例](assets/dimensions-multiple-sort.png)
+![ マルチソートの例](assets/dimensions-multiple-sort.png)

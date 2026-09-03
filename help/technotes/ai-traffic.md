@@ -4,18 +4,10 @@ title: AI チャットボットからのトラフィックを分析する
 feature: Metrics, Data Configuration and Collection
 exl-id: 0b013b7d-02a2-405d-bdd6-c991f0baac8e
 TQID: https://experienceleague.adobe.com/lyzSP-7iZ8Y5XiTG1t7Axsg1f5AJf6BbcZbu7MmkwWU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 643
@@ -49,10 +41,10 @@ JavaScriptを実行すると、web ページにヒットが生成されます。
 
 | AI トラフィックタイプ | ヒットを生成 | 注意点 |
 |---------|----------|---------|
-| **トレーニング** | はい | ヒットは、事前学習中にweb サイトのコンテンツがAIに取り込まれたときに生成されます。 しかし、プリトレーニングが行われることはほとんどなく、AIのプリトレーニングに含まれるコンテンツは、web サイトにヒットを生み出すことなく、今後のレスポンスで何度も再利用することができます。 <p>つまり、AIのトレーニング中に発生した1回のヒットを、web サイトに追加のヒットを生成することなく、複数のオンデマンド応答に何度も再利用することができます。</p><p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[&#x200B; ボット検出を使用したAI トラフィックの分析](#analyze-ai-traffic-using-bot-detection)を参照してください。</p> |
+| **トレーニング** | はい | ヒットは、事前学習中にweb サイトのコンテンツがAIに取り込まれたときに生成されます。 しかし、プリトレーニングが行われることはほとんどなく、AIのプリトレーニングに含まれるコンテンツは、web サイトにヒットを生み出すことなく、今後のレスポンスで何度も再利用することができます。 <p>つまり、AIのトレーニング中に発生した1回のヒットを、web サイトに追加のヒットを生成することなく、複数のオンデマンド応答に何度も再利用することができます。</p><p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[ ボット検出を使用したAI トラフィックの分析](#analyze-ai-traffic-using-bot-detection)を参照してください。</p> |
 | **オンデマンド プロンプト** | いいえ | 応答では、次の組み合わせを使用するため、AI応答はヒットを生成しません。<ul><li>学習済みデータ <br/>AIの学習済みナレッジに既に情報が含まれているため、AIはJavaScriptをページに対して実行しません。</li><li>オンデマンド web検索<br/>Web検索中にweb ページの生のHTMLのみを取得するので、AIはページ上でJavaScriptを実行しません。</li></ul> |
-| AI回答の&#x200B;**Sourceの資料リンク** | はい | ヒットは、ユーザーがAI応答に含まれるソース素材へのリンクをクリックすると生成されます。 応答にリンクが含まれ、ユーザーがリンクをクリックしない場合、ヒットは生成されません。 <p>AI チャットボットの応答には、ソース資料へのリンクが含まれているものもあれば、含まれていないものもあります。 </p><p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[&#x200B; リファラータイプ別のAI トラフィックの分析](#analyze-ai-traffic-by-referrer-type)を参照してください。</p> |
-| **エージェント型ワークフロー** | はい | ヒット数は、AI エージェントがユーザーの代理でワークフローをクリックするにつれて、各ページで生成されます。 <p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[&#x200B; リファラータイプ別のAI トラフィックの分析](#analyze-ai-traffic-by-referrer-type)を参照してください。</p> |
+| AI回答の&#x200B;**Sourceの資料リンク** | はい | ヒットは、ユーザーがAI応答に含まれるソース素材へのリンクをクリックすると生成されます。 応答にリンクが含まれ、ユーザーがリンクをクリックしない場合、ヒットは生成されません。 <p>AI チャットボットの応答には、ソース資料へのリンクが含まれているものもあれば、含まれていないものもあります。 </p><p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[ リファラータイプ別のAI トラフィックの分析](#analyze-ai-traffic-by-referrer-type)を参照してください。</p> |
+| **エージェント型ワークフロー** | はい | ヒット数は、AI エージェントがユーザーの代理でワークフローをクリックするにつれて、各ページで生成されます。 <p>Analysis Workspaceでこの種類のAI トラフィックを分析する方法について詳しくは、[ リファラータイプ別のAI トラフィックの分析](#analyze-ai-traffic-by-referrer-type)を参照してください。</p> |
 
 ## Analysis WorkspaceのAI トラフィックの分析
 
@@ -66,7 +58,7 @@ Analysis Workspaceのリファラータイプディメンションを使用す�
 
 リファラータイプ ディメンションには、[対話型AI ツール ディメンション項目](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が含まれます。 このディメンション項目には、事前定義済みの AI チャットボットのリストが含まれています。
 
-詳しくは、[&#x200B; リファラータイプ &#x200B;](/help/components/dimensions/referrer-type.md)を参照してください。
+詳しくは、[ リファラータイプ ](/help/components/dimensions/referrer-type.md)を参照してください。
 
 ### ボット検出を使用したAI トラフィックの分析
 

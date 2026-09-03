@@ -6,25 +6,11 @@ role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 autotag-review: '2026-05-22T09:19:57.382Z'
 TQID: 'https://experienceleague.adobe.com/O1TMjrV56s5v-x3waE7oKGog18sasEjo06eYiquAWjI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -38,7 +24,7 @@ Analysis Workspace では、分析をすばやく作成してインサイトを�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace の概要](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace の概要](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -63,26 +49,26 @@ Analysis Workspace の主な機能は、ボタンパネルから使用できま�
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL パネル]** | [パネル](/help/analyze/analysis-workspace/c-panels/panels.md)を使用すると、プロジェクト内の分析を整理し、多数のテーブルやビジュアライゼーションを含めることができます。 Analysis Workspace で提供される多くのパネルは、少数のユーザー入力に基づいてフルセットの分析を生成します。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL ビジュアライゼーション]** | 棒グラフや折れ線グラフなどの[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を使用して、データを視覚的に表示できます。 左端のパネルで、中央の&#x200B;**[!UICONTROL ビジュアライゼーション]**&#x200B;アイコンを選択し、使用可能なビジュアライゼーションの完全なリストを表示します。 |
-| ![キュレート](/help/assets/icons/Curate.svg) | **[!UICONTROL コンポーネント]** | [コンポーネント](/help/components/home.md)には、次の要素が含まれます。<ul><li>![ディメンション](/help/assets/icons/Dimensions.svg) [ディメンション](/help/components/dimensions/overview.md)</li><li>![イベント](/help/assets/icons/Event.svg) [指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![セグメント化](/help/assets/icons/Segmentation.svg) [セグメント](/help/components/segmentation/seg-overview.md)</li><li>![カレンダー](/help/assets/icons/Calendar.svg) [日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
+| ![キュレート](/help/assets/icons/Curate.svg) | **[!UICONTROL コンポーネント]** | [コンポーネント](/help/components/home.md)には、次の要素が含まれます。<ul><li>![ディメンション](/help/assets/icons/Dimensions.svg)[ディメンション](/help/components/dimensions/overview.md)</li><li>![イベント](/help/assets/icons/Event.svg)[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![セグメント化](/help/assets/icons/Segmentation.svg)[セグメント](/help/components/segmentation/seg-overview.md)</li><li>![カレンダー](/help/assets/icons/Calendar.svg)[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目次]** | [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)は、プロジェクトに含まれるすべてのパネルとビジュアライゼーションを折りたたみ可能なリストに整理するので、特定のパネルやビジュアライゼーションにすばやくアクセスできます。 |
 | ![ブックマーク](/help/assets/icons/Bookmark.svg) | **データ辞書** | [データ辞書](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)は、ユーザーと管理者の両方にとって、Analytics 環境のコンポーネントを追跡したり、理解を深めたりするのに役立ちます。 |
 
 
 ## メニュー
 
-Analysis Workspace のほとんどの機能は、ドラッグ＆ドロップのほか、パネル、ビジュアライゼーションおよびコンポーネント内のコンテキストメニューから利用できます。
+Analysis Workspace のほとんどの機能は、ドラッグ＆ドロップや、パネル、ビジュアライゼーションおよびコンポーネント内のコンテキストメニューから利用できます。
 
-Workspace メニューとショートカットまたはホットキーを使用して、機能を利用することもできます。 ショートカットキーは、ブラウザーを実行しているオペレーティングシステムによって異なります。 概要について詳しくは、以下の表を参照してください。
+Workspace メニューとショートカットまたはホットキーを使用して、機能を利用することもできます。 ショートカットキーは、ブラウザーを実行しているオペレーティングシステムによって異なります。 概要は以下の表を参照してください。
 
 キーボードでは、次のシンボルが使用される場合があります。
 
-- **[!UICONTROL *Shift キー&#x200B;*]**&#x200B;の代わりに&#x200B;**⇧**。
+- **[!UICONTROL *Shift キー&#x200B;*]**の代わりに**⇧**。
 - **[!UICONTROL *cmd *]**（コマンド）の代わりに&#x200B;**⌘**。
 - **[!UICONTROL *ctrl *]**（Control）の代わりに&#x200B;**⌃**。
 - **[!UICONTROL *opt *]**（Option）の代わりに&#x200B;**⌥**。
 - **[!UICONTROL *alt *]**（Alternate）の代わりに&#x200B;**⎇**。
 
-利用できるメニューの概要について詳しくは、以下の表を参照してください。
+利用できるメニューの概要は、以下の表を参照してください。
 
 | **[!UICONTROL プロジェクト]** | ショートカット Mac | ショートカット Windows | 説明 |
 |---|---|---|---|
@@ -141,7 +127,7 @@ Workspace メニューとショートカットまたはホットキーを使用�
 |---|---|
 | **[!UICONTROL ビデオ]** | 新しいブラウザータブで、Customer Journey Analytics の YouTube チャネルを開きます。 |
 | **[!UICONTROL ヘルプドキュメント]** | ドキュメントを開きます（現在読んでいるところです…） URLを貼り付けます。 |
-| **[!UICONTROL ヘルプフォーラム]** | 新しいブラウザータブで、Adobe Analytics Experience League コミュニティフォーラムを開きます。 |
+| **[!UICONTROL ヘルプフォーラム]** | 新しいブラウザータブで、Adobe Analytics Experience League communities フォーラムを開きます。 |
 | **[!UICONTROL ホットキー]** | Workspace で使用できるホットキー（ショートカット）の概要を示します。 |
 | **[!UICONTROL デバッガーの有効化]** | デバッガーを有効にします。 プロジェクトが再読み込みされます。 |
 | **[!UICONTROL デバッガーの無効化]** | デバッガーを無効にします。 プロジェクトが再読み込みされます。 |
@@ -173,9 +159,9 @@ Analysis Workspace での分析は、[プロジェクト](/help/analyze/analysis
 
 Analysis Workspace で分析を作成すると、作業内容は[自動保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)されます。
 
-プロジェクトの作成が完了し、実用的なインサイトを収集すると、そのプロジェクトを他のユーザーが使用できます。 プロジェクトは、組織内のユーザーやグループだけでなく、組織外の人物と共有することもできます。 プロジェクトの共有について詳しくは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)を参照してください。
+プロジェクトの作成が完了し、実用的なインサイトを収集できるようになると、そのプロジェクトを他のユーザーも使用したいと考える場合があります。 プロジェクトは、組織内のユーザーやグループだけでなく、組織外の人物と共有することもできます。 プロジェクトの共有について詳しくは、[プロジェクトの共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)を参照してください。
 
 ## その他のリソース {#resources}
 
 - アドビでは、数百もの[Analytics ビデオトレーニングチュートリアル](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/overview)を提供しています。
-- 新機能に関する更新情報については、[Adobe CX エンタープライズ版リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/release-notes/experience-cloud/current)を参照してください。
+- 新機能に関する更新情報については、[Adobe CX エンタープライズ版リリースノート ](https://experienceleague.adobe.com/ja/docs/release-notes/experience-cloud/current)を参照してください。

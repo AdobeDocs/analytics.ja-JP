@@ -4,26 +4,14 @@ title: 広告分析に関するよくある質問
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 10%
 
 ---
@@ -117,13 +105,13 @@ Advertising Analyticsでは、一連のカスタム APIを使用して、検索�
 
 * [!UICONTROL 保留中]
 * [!UICONTROL 一時停止]とは、アカウントが以前に設定されたが、非アクティブ状態になったことを意味します。
-* [!UICONTROL &#x200B; アクティブ &#x200B;]とは、アカウントが完全に設定され、検索データを引き出していることを意味します。
+* [!UICONTROL  アクティブ ]とは、アカウントが完全に設定され、検索データを引き出していることを意味します。
 
 +++
 
 +++ Advertising Analytics アカウントを特定のレポートスイートにマッピングしようとしていますが、レポートスイートモーダルでは使用できません。 なぜですか？ 
 
-レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートをAdvertising Analytics レポート用に[&#x200B; プロビジョニングする必要があります](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+レポートスイートをAdvertising Analytics アカウントに割り当てる前に、目的のレポートスイートをAdvertising Analytics レポート用に[ プロビジョニングする必要があります](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 これは、管理者/ レポートスイート / `[select report suite]` / 設定を編集/ Advertising Analytics Configurationからアクセスできる別の管理ページを介して行われます。
 
 +++
@@ -162,7 +150,7 @@ AMO IDは、そのページのヒットのランディングページ（訪問/�
 
 +++ google.comまたは&#x200B;*国のバージョン* （google.co.uk、google.it、google.fr、google.deなど）のみをキャプチャしますか？ 
 
-Ad Platform分類は、「Google Adwords」および「Bing Ads」という値をキャプチャします。 一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。 これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。
+Ad Platform分類は、「Google Adwords」および「Bing Ads」という値をキャプチャします。 一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。 これにより、フィルターを適用したりセグメント化したりできます（例：すべてのキャンペーンが countrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のみのデータが得られます）。
 
 +++
 

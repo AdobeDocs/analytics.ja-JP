@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
+>abstract="ユーザーが一連のタッチポイントをどのように通過するか、またはフォールアウトするかを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="ジャーニーキャンバス"
->abstract="人物が一連のタッチポイントを通過またはフォールアウトする仕組みを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
+>abstract="ユーザーが一連のタッチポイントをどのように通過するか、またはフォールアウトするかを示します。 複数のエントリポイントとパスがあるジャーニーに使用します。"
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -38,7 +38,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;_。_&#x200B;この記事のジャーニーキャンバスの概要&#x200B;<br/><br/>_について説明します。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**_。_&#x200B;この記事のジャーニーキャンバスの概要&#x200B;<br/><br/>_について説明します。
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 イベント、ディメンション項目、セグメント、日付範囲を任意に組み合わせてジャーニーノードを作成して、[ユーザージャーニーの分析を作成](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)できます。 ノードを接続してジャーニーのフローを作成し、複数のパスと決定ポイントを含めます。 キャンバス上のノードをドラッグして、ジャーニーのイベントと条件を並べ替えます。 変更を行うと、データがリアルタイムで更新されます。
 
-[&#x200B; ノードは、](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)を「最終パス」として接続しています。つまり、訪問者は、2つのノード間で発生するイベントに関係なく、最終的に1つのノードから他のノードに移動する限りカウントされます。 ユーザーがパスに沿って移動するために割り当てられた時間は、コンテナの設定によって決まります。
+[ ノードは、](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)を「最終パス」として接続しています。つまり、訪問者は、2つのノード間で発生するイベントに関係なく、最終的に1つのノードから他のノードに移動する限りカウントされます。 ユーザーがパスに沿って移動するために割り当てられた時間は、コンテナの設定によって決まります。
 
 ![ジャーニーキャンバス](assets/journey-canvas.png)
 
@@ -103,7 +103,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 #### フォールスルー
 
-* ジャーニを完了した（終了ノードに到着した）人物の数と割合
+* ジャーニーを完了した（終了ノードに到着した）人物の数と割合
 
 * ジャーニーの特定のノードに到達した人物の数と割合
 
@@ -117,7 +117,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 * ジャーニーの任意のノードに分類ディメンションを追加して、その特定のノードの追加データを表示します
 
-## ジャーニーキャンバス、フォールアウト、フローのいずれかのビジュアライゼーションの選択
+## ジャーニーキャンバス、フォールアウト、フローのいずれかのビジュアライゼーションを選択します
 
 ジャーニーキャンバスビジュアライゼーションは、[フォールアウトビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)や[フロービジュアライゼーション](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)と似ていますが、重要な違いがあります。
 
@@ -135,7 +135,7 @@ Adobe Analytics [Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analyti
 
 * 事前定義済みのページのシーケンスを使用した、複数のエントリポイントとパスを持つ非線形ジャーニー。
 
-* 事前定義済みのジャーニーに基づく探索的、Ad Hoc Analysis。
+* 事前定義済みのジャーニーに基づく探索的なアドホック分析。
 
 * セッション、ユーザー、発生件数以外のプライマリ指標を必要とする分析。
 
@@ -148,4 +148,4 @@ Analysis Workspace で使用可能な任意のディメンションまたは指�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics でのジャーニーキャンバスビジュアライゼーションのガイド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ja)
+> * [Adobe Customer Journey Analytics でのジャーニーキャンバスビジュアライゼーションのガイド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
