@@ -2,6 +2,7 @@
 title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,51 +25,50 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
+source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
 workflow-type: tm+mt
-source-wordcount: 1246
-ht-degree: 43%
+source-wordcount: 1096
+ht-degree: 47%
 
 ---
 
-# 最新のAdobe Analytics リリースノート（2026年8月）
+# 最新のAdobe Analytics リリースノート（2026年9月）
 
-**最終更新**: 2026年8月5日
+**最終更新**: 2026年9月8日
 
-これらのリリースノートは、2026年8月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+これらのリリースノートは、2026年9月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map拡張機能：UIの更新** <br/>Activity Map オーバーレイ拡張機能のルックアンドフィールが更新され、今後の機能強化をサポートする基本的な機能強化も含まれています。<p>Activity Map オーバーレイ拡張機能について詳しくは、[Activity Map拡張機能インターフェイス &#x200B;](/help/analyze/activity-map/overlay/overview.md)を参照してください。</p> | | 2026年8月5日（PT）<p>（当初は7月末予定）</p> |
-| **ジャーニーキャンバスの機能強化**<br>&#x200B;次のジャーニーキャンバスの機能強化を利用できるようになりました。<ul><li>ジャーニーと過去の期間の比較。 現在のジャーニーを、4週間前、2四半期前、1年前、またはカスタム日付範囲と比較します。</li><li>選択したノードの場合、ジャーニーの任意のポイントで、選択したノードの後に来る最上位のディメンション項目を表示します。 選択したノードが分析の重要なイベントであり、その後のユーザーの行動を確認する場合に使用します。<p>以前は、選択したノードの前または後に表示できるのは、上位の即時ノードのみでした。 </p></li><li>ノード間の矢印の形状とスタイルを変更します。 ノード間で矢印をドラッグして矢印の形状（曲率）を変更し、矢印を右クリックして、スタイルをソリッド、破線、点線、点線、アニメーションのいずれかに変更します。</li></ul><p></p>詳しくは、[ジャーニーキャンバスビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)を参照してください。 | | 2026年8月18日（PT） |
-| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。 <p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
-| **Analytics API マーケティングチャネルのリファレンス**<br/> Analytics 2.0 API マーケティングチャネルのリファレンスを使用して、Adobe Analytics マーケティングチャネルの情報を取得します。 [Analytics API マーケティングチャネルのリファレンス &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)を参照してください。 | | 2026年8月1日（PT） |
-| **Analytics API マーケティングチャネルのエンドポイントガイド**<br/> Adobe Analytics 2.0 API マーケティングチャネルのエンドポイントガイドでは、エンドポイントを使用するための手順と例を提供します。 「[Analytics API マーケティングチャネル エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)」を参照してください。 | | 2026年8月1日（PT） |
-| **Analytics 1.4 API EOLのお客様に関するFAQ**<br/> Analytics 1.4 API EOLのお客様に関するFAQでは、1.4 APIから離脱するお客様を支援するために、最近の2.0 API開発に関する情報を提供しています。 | | 2026年8月10日（PT） |
+| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。</p><p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
+| **ボット検出の更新**<br/> Web SDKでEdge Data Collectionを使用する場合、次のボット検出の更新が利用できます。<ul><li>ボット検出ルールを作成して、ボットが生成したトラフィックとして扱われる例外を識別できるようになりました。 既存のルールと今後のルールは、デフォルトで一致するトラフィックをボット生成としてマークします。</li><li>カスタムボットルールがIAB ボット検出ルールの前に実行されるようになりました。 この変更はボットスコアには影響しませんが、イベントに関連付けられたボットルール名は変更される可能性があります。</li></ul><p>注意：このアップデートは、Web SDKを使用するEdge Data Collection実装にのみ適用されます。 AppMeasurementなどの古いライブラリには適用されません。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月上旬 |
+| **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月 |
+| **分類セット API アップデート**<br/>&#x200B;分類セット API ドキュメントに、分類セット API リクエストを設定するための更新されたエンドポイントとパラメーター情報が含まれるようになりました。<p>詳しくは、[分類エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
+| **2.0 API レポートガイドの日付itemId エンコーディングガイダンス**<br/> Adobe Analytics 2.0 APIの日付トレンドレポートガイドに、日付`itemId` パラメーターと値のエンコード方法を説明する新しいセクションが追加されました。 これにより、非推奨となった1.4 APIから2.0 API サービスを設定して移行できます。<p>詳細については、[KPI レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)および[詳細レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
 
 ### Adobe Analytics の修正点
 
-**Activity Map**: AN-404862
-**Analysis Workspace**: AN-466867, AN-465995, AN-465315, AN-465313, AN-464375, AN-463634, AN-463248, AN-463175, AN-463049, AN-462347, AN-462124, AN-461922, AN-458398, AN-457849, AN-455002, AN-453357, AN-456863, AN-459816, AN-459034, AN-460774, AN-460671 457760 443594, AN-, AN-
-**分類**: AN-467138, AN-467118, AN-467069, AN-466054, AN-465987, AN-465636, AN-465380, AN-464650, AN-464286, AN-463688, AN-462413, AN-462252, AN-462141, AN-462063, AN-462005, AN-461862, AN-461806, AN-461777, AN-461158, AN-460954, AN-460905, AN-460850 460803 460272 460023 459814 459367 459328 459300 459279 459006 458417 458403 457829 457400 454408 449670 460956 459269 458789 461778 461191 460996 460506 459988 459854 458994 457561 457055 454224 454172 459473 459277 459026 455270, AN-, AN-O AN-⌥, AN-⌥, AN-⌥, AN-⌥, AN-⌥, AN-⌥, AN-⌥, AN-⌥, AN-, AN-, AN-, AN-⌥, AN-, AN-⌥, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-
-**データフィードとData Warehouse**: AN-465273、AN-464245、AN-462435、AN-461000、AN-460700、AN-459225、AN-459192
-**移行**: AN-458185、AN-454285、AN-459239
-**書き出し**：
-**Report Builder**: AN-465346, AN-464768, AN-464580, AN-464301, AN-463048, AN-462800, AN-457042, AN-461033, AN-459042, AN-454250, AN-451735, AN-450776, AN-450200, AN-451665
-**レポート**: AN-467107、AN-459010、AN-455619、AN-459530、AN-454103
-**レポートスイート**:AN-464246、AN-463756、AN-462101
-**スケジュール済みレポート**: AN-455009、AN-460037、AN-462093
-**セグメント化**: AN-459002、AN-457730、AN-457146
-**その他**: AN-467386、AN-466935、AN-462116、AN-458836、AN-451292、AN-454160、AN-458354、AN-455771、AN-426869、AN-437975
+**Activity Map**:AN-488579、AN-487247
+**Analysis Workspace**: AN-487374、AN-487119、AN-468907、AN-468810、AN-468363、AN-468096、AN-467414、AN-466986、AN-466982、AN-465073、AN-463571、AN-462373
+**分類**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338 463677 462729 462577 461040 459316, AN-, AN-, AN-, AN-, AN-, AN-FLY
+**データフィードとData Warehouse**: AN-487624、AN-487287、AN-479923、AN-479166、AN-479109、AN-468483
+**移行**：
+**書き出し**: AN-467131
+**Report Builder**: AN-487486、AN-478944、AN-470036、AN-468589、AN-468436、AN-456747、AN-456700、AN-442695
+**レポート**: AN-468621、AN-465383、AN-463924
+**レポートスイート**:AN-468484、AN-468460、AN-465385
+**予定レポート**：
+**セグメント化**: AN-486561
+**その他**: AN-488549、AN-467426、AN-465265、AN-464645、AN-459714、AN-459323、AN-454514
 
 ### 提供終了（EOL）に関する注意事項 {#eol}
 
 | EOL 対象の製品または機能 | 追加日付または更新日付 | 説明 |
 | --- | --- | --- |
 | **レガシー Report Builder** | 2025年6月18日（PT） | レガシー Report Builder アドインは、2026年6月に廃止されます。 すべてのユーザーは、従来のワークブックから[新しい Report Builder](/help/analyze/report-builder/rb-overview.md) へのアップグレードを開始する必要があります。 新しい Report Builder は、Adobe Analytics と Customer Journey Analytics の両方のお客様が利用できます。 [ほぼ同等の機能パリティ](/help/analyze/report-builder/convert-workbooks.md#unsupported)に加えて、多くの新しい便利な機能を利用でき、UI が強化されています。 アップグレードプロセスを容易にするために、新しい Report Builder には、ワークブックの簡単なコンバージョン機能が含まれています。 新しい Report Builder は、Microsoft Store を通じてアドインとしてのみ使用できます。 多くの組織では、ユーザーにアドインを提供できるようにするために、内部の承認プロセスが必要です。 このプロセスに時間を割いて、今すぐ組織との連携を開始し、EOL までにワークブックをアップグレードできるように十分な時間を確保してください。 |
-| **Adobe Analytics API（バージョン 1.4）** | 2024年7月17日（PT） | **2026年8月12日（PT）**&#x200B;に、次の Analytics Legacy API サービスはサポート終了となり、シャットダウンされ、これらのサービスを使用して作成された現在の統合は機能を停止します。<ul><li>Adobe Analytics API（バージョン 1.4）</li><li>Adobe Analytics WSSE 認証</li></ul><p>Adobe Analytics API（バージョン 1.4）を使用する統合は [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があり、WSSE 統合は [Adobe Developer Console](https://developer.adobe.com/console) の OAuth ベースの認証プロトコルに移行する必要があります。</p><p>よくある質問への回答と詳細なガイダンスについては、[Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) を参照してください。</p> |
+| **Adobe Analytics API（バージョン 1.4）** | 2024年7月17日（PT） | **2026**&#x200B;年8月31日（PT）に、次のAnalytics Legacy API サービスが提供終了し、シャットダウンされました。これらのサービスを使用して構築された統合は機能しなくなります。<ul><li>Adobe Analytics API（バージョン 1.4）</li><li>Adobe Analytics WSSE 認証</li></ul><p>Adobe Analytics API（バージョン 1.4）を使用する統合は [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があり、WSSE 統合は [Adobe Developer Console](https://developer.adobe.com/console) の OAuth ベースの認証プロトコルに移行する必要があります。</p><p>よくある質問への回答と詳細なガイダンスについては、[Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) を参照してください。</p> |
 
 ## AppMeasurement
 
