@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 7421
+source-wordcount: 7447
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ ht-degree: 93%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2026年9月** | |
+| 新しいサイズ変更ショートカットアクション | Analysis Workspaceの新しいキーボードショートカットを使用すると、パネルまたはビジュアライゼーションのサイズを[変更できます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)幅、幅、高さ、短くできます。 |
 | **2026年8月** | |
 | リファラータイプディメンションに新しい会話型AI ツールを追加しました | 「Referrer type」ディメンションに、Adobeが使用するルックアップテーブルに次の[会話型AI ツール &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が追加されるようになりました。<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |
