@@ -6,29 +6,35 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 2082
-ht-degree: 69%
-
+source-wordcount: '2082'
+ht-degree: 72%
 ---
-
 # セグメントの作成
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="製品の互換性"
->abstract="一部のセグメント条件は、特定のAdobe Analytics ツールと互換性がありません。 互換性のあるツールはこのリストに示されています。 基準を編集して互換性を確保。"
+>abstract="一部のセグメント条件は、特定の Adobe Analytics ツールと互換性がありません。 このリストには、互換性があるツールが示されています。 条件を編集して互換性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +44,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="データのプレビュー"
->abstract="セグメントデータとレポートスイートデータを比較します。 プレビューの割合は、**過去90日間**&#x200B;に基づいています。<br><br/> プレビューが読み込まれていない場合、接続がバックフィルされています。"
+>abstract="セグメントデータとレポートスイートデータを比較します。 プレビューの割合は、**過去 90 日間**&#x200B;に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中です。"
 
 
 **[!UICONTROL セグメントビルダー]**&#x200B;ダイアログは、新しいセグメントの作成または既存のセグメントの編集に使用します。 ダイアログのタイトルは、[[!UICONTROL セグメント]マネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)から作成または管理するセグメントの場合、**[!UICONTROL 新しいセグメント]**&#x200B;または&#x200B;**[!UICONTROL セグメントを編集]**&#x200B;になります。
@@ -84,7 +90,7 @@ ht-degree: 69%
 定義のタイプと範囲を設定できます。
 
 1. 定義のタイプを指定するには、包含または除外の定義を作成するかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
-1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
+1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [ サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
 
 これらの設定は、いつでも後から変更できます。
 
@@ -98,10 +104,10 @@ ht-degree: 69%
 
 1. コンポーネントパネルからコンポーネントを&#x200B;**[!UICONTROL ここに指標、セグメント、ディメンションをドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。
    * コンポーネントバーで![検索](/help/assets/icons/Search.svg)を使用して、特定のコンポーネントを検索できます。
-   * コンポーネントバーの![&#x200B; フィルター](/help/assets/icons/Filter.svg)を使用して、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![&#x200B; データディメンション &#x200B;](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![&#x200B; イベント &#x200B;](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![&#128279;](/help/assets/icons/Layer.svg)&#x200B; セグメント **![[!UICONTROL カレンダー]](/help/assets/icons/Calendar.svg)日付**&#x200B;[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]&#x200B;**、および&#x200B; レイヤー**&#x200B;[!UICONTROL &#x200B;製品&#x200B;]&#x200B;**コンポーネント。 &#x200B;![](/help/assets/icons/Segmentation.svg)&rbrack;**&lbrack;![&#x200B; ラベル &#x200B;](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
+   * コンポーネントバーの![ フィルター](/help/assets/icons/Filter.svg)を使用して、![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![ データディメンション ](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![ セグメント **[!UICONTROL カレンダー](/help/assets/icons/Calendar.svg)日付**[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]**、および![ レイヤー](/help/assets/icons/Layer.svg)**[!UICONTROL &#x200B;製品&#x200B;]**コンポーネント。 ](/help/assets/icons/Segmentation.svg)]**![![ ラベル ](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
 1. コンポーネントの詳細を指定します。 例えば、「**[!UICONTROL 値を選択]**」から値を選択します。 または値を入力します。 1 つ以上の値を指定できる内容と方法は、コンポーネントと演算子によって異なります。
 
-1. （オプション）レポート日付範囲&#x200B;**に結果を**&#x200B;制限するオプションを有効にします。
+1. （オプション）レポート日付範囲&#x200B;**]に結果を[!UICONTROL **&#x200B;制限するオプションを有効にします。
 
    セグメントに日付範囲コンポーネントが含まれている場合、Workspace レポートのデータは、レポート日付範囲を超えて拡張される可能性があります。
 
@@ -109,7 +115,7 @@ ht-degree: 69%
 
    このオプションは、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから&#x200B;[!UICONTROL **人物**]&#x200B;が定義のスコープ（コンテナ）として選択されている場合にのみ表示されます。
 
-   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース &#x200B;](/help/release-notes/releases.md)を参照してください。
+   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース ](/help/release-notes/releases.md)を参照してください。
 
 1. （オプション）デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
@@ -134,7 +140,7 @@ ht-degree: 69%
 * 別のコンポーネントをコンテナに追加するには、コンポーネントパネルからコンテナにコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
 * 別のコンポーネントをコンテナの外側に追加するには、コンポーネントパネルからコンポーネントをドラッグ＆ドロップし、コンテナの外側でメイン定義コンテナの内側に配置します。 青色の挿入線をガイドとして使用します。
 * コンポーネント、コンテナ、またはその組み合わせのロジックを変更するには、適切な&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**&#x200B;を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
-* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
+* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
 
 コンテナ内の ![設定](/help/assets/icons/Setting.svg) は、次のアクションに使用できます。
 
@@ -159,7 +165,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントでの周期的な日付範囲](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメントでの周期的な日付範囲](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -282,7 +288,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -343,7 +349,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
