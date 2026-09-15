@@ -6,15 +6,13 @@ role: User, Admin
 source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
 source-wordcount: '6557'
-ht-degree: 78%
-
+ht-degree: 81%
 ---
-
 # ジャーニーキャンバスビジュアライゼーションの設定 {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスのビジュアライゼーション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)の設定を参照してください。_
+_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;のジャーニーキャンバスのビジュアライゼーションについて説明します。<br/><br/>_&#x200B;この記事の&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスのビジュアライゼーションの設定](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -76,8 +74,8 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_arrow_settings"
->title="矢印設定"
->abstract="カンバス上のラベルの表示/非表示を選択します。 ラベルは、ジャーニーキャンバス内で作成されたカスタム名です。"
+>title="矢印の設定"
+>abstract="キャンバス上のラベルの表示または非表示を選択します。 ラベルは、ジャーニーキャンバス内で作成されたカスタム名です。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,8 +83,8 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_show_fallout"
->title="フォールアウトを表示"
->abstract="フォールアウトデータは、ジャーニーの各ノードで、ジャーニーの次のノードに到達しなかった人またはセッションの割合と数を示します。 サイト上で他のアクションを実行しても、ジャーニーの次のノードで定義された基準を満たさなかった可能性があります。<br/> フォールアウトデータには、選択した主要な指標に関係なく、人物またはセッションが表示され、ジャーニーキャンバスコンテナ設定に基づいています。"
+>title="フォールアウトの表示"
+>abstract="フォールアウトデータには、ジャーニーの各ノードでジャーニーの次のノードに到達しなかった人物またはセッションのパーセンテージと数が表示されます。 サイト上で他のアクションを実行した可能性がありますが、ジャーニーの次のノードで定義された条件を満たしていませんでした。<br/>フォールアウトデータには、（選択した主要指標に関係なく）人物またはセッションが表示され、ジャーニーキャンバスコンテナ設定に基づいています。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -94,7 +92,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare"
->title="比較"
+>title="次との比較"
 >abstract="現在のジャーニーデータと過去の期間の比較に使用される日付範囲。 比較日付範囲を選択すると、ジャーニー内の各ノードには、プライマリ指標に基づいて、現在の日付範囲と選択した比較日付範囲の変化率が表示されます。 "
 
 <!-- markdownlint-enable MD034 -->

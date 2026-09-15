@@ -6,29 +6,35 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 2082
-ht-degree: 69%
-
+source-wordcount: '2082'
+ht-degree: 72%
 ---
-
 # セグメントの作成
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="製品の互換性"
->abstract="一部のセグメント条件は、特定のAdobe Analytics ツールと互換性がありません。 互換性のあるツールはこのリストに示されています。 基準を編集して互換性を確保。"
+>abstract="一部のセグメント条件は、特定の Adobe Analytics ツールと互換性がありません。 このリストには、互換性があるツールが示されています。 条件を編集して互換性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +44,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="データのプレビュー"
->abstract="セグメントデータとレポートスイートデータを比較します。 プレビューの割合は、**過去90日間**&#x200B;に基づいています。<br><br/> プレビューが読み込まれていない場合、接続がバックフィルされています。"
+>abstract="セグメントデータとレポートスイートデータを比較します。 プレビューの割合は、**過去 90 日間**&#x200B;に基づきます。<br><br/>プレビューが読み込まれない場合、接続でバックフィル中です。"
 
 
 **[!UICONTROL セグメントビルダー]**&#x200B;ダイアログは、新しいセグメントの作成または既存のセグメントの編集に使用します。 ダイアログのタイトルは、[[!UICONTROL セグメント]マネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)から作成または管理するセグメントの場合、**[!UICONTROL 新しいセグメント]**&#x200B;または&#x200B;**[!UICONTROL セグメントを編集]**&#x200B;になります。
