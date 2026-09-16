@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 14%
-
 ---
-
 # 分類セットのルール
 
-ルールを使用して、キーディメンションが絶えず変化するシナリオで自動分類をサポートします。 [&#x200B; アップロード &#x200B;](/help/components/classifications/sets/manage/schema.md#upload)または[自動化](/help/components/classifications/sets/manage/schema.md#automate)による分類の更新は、面倒なプロセスになるか、新しいディメンション値の適切な分類に遅れることがあります。 たとえば、社内キャンペーン、トラッキングコード、製品SKUなどです。
+ルールを使用して、キーディメンションが絶えず変化するシナリオで自動分類をサポートします。 [ アップロード ](/help/components/classifications/sets/manage/schema.md#upload)または[自動化](/help/components/classifications/sets/manage/schema.md#automate)による分類の更新は、面倒なプロセスになるか、新しいディメンション値に対する適切な分類が不足しています。 たとえば、社内キャンペーン、トラッキングコード、製品SKUなどです。
 
 ディメンションには、1つ以上のルールを適用できる値が含まれている必要があります。これにより、ディメンション値から分類データを導き出すことができます。
 
 分類セットのコンテキスト内でルールを定義します。 このコンテキストは、分類セットにサブスクライブされているすべてのレポートスイートとキーディメンションの組み合わせにルールが（アクティブ化された場合）適用されることを意味します。 この実装は、従来の分類ルールビルダーの仕組みとは異なります。 分類ルールビルダーでは、ルールセットの一部として1つ以上のルールを個別に定義し、ルールセットを1つ以上のレポートスイートに関連付けます。 新しいインターフェイスでは、分類セット内のルールはルールセットとも呼ばれます。 ただし、ルールセットは、他の分類セット属性を設定するのと同じインターフェイス内で定義されます。
+
+>[!IMPORTANT]
+>
+>新しいルールビルダーが使用する異なるコンテキストは、サブ分類が元のルートディメンション値ではなく、直接の親分類列の値に対して評価されることを意味します。
+
 
 
 分類セットのルール・セットを定義する手順は、次のとおりです。
@@ -33,20 +40,20 @@ ht-degree: 14%
 1. Adobe Analytics の上部メニューバーで&#x200B;**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL 分類セット]**&#x200B;を選択します。
 1. **[!UICONTROL 分類セット]**&#x200B;で、「**[!UICONTROL 分類セット]**」タブを選択します。
 1. **[!UICONTROL 分類セット]** マネージャーで、ルールを定義する分類セットを選択します。
-1. **[!UICONTROL 分類セット : _分類セット名_]**&#x200B;ダイアログで、「**[!UICONTROL ルール]**」タブを選択します。
+1. **[!UICONTROL 分類セット : _分類セット名_]**ダイアログで、「**[!UICONTROL ルール]**」タブを選択します。
 
-   * 分類セットに対して&#x200B;**[!UICONTROL ルール]** インターフェイスに初めてアクセスする場合、または従来のルールビルダーインターフェイスを引き続き使用する場合は、開始方法を選択できるダイアログが表示されます。 オプションは次のとおりです。
+   * **[!UICONTROL ルール]** インターフェイスに初めてアクセスする場合、またはレガシービルダーを使用する場合は、ダイアログが表示され、開始に役立ちます。 オプションは次のとおりです。
 
      * **既存のルールを移行**。 現在の分類ルールを読み込み、新しいインターフェイスでこれらのルールを引き続き操作します。 既存のルールは保持され、新しい形式に変換されます。
        * 続行するには、「**[!UICONTROL ルールを移行]**」を選択します。
        * **[!UICONTROL 移行の確認]** ダイアログで、移行の意味を確認します。
-         * 「**[!UICONTROL ルールを移行]**」を選択して、移行を確認します。 移行が完了したら、[&#x200B; ルールセットインターフェイス &#x200B;](#rule-set-interface)を使用して新しいルールを作成し、既存の移行済みルールを編集します。
+         * 「**[!UICONTROL ルールを移行]**」を選択して、移行を確認します。 移行が完了したら、[ ルールセットインターフェイス ](#rule-set-interface)を使用して新しいルールを作成し、既存の移行済みルールを編集します。
          * 移行をキャンセルするには、**[!UICONTROL キャンセル]**&#x200B;を選択します
 
      * **新しい作業を開始**。 新しいルールビルダーを使用して、新しい分類ルールをゼロから作成します。 分類ロジックを再設計する場合や、新しい分類ルールを使用して新しく開始する場合は、このオプションを選択します。
        * 続行するには、**[!UICONTROL 新しいルールを作成]**&#x200B;を選択します。
        * **[!UICONTROL 開始確認の新規]** ダイアログで、新しい開始の意味を読み取ります。
-         * **[!UICONTROL 新しい開始]**&#x200B;を選択して、新しい開始を確認し、既存のルールをすべて破棄します。 [&#x200B; ルール セット インターフェイス &#x200B;](#rule-set-interface)を使用して、新しいルールを作成します。
+         * **[!UICONTROL 新しい開始]**&#x200B;を選択して、新しい開始を確認し、既存のルールをすべて破棄します。 [ ルール セット インターフェイス ](#rule-set-interface)を使用して、新しいルールを作成します。
          * 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 
@@ -67,7 +74,7 @@ ht-degree: 14%
 
 ルールを作成または編集するには、ルールセットインターフェイスを使用します。
 
-![&#x200B; ルール セット インターフェイス &#x200B;](assets/rulesets-ui.png)
+![ ルール セット インターフェイス ](assets/rulesets-ui.png)
 
 | | 名前 | 説明 |
 |---|---|---|
@@ -82,7 +89,7 @@ ht-degree: 14%
 
 ルールインターフェイスで設定したルールセット内で、個々のルールを定義します。 インターフェイスは次の要素で構成されます。
 
-![&#x200B; ルール インターフェイス &#x200B;](assets/rule-ui.png)
+![ ルール インターフェイス ](assets/rule-ui.png)
 
 | | 説明 |
 |---|---|
@@ -115,11 +122,11 @@ ht-degree: 14%
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール - &#x200B;](assets/rule-startswith.png)で始まる
+![ ルール - ](assets/rule-startswith.png)で始まる
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – テスト結果で開始](assets/rule-startswith-test.png)
+![ ルール – テスト結果で開始](assets/rule-startswith-test.png)
 
 >[!ENDTABS]
 
@@ -145,11 +152,11 @@ ht-degree: 14%
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール - &#x200B;](assets/rule-endswith.png)で終わる
+![ ルール - ](assets/rule-endswith.png)で終わる
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – テスト結果で終了](assets/rule-endswith-test.png)
+![ ルール – テスト結果で終了](assets/rule-endswith-test.png)
 
 >[!ENDTABS]
 
@@ -168,18 +175,18 @@ ht-degree: 14%
 
 #### ユースケース
 
-キーディメンションの内部キャンペーンの値に`Winter`が含まれている場合に、`Winter Sale`を&#x200B;**[!UICONTROL タイプ]**&#x200B;分類に値として割り当てるルールを定義します（例：`fb:Winter:FY2024`）。
+キーディメンションの内部キャンペーンの値に`Winter`が含まれている場合に、`Winter Sale`を&#x200B;**[!UICONTROL タイプ]**&#x200B;分類に値として割り当てるルールを定義する（例：`fb:Winter:FY2024`）。
 
 
 >[!BEGINTABS]
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール - &#x200B;](assets/rule-contains.png)を含む
+![ ルール - ](assets/rule-contains.png)を含む
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – 結果を含む](assets/rule-contains-test.png)
+![ ルール – 結果を含む](assets/rule-contains-test.png)
 
 >[!ENDTABS]
 
@@ -205,11 +212,11 @@ ht-degree: 14%
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール – 一致](assets/rule-matches.png)
+![ ルール – 一致](assets/rule-matches.png)
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – 一致](assets/rule-matches-test.png)
+![ ルール – 一致](assets/rule-matches-test.png)
 
 >[!ENDTABS]
 
@@ -228,17 +235,17 @@ ht-degree: 14%
 
 #### ユースケース
 
-正規表現`^(.+)\:(.+)\:FY(.+)$`を適用し、一致グループ （`$1`、`$2`、および`$3`）を主要ディメンションの内部キャンペーンの値に使用することで、**[!UICONTROL チャネル]**、**[!UICONTROL タイプ]**&#x200B;および&#x200B;**[!UICONTROL 年]**&#x200B;の分類に値を割り当てるルールを定義します。
+正規表現`^(.+)\:(.+)\:FY(.+)$`を適用し、一致グループ （`$1`、`$2`、および`$3`）を内部Campaign キーディメンションに使用して、**[!UICONTROL チャネル]**、**[!UICONTROL タイプ]**&#x200B;および&#x200B;**[!UICONTROL 年]**&#x200B;の分類に値を割り当てるルールを定義します。
 
 >[!BEGINTABS]
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール – 正規表現](assets/rule-regex.png)
+![ ルール – 正規表現](assets/rule-regex.png)
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – 正規表現のテスト結果](assets/rule-regex-test.png)
+![ ルール – 正規表現のテスト結果](assets/rule-regex-test.png)
 
 >[!ENDTABS]
 
@@ -298,11 +305,11 @@ ht-degree: 14%
 
 >[!TAB  ルール ]
 
-![&#x200B; ルール – スプリット &#x200B;](assets/rule-split.png)
+![ ルール – スプリット ](assets/rule-split.png)
 
 >[!TAB  テスト結果]
 
-![&#x200B; ルール – スプリットテスト結果](assets/rule-split-test.png)
+![ ルール – スプリットテスト結果](assets/rule-split-test.png)
 
 >[!ENDTABS]
 
@@ -315,7 +322,7 @@ ht-degree: 14%
 * 1つのキーディメンションの値が複数のルールに一致します。
 * ルールセットには、同じ&#x200B;**[!UICONTROL Set Classification]**&#x200B;操作を持つルールが含まれています。
 
-したがって、最も重要な&#x200B;**[!UICONTROL Set Classification]**&#x200B;操作を、ルールセットの最後のルールの一部としてランク付けする必要があります。
+最も重要な&#x200B;**[!UICONTROL Set Classification]**&#x200B;操作を、ルールセットの最後のルールの一部としてランク付けします。
 
 同じ&#x200B;**[!UICONTROL Set Classification]**&#x200B;操作を共有しない複数のルールを作成する場合、処理順序は問題ではありません。
 
@@ -324,7 +331,7 @@ ht-degree: 14%
 
 ユーザーが検索文字列をキーディメンションとして使用してアスリートを検索する方法を&#x200B;**[!UICONTROL Type]**&#x200B;という分類で分類する必要があります。 例えば、次のルールセットを使用します。
 
-![&#x200B; ルールの優先度](assets/rule-priority.png)
+![ ルールの優先度](assets/rule-priority.png)
 
 * ユーザーが`Cowboys Fantasy Tony Romo`を検索すると、`Romo`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
 * ユーザーが`Cowboys Fantasy Tony Romeo`を検索すると、`Fantasy`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
