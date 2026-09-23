@@ -6,30 +6,44 @@ exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 TQID: https://experienceleague.adobe.com/Essa0dflFlsqwtTQ4JdaSEOkX6T-zEYrQGhgXBWhfcI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 246
-ht-degree: 88%
-
+source-wordcount: '280'
+ht-degree: 73%
 ---
-
 # 顧客の忠誠度
 
 「顧客ロイヤルティ」 [&#x200B; ディメンション &#x200B;](overview.md)は、サイトへの訪問者のうち、0件の事前購入、1件の事前購入、2件の事前購入、または3件以上の事前購入を行った訪問者の数を報告します。 このディメンションは、サイトが購入行動に与える影響を理解するうえで役立ちます。 また、このディメンションをセグメントで使用して、購入のために再訪する訪問者に焦点を当てることで、新しい訪問者にも同様の行動を促すことができます。
 
 ## このディメンションへのデータ入力
 
-アドビは、実装の [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) イベントに基づいて、このディメンションを自動的に設定します。 サイトに `purchase` イベントを実装する場合、このディメンションは常に機能します。
+Adobeは、訪問者の購入履歴からサーバーサイドでこのディメンションを計算します。 設定する変数はありません。サイトで実装されている[`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) イベントによって異なります。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（Adobeで計算） |
+| **Web SDK / XDM フィールド** | なし（Adobeで計算） |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 該当なし |
+| **永続性** | 該当なし |
 
 ## ディメンション項目
 

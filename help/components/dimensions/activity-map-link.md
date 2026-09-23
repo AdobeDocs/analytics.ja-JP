@@ -8,22 +8,26 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 TQID: https://experienceleague.adobe.com/A5HaPb0TghRKVykJ9V2UMJ0mlsYElLkCyBwxzTd6VII
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 8%
-
+source-wordcount: '196'
+ht-degree: 11%
 ---
-
 # Activity Map リンク
 
 「Activity Map リンク」 [&#x200B; ディメンション &#x200B;](overview.md)には、クリックされた最も人気のあるリンクが表示されます。 このディメンションを使用すると、リンクがクリックされた場所に関係なく、サイト上のどのリンクが最も使用されているかを比較できます。
@@ -31,6 +35,15 @@ ht-degree: 8%
 ## このディメンションへのデータ入力
 
 このディメンションは、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`からデータを取得します。 実装で[Activity Map](/help/analyze/activity-map/overview.md)を使用している場合、このコンテキストデータ変数は、リンクがクリックされたときにデータを自動的に収集します。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（[Activity Map](/help/analyze/activity-map/overview.md) モジュールによって収集） |
+| **Web SDK / XDM フィールド** | なし（[Activity Map](/help/analyze/activity-map/overview.md) モジュールによって収集） |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 255 バイト |
+| **永続性** | 該当なし |
 
 クリックされた特定のリンクに対して、Activity Mapは次の（順番に）検索します。
 

@@ -7,190 +7,133 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Machine learning
+source-git-commit: f801835bb65be97db52dfccd217ecba268230eea
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 73%
-
+source-wordcount: '1252'
+ht-degree: 9%
 ---
-
 # デジタルアシスタント向け Analytics の実装
 
-最近のクラウドコンピューティング、機械学習、自然言語処理の進化に伴い、デジタルアシスタントは日常生活の一部となっています。 消費者は自分のデバイスと会話し始め、デバイスが人間のような方法で理解し、対応することを期待しています。 プラットフォームが確立するにつれて、ブランドはこれらの現実的かつ本物のような方法で消費者にサービスを提供することができます。 例えば、消費者は次のように問い合わせることができます。
+クラウドコンピューティング、マシンラーニング、自然言語処理の進歩により、デジタルアシスタントは日常生活の一部になっています。 消費者はデバイスとやり取りし、人間のような反応を期待します。企業は、そうした体験を通じてサービスを提供できます。 例えば、消費者は次のように問い合わせることができます。
 
 * 「アレクサ、車にオイル交換が必要な時に聞いてくれ」
-* 「コルタナ、当座預金残高はいくらですか？」
+* 「Google、当座預金残高は？」
 * “ Siri、Johnに昨晩の夕食に20 ドルを私の銀行アプリから送ってください”。
 
-このページでは、Adobe Analytics を活用して、この種のエクスペリエンスの効果を測定および最適化する方法について説明します。
+ここでは、Adobe Analyticsを使用して、これらのタイプのエクスペリエンスを測定し、最適化する方法の概要を説明します。
 
 ## デジタルエクスペリエンスのアーキテクチャの概要
 
 ![デジタルアシスタントのワークフロー](assets/Digital-Assitants.png)
 
-現代のデジタルアシスタントのほとんどでは、大まかなアーキテクチャは同様です。
+ほとんどのデジタルアシスタントは、同様の高レベルのアーキテクチャに従っています。
 
-1. **デバイス：**&#x200B;マイク搭載のデバイス（Amazon Echo や携帯電話）によって、ユーザーが質問を投げかけることができます。
-1. **デジタルアシスタント**：そのデバイスが、デジタルアシスタントの基盤のサービスと通信します。 そこで、音声を機械的に理解できる意図に変換し、要求の詳細を解析します。 ユーザーの意図が理解されると、デジタルアシスタントは、リクエストの意図と詳細を、リクエストを処理するアプリに渡します。
-1. 「**アプリ」：**&#x200B;携帯電話のアプリまたは音声アプリです。 アプリは、リクエストに応答する責任があります。 デジタルアシスタントに応答し、デジタルアシスタントはユーザーに応答します。
+1. **デバイス**：ユーザーが質問できるマイクを備えたデバイス（スマートスピーカーや電話など）。
+1. **デジタルアシスタント**: アシスタントを強化するサービス。 音声を機械が理解できるインテントに変換し、リクエストの詳細を解析します。 インテントが理解されると、アシスタントはリクエストを処理するアプリにインテントと詳細を渡します。
+1. **「アプリ」**：電話のアプリ、またはリクエストに応答する音声アプリ。 デジタルアシスタントに応答し、ユーザーに応答します。
+
+## Adobe Analyticsへのデータの送信方法
+
+デジタルアシスタントアプリは通常、Adobe クライアントサイドライブラリ（AppMeasurementまたはWeb SDK）を持たないサーバーまたはプラットフォーム上で実行されます。 [&#x200B; データ挿入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**を使用して、ヒットを** サーバーサイドで送信します。 測定する各インタラクションは、クエリ文字列（またはXML本文）がこのページで説明されている変数を含むData Insertion API リクエストになります。ほとんどの場合、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)は、[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用してeVar、prop、イベントにマッピングされます。
+
+このページでは、*何*&#x200B;を測定し、Analyticsでモデル化する方法に焦点を当てます。 エンドポイント、クエリ文字列およびXML エンコーディング、必要なコンポーネント、応答タイプについては、[Data Insertion API ドキュメント &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)を参照してください。 以下の名前の各変数は、[変数参照](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)のクエリ文字列パラメーターとXML タグにマッピングされます。
 
 ## 分析の導入場所
 
-Adobe Analyticsを導入する最適な場所のひとつは、アプリです。 アプリはデジタルアシスタントから目的と詳細を受け取り、応答方法を決定します。
-
-リクエストの実行中に Adobe Analytics へのデータの送信が役立つ場合があるのは以下の 2 回です。
+Adobe Analyticsを導入する最適な場所のひとつは、アプリです。アプリは、デジタルアシスタントから意図と詳細を受け取り、どのように対応するかを決定します。 Adobe Analyticsにデータを送信するのに役立つリクエストには、次の2つの瞬間があります。
 
 1. アプリに要求が送信されたとき。
 1. アプリから応答が送られたとき。
 
-今後の最適化のために、顧客の状況についての記録のみが必要な場合は、応答が返された後に Adobe Analytics にリクエストを送信します。 どのようなリクエストがあり、システムがどのように返答したのかについての詳細なコンテキストを取得できます。
+今後の最適化のために何が起こったかを記録したい場合は、応答が返された後にヒットを送信します。その後、リクエストの完全なコンテキストとシステムがどのように応答したかを確認できます。
 
-## 新規インストール
+## 測定対象
 
-一部のデジタルアシスタントでは、特に認証に関わる場合に、誰かがスキルをインストールすると通知を受け取ります。 「`a.InstallEvent=1`」コンテキストデータ変数を設定して Install イベントを送信することをお勧めします。 この機能を利用できないデジタルアシスタントもありますが、可能な場合はリテンションを確認するのに便利です。 次のコードサンプルでは、インストールイベント、インストール日、および AppID の値をコンテキストデータ変数に送信します。
+### 新規インストール
 
-```text
-GET
-/b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
-HTTP/1.1
-Host:
-<xref href="https://example.data.adobedc.net">
-  example.data.adobedc.net
- Cache-Control: no-cache
-</xref href="https:>
-```
+誰かがスキルをインストールしたときに通知するアシスタントの場合（特に認証が関係する場合）、コンテキストデータ変数`a.InstallEvent=1`と`a.InstallDate`およびアプリ ID （`a.AppID`）を設定して、インストールイベントを送信します。 これは、あらゆるプラットフォームで利用できるわけではありませんが、既存の顧客維持分析で役立ちます。
 
-## 複数のアシスタントまたは複数のアプリ
+### 複数のアシスタントやアプリ
 
-組織が複数のプラットフォーム用のアプリを必要としている可能性があります。 各リクエストにアプリ ID を含めることをお勧めします。 これは `a.AppID` コンテキストデータ変数で設定できます。 形式は `[AppName] [BundleVersion]` です（例：BigMac for Alexa 1.2）。:
+多くの企業は、複数のプラットフォームに対応するアプリを構築しています。 `a.AppID` コンテキストデータ変数のすべてのリクエストに、形式`[AppName] [BundleVersion]` （例：`Spoofify 1.0`）を使用してアプリ IDを含めます。 プラットフォームまたはOS コンテキストデータ変数（`OSType`など）を追加して、レポートでAlexa、Google Assistant、その他のプラットフォームを区別できるようにします。
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+### 訪問者の識別
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+Adobe Analyticsは[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、インタラクションを時間をかけて同じユーザーに関連付けます。 ほとんどのデジタルアシスタントは、一意のIDとして使用できる`userID`を返します。これを訪問者IDの上書き（`vid`）として渡します。 一部のプラットフォームでは、許可されている100文字よりも長い識別子が返されます。この場合、MD5やSHA-1などの標準アルゴリズムを使用して、固定長の値にハッシュ化します。
 
-## 訪問者の識別
+訪問者ID サービスを使用すると、デバイス（webからデジタルアシスタントなど）間でECIDをマッピングする際に最も価値を提供します。 アプリがモバイルアプリの場合は、Experience Platform Mobile SDKを使用し、`setCustomerID`方式でユーザーIDを送信します。 アプリがサービスの場合は、サービスが提供するユーザーIDを訪問者IDとして使用し、`setCustomerID`と設定します。 サーバーサイドのリクエストで識別子を設定する方法については、[Data Insertion APIを使用した訪問者の識別](../id/data-insertion.md)を参照してください。
 
-Adobe Analyticsは[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、時間を超えてインタラクションを同じ人物に結び付けます。 ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。 ほとんどの場合、この値を一意の ID として渡すことができます。 一部のプラットフォームでは、100 文字を超える識別子を返すことができます。 このような場合、Adobeでは、MD5やSHA1などの標準のハッシュアルゴリズムを使用して、一意のIDを固定長の値にハッシュすることをお勧めします。
+### セッション数
 
-訪問者ID サービスを使用すると、異なるデバイス（webからデジタルアシスタントなど）間でECIDをマッピングする際に最も価値を提供します。 モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。 ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
+デジタルアシスタントは会話型であるため、セッション（複数回のやり取り）という概念を持つことがよくあります。 新しいセッションが始まると、Adobeは次の2つのことを推奨します。
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+1. **Audience Manager**&#x200B;に連絡して、ユーザーが属するセグメントを取得します。これにより、レスポンスをカスタマイズできます。
+1. **コンテキストデータ変数`a.LaunchEvent=1`を設定して、最初の応答を含むローンチイベント**&#x200B;を送信します。
 
-## Sessions
+### 目的
 
-デジタルアシスタントは対話型であるため、セッションという概念を持つことがよくあります。 次に例を示します。
+各アシスタントはインテントを検出し、アプリに渡します。 意図とは、リクエストの簡潔な表現です。例えば、「Siri、Johnに銀行アプリから昨晩の夕食に$20を送る」は、意図&#x200B;*sendMoney*&#x200B;に解決する可能性があります。 各インテントをeVarにマッピングするコンテキストデータ変数に送信し、インテント間でパスレポートを実行できるようにします。 アプリでも意図せずにリクエストを処理できることを確認してください。Adobeでは、変数を省略するのではなく`No Intent Specified`を送信することをお勧めします。
 
-**消費者：** 「Googleさん、タクシーにお電話ください」
+### パラメータ、スロット、およびエンティティ
 
-**Google:**:「確かに、何時までにしますか？」
-
-**消費者：** 「午後8時30分」
-
-**Google:** 「良さそうですね、運転手は午後8時30分までです」
-
-セッションは、状況を把握し、デジタルアシスタントをより自然にするために、より詳細な情報を収集するのに役立ちます。 会話に Analytics を導入する場合は、新規セッションを開始する際にやることが 2 つあります。
-
-1. **Audience Manager にアクセスする**：返答をカスタマイズするために、ユーザーが属する適切なセグメントを取得します （このユーザーは現在、マルチチャネルの割り引きの利用条件を満たしているなど）。
-2. **新規セッションまたは開始イベントを送信する**：最初の応答を Analytics に送信する際に、開始イベントを含めます。 一般的には、`a.LaunchEvent=1` のコンテキストデータを設定することで、このイベントを送信できます。
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## 目的
-
-それぞれのデジタルアシスタントには、意図を検出して「アプリ」に引き継ぐアルゴリズムがあり、アプリが何をすべきかを知ることができます。 これらの意図は、リクエストの簡潔な表現です。
-
-例えば、ユーザーが「Siri, Send John $20 for dinner last night from my banking app」と言った場合、その意図は&#x200B;*sendMoney*&#x200B;のようなものかもしれません。
-
-これらの各リクエストを eVar として送信すしることで、会話アプリの各インテントに対するパスレポートを作成できます。 インテントがなくてもアプリがリクエストを処理できることを確認します。 変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
-Cache-Control: no-cache
-```
-
-または
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## パラメーター/スロット/エンティティ
-
-デジタルアシスタントは多くの場合、インテントに加えて、そのインテントの詳細を示すキー／値ペアのセットも持ちます。 これらはスロット、エンティティまたはパラメーターと呼ばれます。 以下に例を示します。「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」のパラメーターは次のようになります。
+インテントに加えて、アシスタントはリクエストのキー/値の詳細（スロット、エンティティ、パラメーターと呼ばれます）を提供することがよくあります。 &quot;Siri, send John $20 for dinner last night&quot;の場合、パラメーターは次のようになります。
 
 * 誰が=ジョン
 * 金額= 20
 * Why = Dinner
 
-アプリのこうしたパラメーターの数には、限りがあるのが一般的です。 Analytics でこうした値を追跡するためには、コンテキストデータ変数に送信してから、各パラメーターを eVar にマッピングします。
+通常、アプリごとに有限のデータセットが存在します。 コンテキストデータ変数に送り、それぞれをeVarにマッピングします。
+
+### エラー状態
+
+アシスタントがアプリで処理できない入力を渡すことがあります（例：「Siri、Johnに銀行アプリから20袋の石炭を送る」）。 このような場合は、アプリで説明を求め、エラーの状態を示すデータを送信します。エラーの種類を指定するeVarと共に`a.Error=1`を設定します。 入力が無効なエラーと、アプリ自体に問題があったエラーの両方を含めます。
+
+### デバイスの機能
+
+ほとんどのプラットフォームはデバイスを正確に公開しませんが、その機能（オーディオ、スクリーン、ビデオなど）は公開されており、使用できるコンテンツタイプが定義されています。 デバイスの機能を測定する場合は、先頭と末尾のコロン（例：`":Audio:Camera:Screen:Video:"`）でアルファベット順に連結して、「すべてのヒット数`:Audio:`」などのセグメントを作成できるようにします。
+
+* [Amazon Alexa インターフェイスリファレンス](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
+* [Googleアシスタントなら](https://developers.google.com/actions/assistant/surface-capabilities)
+
+## リクエストの例
+
+次のData Insertion API GET リクエストは、銀行アプリの&#x200B;*SendPayment* インテントを記録し、アプリ ID、起動イベント、インテント、およびスロット値をコンテキストデータとして設定します。
 
 ```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo%201.0&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&pageName=SendPayment HTTP/1.1
 Host: example.data.adobedc.net
-Cache-Control: no-cache
 ```
 
-## エラー状態
+完全なリクエスト形式、エンドポイントおよび応答タイプについては、[Data Insertion API ドキュメント &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/request)を参照してください。
 
-デジタルアシスタントが、対処方法がわからない入力情報をアプリに送ることもあります。 以下に例を示します。「Siri、昨夜のディナー代として、ジョンにバンキングアプリから石炭 20 袋を送っておいて」
+## 測定モデルの例
 
-この状況が発生した場合は、アプリにユーザーへ確認を求めさせます。 さらに、発生したエラーのタイプを示す eVar と共に、アプリにエラー状態があることを示すデータをアドビに送信します。 入力情報に間違いがある場合のエラーと、アプリに問題が生じた場合のエラーを必ず含めます。
+次の表は、音楽アプリの一般的なアクションをAnalytics変数にマッピングする方法を示しています。 これらは、各Data Insertion API リクエストでコンテキストデータ変数として設定し、処理ルールを使用してeVarおよびイベントにマッピングします。
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## デバイスの機能
-
-ほとんどのプラットフォームは、ユーザーが対話したデバイス自体は公開しませんが、そのデバイスの機能は公開されます。 例えば、オーディオ、スクリーン、ビデオなどです。この情報は、ユーザーとやり取りする際に使用できるコンテンツの種類を定義しているので、便利です。 デバイスの機能を測定する際は、それらをアルファベット順に連結するのが最も効果的です。
-
-例：`":Audio:Camera:Screen:Video:"`
-
-セグメントを作成する際に、先頭と末尾のコロンが役立ちます。 例えば、`:Audio:` 機能を持つすべてのヒットを表示します。
-
-* Amazon Alexa を使用する [Amazon 機能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
-* Google でのアクションを使用する[&#x200B; Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
-
-## 例
-
-| ユーザー | デバイスの応答 | アクション／目的 | GET 要求 |
-|---|---|---|---|
-| Spoofify をインストールして | レスポンスがない | Install | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Spoofify を起動して | 「了解、Spoofify を起動します」 | Play | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 楽曲を変更して | 「了解、どの楽曲にしますか？」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 「ベイビーシャーク」を再生して | 「了解、PinkFong の『ベイビーシャーク』を再生しています」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 再生リストを変更して | 「わかりました。どのプレイリストにしますか？」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| お気に入りの曲のプレイリストを再生して | 「わかりました。お気に入りの曲のプレイリストを再生中です」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 音楽を切って | 応答なし、音楽がオフ | Off | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 顧客アクション | インテント/イベント | 設定するコンテキストデータ |
+| --- | --- | --- |
+| アプリのインストール | Install | `a.InstallEvent=1`, `a.InstallDate`, `a.AppID`, `OSType` |
+| アプリを起動 | Launch | `a.LaunchEvent=1`, `a.AppID`, `Intent=Play` |
+| 曲の変更を依頼 | ChangeSong | `a.AppID`, `Intent=ChangeSong` |
+| 特定の曲を再生する | ChangeSong | `a.AppID`, `Intent=ChangeSong`, `SongID` |
+| プレイリストを変更 | ChangePlaylist | `a.AppID`, `Intent=ChangePlaylist`, `Playlist` |
+| 無効な入力が検出されました | （エラー） | `a.Error=1`, `ErrorName` |

@@ -6,24 +6,30 @@ feature: Dimensions
 TQID: https://experienceleague.adobe.com/tsMhHR84qhEUZIZjPTluCJOHMPc37-JRwLsipAycgJI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 93%
-
+source-wordcount: '278'
+ht-degree: 83%
 ---
-
 # 同意管理のオプトアウト
 
 「同意管理オプトアウト」 [&#x200B; ディメンション &#x200B;](overview.md)には、訪問者が明示的にオプトアウトしたプライバシー設定が表示されます。 このディメンションを使用して、プライバシー設定に基づいてデータをフィルタリングしたり、最も一般的なプライバシーオプトアウトの理由を確認したりできます。
@@ -36,7 +42,16 @@ ht-degree: 93%
 * `N` に設定されている場合は `contextData.['opt.dmp']`。 `opt.dmp` が `Y` に等しい場合、代わりに[同意管理のオプトイン](cm-opt-in.md)ディメンションが設定されます。
 * `N` に設定されている場合は `contextData.['opt.sell']`。 `opt.sell` が `Y` に等しい場合、代わりに[同意管理のオプトイン](cm-opt-in.md)ディメンションが設定されます。
 
-これらのコンテキストデータ変数を実装するためのロジックは、お客様の組織が決定します。 これらの変数は、設定されたヒットを超えて存続しないので、各ページでコンテキストデータ変数を設定する必要があります。
+これらのコンテキストデータ変数を実装するためのロジックは、お客様の組織が決定します。 各ページで各コンテキストデータ変数を設定します。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（同意シグナルで設定） |
+| **Web SDK / XDM フィールド** | なし |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 100 バイト |
+| **永続性** | ヒット |
 
 ## ディメンション項目
 

@@ -8,36 +8,55 @@ mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 7447
-ht-degree: 93%
-
+source-wordcount: '7484'
+ht-degree: 92%
 ---
-
 # Adobe Analytics テクニカルドキュメントのアップデート
 
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
@@ -53,10 +72,11 @@ ht-degree: 93%
 | --- | --- |
 | **2026年9月** | |
 | 新しいサイズ変更ショートカットアクション | Analysis Workspaceの新しいキーボードショートカットを使用すると、パネルまたはビジュアライゼーションのサイズを[変更できます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)幅、幅、高さ、短くできます。 |
+| [Adobe Analytics データ収集API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurementやタグを使用せずに、Adobe Analyticsのデータ収集戦略を集約および近代化する新しい開発者リポジトリ。 |
 | **2026年8月** | |
 | リファラータイプディメンションに新しい会話型AI ツールを追加しました | 「Referrer type」ディメンションに、Adobeが使用するルックアップテーブルに次の[会話型AI ツール &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が追加されるようになりました。<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |
-| クエリ文字列参照の更新 | [&#x200B; データ収集クエリパラメーター](/help/implement/validate/query-parameters.md)に大幅なリビジョンがあります。 |
+| クエリ文字列参照の更新 | [&#x200B; データ収集クエリパラメーター](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)に大幅なリビジョンがあります。 |
 | Data Warehouseのセグメント | [Data Warehouse セグメントの互換性](/help/export/data-warehouse/segment-compatibility.md)を更新しました。 |
 | GAからAA ガイドへの移行 | この「GA to AA」ガイドでは、2023年に提供終了したUniversal Analyticsについて言及しています。 新しいガイドに置き換わりました。[Google Analytics 4からCustomer Journey Analyticsへの移行](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
@@ -348,7 +368,7 @@ ht-degree: 93%
 | 2020年6月18日 | 共有 ワークスペースプロジェクトの[プロジェクトの役割](/help/analyze/analysis-workspace/curate-share/share-projects.md)に関する新しいドキュメント。 ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
 | 2020年6月18日 | [ワークスペースプロジェクトの共同編集](/help/analyze/analysis-workspace/curate-share/share-projects.md)に関する新しいドキュメント。 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。 これは、管理者と非管理者の両方に適用されます。 |
 | **2020年5月** |  |
-| 2020年5月31日 | [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) に関する新しいドキュメント |
+| 2020年5月31日 | [一括データ挿入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) に関する新しいドキュメント |
 | 2020年5月21日 | [Adobe Analytics ダッシュボード](/help/analyze/mobile-app/home.md)に関する新しいドキュメント |
 | 2020年5月21日 | Analysis Workspace の[アクセシビリティの向上](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md)に関する新しいドキュメント。キーボードナビゲーション、カラーコントラスト、スクリーンリーダーのサポートの向上が含まれます。 |
 | **2020年4月** |  |

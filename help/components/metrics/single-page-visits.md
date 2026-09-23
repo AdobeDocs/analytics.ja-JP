@@ -6,24 +6,32 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 TQID: https://experienceleague.adobe.com/iDXuwf-Ls1N7VzmtZiMRISLbSEtHOtDTeoddfDEiAwA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: '239'
 ht-degree: 34%
-
 ---
-
 # 直帰数
 
+>[!BEGINSHADEBOX]
+
 *このヘルプページでは、「直帰数」が指標としてどのように機能するかを説明します。 詳しくは、[直帰数](../dimensions/single-page-visits.md)ディメンションを参照してください。*
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 単一ページ訪問回数]** [指標](overview.md)は、[&#x200B; ページ &#x200B;](../dimensions/page.md) ディメンション項目が訪問全体に1つの値のみを含む訪問回数を示します。 この指標は、短い訪問を表示したいが、[[!UICONTROL バウンス]](bounces.md)ほど厳しいルールを持たないディメンションのコンテキストで役立ちます。
 

@@ -6,35 +6,53 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 854
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 93%
 ---
-
 # eVar
 
+>[!BEGINSHADEBOX]
+
 *このヘルプページでは、eVar が[ディメンション](overview.md)としてどのように機能するかについて説明します。 eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
+
+>[!ENDSHADEBOX]
 
 eVar は、好きなだけ使用できるカスタム[ディメンション](overview.md)です。 [ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。
 
@@ -48,9 +66,16 @@ eVar は、好きなだけ使用できるカスタム[ディメンション](ove
 
 ## eVar にデータを入力する
 
-各 eVar は、イメージリクエストの [`v1` - `v250` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを収集します。 例えば、`v1` クエリ文字列パラメーターで eVar1 のデータを収集し、`v222` クエリ文字列パラメーターで eVar222 のデータを収集します。
+実装時にeVarを明示的に設定します。 値は保持され、割り当てと有効期限に基づいて指標に関連付けられます。以下の[eVarsの仕組み](#how-evars-work)を参照してください。
 
-JavaScript 変数をデータ収集用のイメージリクエストにコンパイルする AppMeasurement では、変数 `eVar1` — `eVar250` を使用します。 導入のガイドラインについては、『導入ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
+| **Web SDK / XDM フィールド** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **クエリパラメーター** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML タグ** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **バイト制限** | 255 バイト |
+| **永続性** | 設定可能 |
 
 ## ディメンション項目
 

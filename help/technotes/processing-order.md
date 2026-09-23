@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Adobe Analytics でのデータの処理順序
 
 アドビでは、レポートに表示される前にデータを変更または操作する方法を多数提供しています。 このページでは、様々な Adobe Analytics 機能によるデータの処理順序を示します。 このリストを使用すると、データの不整合をトラブルシューティングしたり、データの調整が必要な場合に使用する最適な機能を決定したりできます。
@@ -39,7 +48,7 @@ ht-degree: 37%
 * **AppMeasurement**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データは Adobe Analytics に直接送信されます。
 * **Adobe Experience Platform Web SDK**：サイトでホストされ、各ページで参照される JavaScript ファイル。 データはAdobe Experience Platform Edge Networkに送信されます。
 * **Adobe Experience Platform Data Collectionのタグ**：各ページで参照され、Data Collection UI内で作成されたルールを含むJavaScript ファイル。 Adobe Analytics 拡張機能を使用すると、AppMeasurement の実装が容易になります。 Web SDK 拡張機能を使用すると、Web SDK をより簡単に実装できます。
-* **API**: AppMeasurementとEdge Networkの両方で、Adobeにデータを送信するためのプログラム方式が用意されています。 AppMeasurementでは、[Data Insertion API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)と[Bulk Data Insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)を提供しています。Edge Networkでは、[Data Collection API](https://developer.adobe.com/data-collection-apis/docs/)を提供しています。
+* **API**: AppMeasurementとEdge Networkの両方で、Adobeにデータを送信するためのプログラム方式が用意されています。 AppMeasurementでは、[Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)と[Bulk Data Insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)を提供しています。Edge Networkでは、[Data Collection API](https://developer.adobe.com/data-collection-apis/docs/)を提供しています。
 
 Edge Networkにデータを送信する場合は、データをAdobe Analytics（および他の多くのAdobe CX Enterprise ソリューション）に転送するように設定できます。 実装方法にかかわらず、収集されたヒットデータは、最終的に解析可能なフォーマットでAdobe Analytics処理サーバーに届きます。
 

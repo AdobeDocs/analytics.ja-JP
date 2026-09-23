@@ -6,34 +6,50 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 61%
-
+source-wordcount: '1172'
+ht-degree: 60%
 ---
-
 # 使用する Adobe Analytics ツールの検討
 
 このヘルプページには、各Adobe Analytics ツールの推奨されるユースケースが含まれています。 ツールは、リストされている順序で考慮する必要があります。 特定のツールが要件を満たさない場合は、次のツールに移行して検討します。
@@ -77,7 +93,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。 統合アプリは、通常、概要レベルのデータを恒久的かつ自動的に繰り返し Adobe Analytics に取り込みます。
 
-**[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[一括データ挿入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含む CSV 形式のファイルを受け付けます。 アドビでは、サーバーサイドコードを必要とする実装や、データ収集に AppMeasurement や Web SDK を使用できない実装には、一括挿入 API を使用することをお勧めします。
 
@@ -87,7 +103,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)**&#x200B;は以下の場合に使用します。
 
-* 顧客関係管理（CRM）データベースに企業の顧客データを取り込み、CX Enterpriseにデータをアップロードする場合。
+* CRM （顧客関係管理）データベースに取り込まれた企業顧客データを、CX Enterpriseにアップロードする場合。
 * Adobe AnalyticsでCRM データをより詳細に分析したり、Adobe Adobe Targetのターゲティング基準として使用したい場合。
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** は以下の場合に使用します。

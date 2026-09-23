@@ -6,25 +6,32 @@ exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 364
-ht-degree: 81%
-
+source-wordcount: '413'
+ht-degree: 69%
 ---
-
 # 時刻
 
 「時間」ディメンション [1&rbrace;は、任意の日の時間をディメンション項目としてレポートします。 &#x200B;](overview.md)例えば、1 月 1 日から 1 月 7 日にまたがるレポートがある場合、各日の最初の時刻は、同じディメンション項目にグループ化されます。 このレポートは、時刻別にレポートを分類したいが、ディメンション項目として固定された時刻を使用したくない場合に役立ちます。 このディメンションは、選択した日付範囲でロールするので、予定レポートのディメンションとして特に役立ちます。
@@ -33,7 +40,16 @@ ht-degree: 81%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装において初期設定の状態で動作します。 レポートスイートにデータが含まれていれば、このディメンションは機能します。
+このディメンションは、各ヒットのタイムスタンプから派生します。設定する変数はありません。 前述したように、時間には、訪問者のローカルタイムゾーンではなく、レポートスイートのタイムゾーンが反映されます。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（ヒットタイムスタンプから派生） |
+| **Web SDK / XDM フィールド** | なし（ヒットタイムスタンプから派生） |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 該当なし |
+| **永続性** | ヒット |
 
 ## ディメンション項目
 

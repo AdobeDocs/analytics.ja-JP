@@ -6,26 +6,31 @@ exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 TQID: https://experienceleague.adobe.com/2WS7gBdkpaYUvVqgoR5QTrPes2T2GJT5AEFyj9POcHA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 85%
-
+source-wordcount: '335'
+ht-degree: 70%
 ---
-
 # ページでの滞在時間
 
-「ページに費やした時間」ディメンション [1&rbrace;は、訪問者がページに費やした時間を記録します。 &#x200B;](overview.md)次の手順を使用して計算を測定します。
+「ページに費やした時間」ディメンション [1&rbrace;は、訪問者がページに費やした時間を記録します。 &#x200B;](overview.md)次の手順で値を測定します。
 
 1. 特定のヒットについて、タイムスタンプを確認します。
 2. このヒットを、訪問の次のヒットのタイムスタンプと比較します。 ページビューとリンクトラッキングのヒット数の両方。
@@ -35,7 +40,7 @@ ht-degree: 85%
 
 >[!TIP]
 >
->その後のイメージリクエストでは経過時間を測定しないので訪問の最後のヒット時には滞在時間は測定されません。 この概念は、単一のヒット（バウンス）から成る訪問にも適用されます。
+>訪問の最後のヒットでは、その後に経過時間を測定するためのイメージリクエストが存在しないため、滞在時間は測定されません。 この概念は、単一のヒット（バウンス）から成る訪問にも適用されます。
 
 このディメンションはヒットに基づいています。つまり、ヒットごとに値が異なります。 このディメンションを、[訪問別滞在時間](time-spent-per-visit.md)（訪問ベースのディメンション）と比較します。 滞在時間が長いと、訪問者が 1 ページ（ヒット）に長く滞在したことを意味します。
 
@@ -43,7 +48,16 @@ ht-degree: 85%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装において初期設定の状態で動作します。 レポートスイートにデータが含まれていれば、このディメンションは機能します。
+Adobeは、各ヒットから次のヒットまでの経過時間から、このディメンションをサーバーサイドで計算します。 設定する変数はありません。すべての実装に対してすぐに使用できます。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（Adobeで計算） |
+| **Web SDK / XDM フィールド** | なし（Adobeで計算） |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 該当なし |
+| **永続性** | ヒット |
 
 ## ディメンション項目
 

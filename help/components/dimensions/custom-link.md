@@ -6,44 +6,52 @@ exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 TQID: https://experienceleague.adobe.com/x4IAGJjozPnLsft1e9xs68L6TNDJbHW0H4Z23p9EDNg
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 21%
-
+source-wordcount: '268'
+ht-degree: 20%
 ---
-
 # カスタムリンク
 
 「カスタムリンク」 [&#x200B; ディメンション &#x200B;](overview.md)は、サイトに実装されたカスタムリンクの名前をレポートします。 カスタムリンクは、ファイルのダウンロードやアウトバウンドナビゲーション以外のインタラクションに対する柔軟なトラッキングメカニズムです。 一般的な例としては、ボタンクリックや社内ナビゲーション、フォームインタラクションなどがあります。 このディメンションは、訪問者がどのようなインタラクションに最も関心を示しているのかを把握したい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、`pe` クエリ文字列の値に応じて、イメージリクエストの[`pev2` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを収集します。 `pe` クエリ文字列によって、どのリンクディメンションが`pev2`値を受け取るかが決まります。
-
-* **カスタムリンク** （このページ）: `lnk_o`
-* **[ダウンロードリンク](download-link.md)**: `lnk_d`
-* **[リンクを終了](exit-link.md)**: `lnk_e`
-
-`pev2`が指定されていない場合は、代わりにリンク URL （`pev1`）がディメンション値として使用されます。 リンク名を明示的に指定した場合、最大長は100 バイトになります。 リンク URLから派生した値は、この制限の対象ではありません。
-
-AppMeasurementを使用してこのディメンションにデータを入力するには、リンクタイプ引数`"o"`を指定して[`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。 リンク名引数を目的の値に設定します。
+このディメンションには、[&#x200B; リンクトラッキング呼び出し（`tl()`） &#x200B;](/help/implement/vars/functions/tl-method.md)が入力されています。 設定できる専用の変数はありません。 代わりに、リンクタイプ引数`"o"`を持つ`tl()`画像リクエストを送信し、リンク名引数を目的の値に設定します。 `pe` クエリ文字列は、リンク名を正しいリンクディメンション （[&#x200B; カスタムリンク &#x200B;](custom-link.md)の`lnk_o`、[&#x200B; ダウンロードリンク &#x200B;](download-link.md)の`lnk_d`、[終了リンク &#x200B;](exit-link.md)の`lnk_e`）にルーティングします。 リンク名が指定されていない場合、代わりにリンク URLがディメンション値として使用され、URL派生値はバイト制限の対象にはなりません。
 
 ```js
 s.tl(true,"o","Example custom link");
 ```
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | [`tl()`](/help/implement/vars/functions/tl-method.md) |
+| **Web SDK / XDM フィールド** | なし |
+| **クエリパラメーター** | [`pev2`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML タグ** | [`<linkName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **バイト制限** | 100 バイト |
+| **永続性** | ヒット |
 
 ## ディメンション項目
 
