@@ -59,8 +59,8 @@ prop は、任意の用途に使用できるカスタム変数です。 prop は
 
 Propは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - リスト propが[個のフィールドのセット ](#list-props-web-sdk)で指定されています。
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`、または`data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - リスト propはこれらのフィールドに含まれています。
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - リスト propが[個のフィールドのセット &#x200B;](#list-props-web-sdk)で指定されています。
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`、または`data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - リスト propはこれらのフィールドに含まれています。
 
 ## Adobe Analytics 拡張機能での prop
 

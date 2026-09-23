@@ -42,7 +42,7 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、propが[ ディメンション ](overview.md)として機能する仕組みについて説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
+*このヘルプページでは、propが[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 prop の実装方法について詳しくは、『実装ユーザーガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +69,7 @@ prop は、任意の用途に使用できるカスタム変数です。 prop は
 
 ## ディメンション項目
 
-prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。 各propおよび一般的なディメンション項目の目的を[ ソリューション設計ドキュメント ](/help/implement/prepare/solution-design.md)に記録してください。
+prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。 各propおよび一般的なディメンション項目の目的を[&#x200B; ソリューション設計ドキュメント &#x200B;](/help/implement/prepare/solution-design.md)に記録してください。
 
 ## 大文字と小文字の区別
 

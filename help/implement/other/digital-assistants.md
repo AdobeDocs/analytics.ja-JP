@@ -53,9 +53,9 @@ ht-degree: 9%
 
 ## Adobe Analyticsへのデータの送信方法
 
-デジタルアシスタントアプリは通常、Adobe クライアントサイドライブラリ（AppMeasurementまたはWeb SDK）を持たないサーバーまたはプラットフォーム上で実行されます。 [ データ挿入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**を使用して、ヒットを** サーバーサイドで送信します。 測定する各インタラクションは、クエリ文字列（またはXML本文）がこのページで説明されている変数を含むData Insertion API リクエストになります。ほとんどの場合、[ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)は、[処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用してeVar、prop、イベントにマッピングされます。
+デジタルアシスタントアプリは通常、Adobe クライアントサイドライブラリ（AppMeasurementまたはWeb SDK）を持たないサーバーまたはプラットフォーム上で実行されます。 [&#x200B; データ挿入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**を使用して、ヒットを** サーバーサイドで送信します。 測定する各インタラクションは、クエリ文字列（またはXML本文）がこのページで説明されている変数を含むData Insertion API リクエストになります。ほとんどの場合、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)は、[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用してeVar、prop、イベントにマッピングされます。
 
-このページでは、*何*&#x200B;を測定し、Analyticsでモデル化する方法に焦点を当てます。 エンドポイント、クエリ文字列およびXML エンコーディング、必要なコンポーネント、応答タイプについては、[Data Insertion API ドキュメント ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)を参照してください。 以下の名前の各変数は、[変数参照](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)のクエリ文字列パラメーターとXML タグにマッピングされます。
+このページでは、*何*&#x200B;を測定し、Analyticsでモデル化する方法に焦点を当てます。 エンドポイント、クエリ文字列およびXML エンコーディング、必要なコンポーネント、応答タイプについては、[Data Insertion API ドキュメント &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)を参照してください。 以下の名前の各変数は、[変数参照](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)のクエリ文字列パラメーターとXML タグにマッピングされます。
 
 ## 分析の導入場所
 
@@ -78,7 +78,7 @@ Adobe Analyticsを導入する最適な場所のひとつは、アプリです�
 
 ### 訪問者の識別
 
-Adobe Analyticsは[Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、インタラクションを時間をかけて同じユーザーに関連付けます。 ほとんどのデジタルアシスタントは、一意のIDとして使用できる`userID`を返します。これを訪問者IDの上書き（`vid`）として渡します。 一部のプラットフォームでは、許可されている100文字よりも長い識別子が返されます。この場合、MD5やSHA-1などの標準アルゴリズムを使用して、固定長の値にハッシュ化します。
+Adobe Analyticsは[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用して、インタラクションを時間をかけて同じユーザーに関連付けます。 ほとんどのデジタルアシスタントは、一意のIDとして使用できる`userID`を返します。これを訪問者IDの上書き（`vid`）として渡します。 一部のプラットフォームでは、許可されている100文字よりも長い識別子が返されます。この場合、MD5やSHA-1などの標準アルゴリズムを使用して、固定長の値にハッシュ化します。
 
 訪問者ID サービスを使用すると、デバイス（webからデジタルアシスタントなど）間でECIDをマッピングする際に最も価値を提供します。 アプリがモバイルアプリの場合は、Experience Platform Mobile SDKを使用し、`setCustomerID`方式でユーザーIDを送信します。 アプリがサービスの場合は、サービスが提供するユーザーIDを訪問者IDとして使用し、`setCustomerID`と設定します。 サーバーサイドのリクエストで識別子を設定する方法については、[Data Insertion APIを使用した訪問者の識別](../id/data-insertion.md)を参照してください。
 
@@ -123,7 +123,7 @@ GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo%201.0&c.a.Lau
 Host: example.data.adobedc.net
 ```
 
-完全なリクエスト形式、エンドポイントおよび応答タイプについては、[Data Insertion API ドキュメント ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/request)を参照してください。
+完全なリクエスト形式、エンドポイントおよび応答タイプについては、[Data Insertion API ドキュメント &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/request)を参照してください。
 
 ## 測定モデルの例
 

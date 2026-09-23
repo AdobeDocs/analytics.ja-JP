@@ -48,7 +48,7 @@ ht-degree: 4%
 
 このディメンションは、複数の方法で値を収集します。
 
-* クリックスルートラフィックの場合、データは[ ページ URL](page-url.md)の`s_kwcid` クエリ文字列パラメーターから収集されます。通常は、広告駆動型トラフィックがサイトに入るページ上に収集されます。
+* クリックスルートラフィックの場合、データは[&#x200B; ページ URL](page-url.md)の`s_kwcid` クエリ文字列パラメーターから収集されます。通常は、広告駆動型トラフィックがサイトに入るページ上に収集されます。
 * クリックスルートラフィックは、URLにトラッキングコードが含まれていない場合にもキャプチャできますが、Adobe Advertising JavaScriptでは、前の2分以内にクリックが検出されます。
 * サポートされているビュースルートラフィックの場合、Adobe Advertisingはバックエンドの値を補足ID （`SDID`）を使用して補完します。
 
@@ -164,30 +164,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分類
 
-Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)の[Analytics統合を有効にすると、次の分類が自動的に作成されます。 分類値は、統合によって自動的に維持されます。
+Advertising[&#128279;](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)のAnalytics統合を有効にすると、次の分類が自動的に作成されます。 分類値は、統合によって自動的に維持されます。
 
 | 分類 | 説明 | DSP | 検索，<br> ソーシャル，&amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL アカウント]** | アカウント名。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 広告の表示URL]** | 広告に表示されるURL。 | | &amp;check; |
-| **[!UICONTROL 広告の説明]** | 広告説明（DSP）または広告本文（検索、ソーシャル、Commerce）。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 広告宛先URL]** | 広告の宛先URL。 | | &amp;check; |
-| **[!UICONTROL 広告グループ]** | 広告グループ名。 | | &amp;check; |
-| **[!UICONTROL 広告プラットフォーム]** | 広告のDSPまたは検索エンジン名。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 広告タイトル]** | 広告の種類（DSP）または広告タイトル（検索、ソーシャル、Commerce）。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 広告の種類]** | 広告タイプ（`text`、`video`、`display`、`native`など）。 | &amp;check; | &amp;check; |
-| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 ]** | 将来のカスタム属性に予約されるプレースホルダー分類。 現在使用されていません。 | | |
-| **[!UICONTROL Campaign]** | キャンペーン名。 | &amp;check; | &amp;check; |
-| **[!UICONTROL Creative エクスペリエンス名]** | 広告インタラクションに関連付けられたクリエイティブエクスペリエンスの名前。テストまたはパーソナライゼーションで使用されるクリエイティブのバリエーションのグループを表します。 | &amp;check; | |
-| **[!UICONTROL Creative支店名]** | クリエイティブ実験内の特定のバリエーションまたはパスを表す、クリエイティブ体験内のブランチの名前。 | &amp;check; | |
-| **[!UICONTROL Creative支店ID]** | クリエイティブエクスペリエンス内のクリエイティブブランチに割り当てられた一意のID。 | &amp;check; | |
-| **[!UICONTROL Creative名]** | ユーザーに配信された特定の広告クリエイティブアセットの名前。 | &amp;check; | |
-| **[!UICONTROL Creative バリアント名]** | クリエイティブエクスペリエンスまたはブランチ内で使用されるクリエイティブの特定のバリエーションの名前。 | &amp;check; | |
-| **[!UICONTROL キーワード]** | キーワード。 | | &amp;check; |
-| **[!UICONTROL キーワード一致タイプ]** | キーワードと一致タイプ。 | | &amp;check; |
-| **[!UICONTROL ランディングタイプ]** | ランディングページのエントリがビュースルーまたはクリックスルーのどちらであったか。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 一致タイプ]** | 検索の一致タイプ。 | | &amp;check; |
-| **[!UICONTROL ネットワーク]** | RTB （DSP）またはアドネットワーク名（検索、ソーシャル、Commerce）。 | &amp;check; | &amp;check; |
-| **[!UICONTROL 最適化]** | パッケージ名（DSP）またはポートフォリオ名（検索、ソーシャル、Commerce）。 | &amp;check; | &amp;check; |
-| **[!UICONTROL プレースメント]** | プレースメント名。 | &amp;check; | |
-| **[!UICONTROL 製品ターゲット]** | 製品リスト広告の製品ターゲット。 | | &amp;check; |
+| **[!UICONTROL アカウント]** | アカウント名。 | &check; | &check; |
+| **[!UICONTROL 広告の表示URL]** | 広告に表示されるURL。 | | &check; |
+| **[!UICONTROL 広告の説明]** | 広告説明（DSP）または広告本文（検索、ソーシャル、Commerce）。 | &check; | &check; |
+| **[!UICONTROL 広告宛先URL]** | 広告の宛先URL。 | | &check; |
+| **[!UICONTROL 広告グループ]** | 広告グループ名。 | | &check; |
+| **[!UICONTROL 広告プラットフォーム]** | 広告のDSPまたは検索エンジン名。 | &check; | &check; |
+| **[!UICONTROL 広告タイトル]** | 広告の種類（DSP）または広告タイトル（検索、ソーシャル、Commerce）。 | &check; | &check; |
+| **[!UICONTROL 広告の種類]** | 広告タイプ（`text`、`video`、`display`、`native`など）。 | &check; | &check; |
+| **[!UICONTROL AdCloud属性1]** -<br>**[!UICONTROL AdCloud属性5 &#x200B;]** | 将来のカスタム属性に予約されるプレースホルダー分類。 現在使用されていません。 | | |
+| **[!UICONTROL Campaign]** | キャンペーン名。 | &check; | &check; |
+| **[!UICONTROL Creative エクスペリエンス名]** | 広告インタラクションに関連付けられたクリエイティブエクスペリエンスの名前。テストまたはパーソナライゼーションで使用されるクリエイティブのバリエーションのグループを表します。 | &check; | |
+| **[!UICONTROL Creative支店名]** | クリエイティブ実験内の特定のバリエーションまたはパスを表す、クリエイティブ体験内のブランチの名前。 | &check; | |
+| **[!UICONTROL Creative支店ID]** | クリエイティブエクスペリエンス内のクリエイティブブランチに割り当てられた一意のID。 | &check; | |
+| **[!UICONTROL Creative名]** | ユーザーに配信された特定の広告クリエイティブアセットの名前。 | &check; | |
+| **[!UICONTROL Creative バリアント名]** | クリエイティブエクスペリエンスまたはブランチ内で使用されるクリエイティブの特定のバリエーションの名前。 | &check; | |
+| **[!UICONTROL キーワード]** | キーワード。 | | &check; |
+| **[!UICONTROL キーワード一致タイプ]** | キーワードと一致タイプ。 | | &check; |
+| **[!UICONTROL ランディングタイプ]** | ランディングページのエントリがビュースルーまたはクリックスルーのどちらであったか。 | &check; | &check; |
+| **[!UICONTROL 一致タイプ]** | 検索の一致タイプ。 | | &check; |
+| **[!UICONTROL ネットワーク]** | RTB （DSP）またはアドネットワーク名（検索、ソーシャル、Commerce）。 | &check; | &check; |
+| **[!UICONTROL 最適化]** | パッケージ名（DSP）またはポートフォリオ名（検索、ソーシャル、Commerce）。 | &check; | &check; |
+| **[!UICONTROL プレースメント]** | プレースメント名。 | &check; | |
+| **[!UICONTROL 製品ターゲット]** | 製品リスト広告の製品ターゲット。 | | &check; |

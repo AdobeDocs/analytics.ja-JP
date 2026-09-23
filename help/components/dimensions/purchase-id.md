@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # 購入 ID
 
-「購入ID」 [ ディメンション ](overview.md)は、購入の一意のIDを提供します。
+「購入ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、購入の一意のIDを提供します。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)変数を使用して設定されます。 データフィードの`purchaseid`列に対応します。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+このディメンションは、[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)変数を使用して設定されます。 データフィードの`purchaseid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |

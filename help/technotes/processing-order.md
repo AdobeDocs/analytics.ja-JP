@@ -62,7 +62,7 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 1. [**IP除外**](/help/admin/tools/exclude-ip.md)：レポートから明示的に除外したIP アドレスは、この手順でフラグ付けされます。
 1. [**ボットルール**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)：標準またはカスタムのボットフィルタリングを適用すると、そのデータをレポートから除外できます。
 1. **ジオロケーションデータ**：IP アドレスのルックアップに依存するディメンション（[国](/help/components/dimensions/countries.md)ディメンションなど）が入力されます。
-1. [**処理ルール**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)：組織がデータに適用したカスタムルール。 [ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)をそれぞれのAnalytics変数にマッピングします。
+1. [**処理ルール**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)：組織がデータに適用したカスタムルール。 [&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)をそれぞれのAnalytics変数にマッピングします。
 1. [**VISTA ルール**](vista.md)：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。 VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。 通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。 既存のVISTA ルールについて詳しくは、Adobe アカウントチームにお問い合わせください。
 1. **通貨換算**: ヒットにレポートスイートの通貨とは異なる[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)が含まれている場合、該当する通貨変数は現在の為替レートを使用して換算されます。
 1. [**郵便番号**](/help/components/dimensions/zip-code.md): 「郵便番号」ディメンションは、レポートスイートの設定に基づいて入力されます。
@@ -86,8 +86,8 @@ Edge Networkにデータを送信する場合は、データをAdobe Analytics�
 
 1. [**訪問+訪問者の定義**](/help/implement/id/overview.md): ヒットは、含まれている訪問者変数に基づいて識別されます。
 1. [**訪問数**](/help/components/dimensions/visit-number.md)：特定された訪問者の他の訪問に基づいて、訪問数が計算されます。
-1. **イベント重複排除**: ヒットに重複した[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)または[ イベントのシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)が含まれている場合、それらのIDはチェックされ、それぞれフラグが立てられます。
-1. [**訪問レベルのマーケティングチャネル処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)：すべてのヒットはマーケティングチャネル処理ルールを通して実行され、ヒットが任意のルールと一致するかどうかをチャネルとチャネルの詳細が決定されます。 これらのルールは、Analysis Workspaceで使用可能な[ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md)および[ マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) ディメンションに入力されます。
+1. **イベント重複排除**: ヒットに重複した[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)または[&#x200B; イベントのシリアル化](/help/implement/vars/page-vars/events/event-serialization.md)が含まれている場合、それらのIDはチェックされ、それぞれフラグが立てられます。
+1. [**訪問レベルのマーケティングチャネル処理ルール**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)：すべてのヒットはマーケティングチャネル処理ルールを通して実行され、ヒットが任意のルールと一致するかどうかをチャネルとチャネルの詳細が決定されます。 これらのルールは、Analysis Workspaceで使用可能な[&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md)および[&#x200B; マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) ディメンションに入力されます。
 1. **変数の永続性**：永続性を持つディメンション（[eVars](/help/components/dimensions/evar.md)など）の場合、この手順でその値が決定されます。 一般的に、ほとんどの`post`値はここで設定されます。
 1. **トランザクション ID**: ヒットに新しい[`transactionID`](/help/implement/vars/page-vars/transactionid.md)値が含まれている場合、サポートされているすべての値の「スナップショット」が保存されます。 データソースのアップロードに一致するトランザクション IDが含まれている場合、このスナップショットでサポートされているすべての値がそのデータソース行に含まれます。
 1. [**IP難読化（IPを削除）**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：レポートスイートがIP アドレスを完全に難読化するように設定されている場合、その難読化は、他のすべての処理が終了した後にここに適用されます。

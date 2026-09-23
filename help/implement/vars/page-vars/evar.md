@@ -51,8 +51,8 @@ eVar は、任意の用途で使用できるカスタム変数です。 [ソリ�
 
 eVarは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ～ `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` ～ `data.__adobe.analytics.eVar250`、または`data.__adobe.analytics.v1` ～ `data.__adobe.analytics.v250`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` ～ `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` ～ `data.__adobe.analytics.eVar250`、または`data.__adobe.analytics.v1` ～ `data.__adobe.analytics.v250`
 
 ## Adobe Analytics 拡張機能を使用した eVar
 

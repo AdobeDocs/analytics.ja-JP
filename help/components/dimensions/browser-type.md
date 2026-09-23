@@ -34,7 +34,7 @@ ht-degree: 52%
 ---
 # ブラウザータイプ
 
-「ブラウザータイプ」 [ ディメンション ](overview.md)には、訪問者が使用するブラウザーを作成した組織が一覧表示されます。 このディメンションは、訪問者が使用するブラウザーを包括的に確認する場合に役立ちます。 同じブラウザーの異なるバージョンを別々のディメンション項目としてリストしない点で、「ブラウザー」ディメンションよりも有用です。
+「ブラウザータイプ」 [&#x200B; ディメンション &#x200B;](overview.md)には、訪問者が使用するブラウザーを作成した組織が一覧表示されます。 このディメンションは、訪問者が使用するブラウザーを包括的に確認する場合に役立ちます。 同じブラウザーの異なるバージョンを別々のディメンション項目としてリストしない点で、「ブラウザー」ディメンションよりも有用です。
 
 ## このディメンションへのデータ入力
 
@@ -50,7 +50,7 @@ Adobeは、このディメンションを`User-Agent` HTTP ヘッダーから取
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
 
 ## ディメンション項目
 

@@ -29,11 +29,11 @@ ht-degree: 13%
 ---
 # Activity Map 地域別リンク
 
-「Activity Map Link By Region」 [ ディメンション ](overview.md)には、[Activity Map Link](activity-map-link.md)と[Activity Map Region](activity-map-link-by-region.md)の連結が表示されます。 このディメンションは、サイトの様々な地域に同じ名前のリンクが存在する場合に便利です。 例えば、ホームページへのリンクがすべて「ホーム」というラベルが付いている場合、このディメンションを使用して、各サイト地域のリンクを区別できます。
+「Activity Map Link By Region」 [&#x200B; ディメンション &#x200B;](overview.md)には、[Activity Map Link](activity-map-link.md)と[Activity Map Region](activity-map-link-by-region.md)の連結が表示されます。 このディメンションは、サイトの様々な地域に同じ名前のリンクが存在する場合に便利です。 例えば、ホームページへのリンクがすべて「ホーム」というラベルが付いている場合、このディメンションを使用して、各サイト地域のリンクを区別できます。
 
 ## このディメンションにデータを入力
 
-このディメンションは、[ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`および`c.a.activitymap.region`からデータを取得します。 これら2つの値は連結され、パイプ （`|`）で区切られます。 実装で[Activity Map](/help/analyze/activity-map/overview.md)を使用している場合、リンクがクリックされると、これらのコンテキストデータ変数によってデータが自動的に収集されます。
+このディメンションは、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`および`c.a.activitymap.region`からデータを取得します。 これら2つの値は連結され、パイプ （`|`）で区切られます。 実装で[Activity Map](/help/analyze/activity-map/overview.md)を使用している場合、リンクがクリックされると、これらのコンテキストデータ変数によってデータが自動的に収集されます。
 
 | プロパティ | 値 |
 | --- | --- |

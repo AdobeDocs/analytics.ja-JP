@@ -38,7 +38,7 @@ ht-degree: 64%
 ---
 # 市区町村
 
-「都市」 [ ディメンション ](overview.md)は、ヒットの発生元の都市を報告します。 このディメンションは、ユーザーがサイトを訪問する際に、どの都市からの訪問が最も多いかを判断するのに役立ちます。 このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
+「都市」 [&#x200B; ディメンション &#x200B;](overview.md)は、ヒットの発生元の都市を報告します。 このディメンションは、ユーザーがサイトを訪問する際に、どの都市からの訪問が最も多いかを判断するのに役立ちます。 このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
 
 ## このディメンションへのデータ入力
 
@@ -54,7 +54,7 @@ Adobeは、訪問者のIP アドレスからサーバーサイドでこのディ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

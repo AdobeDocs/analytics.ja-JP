@@ -38,7 +38,7 @@ ht-degree: 55%
 ---
 # 米国 DMA
 
-「米国DMA」 [ ディメンション ](overview.md)は、訪問者の指定された市場領域（DMA）を報告します。 これは、[Nielsen 社](https://www.nielsen.com/dma-regions/)がまとめたメディア市場に基づいています。
+「米国DMA」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者の指定された市場領域（DMA）を報告します。 これは、[Nielsen 社](https://www.nielsen.com/dma-regions/)がまとめたメディア市場に基づいています。
 
 ## このディメンションへのデータ入力
 
@@ -54,7 +54,7 @@ Adobeは、訪問者のIP アドレスからサーバーサイドでこのディ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

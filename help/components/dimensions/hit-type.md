@@ -42,11 +42,11 @@ ht-degree: 31%
 ---
 # ヒットタイプ
 
-「ヒットの種類」 [ ディメンション ](overview.md)は、ヒットがAdobe データ収集サーバーに送信されたときに、モバイルアプリが前景または背景にあるかどうかを判断します。 このディメンションは、モバイルアプリケーション用のデータを含むレポートスイートにのみ関連します。 AppMeasurementを通じて収集されたブラウザーデータでは、ヒットは常に`"Foreground"`と報告されます。
+「ヒットの種類」 [&#x200B; ディメンション &#x200B;](overview.md)は、ヒットがAdobe データ収集サーバーに送信されたときに、モバイルアプリが前景または背景にあるかどうかを判断します。 このディメンションは、モバイルアプリケーション用のデータを含むレポートスイートにのみ関連します。 AppMeasurementを通じて収集されたブラウザーデータでは、ヒットは常に`"Foreground"`と報告されます。
 
 ## このディメンションへのデータ入力
 
-モバイル SDKは、各ヒットが前景または背景で発生したかどうかを示すために[`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md)変数を設定します。 このディメンションは、バージョン 4.13.6 以降でのすべてのモバイル SDK 実装で初期設定のまま機能します。 モバイル SDKを使用しない場合は、`"Foreground"`の下のすべてのヒットが一覧表示されます。 [仮想レポートスイート ](../vrs/vrs-mobile-visit-processing.md)の設定時に&#x200B;**[!UICONTROL バックグラウンドヒットによる新しい訪問の開始を防止]**&#x200B;が選択されている場合、バックグラウンドヒットによって[[!UICONTROL 訪問]](../metrics/visits.md)と[[!UICONTROL  ユニーク訪問者]](../metrics/unique-visitors.md)が膨らむことはありません。
+モバイル SDKは、各ヒットが前景または背景で発生したかどうかを示すために[`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md)変数を設定します。 このディメンションは、バージョン 4.13.6 以降でのすべてのモバイル SDK 実装で初期設定のまま機能します。 モバイル SDKを使用しない場合は、`"Foreground"`の下のすべてのヒットが一覧表示されます。 [仮想レポートスイート &#x200B;](../vrs/vrs-mobile-visit-processing.md)の設定時に&#x200B;**[!UICONTROL バックグラウンドヒットによる新しい訪問の開始を防止]**&#x200B;が選択されている場合、バックグラウンドヒットによって[[!UICONTROL 訪問]](../metrics/visits.md)と[[!UICONTROL &#x200B; ユニーク訪問者]](../metrics/unique-visitors.md)が膨らむことはありません。
 
 | プロパティ | 値 |
 | --- | --- |

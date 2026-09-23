@@ -36,13 +36,13 @@ ht-degree: 54%
 ---
 # ページ
 
-「ページ」 [ ディメンション ](overview.md)には、サイト上のページの名前が一覧表示されます。 これは、Adobe Analytics で最も一般的なディメンションの 1 つで、サイトのどのページのパフォーマンスが最も高いかに関するインサイトを提供します。
+「ページ」 [&#x200B; ディメンション &#x200B;](overview.md)には、サイト上のページの名前が一覧表示されます。 これは、Adobe Analytics で最も一般的なディメンションの 1 つで、サイトのどのページのパフォーマンスが最も高いかに関するインサイトを提供します。
 
 このディメンションは、[サイトセクション](site-section.md)ディメンションと[サーバー](server.md)ディメンションに関連しています。 ページの精度は最も高く、サーバーの精度は最も低く、サイトセクションはこの 2 つの間にあります。
 
 ## このディメンションへのデータ入力
 
-[ ページビュー呼び出し（`t()`） ](/help/implement/vars/functions/t-method.md)で[`pageName`](/help/implement/vars/page-vars/pagename.md)変数を設定します。 `pageName`変数が設定されていない場合、このディメンションは[`pageURL`](/help/implement/vars/page-vars/pageurl.md)変数を使用してフォールバックします。 [ リンクトラッキング呼び出し（`tl()`） ](/help/implement/vars/functions/tl-method.md)は、`pageName`値が存在する場合でも、常にこのディメンションを削除します。
+[&#x200B; ページビュー呼び出し（`t()`） &#x200B;](/help/implement/vars/functions/t-method.md)で[`pageName`](/help/implement/vars/page-vars/pagename.md)変数を設定します。 `pageName`変数が設定されていない場合、このディメンションは[`pageURL`](/help/implement/vars/page-vars/pageurl.md)変数を使用してフォールバックします。 [&#x200B; リンクトラッキング呼び出し（`tl()`） &#x200B;](/help/implement/vars/functions/tl-method.md)は、`pageName`値が存在する場合でも、常にこのディメンションを削除します。
 
 | プロパティ | 値 |
 | --- | --- |

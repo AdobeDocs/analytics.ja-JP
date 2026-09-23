@@ -29,7 +29,7 @@ ht-degree: 49%
 
 >[!BEGINSHADEBOX]
 
-*このページでは、[分類ルールビルダー](classification-rule-builder.md)の一部として、分類ルールセットについて説明します。 Adobe Analyticsのデータを分類する現在の方法については、[分類セット ](../sets/overview.md)を参照してください。*
+*このページでは、[分類ルールビルダー](classification-rule-builder.md)の一部として、分類ルールセットについて説明します。 Adobe Analyticsのデータを分類する現在の方法については、[分類セット &#x200B;](../sets/overview.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 

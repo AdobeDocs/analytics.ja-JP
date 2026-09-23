@@ -38,7 +38,7 @@ ht-degree: 5%
 ---
 # 広告プラットフォームの同意
 
-「広告プラットフォームの同意」 [ ディメンション ](overview.md)には、GoogleやMetaなどのサードパーティの広告プロバイダーにデータを送信するために同意が収集されているかどうかが表示されます。
+「広告プラットフォームの同意」 [&#x200B; ディメンション &#x200B;](overview.md)には、GoogleやMetaなどのサードパーティの広告プロバイダーにデータを送信するために同意が収集されているかどうかが表示されます。
 
 現在、このディメンションはGoogleにのみ使用されています。 欧州のプライバシー規制であるデジタル市場法（DMA）により、Googleでは、サーバーに送信されたデータと欧州で収集されたデータに、同意の有無を示す必要があることを義務付けています。 一部のAnalyticsのお客様は、Adobe Advertisingを介してイベントデータをコンバージョンイベントとしてGoogleに送信します。
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 ## このディメンションにデータを入力
 
-このディメンションは、[ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `contextData.['adConsent']`からデータを収集します。 この変数に、関連するGoogle同意フィールドの値（`ad_user_data` （1番目の文字）と`ad_personalization` （2番目の文字）を入力します。 詳しくは、Google Ads API リファレンス ](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)の[同意を参照してください。
+このディメンションは、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `contextData.['adConsent']`からデータを収集します。 この変数に、関連するGoogle同意フィールドの値（`ad_user_data` （1番目の文字）と`ad_personalization` （2番目の文字）を入力します。 詳しくは、Google Ads API リファレンス [&#128279;](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent)の同意を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |
@@ -84,4 +84,4 @@ contextData.['adConsent'] = "YN..."
 
 Adobe Advertisingを通じてAdobe Analyticsからコンバージョンイベントとして広告データをGoogleに送信する場合は、Adobe Advertising チームに相談して統合を支援してください。
 
-詳しくは、「[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)」を参照してください。
+詳しくは、「[&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)」を参照してください。

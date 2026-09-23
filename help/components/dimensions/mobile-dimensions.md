@@ -58,7 +58,7 @@ ht-degree: 95%
 これらのディメンションを使用できるかどうかは、実装タイプによって異なります。
 
 * AppMeasurement 実装の場合、これらのディメンションは標準で使用できます。
-* Web SDK 実装の場合、[データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL  Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
+* Web SDK 実装の場合、[データストリームの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL &#x200B; Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
 
 ## モバイルディメンションの説明
 

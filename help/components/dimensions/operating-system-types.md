@@ -34,7 +34,7 @@ ht-degree: 40%
 ---
 # オペレーティングシステムの種類
 
-「オペレーティングシステムの種類」の[ ディメンション ](overview.md)には、特定のバージョンに関係なく、訪問者が使用したOS全体が表示されます。 このディメンションを使用すると、最も一般的な特定のオペレーティングシステムやバージョンだけでなく、訪問者が通常どの OS プラットフォームを使用しているかも把握できます。
+「オペレーティングシステムの種類」の[&#x200B; ディメンション &#x200B;](overview.md)には、特定のバージョンに関係なく、訪問者が使用したOS全体が表示されます。 このディメンションを使用すると、最も一般的な特定のオペレーティングシステムやバージョンだけでなく、訪問者が通常どの OS プラットフォームを使用しているかも把握できます。
 
 ## このディメンションへのデータ入力
 
@@ -50,7 +50,7 @@ Adobeは、このディメンションを`User-Agent` HTTP ヘッダーから取
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
 
 ## ディメンション項目
 

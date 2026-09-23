@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # 訪問者 ID
 
-「訪問者ID」 [ ディメンション ](overview.md)は、各訪問者に一意のIDを提供します。
+「訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者に一意のIDを提供します。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 ## このディメンションへのデータ入力
 
-Adobeは、各訪問者の訪問者IDを自動的に生成します。 この値は、データフィードの`visid_high`列と`visid_low`列の連結値と同じです。 自動生成された値を`visitorID`変数で上書きできます。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+Adobeは、各訪問者の訪問者IDを自動的に生成します。 この値は、データフィードの`visid_high`列と`visid_low`列の連結値と同じです。 自動生成された値を`visitorID`変数で上書きできます。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |

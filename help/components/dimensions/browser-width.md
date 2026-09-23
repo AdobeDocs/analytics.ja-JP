@@ -46,7 +46,7 @@ console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.
 
 >[!NOTE]
 >
->Data Warehouseでは、値を定義済みのバケットにグループ化する代わりに、正確なピクセル幅をレポートする&#39;[!UICONTROL  ブラウザー幅 – 詳細]&#39; ディメンションも提供されています。
+>Data Warehouseでは、値を定義済みのバケットにグループ化する代わりに、正確なピクセル幅をレポートする&#39;[!UICONTROL &#x200B; ブラウザー幅 – 詳細]&#39; ディメンションも提供されています。
 
 ## このディメンションへのデータ入力
 

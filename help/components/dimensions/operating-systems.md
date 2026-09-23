@@ -34,7 +34,7 @@ ht-degree: 34%
 ---
 # オペレーティングシステム
 
-「オペレーティングシステム」 [ ディメンション ](overview.md)には、訪問者が使用したオペレーティングシステムとバージョンが表示されます。 Web プロパティに OS 固有の機能がある場合、このディメンションは、最も一般的なオペレーティングシステムを示します。
+「オペレーティングシステム」 [&#x200B; ディメンション &#x200B;](overview.md)には、訪問者が使用したオペレーティングシステムとバージョンが表示されます。 Web プロパティに OS 固有の機能がある場合、このディメンションは、最も一般的なオペレーティングシステムを示します。
 
 ## このディメンションへのデータ入力
 
@@ -50,7 +50,7 @@ Adobeは、このディメンションを`User-Agent` HTTP ヘッダーから取
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Device Lookup]を有効にします。
 
 ## ディメンション項目
 
@@ -58,4 +58,4 @@ Adobeは、このディメンションを`User-Agent` HTTP ヘッダーから取
 
 ## 正確なOS バージョンのトラッキング
 
-業界がクライアントヒントに移行するにつれ、一部のオペレーティングシステムのバージョンが競合する可能性があります。 例えば、「Windows 10」と「Windows 11」は、高エントロピーのクライアントヒントを収集しない場合、「Windows 10」の下にグループ化できます。 詳しくは、『 Technotes ガイド』の「[ クライアントヒント ](/help/technotes/client-hints.md)」を参照してください。
+業界がクライアントヒントに移行するにつれ、一部のオペレーティングシステムのバージョンが競合する可能性があります。 例えば、「Windows 10」と「Windows 11」は、高エントロピーのクライアントヒントを収集しない場合、「Windows 10」の下にグループ化できます。 詳しくは、『 Technotes ガイド』の「[&#x200B; クライアントヒント &#x200B;](/help/technotes/client-hints.md)」を参照してください。

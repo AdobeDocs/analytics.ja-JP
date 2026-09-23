@@ -38,7 +38,7 @@ ht-degree: 31%
 ---
 # ドメイン
 
-「ドメイン」ディメンション [1}は、訪問者がインターネットへのアクセスに使用するアクセス ポイントを報告します。](overview.md)
+「ドメイン」ディメンション [1&rbrace;は、訪問者がインターネットへのアクセスに使用するアクセス ポイントを報告します。](overview.md)
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Adobeでは、このディメンションを訪問者のIP アドレスからサ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Network Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Network Lookup]を有効にします。
 
 ## ディメンション項目
 

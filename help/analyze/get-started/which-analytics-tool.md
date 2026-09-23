@@ -152,4 +152,4 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 * 複数のデータソースがある場合：
 * 複雑なデータ ETL （Extract-Transform-Load）要件があります。
 * カスタムブランディングが必要です。
-* [!UICONTROL Analytics ライブストリーム ]を視覚化します。
+* [!UICONTROL Analytics ライブストリーム &#x200B;]を視覚化します。

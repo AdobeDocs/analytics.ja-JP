@@ -38,7 +38,7 @@ ht-degree: 64%
 ---
 # 米国の州
 
-「米国の状態」 [ ディメンション ](overview.md)は、米国における訪問者の状態をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「米国の状態」 [&#x200B; ディメンション &#x200B;](overview.md)は、米国における訪問者の状態をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 
@@ -54,7 +54,7 @@ Adobeは、訪問者のIP アドレスからサーバーサイドでこのディ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

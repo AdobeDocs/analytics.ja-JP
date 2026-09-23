@@ -38,7 +38,7 @@ ht-degree: 55%
 ---
 # 国
 
-「国」 [ ディメンション ](overview.md)は、ヒットの発生元の国をレポートします。 このディメンションは、訪問者がサイトにアクセスする際に、どの国からのアクセスが最も多いかを判断するのに役立ちます。 それらのデータを利用して、それぞれの国のマーケティング施策に焦点を当てることも、主要言語が異なる国でサイト体験が最適であることを確認することもできます。
+「国」 [&#x200B; ディメンション &#x200B;](overview.md)は、ヒットの発生元の国をレポートします。 このディメンションは、訪問者がサイトにアクセスする際に、どの国からのアクセスが最も多いかを判断するのに役立ちます。 それらのデータを利用して、それぞれの国のマーケティング施策に焦点を当てることも、主要言語が異なる国でサイト体験が最適であることを確認することもできます。
 
 ## このディメンションへのデータ入力
 
@@ -54,7 +54,7 @@ Adobeは、訪問者のIP アドレスからサーバーサイドでこのディ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

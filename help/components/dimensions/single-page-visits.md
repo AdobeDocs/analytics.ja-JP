@@ -34,7 +34,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、「単一ページ訪問」が[ ディメンション ](overview.md)として機能する仕組みについて説明します。 詳しくは、[直帰数](../metrics/single-page-visits.md)指標を参照してください。*
+*このヘルプページでは、「単一ページ訪問」が[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 詳しくは、[直帰数](../metrics/single-page-visits.md)指標を参照してください。*
 
 >[!ENDSHADEBOX]
 

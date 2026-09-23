@@ -135,7 +135,7 @@ s.products = ";Canary";
 
 ### Web SDK を使用したコンバージョン変数構文
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[ イベント ](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 

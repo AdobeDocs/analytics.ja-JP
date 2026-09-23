@@ -32,7 +32,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、マーチャンダイジング eVarが[ ディメンション ](overview.md)として機能する仕組みについて説明します。 マーチャンダイジング eVarの実装方法について詳しくは、実装ユーザーガイドの[eVar（マーチャンダイジング変数） ](/help/implement/vars/page-vars/evar-merchandising.md)を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVarが[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 マーチャンダイジング eVarの実装方法について詳しくは、実装ユーザーガイドの[eVar（マーチャンダイジング変数） &#x200B;](/help/implement/vars/page-vars/evar-merchandising.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 

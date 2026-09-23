@@ -30,7 +30,7 @@ ht-degree: 52%
 ---
 # ページ URL
 
-「ページ URL」 [ ディメンション ](overview.md)には、サイト上のURLが一覧表示されます。
+「ページ URL」 [&#x200B; ディメンション &#x200B;](overview.md)には、サイト上のURLが一覧表示されます。
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ ht-degree: 52%
 
 ## このディメンションへのデータ入力
 
-AppMeasurementは、各[ ページビュー呼び出し（`t()`） ](/help/implement/vars/functions/t-method.md)でページ URLを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。 URLが255 バイトを超える場合、オーバーフローは`-g` クエリ文字列パラメーターに保存されます。 URLにプロトコル文字列とクエリ文字列が含まれています。 [ リンク トラッキング呼び出し（`tl()`） ](/help/implement/vars/functions/tl-method.md)は、URL値が存在する場合でも、常にこのディメンションを削除します。
+AppMeasurementは、各[&#x200B; ページビュー呼び出し（`t()`） &#x200B;](/help/implement/vars/functions/t-method.md)でページ URLを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。 URLが255 バイトを超える場合、オーバーフローは`-g` クエリ文字列パラメーターに保存されます。 URLにプロトコル文字列とクエリ文字列が含まれています。 [&#x200B; リンク トラッキング呼び出し（`tl()`） &#x200B;](/help/implement/vars/functions/tl-method.md)は、URL値が存在する場合でも、常にこのディメンションを削除します。
 
 | プロパティ | 値 |
 | --- | --- |

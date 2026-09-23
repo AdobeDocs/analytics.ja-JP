@@ -34,7 +34,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[ ディメンション ](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
+*このヘルプページでは、「訪問あたりの滞在時間」がそれぞれの[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 詳しくは、[訪問別滞在時間](../metrics/time-spent-per-visit.md)指標を参照してください。*
 
 >[!ENDSHADEBOX]
 

@@ -59,8 +59,8 @@ ht-degree: 6%
 | --- | --- |
 | [カテゴリ](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [ マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [&#x200B; マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [製品](/help/components/dimensions/product.md) | `Product` |
 | [トラッキングコード](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [トランザクション ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -105,4 +105,4 @@ Dimension データにセミコロン （`;`）を含めることはできませ
 
 ## 次の手順
 
-[ ファイルのアップロード ](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。
+[&#x200B; ファイルのアップロード &#x200B;](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。

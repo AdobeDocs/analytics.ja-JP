@@ -30,7 +30,7 @@ ht-degree: 49%
 ---
 # 平日／週末
 
-&#39;Weekday/Weekend&#39; [ ディメンション ](overview.md)は、平日（月曜日～金曜日）または週末（土曜日～日曜日）にヒットが発生したかどうかをinsightに提供します。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)に基づいています。
+&#39;Weekday/Weekend&#39; [&#x200B; ディメンション &#x200B;](overview.md)は、平日（月曜日～金曜日）または週末（土曜日～日曜日）にヒットが発生したかどうかをinsightに提供します。 ヒットの時刻は、[レポートスイートのタイムゾーン](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)に基づいています。
 
 ## このディメンションにデータを入力
 

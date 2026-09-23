@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # Experience Cloud 訪問者 ID
 
-「Experience Cloud訪問者ID」 [ ディメンション ](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
+「Experience Cloud訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 ## このディメンションへのデータ入力
 
-このディメンションには、訪問者ID サービス（VisitorAPI）またはExperience Platform ID サービスを使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+このディメンションには、訪問者ID サービス（VisitorAPI）またはExperience Platform ID サービスを使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |

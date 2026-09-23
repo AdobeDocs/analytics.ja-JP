@@ -107,11 +107,11 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-`<amp-analytics>` タグは、AMPが認識できるデータ値を提供できるように、変数置換をサポートしています。 詳しくは、「`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) on GitHubでサポートされている[変数」を参照してください。
+`<amp-analytics>` タグは、AMPが認識できるデータ値を提供できるように、変数置換をサポートしています。 詳しくは、「`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) on GitHubでサポートされている変数」を参照してください。
 
 >[!NOTE]
 >
->この方法を使用してAdobeに送信された画像リクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータは含まれません。 ヒットにこの情報を含める場合は、画像リクエストクエリ文字列の一部として含まれていることを確認してください。 イメージリクエスト クエリクエリパラメーターと関連する変数の完全なリストについては、[ データ収集クエリパラメーター](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
+>この方法を使用してAdobeに送信された画像リクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータは含まれません。 ヒットにこの情報を含める場合は、画像リクエストクエリ文字列の一部として含まれていることを確認してください。 イメージリクエスト クエリクエリパラメーターと関連する変数の完全なリストについては、[&#x200B; データ収集クエリパラメーター](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
 
 アドビは、ビルトインの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。 この訪問者IDは、Adobe Analyticsが設定した他のIDと一意です。 訪問者がコンテンツを取得するCDNごとに異なるユニーク訪問者がカウントされ、ユニーク訪問者数が増加する可能性があります。 AMPが一意の訪問者を識別する方法のため、AMP ページ用に別のレポートスイートを使用することを強くお勧めします。 Adobe Visitor ID サービスはサポートされていません。
 

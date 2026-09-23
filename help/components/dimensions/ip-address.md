@@ -28,7 +28,7 @@ ht-degree: 16%
 ---
 # IP アドレス
 
-「IP アドレス」 [ ディメンション ](overview.md)には、各ヒットが送信されたIP アドレスが一覧表示されます。
+「IP アドレス」 [&#x200B; ディメンション &#x200B;](overview.md)には、各ヒットが送信されたIP アドレスが一覧表示されます。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 ## このディメンションへのデータ入力
 
-AppMeasurementは、各イメージリクエストのHTTP ヘッダーからIP アドレスを自動的に収集します。 データフィードの`ip`列に対応します。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+AppMeasurementは、各イメージリクエストのHTTP ヘッダーからIP アドレスを自動的に収集します。 データフィードの`ip`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |

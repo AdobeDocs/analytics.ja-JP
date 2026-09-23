@@ -36,14 +36,14 @@ ht-degree: 61%
 ---
 # 郵便番号
 
-「郵便番号」 [ ディメンション ](overview.md)は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 
 このディメンションは、データを入力する方法が複数ある点で独自です。 次のいずれかを使用するか、両方を組み合わせて使用できます。
 
 * [`zip`](/help/implement/vars/page-vars/zip.md)変数を使用して直接郵便番号を設定します。
-* 位置情報データから取得するように設定します。 geo zipを使用する場合、変数は設定されません。 AppMeasurementの実装では、このディメンションはそのまま機能します。 Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* 位置情報データから取得するように設定します。 geo zipを使用する場合、変数は設定されません。 AppMeasurementの実装では、このディメンションはそのまま機能します。 Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。 以下の参照テーブルは、`zip`変数を直接設定する場合に適用されます。
 

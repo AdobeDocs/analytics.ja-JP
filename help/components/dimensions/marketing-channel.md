@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページは、Analysis Workspaceのマーケティングチャネル [ ディメンション ](overview.md)を参照しています。 マーケティングチャネルがコンセプトとしてどのように機能するかについて詳しくは、「[マーケティングチャネルの概要](../c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。*
+*このヘルプページは、Analysis Workspaceのマーケティングチャネル [&#x200B; ディメンション &#x200B;](overview.md)を参照しています。 マーケティングチャネルがコンセプトとしてどのように機能するかについて詳しくは、「[マーケティングチャネルの概要](../c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。*
 
 >[!ENDSHADEBOX]
 
