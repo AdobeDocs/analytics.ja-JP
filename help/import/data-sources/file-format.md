@@ -7,22 +7,26 @@ role: Admin
 TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 554
-ht-degree: 8%
-
+source-wordcount: '552'
+ht-degree: 6%
 ---
-
 # データソースファイル形式
 
 データソースファイルには、次のプロパティがあります。
@@ -55,8 +59,8 @@ ht-degree: 8%
 | --- | --- |
 | [カテゴリ](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [&#x200B; マーケティングチャネル &#x200B;](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [&#x200B; マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [ マーケティングチャネル ](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [ マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [製品](/help/components/dimensions/product.md) | `Product` |
 | [トラッキングコード](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [トランザクション ID](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -80,7 +84,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-Adobeは、他のディメンションや指標のデータソースをサポートしていません。 上記の表に記載されている以外の変数が必要な場合は、代わりに[Bulk Data insertion API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)を使用することを検討してください。
+Adobeは、他のディメンションや指標のデータソースをサポートしていません。 上記の表に記載されている以外の変数が必要な場合は、代わりに[Bulk Data insertion API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)を使用することを検討してください。
 
 ## 日付
 
@@ -101,4 +105,4 @@ Dimension データにセミコロン （`;`）を含めることはできませ
 
 ## 次の手順
 
-[&#x200B; ファイルのアップロード &#x200B;](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。
+[ ファイルのアップロード ](file-upload.md): Adobeで取り込むデータソースファイルをアップロードするプロセスについて説明します。

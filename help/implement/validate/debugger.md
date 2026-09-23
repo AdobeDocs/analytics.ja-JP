@@ -7,29 +7,36 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # レガシーデバッガー
 
 >[!IMPORTANT]
 >
->このデバッグツールは、既にメンテナンスが終了しています。 Adobeでは、代わりに[Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用することをお勧めします。
+>このデバッグツールは、既にメンテナンスが終了しています。 代わりに、[Adobe CX Enterprise Debugger Chrome拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用することをお勧めします。
 
 [!UICONTROL Legacy Debugger]は、ほとんどのAdobe CX Enterprise サービスのタグを検査します。 デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。 この情報を使用して、組織の実装のトラブルシューティングや検証をおこなうことができます。
 
@@ -97,6 +104,6 @@ Safari ではブックマークレットを手動で作成することはでき�
 * **[!UICONTROL 表示されたExperience Cloud製品]**：各CX Enterprise製品のイメージリクエストを表示または非表示にします。
 * **[!UICONTROL URL デコード]**: URLは、レポートに表示される内容に一致するように画像リクエストをデコードします。 このチェックボックスはオンのままにすることをお勧めします。
 * **[!UICONTROL 自動更新]**：数秒ごとにポップアップを自動的に更新して、ページ上のその他の画像リクエストを確認します。 デバッガーでコンテンツをコピー＆ペーストする必要がある場合は、自動更新を無効にして、選択内容を保持できるようにします。
-* **[!UICONTROL わかりやすい形式]**：画像リクエスト内の役に立つラベルと生のクエリ文字列の表示形式を切り替えます。 詳しくは、[データ収集クエリーのパラメーター](query-parameters.md)を参照してください。
+* **[!UICONTROL わかりやすい形式]**：画像リクエスト内の役に立つラベルと生のクエリ文字列の表示形式を切り替えます。 詳しくは、[データ収集クエリーのパラメーター](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
 
 デバッガーのデフォルトの表示オプションを保存するには、右上隅の「Adobe Debugger」リンクを右クリックし、リンクアドレスをコピーします。 現在のデバッガーのブックマークレットを編集し、更新したコードスニペットを「URL」フィールドに貼り付けます。

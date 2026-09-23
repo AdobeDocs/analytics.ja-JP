@@ -6,37 +6,55 @@ exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 TQID: https://experienceleague.adobe.com/YLZIz1-J-LVvases2X1AgNxQR1eTtqoeDoxFVCg2MV4
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 77%
-
+source-wordcount: '426'
+ht-degree: 64%
 ---
-
 # 米国の州
 
-「米国の状態」 [&#x200B; ディメンション &#x200B;](overview.md)は、米国における訪問者の状態をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「米国の状態」 [ ディメンション ](overview.md)は、米国における訪問者の状態をレポートします。 これは、[地域](regions.md)ディメンションに似ていますが、このディメンションが米国に固有である点が異なります。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。 ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。 アドビは [Digital Element](https://www.digitalelement.com/) と提携し、IP アドレスと国間の検索を維持しています。
+Adobeは、訪問者のIP アドレスからサーバーサイドでこのディメンションを取得し、内部ルックアップテーブルと照合します。 Adobeは[Digital Element](https://www.digitalelement.com/)と提携して、IP アドレスと米国の状態の間のルックアップを管理します。 設定する変数がありません。
+
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | なし（訪問者のIP アドレスから取得） |
+| **Web SDK / XDM フィールド** | なし（訪問者のIP アドレスから取得） |
+| **クエリパラメーター** | 該当なし |
+| **XML タグ** | 該当なし |
+| **バイト制限** | 該当なし |
+| **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

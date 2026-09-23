@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Adobe Analytics 実装ガイド {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [Web SDK（Alloy）の使用](id/alloy.md)
   + [Analytics 拡張機能の使用](id/analytics-extension.md)
   + [AppMeasurement の使用](id/appmeasurement.md)
+  + [Data Insertion APIの使用](id/data-insertion.md)
   + [訪問者 ID サービスへの移行](id/migration.md)
   + [複数の実装タイプをまたいだトラッキング](id/cross-type-implementation.md)
 + Adobe Analytics を実装するための準備 {#prepare}
@@ -163,7 +162,7 @@ ht-degree: 97%
   + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
   + [JavaScript の概要](js/overview.md)
-  + {hide-from-toc}[&#x200B; オプトアウトリンクの実装](js/opt-out.md)
+  + {hide-from-toc}[ オプトアウトリンクの実装](js/opt-out.md)
   + [変数のオーバーライド](js/overrides.md)
   + [H コードからの移行](js/migrate-from-hcode.md)
   + H コード {#h-code}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
   + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
 + 他のプラットフォームで Analytics を実装する {#other}
-  + [ハードコードされたイメージリクエストを使用して Analytics を実装する](other/hardcoded.md)
   + [Ajax で Analytics を実装する](other/ajax.md)
   + [AMP 上で Analytics を実装する](other/amp.md)
   + [デジタルアシスタント上で Analytics を実装する](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
 + 実装の検証 {#validate}
   + [レガシーデバッガー](validate/debugger.md)
-  + [データ収集クエリーパラメーター](validate/query-parameters.md)
   + [パケット監視](validate/packet-monitor.md)
   + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)

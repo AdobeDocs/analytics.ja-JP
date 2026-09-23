@@ -6,31 +6,45 @@ exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 95%
-
 ---
-
 # モバイル参照ディメンション
 
+>[!BEGINSHADEBOX]
+
 *このページは、お客様の web サイトにアクセスするモバイルデバイスのプロパティを参照します。 モバイルアプリ内での追跡については、[モバイルライフサイクルディメンション](lifecycle-dimensions.md)または[モバイルライフサイクル指標](../metrics/lifecycle-metrics.md)を参照してください。*
+
+>[!ENDSHADEBOX]
 
 モバイル参照[ディメンション](overview.md)は、サイトを訪問したモバイルデバイスのプロパティに関するインサイトを提供します。 これらのプロパティは、ヒットのユーザーエージェントと IP アドレスに基づいています。 これらのディメンションを使用すると、モバイルデバイスがサポートする機能を理解するのに役立ちます。
 
@@ -44,7 +58,7 @@ ht-degree: 95%
 これらのディメンションを使用できるかどうかは、実装タイプによって異なります。
 
 * AppMeasurement 実装の場合、これらのディメンションは標準で使用できます。
-* Web SDK 実装の場合、[データストリームの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL &#x200B; Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
+* Web SDK 実装の場合、[データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL  Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
 
 ## モバイルディメンションの説明
 

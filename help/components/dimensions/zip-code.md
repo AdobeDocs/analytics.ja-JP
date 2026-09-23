@@ -1,54 +1,66 @@
 ---
 title: 郵便番号
-description: 訪問者の郵便番号。
+description: 訪問者の郵便番号（ZIP コード）。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 80%
-
+source-wordcount: '330'
+ht-degree: 61%
 ---
-
 # 郵便番号
 
-「郵便番号」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
+「郵便番号」 [ ディメンション ](overview.md)は、訪問者の郵便番号を報告します。 このディメンションを使用して、ローカル広告の成功についての詳細を理解したり、サイトのパフォーマンスが世界のどこで最も高いかを確認したりできます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、データを入力する複数の方法が含まれている点で一意です。 どちらかまたは両方を使用できます。
+このディメンションは、データを入力する方法が複数ある点で独自です。 次のいずれかを使用するか、両方を組み合わせて使用できます。
 
-* `zip` 変数を使用して郵便番号を直接設定します。または
-* 位置情報データから取得するように設定します。
+* [`zip`](/help/implement/vars/page-vars/zip.md)変数を使用して直接郵便番号を設定します。
+* 位置情報データから取得するように設定します。 geo zipを使用する場合、変数は設定されません。 AppMeasurementの実装では、このディメンションはそのまま機能します。 Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
-「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
+「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。 以下の参照テーブルは、`zip`変数を直接設定する場合に適用されます。
 
-ジオ zipを含むオプションを使用する場合：
-
-* AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+| プロパティ | 値 |
+| --- | --- |
+| **AppMeasurement変数** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **Web SDK / XDM フィールド** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **クエリパラメーター** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML タグ** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **バイト制限** | 50 バイト |
+| **永続性** | ヒット |
 
 ## ディメンション項目
 
-ディメンション項目には、訪問者の郵便番号が含まれます。
+ディメンション項目には、訪問者の郵便番号または郵便コードが含まれます。
 
-## 郵便番号をサポートしている国
+## 郵便番号（postal code）がサポートされている国
 
 * オーランド諸島
 * アルバニア

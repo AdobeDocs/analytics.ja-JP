@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 66%
-
+source-wordcount: '949'
+ht-degree: 65%
 ---
-
 # AMP を使用した実装
 
 [AMP](https://amp.dev) は、高速でスムーズな読み込みをおこなう Web ページを簡単に作成する方法を提供するオープンソース HTML フレームワークです。
@@ -52,7 +62,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 | 訪問者ID サービス （`VisitorAPI.js`） | サポートなし | サポート |
 | ビデオトラッキングとリンクトラッキング | 部分的なサポート | まだサポートされていません |
 | 導入の困難 | 困難 | 比較的簡単 |
-| Adobe CX Enterpriseとの統合 | サポートなし | 部分的なサポート |
+| Adobe CX Enterpriseとの連携 | サポートなし | 部分的なサポート |
 
 自社に最適な導入方法を選択できるように、長所と短所を比較検討しましょう。
 
@@ -97,11 +107,11 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 </amp-analytics>
 ```
 
-`<amp-analytics>` タグは、AMPが認識できるデータ値を提供できるように、変数置換をサポートしています。 詳しくは、「`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) on GitHubでサポートされている変数」を参照してください。
+`<amp-analytics>` タグは、AMPが認識できるデータ値を提供できるように、変数置換をサポートしています。 詳しくは、「`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) on GitHubでサポートされている[変数」を参照してください。
 
 >[!NOTE]
 >
->この方法を使用してAdobeに送信された画像リクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータは含まれません。 ヒットにこの情報を含める場合は、画像リクエストクエリ文字列の一部として含まれていることを確認してください。 イメージリクエスト クエリクエリパラメーターと関連する変数の完全なリストについては、[&#x200B; データ収集クエリパラメーター](../validate/query-parameters.md)を参照してください。
+>この方法を使用してAdobeに送信された画像リクエストには、多くのデフォルトレポート（ブラウザー、画面サイズ、リファラーなど）のデータは含まれません。 ヒットにこの情報を含める場合は、画像リクエストクエリ文字列の一部として含まれていることを確認してください。 イメージリクエスト クエリクエリパラメーターと関連する変数の完全なリストについては、[ データ収集クエリパラメーター](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
 
 アドビは、ビルトインの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。 この訪問者IDは、Adobe Analyticsが設定した他のIDと一意です。 訪問者がコンテンツを取得するCDNごとに異なるユニーク訪問者がカウントされ、ユニーク訪問者数が増加する可能性があります。 AMPが一意の訪問者を識別する方法のため、AMP ページ用に別のレポートスイートを使用することを強くお勧めします。 Adobe Visitor ID サービスはサポートされていません。
 
