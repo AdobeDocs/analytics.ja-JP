@@ -47,7 +47,7 @@ ht-degree: 54%
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 100 バイト |

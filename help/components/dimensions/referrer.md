@@ -55,7 +55,7 @@ AppMeasurementは、ブラウザーの`document.referrer`値からリファラ�
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **Web SDK / XDM フィールド** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
+| **Web SDK / XDM フィールド** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/web-information) |
 | **クエリパラメーター** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト |

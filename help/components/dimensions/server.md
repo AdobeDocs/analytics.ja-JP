@@ -41,7 +41,7 @@ AppMeasurementは、propと機能的に同じ[`server`](/help/implement/vars/pag
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`server`](/help/implement/vars/page-vars/server.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 100 バイト |

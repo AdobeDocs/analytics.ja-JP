@@ -41,7 +41,7 @@ ht-degree: 58%
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Web SDK / XDM フィールド** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / XDM フィールド** | [`productListItems[].name`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **クエリパラメーター** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 100 バイト |

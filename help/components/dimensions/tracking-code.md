@@ -41,7 +41,7 @@ AppMeasurement は、[`campaign`](/help/implement/vars/page-vars/campaign.md) �
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Web SDK / XDM フィールド** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Web SDK / XDM フィールド** | [`marketing.trackingCode`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **クエリパラメーター** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト |

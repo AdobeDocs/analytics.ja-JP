@@ -41,7 +41,7 @@ ht-degree: 18%
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **Web SDK / XDM フィールド** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / XDM フィールド** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **クエリパラメーター** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 20 バイト |

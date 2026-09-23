@@ -52,7 +52,7 @@ AppMeasurement は、[`pageType`](/help/implement/vars/page-vars/pagetype.md) �
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 該当なし |

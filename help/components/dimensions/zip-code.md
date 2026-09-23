@@ -50,7 +50,7 @@ ht-degree: 61%
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Web SDK / XDM フィールド** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Web SDK / XDM フィールド** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/geo) |
 | **クエリパラメーター** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 50 バイト |

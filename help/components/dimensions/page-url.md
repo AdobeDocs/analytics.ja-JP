@@ -43,7 +43,7 @@ AppMeasurementは、各[&#x200B; ページビュー呼び出し（`t()`） &#x20
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト（オーバーフローで制限なし） |

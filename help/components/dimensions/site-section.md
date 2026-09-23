@@ -41,7 +41,7 @@ AppMeasurement は、[`channel`](/help/implement/vars/page-vars/channel.md) 変
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`channel`](/help/implement/vars/page-vars/channel.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 100 バイト |
