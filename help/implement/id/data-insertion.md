@@ -47,20 +47,20 @@ Adobeは、標準的な[操作の順序](overview.md) （`vid`）、次に`aid`�
 
 ECID （`mid`として送信）は、Adobe Analytics、Adobe Target、Adobe Audience Managerで共有される、最新のクロスソリューションの訪問者識別子です。 Adobeでは、可能な限り使用することをお勧めします。
 
-[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home) （`VisitorAPI.js`）でECIDを取得します。 ブラウザーで、[`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance)を使用してIMS組織IDでサービスを初期化し、[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)のECIDを読み取ります。
+[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home) （`VisitorAPI.js`）でECIDを取得します。 ブラウザーで、[`getInstance`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getinstance)を使用してIMS組織IDでサービスを初期化し、[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getmcvid)のECIDを読み取ります。
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-各ヒットにその値を`mid` クエリパラメーターとして送信し、IMS組織IDを`mcorgid` パラメーターとして送信して、ECIDが正しく解決されるようにします。 データをAudience Managerに転送する場合は、リージョンを[`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint)から`aamlh` パラメーターとして送信します。 独自の顧客識別子を訪問者に関連付けるには、[`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids)を使用します。
+各ヒットにその値を`mid` クエリパラメーターとして送信し、IMS組織IDを`mcorgid` パラメーターとして送信して、ECIDが正しく解決されるようにします。 データをAudience Managerに転送する場合は、リージョンを[`getLocationHint`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getlocationhint)から`aamlh` パラメーターとして送信します。 独自の顧客識別子を訪問者に関連付けるには、[`setCustomerIDs`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/setcustomerids)を使用します。
 
-サーバーサイドの収集の場合は、クライアントでECIDを取得し、各ヒットで送信するためにサーバーに転送します。 クライアントなしで完全にサーバーサイドでECIDを生成するには、ID サービスの[直接統合](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)を使用します。
+サーバーサイドの収集の場合は、クライアントでECIDを取得し、各ヒットで送信するためにサーバーに転送します。 クライアントなしで完全にサーバーサイドでECIDを生成するには、ID サービスの[直接統合](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/direct-integration)を使用します。
 
 ## Analytics訪問者IDの使用
 
-Analytics訪問者ID （`aid`）は[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieに保存されています。 ヒットが識別子なしで到着すると、収集サーバーは`aid`を割り当て、その識別子を含むCookieの設定を試みます。 一部の[応答タイプ &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)では、この識別子も応答本文に含まれています。
+Analytics訪問者ID （`aid`）は[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieに保存されています。 ヒットが識別子なしで到着すると、収集サーバーは`aid`を割り当て、その識別子を含むCookieの設定を試みます。 一部の[応答タイプ &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)では、この識別子も応答本文に含まれています。
 
 * **クライアントサイド （ダイレクトイメージリクエスト）。** ブラウザーは、サーバーが返す`s_vi` Cookieを保存し、後でリクエストされるたびに同じコレクションドメインに送信します。 その後、訪問者は自動的に認識され、自分を設定する`aid`はありません。 このモデルはCookieに依存するため、Cookie ベースのIDと同じ耐久性制限を持ちます。 ファーストパーティとサードパーティのCookieの動作について、[AppMeasurementを使用した訪問者の識別](appmeasurement.md)、およびAdobeが使用する識別子を選択する方法について[操作の順序](overview.md)を参照してください。 Adobeでは、耐久性のあるIDにECIDを使用することをお勧めします。
 
