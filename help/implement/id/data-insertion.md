@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 ---
 # Data Insertion APIを使用した訪問者の識別
@@ -54,15 +54,15 @@ var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-各ヒットにその値を`mid` クエリパラメーターまたは`<marketingCloudVisitorId>` XML タグとして送信します。 データをAudience Managerに転送する場合は、リージョンを[`getLocationHint`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getlocationhint)から`aamlh` パラメーター（または`<imsRegion>` タグ）として送信します。 独自の顧客識別子を訪問者に関連付けるには、[`setCustomerIDs`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/setcustomerids)を使用します。
+各ヒットにその値を`mid` クエリパラメーターとして送信し、IMS組織IDを`mcorgid` パラメーターとして送信して、ECIDが正しく解決されるようにします。 データをAudience Managerに転送する場合は、リージョンを[`getLocationHint`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getlocationhint)から`aamlh` パラメーターとして送信します。 独自の顧客識別子を訪問者に関連付けるには、[`setCustomerIDs`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/setcustomerids)を使用します。
 
 サーバーサイドの収集の場合は、クライアントでECIDを取得し、各ヒットで送信するためにサーバーに転送します。 クライアントなしで完全にサーバーサイドでECIDを生成するには、ID サービスの[直接統合](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/direct-integration)を使用します。
 
 ## Analytics訪問者IDの使用
 
-Analytics訪問者ID （`aid`）は[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieに保存されています。 ヒットが識別子なしで到着すると、収集サーバーは`aid`を割り当て、応答本文に返します。 一部の[応答タイプ &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)では、この識別子も応答本文に含まれています。 このIDを保存して再送信するのは、2つの実装スタイルの違いです。
+Analytics訪問者ID （`aid`）は[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieに保存されています。 ヒットが識別子なしで到着すると、収集サーバーは`aid`を割り当て、その識別子を含むCookieの設定を試みます。 一部の[応答タイプ &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)では、この識別子も応答本文に含まれています。
 
-* **クライアントサイド （ダイレクトイメージリクエスト）。** ブラウザーは、サーバーが返す`s_vi` Cookieを保存し、後でリクエストされるたびに同じコレクションドメインに送信するので、訪問者は自動的に認識されます。 これを機能させるには、コレクションドメインがCookieを設定して読み取れる必要があります。ファーストパーティのCNAME トラッキングサーバーを使用します。 このモデルはCookieに依存するため、ブラウザーが制限する場所（サードパーティのCookie ブロッキング、インテリジェント トラッキング防止）を低下させ、耐久性のあるIDにはECIDを優先します。
+* **クライアントサイド （ダイレクトイメージリクエスト）。** ブラウザーは、サーバーが返す`s_vi` Cookieを保存し、後でリクエストされるたびに同じコレクションドメインに送信します。 その後、訪問者は自動的に認識され、自分を設定する`aid`はありません。 このモデルはCookieに依存するため、Cookie ベースのIDと同じ耐久性制限を持ちます。 ファーストパーティとサードパーティのCookieの動作について、[AppMeasurementを使用した訪問者の識別](appmeasurement.md)、およびAdobeが使用する識別子を選択する方法について[操作の順序](overview.md)を参照してください。 Adobeでは、耐久性のあるIDにECIDを使用することをお勧めします。
 
   >[!NOTE]
   >
@@ -76,7 +76,7 @@ Analytics訪問者ID （`aid`）は[`s_vi`](https://experienceleague.adobe.com/j
 
   最初の識別子なしのヒットは、サーバーが返す`aid`に既に起因しているため、IDを取得する前に送信してデータを失うことはありません。 ID （`3` for JavaScript、`11` for XML、`10` for JSON）およびリクエスト形式を返す応答タイプについては、Data Insertion API ドキュメントの[応答タイプ &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)を参照してください。
 
-  サーバー側のリクエストには訪問者のCookieは含まれておらず、独自のIP アドレスとユーザーエージェントは送信者に属しているため、訪問者の実際のIP アドレス（`X-Forwarded-For` ヘッダー）とユーザーエージェント（`User-Agent` ヘッダー）も転送して、ヒットが正しく帰属するようにします。
+  サーバーサイドのリクエストには訪問者のCookieは含まれず、独自のIP アドレスとユーザーエージェントは送信者に属しています。 ヒットを正しく関連付けるには、訪問者の実際のIP アドレス（`X-Forwarded-For` ヘッダー）とユーザーエージェント（`User-Agent` ヘッダー）も転送します。
 
 ## カスタム訪問者IDの使用
 
