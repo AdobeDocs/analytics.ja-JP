@@ -54,13 +54,13 @@ ht-degree: 40%
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。</p><p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[ セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
+| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。</p><p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
 | **ボット検出の更新**<br/> Web SDKでEdge Data Collectionを使用する場合、次のボット検出の更新が利用できます。<ul><li>ボット検出ルールを作成して、ボットが生成したトラフィックとして扱われる例外を識別できるようになりました。 既存のルールと今後のルールは、デフォルトで一致するトラフィックをボット生成としてマークします。</li><li>カスタムボットルールがIAB ボット検出ルールの前に実行されるようになりました。 この変更はボットスコアには影響しませんが、イベントに関連付けられたボットルール名は変更される可能性があります。</li></ul><p>注意：このアップデートは、Web SDKを使用するEdge Data Collection実装にのみ適用されます。 AppMeasurementなどの古いライブラリには適用されません。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月上旬 |
 | **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月29日（PT）<p>（当初は2026年9月25日に予定）</p> |
 | **CX Enterprise Coworker：根本原因の分析スキル** <br/>Adobe CX Enterprise Coworker Chatで、根本原因の分析を実行できるようになりました。指標が変更された理由だけでなく、変更された理由も説明できます。 Coworker Chatは、シフトが発生した日付を特定し、その前後のデータを比較し、その変化を促進するディメンションとその大きさによって分類し、パーセンテージと絶対値の両方で示します。 有意義な変化が検出されない場合は、原因を推測するのではなく、同僚のチャットで知らせます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月2日（PT） |
 | **CX Enterprise Coworker: Analysis Workspaceでビジュアライゼーションを開く** <br/>Coworker Chatでデータ分析を開始し、Analysis Workspaceで直接ビジュアライゼーションとしてAnalysisを開いて、構築、改良、探索を続けます。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月2日（PT） |
-| **分類セット API アップデート**<br/>&#x200B;分類セット API ドキュメントに、分類セット API リクエストを設定するための更新されたエンドポイントとパラメーター情報が含まれるようになりました。<p>詳しくは、[分類エンドポイントガイド ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
-| **2.0 API レポートガイドの日付itemId エンコーディングガイダンス**<br/> Adobe Analytics 2.0 APIの日付トレンドレポートガイドに、日付`itemId` パラメーターと値のエンコード方法を説明する新しいセクションが追加されました。 これにより、非推奨となった1.4 APIから2.0 API サービスを設定して移行できます。<p>詳細については、[KPI レポート ガイド ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)および[詳細レポート ガイド ](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
+| **分類セット API アップデート**<br/>&#x200B;分類セット API ドキュメントに、分類セット API リクエストを設定するための更新されたエンドポイントとパラメーター情報が含まれるようになりました。<p>詳しくは、[分類エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
+| **2.0 API レポートガイドの日付itemId エンコーディングガイダンス**<br/> Adobe Analytics 2.0 APIの日付トレンドレポートガイドに、日付`itemId` パラメーターと値のエンコード方法を説明する新しいセクションが追加されました。 これにより、非推奨となった1.4 APIから2.0 API サービスを設定して移行できます。<p>詳細については、[KPI レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)および[詳細レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
 
 ### Adobe Analytics の修正点
 
@@ -92,12 +92,12 @@ AppMeasurement リリースの最新のアップデートについて詳しく�
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | -----------|-----------|-----------|
-| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[ ライブコンテンツを追跡するためのスケジュールデータのアップロード ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。 | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
+| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[&#x200B; ライブコンテンツを追跡するためのスケジュールデータのアップロード &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。 | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
 
 
 >[!MORELIKETHIS]
 >
->* [2026年の以前のリリースノート ](/help/release-notes/2026.md)
+>* [2026年の以前のリリースノート &#x200B;](/help/release-notes/2026.md)
 >* [Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
 >* [ストリーミングメディアサービスのリリースノート](https://experienceleague.adobe.com/ja/docs/media-analytics/using/release-notes/release-notes)
 >* [Adobe CX Enterprise 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)の最新のリリース更新
