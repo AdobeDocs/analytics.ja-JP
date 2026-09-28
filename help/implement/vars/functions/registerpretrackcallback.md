@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Hk3K6cOITndpRE4xrWzEEu1n-JcV-U8A1lO8iUWssUY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 54%
-
 ---
-
 # registerPreTrackCallback
 
 `registerPreTrackCallback` 変数を使用すると、イメージリクエスト URL がコンパイルされたがまだ送信されていないときに実行する JavaScript 関数をフックできます。 この変数を使用して、AppMeasurement によって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
@@ -46,12 +54,12 @@ Web SDKでは、データがコンパイルされた後、Adobeに送信され�
 1. Adobe IDの資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) UIにログインします。
 1. 目的のタグプロパティをクリックします。
 1. [!UICONTROL 拡張機能] タブに移動し、[!UICONTROL Adobe Experience Platform Web SDK]の下にある&#x200B;**[!UICONTROL Configure]** ボタンをクリックします。
-1. [!UICONTROL &#x200B; データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
+1. [!UICONTROL  データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
 ## Web SDKを手動で実装するコールバックの事前追跡
 
-Web SDKでは、データがコンパイルされた後、Adobeに送信される前に、関数をフックすることはできません。 ただし、`doPlugins`と同様に、`onBeforeEventSend`を使用して、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#modifying-events-globally)」を参照してください。
+Web SDKでは、データがコンパイルされた後、Adobeに送信される前に、関数をフックすることはできません。 ただし、`doPlugins`と同様に、`onBeforeEventSend`を使用して、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの「[ グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"

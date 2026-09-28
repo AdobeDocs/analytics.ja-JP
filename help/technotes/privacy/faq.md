@@ -4,35 +4,48 @@ title: データガバナンスに関するよくある質問（FAQ）
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+TQID: 'https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: '2101'
 ht-degree: 85%
-
 ---
-
 # Adobe Analyticsのプライバシーに関するFAQ
 
 +++ **Adobe Analytics は、お客様（データ管理者）によって認められたエンドユーザー（データ主体）のアクセス要求および削除要求をどのようにサポートしますか？**
 
-様々なデータプライバシールール（GDPR、CCPA）が有効になると、Adobe Analyticsは、Data ControllerからCX Enterprise Data Privacy APIに送信される検証済みリクエストの処理をサポートし、より自動化されたプロセスを実現します。 Adobe Data Privacy APIは、Adobe CX Enterprise ソリューション全体に保存されているお客様のデータに対する個別の権利リクエスト（アクセス要求や削除要求など）の処理を支援するように設計されています。 これは柔軟性があり、会社がデータ主体から受け取るデータアクセスおよび削除リクエストの数に応じて拡張されます。
+様々なデータプライバシールール（GDPR、CCPA）が有効になると、Adobe Analyticsは、より自動化されたプロセスを有効にするために、Data ControllerからCX Enterprise Data Privacy APIに送信される検証済みリクエストの処理をサポートします。 Adobe Data Privacy APIは、Adobe CX Enterpriseソリューション全体で保存されたお客様のデータに対する個別の権利リクエスト（アクセス要求や削除要求など）の処理を支援するように設計されています。 これは柔軟性があり、会社がデータ主体から受け取るデータアクセスおよび削除リクエストの数に応じて拡張されます。
 
 また、Privacy Service API を使用すると、お客様は、データアクセスリクエストとデータ削除リクエストの実行状況に関するステータスを確認できます。 詳しくは、[Privacy Service API](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) のドキュメントを参照してください。
 
@@ -74,7 +87,7 @@ ht-degree: 85%
 
 通常、Analytics のお客様は、一般にリリースされる前に、いくつかのテストレポートスイートを設定して機能を検証します。 本番レポートスイートに実際のトラフィックを送信する前に、プレプロダクションの web サイトまたはアプリから、これらのテスト／開発／QA レポートスイートにデータを送信して、コードがリリースされた際の動作を評価します。
 
-ただし、通常の設定では、実稼動レポートスイートに要求を適用する前にこれらのテストレポートスイートで GDPR 要求処理をテストすることはできません。 これは、データプライバシー要求が、CX Enterprise組織内のすべてのレポートスイートに自動的に適用されるためです。これは、多くの場合、自社のすべてのレポートスイートです。
+ただし、通常の設定では、実稼動レポートスイートに要求を適用する前にこれらのテストレポートスイートで GDPR 要求処理をテストすることはできません。 これは、データプライバシーリクエストがCX Enterprise組織内のすべてのレポートスイートに自動的に適用されるためです。多くの場合、自社のすべてのレポートスイートに適用されます。
 
 それでも、すべてのレポートスイートに適用する前にデータプライバシー処理をテストできる方法がいくつかあります。
 
@@ -94,7 +107,7 @@ ht-degree: 85%
 
 GDPR と CCPA は、お客様の同意管理の戦略と慣行を再検討する良い機会となります。 これには、同意が必要なタイミングの決定や、ユーザーに対する価値提案についての検討が含まれます。 消費者のプライバシーに対する価値提案を検討します。これは、コンバージョンおよびロイヤルティを高めるのに役立ちます。 同意管理領域（例えば、ツール、標準、ベストプラクティス）は急速に進化している、注目すべき領域です。 ユーザーエンゲージメントへの影響を最小限に抑えるために、管理者はこの分野のベンダーやその法務担当者と協力して、同意と Cookie に関する新たな法律やガイダンスに従っていることを確認する必要があります。 データ収集活動の価値提案を提示する、ブランドに合った文脈的に関連のあるエクスペリエンスを使用することで、「経験的プライバシー」について考えることは、優れた戦略です。
 
-データ管理者であるお客様は、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得て、web サイトに[オプトアウトメカニズム](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を実装する責任があります。 これにより、データ主体は、今後のAdobe CX Enterprise データ収集をオプトアウトできます。
+データ管理者であるお客様は、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得て、web サイトに[オプトアウトメカニズム](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を実装する責任があります。 これにより、データ主体は今後のAdobe CX Enterprise データ収集をオプトアウトできます。
 
 +++
 
@@ -143,5 +156,5 @@ PII やデータに関連する問題が発生した場合は、アドビのア�
 その他のデータプライバシー関連リソース：
 
 * [GDPR の一般用語](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* CX エンタープライズ データ プライバシー[&#x200B; ケアパッケージ &#x200B;](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
+* CX Enterprise データプライバシー[ ケアパッケージ ](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
 * 経験的プライバシーに関する[ブログ投稿](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)

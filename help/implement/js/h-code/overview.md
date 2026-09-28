@@ -7,19 +7,28 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 79%
-
 ---
-
 # H コード JavaScript 実装の概要
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ ht-degree: 79%
    >
    >H コードでは、`s_code.js` スクリプトを `<body>` タグ内で呼び出す必要があります。 他のほとんどの実装方法ではスクリプト参照は `<head>` タグ内に必要となりますが、この実装方法は異なります。
 1. **各ページでページ固有の変数を定義します**：各ページには、ページ名や eVar など、個々の変数を定義する必要があります。 個々の変数は、通常、各ページのインライン `<script>` タグで定義されます。
-1. **デバッガーを使用してデータ収集を検証する**: [CX Enterprise debugger](../../validate/debugger.md)をダウンロードしてインストールし、データがAdobeに送信され、ページ変数が正しく定義されていることを確認します。
+1. **デバッガーを使用してデータ収集を検証する**: [CX Enterprise デバッガー](../../validate/debugger.md)をダウンロードしてインストールし、データがAdobeに送信され、ページ変数が正しく定義されていることを確認します。
 
 ## キャッシュ
 

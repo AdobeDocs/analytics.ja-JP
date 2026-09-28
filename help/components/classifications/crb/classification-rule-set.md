@@ -3,13 +3,15 @@ description: ルールセットは、特定の変数の分類ルールのグル�
 title: 分類ルールセット
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
+TQID: 'https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
@@ -18,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 49%
@@ -29,7 +31,7 @@ ht-degree: 49%
 
 >[!BEGINSHADEBOX]
 
-*このページでは、[分類ルールビルダー](classification-rule-builder.md)の一部として、分類ルールセットについて説明します。 Adobe Analyticsのデータを分類する現在の方法については、[分類セット &#x200B;](../sets/overview.md)を参照してください。*
+*このページでは、[分類ルールビルダー](classification-rule-builder.md)の一部として、分類ルールセットについて説明します。 Adobe Analyticsのデータを分類する現在の方法については、[分類セット ](../sets/overview.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 

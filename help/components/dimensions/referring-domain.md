@@ -3,7 +3,7 @@ title: 参照ドメイン
 description: 訪問者がクリックスルーして自サイトにアクセスする前に閲覧していた、包括的なドメインを指します。
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-TQID: https://experienceleague.adobe.com/iLpQGPuxOFmhb-WCU0EEfhmGgHgeQaPgBmOETdCczGQ
+TQID: 'https://experienceleague.adobe.com/iLpQGPuxOFmhb-WCU0EEfhmGgHgeQaPgBmOETdCczGQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,11 +16,15 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,14 +37,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 81%
 ---
 # 参照ドメイン
 
-「参照ドメイン」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者がサイトに到達するためにクリックしたドメインをレポートします。 このディメンションは、どのサードパーティサイトが自サイトへのトラフィックを最も多くもたらしているかを把握するのに役立ちます。 ディメンション項目を表示するには、外部サイトにリンクが存在し、訪問者がリンクをクリックする必要があります。
+「参照ドメイン」 [ ディメンション ](overview.md)は、訪問者がサイトに到達するためにクリックしたドメインをレポートします。 このディメンションは、どのサードパーティサイトが自サイトへのトラフィックを最も多くもたらしているかを把握するのに役立ちます。 ディメンション項目を表示するには、外部サイトにリンクが存在し、訪問者がリンクをクリックする必要があります。
 
 >[!IMPORTANT]
 >
@@ -50,7 +54,7 @@ ht-degree: 81%
 
 ## このディメンションへのデータ入力
 
-Adobeは、リファラーURLのドメイン部分を使用して、各ヒットの[&#x200B; リファラー](referrer.md)からこのディメンションを導き出します。 設定する変数がありません。 レポートスイートの[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)を設定する必要があります。設定に失敗すると、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
+Adobeは、リファラーURLのドメイン部分を使用して、各ヒットの[ リファラー](referrer.md)からこのディメンションを導き出します。 設定する変数がありません。 レポートスイートの[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)を設定する必要があります。設定に失敗すると、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
 | プロパティ | 値 |
 | --- | --- |

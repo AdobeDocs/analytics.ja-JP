@@ -3,7 +3,7 @@ title: 時刻
 description: 日付に関係なく、その日の時刻を数値で表します。
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
-TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
+TQID: 'https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,14 +31,14 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 69%
 ---
 # 時刻
 
-「時間」ディメンション [1&rbrace;は、任意の日の時間をディメンション項目としてレポートします。 &#x200B;](overview.md)例えば、1 月 1 日から 1 月 7 日にまたがるレポートがある場合、各日の最初の時刻は、同じディメンション項目にグループ化されます。 このレポートは、時刻別にレポートを分類したいが、ディメンション項目として固定された時刻を使用したくない場合に役立ちます。 このディメンションは、選択した日付範囲でロールするので、予定レポートのディメンションとして特に役立ちます。
+「時間」ディメンション [1}は、任意の日の時間をディメンション項目としてレポートします。 ](overview.md)例えば、1 月 1 日から 1 月 7 日にまたがるレポートがある場合、各日の最初の時刻は、同じディメンション項目にグループ化されます。 このレポートは、時刻別にレポートを分類したいが、ディメンション項目として固定された時刻を使用したくない場合に役立ちます。 このディメンションは、選択した日付範囲でロールするので、予定レポートのディメンションとして特に役立ちます。
 
 このディメンションは、訪問者のローカルタイムゾーンではなく、レポートスイートのタイムゾーンに基づいています。 例えば、レポートスイートが山岳部時間で、カリフォルニア州の訪問者が太平洋時間の午前10:00にサイトを訪問した場合、`11:00 AM` ディメンション項目の下のヒットグループは次のようになります。 ローカル訪問者の時間を記録するディメンションが必要な場合、 [getTimeParting](/help/implement/vars/plugins/gettimeparting.md) プラグインの使用をお勧めします。
 

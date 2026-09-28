@@ -3,35 +3,44 @@ description: 分類セットがサポートする様々なファイル形式に�
 title: 分類セットファイル形式
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-TQID: https://experienceleague.adobe.com/-4pIa7Kqe0sEJkhwiVanaN90xkI8jg0U3-1qEWxRiwM
+TQID: 'https://experienceleague.adobe.com/-4pIa7Kqe0sEJkhwiVanaN90xkI8jg0U3-1qEWxRiwM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1169'
 ht-degree: 2%
-
 ---
-
 # 分類セットファイル形式
 
 分類セットは、分類データをアップロードするための複数のファイル形式をサポートしています。 各フォーマットには、データのアップロードを成功させるための特定の要件があります。
 
 これらの仕様に従ってファイルが適切にフォーマットされたら、分類セットインターフェイスまたはAPIを介してデータをアップロードできます。 詳細なアップロード手順については、次を参照してください。
 
-* **ブラウザーのアップロード**：分類セットについては、[&#x200B; スキーマ &#x200B;](manage/schema.md) インターフェイスの[&#x200B; アップロード &#x200B;](manage/schema.md#upload)を参照してください。
+* **ブラウザーのアップロード**：分類セットについては、[ スキーマ ](manage/schema.md) インターフェイスの[ アップロード ](manage/schema.md#upload)を参照してください。
 * **API アップロード**: [Analytics Classifications API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください
 
 分類セットでは、次のファイル形式をサポートしています。

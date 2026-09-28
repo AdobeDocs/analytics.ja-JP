@@ -3,7 +3,7 @@ title: 地域
 description: 訪問者の地域。
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
+TQID: 'https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,14 +31,14 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 73%
 ---
 # 地域
 
-「リージョン」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者の地理的地域をレポートします。 国より小さく、市区町村より大きな地域です。 一部の国では、地域とは、州または都道府県を指します。 他の地域では、構成国、省、または大都市圏を指します。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
+「リージョン」 [ ディメンション ](overview.md)は、訪問者の地理的地域をレポートします。 国より小さく、市区町村より大きな地域です。 一部の国では、地域とは、州または都道府県を指します。 他の地域では、構成国、省、または大都市圏を指します。 このディメンションの使用は、インサイトの精度を[国](countries.md)よりも高くしたいが、[市区町村](cities.md)よりは低くしたい場合に役立ちます。
 
 ## このディメンションへのデータ入力
 

@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/v-FVX1yPqGLFBhyOzW2rHbr56kRoho0vSzAhS4whSOc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '367'
 ht-degree: 70%
-
 ---
-
 # registerPostTrackCallback
 
 `registerPostTrackCallback` 変数を使用すると、ヒットが正常にアドビに送信された直後に実行する JavaScript 関数をフックできます。 トラッキングコールが失敗した場合、この関数は実行されません。 この変数を使用して、AppMeasurement によって収集されたデータをパートナーや社内インフラストラクチャに送信したり、単一ページのアプリケーションで変数の値をクリーンアップしたりできます。
@@ -55,7 +63,7 @@ alloy("sendEvent",{
 });
 ```
 
-詳しくは、Web SDK ドキュメントの「[&#x200B; イベントからの応答の処理](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja#handling-responses-from-events)」を参照してください。
+詳しくは、Web SDK ドキュメントの「[ イベントからの応答の処理](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)」を参照してください。
 
 ## Adobe Analytics拡張機能を使用したポストトラックコールバックの登録
 

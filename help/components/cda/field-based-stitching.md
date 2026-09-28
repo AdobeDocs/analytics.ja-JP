@@ -4,25 +4,33 @@ description: フィールドベースのステッチを使用してデータを�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+TQID: 'https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 81%
-
 ---
-
 # フィールドベースのステッチ
 
 {{available-existing-customers}}
@@ -38,7 +46,7 @@ ht-degree: 81%
 >すべての前提条件を満たしていない場合、クロスデバイス分析を有効にできないか、データを結び付ける際に結果の質が低下する可能性があります。
 
 * 「[概要](overview.md)」ページに表示されるすべての前提条件。
-* ユーザーがログインしたりメールを開いたりする場合など、可能な限り個々のユーザーを一意に識別する prop または eVar を実装に設定する必要があります。 この要件は、使用される場合、モバイルアプリを含むすべてのプラットフォームに適用されます。<br/>このpropまたはeVarに既定値を割り当てないでください。 2,000台以上の異なるデバイスに同じデフォルト値が割り当てられている場合、その人物は「悪い人物」リストに追加され、これらのイベントはCDA対応の仮想レポートスイートから削除され、誤った分析が発生します。
+* ユーザーがログインしたりメールを開いたりする場合など、可能な限り個人を一意に識別する prop または eVar を実装に設定する必要があります。 この要件は、使用される場合、モバイルアプリを含むすべてのプラットフォームに適用されます。<br/>このpropまたはeVarに既定値を割り当てないでください。 2,000台以上の異なるデバイスに同じデフォルト値が割り当てられている場合、その人物は「悪い人物」リストに追加され、これらのイベントはCDA対応の仮想レポートスイートから削除され、誤った分析が発生します。
 * フィールドベースのステッチ用にプロビジョニングする場合は、Adobe アカウントチームに目的の識別変数を伝えます。
 
 ## フィールドベースのステッチに固有の制限事項

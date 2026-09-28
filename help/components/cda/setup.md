@@ -4,22 +4,28 @@ description: 仮想レポートスイートを設定して CDA を有効にし�
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+TQID: 'https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 82%
-
 ---
-
 # クロスデバイス分析の設定
 
 {{available-existing-customers}}
@@ -28,7 +34,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->これらの手順を実行する前に、すべての前提条件を満たす必要があります。 すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。 前提条件と制限事項については、[概要ページ &#x200B;](overview.md)および目的のステッチ方法（[&#x200B; フィールドベースのステッチ &#x200B;](field-based-stitching.md)）を参照してください。
+>これらの手順を実行する前に、すべての前提条件を満たす必要があります。 すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。 前提条件と制限事項については、[概要ページ ](overview.md)および目的のステッチ方法（[ フィールドベースのステッチ ](field-based-stitching.md)）を参照してください。
 
 ## &#x200B;1. カスタマーケアでチケットを開き、クロスデバイスレポートスイートでCDAをプロビジョニングします
 

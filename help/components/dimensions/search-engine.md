@@ -3,7 +3,7 @@ title: 検索エンジン
 description: 訪問者がサイトに到達するのに使用した検索エンジン。
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-TQID: https://experienceleague.adobe.com/fOk6ypu24XzT6aypOHUAE-RYSW39wyrzkyt-lvOKy7Y
+TQID: 'https://experienceleague.adobe.com/fOk6ypu24XzT6aypOHUAE-RYSW39wyrzkyt-lvOKy7Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,14 +27,14 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 69%
 ---
 # 検索エンジン
 
-「検索エンジン」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者がサイトに到達するために使用する検索エンジンを報告します。 リファラーは、検索エンジンとして分類するために、次の両方と一致する必要があります。
+「検索エンジン」 [ ディメンション ](overview.md)は、訪問者がサイトに到達するために使用する検索エンジンを報告します。 リファラーは、検索エンジンとして分類するために、次の両方と一致する必要があります。
 
 * 参照ドメインは、アドビによって有効な検索エンジンとして認識されます。
 * 参照 URL にキーワードクエリ文字列パラメーターが存在する。 クエリ文字列パラメーターは空白にすることができます（プライバシー保護のため、いくつかの検索エンジンではこのパラメーターが空白になる場合があります）。
@@ -43,7 +47,7 @@ ht-degree: 69%
 
 ## このディメンションへのデータ入力
 
-Adobeは、各ヒットの[&#x200B; リファラー](referrer.md)からこのディメンションを取得し、Adobeの内部にある複数のルックアップテーブルと照合します。 設定する変数がありません。 各値はリファラーに依存するため、リファラーディメンションと[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されていることを確認してください。
+Adobeは、各ヒットの[ リファラー](referrer.md)からこのディメンションを取得し、Adobeの内部にある複数のルックアップテーブルと照合します。 設定する変数がありません。 各値はリファラーに依存するため、リファラーディメンションと[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されていることを確認してください。
 
 | プロパティ | 値 |
 | --- | --- |

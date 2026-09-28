@@ -3,28 +3,33 @@ title: 分類インポーターの処理時間
 description: アドビが分類ファイルを処理する時間枠と、処理時間を最小限に抑える方法について理解します。
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-TQID: https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0
+TQID: 'https://experienceleague.adobe.com/D53-pBQ6RKbTCjEIyAgXmh1ZGx9FEtj5sLF8nHUp7P0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '430'
 ht-degree: 100%
-
 ---
-
 # 分類インポーターの処理時間
 
 {{classification-importer-deprecation}}
 
-分類ファイルの処理時間は、ファイルのサイズと、ファイル処理の合計数によって異なります。 分類は通常 24 時間以内で済みます。 ただし、Adobe Analytics を使用する組織全体で分類が多く使用されている場合は、ファイルの長さが 24 時間を超える可能性があります。 ホリデーシーズンの前の数か月には大量の分類の使用が見込まれます。
+分類ファイルの処理時間は、ファイルのサイズと、アドビが処理するファイルの総数によって異なります。 分類の処理に 24 時間以上かかることは通常ありません。 ただし、Adobe Analytics を使用する組織全体で分類が多く使用されている期間には、ファイルの処理に 24 時間以上かかる場合があります。 ホリデーシーズンの前の数か月には大量の分類の使用が見込まれます。
 
 分類ファイルが完了したかどうかを確認するには、次の手順を実行します。
 
@@ -43,4 +48,4 @@ ht-degree: 100%
 * **可能な場合は分類ファイルを結合する**：1 つの変数に複数の分類がある場合は、該当するすべての分類を含む 1 つのファイルをアップロードします。 同じ変数に対して複数の分類をアップロードしないでください。
 * **500 MB を超えるファイルのアップロードを避ける**：大量の分類データを扱う場合はファイルを 100 MB～500 MB のファイルに分割することをお勧めします。
 * **大量のファイルを FTP にアップロードしないようにする**：同じファイルを FTP 経由で多数のレポートスイートにアップロードする場合は、一度にアップロードするファイル数を制限します。 ファイル数と該当するレポートスイート数の乗算結果が 1000 未満であることを推奨しています。 100 個のファイルを 100 個のレポートスイートにアップロードする必要がある場合、ファイルの総数は 10,000 です。 100 個のファイルをすべて一度にアップロードするのではなく、10 個のファイルから成る 10 個のグループに分けてください。
-* **ブラウザーインポーターを使用して小さいファイルをアップロードします**。1 MB 未満（50,000 行未満）のファイルがある場合はブラウザーインポーターの使用をお勧めします。 ブラウザーのインポートは、FTP のインポートよりも常に高速です。
+* **ブラウザーインポーターを使用して小さいファイルをアップロードします**。1 MB 未満（50,000 行未満）のファイルがある場合はブラウザーインポーターの使用をお勧めします。 ブラウザーのインポートは、FTP のインポートよりもほとんどの場合高速です。

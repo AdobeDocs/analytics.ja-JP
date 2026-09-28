@@ -7,24 +7,34 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/av541DJd5Ga5QaK2856YBHWW1M-JjkbzRs8JXxYma6c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: '707'
 ht-degree: 45%
-
 ---
-
 # サーバー側転送の FAQ
 
 サーバーサイド転送の特徴、機能、問題に関するよくある質問です。
@@ -41,11 +51,11 @@ ht-degree: 45%
 | 質問 | 回答 |
 |--- |--- |
 | Q：サイトでマルチスイートタグ付けを利用している場合はどうなりますか？ サーバーサイド転送によって Audience Manager へのサーバーコールが 2 倍になりますか？ | いいえ。Analytics から Audience Manager に転送されるヒットは、ヒット内のレポートスイートの数に関係なく、1 回だけ Audience Manager に送信されます。 ヒット内の各レポートスイートに対して Audience Manager に対応するデータソースがある場合、それぞれがその単一のヒットから適切にデータが取り込まれます。  ただし、現在クライアントサイドのデータ収集（DIL）を使用していて、Audience Management モジュールをインストールせずにサーバーサイド転送を有効にした場合は、Analytics のヒット内のレポートスイートの数に関係なく、Audience Manager へのサーバーコールが 2 倍になることに注意してください。 |
-| 質問：個別のCX Enterprise組織にマッピングされたマルチスイートタグ付きレポートスイートがある場合はどうなりますか？ | 1つのAnalytics ヒットから、別々のCX Enterprise組織に属する2つのレポートスイートにデータを送信しないでください。ただし、これが発生した場合は、ページのID サービス設定に一致するCX Enterprise組織にのみヒットを転送します。 |
-| Q: マルチスイートタグ付けがあり、レポートスイートの1つだけがCX Enterprise組織にマッピングされ、もう1つがそうでない場合はどうなりますか？ | マッピングされたレポートスイート上のCX Enterprise Orgに対応するデータ収集サーバーにヒットを転送しますが、マッピングされていないレポートスイートにはAudience Managerに関連するデータソースがないため、マッピングされていないレポートスイートのデータはAudience Managerに記録されません。 |
-| 質問：複数のCX Enterprise組織にマッピングされているレポートスイートがある場合はどうなりますか？ | Analytics ではこのレポートスイートはマッピングされていないと見なされるため、このレポートスイートに対してサーバーサイド転送を有効にすることはできません。 このマッピングの問題を解決するには、カスタマーケアにお問い合わせください。 |
+| 質問：個別のCX Enterprise組織にマッピングされたマルチスイートタグ付きレポートスイートがある場合はどうなりますか？ | 1つのAnalytics ヒットから、別々のCX Enterprise組織に属する2つのレポートスイートにデータを送信しないでください。ただし、これが発生した場合は、ID サービスの設定に一致するCX Enterprise組織にのみヒットを転送します。 |
+| Q: マルチスイートタグ付けがあり、レポートスイートの1つだけがCX Enterprise組織にマッピングされ、他のレポートスイートがマッピングされていない場合はどうなりますか？ | マッピングされたレポートスイート上のCX Enterprise組織に対応するデータ収集サーバーにヒットを転送しますが、マッピングされていないレポートスイートにはAudience Managerに関連するデータソースがないので、マッピングされていないレポートスイートのデータはAudience Managerに記録されません。 |
+| Q：複数のCX Enterprise組織にマッピングされているレポートスイートがある場合はどうなりますか？ | Analytics ではこのレポートスイートはマッピングされていないと見なされるため、このレポートスイートに対してサーバーサイド転送を有効にすることはできません。 このマッピングの問題を解決するには、カスタマーケアにお問い合わせください。 |
 | Q：レポートスイートベースのサーバーサイド転送手法は、トラッキングサーバーベースのサーバーサイド転送より低速ですか？ | いいえ。応答時間は同じです。 |
-| 質問：2つのCX Enterprise組織（またはAdobe Audience Manager インスタンス）があり、両方のCX Enterprise組織間でデータを共有する場合はどうなりますか？ 1つのAnalytics ヒットを複数のCX Enterprise組織にサーバーサイドで転送できますか？ | いいえ。 あるCX Enterprise組織で収集したデータを別のCX Enterprise組織に共有する必要がある場合は、Audience Marketplaceを使用して、あるAudience Manager インスタンスから別のインスタンスに該当するオーディエンスを送信することをお勧めします。 |
+| Q: 2つのCX Enterprise組織（またはAdobe Audience Manager インスタンス）があり、両方のCX Enterprise組織間でデータを共有する場合はどうなりますか？ 1つのAnalytics ヒットを複数のCX Enterprise組織にサーバーサイドで転送できますか？ | いいえ。 あるCX Enterprise組織で収集したデータを別のCX Enterprise組織に共有する必要がある場合は、オーディエンスマーケットプレイスを使用して、該当するオーディエンスをあるAudience Managerインスタンスから別のインスタンスに送信することをお勧めします。 |
 | Q：サーバーサイド転送によって Audience Manager または Analytics で追加の請求が発生しますか？ | Analytics では、追加の請求は発生しません。 Audience Manager では、転送されたヒットは他のヒットと同じように扱われ、請求されます。  これが、DIL とサーバーサイド転送を同時に有効にしないことが重要である理由です。同時に有効にすると、データの重複が発生するだけでなく、二重課金が発生する可能性があります。 |
 
 >[!MORELIKETHIS]

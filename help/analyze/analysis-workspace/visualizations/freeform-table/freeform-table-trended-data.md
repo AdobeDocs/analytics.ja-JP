@@ -4,24 +4,30 @@ title: フリーフォームテーブルのトレンドデータの表示
 feature: Freeform Tables
 role: User, Admin
 exl-id: b1d109fd-0e3c-45df-94d0-1a6383d7f995
-TQID: https://experienceleague.adobe.com/-L-J1kq-YozWG8VnwD8-7637M6QlUYu3-wVeBvVBipA
+TQID: 'https://experienceleague.adobe.com/-L-J1kq-YozWG8VnwD8-7637M6QlUYu3-wVeBvVBipA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 0%
-
 ---
-
 # フリーフォームテーブルのトレンドデータの表示
 
 フリーフォームテーブルに含まれるデータの傾向を表示できます。 このトレンドデータは、Analysis Workspaceの次の領域に表示されます。
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 スパークラインは、フリーフォームテーブルの指標列ヘッダーに表示されます。
 
-フリーフォームテーブルの![&#x200B; スパークライン &#x200B;](assets/table-sparkline.png)
+フリーフォームテーブルの![ スパークライン ](assets/table-sparkline.png)
 
 スパークラインには、次のものが含まれます。
 
@@ -42,7 +48,7 @@ ht-degree: 0%
 
 * 表ディメンションに適用された検索フィルター条件
 
-  詳しくは、[&#x200B; フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
+  詳しくは、[ フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
 
 ## トレンドデータを表示するために行のビジュアライゼーションを使用する
 
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 1. ビジュアライゼーション名の横にあるドットを選択し、「**[!UICONTROL データソース]**」タブを選択してから、折れ線ビジュアライゼーションに接続するフリーフォームテーブルの名前を選択します。
 
-   フリーフォームテーブルに接続された![行のビジュアライゼーション &#x200B;](assets/table-line-viz.png)
+   フリーフォームテーブルに接続された![行のビジュアライゼーション ](assets/table-line-viz.png)
 
 ### 行の可視化に含まれるデータを選択します
 
@@ -66,7 +72,7 @@ ht-degree: 0%
 
 スパークラインセルを選択すると、セルが濃いグレーで表示されます。
 
-![&#x200B; スパークラインが選択されました](assets/table-sparkline-selected.png)
+![ スパークラインが選択されました](assets/table-sparkline-selected.png)
 
 接続されたテーブルのスパークライン セルを選択すると、次の行が視覚化されます。
 
@@ -74,7 +80,7 @@ ht-degree: 0%
 
 * 表ディメンションに適用された検索フィルター条件
 
-  詳しくは、[&#x200B; フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
+  詳しくは、[ フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
 
 接続されたテーブルのスパークラインが選択されていない場合、行のビジュアライゼーションには次のものが含まれます。
 
@@ -82,7 +88,7 @@ ht-degree: 0%
 
 * テーブル ディメンションに適用された検索フィルター条件は無視されます
 
-  詳しくは、[&#x200B; フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
+  詳しくは、[ フィルターと並べ替え](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)を参照してください。
 
 
 ## 連結行のビジュアライゼーションにフィルター条件を含める

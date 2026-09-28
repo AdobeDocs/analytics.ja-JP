@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: '510'
 ht-degree: 19%
-
 ---
-
 # visitorID
 
 Adobeでは、サイト上の訪問者を[識別](../../id/overview.md)するために、いくつかの異なる方法を使用しています。 **変数`visitorID`は、他のすべての訪問者識別方法を上書きします。**
@@ -72,4 +80,4 @@ s.visitorID = "abc123";
 
 ## Web SDKを使用した訪問者ID
 
-Adobe Experience Platform Edge Networkでは、XDMの[ID マップ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=ja#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [&#x200B; データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。
+Adobe Experience Platform Edge Networkでは、XDMの[ID マップ ](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)を使用して複数のIDを指定できます。 ID マップ内の各IDには、異なる名前空間があります。 [ データストリーム設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)の一部として、訪問者IDに使用する名前空間を指定できます。 このフィールドを設定すると、この名前空間に指定された値を持つイベントを送信すると、Analyticsで訪問者IDとして自動的に使用されます。

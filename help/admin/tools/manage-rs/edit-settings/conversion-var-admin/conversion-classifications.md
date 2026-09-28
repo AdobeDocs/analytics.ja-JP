@@ -4,24 +4,29 @@ title: コンバージョンの分類
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-TQID: https://experienceleague.adobe.com/k8wtT-XfijkEOgPHw4j78mm8Da4BA4V3TVVfW6fpCp4
+TQID: 'https://experienceleague.adobe.com/k8wtT-XfijkEOgPHw4j78mm8Da4BA4V3TVVfW6fpCp4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 70%
-
 ---
-
 # コンバージョンの分類
 
 分類は値をグループにまとめ、グループレベルでレポートするために使用します。 例えば、すべての[!UICONTROL 有料検索]キャンペーンを&#x200B;*ポップミュージック用語*&#x200B;などのカテゴリに分類し、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関するそのカテゴリの成功を報告できます。 1 つの変数に追加できる分類は 255 個までです。

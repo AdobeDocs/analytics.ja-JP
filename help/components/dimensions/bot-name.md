@@ -3,7 +3,7 @@ title: ボット名
 description: Bot ルールに一致するボットの名前。
 exl-id: 034dce46-e83c-4053-a062-3998231f8d6b
 feature: Dimensions
-TQID: https://experienceleague.adobe.com/lJn65s1JtcJf7WobPEeouvwlk7G5qd8XtgxvGLY-zu8
+TQID: 'https://experienceleague.adobe.com/lJn65s1JtcJf7WobPEeouvwlk7G5qd8XtgxvGLY-zu8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,16 +31,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 11%
 ---
 # ボット名
 
-「ボット名」 [&#x200B; ディメンション &#x200B;](overview.md)には、[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
+「ボット名」 [ ディメンション ](overview.md)には、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
 
-[!UICONTROL &#x200B; ボットルール &#x200B;]に一致するヒットは、このディメンション、[&#x200B; ボット発生](../metrics/bot-occurrences.md)、[&#x200B; ボットページビュー](../metrics/bot-page-views.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションとこれら2つの指標を使用して、どのボットデータがレポートの残りの部分から除外されるかを確認できます。
+[!UICONTROL  ボットルール ]に一致するヒットは、このディメンション、[ ボット発生](../metrics/bot-occurrences.md)、[ ボットページビュー](../metrics/bot-page-views.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションとこれら2つの指標を使用して、どのボットデータがレポートの残りの部分から除外されるかを確認できます。
 
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、このディメンションでは次のディメンションと指標のみがサポートされています。
 
@@ -49,7 +53,7 @@ ht-degree: 11%
 
 ## このディメンションへのデータ入力
 
-[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL &#x200B; ボットルール &#x200B;]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
+[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL  ボットルール ]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
 
 | プロパティ | 値 |
 | --- | --- |

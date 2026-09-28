@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/YCY2XuAIxZ89vqX6ENve2d6aAL3TltlYhAHartYdMgM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 742
+source-wordcount: '742'
 ht-degree: 77%
-
 ---
-
 # アドビプラグイン：p_fo（Page First Only）
 
 {{plug-in}}
@@ -59,10 +67,10 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * Action Type：Initialize p_fo
+   * アクションタイプ：p_fo を初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターを使用したプラグインのインストール
@@ -73,7 +81,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -99,9 +107,9 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ### 例 1
 
-次のコードは、ページ内に「myobject」オブジェクトが存在するかどうかを確認します。  「Myobject」オブジェクトが存在しない場合、コードは「myobject」オブジェクトを作成し、true の値を返します。  その結果、条件文内のコード（Console.log(&#39;hello&#39;)；）が実行されます。
+次のコードは、ページ内に「myobject」オブジェクトが存在するかどうかを確認します。  「myobject」オブジェクトが存在しない場合、コードは「myobject」オブジェクトを作成し、true の値を返します。  その結果、条件文内のコード（例：console.log(&#39;hello&#39;);）が実行されます。
 
-一方、p_fo が呼び出された際に「myobject」オブジェクトが既に存在する場合、p_fo 関数は false の値を返し、条件文は false と見なされます。  この場合、条件分内のコードは実行されません。
+一方、p_fo が呼び出された際に「myobject」オブジェクトが既に存在する場合、p_fo 関数は false の値を返し、条件文は false と見なされます。  この場合、条件文内のコードは実行されません。
 
 ```js
 if(p_fo("myobject"))

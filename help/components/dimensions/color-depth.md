@@ -3,7 +3,7 @@ title: 色深度
 description: デバイスの色深度。
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-TQID: https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s
+TQID: 'https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,14 +33,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 52%
 ---
 # 色深度
 
-「色深度」 [&#x200B; ディメンション &#x200B;](overview.md)は、デバイスがサポートする色数をレポートします。 このディメンションは、1600 万色をサポートしていないデバイスから発生するトラフィックの量を調べるのに役立ちます。 これまで、このレポートは新しいモバイル Web が登場したときに役に立ちました。ただし、現在の世代のほとんどのデバイスは 1600 万色をサポートしています（0 ～ 255 は赤、緑、青）。 <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+「色深度」 [ ディメンション ](overview.md)は、デバイスがサポートする色数をレポートします。 このディメンションは、1600 万色をサポートしていないデバイスから発生するトラフィックの量を調べるのに役立ちます。 これまで、このレポートは新しいモバイル Web が登場したときに役に立ちました。ただし、現在の世代のほとんどのデバイスは 1600 万色をサポートしています（0 ～ 255 は赤、緑、青）。 <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## このディメンションへのデータ入力
 

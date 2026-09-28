@@ -4,29 +4,41 @@ description: 6 か月ごとに実装をレビューし、ビジネスニーズ�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM
+TQID: 'https://experienceleague.adobe.com/YQL-V84ZWAr8NqRp1snYZBgl7-3iIhhxWkWh6KTFKNM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 73%
-
 ---
-
 # 包括的レビュー（実装を年 2 回レビューするため）
 
 6 か月ごとに実装をレビューする必要があるのはなぜですか。 実装が常にお客様のビジネスニーズと整合していることを確実にする必要があるからです。 また、データが小さく、関係者の信頼を損なう大きなデータ問題が発生する前に、データ品質の問題に対処する必要があります。 6 か月ごとの完全なレビューに加えて、各 Web サイトのリリース後に、[重点レビュー](/help/implement/review/focused-review.md)を行う必要があります。
@@ -37,9 +49,9 @@ ht-degree: 73%
 
 ## &#x200B;2. 指標と変数が依然として適切に機能していることを確認し
 
-ビジネスにとって重要な順序で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。 [上位 5 件の KPI &#x200B;](/help/implement/review/define-kpis.md#review)に関連付けられた、最も重要な指標や変数から開始します。 次に手順を示します。
+ビジネスにとって重要な順序で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。 [上位 5 件の KPI ](/help/implement/review/define-kpis.md#review)に関連付けられた、最も重要な指標や変数から開始します。 次に手順を示します。
 
-* ダッシュボードを作成して、指標と変数の月次トレンド ビューを表示します（または、各指標に[&#x200B; アラート &#x200B;](/help/components/alerts/alerts-overview.md)を設定します）。これにより、期待するデータを取得しており、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
+* ダッシュボードを作成して、指標と変数の月次トレンド ビューを表示します（または、各指標に[ アラート ](/help/components/alerts/alerts-overview.md)を設定します）。これにより、期待するデータを取得しており、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を見つけます。
 * [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)を再実行して、指標と変数の広範なトレンドを監視します。
 
 不要な指標や変数で実装が膨らまないようにしましょう。 ビジネスで不要になった指標や変数は無効にしてください。 これらは、後で削除したり再利用したりできます。

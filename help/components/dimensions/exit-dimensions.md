@@ -4,16 +4,20 @@ description: 離脱ディメンションとその使用方法を一覧します�
 keywords: 出口ページ、離脱サイトセクション、離脱サーバー、離脱カスタムインサイト
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-TQID: https://experienceleague.adobe.com/YRjvhW8OzBlip9ok0-1D4rYSljkccpIAlDkqCQv7nyo
+TQID: 'https://experienceleague.adobe.com/YRjvhW8OzBlip9ok0-1D4rYSljkccpIAlDkqCQv7nyo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +26,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 74%
@@ -31,7 +35,7 @@ ht-degree: 74%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、終了が[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 出口が指標として機能する方法について詳しくは、[出口](../metrics/exits.md)指標を参照してください。*
+*このヘルプページでは、終了が[ ディメンション ](overview.md)として機能する仕組みについて説明します。 出口が指標として機能する方法について詳しくは、[出口](../metrics/exits.md)指標を参照してください。*
 
 >[!ENDSHADEBOX]
 

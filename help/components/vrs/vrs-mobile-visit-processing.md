@@ -3,38 +3,49 @@ description: 仮想レポートスイートのコンテキスト対応セッシ�
 title: コンテキスト対応セッション
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-TQID: https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw
+TQID: 'https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 22%
-
 ---
-
 # コンテキスト対応セッション
 
-仮想レポートスイートのコンテキストに応じたセッションは、Adobe Analytics が任意のデバイスからの訪問を計算する方法を変更します。 また、この記事では、（モバイル SDK によって設定される）バックグラウンドヒットとアプリ起動イベントの処理がモバイル訪問数の定義にどのように影響するかについて説明します。
+仮想レポートスイートのコンテキスト対応セッションは、Adobe Analytics によるあらゆるデバイスからの訪問数の計算方法を変更します。 また、この記事では、（モバイル SDK によって設定される）バックグラウンドヒットとアプリ起動イベントの処理がモバイル訪問数の定義にどのように影響するかについて説明します。
 
 訪問の定義は、基になるデータを変更することなく、訪問者がデジタルエクスペリエンスをどのように操作するかに応じて自由に変更できます。
 
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; コンテキストに応じたセッション &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ コンテキストに応じたセッション ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -124,11 +135,11 @@ Adobe Analytics データ収集プロセスでは、お客様の視点を指定�
 
 ![](assets/nogoodexample3-4.jpg)
 
-例 4：仮想レポートスイートで設定されている訪問タイムアウト期間内に一連のバックグラウンドヒットが発生した場合、バックグラウンドヒットは目に見えない「バックグラウンド訪問」を形成します。これらの訪問は訪問数にカウントされず、訪問セグメントコンテナを使用してアクセスすることもできません。
+例 4：仮想レポートスイートで設定されている訪問タイムアウト期間内に一連のバックグラウンドヒットが発生した場合、これらのヒットは目に見えない「バックグラウンド訪問」を形成します。このバックグラウンド訪問は訪問数にはカウントされず、訪問セグメント化コンテナを使用してアクセスすることもできません。
 
 ![](assets/nogoodexample4.jpg)
 
-バックグラウンド訪問は訪問と見なされませんが、訪問の有効期限が設定された eVar の値は同じ「バックグラウンド訪問」で発生した他のバックグラウンドヒットにも引き継がれます。
+バックグラウンド訪問は訪問とは見なされませんが、訪問有効期限が設定された eVar の値は、同じ「バックグラウンド訪問」で発生した他のバックグラウンドヒットにも引き継がれます。
 
 例 5：一連のフォアグラウンドヒットが発生した後に複数のバックグラウンドヒットが連続して発生した場合、（タイムアウト設定によって異なりますが）それらのバックグラウンドヒットにより訪問タイムアウト期間を越えて 1 つの訪問が継続されることがあります。 例えば、*t1*&#x200B;と&#x200B;*t2*&#x200B;が一緒にバーチャルレポートスイートの訪問タイムアウトよりも大きく、個別にタイムアウトよりも小さい場合、訪問は引き続き両方のバックグラウンドヒットを含むように拡張されます。
 
@@ -150,7 +161,7 @@ Adobe Analytics データ収集プロセスでは、お客様の視点を指定�
 
 ## 背景ヒット処理設定
 
-バックグラウンドヒットの処理はレポート時間処理を使用している仮想レポートスイートでしか利用できないので、Adobe Analytics では、レポート時間処理を使用しないベースレポートスイートでも訪問数を維持できるように、2 種類のバックグラウンドヒット処理がサポートされています。 この設定にアクセスするには、Adobe Analytics Admin Toolsに移動し、該当する基本レポートスイートの設定に移動してから、「Mobile Management」メニューに移動し、「Mobile Application Reporting」サブメニューに移動します。
+バックグラウンドヒットの処理は、レポート期間処理を使用している仮想レポートスイートでのみ利用できるため、Adobe Analytics では、レポート期間処理を使用しないベースレポートスイートの訪問数を維持できるように、バックグラウンドヒットを処理する 2 つの方法がサポートされています。 この設定にアクセスするには、Adobe Analytics Admin Toolsに移動し、該当する基本レポートスイートの設定に移動してから、「Mobile Management」メニューに移動し、「Mobile Application Reporting」サブメニューに移動します。
 
 1. 「レガシー処理中」：これは、すべてのレポートスイートのデフォルト設定です。 非レポート時間アトリビューションベースレポートスイートに関する限り、プロセスのバックグラウンドヒットを処理パイプラインの通常のヒットとして残します。 つまり、基本レポートスイートに表示されるバックグラウンドヒットは、通常のヒットとして訪問数が増加します。 ベースレポートスイートにバックグラウンドヒットを表示しない場合は、この設定を「オフ」に変更します。
 1. 「レガシー処理オフ」：バックグラウンドヒットのレガシー処理をオフにすると、ベースレポートスイートに送信されたバックグラウンドヒットはベースレポートスイートによって無視され、このベースレポートスイートで作成された仮想レポートスイートがレポート時間処理を使用するように設定されている場合にのみアクセスできます。 つまり、この基本レポートスイートに送信されたバックグラウンドヒットによってキャプチャされたデータは、レポート時処理有効な仮想レポートスイートにのみ表示されます。

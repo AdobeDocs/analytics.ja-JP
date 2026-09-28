@@ -3,28 +3,41 @@ title: データの急増／急減のトラブルシューティング
 description: トレンドレポートで劇的な増加や減少が見られる理由を説明します。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+TQID: 'https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # データの急増／急減のトラブルシューティング
 
 サイトがデータを収集する際、データ収集やレポート作成に多数の外的要因が大きく影響することがあります。 次に、一部の変数やトラフィック全体が大幅に増加または減少する理由として考えられることを示します。
@@ -40,7 +53,7 @@ ht-degree: 100%
 * **レポートスイートの遅延**：多くの要因が原因で、レポートスイートに[遅延](../latency.md)が発生する場合があります。 遅延問題の多くは数時間で解決します。 特定のレポートスイートについてご不明な点がある場合は、レポートスイート ID をご用意の上 Adobe カスタマーケアにお問い合わせください。
 * **実装の削除**：組織が実装の変更やサイトの再構築をおこなった場合に、Analytics の再実装が見落とされることがあります。 組織のデベロッパーと協力して、サイトにコードを再実装してください。
 * **Analytics のインターフェイス／キャッシュに関する問題**：まれに、ブラウザーのキャッシュに無効なデータが含まれていて、すべてのレポートでゼロが返されることがあります。 ブラウザーの Cookie とキャッシュを消去して問題を解決します。 Cookie／キャッシュの消去が機能しない場合は、不足しているレポートと日付範囲を添えてカスタマーケアに連絡してください。カスタマーケア側で問題を再現し、追加情報を提供できます。
-* **Analytics の可用性**：データの収集や処理に関する問題がないかを [status.adobe.com](https://status.adobe.com/jp/products/1173/jp) で確認します。
+* **Analytics の可用性**：データの収集や処理に関する問題がないかを [status.adobe.com](https://status.adobe.com/products/1173/jp) で確認します。
 
 ### データが部分的に欠落したり、トラフィックが減少したりする潜在的な原因
 

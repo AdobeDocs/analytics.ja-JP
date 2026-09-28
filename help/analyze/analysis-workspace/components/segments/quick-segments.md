@@ -4,24 +4,32 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-TQID: https://experienceleague.adobe.com/fHIB-E9w4CRsmqGS8ZmXZVIdeV-SxcPNUPgzNUHgK74
+TQID: 'https://experienceleague.adobe.com/fHIB-E9w4CRsmqGS8ZmXZVIdeV-SxcPNUPgzNUHgK74'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 117
+source-wordcount: '117'
 ht-degree: 66%
-
 ---
-
 # クイックセグメント
 
 クイックセグメントを使用すると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)内に複雑なコンポーネントリストセグメントを作成しなくても、特定のプロジェクト内のデータを簡単に探索できます。
@@ -35,14 +43,14 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイックセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ クイックセグメント ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[&#x200B; クイックセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
+>[ クイックセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--

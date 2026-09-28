@@ -7,21 +7,26 @@ exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 94%
-
 ---
-
 # 一般的なボットの特徴
 
 データセット内のボットの識別は環境によって異なりますが、ボットを識別する一般的な方法をいくつか紹介します。

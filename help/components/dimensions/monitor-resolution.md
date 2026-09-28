@@ -3,7 +3,7 @@ title: モニターの解像度
 description: 訪問者のモニターの解像度（ピクセル単位）。
 feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-TQID: https://experienceleague.adobe.com/d3AuMT0seRbZpuKVGPeWo98Bkhc8tcJIP6gt4y-rq38
+TQID: 'https://experienceleague.adobe.com/d3AuMT0seRbZpuKVGPeWo98Bkhc8tcJIP6gt4y-rq38'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,14 +31,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 51%
 ---
 # モニターの解像度
 
-「モニター解像度」 [&#x200B; ディメンション &#x200B;](overview.md)は、アクティブなディスプレイの高さと幅をピクセル単位で示します。 このディメンションは、訪問者がサイト上で「折りたたむ」場所や、訪問者のブラウザーウィンドウの幅を把握したい場合に役立ちます。 折りたたみの位置を把握することで、コンテンツを表示用に最適化できます。
+「モニター解像度」 [ ディメンション ](overview.md)は、アクティブなディスプレイの高さと幅をピクセル単位で示します。 このディメンションは、訪問者がサイト上で「折りたたむ」場所や、訪問者のブラウザーウィンドウの幅を把握したい場合に役立ちます。 折りたたみの位置を把握することで、コンテンツを表示用に最適化できます。
 
 このディメンションは、ブラウザー[height](browser-height.md)および[width](browser-width.md)とは異なります。 ブラウザーの高さと幅は、表示可能なブラウザースペース内のピクセル数です。モニターの解像度は、モニター全体のピクセル数です。 ご使用のマシン上でこれら 2 つの変数の違いを確認したい場合は、ブラウザーコンソールを開き（ほとんどのブラウザーでは F12）、次のコードをコピーしてコンソールに貼り付けます。
 

@@ -3,7 +3,7 @@ title: 訪問の深さ
 description: 訪問の深さをレポートする訪問ベースのディメンション。
 feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
-TQID: https://experienceleague.adobe.com/mT5dQzR6edNpvU6Fbf9LlLwQuxW6RA-ZCZJDaIFkyAw
+TQID: 'https://experienceleague.adobe.com/mT5dQzR6edNpvU6Fbf9LlLwQuxW6RA-ZCZJDaIFkyAw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
     internal-label: Marketing Channels
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,14 +31,14 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 68%
 ---
 # 訪問の深さ
 
-「訪問の深さ」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者が訪問全体で閲覧したページビュー数をレポートします。 訪問の深さは、ヒットがページビューで、[ページ](page.md)ディメンションが最後のページ表示のディメンション項目と同じでない場合にのみ増加します。 これは訪問ベースのディメンションで、訪問全体を通して同じ値が保持されます。 この変数は、訪問が終了した後に、その訪問内のすべてのヒットに対して設定されます。
+「訪問の深さ」 [ ディメンション ](overview.md)は、訪問者が訪問全体で閲覧したページビュー数をレポートします。 訪問の深さは、ヒットがページビューで、[ページ](page.md)ディメンションが最後のページ表示のディメンション項目と同じでない場合にのみ増加します。 これは訪問ベースのディメンションで、訪問全体を通して同じ値が保持されます。 この変数は、訪問が終了した後に、その訪問内のすべてのヒットに対して設定されます。
 
 ## このディメンションへのデータ入力
 

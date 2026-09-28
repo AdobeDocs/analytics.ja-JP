@@ -3,24 +3,30 @@ title: 分類セットの概要
 description: 分類セットを使用して分類データを管理する方法について説明します。 分類セットと従来の分類との違いを理解します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-TQID: https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM
+TQID: 'https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: '905'
 ht-degree: 100%
-
 ---
-
 # 分類セットの概要
 
 分類セットは、分類とルールを管理するための単一のインターフェイスを提供します。 このワークフローでは、[レポートスイート設定](/help/admin/tools/manage-rs/report-suites-admin.md)での分類の作成と[分類インポーター](/help/components/classifications/sets/manage-sets.md)を組み合わせます。 その結果、分類データを作成および管理する単一の直感的なインターフェイスが実現します。

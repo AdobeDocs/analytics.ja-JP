@@ -7,28 +7,39 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/8p05Bfxo37frjI9pPQOPHPtzt8yxPmFXj-nYW00IYfE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+    internal-label: Experience Platform Edge integration
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 42%
-
 ---
-
 # Adobe Experience Platform Web SDK を使用した Adobe Analytics の実装
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=ja) を使用して、データを Adobe Analytics に送信できます。 Web SDKを実装するには、主に2つの方法があり、各メソッドには2つの実装タイプがあります。
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) を使用して、データを Adobe Analytics に送信できます。 Web SDKを実装するには、主に2つの方法があり、各メソッドには2つの実装タイプがあります。
 
 | | **AppMeasurementからの移行** | **クリーン Web SDKの実装** |
 | --- | --- | --- |

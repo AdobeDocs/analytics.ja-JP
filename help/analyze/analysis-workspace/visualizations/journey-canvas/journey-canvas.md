@@ -3,13 +3,25 @@ description: Analysis Workspace でジャーニーキャンバスを使用する
 title: ジャーニーキャンバスの概要
 feature: Visualizations
 role: User, Admin
-source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 88%
-
 ---
-
 # ジャーニーキャンバスの概要 {#journey-canvas-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -38,7 +50,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**&#x200B;_。_&#x200B;この記事のジャーニーキャンバスの概要&#x200B;<br/><br/>_について説明します。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[ジャーニーキャンバスの概要](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)を参照してください。_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**_。_&#x200B;この記事のジャーニーキャンバスの概要&#x200B;<br/><br/>_について説明します。
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +58,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 イベント、ディメンション項目、セグメント、日付範囲を任意に組み合わせてジャーニーノードを作成して、[ユーザージャーニーの分析を作成](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)できます。 ノードを接続してジャーニーのフローを作成し、複数のパスと決定ポイントを含めます。 キャンバス上のノードをドラッグして、ジャーニーのイベントと条件を並べ替えます。 変更を行うと、データがリアルタイムで更新されます。
 
-[&#x200B; ノードは、](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)を「最終パス」として接続しています。つまり、訪問者は、2つのノード間で発生するイベントに関係なく、最終的に1つのノードから他のノードに移動する限りカウントされます。 ユーザーがパスに沿って移動するために割り当てられた時間は、コンテナの設定によって決まります。
+[ ノードは、](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)を「最終パス」として接続しています。つまり、訪問者は、2つのノード間で発生するイベントに関係なく、最終的に1つのノードから他のノードに移動する限りカウントされます。 ユーザーがパスに沿って移動するために割り当てられた時間は、コンテナの設定によって決まります。
 
 ![ジャーニーキャンバス](assets/journey-canvas.png)
 
@@ -148,4 +160,4 @@ Analysis Workspace で使用可能な任意のディメンションまたは指�
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics でのジャーニーキャンバスビジュアライゼーションのガイド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=ja)
+> * [Adobe Customer Journey Analytics でのジャーニーキャンバスビジュアライゼーションのガイド](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)

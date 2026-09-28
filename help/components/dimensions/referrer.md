@@ -3,7 +3,7 @@ title: リファラー
 description: 訪問者がクリックスルーしてサイトにアクセスする前にいた URL。
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-TQID: https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ
+TQID: 'https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,11 +16,15 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,14 +37,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 76%
 ---
 # リファラー
 
-「リファラー」ディメンション [1&rbrace;は、訪問者がクリックしてサイトに到達した際に使用したURLをレポートします。 &#x200B;](overview.md)このディメンションは、どの特定の URL がサイトへのトラフィックを最も多く引き起こしているかを把握するのに役立ちます。 ディメンション項目を表示するには、外部 URL にリンクが存在し、訪問者がリンクをクリックする必要があります。
+「リファラー」ディメンション [1}は、訪問者がクリックしてサイトに到達した際に使用したURLをレポートします。 ](overview.md)このディメンションは、どの特定の URL がサイトへのトラフィックを最も多く引き起こしているかを把握するのに役立ちます。 ディメンション項目を表示するには、外部 URL にリンクが存在し、訪問者がリンクをクリックする必要があります。
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ AppMeasurementは、ブラウザーの`document.referrer`値からリファラ�
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **Web SDK / XDM フィールド** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/web-information) |
+| **Web SDK / XDM フィールド** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
 | **クエリパラメーター** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト |

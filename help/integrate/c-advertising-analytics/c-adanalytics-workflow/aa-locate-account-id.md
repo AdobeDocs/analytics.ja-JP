@@ -6,21 +6,27 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 TQID: 'https://experienceleague.adobe.com/5Z2hL08Ynl9M6abCm2bchArEOIYDz0cPTRIxQeqLbZ8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '344'
 ht-degree: 22%
-
 ---
-
 # アカウント ID の見つけ方 {#locate-your-account-ids}
 
 Google AdsおよびMicrosoft Advertisingのアカウント IDを見つける方法について説明します。
@@ -38,7 +44,7 @@ Google AdsおよびMicrosoft Advertisingのアカウント IDを見つける方�
 
 右上のアカウントアイコンをクリックして、Google Adsのアカウント番号（お客様ID）を表示します。
 
-![Google Ads Manager アカウント &#x200B;](assets/google-account.png)
+![Google Ads Manager アカウント ](assets/google-account.png)
 
 ## Microsoft 広告（Bing） {#microsoft}
 
@@ -48,10 +54,10 @@ Google AdsおよびMicrosoft Advertisingのアカウント IDを見つける方�
 
 **[!UICONTROL アカウント ID]**&#x200B;と&#x200B;**[!UICONTROL マネージャーのアカウント ID]**&#x200B;はどちらも必要です。
 
-- **[!UICONTROL アカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL アカウント設定]** > **[!UICONTROL アカウント ID]**&#x200B;の下にあります。 [!UICONTROL &#x200B; アカウント番号]ではなく、[!UICONTROL &#x200B; アカウント ID]を使用していることを確認してください。
-- **[!UICONTROL マネージャーアカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL マネージャーアカウント設定]** > **[!UICONTROL マネージャーアカウント ID]**&#x200B;の下にあります。 [!UICONTROL &#x200B; マネージャーアカウント番号]ではなく、[!UICONTROL &#x200B; マネージャーアカウント ID]を使用していることを確認してください。
+- **[!UICONTROL アカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL アカウント設定]** > **[!UICONTROL アカウント ID]**&#x200B;の下にあります。 [!UICONTROL  アカウント番号]ではなく、[!UICONTROL  アカウント ID]を使用していることを確認してください。
+- **[!UICONTROL マネージャーアカウント ID]**&#x200B;は、**[!UICONTROL 設定]** > **[!UICONTROL マネージャーアカウント設定]** > **[!UICONTROL マネージャーアカウント ID]**&#x200B;の下にあります。 [!UICONTROL  マネージャーアカウント番号]ではなく、[!UICONTROL  マネージャーアカウント ID]を使用していることを確認してください。
 
-![Microsoft Advertising ナビゲーション &#x200B;](assets/bing-id.png)
+![Microsoft Advertising ナビゲーション ](assets/bing-id.png)
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"

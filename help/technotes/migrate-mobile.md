@@ -3,27 +3,37 @@ description: Mobile Services の処理ルールを Adobe Analytics に移行す�
 title: Mobile Services の処理ルールの Adobe Analytics への移行
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
+TQID: 'https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: '701'
 ht-degree: 89%
-
 ---
-
 # Mobile Services の処理ルールの Adobe Analytics への移行
 
 このドキュメントでは、Mobile Services UI で作成した追加の処理ルール（ライフサイクル指標を除く）を Adobe Analytics に移行する方法について説明します。
@@ -44,7 +54,7 @@ ht-degree: 89%
 
    ![コンテキスト変数](assets/context-var.png)
 
-1. CX Enterpriseでは、Adobe Analyticsに切り替えて、Mobile Servicesで確認したのと同じモバイルレポートスイートに属していることを確認します。
+1. CX Enterpriseで、Adobe Analyticsに切り替えて、Mobile Servicesで見ていたのと同じモバイルレポートスイートに属していることを確認します。
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 処理ルール]**&#x200B;に移動します。
 1. 「**[!UICONTROL Add Rule]**」をクリックします。
 1. 条件を無視して、Mobile Services に存在するのと同じコンテキスト変数の追加に進みます。

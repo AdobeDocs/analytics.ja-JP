@@ -4,24 +4,32 @@ keywords: データフィード;ジョブ;指標;列の前;列の後;ボット;�
 title: 指標の計算
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+TQID: 'https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 95%
-
 ---
-
 # データフィードを使用した一般的な指標の計算
 
 データフィードを使用して一般的な指標を計算する方法について説明します。
@@ -53,7 +61,7 @@ ht-degree: 95%
 
 ## 訪問者数
 
-Adobeが一意の訪問者（カスタム訪問者ID、ECIDなど）を識別するために使用するすべてのメソッド すべてが最終的に`post_visid_high`と`post_visid_low`の値として計算されます。 これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。 アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
+Adobeが一意の訪問者（カスタム訪問者ID、ECIDなど）を識別するために使用するすべてのメソッド すべてが最終的に`post_visid_high`と`post_visid_low`の値として計算されます。 これら 2 つの列を連結することで、どのような方法でユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別するための基準として使用できます。 アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。
@@ -82,7 +90,7 @@ Adobeが一意の訪問者（カスタム訪問者ID、ECIDなど）を識別す
 
 ## 注文件数、数量、売上高
 
-`currency` の値がレポートスイートの通貨と一致しない場合は、その日のコンバージョン率を使用して換算されます。 `post_product_list`列では換算後の通貨値が使用されるので、この列の通貨はすべてのヒットで同じになります。
+ヒットの `currency` の値がレポートスイートの通貨と一致しない場合は、その日のコンバージョン率を使用して換算されます。 `post_product_list`列では換算後の通貨値が使用されるので、この列の通貨はすべてのヒットで同じになります。
 
 1. `duplicate_purchase = 1` の行をすべて排除します。
 2. `event_list` に購入イベントが含まれる行のみを含めます。

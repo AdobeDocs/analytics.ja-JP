@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 7%
 ---
 # AMO Meta Ads クリック ID
 
-**[!UICONTROL AMO Meta Ads クリック ID]**&#x200B;は、Adobe Advertising統合で使用される広告クリック IDです。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。 これは主に、人間が読み取れるレポートディメンションではなく、生のトラッキング識別子として役立ちます。
+**[!UICONTROL AMO Meta Ads クリック ID]**&#x200B;は、Adobe Advertising統合で使用される広告クリック IDです。 ディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)統合を有効にすると自動的に作成されます。 これは主に、人間が読み取れるレポートディメンションではなく、生のトラッキング識別子として役立ちます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/ja/docs/advertising/integrations/analytics/overview)統合によって自動的に入力されます。設定する変数はありません。
+このディメンションは、[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)統合によって自動的に入力されます。設定する変数はありません。
 
 | プロパティ | 値 |
 | --- | --- |
@@ -42,7 +47,7 @@ ht-degree: 7%
 
 このディメンションは、複数の方法で値を収集します。
 
-* クリックスルートラフィックの場合、データは[&#x200B; ページ URL](page-url.md)の`fbclid` クエリ文字列パラメーターから収集されます。通常は、広告駆動型トラフィックがサイトに入るページ上に収集されます。
+* クリックスルートラフィックの場合、データは[ ページ URL](page-url.md)の`fbclid` クエリ文字列パラメーターから収集されます。通常は、広告駆動型トラフィックがサイトに入るページ上に収集されます。
 * クリックスルートラフィックは、URLにトラッキングコードが含まれていない場合にもキャプチャできますが、Adobe Advertising JavaScriptでは、前の2分以内にクリックが検出されます。
 
 ## ディメンション項目

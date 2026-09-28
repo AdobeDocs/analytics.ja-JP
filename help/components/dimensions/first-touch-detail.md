@@ -3,7 +3,7 @@ title: ファーストタッチチャネルの詳細
 description: 訪問者のエンゲージメント有効期限内の最初のマーケティングチャネルの詳細。
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-TQID: https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ
+TQID: 'https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,22 +12,26 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 73%
 ---
 # ファーストタッチチャネルの詳細
 
-「ファーストタッチチャネルの詳細」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者のエンゲージメント期間中（デフォルトでは30日）に訪問者が最初にマッチングしたマーケティングチャネルの詳細をレポートします。 このディメンションは、マーケティングチャネルと一致するヒットに何が貢献したかを把握するのに役立ちます。 例えば、訪問者がサイトを訪問し、「有料検索」マーケティングチャネルと一致した場合、チャネルの詳細を使用して、どの検索エンジンが使用されたか、どのキーワードを検索したかを確認できます。
+「ファーストタッチチャネルの詳細」 [ ディメンション ](overview.md)は、訪問者のエンゲージメント期間中（デフォルトでは30日）に訪問者が最初にマッチングしたマーケティングチャネルの詳細をレポートします。 このディメンションは、マーケティングチャネルと一致するヒットに何が貢献したかを把握するのに役立ちます。 例えば、訪問者がサイトを訪問し、「有料検索」マーケティングチャネルと一致した場合、チャネルの詳細を使用して、どの検索エンジンが使用されたか、どのキーワードを検索したかを確認できます。
 
 ## このディメンションへのデータ入力
 
@@ -46,7 +50,7 @@ ht-degree: 73%
 
 * 目的のディメンション項目がヒット属性またはカスタム変数に含まれていることを確認します。
 * ヒットに必要な条件を含むマーケティングチャネルの処理ルールを設定します。
-* 「[!UICONTROL &#x200B; マーケティングチャネル処理ルール内のチャネルの値]を設定します」で、目的のドロップダウン値を選択します。
+* 「[!UICONTROL  マーケティングチャネル処理ルール内のチャネルの値]を設定します」で、目的のドロップダウン値を選択します。
 * サイトに対する訪問者のヒットは、マーケティングチャネルの処理ルールで説明されている条件に一致する必要があります。 _そして_、訪問者のエンゲージメント期間内に最初に一致するマーケティングチャネルの値である必要があります。
 
 後続のヒットが、別のマーケティングチャネルの条件と一致する場合、このディメンションは新しいマーケティングチャネルで上書きされません。

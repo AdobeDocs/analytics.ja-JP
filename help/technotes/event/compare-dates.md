@@ -3,27 +3,36 @@ title: イベントの影響を受ける日付と以前の範囲の比較
 description: 過去の傾向と比較することで、実装の問題や障害などのイベントの影響について学習できます。
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+TQID: 'https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # イベントの影響を受ける日付と以前の範囲の比較
 
-イベントの影響を受けるデータ [がある場合は、過去の傾向を確認して、その影響を測定できます。 &#x200B;](overview.md)この比較は、イベントがデータにどの程度影響するかを把握するのに役立ちます。これにより、データを除外するか、レポートにメモを追加するか、無視するかを決定できます。
+イベントの影響を受けるデータ [がある場合は、過去の傾向を確認して、その影響を測定できます。 ](overview.md)この比較は、イベントがデータにどの程度影響するかを把握するのに役立ちます。これにより、データを除外するか、レポートにメモを追加するか、無視するかを決定できます。
 
 ## イベントを含む日付範囲を作成します
 
@@ -41,7 +50,7 @@ ht-degree: 0%
 
 1. Workspace プロジェクトを開き、フリーフォームテーブルに「日」ディメンションを追加します。 「発生回数」など、指標に積み重ねて最近作成した日付範囲を適用します。
 
-   ![日付範囲メトリック &#x200B;](assets/date_range_metric.png)
+   ![日付範囲メトリック ](assets/date_range_metric.png)
 
 2. 日付範囲を右クリックし、**[!UICONTROL 期間カラムを追加]** > **[!UICONTROL この日付範囲にカスタム日付範囲]**&#x200B;をクリックします。
    * 週ごとの比較の場合は、イベントの範囲から7日間を差し引いた値を選択します。 イベントとこの日付範囲の間の週の日数が揃っていることを確認します。
@@ -49,7 +58,7 @@ ht-degree: 0%
    * 前年比の比較では、昨年のイベントの範囲を選択します。
 3. 必要な日付範囲を選択すると、フリーフォームテーブルに追加されます。 右クリックして、比較したい日付範囲を追加できます。
 
-   ![日付整列トレンド &#x200B;](assets/date_aligned_trends.png)
+   ![日付整列トレンド ](assets/date_aligned_trends.png)
 
 ## イベントと類似の以前の範囲の差分率を計算します
 
@@ -57,7 +66,7 @@ ht-degree: 0%
 
 1. Workspace プロジェクトを開き、**非時間ディメンション**&#x200B;をフリーフォームテーブルに追加します。 例えば、「モバイルデバイスタイプ」ディメンションを使用できます。 「発生回数」など、指標に積み重ねられた最近作成された日付範囲を適用します。
 
-   ![影響を受ける日付範囲によるモバイルデバイスタイプ &#x200B;](assets/mobile_device_type.png)
+   ![影響を受ける日付範囲によるモバイルデバイスタイプ ](assets/mobile_device_type.png)
 
 2. 日付範囲を右クリックし、**[!UICONTROL 期間の比較]** > **[!UICONTROL カスタム日付範囲をこの日付範囲]**&#x200B;をクリックします。 イベントの範囲から7日間を引いた値を選択します。 イベントとこの日付範囲の間の週の日数が揃っていることを確認します。
 
@@ -76,12 +85,12 @@ ht-degree: 0%
 1. フリーフォームテーブルビジュアライゼーションを追加し、テーブルビルダーを有効にします。 このアクションを使用すると、変更率の指標を目的の順序で配置できます。
 2. `Ctrl` （Windows）または`Cmd` （Mac）を押しながら、3%変更指標をテーブルの行に1つずつドラッグします。
 
-   ![&#x200B; テーブルビルダー](assets/table_builder.png)
+   ![ テーブルビルダー](assets/table_builder.png)
 
 3. 「すべての訪問」セグメントをテーブルの列と、その他の必要なセグメントに追加します。
 
-   ![&#x200B; テーブルビルダーセグメント &#x200B;](assets/table_builder_segments.png)
+   ![ テーブルビルダーセグメント ](assets/table_builder_segments.png)
 
 4. 「**[!UICONTROL 作成]**」をクリックします。 結果のテーブルから、任意のセグメントで影響を受ける範囲と前の週、月、年を表示できます。
 
-   ![&#x200B; テーブルが完了しました](assets/table_builder_finished.png)
+   ![ テーブルが完了しました](assets/table_builder_finished.png)

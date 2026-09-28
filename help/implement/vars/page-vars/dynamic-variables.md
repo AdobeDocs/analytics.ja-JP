@@ -14,6 +14,8 @@ feature_v2:
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -26,7 +28,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 80%
@@ -53,7 +55,7 @@ ht-degree: 80%
 1. 左側のパネルで「**[!UICONTROL データストリーム]**」をクリックします。
 1. 目的のデータストリームをクリックします。
 1. 右側の「**[!UICONTROL マッピングを編集]**」をクリックします。
-1. 目的の[!UICONTROL Source フィールド &#x200B;]を目的の[!UICONTROL &#x200B; ターゲットフィールド &#x200B;]にマッピングします。 1つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
+1. 目的の[!UICONTROL Source フィールド ]を目的の[!UICONTROL  ターゲットフィールド ]にマッピングします。 1つのソースフィールドを任意の数のターゲットフィールドにマッピングできます。
 
 ## Adobe Analytics拡張機能を使用した動的変数
 

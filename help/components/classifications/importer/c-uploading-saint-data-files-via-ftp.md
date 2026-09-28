@@ -3,25 +3,31 @@ description: FTP を使用してデータファイルをアップロードする
 title: FTP インポート
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
+TQID: 'https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 39%
-
 ---
-
 # FTP インポート （レガシー）
 
 {{classification-importer-deprecation}}
@@ -32,7 +38,7 @@ ht-degree: 39%
 >
 >FTPは暗号化されていないファイル共有方法であるため、お勧めしません。つまり、誰でもファイルの内容と、アカウントに使用されているユーザー名とパスワードを傍受できます。
 >
->代わりに、[&#x200B; クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従ってクラウドアカウントを設定します。
+>代わりに、[ クラウドのインポートとエクスポートのアカウントの設定](/help/components/locations/configure-import-accounts.md)の説明に従ってクラウドアカウントを設定します。
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
@@ -76,8 +82,8 @@ Adobe FTP サーバーについて詳しくは、「[FTP と sFTP](/help/export/
    | **名前** | FTP アカウント名。 |
    | **分類対象のデータセット** | ドロップダウンリストから、分類するデータセット（マーケティングレポート変数）を選択します。 |
    | **レポートスイートを選択** | 選択したデータセットを分類するレポートスイートを選択します。 複数のレポートスイートを選択するには、選択した各レポートスイートの分類が同じである必要があります。 |
-   | **競合に関するデータを上書き** | 重複するデータを上書きするには、このオプションを選択します。 このオプションは、既存の分類を更新する場合に便利です。 [最新の分類アーキテクチャ &#x200B;](../sets/overview.md)を使用している場合、この設定は常に有効になります。 |
-   | **インポート完了後** | このオプションを選択すると、更新されたデータセットが同じFTP アカウントに自動的にエクスポートされます。インポートが完了したら、このFTP アカウントに関する通知を受信するメールアドレスを指定します。 [最新の分類アーキテクチャ &#x200B;](../sets/overview.md)を使用している場合、このオプションは使用できません。 |
+   | **競合に関するデータを上書き** | 重複するデータを上書きするには、このオプションを選択します。 このオプションは、既存の分類を更新する場合に便利です。 [最新の分類アーキテクチャ ](../sets/overview.md)を使用している場合、この設定は常に有効になります。 |
+   | **インポート完了後** | このオプションを選択すると、更新されたデータセットが同じFTP アカウントに自動的にエクスポートされます。インポートが完了したら、このFTP アカウントに関する通知を受信するメールアドレスを指定します。 [最新の分類アーキテクチャ ](../sets/overview.md)を使用している場合、このオプションは使用できません。 |
    | **通知の受信者** | このFTP アカウントに関する通知を受信する電子メールアドレスを指定します。 |
    | **認証** | （必須）新しいFTP アカウントに送信されたすべてのデータファイルを自動的に読み込むようにAdobeに権限を付与します。 |
 

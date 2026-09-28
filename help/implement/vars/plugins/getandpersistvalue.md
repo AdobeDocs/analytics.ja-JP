@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/mofGb9F4bP7uHIBulSDfMlNzss4Uafl3yQF17oEyhqo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 70%
-
 ---
-
 # アドビプラグイン：getAndPersistValue
 
 {{plug-in}}
 
-`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。 これは、Adobe Experience Platform Data Collection内のAdobe Analytics拡張機能の[!UICONTROL &#x200B; ストレージ期間]機能と同様の役割を果たします。 変数を設定した後の後続のヒットで Analytics 変数を自動的に同じ値に保持したい場合は、このプラグインを使用することをお勧めします。 Analytics拡張機能の[!UICONTROL &#x200B; ストレージ期間]機能で十分な場合、このプラグインは必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。 eVar はアドビによってサーバーサイドで永続化されるため、ビルトインの eVar の永続性にはこのプラグインを使用する必要はありません。
+`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。 これは、Adobe Experience Platform Data Collection内のAdobe Analytics拡張機能の[!UICONTROL  ストレージ期間]機能と同様の役割を果たします。 変数を設定した後の後続のヒットで Analytics 変数を自動的に同じ値に保持したい場合は、このプラグインを使用することをお勧めします。 Analytics拡張機能の[!UICONTROL  ストレージ期間]機能で十分な場合、このプラグインは必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。 eVar はアドビによってサーバーサイドで永続化されるため、ビルトインの eVar の永続性にはこのプラグインを使用する必要はありません。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 

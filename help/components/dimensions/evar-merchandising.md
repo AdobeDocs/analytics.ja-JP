@@ -3,18 +3,22 @@ title: eVar（マーチャンダイジングディメンション）
 description: 製品ディメンションに関連付けられるカスタム変数。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
+TQID: 'https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +27,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 85%
@@ -32,7 +36,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、マーチャンダイジング eVarが[&#x200B; ディメンション &#x200B;](overview.md)として機能する仕組みについて説明します。 マーチャンダイジング eVarの実装方法について詳しくは、実装ユーザーガイドの[eVar（マーチャンダイジング変数） &#x200B;](/help/implement/vars/page-vars/evar-merchandising.md)を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVarが[ ディメンション ](overview.md)として機能する仕組みについて説明します。 マーチャンダイジング eVarの実装方法について詳しくは、実装ユーザーガイドの[eVar（マーチャンダイジング変数） ](/help/implement/vars/page-vars/evar-merchandising.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 

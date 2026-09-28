@@ -4,38 +4,50 @@ title: リアルタイムレポートの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-TQID: https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ
+TQID: 'https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: '633'
 ht-degree: 19%
-
 ---
-
 # リアルタイムレポートの概要
 
 リアルタイムレポートは web ページのトラフィックを表示し、ページビューをリアルタイムでランキングします。 ビジネス上の意思決定の拠り所となるアクションにつながるデータを提供します。
 
 >[!NOTE]
 >
->リアルタイムレポートには、追加の実装やタグ付けは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[&#x200B; リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
+>リアルタイムレポートには、追加の実装やタグ付けは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[ リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
 
 ## リアルタイムのレポートにアクセス
 
@@ -69,7 +81,7 @@ ht-degree: 19%
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較します。
 
-永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[&#x200B; リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
+永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[ リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
 
 リアルタイムレポートの設定と表示は、「すべてのレポートアクセス」および「詳細レポート」権限グループの管理者またはユーザーに制限されます。 ただし、Real-Timeでは権限が尊重されます。 例えば、収益を表示する権限がない場合、収益データを含むリアルタイムのレポートを表示することはできません。
 

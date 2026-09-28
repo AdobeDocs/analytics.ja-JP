@@ -7,36 +7,45 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: 'https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '942'
 ht-degree: 65%
-
 ---
-
 # 名前空間
 
 検索できるようにしたい各IDには、名前空間が割り当てられます。名前空間は、すべてのレポートスイートで使用されている任意の変数内のIDを識別するカスタム文字列です。
 
-名前空間の文字列は、データプライバシー要求の一部として ID を提供する際に検索対象にしたいフィールドを識別するために使用されます。 データプライバシーリクエストが送信されると、そのリクエストには、リクエストで使用するデータ主体の ID を指定する JSON セクションが含まれます。 あるデータ主体に対する 1 回のリクエストの一部として、複数の ID を含めることができます。 JSONには以下が含まれます。
+名前空間の文字列は、データプライバシーリクエストの一部として ID を提供する際に、検索対象にしたいフィールドを識別するために使用されます。 データプライバシーリクエストが送信されると、そのリクエストには、リクエストで使用するデータ主体の ID を指定する JSON セクションが含まれます。 あるデータ主体に対する 1 回のリクエストの一部として、複数の ID を含めることができます。 JSONには以下が含まれます。
 
 * 名前空間文字列を含む「名前空間」フィールド。
 * ほとんどのAdobe Analytics リクエストの「type」フィールドには、「analytics」の値が含まれています。
 * Analyticsが各レポートスイートの関連する名前空間変数で検索するIDを含む「値」フィールド。
 
-詳しくは、[CX Enterprise Data Privacy API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
+詳しくは、[CX Enterprise Data Privacy API ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[ リスト ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
 
 ## Cookie ID
 
@@ -76,7 +85,7 @@ ht-degree: 65%
 }
 ```
 
-値は、38 桁の 10 進数で指定される必要があります。 この数値をデータフィードまたは Data Warehouse レポートからの 2 つの mcvisid\_high/low 列または post\_msvisid\_high/low 列からプルしている場合、2 つの数値がそれぞれ 19 桁になるようにゼロを追加して、大きい値を先にして連結する必要があります。
+値は、38 桁の 10 進数で指定される必要があります。 この数値をデータフィードまたは Data Warehouse レポート内の 2 つの mcvisid\_high/low 列または post\_msvisid\_high/low 列から取得している場合、2 つの数値がそれぞれ 19 桁になるようにゼロで桁を埋めてから、high の値を先頭にして連結する必要があります。
 
 また、`"namespace": "ECID"` の代わりに（または追加として）`"namespaceId": 4` を使用することもできます。その場合、その形式を使用できるその他のアドビ製品が表示されます。
 
@@ -86,7 +95,7 @@ ht-degree: 65%
 >
 >これらの ID は、「analytics」以外の「type」値を使用する Analytics によってサポートされる唯一の ID です。
 
-これらの Cookie ID の任意の値の部分の形式が、その ID について説明した形式に従っていない場合、「値が正しくフォーマットされていません」というエラーと共に、データプライバシー要求は失敗します。
+これらの Cookie ID の値の部分の形式が、その ID について説明した形式に従っていない場合、データプライバシーリクエストは「値が正しくフォーマットされていません」というエラーと共に失敗します。
 
 新しい[プライバシー JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) を使用して、これらの Cookie ID を収集するのが最も一般的です。これにより、これらの JSON ID の関連するすべてのキーと値のペアが自動的に提供されます。
 
@@ -119,16 +128,16 @@ ht-degree: 65%
 }
 ```
 
-カスタムのトラフィック変数またはコンバージョン変数（prop または eVar）の ID の場合は、変数に ID-DEVICE または ID-PERSON ラベルを設定してから、独自の名前空間の名前をその ID タイプに割り当てます。 [変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/tools/privacy-labeling/labels.md)を参照してください。
+カスタムのトラフィック変数またはコンバージョン変数（prop または eVar）の ID の場合は、変数に ID-DEVICE または ID-PERSON ラベルを設定してから、その ID タイプに対して独自の名前空間を割り当てます。 [変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/tools/privacy-labeling/labels.md)を参照してください。
 
 また、他の変数またはレポートスイートに対して以前に定義した名前空間を表示して、そのいずれかを再利用できるので、同じ名前空間を、そのタイプのIDを保存するすべてのレポートスイートに簡単に使用できます。 レポートスイート内の複数の変数に同じ名前空間を割り当てることもできます。 例えば、一部の顧客は、トラフィック変数とコンバージョン変数にCRM IDを保存し（ページによっては、どちらか一方または両方に格納されることがあります）、両方の変数に名前空間「CRM ID」を割り当てることができます。
 
 >[!TIP]
 >
->これが ID-DEVICE または ID-PERSON ラベルをこの変数に適用する際に指定した名前空間でもある場合を除いて、データプライバシー API に名前空間を指定する際に、変数のわかりやすい名前（レポート UI に表示される名前）や変数の番号（eVar12 など）を使用することはできません。 わかりやすい名前ではなく名前空間を使用することによって、同じユーザー ID ブロックで、複数のレポートスイートに対して正しい変数を指定できます。 例えば、ID が一部のレポートスイートで異なる eVar に含まれている場合や、フレンドリ名が一致しない場合（特定のレポートスイートに対してフレンドリ名がローカライズされている場合など）。
+>Data Privacy API に名前空間を指定する際には、ID-DEVICE または ID-PERSON ラベルをこの変数に適用する際に指定した名前空間である場合を除き、変数のわかりやすい名前（レポート UI に表示される名前）や変数の番号（eVar12 など）を使用しないでください。 わかりやすい名前ではなく名前空間を使用することによって、同じユーザー ID ブロックで、複数のレポートスイートに対して正しい変数を指定できます。 例えば、ID が一部のレポートスイートで異なる eVar に含まれている場合や、フレンドリ名が一致しない場合（特定のレポートスイートに対してフレンドリ名がローカライズされている場合など）。
 
 >[!CAUTION]
 >
->名前空間 `visitorId` と `customVisitorId` は、Analytics のレガシートラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
+>名前空間 `visitorId` と `customVisitorId` は、Analytics のレガシートラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。 これらの名前空間を、カスタムのトラフィックやコンバージョン変数に使用しないでください。
 
 詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/tools/privacy-labeling/labels.md)を参照してください。

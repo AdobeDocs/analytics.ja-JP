@@ -3,21 +3,28 @@ title: 利用者に影響を伝える
 description: 組織内のイベントの影響を伝える効果的な方法について説明します。
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho
+TQID: 'https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 1%
-
 ---
-
 # イベントの影響をユーザーに伝える
 
 イベントの影響を受けるデータ [がある場合は、そのイベントを組織内のユーザーに伝えることが重要です。](overview.md)
@@ -32,13 +39,13 @@ Adobe Analyticsでは、組織内のユーザーとコミュニケーション�
 
 Workspace プロジェクトを組織内のユーザー間で共有している場合は、パネルまたはビジュアライゼーションの説明を使用して、イベントの影響を伝えることができます。 パネルまたはビジュアライゼーションヘッダーを右クリックし、**[!UICONTROL 説明を編集]**&#x200B;を選択します。
 
-![&#x200B; パネルの説明](assets/panel_description.png)
+![ パネルの説明](assets/panel_description.png)
 
 ## テキストビジュアライゼーションを通じたコミュニケーション
 
-専用のテキストビジュアライゼーションを通じて、イベントの影響を伝えることもできます。 Analyze ユーザーガイドの[&#x200B; テキストビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/text.md)を参照してください。
+専用のテキストビジュアライゼーションを通じて、イベントの影響を伝えることもできます。 Analyze ユーザーガイドの[ テキストビジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/text.md)を参照してください。
 
-![&#x200B; テキストビジュアライゼーション &#x200B;](assets/text_visualization.png)
+![ テキストビジュアライゼーション ](assets/text_visualization.png)
 
 ## Workspaceのトレンドにカスタムカレンダーイベントを追加する
 
@@ -63,5 +70,5 @@ Workspaceでトレンドのビジュアライゼーションを作成する場�
 
 1. 線のビジュアライゼーションを追加します。 影響を受ける日は異なる色で表されます。 ユーザーは、計算指標の「情報」アイコンをクリックして詳細を確認することもできます。
 
-   ![情報アイコン &#x200B;](assets/calcmetric_infoicon.png)
+   ![情報アイコン ](assets/calcmetric_infoicon.png)
 

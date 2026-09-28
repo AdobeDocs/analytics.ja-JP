@@ -1,33 +1,41 @@
 ---
 title: 郵便番号
-description: レポートスイートの設定で許可されている場合は、「郵便番号」ディメンションを手動で入力します。
+description: レポートスイートの設定で許可されている場合に、「郵便番号」ディメンションを手動で入力できます。
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/dv564yEz9tChaxot0w65ZGIc1T0Jqdnp1Mua0QUbn5Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 81%
-
 ---
-
 # 郵便番号
 
-`zip` 変数を使用すると、レポートスイート設定の「[!UICONTROL 郵便番号オプション]」で許可されている場合に、「郵便番号」ディメンションを手動で入力できます。 以前のバージョンの Adobe Analytics では、この変数は手動でのみ設定できました。通常、小売サイトの発送先情報を入力する場合です。 Adobe Analytics が強化され、地域データを使用してこの変数を自動的に設定できるようになりました。 この変数は、設定されたヒットの後では保持されません。
+`zip` 変数を使用すると、レポートスイート設定の「[!UICONTROL 郵便番号オプション]」で許可されている場合に、「郵便番号」ディメンションを手動で入力できます。 以前のバージョンの Adobe Analytics では、この変数は手動でのみ設定できました。通常、小売サイトの発送先情報を入力する場合です。 Adobe Analytics の機能強化により、位置情報データを使用してこの変数を自動的に設定できるようになりました。 この変数は、設定されたヒットを超えて保持されることはありません。
 
 >[!IMPORTANT]
 >
@@ -37,8 +45,8 @@ ht-degree: 81%
 
 Zip コードは、次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Adobe Analytics拡張機能を使用した郵便番号
 
@@ -51,7 +59,7 @@ Zip コードは、Analytics拡張機能（グローバル変数）の設定中�
 5. [!UICONTROL 拡張機能]ドロップダウンリストを Adobe Analytics に設定し、[!UICONTROL アクションタイプ]を[!UICONTROL 変数を設定]に設定します。
 6. [!UICONTROL zip] セクションを探します。
 
-zip は、データ要素を含む任意の文字列値に設定できます。
+「郵便番号」は、データ要素を含む任意の文字列値に設定できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.zip
 

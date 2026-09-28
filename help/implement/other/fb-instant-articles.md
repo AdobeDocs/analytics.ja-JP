@@ -7,24 +7,34 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '468'
 ht-degree: 89%
-
 ---
-
 # Facebook インスタント記事での実装
 
 Facebook インスタント記事を使用すると、Facebook 上で高速でインタラクティブな記事を作成できます。 Instant Articles は、モバイル web よりも最大 10 倍高速にコンテンツを読み込めます。
@@ -107,4 +117,4 @@ Facebook インスタント記事のコンテンツを作成する際には、An
 
 ## Facebook インスタント記事とプライバシー
 
-Analytics HTML ページがお使いの Web サーバーでホストされている限り、アドビは、既存のプライバシーポリシーをすべての Facebook インスタント記事にわたってサポートできます。 プライマリサイトでのトラッキングをオプトアウトしたユーザーは、すべての Facebook インスタント記事でのトラッキングもオプトアウトすることになります。 ユーティリティページでは、訪問者ID サービスもサポートされているため、Facebook Instant Article データを他のCX Enterpriseと統合できます。
+Analytics HTML ページがお使いの Web サーバーでホストされている限り、アドビは、既存のプライバシーポリシーをすべての Facebook インスタント記事にわたってサポートできます。 プライマリサイトでのトラッキングをオプトアウトしたユーザーは、すべての Facebook インスタント記事でのトラッキングもオプトアウトすることになります。 ユーティリティページでは、Visitor ID サービスもサポートされているため、Facebook Instant Article データを他のCX Enterpriseと統合できます。

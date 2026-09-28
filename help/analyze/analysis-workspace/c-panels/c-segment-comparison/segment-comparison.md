@@ -5,25 +5,34 @@ keywords: Analysis Workspace;Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-TQID: https://experienceleague.adobe.com/pxCyOu8rrZ4Qe7NnK9bTndVbtYxSU29qyMBHy3kSZhE
+TQID: 'https://experienceleague.adobe.com/pxCyOu8rrZ4Qe7NnK9bTndVbtYxSU29qyMBHy3kSZhE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: '601'
 ht-degree: 69%
-
 ---
-
 # セグメント比較パネルの概要 {#segment-comparison-overview}
 
 <!-- markdownlint-disable MD034 -->
@@ -45,7 +54,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_&#x200B;のセグメント比較パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![&#x200B; &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
+_この記事では、_&#x200B;のセグメント比較パネルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_**Adobe Analytics**。_<br/>_Customer Journey Analytics_ ![ ](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;に同等のパネルはありません。_
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +63,7 @@ _この記事では、_&#x200B;のセグメント比較パネルについて説�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [セグメント比較](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

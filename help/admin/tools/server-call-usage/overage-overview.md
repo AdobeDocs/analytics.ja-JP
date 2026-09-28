@@ -4,27 +4,37 @@ title: サーバーコールの使用状況の概要
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 30%
-
 ---
-
 # サーバーコールの使用状況
 
 Adobe Analytics server call usageは、ブラウザーとモバイルサーバーコールの両方の使用状況データに対する透明性のリクエストに対応します。 次の項目にアクセスできます。
@@ -72,8 +82,8 @@ Adobe Analytics server call usageは、ブラウザーとモバイルサーバ�
     </ul> <p>注意：請求会社内の<u>全</u>レポートスイートのサーバーコール使用状況データは、適切な<a href="/help/admin/admin-console/permissions/analytics-tools.md">権限</a>を持つすべてのユーザーから参照できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise組織 </p> </td> 
-   <td colname="col2"> <p>組織とは、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。 組織は、すべてのCX Enterprise製品とソリューションにまたがるログイン企業のように機能します。 </p> <p>ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。 </p> </td> 
+   <td colname="col1"> <p>CX Enterprise organization </p> </td> 
+   <td colname="col2"> <p>組織とは、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。 Adobe CX Enterpriseの各製品とソリューションをまたいで、ログインしてビジネスを展開できます。 </p> <p>ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>サーバーコールのコミットメント </p> </td> 
@@ -85,7 +95,7 @@ Adobe Analytics server call usageは、ブラウザーとモバイルサーバ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>契約期間 </p> </td> 
-   <td colname="col2"> <p>契約期間は複数年にわたることがあります。 例えば、3年間の契約期間で600万件のサーバーコールを処理するとします。 サーバーコールの使用状況を監視するために、この 3 年間をより短い使用期間に分けて、前年との比較を実行しやすくすることができます。 </p> </td> 
+   <td colname="col2"> <p>契約期間は複数年にわたることがあります。 例えば、3年間の契約期間で600万件のサーバーコールを処理するとします。 サーバーコールの使用状況をモニタリングするために、この 3 年間をより短い使用期間に分けて、前年との比較を実行しやすくすることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

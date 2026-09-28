@@ -6,26 +6,33 @@ exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 TQID: 'https://experienceleague.adobe.com/sGEXiz2RiDhf9p-2df76o-XxBERTKPB-O-rZeIb4BBI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: '268'
 ht-degree: 18%
-
 ---
-
 # Advertising Analytics 用レポートスイートを有効にする
 
-AnalyticsでAdvertising Analyticsの検索データを表示するには、Advertising Analytics レポート用にCX Enterpriseでマッピングされた各レポートスイートを設定する必要があります。
+AnalyticsでAdvertising Analyticsの検索データを表示するには、CX Enterpriseにマッピングされた各レポートスイートをAdvertising Analytics レポート用に設定する必要があります。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]** に移動します。
 
@@ -40,7 +47,7 @@ AnalyticsでAdvertising Analyticsの検索データを表示するには、Adver
 
    | 設定 | 定義 |
    |--- |--- |
-   | **[!UICONTROL 配分]** | 次の範囲で選択：<br/> **[!UICONTROL 元の値（最初）]**：表示された最初の値は、その変数の後続の値に関係なく、完全な割り当てのクレジットを取得します。 <br/>**[!UICONTROL 直近（最後） &#x200B;]**：最後に表示された値は、その前に実行された変数に関係なく、成功イベントに対する完全な割り当てクレジットを取得します。 |
+   | **[!UICONTROL 配分]** | 次の範囲で選択：<br/> **[!UICONTROL 元の値（最初）]**：表示された最初の値は、その変数の後続の値に関係なく、完全な割り当てのクレジットを取得します。 <br/>**[!UICONTROL 直近（最後） ]**：最後に表示された値は、その前に実行された変数に関係なく、成功イベントに対する完全な割り当てクレジットを取得します。 |
    | **[!UICONTROL 有効期限]** | EVarの値が期限切れになるまでの期間またはイベントを指定できます（つまり、サクセスイベントのクレジットを受け取ることができなくなります）。  eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」値がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
 1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回）または「**[!UICONTROL Advertising Analytics レポートを更新]**」（後回）をクリックします。 これで、レポートスイートでAdvertising Analytics検索データを受け取る準備が整いました。 これで、[Advertising アカウントを作成する準備が整いました](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。

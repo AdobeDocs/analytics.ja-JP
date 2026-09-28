@@ -7,36 +7,44 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/4OF7xoZs8bLS4UW8wfJYHqSyc-gNVLAfPs5j3NwZCcM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 74%
-
 ---
-
 # キャンペーン
 
 `campaign` 変数は、サイトでのトラッキングコードの収集専用です。 以前のバージョンの Adobe Analytics では、ほとんどのディメンションの分類として使用できる特別な処理がおこなわれていました。 現在のバージョンの Adobe Analytics では、eVar と同じ動作をします。
 
-この変数は、[&#x200B; トラッキングコード &#x200B;](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
+この変数は、[ トラッキングコード ](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
 
 ## Web SDKを使用したキャンペーン
 
 Campaignは次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
 
 ## Adobe Analytics拡張機能を使用したキャンペーン
 

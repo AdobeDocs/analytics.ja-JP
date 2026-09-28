@@ -3,16 +3,20 @@ title: ページが見つかりません（ディメンション）
 description: サイトでエラーを返した URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-TQID: https://experienceleague.adobe.com/0S2WzNRJrtOa9ZPTg5cmbwxMLJE5tI6Qa3GtZs6GqKc
+TQID: 'https://experienceleague.adobe.com/0S2WzNRJrtOa9ZPTg5cmbwxMLJE5tI6Qa3GtZs6GqKc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +27,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 54%
@@ -32,7 +36,7 @@ ht-degree: 54%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、「ページが見つかりません」が [ディメンション](overview.md)として機能する方法について説明します。 指標としての機能について詳しくは、[&#x200B; ページが見つかりません](../metrics/pages-not-found.md)指標ページを参照してください。*
+*このヘルプページでは、「ページが見つかりません」が [ディメンション](overview.md)として機能する方法について説明します。 指標としての機能について詳しくは、[ ページが見つかりません](../metrics/pages-not-found.md)指標ページを参照してください。*
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +56,7 @@ AppMeasurement は、[`pageType`](/help/implement/vars/page-vars/pagetype.md) �
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 該当なし |

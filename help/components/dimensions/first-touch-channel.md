@@ -3,7 +3,7 @@ title: ファーストタッチチャネル
 description: 訪問者のエンゲージメント有効期限内で最初のマーケティングチャネル。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-TQID: https://experienceleague.adobe.com/1XBUjwxlZXmhXJtQZgpv9yU5Fwhns-bb9Q7BcP5S30Q
+TQID: 'https://experienceleague.adobe.com/1XBUjwxlZXmhXJtQZgpv9yU5Fwhns-bb9Q7BcP5S30Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
     internal-label: Marketing Channels
@@ -19,6 +21,8 @@ subfeature_v2:
     internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,18 +31,18 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 67%
 ---
 # ファーストタッチチャネル
 
-「ファーストタッチチャネル」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者のエンゲージメント期間中に訪問者が最初に一致したマーケティングチャネルをレポートします（デフォルトでは30日間）。 このディメンションは、最初のトラフィックを貴社のサイトにもたらすマーケティングチャネルを把握するのに役立ち、最も効果的な分野でマーケティング活動に焦点を当てることができます。
+「ファーストタッチチャネル」 [ ディメンション ](overview.md)は、訪問者のエンゲージメント期間中に訪問者が最初に一致したマーケティングチャネルをレポートします（デフォルトでは30日間）。 このディメンションは、最初のトラフィックを貴社のサイトにもたらすマーケティングチャネルを把握するのに役立ち、最も効果的な分野でマーケティング活動に焦点を当てることができます。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、マーケティングチャネルの処理ルールによって導き出されます。 [&#x200B; マーケティングチャネルマネージャー](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)で定義したチャネル名を直接参照します。 すべてのヒットは、レポートスイートのマーケティングチャネル処理ルールを数値順に実行し、一致する結果が見つかるまで処理されます。これにより、そのマーケティングチャネルとヒットが関連付けられます。 設定する変数がありません。
+このディメンションは、マーケティングチャネルの処理ルールによって導き出されます。 [ マーケティングチャネルマネージャー](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)で定義したチャネル名を直接参照します。 すべてのヒットは、レポートスイートのマーケティングチャネル処理ルールを数値順に実行し、一致する結果が見つかるまで処理されます。これにより、そのマーケティングチャネルとヒットが関連付けられます。 設定する変数がありません。
 
 | プロパティ | 値 |
 | --- | --- |

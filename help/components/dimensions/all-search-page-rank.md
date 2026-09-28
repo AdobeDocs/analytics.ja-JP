@@ -3,16 +3,20 @@ title: すべての検索ページのランキング
 description: 訪問者がサイトにクリックスルーした検索エンジンのページを特定します。
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-TQID: https://experienceleague.adobe.com/U7WgtQDXInyD1gXeBntncC9Fao1Rdc9W4AHFgx07T4A
+TQID: 'https://experienceleague.adobe.com/U7WgtQDXInyD1gXeBntncC9Fao1Rdc9W4AHFgx07T4A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,18 +27,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 62%
 ---
 # すべての検索ページのランキング
 
-「すべての検索ページランク」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者がクリックしてサイトにアクセスした検索結果のページをinsightに提供します。 例えば、サイトが検索エンジンの検索結果の 2 ページ目に表示される場合、この変数のディメンション項目は「検索ページ 2」になります。
+「すべての検索ページランク」 [ ディメンション ](overview.md)は、訪問者がクリックしてサイトにアクセスした検索結果のページをinsightに提供します。 例えば、サイトが検索エンジンの検索結果の 2 ページ目に表示される場合、この変数のディメンション項目は「検索ページ 2」になります。
 
 ## このディメンションへのデータ入力
 
-Adobeは、このディメンションを各ヒットの検索エンジン [&#x200B; リファラー](referrer.md)から取得し、訪問者がクリックした検索結果のページを判断します。 設定する変数がありません。 このディメンションが機能するには、レポートスイートに[内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されている必要があります。
+Adobeは、このディメンションを各ヒットの検索エンジン [ リファラー](referrer.md)から取得し、訪問者がクリックした検索結果のページを判断します。 設定する変数がありません。 このディメンションが機能するには、レポートスイートに[内部 URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されている必要があります。
 
 | プロパティ | 値 |
 | --- | --- |

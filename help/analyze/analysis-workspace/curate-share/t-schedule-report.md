@@ -5,23 +5,32 @@ title: プロジェクトの送信とスケジュール
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+TQID: 'https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '502'
 ht-degree: 26%
-
 ---
-
 # プロジェクトの送信とスケジュール
 
 選択したユーザーに電子メールでAdobe Analytics プロジェクトをファイルとして送信できます。 ファイルを一時的に送信したり、スケジュールに従って送信するようにファイルを設定したりできます。
@@ -40,13 +49,13 @@ Adobe Analytics データを書き出す他の方法も使用できます（[書
 
 受信者にアドホックのファイルを電子メールで送信するには：
 
-1. **[!UICONTROL 共有] / [!UICONTROL &#x200B; ファイルを送信]**&#x200B;を選択します。
+1. **[!UICONTROL 共有] / [!UICONTROL  ファイルを送信]**&#x200B;を選択します。
 1. 次のいずれかのファイルタイプを指定します。
    * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
    * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
 1. （オプション） **[!UICONTROL 説明]**&#x200B;を使用して、メールに含める説明を追加します。
 1. 受信者またはグループを追加します。 メールアドレスも入力できます。
-1. （オプション）「**[!UICONTROL スケジュール設定オプションを表示]**」から「[&#x200B; ファイルの書き出しをスケジュール &#x200B;](#schedule-file-export)」を選択します。
+1. （オプション）「**[!UICONTROL スケジュール設定オプションを表示]**」から「[ ファイルの書き出しをスケジュール ](#schedule-file-export)」を選択します。
 1. 「**[!UICONTROL 今すぐ送信]**」をクリックします。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 
@@ -54,7 +63,7 @@ Adobe Analytics データを書き出す他の方法も使用できます（[書
 
 スケジュール上のファイルを受信者に電子メールで送信するには：
 
-1. **[!UICONTROL 共有]/[!UICONTROL &#x200B; ファイルの書き出しをスケジュール]**&#x200B;を選択します。
+1. **[!UICONTROL 共有]/[!UICONTROL  ファイルの書き出しをスケジュール]**&#x200B;を選択します。
 1. 次のいずれかのファイルタイプを指定します。
    * [!UICONTROL **CSV**]：プレーンテキストデータが必要な場合は、このオプションを選択します。
    * [!UICONTROL **PDF**]：ダウンロードしたファイルに、プロジェクト内に表示されているすべてのテーブルとビジュアライゼーションを含める場合は、このオプションを選択します。
@@ -74,9 +83,9 @@ Adobe Analytics データを書き出す他の方法も使用できます（[書
    | **[!UICONTROL 月の日付ごとに毎年送信]** | **[!UICONTROL 週の日]**&#x200B;を選択し、**[!UICONTROL 月]**&#x200B;を選択し、**[!UICONTROL 年の月]**&#x200B;を選択します。 |
    | **[!UICONTROL 特定の日付ごとに毎年送信]** | **[!UICONTROL 年の月]**&#x200B;を選択し、**[!UICONTROL 月のこの日に送信]**&#x200B;から値を選択します。 |
 
-1. **[!UICONTROL 開始日を]**&#x200B;から入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから開始日を選択します。
+1. **[!UICONTROL 開始日を]**&#x200B;から入力してください。 または、![ カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから開始日を選択します。
 
-1. 終了日を&#x200B;**&#x200B;**&#x200B;に入力してください。 または、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから終了日を選択します。
+1. 終了日を&#x200B;****&#x200B;に入力してください。 または、![ カレンダー](/help/assets/icons/Calendar.svg)を選択して、カレンダーから終了日を選択します。
 1. 「**[!UICONTROL スケジュールに送信]**」を選択します。 「**[!UICONTROL キャンセル]**」を選択すると、キャンセルします。
 
 

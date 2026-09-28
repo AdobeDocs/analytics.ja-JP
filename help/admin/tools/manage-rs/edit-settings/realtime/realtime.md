@@ -3,34 +3,44 @@ description: web ページのトラフィックを表示し、ページビュー
 title: リアルタイムレポート
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-TQID: https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM
+TQID: 'https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+subfeature_v2:
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: '611'
 ht-degree: 9%
-
 ---
-
 # リアルタイムレポート
 
 web ページのトラフィックを表示し、ページビューをリアルタイムでランク付け。 ビジネス上の意思決定の基になる実行可能なデータを提供します。
 
 >[!NOTE]
 >
->リアルタイムレポートには、追加の実装やタグ付けは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[&#x200B; リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
+>リアルタイムレポートには、追加の実装やタグ付けは必要ありません。 Adobe Analyticsの既存の実装を活用しています。 リアルタイムレポートを設定するには、[ リアルタイムレポート設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)を参照してください。
 
 リアルタイムレポートを表示するには、次の場所に移動します。
 
@@ -58,7 +68,7 @@ web ページのトラフィックを表示し、ページビューをリアル�
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較します。
 
-永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[&#x200B; リアルタイムレポートの設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
+永続性の概念がないので、eVar （コンバージョン指標）はサポートされていないことに留意してください。 コンバージョン指標を選択することはできますが、ディメンションと同じページに設定されている場合にのみ機能します。 詳しくは、[ リアルタイムレポートの設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)でキャプチャされた警告メッセージを参照してください。
 
 リアルタイムレポートの設定と表示は、「すべてのレポートアクセス」および「詳細レポート」権限グループの管理者またはユーザーに制限されます。 ただし、Real-Timeでは権限が尊重されます。 例えば、収益を表示する権限がない場合、収益データを含むリアルタイムのレポートを表示することはできません。
 

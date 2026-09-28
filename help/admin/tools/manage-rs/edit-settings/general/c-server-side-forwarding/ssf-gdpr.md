@@ -7,32 +7,45 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 42%
-
 ---
-
 # GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 
 ここでは、2017年9月30日（PT）に施行された [EU Cookie コンプライアンス規定](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies)によるサーバーサイド転送に対する機能強化について説明します。
 
-サーバーサイド転送は、Adobe Analyticsのデータを、Audience ManagerなどのCX Enterprise ソリューションとリアルタイムで共有するために使用されます。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にデータをAnalyticsにプッシュできます。
+サーバーサイド転送は、Adobe Analyticsのデータを、Audience ManagerなどのCX Enterpriseソリューションとリアルタイムで共有するために使用されます。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にAnalyticsにデータをプッシュできます。
 
 これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。 2018年11月1日現在、お客様（Adobe Analyticsのお客様）は、事前同意データをAdobe Analyticsに制限し、Adobe Audience Managerへの転送を禁止するオプションを選択できます。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。 この変数を設定すると、同意を受け取るまで、これらのヒットは Adobe Audience Manager に送信されません。
 

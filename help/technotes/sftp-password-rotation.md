@@ -6,17 +6,21 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Security
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1985
+source-wordcount: '1985'
 ht-degree: 100%
-
 ---
-
 # FTP および SFTP サーバーのセキュリティ要件
 
 このページでは、Adobe Analytics データフィードまたはデータウェアハウスから配信されるデータを受信する既存の FTP および SFTP サーバーのセキュリティ要件について説明します。

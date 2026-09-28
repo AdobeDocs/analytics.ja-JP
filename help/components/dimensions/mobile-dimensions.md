@@ -3,7 +3,7 @@ title: モバイル参照ディメンション
 description: デバイスの IP アドレスとユーザーエージェントに基づくディメンション。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
+TQID: 'https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
     internal-label: Mobile SDK
@@ -21,6 +23,8 @@ subfeature_v2:
     internal-label: Variables
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 95%
@@ -58,7 +62,7 @@ ht-degree: 95%
 これらのディメンションを使用できるかどうかは、実装タイプによって異なります。
 
 * AppMeasurement 実装の場合、これらのディメンションは標準で使用できます。
-* Web SDK 実装の場合、[データストリームの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL &#x200B; Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
+* Web SDK 実装の場合、[データストリームの設定 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)をするときに[!UICONTROL  Geo Lookup]（携帯電話会社の場合）または[!UICONTROL Device Lookup]（他のすべてのディメンションの場合） を有効にします。
 
 ## モバイルディメンションの説明
 

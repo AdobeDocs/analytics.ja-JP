@@ -1,5 +1,5 @@
 ---
-description: サーバーサイド転送は、Adobe Analyticsのデータをリアルタイムで他のCXM （顧客体験管理）ソリューションと共有したい顧客向けに設計されています。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にデータをAnalyticsにプッシュできます。
+description: サーバーサイド転送は、Analyticsのデータを他のCX Enterprise ソリューションとリアルタイムで共有したいお客様向けに設計されています。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にAnalyticsにデータをプッシュできます。
 solution: Analytics
 title: サーバーサイド転送の概要
 feature: Report Suite Settings
@@ -8,44 +8,56 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 73%
-
 ---
-
 # サーバーサイド転送の概要
 
-サーバーサイド転送は、Adobe Analyticsのデータをリアルタイムで他のCXM （顧客体験管理）ソリューションと共有したい顧客向けに設計されています。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にデータをAnalyticsにプッシュできます。
+サーバーサイド転送は、Analyticsのデータを他のCX Enterprise ソリューションとリアルタイムで共有したいお客様向けに設計されています。 サーバーサイド転送を有効にすると、Analyticsはデータを他のCX Enterprise ソリューションにプッシュし、それらのソリューションではデータ収集プロセス中にAnalyticsにデータをプッシュできます。
 
-以下の点でデータ収集時のサーバーサイド転送が改善されました。
+サーバーサイド転送は、次の点でデータ収集を改善します。
 
 * ページからの通話を減らします。 サーバーサイド転送では、データが Analytics から転送されるので、[!DNL Audience Manager] のお客様がデータ収集に DIL を使用する必要がなくなりました。 DIL の削除とは、`"/event"` 呼び出しを削除することです。 呼び出し数を減らすことで、ページの読み込み時間を短縮し、サイトの顧客体験を向上できます。
-* CX エンタープライズソリューション間のデータ共有を活用できます。
+* CX Enterpriseソリューション間のデータ共有を活用します。
 * Audience Managerのコードの実装とデプロイメントに関するベストプラクティスに準拠します。
 
 >[!TIP]
 >
->Analytics を使用している現在の Audience Manager のお客様は、サーバーサイド転送に移行する必要があります。 Adobe Analytics と Audience Manager の新しいお客様は、デフォルトのデータ収集および転送方法として（DIL ではなく）サーバーサイド転送を実装する必要があります。
+>現在 Adobe Analytics を使用している Audience Manager のお客様は、サーバーサイド転送に移行する必要があります。 Adobe Analytics と Audience Manager の新規のお客様は、デフォルトのデータ収集および転送方法として、DIL ではなくサーバーサイド転送を実装することを推奨します。
 
 >[!IMPORTANT]
 >EU Cookie コンプライアンス規定により、データ管理者（Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、Adobe Audience Manager にサーバーサイド転送しないようにするオプションが追加されました。 新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。 この変数を設定すると、同意を受け取るまで、これらのヒットは Adobe Audience Manager に送信されません。 詳しくは、[GDPR_ePrivacy コンプライアンスおよびサーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)を参照してください。
 
-サーバーサイド転送の実装状況を確認するには、以下の検証ステップを実行してください。
+サーバーサイド転送の実装状況を把握するには、以下の検証ステップを実行してください。
 
 ## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) ECID サービス実装の確認
 
@@ -66,12 +78,12 @@ ht-degree: 73%
 * **&quot;status&quot;:&quot;SUCCESS&quot;**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。 手順 3 に進みます。
 * **2 x 2 の画像**：サーバーサイド転送および Audience Management モジュールは実装されていません。 これを修正するには：
 
-   * **DIL を使用している Adobe Audience Manage のお客様**：以下の 2 つの項目を緊密に連携および調整します。
+  * **DIL を使用している Adobe Audience Manage のお客様**：以下の 2 つの項目を緊密に連携および調整します。
 
-      1. DIL コードを削除し、[Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja) ページコードをインストールします。
-      1. 手順 3 の説明に従って、Analytics 管理 UI でサーバーサイド転送を有効にします。 DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Managerに対する課金サーバーコールが追加されます。
+    1. DIL コードを削除し、[Audience Management Module](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja) ページコードをインストールします。
+    1. 手順 3 の説明に従って、Analytics 管理 UI でサーバーサイド転送を有効にします。 DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Managerに対する課金サーバーコールが追加されます。
 
-   * **Adobe Audience Manager の新しいお客様** - [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールし、手順 3 に進みます。 手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
+  * **Adobe Audience Manager の新しいお客様** - [Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールし、手順 3 に進みます。 手順 3 でサーバーサイド転送を有効にするまでは、データは Audience Manager に送信されません。
 
 ## ![step3_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) レポートスイートのサーバーサイド転送の実装の確認
 
@@ -87,4 +99,4 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->3つの手順がすべて完了するまで、[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ja)や[Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)などの他のCX Enterprise ソリューションにはデータは表示されません。 有効にした後、これらの設定が反映されるまでに数時間かかります。
+>データは、3つの手順がすべて完了するまで、[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ja)や[Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)などの他のCX Enterprise ソリューションには表示されません。 有効にした後、これらの設定が反映されるまでに数時間かかります。

@@ -1,31 +1,42 @@
 ---
 title: charSet
-description: charSet 変数は、画像要求の解析にアドビが使用するエンコーディングを決定します。
+description: charSet 変数は、イメージリクエストの解析にアドビが使用するエンコーディングを決定します。
 feature: Appmeasurement Implementation
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/bPK-uLu-IgKnJWGpAUnS7cmRm808jhetzm-Cyd2R39o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 235
+source-wordcount: '235'
 ht-degree: 66%
-
 ---
-
 # charSet
 
 Adobeでは、`charSet`変数を使用して、Analyticsによるストレージとレポート用に受信データをUTF-8に変換します。 ほとんどのサイトでは、この変数を設定する必要はありません。
@@ -41,11 +52,11 @@ Web SDKは現在、UTF-8のみをサポートしており、エンコーディ�
 Adobe Experience Platform Data CollectionでAdobe Analytics拡張機能を設定する際の[!UICONTROL General] アコーディオンの下のフィールドです。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 文字セット]」フィールドが表示されます。
 
-プリセット文字セットまたはカスタム文字セットを指定できます。 レポートに文字化けした値が表示されない限り、`UTF-8` から値を変更しないでください。
+プリセット文字セットまたはカスタム文字セットを使用できます。 レポートに文字化けした値が表示されない限り、`UTF-8` から値を変更しないでください。
 
 ## AppMeasurementのs.charSetとAnalytics拡張機能のカスタムコードエディター
 

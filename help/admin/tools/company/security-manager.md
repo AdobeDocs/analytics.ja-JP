@@ -4,24 +4,33 @@ title: セキュリティマネージャー
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 role: Admin
-TQID: https://experienceleague.adobe.com/30JGwAhRR73qSBse0Om2mWY4k-oy7j0O-JzmFZ-kaEY
+TQID: 'https://experienceleague.adobe.com/30JGwAhRR73qSBse0Om2mWY4k-oy7j0O-JzmFZ-kaEY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+    internal-label: Company Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 76%
-
 ---
-
 # セキュリティマネージャー
 
 セキュリティマネージャーを使用すると、レポートデータへのアクセスを管理できます。 オプションには、強力なパスワード、パスワードの有効期限、IP ログイン制限、メールドメイン制限などがあります。

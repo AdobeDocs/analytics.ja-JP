@@ -4,16 +4,20 @@ description: クリックされたサイト上の地域。
 feature: Dimensions
 role: User, Admin
 exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
-TQID: https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA
+TQID: 'https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,18 +26,18 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 7%
 ---
 # Activity Map 地域
 
-「Activity Map リージョン」 [&#x200B; ディメンション &#x200B;](overview.md)には、サイト上で最もクリックされたリージョンが表示されます。 このディメンションは、個々のリンクではなく、サイト全体のクリック数を比較したい場合に便利です。 また、動的なコンテンツを提供する領域にも役立ちます。 例えば、回転するニュース記事を含むフロントページがある場合、リンクテキストが常に変更されるため、[Activity Map Link](activity-map-link.md) ディメンションの使用は困難になります。 ただし、これらのリンクは同じ領域を使用するため、個々のリンクが毎日変更される場合でも、その領域のパフォーマンスを分析できます。
+「Activity Map リージョン」 [ ディメンション ](overview.md)には、サイト上で最もクリックされたリージョンが表示されます。 このディメンションは、個々のリンクではなく、サイト全体のクリック数を比較したい場合に便利です。 また、動的なコンテンツを提供する領域にも役立ちます。 例えば、回転するニュース記事を含むフロントページがある場合、リンクテキストが常に変更されるため、[Activity Map Link](activity-map-link.md) ディメンションの使用は困難になります。 ただし、これらのリンクは同じ領域を使用するため、個々のリンクが毎日変更される場合でも、その領域のパフォーマンスを分析できます。
 
 ## このディメンションにデータを入力
 
-このディメンションは、[&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`からデータを取得します。 実装で[Activity Map](/help/analyze/activity-map/overview.md)を使用している場合、このコンテキストデータ変数は、リンクがクリックされたときにデータを自動的に収集します。
+このディメンションは、[ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`からデータを取得します。 実装で[Activity Map](/help/analyze/activity-map/overview.md)を使用している場合、このコンテキストデータ変数は、リンクがクリックされたときにデータを自動的に収集します。
 
 | プロパティ | 値 |
 | --- | --- |

@@ -4,16 +4,20 @@ description: Adobe Experience Platform Edge Network が Analytics 変数に自�
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
+TQID: 'https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -24,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 77%
@@ -37,13 +41,13 @@ ht-degree: 77%
 
 ## 値の優先度
 
-このテーブルのほとんどのデータオブジェクトフィールドは、[&#x200B; マッピングされたXDM フィールド &#x200B;](xdm-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。 データ オブジェクト フィールド内の空の文字列（`""`）は、対応するXDM フィールドに値が含まれている場合でも、マッピングされたAnalytics変数をヒット用に空白にします。
+このテーブルのほとんどのデータオブジェクトフィールドは、[ マッピングされたXDM フィールド ](xdm-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。 データ オブジェクト フィールド内の空の文字列（`""`）は、対応するXDM フィールドに値が含まれている場合でも、マッピングされたAnalytics変数をヒット用に空白にします。
 
 一部のデータオブジェクトフィールドでは、これに対応する[クエリパラメーター値](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を短縮値としてサポートすることもできます。 標準データオブジェクトフィールドと短縮データオブジェクトフィールドは、それぞれが一意の変数用である限り、互換的に使用できます。 標準データオブジェクトフィールドとこれに対応する短縮データオブジェクトフィールドの両方を同時に設定することは避けてください。 アドビでは、どのフィールドの優先度が高くなるかを保証できません。
 
 ## データオブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/implement/aep-edge/data-var-mapping.md)で確認できます。 AppMeasurement 変数と同様に、すべてのデータオブジェクトフィールドでは大文字と小文字が区別されます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)で確認できます。 AppMeasurement 変数と同様に、すべてのデータオブジェクトフィールドでは大文字と小文字が区別されます。
 
 | データオブジェクトフィールドのパス | Analytics の変数と説明 |
 | --- | --- |

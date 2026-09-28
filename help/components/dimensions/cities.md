@@ -3,7 +3,7 @@ title: 市区町村
 description: ヒットが発生した市区町村。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-TQID: https://experienceleague.adobe.com/tAr9M0IgZcpRzElFfQSJx43JJjIXEtlo-pgDAKpSwq0
+TQID: 'https://experienceleague.adobe.com/tAr9M0IgZcpRzElFfQSJx43JJjIXEtlo-pgDAKpSwq0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,11 +14,15 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
     internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,14 +35,14 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 64%
 ---
 # 市区町村
 
-「都市」 [&#x200B; ディメンション &#x200B;](overview.md)は、ヒットの発生元の都市を報告します。 このディメンションは、ユーザーがサイトを訪問する際に、どの都市からの訪問が最も多いかを判断するのに役立ちます。 このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
+「都市」 [ ディメンション ](overview.md)は、ヒットの発生元の都市を報告します。 このディメンションは、ユーザーがサイトを訪問する際に、どの都市からの訪問が最も多いかを判断するのに役立ちます。 このデータを使って、市区町村での広告掲示板やコマーシャルなどの地域広告に焦点を当てることができます。
 
 ## このディメンションへのデータ入力
 
@@ -54,7 +58,7 @@ Adobeは、訪問者のIP アドレスからサーバーサイドでこのディ
 | **永続性** | 該当なし |
 
 * AppMeasurementの実装では、このディメンションはそのまま機能します。
-* Web SDKの実装の場合、[&#x200B; データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
+* Web SDKの実装の場合、[ データストリームの設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ja)時に[!UICONTROL Geo Lookup]を有効にします。
 
 ## ディメンション項目
 

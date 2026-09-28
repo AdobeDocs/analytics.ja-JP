@@ -3,26 +3,33 @@ description: インポーターを使用すると、分類データをファイ�
 title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-TQID: https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw
+TQID: 'https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 39%
-
 ---
-
 # 分類データファイル（レガシー）
 
 {{classification-importer-deprecation}}
@@ -65,10 +72,10 @@ ht-degree: 39%
 * 分類の書き出しでは、キー内の改行文字が原因でキーが重複する場合があります。 FTPまたはブラウザーの書き出しでは、FTP アカウントの引用をオンにすることで解決できます。 これにより、各キーを改行文字で囲む引用符が配置されます。
 * インポートファイルの最初の行のセル C1には、分類がファイルの残りの部分で引用符の使用をどのように処理するかを決定するバージョン識別子が含まれています。
 
-   * v2.0では、引用符は無視され、引用符がすべて指定されたキーと値の一部であると仮定されます。 例えば、次の値を考えてみましょう。「これは「いくつかの値」です。 v2.0では、これを文字通り「これは「ある値」です」と解釈します。
-   * v2.1では、分類に対して、引用符がExcel ファイルで使用されるファイル形式の一部であると仮定するように指示しています。 そのため、v2.1では、上記の例を次のようにフォーマットします。これは「ある値」です。
-   * v2.1がファイルに指定されている場合に問題が発生する可能性がありますが、実際に必要なのはv2.0です。つまり、引用符がExcel形式で違法な方法で使用されている場合です。 例えば、「VP NO REPS」という値がある場合は、「S/l Dress w/ Overlay」を選択します。 v2.1では、この形式が正しくありません（値は引用符で囲まれ、実際の値の一部である引用符は引用符でエスケープする必要があります）。この時点を超えて分類は機能しません。
-   * ファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく使用してください。
+  * v2.0では、引用符は無視され、引用符がすべて指定されたキーと値の一部であると仮定されます。 例えば、次の値を考えてみましょう。「これは「いくつかの値」です。 v2.0では、これを文字通り「これは「ある値」です」と解釈します。
+  * v2.1では、分類に対して、引用符がExcel ファイルで使用されるファイル形式の一部であると仮定するように指示しています。 そのため、v2.1では、上記の例を次のようにフォーマットします。これは「ある値」です。
+  * v2.1がファイルに指定されている場合に問題が発生する可能性がありますが、実際に必要なのはv2.0です。つまり、引用符がExcel形式で違法な方法で使用されている場合です。 例えば、「VP NO REPS」という値がある場合は、「S/l Dress w/ Overlay」を選択します。 v2.1では、この形式が正しくありません（値は引用符で囲まれ、実際の値の一部である引用符は引用符でエスケープする必要があります）。この時点を超えて分類は機能しません。
+  * 次のいずれかを必ず行ってください。アップロードするファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく実装してください。
 
 * データファイルの最初の（コメントなし）行には、その列内の分類データを識別するために使用される列見出しが含まれています。 インポーターには、列見出しに対する特定の形式が必要です。 詳しくは、[列見出しの形式](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 * データファイルのヘッダー行のすぐ後には、データ行があります。 データの各行には、各列見出しのデータフィールドを含める必要があります。

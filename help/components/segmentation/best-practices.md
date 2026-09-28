@@ -3,31 +3,39 @@ title: ベストプラクティス
 description: セグメンテーションのベストプラクティス。
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
+TQID: 'https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 60%
-
 ---
-
 # セグメントのベストプラクティス
 
 複雑なセグメントは、多くの場合、必要なデータを取得するために必要です。 複雑なセグメントが非効率で、大きなレポートスイートで使用される場合、レポートの実行にかなり長い時間がかかります。 セグメントを作成または編集する際は、次のリソースを考慮して複雑さを最小限に抑えます。
 
 ## 最後の手段として`Contains`演算子のみを使用する
 
-[**[!UICONTROL Contains &#x200B;]**&#x200B;オペレーター](/help/components/segmentation/seg-reference/seg-operators.md)は、オペレーターがすべての値のコンテンツ全体を分析する必要があるため、セグメンテーションで最も処理集約的な機能の1つです。 目的の値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B;で始まる&#x200B;]**&#x200B;や&#x200B;**[!UICONTROL &#x200B;で終わる&#x200B;]**&#x200B;などの他の演算子の使用を検討してください。
+[**[!UICONTROL Contains ]**オペレーター](/help/components/segmentation/seg-reference/seg-operators.md)は、オペレーターがすべての値のコンテンツ全体を分析する必要があるため、セグメンテーションで最も処理集約的な機能の1つです。 目的の値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B;で始まる&#x200B;]**や**[!UICONTROL &#x200B;で終わる&#x200B;]**などの他の演算子の使用を検討してください。
 
 セグメント内の&#x200B;**[!UICONTROL Contains]**&#x200B;演算子が多数の結果を返す場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL Referrer]** **[!UICONTROL が]** `"."`に等しいセグメントを作成した場合、セグメントはすべての値の内容を検索します。 代わりに、**[!UICONTROL Exists]**&#x200B;演算子の使用を検討してください。
 

@@ -3,16 +3,20 @@ title: ページ URL
 description: ページの URL。
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-TQID: https://experienceleague.adobe.com/Qek7BUR15HjFpK-XaYQ-J9fkJQiBfNi-ZoqXqaACP0A
+TQID: 'https://experienceleague.adobe.com/Qek7BUR15HjFpK-XaYQ-J9fkJQiBfNi-ZoqXqaACP0A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 52%
 ---
 # ページ URL
 
-「ページ URL」 [&#x200B; ディメンション &#x200B;](overview.md)には、サイト上のURLが一覧表示されます。
+「ページ URL」 [ ディメンション ](overview.md)には、サイト上のURLが一覧表示されます。
 
 >[!IMPORTANT]
 >
@@ -38,12 +42,12 @@ ht-degree: 52%
 
 ## このディメンションへのデータ入力
 
-AppMeasurementは、各[&#x200B; ページビュー呼び出し（`t()`） &#x200B;](/help/implement/vars/functions/t-method.md)でページ URLを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。 URLが255 バイトを超える場合、オーバーフローは`-g` クエリ文字列パラメーターに保存されます。 URLにプロトコル文字列とクエリ文字列が含まれています。 [&#x200B; リンク トラッキング呼び出し（`tl()`） &#x200B;](/help/implement/vars/functions/tl-method.md)は、URL値が存在する場合でも、常にこのディメンションを削除します。
+AppMeasurementは、各[ ページビュー呼び出し（`t()`） ](/help/implement/vars/functions/t-method.md)でページ URLを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。 URLが255 バイトを超える場合、オーバーフローは`-g` クエリ文字列パラメーターに保存されます。 URLにプロトコル文字列とクエリ文字列が含まれています。 [ リンク トラッキング呼び出し（`tl()`） ](/help/implement/vars/functions/tl-method.md)は、URL値が存在する場合でも、常にこのディメンションを削除します。
 
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Web SDK / XDM フィールド** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Web SDK / XDM フィールド** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
 | **クエリパラメーター** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト（オーバーフローで制限なし） |

@@ -8,9 +8,13 @@ product_v2:
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,14 +25,14 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 18%
 ---
 # 購入 ID
 
-「購入ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、購入の一意のIDを提供します。
+「購入ID」 [ ディメンション ](overview.md)は、購入の一意のIDを提供します。
 
 >[!IMPORTANT]
 >
@@ -36,12 +40,12 @@ ht-degree: 18%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)変数を使用して設定されます。 データフィードの`purchaseid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+このディメンションは、[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)変数を使用して設定されます。 データフィードの`purchaseid`列に対応します。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **Web SDK / XDM フィールド** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Web SDK / XDM フィールド** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **クエリパラメーター** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 20 バイト |
