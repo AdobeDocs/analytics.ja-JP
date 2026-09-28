@@ -47,7 +47,7 @@ Audience Managerのセグメントメンバーシップは流動的です。 利
 
 Analyticsでは、Audience Manager セグメントはオーディエンスとして表されます。
 
-詳細については、[ セグメントビルダーの特性データとセグメント母集団データ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)および[信号、特性、セグメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)を参照してください。
+詳細については、[&#x200B; セグメントビルダーの特性データとセグメント母集団データ &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)および[信号、特性、セグメント &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)を参照してください。
 
 ## Analytics セグメント {#analytics-segments}
 
@@ -65,4 +65,4 @@ Analytics セグメントは、レポート内のデータをフィルタリン�
 
   一方、Analyticsでは、レポートの日付範囲に基づいて、訪問者がセグメントに含まれるか、セグメントから除外されます。 例えば、ある訪問者が先月購入したとします。 Adobe Audience Managerでは、日付範囲に関係なく、その訪問者は「購入者」セグメントに含まれます。 Analyticsでは、今月に基づくレポートには、訪問者はセグメントに含まれません。 ただし、今月と先月に基づくレポートでは、訪問者がセグメントに含まれます。
 
-詳しくは、[Analytics セグメント化ガイド ](/help/components/segmentation/seg-home.md)を参照してください。
+詳しくは、[Analytics セグメント化ガイド &#x200B;](/help/components/segmentation/seg-home.md)を参照してください。

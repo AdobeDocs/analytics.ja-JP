@@ -41,14 +41,14 @@ ht-degree: 34%
 
 リンクトラッキング呼び出しがAdobeに送信されるたびに、AppMeasurementはクリックされたURLを検出します。 このURLは、ダウンロードリンクや終了リンクなどのリンクタイプを判断するのに役立ちます。 `linkURL` 変数は、検出された URL を上書きするために使用します。
 
-Analysis Workspaceには、この変数に関するディメンションはありません。 [ データフィード ](/help/export/analytics-data-feed/data-feed-overview.md)の`page_event_var1`列にデータが入力されます。 クリックしたリンクのURLをトラッキングする場合は、[Prop](../page-vars/prop.md)などのカスタム変数を使用することをお勧めします。この場合、Adobeはカスタム変数を使用します。 [Activity Map](/help/analyze/activity-map/overview.md)を使用すると、クリックしたリンクのデータ収集を効率化できます。
+Analysis Workspaceには、この変数に関するディメンションはありません。 [&#x200B; データフィード &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md)の`page_event_var1`列にデータが入力されます。 クリックしたリンクのURLをトラッキングする場合は、[Prop](../page-vars/prop.md)などのカスタム変数を使用することをお勧めします。この場合、Adobeはカスタム変数を使用します。 [Activity Map](/help/analyze/activity-map/overview.md)を使用すると、クリックしたリンクのデータ収集を効率化できます。
 
 ## Web SDKを使用したURLのリンク
 
 リンク URLは、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL`または`data.__adobe.analytics.pev1`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL`または`data.__adobe.analytics.pev1`
 
 ## Adobe Analytics拡張機能を使用したURLのリンク
 

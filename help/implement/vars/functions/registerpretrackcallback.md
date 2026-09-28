@@ -54,12 +54,12 @@ Web SDKでは、データがコンパイルされた後、Adobeに送信され�
 1. Adobe IDの資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) UIにログインします。
 1. 目的のタグプロパティをクリックします。
 1. [!UICONTROL 拡張機能] タブに移動し、[!UICONTROL Adobe Experience Platform Web SDK]の下にある&#x200B;**[!UICONTROL Configure]** ボタンをクリックします。
-1. [!UICONTROL  データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
 1. エディターに目的のコードを配置します。
 
 ## Web SDKを手動で実装するコールバックの事前追跡
 
-Web SDKでは、データがコンパイルされた後、Adobeに送信される前に、関数をフックすることはできません。 ただし、`doPlugins`と同様に、`onBeforeEventSend`を使用して、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの「[ グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
+Web SDKでは、データがコンパイルされた後、Adobeに送信される前に、関数をフックすることはできません。 ただし、`doPlugins`と同様に、`onBeforeEventSend`を使用して、データが送信される直前に実行する関数を登録できます。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
 
 ```js
 // Set the trackingCode XDM field to "New value"

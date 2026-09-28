@@ -90,8 +90,8 @@ Adobe Analytics拡張機能には、リンクトラッキング呼び出しを�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL  アクション ]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;に設定し、[!UICONTROL  アクションタイプ ]を&#x200B;**[!UICONTROL ビーコンを送信]**&#x200B;に設定します。
+1. [!UICONTROL &#x200B; アクション &#x200B;]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;に設定し、[!UICONTROL &#x200B; アクションタイプ &#x200B;]を&#x200B;**[!UICONTROL ビーコンを送信]**&#x200B;に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Analytics拡張機能では、オプションの引数を設定できません。

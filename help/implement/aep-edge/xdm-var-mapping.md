@@ -43,7 +43,7 @@ ht-degree: 75%
 
 ## 値の優先度
 
-このテーブルのほとんどのXDM オブジェクトフィールドは、[ マッピングされたデータオブジェクトフィールド ](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
+このテーブルのほとんどのXDM オブジェクトフィールドは、[&#x200B; マッピングされたデータオブジェクトフィールド &#x200B;](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
 
 ## XDM オブジェクトフィールドのマッピング
 
@@ -129,7 +129,7 @@ ht-degree: 75%
 | `xdm.mediaCollection.sessionDetails.network` | ストリーミングメディアサービスディメンション「[ネットワーク](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)」。 |
 | `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | ストリーミングメディアサービスディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」。 |
 | `xdm.mediaCollection.sessionDetails.playerName` | ストリーミングメディアサービスディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)」。 |
-| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [ ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [&#x200B; ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
 | `xdm.mediaCollection.sessionDetails.feed` | ストリーミングメディアサービスディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)」。 |
 | `xdm.mediaCollection.sessionDetails.streamFormat` | ストリーミングメディアサービスディメンション「[ストリーム形式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)」。 |
 | `xdm.media.mediaTimed.progress10.value` | ストリーミングメディアサービス指標「[10％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |

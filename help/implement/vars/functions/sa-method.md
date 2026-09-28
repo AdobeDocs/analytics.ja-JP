@@ -55,7 +55,7 @@ Web SDK拡張機能には、各環境のデータストリームドロップダ�
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. [!UICONTROL 拡張機能] タブに移動し、[!UICONTROL Adobe Experience Platform Web SDK]の下にある&#x200B;**[!UICONTROL Configure]** ボタンをクリックします。
-1. [!UICONTROL  データストリーム ]で、各環境のドロップダウンリストから目的のデータストリームを選択します。
+1. [!UICONTROL &#x200B; データストリーム &#x200B;]で、各環境のドロップダウンリストから目的のデータストリームを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## Web SDKを手動で実装する目的のデータストリームを設定します

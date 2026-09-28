@@ -66,7 +66,7 @@ ht-degree: 74%
 1. 追加するコンポーネントまでスクロールするか、それを検索し、プロジェクト内のパネルまたはビジュアライゼーションにドラッグします。
 
 1. オプションで、コンポーネントをパネルヘッダーのセグメントドロップゾーンにドラッグできます。 このドラッグ＆ドロップは、コンポーネントをセグメントとして定義し、そのセグメントをパネル内のすべてのコンテンツ適用します。
-パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
+パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
 
 1. 詳しくは、次の節を参照してください。
 
@@ -80,7 +80,7 @@ ht-degree: 74%
 
 ### プロジェクトへのディメンションの追加
 
-[ ディメンション ](/help/components/dimensions/overview.md)は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。 基本レポートでは、文字列値（ディメンション）の行と数値（指標）の列が表示されます。
+[&#x200B; ディメンション &#x200B;](/help/components/dimensions/overview.md)は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。 基本レポートでは、文字列値（ディメンション）の行と数値（指標）の列が表示されます。
 
 1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、まず、Analysis Workspace のプロジェクトにディメンションを追加します。
 
@@ -102,7 +102,7 @@ Analysis Workspace でのディメンションの使用方法について詳し�
 
 Analysis Workspace のプロジェクトに指標を追加するには
 
-1. [ プロジェクトにコンポーネントを追加](#add-components-to-a-project)の説明に従って、Analysis Workspaceでプロジェクトに指標を追加します。
+1. [&#x200B; プロジェクトにコンポーネントを追加](#add-components-to-a-project)の説明に従って、Analysis Workspaceでプロジェクトに指標を追加します。
 
 
 
@@ -131,13 +131,13 @@ Analysis Workspace では、次のいずれかの方法でセグメントを使�
 
 * パネルへのセグメントの追加
 パネルにセグメントを追加すると、セグメントはパネル内のすべてのコンテンツに適用されます。
-パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[ パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[ ドロップゾーン ](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
+パネルでセグメントドロップゾーンを使用してパネルをセグメント化する方法について詳しくは、[&#x200B; パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)の[&#x200B; ドロップゾーン &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)を参照してください。
 
 * ビジュアライゼーションへのセグメントの追加
 フリーフォームテーブルの列にセグメントを追加すると、セグメントはテーブル列内のすべてのコンテンツに適用されます。 また、セグメントをフォールアウトビジュアライゼーションの一部として追加することもできます。
 
 * コンポーネントでのセグメントの使用
-[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[注釈](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)、さらには[ セグメント ](/help/components/segmentation/segmentation-workflow/seg-build.md)などのコンポーネントを定義する場合、定義の一部としてセグメントを使用できます。
+[計算指標](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[注釈](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)、さらには[&#x200B; セグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md)などのコンポーネントを定義する場合、定義の一部としてセグメントを使用できます。
 
 
 ### プロジェクトへの日付範囲の追加

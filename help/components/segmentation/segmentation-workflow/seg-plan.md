@@ -38,7 +38,7 @@ ht-degree: 53%
    * このセグメントの強み？
    * このセグメントはいつ使用すべきですか？
 
-1. セグメント **スコープ**&#x200B;を決定します。 スコープを最もよく表す[ セグメントコンテナ ](/help/components/segmentation/seg-overview.md)はどれですか？ できるだけ小さいコンテナを使用します。
+1. セグメント **スコープ**&#x200B;を決定します。 スコープを最もよく表す[&#x200B; セグメントコンテナ &#x200B;](/help/components/segmentation/seg-overview.md)はどれですか？ できるだけ小さいコンテナを使用します。
 
 1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。 この決定で[変数永続性](/help/components/segmentation/seg-overview.md)を検討してください。
 

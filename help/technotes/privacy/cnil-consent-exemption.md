@@ -67,7 +67,7 @@ ht-degree: 91%
 * Adobe Analytics では、米国、英国およびシンガポールでデータ処理センターを運用しており、すべてのお客様がそれぞれの地域でデータを柔軟に収集、処理、保存できるようになっています。 Adobe Analytics の初期セットアップを設定する際に、お客様は希望するデータ処理センターの場所を選択できます。 お客様のデータは、最終的には、コア Analytics 製品で選択した地域内に保存されます。
 * セグメント化や仮想レポートスイート、別のエンドポイントへのルーティングのために、Analytics 変数でオプトインステータスを収集し、オプトインデータとオプトアウトデータを分離することを検討してください。
 * 事前の同意なしにサイト外またはアプリ外での測定（例：オフサイトキャンペーン、メールキャンペーン、iFrame など）はおこないません。
-* 変数での個人情報の収集は、同意なしには許可されません。 [ ユーザーの同意に基づいてCX Enterprise アクティビティを制御](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja#implementing-opt-in-on-the-page)
+* 変数での個人情報の収集は、同意なしには許可されません。 [&#x200B; ユーザーの同意に基づいてCX Enterprise アクティビティを制御](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja#implementing-opt-in-on-the-page)
 * データは、匿名の統計情報を生成する目的でのみ使用され、他のデータとの組み合わせはおこないません。
 * データは、アクションの相互参照には使用されません。
 * GPS 位置情報データは収集されません。

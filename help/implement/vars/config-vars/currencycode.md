@@ -62,8 +62,8 @@ ht-degree: 96%
 
 通貨コードは、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode`または`data.__adobe.analytics.cc`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode`または`data.__adobe.analytics.cc`
 
 ## Adobe Analytics 拡張機能を使用した通貨コード
 

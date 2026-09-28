@@ -117,7 +117,7 @@ ht-degree: 56%
 
 リリース日：**2021 年 9 月 7 日**
 
-* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[ プライバシーレポート ](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。 詳しくは、管理者ユーザーガイドの[&#x200B; プライバシーレポート &#x200B;](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)を参照してください。
 
 ## バージョン 2.22.1
 
@@ -470,7 +470,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
   >[!IMPORTANT]
   >
-  >Analytics呼び出しでAppMeasurementの`GET` メソッドの代わりに`POST` メソッドを使用する場合（IE](/help/implement/js/troubleshooting.md)で[切り捨てられたURLを解決するメソッド）、CX Enterpriseの最新の訪問者ID サービス実装を使用する必要があります。
+  >Analytics呼び出しでAppMeasurementの`GET` メソッドの代わりに`POST` メソッドを使用する場合（IE[&#128279;](/help/implement/js/troubleshooting.md)で切り捨てられたURLを解決するメソッド）、CX Enterpriseの最新の訪問者ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
@@ -501,7 +501,7 @@ s_glが呼び出されたときに、AppMeasurement ライブラリが正しい�
 
 リリース日：**2014 年 4 月 18 日**
 
-* [訪問者ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)のサポート。
+* [訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)のサポート。
 
 ## バージョン 1.2.4
 

@@ -41,8 +41,8 @@ ht-degree: 82%
 
 サーバーは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Adobe Analytics拡張機能を使用するサーバー
 

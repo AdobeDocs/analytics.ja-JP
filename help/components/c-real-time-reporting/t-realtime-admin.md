@@ -56,7 +56,7 @@ ht-degree: 68%
 
       ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 設定]**&#x200B;を選択して、[!UICONTROL  レポートスイートマネージャー]を実行します。
+1. **[!UICONTROL 設定]**&#x200B;を選択して、[!UICONTROL &#x200B; レポートスイートマネージャー]を実行します。
 
    （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
 

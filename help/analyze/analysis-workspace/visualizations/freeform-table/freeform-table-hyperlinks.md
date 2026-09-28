@@ -44,7 +44,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ディメンションのハイパーリンク ](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ディメンションのハイパーリンク &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 

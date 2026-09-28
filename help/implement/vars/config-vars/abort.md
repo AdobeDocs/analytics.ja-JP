@@ -40,12 +40,12 @@ ht-degree: 39%
 
 ## Web SDK拡張機能を使用したイベントの送信をキャンセル
 
-イベント送信前に[!UICONTROL On コールバック ] コードエディターを使用して`false`を返します。
+イベント送信前に[!UICONTROL On コールバック &#x200B;] コードエディターを使用して`false`を返します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. [!UICONTROL 拡張機能] タブに移動し、[!UICONTROL Adobe Experience Platform Web SDK]の下にある&#x200B;**[!UICONTROL Configure]** ボタンをクリックします。
-1. [!UICONTROL  データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
+1. [!UICONTROL &#x200B; データ収集]で、「**[!UICONTROL イベント送信前に編集」コールバックコード]** ボタンをクリックします。
 1. コードエディターで、Edgeへのデータの送信を中止する条件で、次のコードを入力します。
 
 ```js
@@ -54,7 +54,7 @@ return false;
 
 ## Web SDKを手動で実装するイベントの送信をキャンセル
 
-`onBeforeEventSend` コールバックを使用して、`false`を返します。 詳しくは、Web SDK ドキュメントの「[ グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
+`onBeforeEventSend` コールバックを使用して、`false`を返します。 詳しくは、Web SDK ドキュメントの「[&#x200B; グローバルにイベントを変更する](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)」を参照してください。
 
 ```js
 alloy("configure"), {

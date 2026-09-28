@@ -45,7 +45,7 @@ ht-degree: 65%
 * ほとんどのAdobe Analytics リクエストの「type」フィールドには、「analytics」の値が含まれています。
 * Analyticsが各レポートスイートの関連する名前空間変数で検索するIDを含む「値」フィールド。
 
-詳しくは、[CX Enterprise Data Privacy API ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[ リスト ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
+詳しくは、[CX Enterprise Data Privacy API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
 
 ## Cookie ID
 

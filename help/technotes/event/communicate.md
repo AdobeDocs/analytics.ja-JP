@@ -39,13 +39,13 @@ Adobe Analyticsでは、組織内のユーザーとコミュニケーション�
 
 Workspace プロジェクトを組織内のユーザー間で共有している場合は、パネルまたはビジュアライゼーションの説明を使用して、イベントの影響を伝えることができます。 パネルまたはビジュアライゼーションヘッダーを右クリックし、**[!UICONTROL 説明を編集]**&#x200B;を選択します。
 
-![ パネルの説明](assets/panel_description.png)
+![&#x200B; パネルの説明](assets/panel_description.png)
 
 ## テキストビジュアライゼーションを通じたコミュニケーション
 
-専用のテキストビジュアライゼーションを通じて、イベントの影響を伝えることもできます。 Analyze ユーザーガイドの[ テキストビジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/text.md)を参照してください。
+専用のテキストビジュアライゼーションを通じて、イベントの影響を伝えることもできます。 Analyze ユーザーガイドの[&#x200B; テキストビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/text.md)を参照してください。
 
-![ テキストビジュアライゼーション ](assets/text_visualization.png)
+![&#x200B; テキストビジュアライゼーション &#x200B;](assets/text_visualization.png)
 
 ## Workspaceのトレンドにカスタムカレンダーイベントを追加する
 
@@ -70,5 +70,5 @@ Workspaceでトレンドのビジュアライゼーションを作成する場�
 
 1. 線のビジュアライゼーションを追加します。 影響を受ける日は異なる色で表されます。 ユーザーは、計算指標の「情報」アイコンをクリックして詳細を確認することもできます。
 
-   ![情報アイコン ](assets/calcmetric_infoicon.png)
+   ![情報アイコン &#x200B;](assets/calcmetric_infoicon.png)
 

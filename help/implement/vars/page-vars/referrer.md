@@ -45,8 +45,8 @@ ht-degree: 85%
 
 リファラーは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
 Web SDKには、使用可能な場合、送信されたすべてのイベントに`web.webReferrer.URL`が自動的に含まれます。
 

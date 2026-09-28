@@ -29,17 +29,17 @@ ht-degree: 1%
 ---
 # セグメントの承認
 
-[ セグメントマネージャー](seg-manage.md)では、セグメントを承認および未承認にできます。 セグメントを承認できるのは管理者のみです。
+[&#x200B; セグメントマネージャー](seg-manage.md)では、セグメントを承認および未承認にできます。 セグメントを承認できるのは管理者のみです。
 
 セグメントを承認するには：
 
-1. [ セグメントマネージャー](seg-manage.md)で、承認する1つ以上のセグメントを選択します。
+1. [&#x200B; セグメントマネージャー](seg-manage.md)で、承認する1つ以上のセグメントを選択します。
 1. アクションバーから、![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**&#x200B;を選択します。 承認されたセグメントは![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)で示されます
 
 セグメントを未承認にするには：
 
-1. [ セグメントマネージャー](seg-manage.md)で、承認しないセグメントを1つ以上選択します。
+1. [&#x200B; セグメントマネージャー](seg-manage.md)で、承認しないセグメントを1つ以上選択します。
 1. アクションバーから、![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Unapprove]**&#x200B;を選択します。
 
 
-承認済みのセグメントごとに、セグメントのリストをセグメンテーションできます。 ![ セグメント ](/help/assets/icons/Filter.svg) **[!UICONTROL セグメント]** パネルから&#x200B;**[!UICONTROL その他のセグメント]**&#x200B;を選択し、**[!UICONTROL 承認済み]**&#x200B;を選択します。 詳しくは、[ セグメントのリストのフィルタリング ](t-seg-filter.md)を参照してください。
+承認済みのセグメントごとに、セグメントのリストをセグメンテーションできます。 ![&#x200B; セグメント &#x200B;](/help/assets/icons/Filter.svg) **[!UICONTROL セグメント]** パネルから&#x200B;**[!UICONTROL その他のセグメント]**&#x200B;を選択し、**[!UICONTROL 承認済み]**&#x200B;を選択します。 詳しくは、[&#x200B; セグメントのリストのフィルタリング &#x200B;](t-seg-filter.md)を参照してください。

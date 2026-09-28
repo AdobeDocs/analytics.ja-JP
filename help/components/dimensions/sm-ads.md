@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスとディメンション
-description: レポートスイートで[!UICONTROL  メディア広告]を有効にした場合に使用できるディメンション。
+description: レポートスイートで[!UICONTROL &#x200B; メディア広告]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
 TQID: 'https://experienceleague.adobe.com/5d5RQ-2dkRD-R5U0iVyApP7WdCH2O1Rsk-qlPLYJm9c'
@@ -45,11 +45,11 @@ ht-degree: 2%
 次のディメンションを使用できます。
 
 * [[!UICONTROL Ad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)
-* [[!UICONTROL  ポッド位置の広告]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
-* [[!UICONTROL 広告の長さ（変数） ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
-* [[!UICONTROL 広告名（変数） ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
-* [[!UICONTROL  プレイヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
-* [[!UICONTROL 広告ポッド ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
+* [[!UICONTROL &#x200B; ポッド位置の広告]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)
+* [[!UICONTROL 広告の長さ（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)
+* [[!UICONTROL 広告名（変数） &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)
+* [[!UICONTROL &#x200B; プレイヤー名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)
+* [[!UICONTROL 広告ポッド &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)
 * [[!UICONTROL 広告主]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)
 * [[!UICONTROL キャンペーン ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)
 
@@ -57,14 +57,14 @@ ht-degree: 2%
 
 | 分類名 | 親ディメンション |
 | --- | --- |
-| [[!UICONTROL  アセット ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL コンテンツ]](sm-core.md) |
-| [[!UICONTROL  コンテンツの評価]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL &#x200B; アセット ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id) | [[!UICONTROL コンテンツ]](sm-core.md) |
+| [[!UICONTROL &#x200B; コンテンツの評価]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating) | [[!UICONTROL コンテンツ]](sm-core.md) |
 | [[!UICONTROL 最初のエア日]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-air-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
 | [[!UICONTROL 最初のデジタル日付]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/first-digital-date) | [[!UICONTROL コンテンツ]](sm-core.md) |
 | [[!UICONTROL 広告の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) | [!UICONTROL Ad] |
 | [[!UICONTROL 広告名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) | [!UICONTROL Ad] |
 | [[!UICONTROL Creative ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/creative-id) | [!UICONTROL Ad] |
-| [[!UICONTROL  ポッド名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 広告ポッド ] |
-| [[!UICONTROL  ポッドの位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 広告ポッド ] |
+| [[!UICONTROL &#x200B; ポッド名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-name) | [!UICONTROL 広告ポッド &#x200B;] |
+| [[!UICONTROL &#x200B; ポッドの位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/pod-position) | [!UICONTROL 広告ポッド &#x200B;] |
 
-対応する指標については、[ ストリーミングメディアサービスと指標](../metrics/sm-ads.md)を参照してください。
+対応する指標については、[&#x200B; ストリーミングメディアサービスと指標](../metrics/sm-ads.md)を参照してください。

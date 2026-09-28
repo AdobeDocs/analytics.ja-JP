@@ -73,7 +73,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ プロジェクトの共有](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; プロジェクトの共有](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -92,9 +92,9 @@ ht-degree: 89%
 
 特定のプロジェクトの役割を組織内のユーザーやグループと共有する場合は、以下の点を考慮してください。
 
-* プロジェクトの役割（**[!UICONTROL オリジナルを編集]**、**[!UICONTROL コピーを編集]**&#x200B;および&#x200B;**[!UICONTROL 読み取り専用]**）は、ユーザーと特定のプロジェクト ID に結び付けられます。 プロジェクトの役割は、[Adobe CX Enterprise管理コンソール ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で管理されているユーザー権限とは独立しています。
+* プロジェクトの役割（**[!UICONTROL オリジナルを編集]**、**[!UICONTROL コピーを編集]**&#x200B;および&#x200B;**[!UICONTROL 読み取り専用]**）は、ユーザーと特定のプロジェクト ID に結び付けられます。 プロジェクトの役割は、[Adobe CX Enterprise管理コンソール &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で管理されているユーザー権限とは独立しています。
 
-* Adobe Analyticsでは、グループは[Adobe CX Enterprise管理コンソール ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で製品プロファイルによって定義されます。 管理者は、「すべて」を含む任意のグループと共有できます。 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
+* Adobe Analyticsでは、グループは[Adobe CX Enterprise管理コンソール &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で製品プロファイルによって定義されます。 管理者は、「すべて」を含む任意のグループと共有できます。 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
 * 複数の役割に配置されたユーザーは、常に最高のエクスペリエンスを得ることができます。 これは、ユーザーが個人として、またはグループの一部として追加された場合に発生する可能性があります。 例えば、個人として&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;の役割、グループのメンバーとして&#x200B;**[!UICONTROL 読み取り専用]**&#x200B;の役割を付与されたユーザーは、**[!UICONTROL オリジナルを編集]**&#x200B;プロジェクトエクスペリエンスを受け取ります。
 
@@ -114,7 +114,7 @@ ht-degree: 89%
 
    または
 
-   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**を選択します。
+   個々のプロジェクトのみを共有するには、共有するプロジェクトを開き、**[!UICONTROL 共有]**／**[!UICONTROL Workspace ユーザーと共有]**&#x200B;を選択します。
    保存されていない変更がある場合は、まずプロジェクトを保存するように求められます。
 
    「プロジェクトを共有」ダイアログボックスが表示されます。 ダイアログボックスの「[!UICONTROL **リンクで共有**]」と「[!UICONTROL **設定**]」セクションは、単一のプロジェクトを共有する場合にのみ表示されます。
@@ -139,7 +139,7 @@ ht-degree: 89%
 
    または
 
-   「**[!UICONTROL キュレーションと共有]**」を選択して、プロジェクトのキュレーションを自動的に適用します。 （プロジェクトが既に共有されている場合は、**[!UICONTROL キュレートと更新]**&#x200B;を選択します）。 [ プロジェクトのキュレーション ](/help/analyze/analysis-workspace/curate-share/curate.md)の詳細をご覧ください。
+   「**[!UICONTROL キュレーションと共有]**」を選択して、プロジェクトのキュレーションを自動的に適用します。 （プロジェクトが既に共有されている場合は、**[!UICONTROL キュレートと更新]**&#x200B;を選択します）。 [&#x200B; プロジェクトのキュレーション &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md)の詳細をご覧ください。
 
 ## プロジェクトへのリンクの共有
 
@@ -147,7 +147,7 @@ ht-degree: 89%
 
 * リンクを使用する受信者は、プロジェクトにアクセスする前に Adobe Analytics にログインする必要があります。
 
-* 受信者が役割を割り当てられていない場合、プロジェクトへの[共有可能リンク ](/help/analyze/analysis-workspace/curate-share/shareable-links.md)を受信すると、デフォルトで役割が与えられます。 管理者は&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL コピーを編集]**&#x200B;の役割を受け取ります。
+* 受信者が役割を割り当てられていない場合、プロジェクトへの[共有可能リンク &#x200B;](/help/analyze/analysis-workspace/curate-share/shareable-links.md)を受信すると、デフォルトで役割が与えられます。 管理者は&#x200B;**[!UICONTROL オリジナルを編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL コピーを編集]**&#x200B;の役割を受け取ります。
 
 プロジェクトリンクを組織内のユーザーと共有するには、次の手順を実行します。
 

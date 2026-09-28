@@ -71,8 +71,8 @@ about_classification_rules.xml
 
  -->
 
-* [ ルールに関する重要な情報](/help/components/classifications/crb/classification-rule-builder.md)
-* [ ルールでキーが分類されない場合は、](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; ルールに関する重要な情報](/help/components/classifications/crb/classification-rule-builder.md)
+* [&#x200B; ルールでキーが分類されない場合は、](/help/components/classifications/crb/classification-rule-builder.md)
 * [ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md)
 
 >[!NOTE]
@@ -94,15 +94,15 @@ about_classification_rules.xml
 
   アクティブなルールは4時間ごとに処理され、通常は1か月かけて分類データを検証します。 ルールは新しい値を自動的にチェックし、インポーターを使用して分類をアップロードします。
 
-* **既存の分類を上書き**: [ ルールでキーが分類されない場合を参照してください。](/help/components/classifications/crb/classification-quickstart-rules.md) 必要に応じて、インポーターを使用して、既存の分類を削除または削除できます。
+* **既存の分類を上書き**: [&#x200B; ルールでキーが分類されない場合を参照してください。](/help/components/classifications/crb/classification-quickstart-rules.md) 必要に応じて、インポーターを使用して、既存の分類を削除または削除できます。
 
 ## ルールでキーが分類されない場合
 
-ルールをアクティブ化すると、既存の分類を上書きできます。 次の場合、分類ルールは、次の場合に[ キー](/help/components/classifications/importer/c-saint-data-files.md) （変数）を分類しません。
+ルールをアクティブ化すると、既存の分類を上書きできます。 次の場合、分類ルールは、次の場合に[&#x200B; キー](/help/components/classifications/importer/c-saint-data-files.md) （変数）を分類しません。
 
 * キーは既に分類されており、[分類を上書き](/help/components/classifications/crb/classification-rule-definitions.md)を選択していません。
 
-  ルールを[追加してアクティブ化する場合と、データコネクタ統合をアクティブ化する場合は、分類を上書きできます。 ](/help/components/classifications/crb/classification-quickstart-rules.md)（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
+  ルールを[追加してアクティブ化する場合と、データコネクタ統合をアクティブ化する場合は、分類を上書きできます。 &#x200B;](/help/components/classifications/crb/classification-quickstart-rules.md)（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
 
 * キーの上書き時に指定した時間枠の後に、[分類の上書き](/help/components/classifications/crb/classification-rule-definitions.md)を有効にした後でも、分類されたキーがデータに表示されません。
 * キーが分類されず、約 1 ヶ月前から始まる時間枠が経過した後もキーが [!DNL Adobe Analytics] に渡されない。
@@ -155,7 +155,7 @@ about_classification_rules.xml
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 正規表現 | &amp;Hat;（。+）\:（。+）\:（。+）$ | キャンペーン日 | $3 |
+| 正規表現 | &Hat;（。+）\:（。+）\:（。+）$ | キャンペーン日 | $3 |
 
 **構文**
 
@@ -337,7 +337,7 @@ t_classification_rule.xml
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
    >
-   >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
+   >   （この前提条件については、 [&#x200B; 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 

@@ -35,15 +35,15 @@ Adobe Analyticsでは、さまざまなタイプのセグメントを作成で�
 
 セグメントは、次の方法で作成できます。
 
-![ セグメントを作成する方法](assets/create-segment.png)
+![&#x200B; セグメントを作成する方法](assets/create-segment.png)
 
-* **A**。メインインターフェイスで、**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL セグメント]**&#x200B;を選択します。 [[!UICONTROL  セグメント ] マネージャー](seg-manage.md)から![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]を選択します。
-* **B**。Workspace プロジェクトで、「![ セグメント ](/help/assets/icons/Segmentation.svg) **セグメント**」の「![追加](/help/assets/icons/Add.svg)」を左パネルから選択します。
+* **A**。メインインターフェイスで、**[!UICONTROL コンポーネント]**&#x200B;を選択し、**[!UICONTROL セグメント]**&#x200B;を選択します。 [[!UICONTROL &#x200B; セグメント &#x200B;] マネージャー](seg-manage.md)から![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]を選択します。
+* **B**。Workspace プロジェクトで、「![&#x200B; セグメント &#x200B;](/help/assets/icons/Segmentation.svg) **セグメント**」の「![追加](/help/assets/icons/Add.svg)」を左パネルから選択します。
 * **C**。Workspace プロジェクトで、ビジュアライゼーションのコンテキストメニューから「**[!UICONTROL 選択範囲からセグメントを作成]**」を選択します。
 * **D**。Workspace プロジェクトで、メニューから「**[!UICONTROL コンポーネント]**」を選択し、「**[!UICONTROL セグメントを作成]**」を選択します。
 * **E**。Workspace プロジェクトでは、ショートカット **[!UICONTROL shift+cmd+e]** （macOS）または&#x200B;**[!UICONTROL shift+ctrl+e]** （Windows）を使用します。
 * **F**。***で「![追加](/help/assets/icons/Add.svg)」を選択し、セグメントをここに（または他のコンポーネント）*** ドロップゾーンにドロップします。 このアクションにより、プロジェクトのみのセグメントが作成されます。
 
-新しいセグメントを定義するには、[ セグメントビルダー](seg-build.md)を使用します。
+新しいセグメントを定義するには、[&#x200B; セグメントビルダー](seg-build.md)を使用します。
 
-Workspace プロジェクトでは、[ クイックセグメント ](seg-quick.md)を使用してセグメントをすばやく作成することもできます。
+Workspace プロジェクトでは、[&#x200B; クイックセグメント &#x200B;](seg-quick.md)を使用してセグメントをすばやく作成することもできます。

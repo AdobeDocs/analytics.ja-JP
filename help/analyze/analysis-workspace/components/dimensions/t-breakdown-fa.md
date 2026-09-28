@@ -41,11 +41,11 @@ ht-degree: 58%
 
 Analysis Workspaceでは、適切な指標やディメンション、セグメント、タイムラインなどの分析ブレークダウン値を使用してクエリを構築し、特定のニーズに合わせて無制限にデータを分類できます。
 
-1. [ フリーフォームテーブル ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)で、選択した1つ以上の行のコンテキストメニューから、**[!UICONTROL 分類]** ![ シェブロン右](/help/assets/icons/ChevronRight.svg)を選択します。
+1. [&#x200B; フリーフォームテーブル &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)で、選択した1つ以上の行のコンテキストメニューから、**[!UICONTROL 分類]** ![&#x200B; シェブロン右](/help/assets/icons/ChevronRight.svg)を選択します。
 
    ![選択範囲からアラートを作成を表示する手順の結果。](assets/breakdown.png)
 
-1. サブメニューから、**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]**&#x200B;または&#x200B;**[!UICONTROL 日付範囲]**&#x200B;を選択し、項目を選択します。 または、**[!UICONTROL *検索&#x200B;*]**フィールドでコンポーネントを検索します。
+1. サブメニューから、**[!UICONTROL ディメンション]**、**[!UICONTROL 指標]**、**[!UICONTROL セグメント]**&#x200B;または&#x200B;**[!UICONTROL 日付範囲]**&#x200B;を選択し、項目を選択します。 または、**[!UICONTROL *検索&#x200B;*]**&#x200B;フィールドでコンポーネントを検索します。
 
 選択した期間にわたって、ディメンション項目またはオーディエンスセグメント別に指標を分類できます。 より詳細なレベルまで、さらに詳しく調べることもできます。
 
@@ -93,7 +93,7 @@ Analysis Workspaceでは、適切な指標やディメンション、セグメ�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ ディメンションと指標の追加](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; ディメンションと指標の追加](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"}を参照してください。
 
 
 >[!ENDSHADEBOX]
@@ -101,7 +101,7 @@ Analysis Workspaceでは、適切な指標やディメンション、セグメ�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ フリーフォームテーブルでのディメンションの操作](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; フリーフォームテーブルでのディメンションの操作](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}を参照してください。
 
 
 >[!ENDSHADEBOX]

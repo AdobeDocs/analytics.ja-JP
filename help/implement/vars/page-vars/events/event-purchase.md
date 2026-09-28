@@ -92,7 +92,7 @@ ht-degree: 66%
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. [!UICONTROL 拡張機能]ドロップダウンリストを Adobe Analytics に設定し、[!UICONTROL アクションタイプ]を[!UICONTROL 変数を設定]に設定します。
-6. 「[!UICONTROL  イベント ]」セクションを見つけ、[!UICONTROL  イベント ] ドロップダウンリストを[!UICONTROL 購入]に設定します。
+6. 「[!UICONTROL &#x200B; イベント &#x200B;]」セクションを見つけ、[!UICONTROL &#x200B; イベント &#x200B;] ドロップダウンリストを[!UICONTROL 購入]に設定します。
 
 `products`や`purchaseID`などの他の依存変数には、Adobe Experience Platform Data Collection内のAnalytics拡張機能に専用フィールドがありません。 これらの変数については、AppMeasurement 構文に従ったカスタムコード用エディターを使用します。
 

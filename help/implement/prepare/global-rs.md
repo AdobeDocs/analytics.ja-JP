@@ -86,7 +86,7 @@ ht-degree: 95%
    >任意のカスタム変数がドメイン間で同様に使用されていることを確認します。 サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータレイヤーがあり、データ収集を簡略化できることを確認します。 データレイヤーを使用しなくてもデータを収集することはできますが、特にサイトのデザインが変更されるにつれて、実装の信頼性と長期的な有効性は低下します。
 1. Adobe Experience Platform でタグを使用して Analytics を実装します。 サイトごとに異なるデータ要素が必要になる場合があります。 各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。 [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
-1. [Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
+1. [Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
@@ -99,5 +99,5 @@ ht-degree: 95%
 
 >[!MORELIKETHIS]
 >
->[ マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
+>[&#x200B; マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
 >[ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)

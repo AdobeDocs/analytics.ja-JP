@@ -74,7 +74,7 @@ Adobe Analytics は、セグメント化を使用してデータに焦点を当�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ データのバリエーションを分析して伝える](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; データのバリエーションを分析して伝える](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}を参照してください。
 
 * **0:27**: セグメント化を使用してデータを除外
 * **2:55**: イベントと以前の範囲の比較

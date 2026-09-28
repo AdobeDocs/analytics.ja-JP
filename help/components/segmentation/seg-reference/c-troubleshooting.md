@@ -49,7 +49,7 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 考えられる理由：
 
-* 逆ネスト – 例えば、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]** コンテナの下に![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]** コンテナをネストします。
+* 逆ネスト – 例えば、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]** コンテナの下に![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]** コンテナをネストします。
 * このレポートはセグメンテーションをサポートしていません。
 * セグメント化条件に一致するデータはありません。
 

@@ -54,7 +54,7 @@ ht-degree: 8%
 * [初回購入までの日数](/help/components/dimensions/days-before-first-purchase.md)
 * [前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* eVarと同様に動作する[ レポートスイート設定](/help/admin/tools/manage-rs/report-suites-admin.md)で、機能固有のディメンションが有効になりました。 propと同様に動作する機能固有のディメンションは含まれません。
+* eVarと同様に動作する[&#x200B; レポートスイート設定](/help/admin/tools/manage-rs/report-suites-admin.md)で、機能固有のディメンションが有効になりました。 propと同様に動作する機能固有のディメンションは含まれません。
 * [リスト変数](/help/implement/vars/page-vars/list.md)
 * [マーケティングチャネル](/help/components/dimensions/marketing-channel.md)
 * [マーケティングチャネルの詳細](/help/components/dimensions/marketing-detail.md)
@@ -69,7 +69,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->指標（[注文](/help/components/metrics/orders.md)または[ カスタムイベント ](/help/components/metrics/custom-events.md)など）は「スナップショット」に含まれていません。
+>指標（[注文](/help/components/metrics/orders.md)または[&#x200B; カスタムイベント &#x200B;](/help/components/metrics/custom-events.md)など）は「スナップショット」に含まれていません。
 
 一致するトランザクション IDを含むデータソースを介してオフラインヒットをアップロードすると、「スナップショット」内の使用可能なディメンションがデータソース行に自動的に追加されます。 指定されたディメンションがオンラインとオフラインの両方のヒットに存在する場合、オフラインヒット値が使用されます。
 

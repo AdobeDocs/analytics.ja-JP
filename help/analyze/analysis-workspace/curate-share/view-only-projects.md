@@ -53,7 +53,7 @@ ht-degree: 52%
 表示のみのプロジェクトで無効になる操作には、次のものが含まれます。
 
 * 非表示の左パネル
-* パネルカレンダーの日付範囲 注意：受信者にカレンダーコントロールを付与する場合は、日付範囲](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)の[ ドロップダウンセグメントを追加します。
+* パネルカレンダーの日付範囲 注意：受信者にカレンダーコントロールを付与する場合は、日付範囲[&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)の ドロップダウンセグメントを追加します。
 * フリーフォームセグメンテーション
 * フリーフォームの表示行数
 * フリーフォーム行、列またはビジュアライゼーションの設定

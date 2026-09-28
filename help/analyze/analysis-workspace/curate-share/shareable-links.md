@@ -46,7 +46,7 @@ Analysis Workspace には、プロジェクトまたはプロジェクトの特�
 
 プロジェクトへのリンクを共有するには、共有するプロジェクトに移動し、「**[!UICONTROL 共有]** > **[!UICONTROL プロジェクトリンクを取得]** （または&#x200B;**[!UICONTROL 共有]** > **[!UICONTROL Workspace ユーザーと共有]** > **[!UICONTROL リンクで共有]**）に移動」を選択します。 リンクを共有するユーザーは、ログインする必要があります。
 
-リンクの受信者が[ プロジェクトの役割](/help/analyze/analysis-workspace/curate-share/share-projects.md)を割り当てられていない場合、管理者は&#x200B;**[!UICONTROL 元の編集]**&#x200B;を受け取り、管理者以外のユーザーは&#x200B;**[!UICONTROL コピーの編集]**&#x200B;を受け取ります。
+リンクの受信者が[&#x200B; プロジェクトの役割](/help/analyze/analysis-workspace/curate-share/share-projects.md)を割り当てられていない場合、管理者は&#x200B;**[!UICONTROL 元の編集]**&#x200B;を受け取り、管理者以外のユーザーは&#x200B;**[!UICONTROL コピーの編集]**&#x200B;を受け取ります。
 
 ## 任意のユーザーと共有する読み取り専用リンクの取得
 
@@ -63,7 +63,7 @@ Analysis Workspace プロジェクトへの読み取り専用リンクは、Adob
 
 リンクを作成し、それらを使用して受信者をプロジェクトの特定の部分に導く方法に関する[ビデオを視聴](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=ja)します。
 
-![ ビジュアライゼーションを取得リンクがハイライト表示されたヘッダーを右クリックした後のドロップダウンメニュー。](assets/get-visualization-link.png)
+![&#x200B; ビジュアライゼーションを取得リンクがハイライト表示されたヘッダーを右クリックした後のドロップダウンメニュー。](assets/get-visualization-link.png)
 
 ## 目次でリンクを使用する {#TOC}
 
@@ -71,7 +71,7 @@ Analysis Workspace プロジェクトへの読み取り専用リンクは、Adob
 
 リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法に関する[ビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=ja)をご覧ください。
 
-![ プロジェクトの目次。](assets/toc.png)
+![&#x200B; プロジェクトの目次。](assets/toc.png)
 
 
 <!--

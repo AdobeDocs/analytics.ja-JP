@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービス オーディオメタデータディメンション
-description: レポートスイートで[!UICONTROL 音声メタデータ ]を有効にした場合に使用できるディメンション。
+description: レポートスイートで[!UICONTROL 音声メタデータ &#x200B;]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
 TQID: 'https://experienceleague.adobe.com/DcCpObIU6RCnFgbBKEp4CyrXmfW-hmdAeH6sO8cLZdg'
@@ -42,8 +42,8 @@ ht-degree: 1%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL  アルバム ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL  アーティスト ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL &#x200B; アルバム &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL &#x200B; アーティスト &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
 * [[!UICONTROL 作成者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
 * [[!UICONTROL ラベル]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
 * [[!UICONTROL 発行者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)

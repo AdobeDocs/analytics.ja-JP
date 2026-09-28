@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスの章ディメンション
-description: レポートスイートで[!UICONTROL  メディアチャプター]を有効にした場合に使用できるディメンション。
+description: レポートスイートで[!UICONTROL &#x200B; メディアチャプター]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
 TQID: 'https://experienceleague.adobe.com/AfI1gvM3quhjC1zV6oRKx86vS-aLDIRNtuw1vEhuK4A'
@@ -51,7 +51,7 @@ ht-degree: 1%
 | [[!UICONTROL 発信元]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL コンテンツ]](sm-core.md) |
 | [[!UICONTROL 章の長さ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章] |
 | [[!UICONTROL 章名]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章] |
-| [[!UICONTROL 章のオフセット ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章] |
+| [[!UICONTROL 章のオフセット &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章] |
 | [[!UICONTROL 章の位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章] |
 
-対応する指標については、[ ストリーミングメディアサービスの章の指標](../metrics/sm-chapters.md)を参照してください。
+対応する指標については、[&#x200B; ストリーミングメディアサービスの章の指標](../metrics/sm-chapters.md)を参照してください。

@@ -48,7 +48,7 @@ ht-degree: 37%
 
 | セグメントタイプ | ここで、 | 適用対象となる場所 | 使用するタイミング |
 | --- | --- | --- | --- |
-| コンポーネントリストセグメント | [ セグメントを作成する方法](/help/components/segmentation/segmentation-workflow/seg-create.md)を参照してください。 | すべての Workspace プロジェクト | より複雑なセグメントや順次セグメントに使用します。 |
+| コンポーネントリストセグメント | [&#x200B; セグメントを作成する方法](/help/components/segmentation/segmentation-workflow/seg-create.md)を参照してください。 | すべての Workspace プロジェクト | より複雑なセグメントや順次セグメントに使用します。 |
 | クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | アドホックの単一ルールセグメント（ドラッグ&amp;ドロップ付き）または複数のルールの追加/編集（セグメントアイコンをクリック）に使用できます |
 | 計算指標ベースのセグメント | [計算指標ビルダー](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
 | 仮想レポートスイートベースのセグメント | [仮想レポートスイートビルダー](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 個々の仮想レポートスイートに適用 | 仮想レポートスイート定義内でのセグメントの適用 |
@@ -64,14 +64,14 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントの検索と作成](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントの検索と作成](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメント内のローリング日付範囲](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメント内のローリング日付範囲](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +81,7 @@ ht-degree: 37%
 Analysis Workspace では、様々なタイプのセグメントを作成できます。
 
 * [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [ セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)で作成した[通常のセグメント ](/help/components/segmentation/segmentation-workflow/seg-create.md)は、[ セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で終了します
+* [&#x200B; セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)で作成した[通常のセグメント &#x200B;](/help/components/segmentation/segmentation-workflow/seg-create.md)は、[&#x200B; セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md)で終了します
 
 
 >[!BEGINSHADEBOX]
@@ -103,4 +103,4 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 >[!MORELIKETHIS]
 >
->Adobe Analytics全体でセグメントを作成、構築、管理する方法とセグメンテーションの概要については、[ セグメント化の概要](/help/components/segmentation/seg-overview.md)を参照してください。
+>Adobe Analytics全体でセグメントを作成、構築、管理する方法とセグメンテーションの概要については、[&#x200B; セグメント化の概要](/help/components/segmentation/seg-overview.md)を参照してください。

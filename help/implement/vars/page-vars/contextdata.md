@@ -43,7 +43,7 @@ ht-degree: 64%
 
 ## Web SDK を使用したコンテキストデータ変数
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 また、XDM オブジェクトを使用してコンテキストデータを明示的に設定することもできます。 次に、[処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用して、コンテキストデータ変数を目的のAnalytics変数に割り当てることができます。  詳しくは、[他のXDM フィールドをAnalytics変数にマッピング ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)を参照してください。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、Adobe Analytics変数にマッピングされないすべてのフィールドがコンテキストデータ変数として自動的に含まれます。 また、XDM オブジェクトを使用してコンテキストデータを明示的に設定することもできます。 次に、[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)を使用して、コンテキストデータ変数を目的のAnalytics変数に割り当てることができます。  詳しくは、[他のXDM フィールドをAnalytics変数にマッピング &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)を参照してください。
 
 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、すべてのコンテキストデータ変数はキーと値のペアとして`data.__adobe.analytics.contextData`内に存在します。
 
@@ -62,7 +62,7 @@ alloy("sendEvent", {
 });
 ```
 
-[処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) インターフェイスには、該当するドロップダウンメニューに`example_variable`と`second_example`が表示されます。
+[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) インターフェイスには、該当するドロップダウンメニューに`example_variable`と`second_example`が表示されます。
 
 ## Adobe Analytics 拡張機能を使用したコンテキストデータ変数
 
@@ -80,7 +80,7 @@ s.contextData["example_variable"] = "Example value";
 * 有効なコンテキストデータ変数には、英数字、アンダースコアおよびピリオドのみが含まれます。 ハイフンなどの他の文字を含める場合、処理ルールでのデータ収集は保証されません。
 * コンテキストデータ変数を`"a."`のプレフィックスで開始しないでください。 この接頭辞はアドビが予約して使用します。 例えば、`s.contextData["a.InstallEvent"]` を使用しないでください。
 * コンテキストデータ変数では、大文字と小文字が区別されません。 `s.contextData["example"]` 変数と `s.contextData["EXAMPLE"]` 変数は同じです。
-* 1つのキーに複数の値を含めることはできません。 複数値の変数にコンテキストデータ変数を使用する場合は、区切り文字（通常はコンマ）を使用してすべての値を連結し、処理ルールを使用して[ リスト prop](prop.md#list-props)または[ リスト変数](list.md)のいずれかに渡します。
+* 1つのキーに複数の値を含めることはできません。 複数値の変数にコンテキストデータ変数を使用する場合は、区切り文字（通常はコンマ）を使用してすべての値を連結し、処理ルールを使用して[&#x200B; リスト prop](prop.md#list-props)または[&#x200B; リスト変数](list.md)のいずれかに渡します。
 
 ## 処理ルールを使用した Analytics 変数の入力
 

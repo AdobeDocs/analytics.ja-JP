@@ -85,5 +85,5 @@ ht-degree: 43%
 
 </table>
 
-詳しくは、[Edge Network API ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
+詳しくは、[Edge Network API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=ja)を参照してください。
 

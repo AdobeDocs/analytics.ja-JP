@@ -45,7 +45,7 @@ Web SDKでは、動的変数の書式設定は使用されません。 代わり
 
 スキーマに準拠せずにAdobe Analyticsに直接データを送信する場合、次の変数が使用されます。
 
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Adobe Analytics拡張機能を使用した動的変数のプレフィックス
 

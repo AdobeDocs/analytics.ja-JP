@@ -44,7 +44,7 @@ ht-degree: 79%
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Core]**&#x200B;に設定し、[!UICONTROL  データ要素タイプ ]を&#x200B;**[!UICONTROL クエリ文字列パラメーター]**&#x200B;に設定します。
+4. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Core]**&#x200B;に設定し、[!UICONTROL &#x200B; データ要素タイプ &#x200B;]を&#x200B;**[!UICONTROL クエリ文字列パラメーター]**&#x200B;に設定します。
 5. テキストフィールドにクエリ文字列パラメーターを入力します。
 
 クエリ文字列パラメーター値は、データ要素に格納されます。 その後、ルールのデータ要素を参照して、目的の変数を割り当てることができます。

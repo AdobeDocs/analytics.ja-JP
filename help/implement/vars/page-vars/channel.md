@@ -41,8 +41,8 @@ ht-degree: 83%
 
 チャネルは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel`または`data.__adobe.analytics.ch`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel`または`data.__adobe.analytics.ch`
 
 ## Adobe Analytics拡張機能を使用したチャネル
 

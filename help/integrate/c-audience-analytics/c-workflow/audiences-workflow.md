@@ -34,6 +34,6 @@ ht-degree: 52%
 
 | 手順 # | タスクの説明 | メモ |
 |--- |--- |--- |
-| 手順 1 | サーバーサイド転送をオンにします。 | 管理者ユーザーガイドの[ サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を参照してください。 |
+| 手順 1 | サーバーサイド転送をオンにします。 | 管理者ユーザーガイドの[&#x200B; サーバーサイド転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を参照してください。 |
 | 手順 2 | Adobe Audience ManagerでAnalyticsの宛先を設定します。 | 「[Analyticsの宛先を作成](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=ja)」を参照してください。 |
 | 手順 3 | [Analytics でデータを使用します。](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md) | Analysis Workspaceの新しいAdobe Audience Manager オーディエンスディメンションと関連機能（セグメント比較、フロー、ベンなど）を使用できます。 <br> オーディエンスディメンションは、Report Builder、Data Warehouse、データフィードでも利用できます。 <br>**注意**：データフィードには、オーディエンス ID のみが含まれており、オーディエンス名は含まれていません。 |

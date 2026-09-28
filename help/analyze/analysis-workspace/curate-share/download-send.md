@@ -45,7 +45,7 @@ Analysis Workspace プロジェクトとデータをローカルデバイスに�
 * ダウンロードしたファイルにビジュアライゼーションを含める場合は、「PDF」オプションを選択します。
 * プレーンテキストデータが必要な場合は、「CSVとコピー済みデータ」オプションを選択します。
 
-Adobe Analytics データを書き出す他の方法については、[書き出しガイド ](/help/export/home.md)を参照してください。
+Adobe Analytics データを書き出す他の方法については、[書き出しガイド &#x200B;](/help/export/home.md)を参照してください。
 
 ## プロジェクトをPDFまたはCSV ファイルとしてダウンロード
 
@@ -57,8 +57,8 @@ PDFとしてプロジェクトをダウンロードする際は、次の点を�
 
 * プロジェクトがワークステーションにダウンロードされるまで、プロジェクトを離れないでください。 PDFをレンダリングするためにAdobe サーバー上でプロジェクトを再実行するため、ダウンロードには数分かかる場合があります。 ダウンロードのレンダリング中も、引き続きプロジェクトに変更を加えることができます。 PDFのレンダリングに5分以上かかる場合は、代わりに[PDF](../curate-share/send-schedule-files.md)に電子メールを送信するように求められます。
 * ダウンロードは、ページ番号が適用されない単一ページとしてレンダリングされます。
-* PDFには、Analysis Workspaceのブラウザーページに表示される内容が含まれています。 切り捨てられたコンテンツを避けるには、![ サイズ変更](/help/assets/icons/Resize.svg)を選択して、カスタムサイズのビジュアライゼーションまたはパネルのサイズを自動的に変更します。
-* フリーフォームテーブル内の[ ハイパーリンク ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)は、ダウンロードしたPDFでクリックできます。
+* PDFには、Analysis Workspaceのブラウザーページに表示される内容が含まれています。 切り捨てられたコンテンツを避けるには、![&#x200B; サイズ変更](/help/assets/icons/Resize.svg)を選択して、カスタムサイズのビジュアライゼーションまたはパネルのサイズを自動的に変更します。
+* フリーフォームテーブル内の[&#x200B; ハイパーリンク &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)は、ダウンロードしたPDFでクリックできます。
 
 プロジェクトをPDF ファイルとしてダウンロードするには：
 
@@ -144,7 +144,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ファイルがダウンロードされると、次の通知が表示されます。
 
-* 青い&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがリクエストされました。_x _%完了]**進行状況を示します。 いつでもダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択します。これにより、ダウンロードがキャンセルされません。
+* 青い&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがリクエストされました。_x _%完了]**&#x200B;進行状況を示します。 いつでもダウンロードをキャンセルするには、「**[!UICONTROL ダウンロードをキャンセル]**」を選択します。 メッセージを閉じる場合は、![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択します。これにより、ダウンロードがキャンセルされません。
 * ファイルのダウンロードが完了すると、緑色の&#x200B;**[!UICONTROL _テーブル名&#x200B;_-_Dimension _.csvがダウンロードされました]**。 ファイルは、ブラウザー用に設定されたダウンロードフォルダーにダウンロードされます。
 
 一度に複数のダウンロードをリクエストする場合、前のダウンロードが完了するまで、追加のダウンロードがキューに入れられるという通知が届きます。
@@ -154,9 +154,9 @@ Only relevant as soon as CJA supports Map visualization
 
 | 質問 | 回答 |
 | --- | --- |
-| ダウンロードしたPDFが1 ページのみなのはなぜですか？ | [PDFのダウンロード ](#download-as-csv-or-pdf)機能では、ダウンロードしたPDFにページネーションを設定できません。 |
+| ダウンロードしたPDFが1 ページのみなのはなぜですか？ | [PDFのダウンロード &#x200B;](#download-as-csv-or-pdf)機能では、ダウンロードしたPDFにページネーションを設定できません。 |
 | **[!UICONTROL 項目をCSV]**&#x200B;としてダウンロードするオプションを使用して、50,000件以上の項目を書き出せますか？ | 各ダウンロードには最大 50,000 個のディメンション項目を含めることができますが、テーブルの並べ替えを変更してテールがより長い項目を取得したり、フィルターを適用してより特定の項目をダウンロードしたりできます。 |
-| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | [!UICONTROL **クリップボードにデータをコピー**]&#x200B;または&#x200B;[!UICONTROL **クリップボードに選択範囲をコピー**]&#x200B;とは異なり、**[!UICONTROL ビジュアライゼーションをコピー]** コンテキストメニューオプションは書き出しオプションではありません。 このオプションを使用すると、Workspaceのある場所から別の場所に[ ビジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)または[ パネル ](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)をコピーできます。 例えば、同じプロジェクト内のパネル間の移動、または別のプロジェクト間の移動などです。 |
+| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | [!UICONTROL **クリップボードにデータをコピー**]&#x200B;または&#x200B;[!UICONTROL **クリップボードに選択範囲をコピー**]&#x200B;とは異なり、**[!UICONTROL ビジュアライゼーションをコピー]** コンテキストメニューオプションは書き出しオプションではありません。 このオプションを使用すると、Workspaceのある場所から別の場所に[&#x200B; ビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)または[&#x200B; パネル &#x200B;](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)をコピーできます。 例えば、同じプロジェクト内のパネル間の移動、または別のプロジェクト間の移動などです。 |
 
 
 

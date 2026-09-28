@@ -38,7 +38,7 @@ ht-degree: 57%
 
 プロジェクトをキュレーションして共有したり、プロジェクトをPDFまたはCSV ファイルとして組織内の受信者に送信してダウンロードしたり、Analysis Workspaceの&#x200B;**[!UICONTROL Share]** メニューまたはインターフェイスの右上の&#x200B;**[!UICONTROL Share]**&#x200B;を選択した場合に使用できるオプションを使用して、他のユーザーと共有したりできます。
 
-![ オプションの共有](assets/share-options.png)
+![&#x200B; オプションの共有](assets/share-options.png)
 
 | オプション | 説明 |
 |---|---|
@@ -47,4 +47,4 @@ ht-degree: 57%
 | **[!UICONTROL 任意のユーザーと共有]** | Adobe Analytics へのアクセス権を持たないユーザーに、Analysis Workspace プロジェクトへの読み取り専用アクセス権を付与します。 [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | **[!UICONTROL ファイルを送信]** | プロジェクトを CSV または PDF 形式で、指定した受信者にすぐに送信します。 [詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | **[!UICONTROL ファイルの書き出しをスケジュール]** | プロジェクトを CSV または PDF 形式でスケジュールに従って指定した受信者に送信します。 [詳細情報](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
-| **[!UICONTROL CSVとしてダウンロード ]**<br/>**[!UICONTROL PDFとしてダウンロード]** | PDFのCSVとしてプロジェクトをダウンロードします。 [詳細情報](download-send.md)。 |
+| **[!UICONTROL CSVとしてダウンロード &#x200B;]**<br/>**[!UICONTROL PDFとしてダウンロード]** | PDFのCSVとしてプロジェクトをダウンロードします。 [詳細情報](download-send.md)。 |

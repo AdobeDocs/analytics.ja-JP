@@ -45,11 +45,11 @@ Media publisher は、サイズだけでなくオーディエンスの有効性�
 
 ## 類似モデリング {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-マルチメディアパブリッシャーは、[ セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)を使用してサードパーティオーディエンスを比較し、主要な差別化特性を把握できます。 この比較は、ターゲティングに使用する価値の高い1st パーティセグメントを構築するのに役立ちます。
+マルチメディアパブリッシャーは、[&#x200B; セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)を使用してサードパーティオーディエンスを比較し、主要な差別化特性を把握できます。 この比較は、ターゲティングに使用する価値の高い1st パーティセグメントを構築するのに役立ちます。
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B Retailerでは、[ シーケンシャルセグメンテーション ](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を利用して、購入直前の見込み客の行動を詳細に分析できるようになりました。これは、コンバージョンにつながる行動を把握するのに役立ちます。
+B2B Retailerでは、[&#x200B; シーケンシャルセグメンテーション &#x200B;](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を利用して、購入直前の見込み客の行動を詳細に分析できるようになりました。これは、コンバージョンにつながる行動を把握するのに役立ちます。
 
 ## デモグラフィックターゲティング {#section_F034DB721A06419283DBD29D4A1B444B}
 

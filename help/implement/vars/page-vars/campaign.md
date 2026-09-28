@@ -37,14 +37,14 @@ ht-degree: 74%
 
 `campaign` 変数は、サイトでのトラッキングコードの収集専用です。 以前のバージョンの Adobe Analytics では、ほとんどのディメンションの分類として使用できる特別な処理がおこなわれていました。 現在のバージョンの Adobe Analytics では、eVar と同じ動作をします。
 
-この変数は、[ トラッキングコード ](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
+この変数は、[&#x200B; トラッキングコード &#x200B;](/help/components/dimensions/tracking-code.md) ディメンションに入力されます。 通常、[`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) ユーティリティメソッドを使用して、クエリ文字列からその値を取得します。 ただし、この変数を設定する方法は、組織によって正確に決まります。
 
 ## Web SDKを使用したキャンペーン
 
 Campaignは次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign`または`data.__adobe.analytics.v0`
 
 ## Adobe Analytics拡張機能を使用したキャンペーン
 

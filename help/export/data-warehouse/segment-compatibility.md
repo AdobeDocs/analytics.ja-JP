@@ -49,17 +49,17 @@ ht-degree: 9%
 
 ## サポートされているコンポーネント
 
-セグメントは、適用されたリクエストと同じデータに対して評価されるので、**Data Warehouse リクエストでサポートされていないコンポーネントもセグメントでサポートされていません。** Data Warehouseがサポートしていないディメンションと指標の完全なリストについては、[Data Warehouseでのコンポーネントのサポート ](component-support.md)を参照してください。
+セグメントは、適用されたリクエストと同じデータに対して評価されるので、**Data Warehouse リクエストでサポートされていないコンポーネントもセグメントでサポートされていません。** Data Warehouseがサポートしていないディメンションと指標の完全なリストについては、[Data Warehouseでのコンポーネントのサポート &#x200B;](component-support.md)を参照してください。
 
-[ コンポーネントサポート ](component-support.md)に記載されているディメンションと指標に加えて、次のディメンションはData Warehouse *リクエスト*&#x200B;で使用できますが、**はセグメント定義**&#x200B;内で使用できません。
+[&#x200B; コンポーネントサポート &#x200B;](component-support.md)に記載されているディメンションと指標に加えて、次のディメンションはData Warehouse *リクエスト*&#x200B;で使用できますが、**はセグメント定義**&#x200B;内で使用できません。
 
 * [[!UICONTROL 月間通算日]](/help/components/dimensions/day-of-month.md)
 * [[!UICONTROL 曜日]](/help/components/dimensions/day-of-week.md)
 * [[!UICONTROL 年間通算日]](/help/components/dimensions/day-of-year.md)
 * [[!UICONTROL 時間帯]](/help/components/dimensions/hour-of-day.md)
-* [[!UICONTROL  マーケティングチャネル ]](/help/components/dimensions/marketing-channel.md) （代わりに[[!UICONTROL  ラストタッチチャネル ]](/help/components/dimensions/last-touch-channel.md)を使用）
+* [[!UICONTROL &#x200B; マーケティングチャネル &#x200B;]](/help/components/dimensions/marketing-channel.md) （代わりに[[!UICONTROL &#x200B; ラストタッチチャネル &#x200B;]](/help/components/dimensions/last-touch-channel.md)を使用）
 * [[!UICONTROL 年間通算月]](/help/components/dimensions/month-of-year.md)
-* [[!UICONTROL  ページが見つかりません]](/help/components/dimensions/pages-not-found.md) （代わりに[[!UICONTROL  ページタイプエラー]](/help/components/dimensions/pages-not-found.md)を使用）
+* [[!UICONTROL &#x200B; ページが見つかりません]](/help/components/dimensions/pages-not-found.md) （代わりに[[!UICONTROL &#x200B; ページタイプエラー]](/help/components/dimensions/pages-not-found.md)を使用）
 * [[!UICONTROL 四半期]](/help/components/dimensions/quarter-of-year.md)
 * [[!UICONTROL 平日／週末]](/help/components/dimensions/weekday-weekend.md)
 

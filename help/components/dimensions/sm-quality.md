@@ -1,6 +1,6 @@
 ---
 title: ストリーミングメディアサービスの品質ディメンション
-description: レポートスイートで[!UICONTROL  メディア品質]を有効にした場合に使用できるディメンション。
+description: レポートスイートで[!UICONTROL &#x200B; メディア品質]を有効にした場合に使用できるディメンション。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
 TQID: 'https://experienceleague.adobe.com/AChqO3g-kV5i4h4nmYjFjEG68nFNhwDEs-fD77dDNrQ'
@@ -48,14 +48,14 @@ ht-degree: 0%
 
 次のディメンションを使用できます。
 
-* [[!UICONTROL 平均ビットレート ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
-* [[!UICONTROL  ビットレートの変更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
-* [[!UICONTROL  バッファーイベント ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL 平均ビットレート &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL &#x200B; ビットレートの変更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL &#x200B; バッファーイベント &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
 * [[!UICONTROL 合計バッファー時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
-* [[!UICONTROL  フレームをドロップ ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL &#x200B; フレームをドロップ &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
 * [[!UICONTROL エラー]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
 * [[!UICONTROL 外部エラーID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
 * [[!UICONTROL Player SDK エラーID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
 * [[!UICONTROL 開始までの時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
 
-対応する指標については、[ ストリーミングメディアサービスの品質指標](../metrics/sm-quality.md)を参照してください。
+対応する指標については、[&#x200B; ストリーミングメディアサービスの品質指標](../metrics/sm-quality.md)を参照してください。

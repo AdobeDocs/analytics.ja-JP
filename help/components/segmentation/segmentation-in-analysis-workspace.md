@@ -39,7 +39,7 @@ ht-degree: 5%
 ---
 # 顧客データ
 
-Analysis Workspaceの[ セグメントの標準使用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)以外に、次の機能を使用できます。
+Analysis Workspaceの[&#x200B; セグメントの標準使用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md)以外に、次の機能を使用できます。
 
 * [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
@@ -47,4 +47,4 @@ Analysis Workspaceの[ セグメントの標準使用](/help/components/segmenta
 
 >[!MORELIKETHIS]
 >
->[ セグメントを使用](segmentation-workflow/t-seg-apply.md)
+>[&#x200B; セグメントを使用](segmentation-workflow/t-seg-apply.md)

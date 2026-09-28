@@ -46,6 +46,6 @@ ht-degree: 51%
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
 
-![](assets/step4_icon.png) [ 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
+![](assets/step4_icon.png) [&#x200B; 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
 
 仮想レポートスイートマネージャーを使用すると、仮想レポートスイートを編集、追加、タグ付け、削除、名前変更、承認、コピー、書き出し、フィルターできます。 管理者以外のユーザーには表示されません。

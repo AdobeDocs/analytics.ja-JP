@@ -35,20 +35,20 @@ ht-degree: 79%
 ---
 # transactionID
 
-`transactionID`変数は、ヒットが[ トランザクション ID データソース ](/help/import/data-sources/transactionid.md)を通じてアップロードされたデータにディメンション値を提供できるように、トランザクションを一意に識別します。 この変数は、オフラインチャネルデータを、オンラインチャネルデータから収集された値で入力する場合に役立ちます。
+`transactionID`変数は、ヒットが[&#x200B; トランザクション ID データソース &#x200B;](/help/import/data-sources/transactionid.md)を通じてアップロードされたデータにディメンション値を提供できるように、トランザクションを一意に識別します。 この変数は、オフラインチャネルデータを、オンラインチャネルデータから収集された値で入力する場合に役立ちます。
 
 >[!NOTE]
 >
 >この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。 詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)」を参照してください。
 
-`transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。 スナップショットに含まれるディメンションのリストについては、[ トランザクション ID データソース ](/help/import/data-sources/transactionid.md)を参照してください。 Adobeは、最大25か月間、すべてのトランザクション ID値（リンク済みおよびリンクなし）を記憶します。
+`transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。 スナップショットに含まれるディメンションのリストについては、[&#x200B; トランザクション ID データソース &#x200B;](/help/import/data-sources/transactionid.md)を参照してください。 Adobeは、最大25か月間、すべてのトランザクション ID値（リンク済みおよびリンクなし）を記憶します。
 
 ## Web SDK を使用したトランザクション ID
 
 トランザクション IDは、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID`または`xdm.commerce.order.payments.transactionID`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID`または`data.__adobe.analytics.xact`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.payments[3].transactionID`または`xdm.commerce.order.payments.transactionID`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.transactionID`または`data.__adobe.analytics.xact`
 
 ## Adobe Analytics 拡張機能を使用したトランザクション ID
 

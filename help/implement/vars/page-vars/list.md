@@ -47,7 +47,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->リスト変数は、[ レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)の[!UICONTROL 最大値]設定に基づいて、訪問者ごとに最新の値を保存します。 最大250個の値がサポートされています。 [!UICONTROL 最大値]設定で許可されている値よりも一意の値が多い場合、最も古い値は指標に関連付けられません。
+>リスト変数は、[&#x200B; レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)の[!UICONTROL 最大値]設定に基づいて、訪問者ごとに最新の値を保存します。 最大250個の値がサポートされています。 [!UICONTROL 最大値]設定で許可されている値よりも一意の値が多い場合、最も古い値は指標に関連付けられません。
 
 ## レポートスイート設定でのリスト変数の設定
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 
 ## Web SDK を使用したリスト変数
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、リスト変数はXDM フィールド `xdm._experience.analytics.customDimensions.lists.list1.list[]`から`xdm._experience.analytics.customDimensions.lists.list3.list[]`を使用します。 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。Adobe データ収集サーバーは、[ レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で設定された正しい区切り文字を自動的に検出して含めます。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、リスト変数はXDM フィールド `xdm._experience.analytics.customDimensions.lists.list1.list[]`から`xdm._experience.analytics.customDimensions.lists.list3.list[]`を使用します。 各配列要素には、各文字列を含む `"value"` オブジェクトが含まれます。 区切り文字を指定する必要はありません。Adobe データ収集サーバーは、[&#x200B; レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で設定された正しい区切り文字を自動的に検出して含めます。
 
 ```json
 "xdm": {
@@ -87,7 +87,7 @@ ht-degree: 74%
 >
 >Adobe XDM スキーマには、各 `list[]` 配列の `value` オブジェクトに加えて `key` オブジェクトが含まれています。 アドビは、データを Adobe Analytics に送信するときにこれらの `key` オブジェクトを使用しません。
 
-[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、リスト変数はAppMeasurementの構文に従って`data.__adobe.analytics.list1` ～ `data.adobe.analytics.list3`を使用します。 [ レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で正しい区切り文字を使用していることを確認してください。
+[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、リスト変数はAppMeasurementの構文に従って`data.__adobe.analytics.list1` ～ `data.adobe.analytics.list3`を使用します。 [&#x200B; レポートスイート設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)で正しい区切り文字を使用していることを確認してください。
 
 ```json
 "data": {

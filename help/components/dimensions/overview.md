@@ -59,9 +59,9 @@ Analytics 管理者は、レポートスイート内または直接 Analysis Wor
 * **ホームページ**：現在のページが訪問者のブラウザーのホームページであるかどうかを示すフラグ。 これは、最新のブラウザープライバシー慣行に対応していない、レガシーディメンションです。
 * **JavaScript サポート**：訪問者のブラウザーがJavaScriptをサポートしているかどうかを示します。 もはや現代の測定には意味のないレガシーディメンション。
 * **JavaScript バージョン**：訪問者のブラウザーがサポートしているJavaScript バージョンを報告しました。 収集されなくなったレガシーディメンション。
-* **次ページ**：訪問者が表示した次のページを示すパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[ フロービジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
-* **前のページ**：訪問者が閲覧した前のページを表示するパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[ フロービジュアライゼーション ](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
+* **次ページ**：訪問者が表示した次のページを示すパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[&#x200B; フロービジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
+* **前のページ**：訪問者が閲覧した前のページを表示するパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[&#x200B; フロービジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
 * **タイムゾーン**：訪問者のタイムゾーン。AppMeasurement イメージリクエストのタイムスタンプオフセットから派生します。 Web SDKは、[`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)を使用してタイムゾーンを収集します。
 * **トップレベルドメイン**：訪問者のアクセスポイントのトップレベルドメイン。 従来のReports &amp; Analytics レポート。代わりに[Domain](domain.md) ディメンションを使用してください。
-* **訪問ページ番号**：訪問中のページ番号。 従来のReports &amp; Analytics レポート。代わりに[ ヒット深度](hit-depth.md) ディメンションを使用します。
+* **訪問ページ番号**：訪問中のページ番号。 従来のReports &amp; Analytics レポート。代わりに[&#x200B; ヒット深度](hit-depth.md) ディメンションを使用します。
 * **訪問者の状態**: `s.state`変数から米国の状態を報告しました。 これは、ジオセグメンテーションを使用する[US States](us-states.md) ディメンションを支持して廃止されました。

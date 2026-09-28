@@ -43,7 +43,7 @@ ht-degree: 11%
 次のディメンションはData Warehouseで使用できますが、他のAdobe Analytics機能では使用できません。
 
 * [[!UICONTROL Experience Cloud訪問者ID]](/help/components/dimensions/experience-cloud-visitor-id.md)
-* [[!UICONTROL IP アドレス ]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL IP アドレス &#x200B;]](/help/components/dimensions/ip-address.md)
 * [[!UICONTROL ページ URL]](/help/components/dimensions/page-url.md)
 * [[!UICONTROL 購入ID]](/help/components/dimensions/purchase-id.md)
 * [[!UICONTROL 訪問者 ID]](/help/components/dimensions/visitor-id.md)
@@ -53,19 +53,19 @@ ht-degree: 11%
 次のディメンションは、Data Warehouse レポートまたはセグメントでは使用できません。
 
 * [[!UICONTROL 午前／午後]](/help/components/dimensions/am-pm.md)
-* [[!UICONTROL 入口ページ ]](/help/components/dimensions/entry-dimensions.md)および[[!UICONTROL 入口ページ元]](/help/components/dimensions/entry-dimensions.md)を除くすべての入口ディメンション（許可されている）
-* [[!UICONTROL 終了ページ ]](/help/components/dimensions/exit-dimensions.md)および[[!UICONTROL 終了リンク ]](/help/components/dimensions/exit-link.md)を除くすべての終了ディメンション（許可されている）
-* [[!UICONTROL  ヒット深度]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL 入口ページ &#x200B;]](/help/components/dimensions/entry-dimensions.md)および[[!UICONTROL 入口ページ元]](/help/components/dimensions/entry-dimensions.md)を除くすべての入口ディメンション（許可されている）
+* [[!UICONTROL 終了ページ &#x200B;]](/help/components/dimensions/exit-dimensions.md)および[[!UICONTROL 終了リンク &#x200B;]](/help/components/dimensions/exit-link.md)を除くすべての終了ディメンション（許可されている）
+* [[!UICONTROL &#x200B; ヒット深度]](/help/components/dimensions/hit-depth.md)
 * [[!UICONTROL 再来訪頻度]](/help/components/dimensions/return-frequency.md)
 * [[!UICONTROL イベント前の時間]](/help/components/dimensions/time-prior-to-event.md)
-* [[!UICONTROL  ページ滞在時間 – バケット化]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL &#x200B; ページ滞在時間 – バケット化]](/help/components/dimensions/time-spent-on-page.md)
 * [[!UICONTROL 訪問当たりの滞在時間 – バケット化]](/help/components/dimensions/time-spent-per-visit.md)
-* [[!UICONTROL すべての検索ページのランク ]](/help/components/dimensions/all-search-page-rank.md)
+* [[!UICONTROL すべての検索ページのランク &#x200B;]](/help/components/dimensions/all-search-page-rank.md)
 * [[!UICONTROL 階層]](/help/components/dimensions/overview.md#retired-dimensions)変数
 * [[!UICONTROL ヒットタイプ]](/help/components/dimensions/hit-type.md)
 * [[!UICONTROL 有料検索]](/help/components/dimensions/paid-search.md)
 * [[!UICONTROL 直帰数]](/help/components/dimensions/single-page-visits.md)
-* [[!UICONTROL  オプトアウトのトラッキング理由]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL &#x200B; オプトアウトのトラッキング理由]](/help/components/dimensions/tracking-opt-out-reason.md)
 * [[!UICONTROL 米国]](/help/components/dimensions/us-states.md)
 
 一部のディメンションはData Warehouse リクエストで使用できますが、セグメント内では使用できません。 詳しくは、[Data Warehouse セグメントの互換性](segment-compatibility.md)を参照してください。
@@ -98,10 +98,10 @@ ht-degree: 11%
 
 次の指標は、Data Warehouseでは使用できません。
 
-* [[!UICONTROL  バウンス ]](/help/components/metrics/bounces.md)
+* [[!UICONTROL &#x200B; バウンス &#x200B;]](/help/components/metrics/bounces.md)
 * [[!UICONTROL 入口]](/help/components/metrics/entries.md)
 * [[!UICONTROL 出口]](/help/components/metrics/exits.md)
 * [[!UICONTROL リロード回数]](/help/components/metrics/reloads.md)
-* [[!UICONTROL 単一アクセス ]](/help/components/metrics/single-access.md)
+* [[!UICONTROL 単一アクセス &#x200B;]](/help/components/metrics/single-access.md)
 * 任意の[[!UICONTROL 滞在時間]](/help/components/metrics/time-spent.md)指標
 * [参加](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md) アトリビューションモデルを使用するすべての指標

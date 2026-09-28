@@ -45,8 +45,8 @@ ht-degree: 81%
 
 Zip コードは、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
 
 ## Adobe Analytics拡張機能を使用した郵便番号
 

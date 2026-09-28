@@ -37,7 +37,7 @@ ht-degree: 58%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_<br/>_のヒストグラムのビジュアライゼーションについて説明します。_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[Histogram](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/histogram)を参照してください。_
+_この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_<br/>_のヒストグラムのビジュアライゼーションについて説明します。_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[Histogram](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/histogram)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 | **[!UICONTROL 開始バケット]** | ヒストグラムの開始位置となるバケットを指定します。 「1」がデフォルトです。 0から無限大（負の数は含まない）までの開始数を設定できます。 |
 | **[!UICONTROL 指標バケット]** | データ範囲（バケット）の数を増減できます。 グループの最大数は 50 です。 |
 | **[!UICONTROL 指標バケットのサイズ]** | 各バケットのサイズを設定できます。 例えば、バケットのサイズを1つのページビューから2つのページビューに変更できます。 |
-| **[!UICONTROL カウント方法]** | **[!UICONTROL ユーザー]**、**[!UICONTROL セッション]**、**[!UICONTROL イベント]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;から選択します（[ サブヒット分析](/help/components/segmentation/sub-hit.md)の場合）。 たとえば、セッションごとのページビュー、人物ごとのページビュー、イベントごとのページビュー、商品ごとのページビューなどがあります。 |
+| **[!UICONTROL カウント方法]** | **[!UICONTROL ユーザー]**、**[!UICONTROL セッション]**、**[!UICONTROL イベント]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;から選択します（[&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)の場合）。 たとえば、セッションごとのページビュー、人物ごとのページビュー、イベントごとのページビュー、商品ごとのページビューなどがあります。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -83,7 +83,7 @@ _この記事では、この記事の_ ![AdobeAnalytics](/help/assets/icons/Adob
 
 >[!MORELIKETHIS]
 >
->[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >[ヒストグラムを使用して予期しないデータ値を識別する](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)

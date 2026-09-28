@@ -35,7 +35,7 @@ ht-degree: 60%
 
 ## 最後の手段として`Contains`演算子のみを使用する
 
-[**[!UICONTROL Contains ]**オペレーター](/help/components/segmentation/seg-reference/seg-operators.md)は、オペレーターがすべての値のコンテンツ全体を分析する必要があるため、セグメンテーションで最も処理集約的な機能の1つです。 目的の値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B;で始まる&#x200B;]**や**[!UICONTROL &#x200B;で終わる&#x200B;]**などの他の演算子の使用を検討してください。
+[**[!UICONTROL Contains &#x200B;]**&#x200B;オペレーター](/help/components/segmentation/seg-reference/seg-operators.md)は、オペレーターがすべての値のコンテンツ全体を分析する必要があるため、セグメンテーションで最も処理集約的な機能の1つです。 目的の値が文字列の先頭または末尾にある場合は、**[!UICONTROL &#x200B;で始まる&#x200B;]**&#x200B;や&#x200B;**[!UICONTROL &#x200B;で終わる&#x200B;]**&#x200B;などの他の演算子の使用を検討してください。
 
 セグメント内の&#x200B;**[!UICONTROL Contains]**&#x200B;演算子が多数の結果を返す場合、レポートは通常タイムアウトします。 例えば、**[!UICONTROL Referrer]** **[!UICONTROL が]** `"."`に等しいセグメントを作成した場合、セグメントはすべての値の内容を検索します。 代わりに、**[!UICONTROL Exists]**&#x200B;演算子の使用を検討してください。
 

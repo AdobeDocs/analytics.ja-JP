@@ -51,8 +51,8 @@ ht-degree: 78%
 
 購入IDは、次の変数にマッピングされます。
 
-* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
-* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
+* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Adobe Analytics拡張機能を使用した購入ID
 
