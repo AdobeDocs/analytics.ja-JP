@@ -1,30 +1,38 @@
 ---
 title: t
-description: ページビュートラッキングコールをアドビに送信します。
+description: ページビューのトラッキング呼び出しをアドビに送信します。
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/WYNldeJM0szf8-LeEzUZL0NLq8j5NtH-Sz2Yo6Pmkks'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 55%
-
 ---
-
 # t （）
 
 `t()` メソッドは、Adobe Analytics の重要なコアコンポーネントです。 ページで定義されているすべての Analytics 変数を取得し、それらをイメージリクエストにコンパイルして、そのデータをアドビのデータ収集サーバーに送信します。
@@ -58,7 +66,7 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL &#x200B; アクション &#x200B;]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. [!UICONTROL  アクション ]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
 1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;に設定し、[!UICONTROL Action Type]を&#x200B;**[!UICONTROL Send event]**&#x200B;に設定します。
 
 ## Web SDKを手動で実装するSend event
@@ -71,7 +79,7 @@ alloy("sendEvent", {
 });
 ```
 
-詳しくは、Web SDK ドキュメントの[`sendEvent`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendevent/overview)を参照してください。
+詳しくは、Web SDK ドキュメントの[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)を参照してください。
 
 ## Adobe Analytics拡張機能を使用したページビュートラッキング呼び出し
 
@@ -80,8 +88,8 @@ Adobe Experience Platform Data CollectionのAdobe Analytics拡張機能には、
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. [!UICONTROL &#x200B; アクション &#x200B;]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
-1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;に設定し、[!UICONTROL &#x200B; アクションタイプ &#x200B;]を&#x200B;**[!UICONTROL ビーコンを送信]**&#x200B;に設定します。
+1. [!UICONTROL  アクション ]で、目的のアクションをクリックするか、**&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. [!UICONTROL 拡張機能] ドロップダウンリストを&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;に設定し、[!UICONTROL  アクションタイプ ]を&#x200B;**[!UICONTROL ビーコンを送信]**&#x200B;に設定します。
 1. 「`s.t()`」ラジオボタンをクリックします。
 
 ## AppMeasurementのs.t （） メソッドとAnalytics拡張機能のカスタムコードエディター
