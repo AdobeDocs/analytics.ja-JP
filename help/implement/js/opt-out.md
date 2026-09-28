@@ -71,7 +71,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
   1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
   1. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)を使用：
+* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)を使用：
   1. Chrome ブラウザーを使用してサイトに移動します。
   1. CX Enterprise Debuggerを開き、[!UICONTROL Network タブ &#x200B;]に移動します。
   1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
