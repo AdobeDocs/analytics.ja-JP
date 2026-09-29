@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 72%
-
 ---
-
 # Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 
 Analytics ユーザーアカウントを Enterprise ID または Federated ID として Adobe Admin Console に移行する方法。
@@ -51,12 +54,12 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 * リストを比較します（Adobe Admin Console でアカウントデータが上書きされるのを防ぐために、重複を探します）。
 * Enterprise ID または Federated ID ユーザーを使用して最終版 [!DNL .csv]（**[!UICONTROL Admin Console]**／**[!UICONTROL ユーザー]**&#x200B;から取得したもの）を Adobe Admin Console にアップロードします。
 
-既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[&#x200B; ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
+既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[ ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
 
 **ユーザーアカウントを移行するには**
 
 1. 次のいずれかのメソッド（ユーザーを移行済みかどうかによって異なります）を使用して、Analytics User Management から Analytics ユーザーログインファイル（[!DNL User Logins List.tab]）をダウンロードします。
-   1. *移行する前に、***[!UICONTROL Admin]** ／ **[!UICONTROL User Management (Legacy)]** ／ **[!UICONTROL Edit Users]** へ移動してから、「**[!UICONTROL Download Report]**」をクリックします。
+   1. *移行する前に、***[!UICONTROL 管理]**／**[!UICONTROL ユーザー管理（レガシー）]**／**[!UICONTROL ユーザーを編集]**&#x200B;へ移動してから、「**[!UICONTROL レポートをダウンロード]**」をクリックします。
 
       ![](/help/admin/tools/user-management/user-migration/assets/download-report.png)
 
@@ -92,7 +95,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 
       >[!IMPORTANT]
       >
-      >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。 この手順は、Adobe Admin Consoleの既存のCX Enterprise ユーザー権限が上書きされるのを防ぐのに役立ち、移行するアカウントのリストを提供します。
+      >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。 この手順を実行すると、Adobe Admin Consoleで既存のCX Enterprise ユーザー権限が上書きされるのを防ぐことができ、移行するアカウントのリストが表示されます。
 
 1. Adobe Admin Console から CSV テンプレートをダウンロードします。
    1. 「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」、「**[!UICONTROL CSV テンプレートのダウンロード]**」の順にクリックします。
@@ -113,46 +116,46 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 
 1. テンプレート（[!DNL sample.csv]）で、次の必須フィールドに入力します。
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> フィールド </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>電子メール </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>名 </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>姓 </p> </td> 
-   <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID タイプ </p> </td> 
-   <td colname="col2"> <p><span class="term">Federated ID</span> または<span class="term"> Enterprise ID</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p><span class="term"> ドメイン </span>および<span class="term"> メール </span>列のドメインが、前提条件</a>で確立されたドメインと一致していることを確認してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>国コード </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> フィールド </th> 
+      <th colname="col2" class="entry"> 説明 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>電子メール </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>名 </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>姓 </p> </td> 
+      <td colname="col2"> <p><span class="filepath">User Logins List.tab</span> からコピーしたもの。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>ID タイプ </p> </td> 
+      <td colname="col2"> <p><span class="term">Federated ID</span> または<span class="term"> Enterprise ID</span>。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>ドメイン </p> </td> 
+      <td colname="col2"> <p><span class="term"> ドメイン </span>および<span class="term"> メール </span>列のドメインが、前提条件</a>で確立されたドメインと一致していることを確認してください。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>国コード </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+   [!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
->[!NOTE]
->
->その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
+   >[!NOTE]
+   >
+   >その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
 
 1. Adobe Admin Console の「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」（手順 3 のとおり）をクリックしてテンプレートファイルをアップロードします。
 1. Analytics で、移行ツールを実行します（[Analytics ユーザーアカウントの移行](/help/admin/tools/user-management/user-migration/t-migrate-users.md)を参照）。
