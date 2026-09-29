@@ -90,7 +90,7 @@ ht-degree: 72%
 定義のタイプと範囲を設定できます。
 
 1. 定義のタイプを指定するには、包含または除外の定義を作成するかどうかを指定します。 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL オプション]**&#x200B;を選択し、ドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]**&#x200B;を選択します。
-1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [ サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
+1. 定義の範囲を指定するには、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから、定義の範囲を&#x200B;**[!UICONTROL ヒット]**、**[!UICONTROL 訪問]**、**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 製品]**&#x200B;にするかどうかを選択します。 [&#x200B; サブヒット分析](/help/components/segmentation/sub-hit.md)のユースケースに&#x200B;**[!UICONTROL 製品]**&#x200B;を使用しています。
 
 これらの設定は、いつでも後から変更できます。
 
@@ -104,10 +104,10 @@ ht-degree: 72%
 
 1. コンポーネントパネルからコンポーネントを&#x200B;**[!UICONTROL ここに指標、セグメント、ディメンションをドラッグ＆ドロップ]**&#x200B;にドラッグ＆ドロップします。
    * コンポーネントバーで![検索](/help/assets/icons/Search.svg)を使用して、特定のコンポーネントを検索できます。
-   * コンポーネントバーの![ フィルター](/help/assets/icons/Filter.svg)を使用して、![ チェックマーク ](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![ データディメンション ](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![ イベント ](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![ セグメント **[!UICONTROL カレンダー](/help/assets/icons/Calendar.svg)日付**[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]**、および![ レイヤー](/help/assets/icons/Layer.svg)**[!UICONTROL &#x200B;製品&#x200B;]**コンポーネント。 ](/help/assets/icons/Segmentation.svg)]**![![ ラベル ](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
+   * コンポーネントバーの![&#x200B; フィルター](/help/assets/icons/Filter.svg)を使用して、![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) **[!UICONTROL 承認済み]**、![星](/help/assets/icons/Star.svg) **[!UICONTROL お気に入り]**、![&#x200B; データディメンション &#x200B;](/help/assets/icons2/DataDimension.svg)**[!UICONTROL ディメンション]**、![&#x200B; イベント &#x200B;](/help/assets/icons/Event.svg)**[!UICONTROL 指標]**、![&#128279;](/help/assets/icons/Layer.svg)&#x200B; セグメント **![[!UICONTROL カレンダー]](/help/assets/icons/Calendar.svg)日付**&#x200B;[!UICONTROL &#x200B;でフィルタリングできます範囲&#x200B;]&#x200B;**、および&#x200B; レイヤー**&#x200B;[!UICONTROL &#x200B;製品&#x200B;]&#x200B;**コンポーネント。 &#x200B;![](/help/assets/icons/Segmentation.svg)&rbrack;**&lbrack;![&#x200B; ラベル &#x200B;](/help/assets/icons/Label.svg) タグでフィルタリングすることもできます。
 1. コンポーネントの詳細を指定します。 例えば、「**[!UICONTROL 値を選択]**」から値を選択します。 または値を入力します。 1 つ以上の値を指定できる内容と方法は、コンポーネントと演算子によって異なります。
 
-1. （オプション）レポート日付範囲&#x200B;**]に結果を[!UICONTROL **&#x200B;制限するオプションを有効にします。
+1. （オプション）レポート日付範囲&#x200B;**に結果を**&#x200B;制限するオプションを有効にします。
 
    セグメントに日付範囲コンポーネントが含まれている場合、Workspace レポートのデータは、レポート日付範囲を超えて拡張される可能性があります。
 
@@ -115,7 +115,7 @@ ht-degree: 72%
 
    このオプションは、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから&#x200B;[!UICONTROL **人物**]&#x200B;が定義のスコープ（コンテナ）として選択されている場合にのみ表示されます。
 
-   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース ](/help/release-notes/releases.md)を参照してください。
+   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース &#x200B;](/help/release-notes/releases.md)を参照してください。
 
 1. （オプション）デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
@@ -140,7 +140,7 @@ ht-degree: 72%
 * 別のコンポーネントをコンテナに追加するには、コンポーネントパネルからコンテナにコンポーネントをドラッグ＆ドロップします。 青色の挿入線をガイドとして使用します。
 * 別のコンポーネントをコンテナの外側に追加するには、コンポーネントパネルからコンポーネントをドラッグ＆ドロップし、コンテナの外側でメイン定義コンテナの内側に配置します。 青色の挿入線をガイドとして使用します。
 * コンポーネント、コンテナ、またはその組み合わせのロジックを変更するには、適切な&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**&#x200B;を選択します。 「**[!UICONTROL Then]**」を選択すると、セグメントが順次セグメントに変わります。 詳しくは、[順次セグメントの作成](seg-sequential-build.md)を参照してください。
-* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![ ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
+* コンテナレベルを切り替えるには、![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL ヒット]**、![訪問](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問]**、![&#x200B; ユーザー](/help/assets/icons/User.svg) **[!UICONTROL 訪問者]**&#x200B;または![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 製品]**&#x200B;を選択します。
 
 コンテナ内の ![設定](/help/assets/icons/Setting.svg) は、次のアクションに使用できます。
 
