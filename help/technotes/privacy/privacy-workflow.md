@@ -7,28 +7,37 @@ exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 TQID: 'https://experienceleague.adobe.com/n0zqbcuPD2lvtgYNtdQx5VsBl-FrmzfqU-z2iIn83hg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 59%
-
 ---
-
 # プライバシーワークフロー
 
-このワークフローでは、データプライバシーにおけるデータ主体のアクセスおよび削除の権利に対応できるよう Adobe Analytics を設定する手順を解説します。
+このワークフローでは、Adobe Analytics の実装を、データ主体のデータプライバシーに関するデータアクセスおよび削除の権利をサポートできるようにするために必要な手順の概要を説明します。
 
 1. Adobe Experience Platform の [Privacy Service の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)ページから始めて、Analytics データにラベルを付ける前にどのような質問をするべきかを把握してください。
 1. **データ保持ポリシーを設定します。** Adobeがデータプライバシーデータへのアクセス/削除要求を処理するには、データ保持ポリシーが必要です。  詳しくは、[データ変更に関する FAQ](/help/technotes/data-retention.md) を参照してください。 Privacy Service API を使用するには、Adobe Analytics 内でデータ保持期間が設定されていることを確認する必要があります。

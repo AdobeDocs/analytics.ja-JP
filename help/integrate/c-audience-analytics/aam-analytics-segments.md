@@ -6,20 +6,30 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 12%
-
 ---
-
 # Adobe Analytics と Adobe Audience Manager のセグメントを理解する
 
 Adobe AnalyticsとAudience Managerはどちらもセグメントを利用しています。 ただし、Analytics セグメントは、Audience Manager セグメントとまったく同じではありません。 これらの違いは、AnalyticsとAudience Manager レポートに表示される不一致に一因します。 そのため、両方のソリューションでセグメントを扱う際には、これらの違いを理解し、実践することが重要です。

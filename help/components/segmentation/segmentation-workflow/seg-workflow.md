@@ -3,23 +3,30 @@ description: セグメントビルダーを使用してセグメントを作成�
 title: セグメント化ワークフローの概要
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
+TQID: 'https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '265'
 ht-degree: 33%
-
 ---
-
 # セグメントワークフローの概要
 
 この記事では、セグメントビルダーでセグメントを作成し、セグメントマネージャーでセグメントを管理するための推奨ワークフローについて説明します。
@@ -33,7 +40,7 @@ ht-degree: 33%
 | 4 | [セグメントのタグ設定](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 整理および共有が容易に行えるようにセグメントにタグを付けます。 簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。 |
 | 5 | [セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md) | セグメントを標準的なセグメントにするために承認します。 |
 | 6 | [&#x200B; セグメントを使用](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | セグメントコンポーネントのセグメントをレポートに直接適用できます。 |
-| 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他の分析ツールや、Adobe TargetおよびAdobe CX Enterpriseで、セグメントを対象とするオーディエンスと共有できます。 |
+| 7 | [セグメントの共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 他のAnalytics ツールや、Adobe TargetやAdobe CX Enterpriseで、セグメントを対象とするオーディエンスと共有できます。 |
 | 8 | [セグメントのフィルタリング](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。 |
 | 9 | [&#x200B; セグメントをお気に入りにマーク &#x200B;](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。 |
 

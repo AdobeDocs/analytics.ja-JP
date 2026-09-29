@@ -7,19 +7,28 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/ljT8qsJ--cy-PEZ6FtzBsyTzxrIctzf8lHkvMGeqePo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 172
+source-wordcount: '172'
 ht-degree: 66%
-
 ---
-
 # 既存の Adobe Analytics の実装を担当する
 
 Adobe Analytics の実装を以前のテクニカル所有者から引き継いでいますか？ Inherited Implementation Playbook は、新しいテクニカル所有者として既存の実装を担当するのに役立ちます。 ダウンロード可能なスプレッドシートでは、既存の実装を引き継ぐ際に、最初の 10 週間でおこなうべき調査、監査、ドキュメント化のアクティビティについて説明します。

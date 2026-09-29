@@ -7,31 +7,41 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/u36ypA4FA2Aeqi81THMiQQRgbYafikLizLma3xikbFk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 73%
-
 ---
-
 # アドビプラグイン：getValOnce
 
 {{plug-in}}
 
-`getValOnce` プラグインは、変数が同じ値に複数回設定されるのを防ぎます。 訪問者がページを更新した場合や、特定のページを複数回訪問した場合の重複を排除する場合は、このプラグインを使用することをお勧めします。 Analysis Workspace の「回数」指標を使用しない場合は、このプラグインは不要です。
+`getValOnce` プラグインは、変数が同じ値に複数回設定されるのを防ぎます。 訪問者がページを更新した場合や、特定のページを複数回訪問した場合の重複を排除する場合は、このプラグインを使用することをお勧めします。 Analysis Workspace の「Occurrences」指標を気にしない場合は、このプラグインは不要です。
 
 ## Web SDK拡張機能を使用したプラグインのインストール
 
@@ -62,7 +72,7 @@ Adobeには、Adobe Analyticsで最も一般的に使用されるプラグイン
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
+   * イベント：コア – ライブラリ読み込み（ページトップ）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
    * Action Type：Initialize getValOnce
@@ -76,7 +86,7 @@ Common Analytics Plugins プラグイン拡張機能を使用しない場合は�
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
-1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
+1. カスタムコードエディターを開き、以下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ## AppMeasurement を使用したプラグインのインストール
@@ -126,7 +136,7 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ### 2.01
 
-* Cookie の書き込みに関する問題を修正しました。
+* Cookie の書き込みに関するイシューを修正しました。
 
 ### 2.0
 

@@ -7,17 +7,23 @@ exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 TQID: 'https://experienceleague.adobe.com/jPLoQcRU8bpCGjKJ37mioUdZOFDUwNehmyBhdx7lj8c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 38%
-
 ---
-
 # アルゴリズムアトリビューション
 
 Analysis Workspace のアルゴリズム[アトリビューションモデル](models.md)は、統計的な手法を使用して、レポートまたはフリーフォームテーブルのディメンション項目にクレジットを割り当てるという点で、他のモデルとは異なります。 Analysis Workspaceの他のすべてのアトリビューションモデルと同様に、アルゴリズムによるアトリビューションは、あらゆるディメンションや指標で利用できます。 アルゴリズムアトリビューションでは、無制限のセグメンテーションと分類がサポートされ、コンバージョンの100%がテーブル内の1つ以上のディメンション（「分数」アトリビューションとも呼ばれます）に分布されます。

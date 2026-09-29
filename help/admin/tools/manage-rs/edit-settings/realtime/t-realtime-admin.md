@@ -3,30 +3,38 @@ description: リアルタイムレポートを設定するための管理者の�
 title: リアルタイムレポートの設定
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-TQID: https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0
+TQID: 'https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 68%
-
 ---
-
 # リアルタイムレポートの設定
 
 リアルタイムレポートを設定するための管理者の手順です。
 
-Adobe Analyticsでリアルタイムレポートを設定するには、レポートスイートを選択し、最大3つのレポートを設定します。 デフォルトでは、すべてのユーザーがリアルタイムレポートにアクセスします。
+Adobe Analyticsでリアルタイムレポートを設定するには、レポートスイートを選択し、最大3つのレポートを設定します。 デフォルトでは、すべてのユーザーにリアルタイムレポートへのアクセス権が付与されます。
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
@@ -46,11 +54,11 @@ Adobe Analyticsでリアルタイムレポートを設定するには、レポ�
 
    >[!NOTE]
    >
-   >単一のリアルタイムレポートの場合、ディメンションごとに異なる分類が選択されていても、ディメンションの複製を有効にすることは現在サポートされていません。
+   >単一のリアルタイムレポートでは、ディメンションごとに異なる分類が選択されている場合でも、重複したディメンションを有効にすることは現在サポートされていません。
 
    >[!NOTE]
    >
-   >「検索キーワード」や「製品」などのディメンションが Adobe Analytics と同じようにリアルタイムで保持されるとは限りません。 永続的ではない指標を選択すると、次の警告が表示されます。
+   >「検索キーワード」や「製品」などのディメンションは、Adobe Analytics の他のレポートと同様にはリアルタイムで保持されません。 永続的ではない指標を選択すると、次の警告が表示されます。
 
    ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
 

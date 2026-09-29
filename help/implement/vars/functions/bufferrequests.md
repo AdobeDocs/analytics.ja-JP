@@ -4,25 +4,35 @@ description: ページをすぐにアンロードするブラウザーに対し�
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/HJdo1hCpisjHdOaTi8OP2tWSP2yAftEqfkCNXycFcrM
+TQID: 'https://experienceleague.adobe.com/HJdo1hCpisjHdOaTi8OP2tWSP2yAftEqfkCNXycFcrM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 7%
-
 ---
-
 # bufferRequests
 
 `bufferRequests()` メソッドを使用すると、Adobeに画像リクエストを送信する代わりに、現在のページに画像リクエストをキャッシュできます。 このメソッドのトリガーは、ブラウザーが[`navigator.sendBeacon()`](https://developer.mozilla.org/ja-JP/docs/Web/API/Navigator/sendBeacon)をサポートしていない場合や、ページのアンロード時に画像要求をキャンセルする場合に便利です。 SafariなどのWebKit ブラウザーの多くのバージョンでは、一般的に、リンクをクリックすると画像リクエストを停止する動作が示されます。 `bufferRequests()` メソッドは、AppMeasurement v2.25.0以降のすべてのバージョンで使用できます。

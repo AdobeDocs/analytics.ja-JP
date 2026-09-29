@@ -5,45 +5,73 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
+TQID: 'https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+    internal-label: Streaming Media
   - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
+    internal-label: Target integration
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 4163
+source-wordcount: '4163'
 ht-degree: 78%
-
 ---
-
 # データ列リファレンス
 
 このページでは、各列に含まれるデータを確認できます。 ほとんどの実装ではすべての列を使用していないので、データフィードの書き出しに含める列を決定する際には、このページを参考にすることができます。
@@ -134,7 +162,7 @@ ht-degree: 78%
 | | **`latlon1`** | ロケーション（10 km 単位まで特定可能） | varchar(255) |
 | | **`latlon23`** | ロケーション（100 m 単位まで特定可能） | varchar(255) |
 | | **`latlon45`** | ロケーション（1 m 単位まで特定可能） | varchar(255) |
-| | **`mcvisid`** | CX Enterprise Visitor ID。 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise訪問者ID: 2 つの連結された 64 ビットの数値から構成され、19 桁にパディングされた 128 ビットの数値。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 訪問者が属している Audience Manager セグメント ID のリスト。 `post_mc_audiences` 列の区切り文字が `--**--` に変更されます。 | text |
 | **`post_`** | **`mobileaction`** | モバイルアクション。 モバイル実装で `trackAction` が呼び出されると、自動的に収集されます。 アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | モバイルアプリケーション ID。 アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]` | varchar(255) |

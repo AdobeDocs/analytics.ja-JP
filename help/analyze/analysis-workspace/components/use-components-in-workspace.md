@@ -4,35 +4,50 @@ title: プロジェクトでのコンポーネントの使用
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+TQID: 'https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 77%
-
+source-wordcount: '986'
+ht-degree: 74%
 ---
-
 # プロジェクトでのコンポーネントの使用
 
-コンポーネントは、Analysis Workspace において、あらゆるプロジェクトの実際のデータを作成します。 コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。 コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
+コンポーネントは、Analysis Workspace のあらゆるプロジェクトの実際のデータを構成します。 コンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成されています。 コンポーネントをビジュアライゼーションまたはパネルにドラッグすることで、プロジェクトに追加できます。
 
 追加できるコンポーネントのタイプについて詳しくは、[コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)を参照してください。
 
@@ -44,7 +59,7 @@ ht-degree: 77%
 
 1. [Analysis Workspace で新しいプロジェクトを作成します](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。
 
-1. Analysis Workspace のプロジェクトに[パネルを追加](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)するか、[ビジュアライゼーションを追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)します。 空のプロジェクトにコンポーネントを追加すると、フリーフォームテーブルビジュアライゼーションが作成されます。
+1. Analysis Workspace のプロジェクトに[パネルを追加](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)するか、[ビジュアライゼーションを追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)します。 空のプロジェクトにコンポーネントを追加すると、フリーフォームテーブル（ビジュアライゼーション）が作成されます。
 
 1. ボタンパネルから「![キュレート](/help/assets/icons/Curate.svg) **[!UICONTROL コンポーネント]**」を選択します。 左側のパネルに、使用可能なすべてのコンポーネントが表示されます。 詳しくは、[インターフェイス](/help/analyze/analysis-workspace/home.md#interface)を参照してください。
 
@@ -65,7 +80,7 @@ ht-degree: 77%
 
 ### プロジェクトへのディメンションの追加
 
-[&#x200B; ディメンション &#x200B;](/help/components/dimensions/overview.md)は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。 基本レポートは、文字列値（ディメンション）の行と数値（指標）の列を示します。
+[&#x200B; ディメンション &#x200B;](/help/components/dimensions/overview.md)は、通常、文字列値を含むAdobe Analyticsの変数です。 一方、[指標](/help/components/calculated-metrics/cm-overview.md)には、ディメンションに結び付く数値が含まれます。 基本レポートでは、文字列値（ディメンション）の行と数値（指標）の列が表示されます。
 
 1. [プロジェクトへのコンポーネントの追加](#add-components-to-a-project)の説明に従って、まず、Analysis Workspace のプロジェクトにディメンションを追加します。
 
@@ -81,7 +96,7 @@ ht-degree: 77%
 
 Analysis Workspace でのディメンションの使用方法について詳しくは、[ディメンションのプレビュー](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)、[ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)および[時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)を参照してください。
 
-### プロジェクトへの指標の追加
+### プロジェクトに指標を追加
 
 指標を使用すると、Analysis Workspace でデータポイントを数量化できます。 これらは、ビジュアライゼーション内の列として最も一般的に使用され、ディメンションに関連付けられます。
 
@@ -97,11 +112,11 @@ Analysis Workspace のプロジェクトに指標を追加するには
 
    * 指標を空のフリーフォームテーブルにドラッグすると、プロジェクトの日付期間にわたる指標のトレンドを確認できます。
 
-   * ディメンションが存在する場合に指標をドラッグすると、各ディメンジョン項目にその指標が表示されます。
+   * ディメンションが存在する場合に指標をドラッグすると、各ディメンション項目の指標を確認できます。
 
    * 既存の指標ヘッダーの上に指標をドラッグすると、置き換えることができます。
 
-   * 右側にある既存の指標ヘッダーの左端に指標をドラッグして、新しい指標を追加します。
+   * 既存の指標ヘッダーの左側または右側の隣に指標をドラッグして、新しい指標を追加します。
 
    * 既存の指標ヘッダーの上または下に指標をドラッグして、指標の重複を作成します。
 
@@ -139,7 +154,7 @@ Analysis Workspace では、次のいずれかの方法でセグメントを使�
 
      ![日付範囲をドロップ](assets/add-date-range.gif)
 
-   * フリーフォームテーブルビジュアライゼーションの指標またはディメンション。 詳しくは、[日付範囲の使用](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges)を参照してください。
+   * フリーフォームテーブルの可視化内の指標またはディメンション。 詳しくは、[日付範囲の使用](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges)を参照してください。
 
 Analysis Workspace での日付範囲の使用方法と管理方法について詳しくは、[日付範囲の概要](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)を参照してください。
 

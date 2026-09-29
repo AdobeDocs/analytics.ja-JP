@@ -10,13 +10,20 @@ product_v2:
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
     internal-label: Data configuration and collection
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
     internal-label: Data classifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 14%

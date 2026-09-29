@@ -4,28 +4,37 @@ description: AppMeasurement のインスタンスを作成し、追跡します�
 feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY
+TQID: 'https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '499'
 ht-degree: 100%
-
 ---
-
 # s_gi
 
 `s_gi()` 関数は、レポートスイート ID で AppMeasurement のインスタンスをインスタンス化するか、検索します。 AppMeasurement は作成されるすべてのインスタンスを追跡して、`s_gi()` はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。 インスタンスが存在しなければ、新しいインスタンスが作成されます。
@@ -39,7 +48,7 @@ Web SDK 拡張機能により、トラッキングオブジェクトがインス
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Experience Platform Web SDK」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 名前]」フィールドを目的の値に変更します。 デフォルト値は `alloy` です。
 
-## Web SDK を手動で実装したトラッキングオブジェクトのインスタンス化
+## Web SDK を手動で実装してトラッキングオブジェクトをインスタンス化する
 
 次のコードでは、Web SDK を読み込み、トラッキングオブジェクトをインスタンス化します。 インラインスクリプトの末尾にある文字列 `"alloy"` を目的の値に変更することで、トラッキングオブジェクト名をカスタマイズできます。
 
@@ -57,16 +66,16 @@ Web SDK 拡張機能により、トラッキングオブジェクトがインス
 
 ## Adobe Analytics 拡張機能を使用したトラッキングオブジェクトのインスタンス化
 
-Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。 ただし、Adobe Analytics の拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンでグローバルトラッキングオブジェクトを設定することもできます。
+Analytics 拡張機能により、トラッキングオブジェクトがインスタンス化され、管理されます。 ただし、Adobe Analytics の拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンでグローバルトラッキングオブジェクトを設定することもできます。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
+1. 対象のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL ライブラリ管理]」アコーディオンを展開し、「[!UICONTROL 私に代わってライブラリを管理する]」以外のラジオボタンを選択します。
 
 グローバル変数テキストフィールドでは、カスタムトラッキングオブジェクトを設定できます。 デフォルト値は `s` です。
 
-## AppMeasurement の s_gi() と Analytics 拡張機能のカスタムコードエディター
+## AppMeasurement における s_gi() と Analytics 拡張機能のカスタムコードエディター
 
 `s_gi()` 関数を呼び出して、トラッキングオブジェクトをインスタンス化します。 その唯一の引数には、レポートスイート ID のコンマ区切り文字列が含まれます。 レポートスイート ID 引数は必須です。
 
@@ -127,7 +136,7 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## 複数の変数を使用した同じトラッキングオブジェクトの参照
+## 複数の変数から同じトラッキングオブジェクトを参照する
 
 同じレポートスイートで同じ `s_gi()` 関数を参照している 2 つの変数は、両方とも同じ意味で使用できます。
 

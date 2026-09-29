@@ -4,28 +4,39 @@ description: デバイス データをつなぎ合わせて、デバイス中心
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+TQID: 'https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 55%
-
 ---
-
 # クロスデバイス分析
 
 {{available-existing-customers}}
@@ -70,7 +81,7 @@ CDA を使用すると、次のような質問に答えることができます�
 * Adobe Analytics レポートスイートを複数の組織 ID にマッピングすることはできません。 クロスデバイス分析では、特定のレポートスイート内のデバイスを結合するため、クロスデバイス分析を使用して複数の組織ID間のデータを結合することはできません。
 * クロスデバイス分析では、複数の依存コンポーネントを含む複雑な処理パイプラインを使用します。 このパイプラインは、基本のAnalytics レポートワークフローと並行して実行されます。 元のレポートスイートとCross-Device Analytics仮想レポートスイート間のヒット総数に対して、約1%のデータミスマッチが発生することが予想されます。
 * クロスデバイス分析では、仮想レポートスイートとレポート期間処理を使用しますが、これには独自の制限があります。 例えば、現在マーケティングチャネル変数をサポートしていません。 これらの制限について詳しくは、 [仮想レポートスイート](/help/components/vrs/vrs-about.md) と [レポートの時間処理](/help/components/vrs/vrs-report-time-processing.md) を参照してください。
-* Private Graphは、CX EnterpriseおよびAdobe Analytics内で見つかった[顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes)機能で使用されるID同期と同じID同期を利用します。 ただし、クロスデバイス分析の仮想レポートスイート（プライベートグラフまたはフィールドベースのステッチングに基づくものなど）は、他の顧客属性機能とは互換性がありません。 つまり、顧客属性ベースのディメンションは、クロスデバイス分析の仮想レポートスイートでは使用できません。
+* プライベートグラフでは、CX EnterpriseおよびAdobe Analytics内で見つかった[顧客属性](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/customer-attributes/attributes)機能で使用されるID同期と同じID同期を利用します。 ただし、クロスデバイス分析の仮想レポートスイート（プライベートグラフまたはフィールドベースのステッチングに基づくものなど）は、他の顧客属性機能とは互換性がありません。 つまり、顧客属性ベースのディメンションは、クロスデバイス分析の仮想レポートスイートでは使用できません。
 * クロスデバイス分析は現在、A4Tと互換性がありません。
 * 1.4 API はサポートされません。 Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * AdobeによるCross-Device Analytics ステッチプロセスのアクティブなモニタリングは、実稼動レポートスイートのみに限定されます。

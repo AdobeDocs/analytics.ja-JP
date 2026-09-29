@@ -7,35 +7,45 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/Ml3fp170Ggn8-lpJCvDOAMBMF1izsmrG0BAnWcS-BUo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '297'
 ht-degree: 90%
-
 ---
-
 # JavaScript 版 AppMeasurement への移行
 
 実装で引き続き H コードを使用する場合は、AppMeasurement の最新バージョンに移行することを強くお勧めします。 [Adobe Experience Platform のタグ](../launch/overview.md)を使用した Analytics の実装をお勧めします。ただし、更新された JavaScript の実装を使用することもできます。
 
 H コードと比較した場合、AppMeasurement には次の注目すべき変更が含まれています。
 
-* H. コードと比較して 3 倍～7 倍も高速。
-* H コードより軽い - 21kb 非圧縮コード（H コードは 33kb）。
+* H コードと比較して 3 倍～7 倍高速です。
+* H コードより軽量です - 非圧縮で 21kb（H コードは非圧縮で 33kb）。
 * ライブラリとページコードを、`<head>` タグ内に配置できるようになりました。
 * 既存のページレベルの H コードは、AppMeasurement と互換性があります。
-* このライブラリは、クエリーパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行のためのネイティブユーティリティを含みます。
+* このライブラリには、クエリパラメーターの取得、cookie の読み取り／書き込み、高度なリンクトラッキングの実行のためのネイティブユーティリティが用意されています。
 * このライブラリでは、動的アカウント設定変数（`dynamicAccountSelection`、`dynamicAccountMatch`、`dynamicAccountList` など）はサポートされません。
 
 次の手順は、一般的な移行ワークフローを示しています。

@@ -7,20 +7,27 @@ exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: 'https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '570'
 ht-degree: 47%
-
 ---
-
 # Analytics でのオーディエンスデータの使用
 
 Analytics全体でAdobe Audience Manager Audience ディメンションを使用できます。 統合セグメントは、Audiences IDとAudiences Nameと呼ばれる新しいAnalytics ディメンションであり、Analyticsが収集する他のディメンションと同じように使用できます。 データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。 現在、これらのディメンションはデータワークベンチまたは Livestream では使用できません。 オーディエンスディメンションの活用方法には、次のようなものがあります。

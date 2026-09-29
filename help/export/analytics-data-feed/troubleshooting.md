@@ -6,20 +6,26 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # データフィードのトラブルシューティング
 
 ジョブの処理または配信に失敗する可能性がある潜在的な理由を特定します。
@@ -32,19 +38,19 @@ ht-degree: 95%
 * FTP サイトに十分な空き容量があることを確認します。 FTP サイトのディスク容量が不足した場合は、新しいファイルの領域を確保するために、サーバーからいくつかのファイルを削除します。
 * 既知の問題がなく、FTP サイトに十分なディスク容量がある場合は、データフィードを再送信できます。
 
-   1. Adobe Analytics にログインし、 **[!UICONTROL 管理者]**／**[!UICONTROL データフィード]** に移動します。
-   2. 目的のデータフィードを見つけ、再実行する各フィードの横にあるチェックボックスをクリックします。
-   3. 「**[!UICONTROL 再実行]**」をクリックします。
+  1. Adobe Analytics にログインし、 **[!UICONTROL 管理者]**／**[!UICONTROL データフィード]** に移動します。
+  2. 目的のデータフィードを見つけ、再実行する各フィードの横にあるチェックボックスをクリックします。
+  3. 「**[!UICONTROL 再実行]**」をクリックします。
 
   ![再実行](assets/rerun.png)
 
-再実行してもデータフィードファイルが届かない場合は、カスタマーケアへのお問い合わせ。
+再実行してもデータフィードファイルが届かない場合は、カスタマーケアにお問い合わせください。
 
 ## 新規データフィードのトラブルシューティング
 
 新規データフィードでエラーが発生した場合は、FTP サイトにテストファイルを手動でアップロードして、問題のトラブルシューティングを行います。 ほとんどの場合、これらの手順を使用することで障害の発生地点を判断できます。
 
-1. エクスプローラー（Windows）または Finder（Mac）を使用して FTP サイトにログインします。 FTP プロトコル（`ftp://`）を使用し、組織のファイアウォールで [アドビの IP アドレス](/help/technotes/ip-addresses.md) を許可していることを確認してください。 FTP サイトに到達できない場合は、FTP サイトの所有者と協力して正しい接続先を確認してください。
+1. File Explorer（Windows）または Finder（Mac）を使用して FTP サイトにログインします。 FTP プロトコル（`ftp://`）を使用し、組織のファイアウォールで [アドビの IP アドレス](/help/technotes/ip-addresses.md) を許可していることを確認してください。 FTP サイトに到達できない場合は、FTP サイトの所有者と協力して正しい接続先を確認してください。
 
    ![エクスプローラー](assets/file_explorer.png)
 

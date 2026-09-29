@@ -4,26 +4,35 @@ description: 実装によるレポートスイートの決定方法に関する�
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 role: Developer
-TQID: https://experienceleague.adobe.com/qqkQoYsBWdTDOIkNfregm4k11CoDEl3dOJ3HNCMIo3s
+TQID: 'https://experienceleague.adobe.com/qqkQoYsBWdTDOIkNfregm4k11CoDEl3dOJ3HNCMIo3s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: '268'
 ht-degree: 89%
-
 ---
-
 # s.dynamicAccountList
 
 >[!IMPORTANT]
@@ -72,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * 一致するルールがない場合、`s_account` のデフォルトレポートスイートが使用されます。
 * ページが他のユーザーのハードドライブに保存されている場合や、web ベースの翻訳エンジン（Google 翻訳後のページなど）を介して翻訳されている場合は、動的アカウント選択はおそらく機能しません。
 * `dynamicAccountSelection` ルールは、`dynamicAccountMatch` で指定された URL のセクションにのみ適用されます。
-* Adobe CX Enterprise Debuggerを使用して、宛先レポートスイートをテストします。
+* Adobe CX Enterprise デバッガーを使用して、宛先レポートスイートをテストします。

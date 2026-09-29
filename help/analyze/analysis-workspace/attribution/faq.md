@@ -7,21 +7,30 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 71%
-
 ---
-
 # よくある質問
 
 アトリビューションに関するよくある質問とその回答を紹介します。

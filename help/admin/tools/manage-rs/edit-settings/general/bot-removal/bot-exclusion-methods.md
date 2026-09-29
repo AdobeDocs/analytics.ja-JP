@@ -7,23 +7,30 @@ feature: Bot Removal
 TQID: 'https://experienceleague.adobe.com/lbb7D0NNvtqw-65JRgT-K7I1k0lBw2ekfcoOTAmbQi0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 46%
-
 ---
-
 # 様々なボット除外方法の比較
 
 次の表は、ボットを除外する方法と、ボット同士の比較方法を示しています。

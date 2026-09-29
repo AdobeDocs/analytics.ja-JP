@@ -3,23 +3,28 @@ title: 分類セット統合の管理
 description: 1つ以上の分類セットを単一の分類セットに統合する方法について説明します。
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+TQID: 'https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 5%
-
 ---
-
 # 分類統合の管理
 
 類似の分類データを含む複数の分類セットがある場合は、それらを単一の分類セットに統合できます。 2つ以上の分類セットを統合すると、Adobeは、各分類セットのすべての分類データを含む新しい分類セットを生成します。 統合は、多くのレポートスイートにデータをアップロードした場合に便利です。 同じ分類データを含むディメンションがあり、それらを単一のワークフローに結合する場合などに使用します。

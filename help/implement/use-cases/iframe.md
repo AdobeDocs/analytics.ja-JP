@@ -4,25 +4,35 @@ description: iframe 内で、iframe または親ページ内の Adobe Analytics 
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk
+TQID: 'https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 95%
-
 ---
-
 # iFrames での AppMeasurement の使用
 
 AppMeasurement 変数は、子 iframe と親 iframe の両方から参照できます。 AppMeasurement ライブラリが存在する場所と同じ場所にすべての変数を定義する必要があります。 次の例では、iframe の内外に基本的な AppMeasurement 変数およびメソッドを設定する方法を説明します。
@@ -79,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 他の JavaScript コードと同様、iframe はドメインとプロトコルが一致する場合にのみ通信できます。 これらの例は、iframe コンテンツが親とは異なるドメインに存在する場合は機能しません。
 * AppMeasurement が iframe 内に存在する場合、[`referrer`](../vars/page-vars/referrer.md) 変数は、実際の参照 URL ではなく親 URL に設定されます。 `referrer` 変数を手動で設定すると、この問題を解決できます。
-* [Adobe CX Enterprise debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)は、iframe内でトリガーされたイメージリクエストを認識しません。
+* [Adobe CX Enterprise デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)は、iframe内でトリガーされたイメージリクエストを認識しません。
 * Activity Map には、iframe 内でクリックされたリンクのヒートマップは表示されません。 代わりに、iframe 全体がハイライト表示されます。

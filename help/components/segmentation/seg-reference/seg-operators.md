@@ -3,23 +3,30 @@ description: セグメントビルダーの演算子を使用して値を比較�
 title: 演算子
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
+TQID: 'https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 32%
-
 ---
-
 # セグメントの比較演算子
 
 セグメントビルダーでは、選択した演算子を使用して値を比較および制約できます。 演算子には、[標準](#standard-operators)、[Data Warehouse](#data-warehouse-operators)、[個別カウント &#x200B;](#distinct-count-operators)の3つのカテゴリがあります。

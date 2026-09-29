@@ -3,23 +3,28 @@ title: 分類セットの管理
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
+TQID: 'https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '621'
 ht-degree: 8%
-
 ---
-
 # 分類セットの管理
 
 分類セット管理インターフェイスでは、分類セットを作成、名前変更、編集、統合、削除、タグ付けすることができます。 また、特定の分類セットをフィルタリングして検索することもできます。

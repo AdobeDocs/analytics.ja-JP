@@ -7,30 +7,44 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # プライバシーの概要
 
 アドビは、お客様の組織が適用される法律や規制に準拠できるように支援します。 詳しくは、[Adobe CX Enterprise privacy](https://www.adobe.com/jp/privacy/experience-cloud.html){target=_blank}を参照してください。 Adobe Analytics とお客様の組織との間では、アドビが「データプロセッサー」として機能し、お客様は「データコントローラー」（または適用されるプライバシーおよびデータ保護法に基づく同等の者）となります。 アドビのソリューションの実装方法はお客様の組織が独占的に管理するので、アドビの製品とサービスの使用方法を開示するかどうかは、お客様の組織に委ねられています。 Adobe Analytics を使用する際、お客様の組織は、独自のプライバシーポリシー、アドビとのサービス契約および適用されるすべての法律を遵守する責任があります。
@@ -60,7 +74,7 @@ Adobe Analytics は、次のタイプのデータを収集できます。
 | 識別可能な訪問者 ID | アドビは、カスタム訪問者 ID を自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズできます。 | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
 | 外部検索語 | 外部検索データには、検索エンジンから生成されたキーワードが含まれます。 データ収集ライブラリは、参照 URL に基づいてこのデータを検索します。 ただし、最新の検索エンジンの多くには、この情報が含まれなくなりました。 | [検索キーワード](/help/components/dimensions/search-keyword.md) |
 | 内部検索語 | 内部検索データには、web サイト内またはアプリの検索機能から生成されるキーワードが含まれます。 アドビは、内部検索データを自動的に収集しません。 ただし、このデータを収集するように実装をカスタマイズできます。 この慣習は、Adobe Analytics を使用する多くの組織で一般的です。 | [eVar](/help/components/dimensions/evar.md) |
-| コンピューターとブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルかなど、低エントロピーのブラウザーヒントを自動的に収集します。 ブラウザーの特定のバージョン／ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。 詳しくは、[クライアントヒントの概要](../client-hints.md)を参照してください。 | [ブラウザー](/help/components/dimensions/browser.md)、[オペレーティングシステム](/help/components/dimensions/operating-systems.md)、[モバイルディメンション](/help/components/dimensions/mobile-dimensions.md)、[画面の解像度](/help/components/dimensions/monitor-resolution.md) |
+| コンピューターとブラウザーの仕様 | データ収集ライブラリは、ブラウザーの種類、オペレーティングシステムの種類、デバイスがデスクトップかモバイルかなど、低エントロピーのブラウザーヒントを自動的に収集します。 ブラウザーの特定のバージョン／ビルド、デバイスモデル、オペレーティングシステムのバージョンなど、高エントロピーのヒントを収集するには、カスタム設定が必要です。 詳しくは、[クライアントヒントの概要](../client-hints.md)を参照してください。 | [ブラウザー](/help/components/dimensions/browser.md)、[オペレーティングシステム](/help/components/dimensions/operating-systems.md)、[モバイルディメンション](/help/components/dimensions/mobile-dimensions.md)、[モニターの解像度](/help/components/dimensions/monitor-resolution.md) |
 | ジオロケーション情報 | IP アドレスの最後のオクテットを 0 に設定することで、アドビは詳細な位置情報を防ぐ機能を提供しています。 これにより、位置情報の精度が下がりますが、[レポートスイートの設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)で設定できます。 | [市](/help/components/dimensions/cities.md)、[地域](/help/components/dimensions/regions.md)、[国](/help/components/dimensions/countries.md) |
 | IP アドレス | このデータを保存する際に、訪問者の IP アドレスを不明化（ハッシュ）したり、完全に削除したりできます。 EMEA のお客様は通常、デフォルトで IP アドレス設定が不明化されています。 不明化設定に関係なく、Analysis Workspace では IP アドレスをディメンションとして使用することはできません。[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)にのみ含まれます。 使用可能な不明化設定について詳しくは、管理者ガイドの[一般的なアカウント設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)を参照してください。 | なし |
 | サイトで提供されるフォーム情報 | すべての実装タイプでは、このデータを収集するための設定が必要です。 このデータをカスタム変数に含めることができます。 | [eVar](/help/components/dimensions/evar.md) |

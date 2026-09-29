@@ -7,32 +7,43 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/ooh8s8pNYbbsD9BmF48Nv3OyHN5JtDQonQw0Z1t4XXc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: '565'
 ht-degree: 94%
-
 ---
-
 # Adobe Experience Platform Mobile SDK を使用した Adobe Analytics の実装
 
-Adobe Experience Platform Mobile SDKは、モバイルアプリ内のAdobeのCX Enterprise ソリューションとサービスを強化するのに役立ちます。 Android™、iOS および様々なクロスプラットフォーム開発フレームワークで使用できます。 設定は、Adobe Experience Platform データ収集を通じて処理されます。
+Adobe Experience Platform モバイルSDKは、モバイルアプリでAdobeのCX Enterprise ソリューションとサービスを強化するのに役立ちます。 Android™、iOS および様々なクロスプラットフォーム開発フレームワークで使用できます。 設定は、Adobe Experience Platform データ収集を通じて処理されます。
 
 >[!IMPORTANT]
 >
->Adobe Analytics 拡張機能は、Adobe Experience Platform データ収集でも使用できます。 この拡張機能をインストールする場合、XDM や Edge ネットワークを利用することはできません。
+>Adobe Analytics 拡張機能は、Adobe Experience Platform データ収集でも使用できます。 この拡張機能をインストールした場合、XDM や Edge Network を活用する利点を享受できません。
 
 ## Adobe Experience Platform SDK
 
@@ -77,7 +88,7 @@ Adobe Experience Platform Mobile SDKは、モバイルアプリ内のAdobeのCX 
 <tr>
 <td>6</td>
 <td><b>アプリでコードを使用</b>して、必要な拡張機能を登録し、タグ設定を読み込みます。</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定の指定</a></td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定を行う</a></td>
 </tr>
 
 <tr>
@@ -122,7 +133,7 @@ Adobe Experience Platform Mobile SDKは、モバイルアプリ内のAdobeのCX 
 <tr>
 <td>3</td>
 <td><b>アプリでコードを使用</b>して、必要な拡張機能を登録し、タグ設定を読み込みます。</td>
-<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定の指定</a></td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定を行う</a></td>
 </tr>
 
 <tr>

@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
@@ -71,6 +76,7 @@ ht-degree: 92%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年9月** | |
+| 矢印とフォールアウトのジャーニーキャンバスの比較 | [&#x200B; ジャーニーの各ノード、矢印、フォールアウトに日付範囲の変化率が表示されるように、ジャーニーキャンバスのビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「[!UICONTROL 比較先]」設定を更新しました。 |
 | 新しいサイズ変更ショートカットアクション | Analysis Workspaceの新しいキーボードショートカットを使用すると、パネルまたはビジュアライゼーションのサイズを[変更できます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)幅、幅、高さ、短くできます。 |
 | [Adobe Analytics データ収集API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurementやタグを使用せずに、Adobe Analyticsのデータ収集戦略を集約および近代化する新しい開発者リポジトリ。 |
 | **2026年8月** | |

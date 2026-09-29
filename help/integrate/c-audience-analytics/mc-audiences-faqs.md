@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 14%
-
 ---
-
 # よくある質問
 
 Audience Analytics を実装するときによくある質問への回答です。
@@ -164,7 +175,7 @@ AnalyticsとAudience Managerのセグメントについて[を参照してくだ
 
 +++ Adobe Audience Managerに統合された顧客属性と顧客データの違いは何ですか？
 
-顧客属性は、時間ベースではありません。過去にさかのぼって適用され、先に進みます。 Adobe Audience Managerとの統合データは、時間ベースで前進専用です。 さらに、顧客属性はCX Enterprise訪問者IDのルックアップテーブルですが、Adobe Audience Manager統合は訪問者の各ヒットにデータをつなぎ合わせています。
+顧客属性は、時間ベースではありません。過去にさかのぼって適用され、先に進みます。 Adobe Audience Managerとの統合データは、時間ベースで前進専用です。 さらに、顧客属性はCX Enterpriseの訪問者IDのルックアップテーブルですが、Adobe Audience Managerとの連携では訪問者の各ヒットにデータをつなぎ合わせています。
 
 +++
 

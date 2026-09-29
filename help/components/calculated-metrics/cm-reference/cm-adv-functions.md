@@ -8,19 +8,24 @@ autotag-review: '2026-05-22T11:11:45.846Z'
 TQID: 'https://experienceleague.adobe.com/7dHbhdyNtBxVeSQVPNZMLEBBcuwipxEqbx1Nq0900XE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 4863
+source-wordcount: '4863'
 ht-degree: 96%
-
 ---
-
 # 高度な関数
 
 [計算指標ビルダー](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)では、統計関数および数学関数を適用できます。 この記事では、高度な関数とその定義をアルファベット順に示します。

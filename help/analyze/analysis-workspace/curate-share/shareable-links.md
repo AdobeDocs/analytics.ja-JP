@@ -5,28 +5,39 @@ title: 共有可能なリンクの作成
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-TQID: https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE
+TQID: 'https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 61%
-
 ---
-
 # 共有可能なリンクの作成
 
 Analysis Workspace には、プロジェクトまたはプロジェクトの特定の部分へのリンクを取得する機能など、ユーザーとプロジェクトを共有する多くの方法が用意されています。 一部のリンクタイプでは、プロジェクトにアクセスする前に受信者が Adobe Analytics にログインする必要がありますが、その他のリンクタイプではログインは不要です。
@@ -45,7 +56,7 @@ Analysis Workspace プロジェクトへの読み取り専用リンクは、Adob
 
 ## パネルまたはビジュアライゼーションリンクを取得
 
-また、パネルや個別のビジュアライゼーションなど、プロジェクトの特定の部分へのリンクを共有することもできます。 これは、イントラリンクと呼ばれる場合があります。 これは、プロジェクト内の主要なインサイトにユーザーの注意を引くのに役立ちます。
+また、パネルや個々のビジュアライゼーションなど、プロジェクトの特定の部分へのリンクを共有することもできます。 これは、イントラリンクと呼ばれる場合があります。 これは、プロジェクト内の主要なインサイトにユーザーの注意を引くのに役立ちます。
 
 * パネルヘッダーのコンテキストメニューから、**[!UICONTROL パネルリンクを取得]**&#x200B;を選択します
 * ビジュアライゼーションヘッダーのコンテキストメニューから、**[!UICONTROL ビジュアライゼーションリンクを取得]**&#x200B;を選択します

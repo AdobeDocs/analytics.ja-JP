@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/ZS7Kpl1vxzJIGLzk1AkZBNEpPdGd-8NQq1-HW-zqDck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 61%
-
 ---
-
 # doPlugins
 
 `doPlugins` 変数は、実装に値を設定する「最後の呼び出し」として機能します。 イメージリクエストが送信される前に、[&#x200B; プラグインメソッド &#x200B;](../plugins/impl-plugins.md)を呼び出し、必要な変数を設定するのに最適な場所です。 [`usePlugins`](../config-vars/useplugins.md) が有効になっている場合は、次のようなイメージリクエストがコンパイルされてアドビに送信される直前に自動的に実行されます。
@@ -61,7 +69,7 @@ alloy("configure", {
 
 Adobe Analytics 拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および カスタムコードエディターの s.doPlugins
+## AppMeasurement およびカスタムコード内の s.doPlugins
 
 目的のコードを含む関数に `s.doPlugins` 変数を設定します。 この関数は、トラッキングコールをおこなうときに自動的に実行されます。
 

@@ -5,31 +5,45 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+TQID: 'https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: '2059'
 ht-degree: 89%
-
 ---
-
 # プロジェクトの共有 {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -78,7 +92,7 @@ ht-degree: 89%
 
 特定のプロジェクトの役割を組織内のユーザーやグループと共有する場合は、以下の点を考慮してください。
 
-* プロジェクトの役割（**[!UICONTROL オリジナルを編集]**、**[!UICONTROL コピーを編集]**&#x200B;および&#x200B;**[!UICONTROL 読み取り専用]**）は、ユーザーと特定のプロジェクト ID に結び付けられます。 プロジェクトの役割は、[Adobe CX Enterprise管理コンソール &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で管理されるユーザー権限とは独立しています。
+* プロジェクトの役割（**[!UICONTROL オリジナルを編集]**、**[!UICONTROL コピーを編集]**&#x200B;および&#x200B;**[!UICONTROL 読み取り専用]**）は、ユーザーと特定のプロジェクト ID に結び付けられます。 プロジェクトの役割は、[Adobe CX Enterprise管理コンソール &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で管理されているユーザー権限とは独立しています。
 
 * Adobe Analyticsでは、グループは[Adobe CX Enterprise管理コンソール &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)で製品プロファイルによって定義されます。 管理者は、「すべて」を含む任意のグループと共有できます。 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
@@ -198,7 +212,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
 1. 次のセキュリティオプションを有効にするかどうかを選択します（このオプションは Analytics 管理者が制御できます）。
 
-   * **[!UICONTROL CX エンタープライズ認証を必要とする]:**
+   * **[!UICONTROL CX Enterprise認証が必要]:**
 
      このオプションを有効にすると、プロジェクトにアクセスできるユーザーは、共有するプロジェクトが作成されたAdobe CX Enterprise組織にログインできるユーザーのみになります。 ただし、共有相手のユーザーは、Adobe Analytics へのアクセス権が不要です。
 
@@ -206,7 +220,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
      * このオプションが表示されない場合、Analytics 管理者はこの機能を有効にしていません。
 
-     * このオプションが有効でグレー表示されている場合、Analytics管理者は、Analysis Workspace プロジェクトにアクセスするユーザーに対してCX Enterprise認証を必要とします。
+     * このオプションが有効でグレー表示されている場合、Analytics管理者はAnalysis Workspace プロジェクトにアクセスするユーザーに対してCX Enterprise認証を要求します。
 
 1. 「**[!UICONTROL 任意のユーザーと共有（ログイン不要）]**」フィールドの横にある「**リンクをコピー**」アイコン ![リンクをコピーアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) をクリックして、リンクをシステムクリップボードにコピーします。
 
