@@ -5,13 +5,11 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、レガシー Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
 index: true
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 99%
 ---
-
 # Adobe Analytics ツールガイド {#analyze}
 
 + [Analytics ツールガイド](home.md)
@@ -34,6 +32,7 @@ ht-degree: 100%
     + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
     + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
     + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc}[ キャッシュされた結果を使用](analysis-workspace/build-workspace-project/cached-results.md)
     + [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Workspace のフォルダー {#workspace-folders}
       + [概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
