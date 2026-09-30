@@ -32,7 +32,7 @@ ht-degree: 99%
     + [プロジェクトの作成](analysis-workspace/build-workspace-project/create-projects.md)
     + [プロジェクトを開く](analysis-workspace/build-workspace-project/open-projects.md)
     + [プロジェクトを保存](analysis-workspace/build-workspace-project/save-projects.md)
-    + {hide-from-toc}[ キャッシュされた結果を使用](analysis-workspace/build-workspace-project/cached-results.md)
+    + {hide-from-toc}[&#x200B; キャッシュされた結果を使用](analysis-workspace/build-workspace-project/cached-results.md)
     + [目次](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Workspace のフォルダー {#workspace-folders}
       + [概要](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
