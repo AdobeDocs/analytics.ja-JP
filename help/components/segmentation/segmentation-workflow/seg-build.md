@@ -75,7 +75,7 @@ ht-degree: 72%
    {style="table-layout:auto"}
 
 1. セグメント定義が正しいかどうかを確認するには、右上にあるセグメント結果の常に更新されるプレビューを使用します。
-1. セグメントをCX Enterpriseに公開するには、**[!UICONTROL このセグメントをExperience Cloudに公開（*レポートスイート*の場合）]**&#x200B;を選択します。 詳しくは、[CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)を参照してください。
+1. セグメントをCX Enterpriseに公開するには、「**[!UICONTROL このセグメントをExperience Cloudに公開する」（*レポートスイート*の場合）]**&#x200B;を選択します。 詳しくは、[CX Enterpriseへのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)を参照してください。
 1. 次のいずれかを選択します。
    * 「**[!UICONTROL 保存]**」を選択して、セグメントを保存します。
    * 「**[!UICONTROL 名前を付けて保存]**」を選択して、セグメントのコピーを保存します。
