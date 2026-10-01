@@ -6,23 +6,29 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
+    internal-label: Segmentation workflow
   - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 16%
-
 ---
-
 # セグメントの管理
 
 
@@ -54,7 +60,7 @@ ht-degree: 16%
 | **[!UICONTROL 所有者]** | セグメントの所有者。 ユーザーは、自分が所有するセグメントまたは自分と共有されている注釈のみを表示できます。 |
 | **[!UICONTROL タグ]** | このセグメントのタグ。 |
 | **[!UICONTROL 共有先]** | セグメントを共有した個人またはグループの数。 選択して、**[!UICONTROL コンポーネントを共有]**&#x200B;ダイアログを開きます。 詳しくは、[&#x200B; セグメントの共有](t-seg-share.md)を参照してください。 |
-| **[!UICONTROL パブリッシュ済み]** | [&#x200B; セグメントがCX Enterpriseに](seg-publish.md)公開されているかどうか。 |
+| **[!UICONTROL パブリッシュ済み]** | [&#x200B; セグメントがCX Enterpriseに公開されているかどうか](seg-publish.md)。 |
 | **[!UICONTROL 変更日時]** | セグメントが最後に変更された日時。 |
 
 ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を使用して、表示する列を指定します。
@@ -100,7 +106,7 @@ The Analytics Segment manager shows you all the segments you own and that have b
 
    Or 
 
-   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+    In an existing report, select the Segments icon ![](/help/assets/icons/Segmentation.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
 ## Available actions in the Segment manager
 

@@ -6,20 +6,23 @@ exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
 TQID: https://experienceleague.adobe.com/IByhFKNFhjzeYApIhC-vI4oHmPcOJk-XRKUWC--Qmnk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 7%
-
 ---
-
 # 計算指標の共有
 
 [計算指標マネージャー](cm-manager.md)では、計算指標を共有できます。 権限に応じて、計算指標を組織全体、グループ、または個々のユーザーと共有できます。
@@ -65,7 +68,7 @@ To share a calculated metric:
 
 1. In the Calculated metrics manager, select the checkbox to the left of any metrics that you want to share. 
 
-1. Select the **[!UICONTROL Share]** icon. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. Select the **[!UICONTROL Share]** icon. ![](/help/assets/icons/Share.svg)
    
    The Share Calculated metric dialog box displays.
 
@@ -89,7 +92,7 @@ To share a calculated metric:
 
 1. Select **[!UICONTROL Share]**.
 
-   The Shared icon appears next to the metric: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+    The Shared icon appears next to the metric: ![](/help/assets/icons/Share.svg).
 
 1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 

@@ -7,24 +7,31 @@ exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 TQID: https://experienceleague.adobe.com/N4hzk5uKr5Mh3FA6V1x8KqyCod6ZIK8TO7l2TZvzR4A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1095'
 ht-degree: 98%
-
 ---
-
 # データ辞書でコンポーネント情報を表示する
 
 データ辞書を使用すると、コンポーネントの説明、類似のコンポーネント、コンポーネントが頻繁に使用される他のコンポーネントなど、コンポーネントに関する情報を表示できます。
@@ -45,9 +52,9 @@ ht-degree: 98%
 
 1. （オプション）検索フィールドに、表示するコンポーネントの名前の入力します。
 
-   コンポーネントのタイプは、カラーとアイコンの両方で識別できます。 **ディメンション** ![ディメンションアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) はオレンジ色、**セグメント** ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) は青色、**日付範囲** ![日付範囲アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) は紫色、**指標** ![指標アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) は緑色です。 Adobe アイコンは計算指標テンプレートまたはセグメントテンプレートのいずれか、電卓アイコン ![電卓アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) は組織の Analytics 管理者によって作成された計算指標を示します。
+   コンポーネントのタイプは、カラーとアイコンの両方で識別できます。 **ディメンション** ![ディメンションアイコン](/help/assets/icons/Data.svg) はオレンジ色、**セグメント** ![セグメントアイコン](/help/assets/icons/Segmentation.svg) は青色、**日付範囲** ![日付範囲アイコン](/help/assets/icons/Calendar.svg) は紫色、**指標** ![指標アイコン](/help/assets/icons/Event.svg) は緑色です。 Adobe アイコンは計算指標テンプレートまたはセグメントテンプレートのいずれか、電卓アイコン ![電卓アイコン](/help/assets/icons/Calculator.svg) は組織の Analytics 管理者によって作成された計算指標を示します。
 
-1. （オプション）**フィルター**&#x200B;アイコン ![データ辞書のフィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) を選択し、次のフィルターオプションのいずれかを選択して、コンポーネントのリストをフィルタリングします。
+1. （オプション）**フィルター**&#x200B;アイコン ![データ辞書のフィルターアイコン](/help/assets/icons/Filter.svg) を選択し、次のフィルターオプションのいずれかを選択して、コンポーネントのリストをフィルタリングします。
 
    | オプション | 関数 |
    |---------|----------|
@@ -66,7 +73,7 @@ ht-degree: 98%
 
    {style="table-layout:auto"}
 
-1. （オプション）「**並べ替え**」アイコン ![コンポーネントを並べ替えアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) を選択し、次のフィルターオプションのいずれかを選択してコンポーネントのリストを並べ替えます。
+1. （オプション）「**並べ替え**」アイコン ![コンポーネントを並べ替えアイコン](/help/assets/icons/SortOrderDown.svg) を選択し、次のフィルターオプションのいずれかを選択してコンポーネントのリストを並べ替えます。
 
    {{components-sort-options}}
 

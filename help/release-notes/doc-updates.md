@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7553'
+source-wordcount: '7551'
 ht-degree: 91%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
@@ -223,7 +223,7 @@ ht-degree: 91%
 | **2023年5月** | |
 | ディープリンク（モバイルアプリケーション）ドキュメント | ユーザーが、アプリ内のスコアカードプロジェクトに直接アクセスできるスコアカードへのリンクを送信できるようにします。 [詳細情報](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics ダッシュボードアプリ（モバイルアプリ版）の更新されたホーム画面に関するドキュメント | 更新された新しいホーム画面では、すべてのスコアカードが、統合された 1 つのスコアカードリストに表示されます。 [詳細情報](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Spectrum アイコン | 必要に応じて、ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを、アドビの [Spectrum Design System](https://spectrum.adobe.com/page/icons/) の同等のアイコンへの参照に置き換えました。 |
+| Spectrum アイコン | [AdobeのSpectrum Design System](https://spectrum.adobe.com)の実際のアイコンを参照して、適切な場合は、ドキュメント内のユーザーインターフェイスアイコンのスクリーンショットを置き換えました。 |
 | レポートアクティビティマネージャー | このベータ版ドキュメント、特に[個々のレポートスイートのレポートアクティビティの表示](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)に関する節を更新しました。 |
 | Analysis Workspace の概要 | より一般的な概要情報と関連コンテンツへのリンクを含むように、[Analysis Workspace の概要](/help/analyze/analysis-workspace/home.md)の概要を更新しました。 |
 | プロジェクトの作成 | Analysis Workspace で[プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)を行う方法を詳しく説明する新しい記事を作成しました。 |

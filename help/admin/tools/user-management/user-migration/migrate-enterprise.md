@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 72%
@@ -151,11 +151,11 @@ Adobe Admin Console でユーザーを管理するための前提条件。
    </tbody> 
    </table>
 
-   [!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
-   >[!NOTE]
-   >
-   >その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
+>[!NOTE]
+>
+>その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
 
 1. Adobe Admin Console の「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」（手順 3 のとおり）をクリックしてテンプレートファイルをアップロードします。
 1. Analytics で、移行ツールを実行します（[Analytics ユーザーアカウントの移行](/help/admin/tools/user-management/user-migration/t-migrate-users.md)を参照）。

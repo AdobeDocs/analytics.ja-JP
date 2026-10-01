@@ -6,21 +6,25 @@ exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
 TQID: https://experienceleague.adobe.com/3amToaBS5eukMLQiJGzwEu2-bSIwZTEKFPXIQkWKN-s
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: '141'
 ht-degree: 27%
-
 ---
-
 # 計算指標のリストをフィルタリング
 
 計算指標のリストをフィルタリングできます。 計算指標にフィルターを使用すると、使用可能な計算指標を簡単に検索し、[計算指標マネージャー](cm-manager.md)から計算指標を管理できます。
@@ -57,7 +61,7 @@ Filtering makes it easier to search for calculated metrics in the segment rail.
 
 1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Calculated metrics]**. 
 
-1. In the Calculated metrics manager, click the **[!UICONTROL Filters]** icon:  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+1. In the Calculated metrics manager, click the **[!UICONTROL Filters]** icon:  ![](/help/assets/icons/Filter.svg)
 
    ![](assets/filtering.png)
 

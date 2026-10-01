@@ -7,31 +7,44 @@ exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '881'
 ht-degree: 100%
-
 ---
-
 # コンポーネントの概要
 
 コンポーネントは、Adobe Analytics の機能であり、ビジュアライゼーション（「フリーフォームテーブル」など）で使用したり、レポート機能を補完したりできます。
@@ -100,19 +113,19 @@ Analysis Workspace の左パネルにあるコンポーネントリストを検�
 
 ### 検索
 
-1. 左パネルで「**コンポーネント**」（![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)）を選択します。
+1. 左パネルで「**コンポーネント**」（![コンポーネントアイコン](/help/assets/icons/Curate.svg)）を選択します。
 
 2. 検索フィールドに、プロジェクトで使用するコンポーネントの名前を入力します。
 
-   コンポーネントのタイプは、色とアイコンで識別されます。 **ディメンション** ![ディメンションアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) はオレンジ色、**セグメント** ![セグメントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) は青色、**日付範囲** ![日付範囲アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) は紫色、**指標** ![指標アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) は緑色です。<br/>アドビアイコン（![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)）は、計算指標テンプレートまたはセグメントテンプレートのいずれかを示します。 電卓アイコン（![電卓アイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)）は、組織の管理者が作成した計算指標を示します。
+   コンポーネントのタイプは、色とアイコンで識別されます。 **ディメンション** ![ディメンションアイコン](/help/assets/icons/Data.svg) はオレンジ色、**セグメント** ![セグメントアイコン](/help/assets/icons/Segmentation.svg) は青色、**日付範囲** ![日付範囲アイコン](/help/assets/icons/Calendar.svg) は紫色、**指標** ![指標アイコン](/help/assets/icons/Event.svg) は緑色です。<br/>アドビアイコン（![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg)）は、計算指標テンプレートまたはセグメントテンプレートのいずれかを示します。 電卓アイコン（![電卓アイコン](/help/assets/icons/Calculator.svg)）は、組織の管理者が作成した計算指標を示します。
 
 3. ドロップダウンメニューからコンポーネントを選択します。
 
 ### フィルター
 
-1. 左パネルで&#x200B;**コンポーネント**&#x200B;アイコン（![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)）を選択します。
+1. 左パネルで&#x200B;**コンポーネント**&#x200B;アイコン（![コンポーネントアイコン](/help/assets/icons/Curate.svg)）を選択します。
 
-2. 「**フィルター**」、![データ辞書フィルターアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)を選択するか、検索フィールドに `#` を入力します。
+2. 「**フィルター**」、![データ辞書フィルターアイコン](/help/assets/icons/Filter.svg)を選択するか、検索フィールドに `#` を入力します。
 
 3. 次のいずれかのフィルターオプションを選択して、コンポーネントのリストをフィルタリングします。
 
@@ -134,9 +147,9 @@ Analysis Workspace の左パネルにあるコンポーネントリストを検�
 
 1. （オプション）[コンポーネントリストのフィルタリング](#filter-the-component-list)で説明しているように、コンポーネントリストにフィルターを適用します。
 
-2. 左パネルで「**コンポーネント**」（![コンポーネントアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)）を選択します。
+2. 左パネルで「**コンポーネント**」（![コンポーネントアイコン](/help/assets/icons/Curate.svg)）を選択します。
 
-3. 「**並べ替え**」（![コンポーネントを並べ替えアイコン](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)）を選択し、次のフィルターオプションのいずれかを選択してコンポーネントのリストを並べ替えます。
+3. 「**並べ替え**」（![コンポーネントを並べ替えアイコン](/help/assets/icons/SortOrderDown.svg)）を選択し、次のフィルターオプションのいずれかを選択してコンポーネントのリストを並べ替えます。
 
 次の並び替えオプションを使用できます。
 
@@ -230,19 +243,19 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 ### Search the component list
 
-1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+1. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
 2. In the search field, begin typing the name of the component you want to use in your project.
 
-   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
+    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](/help/assets/icons/Data.svg) are orange, **Segments** ![Segment icon](/help/assets/icons/Segmentation.svg) are blue, **Date ranges** ![Date range icon](/help/assets/icons/Calendar.svg) are purple, and **Metrics** ![Metric icon](/help/assets/icons/Event.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
 3. Select the component when it appears in the drop-down list.
 
 ### Filter the component list
 
-1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+1. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
-2. Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Select the **Filter** icon ![Data Dictionary Filter icon](/help/assets/icons/Filter.svg).
 
    Or
 
@@ -267,9 +280,9 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
-2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+2. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
-3. Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
+3. Select the **Sort** icon ![Sort components icon](/help/assets/icons/SortOrderDown.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
 

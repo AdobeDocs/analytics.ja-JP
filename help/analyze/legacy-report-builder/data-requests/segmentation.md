@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 24%
-
+source-wordcount: '964'
+ht-degree: 22%
 ---
-
 # セグメントの管理
 
 {{legacy-arb}}
@@ -66,7 +71,7 @@ Report Builderでは、リクエストウィザードの手順1でセグメン�
 
 ## セグメントの検索と適用
 
-Reports &amp; Analytics （現在は提供終了）、Report Builder、またはData Warehouseで作成されたセグメントは、このセグメントリストに表示されます。 リストを更新するには、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)をクリックします。
+Reports &amp; Analytics （現在は提供終了）、Report Builder、またはData Warehouseで作成されたセグメントは、このセグメントリストに表示されます。 リストを更新するには、更新アイコン ![](/help/assets/icons/Refresh.svg)をクリックします。
 
 任意のリクエストに1つまたは複数のセグメントを適用できます。 これには、連続性のあるセグメントが含まれます。
 
@@ -82,7 +87,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 ## セグメントのフィルタリング {#filter}
 
-**フィルターアイコンをクリックして、** セグメントをフィルタリング：![&#x200B; フィルターアイコン &#x200B;](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**フィルターアイコンをクリックして、** セグメントをフィルタリング：![&#x200B; フィルターアイコン &#x200B;](/help/assets/icons/Filter.svg)
 
 使用可能なフィルターは次のとおりです。
 
@@ -100,7 +105,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 セグメントコントロールを追加すると、リクエストウィザードを開かなくても、ワークブック内からセグメントを切り替えられるようになります。
 
-1. セグメント ドロップダウンの横にあるコントロール アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)をクリックします。
+1. セグメント ドロップダウンの横にあるコントロール アイコン ![](/help/assets/icons/Filter.svg)をクリックします。
 
 1. セグメントコントロールに表示するすべてのセグメントを確認するか、**[!UICONTROL すべてを選択]**&#x200B;を確認します。
 
@@ -119,7 +124,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 ## セグメントのリストを更新する {#refresh}
 
-新しいセグメントを追加したり、既存のセグメントを編集したりするときは、更新アイコン ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)をクリックして、キャッシュされたセグメントのリストを更新する必要があります。
+新しいセグメントを追加したり、既存のセグメントを編集したりするときは、更新アイコン ![](/help/assets/icons/Refresh.svg)をクリックして、キャッシュされたセグメントのリストを更新する必要があります。
 
 ## 複数のリクエストにわたるセグメントの管理 {#manage}
 
