@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # データ列リファレンス
 
@@ -104,7 +104,7 @@ ht-degree: 78%
 | | **`carrier`** | Adobe Advertising 統合変数。 携帯電話会社を指定します。 `carrier.tsv` [動的検索](dynamic-lookups.md)のキー値。 | varchar(100) |
 | **`post_`** | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンション。 | varchar(100) |
 | | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | text |
-| | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | text |
+| | **`ch_js`** | ユーザーエージェントクライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | text |
 | **`post_`** | **`clickmaplink`** | [Activity Map リンク &#x200B;](/help/components/dimensions/activity-map-link.md) ディメンション。 | varchar(255) |
 | **`post_`** | **`clickmaplinkbyregion`** | リージョン [&#128279;](/help/components/dimensions/activity-map-link-by-region.md) ディメンション別Activity Map リンク。 | varchar(255) |
 | **`post_`** | **`clickmappage`** | [Activity Map ページ &#x200B;](/help/components/dimensions/activity-map-page.md) ディメンション。 | varchar(255) |
@@ -235,8 +235,8 @@ ht-degree: 78%
 | | **`stats_server`** | 未使用。 ヒットを処理したアドビの内部サーバー。 | char(30) |
 | **`post_`** | **`s_kwcid`** | Adobe Advertising 統合で使用されるキーワード ID。 | varchar(255) |
 | | **`s_resolution`** | 画面解像度の未処理の値。 JavaScript 関数 `screen.width x screen.height` を使用して収集します。 | char(20) |
-| **`post_`** | **`tnt`** | Adobe Target 統合で使用されます。 現在、適格となっているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | text |
-| **`post_`** | **`tnt_action`** | Adobe Target 統合で使用されます。 ヒットが認定されるすべてのテストを表します。 | text |
+| **`post_`** | **`tnt`** | Adobe Target 統合で使用されます。 訪問者が対象とするターゲットアクティビティとエクスペリエンスが一覧表示されます。 `post_tnt`列は、eVarと同様に、以前のヒットの値を保持します。 現在のヒットのアクティビティとイベントのみを表示するには、`tnt_action`を使用します。 複数のエントリはコンマ区切りです。 各エントリは、`tnt_action`と同じ形式を使用しますが、イベント IDは使用しません。 | text |
+| **`post_`** | **`tnt_action`** | Adobe Target 統合で使用されます。 現在のヒットが適格であるTarget アクティビティとエクスペリエンス、および関連するイベントのみを一覧表示します。 `post_tnt`とは異なり、値は以前のヒットから保持されません。 複数のエントリはコンマ区切りです。 各エントリは、次のいずれかの形式を使用します。<ul><li>最も多くのアクティビティ：`activityID:experienceID:trafficType\|eventID`</li><li>自動ターゲット：`activityID:experienceID:trafficType:algorithmID\|eventID`など、一部の自動アクティビティ</li></ul>アルゴリズム IDの値は、Targetの内部のものです。 一部のイベントには、`\|value`として追加された値が含まれます。 イベント IDには、`0` （アクティビティのエントリ）、`1` （訪問）、`2` （インプレッション）、および`32767` （コンバージョン）が含まれます。 ヒットに同じアクティビティとエクスペリエンスに対して複数のイベントがある場合、各イベントは個別のエントリになります。 | text |
 | | **`tnt_instances`** | Adobe Target 統合で使用されます。 Target インスタンス変数。 | text |
 | **`post_`** | **`transactionid`** | 後でデータソースを通じて様々なデータポイントをアップロードできる、一意のID。 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | text |
 | | **`truncated_hit`** | 画像リクエストが切り捨てられたことを示すフラグ（部分的なヒットを受け取りました）。 <br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |

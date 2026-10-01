@@ -29,20 +29,25 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 29%
 ---
 # eVar（マーチャンダイジング）
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。 マーチャンダイジング eVar がディメンションとしてどのように機能するかについては、コンポーネントユーザガイドの [eVar（マーチャンダイジングディメンション）](/help/components/dimensions/evar-merchandising.md)を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。 マーチャンダイジング eVarsがディメンションとして機能する方法について詳しくは、『コンポーネントユーザーガイド』の[eVar（マーチャンダイジングディメンション） &#x200B;](/help/components/dimensions/evar-merchandising.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 
-マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)を参照してください。
+マーチャンダイジング eVarは個々の製品に値をバインドするため、各製品に関する成功イベントは、その製品にバインドされた値にクレジットされます。 値は、次のいずれかの方法で設定できます。
+
+* **[!UICONTROL 製品構文]**: [`products`](products.md)変数の各製品の値を設定します。
+* **[!UICONTROL コンバージョン変数構文]**: eVar自体で値を設定します。 値は、バインディングイベントを含むヒットの製品にバインドされます。
+
+バインディング、割り当て、有効期限の仕組みについては、[eVar（マーチャンダイジングディメンション） &#x200B;](/help/components/dimensions/evar-merchandising.md)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
@@ -52,9 +57,21 @@ ht-degree: 90%
 >
 >マーチャンダイジング eVar を正しく設定しないと、変数の予期しない値やデータ損失が発生します。 お使いの実装に合わせて正しく設定されていることを確認します。
 
+## 構文の選択
+
+`products`変数の設定時にマーチャンダイジング値が使用可能な場合、または同じヒット内の製品で異なる値が必要な場合は、[!UICONTROL 製品構文]を使用します。 訪問者を製品に導いた検索語や内部キャンペーンなど、製品の前に値が既知の場合は、[!UICONTROL &#x200B; コンバージョン変数構文]を使用します。 完全な比較については、[&#x200B; バインディングと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
+
 ## 製品の構文を使用して実装する
 
-「製品の構文」が選択されている場合、マーチャンダイジングカテゴリーが `products` 変数に直接入力されるので、バインディングイベントを選択して設定する必要はありません。 これが推奨される方法であり、成功イベントが発生したときにその値を `products` に設定できない場合を除いて、この方法を使用してください。
+[!UICONTROL 製品構文]が有効になっている場合、マーチャンダイジング値は`products`変数内で直接設定されるので、バインディングイベントは使用されません。 マーチャンダイジング eVarは、各製品の最後のセグメントに配置されます。
+
+```js
+s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
+```
+
+同じ製品の複数のマーチャンダイジング eVarをパイプ （`|`）で区切ります。 数量、収益、イベントの空のプレースホルダーは、使用しない場合でも必要です。 このオプションを指定しない場合、eVar値は無視されます。
+
+そのヒットの商品に値がバインドされます。 後の値が既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [&#x200B; バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -63,11 +80,9 @@ s.products = ";Example product;;;;eVar1=Example merchandising value";
 // An example single product with product syntax
 s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 
-// Tie a merchandising eVar to a different values on two different products
+// Tie a merchandising eVar to different values on two different products
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
-
-`eVar1` の値が製品に割り当てられます。 この製品を含む以降の成功イベントはすべて eVar 値に配分されます。
 
 ### Web SDK を使用した製品構文
 
@@ -113,13 +128,27 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上記の例のオブジェクトは、Adobe Analytics に `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` として送信されることになります。
 
-[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、eVar マーチャンダイジングでは、AppMeasurementの構文に従って`data.__adobe.analytics.eVar1`～`data.__adobe.analytics.eVar250`が使用されます。
+[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、製品構文マーチャンダイジング eVarは`data.__adobe.analytics.products`に設定され、AppMeasurement `products`変数と同じ構文が使用されます。 上記のXDMの例に相当するデータオブジェクト：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "products": ";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"
+    }
+  }
+}
+```
 
 ## コンバージョン変数の構文を使用して実装する
 
-eVar 変数を `products` に設定できない場合、コンバージョン変数の構文を使用する必要があります変数。 このシナリオは一般的には、ページにマーチャンダイジングチャネルや検索方法のコンテキストがない場合です。 そのような場合、製品ページに到達する前にマーチャンダイジング変数を設定し、その値がバインディングイベントの発生時まで保持されるようにします。
+EVar値を`products`変数に設定できない場合は、[!UICONTROL &#x200B; コンバージョン変数構文]を使用します。 通常、このシナリオでは、商品ページにはマーチャンダイジングチャネルや検索方法に関するコンテキストがありません。 このような場合は、結合イベントが発生するページの上または前にマーチャンダイジング eVarを設定します。 値は、有効期限が切れるまで保持されるか、新しい値で上書きされます。
 
-設定時にバインディングイベントが選択されると、保持された eVar の値が製品に関連付けられます。 例えば、バインディングイベントとして `prodView` が指定されている場合、イベントの発生時にのみ現在の製品リストにマーチャンダイジングカテゴリーが結び付けられます。 既に製品に割り当てられているマーチャンダイジング eVar を更新できるのは、以降のバインディングイベントのみです。
+ヒットに`products`変数と選択した[!UICONTROL &#x200B; マーチャンダイジングバインディングイベント &#x200B;]の両方が含まれている場合、eVarの現在の値はそのヒットのすべての商品にバインドされます。 バインディングイベントを使用せずにeVarを製品と一緒に設定しても、値はバインドされません。 後のバインディングが既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [&#x200B; バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
+
+複数の製品検索方法eVarを一度に設定する例については、[&#x200B; ベストプラクティス：製品検索方法](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods)を参照してください。
+
+次の例では、バインディングイベントの前にマーチャンダイジング eVarを設定します。
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -130,14 +159,16 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-`eVar1` に `"Aviary"` の値が製品に割り当てられます`"Canary"`。 この製品に関連する以降の成功イベントのクレジットはすべて `"Canary"` に付与されます。 さらに、以下のどちらかの条件が満たされるまで、マーチャンダイジング変数の現在の値が以後のすべての製品に結び付けられます。
+[!UICONTROL 製品ビューイベント &#x200B;]がバインディングイベントである場合、`eVar1`の値`"Aviary"`は製品`"Canary"`にバインドされます。 この製品に関連するその後の成功イベントは`"Aviary"`にクレジットされます。 値`"Aviary"`は、次のいずれかの条件が満たされるまで、バインディングイベントを含む後のヒットの製品にもバインドされます。
 
-* eVar の期限が切れます（「有効期限」の設定に基づきます）。
+* EVarの有効期限（[!UICONTROL 有効期限]設定に基づく）。
 * マーチャンダイジング eVar が新しい値で上書きされる。
 
 ### Web SDK を使用したコンバージョン変数構文
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 上記の例を反映した XDM は、次のようになります。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、構文はAppMeasurementに従います。
+
+上記のAppMeasurementの例をミラーリングするXDMは、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 
@@ -168,7 +199,7 @@ s.products = ";Canary";
 ]
 ```
 
-[**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、上記の例を反映したデータオブジェクトは次のようになります。
+上記のAppMeasurementの例を反映したデータオブジェクトは、次のようになります。
 
 同じまたは前のイベントコールで eVar を設定します。
 
@@ -194,3 +225,4 @@ s.products = ";Canary";
   }
 }
 ```
+

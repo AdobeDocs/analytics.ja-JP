@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
+source-git-commit: f2049df5ab89bd86d558f03e2ecdf2b362df08cb
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 40%
 ---
 # 最新のAdobe Analytics リリースノート（2026年9月）
@@ -55,8 +55,8 @@ ht-degree: 40%
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
 | **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。</p><p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
-| **ボット検出の更新**<br/> Web SDKでEdge Data Collectionを使用する場合、次のボット検出の更新が利用できます。<ul><li>ボット検出ルールを作成して、ボットが生成したトラフィックとして扱われる例外を識別できるようになりました。 既存のルールと今後のルールは、デフォルトで一致するトラフィックをボット生成としてマークします。</li><li>カスタムボットルールがIAB ボット検出ルールの前に実行されるようになりました。 この変更はボットスコアには影響しませんが、イベントに関連付けられたボットルール名は変更される可能性があります。</li></ul><p>注意：このアップデートは、Web SDKを使用するEdge Data Collection実装にのみ適用されます。 AppMeasurementなどの古いライブラリには適用されません。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月上旬 |
-| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年9月29日（PT）<p>（当初は2026年9月25日に予定）</p> |
+| **ボット検出の更新**<br/> Web SDKでEdge Data Collectionを使用する場合、次のボット検出の更新が利用できます。<ul><li>ボット検出ルールを作成して、ボットが生成したトラフィックとして扱われる例外を識別できるようになりました。 既存のルールと今後のルールは、デフォルトで一致するトラフィックをボット生成としてマークします。</li><li>カスタムボットルールがIAB ボット検出ルールの前に実行されるようになりました。 この変更はボットスコアには影響しませんが、イベントに関連付けられたボットルール名は変更される可能性があります。</li></ul><p>注意：このアップデートは、Web SDKを使用するEdge Data Collection実装にのみ適用されます。 AppMeasurementなどの古いライブラリには適用されません。</p><p>詳しくは、[&#x200B; データストリームのボット検出の設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/bot-detection)を参照してください。</p> | | 2026年9月上旬 |
+| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月2日（PT）<p>（当初は2026年9月25日に予定）</p> |
 | **CX Enterprise Coworker：根本原因の分析スキル** <br/>Adobe CX Enterprise Coworker Chatで、根本原因の分析を実行できるようになりました。指標が変更された理由だけでなく、変更された理由も説明できます。 Coworker Chatは、シフトが発生した日付を特定し、その前後のデータを比較し、その変化を促進するディメンションとその大きさによって分類し、パーセンテージと絶対値の両方で示します。 有意義な変化が検出されない場合は、原因を推測するのではなく、同僚のチャットで知らせます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月2日（PT） |
 | **CX Enterprise Coworker: Analysis Workspaceでビジュアライゼーションを開く** <br/>Coworker Chatでデータ分析を開始し、Analysis Workspaceで直接ビジュアライゼーションとしてAnalysisを開いて、構築、改良、探索を続けます。</p><p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月2日（PT） |
 | **分類セット API アップデート**<br/>&#x200B;分類セット API ドキュメントに、分類セット API リクエストを設定するための更新されたエンドポイントとパラメーター情報が含まれるようになりました。<p>詳しくは、[分類エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |

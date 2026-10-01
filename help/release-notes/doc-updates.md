@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
-ht-degree: 92%
+source-wordcount: '7553'
+ht-degree: 91%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
 
@@ -77,6 +77,7 @@ ht-degree: 92%
 | --- | --- |
 | **2026年9月** | |
 | 矢印とフォールアウトのジャーニーキャンバスの比較 | [&#x200B; ジャーニーの各ノード、矢印、フォールアウトに日付範囲の変化率が表示されるように、ジャーニーキャンバスのビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「[!UICONTROL 比較先]」設定を更新しました。 |
+| マーチャンダイジング eVar | マーチャンダイジング変数のドキュメントを刷新し、関連するコンポーネントに統合：<ul><li>コンポーネントガイドの[eVar （マーチャンダイジング） &#x200B;](/help/components/dimensions/evar-merchandising.md) ディメンション</li><li>実装ガイドの[eVar （マーチャンダイジング） &#x200B;](/help/implement/vars/page-vars/evar-merchandising.md)変数</li><li>管理者ガイドの[&#x200B; コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
 | 新しいサイズ変更ショートカットアクション | Analysis Workspaceの新しいキーボードショートカットを使用すると、パネルまたはビジュアライゼーションのサイズを[変更できます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)幅、幅、高さ、短くできます。 |
 | [Adobe Analytics データ収集API](https://developer.adobe.com/analytics-collection-apis/) | AppMeasurementやタグを使用せずに、Adobe Analyticsのデータ収集戦略を集約および近代化する新しい開発者リポジトリ。 |
 | **2026年8月** | |
@@ -273,7 +274,7 @@ ht-degree: 92%
 | 複合グラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
 | アップデートされたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
 | 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
-| 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
+| 高エントロピーのクライアントヒント | アドビがユーザーエージェントに加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** | |
 | Edge コレクション用 XDM でのリスト変数のサポート | Web SDK を使用してデータを収集するお客様が、XDM を使用してリスト変数のコンテンツを指定できるようにします。 [詳細情報](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
@@ -317,7 +318,7 @@ ht-degree: 92%
 | 2021年8月5日 | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](/help/components/classifications/importer/c-download-saint-data.md)、[ブラウザーインポート](/help/components/classifications/importer/browser-import.md) および [ブラウザーエクスポート](/help/components/classifications/importer/browser-export.md) に関する分類ドキュメントを更新しました。 |
 | 2021年8月2日 | [Adobe Experience Platform Launch](/help/implement/launch/overview.md) のリブランディングを反映するように複数のページを更新しました |
 | **2021年7月** |  |
-| 2021年7月23日 | [マーチャンダイジング eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) に関する新しい詳細な説明 |
+| 2021年7月23日 | [マーチャンダイジング eVar](/help/components/dimensions/evar-merchandising.md) に関する新しい詳細な説明 |
 | 2021年7月15日 | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日 | [マーケティングチャネルのベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を更新しました |
