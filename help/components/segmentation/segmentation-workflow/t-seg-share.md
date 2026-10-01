@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 41%
+source-wordcount: '425'
+ht-degree: 39%
 ---
 # セグメントの共有
 
@@ -57,7 +57,7 @@ ht-degree: 41%
 
 
 
-   セグメントの横に共有アイコン  が表示されます。![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   セグメントの横に共有アイコンが表示されます：![](/help/assets/icons/Share.svg)
 
 1. **[!UICONTROL フィルター]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 自分と共有]**&#x200B;に移動して、自分と共有しているセグメントをフィルタリングできます。
 
@@ -65,7 +65,7 @@ ht-degree: 41%
 
 ここでは、セグメントを共有する必要がある場合と、セグメントを共有する必要があるユーザーについて、いくつかのベストプラクティスを紹介します。
 
-* 管理者は、組織内の誰もがセグメントを使いやすいと確信している場合にのみ、すべてのユーザーとセグメントを共有します。 また、これらのセグメントに対する好みを考慮することもできます。 詳しくは、[&#x200B; セグメントをお気に入りにマーク &#x200B;](t-seg-favorite.md)するを参照してください。
+* 管理者は、組織内の誰もがセグメントを使いやすいと確信している場合にのみ、すべてのユーザーとセグメントを共有します。 また、これらのセグメントに対する好みを考慮することもできます。 詳しくは、[ セグメントをお気に入りにマーク ](t-seg-favorite.md)するを参照してください。
 
 * 管理者は、特定のセグメントがそのセグメントのユーザー部分にビジネス価値を提供する場合、そのセグメントを特定のグループと共有します。
 

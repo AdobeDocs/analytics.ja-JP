@@ -8,25 +8,32 @@ exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 TQID: https://experienceleague.adobe.com/v-XrDQsKzc7MKVieH-v7P3EBfD37dAgVqSLQFNWQT-Y
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+    internal-label: Project info and settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 87%
-
 ---
-
 # モバイルスコアカードの注釈
 
 Analysis Workspaceで作成した注釈は、モバイルスコアカードで表示できます。 モバイルスコアカードの注釈を使用すると、組織とキャンペーンに関するコンテキスト付きのデータのニュアンスやインサイトを共有できます。
@@ -96,7 +103,7 @@ When annotations are enabled, annotation icons are visible in the Scorecard Buil
 
  ![](assets/view-annotations.png)
 
-When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Preview**.
+When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app ![](/help/assets/icons/Play.svg) **Preview**.
 
 Annotation colors are selected when the annotation is created in workspace. Gray annotations indicated the presence of more than one annotation.
 
