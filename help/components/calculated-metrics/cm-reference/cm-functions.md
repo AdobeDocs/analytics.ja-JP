@@ -7,23 +7,28 @@ role: User
 TQID: 'https://experienceleague.adobe.com/0IC-0OshuRgClzQ56xAGIZhsCeCrFH9b5ZIo-s5iv-c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 3642
+source-wordcount: '3642'
 ht-degree: 49%
-
 ---
-
 # 基本関数
 
 
@@ -106,7 +111,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->**IF** （*Revenue* = **Column Maximum***（Revenue*）, 1, 0）などの[IF](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) ステートメントを使用して、分類で最もパフォーマンスの高い項目を強調表示します。
+>**IF** （*Revenue* = **Column Maximum***（Revenue*）, 1, 0）などの[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) ステートメントを使用して、分類で最もパフォーマンスの高い項目を強調表示します。
 >
 
 ## 列の最小値 {#column-minimum}
@@ -136,7 +141,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->**IF** （*Revenue* = **Column Minimum***（Revenue*）, 1, 0）などの[IF](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) ステートメントを使用して、分類で最もパフォーマンスの低い項目を強調表示します。
+>**IF** （*Revenue* = **Column Minimum***（Revenue*）, 1, 0）などの[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) ステートメントを使用して、分類で最もパフォーマンスの低い項目を強調表示します。
 >
 
 
