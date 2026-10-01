@@ -33,11 +33,11 @@ ht-degree: 27%
 計算指標のリストをフィルタリングするには：
 
 1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。 フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
-1. 使用可能な[ フィルターセクション ](#filter-sections)からフィルターを選択します。
+1. 使用可能な[&#x200B; フィルターセクション &#x200B;](#filter-sections)からフィルターを選択します。
 
    >[!INFO]
    >
-   >*項目*&#x200B;は、[計算指標リスト ](cm-manager.md#filters-list)に表示されるフィルター項目を参照します。
+   >*項目*&#x200B;は、[計算指標リスト &#x200B;](cm-manager.md#filters-list)に表示されるフィルター項目を参照します。
    > 
 
 ## フィルターセクション
@@ -48,7 +48,7 @@ ht-degree: 27%
 {{otherfiltersfiltersection}}
 
 
-[計算指標リスト ](cm-manager.md#filters-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](cm-manager.md#active-filter-bar)で確認できます。
+[計算指標リスト &#x200B;](cm-manager.md#filters-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](cm-manager.md#active-filter-bar)で確認できます。
 
 
 

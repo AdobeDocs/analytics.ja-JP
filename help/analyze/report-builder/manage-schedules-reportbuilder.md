@@ -41,7 +41,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL ワークブック]**」タブを選択します。 スケジュールされたすべてのワークブックのリストが表示されます。 （または、「**[!UICONTROL レガシー]**」タブを選択して、新しいレポートビルダーに移行する必要があるレガシーワークブックのリストを表示することもできます）。
 
-   ![ スケジュール済みワークブック ](assets/scheduled-workbooks.png){zoomable="yes"}
+   ![&#x200B; スケジュール済みワークブック &#x200B;](assets/scheduled-workbooks.png){zoomable="yes"}
 
 1. 次のいずれかの操作を行います。
 
@@ -51,11 +51,11 @@ ht-degree: 4%
 
    * 列アイコン ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)を選択して、表示する列を定義します。
 
-   * フィルターアイコン ![ フィルターアイコン ](/help/assets/icons/Filter.svg)を選択し、[!UICONTROL **すべてを表示**]&#x200B;を選択して、特定の組織のすべてのスケジュール済みワークブックを表示します。
+   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](/help/assets/icons/Filter.svg)を選択し、[!UICONTROL **すべてを表示**]&#x200B;を選択して、特定の組織のすべてのスケジュール済みワークブックを表示します。
 
 1. 1つ以上のワークブックを選択します。
 
-   ![選択したワークブックのスケジュール ](assets/scheduled-workbooks-selected.png){zoomable="yes"}
+   ![選択したワークブックのスケジュール &#x200B;](assets/scheduled-workbooks-selected.png){zoomable="yes"}
 
    次のオプションがあります。
 
@@ -64,7 +64,7 @@ ht-degree: 4%
    | ![編集](/help/assets/icons/Edit.svg) | 選択したワークブックのスケジュールを編集します。 |
    | ![履歴](/help/assets/icons/History.svg) | 選択したワークブックの履歴を表示します。 |
    | ![一時停止](/help/assets/icons/Pause.svg) | 選択したワークブックのスケジュールを一時停止します。 |
-   | ![ プレイ ](/help/assets/icons/Play.svg) | 選択したワークブックのスケジュールを再開します。 |
+   | ![&#x200B; プレイ &#x200B;](/help/assets/icons/Play.svg) | 選択したワークブックのスケジュールを再開します。 |
    | ![ダウンロード](/help/assets/icons/Download.svg) | 選択したワークブックを新しいワークブックにダウンロードします。 |
    | ![削除](/help/assets/icons/Delete.svg) | 選択したワークブックのスケジュールを削除します。 |
 
@@ -77,7 +77,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL 履歴]**」タブを選択します。 スケジュールされたすべてのワークブックのリストが表示されます。
 
-   ![ スケジュール履歴](assets/scheduled-workbooks-history.png){zoomable="yes"}
+   ![&#x200B; スケジュール履歴](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    リスト内の特定のワークブックを検索するには、![検索](/help/assets/icons/Search.svg)を使用します。
    ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)を使用して、表示する列を定義します。

@@ -36,7 +36,7 @@ Report Builder で Adobe Analytics のセグメントを追加、編集、適用
 
 Report Builderでは、リクエストウィザードの手順1でセグメント化パネルを使用して、セグメントを作成および管理できます。
 
-![ セグメントの追加、編集、クリアのセグメントオプションと、コントロール、フィルター、更新の各アイコンを示すスクリーンショット。](assets/seg_dialog.png)
+![&#x200B; セグメントの追加、編集、クリアのセグメントオプションと、コントロール、フィルター、更新の各アイコンを示すスクリーンショット。](assets/seg_dialog.png)
 
 ## セグメントの追加または編集 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -62,7 +62,7 @@ Report Builderでは、リクエストウィザードの手順1でセグメン�
 
    ![選択された使用可能なコンテナオプションのコンテキスト内セグメントを作成を示すスクリーンショット。](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[ セグメント化ガイド ](/help/components/segmentation/seg-home.md)を参照してください。
+   コンテナについて詳しくは、[&#x200B; セグメント化ガイド &#x200B;](/help/components/segmentation/seg-home.md)を参照してください。
 
 1. セグメントビルダーUIがInternet Explorerで起動するようになりました。 セグメントビルダーUIは、コンテナと指定したフィルターで初期化されます。
 1. セグメントに名前と説明を追加したら、セグメントを保存します。
@@ -79,7 +79,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 1. 適用するセグメントのチェックボックスをオンにします。
 
-   選択したセグメントを表示する![ スクリーンショット。](assets/seg_list.png)
+   選択したセグメントを表示する![&#x200B; スクリーンショット。](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 ## セグメントのフィルタリング {#filter}
 
-**フィルターアイコンをクリックして、** セグメントをフィルタリング：![ フィルターアイコン ](/help/assets/icons/Filter.svg)
+**フィルターアイコンをクリックして、** セグメントをフィルタリング：![&#x200B; フィルターアイコン &#x200B;](/help/assets/icons/Filter.svg)
 
 使用可能なフィルターは次のとおりです。
 
@@ -109,7 +109,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 1. セグメントコントロールに表示するすべてのセグメントを確認するか、**[!UICONTROL すべてを選択]**&#x200B;を確認します。
 
-   すべての設定を選択したコントロール設定ダイアログの![ スクリーンショット。](assets/seg_control.png)
+   すべての設定を選択したコントロール設定ダイアログの![&#x200B; スクリーンショット。](assets/seg_control.png)
 
 1. 項目の選択時にリンクされたリクエストを自動的に更新する&#x200B;**[!UICONTROL オプションに注意してください]**。
 
@@ -120,7 +120,7 @@ Reports &amp; Analytics （現在は提供終了）、Report Builder、または
 
 1. **[!UICONTROL OK]**&#x200B;をクリックすると、セグメントコントロールが指定された場所に表示されます。
 
-   「セグメントを選択」フィールドのドロップダウンフィールドを示す![ スクリーンショット。](assets/seg_control2.png)
+   「セグメントを選択」フィールドのドロップダウンフィールドを示す![&#x200B; スクリーンショット。](assets/seg_control2.png)
 
 ## セグメントのリストを更新する {#refresh}
 

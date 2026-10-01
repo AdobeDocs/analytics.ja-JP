@@ -61,7 +61,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
 * **計算指標テンプレート** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：計算指標と同様に動作するAdobe定義の指標。 これらを Workspace プロジェクトでそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。 計算指標テンプレートでは、使用可能なコンポーネントのリストに Adobe アイコンが表示されます。
 
-指標が承認されているかどうかを確認できます![承認済みアイコン ](/help/assets/icons/Checkmark.svg)。 指標の詳細が必要な場合は、指標にカーソルを合わせて、![情報アイコン ](/help/assets/icons/InfoOutline.svg)を選択します。 詳しくは、[ コンポーネント情報](use-components-in-workspace.md#component-info)を参照してください。
+指標が承認されているかどうかを確認できます![承認済みアイコン &#x200B;](/help/assets/icons/Checkmark.svg)。 指標の詳細が必要な場合は、指標にカーソルを合わせて、![情報アイコン &#x200B;](/help/assets/icons/InfoOutline.svg)を選択します。 詳しくは、[&#x200B; コンポーネント情報](use-components-in-workspace.md#component-info)を参照してください。
 
 
 ## Analysis Workspace での指標の使用
@@ -103,7 +103,7 @@ Analysis Workspaceに指標やその他の種類のコンポーネントを追�
 
 1. **[!UICONTROL 選択範囲から指標を作成]**&#x200B;を選択
 
-   選択範囲から作成を強調表示する![Workspace パネル ](assets/create-metric-from-selection.png)
+   選択範囲から作成を強調表示する![Workspace パネル &#x200B;](assets/create-metric-from-selection.png)
 
 1. このプロジェクトのみの計算指標を作成するには、使用可能なオプションから選択します。
 

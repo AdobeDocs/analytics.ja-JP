@@ -33,7 +33,7 @@ ht-degree: 2%
 1. [計算指標](../cm-workflow.md)を作成し、[計算指標ビルダー](cm-build-metrics.md)で、指標`Orders (Visit Participation)`または類似の名前を付けます。
 1. 成功イベントを含む指標（例：[!DNL Online Orders]）を[!UICONTROL **[!UICONTROL 定義]**]領域にドラッグします。
 1. 指標に「![歯車](/help/assets/icons/Setting.svg)」を選択します。
-1. 表示されるポップアップで、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を選択して、そのイベントの[ アトリビューションモデル ](m-metric-type-alloc.md#attribution-models)を&#x200B;**[!UICONTROL 参加]**&#x200B;に定義し、[!UICONTROL  コンテナ ]の&#x200B;**[!UICONTROL 訪問]**&#x200B;を選択します。 「**[!UICONTROL 適用]**」を選択して確認します。
+1. 表示されるポップアップで、「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」を選択して、そのイベントの[&#x200B; アトリビューションモデル &#x200B;](m-metric-type-alloc.md#attribution-models)を&#x200B;**[!UICONTROL 参加]**&#x200B;に定義し、[!UICONTROL &#x200B; コンテナ &#x200B;]の&#x200B;**[!UICONTROL 訪問]**&#x200B;を選択します。 「**[!UICONTROL 適用]**」を選択して確認します。
 
 
    ![列アトリビューションモデルのポップアップに、モデルとして選択された参加と、コンテナ用に選択された訪問が表示されています。](assets/participation-setup.png)
@@ -45,7 +45,7 @@ ht-degree: 2%
 1. [!UICONTROL **保存**]&#x200B;を選択して、指標を保存します。
 1. レポートで計算指標を使用します。 例えば、レポートで計算された[!DNL Orders (Session Participation)]指標を使用して、注文を含むセッションに貢献した（または参加した）顧客層を表示します。
 
-   顧客層と注文を示す![ フリーフォームテーブル。](assets/participation-pages-customer-tier.png)
+   顧客層と注文を示す![&#x200B; フリーフォームテーブル。](assets/participation-pages-customer-tier.png)
 
 
 <!--

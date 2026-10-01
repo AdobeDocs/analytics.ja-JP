@@ -54,7 +54,7 @@ Adobe Admin Console でユーザーを管理するための前提条件。
 * リストを比較します（Adobe Admin Console でアカウントデータが上書きされるのを防ぐために、重複を探します）。
 * Enterprise ID または Federated ID ユーザーを使用して最終版 [!DNL .csv]（**[!UICONTROL Admin Console]**／**[!UICONTROL ユーザー]**&#x200B;から取得したもの）を Adobe Admin Console にアップロードします。
 
-既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[ ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
+既存のAdobe ID ユーザーアカウントをEnterprise IDまたはFederated IDに移行する必要がある場合は、Adobe カスタマーケアにお問い合わせください。[&#x200B; ユーザーIDの一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
 
 **ユーザーアカウントを移行するには**
 
