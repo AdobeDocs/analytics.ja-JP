@@ -38,7 +38,7 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。 マーチャンダイジング eVarsがディメンションとして機能する方法について詳しくは、『コンポーネントユーザーガイド』の[eVar（マーチャンダイジングディメンション） ](/help/components/dimensions/evar-merchandising.md)を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。 マーチャンダイジング eVarsがディメンションとして機能する方法について詳しくは、『コンポーネントユーザーガイド』の[eVar（マーチャンダイジングディメンション） &#x200B;](/help/components/dimensions/evar-merchandising.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ ht-degree: 29%
 * **[!UICONTROL 製品構文]**: [`products`](products.md)変数の各製品の値を設定します。
 * **[!UICONTROL コンバージョン変数構文]**: eVar自体で値を設定します。 値は、バインディングイベントを含むヒットの製品にバインドされます。
 
-バインディング、割り当て、有効期限の仕組みについては、[eVar（マーチャンダイジングディメンション） ](/help/components/dimensions/evar-merchandising.md)を参照してください。
+バインディング、割り当て、有効期限の仕組みについては、[eVar（マーチャンダイジングディメンション） &#x200B;](/help/components/dimensions/evar-merchandising.md)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
@@ -59,7 +59,7 @@ ht-degree: 29%
 
 ## 構文の選択
 
-`products`変数の設定時にマーチャンダイジング値が使用可能な場合、または同じヒット内の製品で異なる値が必要な場合は、[!UICONTROL 製品構文]を使用します。 訪問者を製品に導いた検索語や内部キャンペーンなど、製品の前に値が既知の場合は、[!UICONTROL  コンバージョン変数構文]を使用します。 完全な比較については、[ バインディングと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
+`products`変数の設定時にマーチャンダイジング値が使用可能な場合、または同じヒット内の製品で異なる値が必要な場合は、[!UICONTROL 製品構文]を使用します。 訪問者を製品に導いた検索語や内部キャンペーンなど、製品の前に値が既知の場合は、[!UICONTROL &#x200B; コンバージョン変数構文]を使用します。 完全な比較については、[&#x200B; バインディングと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
 
 ## 製品の構文を使用して実装する
 
@@ -71,7 +71,7 @@ s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
 
 同じ製品の複数のマーチャンダイジング eVarをパイプ （`|`）で区切ります。 数量、収益、イベントの空のプレースホルダーは、使用しない場合でも必要です。 このオプションを指定しない場合、eVar値は無視されます。
 
-そのヒットの商品に値がバインドされます。 後の値が既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [ バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
+そのヒットの商品に値がバインドされます。 後の値が既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [&#x200B; バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -142,11 +142,11 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ## コンバージョン変数の構文を使用して実装する
 
-EVar値を`products`変数に設定できない場合は、[!UICONTROL  コンバージョン変数構文]を使用します。 通常、このシナリオでは、商品ページにはマーチャンダイジングチャネルや検索方法に関するコンテキストがありません。 このような場合は、結合イベントが発生するページの上または前にマーチャンダイジング eVarを設定します。 値は、有効期限が切れるまで保持されるか、新しい値で上書きされます。
+EVar値を`products`変数に設定できない場合は、[!UICONTROL &#x200B; コンバージョン変数構文]を使用します。 通常、このシナリオでは、商品ページにはマーチャンダイジングチャネルや検索方法に関するコンテキストがありません。 このような場合は、結合イベントが発生するページの上または前にマーチャンダイジング eVarを設定します。 値は、有効期限が切れるまで保持されるか、新しい値で上書きされます。
 
-ヒットに`products`変数と選択した[!UICONTROL  マーチャンダイジングバインディングイベント ]の両方が含まれている場合、eVarの現在の値はそのヒットのすべての商品にバインドされます。 バインディングイベントを使用せずにeVarを製品と一緒に設定しても、値はバインドされません。 後のバインディングが既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [ バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
+ヒットに`products`変数と選択した[!UICONTROL &#x200B; マーチャンダイジングバインディングイベント &#x200B;]の両方が含まれている場合、eVarの現在の値はそのヒットのすべての商品にバインドされます。 バインディングイベントを使用せずにeVarを製品と一緒に設定しても、値はバインドされません。 後のバインディングが既存のバインディングを置き換えるかどうかは、[!UICONTROL 配分]設定によって異なります。 [&#x200B; バインドと割り当ての仕組み](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)を参照してください。
 
-複数の製品検索方法eVarを一度に設定する例については、[ ベストプラクティス：製品検索方法](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods)を参照してください。
+複数の製品検索方法eVarを一度に設定する例については、[&#x200B; ベストプラクティス：製品検索方法](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods)を参照してください。
 
 次の例では、バインディングイベントの前にマーチャンダイジング eVarを設定します。
 
@@ -159,14 +159,14 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-[!UICONTROL 製品ビューイベント ]がバインディングイベントである場合、`eVar1`の値`"Aviary"`は製品`"Canary"`にバインドされます。 この製品に関連するその後の成功イベントは`"Aviary"`にクレジットされます。 値`"Aviary"`は、次のいずれかの条件が満たされるまで、バインディングイベントを含む後のヒットの製品にもバインドされます。
+[!UICONTROL 製品ビューイベント &#x200B;]がバインディングイベントである場合、`eVar1`の値`"Aviary"`は製品`"Canary"`にバインドされます。 この製品に関連するその後の成功イベントは`"Aviary"`にクレジットされます。 値`"Aviary"`は、次のいずれかの条件が満たされるまで、バインディングイベントを含む後のヒットの製品にもバインドされます。
 
 * EVarの有効期限（[!UICONTROL 有効期限]設定に基づく）。
 * マーチャンダイジング eVar が新しい値で上書きされる。
 
 ### Web SDK を使用したコンバージョン変数構文
 
-[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[ イベント ](events/events-overview.md)の実装と同様に動作します。 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、構文はAppMeasurementに従います。
+[**XDM オブジェクト**](/help/implement/aep-edge/xdm-var-mapping.md)&#x200B;を使用する場合、構文は他の[eVars](evar.md)および[&#x200B; イベント &#x200B;](events/events-overview.md)の実装と同様に動作します。 [**データオブジェクト**](/help/implement/aep-edge/data-var-mapping.md)&#x200B;を使用する場合、構文はAppMeasurementに従います。
 
 上記のAppMeasurementの例をミラーリングするXDMは、次のようになります。
 
