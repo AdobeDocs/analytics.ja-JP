@@ -4,13 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: CX Enterprise Admin Consoleでのユーザーと製品の管理、レポートスイートの設定など、Analyticsの管理タスクについて説明します。
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Adobe Analytics 管理ガイド {#admin}
 
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [成功イベント](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [分類階層](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [リスト変数](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [マーチャンダイジング eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + マーケティングチャネル {#marketing-channels}
         + [マーケティングチャネルマネージャー](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [マーケティングチャネルの処理ルール](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
