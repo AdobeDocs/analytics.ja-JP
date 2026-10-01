@@ -51,7 +51,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->永続値を製品以外のディメンションにバインドするには、Customer Journey Analyticsで[[!UICONTROL &#x200B; バインド ディメンション &#x200B;]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)を使用することを検討してください。
+>永続値を製品以外のディメンションにバインドするには、Customer Journey Analyticsで[[!UICONTROL &#x200B; バインド ディメンション &#x200B;]](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)を使用することを検討してください。
 
 ## マーチャンダイジング eVarsを利用する理由
 
