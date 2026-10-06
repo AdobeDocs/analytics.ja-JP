@@ -5,13 +5,11 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Analytics] コンポーネントガイド {#components}
 
 + [Analytics コンポーネントガイド](home.md)
@@ -24,7 +22,7 @@ ht-degree: 97%
   + [Activity Map ページ](dimensions/activity-map-page.md)
   + [Activity Map 地域](dimensions/activity-map-region.md)
   + [広告プラットフォームの同意](dimensions/ad-consent.md)
-  + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
+  + [すべての検索ページのランキング](dimensions/all-search-page-rank.md)
   + [AMO ID](dimensions/amo-id.md)
   + [AMO EF ID](dimensions/amo-ef-id.md)
   + [AMO Meta Ads クリック ID](dimensions/amo-meta-id.md)
@@ -77,7 +75,7 @@ ht-degree: 97%
   + [分](dimensions/minute.md)
   + [モバイルライフサイクルディメンション](dimensions/lifecycle-dimensions.md)
   + [モバイル参照ディメンション](dimensions/mobile-dimensions.md)
-  + [画面の解像度](dimensions/monitor-resolution.md)
+  + [モニターの解像度](dimensions/monitor-resolution.md)
   + [月](dimensions/month-of-year.md)
   + [月](dimensions/month.md)
   + [オペレーティングシステムの種類](dimensions/operating-system-types.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [サイトでの平均時間](metrics/average-time-on-site.md)
   + [ボットの発生件数](metrics/bot-occurrences.md)
   + [ボットページビュー数](metrics/bot-page-views.md)
+  + [製品発生の両方](metrics/bot-product-occurrences.md)
   + [バウンス率](metrics/bounce-rate.md)
   + [バウンス](metrics/bounces.md)
   + [買い物かごへの追加](metrics/cart-additions.md)

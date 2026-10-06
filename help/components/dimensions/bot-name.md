@@ -31,29 +31,31 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '265'
+ht-degree: 10%
 ---
 # ボット名
 
-「ボット名」 [&#x200B; ディメンション &#x200B;](overview.md)には、[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
+「ボット名」 [ ディメンション ](overview.md)には、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
 
-[!UICONTROL &#x200B; ボットルール &#x200B;]に一致するヒットは、このディメンション、[&#x200B; ボット発生](../metrics/bot-occurrences.md)、[&#x200B; ボットページビュー](../metrics/bot-page-views.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションとこれら2つの指標を使用して、どのボットデータがレポートの残りの部分から除外されるかを確認できます。
+[!UICONTROL  ボットルール ]に一致するヒットは、このディメンション、[ ボットの発生](../metrics/bot-occurrences.md)、[ ボットページビュー](../metrics/bot-page-views.md)、[ ボット製品の発生](../metrics/bot-product-occurrences.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションと3つの指標を使用して、どのボットデータが他のレポートから除外されているかを確認できます。
 
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、このディメンションでは次のディメンションと指標のみがサポートされています。
 
 * [ページ](page.md)
+* [製品](product.md) （[ ボット製品発生回数](../metrics/bot-product-occurrences.md)の場合のみ）
 * 時間ベースのディメンション （例：[日](day.md)、[週](week.md)、[月](month.md)）
 * [ボットの発生件数](../metrics/bot-occurrences.md)
 * [ボットページビュー数](../metrics/bot-page-views.md)
+* [製品発生の両方](../metrics/bot-product-occurrences.md)
 
 このディメンションで他のディメンションまたは指標を使用しても、データは返されません。
 
 ## このディメンションへのデータ入力
 
-[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL &#x200B; ボットルール &#x200B;]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
+[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL  ボットルール ]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
 
 | プロパティ | 値 |
 | --- | --- |
