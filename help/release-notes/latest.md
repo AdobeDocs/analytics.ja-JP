@@ -2,6 +2,7 @@
 title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -39,10 +40,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e799ccd83844b80268377a1b7094baee6a1cbc0e
+source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 54%
 ---
 # 最新のAdobe Analytics リリースノート（2026年9月）
 
@@ -54,11 +55,9 @@ ht-degree: 44%
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **レポートの日付範囲にセグメントを制限**<br/> Workspace レポートのデータは、セグメントに日付範囲コンポーネントが含まれている場合、レポートの日付範囲を超えて拡張できます。<p>セグメントに含まれる日付コンポーネントに関係なく、レポート日付範囲に結果を制限できる新しいオプションが利用可能になりました。</p><p>このオプションは、最上位コンテナが訪問者であるセグメントを作成または変更する場合に使用できます。</p><p>詳しくは、[&#x200B; セグメントの構築](/help/components/segmentation/segmentation-workflow/seg-build.md#components)を参照してください。</p> | 2026年8月26日（PT） | 2026年9月9日（PT） |
-| **ボット検出の更新**<br/> Web SDKでEdge Data Collectionを使用する場合、次のボット検出の更新が利用できます。<ul><li>ボット検出ルールを作成して、ボットが生成したトラフィックとして扱われる例外を識別できるようになりました。 既存のルールと今後のルールは、デフォルトで一致するトラフィックをボット生成としてマークします。</li><li>カスタムボットルールがIAB ボット検出ルールの前に実行されるようになりました。 この変更はボットスコアには影響しませんが、イベントに関連付けられたボットルール名は変更される可能性があります。</li></ul><p>注意：このアップデートは、Web SDKを使用するEdge Data Collection実装にのみ適用されます。 AppMeasurementなどの古いライブラリには適用されません。</p><p>詳しくは、[&#x200B; データストリームのボット検出の設定](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/bot-detection)を参照してください。</p> | | 2026年9月上旬 |
+| **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
+| **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月</p> |
 | **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
-| **分類セット API アップデート**<br/>&#x200B;分類セット API ドキュメントに、分類セット API リクエストを設定するための更新されたエンドポイントとパラメーター情報が含まれるようになりました。<p>詳しくは、[分類エンドポイントガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
-| **2.0 API レポートガイドの日付itemId エンコーディングガイダンス**<br/> Adobe Analytics 2.0 APIの日付トレンドレポートガイドに、日付`itemId` パラメーターと値のエンコード方法を説明する新しいセクションが追加されました。 これにより、非推奨となった1.4 APIから2.0 API サービスを設定して移行できます。<p>詳細については、[KPI レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)および[詳細レポート ガイド &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)を参照してください。</p> | 2026年9月5日（PT） | 2026年9月30日（PT） |
 
 ### Adobe Analytics の修正点
 
