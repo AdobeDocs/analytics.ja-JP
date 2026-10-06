@@ -30,7 +30,7 @@ ht-degree: 8%
 ---
 # ボットの発生件数
 
-「ボットの発生回数」の[指標](overview.md)には、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)に一致したヒット数が表示されます。
+「ボットの発生回数」の[指標](overview.md)には、[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)に一致したヒット数が表示されます。
 
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、この指標は次のディメンションでのみ機能します。
 
@@ -42,6 +42,6 @@ ht-degree: 8%
 
 ## この指標の計算方法
 
-Adobeでは、あらゆるヒットをチェックし、組織が設定したボットルールに一致するかどうかを確認します。 特定のヒットがボットルールに一致した場合、そのヒットはレポートから除外され、この指標は1つ増加します。 この指標には、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）とリンクトラッキングヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）の両方が含まれますが、[ ボットページビュー](bot-page-views.md)にはリンクトラッキングヒットは含まれません。
+Adobeでは、あらゆるヒットをチェックし、組織が設定したボットルールに一致するかどうかを確認します。 特定のヒットがボットルールに一致した場合、そのヒットはレポートから除外され、この指標は1つ増加します。 この指標には、ページビュー（[`t()`](/help/implement/vars/functions/t-method.md)）とリンクトラッキングヒット（[`tl()`](/help/implement/vars/functions/tl-method.md)）の両方が含まれますが、[&#x200B; ボットページビュー](bot-page-views.md)にはリンクトラッキングヒットは含まれません。
 
-ボットルールに一致した製品文字列のサブヒット数を確認するには、[ ボット製品発生](bot-product-occurrences.md)指標を使用します。
+ボットルールに一致した製品文字列のサブヒット数を確認するには、[&#x200B; ボット製品発生](bot-product-occurrences.md)指標を使用します。
