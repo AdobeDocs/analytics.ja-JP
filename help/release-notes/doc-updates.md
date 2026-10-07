@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
-ht-degree: 91%
+source-wordcount: '7591'
+ht-degree: 90%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
 
@@ -75,6 +75,8 @@ ht-degree: 91%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2026年10月** | |
+| ボット製品発生指標 | ボットルールに一致した製品文字列のサブヒット数を示す[&#x200B; ボット製品発生回数](/help/components/metrics/bot-product-occurrences.md)指標を追加しました。 <p>また、[&#x200B; ボット名](/help/components/dimensions/bot-name.md) ディメンションと[&#x200B; ボット発生](/help/components/metrics/bot-occurrences.md)指標を更新して、新しい指標を参照しました。</p> |
 | **2026年9月** | |
 | 矢印とフォールアウトのジャーニーキャンバスの比較 | [&#x200B; ジャーニーの各ノード、矢印、フォールアウトに日付範囲の変化率が表示されるように、ジャーニーキャンバスのビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「[!UICONTROL 比較先]」設定を更新しました。 |
 | マーチャンダイジング eVar | マーチャンダイジング変数のドキュメントを刷新し、関連するコンポーネントに統合：<ul><li>コンポーネントガイドの[eVar （マーチャンダイジング） &#x200B;](/help/components/dimensions/evar-merchandising.md) ディメンション</li><li>実装ガイドの[eVar （マーチャンダイジング） &#x200B;](/help/implement/vars/page-vars/evar-merchandising.md)変数</li><li>管理者ガイドの[&#x200B; コンバージョン変数](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
