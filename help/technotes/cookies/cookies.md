@@ -78,13 +78,13 @@ Adobe のファーストパーティ cookie の有効期限は 7 日間になり
 * 2019 年 4 月（[ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)）：参照ドメインが（a）クロスサイトトラッキングに関与し、（b）最終 URL にクエリ文字列やフラグメント識別子が含まれていた場合、クライアントサイド cookie は広告のクリックに対して 24 時間に制限
 * 2020 年 11 月（[CNAME クローキングとバウンストラッキングの防御](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)）：ITP　の制限対象が CNAME 実装に拡張。
 
-ITP ポリシーは頻繁に進化しています。 最新のポリシーについては、Apple の『[Webkit でのトラッキング防止 ](https://webkit.org/tracking-prevention)』を参照してください。
+ITP ポリシーは頻繁に進化しています。 最新のポリシーについては、Apple の『[Webkit でのトラッキング防止 &#x200B;](https://webkit.org/tracking-prevention)』を参照してください。
 
 #### 影響を受けるアドビのファーストパーティ cookie は何ですか？
 
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
-* Adobe Visitor ID Service （ECID） ライブラリによって設定された[ 「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
+* Adobe Visitor ID Service （ECID） ライブラリによって設定された[&#x200B; 「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
 * CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)
 * Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 
@@ -107,7 +107,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。 お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。 この cookie はドメイン間で永続的な識別子を提供し、セキュア（HTTPS）なコンテンツを可能にします。 詳しくは、[Cookieと訪問者ID サービス ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。 お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しを行い、不明な、または疑わしいサードパーティドメインは呼び出しません。 この cookie はドメイン間で永続的な識別子を提供し、セキュア（HTTPS）なコンテンツを可能にします。 詳しくは、[Cookieと訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告のユースケース（リターゲティング広告を含む）に使用されます。 サードパーティ cookie を使用すると、所有する別のドメインに訪問者がアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -209,5 +209,5 @@ ITP トラッキング防止の影響を受けているビジネスは、レポ�
 
 >[!MORELIKETHIS]
 >
->[ ブラウザーのCookie制限の影響を軽減するオプション](cookieless.md)
+>[&#x200B; ブラウザーのCookie制限の影響を軽減するオプション](cookieless.md)
 >[Apple の新しい App Tracking Transparency Framework が Adobe Analytics に及ぼす影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=ja)

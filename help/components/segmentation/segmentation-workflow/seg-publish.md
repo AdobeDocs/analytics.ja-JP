@@ -56,7 +56,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントを公開](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントを公開](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 ## 前提条件
 
-* このセグメントを保存するレポートスイートが、CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)に対して[有効になっていることを確認してください。 それ以外の場合は、CX Enterpriseに公開できません。
+* このセグメントを保存するレポートスイートが、CX Enterprise[&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)に対して有効になっていることを確認してください。 それ以外の場合は、CX Enterpriseに公開できません。
 * 組織が Experience Cloud ID を使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
 
@@ -89,7 +89,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 >[!NOTE]
 >週に1回、すべてのデータが完全に同期され、前週に取得されなかった差分や不一致を考慮します。
 
-## [!UICONTROL  セグメントビルダー]でのセグメントの公開
+## [!UICONTROL &#x200B; セグメントビルダー]でのセグメントの公開
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]** > **[!UICONTROL セグメント]**&#x200B;に移動します
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
@@ -160,7 +160,7 @@ Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/a
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL 訪問者プロファイルビューア ]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL 訪問者プロファイルビューア &#x200B;]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## Adobe Audience Managerのセグメント特性を見る
 
@@ -184,4 +184,4 @@ Adobe Targetで：
 1. **[!UICONTROL オーディエンス]**&#x200B;を選択します。
 1. **[!UICONTROL Audiences]** ページで、CX Enterpriseから取得したオーディエンスを見つけます。 これらのオーディエンスは、Target アクティビティで使用できます。
 
-   ![ ターゲットオーディエンス ](assets/target-audiences.png)
+   ![&#x200B; ターゲットオーディエンス &#x200B;](assets/target-audiences.png)

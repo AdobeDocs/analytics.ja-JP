@@ -62,5 +62,5 @@ ht-degree: 43%
 
 AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。 `AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。 `AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
 
-* `AppMeasurement.js`: バージョンは、応答タイプ （`/b/ss/examplersid/1/JS-X.X.X/s234234238479`など）の後のリクエスト URLに表示されます。 デコード要求を行う[ デバッグツール ](/help/implement/validate/debugging-tools.md)は別のラベルを使用できますが、値は常にパターン `JS-X.X.X`に従います。ここで、`X`はバージョン番号です。
+* `AppMeasurement.js`: バージョンは、応答タイプ （`/b/ss/examplersid/1/JS-X.X.X/s234234238479`など）の後のリクエスト URLに表示されます。 デコード要求を行う[&#x200B; デバッグツール &#x200B;](/help/implement/validate/debugging-tools.md)は別のラベルを使用できますが、値は常にパターン `JS-X.X.X`に従います。ここで、`X`はバージョン番号です。
 * `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。 訪問者 ID サービスが `d_visid_ver: 1.5.5` という形式で表示されます。 バージョン 1.5.2より古い訪問者API コードには、バージョン番号が含まれていませんでした。 監視結果にバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードが必要です）。

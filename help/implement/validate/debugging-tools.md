@@ -81,7 +81,7 @@ HTTPS インスペクションでは、通常、デバッグプロキシから�
 
 | ツール | 次に役立つ |
 | --- | --- |
-| **[チャールズ ](https://www.charlesproxy.com/)** | ブラウザー、アプリケーション、モバイルデバイス、その他のHTTP （S）トラフィックの調査 |
+| **[チャールズ &#x200B;](https://www.charlesproxy.com/)** | ブラウザー、アプリケーション、モバイルデバイス、その他のHTTP （S）トラフィックの調査 |
 | **[Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)** | アプリケーションやデバイスをまたいだHTTP （S） トラフィックの取得と検査。 古いFiddler Classic製品とは異なります。 |
 | **[Proxyman](https://proxyman.com/)** | ブラウザー、アプリケーション、モバイルデバイスからのHTTP （S） トラフィックの調査と修正 |
 | **[HTTP Toolkit](https://httptoolkit.com/)** | アプリケーションとAPIのデバッグに特化したワークフローにより、アプリケーション、API、開発環境、モバイルデバイスからのトラフィックを調査 |
@@ -97,7 +97,7 @@ AppMeasurementなどのAdobe Analyticsに直接データを送信する実装で
 
 Adobe Analytics コレクションリクエストには、リクエスト URLまたはペイロードにAnalytics変数が含まれます。 Raw リクエストでは、変数名ではなくクエリパラメーター名が使用されます。例えば、eVar1は`v1`として表示され、prop1は`c1`として表示されます。 Adobe Analyticsのデバッガーを使用すれば、これらの名前を容易にデコードできます。 自分でデコードするには、Data Insertion API ドキュメントの[変数参照](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
 
-Analytics データ収集サーバーが返すHTTP ステータスコードについては、Data Insertion API ドキュメントの[HTTP応答コード ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)を参照してください。
+Analytics データ収集サーバーが返すHTTP ステータスコードについては、Data Insertion API ドキュメントの[HTTP応答コード &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)を参照してください。
 
 Adobe Experience Platform Web SDKを使用する実装の場合、次のネットワークリクエストをフィルタリングします。
 

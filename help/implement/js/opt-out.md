@@ -49,7 +49,7 @@ ht-degree: 65%
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。 Adobeでは、web サイトへの訪問者に対して、分析中の情報をオプトアウトする手段を提供できます。
 
-オプトアウトリンクは、web サイトへの訪問者に対して、Analytics レポートからデータを省略できるようにする方法です。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、代わりに[Adobe CX Enterprise オプトインサービス ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を使用することをお勧めします。 オプトインサービスは、より堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe CX Enterprise製品で動作します。
+オプトアウトリンクは、web サイトへの訪問者に対して、Analytics レポートからデータを省略できるようにする方法です。 これらのリンクはAppMeasurementの実装に限定されます。Adobeでは、代わりに[Adobe CX Enterprise オプトインサービス &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を使用することをお勧めします。 オプトインサービスは、より堅牢で、Adobe AnalyticsやAppMeasurementなど、複数のAdobe CX Enterprise製品で動作します。
 
 訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。 ユーザーがトラッキングを行わないことを選択し、オプトアウト Cookieが設定されている場合、AppMeasurementは引き続きAdobeにデータを送信します。 ただし、そのデータは処理されず、レポートに含まれません。
 
@@ -73,7 +73,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 * [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)を使用：
   1. Chrome ブラウザーを使用してサイトに移動します。
-  1. Adobe Experience Platform Debuggerを開き、[!UICONTROL  ネットワーク タブ ]に移動します。
+  1. Adobe Experience Platform Debuggerを開き、[!UICONTROL &#x200B; ネットワーク タブ &#x200B;]に移動します。
   1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。 次に例を示します。
