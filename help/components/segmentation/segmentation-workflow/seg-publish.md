@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 31%
+source-wordcount: '1441'
+ht-degree: 32%
 ---
 # セグメントの公開 {#publish-segments}
 
@@ -56,7 +56,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; セグメントを公開](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ セグメントを公開](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 ## 前提条件
 
-* このセグメントを保存するレポートスイートが、CX Enterprise[&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)に対して有効になっていることを確認してください。 それ以外の場合は、CX Enterpriseに公開できません。
+* このセグメントを保存するレポートスイートが、CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)に対して[有効になっていることを確認してください。 それ以外の場合は、CX Enterpriseに公開できません。
 * 組織が Experience Cloud ID を使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
 
@@ -89,7 +89,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 >[!NOTE]
 >週に1回、すべてのデータが完全に同期され、前週に取得されなかった差分や不一致を考慮します。
 
-## [!UICONTROL &#x200B; セグメントビルダー]でのセグメントの公開
+## [!UICONTROL  セグメントビルダー]でのセグメントの公開
 
 1. Adobe Analyticsで、**[!UICONTROL コンポーネント]** > **[!UICONTROL セグメント]**&#x200B;に移動します
 1. 「**[!UICONTROL 追加]**」を選択して、新しいセグメントを作成します。
@@ -135,14 +135,14 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 現在ブラウザーに関連付けられているAdobe Audience Manager UUIDをキャプチャするには、次の2つの方法があります。
 
-* Adobe CX Enterprise Debugger
+* Adobe Experience Platform デバッガー
 * ブラウザーのネイティブ開発ツール（例：Chrome開発ツール）
 
 次のスクリーンショットは、ブラウザーでAdobe Audience Manager UUIDを取得し、Audience Manager Visitor Profile Viewerで使用して特性とセグメントメンバーシップを検証する方法を示しています。
 
-### 方法1:Adobe CX Enterprise Debuggerを使用する
+### 方法1:Adobe Experience Platform Debuggerを使用する
 
-1. [Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md)をChrome Web ストアにダウンロードしてインストールします。
+1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)をChrome Web ストアにダウンロードしてインストールします。
 1. ページの読み込み時にデバッガーを起動します。
 1. Audience Manager セクションまでスクロールし、現在のブラウザーページで設定されているAdobe Audience Manager UUIDを見つけます
 （以下の例の`35721780439475290181087231320657663953`）
@@ -153,14 +153,14 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
 1. ページを読み込み、アプリケーション／Cookie を確認します。 Adobe Audience ManagerのUUIDは、サードパーティの
-Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/reference/demdex-calls)以下の例）。 フィールドのdemdexはAdobe Audience Manager UUID セットです
+Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)以下の例）。 フィールドのdemdexはAdobe Audience Manager UUID セットです
 ブラウザー（`35721780439475290181087231320657663953`以下の例）。
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Audience Manager [!UICONTROL 訪問者プロファイルビューアを使用する]
 
-[!UICONTROL 訪問者プロファイルビューア &#x200B;]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/ja/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
+[!UICONTROL 訪問者プロファイルビューア ]が読み込まれると、ブラウザーのAdobe Audience Manager UUIDはデフォルトで使用されます。 他のユーザーの特性の実現を検証する場合は、UUID フィールドにUUIDを入力し、[!UICONTROL 更新]をクリックします。 詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) を参照してください。
 
 ## Adobe Audience Managerのセグメント特性を見る
 
@@ -184,4 +184,4 @@ Adobe Targetで：
 1. **[!UICONTROL オーディエンス]**&#x200B;を選択します。
 1. **[!UICONTROL Audiences]** ページで、CX Enterpriseから取得したオーディエンスを見つけます。 これらのオーディエンスは、Target アクティビティで使用できます。
 
-   ![&#x200B; ターゲットオーディエンス &#x200B;](assets/target-audiences.png)
+   ![ ターゲットオーディエンス ](assets/target-audiences.png)

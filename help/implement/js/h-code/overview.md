@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 79%
 ---
 # H コード JavaScript 実装の概要
@@ -51,7 +51,7 @@ ht-degree: 79%
    >
    >H コードでは、`s_code.js` スクリプトを `<body>` タグ内で呼び出す必要があります。 他のほとんどの実装方法ではスクリプト参照は `<head>` タグ内に必要となりますが、この実装方法は異なります。
 1. **各ページでページ固有の変数を定義します**：各ページには、ページ名や eVar など、個々の変数を定義する必要があります。 個々の変数は、通常、各ページのインライン `<script>` タグで定義されます。
-1. **デバッガーを使用してデータ収集を検証する**: [CX Enterprise デバッガー](../../validate/debugger.md)をダウンロードしてインストールし、データがAdobeに送信され、ページ変数が正しく定義されていることを確認します。
+1. **デバッガーを使用してデータ収集を検証する**: [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)をダウンロードしてインストールし、データがAdobeに送信され、ページ変数が正しく定義されていることを確認します。
 
 ## キャッシュ
 

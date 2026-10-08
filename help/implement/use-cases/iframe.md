@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # iFrames での AppMeasurement の使用
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 他の JavaScript コードと同様、iframe はドメインとプロトコルが一致する場合にのみ通信できます。 これらの例は、iframe コンテンツが親とは異なるドメインに存在する場合は機能しません。
 * AppMeasurement が iframe 内に存在する場合、[`referrer`](../vars/page-vars/referrer.md) 変数は、実際の参照 URL ではなく親 URL に設定されます。 `referrer` 変数を手動で設定すると、この問題を解決できます。
-* [Adobe CX Enterprise デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)は、iframe内でトリガーされたイメージリクエストを認識しません。
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)は、iframe内でトリガーされた画像リクエストを認識しません。
 * Activity Map には、iframe 内でクリックされたリンクのヒートマップは表示されません。 代わりに、iframe 全体がハイライト表示されます。

@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 53%
+source-wordcount: '333'
+ht-degree: 43%
 ---
 # サーバー側転送の要件
 
@@ -62,5 +62,5 @@ ht-degree: 53%
 
 AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。 `AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。 `AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
 
-* `AppMeasurement.js`：[Adobe Debugger](/help/implement/validate/debugger.md) は、`Version of Code | JS-1.5.1` という形式で AppMeasurement バージョンを返します。 他のツールでは異なるラベルが使用される場合がありますが、その値は常に `JS-X.X.X` というパターンに従います。ここで、`X` はバージョン番号です。
+* `AppMeasurement.js`: バージョンは、応答タイプ （`/b/ss/examplersid/1/JS-X.X.X/s234234238479`など）の後のリクエスト URLに表示されます。 デコード要求を行う[ デバッグツール ](/help/implement/validate/debugging-tools.md)は別のラベルを使用できますが、値は常にパターン `JS-X.X.X`に従います。ここで、`X`はバージョン番号です。
 * `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。 訪問者 ID サービスが `d_visid_ver: 1.5.5` という形式で表示されます。 バージョン 1.5.2より古い訪問者API コードには、バージョン番号が含まれていませんでした。 監視結果にバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードが必要です）。

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * 一致するルールがない場合、`s_account` のデフォルトレポートスイートが使用されます。
 * ページが他のユーザーのハードドライブに保存されている場合や、web ベースの翻訳エンジン（Google 翻訳後のページなど）を介して翻訳されている場合は、動的アカウント選択はおそらく機能しません。
 * `dynamicAccountSelection` ルールは、`dynamicAccountMatch` で指定された URL のセクションにのみ適用されます。
-* Adobe CX Enterprise デバッガーを使用して、宛先レポートスイートをテストします。
+* Adobe Experience Platform Debuggerを使用して、宛先レポートスイートをテストします。
