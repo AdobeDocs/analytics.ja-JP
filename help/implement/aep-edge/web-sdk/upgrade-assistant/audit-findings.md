@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # 調査結果の監査
@@ -51,14 +51,14 @@ ht-degree: 2%
 
 <!-- markdownlint-enable MD034 -->
 
-アップグレードアシスタントは、[&#x200B; コンポーネント選択](component-selection.md)で選択したルールとデータ要素を確認し、移行する前にクリーンアップする可能性のあるものをフラグ付けします。
+アップグレードアシスタントは、[ コンポーネント選択](component-selection.md)で選択したルールとデータ要素を確認し、移行する前にクリーンアップする可能性のあるものをフラグ付けします。
 
 * イベントや条件を共有するルールを複製して統合できます
 * データの正確性に影響を与える可能性のあるルールアクションシーケンス
 * 重複したデータ要素を作成し
 * データ要素を使用しない可能性があります。無効にすることもできます
 
-この手順はオプションです。 必要な数の調査結果を解決するか、直接[&#x200B; レポートスイートの検証](rs-verification.md)に進むことができます。
+この手順はオプションです。 必要な数の調査結果を解決するか、直接[ マッパーの準備](mapper-prep.md)に進むことができます。
 
 ## 結果の確認 {#review}
 

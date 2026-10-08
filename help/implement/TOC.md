@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 92%
+source-wordcount: '458'
+ht-degree: 93%
 ---
 
 # Adobe Analytics 実装ガイド {#implementation}
@@ -148,7 +148,7 @@ ht-degree: 92%
       + [移行の管理](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [コンポーネントの選択](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [調査結果の監査](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [レポートスイートの検証](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [マッパーの準備](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM マッピング](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [Web SDKの導入](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [最終審査](aep-edge/web-sdk/upgrade-assistant/final-review.md)
@@ -169,7 +169,7 @@ ht-degree: 92%
   + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
   + [JavaScript の概要](js/overview.md)
-  + {hide-from-toc}[&#x200B; オプトアウトリンクの実装](js/opt-out.md)
+  + {hide-from-toc}[ オプトアウトリンクの実装](js/opt-out.md)
   + [変数のオーバーライド](js/overrides.md)
   + [H コードからの移行](js/migrate-from-hcode.md)
   + H コード {#h-code}
