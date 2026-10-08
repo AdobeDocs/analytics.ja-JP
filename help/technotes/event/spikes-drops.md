@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # データの急増／急減のトラブルシューティング
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ### データが部分的に欠落したり、トラフィックが減少したりする潜在的な原因
 
-* **実装の変更**：[デバッガー](/help/implement/validate/debugger.md)を使用して、目的のディメンションが機能することを検証します。
+* **実装の変更**: [&#x200B; デバッグツール &#x200B;](/help/implement/validate/debugging-tools.md)を使用して、目的のディメンションが機能することを検証します。
 * **参照トラフィックの減少**：別のサイトで人気のあるバナー広告やハイパーリンクを削除すると、トラフィックが大幅に減少する可能性があります。 ドロップの前後から[参照ドメイン](/help/components/dimensions/referring-domain.md)ディメンションのトレンドを表示し、さらに調査を行います。
 * **サイトのパフォーマンスに関する問題**：ロードバランサーを通じてのトラフィックの分散が正しくない、またはサイトのホストに使用しているサーバーの問題が原因で、Analytics のレポートが低下する可能性があります。 サイトの整合性と正常性を管理する組織内のチームと協力して、潜在的なパフォーマンスの問題を調査します。
 * **自然検索のランキングの変更**：他のサイトが一部のキーワードの自然検索ランキングを超えると、トラフィックは減少する可能性があります。 この減少は、サイトが検索結果の 1 ページ目に表示されなくなった場合に特に顕著になります。 [検索エンジン](/help/components/dimensions/search-engine.md)ディメンションのトレンドを確認し、さらに調査をおこないます。

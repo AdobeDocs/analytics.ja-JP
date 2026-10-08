@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # Adobe Analytics の実装
 
@@ -118,7 +118,7 @@ Adobe Analytics サーバーサイドを実装するには、次のオプショ�
 ## 主な Analytics 実装関連の記事
 
 * [既存の Adobe Analytics の実装を担当する](/help/implement/prepare/existing-implementation.md)
-* [Adobe Debugger](validate/debugger.md)
+* [デバッグツール](validate/debugging-tools.md)
 * [Experience Platform でのタグプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
 * [Platform Web SDKを使用したAdobe Analyticsの設定チュートリアル](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=ja)

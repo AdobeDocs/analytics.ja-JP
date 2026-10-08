@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 31%
+source-wordcount: '1441'
+ht-degree: 32%
 ---
 # セグメントの公開 {#publish-segments}
 
@@ -135,14 +135,14 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 
 現在ブラウザーに関連付けられているAdobe Audience Manager UUIDをキャプチャするには、次の2つの方法があります。
 
-* Adobe CX Enterprise Debugger
+* Adobe Experience Platform デバッガー
 * ブラウザーのネイティブ開発ツール（例：Chrome開発ツール）
 
 次のスクリーンショットは、ブラウザーでAdobe Audience Manager UUIDを取得し、Audience Manager Visitor Profile Viewerで使用して特性とセグメントメンバーシップを検証する方法を示しています。
 
-### 方法1:Adobe CX Enterprise Debuggerを使用する
+### 方法1:Adobe Experience Platform Debuggerを使用する
 
-1. [Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md)をChrome Web ストアにダウンロードしてインストールします。
+1. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)をChrome Web ストアにダウンロードしてインストールします。
 1. ページの読み込み時にデバッガーを起動します。
 1. Audience Manager セクションまでスクロールし、現在のブラウザーページで設定されているAdobe Audience Manager UUIDを見つけます
 （以下の例の`35721780439475290181087231320657663953`）

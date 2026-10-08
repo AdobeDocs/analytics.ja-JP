@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '459'
+ht-degree: 92%
 ---
 
 # Adobe Analytics 実装ガイド {#implementation}
@@ -143,8 +143,15 @@ ht-degree: 96%
   + [Edge Network イベントタイプ](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK の概要](aep-edge/web-sdk/overview.md)
-    + 移行プランナー {#planner}
-      + [プランナーの概要](aep-edge/web-sdk/planner/overview.md)
+    + アップグレードアシスタント {#upgrade-assistant}
+      + [アップグレードアシスタントの概要](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [移行の管理](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [コンポーネントの選択](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [調査結果の監査](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [レポートスイートの検証](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [XDM マッピング](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Web SDKの導入](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [最終審査](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [タグを使用した Web SDK への移行](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [JavaScript を使用した Web SDK への移行](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [タグを使用した新しい実装](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -184,8 +191,7 @@ ht-degree: 96%
   + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
   + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
 + 実装の検証 {#validate}
-  + [レガシーデバッガー](validate/debugger.md)
-  + [パケット監視](validate/packet-monitor.md)
+  + [デバッグツール](validate/debugging-tools.md)
   + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
 + 実装のレビュー {#review}

@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # オプトアウトリンクの実装
 
@@ -71,9 +71,9 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
   1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
   1. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=ja)を使用：
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/ja/docs/experience-platform/debugger/home)を使用：
   1. Chrome ブラウザーを使用してサイトに移動します。
-  1. CX Enterprise Debuggerを開き、[!UICONTROL Network タブ &#x200B;]に移動します。
+  1. Adobe Experience Platform Debuggerを開き、[!UICONTROL &#x200B; ネットワーク タブ &#x200B;]に移動します。
   1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。 次に例を示します。

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 18%
 ---
 # Experience Cloud 訪問者 ID
@@ -44,8 +44,8 @@ ht-degree: 18%
 
 | プロパティ | 値 |
 | --- | --- |
-| **AppMeasurement変数** | なし（Experience Cloud訪問者ID サービスで設定） |
-| **Web SDK / XDM フィールド** | なし（Experience Cloud Identity Serviceで設定） |
+| **AppMeasurement変数** | なし（Adobe Visitor ID サービスで設定） |
+| **Web SDK / XDM フィールド** | なし（Experience Platform Identity Serviceで設定） |
 | **クエリパラメーター** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 該当なし |
@@ -53,4 +53,4 @@ ht-degree: 18%
 
 ## ディメンション項目
 
-Dimensionの項目には、各訪問者のExperience Cloud IDが含まれます。
+Dimensionの項目には、各訪問者のECIDが含まれます。

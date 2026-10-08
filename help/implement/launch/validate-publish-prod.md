@@ -1,52 +1,62 @@
 ---
-title: 開発実装の検証と実稼動環境への公開
-description: Adobe Experience Platform のタグを使用して、Adobe Analytics を本番環境にデプロイする方法を説明します。
+title: 開発実装を検証し、本番環境に公開する
+description: Adobe Experience Platform タグを使用して、Adobe Analytics を本番環境にデプロイする方法を説明します。
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 65%
-
+source-wordcount: '631'
+ht-degree: 66%
 ---
+# 開発実装を検証し、本番環境に公開する
 
-# 開発実装の検証と実稼動環境への公開
-
-タグライブラリが実稼働環境にプッシュされると、組織は Adobe Analytics を使用して基本的なレポートの取り込みを開始できます。
+タグライブラリが本番環境にプッシュされると、組織は Adobe Analytics を使用して基本的なレポートデータの取り込みを開始できます。
 
 ## 前提条件
 
 [Analytics 実装を開発環境にデプロイする](deploy-dev.md)：このページの手順をおこなうには、Analytics 実装を開発環境に公開する必要があります。
 
-## CX Enterprise デバッガーを使用して開発実装を検証する
+## Adobe Experience Platform Debuggerを使用して開発実装を検証する
 
-CX Enterprise debuggerは、ページに存在するすべてのCX Enterprise タグを表示する拡張機能です。
+Adobe Experience Platform Debuggerは、ページに存在するすべてのCX Enterprise タグを表示する拡張機能です。
 
 1. [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)またはFirefoxの拡張機能をインストールします。
 2. タグを実装した開発用 web サイトに移動します。
-3. ブラウザーでAdobe CX Enterprise debugger アイコンをクリックします。
-4. すべてが適切に実装されている場合は、Adobe Analytics、タグ、Adobe Experience Cloud Visitor ID サービス内にコンテンツが表示されます。
+3. ブラウザーでAdobe Experience Platform Debugger アイコンをクリックします。
+4. すべてが適切に実装されている場合は、Adobe Analytics、タグ、Adobe Visitor ID サービス内にコンテンツが表示されます。
 
-## ステージング／実稼動環境に開発環境の実装をデプロイする
+## 開発実装をステージング／本番環境にデプロイする
 
 データが表示されていることを検証したら、実装をサイトのライブバージョンにプッシュできます。
 
@@ -61,12 +71,12 @@ CX Enterprise debuggerは、ページに存在するすべてのCX Enterprise �
 1. 「環境」タブに移動し、「**[!UICONTROL 本番環境]**」をクリックします。
 1. 実稼動インストールコードをコピーし、web サイトの所有者に提供します。 サイトの本番環境にこのコードを実装するように要求します。
 
-## 実稼動環境の実装を検証します。
+## 本番環境の実装の検証
 
 本番用サイトのデータが表示されていることを確認し、Adobe Analytics の正式なデータ収集を開始します。
 
-1. web サイトの所有者からタグコードを実稼動環境にプッシュしたことを確認したら、Chromeでweb サイトのホームページに移動し、Adobe CX Enterprise debuggerを開きます。
-2. すべてが機能している場合は、開発環境でのテストと類似したデータが表示されます。 この時点で、サイト上のデータを収集するようになっており、レポートへの Adobe Analytics の使用を開始できます。
+1. web サイトの所有者からタグコードを実稼動環境にプッシュしたことを確認したら、Chromeでweb サイトのホームページに移動し、Adobe Experience Platform Debuggerを開きます。
+2. すべてが機能している場合は、開発環境でのテストと類似したデータが表示されます。 この時点で、サイト上のデータを収集しており、Adobe Analytics を使用したレポート作成を開始できます。
 
 ## トラブルシューティング
 
@@ -81,7 +91,7 @@ CX Enterprise debuggerは、ページに存在するすべてのCX Enterprise �
 
 ## 次の手順
 
-これで基本的な実装が設定されました。組織内でのお客様の役割が、詳細を確認するパスに影響を与える可能性があります。
+これで基本的な実装がセットアップされました。組織内でのユーザーの役割によって、どのパスについてさらに学習するかが変わります。
 
 * [ソリューションデザインドキュメントの作成](../prepare/solution-design.md)：カスタム変数の使用方法を計画し、実装に含めます。
 * [Analysis Workspace の使用を開始する](/help/analyze/analysis-workspace/home.md)：ツールの主力機能を使用して、Adobe Analytics に直接アクセスします。

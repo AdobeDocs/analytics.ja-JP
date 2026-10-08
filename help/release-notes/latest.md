@@ -2,7 +2,6 @@
 title: 現在の Adobe Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -40,45 +39,46 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
+source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 54%
+source-wordcount: '966'
+ht-degree: 53%
 ---
-# 最新のAdobe Analytics リリースノート（2026年9月）
+# 最新のAdobe Analytics リリースノート（2026年10月）
 
-**最終更新**: 2026年10月2日
+**最終更新**: 2026年10月7日
 
-これらのリリースノートは、2026年9月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
+これらのリリースノートは、2026年10月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
 ## 新機能または機能強化 {#features}
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
-| **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月</p> |
+| **Adobe Analytics MCP サーバーの読み取り専用アクセス許可**<br/>&#x200B;管理者は、ユーザーにAdobe Analytics MCP サーバーへの読み取り専用アクセス権を付与できるようになりました。 新しい[!UICONTROL MCP読み取り専用]権限アイテムでは、プロジェクト、セグメント、計算指標を作成せずに、すべての読み取り専用ツールにアクセスできます。<p>既存の[!UICONTROL MCP アクセス &#x200B;]権限項目の名前が[!UICONTROL MCP フルアクセス &#x200B;]に変更されました。 この権限を持つユーザーは、コンポーネントの作成、変更、削除を行うツールを含む、すべてのツールにアクセスできます。</p><p>詳しくは、[Adobe Analytics MCP server](https://developer.adobe.com/analytics-mcp/docs/aa/)を参照してください。</p> | | 2026年10月6日（PT） |
+| **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で、使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
+| **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月 |
 | **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
 
 ### Adobe Analytics の修正点
 
-**Activity Map**: AN-488579、AN-487247、AN-491828
-**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
-**分類**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677 462729 462577 461040 459316 490072 487100, AN-, AN-, AN-FLY
-**データフィードとData Warehouse**: AN-487624、AN-487287、AN-479923、AN-479166、AN-479109、AN-468483、AN-493406、AN-492167、AN-333098
-**移行**：
-**書き出し**: AN-467131、AN-469034、AN-447252
-**Report Builder**: AN-487486、AN-478944、AN-470036、AN-468589、AN-468436、AN-456747、AN-456700、AN-442695、AN-492330、AN-490564、AN-468293、AN-460921
-**レポート**: AN-468621、AN-465383、AN-463924
-**レポートスイート**: AN-468484、AN-468460、AN-465385、AN-463216
-**スケジュール済みレポート**: AN-479157
-**セグメント化**: AN-486561、AN-278260
-**その他**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514, AN-487288, AN-470023, AN-469601, AN-320799, AN-316708, AN-309317, AN-266652
+**Activity Map**:AN-494609、AN-493182
+**Analysis Workspace**: AN-495340、AN-494789、AN-493307、AN-468900
+**分類**: AN-498043, AN-496619, AN-496468, AN-496217, AN-496133, AN-495567, AN-494651, AN-494345, AN-494312, AN-494261, AN-493645, AN-493507, AN-493336, AN-492869, AN-492812, AN-492751, AN-492750, AN-492741, AN-491032, AN-490802, AN-490796 467849, AN-
+**データフィードとData Warehouse**:AN-494937、AN-493065、AN-489796、AN-479109
+**移行**: AN-489850、AN-468014
+**書き出し**: AN-494337、AN-486563
+**Report Builder**: AN-496602、AN-494224、AN-493737、AN-493508、AN-493505、AN-492806、AN-468981、AN-454376
+**レポート**:AN-493637、AN-461260
+**レポートスイート**: AN-496773、AN-495227、AN-494981、AN-494372、AN-494370、AN-493629
+**スケジュール済みレポート**: AN-491103
+**セグメント化**：
+**その他**: AN-496398、AN-494453、AN-492494
 
 ### 提供終了（EOL）に関する注意事項 {#eol}
 
 | EOL 対象の製品または機能 | 追加日付または更新日付 | 説明 |
 | --- | --- | --- |
-| **レガシー Report Builder** | 2025年6月18日（PT） | レガシー Report Builder アドインは、2026年6月に廃止されます。 すべてのユーザーは、従来のワークブックから[新しい Report Builder](/help/analyze/report-builder/rb-overview.md) へのアップグレードを開始する必要があります。 新しい Report Builder は、Adobe Analytics と Customer Journey Analytics の両方のお客様が利用できます。 [ほぼ同等の機能パリティ](/help/analyze/report-builder/convert-workbooks.md#unsupported)に加えて、多くの新しい便利な機能を利用でき、UI が強化されています。 アップグレードプロセスを容易にするために、新しい Report Builder には、ワークブックの簡単なコンバージョン機能が含まれています。 新しい Report Builder は、Microsoft Store を通じてアドインとしてのみ使用できます。 多くの組織では、ユーザーにアドインを提供できるようにするために、内部の承認プロセスが必要です。 このプロセスに時間を割いて、今すぐ組織との連携を開始し、EOL までにワークブックをアップグレードできるように十分な時間を確保してください。 |
+| **レガシー Report Builder** | 2025年6月18日（PT） | 従来のReport Builder アドインは、2026年6月に廃止されました。 すべてのユーザーは、従来のワークブックから[新しい Report Builder](/help/analyze/report-builder/rb-overview.md) へのアップグレードを開始する必要があります。 新しい Report Builder は、Adobe Analytics と Customer Journey Analytics の両方のお客様が利用できます。 [ほぼ同等の機能パリティ](/help/analyze/report-builder/convert-workbooks.md#unsupported)に加えて、多くの新しい便利な機能を利用でき、UI が強化されています。 アップグレードプロセスを容易にするために、新しい Report Builder には、ワークブックの簡単なコンバージョン機能が含まれています。 新しい Report Builder は、Microsoft Store を通じてアドインとしてのみ使用できます。 多くの組織では、ユーザーにアドインを提供できるようにするために、内部の承認プロセスが必要です。 このプロセスに時間を割いて、今すぐ組織との連携を開始し、EOL までにワークブックをアップグレードできるように十分な時間を確保してください。 |
 | **Adobe Analytics API（バージョン 1.4）** | 2024年7月17日（PT） | **2026**&#x200B;年8月31日（PT）に、次のAnalytics Legacy API サービスが提供終了し、シャットダウンされました。これらのサービスを使用して構築された統合は機能しなくなります。<ul><li>Adobe Analytics API（バージョン 1.4）</li><li>Adobe Analytics WSSE 認証</li></ul><p>Adobe Analytics API（バージョン 1.4）を使用する統合は [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/) に移行する必要があり、WSSE 統合は [Adobe Developer Console](https://developer.adobe.com/console) の OAuth ベースの認証プロトコルに移行する必要があります。</p><p>よくある質問への回答と詳細なガイダンスについては、[Adobe Analytics 1.4 API EOL FAQ](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) を参照してください。</p> |
 
 ## AppMeasurement
@@ -89,7 +89,7 @@ AppMeasurement リリースの最新のアップデートについて詳しく�
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | -----------|-----------|-----------|
-| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[&#x200B; ライブコンテンツを追跡するためのスケジュールデータのアップロード &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。 | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
+| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[&#x200B; ライブコンテンツを追跡するためのスケジュールデータのアップロード &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。</p> | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
 
 
 >[!MORELIKETHIS]
