@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) フィールドを使用してデータを送信するので、[&#x200B; レポートスイート検証](rs-verification.md)から進める各Analytics変数には、XDM スキーマの一致するフィールドが必要です。 この手順では、スキーマを選択し、変数をそのフィールドにマッピングします。
+Web SDKは[Experience Data Model （XDM） ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) フィールドを使用してデータを送信するので、[ レポートスイート検証](rs-verification.md)から進める各Analytics変数には、XDM スキーマの一致するフィールドが必要です。 この手順では、スキーマを選択し、変数をそのフィールドにマッピングします。
 
 ## スキーマの選択 {#schema}
 
@@ -69,7 +69,7 @@ Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.ad
 
 <!-- markdownlint-enable MD034 -->
 
-新しいスキーマを作成する場合、アップグレードアシスタントで標準フィールドグループとカスタムフィールドグループのどちらを使用するかを選択することもできます。 標準フィールドグループはAdobeで定義され、カスタムフィールドグループは組織で定義されます。 XDM ドキュメントの[&#x200B; フィールドグループ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#field-group)を参照してください。
+新しいスキーマを作成する場合、アップグレードアシスタントで標準フィールドグループとカスタムフィールドグループのどちらを使用するかを選択することもできます。 標準フィールドグループはAdobeで定義され、カスタムフィールドグループは組織で定義されます。 XDM ドキュメントの[ フィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)を参照してください。
 
 ## マッピングの確認 {#review}
 

@@ -51,7 +51,7 @@ ht-degree: 0%
 
 <!-- markdownlint-enable MD034 -->
 
-選択したコンポーネントと[XDM マッピング &#x200B;](xdm-mapping.md)を使用して、アップグレードアシスタントは各Adobe Analytics アクションの直後にWeb SDK アクションをルールに追加します。 Analyticsのアクションは維持されるため、これらのルールはAdobe AnalyticsとWeb SDKの両方にデータを送信します。 ほとんどのデータ要素は変更されずに転送され、ルールは引き続き名前で参照されます。
+選択したコンポーネントと[XDM マッピング ](xdm-mapping.md)を使用して、アップグレードアシスタントは各Adobe Analytics アクションの直後にWeb SDK アクションをルールに追加します。 Analyticsのアクションは維持されるため、これらのルールはAdobe AnalyticsとWeb SDKの両方にデータを送信します。 ほとんどのデータ要素は変更されずに転送され、ルールは引き続き名前で参照されます。
 
 **[!UICONTROL 種類を変更]**&#x200B;列には、移行の最終処理が各コンポーネントに対して行う処理が表示されます。
 
