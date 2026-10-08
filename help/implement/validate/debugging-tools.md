@@ -113,4 +113,4 @@ Adobe Experience Platform Web SDKを使用する実装の場合、次のネッ�
 
 キャンセルされたリクエストは、必ずしもデータが失われたわけではありません。 ブラウザーは完全なリクエストを送信し、応答の待ち時間のみを停止した可能性があります。 ブラウザー開発者ツールは通常、違いを示すことはできませんが、HTTP デバッグプロキシは違いを示すことができます。
 
-`navigator.sendBeacon()`で送信されたリクエストは、ナビゲーション時にキャンセルされません。 AppMeasurementは、終了リンクに`sendBeacon`を使用し、[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)が有効になっている場合は常にを使用します。 Web SDKでは、[`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading)で送信されたイベントに使用されます。 リンクトラッキングリクエストが頻繁にキャンセルされる場合は、これらのオプションを使用します。
+`navigator.sendBeacon()`で送信されたリクエストは、ナビゲーション時にキャンセルされません。 AppMeasurementは、終了リンクに`sendBeacon`を使用し、[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)が有効になっている場合は常にを使用します。 Web SDKでは、[`documentUnloading`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendevent/documentunloading)で送信されたイベントに使用されます。 リンクトラッキングリクエストが頻繁にキャンセルされる場合は、これらのオプションを使用します。

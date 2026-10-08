@@ -79,7 +79,7 @@ Web SDK アップグレードアシスタントは、Adobe Analytics tags拡張�
 
 | アクセスタイプ | 必須 |
 | --- | --- |
-| [Experience Platform の権限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL スキーマの表示]</li><li>[!UICONTROL スキーマの管理]</li><li>[!UICONTROL データセットの表示]</li><li>[!UICONTROL &#x200B; データセットの管理]</li><li>[!UICONTROL ID 名前空間の表示]</li></ul> |
+| [Experience Platform の権限](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL スキーマの表示]</li><li>[!UICONTROL スキーマの管理]</li><li>[!UICONTROL データセットの表示]</li><li>[!UICONTROL &#x200B; データセットの管理]</li><li>[!UICONTROL ID 名前空間の表示]</li></ul> |
 | 製品アクセス | <ul><li>データ収集（タグ）</li><li>Adobe Analytics</li></ul> |
 | [&#x200B; タグ権限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL プロパティの管理] |
 
