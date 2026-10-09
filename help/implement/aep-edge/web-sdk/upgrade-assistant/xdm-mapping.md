@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM マッピング
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) フィールドを使用してデータを送信するので、[&#x200B; レポートスイート検証](rs-verification.md)から進める各Analytics変数には、XDM スキーマの一致するフィールドが必要です。 この手順では、スキーマを選択し、変数をそのフィールドにマッピングします。
+Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) フィールドを使用してデータを送信するので、[Mapper preparation](mapper-prep.md)から先に進む各Analytics変数には、XDM スキーマの一致するフィールドが必要です。 この手順では、スキーマを選択し、変数をそのフィールドにマッピングします。
 
 ## スキーマの選択 {#schema}
 

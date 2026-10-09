@@ -1,5 +1,5 @@
 ---
-title: Web SDK アップグレードアシスタントでのレポートスイートの検証
+title: Web SDK アップグレードアシスタントでのマッパーの準備
 description: レポートスイートのAnalytics変数を確認し、XDM マッピングに進める変数を選択します。
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# レポートスイートの検証
+# マッパーの準備
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="レポートスイートの検証"
+>id="aa_upgradeassistant_mapperprep"
+>title="マッパーの準備"
 >abstract="タグプロパティが各レポートスイートに送信するAnalytics変数を確認します。 ここで選択した変数は、XDM マッピングに進みます。 タブを使用して、最近のデータの確認、重複する変数の検索、レポートスイート間の設定の比較を行います。"
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ ht-degree: 0%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="レポートスイートデータの更新"
 >abstract="このタグプロパティにリンクされたレポートスイートを、変数設定と最近のデータを含めて再度チェックし、変数分析を再実行します。 アップグレードアシスタントがまだレポートスイートを見つけていない場合は、最初にタグプロパティでそれらを探します。 選択と決定は保持されます。"
 

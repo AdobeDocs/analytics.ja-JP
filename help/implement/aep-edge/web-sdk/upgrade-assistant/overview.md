@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Web SDK アップグレードアシスタント
@@ -54,7 +54,7 @@ Web SDK アップグレードアシスタントは、Adobe Analytics tags拡張�
 
 1. **[コンポーネントの選択](component-selection.md)**：移行に含めるルール、データ要素、拡張機能を選択します。
 1. **[監査結果](audit-findings.md)**：選択したコンポーネントに対するオプションのクリーンアップの推奨事項を確認します。
-1. **[レポートスイートの検証](rs-verification.md)**: レポートスイート内のAnalytics変数を確認し、今後使用する変数を選択します。
+1. **[マッパーの準備](mapper-prep.md)**: レポートスイート内のAnalytics変数を確認し、今後使用する変数を選択します。
 1. **[XDM マッピング](xdm-mapping.md)**:Analytics変数をXDM スキーマのフィールドにマッピングします。
 1. **[Web SDKの実装](web-sdk-implementation.md)**: アップグレードアシスタントがルールに追加するWeb SDKのアクションを確認します。
 1. **[最終レビュー](final-review.md)**: Experience Platform サンドボックスを選択し、移行によって作成される内容を確認して、移行を確定します。
