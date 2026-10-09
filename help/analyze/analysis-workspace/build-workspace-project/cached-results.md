@@ -10,16 +10,18 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
 # Workspace プロジェクトでのキャッシュ結果の使用
@@ -27,7 +29,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
 >title="キャッシュされた結果を使用して読み込みを高速化"
->abstract="有効にすると、プロジェクトがユーザーによって最初に開かれるか、スケジュールによって配信された後、結果が即座に12時間読み込まれます。 その期間にプロジェクトを開いた人は、バックグラウンドでデータが流れ続けても、同じ結果が得られます。 最新の結果を読み込むには、個々のパネルまたはプロジェクト全体を更新します。"
+>abstract="有効にすると、プロジェクトがユーザーによって最初に開かれるか、スケジュールによって配信された 12時間後、結果が即座に読み込まれます。 バックグラウンドでデータが継続的に流入している場合でも、その期間にプロジェクトを開いたユーザーには、同じ結果が表示されます。 最新の結果を読み込むには、個々のパネルまたはプロジェクト全体を更新します。"
 
 {{release-limited-testing}}
 
