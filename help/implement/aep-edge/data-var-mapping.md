@@ -37,11 +37,11 @@ ht-degree: 66%
 
 次の表は、Adobe Experience Platform Edge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクトフィールドを示しています。 これらのデータオブジェクトフィールドパスを使用する場合、Adobe Analytics にデータを送信する追加設定は必要ありません。
 
-今後Customer Journey Analyticsに移行する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装手法により、XDM スキーマに準拠することなく、Web SDKを使用してAdobe Analyticsにデータを送信できます。 これらのマッピングは、Adobe Analyticsにのみ適用されます。 Adobe Experience Platformにデータを送信する準備ができたら、[ データストリームマッピング ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping)を使用して、データオブジェクトフィールドをXDM スキーマのフィールドにマッピングします。
+今後Customer Journey Analyticsに移行する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装手法により、XDM スキーマに準拠することなく、Web SDKを使用してAdobe Analyticsにデータを送信できます。 これらのマッピングは、Adobe Analyticsにのみ適用されます。 Adobe Experience Platformにデータを送信する準備ができたら、[&#x200B; データストリームマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping)を使用して、データオブジェクトフィールドをXDM スキーマのフィールドにマッピングします。
 
 ## 値の優先度
 
-このテーブルのほとんどのデータオブジェクトフィールドは、[ マッピングされたXDM フィールド ](xdm-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。 データ オブジェクト フィールド内の空の文字列（`""`）は、対応するXDM フィールドに値が含まれている場合でも、マッピングされたAnalytics変数をヒット用に空白にします。
+このテーブルのほとんどのデータオブジェクトフィールドは、[&#x200B; マッピングされたXDM フィールド &#x200B;](xdm-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。 データ オブジェクト フィールド内の空の文字列（`""`）は、対応するXDM フィールドに値が含まれている場合でも、マッピングされたAnalytics変数をヒット用に空白にします。
 
 一部のデータオブジェクトフィールドでは、これに対応する[クエリパラメーター値](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を短縮値としてサポートすることもできます。 標準データオブジェクトフィールドと短縮データオブジェクトフィールドは、それぞれが一意の変数用である限り、互換的に使用できます。 標準データオブジェクトフィールドとこれに対応する短縮データオブジェクトフィールドの両方を同時に設定することは避けてください。 アドビでは、どのフィールドの優先度が高くなるかを保証できません。
 
