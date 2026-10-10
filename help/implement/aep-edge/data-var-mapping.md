@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # Adobe Analyticsへのデータオブジェクトフィールドマッピング
 
 次の表は、Adobe Experience Platform Edge NetworkがAdobe Analyticsに自動的にマッピングするデータオブジェクトフィールドを示しています。 これらのデータオブジェクトフィールドパスを使用する場合、Adobe Analytics にデータを送信する追加設定は必要ありません。
 
-今後 Customer Journey Analytics を使用する予定がある場合は、これらのフィールドの使用をお勧めします。 この実装方法により、組織は XDM スキーマに準拠せずに Web SDK を使用してデータをアドビに送信できます。 組織が Adobe Experience Platform にデータを送信する準備が整ったら、[データストリームマッピング](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping)を使用して、データオブジェクトフィールドをそれぞれの XDM フィールドに指定できます。
+今後Customer Journey Analyticsに移行する予定がある場合は、これらのフィールドを使用することをお勧めします。 この実装手法により、XDM スキーマに準拠することなく、Web SDKを使用してAdobe Analyticsにデータを送信できます。 これらのマッピングは、Adobe Analyticsにのみ適用されます。 Adobe Experience Platformにデータを送信する準備ができたら、[&#x200B; データストリームマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/data-prep#mapping)を使用して、データオブジェクトフィールドをXDM スキーマのフィールドにマッピングします。
 
 ## 値の優先度
 
