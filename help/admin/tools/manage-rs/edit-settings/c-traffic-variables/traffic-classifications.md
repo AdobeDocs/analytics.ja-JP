@@ -8,22 +8,28 @@ exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 TQID: 'https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: '174'
 ht-degree: 68%
-
 ---
-
 # トラフィック分類
 
 トラフィック分類では、トラフィック変数（prop）の分類が行えます。 トラフィック分類では、テキスト分類のみを使用できます。

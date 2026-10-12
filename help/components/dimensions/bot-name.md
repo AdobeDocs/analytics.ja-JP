@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # ボット名
@@ -45,7 +45,6 @@ ht-degree: 10%
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、このディメンションでは次のディメンションと指標のみがサポートされています。
 
 * [ページ](page.md)
-* [製品](product.md) （[&#x200B; ボット製品発生回数](../metrics/bot-product-occurrences.md)の場合のみ）
 * 時間ベースのディメンション （例：[日](day.md)、[週](week.md)、[月](month.md)）
 * [ボットの発生件数](../metrics/bot-occurrences.md)
 * [ボットページビュー数](../metrics/bot-page-views.md)

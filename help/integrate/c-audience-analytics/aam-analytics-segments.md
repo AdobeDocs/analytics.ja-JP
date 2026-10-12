@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: 57d3d944-b7a8-5380-92a1-556c210375c3
     internal-label: Audience Analytics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
     internal-label: Audience Manager integration
@@ -25,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 12%

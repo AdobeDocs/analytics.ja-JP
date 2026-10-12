@@ -1,37 +1,44 @@
 ---
-title: Experience Cloud ID を持つ訪問者
+title: Adobe Experience Cloud ID を持つ訪問者
 description: ECIDを使用するユニーク訪問者の数。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
+TQID: 'https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: Experience Cloud integration
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Troubleshooting
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '384'
 ht-degree: 25%
-
 ---
-
-# Experience Cloud ID を持つ訪問者
+# Adobe Experience Cloud ID を持つ訪問者
 
 &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
 
 >[!NOTE]
 >
->この指標は、Adobe TargetやAdobe Audience Managerなど、複数のCX Enterprise サービスを使用する場合のデバッグに特に重要です。 CX Enterprise製品で共有されるセグメントには、ECIDのない訪問者は含まれません。
+>この指標は、Adobe TargetやAdobe Audience Managerなど、複数のCX Enterprise サービスを使用する場合のデバッグに特に重要です。 CX Enterprise製品全体で共有されるセグメントには、ECIDのない訪問者は含まれません。
 
 ## この指標の計算方法
 

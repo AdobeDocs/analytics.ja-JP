@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # 製品発生の両方
@@ -33,7 +33,6 @@ ht-degree: 5%
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、この指標は次のディメンションでのみ機能します。
 
 * [ボット名](../dimensions/bot-name.md)
-* [製品](../dimensions/product.md)
 * 時間ベースのディメンション （例：[日](../dimensions/day.md)、[週](../dimensions/week.md)、[月](../dimensions/month.md)）
 
 この指標で他のディメンションを使用しても、データは返されません。

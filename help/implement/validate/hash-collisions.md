@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 5%

@@ -1,30 +1,35 @@
 ---
 description: 有料検索検知を設定する方法について手順を説明します。
-title: 有料検索検知の設定
+title: 有料検索検出の設定
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 role: Admin
 TQID: 'https://experienceleague.adobe.com/lyUBkk1p4mB0-pJbMx2YACWdUIo-FEx-b2UJyOZ4eq8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
-source-wordcount: 74
+source-wordcount: '74'
 ht-degree: 100%
-
 ---
+# 有料検索検出の設定
 
-# 有料検索検知の設定
-
-有料検索検知を設定するには：
+有料検索検出を設定するには、次の手順を実行します。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックして、[!UICONTROL レポートスイートマネージャー]を開きます。
 1. レポートスイートを選択します。
