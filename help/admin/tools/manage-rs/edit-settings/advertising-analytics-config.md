@@ -44,4 +44,4 @@ Adobe Analyticsでは、次のデータを取得できます。
 
 * AMO ID インスタンス （クリックインスタンス）
 
-詳しくは、[Advertising Analyticsのガイド ](/help/integrate/c-advertising-analytics/overview.md)を参照してください。
+詳しくは、[Advertising Analyticsのガイド &#x200B;](/help/integrate/c-advertising-analytics/overview.md)を参照してください。

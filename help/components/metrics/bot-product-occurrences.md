@@ -28,7 +28,7 @@ ht-degree: 5%
 ---
 # 製品発生の両方
 
-「ボット製品発生数」の[指標](overview.md)には、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)に一致したサブヒット数が表示されます。
+「ボット製品発生数」の[指標](overview.md)には、[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)に一致したサブヒット数が表示されます。
 
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、この指標は次のディメンションでのみ機能します。
 

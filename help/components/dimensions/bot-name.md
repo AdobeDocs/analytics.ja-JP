@@ -38,9 +38,9 @@ ht-degree: 10%
 ---
 # ボット名
 
-「ボット名」 [ ディメンション ](overview.md)には、[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
+「ボット名」 [&#x200B; ディメンション &#x200B;](overview.md)には、[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を使用して検出されたボットの名前が表示されます。 これらのルールは、デフォルトのIAB ルールまたは組織が設定するカスタムボットルールにすることができます。 これは、どのボットがサイトにアクセスしているか、どのボットが最も多くのトラフィックを生み出しているかなどについて詳しく知りたい場合に役立ちます。
 
-[!UICONTROL  ボットルール ]に一致するヒットは、このディメンション、[ ボットの発生](../metrics/bot-occurrences.md)、[ ボットページビュー](../metrics/bot-page-views.md)、[ ボット製品の発生](../metrics/bot-product-occurrences.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションと3つの指標を使用して、どのボットデータが他のレポートから除外されているかを確認できます。
+[!UICONTROL &#x200B; ボットルール &#x200B;]に一致するヒットは、このディメンション、[&#x200B; ボットの発生](../metrics/bot-occurrences.md)、[&#x200B; ボットページビュー](../metrics/bot-page-views.md)、[&#x200B; ボット製品の発生](../metrics/bot-product-occurrences.md)を除くすべてのAnalytics レポートから自動的にフィルタリングされます。 このディメンションと3つの指標を使用して、どのボットデータが他のレポートから除外されているかを確認できます。
 
 ボットレポートはレポートスイートデータの残りの部分から分離されているため、このディメンションでは次のディメンションと指標のみがサポートされています。
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 
 ## このディメンションへのデータ入力
 
-[ ボットルール ](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL  ボットルール ]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
+[&#x200B; ボットルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を有効にしている場合、このディメンションは自動的にデータを収集します。 [!UICONTROL &#x200B; ボットルール &#x200B;]をまだ有効にしていない場合、このディメンションはAnalysis Workspaceに表示されません。
 
 | プロパティ | 値 |
 | --- | --- |
