@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: 57d3d944-b7a8-5380-92a1-556c210375c3
     internal-label: Audience Analytics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
     internal-label: Audience Manager integration
@@ -25,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 12%
@@ -47,7 +49,7 @@ Audience Managerのセグメントメンバーシップは流動的です。 利
 
 Analyticsでは、Audience Manager セグメントはオーディエンスとして表されます。
 
-詳細については、[&#x200B; セグメントビルダーの特性データとセグメント母集団データ &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)および[信号、特性、セグメント &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)を参照してください。
+詳細については、[ セグメントビルダーの特性データとセグメント母集団データ ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)および[信号、特性、セグメント ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)を参照してください。
 
 ## Analytics セグメント {#analytics-segments}
 
@@ -65,4 +67,4 @@ Analytics セグメントは、レポート内のデータをフィルタリン�
 
   一方、Analyticsでは、レポートの日付範囲に基づいて、訪問者がセグメントに含まれるか、セグメントから除外されます。 例えば、ある訪問者が先月購入したとします。 Adobe Audience Managerでは、日付範囲に関係なく、その訪問者は「購入者」セグメントに含まれます。 Analyticsでは、今月に基づくレポートには、訪問者はセグメントに含まれません。 ただし、今月と先月に基づくレポートでは、訪問者がセグメントに含まれます。
 
-詳しくは、[Analytics セグメント化ガイド &#x200B;](/help/components/segmentation/seg-home.md)を参照してください。
+詳しくは、[Analytics セグメント化ガイド ](/help/components/segmentation/seg-home.md)を参照してください。

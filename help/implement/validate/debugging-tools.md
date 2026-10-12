@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 3%
@@ -81,7 +83,7 @@ HTTPS インスペクションでは、通常、デバッグプロキシから�
 
 | ツール | 次に役立つ |
 | --- | --- |
-| **[チャールズ &#x200B;](https://www.charlesproxy.com/)** | ブラウザー、アプリケーション、モバイルデバイス、その他のHTTP （S）トラフィックの調査 |
+| **[チャールズ ](https://www.charlesproxy.com/)** | ブラウザー、アプリケーション、モバイルデバイス、その他のHTTP （S）トラフィックの調査 |
 | **[Fiddler Everywhere](https://www.telerik.com/fiddler/fiddler-everywhere)** | アプリケーションやデバイスをまたいだHTTP （S） トラフィックの取得と検査。 古いFiddler Classic製品とは異なります。 |
 | **[Proxyman](https://proxyman.com/)** | ブラウザー、アプリケーション、モバイルデバイスからのHTTP （S） トラフィックの調査と修正 |
 | **[HTTP Toolkit](https://httptoolkit.com/)** | アプリケーションとAPIのデバッグに特化したワークフローにより、アプリケーション、API、開発環境、モバイルデバイスからのトラフィックを調査 |
@@ -97,7 +99,7 @@ AppMeasurementなどのAdobe Analyticsに直接データを送信する実装で
 
 Adobe Analytics コレクションリクエストには、リクエスト URLまたはペイロードにAnalytics変数が含まれます。 Raw リクエストでは、変数名ではなくクエリパラメーター名が使用されます。例えば、eVar1は`v1`として表示され、prop1は`c1`として表示されます。 Adobe Analyticsのデバッガーを使用すれば、これらの名前を容易にデコードできます。 自分でデコードするには、Data Insertion API ドキュメントの[変数参照](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)を参照してください。
 
-Analytics データ収集サーバーが返すHTTP ステータスコードについては、Data Insertion API ドキュメントの[HTTP応答コード &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)を参照してください。
+Analytics データ収集サーバーが返すHTTP ステータスコードについては、Data Insertion API ドキュメントの[HTTP応答コード ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)を参照してください。
 
 Adobe Experience Platform Web SDKを使用する実装の場合、次のネットワークリクエストをフィルタリングします。
 
@@ -113,4 +115,4 @@ Adobe Experience Platform Web SDKを使用する実装の場合、次のネッ�
 
 キャンセルされたリクエストは、必ずしもデータが失われたわけではありません。 ブラウザーは完全なリクエストを送信し、応答の待ち時間のみを停止した可能性があります。 ブラウザー開発者ツールは通常、違いを示すことはできませんが、HTTP デバッグプロキシは違いを示すことができます。
 
-`navigator.sendBeacon()`で送信されたリクエストは、ナビゲーション時にキャンセルされません。 AppMeasurementは、終了リンクに`sendBeacon`を使用し、[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)が有効になっている場合は常にを使用します。 Web SDKでは、[`documentUnloading`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendevent/documentunloading)で送信されたイベントに使用されます。 リンクトラッキングリクエストが頻繁にキャンセルされる場合は、これらのオプションを使用します。
+`navigator.sendBeacon()`で送信されたリクエストは、ナビゲーション時にキャンセルされません。 AppMeasurementは、終了リンクに`sendBeacon`を使用し、[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)が有効になっている場合は常にを使用します。 Web SDKでは、[`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading)で送信されたイベントに使用されます。 リンクトラッキングリクエストが頻繁にキャンセルされる場合は、これらのオプションを使用します。
