@@ -61,7 +61,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、_&#x200B;のコホートテーブルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** バージョンについては、[ コホートテーブル ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)を参照してください。_
+_この記事では、_&#x200B;のコホートテーブルについて説明します。![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**。_<br/>_この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** バージョンについては、[&#x200B; コホートテーブル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)を参照してください。_
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ _この記事では、_&#x200B;のコホートテーブルについて説明し�
 * 価値を最大化するために、体験版やオファーを終了するタイミングを認識する。
 * 価格やアップグレードパスなどの領域で、A/B テストの着想を得る。
 
-[!UICONTROL  コホートテーブル ]は、[!UICONTROL Analysis Workspace]へのアクセス権を持つすべてのAdobe Analytics ユーザーが利用できます。
+[!UICONTROL &#x200B; コホートテーブル &#x200B;]は、[!UICONTROL Analysis Workspace]へのアクセス権を持つすべてのAdobe Analytics ユーザーが利用できます。
 
 
 >[!BEGINSHADEBOX]
