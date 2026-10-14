@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # コンポーネントの選択
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
 >title="コンポーネントの選択"
->abstract="この移行に含めるルール、データ要素、拡張機能を選択します。 Adobe Analyticsの実装に積極的に貢献するコンポーネントは、デフォルトで選択されます。 以降の手順は、ここで選択したコンポーネントでのみ機能します。"
+>abstract="この移行に含めるルール、データ要素、拡張機能を選択します。 Adobe Analytics の実装に積極的に寄与するコンポーネントは、デフォルトで選択されます。 以降の手順は、ここで選択したコンポーネントがある場合にのみ機能します。"
 
 コンポーネントの選択は、移行の最初の手順です。 これを使用して、移行に含めるルール、データ要素、および拡張機能をタグプロパティから選択します。
 
@@ -63,13 +63,13 @@ Adobe Target、Adobe Audience Manager、サードパーティの拡張機能な�
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
->title="タグの使用"
->abstract="このコンポーネントを使用するルール、データ要素、拡張機能。 拡張機能の使用では、拡張機能の設定設定のみを対象としています。 ルール内の使用状況は、「ルールの使用状況」に表示されます。"
+>title="タグの使用状況"
+>abstract="このコンポーネントを使用するルール、データ要素、拡張機能。 拡張機能の使用状況では、拡張機能の構成設定のみが対象になります。 ルール内の使用状況は、「ルールの使用状況」に表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
->title="Analyticsの利用状況"
->abstract="このコンポーネントが割り当てられているAdobe Analytics変数を、変数タイプ別にグループ化します。"
+>title="Analytics の使用状況"
+>abstract="このコンポーネントが割り当てられている Adobe Analytics 変数が、変数タイプ別にグループ化されます。"
 
 <!-- markdownlint-enable MD034 -->
 

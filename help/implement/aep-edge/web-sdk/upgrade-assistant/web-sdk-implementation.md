@@ -38,20 +38,20 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Web SDKの導入
+# Web SDK 実装
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Web SDKの導入"
->abstract="アップグレードアシスタントがルールに追加するWeb SDK アクションを確認します。 Adobe Analyticsでのアクションも引き続きおこなわれます。 コンポーネントを選択して、現在の設定とWeb SDKの設定を並べて比較します。 キューに入れたコンポーネントのみが移行に追加されます。"
+>title="Web SDK 実装"
+>abstract="アップグレードアシスタントによりルールに追加された Web SDK アクションを確認します。 Adobe Analytics アクションはそのまま残っています。 コンポーネントを選択すると、現在の設定と Web SDK の設定を並べて比較できます。 キューに入れたコンポーネントのみが移行に追加されます。"
 
 <!-- markdownlint-enable MD034 -->
 
-選択したコンポーネントと[XDM マッピング &#x200B;](xdm-mapping.md)を使用して、アップグレードアシスタントは各Adobe Analytics アクションの直後にWeb SDK アクションをルールに追加します。 Analyticsのアクションは維持されるため、これらのルールはAdobe AnalyticsとWeb SDKの両方にデータを送信します。 ほとんどのデータ要素は変更されずに転送され、ルールは引き続き名前で参照されます。
+選択したコンポーネントと[XDM マッピング ](xdm-mapping.md)を使用して、アップグレードアシスタントは各Adobe Analytics アクションの直後にWeb SDK アクションをルールに追加します。 Analyticsのアクションは維持されるため、これらのルールはAdobe AnalyticsとWeb SDKの両方にデータを送信します。 ほとんどのデータ要素は変更されずに転送され、ルールは引き続き名前で参照されます。
 
 **[!UICONTROL 種類を変更]**&#x200B;列には、移行の最終処理が各コンポーネントに対して行う処理が表示されます。
 
