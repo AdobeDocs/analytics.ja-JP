@@ -69,7 +69,7 @@ Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.ad
 
 <!-- markdownlint-enable MD034 -->
 
-新しいスキーマを作成する場合、アップグレードアシスタントで標準フィールドグループとカスタムフィールドグループのどちらを使用するかを選択することもできます。 標準フィールドグループはAdobeで定義され、カスタムフィールドグループは組織で定義されます。 XDM ドキュメントの[&#x200B; フィールドグループ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)を参照してください。
+新しいスキーマを作成する場合、アップグレードアシスタントで標準フィールドグループとカスタムフィールドグループのどちらを使用するかを選択することもできます。 標準フィールドグループはAdobeで定義され、カスタムフィールドグループは組織で定義されます。 XDM ドキュメントの[&#x200B; フィールドグループ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#field-group)を参照してください。
 
 ## マッピングの確認 {#review}
 
