@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 14%
@@ -336,10 +336,10 @@ ht-degree: 14%
 
 ### 例
 
-ユーザーが検索文字列をキーディメンションとして使用してアスリートを検索する方法を&#x200B;**[!UICONTROL Type]**&#x200B;という分類で分類する必要があります。 例えば、次のルールセットを使用します。
+検索文字列をキーディメンションとして使用して、ユーザーが実行する検索タイプを分類&#x200B;**[!UICONTROL タイプ]**&#x200B;で分類する必要があります。 例えば、次のルールセットを使用します。
 
 ![&#x200B; ルールの優先度](assets/rule-priority.png)
 
-* ユーザーが`Cowboys Fantasy Tony Romo`を検索すると、`Romo`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
-* ユーザーが`Cowboys Fantasy Tony Romeo`を検索すると、`Fantasy`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
+* ユーザーが`Cowboys with Tony Romo`を検索すると、`Team`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
+* ユーザーが`Cowboys vs. Broncos with Tony Romeo`を検索すると、`Player`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
 * ユーザーが`Cowboys vs. Broncos`を検索すると、`Team`は&#x200B;**[!UICONTROL 種類]**&#x200B;に分類されます。
