@@ -77,7 +77,7 @@ alloy("configure", {
 1. 「[!UICONTROL Extensions]」タブに移動し、「**[!UICONTROL Configure]**」ボタンをAdobe Analyticsの下から選択します。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL SSL トラッキングサーバー]」フィールドが表示されます。
 
-このフィールドが空白のままの場合、デフォルトの値は[!UICONTROL  トラッキングサーバー]です。 [!UICONTROL SSL トラッキングサーバー]と[!UICONTROL  トラッキングサーバー]の両方が空白の場合、デフォルトは`[rsid].data.adobedc.net`になります。
+このフィールドが空白のままの場合、デフォルトの値は[!UICONTROL &#x200B; トラッキングサーバー]です。 [!UICONTROL SSL トラッキングサーバー]と[!UICONTROL &#x200B; トラッキングサーバー]の両方が空白の場合、デフォルトは`[rsid].data.adobedc.net`になります。
 
 ## AppMeasurementおよびAnalytics拡張機能のカスタムコードエディターのs.trackingServerSecure
 
@@ -95,19 +95,19 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure` （または`edgeDomain`）に使用する値は、組織がAdobeにデータを送信する方法によって異なります。
 
-* **Adobeが管理する証明書プログラム [様、[様が管理する証明書](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)例えば、`data.example.com` のように設定します。
+* **Adobeが管理する証明書プログラム [&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)様、[様が管理する証明書](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 &#x200B;例えば、`data.example.com` のように設定します。
 * **組織がサードパーティのドメイン**&#x200B;を使用している場合は、値を`data.adobedc.net`のテナント ID サブドメインに設定します。 例えば、`example.data.adobedc.net` のように設定します。
 
-テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[ データ収集ドメインの選択](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
+テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[&#x200B; データ収集ドメインの選択](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
 
-Adobeでは、組織全体の一貫性を保つために、この情報を[ ソリューション設計ドキュメント ](../../prepare/solution-design.md)に保管することを強くお勧めします。
+Adobeでは、組織全体の一貫性を保つために、この情報を[&#x200B; ソリューション設計ドキュメント &#x200B;](../../prepare/solution-design.md)に保管することを強くお勧めします。
 
 ## 訪問者ID サービスまたはExperience Platform ID サービスを使用しない場合の影響
 
 Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
 * AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)を参照してください。
-* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス ] タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
+* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
 * 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Experience Platform ID サービスが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 
 **実装でECID**&#x200B;を使用しない場合は、実装に対する次の影響を考慮してください。
