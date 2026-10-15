@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
-# 最終審査
+# 最終確認
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
->title="最終審査"
->abstract="使用するExperience Platform サンドボックスを選択し、この移行によって作成または変更されるすべての要素を確認します。 移行が完了するまで、何も変更されません。 最終処理を行うと、アップグレードアシスタントは一度にすべてを作成し、タグの変更を新しいライブラリに追加し、この移行を読み取り専用にします。 そのライブラリを自分で本番環境に公開します。"
+>title="最終確認"
+>abstract="使用する Experience Platform サンドボックスを選択し、この移行によって作成または変更されるすべての要素を確認します。 移行が完了するまで、何も変更されません。 完了すると、アップグレードアシスタントにより一度にすべての要素が作成され、タグの変更が新しいライブラリに追加され、この移行が読み取り専用になります。 そして、そのライブラリを自分で本番環境に公開します。"
 
 <!-- markdownlint-enable MD034 -->
 

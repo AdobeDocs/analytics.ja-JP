@@ -38,25 +38,25 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
-# 移行の管理
+# 移行を管理
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="移行"
->abstract="各移行は、1つのタグプロパティのAdobe Analytics実装をWeb SDKにアップグレードします。 移行を開いて中断した場所から続行するか、「新規」を選択して移行を開始します。"
+>abstract="各移行では、1 つのタグプロパティでの Adobe Analytics 実装が Web SDK にアップグレードされます。 移行を開いて中断したところから続行するか、「新規」を選択して移行を開始してください。"
 
 **[!UICONTROL Migrations]** ページは、Web SDK アップグレードアシスタントの出発点です。 組織内の移行が、各移行の進捗状況、ステータス、作成者など一覧表示されます。 このページを使用して、移行を作成するか、既存の移行を開きます。
 
-## 移行の作成 {#create}
+## 移行を作成 {#create}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="新しい移行"
->abstract="移行するタグプロパティとそのプロパティ内のライブラリを選択します。 アップグレード アシスタントは、移行の作成時にライブラリのスナップショットを取得します。 移行スナップショット後にライブラリに加えられた変更は含まれません。 移行が完了するまで、タグプロパティは変更されません。"
+>abstract="移行するタグプロパティと、そのプロパティ内のライブラリを選択します。 アップグレードアシスタントにより、移行の作成時にライブラリのスナップショットが取得されます。 移行スナップショット後にライブラリに加えられた変更は含まれません。 移行が完了するまで、タグプロパティは変更されません。"
 
 <!-- markdownlint-enable MD034 -->
 

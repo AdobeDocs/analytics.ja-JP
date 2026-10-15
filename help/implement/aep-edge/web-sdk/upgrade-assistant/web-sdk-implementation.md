@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Web SDKの導入
+# Web SDK 実装
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Web SDKの導入"
->abstract="アップグレードアシスタントがルールに追加するWeb SDK アクションを確認します。 Adobe Analyticsでのアクションも引き続きおこなわれます。 コンポーネントを選択して、現在の設定とWeb SDKの設定を並べて比較します。 キューに入れたコンポーネントのみが移行に追加されます。"
+>title="Web SDK 実装"
+>abstract="アップグレードアシスタントによりルールに追加された Web SDK アクションを確認します。 Adobe Analytics アクションはそのまま残っています。 コンポーネントを選択すると、現在の設定と Web SDK の設定を並べて比較できます。 キューに入れたコンポーネントのみが移行に追加されます。"
 
 <!-- markdownlint-enable MD034 -->
 

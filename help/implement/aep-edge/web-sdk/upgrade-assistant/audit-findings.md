@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
-# 調査結果の監査
+# 監査の結果
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
->title="調査結果の監査"
->abstract="結果は、移行前にクリーンアップする可能性のあるルールやデータ要素（参照されないデータ要素など）を示します。 移行で推奨される変更を含める結果を受け入れるか、コンポーネントをそのまま残すように拒否します。 この手順はオプションです。"
+>title="監査の結果"
+>abstract="結果は、移行前にクリーンアップできるルールやデータ要素（参照されないデータ要素など）を示します。 推奨される変更を移行に取り入れる場合はその結果を受け入れ、コンポーネントをそのまま残す場合はその結果を拒否してください。 この手順はオプションです。"
 
 <!-- markdownlint-enable MD034 -->
 

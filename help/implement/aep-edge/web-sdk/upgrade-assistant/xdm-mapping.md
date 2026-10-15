@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
 # XDM マッピング
 
@@ -47,13 +47,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
 >title="XDM マッピング"
->abstract="選択したAnalytics変数をXDM スキーマのフィールドにマッピングします。 アップグレードアシスタントは、AIが提案したマッピングを使用して新しいスキーマを作成したり、既存のスキーマに変数をマッピングしたりできます。 続行する前に、すべてのマッピングを確認してください。"
+>abstract="選択した Analytics 変数を XDM スキーマのフィールドにマッピングします。 アップグレードアシスタントにより AI が提案したマッピングを使用して新しいスキーマを作成するか、既存のスキーマに変数をマッピングすることができます。 続行する前に、すべてのマッピングを確認してください。"
 
 <!-- markdownlint-enable MD034 -->
 
 Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home) フィールドを使用してデータを送信するので、[Mapper preparation](mapper-prep.md)から先に進む各Analytics変数には、XDM スキーマの一致するフィールドが必要です。 この手順では、スキーマを選択し、変数をそのフィールドにマッピングします。
 
-## スキーマの選択 {#schema}
+## スキーマを選択 {#schema}
 
 マッピングは、次の2つの方法のいずれかで構築できます。
 
@@ -64,8 +64,8 @@ Web SDKは[Experience Data Model （XDM） &#x200B;](https://experienceleague.ad
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
->title="フィールドグループ参照"
->abstract="アップグレードアシスタントがスキーマを構築する際に好むフィールドグループのタイプを選択します。 標準フィールドグループは、Adobeで定義します。 カスタムフィールドグループは、組織で定義します。"
+>title="フィールドグループの環境設定"
+>abstract="アップグレードアシスタントでスキーマが構築される際に優先されるフィールドグループのタイプを選択します。 標準フィールドグループは、アドビが定義します。 カスタムフィールドグループは、組織が定義します。"
 
 <!-- markdownlint-enable MD034 -->
 
