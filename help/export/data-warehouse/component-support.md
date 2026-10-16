@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 8%
 ---
 # Data Warehouse でのコンポーネントのサポート
 
@@ -88,6 +88,15 @@ ht-degree: 11%
 * **月**: ゼロ ベース。 1月= `00`、2月= `01`、...、12月= `11`。
 
 例えば、「日付範囲週」フィールドに`1260901`が表示されている場合、年は1900 + 126 = **2026**、月は09 = **10月**&#x200B;です。
+
+## Data Warehouseの分類ディメンション {#classifications}
+
+{{release-limited-testing-section}}
+
+Data Warehouse レポートは、[分類セット &#x200B;](/help/components/classifications/sets/overview.md)から直接分類データを取得します。 その結果、Data Warehouse レポートの分類ディメンションは、Analysis Workspaceの同じディメンションと異なる場合があります。
+
+* **削除された分類値が空白で表示される**：分類セットから分類データを削除すると、Data Warehouse レポートにその分類の空白の値が表示されます。 分類データの削除方法については、[分類セットのファイル形式](/help/components/classifications/sets/data-files.md)を参照してください。
+* **複数の分類値が表示される場合、Analysis Workspaceでは1つの（非一般的）**&#x200B;が表示されます。Analysis Workspaceでは、1つの値として複数の異なる分類値が表示される場合があります。 Data Warehouseは、これらの各値を示します。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。
 
 ## Data Warehouseでの指標の定義の違い
 
