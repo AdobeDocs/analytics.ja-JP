@@ -1,27 +1,25 @@
 ---
-force-publish-loc: '2026-10-14T14:22:41.044204+00:00'
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
 usetq: true
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
-git-repo: https://github.com/AdobeDocs/analytics.ja-JP
+git-repo: https://github.com/AdobeDocs/analytics.en
 type: Documentation
 index: true
 feature-set: Analytics
 role: User, Admin
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 autotag-review: '2026-05-19T13:22:46.838Z'
 nudge: true
 source-git-commit: 34de09b177c3c846cc44673ad9d922333f6f2831
 workflow-type: tm+mt
-source-wordcount: 124
-ht-degree: 96%
-
+source-wordcount: '120'
+ht-degree: 100%
 ---
-
 
 # 内部使用のメタデータ
 
