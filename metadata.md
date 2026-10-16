@@ -5,7 +5,7 @@ solution: Analytics
 usetq: true
 landing-page-name: analytics
 landing-page-breadcrumb-title: Analytics
-git-repo: https://github.com/AdobeDocs/analytics.en
+git-repo: https://github.com/AdobeDocs/analytics.ja-JP
 type: Documentation
 index: true
 feature-set: Analytics
