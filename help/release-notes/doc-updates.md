@@ -76,7 +76,7 @@ ht-degree: 90%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年10月** | |
-| CDNを通じたデータ収集 | CX Enterprise インターフェイスおよび管理ガイドに、[CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)を介したデータ収集のルーティングを追加しました。 |
+| CDNを通じたデータ収集 | CX Enterprise インターフェイスおよび管理ガイドに、[CDN](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cdn)を介したデータ収集のルーティングを追加しました。 |
 | ボット製品発生指標 | ボットルールに一致した製品文字列のサブヒット数を示す[&#x200B; ボット製品発生回数](/help/components/metrics/bot-product-occurrences.md)指標を追加しました。 <p>また、[&#x200B; ボット名](/help/components/dimensions/bot-name.md) ディメンションと[&#x200B; ボット発生](/help/components/metrics/bot-occurrences.md)指標を更新して、新しい指標を参照しました。</p> |
 | **2026年9月** | |
 | 矢印とフォールアウトのジャーニーキャンバスの比較 | [&#x200B; ジャーニーの各ノード、矢印、フォールアウトに日付範囲の変化率が表示されるように、ジャーニーキャンバスのビジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「[!UICONTROL 比較先]」設定を更新しました。 |
