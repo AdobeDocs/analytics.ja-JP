@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure` （または`edgeDomain`）に使用する値は、組織がAdobeにデータを送信する方法によって異なります。
 
-* **Adobeが管理する証明書プログラム [&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)様、[様が管理する証明書](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 &#x200B;例えば、`data.example.com` のように設定します。
+* **Adobeが管理する証明書プログラム [&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)様、[様が管理する証明書](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 &#x200B;例えば、`data.example.com` のように設定します。
 * **組織がサードパーティのドメイン**&#x200B;を使用している場合は、値を`data.adobedc.net`のテナント ID サブドメインに設定します。 例えば、`example.data.adobedc.net` のように設定します。
 
-テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[&#x200B; データ収集ドメインの選択](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
+テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[&#x200B; データ収集ドメインの選択](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
 
 Adobeでは、組織全体の一貫性を保つために、この情報を[&#x200B; ソリューション設計ドキュメント &#x200B;](../../prepare/solution-design.md)に保管することを強くお勧めします。
 
