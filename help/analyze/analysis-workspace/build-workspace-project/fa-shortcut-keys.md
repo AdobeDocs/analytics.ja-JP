@@ -8,38 +8,47 @@ exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '527'
+ht-degree: 72%
 ---
-
 # ホットキー
 
 Analysis Workspace では、シームレスなナビゲーション、分析、民主化を目的にホットキー（キーボードショートカット）を利用できます。
 
 キーボードでは、次のシンボルが使用される場合があります。
 
-- **[!UICONTROL **&#x200B; Shift キー&#x200B;**]&#x200B;**&#x200B;の代わりに &#x200B;**⇧**。
-- **[!UICONTROL **&#x200B; cmd &#x200B;**]&#x200B;**（コマンド）の代わりに &#x200B;**⌘**。
-- **[!UICONTROL **&#x200B; ctrl &#x200B;**]&#x200B;**（Control）の代わりに &#x200B;**⌃**。
-- **[!UICONTROL **&#x200B; opt &#x200B;**]&#x200B;**（Option）の代わりに &#x200B;**⌥**。
-- **[!UICONTROL **&#x200B; alt &#x200B;**]&#x200B;**（Alternate）の代わりに &#x200B;**⎇**。
+- **[!UICONTROL ** Shift キー&#x200B;**]**&#x200B;の代わりに **⇧**。
+- **[!UICONTROL ** cmd **]**（コマンド）の代わりに **⌘**。
+- **[!UICONTROL ** ctrl **]**（Control）の代わりに **⌃**。
+- **[!UICONTROL ** opt **]**（Option）の代わりに **⌥**。
+- **[!UICONTROL ** alt **]**（Alternate）の代わりに **⎇**。
 
 ## ナビゲーション操作
 
@@ -102,6 +111,10 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 | サイズ変更を短くする | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + shift + up *]** |
 
 幅は1つのグリッド列のステップでサイズ変更し、高さは1つのグリッドセル（約25 ピクセル）のステップでサイズ変更します。
+
+## テーブル列のアクション
+
+キーボードを使用して、テーブル列のサイズを変更したり、並べ替えたりできます。 これらのアクションはグローバルホットキーではありません。 列サイズ変更の区切り記号または列ヘッダーの&#x200B;**[!UICONTROL 並べ替え]** ボタンにフォーカスがある場合に使用できます。 テーブル列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns)については、[ キーボードナビゲーションを参照してください。
 
 ## 民主化行動
 
