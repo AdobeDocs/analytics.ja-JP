@@ -31,7 +31,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-*このページは、Adobe Experience Platform Mobile SDKを通じて一般的に追跡されるデータを参照しています。 ユーザーエージェントを使用するモバイルデバイス情報については、[ モバイル検索ディメンション ](mobile-dimensions.md)を参照してください。 Mobile SDKを使用して追跡された指標については、[ モバイルライフサイクル指標](../metrics/lifecycle-metrics.md)を参照してください。*
+*このページは、Adobe Experience Platform Mobile SDKを通じて一般的に追跡されるデータを参照しています。 ユーザーエージェントを使用するモバイルデバイス情報については、[&#x200B; モバイル検索ディメンション &#x200B;](mobile-dimensions.md)を参照してください。 Mobile SDKを使用して追跡された指標については、[&#x200B; モバイルライフサイクル指標](../metrics/lifecycle-metrics.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 
@@ -69,9 +69,9 @@ ht-degree: 8%
 >
 >これらのディメンションの一部は、従来のMobile Services SDK（4.x）のメソッドによって入力されますが、これはサポートされなくなりました。 Adobe Experience Platform Mobile SDKでは、次の項目は自動入力されません。
 >
->* **獲得ディメンション** （[!UICONTROL 獲得Source]、[!UICONTROL Medium]、[!UICONTROL 条件]、[!UICONTROL  コンテンツ ]、および[!UICONTROL 名前]）: モバイルアプリ獲得によって入力されました。モバイルアプリ獲得は、モバイルSDK [でサポートされていません](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/comparison/)。
+>* **獲得ディメンション** （[!UICONTROL 獲得Source]、[!UICONTROL Medium]、[!UICONTROL 条件]、[!UICONTROL &#x200B; コンテンツ &#x200B;]、および[!UICONTROL 名前]）: モバイルアプリ獲得によって入力されました。モバイルアプリ獲得は、モバイルSDK [でサポートされていません](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/comparison/)。
 >* **[!UICONTROL 場所] ディメンションと[!UICONTROL 目標点までの距離]**: 4.x `trackLocation` メソッドが入力されました。 Mobile SDKは、このメソッドを[Places拡張機能](https://developer.adobe.com/client-sdks/solution/places/)に置き換えます。これにより、[!UICONTROL Point of Interest Name]と[!UICONTROL Point of Interest ID]が設定されます。
 >* **[!UICONTROL ライフタイム値（evar）]**: 4.x `trackLifetimeValueIncrease` メソッドによって入力されました。
->* **ビーコン ディメンション** （[!UICONTROL  ビーコン メジャー]、[!UICONTROL  マイナー]、[!UICONTROL UUID]、および[!UICONTROL 近接]）: 4.x `trackBeacon` メソッドによって入力されました。 モバイル SDKでビーコン データを送信するには、[ ビーコンのトラッキング ](https://developer.adobe.com/client-sdks/solution/adobe-analytics/track-beacon/)を参照してください。
+>* **ビーコン ディメンション** （[!UICONTROL &#x200B; ビーコン メジャー]、[!UICONTROL &#x200B; マイナー]、[!UICONTROL UUID]、および[!UICONTROL 近接]）: 4.x `trackBeacon` メソッドによって入力されました。 モバイル SDKでビーコン データを送信するには、[&#x200B; ビーコンのトラッキング &#x200B;](https://developer.adobe.com/client-sdks/solution/adobe-analytics/track-beacon/)を参照してください。
 >
 >詳しくは、[Adobe Mobile Library （v4）からExperience Platform Analyticsへの移行](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/analytics/)を参照してください。

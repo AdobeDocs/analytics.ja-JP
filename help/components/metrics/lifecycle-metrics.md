@@ -24,7 +24,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-*このページは、Adobe Experience Platform Mobile SDKを通じて一般的に追跡されるデータを参照しています。 Mobile SDKを使用して追跡されたディメンションについては、[ モバイルライフサイクルディメンション ](../dimensions/lifecycle-dimensions.md)を参照してください。 ユーザーエージェントを使用するモバイルデバイス情報については、[ モバイル検索ディメンション ](../dimensions/mobile-dimensions.md)を参照してください。*
+*このページは、Adobe Experience Platform Mobile SDKを通じて一般的に追跡されるデータを参照しています。 Mobile SDKを使用して追跡されたディメンションについては、[&#x200B; モバイルライフサイクルディメンション &#x200B;](../dimensions/lifecycle-dimensions.md)を参照してください。 ユーザーエージェントを使用するモバイルデバイス情報については、[&#x200B; モバイル検索ディメンション &#x200B;](../dimensions/mobile-dimensions.md)を参照してください。*
 
 >[!ENDSHADEBOX]
 
@@ -41,4 +41,4 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->[!UICONTROL Action Time Total]、[!UICONTROL Action Time In App]、および[!UICONTROL Lifetime Value （event） ]指標は、サポートされなくなった従来のMobile Services SDK （4.x）のメソッドによって入力されます。 Adobe Experience Platform Mobile SDKでは、これらの指標は自動入力されません。 時間制限付きアクションとライフタイムバリュートラッキングの代替案については、[Adobe Mobile Library （v4）からExperience Platform Analyticsへの移行](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/analytics/)を参照してください。
+>[!UICONTROL Action Time Total]、[!UICONTROL Action Time In App]、および[!UICONTROL Lifetime Value （event） &#x200B;]指標は、サポートされなくなった従来のMobile Services SDK （4.x）のメソッドによって入力されます。 Adobe Experience Platform Mobile SDKでは、これらの指標は自動入力されません。 時間制限付きアクションとライフタイムバリュートラッキングの代替案については、[Adobe Mobile Library （v4）からExperience Platform Analyticsへの移行](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/analytics/)を参照してください。
