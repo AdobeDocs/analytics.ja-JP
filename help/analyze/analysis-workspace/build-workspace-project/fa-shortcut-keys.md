@@ -44,11 +44,11 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 
 キーボードでは、次のシンボルが使用される場合があります。
 
-- **[!UICONTROL ** Shift キー&#x200B;**]**&#x200B;の代わりに **⇧**。
-- **[!UICONTROL ** cmd **]**（コマンド）の代わりに **⌘**。
-- **[!UICONTROL ** ctrl **]**（Control）の代わりに **⌃**。
-- **[!UICONTROL ** opt **]**（Option）の代わりに **⌥**。
-- **[!UICONTROL ** alt **]**（Alternate）の代わりに **⎇**。
+- **[!UICONTROL **&#x200B; Shift キー&#x200B;**]&#x200B;**&#x200B;の代わりに &#x200B;**⇧**。
+- **[!UICONTROL **&#x200B; cmd &#x200B;**]&#x200B;**（コマンド）の代わりに &#x200B;**⌘**。
+- **[!UICONTROL **&#x200B; ctrl &#x200B;**]&#x200B;**（Control）の代わりに &#x200B;**⌃**。
+- **[!UICONTROL **&#x200B; opt &#x200B;**]&#x200B;**（Option）の代わりに &#x200B;**⌥**。
+- **[!UICONTROL **&#x200B; alt &#x200B;**]&#x200B;**（Alternate）の代わりに &#x200B;**⎇**。
 
 ## ナビゲーション操作
 
@@ -114,7 +114,7 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 
 ## テーブル列のアクション
 
-キーボードを使用して、テーブル列のサイズを変更したり、並べ替えたりできます。 これらのアクションはグローバルホットキーではありません。 列サイズ変更の区切り記号または列ヘッダーの&#x200B;**[!UICONTROL 並べ替え]** ボタンにフォーカスがある場合に使用できます。 テーブル列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns)については、[ キーボードナビゲーションを参照してください。
+キーボードを使用して、テーブル列のサイズを変更したり、並べ替えたりできます。 これらのアクションはグローバルホットキーではありません。 列サイズ変更の区切り記号または列ヘッダーの&#x200B;**[!UICONTROL 並べ替え]** ボタンにフォーカスがある場合に使用できます。 テーブル列[&#128279;](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns)については、 キーボードナビゲーションを参照してください。
 
 ## 民主化行動
 
