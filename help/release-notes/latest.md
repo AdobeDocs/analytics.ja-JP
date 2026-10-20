@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
+source-git-commit: feac0c7f16b2477ec12112a49d9359e3ef9bfc3a
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 45%
+source-wordcount: '1197'
+ht-degree: 42%
 ---
 # 最新のAdobe Analytics リリースノート（2026年10月）
 
-**最終更新**: 2026年10月14日
+**最終更新**: 2026年10月19日（PT）
 
 これらのリリースノートは、2026年10月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -55,9 +55,10 @@ ht-degree: 45%
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
 | **Adobe Analytics MCP サーバーの読み取り専用アクセス許可**<br/>&#x200B;管理者は、ユーザーにAdobe Analytics MCP サーバーへの読み取り専用アクセス権を付与できるようになりました。 新しい[!UICONTROL MCP読み取り専用アクセス &#x200B;]権限アイテムでは、プロジェクト、セグメント、計算指標を作成せずに、すべての読み取り専用ツールにアクセスできます。<p>既存の[!UICONTROL MCP アクセス &#x200B;]権限項目の名前が[!UICONTROL MCP フルアクセス &#x200B;]に変更されました。 この権限を持つユーザーは、コンポーネントの作成、変更、削除を行うツールを含む、すべてのツールにアクセスできます。</p><p>詳しくは、Adobe Analytics MCP サーバーのドキュメントの[権限の設定](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)を参照してください。</p> | | 2026年10月6日（PT） |
-| Data Warehouse レポートの&#x200B;**分類データの機能強化**<br/>&#x200B;分類データがData Warehouse レポートでより正確になりました。 これらの改善により、Data Warehouse レポートに次の違いが見られる場合があります。<ul><li>**以前に分類値を見た空白の値**：分類値が分類セットから削除されると、Data Warehouseに空白が正しく表示されるようになりました。 以前は、削除された分類値が後のレポートに表示され続ける可能性がありました。</li><li>**より完全な分類値**：以前は、Data Warehouseに表示された分類値は、複数の異なる分類値の1つだけでした。 Data Warehouseに各値が表示されるようになりました。</li><li>**分類値は、Analysis Workspaceで異なる方法で表される場合があります（非一般的）**: Data Warehouseでは、関連付けられたすべての分類値を表示できますが、Analysis Workspaceでは1つの値を表示できます。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。</li></ul><p>詳しくは、[Data Warehouseの分類ディメンション &#x200B;](/help/export/data-warehouse/component-support.md#classifications)を参照してください。</p> | 2026年10月14日（PT） | 「Generative AI tool deployment - internal study |
+| **ジャーニーキャンバス：パーセンテージの比較**<br/> ジャーニーを前の期間と比較する際に、新しい[!UICONTROL &#x200B; パーセンテージの比較] オプションを有効にして、各ノード、矢印、フォールアウトのパーセンテーションポイントの変化を表示できるようになりました。 これは、ノード間のリテンションやフォールアウトなどのレートを比較する場合に便利です。ジャーニーのユーザー数が日付範囲によって異なる場合でも、比較は正確に保たれます。<p>詳しくは、[ジャーニーキャンバスのビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「パーセンテージの比較」を参照してください。</p> | | 2026年10月19日（PT） |
 | **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で、使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
 | **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | 2026年10月 |
+| Data Warehouse レポートの&#x200B;**分類データの機能強化**<br/>&#x200B;分類データがData Warehouse レポートでより正確になりました。 これらの改善により、Data Warehouse レポートに次の違いが見られる場合があります。<ul><li>**以前に分類値を見た空白の値**：分類値が分類セットから削除されると、Data Warehouseに空白が正しく表示されるようになりました。 以前は、削除された分類値が後のレポートに表示され続ける可能性がありました。</li><li>**より完全な分類値**：以前は、Data Warehouseに表示された分類値は、複数の異なる分類値の1つだけでした。 Data Warehouseに各値が表示されるようになりました。</li><li>**分類値は、Analysis Workspaceで異なる方法で表される場合があります（非一般的）**: Data Warehouseでは、関連付けられたすべての分類値を表示できますが、Analysis Workspaceでは1つの値を表示できます。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。</li></ul><p>詳しくは、[Data Warehouseの分類ディメンション &#x200B;](/help/export/data-warehouse/component-support.md#classifications)を参照してください。</p> | 2026年10月14日（PT） | 「Generative AI tool deployment - internal study |
 | **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
 
 ### Adobe Analytics の修正点
