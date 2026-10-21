@@ -76,7 +76,7 @@ Activity Mapの拡張機能を使用すると、web サイト上に重ねられ�
 * **[!UICONTROL 設定を表示]**：変更できる設定（歯車アイコン）のメニューを開きます：
   * **[!UICONTROL 設定]**：拡張機能の[設定](settings.md)を開きます。
   * **[!UICONTROL ヘルプ]**: Experience Leagueへのドキュメントを開きます（このページ）。
-  * **[!UICONTROL Adobe コミュニティ]**: [Experience League コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja)を開きます。
+  * **[!UICONTROL Adobe コミュニティ]**: [Experience League コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja&lang=ja)を開きます。
   * **[!UICONTROL バージョン情報]**：拡張機能のバージョンを表示します。
   * **[!UICONTROL ログアウト]**：拡張機能からログアウトするため、再度ログインする必要があります。
 * **[!UICONTROL Activity Mapを終了]**：拡張機能（X アイコン）のすべてのオーバーレイを閉じます。
