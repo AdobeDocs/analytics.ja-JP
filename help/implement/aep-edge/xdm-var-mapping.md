@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1978'
 ht-degree: 75%
 ---
 # Adobe AnalyticsへのXDM オブジェクトフィールドマッピング
@@ -84,6 +84,7 @@ ht-degree: 75%
 | `xdm.environment.browserDetails.acceptLanguage` | [言語](/help/components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.browserDetails.cookiesEnabled` | [cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションを設定します。 有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
 | `xdm.environment.browserDetails.javaEnabled` | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションを設定します。 有効な値は `Y` (Java が有効) と `N` (Java が無効) です。 |
+| `xdm.environment.browserDetails.javaScriptVersion` | [JavaScript バージョン &#x200B;](/help/components/dimensions/javascript-version.md)のディメンションを設定します。 |
 | `xdm.environment.browserDetails.userAgent` | フォールバックの[ユニーク訪問者](/help/components/metrics/unique-visitors.md)識別方法として使用します。 通常、`User-Agent` HTTP リクエストヘッダーを使用して生成します。 このフィールドをレポートで使用する場合は、eVar にマッピングできます。 |
 | `xdm.environment.browserDetails.viewportHeight` | [ブラウザーの高さ](/help/components/dimensions/browser-height.md)ディメンションを設定します。 |
 | `xdm.environment.browserDetails.viewportWidth` | [ブラウザーの幅](/help/components/dimensions/browser-width.md)ディメンションを設定します。 |
@@ -163,7 +164,7 @@ ht-degree: 75%
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## 他の XDM フィールドを Analytics 変数にマッピング
 

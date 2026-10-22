@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # ディメンションの概要
 
@@ -58,7 +58,6 @@ Analytics 管理者は、レポートスイート内または直接 Analysis Wor
 * **階層**: レポート用にサイトの階層構造をキャプチャするために使用されるカスタムディメンション （`hier1`-`hier5`）。 この機能は廃止され、Analysis Workspaceでは使用できません。 代わりに[eVars](evar.md)と分類を使用してください。
 * **ホームページ**：現在のページが訪問者のブラウザーのホームページであるかどうかを示すフラグ。 これは、最新のブラウザープライバシー慣行に対応していない、レガシーディメンションです。
 * **JavaScript サポート**：訪問者のブラウザーがJavaScriptをサポートしているかどうかを示します。 もはや現代の測定には意味のないレガシーディメンション。
-* **JavaScript バージョン**：訪問者のブラウザーがサポートしているJavaScript バージョンを報告しました。 収集されなくなったレガシーディメンション。
 * **次ページ**：訪問者が表示した次のページを示すパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[&#x200B; フロービジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
 * **前のページ**：訪問者が閲覧した前のページを表示するパスディメンション。 現在のパスディメンションには、Analysis Workspaceの[&#x200B; フロービジュアライゼーション &#x200B;](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)を使用します。
 * **タイムゾーン**：訪問者のタイムゾーン。AppMeasurement イメージリクエストのタイムスタンプオフセットから派生します。 Web SDKは、[`placeContext`](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/context)を使用してタイムゾーンを収集します。

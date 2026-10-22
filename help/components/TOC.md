@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理します。 クロスデバイス分析について説明します。
 nudge: red
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '782'
 ht-degree: 97%
 ---
 # [!DNL Adobe Analytics] コンポーネントガイド {#components}
@@ -67,6 +67,7 @@ ht-degree: 97%
   + [特定された状態](dimensions/identified-state.md)
   + [IP アドレス](dimensions/ip-address.md)
   + [Java 有効](dimensions/java-enabled.md)
+  + [JavaScript版](dimensions/javascript-version.md)
   + [言語](dimensions/language.md)
   + [ラストタッチチャネル](dimensions/last-touch-channel.md)
   + [ラストタッチチャネルの詳細](dimensions/last-touch-detail.md)
