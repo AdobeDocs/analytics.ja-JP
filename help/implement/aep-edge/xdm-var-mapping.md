@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1978'
 ht-degree: 75%
 ---
 # Adobe AnalyticsへのXDM オブジェクトフィールドマッピング
@@ -43,11 +43,11 @@ ht-degree: 75%
 
 ## 値の優先度
 
-このテーブルのほとんどのXDM オブジェクトフィールドは、[&#x200B; マッピングされたデータオブジェクトフィールド &#x200B;](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
+このテーブルのほとんどのXDM オブジェクトフィールドは、[ マッピングされたデータオブジェクトフィールド ](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
 
 ## XDM オブジェクトフィールドのマッピング
 
-このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.ja-JP/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
+このテーブルの以前の更新は、このページの [GitHub のコミット履歴](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)で確認できます。
 
 | XDM フィールドパス | Analytics の変数と説明 |
 | --- | --- |
@@ -84,6 +84,7 @@ ht-degree: 75%
 | `xdm.environment.browserDetails.acceptLanguage` | [言語](/help/components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.browserDetails.cookiesEnabled` | [cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションを設定します。 有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
 | `xdm.environment.browserDetails.javaEnabled` | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションを設定します。 有効な値は `Y` (Java が有効) と `N` (Java が無効) です。 |
+| `xdm.environment.browserDetails.javaScriptVersion` | [JavaScript バージョン ](/help/components/dimensions/javascript-version.md)のディメンションを設定します。 |
 | `xdm.environment.browserDetails.userAgent` | フォールバックの[ユニーク訪問者](/help/components/metrics/unique-visitors.md)識別方法として使用します。 通常、`User-Agent` HTTP リクエストヘッダーを使用して生成します。 このフィールドをレポートで使用する場合は、eVar にマッピングできます。 |
 | `xdm.environment.browserDetails.viewportHeight` | [ブラウザーの高さ](/help/components/dimensions/browser-height.md)ディメンションを設定します。 |
 | `xdm.environment.browserDetails.viewportWidth` | [ブラウザーの幅](/help/components/dimensions/browser-width.md)ディメンションを設定します。 |
@@ -104,41 +105,41 @@ ht-degree: 75%
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれの[カスタムイベント](/help/components/metrics/custom-events.md)指標を必要な量だけ増分します。 各イベントは、それに対応する 100 グループの親に存在します。 例えば、`event567` のフィールドは `xdm._experience.analytics.event501to600.event567.value` です。 |
 | `xdm.identityMap.ECID[0].id` | [Adobe Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用して収集されたECID。 |
 | `xdm.marketing.trackingCode` | [トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンションを設定します。 |
-| `xdm.media.mediaTimed.completes.value` | ストリーミングメディアサービス指標「[コンテンツ完了](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-completes)」。 |
+| `xdm.media.mediaTimed.completes.value` | ストリーミングメディアサービス指標「[コンテンツ完了](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)」。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | ストリーミングメディアサービス指標「[連合データ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/federated-data)」。 |
-| `xdm.media.mediaTimed.firstQuartiles.value` | ストリーミングメディアサービス指標「[25％進捗マーカー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | ストリーミングメディアサービス指標「[コンテンツセグメント閲覧回数](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-segment-views)」。 |
-| `xdm.media.mediaTimed.midpoints.value` | ストリーミングメディアサービス指標「[50％進捗マーカー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
-| `xdm.media.mediaTimed.pauseTime.value` | ストリーミングメディアサービス指標「[一時停止時間合計](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/total-pause-duration)」。 |
-| `xdm.media.mediaTimed.pauses.value` | ストリーミングメディアサービス指標「[一時停止イベント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/pause-events)」。 |
-| `xdm.mediaCollection.sessionDetails.assetID` | ストリーミングメディアサービスディメンション「[アセット ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/asset-id)」。 |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | ストリーミングメディアサービスディメンション「[ビデオ名](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-name)」。 |
-| `xdm.mediaCollection.sessionDetails.originator` | ストリーミングメディアサービス ディメンション「[作成者](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/originator)」。 |
-| `xdm.mediaCollection.sessionDetails.episode` | ストリーミングメディアサービスディメンション「[エピソード](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/episode)」。 |
-| `xdm.mediaCollection.sessionDetails.genre` | ストリーミングメディアサービスディメンション「[ジャンル](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/genre)」。 |
-| `xdm.mediaCollection.sessionDetails.rating` | ストリーミングメディアサービスディメンション「[コンテンツ評価](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-rating)」。 |
-| `xdm.mediaCollection.sessionDetails.season` | ストリーミングメディアサービスディメンション「[シーズン](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/season)」。 |
-| `xdm.mediaCollection.sessionDetails.name` | ストリーミングメディアサービスディメンション「[コンテンツ ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content)」。 |
-| `xdm.mediaCollection.sessionDetails.show` | ストリーミングメディアサービスディメンション「[番組](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show)」。 |
-| `xdm.mediaCollection.sessionDetails.showType` | ストリーミングメディアサービスディメンション「[番組タイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/show-type)」。 |
-| `xdm.mediaCollection.sessionDetails.length` | ストリーミングメディアサービスディメンション「[ビデオの長さ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-length)」。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | ストリーミングメディアサービスディメンション「[メディアセッション ID](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-session-id)」。 |
-| `xdm.mediaCollection.sessionDetails.channel` | ストリーミングメディアサービスディメンション「[コンテンツチャネル](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-channel)」。 |
-| `xdm.mediaCollection.sessionDetails.contentType` | ストリーミングメディアサービスディメンション「[コンテンツタイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-type)」。 |
-| `xdm.mediaCollection.sessionDetails.network` | ストリーミングメディアサービスディメンション「[ネットワーク](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/network)」。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | ストリーミングメディアサービスディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-segment)」。 |
-| `xdm.mediaCollection.sessionDetails.playerName` | ストリーミングメディアサービスディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/content-player-name)」。 |
-| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [&#x200B; ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
-| `xdm.mediaCollection.sessionDetails.feed` | ストリーミングメディアサービスディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/media-feed-type)」。 |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | ストリーミングメディアサービスディメンション「[ストリーム形式](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/dimensions/stream-format)」。 |
-| `xdm.media.mediaTimed.progress10.value` | ストリーミングメディアサービス指標「[10％進捗マーカー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
-| `xdm.media.mediaTimed.progress95.value` | ストリーミングメディアサービス指標「[95％進捗マーカー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
-| `xdm.mediaCollection.sessionDetails.hasResume` | ストリーミングメディアサービス指標「[コンテンツ再開](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-resumes)」。 |
-| `xdm.media.mediaTimed.starts.value` | ストリーミングメディアサービス指標「[メディア開始](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/media-starts)」。 |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | ストリーミングメディアサービス指標「[75％進捗マーカー](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
-| `xdm.media.mediaTimed.timePlayed.value` | ストリーミングメディアサービス指標「[コンテンツ視聴時間](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/content-time-spent)」。 |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | ストリーミングメディアサービス指標「[メディア視聴時間](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/metrics/media-time-spent)」。 |
+| `xdm.media.mediaTimed.federated.value` | ストリーミングメディアサービス指標「[連合データ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/federated-data)」。 |
+| `xdm.media.mediaTimed.firstQuartiles.value` | ストリーミングメディアサービス指標「[25％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | ストリーミングメディアサービス指標「[コンテンツセグメント閲覧回数](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)」。 |
+| `xdm.media.mediaTimed.midpoints.value` | ストリーミングメディアサービス指標「[50％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
+| `xdm.media.mediaTimed.pauseTime.value` | ストリーミングメディアサービス指標「[一時停止時間合計](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)」。 |
+| `xdm.media.mediaTimed.pauses.value` | ストリーミングメディアサービス指標「[一時停止イベント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)」。 |
+| `xdm.mediaCollection.sessionDetails.assetID` | ストリーミングメディアサービスディメンション「[アセット ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id)」。 |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | ストリーミングメディアサービスディメンション「[ビデオ名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)」。 |
+| `xdm.mediaCollection.sessionDetails.originator` | ストリーミングメディアサービス ディメンション「[作成者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator)」。 |
+| `xdm.mediaCollection.sessionDetails.episode` | ストリーミングメディアサービスディメンション「[エピソード](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)」。 |
+| `xdm.mediaCollection.sessionDetails.genre` | ストリーミングメディアサービスディメンション「[ジャンル](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)」。 |
+| `xdm.mediaCollection.sessionDetails.rating` | ストリーミングメディアサービスディメンション「[コンテンツ評価](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating)」。 |
+| `xdm.mediaCollection.sessionDetails.season` | ストリーミングメディアサービスディメンション「[シーズン](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)」。 |
+| `xdm.mediaCollection.sessionDetails.name` | ストリーミングメディアサービスディメンション「[コンテンツ ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)」。 |
+| `xdm.mediaCollection.sessionDetails.show` | ストリーミングメディアサービスディメンション「[番組](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)」。 |
+| `xdm.mediaCollection.sessionDetails.showType` | ストリーミングメディアサービスディメンション「[番組タイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)」。 |
+| `xdm.mediaCollection.sessionDetails.length` | ストリーミングメディアサービスディメンション「[ビデオの長さ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)」。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | ストリーミングメディアサービスディメンション「[メディアセッション ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)」。 |
+| `xdm.mediaCollection.sessionDetails.channel` | ストリーミングメディアサービスディメンション「[コンテンツチャネル](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)」。 |
+| `xdm.mediaCollection.sessionDetails.contentType` | ストリーミングメディアサービスディメンション「[コンテンツタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)」。 |
+| `xdm.mediaCollection.sessionDetails.network` | ストリーミングメディアサービスディメンション「[ネットワーク](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)」。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | ストリーミングメディアサービスディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」。 |
+| `xdm.mediaCollection.sessionDetails.playerName` | ストリーミングメディアサービスディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)」。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [ ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
+| `xdm.mediaCollection.sessionDetails.feed` | ストリーミングメディアサービスディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)」。 |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | ストリーミングメディアサービスディメンション「[ストリーム形式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)」。 |
+| `xdm.media.mediaTimed.progress10.value` | ストリーミングメディアサービス指標「[10％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
+| `xdm.media.mediaTimed.progress95.value` | ストリーミングメディアサービス指標「[95％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
+| `xdm.mediaCollection.sessionDetails.hasResume` | ストリーミングメディアサービス指標「[コンテンツ再開](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)」。 |
+| `xdm.media.mediaTimed.starts.value` | ストリーミングメディアサービス指標「[メディア開始](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)」。 |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | ストリーミングメディアサービス指標「[75％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
+| `xdm.media.mediaTimed.timePlayed.value` | ストリーミングメディアサービス指標「[コンテンツ視聴時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)」。 |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | ストリーミングメディアサービス指標「[メディア視聴時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)」。 |
 | `xdm.placeContext.geo._schema.latitude` | 訪問者の緯度の場所。 「[モバイルライフサイクルの場所](/help/components/dimensions/lifecycle-dimensions.md)」ディメンションの設定に役立ちます。 |
 | `xdm.placeContext.geo._schema.longitude` | 訪問者の経度の場所。 「[モバイルライフサイクルの場所](/help/components/dimensions/lifecycle-dimensions.md)」ディメンションの設定に役立ちます。 |
 | `xdm.placeContext.geo.postalCode` | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンション。 |
@@ -163,7 +164,7 @@ ht-degree: 75%
 
 {style="table-layout:auto"}
 
-<!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!-- `web.webPageDetails.homePage` was included in the original table, but it no longer exists in Analytics. -->
 
 ## 他の XDM フィールドを Analytics 変数にマッピング
 
