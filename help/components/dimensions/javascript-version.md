@@ -9,7 +9,7 @@ ht-degree: 10%
 ---
 # JavaScript版
 
-「JavaScript バージョン」 [ ディメンション ](overview.md)は、訪問者のブラウザーでサポートされているJavaScript バージョンをレポートします。 AppMeasurement ライブラリのバージョンはレポートされません。
+「JavaScript バージョン」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者のブラウザーでサポートされているJavaScript バージョンをレポートします。 AppMeasurement ライブラリのバージョンはレポートされません。
 
 >[!IMPORTANT]
 >
