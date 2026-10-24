@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
+source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
-source-wordcount: '7653'
-ht-degree: 90%
+source-wordcount: '7701'
+ht-degree: 89%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
 
@@ -76,6 +76,7 @@ ht-degree: 90%
 | 機能 | 説明 |
 | --- | --- |
 | **2026年10月** | |
+| ビジュアライゼーションの選択をロック | [&#x200B; データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を再構築し、データソース設定の設定と選択範囲のロックを分離しました。 また、フリーフォームテーブル内の行にビジュアライゼーションをロックする場合の[&#x200B; ロック選択](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)の仕組みについても説明しました。これには、ロックされたブレークダウン行がテーブル内に存在しなくなった場合の処理も含まれます。 |
 | テーブル列のキーボードナビゲーション | スクリーンリーダーのフィードバックを含め、Analysis Workspaceで[&#x200B; サイズ変更](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)および[&#x200B; テーブル列の並べ替え](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)をキーボードを使用して行う方法について説明しました。 [&#x200B; テーブル列のアクション &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) セクションをホットキーに追加しました。 |
 | CDNを通じたデータ収集 | CX Enterprise インターフェイスおよび管理ガイドに、[CDN](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cdn)を介したデータ収集のルーティングを追加しました。 |
 | ボット製品発生指標 | ボットルールに一致した製品文字列のサブヒット数を示す[&#x200B; ボット製品発生回数](/help/components/metrics/bot-product-occurrences.md)指標を追加しました。 <p>また、[&#x200B; ボット名](/help/components/dimensions/bot-name.md) ディメンションと[&#x200B; ボット発生](/help/components/metrics/bot-occurrences.md)指標を更新して、新しい指標を参照しました。</p> |

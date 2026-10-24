@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7915843e6d76f6a27798224aac379aa030d81240
+source-git-commit: 6ab647b3075254a4e5bf31a0cbab437688de56bb
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 42%
+source-wordcount: '1399'
+ht-degree: 36%
 ---
 # 最新のAdobe Analytics リリースノート（2026年10月）
 
-**最終更新**: 2026年10月20日（PT）
+**最終更新**: 2026年10月23日（PT）
 
 これらのリリースノートは、2026年10月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -59,7 +59,9 @@ ht-degree: 42%
 | **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で、使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
 | Data Warehouse レポートの&#x200B;**分類データの機能強化**<br/>&#x200B;分類データがData Warehouse レポートでより正確になりました。 これらの改善により、Data Warehouse レポートに次の違いが見られる場合があります。<ul><li>**以前に分類値を見た空白の値**：分類値が分類セットから削除されると、Data Warehouseに空白が正しく表示されるようになりました。 以前は、削除された分類値が後のレポートに表示され続ける可能性がありました。</li><li>**より完全な分類値**：以前は、Data Warehouseに表示された分類値は、複数の異なる分類値の1つだけでした。 Data Warehouseに各値が表示されるようになりました。</li><li>**分類値は、Analysis Workspaceで異なる方法で表される場合があります（非一般的）**: Data Warehouseでは、関連付けられたすべての分類値を表示できますが、Analysis Workspaceでは1つの値を表示できます。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。</li></ul><p>詳しくは、[Data Warehouseの分類ディメンション &#x200B;](/help/export/data-warehouse/component-support.md#classifications)を参照してください。</p> | 2026年10月14日（PT） | 「Generative AI tool deployment - internal study |
 | **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | TBD <br/> （当初は2026年10月に計画） |
-| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>（ドキュメントのリンクは以下を参照。）</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
+| **CX Enterprise Coworker: Adobe Analytics データの根本原因の分析**<br/> Coworker Chatでは、指標が変更されたことをレポートするだけでなく、Adobe Analytics レポートスイートで指標が変更された理由を調査できるようになりました。 「火曜日に売上が急増した理由」など、既知の期間における既知の指標の変化について質問すると、同僚のチャットは、変化に貢献したディメンションとセグメントを明らかにします。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; ビジネスパフォーマンスの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)を参照してください。</p> | 2026年10月13日（PT） | 未定 |
+| **CX Enterprise Coworker: Analysis Workspaceでビジュアライゼーションを開く**<br/> Coworker ChatでAdobe Analytics データからビジュアライゼーションを作成する際に、新しいAnalysis Workspace プロジェクトで開いて、より詳細な分析と詳細な制御を行えるようになりました。 <p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[Analysis Workspaceでビジュアライゼーションを開く](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)」を参照してください。</p> | 2026年10月13日（PT） | 未定 |
+| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[同僚チャットでデータを分析](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)」を参照してください。</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
 
 ### Adobe Analytics の修正点
 
