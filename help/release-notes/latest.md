@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6ab647b3075254a4e5bf31a0cbab437688de56bb
+source-git-commit: 809c87dcabb2026a994ee06d4f0cf9fbaefc936b
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 36%
+source-wordcount: '1405'
+ht-degree: 35%
 ---
 # 最新のAdobe Analytics リリースノート（2026年10月）
 
-**最終更新**: 2026年10月23日（PT）
+**最終更新**: 2026年10月27日（PT）
 
 これらのリリースノートは、2026年10月のリリース期間をカバーしています。 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。 したがって、これらのリリースノートは月に数回更新されます。 リリースノートを定期的に確認してください。
 
@@ -54,14 +54,14 @@ ht-degree: 36%
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ---- |
-| **Adobe Analytics MCP サーバーの読み取り専用アクセス許可**<br/>&#x200B;管理者は、ユーザーにAdobe Analytics MCP サーバーへの読み取り専用アクセス権を付与できるようになりました。 新しい[!UICONTROL MCP読み取り専用アクセス &#x200B;]権限アイテムでは、プロジェクト、セグメント、計算指標を作成せずに、すべての読み取り専用ツールにアクセスできます。<p>既存の[!UICONTROL MCP アクセス &#x200B;]権限項目の名前が[!UICONTROL MCP フルアクセス &#x200B;]に変更されました。 この権限を持つユーザーは、コンポーネントの作成、変更、削除を行うツールを含む、すべてのツールにアクセスできます。</p><p>詳しくは、Adobe Analytics MCP サーバーのドキュメントの[権限の設定](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)を参照してください。</p> | | 2026年10月6日（PT） |
-| **ジャーニーキャンバス：パーセンテージの比較**<br/> ジャーニーを前の期間と比較する際に、新しい[!UICONTROL &#x200B; パーセンテージの比較] オプションを有効にして、各ノード、矢印、フォールアウトのパーセンテーションポイントの変化を表示できるようになりました。 これは、ノード間のリテンションやフォールアウトなどのレートを比較する場合に便利です。ジャーニーのユーザー数が日付範囲によって異なる場合でも、比較は正確に保たれます。<p>詳しくは、[ジャーニーキャンバスのビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「パーセンテージの比較」を参照してください。</p> | | 2026年10月19日（PT） |
+| **Adobe Analytics MCP サーバーの読み取り専用アクセス許可**<br/>&#x200B;管理者は、ユーザーにAdobe Analytics MCP サーバーへの読み取り専用アクセス権を付与できるようになりました。 新しい[!UICONTROL MCP読み取り専用アクセス ]権限アイテムでは、プロジェクト、セグメント、計算指標を作成せずに、すべての読み取り専用ツールにアクセスできます。<p>既存の[!UICONTROL MCP アクセス ]権限項目の名前が[!UICONTROL MCP フルアクセス ]に変更されました。 この権限を持つユーザーは、コンポーネントの作成、変更、削除を行うツールを含む、すべてのツールにアクセスできます。</p><p>詳しくは、Adobe Analytics MCP サーバーのドキュメントの[権限の設定](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)を参照してください。</p> | | 2026年10月6日（PT） |
+| **ジャーニーキャンバス：パーセンテージの比較**<br/> ジャーニーを前の期間と比較する際に、新しい[!UICONTROL  パーセンテージの比較] オプションを有効にして、各ノード、矢印、フォールアウトのパーセンテーションポイントの変化を表示できるようになりました。 これは、ノード間のリテンションやフォールアウトなどのレートを比較する場合に便利です。ジャーニーのユーザー数が日付範囲によって異なる場合でも、比較は正確に保たれます。<p>詳しくは、[ジャーニーキャンバスのビジュアライゼーションの設定](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)の「パーセンテージの比較」を参照してください。</p> | | 2026年10月19日（PT） |
 | **コンポーネントの説明を自動生成** <br/> ディメンション、指標、計算指標、セグメント、日付範囲の説明を自動的に生成できるようになりました。 これにより、Workspace ユーザーは、特に大規模なコンポーネントライブラリを持つ組織で、使用するコンポーネントを理解できます。 <p>1つのコンポーネントに対して説明を生成したり、同時に多くのコンポーネントに対して説明を生成したりできます。</p> <p>（ドキュメントのリンクは以下を参照。）<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日（PT） |
-| Data Warehouse レポートの&#x200B;**分類データの機能強化**<br/>&#x200B;分類データがData Warehouse レポートでより正確になりました。 これらの改善により、Data Warehouse レポートに次の違いが見られる場合があります。<ul><li>**以前に分類値を見た空白の値**：分類値が分類セットから削除されると、Data Warehouseに空白が正しく表示されるようになりました。 以前は、削除された分類値が後のレポートに表示され続ける可能性がありました。</li><li>**より完全な分類値**：以前は、Data Warehouseに表示された分類値は、複数の異なる分類値の1つだけでした。 Data Warehouseに各値が表示されるようになりました。</li><li>**分類値は、Analysis Workspaceで異なる方法で表される場合があります（非一般的）**: Data Warehouseでは、関連付けられたすべての分類値を表示できますが、Analysis Workspaceでは1つの値を表示できます。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。</li></ul><p>詳しくは、[Data Warehouseの分類ディメンション &#x200B;](/help/export/data-warehouse/component-support.md#classifications)を参照してください。</p> | 2026年10月14日（PT） | 「Generative AI tool deployment - internal study |
+| Data Warehouse レポートの&#x200B;**分類データの機能強化**<br/>&#x200B;分類データがData Warehouse レポートでより正確になりました。 これらの改善により、Data Warehouse レポートに次の違いが見られる場合があります。<ul><li>**以前に分類値を見た空白の値**：分類値が分類セットから削除されると、Data Warehouseに空白が正しく表示されるようになりました。 以前は、削除された分類値が後のレポートに表示され続ける可能性がありました。</li><li>**より完全な分類値**：以前は、Data Warehouseに表示された分類値は、複数の異なる分類値の1つだけでした。 Data Warehouseに各値が表示されるようになりました。</li><li>**分類値は、Analysis Workspaceで異なる方法で表される場合があります（非一般的）**: Data Warehouseでは、関連付けられたすべての分類値を表示できますが、Analysis Workspaceでは1つの値を表示できます。 その結果、Data WarehouseとAnalysis Workspaceの間で分類値が異なる場合があります。</li></ul><p>詳しくは、[Data Warehouseの分類ディメンション ](/help/export/data-warehouse/component-support.md#classifications)を参照してください。</p> | 2026年10月14日（PT） | 「Generative AI tool deployment - internal study |
 | **Adobe Brand Visibilityとの統合**<br/> Adobe Adobe Brand Visibilityを組織のAdobe Analyticsデータと連携させて、AIを活用した発見が、web サイトの実際のエンゲージメントとビジネスの成果にどのように結びつくのかを測定できます。<p>（ドキュメントのリンクは以下を参照。）</p> | | TBD <br/> （当初は2026年10月に計画） |
-| **CX Enterprise Coworker: Adobe Analytics データの根本原因の分析**<br/> Coworker Chatでは、指標が変更されたことをレポートするだけでなく、Adobe Analytics レポートスイートで指標が変更された理由を調査できるようになりました。 「火曜日に売上が急増した理由」など、既知の期間における既知の指標の変化について質問すると、同僚のチャットは、変化に貢献したディメンションとセグメントを明らかにします。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの[&#x200B; ビジネスパフォーマンスの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)を参照してください。</p> | 2026年10月13日（PT） | 未定 |
-| **CX Enterprise Coworker: Analysis Workspaceでビジュアライゼーションを開く**<br/> Coworker ChatでAdobe Analytics データからビジュアライゼーションを作成する際に、新しいAnalysis Workspace プロジェクトで開いて、より詳細な分析と詳細な制御を行えるようになりました。 <p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[Analysis Workspaceでビジュアライゼーションを開く](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)」を参照してください。</p> | 2026年10月13日（PT） | 未定 |
-| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[同僚チャットでデータを分析](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)」を参照してください。</p> | 2026年10月2日（PT） | 未定<p>（当初は2026年9月25日に予定）</p> |
+| **CX Enterprise Coworker: Adobe Analytics データの根本原因の分析**<br/> Coworker Chatでは、指標が変更されたことをレポートするだけでなく、Adobe Analytics レポートスイートで指標が変更された理由を調査できるようになりました。 「火曜日に売上が急増した理由」など、既知の期間における既知の指標の変化について質問すると、同僚のチャットは、変化に貢献したディメンションとセグメントを明らかにします。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの[ ビジネスパフォーマンスの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)を参照してください。</p> | 2026年10月13日（PT） | 2026年10月29日（PT） |
+| **CX Enterprise Coworker: Analysis Workspaceでビジュアライゼーションを開く**<br/> Coworker ChatでAdobe Analytics データからビジュアライゼーションを作成する際に、新しいAnalysis Workspace プロジェクトで開いて、より詳細な分析と詳細な制御を行えるようになりました。 <p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[Analysis Workspaceでビジュアライゼーションを開く](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)」を参照してください。</p> | 2026年10月13日（PT） | 2026年10月29日（PT） |
+| **CX Enterprise Coworker: Coworker ChatでのAdobe Analytics データの分析** <br/>Adobe CX Enterprise Coworker Chatでは、以前はAnalysis Workspaceでのみ可能だった高度なデータ分析を実行できるようになりました。 Coworker Chatは、Adobe Adobe Analyticsレポートスイートのデータにアクセスし、そのデータを検索して、自然言語プロンプトへの回答を得ることができます。<p>詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[同僚チャットでデータを分析](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)」を参照してください。</p> | 2026年10月2日（PT） | 2026年10月29日（PT）<p>（当初は2026年9月25日に予定）</p> |
 
 ### Adobe Analytics の修正点
 
@@ -93,12 +93,12 @@ AppMeasurement リリースの最新のアップデートについて詳しく�
 
 | 機能と説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | -----------|-----------|-----------|
-| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[&#x200B; ライブコンテンツを追跡するためのスケジュールデータのアップロード &#x200B;](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。</p> | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
+| **ストリーミングメディアサービス：スケジュールデータのサポート** <br/>過去のライブストリーミングメディアコンテンツのスケジュールされたデータをアップロードして、閲覧者数をより簡単かつ正確に追跡できるようになりました。<p>以下は、スケジュールデータのアップロードでサポートされるライブコンテンツの例です。</p><ul><li>FAST（広告付き無料テレビ）プラットフォーム</li><li>ローカルストリーム</li><li>ライブスポーツ</li></ul><p>スケジュールデータをアップロードすると、アップロードファイルで指定した時間帯に放送された個々の番組の閲覧者数データを追跡できます。 特定のトピックやプログラムセグメントの閲覧者数データを収集することもできます。</p><p>これらの機能は、ストリーミングメディアコレクションの実装方法に関係なく使用できます。</p><p>以前は、ライブコンテンツを分析する際に、特定のセッションを特定のプログラムに正確に紐付けることが難しく、特定のセッションを個々のトピックやプログラムセグメントに紐付けることはできませんでした。</p><p>詳しくは、「[ ライブコンテンツを追跡するためのスケジュールデータのアップロード ](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-use-cases/track-schedule-data)」を参照してください。</p> | 2025年10月29日（PT） | 未定<p>（当初は2025年10月29日に予定）</p> |
 
 
 >[!MORELIKETHIS]
 >
->* [2026年の以前のリリースノート &#x200B;](/help/release-notes/2026.md)
+>* [2026年の以前のリリースノート ](/help/release-notes/2026.md)
 >* [Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
 >* [ストリーミングメディアサービスのリリースノート](https://experienceleague.adobe.com/ja/docs/media-analytics/using/release-notes/release-notes)
 >* [Adobe CX Enterprise 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)の最新のリリース更新
