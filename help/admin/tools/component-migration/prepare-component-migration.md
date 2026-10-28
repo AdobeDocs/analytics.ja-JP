@@ -6,29 +6,37 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1052'
 ht-degree: 8%
-
 ---
-
 # Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行の準備
 
-組織内の誰もが、[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/tools/component-migration/component-migration.md)の説明に従ってプロジェクトの移行を開始する前に、次の節を完了してください。
+組織内の誰かがプロジェクトの移行を開始する前に、「[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/tools/component-migration/component-migration.md)」または「[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)」の説明に従って、次の節を完了してください。
 
 ## 前提条件
 
@@ -43,21 +51,21 @@ ht-degree: 8%
 
    * Adobe Analytics ソースコネクタを使用するには、次の操作が必要です。
 
-     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
      1. [データの収集と活用](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=ja)
 
    * WebSDKを使用するには、次のことが必要です。
 
-     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=ja#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Adobe Experience PlatformとCustomer Journey Analyticsに取り込むレポートスイートを設定する](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-     1. [Adobe Experience Platform Web SDKを介したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=ja)
+     1. [Adobe Experience Platform Web SDKを介したデータの取り込み](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 取り込んだデータを使用して、[接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=ja)と[&#x200B; データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)を作成します。
+1. 取り込んだデータを使用して、[接続](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html)と[ データビュー](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)を作成します。
 
 1. Customer Journey Analyticsのユーザーが、データをマッピングするデータビューにプロビジョニングされていることを確認します。
 
-   詳しくは、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja)のAdmin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=ja#customer-journey-analytics-permissions-in-admin-console)のCustomer Journey Analytics権限を参照してください。
+   詳しくは、[Customer Journey Analytics アクセス制御](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)のAdmin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)の[Customer Journey Analytics権限を参照してください。
 
    「権限」タブは、Admin Consoleの各製品プロファイルの一部です。 特定の製品プロファイルにユーザーを追加できます。 次に、特定のデータビューに権限を割り当て、製品プロファイル内のユーザーがどの権限を持っているかを指定します。
 
@@ -77,9 +85,9 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 |  | 移行済み |
 |---------|---------|
-| **[所有者](/help/components/calculated-metrics/workflow/cm-manager.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[所有者](/help/components/calculated-metrics/workflow/cm-manager.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[共有](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
-| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[説明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[タグ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
 | **[属性（ディメンション上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ディメンションと指標：いいえ<p>セグメントと日付範囲：いいえ</p> |
 
@@ -89,23 +97,23 @@ Customer Journey Analyticsにまだ存在しないセグメント、日付範囲
 
 |  | 移行済み |
 |---------|----------|
-| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[ディメンション](/help/components/dimensions/overview.md)** | 自動または手動でマッピングされた![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[指標](/help/components/metrics/overview.md)** | 自動または手動でマッピングされた![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
-| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg)移行を行うユーザーによって定義されました |
+| **[日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[セグメント](/help/components/segmentation/seg-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ディメンション](/help/components/dimensions/overview.md)** | 自動または手動でマッピングされた![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[指標](/help/components/metrics/overview.md)** | 自動または手動でマッピングされた![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[パネル](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg)移行を行うユーザーによって定義されました |
 | **[キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)** | いいえ |
 | **[共有](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | いいえ |
 | **[注釈](/help/analyze/analysis-workspace/components/annotations/overview.md)** | いいえ |
 | **[フォルダー構造](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | いいえ |
-| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[説明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 | **[タグ](/help/analyze/landing.md)** | いいえ |
 | **[お気に入り](/help/analyze/landing.md)** | いいえ |
 | **[スケジュール](/help/components/scheduled-projects-manager.md)** | いいえ |
-| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![&#x200B; チェックマーク &#x200B;](assets/Smock_Checkmark_18_N.svg) |
+| **[異常値検出](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![ チェックマーク ](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -128,6 +136,12 @@ Customer Journey Analyticsにプロジェクトを移行する前に、Adobe Ana
 * [ページの概要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [貢献度分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### サポートされていないレポートスイート
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+[仮想レポートスイート ](/help/components/vrs/vrs-about.md)を使用するパネルは移行できません。 プロジェクトのすべてのパネルで基本レポートスイートが使用されていることを確認します。
 
 ## 組織として、どのようにコンポーネントをマッピングするか決める
 
