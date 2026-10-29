@@ -71,7 +71,7 @@ Should we really mention API here. If so, we can do it all over the place in the
 
    Adobeで説明を生成するには、**[!UICONTROL 説明を生成]**&#x200B;を選択します。 このオプションは、日付範囲の定義を作成するまで使用できません。
 
-   生成された説明には、AI ]**を使用してAdobeによって生成されたテキスト**[!UICONTROL &#x200B;が含まれており、生成後に編集できます。 詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。
+   生成された説明には、AI **を使用してAdobeによって生成されたテキスト**&#x200B;が含まれており、生成後に編集できます。 詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。
 
 1. 1つ以上の&#x200B;**[!UICONTROL タグ]**&#x200B;を作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。 または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。 「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
 1. 最初に開始日を選択し、次に終了日を選択して、「**[!UICONTROL 日付範囲]**」を選択します。

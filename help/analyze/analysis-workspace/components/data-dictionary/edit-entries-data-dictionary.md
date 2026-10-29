@@ -38,7 +38,7 @@ Analytics 管理者は、特定のレポートスイートのデータ辞書で�
 
 1. 編集するコンポーネントを含む Analysis Workspace プロジェクトに移動します。
 
-1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します （データディクショナリへのアクセス方法については、[ データディクショナリへのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
+1. Analysis Workspace の左側のパネルにある「**データ辞書**」アイコンを選択します （データディクショナリへのアクセス方法については、[&#x200B; データディクショナリへのアクセス &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
 
    データ辞書ウィンドウが表示されます。
 
@@ -82,7 +82,7 @@ Analytics 管理者は、特定のレポートスイートのデータ辞書で�
 1. コンポーネントのリストから、編集するコンポーネントを選択します。
 
 1. コンポーネント名の横にある&#x200B;**編集**&#x200B;アイコン ![データ辞書編集アイコン](/help/assets/icons/Edit.svg) を選択します。
-   ![ データディクショナリのコンポーネントダイアログを編集](assets/data-dictionary-edit-component.png)
+   ![&#x200B; データディクショナリのコンポーネントダイアログを編集](assets/data-dictionary-edit-component.png)
 
 1. コンポーネントに関する次の情報を編集します。
 
@@ -90,7 +90,7 @@ Analytics 管理者は、特定のレポートスイートのデータ辞書で�
    |---------|----------|
    | **[!UICONTROL 承認済み]** | <p>コンポーネントが管理者にレビューおよび承認されたことを示します。</p><p>コンポーネントが承認されたら、管理者は「**承認済み**」ボタンを選択して承認を削除できます。</p> |
    | **[!UICONTROL 承認が必要です]** | <p>コンポーネントがまだ管理者にレビューおよび承認されていないことを示します。</p><p>管理者には、「**[!UICONTROL 承認]**」オプションが表示されます。 このオプションを選択すると、ユーザーに対してコンポーネントが「承認済み」としてマークされます。</p> |
-   | **[!UICONTROL 説明]** | コンポーネントの意図された機能について説明します。 コンポーネントの説明を追加できるのは、Analytics管理者のみです。 <p>次のいずれかの方法で説明を追加できます。</p><ul><li>手動で説明を入力する</li><li>「**[!UICONTROL 説明を生成]**」を選択すると、Adobeで説明が生成されます <p>生成された説明には、AI ]**を使用してAdobeによって生成されたテキスト**[!UICONTROL &#x200B;が含まれており、生成後に編集できます。</p><p>複数のコンポーネントの説明を同時に生成するには、[複数のコンポーネントの説明の生成](#generate-descriptions-for-multiple-components)を参照してください。</p></li></ul> <p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
+   | **[!UICONTROL 説明]** | コンポーネントの意図された機能について説明します。 コンポーネントの説明を追加できるのは、Analytics管理者のみです。 <p>次のいずれかの方法で説明を追加できます。</p><ul><li>手動で説明を入力する</li><li>「**[!UICONTROL 説明を生成]**」を選択すると、Adobeで説明が生成されます <p>生成された説明には、AI **を使用してAdobeによって生成されたテキスト**&#x200B;が含まれており、生成後に編集できます。</p><p>複数のコンポーネントの説明を同時に生成するには、[複数のコンポーネントの説明の生成](#generate-descriptions-for-multiple-components)を参照してください。</p></li></ul> <p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
    | **[!UICONTROL 次でよく使用される]** | <p>表示中のコンポーネントと最も一緒に使用されるコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>このリストは、過去 90 日間のデータに基づいています。 表示するアクセス権を持つコンポーネントのみを表示します。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
    | **[!UICONTROL 類似]** | <p>表示中のコンポーネントと同様の名前を持つコンポーネントを表示します。</p><p>指標、計算指標、ディメンション、セグメントおよび日付範囲の 5 つの主要なコンポーネントタイプで最大 5 つのコンポーネントを表示します。</p><p>表示するためのアクセス権を持つコンポーネントのみを表示します。</p><p>レポートスイート内の重複するコンポーネントもすべてここに表示されます。 [データ辞書の正常性の監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)で説明しているように、Analytics 管理者はすべての重複するコンポーネントを特定して削除する必要があります。</p><p>管理者は、「**[!UICONTROL 常に含める]**」および「**[!UICONTROL 常に除外]**」ドロップダウンフィールドで目的のコンポーネントを選択することにより、このセクションでユーザーに表示されるコンポーネントをキュレートできます。 ユーザーに表示されるコンポーネントをキュレートする前に、最初に&#x200B;**すべて表示**&#x200B;フィルターを適用して、共有されていないコンポーネントが表示されるようにします。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**メモ：**&#x200B;現在、「**類似**」セクションには、ユーザー作成のコンポーネントのみが含まれており、アドビ提供のコンポーネントは含まれていません。 アドビ提供のコンポーネントは、今後のリリースで追加される予定です。</p> |
    | **[!UICONTROL タグ]** | コンポーネントに適用されているすべてのタグを表示します。 管理者アクセス権を持つユーザーは、コンポーネントの編集時にタグを追加できます。 |
@@ -113,11 +113,11 @@ Analytics管理者は、Adobeで同時に複数のコンポーネントの説明
 
 データディクショナリで複数のコンポーネントの説明を生成するには：
 
-1. 「[ データ要素へのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)」の説明に従って、データ要素を開きます。
+1. 「[&#x200B; データ要素へのアクセス &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)」の説明に従って、データ要素を開きます。
 
 1. ドロップダウンメニューで正しいレポートスイートが選択されていることを確認します。
 
-1. （推奨） **フィルター** アイコン ![ データ要素フィルターアイコン ](/help/assets/icons/Filter.svg)を選択し、**[!UICONTROL 説明が見つからない]**&#x200B;を選択して、説明がないコンポーネントのみを表示します。
+1. （推奨） **フィルター** アイコン ![&#x200B; データ要素フィルターアイコン &#x200B;](/help/assets/icons/Filter.svg)を選択し、**[!UICONTROL 説明が見つからない]**&#x200B;を選択して、説明がないコンポーネントのみを表示します。
 
 1. 説明を生成するコンポーネントを選択します。
 
