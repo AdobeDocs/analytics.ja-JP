@@ -44,7 +44,7 @@ ht-degree: 2%
 | --- | --- | --- |
 | AppMeasurementまたはAnalytics タグ拡張機能 | ブラウザーからAnalytics データ収集サーバーへのリクエスト | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge Traceを実行すると、Edge NetworkがイベントをAnalytics ヒットに変換します | [Web SDK](#web-sdk) |
-| Mobile SDK | AssuranceのAnalytics イベントビュー。 Edge NetworkまたはEdge Bridge拡張機能を使用している場合は、**[!UICONTROL Analytics Edge View]**&#x200B;をオンにします。 | [AssuranceのAdobe Analytics イベントビュー](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | AssuranceのAnalytics イベントビュー。 Edge NetworkまたはEdge Bridge拡張機能を使用している場合は、**[!UICONTROL Analytics Edge View]**&#x200B;をオンにします。 | [AssuranceのAdobe Analytics イベントビュー](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/adobe-analytics) |
 | データ挿入 API | サーバーの送信リクエストとその応答 | [Data Insertion API リクエストのトラブルシューティング &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurementとAnalytics拡張機能 {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurementは、[`useBeacon`](../vars/config-vars/usebeacon.md)が有効に�
 
 Web SDKでは、ブラウザーはAnalyticsに直接ではなくEdge Networkにイベントを送信するため、`/b/ss/` リクエストは表示されません。 [Edge Network リクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)を確認し、次の点を確認します。
 
-* `configId` パラメーターは、[Adobe Analytics サービス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics)が有効になっているデータストリームと、想定されるレポートスイートが一致しています。
+* `configId` パラメーターは、[Adobe Analytics サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#analytics)が有効になっているデータストリームと、想定されるレポートスイートが一致しています。
 * ペイロードは、ページビューまたはリンクイベントとして認定されます。 Analyticsは、ページの詳細もweb インタラクションタイプも含まないペイロードを無視します。 Adobe Analytics[&#128279;](../aep-edge/hit-types.md)のEdge Network イベントタイプを参照してください。
 
 ### Analyticsが受け取った内容を確認 {#web-sdk-contents}
