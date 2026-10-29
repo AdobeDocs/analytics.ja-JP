@@ -80,7 +80,7 @@ Adobe Experience Platform Debuggerは、ページに存在するすべてのCX E
 
 ## トラブルシューティング
 
-Analytics データがデバッガーに表示されない場合、またはデータが期待どおりでない場合は、[Analytics データ収集のデバッグ ](../validate/debugging.md#appmeasurement)を参照してください。
+Analytics データがデバッガーに表示されない場合、またはデータが期待どおりでない場合は、[Analytics データ収集のデバッグ &#x200B;](../validate/debugging.md#appmeasurement)を参照してください。
 
 ## 次の手順
 

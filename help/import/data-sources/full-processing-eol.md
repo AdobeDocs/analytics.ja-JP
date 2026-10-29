@@ -56,14 +56,14 @@ ht-degree: 5%
 以下の変数が一括データ挿入に導入されました。以前は完全な処理データソースでは使用できませんでした。
 
 * **`aamlh`**: Adobe Audience Managerの場所ヒント。
-* **`contextData.key`**: [ コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)。
+* **`contextData.key`**: [&#x200B; コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**：訪問者ID サービス変数。 `id`、`authState` および `isMCSeed` が含まれます。
-* **`hints`**: [ クライアントヒント ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`および`wow64`が含まれます。
-* **`ipaddress`**: [IP アドレス ](/help/components/dimensions/ip-address.md) ディメンション。
+* **`hints`**: [&#x200B; クライアントヒント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)変数。 `bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`および`wow64`が含まれます。
+* **`ipaddress`**: [IP アドレス &#x200B;](/help/components/dimensions/ip-address.md) ディメンション。
 * **`language`**: [言語](/help/components/dimensions/language.md) ディメンション。
-* **`list1`** - **`list3`**: [変数のリスト ](/help/implement/vars/page-vars/list.md)。
+* **`list1`** - **`list3`**: [変数のリスト &#x200B;](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：訪問者のExperience Cloud ID。
-* **`tnta`**: Target ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合の[Analyticsで使用されるTarget データペイロード。
+* **`tnta`**: Target [&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合のAnalyticsで使用されるTarget データペイロード。
 * **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)変数。
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md)変数。
 * **`userAgent`**: デバイスのユーザーエージェント文字列。
