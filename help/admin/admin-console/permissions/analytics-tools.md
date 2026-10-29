@@ -7,32 +7,46 @@ role: Admin
 TQID: https://experienceleague.adobe.com/ksQBbvkW4IlqqenSnciCc3rxrKlUzN4rokYJ1fLm7SY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 59%
-
+source-wordcount: '569'
+ht-degree: 57%
 ---
-
 # Analytics ツールの製品プロファイルの権限
 
 Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対するアクセスを許可します。 Analytics ツールの権限の項目は、レポートスイートではなく、Adobe Analytics 全体に適用されます。
@@ -49,7 +63,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL コードマネージャー] | 管理者/すべての管理者/コードマネージャーへのアクセス権を付与します。 |
 | [!UICONTROL コードマネージャー - Web サービス] | 1.4 API を使用して Code Manager へのアクセスを許可します。 |
 | [!UICONTROL 会社設定UI アクセス &#x200B;] | 未使用 |
-| [!UICONTROL &#x200B; コンポーネントの移行] | 管理者/すべての管理者/コンポーネントの移行へのアクセス権を付与します。 |
+| [!UICONTROL &#x200B; コンポーネントの移行] | 管理者/すべての管理者/ コンポーネントの移行またはAdobe CX Enterprise Coworkerを使用して、プロジェクトとコンポーネントを[Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)に移行する機能を付与します。 |
 | [!UICONTROL 現在のデータ] | 未使用 |
 | [!UICONTROL &#x200B; データガバナンスとプライバシーのラベル付けUI アクセス &#x200B;] | 管理者/データガバナンスプライバシーのラベル付けにアクセス権を付与します。 |
 | [!UICONTROL Excel ライセンスユーザー] | 未使用 |
@@ -70,7 +84,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL Reports &amp; Analytics アクセス] | 未使用 |
 | [!UICONTROL セキュリティ] | 管理者／すべての管理者／会社設定／セキュリティマネージャーへのアクセス権を付与します。 |
 | [!UICONTROL セグメントの作成] | すべての Analytics 機能でセグメントを作成および共有する機能を付与します。 |
-| [!UICONTROL セグメント公開] | セグメントを作成または編集する際に、セグメントをCX エンタープライズ版オーディエンスにする機能を付与します。 |
+| [!UICONTROL セグメント公開] | セグメントを作成または編集する際に、CX Enterprise オーディエンスにセグメントを作成する機能を付与します。 |
 | [!UICONTROL サーバーコールの使用状況] | 管理者／サーバーコールの使用状況へのアクセスを付与します。 |
 | [!UICONTROL 誰とでもプロジェクト リンクを共有] | Adobe Analyticsへのアクセス権を持たないユーザーに、Analysis Workspace プロジェクトへの読み取り専用アクセス権を付与します。 |
 | [!UICONTROL サポート] | 管理者／全ての管理者／会社設定／サポート情報へのアクセスを付与します。 |
