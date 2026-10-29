@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 98%
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 1. 表示するコンポーネントを含む Analysis Workspace プロジェクトに移動します。
 
-1. Analysis Workspace の左側のパネルにある「[!UICONTROL **データ辞書**]」アイコンを選択します （データディクショナリへのアクセス方法については、[&#x200B; データディクショナリへのアクセス &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
+1. Analysis Workspace の左側のパネルにある「[!UICONTROL **データ辞書**]」アイコンを選択します （データディクショナリへのアクセス方法については、[ データディクショナリへのアクセス ](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)で説明しています）。
 
    データ辞書ウィンドウが表示されます。
 

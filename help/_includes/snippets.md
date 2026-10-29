@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3238'
 ht-degree: 93%
-
 ---
 # スニペット
 
@@ -11,7 +10,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->Report Builderは、2026年6月に提供終了となります。 2026年7月1日（PT）をもって、従来のReport Builderを使用してスケジュールされたワークブックは配信されなくなります。 <ul><li>2026年8月12日（PT）までに、従来のReport Builderから新しいReport Builderにワークブックを移行する必要があります。 詳しくは、[従来のワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)を参照してください。</li><li>Adobe Analytics 1.4 APIの提供終了に伴い、従来のReport Builder アドインはダウンロードできなくなります。</li><li>2026年8月12日以降、移行が必要なワークブックをお持ちのお客様は、元のワークブックを入手するために、カスタマーサポートにお問い合わせください。 これらのワークブックは、[従来のワークブックの変換](/help/analyze/report-builder/convert-workbooks.md)に記載されているように移行する必要があります。</li></ul> 新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。 FTP サーバーおよびPower BIへのスケジュールされた書き出しは、Report Builderではサポートされなくなりました。 従来のReport Builderでこれらの機能を使用しているお客様は、Report Builderでの書き出しに[&#x200B; クラウドの宛先](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)を使用する必要があります。
+>Report Builderは、2026年6月に提供終了となります。 2026年7月1日（PT）をもって、従来のReport Builderを使用してスケジュールされたワークブックは配信されなくなります。 <ul><li>2026年8月12日（PT）までに、従来のReport Builderから新しいReport Builderにワークブックを移行する必要があります。 詳しくは、[従来のワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)を参照してください。</li><li>Adobe Analytics 1.4 APIの提供終了に伴い、従来のReport Builder アドインはダウンロードできなくなります。</li><li>2026年8月12日以降、移行が必要なワークブックをお持ちのお客様は、元のワークブックを入手するために、カスタマーサポートにお問い合わせください。 これらのワークブックは、[従来のワークブックの変換](/help/analyze/report-builder/convert-workbooks.md)に記載されているように移行する必要があります。</li></ul> 新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。 FTP サーバーおよびPower BIへのスケジュールされた書き出しは、Report Builderではサポートされなくなりました。 従来のReport Builderでこれらの機能を使用しているお客様は、Report Builderでの書き出しに[ クラウドの宛先](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)を使用する必要があります。
 
 
 ## レガシー Report Builder {#legacy-arb-old}
@@ -21,11 +20,11 @@ ht-degree: 93%
 >新しく効率化された [Report Builder](/help/analyze/report-builder/rb-overview.md) は、2024年10月16日（PT）から使用できます。 この Report Builder は、macOS、Windows、web ブラウザーでサポートされ、Adobe Analytics および Customer Journey Analytics で使用できます。
 >このレガシー Report Builder アドインバージョンは、引き続き機能します。 新しい Report Builder に[レガシーワークブックを変換](/help/analyze/report-builder/convert-workbooks.md)できます。
 
-## Reports & Analytics の提供終了に関するお知らせ {#ra-eol}
+## Reports &amp; Analytics の提供終了に関するお知らせ {#ra-eol}
 
 >[!IMPORTANT]
 >
->**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[&#x200B; テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
+>**2024年1月17日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止しました。 その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止しました。 Reports &amp; Analytics に利用されているレポート、ビジュアライゼーション、および基盤となる技術は、アドビの技術標準規格を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 詳しくは、[ テンプレートの使用](/help/analyze/analysis-workspace/templates/use-templates.md)を参照してください。
 > 
 >2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。 このお知らせでは、提供終了プロセスについて説明します。
 >
@@ -190,7 +189,7 @@ Customer Journey Analytics の様々なビジュアライゼーションは、�
 
 | その他のフィルター | 説明 |
 |---|---|
-| ![その他のフィルター](/help/assets/filter-other.png){width="300"} | 「**[!UICONTROL その他のフィルター]**」セクションでは、他の定義済みフィルターでフィルタリングできます。<ul><li>次のオプションから 1 つ以上を選択できます。<ul><li> **[!UICONTROL すべてを表示]**</li><li>**[!UICONTROL 自分と共有済み]**</li><li>**[!UICONTROL 自分が所有]**</li><li>**[!UICONTROL 承認済み]**</li><li>**[!UICONTROL お気に入り]**</li></ul> 選択できる内容は、役割と権限によって異なります。</li><li>複数のフィルターを選択できます。 使用できるその他のフィルターは、フィルターパネルの他のセクションでの選択によって異なります。</li><li>数値は次の内容を示します。<ul><li>**（1）**：選択した他のフィルターの数（他のフィルターが 1 つ以上選択されている場合）。</li><li>**5︎⃣**：現在のフィルターによって生成された項目に使用できるその他のフィルターの数。</li><li>4︎⃣：特定のその他のフィルターに関連付けられている項目数。</li></ul></li></ul> |
+| ![その他のフィルター](/help/assets/filter-other.png){width="300"} | 「**[!UICONTROL その他のフィルター]**」セクションでは、他の定義済みフィルターでフィルタリングできます。<ul><li>次のオプションから 1 つ以上を選択できます。<ul><li> **[!UICONTROL すべてを表示]**</li><li>**[!UICONTROL 自分と共有済み]**</li><li>**[!UICONTROL 自分が所有]**</li><li>**[!UICONTROL 承認済み]**</li><li>**[!UICONTROL お気に入り]**</li><li>**[!UICONTROL 説明がありません]**</li></ul> 選択できる内容は、役割と権限によって異なります。</li><li>複数のフィルターを選択できます。 使用できるその他のフィルターは、フィルターパネルの他のセクションでの選択によって異なります。</li><li>数値は次の内容を示します。<ul><li>**（1）**：選択した他のフィルターの数（他のフィルターが 1 つ以上選択されている場合）。</li><li>**5︎⃣**：現在のフィルターによって生成された項目に使用できるその他のフィルターの数。</li><li>4︎⃣：特定のその他のフィルターに関連付けられている項目数。</li></ul></li></ul> |
 
 ## 日付範囲のフィルターセクション  {#daterangefiltersection}
 

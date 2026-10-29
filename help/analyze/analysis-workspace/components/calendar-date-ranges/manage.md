@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 29%
+source-wordcount: '673'
+ht-degree: 27%
 ---
 # 日付範囲の管理
 
@@ -38,7 +38,7 @@ ht-degree: 29%
 
 日付範囲マネージャーには、次のインターフェイス要素があります。
 
-![日付範囲インターフェイス &#x200B;](assets/date-ranges-manager.png)
+![日付範囲インターフェイス ](assets/date-ranges-manager.png)
 
 ### 日付範囲リスト
 
@@ -46,7 +46,7 @@ ht-degree: 29%
 
 | 列 | 説明 |
 | --- | --- |
-| ![StarOutline](/help/assets/icons/StarOutline.svg) | 日付範囲を![&#x200B; スター](/help/assets/icons/Star.svg)に優先するか、![&#x200B; スターアウトライン &#x200B;](/help/assets/icons/StarOutline.svg)に優先しない場合に選択します。 |
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 日付範囲を![ スター](/help/assets/icons/Star.svg)に優先するか、![ スターアウトライン ](/help/assets/icons/StarOutline.svg)に優先しない場合に選択します。 |
 | **[!UICONTROL タイトルと説明]** | タイトルと説明を編集するには、タイトルリンクを選択します。これにより、[日付範囲ビルダー](create.md#date-range-builder)が開きます。 |
 | **[!UICONTROL 所有者]** | 日付範囲の所有者。 |
 | **[!UICONTROL タグ]** | この日付範囲のタグ。 |
@@ -71,6 +71,7 @@ ht-degree: 29%
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した1つの日付範囲の名前を変更します。 選択すると、日付範囲の名前をインラインで変更できます。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 承認]** | 選択した日付範囲を承認します。 |
 | ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した日付範囲をコピーします。 新しい日付範囲は、同じ名前と接尾辞（コピー）で作成されます |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 説明を生成]** | <p>選択した日付範囲の説明を生成し、既存の説明を置き換えます。</p><p>既存の説明の上書きを避けるために、最初に[ フィルター](#filter-panel)を使用して、説明のない日付範囲のみを表示します（[!UICONTROL **その他のフィルター**]&#x200B;のフィルターでは、[!UICONTROL **説明が見つからない**]&#x200B;を選択します）。</p><p>確認メッセージが表示されます。 大きなリクエストはバックグラウンドで実行され、完了すると通知が届きます。</p><p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | 選択した日付範囲を`Date ranges List.csv` ファイルにエクスポートします。 |
 
 ### アクティブなフィルターバー
@@ -84,11 +85,11 @@ ht-degree: 29%
 フィルターリストをフィルタリングするには、次の手順に従います。
 
 1. 「![フィルター](/help/assets/icons/Filter.svg)」を選択して、フィルターパネルを開きます。 フィルターリストにスペースが必要な場合は、もう一度「![フィルター](/help/assets/icons/Filter.svg)」を選択してパネルを閉じることができます。
-1. 使用可能な[&#x200B; フィルターセクション &#x200B;](#filter-sections)のいずれかを使用して、日付範囲をフィルタリングできます。
+1. 使用可能な[ フィルターセクション ](#filter-sections)のいずれかを使用して、日付範囲をフィルタリングできます。
 
    >[!INFO]
    >
-   >*項目*&#x200B;は、[日付範囲リスト &#x200B;](#date-ranges-list)に表示される日付範囲アイテムを参照します。
+   >*項目*&#x200B;は、[日付範囲リスト ](#date-ranges-list)に表示される日付範囲アイテムを参照します。
    > 
 
 #### フィルターセクション
@@ -98,7 +99,7 @@ ht-degree: 29%
 {{otherfiltersfiltersection}}
 
 
-[日付範囲リスト &#x200B;](#date-ranges-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](#active-filter-bar)で確認できます。
+[日付範囲リスト ](#date-ranges-list)は、フィルター設定に基づいて自動的に更新されます。 設定済みのフィルターは、[アクティブなフィルターバー](#active-filter-bar)で確認できます。
 
 
 ## 日付範囲を編集
@@ -107,7 +108,7 @@ ht-degree: 29%
 
 * Workspace プロジェクトでは、[コンポーネント情報](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)アイコンを使用します。
 
-* [[!UICONTROL 日付範囲] リスト &#x200B;](#date-ranges-list)で、日付範囲のタイトルを選択します。
+* [[!UICONTROL 日付範囲] リスト ](#date-ranges-list)で、日付範囲のタイトルを選択します。
 
 [日付範囲ビルダー](create.md#date-range-builder)を使用して、日付範囲を編集します。
 
