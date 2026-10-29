@@ -1,6 +1,6 @@
 ---
 title: クライアントヒント
-description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
+description: クライアントヒントがユーザーエージェントをデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
@@ -29,28 +29,28 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
 ---
 # クライアントヒントの概要とよくある質問
 
-クライアントヒントは、ユーザーのデバイスに関する個々の情報です。 それらは、Google Chrome や Microsoft Edge などの Chromium ブラウザーによって提供されます。 これらのブラウザーでは、クライアントヒントは User-Agent をデバイス情報のソースとして徐々に置き換えます。 Adobe Analytics は、User-Agent に加えてクライアントヒントを使用してデバイス情報を判別できるように、デバイス検索プロセスをアップデートします。
+クライアントヒントは、ユーザーのデバイスに関する個々の情報です。 それらは、Google Chrome や Microsoft Edge などの Chromium ブラウザーによって提供されます。 これらのブラウザーでは、クライアントヒントはユーザーエージェントをデバイス情報のソースとして徐々に置き換えます。 Adobe Analytics は、ユーザーエージェントに加えてクライアントヒントを使用してデバイス情報を判別できるように、デバイス検索プロセスをアップデートします。
 
 ## 低エントロピーと高エントロピーのクライアントヒント
 
-Google では、User-Agent Client Hints が 2 つのカテゴリ（低エントロピーと高エントロピーのヒント）に分類されています。
+Google では、ユーザーエージェントクライアントヒントが 2 つのカテゴリ（低エントロピーと高エントロピーのヒント）に分類されています。
 
 * **低エントロピーのヒント**&#x200B;には、デバイスに関するより一般的な情報が含まれています。 Chromium ブラウザーによってこれらのヒントが自動的に提供されます。
 
 * **高エントロピー**&#x200B;ヒントには、より詳細な情報が含まれています。 リクエストがあった場合にのみ、これらのヒントを利用できます。 AppMeasurement と Web SDK はどちらも、高エントロピーのヒントをリクエストするように設定できます。 デフォルトでは、どちらのライブラリも高エントロピーのヒントをリクエスト&#x200B;**しません**。
 
-2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムバージョンの「フリーズ」が開始されました。 オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。 User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+2022年10月以降、Chromium ブラウザーの新しいバージョンでは、ユーザーエージェント文字列で表されるオペレーティングシステムバージョンの「フリーズ」が開始されました。 オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。 時間の経過とともにユーザーエージェントの他のデバイス情報もフリーズされるため、デバイスに関するレポートの正確性を維持するにはクライアントヒントが必要になります。
 
 クライアントヒントは、2023年3月2日（PT）にAnalytics デバイスのルックアッププロセスに組み込まれました。 この変更は、AppMeasurementとWeb SDKの両方の実装に適用されます。
 
-Adobe Audience Managerでは、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
+Adobe Audience Managerでは、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への[ サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
 
 ## よくある質問
 
@@ -106,9 +106,9 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++
 
-+++**User-Agent から派生する Analytics レポートフィールドはどれですか？**
++++**ユーザーエージェントから派生する Analytics レポートフィールドはどれですか？**
 
-これらのフィールドは User-Agent から直接得られますが、User-Agent を使用すると、デバイスの詳細に応じて、他のデバイス関連フィールドの値を得ることができます。
+これらのフィールドはユーザーエージェントから直接得られますが、ユーザーエージェントを使用すると、デバイスの詳細に応じて、他のデバイス関連フィールドの値を得ることができます。
 
 * [ブラウザー](/help/components/dimensions/browser.md)
 * [ブラウザータイプ](/help/components/dimensions/browser-type.md)
@@ -118,7 +118,7 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++
 
-+++**User-Agent のどの部分がいつ「フリーズ」されますか？** 
++++**ユーザーエージェントのどの部分がいつ「フリーズ」されますか？** 
 
 [Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。 これは変更される場合があります。
 
@@ -126,7 +126,7 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++**Analytics はどのような方法でユーザーエージェントに依存しますか？**
 
-レポートのデバイス情報は、User-Agent から派生されます。 User-Agent と client hints の両方が使用できる場合に、その両方を使用するようにプロセスを更新しました。
+レポートのデバイス情報は、ユーザーエージェントから派生されます。 ユーザーエージェントとクライアントヒントの両方が使用できる場合に、その両方を使用するようにプロセスを更新しました。
 
 フォールバック ID（[s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=ja)）は、ユーザーエージェントおよび IP アドレスから派生されます。 この ID は、cookie を設定できない場合にのみ使用されるので、一般的には使用されていません
 
@@ -134,15 +134,15 @@ API で送信されたデータの場合（[Data Insertion API](https://develope
 
 +++**高エントロピーのヒントに格納された値から派生する Analytics レポートフィールドはどれですか？**
 
-これは、User-Agent のうち Google によって「凍結」される部分が増えるにつれて、徐々に変更されます。 最初に直接影響を受けるフィールドは、オペレーティングシステムのバージョンが含まれる「Operating System」です。User-Agent ヒントの「凍結」に関する Google の公開タイムラインによれば、2022年10月下旬から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、 User-Agent のオペレーティングシステムバージョンが不正確になる場合があります。
+これは、ユーザーエージェントのうち Google によって「凍結」される部分が増えるにつれて、徐々に変更されます。 最初に直接影響を受けるフィールドは、オペレーティングシステムのバージョンが含まれる「Operating System」です。ユーザーエージェントヒントの「凍結」に関する Google の公開タイムラインによれば、2022年10月下旬から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、ユーザーエージェントのオペレーティングシステムバージョンが不正確になる場合があります。
 
-User-Agent の他の部分がフリーズするタイミングについては、[Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。
+ユーザーエージェントの他の部分がフリーズするタイミングについては、[Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。
 
 +++
 
 +++**アドビでは、クライアントヒントをどのように使用してデバイス情報を取得しますか？**
 
-アドビでは、サードパーティの Device Atlas を使用していますが、これはクライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
+アドビでは、サードパーティの Device Atlas を使用していますが、これはクライアントヒントとユーザーエージェントの両方を使用してデバイス情報を取得します。
 
 +++
 
@@ -160,7 +160,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++**API 送信を使用する際にクライアントヒントのデータを含めるには、どうすればよいですか？**
 
-[一括データ挿入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/) を使用してこれらを含める方法については、ドキュメントを参照してください。
+[一括データ挿入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format) を使用してこれらを含める方法については、ドキュメントを参照してください。
 
 +++
 
@@ -178,7 +178,7 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++**Adobe Audience Manager サーバーサイド転送はクライアントヒントをサポートしますか？** 
 
-はい。 クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 Adobe Audience Managerでは、完全な機能を保持するために、高エントロピーヒントを収集する必要があります。 Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
+はい。 クライアントヒントは、Adobe Audience Managerに転送されるデータに含まれます。 Adobe Audience Managerでは、完全な機能を保持するために、高エントロピーヒントを収集する必要があります。 Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)への[ サーバーサイド転送を使用している場合は、高エントロピーヒントの収集を有効にすることができます。
 
 +++
 
