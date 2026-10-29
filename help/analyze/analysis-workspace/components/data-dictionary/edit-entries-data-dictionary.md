@@ -127,4 +127,4 @@ Analytics管理者は、Adobeで同時に複数のコンポーネントの説明
 
    確認メッセージには、追加された説明の数が表示されます。
 
-   多数のコンポーネントを選択した場合、説明はバックグラウンドで生成されます。 リクエストが完了すると、生成された説明の数と失敗した説明の数を示すアプリ内[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)が届きます。
+   多数のコンポーネントを選択した場合、説明はバックグラウンドで生成されます。 リクエストが完了すると、生成された説明の数と失敗した説明の数を示すアプリ内[通知](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences#view-notifications)が届きます。
