@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ ht-degree: 5%
 * 一括データ挿入には、データ検証とエラー処理機能があり、ヒットデータを送信する管理作業の一部が削除されます。
 * バルクデータ挿入では、複数の訪問者ID識別方法をサポートしています。
 * 一括データ挿入には、訪問者識別列、`pageName` （またはリンクに相当）、`reportSuiteID`、`timestamp`、および`userAgent`の追加の必須フィールドがあります。
-* 訪問者の連続性とアトリビューションを確保するために、ファイル内の行を時系列で並べ替える必要があります。 ファイル全体での訪問者アクティビティの順序については、 [訪問者グループ](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) を参照してください。
+* 訪問者の連続性とアトリビューションを確保するために、ファイル内の行を時系列で並べ替える必要があります。 ファイル全体での訪問者アクティビティの順序については、 [訪問者グループ](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) を参照してください。
 * バルクデータの挿入には、ファイルを.gzip形式で.csv圧縮する必要があります。
 * BDIAでは、`date`ではなく`timestamp`を使用しています。
 

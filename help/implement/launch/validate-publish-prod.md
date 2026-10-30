@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 66%
+source-wordcount: '516'
+ht-degree: 59%
 ---
 # 開発実装を検証し、本番環境に公開する
 
@@ -80,14 +80,7 @@ Adobe Experience Platform Debuggerは、ページに存在するすべてのCX E
 
 ## トラブルシューティング
 
-**デバッガーにデータが表示されません。**
-
-サイトにアクセスしている間に、ブラウザーのデベロッパーコンソール（通常は F12）を開きます。 ページのソースコードを見て、次の条件が満たされていることを確認します。
-
-* コンソールに JavaScript エラーはありません。 組織の Web サイトの所有者と協力して、すべての JS エラーが解決されていることを確認します。
-* ヘッダーコードが正しく実装されている：ヘッダーコードが `<head>` タグ内にあり、ファイルが存在することを確認してください。
-* AppMeasurement ライブラリが存在します：JS ソースに直接移動し、JS ファイルにコードが含まれていることを確認します。 表示されない場合は、各環境が作成され、それぞれの環境にライブラリが公開されていることを確認します。
-* 拡張機能の干渉：広告ブロッカーなどの一部の拡張機能は、画像リクエストの実行を妨げる可能性があります。 Adobeへのデータ送信を停止する可能性がある拡張機能を無効にします。
+Analytics データがデバッガーに表示されない場合、またはデータが期待どおりでない場合は、[Analytics データ収集のデバッグ &#x200B;](../validate/debugging.md#appmeasurement)を参照してください。
 
 ## 次の手順
 

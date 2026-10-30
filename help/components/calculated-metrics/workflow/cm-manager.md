@@ -22,13 +22,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 32%
-
+source-wordcount: '969'
+ht-degree: 30%
 ---
-
 # 計算指標の管理
 
 中央の[!UICONTROL 計算指標]管理インターフェイスから、計算指標を共有、フィルタリング、タグ付け、承認、名前変更、コピー、削除、書き出ししたり、計算指標をお気に入りにマークしたりできます。 計算指標を管理するには：
@@ -80,6 +78,7 @@ ht-degree: 32%
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した1つの計算指標の名前を変更します。 選択すると、計算指標の名前をインラインで変更できます。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 承認]** | 選択した計算指標を承認します。 [計算指標の承認](cm-approving.md)を参照してください。 |
 | ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した計算指標をコピーします。 新しい計算指標が、同じ名前と接尾辞`(Copy)`で作成されます |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 説明を生成]** | <p>既存の説明を置き換えて、選択した計算指標の説明を生成します。</p><p>既存の説明の上書きを避けるために、最初に[&#x200B; フィルター](#filter-panel)を使用して、説明なしで計算指標のみを表示するリストを作成します（[!UICONTROL **その他のフィルター**]&#x200B;のフィルターで、[!UICONTROL **説明が見つからない**]&#x200B;を選択します）。</p><p>確認メッセージが表示されます。 大きなリクエストはバックグラウンドで実行され、完了すると通知が届きます。</p><p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | 計算指標を`Calculated  metric List.csv` ファイルにエクスポートします。 |
 
 ### アクティブなフィルターバー

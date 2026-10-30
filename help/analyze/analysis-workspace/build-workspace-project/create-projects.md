@@ -33,13 +33,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 87%
-
+source-wordcount: '463'
+ht-degree: 76%
 ---
-
 # プロジェクトの作成 {#create-projects}
 
 
@@ -105,7 +103,7 @@ Analysis Workspace の[プロジェクト](/help/analyze/analysis-workspace/buil
 | 所有者 | プロジェクト所有者名 |
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | プロジェクトに適用されているタグを一覧表示して、分類を容易にします。 |
-| 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。 説明をダブルクリックして編集できます。 |
+| 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。 説明をダブルクリックして編集できます。 <p>Adobeで説明を生成するには、説明フィールドの上にある「**[!UICONTROL 説明を生成]**」を選択します。 Adobeは、プロジェクト内のいくつかのパネルを分析し、それらを説明にまとめます。 生成された説明には、AI **を使用してAdobeによって生成されたテキスト**&#x200B;が含まれており、編集できます。 このオプションを利用するには、組織が生成AIの特定の法的条件に同意する必要があります。</p> |
 | 繰り返しインスタンスをカウント | レポート内で繰り返しインスタンスがカウントされるかどうかを指定します。 メモ：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
 | 注釈を表示 | このプロジェクトに対して注釈を表示するかどうかを指定します。 |
 | [プロジェクトカラーパレット](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Workspace で使用する分類カラーパレットは、色弱のユーザー向けに最適化された既定のパレットを選択するか、カスタムパレットを指定することで変更できます。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |

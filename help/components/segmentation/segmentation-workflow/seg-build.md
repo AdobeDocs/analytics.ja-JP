@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 72%
+source-wordcount: '2128'
+ht-degree: 70%
 ---
 # セグメントの作成
 
@@ -68,7 +68,7 @@ ht-degree: 72%
    | **[!UICONTROL レポートスイート]** | セグメントのレポートスイートを選択できます。 |
    | **[!UICONTROL プロジェクトのみのセグメント]** | セグメントが作成されたプロジェクトにのみ表示されることを説明する情報ボックスです。 また、そのセグメントはコンポーネントリストに追加されません。 この設定を変更するには、**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加]**&#x200B;を有効にします。 この情報ボックスは、[クイックセグメント](seg-quick.md)を作成し、[!UICONTROL クイックセグメント]インターフェイスから&#x200B;**[!UICONTROL ビルダーを開く]**&#x200B;を使用してクイックセグメント情報を通常のセグメントに変換した場合にのみ表示されます。 |
    | **[!UICONTROL タイトル]** ![必須](/help/assets/icons/Required.svg) | セグメントに名前を付けます（例：`Last month mobile visitors`）。 |
-   | **[!UICONTROL 説明]** | セグメントに説明を付けます（例：`Segment to define the mobile customers for the last month`）。 |
+   | **[!UICONTROL 説明]** | <p>セグメントに説明を付けます（例：`Segment to define the mobile customers for the last month`）。</p><p>Adobeで説明を生成するには、**[!UICONTROL 説明を生成]**&#x200B;を選択します。 このオプションは、セグメント定義を作成するまで使用できません。</p><p>生成された説明には、AI **を使用してAdobeによって生成されたテキスト**&#x200B;が含まれており、生成後に編集できます。 詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
    | **[!UICONTROL タグ]** | 1 つ以上のタグを作成または適用して、セグメントを整理します。 入力を開始すると、選択できる既存のタグが見つかります。 または、**[!UICONTROL Enter]** キーを押して新しいタグを追加します。 「![CrossSize75](/help/assets/icons/CrossSize75.svg)」を選択して、タグを削除します。 |
    | **[!UICONTROL 定義]** ![必須](/help/assets/icons/Required.svg) | [定義ビルダー](#definition-builder)を使用して、セグメントを定義します。 |
 

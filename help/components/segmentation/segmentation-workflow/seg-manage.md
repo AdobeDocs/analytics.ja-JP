@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '632'
 ht-degree: 16%
 ---
 # セグメントの管理
@@ -79,6 +79,7 @@ ht-degree: 16%
 | ![編集](/help/assets/icons/Edit.svg)**[!UICONTROL 名前を変更]** | 選択した1つのセグメントの名前を変更します。 選択すると、セグメントの名前をインラインで変更できます。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 承認]** | 選択したセグメントを承認します。 詳しくは、[&#x200B; セグメントの承認](seg-approve.md)を参照してください。 |
 | ![コピー](/help/assets/icons/Copy.svg)**[!UICONTROL コピー]** | 選択したセグメントをコピーします。 新しいセグメントが、同じ名前とサフィックス `(Copy)`で作成されます。 |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL 説明の生成]** | <p>既存の説明を置き換えて、選択したセグメントの説明を生成します。</p><p>既存の説明を上書きしないようにするには、最初に[&#x200B; フィルター](#filter-panel)を使用して、説明のないセグメントのみを表示します（[!UICONTROL **その他のフィルター**]&#x200B;のフィルターで、[!UICONTROL **説明が見つからない**]&#x200B;を選択します）。</p><p>確認メッセージが表示されます。 大きなリクエストはバックグラウンドで実行され、完了すると通知が届きます。</p><p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL CSV に書き出し]** | セグメントを`Segments List.csv` ファイルに書き出します。 |
 
 ### アクティブなフィルターバー

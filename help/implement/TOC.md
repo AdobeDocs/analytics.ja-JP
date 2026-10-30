@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: Adobe Analytics の実装方法について説明します。 収集するデータをカスタマイズして、Analytics データを最大限に活用します。
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Adobe Analytics 実装ガイド {#implementation}
@@ -145,13 +145,13 @@ ht-degree: 93%
     + [Web SDK の概要](aep-edge/web-sdk/overview.md)
     + アップグレードアシスタント {#upgrade-assistant}
       + [アップグレードアシスタントの概要](aep-edge/web-sdk/upgrade-assistant/overview.md)
-      + [移行の管理](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [移行を管理](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [コンポーネントの選択](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
-      + [調査結果の監査](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [監査の結果](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
       + [マッパーの準備](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [XDM マッピング](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [Web SDKの導入](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
-      + [最終審査](aep-edge/web-sdk/upgrade-assistant/final-review.md)
+      + [Web SDK 実装](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [最終確認](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [タグを使用した Web SDK への移行](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [JavaScript を使用した Web SDK への移行](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [タグを使用した新しい実装](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
   + [キャンペーントラッキングワークフロー](use-cases/campaign-tracking.md)
 + 実装の検証 {#validate}
-  + [デバッグツール](validate/debugging-tools.md)
+  + [Analytics データ収集のデバッグ](validate/debugging.md)
   + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
 + 実装のレビュー {#review}

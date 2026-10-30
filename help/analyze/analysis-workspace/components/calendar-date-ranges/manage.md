@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 29%
+source-wordcount: '673'
+ht-degree: 27%
 ---
 # 日付範囲の管理
 
@@ -71,6 +71,7 @@ ht-degree: 29%
 | ![編集](/help/assets/icons/Edit.svg) | **[!UICONTROL 名前変更]** | 選択した1つの日付範囲の名前を変更します。 選択すると、日付範囲の名前をインラインで変更できます。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 承認]** | 選択した日付範囲を承認します。 |
 | ![コピー](/help/assets/icons/Copy.svg) | **[!UICONTROL コピー]** | 選択した日付範囲をコピーします。 新しい日付範囲は、同じ名前と接尾辞（コピー）で作成されます |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 説明を生成]** | <p>選択した日付範囲の説明を生成し、既存の説明を置き換えます。</p><p>既存の説明の上書きを避けるために、最初に[&#x200B; フィルター](#filter-panel)を使用して、説明のない日付範囲のみを表示します（[!UICONTROL **その他のフィルター**]&#x200B;のフィルターでは、[!UICONTROL **説明が見つからない**]&#x200B;を選択します）。</p><p>確認メッセージが表示されます。 大きなリクエストはバックグラウンドで実行され、完了すると通知が届きます。</p><p>詳しくは、[説明の自動生成](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)を参照してください。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL CSV に書き出し]** | 選択した日付範囲を`Date ranges List.csv` ファイルにエクスポートします。 |
 
 ### アクティブなフィルターバー
