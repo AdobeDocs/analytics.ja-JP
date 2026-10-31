@@ -41,7 +41,7 @@ ht-degree: 43%
 
 通常、Experience Platform Edge Network APIを使用して、クライアントサイドではなくサーバーサイドでデータを収集し、IoT デバイス、セットトップボックス、デスクトップアプリケーションなどのデバイスからデータを収集します。 そして、そのデータをEdgeのネットワークやAdobe Analyticsのようなサービスに送ります。
 
-また、機密データの収集とネットワーク全体での認証が必要な場合は、Edge Network APIを検討してください。 詳しくは、[認証](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)を参照してください。
+また、機密データの収集とネットワーク全体での認証が必要な場合は、Edge Network APIを検討してください。 詳しくは、[認証](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=ja)を参照してください。
 
 実装タスクの大まかな概要：
 

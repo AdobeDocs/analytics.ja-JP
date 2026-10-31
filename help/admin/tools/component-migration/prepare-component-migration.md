@@ -36,7 +36,7 @@ ht-degree: 8%
 ---
 # Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行の準備
 
-組織内の誰かがプロジェクトの移行を開始する前に、「[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/tools/component-migration/component-migration.md)」または「[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)」の説明に従って、次の節を完了してください。
+組織内の誰かがプロジェクトの移行を開始する前に、「[Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行](/help/admin/tools/component-migration/component-migration.md)」または「[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)」の説明に従って、次の節を完了してください。
 
 ## 前提条件
 
