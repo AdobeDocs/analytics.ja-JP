@@ -31,11 +31,11 @@ ht-degree: 47%
 ---
 # リファラータイプ
 
-「リファラータイプ」 [ ディメンション ](overview.md)は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
+「リファラータイプ」 [&#x200B; ディメンション &#x200B;](overview.md)は、訪問者がクリックしてサイトに到達した汎用チャネルをレポートします。 組織が各チャネルのルールを管理する[マーケティングチャネル](marketing-channel.md)とは異なり、各ディメンション項目のルールはアドビが管理します。
 
 ## このディメンションへのデータ入力
 
-Adobeは、各ヒットの[ リファラー](referrer.md)からこのディメンションを取得し、Adobeの内部にある複数のルックアップテーブルと照合します。 設定する変数がありません。 各値はリファラーに依存するため、リファラーディメンションと[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されていることを確認してください。
+Adobeは、各ヒットの[&#x200B; リファラー](referrer.md)からこのディメンションを取得し、Adobeの内部にある複数のルックアップテーブルと照合します。 設定する変数がありません。 各値はリファラーに依存するため、リファラーディメンションと[内部URL フィルター](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)が正しく設定されていることを確認してください。
 
 | プロパティ | 値 |
 | --- | --- |
@@ -63,7 +63,7 @@ Adobeは、各ヒットの[ リファラー](referrer.md)からこのディメ�
 
 >[!IMPORTANT]
 >
->この値には、次のリストからリファラーを持つ訪問のみが含まれます。 ChatGPTのような一部の会話型AI ツールは、リンクを開いたときにリファラーを送信しないため、訪問は含まれません。 詳しくは、[ リファラーを持たないAI トラフィックを含める](#include-ai-traffic-that-has-no-referrer)を参照してください。
+>この値には、次のリストからリファラーを持つ訪問のみが含まれます。 ChatGPTのような一部の会話型AI ツールは、リンクを開いたときにリファラーを送信しないため、訪問は含まれません。 詳しくは、[&#x200B; リファラーを持たないAI トラフィックを含める](#include-ai-traffic-that-has-no-referrer)を参照してください。
 
 次のリストは、Adobeが使用する「対話型AI ツール」ルックアップテーブルを参照しています。 アドビは、このリストを Adobe Analytics のお客様に対して提供しています。 このリストにドメインを追加するようアドビに提案したい場合は、組織内のサポート担当デリゲートからカスタマーケアにお問い合わせください。
 
@@ -95,9 +95,9 @@ ChatGPTなどの一部の会話型AI ツールは、リファラーを送信す�
 
 リファラーの代わりに、これらのツールの一部は、開いているリンク（`utm_source=chatgpt.com`や`utm_source=perplexity`など）にUTM クエリ文字列パラメーターを追加します。 会話型AI ツールからのトラフィックの完全な数を取得するには、UTM パラメーターと「会話型AI ツール」の値を併用します。
 
-* **変数でUTM パラメーターをキャプチャする**: eVarをランディングページ URLの`utm_source`値に設定します。 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) プラグイン、Web SDKまたはAdobe Analytics拡張機能のURL パラメーター機能、クエリ文字列パラメーターを読み込む[処理ルール ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)を使用します。
-* **AI ツールのマーケティングチャネルを作成**：いずれかの条件がtrueの場合に一致する[ マーケティングチャネル処理ルール ](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を作成します。 **[!UICONTROL Referrer Is Conversational AI]**&#x200B;条件と、AI ツールが使用する各値（`chatgpt.com`や`perplexity`など）に&#x200B;**[!UICONTROL クエリ文字列パラメーター]** `utm_source`条件を追加します。
-* **セグメントを作成**: 「リファラータイプ」が「対話型AI ツール」に等しいか、UTM eVarにAI ツールが使用する値が含まれている[ セグメント ](/help/components/segmentation/seg-overview.md)を作成します。 [ ページ URL](page-url.md) ディメンションにはクエリ文字列が含まれているため、`utm_source=chatgpt.com`が含まれるページ URLと一致させることもできます。 このオプションは、実装を変更せずに機能します。
+* **変数でUTM パラメーターをキャプチャする**: eVarをランディングページ URLの`utm_source`値に設定します。 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) プラグイン、Web SDKまたはAdobe Analytics拡張機能のURL パラメーター機能、クエリ文字列パラメーターを読み込む[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)を使用します。
+* **AI ツールのマーケティングチャネルを作成**：いずれかの条件がtrueの場合に一致する[&#x200B; マーケティングチャネル処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を作成します。 **[!UICONTROL Referrer Is Conversational AI]**&#x200B;条件と、AI ツールが使用する各値（`chatgpt.com`や`perplexity`など）に&#x200B;**[!UICONTROL クエリ文字列パラメーター]** `utm_source`条件を追加します。
+* **セグメントを作成**: 「リファラータイプ」が「対話型AI ツール」に等しいか、UTM eVarにAI ツールが使用する値が含まれている[&#x200B; セグメント &#x200B;](/help/components/segmentation/seg-overview.md)を作成します。 [&#x200B; ページ URL](page-url.md) ディメンションにはクエリ文字列が含まれているため、`utm_source=chatgpt.com`が含まれるページ URLと一致させることもできます。 このオプションは、実装を変更せずに機能します。
 
 一部のAI ツールでは、リファラーもUTM パラメーターも送信されません。 これらのツールからのトラフィックをAI トラフィックとして特定することはできません。
 
