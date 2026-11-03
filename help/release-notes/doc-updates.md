@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
 
@@ -75,6 +75,8 @@ ht-degree: 89%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2026年11月** | |
+| リファラーを持たないAI トラフィックを含める | ChatGPTなどの一部のAI ツールは、リファラーを送信せずにリンクを開くため、「会話型AI ツール」のリファラータイプではこれらの訪問はカウントされません。 このドキュメントでは、この点について説明し、このトラフィックのレポート方法を示しています。<ul><li>UTM パラメーター[&#128279;](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)を使用して、リファラーのないAI トラフィックをキャプチャするに関するセクションを追加しました。</li><li>この動作に関するメモを「リファラータイプ」ディメンションの[会話型AI ツール &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools) セクションに追加しました。</li><li>この動作に関するメモを[会話型AI ツールからのトラフィックを分析](/help/technotes/ai-traffic.md)に追加しました。</li></ul> |
 | **2026年10月** | |
 | ビジュアライゼーションの選択をロック | [&#x200B; データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を再構築し、データソース設定の設定と選択範囲のロックを分離しました。 また、フリーフォームテーブル内の行にビジュアライゼーションをロックする場合の[&#x200B; ロック選択](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)の仕組みについても説明しました。これには、ロックされたブレークダウン行がテーブル内に存在しなくなった場合の処理も含まれます。 |
 | テーブル列のキーボードナビゲーション | スクリーンリーダーのフィードバックを含め、Analysis Workspaceで[&#x200B; サイズ変更](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)および[&#x200B; テーブル列の並べ替え](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)をキーボードを使用して行う方法について説明しました。 [&#x200B; テーブル列のアクション &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) セクションをホットキーに追加しました。 |

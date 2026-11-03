@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # 会話型AI ツールからのトラフィックを分析する
 
 Adobe Analyticsには、web サイトのAI トラフィックを分析するためのツールが揃っています。
@@ -72,9 +70,11 @@ Analysis Workspaceのリファラータイプディメンションを使用す�
 
 * エージェント型ワークフロー
 
-リファラータイプ ディメンションには、[対話型AI ツール ディメンション項目](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が含まれます。 このディメンション項目には、事前定義済みの AI チャットボットのリストが含まれています。
+リファラータイプ ディメンションには、[対話型AI ツール ディメンション項目](/help/components/dimensions/referrer-type.md#conversational-ai-tools)が含まれます。 このディメンション項目には、AI チャットボットの定義済みリストからのリファラーを持つ訪問のみが含まれます。
 
-詳しくは、[&#x200B; リファラータイプ &#x200B;](/help/components/dimensions/referrer-type.md)を参照してください。
+>[!IMPORTANT]
+>
+>ChatGPTなどの一部の会話型AI ツールでは、リンクを開いたときにリファラーを送信しないため、訪問者はこのディメンション項目に含まれません。 詳しくは、[&#x200B; リファラーを持たないAI トラフィックを含める](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)を参照してください。
 
 ### ボット検出を使用したAI トラフィックの分析
 

@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # リファラータイプ
 
@@ -50,7 +50,7 @@ Adobeは、各ヒットの[&#x200B; リファラー](referrer.md)からこのデ
 
 ディメンション項目には、ヒットのリファラーのタイプが含まれます。 以下に具体的な変更点を示します。
 
-* **手動入力／ブックマーク**：ヒットのリファラーデータが存在しません。
+* **手動入力／ブックマーク**：ヒットのリファラーデータが存在しません。 この値には、参照元なしでリンクを開く[会話型AI ツールからの訪問が含まれます](#include-ai-traffic-that-has-no-referrer)。
 * **検索エンジン**：このリファラーは、キーワードクエリ文字列を含む認識済みの検索エンジンから来ています。
 * **対話型AI ツール**: リファラーは、認識された対話型AI ツールから取得されました。
 * **ソーシャルネットワーク**：リファラーデータは、アドビが認識するソーシャルネットワークに属していました。
@@ -60,6 +60,10 @@ Adobeは、各ヒットの[&#x200B; リファラー](referrer.md)からこのデ
 * **電子メール**：リファラーは、`imap://` または `mail://` のプロトコルを持つ URL から発生します。 オンライン電子メールサービスは、通常は `https://` プロトコルを使用するので、含まれません。
 
 ### 会話型AI ツール
+
+>[!IMPORTANT]
+>
+>この値には、次のリストからリファラーを持つ訪問のみが含まれます。 ChatGPTのような一部の会話型AI ツールは、リンクを開いたときにリファラーを送信しないため、訪問は含まれません。 詳しくは、[&#x200B; リファラーを持たないAI トラフィックを含める](#include-ai-traffic-that-has-no-referrer)を参照してください。
 
 次のリストは、Adobeが使用する「対話型AI ツール」ルックアップテーブルを参照しています。 アドビは、このリストを Adobe Analytics のお客様に対して提供しています。 このリストにドメインを追加するようアドビに提案したい場合は、組織内のサポート担当デリゲートからカスタマーケアにお問い合わせください。
 
@@ -84,6 +88,18 @@ Adobeは、各ヒットの[&#x200B; リファラー](referrer.md)からこのデ
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### リファラーを持たないAI トラフィックを含める
+
+ChatGPTなどの一部の会話型AI ツールは、リファラーを送信することなくリンクを開きます。 Adobeでは、「対話型AI ツール」ではなく「入力/ブックマーク済み」でこれらの訪問を報告します。 AI ツールは、リンクを開く方法をいつでも変更できます。 「会話型AI ツール」のトラフィックが減少した場合、ツールがリファラーの送信を停止した可能性があります。 この低下は、Adobe Analyticsがデータを失ったことを意味するものではありません。
+
+リファラーの代わりに、これらのツールの一部は、開いているリンク（`utm_source=chatgpt.com`や`utm_source=perplexity`など）にUTM クエリ文字列パラメーターを追加します。 会話型AI ツールからのトラフィックの完全な数を取得するには、UTM パラメーターと「会話型AI ツール」の値を併用します。
+
+* **変数でUTM パラメーターをキャプチャする**: eVarをランディングページ URLの`utm_source`値に設定します。 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) プラグイン、Web SDKまたはAdobe Analytics拡張機能のURL パラメーター機能、クエリ文字列パラメーターを読み込む[処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md)を使用します。
+* **AI ツールのマーケティングチャネルを作成**：いずれかの条件がtrueの場合に一致する[&#x200B; マーケティングチャネル処理ルール &#x200B;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)を作成します。 **[!UICONTROL Referrer Is Conversational AI]**&#x200B;条件と、AI ツールが使用する各値（`chatgpt.com`や`perplexity`など）に&#x200B;**[!UICONTROL クエリ文字列パラメーター]** `utm_source`条件を追加します。
+* **セグメントを作成**: 「リファラータイプ」が「対話型AI ツール」に等しいか、UTM eVarにAI ツールが使用する値が含まれている[&#x200B; セグメント &#x200B;](/help/components/segmentation/seg-overview.md)を作成します。 [&#x200B; ページ URL](page-url.md) ディメンションにはクエリ文字列が含まれているため、`utm_source=chatgpt.com`が含まれるページ URLと一致させることもできます。 このオプションは、実装を変更せずに機能します。
+
+一部のAI ツールでは、リファラーもUTM パラメーターも送信されません。 これらのツールからのトラフィックをAI トラフィックとして特定することはできません。
 
 ### SNS
 
