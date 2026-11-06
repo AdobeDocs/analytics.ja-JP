@@ -156,5 +156,5 @@ PII やデータに関連する問題が発生した場合は、アドビのア�
 その他のデータプライバシー関連リソース：
 
 * [GDPR の一般用語](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* CX Enterprise データプライバシー[ ケアパッケージ ](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
+* CX Enterprise データプライバシー[&#x200B; ケアパッケージ &#x200B;](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
 * 経験的プライバシーに関する[ブログ投稿](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)

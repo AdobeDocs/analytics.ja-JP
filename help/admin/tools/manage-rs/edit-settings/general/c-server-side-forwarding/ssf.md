@@ -61,7 +61,7 @@ ht-degree: 65%
 
 ## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)訪問者ID サービスの実装を確認
 
-訪問者ID サービスが実装されているかどうかを確認するには、[Analytics トラッキング リクエスト ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ja)を調べます。
+訪問者ID サービスが実装されているかどうかを確認するには、[Analytics トラッキング リクエスト &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ja)を調べます。
 
 「リクエスト」タブで、ECID値が設定されていることを確認します。 これは、訪問者ID サービスが正しく実装されていることを示します。これは、サーバーサイド転送の前提条件です。
 

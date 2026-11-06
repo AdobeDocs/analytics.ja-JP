@@ -43,7 +43,7 @@ ht-degree: 75%
 
 ## 値の優先度
 
-このテーブルのほとんどのXDM オブジェクトフィールドは、[ マッピングされたデータオブジェクトフィールド ](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
+このテーブルのほとんどのXDM オブジェクトフィールドは、[&#x200B; マッピングされたデータオブジェクトフィールド &#x200B;](data-var-mapping.md)に対応します。 Adobe Analyticsの取り込み中、値はまずXDMからAnalytics変数にマッピングされます。 認識されたデータオブジェクトフィールドは、同じAnalytics変数にマッピングするときに、以前に設定した値をマッピングして上書きします。 例えば、`data.__adobe.analytics.events`が存在する場合、XDMから派生する一連のイベント全体が置き換えられます。イベントは両方のソースで結合されません。
 
 ## XDM オブジェクトフィールドのマッピング
 
@@ -84,7 +84,7 @@ ht-degree: 75%
 | `xdm.environment.browserDetails.acceptLanguage` | [言語](/help/components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `xdm.environment.browserDetails.cookiesEnabled` | [cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションを設定します。 有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
 | `xdm.environment.browserDetails.javaEnabled` | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションを設定します。 有効な値は `Y` (Java が有効) と `N` (Java が無効) です。 |
-| `xdm.environment.browserDetails.javaScriptVersion` | [JavaScript バージョン ](/help/components/dimensions/javascript-version.md)のディメンションを設定します。 |
+| `xdm.environment.browserDetails.javaScriptVersion` | [JavaScript バージョン &#x200B;](/help/components/dimensions/javascript-version.md)のディメンションを設定します。 |
 | `xdm.environment.browserDetails.userAgent` | フォールバックの[ユニーク訪問者](/help/components/metrics/unique-visitors.md)識別方法として使用します。 通常、`User-Agent` HTTP リクエストヘッダーを使用して生成します。 このフィールドをレポートで使用する場合は、eVar にマッピングできます。 |
 | `xdm.environment.browserDetails.viewportHeight` | [ブラウザーの高さ](/help/components/dimensions/browser-height.md)ディメンションを設定します。 |
 | `xdm.environment.browserDetails.viewportWidth` | [ブラウザーの幅](/help/components/dimensions/browser-width.md)ディメンションを設定します。 |
@@ -103,7 +103,7 @@ ht-degree: 75%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれの [prop](/help/components/dimensions/prop.md) ディメンションを設定します。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | それぞれの[カスタムイベント](/help/components/metrics/custom-events.md)指標に[イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を適用します。 各イベント ID は、それに対応する 100 グループの親に存在します。 例えば、`event678` にシリアル化を適用するには、`xdm._experience.analytics.event601to700.event678.id` を使用します。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれの[カスタムイベント](/help/components/metrics/custom-events.md)指標を必要な量だけ増分します。 各イベントは、それに対応する 100 グループの親に存在します。 例えば、`event567` のフィールドは `xdm._experience.analytics.event501to600.event567.value` です。 |
-| `xdm.identityMap.ECID[0].id` | [Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)を使用して収集されたECID。 |
+| `xdm.identityMap.ECID[0].id` | [Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)を使用して収集されたECID。 |
 | `xdm.marketing.trackingCode` | [トラッキングコード](/help/components/dimensions/tracking-code.md)ディメンションを設定します。 |
 | `xdm.media.mediaTimed.completes.value` | ストリーミングメディアサービス指標「[コンテンツ完了](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)」。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |
@@ -130,7 +130,7 @@ ht-degree: 75%
 | `xdm.mediaCollection.sessionDetails.network` | ストリーミングメディアサービスディメンション「[ネットワーク](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)」。 |
 | `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | ストリーミングメディアサービスディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)」。 |
 | `xdm.mediaCollection.sessionDetails.playerName` | ストリーミングメディアサービスディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)」。 |
-| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [ ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | ストリーミングメディアサービスのSDKバージョンのディメンション。 [&#x200B; ストリーミングメディアサービスの概要](https://experienceleague.adobe.com/ja/docs/media-analytics/using/media-overview)を参照してください。 |
 | `xdm.mediaCollection.sessionDetails.feed` | ストリーミングメディアサービスディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)」。 |
 | `xdm.mediaCollection.sessionDetails.streamFormat` | ストリーミングメディアサービスディメンション「[ストリーム形式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)」。 |
 | `xdm.media.mediaTimed.progress10.value` | ストリーミングメディアサービス指標「[10％進捗マーカー](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)」。 |
