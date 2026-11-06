@@ -30,23 +30,21 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # AppMeasurementを使用した訪問者の特定
 
-AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScriptライブラリです。 AppMeasurement自体は、訪問者を識別するネイティブな方法を提供しますが、多くのモダンなブラウザーは、設定しようとするサードパーティ Cookieを拒否します。 Adobeでは、最新のブラウザーのプライバシー標準に準拠するために、すべての実装で[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 AppMeasurementのすべてのバージョンには、訪問者ID サービスの実装に使用されるJavaScript ライブラリ `VisitorAPI.js`がバンドルされています。
+AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScriptライブラリです。 AppMeasurement自体は、訪問者を識別するネイティブな方法を提供しますが、多くのモダンなブラウザーは、設定しようとするサードパーティ Cookieを拒否します。 Adobeでは、最新のブラウザーのプライバシー標準に準拠するために、すべての実装で[Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 AppMeasurementのすべてのバージョンには、訪問者ID サービスの実装に使用されるJavaScript ライブラリ `VisitorAPI.js`がバンドルされています。
 
 ## 訪問者ID サービスを使用した訪問者の識別（推奨）
 
 次の手順に従って準備を進めてください。
 
 * [最新バージョンのAppMeasurement](https://github.com/adobe/appmeasurement)をダウンロードします。 ダウンロードされたライブラリには、`AppMeasurement.js`と`VisitorAPI.js`の両方が含まれています。
-* 開発[&#x200B; レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
+* 開発[ レポートスイート ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)の目的のエッジ ドメイン。
 * IMS組織ID:
   1. Adobe IDの資格情報を使用して[Adobe CX Enterprise](https://experience.adobe.com)にログインします。
@@ -93,9 +91,9 @@ AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScript�
 >
 >Adobeでは、この方法を使用して訪問者を識別しないようにお勧めします。
 
-組織が訪問者ID サービス （`VisitorAPI.js`）を使用しない場合、AppMeasurementは独自の従来の形式の訪問者識別を使用します。 訪問者が初めてサイトにアクセスすると、ライブラリは[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieをチェックします。 このCookieは、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPSの場合）または`trackingServer` （HTTPの場合）に一致するドメインに設定されます。
+組織が訪問者ID サービス （`VisitorAPI.js`）を使用しない場合、AppMeasurementは独自の従来の形式の訪問者識別を使用します。 訪問者が初めてサイトにアクセスすると、ライブラリは[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieをチェックします。 このCookieは、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPSの場合）または`trackingServer` （HTTPの場合）に一致するドメインに設定されます。
 
-* [管理証明書プログラム &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)に参加している場合、トラッキングサーバーは通常1st パーティドメインとなり、`s_vi`個のCookieが1st パーティになります。
+* [管理証明書プログラム ](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)に参加している場合、トラッキングサーバーは通常1st パーティドメインとなり、`s_vi`個のCookieが1st パーティになります。
 * 管理証明書プログラムに参加しない場合、トラッキングサーバーは通常、`adobedc.net`、`omtrdc.net`または`2o7.net`のサブドメインであり、`s_vi` Cookieはサードパーティ Cookieになります。 最新のブラウザープライバシー基準により、サードパーティ Cookieは、ほとんどのブラウザーで拒否されます。 拒否されると、AppMeasurementは代わりにファーストパーティのフォールバッククッキー（`fid`）を設定しようとします。
 
 `trackingServerSecure`を正しく設定した場合、追加の訪問者識別手段は必要ありません。

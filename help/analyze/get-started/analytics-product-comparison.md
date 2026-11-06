@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Analytics 製品の比較と必要システム構成
 
 このページでは、Adobe Analytics の各種製品（Analysis Workspace、Report Builder、Data Warehouse、データフィード、および Analytics API 2.0）の比較を示します。
@@ -61,9 +59,9 @@ ht-degree: 67%
 
 | 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。 [詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。 [詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。 Adobe Developer の資格情報でログインします。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **アクセス方法** | [ブラウザー](/help/analyze/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | ブラウザーを使用して設定します。 [詳細情報](/help/analyze/get-started/sys-reqs.md) | ブラウザーを使用してセットアップします。 [詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。 Adobe Developer の資格情報でログインします。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **データの精度** | 集計 | 集計 | 集計 | ヒット | 集計 |
-| **Experience Cloud ID（ECID）が使用可能** | いいえ | いいえ | はい | はい | いいえ |
+| **ECIDが利用可能** | いいえ | いいえ | はい | はい | いいえ |
 | **タイムスタンプが使用可能** | いいえ | いいえ | いいえ | はい | いいえ |
 | **処理レベル** | 完全処理 | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | 完全処理 | 完全処理 | 完全処理 |
 | **管理ボットフィルタデータを含む** <br> [詳細情報](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | × | ○（個別のボットレポート） | いいえ | いいえ | いいえ |
@@ -77,7 +75,7 @@ ht-degree: 67%
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | はい | いいえ | いいえ | いいえ |
 | **アトリビューション** | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） | 制限あり | いいえ | いいえ | ○（[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) あり） |
 | **キュレーション** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/curate.md) | ○ - プロジェクトおよび仮想レポートスイート | いいえ | いいえ | いいえ | ○ - 仮想レポートスイートのみ |
-| **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい（プロジェクトロールあり） | はい | いいえ | いいえ | いいえ |
+| **プロジェクトの共有** <br> [詳細情報](/help/analyze/analysis-workspace/curate-share/share-projects.md) | はい、プロジェクトの役割を使用 | はい | いいえ | いいえ | いいえ |
 | **配信予定** | はい | はい | はい | はい | いいえ |
 | **配信先** | 電子メール | 電子メール、FTP、SFTP、[Microsoft PowerBI への公開](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC、メール | Amazon S3、Azure RBAC、Azure SAS、Google Cloud Platform | - |
 | **仮想レポートスイートのレポート時間処理** <br> [詳細情報](/help/components/vrs/vrs-report-time-processing.md) | はい | いいえ | いいえ | いいえ | はい |

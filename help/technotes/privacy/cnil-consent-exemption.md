@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 91%
+source-wordcount: '772'
+ht-degree: 90%
 ---
 # CNIL 同意除外
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 ガイドラインでは、同意要件に対する制限付きの適用の例外（以下「同意の免除」）を規定しています。 同意の免除は、web パブリッシャーの代わりにサイトやアプリのオーディエンスを測定することのみを目的とする Analytics Cookie に適用されます。 ガイドラインでは、同意除外を適用するには次の条件を満たす必要があることを規定しています。
 
 * 最大 25 か月間のデータ保持期間。  現在のデータ保持設定は、[!UICONTROL Analytics]／[!UICONTROL 管理者]／[!UICONTROL データガバナンス]で確認できます。  [データ保持](/help/technotes/data-retention.md)
-* ECID のサードパーティ cookie を無効にします。 「[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ja#id-service-api)」、「[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ja#id-service-api) [」「disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ja#id-service-api)」
+* 訪問者ID サービスでサードパーティ Cookieを無効にします。 「[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=ja#id-service-api)」、「[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=ja#id-service-api) [」「disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=ja#id-service-api)」
 * 13 か月間の cookie 制限。  `cookieLifetime` 変数を使用して、Analytics の cookie の有効期限を上書きできます。 AnalyticsやECIDを含むCX EnterpriseのCookieは、訪問ごとにCookieの有効期限を延長します。  静的でローリングしないCookieの有効期限を設定するには、（1） Cookieを削除する日付を設定するカスタムコードを記述するか、（2） CMPを使用してCookieのリセット日を制御します。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)および[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ja#ec-cookies)
 * 限定的な範囲。 Cookie の範囲を 1 つのサイトまたはアプリケーションに限定する必要があります。 [ブラウザーの Cookie](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * 匿名化. IP アドレスの最終オクテットを匿名化します。 [一般的なアカウント設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
@@ -67,7 +67,7 @@ ht-degree: 91%
 * Adobe Analytics では、米国、英国およびシンガポールでデータ処理センターを運用しており、すべてのお客様がそれぞれの地域でデータを柔軟に収集、処理、保存できるようになっています。 Adobe Analytics の初期セットアップを設定する際に、お客様は希望するデータ処理センターの場所を選択できます。 お客様のデータは、最終的には、コア Analytics 製品で選択した地域内に保存されます。
 * セグメント化や仮想レポートスイート、別のエンドポイントへのルーティングのために、Analytics 変数でオプトインステータスを収集し、オプトインデータとオプトアウトデータを分離することを検討してください。
 * 事前の同意なしにサイト外またはアプリ外での測定（例：オフサイトキャンペーン、メールキャンペーン、iFrame など）はおこないません。
-* 変数での個人情報の収集は、同意なしには許可されません。 [&#x200B; ユーザーの同意に基づいてCX Enterprise アクティビティを制御](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja#implementing-opt-in-on-the-page)
+* 変数での個人情報の収集は、同意なしには許可されません。 [ ユーザーの同意に基づいてCX Enterprise アクティビティを制御](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja#implementing-opt-in-on-the-page)
 * データは、匿名の統計情報を生成する目的でのみ使用され、他のデータとの組み合わせはおこないません。
 * データは、アクションの相互参照には使用されません。
 * GPS 位置情報データは収集されません。

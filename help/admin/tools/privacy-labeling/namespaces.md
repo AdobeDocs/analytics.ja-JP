@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 65%
+source-wordcount: '939'
+ht-degree: 62%
 ---
 # 名前空間
 
@@ -45,7 +45,7 @@ ht-degree: 65%
 * ほとんどのAdobe Analytics リクエストの「type」フィールドには、「analytics」の値が含まれています。
 * Analyticsが各レポートスイートの関連する名前空間変数で検索するIDを含む「値」フィールド。
 
-詳しくは、[CX Enterprise Data Privacy API ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
+詳しくは、[CX Enterprise Data Privacy API ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)および標準ID名前空間の[ リスト ](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/appendix#standard-namespaces)を参照してください。 サンプルリクエストについて詳しくは、[アクセス／削除ジョブの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/privacy-jobs#access-delete)を参照してください。
 
 ## Cookie ID
 
@@ -91,7 +91,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Experience Cloud ID（ECID）の旧称は Marketing Cloud ID（MCID）ですが、既存のドキュメント内では、まだその名前で呼ばれている場合があります。
+>ECIDは、以前はMarketing Cloud ID （MCID）として知られていましたが、現在でも既存のドキュメントでその名前で参照されています。
 >
 >これらの ID は、「analytics」以外の「type」値を使用する Analytics によってサポートされる唯一の ID です。
 

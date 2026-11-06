@@ -31,20 +31,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 42%
+ht-degree: 35%
 ---
 # ワークフローの概要
 
 Advertising Analyticsの設定ワークフローは、次の手順で構成されます。
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Experience Cloud 対応レポートスイートの [!UICONTROL Advertising Analytics] レポートを有効にします。
+1. [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). CX-Enterprise対応レポートスイートの[!UICONTROL Advertising Analytics] レポートを有効にします。
 2. [Advertising Analytics アカウントの設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Analytics 管理ツールで設定します。
 3. [Analytics での広告データのレポート](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). 検索データは、Adobe Analytics データセンターのタイムゾーンの午前6時頃（06:00）に検索エンジンから取得されます。 Adobe Advertising データが収集され、レポートスイートに挿入されます。 データをAnalyticsに挿入する一環としてレポートスイートのタイムゾーンに変換されます。 レポートは、Analysis Workspace（有料検索パフォーマンステンプレート）、Report Builder、およびAnalytics レポート APIで使用できます。
 4. [広告アカウントの管理](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). アカウントのステータスを確認し、アカウントを編集／一時停止できます。

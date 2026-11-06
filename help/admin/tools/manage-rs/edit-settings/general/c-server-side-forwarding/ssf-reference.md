@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 91%
+source-wordcount: '559'
+ht-degree: 90%
 ---
 # サーバーサイド転送のデータとコードのリファレンス
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 | `d_rs` | （レガシー／トラッキングサーバーベースのサーバーサイド転送で設定） <br>Analytics にヒットと共に渡されるレポートスイートに設定します。 |
 | `d_dst_filter` | （レポートスイートベースのサーバーサイド転送で設定）<br>Analytics にヒットと共に渡されるレポートスイート ID に設定します。 |
 | `d_dst` | クライアントに送り返される宛先に関する内容を Analytics へのリクエストが想定している場合は、`d_dst=1` <br> を設定します。 |
-| `d_mid` | Analytics に渡される Experience Cloud ID。 |
+| `d_mid` | Analyticsに渡されたECID。 |
 
 ## HTTP ヘッダー {#section_0549705E76004F9585224AEF872066C0}
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 | HTTP ヘッダー | 説明 | Audience Manager が受け取る h_キー |
 | --- | --- | --- |
 | ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。 `host name .demdex.net` と表示されます。 [Demdex ドメインへの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) を参照してください。 | `h_host` |
-| User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 | `h_user-agent` |
+| ユーザーエージェント | Analytics に渡されるユーザーエージェントヘッダーに設定します。 | `h_user-agent` |
 | Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 | `h_accept-language` |
 | 参照元 | Analytics に渡されるページ URL か、Analytics に渡される `Referer` ヘッダーから収集されるページ URL に設定します。 | `h_referer` |
 | リファラー | Analytics に渡されるページ URL か、Analytics に渡される `Referrer` ヘッダーから収集されるページ URL に設定します。 | `h_referrer` |

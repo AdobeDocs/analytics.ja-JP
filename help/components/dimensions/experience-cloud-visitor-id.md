@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud 訪問者 ID
-description: Data Warehouseで使用可能な、訪問者のExperience Cloud ID （ECID）。
+description: Data Warehouseで使用可能な訪問者のECID。
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # Experience Cloud 訪問者 ID
 
-「Experience Cloud訪問者ID」 [&#x200B; ディメンション &#x200B;](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
+「Experience Cloud訪問者ID」 [ ディメンション ](overview.md)は、各訪問者のECIDを提供します。 これは、連結された2つの64 ビット番号を19桁にパディングした128 ビット番号です。
 
 >[!IMPORTANT]
 >
@@ -40,12 +40,12 @@ ht-degree: 18%
 
 ## このディメンションへのデータ入力
 
-このディメンションには、訪問者ID サービス（VisitorAPI）またはExperience Platform ID サービスを使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[&#x200B; データ列リファレンス &#x200B;](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+このディメンションには、訪問者ID サービス（VisitorAPI）またはWeb SDKを使用する実装が必要です。 データフィードの`mcvisid`列に対応します。 詳しくは、[ データ列リファレンス ](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | なし（Adobe Visitor ID サービスで設定） |
-| **Web SDK / XDM フィールド** | なし（Experience Platform Identity Serviceで設定） |
+| **Web SDK / XDM フィールド** | なし（Edge Networkで設定） |
 | **クエリパラメーター** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 該当なし |

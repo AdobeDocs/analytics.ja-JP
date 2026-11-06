@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # Adobe Analytics でのボットの削除
 
@@ -48,15 +48,15 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 | 標準 IAB ボットルール | 「**[!UICONTROL IAB ボットフィルタリングルールを有効にする]**」を選択すると、[IAB](https://www.iab.com/)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。 ほとんどのお客様は、少なくともこのオプションを選択します。 |
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
-詳細については、[&#x200B; ボットルールの理解と設定](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を参照してください。
+詳細については、[ ボットルールの理解と設定](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)を参照してください。
 
 ## アドビツールを組み合わせて使用
 
 さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。 これらの機能は、訪問者ID サービス、セグメンテーション、Data Warehouse、顧客属性、およびバーチャルレポートスイートです。 以下に、これらのツールを使う方法の概要を示します。
 
-### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
+### 手順1：訪問者のECIDを新しい宣言されたIDに渡す {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-まず、[People コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)で新しい宣言済み ID を作成します。 訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡します。[Adobe Experience Platform のタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja) を使用すると、この処理を素早く簡単に行うことができます。 宣言済み ID に「ECID」という名前を使用するとします。
+まず、[People コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)で新しい宣言済み ID を作成します。 訪問者のECIDをこの新しい宣言されたIDに渡します。このIDは、Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)の[ タグを使用すると、すばやく簡単に実行できます。 宣言済み ID に「ECID」という名前を使用するとします。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Adobe Analyticsには、レポートからボットトラフィックを削除�
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### 手順 3：Data Warehouse を使用してセグメントからすべての [!DNL Experience Cloud IDs] を書き出す
+### 手順 3：Data Warehouse を使用してセグメントからすべての [!DNL ECIDs] を書き出す {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-セグメントを使用してボットを識別したら、次に、Data Warehouse を使用してこのセグメントに関連付けられたすべての Experience Cloud ID を抽出します。 このスクリーンショットは、[Data Warehouse](/help/export/data-warehouse/data-warehouse.md) リクエストの設定方法を示します。
+セグメントを使用してボットを識別したので、次の手順は、Data Warehouseを使用して、このセグメントに関連付けられたすべてのECIDを抽出することです。 このスクリーンショットは、[Data Warehouse](/help/export/data-warehouse/data-warehouse.md) リクエストの設定方法を示します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -87,7 +87,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 * **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
 * **ボットフラグ**：顧客属性スキーマディメンションとして「ボットフラグ」を追加します。
 
-この.CSV ファイルを顧客属性のインポート ファイルとして使用し、この[&#x200B; ブログ記事](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)で説明されているように、レポートスイートを顧客属性に登録します。
+この.CSV ファイルを顧客属性のインポート ファイルとして使用し、この[ ブログ記事](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)で説明されているように、レポートスイートを顧客属性に登録します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-csv-4.png)
 
@@ -99,7 +99,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 ### 手順6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、このセグメントを使用して識別されたボットを除外する[仮想レポートスイート &#x200B;](/help/components/vrs/vrs-about.md)を作成します。
+最後に、このセグメントを使用して識別されたボットを除外する[仮想レポートスイート ](/help/components/vrs/vrs-about.md)を作成します。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-vrs.png)
 
@@ -111,7 +111,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 >[!MORELIKETHIS]
 >
->* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=ja)
->* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=ja)
->* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=ja)
+>* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

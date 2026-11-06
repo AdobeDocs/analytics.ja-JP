@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # デフォルトの計算指標
 
 Adobe Analytics には、最も一般的なユースケースに対応するための、様々な計算指標が用意されています。 これらの計算指標は、デフォルトで Analysis Workspace で使用できます。
@@ -44,7 +42,7 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 >
 >次のことができます。
 >
-> * [計算指標](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/calculated-metrics)の説明に従って、ストリーミングメディアサービスのデフォルトの計算指標を追加する。
+> * [計算指標](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)の説明に従って、ストリーミングメディアサービスのデフォルトの計算指標を追加する。
 > * [計算指標と高度な計算指標](/help/components/calculated-metrics/cm-overview.md)の説明に従って、既存の指標からカスタムの計算指標を作成する。
 >
 
@@ -67,8 +65,8 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 | コンテンツベロシティ | 新しいコンテンツがサイト上で作成および公開される速度と、そのコンテンツがユーザーエンゲージメントを生成する速度。 | `[Page Views] / [Visits]` |
 | コンバージョン率 | 購入など、目的のアクションを行った訪問者の割合。 | `[Orders] / [Visits]` |
 | エントリ率 | サイトの合計セッション数と比較した、特定のページでサイトに入った訪問者の割合。 | `[Entries] / [Visits]` |
-| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者数を 2 以下になるように 2 で割ります。 この計算指標は、クライアントサイド JavaScript（CNAME 実装を使用しない）を使用して Cookie が設定されていることを前提としています。 クライアントサイドのJavaScriptを使用してCookieを設定する実装は、ITP 2.1以降に影響を受けました。 詳しくは、[&#x200B; インテリジェント トラッキング防止](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Experience Cloud ID の適用範囲 | Experience Cloud ID を持つ訪問者の割合。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| 推定ユニーク訪問者（ITP 2.1） | ITP 訪問者（Safari ブラウザーのユーザー）の場合は、ユニーク訪問者数を 2 以下になるように 2 で割ります。 この計算指標は、クライアントサイド JavaScript（CNAME 実装を使用しない）を使用して Cookie が設定されていることを前提としています。 クライアントサイドのJavaScriptを使用してCookieを設定する実装は、ITP 2.1以降に影響を受けました。 詳しくは、[ インテリジェント トラッキング防止](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)を参照してください。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Experience Cloud ID の適用範囲 | ECIDを持つ訪問者の割合。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 離脱率 | 特定のページを閲覧した後にサイトを離れた訪問者の割合。 | `[Exits] / [Visits]` |
 | ITP 2.1 ユニーク訪問者 / ユニーク訪問者 | ITP 2.1 cookie 制限の影響を受けたブラウザーを使用しているユニーク訪問者の割合。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 注文支援 | チャネルまたはソースが、購入に至るまでの顧客のジャーニーに貢献したが、最終的な購入には至らなかった回数。 | `[Orders (Visit Participation)] - [Orders]` |

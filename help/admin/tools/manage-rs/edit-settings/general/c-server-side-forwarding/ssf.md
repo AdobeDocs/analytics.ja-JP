@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 73%
+source-wordcount: '888'
+ht-degree: 65%
 ---
 # サーバーサイド転送の概要
 
@@ -59,14 +59,14 @@ ht-degree: 73%
 
 サーバーサイド転送の実装状況を把握するには、以下の検証ステップを実行してください。
 
-## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) ECID サービス実装の確認
+## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)訪問者ID サービスの実装を確認
 
-[Analytics トラッキングリクエスト](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ja)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
+訪問者ID サービスが実装されているかどうかを確認するには、[Analytics トラッキング リクエスト ](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ja)を調べます。
 
-「リクエスト」タブで、ECID 値が設定されていることを確認します。 これで、サーバーサイド転送の前提条件である ID サービスが適切に実装されていることがわかります。
+「リクエスト」タブで、ECID値が設定されていることを確認します。 これは、訪問者ID サービスが正しく実装されていることを示します。これは、サーバーサイド転送の前提条件です。
 
 * ECID 値が表示されている場合は、手順 2 に進みます。
-* ECID 値が表示されていない場合は、手順 2 に進む前に [ID サービスを実装](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ja)します。
+* ECID値が表示されない場合は、手順2に進む前に[訪問者ID サービスを実装します](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=ja)。
 
 ## ![step2_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) サーバーサイド転送の実装バージョンの確認
 

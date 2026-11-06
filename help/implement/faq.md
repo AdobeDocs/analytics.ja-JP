@@ -40,18 +40,18 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 92%
 ---
 # Analytics の実装に関する FAQ
 
 実装に関するよくある質問と、詳細情報へのリンクです。
 
-## Experience Cloud 訪問者 ID と Analytics 訪問者 ID の違いは何ですか。
+## ECIDとAnalytics訪問者IDの違いは何ですか？ {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-Identity Serviceは、CX Enterprise内の他のソリューション間で共有できる、一意の永続的なIDを割り当てます。 Analytics 訪問者 ID は、Analytics でのみ使用されます。 実装に Experience Cloud 訪問者 ID サービスを使用することをお勧めします。
+Identity Serviceは、CX Enterprise内の他のソリューション間で共有できる、一意の永続的なIDを割り当てます。 Analytics 訪問者 ID は、Analytics でのみ使用されます。 Adobeでは、実装にVisitor ID サービスを使用することをお勧めします。
 
 ## ハートビートビデオトラッキングを実装する方法を教えてください。
 

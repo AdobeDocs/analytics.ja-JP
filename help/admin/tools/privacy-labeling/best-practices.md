@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 61%
+source-wordcount: '2336'
+ht-degree: 59%
 ---
 # ラベル設定に関するベストプラクティス
 
@@ -85,7 +85,7 @@ IP アドレスも個人を間接的に特定できる ID と見なされます�
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ja">（従来の）Analytics Cookie</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/ja/docs/id-service/using/home">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
     </ul> </td> 
-   <td colname="col2"> <p>これらのCookieは、デバイス、より具体的にはデバイスのユーザーのブラウザーを識別します。 共通ログインが使用される共有デバイスの場合、このIDはデバイスのすべてのユーザーに適用されます。 アドビは、データプライバシー要求でこうした Cookie を使用できるように、Web サイトに挿入して Cookie を収集するための<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統合 JavaScript</a> を作成しました。 </p> <p>Adobe Analytics のモバイル SDK のユーザーも Experience Cloud ID（ECID）を持っています。 SDK には、この ID を読み取るための API 呼び出しがあるので、アプリを拡張してデータプライバシーリクエスト用にこの ID を収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。 その結果、法務チームと相談しながら、データプライバシーリクエストで許容可能な ID として使用することをサポートしないことにする場合があります。 または、これらの ID を使用する場合に、ごく限られた量のデータのみを返すように選択したり、削除リクエストに対してのみデータを受け入れるように選択したりできます。 </p> <p>これらのCookieには、変更できないID-DEVICE ラベル（I2およびDEL-DEVICE ラベル）があります。 デフォルトのAdobe Analytics設定では、デバイスの種類、OS、ブラウザーなどの一般的な情報に加えて、これらのIDを使用する際にweb サイトにアクセスした日時が返されます。 ただし、データプライバシー要求でこれらの ID を利用する場合は、以下で説明するように、ACC-ALL ラベルを追加または削除して、データプライバシーアクセス要求で返されるようにしたいフィールドを設定できます。 </p> <p>レポートスイートがログインを必要とするモバイルアプリに対応している場合、デバイスの Experience Cloud ID が特定のユーザーに対応しているかどうかを判断することもできます。 その場合、訪問したページ名や閲覧した製品名など、より多くのフィールドに ACC-ALL ラベルを付けたい場合があるでしょう。 </p> </td> 
+   <td colname="col2"> <p>これらのCookieは、デバイス、より具体的にはデバイスのユーザーのブラウザーを識別します。 共通ログインが使用される共有デバイスの場合、このIDはデバイスのすべてのユーザーに適用されます。 アドビは、データプライバシー要求でこうした Cookie を使用できるように、Web サイトに挿入して Cookie を収集するための<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統合 JavaScript</a> を作成しました。 </p> <p>Adobe Analytics Mobile SDKのユーザーにもECIDがあります。 SDK には、この ID を読み取るための API 呼び出しがあるので、アプリを拡張してデータプライバシーリクエスト用にこの ID を収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。 その結果、法務チームと相談しながら、データプライバシーリクエストで許容可能な ID として使用することをサポートしないことにする場合があります。 または、これらの ID を使用する場合に、ごく限られた量のデータのみを返すように選択したり、削除リクエストに対してのみデータを受け入れるように選択したりできます。 </p> <p>これらのCookieには、変更できないID-DEVICE ラベル（I2およびDEL-DEVICE ラベル）があります。 デフォルトのAdobe Analytics設定では、デバイスの種類、OS、ブラウザーなどの一般的な情報に加えて、これらのIDを使用する際にweb サイトにアクセスした日時が返されます。 ただし、データプライバシー要求でこれらの ID を利用する場合は、以下で説明するように、ACC-ALL ラベルを追加または削除して、データプライバシーアクセス要求で返されるようにしたいフィールドを設定できます。 </p> <p>レポートスイートがログインを必要とするモバイルアプリに対応している場合は、デバイスのECIDが特定のユーザーに対応していると判断できます。 その場合、訪問したページ名や閲覧した製品名など、より多くのフィールドに ACC-ALL ラベルを付けたい場合があるでしょう。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム変数の ID </p> </td> 
