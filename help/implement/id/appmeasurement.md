@@ -91,9 +91,9 @@ AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScript�
 >
 >Adobeでは、この方法を使用して訪問者を識別しないようにお勧めします。
 
-組織が訪問者ID サービス （`VisitorAPI.js`）を使用しない場合、AppMeasurementは独自の従来の形式の訪問者識別を使用します。 訪問者が初めてサイトにアクセスすると、ライブラリは[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookieをチェックします。 このCookieは、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPSの場合）または`trackingServer` （HTTPの場合）に一致するドメインに設定されます。
+組織が訪問者ID サービス （`VisitorAPI.js`）を使用しない場合、AppMeasurementは独自の従来の形式の訪問者識別を使用します。 訪問者が初めてサイトにアクセスすると、ライブラリは[`s_vi`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) Cookieをチェックします。 このCookieは、[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （HTTPSの場合）または`trackingServer` （HTTPの場合）に一致するドメインに設定されます。
 
-* [管理証明書プログラム &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)に参加している場合、トラッキングサーバーは通常1st パーティドメインとなり、`s_vi`個のCookieが1st パーティになります。
+* [管理証明書プログラム &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)に参加している場合、トラッキングサーバーは通常1st パーティドメインとなり、`s_vi`個のCookieが1st パーティになります。
 * 管理証明書プログラムに参加しない場合、トラッキングサーバーは通常、`adobedc.net`、`omtrdc.net`または`2o7.net`のサブドメインであり、`s_vi` Cookieはサードパーティ Cookieになります。 最新のブラウザープライバシー基準により、サードパーティ Cookieは、ほとんどのブラウザーで拒否されます。 拒否されると、AppMeasurementは代わりにファーストパーティのフォールバッククッキー（`fid`）を設定しようとします。
 
 `trackingServerSecure`を正しく設定した場合、追加の訪問者識別手段は必要ありません。

@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # Adobe Experience Cloud ID を持つ訪問者
 
-&#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
+&#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/overview)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 23%
 
 ## この指標の計算方法
 
-この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) cookie に基づく）を使用して識別された個人のみが含まれます。
+この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics) cookie に基づく）を使用して識別された個人のみが含まれます。
 
 ## ECID設定のデバッグ
 

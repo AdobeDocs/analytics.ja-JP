@@ -42,7 +42,7 @@ Adobe Analytics には、最も一般的なユースケースに対応するた�
 >
 >次のことができます。
 >
-> * [計算指標](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)の説明に従って、ストリーミングメディアサービスのデフォルトの計算指標を追加する。
+> * [計算指標](https://experienceleague.adobe.com/ja/docs/media-analytics/using/reporting/calculated-metrics)の説明に従って、ストリーミングメディアサービスのデフォルトの計算指標を追加する。
 > * [計算指標と高度な計算指標](/help/components/calculated-metrics/cm-overview.md)の説明に従って、既存の指標からカスタムの計算指標を作成する。
 >
 

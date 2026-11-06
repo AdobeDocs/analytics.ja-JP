@@ -111,7 +111,7 @@ Data Warehouse レポートが届いたら、履歴データからフィルタ�
 
 >[!MORELIKETHIS]
 >
->* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [より良いボットブロッキング（パート 1）：基本](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=ja)
+>* [より優れたボットブロッキング（パート 2）：ボットの特定とCIDRの活用](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=ja)
+>* [より良いボットブロッキング（パート 3）：ヒット知事](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=ja)
 
