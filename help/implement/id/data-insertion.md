@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # Data Insertion APIを使用した訪問者の識別
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 各ヒットにその値を`mid` クエリパラメーターとして送信し、IMS組織IDを`mcorgid` パラメーターとして送信して、ECIDが正しく解決されるようにします。 データをAudience Managerに転送する場合は、リージョンを[`getLocationHint`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/getlocationhint)から`aamlh` パラメーターとして送信します。 独自の顧客識別子を訪問者に関連付けるには、[`setCustomerIDs`](https://experienceleague.adobe.com/ja/docs/id-service/using/id-service-api/methods/setcustomerids)を使用します。
 
-サーバーサイドの収集の場合は、クライアントでECIDを取得し、各ヒットで送信するためにサーバーに転送します。 クライアントなしで完全にサーバーサイドでECIDを生成するには、ID サービスの[直接統合](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/direct-integration)を使用します。
+サーバーサイドの収集の場合は、クライアントでECIDを取得し、各ヒットで送信するためにサーバーに転送します。 クライアントなしで完全にサーバーサイドでECIDを生成するには、訪問者ID サービスの[直接統合](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/direct-integration)を使用します。
 
 ## Analytics訪問者IDの使用
 

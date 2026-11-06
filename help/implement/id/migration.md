@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Adobe Analyticsの訪問者ID サービスの移行に関する考慮事項
 
 既存のAnalytics実装を使用して訪問者ID サービスに移行する場合は、考慮すべき重要なトピックがいくつかあります。 これらの考慮事項により、訪問者IDの整合性を維持し、既存のAnalytics実装の存在下で訪問者ID サービスがどのように動作するかを理解できます。
 
 >[!TIP]
 >
->このページは、既存のAppMeasurementまたはAnalytics拡張機能の実装にのみ適用され、訪問者ID サービスを追加するか、Web SDKの実装にアップグレードしています。 言い換えれば、実装は従来のAnalytics ID （`aid`）を使用し、ECID （`mid`）の使用に向かって進んでいます。 すべてのWeb SDKの実装では、デフォルトでECID （`mid`）を使用する[Experience Platform Identity Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)が使用されます。
+>このページは、既存のAppMeasurementまたはAnalytics拡張機能の実装にのみ適用され、訪問者ID サービスを追加するか、Web SDKの実装にアップグレードしています。 言い換えれば、実装は従来のAnalytics ID （`aid`）を使用し、ECID （`mid`）の使用に向かって進んでいます。 すべてのWeb SDKの実装では、デフォルトでECID （`mid`）を使用する[Edge Network ID](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/overview)が使用されます。
 
 ## 訪問者ID サービスと従来のAnalytics訪問者Cookieのインターフェイス
 

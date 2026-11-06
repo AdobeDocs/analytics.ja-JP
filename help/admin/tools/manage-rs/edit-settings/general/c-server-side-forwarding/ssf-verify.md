@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 44%
 ---
 # サーバーサイド転送の実装を検証する方法
 
@@ -50,7 +50,7 @@ ht-degree: 60%
 
 >[!CAUTION]
 >
->応答に `"status":"SUCCESS"` というキーと値のペアまたは 2 x 2 の画像が含まれている場合、サーバーサイド転送は適切に設定されていません。 ID サービスが適切にデプロイされていること、AppMeasurement モジュールがデプロイされていること、該当するレポートスイートが正しい組織 ID にマッピングされていること、そして Analytics 管理ツールでサーバーサイド転送が有効になっていることを確認してください。
+>応答に `"status":"SUCCESS"` というキーと値のペアまたは 2 x 2 の画像が含まれている場合、サーバーサイド転送は適切に設定されていません。 訪問者ID サービスが適切にデプロイされていること、アプリ測定モジュールがデプロイされていること、該当するレポートスイートが正しい組織IDにマッピングされていること、およびAnalytics管理ツールでサーバーサイド転送が有効になっていることを確認してください。
 
 >[!MORELIKETHIS]
 >

@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # AppMeasurementを使用した訪問者の特定
 
 AppMeasurementは、Adobe Analyticsのデータ収集用の従来のJavaScriptライブラリです。 AppMeasurement自体は、訪問者を識別するネイティブな方法を提供しますが、多くのモダンなブラウザーは、設定しようとするサードパーティ Cookieを拒否します。 Adobeでは、最新のブラウザーのプライバシー標準に準拠するために、すべての実装で[Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を使用することを強くお勧めします。 AppMeasurementのすべてのバージョンには、訪問者ID サービスの実装に使用されるJavaScript ライブラリ `VisitorAPI.js`がバンドルされています。

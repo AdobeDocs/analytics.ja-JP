@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # プロジェクトの共有 {#share-projects}
@@ -214,7 +214,7 @@ Adobe Analytics にアクセスできないユーザーと Analysis Workspace �
 
    * **[!UICONTROL CX Enterprise認証が必要]:**
 
-     このオプションを有効にすると、プロジェクトにアクセスできるユーザーは、共有するプロジェクトが作成されたAdobe CX Enterprise組織にログインできるユーザーのみになります。 ただし、共有相手のユーザーは、Adobe Analytics へのアクセス権が不要です。
+     このオプションを有効にすると、プロジェクトにアクセスできるユーザーは、共有するプロジェクトが作成されたAdobe組織にログインできるユーザーのみになります。 ただし、共有相手のユーザーは、Adobe Analytics へのアクセス権が不要です。
 
      Analytics 管理者は、[環境設定](/help/analyze/analysis-workspace/user-preferences.md)で説明されているように、会社用にこの環境設定を設定できます。 管理者がどのようにこのオプションを設定したかによっては、次のシナリオが発生する可能性があります。
 

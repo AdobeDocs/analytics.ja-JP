@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 92%
 ---
 # ブラウザーの cookie 制限の影響を軽減するオプション
 
@@ -57,7 +57,7 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 
 ## ファーストパーティデバイス ID（FPID）と Web SDK
 
-Adobe Experience Platform Web SDK を使用すると、アドビが生成した Experience Cloud ID（ECID）の代わりに、独自のデバイス識別子を設定および管理することを選択できます。 これらは、ファーストパーティデバイス ID（FPID）と呼ばれます。 詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ja)を参照してください。
+Adobe Experience Platform Web SDKでは、Adobeで生成されたECIDの代わりに、独自のデバイス IDを設定および管理できます。 これらは、ファーストパーティデバイス ID（FPID）と呼ばれます。 詳しくは、[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=ja)を参照してください。
 
 ## 詳細情報
 

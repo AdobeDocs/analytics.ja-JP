@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 11%
+ht-degree: 10%
 ---
 # Audience Analytics の概要
 
@@ -85,8 +85,8 @@ Adobe Audience Managerのセグメントは同じヒット単位で挿入され�
 
 * あなたはAudience ManagerとAdobe Analyticsの両方のお客様です。
 * あなたはAudience Manager管理者です。
-* ID サービス v1.5 以降を使用していること。
-* Adobe Audience ManagerとAdobe Analytics レポートスイートは、同じCX Enterprise組織にマッピングされます。
+* 訪問者ID サービス v1.5以降を使用している。
+* Adobe Audience ManagerとAdobe Analytics レポートスイートは、同じAdobe組織にマッピングされます。
 * [サーバー側転送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。

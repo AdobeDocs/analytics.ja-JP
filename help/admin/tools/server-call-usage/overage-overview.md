@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 30%
 ---
 # サーバーコールの使用状況
@@ -69,7 +69,7 @@ Adobe Analytics server call usageは、ブラウザーとモバイルサーバ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>請求会社（請求ID） </p> </td> 
-   <td colname="col2"> <p>サーバーコールに対して請求される法人。 例：adobe.com 各請求会社には請求 ID があり、これを使用して請求先顧客を一意に識別します。 請求IDは、複数のCX Enterprise組織に関連付けることができます。組織と請求IDの間には必ずしも1:1の関係があるわけではありません。 </p> </td> 
+   <td colname="col2"> <p>サーバーコールに対して請求される法人。 例：adobe.com 各請求会社には請求 ID があり、これを使用して請求先顧客を一意に識別します。 請求IDは、複数のAdobe組織に関連付けることができます。組織と請求IDの間には必ずしも1:1の関係があるわけではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ログイン会社 </p> </td> 
@@ -82,7 +82,7 @@ Adobe Analytics server call usageは、ブラウザーとモバイルサーバ�
     </ul> <p>注意：請求会社内の<u>全</u>レポートスイートのサーバーコール使用状況データは、適切な<a href="/help/admin/admin-console/permissions/analytics-tools.md">権限</a>を持つすべてのユーザーから参照できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise organization </p> </td> 
+   <td colname="col1"> <p>Adobe organization </p> </td> 
    <td colname="col2"> <p>組織とは、管理者がグループとユーザーを設定し、CX Enterpriseでのシングルサインオンを制御できるようにするエンティティです。 Adobe CX Enterpriseの各製品とソリューションをまたいで、ログインしてビジネスを展開できます。 </p> <p>ほとんどの場合、組織は勤務先の会社名です。 ただし、1 つの会社が多くの組織を持つことができます。 </p> </td> 
   </tr> 
   <tr> 

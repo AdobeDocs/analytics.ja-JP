@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 5%
 ---
 # 完全な処理データソースの提供終了
@@ -62,7 +62,7 @@ ht-degree: 5%
 * **`ipaddress`**: [IP アドレス &#x200B;](/help/components/dimensions/ip-address.md) ディメンション。
 * **`language`**: [言語](/help/components/dimensions/language.md) ディメンション。
 * **`list1`** - **`list3`**: [変数のリスト &#x200B;](/help/implement/vars/page-vars/list.md)。
-* **`marketingCloudVisitorID`**：訪問者のExperience Cloud ID。
+* **`marketingCloudVisitorID`**：訪問者のECID。
 * **`tnta`**: Target [&#128279;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)統合のAnalyticsで使用されるTarget データペイロード。
 * **`trackingServer`**: [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)変数。
 * **`transactionID`**: [`transactionID`](/help/implement/vars/page-vars/transactionid.md)変数。

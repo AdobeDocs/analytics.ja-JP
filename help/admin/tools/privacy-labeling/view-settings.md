@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 81%
+source-wordcount: '814'
+ht-degree: 82%
 ---
 # データガバナンスのプライバシーラベリングの表示／管理
 
@@ -79,7 +79,7 @@ ht-degree: 81%
 
    >[!IMPORTANT]
    >
-   >選択するすべてのレポートスイートは、CX Enterprise組織にマッピングする必要があることに注意してください。
+   >選択するすべてのレポートスイートは、Adobe組織にマッピングする必要があることに注意してください。
 
    1 つの変数または変数のセットのラベルを別のレポートスイートにコピーする場合、コピーは、コピー先レポートスイートの対応する位置の変数に対して行われます。 標準コンポーネント、リスト変数および成功イベントの場合、ラベルは、コピー先レポートスイートの&#x200B;**同じ名前**&#x200B;を持つ変数にコピーされます。
 

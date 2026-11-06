@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # Adobe Experience Cloud ID を持つ訪問者
 
-&#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[Visitor ID Service](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Experience Platform ID Service](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
+&#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; [指標](overview.md)は、ECIDを持つAdobeによって識別された一意の訪問者の数を示します（[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)または[Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/identity/overview)を使用）。 この指標は、[&#x200B; ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半がECIDを使用していることを確認するのに役立ちます。 訪問者の大部分がこの識別子を使用しない場合、実装内に問題があることを示している可能性があります。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 25%
 
 ## ECID設定のデバッグ
 
-Experience Cloud IDを持つ&#39;[!UICONTROL 訪問者]&#39;指標は、CX Enterprise統合のトラブルシューティングや、訪問者ID サービスまたはExperience Platform ID サービスがデプロイされていないサイトの領域の特定に役立ちます。
+Experience Cloud IDを持つ&#39;[!UICONTROL 訪問者]&#39;指標は、CX Enterprise統合のトラブルシューティングや、訪問者ID サービスまたはWeb SDKがデプロイされていないサイトの領域の特定に役立ちます。
 
 「[!UICONTROL Experience Cloud IDを持つ訪問者]」を並べてドラッグし、ユニーク訪問者と比較します。
 

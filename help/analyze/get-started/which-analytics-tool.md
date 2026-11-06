@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 60%
+source-wordcount: '1170'
+ht-degree: 59%
 ---
 # 使用する Adobe Analytics ツールの検討
 
@@ -123,7 +123,7 @@ Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の�
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** は以下の場合に使用します。
 
-* UI では非表示の変数（IP アドレス、Experience Cloud ID、Analytics 訪問者 ID、ページ URL）にアクセスするには
+* UIに非表示の変数（IP アドレス、ECID、Analytics訪問者ID、ページ URL）にアクセスするには
 * UI （非正規化テーブルビュー）よりも詳細なデータにアクセスするには
 * ピボットテーブル入力に適した形式でデータをダウンロードするには
 * クライアントがAdobe データをサードパーティのデータビジュアライゼーションツールに入力する場合（少し要約し、ヒットレベルではない）

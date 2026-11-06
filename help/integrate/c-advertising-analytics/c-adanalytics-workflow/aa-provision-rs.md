@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 18%
 ---
 # Advertising Analytics 用レポートスイートを有効にする
@@ -36,7 +36,7 @@ AnalyticsでAdvertising Analyticsの検索データを表示するには、CX En
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]** に移動します。
 
-1. CX Enterprise組織にマッピングされているレポートスイートを選択します。
+1. Adobe組織にマッピングされているレポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL Advertising Analytics 設定]**&#x200B;をクリックします。
 
    ![レポート](assets/aa-reporting.png)

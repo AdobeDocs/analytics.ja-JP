@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 44%
+source-wordcount: '306'
+ht-degree: 40%
 ---
 # 訪問者数の相違
 
@@ -46,11 +46,11 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > Adobe Audience Manager：合計セグメント数</a> </p> </td> 
-   <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであったデバイス（Experience Cloud ID）の数。 </p> </td> 
+   <td colname="col3"> <p>ルックバック期間中にセグメントのメンバーであったデバイス（ECID）の数。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > Adobe Audience Manager: リアルタイム セグメントの母集団</a> </p> </td> 
-   <td colname="col3"> <p>ルックバック期間中にセグメントのメンバーであり、プロパティに到達したデバイス（Experience Cloud ID）の数。 </p> </td> 
+   <td colname="col3"> <p>ルックバック期間中にセグメントのメンバーであり、プロパティに到達したデバイス（ECID）の数。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>分析：ユニーク訪問者 </p> </td> 
@@ -58,7 +58,7 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics:Experience Cloud IDを持つ訪問者 </p> </td> 
-   <td colname="col3"> <p>レポートウィンドウ中にプロパティに到達したExperience Cloud IDを持つユニーク訪問者の数を表示します。 </p> </td> 
+   <td colname="col3"> <p>レポートウィンドウ中にプロパティに到達したECIDを持つユニーク訪問者の数を表示します。 </p> </td>
   </tr> 
  </tbody> 
 </table>

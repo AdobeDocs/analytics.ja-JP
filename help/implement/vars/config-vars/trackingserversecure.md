@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -102,15 +102,15 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Adobeでは、組織全体の一貫性を保つために、この情報を[&#x200B; ソリューション設計ドキュメント &#x200B;](../../prepare/solution-design.md)に保管することを強くお勧めします。
 
-## 訪問者ID サービスまたはExperience Platform ID サービスを使用しない場合の影響
+## 訪問者ID サービスまたはWeb SDKを使用しない場合の制限事項 {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
 * AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
 * Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
-* 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Experience Platform ID サービスが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
+* 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Edge Network IDが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 
 **実装でECID**&#x200B;を使用しない場合は、実装に対する次の影響を考慮してください。
 
-* 訪問者ID サービスまたはExperience Platform ID サービスを使用していない場合、`trackingServerSecure`はCookieの場所を判断します。 この変数をサードパーティのドメインに設定すると、ほとんどのモダンなブラウザーがサードパーティのCookieを拒否するため、AppMeasurementではフォールバッククッキーを使用する必要があります。
+* 訪問者ID サービスまたはWeb SDKを使用していない場合、`trackingServerSecure`はCookieの場所を判断します。 この変数をサードパーティのドメインに設定すると、ほとんどのモダンなブラウザーがサードパーティのCookieを拒否するため、AppMeasurementではフォールバッククッキーを使用する必要があります。
 * 内部リンクトラッキングとActivity Mapの信頼性が低い場合があります。

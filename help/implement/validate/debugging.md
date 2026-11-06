@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 2%
 ---
 # Analytics データ収集のデバッグ
@@ -94,7 +94,7 @@ Web SDKでは、ブラウザーはAnalyticsに直接ではなくEdge Networkに�
 
 ### 処理を確認 {#web-sdk-processing}
 
-Edge トレースが開くAssurance セッションで、`hitdebugger`のイベントを検索します。 これらのイベントはベンダー`com.adobe.analytics.hitdebugger`を使用し、それらのペイロードは、Experience Cloud ID （`mcvisId`）や`pageName`などのAnalytics処理後の値を示します。
+Edge トレースが開くAssurance セッションで、`hitdebugger`のイベントを検索します。 これらのイベントはベンダー`com.adobe.analytics.hitdebugger`を使用し、それらのペイロードはAnalytics処理後の値（ECID （`mcvisId`）や`pageName`など）を示します。
 
 ガイド付きチュートリアルについては、[Adobe Experience Platform Web SDKを使用したAdobe Analyticsの設定](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)を参照してください。
 

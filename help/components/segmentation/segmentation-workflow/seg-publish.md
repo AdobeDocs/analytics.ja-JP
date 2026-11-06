@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 32%
+source-wordcount: '1438'
+ht-degree: 31%
 ---
 # セグメントの公開 {#publish-segments}
 
@@ -68,7 +68,7 @@ Analytics セグメントは、8時間以内にCX Enterpriseに公開できま�
 ## 前提条件
 
 * このセグメントを保存するレポートスイートが、CX Enterprise[&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)に対して有効になっていることを確認してください。 それ以外の場合は、CX Enterpriseに公開できません。
-* 組織が Experience Cloud ID を使用していることを確認します。
+* 組織でECIDを使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/admin-tool-experience-cloud) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
 
 ## 注意点
@@ -166,7 +166,7 @@ Demdex cookie （[adobe.demdex.net](https://experienceleague.adobe.com/ja/docs/a
 
 Adobe Audience Managerでは、AnalyticsがCX Enterpriseとセグメントを共有する間に、特定のセグメントのECIDを持つ訪問者のリストが評価されます。
 
-1. Audience Managerで、**[!UICONTROL Audience Data]** > **[!UICONTROL 特性]** > **[!UICONTROL Analytics特性]**&#x200B;に移動します。 CX Enterprise組織にマッピングされた各Analytics レポートスイートのフォルダーが表示されます。 これらのフォルダー（特性、セグメントおよびデータソースの場合）は、プロファイルおよびオーディエンス／人物コアサービスが開始またはプロビジョニングされると作成されます。
+1. Audience Managerで、**[!UICONTROL Audience Data]** > **[!UICONTROL 特性]** > **[!UICONTROL Analytics特性]**&#x200B;に移動します。 Adobe組織にマッピングされた各Analytics レポートスイートのフォルダーが表示されます。 これらのフォルダー（特性、セグメントおよびデータソースの場合）は、プロファイルおよびオーディエンス／人物コアサービスが開始またはプロビジョニングされると作成されます。
 1. Audience Managerと共有するセグメントを以前に作成したレポートスイートのフォルダーを選択します。 作成したセグメント/オーディエンスが表示されます。 セグメントを共有すると、Audience Managerで2つのことが起こります。
    * データが入っていない特性が作成されます。 セグメントが セグメントが[!DNL Analytics]で公開されてから8時間後、ECIDのリストがオンボーディングされ、Audience Managerおよびその他のCX Enterprise ソリューションと共有されます。
 

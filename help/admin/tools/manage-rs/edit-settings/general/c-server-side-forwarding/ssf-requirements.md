@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 43%
+source-wordcount: '336'
+ht-degree: 34%
 ---
 # サーバー側転送の要件
 
@@ -48,7 +48,7 @@ ht-degree: 43%
 
 ## サービスの要件
 
-サーバー側転送には、[ID サービス](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が必要です。 Identity Serviceは、CX Enterprise内のあらゆるソリューションをまたいでサイト訪問者を識別するユニバーサル IDを提供します。 サーバーサイド転送が動作するためには、事前に ID サービスを実装する必要があります。
+サーバーサイド転送には、[訪問者ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)が必要です。 訪問者ID サービスは、CX Enterpriseのすべてのソリューションでサイト訪問者を識別するユニバーサル IDを提供します。 サーバーサイド転送が機能する前に、訪問者ID サービスを実装する必要があります。
 
 ## コードバージョン
 
@@ -63,4 +63,4 @@ ht-degree: 43%
 AppMeasurement および訪問者 API コードのバージョン番号は、ブラウザーによって発行された HTTP リクエストを監視するすべてのツールで表示できます。 `AppMeasurement_Module_AudienceManagement.js` の場合は、バージョン ID が含まれず、この値は返されません。 `AppMeasurement.js` および `VisitorAPI.js` コードのバージョン ID の例を以下に示します。
 
 * `AppMeasurement.js`: バージョンは、応答タイプ （`/b/ss/examplersid/1/JS-X.X.X/s234234238479`など）の後のリクエスト URLに表示されます。 デコード要求を行う[&#x200B; デバッグツール &#x200B;](/help/implement/validate/debugging.md)は別のラベルを使用できますが、値は常にパターン `JS-X.X.X`に従います。ここで、`X`はバージョン番号です。
-* `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。 訪問者 ID サービスが `d_visid_ver: 1.5.5` という形式で表示されます。 バージョン 1.5.2より古い訪問者API コードには、バージョン番号が含まれていませんでした。 監視結果にバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードが必要です）。
+* `VisitorAPI.js`：`d_visid_ver` パラメーターを探します。 次のような訪問者ID サービスが表示されます：`d_visid_ver: 1.5.5`。 バージョン 1.5.2より古い訪問者API コードには、バージョン番号が含まれていませんでした。 監視結果にバージョン番号が返されない場合は、古いコードライブラリを使用している可能性があります（アップグレードが必要です）。

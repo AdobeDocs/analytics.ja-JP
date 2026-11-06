@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
-ht-degree: 60%
-
+source-wordcount: '185'
+ht-degree: 52%
 ---
-
 # 従来のログインの無効化
 
 Analytics ユーザーのレガシーログインを無効にする方法について説明します。
 
-ユーザーが従来のAnalytics ユーザー管理システムからAdobe Admin Consoleに移行した後、従来のログインを無効にできます。 レガシーログインを無効にすると、ユーザーがレガシーログインを使用しようとすると、CX Enterprise ログインにリダイレクトされます。
+ユーザーが従来のAnalytics ユーザー管理システムからAdobe Admin Consoleに移行した後、従来のログインを無効にできます。 レガシーログインを無効にすると、レガシーログインを使用しようとすると、CX Enterprise ログインにリダイレクトされます。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー ID の移行]**&#x200B;を選択して移行ツールを起動します。
 1. [!DNL User Information] セクションで、従来のログインを無効にするユーザーを含むドメインを探し、「**[!UICONTROL ユーザーを選択]**」をクリックします。
@@ -44,4 +42,4 @@ Analytics ユーザーのレガシーログインを無効にする方法につ�
 
    「従来のログインを無効化」には、従来の [!DNL my.omniture.com] ユーザー名とパスワードを引き続き使用できるユーザーが表示されます。
 
-   移行する前のユーザーのレガシーログインを無効にすることはできません。 無効化されると、ユーザーは Experience Cloud ID を使用して Analytics へログインおよびアクセスする必要があります。
+   移行する前のユーザーのレガシーログインを無効にすることはできません。 無効にすると、ユーザーはCX Enterpriseの資格情報を使用してログインし、Analyticsにアクセスする必要があります。

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics とブラウザーの cookie
@@ -84,7 +84,7 @@ ITP ポリシーは頻繁に進化しています。 最新のポリシーにつ
 
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
-* Adobe Visitor ID Service （ECID） ライブラリによって設定された[&#x200B; 「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
+* Adobe Visitor ID Service ライブラリによって設定された[&#x200B; 「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
 * CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics)
 * Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cookies/analytics)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 

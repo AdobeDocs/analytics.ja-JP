@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # データ保持ポリシー
@@ -63,7 +63,7 @@ Adobe Analytics で収集されたデータは、一定の期間保持されま�
 
 ## 現在のデータ保持ポリシーを表示／管理
 
-[!UICONTROL 管理] ツールのデータガバナンスダイアログには、データガバナンス用に設定されているレポートスイートの概要が示されます。 また、CX Enterprise組織にマッピングされているかどうか、およびこのレポートスイートにデータ保持ポリシーが適用されているかどうかも示されます。
+[!UICONTROL 管理] ツールのデータガバナンスダイアログには、データガバナンス用に設定されているレポートスイートの概要が示されます。 また、このレポートスイートに対して、Adobe組織にマッピングされているかどうか、およびデータ保持ポリシーが適用されているかどうかも示されます。
 
 ## よくある質問
 
