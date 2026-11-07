@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2120'
 ht-degree: 70%
 ---
 # セグメントの作成
@@ -94,6 +94,10 @@ ht-degree: 70%
 
 これらの設定は、いつでも後から変更できます。
 
+>[!NOTE]
+>
+>セグメントビルダーインターフェイスでは、[API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment)を介して作成されたすべてのセグメント定義をサポートしていません。 このページは正常に読み込まれなかったり、これらのセグメントのエラーがスローされたりする可能性があります。
+
 ### コンポーネント
 
 セグメント定義の作成の重要な部分は、ディメンション、指標、既存のセグメントおよび日付範囲を使用することです。 これらのすべてのコンポーネントは、セグメントビルダーのコンポーネントパネルから使用できます。
@@ -115,7 +119,6 @@ ht-degree: 70%
 
    このオプションは、**[!UICONTROL 含める]**&#x200B;または&#x200B;**[!UICONTROL 除外]** ドロップダウンメニューから&#x200B;[!UICONTROL **人物**]&#x200B;が定義のスコープ（コンテナ）として選択されている場合にのみ表示されます。
 
-   **メモ**：この機能はリリースの限定テスト段階にあり、お使いの環境ではまだ利用できない可能性があります。 機能が一般提供されると、この注記は削除されます。 Customer Journey Analytics リリースプロセスについて詳しくは、[Adobe Analytics機能リリース &#x200B;](/help/release-notes/releases.md)を参照してください。
 
 1. （オプション）デフォルトの演算子を変更します。 例えば、**[!UICONTROL 等しい]**&#x200B;から&#x200B;**[!UICONTROL 次のいずれかと等しい]**&#x200B;に変更します。 使用可能な演算子の概要について詳しくは、[演算子](../seg-reference/seg-operators.md)を参照してください。
 
