@@ -51,7 +51,7 @@ Adobe Analytics 管理者は、Adobe Analytics プロジェクトとその関連
 >
 >* Adobe AnalyticsのAPI。 詳しくは、[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)を参照してください。 すべてのAPI定義は、**[!UICONTROL 定義を選択]** ドロップダウンメニューで使用できます。
 >
->* Adobe CX Enterprise Coworker: 詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[Adobe Analytics プロジェクトをCustomer Journey AnalyticsにCoworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)と共に移行する」を参照してください。
+>* Adobe CX Enterprise Coworker: 詳しくは、Adobe CX Enterprise Coworker ドキュメントの「[Adobe Analytics プロジェクトをCustomer Journey AnalyticsにCoworker](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)と共に移行する」を参照してください。
 
 
 ## 移行の準備
