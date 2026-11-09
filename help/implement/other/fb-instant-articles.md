@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 89%
+ht-degree: 87%
 ---
 # Facebook インスタント記事での実装
 
@@ -48,7 +48,7 @@ Adobe Analytics を実装するための包括的なワークフローは次の�
 1. `stats.html` ページを作成します。 このページをコーディングして、URL からクエリ文字列パラメーターを取り込み、各パラメーターを Analytics 変数に割り当てます。
 1. Web サーバー上で `stats.html` ページをホストします
 1. Iframe 内で `stats.html` ファイルを参照して Facebook インスタント記事に Analytics を実装します
-1. Iframe の `src` 属性にクエリー文字列パラメーターを含めます
+1. iframe `src`属性にクエリ文字列パラメーターを含める
 
 ### 手順 1：`stats.html` ページを作成する
 

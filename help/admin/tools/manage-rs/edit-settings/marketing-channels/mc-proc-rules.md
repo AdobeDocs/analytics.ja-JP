@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # マーケティングチャネルの処理ルール
 
 _このページは、マーケティング チャネルをヒットに割り当てる処理ルールを指します。 データの収集方法を調整できる機能については、[処理ルール &#x200B;](../general/processing-rules/pr-overview.md)を参照してください。_
@@ -102,6 +100,6 @@ _このページは、マーケティング チャネルをヒットに割り当
 
 **コンバージョン変数**&#x200B;を使用すると、カスタム eVar、一致する演算子、検索する値を指定できます。
 
-| 変換変数条件 | 説明 |
+| 会話の変数条件 | 説明 |
 |---|---|
 | **eVar 1-250** | 関連付けられた[eVar](/help/components/dimensions/evar.md) ディメンション。 |

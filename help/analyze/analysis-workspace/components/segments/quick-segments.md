@@ -25,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 66%
@@ -56,7 +56,7 @@ ht-degree: 66%
 <!--
 ## Create a quick segment
 
-Any user in Anlysis Workspace can create a quick segment.
+Any user in Analysis Workspace can create a quick segment.
 
 To create a quick segment:
 
@@ -121,7 +121,7 @@ To create a quick segment:
 
 You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* Availablility across all your Workspace projects
+* Availability across all your Workspace projects
 * Support more complex segments as well as sequential segments
 
 You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].

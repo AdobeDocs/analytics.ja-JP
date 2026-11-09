@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # 処理ルールのユースケース
 
 組織内で処理ルールを使用する方法は、広範囲に及びます。 次の節では、それらを活用できる一般的な方法について詳しく説明します。
@@ -157,6 +155,6 @@ Adobeでは、望ましくない上書きを避けるために、可能な限り
 |条件|なし（常に実行） |
 | アクション | [!UICONTROL &#x200B; イベント &#x200B;] Event1を[!UICONTROL &#x200B; カスタム値] `0`に設定|
 
-イベントを削除するように表示されている処理ルール インターフェイスの![&#x200B; スクリーンショット &#x200B;](assets/remove_event.png)
+イベントを削除する方法を示す処理ルール インターフェイスの![&#x200B; スクリーンショット &#x200B;](assets/remove_event.png)
 
 +++

@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1694'
 ht-degree: 5%
 ---
 # Adobe AnalyticsからCustomer Journey Analyticsへのコンポーネントとプロジェクトの移行

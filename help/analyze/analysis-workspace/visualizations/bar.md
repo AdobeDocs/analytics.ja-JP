@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 77%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # 積み重ね棒グラフ
 
 >[!BEGINSHADEBOX]
@@ -55,7 +53,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 この ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 棒グラフ]**&#x200B;ビジュアライゼーションでは、1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。
 
-![ページビュー数、訪問回数、エントリ数、離脱数などの複数の指標を示す仮想棒グラフビジュアライゼーション。](assets/bar.png)
+![&#x200B; ページビュー、訪問数、エントリ数、離脱を含む複数の指標を示す縦棒グラフのビジュアライゼーション。](assets/bar.png)
 
 ビジュアライゼーション設定の精度ドロップダウンでは、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
 

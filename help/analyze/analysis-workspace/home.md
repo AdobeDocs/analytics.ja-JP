@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Analysis Workspace の概要 {#analysis-workspace-overview}
 
@@ -86,7 +86,7 @@ Analysis Workspace の主な機能は、ボタンパネルから使用できま�
 
 ## メニュー
 
-Analysis Workspace のほとんどの機能は、ドラッグ＆ドロップや、パネル、ビジュアライゼーションおよびコンポーネント内のコンテキストメニューから利用できます。
+Analysis Workspaceの機能のほとんどは、ドラッグ&amp;ドロップや、パネル、ビジュアライゼーション、コンポーネント内のコンテキストメニューから利用できます。
 
 Workspace メニューとショートカットまたはホットキーを使用して、機能を利用することもできます。 ショートカットキーは、ブラウザーを実行しているオペレーティングシステムによって異なります。 概要は以下の表を参照してください。
 

@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Adobe Analytics テクニカルドキュメントのアップデート
@@ -206,7 +206,7 @@ ht-degree: 88%
 | **2023年9月** | |
 | メディア再生滞在時間パネルの記事の構造を更新しました。 | メディア再生滞在時間というフォルダーを削除し、フォルダーの内容を 1 つの記事である[メディア再生滞在時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)パネルに統合しました。 <p>この変更は、その他のパネルのドキュメントに沿ったものになります。</p> |
 | 入門コンテンツの強化 | 管理者、アナリスト、エンドユーザー、開発者向けの主な基本を学ぶタスクとリソースの概要を説明する情報を追加しました。 以下の新しい記事を利用できます。 <ul><li>[基本を学ぶ（役割別）](/help/analyze/get-started/get-started-by-role.md)</li><li>[Analytics インターフェイスについて](/help/analyze/get-started/analytics-interface.md)<li>[ユースケース](/help/analyze/get-started/use-cases.md)</li></ul> |
-| ストリーミングメディアコレクションのレポートドキュメントの改善 | API ドキュメントを独自の節に統合し、一部の記事の順序を調整するなど、ストリーミングメディアコレクションガイドの「レポート」節の内容の一部を再編成しました。 |
+| ストリーミングメディアコレクションのレポートドキュメントの改善 | ストリーミングメディア収集ガイドの「レポート」セクションのコンテンツの一部を再編成しました。これには、独自のセクションでAPI ドキュメントを統合したり、一部の記事の順序を調整したりすることが含まれます。 |
 | **2023年8月** | |
 | データフィードの明確化 | [開始日と終了日の定義](/help/export/analytics-data-feed/create-feed.md)を更新し、履歴データのデータフィードを処理する際に、データが収集されている過去の任意の日付に開始日を設定できることを明確化しました。 |
 | Adobe Experience Platform Edge Network のデータ処理 | Adobe Analytics が [Edge Network からのデータを処理](../implement/aep-edge/overview.md)する方法に関するコンテンツを追加しました。 |

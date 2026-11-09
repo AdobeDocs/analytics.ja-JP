@@ -1,5 +1,5 @@
 ---
-description: 会社が利用できる Adobe Analytics パッケージおよび機能へのアクセスレベルを表示する方法。
+description: 自社が利用できるAdobe Analytics パッケージおよび機能へのアクセスレベルを表示する方法について説明します。
 title: 機能アクセスレベル
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # 機能アクセスレベル
 
 **[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL 機能アクセスレベルを表示]**

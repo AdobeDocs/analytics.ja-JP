@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 71%
-
+source-wordcount: '215'
+ht-degree: 65%
 ---
-
 # 積み重ね横棒グラフ
 
 >[!BEGINSHADEBOX]
@@ -39,7 +37,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 >[!ENDSHADEBOX]
 
-横棒グラフビジュアライゼーションには、標準および積み重ねオプションがあります。
+横棒グラフビジュアライゼーションには、「標準」と「積み重ね」の 2 種類のオプションがあります。
 
 ## 横棒グラフ {#horizontal-bar}
 
@@ -52,7 +50,7 @@ _この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/
 
 <!-- markdownlint-enable MD034 -->
 
-この ![GraphBarVertical](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 横棒グラフ]**&#x200B;ビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]**&#x200B;のビジュアライゼーションには、1つ以上の指標に対する様々な値を表す水平バーが表示されます。
 
 ![ページビュー数、ページ速度、訪問回数、入口、出口などの指標を示す横棒グラフ。](assets/horizontal-bar.png)
 

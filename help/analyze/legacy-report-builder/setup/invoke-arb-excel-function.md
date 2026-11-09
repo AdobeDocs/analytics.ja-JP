@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 6%
-
 ---
-
 # Microsoft ExcelでのReport Builder関数の使用
 
 {{legacy-arb}}
@@ -48,7 +46,7 @@ Report Builder関数を使用して、Report Builder ユーザーインターフ
 | AsyncRefreshActiveWorksheet （） | string | アクティブなワークシートに存在するすべてのReport Builder リクエストを更新します。 |
 | AsyncRefreshWorksheet （string worksheetName） | string | 指定したワークシート（タブに表示されるワークシート名）に存在するすべてのReport Builder リクエストを更新します。 |
 | AsyncRefreshWorksheetAltTextParam （）; | string | Ms フォームコントロールの代替テキストを介して渡された特定のワークシート名に存在するすべてのReport Builder リクエストを更新します |
-| tring GetLastRunStatus （） | string | 前回の実行のステータスを表す文字列を返します。 |
+| GetLastRunStatus （） | string | 前回の実行のステータスを表す文字列を返します。 |
 
 Report Builder関数にアクセスするには、**[!UICONTROL 数式]** > **[!UICONTROL 関数を挿入]**&#x200B;に移動します。 検索フィールドを使用して関数を検索するか、カテゴリを選択してそのカテゴリ内の関数を一覧表示します。
 

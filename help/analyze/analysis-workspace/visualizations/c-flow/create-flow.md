@@ -30,13 +30,11 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: '1703'
 ht-degree: 84%
-
 ---
-
 # フロービジュアライゼーションの設定 {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +156,7 @@ ht-degree: 84%
 
 ビジュアライゼーションの上部に、フロー設定の概要が表示されます。 図のパスは比例しています。 アクティビティが多いパスは、太く見えます。
 
-![訪問回数、パスディメンション：ページ、フローコンテナ：訪問者数で終わるを示すフロー出力の例。](assets/flow-output.png)
+![&#x200B; フロー出力の例：「訪問回数で終了」、「パスディメンション：ページ」、「フローコンテナ：ビジター」を示す](assets/flow-output.png)
 
 データをさらにドリルダウンして調べるには、次の複数のオプションがあります。
 

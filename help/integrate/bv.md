@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -141,7 +141,7 @@ CJA インバウンド統合は、より広範なCDN リクエスト概要デー
 コネクタを有効にする前に、次の点を確認してください。
 
 - 接続するサイトのAdobe Brand Visibility オンボーディングが完了しました。
-- BYOCDN ログ転送は、そのサイトに対して設定および確認されます（[prequisites](#inbound-integration)を参照）。
+- BYOCDN ログ転送は、そのサイトに対して設定および確認されます（[前提条件](#inbound-integration)を参照）。
 - データは、そのサイトのAdobe Brand Visibility Agentic Traffic ダッシュボードに表示されます。
 - サイトを接続するレポートスイートがわかります。
 
