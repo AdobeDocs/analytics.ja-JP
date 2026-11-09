@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1197
-ht-degree: 84%
-
+source-wordcount: '1197'
+ht-degree: 83%
 ---
-
 # メディア再生滞在時間パネル {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -51,14 +49,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="メディア再生に費やした時間"
->abstract="ビデオ消費の推移を分析し、様々な精度を選択して、分類および比較します。<br/><br/>**精度**：同時視聴者数を表示する期間を選択します。<br/>**パネル概要数値（オプション）**：各行の日付または時間の詳細と共に概要の数値を表示するオプション。 最大値では、ピーク時の再生に費やした時間の詳細が表示されます。 最小値では、トラフの詳細が表示されます。 合計には、再生に費やした合計時間の詳細が表示されます。<br/>**系列の分類（オプション）**：セグメント、ディメンション、ディメンション項目または日付範囲でビジュアライゼーションを分類できます。 一度に 10 行まで表示できます。 分類は 1 つのレベルに制限されます。<br/>**時間形式**：ビジュアライゼーションの時間形式を時間または分で表示するオプション。"
+>abstract="ビデオ消費の推移を分析し、様々な精度を選択して、分類および比較します。<br/><br/>**精度**：同時視聴者数を表示する期間を選択します。<br/>**パネル概要数値（オプション）**：各行の日付または時間の詳細と共に概要の数値を表示するオプション。 「最大値」には、ピーク時の再生時間の詳細が表示されます。 最小値では、トラフの詳細が表示されます。 合計には、再生に費やした合計時間の詳細が表示されます。<br/>**系列の分類（オプション）**：セグメント、ディメンション、ディメンション項目または日付範囲でビジュアライゼーションを分類できます。 一度に 10 行まで表示できます。 分類は 1 つのレベルに制限されます。<br/>**時間形式**：ビジュアライゼーションの時間形式を時間または分で表示するオプション。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の&#x200B;_Adobe Analytics![&#128279;](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**&#x200B;**&#x200B;_<br/>_ メディア再生滞在時間パネル [&#128279;](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)を参照してください メディア再生滞在時間パネル _）。
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の&#x200B;_Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)_****_<br/>_ メディア再生滞在時間パネル ](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)を参照してください[ メディア再生滞在時間パネル _）。![
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +82,7 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [メディア再生滞在時間パネル](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +147,7 @@ Adobe Analytics for Streaming Media アドオンを購入したお客様は、�
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルを作成](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[ パネルを作成](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
 >[メディア分平均オーディエンスパネル](average-minute-audience-panel.md)
 >[メディア同時視聴者数パネル](media-concurrent-viewers.md)
 >
@@ -171,7 +169,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

@@ -25,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 66%
@@ -43,20 +43,20 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; クイックセグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ クイックセグメント ](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[&#x200B; クイックセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
+>[ クイックセグメントの作成](/help/components/segmentation/segmentation-workflow/seg-quick.md#create)
 
 
 <!--
 ## Create a quick segment
 
-Any user in Anlysis Workspace can create a quick segment.
+Any user in Analysis Workspace can create a quick segment.
 
 To create a quick segment:
 
@@ -121,7 +121,7 @@ To create a quick segment:
 
 You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* Availablility across all your Workspace projects
+* Availability across all your Workspace projects
 * Support more complex segments as well as sequential segments
 
 You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].

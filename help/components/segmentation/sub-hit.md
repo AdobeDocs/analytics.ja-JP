@@ -20,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -47,29 +47,29 @@ Adobe Analyticsでは、ヒットに商品IDがない場合でも、すべての
 
 >[!BEGINTABS]
 
->[!TAB 分析をヒット]
+>[!TAB 分析]をヒット
 
-セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL ヒット]** コンテナで&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL 等しい]** **男性**&#x200B;を&#x200B;**[!UICONTROL 含める]**&#x200B;に指定します。
+セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL ヒット]** コンテナで&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL 等しい]** ]**男性**[!UICONTROL &#x200B;を&#x200B;**[!UICONTROL 含める]**&#x200B;に指定します。
 
-製品カテゴリの男性![&#128279;](./assets/product-category-segmentation-hits.png)のヒットレベルに関するセグメントを表示する パネル
+製品カテゴリの男性](./assets/product-category-segmentation-hits.png)のヒットレベルに関するセグメント化を示す![ パネル
 
-その結果、少なくとも1つの&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、これらの注文の他の製品からの収益は&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に含まれます。
+その結果、少なくとも1つの&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、これらの注文の他の製品からの収益は&#x200B;**[!UICONTROL オンライン収益]**指標に含まれます。
 カテゴリについて報告すると、**[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;の他のすべての値が、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;の製品を含む注文の一部として報告されます。
 
 >[!TAB  サブヒット分析]
 
 セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL Products]** コンテナの&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL equals]** **[!UICONTROL Men]**&#x200B;を&#x200B;**[!UICONTROL Include]**&#x200B;に指定します。
 
-![製品カテゴリ Men](./assets/product-category-segmentation-sub-hits.png)のサブヒットレベルに関するセグメンテーションを示すパネル
+![製品カテゴリの男性](./assets/product-category-segmentation-sub-hits.png)のサブヒットレベルのセグメンテーションを示すパネル
 
-その結果、少なくとも&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;に属する製品の収益のみが&#x200B;**[!UICONTROL オンライン収益]**&#x200B;指標に含まれます。
+その結果、少なくとも&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;を含むすべての注文が考慮され、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;に属する製品の収益のみが&#x200B;**[!UICONTROL オンライン収益]**指標に含まれます。
 カテゴリについて報告する場合は、**[!UICONTROL 男性]** **[!UICONTROL 小売：ファッション製品カテゴリ]**&#x200B;のみが報告されます。
 
 >[!TAB  サブヒット分析（除外） ]
 
 セグメンテーションビルダーで、または&#x200B;**[!UICONTROL クイックセグメント]**&#x200B;の一部として、**[!UICONTROL 商品]** コンテナの&#x200B;**[!UICONTROL Dimension]** **[!UICONTROL 小売：ファッション商品カテゴリ]** **[!UICONTROL 等しい]** **[!UICONTROL 男性]**&#x200B;を&#x200B;**[!UICONTROL 除外]**&#x200B;に指定します。
 
-![製品カテゴリを除外するサブヒットレベルにセグメンテーションを表示するパネル Men](./assets/product-category-segmentation-sub-hits-exclude.png)
+![製品カテゴリを除外するためのサブヒットレベルのセグメンテーションを示すパネル Men](./assets/product-category-segmentation-sub-hits-exclude.png)
 
 製品レベルで除外するには、少なくとも1つの製品を含むヒットが含まれ、そのスコープ内でサブヒットレベルの除外が適用されます。 この除外は、ヒット全体を除外するヒットレベルの除外とは異なります。
 

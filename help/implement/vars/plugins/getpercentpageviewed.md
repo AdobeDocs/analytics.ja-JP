@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 83%
@@ -115,7 +115,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 ```js
 // 1. Runs the getPercentPageViewed function if the page variable is set
 // 2. Sets prop1 to the previous value of the page variable
-// 3. Sets prop2 to the intial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
+// 3. Sets prop2 to the initial percent, the highest percent, and the final percent viewed; the number of folds available on the page, and the number of folds viewed ( of the previous page)
 if(s.pageName) getPercentPageViewed();
 if(_ppvPreviousPage)
 {

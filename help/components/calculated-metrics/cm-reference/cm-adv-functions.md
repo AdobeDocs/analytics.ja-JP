@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '4863'
 ht-degree: 96%
@@ -894,7 +894,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. 相関係数を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -916,7 +916,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. b を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -962,7 +962,7 @@ Only available in CJA
 
 ![効果](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE &#x200B; テーブル &#x200B;]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
+[!BADGE  テーブル ]{type="Neutral"} ログ回帰：Y = a ln （X） + b. a を返します。
 
 | 引数 | 説明 |
 |---|---|
@@ -1734,7 +1734,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row)
 

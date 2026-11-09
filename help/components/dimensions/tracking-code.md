@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # トラッキングコード
 
@@ -45,7 +45,7 @@ AppMeasurement は、[`campaign`](/help/implement/vars/page-vars/campaign.md) �
 | プロパティ | 値 |
 | --- | --- |
 | **AppMeasurement変数** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Web SDK / XDM フィールド** | [`marketing.trackingCode`](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Web SDK / XDM フィールド** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **クエリパラメーター** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML タグ** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **バイト制限** | 255 バイト |
@@ -88,7 +88,7 @@ AppMeasurement は、[`campaign`](/help/implement/vars/page-vars/campaign.md) �
 3. 3 週間後、トラッキングコードやマーケティングチャネルなしで再びサイトに戻り、再度離脱します。
 4. その 2 週間後（初回訪問から 5 週間後）に、トラッキングコードやマーケティングチャネルなしで再びサイトに戻り、購入します。
 
-最終的にユーザーは 30 日を過ぎてから購入を行いましたが、30 日を超えて非アクティブな状態になることはありませんでした。 この場合、トラッキングコードのマーケティングチャネルに関連付けられた売上高は表示されますが、トラッキングコードのディメンション自体に関連付けられた売上高は表示されません。
+最終的にユーザーは 30 日を過ぎてから購入を行いましたが、30 日を超えて非アクティブな状態になることはありませんでした。 この場合、トラッキングコードマーケティングチャネルに起因する収益が表示されますが、トラッキングコードディメンション自体には表示されません。
 
 
 

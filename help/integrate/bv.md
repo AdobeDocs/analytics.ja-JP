@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -34,7 +34,7 @@ AIが主要な発見チャネルに。 ChatGPT、Claude、Copilot、Perplexity�
 >
 >この統合の一環として、ブランドの可視性データの一時的な処理が米国で行われます。 データは、Adobe Analytics コントラクトで設定されたとおりに、指定したリージョンに最終的に保存されます。
 
-顧客ジャーニー分析を個別に使用すると、インバウンド統合が充実し、同じCDN トラフィックデータがAdobe Experience Platformを通じてCustomer Journey Analyticsに格納されます。 この統合は今すぐ利用できます。 [Customer Journey Analyticsとのブランドの可視性統合](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/bv)を参照してください。 Customer Journey Analyticsを使用している場合は、他のデータセットとブランドの可視性データの結合がサポートされているので、最初にその統合を確認してください。 このガイドで説明するAnalyticsの統合は、Customer Journey Analyticsへのアクセス権やライセンスを持たずにAdobe Analyticsを使用しているお客様向けに設計されています。
+顧客ジャーニー分析を個別に使用すると、インバウンド統合が充実し、同じCDN トラフィックデータがAdobe Experience Platformを通じてCustomer Journey Analyticsに格納されます。 この統合は今すぐ利用できます。 [Customer Journey Analyticsとのブランドの可視性統合](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)を参照してください。 Customer Journey Analyticsを使用している場合は、他のデータセットとブランドの可視性データの結合がサポートされているので、最初にその統合を確認してください。 このガイドで説明するAnalyticsの統合は、Customer Journey Analyticsへのアクセス権やライセンスを持たずにAdobe Analyticsを使用しているお客様向けに設計されています。
 
 
 ## ユースケース
@@ -79,7 +79,7 @@ Adobe Analyticsとブランドの可視性の連携には、次のふたつの�
 >
 >BYOCDN Log Forwardingは、エージェント型トラフィック分析に使用されるサーバーサイド CDN リクエストデータを提供します。 このデータは、ブラウザーで実行されているJavaScript タグには依存しません。 必要なCDN ログフィードがなければ、コネクタにはレポートスイートに取り込むトラフィックデータはありません。
 >
->詳しくは、[BYOCDN ログ転送リファレンス &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)を参照してください。
+>詳しくは、[BYOCDN ログ転送リファレンス ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)を参照してください。
 
 
 >[!IMPORTANT]
@@ -141,7 +141,7 @@ CJA インバウンド統合は、より広範なCDN リクエスト概要デー
 コネクタを有効にする前に、次の点を確認してください。
 
 - 接続するサイトのAdobe Brand Visibility オンボーディングが完了しました。
-- BYOCDN ログ転送は、そのサイトに対して設定および確認されます（[prequisites](#inbound-integration)を参照）。
+- BYOCDN ログ転送は、そのサイトに対して設定および確認されます（[前提条件](#inbound-integration)を参照）。
 - データは、そのサイトのAdobe Brand Visibility Agentic Traffic ダッシュボードに表示されます。
 - サイトを接続するレポートスイートがわかります。
 
@@ -221,7 +221,7 @@ CJA インバウンド統合は、より広範なCDN リクエスト概要デー
    1. 最近の日付範囲に対するリクエスト量の確認が表示されます。
    1. **URL**、**ユーザーエージェント**、**ステータス**、**リファラー**&#x200B;のディメンションが期待される値を返すことを確認します。
 
-   データを表示するのに必要な正確な時間は、[&#x200B; コネクタを有効にする](#enable-the-connector)で説明されているバックフィルと同期のスケジュールによって異なります。
+   データを表示するのに必要な正確な時間は、[ コネクタを有効にする](#enable-the-connector)で説明されているバックフィルと同期のスケジュールによって異なります。
 
 
 
@@ -237,8 +237,8 @@ CJA インバウンド統合は、より広範なCDN リクエスト概要デー
 
 >[!MORELIKETHIS]
 >
->[ブランドの可視性/LLMO統合リファレンス](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/bv)
->[BYOCDN ログ転送リファレンス &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[ブランドの可視性/LLMO統合リファレンス](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN ログ転送リファレンス ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## ドキュメントのメモの作成（公開用ではありません）
 
@@ -256,4 +256,4 @@ CJA インバウンド統合は、より広範なCDN リクエスト概要デー
 
 ## アウトバウンド統合
 
-このガイドでは、Analytics レポートスイートにボットと自動ブランドの可視性トラフィックデータを追加するインバウンドエージェント統合のみを説明します。 公開された統合ドキュメントには、Analytics パフォーマンスデータをブランドの可視性製品内でブランドの可視性できるように設定する、アウトバウンドディレクションも記載されています。 その方向は、このガイドの範囲外です。 アウトバウンド統合について詳しくは、[ブランドの可視性ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/resources/adobe-analytics-integration)を参照してください。
+このガイドでは、Analytics レポートスイートにボットと自動ブランドの可視性トラフィックデータを追加するインバウンドエージェント統合のみを説明します。 公開された統合ドキュメントには、Analytics パフォーマンスデータをブランドの可視性製品内でブランドの可視性できるように設定する、アウトバウンドディレクションも記載されています。 その方向は、このガイドの範囲外です。 アウトバウンド統合について詳しくは、[ブランドの可視性ドキュメント ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)を参照してください。

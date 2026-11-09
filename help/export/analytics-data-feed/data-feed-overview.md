@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -49,7 +49,7 @@ ht-degree: 95%
 * [データフィードのベストプラクティス](/help/export/analytics-data-feed/data-feeds-best-practices.md)：データフィードの作成と管理のベストプラクティス。
 * [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
 * [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
-* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について<!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について<!-- Is this still the output users can download from the destination? I asked Jun. -->
 * [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト。
 
 >[!BEGINSHADEBOX]
@@ -62,6 +62,6 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [データフィード ID の検索](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]

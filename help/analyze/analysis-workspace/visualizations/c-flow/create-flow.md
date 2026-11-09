@@ -30,13 +30,11 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1704
+source-wordcount: '1703'
 ht-degree: 84%
-
 ---
-
 # フロービジュアライゼーションの設定 {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +156,7 @@ ht-degree: 84%
 
 ビジュアライゼーションの上部に、フロー設定の概要が表示されます。 図のパスは比例しています。 アクティビティが多いパスは、太く見えます。
 
-![訪問回数、パスディメンション：ページ、フローコンテナ：訪問者数で終わるを示すフロー出力の例。](assets/flow-output.png)
+![ フロー出力の例：「訪問回数で終了」、「パスディメンション：ページ」、「フローコンテナ：ビジター」を示す](assets/flow-output.png)
 
 データをさらにドリルダウンして調べるには、次の複数のオプションがあります。
 
@@ -211,17 +209,17 @@ ht-degree: 84%
 このオプションを使用する場合、次の点に注意してください。
 
 * **[!UICONTROL 最初 / 最後の発生に制限]**&#x200B;は、シリーズの最初または最後の発生のみをカウントします。 **[!UICONTROL 次で始まる]**&#x200B;または&#x200B;**[!UICONTROL 次で終わる]**&#x200B;条件の他のすべての発生は、破棄されます。
-* **[!UICONTROL 次で始まる]**&#x200B;フローで使用していた場合、開始条件に一致する最初の発生のみが含まれます。
-次の例では、フロー内の各ステップにおける*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**すべて**&#x200B;の発生件数が含まれます。
+* **[!UICONTROL 次で始まる]**フローで使用していた場合、開始条件に一致する最初の発生のみが含まれます。
+次の例では、フロー内の各ステップにおける*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**すべて**の発生件数が含まれます。
   ![制限なし、最初](assets/limitofffirst.png)
 
-  次の例では、フローの各ステップにおける&#x200B;*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**最初**&#x200B;の発生件数のみが含まれます。
+  次の例では、フローの各ステップにおける&#x200B;*買い物かごに追加*&#x200B;と&#x200B;*製品メインカテゴリ*&#x200B;の&#x200B;**最初**の発生件数のみが含まれます。
   ![リント、開始](assets/limitonfirst.png)
-* **[!UICONTROL 次で終わる]**&#x200B;フローで使用していた場合、終了条件に一致する最後の発生のみが含まれます。
-次の例では、フロー内の各ステップにおける*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**すべて**&#x200B;の発生件数が含まれます。
+* **[!UICONTROL 次で終わる]**フローで使用していた場合、終了条件に一致する最後の発生のみが含まれます。
+次の例では、フロー内の各ステップにおける*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**すべて**の発生件数が含まれます。
   ![制限なし、最初](assets/limitofflast.png)
 
-  次の例では、フローの各ステップにおける&#x200B;*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**最後**&#x200B;の発生のみが含まれます。
+  次の例では、フローの各ステップにおける&#x200B;*製品メインカテゴリ*&#x200B;と&#x200B;*買い物かごに追加*&#x200B;の&#x200B;**最後**の発生のみが含まれます。
   ![リント、開始](assets/limitonlast.png)
 * 使用される系列は、コンテナに基づいて異なります。 **[!UICONTROL 訪問者]** コンテナを使用している場合、一連のイベントは訪問です。 **[!UICONTROL 訪問者]** コンテナを使用する場合、一連のイベントは、指定された日付範囲の特定のユーザーのすべてのヒットになります。
 * 「**[!UICONTROL 最初／最後の発生に制限]**」オプションは、「**[!UICONTROL 次で始まる]**」または「**[!UICONTROL 次で終わる]**」フィールドで指標またはディメンション項目を使用している場合に、詳細設定で設定できます。
@@ -229,7 +227,7 @@ ht-degree: 84%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[ パネルへのビジュアライゼーションの追加](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[ビジュアライゼーションコンテキストメニュー](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # ユーザー環境設定
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}を参照してください。
+デモビデオについて詳しくは、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [環境設定の管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -111,7 +111,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトの一�
 | **「テンプレート」タブ** | | |
 |  | 「テンプレート」タブを非表示 | 組織内のすべてのユーザーの「テンプレート」タブを非表示にします。 |
 | **プロジェクトの共有** | | |
-| | Workspace ユーザーとのみ共有を許可 | このオプションを有効にすると、組織内のユーザーには&#x200B;**[!UICONTROL 共有]**&#x200B;メニューの「**[!UICONTROL 任意のユーザーと共有]**」オプションが表示されなくなります。 「[誰とでもプロジェクトを共有する（ログインは不要） &#x200B;](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)」の説明に従って、Analysis Workspace アカウントを持たないユーザーとプロジェクトを共有することはできません。<br/>このオプションは、Healthcare Shieldのライセンスを持つお客様を除くすべての組織でデフォルトで無効になっています。 <p>このオプションを有効または無効にする際は、次の点を考慮してください。<ul><li>このオプションを有効にすると、以前に「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを通じてプロジェクトへのアクセス権を取得したユーザーは、そのプロジェクトにアクセスできなくなります。</li><li>このオプションを有効（Workspace ユーザーとのみ共有を許可）にし、後で無効（任意のユーザーと共有を許可）にする場合、以前に「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを通じてプロジェクトへのアクセス権を取得した人物に対するそのプロジェクトへのアクセス権は自動的に回復しません。 この場合、プロジェクトを共有するユーザーは、[任意のユーザーとプロジェクトを共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる&#x200B;**「[!UICONTROL **&#x200B;リンクがアクティブです&#x200B;**]」オプションを有効にする必要があります（[!UICONTROL 共有]&#x200B;**／**&#x200B;[!UICONTROL 任意のユーザーと共有]**）。</li><li>**Healthcare Shield のライセンスを取得した顧客の場合**：このオプションはデフォルトで有効になっており、無効にできません。 このオプションを無効にして、ユーザーが「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを使用できるようにするには、まず Adobe Admin Console で[!UICONTROL 任意のユーザーとプロジェクトリンクを共有]権限（[!UICONTROL レポートツール]の下にある）を追加する必要があります。 権限が追加されたら、このオプションを無効にして、結果として生じる法的通知を受け入れることができます。 Admin Console で権限を追加する方法について詳しくは、[Admin Console での製品権限の管理](https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html)を参照してください。</li></ul> |
+| | Workspace ユーザーとのみ共有を許可 | このオプションを有効にすると、組織内のユーザーには&#x200B;**[!UICONTROL 共有]**&#x200B;メニューの「**[!UICONTROL 任意のユーザーと共有]**」オプションが表示されなくなります。 「[誰とでもプロジェクトを共有する（ログインは不要） ](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)」の説明に従って、Analysis Workspace アカウントを持たないユーザーとプロジェクトを共有することはできません。<br/>このオプションは、Healthcare Shieldのライセンスを持つお客様を除くすべての組織でデフォルトで無効になっています。 <p>このオプションを有効または無効にする際は、次の点を考慮してください。<ul><li>このオプションを有効にすると、以前に「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを通じてプロジェクトへのアクセス権を取得したユーザーは、そのプロジェクトにアクセスできなくなります。</li><li>このオプションを有効（Workspace ユーザーとのみ共有を許可）にし、後で無効（任意のユーザーと共有を許可）にする場合、以前に「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを通じてプロジェクトへのアクセス権を取得した人物に対するそのプロジェクトへのアクセス権は自動的に回復しません。 この場合、プロジェクトを共有するユーザーは、[任意のユーザーとプロジェクトを共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる&#x200B;**「[!UICONTROL **&#x200B;リンクがアクティブです&#x200B;**]」オプションを有効にする必要があります（[!UICONTROL 共有]**／**[!UICONTROL 任意のユーザーと共有]**）。</li><li>**Healthcare Shield のライセンスを取得した顧客の場合**：このオプションはデフォルトで有効になっており、無効にできません。 このオプションを無効にして、ユーザーが「**[!UICONTROL 任意のユーザーと共有]**」の共有オプションを使用できるようにするには、まず Adobe Admin Console で[!UICONTROL 任意のユーザーとプロジェクトリンクを共有]権限（[!UICONTROL レポートツール]の下にある）を追加する必要があります。 権限が追加されたら、このオプションを無効にして、結果として生じる法的通知を受け入れることができます。 Admin Console で権限を追加する方法について詳しくは、[Admin Console での製品権限の管理](https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html)を参照してください。</li></ul> |
 | | CX Enterprise 認証が必要 | このオプションが有効になっている場合、Analysis Workspaceの「**[!UICONTROL 誰とでも共有]**」オプションからプロジェクトへのアクセス権を与えられたユーザーは、CX Enterprise資格情報を使用して認証する必要があります。<p>このオプションを有効にすると、ユーザーが「**[!UICONTROL 誰とでも共有]**」共有オプションを使用してプロジェクトを共有するたびに、共有ダイアログで「**[!UICONTROL CX Enterprise認証を要求]**」オプションが有効になり、プロジェクトを共有しているユーザーが無効にすることはできません。 ユーザーがプロジェクトを任意のユーザーと共有できる方法について詳しくは、[任意のユーザーとプロジェクトを共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)を参照してください。 <p> <p>このオプションを有効にする際は、次の点を考慮してください。 <ul><li>このオプションを有効にすると、以前に&#x200B;**[!UICONTROL Share with anyone]**&#x200B;共有オプションで共有され、[!UICONTROL Require CX Enterprise authentication] オプションが有効になっていないすべてのプロジェクトが非アクティブになります。<p>このオプションを有効にし（CX Enterprise認証を必要とする）、後で無効にする（リンクを持つユーザーがプロジェクトにアクセスできるようにする）、以前に&#x200B;**[!UICONTROL 誰とでも共有]**&#x200B;共有オプションを使用してプロジェクトへのアクセスを受け取ったユーザーは、プロジェクトへのアクセスを自動的に取り戻しません。 この場合、プロジェクトを共有するユーザーは、[任意のユーザーとプロジェクトを共有（ログイン不要）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)で説明するように、任意のユーザーとプロジェクトを共有する際に使用できる&#x200B;**「[!UICONTROL リンクがアクティブです]」オプションを有効にする必要があります（[!UICONTROL 共有]**／**[!UICONTROL 任意のユーザーと共有]**／**[!UICONTROL リンクがアクティブです]**）。</li><li>このオプションは、組織に SSO が実装されている場合にのみ使用できます。 システム管理者が組織の SSO を有効にする方法について詳しくは、[ID とシングルサインオンの設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。</p><p>組織に SSO が設定されている場合は、任意の種類の自動アカウント作成がコンソールに実装されているかどうかを確認します。 通常、[アカウントの自動作成の有効化](https://helpx.adobe.com/jp/enterprise/using/automatic-account-creation.html)で説明するように、システム管理者がこの設定を行います。</li><li>組織が Healthcare Shield のライセンスを取得している場合、このオプションはデフォルトで有効になっており、無効にすることはできません。</li></ul> |
 
 {style="table-layout:auto"}
@@ -142,7 +142,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -198,7 +198,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトにつ�
 | | 総計の表示 | この合計は、収集されたすべてのヒットを表し、*レポートスイートの合計*&#x200B;と呼ばれることもあります。 セグメントがパネルレベルまたはフリーフォームテーブル内で適用されると、この合計は、セグメント条件に一致するすべてのヒットを反映するように調整されます。 [静的な行](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)を含むテーブルや分類では、総計はサポートされません。 |
 | | スパークラインを表示 | グラフの下部に折れ線グラフを表示または非表示にします。 非表示にすると、凡例が変更され、折れ線を視覚的に参照しなくなります。 |
 | | 数値 | セルに指標の数値を表示するかどうかを決定します。 例えば、指標がページビューの場合、数値は行項目のページビュー数になります。 |
-| | パーセント | セルに指標の割合の値を表示するかどうかを決定します。 例えば、指標がページビューの場合、割合の値は行項目のページビュー数を列の合計ページビュー数で割った数になります。  メモ：より正確を期すため、100％を超える割合が表示される場合があります。 列の幅が非常に大きくなることを可能にするため、上限キャップが 1,000％に引き上げられます。 |
+| | パーセント | セルに指標の割合の値を表示するかどうかを決定します。 例えば、指標がページビューの場合、割合の値は行項目のページビュー数を列の合計ページビュー数で割った数になります。  注意：より正確に言うと、100%を超える割合が表示されることがあります。 列の幅が非常に大きくなることを可能にするため、上限キャップが 1,000％に引き上げられます。 |
 | | 異常値を表示 | この列の値に対して異常値検出を実行するかどうかを決定します。 |
 | | ゼロを値なしとして解釈 | 値が 0 のセルについて、0 を表示するか空白にするかを決定します。 この設定は、月の各日のデータを確認する際に、まだ発生していない日が含まれている場合に便利です。  将来の日付については、0 を表示する代わりに空白セルを表示できます。 グラフにも、この設定が適用されます（例えば、この設定がオンになっている場合、値が 0 の折れ線や棒は表示されません）。 |
 | | 背景 | セルのすべての書式（横向き棒グラフや条件付き書式など）を表示／非表示にするかどうかを決定します。 <ul><li>棒グラフ</li> 列の合計に相対的なセルの値を示す横棒グラフ。 <li>条件付き書式</li>条件付き書式について詳しくは、[列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)の「条件付き書式」を参照してください。</ul> |
@@ -267,7 +267,7 @@ Analysis Workspace で作成するすべての新しいプロジェクトのビ�
 | **積み重ねグラフ** | | |
 | | 100% の積み重ね | 積み上げ面グラフ、積み上げ棒グラフ、または積み上げ横棒グラフのビジュアライゼーションでこの設定を有効にすると、グラフが「100％積み上げ」ビジュアライゼーションになります。 <p>詳しくは、[棒グラフおよび積み重ね棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md)を参照してください。</p> |
 | **[ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
-| | バケット数 | ビジュアライゼーション内のデータ範囲（バケット）の数を選択します。 グループの最大数は 50 です。 <p>詳しくは、[ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)を参照してください。</p> |
+| | バケット数 | ビジュアライゼーション内のデータ範囲（バケット）の数を選択します。 バケットの最大数は 50 です。 <p>詳しくは、[ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md)を参照してください。</p> |
 | | カウント方法 | 次のオプションから選択します。 <ul><li>ヒット</li><li>訪問</li><li>訪問者</li></ul> <p>例えば、ページビューで使用する場合は、訪問者ごとのページビュー、訪問ごとのページビュー、ヒットごとのページビューを選択できます。 ヒットの場合、フリーフォームテーブルの Y 軸指標として、「回数」が使用されます。</p> |
 | **[マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | ディメンションの描画 | <ul><li>モバイルの緯度 / 経度</li><li>地理的ディメンション</li></ul> |

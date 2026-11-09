@@ -36,13 +36,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 714
-ht-degree: 91%
-
+source-wordcount: '714'
+ht-degree: 89%
 ---
-
 # アトリビューションパネル {#attribution-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -63,7 +61,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版の[&#x200B; アトリビューションパネル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**。_<br/>_この記事の__
+_この記事では、この記事の_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版の[ アトリビューションパネル ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**。_<br/>_この記事の__
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +76,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 * アトリビューションのセグメント別分類：すべての重要なセグメントにわたってマーケティングチャネルのパフォーマンスを容易に比較できます（例：新規顧客とリピート顧客、製品 X と製品 Y、ロイヤルティまたは CLV）。
 * チャネルのクロスオーバー分析およびマルチタッチ分析の調査：ベン図やヒストグラムを使用でき、アトリビューション結果のトレンドを追跡できます。
 * 主要なマーケティングシーケンスの視覚的分析：コンバージョンにつながったパスをマルチノードのフローおよびフォールアウトビジュアライゼーションで視覚的に調査できます。
-* 計算指標の構築：任意の数のアトリビューション割り当て方法を使用できます。
+* 計算指標を作成：任意の数のアトリビューション配分方法を使用できます。
 
 ## 使用
 
@@ -98,7 +96,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
    ![選択した複数のディメンションと指標を表示するアトリビューションパネルウィンドウ。](assets/attribution-panel.png)
 
-1. **[!UICONTROL 含まれるモデル]**&#x200B;から1つ以上の[属性モデル &#x200B;](#attribution-models)を選択し、**[!UICONTROL コンテナ]**&#x200B;から[&#x200B; コンテナ &#x200B;](#container)を選択し、比較に使用する&#x200B;**[!UICONTROL ルックバックウィンドウ]**&#x200B;から[&#x200B; ルックバックウィンドウ &#x200B;](#lookback-window)を選択します。
+1. **[!UICONTROL 含まれるモデル]**&#x200B;から1つ以上の[属性モデル ](#attribution-models)を選択し、**[!UICONTROL コンテナ]**&#x200B;から[ コンテナ ](#container)を選択し、比較に使用する&#x200B;**[!UICONTROL ルックバックウィンドウ]**&#x200B;から[ ルックバックウィンドウ ](#lookback-window)を選択します。
 
 1. 「**[!UICONTROL 作成]**」を選択して、パネル内のビジュアライゼーションを作成します。
 
@@ -114,7 +112,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 * **合計指標**：選択したディメンションに起因する、レポート時間枠で発生したコンバージョンの合計数。
 * **アトリビューション比較バー**：選択したディメンションの各ディメンションアイテム間で、アトリビューションされたコンバージョンを視覚的に比較します。 各棒の色は、個別のアトリビューションモデルを表します。
-* **アトリビューション比較テーブル**：棒グラフと同じデータを表形式で表示します。 この表で異なる列または行を選択すると、棒グラフに加えて、パネル内の他のビジュアライゼーションの一部がフィルターされます。 このテーブルは、Workspace の他のフリーフォームテーブルと同様に機能し、指標、セグメント、分類などのコンポーネントを追加できます。
+* **アトリビューション比較テーブル**：棒グラフと同じデータを表形式で表示します。 このテーブルで異なる列または行を選択すると、棒グラフに加えて、パネル内の他のビジュアライゼーションの一部がフィルターされます。 このテーブルは、Workspace の他のフリーフォームテーブルと同様に機能し、指標、セグメント、分類などのコンポーネントを追加できます。
 * **重なり図**：上位 3 つのディメンション項目と、それらが共同でコンバージョンに関わる頻度を示すベン図ビジュアライゼーション。 例えば、バブルの重複部分のサイズは、両方のディメンション項目にユーザーが接触したときにコンバージョンが発生した頻度を示します。 隣接したフリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。
 * **パフォーマンスの詳細**：最大 3 つのアトリビューションモデルを視覚的に比較する散布図ビジュアライゼーション。
 * **トレンドパフォーマンス**：最上位ディメンション項目の属性コンバージョンのトレンドを表示します。 隣接したフリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。
@@ -146,7 +144,7 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

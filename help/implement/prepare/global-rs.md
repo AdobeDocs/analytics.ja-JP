@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # グローバルレポートスイートの考慮事項
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 * **複数のレポートスイートは不要**：すべてのデータは 1 つのレポートスイートで収集できるので、開発者が誤って間違ったレポートスイートにデータを送信する可能性は低くなります。
 * **ロールアップは不要**：ロールアップは、個々のレポートスイートのデータを日単位で集計する、かなり古い機能です。 ロールアップでは、訪問や訪問者のデータの重複が除外されず、数値が水増しされる可能性があります。 詳細については、『管理者ユーザーガイド』の[ロールアップ](../../admin/tools/manage-rs/rollup-report-suite.md)を参照してください。
 * **時間を節約**：Workspace のプロジェクト、分類、セグメントおよび計算指標は、同じグローバルレポートスイートに結び付けられます。 管理者は、これらのコンポーネントやデータガバナンスの管理に費やす時間を短縮できます。
-* **より正確なクロスブランドアトリビューション**：あるサイトで訪問が開始し、その後、成功イベントをトリガーする前に所有する別のサイトに対するクリックをおこなうと、アトリビューションは正確に収集されます。 例えば、訪問者が有料検索リンクをクリックしてサイト A に到着し、その後、サイト B へのリンクをクリックして購入したとします。 グローバルレポートスイートは、購入を有料検索に正確に結び付けます。
+* **より正確なクロスブランドアトリビューション**：あるサイトで訪問が開始し、その後、成功イベントをトリガーする前に所有する別のサイトに対するクリックをおこなうと、アトリビューションは正確に収集されます。 例えば、訪問者が有料検索リンクをクリックすると、サイト Aに移動します。サイト Bへのリンクをクリックして購入します。 グローバルレポートスイートは、購入を有料検索に正確に結び付けます。
 * **シンプル化された実装**：すべてのブランド／サイトはデータを同じレポートスイートに送信するので、各サイトにわたる実装が一致します。 この強制的なガバナンスにより、特定のディメンションまたは指標が同じ eVar またはイベントに保存されます。 管理者、テスト担当者、タグ管理の所有者、アナリストは、この簡素化のメリットを享受できます。
 
 >[!NOTE]
@@ -86,7 +86,7 @@ ht-degree: 95%
    >任意のカスタム変数がドメイン間で同様に使用されていることを確認します。 サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータレイヤーがあり、データ収集を簡略化できることを確認します。 データレイヤーを使用しなくてもデータを収集することはできますが、特にサイトのデザインが変更されるにつれて、実装の信頼性と長期的な有効性は低下します。
 1. Adobe Experience Platform でタグを使用して Analytics を実装します。 サイトごとに異なるデータ要素が必要になる場合があります。 各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。 [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
-1. [Adobe Visitor ID サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
+1. [Adobe Visitor ID サービス ](https://experienceleague.adobe.com/ja/docs/id-service/using/home)を含め、[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja)関数を使用します。 この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データを結合します。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
@@ -99,5 +99,5 @@ ht-degree: 95%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
+>[ マルチスイートタグ付けからグローバルレポートスイートおよび仮想レポートスイートへの移行](../../components/vrs/vrs-considerations.md)
 >[ロールアップとグローバル レポート スイートの比較](../../admin/tools/manage-rs/rollup-report-suite.md)

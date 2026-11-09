@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 26%
-
 ---
-
 # リクエスト管理 - 定義
 
 {{legacy-arb}}
@@ -39,7 +37,7 @@ ht-degree: 26%
 
 ## 概要 {#section_75C288C945FA4781A4EDF806711A5660}
 
-[!UICONTROL &#x200B; リクエストマネージャー]には、すべてのシートまたはアクティブなワークブックの1枚のシートに対して作成したすべてのリクエストのステータスの詳細が表示されます。 また、リクエストを追加、編集、更新、削除することもできます。 これらの関数は、通常、以前のリクエストを含むExcel スプレッドシートで使用可能なセルを右クリックすると、[!UICONTROL &#x200B; リクエストウィザード &#x200B;]および[!UICONTROL &#x200B; リクエストマネージャー]に関連付けられます。
+[!UICONTROL  リクエストマネージャー]には、すべてのシートまたはアクティブなワークブックの1枚のシートに対して作成したすべてのリクエストのステータスの詳細が表示されます。 また、リクエストを追加、編集、更新、削除することもできます。 これらの関数は、通常、以前のリクエストを含むExcel スプレッドシートで使用可能なセルを右クリックすると、[!UICONTROL  リクエストウィザード ]および[!UICONTROL  リクエストマネージャー]に関連付けられます。
 
 Report Builder ツールバーの&#x200B;**[!UICONTROL 管理]** ![](assets/edit_request.gif)をクリックすると、[!UICONTROL Request Manager]が表示されます。
 
