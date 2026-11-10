@@ -30,8 +30,8 @@ ht-degree: 28%
 ---
 # Adobe Analytics セキュリティリソース
 
-Adobeは、業界の基準、規制、認定に準拠するために、確立されたセキュリティプロセスとコントロールに従っています。 Adobeの全社的なセキュリティ対策について詳しくは、[Adobe セキュリティ ](https://www.adobe.com/trust/security.html)を参照してください。
+Adobeは、業界の基準、規制、認定に準拠するために、確立されたセキュリティプロセスとコントロールに従っています。 Adobeの全社的なセキュリティ対策について詳しくは、[Adobe セキュリティ &#x200B;](https://www.adobe.com/trust/security.html)を参照してください。
 
 Adobe Analyticsに固有のプラクティスに関する情報については、[Adobe Analytics セキュリティの概要](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf)を参照してください。 アーキテクチャ、認証、データセンター、ネットワーク、人材に関するプロセスの概要を説明します。
 
-Adobe Analyticsを含むAdobeのすべての製品について報告できる脆弱性が見つかった場合は、[Adobe バグ報奨金プログラム ](https://www.adobe.com/trust/security/bug-bounty.html)を参照してください。
+Adobe Analyticsを含むAdobeのすべての製品について報告できる脆弱性が見つかった場合は、[Adobe バグ報奨金プログラム &#x200B;](https://www.adobe.com/trust/security/bug-bounty.html)を参照してください。
