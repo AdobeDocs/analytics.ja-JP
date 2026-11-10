@@ -60,7 +60,7 @@ Web SDKでは、[!UICONTROL Edge domain]を使用して、Tracking ServerとSecu
 
 ## Web SDKを手動で実装するEdge ドメイン
 
-[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
+[`edgeDomain`](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/edgedomain)を使用してSDKを設定します。 フィールドは、データの送信先ドメインを決定する文字列です。
 
 ```json
 alloy("configure", {
@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 `trackingServerSecure` （または`edgeDomain`）に使用する値は、組織がAdobeにデータを送信する方法によって異なります。
 
-* **Adobeが管理する証明書プログラム [&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)様、[様が管理する証明書](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 &#x200B;例えば、`data.example.com` のように設定します。
+* **Adobeが管理する証明書プログラム [&#128279;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/adobe-managed-cert)様、[様が管理する証明書](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/customer-managed-cert)様、[content delivery network （CDN） &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/cdn)様など、1st パーティドメイン**&#x200B;を使用している場合は、その値をドメインに設定します。 &#x200B;例えば、`data.example.com` のように設定します。
 * **組織がサードパーティのドメイン**&#x200B;を使用している場合は、値を`data.adobedc.net`のテナント ID サブドメインに設定します。 例えば、`example.data.adobedc.net` のように設定します。
 
-テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[&#x200B; データ収集ドメインの選択](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
+テナント IDの検索方法など、各オプションについて詳しくは、CX Enterprise インターフェイスおよび管理ガイドの「[&#x200B; データ収集ドメインの選択](https://experienceleague.adobe.com/ja/docs/core-services/interface/data-collection/collection-domain)」を参照してください。
 
 Adobeでは、組織全体の一貫性を保つために、この情報を[&#x200B; ソリューション設計ドキュメント &#x200B;](../../prepare/solution-design.md)に保管することを強くお勧めします。
 
@@ -107,7 +107,7 @@ Adobeでは、組織全体の一貫性を保つために、この情報を[&#x20
 Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
 * AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[AppMeasurementを使用した訪問者特定](/help/implement/id/appmeasurement.md)を参照してください。
-* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
+* Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
 * 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Edge Network IDが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 
 **実装でECID**&#x200B;を使用しない場合は、実装に対する次の影響を考慮してください。

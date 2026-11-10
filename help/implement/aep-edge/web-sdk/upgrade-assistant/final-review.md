@@ -86,4 +86,4 @@ ht-degree: 13%
 1. ライブラリを承認用に送信し、ステージング環境でテストします。
 1. ライブラリを承認し、実稼動環境に公開します。
 
-タグユーザーガイドの[公開フロー](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)を参照してください。
+タグユーザーガイドの[公開フロー](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/publishing-flow)を参照してください。
