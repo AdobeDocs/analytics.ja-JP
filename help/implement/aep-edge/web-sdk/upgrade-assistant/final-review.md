@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # 最終確認
@@ -78,7 +78,7 @@ ht-degree: 13%
 
 アップグレードアシスタントは、すべてを一度に作成し、その進行状況を示します。 タグの変更は新しいライブラリに追加されますが、ライブラリは公開されません。
 
-## 変更を公開する {#publish}
+## 変更の公開 {#publish}
 
 移行を完了したら、タグ公開フローを使用して新しいライブラリを移動します。
 
@@ -86,4 +86,4 @@ ht-degree: 13%
 1. ライブラリを承認用に送信し、ステージング環境でテストします。
 1. ライブラリを承認し、実稼動環境に公開します。
 
-タグユーザーガイドの[公開フロー](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow)を参照してください。
+タグユーザーガイドの[公開フロー](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/publishing-flow)を参照してください。

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '734'
+ht-degree: 12%
 ---
 # trackingServerSecure
 
@@ -106,7 +106,7 @@ Adobeでは、組織全体の一貫性を保つために、この情報を[&#x20
 
 Adobeでは、すべての実装でECIDを訪問者IDの主要な形式として使用することを強くお勧めします。 ECIDの収集は、実装タイプに応じて、いくつかの異なる方法で実装できます。
 
-* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[Analytics用の訪問者ID サービスの実装](https://experienceleague.adobe.com/ja/docs/id-service/using/implementation/setup-analytics)を参照してください。
+* AppMeasurementの手動実装では、`VisitorAPI.js`を使用して`getInstance` メソッドを呼び出します。 詳しくは、[AppMeasurementを使用した訪問者特定](/help/implement/id/appmeasurement.md)を参照してください。
 * Adobe Analytics タグ拡張機能を使用した実装では、[[!UICONTROL Experience Cloud ID サービス &#x200B;] タグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/id-service/overview)を使用して、訪問者ID サービスを実装します。 追加設定は不要です。
 * 任意の形式のWeb SDK（`alloy.js`またはWeb SDK タグ拡張機能）を使用した実装には、Edge Network IDが自動的に含まれます。 `edgeDomain`値の設定以外の設定は必要ありません。
 

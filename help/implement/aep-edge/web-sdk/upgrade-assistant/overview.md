@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 3%
 ---
 # Web SDK アップグレードアシスタント
@@ -71,7 +71,7 @@ Web SDK アップグレードアシスタントは、Adobe Analytics tags拡張�
 
 * アップグレード アシスタントに必要な[権限](#permissions)です。
 * Adobe Analytics拡張機能を使用するtags プロパティ。
-* 移行する実装を含むそのプロパティ内のライブラリ。 ライブラリは、公開済みも含め、任意の状態にできます。 タグユーザーガイドの「[&#x200B; ライブラリ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries)」を参照してください。
+* 移行する実装を含むそのプロパティ内のライブラリ。 ライブラリは、公開済みも含め、任意の状態にできます。 タグユーザーガイドの「[&#x200B; ライブラリ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/publish/libraries)」を参照してください。
 
 ### 権限 {#permissions}
 
@@ -81,6 +81,6 @@ Web SDK アップグレードアシスタントは、Adobe Analytics tags拡張�
 | --- | --- |
 | [Experience Platform の権限](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL スキーマの表示]</li><li>[!UICONTROL スキーマの管理]</li><li>[!UICONTROL データセットの表示]</li><li>[!UICONTROL &#x200B; データセットの管理]</li><li>[!UICONTROL ID 名前空間の表示]</li></ul> |
 | 製品アクセス | <ul><li>データ収集（タグ）</li><li>Adobe Analytics</li></ul> |
-| [&#x200B; タグ権限](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL プロパティの管理] |
+| [&#x200B; タグ権限](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL プロパティの管理] |
 
 準備ができたら、[移行を作成します](manager.md#create)。
