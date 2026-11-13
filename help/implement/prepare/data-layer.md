@@ -1,6 +1,6 @@
 ---
 title: データレイヤーの作成
-description: Analytics の実装におけるデータレイヤーとは何か、またそれをどのように使用して Adobe Analytics の変数をマッピングするかについて学びます。
+description: データ層がAnalyticsの実装をどのようにサポートしているか、AdobeがAdobe Client Data Layerを推奨する理由、および各実装方法でデータ層の値を読み取る方法について説明します。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
@@ -34,46 +34,105 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 7%
 ---
 # データレイヤーの作成
 
-データレイヤーは、Analytics 実装で使用される変数値を格納したサイト上の JavaScript オブジェクトで構成されるフレームワークです。 Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
+データ層とは、ページ名、商品詳細、注文IDなど、Adobe Analyticsを使用して収集したデータをサイト上に公開するJavaScriptの構造のことです。 サイトコードはデータレイヤーに書き込まれ、実装はそれから読み取ってAnalytics変数を設定します。 実装はページのHTMLに依存しないため、データ収集に影響を与えることなく、サイトを再設計できます。
 
 ## 前提条件
 
-[ソリューションデザインドキュメントの作成](solution-design.md) - 組織がトラッキング要件に合わせて調整をおこなうことが重要です。 組織の開発チームに連絡する前に、ソリューションデザインドキュメントの準備が整っていることを確認します。
+[&#x200B; ソリューション デザイン ドキュメントを作成](solution-design.md)：組織がトラッキング要件に合わせて調整することが重要です。 組織の開発チームに連絡する前に、ソリューションデザインドキュメントの準備が整っていることを確認します。 ソリューションの設計に必要なデータによって、データレイヤーに含まれるデータが決まります。
 
-## ワークフロー
+## データレイヤーの仕様の選択 {#specifications}
+
+Adobeでは、新しい実装または再構築された実装に対して、[Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) （ACDL）をお勧めします。 ACDLは、データとイベントをグローバル `adobeDataLayer`配列にプッシュする標準的な方法をサイトに提供するオープンソースのJavaScript ライブラリです。 タグ、Web SDK、AppMeasurementはすべて、タグから読み取ることができ、Adobe Experience Managerコアコンポーネントは、タグに自動的に入力できます。
+
+組織は、グローバル `digitalData` オブジェクトにデータを保存する[Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) （CEDDL）やカスタム仕様など、その他の仕様を自由に使用できます。 最も重要なことは、組織がニーズを満たす仕様に沿っていることです。
+
+次の表は、ACDLとCEDDLなどのオブジェクトベースのデータレイヤーを比較したものです。
+
+| | Adobe Client Data Layer （`adobeDataLayer`） | CEDDL （`digitalData`）などのオブジェクト ベースのデータ レイヤー |
+| --- | --- | --- |
+| サイトコードによるデータの書き込み方法 | プッシュオブジェクト：`adobeDataLayer.push({ page: { name: "Home" } })` | プロパティを設定：`digitalData.page.pageInfo.pageName = "Home"` |
+| 実装での値の読み込み方法 | `adobeDataLayer.getState("page.name")`、または&#x200B;**データレイヤーの計算済みステート** データ要素（Adobe Client Data Layer タグ拡張機能から） | `digitalData.page.pageInfo.pageName`、またはコアタグ拡張機能の&#x200B;**JavaScript Variable** data element |
+| データの準備が整ったことを実装が把握する方法 | サイトコードが`{ event: "page view" }`などのイベントをプッシュし、実装がそれをリッスンします。 また、リスナーは、追加される前にプッシュされたイベントに対しても実行されます。 | 直接呼び出しルールを使用するなどして、サイトコードの入力が完了した後、実装でオブジェクトを読み取る必要があります。 |
+
+## データレイヤーの例 {#example}
+
+ACDLには特定のデータ構造は必要ありません。 ソリューション設計ドキュメントを中心に構造を設計し、データレイヤーへの書き込みやデータレイヤーからの読み取り用に文書化します。 このガイドの例では、次の構造を使用しています。
+
+ページが読み込まれると、サイトコードによってページのデータとページビューイベントがプッシュされます。
+
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+  event: "page view",
+  page: {
+    name: "Home",
+    section: "Products",
+    url: "https://example.com/products",
+    referrer: "https://example.com/"
+  }
+});
+```
+
+訪問者が購入を完了すると、サイトコードによって注文の詳細と購入イベントがプッシュされます。
+
+```js
+window.adobeDataLayer.push({
+  event: "purchase",
+  transaction: { id: "ABC123" },
+  products: [
+    { name: "Example product", category: "Example category", quantity: 1, price: 25 }
+  ]
+});
+```
+
+ACDLは、すべてのプッシュを、実装で読み込む計算状態と呼ばれる単一のオブジェクトにマージします。 イベントオブジェクトは、実装に読み込むタイミングを指示します。 [&#x200B; データと計算状態](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/computed-state)および[&#x200B; イベント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/events)を参照してください。
+
+## ワークフロー {#workflow}
 
 データレイヤーを使用して Adobe Analytics を実装する場合は、通常次の手順に従います。
 
-1. **サイト開発チームと協力して、データレイヤーを実装します**：サイト開発チームは、主にデータレイヤーオブジェクトに正しい値が入力されることを確認する必要があります。 このページをサイト開発チームと共に確認し、チーム間で期待値が一致することを確認します。
+1. **サイト開発チームと協力してデータレイヤーを実装する**: サイト開発チームは、主に、データレイヤーに正しい値が含まれていることを確認する責任があります。 このページをサイト開発チームと共に確認し、チーム間で期待値が一致することを確認します。 [Adobe Client Data Layerのインストール &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install)を参照してください。
+1. **ブラウザーコンソールを使用してデータレイヤーを検証する**: ブラウザーの開発者コンソールを開きます。このコンソールは、`F12` キーを使用してほとんどのブラウザーで実行できます。 `adobeDataLayer.getState()`を実行して計算状態を確認するか、`adobeDataLayer.getState("page.name")`を実行して単一の値を確認します。 [&#x200B; インストールの確認](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify)を参照してください。
+1. **データレイヤーをAdobe Analyticsに接続**：この手順は、組織の実装方法によって異なります。 [&#x200B; データレイヤーをAdobe Analytics](#connect)に接続するを参照してください。
 
-   >[!NOTE]
-   >
-   >アドビ推奨のデータレイヤー仕様に従うことはオプションです。 データレイヤーが既に存在する場合、またはアドビの仕様に従わない場合は、どの仕様に従うかを組織で決定してください。
+## データレイヤーとAdobe Analyticsの連携 {#connect}
 
-1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。 デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。 変数値の例は `adobeDataLayer.page.title` です。
-1. **Adobe Experience Platform データ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**：この手順は、組織の実装方法によって次のように異なります。
-   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。 目的のデータレイヤーマッピングを決定するには、[Analytics XDM 変数のマッピング](../aep-edge/xdm-var-mapping.md)を参照してください。
-   * **Analytics 拡張機能を使用する場合**：Adobe Experience Platform データ収集のタグにデータ要素を作成して、目的のデータレイヤーオブジェクトに割り当てます。 次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
+次の表に、各実装メソッドがAdobe Client Data Layerからどのように読み取るかを示します。
 
-## 仕様
+| 実装方法 | データレイヤーの読み方 | 詳細情報 |
+| --- | --- | --- |
+| Web SDK タグ拡張機能 | Adobe Client Data Layer拡張機能から&#x200B;**データレイヤープッシュ** トリガーを使用したイベントルール。 データ層の値をXDM フィールドまたは`data` オブジェクトにマッピングし、Web SDK **変数を更新** アクションを実行してから、**イベントを送信** アクションを実行してデータ層の値を送信します。 | [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)、[XDM オブジェクトフィールドマッピング &#x200B;](../aep-edge/xdm-var-mapping.md)および[&#x200B; データオブジェクトフィールドマッピング &#x200B;](../aep-edge/data-var-mapping.md)を使用して、Adobe Client Data Layer データを送信します |
+| Web SDK JavaScriptライブラリ | `addEventListener()`でデータレイヤーイベントをリッスンし、`sendEvent`を呼び出すときにデータレイヤーからXDMまたは`data` フィールドを設定します。 | [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)、[XDM オブジェクトフィールドマッピング &#x200B;](../aep-edge/xdm-var-mapping.md)および[&#x200B; データオブジェクトフィールドマッピング &#x200B;](../aep-edge/data-var-mapping.md)を使用して、Adobe Client Data Layer データを送信します |
+| Analytics 拡張機能 | **データレイヤーのプッシュ** イベントを使用してルールをトリガーし、Adobe Client Data Layer拡張機能から&#x200B;**データレイヤーの計算状態** データ要素を作成します。 データ要素を&#x200B;**変数を設定** アクションでAnalytics変数に割り当ててから、**ビーコンを送信** アクションでデータを送信します。 | [&#x200B; データ層オブジェクトのデータ要素へのマッピング &#x200B;](../launch/layer-to-elements.md)および[&#x200B; データ要素のAnalytics変数へのマッピング &#x200B;](../launch/elements-to-variable.md) |
+| AppMeasurement | ACDLの読み込み後に`getState()`の値を読み取り、`s.t()`を呼び出します。 | [AppMeasurementでデータレイヤーを読み取る](#appmeasurement) |
 
-アドビでは、新規実装または再構築された実装に [Adobe クライアントデータレイヤー](https://github.com/adobe/adobe-client-data-layer/wiki)を使用することをお勧めします。
+### AppMeasurementでデータレイヤーを読む {#appmeasurement}
 
-組織では、[カスタマーエクスペリエンスデジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)などの他のデータレイヤー仕様や、まったく別のカスタム仕様を自由に使用できます。 組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
+ACDLは、ライブラリの読み込み時に`getState()` メソッドを`adobeDataLayer`配列に追加します。 ライブラリが読み込まれ、計算状態に最新のデータが含まれていることを確認するには、イベントリスナー内の値を読み取ります。
 
-データレイヤーは拡張可能です。組織に固有の要件がある場合は、そのニーズに合わせてオブジェクトをデータレイヤーに含めることができます。
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+  dl.addEventListener("page view", function(event) {
+    s.pageName = dl.getState("page.name");
+    s.channel = dl.getState("page.section");
+    s.t();
+  });
+});
+```
 
-## データレイヤー値の設定
+リスナーは、リスナーが追加される前にプッシュされたイベントを含む、`page view` イベントごとに1回実行されます。 このガイドの変数ページ（[`pageName`](../vars/page-vars/pagename.md)など）では、`getState()`を使用して個々の値を読み取る方法を説明します。 このような例は、リスナー内や、**データレイヤーのプッシュ** イベントトリガーを含むAnalytics拡張機能ルールのカスタムコードエディターで使用できます。
 
-通常、データレイヤーはサーバーサイドで生成され、サイトコンテンツの構築に使用したのと同じオブジェクトを参照します。 組織の[ソリューションデザインドキュメント](solution-design.md)で設定されたトラッキング要件に基づいて、サイトのデータレイヤーを設定します。
+単一ページアプリケーションなど、実装でページごとに複数のヒットを送信する場合は、[`clearVars()`](../vars/functions/clearvars.md)を使用して、1つのヒットの値が次のヒットに保持されないようにします。
 
 ## 次の手順
 
-[データ要素へのデータレイヤーオブジェクトのマッピング](../launch/layer-to-elements.md)：Adobe Experience Platform で、サイトのデータレイヤーを使用します。
+* [&#x200B; データレイヤーオブジェクトをデータ要素にマッピング &#x200B;](../launch/layer-to-elements.md): Adobe Experience Platform タグでサイトのデータレイヤーを使用します。
+* [Adobe Client Data Layer ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)：すべてのACDL メソッド、イベント、ベストプラクティスについて説明します。

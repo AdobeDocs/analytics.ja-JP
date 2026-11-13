@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 84%
+source-wordcount: '329'
+ht-degree: 77%
 ---
 # pageURL
 
@@ -80,8 +80,8 @@ s.pageURL = "https://example.com";
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
+[Adobe Client Data Layer](../../prepare/data-layer.md)を使用する場合は、`getState()`の値を読み取ります。 呼び出すタイミングについては、[AppMeasurement](../../prepare/data-layer.md#appmeasurement)を使用したデータレイヤーの読み取りを参照してください。
 
 ```js
-s.pageURL = digitalData.page.pageInfo.destinationURL;
+s.pageURL = adobeDataLayer.getState("page.url");
 ```
