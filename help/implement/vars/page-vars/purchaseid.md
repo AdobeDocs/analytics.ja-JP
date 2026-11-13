@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 78%
+source-wordcount: '388'
+ht-degree: 73%
 ---
 # purchaseID
 
@@ -51,8 +51,8 @@ ht-degree: 78%
 
 購入IDは、次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.purchaseID`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.purchaseID`
 
 ## Adobe Analytics拡張機能を使用した購入ID
 
@@ -77,10 +77,10 @@ ht-degree: 78%
 s.purchaseID = "ABC123";
 ```
 
-`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
+[Adobe Client Data Layer](../../prepare/data-layer.md)を使用する場合は、`getState()`の値を読み取ります。 呼び出すタイミングについては、[AppMeasurement](../../prepare/data-layer.md#appmeasurement)を使用したデータレイヤーの読み取りを参照してください。
 
 ```js
-s.purchaseID = digitalData.transaction.transactionID;
+s.purchaseID = adobeDataLayer.getState("transaction.id");
 ```
 
 >[!CAUTION]

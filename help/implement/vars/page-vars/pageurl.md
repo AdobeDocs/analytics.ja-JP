@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 84%
+source-wordcount: '329'
+ht-degree: 77%
 ---
 # pageURL
 
@@ -43,14 +43,14 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 >[!NOTE]
 >
->この変数は、Analysis Workspace では使用できるディメンションではありません。 Data Warehouse およびデータフィードでのみ使用できます。 さらに、アドビのデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)画像リクエストからこのディメンションを除外します。 ページ URL を Analysis Workspace のディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、ヒットごとに `pageURL`eVar[&#128279;](evar.md) に  変数を渡すことを検討してください。
+>この変数は、Analysis Workspace では使用できるディメンションではありません。 Data Warehouse およびデータフィードでのみ使用できます。 さらに、アドビのデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)画像リクエストからこのディメンションを除外します。 ページ URL を Analysis Workspace のディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、ヒットごとに `pageURL`eVar](evar.md) に [ 変数を渡すことを検討してください。
 
 ## Web SDKを使用したページ URL
 
 ページ URLは、次の変数にマッピングされます。
 
-* [XDM オブジェクト &#x200B;](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
-* [&#x200B; データオブジェクト &#x200B;](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL`または`data.__adobe.analytics.g`
+* [XDM オブジェクト ](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [ データオブジェクト ](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL`または`data.__adobe.analytics.g`
 
 ## Adobe Analytics拡張機能を使用したページ URL
 
@@ -80,8 +80,8 @@ s.pageURL = "https://example.com";
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
+[Adobe Client Data Layer](../../prepare/data-layer.md)を使用する場合は、`getState()`の値を読み取ります。 呼び出すタイミングについては、[AppMeasurement](../../prepare/data-layer.md#appmeasurement)を使用したデータレイヤーの読み取りを参照してください。
 
 ```js
-s.pageURL = digitalData.page.pageInfo.destinationURL;
+s.pageURL = adobeDataLayer.getState("page.url");
 ```

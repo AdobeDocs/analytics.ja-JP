@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # データレイヤーオブジェクトをデータ要素にマッピングする
 
@@ -45,17 +45,25 @@ ht-degree: 93%
 
 [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)は、ツール全体で使用できる Adobe Experience Platform データ収集のコンポーネントです。 データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
+次の手順では、タグプロパティにインストールする必要がある[Adobe Client Data Layer拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)を使用します。
+
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のタグプロパティをクリックします。
-1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
+1. 目的のタグプロパティを選択します。
+1. 「**[!UICONTROL データ要素]**」タブを選択し、「**[!UICONTROL データ要素を追加]**」を選択します。
 
    ![データ要素の作成](assets/createelement.png)
 
-1. データ要素の名前を入力します。 追跡するデータレイヤーの JavaScript 変数に対応する単純なラベルを指定できます。
-1. **[!UICONTROL 拡張機能]** ドロップダウンリストで、**[!UICONTROL Core]**&#x200B;を選択します。
-1. 「**[!UICONTROL Data Element Type]**」ドロップダウンリストで、「**[!UICONTROL JavaScript変数]**」を選択します。 右側にテキストフィールドが表示され、このデータ要素にマッピングする JavaScript 変数を入力できます。
-1. （通常はデータレイヤー内で）目的の JavaScript 変数を入力します。 例えば、組織のデータレイヤーがアドビの推奨プラクティスと密接に一致する場合、値は `digitalData.page.pageInfo.pageName` になります。 ブラウザーのコンソールを使用して、JavaScript 変数の構文と値を検証できます。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. データ要素の名前（`Page name`など）を入力します。
+1. **[!UICONTROL 拡張機能]** ドロップダウンリストで、**[!UICONTROL Adobe Client Data Layer]**&#x200B;を選択します。
+1. 「**[!UICONTROL データ要素タイプ]**」ドロップダウンリストで、「**[!UICONTROL データレイヤー計算状態]**」を選択します。
+1. **[!UICONTROL 戻り値]**&#x200B;で、**[!UICONTROL 特定のパス]**&#x200B;を選択し、データレイヤーの値（`page.name`など）へのパスを入力します。 パスを検証するには、ブラウザーのコンソールで`adobeDataLayer.getState("page.name")`を実行します。
+1. 「**[!UICONTROL 保存]**」を選択します。
+
+これらのデータ要素は、拡張機能の&#x200B;**[!UICONTROL データレイヤーのプッシュ]** イベントトリガーのルールで使用します。これにより、データレイヤーにプッシュからのデータが読み込まれ、含まれます。 [ データ要素タイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)を参照してください。
+
+### オブジェクトベースのデータレイヤー {#object-based}
+
+データ層がCEDDL `digitalData` オブジェクトなどのJavaScript オブジェクトである場合は、代わりに&#x200B;**[!UICONTROL Core]**&#x200B;拡張機能の&#x200B;**[!UICONTROL JavaScript Variable]** データ要素タイプを使用します。 値へのパス（`digitalData.page.pageInfo.pageName`など）を入力します。 この種類のデータ要素は、Adobe Client Data Layerを読み取ることができません。このレイヤーは、データをオブジェクトのプロパティではなく計算された状態で保存します。
 
 ## 次の手順
 
