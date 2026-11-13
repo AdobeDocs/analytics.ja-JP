@@ -45,7 +45,7 @@ ht-degree: 46%
 
 [データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)は、ツール全体で使用できる Adobe Experience Platform データ収集のコンポーネントです。 データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
-次の手順では、タグプロパティにインストールする必要がある[Adobe Client Data Layer拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)を使用します。
+次の手順では、タグプロパティにインストールする必要がある[Adobe Client Data Layer拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/client-data-layer/overview)を使用します。
 
 1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティを選択します。
