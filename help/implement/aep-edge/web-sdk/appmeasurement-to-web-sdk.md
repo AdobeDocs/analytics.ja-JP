@@ -103,7 +103,7 @@ alloy("configure", {
 
 +++**4. JSON ペイロードを使用するようにコードロジックを更新します**
 
-Analyticsの実装を変更して、`AppMeasurement.js`または`s` オブジェクトに依存しないようにします。 代わりに、変数を正しい形式のJavaScript オブジェクトに設定し、Adobeに送信するとJSON オブジェクトに変換します。 サイトに[&#x200B; データレイヤー](../../prepare/data-layer.md)を設定すると、同じ値を引き続き参照できるため、値を設定する際に非常に役立ちます。 サイトでAdobe Client Data Layerを使用している場合は、[Adobe Client Data Layer data with the Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)を参照して、`sendEvent`を呼び出す際のデータレイヤー値の読み取り方法を確認してください。
+Analyticsの実装を変更して、`AppMeasurement.js`または`s` オブジェクトに依存しないようにします。 代わりに、変数を正しい形式のJavaScript オブジェクトに設定し、Adobeに送信するとJSON オブジェクトに変換します。 サイトに[&#x200B; データレイヤー](../../prepare/data-layer.md)を設定すると、同じ値を引き続き参照できるため、値を設定する際に非常に役立ちます。 サイトでAdobe Client Data Layerを使用している場合は、[Adobe Client Data Layer data with the Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/acdl/web-sdk)を参照して、`sendEvent`を呼び出す際のデータレイヤー値の読み取り方法を確認してください。
 
 Adobe Analyticsにデータを送信するには、Web SDK ペイロードで、このオブジェクト内で設定されているすべての分析変数で`data.__adobe.analytics`を使用する必要があります。 このオブジェクト内の変数は、AppMeasurement変数と同じ名前と形式を共有します。 例えば、`products`変数を設定する場合は、XDMと同様に個々のオブジェクトに分割しないでください。 代わりに、`s.products`変数を設定する場合は、文字列として正確に含めます。
 

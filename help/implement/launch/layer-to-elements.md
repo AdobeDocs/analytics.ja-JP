@@ -59,7 +59,7 @@ ht-degree: 46%
 1. **[!UICONTROL 戻り値]**&#x200B;で、**[!UICONTROL 特定のパス]**&#x200B;を選択し、データレイヤーの値（`page.name`など）へのパスを入力します。 パスを検証するには、ブラウザーのコンソールで`adobeDataLayer.getState("page.name")`を実行します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 
-これらのデータ要素は、拡張機能の&#x200B;**[!UICONTROL データレイヤーのプッシュ]** イベントトリガーのルールで使用します。これにより、データレイヤーにプッシュからのデータが読み込まれ、含まれます。 [&#x200B; データ要素タイプ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)を参照してください。
+これらのデータ要素は、拡張機能の&#x200B;**[!UICONTROL データレイヤーのプッシュ]** イベントトリガーのルールで使用します。これにより、データレイヤーにプッシュからのデータが読み込まれ、含まれます。 [&#x200B; データ要素タイプ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)を参照してください。
 
 ### オブジェクトベースのデータレイヤー {#object-based}
 
