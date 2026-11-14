@@ -107,7 +107,7 @@ ht-degree: 85%
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。 イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
 * **データコネクタ：** サードパーティがAdobe Analyticsへのデータのアップロードを自動化できるようにする、廃止された開発ソリューション。 サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。 [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)に置き換えられました。
 * **データフィード：**&#x200B;すべてのヒットを行として、変数を別々の列としてリスト化する生データのエクスポート。 Adobe Analytics のデータをサードパーティのデータベースに書き出すための最も一般的な方法です。 「エクスポートユーザーガイド」の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
-* **データレイヤー：** [&#x200B; データレイヤー](/help/implement/prepare/data-layer.md)は、Analyticsの実装で使用されるデータを公開する、サイト上のJavaScript構造です。 Analytics 変数に値を割り当てる際の制御性が向上し、メンテナンスも容易になります。 Adobeでは、グローバル `adobeDataLayer`配列を使用する[Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)をお勧めします。
+* **データレイヤー：** [&#x200B; データレイヤー](/help/implement/prepare/data-layer.md)は、Analyticsの実装で使用されるデータを公開する、サイト上のJavaScript構造です。 Analytics 変数に値を割り当てる際の制御性が向上し、メンテナンスも容易になります。 Adobeでは、グローバル `adobeDataLayer`配列を使用する[Adobe Client Data Layer](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/acdl/overview)をお勧めします。
 * **データソース：**&#x200B;ユーザーがファイルから Adobe Analytics にデータをアップロードできるようにします。 通常、ファイルは FTP サイトから取得されます。 「インポートユーザーガイド」の「[データソース](/help/import/data-sources/overview.md)」を参照してください。
 * **Data Warehouse：** Adobe Analytics の機能の 1 つで、大きなサイズのレポートをリクエストできます。 「エクスポートユーザーガイド」の「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。
 * **Data Workbench:**&#x200B;複数のチャネルにまたがるオンラインとオフラインの両方の顧客とのやり取りからデータを収集、処理、分析、可視化するために設計された[退職済み](https://experienceleague.adobe.com/ja/docs/discontinued/using/data-workbench)分析ツールです。
