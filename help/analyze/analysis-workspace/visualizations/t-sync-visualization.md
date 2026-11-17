@@ -25,7 +25,7 @@ role_v2:
 source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 18%
+ht-degree: 22%
 ---
 # データソースの管理 {#manage-data-sources}
 
@@ -37,7 +37,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_lockselection_showtable"
 >title="テーブルの表示"
->abstract="**[!UICONTROL テーブルを表示]**&#x200B;を選択すると、元のデータソースとは別に、現在のビジュアライゼーション用に新しいデータソースが生成されます。"
+>abstract="「**[!UICONTROL テーブルを表示]**」を選択して、元のデータソースとは別に、現在のビジュアライゼーション用の新しいデータソースを生成します。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_freeformtable_showtable"
@@ -66,7 +66,7 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/328260?captions=jpn&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source sett
 
 1. 「**[!UICONTROL データソース]**」タブを選択します。
 
-   ![&#x200B; データソース、リンクされたビジュアライゼーション、およびロック選択設定を示す「データソース」タブ。](assets/lock-selection.png)
+   ![ データソース、リンクされたビジュアライゼーション、およびロック選択設定を示す「データソース」タブ。](assets/lock-selection.png)
 
 1. 次のいずれかの設定を行います。
 
@@ -89,7 +89,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source sett
    | **[!UICONTROL データソース]** | ビジュアライゼーションの基となるデータソースを選択します。 |
    | **[!UICONTROL リンクされたビジュアライゼーション]** | データソース（フリーフォームテーブル）にリンクされているすべてのビジュアライゼーションを一覧表示します。 |
    | **[!UICONTROL データソースを表示]** | ビジュアライゼーションに対応するデータソース（フリーフォームテーブル）を表示または非表示にします。 |
-   | **[!UICONTROL 選択範囲をロック]** | データソースで現在選択されている行にビジュアライゼーションをロックしてから、**[!UICONTROL 選択した位置]**&#x200B;または&#x200B;**[!UICONTROL 選択した項目]**&#x200B;を選択します。 [選択範囲をロック &#x200B;](#lock-selection)を参照してください。 |
+   | **[!UICONTROL 選択範囲をロック]** | データソースで現在選択されている行にビジュアライゼーションをロックしてから、**[!UICONTROL 選択した位置]**&#x200B;または&#x200B;**[!UICONTROL 選択した項目]**&#x200B;を選択します。 [選択範囲をロック ](#lock-selection)を参照してください。 |
 
 ## 選択をロック {#lock-selection}
 
