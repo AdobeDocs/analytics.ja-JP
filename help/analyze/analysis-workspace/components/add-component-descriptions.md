@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -54,7 +54,7 @@ Analytics管理者は、レポートスイート内で、またはAnalysis Works
 
 >[!BEGINSHADEBOX]
 
-デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; コンポーネントの説明を追加](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}を参照してください。
+デモ動画については、![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ コンポーネントの説明を追加](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -63,26 +63,24 @@ Analytics管理者は、レポートスイート内で、またはAnalysis Works
 
 Analysis Workspace のデータ辞書は、ユーザーと管理者の両方が Analytics 環境のコンポーネントを追跡し、よりよく理解するのに役立ちます。 Analytics管理者は、データディクショナリを使用して、Analysis Workspace内で直接コンポーネントの説明を追加できます。
 
-データディクショナリでのコンポーネント説明の編集について詳しくは、[&#x200B; データディクショナリでのコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)を参照してください。
+データディクショナリでのコンポーネント説明の編集について詳しくは、[ データディクショナリでのコンポーネントエントリの編集](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)を参照してください。
 
 データ辞書の一般情報については、[データ辞書の概要](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)を参照してください。
 
 >[!MORELIKETHIS]
 >
->[&#x200B; レポートコンポーネントの設定](/help/components/vrs/vrs-components.md)
->[データ ディクショナリ コンポーネント エントリ &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>[ レポートコンポーネントの設定](/help/components/vrs/vrs-components.md)
+>[データ ディクショナリ コンポーネント エントリ ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
 
 ## 説明の自動生成
-
-{{release-limited-testing-section}}
 
 Adobe Analyticsでは、各説明を手作業で記述する代わりに、生成AIを使用して説明を記述できます。 1つのコンポーネントの説明を生成したり、同時に多くのコンポーネントの説明を生成したりできます。
 
 生成された説明：
 
 * 3つ以下の文章です。
-* AI **を使用してAdobeによって生成されたテキスト**&#x200B;で終わると、説明が生成されたことがユーザーに分かります。
+* AI ]**を使用してAdobeによって生成されたテキスト**[!UICONTROL &#x200B;で終わると、説明が生成されたことがユーザーに分かります。
 * 生成後に編集することもできます。
 
 ### 前提条件
@@ -106,9 +104,9 @@ Adobe Analyticsの次の領域で説明を生成できます。 一部の場所�
 
 | 場所 | サポートされているコンポーネント | 単一コンポーネント | 複数のコンポーネント |
 | --- | --- | --- | --- |
-| [&#x200B; データディクショナリ &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>ディメンション</li><li>指標</li><li>計算指標</li><li>セグメント</li><li>日付範囲</li></ul> | はい | はい |
+| [ データディクショナリ ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>ディメンション</li><li>指標</li><li>計算指標</li><li>セグメント</li><li>日付範囲</li></ul> | はい | はい |
 | [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md) | セグメント | はい | いいえ |
-| [&#x200B; セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | セグメント | いいえ | はい |
+| [ セグメントマネージャー](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | セグメント | いいえ | はい |
 | [計算指標ビルダー](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) | 計算指標 | はい | いいえ |
 | [計算指標マネージャー](/help/components/calculated-metrics/workflow/cm-manager.md#action-bar) | 計算指標 | いいえ | はい |
 | [日付範囲ビルダー](/help/analyze/analysis-workspace/components/calendar-date-ranges/create.md#date-range-builder) | 日付範囲 | はい | いいえ |
