@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -74,8 +74,6 @@ Analysis Workspace のデータ辞書は、ユーザーと管理者の両方が 
 >
 
 ## 説明の自動生成
-
-{{release-limited-testing-section}}
 
 Adobe Analyticsでは、各説明を手作業で記述する代わりに、生成AIを使用して説明を記述できます。 1つのコンポーネントの説明を生成したり、同時に多くのコンポーネントの説明を生成したりできます。
 
