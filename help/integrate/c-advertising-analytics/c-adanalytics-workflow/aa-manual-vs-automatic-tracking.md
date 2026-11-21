@@ -71,7 +71,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 [!UICONTROL  トラッキング ] セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 [!UICONTROL &#x200B; トラッキング &#x200B;] セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -80,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google Ads キャンペーントラッキングコード ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
+![Google Ads キャンペーントラッキングコード &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 様々なトラッキングテンプレート形式によるトラッキングコードの例：
 
@@ -120,7 +120,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 「トラッキング」セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 「トラッキング」セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -128,7 +128,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![ トラッキングコードパラメーターを追加](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![&#x200B; トラッキングコードパラメーターを追加](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL サフィックス形式によるトラッキングコードの例：
 
