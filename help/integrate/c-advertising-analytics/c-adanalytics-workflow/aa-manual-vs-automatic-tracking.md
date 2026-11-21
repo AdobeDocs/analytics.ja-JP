@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 28%
-
+source-wordcount: '588'
+ht-degree: 27%
 ---
-
 # トラッキングタイプ
 
 トラッキングタイプは、Adobe Analyticsの実装が検索エンジンデータをどのようにトラッキングするかを決定します。 このトラッキングタイプは、Adobe Analytics データを検索エンジンデータで適切に拡張するために必要な手順です。
@@ -42,7 +40,7 @@ ht-degree: 28%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/ja/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -61,7 +59,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/ja/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動トラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -73,7 +71,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 [!UICONTROL &#x200B; トラッキング &#x200B;] セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
+>*`<Advertising Analytics ID>`* の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 [!UICONTROL  トラッキング ] セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Google Ads キャンペーントラッキングコード ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 様々なトラッキングテンプレート形式によるトラッキングコードの例：
 
@@ -122,7 +120,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 
 >[!IMPORTANT]
 >
->_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 「トラッキング」セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
+>_`<Advertising Analytics ID>`_の値（下記の&#x200B;**太字**部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。 「トラッキング」セクションのアカウント画面から、特定のアカウント ID文字列を取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -130,7 +128,7 @@ Microsoft Advertising アカウントに追加する必要がある文字列を�
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![&#x200B; トラッキングコードパラメーターを追加](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![ トラッキングコードパラメーターを追加](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 様々な最終 URL サフィックス形式によるトラッキングコードの例：
 
